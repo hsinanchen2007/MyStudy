@@ -1,8 +1,8 @@
-跟上一题代码一样，一点都没改。
-dp[i][j] 表示前 i 个房子，选第 j 个颜色需要的费用，实际上不用重新申请空间，直接在costs进行操作就行。
-dp[i][j] = dp[i-1][j] + min(dp[i-1][除去第j个颜色])
+# 跟上一题代码一样，一点都没改。
+# dp[i][j] 表示前 i 个房子，选第 j 个颜色需要的费用，实际上不用重新申请空间，直接在costs进行操作就行。
+# dp[i][j] = dp[i-1][j] + min(dp[i-1][除去第j个颜色])
 
-```
+# ```
 class Solution:
     def minCostII(self, costs: List[List[int]]) -> int:
         if len(costs) == 0:
@@ -18,5 +18,5 @@ class Solution:
                 tmp.pop(j)
                 costs[i][j] = costs[i][j] + min(tmp)
         return min(costs[-1])
-```
+# ```
 

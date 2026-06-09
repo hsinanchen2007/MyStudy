@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/c39ce601e815669c0f72aba36f421b386ca3c1ec9e83510fe548d03da73c4294-image.png)
+# ![image.png](https://pic.leetcode-cn.com/c39ce601e815669c0f72aba36f421b386ca3c1ec9e83510fe548d03da73c4294-image.png)
 
 
-```
+# ```
 
 '''
 先求所有子树的节点和，构成节点和列表
@@ -34,4 +34,4 @@ class Solution:
             ans = max(ans, sum_list[idx-1] * (total_sum - sum_list[idx-1]))
 
         return ans % 1000000007
-```
+# ```

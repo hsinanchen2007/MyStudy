@@ -1,9 +1,9 @@
-### 解题思路
-复制代码，去掉注释，就能知道。用的二维前缀和。
+// ### 解题思路
+// 复制代码，去掉注释，就能知道。用的二维前缀和。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 	boolean f(int l,int [][]a,int threshold)
 	{
@@ -39,4 +39,4 @@ class Solution {
         return 0;
     }
 }
-```
+// ```

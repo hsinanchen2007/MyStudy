@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxDistance(self, grid: List[List[int]]) -> int:
         for i, row in enumerate(grid):
@@ -33,4 +33,4 @@ class Solution:
         if ans == float('inf') or ans == 0:
             return -1
         return ans
-```
+# ```

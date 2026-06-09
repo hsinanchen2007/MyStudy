@@ -1,5 +1,5 @@
 
-```js
+// ```js
 var isUnivalTree = function(root) {
     if(root == null || root.left == null && root.right == null) {
         return true;
@@ -12,4 +12,4 @@ var isUnivalTree = function(root) {
                && isUnivalTree(root.left) && isUnivalTree(root.right);
     }
 };
-```
+// ```

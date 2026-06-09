@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     //排序解法
@@ -78,4 +78,4 @@ public:
         return linearProbing(A);
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-使用暴力破解，对height 中的每个元素寻找其左边和右边最大
+// ### 解题思路
+// 使用暴力破解，对height 中的每个元素寻找其左边和右边最大
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int trap(int[] height) {
         if(height.length < 3) return 0;
@@ -25,4 +25,4 @@ class Solution {
         return total_volume;
     }
 }
-```
+// ```

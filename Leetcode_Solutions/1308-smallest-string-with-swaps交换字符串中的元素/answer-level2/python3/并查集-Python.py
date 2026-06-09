@@ -1,16 +1,16 @@
-### 思路：
-用并查集找到所有可交换位置的集合，排序每个集合内的字符，再插回原字符串。
+# ### 思路：
+# 用并查集找到所有可交换位置的集合，排序每个集合内的字符，再插回原字符串。
 
-例如`s = "dcabfge"`, `pairs = [[0,3],[1,2],[0,2],[4,6]]`
+# 例如`s = "dcabfge"`, `pairs = [[0,3],[1,2],[0,2],[4,6]]`
 
-那么可交换的集合有`[0,1,2,3]、[4,6]`
+# 那么可交换的集合有`[0,1,2,3]、[4,6]`
 
-排序后的字符分别为`'abcd'`, `'ef'`
+# 排序后的字符分别为`'abcd'`, `'ef'`
 
-插回原字符串最终s = `"abcdegf"`
+# 插回原字符串最终s = `"abcdegf"`
 
-### 代码：
-```python []
+# ### 代码：
+# ```python []
 class Solution:
     def smallestStringWithSwaps(self, s: str, pairs: [int]) -> str:
         p = {i:i for i in range(len(s))}    #初始化并查集
@@ -33,9 +33,9 @@ class Solution:
             for i, c in zip(sorted(q), t):
                 ans[i] = c
         return ''.join(ans)
-```
+# ```
 
-```javascript []
+# ```javascript []
 var smallestStringWithSwaps = function (s, pairs) {
     let p = []
     for (let i = 0; i < s.length; i++) {
@@ -69,4 +69,4 @@ var smallestStringWithSwaps = function (s, pairs) {
     }
     return ans.join('')
 };
-```
+# ```

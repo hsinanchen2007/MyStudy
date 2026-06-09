@@ -1,10 +1,10 @@
-### 解题思路
-遍历字符串，栈中保存当前没有出现过的字符串的位置。
-新字符来时去栈里找是否有满足条件的，有就跳过或替换。最终计算栈中字符串长度之和。
+// ### 解题思路
+// 遍历字符串，栈中保存当前没有出现过的字符串的位置。
+// 新字符来时去栈里找是否有满足条件的，有就跳过或替换。最终计算栈中字符串长度之和。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int FindIsIn(char *wordA, char *wordB) 
 {
     int lenA = strlen(wordA);
@@ -54,4 +54,4 @@ int minimumLengthEncoding(char ** words, int wordsSize){
     }
     return retSize;
 }
-```
+// ```

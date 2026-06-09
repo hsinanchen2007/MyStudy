@@ -1,11 +1,11 @@
-### 解题思路
-定义一个栈,
-遍历pushed放到栈中,并且定义一个指针j,用于指向poped数组的位置
-判断栈顶元素是否等于poped[j],如果相等,就弹出对应的元素指针下移,继续进行判断
-最终栈为空则满足返回true
-### 代码
+// ### 解题思路
+// 定义一个栈,
+// 遍历pushed放到栈中,并且定义一个指针j,用于指向poped数组的位置
+// 判断栈顶元素是否等于poped[j],如果相等,就弹出对应的元素指针下移,继续进行判断
+// 最终栈为空则满足返回true
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean validateStackSequences(int[] pushed, int[] popped) {
         int length=pushed.length;
@@ -21,4 +21,4 @@ class Solution {
         return statck.isEmpty();
     }
 }
-```
+// ```

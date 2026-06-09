@@ -1,11 +1,11 @@
-### 解题思路
-这题没用什么算法, 就只是把题意翻译一下而已.
-每次给一个孩子发的糖果数目 = num_people * k + i + 1
-其中k是第几轮, i是第几个孩子.
+# ### 解题思路
+# 这题没用什么算法, 就只是把题意翻译一下而已.
+# 每次给一个孩子发的糖果数目 = num_people * k + i + 1
+# 其中k是第几轮, i是第几个孩子.
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def distributeCandies(self, candies: int, num_people: int) -> List[int]:
         L = [0,] * num_people
@@ -24,4 +24,4 @@ class Solution:
                     break
             k += 1
         return L
-```
+# ```

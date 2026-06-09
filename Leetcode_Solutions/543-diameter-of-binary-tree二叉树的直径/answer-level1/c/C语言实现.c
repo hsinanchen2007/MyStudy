@@ -1,5 +1,5 @@
-C语言实现
-```C []
+// C语言实现
+// ```C []
 int calMaxRoot(struct TreeNode* root, int *maxRoot){
     if (NULL == root) return 0;
     int lLen = calMaxRoot(root->left, maxRoot);
@@ -14,4 +14,4 @@ int diameterOfBinaryTree(struct TreeNode* root){
     return maxRoot;
 }
 
-```
+// ```

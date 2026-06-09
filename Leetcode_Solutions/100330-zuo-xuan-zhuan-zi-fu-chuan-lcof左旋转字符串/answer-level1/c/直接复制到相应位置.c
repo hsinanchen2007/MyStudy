@@ -1,6 +1,6 @@
 
-C 字符串一定要多一个单元存放‘\0’,不加会溢出,坑了好久...
-```
+// C 字符串一定要多一个单元存放‘\0’,不加会溢出,坑了好久...
+// ```
 
 
 char* reverseLeftWords(char* s, int n){
@@ -22,4 +22,4 @@ char* reverseLeftWords(char* s, int n){
     s1[i]='\0';
     return s1;
 }
-```
+// ```

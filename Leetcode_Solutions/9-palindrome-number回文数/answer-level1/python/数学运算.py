@@ -1,12 +1,12 @@
-## 思路：
+# ## 思路：
 
-当然直接用字符串反转比较就行了 `[::-1]`
+# 当然直接用字符串反转比较就行了 `[::-1]`
 
-也可以通过数学运算，找到取反的数
+# 也可以通过数学运算，找到取反的数
 
-## 代码：
+# ## 代码：
 
-```Python []
+# ```Python []
 class Solution:
     def isPalindrome(self, x: int) -> bool:
         if (x < 0) or (x != 0 and x % 10 == 0):
@@ -17,8 +17,8 @@ class Solution:
             x //= 10
         #print(x,cmp_num)
         return x == cmp_num or x == cmp_num // 10
-```
-```C++ []
+# ```
+# ```C++ []
 class Solution {
 public:
     bool isPalindrome(int x) {
@@ -33,5 +33,5 @@ public:
         
     }
 };
-```
+# ```
 

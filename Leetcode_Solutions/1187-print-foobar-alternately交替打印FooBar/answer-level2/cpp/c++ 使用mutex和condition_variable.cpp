@@ -1,9 +1,9 @@
-1.获取锁
-2.判断step_为0时打印foo,step为1时打印bar
-3.解锁
-4.修改step_
-5.通知等待线程
-```
+// 1.获取锁
+// 2.判断step_为0时打印foo,step为1时打印bar
+// 3.解锁
+// 4.修改step_
+// 5.通知等待线程
+// ```
 class FooBar {
  public:
   FooBar(int n) : step_(0) { this->n = n; }
@@ -36,4 +36,4 @@ class FooBar {
   std::mutex mu_;
   std::condition_variable cv_;
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 func longestPalindrome(s string) int {
  dict:=map[string]int{}
  a:=""
@@ -32,4 +32,4 @@ sum=sum+ji+ou+1
 }
 return sum
 }
-```
+// ```

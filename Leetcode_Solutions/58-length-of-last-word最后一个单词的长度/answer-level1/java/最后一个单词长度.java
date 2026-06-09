@@ -1,9 +1,9 @@
-### 解题思路
-Java的两种写法吧，方法一效率高一些
+// ### 解题思路
+// Java的两种写法吧，方法一效率高一些
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int lengthOfLastWord(String s) {
 //        int lastWordLength = 0;
@@ -25,4 +25,4 @@ class Solution {
         return lastWordLength;
     }
 }
-```
+// ```

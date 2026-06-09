@@ -1,7 +1,7 @@
-解题思路：官方题解
+// 解题思路：官方题解
 
 
-```
+// ```
 class Solution {
 public:
     ListNode* deleteDuplicates(ListNode* head) {
@@ -20,4 +20,4 @@ public:
         return head;
     }
 };
-```
+// ```

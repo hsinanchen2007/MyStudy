@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def lemonadeChange(self, bills: List[int]) -> bool:
         if bills[0]!=5:
@@ -24,4 +24,4 @@ class Solution:
         return True
             
         
-```
+# ```

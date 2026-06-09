@@ -1,4 +1,4 @@
-```java
+// ```java
 // time complexity O(n ^ 2)
 class Solution {
 
@@ -56,4 +56,4 @@ class Solution {
         node.id = id;
     }
 }
-```
+// ```

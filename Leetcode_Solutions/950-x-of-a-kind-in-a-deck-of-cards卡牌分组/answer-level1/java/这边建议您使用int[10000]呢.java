@@ -1,11 +1,11 @@
-### 解题思路
-分两个步骤：
-第一步，统计每个整数出现的次数（用int[10000]比HashMap快很多）
-第二步，求所有出现次数的最大公约数，如果这个数不小于2，true
+// ### 解题思路
+// 分两个步骤：
+// 第一步，统计每个整数出现的次数（用int[10000]比HashMap快很多）
+// 第二步，求所有出现次数的最大公约数，如果这个数不小于2，true
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean hasGroupsSizeX(int[] deck) {
         int[] counts = new int[10000];
@@ -28,4 +28,4 @@ class Solution {
         return a % b == 0 ? b : getGCD(b, a % b);
     }
 }
-```
+// ```

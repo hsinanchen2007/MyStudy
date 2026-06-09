@@ -1,9 +1,9 @@
-### 解题思路
-左右指针方式来降低复杂度，同时记得使用等差数列求和的公式。
+// ### 解题思路
+// 左右指针方式来降低复杂度，同时记得使用等差数列求和的公式。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> findContinuousSequence(int target) {
@@ -29,4 +29,4 @@ public:
         return res;
     }
 };
-```
+// ```

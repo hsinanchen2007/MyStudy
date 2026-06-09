@@ -1,7 +1,7 @@
-### 解题思路
-题友phoenix-13的思路，自己一写，发现如此简单
+# ### 解题思路
+# 题友phoenix-13的思路，自己一写，发现如此简单
 
-```python3
+# ```python3
 class Solution:
     def numberOfSubstrings(self, s: str) -> int:
         n = len(s)
@@ -17,4 +17,4 @@ class Solution:
             ans[i] = min(ind_a[i], ind_b[i], ind_c[i])
         return sum(ans)
 
-```
+# ```

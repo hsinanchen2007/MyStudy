@@ -1,6 +1,6 @@
-1. 循环写法
-三个指针，还是简单的。
-```
+// 1. 循环写法
+// 三个指针，还是简单的。
+// ```
 public ListNode reverseList(ListNode head) {
         if(head==null||head.next==null) return head;
 
@@ -16,14 +16,14 @@ public ListNode reverseList(ListNode head) {
         }
         return p1;
     }
-```
+// ```
 
-2. 简单递归
-递归的核心思想就是寻找子问题，链表翻转的子问题，就是去掉head结点之后剩余链表的翻转问题，因此基础思路就是先把head.next为首的链表翻转，然后找到该子链表的尾结点，把head接上。
+// 2. 简单递归
+// 递归的核心思想就是寻找子问题，链表翻转的子问题，就是去掉head结点之后剩余链表的翻转问题，因此基础思路就是先把head.next为首的链表翻转，然后找到该子链表的尾结点，把head接上。
 
-该方法效率较低，因为每一次递归都要寻找子问题的尾结点，时间复杂度O(n^2)
+// 该方法效率较低，因为每一次递归都要寻找子问题的尾结点，时间复杂度O(n^2)
     
-```
+// ```
 public ListNode reverseList(ListNode head) {
         if (head == null || head.next == null) return head;
         //先翻转除head之外的子问题，返回子问题的新头结点
@@ -36,12 +36,12 @@ public ListNode reverseList(ListNode head) {
 
         return newHead;
     }
-```
+// ```
 
-3. 递归写法优化版本
+// 3. 递归写法优化版本
 
-其实通过观察，可以发现不需要每一次递归都循环寻找尾结点，head.next恰好就是子问题的尾结点，所以循环遍历这一步完全可以省掉，优化后的代码如下：
-```
+// 其实通过观察，可以发现不需要每一次递归都循环寻找尾结点，head.next恰好就是子问题的尾结点，所以循环遍历这一步完全可以省掉，优化后的代码如下：
+// ```
 public ListNode reverseList(ListNode head) {
         if (head == null || head.next == null) return head;
         //先翻转除head之外的子问题，返回子问题的新头结点
@@ -52,5 +52,5 @@ public ListNode reverseList(ListNode head) {
 
         return newHead;
     }
-```
+// ```
 

@@ -1,5 +1,5 @@
-Python3双百，用hashtable解决，主要的时间消耗是对子串进行排序判断
-```python
+# Python3双百，用hashtable解决，主要的时间消耗是对子串进行排序判断
+# ```python
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         position = dict()
@@ -16,4 +16,4 @@ class Solution:
                 result[position[sorted_term]].append(term)
 
         return result
-```
+# ```

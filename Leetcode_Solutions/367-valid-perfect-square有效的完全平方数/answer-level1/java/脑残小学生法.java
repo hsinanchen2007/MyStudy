@@ -1,5 +1,5 @@
-无脑暴力查找法，刚接触编程的同学可以参考。简单易懂。一个个数字去试就可以了。
-```
+// 无脑暴力查找法，刚接触编程的同学可以参考。简单易懂。一个个数字去试就可以了。
+// ```
 class Solution {
     public boolean isPerfectSquare(int num) {
         if (num == 1)
@@ -11,4 +11,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

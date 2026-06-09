@@ -1,13 +1,13 @@
-[257.二叉树的所有路径](https://leetcode-cn.com/problems/binary-tree-paths/submissions/)
+// [257.二叉树的所有路径](https://leetcode-cn.com/problems/binary-tree-paths/submissions/)
 
-[力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md)   
+// [力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md)   
 
 
-## DFS 递归
+// ## DFS 递归
 
-递归比较容易写，迭代的话需要另开一个栈用于保存路径记录。
+// 递归比较容易写，迭代的话需要另开一个栈用于保存路径记录。
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -43,4 +43,4 @@ function help(root, str, res) {
     root.left && help(root.left, str, res);
     root.right && help(root.right, str, res);
 }
-```
+// ```

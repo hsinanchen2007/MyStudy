@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
    public int findCircleNum(int[][] M) {//使用深度优先搜索，类似岛屿个数的题目
         int length = M.length;//二维数组长度，即所有人的个数

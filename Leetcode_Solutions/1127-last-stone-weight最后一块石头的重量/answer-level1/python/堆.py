@@ -1,9 +1,9 @@
-### 解题思路
-heapq默认建立小顶堆，可以通过把list取反来间接建立大顶堆
+# ### 解题思路
+# heapq默认建立小顶堆，可以通过把list取反来间接建立大顶堆
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def lastStoneWeight(self, stones: List[int]) -> int:
         if len(stones) == 1: return stones[0]
@@ -17,4 +17,4 @@ class Solution:
             y = heapq.heappop(heap)
             if x != y: heapq.heappush(heap, x-y)
         return 0 if len(heap) == 0 else -heap[0]
-```
+# ```

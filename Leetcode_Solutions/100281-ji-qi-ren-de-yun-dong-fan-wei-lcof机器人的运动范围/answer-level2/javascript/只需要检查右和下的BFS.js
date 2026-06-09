@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/585a7fcdac0c1d6291a53e82f949130c3dad46320a03a5b17ebc2157939b7a24-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/585a7fcdac0c1d6291a53e82f949130c3dad46320a03a5b17ebc2157939b7a24-image.png)
 
-数据量不大，还是创建了一个二维数组比较直观，1表示能到，0表示不能到，-1表示“已检查”。
+// 数据量不大，还是创建了一个二维数组比较直观，1表示能到，0表示不能到，-1表示“已检查”。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 const digSum = num => {
     if (num / 10 < 1) return num;
     let sum = 0;
@@ -63,4 +63,4 @@ var movingCount = function (m, n, k) {
     }
     return step;
 };
-```
+// ```

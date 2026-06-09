@@ -1,9 +1,9 @@
-定义一个point的结构，重载运算符，然后全部丢到小根堆里面取出前k个即可
+// 定义一个point的结构，重载运算符，然后全部丢到小根堆里面取出前k个即可
 
-时间复杂度O(nlogn+klogn) 即O(nlogn)
+// 时间复杂度O(nlogn+klogn) 即O(nlogn)
 
 
-```c++ []
+// ```c++ []
 class Solution {
 public:
     struct point{
@@ -32,4 +32,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-常规思路，四个方向进行遍历，获得最终可吃掉的子的个数；
+// ### 解题思路
+// 常规思路，四个方向进行遍历，获得最终可吃掉的子的个数；
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numRookCaptures(vector<vector<char>>& board) {
@@ -32,4 +32,4 @@ public:
         return res;
     }
 };
-```
+// ```

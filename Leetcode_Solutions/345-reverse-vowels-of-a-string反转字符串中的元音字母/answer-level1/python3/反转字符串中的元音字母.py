@@ -1,9 +1,9 @@
-### 解题思路
-###此处撰写解题思路
-双指针解法
-### 代码
+# ### 解题思路
+# ###此处撰写解题思路
+# 双指针解法
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverseVowels(self, s: str) -> str:
         vowels = "aeiouAEIOU"
@@ -24,4 +24,4 @@ class Solution:
                 left += 1
                 right -= 1
         return "".join(s)
-```
+# ```

@@ -1,11 +1,11 @@
-### 解题思路
-1. 从第一开始累加，一正一负相加为零
-2. 判断n是奇数还是偶数，奇数 第一个为0，否则第一个为1
-![image.png](https://pic.leetcode-cn.com/1f7281abe840e742ba4ec077f76a81e7167a4a0edba2770eb7ade3e967f700ff-image.png)
+// ### 解题思路
+// 1. 从第一开始累加，一正一负相加为零
+// 2. 判断n是奇数还是偶数，奇数 第一个为0，否则第一个为1
+// ![image.png](https://pic.leetcode-cn.com/1f7281abe840e742ba4ec077f76a81e7167a4a0edba2770eb7ade3e967f700ff-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] sumZero(int n) {
         int[] result = new int[n];
@@ -20,4 +20,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

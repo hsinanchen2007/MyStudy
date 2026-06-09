@@ -1,6 +1,6 @@
-和官方答案思路差不多，找到重复数字和漏掉的数字，相减。
-可能数组比map更省时间
-```
+// 和官方答案思路差不多，找到重复数字和漏掉的数字，相减。
+// 可能数组比map更省时间
+// ```
 class Solution {
 public:
     int minIncrementForUnique(vector<int>& A) {
@@ -25,4 +25,4 @@ public:
        return add-sub;
     }
 };
-```
+// ```

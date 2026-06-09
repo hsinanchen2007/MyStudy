@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def smallestRange(self, nums):
         """
@@ -36,7 +36,7 @@ class Solution(object):
             bisect.insort(sort_q, q[l_index])
             l = sort_q[0]
             r = sort_q[-1]
-```
-一个list保存每个数组当前index，然后把对应最小值index+1，更新，知道某个index达到len - 1
-执行用时 :988 ms, 在所有 python 提交中击败了11.11%的用户
-效率有点低，大家看看还能整么优化下？
+# ```
+# 一个list保存每个数组当前index，然后把对应最小值index+1，更新，知道某个index达到len - 1
+# 执行用时 :988 ms, 在所有 python 提交中击败了11.11%的用户
+# 效率有点低，大家看看还能整么优化下？

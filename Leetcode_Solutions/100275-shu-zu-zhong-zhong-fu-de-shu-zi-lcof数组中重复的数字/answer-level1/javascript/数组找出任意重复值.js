@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-1、利用对象键值对以及undefined特性
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 1、利用对象键值对以及undefined特性
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -23,4 +23,4 @@ var findRepeatNumber = function(nums) {
     return result
 };
 
-```
+// ```

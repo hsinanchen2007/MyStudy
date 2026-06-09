@@ -1,9 +1,9 @@
-### 解题思路
-纯C++
+// ### 解题思路
+// 纯C++
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -24,4 +24,4 @@ public:
        return max(maxDepth(root->left), maxDepth(root->right)) + 1;
     }
 };
-```
+// ```

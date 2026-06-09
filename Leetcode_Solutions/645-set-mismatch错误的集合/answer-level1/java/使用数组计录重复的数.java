@@ -1,9 +1,9 @@
-### 解题思路
-使用数组记录nums中每个数字出现的次数，既然有重复的数字，说明必定有一个计数为2 一个计数为0
+// ### 解题思路
+// 使用数组记录nums中每个数字出现的次数，既然有重复的数字，说明必定有一个计数为2 一个计数为0
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] findErrorNums(int[] nums) {
         int[] count = new int[nums.length];
@@ -21,4 +21,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
-1. 排序
-2. 如果target比可能的最小值小，或比可能的最大值大，则没结果
-3. 固定前两个值，剩下两个用双指针。感觉5sum，Nsum都可以用这个做法，时间复杂度是O(n^N-1)
-4. 需要注意的是，如果要求解不重复，则必须跳过连续重复值，否则会有重复解。
+// ### 解题思路
+// 1. 排序
+// 2. 如果target比可能的最小值小，或比可能的最大值大，则没结果
+// 3. 固定前两个值，剩下两个用双指针。感觉5sum，Nsum都可以用这个做法，时间复杂度是O(n^N-1)
+// 4. 需要注意的是，如果要求解不重复，则必须跳过连续重复值，否则会有重复解。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> fourSum(int[] nums, int target) {
         List<List<Integer>> result = new ArrayList<>();
@@ -77,4 +77,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

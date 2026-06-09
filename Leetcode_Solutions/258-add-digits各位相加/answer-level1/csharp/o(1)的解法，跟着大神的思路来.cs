@@ -1,9 +1,9 @@
-### 解题思路
-核心是m* 10^n/9=9* C+m，理解这个即可
+// ### 解题思路
+// 核心是m* 10^n/9=9* C+m，理解这个即可
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int AddDigits(int num) {
         if (num < 10)
@@ -23,4 +23,4 @@ public class Solution {
             }
     }
 }
-```
+// ```

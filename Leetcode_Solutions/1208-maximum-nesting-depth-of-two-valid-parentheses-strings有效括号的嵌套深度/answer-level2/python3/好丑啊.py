@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def maxDepthAfterSplit(self, seq: str) -> List[int]:
         # 感觉用堆栈很容易能解决。
@@ -30,4 +30,4 @@ class Solution:
                     ret.append(1)
                     stack_b -= 1
         return ret
-```
+# ```

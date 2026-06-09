@@ -1,9 +1,9 @@
-### 解题思路
-一开始没审题清楚，原来是排序数组。。Arrays.sort(nums)运行耗时1秒
+// ### 解题思路
+// 一开始没审题清楚，原来是排序数组。。Arrays.sort(nums)运行耗时1秒
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 //import java.util.Arrays;
 
 class Solution {
@@ -22,4 +22,4 @@ class Solution {
         return i+1;
     }
 }
-```
+// ```

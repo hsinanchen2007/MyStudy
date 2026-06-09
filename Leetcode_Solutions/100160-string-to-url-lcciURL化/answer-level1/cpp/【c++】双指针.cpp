@@ -1,8 +1,8 @@
-## 解题思路
-先算出最后的位置，从后往前依次赋值
-注意原串指针curendpos和新串指针realendpos，不要混淆
-## 代码
-```
+// ## 解题思路
+// 先算出最后的位置，从后往前依次赋值
+// 注意原串指针curendpos和新串指针realendpos，不要混淆
+// ## 代码
+// ```
 class Solution {
 public:
     string replaceSpaces(string S, int length) {
@@ -27,4 +27,4 @@ public:
         return S.substr(0,endpos+1);
     }
 };
-```
+// ```

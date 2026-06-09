@@ -1,5 +1,5 @@
-## 问题如下, 在注释里
-```
+# ## 问题如下, 在注释里
+# ```
 class Solution2(object):
     def reverseList(self, head):
         """
@@ -32,4 +32,4 @@ l2.next = l3
 l3.next = l4
 l4.next = l5
 print(s.reverseList(l1))
-```
+# ```

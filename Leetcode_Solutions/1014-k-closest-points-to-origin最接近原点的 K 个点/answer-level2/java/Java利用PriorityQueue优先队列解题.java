@@ -1,8 +1,8 @@
-1. 先创建一个优先队列，给定优先级条件
-2. 循环将二维数组中的元素拆成一维数组装到优先队列
-3. 取出前K个数组
- **下面是代码实现**
-```
+// 1. 先创建一个优先队列，给定优先级条件
+// 2. 循环将二维数组中的元素拆成一维数组装到优先队列
+// 3. 取出前K个数组
+//  **下面是代码实现**
+// ```
 public int[][] kClosest(int[][] points, int K) {
     PriorityQueue<int[]> priorityQueue = new PriorityQueue<>((a,b)->{
         double aq = Math.pow(a[0],2)+Math.pow(a[1],2);
@@ -24,4 +24,4 @@ public int[][] kClosest(int[][] points, int K) {
     }
     return result;
 }
-```
+// ```

@@ -1,11 +1,11 @@
-![image.png](https://pic.leetcode-cn.com/fe2eb7e8af13f247ede6c5e77af43f0b10fd016edf75a639f68f90f2e5921688-image.png)
+// ![image.png](https://pic.leetcode-cn.com/fe2eb7e8af13f247ede6c5e77af43f0b10fd016edf75a639f68f90f2e5921688-image.png)
 
-### 解题思路
-一开始是想直接遍历S，判断后面一个字符是否与前一个相等，但是这样还要单独处理边界情况，写起来就不是很简洁，所以又想到了用双指针，一气呵成
+// ### 解题思路
+// 一开始是想直接遍历S，判断后面一个字符是否与前一个相等，但是这样还要单独处理边界情况，写起来就不是很简洁，所以又想到了用双指针，一气呵成
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String compressString(String S) {
         StringBuilder sb = new StringBuilder();
@@ -24,4 +24,4 @@ class Solution {
         return sb.length()<S.length()?sb.toString():S;
     }
 }
-```
+// ```

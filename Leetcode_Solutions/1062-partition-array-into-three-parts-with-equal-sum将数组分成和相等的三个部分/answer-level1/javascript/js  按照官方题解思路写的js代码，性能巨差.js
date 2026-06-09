@@ -1,9 +1,9 @@
-### 解题思路
-官方题解思路
+// ### 解题思路
+// 官方题解思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} A
  * @return {boolean}
@@ -30,4 +30,4 @@ var canThreePartsEqualSum = function(A) {
     if (i < 0 || j < 0 || j >= A.length - 1) return false;
     return true;
 };
-```
+// ```

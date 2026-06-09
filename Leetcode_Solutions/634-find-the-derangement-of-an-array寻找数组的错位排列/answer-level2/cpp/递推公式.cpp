@@ -1,6 +1,6 @@
-递推公式： f[n] = (n-1)*(f[n-1] + f[n-2])
+// 递推公式： f[n] = (n-1)*(f[n-1] + f[n-2])
 
-```
+// ```
 class Solution {
 public:
     int findDerangement(int n) {
@@ -25,4 +25,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-![QQ图片20200321112513.png](https://pic.leetcode-cn.com/077bd198dec97fb60b194faa42bfbffbd035c28ec79fccd7cdaff67d3b93b056-QQ%E5%9B%BE%E7%89%8720200321112513.png)
+// ### 解题思路
+// ![QQ图片20200321112513.png](https://pic.leetcode-cn.com/077bd198dec97fb60b194faa42bfbffbd035c28ec79fccd7cdaff67d3b93b056-QQ%E5%9B%BE%E7%89%8720200321112513.png)
 
-暴力破解
+// 暴力破解
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int strStr(char * haystack, char * needle)
 {
 	int n=strlen(haystack);
@@ -41,4 +41,4 @@ int strStr(char * haystack, char * needle)
 	return -1;
 }
 
-```
+// ```

@@ -1,5 +1,5 @@
-听说有人说递归的写法不是人写出来的， 我小菜鸡表示不信。。明明比 循环好理解，好吧，😁
-```java
+// 听说有人说递归的写法不是人写出来的， 我小菜鸡表示不信。。明明比 循环好理解，好吧，😁
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -46,10 +46,10 @@ class Solution {
         
     }
 }
-```
+// ```
 
-递归版本
-```java
+// 递归版本
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -94,4 +94,4 @@ private ListNode reverse(ListNode head) {
 }
 
 }
-```
+// ```

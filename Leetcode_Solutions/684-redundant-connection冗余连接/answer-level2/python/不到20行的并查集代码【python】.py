@@ -1,5 +1,5 @@
-典型的并查集思路，为成团的构建公共father
-```
+# 典型的并查集思路，为成团的构建公共father
+# ```
 class Solution(object):
     def findRedundantConnection(self, edges):
         """
@@ -21,5 +21,5 @@ class Solution(object):
             if pu == pv:
                 return [u, v]
             father[pu] = pv
-```
+# ```
 

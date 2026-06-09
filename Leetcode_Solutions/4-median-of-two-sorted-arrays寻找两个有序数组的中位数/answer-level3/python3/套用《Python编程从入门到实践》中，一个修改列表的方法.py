@@ -1,17 +1,17 @@
-### 解题思路
+# ### 解题思路
 
 
-  想起之前书中例题，于是尝试：
-* 利用pop( )语句，把nums2[ ]列表末尾元素“吹”出来；
-* 再利用append() 语句，把列表元素“压”回到nums1[]中。
-* 利用list.sort()排序。
-* 再判断元素总个数的奇偶情况，分不同情况取中位数即可。
+#   想起之前书中例题，于是尝试：
+# * 利用pop( )语句，把nums2[ ]列表末尾元素“吹”出来；
+# * 再利用append() 语句，把列表元素“压”回到nums1[]中。
+# * 利用list.sort()排序。
+# * 再判断元素总个数的奇偶情况，分不同情况取中位数即可。
 
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:		
         def paixu(nums1,nums2):
@@ -36,4 +36,4 @@ class Solution:
         len_1=test_length(nums1)
         result=panduanshu(nums1,len_1)
         return result
-```
+# ```

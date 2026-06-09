@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-4 war ！！！
+// 4 war ！！！
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * convertToTitle(int n){
     if(n < 1){
         return NULL;
@@ -25,4 +25,4 @@ char * convertToTitle(int n){
     
     return ch;
 }
-```
+// ```

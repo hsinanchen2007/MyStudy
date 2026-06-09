@@ -1,9 +1,9 @@
-### 解题思路
-这个题已经用Java做过了，就用Go再实现一遍
+// ### 解题思路
+// 这个题已经用Java做过了，就用Go再实现一遍
 
-### 代码
+// ### 代码
 
-```go
+// ```go
 func reverseList(head *ListNode) *ListNode {
     var last *ListNode
     cur := head
@@ -18,4 +18,4 @@ func reverseList(head *ListNode) *ListNode {
     }
     return last;
 }
-```
+// ```

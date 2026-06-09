@@ -1,10 +1,10 @@
-### 解题思路
-先给字符串排序
-然后（正序或倒序）递归每一个不同的
+// ### 解题思路
+// 先给字符串排序
+// 然后（正序或倒序）递归每一个不同的
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {string}
@@ -29,4 +29,4 @@ var sortString = function (s) {
     }
     return handler(s, false)
 };
-```
+// ```

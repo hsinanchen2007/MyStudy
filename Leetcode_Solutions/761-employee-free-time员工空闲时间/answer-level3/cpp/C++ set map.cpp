@@ -1,10 +1,10 @@
-### 解题思路
-借鉴[1353. 最多可以参加的会议数目]的思路
-遍历所有时间点，每位员工开始工作时间点+1，结束工作时间点-1，sum为0的时候就是公共休息时间段的开始。
-![图片.png](https://pic.leetcode-cn.com/09fdf59fb090b530358d8d0b7aed0dd4f0a2e5654c297447979f5aa16c1273e8-%E5%9B%BE%E7%89%87.png)
+// ### 解题思路
+// 借鉴[1353. 最多可以参加的会议数目]的思路
+// 遍历所有时间点，每位员工开始工作时间点+1，结束工作时间点-1，sum为0的时候就是公共休息时间段的开始。
+// ![图片.png](https://pic.leetcode-cn.com/09fdf59fb090b530358d8d0b7aed0dd4f0a2e5654c297447979f5aa16c1273e8-%E5%9B%BE%E7%89%87.png)
 
-### 代码
-```
+// ### 代码
+// ```
 class Solution {
 public:
     vector<Interval> employeeFreeTime(vector<vector<Interval>> schedule) {
@@ -42,4 +42,4 @@ public:
         return ans;
     }
 };
-```
+// ```

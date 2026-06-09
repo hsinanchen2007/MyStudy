@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn max_number_of_balloons(text: String) -> i32 {
         let mut cnt = [0, 0, 0, 0, 0];
@@ -17,5 +17,5 @@ impl Solution {
         *cnt.iter().min().unwrap()
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

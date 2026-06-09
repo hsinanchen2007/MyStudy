@@ -1,9 +1,9 @@
-### 解题思路
-主要就是利用二分法减少迭代次数
+// ### 解题思路
+// 主要就是利用二分法减少迭代次数
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int shipWithinDays(int[] weights, int D) {
         int sum =0;//元素和
@@ -52,4 +52,4 @@ class Solution {
 		return d>0;
     }
 }
-```
+// ```

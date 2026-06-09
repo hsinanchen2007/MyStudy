@@ -1,5 +1,5 @@
 
-```
+# ```
 class Solution(object):
     def checkInclusion(self, s1, s2):
         """
@@ -34,4 +34,4 @@ class Solution(object):
             if sli_dic==s1_dic:
                 return True
         return False
-```
+# ```

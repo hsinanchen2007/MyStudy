@@ -1,4 +1,4 @@
-```
+// ```
 bool increasingTriplet(int* nums, int numsSize){
     if (numsSize <= 2) {
         return false;
@@ -24,4 +24,4 @@ bool increasingTriplet(int* nums, int numsSize){
     }
     return false;
 }
-```
+// ```

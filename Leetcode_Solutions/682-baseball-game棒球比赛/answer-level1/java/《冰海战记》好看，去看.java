@@ -1,9 +1,9 @@
-### 解题思路
-![QQ截图20200304144038.png](https://pic.leetcode-cn.com/72f0da17139206fc82ed4734c40517a5a1c97c43ae3f51b6b406c53a26564a02-QQ%E6%88%AA%E5%9B%BE20200304144038.png)
-栈顶元素始终是最近一次有效回合的分数
-### 代码
+// ### 解题思路
+// ![QQ截图20200304144038.png](https://pic.leetcode-cn.com/72f0da17139206fc82ed4734c40517a5a1c97c43ae3f51b6b406c53a26564a02-QQ%E6%88%AA%E5%9B%BE20200304144038.png)
+// 栈顶元素始终是最近一次有效回合的分数
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int calPoints(String[] ops) {
         int sum=0;
@@ -32,4 +32,4 @@ class Solution {
 
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-**递归 + 记忆化（自顶向下）**
-常规思路
-```java
+// **递归 + 记忆化（自顶向下）**
+// 常规思路
+// ```java
 class Solution {
     public int cuttingRope(int n) {
         return cuttingRopeHelper(n, new int[n + 1]);
@@ -18,13 +18,13 @@ class Solution {
         return memo[n] = max;
     }
 }
-```
+// ```
 
-**动态规划（自底向上）**
-同上解一模一样的思路，在剩下的剪和不剪间取最大值
-DP方程：
-dp[i] = max(dp[i], max(j * (i - j), j * dp[i - j]))
-```java
+// **动态规划（自底向上）**
+// 同上解一模一样的思路，在剩下的剪和不剪间取最大值
+// DP方程：
+// dp[i] = max(dp[i], max(j * (i - j), j * dp[i - j]))
+// ```java
 class Solution {
     public int cuttingRope(int n) {
         int[] dp = new int[n + 1];
@@ -38,14 +38,14 @@ class Solution {
         return dp[n];
     }
 }
-```
+// ```
 
-**动态规划（完全背包问题）**
-从题解区看到的，确实没想到。
-问题转换：绳子的长度为n，剪为长度j（1<=j<=n）的子段，求每段绳子长度的最大乘积
-DP方程：
-dp[i] = max(dp[i], dp[i - j] * i)
-```java
+// **动态规划（完全背包问题）**
+// 从题解区看到的，确实没想到。
+// 问题转换：绳子的长度为n，剪为长度j（1<=j<=n）的子段，求每段绳子长度的最大乘积
+// DP方程：
+// dp[i] = max(dp[i], dp[i - j] * i)
+// ```java
 class Solution {
     public int cuttingRope(int n) {
         int[] dp = new int[n + 1];
@@ -58,12 +58,12 @@ class Solution {
         return dp[n];
     }
 }
-```
+// ```
 
-**数学解法**
-神奇的数学解法，无敌了！
-切分越多，乘积越大，优先级最高的长度为3。
-```java
+// **数学解法**
+// 神奇的数学解法，无敌了！
+// 切分越多，乘积越大，优先级最高的长度为3。
+// ```java
 class Solution {
     public int cuttingRope(int n) {
         if (n == 2) return 1;
@@ -76,4 +76,4 @@ class Solution {
         return s * n;
     }
 }
-```
+// ```

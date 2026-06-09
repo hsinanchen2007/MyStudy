@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def numberOfSubstrings(self, s: str) -> int:
         # only contain a, b, c
@@ -28,4 +28,4 @@ class Solution:
                     l += 1
                     res += len(s) - i
         return res
-```
+# ```

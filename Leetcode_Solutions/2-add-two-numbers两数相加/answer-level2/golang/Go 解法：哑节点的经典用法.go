@@ -1,6 +1,6 @@
-本题其实是根据两个链表构造另一个链表，所以需要用到哑节点，那么哑节点的 Next 即我们要求的新链表的头。
+// 本题其实是根据两个链表构造另一个链表，所以需要用到哑节点，那么哑节点的 Next 即我们要求的新链表的头。
 
-```go
+// ```go
 func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	dummy := &ListNode{} // 哑节点的经典用法
 	curr := dummy        // 当前指针用于构建节点外加移动
@@ -38,4 +38,4 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 
 	return dummy.Next
 }
-```
+// ```

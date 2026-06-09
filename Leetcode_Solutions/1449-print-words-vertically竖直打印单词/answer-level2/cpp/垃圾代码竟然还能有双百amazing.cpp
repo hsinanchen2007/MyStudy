@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<string> printVertically(string s) {
@@ -70,5 +70,5 @@ public:
         return res;
     }
 };
-```
-![1.png](https://pic.leetcode-cn.com/a79a4b8f7ea5246770cef9163b11f1f746140504cf32daef798ea0a3aa58158f-1.png)
+// ```
+// ![1.png](https://pic.leetcode-cn.com/a79a4b8f7ea5246770cef9163b11f1f746140504cf32daef798ea0a3aa58158f-1.png)

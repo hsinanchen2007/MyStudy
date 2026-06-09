@@ -1,6 +1,6 @@
-**双指针法，设置头尾两个指针，若头尾之和大于target，尾指针前移；若头尾之和小于target，头指针后移；若头尾之和等于target，返回头尾下标。**
+// **双指针法，设置头尾两个指针，若头尾之和大于target，尾指针前移；若头尾之和小于target，头指针后移；若头尾之和等于target，返回头尾下标。**
 
-```c
+// ```c
 
 int* twoSum(int* numbers, int numbersSize, int target, int* returnSize){
     if(numbers && numbersSize != 0){
@@ -25,4 +25,4 @@ int* twoSum(int* numbers, int numbersSize, int target, int* returnSize){
     return NULL;
 }
 
-```
+// ```

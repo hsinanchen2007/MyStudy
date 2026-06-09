@@ -1,12 +1,12 @@
-### 解题思路
-1. 归并法(自底向上)
-2. 分治法(自顶向下))
-3. 优先队列合并
-4. 时间复杂度为$O(NlgK)$
+# ### 解题思路
+# 1. 归并法(自底向上)
+# 2. 分治法(自顶向下))
+# 3. 优先队列合并
+# 4. 时间复杂度为$O(NlgK)$
 
-### 代码
+# ### 代码
 
-```java []
+# ```java []
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -37,8 +37,8 @@ class Solution {
         return dummy.next;
     }
 }
-```
-```c++ []
+# ```
+# ```c++ []
 class Solution {
 public:
     ListNode* mergeKLists(vector<ListNode*>& lists) {
@@ -84,8 +84,8 @@ private:
         return dummy->next;
     }
 };
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def mergeKLists(self, lists: List[ListNode]) -> ListNode:
         if lists==None or len(lists)==0:
@@ -123,4 +123,4 @@ class Solution:
 
         return lists[0]
 
-```
+# ```

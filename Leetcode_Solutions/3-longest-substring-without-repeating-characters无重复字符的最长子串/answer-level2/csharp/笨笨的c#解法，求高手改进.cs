@@ -1,9 +1,9 @@
-### 解题思路
-根据双指针思路进行，注意一些临界条件。
+// ### 解题思路
+// 根据双指针思路进行，注意一些临界条件。
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int LengthOfLongestSubstring(string s) {
          if(s.Length==0)return 0;
@@ -33,4 +33,4 @@ public class Solution {
         return maxLen;
     }
 }
-```
+// ```

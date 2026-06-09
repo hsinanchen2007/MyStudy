@@ -1,15 +1,15 @@
 
-# 使用额外的额空间
+# # 使用额外的额空间
 
-## 思路
+# ## 思路
 
-我们可以copy一份完全一样的board， 然后按照copy的board进行更新细胞状态即可。
+# 我们可以copy一份完全一样的board， 然后按照copy的board进行更新细胞状态即可。
 
-我写了一个函数cntLiveCell(i, j)  用来计算 board[i][j] 周围的活细胞数目。
+# 我写了一个函数cntLiveCell(i, j)  用来计算 board[i][j] 周围的活细胞数目。
 
-## 代码
+# ## 代码
 
-```python3
+# ```python3
 class Solution:
     def gameOfLife(self, board: List[List[int]]) -> None:
         m = len(board)
@@ -36,28 +36,28 @@ class Solution:
                     board[i][j] = 1
                 if old[i][j] == 1 and (cnt > 3 or cnt < 2):
                     board[i][j] = 0
-```
+# ```
 
-***复杂度分析***
-- 时间复杂度：$O(m * n)$
-- 空间复杂度：$O(m * n)$
+# ***复杂度分析***
+# - 时间复杂度：$O(m * n)$
+# - 空间复杂度：$O(m * n)$
 
-# 不使用额外的空间
+# # 不使用额外的空间
 
-## 思路
+# ## 思路
 
-如何不使用额外的空间是这道题“中等”的原因。 
+# 如何不使用额外的空间是这道题“中等”的原因。 
 
-由于 board 中的数字只能是 0 或者 1，我们考虑用一个 bit 来存储这个信息。然后我们将这个细胞周围有多少活细胞这个信息，存储到高位（即从第二位开始）。
+# 由于 board 中的数字只能是 0 或者 1，我们考虑用一个 bit 来存储这个信息。然后我们将这个细胞周围有多少活细胞这个信息，存储到高位（即从第二位开始）。
 
-![image.png](https://pic.leetcode-cn.com/bf59e91ca71449f3f0d144551165a7626be9e736dcee707e25b13dd8c1897824-image.png)
+# ![image.png](https://pic.leetcode-cn.com/bf59e91ca71449f3f0d144551165a7626be9e736dcee707e25b13dd8c1897824-image.png)
 
-我们一次遍历进行上述的数据处理。 之后我们再进行一次遍历。将之前存储的数据取出来，最后一位表示之前的细胞状态，剩下位表示周围的活细胞个数。计数逻辑，以及这之后的逻辑就和上面的解法一样了。
+# 我们一次遍历进行上述的数据处理。 之后我们再进行一次遍历。将之前存储的数据取出来，最后一位表示之前的细胞状态，剩下位表示周围的活细胞个数。计数逻辑，以及这之后的逻辑就和上面的解法一样了。
 
 
-## 代码
+# ## 代码
 
-```python3
+# ```python3
 class Solution:
     def gameOfLife(self, board: List[List[int]]) -> None:
         m = len(board)
@@ -89,15 +89,15 @@ class Solution:
                     board[i][j] = 0
                 else:
                     board[i][j] = cell
-```
+# ```
 
 
-***复杂度分析***
-- 时间复杂度：$O(m * n)$
-- 空间复杂度：$O(1)$
+# ***复杂度分析***
+# - 时间复杂度：$O(m * n)$
+# - 空间复杂度：$O(1)$
 
-更多题解可以访问我的LeetCode题解仓库：https://github.com/azl397985856/leetcode  。 目前已经接近30K star啦。
+# 更多题解可以访问我的LeetCode题解仓库：https://github.com/azl397985856/leetcode  。 目前已经接近30K star啦。
 
-大家也可以关注我的公众号《脑洞前端》获取更多更新鲜的LeetCode题解
+# 大家也可以关注我的公众号《脑洞前端》获取更多更新鲜的LeetCode题解
 
-![](https://pic.leetcode-cn.com/89ef69abbf02a2957838499a96ce3fbb26830aae52e3ab90392e328c2670cddc-file_1581478989502)
+# ![](https://pic.leetcode-cn.com/89ef69abbf02a2957838499a96ce3fbb26830aae52e3ab90392e328c2670cddc-file_1581478989502)

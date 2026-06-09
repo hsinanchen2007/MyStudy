@@ -1,8 +1,8 @@
-### 解题思路
-主要是异常场景的判断
-### 代码
+// ### 解题思路
+// 主要是异常场景的判断
+// ### 代码
 
-```c
+// ```c
 int removeDuplicates(int* nums, int numsSize){
     int i = 0;
     if(nums == NULL || numsSize == 0){
@@ -16,4 +16,4 @@ int removeDuplicates(int* nums, int numsSize){
     }
     return i+1;
 }
-```
+// ```

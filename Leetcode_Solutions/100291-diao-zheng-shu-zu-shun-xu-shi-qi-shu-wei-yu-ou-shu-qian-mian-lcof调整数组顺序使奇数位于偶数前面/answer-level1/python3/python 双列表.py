@@ -1,12 +1,12 @@
-### 解题思路
-利用两个列表进行判断存：
-     如果为奇数，存入res1
-     如果为偶数，存入res2
-     返回 res1+res2
+# ### 解题思路
+# 利用两个列表进行判断存：
+#      如果为奇数，存入res1
+#      如果为偶数，存入res2
+#      返回 res1+res2
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def exchange(self, nums: List[int]) -> List[int]:
         res1=[]
@@ -18,4 +18,4 @@ class Solution:
                 res2.append(i)
         return res1+res2
             
-```
+# ```

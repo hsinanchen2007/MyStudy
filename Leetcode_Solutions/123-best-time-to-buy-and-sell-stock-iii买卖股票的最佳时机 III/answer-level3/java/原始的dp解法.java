@@ -1,8 +1,8 @@
-### 解题思路
-这个是原始dp的样子，我就不优化了，各位可以看看
-### 代码
+// ### 解题思路
+// 这个是原始dp的样子，我就不优化了，各位可以看看
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxProfit(int[] prices) {
         if(prices.length<=1)
@@ -20,4 +20,4 @@ class Solution {
         return Math.max(dp[prices.length-1][0][0],dp[prices.length-1][1][0]);
     }
 }
-```
+// ```

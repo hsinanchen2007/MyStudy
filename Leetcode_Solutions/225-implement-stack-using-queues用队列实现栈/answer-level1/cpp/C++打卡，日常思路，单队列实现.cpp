@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-和其他人思路差不多，就是push的时候，用for循环遍历度列，把push进来的元素通过循环的方式推到最后，满足栈先进后出的特性，其他的接口没有额外的操作
+// ### 解题思路
+// 此处撰写解题思路
+// 和其他人思路差不多，就是push的时候，用for循环遍历度列，把push进来的元素通过循环的方式推到最后，满足栈先进后出的特性，其他的接口没有额外的操作
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MyStack {
 public:
     /** Initialize your data structure here. */
@@ -50,4 +50,4 @@ private:
  * int param_3 = obj->top();
  * bool param_4 = obj->empty();
  */
-```
+// ```

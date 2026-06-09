@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -41,4 +41,4 @@ int* preorderTraversal(struct TreeNode* root, int* returnSize)
     Creat(root,a,&i);  //传i的地址，否则递归调用的i非此i
     return a;
 }
-```
+// ```

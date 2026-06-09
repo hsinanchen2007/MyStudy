@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 /*
 1. dfs的思想：利用一个指针一直往下搜索，直到找到最后一个节点，然后再返回与head进行比较，
 2. 每次比较之后 都要令head = head->next，并且head要用指针的引用，否则递归返回上一层时
@@ -20,11 +20,11 @@ bool isPalindrome(ListNode* head)
 		helper(head, head);
 	return flag;
 }
-```
-```python []
+// ```
+// ```python []
 print('Hello world!')
-```
-```ruby []
+// ```
+// ```ruby []
 puts 'Hello world!'
-```
+// ```
 

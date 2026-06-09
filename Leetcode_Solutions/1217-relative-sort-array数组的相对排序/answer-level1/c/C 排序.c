@@ -1,15 +1,15 @@
-### 解题思路
-用时击败90.24%，内存击败100%（这个内存比较诧异，因为这个方法有空间换时间的做法）
+// ### 解题思路
+// 用时击败90.24%，内存击败100%（这个内存比较诧异，因为这个方法有空间换时间的做法）
 
-1、开辟一个数组arrAngle，标识下arr2中有哪些元素。遍历arr2,元素值作为arrAngle数组脚标。
-2、遍历arr1，元素的值作为脚标在arrAngle中寻找，如果arr2中有就++，否则先存起来，以后排序备用。
-3、遍历arr2,不难看出，此时arrAngle此时保存了arr1中元素出现的次数。
-4、arr3保存了arr1中出现，但是arr2没有的数字。
-5、拼接起来。
+// 1、开辟一个数组arrAngle，标识下arr2中有哪些元素。遍历arr2,元素值作为arrAngle数组脚标。
+// 2、遍历arr1，元素的值作为脚标在arrAngle中寻找，如果arr2中有就++，否则先存起来，以后排序备用。
+// 3、遍历arr2,不难看出，此时arrAngle此时保存了arr1中元素出现的次数。
+// 4、arr3保存了arr1中出现，但是arr2没有的数字。
+// 5、拼接起来。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -66,4 +66,4 @@ int* relativeSortArray(int* arr1, int arr1Size, int* arr2, int arr2Size, int* re
     return arrReturn;
     
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} arr1
  * @param {number[]} arr2
@@ -24,4 +24,4 @@ var relativeSortArray = function(arr1, arr2) {
     arr1.splice(head,arr1.length-head,...arr3);
     return arr1;
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-分三种情况
+# ### 解题思路
+# 分三种情况
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def angleClock(self, hour: int, minutes: int) -> float:
         a = minutes // 5
@@ -17,4 +17,4 @@ class Solution:
         elif hour < a:
             res = (a - hour) * 30 - minutes / 60 * 30 + b * 6
             return min(res,360-res)
-```
+# ```

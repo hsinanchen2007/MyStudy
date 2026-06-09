@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int myAtoi(char * str){
    	int i=0;
 	int str_sign = 1;
@@ -28,4 +28,4 @@ int myAtoi(char * str){
 	}
 	return (str_sign == 0)?-sum:sum;
 }
-```
+// ```

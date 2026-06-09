@@ -1,9 +1,9 @@
-### 解题思路
-python 题解
+# ### 解题思路
+# python 题解
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def sumOfDigits(self, A: List[int]) -> int:
         min_num=min(A)
@@ -12,4 +12,4 @@ class Solution:
         for i in str (min_num):
             he+=int(i)
         return 1-he%2
-```
+# ```

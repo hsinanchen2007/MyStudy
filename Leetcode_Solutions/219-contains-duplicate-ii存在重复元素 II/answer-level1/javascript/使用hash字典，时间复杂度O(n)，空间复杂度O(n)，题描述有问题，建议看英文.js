@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number[]} nums
  * @param {number} k
@@ -22,4 +22,4 @@ var containsNearbyDuplicate = function(nums, k) {
     }
     return false
 };
-```
+// ```

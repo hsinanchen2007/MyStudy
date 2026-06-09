@@ -1,18 +1,18 @@
-取巧的解法，找不到思路，所以把 9 个函数试了出来，然后判断下。函数如下：
+// 取巧的解法，找不到思路，所以把 9 个函数试了出来，然后判断下。函数如下：
 
-1. `f(x, y) = x + y`
-2. `f(x, y) = x * y`
-3. `f(x, y) = x * x + y`
-4. `f(x, y) = x + y * y`
-5. `f(x, y) = x * x + y * y`
-6. `f(x, y) = (x + y) * (x + y)`
-7. `f(x, y) = x * x * x + y * y * y`
-8. `f(x, y) = x * x * y`
-9. `f(x, y) = x * y * y`
+// 1. `f(x, y) = x + y`
+// 2. `f(x, y) = x * y`
+// 3. `f(x, y) = x * x + y`
+// 4. `f(x, y) = x + y * y`
+// 5. `f(x, y) = x * x + y * y`
+// 6. `f(x, y) = (x + y) * (x + y)`
+// 7. `f(x, y) = x * x * x + y * y * y`
+// 8. `f(x, y) = x * x * y`
+// 9. `f(x, y) = x * y * y`
 
-具有针对性的解法如下，大概就是缩小了遍历范围：
-<br>
-```cpp
+// 具有针对性的解法如下，大概就是缩小了遍历范围：
+// <br>
+// ```cpp
 /*
  * // This is the custom function interface.
  * // You should not implement it, or speculate about its implementation
@@ -136,4 +136,4 @@ public:
         return ans;
     }
 };
-```
+// ```

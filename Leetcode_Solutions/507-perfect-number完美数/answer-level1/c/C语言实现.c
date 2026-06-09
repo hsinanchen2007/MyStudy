@@ -1,5 +1,5 @@
-C语言实现
-```C []
+// C语言实现
+// ```C []
 bool checkPerfectNumber(int num){
     if (0 == num || (num & 1)) return false;
     int i, sum = 1, sq = sqrt(num);
@@ -7,4 +7,4 @@ bool checkPerfectNumber(int num){
     if (num % sq == 0) sum += (num / sq == sq) ? sq : sq + num / sq;
     return sum == num;
 }
-```
+// ```

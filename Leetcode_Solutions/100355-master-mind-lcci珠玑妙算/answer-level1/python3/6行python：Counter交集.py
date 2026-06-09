@@ -1,18 +1,18 @@
-### 解题思路
-计数器算出两个颜色个数，然后取交集，即最小。得到的计数器就是颜色相等的（包含cao相等的）
-最后再计算**颜色+cao**相等得到猜中，`total-right`就是伪猜中的。
+# ### 解题思路
+# 计数器算出两个颜色个数，然后取交集，即最小。得到的计数器就是颜色相等的（包含cao相等的）
+# 最后再计算**颜色+cao**相等得到猜中，`total-right`就是伪猜中的。
 
-### 代码
+# ### 代码
 
-```python3 []
+# ```python3 []
 class Solution:
     def masterMind(self, solution: str, guess: str):
         from collections import Counter
         total = sum((Counter(solution) & Counter(guess)).values())
         right = sum(1 for (i, j) in zip(solution, guess) if i == j)
         return [right, total - right]
-```
-```c []
+# ```
+# ```c []
 int* masterMind(char* solution, char* guess, int* returnSize){
     short guessBucket[26] = {0}, solutionBucket[26] = {0}, i;
     *returnSize = 2;
@@ -30,4 +30,4 @@ int* masterMind(char* solution, char* guess, int* returnSize){
     }
     return res;
 }
-```
+# ```

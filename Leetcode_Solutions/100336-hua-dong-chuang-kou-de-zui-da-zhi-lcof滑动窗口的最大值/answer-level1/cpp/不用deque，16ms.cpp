@@ -1,9 +1,9 @@
-### 解题思路
-暴力解法下稍微修改
+// ### 解题思路
+// 暴力解法下稍微修改
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> maxSlidingWindow(vector<int>& nums, int k) {
@@ -28,4 +28,4 @@ public:
         return ret;
     }
 };
-```
+// ```

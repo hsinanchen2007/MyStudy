@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-sort函数对数组排序
-取前k位返回
+// sort函数对数组排序
+// 取前k位返回
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> getLeastNumbers(vector<int>& arr, int k) {
@@ -19,4 +19,4 @@ public:
         return res;
     }
 };
-```
+// ```

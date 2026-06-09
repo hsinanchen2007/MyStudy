@@ -1,9 +1,9 @@
-### 解题思路
-需要考虑的特殊情况是：左右两个子树中有一个为空，即单边树的情况
+# ### 解题思路
+# 需要考虑的特殊情况是：左右两个子树中有一个为空，即单边树的情况
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -26,4 +26,4 @@ class Solution:
 
      
 
-```
+# ```

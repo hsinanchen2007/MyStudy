@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution 
 {
 public:
@@ -56,5 +56,5 @@ public:
         QuickSort(nums,low+1,last);
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/e9f1fab60486475e192c124d4e3d68ff851875548efb6ca9b854b3e617be53b7-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/e9f1fab60486475e192c124d4e3d68ff851875548efb6ca9b854b3e617be53b7-image.png)

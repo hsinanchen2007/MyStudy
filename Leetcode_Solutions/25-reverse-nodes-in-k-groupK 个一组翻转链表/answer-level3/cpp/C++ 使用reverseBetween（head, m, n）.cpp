@@ -1,9 +1,9 @@
-### 解题思路
-    用到之前的92. 反转链表 II reverseBetween, 这边需要注意len(list) > k 要直接返回原来的链表
+// ### 解题思路
+//     用到之前的92. 反转链表 II reverseBetween, 这边需要注意len(list) > k 要直接返回原来的链表
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -81,4 +81,4 @@ public:
 
     }
 };
-```
+// ```

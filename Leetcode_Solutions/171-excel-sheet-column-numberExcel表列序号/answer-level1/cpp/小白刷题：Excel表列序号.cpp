@@ -1,9 +1,9 @@
-遍历字符串计算即可
+// 遍历字符串计算即可
 
-先减后加，以免爆int范围
+// 先减后加，以免爆int范围
 
-代码：
-```
+// 代码：
+// ```
 class Solution {
 public:
     int titleToNumber(string s) {
@@ -14,4 +14,4 @@ public:
         return ans;
     }
 };
-```
+// ```

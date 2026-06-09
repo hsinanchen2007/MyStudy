@@ -1,9 +1,9 @@
-1. 如果采用暴力BFS，需要n次BFS，那么时间复杂度为o(n^2)。
-2. 相连接的节点i和j,如果断开i和j的连接，树会被一分为二。假设i这边树节点有Vertices[i]个，j这边树节点有Vertices[j]个，可以推出如下关系式：ans[i] + Vertices[i] = ans[j] + Vertices[j].
-3. 最小生成树可以从任何节点出发构建一颗树，简便起见从0出发建树,并计算Vertices。
-4. 利用第2点和第3点，我们可以先一次BFS求得ans[0],然后遍历树，根据父节点的ans求得子节点的ans。
-5. 时间复杂度为o(n),空间复杂度o(n^2).
-```
+// 1. 如果采用暴力BFS，需要n次BFS，那么时间复杂度为o(n^2)。
+// 2. 相连接的节点i和j,如果断开i和j的连接，树会被一分为二。假设i这边树节点有Vertices[i]个，j这边树节点有Vertices[j]个，可以推出如下关系式：ans[i] + Vertices[i] = ans[j] + Vertices[j].
+// 3. 最小生成树可以从任何节点出发构建一颗树，简便起见从0出发建树,并计算Vertices。
+// 4. 利用第2点和第3点，我们可以先一次BFS求得ans[0],然后遍历树，根据父节点的ans求得子节点的ans。
+// 5. 时间复杂度为o(n),空间复杂度o(n^2).
+// ```
 class Solution {
 public:
     vector<int> sumOfDistancesInTree(int N, vector<vector<int>>& edges) {
@@ -99,4 +99,4 @@ public:
         return;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int maxPoints(vector<vector<int>>& points) {
@@ -41,4 +41,4 @@ public:
         return max0;
     }
 };
-```
+// ```

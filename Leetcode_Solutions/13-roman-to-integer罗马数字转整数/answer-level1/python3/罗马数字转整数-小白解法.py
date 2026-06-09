@@ -1,13 +1,13 @@
-### 解题思路
-执行用时 :64 ms 内存消耗 :12.8 MB
+# ### 解题思路
+# 执行用时 :64 ms 内存消耗 :12.8 MB
 
-思路：
-列表和字典的使用相结合
-对特例的判断条件过于简单粗暴，重复内容过多，待优化
+# 思路：
+# 列表和字典的使用相结合
+# 对特例的判断条件过于简单粗暴，重复内容过多，待优化
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def romanToInt(self, s: str) -> int:
         romanstrlist = []
@@ -30,4 +30,4 @@ class Solution:
             else:
                 value += trans_dict[romanstrlist[i]]
         return value
-```
+# ```

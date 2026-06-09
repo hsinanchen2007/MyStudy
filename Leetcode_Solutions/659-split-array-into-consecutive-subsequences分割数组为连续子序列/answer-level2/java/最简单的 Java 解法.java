@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean isPossible(int[] nums) {
         //key: 目标值, value 长度
@@ -20,4 +20,4 @@ class Solution {
         return !map.values().stream().flatMap(Collection::stream).anyMatch(i -> i < 3);
     }
 }
-```
+// ```

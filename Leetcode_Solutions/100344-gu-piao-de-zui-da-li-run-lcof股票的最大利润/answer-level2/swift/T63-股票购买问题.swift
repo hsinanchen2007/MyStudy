@@ -1,9 +1,9 @@
-### 解题思路
-假设该点是最低买进的，然后计算max值。
+// ### 解题思路
+// 假设该点是最低买进的，然后计算max值。
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func maxProfit(_ prices: [Int]) -> Int {
         if prices.count == 0 {
@@ -24,4 +24,4 @@ class Solution {
         return max
     }
 }
-```
+// ```

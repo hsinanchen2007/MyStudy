@@ -1,9 +1,9 @@
-### 解题思路
-动态规划
+// ### 解题思路
+// 动态规划
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int coinChange(int[] coins, int amount) {
         if(amount == 0){
@@ -27,4 +27,4 @@ class Solution {
         }
     }
 }
-```
+// ```

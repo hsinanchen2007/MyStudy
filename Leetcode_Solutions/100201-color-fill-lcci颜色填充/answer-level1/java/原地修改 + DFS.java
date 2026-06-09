@@ -1,5 +1,5 @@
-# 代码
-```java
+// # 代码
+// ```java
 class Solution {
     private int[][] global_image;
     private int ori_color, new_color, global_row, global_col;
@@ -27,4 +27,4 @@ class Solution {
             dfs(row, col + 1);
     }
 }
-```
+// ```

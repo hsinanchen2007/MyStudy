@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string countAndSay(int n) {  //队列的方法，尽管有点慢，但是吧，对队列熟悉了很多
@@ -36,4 +36,4 @@ public:
         return que.front();
     }
 };
-```
+// ```

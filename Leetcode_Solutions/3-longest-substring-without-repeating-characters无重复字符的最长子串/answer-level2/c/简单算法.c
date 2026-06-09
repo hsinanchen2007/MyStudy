@@ -1,10 +1,10 @@
-### 解题思路
-![360截图20200322174056041.jpg](https://pic.leetcode-cn.com/7284e4ef7106307f3199d320a5513001e5a1f932757517270732e103a9bc9f8b-360%E6%88%AA%E5%9B%BE20200322174056041.jpg)
+// ### 解题思路
+// ![360截图20200322174056041.jpg](https://pic.leetcode-cn.com/7284e4ef7106307f3199d320a5513001e5a1f932757517270732e103a9bc9f8b-360%E6%88%AA%E5%9B%BE20200322174056041.jpg)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int lengthOfLongestSubstring(char * s){
     int cnt=0;
     int max=0;
@@ -42,4 +42,4 @@ int lengthOfLongestSubstring(char * s){
 
 
 }
-```
+// ```

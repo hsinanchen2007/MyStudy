@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -18,4 +18,4 @@ int* getLeastNumbers(int* arr, int arrSize, int k, int* returnSize){
     memcpy(ret,arr,*returnSize * sizeof(int));
     return ret;
 }
-```
+// ```

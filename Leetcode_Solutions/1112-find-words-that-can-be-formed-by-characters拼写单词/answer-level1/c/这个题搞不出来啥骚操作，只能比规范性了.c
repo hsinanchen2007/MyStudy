@@ -1,5 +1,5 @@
-统计法
-```c
+// 统计法
+// ```c
 #define LEN ('z' - 'a' + 1)
 /* memset没这个快，memset是按字节赋值，这个按4字节赋值 */
 static inline void wordZero(int *wmap, int len)
@@ -45,4 +45,4 @@ int countCharacters(char ** words, int wordsSize, char * chars) {
     }
     return result;    
 }
-```
+// ```

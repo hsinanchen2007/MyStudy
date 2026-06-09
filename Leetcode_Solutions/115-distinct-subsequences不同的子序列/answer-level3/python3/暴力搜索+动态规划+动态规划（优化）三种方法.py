@@ -1,6 +1,6 @@
-暴力搜索超时了，暴力搜索是动态规划的基础；两个动态规划都过了
+# 暴力搜索超时了，暴力搜索是动态规划的基础；两个动态规划都过了
 
-```
+# ```
 class Solution:
     def numDistinct(self, s: str, t: str) -> int:
         #return self.helper(s, 0, t, 0)
@@ -42,4 +42,4 @@ class Solution:
                 else:
                     dp[j] = dp[j]
         return dp[0]
-```
+# ```

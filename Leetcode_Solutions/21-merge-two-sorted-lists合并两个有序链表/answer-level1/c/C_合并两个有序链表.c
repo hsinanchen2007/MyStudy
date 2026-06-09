@@ -1,12 +1,12 @@
-### 解题思路
-while( && )
-while()
-while()
-return
+// ### 解题思路
+// while( && )
+// while()
+// while()
+// return
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -61,4 +61,4 @@ struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2){
 }
 
 
-```
+// ```

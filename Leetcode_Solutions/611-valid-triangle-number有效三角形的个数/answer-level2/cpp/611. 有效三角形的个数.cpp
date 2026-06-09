@@ -1,6 +1,6 @@
-![QQ图片20191104161323.png](https://pic.leetcode-cn.com/20d95735e5f3268211b69e86e8ef7d58721ead63b4d39643e667772f25274215-QQ%E5%9B%BE%E7%89%8720191104161323.png)
+// ![QQ图片20191104161323.png](https://pic.leetcode-cn.com/20d95735e5f3268211b69e86e8ef7d58721ead63b4d39643e667772f25274215-QQ%E5%9B%BE%E7%89%8720191104161323.png)
 
-```
+// ```
 class Solution {
 public:
     int triangleNumber(vector<int>& nums) {
@@ -36,4 +36,4 @@ public:
         return res;
     }
 };
-```
+// ```

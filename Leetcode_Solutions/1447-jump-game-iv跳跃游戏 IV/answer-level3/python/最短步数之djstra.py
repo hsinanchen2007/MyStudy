@@ -1,18 +1,18 @@
-### 解题思路
+# ### 解题思路
 
-求最短步数，那就构造图，用djstra方法求最少的步数。
+# 求最短步数，那就构造图，用djstra方法求最少的步数。
 
-这题之所以为难题，就是因为图中可能存在大量循环边（相同数字构成）。对于这些边，仅遍历一次。
-`
-if arr[idx] not in nums_visited:
-    next_nodes |= idx_map[arr[idx]]
-`
-![image.png](https://pic.leetcode-cn.com/13130f9ff01fac5b5c3cecd66f72fa793ea0b02e871b22a448eef50bdbc00162-image.png)
+# 这题之所以为难题，就是因为图中可能存在大量循环边（相同数字构成）。对于这些边，仅遍历一次。
+# `
+# if arr[idx] not in nums_visited:
+#     next_nodes |= idx_map[arr[idx]]
+# `
+# ![image.png](https://pic.leetcode-cn.com/13130f9ff01fac5b5c3cecd66f72fa793ea0b02e871b22a448eef50bdbc00162-image.png)
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def minJumps(self, arr):
         """
@@ -47,4 +47,4 @@ class Solution(object):
                     heapq.heappush(pq, (steps + 1, -next_node))
             nums_visited.add(arr[idx])
         return -1
-```
+# ```

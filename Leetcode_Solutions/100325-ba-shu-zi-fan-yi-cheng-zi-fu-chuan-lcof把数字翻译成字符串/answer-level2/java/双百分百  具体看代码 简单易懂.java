@@ -1,10 +1,10 @@
-### 解题思路
-双百分百  具体看代码 简单易懂
-![image.png](https://pic.leetcode-cn.com/af0de75f027191b969331c629e3405033b9f2160e0dbd968bfbc22f554f9aa2d-image.png)
+// ### 解题思路
+// 双百分百  具体看代码 简单易懂
+// ![image.png](https://pic.leetcode-cn.com/af0de75f027191b969331c629e3405033b9f2160e0dbd968bfbc22f554f9aa2d-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private int count=0;
     public int translateNum(int num) {
@@ -36,4 +36,4 @@ class Solution {
         }
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```go
+// ```go
 func isValid(s string) bool {
     stack := NewStringStack()
     matchArr := map[string]string{
@@ -52,4 +52,4 @@ func (s *StringStack) Len() int {
 func (s *StringStack) IsEmpty() bool {
 	return s.Len() == 0
 }
-```
+// ```

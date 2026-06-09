@@ -1,9 +1,9 @@
-### 解题思路
-思路：求余数判定奇偶
+# ### 解题思路
+# 思路：求余数判定奇偶
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def divisorGame(self, N: int) -> bool:
         #小爱是第一出手的，所以她是奇数局
@@ -13,4 +13,4 @@ class Solution:
         #好的我们来试试
         return N%2 == 0
 
-```
+# ```

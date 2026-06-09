@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     int minCostToMoveChips(vector<int>& chips) {
@@ -10,4 +10,4 @@ public:
         return count>chips_size-count?chips_size-count:count;
     }
 };
-```
+// ```

@@ -1,16 +1,16 @@
-### 解题思路
-1:线段包围盒相交
-2:线段端点在另外一个线段上
-3:线段 只有唯一交点
-向量叉乘
-逆矩阵
+// ### 解题思路
+// 1:线段包围盒相交
+// 2:线段端点在另外一个线段上
+// 3:线段 只有唯一交点
+// 向量叉乘
+// 逆矩阵
 
-线段顶点按照 x y 排序
-线段参数方程 p = smallX + rate * delta
+// 线段顶点按照 x y 排序
+// 线段参数方程 p = smallX + rate * delta
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 using VT = System.ValueTuple<double, double>;
 
 
@@ -189,4 +189,4 @@ public class Solution {
         return li.Intersection(start1, end1, start2, end2);
     }
 }
-```
+// ```

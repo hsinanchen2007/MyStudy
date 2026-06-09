@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -23,4 +23,4 @@ bool isBalanced(struct TreeNode* root)
         return true;
     return  Deep(root) && isBalanced(root->left) && isBalanced(root->right);
 }
-```
+// ```

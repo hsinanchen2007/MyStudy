@@ -1,11 +1,11 @@
-参考[知乎大佬的解释](https://www.zhihu.com/question/36132386/answer/530313852) 我感觉写得相当好
+# 参考[知乎大佬的解释](https://www.zhihu.com/question/36132386/answer/530313852) 我感觉写得相当好
 
 
-总结一下模板:
+# 总结一下模板:
 
-**二分查找得到下界**
+# **二分查找得到下界**
 
-```python
+# ```python
 def lower_bound(nums: list, target: int) -> int:
     '''
     return the target lower bound index in nums
@@ -19,12 +19,12 @@ def lower_bound(nums: list, target: int) -> int:
         else:
             last = mid
     return first
-```
-返回的`first` 如果等于数组长度或者对应位置索引不等于目标值,那么说明没有找到
+# ```
+# 返回的`first` 如果等于数组长度或者对应位置索引不等于目标值,那么说明没有找到
 
-**二分查找得到上界**
+# **二分查找得到上界**
 
-```python
+# ```python
 def upper_bound(nums: list, target: int) -> int:
     '''
     return the first idx in nums when nums[idx] > target
@@ -38,13 +38,13 @@ def upper_bound(nums: list, target: int) -> int:
         else:
             last = mid
     return first
-```
-该函数返回的是第一个大于目标值的索引, 如果返回0或者该索引前一个位置的值不是目标值,说明查找失败
+# ```
+# 该函数返回的是第一个大于目标值的索引, 如果返回0或者该索引前一个位置的值不是目标值,说明查找失败
 
 
-**本题的写法**
+# **本题的写法**
 
-```python
+# ```python
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         if not nums:
@@ -74,4 +74,4 @@ class Solution:
         # 返回 right - 1 - idx1 + 1
         # 退出循环时 left = right 
         return left - idx1
-```
+# ```

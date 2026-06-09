@@ -1,20 +1,20 @@
-1. 先使用BuildMap函数构造HashMap,该表key：结点A, value：结点A父节点。帮助结点向上BFS
-2. LocateTarget函数：用于找到val=k的目标结点target
-3. 从target为起点，进行BFS，遇到的第一个叶子节点就是答案
-    - BFS左子树
-    - BFS右子树
-    - BFS父节点
-需要注意的是：防环：构造set<TreeNode*>parent: 记录遍历的路径，防止重复遍历
+// 1. 先使用BuildMap函数构造HashMap,该表key：结点A, value：结点A父节点。帮助结点向上BFS
+// 2. LocateTarget函数：用于找到val=k的目标结点target
+// 3. 从target为起点，进行BFS，遇到的第一个叶子节点就是答案
+//     - BFS左子树
+//     - BFS右子树
+//     - BFS父节点
+// 需要注意的是：防环：构造set<TreeNode*>parent: 记录遍历的路径，防止重复遍历
 
-该题解目前是最佳解法，比其他构建邻接矩阵方法好很多：
-```
+// 该题解目前是最佳解法，比其他构建邻接矩阵方法好很多：
+// ```
 力扣通过记录：
 执行结果：通过
 执行用时 :16 ms, 在所有 C++ 提交中击败了100.00%的用户
 内存消耗 :17.8 MB, 在所有 C++ 提交中击败了100.00%的用户
-```
+// ```
 
-```
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -99,4 +99,4 @@ private:
         return nullptr;
     }
 };
-```
+// ```

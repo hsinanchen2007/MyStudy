@@ -1,9 +1,9 @@
-### 解题思路
-递归
+// ### 解题思路
+// 递归
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -32,4 +32,4 @@ class Solution {
         return isReverseTree(tree1.left,tree2.right) && isReverseTree(tree1.right,tree2.left) ;
     }
 }
-```
+// ```

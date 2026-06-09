@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def uncommonFromSentences(self, A: str, B: str) -> List[str]:
         Asplit=A.split()
@@ -13,4 +13,4 @@ class Solution:
             if word not in Asplit and Bsplit.count(word)==1:
                 output.append(word)
         return output
-```
+# ```

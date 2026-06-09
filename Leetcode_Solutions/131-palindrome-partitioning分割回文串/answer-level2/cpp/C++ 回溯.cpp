@@ -1,7 +1,7 @@
-![捕获.PNG](https://pic.leetcode-cn.com/328286cb62189d46ccc69f85aa6cf3d138786194e55a94fdccb2c8ac35699b50-%E6%8D%95%E8%8E%B7.PNG)
+// ![捕获.PNG](https://pic.leetcode-cn.com/328286cb62189d46ccc69f85aa6cf3d138786194e55a94fdccb2c8ac35699b50-%E6%8D%95%E8%8E%B7.PNG)
 
 
-```c++
+// ```c++
 class Solution {
 public:
     vector<vector<string>> partition(string s) {
@@ -36,4 +36,4 @@ private:
     vector<vector<string>> res;//结果集
     vector<string> path;//存放中检结果集
 };
-```
+// ```

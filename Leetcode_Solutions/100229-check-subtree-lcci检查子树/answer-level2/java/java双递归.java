@@ -1,4 +1,4 @@
-```
+// ```
 public boolean checkSubTree(TreeNode t1, TreeNode t2) {
         if (t1 == null) return false;
 
@@ -14,4 +14,4 @@ public boolean checkSubTree(TreeNode t1, TreeNode t2) {
         if (t1.val != t2.val) return false;
         return check(t1.left, t2.left) && check(t1.right, t2.right);
     }
-```
+// ```

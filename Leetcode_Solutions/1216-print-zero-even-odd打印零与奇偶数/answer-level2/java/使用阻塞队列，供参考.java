@@ -1,6 +1,6 @@
-执行用时 :10 ms, 在所有 Java 提交中击败了78.22%的用户
-内存消耗 :36.6 MB, 在所有 Java 提交中击败了100.00%的用户
-```
+// 执行用时 :10 ms, 在所有 Java 提交中击败了78.22%的用户
+// 内存消耗 :36.6 MB, 在所有 Java 提交中击败了100.00%的用户
+// ```
 import java.util.concurrent.*;    
     class ZeroEvenOdd {
         private int n;
@@ -45,4 +45,4 @@ import java.util.concurrent.*;
         }
 
         }
-```
+// ```

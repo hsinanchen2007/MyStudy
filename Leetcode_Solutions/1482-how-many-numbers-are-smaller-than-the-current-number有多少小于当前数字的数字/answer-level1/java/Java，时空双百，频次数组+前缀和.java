@@ -1,5 +1,5 @@
 
-```
+// ```
 class Solution {
     public int[] smallerNumbersThanCurrent(int[] nums) {
         int n=nums.length;
@@ -19,4 +19,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

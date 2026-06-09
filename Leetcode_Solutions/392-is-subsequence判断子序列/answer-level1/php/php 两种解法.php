@@ -1,5 +1,5 @@
-解法一：双指针-初版
-```
+// 解法一：双指针-初版
+// ```
 function isSubsequence($s, $t) {
     if(strlen($s)==0) return true;
     $ps = 0;
@@ -12,9 +12,9 @@ function isSubsequence($s, $t) {
     }
     return false;
 }
-```
-解法一：双指针-优化代码
-```
+// ```
+// 解法一：双指针-优化代码
+// ```
 function isSubsequence($s, $t) {
     if(strlen($s)==0) return true;
     $ps = 0;
@@ -25,9 +25,9 @@ function isSubsequence($s, $t) {
     }
     return !isset($s[$ps]);
 }
-```
-解法二：优化遍历。由于字符串t比较长，遍历它比较花时间，所以选择遍历s字符串。该方法8ms，100%。
-```
+// ```
+// 解法二：优化遍历。由于字符串t比较长，遍历它比较花时间，所以选择遍历s字符串。该方法8ms，100%。
+// ```
 function isSubsequence($s, $t) {
         $index = -1;
         for($i=0;$i<strlen($s);$i++){
@@ -36,4 +36,4 @@ function isSubsequence($s, $t) {
         }
         return true;
     }
-```
+// ```

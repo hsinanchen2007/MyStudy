@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number} n
  * @param {number[][]} edges
@@ -52,4 +52,4 @@ var findMinHeightTrees = function(n, edges) {
   return ans;
 };
 
-```
+// ```

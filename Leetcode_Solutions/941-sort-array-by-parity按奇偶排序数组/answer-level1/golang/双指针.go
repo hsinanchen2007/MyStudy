@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func sortArrayByParity(A []int) []int {
     // 双指针
     l := len(A)
@@ -27,4 +27,4 @@ func sortArrayByParity(A []int) []int {
     }
     return A
 }
-```
+// ```

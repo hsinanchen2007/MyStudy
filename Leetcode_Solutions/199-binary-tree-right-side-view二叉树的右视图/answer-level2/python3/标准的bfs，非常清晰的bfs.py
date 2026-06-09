@@ -1,9 +1,9 @@
-### 解题思路
-标准的bfs，非常清晰的bfs
+# ### 解题思路
+# 标准的bfs，非常清晰的bfs
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 #  Copyright (c) 2020
 #  @Author: xiaoweixiang
 from typing import List
@@ -34,4 +34,4 @@ class Solution:
                     l.append(tmp.val)
         return l
 
-```
+# ```

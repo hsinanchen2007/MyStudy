@@ -1,9 +1,9 @@
-### 解题思路
-见代码
+// ### 解题思路
+// 见代码
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class MyStack {
     private $push_queue;
     private $pop_queue;
@@ -61,4 +61,4 @@ class MyStack {
  * $ret_3 = $obj->top();
  * $ret_4 = $obj->empty();
  */
-```
+// ```

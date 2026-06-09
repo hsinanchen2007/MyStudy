@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-详细看一下优化吧
-![image.png](https://pic.leetcode-cn.com/87dbd73d0f8f6894a37244332f372ab2673d51d097bfbd2ac8b0c68c3fd10c39-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// 详细看一下优化吧
+// ![image.png](https://pic.leetcode-cn.com/87dbd73d0f8f6894a37244332f372ab2673d51d097bfbd2ac8b0c68c3fd10c39-image.png)
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -62,4 +62,4 @@ var fourSum = function(nums, target) {
     }
     return res;
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 func search(_ nums: [Int], _ target: Int) -> Bool {
     if nums.count <= 0 {
         return false
@@ -31,4 +31,4 @@ func search(_ nums: [Int], _ target: Int) -> Bool {
     }
     return false
 }
-```
+// ```

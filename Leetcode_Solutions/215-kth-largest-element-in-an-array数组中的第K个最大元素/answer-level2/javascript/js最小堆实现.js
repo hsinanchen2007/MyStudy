@@ -1,7 +1,7 @@
-保障一个只有k长度的最小堆（完全二叉树）
-在js中用数组表示
-堆顶就是第k大的数字
-```
+// 保障一个只有k长度的最小堆（完全二叉树）
+// 在js中用数组表示
+// 堆顶就是第k大的数字
+// ```
 /**
  * @param {number[]} nums
  * @param {number} k
@@ -82,4 +82,4 @@ var findKthLargest = function(nums, k) {
 
     return arr.heap[0]
 };
-```
+// ```

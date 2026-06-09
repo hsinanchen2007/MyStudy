@@ -1,9 +1,9 @@
-### 解题思路
-用DFS解。每次在遍历的时候，先把之前走过的地方临时改下值，递归回来之后再改回来。
-BFS无法处理那种折回来之前路径旁边的现象。
-### 代码
+// ### 解题思路
+// 用DFS解。每次在遍历的时候，先把之前走过的地方临时改下值，递归回来之后再改回来。
+// BFS无法处理那种折回来之前路径旁边的现象。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool beginExist(vector<vector<char>>& board, string word, int i, int j, int k) {
@@ -60,4 +60,4 @@ public:
         return false;
     }
 };
-```
+// ```

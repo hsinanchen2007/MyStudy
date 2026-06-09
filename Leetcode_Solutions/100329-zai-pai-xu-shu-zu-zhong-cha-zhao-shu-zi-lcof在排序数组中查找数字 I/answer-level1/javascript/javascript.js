@@ -1,4 +1,4 @@
-```
+// ```
 var search = function(nums, target) {
   let count=1;
   if(nums.indexOf(target)===-1){
@@ -14,4 +14,4 @@ var search = function(nums, target) {
   }
 };
 
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-遇到"()",")(" 可以放到同一组
-遇到"((","))" 不可以放到同一组（xor 1 取反即可）
+// ### 解题思路
+// 遇到"()",")(" 可以放到同一组
+// 遇到"((","))" 不可以放到同一组（xor 1 取反即可）
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> maxDepthAfterSplit(string seq) {
@@ -17,4 +17,4 @@ public:
         return ans;
     }
 };
-```
+// ```

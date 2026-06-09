@@ -1,21 +1,21 @@
-### 思路
+# ### 思路
 
-##### 解法一
+# ##### 解法一
 
-**回溯 DFS**
+# **回溯 DFS**
 
-```
+# ```
 回溯算法的关键就是合理剪枝，这个也是难点。
 详细可以看代码注释。
-```
+# ```
 
-下面剪枝图片来源于 [liweiwei1419](https://leetcode-cn.com/u/liweiwei1419/) 的 [回溯算法（画图分析剪枝条件）](https://leetcode-cn.com/problems/restore-ip-addresses/solution/hui-su-suan-fa-hua-tu-fen-xi-jian-zhi-tiao-jian-by/)
+# 下面剪枝图片来源于 [liweiwei1419](https://leetcode-cn.com/u/liweiwei1419/) 的 [回溯算法（画图分析剪枝条件）](https://leetcode-cn.com/problems/restore-ip-addresses/solution/hui-su-suan-fa-hua-tu-fen-xi-jian-zhi-tiao-jian-by/)
 
-![](https://pic.leetcode-cn.com/b5602d01587b024ff65dd6ce48f75cc17ceecf2e93e5fb1208285fad5387d2bd-file_1583326396737)
+# ![](https://pic.leetcode-cn.com/b5602d01587b024ff65dd6ce48f75cc17ceecf2e93e5fb1208285fad5387d2bd-file_1583326396737)
 
-##### Python3代码
+# ##### Python3代码
 
-```python
+# ```python
 class Solution:
     def restoreIpAddresses(self, s: str) -> List[str]:
         # solution one: backtracking
@@ -34,21 +34,21 @@ class Solution:
             if(cur[0] == '0' and len(cur) >= 2) or int(cur) > 255:  # invalid IP address
                 continue
             self.dfs(s[i + 1:], path + [s[:i + 1]], ans)
-```
+# ```
 
-##### 解法二
+# ##### 解法二
 
-**暴力**
+# **暴力**
 
-```
+# ```
 暴力出奇迹
 四次 for 遍历，再分别取四部分作为地址，分别判断是否合法。
 最后拼接一下，加入 ans 中。
-```
+# ```
 
-##### Python3代码
+# ##### Python3代码
 
-```python
+# ```python
 class Solution:
     def restoreIpAddresses(self, s: str) -> List[str]:
         # solution two: brute force search
@@ -70,14 +70,14 @@ class Solution:
                             if flag == 0:
                                 ans.append(ss[0] + '.' + ss[1] + '.' + ss[2] + '.' + ss[3])
         return ans
-```
+# ```
 
-### 代码地址
+# ### 代码地址
 
-[GitHub链接](https://github.com/Wonz5130/LeetCode-Solutions/blob/master/solutions/0093-Restore-IP-Addresses/0093.py)
+# [GitHub链接](https://github.com/Wonz5130/LeetCode-Solutions/blob/master/solutions/0093-Restore-IP-Addresses/0093.py)
 
-### 参考
+# ### 参考
 
-[【LeetCode】93. Restore IP Addresses 解题报告（Python & C++）](https://blog.csdn.net/fuxuemingzhu/article/details/80657420)
+# [【LeetCode】93. Restore IP Addresses 解题报告（Python & C++）](https://blog.csdn.net/fuxuemingzhu/article/details/80657420)
 
-[LeetCode-93-Restore IP Addresses 暴力](https://blog.csdn.net/qdbszsj/article/details/78165372)
+# [LeetCode-93-Restore IP Addresses 暴力](https://blog.csdn.net/qdbszsj/article/details/78165372)

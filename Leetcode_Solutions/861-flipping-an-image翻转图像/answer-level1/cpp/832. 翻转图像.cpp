@@ -1,6 +1,6 @@
-## 模拟法
-**注意把水平翻转图像和反转像素值的操作放到一起**
-```cpp
+// ## 模拟法
+// **注意把水平翻转图像和反转像素值的操作放到一起**
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> flipAndInvertImage(vector<vector<int>>& A) {
@@ -18,4 +18,4 @@ public:
         return A;
     }
 };
-```
+// ```

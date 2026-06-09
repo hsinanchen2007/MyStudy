@@ -1,5 +1,5 @@
-广度优先，队列遍历
-```
+// 广度优先，队列遍历
+// ```
  public int orangeRotting(int[][] grid)
     {
         int count=0; //标记时间
@@ -49,4 +49,4 @@
         else
             return count;
     }
-```
+// ```

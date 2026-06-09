@@ -1,8 +1,8 @@
-### 解题思路
-亦可以认为是 动态规划 方法
-### 代码
+# ### 解题思路
+# 亦可以认为是 动态规划 方法
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def wallsAndGates(self, rooms: List[List[int]]) -> None:
         """
@@ -42,5 +42,5 @@ class Solution:
             cur_room=tmp
         return dp
 
-```
-亦可以认为是 动态规划 方法
+# ```
+# 亦可以认为是 动态规划 方法

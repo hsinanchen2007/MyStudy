@@ -1,6 +1,6 @@
-## 方法一：暴力法
-#### 暴力法在本题中比哈希表快，可能跟测试的字符串有关
-```Python
+# ## 方法一：暴力法
+# #### 暴力法在本题中比哈希表快，可能跟测试的字符串有关
+# ```Python
 # 检查ransomNote的每个字符是否在magazine字符串中:
 # 如果在则在maazine中移除该一个字符串；
 # 如果不在，则无法构成，返回False
@@ -14,9 +14,9 @@ class Solution(object):
             else:
                 return False
         return True
-```
-## 方法二：哈希表
-```Python
+# ```
+# ## 方法二：哈希表
+# ```Python
 # 1. 用哈希表存储magazine字符及个数
 # 2. 遍历ransomNote:
 #   2.1. 如果哈希表中有该字符并且字符计数大于零，说明仍能由magzine构成，此时对应的字符计数减一
@@ -41,4 +41,4 @@ class Solution2(object):
 
         return True
 
-```
+# ```

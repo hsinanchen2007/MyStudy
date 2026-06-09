@@ -1,11 +1,11 @@
-### 解题思路
-使用object保存字母出现的次数,每次加1
-最后比较两个对象是否完全相等.
-没有嵌套循环,时间复杂度低
+// ### 解题思路
+// 使用object保存字母出现的次数,每次加1
+// 最后比较两个对象是否完全相等.
+// 没有嵌套循环,时间复杂度低
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @param {string} t
@@ -37,4 +37,4 @@ var isAnagram = function (s, t) {
     })
     return flag
   }
-```
+// ```

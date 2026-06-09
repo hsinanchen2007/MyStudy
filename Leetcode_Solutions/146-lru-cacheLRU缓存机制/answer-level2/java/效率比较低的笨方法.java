@@ -1,9 +1,9 @@
-### 解题思路
-结合注释
+// ### 解题思路
+// 结合注释
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class LRUCache {
     Map<Integer, Integer> map;
     List<Integer> keys;
@@ -67,4 +67,4 @@ class LRUCache {
  * int param_1 = obj.get(key);
  * obj.put(key,value);
  */
-```
+// ```

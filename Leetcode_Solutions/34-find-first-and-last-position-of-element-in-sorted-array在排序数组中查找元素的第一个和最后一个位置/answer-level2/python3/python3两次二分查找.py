@@ -1,9 +1,9 @@
-### 解题思路
-python3两次二分查找
+# ### 解题思路
+# python3两次二分查找
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def searchRange(self, nums: List[int], target: int) -> List[int]:
         ret_list = [-1, -1]
@@ -34,4 +34,4 @@ class Solution:
 
         return ret_list
 
-```
+# ```

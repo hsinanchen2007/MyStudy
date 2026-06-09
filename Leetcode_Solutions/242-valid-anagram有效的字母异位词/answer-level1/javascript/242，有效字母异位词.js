@@ -1,13 +1,13 @@
 
-方法一：
-```
+// 方法一：
+// ```
 var isAnagram = function(s, t) {
      if(s.length != t.length) return false;
      return  s.split('').sort().join('') == t.split('').sort().join('');
  }
-```
-方法二：
-```
+// ```
+// 方法二：
+// ```
 var isAnagram = function(s, t) {
     if(s.length != t.length) return false;
     let sMap = {};
@@ -26,4 +26,4 @@ var isAnagram = function(s, t) {
     }
     return flag;
 };
-```
+// ```

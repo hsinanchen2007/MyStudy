@@ -1,6 +1,6 @@
-时间击败75，空间击败100.
+# 时间击败75，空间击败100.
 
-```
+# ```
 class Solution:
     def reverseParentheses(self, s: str) -> str:
         stack = ''
@@ -19,5 +19,5 @@ class Solution:
                 stack += s[i]
                 i += 1
         return stack
-```
+# ```
 

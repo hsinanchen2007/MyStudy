@@ -1,8 +1,8 @@
-### 解题思路
-JAVA+去重代码
-### 代码
+// ### 解题思路
+// JAVA+去重代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 
     public void copy_sublist(LinkedList<Integer> tmp,List<List<Integer>> results) {
@@ -67,4 +67,4 @@ class Solution {
 
     }
 }
-```
+// ```

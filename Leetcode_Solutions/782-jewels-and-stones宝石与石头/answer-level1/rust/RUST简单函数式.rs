@@ -1,4 +1,4 @@
-```
+// ```
 impl Solution {
     pub fn num_jewels_in_stones(j: String, s: String) -> i32 {
         j
@@ -12,4 +12,4 @@ impl Solution {
         .fold(0,|a,b|a+b)
     }
 }
-```
+// ```

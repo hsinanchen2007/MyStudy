@@ -1,10 +1,10 @@
-### 解题思路
-初次看到题目的时候，直接想到了暴力解法。
-直接将每个word中的字母与chars中的字母去进行对比。（遍历每个word）。
+// ### 解题思路
+// 初次看到题目的时候，直接想到了暴力解法。
+// 直接将每个word中的字母与chars中的字母去进行对比。（遍历每个word）。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} words
  * @param {string} chars
@@ -32,5 +32,5 @@ var countCharacters = function (words, chars) {
 };
 
 
-```
+// ```
 

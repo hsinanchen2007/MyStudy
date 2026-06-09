@@ -1,10 +1,10 @@
-### 解题思路
-每次取出一个数字，遍历数字对应的字母，每次遍历将字母添加到每个已经组好的字符串中。
-当数字取完时return
+# ### 解题思路
+# 每次取出一个数字，遍历数字对应的字母，每次遍历将字母添加到每个已经组好的字符串中。
+# 当数字取完时return
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def letterCombinations1(self,digits:str,i:int,ss:str)-> List[str]:
         change = {
@@ -41,4 +41,4 @@ class Solution:
 
 
 
-```
+# ```

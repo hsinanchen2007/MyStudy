@@ -1,8 +1,8 @@
-### 解题思路
-以后再用C++map重写一遍，暴力法时间复杂度太高了，C手撸hash表太麻烦
-### 代码
+// ### 解题思路
+// 以后再用C++map重写一遍，暴力法时间复杂度太高了，C手撸hash表太麻烦
+// ### 代码
 
-```c
+// ```c
 int* twoSum(int* nums, int numsSize, int target, int* returnSize) {
 	int *ret = (int*)malloc(2 * sizeof(int));
 	
@@ -23,4 +23,4 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize) {
 	}
 	return ret;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-将字符串拆成字串，逐段比较即可，记录头尾的指针
+// ### 解题思路
+// 将字符串拆成字串，逐段比较即可，记录头尾的指针
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isStretchy(string target, string basic){
@@ -35,4 +35,4 @@ public:
         return count;
     }
 };
-```
+// ```

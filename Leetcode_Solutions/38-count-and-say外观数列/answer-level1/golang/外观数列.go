@@ -1,9 +1,9 @@
-### 解题思路
-把1-30所有产生的数据都写进map[int]string中，然后直接return map
+// ### 解题思路
+// 把1-30所有产生的数据都写进map[int]string中，然后直接return map
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func countAndSay(n int) string {
 
     var m1 map[int]string=map[int]string{1:"1",2:"11",3:"21",4:"1211",5:"111221"}   
@@ -31,4 +31,4 @@ func countAndSay(n int) string {
     
 
 }
-```
+// ```

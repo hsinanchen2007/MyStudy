@@ -1,11 +1,11 @@
-### 解题思路
- - 排序；
- - 根据 f(s) = f(s - k) + 1; 递归深度遍历找出最小值 
-![image.png](https://pic.leetcode-cn.com/10e9ef4032eee3e94a48d73aeb194966e358ee3c5bbe33208b9200a9ef0b898a-image.png)
+// ### 解题思路
+//  - 排序；
+//  - 根据 f(s) = f(s - k) + 1; 递归深度遍历找出最小值 
+// ![image.png](https://pic.leetcode-cn.com/10e9ef4032eee3e94a48d73aeb194966e358ee3c5bbe33208b9200a9ef0b898a-image.png)
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} coins
  * @param {number} amount
@@ -53,4 +53,4 @@ var coinChange = function(coins, amount) {
 
     return self(coins, amount, 0);
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-从大到小向前排序
+// 从大到小向前排序
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func merge(nums1 []int, m int, nums2 []int, n int)  {
     m,n = m - 1,n - 1
 	z := m + n + 1
@@ -25,4 +25,4 @@ func merge(nums1 []int, m int, nums2 []int, n int)  {
 		z--
 	}
 }
-```
+// ```

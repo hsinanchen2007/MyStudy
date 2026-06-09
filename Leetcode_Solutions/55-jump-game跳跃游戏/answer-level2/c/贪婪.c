@@ -1,9 +1,9 @@
-### 解题思路
-看了很多的贪心题解，感觉都少考虑了一些问题，就是在比较maxJump的时候没有考虑到可能根本跳不到下一跳
+// ### 解题思路
+// 看了很多的贪心题解，感觉都少考虑了一些问题，就是在比较maxJump的时候没有考虑到可能根本跳不到下一跳
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool canJump(int* nums, int numsSize){
     int maxJump = -1;
     if(numsSize == 1)   return true;
@@ -17,4 +17,4 @@ bool canJump(int* nums, int numsSize){
     }
     return false;
 }
-```
+// ```

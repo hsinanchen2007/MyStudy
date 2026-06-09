@@ -1,4 +1,4 @@
-```rust
+// ```rust
 impl Solution {
     fn meet_spec(i: i32, j: i32, k: i32) -> bool {
         let mut sum = 0;
@@ -43,4 +43,4 @@ impl Solution {
         Solution::moving_count_from_ij(m, n, k, 0, 0, &mut visited)
     }
 }
-```
+// ```

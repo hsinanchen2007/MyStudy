@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-刚学python，只会这个，mark一下
+# 刚学python，只会这个，mark一下
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def shortestToChar(self, S: str, C: str) -> List[int]:
         list1 = []
@@ -16,4 +16,4 @@ class Solution:
             list2.append(min(list1))
             list1 = []
         return (list2)
-```
+# ```

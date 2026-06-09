@@ -1,9 +1,9 @@
-### 解题思路
-使用set去重
+# ### 解题思路
+# 使用set去重
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def distributeCandies(self, candies: List[int]) -> int:
         sis=set(candies)
@@ -11,4 +11,4 @@ class Solution:
             return len(candies)//2
         else :
             return len(sis)
-```
+# ```

@@ -1,5 +1,5 @@
 
-关于 01 背包问题 
+// 关于 01 背包问题 
 
 ![image.png](https://pic.leetcode-cn.com/cd145a689c0c34089367026e114331617005ffcff98188c8c1ad7cb943eebee6-image.png)
 

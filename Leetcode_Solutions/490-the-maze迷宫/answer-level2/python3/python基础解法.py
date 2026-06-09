@@ -1,9 +1,9 @@
-### 解题思路
-使用bfs来做这道题，创建了一个数组来记录是否遍历过
+# ### 解题思路
+# 使用bfs来做这道题，创建了一个数组来记录是否遍历过
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def hasPath(self, maze: List[List[int]], start: List[int], destination: List[int]) -> bool:
         n, m = len(maze), len(maze[0])
@@ -28,4 +28,4 @@ class Solution:
                     d[a][b] = d[x][y] + 1
                     queue.append((a, b))
         return False
-```
+# ```

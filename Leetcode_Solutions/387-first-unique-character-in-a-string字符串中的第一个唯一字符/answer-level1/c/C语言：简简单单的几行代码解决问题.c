@@ -1,6 +1,6 @@
 
 
-```
+// ```
 int char_num[128];
 int firstUniqChar(char * s){
     if (s == NULL || s[0] == 0) return -1;
@@ -16,4 +16,4 @@ int firstUniqChar(char * s){
     }
     return (min_len == 0x7fffffff ? -1 : min_len - 1);
 }
-```
+// ```

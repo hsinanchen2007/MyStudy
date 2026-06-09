@@ -1,5 +1,5 @@
-两种解法，利用Set或者利用哈希表原理
-```java
+// 两种解法，利用Set或者利用哈希表原理
+// ```java
 import java.util.HashSet;
 import java.util.Set;
 
@@ -17,9 +17,9 @@ class Solution {
         return -1;
     }
 }
-```
+// ```
 
-```java
+// ```java
 /**
  * 利用哈希表特性，时间复杂度低，但会改变原数组
  */
@@ -55,4 +55,4 @@ class Solution {
         arr[b] = tmp;
     }
 }
-```
+// ```

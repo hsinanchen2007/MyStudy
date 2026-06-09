@@ -1,9 +1,9 @@
-### 解题思路
-思路和三数之和一样，最后都转化成了双数和问题，经典解法就是双指针了。
-`O(n^3)复杂度`偏暴力，不过暂时也没想到更优的解法...稍微还能做的应该是常数上的优化了，在for loop的时候加几次判断。
-### 代码
+// ### 解题思路
+// 思路和三数之和一样，最后都转化成了双数和问题，经典解法就是双指针了。
+// `O(n^3)复杂度`偏暴力，不过暂时也没想到更优的解法...稍微还能做的应该是常数上的优化了，在for loop的时候加几次判断。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> fourSum(int[] nums, int target) {
         List<List<Integer>> res = new ArrayList<>();
@@ -41,4 +41,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

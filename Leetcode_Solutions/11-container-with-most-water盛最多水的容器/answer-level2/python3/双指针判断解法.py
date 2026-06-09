@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxArea(self, height: List[int]) -> int:
         first = 0
@@ -23,4 +23,4 @@ class Solution:
                 first = first+1
             area = max(area, (last-first)*min(height[first],height[last]))
         return area
-```
+# ```

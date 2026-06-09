@@ -1,11 +1,11 @@
-### 解题思路
-单用hash除了性能案例，其他都可以过
-想过性能案例就产生中间的sum hash结果，不然sum量级是在是太大了...
-![image.png](https://pic.leetcode-cn.com/66ba9c39d67b9c7f0c0b39bf50ab304f55a059bac45e8d19ab0d10d517e6e6de-image.png)
+// ### 解题思路
+// 单用hash除了性能案例，其他都可以过
+// 想过性能案例就产生中间的sum hash结果，不然sum量级是在是太大了...
+// ![image.png](https://pic.leetcode-cn.com/66ba9c39d67b9c7f0c0b39bf50ab304f55a059bac45e8d19ab0d10d517e6e6de-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MY_NUM_2 2
 #define MY_NUM_4 4
 #define MY_MAX_SIZE 250000
@@ -134,4 +134,4 @@ int fourSumCount(int* A, int ASize, int* B, int BSize, int* C, int CSize, int* D
     sFree(s);
     return rlt;
 }
-```
+// ```

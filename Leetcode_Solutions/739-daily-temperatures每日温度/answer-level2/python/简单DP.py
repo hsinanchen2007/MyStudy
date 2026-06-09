@@ -1,6 +1,6 @@
 
 
-```
+# ```
         #T的最后加一个超大的数
         T += [float('inf')]
         l = len(T)
@@ -19,4 +19,4 @@
             else:
                 dp[i] = dp[i]-i
         return dp[:-1]
-```
+# ```

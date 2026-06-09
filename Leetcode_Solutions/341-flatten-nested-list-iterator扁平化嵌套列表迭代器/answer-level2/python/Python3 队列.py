@@ -1,9 +1,9 @@
-`执行用时: 92 ms`
-`内存消耗: 17.4 MB`
+# `执行用时: 92 ms`
+# `内存消耗: 17.4 MB`
 
-使用队列，将嵌套列表内的所有整数都入队，取下一个时出队。入队时，若为整数，则直接入队，若为嵌套列表，则递归调用入队函数。
+# 使用队列，将嵌套列表内的所有整数都入队，取下一个时出队。入队时，若为整数，则直接入队，若为嵌套列表，则递归调用入队函数。
 
-```py
+# ```py
 class NestedIterator(object):
 
     def __init__(self, nestedList):
@@ -31,4 +31,4 @@ class NestedIterator(object):
         :rtype: bool
         """
         return len(self.queue) > 0
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-反转s之后直接判断#
+// ### 解题思路
+// 反转s之后直接判断#
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	string freqAlphabets(string s) {
@@ -28,4 +28,4 @@ public:
 		return ret;
 	}
 };
-```
+// ```

@@ -1,14 +1,14 @@
-大体思路： 
-因为X为 str1 和 str2的最大公因子。
+// 大体思路： 
+// 因为X为 str1 和 str2的最大公因子。
 
-=>   X的长度为str1(或者str2)长度的因子。(可以利用长度信息对isSubstring函数进行计算优化)
+// =>   X的长度为str1(或者str2)长度的因子。(可以利用长度信息对isSubstring函数进行计算优化)
 
-我们定义了一个函数isSubstring(string &str2, string &str1);
-能够判断str2 是不是str1的子串。
+// 我们定义了一个函数isSubstring(string &str2, string &str1);
+// 能够判断str2 是不是str1的子串。
 
-我们遍历所有str1(或者str2)的因子（for 循环）, 找到X，同时满足是str1 和str2的因子即可。
+// 我们遍历所有str1(或者str2)的因子（for 循环）, 找到X，同时满足是str1 和str2的因子即可。
 
-```
+// ```
 class Solution {
 public:
     bool isSubstring(string &str2, string &str1) {
@@ -36,4 +36,4 @@ public:
         return "";
     }
 };
-```
+// ```

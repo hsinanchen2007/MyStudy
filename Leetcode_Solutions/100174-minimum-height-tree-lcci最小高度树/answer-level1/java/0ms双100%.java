@@ -1,9 +1,9 @@
-### 解题思路
-由于是有序数组，就取数组中间点为根节点，左边为左子树，右边为右子树，依次递归。
+// ### 解题思路
+// 由于是有序数组，就取数组中间点为根节点，左边为左子树，右边为右子树，依次递归。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -27,4 +27,4 @@ class Solution {
         return node;
     }
 }
-```
+// ```

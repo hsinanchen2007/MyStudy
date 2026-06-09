@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean canVisitAllRooms(List<List<Integer>> rooms) {
         int roomCount = rooms.size();
@@ -30,4 +30,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

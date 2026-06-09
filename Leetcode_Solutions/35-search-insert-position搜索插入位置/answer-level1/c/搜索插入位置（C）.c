@@ -1,9 +1,9 @@
-### 解题思路
-折半查找，没什么难度。
+// ### 解题思路
+// 折半查找，没什么难度。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int searchInsert(int* nums, int numsSize, int target){
     if(0 == numsSize)
         return 0;
@@ -21,4 +21,4 @@ int searchInsert(int* nums, int numsSize, int target){
     }
     return low;
 }
-```
+// ```

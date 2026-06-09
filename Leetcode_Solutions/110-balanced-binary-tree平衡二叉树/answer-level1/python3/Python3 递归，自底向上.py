@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-递归，从下往上计算子树的深度，并进行判断
-时间复杂度O(n)
+# 递归，从下往上计算子树的深度，并进行判断
+# 时间复杂度O(n)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -28,4 +28,4 @@ class Solution:
         if abs(leftDepth - rightDepth) > 1:
             self.isBBT = False
         return max(leftDepth, rightDepth)
-```
+# ```

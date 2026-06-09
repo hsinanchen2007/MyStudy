@@ -1,25 +1,25 @@
-### 解题思路
-1. 首先去除前导0，因为肯定不能接水
-2. 然后计算雨水：
-    即，使用max记录当前为止最高的高度，当存在比其小的高度时累加，表示可能能接到这么多雨水。
-    最终的max记录了整个数组中最长高度
-3. 最后计算去除不能接到的雨水
-    由于可能后面的高度都比最高高度小，那么就存在前面多接了的情况
-    此时，从后面遍历，删除不能接的雨水数量
-下图为简略的概念图
- 5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4  
-|----|
-|&nbsp;&nbsp;&nbsp;&nbsp;|——-|---|
-|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|---|&nbsp;&nbsp;&nbsp;&nbsp;|
-|&nbsp;&nbsp;&nbsp;&nbsp;|---|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|
-|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|
+// ### 解题思路
+// 1. 首先去除前导0，因为肯定不能接水
+// 2. 然后计算雨水：
+//     即，使用max记录当前为止最高的高度，当存在比其小的高度时累加，表示可能能接到这么多雨水。
+//     最终的max记录了整个数组中最长高度
+// 3. 最后计算去除不能接到的雨水
+//     由于可能后面的高度都比最高高度小，那么就存在前面多接了的情况
+//     此时，从后面遍历，删除不能接的雨水数量
+// 下图为简略的概念图
+//  5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4  
+// |----|
+// |&nbsp;&nbsp;&nbsp;&nbsp;|——-|---|
+// |&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|---|&nbsp;&nbsp;&nbsp;&nbsp;|
+// |&nbsp;&nbsp;&nbsp;&nbsp;|---|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|
+// |&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|
 
-经过第一步得到的结果为：result = 3 + 2 + 1；max = 5；
-经过第二步从后往前遍历：result = result - 1 - 1 - 1；（即减去3次 5-4 的高度）。 
+// 经过第一步得到的结果为：result = 3 + 2 + 1；max = 5；
+// 经过第二步从后往前遍历：result = result - 1 - 1 - 1；（即减去3次 5-4 的高度）。 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int trap(int[] height) {
         int result = 0;
@@ -52,4 +52,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

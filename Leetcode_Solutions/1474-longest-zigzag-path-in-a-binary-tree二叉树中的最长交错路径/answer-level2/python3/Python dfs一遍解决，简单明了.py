@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/e4c88eb28eb269b2175ad9c930fe4bdb50bb3e98ebdde8b699339dc59494c9c3-image.png)
+# ![image.png](https://pic.leetcode-cn.com/e4c88eb28eb269b2175ad9c930fe4bdb50bb3e98ebdde8b699339dc59494c9c3-image.png)
 
 
-```
+# ```
 '''
 递归查找以每个子树的根为起点的最长交错路径，
 每一层递归需要记录到达当前节点时候走的方向，
@@ -25,4 +25,4 @@ class Solution:
         ans = [0]
         self.dfs(root, 'left', ans)
         return ans[0] - 1
-```
+# ```

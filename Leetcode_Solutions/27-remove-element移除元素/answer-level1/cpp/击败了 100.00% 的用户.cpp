@@ -1,11 +1,11 @@
-### 解题思路
-双指针，循环了两遍，竟然击败了100%的用户
-![WX20200321-214712.png](https://pic.leetcode-cn.com/564575011939fd62ba54a95181c22d38c5ba308120d32484364adc78f2ed052e-WX20200321-214712.png)
+// ### 解题思路
+// 双指针，循环了两遍，竟然击败了100%的用户
+// ![WX20200321-214712.png](https://pic.leetcode-cn.com/564575011939fd62ba54a95181c22d38c5ba308120d32484364adc78f2ed052e-WX20200321-214712.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int removeElement(vector<int>& nums, int val) {
@@ -36,4 +36,4 @@ public:
         return nums.size() - count;
     }
 };
-```
+// ```

@@ -1,12 +1,12 @@
-## 解法一（行列查找）
-思路：查找到白色车所在的坐标后，依次提取出对应的行列，然后在里面进行查找。
-1. 提取白色车所在的行列坐标
-2. 获取白色车对应行和列的值，组成新的列表
-3. 在两个列表中判断和计算
+# ## 解法一（行列查找）
+# 思路：查找到白色车所在的坐标后，依次提取出对应的行列，然后在里面进行查找。
+# 1. 提取白色车所在的行列坐标
+# 2. 获取白色车对应行和列的值，组成新的列表
+# 3. 在两个列表中判断和计算
 
-* 时间复杂度：O(n^2^)
-* 空间复杂度：O(n)
-```python
+# * 时间复杂度：O(n^2^)
+# * 空间复杂度：O(n)
+# ```python
 class Solution:    
     def numRookCaptures(self, board: List[List[str]]) -> int:
         row,col , cnt = -1,-1,0
@@ -34,17 +34,17 @@ class Solution:
         cnt += checkP(rowList,col-1,-1,-1)
         cnt += checkP(rowList,col+1,lenCol,1)
         return cnt
-```
-***
-## 解法二（递归查找）
-思路：得到白色车所在行列后，以该位置为中心分别进行递归查找
-1. 提取白色车所在的行列坐标
-2. 使用递归在对应方向上持续寻找，直到边界
-3. 分别计算前后左右四个不同的方向
+# ```
+# ***
+# ## 解法二（递归查找）
+# 思路：得到白色车所在行列后，以该位置为中心分别进行递归查找
+# 1. 提取白色车所在的行列坐标
+# 2. 使用递归在对应方向上持续寻找，直到边界
+# 3. 分别计算前后左右四个不同的方向
 
-* 时间复杂度：O(n^2^)
-* 空间复杂度：O(1)
-```python
+# * 时间复杂度：O(n^2^)
+# * 空间复杂度：O(1)
+# ```python
 class Solution:    
     def numRookCaptures(self, board: List[List[str]]) -> int:
         row,col , cnt = -1,-1,0
@@ -72,18 +72,18 @@ class Solution:
         cnt += checkP(row,col-1,0,-1,lenRow)
         return cnt
         
-```
+# ```
 
-***
-## 解法三（方向数组）
-思路：基本原理跟解法二一致，使用方向数组进行循环查找
-1. 提取白色车所在的行列坐标
-2. 使用方向数组，在四个方向上分别进行循环，每次仅在一个方向上前进
-3. 累计四个方向的判断结果
+# ***
+# ## 解法三（方向数组）
+# 思路：基本原理跟解法二一致，使用方向数组进行循环查找
+# 1. 提取白色车所在的行列坐标
+# 2. 使用方向数组，在四个方向上分别进行循环，每次仅在一个方向上前进
+# 3. 累计四个方向的判断结果
 
-* 时间复杂度：O(n^2^)
-* 空间复杂度：O(1)
-```python
+# * 时间复杂度：O(n^2^)
+# * 空间复杂度：O(1)
+# ```python
 class Solution:    
     def numRookCaptures(self, board: List[List[str]]) -> int:
         row,col , cnt = -1,-1,0
@@ -107,6 +107,6 @@ class Solution:
                 elif board[rIdx][cIdx] == 'B':
                     break
         return cnt        
-```
+# ```
 
-欢迎大佬们，随手关注VX公众号【[真相很简单](https://www.zhenxiangsimple.com/img/zhenxiangSimple.jpg)】，拍砖指导，查看一题多解
+# 欢迎大佬们，随手关注VX公众号【[真相很简单](https://www.zhenxiangsimple.com/img/zhenxiangSimple.jpg)】，拍砖指导，查看一题多解

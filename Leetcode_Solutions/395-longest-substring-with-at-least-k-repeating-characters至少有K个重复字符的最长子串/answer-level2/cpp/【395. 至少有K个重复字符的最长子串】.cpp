@@ -1,7 +1,7 @@
-## 思路
-### 代码
-时间复杂度：O(n)
-```c++
+// ## 思路
+// ### 代码
+// 时间复杂度：O(n)
+// ```c++
 class Solution {
 public:
     int longestSubstring(string s, int k) {
@@ -40,4 +40,4 @@ public:
         return res;
     }
 };
-```
+// ```

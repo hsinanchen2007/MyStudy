@@ -1,8 +1,8 @@
-**树的定义**
+// **树的定义**
 
-首先，定义树节点结构 `TreeNode`。
+// 首先，定义树节点结构 `TreeNode`。
 
-```Java []
+// ```Java []
 // Definition for a binary tree node.
 public class TreeNode {
   int val;
@@ -13,26 +13,26 @@ public class TreeNode {
     val = x;
   }
 }
-```
+// ```
 
-```Python []
+// ```Python []
 # Definition for a binary tree node.
 class TreeNode:
     def __init__(self, x):
         self.val = x
         self.left = None
         self.right = None
-```
+// ```
 
-#### 方法 1：递归
+// #### 方法 1：递归
 
-**算法**
+// **算法**
 
-最直接的思路就是递归。
+// 最直接的思路就是递归。
 
-我们用深度优先搜索来解决这个问题。
+// 我们用深度优先搜索来解决这个问题。
 
-```Java []
+// ```Java []
 class Solution {
   public int minDepth(TreeNode root) {
     if (root == null) {
@@ -54,9 +54,9 @@ class Solution {
     return min_depth + 1;
   }
 }
-```
+// ```
 
-```Python []
+// ```Python []
 class Solution:
     def minDepth(self, root):
         """
@@ -76,24 +76,24 @@ class Solution:
             if c:
                 min_depth = min(self.minDepth(c), min_depth)
         return min_depth + 1 
-```
+// ```
 
-**复杂度分析**
+// **复杂度分析**
 
-* 时间复杂度：我们访问每个节点一次，时间复杂度为 $O(N)$ ，其中 $N$ 是节点个数。
-* 空间复杂度：最坏情况下，整棵树是非平衡的，例如每个节点都只有一个孩子，递归会调用 $N$ （树的高度）次，因此栈的空间开销是 $O(N)$ 。但在最好情况下，树是完全平衡的，高度只有 $\log(N)$，因此在这种情况下空间复杂度只有 $O(\log(N))$ 。
+// * 时间复杂度：我们访问每个节点一次，时间复杂度为 $O(N)$ ，其中 $N$ 是节点个数。
+// * 空间复杂度：最坏情况下，整棵树是非平衡的，例如每个节点都只有一个孩子，递归会调用 $N$ （树的高度）次，因此栈的空间开销是 $O(N)$ 。但在最好情况下，树是完全平衡的，高度只有 $\log(N)$，因此在这种情况下空间复杂度只有 $O(\log(N))$ 。
 
-#### 方法 2：深度优先搜索迭代
+// #### 方法 2：深度优先搜索迭代
 
-我们可以利用栈将上述解法中的递归变成迭代。
+// 我们可以利用栈将上述解法中的递归变成迭代。
 
-> 想法是对于每个节点，按照深度优先搜索的策略访问，同时在访问到叶子节点时更新最小深度。
+// > 想法是对于每个节点，按照深度优先搜索的策略访问，同时在访问到叶子节点时更新最小深度。
 
-我们从一个包含根节点的栈开始，当前深度为 `1` 。
+// 我们从一个包含根节点的栈开始，当前深度为 `1` 。
 
-然后开始迭代：弹出当前栈顶元素，将它的孩子节点压入栈中。当遇到叶子节点时更新最小深度。
+// 然后开始迭代：弹出当前栈顶元素，将它的孩子节点压入栈中。当遇到叶子节点时更新最小深度。
 
-```Java []
+// ```Java []
 import javafx.util.Pair;
 class Solution {
   public int minDepth(TreeNode root) {
@@ -123,9 +123,9 @@ class Solution {
     return min_depth;
   }
 }
-```
+// ```
 
-```Python []
+// ```Python []
 class Solution:
     def minDepth(self, root):
         """
@@ -147,20 +147,20 @@ class Solution:
                     stack.append((depth + 1, c))
         
         return min_depth 
-```
+// ```
 
-**复杂度分析**
+// **复杂度分析**
 
-* 时间复杂度：每个节点恰好被访问一遍，复杂度为 $O(N)$。
-* 空间复杂度：最坏情况下我们会在栈中保存整棵树，此时空间复杂度为 $O(N)$。
+// * 时间复杂度：每个节点恰好被访问一遍，复杂度为 $O(N)$。
+// * 空间复杂度：最坏情况下我们会在栈中保存整棵树，此时空间复杂度为 $O(N)$。
 
-#### 方法 3：宽度优先搜索迭代
+// #### 方法 3：宽度优先搜索迭代
 
-深度优先搜索方法的缺陷是所有节点都必须访问到，以保证能够找到最小深度。因此复杂度是 $O(N)$。
+// 深度优先搜索方法的缺陷是所有节点都必须访问到，以保证能够找到最小深度。因此复杂度是 $O(N)$。
 
-一个优化的方法是利用宽度优先搜索，我们按照树的层次去迭代，第一个访问到的叶子就是最小深度的节点，这样就不要遍历所有的节点了。
+// 一个优化的方法是利用宽度优先搜索，我们按照树的层次去迭代，第一个访问到的叶子就是最小深度的节点，这样就不要遍历所有的节点了。
 
-```Java []
+// ```Java []
 import javafx.util.Pair;
 class Solution {
   public int minDepth(TreeNode root) {
@@ -190,9 +190,9 @@ class Solution {
     return current_depth;
   }
 }
-```
+// ```
 
-```Python []
+// ```Python []
 from collections import deque
 class Solution:
     def minDepth(self, root):
@@ -213,10 +213,10 @@ class Solution:
             for c in children:
                 if c:
                     node_deque.append((depth + 1, c))
-```
+// ```
 
 
-**复杂度分析**
+// **复杂度分析**
 
-* 时间复杂度：最坏情况下，这是一棵平衡树，我们需要按照树的层次一层一层的访问完所有节点，除去最后一层的节点。这样访问了 $N/2$ 个节点，因此复杂度是 $O(N)$。
-* 空间复杂度：和时间复杂度相同，也是 $O(N)$。
+// * 时间复杂度：最坏情况下，这是一棵平衡树，我们需要按照树的层次一层一层的访问完所有节点，除去最后一层的节点。这样访问了 $N/2$ 个节点，因此复杂度是 $O(N)$。
+// * 空间复杂度：和时间复杂度相同，也是 $O(N)$。

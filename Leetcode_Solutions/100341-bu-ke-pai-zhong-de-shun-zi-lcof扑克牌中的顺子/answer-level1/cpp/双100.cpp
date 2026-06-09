@@ -1,9 +1,9 @@
-### 解题思路
-双100
+// ### 解题思路
+// 双100
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isStraight(vector<int>& nums) {
@@ -46,4 +46,4 @@ public:
         return true; 
     }
 };
-```
+// ```

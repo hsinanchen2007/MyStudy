@@ -1,5 +1,5 @@
-c语言解法，打败了100%
-```c
+// c语言解法，打败了100%
+// ```c
 #include <string.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -185,4 +185,4 @@ char * replaceWords(char ** dict, int dictSize, char * sentence){
     *newSentence = '\0';
     return retVal;
 }
-```c
+// ```c

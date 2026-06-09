@@ -1,9 +1,9 @@
-### 解题思路
-1. 先对B数组中所有的出现字符进行综合计数，需注意如"oo", "ooo"这种情况，需要去B中每个单词出现频率与汇总hash表之间的最大值
-2. 将数组A中的每个单词，生成类似的字符计数hash表，比对该hash表与B中所有元素的汇总hash表
-### 代码
+// ### 解题思路
+// 1. 先对B数组中所有的出现字符进行综合计数，需注意如"oo", "ooo"这种情况，需要去B中每个单词出现频率与汇总hash表之间的最大值
+// 2. 将数组A中的每个单词，生成类似的字符计数hash表，比对该hash表与B中所有元素的汇总hash表
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> wordSubsets(vector<string>& A, vector<string>& B) {
@@ -45,4 +45,4 @@ public:
         return res;
     }
 };
-```
+// ```

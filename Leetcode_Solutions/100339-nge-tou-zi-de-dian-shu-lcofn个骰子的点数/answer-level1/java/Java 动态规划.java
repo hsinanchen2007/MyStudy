@@ -1,7 +1,7 @@
-`dp[i][j]`代表`i`枚色子和为`j`的概率
-递推公式很容易想到 `dp[i][j]= 1/6(dp[i-1][j-1]+dp[i-1][j-2]+dp[i-1][j-3]...dp[i-1][j-6])` 
-然后我们枚举各个状态就ok了
-```
+// `dp[i][j]`代表`i`枚色子和为`j`的概率
+// 递推公式很容易想到 `dp[i][j]= 1/6(dp[i-1][j-1]+dp[i-1][j-2]+dp[i-1][j-3]...dp[i-1][j-6])` 
+// 然后我们枚举各个状态就ok了
+// ```
 public double[] twoSum(int n) {
     //dp[i][j]代表i枚色子和为j的概率
     double[][] dp=new double[n+1][6*n+1];
@@ -19,4 +19,4 @@ public double[] twoSum(int n) {
     System.arraycopy(dp[n],n,res,0,res.length);
     return res;
 }
-```
+// ```

@@ -1,5 +1,5 @@
-废话少说 上代码
-```
+// 废话少说 上代码
+// ```
 func corpFlightBookings(bookings [][]int, n int) []int {
     ret := make([]int, n+2)
     for i := 0; i < len(bookings) ; i++ {
@@ -13,6 +13,6 @@ func corpFlightBookings(bookings [][]int, n int) []int {
     }
     return ret[:n]
 }
-```
+// ```
 
 

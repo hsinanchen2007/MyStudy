@@ -1,14 +1,14 @@
 
-这道题坑挺多，debug了好久
+// 这道题坑挺多，debug了好久
 
-如果没有思路，建议先理解295题，在大顶堆小顶堆之外增加了移除操作。 
-可以参考 [295代码](https://github.com/icecrea/leetcode/blob/master/src/main/java/com/example/swordoffer/Sword63_StreamMid.java)
+// 如果没有思路，建议先理解295题，在大顶堆小顶堆之外增加了移除操作。 
+// 可以参考 [295代码](https://github.com/icecrea/leetcode/blob/master/src/main/java/com/example/swordoffer/Sword63_StreamMid.java)
 
-注意
-1.声明大顶堆，不要用maxheap = new PriorityQueue<>((x, y) -> y - x)形式， 在相等的时候会有问题。
-2.两个Int最大值相加溢出情况
-3.删除操作之后，大根堆和小根堆的数量有可能会存在 2-3 或者 4-2这种情况 所以添加操作的判断条件为minheap.size() > maxheap.size()
-```
+// 注意
+// 1.声明大顶堆，不要用maxheap = new PriorityQueue<>((x, y) -> y - x)形式， 在相等的时候会有问题。
+// 2.两个Int最大值相加溢出情况
+// 3.删除操作之后，大根堆和小根堆的数量有可能会存在 2-3 或者 4-2这种情况 所以添加操作的判断条件为minheap.size() > maxheap.size()
+// ```
 class Solution {
      PriorityQueue<Integer> maxheap = new PriorityQueue<>(Comparator.reverseOrder());
     PriorityQueue<Integer> minheap = new PriorityQueue<>();
@@ -57,5 +57,5 @@ class Solution {
         }
     }
 }
-```
-git代码地址：[滑动窗口中位数](https://github.com/icecrea/leetcode/blob/master/src/main/java/com/example/leetcode/other/LeetCode480_SlidingWindowMedian.java)
+// ```
+// git代码地址：[滑动窗口中位数](https://github.com/icecrea/leetcode/blob/master/src/main/java/com/example/leetcode/other/LeetCode480_SlidingWindowMedian.java)

@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-1、采用递归的策略，进行迭代判定；
+// ### 解题思路
+// 此处撰写解题思路
+// 1、采用递归的策略，进行迭代判定；
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -36,4 +36,4 @@ bool isSameTree(struct TreeNode* p, struct TreeNode* q){
         }
     }
 }
-```
+// ```

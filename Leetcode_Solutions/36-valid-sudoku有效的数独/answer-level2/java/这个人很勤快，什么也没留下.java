@@ -1,6 +1,6 @@
-执行用时 :2 ms, 在所有 java 提交中击败了98.31% 的用户
-内存消耗 :41.8 MB, 在所有 java 提交中击败了84.26%的用户
-```
+// 执行用时 :2 ms, 在所有 java 提交中击败了98.31% 的用户
+// 内存消耗 :41.8 MB, 在所有 java 提交中击败了84.26%的用户
+// ```
 class Solution {
     public boolean verify(char[][] board,int i,int j){
         int[] num = new int[9];
@@ -60,4 +60,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

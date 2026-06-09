@@ -1,6 +1,6 @@
-talk is cheap,show me the code!
+// talk is cheap,show me the code!
 
-```java
+// ```java
 public int fourSumCount(int[] A, int[] B, int[] C, int[] D) {
         HashMap<Integer, Integer> hashMap = new HashMap<>();
         for(int i : C){
@@ -17,4 +17,4 @@ public int fourSumCount(int[] A, int[] B, int[] C, int[] D) {
         }
         return res;
     }
-```
+// ```

@@ -1,5 +1,5 @@
-go 语言实现
-```
+// go 语言实现
+// ```
 package p56
 
 import (
@@ -44,6 +44,6 @@ func merge(its [] Internal) []Internal {
 
 
 }
-```
+// ```
 
 

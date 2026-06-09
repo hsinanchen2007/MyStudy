@@ -1,9 +1,9 @@
-### 解题思路
-增加flag标志，若当前字符为非空格，且前一个字符为空格，表示新单词出现
+// ### 解题思路
+// 增加flag标志，若当前字符为非空格，且前一个字符为空格，表示新单词出现
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int countSegments(char * s){
     int i,sum,flag;
     i=sum=flag=0;
@@ -16,4 +16,4 @@ int countSegments(char * s){
     }
     return sum;
 }
-```
+// ```

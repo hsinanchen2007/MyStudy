@@ -1,20 +1,20 @@
-- 不求最高赞，只求让更多人得到身临其境地体会
-- 琢磨大半天了，看了几乎所有内外站的高赞题解，都在专业的讲解 **字符串特征** 与 **滑动窗口**，也许对摸不着头脑的同学们，更是越看越捉急、越不懂越烦躁
-- 忘掉他们，现试试这个有趣的场景
+// - 不求最高赞，只求让更多人得到身临其境地体会
+// - 琢磨大半天了，看了几乎所有内外站的高赞题解，都在专业的讲解 **字符串特征** 与 **滑动窗口**，也许对摸不着头脑的同学们，更是越看越捉急、越不懂越烦躁
+// - 忘掉他们，现试试这个有趣的场景
 
-# 题意转换
+// # 题意转换
 
-- `s` 改为 `students` 表示应届生程序员，`p` 改为 `plans` 表示公司对人才配比的期望
-- "滑动窗口" 就好比 **新员工入职** + **老员工离职**
+// - `s` 改为 `students` 表示应届生程序员，`p` 改为 `plans` 表示公司对人才配比的期望
+// - "滑动窗口" 就好比 **新员工入职** + **老员工离职**
 
-# 现在开始，忘掉原题，理解新题意
+// # 现在开始，忘掉原题，理解新题意
 
-- **公司期望达到预计的人才配比，hr很苦恼：一边有新员工面试，一边有老员工离职，如何才能完美实现人才配比？**（招多了烧钱，招少了缺人，刚刚好才叫完美）
-- hr很聪明，找到两个关键维度，能够快速识别如何达到完美配比
-    - 现在总人才缺口是多少 `expected: int`
-    - 当前各岗位的人才储备计划 `hire: int[26]`
+// - **公司期望达到预计的人才配比，hr很苦恼：一边有新员工面试，一边有老员工离职，如何才能完美实现人才配比？**（招多了烧钱，招少了缺人，刚刚好才叫完美）
+// - hr很聪明，找到两个关键维度，能够快速识别如何达到完美配比
+//     - 现在总人才缺口是多少 `expected: int`
+//     - 当前各岗位的人才储备计划 `hire: int[26]`
 
-```java
+// ```java
 for (人才顺序) {
     if (老员工离职) {
         列入对应岗位人才储备计划
@@ -32,9 +32,9 @@ for (人才顺序) {
 
     if (完美配比) 邀功领赏
 }
-```
+// ```
 
-```java []
+// ```java []
 // 带注释
 public List<Integer> findAnagrams(String students, String plans) {
     // 应届生人数太少，不可能达到完美配置
@@ -81,8 +81,8 @@ public List<Integer> findAnagrams(String students, String plans) {
 
     return perfect;
 }
-```
-```java []
+// ```
+// ```java []
 // 去掉注释，其实也没几行代码
 public List<Integer> findAnagrams(String students, String plans) {
     if (students.length() < plans.length()) return Collections.emptyList();
@@ -108,21 +108,21 @@ public List<Integer> findAnagrams(String students, String plans) {
     }
     return perfect;
 }
-```
-- 关键易错点：
-    - 在老员工离职时，为何先 `hire[leaving - 'a']++;` ，再 `if` 判断 `hire`
-    - 而新员工入职时，为何先 `if` 判断 `hire`， 再 `hire[leaving - 'a']--;`
-    - 纯代码理解，都把 `if` 放在后面也行，不过老员工就要 `hire[leaving - 'a'] >= 0` 而不是 `> 0`
-    - 有趣的场景理解
-        - **老员工离职，先告诉岗位领导要走，再上升到公司。** 先岗位 `hire` 受影响，再公司 `expected` 受影响
-        - **而新员工入职，先和公司谈完薪酬，再分配到对应岗位。** 先公司 `expected` 受影响，再岗位 `hire` 受影响
+// ```
+// - 关键易错点：
+//     - 在老员工离职时，为何先 `hire[leaving - 'a']++;` ，再 `if` 判断 `hire`
+//     - 而新员工入职时，为何先 `if` 判断 `hire`， 再 `hire[leaving - 'a']--;`
+//     - 纯代码理解，都把 `if` 放在后面也行，不过老员工就要 `hire[leaving - 'a'] >= 0` 而不是 `> 0`
+//     - 有趣的场景理解
+//         - **老员工离职，先告诉岗位领导要走，再上升到公司。** 先岗位 `hire` 受影响，再公司 `expected` 受影响
+//         - **而新员工入职，先和公司谈完薪酬，再分配到对应岗位。** 先公司 `expected` 受影响，再岗位 `hire` 受影响
 
-# 默写模板
+// # 默写模板
 
-- 最后提供一个默写的模板
-- 看看能够根据自己的理解，补全代码？
+// - 最后提供一个默写的模板
+// - 看看能够根据自己的理解，补全代码？
 
-```java
+// ```java
 public List<Integer> findAnagrams(String students, String plans) {
     // TODO: 应届生不足，肯定无法完美匹配
 
@@ -148,13 +148,13 @@ public List<Integer> findAnagrams(String students, String plans) {
     }
     return perfect;
 }
-```
+// ```
 
-# 相似题
+// # 相似题
 
-- [76. 最小覆盖子串](https://leetcode-cn.com/problems/minimum-window-substring/)
+// - [76. 最小覆盖子串](https://leetcode-cn.com/problems/minimum-window-substring/)
 
-```java
+// ```java
 // two points
 public String minWindow(String s, String t) {
     int min = Integer.MAX_VALUE, slen = s.length(), tlen = t.length();
@@ -191,4 +191,4 @@ public String minWindow(String s, String t) {
 
     return min == Integer.MAX_VALUE ? "" : new String(sarr, minL, minLen);
 }
-```
+// ```

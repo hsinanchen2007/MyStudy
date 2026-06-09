@@ -1,9 +1,9 @@
-### 解题思路
-判断是否是合法的括号组合不需要用栈，用一个数值计数就可以了
+// ### 解题思路
+// 判断是否是合法的括号组合不需要用栈，用一个数值计数就可以了
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public IList<string> GenerateParenthesis(int n) {
         char[] str = new char[2*n];
@@ -39,4 +39,4 @@ public class Solution {
         return balance==0;
     }
 }
-```
+// ```

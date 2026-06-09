@@ -1,11 +1,11 @@
-一个氧消耗两个氢。两个氢供给一个氧。
-信号量定义，有点tricky：
-//表示供给给氧的氢数量
-Semaphore oxygen = new Semaphore(2);
-//表示供给给氢的氢数量
-Semaphore hydrogen = new Semaphore(0);
-代码：
-```
+// 一个氧消耗两个氢。两个氢供给一个氧。
+// 信号量定义，有点tricky：
+// //表示供给给氧的氢数量
+// Semaphore oxygen = new Semaphore(2);
+// //表示供给给氢的氢数量
+// Semaphore hydrogen = new Semaphore(0);
+// 代码：
+// ```
 import java.util.concurrent.Semaphore;
 class H2O {
 
@@ -30,6 +30,6 @@ class H2O {
         hydrogen.release(2);
     }
 }
-```
+// ```
 
 

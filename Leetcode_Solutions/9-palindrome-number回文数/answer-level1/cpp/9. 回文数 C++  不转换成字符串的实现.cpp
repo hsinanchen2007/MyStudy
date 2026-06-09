@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isPalindrome(int x) {

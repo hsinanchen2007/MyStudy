@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var isSubStructure = function(A, B) {
     if(A == null || B == null) return false
     return doesAhasB(A, B) || isSubStructure(A.left, B) || isSubStructure(A.right, B)
@@ -14,4 +14,4 @@ const doesAhasB = (tree1, tree2) => {
 }
 
 
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-其实转化之后 就是数一数 里面有多少个奇数 多少个偶数 然后取 这两个数量里面的最小值即可
+// ### 解题思路
+// 其实转化之后 就是数一数 里面有多少个奇数 多少个偶数 然后取 这两个数量里面的最小值即可
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func minInt2(a, b int) int {
 	if a <= b {
 		return a
@@ -24,4 +24,4 @@ func minCostToMoveChips(chips []int) int {
 	}
 	return minInt2(evenCnt, oddCnt)
 }
-```
+// ```

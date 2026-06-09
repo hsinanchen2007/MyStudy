@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var kthLargest = function(root, k) {
     if(root == null || k < 1) return null;
     let arr = [];
@@ -14,4 +14,4 @@ var kthLargest = function(root, k) {
 };
 
 
-```
+// ```

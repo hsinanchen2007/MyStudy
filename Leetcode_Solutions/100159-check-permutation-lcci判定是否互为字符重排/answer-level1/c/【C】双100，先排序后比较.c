@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![TIM截图20200308130830.jpg](https://pic.leetcode-cn.com/23aaf3a36bc17727ab6b2e6fba6837d1e0d49543026858326add190cf222258a-TIM%E6%88%AA%E5%9B%BE20200308130830.jpg)
+// ### 解题思路
+// 此处撰写解题思路
+// ![TIM截图20200308130830.jpg](https://pic.leetcode-cn.com/23aaf3a36bc17727ab6b2e6fba6837d1e0d49543026858326add190cf222258a-TIM%E6%88%AA%E5%9B%BE20200308130830.jpg)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool CheckPermutation(char* s1, char* s2){
     int len1=0,len2=0;
     int i,j;
@@ -48,4 +48,4 @@ bool CheckPermutation(char* s1, char* s2){
 
     return true;
 }
-```
+// ```

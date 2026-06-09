@@ -1,9 +1,9 @@
-### 解题思路
-见标题
+# ### 解题思路
+# 见标题
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def fractionToDecimal(self, numerator, denominator):
         """
@@ -62,4 +62,4 @@ class Solution(object):
         else:
             return ret + int_part + '.' + fraction_to_str(remainder, denominator)
 
-```
+# ```

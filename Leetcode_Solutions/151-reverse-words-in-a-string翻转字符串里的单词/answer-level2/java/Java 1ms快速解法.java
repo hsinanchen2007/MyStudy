@@ -1,11 +1,11 @@
-### 解题思路
-![1586484695(1).jpg](https://pic.leetcode-cn.com/06830f470fb1adceebcfbe36ebef3cb121bb962f8d40413f141f39e42afbf22e-1586484695\(1\).jpg)
+// ### 解题思路
+// ![1586484695(1).jpg](https://pic.leetcode-cn.com/06830f470fb1adceebcfbe36ebef3cb121bb962f8d40413f141f39e42afbf22e-1586484695\(1\).jpg)
 
-通过split函数切块，再用StringBuilder拼接
+// 通过split函数切块，再用StringBuilder拼接
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String reverseWords(String s) {
         String[] strings = s.split(" ");
@@ -21,4 +21,4 @@ class Solution {
         return "";
     }
 }
-```
+// ```

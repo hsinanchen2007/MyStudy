@@ -1,10 +1,10 @@
-### 解题思路
-1.
-![image.png](https://pic.leetcode-cn.com/18c0f5bded0728e64d6733f28c8a547efae5f0ba74b471eab13dca07b9bd0834-image.png)
-2.代码参照leetcode官方解答，只是觉得它讲的没有自己理解的透彻。
-### 代码
+// ### 解题思路
+// 1.
+// ![image.png](https://pic.leetcode-cn.com/18c0f5bded0728e64d6733f28c8a547efae5f0ba74b471eab13dca07b9bd0834-image.png)
+// 2.代码参照leetcode官方解答，只是觉得它讲的没有自己理解的透彻。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxProfit(int[] prices) {
         int i = 0;
@@ -28,4 +28,4 @@ class Solution {
         return maxprofit;
     }
 }
-```
+// ```

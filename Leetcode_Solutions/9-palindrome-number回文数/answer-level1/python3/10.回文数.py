@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isPalindrome(self, x: int) -> bool:
         if x < 0 or (x > 0 and x % 10 == 0) : return False
@@ -24,4 +24,4 @@ class Solution:
             return False
 # 1234 5 4321
 # 10000 00001
-```
+# ```

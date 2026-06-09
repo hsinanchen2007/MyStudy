@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 /**
  * @param {number} n - a positive integer
  * @return {number} - a positive integer
@@ -14,4 +14,4 @@ var reverseBits = function(n) {
     //把符号位换成0
     return res >>> 0;
 };
-```
+// ```

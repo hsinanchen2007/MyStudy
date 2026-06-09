@@ -1,10 +1,10 @@
-### 解题思路
-从后向前将较大的数写入数组A中
-A[k--]等价于A[k] k--
+// ### 解题思路
+// 从后向前将较大的数写入数组A中
+// A[k--]等价于A[k] k--
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void merge(vector<int>& A, int m, vector<int>& B, int n) {
@@ -24,4 +24,4 @@ public:
         while(j>=0) A[k--] = B[j--];
     }
 };
-```
+// ```

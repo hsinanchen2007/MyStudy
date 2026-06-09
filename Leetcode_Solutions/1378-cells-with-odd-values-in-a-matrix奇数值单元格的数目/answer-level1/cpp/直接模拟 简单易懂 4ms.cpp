@@ -1,9 +1,9 @@
-### 解题思路
-直接模拟题目行为
+// ### 解题思路
+// 直接模拟题目行为
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int oddCells(int n, int m, vector<vector<int>>& indices)
@@ -30,4 +30,4 @@ public:
         return cnt;
     }
 };
-```
+// ```

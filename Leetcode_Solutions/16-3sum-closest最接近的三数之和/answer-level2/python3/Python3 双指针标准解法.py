@@ -1,9 +1,9 @@
-### 解题思路
-有很多注释
+# ### 解题思路
+# 有很多注释
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def threeSumClosest(self, s: List[int], target: int) -> int:
         if len(s)<3: #极端条件，一般是数组长度太短
@@ -24,4 +24,4 @@ class Solution:
                 else: #必定为目标值小于当前值的情况
                     k-=1 #通过移动下标来减小当前值
         return RE
-```
+# ```

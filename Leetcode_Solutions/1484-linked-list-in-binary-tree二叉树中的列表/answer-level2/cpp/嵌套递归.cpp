@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class Solution {
 public:
     // match 函数的作用为判断以 head 为头结点的链表和以 root 为根节点的链表是否匹配
@@ -29,4 +29,4 @@ public:
         return false;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-见甜姨
+// ### 解题思路
+// 见甜姨
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func gameOfLife(board [][]int) {
 	for i := range board {
 		for j := range board[i] {
@@ -51,4 +51,4 @@ func gameOfLife(board [][]int) {
 	}
 }
 
-```
+// ```

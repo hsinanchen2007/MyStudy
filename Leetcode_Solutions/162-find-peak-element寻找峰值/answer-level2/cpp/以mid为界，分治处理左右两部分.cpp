@@ -1,8 +1,8 @@
-### 解题思路
-类似quickSort的分治处理方式
-### 代码
+// ### 解题思路
+// 类似quickSort的分治处理方式
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findPeakElement(vector<int>& nums) {
@@ -41,4 +41,4 @@ public:
         return ret;
     }
 };
-```
+// ```

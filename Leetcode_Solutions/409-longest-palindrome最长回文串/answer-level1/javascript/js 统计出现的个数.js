@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {number}
@@ -14,4 +14,4 @@ var longestPalindrome = function (s) {
     const res = Object.values(store).reduce((sum, val) => val % 2 === 0 ? sum + val : sum + val - 1, 0)
     return res === s.length ? res : res + 1
 };
-```
+// ```

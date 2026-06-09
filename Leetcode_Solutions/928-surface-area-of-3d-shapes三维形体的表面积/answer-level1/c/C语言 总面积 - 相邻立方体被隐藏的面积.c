@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define min(a, b) ((a) < (b) ? (a) : (b))
 
 int surfaceArea(int** grid, int gridSize, int* gridColSize){
@@ -19,4 +19,4 @@ int surfaceArea(int** grid, int gridSize, int* gridColSize){
     }
     return sum;
 }
-```
+// ```

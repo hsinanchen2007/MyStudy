@@ -1,9 +1,9 @@
-### 解题思路
-下面的代码复杂度为O(MN)，空间负责度为O(M).主要有两个状态变量，pre代表上一层的最小路径和，cur代表当前这层的最小路径和。
+# ### 解题思路
+# 下面的代码复杂度为O(MN)，空间负责度为O(M).主要有两个状态变量，pre代表上一层的最小路径和，cur代表当前这层的最小路径和。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minimumTotal(self, triangle: List[List[int]]) -> int:
         if not triangle or not triangle[0]:
@@ -25,4 +25,4 @@ class Solution:
         return min(pre)
 
 
-```
+# ```

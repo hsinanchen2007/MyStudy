@@ -1,8 +1,8 @@
-## 思路一：二分
-参考：[410. Split Array Largest Sum](https://github.com/grandyang/leetcode/issues/410)
-对子数组最大和进行二分。
-### 代码
-```c++
+// ## 思路一：二分
+// 参考：[410. Split Array Largest Sum](https://github.com/grandyang/leetcode/issues/410)
+// 对子数组最大和进行二分。
+// ### 代码
+// ```c++
 class Solution {
 public:
     int splitArray(vector<int>& nums, int m) {        
@@ -32,4 +32,4 @@ public:
         return true;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int findCelebrity(int n) {//贪心求得局部最优解+验证
@@ -13,4 +13,4 @@ public:
         return candidate;
     }
 };
-```
+// ```

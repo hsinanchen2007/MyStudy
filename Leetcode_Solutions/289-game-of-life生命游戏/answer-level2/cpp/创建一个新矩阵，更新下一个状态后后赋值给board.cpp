@@ -1,9 +1,9 @@
-### 解题思路
-创建一个新矩阵，更新下一个状态后后赋值给board
+// ### 解题思路
+// 创建一个新矩阵，更新下一个状态后后赋值给board
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void gameOfLife(vector<vector<int>>& board) {
@@ -30,4 +30,4 @@ public:
 
     }
 };
-```
+// ```

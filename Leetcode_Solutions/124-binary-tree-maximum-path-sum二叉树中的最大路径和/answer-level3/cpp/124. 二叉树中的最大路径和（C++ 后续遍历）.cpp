@@ -1,5 +1,5 @@
-# 124. 二叉树中的最大路径和
-```
+// # 124. 二叉树中的最大路径和
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -53,4 +53,4 @@ public:
 		return max;
 	}
 };
-```
+// ```

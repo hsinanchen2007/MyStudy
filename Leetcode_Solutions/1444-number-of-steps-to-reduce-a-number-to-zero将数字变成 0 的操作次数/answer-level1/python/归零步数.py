@@ -1,9 +1,9 @@
-### 解题思路
-判断是否为偶数，num % 2 == 0
+# ### 解题思路
+# 判断是否为偶数，num % 2 == 0
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def numberOfSteps (self, num):
         """
@@ -18,4 +18,4 @@ class Solution(object):
                 num = num-1
             step += 1
         return step
-```
+# ```

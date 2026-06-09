@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
-**二分查找**
-```java
+// ### 代码
+// **二分查找**
+// ```java
 class Solution {
     public int searchInsert(int[] nums, int target) {
         if(nums.length == 0){
@@ -36,10 +36,10 @@ class Solution {
         }
     }
 }
-```
+// ```
 
-**普通遍历**
-```java
+// **普通遍历**
+// ```java
 class Solution {
     public int searchInsert(int[] nums, int target) {
         for(int i = 0; i < nums.length; i++){
@@ -50,4 +50,4 @@ class Solution {
         return nums.length;
     }
 }
-```
+// ```

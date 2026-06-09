@@ -1,10 +1,10 @@
-### 解题思路
-每次找最小值取反，最后统一加。
-复杂度O（nk)还有优化空间
+// ### 解题思路
+// 每次找最小值取反，最后统一加。
+// 复杂度O（nk)还有优化空间
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void findmin(int *A, int ASize) {
     int min = INT_MAX;
     int index = -1;
@@ -28,4 +28,4 @@ int largestSumAfterKNegations(int* A, int ASize, int K){
     }
     return ret;
 }
-```
+// ```

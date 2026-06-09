@@ -1,5 +1,5 @@
 
-```
+// ```
 int majorityElement(int* nums, int numsSize){
     int i,k;
     int aban[100][2] = {0};
@@ -29,4 +29,4 @@ int majorityElement(int* nums, int numsSize){
     }
     return 0;
     }
-```
+// ```

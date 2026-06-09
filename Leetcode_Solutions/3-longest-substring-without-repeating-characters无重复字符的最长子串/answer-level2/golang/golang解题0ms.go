@@ -1,11 +1,11 @@
-### 解题思路
-golang的byte操作性能远远高于操作string的性能
+// ### 解题思路
+// golang的byte操作性能远远高于操作string的性能
 
-其余不再赘述
+// 其余不再赘述
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func lengthOfLongestSubstring(s string) int {
     val := []byte(s)
     var valLen = len(val)
@@ -25,4 +25,4 @@ func lengthOfLongestSubstring(s string) int {
 	}
 	return maxLen
 }
-```
+// ```

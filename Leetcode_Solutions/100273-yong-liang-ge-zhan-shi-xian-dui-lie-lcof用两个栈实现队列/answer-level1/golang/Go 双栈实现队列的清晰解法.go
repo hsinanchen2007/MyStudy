@@ -1,11 +1,11 @@
-解法：
+// 解法：
 
-1. appendTail 的时候 s1 添加到末尾；
-2. deleteHead 的时候判断 s1 为空则返回 -1, 不为空则把 s1 的数据出栈到 s2, s2 出栈 top 元素, 然后 s2 剩余的元素 pop 到 s1。
+// 1. appendTail 的时候 s1 添加到末尾；
+// 2. deleteHead 的时候判断 s1 为空则返回 -1, 不为空则把 s1 的数据出栈到 s2, s2 出栈 top 元素, 然后 s2 剩余的元素 pop 到 s1。
 
-***注意：数据结构虽然使用 slice 实现, 但是模拟的必须是栈的操作!***
+// ***注意：数据结构虽然使用 slice 实现, 但是模拟的必须是栈的操作!***
 
-```go []
+// ```go []
 type CQueue struct {
 	s1, s2 []int // 尾插, 尾取即可以实现栈
 }
@@ -39,5 +39,5 @@ func (this *CQueue) DeleteHead() int {
 	return front
 }
 
-```
+// ```
 

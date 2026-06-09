@@ -1,5 +1,5 @@
-简洁，大气
-```c++ []
+// 简洁，大气
+// ```c++ []
 class Solution {
 public:
     ListNode* removeNthFromEnd(ListNode* head, int n) {
@@ -10,5 +10,5 @@ public:
         return head;
     }
 };
-```
-测试了一下，`?:`比`if else`效率高一点，`&&`和`if`差不多
+// ```
+// 测试了一下，`?:`比`if else`效率高一点，`&&`和`if`差不多

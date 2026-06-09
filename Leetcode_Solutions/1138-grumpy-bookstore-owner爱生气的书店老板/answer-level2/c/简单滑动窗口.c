@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX(a, b) ((a) > (b)) ? (a) : (b)
 
 int maxSatisfied(int* customers, int customersSize, int* grumpy, int grumpySize, int X)
@@ -36,4 +36,4 @@ int maxSatisfied(int* customers, int customersSize, int* grumpy, int grumpySize,
 
     return res + grumpyVal;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-双指针
+// ### 解题思路
+// 双指针
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 //双指针， O(n),O(1)
 func twoSum(numbers []int, target int) []int {
     if numbers == nil {
@@ -22,4 +22,4 @@ func twoSum(numbers []int, target int) []int {
     }
     return nil
 }
-```
+// ```

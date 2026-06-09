@@ -1,6 +1,6 @@
-利用BFS的方法来求最短路径，也可以用狄杰斯特拉算法，也是求单源最短路，一般求最短路可以用BFS或者DFS
-代码的思路不难，用DFS的话会超时
-```
+// 利用BFS的方法来求最短路径，也可以用狄杰斯特拉算法，也是求单源最短路，一般求最短路可以用BFS或者DFS
+// 代码的思路不难，用DFS的话会超时
+// ```
 class Solution {
 public:
     int shortestPathBinaryMatrix(vector<vector<int>>& grid) {
@@ -34,4 +34,4 @@ public:
         return minlen[grid.size()*grid.size()-1]==1e6?-1:minlen[grid.size()*grid.size()-1];
     }
 };
-```
+// ```

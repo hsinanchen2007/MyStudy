@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool verifyPostorder(vector<int>& postorder) {
@@ -24,4 +24,4 @@ public:
         return helper(postorder,left,cleft-1)&&helper(postorder,cleft,cright-1);
     }
 };
-```
+// ```

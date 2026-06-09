@@ -1,9 +1,9 @@
-### 解题思路
-层序遍历，往队列中添加元素时如果碰到null，就往队列中加null。每次循环都判断当前层的list是否满足镜像，要注意null节点需要随便给list中填个数，否则过不了两个右子树val一样的情况。想是好想，写起来不行，性能也不好。
+// ### 解题思路
+// 层序遍历，往队列中添加元素时如果碰到null，就往队列中加null。每次循环都判断当前层的list是否满足镜像，要注意null节点需要随便给list中填个数，否则过不了两个右子树val一样的情况。想是好想，写起来不行，性能也不好。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -55,4 +55,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

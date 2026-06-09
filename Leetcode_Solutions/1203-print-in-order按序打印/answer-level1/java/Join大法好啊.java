@@ -1,6 +1,6 @@
-思路就是thread2等thread1, thread3等thread2.
+// 思路就是thread2等thread1, thread3等thread2.
 
-```
+// ```
 class Foo {
 
     public Foo() {
@@ -31,4 +31,4 @@ class Foo {
         printThird.run();
     }
 }
-```
+// ```

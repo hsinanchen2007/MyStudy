@@ -1,5 +1,5 @@
-使用二分查找，log(2^31) = 31次，最多查找31次就可以找到
-```
+// 使用二分查找，log(2^31) = 31次，最多查找31次就可以找到
+// ```
 /**
  * @param {number} dividend
  * @param {number} divisor
@@ -28,4 +28,4 @@ var divide = function(dividend, divisor) {
     result = isForward ? result : -result;
     return result;
 };
-```
+// ```

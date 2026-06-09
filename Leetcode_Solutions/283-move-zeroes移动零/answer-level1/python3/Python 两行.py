@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def moveZeroes(self, nums: List[int]) -> None:
         """
@@ -6,5 +6,5 @@ class Solution:
         """
         for i in range(nums.count(0)):
                 nums.append(nums.pop(nums.index(0)))
-```
-希望大家指出不足
+# ```
+# 希望大家指出不足

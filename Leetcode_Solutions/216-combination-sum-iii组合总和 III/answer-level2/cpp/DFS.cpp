@@ -1,5 +1,5 @@
-保证组合数组元素升序，可以保证无重复。注意剪枝。
-```
+// 保证组合数组元素升序，可以保证无重复。注意剪枝。
+// ```
 class Solution {
     void dfs(vector<int> &v, int k, int n, vector<vector<int> > &vs){
         for(int i=k==0?1:v[k-1]+1; i<=min(9, n); ++i){
@@ -19,4 +19,4 @@ public:
         return vs;
     }
 };
-```
+// ```

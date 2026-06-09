@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     String ret = "" ;
     public String longestPalindrome(String s) {
@@ -24,4 +24,4 @@ class Solution {
         }
     }
 }
-```
+// ```

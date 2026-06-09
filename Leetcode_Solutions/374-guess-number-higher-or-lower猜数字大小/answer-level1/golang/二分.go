@@ -1,5 +1,5 @@
-二分基础题
-```
+// 二分基础题
+// ```
 // Forward declaration of guess API.
 // @param num, your guess
 // @return -1 if my number is lower, 1 if my number is higher, otherwise return 0
@@ -25,4 +25,4 @@ public:
         return mid;
     }
 };
-```
+// ```

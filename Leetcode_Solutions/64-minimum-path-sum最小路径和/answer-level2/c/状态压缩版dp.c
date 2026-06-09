@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MIN(X, Y) ((X) < (Y) ? (X) : (Y))
 int minPathSum(int** grid, int gridSize, int* gridColSize){
     int m = gridColSize[0], n = gridSize;
@@ -17,4 +17,4 @@ int minPathSum(int** grid, int gridSize, int* gridColSize){
             dp[x + 1] = MIN(dp[x], dp[x + 1]) + grid[y][x];
     return dp[m];
 }
-```
+// ```

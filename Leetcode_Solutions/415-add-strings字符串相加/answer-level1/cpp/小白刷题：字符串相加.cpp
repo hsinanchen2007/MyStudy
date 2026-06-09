@@ -1,7 +1,7 @@
-模拟笔算
+// 模拟笔算
 
-代码：
-```
+// 代码：
+// ```
 class Solution {
 public:
     string addStrings(string num1, string num2) {
@@ -28,4 +28,4 @@ public:
         }
     }
 };
-```
+// ```

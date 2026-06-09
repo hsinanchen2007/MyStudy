@@ -1,10 +1,10 @@
-### 解题思路
-其他的不想多说，就想说最后一行， if(sR.charAt(0) == '0') return "0";
-如果第一个是0，就全为0
+// ### 解题思路
+// 其他的不想多说，就想说最后一行， if(sR.charAt(0) == '0') return "0";
+// 如果第一个是0，就全为0
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String largestNumber(int[] nums) {
 int nLength = nums.length;
@@ -31,4 +31,4 @@ int nLength = nums.length;
         return sR;
     }
 }
-```
+// ```

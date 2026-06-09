@@ -1,7 +1,7 @@
 
-![image.png](https://pic.leetcode-cn.com/df7b462893dc8c5c0262f1454227bed0d04e6630ba69222d43eb8c8d682f0a68-image.png)
+# ![image.png](https://pic.leetcode-cn.com/df7b462893dc8c5c0262f1454227bed0d04e6630ba69222d43eb8c8d682f0a68-image.png)
 
-```
+# ```
 
 '''
 二维动态规划
@@ -39,4 +39,4 @@ class Solution:
                     min_val[1] = (color, dp[i][color])
 
         return min(dp[n-1])
-```
+# ```

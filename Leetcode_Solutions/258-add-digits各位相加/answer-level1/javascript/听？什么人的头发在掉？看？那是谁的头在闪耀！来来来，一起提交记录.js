@@ -1,5 +1,5 @@
 
-```
+// ```
 var addDigits = function(num) {
     if(num<10) return num;
     num+='';
@@ -11,5 +11,5 @@ var addDigits = function(num) {
     return addDigits(netNum); 
     
 };
-```
+// ```
 

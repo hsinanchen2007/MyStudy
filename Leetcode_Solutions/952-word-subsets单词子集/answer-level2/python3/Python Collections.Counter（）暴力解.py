@@ -1,4 +1,4 @@
-Python collection减一下
+# Python collection减一下
 
 class Solution:
     def wordSubsets(self, A: List[str], B: List[str]) -> List[str]:

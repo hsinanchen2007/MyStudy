@@ -1,5 +1,5 @@
-方法一：暴力法
-先排序，在不断切片，直到遇到只出现一次的数，返回即可
+# 方法一：暴力法
+# 先排序，在不断切片，直到遇到只出现一次的数，返回即可
     
     class Solution:
         def singleNumber(self, nums: List[int]) -> int:

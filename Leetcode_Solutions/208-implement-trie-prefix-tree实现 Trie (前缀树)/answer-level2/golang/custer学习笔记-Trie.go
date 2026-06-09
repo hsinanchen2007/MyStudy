@@ -1,4 +1,4 @@
-```go []
+// ```go []
 type Node struct {
 	isWord bool
 	next   map[string]*Node
@@ -60,11 +60,11 @@ func (this *Trie) StartsWith(prefix string) bool {
  * param_3 := obj.StartsWith(prefix);
  */
 
-```
+// ```
 
-递归实现
+// 递归实现
 
-```go []
+// ```go []
 type Node struct {
 	isWord bool
 	next   map[string]*Node
@@ -139,4 +139,4 @@ func isPrefix(node *Node, prefix string, index int) bool {
 
 	return isPrefix(node.next[c], prefix, index+1)
 }
-```
+// ```

@@ -1,7 +1,7 @@
-主要思路就是用union先将email合并，让account集合中的email有了相同的parent
-然后写一个map key存parent, value用treemap存这些相同parent的email
-最后再遍历这个map 将name插在前面
-```
+// 主要思路就是用union先将email合并，让account集合中的email有了相同的parent
+// 然后写一个map key存parent, value用treemap存这些相同parent的email
+// 最后再遍历这个map 将name插在前面
+// ```
 class Solution {
     class Node {
         Node parent;
@@ -57,4 +57,4 @@ class Solution {
         return x.parent;
     }
 }
-```
+// ```

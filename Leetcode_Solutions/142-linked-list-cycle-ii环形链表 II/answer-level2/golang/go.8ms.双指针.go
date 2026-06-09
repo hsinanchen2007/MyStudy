@@ -1,4 +1,4 @@
-```
+// ```
 核心：是一道双指针与数字题目。
  1. 整个链表分为**非环部分**(a)和**环部分**(b)
  2. 快指针 f 与慢指针 s 的速度关系是 f = 2s
@@ -16,9 +16,9 @@
 参考：
  1. https://leetcode-cn.com/problems/linked-list-cycle-ii/solution/huan-xing-lian-biao-ii-by-leetcode/
  2. https://leetcode-cn.com/problems/linked-list-cycle-ii/solution/linked-list-cycle-ii-kuai-man-zhi-zhen-shuang-zhi-/
-```
+// ```
 
-```go
+// ```go
 func detectCycle(head *ListNode) *ListNode {
 	if head == nil || head.Next == nil {
 		return nil
@@ -43,4 +43,4 @@ func detectCycle(head *ListNode) *ListNode {
 	}
 	return fast
 }
-```
+// ```

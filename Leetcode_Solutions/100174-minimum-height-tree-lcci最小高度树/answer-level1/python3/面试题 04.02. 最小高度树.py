@@ -1,5 +1,5 @@
 
-```python []
+# ```python []
 class Solution:
     def sortedArrayToBST(self, nums: List[int]) -> TreeNode:
         if nums:
@@ -8,4 +8,4 @@ class Solution:
             root.left = self.sortedArrayToBST(nums[: half])
             root.right = self.sortedArrayToBST(nums[half + 1: ])
             return root
-```
+# ```

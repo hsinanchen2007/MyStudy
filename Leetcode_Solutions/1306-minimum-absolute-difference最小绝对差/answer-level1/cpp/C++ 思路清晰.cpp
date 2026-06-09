@@ -1,6 +1,6 @@
-一开始用map，并不需要，只能是相邻的两个，直接比较就可以了
+// 一开始用map，并不需要，只能是相邻的两个，直接比较就可以了
 
-```
+// ```
 class Solution {
 public:
     vector<vector<int>> minimumAbsDifference(vector<int>& arr) {
@@ -24,10 +24,10 @@ public:
     }
 };
 
-```
+// ```
 
-原方法：
-```
+// 原方法：
+// ```
 class Solution {
 public:
     vector<vector<int>> minimumAbsDifference(vector<int>& arr) {
@@ -55,4 +55,4 @@ public:
         return res;
     }
 };
-```
+// ```

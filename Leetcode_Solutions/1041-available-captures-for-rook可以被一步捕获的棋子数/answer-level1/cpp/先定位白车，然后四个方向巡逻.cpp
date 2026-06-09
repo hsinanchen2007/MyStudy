@@ -1,9 +1,9 @@
-### 解题思路
-1.遍历数组，用Ri,Rj存储‘R’的位置
-2.上下左右四个方向分别查看是否在白象前有黑卒
-### 代码
+// ### 解题思路
+// 1.遍历数组，用Ri,Rj存储‘R’的位置
+// 2.上下左右四个方向分别查看是否在白象前有黑卒
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numRookCaptures(vector<vector<char>>& board) {
@@ -61,4 +61,4 @@ public:
         return res;
     }
 };
-```
+// ```

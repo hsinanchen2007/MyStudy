@@ -1,8 +1,8 @@
-### 解题思路
-暴力破解
-### 代码
+// ### 解题思路
+// 暴力破解
+// ### 代码
 
-```java
+// ```java
 /*
  * Copyright (c) 2020
  * Author: xiaoweixiang
@@ -41,4 +41,4 @@ class Solution {
     }
 }
 
-```
+// ```

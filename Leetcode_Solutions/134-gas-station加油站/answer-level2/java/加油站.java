@@ -1,10 +1,10 @@
-## 思路:
+// ## 思路:
 
-从`i`到`j`位置,有 `sum(gas) < sum(cost)`,说明`i`到不了`j`,并且`i`到`j`之间任何一个位置都到不了`j`
+// 从`i`到`j`位置,有 `sum(gas) < sum(cost)`,说明`i`到不了`j`,并且`i`到`j`之间任何一个位置都到不了`j`
 
-证明可以看[官方题解](https://leetcode-cn.com/problems/gas-station/solution/jia-you-zhan-by-leetcode)
+// 证明可以看[官方题解](https://leetcode-cn.com/problems/gas-station/solution/jia-you-zhan-by-leetcode)
 
-```python []
+// ```python []
 class Solution:
     def canCompleteCircuit(self, gas: List[int], cost: List[int]) -> int:
         if sum(gas) < sum(cost):return -1
@@ -16,11 +16,11 @@ class Solution:
                 res = i + 1
                 tank = 0
         return res
-```
+// ```
 
 
 
-```java []
+// ```java []
 class Solution {
     public int canCompleteCircuit(int[] gas, int[] cost) {
         int sum = 0;
@@ -38,4 +38,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

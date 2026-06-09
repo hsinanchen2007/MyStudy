@@ -1,8 +1,8 @@
-### 解题思路
-异常捕捉
-### 代码
+# ### 解题思路
+# 异常捕捉
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
         try:
@@ -15,4 +15,4 @@ class Solution:
                 if nums[i]>target:
                     nums.insert(i,target)
                     return i
-```
+# ```

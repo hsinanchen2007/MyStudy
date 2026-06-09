@@ -1,10 +1,10 @@
-### 解题思路
-主要是引入一个指针j，指向替换后不为0的位置；
+# ### 解题思路
+# 主要是引入一个指针j，指向替换后不为0的位置；
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def moveZeroes(self, nums: List[int]) -> None:
         """
@@ -22,4 +22,4 @@ class Solution:
         while j<count:
             nums[j] = 0
             j += 1
-```
+# ```

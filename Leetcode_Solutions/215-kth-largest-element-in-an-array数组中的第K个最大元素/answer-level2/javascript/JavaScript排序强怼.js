@@ -1,11 +1,11 @@
-### 解题思路
-排序强怼系列，时间空间集体爆炸，但是过了hhh
+// ### 解题思路
+// 排序强怼系列，时间空间集体爆炸，但是过了hhh
 
-回头再写个小顶堆
+// 回头再写个小顶堆
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} k
@@ -24,4 +24,4 @@ var findKthLargest = function(nums, k) {
     }
     return arr[0]
 };
-```
+// ```

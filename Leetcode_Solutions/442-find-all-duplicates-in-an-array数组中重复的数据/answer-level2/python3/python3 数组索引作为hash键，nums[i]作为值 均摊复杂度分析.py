@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-[41](https://leetcode-cn.com/problems/first-missing-positive/)   一样的思路，利用索引作为键，nums[i]作为值，自行构建hash来解决。
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# [41](https://leetcode-cn.com/problems/first-missing-positive/)   一样的思路，利用索引作为键，nums[i]作为值，自行构建hash来解决。
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findDuplicates(self, nums: List[int]) -> List[int]:
         n = len(nums)
@@ -19,4 +19,4 @@ class Solution:
                 ans.append(nums[i])
         return ans
 
-```
+# ```

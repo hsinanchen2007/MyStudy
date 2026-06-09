@@ -1,10 +1,10 @@
-### 解题思路
-对长度进行最大公约数即可！但是前提是保证有X的情况下
+# ### 解题思路
+# 对长度进行最大公约数即可！但是前提是保证有X的情况下
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def gcdOfStrings(self, str1: str, str2: str) -> str:
         if str1 + str2 != str2 + str1:
@@ -23,4 +23,4 @@ class Solution:
 
         
         
-```
+# ```

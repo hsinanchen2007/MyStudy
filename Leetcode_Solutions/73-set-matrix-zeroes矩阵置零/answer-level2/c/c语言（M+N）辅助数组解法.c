@@ -1,9 +1,9 @@
-### 解题思路
-先int变量赋值行值，列值.用这两个变量malloc两个对应行宽，列宽的一维辅助数组.双for遍历matrix数组，将值为0对应的辅助行列数组值置1，再遍历行数组和列数组，将值为1所对应matrix数组的整行和整列全置0.
+// ### 解题思路
+// 先int变量赋值行值，列值.用这两个变量malloc两个对应行宽，列宽的一维辅助数组.双for遍历matrix数组，将值为0对应的辅助行列数组值置1，再遍历行数组和列数组，将值为1所对应matrix数组的整行和整列全置0.
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void setZeroes(int** matrix, int matrixSize, int* matrixColSize){
 	int i,j;
     int irow=matrixSize;//行
@@ -40,4 +40,4 @@ void setZeroes(int** matrix, int matrixSize, int* matrixColSize){
 		}
 	}
 }
-```
+// ```

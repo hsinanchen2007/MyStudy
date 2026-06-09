@@ -1,5 +1,5 @@
-参考题解区余先声的解法
-```
+// 参考题解区余先声的解法
+// ```
 func isPossibleDivide(nums []int, k int) bool {
     var res arr
     res = make(arr,len(nums))
@@ -51,4 +51,4 @@ func (this arr) Less(i,j int) bool{
 func (this arr) Swap(i,j int){
     (this)[i],(this)[j] = (this)[j],(this)[i]
 }
-```
+// ```

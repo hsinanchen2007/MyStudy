@@ -1,11 +1,11 @@
-### 解题思路
-本思路需要对Trie有一定的了解。
-1.首先将dict按照长度进行从小到大排序。
-2.依次搜索sentence中的每个单词，结合上一点可以保证我们找到的结果是最短的词根。
+// ### 解题思路
+// 本思路需要对Trie有一定的了解。
+// 1.首先将dict按照长度进行从小到大排序。
+// 2.依次搜索sentence中的每个单词，结合上一点可以保证我们找到的结果是最短的词根。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     class TrieNode{
         boolean is_end ;
@@ -61,4 +61,4 @@ class Solution {
         return sb.toString().substring(0,sb.toString().length()-1) ;
     }
 }
-```
+// ```

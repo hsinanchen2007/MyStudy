@@ -1,4 +1,4 @@
-```Java
+// ```Java
 class Solution {
     public TreeNode deleteNode(TreeNode root, int key) {
         // 1. 构造一个fakeRoot节点作为根节点的父节点
@@ -60,4 +60,4 @@ class Solution {
         return findMinNode(root, root.left);
     }
 }
-```
+// ```

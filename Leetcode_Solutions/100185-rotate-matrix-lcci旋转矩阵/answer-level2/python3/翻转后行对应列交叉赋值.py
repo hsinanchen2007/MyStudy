@@ -1,9 +1,9 @@
-### 解题思路
-根据N值进行转换赋值
+# ### 解题思路
+# 根据N值进行转换赋值
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def rotate(self, matrix: List[List[int]]) -> None:
         """
@@ -26,4 +26,4 @@ class Solution:
         return matrix
         
 
-```
+# ```

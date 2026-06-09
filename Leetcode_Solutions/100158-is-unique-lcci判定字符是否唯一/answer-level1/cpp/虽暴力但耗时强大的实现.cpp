@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-有点时候，暴力反而是最高效的解法。
+// 有点时候，暴力反而是最高效的解法。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isUnique(string astr) {
@@ -20,4 +20,4 @@ public:
         return true;
     }
 };
-```
+// ```

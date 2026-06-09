@@ -1,9 +1,9 @@
-### 解题思路
-计数排序即可
+# ### 解题思路
+# 计数排序即可
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def getLeastNumbers(self, arr, k):
         """
@@ -26,4 +26,4 @@ class Solution(object):
                 return res    
         return res
         
-```
+# ```

@@ -1,11 +1,11 @@
-### 解题思路
-1. 扫描每个1
-2. 求和每个1的 四个方向中不是1(超界或者为0, 邻水) 的个数
-3. 返回求和结果
+// ### 解题思路
+// 1. 扫描每个1
+// 2. 求和每个1的 四个方向中不是1(超界或者为0, 邻水) 的个数
+// 3. 返回求和结果
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int count_one(int x, int y, int** grid, int a, int b){
     int res = 0;
     if (x-1 < 0 || grid[x-1][y] == 0) res++;
@@ -26,4 +26,4 @@ int islandPerimeter(int** grid, int gridSize, int* gridColSize){
     }
     return res;
 }
-```
+// ```

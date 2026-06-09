@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] relativeSortArray(int[] arr1, int[] arr2) {
          Map<Integer,Integer> map = new LinkedHashMap<>();
@@ -50,5 +50,5 @@ class Solution {
         return res;
     }
 }
-```
-关键点：用map的key保存arr2的元素，用value保存arr2元素出现的次数。但这里要保留相对位置，所以需要用有顺序的LinkedHashMap。
+// ```
+// 关键点：用map的key保存arr2的元素，用value保存arr2元素出现的次数。但这里要保留相对位置，所以需要用有顺序的LinkedHashMap。

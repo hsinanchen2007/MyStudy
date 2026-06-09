@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int massage(int* nums, int numsSize){
     int dp[10000];
     int i = 2;
@@ -26,4 +26,4 @@ int massage(int* nums, int numsSize){
 
     return dp[numsSize - 1];
 }
-```
+// ```

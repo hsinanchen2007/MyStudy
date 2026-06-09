@@ -1,8 +1,8 @@
-### 解题思路
-暴力法
-### 代码
+// ### 解题思路
+// 暴力法
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string longestPalindrome(string s) {
@@ -51,4 +51,4 @@ public:
         return flag;
     }
 };
-```
+// ```

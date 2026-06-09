@@ -1,4 +1,4 @@
-```Java []
+// ```Java []
 class Solution {
     public  int lengthOfLongestSubstringTwoDistinct(String s) {
         // 最大长度
@@ -45,4 +45,4 @@ class Solution {
         }
     }
 }
-```
+// ```

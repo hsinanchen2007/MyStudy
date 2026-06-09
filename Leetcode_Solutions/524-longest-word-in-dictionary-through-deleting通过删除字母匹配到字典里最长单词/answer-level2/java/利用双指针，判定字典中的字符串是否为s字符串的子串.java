@@ -1,9 +1,9 @@
-### 解题思路
-利用双指针，判定字典中的字符串是否为s字符串中的子串，用一个变量用来暂存长度最长的字典序。
+// ### 解题思路
+// 利用双指针，判定字典中的字符串是否为s字符串中的子串，用一个变量用来暂存长度最长的字典序。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String findLongestWord(String s, List<String> d) {
         String longStr = "";
@@ -36,4 +36,4 @@ class Solution {
         return di == dic.length();
     }
 }
-```
+// ```

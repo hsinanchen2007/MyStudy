@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Boolean> camelMatch(String[] queries, String pattern) {
         List<Boolean> res = new ArrayList<>(queries.length);
@@ -34,4 +34,4 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```

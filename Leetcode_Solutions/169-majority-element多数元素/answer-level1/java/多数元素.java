@@ -1,10 +1,10 @@
-### 解题思路
-把数组的值当做key，数组值出现的次数当做value存入hashmap里面
-遍历hashmap找到值最大的
+// ### 解题思路
+// 把数组的值当做key，数组值出现的次数当做value存入hashmap里面
+// 遍历hashmap找到值最大的
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int majorityElement(int[] nums) {
         HashMap<Integer,Integer> map=new HashMap<>();
@@ -30,4 +30,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

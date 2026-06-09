@@ -1,6 +1,6 @@
-求余部分不知道该怎么用其他方法
-大概200ms有点慢了
-```java []
+// 求余部分不知道该怎么用其他方法
+// 大概200ms有点慢了
+// ```java []
 	//尝试使用动态规划解决,分为6种情况
 	public int checkRecord(int n) {
 		//boundary conditions
@@ -40,4 +40,4 @@
 		
 		return (int)((dp[n][0]+dp[n][1]+dp[n][2]+dp[n][3]+dp[n][4]+dp[n][5])%max);
 	}
-```
+// ```

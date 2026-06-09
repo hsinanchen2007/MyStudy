@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
    private boolean[] visited;
     private int[] colors;
@@ -98,4 +98,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

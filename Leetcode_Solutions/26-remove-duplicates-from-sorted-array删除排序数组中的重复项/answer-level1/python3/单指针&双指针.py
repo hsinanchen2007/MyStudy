@@ -1,5 +1,5 @@
-# 方法一
-```
+# # 方法一
+# ```
 class Solution:
     def removeDuplicates(self, nums):
         i=0
@@ -12,10 +12,10 @@ class Solution:
                 pass
             i+=1
         return len(nums)
-```
-感觉用try模块有点取巧吧，主要是判断i和i+1是否相同
-# 不适用try模块
-```
+# ```
+# 感觉用try模块有点取巧吧，主要是判断i和i+1是否相同
+# # 不适用try模块
+# ```
 class Solution:
     def removeDuplicates(self, nums):
         i=0
@@ -27,9 +27,9 @@ class Solution:
                     break
             i+=1
         return len(nums)
-```
-# 方法二
-```
+# ```
+# # 方法二
+# ```
 class Solution:
     def removeDuplicates(self, nums):
         if not nums:
@@ -45,6 +45,6 @@ class Solution:
                 q += 1
         return p+1
 
-```
+# ```
 
-双指针，48ms，用快指针来判断是否读到一个新值
+# 双指针，48ms，用快指针来判断是否读到一个新值

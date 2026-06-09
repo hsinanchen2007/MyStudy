@@ -1,9 +1,9 @@
-### 解题思路
-原数组改写成一维数组就能判断了
+# ### 解题思路
+# 原数组改写成一维数组就能判断了
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findNumberIn2DArray(self, matrix: List[List[int]], target: int) -> bool:
         a = []
@@ -16,4 +16,4 @@ class Solution:
 
 
             
-```
+# ```

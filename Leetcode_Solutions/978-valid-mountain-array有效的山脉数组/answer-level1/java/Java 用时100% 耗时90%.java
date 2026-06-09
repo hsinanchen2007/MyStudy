@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public boolean validMountainArray(int[] A) {
         // 根据条件可以淘汰为空或者长度小于3的数组
@@ -33,4 +33,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

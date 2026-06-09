@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/9e0eb8c290a91e9b53d9fa3a39b8501565fe8b4b3627cc0b830f4b4d0c237ae9-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/9e0eb8c290a91e9b53d9fa3a39b8501565fe8b4b3627cc0b830f4b4d0c237ae9-image.png)
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -26,4 +26,4 @@ var pivotIndex = function(nums) {
     }
     return idx;
 };
-```
+// ```

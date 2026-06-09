@@ -1,9 +1,9 @@
-### 解题思路
+-- ### 解题思路
 
-解题思路和第二高的思路是一样的，主要是判断当N为0时的不合理情况
-### 代码
+-- 解题思路和第二高的思路是一样的，主要是判断当N为0时的不合理情况
+-- ### 代码
 
-```mysql
+-- ```mysql
 CREATE FUNCTION getNthHighestSalary(N INT) RETURNS INT
 BEGIN
     # 精简版
@@ -17,4 +17,4 @@ BEGIN
         );
     END IF;
 END
-```
+-- ```

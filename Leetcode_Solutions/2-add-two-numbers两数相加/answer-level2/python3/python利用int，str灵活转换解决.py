@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-其实这个本质就是两个数相加，所以我们不如把这个转换成int型的数字
-然后相加之后把每个位置上取出来放入ListNode
+# ### 解题思路
+# 此处撰写解题思路
+# 其实这个本质就是两个数相加，所以我们不如把这个转换成int型的数字
+# 然后相加之后把每个位置上取出来放入ListNode
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -30,4 +30,4 @@ class Solution:
             f.next = li
             li = f 
         return li
-```
+# ```

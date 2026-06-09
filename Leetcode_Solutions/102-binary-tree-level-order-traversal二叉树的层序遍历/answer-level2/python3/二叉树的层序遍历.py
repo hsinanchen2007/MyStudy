@@ -1,16 +1,16 @@
-### 解题思路
-1.对每一层依次遍历，用list level表示当前探索的层，在遍历中把当前层所有元素放入结果列表中，并时刻更新level
-执行用时 :20 ms, 在所有 Python 提交中击败了86.84%的用户
-内存消耗 :13.2 MB, 在所有 Python 提交中击败了5.97%的用户
-时空复杂度都为n
-2.递归
-时间空间复杂度也为n
-执行用时 :28 ms, 在所有 Python 提交中击败了42.07%的用户
-内存消耗 :13.7 MB, 在所有 Python 提交中击败了5.97%的用户
+# ### 解题思路
+# 1.对每一层依次遍历，用list level表示当前探索的层，在遍历中把当前层所有元素放入结果列表中，并时刻更新level
+# 执行用时 :20 ms, 在所有 Python 提交中击败了86.84%的用户
+# 内存消耗 :13.2 MB, 在所有 Python 提交中击败了5.97%的用户
+# 时空复杂度都为n
+# 2.递归
+# 时间空间复杂度也为n
+# 执行用时 :28 ms, 在所有 Python 提交中击败了42.07%的用户
+# 内存消耗 :13.7 MB, 在所有 Python 提交中击败了5.97%的用户
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -51,4 +51,4 @@ class Solution(object):
             helper(root.right, depth + 1)
         helper(root, 0)
         return res
-```
+# ```

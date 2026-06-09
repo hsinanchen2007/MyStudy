@@ -1,5 +1,5 @@
-想法就是，每一次递归填写一行，直到行数达到要求
-```
+// 想法就是，每一次递归填写一行，直到行数达到要求
+// ```
 class Solution {
 public:
     void call(vector<vector<int>>& v, int count, int numRows) {
@@ -28,4 +28,4 @@ public:
         return ret;
     }
 };
-```
+// ```

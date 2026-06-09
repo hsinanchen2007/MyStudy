@@ -1,9 +1,9 @@
-### 解题思路
-献丑，主要加了数组cache保存递归过程中的值，以免重复计算
+// ### 解题思路
+// 献丑，主要加了数组cache保存递归过程中的值，以免重复计算
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public static int fib(int n){
         int[] cache = new int[n];
@@ -36,4 +36,4 @@ class Solution {
     }
     
 }
-```
+// ```

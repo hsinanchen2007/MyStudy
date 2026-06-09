@@ -1,9 +1,9 @@
-####  方法一：单词查找树 + 集合交集 [超出时间限制]
-**算法：**
-- 我们使用两个单词查找树找出所有前缀匹配的单词和后缀匹配的单词。再通过取集合的交集找到其中权值最大的单词，并返回权重。
-- 然而，集合的元素可能会过大，导致超出时间限制。
+// ####  方法一：单词查找树 + 集合交集 [超出时间限制]
+// **算法：**
+// - 我们使用两个单词查找树找出所有前缀匹配的单词和后缀匹配的单词。再通过取集合的交集找到其中权值最大的单词，并返回权重。
+// - 然而，集合的元素可能会过大，导致超出时间限制。
 
-```Python [ ]
+// ```Python [ ]
 Trie = lambda: collections.defaultdict(Trie)
 WEIGHT = False
 
@@ -42,9 +42,9 @@ class WordFilter(object):
             cur2 = cur2[letter]
 
         return max(cur1[WEIGHT] & cur2[WEIGHT])
-```
+// ```
 
-```Java [ ]
+// ```Java [ ]
 class WordFilter {
     TrieNode trie1, trie2;
     public WordFilter(String[] words) {
@@ -106,22 +106,22 @@ class TrieNode {
         weight = new HashSet();
     }
 }
-```
+// ```
 
-**复杂度分析**
+// **复杂度分析**
 
-* 时间复杂度：$O(NK + Q(N+K))$。其中 $N$ 指的是单词的个数，$K$ 指的是单词中的最大长度，$Q$ 指的是搜索的次数。
-* 空间复杂度：$O(NK)$，单词查找树使用的空间大小。
-
-
-####  方法二：成对的单词查找树 [通过]
-**算法：**
-- 假设我们插入了 `apple` 这个单词。我们可以在单词查找树中插入 `('a', 'e'), ('p', 'l'), ('p', 'p'), ('l', 'p'), ('e', 'a')`。然后，如果我们有像 `prefix = "ap", suffix = "le"` 这样的等长查询，我们可以在单词查找树中找到节点 `trie['a'，e']['p'，l']`。
-- 如果是不等长的查询呢？例如，要查询 `prefix = "app", suffix = "e"` 这样的情况，我们可以创建节点 `trie['a'，'e']['p'，None]['p'，None]`。
-- 在将节点插入单词查找树之后，我们的搜索会很简单。
+// * 时间复杂度：$O(NK + Q(N+K))$。其中 $N$ 指的是单词的个数，$K$ 指的是单词中的最大长度，$Q$ 指的是搜索的次数。
+// * 空间复杂度：$O(NK)$，单词查找树使用的空间大小。
 
 
-```Python [ ]
+// ####  方法二：成对的单词查找树 [通过]
+// **算法：**
+// - 假设我们插入了 `apple` 这个单词。我们可以在单词查找树中插入 `('a', 'e'), ('p', 'l'), ('p', 'p'), ('l', 'p'), ('e', 'a')`。然后，如果我们有像 `prefix = "ap", suffix = "le"` 这样的等长查询，我们可以在单词查找树中找到节点 `trie['a'，e']['p'，l']`。
+// - 如果是不等长的查询呢？例如，要查询 `prefix = "app", suffix = "e"` 这样的情况，我们可以创建节点 `trie['a'，'e']['p'，None]['p'，None]`。
+// - 在将节点插入单词查找树之后，我们的搜索会很简单。
+
+
+// ```Python [ ]
 Trie = lambda: collections.defaultdict(Trie)
 WEIGHT = False
 
@@ -154,9 +154,9 @@ class WordFilter(object):
             if (a, b) not in cur: return -1
             cur = cur[a, b]
         return cur[WEIGHT]
-```
+// ```
 
-```Java [ ]
+// ```Java [ ]
 class WordFilter {
     TrieNode trie;
     public WordFilter(String[] words) {
@@ -221,20 +221,20 @@ class TrieNode {
         weight = 0;
     }
 }
-```
+// ```
 
-**复杂度分析**
+// **复杂度分析**
 
-* 时间复杂度：$O(NK^2 + QK)$。其中 $N$ 指的是单词的个数，$K$ 指的是单词中的最大长度，$Q$ 指的是搜索的次数。
-* 空间复杂度：$O(NK^2)$，单词查找树使用的空间大小。
+// * 时间复杂度：$O(NK^2 + QK)$。其中 $N$ 指的是单词的个数，$K$ 指的是单词中的最大长度，$Q$ 指的是搜索的次数。
+// * 空间复杂度：$O(NK^2)$，单词查找树使用的空间大小。
 
 
-####  方法三：后缀修饰的单词查找树 [通过]
-**算法：**
-- 对于 `apple` 这个单词，我们可以在单词查找树插入每个后缀，后跟 `“#”` 和单词。
-- 例如，我们将在单词查找树中插入 `'#apple', 'e#apple', 'le#apple', 'ple#apple', 'pple#apple', 'apple#apple'`。然后对于 `prefix = "ap", suffix = "le"` 这样的查询，我们可以通过查询单词查找树找到 `le#ap`。
+// ####  方法三：后缀修饰的单词查找树 [通过]
+// **算法：**
+// - 对于 `apple` 这个单词，我们可以在单词查找树插入每个后缀，后跟 `“#”` 和单词。
+// - 例如，我们将在单词查找树中插入 `'#apple', 'e#apple', 'le#apple', 'ple#apple', 'pple#apple', 'apple#apple'`。然后对于 `prefix = "ap", suffix = "le"` 这样的查询，我们可以通过查询单词查找树找到 `le#ap`。
 
-```Python [ ]
+// ```Python [ ]
 Trie = lambda: collections.defaultdict(Trie)
 WEIGHT = False
 
@@ -258,9 +258,9 @@ class WordFilter(object):
                 return -1
             cur = cur[letter]
         return cur[WEIGHT]
-```
+// ```
 
-```Java [ ]
+// ```Java [ ]
 class WordFilter {
     TrieNode trie;
     public WordFilter(String[] words) {
@@ -298,10 +298,10 @@ class TrieNode {
         weight = 0;
     }
 }
-```
+// ```
 
 
-**复杂度分析**
+// **复杂度分析**
 
-* 时间复杂度：$O(NK^2 + QK)$。其中 $N$ 指的是单词的个数，$K$ 指的是单词中的最大长度，$Q$ 指的是搜索的次数。
-* 空间复杂度：$O(NK^2)$，单词查找树使用的空间大小。
+// * 时间复杂度：$O(NK^2 + QK)$。其中 $N$ 指的是单词的个数，$K$ 指的是单词中的最大长度，$Q$ 指的是搜索的次数。
+// * 空间复杂度：$O(NK^2)$，单词查找树使用的空间大小。

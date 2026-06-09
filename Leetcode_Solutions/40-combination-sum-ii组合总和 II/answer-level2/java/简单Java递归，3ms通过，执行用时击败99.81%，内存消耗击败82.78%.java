@@ -1,8 +1,8 @@
-和组合数I思路基本一致，如果没办法看懂代码的可以去看看上道题我写的题解。
-链接如下：
-https://leetcode-cn.com/problems/combination-sum/solution/jian-dan-di-gui-si-lu-by-sky-137/
+// 和组合数I思路基本一致，如果没办法看懂代码的可以去看看上道题我写的题解。
+// 链接如下：
+// https://leetcode-cn.com/problems/combination-sum/solution/jian-dan-di-gui-si-lu-by-sky-137/
 
-```
+// ```
 class Solution {
     public static List<List<Integer>> combinationSum2(int[] candidates, int target) {
         List<List<Integer>> ans = new ArrayList<>();
@@ -34,4 +34,4 @@ class Solution {
         currentAns.remove(currentAns.size()-1);
     }
 }
-```
+// ```

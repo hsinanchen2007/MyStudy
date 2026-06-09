@@ -1,9 +1,9 @@
-### 解题思路
-按字母检索是否存在，不存在则立即返回false，存在则从下一个下标开始检索下一个字母。
+// ### 解题思路
+// 按字母检索是否存在，不存在则立即返回false，存在则从下一个下标开始检索下一个字母。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} S
  * @param {string[]} words
@@ -29,4 +29,4 @@ var numMatchingSubseq = function(S, words) {
 
     return count;
   };
-```
+// ```

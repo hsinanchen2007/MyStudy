@@ -1,6 +1,6 @@
-相比较于 No46，在这道题只需要加上一个判重条件即可：
+// 相比较于 No46，在这道题只需要加上一个判重条件即可：
 
-```
+// ```
 func permuteUnique(nums []int) (final [][]int) {
 	backtrace2(len(nums), 0, nums, &final)
 
@@ -23,4 +23,4 @@ func backtrace2(n, first int, nums []int, output *[][]int) {
 		nums[i], nums[first] = nums[first], nums[i]
 	}
 }
-```
+// ```

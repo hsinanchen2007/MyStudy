@@ -1,9 +1,9 @@
-### 解题思路
-so easy
+// ### 解题思路
+// so easy
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findComplement(num int) int {
 	ret := 0
 	os := fmt.Sprintf("%b", num)
@@ -16,4 +16,4 @@ func findComplement(num int) int {
 	}
 	return ret
 }
-```
+// ```

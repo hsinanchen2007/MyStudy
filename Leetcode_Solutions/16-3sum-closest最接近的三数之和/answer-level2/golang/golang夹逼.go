@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func threeSumClosest(nums []int, target int) int {
      n := len(nums)
      if n < 3 {
@@ -59,4 +59,4 @@ func cut(arr []int, start int, end int) int {
     arr[p], arr[end] = arr[end], arr[p]
     return p
 }
-```
+// ```

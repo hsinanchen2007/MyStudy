@@ -1,4 +1,4 @@
-```
+// ```
 //dfs 递归
 func binaryTreePaths(root *TreeNode) []string {
 	if root == nil {
@@ -21,4 +21,4 @@ func dfs(root *TreeNode, path string, ss *[]string) {
 		}
 	}
 }
-```
+// ```

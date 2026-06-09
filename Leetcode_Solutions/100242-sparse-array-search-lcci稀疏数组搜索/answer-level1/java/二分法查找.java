@@ -1,16 +1,16 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/42e21bc5fb14b24881309c428ce565f9f1b6532f51918b2e3ddd9af95e7030f1-image.png)
+// ![image.png](https://pic.leetcode-cn.com/42e21bc5fb14b24881309c428ce565f9f1b6532f51918b2e3ddd9af95e7030f1-image.png)
 
-1. 通过字符串长度可以得出，哈希表会超出指定内存
-2. 只能使用二分法进行查找，但是如果words[mid] == ""的话，需要在不越界的情况左右移动找出最近的有效值作为mid
-3. 需要使用字符串的比较大小，使用默认的比较即可
-4. 最终左右指针结束后返回-1
+// 1. 通过字符串长度可以得出，哈希表会超出指定内存
+// 2. 只能使用二分法进行查找，但是如果words[mid] == ""的话，需要在不越界的情况左右移动找出最近的有效值作为mid
+// 3. 需要使用字符串的比较大小，使用默认的比较即可
+// 4. 最终左右指针结束后返回-1
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findString(String[] words, String s) {
         int start = 0;
@@ -79,4 +79,4 @@ class Solution {
         return !"".equals(s);
     }
 }
-```
+// ```

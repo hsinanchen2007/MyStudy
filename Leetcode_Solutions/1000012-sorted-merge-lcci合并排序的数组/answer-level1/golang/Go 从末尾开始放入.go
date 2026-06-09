@@ -1,4 +1,4 @@
-```golang
+// ```golang
 func merge(A []int, m int, B []int, n int)  {
     i:=m-1
     j:=n-1
@@ -12,4 +12,4 @@ func merge(A []int, m int, B []int, n int)  {
         }
     }
 }
-```
+// ```

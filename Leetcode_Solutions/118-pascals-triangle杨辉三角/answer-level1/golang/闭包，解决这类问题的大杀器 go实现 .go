@@ -1,6 +1,6 @@
-![1564906747(1).png](https://pic.leetcode-cn.com/e5721a6c1681f3b5260ef0c149b0ff37f238b8f168bad11e6b723c7eebcf2a26-1564906747\(1\).png)
+// ![1564906747(1).png](https://pic.leetcode-cn.com/e5721a6c1681f3b5260ef0c149b0ff37f238b8f168bad11e6b723c7eebcf2a26-1564906747\(1\).png)
 
-``` golang []
+// ``` golang []
 func generateYangHui() func() []int {
 	row := []int{1}
 	return func () []int {
@@ -34,6 +34,6 @@ func generate(numRows int) [][]int {
 
 	return row
 }
-```
+// ```
 
-用闭包的思想来解决，想一想，杨辉三角是不是和斐波那契数列很像呢，其实，它两是一样的。当前的值是要对上一次的值做处理，所以当然就想到闭包了
+// 用闭包的思想来解决，想一想，杨辉三角是不是和斐波那契数列很像呢，其实，它两是一样的。当前的值是要对上一次的值做处理，所以当然就想到闭包了

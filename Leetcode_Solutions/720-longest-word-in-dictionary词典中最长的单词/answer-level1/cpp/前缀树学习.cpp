@@ -1,8 +1,8 @@
-今天学习了前缀树
+// 今天学习了前缀树
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Tie{
     public:
        bool is_string;
@@ -56,4 +56,4 @@ public:
 };
 
 
-```
+// ```

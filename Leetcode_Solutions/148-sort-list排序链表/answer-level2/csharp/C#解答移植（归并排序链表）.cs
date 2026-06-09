@@ -1,6 +1,6 @@
-# 归并排序
-其实还有点没看懂代码，总之先移植C#上成功运行了。
-```
+// # 归并排序
+// 其实还有点没看懂代码，总之先移植C#上成功运行了。
+// ```
 public ListNode SortList(ListNode head)//归并排序
 {
     ListNode dummyHead = new ListNode(0);
@@ -71,6 +71,6 @@ public ListNode MergeTwoLists(ListNode l1, ListNode l2)//合并两个有序链�
     }
     return listHead.next;
 }
-```
-![image.png](https://pic.leetcode-cn.com/7ca45e87ff3b2f2578b941729eecce330617755a3b651bb21e0733f0dfd0d5a6-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/7ca45e87ff3b2f2578b941729eecce330617755a3b651bb21e0733f0dfd0d5a6-image.png)
 

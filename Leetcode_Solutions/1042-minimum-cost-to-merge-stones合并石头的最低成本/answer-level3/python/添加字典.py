@@ -1,4 +1,4 @@
-添加一个字典记录合并为1堆的结果，可以节省大量计算时间（时间击败70%）
+# 添加一个字典记录合并为1堆的结果，可以节省大量计算时间（时间击败70%）
 class Solution(object):
     def mergeStones(self, stones, K):
         """

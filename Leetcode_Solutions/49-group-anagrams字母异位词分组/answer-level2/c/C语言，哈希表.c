@@ -1,4 +1,4 @@
-```
+// ```
 /*解题思路：
     1.先排序字符串，以判断是否是异位词；
     2.在hashtable中存放异位词的从小到大的字符串;
@@ -63,4 +63,4 @@ char*** groupAnagrams(char** strs, int strsSize, int* returnSize, int** returnCo
     }
     return result;
 }
-```
+// ```

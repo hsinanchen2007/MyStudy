@@ -1,10 +1,10 @@
-### 解题思路
-1. 和反转链表差不多，但用了三个数组来放置节点，空间占用较多
-2. 主要是边界条件的处理比较费劲
+// ### 解题思路
+// 1. 和反转链表差不多，但用了三个数组来放置节点，空间占用较多
+// 2. 主要是边界条件的处理比较费劲
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -56,4 +56,4 @@ var reverseBetween = function(head, m, n) {
     }
     return _head
 };
-```
+// ```

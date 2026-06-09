@@ -1,9 +1,9 @@
-### 解题思路
-借用别人的思路
+# ### 解题思路
+# 借用别人的思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def twoSum(self, numbers: List[int], target: int) -> List[int]:
         hashmap = {}
@@ -14,4 +14,4 @@ class Solution:
             hashmap[num] = index
         return None
 
-```
+# ```

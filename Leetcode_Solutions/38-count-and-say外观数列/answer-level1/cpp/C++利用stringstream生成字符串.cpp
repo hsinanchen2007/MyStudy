@@ -1,5 +1,5 @@
-利用stringstream可以比较简单地在int与string类型之间转换，用时0ms
-```
+// 利用stringstream可以比较简单地在int与string类型之间转换，用时0ms
+// ```
 class Solution {
   public:
     string countAndSay(int n) {
@@ -23,4 +23,4 @@ class Solution {
         return ret;
     }
 };
-```
+// ```

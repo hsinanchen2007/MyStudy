@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3 []
+# ```python3 []
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:
         heap = []
@@ -13,9 +13,9 @@ class Solution:
                 heapq.heappop(heap)
         return heapq.heappop(heap) # [5,6]  从堆中弹出最小的元素
 
-```
-```python3 []
+# ```
+# ```python3 []
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:
         return heapq.nlargest(k, nums)[-1] # [6,5]
-```
+# ```

@@ -1,8 +1,8 @@
-1.计算包含单词的个数
-2.计算空格的个数，并和单词组合
-3.在最后一行，单独处理
-Talk is cheap,so please see the code.
-```
+// 1.计算包含单词的个数
+// 2.计算空格的个数，并和单词组合
+// 3.在最后一行，单独处理
+// Talk is cheap,so please see the code.
+// ```
 class Solution {
     public List<String> fullJustify(String[] words, int maxWidth) {
         List<String> res = new ArrayList<>();
@@ -89,4 +89,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

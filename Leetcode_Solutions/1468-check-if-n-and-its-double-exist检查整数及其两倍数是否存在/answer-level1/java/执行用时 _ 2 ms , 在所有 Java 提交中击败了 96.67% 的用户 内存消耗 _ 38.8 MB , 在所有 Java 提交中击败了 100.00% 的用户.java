@@ -1,9 +1,9 @@
-### 解题思路
-最基本的双循环都能击败这么多人。。。
+// ### 解题思路
+// 最基本的双循环都能击败这么多人。。。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean checkIfExist(int[] arr) {
         for(int i = 0;i<arr.length;i++){
@@ -16,4 +16,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

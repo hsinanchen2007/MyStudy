@@ -1,6 +1,6 @@
-和之前的一道位运算其实是一样的
+// 和之前的一道位运算其实是一样的
 
-```
+// ```
 public int[] missingTwo(int[] nums) {
         int xor = 0;
         for(int n : nums) {
@@ -42,4 +42,4 @@ public int[] missingTwo(int[] nums) {
         res[1] = b;
         return res;
     }
-```
+// ```

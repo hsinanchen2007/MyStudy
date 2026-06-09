@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int SingleNumber(int[] nums) {
         Dictionary<int,int> dic = new Dictionary<int, int>(nums.Length);
@@ -22,4 +22,4 @@ public class Solution {
         return dic.First().Key;
     }
 }
-```
+// ```

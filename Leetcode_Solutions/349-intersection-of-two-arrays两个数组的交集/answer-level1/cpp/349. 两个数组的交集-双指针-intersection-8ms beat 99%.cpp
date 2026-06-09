@@ -1,7 +1,7 @@
 
-先排序，nums1 是钥匙，nums2 是门，数字匹配上了，说明配对，加入返回值。
+// 先排序，nums1 是钥匙，nums2 是门，数字匹配上了，说明配对，加入返回值。
 
-```cpp
+// ```cpp
 vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
     sort(nums1.begin(), nums1.end());
     sort(nums2.begin(), nums2.end());
@@ -21,4 +21,4 @@ vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
     }
     return res;
 }
-```
+// ```

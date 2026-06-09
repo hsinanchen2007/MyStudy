@@ -1,8 +1,8 @@
-**引用大神typingMonkey的思想，用Java复刻了一个答案，一次性通过。**
-![1568879841(1).jpg](https://pic.leetcode-cn.com/89474a4acb152b1a68c3bab8dd1ddda892bb15b8e4cb94d36c71edd3f7a4d0e4-1568879841\(1\).jpg)
+// **引用大神typingMonkey的思想，用Java复刻了一个答案，一次性通过。**
+// ![1568879841(1).jpg](https://pic.leetcode-cn.com/89474a4acb152b1a68c3bab8dd1ddda892bb15b8e4cb94d36c71edd3f7a4d0e4-1568879841\(1\).jpg)
 
 
-```
+// ```
     public String reverseParentheses(String s) {
         Stack<String> stack = new Stack<>();
         stack.push("");
@@ -26,4 +26,4 @@
         }
         return stack.pop();
     }
-```
+// ```

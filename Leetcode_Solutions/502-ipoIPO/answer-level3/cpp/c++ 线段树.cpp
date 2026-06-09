@@ -1,10 +1,10 @@
-这道题没有仔细想，但是直接套线段树还是能快速得到答案，因为nlogn速度也是90+
+// 这道题没有仔细想，但是直接套线段树还是能快速得到答案，因为nlogn速度也是90+
 
-1. 先将capital-profit对子按照capital升序排列
-2. 建区间最大值线段树，叶子结点存最大值在的index
-3. 以当前拥有的资本W为区间右断点，求左区间的profit最大值
+// 1. 先将capital-profit对子按照capital升序排列
+// 2. 建区间最大值线段树，叶子结点存最大值在的index
+// 3. 以当前拥有的资本W为区间右断点，求左区间的profit最大值
 
-```
+// ```
 class Solution {
 public:
     vector<int> segTree;
@@ -80,4 +80,4 @@ public:
         return W;
     }
 };
-```
+// ```

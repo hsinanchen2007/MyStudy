@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] divingBoard(int shorter, int longer, int k) {
         if(k==0)return new int[]{};//k等于0的情况
@@ -16,4 +16,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

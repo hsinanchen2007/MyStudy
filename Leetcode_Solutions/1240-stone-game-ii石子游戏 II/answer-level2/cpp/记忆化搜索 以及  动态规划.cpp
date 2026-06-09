@@ -1,6 +1,6 @@
-记忆化搜索的过程，更像是我们拿到题目首先预想的那样，在这个基础上可以更好地理解递归
+// 记忆化搜索的过程，更像是我们拿到题目首先预想的那样，在这个基础上可以更好地理解递归
 
-```
+// ```
 class Solution {
 private:
 	int cache[101][101];
@@ -27,10 +27,10 @@ public:
     	return res;
     }
 };
-```
-动态规划代码
+// ```
+// 动态规划代码
 
-```
+// ```
 class Solution {
 public:
     int stoneGameII(vector<int>& piles) {
@@ -56,5 +56,5 @@ public:
         return dp[0][0];
     }
 };
-```
+// ```
 

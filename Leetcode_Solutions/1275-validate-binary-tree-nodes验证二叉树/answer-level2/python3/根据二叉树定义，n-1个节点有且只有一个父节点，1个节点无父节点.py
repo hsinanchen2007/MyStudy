@@ -1,5 +1,5 @@
 
-统计每个节点的根结点个数，如果出现跟节点大于1的为非法，注意单独处理n大于2时的孤儿节点，
+# 统计每个节点的根结点个数，如果出现跟节点大于1的为非法，注意单独处理n大于2时的孤儿节点，
 `python
 class Solution:
     def validateBinaryTreeNodes(self, n: int, leftChild: List[int], rightChild: List[int]) -> bool:
@@ -16,4 +16,4 @@ class Solution:
             else:
                 return True
         return False
-`
+# `

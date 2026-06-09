@@ -1,4 +1,4 @@
-```
+// ```
 var dominantIndex = function(nums) {
     var index = 0;
     var firstMax = 0;
@@ -20,4 +20,4 @@ var dominantIndex = function(nums) {
         return -1;
     }
 };
-```
+// ```

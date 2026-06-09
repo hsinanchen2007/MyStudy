@@ -1,10 +1,10 @@
 
-### 代码
+// ### 代码
 
-#### 位数之和
-* 数位之和：x % 10 取个位数，再x/10将数按10进制右移一位，个位移除，10位移到个位，再取个位数，直到x为0，累加所有个位数即可
+// #### 位数之和
+// * 数位之和：x % 10 取个位数，再x/10将数按10进制右移一位，个位移除，10位移到个位，再取个位数，直到x为0，累加所有个位数即可
 
-```javascript
+// ```javascript
 function sum(x) {
     let s = 0
     while (x) {
@@ -13,14 +13,14 @@ function sum(x) {
     }
     return s
 }
-```
+// ```
 
-> 向左、向右、向上、向下简化为向右和向下，机器人从左上角到下一个格子，必须由下一个格子的左或上方进入，所以这两个方向可以简化掉。以下三种解法均用了此优化思路
+// > 向左、向右、向上、向下简化为向右和向下，机器人从左上角到下一个格子，必须由下一个格子的左或上方进入，所以这两个方向可以简化掉。以下三种解法均用了此优化思路
 
-#### DFS
-* 注意要判断是否重复计算节点，可以缓存访问过的节点进行判重
+// #### DFS
+// * 注意要判断是否重复计算节点，可以缓存访问过的节点进行判重
 
-```javascript
+// ```javascript
 /**
  * @param {number} m
  * @param {number} n
@@ -36,10 +36,10 @@ function dfs(i, j, m, n, k, visited) {
     visited.add(`${i}-${j}`)
     return 1 + dfs(i + 1, j, m, n, k, visited) + dfs(i, j + 1, m, n, k, visited)
 }
-```
+// ```
 
-#### BFS
-```javascript
+// #### BFS
+// ```javascript
 var movingCount = function (m, n, k) {
     const visited = new Set()
     const queue = [[0, 0]]
@@ -58,16 +58,16 @@ var movingCount = function (m, n, k) {
     }
     return res
 }
-```
+// ```
 
 
-#### 动态递推
-* 状态定义：dp[i][j] 机器人可达i,j位置的格子，值为1，否则值为0
-* dp方程：dp[i][j] = dp[i-1][j] || dp[i][j-1], sum(i) + sum(j) <= k
-* i,j是否可达，取决于左边和上边的格子是否可达，且满足位数之和小于k
-* base case: dp[0][0] = 1
+// #### 动态递推
+// * 状态定义：dp[i][j] 机器人可达i,j位置的格子，值为1，否则值为0
+// * dp方程：dp[i][j] = dp[i-1][j] || dp[i][j-1], sum(i) + sum(j) <= k
+// * i,j是否可达，取决于左边和上边的格子是否可达，且满足位数之和小于k
+// * base case: dp[0][0] = 1
 
-```javascript
+// ```javascript
 var movingCount = function (m, n, k) {
     const dp = new Array(m).fill().map(i => new Array(n).fill(0))
     dp[0][0] = 1
@@ -85,4 +85,4 @@ var movingCount = function (m, n, k) {
     return res
 }
 
-```
+// ```

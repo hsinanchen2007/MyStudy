@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     //利用快排思想
@@ -43,4 +43,4 @@ public:
         return rec;
     }  
 };
-```
+// ```

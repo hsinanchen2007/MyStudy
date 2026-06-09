@@ -1,9 +1,9 @@
-### 解题思路 1.了解二叉搜索树得特征，其节点没有相同值。2.判断盘p,q的大小值。
+// ### 解题思路 1.了解二叉搜索树得特征，其节点没有相同值。2.判断盘p,q的大小值。
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -23,4 +23,4 @@ class Solution {
         }
     }
 }
-```
+// ```

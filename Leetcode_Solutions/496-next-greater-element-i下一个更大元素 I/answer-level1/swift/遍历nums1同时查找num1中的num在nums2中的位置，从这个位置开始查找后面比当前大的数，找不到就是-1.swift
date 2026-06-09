@@ -1,5 +1,5 @@
-最开始对“右边第一位”理解有误，加上两个例子更加误导了。
-```
+// 最开始对“右边第一位”理解有误，加上两个例子更加误导了。
+// ```
 unc nextGreaterElement(_ nums1: [Int], _ nums2: [Int]) -> [Int] {
         var result = Array<Int>()
         for (_, num1) in nums1.enumerated() {
@@ -24,4 +24,4 @@ unc nextGreaterElement(_ nums1: [Int], _ nums2: [Int]) -> [Int] {
         }
         return result
     }
-```
+// ```

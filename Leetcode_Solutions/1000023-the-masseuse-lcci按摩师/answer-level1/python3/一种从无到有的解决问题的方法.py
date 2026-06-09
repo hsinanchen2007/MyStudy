@@ -1,19 +1,19 @@
-### 解题思路
-有一组数abcdefg，可以视为：
+# ### 解题思路
+# 有一组数abcdefg，可以视为：
 
-a+b+c+X。a是开始，b是必须休息，c是最多的情况,X是（0~无限大）的数。
-这时候有以下几个值需要对比大小：ac,b
+# a+b+c+X。a是开始，b是必须休息，c是最多的情况,X是（0~无限大）的数。
+# 这时候有以下几个值需要对比大小：ac,b
 
-a+b+c+d+X。a是开始，b是必须休息，c是最多的情况，d是因为选了c没能选的。
-这时候有以下几个值需要对比大小：ac,bd,ad
-上一步ac和b做了对比，所以：
-若b<=a,则bd<=ad,
-若ac<b,则必定ad<acd<bd；若ac>b,则
+# a+b+c+d+X。a是开始，b是必须休息，c是最多的情况，d是因为选了c没能选的。
+# 这时候有以下几个值需要对比大小：ac,bd,ad
+# 上一步ac和b做了对比，所以：
+# 若b<=a,则bd<=ad,
+# 若ac<b,则必定ad<acd<bd；若ac>b,则
         
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def massage(self, nums: List[int]) -> int:
         '''
@@ -57,4 +57,4 @@ class Solution:
 
         return res_max        
 
-```
+# ```

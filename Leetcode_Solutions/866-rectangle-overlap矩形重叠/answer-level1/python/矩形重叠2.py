@@ -1,9 +1,9 @@
-### 解题思路
-简单的重叠与不重叠的判断，条件很多，这一点还需要学习。
+# ### 解题思路
+# 简单的重叠与不重叠的判断，条件很多，这一点还需要学习。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def isRectangleOverlap(self, rec1, rec2):
         """
@@ -18,4 +18,4 @@ class Solution(object):
         else:
             return True
 
-```
+# ```

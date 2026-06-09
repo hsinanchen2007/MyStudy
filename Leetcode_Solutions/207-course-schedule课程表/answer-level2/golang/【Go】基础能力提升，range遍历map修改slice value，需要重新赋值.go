@@ -1,5 +1,5 @@
-[Range](https://github.com/golang/go/wiki/Range)
-```
+// [Range](https://github.com/golang/go/wiki/Range)
+// ```
 func canFinish(numCourses int, prerequisites [][]int) bool {
 	dependCoursesInfo := make(map[int][]int)
 	buildDependCoursesInfo(prerequisites, dependCoursesInfo)
@@ -47,4 +47,4 @@ func buildDependCoursesInfo(prerequisites [][]int, dependCoursesInfo map[int][]i
 		}
 	}
 }
-```
+// ```

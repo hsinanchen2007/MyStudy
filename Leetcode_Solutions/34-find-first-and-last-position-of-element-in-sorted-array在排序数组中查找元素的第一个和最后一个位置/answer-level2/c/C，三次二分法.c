@@ -1,20 +1,20 @@
-### 解题思路
-方法一：
-1，二分法找到结果
-2，以mid为中心向两边找到边界
+// ### 解题思路
+// 方法一：
+// 1，二分法找到结果
+// 2，以mid为中心向两边找到边界
 
-方法二：
-1，使用二分法判断是否存在目标值
-2，使用二分法找到第一个 小于等于 target 的位置
-3，使用二分法找到第一个 大于等于 target 的位置
+// 方法二：
+// 1，使用二分法判断是否存在目标值
+// 2，使用二分法找到第一个 小于等于 target 的位置
+// 3，使用二分法找到第一个 大于等于 target 的位置
 
-注：
-二分法精髓：iMid=(iLeft+iRight)/2 则每次 iMid 取值偏向 iLeft
-二分法精髓：iMid=(iLeft+iRight+1)/2 则每次 iMid 取值偏向 iRight
+// 注：
+// 二分法精髓：iMid=(iLeft+iRight)/2 则每次 iMid 取值偏向 iLeft
+// 二分法精髓：iMid=(iLeft+iRight+1)/2 则每次 iMid 取值偏向 iRight
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -209,4 +209,4 @@ int* searchRange(int* nums, int numsSize, int target, int* returnSize){
     return pRet;
 }
 */
-```
+// ```

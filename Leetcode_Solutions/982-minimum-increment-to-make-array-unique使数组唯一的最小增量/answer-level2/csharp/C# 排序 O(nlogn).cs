@@ -1,6 +1,6 @@
-先排序
-相邻的相等就对后面一个++，后面++之后会导致后面的数比前面的小，因此要把后面的调整到比前一个+1
-```
+// 先排序
+// 相邻的相等就对后面一个++，后面++之后会导致后面的数比前面的小，因此要把后面的调整到比前一个+1
+// ```
 public class MinIncrementForUniqueSolution
 {
     public int MinIncrementForUnique(int[] A)
@@ -19,4 +19,4 @@ public class MinIncrementForUniqueSolution
         return ret;
     }
 }
-```
+// ```

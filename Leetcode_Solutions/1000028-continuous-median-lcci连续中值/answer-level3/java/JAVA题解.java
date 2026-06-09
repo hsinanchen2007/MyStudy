@@ -1,10 +1,10 @@
-### 解题思路
-使用ArrayList保存输入的数字（可重复）
-在findMedian方法中，先对ArryList列表中的数字进行排序，再判断总数，按奇偶两种情况返回中值。
+// ### 解题思路
+// 使用ArrayList保存输入的数字（可重复）
+// 在findMedian方法中，先对ArryList列表中的数字进行排序，再判断总数，按奇偶两种情况返回中值。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -55,4 +55,4 @@ class MedianFinder {
  * obj.addNum(num);
  * double param_2 = obj.findMedian();
  */
-```
+// ```

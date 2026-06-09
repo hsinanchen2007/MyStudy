@@ -1,6 +1,6 @@
-###### 1、建立(值, 索引)后根据值排序
-###### 2、根据排序结果确定名次
-```
+# ###### 1、建立(值, 索引)后根据值排序
+# ###### 2、根据排序结果确定名次
+# ```
 class Solution(object):
     def findRelativeRanks(self, nums):
         """
@@ -22,4 +22,4 @@ class Solution(object):
             for index, new_num in enumerate(new_nums[3:], 3):
                 nums[new_num[1]] = str(index+1)
             return nums
-```
+# ```

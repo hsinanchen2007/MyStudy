@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def reverseStr(self, s: str, k: int) -> str:
         if k == 1:
@@ -26,4 +26,4 @@ class Solution:
                     fan_str = s[new_str_long:]
                 new_str += fan_str
                 return(new_str)
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 function addStrings($num1, $num2) {
         // 位数不足的需补0
         $length1 = strlen($num1);
@@ -31,4 +31,4 @@ function addStrings($num1, $num2) {
         $result = strrev($result);
         return $result;
     }
-```
+// ```

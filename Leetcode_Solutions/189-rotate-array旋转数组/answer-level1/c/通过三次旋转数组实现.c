@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-                                                1   2   3   4   5   6   7
-第一次旋转0————numsSize-k-1                      4   3   2   1   5   6   7
-第二次旋转numsSize-k————numsSize-1               4   3   2   1   7   6   5
-第三次旋转0————numsSize-1                        5   6   7   1   2   3   4
-### 代码
+//                                                 1   2   3   4   5   6   7
+// 第一次旋转0————numsSize-k-1                      4   3   2   1   5   6   7
+// 第二次旋转numsSize-k————numsSize-1               4   3   2   1   7   6   5
+// 第三次旋转0————numsSize-1                        5   6   7   1   2   3   4
+// ### 代码
 
-```c
+// ```c
 void resverarr(int *nums, int left, int right);
 
 
@@ -35,4 +35,4 @@ void resverarr(int *nums, int left, int right)
         nums[right-i]=temp;
     }
 }
-```
+// ```

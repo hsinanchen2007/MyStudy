@@ -1,8 +1,8 @@
-### 解题思路
-根据每次选完大礼包剩余的needs表示状态 （也可能不选择大礼包）
+# ### 解题思路
+# 根据每次选完大礼包剩余的needs表示状态 （也可能不选择大礼包）
 
-### 代码
-```python3
+# ### 代码
+# ```python3
 class Solution:
     def shoppingOffers(self, price: List[int], special: List[List[int]], needs: List[int]) -> int:
         #记忆化搜索
@@ -37,4 +37,4 @@ class Solution:
             return dicts[needs]
         return  getA(tuple(needs))   
 `内联代码`
-```
+# ```

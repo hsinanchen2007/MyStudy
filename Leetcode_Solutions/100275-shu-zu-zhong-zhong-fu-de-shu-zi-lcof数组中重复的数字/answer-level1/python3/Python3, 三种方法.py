@@ -1,4 +1,4 @@
-```
+# ```
 #思路1
 #先把输入的数组排序，再从头到尾扫描排序后的数组，如果相邻的两个元素相等，则存在重复数字。
 #时间复杂度: O(nlogn)
@@ -54,4 +54,4 @@ class Solution3:
                 else:
                     nums[nums[i]], nums[i] = nums[i], nums[nums[i]]
         return -1
-```
+# ```

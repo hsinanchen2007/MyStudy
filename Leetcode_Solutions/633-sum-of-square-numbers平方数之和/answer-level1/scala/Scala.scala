@@ -1,9 +1,9 @@
-### 解题思路
-只需考虑小于根号c的数
+// ### 解题思路
+// 只需考虑小于根号c的数
 
-### 代码
+// ### 代码
 
-```scala
+// ```scala
 object Solution {
     def judgeSquareSum(c: Int): Boolean = {
       var num = math.sqrt(c).toInt
@@ -20,4 +20,4 @@ object Solution {
     false  
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-dp[i] = dp[i-1] + dp[i-2]
+# ### 解题思路
+# dp[i] = dp[i-1] + dp[i-2]
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def climbStairs(self, n):
         """
@@ -27,4 +27,4 @@ class Solution(object):
         return dp[n-1]
 
 
-```
+# ```

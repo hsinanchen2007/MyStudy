@@ -1,6 +1,6 @@
-用dp与from分别记录最小值与对应的最小路径
-代码如下：
-```
+// 用dp与from分别记录最小值与对应的最小路径
+// 代码如下：
+// ```
 class Solution1 {
 public:
     const int INF = 100000000;
@@ -29,5 +29,5 @@ public:
         return from[N - 1];
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/e722fc493810ca7862eb3b5794f6b2d014b1844b58ab53fd79fa209a7b076d81-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/e722fc493810ca7862eb3b5794f6b2d014b1844b58ab53fd79fa209a7b076d81-image.png)

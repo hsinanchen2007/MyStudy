@@ -1,8 +1,8 @@
-### 解题思路
-相同类型题目102,107, 103
-### 代码
+# ### 解题思路
+# 相同类型题目102,107, 103
+# ### 代码
 
-```python3
+# ```python3
 from collections import deque
 class Solution:
     def rightSideView(self, root: TreeNode) -> [int]:
@@ -22,4 +22,4 @@ class Solution:
                     queue.append(node.right)
             level += 1        
         return res
-```
+# ```

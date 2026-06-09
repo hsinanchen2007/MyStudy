@@ -1,9 +1,9 @@
-### 解题思路
-暴力解法，跟移除相同元素一样，时间复杂度O(n*n)
+// ### 解题思路
+// 暴力解法，跟移除相同元素一样，时间复杂度O(n*n)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -41,4 +41,4 @@ public:
         return v;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-用stringstream，简单就完事儿了
+// ### 解题思路
+// 用stringstream，简单就完事儿了
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int countSegments(string s) {
@@ -19,4 +19,4 @@ public:
         return ans;
     }
 };
-```
+// ```

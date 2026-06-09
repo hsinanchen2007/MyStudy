@@ -1,9 +1,9 @@
-### 解题思路
-广度遍历搜索
+// ### 解题思路
+// 广度遍历搜索
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 struct lnode{
     int x;
     int y;
@@ -82,4 +82,4 @@ int movingCount(int m, int n, int k){
     nums=bfs(m,n,k);
     return nums;
 }
-```
+// ```

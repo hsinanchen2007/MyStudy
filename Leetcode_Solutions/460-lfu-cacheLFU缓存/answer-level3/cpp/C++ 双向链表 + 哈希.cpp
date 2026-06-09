@@ -1,11 +1,11 @@
-主要结构为：
-1，DLNode，双向链表节点
-2，DLList，双向链表
-3，map<int, DLList> freqDict，记录频率到双向链表的映射
-4，map<int, DLNode*> cache，记录key到双向链表节点的映射
-对应的类或结构体函数也比较简单，可以参见代码
+// 主要结构为：
+// 1，DLNode，双向链表节点
+// 2，DLList，双向链表
+// 3，map<int, DLList> freqDict，记录频率到双向链表的映射
+// 4，map<int, DLNode*> cache，记录key到双向链表节点的映射
+// 对应的类或结构体函数也比较简单，可以参见代码
 
-```
+// ```
 class LFUCache {
 private:
     struct DLNode {
@@ -116,6 +116,6 @@ public:
  * int param_1 = obj->get(key);
  * obj->put(key,value);
  */
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/f3c1313a97e09704be5d0be5a13c767b15b3258eb4a76c74a9d87a3d86927670-image.png)
+// ![image.png](https://pic.leetcode-cn.com/f3c1313a97e09704be5d0be5a13c767b15b3258eb4a76c74a9d87a3d86927670-image.png)

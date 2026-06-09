@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findErrorNums(nums []int) []int {
 	// n == len(nums)
 	// 而 nums 的数字属于 [1,n]，那么
@@ -41,4 +41,4 @@ func abs(a int) int {
 	}
 	return -a
 }
-```
+// ```

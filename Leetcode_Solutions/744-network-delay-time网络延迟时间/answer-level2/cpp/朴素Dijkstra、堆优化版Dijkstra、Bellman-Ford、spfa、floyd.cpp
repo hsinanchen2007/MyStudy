@@ -1,22 +1,22 @@
 
-## 最短路算法
+// ## 最短路算法
 
-最短路算法的分类：
+// 最短路算法的分类：
 
-- 单源最短路
-  - 所有边权都是正数
-    - 朴素的Dijkstra算法 O(n^2) 适合稠密图
-    - 堆优化版的Dijkstra算法 O(mlog n)（m是图中节点的个数）适合稀疏图
-  - 存在负权边
-    - Bellman-Ford O(nm)
-    - spfa 一般O(m),最坏O(nm)
-- 多源汇最短路  Floyd算法 O(n^3)
+// - 单源最短路
+//   - 所有边权都是正数
+//     - 朴素的Dijkstra算法 O(n^2) 适合稠密图
+//     - 堆优化版的Dijkstra算法 O(mlog n)（m是图中节点的个数）适合稀疏图
+//   - 存在负权边
+//     - Bellman-Ford O(nm)
+//     - spfa 一般O(m),最坏O(nm)
+// - 多源汇最短路  Floyd算法 O(n^3)
 
-**力扣上的最短路问题比较少，我们就用这个题作为板子题，把4种单源最短路算法都实现一下**
+// **力扣上的最短路问题比较少，我们就用这个题作为板子题，把4种单源最短路算法都实现一下**
 
-## 朴素的dijkstra算法
+// ## 朴素的dijkstra算法
 
-```cpp
+// ```cpp
 class Solution {
 public:
 
@@ -48,11 +48,11 @@ public:
         return ans == INF ? -1: ans;
     }
 };
-```
+// ```
 
-## 堆优化版的Dijkstra算法
+// ## 堆优化版的Dijkstra算法
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int networkDelayTime(vector<vector<int>>& times, int N, int K) {
@@ -85,11 +85,11 @@ public:
         return ans == INF ? -1: ans;
     }
 };
-```
+// ```
 
-## Bellmon-Ford算法
+// ## Bellmon-Ford算法
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int networkDelayTime(vector<vector<int>>& times, int N, int K) {
@@ -108,11 +108,11 @@ public:
         return ans > INF/2 ? -1: ans; // INF/2 是因为可能有负权边；这个题没有负权边，可以用INF
     }
 };
-```
+// ```
 
-## spfa算法
+// ## spfa算法
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int networkDelayTime(vector<vector<int>>& times, int N, int K) {
@@ -150,12 +150,12 @@ public:
         return ans == INF ? -1: ans;
     }
 };
-```
+// ```
 
 
-## floyd算法
+// ## floyd算法
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int networkDelayTime(vector<vector<int>>& times, int N, int K) {
@@ -181,9 +181,9 @@ public:
         return ans > INF/2 ? -1: ans;
     }
 };
-```
+// ```
 
 
-[从零开始学算法](https://muyids.github.io/simple-algorithm/)
+// [从零开始学算法](https://muyids.github.io/simple-algorithm/)
 
-[最短路](https://muyids.github.io/simple-algorithm/chapter/graph/%E6%9C%80%E7%9F%AD%E8%B7%AF.html)
+// [最短路](https://muyids.github.io/simple-algorithm/chapter/graph/%E6%9C%80%E7%9F%AD%E8%B7%AF.html)

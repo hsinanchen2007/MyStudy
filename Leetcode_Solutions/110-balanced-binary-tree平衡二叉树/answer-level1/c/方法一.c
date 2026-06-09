@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -27,4 +27,4 @@ bool isBalanced(struct TreeNode* root){
     if (abs(SubTreeHeight(root->left) - SubTreeHeight(root->right)) > 1) return false;
     return isBalanced(root->left) && isBalanced(root->right);
 }
-```
+// ```

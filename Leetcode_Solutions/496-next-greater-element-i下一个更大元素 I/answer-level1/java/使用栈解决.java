@@ -1,12 +1,12 @@
-### 解题思路
-方法比较笨；
-从头遍历nums1[]，从尾部遍历nums2[]，把nums2[]的元素放入栈中
-如果找到与num1[i]一样的元素nums2的元素停止入栈，开始出栈，找到第一个比num1的元素，就break；
-如果栈为空了，nums[i]没有变化，那么就赋值-1；
+// ### 解题思路
+// 方法比较笨；
+// 从头遍历nums1[]，从尾部遍历nums2[]，把nums2[]的元素放入栈中
+// 如果找到与num1[i]一样的元素nums2的元素停止入栈，开始出栈，找到第一个比num1的元素，就break；
+// 如果栈为空了，nums[i]没有变化，那么就赋值-1；
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
     Stack<Integer> stack;
@@ -30,4 +30,4 @@ class Solution {
             return nums1;
     }
 }
-```欢迎讨论。
+// ```欢迎讨论。

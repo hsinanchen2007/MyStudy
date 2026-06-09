@@ -1,6 +1,6 @@
-思路：利用第7题. 整数反转的方法，直接求一个数翻转后的数。此外，如果x是负数，则肯定不是。另外reverse也考虑了超出int32的情况。
+// 思路：利用第7题. 整数反转的方法，直接求一个数翻转后的数。此外，如果x是负数，则肯定不是。另外reverse也考虑了超出int32的情况。
 
-```
+// ```
 func isPalindrome(x int) bool {
     if x<0{
         return false
@@ -25,4 +25,4 @@ func reverse(x int) int {
 	}
 	return ret
 }
-```
+// ```

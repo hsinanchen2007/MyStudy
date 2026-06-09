@@ -1,9 +1,9 @@
-### 解题思路
-经典dp。 dp表示以i结尾的最长子序列大小，状态转移方程为dp[i] = max(dp[i], dp[j] + 1), if nums[i-1] > nums[j-1]:
+# ### 解题思路
+# 经典dp。 dp表示以i结尾的最长子序列大小，状态转移方程为dp[i] = max(dp[i], dp[j] + 1), if nums[i-1] > nums[j-1]:
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def lengthOfLIS(self, nums):
         """
@@ -21,4 +21,4 @@ class Solution(object):
                     dp[i] = max(dp[i], dp[j] + 1)
         return max(dp)
 
-```
+# ```

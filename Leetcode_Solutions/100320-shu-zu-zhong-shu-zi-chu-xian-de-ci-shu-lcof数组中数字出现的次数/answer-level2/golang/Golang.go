@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func singleNumbers(nums []int) []int {
     note:=map[int]bool{}
     for _,num:=range nums{
@@ -16,4 +16,4 @@ func singleNumbers(nums []int) []int {
     }
     return res
 }
-```
+// ```

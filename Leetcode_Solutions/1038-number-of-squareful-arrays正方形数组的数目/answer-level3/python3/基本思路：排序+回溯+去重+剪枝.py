@@ -1,10 +1,10 @@
-### 解题思路
-原谅我用蠢办法（捂脸），这道题我的解法是在带有重复数字的全排列问题（可参考[LeetCode47](https://leetcode-cn.com/problems/permutations-ii/)）基础上增加一个判断正方形数组操作。
-理论上来讲时间复杂度是o(N!)，对于python3肯定是没法通过的，我增加了一项剪枝操作，极大幅度地缩短了执行用时。思路是在DFS遍历中，如果当前倒数第一和倒数第二个元素已经无法构成正方形数组了，那么也就没有继续搜索的必要了。
+# ### 解题思路
+# 原谅我用蠢办法（捂脸），这道题我的解法是在带有重复数字的全排列问题（可参考[LeetCode47](https://leetcode-cn.com/problems/permutations-ii/)）基础上增加一个判断正方形数组操作。
+# 理论上来讲时间复杂度是o(N!)，对于python3肯定是没法通过的，我增加了一项剪枝操作，极大幅度地缩短了执行用时。思路是在DFS遍历中，如果当前倒数第一和倒数第二个元素已经无法构成正方形数组了，那么也就没有继续搜索的必要了。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from typing import List
 import math
 class Solution:
@@ -72,4 +72,4 @@ class Solution:
         _track_back(0, [], used)
         return self.res
 
-```
+# ```

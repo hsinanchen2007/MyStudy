@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class NumArray {
     // 用于储存从下标0到指定下标的所有元素的和
     private int[] sum;
@@ -34,4 +34,4 @@ class NumArray {
  * NumArray obj = new NumArray(nums);
  * int param_1 = obj.sumRange(i,j);
  */
-```
+// ```

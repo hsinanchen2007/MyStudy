@@ -1,5 +1,5 @@
-并查集标准模板。找到环跳出循环直接返回即可。
-```
+# 并查集标准模板。找到环跳出循环直接返回即可。
+# ```
 class Solution:
     def findRedundantConnection(self, edges: List[List[int]]) -> List[int]:
         def find_root(node, parent):
@@ -22,4 +22,4 @@ class Solution:
             y = edges[i][1]
             if union(x, y, parent) != [-1, -1]:
                 return union(x, y, parent)
-```
+# ```

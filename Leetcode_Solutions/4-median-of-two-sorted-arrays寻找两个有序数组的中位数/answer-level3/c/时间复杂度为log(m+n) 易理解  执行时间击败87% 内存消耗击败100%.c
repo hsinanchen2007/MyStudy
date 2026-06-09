@@ -1,9 +1,9 @@
-### 解题思路
-很简单 新建一个数组依次存储两个数组中较小的那个数。然后通过下标是奇数还是偶数进行计算中位数。
+// ### 解题思路
+// 很简单 新建一个数组依次存储两个数组中较小的那个数。然后通过下标是奇数还是偶数进行计算中位数。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Size){
     int total[100000];
@@ -62,4 +62,4 @@ double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Si
     }
          
 }
-```
+// ```

@@ -1,6 +1,6 @@
 
 
-```
+// ```
 
 class Solution {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
@@ -27,7 +27,7 @@ class Solution {
         return dummy.next;
     }
 
-```
+// ```
 
-视频链接
-https://www.bilibili.com/video/BV1J741137zx/
+// 视频链接
+// https://www.bilibili.com/video/BV1J741137zx/

@@ -1,9 +1,9 @@
-### 解题思路
-这题用BFS/DFS也行，但是性能应该不如并查集
+// ### 解题思路
+// 这题用BFS/DFS也行，但是性能应该不如并查集
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void BFS(map<int, vector<int>>& adj, vector<int>& visited, int startPos)
@@ -45,4 +45,4 @@ public:
         return ans;
     }
 };
-```
+// ```

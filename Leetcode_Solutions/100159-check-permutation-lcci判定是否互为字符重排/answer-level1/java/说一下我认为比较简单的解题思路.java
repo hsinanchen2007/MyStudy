@@ -1,5 +1,5 @@
-其实吧 ，把两个字符串直接拆开来放进hashSet里面，然后这里就要做一个判断了，
-就是两个拆分的数组长度必须是相同的，并且两个hashset的hashcode也必须相同。
+// 其实吧 ，把两个字符串直接拆开来放进hashSet里面，然后这里就要做一个判断了，
+// 就是两个拆分的数组长度必须是相同的，并且两个hashset的hashcode也必须相同。
 
 
      public static boolean CheckPermutation(String s1, String s2) {

@@ -1,4 +1,4 @@
-```
+// ```
 template< class ItorDst, class ItorSrc >
 void update( const ItorDst& begin_dst, const ItorSrc& begin_src, const ItorSrc& end_src, char target )
 {
@@ -24,4 +24,4 @@ public:
         return result;
     }
 };
-```
+// ```

@@ -1,18 +1,18 @@
-优化为O（m）t.length 空间
-执行结果：
-通过
-显示详情
-执行用时 :
-16 ms
-, 在所有 Java 提交中击败了
-58.55%
-的用户
-内存消耗 :
-35.3 MB
-, 在所有 Java 提交中击败了
-90.51%
-的用户
-```
+// 优化为O（m）t.length 空间
+// 执行结果：
+// 通过
+// 显示详情
+// 执行用时 :
+// 16 ms
+// , 在所有 Java 提交中击败了
+// 58.55%
+// 的用户
+// 内存消耗 :
+// 35.3 MB
+// , 在所有 Java 提交中击败了
+// 90.51%
+// 的用户
+// ```
 class Solution {
     
     public int numDistinct(String s, String t) {
@@ -37,25 +37,25 @@ class Solution {
         return res[tl];
     }
 }
-```
+// ```
 
 
-动态规划优化为O（n)-s.length空间
-执行结果：
-通过
-显示详情
-执行用时 :
-18 ms
-, 在所有 Java 提交中击败了
-51.52%
-的用户
-内存消耗 :
-35.2 MB
-, 在所有 Java 提交中击败了
-90.51%
-的用户
+// 动态规划优化为O（n)-s.length空间
+// 执行结果：
+// 通过
+// 显示详情
+// 执行用时 :
+// 18 ms
+// , 在所有 Java 提交中击败了
+// 51.52%
+// 的用户
+// 内存消耗 :
+// 35.2 MB
+// , 在所有 Java 提交中击败了
+// 90.51%
+// 的用户
 
-```
+// ```
 class Solution {
     
     public int numDistinct(String s, String t) {
@@ -81,27 +81,27 @@ class Solution {
         return res[sl];
     }
 }
-```
+// ```
 
 
 
 
 
-改为动态规划通过
-执行结果：
-通过
-显示详情
-执行用时 :
-15 ms
-, 在所有 Java 提交中击败了
-65.11%
-的用户
-内存消耗 :
-37.4 MB
-, 在所有 Java 提交中击败了
-27.74%
-的用户
-```
+// 改为动态规划通过
+// 执行结果：
+// 通过
+// 显示详情
+// 执行用时 :
+// 15 ms
+// , 在所有 Java 提交中击败了
+// 65.11%
+// 的用户
+// 内存消耗 :
+// 37.4 MB
+// , 在所有 Java 提交中击败了
+// 27.74%
+// 的用户
+// ```
 class Solution {
     
     public int numDistinct(String s, String t) {
@@ -126,14 +126,14 @@ class Solution {
         return res[tl][sl];
     }
 }
-```
+// ```
 
 
 
-暴力法严重超时：
-"adbdadeecadeadeccaeaabdabdbcdabddddabcaaadbabaaedeeddeaeebcdeabcaaaeeaeeabcddcebddebeebedaecccbdcbcedbdaeaedcdebeecdaaedaacadbdccabddaddacdddc"
-"bcddceeeebecbc"
-```
+// 暴力法严重超时：
+// "adbdadeecadeadeccaeaabdabdbcdabddddabcaaadbabaaedeeddeaeebcdeabcaaaeeaeeabcddcebddebeebedaecccbdcbcedbdaeaedcdebeecdaaedaacadbdccabddaddacdddc"
+// "bcddceeeebecbc"
+// ```
 class Solution {
     int  count=0;
     static Long cc=0l;
@@ -189,4 +189,4 @@ class Solution {
         
     }
 }
-```
+// ```

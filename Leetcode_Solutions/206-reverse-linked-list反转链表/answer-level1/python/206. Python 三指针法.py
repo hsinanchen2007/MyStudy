@@ -1,9 +1,9 @@
-### 解题思路
-设置三个指针p, q, r代表三个连续的节点，令q指向p，r的作用是记录下一次迭代位置。
+# ### 解题思路
+# 设置三个指针p, q, r代表三个连续的节点，令q指向p，r的作用是记录下一次迭代位置。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -29,4 +29,4 @@ class Solution(object):
             r = r.next
         q.next = p
         return q            
-```
+# ```

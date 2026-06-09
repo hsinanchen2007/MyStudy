@@ -1,10 +1,10 @@
-### 解题思路
-![IMG_FB5D327B9C38-1.jpeg](https://pic.leetcode-cn.com/030515a999a4e74fe76147233f1cd224326561b1c2c415baa6ab3068de0b08df-IMG_FB5D327B9C38-1.jpeg)
+// ### 解题思路
+// ![IMG_FB5D327B9C38-1.jpeg](https://pic.leetcode-cn.com/030515a999a4e74fe76147233f1cd224326561b1c2c415baa6ab3068de0b08df-IMG_FB5D327B9C38-1.jpeg)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 
     public void copy_sublist(LinkedList<Integer> tmp,List<List<Integer>> results) {
@@ -52,4 +52,4 @@ class Solution {
 
     }
 }
-```
+// ```

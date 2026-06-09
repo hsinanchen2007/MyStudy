@@ -1,6 +1,6 @@
 
-看着挺绕的，但其实只要复制出另一个矩阵，在新矩阵的基础上遍历旧矩阵的数据根据条件修改值即可
-```
+// 看着挺绕的，但其实只要复制出另一个矩阵，在新矩阵的基础上遍历旧矩阵的数据根据条件修改值即可
+// ```
 function gameOfLife(&$board) {
         $newBoard = $board;
         for ($i=0; $i < count($board); $i++) { 
@@ -93,4 +93,4 @@ function gameOfLife(&$board) {
         $board = $newBoard;
         return $newBoard ;
     }
-```
+// ```

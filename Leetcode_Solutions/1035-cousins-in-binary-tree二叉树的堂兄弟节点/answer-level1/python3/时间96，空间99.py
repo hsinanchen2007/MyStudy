@@ -1,11 +1,11 @@
-使用队列遍历树；
-使用一个列表list记录x、y的深度与父亲节点；
-当list长度为2时，break退出，以便节省不必要的时间；
-当x的深度==y的深度并且x的父亲节点!=y的父亲节点时，返回True，否则返回False。
+# 使用队列遍历树；
+# 使用一个列表list记录x、y的深度与父亲节点；
+# 当list长度为2时，break退出，以便节省不必要的时间；
+# 当x的深度==y的深度并且x的父亲节点!=y的父亲节点时，返回True，否则返回False。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -37,4 +37,4 @@ class Solution:
             return True
         else:
             return False
-```
+# ```

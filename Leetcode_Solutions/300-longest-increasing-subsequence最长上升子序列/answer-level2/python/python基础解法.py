@@ -1,10 +1,10 @@
-### 解题思路
-1. 第一想法就是用动态规划最这题，动态规划的递归式dp[i] = max(dp[i], dp[j] + 1)，dp[1] = 1
-2. 可以用二分查找来替换第二层的搜索，这样时间就会变成nlogn
+# ### 解题思路
+# 1. 第一想法就是用动态规划最这题，动态规划的递归式dp[i] = max(dp[i], dp[j] + 1)，dp[1] = 1
+# 2. 可以用二分查找来替换第二层的搜索，这样时间就会变成nlogn
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def lengthOfLIS(self, nums: List[int]) -> int:
         # if not nums:
@@ -38,4 +38,4 @@ class Solution:
         return len(tail)
 
 
-```
+# ```

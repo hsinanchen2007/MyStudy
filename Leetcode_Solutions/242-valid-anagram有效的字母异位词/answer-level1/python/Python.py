@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def isAnagram(self, s, t):
         """
@@ -21,4 +21,4 @@ class Solution(object):
             if ans!=0:
                 return False
         return True
-```
+# ```

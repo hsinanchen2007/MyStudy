@@ -1,9 +1,9 @@
-### 解题思路
-使用BigDecimal代替+ - * /
+// ### 解题思路
+// 使用BigDecimal代替+ - * /
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int getSum(int a, int b) {
         BigDecimal a1 = new BigDecimal(a);
@@ -11,4 +11,4 @@ class Solution {
         return a1.add(b1).intValue();
     }
 }
-```
+// ```

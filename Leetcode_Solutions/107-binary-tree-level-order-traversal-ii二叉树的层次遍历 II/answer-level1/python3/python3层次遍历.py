@@ -1,9 +1,9 @@
-### 解题思路
-层次遍历后结果反转即可
+# ### 解题思路
+# 层次遍历后结果反转即可
 
-### 代码
+# ### 代码
 
-```
+# ```
 
 # Definition for a binary tree node.
 # class TreeNode:
@@ -34,4 +34,4 @@ class Solution:
             res.append(temp)
         return res[::-1]
 
-```
+# ```

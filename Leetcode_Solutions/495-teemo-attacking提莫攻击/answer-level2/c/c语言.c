@@ -1,4 +1,4 @@
-```
+// ```
 int findPoisonedDuration(int* timeSeries, int timeSeriesSize, int duration)
 {
     int ans;
@@ -18,4 +18,4 @@ int findPoisonedDuration(int* timeSeries, int timeSeriesSize, int duration)
     ans = ans + duration;
     return ans;
 }
-```
+// ```

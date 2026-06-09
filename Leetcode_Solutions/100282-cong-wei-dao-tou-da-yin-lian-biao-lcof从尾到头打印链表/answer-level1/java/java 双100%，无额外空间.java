@@ -1,10 +1,10 @@
-### 解题思路
-反转链表，同时记录链表长度，翻转完成后创建数组，用翻转后的链表给数组赋值，返回数组。
-![image.png](https://pic.leetcode-cn.com/6b0332ee1928bc71cd698c3615b008d8a7d59ca8f05e1f18a7dbc3e4575a22ad-image.png)
+// ### 解题思路
+// 反转链表，同时记录链表长度，翻转完成后创建数组，用翻转后的链表给数组赋值，返回数组。
+// ![image.png](https://pic.leetcode-cn.com/6b0332ee1928bc71cd698c3615b008d8a7d59ca8f05e1f18a7dbc3e4575a22ad-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -38,4 +38,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/fba0794fee6343e4ef2b3b3cce1d753d0111d789146befe03d0d6fe8f3c4cec6-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/fba0794fee6343e4ef2b3b3cce1d753d0111d789146befe03d0d6fe8f3c4cec6-image.png)
 
-感觉是考递归吧，我刚学go不太熟 格式转换费点事 可能是用了buffer 所以内存消耗比较大 
-主要想法就是调用n-1(就是上一次)的结果然后查数，记录 
+// 感觉是考递归吧，我刚学go不太熟 格式转换费点事 可能是用了buffer 所以内存消耗比较大 
+// 主要想法就是调用n-1(就是上一次)的结果然后查数，记录 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func countAndSay(n int) string {
 	if n==1{
 		return "1"
@@ -33,4 +33,4 @@ func countAndSay(n int) string {
 		return buffer.String()
 	}
 } 
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def countAndSay(self, n: int) -> str:
         if n==1:
@@ -17,4 +17,4 @@ class Solution:
                 res+=s
                 i+=1
             return res
-```
+# ```

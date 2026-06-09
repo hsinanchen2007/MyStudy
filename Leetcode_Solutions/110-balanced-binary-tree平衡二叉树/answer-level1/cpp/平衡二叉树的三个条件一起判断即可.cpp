@@ -1,10 +1,10 @@
-1. 左子树高度与右子树高度差小于等于1
-2. 左子树是平衡的
-3. 右子树是平衡的
+// 1. 左子树高度与右子树高度差小于等于1
+// 2. 左子树是平衡的
+// 3. 右子树是平衡的
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -33,4 +33,4 @@ public:
         return ((abs(depth(root->left)-depth(root->right)))<=1&&isBalanced(root->left)&&isBalanced(root->right));
     }
 };
-```
+// ```

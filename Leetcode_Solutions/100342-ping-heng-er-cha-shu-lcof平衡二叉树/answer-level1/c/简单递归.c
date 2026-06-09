@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/cf51f0f65faebd99a0c25c4d30129b47264fc0e27e255422d92fcabfe519e182-image.png)
-此处撰写解题思路
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/cf51f0f65faebd99a0c25c4d30129b47264fc0e27e255422d92fcabfe519e182-image.png)
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isBalanced(struct TreeNode* root){
     if(root == NULL)
     {
@@ -22,4 +22,4 @@ bool isBalanced(struct TreeNode* root){
     else
         return false;
 }
-```
+// ```

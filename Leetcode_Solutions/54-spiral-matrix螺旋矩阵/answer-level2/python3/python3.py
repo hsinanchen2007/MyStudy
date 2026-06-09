@@ -1,9 +1,9 @@
-### 解题思路
-设定一个方向矩阵，一直绕着转就行
+# ### 解题思路
+# 设定一个方向矩阵，一直绕着转就行
 
-### 代码
+# ### 代码
 
-```
+# ```
 class Solution:
     def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
         if not matrix:
@@ -25,4 +25,4 @@ class Solution:
                 x,y=x+direction[step][0],y+direction[step][1]
         return res
                 
-```
+# ```

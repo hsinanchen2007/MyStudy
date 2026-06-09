@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func sortArrayByParityII(A []int) []int {
 	single:=make([]int,0)
 	double:=make([]int,0)
@@ -21,4 +21,4 @@ func sortArrayByParityII(A []int) []int {
 	}
 	return A
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-最基本的方法其实就是参照三数之和，a+b+c+d=target  ->> b+c+d=target-a
-需要注意是判断几种情况，代码注释中会标出,其他的基本不变
+// ### 解题思路
+// 最基本的方法其实就是参照三数之和，a+b+c+d=target  ->> b+c+d=target-a
+// 需要注意是判断几种情况，代码注释中会标出,其他的基本不变
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> fourSum(int[] nums, int target) {
 List<List<Integer>> res = new ArrayList<List<Integer>>();
@@ -46,4 +46,4 @@ List<List<Integer>> res = new ArrayList<List<Integer>>();
         return res;
     }
 }
-```
+// ```

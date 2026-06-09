@@ -1,9 +1,9 @@
-### 解题思路
+# ### 解题思路
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findLHS(self, nums: List[int]) -> int:
         ans = 0
@@ -15,4 +15,4 @@ class Solution:
 
 
 
-```
+# ```

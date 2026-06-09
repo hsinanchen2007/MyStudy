@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-将两者异或后看有几个1
+// 将两者异或后看有几个1
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int convertInteger(int A, int B){
     unsigned int c=(unsigned int)A^(unsigned int)B;
     int sum=0;
@@ -14,4 +14,4 @@ int convertInteger(int A, int B){
     }
     return sum;
 }
-```
+// ```

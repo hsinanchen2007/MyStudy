@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-遍历找出只出现一次的数字
+// 遍历找出只出现一次的数字
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number[]}
@@ -21,4 +21,4 @@ var singleNumber = function(nums) {
     }
     return Object.values(res);
 };
-```
+// ```

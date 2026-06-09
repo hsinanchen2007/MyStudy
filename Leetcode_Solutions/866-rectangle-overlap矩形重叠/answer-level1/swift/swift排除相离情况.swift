@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func isRectangleOverlap(_ rec1: [Int], _ rec2: [Int]) -> Bool {
         if rec2[0]>=rec1[2] || rec2[2]<=rec1[0] {
@@ -15,4 +15,4 @@ class Solution {
             return true
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 var removeDuplicates = function(nums) {
     if(nums.length <= 1)
         return nums.length;
@@ -15,4 +15,4 @@ var removeDuplicates = function(nums) {
     }
     return ++left;
 };
-```
+// ```

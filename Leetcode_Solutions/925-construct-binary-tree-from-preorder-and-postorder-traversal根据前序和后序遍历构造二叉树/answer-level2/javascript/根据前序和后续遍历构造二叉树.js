@@ -1,9 +1,9 @@
-### 解题思路
-跟热门评论一致的思路
+// ### 解题思路
+// 跟热门评论一致的思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -62,4 +62,4 @@ var constructFromPrePost = function(pre, post) {
   }
   return node
 };
-```
+// ```

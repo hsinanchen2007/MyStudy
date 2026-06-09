@@ -1,9 +1,9 @@
-方法一
-将情况分为三种：
-1. s正好是有效括号字符串，直接返回s的长度；
-2. s除去有效括号之后，以')'结尾，把这种情况做成函数；
-3. s除去有效括号之后，以'('结尾，这时以s中的'('作为分段点，分段调用上面做好的函数。
-```
+# 方法一
+# 将情况分为三种：
+# 1. s正好是有效括号字符串，直接返回s的长度；
+# 2. s除去有效括号之后，以')'结尾，把这种情况做成函数；
+# 3. s除去有效括号之后，以'('结尾，这时以s中的'('作为分段点，分段调用上面做好的函数。
+# ```
 class Solution:
     def longestValidParentheses(self, s: str) -> int:
         # 函数
@@ -67,12 +67,12 @@ class Solution:
                 res.append(max(fun(s[inds[i-1]+1:inds[i]])))
             res.append(max(fun(s[inds[-1]:])))
             return max(res)
-```
+# ```
 
-方法二
-动态规划
-官方题解的动态规划的Python3版本
-```
+# 方法二
+# 动态规划
+# 官方题解的动态规划的Python3版本
+# ```
 class Solution:
     def longestValidParentheses(self, s: str) -> int:
         maxans = 0
@@ -91,12 +91,12 @@ class Solution:
                         dp[k] = dp[k-1] + 0 + 2
                 maxans = max(maxans, dp[k])
         return maxans
-```
+# ```
 
-方法三
-栈
-官方题解的栈的Python3版本
-```
+# 方法三
+# 栈
+# 官方题解的栈的Python3版本
+# ```
 class Solution:
     def longestValidParentheses(self, s: str) -> int:
         maxans = 0
@@ -111,4 +111,4 @@ class Solution:
                 else:
                     stack.append(k)
         return maxans
-```
+# ```

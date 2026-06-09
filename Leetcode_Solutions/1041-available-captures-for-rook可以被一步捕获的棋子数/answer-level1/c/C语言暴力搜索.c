@@ -1,9 +1,9 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/5c25912852a0417c83a27310b0468c52807d1e6255a504f6a763dd331823e9f1-image.png)
-先找到rook位置（分黑白两种情况），然后往rook上下左右四个位置遍历即可
-### 代码
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/5c25912852a0417c83a27310b0468c52807d1e6255a504f6a763dd331823e9f1-image.png)
+// 先找到rook位置（分黑白两种情况），然后往rook上下左右四个位置遍历即可
+// ### 代码
 
-```c
+// ```c
 int numRookCaptures(char** board, int boardSize, int* boardColSize){
     int rook1, rook2;
     int black = 0;
@@ -106,4 +106,4 @@ int numRookCaptures(char** board, int boardSize, int* boardColSize){
     }
     return sum;
 }
-```
+// ```

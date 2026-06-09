@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int maxSubArray(int* nums, int numsSize){
     if(numsSize==1)return nums[0];
     int sum=nums[0],x;
@@ -15,4 +15,4 @@ int maxSubArray(int* nums, int numsSize){
     return sum;
 
 }
-```
+// ```

@@ -1,9 +1,9 @@
-# 做题思路：
+// # 做题思路：
 
-1. 问题核心，找到不重复的结点，此时需判断多次，不能只认为当前面元素不等于后面元素时，此时这个后面的元素就是不重复的结点，如{1,1,1,2,2}这时不能认为2为不重复的结点，可以使用跳蛙思想来搞定：当元素相等时，head指针不动，p指针向后遍历，当不满足相等的条件时，将p指针的位置赋值给head，p=p->next；继续判断是否相等，直至找到不重复的结点。
-2. 插入head这个不重复的结点，要注意的是head->next为NULL时，跳出循环
-3. 当while大循环结束后，若head这个不重复的结点有值继续插入
-```
+// 1. 问题核心，找到不重复的结点，此时需判断多次，不能只认为当前面元素不等于后面元素时，此时这个后面的元素就是不重复的结点，如{1,1,1,2,2}这时不能认为2为不重复的结点，可以使用跳蛙思想来搞定：当元素相等时，head指针不动，p指针向后遍历，当不满足相等的条件时，将p指针的位置赋值给head，p=p->next；继续判断是否相等，直至找到不重复的结点。
+// 2. 插入head这个不重复的结点，要注意的是head->next为NULL时，跳出循环
+// 3. 当while大循环结束后，若head这个不重复的结点有值继续插入
+// ```
 struct ListNode* deleteDuplicates(struct ListNode* head)
 {
     struct ListNode *p,*L,*q;
@@ -53,9 +53,9 @@ else
    p->next=NULL;
     return L->next;
 }
-```
-**//优化后的代码**
-```
+// ```
+// **//优化后的代码**
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -98,6 +98,6 @@ struct ListNode* deleteDuplicates(struct ListNode* head){
     } 
     return preHead->next;
 }
-```
+// ```
 
 

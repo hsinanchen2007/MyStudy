@@ -1,10 +1,10 @@
-### 解题思路
-执行用时 : 12 ms
-构建一个二维数组，其中每个数组为一行内容。
+// ### 解题思路
+// 执行用时 : 12 ms
+// 构建一个二维数组，其中每个数组为一行内容。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func convert(s string, numRows int) string {
     length := len(s)
     if numRows < 2 {return s}
@@ -31,4 +31,4 @@ func convert(s string, numRows int) string {
     return string(res)
 
 }
-```
+// ```

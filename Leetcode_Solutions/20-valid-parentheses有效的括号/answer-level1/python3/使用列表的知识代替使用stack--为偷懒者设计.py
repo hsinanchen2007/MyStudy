@@ -1,7 +1,7 @@
-我们可以直接利用对列表[-1]的处理来代替使用stack
-一下是我的代码：
+# 我们可以直接利用对列表[-1]的处理来代替使用stack
+# 一下是我的代码：
 
-```
+# ```
 class Solution(object):
     def isValid(self, s):
         a = [1,]
@@ -22,4 +22,4 @@ class Solution(object):
         :type s: str
         :rtype: bool
         """
-```
+# ```

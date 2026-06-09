@@ -1,9 +1,9 @@
-### 解题思路
-1. 定义一条新链表，并在头部插入（原有元素的 next = 新列表第一个节点）
+// ### 解题思路
+// 1. 定义一条新链表，并在头部插入（原有元素的 next = 新列表第一个节点）
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 /**
  * Definition for a singly-linked list.
  * class ListNode {
@@ -34,4 +34,4 @@ class Solution {
         return $pre;
     }
 }
-```
+// ```

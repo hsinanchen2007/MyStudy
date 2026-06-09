@@ -1,5 +1,5 @@
-哈希表存储key value对，双向链表用于表示某个key最后被使用的时间，从表头到表尾表示key被使用的时间越接近现在。
-每次get某个key时，将这个key在双向链表中调整到表尾
+// 哈希表存储key value对，双向链表用于表示某个key最后被使用的时间，从表头到表尾表示key被使用的时间越接近现在。
+// 每次get某个key时，将这个key在双向链表中调整到表尾
 `class ListLink{
         public:
             int val;

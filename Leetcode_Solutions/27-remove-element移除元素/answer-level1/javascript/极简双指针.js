@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/4f3aa1155b80214c4393d5fcc526d0143ad0357fe37851bba069d256ccf0fc5e-image.png)
+// ![image.png](https://pic.leetcode-cn.com/4f3aa1155b80214c4393d5fcc526d0143ad0357fe37851bba069d256ccf0fc5e-image.png)
 
-双指针逐个替换
-### 代码
+// 双指针逐个替换
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} val
@@ -22,4 +22,4 @@ var removeElement = function(nums, val) {
     }
     return ind;
 };
-```
+// ```

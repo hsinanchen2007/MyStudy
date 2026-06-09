@@ -1,4 +1,4 @@
-```
+// ```
 void merge(int* A, int ASize, int m, int* B, int BSize, int n){
   
   assert(BSize == n);
@@ -26,4 +26,4 @@ void merge(int* A, int ASize, int m, int* B, int BSize, int n){
     *cur-- = num;
   }
 }
-```
+// ```

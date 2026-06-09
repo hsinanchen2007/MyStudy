@@ -1,26 +1,26 @@
-### 解题思路
-典型的单链表体型，设置哑节点方便处理。
+// ### 解题思路
+// 典型的单链表体型，设置哑节点方便处理。
 
-1.设置哑元节点dummy
+// 1.设置哑元节点dummy
 
-2.设置4个指针，分别时前驱节点hh，待处理节点mm，待处理节点tt，下一组节点tail
+// 2.设置4个指针，分别时前驱节点hh，待处理节点mm，待处理节点tt，下一组节点tail
 
-3.主要控制hh和tt，指向前驱节点；
+// 3.主要控制hh和tt，指向前驱节点；
 
-4.移动tt两步（注意不要指向下一组节点，会使处理复杂化）
+// 4.移动tt两步（注意不要指向下一组节点，会使处理复杂化）
 
-5.这时各个节点情况：【pp】|【mm】【tt】|【tail】【】【】【】
+// 5.这时各个节点情况：【pp】|【mm】【tt】|【tail】【】【】【】
 
-6.调整节点：【pp】|【tt】【mm】|【tail】【】【】【】
+// 6.调整节点：【pp】|【tt】【mm】|【tail】【】【】【】
 
-7.准备下一次处理:【pp,tt】|【tail】【】【】【】
+// 7.准备下一次处理:【pp,tt】|【tail】【】【】【】
 
-![image.png](https://pic.leetcode-cn.com/89e7f4a42cbccb522aa3357a9517aeebc15379915982b19500127e7172ba7d32-image.png)
+// ![image.png](https://pic.leetcode-cn.com/89e7f4a42cbccb522aa3357a9517aeebc15379915982b19500127e7172ba7d32-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /*
  * @lc app=leetcode.cn id=24 lang=c
  *
@@ -79,4 +79,4 @@ struct ListNode* swapPairs(struct ListNode* head){
 // @lc code=end
 
 
-```
+// ```

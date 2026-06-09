@@ -1,9 +1,9 @@
-### 解题思路
-濒临超时的解法，python not in 真的很慢啊啊啊啊
+# ### 解题思路
+# 濒临超时的解法，python not in 真的很慢啊啊啊啊
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def permutation(self, s: str) -> List[str]:
         def help(s,length,path,visit,index):
@@ -21,6 +21,6 @@ class Solution:
         index=[]
         help(s,0,'',visit,index)
         return list(set(visit))    
-```
+# ```
 
-![image.png](https://pic.leetcode-cn.com/fe070440aa8704d6d4c6f0f54bb963482a936998ee07e42a45fda688ed215841-image.png)
+# ![image.png](https://pic.leetcode-cn.com/fe070440aa8704d6d4c6f0f54bb963482a936998ee07e42a45fda688ed215841-image.png)

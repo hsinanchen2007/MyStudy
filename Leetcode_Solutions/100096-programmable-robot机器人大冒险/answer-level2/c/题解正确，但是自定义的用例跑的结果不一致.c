@@ -1,13 +1,13 @@
-为什么题解正确，下面用例结果不一致
-```
+// 为什么题解正确，下面用例结果不一致
+// ```
 "URRURRRRRUUUUURRURUURURURUURURUURURUUUUURRRRRUURUURUUUUURRRRRUUUUURUUUURUUUUURUUUUURUUUUU"
 [[12,22],[44,88]]
 33
 55
-```
+// ```
 
-代码如下：
-```
+// 代码如下：
+// ```
 // 判断是否经过x,y点
 bool isPassPoint(int *tarX, int *tarY, int cmdLen, int x, int y)
 {
@@ -95,5 +95,5 @@ bool robot(char * command, int** obstacles, int obstaclesSize, int* obstaclesCol
 	
 	return isPassPoint(tarX, tarY, cmdLen, x, y);
 }
-```
+// ```
 

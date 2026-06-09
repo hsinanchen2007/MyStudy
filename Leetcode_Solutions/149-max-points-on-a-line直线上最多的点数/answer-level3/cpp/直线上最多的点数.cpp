@@ -1,9 +1,9 @@
-### 解题思路
-点斜式
+// ### 解题思路
+// 点斜式
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxPoints(vector<vector<int>>& points) {
@@ -54,4 +54,4 @@ public:
         return ans;
     }
 };
-```
+// ```

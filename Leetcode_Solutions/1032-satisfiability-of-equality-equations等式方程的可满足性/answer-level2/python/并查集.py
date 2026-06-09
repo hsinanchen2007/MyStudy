@@ -1,9 +1,9 @@
-### 解题思路
-并查集
+# ### 解题思路
+# 并查集
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def equationsPossible(self, equations: List[str]) -> bool:
         abcs = list(range(0, 26))
@@ -38,4 +38,4 @@ class Solution:
         return True
                 
             
-```
+# ```

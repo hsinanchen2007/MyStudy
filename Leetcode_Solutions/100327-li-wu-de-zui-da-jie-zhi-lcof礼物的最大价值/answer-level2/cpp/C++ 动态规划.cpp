@@ -1,13 +1,13 @@
-### 状态转换方程
-```cpp
+// ### 状态转换方程
+// ```cpp
 f(m, n) = grid[0][0], m == 0 && n == 0
 f(m, n) = grid[m][n] + f(m-1, n), m > 0 && n == 0
 f(m, n) = grid[m][n] + f(m, n-1), m == 0 && n > 0
 f(m, n) = grid[m][n] + max(f(m-1, n), f(m, n-1)), m > 0 && n > 0
-```
+// ```
 
-### 递归（递归深度太大的话可能不满足要求）
-```cpp
+// ### 递归（递归深度太大的话可能不满足要求）
+// ```cpp
 class Solution {
 public:
     int maxValue(vector<vector<int>>& grid) {
@@ -23,10 +23,10 @@ public:
         return grid[m][n] + max(left, up);
     }
 };
-```
+// ```
 
-### 迭代
-```
+// ### 迭代
+// ```
 class Solution {
 public:
     int maxValue(vector<vector<int>>& grid)
@@ -46,4 +46,4 @@ public:
         return v.back();
     }
 };
-```
+// ```

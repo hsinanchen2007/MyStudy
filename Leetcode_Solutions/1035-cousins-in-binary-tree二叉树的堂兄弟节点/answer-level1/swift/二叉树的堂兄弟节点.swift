@@ -1,8 +1,8 @@
 
-递归法：
-递归法求出所有节点的深度和父节点，存入map
+// 递归法：
+// 递归法求出所有节点的深度和父节点，存入map
 
-```swift []
+// ```swift []
 class Solution {
     func isCousins(_ root: TreeNode?, _ x: Int, _ y: Int) -> Bool {
         guard let root = root else {
@@ -49,4 +49,4 @@ class Solution {
         return false
     }
 }
-```
+// ```

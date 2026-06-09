@@ -1,9 +1,9 @@
-### 解题思路
-迭代（C） + 递归（Java）
+// ### 解题思路
+// 迭代（C） + 递归（Java）
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 struct ListNode* reverseList(struct ListNode* head){
     if(head == NULL)
         return NULL;
@@ -20,8 +20,8 @@ struct ListNode* reverseList(struct ListNode* head){
     head->next = prev;
     return head;
 }
-```
-```java
+// ```
+// ```java
 class Solution {
     public ListNode reverseList(ListNode head) {
         if(head == null)
@@ -42,4 +42,4 @@ class Solution {
     }
 
 }
-```
+// ```

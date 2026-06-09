@@ -1,5 +1,5 @@
-**通过快慢指针把链表分成前后两个部分，然后把后半部分的节点反转后依次插入到前半部分当中即可**
-```
+// **通过快慢指针把链表分成前后两个部分，然后把后半部分的节点反转后依次插入到前半部分当中即可**
+// ```
 public void reorderList(ListNode head) {
         if (head == null || head.next == null) return;
         ListNode fast = head;
@@ -32,4 +32,4 @@ public void reorderList(ListNode head) {
         }
         return prev;
     }
-```
+// ```

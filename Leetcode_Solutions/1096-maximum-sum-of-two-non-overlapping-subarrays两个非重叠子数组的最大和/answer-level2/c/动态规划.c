@@ -1,11 +1,11 @@
-### 解题思路
-1、LMax[i] 用于保存0到i之间L长度的子数组最大和。
-2、LRMax[i] 用于保存ASize - 1反向到i之间L长度的子数组最大和。
-3、遍历数据计算每个M长度的子数组的和，在每个M长度的子数组的左右两边找到L长度的子数据的最大和，相加最大的就是最终的答案。
+// ### 解题思路
+// 1、LMax[i] 用于保存0到i之间L长度的子数组最大和。
+// 2、LRMax[i] 用于保存ASize - 1反向到i之间L长度的子数组最大和。
+// 3、遍历数据计算每个M长度的子数组的和，在每个M长度的子数组的左右两边找到L长度的子数据的最大和，相加最大的就是最终的答案。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX(A, B) ((A) > (B) ? (A) : (B))
 int* MaxSumArr(int* A, int ASize, int subLength) 
 {
@@ -68,4 +68,4 @@ int maxSumTwoNoOverlap(int* A, int ASize, int L, int M)
     }
     return maxSum;
 }
-```
+// ```

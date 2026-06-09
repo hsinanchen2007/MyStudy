@@ -1,6 +1,6 @@
-![图片.png](https://pic.leetcode-cn.com/419253b00a26aa5e48fb17cd33fc52377f11ac2425347bc2add0320a1026004d-%E5%9B%BE%E7%89%87.png)
+// ![图片.png](https://pic.leetcode-cn.com/419253b00a26aa5e48fb17cd33fc52377f11ac2425347bc2add0320a1026004d-%E5%9B%BE%E7%89%87.png)
 
-```
+// ```
 /**
  * @param {number[]} nums
  * @return {number[][]}
@@ -26,4 +26,4 @@ generateSubset = function(nums,index,cur,res) {
     cur.pop()
    
 }
-```
+// ```

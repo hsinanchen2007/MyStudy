@@ -1,4 +1,4 @@
-```
+// ```
 func validUtf8(data []int) bool {
     	i, l := 0, 0
 	for i < len(data) {
@@ -28,5 +28,5 @@ func validUtf8(data []int) bool {
 
     return true
 }
-```
+// ```
 

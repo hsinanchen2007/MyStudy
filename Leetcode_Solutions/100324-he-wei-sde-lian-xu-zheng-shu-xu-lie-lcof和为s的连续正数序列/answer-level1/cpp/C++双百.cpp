@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
-![1.png](https://pic.leetcode-cn.com/6856e2b4b41b48dcc5914eb2f3b35ae808ac596318f49342eff837305dade9da-1.png)
+// ### 代码
+// ![1.png](https://pic.leetcode-cn.com/6856e2b4b41b48dcc5914eb2f3b35ae808ac596318f49342eff837305dade9da-1.png)
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> findContinuousSequence(int target) {
@@ -28,4 +28,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-数组左右两个指针L 和 R，及两个变量维护[0, L]左边最大LeftMax 和[R, arr.length-1]右边最大RightMax
+// 数组左右两个指针L 和 R，及两个变量维护[0, L]左边最大LeftMax 和[R, arr.length-1]右边最大RightMax
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int trap(int[] height) {
         if (height == null || height.length < 3) {
@@ -28,4 +28,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

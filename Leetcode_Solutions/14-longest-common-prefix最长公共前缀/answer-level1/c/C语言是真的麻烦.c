@@ -1,9 +1,9 @@
-### 解题思路
-依次取出第一个字符串的字符和其他字符串的相应位置字符比较，相等则存入数组，否则跳出返回当前数组值。
+// ### 解题思路
+// 依次取出第一个字符串的字符和其他字符串的相应位置字符比较，相等则存入数组，否则跳出返回当前数组值。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 # define INT_MAX 100
 char * longestCommonPrefix(char ** strs, int strsSize){
@@ -35,4 +35,4 @@ char * longestCommonPrefix(char ** strs, int strsSize){
     arr[flag] = '\0';
     return arr;
 }
-```
+// ```

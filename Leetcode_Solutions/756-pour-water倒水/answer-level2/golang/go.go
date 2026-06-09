@@ -1,4 +1,4 @@
-```
+// ```
 func pourWater(heights []int, V int, K int) []int {
 	for i := 0; i < V; i++ {
 		l, r := K, K
@@ -22,4 +22,4 @@ func pourWater(heights []int, V int, K int) []int {
 	}
 	return heights
 }
-```
+// ```

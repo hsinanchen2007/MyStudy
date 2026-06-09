@@ -1,9 +1,9 @@
-### 解题思路
+# ### 解题思路
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def lengthOfLIS(self, nums: List[int]) -> int:
         if len(nums) <= 1:
@@ -16,4 +16,4 @@ class Solution:
                     dp[i] = max(dp[j]+1, dp[i])
                     res = max(res, dp[i])
         return res
-```
+# ```

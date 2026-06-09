@@ -1,9 +1,9 @@
-### 解题思路
-枚举所有面积,求最大值
+// ### 解题思路
+// 枚举所有面积,求最大值
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int largestRectangleArea(int[] heights) {
         if (heights == null || heights.length == 0) {
@@ -23,4 +23,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

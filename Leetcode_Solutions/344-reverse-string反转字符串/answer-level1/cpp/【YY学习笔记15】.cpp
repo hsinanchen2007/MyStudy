@@ -1,9 +1,9 @@
-### 解题思路
-把数组前一半的元素与后一半的元素换位置。
+// ### 解题思路
+// 把数组前一半的元素与后一半的元素换位置。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void reverseString(vector<char>& s) {
@@ -15,4 +15,4 @@ public:
         }
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-在零元素的位置插入元素零，并弹出最后一个元素。
+# ### 解题思路
+# 在零元素的位置插入元素零，并弹出最后一个元素。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def duplicateZeros(self, arr: List[int]) -> None:
         """
@@ -18,4 +18,4 @@ class Solution:
             else:
                 i += 1
                 
-```
+# ```

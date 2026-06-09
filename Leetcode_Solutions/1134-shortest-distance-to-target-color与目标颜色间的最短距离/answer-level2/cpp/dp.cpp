@@ -1,7 +1,7 @@
-1. 简单的DP即可.
-2. 分别求出每个索引到其左侧和右侧指定颜色的最短距离。
-3. 递推公式```dp[i][x] = min(left[i][x],right[i][x])```,其中```dp[i][x]```代表从索引i处到颜色```x```的最短距离.
-```c++  []
+// 1. 简单的DP即可.
+// 2. 分别求出每个索引到其左侧和右侧指定颜色的最短距离。
+// 3. 递推公式```dp[i][x] = min(left[i][x],right[i][x])```,其中```dp[i][x]```代表从索引i处到颜色```x```的最短距离.
+// ```c++  []
 class Solution {
 public:
     vector<int> shortestDistanceColor(vector<int>& colors, vector<vector<int>>& queries) {
@@ -48,8 +48,8 @@ public:
         return ans;
     }
 };
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def shortestDistanceColor(self, colors: List[int], queries: List[List[int]]) -> List[int]:
         n = len(colors)
@@ -72,5 +72,5 @@ class Solution:
                 ans[i] = -1
         
         return ans
-```
+// ```
 

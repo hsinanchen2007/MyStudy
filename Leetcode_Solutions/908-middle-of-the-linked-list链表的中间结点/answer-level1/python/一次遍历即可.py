@@ -1,9 +1,9 @@
-### 解题思路
-设置两个指针,一个是另一个速度的二分之一就可以
+# ### 解题思路
+# 设置两个指针,一个是另一个速度的二分之一就可以
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -25,4 +25,4 @@ class Solution(object):
             if cnt%2==0:
                 slow = slow.next
         return slow
-```
+# ```

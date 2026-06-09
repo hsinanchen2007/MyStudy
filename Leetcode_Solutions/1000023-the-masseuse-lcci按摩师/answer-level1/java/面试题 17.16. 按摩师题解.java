@@ -1,13 +1,13 @@
-### 解题思路
-    动态规划的典型例题，和小偷盗劫为同一题，由于当前状态的获得只依赖之前的两个状态，所
-以如果用变量代替数组可以使空间复杂度从O(n)降到O(1);
+// ### 解题思路
+//     动态规划的典型例题，和小偷盗劫为同一题，由于当前状态的获得只依赖之前的两个状态，所
+// 以如果用变量代替数组可以使空间复杂度从O(n)降到O(1);
 
-![1.png](https://pic.leetcode-cn.com/6dd88d558a720571b027a2494c703584de629c9ecdaea747fd09b9477dddb014-1.png)
+// ![1.png](https://pic.leetcode-cn.com/6dd88d558a720571b027a2494c703584de629c9ecdaea747fd09b9477dddb014-1.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int massage(int[] nums) {
         if(nums == null || nums.length == 0) return 0;
@@ -28,4 +28,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

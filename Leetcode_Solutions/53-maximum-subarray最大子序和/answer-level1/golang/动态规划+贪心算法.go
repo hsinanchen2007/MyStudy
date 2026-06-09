@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
-##### 动态规划
-```golang
+// ### 代码
+// ##### 动态规划
+// ```golang
 func max(a, b int) int {
 	if a > b {
 		return a
@@ -25,10 +25,10 @@ func maxSubArray(nums []int) int {
 	return res
 }
 
-```
+// ```
 
-##### 贪心算法
-```golang
+// ##### 贪心算法
+// ```golang
 func max(a, b int) int {
 	if a > b {
 		return a
@@ -48,4 +48,4 @@ func maxSubArray(nums []int) int {
 	return res
 }
 
-```
+// ```

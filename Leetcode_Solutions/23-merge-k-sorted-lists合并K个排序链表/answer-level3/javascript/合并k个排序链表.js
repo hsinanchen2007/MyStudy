@@ -1,6 +1,6 @@
-先把所有的val放在数组里，进行排序，然后再构造一个链表
+// 先把所有的val放在数组里，进行排序，然后再构造一个链表
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -35,7 +35,7 @@ var mergeKLists = function(lists) {
     }
     return ans;
 };
-```
-遍历所有节点时间复杂度O(n),申请数组空间，空间复杂度O(n)
-对数组进行排序，JS中sort算法喂快排，时间复杂度为O(logn)
-数组转化为链表，时间复杂度为O(n)，空间复杂度为O(n)
+// ```
+// 遍历所有节点时间复杂度O(n),申请数组空间，空间复杂度O(n)
+// 对数组进行排序，JS中sort算法喂快排，时间复杂度为O(logn)
+// 数组转化为链表，时间复杂度为O(n)，空间复杂度为O(n)

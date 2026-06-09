@@ -1,4 +1,4 @@
-```
+// ```
 public static int solution1(int n){
         if(n==0){
             return 0;
@@ -16,4 +16,4 @@ public static int solution1(int n){
             return resule[n];
         }
     }
-```
+// ```

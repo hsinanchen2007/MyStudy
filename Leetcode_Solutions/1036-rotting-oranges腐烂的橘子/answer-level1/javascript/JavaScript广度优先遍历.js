@@ -1,11 +1,11 @@
-### 解题思路
-1. 先找到所有腐烂橘子位置并存储该位置
-2. 将腐烂橘子出栈并搜索上下左右方向是否有新鲜橘子，有则入栈存储该位置
-3. 直到栈空
+// ### 解题思路
+// 1. 先找到所有腐烂橘子位置并存储该位置
+// 2. 将腐烂橘子出栈并搜索上下左右方向是否有新鲜橘子，有则入栈存储该位置
+// 3. 直到栈空
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} grid
  * @return {number}
@@ -59,4 +59,4 @@ var orangesRotting = function(grid) {
     if(!times && !count) return 0;
     return (times && !count) ? times : -1;
 };
-```
+// ```

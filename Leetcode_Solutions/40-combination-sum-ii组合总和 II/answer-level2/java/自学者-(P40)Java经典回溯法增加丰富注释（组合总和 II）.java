@@ -1,18 +1,18 @@
-改进的回溯算法，关键点：
-（1）最关键的语句是不满足特定条件的要进行过滤；
-（2）回溯时要往下移一位，selectedIndex = start+1，保证每个数字只是用一次，使用的这一次是最顶层for循环那次。
-```java
+// 改进的回溯算法，关键点：
+// （1）最关键的语句是不满足特定条件的要进行过滤；
+// （2）回溯时要往下移一位，selectedIndex = start+1，保证每个数字只是用一次，使用的这一次是最顶层for循环那次。
+// ```java
  if(start > 0 && sortedCandidates[start] == sortedCandidates[start - 1] && !usedIndexes[start - 1]) {
     continue;
   }
 //条件1: start等于0时，0-1会报空指针，所以必须start>0时再判断才有意义
 //条件2：相邻两个元素如果相等，优先计算前一个，如果前一个没用到，则后面的就不要计算了，直接进行下一个。
 //条件3：前一个元素没有用过，直接不要进行探索了。
-```
+// ```
 
 
-Java语言，耗时3ms
-```java
+// Java语言，耗时3ms
+// ```java
 class Solution {
    private List<List<Integer>> result;
     //递归尝试的元素集合
@@ -81,4 +81,4 @@ class Solution {
         
     }
 }
-```
+// ```

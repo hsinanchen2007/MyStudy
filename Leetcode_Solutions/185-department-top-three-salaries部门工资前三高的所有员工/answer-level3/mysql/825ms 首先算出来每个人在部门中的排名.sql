@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+-- ### 解题思路
+-- 此处撰写解题思路
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 
 select Department,Employee,Salary
@@ -17,4 +17,4 @@ from
 Employee t1) t3
 where t3.rank<=3 and Department is not null
 order by Department,Employee
-```
+-- ```

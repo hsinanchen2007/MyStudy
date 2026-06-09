@@ -1,8 +1,8 @@
-### 解题思路
-找山峰，边上山边统计。当前最大水位就是当前最大高度，当前雨水量为水位-当前高度
-### 代码
+// ### 解题思路
+// 找山峰，边上山边统计。当前最大水位就是当前最大高度，当前雨水量为水位-当前高度
+// ### 代码
 
-```c
+// ```c
 int trap(int* height, int heightSize){
     int i = 0;
     int max_index = 0, max = 0;
@@ -43,4 +43,4 @@ int trap(int* height, int heightSize){
 
     return water;
 }
-```
+// ```

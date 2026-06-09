@@ -1,6 +1,6 @@
-首先进行边界判断，如果size为0或者1则不需要压缩，直接返回。然后对满足条件的进行压缩。首先记录当前字符，以及当前的storeIndex。从第一位开始往后找，如果后一位与当前字符相同则count++，如果不同则需要将数字写入到数组中。同时将count置为1，storeIndex++。
-代码如下：
-```
+// 首先进行边界判断，如果size为0或者1则不需要压缩，直接返回。然后对满足条件的进行压缩。首先记录当前字符，以及当前的storeIndex。从第一位开始往后找，如果后一位与当前字符相同则count++，如果不同则需要将数字写入到数组中。同时将count置为1，storeIndex++。
+// 代码如下：
+// ```
 void modifyVector(vector<char> &s, int *storeIndex, int count, char c)
 {
     s[(*storeIndex)++] = c;
@@ -33,5 +33,5 @@ int compressVector(vector<char> &s) {
     return storeIndex;
 }
 
-```
+// ```
 

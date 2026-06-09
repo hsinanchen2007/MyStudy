@@ -1,9 +1,9 @@
-### 解题思路
-通过计数器c跟层节点数len控制BFS遍历
+// ### 解题思路
+// 通过计数器c跟层节点数len控制BFS遍历
 
-### 代码
-####BFS常规思路
-```BFS常规思路
+// ### 代码
+// ####BFS常规思路
+// ```BFS常规思路
 void BFS()
 {
     定义队列;
@@ -25,10 +25,10 @@ void BFS()
     }
 
 }
-```
+// ```
 
 
-```java
+// ```java
 class Solution {
     public int shortestPathBinaryMatrix(int[][] grid) {
         int m=grid.length,n=grid[0].length;
@@ -69,4 +69,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

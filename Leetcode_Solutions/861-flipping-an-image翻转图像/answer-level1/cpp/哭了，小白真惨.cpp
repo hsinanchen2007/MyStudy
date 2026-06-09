@@ -1,9 +1,9 @@
-### 解题思路
-直接模拟，先逆置每一行，再对每个元素求反，时间爆炸O（n2）,暴风哭泣
+// ### 解题思路
+// 直接模拟，先逆置每一行，再对每个元素求反，时间爆炸O（n2）,暴风哭泣
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {// 直接模拟
 public:
     vector<vector<int>> flipAndInvertImage(vector<vector<int>>& A) {
@@ -23,4 +23,4 @@ public:
         return A;
     }
 };
-```
+// ```

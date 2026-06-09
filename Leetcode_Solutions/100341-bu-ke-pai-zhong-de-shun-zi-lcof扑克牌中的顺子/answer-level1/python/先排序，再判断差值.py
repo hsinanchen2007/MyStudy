@@ -1,9 +1,9 @@
-### 解题思路
-先排序，判断除0外是否有相同的元素，顺子中除0外的最大值与最小值之差必定不会大于4
+# ### 解题思路
+# 先排序，判断除0外是否有相同的元素，顺子中除0外的最大值与最小值之差必定不会大于4
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isStraight(self, nums: List[int]) -> bool:
         nums.sort()
@@ -15,4 +15,4 @@ class Solution:
             return False
         else:
             return True
-```
+# ```

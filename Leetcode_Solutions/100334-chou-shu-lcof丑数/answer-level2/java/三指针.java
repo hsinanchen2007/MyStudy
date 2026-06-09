@@ -1,9 +1,9 @@
-### 解题思路
-三指针的想法，比较每一次谁最小，然后再去判断是谁。
+// ### 解题思路
+// 三指针的想法，比较每一次谁最小，然后再去判断是谁。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int nthUglyNumber(int n) {
         int[] dp = new int[n];
@@ -26,4 +26,4 @@ class Solution {
         return dp[n-1];
     }
 }
-```
+// ```

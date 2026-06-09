@@ -1,10 +1,10 @@
-思路还是很简单的。
+// 思路还是很简单的。
 
-# 原始
+// # 原始
 
-看看下波毒会到哪。
+// 看看下波毒会到哪。
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findPoisonedDuration(vector<int>& timeSeries, int duration) {
@@ -22,15 +22,15 @@ public:
         return sum;
     }
 };
-```
+// ```
 
-改进改进。
+// 改进改进。
 
-## 改进
+// ## 改进
 
-连续差和duration比较求和。
+// 连续差和duration比较求和。
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findPoisonedDuration(vector<int>& timeSeries, int duration) {
@@ -45,4 +45,4 @@ public:
         return sum + duration;
     }
 };
-```
+// ```

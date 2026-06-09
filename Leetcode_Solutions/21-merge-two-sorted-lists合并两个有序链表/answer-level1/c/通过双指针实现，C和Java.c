@@ -1,5 +1,5 @@
-# C实现
-```
+// # C实现
+// ```
 struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2){
     struct ListNode node = {-1, NULL};
     struct ListNode* head = &node;
@@ -23,9 +23,9 @@ struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2){
     }
     return head->next;
 }
-```
-# Java实现
-```
+// ```
+// # Java实现
+// ```
 class Solution {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         ListNode node1 = l1;
@@ -63,5 +63,5 @@ class Solution {
         return resultNode.next;
     }
 }
-```
+// ```
 

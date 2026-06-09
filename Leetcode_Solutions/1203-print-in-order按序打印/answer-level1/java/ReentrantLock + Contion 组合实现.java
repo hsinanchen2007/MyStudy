@@ -1,8 +1,8 @@
 
-firstCondition 和 firstFinished 看似重复，其实不然：
-firstFinished用来标记前一个线程是否执行完成，如果还没执行完成，则执行firstCondition的等待动作（second函数不能无条件等待，如果在first函数已经完成的情况下等待，那firstCondition将没法被唤醒）
+// firstCondition 和 firstFinished 看似重复，其实不然：
+// firstFinished用来标记前一个线程是否执行完成，如果还没执行完成，则执行firstCondition的等待动作（second函数不能无条件等待，如果在first函数已经完成的情况下等待，那firstCondition将没法被唤醒）
 
-```cs
+// ```cs
 class Foo {
 
     Lock lock = new ReentrantLock();
@@ -57,4 +57,4 @@ class Foo {
         }
     }
 }
-```
+// ```

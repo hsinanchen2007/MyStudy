@@ -1,4 +1,4 @@
-// 求链表长度
+// // 求链表长度
 int getLengthOfList(ListNode *head) {
     if (head == nullptr)
         return 0;

@@ -1,10 +1,10 @@
-递归也可以解出来，但会超时
+// 递归也可以解出来，但会超时
 
 
-执行用时 : 0 ms, 在Climbing Stairs的C提交中击败了100.00% 的用户
+// 执行用时 : 0 ms, 在Climbing Stairs的C提交中击败了100.00% 的用户
 
-内存消耗 : 7.1 MB, 在Climbing Stairs的C提交中击败了5.20% 的用户
-```c
+// 内存消耗 : 7.1 MB, 在Climbing Stairs的C提交中击败了5.20% 的用户
+// ```c
 int climbStairs(int n){
     if(n < 0)
         return -1;
@@ -18,10 +18,10 @@ int climbStairs(int n){
     }
     return res[n-1]; 
 }
-```
+// ```
 
-递归版本
-```c
+// 递归版本
+// ```c
 int climbStairs(int n)
 {
     int result = 0;
@@ -35,4 +35,4 @@ int climbStairs(int n)
     result = climbStairs(n-1) + climbStairs(n-2);
     return result;
 }
-```
+// ```

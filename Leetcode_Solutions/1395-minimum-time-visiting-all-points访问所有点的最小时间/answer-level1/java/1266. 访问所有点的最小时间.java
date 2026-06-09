@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     /*
         两点的坐标关系分为以下三种：
@@ -16,4 +16,4 @@ class Solution {
         return time;
     }
 }
-```
+// ```

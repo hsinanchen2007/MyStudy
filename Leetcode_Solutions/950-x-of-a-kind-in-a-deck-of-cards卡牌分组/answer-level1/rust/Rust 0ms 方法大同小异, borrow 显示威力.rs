@@ -1,7 +1,7 @@
 
-遍历 vector 的时候注意使用borrow (&), 可以避免 move, 让速度更快.
+// 遍历 vector 的时候注意使用borrow (&), 可以避免 move, 让速度更快.
 
-```rs
+// ```rs
 impl Solution {
     pub fn has_groups_size_x(deck: Vec<i32>) -> bool {
         if deck.is_empty() {
@@ -37,4 +37,4 @@ impl Solution {
         g >= 2
     }
 }
-```
+// ```

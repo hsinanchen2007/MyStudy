@@ -1,7 +1,7 @@
-简单的动态规划问题，可惜竞赛期间没来得及想到。
-记dp[i][j][k]为抛k+1次骰子且数字i+1最后连续出现j+1次时不同点数序列的数量。建立递推关系即可。
+# 简单的动态规划问题，可惜竞赛期间没来得及想到。
+# 记dp[i][j][k]为抛k+1次骰子且数字i+1最后连续出现j+1次时不同点数序列的数量。建立递推关系即可。
 
-```python
+# ```python
 rollMaxLimit = 15
 MOD = 1_000_000_007
 
@@ -21,4 +21,4 @@ class Solution:
             S = [sum(dp[i][j] for j in range(rollMax[i])) for i in range(6)]
             sum_S = sum(S)
         return sum_S % MOD
-```
+# ```

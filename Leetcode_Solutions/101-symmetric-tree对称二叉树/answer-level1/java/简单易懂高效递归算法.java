@@ -1,9 +1,9 @@
-### 解题思路
-循环节点，遍历左右子树，判断对应位置是否相等。
+// ### 解题思路
+// 循环节点，遍历左右子树，判断对应位置是否相等。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -31,4 +31,4 @@ class Solution {
         return dfs(left.right, right.left) && dfs(left.left, right.right);
     }
 }
-```
+// ```

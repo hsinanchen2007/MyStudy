@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool lemonadeChange(const vector<int>& bills) {
@@ -12,4 +12,4 @@ public:
         return true;
     }
 };
-```
+// ```

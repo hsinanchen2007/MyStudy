@@ -1,5 +1,5 @@
-方法一 暴力
-```
+// 方法一 暴力
+// ```
 class Solution {
 public:
     int numJewelsInStones(string J, string S) {
@@ -15,9 +15,9 @@ public:
         return res;
     }
 };
-```
-方法二 set
-```
+// ```
+// 方法二 set
+// ```
 class Solution {
 public:
     int numJewelsInStones(string J, string S) {
@@ -29,4 +29,4 @@ public:
         return res;
     }
 };
-```
+// ```

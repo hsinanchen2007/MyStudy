@@ -1,11 +1,11 @@
-### 解题思路
-感谢[花花酱](https://www.youtube.com/watch?v=Xa-yETqFNEQ&list=PLLuMmzMTgVK423Mj1n_OaOAZZ6k5fNxyN&index=42)的讲解
-我今天一定要把回溯系列搞明白了！
+// ### 解题思路
+// 感谢[花花酱](https://www.youtube.com/watch?v=Xa-yETqFNEQ&list=PLLuMmzMTgVK423Mj1n_OaOAZZ6k5fNxyN&index=42)的讲解
+// 我今天一定要把回溯系列搞明白了！
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<string>> solveNQueens(int n) {
@@ -53,4 +53,4 @@ private:
 
     }
 };
-```
+// ```

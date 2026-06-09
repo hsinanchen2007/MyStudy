@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def distinctEchoSubstrings(self, text: str) -> int:
         dic = collections.defaultdict(list)
@@ -13,4 +13,4 @@ class Solution:
                         res.add(text[pre: pre + gap])
                 dic[t].append(i)
         return len(res)
-```
+# ```

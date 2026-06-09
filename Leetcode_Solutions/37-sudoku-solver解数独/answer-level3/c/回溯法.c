@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-1. 分区索引
-2. row, col, block 3个排斥数组
-3. 回溯
+// 1. 分区索引
+// 2. row, col, block 3个排斥数组
+// 3. 回溯
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int row[9][10];
 int col[9][10];
 int block[9][10];
@@ -67,4 +67,4 @@ void solveSudoku(char** board, int boardSize, int* boardColSize){
     }
     backtracking(board, 0, 0);
 }
-```
+// ```

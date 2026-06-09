@@ -1,9 +1,9 @@
-### 解题思路
-此处使用的是非递归层次遍历，设立left=最小值，遍历过程找到第一个比left大的值设为right，在遍历过程中及时更新right，使right是除了left的最小的数
+// ### 解题思路
+// 此处使用的是非递归层次遍历，设立left=最小值，遍历过程找到第一个比left大的值设为right，在遍历过程中及时更新right，使right是除了left的最小的数
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -43,4 +43,4 @@ public:
         return -1;        
     }
 };
-```
+// ```

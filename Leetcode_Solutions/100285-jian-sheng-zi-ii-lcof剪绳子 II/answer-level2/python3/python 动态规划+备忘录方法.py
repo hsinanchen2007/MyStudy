@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def cuttingRope(self, n: int) -> int:
         if n <= 3:
@@ -18,4 +18,4 @@ class Solution:
             return max
             
         return cal(n)%1000000007
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxPoints(self, points: List[List[int]]) -> int:
         # 去重
@@ -38,4 +38,4 @@ class Solution:
             maxLen = max(maxLen, x)
             if tab: maxLen= max(maxLen, max(tab.values()))
         return maxLen
-```
+# ```

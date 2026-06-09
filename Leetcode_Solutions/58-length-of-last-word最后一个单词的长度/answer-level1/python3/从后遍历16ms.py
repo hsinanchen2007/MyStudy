@@ -1,9 +1,9 @@
-### 解题思路
-去末尾空格
-判断字符串有没有空隔，没有则返回原长度
-### 代码
+# ### 解题思路
+# 去末尾空格
+# 判断字符串有没有空隔，没有则返回原长度
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def lengthOfLastWord(self, s: str) -> int:
         s = s.rstrip()
@@ -15,4 +15,4 @@ class Solution:
                 return x
             x += 1
             
-```
+# ```

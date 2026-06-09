@@ -1,9 +1,9 @@
-### 解题思路 其核心本质是利用中序遍历第k-1个元素即可，
+// ### 解题思路 其核心本质是利用中序遍历第k-1个元素即可，
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -31,4 +31,4 @@ class Solution {
         
     }
 }
-```
+// ```

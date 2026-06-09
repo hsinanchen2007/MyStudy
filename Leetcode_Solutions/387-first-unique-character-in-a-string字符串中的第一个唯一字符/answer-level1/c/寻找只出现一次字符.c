@@ -1,9 +1,9 @@
-### 解题思路
-，问就是 hash
+// ### 解题思路
+// ，问就是 hash
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int firstUniqChar(char * s){
     int flag[26]={0};    //初始化
     int len=strlen(s);
@@ -17,4 +17,4 @@ int firstUniqChar(char * s){
     return -1;
     
 }
-```
+// ```

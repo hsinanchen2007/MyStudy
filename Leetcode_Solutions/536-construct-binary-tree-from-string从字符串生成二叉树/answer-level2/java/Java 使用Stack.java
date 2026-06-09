@@ -1,15 +1,15 @@
-**我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，求小星星呀(๑•̀ㅂ•́)و✧**
+// **我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，求小星星呀(๑•̀ㅂ•́)و✧**
 
-思路：
+// 思路：
 
-字符串输出的规律为root.val(root.left.val)(root.right.val)，遵循前序遍历，所以创建一个Stack来储存节点。
+// 字符串输出的规律为root.val(root.left.val)(root.right.val)，遵循前序遍历，所以创建一个Stack来储存节点。
 
-遍历字符串，如果遇到了数字，则创建节点，如果stack不为空，则获取顶层元素，如果顶层元素的左子树为null，则当前节点为顶层元素的左子树 如果顶层元素左子树不为Null，则将当前节点连接在右子树，当遇到")"弹出stack顶层元素，直到字符串遍历完。
+// 遍历字符串，如果遇到了数字，则创建节点，如果stack不为空，则获取顶层元素，如果顶层元素的左子树为null，则当前节点为顶层元素的左子树 如果顶层元素左子树不为Null，则将当前节点连接在右子树，当遇到")"弹出stack顶层元素，直到字符串遍历完。
 
- * 这里需要注意节点可能为负值。
+//  * 这里需要注意节点可能为负值。
 
 
-```
+// ```
 class Solution {
 
     public TreeNode str2tree(String s) {
@@ -39,4 +39,4 @@ class Solution {
         return stack.peek();
     }
 }
-```
+// ```

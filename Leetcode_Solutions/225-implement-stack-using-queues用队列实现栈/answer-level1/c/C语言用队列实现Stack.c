@@ -1,10 +1,10 @@
-### 解题思路
-PUSH：正常入队
-POP：建立一个临时队列
+// ### 解题思路
+// PUSH：正常入队
+// POP：建立一个临时队列
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX_SIZE 10000
 // #define INT_MAX 100000
 
@@ -142,4 +142,4 @@ void myStackFree(MyStack* obj) {
     free(obj);
     return ;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public double mincostToHireWorkers(int[] quality, int[] wage, int K) {
         int n = quality.length;
@@ -20,4 +20,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

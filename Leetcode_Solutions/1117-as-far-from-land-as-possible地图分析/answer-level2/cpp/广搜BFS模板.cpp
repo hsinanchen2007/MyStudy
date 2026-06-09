@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     static constexpr int delta[4][2]={{1,0},{0,1},{-1,0},{0,-1}};
@@ -42,4 +42,4 @@ public:
         return step-1;
     }
 };
-```
+// ```

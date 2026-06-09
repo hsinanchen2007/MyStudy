@@ -1,10 +1,10 @@
-### 解题思路
-1、实现子函数：输入n-1的字符串，得到n的字符串；
-2、循环调用子函数，得到第n个序列的字符串，具体见代码实现。
+# ### 解题思路
+# 1、实现子函数：输入n-1的字符串，得到n的字符串；
+# 2、循环调用子函数，得到第n个序列的字符串，具体见代码实现。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countAndSay(self, n: int) -> str:
         if n == 1:
@@ -31,4 +31,4 @@ class Solution:
             output_s = say(input_s)
             input_s = output_s
         return output_s
-```
+# ```

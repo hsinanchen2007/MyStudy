@@ -1,7 +1,7 @@
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def compressString(self, S: str) -> str:
         lens = len(S)
@@ -21,4 +21,4 @@ class Solution:
             if len(ans) >= lens:
                 return S
         return ans
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-初学者，使用滑动窗口，继续刷题
+// ### 解题思路
+// 初学者，使用滑动窗口，继续刷题
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean containsNearbyDuplicate(int[] nums, int k) {
         Set<Integer> set = new HashSet<>();
@@ -17,4 +17,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-本题稍微麻烦点的地方在于需要将每层的节点串成一个新链表，用于返回，详细见注释
+// ### 解题思路
+// 本题稍微麻烦点的地方在于需要将每层的节点串成一个新链表，用于返回，详细见注释
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -82,4 +82,4 @@ struct ListNode** listOfDepth(struct TreeNode *tree, int *returnSize){
 
     return retArr;
 }
-```
+// ```

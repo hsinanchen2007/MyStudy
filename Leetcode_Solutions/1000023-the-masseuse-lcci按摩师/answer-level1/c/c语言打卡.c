@@ -1,10 +1,10 @@
-### 解题思路
-显然，可以用动态规划求解。设$f(n)$为接收第$n$个预约时的最优分钟数，则状态转移方程为$f(n)=\max\limits_{1\leqslant i\leqslant n-2}f(i)+t_n$，且$f(1)=t_1$，$f(2)=\max \{t_1,t_2\}$，采用写备忘录自底向上方法循环可以得到，最后结果为$\max \{f(n-1), f(n)\}$。
-同时，可以优化一下额外存储空间。显然，$\max\limits_{1\leqslant i\leqslant n-2}f(i)=\max \{f(n-3),f(n-2)\}$，所以我们可以只记录最近的三个函数值，最后的时间复杂度为$O(n)$，空间复杂度为$O(1)$
+// ### 解题思路
+// 显然，可以用动态规划求解。设$f(n)$为接收第$n$个预约时的最优分钟数，则状态转移方程为$f(n)=\max\limits_{1\leqslant i\leqslant n-2}f(i)+t_n$，且$f(1)=t_1$，$f(2)=\max \{t_1,t_2\}$，采用写备忘录自底向上方法循环可以得到，最后结果为$\max \{f(n-1), f(n)\}$。
+// 同时，可以优化一下额外存储空间。显然，$\max\limits_{1\leqslant i\leqslant n-2}f(i)=\max \{f(n-3),f(n-2)\}$，所以我们可以只记录最近的三个函数值，最后的时间复杂度为$O(n)$，空间复杂度为$O(1)$
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int massage(int* nums, int numsSize){
     if(numsSize == 0)
         return 0;
@@ -25,4 +25,4 @@ int massage(int* nums, int numsSize){
     }
     return (memorize[1] > memorize[2] ? memorize[1] : memorize[2]);
 }
-```
+// ```

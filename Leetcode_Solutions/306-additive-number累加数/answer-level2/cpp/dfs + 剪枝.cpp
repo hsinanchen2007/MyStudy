@@ -1,5 +1,5 @@
- `c++`  常规dfs+剪枝
-```c++
+//  `c++`  常规dfs+剪枝
+// ```c++
     bool isAdditiveNumber(string num) {
         if(num.size() <= 2) return false;
         for(int i = 1;2 * i <= num.size();i++){
@@ -32,4 +32,4 @@
         }
         return sum;
     }
-```
+// ```

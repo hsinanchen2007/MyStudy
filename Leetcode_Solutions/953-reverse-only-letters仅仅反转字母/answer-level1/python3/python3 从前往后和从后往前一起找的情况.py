@@ -1,6 +1,6 @@
-相当于设置两个flag，一个设在起点，一个设在终点，找到可交换的字符就交换，判断字符用ASCII的数字区间判断即可，简单易理解。
+# 相当于设置两个flag，一个设在起点，一个设在终点，找到可交换的字符就交换，判断字符用ASCII的数字区间判断即可，简单易理解。
 
-```
+# ```
 class Solution:
     def reverseOnlyLetters(self, S: str) -> str:
         #finding from the front
@@ -24,4 +24,4 @@ class Solution:
                 j = j - 1
                 #print(k)
         return ''.join(k)
-```
+# ```

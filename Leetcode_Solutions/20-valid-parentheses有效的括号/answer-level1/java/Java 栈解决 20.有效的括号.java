@@ -1,6 +1,6 @@
-一看到题目就想到用栈解决了，完美的先进后出
+// 一看到题目就想到用栈解决了，完美的先进后出
 
-```java
+// ```java
 class Solution {
 	public boolean isValid(String s) {
 		Stack<String> stack = new Stack<>();
@@ -44,4 +44,4 @@ class Solution {
 		return stack.empty();
 	}
 }
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-这种解法失去了本题的灵魂
-### 代码
+// ### 解题思路
+// 这种解法失去了本题的灵魂
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private int[] nums;
     Map<Integer,Integer>map;
@@ -29,4 +29,4 @@ class Solution {
  * Solution obj = new Solution(nums);
  * int param_1 = obj.pick(target);
  */
-```
+// ```

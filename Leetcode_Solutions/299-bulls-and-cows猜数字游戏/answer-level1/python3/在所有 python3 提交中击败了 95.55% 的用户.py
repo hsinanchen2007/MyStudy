@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def getHint(self, secret: str, guess: str) -> str:
         s = list(secret)
@@ -30,4 +30,4 @@ class Solution:
         return str(count_a) + "A" + str(count_b) + "B"
 
 
-```
+# ```

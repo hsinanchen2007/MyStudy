@@ -1,9 +1,9 @@
-### 解题思路
-多源BFS（以前打比赛的时候硬是没用到过太菜了看了大佬的学到了）
+// ### 解题思路
+// 多源BFS（以前打比赛的时候硬是没用到过太菜了看了大佬的学到了）
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {//BFS到每一个点的最短距离   多源BFS因为每个点到某点的距离先到了就是最短的距离
 public:
     int maxDistance(vector<vector<int>>& grid) {
@@ -38,4 +38,4 @@ public:
         return  grid[x][y] - 1;
     }
 };
-```
+// ```

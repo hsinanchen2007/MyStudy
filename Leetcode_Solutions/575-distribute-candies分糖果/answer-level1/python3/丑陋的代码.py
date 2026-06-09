@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def distributeCandies(self, candies: List[int]) -> int:
         from collections import Counter
@@ -10,4 +10,4 @@ class Solution:
         # print(b,n-b)
         return n//2 if n//2 < n-b else n-b
         
-```
+# ```

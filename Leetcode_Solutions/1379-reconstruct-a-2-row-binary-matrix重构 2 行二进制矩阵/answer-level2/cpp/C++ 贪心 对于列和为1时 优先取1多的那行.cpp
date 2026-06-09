@@ -1,4 +1,4 @@
-```
+// ```
     vector<vector<int>> reconstructMatrix(int upper, int lower, vector<int>& c) {   
         int n = c.size(),sum=0;
         for(int i = 0; i < c.size(); i++) sum += c[i];
@@ -17,4 +17,4 @@
         }
         return ans;
     }
-```
+// ```

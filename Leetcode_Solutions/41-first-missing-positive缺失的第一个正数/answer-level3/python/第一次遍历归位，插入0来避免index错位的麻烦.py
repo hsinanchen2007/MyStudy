@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def firstMissingPositive(self, nums: List[int]) -> int:
         if not nums or 0 not in nums: nums.append(0) #此处插入一个可能不会在list中出现的0，用来使所有值对齐到位置
@@ -23,4 +23,4 @@ class Solution:
         #找不到返回最大正数
         return len(nums)
         
-```
+# ```

@@ -1,7 +1,7 @@
-代码实际上参考Redis的`skiplist`写法，那边的代码写的是真的漂亮。
-下面只是在它上面的基础上，精简而成。
+// 代码实际上参考Redis的`skiplist`写法，那边的代码写的是真的漂亮。
+// 下面只是在它上面的基础上，精简而成。
 
-```java
+// ```java
 class Skiplist {
 
     static class Entry {
@@ -105,4 +105,4 @@ class Skiplist {
         return level;
     }
 }
-```
+// ```

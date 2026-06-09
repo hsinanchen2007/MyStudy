@@ -1,9 +1,9 @@
-### 解题思路
-判断大小写的时候要提前判断下，是否为字母
+// ### 解题思路
+// 判断大小写的时候要提前判断下，是否为字母
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isPalindrome(string s) {
@@ -24,4 +24,4 @@ public:
         else return false;
     }
 };
-```
+// ```

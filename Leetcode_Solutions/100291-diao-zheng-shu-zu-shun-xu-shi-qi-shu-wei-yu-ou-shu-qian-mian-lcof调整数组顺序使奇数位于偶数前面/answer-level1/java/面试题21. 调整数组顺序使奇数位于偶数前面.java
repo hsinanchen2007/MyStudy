@@ -1,9 +1,9 @@
-### 解题思路
-首尾指针，前面找到偶数就暂停，后面指针去找奇数，找到就交换位置，以此类推。
+// ### 解题思路
+// 首尾指针，前面找到偶数就暂停，后面指针去找奇数，找到就交换位置，以此类推。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] exchange(int[] nums) {
         if(nums.length<=1)return nums;
@@ -21,4 +21,4 @@ class Solution {
         return nums;
     }
 }
-```
+// ```

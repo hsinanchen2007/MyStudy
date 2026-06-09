@@ -1,9 +1,9 @@
-### 解题思路
-先找到rook的位置，然后向四个方向遍历，看碰到的第一个棋子是不是pawn，是就+1。
+# ### 解题思路
+# 先找到rook的位置，然后向四个方向遍历，看碰到的第一个棋子是不是pawn，是就+1。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numRookCaptures(self, board: List[List[str]]) -> int:
         r = 0
@@ -47,4 +47,4 @@ class Solution:
                 break
         
         return r
-```
+# ```

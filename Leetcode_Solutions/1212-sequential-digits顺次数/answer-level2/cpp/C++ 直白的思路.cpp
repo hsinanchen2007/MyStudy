@@ -1,9 +1,9 @@
-### 解题思路
-每次确定数字位数、最高位的值，然后得出对应的顺次数。
+// ### 解题思路
+// 每次确定数字位数、最高位的值，然后得出对应的顺次数。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> sequentialDigits(int low, int high) {
@@ -27,4 +27,4 @@ public:
         return res;
     }
 };
-```
+// ```

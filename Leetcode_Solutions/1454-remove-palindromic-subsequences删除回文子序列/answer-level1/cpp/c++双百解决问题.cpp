@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/57df7579b0a5f1ce57df1a435ccd930a8550e2cd5d49323324f19b636d867d4e-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/57df7579b0a5f1ce57df1a435ccd930a8550e2cd5d49323324f19b636d867d4e-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int removePalindromeSub(string s) {
@@ -30,4 +30,4 @@ public:
             return 1;
     }
 };
-```
+// ```

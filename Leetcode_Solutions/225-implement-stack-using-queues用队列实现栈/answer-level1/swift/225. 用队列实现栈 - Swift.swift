@@ -1,8 +1,8 @@
-1. 用数组来模拟一个队列
-2. 入栈时，执行`array.append()`方法，出栈时，执行`array.removeList()`方法
-3. 当队列为空时，如果执行出栈操作，则报错，示例代码如下：
+// 1. 用数组来模拟一个队列
+// 2. 入栈时，执行`array.append()`方法，出栈时，执行`array.removeList()`方法
+// 3. 当队列为空时，如果执行出栈操作，则报错，示例代码如下：
 
-``` swift
+// ``` swift
 class MyStack {
     private var array: [Int] = []
     private var size: Int = 0
@@ -37,4 +37,4 @@ class MyStack {
         return size == 0
     }
 }
-```
+// ```

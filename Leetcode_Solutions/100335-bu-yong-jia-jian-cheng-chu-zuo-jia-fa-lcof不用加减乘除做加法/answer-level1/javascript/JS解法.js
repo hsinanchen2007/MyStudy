@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var add = function(a, b) {
     while(a !== 0){
         let temp = (a ^ b);
@@ -10,4 +10,4 @@ var add = function(a, b) {
     return b
 };
 
-```
+// ```

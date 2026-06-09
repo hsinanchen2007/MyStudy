@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/f3fd728d707698f8332244b3cb1c9161b5805b325f9953f3551fe55ea4af07e3-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/f3fd728d707698f8332244b3cb1c9161b5805b325f9953f3551fe55ea4af07e3-image.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canThreePartsEqualSum(int[] A) {
 
@@ -51,4 +51,4 @@ class Solution {
 
     }
 }
-```
+// ```

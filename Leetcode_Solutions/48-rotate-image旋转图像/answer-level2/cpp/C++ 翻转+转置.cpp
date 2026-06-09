@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class Solution {
 public:
     // https://leetcode.com/problems/rotate-image/discuss/18872/A-common-method-to-rotate-the-image
@@ -14,4 +14,4 @@ public:
         }
     }
 };
-```
+// ```

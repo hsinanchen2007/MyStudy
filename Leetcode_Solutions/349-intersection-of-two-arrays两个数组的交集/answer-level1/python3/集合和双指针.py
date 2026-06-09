@@ -1,17 +1,17 @@
-### 解题思路
-集合
+# ### 解题思路
+# 集合
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def intersection(self, nums1: List[int], nums2: List[int]) -> List[int]:
         return set(nums1) & set(nums2)
-```
+# ```
 
-### 强凑双指针
-去掉res的判断就是第二题的答案
-```python3
+# ### 强凑双指针
+# 去掉res的判断就是第二题的答案
+# ```python3
 class Solution:
     def intersection(self, nums1: List[int], nums2: List[int]) -> List[int]:
         nums1.sort()
@@ -28,4 +28,4 @@ class Solution:
                 i += 1
                 j += 1
         return res
-```
+# ```

@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def isValid(self, s: str):
         stack = []
@@ -16,4 +16,4 @@ class Solution:
                     return False
                 
         return len(stack) == 0
-```
+# ```

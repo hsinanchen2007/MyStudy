@@ -1,5 +1,5 @@
-每次进栈前判断栈顶是否与将要进栈的元素相同，是则出栈，否则进栈。直至全部元素处理完成。
-```
+// 每次进栈前判断栈顶是否与将要进栈的元素相同，是则出栈，否则进栈。直至全部元素处理完成。
+// ```
 class Solution {
     public String removeDuplicates(String S) {
         Stack<Character> stack = new Stack();
@@ -18,4 +18,4 @@ class Solution {
         return result.toString();
     }
 }
-```
+// ```

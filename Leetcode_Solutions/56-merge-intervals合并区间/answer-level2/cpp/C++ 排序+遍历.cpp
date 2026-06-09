@@ -1,5 +1,5 @@
-排序后遍历，判断区间结束端点是否大于后继区间起始端点，用以合并区间
-```
+// 排序后遍历，判断区间结束端点是否大于后继区间起始端点，用以合并区间
+// ```
 class Solution {
 public:
     vector<vector<int>> merge(vector<vector<int>>& intervals) {
@@ -20,4 +20,4 @@ public:
         return ret;
     }
 };
-```
+// ```

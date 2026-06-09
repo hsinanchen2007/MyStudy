@@ -1,8 +1,8 @@
-与15题解相似，先进行排序
-- 固定第一个元素i(使用后，跳过重复元素i)
-- 遍历[i+1...length-2]区间范围的第二个元素j(使用后，跳过重复j)
-- 使用双指针[head...tail]找出符合元素(找出后，跳过重复元素)
-```java
+// 与15题解相似，先进行排序
+// - 固定第一个元素i(使用后，跳过重复元素i)
+// - 遍历[i+1...length-2]区间范围的第二个元素j(使用后，跳过重复j)
+// - 使用双指针[head...tail]找出符合元素(找出后，跳过重复元素)
+// ```java
 class Solution {
    // 每次固定i 遍历 j = [i+1...length-2] 双指针 [head...tail] = [j+1...length-1]
     public List<List<Integer>> fourSum(int[] nums, int target) {
@@ -55,4 +55,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

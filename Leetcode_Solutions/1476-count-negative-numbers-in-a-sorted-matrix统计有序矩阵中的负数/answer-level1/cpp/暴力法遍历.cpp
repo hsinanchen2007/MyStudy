@@ -1,9 +1,9 @@
-### 解题思路
-循环
+// ### 解题思路
+// 循环
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int countNegatives(vector<vector<int>>& grid) {
@@ -27,4 +27,4 @@ public:
         return result;
     }
 };
-```
+// ```

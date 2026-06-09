@@ -1,9 +1,9 @@
-### 解题思路
-使用hashmap进行处理，代码如下
+// ### 解题思路
+// 使用hashmap进行处理，代码如下
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Logger {
 
     Map<String, Integer> log;
@@ -35,4 +35,4 @@ class Logger {
  * Logger obj = new Logger();
  * boolean param_1 = obj.shouldPrintMessage(timestamp,message);
  */
-```
+// ```

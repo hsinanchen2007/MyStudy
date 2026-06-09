@@ -1,10 +1,10 @@
-### 解题思路
-子树返回自身深度，和是否是平衡树
-根节点根据子树返回构造自己的状态
+// ### 解题思路
+// 子树返回自身深度，和是否是平衡树
+// 根节点根据子树返回构造自己的状态
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -26,4 +26,4 @@ public:
         return {lret[0]&&rret[0]&&abs(lret[1]-rret[1])<=1, max(lret[1], rret[1])+1};
     }
 };
-```
+// ```

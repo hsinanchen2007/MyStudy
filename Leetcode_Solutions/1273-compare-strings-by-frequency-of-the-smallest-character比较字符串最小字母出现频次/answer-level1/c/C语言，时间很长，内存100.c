@@ -1,9 +1,9 @@
-### 解题思路
-最基础解法，O（n*n)复杂度
+// ### 解题思路
+// 最基础解法，O（n*n)复杂度
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -34,4 +34,4 @@ int* numSmallerByFrequency(char ** queries, int queriesSize, char ** words, int 
     *returnSize = queriesSize;
     return res;
 }
-```
+// ```

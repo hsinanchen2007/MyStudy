@@ -1,32 +1,32 @@
-# 一、自顶向下
-## 思路分析
-换个角度看triangle
-```
+// # 一、自顶向下
+// ## 思路分析
+// 换个角度看triangle
+// ```
      [2],
     [3,4],
    [6,5,7],
   [4,1,8,3]
-```
-```
+// ```
+// ```
   [2],
   [3,4],
   [6,5,7],
   [4,1,8,3]
-```
-1. 状态定义：`dp[i][j]`表示包含第i行第j列元素的最小路径和
-2. 状态分析
-     1. 初始化：
-        `dp[0][0]=triangle[0][0]`
-     2. 常规：
-        `triangle[i][j]`一定会**经过**`triangle[i-1][j]`或者`triangle[i-1][j-1]`,
-         所以状态`dp[i][j]`一定等于`dp[i-1][j]`或者`dp[i-1][j-1]`的最小值+`triangle[i][j]`
-     3. 特殊：
-        ` triangle[i][0]`没有左上角 只能从`triangle[i-1][j]`经过
-        `triangle[i][row[0].length]`没有上面 只能从`triangle[i-1][j-1]`经过
-3. 转换方程：`dp[i][j]=min(dp[i-1][j],dp[i-1][j-1])+triangle[i][j]`
+// ```
+// 1. 状态定义：`dp[i][j]`表示包含第i行第j列元素的最小路径和
+// 2. 状态分析
+//      1. 初始化：
+//         `dp[0][0]=triangle[0][0]`
+//      2. 常规：
+//         `triangle[i][j]`一定会**经过**`triangle[i-1][j]`或者`triangle[i-1][j-1]`,
+//          所以状态`dp[i][j]`一定等于`dp[i-1][j]`或者`dp[i-1][j-1]`的最小值+`triangle[i][j]`
+//      3. 特殊：
+//         ` triangle[i][0]`没有左上角 只能从`triangle[i-1][j]`经过
+//         `triangle[i][row[0].length]`没有上面 只能从`triangle[i-1][j-1]`经过
+// 3. 转换方程：`dp[i][j]=min(dp[i-1][j],dp[i-1][j-1])+triangle[i][j]`
 
-## 代码实现
-```java
+// ## 代码实现
+// ```java
 	public int minimumTotal(List<List<Integer>> triangle) {
         // 特判
         if (triangle == null || triangle.size() == 0) {
@@ -61,14 +61,14 @@
         }
         return res;
     }
-```
-时间复杂度：O(n^2) （n 为三角形的总行数）
-空间复杂度：O(n^2) （n 为三角形的总行数）
+// ```
+// 时间复杂度：O(n^2) （n 为三角形的总行数）
+// 空间复杂度：O(n^2) （n 为三角形的总行数）
 
-## 空间优化
-观察自顶向下的代码会发现，对第i行的最小路径和的推导，只需要第i-1行的dp[i - 1][j]和dp[i - 1][j - 1]元素即可。可以使用两个变量暂存。
-一维的dp数组只存储第i行的最小路径和。
-```
+// ## 空间优化
+// 观察自顶向下的代码会发现，对第i行的最小路径和的推导，只需要第i-1行的dp[i - 1][j]和dp[i - 1][j - 1]元素即可。可以使用两个变量暂存。
+// 一维的dp数组只存储第i行的最小路径和。
+// ```
     public int minimumTotal(List<List<Integer>> triangle) {
         // 特判
         if (triangle == null || triangle.size() == 0) {
@@ -106,28 +106,28 @@
         }
         return res;
     }
-```
-时间复杂度：O(n^2) （n 为三角形的总行数）
-空间复杂度：O(n) （n 为三角形的总行数）
+// ```
+// 时间复杂度：O(n^2) （n 为三角形的总行数）
+// 空间复杂度：O(n) （n 为三角形的总行数）
 
-还可以直接使用输入数组，特殊情况不做讨论
+// 还可以直接使用输入数组，特殊情况不做讨论
 
 
-# 二、自底向上
+// # 二、自底向上
 
-## 思路分析
+// ## 思路分析
 
-1. 状态定义：`dp[i][j]`表示包含第i行第j列元素的最小路径和
-2. 状态分析
-     1. 初始化：
-        `dp最后一行=triangle最后一行`
-     2. 常规：
-        `triangle[i][j]`一定会**到达**`triangle[i+1][j]`或者`triangle[i+1][j+1]`,
-         所以状态`dp[i][j]`一定等于`dp[i+1][j]`或者`dp[i+1][j+1]`的最小值+`triangle[i][j]`
-3. 转换方程：`dp[i][j]=min(dp[i+1][j],dp[i+1][j+1])+triangle[i][j]`
+// 1. 状态定义：`dp[i][j]`表示包含第i行第j列元素的最小路径和
+// 2. 状态分析
+//      1. 初始化：
+//         `dp最后一行=triangle最后一行`
+//      2. 常规：
+//         `triangle[i][j]`一定会**到达**`triangle[i+1][j]`或者`triangle[i+1][j+1]`,
+//          所以状态`dp[i][j]`一定等于`dp[i+1][j]`或者`dp[i+1][j+1]`的最小值+`triangle[i][j]`
+// 3. 转换方程：`dp[i][j]=min(dp[i+1][j],dp[i+1][j+1])+triangle[i][j]`
 
-## 代码实现
-```java
+// ## 代码实现
+// ```java
     public int minimumTotal(List<List<Integer>> triangle) {
         // 特判
         if (triangle == null || triangle.size() == 0) {
@@ -145,13 +145,13 @@
         }
         return dp[0][0];
     }
-```
-时间复杂度：O(n^2) （n 为三角形的总行数）
-空间复杂度：O(n^2) （n 为三角形的总行数）
+// ```
+// 时间复杂度：O(n^2) （n 为三角形的总行数）
+// 空间复杂度：O(n^2) （n 为三角形的总行数）
 
-## 空间优化
+// ## 空间优化
 
-```java
+// ```java
     public int minimumTotal(List<List<Integer>> triangle) {
         // 特判
         if (triangle == null || triangle.size() == 0) {
@@ -168,4 +168,4 @@
         }
         return dp[0];
     }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-也不叫没有递归吧，中间很多计算结果是可以重复利用的
+// 也不叫没有递归吧，中间很多计算结果是可以重复利用的
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -89,4 +89,4 @@ func generateTrees1(n int, start int) []*TreeNode {
 func generateTrees(n int) []*TreeNode {
     return generateTrees1(n, 1)
 }
-```
+// ```

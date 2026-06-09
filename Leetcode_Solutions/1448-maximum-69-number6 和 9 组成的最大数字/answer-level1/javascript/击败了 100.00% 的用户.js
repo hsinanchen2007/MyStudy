@@ -1,9 +1,9 @@
-### 解题思路
-找到第一个6，将其改为9
+// ### 解题思路
+// 找到第一个6，将其改为9
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} num
  * @return {number}
@@ -17,4 +17,4 @@ var maximum69Number  = function(num) {
     }
     return num
 };
-```
+// ```

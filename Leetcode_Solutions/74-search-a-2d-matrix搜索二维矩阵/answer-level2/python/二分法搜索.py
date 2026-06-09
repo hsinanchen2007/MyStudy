@@ -1,11 +1,11 @@
-### 解题思路
-首先考虑两种特殊的情况，列数或行数为0的情况，此时应该返回false。
-接下来按行寻找target所在的行，遍历找到第一个行序数最大的且行中第一个元素大于等于target的行，这行就是target的可能所在行。
-再用二分法寻找target是否在第i+1行中。
+# ### 解题思路
+# 首先考虑两种特殊的情况，列数或行数为0的情况，此时应该返回false。
+# 接下来按行寻找target所在的行，遍历找到第一个行序数最大的且行中第一个元素大于等于target的行，这行就是target的可能所在行。
+# 再用二分法寻找target是否在第i+1行中。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def searchMatrix(self, matrix, target):
         """
@@ -41,4 +41,4 @@ class Solution(object):
         return False
         
 
-```
+# ```

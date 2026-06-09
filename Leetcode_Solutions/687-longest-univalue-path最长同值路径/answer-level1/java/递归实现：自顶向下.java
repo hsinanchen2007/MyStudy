@@ -1,9 +1,9 @@
-### 解题思路
-考虑最简单的模型：左子树left，根结点root，右子树right。如果root是第一次分叉的那个结点，那么最大长度等于leftLength+rightLength；如果不是第一次分叉的结点，那就要返回max{leftLength,rightLength},因为最多只能有一次分叉，所以要用一个变量isRoot来判断是不是第一次分叉。
+// ### 解题思路
+// 考虑最简单的模型：左子树left，根结点root，右子树right。如果root是第一次分叉的那个结点，那么最大长度等于leftLength+rightLength；如果不是第一次分叉的结点，那就要返回max{leftLength,rightLength},因为最多只能有一次分叉，所以要用一个变量isRoot来判断是不是第一次分叉。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -52,4 +52,4 @@ class Solution {
     }
 
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-count记录合并的次数，并存入原数组，最终用Arrays.copyOf()截取需要的长度即可。
+// ### 解题思路
+// count记录合并的次数，并存入原数组，最终用Arrays.copyOf()截取需要的长度即可。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] merge(int[][] intervals) {
         int len = intervals.length;
@@ -21,4 +21,4 @@ class Solution {
         return Arrays.copyOf(intervals, count + 1);		
     }
 }
-```
+// ```

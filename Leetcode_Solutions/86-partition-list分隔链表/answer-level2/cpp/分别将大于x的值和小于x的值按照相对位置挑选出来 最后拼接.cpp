@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     ListNode* partition(ListNode* head, int x) {
@@ -25,4 +25,4 @@ public:
         return  HEAD1->next;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-这题中文要好，就是没看中文想多了
+# ### 解题思路
+# 这题中文要好，就是没看中文想多了
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
         s = ""
@@ -13,4 +13,4 @@ class Solution:
             else:
                 break           
         return s
-```
+# ```

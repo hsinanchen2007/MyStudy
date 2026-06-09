@@ -1,9 +1,9 @@
-### 解题思路
-暴力
+// ### 解题思路
+// 暴力
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func maximum69Number(num int) int {
 	a, b, c, d := num/1000, num/100%10, num/10%10, num%10
 	if a == 6 {
@@ -17,4 +17,4 @@ func maximum69Number(num int) int {
 	}
 	return a*1000 + b*100 + c*10 + d
 }
-```
+// ```

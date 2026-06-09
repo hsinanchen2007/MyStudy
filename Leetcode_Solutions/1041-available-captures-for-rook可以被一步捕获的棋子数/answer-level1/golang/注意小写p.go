@@ -1,9 +1,9 @@
-### 解题思路
-四个方向找p，注意小写
+// ### 解题思路
+// 四个方向找p，注意小写
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func numRookCaptures(board [][]byte) int {
   // 查找R
   var x,y int
@@ -61,4 +61,4 @@ func numRookCaptures(board [][]byte) int {
   return sum
 
 }
-```
+// ```

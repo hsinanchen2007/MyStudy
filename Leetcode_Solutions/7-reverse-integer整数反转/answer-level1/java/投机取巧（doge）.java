@@ -1,5 +1,5 @@
-超简单的java解法，你甚至不用带脑子hh
-```
+// 超简单的java解法，你甚至不用带脑子hh
+// ```
 class Solution {
     public int reverse(int x) {
         long res = 0;
@@ -15,4 +15,4 @@ class Solution {
         else return (int)res;
     }
 }
-```
+// ```

@@ -1,8 +1,8 @@
-    判断一个树是否为二叉搜索树的关键方法是判断它的中序遍历是否递增，可以用非递归法或递归法
+//     判断一个树是否为二叉搜索树的关键方法是判断它的中序遍历是否递增，可以用非递归法或递归法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -40,4 +40,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

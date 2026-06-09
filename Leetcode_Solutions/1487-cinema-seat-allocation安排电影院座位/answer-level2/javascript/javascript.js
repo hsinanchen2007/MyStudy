@@ -1,9 +1,9 @@
-### 解题思路
-反正我是改吐了....
+// ### 解题思路
+// 反正我是改吐了....
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @param {number[][]} reservedSeats
@@ -40,4 +40,4 @@ var maxNumberOfFamilies = function(n, reservedSeats) {
     })
     return ans 
 };
-```
+// ```

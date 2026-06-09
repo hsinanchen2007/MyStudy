@@ -1,6 +1,6 @@
-解题思路，第一步先二分查找，找到一个等于target值的索引，然后再去左边找最左边等于target值的索引，右边找最右边等于target值的索引。
+// 解题思路，第一步先二分查找，找到一个等于target值的索引，然后再去左边找最左边等于target值的索引，右边找最右边等于target值的索引。
 
-```JavaScript
+// ```JavaScript
 var searchRange = function (nums, target) {
   let len = nums.length;
   let left = 0;
@@ -68,4 +68,4 @@ function rightSearch(left, right, nums, target) {
   }
 }
 
-```
+// ```

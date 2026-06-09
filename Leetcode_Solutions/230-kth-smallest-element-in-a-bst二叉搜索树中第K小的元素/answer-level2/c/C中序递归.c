@@ -1,9 +1,9 @@
-### 解题思路
-中序递归，同时计数，到达K次返回
+// ### 解题思路
+// 中序递归，同时计数，到达K次返回
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -37,4 +37,4 @@ int kthSmallest(struct TreeNode* root, int k)
     mid_order(root, target, &value);
     return value;
 }
-```
+// ```

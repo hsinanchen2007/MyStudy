@@ -1,20 +1,20 @@
-### 解题思路
-申请两个栈，一个用来存储数据，一个用来存储当前的最小值
-例如 0 1 0 -2
-push 0 ===> stack:0 minstack：0
-push 1 ===> stack:0 1 minstack：0
-push 0 ===> stack:0 1 0 minstack：0 0
-push -2 ===> stack:0 1 0 -2 minstack：0 0 -2
-min: ===> minstack.getLast() -2
-pop ===> stack:0 1 0 minstack：0 0
-min: ===> minstack.getLast() 0
-pop ===> stack:0 1 minstack：0
-min: ===> minstack.getLast() 0
-pop ===> stack:0 minstack：0
-。。。
-### 代码
+// ### 解题思路
+// 申请两个栈，一个用来存储数据，一个用来存储当前的最小值
+// 例如 0 1 0 -2
+// push 0 ===> stack:0 minstack：0
+// push 1 ===> stack:0 1 minstack：0
+// push 0 ===> stack:0 1 0 minstack：0 0
+// push -2 ===> stack:0 1 0 -2 minstack：0 0 -2
+// min: ===> minstack.getLast() -2
+// pop ===> stack:0 1 0 minstack：0 0
+// min: ===> minstack.getLast() 0
+// pop ===> stack:0 1 minstack：0
+// min: ===> minstack.getLast() 0
+// pop ===> stack:0 minstack：0
+// 。。。
+// ### 代码
 
-```java
+// ```java
 class MinStack {
 
     /** initialize your data structure here. */
@@ -65,4 +65,4 @@ class MinStack {
         return -1;
     }
 }
-```
+// ```

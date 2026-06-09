@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def findSwapValues(self, array1, array2):
         """
@@ -18,4 +18,4 @@ class Solution(object):
                 if sum_1-set_1[i]+set_2[j] == sum_2-set_2[j]+set_1[i]:
                     return [set_1[i], set_2[j]]
         return []
-```
+# ```

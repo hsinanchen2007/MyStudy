@@ -1,5 +1,5 @@
-# 使用一个map的做法，用正值和负值分别去存储secret和guess中的可能存在的cow。
-```
+// # 使用一个map的做法，用正值和负值分别去存储secret和guess中的可能存在的cow。
+// ```
 /**
  * @param {string} secret
  * @param {string} guess
@@ -34,4 +34,4 @@ var getHint = function(secret, guess) {
 
     return `${bull}A${cow}B`;
 };
-```
+// ```

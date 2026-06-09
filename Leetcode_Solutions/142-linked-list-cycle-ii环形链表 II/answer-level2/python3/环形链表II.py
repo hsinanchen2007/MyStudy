@@ -1,15 +1,15 @@
-### 解题思路
-利用快慢指针，快指针fast每次走两步，慢指针slow每次走一步。
-1.fast走到链表末，返回None；
-2.当fast=slow，两指针第一次相遇，slow指针从相遇位置出发，p指针从最开始位置出发，相遇的位置即为环入口
-   {a = 从开始位置到环入口的步数；
-     b = 一环的步数。}
-fast和slow第一次相遇后，之后fast一定比slow多走n圈———fast = slow + nb
-而fast = 2 * slow    联立两式可得slow = nb
+# ### 解题思路
+# 利用快慢指针，快指针fast每次走两步，慢指针slow每次走一步。
+# 1.fast走到链表末，返回None；
+# 2.当fast=slow，两指针第一次相遇，slow指针从相遇位置出发，p指针从最开始位置出发，相遇的位置即为环入口
+#    {a = 从开始位置到环入口的步数；
+#      b = 一环的步数。}
+# fast和slow第一次相遇后，之后fast一定比slow多走n圈———fast = slow + nb
+# 而fast = 2 * slow    联立两式可得slow = nb
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -38,4 +38,4 @@ class Solution:
         
 
 
-```
+# ```

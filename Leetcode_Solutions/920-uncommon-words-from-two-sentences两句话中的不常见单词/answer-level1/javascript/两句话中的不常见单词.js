@@ -1,7 +1,7 @@
 
-*法一*
+// *法一*
 
-```js
+// ```js
 var uncommonFromSentences = function(A, B) {
     let aArr = A.split(' ')
     let bArr = B.split(' ')
@@ -41,15 +41,15 @@ var uncommonFromSentences = function(A, B) {
     })
     return aa.concat(bb)
 };
-```
+// ```
 
-*法二*
+// *法二*
 
-拼接字符串A+B，然后返回拼接后的字符串中只出现过一次的单词
+// 拼接字符串A+B，然后返回拼接后的字符串中只出现过一次的单词
 
-```js
+// ```js
 var uncommonFromSentences = function(A, B) {
     let arr = (A + ' ' + B).split(' ');   
     return arr.filter(i => arr.indexOf(i) == arr.lastIndexOf(i));
 };
-```
+// ```

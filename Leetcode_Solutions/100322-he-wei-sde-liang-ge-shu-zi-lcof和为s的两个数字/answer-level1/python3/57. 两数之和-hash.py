@@ -1,11 +1,11 @@
-### 解题思路
-和之前返回数组下标思路一样，但可以更简单。
-没必要先把所有下标、数字放进hashmap，因为这样需要遍历两遍nums。
-因为不要求顺序，可以遇见一个数，找得到匹配就返回；找不到就加入hashmap。
+# ### 解题思路
+# 和之前返回数组下标思路一样，但可以更简单。
+# 没必要先把所有下标、数字放进hashmap，因为这样需要遍历两遍nums。
+# 因为不要求顺序，可以遇见一个数，找得到匹配就返回；找不到就加入hashmap。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         if not target or len(nums) == 1:
@@ -20,4 +20,4 @@ class Solution:
             else:
                 map[num] = 0
         return []
-```
+# ```

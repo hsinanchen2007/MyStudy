@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 struct MyStack {
     queue: Vec<i32>,
 }
@@ -50,5 +50,5 @@ impl MyStack {
  * let ret_3: i32 = obj.top();
  * let ret_4: bool = obj.empty();
  */
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

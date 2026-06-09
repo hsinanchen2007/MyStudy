@@ -1,9 +1,9 @@
-### 解题思路
-自顶向下，记忆最优结果，取最小值
+# ### 解题思路
+# 自顶向下，记忆最优结果，取最小值
 
-### 代码
-python
-```python 2
+# ### 代码
+# python
+# ```python 2
 
 class Solution(object):
     def minimumTotal(self, triangle):
@@ -27,11 +27,11 @@ class Solution(object):
                 for j in range(1,len(triangle[i])-1):
                     dp[i][j] += min(dp[i-1][j-1],dp[i-1][j])+triangle[i][j]
         return min(dp[-1])
-```
+# ```
 
 
-golang
-``` go
+# golang
+# ``` go
 func minimumTotal(triangle [][]int) int {
 	n := len(triangle)
 	if n == 0{
@@ -74,4 +74,4 @@ func minArr(l []int) (min int) {
 	}
 	return
 }
-```
+# ```

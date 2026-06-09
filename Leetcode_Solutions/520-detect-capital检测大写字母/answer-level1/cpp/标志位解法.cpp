@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool detectCapitalUse(string word) {
@@ -31,5 +31,5 @@ public:
         return (allCapital||allLower||firstCapital);
     }
 };
-```
-设置了三个标志位，用于判断是那种情况，如果三种情况都不符合最后会输出false
+// ```
+// 设置了三个标志位，用于判断是那种情况，如果三种情况都不符合最后会输出false

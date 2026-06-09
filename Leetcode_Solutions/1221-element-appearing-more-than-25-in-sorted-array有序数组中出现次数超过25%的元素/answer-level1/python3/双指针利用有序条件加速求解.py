@@ -1,6 +1,6 @@
-本题与[删除排序数组中的重复项 (leetcode #26)](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)很相似。
+# 本题与[删除排序数组中的重复项 (leetcode #26)](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)很相似。
 
-```python
+# ```python
 class Solution:
     def findSpecialInteger(self, arr: List[int]) -> int:
         l = len(arr) // 4
@@ -15,7 +15,7 @@ class Solution:
                 i = j
                 cnt = 1
             j += 1
-```
-假设数组长度为n，则时间复杂度： O(n)、空间复杂度：O(1)。
+# ```
+# 假设数组长度为n，则时间复杂度： O(n)、空间复杂度：O(1)。
 
-最小用时: 88 ms
+# 最小用时: 88 ms

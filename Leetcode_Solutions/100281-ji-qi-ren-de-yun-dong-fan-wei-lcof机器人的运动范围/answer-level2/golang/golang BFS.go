@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-BFS
+// BFS
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 func movingCount(m int, n int, k int) int {
 	// m, n, k
@@ -54,4 +54,4 @@ func movingCount(m int, n int, k int) int {
     walk(0,0)
 	return cnt
 }
-```
+// ```

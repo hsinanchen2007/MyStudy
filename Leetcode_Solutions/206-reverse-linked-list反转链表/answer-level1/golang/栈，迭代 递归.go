@@ -1,4 +1,4 @@
-```
+// ```
 // 用 栈保存 最后再倒出来 
 func reverseList(head *ListNode) *ListNode {
 	if head==nil{
@@ -49,4 +49,4 @@ func reverseList2(head *ListNode) *ListNode {
 
 }
 
-```
+// ```

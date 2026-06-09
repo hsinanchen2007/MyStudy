@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int numTeams(vector<int>& rating) {
@@ -17,4 +17,4 @@ public:
         return res;
     }
 };
-```
+// ```

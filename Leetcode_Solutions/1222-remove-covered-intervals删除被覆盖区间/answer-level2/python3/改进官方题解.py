@@ -1,10 +1,10 @@
-### 解题思路
-`rmax = max(rmax, intervals[i][1])`没必要
-Python 多关键字排序
+# ### 解题思路
+# `rmax = max(rmax, intervals[i][1])`没必要
+# Python 多关键字排序
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def removeCoveredIntervals(self, intervals: List[List[int]]) -> int:
         n = len(intervals)
@@ -17,4 +17,4 @@ class Solution:
                 cur_rmax = intervals[i][1]
         return ans
 
-```
+# ```

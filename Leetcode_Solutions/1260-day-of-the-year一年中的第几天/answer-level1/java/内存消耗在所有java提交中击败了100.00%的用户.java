@@ -1,9 +1,9 @@
-### 解题思路
-用date.split("-")取出String[] 再用Integer.parseInt()取得年月日，然后判断闰年用个boolean值，然后用一个int累计天数，先获得天数，月数减去1后，用for（）循环计算剩余月数，用switch（）计算1-11个可能，每次循环都判断一次有点费时，但我没想到内存消耗居然不大。
+// ### 解题思路
+// 用date.split("-")取出String[] 再用Integer.parseInt()取得年月日，然后判断闰年用个boolean值，然后用一个int累计天数，先获得天数，月数减去1后，用for（）循环计算剩余月数，用switch（）计算1-11个可能，每次循环都判断一次有点费时，但我没想到内存消耗居然不大。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
    public int dayOfYear(String date) {
         int num = 0;
@@ -50,4 +50,4 @@ class Solution {
         return num;
     }
 }
-```
+// ```

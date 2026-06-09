@@ -1,12 +1,12 @@
-### 解题思路
-找下一个排列得过程就是，从最后一项往前找，找第一个出现的 nums[i-1] < nums[i],
-因为如果 后面得子数组 只要是降序，就一定不会有更大得子数组
-找到i-1之后，让 i-1 与 后面出现得大于nums[i-1] 得所有项中最小得那个项交换，然后再对 i ~ length-1进行排序
-得到得nums 就是要求得结果。
+// ### 解题思路
+// 找下一个排列得过程就是，从最后一项往前找，找第一个出现的 nums[i-1] < nums[i],
+// 因为如果 后面得子数组 只要是降序，就一定不会有更大得子数组
+// 找到i-1之后，让 i-1 与 后面出现得大于nums[i-1] 得所有项中最小得那个项交换，然后再对 i ~ length-1进行排序
+// 得到得nums 就是要求得结果。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {void} Do not return anything, modify nums in-place instead.
@@ -41,4 +41,4 @@ var nextPermutation = function(nums) {
    }
    nums.sort((a,b) => a-b) 
 };
-```
+// ```

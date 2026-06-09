@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```
+# ```
 class Solution:
     def findSwapValues(self, array1: List[int], array2: List[int]) -> List[int]:
         m,n = len(array1),len(array2)
@@ -24,4 +24,4 @@ class Solution:
 
 
 
-```
+# ```

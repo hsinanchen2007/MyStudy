@@ -1,6 +1,6 @@
-> 思路：就是将大于目标的节点取出来，然后与不含这些节点的原链表拼接起来。
+// > 思路：就是将大于目标的节点取出来，然后与不含这些节点的原链表拼接起来。
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -32,4 +32,4 @@ class Solution {
     return p3.next;
   }
 }
-```
+// ```

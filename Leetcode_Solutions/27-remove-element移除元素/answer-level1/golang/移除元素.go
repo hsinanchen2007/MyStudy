@@ -1,9 +1,9 @@
-### 解题思路
-遍历数组
+// ### 解题思路
+// 遍历数组
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func removeElement(nums []int, val int) int {
 
     for i:=0;i<len(nums);i++{
@@ -18,4 +18,4 @@ func removeElement(nums []int, val int) int {
     return len(nums)
 
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-模拟按照笔算乘法算式， 两轮循环
+// ### 解题思路
+// 模拟按照笔算乘法算式， 两轮循环
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * multiply(char * num1, char * num2){
     int i = 0, j = 0, len1 = 0, len2 = 0;
     int t = 0, value = 0, n = 0, m = 0;
@@ -37,4 +37,4 @@ char * multiply(char * num1, char * num2){
     
     return p ; 
 }
-```
+// ```

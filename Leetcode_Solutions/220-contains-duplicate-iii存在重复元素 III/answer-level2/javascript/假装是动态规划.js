@@ -1,6 +1,6 @@
-运行速度不快，但是很容易懂的方法。
+// 运行速度不快，但是很容易懂的方法。
 
-``` javascript
+// ``` javascript
 /**
  * @param {number[]} nums
  * @param {number} k     i-j <= k
@@ -27,4 +27,4 @@ var containsNearbyAlmostDuplicate = function(nums, k, t) {
     }
     return false
 };
-```
+// ```

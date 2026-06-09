@@ -1,11 +1,11 @@
-### 解题思路
-set集合保存每一步的值
-如果找到1 即找到快乐数 返回true
-否则，在集合中找到了已经存在的值，说明存在循环，永远不可能是快乐数，返回false
+// ### 解题思路
+// set集合保存每一步的值
+// 如果找到1 即找到快乐数 返回true
+// 否则，在集合中找到了已经存在的值，说明存在循环，永远不可能是快乐数，返回false
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isHappy(int n) {
         //set表法
@@ -40,4 +40,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

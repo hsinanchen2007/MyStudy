@@ -1,14 +1,14 @@
-### 解题思路
-此处撰写解题思路
-// 思路：
-（1）先定义空数组nonZeroElements用于存放nums数组中的非0元素
-（2）扫描nums数组，将非0元素存入nonZeroElements数组
-（3）将nonZeroElements数组中元素挨个存回nums数组，nums数组后面部分元素全赋值为0；
-    // 时间复杂度O(n)
-    // 空间复杂度O(n)
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// // 思路：
+// （1）先定义空数组nonZeroElements用于存放nums数组中的非0元素
+// （2）扫描nums数组，将非0元素存入nonZeroElements数组
+// （3）将nonZeroElements数组中元素挨个存回nums数组，nums数组后面部分元素全赋值为0；
+//     // 时间复杂度O(n)
+//     // 空间复杂度O(n)
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
     // 思路：（1）先定义空数组nonZeroElements用于存放nums数组中的非0元素
     // （2）扫描nums数组，将非0元素存入nonZeroElements数组
@@ -30,4 +30,4 @@ public:
         nums[i]=0;
     }
 };
-```
+// ```

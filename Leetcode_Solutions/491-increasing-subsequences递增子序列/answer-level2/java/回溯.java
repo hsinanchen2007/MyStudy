@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-虽然不是最高校的不过应该是最好理解的把；利用Set<List<Integer>>去重复，需要一个index记录起始位置
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 虽然不是最高校的不过应该是最好理解的把；利用Set<List<Integer>>去重复，需要一个index记录起始位置
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> findSubsequences(int[] nums) {
         Set<List<Integer>> set = new HashSet<>();
@@ -23,4 +23,4 @@ class Solution {
         }
     }
 }
-```
+// ```

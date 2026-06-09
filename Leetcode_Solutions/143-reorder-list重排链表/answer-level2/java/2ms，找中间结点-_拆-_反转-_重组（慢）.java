@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/42c5fc50cb61831b1ce73c936e955c66b2b7586ac77c7fdb9ef24d6ec511c0b7-image.png)
+// ![image.png](https://pic.leetcode-cn.com/42c5fc50cb61831b1ce73c936e955c66b2b7586ac77c7fdb9ef24d6ec511c0b7-image.png)
 
-```
+// ```
 class Solution {
     public void reorderList(ListNode head) {
         //特殊处理
@@ -41,4 +41,4 @@ class Solution {
         }
     }
 }
-```
+// ```

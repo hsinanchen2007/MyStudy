@@ -1,11 +1,11 @@
-### 解题思路
-3次翻转
-先从n为分界线的位置，对0~n-1翻转一次，对n-1~length-1反转一次
-再翻转字符串s
+// ### 解题思路
+// 3次翻转
+// 先从n为分界线的位置，对0~n-1翻转一次，对n-1~length-1反转一次
+// 再翻转字符串s
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	string reverseLeftWords(string s, int n) {
@@ -30,4 +30,4 @@ public:
 		}
 	}
 };
-```
+// ```

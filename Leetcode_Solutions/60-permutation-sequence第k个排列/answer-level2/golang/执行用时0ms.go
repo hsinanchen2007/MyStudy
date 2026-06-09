@@ -1,13 +1,13 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-前0 ~ i-1 个字符一样，不同的i字符，后面都有(n-1-i)! 个方式
+// 前0 ~ i-1 个字符一样，不同的i字符，后面都有(n-1-i)! 个方式
 
-从左到右要求第i个位置的字符，只需要将 最新的k/(n-1-i)! 
+// 从左到右要求第i个位置的字符，只需要将 最新的k/(n-1-i)! 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func getPermutation(n int, k int) string {
 
 	if n > 9 || n <= 0 {
@@ -38,4 +38,4 @@ func getPermutation(n int, k int) string {
 	return string(result)
 
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-直接和先序遍历差不多的写法，判断为叶节点就说明到了终点就添加到集合中
+// ### 解题思路
+// 直接和先序遍历差不多的写法，判断为叶节点就说明到了终点就添加到集合中
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -38,4 +38,4 @@ class Solution {
         helper(root.right,path2);
     }
 }
-```
+// ```

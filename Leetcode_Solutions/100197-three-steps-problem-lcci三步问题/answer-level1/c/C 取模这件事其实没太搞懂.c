@@ -1,4 +1,4 @@
-```
+// ```
 int waysToStep(int n){
 
   long pre[] = {0, 1, 2, 4};
@@ -17,4 +17,4 @@ int waysToStep(int n){
 
   return cur;
 }
-```
+// ```

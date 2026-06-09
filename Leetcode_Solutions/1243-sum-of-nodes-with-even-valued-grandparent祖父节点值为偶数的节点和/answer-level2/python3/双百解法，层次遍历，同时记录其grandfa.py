@@ -1,9 +1,9 @@
-### 解题思路
-使用队列层次遍历。
+# ### 解题思路
+# 使用队列层次遍历。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -27,4 +27,4 @@ class Solution:
                 deque.append((node.right, node, father))
 
         return res
-```
+# ```

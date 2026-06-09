@@ -1,5 +1,5 @@
-#  AutoResetEvent _z=new AutoResetEvent(true);同理
-```
+// #  AutoResetEvent _z=new AutoResetEvent(true);同理
+// ```
 using System.Threading;
 
 public class ZeroEvenOdd
@@ -64,4 +64,4 @@ public class ZeroEvenOdd
                 }
             }
         }
-```
+// ```

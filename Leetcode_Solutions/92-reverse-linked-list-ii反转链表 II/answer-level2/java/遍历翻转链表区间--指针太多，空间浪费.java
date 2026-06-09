@@ -1,10 +1,10 @@
-### 解题思路
-找到翻转区间的前一个pre，和翻转区间后一个right用来拼接用,
-然后leftbound, rightbound按照翻转链表的方式来，
+// ### 解题思路
+// 找到翻转区间的前一个pre，和翻转区间后一个right用来拼接用,
+// 然后leftbound, rightbound按照翻转链表的方式来，
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -46,4 +46,4 @@ class Solution {
         return tummy.next;
     }
 }
-```
+// ```

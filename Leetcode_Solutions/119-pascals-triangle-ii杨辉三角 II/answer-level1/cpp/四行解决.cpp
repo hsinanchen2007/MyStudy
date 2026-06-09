@@ -1,5 +1,5 @@
-多项式系数定理，具体百度。
-```
+// 多项式系数定理，具体百度。
+// ```
 class Solution {
 public:
     vector<int> getRow(int n) {
@@ -9,4 +9,4 @@ public:
         return v;
     }
 };
-```
+// ```

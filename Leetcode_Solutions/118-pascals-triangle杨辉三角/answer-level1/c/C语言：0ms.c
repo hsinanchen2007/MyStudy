@@ -1,4 +1,4 @@
-```
+// ```
 int** generate(int numRows, int* returnSize, int** returnColumnSizes){
     *returnSize = numRows;
     *returnColumnSizes = (int*)malloc(sizeof(int) * numRows);//returnColumnSizes储存杨辉三角每一行元素的个数
@@ -16,4 +16,4 @@ int** generate(int numRows, int* returnSize, int** returnColumnSizes){
     }
     return nums;
 }
-```
+// ```

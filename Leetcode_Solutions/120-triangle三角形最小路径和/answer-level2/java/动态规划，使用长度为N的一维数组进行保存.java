@@ -1,5 +1,5 @@
-数组中p[]中第i个元素表示每次当前层中以第i个节点为终止节点的最小路径。
-```java []
+// 数组中p[]中第i个元素表示每次当前层中以第i个节点为终止节点的最小路径。
+// ```java []
 class Solution {
     public int minimumTotal(List<List<Integer>> triangle) {
         if(triangle.size() == 0) return 0;
@@ -21,5 +21,5 @@ class Solution {
         return ans;
     }
 }
-```
+// ```
 

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int findShortestSubArray(vector<int>& nums) {
@@ -26,4 +26,4 @@ static const auto io_speed_up=[]{
     return 0;
 }();
 
-```
+// ```

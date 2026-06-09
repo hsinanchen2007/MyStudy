@@ -1,9 +1,9 @@
-### 解题思路
-贪心算法，只要后一天的价格比今天大就买入
+// ### 解题思路
+// 贪心算法，只要后一天的价格比今天大就买入
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 // 贪心算法
 func maxProfit(prices []int) int {
     l := len(prices)
@@ -18,4 +18,4 @@ func maxProfit(prices []int) int {
     }
     return profit
 }
-```
+// ```

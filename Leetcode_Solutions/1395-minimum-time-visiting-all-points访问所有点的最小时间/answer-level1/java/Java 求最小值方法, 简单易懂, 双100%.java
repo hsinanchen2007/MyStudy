@@ -1,5 +1,5 @@
-代码如下:
-```java
+// 代码如下:
+// ```java
 class Solution {
 
     public int minTimeToVisitAllPoints(int[][] points) {
@@ -14,6 +14,6 @@ class Solution {
         return Math.abs(x1 - x2) + Math.abs(y1 - y2) - minSlope;
     }
 }
-```
-1. 先计算移动到同一行或同一列所需最少步数: `Math.min(Math.abs(x1 - x2), Math.abs(y1 - y2))`
-2. 然后计算整体步数: 整体步数 = (x方向移动 - 最小步数) + (y方向移动 - 最小步数) + 最小步数, 化简完即为: Math.abs(x1 - x2) + Math.abs(y1 - y2) - minSlope
+// ```
+// 1. 先计算移动到同一行或同一列所需最少步数: `Math.min(Math.abs(x1 - x2), Math.abs(y1 - y2))`
+// 2. 然后计算整体步数: 整体步数 = (x方向移动 - 最小步数) + (y方向移动 - 最小步数) + 最小步数, 化简完即为: Math.abs(x1 - x2) + Math.abs(y1 - y2) - minSlope

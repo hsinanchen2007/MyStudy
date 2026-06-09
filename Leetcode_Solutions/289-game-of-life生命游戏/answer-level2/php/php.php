@@ -1,10 +1,10 @@
-### 解题思路
-![QQ图片20200402153659.png](https://pic.leetcode-cn.com/d01ff25563bfee8aed4b73d172c8bb33c2a34ac921236f379eb6a4184019209f-QQ%E5%9B%BE%E7%89%8720200402153659.png)
+// ### 解题思路
+// ![QQ图片20200402153659.png](https://pic.leetcode-cn.com/d01ff25563bfee8aed4b73d172c8bb33c2a34ac921236f379eb6a4184019209f-QQ%E5%9B%BE%E7%89%8720200402153659.png)
 
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -35,4 +35,4 @@ class Solution {
         $board = $new;
     }
 }
-```
+// ```

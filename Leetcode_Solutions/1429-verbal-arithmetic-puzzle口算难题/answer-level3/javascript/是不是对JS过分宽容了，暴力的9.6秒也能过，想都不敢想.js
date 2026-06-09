@@ -1,8 +1,8 @@
-一直在想有没有优雅点的解题方式，纠结到了竞赛结束，看到众人的答案，原来都是暴力深搜+剪枝。
+// 一直在想有没有优雅点的解题方式，纠结到了竞赛结束，看到众人的答案，原来都是暴力深搜+剪枝。
 
-![屏幕快照 2019-12-29 13.25.11.png](https://pic.leetcode-cn.com/308e4812315f71bcb378f27507ac0620e33e570920b2c2e86733934689094021-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-12-29%2013.25.11.png)
+// ![屏幕快照 2019-12-29 13.25.11.png](https://pic.leetcode-cn.com/308e4812315f71bcb378f27507ac0620e33e570920b2c2e86733934689094021-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-12-29%2013.25.11.png)
 
-```
+// ```
 var isSolvable = function(words, result) {
     const table = {};
     let fac = 1;
@@ -62,4 +62,4 @@ var isSolvable = function(words, result) {
     }
     return loop(0);
 };
-```
+// ```

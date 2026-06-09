@@ -1,6 +1,6 @@
-# 77. 组合
-**代码实现：**
-```
+// # 77. 组合
+// **代码实现：**
+// ```
 class Solution {
 public:
 	void combineRecrusion(int begin,int end,int k,vector<int> rst_item,vector<vector<int>> &rst){
@@ -24,4 +24,4 @@ public:
 		return rst;
     }
 };
-```
+// ```

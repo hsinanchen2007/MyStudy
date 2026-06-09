@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     string defangIPaddr(string address) {
@@ -17,10 +17,10 @@ public:
         return res;
     }
 };
-```
+// ```
 
 
-```
+// ```
 class Solution {
 public:
     string defangIPaddr(string address) {
@@ -42,5 +42,5 @@ public:
         
     }
 };
-```
+// ```
 

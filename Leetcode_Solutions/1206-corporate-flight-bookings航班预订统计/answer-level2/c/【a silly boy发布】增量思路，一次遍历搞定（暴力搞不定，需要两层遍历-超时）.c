@@ -1,4 +1,4 @@
-```
+// ```
 int* corpFlightBookings(int** bookings, int bookingsSize, int* bookingsColSize, int n, int* returnSize){
     int i;
     int j;
@@ -44,4 +44,4 @@ int* corpFlightBookings(int** bookings, int bookingsSize, int* bookingsColSize, 
     *returnSize = n;
     return returnValue;
 }
-```
+// ```

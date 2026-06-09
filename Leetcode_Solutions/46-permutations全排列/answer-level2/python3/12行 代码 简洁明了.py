@@ -1,5 +1,5 @@
-比较简洁的代码，看着舒服一些
-```
+# 比较简洁的代码，看着舒服一些
+# ```
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
         res = []
@@ -19,4 +19,4 @@ class Solution:
         dfs(nums, path, res)   
 
         return res
-```
+# ```

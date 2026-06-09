@@ -1,5 +1,5 @@
-记录高赞答案的思路。核心还是比较，然后改变指针域的指向
-```
+// 记录高赞答案的思路。核心还是比较，然后改变指针域的指向
+// ```
 class Solution {
     public ListNode insertionSortList(ListNode head) {
         ListNode dummy = new ListNode(-1);//设置一个头结点
@@ -23,4 +23,4 @@ class Solution {
         return dummy.next;//返回头结点的后续
     }
 }
-```
+// ```

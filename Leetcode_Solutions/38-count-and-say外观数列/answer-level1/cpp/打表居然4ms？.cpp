@@ -1,7 +1,7 @@
-纯打表，勿见笑~
-### 代码
+// 纯打表，勿见笑~
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string countAndSay(int n) {
@@ -41,4 +41,4 @@ public:
         return arr[n];
     }
 };
-```
+// ```

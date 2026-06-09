@@ -1,4 +1,4 @@
-```
+// ```
 func peakIndexInMountainArray(_ A: [Int]) -> Int {
         let c = A.count-1
         for i in 0..<c{
@@ -11,4 +11,4 @@ func peakIndexInMountainArray(_ A: [Int]) -> Int {
         }
         return 1
     }
-```
+// ```

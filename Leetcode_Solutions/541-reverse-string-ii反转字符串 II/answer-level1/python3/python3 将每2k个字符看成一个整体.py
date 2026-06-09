@@ -1,9 +1,9 @@
-### 解题思路
-时间复杂度：O(n)
+# ### 解题思路
+# 时间复杂度：O(n)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverseStr(self, s: str, k: int) -> str:
         res=''
@@ -17,4 +17,4 @@ class Solution:
 
 
 
-```
+# ```

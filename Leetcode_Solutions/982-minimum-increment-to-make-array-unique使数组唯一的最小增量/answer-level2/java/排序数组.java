@@ -1,10 +1,10 @@
-### 解题思路
-使用排序数组的方式将相同的数字修改为前一个数不同
-A已经排序，只需要将遇到A[i]<=A[i-1]的情况将A[i]修改为比前一个数A[i-1]大一的即可，但是需要修改count为count+=A[i-1]-A[i]+1。
+// ### 解题思路
+// 使用排序数组的方式将相同的数字修改为前一个数不同
+// A已经排序，只需要将遇到A[i]<=A[i-1]的情况将A[i]修改为比前一个数A[i-1]大一的即可，但是需要修改count为count+=A[i-1]-A[i]+1。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minIncrementForUnique(int[] A) {
         if (A.length <= 1) {
@@ -22,4 +22,4 @@ class Solution {
         
     }
 }
-```
+// ```

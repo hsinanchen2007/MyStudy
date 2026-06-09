@@ -1,10 +1,10 @@
-### 解题思路
-递归，
-每次对两个高度做对比
+// ### 解题思路
+// 递归，
+// 每次对两个高度做对比
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -29,4 +29,4 @@ class Solution {
 
     }
 }
-```
+// ```

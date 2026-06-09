@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/5fff49df696c1e0e62cfefc8c9d79947c9dda1423bdff3d7f5c3ff723ad6032b-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/5fff49df696c1e0e62cfefc8c9d79947c9dda1423bdff3d7f5c3ff723ad6032b-image.png)
+// ```
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -133,4 +133,4 @@ int* findOrder(int numCourses, int** prerequisites, int prerequisitesSize, int* 
     }
     return rst;
 }
-```
+// ```

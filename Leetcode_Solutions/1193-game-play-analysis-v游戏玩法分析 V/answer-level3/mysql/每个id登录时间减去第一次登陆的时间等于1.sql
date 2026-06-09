@@ -1,4 +1,4 @@
-每个id登录时间减去第一次登陆的时间等于1记为1否则0
+-- 每个id登录时间减去第一次登陆的时间等于1记为1否则0
 
 select  ab.event_date install_dt,
         count(distinct(ab.player_id)) installs,

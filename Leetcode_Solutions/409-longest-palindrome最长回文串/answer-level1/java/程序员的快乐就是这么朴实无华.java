@@ -1,11 +1,11 @@
-### 解题思路
-1. 偶数必然可以分配在轴两端，所以直接加；
-2. 奇数向下取第一个小于它的偶数；
-3. 只能以一个奇数为轴；
+// ### 解题思路
+// 1. 偶数必然可以分配在轴两端，所以直接加；
+// 2. 奇数向下取第一个小于它的偶数；
+// 3. 只能以一个奇数为轴；
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int longestPalindrome(String s) {
         int[] times = new int[80];
@@ -27,4 +27,4 @@ class Solution {
         return res + flagOdd;
     }
 }
-```
+// ```

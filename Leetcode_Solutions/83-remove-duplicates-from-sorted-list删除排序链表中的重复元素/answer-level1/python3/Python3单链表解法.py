@@ -1,5 +1,5 @@
-注意不要忽略为空的情况！
-```
+# 注意不要忽略为空的情况！
+# ```
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -17,4 +17,4 @@ class Solution:
             else:
                 tail = tail.next
         return head
-```
+# ```

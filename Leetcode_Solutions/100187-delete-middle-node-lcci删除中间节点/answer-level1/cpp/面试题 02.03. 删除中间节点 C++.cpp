@@ -1,9 +1,9 @@
-### 解题思路
-将后一个节点的值和下一个指针前移
+// ### 解题思路
+// 将后一个节点的值和下一个指针前移
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -20,4 +20,4 @@ public:
         node->next = node->next->next;
     }
 };
-```
+// ```

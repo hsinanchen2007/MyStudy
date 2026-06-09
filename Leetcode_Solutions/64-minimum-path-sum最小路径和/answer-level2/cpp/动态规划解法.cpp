@@ -1,9 +1,9 @@
-### 解题思路
-学到的东西：直接在原数据上改可以缩减空间复杂度
+// ### 解题思路
+// 学到的东西：直接在原数据上改可以缩减空间复杂度
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minPathSum(vector<vector<int>>& grid) {
@@ -26,4 +26,4 @@ public:
         return grid[m-1][n-1];
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def heightChecker(self, heights: List[int]) -> int:
         count, new = 0, sorted(heights)
@@ -6,5 +6,5 @@ class Solution:
             if (i - j) != 0:
                 count += 1
         return count
-```
-这可能是leetcode上最简单的一道题了！
+# ```
+# 这可能是leetcode上最简单的一道题了！

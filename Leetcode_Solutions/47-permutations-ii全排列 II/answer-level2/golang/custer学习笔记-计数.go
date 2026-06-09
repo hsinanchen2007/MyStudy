@@ -1,10 +1,10 @@
-# 数组全排列+map过滤重复元素
+// # 数组全排列+map过滤重复元素
 
-- 数组有重复元素，需要额外处理
-- 在回溯法求解全排列的基础上，添加了一个 map 重复，
-- 回溯法经典的思想，每次递归中维护一个 map 来检查是否在此阶段将两个相同的数交换了位置，若交换了则必定有所重复。
+// - 数组有重复元素，需要额外处理
+// - 在回溯法求解全排列的基础上，添加了一个 map 重复，
+// - 回溯法经典的思想，每次递归中维护一个 map 来检查是否在此阶段将两个相同的数交换了位置，若交换了则必定有所重复。
 
-```go
+// ```go
 func permuteUnique(nums []int) [][]int {
     if nums == nil || len(nums) == 0 {
         return [][]int{}
@@ -31,11 +31,11 @@ func permuteRecSet(nums []int, start int, result *[][]int) {
         }
     }
 }
-```
+// ```
 
-# 计数方法
+// # 计数方法
 
-```go
+// ```go
 ////////// Counter Version //////////
 // Time: O(n*n!), Space: O(n)
 func permuteUnique(nums []int) [][]int {
@@ -73,11 +73,11 @@ func permuteRecCounter(list []int, n int, result *[][]int, counter map[int]int) 
         }
     }
 }
-```
+// ```
 
-# 存在下一个更大的排列leetcode-31
+// # 存在下一个更大的排列leetcode-31
 
-```go
+// ```go
 ////////// NextPermutation Version //////////
 // Time: O(n*n!), Space: O(1)
 func permuteUniqueNextPermutation(nums []int) [][]int {
@@ -112,4 +112,4 @@ func nextPermute(nums []int) bool {
     }
     return p != -1
 }
-```
+// ```

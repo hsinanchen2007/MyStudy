@@ -1,6 +1,6 @@
-#### 理解题目
+# #### 理解题目
 
-```
+# ```
 # 给定一个链表，判断链表中是否有环。 
 # 
 #  为了表示给定链表中的环，我们使用整数 pos 来表示链表尾连接到链表中的位置（索引从 0 开始）。 如果 pos 是 -1，则在该链表中没有环。 
@@ -41,15 +41,15 @@
 #  你能用 O(1)（即，常量）内存解决此问题吗？ 
 #  Related Topics 链表 双指针
 
-```
-理解：判断链表中尾结点是否有指向其他节点
+# ```
+# 理解：判断链表中尾结点是否有指向其他节点
 
-#### 解题思路
-* 法1：哈希表
-* 法2：快慢指针
-#### 法1
+# #### 解题思路
+# * 法1：哈希表
+# * 法2：快慢指针
+# #### 法1
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -75,14 +75,14 @@ class Solution(object):
         return False
             
     
-```
-##### 复杂度分析
-* 时间复杂度：O(n)
-* 空间复杂度：O(n)
+# ```
+# ##### 复杂度分析
+# * 时间复杂度：O(n)
+# * 空间复杂度：O(n)
 
-#### 法2 
+# #### 法2 
 
-```Python
+# ```Python
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -103,7 +103,7 @@ class Solution:
             fast = fast.next.next
         return True
 
-```
-##### 复杂度分析
-* 时间复杂度:O(n)
-* 空间复杂度:O(1)
+# ```
+# ##### 复杂度分析
+# * 时间复杂度:O(n)
+# * 空间复杂度:O(1)

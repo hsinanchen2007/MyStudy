@@ -1,12 +1,12 @@
-### 解题思路
-链表题
+// ### 解题思路
+// 链表题
 
-![image.png](https://pic.leetcode-cn.com/e415e28f0b072839b94ef1b1afb2d33b748649f5f82974e751ffa1c4cf113943-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e415e28f0b072839b94ef1b1afb2d33b748649f5f82974e751ffa1c4cf113943-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -44,4 +44,4 @@ public:
         return head;
     }
 };
-```
+// ```

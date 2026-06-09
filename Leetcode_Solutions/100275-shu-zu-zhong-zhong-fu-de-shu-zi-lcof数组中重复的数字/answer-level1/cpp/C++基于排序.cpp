@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-对原来对数组进行排序，然后遍历数组，如果当前元素和下一个元素相同，则返回结果。
+// 对原来对数组进行排序，然后遍历数组，如果当前元素和下一个元素相同，则返回结果。
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findRepeatNumber(vector<int>& nums) {
@@ -21,8 +21,8 @@ public:
     return res;    
     }
 };
-```
+// ```
 
-估计是没几个人用C++？最终击败了100%的人
+// 估计是没几个人用C++？最终击败了100%的人
 
-![image.png](https://pic.leetcode-cn.com/fbb3fe734785be14b3d8decb3511f6f5c9af7813f2e3f2f8450748d831406bd8-image.png)
+// ![image.png](https://pic.leetcode-cn.com/fbb3fe734785be14b3d8decb3511f6f5c9af7813f2e3f2f8450748d831406bd8-image.png)

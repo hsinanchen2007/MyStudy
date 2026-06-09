@@ -1,6 +1,6 @@
-1. 用栈先序遍历二叉树得到叶子。
-2. 比较叶子是否相同。
-```
+// 1. 用栈先序遍历二叉树得到叶子。
+// 2. 比较叶子是否相同。
+// ```
 class Solution {
 public:
     bool leafSimilar(TreeNode* root1, TreeNode* root2) {
@@ -21,4 +21,4 @@ private:
         return leaf;
     }
 };
-```
+// ```

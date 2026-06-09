@@ -1,10 +1,10 @@
-### 解题思路
-首先定义flag判断第0行是否有0，之后从第1行遍历，遇到0则将matrix[0][j]置零，并将标志zero置一表示该行有零，遍历玩该行后根据zero置零该行。
-最后将第0行的每个0对应的列置零，在根据flag判断是否将第0行置零。
+// ### 解题思路
+// 首先定义flag判断第0行是否有0，之后从第1行遍历，遇到0则将matrix[0][j]置零，并将标志zero置一表示该行有零，遍历玩该行后根据zero置零该行。
+// 最后将第0行的每个0对应的列置零，在根据flag判断是否将第0行置零。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void init0(int** matrix,int i,int col)
 {
     for(int k=0;k<col;k++)
@@ -44,4 +44,4 @@ void setZeroes(int** matrix, int matrixSize, int* matrixColSize){
         init0(matrix,0,col);
     return matrix;
 }
-```
+// ```

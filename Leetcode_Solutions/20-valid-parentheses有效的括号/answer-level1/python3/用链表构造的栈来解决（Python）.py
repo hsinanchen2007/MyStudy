@@ -1,4 +1,4 @@
-```
+# ```
 class Node:
     """结点"""
     
@@ -51,5 +51,5 @@ class Solution(object):
             else:
                 stack.push(char)
         return stack.is_empty()
-```
-比用list慢点
+# ```
+# 比用list慢点

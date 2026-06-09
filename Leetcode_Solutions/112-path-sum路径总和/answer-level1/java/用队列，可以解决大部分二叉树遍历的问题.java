@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -30,5 +30,5 @@ class Solution {
             return false;
     }
 }
-```
-虽然不怎么快
+// ```
+// 虽然不怎么快

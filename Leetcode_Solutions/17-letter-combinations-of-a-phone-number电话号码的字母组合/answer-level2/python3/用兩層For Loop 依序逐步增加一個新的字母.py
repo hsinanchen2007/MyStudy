@@ -1,12 +1,12 @@
-### 解题思路
-先建構一個字典 
-再用兩層For Loop 依序逐步增加一個新的字母
+# ### 解题思路
+# 先建構一個字典 
+# 再用兩層For Loop 依序逐步增加一個新的字母
 
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def letterCombinations(self, digits: str) -> List[str]:
         if digits == "":
@@ -36,4 +36,4 @@ class Solution:
         return res    
 
             
-```
+# ```

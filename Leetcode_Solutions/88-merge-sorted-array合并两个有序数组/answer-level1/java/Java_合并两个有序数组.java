@@ -1,11 +1,11 @@
-### 解题思路
-首先把nums1中的数组复制到另一个新建的数组nums中
-比较新建的数组与nums2中数字的大小，将较小的数字依次存入nums1中
-注：nums1即为结果
+// ### 解题思路
+// 首先把nums1中的数组复制到另一个新建的数组nums中
+// 比较新建的数组与nums2中数字的大小，将较小的数字依次存入nums1中
+// 注：nums1即为结果
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
         int[]nums=new int[m];
@@ -28,4 +28,4 @@ class Solution {
         }
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-遍历每个字符，遇到相同的字符count+1，直到遇到不同的字符，count清0。
-需要注意的是要判断当j=len(S)-1的时候，也就是来到最后一个字符的时候，也要把count加上去，否则直接跳出了循环。
+# ### 解题思路
+# 遍历每个字符，遇到相同的字符count+1，直到遇到不同的字符，count清0。
+# 需要注意的是要判断当j=len(S)-1的时候，也就是来到最后一个字符的时候，也要把count加上去，否则直接跳出了循环。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def compressString(self, S):
         """
@@ -32,4 +32,4 @@ class Solution(object):
             return result
         else:
             return S
-```
+# ```

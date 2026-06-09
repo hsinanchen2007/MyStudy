@@ -1,10 +1,10 @@
-### 解题思路
-n的结果可由n-1的结果获得
+# ### 解题思路
+# n的结果可由n-1的结果获得
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def grayCode(self, n: int) -> List[int]:
         if n == 0:
@@ -20,4 +20,4 @@ class Solution:
             temp += 1
         return res
 
-```
+# ```

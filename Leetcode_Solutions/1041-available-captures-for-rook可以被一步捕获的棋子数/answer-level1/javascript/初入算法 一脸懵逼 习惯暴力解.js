@@ -1,15 +1,15 @@
 
-![image.png](https://pic.leetcode-cn.com/bd4ab542891cd0f86b3cce77adf17bb95730c09ee65396b9880dfeec06ae4cb4-image.png)
+// ![image.png](https://pic.leetcode-cn.com/bd4ab542891cd0f86b3cce77adf17bb95730c09ee65396b9880dfeec06ae4cb4-image.png)
 
-- 初入算法 一脸懵逼 习惯暴力解  但结果好像还行
-- 解完再去找简单的答案
-- 看题十分钟 理解后还是比较简单的
-
-
-找到车 寻找上下左右符合条件的卒  然后计数 结束循环
+// - 初入算法 一脸懵逼 习惯暴力解  但结果好像还行
+// - 解完再去找简单的答案
+// - 看题十分钟 理解后还是比较简单的
 
 
-```/**
+// 找到车 寻找上下左右符合条件的卒  然后计数 结束循环
+
+
+// ```/**
  * @param {character[][]} board
  * @return {number}
  */

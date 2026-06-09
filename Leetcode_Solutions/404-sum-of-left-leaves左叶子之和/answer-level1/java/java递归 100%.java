@@ -1,9 +1,9 @@
-### 解题思路
-递归，若root为叶子且为左叶子，则sum += root
+// ### 解题思路
+// 递归，若root为叶子且为左叶子，则sum += root
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -35,4 +35,4 @@ class Solution {
         reverse(root.right, false);
     }
 }
-```
+// ```

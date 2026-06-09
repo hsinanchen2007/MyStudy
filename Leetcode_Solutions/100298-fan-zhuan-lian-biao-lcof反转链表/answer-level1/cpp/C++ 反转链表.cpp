@@ -1,9 +1,9 @@
-### 解题思路
-同06.从尾到头打印链表
+// ### 解题思路
+// 同06.从尾到头打印链表
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	ListNode* reverseList(ListNode* head) {
@@ -20,4 +20,4 @@ public:
 		return prev;
 	}
 };
-```
+// ```

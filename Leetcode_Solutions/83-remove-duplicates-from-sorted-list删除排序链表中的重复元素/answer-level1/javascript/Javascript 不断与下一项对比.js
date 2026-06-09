@@ -1,4 +1,4 @@
-```
+// ```
 var deleteDuplicates = function(head) {
     //让curt指向当前头结点
     var curt = head
@@ -15,4 +15,4 @@ var deleteDuplicates = function(head) {
     //返回头结点
     return head
 }
-```
+// ```

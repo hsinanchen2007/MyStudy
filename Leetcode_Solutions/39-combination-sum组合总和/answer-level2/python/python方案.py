@@ -1,9 +1,9 @@
-### 解题思路
-溯洄+剪枝
+# ### 解题思路
+# 溯洄+剪枝
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def combinationSum(self, candidates, target):
         """
@@ -30,4 +30,4 @@ class Solution(object):
 
         
 
-```
+# ```

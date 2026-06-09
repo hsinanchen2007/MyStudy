@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int rotatedDigits(int N) {
         int result = 0;
@@ -25,4 +25,4 @@ class Solution {
         return flag;
     }
 }
-```
+// ```

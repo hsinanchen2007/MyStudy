@@ -1,9 +1,9 @@
-### 解题思路
-先排序再比较
+// ### 解题思路
+// 先排序再比较
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void sort(int* Nums,int Low,int High)
 {
     if(Low<High)
@@ -36,4 +36,4 @@ int findPairs(int* nums, int numsSize, int k){
             }
     return result;
 }
-```
+// ```

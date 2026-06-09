@@ -1,11 +1,11 @@
-总共遍历的时候要通过四条路径
-+ left->right 
-+ up->button
-+ right->left
-+ button->up 
-其中第一和第三条路径可能行重合，第二和第四掉路径可能列重合。
-分别判断起始行和起始列是否重合即可。
-```
+# 总共遍历的时候要通过四条路径
+# + left->right 
+# + up->button
+# + right->left
+# + button->up 
+# 其中第一和第三条路径可能行重合，第二和第四掉路径可能列重合。
+# 分别判断起始行和起始列是否重合即可。
+# ```
 import math
 class Solution:
     def spiralOrder(self, matrix):
@@ -33,4 +33,4 @@ class Solution:
             loop +=1
         
         return result
-```
+# ```

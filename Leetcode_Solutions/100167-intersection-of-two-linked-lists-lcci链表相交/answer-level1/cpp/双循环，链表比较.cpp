@@ -1,9 +1,9 @@
-### 解题思路
-构建两个循环，判断链表是否相等即可
+// ### 解题思路
+// 构建两个循环，判断链表是否相等即可
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -29,4 +29,4 @@ public:
         return nullptr;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int sumFourDivisors(int[] nums) {
         int allSum = 0;//返回结果是一个int
@@ -42,4 +42,4 @@ class Solution {
     }
 
 }
-```
+// ```

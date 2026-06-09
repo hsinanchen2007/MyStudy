@@ -1,4 +1,4 @@
-三行搞定,执行用时0ms，击败100%java用户
+// 三行搞定,执行用时0ms，击败100%java用户
 public int lengthOfLastWord(String s) {
         //去掉尾部空格
         s = s.trim();

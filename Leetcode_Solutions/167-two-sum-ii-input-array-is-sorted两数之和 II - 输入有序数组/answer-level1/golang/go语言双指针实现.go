@@ -1,4 +1,4 @@
-```
+// ```
 func twoSum(numbers []int, target int) []int {
 	res := make([]int,0)
 	var head = 0
@@ -16,5 +16,5 @@ func twoSum(numbers []int, target int) []int {
 	}
 	return res
 }
-```
-很好理解吧。。。
+// ```
+// 很好理解吧。。。

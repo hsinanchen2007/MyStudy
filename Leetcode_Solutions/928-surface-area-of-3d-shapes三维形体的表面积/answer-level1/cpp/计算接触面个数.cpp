@@ -1,4 +1,4 @@
-```C++
+// ```C++
 class Solution {
 public:
     int surfaceArea(vector<vector<int>>& grid);
@@ -26,4 +26,4 @@ int Solution::surfaceArea(vector<vector<int>>& grid) {
     }
     return total * 6 - (contactx + contacty + contactz) * 2;
 }
-```
+// ```

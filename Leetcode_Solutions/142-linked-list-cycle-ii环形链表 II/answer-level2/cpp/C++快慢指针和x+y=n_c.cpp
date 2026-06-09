@@ -1,12 +1,12 @@
-### 解题思路
-1、先判断有没有环；如果没有环，输出nullptr；有环，进入2；
-2、相遇点slow在环里。x+y=n*c
-设立一个a指向head，a走x步到达环起点，slow走x步也到环起点。
-判断条件(a==head)。
+// ### 解题思路
+// 1、先判断有没有环；如果没有环，输出nullptr；有环，进入2；
+// 2、相遇点slow在环里。x+y=n*c
+// 设立一个a指向head，a走x步到达环起点，slow走x步也到环起点。
+// 判断条件(a==head)。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -68,4 +68,4 @@ public:
         return s;
     }*/
 };
-```
+// ```

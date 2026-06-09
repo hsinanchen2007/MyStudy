@@ -1,9 +1,9 @@
-### 解题思路
-bfs遍历，每次把每个格点的所有可能性都走一遍，记录cost，并更新最小的cost就行了。
+# ### 解题思路
+# bfs遍历，每次把每个格点的所有可能性都走一遍，记录cost，并更新最小的cost就行了。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minCost(self, grid: List[List[int]]) -> int:
         dx = [0, 0, 1, -1]
@@ -27,4 +27,4 @@ class Solution:
                     store.put([nx, ny])
         return dis[len(grid)-1][len(grid[0])-1]
 
-```
+# ```

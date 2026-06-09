@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-使用对象属性解题
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 使用对象属性解题
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} numbers
  * @param {number} target
@@ -20,4 +20,4 @@ var twoSum = function(numbers, target) {
     map[current] = i;
   }
 };
-```
+// ```

@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var findDisappearedNumbers = function(nums) {
     const res = []
     for (let i = 1; i <= nums.length; i++) {
@@ -10,6 +10,6 @@ var findDisappearedNumbers = function(nums) {
     }
     return res
 };
-```
-时间复杂度：O(n^2)
-空间复杂度：O(1)(题目有提醒)
+// ```
+// 时间复杂度：O(n^2)
+// 空间复杂度：O(1)(题目有提醒)

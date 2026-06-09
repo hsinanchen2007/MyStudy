@@ -1,10 +1,10 @@
-### 解题思路
-关注知乎一起学习讨论
-https://www.zhihu.com/people/god-jiang
+// ### 解题思路
+// 关注知乎一起学习讨论
+// https://www.zhihu.com/people/god-jiang
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -41,4 +41,4 @@ class Solution {
         return dummy.next;
     }
 }
-```
+// ```

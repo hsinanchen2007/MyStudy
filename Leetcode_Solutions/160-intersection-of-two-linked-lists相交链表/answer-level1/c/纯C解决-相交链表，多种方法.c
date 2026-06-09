@@ -1,7 +1,7 @@
-### 解题思路
-### 代码
+// ### 解题思路
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -43,8 +43,8 @@ struct ListNode *getIntersectionNode(struct ListNode *headA, struct ListNode *he
     }
     return headA;
 }
-```
-```c
+// ```
+// ```c
 struct ListNode *getIntersectionNode(struct ListNode *headA, struct ListNode *headB) {
     if(!headA||!headB)
     return NULL;
@@ -56,4 +56,4 @@ struct ListNode *getIntersectionNode(struct ListNode *headA, struct ListNode *he
     }   
     return p1;
 }
-```
+// ```

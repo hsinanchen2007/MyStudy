@@ -1,12 +1,12 @@
-### 解题思路
-该解法类似于贪心算法，我们始终尝试：
-1、最大化可能利润
-2、并降低买入风险，
-具体解法见注释部分。
+# ### 解题思路
+# 该解法类似于贪心算法，我们始终尝试：
+# 1、最大化可能利润
+# 2、并降低买入风险，
+# 具体解法见注释部分。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxProfit(self, prices: list, fee: int) -> int:
         if len(prices) < 2:
@@ -41,4 +41,4 @@ class Solution:
         if sold - buy > fee:
             profit += sold - buy - fee
         return profit
-```
+# ```

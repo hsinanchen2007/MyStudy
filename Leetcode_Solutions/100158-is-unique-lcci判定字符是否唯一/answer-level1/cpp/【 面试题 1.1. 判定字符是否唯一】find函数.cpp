@@ -1,8 +1,8 @@
-### 思路：find函数
+// ### 思路：find函数
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isUnique(string astr) {
@@ -13,4 +13,4 @@ public:
         return true;
     }
 };
-```
+// ```

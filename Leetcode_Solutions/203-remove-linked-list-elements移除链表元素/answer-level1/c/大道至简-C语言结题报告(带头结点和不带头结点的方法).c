@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/87d028d20f04f91439f5a82beb99d7d06b7ebff850e91688cddca27d51cf5b59-image.png)
+// ![image.png](https://pic.leetcode-cn.com/87d028d20f04f91439f5a82beb99d7d06b7ebff850e91688cddca27d51cf5b59-image.png)
 
-```
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -43,8 +43,8 @@ struct ListNode* removeElements(struct ListNode* head, int val){
 
     return L->next;
 }
-```
-```
+// ```
+// ```
 struct ListNode* removeElements(struct ListNode* head, int val){
     
     if(!head)  return NULL;
@@ -81,4 +81,4 @@ struct ListNode* removeElements(struct ListNode* head, int val){
     }
     return head;
 }
-```
+// ```

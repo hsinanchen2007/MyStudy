@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def maximumSum(self, arr):
         """
@@ -12,4 +12,4 @@ class Solution(object):
             cur0 = max(arr[i], cur0+arr[i])    # 上一个位置最大值为负值，上一个位置最大值为正值
             ans = max(ans, cur0, cur1)
         return ans if size > 1 else arr[0]
-```
+# ```

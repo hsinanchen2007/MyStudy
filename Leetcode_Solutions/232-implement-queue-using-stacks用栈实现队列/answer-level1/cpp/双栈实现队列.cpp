@@ -1,8 +1,8 @@
-执行用时 :4 ms, 在所有 C++ 提交中击败了67.76%的用户
-内存消耗 :9.5 MB, 在所有 C++ 提交中击败了5.73%的用户
-### 代码
+// 执行用时 :4 ms, 在所有 C++ 提交中击败了67.76%的用户
+// 内存消耗 :9.5 MB, 在所有 C++ 提交中击败了5.73%的用户
+// ### 代码
 
-```cpp
+// ```cpp
 class MyQueue {
 public:
 	/** Initialize your data structure here. */
@@ -54,4 +54,4 @@ public:
 		return s1.empty();
 	}
 };
-```
+// ```

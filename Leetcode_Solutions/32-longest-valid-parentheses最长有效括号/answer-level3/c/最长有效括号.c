@@ -1,9 +1,9 @@
-### 解题思路
-参照题解，正反循环
+// ### 解题思路
+// 参照题解，正反循环
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int longestValidParentheses(char * s) {
 	int maxLen = 0;
     int left=0,right=0;
@@ -28,4 +28,4 @@ int longestValidParentheses(char * s) {
     }
     return maxLen;
 }
-```
+// ```

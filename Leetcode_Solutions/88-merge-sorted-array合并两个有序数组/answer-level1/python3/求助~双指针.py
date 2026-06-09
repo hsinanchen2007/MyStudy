@@ -1,10 +1,10 @@
-### 解题思路
-谁能告诉我第一个return为啥不行啊
-![image.png](https://pic.leetcode-cn.com/ee89a7ce3dbc384631bddd3cdd60b869ec7b704ffd3ae30330a4ba9b066cbf19-image.png)
+# ### 解题思路
+# 谁能告诉我第一个return为啥不行啊
+# ![image.png](https://pic.leetcode-cn.com/ee89a7ce3dbc384631bddd3cdd60b869ec7b704ffd3ae30330a4ba9b066cbf19-image.png)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
         """
@@ -26,4 +26,4 @@ class Solution:
             nums1[:n+1] = nums2[:n+1] # 一定要用n+1，否则n+1位会不替换
         return nums1
         
-```
+# ```

@@ -1,8 +1,8 @@
-将 之前的4个状态拓展到 2*k个状态,
+# 将 之前的4个状态拓展到 2*k个状态,
 
-需要注意的是 如果次数大于数组长的一般, 转换成任意次数的问题. 有一个测试用例会卡这里.
+# 需要注意的是 如果次数大于数组长的一般, 转换成任意次数的问题. 有一个测试用例会卡这里.
 
-```python
+# ```python
 class Solution:
     def maxProfit(self, k: int, prices: List[int]) -> int:
         []
@@ -32,4 +32,4 @@ class Solution:
                 res = max(res, sells[i])
         return res
 
-```
+# ```

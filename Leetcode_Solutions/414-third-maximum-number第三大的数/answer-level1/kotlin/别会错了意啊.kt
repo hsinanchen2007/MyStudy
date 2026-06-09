@@ -1,14 +1,14 @@
-### 解题思路
+// ### 解题思路
 
-一定要读清题意，别会错了意啊...
+// 一定要读清题意，别会错了意啊...
 
-其它需要注意的是：
-1. 大家可能都知道使用Set去重；
-2. Set是无序的...
+// 其它需要注意的是：
+// 1. 大家可能都知道使用Set去重；
+// 2. Set是无序的...
 
-### 代码
+// ### 代码
 
-```kotlin
+// ```kotlin
 class Solution {
     fun thirdMax(nums: IntArray): Int {
     val set = HashSet<Int>()
@@ -21,4 +21,4 @@ class Solution {
     return set.toList().sortedDescending()[index]
 }
 }
-```
+// ```

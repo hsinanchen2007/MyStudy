@@ -1,11 +1,11 @@
-### 解题思路
-解法一：用notify和wait
-注意，要另外用两个bool变量来判断在我wait前我等的那个是不是已经结束了。一旦结束了我就直接print，不然我就wait
-这两个bool变量可以不需要volatile。因为default是false。
+// ### 解题思路
+// 解法一：用notify和wait
+// 注意，要另外用两个bool变量来判断在我wait前我等的那个是不是已经结束了。一旦结束了我就直接print，不然我就wait
+// 这两个bool变量可以不需要volatile。因为default是false。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Foo {
 
 	public Foo() {
@@ -52,4 +52,4 @@ class Foo {
 		}
 	}
 }
-```
+// ```

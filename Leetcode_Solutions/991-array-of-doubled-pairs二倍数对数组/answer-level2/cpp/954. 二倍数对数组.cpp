@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool function(vector<int>& a)
@@ -48,4 +48,4 @@ public:
         return true;
     }
 };
-```
+// ```

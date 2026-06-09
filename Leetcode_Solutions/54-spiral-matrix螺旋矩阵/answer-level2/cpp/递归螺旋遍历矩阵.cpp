@@ -1,9 +1,9 @@
-### 解题思路
-比较直观的思路，先遍历外圈然后在递归遍历里层矩阵。
+// ### 解题思路
+// 比较直观的思路，先遍历外圈然后在递归遍历里层矩阵。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 private:
     vector<int> recurFunc(vector<vector<int>>& matrix, int x, int y, int rowNum, int colNum){
@@ -38,4 +38,4 @@ public:
         return res;
     }
 };
-```
+// ```

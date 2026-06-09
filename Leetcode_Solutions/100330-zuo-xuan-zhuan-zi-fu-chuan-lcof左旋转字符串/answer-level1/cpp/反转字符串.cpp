@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-通过三次反转实现字符串的反转
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 通过三次反转实现字符串的反转
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string reverseLeftWords(string s, int n) {
@@ -23,4 +23,4 @@ public:
         }
     }
 };
-```
+// ```

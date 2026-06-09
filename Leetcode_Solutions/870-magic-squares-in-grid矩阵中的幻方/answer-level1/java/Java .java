@@ -1,7 +1,7 @@
-![1.png](https://pic.leetcode-cn.com/989595faecb598e5dd72242f7b9964a26d5ffdcde5df870f05c6db84cfba34f9-1.png)
+// ![1.png](https://pic.leetcode-cn.com/989595faecb598e5dd72242f7b9964a26d5ffdcde5df870f05c6db84cfba34f9-1.png)
 
 
-```java []
+// ```java []
 public int numMagicSquaresInside(int[][] grid) {
     int count = 0;
     boolean f = false;
@@ -39,5 +39,5 @@ private boolean judge(int i, int j, int[][] grid) {
             && grid[i - 1][j - 1] + grid[i][j - 1] + grid[i + 1][j - 1] == 15
             && grid[i - 1][j + 1] + grid[i][j + 1] + grid[i + 1][j + 1] == 15;
 }
-```
+// ```
 

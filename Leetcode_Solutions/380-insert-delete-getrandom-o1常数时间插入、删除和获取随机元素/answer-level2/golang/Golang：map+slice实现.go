@@ -1,7 +1,7 @@
-思路：1.用slice存值，用map保存值在slice中的index；
-            2.每次删除时，为了避免移动元素，用数组末尾元素覆盖需要删除的元素，然后删除数组末尾元素；
+// 思路：1.用slice存值，用map保存值在slice中的index；
+//             2.每次删除时，为了避免移动元素，用数组末尾元素覆盖需要删除的元素，然后删除数组末尾元素；
 
-```go []
+// ```go []
 type RandomizedSet struct {
 	vals []int
 	_map map[int]int
@@ -49,4 +49,4 @@ func (this *RandomizedSet) GetRandom() int {
 	i := rand.Intn(len(this.vals))
 	return this.vals[i]
 }
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-从两边向内找，如果两边是三分之一的总和，那么中间必定也是
+# ### 解题思路
+# 从两边向内找，如果两边是三分之一的总和，那么中间必定也是
 
-### 代码
-```
+# ### 代码
+# ```
 class Solution:
     def canThreePartsEqualSum(self, A: List[int]) -> bool:
         s=sum(A)
@@ -20,4 +20,4 @@ class Solution:
         if i<=j and left==right==avg:
             return True
         return False
-```
+# ```

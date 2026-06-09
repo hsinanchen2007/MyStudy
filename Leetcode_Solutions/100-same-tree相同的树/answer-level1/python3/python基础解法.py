@@ -1,10 +1,10 @@
-### 解题思路
-1. 递归，第一想法这个递归可以解决，去判断每个节点是否相等，出口就是当都不存在，只有一个不存在，两个值不等
-2. 利用迭代也能解决，写一个check函数判断是否有结果，利用list存储，同时利用pop(0)模仿队列效果，也可以用collections里面的deque队列
+# ### 解题思路
+# 1. 递归，第一想法这个递归可以解决，去判断每个节点是否相等，出口就是当都不存在，只有一个不存在，两个值不等
+# 2. 利用迭代也能解决，写一个check函数判断是否有结果，利用list存储，同时利用pop(0)模仿队列效果，也可以用collections里面的deque队列
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -39,4 +39,4 @@ class Solution:
                 queue.append((p.left, q.left))
                 queue.append((p.right,q.right))
         return True
-```
+# ```

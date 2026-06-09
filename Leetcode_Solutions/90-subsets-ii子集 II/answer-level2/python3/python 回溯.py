@@ -1,9 +1,9 @@
-### 解题思路
-#判断当前数字和上一个数字是否相同 重点是i>start 而不是0
+# ### 解题思路
+# #判断当前数字和上一个数字是否相同 重点是i>start 而不是0
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def subsetsWithDup(self, nums: List[int]) -> List[List[int]]:
         nums.sort()
@@ -19,4 +19,4 @@ class Solution:
                 track.pop()
         backtrack([],0)
         return res
-```
+# ```

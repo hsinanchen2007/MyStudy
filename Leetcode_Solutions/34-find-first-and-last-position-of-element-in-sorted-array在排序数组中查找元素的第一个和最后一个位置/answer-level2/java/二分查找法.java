@@ -1,11 +1,11 @@
-### 解题思路
-实际上就是二分查找
-先查找target 所在的索引位置i，然后查找周围和他值相同的索引就可以了
+// ### 解题思路
+// 实际上就是二分查找
+// 先查找target 所在的索引位置i，然后查找周围和他值相同的索引就可以了
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 	public static int binarySearch(int val,int[] list,int start,int end){		
 		int mid=start+((end-start)>>1);
@@ -41,4 +41,4 @@ class Solution {
     	return result;
     }
 }
-```
+// ```

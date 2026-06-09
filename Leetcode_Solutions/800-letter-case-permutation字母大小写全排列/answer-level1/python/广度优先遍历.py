@@ -1,5 +1,5 @@
-广度优先遍历，遍历每一个字符，如果是数字就往里放，如果是字母，就把结果集里的每一个中间结果加上当前字母和当前字母的大写字母
-```
+# 广度优先遍历，遍历每一个字符，如果是数字就往里放，如果是字母，就把结果集里的每一个中间结果加上当前字母和当前字母的大写字母
+# ```
 class Solution(object):
     def letterCasePermutation(self, S):
         """
@@ -36,5 +36,5 @@ class Solution(object):
                     res.append(S[i])
                     res.append(S[i].upper())
         return res
-```
+# ```
 

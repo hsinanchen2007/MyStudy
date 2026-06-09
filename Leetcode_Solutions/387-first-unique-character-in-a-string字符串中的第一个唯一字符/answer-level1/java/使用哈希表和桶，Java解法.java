@@ -1,8 +1,8 @@
-两种解法如下，我这里跑，用桶比用哈希表快50%。。。
+// 两种解法如下，我这里跑，用桶比用哈希表快50%。。。
 
-思路一：使用hashmap + 两次遍历。
+// 思路一：使用hashmap + 两次遍历。
 
-```java
+// ```java
 class Solution {
     public int firstUniqChar(String s) {
         HashMap<Character, Integer> map = new HashMap<>();
@@ -25,11 +25,11 @@ class Solution {
         return -1;
     }
 }
-```
+// ```
 
-思路二：使用桶 + 两次遍历。
+// 思路二：使用桶 + 两次遍历。
 
-```java
+// ```java
 class Solution {
     public int firstUniqChar(String s) {
         int[] buckets = new int[26];
@@ -46,4 +46,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

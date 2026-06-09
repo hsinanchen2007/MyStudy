@@ -1,4 +1,4 @@
-第一种方法，遍历所有ij差值在k内的组合，超时是肯定的
+// 第一种方法，遍历所有ij差值在k内的组合，超时是肯定的
  public static bool ContainsNearbyDuplicate(int[] nums, int k)
         {
             for(int i=0;i<nums.Length-1;i++)

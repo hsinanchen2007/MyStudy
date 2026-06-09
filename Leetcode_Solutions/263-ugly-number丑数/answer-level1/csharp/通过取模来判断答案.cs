@@ -1,4 +1,4 @@
-```
+// ```
 public class Solution {
     public bool IsUgly(int num) {
         if(num==0){return false;}
@@ -11,5 +11,5 @@ public class Solution {
         return true;
     }
 }
-```
-//其实我觉得他们挺好看的...
+// ```
+// //其实我觉得他们挺好看的...

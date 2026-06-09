@@ -1,12 +1,12 @@
-### 解题思路
-![微信截图_20200408133355.png](https://pic.leetcode-cn.com/f66a3be78345fed3fcaed7f3a10f673740f26a635645240ff07cbe2681957d2a-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200408133355.png)
-不好意思图有点糊。
-思路就是找到那条分隔线（红色部分，数值为blockCount），在分隔线内的都是可以走到的，大于分隔线的坐标不进行匹配：）
+// ### 解题思路
+// ![微信截图_20200408133355.png](https://pic.leetcode-cn.com/f66a3be78345fed3fcaed7f3a10f673740f26a635645240ff07cbe2681957d2a-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200408133355.png)
+// 不好意思图有点糊。
+// 思路就是找到那条分隔线（红色部分，数值为blockCount），在分隔线内的都是可以走到的，大于分隔线的坐标不进行匹配：）
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int movingCount(int m, int n, int k) {
         if (k == 0) {
@@ -51,4 +51,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

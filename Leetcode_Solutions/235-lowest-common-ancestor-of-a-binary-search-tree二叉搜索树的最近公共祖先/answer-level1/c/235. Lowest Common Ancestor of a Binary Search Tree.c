@@ -1,10 +1,10 @@
-### 解题思路
-1. 当做普通树来搜索
-2. 只要找到一点，这一点到根路径都是true,   当p q两条路径相交时就是公共
+// ### 解题思路
+// 1. 当做普通树来搜索
+// 2. 只要找到一点，这一点到根路径都是true,   当p q两条路径相交时就是公共
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -35,4 +35,4 @@ struct TreeNode* lowestCommonAncestor(struct TreeNode* root, struct TreeNode* p,
     search(root, p->val, q->val);
     return gnode;
 }
-```
+// ```

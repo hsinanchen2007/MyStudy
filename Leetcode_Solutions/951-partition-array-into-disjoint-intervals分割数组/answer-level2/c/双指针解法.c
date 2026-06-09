@@ -1,4 +1,4 @@
-```
+// ```
 int partitionDisjoint(int* A, int ASize){
 
     int max = 0;
@@ -50,4 +50,4 @@ int partitionDisjoint(int* A, int ASize){
 
     return pos2 + 1;
 }
-```
+// ```

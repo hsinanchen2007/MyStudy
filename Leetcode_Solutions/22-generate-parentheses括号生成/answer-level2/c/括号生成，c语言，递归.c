@@ -1,10 +1,10 @@
-### 解题思路
-左括号个数=右括号个数时：只能添加左括号，
-左括号个数>右括号个数时：①添加右括号②如果左括号个数小于n时，复制添加左括号。
+// ### 解题思路
+// 左括号个数=右括号个数时：只能添加左括号，
+// 左括号个数>右括号个数时：①添加右括号②如果左括号个数小于n时，复制添加左括号。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -39,10 +39,10 @@ char ** generateParenthesis(int n, int* returnSize){
     recursion(n,1,0,0,returnSize,result);
     return result;
 }
-```
+// ```
 
-或者弄一个打工仔临时变量temp来实现递归
-```
+// 或者弄一个打工仔临时变量temp来实现递归
+// ```
 void recursion(int n,int i,int j,char* temp,int* returnSize,char** result){
     if(j<n){
         if(i<n){
@@ -71,4 +71,4 @@ char ** generateParenthesis(int n, int* returnSize){
     free(temp);
     return result;
 }
-```
+// ```

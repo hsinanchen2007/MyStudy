@@ -1,6 +1,6 @@
-### 借助一个复制函数，递归实现
+// ### 借助一个复制函数，递归实现
 
-```php
+// ```php
 /**
  * Definition for a binary tree node.
  * class TreeNode {
@@ -33,13 +33,13 @@ class Solution {
         $this->traversal($node->right, $result);
     }
 }
-```
+// ```
 
-### 迭代解法
+// ### 迭代解法
 
-从根节点开始，每次迭代弹出当前栈顶元素，并将其孩子节点压入栈中，先压右孩子再压左孩子
+// 从根节点开始，每次迭代弹出当前栈顶元素，并将其孩子节点压入栈中，先压右孩子再压左孩子
 
-```php
+// ```php
 class Solution
 {
     function preorderTraversal($root)
@@ -57,5 +57,5 @@ class Solution
         return $res;
     }
 }
-```
+// ```
 

@@ -1,4 +1,4 @@
-```
+// ```
 int insertBits(int N, int M, int i, int j){
 
   // get bits mask from i to j
@@ -9,4 +9,4 @@ int insertBits(int N, int M, int i, int j){
 
   return (N & ~mask) | (M & mask);
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-两个栈表示队列
+# ### 解题思路
+# 两个栈表示队列
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class MyStack(object):
 
     def __init__(self):
@@ -54,4 +54,4 @@ class MyStack(object):
 # param_2 = obj.pop()
 # param_3 = obj.top()
 # param_4 = obj.empty()
-```
+# ```

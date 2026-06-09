@@ -1,4 +1,4 @@
-```
+// ```
 func smallestSufficientTeam(reqSkills []string, people [][]string) []int {
 	o, t, l := []int{}, []int{}, len(people)
 	m, ss := map[string]uint{}, make([]int, l)
@@ -37,4 +37,4 @@ func smallestSufficientTeam(reqSkills []string, people [][]string) []int {
 	cal(0)
 	return o
 }
-```
+// ```

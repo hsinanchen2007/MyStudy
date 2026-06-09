@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-采用BFS方法，具体看注释。
+// 采用BFS方法，具体看注释。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type point struct {
 	x int
 	y int
@@ -42,4 +42,4 @@ func maxDistance(grid [][]int) int {
 	}
 	return res - 1		//注意这里要-1才是结果
 }
-```
+// ```

@@ -1,10 +1,10 @@
-根据《组合数学》
-有不尽相异元素的全排列公式：
-RP(n,n) = n!/(n1!*n2!* ... * nt!)
+// 根据《组合数学》
+// 有不尽相异元素的全排列公式：
+// RP(n,n) = n!/(n1!*n2!* ... * nt!)
 
 
-阶乘即时用long也会溢出，所以这里稍微优化一下。
-```java
+// 阶乘即时用long也会溢出，所以这里稍微优化一下。
+// ```java
 class Solution {
     public int uniquePaths(int m, int n) {
         if(m<n){
@@ -18,4 +18,4 @@ class Solution {
         return x;
     }
 }
-```
+// ```

@@ -1,13 +1,13 @@
-### 解题思路
-这一道题的难点有二：
-1. 读懂题目
-2. 时间复杂度都是O(1)。
+// ### 解题思路
+// 这一道题的难点有二：
+// 1. 读懂题目
+// 2. 时间复杂度都是O(1)。
 
-还有一个问题，就是由于 C# 在 initialize `array` 的时候，要求提供size，可是queue的size是不定的，所以需要用`List<int>`来储存值。
+// 还有一个问题，就是由于 C# 在 initialize `array` 的时候，要求提供size，可是queue的size是不定的，所以需要用`List<int>`来储存值。
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class MaxQueue {
     private List<int> maxQueue;
 
@@ -42,4 +42,4 @@ public class MaxQueue {
  * obj.Push_back(value);
  * int param_3 = obj.Pop_front();
  */
-```
+// ```

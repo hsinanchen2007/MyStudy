@@ -1,8 +1,8 @@
 
-思想方法：
-    遍历一次数独，如果不是.就检查行，列，宫。如果有检测失败，直接返回。
+// 思想方法：
+//     遍历一次数独，如果不是.就检查行，列，宫。如果有检测失败，直接返回。
 
-```
+// ```
 class Solution {
  public:
   bool check_h(int h, int l, const vector<vector<char>>& board) {
@@ -46,4 +46,4 @@ class Solution {
     return true;
   }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+-- ### 解题思路
+-- 此处撰写解题思路
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 select table1.sub_id as post_id , count(table2.sub_id) as number_of_comments from
 (select distinct sub_id,parent_id from Submissions where parent_id is Null) as table1
@@ -12,4 +12,4 @@ left join
 on table1.sub_id = table2.parent_id
 group by table1.sub_id
 
-```
+-- ```

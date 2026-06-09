@@ -1,4 +1,4 @@
-```js
+// ```js
 var getSum = function(a, b) {
     if (a === 0 && b === 0) {
         return 0;
@@ -23,4 +23,4 @@ var getSum = function(a, b) {
         return b;
     }
 };
-```
+// ```

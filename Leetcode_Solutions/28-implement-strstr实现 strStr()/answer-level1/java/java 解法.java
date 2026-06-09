@@ -1,8 +1,8 @@
-# 解题思路
-循环源字符串找到和目标字符串第一个字符相同的字符索引位置,然后循环目标字符串,一个字符一个字符的和源字符串的字符对比
+// # 解题思路
+// 循环源字符串找到和目标字符串第一个字符相同的字符索引位置,然后循环目标字符串,一个字符一个字符的和源字符串的字符对比
 
-# 代码
-```
+// # 代码
+// ```
 public static int strStr(String haystack, String needle) {
         int result = -1;
         char[] haystackChar = haystack.toCharArray();
@@ -34,4 +34,4 @@ public static int strStr(String haystack, String needle) {
         }
         return result;
     }
-```
+// ```

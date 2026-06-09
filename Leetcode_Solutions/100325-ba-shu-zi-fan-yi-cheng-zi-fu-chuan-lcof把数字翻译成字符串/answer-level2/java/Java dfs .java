@@ -1,9 +1,9 @@
-### 解题思路
-注意0x这种情况
+// ### 解题思路
+// 注意0x这种情况
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     int ans = 0;
     public int translateNum(int num) {
@@ -28,4 +28,4 @@ class Solution {
         }
     }
 }
-```
+// ```

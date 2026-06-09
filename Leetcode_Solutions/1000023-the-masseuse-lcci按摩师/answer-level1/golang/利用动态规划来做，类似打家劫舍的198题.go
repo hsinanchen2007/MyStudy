@@ -1,9 +1,9 @@
-### 解题思路
-类似198题  基本上就是换个描述而已
+// ### 解题思路
+// 类似198题  基本上就是换个描述而已
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func massage(nums []int) int {
 	l := len(nums)
 	switch l {
@@ -39,4 +39,4 @@ func massage(nums []int) int {
 	}
 }
 
-```
+// ```

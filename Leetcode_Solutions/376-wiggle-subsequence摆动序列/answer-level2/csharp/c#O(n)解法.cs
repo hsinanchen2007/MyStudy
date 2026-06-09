@@ -1,12 +1,12 @@
-### 解题思路
-首先要找到第一个不相等的两个数
-假如升序连续有多个数，把头尾保留，中间的删掉
-连续降序的同上一样处理
-注意相等的数
+// ### 解题思路
+// 首先要找到第一个不相等的两个数
+// 假如升序连续有多个数，把头尾保留，中间的删掉
+// 连续降序的同上一样处理
+// 注意相等的数
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int WiggleMaxLength(int[] nums) {
         if(nums.Length <= 1)
@@ -75,4 +75,4 @@ public class Solution {
         return nums.Length - startIndex - deleteCount;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-the max(xdif,ydif) is the ans we need for point i and point i+1
+// ### 解题思路
+// the max(xdif,ydif) is the ans we need for point i and point i+1
 
-### 代码
+// ### 代码
 
-```java h
+// ```java h
 class Solution {
     public int minTimeToVisitAllPoints(int[][] points) {
         int ans = 0;
@@ -17,4 +17,4 @@ class Solution {
         }return ans;
     }
 }
-```
+// ```

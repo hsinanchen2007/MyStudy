@@ -1,10 +1,10 @@
 
-## 思路
+// ## 思路
 
-题目的求解采用双指针法。在求解过程中需要注意如何消除重复的四元组。
+// 题目的求解采用双指针法。在求解过程中需要注意如何消除重复的四元组。
 
-## 代码
-```
+// ## 代码
+// ```
 class Solution {
 public:
     vector<vector<int>> fourSum(vector<int>& nums, int target) {
@@ -39,4 +39,4 @@ public:
         return res;
     }
 };
-```
+// ```

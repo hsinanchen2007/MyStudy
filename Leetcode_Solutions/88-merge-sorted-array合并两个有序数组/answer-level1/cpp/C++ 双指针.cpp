@@ -1,5 +1,5 @@
-从尾部更新序列1，双指针遍历，更大的元素插入新序列的尾部
-```
+// 从尾部更新序列1，双指针遍历，更大的元素插入新序列的尾部
+// ```
 class Solution {
 public:
     void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
@@ -12,4 +12,4 @@ public:
         while(p>=0 && n>=0) {nums1[p--] = nums2[n--];}
     }
 };
-```
+// ```

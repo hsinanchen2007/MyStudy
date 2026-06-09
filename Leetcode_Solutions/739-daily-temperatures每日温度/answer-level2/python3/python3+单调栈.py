@@ -1,9 +1,9 @@
-### 解题思路
-非常经典的单调栈
+# ### 解题思路
+# 非常经典的单调栈
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def dailyTemperatures(self, T: List[int]) -> List[int]:
         tempstack = []
@@ -23,4 +23,4 @@ class Solution:
                 else:
                     tempstack.append((i,T[i]))
         return ans
-```
+# ```

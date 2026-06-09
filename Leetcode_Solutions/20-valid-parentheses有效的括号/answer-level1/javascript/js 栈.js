@@ -1,4 +1,4 @@
-```
+// ```
 var isValid = function(s) {
     let stack = [];
     let compareJson = {
@@ -45,4 +45,4 @@ var isValid = function(s) {
         return false;
     return true;
 };
-```
+// ```

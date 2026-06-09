@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var mirrorTree = function(root) {
     // 判断根节点
     if(root == null) return root;
@@ -11,4 +11,4 @@ var mirrorTree = function(root) {
     mirrorTree(root.right);
     return root
 };
-```
+// ```

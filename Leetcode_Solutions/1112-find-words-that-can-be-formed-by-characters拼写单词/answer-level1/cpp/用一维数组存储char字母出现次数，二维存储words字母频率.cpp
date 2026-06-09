@@ -1,11 +1,11 @@
-### 解题思路
-![2020-02-10 18-42-26 的屏幕截图.png](https://pic.leetcode-cn.com/64cb0f0c74df9223369f2193e7288eed959183a0c45de502567b6373ff24a385-2020-02-10%2018-42-26%20%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)
-思路就是全部用数组来存储字母频率，而不是每次都用findd或者map来保存数据。
-然后一边读取一边比较，遇到不合适就break进入下一个单词的比较。
+// ### 解题思路
+// ![2020-02-10 18-42-26 的屏幕截图.png](https://pic.leetcode-cn.com/64cb0f0c74df9223369f2193e7288eed959183a0c45de502567b6373ff24a385-2020-02-10%2018-42-26%20%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)
+// 思路就是全部用数组来存储字母频率，而不是每次都用findd或者map来保存数据。
+// 然后一边读取一边比较，遇到不合适就break进入下一个单词的比较。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int countCharacters(vector<string>& words, string chars) {
@@ -27,4 +27,4 @@ public:
      return ans;
     }
 };
-```
+// ```

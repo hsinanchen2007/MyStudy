@@ -1,4 +1,4 @@
-```
+// ```
 var nodeVal []int
 
 func minDiffInBST(root *TreeNode) int {
@@ -37,4 +37,4 @@ func Min(a,b int)int{
     }
     return b 
 }
-```
+// ```

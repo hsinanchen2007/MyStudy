@@ -1,4 +1,4 @@
-``` c#
+// ``` c#
 using System;
 using System.Threading;
 public class H2O {
@@ -32,4 +32,4 @@ public class H2O {
         _hydrogenSema.Release(2);
     }
 }
-```
+// ```

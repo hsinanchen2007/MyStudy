@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean judgeCircle(String moves) {
 int tempt=0;
@@ -30,4 +30,4 @@ if(tempt==0&&tempt1==0){
 }
     }
 }
-```
+// ```

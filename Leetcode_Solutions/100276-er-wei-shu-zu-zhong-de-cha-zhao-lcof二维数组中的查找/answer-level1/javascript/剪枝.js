@@ -1,9 +1,9 @@
-### 解题思路
-剪枝，每个问题可分为四个子问题，在每个问题上可通过左上角和右上角的值快速判断是否剪除该子问题的解空间。
+// ### 解题思路
+// 剪枝，每个问题可分为四个子问题，在每个问题上可通过左上角和右上角的值快速判断是否剪除该子问题的解空间。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} matrix
  * @param {number} target
@@ -37,4 +37,4 @@ var findNumberIn2DArray = function(matrix, target) {
     
     return find1(0 , 0 ,lenx-1, leny-1);
 };
-```
+// ```

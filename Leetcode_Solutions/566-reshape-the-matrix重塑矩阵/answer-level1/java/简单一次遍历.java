@@ -1,6 +1,6 @@
-执行用时 :2 ms, 在所有 Java 提交中击败了96.97%的用户
-内存消耗 :39.5 MB, 在所有 Java 提交中击败了96.54%的用户
-```
+// 执行用时 :2 ms, 在所有 Java 提交中击败了96.97%的用户
+// 内存消耗 :39.5 MB, 在所有 Java 提交中击败了96.54%的用户
+// ```
 class Solution {
     public int[][] matrixReshape(int[][] nums, int r, int c) {
         int size = nums.length*nums[0].length;
@@ -15,4 +15,4 @@ class Solution {
         return newnums;
     }
 }
-```
+// ```

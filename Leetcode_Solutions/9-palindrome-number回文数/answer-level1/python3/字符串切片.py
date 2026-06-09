@@ -1,10 +1,10 @@
-### 解题思路
-利用切片 取出左边和翻转后的右边，如果两个结果相同，返回 true
-负数一定不是回文数
+# ### 解题思路
+# 利用切片 取出左边和翻转后的右边，如果两个结果相同，返回 true
+# 负数一定不是回文数
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isPalindrome(self, x: int) -> bool:
         # numbers less than 0 are definitely not the palindromes
@@ -30,4 +30,4 @@ class Solution:
                 return False
 
             
-```
+# ```

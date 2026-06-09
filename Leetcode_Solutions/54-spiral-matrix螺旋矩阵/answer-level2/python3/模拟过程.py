@@ -1,28 +1,28 @@
-## 思路:
+# ## 思路:
 
-**思路一:** 模拟过程
+# **思路一:** 模拟过程
 
-通过控制行的上下边界,列的左右边界
+# 通过控制行的上下边界,列的左右边界
 
-**思路二:**  旋转
+# **思路二:**  旋转
 
-直接举例子,
+# 直接举例子,
 
-![Snipaste_2019-05-18_16-35-55.png](https://pic.leetcode-cn.com/00a442d0956ec5cc6d029f4cdbc4b078b09a3348c0e84bc43019523071ee741b-Snipaste_2019-05-18_16-35-55.png)
-
-
-把弹出输出即可.
-
-------
+# ![Snipaste_2019-05-18_16-35-55.png](https://pic.leetcode-cn.com/00a442d0956ec5cc6d029f4cdbc4b078b09a3348c0e84bc43019523071ee741b-Snipaste_2019-05-18_16-35-55.png)
 
 
-## 代码:
+# 把弹出输出即可.
 
-思路一:
+# ------
 
-python
 
-```python [1]
+# ## 代码:
+
+# 思路一:
+
+# python
+
+# ```python [1]
 class Solution:
     def spiralOrder(self, matrix):
         """
@@ -58,10 +58,10 @@ class Solution:
                 res.append(matrix[i][zuo_col])
             zuo_col += 1
         return res
-```
+# ```
 
 
-```java [1]
+# ```java [1]
 class Solution {
     public List<Integer> spiralOrder(int[][] matrix) {
         if (matrix == null || matrix.length == 0) return new ArrayList<>();
@@ -89,11 +89,11 @@ class Solution {
         return res;
     }
 }
-```
+# ```
 
-思路二:
+# 思路二:
 
-```python
+# ```python
 class Solution:
     def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
         if not matrix : return []
@@ -107,5 +107,5 @@ class Solution:
             #print(next_matrix)
             matrix = next_matrix[::-1]
         return res
-```
+# ```
 

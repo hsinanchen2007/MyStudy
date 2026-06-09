@@ -1,9 +1,9 @@
-### 解题思路
-贪心，qsort先进行升序排列，然后由小到大，将最小的cookie分给最小需求的child，直到child或者cookie分完。
+// ### 解题思路
+// 贪心，qsort先进行升序排列，然后由小到大，将最小的cookie分给最小需求的child，直到child或者cookie分完。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int comp(const void *a, const void *b)
 {
     if (*(int *)a > *(int *)b)
@@ -34,4 +34,4 @@ int findContentChildren(int* g, int gSize, int* s, int sSize)
     
     return child;
 }
-```
+// ```

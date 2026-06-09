@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/63d6cb8bd3eacdbcdc722c7e33b4474d44558e1d109401a12b55dc2c04ba0bd7-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/63d6cb8bd3eacdbcdc722c7e33b4474d44558e1d109401a12b55dc2c04ba0bd7-image.png)
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} arr
  * @param {number} start
@@ -29,4 +29,4 @@ var canReach = function(arr, start) {
   reach(arr, start)
   return flag
 };
-```
+// ```

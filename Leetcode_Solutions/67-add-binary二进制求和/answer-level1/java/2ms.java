@@ -1,9 +1,9 @@
-### 解题思路
-二进制运算,考虑末位相加,获取位数最大的char数组,位数不足的数组前面取0,声明一个变量表示是否存在进位,for循环从最长数组的末位开始,最后判断是否进位
+// ### 解题思路
+// 二进制运算,考虑末位相加,获取位数最大的char数组,位数不足的数组前面取0,声明一个变量表示是否存在进位,for循环从最长数组的末位开始,最后判断是否进位
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String addBinary(String a, String b) {
         char[] charsa = a.toCharArray();
@@ -31,4 +31,4 @@ class Solution {
         return c == 0 ? new String(max): "1"+new String(max);
     }
 }
-```
+// ```

@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} x
  * @param {number} y
@@ -12,4 +12,4 @@
     return r ? r.length : 0
   };
 
-```
+// ```

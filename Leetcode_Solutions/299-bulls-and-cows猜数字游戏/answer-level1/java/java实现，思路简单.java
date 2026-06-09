@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-双循环，如果位置处相同则将List中的位置置为m，如果secret对应位置没有对应的，则循环找List中的内容，如果List中有则置为mm。
-同时要保证的是，第二个判断。
+// 双循环，如果位置处相同则将List中的位置置为m，如果secret对应位置没有对应的，则循环找List中的内容，如果List中有则置为mm。
+// 同时要保证的是，第二个判断。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String getHint(String secret, String guess) {
         int a=0;
@@ -37,4 +37,4 @@ class Solution {
 
     }
 }
-```
+// ```

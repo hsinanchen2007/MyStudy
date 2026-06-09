@@ -1,4 +1,4 @@
-```
+// ```
 /*1、递归求解最大值，超时。估计需要动态规划了。*/
 /*#define MAX_NUM(a,b)  ((a) > (b) ? (a) : (b))
 int getMax(int* nums, int numsSize, int index)
@@ -36,4 +36,4 @@ int massage(int* nums, int numsSize)
     }
     return MAX_NUM(last1, last2);
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/1ac26837b19106d9cfe05da21be03abece411610f06e1be2423a6d673773bcca-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/1ac26837b19106d9cfe05da21be03abece411610f06e1be2423a6d673773bcca-image.png)
 
-典型队列应用场景，另外用一个map存放{距离，该距离的坐标数组}。
+// 典型队列应用场景，另外用一个map存放{距离，该距离的坐标数组}。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} matrix
  * @return {number[][]}
@@ -67,4 +67,4 @@ var updateMatrix = function(matrix) {
     }
     return matrix;
 };
-```
+// ```

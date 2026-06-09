@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def isIsomorphic(self, s: str, t: str) -> bool:
         
@@ -15,4 +15,4 @@ class Solution:
                 s2t[s[i]] = t[i]
         return True
                 
-```
+# ```

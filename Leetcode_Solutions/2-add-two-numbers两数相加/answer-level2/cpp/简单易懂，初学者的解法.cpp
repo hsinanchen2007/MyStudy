@@ -1,8 +1,8 @@
-### 解题思路
-C++,算法初学者，就使用最暴力的解法，分类讨论。
-### 代码
+// ### 解题思路
+// C++,算法初学者，就使用最暴力的解法，分类讨论。
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -58,4 +58,4 @@ public:
 		return vHead.next;
     }
 };
-```
+// ```

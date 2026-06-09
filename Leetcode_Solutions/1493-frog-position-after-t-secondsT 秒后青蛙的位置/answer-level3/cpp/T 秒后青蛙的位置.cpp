@@ -1,8 +1,8 @@
-层次遍历 
-如果target == 当前的节点 
-判断当前level == t || levet < t && no child 则返回计算好的概率值buf[tmp] 否则返回0.0
-运行时间12ms 击败 98.75%
-```c++
+// 层次遍历 
+// 如果target == 当前的节点 
+// 判断当前level == t || levet < t && no child 则返回计算好的概率值buf[tmp] 否则返回0.0
+// 运行时间12ms 击败 98.75%
+// ```c++
 const int MAXN =150;
 vector<int> edge[MAXN];
 double buf[MAXN];
@@ -49,4 +49,4 @@ public:
         return BFS(n, t, target);
     }
 };
-```
+// ```

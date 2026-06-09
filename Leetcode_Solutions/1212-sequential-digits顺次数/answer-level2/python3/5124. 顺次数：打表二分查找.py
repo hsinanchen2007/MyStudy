@@ -1,9 +1,9 @@
-### 解题思路
-打表二分查找
+# ### 解题思路
+# 打表二分查找
 
-### 代码
+# ### 代码
 
-```python []
+# ```python []
 class Solution:
     def sequentialDigits(self, low: int, high: int) -> List[int]:
         d = [
@@ -12,6 +12,6 @@ class Solution:
             345678, 456789, 1234567, 2345678, 3456789, 12345678, 23456789, 123456789
         ]
         return d[bisect.bisect_left(d, low): bisect.bisect(d, high)]
-```
+# ```
 
-![image.png](https://pic.leetcode-cn.com/e75b3e36fbc1274446b4b2c85fd5095caaf56e6fd6890dd710c256b3397d7d03-image.png)
+# ![image.png](https://pic.leetcode-cn.com/e75b3e36fbc1274446b4b2c85fd5095caaf56e6fd6890dd710c256b3397d7d03-image.png)

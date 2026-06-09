@@ -1,6 +1,6 @@
-我觉得有一个需要注意的问题是，在求跨越边界的子序列最大和的时候要注意初始的最大值不应该是 0，应该是起始位置的值，否则全是负数的时候，求出来的结果就不对了。
+// 我觉得有一个需要注意的问题是，在求跨越边界的子序列最大和的时候要注意初始的最大值不应该是 0，应该是起始位置的值，否则全是负数的时候，求出来的结果就不对了。
 
-```golang
+// ```golang
 func maxSubArray(nums []int) int {
     return divideAndConquer(nums, 0, len(nums)-1)
 }
@@ -45,4 +45,4 @@ func max(leftSum, rightSum, crossBorderSum int) int {
     }
     return crossBorderSum
 }
-```
+// ```

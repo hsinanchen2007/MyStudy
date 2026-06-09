@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class Solution
 {
 public:
@@ -11,4 +11,4 @@ public:
         return max_reach >= int(nums.size()) - 1;
     }
 };
-```
+// ```

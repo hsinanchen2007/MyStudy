@@ -1,9 +1,9 @@
-### 解题思路
-remove方法,利用异常捕获，执行速度很快
+# ### 解题思路
+# remove方法,利用异常捕获，执行速度很快
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def removeElement(self, nums: List[int], val: int) -> int:
         try:
@@ -12,4 +12,4 @@ class Solution:
         except:
             return len(nums)          
         
-```
+# ```

@@ -1,11 +1,11 @@
-### 解题思路
-先依据arr2，遍历arr1,把arr2中没有但arr1中有的元素，放在arr1的尾部
-再对尾部进行sort
-再遍历arr2的每个元素，锁定arr1中的相同元素，再按顺序插入arr1前部中（交换arr1中的元素实现插入）
+// ### 解题思路
+// 先依据arr2，遍历arr1,把arr2中没有但arr1中有的元素，放在arr1的尾部
+// 再对尾部进行sort
+// 再遍历arr2的每个元素，锁定arr1中的相同元素，再按顺序插入arr1前部中（交换arr1中的元素实现插入）
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] relativeSortArray(int[] arr1, int[] arr2) {
      if(arr2.length!=0){
@@ -83,4 +83,4 @@ class Solution {
 
 
 }
-```
+// ```

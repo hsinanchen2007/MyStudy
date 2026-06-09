@@ -1,5 +1,5 @@
-中间注释掉的语句是我的思考过程
-```
+// 中间注释掉的语句是我的思考过程
+// ```
 bool validateStackSequences(int* pushed, int pushedSize, int* popped, int poppedSize){
 
     if(/*pushedSize != poppedSize || */pushedSize==0)
@@ -20,4 +20,4 @@ bool validateStackSequences(int* pushed, int pushedSize, int* popped, int
     return false;
     //如果push完了，无法将栈 pop完，则为不合法，否则为合法
 }
-```
+// ```

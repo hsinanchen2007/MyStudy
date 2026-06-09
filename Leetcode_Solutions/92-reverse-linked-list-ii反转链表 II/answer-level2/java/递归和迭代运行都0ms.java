@@ -1,5 +1,5 @@
-递归版本
-```
+// 递归版本
+// ```
     ListNode nextNode;
     public ListNode reverseBetween(ListNode head, int m, int n) {
         ListNode cur = head;
@@ -33,11 +33,11 @@
         node.next = null;
         return listNode;
     }
-```
+// ```
 
 
-迭代版本
-```
+// 迭代版本
+// ```
     public ListNode reverseBetween(ListNode head, int m, int n) {
         ListNode cur = head;
         ListNode prev = null;
@@ -67,6 +67,6 @@
         }
         return head;
     }
-```
+// ```
 
-懒得写注解哈哈！有人问我再来写哈哈
+// 懒得写注解哈哈！有人问我再来写哈哈

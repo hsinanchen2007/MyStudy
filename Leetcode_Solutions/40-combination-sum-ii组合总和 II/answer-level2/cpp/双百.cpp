@@ -1,10 +1,10 @@
-### 解题思路
-![1586001106(1).png](https://pic.leetcode-cn.com/d65dae0aa3cda0af492461bb54a8105c1ae6aa0a231a767d80441848a0091ff4-1586001106\(1\).png)
-此处撰写解题思路
+// ### 解题思路
+// ![1586001106(1).png](https://pic.leetcode-cn.com/d65dae0aa3cda0af492461bb54a8105c1ae6aa0a231a767d80441848a0091ff4-1586001106\(1\).png)
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> res;
@@ -34,4 +34,4 @@ public:
         }
     }
 };
-```
+// ```

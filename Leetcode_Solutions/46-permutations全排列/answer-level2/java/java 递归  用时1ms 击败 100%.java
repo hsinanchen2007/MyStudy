@@ -1,13 +1,13 @@
-![image.png](https://pic.leetcode-cn.com/8c3781796dbf521667933e87777d0a70fce8be162ba92160ed54d750e30fa877-image.png)
+// ![image.png](https://pic.leetcode-cn.com/8c3781796dbf521667933e87777d0a70fce8be162ba92160ed54d750e30fa877-image.png)
 
-解题思路
-    1.固定开始元素,剩下的元素进行全排列
-    2.继续固定下一位元素,剩下的元素进行全排列
-    3.递归终点为最后一个元素
-    4.交换下一个元素,重复执行第一步,直到所有元素替换完成
+// 解题思路
+//     1.固定开始元素,剩下的元素进行全排列
+//     2.继续固定下一位元素,剩下的元素进行全排列
+//     3.递归终点为最后一个元素
+//     4.交换下一个元素,重复执行第一步,直到所有元素替换完成
 
 
-```
+// ```
     //保存所有结果的集合
     private List<List<Integer>> listNums = new ArrayList<>();
     public List<List<Integer>> permute(int[] nums) {
@@ -44,4 +44,4 @@
         nums[source] = temp;
     }
 
-```
+// ```

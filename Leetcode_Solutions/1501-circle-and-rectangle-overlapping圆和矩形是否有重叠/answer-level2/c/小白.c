@@ -1,11 +1,11 @@
-### 解题思路
-1判断圆心是否在矩形m内
-2判断4个角是否在矩形内
-3把圆画成正方形 判断是否有重叠
+// ### 解题思路
+// 1判断圆心是否在矩形m内
+// 2判断4个角是否在矩形内
+// 3把圆画成正方形 判断是否有重叠
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 
 bool checkOverlap(int radius, int x_center, int y_center, int x1, int y1, int x2, int y2){
@@ -40,4 +40,4 @@ bool checkOverlap(int radius, int x_center, int y_center, int x1, int y1, int x2
 }
 
 
-```
+// ```

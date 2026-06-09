@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-从高位开始判断，如果有 ``6`` 就反转成为 ``9`` 并直接返回结果，否则一直往下循环。
+// 从高位开始判断，如果有 ``6`` 就反转成为 ``9`` 并直接返回结果，否则一直往下循环。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} num
  * @return {number}
@@ -18,4 +18,4 @@ var maximum69Number  = function(num) {
     }
     return num
 };
-```
+// ```

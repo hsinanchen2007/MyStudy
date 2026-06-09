@@ -1,5 +1,5 @@
 
-```java []
+// ```java []
 class Solution {
     public int mySqrt(int x) {
         //排除特殊情况
@@ -37,5 +37,5 @@ class Solution {
         return result;
     }
 }
-```
+// ```
 

@@ -1,9 +1,9 @@
-### 解题思路
-转换成有向图后，求最长的路径
+# ### 解题思路
+# 转换成有向图后，求最长的路径
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxJumps(self, arr: List[int], d: int) -> int:
         
@@ -42,4 +42,4 @@ class Solution:
         for i in range(N):
             dfs(i, -1)
         return max(ans)
-```
+# ```

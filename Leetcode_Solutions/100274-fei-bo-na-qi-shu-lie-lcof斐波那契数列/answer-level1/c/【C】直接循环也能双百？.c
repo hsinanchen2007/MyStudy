@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int fib(int n){
     if(n<2) return n;
     unsigned long ans=0, d1 = 0, d2 = 1;
@@ -14,4 +14,4 @@ int fib(int n){
     }
     return ans;
 }
-```
+// ```

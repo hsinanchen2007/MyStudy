@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean isRobotBounded(String instructions) {
         int i = 0,j=0;//向东向北增加，向西向南减少
@@ -26,4 +26,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

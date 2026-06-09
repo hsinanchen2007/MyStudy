@@ -1,15 +1,15 @@
-### 解题思路
-采用两种递归思路：
-思路一：
-自定义递归函数，传入指针变量接受值；
-思路二：
-不需要自定义递归函数，用局部变量接受递归完毕返回的值。
+// ### 解题思路
+// 采用两种递归思路：
+// 思路一：
+// 自定义递归函数，传入指针变量接受值；
+// 思路二：
+// 不需要自定义递归函数，用局部变量接受递归完毕返回的值。
 
-两种均是100%
+// 两种均是100%
 
-### 代码
-思路一：
-```go
+// ### 代码
+// 思路一：
+// ```go
 func sumOfLeftLeaves(root *TreeNode) int {
     
     if root == nil {
@@ -33,9 +33,9 @@ func Run(sum *int,root *TreeNode)  {
     Run(sum,root.Right)
 
 }
-```
-思路二：
-```golang
+// ```
+// 思路二：
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -62,4 +62,4 @@ func sumOfLeftLeaves(root *TreeNode) int {
 
 
 
-```
+// ```

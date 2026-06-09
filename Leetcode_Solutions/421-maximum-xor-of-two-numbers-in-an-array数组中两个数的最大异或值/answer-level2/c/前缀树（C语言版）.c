@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 struct trie{
     struct trie *one;
     struct trie *zeros;
@@ -69,4 +69,4 @@ int findMaximumXOR(int* nums, int numsSize){
     }
     return ans;
 }
-```
+// ```

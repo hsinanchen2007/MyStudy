@@ -1,22 +1,22 @@
-### 解题思路
-**核心思路：** 在玩家每次移动后，判断该位置所在的行和列是否达到获胜条件；如果该元素在主或副对角线上，判断对角线上是否达到获胜条件。
+// ### 解题思路
+// **核心思路：** 在玩家每次移动后，判断该位置所在的行和列是否达到获胜条件；如果该元素在主或副对角线上，判断对角线上是否达到获胜条件。
 
-**优化：** 避免重复判断显然无法达到获胜条件的情况。
+// **优化：** 避免重复判断显然无法达到获胜条件的情况。
 
-这里用到了6个成员变量：
+// 这里用到了6个成员变量：
 
-```cpp
+// ```cpp
 vector<vector<char>> board; // 记录n x n的网格
 vector<char> symbols; // player 1 使用'X'，player 2使用'O'
 vector<bool> row_state; // 记录每行的状态，如果'X'和'O'同时出现在某一行，则后续无需核验该行
 vector<bool> col_state; // 记录每行的状态，如果'X'和'O'同时出现在某一列，则后续无需核验该列
 bool d1; // 记录主对角线的状态，如果'X'和'O'同时出现，则后续无需核验主对角线
 bool d2; // 记录副对角线的状态，如果'X'和'O'同时出现，则后续无需核验主副角线
-```
+// ```
 
-初始化：
+// 初始化：
 
-```cpp
+// ```cpp
 explicit TicTacToe(int n)
             : board(vector<vector<char>>(n, vector<char>(n, ' '))),
               symbols({'X', 'O'}),
@@ -24,13 +24,13 @@ explicit TicTacToe(int n)
               col_state(vector<bool>(n, true)),
               d1{true},
               d2{true} {}
-```
+// ```
 
-网格的每个cell均为空（使用`' '`表示），所有行、所有列、主对角线以及副对角线都有可能达到获胜条件，所以都为`true`。
+// 网格的每个cell均为空（使用`' '`表示），所有行、所有列、主对角线以及副对角线都有可能达到获胜条件，所以都为`true`。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class TicTacToe {
 public:
     /** Initialize your data structure here. */
@@ -121,8 +121,8 @@ private:
     bool d1;
     bool d2;
 };
-```
+// ```
 
-### 时间复杂度
+// ### 时间复杂度
 
-`move`的时间复杂度为`O(n)`。
+// `move`的时间复杂度为`O(n)`。

@@ -1,20 +1,20 @@
-### 解题思路
-1、对vector升序排序。
+// ### 解题思路
+// 1、对vector升序排序。
 
-2、遍历排序后的nums：
-nums[k]作为第一个数，
-指针 i = k+1，用于找第二个数；
-指针 j = len-1，用于找第三个数；
-sum3 = nums[k] + num[i] + num[j]。
+// 2、遍历排序后的nums：
+// nums[k]作为第一个数，
+// 指针 i = k+1，用于找第二个数；
+// 指针 j = len-1，用于找第三个数；
+// sum3 = nums[k] + num[i] + num[j]。
 
-3、双指针的移动规则：
-sum3 > target，需要减小sum3的值，j--选择较小的正数；
-sum3 < target，需要增加sum3的值，i++选择较大的负数；
-sum3 = 0，直接返回target。
+// 3、双指针的移动规则：
+// sum3 > target，需要减小sum3的值，j--选择较小的正数；
+// sum3 < target，需要增加sum3的值，i++选择较大的负数；
+// sum3 = 0，直接返回target。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int threeSumClosest(vector<int>& nums, int target) {
@@ -40,4 +40,4 @@ public:
         return xx;
     }
 };
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-就这样。。。
-![image.png](https://pic.leetcode-cn.com/6c6ba34f3ef0c58f84c2062d4a0a4ea882130bfa0f2fa5ae19be9d41e1fb01ae-image.png)
+// ### 解题思路
+// 就这样。。。
+// ![image.png](https://pic.leetcode-cn.com/6c6ba34f3ef0c58f84c2062d4a0a4ea882130bfa0f2fa5ae19be9d41e1fb01ae-image.png)
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -28,4 +28,4 @@ var middleNode = function (head) {
     }
     return nodeArr[Math.floor(nodeArr.length / 2)];
 };
-```
+// ```

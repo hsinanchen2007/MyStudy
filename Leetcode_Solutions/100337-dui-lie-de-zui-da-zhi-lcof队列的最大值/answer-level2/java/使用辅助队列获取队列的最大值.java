@@ -1,7 +1,7 @@
-## 解题思路：使用队列 data 实现队列的正常入队和出队操作；
-## 使用一个辅助的双向队列 helper（代码中使用LinkedList实现）在常数时间内获取队列中的最大值，helper为一个单调递减的队列
+// ## 解题思路：使用队列 data 实现队列的正常入队和出队操作；
+// ## 使用一个辅助的双向队列 helper（代码中使用LinkedList实现）在常数时间内获取队列中的最大值，helper为一个单调递减的队列
 
-##代码
+// ##代码
 class MaxQueue {
     Queue<Integer> data;
     LinkedList<Integer> helper;

@@ -1,5 +1,5 @@
-use map
-```
+// use map
+// ```
 func gridIllumination(N int, lamps [][]int, queries [][]int) []int {
 	x1, x2, x3, x4 := make(map[int]int), make(map[int]int), make(map[int]int), make(map[int]int)
 	open := make(map[int]map[int]struct{})
@@ -44,4 +44,4 @@ func gridIllumination(N int, lamps [][]int, queries [][]int) []int {
 	}
 	return answer
 }
-```
+// ```

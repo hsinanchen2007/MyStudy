@@ -1,6 +1,6 @@
-执行用时 :0 ms, 在所有 java 提交中击败了100.00% 的用户
-内存消耗 :36 MB, 在所有 java 提交中击败了59.69%的用户
-```
+// 执行用时 :0 ms, 在所有 java 提交中击败了100.00% 的用户
+// 内存消耗 :36 MB, 在所有 java 提交中击败了59.69%的用户
+// ```
 class Solution {
     public void rotate(int[][] matrix) {
         if(matrix == null || matrix.length < 1 || matrix[0].length < 1)
@@ -28,4 +28,4 @@ class Solution {
         matrix[j][i] = temp;
     }
 }
-```
+// ```

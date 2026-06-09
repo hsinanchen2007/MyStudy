@@ -1,6 +1,6 @@
-两个都是100%
-代码简单明了
-```
+// 两个都是100%
+// 代码简单明了
+// ```
     bool isValid(string s) {
         if (s.empty()) return true;
 		stack<char>	stc;
@@ -23,4 +23,4 @@
 				}
 		return stc.empty();
     }
-```
+// ```

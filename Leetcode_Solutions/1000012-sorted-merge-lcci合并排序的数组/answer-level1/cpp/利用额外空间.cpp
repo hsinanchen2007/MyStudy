@@ -1,9 +1,9 @@
-### 解题思路
-用A中元素构建一个新数组，然后用类似归并排序中的归并方法构建原数组A
+// ### 解题思路
+// 用A中元素构建一个新数组，然后用类似归并排序中的归并方法构建原数组A
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void merge(vector<int>& A, int m, vector<int>& B, int n) {
@@ -29,4 +29,4 @@ public:
         }
     }
 };
-```
+// ```

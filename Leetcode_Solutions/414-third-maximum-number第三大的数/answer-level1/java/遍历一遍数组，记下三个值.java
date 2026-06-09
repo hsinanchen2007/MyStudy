@@ -1,5 +1,5 @@
-遍历结束后，如果三个数之间存在相等数，则表示第三大的数不存在，时间复杂度O（n）
-```
+// 遍历结束后，如果三个数之间存在相等数，则表示第三大的数不存在，时间复杂度O（n）
+// ```
 public class Solution {
     public int thirdMax(int[] nums) {
     	int min=Integer.MAX_VALUE;
@@ -29,4 +29,4 @@ public class Solution {
         return third;
         }
 }
-```
+// ```

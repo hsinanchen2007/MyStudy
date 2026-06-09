@@ -1,8 +1,8 @@
-### 解题思路
-遍历，将连续重复的字符看成一个字符，然后比较两边对称的字符
-### 代码
+// ### 解题思路
+// 遍历，将连续重复的字符看成一个字符，然后比较两边对称的字符
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string longestPalindrome(string s) {
@@ -44,4 +44,4 @@ public:
         return *str;
     }
 };
-```
+// ```

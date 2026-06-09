@@ -1,18 +1,18 @@
-## 32-I.从上到下打印二叉树
+// ## 32-I.从上到下打印二叉树
 
-### Information
+// ### Information
 
-* TIME: 2020/02/15
-* LINK: [Click Here](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-lcof/)
-* TAG: `BFS` `Tree`
+// * TIME: 2020/02/15
+// * LINK: [Click Here](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-lcof/)
+// * TAG: `BFS` `Tree`
 
-### Description
+// ### Description
 
-> 从上到下打印出二叉树的每个节点，同一层的节点按照从左到右的顺序打印。
+// > 从上到下打印出二叉树的每个节点，同一层的节点按照从左到右的顺序打印。
 
-### Example
+// ### Example
 
-```text
+// ```text
 例如:
 给定二叉树: [3,9,20,null,null,15,7],
 
@@ -24,13 +24,13 @@
 返回：
 
 [3,9,20,15,7]
-```
+// ```
 
-### My Answer
+// ### My Answer
 
-> 队列模拟层次遍历
+// > 队列模拟层次遍历
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -68,23 +68,23 @@ class Solution {
         return res;
     }
 }
-```
+// ```
 
-### Extend & Reference
+// ### Extend & Reference
 
-> 来源：力扣（LeetCode）
-> 链接：https://leetcode-cn.com
-> 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+// > 来源：力扣（LeetCode）
+// > 链接：https://leetcode-cn.com
+// > 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
-### More
+// ### More
 
-> **更多题解，请访问我的GitHub仓库：[LeetCode 刷题日记](https://github.com/ZhuoZhuoCrayon/my-Nodes/blob/master/Daily/README_2020.md)**
->
-> [无效的图片地址](https://raw.githubusercontent.com/ZhuoZhuoCrayon/my-Nodes/master/Daily/img/mynode.png)
->
-> [**更多笔记**](https://github.com/ZhuoZhuoCrayon/my-Nodes)：**`Vue` `Java SSM 框架` `阿里云服务器` `JavaScript/HTML/CSS`   `数据库` ...**
->
-> **我的GitHub主页 -> [ZhuoZhuoCrayon](https://github.com/ZhuoZhuoCrayon)**
->
-> 共勉~
+// > **更多题解，请访问我的GitHub仓库：[LeetCode 刷题日记](https://github.com/ZhuoZhuoCrayon/my-Nodes/blob/master/Daily/README_2020.md)**
+// >
+// > [无效的图片地址](https://raw.githubusercontent.com/ZhuoZhuoCrayon/my-Nodes/master/Daily/img/mynode.png)
+// >
+// > [**更多笔记**](https://github.com/ZhuoZhuoCrayon/my-Nodes)：**`Vue` `Java SSM 框架` `阿里云服务器` `JavaScript/HTML/CSS`   `数据库` ...**
+// >
+// > **我的GitHub主页 -> [ZhuoZhuoCrayon](https://github.com/ZhuoZhuoCrayon)**
+// >
+// > 共勉~
 

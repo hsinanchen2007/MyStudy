@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int kthSmallest(int[][] matrix, int k) {
         PriorityQueue<Integer> queue = new PriorityQueue<>(new Comparator<Integer>() {
@@ -21,4 +21,4 @@ class Solution {
         return queue.peek();
     }
 }
-```
+// ```

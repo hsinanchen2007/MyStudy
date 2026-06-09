@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def minPathSum(grid: Array[Array[Int]]): Int = {
     if (grid.isEmpty || grid(0).isEmpty) return 0
@@ -8,4 +8,4 @@ object Solution {
     dp(grid(0).length - 1)
   }
 }
-```
+// ```

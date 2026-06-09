@@ -1,11 +1,11 @@
-### 解题思路
-链表处理，为了节约空间，将l2并入l1。
+// ### 解题思路
+// 链表处理，为了节约空间，将l2并入l1。
 
-![image.png](https://pic.leetcode-cn.com/ae680f34660027ab26e4842fb562709c730de5ad8a25070c940fbfd0053abdf6-image.png)
+// ![image.png](https://pic.leetcode-cn.com/ae680f34660027ab26e4842fb562709c730de5ad8a25070c940fbfd0053abdf6-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -49,4 +49,4 @@ public:
         return head;
     }
 };
-```
+// ```

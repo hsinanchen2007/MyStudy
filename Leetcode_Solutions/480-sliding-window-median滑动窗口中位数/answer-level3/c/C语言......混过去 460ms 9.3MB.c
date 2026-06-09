@@ -1,9 +1,9 @@
-### 解题思路
-思个鬼啊，我现在就想...骂人
+// ### 解题思路
+// 思个鬼啊，我现在就想...骂人
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -80,4 +80,4 @@ double* medianSlidingWindow(int* nums, int numsSize, int k, int* returnSize){
     }
     return result;
 }
-```
+// ```

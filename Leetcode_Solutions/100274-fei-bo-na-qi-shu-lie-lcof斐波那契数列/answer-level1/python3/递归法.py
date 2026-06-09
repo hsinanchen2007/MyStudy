@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def fib(self, n):
         """
@@ -10,9 +10,9 @@ class Solution(object):
         if n == 1 or n == 2:
             return 1
         return self.fib(n-1)+self.fib(n-2)
-```
+# ```
 
 
 
 
-备注：递归法可以解决问题，但是会超出时间限制！
+# 备注：递归法可以解决问题，但是会超出时间限制！

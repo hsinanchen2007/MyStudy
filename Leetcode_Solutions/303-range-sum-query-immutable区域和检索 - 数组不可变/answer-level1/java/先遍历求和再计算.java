@@ -1,9 +1,9 @@
-### 解题思路
-借鉴了其他的思路
+// ### 解题思路
+// 借鉴了其他的思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class NumArray {
 
     private final int[] sum;
@@ -25,4 +25,4 @@ class NumArray {
  * NumArray obj = new NumArray(nums);
  * int param_1 = obj.sumRange(i,j);
  */
-```
+// ```

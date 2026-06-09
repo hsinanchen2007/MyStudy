@@ -1,5 +1,5 @@
-# 第一次的思维
-```java
+// # 第一次的思维
+// ```java
 /**
      * 自解-虽然是对的，但是完全没有考虑其他的问题，代码冗长
      * 由于没有考虑，最后的进位该如何处理，最开始的想法只能是这样
@@ -66,10 +66,10 @@ private boolean propagation(char[] ans,int i, char l, char r, boolean propagatio
         }
         return propagation;
     }
-```
+// ```
 
-# 第二次的思维
-```java
+// # 第二次的思维
+// ```java
 /**
      * 自解-减少冗余代码
      * 1、不关心a,b的长短，将a或b用完，再接着用a或b
@@ -113,9 +113,9 @@ private boolean propagation(char[] ans,int i, char l, char r, boolean propagatio
         }
         return propagation;
     }
-```
-# 第三次的思维
-```java
+// ```
+// # 第三次的思维
+// ```java
 /**
      * 自解-减少冗余代码，代价就是代码可读性变低
      * 1、不关心a,b的长短，将a或b用完，再接着用a或b
@@ -146,4 +146,4 @@ private boolean propagation(char[] ans,int i, char l, char r, boolean propagatio
         }
         return sb.reverse().toString();
     }
-```
+// ```

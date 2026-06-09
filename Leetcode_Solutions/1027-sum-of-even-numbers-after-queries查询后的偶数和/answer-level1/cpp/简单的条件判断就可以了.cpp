@@ -1,4 +1,4 @@
-```
+// ```
 
 class Solution {
     //先算出初始A中的所有偶数和SUM。再判断改变的项对原偶数和有什么影响。
@@ -47,5 +47,5 @@ public:
         
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/eb3f97f2eb4516c55756074fbbd65fe3c7a80f7cdc14e97fc2cd6a8fe79967ca-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/eb3f97f2eb4516c55756074fbbd65fe3c7a80f7cdc14e97fc2cd6a8fe79967ca-image.png)

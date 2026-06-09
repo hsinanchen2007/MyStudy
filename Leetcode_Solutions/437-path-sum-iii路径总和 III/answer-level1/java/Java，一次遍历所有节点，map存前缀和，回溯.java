@@ -1,17 +1,17 @@
-### 解题思路
+// ### 解题思路
 
-![捕获.JPG](https://pic.leetcode-cn.com/cf88d3ff9e1d18209b6faf60e806c4c4ae8adf6bcd80cea0265afe407d5b2ff4-%E6%8D%95%E8%8E%B7.JPG)
+// ![捕获.JPG](https://pic.leetcode-cn.com/cf88d3ff9e1d18209b6faf60e806c4c4ae8adf6bcd80cea0265afe407d5b2ff4-%E6%8D%95%E8%8E%B7.JPG)
 
-思路类似560题的hashmap的解法[https://leetcode-cn.com/problems/subarray-sum-equals-k/]()
- 首先理解求数组中和为k的子数组的总数
- 定义sum[i]代表0~i下标的元素和
- j>i时   i至j的元素和可以由两个前缀和求得:  sum[j]-sum[i]
- 即sum[j]-sum[i]=k时 count+1
- 所以也可以利用 sum[j]-k=sum[i] 求总数, 总数再加上sum[i]出现得次数即可,而 sum[i]出现得次数可以用map存起来。
-对于树，和求数组中和为k的子数组不同的是要回溯，走过得路径要回退。
-### 代码
+// 思路类似560题的hashmap的解法[https://leetcode-cn.com/problems/subarray-sum-equals-k/]()
+//  首先理解求数组中和为k的子数组的总数
+//  定义sum[i]代表0~i下标的元素和
+//  j>i时   i至j的元素和可以由两个前缀和求得:  sum[j]-sum[i]
+//  即sum[j]-sum[i]=k时 count+1
+//  所以也可以利用 sum[j]-k=sum[i] 求总数, 总数再加上sum[i]出现得次数即可,而 sum[i]出现得次数可以用map存起来。
+// 对于树，和求数组中和为k的子数组不同的是要回溯，走过得路径要回退。
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -60,4 +60,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

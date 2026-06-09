@@ -1,9 +1,9 @@
-### 解题思路
-将字符串反转再遍历，用标志flag区分单词前的空格和单词后的空格，count计数返回
+// ### 解题思路
+// 将字符串反转再遍历，用标志flag区分单词前的空格和单词后的空格，count计数返回
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int lengthOfLastWord(string s) {
@@ -25,4 +25,4 @@ public:
         return count;
     }
 };
-```
+// ```

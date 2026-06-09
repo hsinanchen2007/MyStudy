@@ -1,10 +1,10 @@
-### 解题思路
-从二叉树问题的遍历的框架开始思考问题，这里要知道左右子树的和才能处理后续的动作，所以优先选择后续遍历。
-在便利过程中，对所有节点求和剪枝。并将局部最优解记录到全局变量中。
+# ### 解题思路
+# 从二叉树问题的遍历的框架开始思考问题，这里要知道左右子树的和才能处理后续的动作，所以优先选择后续遍历。
+# 在便利过程中，对所有节点求和剪枝。并将局部最优解记录到全局变量中。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -24,4 +24,4 @@ class Solution:
         right = max(0, self.OneSideMax(root.right))
         self.ans = max(self.ans, left+right+root.val)
         return max(left, right) + root.val 
-```
+# ```

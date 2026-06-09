@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-主要被坑在l1 !== null && l2 !== null上
+// 主要被坑在l1 !== null && l2 !== null上
 
-一个结束循环后，直接在尾部添加另个的值
+// 一个结束循环后，直接在尾部添加另个的值
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -35,4 +35,4 @@ var mergeTwoLists = function(l1, l2) {
     p1.next = l1 == null ? l2 : l1;
     return result.next;
 };
-```
+// ```

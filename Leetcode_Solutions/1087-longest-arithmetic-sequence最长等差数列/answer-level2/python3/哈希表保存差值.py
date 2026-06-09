@@ -1,9 +1,9 @@
-### 解题思路
-dp:暴力的遍历
+# ### 解题思路
+# dp:暴力的遍历
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestArithSeqLength(self, A: List[int]) -> int:
         if not A:
@@ -22,4 +22,4 @@ class Solution:
                     dp[i][temp]=dp[j][temp]+1
                 maxLen=max(maxLen, dp[i][temp])
         return maxLen
-```
+# ```

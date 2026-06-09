@@ -1,5 +1,5 @@
 
-```
+// ```
 /**
  * buf[2*i]存储字符串转换为整数的值，buf[2*i+1]存储字符串长度。
  */
@@ -30,4 +30,4 @@ int maxProduct(char ** words, int wordsSize){
     
     return max;
 }
-```
+// ```

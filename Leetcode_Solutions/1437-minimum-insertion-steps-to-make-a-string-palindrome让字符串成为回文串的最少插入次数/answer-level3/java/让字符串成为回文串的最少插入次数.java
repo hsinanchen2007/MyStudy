@@ -1,5 +1,5 @@
-动态规划保存记录
-```
+// 动态规划保存记录
+// ```
 import java.util.*;
 class Solution {
     public int minInsertions(String s) {
@@ -28,4 +28,4 @@ class Solution {
         return hash[start][end];
     }
 }
-```
+// ```

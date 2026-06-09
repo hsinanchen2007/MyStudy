@@ -1,6 +1,6 @@
-![Leetcode.png](https://pic.leetcode-cn.com/ebf1cdbbf656adb5e925409075f0d8b46e1c8976f560e16ce1ee294c30be18d7-Leetcode.png)
+// ![Leetcode.png](https://pic.leetcode-cn.com/ebf1cdbbf656adb5e925409075f0d8b46e1c8976f560e16ce1ee294c30be18d7-Leetcode.png)
 
-```
+// ```
 public class MedianFinder
     {
         private Node root;
@@ -115,4 +115,4 @@ public class MedianFinder
         }
     }
 
-```
+// ```

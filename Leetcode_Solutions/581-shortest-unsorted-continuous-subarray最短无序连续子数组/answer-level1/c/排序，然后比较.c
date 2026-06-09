@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/a7695da17d320c719deeee7b47d18e96c34eb16007709c3374b50e77a269cbda-image.png)
-不能太依赖leetcode的测试用例，写完了记得自己构造测试用例。
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/a7695da17d320c719deeee7b47d18e96c34eb16007709c3374b50e77a269cbda-image.png)
+// 不能太依赖leetcode的测试用例，写完了记得自己构造测试用例。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int cmp(const void *a, const void *b)
 {
     return *(int*)a - *(int*)b;
@@ -34,4 +34,4 @@ int findUnsortedSubarray(int* nums, int numsSize){
     }
     return 0;
 }
-```
+// ```

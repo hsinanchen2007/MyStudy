@@ -1,9 +1,9 @@
-### 解题思路
-先用一次遍历得到链表长度len，找到新的head结点（n-k结点）和end结点（n-k-1），将链表重新排列即可。
-太傻了，第一次做的时候没过脑子，直接用描述的方法循环右移，被一个案例k=20000000教做人了
-### 代码
+// ### 解题思路
+// 先用一次遍历得到链表长度len，找到新的head结点（n-k结点）和end结点（n-k-1），将链表重新排列即可。
+// 太傻了，第一次做的时候没过脑子，直接用描述的方法循环右移，被一个案例k=20000000教做人了
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -39,4 +39,4 @@ struct ListNode* rotateRight(struct ListNode* head, int k){
     
     return dummy->next;
 }
-```
+// ```

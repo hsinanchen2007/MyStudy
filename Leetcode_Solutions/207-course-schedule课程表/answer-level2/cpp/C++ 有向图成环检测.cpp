@@ -1,11 +1,11 @@
-C++ 有向图成环检测
-1.构造邻接表来表示图
-2.利用拓扑排序来检测是否成环，有环则无拓扑排序，无环则有拓扑排序
+// C++ 有向图成环检测
+// 1.构造邻接表来表示图
+// 2.利用拓扑排序来检测是否成环，有环则无拓扑排序，无环则有拓扑排序
 
-图论相关介绍可以参考
-https://wenku.baidu.com/view/a62704fcc381e53a580216fc700abb68a882ad09.html?from=search
+// 图论相关介绍可以参考
+// https://wenku.baidu.com/view/a62704fcc381e53a580216fc700abb68a882ad09.html?from=search
 
-```
+// ```
 class Solution {
 public:
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
@@ -54,4 +54,4 @@ public:
         return count == numCourses;
     }
 };
-```
+// ```

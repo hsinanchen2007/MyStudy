@@ -1,5 +1,5 @@
 
-```
+// ```
 int* inorderTraversal(struct TreeNode* root, int* returnSize){
     int* ret = (int*)malloc(1000*sizeof(int));
     struct stack{
@@ -23,4 +23,4 @@ int* inorderTraversal(struct TreeNode* root, int* returnSize){
     *returnSize = i;
     return ret;
 }
-```
+// ```

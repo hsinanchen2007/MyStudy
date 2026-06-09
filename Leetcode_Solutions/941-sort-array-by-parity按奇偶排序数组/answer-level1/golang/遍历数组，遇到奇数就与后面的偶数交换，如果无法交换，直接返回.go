@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func sortArrayByParity(A []int) []int {
     //思路:从头遍历，遇到奇数就与后面的偶数交换，如果无交换，直接返回
     n := len(A)
@@ -26,4 +26,4 @@ func sortArrayByParity(A []int) []int {
     }
     return A
 }
-```
+// ```

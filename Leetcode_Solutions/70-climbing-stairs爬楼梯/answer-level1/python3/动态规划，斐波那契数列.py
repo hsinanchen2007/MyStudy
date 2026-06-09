@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def climbStairs(self, n):
         """
@@ -12,4 +12,4 @@ class Solution(object):
         for i in range(2, n):
             p2, p1 = p1, p1 + p2
         return p1
-```
+# ```

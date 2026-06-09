@@ -1,5 +1,5 @@
-先找到旋转点，再把数组分为两组，旋转点前的为一组，之后的为一组，根据target的值选择在哪组中用二分法查找
-```
+# 先找到旋转点，再把数组分为两组，旋转点前的为一组，之后的为一组，根据target的值选择在哪组中用二分法查找
+# ```
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         if not nums:
@@ -31,4 +31,4 @@ class Solution:
                 else:
                     return m
             return -1
-```
+# ```

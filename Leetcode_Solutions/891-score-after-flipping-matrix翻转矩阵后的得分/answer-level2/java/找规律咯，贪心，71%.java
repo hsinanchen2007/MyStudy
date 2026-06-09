@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int matrixScore(int[][] A) {
         // 交替转行和列
@@ -42,4 +42,4 @@ class Solution {
         return rs;
     }
 }
-```
+// ```

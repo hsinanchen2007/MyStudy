@@ -1,4 +1,4 @@
-```
+// ```
 
 bool happy(int n, int * num) {
     int value;
@@ -24,4 +24,4 @@ bool isHappy(int n){
 }
 
 
-```
+// ```

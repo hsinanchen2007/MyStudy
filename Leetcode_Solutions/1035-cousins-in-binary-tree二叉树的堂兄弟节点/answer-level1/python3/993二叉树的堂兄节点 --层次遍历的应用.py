@@ -1,9 +1,9 @@
-### 解题思路
-可以通过层次遍历，看x,y是否在一个层级，再看他们是否同父节点（在遍历时记录）。
+# ### 解题思路
+# 可以通过层次遍历，看x,y是否在一个层级，再看他们是否同父节点（在遍历时记录）。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -49,4 +49,4 @@ class Solution:
 
 
 
-```
+# ```

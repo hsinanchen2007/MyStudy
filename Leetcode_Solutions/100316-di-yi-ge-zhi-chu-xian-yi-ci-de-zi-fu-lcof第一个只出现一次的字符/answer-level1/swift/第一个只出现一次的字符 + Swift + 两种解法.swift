@@ -1,5 +1,5 @@
-//自己想出来的low B方法，dic记录是否重复，queue记录不重复的顺序
-```
+// //自己想出来的low B方法，dic记录是否重复，queue记录不重复的顺序
+// ```
 class Solution {
     func firstUniqChar(_ s: String) -> Character {
         let sArray = Array(s)
@@ -25,9 +25,9 @@ class Solution {
         return Character(" ")
     }
 }
-```
-//leetcode大神的办法，需要dic记录是否重复状态，但是需要两次for循环
-```
+// ```
+// //leetcode大神的办法，需要dic记录是否重复状态，但是需要两次for循环
+// ```
 class Solution2 {
     func firstUniqChar(_ s: String) -> Character {
         let sArray = Array(s)
@@ -50,4 +50,4 @@ class Solution2 {
         return Character(" ")
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-### 解题思路
-```text
+// ### 解题思路
+// ```text
 先不考虑特殊情况，如x或y中某一个为空杯，目标值为0等
 1. 设x为较小的杯子，y为较大的杯子
 2. 初始化时，大杯为整杯水，小杯为空杯
@@ -16,10 +16,10 @@ x - (y - nx)      y if y - (n + 1)x < 0, 即将水杯中x倒满，通过水杯x�
 a. 直到最终结果（水杯y中的值或在倒换的一刻水杯x中的值）为z时停止遍历
 b. 否则直到numY*y - numX*x == 0，如果还没找到，则不能满足要求
 4. 结束
-```
-### 代码
+// ```
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canMeasureWater(int x, int y, int z) {
         // 边界条件判断，z为0返回true
@@ -68,10 +68,10 @@ class Solution {
         return false;
     }
 }
-```
+// ```
 
-### 测试用例
-```Java
+// ### 测试用例
+// ```Java
 public class SolutionTest {
     Solution solution = new Solution();
 
@@ -108,4 +108,4 @@ public class SolutionTest {
         assertTrue(res5);
     }
 }
-```
+// ```

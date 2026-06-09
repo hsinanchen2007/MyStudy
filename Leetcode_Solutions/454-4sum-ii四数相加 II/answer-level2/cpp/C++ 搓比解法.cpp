@@ -1,6 +1,6 @@
-有没有其他办法啊，这个感觉好搓
+// 有没有其他办法啊，这个感觉好搓
 
-```
+// ```
 class Solution {
 public:
     int fourSumCount(vector<int>& A, vector<int>& B, vector<int>& C, vector<int>& D) {
@@ -27,4 +27,4 @@ public:
         return res;
     }
 };
-```
+// ```

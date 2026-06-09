@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void quicksort(char* s, int l ,int r)
 {   
     int i = l;int j = r;
@@ -40,4 +40,4 @@ bool CheckPermutation(char* s1, char* s2){
     return false;
 
 }
-```
+// ```

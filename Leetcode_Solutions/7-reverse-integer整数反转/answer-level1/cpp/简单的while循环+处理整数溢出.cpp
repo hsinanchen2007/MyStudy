@@ -1,4 +1,4 @@
-```
+// ```
 package com.com.leetcode;
 
 //整数反转：只需要明白反转的时候res乘num的低位，循环可以实现
@@ -24,4 +24,4 @@ public class _8reverseNum {
         }
 }
 
-```
+// ```

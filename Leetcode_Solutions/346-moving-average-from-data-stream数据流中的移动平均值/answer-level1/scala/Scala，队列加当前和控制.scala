@@ -1,6 +1,6 @@
-估计极少有人用 scala 写了~~
+// 估计极少有人用 scala 写了~~
 
-```scala
+// ```scala
   // 忽略合法性校验。if (_size < 1) return 0D // 保证数据的合法性
   class MovingAverage(_size: Int) {
 
@@ -14,4 +14,4 @@
       sum / queue.size
     }
   }
-```
+// ```

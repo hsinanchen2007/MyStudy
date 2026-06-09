@@ -1,5 +1,5 @@
-## 递归
-```
+// ## 递归
+// ```
 class Solution {
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> res = new ArrayList<>();
@@ -17,10 +17,10 @@ class Solution {
         traversal(res, root.right);
     }
 }
-```
+// ```
 
-## 迭代
-```
+// ## 迭代
+// ```
 class Solution {
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> res = new ArrayList<>();
@@ -38,4 +38,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

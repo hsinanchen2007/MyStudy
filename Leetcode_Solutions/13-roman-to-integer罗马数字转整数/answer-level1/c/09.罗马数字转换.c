@@ -1,9 +1,9 @@
-### 解题思路
-这次改写成了指针的形式
+// ### 解题思路
+// 这次改写成了指针的形式
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int romanToInt(char *s){
     int result = 0;
     while(*s)
@@ -26,4 +26,4 @@ int romanToInt(char *s){
     }
     return result;
 }
-```
+// ```

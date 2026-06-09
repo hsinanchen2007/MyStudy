@@ -1,5 +1,5 @@
-mysql这种解法的话效率还可以
-```
+-- mysql这种解法的话效率还可以
+-- ```
 # Write your MySQL query statement below
 
 SELECT a.Id, a.Company, a.Salary
@@ -33,4 +33,4 @@ WHERE CASE
 			ELSE false
 		END
 END
-```
+-- ```

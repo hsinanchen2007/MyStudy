@@ -1,9 +1,9 @@
-小弟太菜了，本来是学中医的，现在打算暴力转码，各位多多包涵。很多地方都是hard-code
+# 小弟太菜了，本来是学中医的，现在打算暴力转码，各位多多包涵。很多地方都是hard-code
 
-1. 当list长度为1或者2的时候，直接暴力解法，硬写
-2. 当长度为3或者以上的时候，使用递归的方法来进行二分查找
-3. 
-```
+# 1. 当list长度为1或者2的时候，直接暴力解法，硬写
+# 2. 当长度为3或者以上的时候，使用递归的方法来进行二分查找
+# 3. 
+# ```
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
 
@@ -36,5 +36,5 @@ class Solution:
         else:
             temp = self.searchInsert(nums[0:midpoint],target)
             return temp
-```
+# ```
 

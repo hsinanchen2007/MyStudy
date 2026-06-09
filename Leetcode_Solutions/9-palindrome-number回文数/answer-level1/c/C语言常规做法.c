@@ -1,5 +1,5 @@
-在此做法中，不需要将整数转为字符串。
-```c
+// 在此做法中，不需要将整数转为字符串。
+// ```c
 bool isPalindrome(int x){
     int mirror=0,y=x;
     if (x<0) return 0;
@@ -11,4 +11,4 @@ bool isPalindrome(int x){
     if (mirror==y) return 1;
     else return 0;
 }
-```
+// ```

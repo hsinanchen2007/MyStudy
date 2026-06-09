@@ -1,5 +1,5 @@
 
-```
+// ```
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.atomic.AtomicInteger;
 class H2O {
@@ -28,4 +28,4 @@ class H2O {
 		h2.release(2);//释放两个H
     }
 }
-```
+// ```

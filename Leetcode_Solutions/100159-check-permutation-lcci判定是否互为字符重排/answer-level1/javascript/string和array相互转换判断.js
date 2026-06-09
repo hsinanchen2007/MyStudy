@@ -1,9 +1,9 @@
-### 解题思路
-将两个字符串的所有字符按字母排序, 判断是否相同即可
+// ### 解题思路
+// 将两个字符串的所有字符按字母排序, 判断是否相同即可
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s1
  * @param {string} s2
@@ -20,4 +20,4 @@ var CheckPermutation = function(s1, s2) {
     return arr1.toString() == arr2.toString();
 };
 
-```
+// ```

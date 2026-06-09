@@ -1,6 +1,6 @@
-我的想法就是沿着树，从 target 往根结点 root 走，在以这条路径上的每个结点为根结点的子树中找根结点距离为 k 的子结点。距离是变化的，每往 root 走一步，k就变为 k - 1。并且不能去找这条路径上的子树。
+// 我的想法就是沿着树，从 target 往根结点 root 走，在以这条路径上的每个结点为根结点的子树中找根结点距离为 k 的子结点。距离是变化的，每往 root 走一步，k就变为 k - 1。并且不能去找这条路径上的子树。
 
-```
+// ```
 class Solution {
     HashMap<TreeNode, TreeNode> map;
     HashSet<TreeNode> set;
@@ -62,4 +62,4 @@ class Solution {
         }
     }
 }
-```
+// ```

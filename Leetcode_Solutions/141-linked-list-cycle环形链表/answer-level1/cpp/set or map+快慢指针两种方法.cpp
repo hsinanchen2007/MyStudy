@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool hasCycle(ListNode *head) {
@@ -30,4 +30,4 @@ public:
         // return false;
     }
 };
-```
+// ```

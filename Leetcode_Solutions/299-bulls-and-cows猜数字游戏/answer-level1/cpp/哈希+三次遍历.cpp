@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     string getHint(string secret, string guess) {
@@ -26,4 +26,4 @@ s+='B';
 return s;
     }
 };
-```
+// ```

@@ -1,6 +1,6 @@
-/.. 弹出，/. 无动作，/abc 压入
+// /.. 弹出，/. 无动作，/abc 压入
 
-```javascript
+// ```javascript
 /**
  * @param {string} path
  * @return {string}
@@ -16,4 +16,4 @@ var simplifyPath = function(path) {
   })
   return "/" + result.join("/")
 };
-```
+// ```

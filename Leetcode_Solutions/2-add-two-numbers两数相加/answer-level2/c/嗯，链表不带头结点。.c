@@ -1,9 +1,9 @@
-### 解题思路
-依次相加即可
+// ### 解题思路
+// 依次相加即可
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -49,4 +49,4 @@ struct ListNode * addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
     } // 如果两个链表长度相同时，会发生循环已结束但 carry 不为 0 的情况，这时要另外插入一个结点。
     return returnList;
 }
-```
+// ```

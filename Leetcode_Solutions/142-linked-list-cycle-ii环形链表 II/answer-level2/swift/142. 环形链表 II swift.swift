@@ -1,4 +1,4 @@
-```
+// ```
 class ListNode {
     var val: Int
     var next: ListNode?
@@ -42,4 +42,4 @@ func firstNodeOfCicle(list: ListNode?) -> ListNode? {
     return nil
 }
 
-```
+// ```

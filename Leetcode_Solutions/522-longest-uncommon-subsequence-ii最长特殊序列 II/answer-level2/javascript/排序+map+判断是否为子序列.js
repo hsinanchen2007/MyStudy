@@ -1,9 +1,9 @@
-这题是[521. 最长特殊序列 Ⅰ](https://leetcode-cn.com/problems/longest-uncommon-subsequence-i/)的升级版
-1. 思想没有变=>***都是找出最长的字符串***
-2. 如果*当前判断的字符串*不是数组中**最长**的，则需要查找其他字符串是否有此相对顺序（比当前判断的字符串长）
-- *eg.['aabbcc', 'aabbcc', 'bcc', 'bc']*
-- 判断'bcc'是要注意'aabbcc'有其字符的相对顺序，不是特殊序列
-```javascript []
+// 这题是[521. 最长特殊序列 Ⅰ](https://leetcode-cn.com/problems/longest-uncommon-subsequence-i/)的升级版
+// 1. 思想没有变=>***都是找出最长的字符串***
+// 2. 如果*当前判断的字符串*不是数组中**最长**的，则需要查找其他字符串是否有此相对顺序（比当前判断的字符串长）
+// - *eg.['aabbcc', 'aabbcc', 'bcc', 'bc']*
+// - 判断'bcc'是要注意'aabbcc'有其字符的相对顺序，不是特殊序列
+// ```javascript []
 //判断是否满足相对顺序
 var Traverse = function(item, str) {
   let j = 0
@@ -52,7 +52,7 @@ var findLUSlength = function(strs) {
 
   return -1
 }
-```
+// ```
 
-![截屏2020-02-1720.07.19.png](https://pic.leetcode-cn.com/3b65fcfae460a5dc44ea7806c2c2da013dcc7b3f23818da55a251af50f6751df-%E6%88%AA%E5%B1%8F2020-02-1720.07.19.png)
+// ![截屏2020-02-1720.07.19.png](https://pic.leetcode-cn.com/3b65fcfae460a5dc44ea7806c2c2da013dcc7b3f23818da55a251af50f6751df-%E6%88%AA%E5%B1%8F2020-02-1720.07.19.png)
 

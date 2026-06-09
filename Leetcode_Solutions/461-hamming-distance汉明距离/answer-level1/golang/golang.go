@@ -1,4 +1,4 @@
-```
+// ```
 func hammingDistance(x int, y int) int {
     result := 0
 	z := x ^ y
@@ -14,4 +14,4 @@ func hammingDistance(x int, y int) int {
 
 	return result
 }
-```
+// ```

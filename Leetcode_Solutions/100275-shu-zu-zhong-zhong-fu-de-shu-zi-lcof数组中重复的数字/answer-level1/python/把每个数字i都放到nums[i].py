@@ -1,9 +1,9 @@
-### 解题思路
-RT
+# ### 解题思路
+# RT
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def findRepeatNumber(self, nums):
         """
@@ -28,4 +28,4 @@ class Solution(object):
                 else:
                     nums[nums[i]],nums[i]=nums[i],nums[nums[i]]
 
-```
+# ```

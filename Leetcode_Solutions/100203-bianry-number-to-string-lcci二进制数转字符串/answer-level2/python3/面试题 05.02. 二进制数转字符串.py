@@ -1,6 +1,6 @@
 
 
-```python []
+# ```python []
 class Solution:
     def printBin(self, num: float) -> str:
         if 0 < num < 1:
@@ -12,4 +12,4 @@ class Solution:
                 if not num:
                     return s
         return 'ERROR'
-```
+# ```

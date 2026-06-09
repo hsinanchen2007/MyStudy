@@ -1,6 +1,6 @@
-得对api非常熟练，不在ide里写大概率是一堆bug。
+// 得对api非常熟练，不在ide里写大概率是一堆bug。
 
-```
+// ```
 class Solution {
     public String frequencySort(String s) {
         if(s.length() == 0) return "";
@@ -25,4 +25,4 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-单调队列，滑动窗口（其实每次维护的单调队列就是一个窗口，每次窗口向前滑动一个单位，主要的操作在push上）
+// ### 解题思路
+// 单调队列，滑动窗口（其实每次维护的单调队列就是一个窗口，每次窗口向前滑动一个单位，主要的操作在push上）
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> maxSlidingWindow(vector<int>& nums, int k) {
@@ -36,4 +36,4 @@ public:
         return ans;
     }
 };
-```
+// ```

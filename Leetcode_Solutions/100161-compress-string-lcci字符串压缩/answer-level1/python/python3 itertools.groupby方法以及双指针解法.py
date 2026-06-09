@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-两种方法，一个双指针，注意边界即可。
-另一个是itertools的groupby方法，写起来比较简易。
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 两种方法，一个双指针，注意边界即可。
+# 另一个是itertools的groupby方法，写起来比较简易。
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def compressString(self, S: str) -> str:
         # ans = []
@@ -31,4 +31,4 @@ class Solution:
         else:
             return S
 
-```
+# ```

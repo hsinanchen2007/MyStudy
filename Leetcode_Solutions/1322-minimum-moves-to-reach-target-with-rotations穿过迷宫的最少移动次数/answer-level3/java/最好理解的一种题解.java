@@ -1,6 +1,6 @@
-比较典型的动态规划题，先初始化状态的边界值，然后计算其他的状态。
-dp数组的三维分别表示蛇的x,y位置，和水平（0）、竖直（1）状态
-```
+// 比较典型的动态规划题，先初始化状态的边界值，然后计算其他的状态。
+// dp数组的三维分别表示蛇的x,y位置，和水平（0）、竖直（1）状态
+// ```
 class Solution {
 public int minimumMoves(int[][] grid) {
         if (!(grid[0][0] == 0 && grid[0][1] == 0)) {
@@ -182,4 +182,4 @@ public int minimumMoves(int[][] grid) {
         return Integer.MAX_VALUE;
     }
 }
-```
+// ```

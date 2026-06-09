@@ -1,8 +1,8 @@
-![QQ图片20191130232359.png](https://pic.leetcode-cn.com/51b0dba83bcf4f98942e78fb246376cca8a270a9b88be30b212788f9f8334cba-QQ%E5%9B%BE%E7%89%8720191130232359.png)
+// ![QQ图片20191130232359.png](https://pic.leetcode-cn.com/51b0dba83bcf4f98942e78fb246376cca8a270a9b88be30b212788f9f8334cba-QQ%E5%9B%BE%E7%89%8720191130232359.png)
 
 
 
-```
+// ```
 class Solution {
     public boolean isAlienSorted(String[] words, String order) {
         //相邻两个单词进行比较
@@ -37,7 +37,7 @@ class Solution {
         return true;   
     }
 }
-```
+// ```
 
-仅供参考.  
-==================欢迎指教^-^================
+// 仅供参考.  
+// ==================欢迎指教^-^================

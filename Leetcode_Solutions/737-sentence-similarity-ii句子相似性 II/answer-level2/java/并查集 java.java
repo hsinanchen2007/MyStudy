@@ -1,7 +1,7 @@
-和大家写的差不多
-就是相当于将所有相似的词都合并成相同的集合，在这个集合中每个词的parent都一样
-最后判断words1和words2中的每个词的parent是否一样就行了
-```
+// 和大家写的差不多
+// 就是相当于将所有相似的词都合并成相同的集合，在这个集合中每个词的parent都一样
+// 最后判断words1和words2中的每个词的parent是否一样就行了
+// ```
 class Solution {
     Map<String, String> map = new HashMap<>();
     public boolean areSentencesSimilarTwo(String[] words1, String[] words2, List<List<String>> pairs) {
@@ -30,4 +30,4 @@ class Solution {
         return word;
     }
 }
-```
+// ```

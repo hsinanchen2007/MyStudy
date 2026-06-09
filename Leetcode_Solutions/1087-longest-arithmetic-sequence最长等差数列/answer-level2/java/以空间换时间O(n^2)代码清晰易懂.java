@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int longestArithSeqLength(int[] A) {
         int n = A.length;
@@ -14,4 +14,4 @@ class Solution {
         return res+1;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-整型变量里面 4 的幂有 16 个，那就打个表吧
+// ### 解题思路
+// 整型变量里面 4 的幂有 16 个，那就打个表吧
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isPowerOfFour(int num) {
@@ -14,4 +14,4 @@ public:
         return true;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-用字典将数据分组，求values是否存在大于1的公约数
+# ### 解题思路
+# 用字典将数据分组，求values是否存在大于1的公约数
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def hasGroupsSizeX(self, deck: List[int]) -> bool:
         
@@ -25,4 +25,4 @@ class Solution:
         
         return(False)
         
-```
+# ```

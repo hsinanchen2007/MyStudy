@@ -1,10 +1,10 @@
-### 解题思路
-标记矩阵中每个元素是否已经输出，顺时针共四个方向，每次等到触壁就改变方向，所有元素都标记后退出循环，
-![EIE7\]SH_DOYK@PIFQW5NY81.png](https://pic.leetcode-cn.com/f511b23186990d014f19553e17353588203ba6ac0bb866b78ce52f8ae76f3df1-EIE7%5DSH_DOYK@PIFQW5NY81.png)
-作为新手代码不太美观，见谅
-### 代码
+# ### 解题思路
+# 标记矩阵中每个元素是否已经输出，顺时针共四个方向，每次等到触壁就改变方向，所有元素都标记后退出循环，
+# ![EIE7\]SH_DOYK@PIFQW5NY81.png](https://pic.leetcode-cn.com/f511b23186990d014f19553e17353588203ba6ac0bb866b78ce52f8ae76f3df1-EIE7%5DSH_DOYK@PIFQW5NY81.png)
+# 作为新手代码不太美观，见谅
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def spiralOrder(self, matrix):
         """
@@ -38,4 +38,4 @@ class Solution(object):
             x += dir[0]
             y += dir[1]
         return res
-```
+# ```

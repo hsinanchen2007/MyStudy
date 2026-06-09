@@ -1,5 +1,5 @@
-这个要用ide慢慢断点调试，或者画图琢磨。
-```cpp []
+# 这个要用ide慢慢断点调试，或者画图琢磨。
+# ```cpp []
 class Solution {
 public:
     void hanota(vector<int>& A, vector<int>& B, vector<int>& C) {
@@ -18,8 +18,8 @@ public:
         }
     }
 };
-```
-```python3 []
+# ```
+# ```python3 []
 class Solution:
     def hanota(self, A: List[int], B: List[int], C: List[int]) -> None:
         def move(x, y, z):
@@ -30,5 +30,5 @@ class Solution:
                 move(x, y, z)
                 z.append(y.pop())
         move(A, B, C)
-```
+# ```
 

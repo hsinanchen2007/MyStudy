@@ -1,10 +1,10 @@
-### 解题思路
-![Snipaste_2020-03-12_15-45-56.png](https://pic.leetcode-cn.com/2a91dde9b82039f16804c8652327d42b966cd3f7c396875a26f4c4de31a6db4b-Snipaste_2020-03-12_15-45-56.png)
-暴力法竟然双百。。。奇幻！
+// ### 解题思路
+// ![Snipaste_2020-03-12_15-45-56.png](https://pic.leetcode-cn.com/2a91dde9b82039f16804c8652327d42b966cd3f7c396875a26f4c4de31a6db4b-Snipaste_2020-03-12_15-45-56.png)
+// 暴力法竟然双百。。。奇幻！
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isValid(int ** grid,int xstart,int ystart){
     int x,y;
     int i;
@@ -69,4 +69,4 @@ int numMagicSquaresInside(int** grid, int gridSize, int* gridColSize){
 	return cnt;
 
 }
-```
+// ```

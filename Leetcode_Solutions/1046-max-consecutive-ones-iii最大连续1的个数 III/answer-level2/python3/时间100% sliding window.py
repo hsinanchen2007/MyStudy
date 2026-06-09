@@ -1,8 +1,8 @@
-思路用的是这个：[https://leetcode-cn.com/problems/max-consecutive-ones-iii/solution/hua-dong-chuang-kou-de-chang-gui-jie-fa-by-xiaonen/]
-感谢大佬！[@xiaoneng](/u/xiaoneng/)
+# 思路用的是这个：[https://leetcode-cn.com/problems/max-consecutive-ones-iii/solution/hua-dong-chuang-kou-de-chang-gui-jie-fa-by-xiaonen/]
+# 感谢大佬！[@xiaoneng](/u/xiaoneng/)
 
 
-```python []
+# ```python []
 class Solution:
     def longestOnes(self, A: List[int], K: int) -> int:
         result = 0
@@ -21,4 +21,4 @@ class Solution:
             result = max(result, right - left + 1)
             right += 1
         return result
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func divisorGame(_ N: Int) -> Bool {
         var n = N
@@ -27,4 +27,4 @@ class Solution {
         return count%2 == 1 ? true:false
     }
 }
-```
+// ```

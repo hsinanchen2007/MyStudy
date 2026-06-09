@@ -1,11 +1,11 @@
-### 解题思路
-就递龟，就硬递！
-![QQ截图20200303161728.png](https://pic.leetcode-cn.com/a380632aa3b4241df5eff2fd27513edfeff6e9f16001805c06e6d011a4a1ebaa-QQ%E6%88%AA%E5%9B%BE20200303161728.png)
+// ### 解题思路
+// 就递龟，就硬递！
+// ![QQ截图20200303161728.png](https://pic.leetcode-cn.com/a380632aa3b4241df5eff2fd27513edfeff6e9f16001805c06e6d011a4a1ebaa-QQ%E6%88%AA%E5%9B%BE20200303161728.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<String> letterCasePermutation(String S) {
 
@@ -42,4 +42,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

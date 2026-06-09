@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
-//一奇多偶
-```c
+// ### 代码
+// //一奇多偶
+// ```c
 int longestPalindrome(char * s){
     short counter[54]={0};//a-z 0b01100001-0b01111010	
                           //A-Z 0b01000001-0b01011010	
@@ -31,4 +31,4 @@ int longestPalindrome(char * s){
     return val;//全偶时从这返回
 
 }
-```
+// ```

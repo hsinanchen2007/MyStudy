@@ -1,9 +1,9 @@
-**思路** 
-观察可发现，R可以右移，L可以左移，所以如果end字符串中R的位置相对原位置是右移，
-L的位置相对原位置左移，且R和L的相对位置不变，即原来R在左L在右，移动后也是这种
-关系。 那就可以返回true，否则返回false
+// **思路** 
+// 观察可发现，R可以右移，L可以左移，所以如果end字符串中R的位置相对原位置是右移，
+// L的位置相对原位置左移，且R和L的相对位置不变，即原来R在左L在右，移动后也是这种
+// 关系。 那就可以返回true，否则返回false
 
-```
+// ```
 
 bool canTransform(char * start, char * end){
     int len = strlen(start);
@@ -51,5 +51,5 @@ bool canTransform(char * start, char * end){
     }
     return true;
 }
-```
+// ```
 

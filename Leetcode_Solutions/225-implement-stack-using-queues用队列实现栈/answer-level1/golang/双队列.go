@@ -1,4 +1,4 @@
-```golang
+// ```golang
 type MyStack struct {
     q1 []int
     q2 []int
@@ -58,4 +58,4 @@ func (this *MyStack) Empty() bool {
  * param_3 := obj.Top();
  * param_4 := obj.Empty();
  */
-```
+// ```

@@ -1,5 +1,5 @@
-自荐，感觉写法要比官解好理解一些
-```python
+# 自荐，感觉写法要比官解好理解一些
+# ```python
 class Solution:
     def minDistance(self, word1: str, word2: str) -> int:
         if not word1 or not word2:
@@ -23,4 +23,4 @@ class Solution:
                     # 如果word[i]!=word[j]
                     result[i][j] = min(max(i + 1, j + 1), result[i - 1][j - 1] + 1, result[i][j - 1] + 1,result[i - 1][j] + 1)
         return result[m - 1][n - 1]
-```
+# ```

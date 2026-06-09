@@ -1,4 +1,4 @@
-```
+// ```
 func generate(numRows int) [][]int {
     var res [][]int
     switch numRows{
@@ -27,4 +27,4 @@ func generate(numRows int) [][]int {
 
     return res
 }
-```
+// ```

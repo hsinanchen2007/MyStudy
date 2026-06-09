@@ -1,4 +1,4 @@
-```go []
+// ```go []
 type Node struct {
 	value int
 	next  map[string]*Node
@@ -55,4 +55,4 @@ func (this *MapSum) sum(n *Node) int {
  * obj.Insert(key,val);
  * param_2 := obj.Sum(prefix);
  */
-```
+// ```

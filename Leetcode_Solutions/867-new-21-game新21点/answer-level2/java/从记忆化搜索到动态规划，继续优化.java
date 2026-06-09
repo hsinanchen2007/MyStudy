@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     // 根据暴力法可得：
     // dp[i] = 1/W(dp[i+1] + dp[i+2] + …… + dp[i+W])
@@ -50,4 +50,4 @@ class Solution {
     //     return dp[cur] = ans;
     // }
 }
-```
+// ```

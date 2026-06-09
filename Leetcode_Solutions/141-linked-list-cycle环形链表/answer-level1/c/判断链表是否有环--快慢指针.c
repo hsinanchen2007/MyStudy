@@ -1,10 +1,10 @@
-### 解题思路
-快慢指针，快指针一次走两步，慢指针一次走一步。
-注意：第一次超时是因为 fast = fast->next; 没有正确处理fast的步幅导致。
+// ### 解题思路
+// 快慢指针，快指针一次走两步，慢指针一次走一步。
+// 注意：第一次超时是因为 fast = fast->next; 没有正确处理fast的步幅导致。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -31,4 +31,4 @@ bool hasCycle(struct ListNode *head)
     }
     return false;
 }
-```
+// ```

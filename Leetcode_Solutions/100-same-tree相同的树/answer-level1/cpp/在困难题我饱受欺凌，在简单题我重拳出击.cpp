@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/6a7312cc8e408eab1c49ccf1a1855c6758017e64ac5682fb21384feb16a1deff-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/6a7312cc8e408eab1c49ccf1a1855c6758017e64ac5682fb21384feb16a1deff-image.png)
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -31,4 +31,4 @@ public:
         return check(p,q);
     }
 };
-```
+// ```

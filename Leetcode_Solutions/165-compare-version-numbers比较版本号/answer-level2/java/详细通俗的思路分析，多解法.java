@@ -1,18 +1,18 @@
-# 题目描述（中等难度）
+// # 题目描述（中等难度）
 
-![](https://pic.leetcode-cn.com/531d2ea8291793c017b6857318e29faac00034c1062b16d5f838cc4754e7b6a8.png)
+// ![](https://pic.leetcode-cn.com/531d2ea8291793c017b6857318e29faac00034c1062b16d5f838cc4754e7b6a8.png)
 
-比较两个版本号，`version1` 大于 `version2` 就返回 `1`，相等返回 `0`，小于就返回 `-1`。比较的时候先比较最左边的数字，相等的话再比较后一个，以此类推。
+// 比较两个版本号，`version1` 大于 `version2` 就返回 `1`，相等返回 `0`，小于就返回 `-1`。比较的时候先比较最左边的数字，相等的话再比较后一个，以此类推。
 
-# 解法一
+// # 解法一
 
-这道题今年笔试的时候遇到好几次了，没想到竟然是 `leetcode` 的原题。思路很简单，按照「点」对版本号进行切割，然后依次比较每个数字即可。
+// 这道题今年笔试的时候遇到好几次了，没想到竟然是 `leetcode` 的原题。思路很简单，按照「点」对版本号进行切割，然后依次比较每个数字即可。
 
-切割的话涉及到 `java` 语言的一个特性，`.` 在正则里有特殊含义，所以我们需要进行转义。
+// 切割的话涉及到 `java` 语言的一个特性，`.` 在正则里有特殊含义，所以我们需要进行转义。
 
-这里切割出来的是字符串，所以我们需要把字符串转为数字，因为字符串转数字不是这道题的重点，所以直接调用系统提供的 `Integer.parseInt` 即可。 
+// 这里切割出来的是字符串，所以我们需要把字符串转为数字，因为字符串转数字不是这道题的重点，所以直接调用系统提供的 `Integer.parseInt` 即可。 
 
-```java
+// ```java
 public int compareVersion(String version1, String version2) {
     String[] nums1 = version1.split("\\.");
     String[] nums2 = version2.split("\\.");
@@ -43,13 +43,13 @@ private int compare(String num1, String num2) {
         return 0;
     }
 }
-```
+// ```
 
-# 解法二
+// # 解法二
 
-上边的解法可以成功 `AC`，但是如果数字过大的话，`int` 是无法保存的。所以我们可以不把字符串转为数字，而是直接用字符串比较。
+// 上边的解法可以成功 `AC`，但是如果数字过大的话，`int` 是无法保存的。所以我们可以不把字符串转为数字，而是直接用字符串比较。
 
-```java
+// ```java
 public int compareVersion(String version1, String version2) {
     String[] nums1 = version1.split("\\.");
     String[] nums2 = version2.split("\\.");
@@ -101,10 +101,10 @@ private String removeFrontZero(String num) {
     }
     return num.substring(start);
 }
-```
+// ```
 
-# 总
+// # 总
 
-题目其实是比较简单的，` String num1 = i < nums1.length ? nums1[i] : "0";` 这个技巧在 [第 2 题](https://leetcode.wang/leetCode-2-Add-Two-Numbers.html)  用到过，会使得代码很清晰，逻辑上也会简单些。解法二直接对字符串进行操作，这也是处理大数运算的时候的方法。
+// 题目其实是比较简单的，` String num1 = i < nums1.length ? nums1[i] : "0";` 这个技巧在 [第 2 题](https://leetcode.wang/leetCode-2-Add-Two-Numbers.html)  用到过，会使得代码很清晰，逻辑上也会简单些。解法二直接对字符串进行操作，这也是处理大数运算的时候的方法。
 
-之前自己在博客总结的，更多题解可以在原地址 [https://leetcode.wang](https://leetcode.wang)。
+// 之前自己在博客总结的，更多题解可以在原地址 [https://leetcode.wang](https://leetcode.wang)。

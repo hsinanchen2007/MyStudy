@@ -1,9 +1,9 @@
-## 思路一
-**注意**
-- 处理数字可能是多位，如：23
-- 空格不做任何处理，所以最后是else if
-### 代码
-```c++
+// ## 思路一
+// **注意**
+// - 处理数字可能是多位，如：23
+// - 空格不做任何处理，所以最后是else if
+// ### 代码
+// ```c++
 class Solution {
 public:
     int calculate(string s) {
@@ -37,12 +37,12 @@ public:
         return res;
     }
 };
-```
+// ```
 
-## 思路二
-和上面的区别是单个读取数字字符。
-### 代码
-```c++
+// ## 思路二
+// 和上面的区别是单个读取数字字符。
+// ### 代码
+// ```c++
 class Solution {
 public:
     int calculate(string s) {
@@ -74,12 +74,12 @@ public:
         return res;
     }
 };
-```
+// ```
 
-## 思路三：递归
-将括号内部表达式通过递归计算。
-### 代码
-```c++
+// ## 思路三：递归
+// 将括号内部表达式通过递归计算。
+// ### 代码
+// ```c++
 class Solution {
 public:
     int calculate(string s) {
@@ -114,5 +114,5 @@ public:
         return res;
     }
 };
-```
+// ```
 

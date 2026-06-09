@@ -1,15 +1,15 @@
-### 解题思路
+// ### 解题思路
 
-    找出最短的字符串的长度为minl
-    然后从前两个字符串比较得到<minl的最长的公共前缀pre， 此时minl = len(pre) // 注意字符串数字可能只有一个甚至是零个
-    然后继续找出剩下未比较字符串和pre的最长公共前缀，直到最后全部比较完成
+//     找出最短的字符串的长度为minl
+//     然后从前两个字符串比较得到<minl的最长的公共前缀pre， 此时minl = len(pre) // 注意字符串数字可能只有一个甚至是零个
+//     然后继续找出剩下未比较字符串和pre的最长公共前缀，直到最后全部比较完成
 
-    分治之后比较次数不变，所以无需分治
+//     分治之后比较次数不变，所以无需分治
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func longestCommonPrefix(strs []string) string {
     if len(strs) == 0 {
         return ""
@@ -48,4 +48,4 @@ func longestPrefix(str1, str2 string, max int) (pre string, l int) {
     return str1[0:max], max
 }
 
-```
+// ```

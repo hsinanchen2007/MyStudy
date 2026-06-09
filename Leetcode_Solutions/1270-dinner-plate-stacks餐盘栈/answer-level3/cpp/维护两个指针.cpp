@@ -1,4 +1,4 @@
-```cpp []
+// ```cpp []
 class DinnerPlates {
 public:
     DinnerPlates(int capacity) :n(capacity){
@@ -73,8 +73,8 @@ private:
  * int param_2 = obj->pop();
  * int param_3 = obj->popAtStack(index);
  */
-```
-```python []
+// ```
+// ```python []
 class DinnerPlates:
 
     def __init__(self, capacity: int):
@@ -133,5 +133,5 @@ class DinnerPlates:
 # obj.push(val)
 # param_2 = obj.pop()
 # param_3 = obj.popAtStack(index)
-```
-不得不说c++的iterator写这个特别舒服
+// ```
+// 不得不说c++的iterator写这个特别舒服

@@ -1,4 +1,4 @@
-```
+// ```
 function shortestDistance($words, $word1, $word2) {
     $p1 = $p2 = -1;
     $ans = PHP_INT_MAX;
@@ -13,4 +13,4 @@ function shortestDistance($words, $word1, $word2) {
     }
     return $ans;
 }
-```
+// ```

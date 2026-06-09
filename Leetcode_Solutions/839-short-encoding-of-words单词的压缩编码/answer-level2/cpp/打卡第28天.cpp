@@ -1,5 +1,5 @@
-参考了跟自己思路类似的解法，没有想到可以逆序单词，好方法
-```
+// 参考了跟自己思路类似的解法，没有想到可以逆序单词，好方法
+// ```
 class Solution {
 public:
 static bool cmp(string s1,string s2){
@@ -35,4 +35,4 @@ static bool cmp(string s1,string s2){
 
     }
 };
-```
+// ```

@@ -1,7 +1,7 @@
-执行用时 :44 ms, 在所有 Python3 提交中击败了100.00% 的用户。
-内存消耗 :16.8 MB, 在所有 Python3 提交中击败了63.94%的用户。
+# 执行用时 :44 ms, 在所有 Python3 提交中击败了100.00% 的用户。
+# 内存消耗 :16.8 MB, 在所有 Python3 提交中击败了63.94%的用户。
 
-```
+# ```
 class Solution:
     def hIndex(self, citations: List[int]) -> int:
         l = 0
@@ -17,4 +17,4 @@ class Solution:
             else:
                 l = mid + 1
         return res
-```
+# ```

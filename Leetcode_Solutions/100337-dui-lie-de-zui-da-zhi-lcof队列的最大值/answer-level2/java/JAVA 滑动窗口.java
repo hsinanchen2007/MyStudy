@@ -1,12 +1,12 @@
-### 解题思路
-思想：用两个双端队列，numList保存正常的数据；maxList一个保存当前队列中的最大值；
-取最大值时：直接返回maxList的队首位置；
-添加时：numList正常添加，maxList用滑动窗口思想，只保存有可能成为最大值的元素
-pop时，numList正常pollFirst(),如果numList.pollFirst()的元素等于maxList的队首元素，则maxList也执行pollFirst();
+// ### 解题思路
+// 思想：用两个双端队列，numList保存正常的数据；maxList一个保存当前队列中的最大值；
+// 取最大值时：直接返回maxList的队首位置；
+// 添加时：numList正常添加，maxList用滑动窗口思想，只保存有可能成为最大值的元素
+// pop时，numList正常pollFirst(),如果numList.pollFirst()的元素等于maxList的队首元素，则maxList也执行pollFirst();
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MaxQueue {
     LinkedList<Integer> numList;
     LinkedList<Integer> maxList;
@@ -41,4 +41,4 @@ class MaxQueue {
  * obj.push_back(value);
  * int param_3 = obj.pop_front();
  */
-```
+// ```

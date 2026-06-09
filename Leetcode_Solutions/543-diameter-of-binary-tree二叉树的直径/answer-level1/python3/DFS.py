@@ -1,9 +1,9 @@
-### 解题思路
-DFS
+# ### 解题思路
+# DFS
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -23,4 +23,4 @@ class Solution:
         depth(root)
         return self.ans - 1
         
-```
+# ```

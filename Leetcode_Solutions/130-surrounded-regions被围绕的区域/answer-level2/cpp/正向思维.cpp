@@ -1,5 +1,5 @@
-简单的方法应该是逆向考虑该问题，从边界上为'O'的字符着手考虑。
-```
+// 简单的方法应该是逆向考虑该问题，从边界上为'O'的字符着手考虑。
+// ```
 class Solution {
 public:
     void solve(vector<vector<char>>& board) {
@@ -53,4 +53,4 @@ public:
         update(board,i,j-1);
     }
 };
-```
+// ```

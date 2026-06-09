@@ -1,9 +1,9 @@
-### 解题思路
-O（n） 先找到可能的最小区间，再向两边扩到真时的最小区间
+// ### 解题思路
+// O（n） 先找到可能的最小区间，再向两边扩到真时的最小区间
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> subSort(vector<int>& array) {
@@ -49,4 +49,4 @@ public:
     }
     
 };
-```
+// ```

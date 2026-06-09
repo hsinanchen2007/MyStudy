@@ -1,13 +1,13 @@
-### 解题思路
-直接判断，没用用什么技巧
-执行用时0ms
-内存消耗5.5MB
-击败100%
-![QQ图片20200327024313.png](https://pic.leetcode-cn.com/eb8c8eb0310b9a85257f0af7f0d9505639536c6a7cbdbdba5d656b9d4ad77879-QQ%E5%9B%BE%E7%89%8720200327024313.png)
+// ### 解题思路
+// 直接判断，没用用什么技巧
+// 执行用时0ms
+// 内存消耗5.5MB
+// 击败100%
+// ![QQ图片20200327024313.png](https://pic.leetcode-cn.com/eb8c8eb0310b9a85257f0af7f0d9505639536c6a7cbdbdba5d656b9d4ad77879-QQ%E5%9B%BE%E7%89%8720200327024313.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -47,4 +47,4 @@ bool isSameTree(struct TreeNode* p, struct TreeNode* q){
         return false;
     }
 }
-```
+// ```

@@ -1,13 +1,13 @@
-### 解题思路
-实际上这是一道TOP K 问题
-已知的有几种解法
-1.全排序,然后取前k个值,此时时间复杂度为O(nlogn)
-2.快速排序,然后取前K个数
-3.TOP K 解法
+// ### 解题思路
+// 实际上这是一道TOP K 问题
+// 已知的有几种解法
+// 1.全排序,然后取前k个值,此时时间复杂度为O(nlogn)
+// 2.快速排序,然后取前K个数
+// 3.TOP K 解法
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func getLeastNumbers(arr []int, k int) []int {
 	if len(arr) == 0 {
 		return arr
@@ -69,4 +69,4 @@ func partation(num []int, left, right int) int {
 	}
 	return -1
 }
-```
+// ```

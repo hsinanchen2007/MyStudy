@@ -1,4 +1,4 @@
-```java
+// ```java
 
     public TreeNode balanceBST(TreeNode root) {
         List<Integer> list=new ArrayList<>();
@@ -21,4 +21,4 @@
         node.right=create(list, mid+1, right);
         return node;
     }
-```
+// ```

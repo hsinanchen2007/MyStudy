@@ -1,10 +1,10 @@
-### 解题思路
-出现陆地，周长+4;
-右面和下面有陆地，周长-2
+// ### 解题思路
+// 出现陆地，周长+4;
+// 右面和下面有陆地，周长-2
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int islandPerimeter(int** grid, int gridSize, int* gridColSize){
 	int per = 0;
 	for (int i = 0; i < gridSize; i++){
@@ -20,4 +20,4 @@ int islandPerimeter(int** grid, int gridSize, int* gridColSize){
 	}
 	return per;
 }
-```
+// ```

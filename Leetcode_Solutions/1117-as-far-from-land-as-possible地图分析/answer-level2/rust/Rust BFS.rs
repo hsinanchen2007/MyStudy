@@ -1,8 +1,8 @@
-### 解题思路
-BFS
-### 代码
+// ### 解题思路
+// BFS
+// ### 代码
 
-```rust
+// ```rust
 impl Solution {
     pub fn max_distance(grid: Vec<Vec<i32>>) -> i32 {
         let mut grid=grid;
@@ -39,4 +39,4 @@ impl Solution {
         res
     }
 }
-```
+// ```

@@ -1,19 +1,19 @@
-#### 解法一：按列求和
-+ 时间复杂度：O(n^2)
-+ 空间复杂度：O(1)
-+ 木桶效应
-  + 最短的那块木板决定木桶中水的深度
-+ **水洼效应**【自定义，莫笑】
-  + 水洼的储水高度 = 两边高地(洼滩)中最矮的那边 - 水洼洼底本身的高度
-  + 水洼面积 = 储水高度 * 水洼宽度
-    + 应用于此题，每列宽度恒为1，相当于水洼洼底平坦，木有坑！
-+ 思路
-  + 从左到右 遍历
-  + 设当列柱子为水洼洼底
-  + 同时更新，**当前列左右两边**洼滩的最大高度
-  + 以当前列为洼底的最大水洼面积为
-    + ( Min(left_max,right_max) - height[i] ) * 1
-```javascript
+// #### 解法一：按列求和
+// + 时间复杂度：O(n^2)
+// + 空间复杂度：O(1)
+// + 木桶效应
+//   + 最短的那块木板决定木桶中水的深度
+// + **水洼效应**【自定义，莫笑】
+//   + 水洼的储水高度 = 两边高地(洼滩)中最矮的那边 - 水洼洼底本身的高度
+//   + 水洼面积 = 储水高度 * 水洼宽度
+//     + 应用于此题，每列宽度恒为1，相当于水洼洼底平坦，木有坑！
+// + 思路
+//   + 从左到右 遍历
+//   + 设当列柱子为水洼洼底
+//   + 同时更新，**当前列左右两边**洼滩的最大高度
+//   + 以当前列为洼底的最大水洼面积为
+//     + ( Min(left_max,right_max) - height[i] ) * 1
+// ```javascript
 /**
  * @param {number[]} height
  * @return {number}
@@ -44,19 +44,19 @@ var trap = function(height) {
     }
     return sum;
 };
-```
-#### 解法二：动态规划 + 按列求和
-+ 解法一中枚举每一列来求和
-  + 期间，每次都要再重新枚举当前列左右两边的最大高度
-+ 状态定义
-  + left_max[i]：当前第i列左边最高的柱子的高度
-  + right_max[i]：当前第i列右边最高的柱子的高度
-+ 转移方程
-  + left_max[i] = Max(left_max[i-1],height[i-1])
-  + right_max[i] = Max(right_max[i+1],height[i+1])
-+ 按列求和
-  + sum += (Min(left_max[i],right_max[i]) - height[i]) * 1;
-```javascript
+// ```
+// #### 解法二：动态规划 + 按列求和
+// + 解法一中枚举每一列来求和
+//   + 期间，每次都要再重新枚举当前列左右两边的最大高度
+// + 状态定义
+//   + left_max[i]：当前第i列左边最高的柱子的高度
+//   + right_max[i]：当前第i列右边最高的柱子的高度
+// + 转移方程
+//   + left_max[i] = Max(left_max[i-1],height[i-1])
+//   + right_max[i] = Max(right_max[i+1],height[i+1])
+// + 按列求和
+//   + sum += (Min(left_max[i],right_max[i]) - height[i]) * 1;
+// ```javascript
 /**
  * @param {number[]} height
  * @return {number}
@@ -80,12 +80,12 @@ var trap = function(height) {
     }
     return sum;
 };
-```
-#### 解法三：动态规划降维[双指针] + 按列求和
-+ left_max，right_max无需定义数组存储
-  + 每次只用到当前列前一个左右的最大的高度
-  + 直接维护更新两个变量即可
-```javascript
+// ```
+// #### 解法三：动态规划降维[双指针] + 按列求和
+// + left_max，right_max无需定义数组存储
+//   + 每次只用到当前列前一个左右的最大的高度
+//   + 直接维护更新两个变量即可
+// ```javascript
 /**
  * @param {number[]} height
  * @return {number}
@@ -119,22 +119,22 @@ var trap = function(height) {
     }
     return sum;
 };
-```
-#### 解法四：栈 + 按列求和
-+ 类似题型
-  + [84. 柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/solution/84-zhu-zhuang-tu-zhong-zui-da-de-ju-xing-by-alexer/)
-+ 思路
-  + 栈
-    + 与84题不同的是，这里维护一个单调递减的栈
-    + 例如[8,5,4,3]，当遍历到下一个数字为6时，说明遇到上升的了
-  + 按列求和
-    + 这时要累加（（6-左边出栈的高度）* 区间长度即宽 ）
-      + 只有当前高度比两边高度都小，才能盛水，如水洼一样
-    + 注意
-      + 只不过这里的列不止一列，每次列的宽度不只是解法一中的长度1
-      + 跟以上解法不同的是，水洼的宽度不再默认是1，而是n
-+ 栈的具体思路可参看84题
-```javascript
+// ```
+// #### 解法四：栈 + 按列求和
+// + 类似题型
+//   + [84. 柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/solution/84-zhu-zhuang-tu-zhong-zui-da-de-ju-xing-by-alexer/)
+// + 思路
+//   + 栈
+//     + 与84题不同的是，这里维护一个单调递减的栈
+//     + 例如[8,5,4,3]，当遍历到下一个数字为6时，说明遇到上升的了
+//   + 按列求和
+//     + 这时要累加（（6-左边出栈的高度）* 区间长度即宽 ）
+//       + 只有当前高度比两边高度都小，才能盛水，如水洼一样
+//     + 注意
+//       + 只不过这里的列不止一列，每次列的宽度不只是解法一中的长度1
+//       + 跟以上解法不同的是，水洼的宽度不再默认是1，而是n
+// + 栈的具体思路可参看84题
+// ```javascript
 /**
  * @param {number[]} height
  * @return {number}
@@ -157,4 +157,4 @@ var trap = function(height) {
     }
     return res;
 };
-```
+// ```

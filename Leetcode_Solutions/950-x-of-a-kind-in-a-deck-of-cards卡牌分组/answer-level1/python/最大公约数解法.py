@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def hasGroupsSizeX(self, deck):
         """
@@ -14,4 +14,4 @@ class Solution(object):
         vals = collections.Counter(deck).values()
         return reduce(gcd, vals) >= 2
 
-```
+# ```

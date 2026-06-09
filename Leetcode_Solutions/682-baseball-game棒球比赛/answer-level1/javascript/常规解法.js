@@ -1,7 +1,7 @@
-### 解题思路
-根据四种情况分别做判断，最后在遍历数组，求出总和
+// ### 解题思路
+// 根据四种情况分别做判断，最后在遍历数组，求出总和
 
-```javascript
+// ```javascript
 var calPoints = function(ops) {
   let arr = [];
   let opera = {
@@ -31,4 +31,4 @@ var calPoints = function(ops) {
   return arr.reduce((total, num) =>  Number(total) + Number(num))
 
 };
-```
+// ```

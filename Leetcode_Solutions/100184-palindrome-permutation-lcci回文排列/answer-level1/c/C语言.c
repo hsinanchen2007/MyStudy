@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-整个字符串中最多出现1个奇数字符
+// ### 解题思路
+// 此处撰写解题思路
+// 整个字符串中最多出现1个奇数字符
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define CHARNUM 256
 
 bool canPermutePalindrome(char* s){
@@ -35,4 +35,4 @@ bool canPermutePalindrome(char* s){
     return true;
 }
 
-```
+// ```

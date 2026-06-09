@@ -1,10 +1,10 @@
-### 解题思路
-该题就是区间查询、区间更新的典型题目，可以使用树状数组、线段树实现，树状数组执行效率更高
+// ### 解题思路
+// 该题就是区间查询、区间更新的典型题目，可以使用树状数组、线段树实现，树状数组执行效率更高
 
-### 代码
+// ### 代码
 
-【树状数组】
-```c
+// 【树状数组】
+// ```c
 static int Lowbit(int x)
 {
     return x & (-x);
@@ -64,9 +64,9 @@ void numArrayFree(NumArray* obj) {
     free(obj->arr);
     free(obj);
 }
-```
-【线段树】
-```
+// ```
+// 【线段树】
+// ```
 typedef struct SegNode {
 	int sum;
 	int begin, end;
@@ -152,4 +152,4 @@ void numArrayFree(NumArray* obj) {
 	numArrayFree(obj->right);
 	free(obj);
 }
-```
+// ```

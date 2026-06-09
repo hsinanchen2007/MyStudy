@@ -1,6 +1,6 @@
-用collections要经过4-5次O(n)，按官方题解的方法要快的多
+# 用collections要经过4-5次O(n)，按官方题解的方法要快的多
 
-```
+# ```
 class Solution:
     def findShortestSubArray(self, nums: List[int]) -> int:
         # 1. use collections
@@ -23,4 +23,4 @@ class Solution:
                 ans = min(ans, right[x] - left[x] + 1)
         return ans
             
-```
+# ```

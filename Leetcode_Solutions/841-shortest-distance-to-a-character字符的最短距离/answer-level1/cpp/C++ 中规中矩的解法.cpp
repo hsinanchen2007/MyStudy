@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> shortestToChar(string S, char C) {
@@ -21,4 +21,4 @@ public:
         return res;
     }
 };
-```
+// ```

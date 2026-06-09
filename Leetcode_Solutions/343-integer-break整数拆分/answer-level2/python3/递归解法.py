@@ -1,10 +1,10 @@
-### 解题思路
-2和3比较特殊，单独处理一下，然后就是采用递归，从2开始分别计算最大的值。
-![image.png](https://pic.leetcode-cn.com/12c9689915c99c4f028067792e559fb1e38cded1f605a142de0c178334ef98f2-image.png)
+# ### 解题思路
+# 2和3比较特殊，单独处理一下，然后就是采用递归，从2开始分别计算最大的值。
+# ![image.png](https://pic.leetcode-cn.com/12c9689915c99c4f028067792e559fb1e38cded1f605a142de0c178334ef98f2-image.png)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def integerBreak(self, n: int) -> int:
         if n == 2:
@@ -28,4 +28,4 @@ class Solution:
 
         return _calc_multi(n)
 
-```
+# ```

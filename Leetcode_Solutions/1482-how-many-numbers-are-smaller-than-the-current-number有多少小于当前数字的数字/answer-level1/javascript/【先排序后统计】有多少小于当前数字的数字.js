@@ -1,11 +1,11 @@
-### 解题思路
-先排序，然后计算每一个元素之前有几个元素，整体时间复杂度是排序最慢O(nlogn)
-但是需要新的数组来存储排序后的数据（为了不改变原数组），O(n)
-并且需要一个hash来存储结果映射O(n)
+// ### 解题思路
+// 先排序，然后计算每一个元素之前有几个元素，整体时间复杂度是排序最慢O(nlogn)
+// 但是需要新的数组来存储排序后的数据（为了不改变原数组），O(n)
+// 并且需要一个hash来存储结果映射O(n)
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number[]}
@@ -24,4 +24,4 @@ var smallerNumbersThanCurrent = function(nums) {
     //不改变原数组的情况下，需要映射
     return nums.map(x=>r[x])
 };
-```
+// ```

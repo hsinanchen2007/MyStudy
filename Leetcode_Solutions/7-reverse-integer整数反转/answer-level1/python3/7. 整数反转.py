@@ -1,14 +1,14 @@
-### 解题思路
-        res = 0
-        商数不为0，循环继续 while x:
-            rem = x % 10 获取余数
-            x = x // 10 获取商数
-            res = res*10 + rem   
-        注意正负数和溢出问题   
+# ### 解题思路
+#         res = 0
+#         商数不为0，循环继续 while x:
+#             rem = x % 10 获取余数
+#             x = x // 10 获取商数
+#             res = res*10 + rem   
+#         注意正负数和溢出问题   
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverse(self, x: int) -> int:
         """
@@ -36,4 +36,4 @@ class Solution:
         if res > 2147483647 or res < -2147483648:
             return 0
         return res
-```
+# ```

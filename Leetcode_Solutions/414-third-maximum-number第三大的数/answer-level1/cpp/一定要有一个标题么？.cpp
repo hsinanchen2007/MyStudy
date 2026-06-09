@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int thirdMax(vector<int>& nums) {
@@ -21,4 +21,4 @@ public:
         return temp[2]==LONG_MIN?temp[0]:temp[2];
     }
 };
-```
+// ```

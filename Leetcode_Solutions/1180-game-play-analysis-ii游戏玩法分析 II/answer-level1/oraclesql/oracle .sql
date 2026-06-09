@@ -1,4 +1,4 @@
-```
+-- ```
 /* Write your PL/SQL query statement below */
 SELECT a.player_id, b.device_id
 FROM Activity b
@@ -9,4 +9,4 @@ FROM Activity b
 	) a
 	ON a.player_id = b.player_id
 		AND a.first_login = b.event_date
-```
+-- ```

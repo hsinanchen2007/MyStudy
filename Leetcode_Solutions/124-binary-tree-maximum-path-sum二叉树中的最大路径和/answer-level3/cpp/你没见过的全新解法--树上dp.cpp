@@ -1,10 +1,10 @@
-我们维护两个数组：MaxSum[r]和UpSum[r]，分别表示以r为子树的最大路径和，以r向上的最大路径和
-然后我们只需要遍历一遍树，求出每个点的 MaxSum+UpSum，再取最大就好了。
+// 我们维护两个数组：MaxSum[r]和UpSum[r]，分别表示以r为子树的最大路径和，以r向上的最大路径和
+// 然后我们只需要遍历一遍树，求出每个点的 MaxSum+UpSum，再取最大就好了。
 
-递推方程：
-MaxSum[r] = max(max(MaxSum[r->left],MaxSum[r->right]) + r->val,0)
-UpSum[r->left] = max(r->val+MaxSum[r->right],r->val+Upsum[r],0)
-```c++ []
+// 递推方程：
+// MaxSum[r] = max(max(MaxSum[r->left],MaxSum[r->right]) + r->val,0)
+// UpSum[r->left] = max(r->val+MaxSum[r->right],r->val+Upsum[r],0)
+// ```c++ []
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -64,7 +64,7 @@ public:
         return ans;
     }
 };
-```
+// ```
 
 
          

@@ -1,11 +1,11 @@
-思路：
+// 思路：
 
 
-细节分析：
+// 细节分析：
 
 
-重点：
-```
+// 重点：
+// ```
 public class Solution : VersionControl {
     public int FirstBadVersion(int n) {
         if(n < 1){return 0;} 
@@ -29,6 +29,6 @@ public class Solution : VersionControl {
         return end;
     }
 }
-```
+// ```
 
 

@@ -1,9 +1,9 @@
-### 解题思路
-此题可用动态规划求解，a[i]表示以nums[i]为结尾的最长子序列长度，遍历num[i]之前的数并更新a[i]的值
+# ### 解题思路
+# 此题可用动态规划求解，a[i]表示以nums[i]为结尾的最长子序列长度，遍历num[i]之前的数并更新a[i]的值
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def lengthOfLIS(self, nums):
         """
@@ -19,4 +19,4 @@ class Solution(object):
                     a[i]=max(a[i],a[j]+1)
         return max(a)
 
-```
+# ```

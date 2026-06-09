@@ -1,19 +1,19 @@
-##### Algorithm (Math)
-* One key observation is the following. 
-* **Proposition.** A board $B$ could be transformed to a chessboard by swapping rows and columns if and only if 
-     1. It has two unique columns and two unique rows.
-     2. Each one of the unique columes has evenly splitted 0's and 1's. (In the odd dimension case, this translate to the difference between 0's and 1's is 1)
-* **Proof.** 
-* $\Rightarrow$. Suppose $B$ is transformable. Then the result follows by definition. 
-* $\Leftarrow$. We prove the contrapositive. 
-    * Suppose $B$ is not transformable. Then it follows that for any set of transformation applied to $B$, there would exists an adjacent pair has identical labels. Without loss of generality, we let the label be 1 on column, say $B[i][c], B[i+1][c]$. 
-    * Suppose condition 1 and 2 hold. Then we can apply a set of transformation to evenly distribute the two unique rows of $B$. Since there are only two rows and row $i$ and row $i+1$ are not the same by construction, it follows that all of column $c$ os 1, i.e, $B[j][c] = 1$ for all $j = 1,...,N$. 
-    * But then this would result a contradiction because the 1'0 and 0's are not evenly splitted. 
-* Using this observation, is it trivial to come up with an algorithm to check feasibility.
+// ##### Algorithm (Math)
+// * One key observation is the following. 
+// * **Proposition.** A board $B$ could be transformed to a chessboard by swapping rows and columns if and only if 
+//      1. It has two unique columns and two unique rows.
+//      2. Each one of the unique columes has evenly splitted 0's and 1's. (In the odd dimension case, this translate to the difference between 0's and 1's is 1)
+// * **Proof.** 
+// * $\Rightarrow$. Suppose $B$ is transformable. Then the result follows by definition. 
+// * $\Leftarrow$. We prove the contrapositive. 
+//     * Suppose $B$ is not transformable. Then it follows that for any set of transformation applied to $B$, there would exists an adjacent pair has identical labels. Without loss of generality, we let the label be 1 on column, say $B[i][c], B[i+1][c]$. 
+//     * Suppose condition 1 and 2 hold. Then we can apply a set of transformation to evenly distribute the two unique rows of $B$. Since there are only two rows and row $i$ and row $i+1$ are not the same by construction, it follows that all of column $c$ os 1, i.e, $B[j][c] = 1$ for all $j = 1,...,N$. 
+//     * But then this would result a contradiction because the 1'0 and 0's are not evenly splitted. 
+// * Using this observation, is it trivial to come up with an algorithm to check feasibility.
 
-##### Code
+// ##### Code
 
-```c++[]
+// ```c++[]
 namespace utils::dynamic_bitset {
 template <typename set_t = int, typename... Ts, typename std::enable_if_t<std::conjunction_v<std::is_same<int, Ts>...>>* = nullptr>
 int flip(set_t mask, Ts... arg) { return ((mask ^= (1 << arg)), ...); }
@@ -124,4 +124,4 @@ class Solution {
     return solution;
   }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-用了新学的bm算法，用时7ms，击败了19.07%的java用户，哭哭==
-判断字符串是否为空那里或许可以优化下
-### 代码
+// ### 解题思路
+// 用了新学的bm算法，用时7ms，击败了19.07%的java用户，哭哭==
+// 判断字符串是否为空那里或许可以优化下
+// ### 代码
 
-```java
+// ```java
 
 class Solution {
     private void suffix(String pattern, int m, int[] suffix) {
@@ -99,4 +99,4 @@ class Solution {
 }
 
 
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-1.层次遍历
-2.使用last和nlast指针，last指针指向每一层的最后一个节点，nlast指针最终去定位下一层的last指针
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 1.层次遍历
+# 2.使用last和nlast指针，last指针指向每一层的最后一个节点，nlast指针最终去定位下一层的last指针
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -42,4 +42,4 @@ class Solution:
        return average1
             
 
-```
+# ```

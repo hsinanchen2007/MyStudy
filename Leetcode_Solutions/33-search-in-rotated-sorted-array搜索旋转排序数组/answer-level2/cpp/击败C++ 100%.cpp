@@ -1,5 +1,5 @@
-先找到旋转点，再分别二分
-```
+// 先找到旋转点，再分别二分
+// ```
 class Solution {
 public:
     int search(vector<int>& nums, int target) {
@@ -30,4 +30,4 @@ public:
         return -1;
     }
 };
-```
+// ```

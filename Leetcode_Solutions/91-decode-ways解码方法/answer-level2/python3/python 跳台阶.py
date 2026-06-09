@@ -1,10 +1,10 @@
-### 解题思路
-就是跳台阶，但是需要判断很多条件
-对0的处理比较麻烦
+# ### 解题思路
+# 就是跳台阶，但是需要判断很多条件
+# 对0的处理比较麻烦
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numDecodings(self, s: str) -> int:
         dp=[0]*(len(s)+1)
@@ -30,4 +30,4 @@ class Solution:
 
 
         
-```
+# ```

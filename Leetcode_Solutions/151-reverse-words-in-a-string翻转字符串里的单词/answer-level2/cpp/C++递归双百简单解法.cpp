@@ -1,9 +1,9 @@
-### 解题思路
-去除所有的空格，取出所有的单词
+// ### 解题思路
+// 去除所有的空格，取出所有的单词
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
     string reverseWords(string &s,int &i)
     {
@@ -28,4 +28,4 @@ public:
         return reverseWords(s,i);
     }
 };
-```
+// ```

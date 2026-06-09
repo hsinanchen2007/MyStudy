@@ -1,9 +1,9 @@
-### 解题思路
-题目矩阵是从左到右递增，从上到下递增，可从矩阵右上角开始查找，直到查找到相等数字，返回true。
+// ### 解题思路
+// 题目矩阵是从左到右递增，从上到下递增，可从矩阵右上角开始查找，直到查找到相等数字，返回true。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean findNumberIn2DArray(int[][] matrix, int target) {
         if(matrix.length == 0) {
@@ -25,4 +25,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

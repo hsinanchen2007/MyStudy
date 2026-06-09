@@ -1,6 +1,6 @@
-思路：此题考察复数的乘法，(a+bi)(c+di) = ac - bd + (ad + bc)i，只需抽象出复数类即可解答。<br/><br/>
-代码：
-```
+// 思路：此题考察复数的乘法，(a+bi)(c+di) = ac - bd + (ad + bc)i，只需抽象出复数类即可解答。<br/><br/>
+// 代码：
+// ```
 class Solution {
     public String complexNumberMultiply(String a, String b) {
         return new ComplexNumber(a).multiply(new ComplexNumber(b)).toString();
@@ -32,6 +32,6 @@ class Solution {
         }
     }
 }
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/e98d04aa57d3146364dea9767fe33caee4915816ee70e358c5529ccf3228a1ba-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e98d04aa57d3146364dea9767fe33caee4915816ee70e358c5529ccf3228a1ba-image.png)

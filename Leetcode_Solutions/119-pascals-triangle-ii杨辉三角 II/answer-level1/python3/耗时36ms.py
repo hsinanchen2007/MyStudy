@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def getRow(self, rowIndex: int) -> List[int]:
         list1 = []
@@ -18,4 +18,4 @@ class Solution:
                 list2.append(1)
                 list1.append(list2)
         return(list1[-1])
-```
+# ```

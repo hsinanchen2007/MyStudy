@@ -1,11 +1,11 @@
-### 解题思路
-与数字 gcd 类似，直接上代码吧（
+// ### 解题思路
+// 与数字 gcd 类似，直接上代码吧（
 
-顺便 Rust 的这个迭代器写法是真的舒适。
+// 顺便 Rust 的这个迭代器写法是真的舒适。
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 impl Solution {
     fn rem_of_u8_slice<'a>(a1: &'a [u8], a2: &[u8]) -> Option<&'a [u8]> {
         let compare_len = a1.len().checked_div(a2.len()).unwrap_or(0) * a2.len();
@@ -32,4 +32,4 @@ impl Solution {
         "".to_string()
     }
 }
-```
+// ```

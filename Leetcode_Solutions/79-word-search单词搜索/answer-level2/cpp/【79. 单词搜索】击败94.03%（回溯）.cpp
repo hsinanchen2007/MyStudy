@@ -1,7 +1,7 @@
-## 思路
-从第一个节点开始dfs，将已经访问过的位置进行标记，然后递归dfs，接着再进行回溯。
-### 代码
-```c++
+// ## 思路
+// 从第一个节点开始dfs，将已经访问过的位置进行标记，然后递归dfs，接着再进行回溯。
+// ### 代码
+// ```c++
 class Solution {
 public:
     bool exist(vector<vector<char>>& board, string word) {
@@ -36,4 +36,4 @@ public:
         return found;
     }
 };
-```
+// ```

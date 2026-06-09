@@ -1,5 +1,5 @@
-找出每个数的唯一标识即可，写的比较繁琐
-```
+# 找出每个数的唯一标识即可，写的比较繁琐
+# ```
 class Solution:
     def originalDigits(self, s: str) -> str:
         res = {}
@@ -49,4 +49,4 @@ class Solution:
         if res.get('n'):
             num += '9'*(res['n']//2)
         return num
-```
+# ```

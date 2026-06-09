@@ -1,9 +1,9 @@
-### 解题思路
-思路在代码中
+// ### 解题思路
+// 思路在代码中
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} gas
  * @param {number[]} cost
@@ -37,4 +37,4 @@ var canCompleteCircuit = function(gas, cost) {
     }
     return -1;
 };
-```
+// ```

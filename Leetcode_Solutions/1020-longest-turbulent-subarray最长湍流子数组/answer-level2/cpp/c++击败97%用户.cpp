@@ -1,5 +1,5 @@
-挺简单
-```
+// 挺简单
+// ```
 class Solution {
 public:
     int maxTurbulenceSize(vector<int>& A) {
@@ -30,4 +30,4 @@ public:
         return res;
     }
 };
-```
+// ```

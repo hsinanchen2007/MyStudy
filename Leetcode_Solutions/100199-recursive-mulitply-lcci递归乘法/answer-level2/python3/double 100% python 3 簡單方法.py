@@ -1,10 +1,10 @@
-### 解题思路
-判斷AB哪個大哪個小
-來去使用方案A或方案B
+# ### 解题思路
+# 判斷AB哪個大哪個小
+# 來去使用方案A或方案B
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def multiply(self, A: int, B: int) -> int:
         def projectA(AA, AB):
@@ -17,4 +17,4 @@ class Solution:
             return projectB(A, B)
         else:
             return projectA(A, B)
-```
+# ```

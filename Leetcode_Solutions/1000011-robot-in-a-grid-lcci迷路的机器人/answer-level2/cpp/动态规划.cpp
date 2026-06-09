@@ -1,6 +1,6 @@
-动态规划很简单
-就是在动态规划的同时要记录之前的坐标
-```
+// 动态规划很简单
+// 就是在动态规划的同时要记录之前的坐标
+// ```
 class Solution {
 public:
     vector<vector<int>> pathWithObstacles(vector<vector<int>>& obstacleGrid) {
@@ -65,4 +65,4 @@ public:
         return ans;
     }
 };
-```
+// ```

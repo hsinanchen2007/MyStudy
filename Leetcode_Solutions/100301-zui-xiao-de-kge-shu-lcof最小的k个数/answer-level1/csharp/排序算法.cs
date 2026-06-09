@@ -1,9 +1,9 @@
-### 解题思路
-排序
+// ### 解题思路
+// 排序
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int[] GetLeastNumbers(int[] arr, int k) {
         Array.Sort(arr);
@@ -14,4 +14,4 @@ public class Solution {
         return result;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 public:
     Node* connect(Node* root) {
         if(root == NULL)
@@ -28,4 +28,4 @@ public:
         return root;
     }
 };
-```
+// ```

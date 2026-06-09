@@ -1,9 +1,9 @@
-### 解题思路
-异或运算的性质：任意数与其本身异或等于0 0与任意数异或等于其本身 满足交换律 应用：拿到秘钥与其第一运算，再一次运算就还回来了，就像灰太狼又回来了！！！！
+# ### 解题思路
+# 异或运算的性质：任意数与其本身异或等于0 0与任意数异或等于其本身 满足交换律 应用：拿到秘钥与其第一运算，再一次运算就还回来了，就像灰太狼又回来了！！！！
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import random
 class Codec:
     def __init__(self):
@@ -40,4 +40,4 @@ class Codec:
 # Your Codec object will be instantiated and called as such:
 # codec = Codec()
 # codec.decode(codec.encode(url))
-```
+# ```

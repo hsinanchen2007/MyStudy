@@ -1,9 +1,9 @@
-### 解题思路
-递归如果单纯的判断左节点是否小、右节点是否大是错误的....可以用官方题解里头记录上下限的递归，整个左子树小，右子树大的方法。
-中序遍历，用一个数组记录结点值，看中序遍历是否从小到大。其实可以压缩空间不用数组记录结点值。
-### 代码
+// ### 解题思路
+// 递归如果单纯的判断左节点是否小、右节点是否大是错误的....可以用官方题解里头记录上下限的递归，整个左子树小，右子树大的方法。
+// 中序遍历，用一个数组记录结点值，看中序遍历是否从小到大。其实可以压缩空间不用数组记录结点值。
+// ### 代码
 
-```c
+// ```c
 void recursion(struct TreeNode* root,int* sign,int* a){
     if(root){
         recursion(root->left,sign,a);
@@ -22,8 +22,8 @@ bool isValidBST(struct TreeNode* root){
     }
     return true;
 }
-```
-```
+// ```
+// ```
 压缩空间版
 bool recursion(struct TreeNode* root,long* a){
     if(root){
@@ -50,4 +50,4 @@ bool isValidBST(struct TreeNode* root){
     return true;
 }
 
-```
+// ```

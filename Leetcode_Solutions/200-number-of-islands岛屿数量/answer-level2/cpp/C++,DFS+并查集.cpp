@@ -1,5 +1,5 @@
-DFS：
-```
+// DFS：
+// ```
 //疑问：主函数写成这样就会出现RTE
 int numIslands(vector<vector<char>>& grid) {
     int n=grid.size();//这样写为什么会出错，很是不解？？？？
@@ -14,9 +14,9 @@ int numIslands(vector<vector<char>>& grid) {
         }
     }
 }
-```
+// ```
 
-```
+// ```
 class Solution {
 public:
     
@@ -57,10 +57,10 @@ public:
 
         
 };
-```
-方法二：
-并查集：
-```
+// ```
+// 方法二：
+// 并查集：
+// ```
 //vector<int>father;
 const int maxn=0x7f7f7f;
 int father[maxn];
@@ -112,4 +112,4 @@ public:
         return count;
     }
 };
-```
+// ```

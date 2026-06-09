@@ -1,9 +1,9 @@
-### 解题思路
-主要特点：使用了时间标记 minuteFlag
+// ### 解题思路
+// 主要特点：使用了时间标记 minuteFlag
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int orangesRotting(int[][] grid) {
         int row=grid.length;
@@ -54,4 +54,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

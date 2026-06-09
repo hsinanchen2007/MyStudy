@@ -1,7 +1,7 @@
-排序后，将每个数字变为至少比前面的数字大一
-### 代码
+// 排序后，将每个数字变为至少比前面的数字大一
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minIncrementForUnique(vector<int>& A) {
@@ -16,4 +16,4 @@ public:
     return count;
     }
 };
-```
+// ```

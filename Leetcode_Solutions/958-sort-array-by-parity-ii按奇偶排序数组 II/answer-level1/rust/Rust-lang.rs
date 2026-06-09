@@ -1,14 +1,14 @@
-### 运行结果
+// ### 运行结果
 
-![image.png](https://pic.leetcode-cn.com/e95b366de4e9d670678fa9b891efa6d558c1fabf5146d74f1c2f176617d4ce62-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e95b366de4e9d670678fa9b891efa6d558c1fabf5146d74f1c2f176617d4ce62-image.png)
 
-### 解题思路
+// ### 解题思路
 
-先遍历，分别存放偶数和奇数
+// 先遍历，分别存放偶数和奇数
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 use std::collections::VecDeque;
 
 impl Solution {
@@ -49,4 +49,4 @@ impl Solution {
         (ans)
     }
 }
-```
+// ```

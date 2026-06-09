@@ -1,4 +1,4 @@
-```rust
+// ```rust
 impl Solution {
 pub fn reverse_list(mut head: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
     let mut prev = None;
@@ -11,4 +11,4 @@ pub fn reverse_list(mut head: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
     prev
 }
 }
-```
+// ```

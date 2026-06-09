@@ -1,6 +1,6 @@
-### 二分查找
+# ### 二分查找
 
-```python []
+# ```python []
 class Solution:
     def search(self, arr: List[int], target: int) -> int:
         i, j = 0, len(arr) - 1
@@ -19,12 +19,12 @@ class Solution:
         if i + j < len(arr) and arr[i + j] == target:
             return i + j
         return -1
-```
+# ```
 
-### 列表解析
+# ### 列表解析
 
-```python []
+# ```python []
 class Solution:
     def search(self, arr: List[int], target: int) -> int:
         return next((i for i, a in enumerate(arr) if a == target), -1)
-```
+# ```

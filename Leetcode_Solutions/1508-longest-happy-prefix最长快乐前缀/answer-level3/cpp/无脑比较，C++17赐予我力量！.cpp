@@ -1,5 +1,5 @@
-无脑暴力比较
-```cpp
+// 无脑暴力比较
+// ```cpp
 class Solution 
 {
 public:
@@ -20,11 +20,11 @@ public:
         return string();
     }
 };
-```
+// ```
 
------
-C++17版本太高，也可以改用C++14
-```cpp
+// -----
+// C++17版本太高，也可以改用C++14
+// ```cpp
 class Solution
 {
 public:
@@ -45,4 +45,4 @@ public:
         return string();
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+-- ```
 SELECT month as MONTH,
        country as COUNTRY,
        SUM(IF(type = 'approved', 1, 0)) AS APPROVED_COUNT,
@@ -21,5 +21,5 @@ FROM (
          INNER JOIN Chargebacks AS c ON t.id = c.trans_id)) AS tt
 GROUP BY tt.month,
          tt.country;
-```
+-- ```
 

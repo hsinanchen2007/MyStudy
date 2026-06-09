@@ -1,7 +1,7 @@
-这里`list`里边把`str`写成`list`形式的话可能处理起来方便一点，毕竟python不允许内部修改`str`类型数据，
-把所有情况都罗列一下，记录当前的位置`now`与颜色`color = '_' or 'X'`以及方向`d = L or R or U or D`，如果走的要边界，就在旁边加一行（列）`'_'`就好了。
-最后更新一下最终的位置，把颜色换成方向即可。
-```
+# 这里`list`里边把`str`写成`list`形式的话可能处理起来方便一点，毕竟python不允许内部修改`str`类型数据，
+# 把所有情况都罗列一下，记录当前的位置`now`与颜色`color = '_' or 'X'`以及方向`d = L or R or U or D`，如果走的要边界，就在旁边加一行（列）`'_'`就好了。
+# 最后更新一下最终的位置，把颜色换成方向即可。
+# ```
 def printKMoves(self, K: int) -> List[str]:
         color = '_'
         res = ['_']
@@ -80,4 +80,4 @@ def printKMoves(self, K: int) -> List[str]:
         res[now[0]] = res[now[0]][:now[1]] + d + res[now[0]][now[1]+1:]
         return res
 
-```
+# ```

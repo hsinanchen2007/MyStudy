@@ -1,10 +1,10 @@
-### 解题思路
-一个res数组存结果，一个tempList数组存路径。
-当一个节点 没有左&&没有右 孩子的时候就返回当前路径，用join方法拼接成字符串存在结果当中。
+// ### 解题思路
+// 一个res数组存结果，一个tempList数组存路径。
+// 当一个节点 没有左&&没有右 孩子的时候就返回当前路径，用join方法拼接成字符串存在结果当中。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -33,4 +33,4 @@ var binaryTreePaths = function(root) {
     loop(root);
     return res
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-两遍扫matrix,第一遍用集合记录哪些行,哪些列有0;第二遍置0
+// ### 解题思路
+// 两遍扫matrix,第一遍用集合记录哪些行,哪些列有0;第二遍置0
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void setZeroes(int[][] matrix) {
         Set<Integer> row_zero = new HashSet<>();
@@ -26,4 +26,4 @@ class Solution {
     }
 }
 
-```
+// ```

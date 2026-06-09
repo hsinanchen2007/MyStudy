@@ -1,10 +1,10 @@
-### 解题思路
-两重循环，代码好懂，从头开始匹配
-感觉还是很冗余，手生了，要解决一下
+# ### 解题思路
+# 两重循环，代码好懂，从头开始匹配
+# 感觉还是很冗余，手生了，要解决一下
 
-### 代码******
+# ### 代码******
 
-```python
+# ```python
 class Solution(object):
     def twoSum(self, nums, target):
         """
@@ -18,4 +18,4 @@ class Solution(object):
             for j in range(i+1,l1):
                 if(a==nums[j]):
                     return i,j
-```
+# ```

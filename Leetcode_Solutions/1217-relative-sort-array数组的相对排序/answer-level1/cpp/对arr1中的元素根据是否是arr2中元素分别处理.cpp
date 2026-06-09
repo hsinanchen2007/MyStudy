@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/4446c49fda8be409241f37b907de8aa0406925889bc22f50364e5541caafc3c3-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/4446c49fda8be409241f37b907de8aa0406925889bc22f50364e5541caafc3c3-image.png)
+// ```
 class Solution {
 public:
     vector<int> relativeSortArray(vector<int>& arr1, vector<int>& arr2) {
@@ -33,4 +33,4 @@ public:
         return arr1;
     }
 };
-```
+// ```

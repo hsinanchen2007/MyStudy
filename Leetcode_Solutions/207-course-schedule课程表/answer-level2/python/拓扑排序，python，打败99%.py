@@ -1,4 +1,4 @@
-```python
+# ```python
 from collections import defaultdict,deque
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
@@ -14,4 +14,4 @@ class Solution:
                 degree[next]-=1
                 if degree[next]==0:deq.append(next)
         return numCourses==0
-```
+# ```

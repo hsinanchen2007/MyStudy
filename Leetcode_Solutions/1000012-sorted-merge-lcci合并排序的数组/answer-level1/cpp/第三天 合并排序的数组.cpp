@@ -1,9 +1,9 @@
-### 解题思路
-将B直接复制到A中，再对其排序
+// ### 解题思路
+// 将B直接复制到A中，再对其排序
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void merge(vector<int>& A, int m, vector<int>& B, int n) {
@@ -27,4 +27,4 @@ public:
         }
     }
 };
-```
+// ```

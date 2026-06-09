@@ -1,9 +1,9 @@
-用match写模式匹配很方便，递归讨论各种情况就好了
+// 用match写模式匹配很方便，递归讨论各种情况就好了
 
-还在学习Rust，从指针中取出TreeNode那里感觉写得很丑陋
-但是我不知道别的方法，欢迎指点:)
+// 还在学习Rust，从指针中取出TreeNode那里感觉写得很丑陋
+// 但是我不知道别的方法，欢迎指点:)
 
-```
+// ```
 use std::rc::Rc;
 use std::cell::RefCell;
 impl Solution {
@@ -23,4 +23,4 @@ impl Solution {
         }
     }
 }
-```
+// ```

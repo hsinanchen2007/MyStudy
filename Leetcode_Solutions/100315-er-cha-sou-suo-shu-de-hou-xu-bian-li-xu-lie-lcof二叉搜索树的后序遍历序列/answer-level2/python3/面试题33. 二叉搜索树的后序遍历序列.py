@@ -1,5 +1,5 @@
 
-```python []
+# ```python []
 class Solution:
     def verifyPostorder(self, postorder: List[int]) -> bool:
         d = {j: i for i, j in enumerate(sorted(postorder))}
@@ -14,4 +14,4 @@ class Solution:
                 return t
         f(0, len(postorder))
         return k >= -1
-```
+# ```

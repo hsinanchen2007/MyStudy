@@ -1,10 +1,10 @@
-### 解题思路
-1. 最容易想到的方式是递归，但是耗时太久，失败，
-2. 改用for循环， 注意n小于等于 2 的情况
+// ### 解题思路
+// 1. 最容易想到的方式是递归，但是耗时太久，失败，
+// 2. 改用for循环， 注意n小于等于 2 的情况
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {number}
@@ -24,4 +24,4 @@ var climbStairs = function(n) {
     }
     return sum;
 };
-```
+// ```

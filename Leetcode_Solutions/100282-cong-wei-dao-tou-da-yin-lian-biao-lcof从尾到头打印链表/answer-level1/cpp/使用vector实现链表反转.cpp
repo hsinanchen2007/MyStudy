@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-从head开始遍历整个list把所有node存放到vector中，然后调用algorihm库中反转函数reverse进行逆序即可。
-因为用了外部存储（vector）所以空间复杂度是O(n),时间复杂度用reverse实现迭代器两两交换iter_swap(first++,--end)为O(n/2)
+// ### 解题思路
+// 此处撰写解题思路
+// 从head开始遍历整个list把所有node存放到vector中，然后调用algorihm库中反转函数reverse进行逆序即可。
+// 因为用了外部存储（vector）所以空间复杂度是O(n),时间复杂度用reverse实现迭代器两两交换iter_swap(first++,--end)为O(n/2)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -37,4 +37,4 @@ public:
 
     
 };
-```
+// ```

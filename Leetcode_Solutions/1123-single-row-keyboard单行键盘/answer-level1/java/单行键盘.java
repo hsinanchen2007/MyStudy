@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int calculateTime(String keyboard, String word) {
         //哈希表法:用Map映射键盘值
@@ -19,4 +19,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

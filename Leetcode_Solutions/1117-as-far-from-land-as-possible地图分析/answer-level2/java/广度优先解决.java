@@ -1,6 +1,6 @@
-我只是照抄大神的答案再次做mark，共勉。
+// 我只是照抄大神的答案再次做mark，共勉。
 
-```
+// ```
 public int maxDistance(int[][] grid) {
         int size = grid.length;
         Queue<int[]> queue = new ArrayDeque<>();
@@ -43,4 +43,4 @@ public int maxDistance(int[][] grid) {
         }
         return distance;
     }
-```
+// ```

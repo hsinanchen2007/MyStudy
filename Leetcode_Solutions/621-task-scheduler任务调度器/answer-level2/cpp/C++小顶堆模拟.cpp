@@ -1,5 +1,5 @@
-提交通过。将每种任务当前剩余的执行次数保存到priority_queue中自动降序。模拟执行时借用另一个priority_queue临时保存剩余次数。
-```
+// 提交通过。将每种任务当前剩余的执行次数保存到priority_queue中自动降序。模拟执行时借用另一个priority_queue临时保存剩余次数。
+// ```
 class Solution {
 public:
 	int leastInterval(vector<char>& tasks, int n) {
@@ -34,5 +34,5 @@ public:
 		}
 	}
 };
-```
+// ```
 

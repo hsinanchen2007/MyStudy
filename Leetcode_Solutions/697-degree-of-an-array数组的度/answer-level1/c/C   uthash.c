@@ -1,6 +1,6 @@
-用uthash写的，设计数据结构时包含数字第一次出现的位置和最后一次出现的位置，数字出现的次数
+// 用uthash写的，设计数据结构时包含数字第一次出现的位置和最后一次出现的位置，数字出现的次数
 
-```
+// ```
 typedef struct tagHashNode {
     int id;
     int cnt;
@@ -41,4 +41,4 @@ int findShortestSubArray(int* nums, int numsSize){
     }
     return minSize;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int dayOfYear(string date) {
@@ -15,4 +15,4 @@ public:
         return sum;
     }
 };
-```
+// ```

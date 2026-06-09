@@ -1,4 +1,4 @@
-```php
+// ```php
 function isPalindrome($s)
 {
     $i = 0;
@@ -15,4 +15,4 @@ function isPalindrome($s)
     }
     return true;
 }
-```
+// ```

@@ -1,5 +1,5 @@
-C++双百做法，不用哈希表，也不用滑动窗口，仅记录符合条件的子串长度
-```
+// C++双百做法，不用哈希表，也不用滑动窗口，仅记录符合条件的子串长度
+// ```
 class Solution {
 public:
     int lengthOfLongestSubstringTwoDistinct(string s) {
@@ -30,5 +30,5 @@ public:
         return ret;
     }
 };
-```
+// ```
 

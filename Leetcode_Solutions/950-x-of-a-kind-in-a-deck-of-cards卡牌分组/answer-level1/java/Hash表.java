@@ -1,10 +1,10 @@
-### 解题思路
-哈希表+最大公约数
-不过用哈希表确实慢，不如改成int[] map = new int[10000]
+// ### 解题思路
+// 哈希表+最大公约数
+// 不过用哈希表确实慢，不如改成int[] map = new int[10000]
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public static boolean hasGroupsSizeX(int[] deck) {
         //hash表记录数字出现个数
@@ -32,4 +32,4 @@ class Solution {
         return a%b == 0? b : getGCD(b, a%b);
     }
 }
-```
+// ```

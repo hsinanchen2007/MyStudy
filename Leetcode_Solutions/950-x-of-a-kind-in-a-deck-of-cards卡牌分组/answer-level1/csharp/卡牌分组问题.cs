@@ -1,10 +1,10 @@
-### 解题思路
-先统计出每种卡牌出现的次数，存放在Dictionary结构中
-若可确保多种出现次数之间的最大公约数大于1，即可返回true
+// ### 解题思路
+// 先统计出每种卡牌出现的次数，存放在Dictionary结构中
+// 若可确保多种出现次数之间的最大公约数大于1，即可返回true
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public bool HasGroupsSizeX(int[] deck) {
         Dictionary<int, int> dict = new Dictionary<int, int>();
@@ -34,4 +34,4 @@ public class Solution {
             return (y == 0) ? x : GetGcd(y, x % y);
         }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-统计各个字符出现的次数，出现次数为偶数的字符都算到回文数量中，奇数的次数减1，加到回文数量中。最后加1
+// ### 解题思路
+// 统计各个字符出现的次数，出现次数为偶数的字符都算到回文数量中，奇数的次数减1，加到回文数量中。最后加1
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func longestPalindrome(s string) int {
     var m =make(map[rune]int)
     var sum int
@@ -29,4 +29,4 @@ func longestPalindrome(s string) int {
   }
 
 }
-```
+// ```

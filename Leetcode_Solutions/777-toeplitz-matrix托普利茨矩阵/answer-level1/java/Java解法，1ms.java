@@ -1,12 +1,12 @@
-执行用时 :1 ms, 在所有 Java 提交中击败了 100.00% 的用户
-内存消耗 :42.9 MB, 在所有 Java 提交中击败了 20.96% 的用户
+// 执行用时 :1 ms, 在所有 Java 提交中击败了 100.00% 的用户
+// 内存消耗 :42.9 MB, 在所有 Java 提交中击败了 20.96% 的用户
 
-### 解题思路
-用两个两层循环，分别判断行和列
+// ### 解题思路
+// 用两个两层循环，分别判断行和列
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isToeplitzMatrix(int[][] matrix) {
         int width = matrix[0].length;
@@ -25,4 +25,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

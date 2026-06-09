@@ -1,9 +1,9 @@
-### 解题思路
-贪心 + 二分
+// ### 解题思路
+// 贪心 + 二分
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 private:
     map<int,vector<int>> str;
@@ -55,4 +55,4 @@ public:
         return true;
     }
 };
-```
+// ```

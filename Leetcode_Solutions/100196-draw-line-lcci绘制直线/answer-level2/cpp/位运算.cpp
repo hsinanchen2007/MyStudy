@@ -1,6 +1,6 @@
-见注释
+// 见注释
 
-```
+// ```
 class Solution {
    public:
     vector<int> drawLine(int length, int w, int x1, int x2, int y) {
@@ -44,4 +44,4 @@ class Solution {
     }
 };
 
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-参考别人C++的码，原作链接https://leetcode-cn.com/problems/additive-number/solution/xia-biao-zuo-wei-fen-duan-dian-dfs-by-over-lord/
+// ### 解题思路
+// 参考别人C++的码，原作链接https://leetcode-cn.com/problems/additive-number/solution/xia-biao-zuo-wei-fen-duan-dian-dfs-by-over-lord/
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * get a section of string 'num' from head to tail
  */
@@ -122,4 +122,4 @@ bool isAdditiveNumber(char * num){
     }
     return false;
 }
-```
+// ```

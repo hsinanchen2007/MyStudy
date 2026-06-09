@@ -1,19 +1,19 @@
-### 解题思路
-1. 理解题意：大白话
-    - 在数组中，找上升的序列（非子数组）或下降的序列，3个元素
-    - 数组的item值唯一，处理边界
+# ### 解题思路
+# 1. 理解题意：大白话
+#     - 在数组中，找上升的序列（非子数组）或下降的序列，3个元素
+#     - 数组的item值唯一，处理边界
 
-2. 解题思路：
-    - 很容易想到的是暴力求解发，O(N*N*N)
-    - 尝试着思考有没有DP动态规划的思路，暂时没有想通
-    - 再次回头思考暴力求解，想到了记忆化剪枝策略：再处理第二个数j时，比rating[j] 大的数或小的数，做一下记录
+# 2. 解题思路：
+#     - 很容易想到的是暴力求解发，O(N*N*N)
+#     - 尝试着思考有没有DP动态规划的思路，暂时没有想通
+#     - 再次回头思考暴力求解，想到了记忆化剪枝策略：再处理第二个数j时，比rating[j] 大的数或小的数，做一下记录
 
-3. 也许是提交的人比较少？
-![image.png](https://pic.leetcode-cn.com/761a22bffbe76e434a63c3e3288b9a69a952432fa59bf6b4f7d85d91a830782d-image.png)
+# 3. 也许是提交的人比较少？
+# ![image.png](https://pic.leetcode-cn.com/761a22bffbe76e434a63c3e3288b9a69a952432fa59bf6b4f7d85d91a830782d-image.png)
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def numTeams(self, rating):
         """
@@ -61,10 +61,10 @@ class Solution(object):
         
 
         return res 
-```
+# ```
 
-代码二：思路更清晰，动态规划的意思：
-```
+# 代码二：思路更清晰，动态规划的意思：
+# ```
 // java 
 public int numTeams(int[] rating) {
         int n = rating.length;
@@ -94,4 +94,4 @@ public int numTeams(int[] rating) {
         
         return res;
     }
-```
+# ```

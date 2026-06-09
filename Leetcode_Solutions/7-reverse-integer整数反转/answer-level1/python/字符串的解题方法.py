@@ -1,9 +1,9 @@
-### 解题思路
-将数字转化成字符串，通过切片倒置。再转化成数字。
+# ### 解题思路
+# 将数字转化成字符串，通过切片倒置。再转化成数字。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def reverse(self, x):
         """
@@ -23,4 +23,4 @@ class Solution(object):
                 return 0
             else:
                 return a
-```
+# ```

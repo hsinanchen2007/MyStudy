@@ -1,4 +1,4 @@
-```
+// ```
 bool canFinish(int numCourses, int** prerequisites, int prerequisitesSize, int* prerequisitesColSize){
     int inDegree[numCourses];
     for(int i = 0; i < numCourses; i++) {
@@ -41,4 +41,4 @@ bool canFinish(int numCourses, int** prerequisites, int prerequisitesSize, int* 
 
     return result == 0;
 }
-```
+// ```

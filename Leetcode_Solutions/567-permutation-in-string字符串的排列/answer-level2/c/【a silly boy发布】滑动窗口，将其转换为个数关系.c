@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/891596f291928c75e35b46af953b3b6e9cee85465866b146233098d32378695a-image.png)
+// ![image.png](https://pic.leetcode-cn.com/891596f291928c75e35b46af953b3b6e9cee85465866b146233098d32378695a-image.png)
 
-```
+// ```
 #define MAXSIZE 26
 
 bool checkInclusion(char * s1, char * s2){
@@ -42,4 +42,4 @@ bool checkInclusion(char * s1, char * s2){
 
     return false;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-学习一下大佬的提前阻断法。
+// ### 解题思路
+// 学习一下大佬的提前阻断法。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 int judge(struct TreeNode* t)
 {
@@ -24,4 +24,4 @@ int judge(struct TreeNode* t)
 bool isBalanced(struct TreeNode* root){
     return judge(root) != -1;
 }
-```
+// ```

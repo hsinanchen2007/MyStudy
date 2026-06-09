@@ -1,7 +1,7 @@
 
-- 版本一：递归，后序遍历
+// - 版本一：递归，后序遍历
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<TreeNode*> delNodes(TreeNode* root, vector<int>& to_delete) {
@@ -28,11 +28,11 @@ public:
         }
     }
 };
-```
+// ```
 
-- 版本二：迭代，层次遍历。把要删除的节点标记为 0.
+// - 版本二：迭代，层次遍历。把要删除的节点标记为 0.
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<TreeNode*> delNodes(TreeNode* root, vector<int>& to_delete) {
@@ -80,5 +80,5 @@ public:
         return res;
     }
 };
-```
+// ```
 

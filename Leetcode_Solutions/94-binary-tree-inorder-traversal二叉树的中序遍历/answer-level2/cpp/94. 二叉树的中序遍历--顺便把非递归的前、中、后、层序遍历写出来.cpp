@@ -1,19 +1,19 @@
-### 解题思路
-给定一个二叉树，返回它的中序 遍历。
+// ### 解题思路
+// 给定一个二叉树，返回它的中序 遍历。
 
-示例:
+// 示例:
 
-输入: [1,null,2,3]
-   1
-    \
-     2
-    /
-   3
+// 输入: [1,null,2,3]
+//    1
+//     \
+//      2
+//     /
+//    3
 
-输出: [1,3,2]
-进阶: 递归算法很简单，你可以通过迭代算法完成吗？
-（一）递归
-```
+// 输出: [1,3,2]
+// 进阶: 递归算法很简单，你可以通过迭代算法完成吗？
+// （一）递归
+// ```
 // class Solution {
 // public:
 // 	vector<int> inorderTraversal(TreeNode* root) {
@@ -28,12 +28,12 @@
 // 		if (root->right) inorder(root->right, res);
 // 	}
 // };
-```
+// ```
 
-（二）非递归
+// （二）非递归
 
-1. 前序遍历（栈）
-```
+// 1. 前序遍历（栈）
+// ```
 class Solution {
 public:
 	vector<int> inorderTraversal(TreeNode* root) {
@@ -53,11 +53,11 @@ public:
         return res;
 	}
 };
-```
-2. 中序（栈）
-### 代码
+// ```
+// 2. 中序（栈）
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	vector<int> inorderTraversal(TreeNode* root) {
@@ -78,9 +78,9 @@ public:
 	}
 };
 
-```
-3. 后序（栈）
-```
+// ```
+// 3. 后序（栈）
+// ```
 class Solution {
 public:
 	vector<int> inorderTraversal(TreeNode* root) {
@@ -108,10 +108,10 @@ public:
         return res;
 	}
 };
-```
+// ```
 
-4. 层序遍历（队列）
-```
+// 4. 层序遍历（队列）
+// ```
 class Solution {
 public:
     vector<int> zigzagLevelOrder(TreeNode* root) {
@@ -133,4 +133,4 @@ public:
     return res;
     }
 };
-```
+// ```

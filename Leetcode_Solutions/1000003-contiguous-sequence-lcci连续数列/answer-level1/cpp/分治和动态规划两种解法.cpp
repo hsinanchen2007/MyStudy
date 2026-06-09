@@ -1,14 +1,14 @@
-## 动态规划
-**状态：** dp[i]表示以i结尾的最大连续子序列
-**状态转移：**
-对于当前的nums[i]
-如果nums[i] >= 0 则 dp[i] = dp[i-1] + nums[i];
-否则 dp[i] = nums[i];
+// ## 动态规划
+// **状态：** dp[i]表示以i结尾的最大连续子序列
+// **状态转移：**
+// 对于当前的nums[i]
+// 如果nums[i] >= 0 则 dp[i] = dp[i-1] + nums[i];
+// 否则 dp[i] = nums[i];
 
-其实我们可以把nums当做dp数组，直接在原数组上面操作，这样可以省掉O(n)的空间
+// 其实我们可以把nums当做dp数组，直接在原数组上面操作，这样可以省掉O(n)的空间
 
 
-```
+// ```
     // 动态规划
     int maxSubArray(vector<int>& nums) {
         if(nums.size() == 0) return INT_MIN; 
@@ -21,10 +21,10 @@
         }
         return maxSum;
     }
-```
-## 分治法
-注释已经写得很清楚了，这里就不在阐述
-```
+// ```
+// ## 分治法
+// 注释已经写得很清楚了，这里就不在阐述
+// ```
     // 分治法
     int maxSubArray(vector<int>& nums)
     {
@@ -56,4 +56,4 @@
         }
         return max(max(sumLeft,sumRight),leftMaxSum+rightMaxSum);
     }
-```
+// ```

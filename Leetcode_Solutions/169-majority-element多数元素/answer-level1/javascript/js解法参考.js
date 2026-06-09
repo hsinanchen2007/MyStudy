@@ -1,4 +1,4 @@
-```
+// ```
 var majorityElement = function(nums) {
     let map = {}
     let resItem = ''
@@ -14,4 +14,4 @@ var majorityElement = function(nums) {
     }
     return resItem
 };
-```
+// ```

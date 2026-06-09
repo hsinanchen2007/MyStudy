@@ -1,5 +1,5 @@
 
-```
+// ```
 class StreamRank {
     private class Node{
         public Node left, right;
@@ -57,4 +57,4 @@ class StreamRank {
  * obj.track(x);
  * int param_2 = obj.getRankOfNumber(x);
  */
-```
+// ```

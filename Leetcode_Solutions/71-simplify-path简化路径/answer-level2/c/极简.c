@@ -1,4 +1,4 @@
-```
+// ```
 #define FNMC_MAX 100
 #define PATH_MAX 25600
 
@@ -41,4 +41,4 @@ char *simplifyPath(char *path)
 	s[fnms_index[sp - 1]] = '\0';
 	return s;
 }
-```
+// ```

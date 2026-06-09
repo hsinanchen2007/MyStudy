@@ -1,7 +1,7 @@
 
-当遇到20元时优先使用10元找零
+// 当遇到20元时优先使用10元找零
 
-```
+// ```
 class Solution {
     public boolean lemonadeChange(int[] bills) {
         int fiveDollar = 0;
@@ -43,4 +43,4 @@ class Solution {
         return fiveDollar >= 0 && tenDollar >= 0 && twentydollar >= 0;
     }
 }
-```
+// ```

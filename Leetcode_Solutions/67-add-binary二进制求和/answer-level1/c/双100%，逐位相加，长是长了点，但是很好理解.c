@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * addBinary(char * a, char * b){
     int result_len;
     int a_len=strlen(a);
@@ -49,4 +49,4 @@ char * addBinary(char * a, char * b){
     }
     return result;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 impl Solution {
     pub fn to_goat_latin(s: String) -> String {
         let mut s = s;
@@ -37,4 +37,4 @@ impl Solution {
         launch
     }
 }
-```
+// ```

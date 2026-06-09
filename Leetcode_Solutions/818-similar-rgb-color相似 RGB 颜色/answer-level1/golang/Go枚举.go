@@ -1,4 +1,4 @@
-```
+// ```
 
 func similarity(hex1, hex2 int64) int  {
 	ans := 0
@@ -36,4 +36,4 @@ func similarRGB(color string) string {
 		}
 		return  fmt.Sprintf("#%06x", ans)
 }
-```
+// ```

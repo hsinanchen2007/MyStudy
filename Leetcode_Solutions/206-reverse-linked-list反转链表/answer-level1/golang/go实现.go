@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-插头法
+// 插头法
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func reverseList(head *ListNode) *ListNode {
 	var newHead *ListNode
 	for head != nil {
@@ -15,4 +15,4 @@ func reverseList(head *ListNode) *ListNode {
 	}
 	return newHead
 }
-```
+// ```

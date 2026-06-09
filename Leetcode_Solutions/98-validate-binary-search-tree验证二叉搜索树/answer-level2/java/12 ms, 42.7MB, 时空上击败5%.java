@@ -1,9 +1,9 @@
-### 解题思路
-每到一个新的节点都进行检测，是否符合二叉搜索树的规定，若不符合，则直接返回false.
+// ### 解题思路
+// 每到一个新的节点都进行检测，是否符合二叉搜索树的规定，若不符合，则直接返回false.
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -99,4 +99,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

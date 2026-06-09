@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def validTree(self, n: int, edges: List[List[int]]) -> bool:
         if n == 1: return True # specical case
@@ -27,4 +27,4 @@ class Solution:
                     queue.append(neibor)
                     rest -= 1
         return rest == 0 and len(edges) == n - 1
-```
+# ```

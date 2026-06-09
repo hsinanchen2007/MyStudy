@@ -1,9 +1,9 @@
-### 解题思路
-队列的基本操作就可以解决
+# ### 解题思路
+# 队列的基本操作就可以解决
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class CQueue(object):
 
     def __init__(self):
@@ -31,4 +31,4 @@ class CQueue(object):
 # obj = CQueue()
 # obj.appendTail(value)
 # param_2 = obj.deleteHead()
-```
+# ```

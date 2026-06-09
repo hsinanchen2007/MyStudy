@@ -1,5 +1,5 @@
-滚动数组，空间复杂度 O(1)
-```
+// 滚动数组，空间复杂度 O(1)
+// ```
 class Solution {
 public:
     int tribonacci(int n) {
@@ -11,4 +11,4 @@ public:
         return a[n%4];
     }
 };
-```
+// ```

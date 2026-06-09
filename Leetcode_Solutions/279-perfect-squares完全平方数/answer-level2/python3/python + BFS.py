@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def numSquares(self, n: int) -> int:
         # bfs
@@ -24,4 +24,4 @@ class Solution:
                     elif curVal + s < n and curVal + s not in visited:
                         queue.append((curVal + s, curSteps + 1))
                         visited.add(curVal + s)
-```
+# ```

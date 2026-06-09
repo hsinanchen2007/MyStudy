@@ -1,9 +1,9 @@
-### 解题思路
-顺序遍历记录每个距离车上负载情况
+// ### 解题思路
+// 顺序遍历记录每个距离车上负载情况
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX_PATH 1001
 void comp(void *a, void *b)
 {
@@ -39,4 +39,4 @@ bool carPooling(int** trips, int tripsSize, int* tripsColSize, int capacity){
 
     return true;
 }
-```
+// ```

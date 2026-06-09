@@ -1,6 +1,6 @@
-Swift 一遍Hash
+// Swift 一遍Hash
 
-```
+// ```
   static func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
         var hashTable: Dictionary<Int, Int> = [:]
         for (index, value) in nums.enumerated() {
@@ -12,4 +12,4 @@ Swift 一遍Hash
         }
         return []
     }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 from collections import Counter
 class Solution:
     def longestPalindrome(self, s: str) -> int:
@@ -14,4 +14,4 @@ class Solution:
         
         return count if not find else count+1
 
-```
+# ```

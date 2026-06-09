@@ -1,4 +1,4 @@
-```c
+// ```c
 static int ans = 0;
 
 int valid(int i,int j,int k){
@@ -47,4 +47,4 @@ int movingCount(int m, int n, int k){
     dfs(0,0,m,n,k,record);
     return ans;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 import "strings"
 
 func repeatedStringMatch(A string, B string) int {
@@ -11,4 +11,4 @@ func repeatedStringMatch(A string, B string) int {
 	}
 	return -1
 }
-```
+// ```

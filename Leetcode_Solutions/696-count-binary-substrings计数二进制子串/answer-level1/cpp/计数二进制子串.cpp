@@ -1,9 +1,9 @@
-### 解题思路
-根据评论区某位朋友的思路实现的代码
+// ### 解题思路
+// 根据评论区某位朋友的思路实现的代码
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int countBinarySubstrings(string s) {
@@ -32,4 +32,4 @@ public:
         return sum;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-挺简单的一道题
+# ### 解题思路
+# 挺简单的一道题
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def majorityElement(self, nums: List[int]) -> List[int]:
         d = {}
@@ -18,4 +18,4 @@ class Solution:
             if d[item] > k:
                 ans.append(item)
         return ans
-```
+# ```

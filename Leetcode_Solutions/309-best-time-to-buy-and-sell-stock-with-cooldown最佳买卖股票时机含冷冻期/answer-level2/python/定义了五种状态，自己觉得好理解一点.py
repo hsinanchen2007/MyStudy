@@ -1,6 +1,6 @@
-定义了五种状态，看其他解法都是三种，有点想不明白，求解释为什么不需要 不操作的状态？  
+# 定义了五种状态，看其他解法都是三种，有点想不明白，求解释为什么不需要 不操作的状态？  
 
-```python
+# ```python
 class Solution(object):
     def maxProfit(self, prices):
         """
@@ -35,4 +35,4 @@ class Solution(object):
             #如果是没有持有且不操作，那么前一天有两种情况：冷冻期 或 没有持有且不操作
             dp[i][NONE_NOTBUY] = max([dp[i-1][COOLDOWN],dp[i-1][NONE_NOTBUY]])
         return max(dp[-1][SELL], dp[-1][COOLDOWN], dp[-1][NONE_NOTBUY])
-```
+# ```

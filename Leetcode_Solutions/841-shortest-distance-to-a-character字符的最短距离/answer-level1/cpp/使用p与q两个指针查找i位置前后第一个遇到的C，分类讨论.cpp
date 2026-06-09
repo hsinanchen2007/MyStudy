@@ -1,9 +1,9 @@
-### 解题思路
-使用p与q两个指针查找i位置前后第一个遇到的C，分类讨论
+// ### 解题思路
+// 使用p与q两个指针查找i位置前后第一个遇到的C，分类讨论
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> shortestToChar(string S, char C) {
@@ -35,4 +35,4 @@ public:
         return res;
     }
 };
-```
+// ```

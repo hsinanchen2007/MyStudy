@@ -1,9 +1,9 @@
-### 解题思路
-很简单的后序遍历，只是在递归的时候要附带上父节点，这样方便剪枝
+// ### 解题思路
+// 很简单的后序遍历，只是在递归的时候要附带上父节点，这样方便剪枝
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -36,4 +36,4 @@ class Solution {
         }
     }
 }
-```
+// ```

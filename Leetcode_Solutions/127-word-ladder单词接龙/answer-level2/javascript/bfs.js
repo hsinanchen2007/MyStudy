@@ -1,4 +1,4 @@
-```
+// ```
 //执行用时 :348 ms, 在所有 JavaScript 提交中击败了91.49%的用户
 //借用队列，类似与bfs
 var ladderLength = function(beginWord, endWord, wordList) {
@@ -41,4 +41,4 @@ var ladderLength = function(beginWord, endWord, wordList) {
         return true;
     }
 };
-```
+// ```

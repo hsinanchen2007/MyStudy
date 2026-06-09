@@ -1,15 +1,15 @@
-![image.png](https://pic.leetcode-cn.com/8bb40d14e3bce9753497a29e590daec3d97121936cf6beb3ea9c4a5e9d44a482-image.png)
+// ![image.png](https://pic.leetcode-cn.com/8bb40d14e3bce9753497a29e590daec3d97121936cf6beb3ea9c4a5e9d44a482-image.png)
 
-### 解题思路
-```javascript
+// ### 解题思路
+// ```javascript
 动态规划
 分析：
 - 求 dp[dst][K] -> 到 dst 点，最多中转 K 次，需要的花费
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @param {number[][]} flights
@@ -145,4 +145,4 @@ var findCheapestPrice = function(n, flights, src, dst, K) {
   
 //   return ans;
 // };
-```
+// ```

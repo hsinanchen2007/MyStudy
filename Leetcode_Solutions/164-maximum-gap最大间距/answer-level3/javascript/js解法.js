@@ -1,4 +1,4 @@
-```
+// ```
 var maximumGap = function(nums) {
     //nums = [3,6,9,1];
     if(nums.length === 1){
@@ -16,4 +16,4 @@ var maximumGap = function(nums) {
     }
     return max
 };
-```
+// ```

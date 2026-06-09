@@ -1,10 +1,10 @@
-### 解题思路
-解题思路见 ↓↓↓
-![gzh.jpg](https://pic.leetcode-cn.com/6ace4ef6d026462a538f5deceafe577af5cdf0f0a38677f6680ef350f9050200-gzh.jpg)
+// ### 解题思路
+// 解题思路见 ↓↓↓
+// ![gzh.jpg](https://pic.leetcode-cn.com/6ace4ef6d026462a538f5deceafe577af5cdf0f0a38677f6680ef350f9050200-gzh.jpg)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 public class Solution {
     // you need to treat n as an unsigned value
     public int hammingWeight(int n) {
@@ -19,4 +19,4 @@ public class Solution {
         return count;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 func anagramMappings(A []int, B []int) []int {
 	m := map[int]int{}
 	for i, n := range B {
@@ -10,4 +10,4 @@ func anagramMappings(A []int, B []int) []int {
 	}
 	return out
 }
-```
+// ```

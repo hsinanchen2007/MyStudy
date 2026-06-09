@@ -1,18 +1,18 @@
-### 解题思路
-执行用时 :
-12 ms
-, 在所有 java 提交中击败了
-17.54%
-的用户
-内存消耗 :
-36.9 MB
-, 在所有 java 提交中击败了
-55.72%
-的用户
+// ### 解题思路
+// 执行用时 :
+// 12 ms
+// , 在所有 java 提交中击败了
+// 17.54%
+// 的用户
+// 内存消耗 :
+// 36.9 MB
+// , 在所有 java 提交中击败了
+// 55.72%
+// 的用户
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public char findTheDifference(String s, String t) {
          String s_res=s+t;
@@ -30,4 +30,4 @@ class Solution {
 
     }
 }
-```
+// ```

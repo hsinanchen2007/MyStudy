@@ -1,9 +1,9 @@
-### 解题思路
-三个指针，分别标记要删除位置，要删除位置的前置，和距离删除位置 n 的位置。
+# ### 解题思路
+# 三个指针，分别标记要删除位置，要删除位置的前置，和距离删除位置 n 的位置。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -34,4 +34,4 @@ class Solution:
                 head = head.next
                 index_delete.next = None
         return head
-```
+# ```

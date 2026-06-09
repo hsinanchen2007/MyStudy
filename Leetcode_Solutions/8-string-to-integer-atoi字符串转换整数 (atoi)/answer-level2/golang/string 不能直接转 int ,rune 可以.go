@@ -1,9 +1,9 @@
-### 解题思路
-菜鸡只配抄。。。
+// ### 解题思路
+// 菜鸡只配抄。。。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func myAtoi(str string) int {
 	res, flag := 0, 1  //结果,正负标记
 	firstNumber := false  //只有第一个字符符合条件才会往后遍历，并且如果后面出现了不符合条件的字符，可以置false终止循环
@@ -49,4 +49,4 @@ func myAtoi(str string) int {
 	}
 	return res * flag
 }
-```
+// ```

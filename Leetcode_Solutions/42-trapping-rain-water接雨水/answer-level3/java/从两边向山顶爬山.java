@@ -1,9 +1,9 @@
-先确立一个最高点，两边向山顶爬山，只要遇到凹坑，就填水。
+// 先确立一个最高点，两边向山顶爬山，只要遇到凹坑，就填水。
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int trap(int[] height) {
         int len = height.length;
@@ -32,4 +32,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

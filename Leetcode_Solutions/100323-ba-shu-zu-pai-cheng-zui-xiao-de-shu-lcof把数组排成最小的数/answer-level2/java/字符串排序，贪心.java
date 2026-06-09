@@ -1,33 +1,33 @@
-## 45.把数组排成最小的数
+// ## 45.把数组排成最小的数
 
-### Information
+// ### Information
 
-* TIME: 2020/02/19
-* LINK: [Click Here](https://leetcode-cn.com/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/)
-* TAG: `String` `greedy`
+// * TIME: 2020/02/19
+// * LINK: [Click Here](https://leetcode-cn.com/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/)
+// * TAG: `String` `greedy`
 
-### Description
+// ### Description
 
-> 输入一个正整数数组，把数组里所有数字拼接起来排成一个数，打印能拼接出的所有数字中最小的一个。
+// > 输入一个正整数数组，把数组里所有数字拼接起来排成一个数，打印能拼接出的所有数字中最小的一个。
 
-### Example
+// ### Example
 
-```text
+// ```text
 输入: [10,2]
 输出: "102"
-```
+// ```
 
-### My Answer
+// ### My Answer
 
-> 依据贪心的思想，越小的字符就排得越前
->
-> 但是有一个问题，对于字符串的排序很难确定，因为长度不等，比较起来很繁琐
->
-> 于是对于`o1` `o2`，要比较它们，不妨比较`o1+o2` `o2+o1`
->
-> 通过相加，可以比较两个等长的字符串，从而确定哪个字符串具有的字符值较小
+// > 依据贪心的思想，越小的字符就排得越前
+// >
+// > 但是有一个问题，对于字符串的排序很难确定，因为长度不等，比较起来很繁琐
+// >
+// > 于是对于`o1` `o2`，要比较它们，不妨比较`o1+o2` `o2+o1`
+// >
+// > 通过相加，可以比较两个等长的字符串，从而确定哪个字符串具有的字符值较小
 
-```java
+// ```java
 class Solution {
     public String minNumber(int[] nums) {
         String[] strnums = new String[nums.length];
@@ -47,23 +47,23 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```
 
-### Extend & Reference
+// ### Extend & Reference
 
-> 来源：力扣（LeetCode）
-> 链接：https://leetcode-cn.com
-> 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+// > 来源：力扣（LeetCode）
+// > 链接：https://leetcode-cn.com
+// > 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
-### More
+// ### More
 
-> **更多题解，请访问我的GitHub仓库：[LeetCode 刷题日记](https://github.com/ZhuoZhuoCrayon/my-Nodes/blob/master/Daily/README_2020.md)**
->
-> [无效的图片地址](https://raw.githubusercontent.com/ZhuoZhuoCrayon/my-Nodes/master/Daily/img/mynode.png)
->
-> [**更多笔记**](https://github.com/ZhuoZhuoCrayon/my-Nodes)：**`Vue` `Java SSM 框架` `阿里云服务器` `JavaScript/HTML/CSS`   `数据库` ...**
->
-> **我的GitHub主页 -> [ZhuoZhuoCrayon](https://github.com/ZhuoZhuoCrayon)**
->
-> 共勉~
+// > **更多题解，请访问我的GitHub仓库：[LeetCode 刷题日记](https://github.com/ZhuoZhuoCrayon/my-Nodes/blob/master/Daily/README_2020.md)**
+// >
+// > [无效的图片地址](https://raw.githubusercontent.com/ZhuoZhuoCrayon/my-Nodes/master/Daily/img/mynode.png)
+// >
+// > [**更多笔记**](https://github.com/ZhuoZhuoCrayon/my-Nodes)：**`Vue` `Java SSM 框架` `阿里云服务器` `JavaScript/HTML/CSS`   `数据库` ...**
+// >
+// > **我的GitHub主页 -> [ZhuoZhuoCrayon](https://github.com/ZhuoZhuoCrayon)**
+// >
+// > 共勉~
 

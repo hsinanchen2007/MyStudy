@@ -1,6 +1,6 @@
-### 解题思路 & 代码
+// ### 解题思路 & 代码
 
-```java
+// ```java
 class Solution {
     public int binaryGap(int N) {
                 int last = -1;  // 上一个1的位置
@@ -16,4 +16,4 @@ class Solution {
         return maxLen;
     }
 }
-```
+// ```

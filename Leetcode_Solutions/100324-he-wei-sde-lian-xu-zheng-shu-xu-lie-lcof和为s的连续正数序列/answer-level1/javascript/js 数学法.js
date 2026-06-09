@@ -1,14 +1,14 @@
-### 解题思路
-第一次双百,萌新激动。
-**数学法双百(56ms,34.1MB)**
-首项a1,n项,差1,等差数列的和就是target,反过来求a1,判断是否为整数
-**暴力法用时(256ms,36.8MB)**
+// ### 解题思路
+// 第一次双百,萌新激动。
+// **数学法双百(56ms,34.1MB)**
+// 首项a1,n项,差1,等差数列的和就是target,反过来求a1,判断是否为整数
+// **暴力法用时(256ms,36.8MB)**
 
 
-### 代码
+// ### 代码
 
-数学法
-```javascript
+// 数学法
+// ```javascript
 /**
  * @param {number} target
  * @return {number[][]}
@@ -29,11 +29,11 @@ var findContinuousSequence = function (target) {
     }
     return output
 };
-```
+// ```
 
 
-暴力法
-```js
+// 暴力法
+// ```js
     var findContinuousSequence = function (target) {
         let mid = Math.ceil(target / 2)
         let output = []
@@ -54,4 +54,4 @@ var findContinuousSequence = function (target) {
         return output
     }; 
 
-```
+// ```

@@ -1,10 +1,10 @@
-![image.png](https://pic.leetcode-cn.com/40fa5a540b2da816315e56e6422d364574163932ed2b9c2ed44a463b04850ad8-image.png)
+// ![image.png](https://pic.leetcode-cn.com/40fa5a540b2da816315e56e6422d364574163932ed2b9c2ed44a463b04850ad8-image.png)
 
-### 解题思路
-digits[k]]=(digits[k]+jinwei[k+1])%10,jinwei[k]=(digits[k]+jinwei[k+1])/10
-### 代码
+// ### 解题思路
+// digits[k]]=(digits[k]+jinwei[k+1])%10,jinwei[k]=(digits[k]+jinwei[k+1])/10
+// ### 代码
 
-```golang
+// ```golang
 func plusOne(digits []int) []int {
 //应该可以用动态规划做，假设f(k)表示当前值，则
 /*
@@ -25,4 +25,4 @@ func plusOne(digits []int) []int {
 	return digits
 }
 
-```
+// ```

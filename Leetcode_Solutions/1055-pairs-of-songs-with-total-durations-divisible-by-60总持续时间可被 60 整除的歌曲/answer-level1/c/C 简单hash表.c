@@ -1,12 +1,12 @@
-### 解题思路
-先对time数组取模，然后用一个hash表存储0-59每个元素出现的个数
-再从右向左遍历，每次都从hash表中去除当前元素，这样表中的元素就都满足 j>i 了；
-因为 （i + j）% 60 = ((i % 60) + (j % 60)) % 60;
-所以需要对0单独考虑。
+// ### 解题思路
+// 先对time数组取模，然后用一个hash表存储0-59每个元素出现的个数
+// 再从右向左遍历，每次都从hash表中去除当前元素，这样表中的元素就都满足 j>i 了；
+// 因为 （i + j）% 60 = ((i % 60) + (j % 60)) % 60;
+// 所以需要对0单独考虑。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int numPairsDivisibleBy60(int* time, int timeSize){
 	
 	int count = 0;
@@ -33,4 +33,4 @@ int numPairsDivisibleBy60(int* time, int timeSize){
 	
 	return count;
 }
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
-双指针遍历字符串
-注意点：
-1.元音字母包括大小写
-2.python的字符串不可修改需要改成list
-3.返回值是字符串，需要用string类型中的join方法
-### 代码
+# ### 解题思路
+# 双指针遍历字符串
+# 注意点：
+# 1.元音字母包括大小写
+# 2.python的字符串不可修改需要改成list
+# 3.返回值是字符串，需要用string类型中的join方法
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def reverseVowels(self, s):
         s = list(s)
@@ -24,4 +24,4 @@ class Solution(object):
                 j -= 1
             i += 1
         return ''.join(s)
-```
+# ```

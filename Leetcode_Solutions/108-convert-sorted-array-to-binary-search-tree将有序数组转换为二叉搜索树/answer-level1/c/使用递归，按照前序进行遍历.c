@@ -1,10 +1,10 @@
-### 解题思路
-1、首先找到根节点，实际就是最中间的节点
-2、再分别找左子树和右子树，方式是使用递归查找
+// ### 解题思路
+// 1、首先找到根节点，实际就是最中间的节点
+// 2、再分别找左子树和右子树，方式是使用递归查找
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /* *
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -50,4 +50,4 @@ struct TreeNode *sortedArrayToBST(int *nums, int numsSize)
 
     return GetTree(nums, numsSize);
 }
-```
+// ```

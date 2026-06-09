@@ -1,5 +1,5 @@
-采用对撞指针，如对注释有疑惑，欢迎一起交流~
-```
+# 采用对撞指针，如对注释有疑惑，欢迎一起交流~
+# ```
 class Solution:
     def reverseVowels(self, s: str) -> str:
         # 使用.join将列表中的元素组合成字符串
@@ -21,4 +21,4 @@ class Solution:
                 p0 += 1
                 p1 -= 1
         return ''.join(srr)
-```
+# ```

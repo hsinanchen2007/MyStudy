@@ -1,11 +1,11 @@
-### 解题思路
-![QQ截图20200316213545.jpg](https://pic.leetcode-cn.com/f4cb0d0d3ae664b18ca27af99e860f19ebec35b5b714ad8b3c23fac91c1bf46e-QQ%E6%88%AA%E5%9B%BE20200316213545.jpg)
+// ### 解题思路
+// ![QQ截图20200316213545.jpg](https://pic.leetcode-cn.com/f4cb0d0d3ae664b18ca27af99e860f19ebec35b5b714ad8b3c23fac91c1bf46e-QQ%E6%88%AA%E5%9B%BE20200316213545.jpg)
 
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String compressString(String S) {
         if(S.length() < 3){
@@ -37,4 +37,4 @@ class Solution {
         return S.length() < result.length() ? S : result.toString();
     }
 }
-```
+// ```

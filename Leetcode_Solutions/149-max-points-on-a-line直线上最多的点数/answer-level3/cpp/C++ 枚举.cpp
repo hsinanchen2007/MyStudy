@@ -1,9 +1,9 @@
-### 解题思路
-通过枚举法 对每一个点取 在一条直线上的点的斜率是否一致来计数 并判断和更新最大一条直线的点数
+// ### 解题思路
+// 通过枚举法 对每一个点取 在一条直线上的点的斜率是否一致来计数 并判断和更新最大一条直线的点数
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /* 枚举法 */
 class Solution {
 public:
@@ -37,5 +37,5 @@ public:
         return Max;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/d9bbef401585f972aec511ab072b18b8fa7acd46f5a4462f3f3211a75f899b7a-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/d9bbef401585f972aec511ab072b18b8fa7acd46f5a4462f3f3211a75f899b7a-image.png)

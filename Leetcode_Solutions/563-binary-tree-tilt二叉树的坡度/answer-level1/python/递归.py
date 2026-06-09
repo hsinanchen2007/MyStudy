@@ -1,11 +1,11 @@
-### 解题思路
-首先明确一点：一个节点的坡度是指其左右子树**所有节点之和**的差值的绝对值
-于是，我们得先求得所有节点之和，在这里我定义一个递归函数来求和。
+# ### 解题思路
+# 首先明确一点：一个节点的坡度是指其左右子树**所有节点之和**的差值的绝对值
+# 于是，我们得先求得所有节点之和，在这里我定义一个递归函数来求和。
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -26,4 +26,4 @@ class Solution:
         r=sumval(root.right) #右子树
         return abs(l-r)+self.findTilt(root.left)+self.findTilt(root.right) #依次自上而下进行递归
 
-```
+# ```

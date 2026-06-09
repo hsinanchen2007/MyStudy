@@ -1,15 +1,15 @@
-### 解题思路
-动态方程为 dp[i][j] = min(dp[i-1][j] + triangle[i][j],dp[i-1][j-1] + triangle[i][j]) i为到达i层，j位置时的最小路径
-思路1:
-    1.上一层没有对应的j时，dp[i][j] = triangle[i][j] + dp[i-1][j-1]
-    2.上一层没有对应的j-1时，j-1可能为-1，则dp[i][j] = triangle[i][j] + dp[i-1][j]
-    3.否则就是通用的动态方程dp[i][j] = min(dp[i-1][j] ,dp[i-1][j-1] ) + triangle[i][j]
+// ### 解题思路
+// 动态方程为 dp[i][j] = min(dp[i-1][j] + triangle[i][j],dp[i-1][j-1] + triangle[i][j]) i为到达i层，j位置时的最小路径
+// 思路1:
+//     1.上一层没有对应的j时，dp[i][j] = triangle[i][j] + dp[i-1][j-1]
+//     2.上一层没有对应的j-1时，j-1可能为-1，则dp[i][j] = triangle[i][j] + dp[i-1][j]
+//     3.否则就是通用的动态方程dp[i][j] = min(dp[i-1][j] ,dp[i-1][j-1] ) + triangle[i][j]
 
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     //回朔
@@ -57,4 +57,4 @@ public:
         return minv;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     void moveZeroes(vector<int>& nums) {
@@ -10,5 +10,5 @@ public:
             }
     }
 };
-```
-第一次一分钟内一次ac，太激动了，发个题解
+// ```
+// 第一次一分钟内一次ac，太激动了，发个题解

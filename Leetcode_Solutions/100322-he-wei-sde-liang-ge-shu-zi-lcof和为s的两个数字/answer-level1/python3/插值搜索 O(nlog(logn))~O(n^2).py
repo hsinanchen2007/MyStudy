@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-对于[num in nums]利用插入搜索法搜索target-num,时间复杂度为O(nlog(logn))~O(n^2)，nums分布越是均匀搜索速度越快。
-执行用时 :256 ms, 在所有 Python3 提交中击败了100.00%的用户
-内存消耗 :24.6 MB, 在所有 Python3 提交中击败了100.00%的用户
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 对于[num in nums]利用插入搜索法搜索target-num,时间复杂度为O(nlog(logn))~O(n^2)，nums分布越是均匀搜索速度越快。
+# 执行用时 :256 ms, 在所有 Python3 提交中击败了100.00%的用户
+# 内存消耗 :24.6 MB, 在所有 Python3 提交中击败了100.00%的用户
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         # 插入搜索num
@@ -48,4 +48,4 @@ class Solution:
             
 
 
-```
+# ```

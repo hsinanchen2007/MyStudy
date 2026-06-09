@@ -1,5 +1,5 @@
-最直观易懂的写法
-```
+// 最直观易懂的写法
+// ```
     int reversePairs(vector<int>& nums) {
         if(nums.size()<2) return 0;
         return mergeSort(nums,0,nums.size());
@@ -16,9 +16,9 @@
         inplace_merge(nums.begin()+sta,nums.begin()+mid,nums.begin()+end);
         return cot;
     }
-```
-简单优化
-```
+// ```
+// 简单优化
+// ```
     int *aux;
     int reversePairs(vector<int>& nums) {
         if(nums.size()<2) return 0;
@@ -54,4 +54,4 @@
             else                    a[i]=aux[j++];
         }
     }
-```
+// ```

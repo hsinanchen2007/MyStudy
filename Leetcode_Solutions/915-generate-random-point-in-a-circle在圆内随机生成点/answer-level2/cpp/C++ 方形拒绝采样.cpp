@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     double x, y, r;
@@ -18,5 +18,5 @@ public:
         return {x + tx * r, y + ty * r};
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/b78b07c41ac88f7538f4a88dc24316ced396c60cc6f7efafc510b6e6c705bc2b-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/b78b07c41ac88f7538f4a88dc24316ced396c60cc6f7efafc510b6e6c705bc2b-image.png)

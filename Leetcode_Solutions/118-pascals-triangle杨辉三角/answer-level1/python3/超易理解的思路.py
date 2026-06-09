@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def generate(self, numRows: int) -> List[List[int]]:
         List=[[0 for _ in range(numRows)]for _ in range(numRows)]
@@ -10,4 +10,4 @@ class Solution:
         for s in range(numRows):
             List[s]=List[s][0:s+1]
         return List
-```
+# ```

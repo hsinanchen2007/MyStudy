@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```c
+// ```c
 //定义函数swap(left, right)
 //如果left>=right则什么也不做
 //否则，交换left和right，并调用swap(left+1, right-1)
@@ -25,4 +25,4 @@ void reverseString(char* s, int sSize){
 
     swap(s, s+sSize-1);
 }
-```
+// ```

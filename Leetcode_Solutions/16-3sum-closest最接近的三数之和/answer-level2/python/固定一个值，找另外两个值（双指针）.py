@@ -1,11 +1,11 @@
-## 思路：
+# ## 思路：
 
-数组是已排好序，首先确定一个数，在左右指针运动过程中，记录与 `target` 绝对值差值最小的。
+# 数组是已排好序，首先确定一个数，在左右指针运动过程中，记录与 `target` 绝对值差值最小的。
 
 
-## 代码：
+# ## 代码：
 
-```Python []
+# ```Python []
 class Solution:
     def threeSumClosest(self, nums: List[int], target: int) -> int:
         
@@ -30,9 +30,9 @@ class Solution:
                     left += 1
         return res
             
-```
+# ```
 
-```Java []
+# ```Java []
 class Solution {
     public int threeSumClosest(int[] nums, int target) {
         Arrays.sort(nums);
@@ -55,8 +55,8 @@ class Solution {
         
     }
 }
-```
-```C++ []
+# ```
+# ```C++ []
 class Solution {
 public:
     int threeSumClosest(vector<int>& nums, int target) {
@@ -80,5 +80,5 @@ public:
         return res;
     }
 };
-```
+# ```
 

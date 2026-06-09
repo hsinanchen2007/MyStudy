@@ -1,9 +1,9 @@
-### 解题思路
-管他三七二十一，就是遍历，试！
+# ### 解题思路
+# 管他三七二十一，就是遍历，试！
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def twoSum(self, nums, target):
         """
@@ -16,4 +16,4 @@ class Solution(object):
                 if nums[i] + nums[j] == target and i != j:
                     return [i,j]
         return
-```
+# ```

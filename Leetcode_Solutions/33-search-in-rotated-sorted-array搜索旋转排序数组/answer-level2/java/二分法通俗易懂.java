@@ -1,9 +1,9 @@
-### 解题思路
-观察34567812、78123456发现总有一半是升序的，用二分法一趟搞定。O（lgn）
+// ### 解题思路
+// 观察34567812、78123456发现总有一半是升序的，用二分法一趟搞定。O（lgn）
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int search(int[] nums, int target) {
         int left = 0;
@@ -36,4 +36,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

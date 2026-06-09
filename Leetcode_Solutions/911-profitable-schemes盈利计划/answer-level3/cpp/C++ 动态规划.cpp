@@ -1,12 +1,12 @@
-# 解法一：
-三维动态规划
-1，`dp[i][j][k]`代表考虑前`i`个profit的情况下，在可用人数为`j`个情况下，能获取利润至少为`k`的情况数
-2，状态转移方程为：
-令`g = group[i - 1];`
-令`p = profit[i - 1];`
-则`dp[i][j][k] = dp[i - 1][j][k] + dp[i - 1][j - g][max(k - p, 0)];`
+// # 解法一：
+// 三维动态规划
+// 1，`dp[i][j][k]`代表考虑前`i`个profit的情况下，在可用人数为`j`个情况下，能获取利润至少为`k`的情况数
+// 2，状态转移方程为：
+// 令`g = group[i - 1];`
+// 令`p = profit[i - 1];`
+// 则`dp[i][j][k] = dp[i - 1][j][k] + dp[i - 1][j - g][max(k - p, 0)];`
 
-```C++ []
+// ```C++ []
 class Solution1 {
 public:
     const long M = 1e9 + 7;
@@ -34,14 +34,14 @@ public:
         return dp[N][G][P];
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/a13198e9597f5d6ca1ceab87eb51b4c543405b997cc76191af2f3bdabddd4aa6-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/a13198e9597f5d6ca1ceab87eb51b4c543405b997cc76191af2f3bdabddd4aa6-image.png)
 
 
-# 解法二：
-状态压缩动态规划
-滚动利用dp
-```C++ []
+// # 解法二：
+// 状态压缩动态规划
+// 滚动利用dp
+// ```C++ []
 class Solution {
 public:
     const long M = 1e9 + 7;
@@ -65,6 +65,6 @@ public:
         return dp[G][P];
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/289c2289f31e9f1fca7dadce664be96bc633e1be5add2eef71c5fdbb3cca297f-image.png)
+// ![image.png](https://pic.leetcode-cn.com/289c2289f31e9f1fca7dadce664be96bc633e1be5add2eef71c5fdbb3cca297f-image.png)

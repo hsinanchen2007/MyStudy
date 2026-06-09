@@ -1,5 +1,5 @@
-思路：找到每个房屋离加热器的最短距离（即找出离房屋最近的加热器），然后在所有距离中选出最大的一个即为结果。
-```python
+# 思路：找到每个房屋离加热器的最短距离（即找出离房屋最近的加热器），然后在所有距离中选出最大的一个即为结果。
+# ```python
 from typing import List
 
 
@@ -34,4 +34,4 @@ class Solution:
                 res.append(heaters[left] - c)
         return max(res)
 
-```
+# ```

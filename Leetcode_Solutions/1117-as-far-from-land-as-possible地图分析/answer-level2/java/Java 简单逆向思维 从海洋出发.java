@@ -1,9 +1,9 @@
-### 解题思路
-先把海洋和陆地分开存储，然后遍历海洋，求出当前海洋到陆地最短的距离。最后得出这些最短距离中的最大值
+// ### 解题思路
+// 先把海洋和陆地分开存储，然后遍历海洋，求出当前海洋到陆地最短的距离。最后得出这些最短距离中的最大值
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxDistance(int[][] grid) {
         List<Integer> landx=new ArrayList();
@@ -40,4 +40,4 @@ class Solution {
     }
 
 }
-```
+// ```

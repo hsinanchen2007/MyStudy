@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
-第一种迭代法
-```javascript
+// ### 代码
+// 第一种迭代法
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -27,11 +27,11 @@ var reverseList = function(head) {
     }
     return head
 };
-```
+// ```
 
-迭代法
+// 迭代法
 
-```js
+// ```js
 var reverseList = function(head) {
     if (!head || !head.next) return head                // 为空的处理
     function recursive(headNode, nextNode, isFirst) {   // 递归函数, 与迭代一样, 传入currentNode, currentNode.next的引用
@@ -47,4 +47,4 @@ var reverseList = function(head) {
     }
     return recursive(head, head.next, true)
 }
-```
+// ```

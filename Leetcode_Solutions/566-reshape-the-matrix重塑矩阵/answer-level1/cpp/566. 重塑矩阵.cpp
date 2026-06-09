@@ -1,5 +1,5 @@
-## 计算出每一个数的行和列，直接插入新矩阵
-```cpp
+// ## 计算出每一个数的行和列，直接插入新矩阵
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> matrixReshape(vector<vector<int>>& nums, int r, int c) {
@@ -18,4 +18,4 @@ public:
         return ans;
     }
 };
-```
+// ```

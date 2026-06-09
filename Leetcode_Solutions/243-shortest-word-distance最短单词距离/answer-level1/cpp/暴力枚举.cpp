@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int shortestDistance(vector<string>& words, string word1, string word2) {
@@ -12,4 +12,4 @@ public:
         return ans;
     }
 };
-```
+// ```

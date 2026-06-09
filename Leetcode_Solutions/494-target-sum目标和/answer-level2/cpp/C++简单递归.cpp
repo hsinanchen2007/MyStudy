@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int findTargetSumWays(vector<int>& nums, int S) {
@@ -12,4 +12,4 @@ public:
         return find(nums, i+1, sum - nums[i]) + find(nums, i+1, sum + nums[i]);
     }
 };
-```
+// ```

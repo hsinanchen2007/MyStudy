@@ -1,4 +1,4 @@
-```
+// ```
 void rotate(int** matrix, int matrixSize, int* matrixColSize){
     int tmp;
     if (matrixSize <= 0) {
@@ -20,5 +20,5 @@ void rotate(int** matrix, int matrixSize, int* matrixColSize){
         }
     }
 }
-```
+// ```
 

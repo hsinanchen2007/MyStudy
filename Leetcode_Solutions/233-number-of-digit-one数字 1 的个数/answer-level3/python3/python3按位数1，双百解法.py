@@ -1,9 +1,9 @@
-### 解题思路
-从右往左数1的个数，注意最小位，中间位，最高位数法不同
+# ### 解题思路
+# 从右往左数1的个数，注意最小位，中间位，最高位数法不同
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countDigitOne(self, n) :
         #  思路：按位数，从低到高
@@ -39,4 +39,4 @@ class Solution:
         #print(res)
         return res
 
-```
+# ```

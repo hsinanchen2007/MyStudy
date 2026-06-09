@@ -1,11 +1,11 @@
-### 解题思路
-（1）处理特殊情况，即只有一个编码的情况
-（2）统计0之前连续的1的个数
-（3）偶数个1返回true，奇数个1返回false
+// ### 解题思路
+// （1）处理特殊情况，即只有一个编码的情况
+// （2）统计0之前连续的1的个数
+// （3）偶数个1返回true，奇数个1返回false
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isOneBitCharacter(int* bits, int bitsSize){
     int i,flag=0;
     if(bitsSize==1){
@@ -21,4 +21,4 @@ bool isOneBitCharacter(int* bits, int bitsSize){
 }
 
 
-```
+// ```

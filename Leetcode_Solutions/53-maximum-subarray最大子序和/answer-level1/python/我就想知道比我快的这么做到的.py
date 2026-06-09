@@ -1,9 +1,9 @@
-### 解题思路
-最大串一定是正数开始，其他不用管
+# ### 解题思路
+# 最大串一定是正数开始，其他不用管
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
         midle = 0
@@ -20,4 +20,4 @@ class Solution:
         return maxsum
 
 
-```
+# ```

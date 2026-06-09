@@ -1,5 +1,5 @@
-方法一，排序，好理解
-```
+# 方法一，排序，好理解
+# ```
 class Solution:
     def minIncrementForUnique(self, A: List[int]) -> int:
         A.sort()
@@ -9,9 +9,9 @@ class Solution:
                 res+=A[i-1]-A[i]+1
                 A[i]=A[i-1]+1
         return res
-```
-方法二，计数，很神奇的方法了
-```
+# ```
+# 方法二，计数，很神奇的方法了
+# ```
 class Solution:
     def minIncrementForUnique(self, A: List[int]) -> int:
         count=[0]*80000
@@ -28,5 +28,5 @@ class Solution:
                 taken-=1
                 res+=i
         return res
-```
+# ```
 

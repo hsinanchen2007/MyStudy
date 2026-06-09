@@ -1,9 +1,9 @@
-### 解题思路
-简单粗暴，直接对每一行，每一列，每一宫检测
-这里注意的就是对于第k个宫格，如何由k得出每一格的坐标
-### 代码
+// ### 解题思路
+// 简单粗暴，直接对每一行，每一列，每一宫检测
+// 这里注意的就是对于第k个宫格，如何由k得出每一格的坐标
+// ### 代码
 
-```java
+// ```java
 class Solution {
     	public boolean isValidSudoku(char[][] board) {
 		return checkRows(board) && checkLines(board) && checkSquares(board);
@@ -57,4 +57,4 @@ class Solution {
 		return true;
 	}
 }
-```
+// ```

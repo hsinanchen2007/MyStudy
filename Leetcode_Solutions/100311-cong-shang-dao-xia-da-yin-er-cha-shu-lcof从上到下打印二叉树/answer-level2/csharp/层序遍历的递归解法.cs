@@ -1,9 +1,9 @@
-### 解法1
-层序遍历的递归解法
+// ### 解法1
+// 层序遍历的递归解法
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -41,4 +41,4 @@ public class Solution {
         return result.ToArray();
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-打卡
+// ### 解题思路
+// 打卡
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func movingCount(m int, n int, k int) int {
     a:=make([][]int,n)
     for i:=0;i<n;i++{
@@ -38,4 +38,4 @@ func getNum(n int)int{
     }
     return res
 }
-```
+// ```

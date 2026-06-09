@@ -1,9 +1,9 @@
-### 解题思路
-邻位依次比较，同则增，异则收
+# ### 解题思路
+# 邻位依次比较，同则增，异则收
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def compressString(self, S: str) -> str:
         n = len(S)
@@ -26,4 +26,4 @@ class Solution:
         else:
             return final
 
-```
+# ```

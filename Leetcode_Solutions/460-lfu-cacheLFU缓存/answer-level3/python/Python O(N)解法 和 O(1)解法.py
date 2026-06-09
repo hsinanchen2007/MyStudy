@@ -1,10 +1,10 @@
-# O(n) 解法
+# # O(n) 解法
 
-O(n)的思路和LRU类似,构造一个字典和双向链表,链表节点增加`freq`项
-每次修增/查询时,更新链表的`freq`并移动链表的位置.
-每次删除, 都是删除频率最低的最不常使用的链表链表
-代码如下
-```python
+# O(n)的思路和LRU类似,构造一个字典和双向链表,链表节点增加`freq`项
+# 每次修增/查询时,更新链表的`freq`并移动链表的位置.
+# 每次删除, 都是删除频率最低的最不常使用的链表链表
+# 代码如下
+# ```python
 class DLinkedListNode:
     def __init__(self, key=None, value=None, frequency=None):
         self.key = key
@@ -99,13 +99,13 @@ class LFUCache:
             node.frequency += 1
             node.value = value
             self._update_node(node)
-```
+# ```
 
-# O(1) 解法
+# # O(1) 解法
 
-O(1)是看了官方题解的思路. 代码如下
+# O(1)是看了官方题解的思路. 代码如下
 
-```python
+# ```python
 
 class DLinkedListNode:
     def __init__(self, key=None, value=None, frequency=None):
@@ -211,4 +211,4 @@ class LFUCache:
             self._add_node(node)
             self.key_map[key] = node
             self.size += 1
-```
+# ```

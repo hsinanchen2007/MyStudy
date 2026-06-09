@@ -1,8 +1,8 @@
-# 给出两种方法 
-> 注意：本题的List并没有哨兵结点，如果实现方法中带有哨兵结点，是不行的
+// # 给出两种方法 
+// > 注意：本题的List并没有哨兵结点，如果实现方法中带有哨兵结点，是不行的
 
-## 递归方法：
-```c []
+// ## 递归方法：
+// ```c []
 struct ListNode *reverseList(struct ListNode *head)
 {
     if (!head)
@@ -22,9 +22,9 @@ struct ListNode *reverseList(struct ListNode *head)
 
     return lNew;
 }
-```
-## 迭代方法，需注意没有哨兵结点
-```c []
+// ```
+// ## 迭代方法，需注意没有哨兵结点
+// ```c []
 struct ListNode *reverseList(struct ListNode *head)
 {
     if (head == NULL || head->next == NULL)
@@ -56,4 +56,4 @@ struct ListNode *reverseList(struct ListNode *head)
 
     return head;
 }
-```
+// ```

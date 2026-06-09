@@ -1,11 +1,11 @@
-### 解题思路
-括号的配对性构成天然的入栈和出栈，难以想到的是构造一个无效的括号栈，参考“[就是一个Stack，局部优化](https://leetcode-cn.com/problems/minimum-remove-to-make-valid-parentheses/solution/jiu-shi-yi-ge-stackju-bu-you-hua-by-puckchen/)”学习到了。
+// ### 解题思路
+// 括号的配对性构成天然的入栈和出栈，难以想到的是构造一个无效的括号栈，参考“[就是一个Stack，局部优化](https://leetcode-cn.com/problems/minimum-remove-to-make-valid-parentheses/solution/jiu-shi-yi-ge-stackju-bu-you-hua-by-puckchen/)”学习到了。
 
-栈的内容是括号所处的位置。
-栈形成后再构造输出字符串，跳过栈中的内容，这里是把构建好的栈当成队列用（FIFO）。
-### 代码
+// 栈的内容是括号所处的位置。
+// 栈形成后再构造输出字符串，跳过栈中的内容，这里是把构建好的栈当成队列用（FIFO）。
+// ### 代码
 
-```c
+// ```c
 #define PRINTF //printf
 char * minRemoveToMakeValid(char * s){
     int numOpenPath = 0;
@@ -63,4 +63,4 @@ ERR:
     }
     return NULL;
 }
-```
+// ```

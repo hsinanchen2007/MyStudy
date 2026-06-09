@@ -1,9 +1,9 @@
-### 解题思路
-将每两个链表进行合并操作，再与其他链表进行合并操作。
+// ### 解题思路
+// 将每两个链表进行合并操作，再与其他链表进行合并操作。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -58,4 +58,4 @@ class Solution {
 
     }
 }
-```
+// ```

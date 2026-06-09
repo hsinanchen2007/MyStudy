@@ -1,17 +1,17 @@
-Map + 双向链表
-- count 相同的 key，放在一个 CountNode 中
-- 所有 CountNode 通过双向链表维护，因此可以 O(1) 时间找到 count 最大和最小的 CountNode
-- key - CountNode 的 Map：可以保证 O(1) 时间定位 key 所属的 CountNode
-- 每个 CountNode 中的所有 key，也通过 Map + 双向链表维护
-- 向 CountNode 中添加一个 key，创建一个 KeyNode 对象，放在 keyList 的 keyHead.next，并把相应 key - keyNode 放入Map
-- 从 CountNode 中删除一个 key，通过 Map 找到这个 KeyNode 对象，双向链表删除操作，同时删除 Map 中的映射关系
+# Map + 双向链表
+# - count 相同的 key，放在一个 CountNode 中
+# - 所有 CountNode 通过双向链表维护，因此可以 O(1) 时间找到 count 最大和最小的 CountNode
+# - key - CountNode 的 Map：可以保证 O(1) 时间定位 key 所属的 CountNode
+# - 每个 CountNode 中的所有 key，也通过 Map + 双向链表维护
+# - 向 CountNode 中添加一个 key，创建一个 KeyNode 对象，放在 keyList 的 keyHead.next，并把相应 key - keyNode 放入Map
+# - 从 CountNode 中删除一个 key，通过 Map 找到这个 KeyNode 对象，双向链表删除操作，同时删除 Map 中的映射关系
 
-后面暂时不解释了，代码凑乎看。反正是 O(1)，但很慢，因为对象创建销毁操作太频繁了，还可以优化下。
+# 后面暂时不解释了，代码凑乎看。反正是 O(1)，但很慢，因为对象创建销毁操作太频繁了，还可以优化下。
 
-复杂度这东西，并不是说 O(1) 一定比 O(n) 快，只是说 O(1) 复杂度的程序不会随着输入的规模增大，其每次的运行时间变长。但也可能不管输入规模大小，运行效率一直都很差。。至于 O(n) 复杂度表示，运行时间会随着输入规模增大而线性增大。
+# 复杂度这东西，并不是说 O(1) 一定比 O(n) 快，只是说 O(1) 复杂度的程序不会随着输入的规模增大，其每次的运行时间变长。但也可能不管输入规模大小，运行效率一直都很差。。至于 O(n) 复杂度表示，运行时间会随着输入规模增大而线性增大。
 
 
-```
+# ```
 class KeyNode:
     
     def __init__(self, key):
@@ -166,4 +166,4 @@ class AllOne:
             return ""
         return self.countList.countHead.next.getKey()
 
-```
+# ```

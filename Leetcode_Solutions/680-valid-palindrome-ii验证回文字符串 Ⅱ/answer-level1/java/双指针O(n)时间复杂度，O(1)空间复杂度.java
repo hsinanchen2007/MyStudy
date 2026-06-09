@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/80fd9f48aaa8ed6b98d5061b7da3770babeab23edf42c190a06652467927b957-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/80fd9f48aaa8ed6b98d5061b7da3770babeab23edf42c190a06652467927b957-image.png)
+// ```
 class Solution {
         /**
          * 最多删除一个字符，判断是否能成为回文串
@@ -42,4 +42,4 @@ class Solution {
             return true;
         }
     }
-```
+// ```

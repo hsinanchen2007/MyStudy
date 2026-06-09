@@ -1,9 +1,9 @@
-### 解题思路
-代码换行反斜杠，`all`所有为真返回true
+# ### 解题思路
+# 代码换行反斜杠，`all`所有为真返回true
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def validTicTacToe(self, board: List[str]) -> bool:
         first,second = "XO"
@@ -24,4 +24,4 @@ class Solution:
         if win(second):
             return o_num==x_num
         return True
-```
+# ```

@@ -1,5 +1,5 @@
-记忆化
-```
+# 记忆化
+# ```
 class Solution:
     def fib(self, n: int) -> int:
         d = dict()
@@ -9,10 +9,10 @@ class Solution:
             d[i] = d[i-1] + d[i-2]
         res = d[n] % 1000000007
         return res
-```
+# ```
 
-dp:
-```
+# dp:
+# ```
 class Solution:
     def fib(self, n: int) -> int:
         if n == 0:
@@ -27,4 +27,4 @@ class Solution:
             a = b
             b = temp
         return b % 1000000007
-```
+# ```

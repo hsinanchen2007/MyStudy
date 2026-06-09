@@ -1,8 +1,8 @@
-1. `solve1`
-对每个出现过的数字的下标进行标记，一种o(n)的办法是引入哈希表，直接进行标记，o(1)的办法是直接在原数组进行操作，使得和原来的数字发生区别那么我们就将其变成负数,然后遍历加入答案``
+// 1. `solve1`
+// 对每个出现过的数字的下标进行标记，一种o(n)的办法是引入哈希表，直接进行标记，o(1)的办法是直接在原数组进行操作，使得和原来的数字发生区别那么我们就将其变成负数,然后遍历加入答案``
 
-代码块
-```class Solution {
+// 代码块
+// ```class Solution {
 public:
     vector<int> findDisappearedNumbers(vector<int>& nums) {
           int siz=nums.size();

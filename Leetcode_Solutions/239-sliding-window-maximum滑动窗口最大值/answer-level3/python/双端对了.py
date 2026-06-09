@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路利用双端队列
-力扣调了collections类利用双端队列类deque
-其实利用列表即可
-### 代码
+# ### 解题思路
+# 此处撰写解题思路利用双端队列
+# 力扣调了collections类利用双端队列类deque
+# 其实利用列表即可
+# ### 代码
 
-```python3
+# ```python3
 
 class Solution:
     def maxSlidingWindow(self, nums: 'List[int]', k: 'int') -> 'List[int]':
@@ -44,4 +44,4 @@ class Solution:
             output.append(nums[deq[0]])
         return output
 
-```
+# ```

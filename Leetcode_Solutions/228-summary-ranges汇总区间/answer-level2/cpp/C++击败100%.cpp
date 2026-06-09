@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/9a5250379bbc55584be9d27e6aa74ed49af46f80b231490d25e941db5e9643f2-image.png)
+// ![image.png](https://pic.leetcode-cn.com/9a5250379bbc55584be9d27e6aa74ed49af46f80b231490d25e941db5e9643f2-image.png)
 
-```
+// ```
 class Solution {
 public:
     vector<string> summaryRanges(vector<int>& nums) {
@@ -33,4 +33,4 @@ public:
         return res;
     }
 };
-```
+// ```

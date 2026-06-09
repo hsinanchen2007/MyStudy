@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
    string gcdOfStrings(string str1, string str2) {
         string res;
         if(str1.empty()||str2.empty()) return res;
@@ -40,4 +40,4 @@
         }
         return res;
     }
-```
+// ```

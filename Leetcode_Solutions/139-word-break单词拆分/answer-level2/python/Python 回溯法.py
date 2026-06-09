@@ -1,7 +1,7 @@
-直接放代码, 注意使用集合降低`in`操作的复杂度
-很好理解
+# 直接放代码, 注意使用集合降低`in`操作的复杂度
+# 很好理解
 
-```python
+# ```python
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> bool:
         wordDict = set(wordDict)
@@ -18,4 +18,4 @@ class Solution:
             return False
         
         return helper(s)
-```
+# ```

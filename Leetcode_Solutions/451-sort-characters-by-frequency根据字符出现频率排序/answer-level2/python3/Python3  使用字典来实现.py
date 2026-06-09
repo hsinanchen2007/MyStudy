@@ -1,6 +1,6 @@
 
-思路: 使用字典统计字符出现的频率, 在对字典的value进行排序, 最后组合到一块输出, 复杂度分析,见注释
-```
+# 思路: 使用字典统计字符出现的频率, 在对字典的value进行排序, 最后组合到一块输出, 复杂度分析,见注释
+# ```
     def frequencySort(self, s: str) -> str:
         if s is None or len(s) == 1: return s
         counter = collections.defaultdict(int)
@@ -17,4 +17,4 @@
         for key, value in sorted_array:
             string += key * value   
         return string 
-```
+# ```

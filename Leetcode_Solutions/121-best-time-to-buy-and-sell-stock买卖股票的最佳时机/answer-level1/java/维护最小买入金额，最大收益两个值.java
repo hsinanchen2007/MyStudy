@@ -1,4 +1,4 @@
-```Java
+// ```Java
 public int maxProfit(int[] prices) {
     // 最大收益
     int res = 0;
@@ -11,4 +11,4 @@ public int maxProfit(int[] prices) {
     }
     return res;
 }
-```
+// ```

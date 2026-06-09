@@ -1,10 +1,10 @@
-### 解题思路
-先取循环条件，也就是row<2*start,col<2*start
-接着按照每一圈循环输出，依次从左到右，从上到下，从右到左，从下到上输出，边界判断看注释。
+// ### 解题思路
+// 先取循环条件，也就是row<2*start,col<2*start
+// 接着按照每一圈循环输出，依次从左到右，从上到下，从右到左，从下到上输出，边界判断看注释。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] spiralOrder(int[][] matrix) {
         if(matrix==null||matrix.length<=0||matrix[0].length<=0)return new int[]{};
@@ -42,4 +42,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

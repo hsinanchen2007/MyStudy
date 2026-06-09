@@ -1,16 +1,16 @@
-### 解题思路
-我的思路：刚开始在节点添加的地方写错了...
+# ### 解题思路
+# 我的思路：刚开始在节点添加的地方写错了...
 	
 
-复杂度分析：                                                             
-	• 时间复杂度：o(n)
-	• 空间复杂度：o(n)
+# 复杂度分析：                                                             
+# 	• 时间复杂度：o(n)
+# 	• 空间复杂度：o(n)
 
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -37,4 +37,4 @@ class Solution:
         return lists
 
             
-```
+# ```

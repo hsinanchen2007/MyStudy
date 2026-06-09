@@ -1,4 +1,4 @@
-```js
+// ```js
 /**
  * @param {string[]} strs
  * @return {string}
@@ -28,4 +28,4 @@ var strs = ["flower","flow","floight"];
 //var strs = ["dog","racecar","car"]
 
 console.log(longestCommonPrefix(strs))
-```
+// ```

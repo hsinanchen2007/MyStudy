@@ -1,9 +1,9 @@
-### 解题思路
-2位数处理麻烦点，其他没有什么。
+// ### 解题思路
+// 2位数处理麻烦点，其他没有什么。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char *gBitStr[] = {"", "Thousand ", "Million ", "Billion "};
 char *gNumStr[] = {"Zero", "One", "Two", "Three", "Four", "Five", "Six", "Seven","Eight", "Nine"};
 char *gOneStr[] = {"Ten", "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen", "Eighteen", "Nineteen"};
@@ -78,4 +78,4 @@ char * numberToWords(int num){
     return ans;
 }
 
-```
+// ```

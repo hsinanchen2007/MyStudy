@@ -1,5 +1,5 @@
-初学小白一枚，用了简单的排序算法，不知道为啥用C的这么少了，。
-```
+// 初学小白一枚，用了简单的排序算法，不知道为啥用C的这么少了，。
+// ```
 int lastStoneWeight(int* stones, int stonesSize){
     if(stones==NULL)
         return 0;
@@ -31,4 +31,4 @@ int lastStoneWeight(int* stones, int stonesSize){
 }
 
 
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-维护一个存储栈，存放"k"和"[]"中的字符串（栈中只存放单个字符）
-按照题目要求计算即可
+# ### 解题思路
+# 维护一个存储栈，存放"k"和"[]"中的字符串（栈中只存放单个字符）
+# 按照题目要求计算即可
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def decodeString(self, S: str) -> str:
         stack = []
@@ -31,4 +31,4 @@ class Solution:
                     stack.append(s)
         return res
 
-```
+# ```

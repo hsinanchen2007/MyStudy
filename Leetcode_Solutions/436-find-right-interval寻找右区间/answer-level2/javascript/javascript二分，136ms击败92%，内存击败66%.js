@@ -1,11 +1,11 @@
-### 解题思路
-1. 根据原数组得出一个新数组，每项只包含原数组的索引值和第一项
-2. 把新数组排序
-3. 根据新数组对原数组的每一项二分判断
+// ### 解题思路
+// 1. 根据原数组得出一个新数组，每项只包含原数组的索引值和第一项
+// 2. 把新数组排序
+// 3. 根据新数组对原数组的每一项二分判断
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} intervals
  * @return {number[]}
@@ -39,4 +39,4 @@ var findRightInterval = function (intervals) {
     return result
 };
 
-```
+// ```

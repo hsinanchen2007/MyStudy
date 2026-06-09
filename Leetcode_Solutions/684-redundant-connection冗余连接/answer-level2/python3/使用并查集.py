@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def findRedundantConnection(self, edges):
         n = 0
@@ -29,4 +29,4 @@ class Solution:
         return res
 print(Solution().findRedundantConnection([[1,2], [2,3], [3,4], [1,4], [1,5]]))
 
-```
+# ```

@@ -1,21 +1,21 @@
-#### 方法：Dijkstra 算法
+# #### 方法：Dijkstra 算法
 
-**思路**
+# **思路**
 
-将原始图作为加权无向图处理，我们可以使用 Dijkstra 算法查找原始图中的所有可到达结点。 但是，这不足以解决仅部分使用细分边的示例。
+# 将原始图作为加权无向图处理，我们可以使用 Dijkstra 算法查找原始图中的所有可到达结点。 但是，这不足以解决仅部分使用细分边的示例。
 
-当我们沿着边（沿任一方向）行进时，我们可以跟踪我们使用它的程度。最后，我们想知道我们在原始图中到达的每个结点，以及每条边的利用率之和。
+# 当我们沿着边（沿任一方向）行进时，我们可以跟踪我们使用它的程度。最后，我们想知道我们在原始图中到达的每个结点，以及每条边的利用率之和。
 
 
-**算法**
+# **算法**
 
-我们使用 *Dijkstra 算法* 来找出从源到所有目标的最短距离。 这是一个教科书算法， 请参阅[此链接](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)了解详细信息。
+# 我们使用 *Dijkstra 算法* 来找出从源到所有目标的最短距离。 这是一个教科书算法， 请参阅[此链接](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)了解详细信息。
 
-另外，对于每条（有向）边 `(node，nei)`，我们将跟踪有多少`新`结点（从原始边细分而来的新结点）被`使用`。 最后，我们将总结每条边的利用率。
+# 另外，对于每条（有向）边 `(node，nei)`，我们将跟踪有多少`新`结点（从原始边细分而来的新结点）被`使用`。 最后，我们将总结每条边的利用率。
 
-有关更多详细信息，请参阅内联注释。
+# 有关更多详细信息，请参阅内联注释。
 
-```cpp [qUNcLvX7-C++]
+# ```cpp [qUNcLvX7-C++]
 #define pii pair<int, int>
 
 class Solution {
@@ -78,8 +78,8 @@ public:
         return ans;
     }
 };
-```
-```java [qUNcLvX7-Java]
+# ```
+# ```java [qUNcLvX7-Java]
 class Solution {
     public int reachableNodes(int[][] edges, int M, int N) {
         Map<Integer, Map<Integer, Integer>> graph = new HashMap();
@@ -147,8 +147,8 @@ class ANode {
         dist = d;
     }
 }
-```
-```python [qUNcLvX7-Python]
+# ```
+# ```python [qUNcLvX7-Python]
 class Solution(object):
     def reachableNodes(self, edges, M, N):
         graph = collections.defaultdict(dict)
@@ -188,11 +188,11 @@ class Solution(object):
             ans += min(w, used.get((u, v), 0) + used.get((v, u), 0))
 
         return ans
-```
+# ```
 
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度：$O(E \log N)$，其中 $E$ 是 `edges` 的长度。
+# * 时间复杂度：$O(E \log N)$，其中 $E$ 是 `edges` 的长度。
 
-* 空间复杂度：$O(N)$。
+# * 空间复杂度：$O(N)$。

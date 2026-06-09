@@ -1,11 +1,11 @@
-双百
+# 双百
 
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def cutSquares(self, square1, square2):
         """
@@ -56,4 +56,4 @@ class Solution(object):
                 return upmost+downmost
             else:
                 return downmost+upmost
-```
+# ```

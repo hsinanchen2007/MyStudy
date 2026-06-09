@@ -1,6 +1,6 @@
-想要说的全部都在代码里~
+# 想要说的全部都在代码里~
 
-```
+# ```
 def inorderTraverse(root):
     '''👇堆栈实现遍历'''
     stack = []
@@ -16,9 +16,9 @@ def inorderTraverse(root):
             pNode = node.right  # 左边为空,则看右边
     return ret
     # 这个后序遍历不是很好写
-```
+# ```
 
-```
+# ```
 def inorderTraverse2(root):
     '''👇递归实现遍历'''
     lst = []
@@ -32,9 +32,9 @@ def inorderTraverse2(root):
             # 后序遍历
     helper(root)
     # 这边拿到结果 lst，里面保存着中序遍历的结果~
-```
+# ```
 
-```
+# ```
 def inorderTraverse3(root):
     '''👇访问标记法实现遍历'''
     # 感觉就是DFS
@@ -54,6 +54,6 @@ def inorderTraverse3(root):
         else:
             nums.append(cur.val)
     return nums
-```
+# ```
 
 

@@ -1,4 +1,4 @@
-```python []
+# ```python []
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
         if not nums: return 0
@@ -8,7 +8,7 @@ class Solution:
             i += 1
             if i==n: break
         return i
-```
+# ```
 
 
 

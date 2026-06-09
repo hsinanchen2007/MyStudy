@@ -1,9 +1,9 @@
-### 解题思路
-找规律递推...
+// ### 解题思路
+// 找规律递推...
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {number}
@@ -19,4 +19,4 @@ var countOrders = function(n) {
     return last;
 
 };
-```
+// ```

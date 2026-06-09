@@ -1,4 +1,4 @@
-````
+// ````
 package problem198
 
 // 动态规划:
@@ -18,4 +18,4 @@ func rob(nums []int) int {
 	return curMax
 }
 
-````
+// ````

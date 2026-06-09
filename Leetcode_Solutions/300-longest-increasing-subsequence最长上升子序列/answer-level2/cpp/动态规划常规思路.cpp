@@ -1,6 +1,6 @@
-用一次遍历出错了，有部分测试用例无法通过。
-还是只能用动态规划，求dp[0],dp[1]...
-```
+// 用一次遍历出错了，有部分测试用例无法通过。
+// 还是只能用动态规划，求dp[0],dp[1]...
+// ```
 class Solution {
 public:
     int lengthOfLIS(vector<int>& nums) {
@@ -22,4 +22,4 @@ public:
         return re;
     }
 };
-```
+// ```

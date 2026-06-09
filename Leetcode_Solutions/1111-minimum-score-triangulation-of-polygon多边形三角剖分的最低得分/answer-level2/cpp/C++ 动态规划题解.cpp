@@ -1,7 +1,7 @@
-dp[i][j]为区间[i, j]的多边形最小值题解
-这样就有了递推公式：
-**dp[i][j] = min{dp[i][k] + dp[k][j] + A[i][k][j]} for all k in range (i, j)**
-```
+// dp[i][j]为区间[i, j]的多边形最小值题解
+// 这样就有了递推公式：
+// **dp[i][j] = min{dp[i][k] + dp[k][j] + A[i][k][j]} for all k in range (i, j)**
+// ```
 class Solution {
 public:
     const int INF = 1000000;
@@ -22,5 +22,5 @@ public:
         return dp[0][N - 1];
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/147eb1321c12b5ec43218b6f145ec122913f3baf5f7efb5f5b17c360f36b6edf-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/147eb1321c12b5ec43218b6f145ec122913f3baf5f7efb5f5b17c360f36b6edf-image.png)

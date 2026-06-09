@@ -1,10 +1,10 @@
-### 解题思路
-把链表转换成数组，就好操作多了
-![image.png](https://pic.leetcode-cn.com/69c657d14fbba4bc0d36ef089bd5cd9b263f8c17310b3c99a5b2225af1ae462e-image.png)
+// ### 解题思路
+// 把链表转换成数组，就好操作多了
+// ![image.png](https://pic.leetcode-cn.com/69c657d14fbba4bc0d36ef089bd5cd9b263f8c17310b3c99a5b2225af1ae462e-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -93,4 +93,4 @@ struct ListNode* reverseKGroup(struct ListNode* head, int k){
     sFree(&s);
     return rlt;
 }
-```
+// ```

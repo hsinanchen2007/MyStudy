@@ -1,6 +1,6 @@
-对mysql不熟悉，按照HiveSql的习惯来写的
+-- 对mysql不熟悉，按照HiveSql的习惯来写的
 
-```
+-- ```
 select 
     t3.name as Department,
     t1.Name as Employee,
@@ -39,5 +39,5 @@ on
 where
     t2.Salary is not null and t3.Name is not null
 ;
-```
+-- ```
 

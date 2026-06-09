@@ -1,9 +1,9 @@
-### 解题思路
-偶数的字母数+大于2的奇数字母数-1 + （奇数的一个字母数）
+// ### 解题思路
+// 偶数的字母数+大于2的奇数字母数-1 + （奇数的一个字母数）
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int longestPalindrome(char * s)
 {
     int i, j;
@@ -31,4 +31,4 @@ int longestPalindrome(char * s)
     }
     return sum;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-虽然是两两交换，但是需要三个node变量来记录。prevnode用于记录上一对交换后的节点中的后节点的next。如果是奇数的情况就要直接指向first而非second
+// ### 解题思路
+// 虽然是两两交换，但是需要三个node变量来记录。prevnode用于记录上一对交换后的节点中的后节点的next。如果是奇数的情况就要直接指向first而非second
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -35,4 +35,4 @@ public:
         return head;
     }
 };
-```
+// ```

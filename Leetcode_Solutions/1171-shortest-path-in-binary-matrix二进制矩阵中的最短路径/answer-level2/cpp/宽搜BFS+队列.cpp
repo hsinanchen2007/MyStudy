@@ -1,13 +1,13 @@
-### 解题思路
+// ### 解题思路
 
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/c7b477225d9a3a0330708b621c5f047de22a017daf4f7211c1c4ff02ae73254a-image.png)
-8方向就是利用两个for循环，得到新的坐标需要进行特判坐标是否合法，该点是否被访问过或者是障碍物。
-这里为了节约内存将记录结点访问状态和当前距离以及grid合并，0表示没有访问过，大于0表示访问过或者有障碍物
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/c7b477225d9a3a0330708b621c5f047de22a017daf4f7211c1c4ff02ae73254a-image.png)
+// 8方向就是利用两个for循环，得到新的坐标需要进行特判坐标是否合法，该点是否被访问过或者是障碍物。
+// 这里为了节约内存将记录结点访问状态和当前距离以及grid合并，0表示没有访问过，大于0表示访问过或者有障碍物
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int shortestPathBinaryMatrix(vector<vector<int>>& grid) {
@@ -35,4 +35,4 @@ public:
 		return grid[n-1][n-1]==0 ? -1:grid[n-1][n-1];
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```go
+// ```go
 import "container/heap"
 
 type UglyNums []int
@@ -51,4 +51,4 @@ func nthSuperUglyNumber(n int, primes []int) int {
     return heap.Pop(h).(int)
 }
 
-```
+// ```

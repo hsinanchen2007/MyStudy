@@ -1,9 +1,9 @@
-### 解题思路
-调用switch结构对不同情况下的解决方案进行分类。
+// ### 解题思路
+// 调用switch结构对不同情况下的解决方案进行分类。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int romanToInt(string s) {
@@ -53,4 +53,4 @@ public:
         return sum;
     }
 };
-```
+// ```

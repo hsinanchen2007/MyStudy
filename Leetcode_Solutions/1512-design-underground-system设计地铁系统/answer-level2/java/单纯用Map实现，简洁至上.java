@@ -1,13 +1,13 @@
-### 解题思路
-station2Time：{起始-终点车站, 总时长}
-station2Count：{起始-终点车站, 总乘车次数}
-inTime：{id, 进站时间}
-inStation：{id, 进站车站}
-各个操作时间复杂度都是$O(1)$，空间复杂度则是$O(N)$，N代表路线数（id数肯定小于等于路线数所以是$O(N)$）。
+// ### 解题思路
+// station2Time：{起始-终点车站, 总时长}
+// station2Count：{起始-终点车站, 总乘车次数}
+// inTime：{id, 进站时间}
+// inStation：{id, 进站车站}
+// 各个操作时间复杂度都是$O(1)$，空间复杂度则是$O(N)$，N代表路线数（id数肯定小于等于路线数所以是$O(N)$）。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class UndergroundSystem {
     private Map<String, Integer> station2Time;
     private Map<String, Integer> station2Count;
@@ -53,4 +53,4 @@ class UndergroundSystem {
  * obj.checkOut(id,stationName,t);
  * double param_3 = obj.getAverageTime(startStation,endStation);
  */
-```
+// ```

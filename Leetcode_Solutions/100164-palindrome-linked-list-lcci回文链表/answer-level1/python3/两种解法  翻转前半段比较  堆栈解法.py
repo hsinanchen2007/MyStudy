@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def isPalindrome(self, head: ListNode) -> bool:
         # 解题思路：翻转前半段链表，比较前半段链表与后半段链表是否相等
@@ -28,9 +28,9 @@ class Solution:
         #     slow_node = slow_node.next
 
         # return True
-```
+# ```
 
-```
+# ```
 class Solution:
     def isPalindrome(self, head: ListNode) -> bool:
         # 堆栈解法
@@ -52,4 +52,4 @@ class Solution:
                 slow_node = slow_node.next
 
         return True
-```
+# ```

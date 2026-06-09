@@ -1,9 +1,9 @@
-### 解题思路
-python的切片太好使了，这道题要四个指针标记位置。
+// ### 解题思路
+// python的切片太好使了，这道题要四个指针标记位置。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -32,4 +32,4 @@ class Solution {
         return root;
     }
 }
-```
+// ```

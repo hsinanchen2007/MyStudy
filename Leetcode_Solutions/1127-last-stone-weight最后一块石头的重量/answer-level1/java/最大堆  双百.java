@@ -1,13 +1,13 @@
-*1ms 100%  34MB 100%*
+// *1ms 100%  34MB 100%*
 
-**步骤：**
-* 初始化最大堆
-* 循环（直至Math.max(stones[1], stones[2])==0）
-  * 按要求修改堆顶两个元素
-  * 重新调整最大堆
+// **步骤：**
+// * 初始化最大堆
+// * 循环（直至Math.max(stones[1], stones[2])==0）
+//   * 按要求修改堆顶两个元素
+//   * 重新调整最大堆
 
-**代码如下：**
-```
+// **代码如下：**
+// ```
 public int lastStoneWeight(int[] stones) {
     int len = stones.length;
     if (len==1) {
@@ -46,4 +46,4 @@ public void maxHeap(int[] nums, int root, int end) {
         temp=nums[root];
     }
 }
-```
+// ```

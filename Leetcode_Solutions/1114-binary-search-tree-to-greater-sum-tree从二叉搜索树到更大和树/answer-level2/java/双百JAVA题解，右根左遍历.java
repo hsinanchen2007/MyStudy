@@ -1,5 +1,5 @@
-右根左遍历二叉搜索树，依次累加计和。
-```
+// 右根左遍历二叉搜索树，依次累加计和。
+// ```
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -25,6 +25,6 @@ class Solution {
         }
     }
 }
-```
+// ```
 
 

@@ -1,9 +1,9 @@
-### 解题思路
-对list进行操作
+# ### 解题思路
+# 对list进行操作
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class CQueue:
 
     def __init__(self):
@@ -24,4 +24,4 @@ class CQueue:
 # obj = CQueue()
 # obj.appendTail(value)
 # param_2 = obj.deleteHead()
-```
+# ```

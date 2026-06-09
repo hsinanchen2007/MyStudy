@@ -1,9 +1,9 @@
-### 解题思路
-做了优化就不超时了
+// ### 解题思路
+// 做了优化就不超时了
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] findContinuousSequence(int target) {
         int num = target / 2 + 1;
@@ -27,4 +27,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

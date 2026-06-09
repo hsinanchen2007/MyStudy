@@ -1,14 +1,14 @@
-![1.png](https://pic.leetcode-cn.com/3733de250e8c2cd16161edfaa09f4fda10ace7d43b89ccd2e69b64b734a6b32a-1.png)
+// ![1.png](https://pic.leetcode-cn.com/3733de250e8c2cd16161edfaa09f4fda10ace7d43b89ccd2e69b64b734a6b32a-1.png)
 
-### 解题思路
-方法比较笨：
-首先以列为单位，将每个元素的上、中、下，写入res；
-其次以排为单位，将每个元素和的左、中、右，写入M；
-最后判断要除以2、3、4、6、9的几种情况，再次写入res。
+// ### 解题思路
+// 方法比较笨：
+// 首先以列为单位，将每个元素的上、中、下，写入res；
+// 其次以排为单位，将每个元素和的左、中、右，写入M；
+// 最后判断要除以2、3、4、6、9的几种情况，再次写入res。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -60,4 +60,4 @@ int** imageSmoother(int** M, int MSize, int* MColSize, int* returnSize, int** re
 				res[i][j] = M[i][j] / 6;	
 	return res;
 }
-```
+// ```

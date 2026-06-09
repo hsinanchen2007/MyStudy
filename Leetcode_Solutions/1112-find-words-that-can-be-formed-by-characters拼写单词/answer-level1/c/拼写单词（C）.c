@@ -1,9 +1,9 @@
-### 解题思路
-其实就是比较某个字母的个数，当一个单词的某个字母的个数大于字母表的某个单词的个数，那么字母表就不能构成这个单词，嘿嘿。
+// ### 解题思路
+// 其实就是比较某个字母的个数，当一个单词的某个字母的个数大于字母表的某个单词的个数，那么字母表就不能构成这个单词，嘿嘿。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int countCharacters(char ** words, int wordsSize, char * chars){
     int *charsArray = (int *)calloc(sizeof(int), 26);
     for (int i = 0; chars[i]; i++) {
@@ -34,4 +34,4 @@ int countCharacters(char ** words, int wordsSize, char * chars){
     }
     return result;
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-熟记字符串String的常用API！！！
-题目需要：查看某个字符某个位置开始之后是否存在某个字符，并返回对应的index。
-即String.indexOf(char c, int index);返回-1表示不存在该字符。
+// ### 解题思路
+// 熟记字符串String的常用API！！！
+// 题目需要：查看某个字符某个位置开始之后是否存在某个字符，并返回对应的index。
+// 即String.indexOf(char c, int index);返回-1表示不存在该字符。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isSubsequence(String s, String t) {
         if (s.length() > t.length()) {
@@ -26,4 +26,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

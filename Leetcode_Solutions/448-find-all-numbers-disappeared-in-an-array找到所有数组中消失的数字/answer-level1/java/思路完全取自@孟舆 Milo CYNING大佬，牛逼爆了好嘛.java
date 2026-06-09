@@ -1,18 +1,18 @@
-### 解题思路
-执行用时 :
-6 ms
-, 在所有 java 提交中击败了
-92.75%
-的用户
-内存消耗 :
-47.9 MB
-, 在所有 java 提交中击败了
-91.60%
-的用户
+// ### 解题思路
+// 执行用时 :
+// 6 ms
+// , 在所有 java 提交中击败了
+// 92.75%
+// 的用户
+// 内存消耗 :
+// 47.9 MB
+// , 在所有 java 提交中击败了
+// 91.60%
+// 的用户
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> findDisappearedNumbers(int[] nums) {
        ArrayList<Integer> res=new ArrayList<>();
@@ -35,4 +35,4 @@ class Solution {
         
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool canPermutePalindrome(string s) {
@@ -23,4 +23,4 @@ public:
         return charStack.size() > 1 ? false : true;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class Solution {
 public:
     void backtrack(vector<vector<int>>& ans, vector<int>& nums, int i, int target, vector<int>& cur){
@@ -27,5 +27,5 @@ public:
         
     }
 };
-```
-讲道理，感觉回溯这个方法和DFS差不多
+// ```
+// 讲道理，感觉回溯这个方法和DFS差不多

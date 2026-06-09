@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int kSimilarity(String source, String target) {
         Map<String, Integer> map = new HashMap<>(16);
@@ -53,4 +53,4 @@ class Solution {
         chars[j] = tc;
     }
 }
-```
+// ```

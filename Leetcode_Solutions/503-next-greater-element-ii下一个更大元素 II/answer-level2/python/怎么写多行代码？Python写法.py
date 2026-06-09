@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def nextGreaterElements(self, nums):
         """
@@ -13,5 +13,5 @@ class Solution(object):
                 res[stack.pop()] = num2[index]
             stack.append(index)
         return res[:len(nums)]
-```
-这样看是多行了么？
+# ```
+# 这样看是多行了么？

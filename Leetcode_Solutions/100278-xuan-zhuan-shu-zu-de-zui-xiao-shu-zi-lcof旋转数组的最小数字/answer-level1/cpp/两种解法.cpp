@@ -1,5 +1,5 @@
-# 算法一：遍历数组找最小值
-```cpp
+// # 算法一：遍历数组找最小值
+// ```cpp
 class Solution {
 public:
     int minArray(vector<int>& numbers) {
@@ -11,12 +11,12 @@ public:
         return ans;
     }
 };
-```
-时间复杂度：$O(n)$
-空间复杂度：$O(1)$
+// ```
+// 时间复杂度：$O(n)$
+// 空间复杂度：$O(1)$
 
-# 算法二：使用归并排序的思想
-```cpp
+// # 算法二：使用归并排序的思想
+// ```cpp
 class Solution {
 public:
     int dfs(vector<int>& nums,int left,int right) {
@@ -36,6 +36,6 @@ public:
         return dfs(numbers,0,n - 1);
     }
 };
-```
-时间复杂度：$O(\log n)$
-空间复杂度：$O(1)$
+// ```
+// 时间复杂度：$O(\log n)$
+// 空间复杂度：$O(1)$

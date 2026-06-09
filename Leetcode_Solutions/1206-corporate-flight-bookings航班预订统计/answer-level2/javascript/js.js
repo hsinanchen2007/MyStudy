@@ -1,9 +1,9 @@
-### 解题思路
-js
+// ### 解题思路
+// js
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} bookings
  * @param {number} n
@@ -25,4 +25,4 @@ var corpFlightBookings = function(bookings, n) {
 
 
 
-```
+// ```

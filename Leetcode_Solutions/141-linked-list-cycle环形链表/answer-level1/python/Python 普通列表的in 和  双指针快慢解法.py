@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-比较有意思的是快慢双指针，可以有效的减少空间复杂度和时间复杂度的匹配次数
+# 比较有意思的是快慢双指针，可以有效的减少空间复杂度和时间复杂度的匹配次数
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def hasCycle(self, head: ListNode) -> bool:
         '''
@@ -34,4 +34,4 @@ class Solution:
             if quick is slow:
                 return True
         return False
-```
+# ```

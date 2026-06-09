@@ -1,12 +1,12 @@
-### 解题思路
+# ### 解题思路
 
-找到数组中从下标 i 到最左端最高的条形块高度 \text{left_max}。
-找到数组中从下标 i 到最右端最高的条形块高度 \text{right_max}。
-扫描数组 \text{height}并更新答案：
-累加 \min(\text{max_left}[i],\text{max_right}[i]) - \text{height}[i]到 总面积上
-### 代码
+# 找到数组中从下标 i 到最左端最高的条形块高度 \text{left_max}。
+# 找到数组中从下标 i 到最右端最高的条形块高度 \text{right_max}。
+# 扫描数组 \text{height}并更新答案：
+# 累加 \min(\text{max_left}[i],\text{max_right}[i]) - \text{height}[i]到 总面积上
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def trap(self, height):
         """
@@ -24,4 +24,4 @@ class Solution(object):
             
             res += min(max_right, max_left[n-i]) - height[n-i-1]
         return res
-```
+# ```

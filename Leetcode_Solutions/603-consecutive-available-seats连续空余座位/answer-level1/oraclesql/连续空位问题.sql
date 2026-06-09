@@ -1,4 +1,4 @@
-```
+-- ```
 /* Write your PL/SQL query statement below */
 select seat_id
 from (
@@ -19,4 +19,4 @@ order by seat_id;
 
 
 
-```
+-- ```

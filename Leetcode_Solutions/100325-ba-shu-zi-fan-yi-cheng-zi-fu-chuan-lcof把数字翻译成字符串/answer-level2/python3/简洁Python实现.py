@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def translateNum(self, num: int) -> int:
         s = str(num)
@@ -16,4 +16,4 @@ class Solution:
             else:
                 return helper(i + 1)
         return helper(0)
-```
+# ```

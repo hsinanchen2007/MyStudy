@@ -1,16 +1,16 @@
-### 解题思路
+# ### 解题思路
 
-1. ##和操作思路相反##
-2. 双指针：a先走k步，然后a，b同步走直到a到达终点
+# 1. ##和操作思路相反##
+# 2. 双指针：a先走k步，然后a，b同步走直到a到达终点
 
-### 操作思路 
-1. 同二叉树，需要仔细看链表定义的结构
-2. 利用中间变量temp，计算出链表的长度--注意temp最后的值是最后一次循环的head.text,not head本身！
-3. 利用链表的长度找到倒数第K个节点
+# ### 操作思路 
+# 1. 同二叉树，需要仔细看链表定义的结构
+# 2. 利用中间变量temp，计算出链表的长度--注意temp最后的值是最后一次循环的head.text,not head本身！
+# 3. 利用链表的长度找到倒数第K个节点
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -42,4 +42,4 @@ class Solution:
             a = a.next
             b = b.next
         return b
-```
+# ```

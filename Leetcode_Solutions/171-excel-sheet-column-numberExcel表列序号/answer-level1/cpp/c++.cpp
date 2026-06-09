@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int titleToNumber(string s) {
@@ -12,4 +12,4 @@ int sum=0;
 		return sum;
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
 
-```python []
+# ```python []
 class Solution:
     def plusOne(self, digits: List[int]) -> List[int]:
         result = 0
@@ -12,6 +12,6 @@ class Solution:
         result = list(str(result))
         # 对列表中每个字符整数化
         return [int(i) for i in result]
-```
+# ```
 
 

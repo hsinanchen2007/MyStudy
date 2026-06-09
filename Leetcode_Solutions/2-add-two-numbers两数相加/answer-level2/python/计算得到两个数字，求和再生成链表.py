@@ -1,11 +1,11 @@
-### 解题思路
-先分别得到两个数字
-再对两个数据求和
-将和生成新的链表返回
+# ### 解题思路
+# 先分别得到两个数字
+# 再对两个数据求和
+# 将和生成新的链表返回
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -34,4 +34,4 @@ class Solution:
         return new_list.next
 
 
-```
+# ```

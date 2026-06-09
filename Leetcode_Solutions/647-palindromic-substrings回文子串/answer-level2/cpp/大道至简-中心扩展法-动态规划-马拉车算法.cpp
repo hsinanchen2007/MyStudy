@@ -1,5 +1,5 @@
-//中心扩展法
-```
+// //中心扩展法
+// ```
 int countSubstrings(char * s){
 
 int i,j;
@@ -32,9 +32,9 @@ for(i=1;i<len;i++)//奇数个回文子串个数
 sum+=len;
 return sum;
 }
-```
-动态规划
-```
+// ```
+// 动态规划
+// ```
 #define max(a,b) ((a)>(b)?(a):(b))
 #define MAXSIZE 1001
 int dp[MAXSIZE][MAXSIZE]={0};
@@ -58,16 +58,16 @@ int countSubstrings(char * s){
     }
     return count;
 }
-```
+// ```
 
-/***********************************************************/
-关于马拉车算法的一些理解，首先对字符串进行预处理，使其变成奇数个字符如：aba--->#a#b#a# ,abba--->#a#b#b#a#
-然后对每个字符进行循环，求每个字符的回文半径RL[i],然后将RL[i]回文半径/2，依次相加 为回文子串总数。
-![image.png](https://pic.leetcode-cn.com/97bbe67bd7298c7b8c05597fbbdfa31c62f68f691511ab65eb9953903dc07611-image.png)
-![IMG_20200114_122558.jpg](https://pic.leetcode-cn.com/fe406b0ba39519df80bf3d5090fcebdcef120214f6ab7d70bff66cac6b38a64e-IMG_20200114_122558.jpg)
+// /***********************************************************/
+// 关于马拉车算法的一些理解，首先对字符串进行预处理，使其变成奇数个字符如：aba--->#a#b#a# ,abba--->#a#b#b#a#
+// 然后对每个字符进行循环，求每个字符的回文半径RL[i],然后将RL[i]回文半径/2，依次相加 为回文子串总数。
+// ![image.png](https://pic.leetcode-cn.com/97bbe67bd7298c7b8c05597fbbdfa31c62f68f691511ab65eb9953903dc07611-image.png)
+// ![IMG_20200114_122558.jpg](https://pic.leetcode-cn.com/fe406b0ba39519df80bf3d5090fcebdcef120214f6ab7d70bff66cac6b38a64e-IMG_20200114_122558.jpg)
 
-//马拉车算法
-```
+// //马拉车算法
+// ```
 class Solution {
 public:
     int countSubstrings(string s) {
@@ -111,4 +111,4 @@ public:
         return sum;
     }
 };
-```
+// ```

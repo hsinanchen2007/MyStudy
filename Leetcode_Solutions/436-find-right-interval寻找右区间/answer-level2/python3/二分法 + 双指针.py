@@ -1,18 +1,18 @@
-## 思路:
+# ## 思路:
 
-思路一：二分法
+# 思路一：二分法
 
-把左边界提取出来排序，这样通过二分法找第一个大于等于右边界的数。
+# 把左边界提取出来排序，这样通过二分法找第一个大于等于右边界的数。
 
-思路二：双指针
+# 思路二：双指针
 
-分别对左右边界进行排序，可以快速找到右边界下一个右侧区间。
+# 分别对左右边界进行排序，可以快速找到右边界下一个右侧区间。
 
-## 代码:
+# ## 代码:
 
-思路一：
+# 思路一：
 
-```python
+# ```python
 class Solution:
     def findRightInterval(self, intervals: List[List[int]]) -> List[int]:
         import bisect
@@ -28,11 +28,11 @@ class Solution:
             else:
                 res.append(loc[l][1])
         return res
-```
+# ```
 
-思路二：
+# 思路二：
 
-```python
+# ```python
 class Solution:
     def findRightInterval(self, intervals: List[List[int]]) -> List[int]:
         n = len(intervals)
@@ -53,5 +53,5 @@ class Solution:
             else:
                 i += 1
         return res
-```
+# ```
 

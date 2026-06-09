@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-排序以后把下标为0，2，4，6...这些数相加求和就行了。
+// 排序以后把下标为0，2，4，6...这些数相加求和就行了。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func arrayPairSum(nums []int) int {
 	sort.Ints(nums)
 	res := 0
@@ -15,4 +15,4 @@ func arrayPairSum(nums []int) int {
 	}
 	return res
 }
-```
+// ```

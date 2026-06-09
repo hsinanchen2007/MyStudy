@@ -1,9 +1,9 @@
-### 解题思路
-        每一个z字形的角为一个对称点，把对称点依次串起；
+// ### 解题思路
+//         每一个z字形的角为一个对称点，把对称点依次串起；
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string convert(string s, int numRows) {
@@ -26,4 +26,4 @@ public:
 
     }
 };
-```
+// ```

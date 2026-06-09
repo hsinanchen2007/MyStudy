@@ -1,10 +1,10 @@
-### 解题思路
-1. 去空白+定符号+边界判定+值计算
-2. 正则表达式
+// ### 解题思路
+// 1. 去空白+定符号+边界判定+值计算
+// 2. 正则表达式
 
-### 代码
+// ### 代码
 
-```java []
+// ```java []
 class Solution {
     public int myAtoi(String str) {
         if(str == null || str.length()==0)
@@ -43,8 +43,8 @@ class Solution {
         
     }
 }
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def myAtoi(self, str: str) -> int:
         if str == None or len(str) == 0:
@@ -81,8 +81,8 @@ class Solution:
                 break
 
         return res*sgn
-```
-```c []
+// ```
+// ```c []
 typedef long long ll;
 int myAtoi(char * str){
     // 定义极值
@@ -115,8 +115,8 @@ int myAtoi(char * str){
     }
     return (int)(res*sgn);
 }
-```
-```c++ []
+// ```
+// ```c++ []
 #include <cassert>
 typedef long long ll;
 class Solution {
@@ -170,9 +170,9 @@ public:
         return sgn*res;
     }
 };
-```
-**正则表达式**
-```python []
+// ```
+// **正则表达式**
+// ```python []
 class Solution:
     def myAtoi(self, str: str) -> int:
         # 使用正则表达式匹配
@@ -187,11 +187,11 @@ class Solution:
             else:
                 return Vmin if int(res.group())<0 else Vmax
         else: return 0
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def myAtoi(self, str: str) -> int:
         # 正则表达式<间洁>
         import re
         return max(min(int(*re.findall(r'^[+-]?\d+', str.strip())), 2**31-1), -2**31)
-```
+// ```

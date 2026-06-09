@@ -1,6 +1,6 @@
-暴力走起来 hhh
+# 暴力走起来 hhh
 
-```
+# ```
 class Solution:
     def longestPrefix(self, s):
         m = 0
@@ -11,4 +11,4 @@ class Solution:
                     m = len(s[:i])
                     n = i
         return s[:n]
-```
+# ```

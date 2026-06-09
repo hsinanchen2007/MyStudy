@@ -1,5 +1,5 @@
 
-```
+// ```
 struct frac {
     int num; 
     int deno;
@@ -61,4 +61,4 @@ int* kthSmallestPrimeFraction(int* A, int ASize, int K, int* returnSize){
     
     return answer;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-直接暴搜
+# ### 解题思路
+# 直接暴搜
 
-### 代码
+# ### 代码
 
-```java []
+# ```java []
 class Solution {
     public int surfaceArea(int[][] grid) {
         if(grid==null || grid.length==0 || grid[0]==null || grid[0].length==0)
@@ -40,8 +40,8 @@ class Solution {
 
     private int[][]dirs = {{-1, 0}, {0, 1}, {1, 0}, {0, -1}};
     private int R, C;
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def surfaceArea(self, grid: List[List[int]]) -> int:
         if grid == None or len(grid)==0:
@@ -65,8 +65,8 @@ class Solution:
                             S-=min(grid[i][j], grid[ni][nj])
 
         return S
-```
-```c++ []
+# ```
+# ```c++ []
 class Solution {
 public:
     int surfaceArea(vector<vector<int>>& grid) {
@@ -103,4 +103,4 @@ private:
     vector<vector<int>> dirs = {{-1, 0}, {0, 1}, {1, 0}, {0, -1}};
     int R, C;
 };
-```
+# ```

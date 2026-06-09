@@ -1,9 +1,9 @@
-### 解题思路
-如果能理解前面那个4倍字符串的话，可以进一步理解一次退出条件了。一次直接回到原点和结束时的方向不同于初始条件为两种符合的路径[https://blog.csdn.net/qq_23134039/article/details/103425589]()
+// ### 解题思路
+// 如果能理解前面那个4倍字符串的话，可以进一步理解一次退出条件了。一次直接回到原点和结束时的方向不同于初始条件为两种符合的路径[https://blog.csdn.net/qq_23134039/article/details/103425589]()
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isRobotBounded(String instructions) {
         int x=0;
@@ -46,4 +46,4 @@ class Solution {
 				
     }
 }
-```
+// ```

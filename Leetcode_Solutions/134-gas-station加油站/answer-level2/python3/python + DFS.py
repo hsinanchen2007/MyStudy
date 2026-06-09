@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def canCompleteCircuit(self, gas: List[int], cost: List[int]) -> int:
         # Greedy method
@@ -17,4 +17,4 @@ class Solution:
             if rest >= 0: return i
             else: pre = -rest
         return -1
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int[] constructArr(int[] a) {
         int len=a.length;
@@ -20,4 +20,4 @@ class Solution {
         return b;
     }
 }
-```
+// ```

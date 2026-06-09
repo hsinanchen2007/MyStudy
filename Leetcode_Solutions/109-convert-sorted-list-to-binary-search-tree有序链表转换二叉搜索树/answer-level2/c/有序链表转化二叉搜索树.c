@@ -1,9 +1,9 @@
-### 解题思路
-哈哈，效率太低了，
+// ### 解题思路
+// 哈哈，效率太低了，
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -66,4 +66,4 @@ int getListNodeLength(struct ListNode* head) {
     }
     return length;
 }
-```
+// ```

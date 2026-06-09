@@ -1,4 +1,4 @@
-```
+// ```
 func isPerfectSquare(num int) bool {
     if num == 1 || num == 4 {
 		return true
@@ -29,4 +29,4 @@ func isPerfectSquare(num int) bool {
 	}
 	return res
 }
-```
+// ```

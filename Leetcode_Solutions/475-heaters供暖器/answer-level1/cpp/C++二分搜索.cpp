@@ -1,12 +1,12 @@
-本题用二分搜索，但是二分搜索用在哪呢？这个才是关键。
-首先，houses是需要被遍历的，因此二分搜索就用于快速查找到与house最近的heater。
-这就是本题二分法的用处，一开始没有捋清这个思路，所以感觉无从下手。
-本题还发现：houses.erase(houses.begin()+0)删除第一个元素非常费时间，
-所以最后while循环条件用while(i<houses.size())，
-而不能使用while(houses.size())
-也算是一个收获。
-贴代码：
-```
+// 本题用二分搜索，但是二分搜索用在哪呢？这个才是关键。
+// 首先，houses是需要被遍历的，因此二分搜索就用于快速查找到与house最近的heater。
+// 这就是本题二分法的用处，一开始没有捋清这个思路，所以感觉无从下手。
+// 本题还发现：houses.erase(houses.begin()+0)删除第一个元素非常费时间，
+// 所以最后while循环条件用while(i<houses.size())，
+// 而不能使用while(houses.size())
+// 也算是一个收获。
+// 贴代码：
+// ```
 class Solution {
 public:
     int findRadius(vector<int>& houses, vector<int>& heaters) {
@@ -35,4 +35,4 @@ public:
         return maxr;
     }
 };
-```
+// ```

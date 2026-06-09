@@ -1,12 +1,12 @@
-### 解题思路
-题解看代码
+// ### 解题思路
+// 题解看代码
 
-![image.png](https://pic.leetcode-cn.com/3a67fe86bb3d02f6997e7f68e659961365590bbf17c94b430642ff29e3af30a6-image.png)
+// ![image.png](https://pic.leetcode-cn.com/3a67fe86bb3d02f6997e7f68e659961365590bbf17c94b430642ff29e3af30a6-image.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int removeElement(int[] nums, int val) {
        //包含指定数的位置，默认是不包含指定数，所以需要替换的位置为-1
@@ -31,4 +31,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

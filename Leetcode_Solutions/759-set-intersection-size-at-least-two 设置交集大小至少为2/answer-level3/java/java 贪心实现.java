@@ -1,7 +1,7 @@
-先正向排序，再逆向保留最小的交集。
-最后用贪心。
+// 先正向排序，再逆向保留最小的交集。
+// 最后用贪心。
 
-```
+// ```
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
@@ -54,4 +54,4 @@ class Solution {
         return result.size();
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-``` java
+// ``` java
 class Solution {
     public int maximum69Number (int num) {
         // size为n的位数；mark用来标记最高位的6到末尾的位数；
@@ -17,4 +17,4 @@ class Solution {
         return mark == 0 ? x : x + 3 * (int)Math.pow(10, mark - 1);
     }
 }
-```
+// ```

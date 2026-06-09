@@ -1,5 +1,5 @@
-偏移量给了20000是因为0<=|arr[i]-difference|<=|arr[i]|+|difference|=20000，过于恶意。之后遍历map只要从10000到30000就可以了。
-```
+// 偏移量给了20000是因为0<=|arr[i]-difference|<=|arr[i]|+|difference|=20000，过于恶意。之后遍历map只要从10000到30000就可以了。
+// ```
 int longestSubsequence(int* arr, int arrSize, int difference){
     int table[40001]={0};
     int i,result=0;
@@ -14,4 +14,4 @@ int longestSubsequence(int* arr, int arrSize, int difference){
 
 }
 
-```
+// ```

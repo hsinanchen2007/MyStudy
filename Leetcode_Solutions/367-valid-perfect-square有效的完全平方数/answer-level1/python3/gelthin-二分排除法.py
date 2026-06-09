@@ -1,12 +1,12 @@
-### 解题思路
-非常简单。
+# ### 解题思路
+# 非常简单。
 
-这里恰好 if 条件之后是 left=mid+1
-不过最后还需要判断一下，因为不一定能找到。
+# 这里恰好 if 条件之后是 left=mid+1
+# 不过最后还需要判断一下，因为不一定能找到。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isPerfectSquare(self, num: int) -> bool:
         if num == 0:
@@ -27,4 +27,4 @@ class Solution:
 
 
 
-```
+# ```

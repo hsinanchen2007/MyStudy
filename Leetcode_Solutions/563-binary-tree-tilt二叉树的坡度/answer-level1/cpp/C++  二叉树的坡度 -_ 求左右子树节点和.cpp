@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-其实这个问题就是 **求节点和**的变化版。
+// 其实这个问题就是 **求节点和**的变化版。
 
-在 **[二叉树的所有路径](https://leetcode-cn.com/problems/binary-tree-paths/)** 这个问题中，我已经小小总结过一次了，呐：**[我的小总结](https://leetcode-cn.com/problems/binary-tree-paths/solution/c-di-gui-qiu-jie-er-cha-shu-de-suo-you-lu-jing-by-/)**
+// 在 **[二叉树的所有路径](https://leetcode-cn.com/problems/binary-tree-paths/)** 这个问题中，我已经小小总结过一次了，呐：**[我的小总结](https://leetcode-cn.com/problems/binary-tree-paths/solution/c-di-gui-qiu-jie-er-cha-shu-de-suo-you-lu-jing-by-/)**
 
-今天对总结再来补充补充：
-```c++
+// 今天对总结再来补充补充：
+// ```c++
 void dfs(TreeNode* root){
     if(!root) return;
     /*
@@ -20,10 +20,10 @@ void dfs(TreeNode* root){
     dfs(root->left);
     dfs(root->right)
 }
-```
+// ```
 
-**对二叉树求和，使用带返回值的递归**
-```cpp
+// **对二叉树求和，使用带返回值的递归**
+// ```cpp
 int dfs(TreeNode* root){
     if(!root) return 0;
     /*
@@ -37,11 +37,11 @@ int dfs(TreeNode* root){
     int right = dfs(root->right);
     return left + right + root->val;
 }
-```
+// ```
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -72,4 +72,4 @@ private:
 private:
     int result = 0;
 };
-```
+// ```

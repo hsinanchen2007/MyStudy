@@ -1,9 +1,9 @@
-***Talk is cheap. Show me the code.***
+// ***Talk is cheap. Show me the code.***
 
-![Xnip2020-03-20_18-57-20.jpg](https://pic.leetcode-cn.com/d21a12157ce0bb250298c51aef69614cc21eb61bff11c2fb97a6078943fd0091-Xnip2020-03-20_18-57-20.jpg)
+// ![Xnip2020-03-20_18-57-20.jpg](https://pic.leetcode-cn.com/d21a12157ce0bb250298c51aef69614cc21eb61bff11c2fb97a6078943fd0091-Xnip2020-03-20_18-57-20.jpg)
 
-递归：
-```
+// 递归：
+// ```
 class NestedIterator {
     typedef vector<NestedInteger>::const_reverse_iterator iterator_type;
 
@@ -40,10 +40,10 @@ public:
         return !stk.empty();
     }
 };
-```
+// ```
 
-迭代、栈：
-```cpp
+// 迭代、栈：
+// ```cpp
 class NestedIterator {
     typedef vector<NestedInteger>::const_reverse_iterator iterator_type;
 
@@ -86,5 +86,5 @@ public:
     }
 };
 
-```
+// ```
 

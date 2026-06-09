@@ -1,4 +1,4 @@
-```
+// ```
 void calTranslateNum(int num, int* count)
 {
     if (num / 10 == 0) { /* num < 10 一种可行的分配方式走完，计数+1 */
@@ -17,4 +17,4 @@ int translateNum(int num){
     calTranslateNum(num, &count);
     return count;
 }
-```
+// ```

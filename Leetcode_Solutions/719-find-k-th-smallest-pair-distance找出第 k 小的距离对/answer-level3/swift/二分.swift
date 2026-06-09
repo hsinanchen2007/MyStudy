@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     func smallestDistancePair(_ nums: [Int], _ k: Int) -> Int {
         var mutnum = nums
@@ -27,4 +27,4 @@ class Solution {
         return min
     }
 }
-```
+// ```

@@ -1,12 +1,12 @@
-![image.png](https://pic.leetcode-cn.com/961f5e2f8bab9868ed69be93386a2a2ba9c6da46c1b36575143847985f6b488c-image.png)
+// ![image.png](https://pic.leetcode-cn.com/961f5e2f8bab9868ed69be93386a2a2ba9c6da46c1b36575143847985f6b488c-image.png)
 
 
-### 解题思路
-一开始的时候，想通过数学计算的方法去求，但是没算出来，后来回想了一下辗转相除的步骤，发现还是挺快的。
+// ### 解题思路
+// 一开始的时候，想通过数学计算的方法去求，但是没算出来，后来回想了一下辗转相除的步骤，发现还是挺快的。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 
@@ -37,4 +37,4 @@ public:
         return "";
     }
 };
-```
+// ```

@@ -1,6 +1,6 @@
 
 
-```golang
+// ```golang
 func findContinuousSequence(target int) [][]int {
     if target<3{
         return [][]int{}
@@ -34,4 +34,4 @@ func print(a,b int)[]int{
     }
     return rs
 }
-```
+// ```

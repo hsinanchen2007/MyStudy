@@ -1,9 +1,9 @@
-### 解题思路
-中序递归遍历，然后使用Collections.sort(list)方法即可解决
+// ### 解题思路
+// 中序递归遍历，然后使用Collections.sort(list)方法即可解决
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -32,4 +32,4 @@ class Solution {
         }
     }
 }
-```
+// ```

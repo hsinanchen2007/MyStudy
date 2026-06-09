@@ -1,14 +1,14 @@
-其实跟求素数的差不多，先说明下参数的含义
-具体步骤如下：
-1. 首先求num的平分根`sqrt = (int)Math.sqrt(num);`
-2. 从`i = 2 .. sqrt` 查找是否存在能被num整除的数;
-3. 若`num % i == 0`，进一步判断` i == num/i`，若相等，则`count ++`;否则 `count += 2, sum += (i + num/i);`
-4. 再判断`count > 2`是否成立，**若成立，说明因子必定不止4个**，不满足条件，return 0; 否则进行
-5. 最后判断`count == 2 ? sum : 0`;若`count`等于2，说明满足条件，返回`sum`，否则返回0；
+// 其实跟求素数的差不多，先说明下参数的含义
+// 具体步骤如下：
+// 1. 首先求num的平分根`sqrt = (int)Math.sqrt(num);`
+// 2. 从`i = 2 .. sqrt` 查找是否存在能被num整除的数;
+// 3. 若`num % i == 0`，进一步判断` i == num/i`，若相等，则`count ++`;否则 `count += 2, sum += (i + num/i);`
+// 4. 再判断`count > 2`是否成立，**若成立，说明因子必定不止4个**，不满足条件，return 0; 否则进行
+// 5. 最后判断`count == 2 ? sum : 0`;若`count`等于2，说明满足条件，返回`sum`，否则返回0；
 
-大致就是这样，若有错误，请大佬指导。
+// 大致就是这样，若有错误，请大佬指导。
 
-```
+// ```
 class Solution {
     public int sumFourDivisors(int[] nums) {
         int n = nums.length;
@@ -46,4 +46,4 @@ class Solution {
         return count == 2 ? sum : 0;
     }
 }
-```
+// ```

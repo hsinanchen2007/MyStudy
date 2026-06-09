@@ -1,4 +1,4 @@
-```
+// ```
 package ZJM_35_搜索插入位置;
 
 public class Main {
@@ -48,4 +48,4 @@ class Solution {
  * 这样也能得到0的正确结果
  */
 
-```
+// ```

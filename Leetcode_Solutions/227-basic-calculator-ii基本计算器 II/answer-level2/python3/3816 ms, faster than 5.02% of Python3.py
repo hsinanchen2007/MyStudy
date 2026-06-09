@@ -1,7 +1,7 @@
-思路就是用栈
-乘除法直接算, 结果存栈
-其他的都直接入栈, 最后再遍历一按顺序计算, 因为此时只剩加减法了, 运算顺序就无所谓了
-```
+# 思路就是用栈
+# 乘除法直接算, 结果存栈
+# 其他的都直接入栈, 最后再遍历一按顺序计算, 因为此时只剩加减法了, 运算顺序就无所谓了
+# ```
 class Solution:
     def calculate(self, s: str) -> int:
         stack, nums = [], set(['0','1','2','3','4','5','6','7','8','9', ' '])
@@ -44,11 +44,11 @@ class Solution:
             elif op=='-':
                 res -= stack.pop(0)
         return res
-```
+# ```
 
-学习一个只有50ms的代码, 把每个数和它前面的符号连起来
-很简洁快速
-```
+# 学习一个只有50ms的代码, 把每个数和它前面的符号连起来
+# 很简洁快速
+# ```
 class Solution:
     def calculate(self, s: str) -> int:
         stack = []
@@ -80,4 +80,4 @@ class Solution:
         else:
             stack[-1] = int(stack[-1]/num)
         return sum(stack)
-```
+# ```

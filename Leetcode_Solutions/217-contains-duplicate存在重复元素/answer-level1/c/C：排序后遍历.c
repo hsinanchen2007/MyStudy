@@ -1,6 +1,6 @@
-理由：
-qsort排序后遍历，若有前后两项相等则说明存在重复元素
-```
+// 理由：
+// qsort排序后遍历，若有前后两项相等则说明存在重复元素
+// ```
 int compare(const void *a, const void *b){
     return *(int*)a - *(int*)b;
 }
@@ -13,4 +13,4 @@ bool containsDuplicate(int* nums, int numsSize){
     }
     return false;
 }
-```
+// ```

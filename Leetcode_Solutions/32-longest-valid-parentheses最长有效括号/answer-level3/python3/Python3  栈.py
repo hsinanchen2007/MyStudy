@@ -1,4 +1,4 @@
-```
+# ```
 #
 # @lc app=leetcode.cn id=32 lang=python
 #
@@ -27,4 +27,4 @@ class Solution(object):
         return rst
 
 
-```
+# ```

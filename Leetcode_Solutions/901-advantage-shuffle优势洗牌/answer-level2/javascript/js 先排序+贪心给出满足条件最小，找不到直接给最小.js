@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number[]} A
  * @param {number[]} B
@@ -23,4 +23,4 @@ var advantageCount = function(A, B) {
     }
     return res
 };
-```
+// ```

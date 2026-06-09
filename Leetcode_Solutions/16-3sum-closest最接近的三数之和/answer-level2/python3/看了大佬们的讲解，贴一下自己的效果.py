@@ -1,6 +1,6 @@
-**就是化用了三数求和的思想**
-    在遍历过程中，固定最左侧一个元素，然后使用两个指针在右侧依次调整，根据三数求和与target目标值的大小关系（target>sum,target<sum,target=sum）决定调整哪个指针，同时将差值最小的求和值与差值
-保留，
+# **就是化用了三数求和的思想**
+#     在遍历过程中，固定最左侧一个元素，然后使用两个指针在右侧依次调整，根据三数求和与target目标值的大小关系（target>sum,target<sum,target=sum）决定调整哪个指针，同时将差值最小的求和值与差值
+# 保留，
 
 class Solution(object):
     def threeSumClosest(self, nums, target):

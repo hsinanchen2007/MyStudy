@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-两个字符串之和前后拼接不相等，就是无因子。
+// 两个字符串之和前后拼接不相等，就是无因子。
 
-然后取他们两个的gcd函数得到长度，然后截取字符串即可。
-### 代码
+// 然后取他们两个的gcd函数得到长度，然后截取字符串即可。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string gcdOfStrings(string str1, string str2) {
@@ -17,4 +17,4 @@ public:
         return a%b ? gcd(b,a%b) : b;
     }
 };
-```
+// ```

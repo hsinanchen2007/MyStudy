@@ -1,9 +1,9 @@
-### 解题思路
-![打家劫舍2.png](https://pic.leetcode-cn.com/70da7300399f059d4ab5fe4c6a4bec7e43e55225313b3e94c7b26df799156c0e-%E6%89%93%E5%AE%B6%E5%8A%AB%E8%88%8D2.png)
+// ### 解题思路
+// ![打家劫舍2.png](https://pic.leetcode-cn.com/70da7300399f059d4ab5fe4c6a4bec7e43e55225313b3e94c7b26df799156c0e-%E6%89%93%E5%AE%B6%E5%8A%AB%E8%88%8D2.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int rob(int* nums, int numsSize){
     if(numsSize==0)
         return 0;
@@ -33,4 +33,4 @@ int rob(int* nums, int numsSize){
     ans2[numsSize-1]=((nums[numsSize-1] + ans2[numsSize-3])>ans2[numsSize-2])?(nums[numsSize-1] + ans2[numsSize-3]):ans2[numsSize-2];
     return ans1[numsSize - 2]>ans2[numsSize-1]?ans1[numsSize - 2]:ans2[numsSize-1];
 }
-```
+// ```

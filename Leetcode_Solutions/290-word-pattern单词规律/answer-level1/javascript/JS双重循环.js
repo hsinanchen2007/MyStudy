@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {string} pattern
  * @param {string} str
@@ -33,4 +33,4 @@ var wordPattern = function(pattern, str) {
         return true;
     }
 };
-```
+// ```

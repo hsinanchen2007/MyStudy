@@ -1,9 +1,9 @@
-### 解题思路
-正则先替换所有的非数字字母，转换小写，然后翻转判断
+// ### 解题思路
+// 正则先替换所有的非数字字母，转换小写，然后翻转判断
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {boolean}
@@ -13,4 +13,4 @@ var isPalindrome = function(s) {
 
     return str === str.split('').reverse().join('')
 };
-```
+// ```

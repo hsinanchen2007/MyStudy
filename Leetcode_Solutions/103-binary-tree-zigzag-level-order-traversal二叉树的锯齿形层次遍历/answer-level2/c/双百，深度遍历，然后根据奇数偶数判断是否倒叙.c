@@ -1,10 +1,10 @@
-### 解题思路
-深度遍历，然后根据奇数偶数判断是否倒叙，参考了102题的解题思路。
-![20200312-214545(eSpace).png](https://pic.leetcode-cn.com/c94f991696e3aced181af0dff24485dd8781e1e7793377ef5499fa0dd69814fb-20200312-214545\(eSpace\).png)
+// ### 解题思路
+// 深度遍历，然后根据奇数偶数判断是否倒叙，参考了102题的解题思路。
+// ![20200312-214545(eSpace).png](https://pic.leetcode-cn.com/c94f991696e3aced181af0dff24485dd8781e1e7793377ef5499fa0dd69814fb-20200312-214545\(eSpace\).png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -85,4 +85,4 @@ int** zigzagLevelOrder(struct TreeNode* root, int* returnSize, int** returnColum
 }
 
 
-```
+// ```

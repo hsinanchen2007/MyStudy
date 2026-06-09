@@ -1,4 +1,4 @@
-```java
+// ```java
     // 直接循环法
     public int binaryGap(int N){
         String binary = Integer.toBinaryString(N);
@@ -30,4 +30,4 @@
         }
     }
 
-```
+// ```

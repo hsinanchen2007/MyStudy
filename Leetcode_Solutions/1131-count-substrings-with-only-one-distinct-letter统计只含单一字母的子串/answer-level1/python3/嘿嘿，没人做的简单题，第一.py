@@ -1,5 +1,5 @@
-贴上我丑陋的代码：）
-```python []
+# 贴上我丑陋的代码：）
+# ```python []
 class Solution:
     def countLetters(self, S: str) -> int:
         cnt=1
@@ -11,4 +11,4 @@ class Solution:
                 s+=cnt*(cnt+1)/2       #等差公式求和
                 cnt=1
         return int(s+cnt*(cnt+1)/2)#最后一个并不会自动加上
-```
+# ```

@@ -1,11 +1,11 @@
-### 解题思路
-1.先判断三种情况（numRows = 0/1/2）
-2.result 为结果列表先填写前两行内容，temp为每一行的列表
-3.从result第三行开始遍历，每一行的第一个和最后一个元素填1，其他数字为上一行的相邻两个数字相加
+# ### 解题思路
+# 1.先判断三种情况（numRows = 0/1/2）
+# 2.result 为结果列表先填写前两行内容，temp为每一行的列表
+# 3.从result第三行开始遍历，每一行的第一个和最后一个元素填1，其他数字为上一行的相邻两个数字相加
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def generate(self, numRows: int) -> List[List[int]]:
         result = [[1],[1,1]]
@@ -24,4 +24,4 @@ class Solution:
                 temp.append(1)
                 result.append(temp)
             return result
-```
+# ```

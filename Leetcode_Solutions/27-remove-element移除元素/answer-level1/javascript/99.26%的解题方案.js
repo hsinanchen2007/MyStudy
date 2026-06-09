@@ -1,7 +1,7 @@
-### 解题思路
-思路一：逐个轮训，然后删除对应的val；但是会使用很多次splice，导致速度很慢；
-### 代码
-```javascript
+// ### 解题思路
+// 思路一：逐个轮训，然后删除对应的val；但是会使用很多次splice，导致速度很慢；
+// ### 代码
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} val
@@ -19,11 +19,11 @@ var removeElement = function(nums, val) {
     }
     return nums.length
 };
-```
+// ```
 
-思路二：为了减少使用splice，所以这边需要把val放到一起，这个时候排序是个好方法；先排序，然后找到val的下标，然后从val的下标开始循环;最后找到val出现的次数，最终一下子删除；
-### 代码
-```javascript
+// 思路二：为了减少使用splice，所以这边需要把val放到一起，这个时候排序是个好方法；先排序，然后找到val的下标，然后从val的下标开始循环;最后找到val出现的次数，最终一下子删除；
+// ### 代码
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} val
@@ -37,7 +37,7 @@ var removeElement = function(nums, val) {
     nums.splice(start, i - start)
     return nums.length
 };
-```
+// ```
 
-如下：
-![image.png](https://pic.leetcode-cn.com/9410b5817fcfa3e709270c8e992e8cf8d9eb83c6f9233796e7717737dc989421-image.png)
+// 如下：
+// ![image.png](https://pic.leetcode-cn.com/9410b5817fcfa3e709270c8e992e8cf8d9eb83c6f9233796e7717737dc989421-image.png)

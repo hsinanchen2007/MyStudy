@@ -1,11 +1,11 @@
-### 解题思路
-只需要列出原来的数组和旋转后的数组；
-然后找到数组规律，新的数组tmp[j][size - i] = matrix[i][j];
-转换后再把tmp赋值给matrix。
+// ### 解题思路
+// 只需要列出原来的数组和旋转后的数组；
+// 然后找到数组规律，新的数组tmp[j][size - i] = matrix[i][j];
+// 转换后再把tmp赋值给matrix。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void rotate(vector<vector<int>>& matrix) {
@@ -20,4 +20,4 @@ public:
         matrix = tmp;
     }
 };
-```
+// ```

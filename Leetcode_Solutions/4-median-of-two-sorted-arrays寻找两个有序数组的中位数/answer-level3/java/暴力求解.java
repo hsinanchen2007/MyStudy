@@ -1,15 +1,15 @@
-### 解题思路
-在所有 Java 提交中击败了
-82.41%的用户
-内存消耗 :40.6 MB, 在所有 Java 提交中击败了98.75%
-的用户
+// ### 解题思路
+// 在所有 Java 提交中击败了
+// 82.41%的用户
+// 内存消耗 :40.6 MB, 在所有 Java 提交中击败了98.75%
+// 的用户
 
-合并两个有序数组
-求新数组的中位数
+// 合并两个有序数组
+// 求新数组的中位数
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public static double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int[] hebing = new int[nums1.length + nums2.length];
@@ -47,4 +47,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

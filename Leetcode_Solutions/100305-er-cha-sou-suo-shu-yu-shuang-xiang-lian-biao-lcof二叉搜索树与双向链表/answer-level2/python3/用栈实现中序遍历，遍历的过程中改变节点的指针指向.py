@@ -1,6 +1,6 @@
-直接基于栈实现中序遍历，保存上一个节点pre，头节点head和尾节点tail，对于当前节点cur有上一节点的right指向当前节点cur，当前节点cur的left指向pre。
+# 直接基于栈实现中序遍历，保存上一个节点pre，头节点head和尾节点tail，对于当前节点cur有上一节点的right指向当前节点cur，当前节点cur的left指向pre。
 
-```
+# ```
 class Solution:
     def treeToDoublyList(self, root: 'Node') -> 'Node':
         if not root:
@@ -32,4 +32,4 @@ class Solution:
         head.left = tail
         tail.right = head
         return head
-```
+# ```

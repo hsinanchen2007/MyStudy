@@ -1,19 +1,19 @@
-## 思路：
+# ## 思路：
 
-这道题就是使用 前缀树（字典树）
+# 这道题就是使用 前缀树（字典树）
 
-先把前缀树的数据结构练习一下[208. 实现 Trie (前缀树)](https://leetcode-cn.com/problems/implement-trie-prefix-tree/) | [题解链接](https://leetcode-cn.com/problems/implement-trie-prefix-tree/solution/pythonjian-dan-shi-xian-by-powcai)
+# 先把前缀树的数据结构练习一下[208. 实现 Trie (前缀树)](https://leetcode-cn.com/problems/implement-trie-prefix-tree/) | [题解链接](https://leetcode-cn.com/problems/implement-trie-prefix-tree/solution/pythonjian-dan-shi-xian-by-powcai)
 
 
-相关题型：
+# 相关题型：
 
-[212. 单词搜索 II](https://leetcode-cn.com/problems/word-search-ii/)
+# [212. 单词搜索 II](https://leetcode-cn.com/problems/word-search-ii/)
 
-[421. 数组中两个数的最大异或值](https://leetcode-cn.com/problems/maximum-xor-of-two-numbers-in-an-array/)
+# [421. 数组中两个数的最大异或值](https://leetcode-cn.com/problems/maximum-xor-of-two-numbers-in-an-array/)
 
-## 代码：
+# ## 代码：
 
-```python
+# ```python
 class WordDictionary:
 
     def __init__(self):
@@ -53,5 +53,5 @@ class WordDictionary:
                     return True
             return False
         return helper(word, self.lookup)
-```
+# ```
 

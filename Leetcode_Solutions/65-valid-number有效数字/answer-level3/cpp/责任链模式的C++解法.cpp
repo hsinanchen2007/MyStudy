@@ -1,6 +1,6 @@
-读了大佬的解法 [传送门](https://leetcode-cn.com/problems/valid-number/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-1-4/)，对责任链在这道题目的应用感到眼前一亮，用来解这种分类较为复杂的题目确实写起来很有条理，读起来也赏心悦目。
+// 读了大佬的解法 [传送门](https://leetcode-cn.com/problems/valid-number/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-1-4/)，对责任链在这道题目的应用感到眼前一亮，用来解这种分类较为复杂的题目确实写起来很有条理，读起来也赏心悦目。
 
-```
+// ```
 struct Validator{
     virtual bool validate(const string&)=0;
 };
@@ -87,4 +87,4 @@ public:
         return NumberValidator(s);
     }
 }; 
-```
+// ```

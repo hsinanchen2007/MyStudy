@@ -1,11 +1,11 @@
-### 解题思路
+# ### 解题思路
 
-kick the card. 
-Again, I will give you the code. 
+# kick the card. 
+# Again, I will give you the code. 
 
-### 代码
+# ### 代码
 
-```cpp
+# ```cpp
 class Solution {
 public:
     vector<string> generateParenthesis(int n) {
@@ -44,4 +44,4 @@ public:
         return tmp[n];
     }
 };
-```
+# ```

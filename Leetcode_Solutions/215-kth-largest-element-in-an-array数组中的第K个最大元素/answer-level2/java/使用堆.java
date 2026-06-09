@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-自定义了一个堆结构来实现，没有使用原生的PriorityQueue,纯练习，高工勿喷，有错误欢迎指点
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 自定义了一个堆结构来实现，没有使用原生的PriorityQueue,纯练习，高工勿喷，有错误欢迎指点
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private int[] headArray;
     private int currentSize;
@@ -66,4 +66,4 @@ class Solution {
         headArray[index]=currentData;
     }
 }
-```
+// ```

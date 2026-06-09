@@ -1,9 +1,9 @@
-### 解题思路
-简单的自旋操作
+// ### 解题思路
+// 简单的自旋操作
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Foo {
 
     volatile boolean fFin = false;
@@ -39,4 +39,4 @@ class Foo {
         printThird.run();
     }
 }
-```
+// ```

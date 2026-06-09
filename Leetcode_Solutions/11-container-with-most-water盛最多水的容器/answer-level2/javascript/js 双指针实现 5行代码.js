@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} height
  * @return {number}
@@ -12,4 +12,4 @@ var maxArea = function(height) {
   }
   return area;
 }
-```
+// ```

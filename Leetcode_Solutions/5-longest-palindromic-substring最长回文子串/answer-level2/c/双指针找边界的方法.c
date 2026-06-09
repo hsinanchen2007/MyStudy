@@ -1,16 +1,16 @@
-分为两种情况向两边搜索。
+// 分为两种情况向两边搜索。
 
-注意结果赋值的时候，如果结果左右节点分别为 l, r, 那么需要用如下方式分配答案
+// 注意结果赋值的时候，如果结果左右节点分别为 l, r, 那么需要用如下方式分配答案
 
-```C
+// ```C
 len = res_r - res_l + 1;
 char *res = (char *)malloc(sizeof(char) * (len + 1));
 strncpy(res, s + res_l, len);
 res[len] = '\0'; 
-```
+// ```
 
-题解
-```C
+// 题解
+// ```C
 char * longestPalindrome(char * s){
     int l, r;
     int len = strlen(s);
@@ -53,4 +53,4 @@ char * longestPalindrome(char * s){
     res[len] = '\0';
     return res;
 }
-```
+// ```

@@ -1,26 +1,26 @@
-### 解题思路
-经典的深度优先遍历题目，这里给出C语言的解法。
+// ### 解题思路
+// 经典的深度优先遍历题目，这里给出C语言的解法。
 
-1.申请标志矩阵
+// 1.申请标志矩阵
 
-2.建立递归函数，如果是最后一行，开辟结果空间
+// 2.建立递归函数，如果是最后一行，开辟结果空间
 
-3.每次处理一行，处理之前先判断是否有空位，没有则返回
+// 3.每次处理一行，处理之前先判断是否有空位，没有则返回
 
-4.如果有空位，则打标志，注意只需要打当前行之后几行
+// 4.如果有空位，则打标志，注意只需要打当前行之后几行
 
-5.调用递归函数处理下一行，直至结束
+// 5.调用递归函数处理下一行，直至结束
 
-注意：
-（1）标志只需要打在后几行
-（2）在最后一行，申请空间
+// 注意：
+// （1）标志只需要打在后几行
+// （2）在最后一行，申请空间
 
-![image.png](https://pic.leetcode-cn.com/847531f9621aa4258d6a7b43f885c2fe8ceb094ec6df942bb056428800d9b15a-image.png)
+// ![image.png](https://pic.leetcode-cn.com/847531f9621aa4258d6a7b43f885c2fe8ceb094ec6df942bb056428800d9b15a-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -208,4 +208,4 @@ char*** solveNQueens(int n, int* returnSize, int** returnColumnSizes){
     *returnColumnSizes = ret_col;
     return ret;
 }
-```
+// ```

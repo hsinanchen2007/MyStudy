@@ -1,9 +1,9 @@
-### 解题思路
-依次遍历list。进行分放，依次加一，到头重新再开始即可
+# ### 解题思路
+# 依次遍历list。进行分放，依次加一，到头重新再开始即可
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def distributeCandies(self, candies, num_people):
         """
@@ -30,4 +30,4 @@ class Solution(object):
 
 
             
-```
+# ```

@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-![捕获.PNG](https://pic.leetcode-cn.com/2ebfb54f848e10fff8bb7fde6491677bd1ff43993a28c89e64d7d969cd8db93b-%E6%8D%95%E8%8E%B7.PNG)
+// ### 解题思路
+// 此处撰写解题思路
+// ![捕获.PNG](https://pic.leetcode-cn.com/2ebfb54f848e10fff8bb7fde6491677bd1ff43993a28c89e64d7d969cd8db93b-%E6%8D%95%E8%8E%B7.PNG)
 
-其实这是一个简单的堆栈问题 建立两个堆栈 一个用来保存复制次数 一个用来保存需要复制的字符串
-### 代码
+// 其实这是一个简单的堆栈问题 建立两个堆栈 一个用来保存复制次数 一个用来保存需要复制的字符串
+// ### 代码
 
-```cpp
+// ```cpp
 
 class Solution {
 public:
@@ -65,4 +65,4 @@ public:
         return temp;
     }
 };
-```
+// ```

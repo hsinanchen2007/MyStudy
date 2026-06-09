@@ -1,14 +1,14 @@
-![image.png](https://pic.leetcode-cn.com/33bb30dd03cfb55df99b81cc4fdd5493bf195894daf7496946a0c48c5b3f075e-image.png)
+# ![image.png](https://pic.leetcode-cn.com/33bb30dd03cfb55df99b81cc4fdd5493bf195894daf7496946a0c48c5b3f075e-image.png)
 
-遍历岛中的每个位置
-如果位置为0，则直接查看下一个位置
-直到发现有位置为1的，从该位置去查看它的上下左右，然后将面积进行加和
+# 遍历岛中的每个位置
+# 如果位置为0，则直接查看下一个位置
+# 直到发现有位置为1的，从该位置去查看它的上下左右，然后将面积进行加和
 
-最后选取面积最大的数值进行返回
+# 最后选取面积最大的数值进行返回
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def maxAreaOfIsland(self, grid):
         """
@@ -30,4 +30,4 @@ class Solution(object):
             for j in range(n):
                 ans = max(ans, dfs(grid,i,j))
         return ans
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-时间O(n),空间O(1).    动态规划，dp[k]=max(dp[k-2]+nums[k],dp[k-1])
+// ### 解题思路
+// 时间O(n),空间O(1).    动态规划，dp[k]=max(dp[k-2]+nums[k],dp[k-1])
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 int rob(int* nums, int numsSize){
     int dp1=0,dp2=0,result=0;
@@ -16,4 +16,4 @@ int rob(int* nums, int numsSize){
     }
     return  result;
 }
-```
+// ```

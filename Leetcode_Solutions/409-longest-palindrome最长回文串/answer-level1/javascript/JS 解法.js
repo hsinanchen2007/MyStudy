@@ -1,4 +1,4 @@
-```js
+// ```js
 var longestPalindrome = function(s) {
     let map = new Map()
     let maxLen = 0
@@ -6,4 +6,4 @@ var longestPalindrome = function(s) {
     for(let [k,val] of map) maxLen += (val - val%2)
     return maxLen + (s.length - maxLen > 0)
 };
-```
+// ```

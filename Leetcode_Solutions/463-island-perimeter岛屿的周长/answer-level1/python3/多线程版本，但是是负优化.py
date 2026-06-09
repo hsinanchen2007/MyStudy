@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import queue
 import threading
 class Solution:
@@ -58,4 +58,4 @@ class Solution:
             result.append(q.get())
         zhi=result[0]*4-2*(result[1]+result[2])
         return zhi
-```
+# ```

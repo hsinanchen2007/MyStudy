@@ -1,13 +1,13 @@
-### 解题思路
+// ### 解题思路
 
-作弊咯:P
-用qsort实现链表排序
+// 作弊咯:P
+// 用qsort实现链表排序
 
-![image.png](https://pic.leetcode-cn.com/54657b115fce18bc4dc48277aa1a0f9c9ce62509bf8f5b548ca23f18befd2c6c-image.png)
+// ![image.png](https://pic.leetcode-cn.com/54657b115fce18bc4dc48277aa1a0f9c9ce62509bf8f5b548ca23f18befd2c6c-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -46,4 +46,4 @@ struct ListNode* insertionSortList(struct ListNode* head){
 	free(arr);
 	return cur;
 }
-```
+// ```

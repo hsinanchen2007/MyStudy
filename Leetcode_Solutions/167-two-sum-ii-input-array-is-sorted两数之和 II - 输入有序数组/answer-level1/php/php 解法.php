@@ -1,4 +1,4 @@
-```
+// ```
 function twoSum($numbers, $target) {
     $left = 0;
     $right = count($numbers)-1;
@@ -13,4 +13,4 @@ function twoSum($numbers, $target) {
     }
     return [0,0];
 }
-```
+// ```

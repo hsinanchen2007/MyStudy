@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int findMaxConsecutiveOnes(int[] nums) {
         // 存储最终结果
@@ -31,4 +31,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

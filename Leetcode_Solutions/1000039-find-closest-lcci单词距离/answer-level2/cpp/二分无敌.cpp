@@ -1,9 +1,9 @@
-### 解题思路
-先把所有位置找到，然后二分找
+// ### 解题思路
+// 先把所有位置找到，然后二分找
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findClosest(vector<string>& words, string word1, string word2) {
@@ -38,4 +38,4 @@ public:
         return left;
     }
 };
-```
+// ```

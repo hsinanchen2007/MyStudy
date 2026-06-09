@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-中间还有不能将1到n全部循环,会时间超时，从map的开始到end循环
+// 中间还有不能将1到n全部循环,会时间超时，从map的开始到end循环
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	int maxNumberOfFamilies(int n, vector<vector<int>>& reservedSeats) {
@@ -39,4 +39,4 @@ public:
 		return result + (n - seatBiaoJi.size()) * 2;
 	}
 };
-```
+// ```

@@ -1,5 +1,5 @@
-线段树离散处理，复杂度O(log(1e9) * n)
-```
+// 线段树离散处理，复杂度O(log(1e9) * n)
+// ```
 const int MX = 1e5 + 5;
 const int M = 1e9;
 class MyCalendarThree {
@@ -38,4 +38,4 @@ public:
         return sum[root] + lz[root];
     }
 };
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
-当前字符要么独立解码，要么和后面2个字符组合解码；
-搜索所有情况，满足条件就返回。
+// ### 解题思路
+// 当前字符要么独立解码，要么和后面2个字符组合解码；
+// 搜索所有情况，满足条件就返回。
 
-![image.png](https://pic.leetcode-cn.com/bab8e1281f41b56594d1e4c8518bad3d621dd3592526e41aa744c7de4c40cb0c-image.png)
+// ![image.png](https://pic.leetcode-cn.com/bab8e1281f41b56594d1e4c8518bad3d621dd3592526e41aa744c7de4c40cb0c-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string ans;
@@ -45,4 +45,4 @@ public:
         return ans;
     }
 };
-```
+// ```

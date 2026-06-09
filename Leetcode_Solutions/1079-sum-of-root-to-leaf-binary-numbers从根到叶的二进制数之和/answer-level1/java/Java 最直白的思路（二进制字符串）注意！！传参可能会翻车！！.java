@@ -1,11 +1,11 @@
 
-- 本题思路简单：递归实现找叶子。将每一个找到的路径写进StringBuilder 的list中。需要注意两个问题：
-1. 二进制字符串转int，可直接用接口
-2. ！！！java中传参，若是引用类型，传的本质是指针，所以要保留原始数据（temp）
+// - 本题思路简单：递归实现找叶子。将每一个找到的路径写进StringBuilder 的list中。需要注意两个问题：
+// 1. 二进制字符串转int，可直接用接口
+// 2. ！！！java中传参，若是引用类型，传的本质是指针，所以要保留原始数据（temp）
 
 
 
-```
+// ```
 class Solution {
     List <StringBuilder> leafSB = new ArrayList();
     
@@ -53,4 +53,4 @@ class Solution {
         }
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 //递归
 func inorderTraversal(root *TreeNode) []int {
 	helper := make([]int, 0)
@@ -17,9 +17,9 @@ func dfsinorderTraversal(root *TreeNode, helper *[]int) {
 		dfsinorderTraversal(root.Right, helper)
 	}
 }
-```
+// ```
 
-```
+// ```
 //迭代
 func inorderTraversal(root *TreeNode) []int {
 	nums := make([]int, 0)
@@ -35,5 +35,5 @@ func inorderTraversal(root *TreeNode) []int {
 	}
 	return nums
 }
-```
+// ```
 

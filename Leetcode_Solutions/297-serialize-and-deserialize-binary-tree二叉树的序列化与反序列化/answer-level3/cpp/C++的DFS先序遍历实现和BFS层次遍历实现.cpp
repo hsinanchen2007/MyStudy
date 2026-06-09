@@ -1,10 +1,10 @@
-> 开始想用先序后序两种遍历结果恢复二叉树，结果发现存在重复出现的元素，根本行不通
-> 记录一下，实现的两种方法
+// > 开始想用先序后序两种遍历结果恢复二叉树，结果发现存在重复出现的元素，根本行不通
+// > 记录一下，实现的两种方法
 
-- 协议的格式很简单，就是将元素写入string中，并按照空格键分割
+// - 协议的格式很简单，就是将元素写入string中，并按照空格键分割
 
-##### 先序遍历（递归实现）
-```C++
+// ##### 先序遍历（递归实现）
+// ```C++
 void help(string &ret, TreeNode *root) {
     if (!root) {
         ret += "null ";
@@ -43,11 +43,11 @@ TreeNode *Codec::deserialize(string data) {
     return help(q);
 }
 
-```
+// ```
 
 
-##### 层次遍历实现（迭代实现）
-```C++
+// ##### 层次遍历实现（迭代实现）
+// ```C++
 string Codec::serialize(TreeNode *root) {
     if (!root) return "";
     queue<TreeNode *> q;
@@ -102,4 +102,4 @@ TreeNode *Codec::deserialize(string data) {
     return root;
 }
 
-```
+// ```

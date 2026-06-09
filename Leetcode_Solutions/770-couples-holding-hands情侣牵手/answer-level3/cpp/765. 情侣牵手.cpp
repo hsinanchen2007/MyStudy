@@ -1,7 +1,7 @@
-![QQ图片20191031155519.png](https://pic.leetcode-cn.com/0465d7a490001ff055a5cba7c5b8e4de6b19d17554c85b31fe1cb50594a29adb-QQ%E5%9B%BE%E7%89%8720191031155519.png)
+// ![QQ图片20191031155519.png](https://pic.leetcode-cn.com/0465d7a490001ff055a5cba7c5b8e4de6b19d17554c85b31fe1cb50594a29adb-QQ%E5%9B%BE%E7%89%8720191031155519.png)
 
 
-```
+// ```
 class Solution {
 public:
     int minSwapsCouples(vector<int>& row) {
@@ -25,4 +25,4 @@ public:
         return res;
     }
 };
-```
+// ```

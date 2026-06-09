@@ -1,9 +1,9 @@
-### 解题思路
-scala解法 使用hashmap的key存储数字的每一个元素,value存储元素个数
+// ### 解题思路
+// scala解法 使用hashmap的key存储数字的每一个元素,value存储元素个数
 
-### 代码
+// ### 代码
 
-```scala
+// ```scala
 import scala.collection.mutable
 object Solution {
     def findRepeatNumber(nums: Array[Int]): Int = {
@@ -27,4 +27,4 @@ object Solution {
     res
   }
 }
-```
+// ```

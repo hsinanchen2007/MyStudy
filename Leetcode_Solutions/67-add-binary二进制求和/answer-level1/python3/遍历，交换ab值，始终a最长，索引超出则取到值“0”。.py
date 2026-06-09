@@ -1,10 +1,10 @@
-### 解题思路
-遍历，交换ab值，始终a最长，索引超出则取到值“0”。
-模拟手工计算。
+# ### 解题思路
+# 遍历，交换ab值，始终a最长，索引超出则取到值“0”。
+# 模拟手工计算。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def addBinary(self, a: str, b: str) -> str:     
         if len(a)<len(b):a,b=b,a
@@ -35,4 +35,4 @@ class Solution:
             point_a-=1
             point_b-=1
         return result if result[0]=="1" else result[1:]
-```
+# ```

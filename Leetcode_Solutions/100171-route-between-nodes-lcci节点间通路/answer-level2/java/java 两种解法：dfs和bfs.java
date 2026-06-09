@@ -1,6 +1,6 @@
-**思路**
-1. 先建立一个邻接表
-```java
+// **思路**
+// 1. 先建立一个邻接表
+// ```java
     List<Integer>[] adj = new ArrayList[n];
     for (int[] edge : graph) {
         int from = edge[0];
@@ -11,11 +11,11 @@
 
         adj[from].add(to);
     }
-```
+// ```
 
-2. 再使用dfs或bfs来判断start到target是否可达
+// 2. 再使用dfs或bfs来判断start到target是否可达
 
-```java
+// ```java
     private boolean hasPath(int start, int target) {
         // dfs
         if (start == target) {
@@ -41,9 +41,9 @@
 
         return false;
     }
-``` 
+// ``` 
 
-```java
+// ```java
     private boolean hasPath(int n, List<Integer>[] adj, int start, int target) {
         // bfs
         LinkedList<Integer> queue = new LinkedList<>();
@@ -78,4 +78,4 @@
         return false;
     }
 
-```
+// ```

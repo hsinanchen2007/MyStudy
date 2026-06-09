@@ -1,9 +1,9 @@
-### 解题思路
-两边加入‘ ’是为了避免aa of apple 输入为 a of 情况。
+# ### 解题思路
+# 两边加入‘ ’是为了避免aa of apple 输入为 a of 情况。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findOcurrences(self, text: str, first: str, second: str) -> List[str]:
         res=[]
@@ -21,4 +21,4 @@ class Solution:
         return res
 
 
-```
+# ```

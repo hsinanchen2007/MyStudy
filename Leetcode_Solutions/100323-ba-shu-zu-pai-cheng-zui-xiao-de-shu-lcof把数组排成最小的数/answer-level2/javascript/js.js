@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number[]} nums
  * @return {string}
@@ -10,4 +10,4 @@ var minNumber = function(nums) {
 
   return nums.join("");
 };
-```
+// ```

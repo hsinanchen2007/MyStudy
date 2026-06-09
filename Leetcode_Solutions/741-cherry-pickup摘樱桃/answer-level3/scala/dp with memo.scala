@@ -1,5 +1,5 @@
 
-```ruby
+// ```ruby
 object Solution {
  def cherryPickup(grid: Array[Array[Int]]): Int = {
     val n = grid.length
@@ -24,4 +24,4 @@ object Solution {
     0 max solve(0,0,0)
   }
 }
-```
+// ```

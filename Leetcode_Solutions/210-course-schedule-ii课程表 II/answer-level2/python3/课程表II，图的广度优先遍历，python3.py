@@ -1,8 +1,8 @@
-### 解题思路
-参考[https://leetcode-cn.com/problems/course-schedule/solution/ke-cheng-biao-yan-du-you-xian-bian-li-python3-by-c/](207.课程表)
-### 代码
+# ### 解题思路
+# 参考[https://leetcode-cn.com/problems/course-schedule/solution/ke-cheng-biao-yan-du-you-xian-bian-li-python3-by-c/](207.课程表)
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
         son = {i:[] for i in range(numCourses)}
@@ -27,4 +27,4 @@ class Solution:
             k += 1
         if not numCourses: return queue
         else: return []
-```
+# ```

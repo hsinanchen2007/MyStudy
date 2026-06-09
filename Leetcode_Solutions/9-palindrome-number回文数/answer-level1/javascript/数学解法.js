@@ -1,6 +1,6 @@
-计算反转后的结果，然后进行比较
+// 计算反转后的结果，然后进行比较
 
-```javascript
+// ```javascript
 var isPalindrome = function(x) {
   if (x < 0) return false;
   var m = x;
@@ -13,4 +13,4 @@ var isPalindrome = function(x) {
   
   return x === n;
 };
-``` 
+// ``` 

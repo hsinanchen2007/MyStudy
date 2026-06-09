@@ -1,8 +1,8 @@
-### 解题思路
+# ### 解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def exchangeBits(self, num: int) -> int:
         numb = '{:b}'.format(num)   #将十进制转换为二进制
@@ -15,4 +15,4 @@ class Solution:
         ans = ans[::-1]   #将字符串倒置
         return int(ans, 2)
 
-```
+# ```

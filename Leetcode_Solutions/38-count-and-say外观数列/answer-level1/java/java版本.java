@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
-双层循环
-### 代码
+// 双层循环
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String countAndSay(int n) {
 
@@ -35,4 +35,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-用哈希表存放上次出现的重复字母的位置，通过对字符串分割出备注里的3种结果。针对3种结果，取出最大值即可。
+# ### 解题思路
+# 用哈希表存放上次出现的重复字母的位置，通过对字符串分割出备注里的3种结果。针对3种结果，取出最大值即可。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
 
@@ -44,4 +44,4 @@ class Solution:
         return results
 
 
-```
+# ```

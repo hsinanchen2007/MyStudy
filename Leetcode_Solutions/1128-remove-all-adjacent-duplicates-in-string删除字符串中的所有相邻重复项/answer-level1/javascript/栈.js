@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/3a9eb023807ee9b4c985fdca6f309aea7ad21717722feb8a6c10cbc27ad1cb45-image.png)
+// ![image.png](https://pic.leetcode-cn.com/3a9eb023807ee9b4c985fdca6f309aea7ad21717722feb8a6c10cbc27ad1cb45-image.png)
 
-```
+// ```
 var removeDuplicates = function(str) {
     let res = [];
     for (let i = 0; i < str.length; i++) {
@@ -12,4 +12,4 @@ var removeDuplicates = function(str) {
     }
     return res.join('')
 };
-```
+// ```

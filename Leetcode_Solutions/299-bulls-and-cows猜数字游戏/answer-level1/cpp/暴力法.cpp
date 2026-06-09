@@ -1,10 +1,10 @@
-### 解题思路
-1.按位对比求出公牛数量
-2.排序完按位对比求出公牛和奶牛总数量
+// ### 解题思路
+// 1.按位对比求出公牛数量
+// 2.排序完按位对比求出公牛和奶牛总数量
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string getHint(string secret, string guess) {
@@ -68,4 +68,4 @@ public:
         return str;
     }
 };
-```
+// ```

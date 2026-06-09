@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-代码写的很清晰，广度搜索，关键是找到当前点的下一个扩展点：
+// 代码写的很清晰，广度搜索，关键是找到当前点的下一个扩展点：
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define QUEUE_LEN 10000
 #define DIR_NUM 4
 const int g_row[DIR_NUM] = {-1, 0, 0, 1};
@@ -126,4 +126,4 @@ bool hasPath(int** maze, int mazeSize, int* mazeColSize, int* start, int startSi
 
     return false;
 }
-```
+// ```

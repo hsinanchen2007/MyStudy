@@ -1,14 +1,14 @@
-### 解题思路
-（1）直接定义了一个大内存，这个也可能有好的办法解决，比如：
-int TreeSize(struct TreeNode *root)
-{
-    if(root == NULL)    return 0;
-    return TreeSize(root->left) + TreeSize(root->right) + 1;
-}
-（2）首次提交的时候失败，外部传入的returnSize， 直接使用*returnSize， 需要先复制一个初值
-### 代码
+// ### 解题思路
+// （1）直接定义了一个大内存，这个也可能有好的办法解决，比如：
+// int TreeSize(struct TreeNode *root)
+// {
+//     if(root == NULL)    return 0;
+//     return TreeSize(root->left) + TreeSize(root->right) + 1;
+// }
+// （2）首次提交的时候失败，外部传入的returnSize， 直接使用*returnSize， 需要先复制一个初值
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -49,4 +49,4 @@ int* inorderTraversal(struct TreeNode* root, int* returnSize)
 }
 
 
-```
+// ```

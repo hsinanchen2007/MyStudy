@@ -1,10 +1,10 @@
-### 方法一：堆栈
+# ### 方法一：堆栈
 
-* 遍历链表，把每个节点都push到`stack`中。
-* 再次遍历链表，同时节点依次出栈，二者进行比较。
-* 时间复杂度：O(N); 空间复杂度：O(N)
+# * 遍历链表，把每个节点都push到`stack`中。
+# * 再次遍历链表，同时节点依次出栈，二者进行比较。
+# * 时间复杂度：O(N); 空间复杂度：O(N)
 
-```python []
+# ```python []
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -27,16 +27,16 @@ class Solution:
                 return False
             node1 = node1.next
         return True
-```
+# ```
 
-### 方法二：一半堆栈
+# ### 方法二：一半堆栈
 
-* 利用快慢双指针`slow`和`fast`来遍历链表，以找到链表中间的位置。
-* 链表的前一半入栈，后一半与出栈的节点依次比较。
-* 需要考虑节点时奇数还是偶数，这取决于终止时`fast`为空还是`fast.next`为空。
-* 时间复杂度: O(N); 空间复杂度: O(N)，但比方法一节省一半的空间。
+# * 利用快慢双指针`slow`和`fast`来遍历链表，以找到链表中间的位置。
+# * 链表的前一半入栈，后一半与出栈的节点依次比较。
+# * 需要考虑节点时奇数还是偶数，这取决于终止时`fast`为空还是`fast.next`为空。
+# * 时间复杂度: O(N); 空间复杂度: O(N)，但比方法一节省一半的空间。
 
-```python []
+# ```python []
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -62,19 +62,19 @@ class Solution:
                 return False
             slow = slow.next
         return True
-```
+# ```
 
-### 方法三：反转
+# ### 方法三：反转
 
-* 算法
-    * step1: 依然利用快慢指针`slow`和`fast`，慢指针在辅助指针`temp`和`prev`的帮助下边走边反转。当快指针走到底时，链表的前半边已经是反转后的了。
-    * step2: 指针`node1`和`node2`从链表的中间分别向两边移动，并比较是否相等。
-    * step3: (optional) 最终，借助step1的`slow`和`prev`指针，把链表恢复成原来的序列。
-* 依旧要考虑奇偶，想清楚。
-* 这里设立了`flag`标注结果，而不是直接return，因为一旦先return了，就不会跑后面的恢复链表算法了。
-* 时间复杂度: O(N); 空间复杂度: O(1)。
+# * 算法
+#     * step1: 依然利用快慢指针`slow`和`fast`，慢指针在辅助指针`temp`和`prev`的帮助下边走边反转。当快指针走到底时，链表的前半边已经是反转后的了。
+#     * step2: 指针`node1`和`node2`从链表的中间分别向两边移动，并比较是否相等。
+#     * step3: (optional) 最终，借助step1的`slow`和`prev`指针，把链表恢复成原来的序列。
+# * 依旧要考虑奇偶，想清楚。
+# * 这里设立了`flag`标注结果，而不是直接return，因为一旦先return了，就不会跑后面的恢复链表算法了。
+# * 时间复杂度: O(N); 空间复杂度: O(1)。
 
-```python []
+# ```python []
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -114,14 +114,14 @@ class Solution:
             prev = temp
         return flag
 
-``` 
+# ``` 
 
-### 方法四：递归
+# ### 方法四：递归
 
-* copy官方题解。对于递归算法的底层实现，尤其是堆栈帧(stack frame)有详细的图解。
-* 时间复杂度: O(N); 空间复杂度: O(N)。
+# * copy官方题解。对于递归算法的底层实现，尤其是堆栈帧(stack frame)有详细的图解。
+# * 时间复杂度: O(N); 空间复杂度: O(N)。
 
-```python []
+# ```python []
 def isPalindrome(self, head: ListNode) -> bool:
 
     self.front_pointer = head
@@ -136,4 +136,4 @@ def isPalindrome(self, head: ListNode) -> bool:
         return True
 
     return recursively_check()
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-自认为很好理解的注释。可结合他人一起分析。
+# ### 解题思路
+# 自认为很好理解的注释。可结合他人一起分析。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minDistance(self, word1: str, word2: str) -> int:
 
@@ -27,4 +27,4 @@ class Solution:
                     exchange = dp[i - 1][j - 1] + 1
                     dp[i][j] = min(plus, minus, exchange)
         return dp[len(word1)][len(word2)]
-```
+# ```

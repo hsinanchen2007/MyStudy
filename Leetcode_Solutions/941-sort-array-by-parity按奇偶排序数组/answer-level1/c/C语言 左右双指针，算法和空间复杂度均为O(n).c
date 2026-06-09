@@ -1,5 +1,5 @@
-偶数使用左指针，奇数使用右指针
-```
+// 偶数使用左指针，奇数使用右指针
+// ```
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -26,4 +26,4 @@ int* sortArrayByParity(int* A, int ASize, int* returnSize){
 	*returnSize = ASize;
 	return rlt;
 }
-```
+// ```

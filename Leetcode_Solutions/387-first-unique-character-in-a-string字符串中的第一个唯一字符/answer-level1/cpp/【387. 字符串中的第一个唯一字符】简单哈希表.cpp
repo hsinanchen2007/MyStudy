@@ -1,6 +1,6 @@
-## 思路
-### 代码
-```c++
+// ## 思路
+// ### 代码
+// ```c++
 class Solution {
 public:
     int firstUniqChar(string s) {
@@ -16,4 +16,4 @@ public:
         return -1;
     }
 };
-```
+// ```

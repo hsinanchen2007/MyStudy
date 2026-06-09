@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-屏幕快照 2020-04-06 下午10.39.50
-![image.png](https://pic.leetcode-cn.com/0eb7a4c77d290cfce4bb5e226c806b1cf3b30a9b1de07dbb057ae0658e1835b9-image.png)
-### 代码
+# 屏幕快照 2020-04-06 下午10.39.50
+# ![image.png](https://pic.leetcode-cn.com/0eb7a4c77d290cfce4bb5e226c806b1cf3b30a9b1de07dbb057ae0658e1835b9-image.png)
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def numberOfPatterns(self, m, n):
         """
@@ -47,4 +47,4 @@ class Solution(object):
         res += dfs(1<<5, 5, 1)
 
         return res
-```
+# ```

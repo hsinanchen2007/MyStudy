@@ -1,12 +1,12 @@
-### 解题思路
-1.如果矩形A 的点在矩形B内部，则两矩形重叠，反之同理
-![顶点相交.png](https://pic.leetcode-cn.com/471cdd1ff2d7df67cc55a4edf30c0d63ef5169db85fb23a89a4e3cfe3d76b81f-%E9%A1%B6%E7%82%B9%E7%9B%B8%E4%BA%A4.png)
+// ### 解题思路
+// 1.如果矩形A 的点在矩形B内部，则两矩形重叠，反之同理
+// ![顶点相交.png](https://pic.leetcode-cn.com/471cdd1ff2d7df67cc55a4edf30c0d63ef5169db85fb23a89a4e3cfe3d76b81f-%E9%A1%B6%E7%82%B9%E7%9B%B8%E4%BA%A4.png)
 
-2.
-![顶点相交.png](https://pic.leetcode-cn.com/4cab65adf4d85f192107b559263e8b43aacf9df7b0b8825acc6cc67356e88ff3-%E9%A1%B6%E7%82%B9%E7%9B%B8%E4%BA%A4.png)
-### 代码
+// 2.
+// ![顶点相交.png](https://pic.leetcode-cn.com/4cab65adf4d85f192107b559263e8b43aacf9df7b0b8825acc6cc67356e88ff3-%E9%A1%B6%E7%82%B9%E7%9B%B8%E4%BA%A4.png)
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
  bool isRectangleOverlap(vector<int>& rec1, vector<int>& rec2)
@@ -73,4 +73,4 @@ public:
 		return false;
 	}
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 
 int calc(int left, int right, char op)
@@ -82,4 +82,4 @@ int* diffWaysToCompute(char * input, int* returnSize){
     *returnSize = GetResult(0, dataSize - 1, data, op, result);
     return result;
 }
-```
+// ```

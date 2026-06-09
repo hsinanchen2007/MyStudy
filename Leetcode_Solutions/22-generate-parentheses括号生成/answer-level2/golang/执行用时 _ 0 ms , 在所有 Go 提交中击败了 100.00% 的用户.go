@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 //  dfs
 func generateParenthesis(n int) []string {
 	var (
@@ -46,4 +46,4 @@ func isLegalParenthesis(s []byte) bool {
 
 	return level == 0
 }
-```
+// ```

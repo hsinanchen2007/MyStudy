@@ -1,9 +1,9 @@
-### 解题思路
-s1只进不出，入栈=入队；s2只出不进，出栈=出队。
+// ### 解题思路
+// s1只进不出，入栈=入队；s2只出不进，出栈=出队。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct {
     int len;
     int top1;
@@ -52,4 +52,4 @@ void cQueueFree(CQueue* obj) {
  
  * cQueueFree(obj);
 */
-```
+// ```

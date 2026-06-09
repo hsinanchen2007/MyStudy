@@ -1,4 +1,4 @@
-```python3
+# ```python3
 class Solution:
     def canThreePartsEqualSum(self, A: List[int]) -> bool:
         '''这个因为序列顺序是不发生变化的,所以求和除三，并且叠加判断就可以
@@ -31,4 +31,4 @@ class Solution:
                     return False
             
         return True
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 int cmp(const void *a, const void *b){
     return *(int*)a < *(int*)b;
 }
@@ -12,4 +12,4 @@ int hIndex(int* citations, int citationsSize){
     }
     return i;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 bool judgetree(struct TreeNode *a,struct TreeNode *b){
     if ((a == NULL&&b != NULL)||(a !=NULL &&b == NULL)) {
         return false;
@@ -16,4 +16,4 @@ bool judgetree(struct TreeNode *a,struct TreeNode *b){
 bool isSameTree(struct TreeNode* p, struct TreeNode* q){
     return judgetree(p,q);
 }
-```
+// ```

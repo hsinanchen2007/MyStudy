@@ -1,4 +1,4 @@
-主要通过使用python中set的与操作
+# 主要通过使用python中set的与操作
 class Solution:
     def twoSum(self, lst, target):
         tempSet = set() ##用集合存储list中每一个元素与target的差

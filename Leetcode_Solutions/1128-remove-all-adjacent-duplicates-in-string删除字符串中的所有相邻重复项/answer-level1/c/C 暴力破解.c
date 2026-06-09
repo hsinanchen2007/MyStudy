@@ -1,7 +1,7 @@
-没想到啥好的方法，直接暴力破解了；耗费时间比较久的一点就是
-S[length] = '\0';
-这行没有加， 导致返回的字符串老是长度不对；
-```
+// 没想到啥好的方法，直接暴力破解了；耗费时间比较久的一点就是
+// S[length] = '\0';
+// 这行没有加， 导致返回的字符串老是长度不对；
+// ```
 void updat (char *s, int *length, int idx)
 {
     int i;
@@ -39,4 +39,4 @@ char * removeDuplicates(char * S){
     S[length] = '\0';
     return S;
 }
-```
+// ```

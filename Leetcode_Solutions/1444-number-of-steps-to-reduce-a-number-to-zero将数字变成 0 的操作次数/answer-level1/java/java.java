@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int numberOfSteps (int num) {
         for(int i =0;;i++) {
@@ -12,5 +12,5 @@ class Solution {
         }
     }
 }
-```
+// ```
 

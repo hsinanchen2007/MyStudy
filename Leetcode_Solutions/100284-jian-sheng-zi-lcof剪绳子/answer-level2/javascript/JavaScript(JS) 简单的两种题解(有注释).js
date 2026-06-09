@@ -1,13 +1,13 @@
-![Snipaste_2020-04-02_17-00-31.png](https://pic.leetcode-cn.com/d1054abe443be3aba445204ea8c6e9c8b4da695e2bb49f093152516e7c478444-Snipaste_2020-04-02_17-00-31.png)
+// ![Snipaste_2020-04-02_17-00-31.png](https://pic.leetcode-cn.com/d1054abe443be3aba445204ea8c6e9c8b4da695e2bb49f093152516e7c478444-Snipaste_2020-04-02_17-00-31.png)
 
 
-### 解题思路
-方法一：记忆化解法，类似于爬楼梯的方法。
-方法二：动态规划
+// ### 解题思路
+// 方法一：记忆化解法，类似于爬楼梯的方法。
+// 方法二：动态规划
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var cuttingRope = function (n) {
     // 记忆化：哈希表存储计算结果，避免重复计算，预先放入 n = 2 和 3 的结果
     let hashMap = new Map([[2, 1], [3, 2]])
@@ -29,9 +29,9 @@ var cuttingRope = function (n) {
     }
     return recordN(n)
 };
-```
-方法二：动态规划
-```javascript
+// ```
+// 方法二：动态规划
+// ```javascript
 var cuttingRope = function (n) {
     // dp 对应绳子为 n 的最优解，dp[0] 无意义
     let dp = new Array(n + 1).fill(1);
@@ -43,5 +43,5 @@ var cuttingRope = function (n) {
     }
     return dp[n]
 };
-```
-![扫码_搜索联合传播样式-标准色版.png](https://pic.leetcode-cn.com/1343cc8fab0af3f6e274fa658b654030dbd4633c2b28a0c44819c4bbc9f31948-%E6%89%AB%E7%A0%81_%E6%90%9C%E7%B4%A2%E8%81%94%E5%90%88%E4%BC%A0%E6%92%AD%E6%A0%B7%E5%BC%8F-%E6%A0%87%E5%87%86%E8%89%B2%E7%89%88.png)
+// ```
+// ![扫码_搜索联合传播样式-标准色版.png](https://pic.leetcode-cn.com/1343cc8fab0af3f6e274fa658b654030dbd4633c2b28a0c44819c4bbc9f31948-%E6%89%AB%E7%A0%81_%E6%90%9C%E7%B4%A2%E8%81%94%E5%90%88%E4%BC%A0%E6%92%AD%E6%A0%B7%E5%BC%8F-%E6%A0%87%E5%87%86%E8%89%B2%E7%89%88.png)

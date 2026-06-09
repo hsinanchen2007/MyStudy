@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def prefixesDivBy5(self, A: List[int]) -> List[bool]:
         result = []
@@ -7,4 +7,4 @@ class Solution:
             temp = temp * 2 + num
             result.append(temp % 5 == 0)
         return result
-```
+# ```

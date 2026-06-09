@@ -1,8 +1,8 @@
-### 解题思路
-    先循环，再比较
-### 代码
+// ### 解题思路
+//     先循环，再比较
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -24,4 +24,4 @@ var searchInsert = function(nums, target) {
         }
     }
 };
-```
+// ```

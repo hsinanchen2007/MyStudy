@@ -1,4 +1,4 @@
-```
+// ```
 impl Solution {
     pub fn length_of_longest_substring(s: String) -> i32 {
         if(&s == ""){
@@ -32,5 +32,5 @@ impl Solution {
         result
     }
 }
-```
-![image.png](https://pic.leetcode-cn.com/c522ca39e5a3122bfdb19776972364f5621b1eeb6634293c5f4b0f323422253f-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/c522ca39e5a3122bfdb19776972364f5621b1eeb6634293c5f4b0f323422253f-image.png)

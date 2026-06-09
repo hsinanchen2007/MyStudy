@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
-首先遍历链表求出长度len，
-根据len和n得出要删除的下标index,
-当链表移动到下标index的时候进行删除，
-需要注意的情况只有当len等于n的情况，这种情况下直接更改链头就好
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 首先遍历链表求出长度len，
+// 根据len和n得出要删除的下标index,
+// 当链表移动到下标index的时候进行删除，
+// 需要注意的情况只有当len等于n的情况，这种情况下直接更改链头就好
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -48,4 +48,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

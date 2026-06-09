@@ -1,9 +1,9 @@
-### 解题思路
-借鉴leetcode题解，看了很多题解但是目前还是没有太清楚限制范围的确定，这样通过了就先放着，待思考
+// ### 解题思路
+// 借鉴leetcode题解，看了很多题解但是目前还是没有太清楚限制范围的确定，这样通过了就先放着，待思考
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int reverse(int x) {
        int ans = 0,pop=0;
@@ -19,4 +19,4 @@ class Solution {
     }
 
 }
-```
+// ```

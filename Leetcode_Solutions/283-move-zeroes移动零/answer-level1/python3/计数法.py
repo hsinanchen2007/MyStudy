@@ -1,8 +1,8 @@
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from typing import List
 class Solution:
     def moveZeroes(self, nums: List[int]) -> None:
@@ -15,4 +15,4 @@ class Solution:
             nums[index]=0
             index=index+1
       
-```
+# ```

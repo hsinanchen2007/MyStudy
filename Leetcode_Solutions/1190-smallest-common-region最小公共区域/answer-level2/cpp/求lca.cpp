@@ -1,5 +1,5 @@
-先把x,y爬到同一层, 再x,y一起向上爬
-```
+// 先把x,y爬到同一层, 再x,y一起向上爬
+// ```
 typedef vector<vector<string>> vvs;
 #define MAXN ((int)1e5+7) //之前只开到了1e4+7  wa到自闭
 int pre[MAXN],/* pre[]存前驱节点 */ cnt = 0; /* cnt统计节点个数 */
@@ -36,4 +36,4 @@ public:
         return *(str[ans]);
     }
 };
-```
+// ```

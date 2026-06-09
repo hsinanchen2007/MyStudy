@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public String getKey(String str){
         char[] chars = new char[str.length()];
@@ -38,4 +38,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

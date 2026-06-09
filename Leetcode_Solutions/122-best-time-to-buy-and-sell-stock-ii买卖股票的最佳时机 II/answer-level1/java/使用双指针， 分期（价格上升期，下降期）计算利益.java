@@ -1,19 +1,19 @@
-### 解题思路
-使用双指针：
-slow_pointer : 总是指向最近发生峰值的谷底。
-fast_pointer : 总是指向最先的值。
-价格上升期： fast_pointer (prices[i]) 大于等于 prices[i-1]
-    holding = true; //当前或前一点已经买入股票
-到达峰值： fast_pointer (prices[i]) 小于 prices[i-1] 
-    holding：
-        利益结算
-    !holding:
-        价格一直下跌中，不买入
-    slow_pointer 赋值当前最新低点
+// ### 解题思路
+// 使用双指针：
+// slow_pointer : 总是指向最近发生峰值的谷底。
+// fast_pointer : 总是指向最先的值。
+// 价格上升期： fast_pointer (prices[i]) 大于等于 prices[i-1]
+//     holding = true; //当前或前一点已经买入股票
+// 到达峰值： fast_pointer (prices[i]) 小于 prices[i-1] 
+//     holding：
+//         利益结算
+//     !holding:
+//         价格一直下跌中，不买入
+//     slow_pointer 赋值当前最新低点
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public static  int maxProfit(int[] prices) {
         if(prices.length<=0){
@@ -40,4 +40,4 @@ class Solution {
         return profit;
     }
 }
-```
+// ```

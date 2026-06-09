@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int sumNums(int n) {
@@ -9,4 +9,4 @@ public:
         return ( sizeof(a) >> 1 );
     }
 };
-```
+// ```

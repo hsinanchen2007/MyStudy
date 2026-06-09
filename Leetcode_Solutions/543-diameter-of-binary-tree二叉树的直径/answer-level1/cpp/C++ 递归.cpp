@@ -1,14 +1,14 @@
-### 解题思路
-类似题目：124. 二叉树中的最大路径和
-int maxPath(TreeNode* root)返回以root为端点的最大路径（不包括穿过root节点的路径）
-每次计算一个节点的maxPath后，也计算一下cross穿过root节点的路径长度，并更新maxLen
+// ### 解题思路
+// 类似题目：124. 二叉树中的最大路径和
+// int maxPath(TreeNode* root)返回以root为端点的最大路径（不包括穿过root节点的路径）
+// 每次计算一个节点的maxPath后，也计算一下cross穿过root节点的路径长度，并更新maxLen
 
-![image.png](https://pic.leetcode-cn.com/87572a3e175229003191ec64e9c5c720ce3c92ca513a36423ccd73a24a283de9-image.png)
+// ![image.png](https://pic.leetcode-cn.com/87572a3e175229003191ec64e9c5c720ce3c92ca513a36423ccd73a24a283de9-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -43,4 +43,4 @@ public:
         return maxLen;
     }
 };
-```
+// ```

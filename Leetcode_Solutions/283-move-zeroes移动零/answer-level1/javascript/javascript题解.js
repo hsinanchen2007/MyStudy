@@ -1,13 +1,13 @@
-[283.移动零](https://leetcode-cn.com/problems/move-zeroes/submissions/)
+// [283.移动零](https://leetcode-cn.com/problems/move-zeroes/submissions/)
 
-[力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md)   
+// [力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md)   
 
 
-## 方法一
+// ## 方法一
 
-left用于记录第一个可以是零的位置。  
+// left用于记录第一个可以是零的位置。  
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {void} Do not return anything, modify nums in-place instead.
@@ -23,14 +23,14 @@ var moveZeroes = function(nums) {
     for (; left < nums.length; left++) nums[left] = 0;
     return nums;
 };
-```
+// ```
 
 
-## 方法二  
+// ## 方法二  
 
-对方法一的优化。  
+// 对方法一的优化。  
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {void} Do not return anything, modify nums in-place instead.
@@ -45,4 +45,4 @@ var moveZeroes = function(nums) {
     }
     return nums;
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
@@ -24,4 +24,4 @@ public:
         delete p;//删除头结点
         return head;
        }
-```
+// ```

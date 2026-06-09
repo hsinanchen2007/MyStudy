@@ -1,8 +1,8 @@
-# 思路
-通过s.split(" ") 将s拆分为数组（注意在迭代中跳过“”）
+// # 思路
+// 通过s.split(" ") 将s拆分为数组（注意在迭代中跳过“”）
 
-# 代码
-```java
+// # 代码
+// ```java
     public String reverseWords(String s) {
         String[] ss = s.split(" ");
         int n = ss.length;
@@ -14,4 +14,4 @@
         if(ans.length() > 0) ans.deleteCharAt(ans.length() - 1);
         return ans.toString();
     }
-```
+// ```

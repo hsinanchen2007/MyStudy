@@ -1,5 +1,5 @@
-参考了楼上大佬的java滑动窗口, 写了一个python版本, 手动模拟一遍恍然大悟. 精妙!
-```
+# 参考了楼上大佬的java滑动窗口, 写了一个python版本, 手动模拟一遍恍然大悟. 精妙!
+# ```
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         Set = set()
@@ -13,4 +13,4 @@ class Solution:
             longest = max(right-left,longest)
         return longest
 
-```
+# ```

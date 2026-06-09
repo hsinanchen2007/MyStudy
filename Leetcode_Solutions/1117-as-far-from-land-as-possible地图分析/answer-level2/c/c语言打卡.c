@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MIN(a, b) ((a) < (b) ? (a) : (b))
 
 int maxDistance(int** grid, int gridSize, int* gridColSize){
@@ -46,4 +46,4 @@ int maxDistance(int** grid, int gridSize, int* gridColSize){
         return -1;
 
 }
-```
+// ```

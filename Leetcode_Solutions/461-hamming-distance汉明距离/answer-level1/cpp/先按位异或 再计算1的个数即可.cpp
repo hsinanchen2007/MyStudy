@@ -1,9 +1,9 @@
-### 解题思路
-如题
+// ### 解题思路
+// 如题
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int hammingDistance(int x, int y)
@@ -18,4 +18,4 @@ public:
         return cnt;
     }
 };
-```
+// ```

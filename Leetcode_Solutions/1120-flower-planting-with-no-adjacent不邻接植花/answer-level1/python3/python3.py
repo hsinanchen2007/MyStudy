@@ -1,5 +1,5 @@
-用的dfs方法，如果一个点没有着色的话，根据其邻居已经作色的情况，选择改点的颜色
-```
+# 用的dfs方法，如果一个点没有着色的话，根据其邻居已经作色的情况，选择改点的颜色
+# ```
 class Solution:
     def gardenNoAdj(self, N: int, paths: List[List[int]]) -> List[int]:
         graph = {}
@@ -40,4 +40,4 @@ class Solution:
                     
 
 
-```
+# ```

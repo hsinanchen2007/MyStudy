@@ -1,22 +1,22 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-	思路：
-		核心，以'['作为：递归入口
-			  以']'作为：递归出口
-				number,character用另外的2个变量：每次递归中增量
+# 	思路：
+# 		核心，以'['作为：递归入口
+# 			  以']'作为：递归出口
+# 				number,character用另外的2个变量：每次递归中增量
 
-	核心算法缩略结构：
-		dfs(i):
-			if xxx:
-				dfs(i+1) # 核心，以'['作为递归入口
+# 	核心算法缩略结构：
+# 		dfs(i):
+# 			if xxx:
+# 				dfs(i+1) # 核心，以'['作为递归入口
 		
 
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
 	def decodeString(self,s:str) -> str:
 
@@ -44,4 +44,4 @@ class Solution:
 			return res
 
 		return dfs(s,0)
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-若找到目标，则停止处理其他节点
+// ### 解题思路
+// 若找到目标，则停止处理其他节点
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 using VT = System.ValueTuple<int, int, double>;
 
 class WaNode{
@@ -72,4 +72,4 @@ public class Solution {
         return wa.FrogPosition(n, edges, t, target);
     }
 }
-```
+// ```

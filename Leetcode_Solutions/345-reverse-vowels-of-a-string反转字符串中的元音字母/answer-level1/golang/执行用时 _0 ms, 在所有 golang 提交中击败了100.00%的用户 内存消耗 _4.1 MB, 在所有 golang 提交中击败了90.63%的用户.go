@@ -1,9 +1,9 @@
-### 解题思路
-因为字符串是常量，所有先转换成byte类型
-使用两个指针分别从头，尾找到元音位置，并交换位置。
-### 代码
+// ### 解题思路
+// 因为字符串是常量，所有先转换成byte类型
+// 使用两个指针分别从头，尾找到元音位置，并交换位置。
+// ### 代码
 
-```golang
+// ```golang
 const A = byte('A')
 const a = byte('a')
 const E = byte('E')
@@ -53,4 +53,4 @@ func reverseVowels(s string) string {
 	return string(v)
 }
 
-```
+// ```

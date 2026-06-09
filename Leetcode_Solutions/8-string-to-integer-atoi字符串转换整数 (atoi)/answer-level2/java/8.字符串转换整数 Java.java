@@ -1,13 +1,13 @@
-### 解题思路
-从左到右加数字就可以了。
-- 可以先$trim()$一下左右空格
-- 开头可能有$+$号
-- 数字过大时可以在循环内判断直接返回
+// ### 解题思路
+// 从左到右加数字就可以了。
+// - 可以先$trim()$一下左右空格
+// - 开头可能有$+$号
+// - 数字过大时可以在循环内判断直接返回
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int myAtoi(String str) {
         if (str == null || str.trim().equals("")) return 0;
@@ -28,4 +28,4 @@ class Solution {
         return (int)ans;
     }
 }
-```
+// ```

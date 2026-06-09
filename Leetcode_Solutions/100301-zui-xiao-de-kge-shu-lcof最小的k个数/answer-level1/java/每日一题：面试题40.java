@@ -1,8 +1,8 @@
-### 解题思路
-根据题目特点，arr中均为整数和"0 <= arr[i] <= 10000"可采用哈希表排序
-### 代码
+// ### 解题思路
+// 根据题目特点，arr中均为整数和"0 <= arr[i] <= 10000"可采用哈希表排序
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] getLeastNumbers(int[] arr, int k) {
         int N = arr.length;
@@ -23,4 +23,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

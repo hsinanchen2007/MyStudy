@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def judgeSquareSum(self, c: int) -> bool:
         #两个指针一头一尾  l*l+r*r和c比较
@@ -19,4 +19,4 @@ class Solution:
             else:
                 r-=1
         return False
-```
+# ```

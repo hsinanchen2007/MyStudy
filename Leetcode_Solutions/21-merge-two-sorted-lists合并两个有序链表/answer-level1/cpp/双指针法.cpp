@@ -1,9 +1,9 @@
-### 解题思路
-启用一个虚表头，两边一起遍历即可，最后把多的一个节点删掉。
+// ### 解题思路
+// 启用一个虚表头，两边一起遍历即可，最后把多的一个节点删掉。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -46,4 +46,4 @@ public:
         return realhead;
     }
 };
-```
+// ```

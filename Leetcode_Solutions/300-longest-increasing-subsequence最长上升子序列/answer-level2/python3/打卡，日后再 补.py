@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Dynamic programming.
 class Solution:
     def lengthOfLIS(self, nums: List[int]) -> int:
@@ -15,4 +15,4 @@ class Solution:
                     dp[i] = max(dp[i], dp[j] + 1)
         return max(dp)
 
-```
+# ```

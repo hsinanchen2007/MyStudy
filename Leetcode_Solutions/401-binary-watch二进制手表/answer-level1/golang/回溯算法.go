@@ -1,8 +1,8 @@
-### 解题思路
-  * 按照回溯法的模板进行解题。
-  * 这里用字符串不是很便利，用位运算比较便利
+// ### 解题思路
+//   * 按照回溯法的模板进行解题。
+//   * 这里用字符串不是很便利，用位运算比较便利
 
-```alg
+// ```alg
 func tree(选择,路径){
    结束条件
    遍历分叉
@@ -12,11 +12,11 @@ func tree(选择,路径){
      递归节点
      遍历节点后干啥
 }
-```
+// ```
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func readBinaryWatch(num int) []string {
   if num == 0{return []string{"0:00"}}
   res := new([]string)
@@ -69,4 +69,4 @@ func oneCnt(trace []byte)int{
   }
   return cnt
 }
-```
+// ```

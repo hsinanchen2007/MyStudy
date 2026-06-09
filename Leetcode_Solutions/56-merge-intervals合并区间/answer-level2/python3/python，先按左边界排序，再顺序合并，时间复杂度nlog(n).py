@@ -1,5 +1,5 @@
-注释都在代码里了哈，请参阅
-```
+# 注释都在代码里了哈，请参阅
+# ```
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
         '''
@@ -31,4 +31,4 @@ class Solution:
         #补充最后一个
         ans.append(intervals[-1])
         return ans
-```
+# ```

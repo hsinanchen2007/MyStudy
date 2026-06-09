@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def numDistinct(self, s: str, t: str) -> int:
         
@@ -16,4 +16,4 @@ class Solution:
                 dp[j] = left if s[j] == t[i] else 0
                 left += pre
         return sum(dp)
-```
+# ```

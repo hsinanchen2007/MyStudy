@@ -1,6 +1,6 @@
-# 正确方法一：
-//双指针查找法 O(nlogn)（对数阶）
-```
+// # 正确方法一：
+// //双指针查找法 O(nlogn)（对数阶）
+// ```
 var minSubArrayLen = function(s, nums) {
     var arr = [];//装载临时数组
     var minLen = 0; //最小的长度 初始为0
@@ -21,16 +21,16 @@ var minSubArrayLen = function(s, nums) {
     }
     return minLen;
 };
-```
+// ```
 
 
 
 
-# 以下还有两个错误方法的记载 Mark下分享下
+// # 以下还有两个错误方法的记载 Mark下分享下
 
-# 错误方法一：
-没读好题，以为是找到两者之和大于target最短的长度； **看漏了连续这个字眼**！！！
-```
+// # 错误方法一：
+// 没读好题，以为是找到两者之和大于target最短的长度； **看漏了连续这个字眼**！！！
+// ```
 var minSubArrayLen = function(s, nums) {
     nums.sort(function(a,b){return b-a});
     var arr = [];
@@ -46,9 +46,9 @@ var minSubArrayLen = function(s, nums) {
 };
 minSubArrayLen(213,[12,28,83,4,25,26,25,2,25,25,25,12]);
 //没看好 题目 还一直在蒙圈 明明我输出是7； 但是答案一直是8 迷糊了很久
-```
-# 半正确方法二：
-```
+// ```
+// # 半正确方法二：
+// ```
 // 可以运行 但是 时间复杂度为 T(n) = O(n2) ；  性能低 数量过大时不行
 var minSubArrayLen = function(s, nums) {
     var arr = [];//装载临时数组
@@ -68,7 +68,7 @@ var minSubArrayLen = function(s, nums) {
     return minLen;
 };
 //力扣的验证是丧心病狂的 一大堆数据跑到我浏览器都卡住了😿
-```
+// ```
 
 
 

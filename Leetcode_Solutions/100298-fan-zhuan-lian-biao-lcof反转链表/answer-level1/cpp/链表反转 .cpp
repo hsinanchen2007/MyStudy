@@ -1,4 +1,4 @@
-```C++
+// ```C++
 class Solution {
 public:
     //以下是迭代版本
@@ -40,4 +40,4 @@ public:
         return new_head;
     }
 };
-```
+// ```

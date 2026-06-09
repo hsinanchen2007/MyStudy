@@ -1,5 +1,5 @@
-居然说我空间复杂度超过了百分百的js提交。。。感觉不真实
-```
+// 居然说我空间复杂度超过了百分百的js提交。。。感觉不真实
+// ```
 var majorityElement = function(nums) {
     if(nums.length==1) return nums[0];
     let map=new Map();
@@ -12,4 +12,4 @@ var majorityElement = function(nums) {
     }
     return -1;
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
   def updateDirection(direction: Int, command: Int): Int = {
     if (command == -1) (direction + 1) % 4 else (direction + 3) % 4
@@ -49,6 +49,6 @@ object Solution {
     maxDistance
   }
 }
-```
+// ```
 
-注意最后是求取最大的距离， 而非最后位置的距离。
+// 注意最后是求取最大的距离， 而非最后位置的距离。

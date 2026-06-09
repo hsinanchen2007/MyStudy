@@ -1,8 +1,8 @@
-刚刚入门C的小白，目前只会用C中最基础的语法结构做题。
+// 刚刚入门C的小白，目前只会用C中最基础的语法结构做题。
 
 
 
-```c
+// ```c
 int romanToInt(char * s){
     int i=0,count=0;
     while(s[i]!='\0')
@@ -58,4 +58,4 @@ int romanToInt(char * s){
     }
     return count;
 }
-```
+// ```

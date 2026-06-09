@@ -1,5 +1,5 @@
 
-```
+// ```
 class Solution {
 public:
     int search(vector<int>& nums, int target) {
@@ -37,4 +37,4 @@ public:
         return start<nums.size()?(nums[start]==target?start:-1):-1;
     }
 };
-```
+// ```

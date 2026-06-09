@@ -1,14 +1,14 @@
-### 解题思路
-s[0, len]，标识原始字符串s；s[i, len]标识以s[i]开头的子串。
-s[0, len]可以由wordDict拆分， 其子问题是s[i, len]可以被wordDict拆分。
-每一步的处理是在wordDict中找出当前s[i,len]可以从头匹配的字符串s[i,j-1]，然后递归到子问题s[j,len]中处理。
-递归终点是s[len,len]
+// ### 解题思路
+// s[0, len]，标识原始字符串s；s[i, len]标识以s[i]开头的子串。
+// s[0, len]可以由wordDict拆分， 其子问题是s[i, len]可以被wordDict拆分。
+// 每一步的处理是在wordDict中找出当前s[i,len]可以从头匹配的字符串s[i,j-1]，然后递归到子问题s[j,len]中处理。
+// 递归终点是s[len,len]
 
-这里使用了一个dp数组来记录当前s[i,len]是否已经计算过
+// 这里使用了一个dp数组来记录当前s[i,len]是否已经计算过
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool wordBreak(string s, vector<string>& wordDict) {
@@ -37,4 +37,4 @@ public:
         return false;
     }
 };
-```
+// ```

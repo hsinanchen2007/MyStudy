@@ -1,8 +1,8 @@
-数据取值（0-100）范围小用桶排序效率最高。时间复杂度O(n),空间复杂度O(n)。
-执行用时 :8 ms, 在所有 C 提交中击败了100.00%的用户
-内存消耗 :8.1 MB, 在所有 C 提交中击败了100.00%的用户
+// 数据取值（0-100）范围小用桶排序效率最高。时间复杂度O(n),空间复杂度O(n)。
+// 执行用时 :8 ms, 在所有 C 提交中击败了100.00%的用户
+// 内存消耗 :8.1 MB, 在所有 C 提交中击败了100.00%的用户
 
-```c
+// ```c
 //Note: The returned array must be malloced, assume caller calls free().
 int *smallerNumbersThanCurrent(int *nums, int numsSize, int *returnSize)
 {
@@ -31,6 +31,6 @@ int *smallerNumbersThanCurrent(int *nums, int numsSize, int *returnSize)
 
     return ans;//返回答案数组
 }
-```
+// ```
 
-总结:c语言不熟，一个半小时才写出来，returnSize不知道是干什么的，搜了半天才弄懂，int返回值也不知道怎么弄也弄了半天，这是第二次参加周赛了，一题都没答对，下次继续努力，每周日10：30准时参加。果然还是要多写代码，看完《c程序设计语言》还以为自己很懂了QAQ，才发现自己什么都不会。
+// 总结:c语言不熟，一个半小时才写出来，returnSize不知道是干什么的，搜了半天才弄懂，int返回值也不知道怎么弄也弄了半天，这是第二次参加周赛了，一题都没答对，下次继续努力，每周日10：30准时参加。果然还是要多写代码，看完《c程序设计语言》还以为自己很懂了QAQ，才发现自己什么都不会。

@@ -1,18 +1,18 @@
-# 全排列
+// # 全排列
 
-> 给定一个没有重复数字的序列，返回其所有可能的全排列。
+// > 给定一个没有重复数字的序列，返回其所有可能的全排列。
 
-> 示例:
-> 输入: [1,2,3] 
-> 输出: [   [1,2,3],   [1,3,2],   [2,1,3],   [2,3,1],   [3,1,2],   [3,2,1] ]
-> 来源：力扣（LeetCode） 链接：https://leetcode-cn.com/problems/permutations
+// > 示例:
+// > 输入: [1,2,3] 
+// > 输出: [   [1,2,3],   [1,3,2],   [2,1,3],   [2,3,1],   [3,1,2],   [3,2,1] ]
+// > 来源：力扣（LeetCode） 链接：https://leetcode-cn.com/problems/permutations
 
-思路分析：
+// 思路分析：
 
-1. 用相同大小的数组记录当前数字是否使用
-2. 每次从数组中选取一个数，若未使用则加入 list
-3. 当 list 长度与数组一致则加入 lists
-```java
+// 1. 用相同大小的数组记录当前数字是否使用
+// 2. 每次从数组中选取一个数，若未使用则加入 list
+// 3. 当 list 长度与数组一致则加入 lists
+// ```java
 ArrayList<List<Integer>> lists = new ArrayList<>(); // 存储返回结果
 
     public List<List<Integer>> permute(int[] nums) {
@@ -40,12 +40,12 @@ ArrayList<List<Integer>> lists = new ArrayList<>(); // 存储返回结果
         }
 
     }
-```
+// ```
 
-参考[官方解答](https://leetcode-cn.com/problems/permutations/solution/quan-pai-lie-by-leetcode/)，还有一种可以降低时间复杂度的思路，将数组中不同数的组合看成位置的交换。
+// 参考[官方解答](https://leetcode-cn.com/problems/permutations/solution/quan-pai-lie-by-leetcode/)，还有一种可以降低时间复杂度的思路，将数组中不同数的组合看成位置的交换。
 
 
-```java
+// ```java
 List<List<Integer>> lists = new ArrayList<>();
 
     public List<List<Integer>> permute(int[] nums) {
@@ -78,4 +78,4 @@ List<List<Integer>> lists = new ArrayList<>();
         nums.set(index1, nums.get(index2));
         nums.set(index2, temp);
     }
-```
+// ```

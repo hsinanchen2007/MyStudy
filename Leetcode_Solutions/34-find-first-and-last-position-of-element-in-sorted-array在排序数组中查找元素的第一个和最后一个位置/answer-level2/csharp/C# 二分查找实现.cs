@@ -1,5 +1,5 @@
-C# 二分查找实现 
-```
+// C# 二分查找实现 
+// ```
 /// <summary>
 /// 二分查找法
 /// </summary>
@@ -38,4 +38,4 @@ public int[] SearchRange(int[] nums, int target)
     }
     return new int[] { -1, -1 };
 }
-```
+// ```

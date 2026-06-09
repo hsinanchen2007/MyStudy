@@ -1,6 +1,6 @@
-**回溯递归**
+// **回溯递归**
 
-```
+// ```
 void trackback(int* nums, int numsSize, int** res, int index, int** colSizes, int colnum, int* path, int* pos, int* num){
     memcpy(res[*num], path, numsSize*sizeof(int));
     colSizes[0][(*num)++] = colnum++;
@@ -27,5 +27,5 @@ int** subsets(int* nums, int numsSize, int* returnSize, int** returnColumnSizes)
     free(path);
     return res;
 }
-```
-![image.png](https://pic.leetcode-cn.com/575ce0943853b0971c9f67a93817531dd5aa15e9a5a762a6ee5b6e0e02a0bc65-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/575ce0943853b0971c9f67a93817531dd5aa15e9a5a762a6ee5b6e0e02a0bc65-image.png)

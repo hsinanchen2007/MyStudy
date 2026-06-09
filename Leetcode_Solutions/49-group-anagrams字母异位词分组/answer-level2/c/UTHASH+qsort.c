@@ -1,9 +1,9 @@
-### 解题思路
-UTHASH qsort
+// ### 解题思路
+// UTHASH qsort
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct {
 	char *string;
 	int count;
@@ -67,4 +67,4 @@ char *** groupAnagrams(char ** strs, int strsSize, int* returnSize, int** return
 	*returnSize = count;
 	return ret;
 }
-```
+// ```

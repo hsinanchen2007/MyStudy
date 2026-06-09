@@ -1,8 +1,8 @@
-### 解题思路
- 笔者是个小白  所以用了暴力来解，时间复杂度很高。  不喜勿喷
-### 代码
+// ### 解题思路
+//  笔者是个小白  所以用了暴力来解，时间复杂度很高。  不喜勿喷
+// ### 代码
 
-```java
+// ```java
 class Solution {
       //这个方法是用来判断是不是回文子串
      public  static  boolean f(String str){
@@ -27,4 +27,4 @@ class Solution {
         return  cout;
     }
 }
-```
+// ```

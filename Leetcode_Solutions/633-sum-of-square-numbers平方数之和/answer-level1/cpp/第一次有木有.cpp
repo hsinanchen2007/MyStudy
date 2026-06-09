@@ -1,7 +1,7 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
-```cpp
+// ### 代码
+// ```cpp
 class Solution {
 public:
 	int mysqrt(int x){//返回下界平方根
@@ -39,4 +39,4 @@ public:
 		return 0;
     }
 };
-```
+// ```

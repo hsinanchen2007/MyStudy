@@ -1,21 +1,21 @@
-## 思路：
+# ## 思路：
 
-### 思路 1：
+# ### 思路 1：
 
-Python 特性，取每一个单词的同一位置的字母，看是否相同。
+# Python 特性，取每一个单词的同一位置的字母，看是否相同。
 
-### 思路 2：
+# ### 思路 2：
 
-取一个单词 `s`，和后面单词比较，看 `s` 与每个单词相同的最长前缀是多少！遍历所有单词
+# 取一个单词 `s`，和后面单词比较，看 `s` 与每个单词相同的最长前缀是多少！遍历所有单词
 
-### 思路 3：
+# ### 思路 3：
 
-按字典排序数组，比较第一个，和最后一个单词，有多少前缀相同。
-## 代码:
+# 按字典排序数组，比较第一个，和最后一个单词，有多少前缀相同。
+# ## 代码:
 
-### 思路一：
+# ### 思路一：
 
-```Python
+# ```Python
 class Solution:
     def longestCommonPrefix(self, strs):
         """
@@ -30,11 +30,11 @@ class Solution:
             else:
                 break
         return res
-```
+# ```
 
-### 思路二：
+# ### 思路二：
 
-```Python []
+# ```Python []
 class Solution:
     def longestCommonPrefix(self, s: List[str]) -> str:
         if not s:
@@ -46,8 +46,8 @@ class Solution:
                 res = res[0:len(res)-1]
             i += 1
         return res
-```
-```Java []
+# ```
+# ```Java []
 class Solution {
     public String longestCommonPrefix(String[] strs) {
         if (strs == null || strs.length == 0) return "";
@@ -63,11 +63,11 @@ class Solution {
         
     }
 }
-```
+# ```
 
-### 思路三：
+# ### 思路三：
 
-```Python []
+# ```Python []
 class Solution:
     def longestCommonPrefix(self, s: List[str]) -> str:
         if not s:
@@ -83,8 +83,8 @@ class Solution:
             else:
                 break
         return res
-```
-```Java []
+# ```
+# ```Java []
 class Solution {
     public String longestCommonPrefix(String[] strs) {
         if (strs == null || strs.length == 0) return "";
@@ -105,5 +105,5 @@ class Solution {
         
     }
 }
-```
+# ```
 

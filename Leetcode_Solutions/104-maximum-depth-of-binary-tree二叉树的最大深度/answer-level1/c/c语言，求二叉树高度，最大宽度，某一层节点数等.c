@@ -1,9 +1,9 @@
-### 解题思路
-1. 方法一：递归。    
-2. 方法二：利用队列做层次遍历，每遍历完一层高度加一，除了求树的高度以外，此方法思想还可以用于求树的最大宽度，树的第几层有几个节点等。
-### 代码
-方法一
-```
+// ### 解题思路
+// 1. 方法一：递归。    
+// 2. 方法二：利用队列做层次遍历，每遍历完一层高度加一，除了求树的高度以外，此方法思想还可以用于求树的最大宽度，树的第几层有几个节点等。
+// ### 代码
+// 方法一
+// ```
 int maxDepth(struct TreeNode* root){
     if(root){
         int leftDepth = maxDepth(root->left);
@@ -12,10 +12,10 @@ int maxDepth(struct TreeNode* root){
     }
     return 0;
 }
-```
+// ```
 
-方法二
-```c
+// 方法二
+// ```c
 int maxDepth(struct TreeNode* root){
     struct TreeNode* a[9999];
     if(root){
@@ -39,4 +39,4 @@ int maxDepth(struct TreeNode* root){
     }
     return result;
 }
-```
+// ```

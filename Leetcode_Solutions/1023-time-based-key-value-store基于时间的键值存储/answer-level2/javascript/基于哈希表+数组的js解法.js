@@ -1,7 +1,7 @@
-既然是键值对存储那么肯定要用到哈希表。不用额外的空间存储timestamp，利用数组下标来辅助判断就行。
-哈希表中存储的是value的数组。 例：hashmap = {'foo': ['bar1', 'bar2']}
-当需要拿出value的时候，只要以timestamp为下标从数组中取值即可，如果取不到就继续往前取。
-```
+// 既然是键值对存储那么肯定要用到哈希表。不用额外的空间存储timestamp，利用数组下标来辅助判断就行。
+// 哈希表中存储的是value的数组。 例：hashmap = {'foo': ['bar1', 'bar2']}
+// 当需要拿出value的时候，只要以timestamp为下标从数组中取值即可，如果取不到就继续往前取。
+// ```
 /**
  * Initialize your data structure here.
  */
@@ -48,4 +48,4 @@ TimeMap.prototype.get = function (key, timestamp) {
         return "";
     }
 };
-```
+// ```

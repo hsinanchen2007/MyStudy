@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-（1）申请一个数组arr初始化值全为1，遍历matrix并将数组中0元素的位置在arr上相应的位置上置0,；
-（2）遍历arr，将arr中位置为0且相应的matrix行和列中的元素置为0即可。
+// （1）申请一个数组arr初始化值全为1，遍历matrix并将数组中0元素的位置在arr上相应的位置上置0,；
+// （2）遍历arr，将arr中位置为0且相应的matrix行和列中的元素置为0即可。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void setZeroes(int** matrix, int matrixSize, int* matrixColSize){
     int row, col, i, j, m;
     int **arr = NULL;
@@ -49,4 +49,4 @@ void setZeroes(int** matrix, int matrixSize, int* matrixColSize){
     }
     free(arr);
 }
-```
+// ```

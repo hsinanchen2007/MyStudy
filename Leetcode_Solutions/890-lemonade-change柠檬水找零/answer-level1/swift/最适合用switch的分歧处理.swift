@@ -1,9 +1,9 @@
-### 解题思路
-不是任天堂的那个switch..
+// ### 解题思路
+// 不是任天堂的那个switch..
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func lemonadeChange(_ bills: [Int]) -> Bool {
         
@@ -49,4 +49,4 @@ class Solution {
         return true
     }
 }
-```
+// ```

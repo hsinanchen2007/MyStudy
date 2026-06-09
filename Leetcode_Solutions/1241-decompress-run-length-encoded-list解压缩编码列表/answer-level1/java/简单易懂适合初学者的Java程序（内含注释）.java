@@ -1,5 +1,5 @@
-直接上代码了：
-```
+// 直接上代码了：
+// ```
 class Solution {
     public int[] decompressRLElist(int[] nums) {
         int[] a = new int[nums.length/2];//a数组获取nums[奇数]
@@ -30,5 +30,5 @@ class Solution {
     }
 }
 
-```
+// ```
 

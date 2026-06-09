@@ -1,6 +1,6 @@
-执行用时 : 293 ms, 击败了24.05% 的用户.
-内存消耗 : 69.5 MB, 击败了64.52% 的用户.
-```
+// 执行用时 : 293 ms, 击败了24.05% 的用户.
+// 内存消耗 : 69.5 MB, 击败了64.52% 的用户.
+// ```
 class Solution {
     Map<Integer,List<Integer>> map = new HashMap<>();
     public Solution(int[] nums) {
@@ -21,4 +21,4 @@ class Solution {
         return list.get(index);
     }
 }
-```
+// ```

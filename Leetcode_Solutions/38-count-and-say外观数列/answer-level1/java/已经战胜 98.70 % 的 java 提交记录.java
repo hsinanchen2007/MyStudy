@@ -1,5 +1,5 @@
-新增了一个Search函数，用来寻找一个数出现了几次，然后将这些数给拼接到String上
-```
+// 新增了一个Search函数，用来寻找一个数出现了几次，然后将这些数给拼接到String上
+// ```
 public String countAndSay(int n) {
 
         if (n == 1){
@@ -48,6 +48,6 @@ public String countAndSay(int n) {
 
     }
 
-```
+// ```
 
 

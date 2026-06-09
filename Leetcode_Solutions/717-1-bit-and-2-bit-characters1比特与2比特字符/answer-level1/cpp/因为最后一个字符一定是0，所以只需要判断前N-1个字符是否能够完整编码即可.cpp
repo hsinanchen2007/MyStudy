@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool isOneBitCharacter(vector<int>& bits) {
@@ -13,4 +13,4 @@ public:
         return idx == len-1;
     }
 };
-```
+// ```

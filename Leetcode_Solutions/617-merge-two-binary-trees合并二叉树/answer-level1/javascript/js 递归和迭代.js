@@ -1,5 +1,5 @@
 
-```
+// ```
 function TreeNode(val) {
     this.val = val;
     this.left = this.right = null;
@@ -36,5 +36,5 @@ var mergeTrees = function(t1, t2) {
   }
   return t1
 };
-```
+// ```
 

@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/35e3706be7b16d4f5066c270a7a49ba4003ff6ebfb97180d9f7ccd42c31f1ac1-image.png)
+# ![image.png](https://pic.leetcode-cn.com/35e3706be7b16d4f5066c270a7a49ba4003ff6ebfb97180d9f7ccd42c31f1ac1-image.png)
 
 
-```
+# ```
 '''
 同名交易放在一个列表中，然后按照时间戳进行排序，在排序列表中
 查找矛盾
@@ -58,4 +58,4 @@ class Solution:
                     ans.append(f'{name},{l[i][0]},{l[i][1]},{l[i][2]}')
 
         return ans
-```
+# ```

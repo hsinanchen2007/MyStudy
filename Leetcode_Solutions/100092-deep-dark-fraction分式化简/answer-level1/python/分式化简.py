@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def fraction(self, cont: List[int]) -> List[int]:
         n = [0,1]
@@ -27,4 +27,4 @@ class Solution:
         n[0] = n[1]
         n[1] = tem
         return n
-```
+# ```

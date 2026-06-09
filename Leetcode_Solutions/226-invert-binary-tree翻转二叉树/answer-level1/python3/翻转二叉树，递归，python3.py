@@ -1,9 +1,9 @@
-### 解题思路
-一眼懂
+# ### 解题思路
+# 一眼懂
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -19,4 +19,4 @@ class Solution:
         root.left = self.invertTree(root.right)
         root.right = self.invertTree(temp)
         return root
-```
+# ```

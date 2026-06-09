@@ -1,5 +1,5 @@
-纯用指针，在翻转全部链表操作的基础上改进。花了一整个下午时间，快自闭了
-```
+# 纯用指针，在翻转全部链表操作的基础上改进。花了一整个下午时间，快自闭了
+# ```
 class ListNode(object):
     def __init__(self, x):
         self.val = x
@@ -57,4 +57,4 @@ class Solution(object):
             else:
                 break
         return head
-```
+# ```

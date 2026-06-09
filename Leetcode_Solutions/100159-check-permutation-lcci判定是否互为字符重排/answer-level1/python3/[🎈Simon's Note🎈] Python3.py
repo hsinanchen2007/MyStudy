@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def CheckPermutation(self, s1: str, s2: str) -> bool:
         from collections import Counter
@@ -11,4 +11,4 @@ class Solution:
                 if c1[k]!=c2[k]:
                     return False
         return True
-```
+# ```

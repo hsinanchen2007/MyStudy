@@ -1,5 +1,5 @@
-一开始想着只用一个数组，然后从尾部循环逐个替换，结果搞了快两小时都没成功，干脆用最直接的办法实现一个
-```
+// 一开始想着只用一个数组，然后从尾部循环逐个替换，结果搞了快两小时都没成功，干脆用最直接的办法实现一个
+// ```
 class Solution {
     public void duplicateZeros(int[] arr) {
         int[] arr2 = Arrays.copyOf(arr,arr.length);
@@ -13,4 +13,4 @@ class Solution {
         }
     }
 }
-```
+// ```

@@ -1,15 +1,15 @@
-### 复杂度分析
-时间复杂度：O(n)
-空间复杂度：O(1)
+// ### 复杂度分析
+// 时间复杂度：O(n)
+// 空间复杂度：O(1)
 
-### 解题思路
-使用 pre 指针记录当前结点 node 的前一个结点
-当遇到需要删除的结点时，pre.next = node.next 即可
-用虚头结点方便处理边界
+// ### 解题思路
+// 使用 pre 指针记录当前结点 node 的前一个结点
+// 当遇到需要删除的结点时，pre.next = node.next 即可
+// 用虚头结点方便处理边界
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -41,4 +41,4 @@ class Solution {
         return voidHead.next;
     }
 }
-```
+// ```

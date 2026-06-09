@@ -1,7 +1,7 @@
-比较典型的DFS回溯问题。
+// 比较典型的DFS回溯问题。
 
-dfs的基本框架：
-```
+// dfs的基本框架：
+// ```
 int search(int t)
 {
     if(满足输出条件)
@@ -19,12 +19,12 @@ int search(int t)
             }
     }
 }
-```
+// ```
 
 
-这里的答案输出是String类型，所以对于->的插入、删除、StringBuffer的使用是一个小注意点。
+// 这里的答案输出是String类型，所以对于->的插入、删除、StringBuffer的使用是一个小注意点。
 
-```
+// ```
 class Solution {
     public List<String> binaryTreePaths(TreeNode root) {
         List<String> result=new ArrayList<>();
@@ -63,7 +63,7 @@ class Solution {
         }
     }
 }
-```
+// ```
 
 
    

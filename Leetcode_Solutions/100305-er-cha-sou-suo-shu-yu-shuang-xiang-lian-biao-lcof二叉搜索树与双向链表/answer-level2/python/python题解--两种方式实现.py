@@ -1,12 +1,12 @@
-### 使用全局变量
-![image.png](https://pic.leetcode-cn.com/7538ba2a7077c499b0c5774ae450be8f5a955671fd67ed292855bd44fbece856-image.png)
-- 首先说明在Python2.中`list`默认是全局变量,Python3中另有说明,这次我们使用`list`实现
-- 给我们是一颗二叉搜索树,我们知道它的属性是左子树的节点值比根节点小,右子树节点值之比根节点大,于是乎很容易想到使用中序遍历得到一个有序的也是题目中要求的排序方式
-- 当我们遍历将链表转换成一个有序链表时,原先指向左子节点的指针调整为为有序链表中的最后一个节点,链表中最后一个节点的右指针指向当前节点
-- 如此遍历下去即可,具体看代码
-### 代码
+# ### 使用全局变量
+# ![image.png](https://pic.leetcode-cn.com/7538ba2a7077c499b0c5774ae450be8f5a955671fd67ed292855bd44fbece856-image.png)
+# - 首先说明在Python2.中`list`默认是全局变量,Python3中另有说明,这次我们使用`list`实现
+# - 给我们是一颗二叉搜索树,我们知道它的属性是左子树的节点值比根节点小,右子树节点值之比根节点大,于是乎很容易想到使用中序遍历得到一个有序的也是题目中要求的排序方式
+# - 当我们遍历将链表转换成一个有序链表时,原先指向左子节点的指针调整为为有序链表中的最后一个节点,链表中最后一个节点的右指针指向当前节点
+# - 如此遍历下去即可,具体看代码
+# ### 代码
 
-```python
+# ```python
 """
 # Definition for a Node.
 class Node(object):
@@ -40,13 +40,13 @@ class Solution(object):
         head[0].right = temp
         return temp
 
-```
-### 使用传参数的方式实现
+# ```
+# ### 使用传参数的方式实现
 
-- 思想和上面如出一辙,只是换做了另外一种实现,本质就是使用全局变量和传递参数的不同
-![image.png](https://pic.leetcode-cn.com/3e107cb86e8b3b9ea65776f48a588c23fef0397004ac588a251ab887ead9cc0f-image.png)
+# - 思想和上面如出一辙,只是换做了另外一种实现,本质就是使用全局变量和传递参数的不同
+# ![image.png](https://pic.leetcode-cn.com/3e107cb86e8b3b9ea65776f48a588c23fef0397004ac588a251ab887ead9cc0f-image.png)
 
-```
+# ```
 class Solution(object):
     def treeToDoublyList(self, root):
         """
@@ -70,4 +70,4 @@ class Solution(object):
         head.left = tail
         tail.right = head
         return head
-```
+# ```

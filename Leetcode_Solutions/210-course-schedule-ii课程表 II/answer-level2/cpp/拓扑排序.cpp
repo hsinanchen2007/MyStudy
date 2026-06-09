@@ -1,9 +1,9 @@
-### 解题思路
-拓扑排序，邻接表+入度数组+队列
+// ### 解题思路
+// 拓扑排序，邻接表+入度数组+队列
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
@@ -39,4 +39,4 @@ public:
         return res;
     }
 };
-```
+// ```

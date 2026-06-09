@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def isPalindrome(self, head: ListNode) -> bool:
         if not head or not head.next:
@@ -17,4 +17,4 @@ class Solution:
                 return False
             slow, middle = slow.next, middle.next
         return True
-```
+# ```

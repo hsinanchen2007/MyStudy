@@ -1,10 +1,10 @@
-### 解题思路
-可以说是贪婪算法了，就直接统计就可以。
-时间：o(N)
-空间：o(1)
-### 代码
+# ### 解题思路
+# 可以说是贪婪算法了，就直接统计就可以。
+# 时间：o(N)
+# 空间：o(1)
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minDeletionSize(self, A: List[str]) -> int:
         len_A = len(A)
@@ -17,4 +17,4 @@ class Solution:
                     break
         return counts
 
-```
+# ```

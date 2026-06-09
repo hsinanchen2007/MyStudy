@@ -1,10 +1,10 @@
-### 解题思路
-1、同青蛙跳台阶问题
-2、斐波那契数列
+# ### 解题思路
+# 1、同青蛙跳台阶问题
+# 2、斐波那契数列
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def climbStairs(self, n: int) -> int:
         if n == 0:
@@ -17,4 +17,4 @@ class Solution:
                 result = a + b
                 a, b = b, result
         return result
-```
+# ```

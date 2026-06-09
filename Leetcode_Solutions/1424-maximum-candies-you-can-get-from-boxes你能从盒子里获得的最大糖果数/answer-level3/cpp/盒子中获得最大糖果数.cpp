@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
-1.queue 中加入的一定是可以打开的，见过一些数组来表示queue，一个begin，一个end，begin = end 表示结束，这里有表明最大的box数量是1000；
-2.辅助数据 hasVisit，如果已经访问过，在加入queue的时候，设置访问过；
-3.如果有钥匙，不要一个辅助数据才纪录，直接改变status的数据；
-4.hasBox 表明有是否拥有box。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 1.queue 中加入的一定是可以打开的，见过一些数组来表示queue，一个begin，一个end，begin = end 表示结束，这里有表明最大的box数量是1000；
+// 2.辅助数据 hasVisit，如果已经访问过，在加入queue的时候，设置访问过；
+// 3.如果有钥匙，不要一个辅助数据才纪录，直接改变status的数据；
+// 4.hasBox 表明有是否拥有box。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
   int maxCandies(vector<int>& status, vector<int>& candies, vector<vector<int>>& keys, vector<vector<int>>& containedBoxes, vector<int>& initialBoxes) {
@@ -66,4 +66,4 @@ public:
         return ans;
     }  
 };
-```
+// ```

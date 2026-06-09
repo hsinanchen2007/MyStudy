@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number[][]} matrix
  * @return {number}
@@ -24,7 +24,7 @@ var maxEqualRowsAfterFlips = function(matrix) {
     }
     return res
 }; 
-```
-代码块
-```
-```
+// ```
+// 代码块
+// ```
+// ```

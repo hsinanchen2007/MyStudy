@@ -1,4 +1,4 @@
-```
+// ```
 public class Solution {
     //上一行去掉最后一个，下一行去掉第一个比较剩下的是否相等。就可以了
     public boolean isToeplitzMatrix(int[][] matrix) {
@@ -12,4 +12,4 @@ public class Solution {
         return true;
     }
 }
-```
+// ```

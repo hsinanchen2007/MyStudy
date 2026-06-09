@@ -1,9 +1,9 @@
-### 解题思路
-每次移动位置将前一个位置hash 去掉，加上比较长度最后一个位置hash，一边遍历将一样的存到返回值内
+// ### 解题思路
+// 每次移动位置将前一个位置hash 去掉，加上比较长度最后一个位置hash，一边遍历将一样的存到返回值内
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -48,4 +48,4 @@ int* findAnagrams(char * s, char * p, int* returnSize){
     return ret;
      
 }
-```
+// ```

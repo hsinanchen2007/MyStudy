@@ -1,11 +1,11 @@
-### 解题思路
-对于所有位数为n的的数字，所有的confusing number的数量，是有算数解的，具体见sum_bit_n函数，可以用排列组合推导一下
+# ### 解题思路
+# 对于所有位数为n的的数字，所有的confusing number的数量，是有算数解的，具体见sum_bit_n函数，可以用排列组合推导一下
 
-给定位数为bit_N的N，先计算[0, bit_N-1]位数的confusing number的算数解，然后再依次判断从小到大直到N为止的位数为bit_N的数字是否为confusing number
+# 给定位数为bit_N的N，先计算[0, bit_N-1]位数的confusing number的算数解，然后再依次判断从小到大直到N为止的位数为bit_N的数字是否为confusing number
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 from math import log10
 
 class Solution(object):
@@ -65,4 +65,4 @@ class Solution(object):
         return count
         
 
-```
+# ```

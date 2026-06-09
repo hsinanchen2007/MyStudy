@@ -1,12 +1,12 @@
-### 解题思路
-学会用回溯性递归
-学会用
-import functools
-@functools.lru_cache(None)
+# ### 解题思路
+# 学会用回溯性递归
+# 学会用
+# import functools
+# @functools.lru_cache(None)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
 	def wordBreak(self, s: str, wordDict) -> bool:
 		import functools
@@ -22,4 +22,4 @@ class Solution:
 
 		return wordpiece(s)
 
-```
+# ```

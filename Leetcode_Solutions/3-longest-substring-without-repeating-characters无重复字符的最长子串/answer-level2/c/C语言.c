@@ -1,4 +1,4 @@
-```
+// ```
 int lengthOfLongestSubstring(char * s){
     int len=strlen(s);
     if(len==0)return 0;
@@ -20,4 +20,4 @@ int lengthOfLongestSubstring(char * s){
     }
     return maxlen;
 }
-```
+// ```

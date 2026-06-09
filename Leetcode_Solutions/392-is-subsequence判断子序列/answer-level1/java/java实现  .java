@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean isSubsequence(String s, String t) {
         int k = 0;//用于确保s中的每一个字符都是在t中按顺序出现的（按顺序进行比对）
@@ -19,4 +19,4 @@ class Solution {
         }  
     }
 }
-```
+// ```

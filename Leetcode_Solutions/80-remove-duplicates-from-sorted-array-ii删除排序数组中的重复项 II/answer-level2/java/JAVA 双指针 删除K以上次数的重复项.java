@@ -1,7 +1,7 @@
-通用的剔除K个重复以上元素的解法
+// 通用的剔除K个重复以上元素的解法
 
 
-```
+// ```
 class Solution {
     public int removeDuplicates(int[] nums) {
         if(nums.length == 0) return 0;
@@ -18,4 +18,4 @@ class Solution {
         return i+1;
     }
 }
-```
+// ```

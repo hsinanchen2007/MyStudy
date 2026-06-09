@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int leastBricks(List<List<Integer>> wall) {
         int n = wall.size();
@@ -18,4 +18,4 @@ class Solution {
         return n - max;
     }
 }
-```
+// ```

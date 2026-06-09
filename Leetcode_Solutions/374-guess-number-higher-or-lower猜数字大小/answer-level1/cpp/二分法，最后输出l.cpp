@@ -1,9 +1,9 @@
-### 解题思路
-要注意的点是退出循环后应该输出l，也即最终定位到的数。
+// ### 解题思路
+// 要注意的点是退出循环后应该输出l，也即最终定位到的数。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 // Forward declaration of guess API.
 // @param num, your guess
 // @return -1 if my number is lower, 1 if my number is higher, otherwise return 0
@@ -26,4 +26,4 @@ public:
         return l;
     }
 };
-```
+// ```

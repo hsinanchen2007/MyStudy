@@ -1,9 +1,9 @@
-### 解题思路
-代码中有些注释，希望有帮助
-![ans2.png](https://pic.leetcode-cn.com/90e9ceb0cd25da11c830608af6481fd36a4b84f7aab4714a9746c174e158a250-ans2.png)
-### 代码
+// ### 解题思路
+// 代码中有些注释，希望有帮助
+// ![ans2.png](https://pic.leetcode-cn.com/90e9ceb0cd25da11c830608af6481fd36a4b84f7aab4714a9746c174e158a250-ans2.png)
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -64,4 +64,4 @@ class Solution {
     }
 
 }
-```
+// ```

@@ -1,6 +1,6 @@
-**解法一：**利用快慢指针和迭代。
+// **解法一：**利用快慢指针和迭代。
 
-```java
+// ```java
 class Solution {
     public ListNode reverseKGroup(ListNode head, int k) {
         ListNode dummy = new ListNode(0), slow = dummy, fast = dummy;
@@ -32,11 +32,11 @@ class Solution {
         return pre;
     }
 }
-```
+// ```
 
-**解法二：**递归。
+// **解法二：**递归。
 
-```java
+// ```java
 class Solution {
     public ListNode reverseKGroup(ListNode head, int k) {
         ListNode tail = head, pre = null, cur = head;
@@ -55,11 +55,11 @@ class Solution {
         return pre;
     }
 }
-```
+// ```
 
-**解法三：**利用栈。
+// **解法三：**利用栈。
 
-```java
+// ```java
 class Solution {
     public ListNode reverseKGroup(ListNode head, int k) {
         Deque<ListNode> stack = new LinkedList<>();
@@ -78,5 +78,5 @@ class Solution {
         }
     }
 }
-```
+// ```
 

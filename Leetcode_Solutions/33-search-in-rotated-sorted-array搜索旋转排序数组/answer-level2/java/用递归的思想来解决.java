@@ -1,11 +1,11 @@
-### 解题思路
-写的时候突然想到归并排序，因为归并排序先把数组分隔成一个一个的单个元素，然后再merge,既然都成一个一个的元素了，那么也就能跟目标值比较是否想等了呀，这就是主要思路。
-![image.png](https://pic.leetcode-cn.com/2346ab9d54353744e88642a0594d1f635b06fc3cff4fa44f54658555eebc4cf9-image.png)
+// ### 解题思路
+// 写的时候突然想到归并排序，因为归并排序先把数组分隔成一个一个的单个元素，然后再merge,既然都成一个一个的元素了，那么也就能跟目标值比较是否想等了呀，这就是主要思路。
+// ![image.png](https://pic.leetcode-cn.com/2346ab9d54353744e88642a0594d1f635b06fc3cff4fa44f54658555eebc4cf9-image.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int search(int[] nums, int target) {
         if(nums.length<=0){
@@ -35,4 +35,4 @@ class Solution {
        return -1;
     }
 }
-```
+// ```

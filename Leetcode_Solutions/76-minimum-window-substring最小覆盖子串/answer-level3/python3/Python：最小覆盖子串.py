@@ -1,9 +1,9 @@
-### 解题思路
-呃，滑动窗口
+# ### 解题思路
+# 呃，滑动窗口
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import collections
 class Solution:
     def minWindow(self, s: str, t: str) -> str:
@@ -30,4 +30,4 @@ class Solution:
                 l += 1
             r += 1    
         return "" if ans[0] == float("inf") else s[ans[1] : ans[2] + 1]
-```
+# ```

@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/c5107226e26fc96dc724283795e0b0372792c0a994df1fb491ab8ed95802dab5-image.png)
+// ![image.png](https://pic.leetcode-cn.com/c5107226e26fc96dc724283795e0b0372792c0a994df1fb491ab8ed95802dab5-image.png)
 
 
-```
+// ```
 char * predictPartyVictory(char * senate){
     int len = strlen(senate);
     int r = 0;
@@ -39,4 +39,4 @@ char * predictPartyVictory(char * senate){
         return "Dire";
     }
 }
-```
+// ```

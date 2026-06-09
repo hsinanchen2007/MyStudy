@@ -1,11 +1,11 @@
-### 解题思路
-做法就是将先创建一个节点然后遍历所给出的节点将遍历到的节点逆序插入到创建的节点后面，最后的返回值是创建的节点的next。
+// ### 解题思路
+// 做法就是将先创建一个节点然后遍历所给出的节点将遍历到的节点逆序插入到创建的节点后面，最后的返回值是创建的节点的next。
 
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -30,4 +30,4 @@ class Solution {
         return result.next;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class Solution {
 public:
     int hammingWeight(uint32_t n) {
@@ -10,8 +10,8 @@ public:
         return temp;
     }
 };
-```
-```python3 []
+// ```
+// ```python3 []
 class Solution:
     def hammingWeight(self, n: int) -> int:
         temp=0
@@ -19,8 +19,8 @@ class Solution:
             temp+=n&1
             n>>=1
         return temp
-```
-```C []
+// ```
+// ```C []
 int hammingWeight(uint32_t n) {
     int temp=0;
     while(n){
@@ -29,8 +29,8 @@ int hammingWeight(uint32_t n) {
     }
     return temp;
 }
-```
-```Python []
+// ```
+// ```Python []
 class Solution(object):
     def hammingWeight(self, n):
         """
@@ -42,8 +42,8 @@ class Solution(object):
             temp+=n&1
             n>>=1
         return temp
-```
-```Java []
+// ```
+// ```Java []
 public class Solution {
     // you need to treat n as an unsigned value
     public int hammingWeight(int n) {
@@ -55,8 +55,8 @@ public class Solution {
         return temp;
     }
 }
-```
-```JavaScript []
+// ```
+// ```JavaScript []
 function hammingWeight(n) {
     var temp=0;
     while(n){
@@ -65,4 +65,4 @@ function hammingWeight(n) {
     }
     return temp;
 }
-```
+// ```

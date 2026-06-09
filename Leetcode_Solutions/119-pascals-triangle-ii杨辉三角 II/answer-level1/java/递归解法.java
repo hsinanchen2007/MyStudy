@@ -1,5 +1,5 @@
-在上一层的基础上获取新数组
-```
+// 在上一层的基础上获取新数组
+// ```
 public static List<Integer> getRow(int rowIndex) {
         rowIndex ++;
         List<Integer> result = new ArrayList<Integer>();
@@ -34,4 +34,4 @@ public static List<Integer> getRow(int rowIndex) {
 
         return result;
     }
-```
+// ```

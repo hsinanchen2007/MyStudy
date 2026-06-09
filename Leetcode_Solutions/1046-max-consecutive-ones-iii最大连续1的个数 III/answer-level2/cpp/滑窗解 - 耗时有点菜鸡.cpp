@@ -1,14 +1,14 @@
-### 解题思路
+// ### 解题思路
 
-思路：
-1、很明显的滑窗法，固定窗口中0的个数就行了，不想优化了
+// 思路：
+// 1、很明显的滑窗法，固定窗口中0的个数就行了，不想优化了
 
-116ms 51.7M
---- wangtao HW-2020/4/1
+// 116ms 51.7M
+// --- wangtao HW-2020/4/1
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int longestOnes(vector<int>& A, int K) {
@@ -37,4 +37,4 @@ public:
         return ans;
     }
 };
-```
+// ```

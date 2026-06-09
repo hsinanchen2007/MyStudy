@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class Solution {
 public:
     vector<int> selfDividingNumbers(int left, int right) {
@@ -19,4 +19,4 @@ public:
         return true;
     }
 };
-```
+// ```

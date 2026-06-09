@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean checkSubarraySum(int[] nums, int k) {
         if(k==1&&nums.length>=2)return true;
@@ -21,4 +21,4 @@ class Solution {
        return false;
     }
 }
-```
+// ```

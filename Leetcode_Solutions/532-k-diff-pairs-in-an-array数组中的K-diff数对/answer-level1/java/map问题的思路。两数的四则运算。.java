@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int findPairs(int[] nums, int k) {
         int count = 0 ;
@@ -30,9 +30,9 @@ class Solution {
         return count ;
     }
 }
-```
-这种两个数的和  两个数的差，涉及到两个数的时候  一定要想到map这种数据结构的。
-然后确定逻辑
-key存储什么
-value存储什么
-如何根据遍历keySet找到value的逻辑。
+// ```
+// 这种两个数的和  两个数的差，涉及到两个数的时候  一定要想到map这种数据结构的。
+// 然后确定逻辑
+// key存储什么
+// value存储什么
+// 如何根据遍历keySet找到value的逻辑。

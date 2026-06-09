@@ -1,9 +1,9 @@
-### 解题思路
-倒着遍历一遍 保留当前右边最大值 挨个替换掉
+// ### 解题思路
+// 倒着遍历一遍 保留当前右边最大值 挨个替换掉
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int[] ReplaceElements(int[] arr) {
         if(arr == null) return arr;
@@ -18,4 +18,4 @@ public class Solution {
         return arr;
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-两种方法，利用tmp记录该节点的父节点能构成的所有不同路径的和，组成一个list。
-法一：迭代
+# ### 解题思路
+# 两种方法，利用tmp记录该节点的父节点能构成的所有不同路径的和，组成一个list。
+# 法一：迭代
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 
 class Solution:
     def pathSum(self, root: TreeNode, sum: int) -> int:        
@@ -19,9 +19,9 @@ class Solution:
             stack.append((node.right,tmp))  
         return res
 
-```
-法二：递归
-```
+# ```
+# 法二：递归
+# ```
 class Solution:
     def pathSum(self, root: TreeNode, sum: int) -> int:
         def helper(root,tmp):
@@ -29,4 +29,4 @@ class Solution:
             tmp = [num + root.val for num in tmp] + [root.val]
             return tmp.count(sum)+helper(root.left, tmp)+helper(root.right, tmp)
         return helper(root, [])
-```
+# ```

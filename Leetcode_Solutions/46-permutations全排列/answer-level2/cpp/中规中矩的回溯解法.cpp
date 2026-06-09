@@ -1,5 +1,5 @@
-***Talk is cheap. Show me the code.***
-```
+// ***Talk is cheap. Show me the code.***
+// ```
 class Solution {
 public:
     vector<vector<int>> permute(vector<int>& nums) {
@@ -41,5 +41,5 @@ private:
 	vector<int> result;
 	vector<vector<int>> results;
 };
-```
-中规中矩，回溯模板👌
+// ```
+// 中规中矩，回溯模板👌

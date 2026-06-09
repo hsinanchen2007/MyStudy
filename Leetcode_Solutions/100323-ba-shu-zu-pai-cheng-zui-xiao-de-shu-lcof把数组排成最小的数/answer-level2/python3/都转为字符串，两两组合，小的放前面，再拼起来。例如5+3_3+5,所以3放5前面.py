@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def minNumber(self, nums):
         """
@@ -20,4 +20,4 @@ class Solution(object):
                 if nums[i]+nums[j]>nums[j]+nums[i]:
                     nums[i],nums[j]=nums[j],nums[i]
         return "".join(nums)
-```
+# ```

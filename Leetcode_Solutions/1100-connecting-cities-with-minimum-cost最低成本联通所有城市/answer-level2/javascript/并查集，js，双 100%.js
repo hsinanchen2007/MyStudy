@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} N
  * @param {number[][]} connections
@@ -92,4 +92,4 @@ var DSU = function(count) {
 		return root;
 	}
 }
-```
+// ```

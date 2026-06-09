@@ -1,13 +1,13 @@
-### 解题思路
-用数组res存结果，分为两种情况
-* longer等于shorter，则直接将k* shorter存入res，跳出循环即可。
-* longer不等于shorter，则循环k+1次，逐次增加长木板的个数，将结果存到res中。
+// ### 解题思路
+// 用数组res存结果，分为两种情况
+// * longer等于shorter，则直接将k* shorter存入res，跳出循环即可。
+// * longer不等于shorter，则循环k+1次，逐次增加长木板的个数，将结果存到res中。
 
-没想出来递归怎么解...求一个递归解法
+// 没想出来递归怎么解...求一个递归解法
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> divingBoard(int shorter, int longer, int k) {
@@ -27,4 +27,4 @@ public:
         return res;
     }
 };
-```
+// ```

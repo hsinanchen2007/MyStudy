@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> majorityElement(vector<int>& nums) {
@@ -32,4 +32,4 @@ public:
 3.注意处理排序后的尾巴，比如1，2，2，2此时会出现尾部计数器count未被处理的情况，需要单独处理。
 */
 
-```
+// ```

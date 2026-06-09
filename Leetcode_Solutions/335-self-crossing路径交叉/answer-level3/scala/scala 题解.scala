@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def isSelfCrossing(x: Array[Int]): Boolean = {
     (3 until x.length).foreach(i => {
@@ -9,4 +9,4 @@ object Solution {
     false
   }
 }
-```
+// ```

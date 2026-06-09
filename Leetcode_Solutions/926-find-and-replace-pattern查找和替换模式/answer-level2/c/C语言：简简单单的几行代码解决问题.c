@@ -1,11 +1,11 @@
-![QQ截图20190718090435.png](https://pic.leetcode-cn.com/c35189076e74658a4b34524e577e37ecd0feaeabb8b36b8831476556c0624956-QQ%E6%88%AA%E5%9B%BE20190718090435.png)
+// ![QQ截图20190718090435.png](https://pic.leetcode-cn.com/c35189076e74658a4b34524e577e37ecd0feaeabb8b36b8831476556c0624956-QQ%E6%88%AA%E5%9B%BE20190718090435.png)
 
-- 由于字符串中相等的字符存在关联，那么就用一个数组来存放上一个相同字符的的下标，最后和pattern比较就可以了
-- 就如下面的情况
+// - 由于字符串中相等的字符存在关联，那么就用一个数组来存放上一个相同字符的的下标，最后和pattern比较就可以了
+// - 就如下面的情况
 
-![QQ截图20190718091702.png](https://pic.leetcode-cn.com/3814d755d31e95daa073b4d93daef81d0aa604e09ad6718d44c2ab5abc65c14f-QQ%E6%88%AA%E5%9B%BE20190718091702.png)
+// ![QQ截图20190718091702.png](https://pic.leetcode-cn.com/3814d755d31e95daa073b4d93daef81d0aa604e09ad6718d44c2ab5abc65c14f-QQ%E6%88%AA%E5%9B%BE20190718091702.png)
 
-```
+// ```
 int char_value[128];
 int pattern_value[32];
 int tmp_value[32];
@@ -46,4 +46,4 @@ int compare(int *arr1, int *arr2, int len)
     }
     return true;
 }
-```
+// ```

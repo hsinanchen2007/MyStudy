@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {string}
@@ -20,4 +20,4 @@ var longestPrefix = function(s) {
     }
     return s.substring(0, dp[len-1])
 };
-```
+// ```

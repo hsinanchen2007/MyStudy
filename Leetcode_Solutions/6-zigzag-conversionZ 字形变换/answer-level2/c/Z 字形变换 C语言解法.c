@@ -1,4 +1,4 @@
-感觉还好~
+// 感觉还好~
 char * convert(char * s, int numRows){
      int len=strlen(s);
     int t=2*(numRows-1);

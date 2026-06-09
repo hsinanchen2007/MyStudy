@@ -1,9 +1,9 @@
-### 解题思路
-第六次才通过。頑張ってください。
+# ### 解题思路
+# 第六次才通过。頑張ってください。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverse(self, x):
         if x >=-2**31 and x < 0:
@@ -30,4 +30,4 @@ class Solution:
                 return x
         else:
             pass
-```
+# ```

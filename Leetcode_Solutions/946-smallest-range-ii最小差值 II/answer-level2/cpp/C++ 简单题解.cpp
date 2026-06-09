@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int smallestRangeII(vector<int>& A, int K) {
@@ -13,6 +13,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/a6a06caccd34ac91fc58b7ed85f35afe8ea6a404438d67640561696436bbb290-image.png)
+// ![image.png](https://pic.leetcode-cn.com/a6a06caccd34ac91fc58b7ed85f35afe8ea6a404438d67640561696436bbb290-image.png)

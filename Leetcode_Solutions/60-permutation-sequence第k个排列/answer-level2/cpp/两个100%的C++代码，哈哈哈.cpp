@@ -1,6 +1,6 @@
-思路就是从最高位逐步确定到最低位，每一步统计小于当前数的排列数。
+// 思路就是从最高位逐步确定到最低位，每一步统计小于当前数的排列数。
 
-```cpp
+// ```cpp
 class Solution {
     int f(int n) {
         int ans = 1;
@@ -50,6 +50,6 @@ public:
         return ans;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/29147caf1af3407bbf54ef6ccaaa824be4eb18cd43d57261da893709755d172a-image.png)
+// ![image.png](https://pic.leetcode-cn.com/29147caf1af3407bbf54ef6ccaaa824be4eb18cd43d57261da893709755d172a-image.png)

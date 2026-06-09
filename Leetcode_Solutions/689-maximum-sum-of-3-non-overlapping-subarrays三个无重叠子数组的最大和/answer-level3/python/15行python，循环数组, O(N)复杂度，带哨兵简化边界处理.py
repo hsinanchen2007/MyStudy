@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def maxSumOfThreeSubarrays(self, nums, k):
         """
@@ -22,4 +22,4 @@ class Solution(object):
                 dp[i] = part
             last_dp = dp
         return last_dp[0][1][:-1]
-```
+# ```

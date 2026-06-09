@@ -1,13 +1,13 @@
-### 解题思路
-队列q:保存队列元素
-队列helper:保存最大元素，用双端队列实现
-           当要向队尾插入元素value时，从队尾开始将比value小的所有元素全部出队丢弃
-            之所以能够被全部丢弃的原因是根据队列FIFO的特性，它们会比value先出队
-            所以他们不会影响到最大值的变化
+// ### 解题思路
+// 队列q:保存队列元素
+// 队列helper:保存最大元素，用双端队列实现
+//            当要向队尾插入元素value时，从队尾开始将比value小的所有元素全部出队丢弃
+//             之所以能够被全部丢弃的原因是根据队列FIFO的特性，它们会比value先出队
+//             所以他们不会影响到最大值的变化
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MaxQueue {
     private Queue<Integer> q;
     private Deque<Integer> helper;//双端队列辅助空间存储可能的最大值
@@ -49,4 +49,4 @@ class MaxQueue {
  * obj.push_back(value);
  * int param_3 = obj.pop_front();
  */
-```
+// ```

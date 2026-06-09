@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+-- ### 解题思路
+-- 此处撰写解题思路
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 
 
@@ -21,4 +21,4 @@ WHERE  e.DepartmentId = d.Id AND
 后来想想，直接将部门，与部门下最多的工资查询出来，作为一个中间表即可。作为过滤条件即可。
 且 需要在 WHERE 条件 中 ，过滤掉没有部门的员工
 
-```
+-- ```

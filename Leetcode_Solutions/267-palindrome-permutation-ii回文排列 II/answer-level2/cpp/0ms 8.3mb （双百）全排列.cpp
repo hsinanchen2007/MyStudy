@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-0ms 8.3mb全排列
+// 0ms 8.3mb全排列
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int sig[256];
@@ -33,4 +33,4 @@ public:
         return ret;
     }
 };
-```
+// ```

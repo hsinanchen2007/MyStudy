@@ -1,9 +1,9 @@
-### 解题思路
-思维
+// ### 解题思路
+// 思维
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 const int dx[] = {-1,1,0,0};
 const int dy[] = {0,0,-1,1};
 class Solution {
@@ -36,4 +36,4 @@ public:
         return solve;
     }
 };
-```
+// ```

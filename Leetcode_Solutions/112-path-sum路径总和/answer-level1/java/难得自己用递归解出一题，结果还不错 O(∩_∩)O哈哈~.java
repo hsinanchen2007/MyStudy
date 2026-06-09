@@ -1,4 +1,4 @@
-![1577367696(1).png](https://pic.leetcode-cn.com/42fb42e452eb0a8c695d66fcb40b310ca1bdb63470b3d16c2997c03b828704a9-1577367696\(1\).png)
+// ![1577367696(1).png](https://pic.leetcode-cn.com/42fb42e452eb0a8c695d66fcb40b310ca1bdb63470b3d16c2997c03b828704a9-1577367696\(1\).png)
 
 
 
@@ -6,7 +6,7 @@
 
 
 
-```
+// ```
 public boolean hasPathSum(TreeNode root,int sum){
         
         
@@ -30,4 +30,4 @@ public boolean hasPathSum(TreeNode root,int sum){
 	     return res2;
 
 	}
-```
+// ```

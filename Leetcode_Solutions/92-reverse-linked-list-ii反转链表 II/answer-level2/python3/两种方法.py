@@ -1,32 +1,32 @@
-## 思路:
+# ## 思路:
 
-思路一:
+# 思路一:
 
-找到要翻转部分的链表,将其翻转,再与原链表拼接;
+# 找到要翻转部分的链表,将其翻转,再与原链表拼接;
 
-直接看代码注释.
+# 直接看代码注释.
 
-思路二:
+# 思路二:
 
-用三个指针,进行**插入**操作
+# 用三个指针,进行**插入**操作
 
-例如:
+# 例如:
 
-`1->2->3->4->5->NULL, m = 2, n = 4`
+# `1->2->3->4->5->NULL, m = 2, n = 4`
 
-将节点`3`插入节点`1`和节点`2`之间
+# 将节点`3`插入节点`1`和节点`2`之间
 
-变成: `1->3->2->4->5->NULL`
+# 变成: `1->3->2->4->5->NULL`
 
-再将节点`4`插入节点`1`和节点`3`之间
+# 再将节点`4`插入节点`1`和节点`3`之间
 
-变成:`1->4->3->2->5->NULL`
+# 变成:`1->4->3->2->5->NULL`
 
-实现翻转的效果!
+# 实现翻转的效果!
 
-## 代码:
+# ## 代码:
 
-```python [1]
+# ```python [1]
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -53,11 +53,11 @@ class Solution:
         pre.next.next = cur
         pre.next = node
         return dummy.next
-```
+# ```
 
 
 
-```java [1]
+# ```java [1]
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -89,11 +89,11 @@ class Solution {
         
     }
 }
-```
+# ```
 
-思路二:
+# 思路二:
 
-```python [2]
+# ```python [2]
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -118,11 +118,11 @@ class Solution:
             pre.next = tail
             tail = start.next
         return dummy.next
-```
+# ```
 
 
 
-```java [2]
+# ```java [2]
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -151,5 +151,5 @@ class Solution {
         return dummy.next;
     }
 }
-```
+# ```
 

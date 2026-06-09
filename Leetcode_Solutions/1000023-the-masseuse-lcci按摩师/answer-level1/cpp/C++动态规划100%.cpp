@@ -1,5 +1,5 @@
-与题号198【打家劫舍】这一题几乎一模一样,都采用动态规划的思想
-```
+// 与题号198【打家劫舍】这一题几乎一模一样,都采用动态规划的思想
+// ```
 class Solution {
 public:
     int massage(vector<int>& nums) {
@@ -21,4 +21,4 @@ public:
         return *max_element(dp.begin(),dp.end());
     }
 };
-```
+// ```

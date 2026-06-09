@@ -1,5 +1,5 @@
-遍历判断数组
-```
+// 遍历判断数组
+// ```
 class Solution {
 
     /**
@@ -23,4 +23,4 @@ class Solution {
         return $rep;
     }
 }
-```
+// ```

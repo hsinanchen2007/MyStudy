@@ -1,5 +1,5 @@
-可以理解为任意K 点均可达的连图子图的求解！！！
-```
+// 可以理解为任意K 点均可达的连图子图的求解！！！
+// ```
 class Solution {
 public:
     void DFS(int index, vector<int>& nums, vector<bool>& visit, vector<int>& temp, vector<vector<int>>& path) {
@@ -32,4 +32,4 @@ public:
         return path;
     }
 };
-```
+// ```

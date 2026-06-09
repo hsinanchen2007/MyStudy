@@ -1,6 +1,6 @@
-解题思路：用栈保存各层迭代的当前迭代器和结束迭代器
+// 解题思路：用栈保存各层迭代的当前迭代器和结束迭代器
 
-```
+// ```
 class NestedIterator {
 public:
     NestedIterator(vector<NestedInteger> &nestedList) {
@@ -36,4 +36,4 @@ private:
     using Iterator = vector<NestedInteger>::const_iterator;
     stack<std::pair<Iterator, Iterator>> s;
 };
-```
+// ```

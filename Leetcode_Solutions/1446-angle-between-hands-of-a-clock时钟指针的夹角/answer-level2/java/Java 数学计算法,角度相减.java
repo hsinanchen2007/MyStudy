@@ -1,9 +1,9 @@
-### 解题思路
-注意角度有小数
+// ### 解题思路
+// 注意角度有小数
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public double angleClock(int hour, int minutes) {
         double hh = hour;
@@ -20,4 +20,4 @@ class Solution {
     
     }
 }
-```
+// ```

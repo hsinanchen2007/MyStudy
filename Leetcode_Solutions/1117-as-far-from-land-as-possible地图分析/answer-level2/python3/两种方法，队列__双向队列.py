@@ -1,9 +1,9 @@
-### 解题思路
-大陆填海，思路见代码
+# ### 解题思路
+# 大陆填海，思路见代码
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxDistance(self, grid: List[List[int]]) -> int:
         from collections import deque
@@ -27,4 +27,4 @@ class Solution:
                         grid[xi][yi] = -1
             res += 1
         return res
-```
+# ```

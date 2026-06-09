@@ -1,9 +1,9 @@
-### 解题思路
-使用动态规划来解决，转移方程为：dp[i][j] = min(dp[i-1][j],dp[i-1][j-1])+triangle[i][j], 需要对就j>i-1和j-1<0做特殊处理
+// ### 解题思路
+// 使用动态规划来解决，转移方程为：dp[i][j] = min(dp[i-1][j],dp[i-1][j-1])+triangle[i][j], 需要对就j>i-1和j-1<0做特殊处理
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int min(int a, int b) {
 	return a<b ? a : b;
 }
@@ -50,4 +50,4 @@ int minimumTotal(int** triangle, int triangleSize, int* triangleColSize){
 	}
 	return minsum;
 }
-```
+// ```

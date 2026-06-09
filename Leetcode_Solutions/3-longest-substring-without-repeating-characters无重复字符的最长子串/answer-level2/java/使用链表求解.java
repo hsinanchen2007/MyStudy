@@ -1,10 +1,10 @@
-### 解题思路
-使用链表，满足条件链表尾部加数据，不满足条件链表头部删数据
-时间复杂度O(n)
+// ### 解题思路
+// 使用链表，满足条件链表尾部加数据，不满足条件链表头部删数据
+// 时间复杂度O(n)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int lengthOfLongestSubstring(String s) {
         char[] arr = s.toCharArray();
@@ -23,4 +23,4 @@ class Solution {
         return length;
     }
 }
-```
+// ```

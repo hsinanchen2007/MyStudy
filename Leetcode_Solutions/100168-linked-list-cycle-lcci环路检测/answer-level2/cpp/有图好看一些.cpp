@@ -1,10 +1,10 @@
-### 解题思路
-![Snip20200401_5.png](https://pic.leetcode-cn.com/fb4ac997e3771e433536dd2706406b795831bc5fa7baa0d2513e8f1812749794-Snip20200401_5.png)
-此处撰写解题思路
+// ### 解题思路
+// ![Snip20200401_5.png](https://pic.leetcode-cn.com/fb4ac997e3771e433536dd2706406b795831bc5fa7baa0d2513e8f1812749794-Snip20200401_5.png)
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -55,4 +55,4 @@ public:
     }
 };
 
-```
+// ```

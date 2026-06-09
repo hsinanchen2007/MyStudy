@@ -1,10 +1,10 @@
-### 解题思路
-假设有K种不同数字的卡片，每种卡片有Ck张
-那么我们要找出C1,C2,...,CK是否存在共同的大于1的公约数
+# ### 解题思路
+# 假设有K种不同数字的卡片，每种卡片有Ck张
+# 那么我们要找出C1,C2,...,CK是否存在共同的大于1的公约数
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def hasGroupsSizeX(self, deck: List[int]) -> bool:
         N=len(deck)
@@ -33,4 +33,4 @@ class Solution:
         return(c)  
 
 
-```
+# ```

@@ -1,8 +1,8 @@
-**使用递归，易于实现且复杂度低**
+// **使用递归，易于实现且复杂度低**
 
-![image.png](https://pic.leetcode-cn.com/0426d0afd286e8f89fe670bb3ff0425b2f22bee9a86f821958646c1039b2f262-image.png)
+// ![image.png](https://pic.leetcode-cn.com/0426d0afd286e8f89fe670bb3ff0425b2f22bee9a86f821958646c1039b2f262-image.png)
 
-```
+// ```
 class Solution {
 public:
 	int calculate(const string& str) {
@@ -40,4 +40,4 @@ public:
 		return res;
 	}
 };
-```cpp
+// ```cpp

@@ -1,14 +1,14 @@
-## 二分查找法
-### 解题思路
-- 找到最大值max和最小值min
-- 计算mid值开始循环查找
-    - 注意我们的max可以等于min，因为max min均为数组中的值
-    - 如果比mid小的数目大于等于k，那么mid过大，max变成mid-1
-        - 为什么要把等于k的情况加入呢，因为等于k的情况下，选取的mid是大于等于目标值的
-    - 如果比mid大的数目小于k，那么mid过小，min变成mid+1
-- 返回min值即为我们想要的
-### code
-```javascript
+// ## 二分查找法
+// ### 解题思路
+// - 找到最大值max和最小值min
+// - 计算mid值开始循环查找
+//     - 注意我们的max可以等于min，因为max min均为数组中的值
+//     - 如果比mid小的数目大于等于k，那么mid过大，max变成mid-1
+//         - 为什么要把等于k的情况加入呢，因为等于k的情况下，选取的mid是大于等于目标值的
+//     - 如果比mid大的数目小于k，那么mid过小，min变成mid+1
+// - 返回min值即为我们想要的
+// ### code
+// ```javascript
 const kthSmallest = (matrix, k)=>{
     const count=(arr,tgt)=>{
         // let res=0;
@@ -49,15 +49,15 @@ const kthSmallest = (matrix, k)=>{
     }
     return min;
 };
-```
-## 构建小根堆
-### 解题思路
-- 利用构建最小堆的方式将x个有序数组进行合并并且找到排序后的第k小元素。
-- 不需要遍历所有元素。需要用对象存储元素所在数组的位置
+// ```
+// ## 构建小根堆
+// ### 解题思路
+// - 利用构建最小堆的方式将x个有序数组进行合并并且找到排序后的第k小元素。
+// - 不需要遍历所有元素。需要用对象存储元素所在数组的位置
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 
 // 小根堆构建
 function Heap(){
@@ -136,5 +136,5 @@ const kthSmallest = (matrix, k)=>{
     }
     return res[k-1];
 };
-```
+// ```
 

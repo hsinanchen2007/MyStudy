@@ -1,5 +1,5 @@
-正常二叉树，-1加和是 n + 1
-```
+// 正常二叉树，-1加和是 n + 1
+// ```
 class Solution {
 public:
     bool validateBinaryTreeNodes(int n, vector<int>& leftChild, vector<int>& rightChild) {
@@ -13,4 +13,4 @@ public:
         return sum == n + 1;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```python
+# ```python
 from typing import List
 class Solution:
 	def minPathSum(self, grid: List[List[int]]) -> int:
@@ -11,4 +11,4 @@ class Solution:
 				elif i == 0: dp[j] = dp[j - 1] + grid[i][j]
 				else: dp[j] = min(dp[j], dp[j - 1]) + grid[i][j]
 		return dp[-1]
-```
+# ```

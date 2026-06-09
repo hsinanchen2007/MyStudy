@@ -1,9 +1,9 @@
-### 解题思路
-C# 转义为分钟数后排序 首尾邻接比较
+// ### 解题思路
+// C# 转义为分钟数后排序 首尾邻接比较
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int FindMinDifference(IList<string> timePoints) {
         var minutes = timePoints.Select(time =>
@@ -29,4 +29,4 @@ public class Solution {
         return minDiff;
     }
 }
-```
+// ```

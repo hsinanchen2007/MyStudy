@@ -1,9 +1,9 @@
-**算法思路：**
-1. 先设置一个`指针i`进行遍历当前的元素
-2. 然后进行`滑动窗口`，找出自指针i以后的元素中最大的那个，记录这个最大值的`索引`、`值`
-3. 如果这个最大值比当前`指针i`指向的大，则进行替换，并返回结果（否则，返回原值）
+// **算法思路：**
+// 1. 先设置一个`指针i`进行遍历当前的元素
+// 2. 然后进行`滑动窗口`，找出自指针i以后的元素中最大的那个，记录这个最大值的`索引`、`值`
+// 3. 如果这个最大值比当前`指针i`指向的大，则进行替换，并返回结果（否则，返回原值）
 
-```python []
+// ```python []
 class Solution(object):
     def maximumSwap(self, num):
         arr = map(int, list(str(num)))
@@ -20,8 +20,8 @@ class Solution(object):
                 return int(''.join(map(str, arr)))
         # 如果没有进行交换的话，说明本身就是最大值；
         return num
-```
-```Java []
+// ```
+// ```Java []
 class Solution {
 
     public int max_index;
@@ -55,6 +55,6 @@ class Solution {
         return num;
     }
 }
-```
+// ```
 
 

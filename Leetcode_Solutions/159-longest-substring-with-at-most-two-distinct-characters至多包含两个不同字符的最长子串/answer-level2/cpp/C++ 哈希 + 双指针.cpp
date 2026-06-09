@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class Solution {
 public:
     int lengthOfLongestSubstringTwoDistinct(string s) {
@@ -19,6 +19,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/6f8683a84c82722e87acb81637132a182b02774f918ab316248b79f30153a45b-image.png)
+// ![image.png](https://pic.leetcode-cn.com/6f8683a84c82722e87acb81637132a182b02774f918ab316248b79f30153a45b-image.png)

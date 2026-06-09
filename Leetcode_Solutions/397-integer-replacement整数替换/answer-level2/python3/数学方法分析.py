@@ -1,5 +1,5 @@
-python3 36 ms
-```
+# python3 36 ms
+# ```
 class Solution:
     def integerReplacement(self, n: int) -> int:
         res = 0
@@ -18,4 +18,4 @@ class Solution:
             elif n % 4 == 3:
                 n = (n + 1) >> 1
                 res += 2
-```
+# ```

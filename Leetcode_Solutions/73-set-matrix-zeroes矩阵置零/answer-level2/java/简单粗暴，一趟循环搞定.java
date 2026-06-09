@@ -1,14 +1,14 @@
-### 解题思路
-![捕获.PNG](https://pic.leetcode-cn.com/040b0b8f3d7233c1e818547bb5c613ea1a7d2aa02eb07ede8679e757e3eaafc1-%E6%8D%95%E8%8E%B7.PNG)
+// ### 解题思路
+// ![捕获.PNG](https://pic.leetcode-cn.com/040b0b8f3d7233c1e818547bb5c613ea1a7d2aa02eb07ede8679e757e3eaafc1-%E6%8D%95%E8%8E%B7.PNG)
 
-主要思想:
-boolean[][] flags = new boolean[ROW][COLUMN]; //记录有没有被更新过
-boolean[][] originZeroflags = new boolean[ROW][COLUMN]; // 在更新过程中保留原来就为0的下标元素
+// 主要思想:
+// boolean[][] flags = new boolean[ROW][COLUMN]; //记录有没有被更新过
+// boolean[][] originZeroflags = new boolean[ROW][COLUMN]; // 在更新过程中保留原来就为0的下标元素
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void setZeroes(int[][] matrix) {
 		int ROW = matrix.length;
@@ -45,4 +45,4 @@ class Solution {
 
 	}
 }
-```
+// ```

@@ -1,16 +1,16 @@
-### 解题思路
+// ### 解题思路
 
-思路一：
+// 思路一：
 
-- 用一个桶表示secret中独有的数字，一个变量表示两者共有的数量，最后secret的长度减去前两个值就i是猜对数字，位置错误的数量
+// - 用一个桶表示secret中独有的数字，一个变量表示两者共有的数量，最后secret的长度减去前两个值就i是猜对数字，位置错误的数量
 
-思路二：
+// 思路二：
 
-- 用两个桶分别表示猜对的和猜错的
+// - 用两个桶分别表示猜对的和猜错的
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 
     public String getHintNew(String secret, String guess) {
@@ -84,4 +84,4 @@ public class BullsAndCows {
     }
 
 }
-```
+// ```

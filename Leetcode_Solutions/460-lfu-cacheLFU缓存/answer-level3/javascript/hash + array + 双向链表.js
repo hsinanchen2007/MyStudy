@@ -1,14 +1,14 @@
 
-## hash + array + 双向链表
-* hash存key和缓存的链表节点的引用
-* 访问次数相同的缓存按时间顺序放在双向链表中，然后存放在索引次数为索引的array中
-* 双向链表的节点信息有：缓存value，缓存key（方便删除缓存），缓存访问次数，前一个节点的引用，后一个节点的引用
-* 双向链表每次将新节点插入到head，移除最近最少使用的则移除尾节点；
+// ## hash + array + 双向链表
+// * hash存key和缓存的链表节点的引用
+// * 访问次数相同的缓存按时间顺序放在双向链表中，然后存放在索引次数为索引的array中
+// * 双向链表的节点信息有：缓存value，缓存key（方便删除缓存），缓存访问次数，前一个节点的引用，后一个节点的引用
+// * 双向链表每次将新节点插入到head，移除最近最少使用的则移除尾节点；
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} capacity
  */
@@ -112,4 +112,4 @@ DoubleLink.prototype.pop = function () {
     this.del(lastNode)
     return lastNode
 }
-```
+// ```

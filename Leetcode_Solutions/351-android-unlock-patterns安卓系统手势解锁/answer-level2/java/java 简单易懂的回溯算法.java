@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     int[] visit =  new int[10];
     int[][] arr;
@@ -44,4 +44,4 @@ class Solution {
         visit[index] = 0;
     }
 }
-```
+// ```

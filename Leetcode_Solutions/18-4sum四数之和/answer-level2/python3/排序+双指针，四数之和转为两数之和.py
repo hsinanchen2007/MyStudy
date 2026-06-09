@@ -1,12 +1,12 @@
-### 解题思路
-排序+双指针
-四数之和转为三数之和
-三数之和转为两数之和
-两数之和，借助排序+双指针
+# ### 解题思路
+# 排序+双指针
+# 四数之和转为三数之和
+# 三数之和转为两数之和
+# 两数之和，借助排序+双指针
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def fourSum(self, nums: List[int], target: int) -> List[List[int]]:
         nums.sort()
@@ -33,4 +33,4 @@ class Solution:
                     else:
                         L +=1
         return ans  
-```
+# ```

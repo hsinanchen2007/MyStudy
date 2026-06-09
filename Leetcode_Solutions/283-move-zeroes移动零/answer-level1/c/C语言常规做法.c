@@ -1,4 +1,4 @@
-```c
+// ```c
 void moveZeroes(int* nums, int numsSize){
     short i,j;
     for(i=0;i<numsSize;i++){
@@ -12,4 +12,4 @@ void moveZeroes(int* nums, int numsSize){
         if(nums[i]==0&&j!=numsSize) i--;
     }
 }
-```
+// ```

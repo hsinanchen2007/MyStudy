@@ -1,11 +1,11 @@
-### 解题思路
-1. 判断是否有环
-2. 环中节点个数
-3. 快慢指针，快指针先走环中节点个数步
+// ### 解题思路
+// 1. 判断是否有环
+// 2. 环中节点个数
+// 3. 快慢指针，快指针先走环中节点个数步
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * class ListNode {
@@ -66,4 +66,4 @@ public class Solution {
         return null;
     }
 }
-```
+// ```

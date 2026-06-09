@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     int ans = 0;
@@ -16,4 +16,4 @@ public:
         return ans;
     }
 };
-```
+// ```

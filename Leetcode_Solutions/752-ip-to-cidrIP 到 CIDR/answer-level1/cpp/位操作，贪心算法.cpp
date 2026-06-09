@@ -1,9 +1,9 @@
-### 解题思路
-一开始没想明白，后来参考了一位用c语言解题的同学的思路，用c++写了一遍
+// ### 解题思路
+// 一开始没想明白，后来参考了一位用c语言解题的同学的思路，用c++写了一遍
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> ipToCIDR(string ip, int n) {
@@ -67,4 +67,4 @@ private:
         return answer;
     }
 };
-```
+// ```

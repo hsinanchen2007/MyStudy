@@ -1,13 +1,13 @@
-### 解题思路
-大致意思就是“存在一个加密方法：把某一字符替换成另一字符，现在给你一个字符串s和一个字符串t，判断一下t是不是由s经过加密而得到的”.
-通过“比较一个字符串中不同位置的不同字符，在另一字符串中相同位置是不是对应同样的字符”可以得出结论。
-“判断每种字符在两个字符串中第一次出现的位置是否相同”这个方法挺巧妙的。
-参考：https://leetcode-cn.com/problems/isomorphic-strings/solution/ji-lu-bing-bi-jiao-zi-mu-shou-ci-chu-xian-de-wei-z/
+// ### 解题思路
+// 大致意思就是“存在一个加密方法：把某一字符替换成另一字符，现在给你一个字符串s和一个字符串t，判断一下t是不是由s经过加密而得到的”.
+// 通过“比较一个字符串中不同位置的不同字符，在另一字符串中相同位置是不是对应同样的字符”可以得出结论。
+// “判断每种字符在两个字符串中第一次出现的位置是否相同”这个方法挺巧妙的。
+// 参考：https://leetcode-cn.com/problems/isomorphic-strings/solution/ji-lu-bing-bi-jiao-zi-mu-shou-ci-chu-xian-de-wei-z/
 
-不太喜欢申请很多内存空间闲着，写了链表，牺牲时间换空间。
-### 代码
+// 不太喜欢申请很多内存空间闲着，写了链表，牺牲时间换空间。
+// ### 代码
 
-```c
+// ```c
 typedef struct Node{
     char data;
     int firstTime;
@@ -61,4 +61,4 @@ bool isIsomorphic(char * s, char * t){
         }
     return true;
 }
-```
+// ```

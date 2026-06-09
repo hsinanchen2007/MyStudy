@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-分两步：确定是否有环，若有环则进入另一个循环找到入环的第一个节点即可
+// 分两步：确定是否有环，若有环则进入另一个循环找到入环的第一个节点即可
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -31,4 +31,4 @@ func detectCycle(head *ListNode) *ListNode {
 
     return nil
 }
-```
+// ```

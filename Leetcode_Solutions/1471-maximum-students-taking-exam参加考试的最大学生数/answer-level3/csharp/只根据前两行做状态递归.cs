@@ -1,9 +1,9 @@
-### 解题思路
-每行状态 只受前两个 状态影响
+// ### 解题思路
+// 每行状态 只受前两个 状态影响
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 using VT = System.ValueTuple<ulong, ulong, int>;
 class MaxStu2{
     private int totalPos;
@@ -140,4 +140,4 @@ public class Solution {
         return ms.MaxStudents(seats);
     }
 }
-```
+// ```

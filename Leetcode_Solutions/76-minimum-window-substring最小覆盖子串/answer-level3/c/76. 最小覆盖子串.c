@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/017482615e793d53c0589838cc68952ac7d1de101eb4e9bb84776f8ba67afc3f-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/017482615e793d53c0589838cc68952ac7d1de101eb4e9bb84776f8ba67afc3f-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define DEBUG 0
 typedef struct _node_t {
     int left;
@@ -338,4 +338,4 @@ char * minWindow(char * s, char * t){
 "bba"
 "ab"
 */
-```
+// ```

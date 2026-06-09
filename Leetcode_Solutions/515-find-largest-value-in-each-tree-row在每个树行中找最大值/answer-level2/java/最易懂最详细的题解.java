@@ -1,13 +1,13 @@
-## 515. 在每个树行中找最大值
-[原题链接](https://leetcode-cn.com/problems/find-largest-value-in-each-tree-row/)
-### 要点
-关键词: **每一行**
-也就是说当遇到某一行的时候，只要更新这一行的最大值即可。
-### 解法
-1. 利用先序遍历更细当前层级的数据信息。
-2. 将```根结点```作为第0层，可以与数组的下标吻合，即当前的层级就是下标。
-#### 代码片段
-```java
+// ## 515. 在每个树行中找最大值
+// [原题链接](https://leetcode-cn.com/problems/find-largest-value-in-each-tree-row/)
+// ### 要点
+// 关键词: **每一行**
+// 也就是说当遇到某一行的时候，只要更新这一行的最大值即可。
+// ### 解法
+// 1. 利用先序遍历更细当前层级的数据信息。
+// 2. 将```根结点```作为第0层，可以与数组的下标吻合，即当前的层级就是下标。
+// #### 代码片段
+// ```java
 class Solution {
 	List<Integer> list = new ArrayList<>();//1.初始化结果数组
 
@@ -36,11 +36,11 @@ class Solution {
 		largestValuesHelper(root.right, level + 1);//6.求解右子树，更新层级
 	}
 }
-```
-#### 代码解释
+// ```
+// #### 代码解释
 
----
-## 结尾 
-##### <u>[1.博客地址](https://blog.csdn.net/weixin_42322309)</u>
-##### <u>[2.源代码仓库](https://gitee.com/Gre-Z/Algorithm")</u>
-> 如果你在代码里看到了用 数字标记的注释 如 //1.xxx 这是我写代码的顺序，希望能给你一点启发。
+// ---
+// ## 结尾 
+// ##### <u>[1.博客地址](https://blog.csdn.net/weixin_42322309)</u>
+// ##### <u>[2.源代码仓库](https://gitee.com/Gre-Z/Algorithm")</u>
+// > 如果你在代码里看到了用 数字标记的注释 如 //1.xxx 这是我写代码的顺序，希望能给你一点启发。

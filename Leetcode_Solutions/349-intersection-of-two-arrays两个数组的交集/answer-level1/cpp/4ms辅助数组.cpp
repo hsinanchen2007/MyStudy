@@ -1,11 +1,11 @@
-### 解题思路
-辅助数组
-先遍历nums1 出现过的辅助数组设为1；
-后遍历nums2 辅助数组为1 的放入res；
+// ### 解题思路
+// 辅助数组
+// 先遍历nums1 出现过的辅助数组设为1；
+// 后遍历nums2 辅助数组为1 的放入res；
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
@@ -24,4 +24,4 @@ public:
     return res;
     }
 };
-```
+// ```

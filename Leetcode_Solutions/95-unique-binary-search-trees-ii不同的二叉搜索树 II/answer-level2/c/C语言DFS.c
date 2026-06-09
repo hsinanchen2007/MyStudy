@@ -1,4 +1,4 @@
-贴个C语言的：
+// 贴个C语言的：
 
 void AddNode(int val, struct TreeNode *left_res, struct TreeNode *right_res, struct TreeNode ***out, int *size)
 {

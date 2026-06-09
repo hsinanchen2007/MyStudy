@@ -1,4 +1,4 @@
-```
+// ```
 func fizzBuzz(n int) []string {
     ans := []string{}
     for i:=1; i<=n; i++ {
@@ -14,4 +14,4 @@ func fizzBuzz(n int) []string {
     }
     return ans
 }
-```
+// ```

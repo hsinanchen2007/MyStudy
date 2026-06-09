@@ -1,12 +1,12 @@
-### 解题思路
-遍历
-第一个数是高位置：
-ans = ans * 2 + cur->val
-类似
-ans = ans * 10 + cur->val
-### 代码
+// ### 解题思路
+// 遍历
+// 第一个数是高位置：
+// ans = ans * 2 + cur->val
+// 类似
+// ans = ans * 10 + cur->val
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -27,4 +27,4 @@ public:
         return ans;
     }
 };
-```
+// ```

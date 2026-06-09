@@ -1,4 +1,4 @@
-```python3
+# ```python3
 class Solution:
     def minSubArrayLen(self, s: int, nums: List[int]) -> int:
         if sum(nums) < s:

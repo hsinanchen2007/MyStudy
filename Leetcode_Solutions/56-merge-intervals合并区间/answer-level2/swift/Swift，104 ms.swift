@@ -1,4 +1,4 @@
-```swift
+// ```swift
 class Solution {
     func merge(_ intervals: [[Int]]) -> [[Int]] {
         if intervals.count <= 1 { return intervals }
@@ -17,4 +17,4 @@ class Solution {
         return ans
     }
 }
-```
+// ```

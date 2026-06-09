@@ -1,7 +1,7 @@
-"23",2对应abc,3对应def;
-最简单的思路双层嵌套循环，但是不知道最终输入会有几层循环，所以使用递归，设递归基，到底自动返回；
-用pos标志当前处于递归调用链的哪一层，找到对应的字符，循环尝试，并深入递归下去；
-```
+// "23",2对应abc,3对应def;
+// 最简单的思路双层嵌套循环，但是不知道最终输入会有几层循环，所以使用递归，设递归基，到底自动返回；
+// 用pos标志当前处于递归调用链的哪一层，找到对应的字符，循环尝试，并深入递归下去；
+// ```
 void backtrace(string digits, vector<string>& res,map<char,string> &Hash,string &path,int pos)
 {
 	if (pos == digits.size()) {
@@ -25,4 +25,4 @@ vector<string> letterCombinations(string digits)
 	backtrace(digits, res, Hash, path, 0);
 	return res;
 }
-```
+// ```

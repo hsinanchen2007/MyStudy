@@ -1,12 +1,12 @@
-### 1、粗暴
-```
+// ### 1、粗暴
+// ```
 func mySqrt(x int) int {
 	return int(math.Sqrt(float64(x)))
 }
-```
+// ```
 
-### 2、二分查找，查找第一个小于等于给定值的元素
-```
+// ### 2、二分查找，查找第一个小于等于给定值的元素
+// ```
 func mySqrt(x int) int {
 	start := 0
 	end := x/2 + 1
@@ -24,4 +24,4 @@ func mySqrt(x int) int {
 	}
 	return -1
 }
-```
+// ```

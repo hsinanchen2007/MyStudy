@@ -1,6 +1,6 @@
-  就是快排的一次遍历
+//   就是快排的一次遍历
 
-```
+// ```
 inline
 bool isvowel(char c) {
     const char * const vowels = "aeiouAEIOU";
@@ -25,4 +25,4 @@ char * reverseVowels(char * s){
     }
     return s;
 }
-```
+// ```

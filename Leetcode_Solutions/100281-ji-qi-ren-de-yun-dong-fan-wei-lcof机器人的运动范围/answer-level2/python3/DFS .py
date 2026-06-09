@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def movingCount(self, m: int, n: int, k: int) -> int:
         if k== 0: return 1
@@ -21,4 +21,4 @@ class Solution:
         return len([k for k in result_map if result_map[k]])
 
 
-```
+# ```

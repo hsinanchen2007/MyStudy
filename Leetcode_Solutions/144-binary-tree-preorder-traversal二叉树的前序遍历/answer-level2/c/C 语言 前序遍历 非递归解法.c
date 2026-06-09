@@ -1,12 +1,12 @@
-### 解题思路
-将遍历过的结点入栈，然后遍历其左子树
-当左子树为NULL时，出栈遍历其右子树
+// ### 解题思路
+// 将遍历过的结点入栈，然后遍历其左子树
+// 当左子树为NULL时，出栈遍历其右子树
 
-手写的动态栈，有点麻烦，当巩固基础了
+// 手写的动态栈，有点麻烦，当巩固基础了
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -95,4 +95,4 @@ int* preorderTraversal(struct TreeNode* root, int* returnSize){
     free(ps); // 释放栈顶栈底指针
     return returnNums;
 }
-```
+// ```

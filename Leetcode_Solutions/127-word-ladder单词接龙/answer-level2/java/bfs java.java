@@ -1,9 +1,9 @@
-### 解题思路
-bfs
+// ### 解题思路
+// bfs
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {//BFS单源最短
         int ans=0;
@@ -50,4 +50,4 @@ class Solution {
         return  count<=1;
    }
 }
-```
+// ```

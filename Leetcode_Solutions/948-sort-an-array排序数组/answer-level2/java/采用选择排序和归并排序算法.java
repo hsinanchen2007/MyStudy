@@ -1,4 +1,4 @@
-```
+// ```
 public class MySort {
 	//选择排序法(升序)
 	public static int[] selectionSort(int[] originalData) {
@@ -55,6 +55,6 @@ public class MySort {
 	        }
 	    }
 }
-```
+// ```
 
 

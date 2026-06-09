@@ -1,11 +1,11 @@
-照惯例提供参考题解，不提供本人的最优题解，本题不能使用合并后再排序，否则必然超时。
+// 照惯例提供参考题解，不提供本人的最优题解，本题不能使用合并后再排序，否则必然超时。
 
-#### 解题核心：
-1. 因为是有序数组，可创建双指针，通过对比两个数组当前位置的大小即可获取当前的排序数。
-2. 设置集合存放上一位数，由于长度为偶数情况下需要取两数的平均数。
+// #### 解题核心：
+// 1. 因为是有序数组，可创建双指针，通过对比两个数组当前位置的大小即可获取当前的排序数。
+// 2. 设置集合存放上一位数，由于长度为偶数情况下需要取两数的平均数。
 
-代码如下：
-```Java []
+// 代码如下：
+// ```Java []
 public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int isEven = (nums1.length + nums2.length) % 2;
 		int midden = (nums1.length + nums2.length) / 2;
@@ -35,4 +35,4 @@ public double findMedianSortedArrays(int[] nums1, int[] nums2) {
 			return nums.get(midden);
 		}
     }
-```
+// ```

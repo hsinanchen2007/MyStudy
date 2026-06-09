@@ -1,9 +1,9 @@
-### 解题思路
-从角落开始写即可（左下|右上），然后依次判断即可，注意当输入为空的时候的NULL错误
+// ### 解题思路
+// 从角落开始写即可（左下|右上），然后依次判断即可，注意当输入为空的时候的NULL错误
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
@@ -25,4 +25,4 @@ public:
         return false;
     }
 };
-```
+// ```

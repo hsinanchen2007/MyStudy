@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/6c9fc8c8cc3fdfe9dc7a9a1545c4505e6f5372d2707e5ec93fcd67a27618464f-image.png)
+// ![image.png](https://pic.leetcode-cn.com/6c9fc8c8cc3fdfe9dc7a9a1545c4505e6f5372d2707e5ec93fcd67a27618464f-image.png)
 
-```
+// ```
 class Solution {
 public:
     bool match(int num)
@@ -71,4 +71,4 @@ public:
         return count;
     }
 };
-```
+// ```

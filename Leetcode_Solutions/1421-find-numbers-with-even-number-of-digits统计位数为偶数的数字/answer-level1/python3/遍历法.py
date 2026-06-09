@@ -1,9 +1,9 @@
-### 解题思路
-遍历整个list,对于每一个非0数字，通过整除10来判断它的位数，如果位数是偶数，计数器count + 1
+# ### 解题思路
+# 遍历整个list,对于每一个非0数字，通过整除10来判断它的位数，如果位数是偶数，计数器count + 1
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findNumbers(self, nums: List[int]) -> int:
         count = 0
@@ -17,4 +17,4 @@ class Solution:
         
         return count
 
-```
+# ```

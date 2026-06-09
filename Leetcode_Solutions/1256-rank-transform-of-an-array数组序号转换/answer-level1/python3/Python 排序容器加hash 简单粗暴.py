@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/476b9db09788aed67dcd9183dda16326bcd64f9e69ad10714441c7f7e01a5ae1-image.png)
+# ![image.png](https://pic.leetcode-cn.com/476b9db09788aed67dcd9183dda16326bcd64f9e69ad10714441c7f7e01a5ae1-image.png)
 
 
-```
+# ```
 from typing import List
 from sortedcontainers import SortedSet
 class Solution:
@@ -20,4 +20,4 @@ class Solution:
                 arr[pos] = rank
             rank += 1
         return arr
-```
+# ```

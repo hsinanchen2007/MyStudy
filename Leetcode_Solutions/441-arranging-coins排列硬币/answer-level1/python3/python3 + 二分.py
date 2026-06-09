@@ -1,9 +1,9 @@
-### 解题思路
-二分查找就行了，使用等差数列优化求和，不然会超时.
+# ### 解题思路
+# 二分查找就行了，使用等差数列优化求和，不然会超时.
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def arrangeCoins(self, n: int) -> int:
         # 使用等差数列求和公式优化
@@ -23,4 +23,4 @@ class Solution:
             else:
                 left = mid
         return left
-```
+# ```

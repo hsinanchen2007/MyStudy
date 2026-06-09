@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```
+# ```
 
 class Solution:
     def eraseOverlapIntervals(self, intervals: List[List[int]]) -> int:
@@ -25,4 +25,4 @@ class Solution:
             else:
                 pass
         return lens-nums ##剩下的就是不能连续组合的数组的个数
-```
+# ```

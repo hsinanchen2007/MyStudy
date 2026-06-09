@@ -1,9 +1,9 @@
-### 解题思路
-两个字符串需要相互映射 实现完全对应的替换
+// ### 解题思路
+// 两个字符串需要相互映射 实现完全对应的替换
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isIsomorphic(string s, string t) {
@@ -19,4 +19,4 @@ public:
         return true;
     }
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![QQ截图20200402154327.png](https://pic.leetcode-cn.com/a67e9e24adb8566d3b2adf6208700b78b9998ba767a49d1880f0c20e014a38e5-QQ%E6%88%AA%E5%9B%BE20200402154327.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![QQ截图20200402154327.png](https://pic.leetcode-cn.com/a67e9e24adb8566d3b2adf6208700b78b9998ba767a49d1880f0c20e014a38e5-QQ%E6%88%AA%E5%9B%BE20200402154327.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * countAndSay(int n)
 {  int i,j,k,m,num;
    char p,q;
@@ -42,4 +42,4 @@ char * countAndSay(int n)
     return res1;
 }
 
-```
+// ```

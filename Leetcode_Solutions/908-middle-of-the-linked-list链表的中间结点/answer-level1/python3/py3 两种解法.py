@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def middleNode(self, head: ListNode) -> ListNode:
         slow=head
@@ -11,8 +11,8 @@ class Solution:
             return slow.next
         else:
             return slow
-```
-```
+# ```
+# ```
 class Solution:
     def middleNode(self, head: ListNode) -> ListNode:
 
@@ -29,4 +29,4 @@ class Solution:
             count-=1
 
         return slow
-```
+# ```

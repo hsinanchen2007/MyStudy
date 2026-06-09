@@ -1,8 +1,8 @@
-## 思路一：递归
-### 代码
-时间复杂度：O(n)
-空间复杂度：O(n)
-```c++
+// ## 思路一：递归
+// ### 代码
+// 时间复杂度：O(n)
+// 空间复杂度：O(n)
+// ```c++
 class Solution {
 public:
     vector<int> preorderTraversal(TreeNode* root) {
@@ -21,13 +21,13 @@ public:
         }
     }
 };
-```
+// ```
 
-## 思路二：迭代
-### 代码
-时间复杂度：O(n)
-空间复杂度：O(n)
-```c++
+// ## 思路二：迭代
+// ### 代码
+// 时间复杂度：O(n)
+// 空间复杂度：O(n)
+// ```c++
 class Solution {
 public:
     vector<int> preorderTraversal(TreeNode* root) {
@@ -51,7 +51,7 @@ public:
         return res;
     }  
 };
-```
+// ```
 
 
 

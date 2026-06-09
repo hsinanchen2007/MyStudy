@@ -1,8 +1,8 @@
-### 从左边开始遍历，遍历完左边分支，计数器temp加1，当temp和k相等的时候，即找到了要求的值，并通过抛错误强制退出递归，此时theanswer即为要求的值；如果temp和k不相等，去找右边的分支，如果完全找不到，返回-1。
+// ### 从左边开始遍历，遍历完左边分支，计数器temp加1，当temp和k相等的时候，即找到了要求的值，并通过抛错误强制退出递归，此时theanswer即为要求的值；如果temp和k不相等，去找右边的分支，如果完全找不到，返回-1。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -35,4 +35,4 @@ class Solution {
         return theanswer;
     }
 }
-```
+// ```

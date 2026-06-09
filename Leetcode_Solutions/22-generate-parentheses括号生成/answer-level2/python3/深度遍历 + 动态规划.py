@@ -1,8 +1,8 @@
-### 解题思路1
-将左右括号都比喻成两个库存，每次从库存调用所需，并根据情况来决定是否从库存调用。
-### 代码
+# ### 解题思路1
+# 将左右括号都比喻成两个库存，每次从库存调用所需，并根据情况来决定是否从库存调用。
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
         #库存
@@ -49,15 +49,15 @@ class Solution:
             recursion(choose_right, noter, temp_lefts, temp_rights, totalset, sofar)
         recursion(choose_left, 0, ls, rs, total, '')
         return list(total)
-```
+# ```
 
-### 解题思路2
-动态规划
-参考：[精选题解](https://leetcode-cn.com/problems/generate-parentheses/solution/zui-jian-dan-yi-dong-de-dong-tai-gui-hua-bu-lun-da/)
+# ### 解题思路2
+# 动态规划
+# 参考：[精选题解](https://leetcode-cn.com/problems/generate-parentheses/solution/zui-jian-dan-yi-dong-de-dong-tai-gui-hua-bu-lun-da/)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
         dp = [['']] + [[] for i in range(n)]

@@ -1,9 +1,9 @@
-### 解题思路
-方法一：删除链表中的元素
+// ### 解题思路
+// 方法一：删除链表中的元素
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -35,4 +35,4 @@ struct ListNode* deleteDuplicates(struct ListNode* head){
     }
     return head;
 }
-```
+// ```

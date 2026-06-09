@@ -1,12 +1,12 @@
-### 解题思路
-递归法归并法
+// ### 解题思路
+// 递归法归并法
 
-![image.png](https://pic.leetcode-cn.com/a3a1250674ffa0473f9ffea7ebff6da522a0c7a942b2265c6037ec14eb72dae4-image.png)
-![image.png](https://pic.leetcode-cn.com/d5a227716ce8045ffd8bae04d13a77192840cd46efb9ec2e11665dcd9f6c3965-image.png)
+// ![image.png](https://pic.leetcode-cn.com/a3a1250674ffa0473f9ffea7ebff6da522a0c7a942b2265c6037ec14eb72dae4-image.png)
+// ![image.png](https://pic.leetcode-cn.com/d5a227716ce8045ffd8bae04d13a77192840cd46efb9ec2e11665dcd9f6c3965-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -31,4 +31,4 @@ public:
         }
     }
 };
-```
+// ```

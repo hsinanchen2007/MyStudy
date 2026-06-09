@@ -1,11 +1,11 @@
-### 解题思路
-题目意思：将小于x的节点放在链表前部
-partTail是小于x的部分的尾巴
-建立空头节点哨兵，用head遍历，prev记录前置节点
+// ### 解题思路
+// 题目意思：将小于x的节点放在链表前部
+// partTail是小于x的部分的尾巴
+// 建立空头节点哨兵，用head遍历，prev记录前置节点
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     ListNode* partition(ListNode* head, int x) {
@@ -30,4 +30,4 @@ public:
     	return emptyHead->next;
     }
 };
-```
+// ```

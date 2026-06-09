@@ -1,5 +1,5 @@
-就是单纯的模拟加法的过程，不懂的欢迎留言
-```
+// 就是单纯的模拟加法的过程，不懂的欢迎留言
+// ```
 char * addStrings(char * num1, char * num2){
     int num,length,length1=strlen(num1),length2=strlen(num2),
     i=length1-1,sum=0,j=length2-1,k;
@@ -31,4 +31,4 @@ char * addStrings(char * num1, char * num2){
     }
     return num3;
 }       
-```
+// ```

@@ -1,5 +1,5 @@
 
-```
+// ```
 class Solution {
 public:
     int hammingWeight(uint32_t n) {
@@ -9,4 +9,4 @@ public:
         return num;
     }
 };
-```
+// ```

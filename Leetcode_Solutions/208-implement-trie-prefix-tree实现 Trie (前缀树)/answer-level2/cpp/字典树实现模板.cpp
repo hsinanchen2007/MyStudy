@@ -1,9 +1,9 @@
-### 解题思路
-模板
+// ### 解题思路
+// 模板
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Trie {
 public:
     struct Node{
@@ -63,4 +63,4 @@ public:
  * bool param_2 = obj->search(word);
  * bool param_3 = obj->startsWith(prefix);
  */
-```
+// ```

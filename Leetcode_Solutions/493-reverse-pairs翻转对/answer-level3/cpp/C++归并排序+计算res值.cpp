@@ -1,5 +1,5 @@
-空间复杂度: O(N),时间复杂度O(NlogN)
-```
+// 空间复杂度: O(N),时间复杂度O(NlogN)
+// ```
 class Solution {
     int res;
     int temp[50005];
@@ -43,7 +43,7 @@ public:
             nums[i] = temp[k++];
     }
 };
-```
-在merge中多加一周循环用来计算反转对个数，可以从大到小计算，时间复杂对为O(N)
-算法时间复杂度为O(NlogN).
-不过卡long long确实恶心了我一下
+// ```
+// 在merge中多加一周循环用来计算反转对个数，可以从大到小计算，时间复杂对为O(N)
+// 算法时间复杂度为O(NlogN).
+// 不过卡long long确实恶心了我一下

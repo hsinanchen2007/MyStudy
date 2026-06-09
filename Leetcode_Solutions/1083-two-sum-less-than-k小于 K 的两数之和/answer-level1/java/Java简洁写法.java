@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int twoSumLessThanK(int[] A, int K) {
         if (A == null || A.length < 2) return -1;
@@ -17,4 +17,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

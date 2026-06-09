@@ -1,4 +1,4 @@
-``` c
+// ``` c
 bool isVowel(char c){
     return 'a'== c||'e'==c||'i'==c||'o'==c||'u'== c||'A'==c||'E'==c||'I'==c||'O'==c||'U'==c;
 }
@@ -18,4 +18,4 @@ char *reverseVowels(char *s){
     }
     return s;
 }
-```
+// ```

@@ -1,14 +1,14 @@
 
-# 题解
-我们不断的遍历两个链表，每次遍历都将链表a和链表b的值相加，再赋给链表a。如果有进位我们还需要记录一个进位标志。   
-循环的条件是链表a不为空或者链表b不为空，这样当整个循环结束时，链表就被串起来了。   
-当循环结束时，如果进位标志>0还需要处理下边界条件。   
-我们不用生成一个新的节点，直接将两个节点相加的值赋给节点a就可以了，这样只用改变节点的内容，速度会更快一些。   
-![迭代.gif](https://pic.leetcode-cn.com/9f326746800ef8b13ee6bac7bf5154356cb9d99f623364773be4d7fc01259ef4-%E8%BF%AD%E4%BB%A3.gif)
+// # 题解
+// 我们不断的遍历两个链表，每次遍历都将链表a和链表b的值相加，再赋给链表a。如果有进位我们还需要记录一个进位标志。   
+// 循环的条件是链表a不为空或者链表b不为空，这样当整个循环结束时，链表就被串起来了。   
+// 当循环结束时，如果进位标志>0还需要处理下边界条件。   
+// 我们不用生成一个新的节点，直接将两个节点相加的值赋给节点a就可以了，这样只用改变节点的内容，速度会更快一些。   
+// ![迭代.gif](https://pic.leetcode-cn.com/9f326746800ef8b13ee6bac7bf5154356cb9d99f623364773be4d7fc01259ef4-%E8%BF%AD%E4%BB%A3.gif)
   
     
-代码实现：
-```java []
+// 代码实现：
+// ```java []
 class Solution {
 	public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 		ListNode p = null;
@@ -39,8 +39,8 @@ class Solution {
 		return l1;
 	}
 }
-```
-```python []
+// ```
+// ```python []
 class Solution(object):
 	def addTwoNumbers(self, l1, l2):
 		# 定义一个进位标志
@@ -60,24 +60,24 @@ class Solution(object):
 			p.next = ListNode(carry)
 		# 每次迭代实际上都是将val赋给a指针的，所以最后返回的是l1	
 		return l1
-```
+// ```
    
    
    
-# 递归实现
-写递归的时候注意递归函数的两个条件，递归出口条件，以及函数内要做什么。   
-1. 递归出口条件：链表a和链表b都为空时   
-2. 将两个链表的值相加，再赋给链表a   
+// # 递归实现
+// 写递归的时候注意递归函数的两个条件，递归出口条件，以及函数内要做什么。   
+// 1. 递归出口条件：链表a和链表b都为空时   
+// 2. 将两个链表的值相加，再赋给链表a   
    
-这里需要注意第二个条件，因为进位标志需要通告下一层递归函数，所以需要有一个单独的变量作为记录。   
-函数内部的进位标志判断，val计算的方式和迭代版本是类似的。   
-调用下一层递归的时候，传递的参数是a.next和b.next。   
-这里还需要注意一个细节，如果a，b两个链表不一样长，意味递归到一定的层次时，某个链表会出现null，这时需要做一个补0的操作，创建一个新的节点赋给节点为空的链表。这也是为什么递归函数的终止条件是a和b都==null的原因。   
-![递归.gif](https://pic.leetcode-cn.com/b8167f09861055f1f2fa8c4aa11e185b4f92a8d488e7de76e9c8609adaa42e1e-%E9%80%92%E5%BD%92.gif)
+// 这里需要注意第二个条件，因为进位标志需要通告下一层递归函数，所以需要有一个单独的变量作为记录。   
+// 函数内部的进位标志判断，val计算的方式和迭代版本是类似的。   
+// 调用下一层递归的时候，传递的参数是a.next和b.next。   
+// 这里还需要注意一个细节，如果a，b两个链表不一样长，意味递归到一定的层次时，某个链表会出现null，这时需要做一个补0的操作，创建一个新的节点赋给节点为空的链表。这也是为什么递归函数的终止条件是a和b都==null的原因。   
+// ![递归.gif](https://pic.leetcode-cn.com/b8167f09861055f1f2fa8c4aa11e185b4f92a8d488e7de76e9c8609adaa42e1e-%E9%80%92%E5%BD%92.gif)
    
    
-代码实现：
-```java []
+// 代码实现：
+// ```java []
 class Solution {
 	public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 		return add(l1,l2,0);
@@ -103,8 +103,8 @@ class Solution {
 		return a;
 	}
 }
-```
-```python []
+// ```
+// ```python []
 class Solution(object):
 	def addTwoNumbers(self, l1, l2):
 		# 主要逻辑都在内部函数中实现
@@ -125,8 +125,8 @@ class Solution(object):
 			a.next = add(a.next,b.next,carry)
 			return a
 		return add(l1,l2,0)
-```
-(全文完)
-**如果你觉得本文对你有帮助，欢迎关注我的公众号。**
+// ```
+// (全文完)
+// **如果你觉得本文对你有帮助，欢迎关注我的公众号。**
    
-![ban.png](https://pic.leetcode-cn.com/6b52b8de211ec9b634d7aaf6ccf2d9149160ca3b67ea0742c57f622f1c54e47d-ban.png)
+// ![ban.png](https://pic.leetcode-cn.com/6b52b8de211ec9b634d7aaf6ccf2d9149160ca3b67ea0742c57f622f1c54e47d-ban.png)

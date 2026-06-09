@@ -1,9 +1,9 @@
-### 解题思路
-用map先统计元素出现次数，最后从map中找出出现次数最多的元素
+// ### 解题思路
+// 用map先统计元素出现次数，最后从map中找出出现次数最多的元素
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {
@@ -32,4 +32,4 @@ public:
         return item;
     }
 };
-```
+// ```

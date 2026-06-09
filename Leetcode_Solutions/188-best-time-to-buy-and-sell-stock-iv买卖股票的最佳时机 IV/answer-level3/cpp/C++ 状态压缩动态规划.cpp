@@ -1,5 +1,5 @@
-参考@labuladong的解法
-```
+// 参考@labuladong的解法
+// ```
 class Solution {
 public:
     int maxProfit(int k, vector<int>& prices) {
@@ -24,6 +24,6 @@ public:
         return dp[k][0];
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/4e79690f3ecb57152bb04fa34658bf64d17f2580cc9ed3c5b21370b4ceebac0f-image.png)
+// ![image.png](https://pic.leetcode-cn.com/4e79690f3ecb57152bb04fa34658bf64d17f2580cc9ed3c5b21370b4ceebac0f-image.png)

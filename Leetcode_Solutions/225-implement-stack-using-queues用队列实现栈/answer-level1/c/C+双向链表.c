@@ -1,14 +1,14 @@
-### 解题思路
-1. 双向链表, head, last
-2. push: 分配新节点放在last->next, last更新到新节点
-3. pop：返回last节点的值，last更新到last->prev
-4. pop：返回last节点的值
-5. empty：根据last节点是否为NULL判断
-6. 假设所有操作有效，因此省了一些异常判断。
+// ### 解题思路
+// 1. 双向链表, head, last
+// 2. push: 分配新节点放在last->next, last更新到新节点
+// 3. pop：返回last节点的值，last更新到last->prev
+// 4. pop：返回last节点的值
+// 5. empty：根据last节点是否为NULL判断
+// 6. 假设所有操作有效，因此省了一些异常判断。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct myListNode {
     int val;
     struct myListNode *next;
@@ -91,4 +91,4 @@ void myStackFree(MyStack* obj) {
  
  * myStackFree(obj);
 */
-```
+// ```

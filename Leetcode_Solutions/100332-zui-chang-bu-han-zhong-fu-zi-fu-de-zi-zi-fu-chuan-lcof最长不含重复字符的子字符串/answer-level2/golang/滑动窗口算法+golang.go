@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-滑动窗口算法，使用字典辅助一下记录是否前面出现过。
+// 滑动窗口算法，使用字典辅助一下记录是否前面出现过。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func lengthOfLongestSubstring(s string) int {
 	// q store index of first
 	q := []int{}
@@ -27,4 +27,4 @@ func lengthOfLongestSubstring(s string) int {
 	}
 	return maxLength
 }
-```
+// ```

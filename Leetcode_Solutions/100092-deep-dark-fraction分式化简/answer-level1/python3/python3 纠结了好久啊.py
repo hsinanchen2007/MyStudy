@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def MyRun(self,cont,value,fraction,n):
         while -n<=len(cont):
@@ -14,4 +14,4 @@ class Solution:
         return self.MyRun(cont,cont[-1]*cont[-2]+1,cont[-1],-3)
 s1=Solution()
 print(s1.fraction([3, 2, 0, 2]))
-```
+# ```

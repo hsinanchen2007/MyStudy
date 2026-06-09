@@ -1,4 +1,4 @@
-```rust
+// ```rust
 impl Solution {
     pub fn set_zeroes(matrix: &mut Vec<Vec<i32>>) {
 // 用第一次碰到0的行和列作为标记位置，用非0数初始化
@@ -66,4 +66,4 @@ impl Solution {
         }
     }
 }
-```
+// ```

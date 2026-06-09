@@ -1,6 +1,6 @@
-用时4ms，击败100%
+# 用时4ms，击败100%
 
-```
+# ```
 class Solution(object):
     def generate(self, numRows):
         """
@@ -20,4 +20,4 @@ class Solution(object):
             # print(temp_list)
             res_list.append(temp_list)
         return res_list
-```
+# ```

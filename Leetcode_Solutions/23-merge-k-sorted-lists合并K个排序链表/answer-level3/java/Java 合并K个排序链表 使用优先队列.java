@@ -1,9 +1,9 @@
-### 解题思路
-优先队列保存所有ListNode，按照val值排序
+// ### 解题思路
+// 优先队列保存所有ListNode，按照val值排序
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -41,4 +41,4 @@ class Solution {
         return node.next ;   
     }
 }
-```
+// ```

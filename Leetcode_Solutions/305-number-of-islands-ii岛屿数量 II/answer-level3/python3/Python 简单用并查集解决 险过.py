@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/db003e36e206d4a944cb00f33127b034b666333611dfd906d60d7f79d28f534e-image.png)
+# ![image.png](https://pic.leetcode-cn.com/db003e36e206d4a944cb00f33127b034b666333611dfd906d60d7f79d28f534e-image.png)
 
 
-```
+# ```
 from typing import List
 
 '''
@@ -65,4 +65,4 @@ class Solution:
             ans.append(merge_set.getRootNum())
 
         return ans
-```
+# ```

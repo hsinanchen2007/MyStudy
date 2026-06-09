@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func find132pattern(nums []int) bool {
 	if len(nums) == 0 {
 		return false
@@ -24,4 +24,4 @@ func find132pattern(nums []int) bool {
 	}
 	return false
 }
-```
+// ```

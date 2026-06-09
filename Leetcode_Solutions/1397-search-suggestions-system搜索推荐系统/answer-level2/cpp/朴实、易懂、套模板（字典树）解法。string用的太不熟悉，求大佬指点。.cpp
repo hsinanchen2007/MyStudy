@@ -1,11 +1,11 @@
-# 核心思想
-**构建字典树；然后找到word在字典树中的位置；以word的最后一个字符所在节点为根，遍历这棵子树，找到答案。**
-例1中，searchWord为"mouse"，那么word就为"m", "mo", "mou", "mous", "mouse"。
-如此时word为"mou"，那么就需要找到"mou"中的'u'在字典树中的位置，以该位置为根，然后去遍历子树，从而得到word == "mou"时的答案。
+// # 核心思想
+// **构建字典树；然后找到word在字典树中的位置；以word的最后一个字符所在节点为根，遍历这棵子树，找到答案。**
+// 例1中，searchWord为"mouse"，那么word就为"m", "mo", "mou", "mous", "mouse"。
+// 如此时word为"mou"，那么就需要找到"mou"中的'u'在字典树中的位置，以该位置为根，然后去遍历子树，从而得到word == "mou"时的答案。
 
-# 字典树的基本操作
-### 数据结构
-```
+// # 字典树的基本操作
+// ### 数据结构
+// ```
 struct trieNode {
     bool isStr; // 为true表示这是一个product
     trieNode *next[26]; // 题目规定只有小写字母
@@ -16,9 +16,9 @@ struct trieNode {
         count = 0;
     }
 };
-```
-### 插入
-```
+// ```
+// ### 插入
+// ```
 void insert(trieNode& root, string word) {
     trieNode* current = &root;
     for (char c : word) {
@@ -31,9 +31,9 @@ void insert(trieNode& root, string word) {
     current->isStr = true;
     current->count++;
 }
-```
-### 查找子串是否存在，并且返回word最后一个字符所在的位置
-```
+// ```
+// ### 查找子串是否存在，并且返回word最后一个字符所在的位置
+// ```
 bool findSubString(trieNode root, string word, trieNode& rootToPrint) {
     trieNode* current = &root;
     for (auto c : word) {
@@ -48,9 +48,9 @@ bool findSubString(trieNode root, string word, trieNode& rootToPrint) {
         return false;
     }
 }
-```
-### 以word最后一个字符所在字典树的位置为根节点，遍历子树，获取最多3个满足条件的字符串
-```
+// ```
+// ### 以word最后一个字符所在字典树的位置为根节点，遍历子树，获取最多3个满足条件的字符串
+// ```
 // cur为word最后一个字符所在字典树的位置
 // currentString为搜索到cur节点时，此刻的字符串样子
 // ans用来存储结果
@@ -86,9 +86,9 @@ void dfs(trieNode *cur, string &currentString, int &num, vector<string>& ans) {
         }
     }
 }
-```
-### 主函数
-```
+// ```
+// ### 主函数
+// ```
 vector<vector<string>> suggestedProducts(vector<string>& products, string searchWord) {
     trieNode root; // 创建字典树根节点
     for (auto product : products) {
@@ -111,4 +111,4 @@ vector<vector<string>> suggestedProducts(vector<string>& products, string search
     }
     return result;
 }
-```
+// ```

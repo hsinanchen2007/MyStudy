@@ -1,9 +1,9 @@
-### 解题思路
-基本dfs。  判断该节点的值是否是偶数，是的话就加该孙子节点的值 不是得话 就继续递归
+// ### 解题思路
+// 基本dfs。  判断该节点的值是否是偶数，是的话就加该孙子节点的值 不是得话 就继续递归
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -46,4 +46,4 @@ int sumEvenGrandparent(struct TreeNode* root){
     int ans = dfs(root, &sum);
     return ans;
 }
-```
+// ```

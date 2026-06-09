@@ -1,6 +1,6 @@
-[Leetcode-Java(200+题解，持续更新、欢迎star)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_65_isNumber.java)
+// [Leetcode-Java(200+题解，持续更新、欢迎star)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_65_isNumber.java)
 
-```java
+// ```java
     /**
      * 解题思路：
      * 本题最大的难点在于各种情况互相依赖，后面想了想，每种情况只关注自己该放的位置就可以了
@@ -84,4 +84,4 @@
     private boolean isNumber(char c) {
         return c >= '0' && c <= '9';
     }
-```
+// ```

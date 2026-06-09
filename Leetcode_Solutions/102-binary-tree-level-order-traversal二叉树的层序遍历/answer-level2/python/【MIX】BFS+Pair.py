@@ -1,9 +1,9 @@
-### 解题思路
-BFS遍历, 使用Pair存入Level信息, java实现可以创建内部类
+# ### 解题思路
+# BFS遍历, 使用Pair存入Level信息, java实现可以创建内部类
 
-### 代码
+# ### 代码
 
-```java []
+# ```java []
 class Solution {
     private class Pair{
         Pair(TreeNode node, int level){
@@ -37,8 +37,8 @@ class Solution {
         return res;
     }
 }
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def levelOrder(self, root: TreeNode) -> List[List[int]]:
         if root == None:
@@ -61,8 +61,8 @@ class Solution:
         if node.right != None:
             self.__levelOrder(node.right, level+1, res) 
 
-```
-```c++ []
+# ```
+# ```c++ []
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -103,4 +103,4 @@ public:
         return res;
     }
 };
-```
+# ```

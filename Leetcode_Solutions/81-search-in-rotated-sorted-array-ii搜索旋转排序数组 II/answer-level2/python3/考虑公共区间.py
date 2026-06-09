@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路：
-小弟有个想法：鉴于nums翻转前后的高度对称性，可以考虑将nums与nums.sort()做一个匹配，寻找公共区间，当然公共区间存在多个，如果target落在公共区间内，问题得解
+# ### 解题思路
+# 此处撰写解题思路：
+# 小弟有个想法：鉴于nums翻转前后的高度对称性，可以考虑将nums与nums.sort()做一个匹配，寻找公共区间，当然公共区间存在多个，如果target落在公共区间内，问题得解
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 import math
 class Solution(object):
     def search(self, nums, target):

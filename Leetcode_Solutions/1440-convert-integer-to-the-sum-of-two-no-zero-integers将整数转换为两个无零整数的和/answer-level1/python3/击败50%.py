@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def getNoZeroIntegers(self, n: int) -> List[int]:
         num1 = 0
@@ -8,4 +8,4 @@ class Solution:
             num2 = n - num1
         return(num1,num2)
             
-```
+# ```

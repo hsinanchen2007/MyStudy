@@ -1,9 +1,9 @@
-### 解题思路
-模拟进位即可。重要的是方法，印象中有几道模拟竖式计算的题思想和这个比较相近。这道题的corner situation不多，也算是帮忙了orz
+// ### 解题思路
+// 模拟进位即可。重要的是方法，印象中有几道模拟竖式计算的题思想和这个比较相近。这道题的corner situation不多，也算是帮忙了orz
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> plusOne(vector<int>& digits) {
@@ -26,4 +26,4 @@ public:
         return digits;
     }
 };
-```
+// ```

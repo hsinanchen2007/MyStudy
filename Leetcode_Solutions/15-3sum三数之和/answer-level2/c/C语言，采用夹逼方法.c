@@ -1,13 +1,13 @@
-### 解题思路
-此处撰写解题思路
-o(n^2)的解法，效率也太低了吧...
+// ### 解题思路
+// 此处撰写解题思路
+// o(n^2)的解法，效率也太低了吧...
 
-执行用时 :692 ms, 在所有 C 提交中击败了5.00%的用户
-内存消耗 :298.4 MB, 在所有 C 提交中击败了5.01%的用户
+// 执行用时 :692 ms, 在所有 C 提交中击败了5.00%的用户
+// 内存消耗 :298.4 MB, 在所有 C 提交中击败了5.01%的用户
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -78,4 +78,4 @@ int** threeSum(int* nums, int numsSize, int* returnSize, int** returnColumnSizes
 
     return arr;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-见代码注释，原理可参考https://blog.csdn.net/qq_37969433/article/details/82947411#commentBox
+# ### 解题思路
+# 见代码注释，原理可参考https://blog.csdn.net/qq_37969433/article/details/82947411#commentBox
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
         '''
@@ -55,4 +55,4 @@ class Solution:
 
         return kmp_index(haystack, needle)
 
-```
+# ```

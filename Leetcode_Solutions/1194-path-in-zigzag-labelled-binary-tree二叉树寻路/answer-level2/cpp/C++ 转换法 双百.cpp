@@ -1,9 +1,9 @@
-### 解题思路
-C++
+// ### 解题思路
+// C++
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> pathInZigZagTree(int label) {
@@ -34,4 +34,4 @@ public:
         return res;
     }
 };
-```
+// ```

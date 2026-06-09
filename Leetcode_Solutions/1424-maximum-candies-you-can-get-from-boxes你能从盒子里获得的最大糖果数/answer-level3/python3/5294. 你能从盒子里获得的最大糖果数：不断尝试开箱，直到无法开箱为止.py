@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-BFS模拟，用一个集合`myKeys`记录手上的钥匙，不断的把手头上的箱子打开，获取新的钥匙、箱子和糖果，没能成功打开的箱子保留到下一个箱子队列`initialBoxes`，如果某论尝试后队列没有变化，则输出当前获得的糖果`myCandies`。
+# BFS模拟，用一个集合`myKeys`记录手上的钥匙，不断的把手头上的箱子打开，获取新的钥匙、箱子和糖果，没能成功打开的箱子保留到下一个箱子队列`initialBoxes`，如果某论尝试后队列没有变化，则输出当前获得的糖果`myCandies`。
 
-### 代码
+# ### 代码
 
-```python []
+# ```python []
 class Solution:
     def maxCandies(self, status: List[int], candies: List[int], keys: List[List[int]], containedBoxes: List[List[int]], initialBoxes: List[int]) -> int:
         myKeys, myCandies, pre = set(), 0, []
@@ -22,8 +22,8 @@ class Solution:
             pre = initialBoxes
             initialBoxes = tmp
         return myCandies
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def maxCandies(self, status: List[int], candies: List[int], keys: List[List[int]], containedBoxes: List[List[int]], initialBoxes: List[int]) -> int:
         myKeys, myCandies, count = set(), 0, 1
@@ -41,6 +41,6 @@ class Solution:
                     tmp.append(i)
             initialBoxes = tmp
         return myCandies
-```
+# ```
 
-![image.png](https://pic.leetcode-cn.com/00c3f447118ce40c7611b341f9aba43232ffada7caa07515cf409f278c1c7cde-image.png)
+# ![image.png](https://pic.leetcode-cn.com/00c3f447118ce40c7611b341f9aba43232ffada7caa07515cf409f278c1c7cde-image.png)

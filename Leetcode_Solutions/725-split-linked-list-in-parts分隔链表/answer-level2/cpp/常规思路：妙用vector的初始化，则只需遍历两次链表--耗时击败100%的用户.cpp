@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路：妙用初始化 vector<ListNode*> v(k,nullptr);耗时击败100%的用户
-![2020-01-07_224300.png](https://pic.leetcode-cn.com/b04cda85ad098d824efa1c5119ae90db419320145805c26d52c936284381bb33-2020-01-07_224300.png)
-需要遍历两次链表---》vector<ListNode*> v(k,nullptr);初始化妙用，分隔后为空的子链表无需理会
-耗时击败100%的用户
-### 代码
+// ### 解题思路
+// 此处撰写解题思路：妙用初始化 vector<ListNode*> v(k,nullptr);耗时击败100%的用户
+// ![2020-01-07_224300.png](https://pic.leetcode-cn.com/b04cda85ad098d824efa1c5119ae90db419320145805c26d52c936284381bb33-2020-01-07_224300.png)
+// 需要遍历两次链表---》vector<ListNode*> v(k,nullptr);初始化妙用，分隔后为空的子链表无需理会
+// 耗时击败100%的用户
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -76,4 +76,4 @@ public:
         return v;
     }
 };
-```
+// ```

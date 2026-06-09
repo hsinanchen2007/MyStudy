@@ -1,10 +1,10 @@
-### 解题思路
-看了大佬解法后仿写的双指针（vector<int>::iterator遍历vector<int>）
-只能说有了双指针的内涵，但的确不算完美的答案（主要是内存消耗过大，仅击败了5.84%用户）
+// ### 解题思路
+// 看了大佬解法后仿写的双指针（vector<int>::iterator遍历vector<int>）
+// 只能说有了双指针的内涵，但的确不算完美的答案（主要是内存消耗过大，仅击败了5.84%用户）
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	vector<vector<int>> threeSum(vector<int>& nums) {
@@ -44,4 +44,4 @@ public:
         return result;
 	} 
 };
-```
+// ```

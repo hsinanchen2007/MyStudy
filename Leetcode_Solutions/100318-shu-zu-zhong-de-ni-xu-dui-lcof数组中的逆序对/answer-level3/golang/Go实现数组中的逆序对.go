@@ -1,6 +1,6 @@
 
 
-```golang
+// ```golang
 func reversePairs(nums []int) int {
     if nums == nil || len(nums) < 2 {
 		return 0
@@ -44,4 +44,4 @@ func merge(nums []int, left, mid, right int) int{
 	return res
 }
 
-```
+// ```

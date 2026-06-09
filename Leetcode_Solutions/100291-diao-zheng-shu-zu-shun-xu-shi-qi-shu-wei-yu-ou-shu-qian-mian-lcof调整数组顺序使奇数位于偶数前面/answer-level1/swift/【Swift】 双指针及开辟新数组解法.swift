@@ -1,16 +1,16 @@
 
-## 双指针解法
+// ## 双指针解法
 
-### 思路
+// ### 思路
 
-1. 移动指针
-    - 左指针向右移动直至遇到偶数为止
-    - 右指针向左移动直至遇到奇数为止
-2. 交换左右指针所在处的值
+// 1. 移动指针
+//     - 左指针向右移动直至遇到偶数为止
+//     - 右指针向左移动直至遇到奇数为止
+// 2. 交换左右指针所在处的值
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func exchange(_ nums: [Int]) -> [Int] {
         guard nums.count > 1 else { return nums }
@@ -38,19 +38,19 @@ class Solution {
         return arr
     }
 }
-```
+// ```
 
-## 开辟新数组解法
+// ## 开辟新数组解法
 
-### 思路
+// ### 思路
 
-1. 创建两个数组, `oddNumArr`(存储奇数)与 `evenNumArr`(存储偶数)。
-2. 遍历给定数组中的所有元素, 遇到奇数就存进`oddNumArr`, 遇到偶数就存进 `evenNumArr`
-3. 最后返回 `oddNumArr+evenNumArr`
+// 1. 创建两个数组, `oddNumArr`(存储奇数)与 `evenNumArr`(存储偶数)。
+// 2. 遍历给定数组中的所有元素, 遇到奇数就存进`oddNumArr`, 遇到偶数就存进 `evenNumArr`
+// 3. 最后返回 `oddNumArr+evenNumArr`
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func exchange(_ nums: [Int]) -> [Int] {
         var oddNumArr = [Int]()
@@ -67,4 +67,4 @@ class Solution {
         return oddNumArr + evenNumArr
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```javascript []
+// ```javascript []
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -27,6 +27,6 @@ var mergeTrees = function(t1, t2) {
     }
     
 };
-```
+// ```
 
 

@@ -1,6 +1,6 @@
-`主递归：选取A中所有的子树`
-`辅助递归：递归判断A中的一个子树是否和B相同`
-```
+// `主递归：选取A中所有的子树`
+// `辅助递归：递归判断A中的一个子树是否和B相同`
+// ```
 class Solution {
 public:
     bool isSubStructure(TreeNode* A, TreeNode* B) {
@@ -14,4 +14,4 @@ public:
         return helper(A->left, B->left) && helper(A->right, B->right);
     }
 };
-```
+// ```

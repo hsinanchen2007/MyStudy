@@ -1,8 +1,8 @@
-广度优先
+# 广度优先
 
 
 
-```python3
+# ```python3
 class Solution:
     def movingCount(self, m: int, n: int, k: int) -> int:
         def bfs(i,j,count,mark):
@@ -27,9 +27,9 @@ class Solution:
         mark = [ [0] * n for i in range(m)]
         return bfs(0,0,0,mark)
 
-```
-深度优先
-```
+# ```
+# 深度优先
+# ```
 class Solution:
     def movingCount(self, m: int, n: int, k: int) -> int:
         def dfs(i,j,count,mark):
@@ -46,4 +46,4 @@ class Solution:
             return count
         mark=[[0]*n for i in range(m)]
         return dfs(0,0,1,mark)
-```
+# ```

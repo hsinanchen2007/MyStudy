@@ -1,13 +1,13 @@
-a       记录剩余的 "(" 个数
-b       剩余的 ")" 个数
-temp    当前已有串中的还未配对的 "(" 个数
-当（ 进时，temp+1，a-1，b不变
-当 ）进时，temp-1，a不变，b-1
-temp [0,n-1]时，可以加入（
-temp (0,n]时，可以加入 ）
+// a       记录剩余的 "(" 个数
+// b       剩余的 ")" 个数
+// temp    当前已有串中的还未配对的 "(" 个数
+// 当（ 进时，temp+1，a-1，b不变
+// 当 ）进时，temp-1，a不变，b-1
+// temp [0,n-1]时，可以加入（
+// temp (0,n]时，可以加入 ）
 
 
-```
+// ```
 func generateParenthesis(n int) []string {
 	res := []string{}
 	a := n-1
@@ -38,4 +38,4 @@ func ccc(a,b,temp,n int,res string,result *[]string){
 		*result = append(*result, res)
 	}
 }
-```
+// ```

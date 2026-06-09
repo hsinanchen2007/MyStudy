@@ -1,5 +1,5 @@
 
-```
+// ```
 func minimumTotal(triangle [][]int) int {
 	row := len(triangle)
 	for level := row - 2; level >= 0; level-- {
@@ -16,4 +16,4 @@ func minValue(a, b int) int {
 	}
 	return b
 }
-```
+// ```

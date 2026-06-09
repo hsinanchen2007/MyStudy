@@ -1,5 +1,5 @@
-用map记录访问的结果,如果已存在则将访问次数相加,如果不存在则加入,主要利用map的key值不可重复,如果添加已存在的key就会把之前其对应的value进行替换
-```
+// 用map记录访问的结果,如果已存在则将访问次数相加,如果不存在则加入,主要利用map的key值不可重复,如果添加已存在的key就会把之前其对应的value进行替换
+// ```
   public static List<String> subdomainVisits(String[] cpdomains) {
 //        存放各种域名访问次数的map
         Map<String,Integer> map = new HashMap<String,Integer>();
@@ -43,4 +43,4 @@
         }
         return split;
     }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool canConstruct(string s, int k) {
@@ -19,4 +19,4 @@ public:
         return num <= k;
     }
 };
-```
+// ```

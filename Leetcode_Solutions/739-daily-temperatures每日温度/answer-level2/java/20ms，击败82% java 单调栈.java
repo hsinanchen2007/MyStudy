@@ -1,9 +1,9 @@
-### 解题思路
-注释留下，记录尝试的过程
+// ### 解题思路
+// 注释留下，记录尝试的过程
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] dailyTemperatures(int[] T) {
         if (T == null || T.length == 0) {
@@ -34,4 +34,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

@@ -1,8 +1,8 @@
-方法一：暴力遍历，无难度
-方法二：二分查找
-极端情况[2,1,1,2,2,,2,2,2,2]
-此时left,mid,right均相等，在原来基础上分开讨论，没有特别好的解决方法，暴力++；
-```
+// 方法一：暴力遍历，无难度
+// 方法二：二分查找
+// 极端情况[2,1,1,2,2,,2,2,2,2]
+// 此时left,mid,right均相等，在原来基础上分开讨论，没有特别好的解决方法，暴力++；
+// ```
 bool Solution::serch(vector<int>& nums, int target)
 {
     int lo = 0, hi = nums.size() - 1, mid = 0;
@@ -49,4 +49,4 @@ bool Solution::serch(vector<int>& nums, int target)
     //first == end情况，防止空数组访问越界，直接判断返回
     return (lo == hi && nums[lo] == target)?ture:false;
 }
-```
+// ```

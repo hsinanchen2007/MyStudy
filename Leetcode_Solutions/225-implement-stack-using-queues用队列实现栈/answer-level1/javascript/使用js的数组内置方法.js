@@ -1,9 +1,9 @@
-### 解题思路
-因为是采用的javascript语言解决的，直接调用了数组内置的方法。
+// ### 解题思路
+// 因为是采用的javascript语言解决的，直接调用了数组内置的方法。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Initialize your data structure here.
  */
@@ -52,4 +52,4 @@ MyStack.prototype.empty = function() {
  * var param_3 = obj.top()
  * var param_4 = obj.empty()
  */
-```
+// ```

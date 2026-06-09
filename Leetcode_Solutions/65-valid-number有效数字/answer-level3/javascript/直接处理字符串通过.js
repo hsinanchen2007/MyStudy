@@ -1,5 +1,5 @@
-- 有问题请留言
-```
+// - 有问题请留言
+// ```
 var isNumber = function(s) {
   s = s.trim();
   if (s === "" || /[^e0123456789.+-]/.test(s)) return false;
@@ -35,4 +35,4 @@ var isNumber = function(s) {
   }
   return isANumber(arr[0]);
 };
-```
+// ```

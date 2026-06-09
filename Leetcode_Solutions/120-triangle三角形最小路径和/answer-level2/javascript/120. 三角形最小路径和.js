@@ -1,5 +1,5 @@
-深度优先搜索，会将所有节点的下属相邻节点遍历，存在大量重复节点的计算，故会产生超时~
-```
+// 深度优先搜索，会将所有节点的下属相邻节点遍历，存在大量重复节点的计算，故会产生超时~
+// ```
 var minimumTotal = function(triangle) {
     let limit = triangle.length;
     let helper = function(i,j){
@@ -8,9 +8,9 @@ var minimumTotal = function(triangle) {
     }
     return helper(0,0);
 };
-```
-动态规划
-```
+// ```
+// 动态规划
+// ```
 var minimumTotal = function(triangle) {
     let dp = [];
     let y = triangle.length;
@@ -24,4 +24,4 @@ var minimumTotal = function(triangle) {
     }
     return dp[0][0];
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-暴力解法
+// ### 解题思路
+// 暴力解法
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void gameOfLife(vector<vector<int>>& board) {
@@ -25,4 +25,4 @@ public:
         }
     }
 };
-```
+// ```

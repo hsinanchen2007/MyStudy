@@ -1,9 +1,9 @@
-### 解题思路
-用一个布尔类型的res判断即可
+// ### 解题思路
+// 用一个布尔类型的res判断即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -43,4 +43,4 @@ class Solution {
         return isSubTree(A.left,B.left)&&isSubTree(A.right,B.right);
     }
 }
-```
+// ```

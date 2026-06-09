@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/c95bd3569de9d0b66f3af0b1540ad0c2406001f1ec8a179aab302821230c2ee3-image.png)
+# ![image.png](https://pic.leetcode-cn.com/c95bd3569de9d0b66f3af0b1540ad0c2406001f1ec8a179aab302821230c2ee3-image.png)
 
 
 
-```
+# ```
 '''
 dfs 同时维护到达当前位置的路径即可，比较路径的尾部和目标序列是否一致
 '''
@@ -28,4 +28,4 @@ class Solution:
             head = head.next
 
         return self.dfs(root, [], target)
-```
+# ```

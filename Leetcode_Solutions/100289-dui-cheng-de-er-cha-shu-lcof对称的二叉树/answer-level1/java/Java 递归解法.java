@@ -1,4 +1,4 @@
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -25,4 +25,4 @@ class Solution {
                 && isTreeSymmetric(left.right, right.left);
     }
 }
-```
+// ```

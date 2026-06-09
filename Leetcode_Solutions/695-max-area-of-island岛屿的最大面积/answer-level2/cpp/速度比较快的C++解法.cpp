@@ -1,10 +1,10 @@
-### 解题思路
-递归方法 还是很好理解的
-![批注 2020-03-15 083929.png](https://pic.leetcode-cn.com/1ca72d1a48bee104c656aa142439b65852081a5d5e6ec56bea231a6f9a02b080-%E6%89%B9%E6%B3%A8%202020-03-15%20083929.png)
+// ### 解题思路
+// 递归方法 还是很好理解的
+// ![批注 2020-03-15 083929.png](https://pic.leetcode-cn.com/1ca72d1a48bee104c656aa142439b65852081a5d5e6ec56bea231a6f9a02b080-%E6%89%B9%E6%B3%A8%202020-03-15%20083929.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int mm=0;
@@ -32,4 +32,4 @@ public:
         return mm;
     }
 };
-```
+// ```

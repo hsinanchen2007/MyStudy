@@ -1,16 +1,16 @@
-### 解题思路
-方法一：用set集合的方法
-1.遍历链表A，将A中的元素插入集合中。
-set.insert(object);
-2.遍历链表B，在集合A中查找B中的元素。
-set.find(object)!=set.end();
-3.直到两个指针相等
+// ### 解题思路
+// 方法一：用set集合的方法
+// 1.遍历链表A，将A中的元素插入集合中。
+// set.insert(object);
+// 2.遍历链表B，在集合A中查找B中的元素。
+// set.find(object)!=set.end();
+// 3.直到两个指针相等
 
-时间复杂度：O[N]
-空间复杂度：O[N]
+// 时间复杂度：O[N]
+// 空间复杂度：O[N]
 
-### 代码
-```cpp
+// ### 代码
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -40,17 +40,17 @@ public:
     }
 };
 
-```
+// ```
 
-方法二：错位遍历
-1.计算两个链表长度，如get_list_len函数
-2.把长链表向前移动两个链表的差值
-3.同时向前移动，直到两个指针相等
+// 方法二：错位遍历
+// 1.计算两个链表长度，如get_list_len函数
+// 2.把长链表向前移动两个链表的差值
+// 3.同时向前移动，直到两个指针相等
 
-时间复杂度：O[M+N]
-空间复杂度：O[1]
+// 时间复杂度：O[M+N]
+// 空间复杂度：O[1]
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -108,4 +108,4 @@ ListNode *forword_long_list(int long_len,int short_len,ListNode *head)
     return head;
 }
 };
-```
+// ```

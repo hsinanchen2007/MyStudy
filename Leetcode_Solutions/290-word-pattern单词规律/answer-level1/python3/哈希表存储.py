@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def wordPattern(self, pattern: str, str: str) -> bool:
         dic = {}
@@ -20,4 +20,4 @@ class Solution:
             elif dic[pattern[i]] != s[i]:
                 return False
         return True
-```
+# ```

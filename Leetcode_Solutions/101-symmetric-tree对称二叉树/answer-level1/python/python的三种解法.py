@@ -1,6 +1,6 @@
-1. 先遍历结构和数值，对比看结果。注意输入特例：[ ] [1]
-2. 
-```
+# 1. 先遍历结构和数值，对比看结果。注意输入特例：[ ] [1]
+# 2. 
+# ```
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -43,9 +43,9 @@ class Solution(object):
         self.a.append(root.val)
         self.rightOrder(root.right)
         self.rightOrder(root.left)
-```
-2. 递归实现：比较left.left=right.tight和left.right=right.left,递归的终止条件是都为空，有一个为空，两个val不相等
-```
+# ```
+# 2. 递归实现：比较left.left=right.tight和left.right=right.left,递归的终止条件是都为空，有一个为空，两个val不相等
+# ```
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -74,10 +74,10 @@ class Solution(object):
             return dfs(p.left, q.right) and dfs(p.right, q.left)
         return dfs(root.left, root.right)
         
-```
+# ```
 
-3. 递归思想都可以用迭代实现
-```
+# 3. 递归思想都可以用迭代实现
+# ```
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -113,4 +113,4 @@ class Solution(object):
                 tmpList.append((p.left, q.right))
                 tmpList.append((p.right, q.left))
         return True
-```
+# ```

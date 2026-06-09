@@ -1,15 +1,15 @@
-### 解题思路
-学习结果里面的时间最佳方法。
-之前的解法用到了dict，defaultdict和OrderedDict很少用，趁这个机会好好学学。
-defaultdict就是一个给不同类型的key直接赋予了默认val的dict。举个例子，如果在一个defaultdict里面寻找一个不存在的int的key，不会报错而是返回默认值0。
-OrderedDict顾名思义就是有order的dict，就是按赋予key的顺序给dict排序，当然这个顺序也可以用lambda去调整为value的值等等。用这个的目的不用看代码都知道可以省掉之前解法的count。
-https://leetcode-cn.com/problems/lfu-cache/solution/bu-zhi-dao-neng-bu-neng-jian-chi-de-xiao-bai-mei-2/
+# ### 解题思路
+# 学习结果里面的时间最佳方法。
+# 之前的解法用到了dict，defaultdict和OrderedDict很少用，趁这个机会好好学学。
+# defaultdict就是一个给不同类型的key直接赋予了默认val的dict。举个例子，如果在一个defaultdict里面寻找一个不存在的int的key，不会报错而是返回默认值0。
+# OrderedDict顾名思义就是有order的dict，就是按赋予key的顺序给dict排序，当然这个顺序也可以用lambda去调整为value的值等等。用这个的目的不用看代码都知道可以省掉之前解法的count。
+# https://leetcode-cn.com/problems/lfu-cache/solution/bu-zhi-dao-neng-bu-neng-jian-chi-de-xiao-bai-mei-2/
 
-**本题核心思路**：基本上还是离不开要给key赋值value和freq，毕竟还是要统计使用频率。利用OrderedDict来免除count来判断哪个是最早入dict的key。
+# **本题核心思路**：基本上还是离不开要给key赋值value和freq，毕竟还是要统计使用频率。利用OrderedDict来免除count来判断哪个是最早入dict的key。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from collections import defaultdict, OrderedDict
 
 
@@ -74,4 +74,4 @@ class LFUCache:
 # param_1 = obj.get(key)
 # obj.put(key,value)
 
-```
+# ```

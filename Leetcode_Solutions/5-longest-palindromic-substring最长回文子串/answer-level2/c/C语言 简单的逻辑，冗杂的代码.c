@@ -1,9 +1,9 @@
-### 解题思路
-逻辑很简单，但是相比于大佬们的冗杂了很多，效率也低了很多.
+// ### 解题思路
+// 逻辑很简单，但是相比于大佬们的冗杂了很多，效率也低了很多.
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * longestPalindrome(char * s)
 {
     int len = strlen(s);
@@ -80,4 +80,4 @@ char * longestPalindrome(char * s)
     }
     return returnStr;
 }
-```
+// ```

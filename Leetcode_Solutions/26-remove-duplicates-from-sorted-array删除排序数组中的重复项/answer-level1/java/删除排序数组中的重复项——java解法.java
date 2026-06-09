@@ -1,9 +1,9 @@
-### 解题思路
-有问题的可以留言
+// ### 解题思路
+// 有问题的可以留言
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int removeDuplicates(int[] nums) {
         int len = nums.length;
@@ -20,4 +20,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

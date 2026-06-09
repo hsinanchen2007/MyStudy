@@ -1,9 +1,9 @@
-### 解题思路
-Foreach套两层
+// ### 解题思路
+// Foreach套两层
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -25,4 +25,4 @@ class Solution {
         return $res_arr;
     }
 }
-```
+// ```

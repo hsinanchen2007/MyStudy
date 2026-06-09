@@ -1,7 +1,7 @@
-每次迭代pop掉最外圈数据并append/extend进answer，不断重复过程得出解。
-如果每次拆掉边都判断一下是否结束会不够优雅，直接try掉解决。
+# 每次迭代pop掉最外圈数据并append/extend进answer，不断重复过程得出解。
+# 如果每次拆掉边都判断一下是否结束会不够优雅，直接try掉解决。
 
-```python
+# ```python
 class Solution:
     def spiralOrder(self, matrix):
         answer = []
@@ -18,4 +18,4 @@ class Solution:
             pass
 
         return answer
-```
+# ```

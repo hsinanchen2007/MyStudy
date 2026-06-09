@@ -1,9 +1,9 @@
-### 解题思路
-100到1000,10到100,1到10的转换方法类似，可以抽象出一个方法，然后就是分类讨论，题解如下；
+// ### 解题思路
+// 100到1000,10到100,1到10的转换方法类似，可以抽象出一个方法，然后就是分类讨论，题解如下；
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String intToRoman(int num) {
         StringBuilder sb = new StringBuilder();
@@ -42,4 +42,4 @@ class Solution {
         return num;
     }
 }
-```
+// ```

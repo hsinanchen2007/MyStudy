@@ -1,12 +1,12 @@
-### 执行结果
-![QQ截图20200326170311.png](https://pic.leetcode-cn.com/265b2a849b37a8f377341fdd195dae635ba88a564fd1e81f2fb7c2115900eed1-QQ%E6%88%AA%E5%9B%BE20200326170311.png)
+// ### 执行结果
+// ![QQ截图20200326170311.png](https://pic.leetcode-cn.com/265b2a849b37a8f377341fdd195dae635ba88a564fd1e81f2fb7c2115900eed1-QQ%E6%88%AA%E5%9B%BE20200326170311.png)
 
-### 解题思路
-从最终结果来看，填满水后应该是从两侧向整体最高点递增的效果，因而自然可以想到双指针法。
+// ### 解题思路
+// 从最终结果来看，填满水后应该是从两侧向整体最高点递增的效果，因而自然可以想到双指针法。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var trap = function (height) {
     let left = 0 // 左指针
     let right = height.length - 1 //右指针
@@ -34,4 +34,4 @@ var trap = function (height) {
         }
     }
 };
-```
+// ```

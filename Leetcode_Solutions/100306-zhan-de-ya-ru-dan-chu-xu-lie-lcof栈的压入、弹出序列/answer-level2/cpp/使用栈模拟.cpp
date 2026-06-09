@@ -1,8 +1,8 @@
-设置一个栈来模拟
-先入栈一个push数组的元素
-然后不断的将栈顶元素和poped数组的元素比较，若是相同，则出栈
+// 设置一个栈来模拟
+// 先入栈一个push数组的元素
+// 然后不断的将栈顶元素和poped数组的元素比较，若是相同，则出栈
 
-```
+// ```
 class Solution {
 public:
     bool validateStackSequences(vector<int>& pushed, vector<int>& popped) {
@@ -21,6 +21,6 @@ public:
           return st.empty();
     }
 };
-```
+// ```
 
 

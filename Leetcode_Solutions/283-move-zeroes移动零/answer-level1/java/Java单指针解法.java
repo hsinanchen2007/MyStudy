@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public void moveZeroes(int[] nums) {
         // 使用 j 记录下一个非0元素存放的位置
@@ -15,4 +15,4 @@ class Solution {
     }
 }
 
-```
+// ```

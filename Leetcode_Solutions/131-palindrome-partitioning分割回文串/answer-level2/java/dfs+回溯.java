@@ -1,5 +1,5 @@
-再难的递归，只要你用测试示例（"aab"就可以）跑一遍就会了。然后注意那个remove。
-```java
+// 再难的递归，只要你用测试示例（"aab"就可以）跑一遍就会了。然后注意那个remove。
+// ```java
 class Solution {
      List<List<String>>list=new ArrayList<>();
     String s;
@@ -43,4 +43,4 @@ class Solution {
     }
 }
     
-```
+// ```

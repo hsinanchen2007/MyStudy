@@ -1,9 +1,9 @@
-### 解题思路
-数组的访问
-列表的添加
-### 代码
+// ### 解题思路
+// 数组的访问
+// 列表的添加
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number[]}
@@ -17,4 +17,4 @@ var decompressRLElist = function(nums) {
     }
     return list;
 };
-```
+// ```

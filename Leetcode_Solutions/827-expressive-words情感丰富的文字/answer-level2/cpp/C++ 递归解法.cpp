@@ -1,5 +1,5 @@
-c++ 递归解法
-```cpp
+// c++ 递归解法
+// ```cpp
 class Solution {
 public:
     int expressiveWords(string S, vector<string>& words) {
@@ -37,4 +37,4 @@ public:
         return extend(source, idx1+1, target, idx2+1);
     }
 };
-```
+// ```

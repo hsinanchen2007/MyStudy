@@ -1,9 +1,9 @@
-### 解题思路
-前序遍历+字典判别
+# ### 解题思路
+# 前序遍历+字典判别
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -29,4 +29,4 @@ class Solution(object):
             inorderTraversal(node.right)
         inorderTraversal(root)
         return len(res)==1 #如果字典的key的数量等于1，则说明是单值
-```
+# ```

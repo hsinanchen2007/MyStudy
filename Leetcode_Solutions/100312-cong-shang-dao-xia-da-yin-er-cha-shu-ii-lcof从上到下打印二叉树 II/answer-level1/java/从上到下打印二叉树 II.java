@@ -1,9 +1,9 @@
-### 解题思路
-同样也是1层序遍历，只是分了层级
+// ### 解题思路
+// 同样也是1层序遍历，只是分了层级
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -42,4 +42,4 @@ class Solution {
         return list;
     }
 }
-```
+// ```

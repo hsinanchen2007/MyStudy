@@ -1,10 +1,10 @@
-### 解题思路
-当 str1+str2 != str2+str1 时才能有解
-找最大公约数可以看成对两个字符串的长度取最大公约数，然后从0截取最大公约数长度的串
+// ### 解题思路
+// 当 str1+str2 != str2+str1 时才能有解
+// 找最大公约数可以看成对两个字符串的长度取最大公约数，然后从0截取最大公约数长度的串
 
-### 代码
+// ### 代码
 
-```kotlin
+// ```kotlin
 class Solution {
 fun gcdOfStrings(str1: String, str2: String): String {
     if (str1 + str2 != str2 + str1) return ""
@@ -40,4 +40,4 @@ fun betterGCD(a: Int, b: Int): Int { //
     return len1
 }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def flipAndInvertImage(self, A: List[List[int]]) -> List[List[int]]:
         return [map(self.reversePhase, row) for row in list(map(self.reverseHorizontal, A))]
@@ -7,4 +7,4 @@ class Solution:
 
     def reverseHorizontal(self, x):
         return x[::-1]
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
-书中的两种解法
+// ### 解题思路
+// 书中的两种解法
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -68,4 +68,4 @@ public:
             return 1 + max(left_height, right_height);
     }
 };
-```
+// ```

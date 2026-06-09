@@ -1,5 +1,5 @@
-思路比较简单，见代码即可
-```
+// 思路比较简单，见代码即可
+// ```
 class Solution {
 public:
     bool validIPv4(string IP) {
@@ -61,5 +61,5 @@ public:
         return "Neither";
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/82f39c121e28cfffb7ddfe139e931efd5b92cc333aa66e178cf1eac05b32a1a7-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/82f39c121e28cfffb7ddfe139e931efd5b92cc333aa66e178cf1eac05b32a1a7-image.png)

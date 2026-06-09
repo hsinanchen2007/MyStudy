@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/2d1988bf414f3b7389acb7c6f76c78d717b7abdf08d35bdff624b821603d8571-image.png)
+# ![image.png](https://pic.leetcode-cn.com/2d1988bf414f3b7389acb7c6f76c78d717b7abdf08d35bdff624b821603d8571-image.png)
 
 
-```python3
+# ```python3
 class Solution:
     def mincostTickets(self, days: List[int], costs: List[int]) -> int:
         dp = [0] * (1+days[-1])
@@ -17,4 +17,4 @@ class Solution:
                 min_cost = temp_cost if min_cost > temp_cost else min_cost
             dp[index_dp] = min_cost
         return dp[-1]
-```
+# ```

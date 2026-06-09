@@ -1,8 +1,8 @@
-## 解析
-dp[i][j]表示从开始到（i，j)的最小值。如果是第一行或者第一列。将其累加即可。
-如果不是dp[i][j] = grid[i][j] + Math.min(dp[i - 1][j], dp[i][j - 1]);
-## 代码
-```java
+// ## 解析
+// dp[i][j]表示从开始到（i，j)的最小值。如果是第一行或者第一列。将其累加即可。
+// 如果不是dp[i][j] = grid[i][j] + Math.min(dp[i - 1][j], dp[i][j - 1]);
+// ## 代码
+// ```java
 public int minPathSum(int[][] grid) {
         if (grid == null || grid.length == 0 || grid[0].length == 0) {
             return 0;
@@ -49,4 +49,4 @@ public int minPathSum(int[][] grid) {
         }
         return dp[col - 1];
     }
-```
+// ```

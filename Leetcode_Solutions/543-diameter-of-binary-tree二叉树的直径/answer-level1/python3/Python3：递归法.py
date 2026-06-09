@@ -1,4 +1,4 @@
-```python []
+# ```python []
 class Solution(object):
     def diameterOfBinaryTree(self, root):
         """
@@ -18,5 +18,5 @@ class Solution(object):
         self.R = max(l+r,self.R)
         # 返回 该节点层数
         return max(l,r) + 1
-```
+# ```
 

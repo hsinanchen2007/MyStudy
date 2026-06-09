@@ -1,4 +1,4 @@
-```
+// ```
 public String addBinary(String a, String b) {
         if (a == null || a.length() == 0) {
             return b;
@@ -33,4 +33,4 @@ public String addBinary(String a, String b) {
         return new String(newCharArray, 1, a.length());
 
     }
-```
+// ```

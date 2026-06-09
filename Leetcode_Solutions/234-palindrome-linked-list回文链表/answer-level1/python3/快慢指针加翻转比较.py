@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def isPalindrome(self, head: ListNode) -> bool:
         def reverse(head):
@@ -32,9 +32,9 @@ class Solution:
 
         return True
 
-```
-代码优化，翻转后半段，避免判断奇偶
-```
+# ```
+# 代码优化，翻转后半段，避免判断奇偶
+# ```
 class Solution:
     def isPalindrome(self, head: ListNode) -> bool:
         def reverse(head):
@@ -63,4 +63,4 @@ class Solution:
 
         return True
 
-```
+# ```

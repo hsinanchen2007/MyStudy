@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def minHeightShelves(self, books: List[List[int]], shelf_width: int) -> int:
         # thickness:  books[i][0]
@@ -18,4 +18,4 @@ class Solution:
                 max_height = max(max_height, books[j - 1][1])
                 dp[i] = min(dp[i], dp[j - 1] + max_height)
         return dp[-1]
-```
+# ```

@@ -1,11 +1,11 @@
-### 解题思路
-问题规模比较小
-1:确定所有点之间的最短距离
-2:起点 和 剩余点 为key 动态规划 所有子问题 最优解
+// ### 解题思路
+// 问题规模比较小
+// 1:确定所有点之间的最短距离
+// 2:起点 和 剩余点 为key 动态规划 所有子问题 最优解
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 using VT = System.ValueTuple<int, int>;
 class VisAllNode {
     private Dictionary<VT, int> allPath = new Dictionary<VT, int>();
@@ -87,4 +87,4 @@ public class Solution {
         return van.ShortestPathLength(graph);
     }
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-根据测试数据一步一步调试，把所有情况考虑到
-![TIM图片20200320173047.png](https://pic.leetcode-cn.com/ec4b06c371de78bdb1125449c0d91616800cc4a527bc292056c4001e455a117a-TIM%E5%9B%BE%E7%89%8720200320173047.png)
+// ### 解题思路
+// 根据测试数据一步一步调试，把所有情况考虑到
+// ![TIM图片20200320173047.png](https://pic.leetcode-cn.com/ec4b06c371de78bdb1125449c0d91616800cc4a527bc292056c4001e455a117a-TIM%E5%9B%BE%E7%89%8720200320173047.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 vector<int> ans;
@@ -58,4 +58,4 @@ vector<int> ans;
         return ans;
     }
 };
-```
+// ```

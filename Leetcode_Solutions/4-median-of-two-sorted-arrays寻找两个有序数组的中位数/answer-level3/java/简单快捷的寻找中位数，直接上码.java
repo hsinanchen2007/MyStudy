@@ -1,5 +1,5 @@
-直接上代码。
-        //判断数组是否为空
+// 直接上代码。
+//         //判断数组是否为空
         if(nums1.length == 0 && nums2.length == 0){
             return 0;
         }else{

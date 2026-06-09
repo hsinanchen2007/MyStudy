@@ -1,9 +1,9 @@
-### 解题思路
-没什么思路，一个个用if来对比。
+// ### 解题思路
+// 没什么思路，一个个用if来对比。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numUniqueEmails(vector<string>& emails) {
@@ -33,4 +33,4 @@ public:
         return st.size();
     }
 };
-```
+// ```

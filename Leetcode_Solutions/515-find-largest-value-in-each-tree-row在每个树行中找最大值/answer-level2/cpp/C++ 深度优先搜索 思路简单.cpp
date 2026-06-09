@@ -1,11 +1,11 @@
-### 解题思路
-深度优先搜索
-![image.png](https://pic.leetcode-cn.com/34bc5b4df74f9d5d04f56fb824d575dcd471cb19280bd0b6668afe613d26fec6-image.png)
+// ### 解题思路
+// 深度优先搜索
+// ![image.png](https://pic.leetcode-cn.com/34bc5b4df74f9d5d04f56fb824d575dcd471cb19280bd0b6668afe613d26fec6-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -40,5 +40,5 @@ public:
         return std::max(height(node->left), height(node->right)) + 1;
     }
 };
-```
-![码农黑板报.png](https://pic.leetcode-cn.com/9e1b8e5edc9529c3730048cd3da4dece712969597ddd4c0b9cb67b11a4452c5a-%E7%A0%81%E5%86%9C%E9%BB%91%E6%9D%BF%E6%8A%A5.png)
+// ```
+// ![码农黑板报.png](https://pic.leetcode-cn.com/9e1b8e5edc9529c3730048cd3da4dece712969597ddd4c0b9cb67b11a4452c5a-%E7%A0%81%E5%86%9C%E9%BB%91%E6%9D%BF%E6%8A%A5.png)

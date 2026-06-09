@@ -1,10 +1,10 @@
-### 解题思路
-![屏幕快照 2020-02-09 12.39.16.png](https://pic.leetcode-cn.com/43df91dcf108bca1b1371f51b3383af38cabbad462fc5dce5bf2a595d80edd57-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-02-09%2012.39.16.png)
+// ### 解题思路
+// ![屏幕快照 2020-02-09 12.39.16.png](https://pic.leetcode-cn.com/43df91dcf108bca1b1371f51b3383af38cabbad462fc5dce5bf2a595d80edd57-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-02-09%2012.39.16.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     // 通过二维与一维坐标互转进行三次反转实现
     public List<List<Integer>> shiftGrid(int[][] grid, int k) {
@@ -47,4 +47,4 @@ class Solution {
         }
     }
 }
-```
+// ```

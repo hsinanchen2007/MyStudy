@@ -1,5 +1,5 @@
-思路如下：选择层次遍历二叉树，当进入树中新的一层的时候，建立一个链表，用来放置二叉树中本层的所有节点元素，最后一次读取每个链表的最后一个元素即可求解。
-```
+// 思路如下：选择层次遍历二叉树，当进入树中新的一层的时候，建立一个链表，用来放置二叉树中本层的所有节点元素，最后一次读取每个链表的最后一个元素即可求解。
+// ```
 class Solution {
     List<List<Integer>>output=new ArrayList<List<Integer>>();
     public List<Integer> rightSideView(TreeNode root) {
@@ -25,4 +25,4 @@ class Solution {
         
     }
 }
-```
+// ```

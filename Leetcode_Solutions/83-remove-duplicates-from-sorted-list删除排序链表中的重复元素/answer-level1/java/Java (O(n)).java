@@ -1,9 +1,9 @@
-### 解题思路
-如果下一个节点的val等于现在的节点的val，那么就直接略过下一个节点。
+// ### 解题思路
+// 如果下一个节点的val等于现在的节点的val，那么就直接略过下一个节点。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -26,4 +26,4 @@ class Solution {
         return head;
     }
 }
-```
+// ```

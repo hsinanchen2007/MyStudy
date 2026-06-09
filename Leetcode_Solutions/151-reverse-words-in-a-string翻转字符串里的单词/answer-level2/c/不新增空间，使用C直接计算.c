@@ -1,10 +1,10 @@
-### 解题思路
-1、就是对字符串进行翻转
-2、找到每个字符串，然后分别翻转
+// ### 解题思路
+// 1、就是对字符串进行翻转
+// 2、找到每个字符串，然后分别翻转
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void reverseString(char *s, int len)
 {
     for (int index = 0; index < len / 2; index++) {
@@ -82,4 +82,4 @@ char *reverseWords(char *s)
     }
     return s;
 }
-```
+// ```

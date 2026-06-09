@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean canReach(int[] arr, int start) {
         int[] visit = new int[arr.length];
@@ -25,4 +25,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

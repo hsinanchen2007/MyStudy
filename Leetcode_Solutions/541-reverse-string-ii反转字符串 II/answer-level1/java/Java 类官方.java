@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-![4.png](https://pic.leetcode-cn.com/5c7583dafae7b51f5f9cc49a2a81e6dabf7ef143d6f34804f156e725ddaadd94-4.png)
+// ![4.png](https://pic.leetcode-cn.com/5c7583dafae7b51f5f9cc49a2a81e6dabf7ef143d6f34804f156e725ddaadd94-4.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String reverseStr(String s, int k) {
         char a[] = s.toCharArray();
@@ -21,4 +21,4 @@ class Solution {
 		return new String(a);
     }
 }
-```
+// ```

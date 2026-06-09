@@ -1,5 +1,5 @@
-C语言，我好难啊！
-```
+// C语言，我好难啊！
+// ```
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -114,5 +114,5 @@ char ** restoreIpAddresses(char * s, int* returnSize){
     *returnSize = i;
     return res;
 }
-```
+// ```
 

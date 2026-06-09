@@ -1,6 +1,6 @@
-解析请看官方题解，这里仅提供官方题解对应的C++版本：
-### 方法 1：递归
-```c++
+// 解析请看官方题解，这里仅提供官方题解对应的C++版本：
+// ### 方法 1：递归
+// ```c++
 class Solution {
 public:
     ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
@@ -15,9 +15,9 @@ public:
         }
     }
 };
-```
-### 方法2：迭代
-```c++
+// ```
+// ### 方法2：迭代
+// ```c++
 class Solution {
 public:
     ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
@@ -38,4 +38,4 @@ public:
         return prehead->next;
     }
 };
-```
+// ```

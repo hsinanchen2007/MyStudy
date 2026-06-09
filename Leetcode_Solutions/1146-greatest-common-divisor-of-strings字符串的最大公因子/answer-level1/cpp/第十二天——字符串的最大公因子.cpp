@@ -1,9 +1,9 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/5d70151e7b1921ee322e526d3201b3a884c0ad698c27fa7a2098b73fc53dd4eb-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/5d70151e7b1921ee322e526d3201b3a884c0ad698c27fa7a2098b73fc53dd4eb-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string gcdOfStrings(string str1, string str2) {
@@ -28,5 +28,5 @@ public:
         return "";
     }
 };
-```
+// ```
 

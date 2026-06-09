@@ -1,4 +1,4 @@
-```
+// ```
 func findContentChildren(g []int, s []int) int {
     var child, cookie int
     sort.Ints(g)
@@ -12,4 +12,4 @@ func findContentChildren(g []int, s []int) int {
     }
     return child
 }
-```
+// ```

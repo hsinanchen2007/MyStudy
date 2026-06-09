@@ -1,4 +1,4 @@
-```
+// ```
 func knightDialer(N int) int {
     dp := make([][]int, N)
     dp[0] = []int{1,1,1,1,1,1,1,1,1,1}
@@ -21,4 +21,4 @@ func knightDialer(N int) int {
     }
     return sum
 }
-```
+// ```

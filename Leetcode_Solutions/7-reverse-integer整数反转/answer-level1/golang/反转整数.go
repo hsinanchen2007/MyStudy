@@ -1,9 +1,9 @@
-### 解题思路
-注意边界条件的判断
+// ### 解题思路
+// 注意边界条件的判断
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 var maxRes, minRes int = math.MaxInt32 %10, math.MinInt32 % 10
 var maxQ, minQ int = math.MaxInt32 / 10, math.MinInt32 / 10
  
@@ -27,4 +27,4 @@ func reverse(x int) int {
     }
     return result
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-找到该数字x第一次出现的位置pos，检查pos+n/2是否也是x。
-注意target在数组中不存在的情况、pos+n/2越界的情况。
+// ### 解题思路
+// 找到该数字x第一次出现的位置pos，检查pos+n/2是否也是x。
+// 注意target在数组中不存在的情况、pos+n/2越界的情况。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isMajorityElement(int[] nums, int target) {
         int pos=findFist(nums,target);
@@ -29,4 +29,4 @@ class Solution {
         return left;
     }
 }
-```
+// ```

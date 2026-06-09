@@ -1,9 +1,9 @@
-### 解题思路
-每次从原数中取最后一个，添加到新数值中，
-而新数值每次需要扩大十倍，保证数位一致
-### 代码
+# ### 解题思路
+# 每次从原数中取最后一个，添加到新数值中，
+# 而新数值每次需要扩大十倍，保证数位一致
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def reverse(self, x):
         """
@@ -19,4 +19,4 @@ class Solution(object):
                 return 0
             y //=10
         return res if x >0 else -res
-```
+# ```

@@ -1,4 +1,4 @@
-``` java
+// ``` java
 public int findLengthOfLCIS(int[] nums) {
         int tmp = nums.length > 0 ? 1 : 0;
         int a = nums.length > 0 ? 1 : 0;
@@ -14,4 +14,4 @@ public int findLengthOfLCIS(int[] nums) {
         }
         return tmp > a ? tmp : a;
 }
-```
+// ```

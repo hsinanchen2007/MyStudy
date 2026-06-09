@@ -1,9 +1,9 @@
-### 解题思路
-回溯法
+// ### 解题思路
+// 回溯法
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} S
  * @return {string[]}
@@ -25,4 +25,4 @@ var permutation = function(S) {
     backtrack(0, '')
     return res
 };
-```
+// ```

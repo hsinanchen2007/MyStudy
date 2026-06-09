@@ -1,5 +1,5 @@
-#思路：
-#（1）row_number排序 t3（2）计算每个公司人数总数 t4（3）t3连接t4,选择排名(t3.row_number=floor((t4.counts+1)/2) or t3.row_number=floor((t4.counts+2)/2))
+-- #思路：
+-- #（1）row_number排序 t3（2）计算每个公司人数总数 t4（3）t3连接t4,选择排名(t3.row_number=floor((t4.counts+1)/2) or t3.row_number=floor((t4.counts+2)/2))
 select 
 Id,t3.Company,Salary
 from

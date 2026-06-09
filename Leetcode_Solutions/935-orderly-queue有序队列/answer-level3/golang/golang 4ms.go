@@ -1,4 +1,4 @@
-```
+// ```
 func orderlyQueue(S string, K int) string {
 	if K <= 0 {
 		return S
@@ -26,4 +26,4 @@ func orderlyQueue(S string, K int) string {
 	return ret
 }
 
-```
+// ```

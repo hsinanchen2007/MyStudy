@@ -1,8 +1,8 @@
-首先把两个数组遍历一遍，计算出长度的差值（ret），让长链表先走ret步，然后2个链表一起走，直到headA == headB 。
+// 首先把两个数组遍历一遍，计算出长度的差值（ret），让长链表先走ret步，然后2个链表一起走，直到headA == headB 。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -72,4 +72,4 @@ struct Node *getIntersectionNode(struct ListNode *headA, struct ListNode *headB)
 	return NULL;
 
 }
-```
+// ```

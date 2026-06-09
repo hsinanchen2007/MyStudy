@@ -1,14 +1,14 @@
-### 解题思路
-如果只用一个哈希表过不了这样的用例：
-"abba"
-"dog dog dog dog"
+// ### 解题思路
+// 如果只用一个哈希表过不了这样的用例：
+// "abba"
+// "dog dog dog dog"
 
-"ab"
-"dog dog"
+// "ab"
+// "dog dog"
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool wordPattern(string pattern, string str) {
@@ -38,4 +38,4 @@ public:
         return true;
     }
 };
-```
+// ```

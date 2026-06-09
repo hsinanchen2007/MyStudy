@@ -1,7 +1,7 @@
-战胜了14.41%的用户 ( ╯-_-)╯┴—┴
-不过至少论行数应该可以战胜90% (￣^￣)
+// 战胜了14.41%的用户 ( ╯-_-)╯┴—┴
+// 不过至少论行数应该可以战胜90% (￣^￣)
 
-```javascript
+// ```javascript
 var levelOrder = function(root) {
   return root === null ? [] : bfs([root], [])
  
@@ -11,4 +11,4 @@ var levelOrder = function(root) {
     return bfs(nodes.reduce((p, c) => (p.push(c.left, c.right), p), []).filter(Boolean), result)
   }
 };
-```
+// ```

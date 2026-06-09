@@ -1,4 +1,4 @@
-```
+// ```
 void build_tree(vector<int>& nums, vector<int>& tree, int node, int start, int end) {
         if(start == end) {
             tree[node] = nums[start];
@@ -49,4 +49,4 @@ void build_tree(vector<int>& nums, vector<int>& tree, int node, int start, int e
         int sum_right = query_tree(nums, tree, right_node, mid+1, end, L, R);
         return sum_left + sum_right;
     }
-```
+// ```

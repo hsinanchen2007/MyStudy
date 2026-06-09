@@ -1,5 +1,5 @@
-利用双指针，m指针指着A数组中的元素，n指针指着B数组，index指针指着要填入A数组处的索引。
-```
+// 利用双指针，m指针指着A数组中的元素，n指针指着B数组，index指针指着要填入A数组处的索引。
+// ```
 class Solution {
     public void merge(int[] A, int m, int[] B, int n) {
         int index = m + n - 1;
@@ -18,4 +18,4 @@ class Solution {
         
     }
 }
-```
+// ```

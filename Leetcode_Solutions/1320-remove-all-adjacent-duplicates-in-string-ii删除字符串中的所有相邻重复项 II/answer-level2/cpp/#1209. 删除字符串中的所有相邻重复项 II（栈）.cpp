@@ -1,5 +1,5 @@
-***Talk is cheap. Show me the code.***
-```
+// ***Talk is cheap. Show me the code.***
+// ```
 class Solution {
 public:
     string removeDuplicates(string s, int k) {
@@ -23,6 +23,6 @@ public:
         return result;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/c84397e49baec9cb620110c99c09590b90b412e3a613f0d29a9de416c39584cc-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/c84397e49baec9cb620110c99c09590b90b412e3a613f0d29a9de416c39584cc-image.png)
 

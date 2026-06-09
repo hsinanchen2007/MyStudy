@@ -1,18 +1,18 @@
-## 37.序列化二叉树
+// ## 37.序列化二叉树
 
-### Information
+// ### Information
 
-* TIME: 2020/02/17
-* LINK: [Click Here](https://leetcode-cn.com/problems/xu-lie-hua-er-cha-shu-lcof/)
-* TAG: `BFS`
+// * TIME: 2020/02/17
+// * LINK: [Click Here](https://leetcode-cn.com/problems/xu-lie-hua-er-cha-shu-lcof/)
+// * TAG: `BFS`
 
-### Description
+// ### Description
 
-> 请实现两个函数，分别用来序列化和反序列化二叉树。
+// > 请实现两个函数，分别用来序列化和反序列化二叉树。
 
-### Example
+// ### Example
 
-```text
+// ```text
 你可以将以下二叉树：
 
     1
@@ -22,13 +22,13 @@
     4   5
 
 序列化为 "[1,2,3,null,null,4,5]"
-```
+// ```
 
-### My Answer
+// ### My Answer
 
-> 本题基于层次遍历
+// > 本题基于层次遍历
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -117,23 +117,23 @@ public class Codec {
 // Your Codec object will be instantiated and called as such:
 // Codec codec = new Codec();
 // codec.deserialize(codec.serialize(root));
-```
+// ```
 
-### Extend & Reference
+// ### Extend & Reference
 
-> 来源：力扣（LeetCode）
-> 链接：https://leetcode-cn.com
-> 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+// > 来源：力扣（LeetCode）
+// > 链接：https://leetcode-cn.com
+// > 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
-### More
+// ### More
 
-> **更多题解，请访问我的GitHub仓库：[LeetCode 刷题日记](https://github.com/ZhuoZhuoCrayon/my-Nodes/blob/master/Daily/README_2020.md)**
->
-> ![alt](https://pic.leetcode-cn.com/3504ec8b81323ac4f40e7ee760f2e5c1397c7c7538ff90e4c690b36ae8b9c3c3-file_1581943832953)
->
-> [**更多笔记**](https://github.com/ZhuoZhuoCrayon/my-Nodes)：**`Vue` `Java SSM 框架` `阿里云服务器` `JavaScript/HTML/CSS`   `数据库` ...**
->
-> **我的GitHub主页 -> [ZhuoZhuoCrayon](https://github.com/ZhuoZhuoCrayon)**
->
-> 共勉~
+// > **更多题解，请访问我的GitHub仓库：[LeetCode 刷题日记](https://github.com/ZhuoZhuoCrayon/my-Nodes/blob/master/Daily/README_2020.md)**
+// >
+// > ![alt](https://pic.leetcode-cn.com/3504ec8b81323ac4f40e7ee760f2e5c1397c7c7538ff90e4c690b36ae8b9c3c3-file_1581943832953)
+// >
+// > [**更多笔记**](https://github.com/ZhuoZhuoCrayon/my-Nodes)：**`Vue` `Java SSM 框架` `阿里云服务器` `JavaScript/HTML/CSS`   `数据库` ...**
+// >
+// > **我的GitHub主页 -> [ZhuoZhuoCrayon](https://github.com/ZhuoZhuoCrayon)**
+// >
+// > 共勉~
 

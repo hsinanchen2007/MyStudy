@@ -1,9 +1,9 @@
-### 解题思路
-    三行代码解决所有问题
+// ### 解题思路
+//     三行代码解决所有问题
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @param {string} p
@@ -14,4 +14,4 @@ var isMatch = function(s, p) {
     var re=new RegExp(p);
     return re.test(s);
 };
-```
+// ```

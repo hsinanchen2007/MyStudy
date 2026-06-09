@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def searchRange(self, nums: List[int], target: int) -> List[int]:
         first_last = []
@@ -34,5 +34,5 @@ class Solution:
             return first_last
         else:
             return [-1,-1]
-```
+# ```
 

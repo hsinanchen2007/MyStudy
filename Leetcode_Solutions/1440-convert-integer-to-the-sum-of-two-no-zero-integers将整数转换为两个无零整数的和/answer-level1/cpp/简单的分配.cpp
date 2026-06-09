@@ -1,5 +1,5 @@
-尽量平分，为了保证无0，每一位至少是2，不足2的从高位取。
-```
+// 尽量平分，为了保证无0，每一位至少是2，不足2的从高位取。
+// ```
 class Solution {
 public:
     vector<int> getNoZeroIntegers(int n) {
@@ -22,11 +22,11 @@ public:
         return {x,y};
     }
 };
-```
+// ```
 
-精简一下
+// 精简一下
 
-```
+// ```
 class Solution {
 public:
     vector<int> getNoZeroIntegers(int n) {
@@ -41,5 +41,5 @@ public:
         return {x,y};
     }
 };
-```
+// ```
 

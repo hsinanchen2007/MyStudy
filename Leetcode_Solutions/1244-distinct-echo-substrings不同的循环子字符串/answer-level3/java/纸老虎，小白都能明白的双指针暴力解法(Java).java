@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int distinctEchoSubstrings(String text) {
         Set<String> set = new HashSet<>();
@@ -21,4 +21,4 @@ class Solution {
         return s.substring(0,middle).equals(s.substring(middle));
     }
 }
-```
+// ```

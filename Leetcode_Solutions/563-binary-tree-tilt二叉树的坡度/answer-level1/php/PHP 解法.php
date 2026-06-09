@@ -1,7 +1,7 @@
-重点是一定要明确递归函数的定义。
-还有，最终返回值可能与递归函数的返回值不一致，在中途进行处理。
+// 重点是一定要明确递归函数的定义。
+// 还有，最终返回值可能与递归函数的返回值不一致，在中途进行处理。
 
-```php
+// ```php
 /**
  * Definition for a binary tree node.
  * class TreeNode {
@@ -32,4 +32,4 @@ class Solution {
         return $left + $right + $node->val;
     }
 }
-```
+// ```

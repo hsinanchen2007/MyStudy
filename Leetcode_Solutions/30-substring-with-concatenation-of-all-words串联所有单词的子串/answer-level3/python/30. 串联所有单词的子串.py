@@ -1,10 +1,10 @@
-### 解题思路
-- 建立words中各个word与其出现次数的字典（哈希表）
-- 建立滑窗在s中遍历，看滑窗内的字典和words字典是否一致
+# ### 解题思路
+# - 建立words中各个word与其出现次数的字典（哈希表）
+# - 建立滑窗在s中遍历，看滑窗内的字典和words字典是否一致
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findSubstring(self, s: str, words: List[str]) -> List[int]:
         if not words:
@@ -37,5 +37,5 @@ class Solution:
                 res.append(i)
         return res
 
-```
-### PS： python中统计各元素的出现次数 建立字典，除了常规的遍历方法，也可以使用`collection`库中的`Counter()`函数: `dic = collection.Counter(list)`
+# ```
+# ### PS： python中统计各元素的出现次数 建立字典，除了常规的遍历方法，也可以使用`collection`库中的`Counter()`函数: `dic = collection.Counter(list)`

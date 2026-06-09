@@ -1,5 +1,5 @@
-# 1. 字符串处理，暴力解法，时间空间复杂度击败低
-```
+# # 1. 字符串处理，暴力解法，时间空间复杂度击败低
+# ```
 class Solution:
     def is_number(self, strr):
         try:
@@ -35,13 +35,13 @@ class Solution:
             num = 0
 
         return min(max(num, pow(-2, 31)), pow(2, 31) - 1)
-```
-1. 分割、逐字符判断、添加检测代码
-2. 时间复杂度O(n)，空间复杂度O(1)
+# ```
+# 1. 分割、逐字符判断、添加检测代码
+# 2. 时间复杂度O(n)，空间复杂度O(1)
 
 
-# 2. 正则一步到位，但时间空间复杂度击败仍低
-```
+# # 2. 正则一步到位，但时间空间复杂度击败仍低
+# ```
 class Solution:
     def myAtoi(self, s: str) -> int:
         INI_MAX = 2147483647
@@ -50,6 +50,6 @@ class Solution:
         str = str.lstrip()  # clear preceding whitespace
         num = int(*re.findall("^[\+\-]?\d+", str))
         return max(min(int(num), INI_MAX), INI_MIN)
-```
-1. 时间复杂度O(n)，空间复杂度O(1)
-2. *的使用和Regex的使用很巧妙，int("")返回0
+# ```
+# 1. 时间复杂度O(n)，空间复杂度O(1)
+# 2. *的使用和Regex的使用很巧妙，int("")返回0

@@ -1,7 +1,7 @@
-遍历2次：
-第一次：将连续了3个相同字符以上的字符串首尾字符赋值为‘#’
-第二次：将含有‘#’的位置顺序遍历二维化。
-```
+// 遍历2次：
+// 第一次：将连续了3个相同字符以上的字符串首尾字符赋值为‘#’
+// 第二次：将含有‘#’的位置顺序遍历二维化。
+// ```
 int** largeGroupPositions(char * S, int* returnSize, int** returnColumnSizes){
       int i=1;
       int count=1;
@@ -54,4 +54,4 @@ int** largeGroupPositions(char * S, int* returnSize, int** returnColumnSizes){
       }
       return H;
 }
-```
+// ```

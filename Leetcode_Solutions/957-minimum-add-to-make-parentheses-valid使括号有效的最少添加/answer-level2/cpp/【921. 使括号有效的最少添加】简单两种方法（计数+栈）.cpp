@@ -1,6 +1,6 @@
-## 思路一：计数
-### 代码
-```c++
+// ## 思路一：计数
+// ### 代码
+// ```c++
 class Solution {
 public:
     int minAddToMakeValid(string S) {
@@ -26,9 +26,9 @@ public:
         return res + cnt;
     }
 };
-```
-#### 简化代码
-```c++
+// ```
+// #### 简化代码
+// ```c++
 class Solution {
 public:
     int minAddToMakeValid(string S) {
@@ -43,12 +43,12 @@ public:
         return res + cnt;
     }
 };
-```
+// ```
 
 
-## 思路二：栈
-### 代码
-```c++
+// ## 思路二：栈
+// ### 代码
+// ```c++
 class Solution {
 public:
     int minAddToMakeValid(string S) {
@@ -74,5 +74,5 @@ public:
         return res;
     }
 };
-```
+// ```
 

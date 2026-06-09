@@ -1,5 +1,5 @@
-用链表来模拟队列，进而实现 BFS ， 这里在链表的节点除了坐标信息还加入了距离信息，遇到满足条件的位置信息直接返回距离。
-```
+// 用链表来模拟队列，进而实现 BFS ， 这里在链表的节点除了坐标信息还加入了距离信息，遇到满足条件的位置信息直接返回距离。
+// ```
 func updateMatrix(matrix [][]int) [][]int {
     for i:=0; i<len(matrix); i++ {
         for j:=0; j<len(matrix[i]); j++ {
@@ -63,4 +63,4 @@ func check(matrix [][]int, i,j int) bool {
     }
     return false
 }
-```
+// ```

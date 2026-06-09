@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def coinChange(self, coins: List[int], amount: int) -> int:
         dp = [0] + [-1] * amount
@@ -7,5 +7,5 @@ class Solution:
             if candidate:
                 dp[i] = min(candidate)
         return dp[-1]
-```
+# ```
 

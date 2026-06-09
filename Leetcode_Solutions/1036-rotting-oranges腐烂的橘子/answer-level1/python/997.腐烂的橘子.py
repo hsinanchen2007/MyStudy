@@ -1,11 +1,11 @@
-### 解题思路
-- 队列中所有存储烂橘子(i,j,cur_time)，同一趟加入的烂橘子有相同的cur_time
-- 逐个出队得到(cur_i,cur_j,cur_time)，做四个方向(i,j)的检查，将新鲜橘子变烂后入队，(i,j,cur_time)
-- 队空说明能腐烂的已经腐烂了，检查是否还有新鲜橘子，是则return -1，否则return cur_time
+# ### 解题思路
+# - 队列中所有存储烂橘子(i,j,cur_time)，同一趟加入的烂橘子有相同的cur_time
+# - 逐个出队得到(cur_i,cur_j,cur_time)，做四个方向(i,j)的检查，将新鲜橘子变烂后入队，(i,j,cur_time)
+# - 队空说明能腐烂的已经腐烂了，检查是否还有新鲜橘子，是则return -1，否则return cur_time
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def orangesRotting(self, grid):
         """
@@ -37,4 +37,4 @@ class Solution(object):
 
         #确认没有新鲜橘子了
         return cur_time        
-```
+# ```

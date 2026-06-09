@@ -1,9 +1,9 @@
-执行用时 :8 ms, 在所有 C++ 提交中击败了78.92%的用户
-内存消耗 :12.1 MB, 在所有 C++ 提交中击败了5.15%的用户
+// 执行用时 :8 ms, 在所有 C++ 提交中击败了78.92%的用户
+// 内存消耗 :12.1 MB, 在所有 C++ 提交中击败了5.15%的用户
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	vector<int> intersect(vector<int>& nums1, vector<int>& nums2)
@@ -26,4 +26,4 @@ public:
 
 	}
 };
-```
+// ```

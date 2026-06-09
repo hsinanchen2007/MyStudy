@@ -1,9 +1,9 @@
-### 解题思路
-熟悉unoredered map的数据结构。
+// ### 解题思路
+// 熟悉unoredered map的数据结构。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int countCharacters(vector<string>& words, string chars) {
@@ -31,4 +31,4 @@ public:
        return ans;
     }
 };
-```
+// ```

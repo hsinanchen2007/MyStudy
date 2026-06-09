@@ -1,9 +1,9 @@
-### 解题思路
-递归的写法
+# ### 解题思路
+# 递归的写法
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def fun(self, num):
         return (num + 1) % 10
@@ -18,13 +18,13 @@ class Solution:
         return digits
         
         
-```
+# ```
 
-### 解题思路
-仅一次遍历时间复杂度O(n)的写法：加后temp不为零则终止, 为零则从后往前进位， 
+# ### 解题思路
+# 仅一次遍历时间复杂度O(n)的写法：加后temp不为零则终止, 为零则从后往前进位， 
 
 
-```python3
+# ```python3
 class Solution:
     def fun(self, num):
         return (num + 1) % 10
@@ -41,4 +41,4 @@ class Solution:
         return digits
         
         
-```
+# ```

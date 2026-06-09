@@ -1,5 +1,5 @@
-使用一个额外字符串，相比STL更快
-```
+// 使用一个额外字符串，相比STL更快
+// ```
 class Solution {
 public:
     string defangIPaddr(string address) {
@@ -14,4 +14,4 @@ public:
         return str;
     }
 };
-```
+// ```

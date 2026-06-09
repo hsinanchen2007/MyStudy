@@ -1,9 +1,9 @@
-### 解题思路
-https://www.zhihu.com/people/god-jiang
+// ### 解题思路
+// https://www.zhihu.com/people/god-jiang
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean verifyPostorder(int[] postorder) {
         if(postorder==null||postorder.length==0){
@@ -30,4 +30,4 @@ class Solution {
         return judge(postorder,start,i-1)&&judge(postorder,i,end-1);
     }
 }
-```
+// ```

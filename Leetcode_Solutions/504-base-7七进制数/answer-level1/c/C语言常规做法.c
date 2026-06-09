@@ -1,4 +1,4 @@
-```c
+// ```c
 char * convertToBase7(int num){
     if(num==0) return "0";
     int i,digit=0,flag=num>0?0:1;
@@ -19,4 +19,4 @@ char * convertToBase7(int num){
     str=s;
     return str;
 }
-```
+// ```

@@ -1,5 +1,5 @@
-两次for循环，第一次把数组挪到前方，第二次把后边的数都改成0
-```
+// 两次for循环，第一次把数组挪到前方，第二次把后边的数都改成0
+// ```
 class Solution {
     public void moveZeroes(int[] nums) {
         int N = nums.length;
@@ -15,4 +15,4 @@ class Solution {
         }
     }
 }
-```
+// ```

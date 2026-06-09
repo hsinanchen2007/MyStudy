@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
-统计出现次数
-### 代码
+// 统计出现次数
+// ### 代码
 
-```c
+// ```c
 int maxNumberOfBalloons(char * text){
     int record[5]={0},i,min;
     for(i=0;i<strlen(text);i++){
@@ -20,4 +20,4 @@ int maxNumberOfBalloons(char * text){
     for(i=1;i<5;i++)if(min>record[i])min=record[i];
     return min;
 }
-```
+// ```

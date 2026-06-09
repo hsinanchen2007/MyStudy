@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/da9f19530da4805260b385eb4a3c9850f3ba02fdf1967783b758758bbe3ef8d0-image.png)
+// ![image.png](https://pic.leetcode-cn.com/da9f19530da4805260b385eb4a3c9850f3ba02fdf1967783b758758bbe3ef8d0-image.png)
 
-```
+// ```
     TreeNode res;
     public TreeNode increasingBST(TreeNode root) {
         res = new TreeNode(0);
@@ -18,4 +18,4 @@
         res = n;
         helper(root.right);
     }
-```
+// ```

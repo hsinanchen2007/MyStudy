@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isValid(char * s){
     char data[10000] = {0};
     int head = 0;
@@ -59,4 +59,4 @@ bool isValid(char * s){
 
     return invalid;
 }
-```
+// ```

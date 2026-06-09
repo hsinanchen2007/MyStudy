@@ -1,9 +1,9 @@
-### 解题思路
-挖坑，埋萝卜
+// ### 解题思路
+// 挖坑，埋萝卜
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool canPlaceFlowers(vector<int>& flowerbed, int n) {
@@ -23,4 +23,4 @@ public:
 
     }
 };
-```
+// ```

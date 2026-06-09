@@ -1,8 +1,8 @@
-### 解题思路
-无论加减都是加。不过是负数而已
-### 代码
+// ### 解题思路
+// 无论加减都是加。不过是负数而已
+// ### 代码
 
-```java
+// ```java
 class Solution {
    public String fractionAddition(String exp) {
 		 //第一步，将字符串转换为分数"-1/2+1/2+1/3"
@@ -81,4 +81,4 @@ class Solution {
 		return max1;
 	}
 }
-```
+// ```

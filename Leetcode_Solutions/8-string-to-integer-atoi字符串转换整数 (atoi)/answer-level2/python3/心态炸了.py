@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def myAtoi(self, str_t: str) -> int:
         k=0
@@ -84,4 +84,4 @@ class Solution:
         if the_sum<-2147483648:
             return -2147483648
         return the_sum
-```
+# ```

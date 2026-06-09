@@ -1,14 +1,14 @@
-### 解题思路一
-1.构造线段树节点。
-2.新添加的线段树节点，要么只能全在node.start往左，要么只能全在node.end往右。
-3.左右子树如果不存在，这表示该区间不存在，可以插入，如果存在，则往其左右子树递推即可。
-4.不满足条件的则表示与当前节点的区间发生了重叠，不能插入。
+// ### 解题思路一
+// 1.构造线段树节点。
+// 2.新添加的线段树节点，要么只能全在node.start往左，要么只能全在node.end往右。
+// 3.左右子树如果不存在，这表示该区间不存在，可以插入，如果存在，则往其左右子树递推即可。
+// 4.不满足条件的则表示与当前节点的区间发生了重叠，不能插入。
 
-本题构造的线段树节点，以及线段树的更新操作，基本上就是二叉搜索树新增节点的变形，极端情况下，效率会从O(logN)退化到O(N)
+// 本题构造的线段树节点，以及线段树的更新操作，基本上就是二叉搜索树新增节点的变形，极端情况下，效率会从O(logN)退化到O(N)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MyCalendar {
 
     // 线段树的根
@@ -79,17 +79,17 @@ class MyCalendar {
  * MyCalendar obj = new MyCalendar();
  * boolean param_1 = obj.book(start,end);
  */
-```
+// ```
 
-### 解题思路二
-直接利用TreeMap，以start为key,end为value。
+// ### 解题思路二
+// 直接利用TreeMap，以start为key,end为value。
 
-1.找到比start小的值，看其value是不是比start大，如果大于start，则表示重复，不能插入
-2.找到比start大的值，看其本身是不是比end小，如果小于end，则表示重复，不能插入
+// 1.找到比start小的值，看其value是不是比start大，如果大于start，则表示重复，不能插入
+// 2.找到比start大的值，看其本身是不是比end小，如果小于end，则表示重复，不能插入
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MyCalendar {
     // key->start ; value->end
     private TreeMap<Integer,Integer> tm;
@@ -114,4 +114,4 @@ class MyCalendar {
         return true;
     }
 }
-```
+// ```

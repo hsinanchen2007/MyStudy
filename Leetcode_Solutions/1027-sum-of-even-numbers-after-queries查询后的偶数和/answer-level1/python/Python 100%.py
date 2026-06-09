@@ -1,9 +1,9 @@
-### 解题思路
-为了提升性能 其实就是在上一次查询结果的基础上 判断 这次要加上去的是奇数还是偶数 对应A数组中的数字当前是奇数还是偶数 就可以在上次查询的基础上以O(1)的时间复杂度完成操作 整体时间复杂度O(n)
+# ### 解题思路
+# 为了提升性能 其实就是在上一次查询结果的基础上 判断 这次要加上去的是奇数还是偶数 对应A数组中的数字当前是奇数还是偶数 就可以在上次查询的基础上以O(1)的时间复杂度完成操作 整体时间复杂度O(n)
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def sumEvenAfterQueries(self, A, queries):
         """
@@ -31,4 +31,4 @@ class Solution(object):
                     lastValue += (A[index] + val)
             A[index] += val
         return answer
-```
+# ```

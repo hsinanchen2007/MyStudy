@@ -1,10 +1,10 @@
-### 解题思路
-1. 模拟法+位运算, 有$O(1)$空间复杂度的解
-2. 卷积求解
+# ### 解题思路
+# 1. 模拟法+位运算, 有$O(1)$空间复杂度的解
+# 2. 卷积求解
 
-### 代码
+# ### 代码
 
-```c++ []
+# ```c++ []
 class Solution {
 public:
     void gameOfLife(vector<vector<int>>& board) {
@@ -61,8 +61,8 @@ private:
     vector<vector<int>> dirs = {{-1, 0}, {-1, 1}, {0, 1}, {1, 1}, {1, 0}, {1, -1}, {0, -1}, {-1, -1}};
     int R,C;
 };
-```
-```java []
+# ```
+# ```java []
 class Solution {
     public void gameOfLife(int[][] board) {
         // 位运算存储状态
@@ -115,8 +115,8 @@ class Solution {
     private int[][] dirs = {{-1, 0}, {-1, 1}, {0, 1}, {1, 1}, {1, 0}, {1, -1}, {0, -1}, {-1, -1}};
     private int R, C;
 }
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def gameOfLife(self, board: List[List[int]]) -> None:
         """
@@ -142,4 +142,4 @@ class Solution:
                     if N == 3:
                         board[i-1][j-1] = 1
             
-```
+# ```

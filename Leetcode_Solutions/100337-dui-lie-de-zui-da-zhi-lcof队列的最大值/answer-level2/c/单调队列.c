@@ -1,11 +1,11 @@
-### 解题思路
-1. 如果只是入队、出队，则一个数组模拟即可；
-2. 要获取最大值，就可以采用单调队列，与https://leetcode-cn.com/problems/sliding-window-maximum/采用类似的方式，本题要采用单调不增队列，如果是单调减队列也是有问题的；
-3. maxQueuePush_back接口O(1)如何理解，因为每个数字只能够进入一次队列，所以是O(1)，不能只看while就说明不是O(1)
+// ### 解题思路
+// 1. 如果只是入队、出队，则一个数组模拟即可；
+// 2. 要获取最大值，就可以采用单调队列，与https://leetcode-cn.com/problems/sliding-window-maximum/采用类似的方式，本题要采用单调不增队列，如果是单调减队列也是有问题的；
+// 3. maxQueuePush_back接口O(1)如何理解，因为每个数字只能够进入一次队列，所以是O(1)，不能只看while就说明不是O(1)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX_N 110001
 
 typedef struct {
@@ -51,4 +51,4 @@ int maxQueuePop_front(MaxQueue* obj) {
 void maxQueueFree(MaxQueue* obj) {
     free(obj);
 }
-```
+// ```

@@ -1,10 +1,10 @@
-算法思路：
+// 算法思路：
 
- ![WechatIMG1.jpeg](https://pic.leetcode-cn.com/d5d1acc48b06fb02b3d7e9d9ef7cd670591d1f57b7f2a54fec632095903dc050-WechatIMG1.jpeg)
+//  ![WechatIMG1.jpeg](https://pic.leetcode-cn.com/d5d1acc48b06fb02b3d7e9d9ef7cd670591d1f57b7f2a54fec632095903dc050-WechatIMG1.jpeg)
 
-因为交换的是 a2 和 a3, 所以在最开始的时候为 head 添加一个前序节点，最后返回前序节点的下一节点即可，代码如下：
+// 因为交换的是 a2 和 a3, 所以在最开始的时候为 head 添加一个前序节点，最后返回前序节点的下一节点即可，代码如下：
 
-```go
+// ```go
 func swapPairs(head *ListNode) *ListNode {
     head = &ListNode{Next: head}
     prev := head
@@ -15,4 +15,4 @@ func swapPairs(head *ListNode) *ListNode {
     }
     return head.Next
 }
-```
+// ```

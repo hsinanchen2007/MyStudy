@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class Solution {
 public:
     vector<int> nextGreaterElements(vector<int>& nums) {
@@ -18,5 +18,5 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/6dd9ad3a077b8962a90039c5a301f8b135cec154d22e2e37b2b6df09edd90cf0-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/6dd9ad3a077b8962a90039c5a301f8b135cec154d22e2e37b2b6df09edd90cf0-image.png)

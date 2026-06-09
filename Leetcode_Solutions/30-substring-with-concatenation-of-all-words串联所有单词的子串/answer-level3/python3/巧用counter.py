@@ -1,8 +1,8 @@
-滑块模型逐行匹配，用字典Counter函数解决不同单词的组合问题
+# 滑块模型逐行匹配，用字典Counter函数解决不同单词的组合问题
 
  
 
-```python3
+# ```python3
 class Solution:
     def findSubstring(self, s: str, words: List[str]) -> List[int]:
         from collections import Counter 
@@ -21,4 +21,4 @@ class Solution:
             if res==harsh:
                 index.append(i)
         return index
-```
+# ```

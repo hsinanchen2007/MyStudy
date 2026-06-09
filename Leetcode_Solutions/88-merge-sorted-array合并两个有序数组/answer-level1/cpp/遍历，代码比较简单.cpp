@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-把num2的元素补到num1后面，sort一下
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 把num2的元素补到num1后面，sort一下
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
@@ -13,4 +13,4 @@ public:
         sort(nums1.begin(),nums1.end());
     }
 };
-```
+// ```

@@ -1,13 +1,13 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/f139f981363524e349d6cfe05181515cd00bf61a0f47b4d98e27ed6ecddc08c7-image.png)
-- 先排序，降低循环
-- 先求得最小值
-- 通过判断差值是否等于最小值，如果是加入 res中
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/f139f981363524e349d6cfe05181515cd00bf61a0f47b4d98e27ed6ecddc08c7-image.png)
+// - 先排序，降低循环
+// - 先求得最小值
+// - 通过判断差值是否等于最小值，如果是加入 res中
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} arr
  * @return {number[][]}
@@ -31,4 +31,4 @@ var minimumAbsDifference = function(arr) {
     return res
 };
 
-```
+// ```

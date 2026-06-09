@@ -1,6 +1,6 @@
-**数组里面出现次数超过1/3的元素，即理每n/3个元素中至少有一个该元素，那么就可以遍历一边数组，相同元素value+1，直到threeTimes字典中keys到达n/3个，所有的value都减1，若value为0，移除该key。同时一个map记录所有元素的count，最后需过滤次数不到n/3的元素**
+# **数组里面出现次数超过1/3的元素，即理每n/3个元素中至少有一个该元素，那么就可以遍历一边数组，相同元素value+1，直到threeTimes字典中keys到达n/3个，所有的value都减1，若value为0，移除该key。同时一个map记录所有元素的count，最后需过滤次数不到n/3的元素**
 
-```python
+# ```python
 class Solution:
     def handleMap(self,nums: {int: int}) -> {int: int}:
         res = {}
@@ -38,4 +38,4 @@ class Solution:
                 res.append(key)
 
         return res
-```
+# ```

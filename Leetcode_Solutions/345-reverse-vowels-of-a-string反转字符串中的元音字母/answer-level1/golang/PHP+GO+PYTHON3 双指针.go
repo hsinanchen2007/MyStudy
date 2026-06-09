@@ -1,8 +1,8 @@
-- 先要知道元音字母有哪些
-- 两头查找元音字母并且交换
-- # php是最没有底线的, 但是写起来没那么绕
+// - 先要知道元音字母有哪些
+// - 两头查找元音字母并且交换
+// - # php是最没有底线的, 但是写起来没那么绕
 
-```php []
+// ```php []
 class Solution {
 
     /**
@@ -33,8 +33,8 @@ class Solution {
         return $s;
     }
 }
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def reverseVowels(self, s: str) -> str:
         need = 'aeiouAEIOU'
@@ -54,8 +54,8 @@ class Solution:
             l+=1;r-=1
         
         return "".join(arr)
-```
-```go []
+// ```
+// ```go []
 func reverseVowels(s string) string {
     arr := map[string]int{"a":1,"A":1,"e":1,"E":1,"i":1,"I":1,"o":1,"O":1,"u":1,"U":1}
     out := []rune(s)
@@ -78,4 +78,4 @@ func reverseVowels(s string) string {
     
     return string(out)
 }
-```
+// ```

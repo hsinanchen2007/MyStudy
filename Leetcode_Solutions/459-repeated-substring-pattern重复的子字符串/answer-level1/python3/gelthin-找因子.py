@@ -1,12 +1,12 @@
-### 解题思路
-因子变量范围没控制好，接连两次提交都错误。
-for i in raneg(1,n+1) 对 "aba" 出错
-for i in range(2, n): 对 "bb" 出错
+# ### 解题思路
+# 因子变量范围没控制好，接连两次提交都错误。
+# for i in raneg(1,n+1) 对 "aba" 出错
+# for i in range(2, n): 对 "bb" 出错
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def repeatedSubstringPattern(self, s: str) -> bool:
         n = len(s)
@@ -21,4 +21,4 @@ class Solution:
                     return True
         return False
 
-```
+# ```

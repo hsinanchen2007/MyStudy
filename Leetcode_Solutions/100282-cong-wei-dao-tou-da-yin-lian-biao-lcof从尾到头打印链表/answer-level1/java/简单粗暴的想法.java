@@ -1,9 +1,9 @@
-### 解题思路
-链表就用数组存就完事了。
+// ### 解题思路
+// 链表就用数组存就完事了。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -33,4 +33,4 @@ class Solution {
         return a;
     }
 }
-```
+// ```

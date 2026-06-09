@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     # 递归，宏观思考，
     def mirrorTree1(self, root):
@@ -39,4 +39,4 @@ class Solution(object):
                 q.append(tem.right)
             tem.left, tem.right = tem.right, tem.left   # 不管左右空与不空，都需要做镜像操作，这样可以保证每个节点都做了镜像操作。
         return root  # 返回根节点
-```
+# ```

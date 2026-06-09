@@ -1,10 +1,10 @@
-### 解题思路
-switch case当前字符，然后遍历每个字符，对特殊的字符进行比对。
-刚开始练习，还要多多学习！
+// ### 解题思路
+// switch case当前字符，然后遍历每个字符，对特殊的字符进行比对。
+// 刚开始练习，还要多多学习！
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int romanToInt(char * s){
 
     int result = 0;
@@ -77,4 +77,4 @@ int romanToInt(char * s){
     
 	return result;
 }
-```
+// ```

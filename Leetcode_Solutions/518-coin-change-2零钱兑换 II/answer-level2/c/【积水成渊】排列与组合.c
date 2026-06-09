@@ -1,10 +1,10 @@
-### 解题思路
-可以参考这篇题解，对排列和组合进行区分
-https://leetcode-cn.com/problems/coin-change-2/solution/ling-qian-dui-huan-iihe-pa-lou-ti-wen-ti-dao-di-yo/
+// ### 解题思路
+// 可以参考这篇题解，对排列和组合进行区分
+// https://leetcode-cn.com/problems/coin-change-2/solution/ling-qian-dui-huan-iihe-pa-lou-ti-wen-ti-dao-di-yo/
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define max(a,b) ((a) > (b) ? (a) : (b))
 int change(int amount, int* coins, int coinsSize){
     int i, j;
@@ -32,4 +32,4 @@ int change(int amount, int* coins, int coinsSize){
     dp = NULL;
     return amountNum;
 }
-```
+// ```

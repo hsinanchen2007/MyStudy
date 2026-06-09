@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 /**
  * // This is the CustomFunction's API interface.
  * // You should not implement it, or speculate about its implementation
@@ -32,6 +32,6 @@ var findSolution = function(customfunction, z) {
     }
     return result
 };
-```
-简单说就是利用了单调递增这个特点，从1，1开始往上遍历
-![123.png](https://pic.leetcode-cn.com/1a30f2c4729273b050ee0c483fa4a11b6bc4f43e9f271641b70275068cd40560-123.png)
+// ```
+// 简单说就是利用了单调递增这个特点，从1，1开始往上遍历
+// ![123.png](https://pic.leetcode-cn.com/1a30f2c4729273b050ee0c483fa4a11b6bc4f43e9f271641b70275068cd40560-123.png)

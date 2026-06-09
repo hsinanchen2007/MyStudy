@@ -1,10 +1,10 @@
-#### 解题思路
-![TIM图片20200405112344.png](https://pic.leetcode-cn.com/66e0e167ad625911313edb38857f154273a53fb6c33265a867931f1f870ff4a6-TIM%E5%9B%BE%E7%89%8720200405112344.png)
-依次从左子树和右子树中获取第二大的值，然后取两者较小的一个，那么必定是第二大的值（根节点一定是最小的嘛）
+// #### 解题思路
+// ![TIM图片20200405112344.png](https://pic.leetcode-cn.com/66e0e167ad625911313edb38857f154273a53fb6c33265a867931f1f870ff4a6-TIM%E5%9B%BE%E7%89%8720200405112344.png)
+// 依次从左子树和右子树中获取第二大的值，然后取两者较小的一个，那么必定是第二大的值（根节点一定是最小的嘛）
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -28,4 +28,4 @@ public:
         return rightval;
     }
 };
-```
+// ```

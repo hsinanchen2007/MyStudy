@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class Solution {
 public:
     bool dfs(vector<vector<char>>& board, int i, int j, string word, int x,
@@ -38,5 +38,5 @@ public:
     }
 };
 
-```
-因为开始未必在（0， 0）的位置，因此需要遍历所有的节点找起点。
+// ```
+// 因为开始未必在（0， 0）的位置，因此需要遍历所有的节点找起点。

@@ -1,8 +1,8 @@
 
 
-**  移动路径：**
-    不是直接一步步移动，如果上次有移动方向，必须按照移动方向移动
-```java []
+// **  移动路径：**
+//     不是直接一步步移动，如果上次有移动方向，必须按照移动方向移动
+// ```java []
 
                 if (moveIndex >= 0) {
                     nextX = x + moveArray[moveIndex][0];
@@ -18,17 +18,17 @@
                             new StringBuffer(moveTrace).append(moveDirs.charAt(k)), queue);
                     }
                 }
-```
+// ```
 
-**  访问点记录：**
-```java []
+// **  访问点记录：**
+// ```java []
 
                 private boolean[][][] visited; 点和移动方向
-```
-**  移动顺序选择**
+// ```
+// **  移动顺序选择**
 
-    按照字典顺序增加到队列，这样找到的点就是路径最小的点
-```java []
+//     按照字典顺序增加到队列，这样找到的点就是路径最小的点
+// ```java []
     private String moveDirs = "dlru";
     private int[][] moveArray = new int[][] {{1, 0}, {0, -1}, {0, 1}, {-1, 0}};
-```
+// ```

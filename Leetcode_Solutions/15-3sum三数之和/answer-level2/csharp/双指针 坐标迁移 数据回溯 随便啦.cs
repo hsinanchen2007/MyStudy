@@ -1,13 +1,13 @@
-### 解题思路
+// ### 解题思路
 
-假设我有一个值（x,y,z） x代表一条直线的起点 y代表一条直线的终点 这时候z 可以在x~y之间活动 扫描符合条件的数据
+// 假设我有一个值（x,y,z） x代表一条直线的起点 y代表一条直线的终点 这时候z 可以在x~y之间活动 扫描符合条件的数据
 
-如下
+// 如下
 
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public IList<IList<int>> ThreeSum(int[] nums) {
             Array.Sort(nums);//将杂乱数据进行排序 [-1, 0, 1, 2, -1, -4]->[-4,-1,-1,0,1,2]
@@ -46,4 +46,4 @@ public class Solution {
             return all;
     }
 }
-```
+// ```

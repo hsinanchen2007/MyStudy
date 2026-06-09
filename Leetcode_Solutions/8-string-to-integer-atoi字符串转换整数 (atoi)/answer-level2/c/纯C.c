@@ -1,5 +1,5 @@
-纯C
-```
+// 纯C
+// ```
 int myAtoi(char * str){
     short ssSign = 0;
     long slInterget = 0;
@@ -29,4 +29,4 @@ int myAtoi(char * str){
 
     return slInterget;
 }
-```
+// ```

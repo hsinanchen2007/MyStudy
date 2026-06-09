@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/1b252e5f5cb30f7e7781bf988dc07e4f1e48146890051fb78b9470070736c6ea-image.png)
+# ![image.png](https://pic.leetcode-cn.com/1b252e5f5cb30f7e7781bf988dc07e4f1e48146890051fb78b9470070736c6ea-image.png)
 
 
-```
+# ```
 '''
 前缀树解决，每个字符串用/分割成序列，把所有序列全部加前缀树，
 然后再遍历一遍序列，用每个序列在前缀树里面dfs, 检查序列是不是
@@ -58,4 +58,4 @@ class Solution:
                 ans.append(f)
 
         return ans
-```
+# ```

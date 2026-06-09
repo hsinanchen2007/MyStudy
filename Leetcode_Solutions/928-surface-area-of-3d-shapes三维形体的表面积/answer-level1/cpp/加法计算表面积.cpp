@@ -1,9 +1,9 @@
-### 解题思路
-四周的计算外表面积，向右向下计算高度差
+// ### 解题思路
+// 四周的计算外表面积，向右向下计算高度差
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int surfaceArea(vector<vector<int>>& grid) {
@@ -28,4 +28,4 @@ public:
         return res;
     }
 };
-```
+// ```

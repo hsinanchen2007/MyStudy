@@ -1,5 +1,5 @@
-堆都会用, 但这里桶排序更快, O(N L log L), L是最长桶长. 当然也可以用 trie 进一步优化成 O(N), 懒得写了
-```cpp
+// 堆都会用, 但这里桶排序更快, O(N L log L), L是最长桶长. 当然也可以用 trie 进一步优化成 O(N), 懒得写了
+// ```cpp
 class Solution {
 public:
     vector<string> topKFrequent(vector<string>& words, int k) {
@@ -21,4 +21,4 @@ public:
         return {begin(ans), begin(ans) + k};
     }
 };
-```
+// ```

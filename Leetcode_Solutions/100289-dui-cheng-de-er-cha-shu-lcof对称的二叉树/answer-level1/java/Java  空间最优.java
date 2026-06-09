@@ -1,9 +1,9 @@
-### 解题思路
-思想转换：将一颗树的对称树与其对比，如果一致则是符合题目条件的对称树！
+// ### 解题思路
+// 思想转换：将一颗树的对称树与其对比，如果一致则是符合题目条件的对称树！
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -36,4 +36,4 @@ class Solution {
         return checkTwoTree(root1.left, root2.right) && checkTwoTree(root1.right, root2.left);
     }
 }
-```
+// ```

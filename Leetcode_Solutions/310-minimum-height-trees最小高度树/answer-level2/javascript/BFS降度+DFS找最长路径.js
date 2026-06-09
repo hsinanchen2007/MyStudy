@@ -1,5 +1,5 @@
-## BFS 一层一层剥离最终找到想要的答案
-```javascript
+// ## BFS 一层一层剥离最终找到想要的答案
+// ```javascript
     /**
      * 改进后寻找图的最小高度树的根节点方法：
      * 借用拓扑排序中度的概念，最小高度树的根节点肯定不会是一个入度为1的节点，即邻接表长度为1
@@ -53,9 +53,9 @@
     console.info(findMinHeightTrees1(7,[[0,1],[1,2],[1,3],[2,4],[3,5],[4,6]]));
     // 从 1-2-5-0-4-3，相当于剥离1-2-5,最终确定next为3
     console.info(findMinHeightTrees1(6,[[0,1],[0,2],[0,3],[3,4],[4,5]]));
-```
-## DFS找最长路径，中间位置的一个或者两个顶点即为所求(无奈超时)
-```javascript
+// ```
+// ## DFS找最长路径，中间位置的一个或者两个顶点即为所求(无奈超时)
+// ```javascript
     /**
      * 通过观察题解可以看出来我们找到一条最长的路径之后截取中间节点即为所求答案
      * 利用dfs查找最长路径
@@ -104,4 +104,4 @@
         return maxLen%2===0?[longestPath[longestPath.length/2],longestPath[maxLen/2-1]]:[longestPath[Math.floor(maxLen/2)]];
     };
 
-```
+// ```

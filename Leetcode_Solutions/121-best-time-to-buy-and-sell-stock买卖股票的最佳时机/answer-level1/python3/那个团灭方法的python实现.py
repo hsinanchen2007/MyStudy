@@ -1,5 +1,5 @@
-121. 买卖股票的最佳时机
-```
+# 121. 买卖股票的最佳时机
+# ```
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         if not prices: return 0
@@ -13,9 +13,9 @@ class Solution:
             dp[i][0] = max(dp[i-1][0],dp[i-1][1]+ prices[i]) 
             dp[i][1] = max(dp[i-1][1],- prices[i])
         return dp[-1][0]
-```
-122. 买卖股票的最佳时机 II
-```
+# ```
+# 122. 买卖股票的最佳时机 II
+# ```
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         if not prices: return 0
@@ -29,9 +29,9 @@ class Solution:
             dp[i][0] = max(dp[i-1][0],dp[i-1][1] + prices[i])
             dp[i][1] = max(dp[i-1][1],dp[i-1][0] - prices[i])
         return dp[-1][0]
-```
-123. 买卖股票的最佳时机 III
-```
+# ```
+# 123. 买卖股票的最佳时机 III
+# ```
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         if not prices: return 0
@@ -47,9 +47,9 @@ class Solution:
                 dp[i][k][1] = max(dp[i-1][k][1], dp[i-1][k-1][0]-prices[i])
                 
         return dp[n-1][2][0]
-```
-188. 买卖股票的最佳时机 IV
-```
+# ```
+# 188. 买卖股票的最佳时机 IV
+# ```
 class Solution:
     def maxProfit(self, k: int, prices: List[int]) -> int:
         if not prices: return 0
@@ -70,9 +70,9 @@ class Solution:
                     dp[i][j][1] = max(dp[i-1][j][1],dp[i-1][j-1][0] - prices[i])
                     dp[i][j][0] = max(dp[i-1][j][0],dp[i-1][j][1] + prices[i])
             return dp[-1][-1][0]
-```
-309. 最佳买卖股票时机含冷冻期
-```
+# ```
+# 309. 最佳买卖股票时机含冷冻期
+# ```
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         if not prices: return 0
@@ -86,10 +86,10 @@ class Solution:
             dp[i][0] = max(dp[i-1][0],dp[i-1][1] + prices[i])
             dp[i][1] = max(dp[i-1][1],dp[i-2][0] - prices[i])
         return dp[-1][0]
-```
-714. 买卖股票的最佳时机含手续费
+# ```
+# 714. 买卖股票的最佳时机含手续费
 
-```
+# ```
 class Solution:
     def maxProfit(self, prices: List[int], fee: int) -> int:
         if not prices: return 0
@@ -101,5 +101,5 @@ class Solution:
             dp[i][0] = max(dp[i-1][0],dp[i-1][1] + prices[i] -fee)
             dp[i][1] = max(dp[i-1][1],dp[i-1][0] - prices[i])
         return dp[-1][0]
-```
+# ```
 

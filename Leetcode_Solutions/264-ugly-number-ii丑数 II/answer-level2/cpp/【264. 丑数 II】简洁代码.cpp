@@ -1,9 +1,9 @@
-### 思路
-依次寻找每个丑数
+// ### 思路
+// 依次寻找每个丑数
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int nthUglyNumber(int n) {
@@ -21,4 +21,4 @@ public:
         return res.back();
     }
 };
-```
+// ```

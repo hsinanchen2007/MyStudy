@@ -1,5 +1,5 @@
-思路: 中序遍历, 在巧妙利用栈来实现
-```
+# 思路: 中序遍历, 在巧妙利用栈来实现
+# ```
 class BSTIterator:
 
     def __init__(self, root: TreeNode):
@@ -29,4 +29,4 @@ class BSTIterator:
         @return whether we have a next smallest number
         """
         return len(self.stack) != 0
-```
+# ```

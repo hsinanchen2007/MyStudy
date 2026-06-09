@@ -1,9 +1,9 @@
-### 解题思路
-核心是使用 假节点 
+// ### 解题思路
+// 核心是使用 假节点 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -35,4 +35,4 @@ public:
         return dummyHead.next;
     }
 };
-```
+// ```

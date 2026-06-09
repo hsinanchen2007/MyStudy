@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} num
  * @return {number}
@@ -21,6 +21,6 @@ var numberOfSteps  = function(num) {
     }
     return count
 };
-```
+// ```
 
-使用一个变量记录一下步数，再判断积偶数来进入除2或减1，返回步数
+// 使用一个变量记录一下步数，再判断积偶数来进入除2或减1，返回步数

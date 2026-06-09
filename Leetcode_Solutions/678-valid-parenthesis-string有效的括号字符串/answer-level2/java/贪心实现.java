@@ -1,5 +1,5 @@
-思路参考官方贪心解法: `left`和`right`表示左括号的数量区间。
-```
+// 思路参考官方贪心解法: `left`和`right`表示左括号的数量区间。
+// ```
 class Solution {
     public boolean checkValidString(String s) {
         int left = 0, right = 0;
@@ -20,4 +20,4 @@ class Solution {
         return left <= 0 && right >= 0;
     }
 }
-```
+// ```

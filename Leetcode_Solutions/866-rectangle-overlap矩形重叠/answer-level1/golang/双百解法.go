@@ -1,9 +1,9 @@
-### 解题思路
-不重叠，即A矩形在B矩形上下左右，此时返回false，除此之外都是重叠的情况。
+// ### 解题思路
+// 不重叠，即A矩形在B矩形上下左右，此时返回false，除此之外都是重叠的情况。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func isRectangleOverlap(rec1 []int, rec2 []int) bool {
     a1 := rec1[0]
     b1 := rec1[1]
@@ -19,4 +19,4 @@ func isRectangleOverlap(rec1 []int, rec2 []int) bool {
     }  
     return true
 }
-```
+// ```

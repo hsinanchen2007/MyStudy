@@ -1,9 +1,9 @@
-### 解题思路
-照抄官方自动机，多加了一个判断，遇到第一个非数字跳出循环，不知道这样有没有必要？请大家指点。
+# ### 解题思路
+# 照抄官方自动机，多加了一个判断，遇到第一个非数字跳出循环，不知道这样有没有必要？请大家指点。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Automation:
     def __init__(self):
         self.state = 'start'
@@ -42,4 +42,4 @@ class Solution:
             if autom.state == 'end':
                 break
         return autom.sign*autom.ans
-```
+# ```

@@ -1,11 +1,11 @@
-### 解题思路
-规律
-1.n位数乘m位数，结果为m+n位数
-2.num1中的第i位于num2中的第j位相乘，结果一定会落在i+j和i+j+1
+// ### 解题思路
+// 规律
+// 1.n位数乘m位数，结果为m+n位数
+// 2.num1中的第i位于num2中的第j位相乘，结果一定会落在i+j和i+j+1
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string multiply(string num1, string num2) {
@@ -33,4 +33,4 @@ public:
         return r.empty()?"0":r;
     }
 };
-```
+// ```

@@ -1,17 +1,17 @@
-执行结果：
-通过
-显示详情
-执行用时 :
-2 ms
-, 在所有 Java 提交中击败了
-95.04%
-的用户
-内存消耗 :
-38.3 MB
-, 在所有 Java 提交中击败了
-85.44%
-的用户
-```
+// 执行结果：
+// 通过
+// 显示详情
+// 执行用时 :
+// 2 ms
+// , 在所有 Java 提交中击败了
+// 95.04%
+// 的用户
+// 内存消耗 :
+// 38.3 MB
+// , 在所有 Java 提交中击败了
+// 85.44%
+// 的用户
+// ```
 class Solution {
     public int removeDuplicates(int[] nums) {
         int len = nums.length;
@@ -38,4 +38,4 @@ class Solution {
         return len-1-j;
     }
 }
-```
+// ```

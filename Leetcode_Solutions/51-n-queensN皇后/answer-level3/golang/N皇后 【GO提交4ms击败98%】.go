@@ -1,17 +1,17 @@
-## 结果
+// ## 结果
 
-![image.png](https://pic.leetcode-cn.com/451fd96c017f10655e34e722d255714d4e2c2787ebafaef0b0f1a4927df03f89-image.png)
+// ![image.png](https://pic.leetcode-cn.com/451fd96c017f10655e34e722d255714d4e2c2787ebafaef0b0f1a4927df03f89-image.png)
 
-## 思路
+// ## 思路
 
-用回溯法，首先算法的每一步都在棋盘上新的一行放置一个皇后（因为不可能出现一行两个皇后）。
-- 放置皇后时，需要考虑放置皇后的所在列没有皇后，以及皇后所在位置的四个斜对角方向没有皇后
-- 实现很直观，代码如下
+// 用回溯法，首先算法的每一步都在棋盘上新的一行放置一个皇后（因为不可能出现一行两个皇后）。
+// - 放置皇后时，需要考虑放置皇后的所在列没有皇后，以及皇后所在位置的四个斜对角方向没有皇后
+// - 实现很直观，代码如下
 
 
-## Code
+// ## Code
 
-```
+// ```
 func solveNQueens(n int) (result [][]string) {
     board := makeBoard(n)
     place(n, 0, board, &result)
@@ -84,5 +84,5 @@ func makeBoard(n int) [][]byte {
     }
     return result
 }
-```
+// ```
 

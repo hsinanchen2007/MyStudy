@@ -1,5 +1,5 @@
-Kotlin从个位依次遍历，发现6加上对应的30(后面0的个数即遍历次数), 求最大即可
-```kotlin
+// Kotlin从个位依次遍历，发现6加上对应的30(后面0的个数即遍历次数), 求最大即可
+// ```kotlin
 class Solution {
     fun maximum69Number(num: Int): Int {
         var backup = num
@@ -17,4 +17,4 @@ class Solution {
         return max
     }
 }
-```
+// ```

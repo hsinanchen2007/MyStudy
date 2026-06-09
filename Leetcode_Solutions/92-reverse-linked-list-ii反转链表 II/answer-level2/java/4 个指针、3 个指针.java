@@ -1,26 +1,26 @@
 
-### 方法一：使用 4 个指针变量
+// ### 方法一：使用 4 个指针变量
 
-1、利用第 206 题的做法：把介于 `m` 和 `n` 的链表截取出来，反转一下，再接回去。
+// 1、利用第 206 题的做法：把介于 `m` 和 `n` 的链表截取出来，反转一下，再接回去。
 
-注意：因为涉及第 1 个结点的操作，为了避免分类讨论，常见的做法是引入虚拟头结点。
+// 注意：因为涉及第 1 个结点的操作，为了避免分类讨论，常见的做法是引入虚拟头结点。
 
-![image-20191129104224767](https://pic.leetcode-cn.com/824b2faab034826f1343735a3873251f728ae8094f9cdd007078ba71f9197696.jpg)
-
-
-
-2、为此，我们需要一些指针变量，它们是 `m` 和 `n` 的边界，`m` 的前一个结点，`n` 的后一个结点。
-
-![image-20191129104329202](https://pic.leetcode-cn.com/66c273da59e61874db532a8c9127548dcc5d74eb0762b57284013382dc8441f1.jpg)
-
-3、因此，首先要遍历分别得到 `p1` 和 `p2`，然后 `p3` 和  `p4` 就可以确定了。
-
-![image-20191129104638461](https://pic.leetcode-cn.com/04cf821ff558c4aac72ffda125e003bde8d45cd2fbbeecb7c2ba954b57cbd000.jpg)
+// ![image-20191129104224767](https://pic.leetcode-cn.com/824b2faab034826f1343735a3873251f728ae8094f9cdd007078ba71f9197696.jpg)
 
 
-**参考代码 1**：
 
-```Java []
+// 2、为此，我们需要一些指针变量，它们是 `m` 和 `n` 的边界，`m` 的前一个结点，`n` 的后一个结点。
+
+// ![image-20191129104329202](https://pic.leetcode-cn.com/66c273da59e61874db532a8c9127548dcc5d74eb0762b57284013382dc8441f1.jpg)
+
+// 3、因此，首先要遍历分别得到 `p1` 和 `p2`，然后 `p3` 和  `p4` 就可以确定了。
+
+// ![image-20191129104638461](https://pic.leetcode-cn.com/04cf821ff558c4aac72ffda125e003bde8d45cd2fbbeecb7c2ba954b57cbd000.jpg)
+
+
+// **参考代码 1**：
+
+// ```Java []
 class ListNode {
     int val;
     ListNode next;
@@ -109,23 +109,23 @@ public class Solution {
         }
     }
 }
-```
+// ```
 
-### 方法二：使用 3个指针变量
+// ### 方法二：使用 3个指针变量
 
-这里需要我们在纸上动态地去画一下“穿针引线”的过程。写出来的代码依然是“首尾相连”的。
+// 这里需要我们在纸上动态地去画一下“穿针引线”的过程。写出来的代码依然是“首尾相连”的。
 
-下面是反转 `2 —> 3 —> 4` 这一部分为例。
+// 下面是反转 `2 —> 3 —> 4` 这一部分为例。
 
-![92-1.jpg](https://pic.leetcode-cn.com/cb45e041067f47c64c32e958cdaf7f88518a660c80ade5771d2772b00844af21-92-1.jpg)
-
-
-![92-2.jpg](https://pic.leetcode-cn.com/daedbf172be2dadbd3cd89d0cac11fac9ef2afb475cc20f84f3060aab9d0b891-92-2.jpg)
+// ![92-1.jpg](https://pic.leetcode-cn.com/cb45e041067f47c64c32e958cdaf7f88518a660c80ade5771d2772b00844af21-92-1.jpg)
 
 
-**参考代码 2**：
+// ![92-2.jpg](https://pic.leetcode-cn.com/daedbf172be2dadbd3cd89d0cac11fac9ef2afb475cc20f84f3060aab9d0b891-92-2.jpg)
 
-```Java []
+
+// **参考代码 2**：
+
+// ```Java []
 public class Solution {
 
     public ListNode reverseBetween(ListNode head, int m, int n) {
@@ -147,5 +147,5 @@ public class Solution {
         return dummyNode.next;
     }
 }
-```
+// ```
 

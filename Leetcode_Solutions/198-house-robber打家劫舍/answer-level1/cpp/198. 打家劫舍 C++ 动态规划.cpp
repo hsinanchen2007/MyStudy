@@ -1,13 +1,13 @@
-### 解题思路
-dp[i] 表示第i个房屋的最大值
-转移矩阵：
-dp[i] = max(dp[i-1],dp[i-2]+num[i]),i从0 开始
+// ### 解题思路
+// dp[i] 表示第i个房屋的最大值
+// 转移矩阵：
+// dp[i] = max(dp[i-1],dp[i-2]+num[i]),i从0 开始
 
-为了方便处理边界条件，我们设置dp[0] = 0
+// 为了方便处理边界条件，我们设置dp[0] = 0
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int rob(vector<int> &nums)
@@ -26,4 +26,4 @@ public:
         return dp[nums.size()];
     }
 };
-```
+// ```

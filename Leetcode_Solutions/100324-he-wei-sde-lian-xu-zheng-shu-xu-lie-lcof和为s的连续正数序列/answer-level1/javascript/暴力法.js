@@ -1,9 +1,9 @@
-### 解题思路
-暴力法
+// ### 解题思路
+// 暴力法
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} target
  * @return {number[][]}
@@ -31,8 +31,8 @@ var findContinuousSequence = function(target) {
     }
     return result;
 };
-```
+// ```
 
-### 复杂度
-- 时间复杂度 O(N*sqrt(N))
-- 空间复杂度 O(1)
+// ### 复杂度
+// - 时间复杂度 O(N*sqrt(N))
+// - 空间复杂度 O(1)

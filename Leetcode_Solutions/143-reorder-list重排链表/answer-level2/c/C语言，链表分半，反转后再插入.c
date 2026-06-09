@@ -1,5 +1,5 @@
-基本思路是：把链表分为两部分，然后再把后半部分反转，然后再把反转后的后半部分，依次插入到前半部分当中去
-```
+// 基本思路是：把链表分为两部分，然后再把后半部分反转，然后再把反转后的后半部分，依次插入到前半部分当中去
+// ```
 struct ListNode *converse(struct ListNode *head)
 {
     struct ListNode *prev = NULL;
@@ -51,4 +51,4 @@ void reorderList(struct ListNode* head){
         fast = fast_next;
     }
 }
-```
+// ```

@@ -1,18 +1,18 @@
 
-### python 交换
+// ### python 交换
 
-```python []
+// ```python []
 class Solution:
     def findRepeatNumber(self, nums: List[int]) -> int:
         for i, j in enumerate(nums):
             if nums[i] == nums[j] and i != j:
                 return nums[j]
             nums[i], nums[j] = nums[j], nums[i]
-```
+// ```
 
-### python 集合
+// ### python 集合
 
-```python []
+// ```python []
 class Solution:
     def findRepeatNumber(self, nums: List[int]) -> int:
         d = set()
@@ -20,11 +20,11 @@ class Solution:
             if i in d:
                 return i
             d.add(i)  
-```
+// ```
 
-### rust 交换
+// ### rust 交换
 
-```rust []
+// ```rust []
 impl Solution {
     pub fn find_repeat_number(mut nums: Vec<i32>) -> i32 {
         for i in 0..nums.len() {
@@ -37,11 +37,11 @@ impl Solution {
         -1
     }
 }
-```
+// ```
 
-### rust 集合
+// ### rust 集合
 
-```rust []
+// ```rust []
 use std::collections::HashSet;
 impl Solution {
     pub fn find_repeat_number(nums: Vec<i32>) -> i32 {
@@ -55,11 +55,11 @@ impl Solution {
         -1
     }
 }
-```
+// ```
 
-### rust 数组
+// ### rust 数组
 
-```rust []
+// ```rust []
 impl Solution {
     pub fn find_repeat_number(nums: Vec<i32>) -> i32 {
         let mut v = vec![false; nums.len()];
@@ -72,4 +72,4 @@ impl Solution {
         -1
     }
 }
-```
+// ```

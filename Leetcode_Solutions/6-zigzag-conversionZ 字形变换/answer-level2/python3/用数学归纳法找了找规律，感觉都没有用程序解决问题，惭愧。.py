@@ -1,8 +1,8 @@
-### 解题思路
-用数学归纳法找了找规律，感觉都没有用程序解决问题，惭愧。
-### 代码
+# ### 解题思路
+# 用数学归纳法找了找规律，感觉都没有用程序解决问题，惭愧。
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
         regular = 2 * (numRows - 1)
@@ -24,4 +24,4 @@ class Solution:
                     break
                 string += s[an]
         return string
-```
+# ```

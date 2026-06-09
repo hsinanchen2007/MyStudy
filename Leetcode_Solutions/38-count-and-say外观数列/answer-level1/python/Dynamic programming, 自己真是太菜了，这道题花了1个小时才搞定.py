@@ -1,8 +1,8 @@
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countAndSay(self, n: int) -> str:
         if n==1:
@@ -28,4 +28,4 @@ class Solution:
         for i in range(2,n):
             dp[i]=count((dp[i-1]))
         return dp[n-1]
-```
+# ```

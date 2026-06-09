@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/39f165c12d04d64b9749acfc2844fa05222a0ffb3f9a1376f6af7cd1ee670b9b-image.png)
+// ![image.png](https://pic.leetcode-cn.com/39f165c12d04d64b9749acfc2844fa05222a0ffb3f9a1376f6af7cd1ee670b9b-image.png)
 
-工人和工作一起升序排列，工人的前面的工作都可以做，选最大收益的
-```
+// 工人和工作一起升序排列，工人的前面的工作都可以做，选最大收益的
+// ```
 typedef struct {
     int difficulty;
     int profit;
@@ -43,4 +43,4 @@ int maxProfitAssignment(int* difficulty, int difficultySize, int* profit, int pr
 
     return result;
 }
-```
+// ```

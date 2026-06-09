@@ -1,18 +1,18 @@
-## 思路：
+# ## 思路：
 
-思路一：插入
+# 思路一：插入
 
-思路二：拼接
+# 思路二：拼接
 
-思路三：三个翻转 ， 整体翻转， 前`k`翻转，后`k`翻转
+# 思路三：三个翻转 ， 整体翻转， 前`k`翻转，后`k`翻转
 
-思路四：模拟过程
+# 思路四：模拟过程
 
-## 代码：
+# ## 代码：
 
-思路一：
+# 思路一：
 
-```python
+# ```python
 class Solution:
     def rotate(self, nums: List[int], k: int) -> None:
         """
@@ -22,11 +22,11 @@ class Solution:
         k %= n
         for _ in range(k):
             nums.insert(0, nums.pop())
-```
+# ```
 
-思路二：
+# 思路二：
 
-```python
+# ```python
 class Solution:
     def rotate(self, nums: List[int], k: int) -> None:
         """
@@ -35,11 +35,11 @@ class Solution:
         n = len(nums)
         k %= n
         nums[:] = nums[-k:] + nums[:-k]
-```
+# ```
 
-思路三：
+# 思路三：
 
-```python
+# ```python
 class Solution:
     def rotate(self, nums: List[int], k: int) -> None:
         """
@@ -52,11 +52,11 @@ class Solution:
         #print(nums)
         nums[k:] = nums[k:][::-1]
         #print(nums)
-```
+# ```
 
-思路四：
+# 思路四：
 
-```python
+# ```python
 class Solution:
     def rotate(self, nums: List[int], k: int) -> None:
         """
@@ -78,5 +78,5 @@ class Solution:
             start += 1
             tmp = nums[start]
             cnt += 1
-```
+# ```
 

@@ -1,23 +1,23 @@
-### 解题思路
-回溯算法的模板：
+// ### 解题思路
+// 回溯算法的模板：
 
-    subhelp(string& nums, string& subset, vector<string>& result, int& pos) {
-        result.push_back(subset);
-        for(int i = pos; i < nums.size(); i++) {
-            subset.push_back(num[i]);
-            subhelp(nums, subset, result, pos + 1);
-            subset.pop_back();
-        }
-    }
-（1）什么时候跳过；
-（2）什么时候输出：
+//     subhelp(string& nums, string& subset, vector<string>& result, int& pos) {
+//         result.push_back(subset);
+//         for(int i = pos; i < nums.size(); i++) {
+//             subset.push_back(num[i]);
+//             subhelp(nums, subset, result, pos + 1);
+//             subset.pop_back();
+//         }
+//     }
+// （1）什么时候跳过；
+// （2）什么时候输出：
 
-本题：
-模仿带重复数字的全排列做的，增加一个判断，括号是否符合要求的判断
+// 本题：
+// 模仿带重复数字的全排列做的，增加一个判断，括号是否符合要求的判断
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> generateParenthesis(int n) {
@@ -81,4 +81,4 @@ public:
         }
     }
 };
-```
+// ```

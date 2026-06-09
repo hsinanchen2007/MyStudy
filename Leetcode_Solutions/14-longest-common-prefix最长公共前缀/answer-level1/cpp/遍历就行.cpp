@@ -1,10 +1,10 @@
-### 遍历
-此处存储了size，避免总是求一遍size()，遇到字符串不够长或者失配直接返回
-![bbb.png](https://pic.leetcode-cn.com/0c2c1029c8381fb643b51856414238e313cd5d1cc56b38020a2cd41e196f4a71-bbb.png)
+// ### 遍历
+// 此处存储了size，避免总是求一遍size()，遇到字符串不够长或者失配直接返回
+// ![bbb.png](https://pic.leetcode-cn.com/0c2c1029c8381fb643b51856414238e313cd5d1cc56b38020a2cd41e196f4a71-bbb.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 
 class Solution {
 public:
@@ -30,4 +30,4 @@ public:
 
     }
 };
-```
+// ```

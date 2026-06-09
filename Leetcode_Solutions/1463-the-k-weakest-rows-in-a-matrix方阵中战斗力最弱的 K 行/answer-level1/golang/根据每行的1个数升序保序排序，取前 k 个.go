@@ -1,4 +1,4 @@
-```
+// ```
 import (
 	"sort"
 )
@@ -54,4 +54,4 @@ func kWeakestRows(mat [][]int, k int) (rst []int) {
 	return
 }
 
-```
+// ```

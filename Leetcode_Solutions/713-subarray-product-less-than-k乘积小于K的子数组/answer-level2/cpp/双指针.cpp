@@ -1,23 +1,23 @@
-## 问题描述
-给定一个正整数数组 nums。
+// ## 问题描述
+// 给定一个正整数数组 nums。
 
-找出该数组内乘积小于 k 的连续的子数组的个数。
+// 找出该数组内乘积小于 k 的连续的子数组的个数。
 
-![](https://pic.leetcode-cn.com/24f7ef5dcc687b53c94f84077065b8a745de07fbf51e1ac8bcb94c3522d73585.png)
+// ![](https://pic.leetcode-cn.com/24f7ef5dcc687b53c94f84077065b8a745de07fbf51e1ac8bcb94c3522d73585.png)
 
-[乘积小于k的子数组](https://leetcode-cn.com/problems/subarray-product-less-than-k/ "乘积小于k的子数组")
+// [乘积小于k的子数组](https://leetcode-cn.com/problems/subarray-product-less-than-k/ "乘积小于k的子数组")
 
-## 解决方法
-### 双指针
+// ## 解决方法
+// ### 双指针
 
-- `temp`用来记录乘积
+// - `temp`用来记录乘积
 
-- `left`向右移动，`temp/=nums[left]`，直到`temp`小于`k`
+// - `left`向右移动，`temp/=nums[left]`，直到`temp`小于`k`
 
-- 结果加上本轮子数组下`nums[left:right]`符合条件的情况。（ps：值得深刻揣摩这句话）
+// - 结果加上本轮子数组下`nums[left:right]`符合条件的情况。（ps：值得深刻揣摩这句话）
 
 
-```cpp
+// ```cpp
 //暴力搜索
 // class Solution {
 // public:
@@ -50,6 +50,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-个人网站：[liyiping](https://liyiping.cn)
+// 个人网站：[liyiping](https://liyiping.cn)

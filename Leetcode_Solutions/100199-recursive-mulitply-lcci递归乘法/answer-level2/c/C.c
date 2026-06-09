@@ -1,4 +1,4 @@
-```
+// ```
 int helper(int smaller, int bigger)
 {
   if(smaller == 0) return 0;
@@ -19,4 +19,4 @@ int multiply(int A, int B){
 
   return helper(smaller, bigger);
 }
-```
+// ```

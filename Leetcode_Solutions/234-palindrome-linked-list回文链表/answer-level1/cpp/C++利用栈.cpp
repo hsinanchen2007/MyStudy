@@ -1,5 +1,5 @@
-C++利用栈
-```
+// C++利用栈
+// ```
 class Solution {
 public:
     bool isPalindrome(ListNode* head) {
@@ -23,4 +23,4 @@ public:
         return true;
     }
 };
-```
+// ```

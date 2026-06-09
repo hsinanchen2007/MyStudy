@@ -1,8 +1,8 @@
-### Analyze
+// ### Analyze
 
-题目 [15](https://github.com/MuYunyun/blog/blob/master/BasicSkill/LeetCode/15.3Sum/README.md) 的加强版, 唯一区别是定义的指针数量增加了, 仍然需要注意`解的去重`。
+// 题目 [15](https://github.com/MuYunyun/blog/blob/master/BasicSkill/LeetCode/15.3Sum/README.md) 的加强版, 唯一区别是定义的指针数量增加了, 仍然需要注意`解的去重`。
 
-```js
+// ```js
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -51,12 +51,12 @@ var fourSum = function(nums, target) {
   }
   return result
 }
-```
+// ```
 
-假设数组的长度为 n, 算法复杂度估计为 `(n - 3) * (等差数列求和)`
+// 假设数组的长度为 n, 算法复杂度估计为 `(n - 3) * (等差数列求和)`
 
-### Sister Title
+// ### Sister Title
 
-15、16
+// 15、16
 
-> 为确保内容的实时、准确性, 可以查看[JavaScript 题解](https://github.com/MuYunyun/blog/blob/master/LeetCode/README.md)
+// > 为确保内容的实时、准确性, 可以查看[JavaScript 题解](https://github.com/MuYunyun/blog/blob/master/LeetCode/README.md)

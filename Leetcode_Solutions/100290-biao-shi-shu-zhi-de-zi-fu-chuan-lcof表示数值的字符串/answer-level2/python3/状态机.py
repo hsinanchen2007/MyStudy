@@ -1,10 +1,10 @@
-### 解题思路
-![IMG_20200325_110448.jpg](https://pic.leetcode-cn.com/39f44675c53bd7c973dea0a52dbed24e6fc974b002ae7eebe8eb3ea95a234c70-IMG_20200325_110448.jpg)
+# ### 解题思路
+# ![IMG_20200325_110448.jpg](https://pic.leetcode-cn.com/39f44675c53bd7c973dea0a52dbed24e6fc974b002ae7eebe8eb3ea95a234c70-IMG_20200325_110448.jpg)
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isNumber(self, s: str) -> bool:
         s = s.strip()
@@ -69,4 +69,4 @@ class Solution:
                     return False
 
         return state in [1, 3, 5, 6]
-```
+# ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def maxDepth(self, root: 'Node') -> int:
         if root is None:
@@ -7,4 +7,4 @@ class Solution:
         if children:
             return 1+max(children)
         return 1
-```
+# ```

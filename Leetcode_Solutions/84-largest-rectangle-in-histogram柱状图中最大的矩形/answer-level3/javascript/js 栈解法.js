@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/e3920098054da2f3124a9ffe7951b85e1839fee83364b887432f8128a2b17fef-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e3920098054da2f3124a9ffe7951b85e1839fee83364b887432f8128a2b17fef-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
 栈解法
 思路：维护一个单调栈，遍历数组，遇到比当前栈顶大的元素就压入栈(压入的是索引)，
   否则就取出栈顶元素进行计算：以当前栈顶元素为高度的最大矩形面积，
@@ -12,11 +12,11 @@
 是整个 heights 数组的长度，也就是当时的 i，因为这种情况只有在最后才会出现一次，
 例如题目中的案例 [2,1,5,6,2,3] 1 是最后出栈的，
 它的宽度是 width = 6 = heights.length
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} heights
  * @return {number}
@@ -64,4 +64,4 @@ var largestRectangleArea = function(heights) {
   
 //   return result;
 // };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 func numberOf2sInRange(n int) int {
     if n < 2 {
         return 0
@@ -38,4 +38,4 @@ func numberOf2sInRange(n int) int {
     return cnt
 }
 
-```
+// ```

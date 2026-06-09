@@ -1,7 +1,7 @@
 
-双指针
+// 双指针
 
-```swift []
+// ```swift []
 class Solution {
     func removeElements(_ head: ListNode?, _ val: Int) -> ListNode? {
         var pre: ListNode?
@@ -25,5 +25,5 @@ class Solution {
         return newHead
     }
 }
-```
+// ```
 

@@ -1,12 +1,12 @@
-### 解题思路
-需要数字+1
-不是需要的数字-1
-判定当前没有需要的则 可以切割为一个Trunk
-控制Chunk的最大最小数字
+// ### 解题思路
+// 需要数字+1
+// 不是需要的数字-1
+// 判定当前没有需要的则 可以切割为一个Trunk
+// 控制Chunk的最大最小数字
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 class TrunkData {
     public enum State {
         FindStart,
@@ -99,4 +99,4 @@ public class Solution {
         return mc.MaxChunksToSorted(arr);
     }
 }
-```
+// ```

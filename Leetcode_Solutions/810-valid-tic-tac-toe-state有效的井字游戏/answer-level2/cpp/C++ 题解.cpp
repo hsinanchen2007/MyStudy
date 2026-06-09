@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     bool validTicTacToe(vector<string>& board) {
@@ -31,5 +31,5 @@ public:
         return nx - no == 1 || nx - no == 0;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/8f0630773d6c8c75bd09b42013fc6316fc88a9b9e37e0079cac1cef72048a2d4-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/8f0630773d6c8c75bd09b42013fc6316fc88a9b9e37e0079cac1cef72048a2d4-image.png)

@@ -1,14 +1,14 @@
-### 思路一：
+// ### 思路一：
 
-首先，如果和不能被3整除，直接返回 false 即可。
+// 首先，如果和不能被3整除，直接返回 false 即可。
 
-既然满足均分成三部分，那么三部分的值必相等。所以，关键就是找分割三部分的索引值 i, j
+// 既然满足均分成三部分，那么三部分的值必相等。所以，关键就是找分割三部分的索引值 i, j
 
-### 代码：
+// ### 代码：
 
-时间复杂度O(n)，空间复杂度O(1)
+// 时间复杂度O(n)，空间复杂度O(1)
 
-```java
+// ```java
 class Solution {
     public boolean canThreePartsEqualSum(int[] A) {
         if (A == null || A.length < 3) {
@@ -56,23 +56,23 @@ class Solution {
         return true;
     }
 }
-```
+// ```
 
-### Result：
+// ### Result：
 
-Runtime：1ms
+// Runtime：1ms
 
-Your runtime beats 100% of java submissions.
+// Your runtime beats 100% of java submissions.
 
-### 思路二：
+// ### 思路二：
 
-直接找
+// 直接找
 
-### 代码：
+// ### 代码：
 
-时间复杂度O(n)，空间复杂度O(1)
+// 时间复杂度O(n)，空间复杂度O(1)
 
-```java
+// ```java
 class Solution {
     public boolean canThreePartsEqualSum(int[] A) {
         if (A == null || A.length < 3) {
@@ -97,10 +97,10 @@ class Solution {
         return partCount >= 3;
     }
 }
-```
+// ```
 
-### Result：
+// ### Result：
 
-Runtime：3ms
+// Runtime：3ms
 
-Your runtime beats 30.87% of java submissions.
+// Your runtime beats 30.87% of java submissions.

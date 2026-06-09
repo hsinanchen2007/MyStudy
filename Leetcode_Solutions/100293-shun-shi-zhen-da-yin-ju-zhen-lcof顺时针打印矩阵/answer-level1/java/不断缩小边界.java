@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     // 右，下、左、上  
     int[][] dir = { {0, 1},{1,0},{0,-1},{-1,0}};
@@ -29,4 +29,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

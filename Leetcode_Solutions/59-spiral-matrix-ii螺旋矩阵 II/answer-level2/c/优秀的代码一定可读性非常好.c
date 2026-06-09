@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-这是我写过感觉很满意的代码，优秀的代码阅读起来一定也很容易。
-![image.png](https://pic.leetcode-cn.com/b17e9f72128721079817f8cd48d0bdc8fbdc65141a9c4a28e5126c3666f7def9-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// 这是我写过感觉很满意的代码，优秀的代码阅读起来一定也很容易。
+// ![image.png](https://pic.leetcode-cn.com/b17e9f72128721079817f8cd48d0bdc8fbdc65141a9c4a28e5126c3666f7def9-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -57,4 +57,4 @@ int** generateMatrix(int n, int* returnSize, int** returnColumnSizes){
 
     return res;
 }
-```
+// ```

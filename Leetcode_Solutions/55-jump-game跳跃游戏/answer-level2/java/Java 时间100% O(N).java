@@ -1,4 +1,4 @@
-```
+// ```
 public boolean canJump(int[] nums) {
     int j;
     for (int i = nums.length - 2; i >= 0; --i)
@@ -12,4 +12,4 @@ public boolean canJump(int[] nums) {
         }
     return true;
 }代码块
-```
+// ```

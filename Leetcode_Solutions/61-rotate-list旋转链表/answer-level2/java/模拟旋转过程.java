@@ -1,9 +1,9 @@
-虽然时间复杂度为O(n^2)，但是还是很好理解滴
-1. 求链表长度len
-2. 最后一个元素往前面放
-3. 倒数第二个元素next域置空
-4. 循环 步骤2-3 （k % len）次，因为循环k次链表又复原了
-```
+// 虽然时间复杂度为O(n^2)，但是还是很好理解滴
+// 1. 求链表长度len
+// 2. 最后一个元素往前面放
+// 3. 倒数第二个元素next域置空
+// 4. 循环 步骤2-3 （k % len）次，因为循环k次链表又复原了
+// ```
         public ListNode rotateRight(ListNode head, int k) {
             if (head == null || head.next == null) {
                 return head;
@@ -29,4 +29,4 @@
             }
             return head;
         }
-```
+// ```

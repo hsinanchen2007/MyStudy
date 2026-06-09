@@ -1,5 +1,5 @@
-贪心法则: 如果能跳到最后位置，那么一定能跳到其之前的某个位置。
-```
+// 贪心法则: 如果能跳到最后位置，那么一定能跳到其之前的某个位置。
+// ```
 bool canJump(vector<int>& nums) {
         int len=nums.size();
         int i=len-2,ans=len-1;
@@ -20,4 +20,4 @@ bool canJump(vector<int>& nums) {
         else
             return false;   
     }
-```
+// ```

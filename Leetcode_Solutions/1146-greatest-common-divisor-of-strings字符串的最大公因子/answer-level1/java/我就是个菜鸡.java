@@ -1,8 +1,8 @@
 
-今天也是仰望大佬的一天
+// 今天也是仰望大佬的一天
 
-纪念一下第一次思路通畅的解决题目(快落)
-```
+// 纪念一下第一次思路通畅的解决题目(快落)
+// ```
 class Solution {
     public String gcdOfStrings(String str1, String str2) {
         int len1=str1.length(),len2=str2.length(),tar=0;
@@ -17,4 +17,4 @@ class Solution {
         return temp;
     }
 }
-```
+// ```

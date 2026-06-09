@@ -1,9 +1,9 @@
-### 解题思路
-不用排序那还有什么可做的……懒得写二分了……
+// ### 解题思路
+// 不用排序那还有什么可做的……懒得写二分了……
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int hIndex(vector<int>& citations) {
@@ -18,4 +18,4 @@ public:
         return n;
     }
 };
-```
+// ```

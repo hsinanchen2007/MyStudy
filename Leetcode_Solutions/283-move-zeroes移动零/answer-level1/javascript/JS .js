@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var moveZeroes = function(nums) {
     let pointer = 0
     for (let i = 0; i < nums.length; i++) {
@@ -11,6 +11,6 @@ var moveZeroes = function(nums) {
     }
     return nums
 };
-```
-时间复杂度：O(n)
-空间复杂度：O(1)
+// ```
+// 时间复杂度：O(n)
+// 空间复杂度：O(1)

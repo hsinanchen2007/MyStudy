@@ -1,9 +1,9 @@
-### 解题思路
-好奇为什么股票没有medium
+# ### 解题思路
+# 好奇为什么股票没有medium
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         if len(prices)<=1 :
@@ -15,4 +15,4 @@ class Solution:
             else :
                 dp+=[prices[i]-prices[i-1]]
         return sum(dp)
-```
+# ```

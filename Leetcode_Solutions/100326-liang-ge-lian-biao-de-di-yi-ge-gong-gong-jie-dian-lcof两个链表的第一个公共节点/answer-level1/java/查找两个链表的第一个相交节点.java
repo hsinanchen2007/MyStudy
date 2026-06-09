@@ -1,9 +1,9 @@
-### 解题思路
-利用a+b+相交=b+a+相交即可
+// ### 解题思路
+// 利用a+b+相交=b+a+相交即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -26,4 +26,4 @@ public class Solution {
         return nodeA;
     }
 }
-```
+// ```

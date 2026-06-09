@@ -1,5 +1,5 @@
-![捕获11.PNG](https://pic.leetcode-cn.com/8ec581adaac0823fbd3d45a0905611dbff27e6cba283f7a2b077e1581f9e0240-%E6%8D%95%E8%8E%B711.PNG)
-```
+# ![捕获11.PNG](https://pic.leetcode-cn.com/8ec581adaac0823fbd3d45a0905611dbff27e6cba283f7a2b077e1581f9e0240-%E6%8D%95%E8%8E%B711.PNG)
+# ```
 class Solution:
     def subdomainVisits(self, cpdomains: List[str]) -> List[str]:
         d = {}
@@ -13,4 +13,4 @@ class Solution:
                 else:
                     d[domain_real] += times
         return ['%s %s'%(val,key) for key,val in d.items()]
-```
+# ```

@@ -1,6 +1,6 @@
-先把工作和工人分别排序，用双指针寻找合适的工作。
-有个坑就是有些难度低的工作，报酬反而比难度高的更高。要特别处理一下。
-```
+// 先把工作和工人分别排序，用双指针寻找合适的工作。
+// 有个坑就是有些难度低的工作，报酬反而比难度高的更高。要特别处理一下。
+// ```
 struct Work {
     int dif;
     int pro;
@@ -50,4 +50,4 @@ int maxProfitAssignment(int* difficulty, int difficultySize, int* profit, int pr
     }
     return sum;
 }
-```
+// ```

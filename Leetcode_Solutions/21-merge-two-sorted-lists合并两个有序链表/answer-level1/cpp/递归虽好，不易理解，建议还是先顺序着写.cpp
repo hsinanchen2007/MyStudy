@@ -1,9 +1,9 @@
-### 解题思路
-递归虽好，不易理解，建议还是先顺序着写
+// ### 解题思路
+// 递归虽好，不易理解，建议还是先顺序着写
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -38,4 +38,4 @@ public:
         return l;
     }
 };
-```
+// ```

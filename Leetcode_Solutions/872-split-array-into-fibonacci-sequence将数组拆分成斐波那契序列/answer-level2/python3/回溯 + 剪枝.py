@@ -1,9 +1,9 @@
-### 解题思路
-主要是回溯过程中的剪枝优化，减去了值大于2 ** 31 - 1和不符合F[i] + F[i + 1] = F[i + 2]的部分。还有就是new_value以'0'开头并且长度大于1的部分，需要注意'0'是符合条件的数字。
+# ### 解题思路
+# 主要是回溯过程中的剪枝优化，减去了值大于2 ** 31 - 1和不符合F[i] + F[i + 1] = F[i + 2]的部分。还有就是new_value以'0'开头并且长度大于1的部分，需要注意'0'是符合条件的数字。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def splitIntoFibonacci(self, S: str) -> List[int]:
         n = len(S)
@@ -38,4 +38,4 @@ class Solution:
                 return False
 
         return True
-```
+# ```

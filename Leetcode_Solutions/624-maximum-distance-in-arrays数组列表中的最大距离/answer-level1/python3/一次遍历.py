@@ -1,5 +1,5 @@
-时间复杂度o(n),空间复杂度o(1)
-```
+# 时间复杂度o(n),空间复杂度o(1)
+# ```
 class Solution:
     def maxDistance(self, arrays: List[List[int]]) -> int:
         n = len(arrays)
@@ -17,4 +17,4 @@ class Solution:
             l = min(l,arrays[i][0])
             r = max(r,arrays[i][-1])
         return ans
-```
+# ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
         if needle == "":
@@ -28,4 +28,4 @@ class Solution:
         if h == m:
             return j - h
         return -1
-```
+# ```

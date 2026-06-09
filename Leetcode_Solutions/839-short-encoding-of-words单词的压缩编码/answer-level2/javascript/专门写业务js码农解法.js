@@ -1,10 +1,10 @@
-首先一个专门写业务的码农拿到需求后第一步就是分析需求
-这个题的关键**最短**，要到达最短那就是能共用索引就共用索引
-所以我们就把所有能共用索引的单词找出来当作一个索引，其他不能
-共用的**每一个当成一个索引**拼起来即可
+// 首先一个专门写业务的码农拿到需求后第一步就是分析需求
+// 这个题的关键**最短**，要到达最短那就是能共用索引就共用索引
+// 所以我们就把所有能共用索引的单词找出来当作一个索引，其他不能
+// 共用的**每一个当成一个索引**拼起来即可
 
 
-```
+// ```
 var minimumLengthEncoding = function(words) {
   let wordList = [...words]
   // 单词编码字符串
@@ -52,4 +52,4 @@ var minimumLengthEncoding = function(words) {
   if(wordList.length>0)resWord = resWord +'#'+ wordList.join('#')
   return resWord.length
 };
-```
+// ```

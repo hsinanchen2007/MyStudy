@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {string[]} ops
  * @return {number}
@@ -20,4 +20,4 @@ var calPoints = function(ops) {
         return parseInt(total, 10) + parseInt(num, 10)
     })
 };
-```
+// ```

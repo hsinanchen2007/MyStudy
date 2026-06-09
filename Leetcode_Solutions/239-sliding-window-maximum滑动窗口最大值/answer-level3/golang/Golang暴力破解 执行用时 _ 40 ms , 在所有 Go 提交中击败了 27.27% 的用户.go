@@ -1,9 +1,9 @@
-### 解题思路
-依次检查n-k+1个滑动窗口，返回每个窗口内的最大值
+// ### 解题思路
+// 依次检查n-k+1个滑动窗口，返回每个窗口内的最大值
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func maxSlidingWindow(nums []int, k int) []int {
     var result []int
     if len(nums)==0{
@@ -22,4 +22,4 @@ func maxSlidingWindow(nums []int, k int) []int {
     }
     return result
 }
-```
+// ```

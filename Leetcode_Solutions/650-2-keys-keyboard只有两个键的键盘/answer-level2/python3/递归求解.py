@@ -1,5 +1,5 @@
 
-```python []
+# ```python []
 class Solution:
     def minSteps(self, n: int) -> int:        
         def count_num(n):
@@ -17,6 +17,6 @@ class Solution:
                     return int(n/a)+count_num(a)
             
         return count_num(n)
-```
+# ```
 
 

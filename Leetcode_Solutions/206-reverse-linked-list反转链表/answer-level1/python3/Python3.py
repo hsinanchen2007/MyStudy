@@ -1,5 +1,5 @@
-# 我只是来打个卡
-```
+# # 我只是来打个卡
+# ```
 class Solution(object):
 	def reverseList(self, head):
 		"""
@@ -14,4 +14,4 @@ class Solution(object):
 			pre = cur
 			cur = tmp
 		return pre
-```
+# ```

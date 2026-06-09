@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def isMatch(self, s: str, p: str) -> bool:
         def judge(indexs, indexp):
@@ -20,9 +20,9 @@ class Solution:
                 else:
                     return False
         return judge(0,0)
-```
+# ```
 
-```
+# ```
 class Solution:
     def isMatch(self, s: str, p: str) -> bool:
         # def judge(indexs, indexp):
@@ -57,4 +57,4 @@ class Solution:
                 else:
                     dp[i,j] =  match and dp[i+1, j+1]
         return bool(dp[0,0])
-```
+# ```

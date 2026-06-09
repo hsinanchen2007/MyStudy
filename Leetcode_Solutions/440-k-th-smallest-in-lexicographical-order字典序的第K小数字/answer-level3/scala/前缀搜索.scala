@@ -1,4 +1,4 @@
-```ruby
+// ```ruby
 object Solution {
   def findKthNumber(n: Int, k: Int): Int = {
     def f(x:BigInt, y:BigInt, acc:BigInt):BigInt = {
@@ -15,4 +15,4 @@ object Solution {
     solve(k-1, 1)
   }
 }
-```
+// ```

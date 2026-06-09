@@ -1,10 +1,10 @@
-### 解题思路
-入栈:遇到字符'(' ，入栈前面计算结果(result)和计算符号(sign)
-出栈:遇到字符')' ，出栈前面计算结果(result)和计算符号(sign)
-并且维护一个值、操作符、结果值
-### 代码
+// ### 解题思路
+// 入栈:遇到字符'(' ，入栈前面计算结果(result)和计算符号(sign)
+// 出栈:遇到字符')' ，出栈前面计算结果(result)和计算符号(sign)
+// 并且维护一个值、操作符、结果值
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int calculate(string s) {
@@ -47,4 +47,4 @@ public:
         return result+sign*opevalue;
     }
 };
-```
+// ```

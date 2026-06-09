@@ -1,4 +1,4 @@
-```js
+// ```js
 var MapSum = function() {
     this.map = new Map();
 };
@@ -10,4 +10,4 @@ MapSum.prototype.sum = function(prefix) {
     this.map.forEach((val, key)=>key.indexOf(prefix)==0?caculator+=val:'');
     return caculator;
 };
-```
+// ```

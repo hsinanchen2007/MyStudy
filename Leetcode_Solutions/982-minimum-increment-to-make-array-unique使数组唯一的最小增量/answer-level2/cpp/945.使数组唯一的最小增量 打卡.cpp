@@ -1,4 +1,4 @@
-```c++
+// ```c++
 //把数组排序后遍历，如果A[i] <= A[i - 1]，就把A[i] 变为 A[i] + 1
 class Solution {
 public:
@@ -16,4 +16,4 @@ public:
         return ans;
     }
 };
-```
+// ```

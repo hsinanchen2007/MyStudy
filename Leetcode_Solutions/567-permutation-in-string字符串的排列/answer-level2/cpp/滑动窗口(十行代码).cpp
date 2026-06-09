@@ -1,16 +1,16 @@
 
-## 滑动窗口
+// ## 滑动窗口
 
-用哈希表记录窗口中各个字符出现次数的差值
+// 用哈希表记录窗口中各个字符出现次数的差值
 
-- 正数表示还应该出现几次
-- 0表示正好
-- 负数表示多出现了几次
+// - 正数表示还应该出现几次
+// - 0表示正好
+// - 负数表示多出现了几次
 
 
-## 代码实现
+// ## 代码实现
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool checkInclusion(string s1, string s2) {
@@ -29,6 +29,6 @@ public:
         return false;
     }
 };
-```
+// ```
 
-[从零开始学算法](https://muyids.github.io/simple-algorithm/)
+// [从零开始学算法](https://muyids.github.io/simple-algorithm/)

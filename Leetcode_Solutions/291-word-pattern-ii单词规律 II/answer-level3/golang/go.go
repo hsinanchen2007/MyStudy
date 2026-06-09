@@ -1,4 +1,4 @@
-```
+// ```
 func wordPatternMatch(pattern string, str string) bool {
 	m := map[byte]string{}
 	s := map[string]bool{}
@@ -33,4 +33,4 @@ func wordPatternMatch(pattern string, str string) bool {
 	}
 	return cal(pattern, str)
 }
-```
+// ```

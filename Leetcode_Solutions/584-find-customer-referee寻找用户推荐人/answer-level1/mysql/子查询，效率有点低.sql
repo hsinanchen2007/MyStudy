@@ -1,8 +1,8 @@
-### 解题思路
+-- ### 解题思路
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 select name
 from customer
@@ -13,4 +13,4 @@ where id not in(
 );
 
 
-```
+-- ```

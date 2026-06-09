@@ -1,6 +1,6 @@
-    分情况讨论，按以下步骤直接上手转换即可。
-    时间复杂度O(n), 空间复杂度O(1)。
-```
+#     分情况讨论，按以下步骤直接上手转换即可。
+#     时间复杂度O(n), 空间复杂度O(1)。
+# ```
 class Solution:
     def myAtoi(self, s: str) -> int:
         # Case 1. 空串  ==>  直接返回0
@@ -29,4 +29,4 @@ class Solution:
             if sign == 1 and res > INT_MAX: return INT_MAX
         # Case 6. 最终, sign * res即为所求
         return sign * res
-```
+# ```

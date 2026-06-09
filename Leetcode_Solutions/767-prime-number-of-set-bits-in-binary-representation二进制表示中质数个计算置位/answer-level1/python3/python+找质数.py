@@ -1,5 +1,5 @@
-先确定二进制数最多能到几位（n表示位数），再找到小于等于n的所有质数，组成列表l，在依次判断每一个数的二进制数的1的数量即可。
-```
+# 先确定二进制数最多能到几位（n表示位数），再找到小于等于n的所有质数，组成列表l，在依次判断每一个数的二进制数的1的数量即可。
+# ```
 class Solution:
     def countPrimeSetBits(self, L: int, R: int) -> int:
         n = len(bin(R))-2
@@ -11,10 +11,10 @@ class Solution:
             if a in l:
                 count += 1
         return count
-```
+# ```
 
-也可以这样，题目最多只有20位的二进制数，直接找出20以内的质数也行
-```
+# 也可以这样，题目最多只有20位的二进制数，直接找出20以内的质数也行
+# ```
 def countPrimeSetBits(L, R):
     count = 0
     zhishu = [0, 0, 1, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1]
@@ -25,4 +25,4 @@ def countPrimeSetBits(L, R):
             count += 1
     return count
 
-```
+# ```

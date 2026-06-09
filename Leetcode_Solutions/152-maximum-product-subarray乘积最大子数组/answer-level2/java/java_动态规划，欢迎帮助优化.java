@@ -1,7 +1,7 @@
-执行用时 : 3 ms, 在Maximum Product Subarray的Java提交中击败了89.39% 的用户
-内存消耗 : 35.3 MB, 在Maximum Product Subarray的Java提交中击败了84.74% 的用户
+// 执行用时 : 3 ms, 在Maximum Product Subarray的Java提交中击败了89.39% 的用户
+// 内存消耗 : 35.3 MB, 在Maximum Product Subarray的Java提交中击败了84.74% 的用户
 
-经验不足，代码里if判断那里写的总感觉有点蹩脚，欢迎各路大神帮忙修改优化，写出优雅的代码！
+// 经验不足，代码里if判断那里写的总感觉有点蹩脚，欢迎各路大神帮忙修改优化，写出优雅的代码！
 
     public int maxProduct(int[] nums) {
         if (nums == null || nums.length == 0) return 0;//参数有效性

@@ -1,7 +1,7 @@
-小知识：
-（1）使用String.toCharArray()方法，用char[] 代替 String.charAt()可提高程序运行速度。
-（2）使用StringBuilder替换String的"+",提高性能，避免产生过多的对象。
-```java
+// 小知识：
+// （1）使用String.toCharArray()方法，用char[] 代替 String.charAt()可提高程序运行速度。
+// （2）使用StringBuilder替换String的"+",提高性能，避免产生过多的对象。
+// ```java
 public class CompressString {
     public String compressString(String S) {
         StringBuilder builder = new StringBuilder();
@@ -20,4 +20,4 @@ public class CompressString {
         return compressed.length() < S.length() ? compressed : S;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```swift
+// ```swift
 //相当于在已经排好序的正常序列中插入两个位置，并先放置 pn 再放置 dn
  class Solution {
     
@@ -18,4 +18,4 @@
         return ans
     }
  }
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-根据官方的摩尔投票法编写代码。
-### 代码
+// ### 解题思路
+// 根据官方的摩尔投票法编写代码。
+// ### 代码
 
-```c
+// ```c
 int majorityElement(int* nums, int numsSize){
 
     int i = 0;
@@ -44,4 +44,4 @@ int majorityElement(int* nums, int numsSize){
 
     return model;
 }
-```
+// ```

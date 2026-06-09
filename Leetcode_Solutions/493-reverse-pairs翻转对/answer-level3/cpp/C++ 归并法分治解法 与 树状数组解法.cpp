@@ -1,7 +1,7 @@
-# 解法一：
-1，在归并排序的过程中计算出翻转对，可以认为翻转对是归并排序的副产物
-2，也可以说是应用了归并排序的分治思想来求解本问题
-```
+// # 解法一：
+// 1，在归并排序的过程中计算出翻转对，可以认为翻转对是归并排序的副产物
+// 2，也可以说是应用了归并排序的分治思想来求解本问题
+// ```
 class Solution {
 public:
     int mergeSort(vector<int>& nums, vector<int>& temp, int l, int r) {
@@ -45,16 +45,16 @@ public:
         return mergeSort(nums, temp, 0, nums.size() - 1);
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/4c5a3873d5abcb04c64fe88e371996d532a6bbc6e99190a6fa61afb9ed7a1733-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/4c5a3873d5abcb04c64fe88e371996d532a6bbc6e99190a6fa61afb9ed7a1733-image.png)
 
-# 解法二：
-树状数组题解
-树状数组(Binary Indexed Tree (BIT))题解
-1，数组离散化为其本身rank
-2，然后从后向前遍历，并不断更新数组
+// # 解法二：
+// 树状数组题解
+// 树状数组(Binary Indexed Tree (BIT))题解
+// 1，数组离散化为其本身rank
+// 2，然后从后向前遍历，并不断更新数组
 
-```
+// ```
 class Solution {
 public:
     vector<int> bits;
@@ -100,6 +100,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/39cc9fb94b4b9bbb9af029fb2a5f12d021229c24d6b837e2103aec32fdb54cb2-image.png)
+// ![image.png](https://pic.leetcode-cn.com/39cc9fb94b4b9bbb9af029fb2a5f12d021229c24d6b837e2103aec32fdb54cb2-image.png)

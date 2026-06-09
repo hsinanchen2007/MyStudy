@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/3b1b54a7e9df346650873209b13575b16bba0796e8334897355b23ad035e7bf8-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/3b1b54a7e9df346650873209b13575b16bba0796e8334897355b23ad035e7bf8-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String generateTheString(int n)
     {
@@ -23,4 +23,4 @@ class Solution {
         return gene;
     }
 }
-```
+// ```

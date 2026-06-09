@@ -1,6 +1,6 @@
-![QQ截图20190629200856.png](https://pic.leetcode-cn.com/156e3a8ab9eaeeb00f4d102343b860884232025f1b7e79f438391eb873eb3baa-QQ%E6%88%AA%E5%9B%BE20190629200856.png)
+// ![QQ截图20190629200856.png](https://pic.leetcode-cn.com/156e3a8ab9eaeeb00f4d102343b860884232025f1b7e79f438391eb873eb3baa-QQ%E6%88%AA%E5%9B%BE20190629200856.png)
 
-```
+// ```
 class Solution {
 public:
     vector<string> readBinaryWatch(int num) {
@@ -26,6 +26,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
 

@@ -1,9 +1,9 @@
-### 解题思路
-嵌套遍历，跟选择排序的过程一样。执行用时惨不忍睹。
+// ### 解题思路
+// 嵌套遍历，跟选择排序的过程一样。执行用时惨不忍睹。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int maxArea(int* height, int heightSize){
     if(heightSize==0||heightSize==1) return 0;
     int i=0,j=0,b=0,h=0,v=0;
@@ -16,4 +16,4 @@ int maxArea(int* height, int heightSize){
     }
     return v;
 }
-```
+// ```

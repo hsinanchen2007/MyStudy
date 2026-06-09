@@ -1,4 +1,4 @@
-```class Solution {
+// ```class Solution {
     String[] low = {"","One","Two","Three","Four","Five","Six","Seven","Eight","Nine"};
     String[] mid = {"Ten","Eleven","Twelve","Thirteen","Fourteen","Fifteen","Sixteen","Seventeen","Eighteen","Nineteen"};
     String[] high = {"","","Twenty","Thirty","Forty","Fifty","Sixty","Seventy","Eighty","Ninety"};
@@ -43,4 +43,4 @@
         return res.toString().trim();
     }
 }
-```
+// ```

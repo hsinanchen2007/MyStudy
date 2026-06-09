@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 use std::collections::HashMap;
 impl Solution {
     pub fn gcd(a:i32, b:i32) -> i32 {
@@ -28,4 +28,4 @@ impl Solution {
         g >= 2
     }
 }
-```
+// ```

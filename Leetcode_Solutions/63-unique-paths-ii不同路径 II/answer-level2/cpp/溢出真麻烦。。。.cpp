@@ -1,9 +1,9 @@
-### 解题思路
-是只有C++有这个问题吗，最后还得改成long才能过，这问题找了我蛮久，还以为是自己做错了出来这么大数字。。。
+// ### 解题思路
+// 是只有C++有这个问题吗，最后还得改成long才能过，这问题找了我蛮久，还以为是自己做错了出来这么大数字。。。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid) {
@@ -29,4 +29,4 @@ public:
         return ans[n-1][m-1];
     }
 };
-```
+// ```

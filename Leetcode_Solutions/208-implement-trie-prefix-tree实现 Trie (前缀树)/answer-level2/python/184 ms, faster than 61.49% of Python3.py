@@ -1,10 +1,10 @@
-### 解题思路
-要自定义个TireNode类, 用defaultdict实现, 而不用一个长度26的数组实现, 这样节省了空间
-# dict的value是TireNode对象而不是字符 是关键!
+# ### 解题思路
+# 要自定义个TireNode类, 用defaultdict实现, 而不用一个长度26的数组实现, 这样节省了空间
+# # dict的value是TireNode对象而不是字符 是关键!
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from collections import defaultdict
 class TireNode:
     def __init__(self):
@@ -35,10 +35,10 @@ class Trie:
             if p in cur.node: cur = cur.node[p]
             else: return False
         return True
-```
+# ```
 
-但是发现直接用d={}字典更快些
-```
+# 但是发现直接用d={}字典更快些
+# ```
 class Trie(object):
 	def __init__(self):
 		self.trie = {}
@@ -63,4 +63,4 @@ class Trie(object):
 			if c not in t: return False
 			t = t[c]
 		return True
-```
+# ```

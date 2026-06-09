@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean isHappy(int n) {
         Map<Integer, Integer> map = new HashMap<>();
@@ -25,4 +25,4 @@ class Solution {
 	}
 }
 
-```
+// ```

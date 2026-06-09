@@ -1,9 +1,9 @@
-### 解题思路
-原地逆置链表(删除每个节点然后头插)
+// ### 解题思路
+// 原地逆置链表(删除每个节点然后头插)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -39,4 +39,4 @@ struct ListNode* reverseList(struct ListNode* head)
 	return first;
 	
 }
-```
+// ```

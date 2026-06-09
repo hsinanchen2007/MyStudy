@@ -1,5 +1,5 @@
-哈希表以数组strs元素按Unicode字符排序后的字符串为键，以存储字母异位字符串数组为值，键相同则值进行添加，不同直接设置
-```js
+// 哈希表以数组strs元素按Unicode字符排序后的字符串为键，以存储字母异位字符串数组为值，键相同则值进行添加，不同直接设置
+// ```js
 var groupAnagrams = function(strs) {
     var res = [];
     var map = new Map();
@@ -17,4 +17,4 @@ var groupAnagrams = function(strs) {
     return res;
     
 };
-```
+// ```

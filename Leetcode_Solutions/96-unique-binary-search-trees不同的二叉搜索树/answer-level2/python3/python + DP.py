@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def numTrees(self, n: int) -> int:
         dp = [0] * (n + 1)
@@ -7,4 +7,4 @@ class Solution:
             for t in range(i): 
                 dp[i] += dp[t] * dp[i - t - 1]
         return dp[-1]
-```
+# ```

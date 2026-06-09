@@ -1,9 +1,9 @@
-### 解题思路
-首先排序，然后求出所有的差值，再反查等于最小值的组合。
+# ### 解题思路
+# 首先排序，然后求出所有的差值，再反查等于最小值的组合。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minimumAbsDifference(self, arr: List[int]) -> List[List[int]]:
         arr = sorted(arr)
@@ -13,4 +13,4 @@ class Solution:
         return result
         
 
-```
+# ```

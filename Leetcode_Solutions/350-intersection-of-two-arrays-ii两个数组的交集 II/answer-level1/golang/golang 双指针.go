@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/c38afe8c8d69419493c252fdd209a234de2eb39ec001b73bc0ffbd1094cf5c2d-image.png)
+// ![image.png](https://pic.leetcode-cn.com/c38afe8c8d69419493c252fdd209a234de2eb39ec001b73bc0ffbd1094cf5c2d-image.png)
 
-```
+// ```
 func intersect(nums1 []int, nums2 []int) []int {
     var left,right int
     var res []int
@@ -19,4 +19,4 @@ func intersect(nums1 []int, nums2 []int) []int {
     }
     return res
 }
-```
+// ```

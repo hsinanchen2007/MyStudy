@@ -1,11 +1,11 @@
-### 解题思路
-输入为n,若1到n中有k个质数，则答案为(n-k)!*k!
-其实主要是考高中数学
-注意中间要mod1000000007
+// ### 解题思路
+// 输入为n,若1到n中有k个质数，则答案为(n-k)!*k!
+// 其实主要是考高中数学
+// 注意中间要mod1000000007
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 int isPrime(int i){
     if(i<2){
@@ -37,4 +37,4 @@ int numPrimeArrangements(int n){
     long long res=jiecheng(sum)*jiecheng(n-sum)%1000000007;
     return res;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String toLowerCase(String str) {
         StringBuilder s =  new StringBuilder();
@@ -16,4 +16,4 @@ class Solution {
         //return str.toLowerCase();     //也可以直接用函数实现
     }
 }
-```
+// ```

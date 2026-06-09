@@ -1,15 +1,15 @@
-### 解题思路
-利用 BST 特性，若
-- 当 p, q 均为 None 时，返回 None
-- 当 root (当前节点)为 None 时，返回 None
-- 当 p, q 中任意一个等于 root 时，返回 root
-- 当 p, q 中一个大于 root，一个小于 root，返回 root
-- 当 p, q 均小于 root，递归调用左子树查询
-- 当 p, q 均大于 root，递归调用右子树查询
+# ### 解题思路
+# 利用 BST 特性，若
+# - 当 p, q 均为 None 时，返回 None
+# - 当 root (当前节点)为 None 时，返回 None
+# - 当 p, q 中任意一个等于 root 时，返回 root
+# - 当 p, q 中一个大于 root，一个小于 root，返回 root
+# - 当 p, q 均小于 root，递归调用左子树查询
+# - 当 p, q 均大于 root，递归调用右子树查询
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -45,4 +45,4 @@ class Solution(object):
             return self.lowestCommonAncestor(root.right, p, q)
             
 
-```
+# ```

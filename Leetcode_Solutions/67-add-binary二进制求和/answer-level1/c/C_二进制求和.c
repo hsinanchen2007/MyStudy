@@ -1,9 +1,9 @@
-### 解题思路
-位数很多，只能一位一位计算
+// ### 解题思路
+// 位数很多，只能一位一位计算
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 //链表节点
 typedef struct Node {
 	int data;
@@ -170,4 +170,4 @@ char * addBinary(char * a, char * b){
 
     return result;
 }*/
-```
+// ```

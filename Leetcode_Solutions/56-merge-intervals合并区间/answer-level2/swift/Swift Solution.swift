@@ -1,4 +1,4 @@
-```
+// ```
 func merge(_ intervals: [[Int]]) -> [[Int]] {
     
     if intervals.count == 0 {
@@ -32,4 +32,4 @@ func merge(_ intervals: [[Int]]) -> [[Int]] {
     
     return merged
 }
-```
+// ```

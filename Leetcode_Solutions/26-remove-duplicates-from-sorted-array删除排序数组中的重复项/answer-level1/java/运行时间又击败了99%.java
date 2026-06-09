@@ -1,9 +1,9 @@
-### 解题思路
-运行时间又击败了99%
+// ### 解题思路
+// 运行时间又击败了99%
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int removeDuplicates(int[] nums) {
         int start = 0 , result = 0;
@@ -29,4 +29,4 @@ class Solution {
 		return result;
     }
 }
-```
+// ```

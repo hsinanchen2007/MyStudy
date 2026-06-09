@@ -1,9 +1,9 @@
-### 解题思路
-暴力遍历所有元素
+# ### 解题思路
+# 暴力遍历所有元素
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         inf = int(1e9)
@@ -14,4 +14,4 @@ class Solution:
             minprice = min(price, minprice)
         return maxprofit
 
-```
+# ```

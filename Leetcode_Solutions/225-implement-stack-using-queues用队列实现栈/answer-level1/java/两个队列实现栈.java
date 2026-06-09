@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
-维护两个队列和一个变量存放栈顶元素
-pop：把q1的q1.size()-1 个元素移到q2，调换q1和q2即可
+// ### 解题思路
+// 此处撰写解题思路
+// 维护两个队列和一个变量存放栈顶元素
+// pop：把q1的q1.size()-1 个元素移到q2，调换q1和q2即可
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MyStack {
     private Queue<Integer> q1;
     private Queue<Integer> q2;
@@ -56,8 +56,8 @@ class MyStack {
  * int param_3 = obj.top();
  * boolean param_4 = obj.empty();
  */
-```
-### 复杂度
-pop：
-时间复杂度O(n)
-空间复杂度O(n)
+// ```
+// ### 复杂度
+// pop：
+// 时间复杂度O(n)
+// 空间复杂度O(n)

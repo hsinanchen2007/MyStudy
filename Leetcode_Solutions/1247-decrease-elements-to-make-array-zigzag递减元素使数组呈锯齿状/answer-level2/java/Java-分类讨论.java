@@ -1,5 +1,5 @@
-# 代码
-```java
+// # 代码
+// ```java
 class Solution {
     public int movesToMakeZigzag(int[] nums) {
         int len = nums.length;
@@ -32,4 +32,4 @@ class Solution {
         return Math.min(res, count);
     }
 }
-```
+// ```

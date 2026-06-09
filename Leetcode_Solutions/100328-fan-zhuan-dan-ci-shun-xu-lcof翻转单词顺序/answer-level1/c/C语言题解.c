@@ -1,6 +1,6 @@
-0ms, 5.9MB,感觉C语言麻烦在对空格一些特殊情况的处理，我每次往返回结果的数组res里存字符的时候，先判断是否为第一次存，若是则不用在单词前面加空格，若不是则先加一个空格。
+// 0ms, 5.9MB,感觉C语言麻烦在对空格一些特殊情况的处理，我每次往返回结果的数组res里存字符的时候，先判断是否为第一次存，若是则不用在单词前面加空格，若不是则先加一个空格。
 
-```
+// ```
 char* reverseWords(char* s){
     int len = strlen(s);
     char *res = (char *)malloc(sizeof(char) * (len+1));
@@ -44,4 +44,4 @@ char* reverseWords(char* s){
     res[j] = '\0';
     return res;
 }
-```
+// ```

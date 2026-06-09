@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-十分简单的题，直接上代码。
+// 十分简单的题，直接上代码。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func checkRecord(s string) bool {
 	num_a := 0   //统计A的个数
 	num_l := 0   //统计连续L的个数
@@ -26,4 +26,4 @@ func checkRecord(s string) bool {
 	}
 	return true
 }
-```
+// ```

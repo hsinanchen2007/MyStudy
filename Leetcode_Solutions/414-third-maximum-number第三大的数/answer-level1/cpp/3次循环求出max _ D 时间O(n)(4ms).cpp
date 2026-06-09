@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/c8972806e3fbb972f195079b07badb7e114aeb05eada20e0fb26d98dcbdba8b2-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/c8972806e3fbb972f195079b07badb7e114aeb05eada20e0fb26d98dcbdba8b2-image.png)
+// ```
 class Solution {
 public:
     int thirdMax(vector<int>& nums) {
@@ -15,5 +15,5 @@ public:
         return (cnt==0)?max1:max3;
     }
 };
-```
+// ```
 

@@ -1,7 +1,7 @@
-虽然算法慢了一点，但还是自己写了出来。
+// 虽然算法慢了一点，但还是自己写了出来。
 
-### 代码
-```js
+// ### 代码
+// ```js
 var minIncrementForUnique = function (A) {
   if (A.length <= 1) {
     return 0;
@@ -23,4 +23,4 @@ var minIncrementForUnique = function (A) {
   }
   return res
 };
-```
+// ```

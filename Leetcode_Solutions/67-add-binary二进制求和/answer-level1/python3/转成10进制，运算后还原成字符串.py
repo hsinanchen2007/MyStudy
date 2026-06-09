@@ -1,10 +1,10 @@
-### 解题思路
-时间复杂度：O(m+n)
-空间复杂度：O（1）
+# ### 解题思路
+# 时间复杂度：O(m+n)
+# 空间复杂度：O（1）
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def addBinary(self, a: str, b: str) -> str:
         int_a = 0
@@ -24,4 +24,4 @@ class Solution:
             int_c = m
         return rstr[::-1] 
 
-```
+# ```

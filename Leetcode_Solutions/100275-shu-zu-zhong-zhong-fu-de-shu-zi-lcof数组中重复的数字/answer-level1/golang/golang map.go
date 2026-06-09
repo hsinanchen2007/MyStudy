@@ -1,4 +1,4 @@
-```
+// ```
 func findRepeatNumber(nums []int) int {
     m := make(map[int]bool)
     for _, v := range nums {
@@ -9,4 +9,4 @@ func findRepeatNumber(nums []int) int {
     }
     return -1
 }
-```
+// ```

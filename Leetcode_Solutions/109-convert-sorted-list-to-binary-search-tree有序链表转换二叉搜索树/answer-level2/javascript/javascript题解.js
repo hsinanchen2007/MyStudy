@@ -1,14 +1,14 @@
-[109.有序链表转换二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/submissions/)   
+// [109.有序链表转换二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/submissions/)   
 
-[力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md)  
+// [力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md)  
 
-## 方法一 
+// ## 方法一 
 
-把问题转换成数组转换二叉搜索树，就好做了。   
+// 把问题转换成数组转换二叉搜索树，就好做了。   
 
-用二分法去做。
+// 用二分法去做。
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -47,11 +47,11 @@ function help(valArr, left, right) {
     node.right = help(valArr, mid+1, right);
     return node;
 }
-```
+// ```
 
-## 方法二 中序遍历
+// ## 方法二 中序遍历
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -95,4 +95,4 @@ function help(arr, left, right) {
     node.right = rightNode;
     return node;
 }
-```
+// ```

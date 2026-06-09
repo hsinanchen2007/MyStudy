@@ -1,9 +1,9 @@
-### 解题思路
-这里只需要记录出现奇数词和出现偶数次的字符，只有一个字符能够出现奇数次。
+# ### 解题思路
+# 这里只需要记录出现奇数词和出现偶数次的字符，只有一个字符能够出现奇数次。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def longestPalindrome(self, s):
         """
@@ -24,4 +24,4 @@ class Solution(object):
                 res += ch_dict[ch] - 1
                 flag = 1
         return res + int(flag)
-```
+# ```

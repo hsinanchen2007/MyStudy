@@ -1,9 +1,9 @@
-### 解题思路
-思路：利用map去重数组1中的元素，然后查询数组2中的每个元素是否与map的key相同，若相同则添加入结果数组，同时对应value减1.
+// ### 解题思路
+// 思路：利用map去重数组1中的元素，然后查询数组2中的每个元素是否与map的key相同，若相同则添加入结果数组，同时对应value减1.
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> intersect(vector<int>& nums1, vector<int>& nums2) {
@@ -23,4 +23,4 @@ public:
         return res;
         }
 };
-```
+// ```

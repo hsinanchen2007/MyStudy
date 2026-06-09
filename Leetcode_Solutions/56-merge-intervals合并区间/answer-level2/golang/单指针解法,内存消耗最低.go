@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/a2bc20858415f90144bc2e713b5c658fbfa3799f67540597e031c53a39ac60dc-image.png)
+// ![image.png](https://pic.leetcode-cn.com/a2bc20858415f90144bc2e713b5c658fbfa3799f67540597e031c53a39ac60dc-image.png)
 
 
-```go
+// ```go
 func merge(intervals [][]int) [][]int { 
     l := len(intervals)
     if l <= 1 {
@@ -39,4 +39,4 @@ func max(i, j int) int {
     return j 
 
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路 思路是：先从二叉搜索树中找到最右边的最大值开始遍历，找到其最大值的累加。
+// ### 解题思路 思路是：先从二叉搜索树中找到最右边的最大值开始遍历，找到其最大值的累加。
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -24,4 +24,4 @@ class Solution {
         return root;
     }
 }
-```
+// ```

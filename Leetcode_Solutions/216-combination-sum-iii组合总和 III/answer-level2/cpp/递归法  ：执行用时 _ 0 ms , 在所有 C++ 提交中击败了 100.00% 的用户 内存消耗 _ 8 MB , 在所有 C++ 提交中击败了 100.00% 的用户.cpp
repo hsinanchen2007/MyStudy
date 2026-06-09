@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-递归法，遍历所有组合。确定条件减少遍历时间
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 递归法，遍历所有组合。确定条件减少遍历时间
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void Sum3(vector<int>&res,vector<vector<int>>  &result,int k,int n,int num){
@@ -39,4 +39,4 @@ vector<vector<int>> combinationSum3(int k, int n) {
 }
 
 };
-```
+// ```

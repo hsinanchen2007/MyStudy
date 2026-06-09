@@ -1,4 +1,4 @@
-```c
+// ```c
 #define SIZE 105
 #define MAX(a, b) ((a) < (b) ? (b) : (a))
 #define MIN(a, b) ((a) > (b) ? (b) : (a))
@@ -35,4 +35,4 @@ int strangePrinter(char * s){
     return Dfs(s, 0, strlen(s) - 1);
 }
 
-```
+// ```

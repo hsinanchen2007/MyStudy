@@ -1,5 +1,5 @@
-ruby solution
-```ruby
+# ruby solution
+# ```ruby
 def remove_elements(head, val)
     if head == nil  # case: [] 1
         return head
@@ -17,4 +17,4 @@ def remove_elements(head, val)
     end
     return head
 end
-```
+# ```

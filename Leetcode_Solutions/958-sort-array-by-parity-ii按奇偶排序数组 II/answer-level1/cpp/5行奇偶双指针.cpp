@@ -1,5 +1,5 @@
-i指针遍历偶数位置，j指针遍历奇数位置，遍历过程寻找i上的奇数和j上的偶数交换即可。
-```
+// i指针遍历偶数位置，j指针遍历奇数位置，遍历过程寻找i上的奇数和j上的偶数交换即可。
+// ```
 class Solution {
 public:
     vector<int> sortArrayByParityII(vector<int>& A) {
@@ -11,4 +11,4 @@ public:
         return A;
     }
 };
-```
+// ```

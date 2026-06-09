@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def lastStoneWeight(self, stones: List[int]) -> int:
         stones.sort()
@@ -19,4 +19,4 @@ class Solution:
             return(stones[0])
         else:
             return(0)
-```
+# ```

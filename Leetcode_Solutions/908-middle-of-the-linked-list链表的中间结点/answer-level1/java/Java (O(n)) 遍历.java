@@ -1,9 +1,9 @@
-### 解题思路
-先计算链表长度，然后直接返回最中间的那个节点即可。
+// ### 解题思路
+// 先计算链表长度，然后直接返回最中间的那个节点即可。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -33,4 +33,4 @@ class Solution {
         return head;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-对于每一个word里面的字符进行判断即可。
+// ### 解题思路
+// 对于每一个word里面的字符进行判断即可。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int calculateTime(char * keyboard, char * word){
     int lew = strlen(word);
     if (strlen(keyboard) != 26 || lew < 1 || lew > 10000) {
@@ -22,4 +22,4 @@ int calculateTime(char * keyboard, char * word){
 }
 
 
-```
+// ```

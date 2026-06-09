@@ -1,9 +1,9 @@
-三个步骤：
-1. 找中间结点
-2. 中间节点及后面翻转 得到新链表B。无需区别链表长度是奇数or偶数
-3. 原链表与B比较结点值，得到不同就返回false
+// 三个步骤：
+// 1. 找中间结点
+// 2. 中间节点及后面翻转 得到新链表B。无需区别链表长度是奇数or偶数
+// 3. 原链表与B比较结点值，得到不同就返回false
 
-```
+// ```
 class Solution {
     public boolean isPalindrome(ListNode head) {
         if (head == null) return true;
@@ -54,4 +54,4 @@ class Solution {
        return newHead; 
     }
 }
-```
+// ```

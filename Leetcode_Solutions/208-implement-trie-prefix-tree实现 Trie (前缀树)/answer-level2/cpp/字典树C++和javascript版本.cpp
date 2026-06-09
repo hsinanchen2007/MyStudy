@@ -1,34 +1,34 @@
 
-## 算法思路
+// ## 算法思路
 
-字典树的特征
+// 字典树的特征
 
-- 根为空节点，没有值
-- 每一个节点包含三个属性：值、叶子节点集合、是否为某一单词的结束
-- 叶子节点集合可以用 hash表和数组实现
-  - 此题 字母均为 小写字母，可以用`treeNode *next[26];`存储叶子
+// - 根为空节点，没有值
+// - 每一个节点包含三个属性：值、叶子节点集合、是否为某一单词的结束
+// - 叶子节点集合可以用 hash表和数组实现
+//   - 此题 字母均为 小写字母，可以用`treeNode *next[26];`存储叶子
 
-节点定义；三要素：值，后继节点，是否是单词结尾
+// 节点定义；三要素：值，后继节点，是否是单词结尾
 
-```javascript
+// ```javascript
 function Node(val, isEnd) {
     this.val = val      // 值
     this.child = {}     // 后继节点
     this.isEnd = isEnd || false // 单词结尾;用于查找
 }
-```
+// ```
 
-根节点实现
+// 根节点实现
 
-```javascript
+// ```javascript
 var Trie = function () {
     this.root = new Node() // 根节点没有值，为空节点
 };
-```
+// ```
 
-## 完整版代码实现（C++版本）
+// ## 完整版代码实现（C++版本）
 
-```cpp
+// ```cpp
 struct treeNode {
     bool isEnd; // 是否存在已当前位置结尾的单词 
     treeNode *next[26]; // 仅适用于全部是小写字母a-z的情况；更为鲁棒的情况`map<char, treeNode*> next;`
@@ -79,11 +79,11 @@ public:
         return node != NULL; // 最后一个字符存在
     }
 };
-```
+// ```
 
-## javascript版本实现
+// ## javascript版本实现
 
-```javascript
+// ```javascript
 function Node(val, isEnd){
     this.val = val
     this.child = {}
@@ -145,4 +145,4 @@ Trie.prototype.startsWith = function(prefix) {
  * var param_2 = obj.search(word)
  * var param_3 = obj.startsWith(prefix)
  */
-```
+// ```

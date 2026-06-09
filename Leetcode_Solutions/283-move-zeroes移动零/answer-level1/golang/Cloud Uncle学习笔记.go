@@ -1,6 +1,6 @@
-1.暴力求解
-时间复杂度O(n),空间复杂度O(n)
-```
+// 1.暴力求解
+// 时间复杂度O(n),空间复杂度O(n)
+// ```
 func moveZeroes(nums []int)  {
     arr := make([]int, len(nums), len(nums))
     cnt := 0
@@ -19,10 +19,10 @@ func moveZeroes(nums []int)  {
         nums[i] = arr[i]
     }    
 }
-```
-2.快慢指针
-时间复杂度O(n),空间复杂度O(1)
-```
+// ```
+// 2.快慢指针
+// 时间复杂度O(n),空间复杂度O(1)
+// ```
 func moveZeroes(nums []int)  {
     for i,j:=0,0; i<len(nums); i++ {
         if nums[i] != 0 {
@@ -31,4 +31,4 @@ func moveZeroes(nums []int)  {
         }
     }
 }
-```
+// ```

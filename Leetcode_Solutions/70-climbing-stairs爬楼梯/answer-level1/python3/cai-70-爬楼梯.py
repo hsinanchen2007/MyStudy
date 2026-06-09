@@ -1,9 +1,9 @@
-### 解题思路
-动态规划实现
+# ### 解题思路
+# 动态规划实现
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def climbStairs(self, n: int) -> int:
         if n == 1:return 1
@@ -15,4 +15,4 @@ class Solution:
 
 
 
-```
+# ```

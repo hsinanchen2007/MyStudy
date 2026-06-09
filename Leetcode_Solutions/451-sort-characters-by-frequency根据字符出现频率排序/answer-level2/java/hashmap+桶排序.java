@@ -1,9 +1,9 @@
-### 解题思路
-先用hashmap计数，然后对出现次数进行桶排序，最后倒序打印即可
+// ### 解题思路
+// 先用hashmap计数，然后对出现次数进行桶排序，最后倒序打印即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String frequencySort(String s) {
         if(s.length()<=2){
@@ -53,4 +53,4 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```

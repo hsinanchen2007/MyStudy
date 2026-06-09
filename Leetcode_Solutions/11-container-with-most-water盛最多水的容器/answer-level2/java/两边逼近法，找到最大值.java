@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxArea(int[] height) {
         if (null == height || height.length <= 1) {
@@ -32,4 +32,4 @@ class Solution {
         return maxArea;
     }
 }
-```
+// ```

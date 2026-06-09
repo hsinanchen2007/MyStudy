@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/e6abb21e2dc0370f4fb154c7671bf794296920668aa9a97cc83a3f0319f28114-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/e6abb21e2dc0370f4fb154c7671bf794296920668aa9a97cc83a3f0319f28114-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int helper(long long  n){
     int cnt = 0;
     printf("%lld",n);    
@@ -49,4 +49,4 @@ int preimageSizeFZF(int k){
     }
     return 0;
 }
-```
+// ```

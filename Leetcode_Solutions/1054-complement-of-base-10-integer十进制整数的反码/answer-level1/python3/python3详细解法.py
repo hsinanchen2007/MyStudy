@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def bitwiseComplement(self, N: int) -> int:
         s=bin(N)[2:]
@@ -8,4 +8,4 @@ class Solution:
             else:
                 s=s[:i]+'0'+s[i+1:]
         return int(s,2)
-```
+# ```

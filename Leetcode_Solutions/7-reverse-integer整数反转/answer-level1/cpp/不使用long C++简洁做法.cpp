@@ -1,6 +1,6 @@
 
-一开始看到很多高赞答案使用long甚至long long 通过了题目，但是仔细审题后发现只能开辟空间到int，因此重新优化题目。
-```C++
+// 一开始看到很多高赞答案使用long甚至long long 通过了题目，但是仔细审题后发现只能开辟空间到int，因此重新优化题目。
+// ```C++
 class Solution {
 public:
     int reverse(int x) {
@@ -25,4 +25,4 @@ public:
     }
 };
 
-```
+// ```

@@ -1,8 +1,8 @@
 
-```
+// ```
 class Solution {
-```
-```
+// ```
+// ```
 public:
     vector<string> commonChars(vector<string>& A) {
         int temp[101][26]={0};

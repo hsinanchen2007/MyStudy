@@ -1,9 +1,9 @@
-### 解题思路
-整体画个图，起始挺简单的，核心算法也挺好找的，不解释了。
+// ### 解题思路
+// 整体画个图，起始挺简单的，核心算法也挺好找的，不解释了。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -41,4 +41,4 @@ class Solution {
         return head;
     }
 }
-```
+// ```

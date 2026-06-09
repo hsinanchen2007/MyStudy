@@ -1,9 +1,9 @@
-### 解法 1 hash表记录
-- 用一个字典`trust_dict`记录所有人的信任列表，最后遍历这个字典找到法官
-- `candicate` 是小镇人的列表
-- 用`trust_dict.keys() -`candicate` 即为法官候选
-- 最后遍历候选法官，找到那个被所有人信任的即为法官
-```
+# ### 解法 1 hash表记录
+# - 用一个字典`trust_dict`记录所有人的信任列表，最后遍历这个字典找到法官
+# - `candicate` 是小镇人的列表
+# - 用`trust_dict.keys() -`candicate` 即为法官候选
+# - 最后遍历候选法官，找到那个被所有人信任的即为法官
+# ```
 class Solution:
     def findJudge(self, N: int, trust: List[List[int]]) -> int:
         trust_dict = {}
@@ -28,11 +28,11 @@ class Solution:
                 return candi_judge
         
         return -1
-```
-### 出入度计算
-- 分别用两个列表`indeg` 和 `outdeg` 记录入度和出度
-- 提议的法官要求为法官的要求是入度为`N-1`, 出度为`0`, 满足即为法官
-```
+# ```
+# ### 出入度计算
+# - 分别用两个列表`indeg` 和 `outdeg` 记录入度和出度
+# - 提议的法官要求为法官的要求是入度为`N-1`, 出度为`0`, 满足即为法官
+# ```
 def findJudge(self, N: int, trust: List[List[int]]) -> int:
         # 法官的要求是入度为N-1, 出度为0
         indeg = [0] * (N+1)
@@ -47,4 +47,4 @@ def findJudge(self, N: int, trust: List[List[int]]) -> int:
             if indeg[i] == N-1 and outdeg[i] == 0:
                 return i 
         return -1
-```
+# ```

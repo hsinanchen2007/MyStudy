@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include<stdlib.h>
 #include<stdio.h>
 #include<malloc.h>
@@ -71,4 +71,4 @@ int** permute(int* nums, int numsSize, int* returnSize, int** returnColumnSizes)
 	doPermutes(nums, numsSize, res, &size, 0);
 	return res;
 }
-```
+// ```

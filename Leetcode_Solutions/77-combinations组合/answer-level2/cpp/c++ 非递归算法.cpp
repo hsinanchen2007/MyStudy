@@ -1,5 +1,5 @@
-这个是在美版评论看到的解法，挺不一样的想法
-```
+// 这个是在美版评论看到的解法，挺不一样的想法
+// ```
 class Solution {
 public:
 	vector<vector<int>> combine(int n, int k) {
@@ -18,4 +18,4 @@ public:
 		return result;
 	}
 };
-```
+// ```

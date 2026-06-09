@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int search(int* nums, int numsSize, int target){
     int low=0,high=numsSize-1;int output=-1;
     while(low<=high){
@@ -27,4 +27,4 @@ int search(int* nums, int numsSize, int target){
     }
     return -1;
 }
-```
+// ```

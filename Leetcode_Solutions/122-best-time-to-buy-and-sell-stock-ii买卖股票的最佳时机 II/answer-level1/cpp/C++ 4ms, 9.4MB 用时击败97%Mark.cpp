@@ -1,11 +1,11 @@
-### 解题思路
-贪心
+// ### 解题思路
+// 贪心
 
-![image.png](https://pic.leetcode-cn.com/82bad0bde713bd6df9560079c629221d37eaac4ed5a7af0fbcaef0d33a61cd74-image.png)
+// ![image.png](https://pic.leetcode-cn.com/82bad0bde713bd6df9560079c629221d37eaac4ed5a7af0fbcaef0d33a61cd74-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
@@ -37,4 +37,4 @@ public:
         return ans;
     }
 };
-```
+// ```

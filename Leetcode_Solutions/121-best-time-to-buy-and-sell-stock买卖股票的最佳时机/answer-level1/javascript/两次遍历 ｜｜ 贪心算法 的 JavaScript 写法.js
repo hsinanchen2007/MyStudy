@@ -1,6 +1,6 @@
-分为两次暴力解法：
+// 分为两次暴力解法：
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} prices
  * @return {number}
@@ -36,9 +36,9 @@ var maxProfit = function(prices) {
     return totalBiggest;
 
 };
-```
-一次遍历。
-```javascript
+// ```
+// 一次遍历。
+// ```javascript
     // 贪心算法
      let totalBiggest = 0;
      let low = Number.MAX_SAFE_INTEGER;
@@ -53,4 +53,4 @@ var maxProfit = function(prices) {
     }
     return totalBiggest;
 
-```
+// ```

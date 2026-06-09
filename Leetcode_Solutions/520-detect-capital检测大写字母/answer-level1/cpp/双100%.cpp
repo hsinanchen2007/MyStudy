@@ -1,9 +1,9 @@
-### 解题思路
-根据第一个和第二个字母的大小写情况来判断
+// ### 解题思路
+// 根据第一个和第二个字母的大小写情况来判断
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool detectCapitalUse(string word) {
@@ -21,4 +21,4 @@ public:
         return true;
     }
 };
-```
+// ```

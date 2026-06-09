@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -29,4 +29,4 @@ class Solution:
             p.next = node2 # 把p.next 指向 node2
             p = node1 # 然后p移动到node1,相当于node1是新的虚拟头结点
         return dummyHead.next # 最后返回头结点
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-stack有个好处就是能够记录访问顺序，我们刚开始向左下遍历的时候，stack压入顺序是我们访问顺序一样，但是回溯的顺序正因为有了stack的先入后出的特性，所以才适合回溯。
+// ### 解题思路
+// stack有个好处就是能够记录访问顺序，我们刚开始向左下遍历的时候，stack压入顺序是我们访问顺序一样，但是回溯的顺序正因为有了stack的先入后出的特性，所以才适合回溯。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -41,4 +41,4 @@ class Solution {
         return node.val;
     }
 }
-```
+// ```

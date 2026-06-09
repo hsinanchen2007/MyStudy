@@ -1,6 +1,6 @@
-1. 注意数组是否为空
-2. 原数组是递增的，根据起止值和中间值判断，缩小判断范围，最后得到解
-```
+# 1. 注意数组是否为空
+# 2. 原数组是递增的，根据起止值和中间值判断，缩小判断范围，最后得到解
+# ```
 class Solution:
     def findMin(self, nums: List[int]) -> int:
         if not nums:
@@ -19,4 +19,4 @@ class Solution:
         else:
             ans = min(mid_value, last_value, start_value)
         return ans
-```
+# ```

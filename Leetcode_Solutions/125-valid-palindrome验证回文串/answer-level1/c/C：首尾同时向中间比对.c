@@ -1,7 +1,7 @@
-思路：
-首尾同时向中间比对，不是字母数字就跳过，
-结束循环的条件是首尾的标记相遇
-```
+// 思路：
+// 首尾同时向中间比对，不是字母数字就跳过，
+// 结束循环的条件是首尾的标记相遇
+// ```
 bool isPalindrome(char * s){
     int left = 0;
     int right = strlen(s) - 1;
@@ -22,4 +22,4 @@ bool isPalindrome(char * s){
     }
     return true;
 }
-```
+// ```

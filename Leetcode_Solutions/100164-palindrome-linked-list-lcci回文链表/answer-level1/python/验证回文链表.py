@@ -1,10 +1,10 @@
-### 解题思路
-将值赋给空链表
-将链表逆置
+# ### 解题思路
+# 将值赋给空链表
+# 将链表逆置
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -28,4 +28,4 @@ class Solution:
             l.append(sub.val)
             sub = sub.next
         return l == l[::-1]
-```
+# ```

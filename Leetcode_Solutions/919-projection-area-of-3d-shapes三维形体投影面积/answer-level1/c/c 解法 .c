@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/2f8dcb4c1f6c7c7e262000973b7b52adb023dd577d0dde5435339beff98d652f-image.png)
-![image.png](https://pic.leetcode-cn.com/bed1085455ca287ff1893ff6101b3158924f4f02a05f4030e724f51b4de58457-image.png)
+// ![image.png](https://pic.leetcode-cn.com/2f8dcb4c1f6c7c7e262000973b7b52adb023dd577d0dde5435339beff98d652f-image.png)
+// ![image.png](https://pic.leetcode-cn.com/bed1085455ca287ff1893ff6101b3158924f4f02a05f4030e724f51b4de58457-image.png)
 
-# **代码：**
-```
+// # **代码：**
+// ```
 int projectionArea(int** grid, int gridSize, int* gridColSize){
     int i,j,
         total = 0,
@@ -29,4 +29,4 @@ int projectionArea(int** grid, int gridSize, int* gridColSize){
     free(sidemax);
     return total;
 }
-```
+// ```

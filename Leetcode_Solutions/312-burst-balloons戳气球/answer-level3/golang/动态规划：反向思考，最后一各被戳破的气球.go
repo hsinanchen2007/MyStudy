@@ -1,9 +1,9 @@
-- 动态规划：反向思考，最后一各被戳破的气球
-- 首先在数组前后各加一个元素1
-- 定义dp[i][j]为数组nums[i:j+1]戳气球能得到的最大硬币数，且不能戳第i个和第j个气球
-- 表达式 dp[i][j] = max(dp[i][k]+dp[k][i] + nums[k]*nums[i]*nums[j]), i<k<j
-- 初始值：dp[i][i] = 0, dp[i-1][i] = 0, dp[i-2][i] = nums[i-2]*nums[i-1]*nums[i]
-```
+// - 动态规划：反向思考，最后一各被戳破的气球
+// - 首先在数组前后各加一个元素1
+// - 定义dp[i][j]为数组nums[i:j+1]戳气球能得到的最大硬币数，且不能戳第i个和第j个气球
+// - 表达式 dp[i][j] = max(dp[i][k]+dp[k][i] + nums[k]*nums[i]*nums[j]), i<k<j
+// - 初始值：dp[i][i] = 0, dp[i-1][i] = 0, dp[i-2][i] = nums[i-2]*nums[i-1]*nums[i]
+// ```
 func maxCoins(nums []int) int {
 	if nums == nil || len(nums) == 0 {
 		return 0
@@ -41,4 +41,4 @@ func max(i, j int) int {
 	}
 	return j
 }
-```
+// ```

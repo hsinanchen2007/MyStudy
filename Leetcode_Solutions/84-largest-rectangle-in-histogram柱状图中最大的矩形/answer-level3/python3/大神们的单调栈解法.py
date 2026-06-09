@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def largestRectangleArea(self, heights: List[int]) -> int:
         stack = [-1]
@@ -16,4 +16,4 @@ class Solution:
         for i in range(len(stack) - 1):
             res = max(res, heights[stack.pop()] * (len(heights) - 1 - stack[-1]))
         return res
-```
+# ```

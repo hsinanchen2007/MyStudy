@@ -1,4 +1,4 @@
-```
+// ```
     public boolean canPlaceFlowers(int[] flowerbed, int n) {
         int len = flowerbed.length;
         for (int i = 0; i < len; i++) {
@@ -13,4 +13,4 @@
         }
         return n <= 0;
     }
-```
+// ```

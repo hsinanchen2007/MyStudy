@@ -1,4 +1,4 @@
-```
+// ```
 func convert(s string, numRows int) string {
 	s_byte := []byte(s)
 	if len(s_byte) <= numRows || numRows ==1 {
@@ -67,4 +67,4 @@ func convert(s string, numRows int) string {
 		return string(result[:])
 }
 
-```
+// ```

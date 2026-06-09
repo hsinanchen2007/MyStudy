@@ -1,8 +1,8 @@
-- 一个朴素的思想就是从`1 ~ max(piles)`一个一个尝试
-- 但是会发现时间为`O(H*N)`肯定超时
-- 自然想到使用二分，再看看时间复杂度`O(N*logH)`，可以通过
+# - 一个朴素的思想就是从`1 ~ max(piles)`一个一个尝试
+# - 但是会发现时间为`O(H*N)`肯定超时
+# - 自然想到使用二分，再看看时间复杂度`O(N*logH)`，可以通过
 
-```python
+# ```python
 class Solution:
     def minEatingSpeed(self, piles, H: int) -> int:
 
@@ -23,4 +23,4 @@ class Solution:
             else:
                 l = mid + 1
         return r
-```
+# ```

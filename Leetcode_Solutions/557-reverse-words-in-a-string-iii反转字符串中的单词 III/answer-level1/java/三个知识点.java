@@ -1,11 +1,11 @@
-### 解题思路
-1.split方法，将字符串分成字符串数组
-2.reverse方法，快速翻转字符串
-3.trim方法，去掉首尾多余空格
+// ### 解题思路
+// 1.split方法，将字符串分成字符串数组
+// 2.reverse方法，快速翻转字符串
+// 3.trim方法，去掉首尾多余空格
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String reverseWords(String s) {
         String[] strings = s.split(" ");
@@ -18,4 +18,4 @@ class Solution {
         return stringBuffer.toString().trim();
     }
 }
-```
+// ```

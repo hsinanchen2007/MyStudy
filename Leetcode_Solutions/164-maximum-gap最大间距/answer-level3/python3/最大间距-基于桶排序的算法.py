@@ -1,9 +1,9 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/aa1e8611c024f9acff87462844bdc2209dfd7dd1d896329d16ba1a179ab86294-image.png)
+# ### 解题思路
+# ![image.png](https://pic.leetcode-cn.com/aa1e8611c024f9acff87462844bdc2209dfd7dd1d896329d16ba1a179ab86294-image.png)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import math
 
 class Solution:
@@ -31,4 +31,4 @@ class Solution:
                 res.append(min(bucket[i+1])-max(bucket[i]))
                 i += 1
         return max(res)
-```
+# ```

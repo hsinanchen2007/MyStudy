@@ -1,12 +1,12 @@
-### 解题思路
-参考了breezean的优化版竖式(打败99.4%)中优化竖排相乘的思路。
-这里不用检查sum是否overflow因为最后都是以string的形式返回结果的。
-但是自己犯了一个错误，为了减少空间复杂度，在两层for循环的时候，使用了unsigned char作为index，但是这样就算index到了0再减1也不会出现负值，而是直接到了255，还是可以继续进入循环，引起了数组越界。
-string中at函数会检查传入的index是否越界并抛出out of range的错误。
+// ### 解题思路
+// 参考了breezean的优化版竖式(打败99.4%)中优化竖排相乘的思路。
+// 这里不用检查sum是否overflow因为最后都是以string的形式返回结果的。
+// 但是自己犯了一个错误，为了减少空间复杂度，在两层for循环的时候，使用了unsigned char作为index，但是这样就算index到了0再减1也不会出现负值，而是直接到了255，还是可以继续进入循环，引起了数组越界。
+// string中at函数会检查传入的index是否越界并抛出out of range的错误。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string multiply(string num1, string num2) {
@@ -43,4 +43,4 @@ public:
         return result;
     }
 };
-```
+// ```

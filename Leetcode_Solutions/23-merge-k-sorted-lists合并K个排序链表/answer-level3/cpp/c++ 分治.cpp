@@ -1,9 +1,9 @@
-### 解题思路
-参考了[前辈](https://leetcode-cn.com/problems/merge-k-sorted-lists/solution/he-bing-kge-pai-xu-lian-biao-by-leetcode/)的代码，只是后面那一点我觉得在面试的时候我还是习惯我这种写法。
+// ### 解题思路
+// 参考了[前辈](https://leetcode-cn.com/problems/merge-k-sorted-lists/solution/he-bing-kge-pai-xu-lian-biao-by-leetcode/)的代码，只是后面那一点我觉得在面试的时候我还是习惯我这种写法。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -58,4 +58,4 @@ public:
         
     }
 };
-```
+// ```

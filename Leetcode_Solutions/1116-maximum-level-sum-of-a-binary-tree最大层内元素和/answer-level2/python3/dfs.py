@@ -1,9 +1,9 @@
-### 解题思路
-简单的dfs,层序遍历二叉树，用哈希表k-v分别对应层数和层中元素。
+# ### 解题思路
+# 简单的dfs,层序遍历二叉树，用哈希表k-v分别对应层数和层中元素。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -34,4 +34,4 @@ class Solution:
                 res=k
         return res
                 
-```
+# ```

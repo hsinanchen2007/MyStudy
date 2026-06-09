@@ -1,4 +1,4 @@
-```js
+// ```js
 var largestSumAfterKNegations = function(A, K) {
     // 从小到大排序
     A.sort((a, b) => a - b)
@@ -22,4 +22,4 @@ var largestSumAfterKNegations = function(A, K) {
     })
     return sum
 };
-```
+// ```

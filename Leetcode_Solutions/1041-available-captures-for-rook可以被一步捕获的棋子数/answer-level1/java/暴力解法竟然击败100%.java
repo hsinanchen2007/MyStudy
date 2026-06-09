@@ -1,10 +1,10 @@
-### 解题思路
-![批注 2020-03-26 125740.png](https://pic.leetcode-cn.com/d14e0178a8d7ae4a8700aed28a9edb2ca195bce413c7f74fbd4b56aa623d9388-%E6%89%B9%E6%B3%A8%202020-03-26%20125740.png)
-暴力解法，代码有点长
+// ### 解题思路
+// ![批注 2020-03-26 125740.png](https://pic.leetcode-cn.com/d14e0178a8d7ae4a8700aed28a9edb2ca195bce413c7f74fbd4b56aa623d9388-%E6%89%B9%E6%B3%A8%202020-03-26%20125740.png)
+// 暴力解法，代码有点长
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numRookCaptures(char[][] board) {
         int num = 0, size = board.length, row = 0, col = 0;
@@ -62,4 +62,4 @@ class Solution {
     return num;
     }
 }
-```
+// ```

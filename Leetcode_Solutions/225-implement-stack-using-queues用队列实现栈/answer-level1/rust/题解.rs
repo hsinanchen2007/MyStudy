@@ -1,9 +1,9 @@
-### 解题思路
-就这么简单，其实我觉得主要是考C里面怎么realloc吧，别的没啥了
+// ### 解题思路
+// 就这么简单，其实我觉得主要是考C里面怎么realloc吧，别的没啥了
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 struct MyStack {
     data: Vec<i32>,
 }
@@ -51,4 +51,4 @@ impl MyStack {
  * let ret_3: i32 = obj.top();
  * let ret_4: bool = obj.empty();
  */
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-用循环控制层，用栈控制方向，用Falg控制左右子树的访问顺序
-### 代码
+# ### 解题思路
+# 用循环控制层，用栈控制方向，用Falg控制左右子树的访问顺序
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -40,4 +40,4 @@ class Solution:
             Falg=not Falg
             res.append(s)
         return res
-```
+# ```

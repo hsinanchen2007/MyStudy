@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 /**
  * @param {string} haystack
  * @param {string} needle
@@ -39,4 +39,4 @@ var strStr = function(haystack, needle) {
     }
     return -1
 };
-```
+// ```

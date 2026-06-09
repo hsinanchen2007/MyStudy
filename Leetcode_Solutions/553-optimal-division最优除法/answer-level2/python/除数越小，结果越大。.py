@@ -1,11 +1,11 @@
-### 解题思路
-容易证明在数组首项后加左括号、末项后加右括号除数最小。特殊情况单独讨论一下即可
-![image.png](https://pic.leetcode-cn.com/3ec8dc7aec787a37179634b28d7aa3903048315d785a38ee10d5b6f2b5c87be8-image.png)
+# ### 解题思路
+# 容易证明在数组首项后加左括号、末项后加右括号除数最小。特殊情况单独讨论一下即可
+# ![image.png](https://pic.leetcode-cn.com/3ec8dc7aec787a37179634b28d7aa3903048315d785a38ee10d5b6f2b5c87be8-image.png)
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def optimalDivision(self, nums):
         """
@@ -28,4 +28,4 @@ class Solution(object):
         return s
 
 
-```
+# ```

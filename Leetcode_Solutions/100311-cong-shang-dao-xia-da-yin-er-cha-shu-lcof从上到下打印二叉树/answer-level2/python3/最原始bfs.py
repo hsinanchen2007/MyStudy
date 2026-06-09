@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/a983567a73af9b8854fc64c8446d17fb2009506b75bfa161bb1f1d932e8ebb0c-image.png)
+# ### 解题思路
+# ![image.png](https://pic.leetcode-cn.com/a983567a73af9b8854fc64c8446d17fb2009506b75bfa161bb1f1d932e8ebb0c-image.png)
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -27,4 +27,4 @@ class Solution:
         return res
             
 
-```
+# ```

@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     List<Integer> list = new ArrayList<>();
 	public boolean isValidBST(TreeNode root){
@@ -33,8 +33,8 @@ class Solution {
 		}
 	}
 }
-```
+// ```
 
-### 欢迎与我交流
+// ### 欢迎与我交流
 
-![wechat.png](https://pic.leetcode-cn.com/4965530bd01bbd8871689044fa0ded925f8b5c94e71fd8c096b5156160b7a74f-wechat.png)
+// ![wechat.png](https://pic.leetcode-cn.com/4965530bd01bbd8871689044fa0ded925f8b5c94e71fd8c096b5156160b7a74f-wechat.png)

@@ -1,5 +1,5 @@
-二分查找左右边界
-```
+// 二分查找左右边界
+// ```
 class Solution {
     int binSearchLeft(vector<int>& nums, int target) { //左边界
         int lo = 0, hi = nums.size()-1; //注意lo,hi取值
@@ -28,4 +28,4 @@ public:
         return right-left+1;
     }
 };
-```
+// ```

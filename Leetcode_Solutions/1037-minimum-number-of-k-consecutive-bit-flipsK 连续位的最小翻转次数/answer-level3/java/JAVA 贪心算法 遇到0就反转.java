@@ -1,9 +1,9 @@
-### 解题思路
-JAVA 贪心算法 遇到0就反转
+// ### 解题思路
+// JAVA 贪心算法 遇到0就反转
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minKBitFlips(int[] A, int K) {
         int size = A.length;
@@ -23,4 +23,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

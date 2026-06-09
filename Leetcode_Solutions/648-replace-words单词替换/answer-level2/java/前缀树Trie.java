@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public String replaceWords(List<String> dict, String sentence) {
         Trie trie = new Trie();
@@ -86,4 +86,4 @@ class Solution {
 
     }
 }
-```
+// ```

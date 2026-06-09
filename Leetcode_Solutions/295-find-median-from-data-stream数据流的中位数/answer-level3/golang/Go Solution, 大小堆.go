@@ -1,4 +1,4 @@
-```go
+// ```go
 type IntHeap []int
 
 func (h IntHeap) Len() int {return len(h)}
@@ -72,4 +72,4 @@ func (this *MedianFinder) FindMedian() float64 {
 		return  float64((this.lo)[0] + (this.hi)[0])/2
 	}
 }
-```
+// ```

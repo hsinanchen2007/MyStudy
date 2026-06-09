@@ -1,9 +1,9 @@
-### 解题思路
-有重复的都被消掉，最后留下的只有单个的数字。
+# ### 解题思路
+# 有重复的都被消掉，最后留下的只有单个的数字。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def singleNumber(self, nums):
         """
@@ -19,4 +19,4 @@ class Solution(object):
         
         return value
 
-```
+# ```

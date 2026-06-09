@@ -1,5 +1,5 @@
-除了对 cnt 的操作，其余都是常规的归并排序
-```
+// 除了对 cnt 的操作，其余都是常规的归并排序
+// ```
 func reversePairs(nums []int) int {
     return mergeSort(nums, 0, len(nums)-1)
 }
@@ -34,4 +34,4 @@ func mergeSort(nums []int, start, end int) int {
     }
     return cnt
 }
-```
+// ```

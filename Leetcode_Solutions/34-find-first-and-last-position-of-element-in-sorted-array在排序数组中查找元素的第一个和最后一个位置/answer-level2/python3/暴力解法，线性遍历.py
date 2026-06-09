@@ -1,9 +1,9 @@
-### 解题思路
-暴力解法，线性遍历，时间复杂度O(n)
+# ### 解题思路
+# 暴力解法，线性遍历，时间复杂度O(n)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def searchRange(self, nums: List[int], target: int) -> List[int]:
         #设置初始res，如果下面找不到则返回初始值
@@ -22,4 +22,4 @@ class Solution:
 
         return res
         
-```
+# ```

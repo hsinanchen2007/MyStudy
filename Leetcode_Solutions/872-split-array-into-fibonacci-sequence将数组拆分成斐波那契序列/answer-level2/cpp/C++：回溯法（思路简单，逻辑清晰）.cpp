@@ -1,15 +1,15 @@
-**题解：**
-* 回溯法
+// **题解：**
+// * 回溯法
 
-**算法思路：**
-* 1）i、j、k分别代表第一个、第二个和第三个数字的起始下标，i 初始化为0表示第一个数字的下标包含0
-* 2）数字超过 INT_MAX 直接返回 false
-* 3）回溯的出口为递归到字符串都完成匹配
+// **算法思路：**
+// * 1）i、j、k分别代表第一个、第二个和第三个数字的起始下标，i 初始化为0表示第一个数字的下标包含0
+// * 2）数字超过 INT_MAX 直接返回 false
+// * 3）回溯的出口为递归到字符串都完成匹配
 
-思路来自：[@Over-Lord](/u/over-lord/)的[306. 累加和](https://leetcode-cn.com/problems/additive-number/solution/xia-biao-zuo-wei-fen-duan-dian-dfs-by-over-lord/)。
+// 思路来自：[@Over-Lord](/u/over-lord/)的[306. 累加和](https://leetcode-cn.com/problems/additive-number/solution/xia-biao-zuo-wei-fen-duan-dian-dfs-by-over-lord/)。
 
-**代码如下：**
-```cpp
+// **代码如下：**
+// ```cpp
 class Solution {
 public:
     vector<int> splitIntoFibonacci(string& S) {
@@ -52,4 +52,4 @@ public:
         return backtrack(S,j,k,k+sum.size(),res);
     }
 };
-```
+// ```

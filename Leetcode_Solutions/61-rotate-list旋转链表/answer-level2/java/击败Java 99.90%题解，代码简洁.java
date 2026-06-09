@@ -1,6 +1,6 @@
-- ![clipboard1.png](https://pic.leetcode-cn.com/ed34430e84a1636322a3f15d460488324385baae55983c97a173c564ec7710eb-clipboard1.png)
+// - ![clipboard1.png](https://pic.leetcode-cn.com/ed34430e84a1636322a3f15d460488324385baae55983c97a173c564ec7710eb-clipboard1.png)
 
-```
+// ```
 class Solution {
     public ListNode rotateRight(ListNode head, int k) {
         if (k == 0 || head == null || head.next == null) {
@@ -36,4 +36,4 @@ class Solution {
         return head;
     }
 }
-```
+// ```

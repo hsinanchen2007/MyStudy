@@ -1,8 +1,8 @@
-### 思路一：遍历
+// ### 思路一：遍历
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> findAnagrams(string s, string p) {
@@ -30,13 +30,13 @@ public:
        return true;
     }
 };
-```
+// ```
 
-### 思路二：滑动窗口（最优）
+// ### 思路二：滑动窗口（最优）
 
 
-### 代码
-```
+// ### 代码
+// ```
 class Solution {
 public:
     vector<int> findAnagrams(string s, string p) {
@@ -68,9 +68,9 @@ public:
         return res;        
     }
 };
-```
-### 简化代码
-```c++
+// ```
+// ### 简化代码
+// ```c++
 class Solution {
 public:
     vector<int> findAnagrams(string s, string p) {
@@ -88,4 +88,4 @@ public:
         return res;        
     }
 };
-```
+// ```

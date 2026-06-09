@@ -1,10 +1,10 @@
-字符串分割成两块，分别对每一块进行判断，一共有四种情况
-1.首尾均是0，违规；
-2.首0，只有一种情况，即0.XXX
-3.尾0，只有一种情况，即XXXX0
-4.其他的每个间隔位均可插入0
+# 字符串分割成两块，分别对每一块进行判断，一共有四种情况
+# 1.首尾均是0，违规；
+# 2.首0，只有一种情况，即0.XXX
+# 3.尾0，只有一种情况，即XXXX0
+# 4.其他的每个间隔位均可插入0
 
-```
+# ```
 import itertools
 class Solution:
     def ambiguousCoordinates(self, S: str) -> List[str]:
@@ -31,4 +31,4 @@ class Solution:
                 for i,j in itertools.product(s1,s2):
                     output.append('(' + ', '.join([i,j]) + ')')
         return output
-```
+# ```

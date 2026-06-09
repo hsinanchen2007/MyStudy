@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/259bde7dfcb09c6f7af02667e9d6511d52dd8b25b8ef80d641129e3bb24a9dce-image.png)
+// ![image.png](https://pic.leetcode-cn.com/259bde7dfcb09c6f7af02667e9d6511d52dd8b25b8ef80d641129e3bb24a9dce-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
 贪心思想 + 分类讨论
 
 举例：[0,1,2,3,4,5,6,7,8,9] 
@@ -43,11 +43,11 @@
     
 注意!!：上面的后两种情况，我们优先尝试删除1个数，因为删除1个数后剩余的数字
       一定比删除2个数剩余的数字要多，这样答案比较大
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} digits
  * @return {string}
@@ -172,4 +172,4 @@ var largestMultipleOfThree = function(digits) {
   
 //   return ans;
 // };
-```
+// ```

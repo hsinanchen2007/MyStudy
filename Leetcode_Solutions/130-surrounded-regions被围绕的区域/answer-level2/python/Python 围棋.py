@@ -1,9 +1,9 @@
-### 解题思路
-遍历边缘，找到‘O’，然后dfs or bfs
+# ### 解题思路
+# 遍历边缘，找到‘O’，然后dfs or bfs
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def solve(self, board: List[List[str]]) -> None:
         """
@@ -38,4 +38,4 @@ class Solution:
                     board[i][j] = "O"
 
 
-```
+# ```

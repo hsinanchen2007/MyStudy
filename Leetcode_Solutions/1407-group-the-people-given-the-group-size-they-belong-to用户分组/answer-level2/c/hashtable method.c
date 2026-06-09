@@ -1,4 +1,4 @@
-```
+// ```
 #define MAX_USERS 500
 
 typedef struct {
@@ -49,13 +49,13 @@ int** groupThePeople(int* groupSizes, int groupSizesSize, int* returnSize, int**
     return res;
 }
 
-```
+// ```
 
 
 
 
-执行结果：
-通过
-显示详情
-执行用时 :28 ms, 在所有 c 提交中击败了100.00% 的用户
-内存消耗 :23.6 MB, 在所有 c 提交中击败了100.00%的用户
+// 执行结果：
+// 通过
+// 显示详情
+// 执行用时 :28 ms, 在所有 c 提交中击败了100.00% 的用户
+// 内存消耗 :23.6 MB, 在所有 c 提交中击败了100.00%的用户

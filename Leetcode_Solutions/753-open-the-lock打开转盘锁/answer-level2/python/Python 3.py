@@ -1,5 +1,5 @@
-Python 3
-```
+# Python 3
+# ```
 class Solution:
     def openLock(self, deadends: List[str], target: str) -> int:
         if "0000" in deadends: return -1
@@ -17,4 +17,4 @@ class Solution:
                     dead.add(p_str)
             position.pop(0)
         return -1
-```
+# ```

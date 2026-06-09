@@ -1,14 +1,14 @@
-### 解法一：自顶向下
-- 定义状态数组
-  dp[i]为自顶行到当前行的第i个结点的最小路径和。
-- 初始化
-  `dp[0] = triangle.get(0).get(0);`
-- 状态转移方程
-  `dp[j] = list.get(j) + (dp[j-1] < dp[j] ? dp[j-1] : dp[j]);`
-  说明：list为当前行，dp[j]=当前行的第j个结点+上一行所产生的dp[j-1]和dp[j]中较小的一个。这里只能从后往前遍历当前行的结点，因为必须保证dp[j-1]和dp[j]为上一行所产生的，如果从前往后遍历，那么dp[j-1]就是当前行的了。
-- 结果
-  dp数组中最小的元素。
-```java
+// ### 解法一：自顶向下
+// - 定义状态数组
+//   dp[i]为自顶行到当前行的第i个结点的最小路径和。
+// - 初始化
+//   `dp[0] = triangle.get(0).get(0);`
+// - 状态转移方程
+//   `dp[j] = list.get(j) + (dp[j-1] < dp[j] ? dp[j-1] : dp[j]);`
+//   说明：list为当前行，dp[j]=当前行的第j个结点+上一行所产生的dp[j-1]和dp[j]中较小的一个。这里只能从后往前遍历当前行的结点，因为必须保证dp[j-1]和dp[j]为上一行所产生的，如果从前往后遍历，那么dp[j-1]就是当前行的了。
+// - 结果
+//   dp数组中最小的元素。
+// ```java
 class Solution {
     public int minimumTotal(List<List<Integer>> triangle) {
         int size = triangle.size();
@@ -32,18 +32,18 @@ class Solution {
         return minSum;
     }
 }
-```
-### 解法二：自底向上
-- 定义状态数组
-  dp[i]为自底行到当前行的第i个结点的最小路径和。
-- 初始化
-  `dp[0...n] = 0;`
-- 状态转移方程
-  `dp[j] = list.get(j) + (dp[j] < dp[j+1] ? dp[j] : dp[j+1]);`
-  说明：list为当前行，dp[j]=当前行的第j个结点+下一行所产生的dp[j]和dp[j+1]中较小的一个。
-- 结果
-  dp[0]
-```
+// ```
+// ### 解法二：自底向上
+// - 定义状态数组
+//   dp[i]为自底行到当前行的第i个结点的最小路径和。
+// - 初始化
+//   `dp[0...n] = 0;`
+// - 状态转移方程
+//   `dp[j] = list.get(j) + (dp[j] < dp[j+1] ? dp[j] : dp[j+1]);`
+//   说明：list为当前行，dp[j]=当前行的第j个结点+下一行所产生的dp[j]和dp[j+1]中较小的一个。
+// - 结果
+//   dp[0]
+// ```
 class Solution {
     public int minimumTotal(List<List<Integer>> triangle) {
         int size = triangle.size();
@@ -58,5 +58,5 @@ class Solution {
         return dp[0];
     }
 }
-```
+// ```
 

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int numUniqueEmails(String[] emails) {
         Set<String> all=new HashSet<String>();  //去重的集合（set）来存放结果
@@ -16,4 +16,4 @@ class Solution {
         return all.size(); //返回大小，也就是种类。
     }
 }
-```
+// ```

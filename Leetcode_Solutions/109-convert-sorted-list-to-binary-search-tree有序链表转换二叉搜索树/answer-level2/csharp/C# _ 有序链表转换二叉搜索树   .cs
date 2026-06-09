@@ -1,9 +1,9 @@
-### 解题思路
-遍历链表，把结果放到数组中，然后再根据数组递归创建树。
+// ### 解题思路
+// 遍历链表，把结果放到数组中，然后再根据数组递归创建树。
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -52,4 +52,4 @@ public class Solution {
         return node;
     }
 }
-```
+// ```

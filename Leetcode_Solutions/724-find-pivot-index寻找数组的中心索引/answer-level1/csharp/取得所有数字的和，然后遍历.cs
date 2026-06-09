@@ -1,4 +1,4 @@
-```
+// ```
 public class Solution {
     public int PivotIndex(int[] nums) {
         if(nums.Length==0) return -1;
@@ -21,4 +21,4 @@ public class Solution {
         return -1;
     }
 }
-```
+// ```

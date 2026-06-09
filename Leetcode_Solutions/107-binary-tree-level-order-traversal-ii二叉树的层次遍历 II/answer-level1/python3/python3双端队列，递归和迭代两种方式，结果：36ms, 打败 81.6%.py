@@ -1,13 +1,13 @@
-### 解题思路
+# ### 解题思路
 
-用结果列表使用双端队列，是考虑可以appendleft头部插入(  appendleft插入方式复杂度复杂度O(1)  )，
-这样可以替代insert插入（  insert插入方式复杂度O(N)  )。
-
-
-法1，迭代BFS，
+# 用结果列表使用双端队列，是考虑可以appendleft头部插入(  appendleft插入方式复杂度复杂度O(1)  )，
+# 这样可以替代insert插入（  insert插入方式复杂度O(N)  )。
 
 
-```python3
+# 法1，迭代BFS，
+
+
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -31,11 +31,11 @@ class Solution:
             res.appendleft(tmp)
             cur_level=next_level
         return list(res)
-```
+# ```
 
-法2， 递归DFS
+# 法2， 递归DFS
 
-```
+# ```
 from collections import deque
 class Solution:
     def levelOrderBottom(self, root):
@@ -49,4 +49,4 @@ class Solution:
             helper(root.right,depth+1)          
         helper(root,0)
         return list(res)
-```
+# ```

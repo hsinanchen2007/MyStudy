@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -18,4 +18,4 @@ var getDecimalValue = function(head) {
     }
     return parseInt(temp, 2);
 };
-```
+// ```

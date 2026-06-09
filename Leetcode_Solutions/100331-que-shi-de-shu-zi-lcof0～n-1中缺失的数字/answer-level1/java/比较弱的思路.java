@@ -1,9 +1,9 @@
-### 解题思路
-大概就是设置一个数组记录缺失位，然后遍历该数组输出缺失位
+// ### 解题思路
+// 大概就是设置一个数组记录缺失位，然后遍历该数组输出缺失位
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int missingNumber(int[] nums) {
         
@@ -18,4 +18,4 @@ class Solution {
 		return 0;
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
  
-```
+// ```
 public int[] SortArrayByParityII(int[] A) {
         int i=0,j=1;
         while(i<A.Length&&j<A.Length){
@@ -18,4 +18,4 @@ public int[] SortArrayByParityII(int[] A) {
         }
         return A;
     }
-```
+// ```

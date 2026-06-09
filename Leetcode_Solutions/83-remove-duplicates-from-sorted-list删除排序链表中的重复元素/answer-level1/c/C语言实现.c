@@ -1,5 +1,5 @@
-C语言实现
-```C []
+// C语言实现
+// ```C []
 struct ListNode* deleteDuplicates(struct ListNode* head){
     struct ListNode *p = head;
     while (p && p->next){
@@ -11,4 +11,4 @@ struct ListNode* deleteDuplicates(struct ListNode* head){
     }
     return head;
 }
-```
+// ```

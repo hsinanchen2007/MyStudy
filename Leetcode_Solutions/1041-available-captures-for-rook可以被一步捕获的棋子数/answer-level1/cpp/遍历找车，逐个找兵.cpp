@@ -1,9 +1,9 @@
-### 解题思路
-遍历法找到车，然后前后左右四个b方向逐个寻找兵，找到兵或找到象或到达边缘则结束。
+// ### 解题思路
+// 遍历法找到车，然后前后左右四个b方向逐个寻找兵，找到兵或找到象或到达边缘则结束。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numRookCaptures(vector<vector<char>>& board) {
@@ -68,4 +68,4 @@ public:
         return ans;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-双指针，(首项+尾项数)*项数/2；
+// ### 解题思路
+// 双指针，(首项+尾项数)*项数/2；
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> findContinuousSequence(int target) {
@@ -26,4 +26,4 @@ public:
         return res;
     }
 };
-```
+// ```

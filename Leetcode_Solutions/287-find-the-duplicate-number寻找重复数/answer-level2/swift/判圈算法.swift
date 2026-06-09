@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     func findDuplicate(_ nums: [Int]) -> Int {
         var tor = nums[0]
@@ -17,4 +17,4 @@ class Solution {
         return tor
     }
 }
-```
+// ```

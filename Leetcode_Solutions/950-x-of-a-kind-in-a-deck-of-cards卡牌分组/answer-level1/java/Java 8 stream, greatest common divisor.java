@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean hasGroupsSizeX(int[] deck) {
         //边界
@@ -27,4 +27,4 @@ class Solution {
         return a%b == 0 ? b:gcd(b, a%b);
     }
 }
-```
+// ```

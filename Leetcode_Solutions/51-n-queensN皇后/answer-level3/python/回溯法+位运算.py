@@ -1,11 +1,11 @@
-### 解题思路
-[这篇文章讲的很清晰](https://mp.weixin.qq.com/s?__biz=MzI1MTIzMzI2MA==&mid=2650565284&idx=1&sn=33f7d3dc982b2b550f30a24479a9fe4f&chksm=f1fedc27c689553167f471b3b4d080bcb13bf60825d73262f55f2bbe2639835ff71ab4b78f33&scene=90&xtrack=1&subscene=93&clicktime=1585270305&enterid=1585270305&ascene=56&devicetype=android-29&version=27000c37&nettype=cmnet&abtest_cookie=AAACAA%3D%3D&lang=zh_CN&exportkey=AcMkX3Wz2R%2FbrFQhhHTXb1E%3D&pass_ticket=Yev4uphdlQgWK%2B8IcjrcCL9Tc5RuWPlpGIedumB0PPv1SOaSyBC1NcIuf%2FByxb%2Bk&wx_header=1)
+# ### 解题思路
+# [这篇文章讲的很清晰](https://mp.weixin.qq.com/s?__biz=MzI1MTIzMzI2MA==&mid=2650565284&idx=1&sn=33f7d3dc982b2b550f30a24479a9fe4f&chksm=f1fedc27c689553167f471b3b4d080bcb13bf60825d73262f55f2bbe2639835ff71ab4b78f33&scene=90&xtrack=1&subscene=93&clicktime=1585270305&enterid=1585270305&ascene=56&devicetype=android-29&version=27000c37&nettype=cmnet&abtest_cookie=AAACAA%3D%3D&lang=zh_CN&exportkey=AcMkX3Wz2R%2FbrFQhhHTXb1E%3D&pass_ticket=Yev4uphdlQgWK%2B8IcjrcCL9Tc5RuWPlpGIedumB0PPv1SOaSyBC1NcIuf%2FByxb%2Bk&wx_header=1)
 
-我这里就不班门弄斧了
+# 我这里就不班门弄斧了
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def solveNQueens(self, n):
         """
@@ -54,4 +54,4 @@ class Solution(object):
         queenSettle(0, 0, 0, 0)
 
         return self.res
-```
+# ```

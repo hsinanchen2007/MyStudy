@@ -1,14 +1,14 @@
-### 解题思路
-- 找规律, 枚举长度le, 判断target能否由该长度的数组求和所得
-    1. 如果le为奇数, 那么target%le应该为0才可以, 而target//le即为最中心的数字
-    2. 如果le为偶数, 那么target/le应该为x.5, 也即(target+le//2)%le需要为0
-- 然后根据中心数字和长度求得start, 从而得到解
-- 注意start需要>0, 如果<=0则可以break, 因为后续的长度更长, 要想满足和为target的话start会更小
-- 注意le从小到大, 即start从大到小, 最后需要翻转输出
+# ### 解题思路
+# - 找规律, 枚举长度le, 判断target能否由该长度的数组求和所得
+#     1. 如果le为奇数, 那么target%le应该为0才可以, 而target//le即为最中心的数字
+#     2. 如果le为偶数, 那么target/le应该为x.5, 也即(target+le//2)%le需要为0
+# - 然后根据中心数字和长度求得start, 从而得到解
+# - 注意start需要>0, 如果<=0则可以break, 因为后续的长度更长, 要想满足和为target的话start会更小
+# - 注意le从小到大, 即start从大到小, 最后需要翻转输出
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 
 class Solution:
     def findContinuousSequence(self, target: int) -> List[List[int]]:
@@ -26,4 +26,4 @@ class Solution:
             else:
                 break
         return res[::-1]
-```
+# ```

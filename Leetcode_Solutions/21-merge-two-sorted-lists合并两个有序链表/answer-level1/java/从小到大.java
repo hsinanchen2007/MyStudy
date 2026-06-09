@@ -1,8 +1,8 @@
-### 解题思路
-我想知道题库中只要提到“有序”是不是都是指的“从小到大”？
-### 代码
+// ### 解题思路
+// 我想知道题库中只要提到“有序”是不是都是指的“从小到大”？
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -41,4 +41,4 @@ class Solution {
 		return result;
     }
 }
-```
+// ```

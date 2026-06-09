@@ -1,8 +1,8 @@
-英文LeetCode不少是无向图节点，现在成Node节点了，不少纯C代码不能用了
-而我也没看到几个用纯C写的，就献丑写了一份
-注意vectors每次使用前要初始化
+// 英文LeetCode不少是无向图节点，现在成Node节点了，不少纯C代码不能用了
+// 而我也没看到几个用纯C写的，就献丑写了一份
+// 注意vectors每次使用前要初始化
 
-```c []
+// ```c []
 struct Node ** vectors;
 
 struct Node * dfs(struct Node* s) {
@@ -21,4 +21,4 @@ struct Node *cloneGraph(struct Node *s) {
     vectors = (struct Node **) calloc(101, sizeof(struct Node*));
     return dfs(s);
 }
-```
+// ```

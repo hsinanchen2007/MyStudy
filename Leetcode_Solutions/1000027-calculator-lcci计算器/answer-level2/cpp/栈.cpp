@@ -1,5 +1,5 @@
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int calculate(string s) {
@@ -66,4 +66,4 @@ public:
     	return sum;
     }
 };
-```
+// ```

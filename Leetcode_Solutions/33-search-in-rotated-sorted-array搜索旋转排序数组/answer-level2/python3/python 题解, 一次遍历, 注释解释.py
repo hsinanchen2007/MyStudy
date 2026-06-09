@@ -1,6 +1,6 @@
-注意点都在注释中, 好久没法 leetcode 题解了, 如果有兴趣的话, 可以关注我的 B 站账号, 佛系刷题, 大家多多交流啊
+# 注意点都在注释中, 好久没法 leetcode 题解了, 如果有兴趣的话, 可以关注我的 B 站账号, 佛系刷题, 大家多多交流啊
 
-```python
+# ```python
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         left = 0
@@ -27,4 +27,4 @@ class Solution:
                 else:
                     right = middle - 1
         return -1
-```
+# ```

@@ -1,7 +1,7 @@
-使用头插法，具体：
-1. 将第m-1个元素当做头（编码时增加一个dummy头，方便操作）;
-2. 反转链表的第一个元素作为待反转元素的上一次元素，维护链表关系
-```
+// 使用头插法，具体：
+// 1. 将第m-1个元素当做头（编码时增加一个dummy头，方便操作）;
+// 2. 反转链表的第一个元素作为待反转元素的上一次元素，维护链表关系
+// ```
     public ListNode reverseBetween(ListNode head, int m, int n) {
         if (head == null || head.next == null) {
             return head;
@@ -28,4 +28,4 @@
         }
         return dummy.next;
     }
-```
+// ```

@@ -1,7 +1,7 @@
-题解：
-1.找到字符串中的运算符，将字符串S分割成A和B；
-2.递归求解A和B的所有可能结果，遍历求得A和B的所有结果根据运算符计算后的结果；
-3.递归终止条件：字符串中已经没有运算符，将字符串转换成数字输出；
+// 题解：
+// 1.找到字符串中的运算符，将字符串S分割成A和B；
+// 2.递归求解A和B的所有可能结果，遍历求得A和B的所有结果根据运算符计算后的结果；
+// 3.递归终止条件：字符串中已经没有运算符，将字符串转换成数字输出；
 ![image.png](https://pic.leetcode-cn.com/ca68ff6e6551015843694966fc0eebe5c668a17420fde72f3b12bbb8b2554a1a-image.png)
 /**
  * Note: The returned array must be malloced, assume caller calls free().

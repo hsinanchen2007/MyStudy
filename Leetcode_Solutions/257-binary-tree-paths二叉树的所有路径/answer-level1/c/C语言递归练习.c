@@ -1,10 +1,10 @@
-### 解题思路
-C语言 用前序遍历找路，每次递归遍历都把经过结点存入缓冲区buf，并且记录每次走过的层级local；
-直到左右子节点都为NULL，说明找到路了，从缓冲区取出拼装，写入返回数组即可；
+// ### 解题思路
+// C语言 用前序遍历找路，每次递归遍历都把经过结点存入缓冲区buf，并且记录每次走过的层级local；
+// 直到左右子节点都为NULL，说明找到路了，从缓冲区取出拼装，写入返回数组即可；
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -46,4 +46,4 @@ char ** binaryTreePaths(struct TreeNode* root, int* returnSize){
     get_path(ret, root, returnSize, buf, 0);
     return ret;
 }
-```
+// ```

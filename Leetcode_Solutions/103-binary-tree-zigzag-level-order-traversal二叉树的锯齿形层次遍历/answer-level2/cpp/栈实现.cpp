@@ -1,6 +1,6 @@
-用栈实现，从左到右或者从右到左添加结点值。
-内存浪费有点大。
-```
+// 用栈实现，从左到右或者从右到左添加结点值。
+// 内存浪费有点大。
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -52,4 +52,4 @@ public:
     return res;
     }
 };
-```
+// ```

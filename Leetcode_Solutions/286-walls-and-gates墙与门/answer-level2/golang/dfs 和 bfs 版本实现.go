@@ -1,11 +1,11 @@
-dfs 相对于 bfs 来说不需要额外的队列存储，但其实这道题是归属于`栈&队列`章节的，还是建议用 bfs 实现一遍。
+// dfs 相对于 bfs 来说不需要额外的队列存储，但其实这道题是归属于`栈&队列`章节的，还是建议用 bfs 实现一遍。
 
-这道题解法注意点其实就几个：
-- 不能撞墙
-- 步数覆盖（从每一个门开始 dfs 求得的步数对其它门来说不一定最小）
+// 这道题解法注意点其实就几个：
+// - 不能撞墙
+// - 步数覆盖（从每一个门开始 dfs 求得的步数对其它门来说不一定最小）
 
-### dfs 版本
-```go
+// ### dfs 版本
+// ```go
 func wallsAndGates(rooms [][]int) {
 	if len(rooms) == 0 || len(rooms[0]) == 0 {
 		return
@@ -39,12 +39,12 @@ func wallsAndGates(rooms [][]int) {
 		}
 	}
 }
-```
+// ```
 
-### bfs 版本
-官方实现的 bfs 版本明显有 bug，没有考虑存在多个门的情况
+// ### bfs 版本
+// 官方实现的 bfs 版本明显有 bug，没有考虑存在多个门的情况
 
-```go
+// ```go
 func wallsAndGates(rooms [][]int) {
 	if len(rooms) == 0 || len(rooms[0]) == 0 {
 		return
@@ -88,4 +88,4 @@ func wallsAndGates(rooms [][]int) {
 	}
 }
 
-```
+// ```

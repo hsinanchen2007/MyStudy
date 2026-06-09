@@ -1,9 +1,9 @@
-### 解题思路
-疲惫，不写。洗澡去了。
+// ### 解题思路
+// 疲惫，不写。洗澡去了。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 public class LFUCache {
     private int capacity;
     private Map<Integer, LFREntry> map;
@@ -160,4 +160,4 @@ public class LFUCache {
         map.put(key, entry);
     }
 }
-```
+// ```

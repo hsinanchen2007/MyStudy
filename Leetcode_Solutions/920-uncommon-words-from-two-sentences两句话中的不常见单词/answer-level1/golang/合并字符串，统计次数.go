@@ -1,4 +1,4 @@
-```
+// ```
 func uncommonFromSentences(A string, B string) []string {
 
 	list := strings.Split(A + " " + B, " ")
@@ -18,4 +18,4 @@ func uncommonFromSentences(A string, B string) []string {
 
 	return list
 }
-```
+// ```

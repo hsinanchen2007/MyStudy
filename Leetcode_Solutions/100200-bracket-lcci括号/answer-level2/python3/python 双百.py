@@ -1,12 +1,12 @@
-### 解题思路
-![1584153281(1).png](https://pic.leetcode-cn.com/8e4306227438874073fd1f64f59dd5c41ce1c726c2665eaac5c56729a39455c0-1584153281\(1\).png)
+# ### 解题思路
+# ![1584153281(1).png](https://pic.leetcode-cn.com/8e4306227438874073fd1f64f59dd5c41ce1c726c2665eaac5c56729a39455c0-1584153281\(1\).png)
 
-题目中有个隐含条件：就是 ( 在组合时候比 ) 用的多或相等
-然后用回溯
+# 题目中有个隐含条件：就是 ( 在组合时候比 ) 用的多或相等
+# 然后用回溯
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
         re = []
@@ -25,4 +25,4 @@ class Solution:
 
         dsp(state, n, n)
         return re
-```
+# ```

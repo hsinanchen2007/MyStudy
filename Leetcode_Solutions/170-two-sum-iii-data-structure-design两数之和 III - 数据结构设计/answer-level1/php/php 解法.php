@@ -1,4 +1,4 @@
-```
+// ```
 class TwoSum {
     /**
      * Initialize your data structure here.
@@ -30,4 +30,4 @@ class TwoSum {
         return false;
     }
 }
-```
+// ```

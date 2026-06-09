@@ -1,4 +1,4 @@
-```
+// ```
 int numSteps(char *s)
 {
        int length = strlen(s);
@@ -28,4 +28,4 @@ int numSteps(char *s)
        }
        return num;
 }
-```
+// ```

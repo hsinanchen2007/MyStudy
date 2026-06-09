@@ -1,7 +1,7 @@
-想清楚要遍历的数列长度不会超过目标值X2的开方值就行了..时间复杂度直接下降到log数量级..
+# 想清楚要遍历的数列长度不会超过目标值X2的开方值就行了..时间复杂度直接下降到log数量级..
 
-附上代码
-```
+# 附上代码
+# ```
 class Solution:
     def findContinuousSequence(self, target: int) -> List[List[int]]:
         re=[]
@@ -14,5 +14,5 @@ class Solution:
                 if sum(ha)==target and 0 not in ha:
                     re.append(ha)
         return re
-```
+# ```
 

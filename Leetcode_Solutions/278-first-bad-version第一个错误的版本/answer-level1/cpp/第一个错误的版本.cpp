@@ -1,4 +1,4 @@
-```c++
+// ```c++
     //二分法
     int firstBadVersion(int n) {
         if(n<=1)return n;
@@ -12,4 +12,4 @@
         if(isBadVersion(k))return firstBadVersion(start,k);
         else return firstBadVersion(k,end);
     }
-```
+// ```

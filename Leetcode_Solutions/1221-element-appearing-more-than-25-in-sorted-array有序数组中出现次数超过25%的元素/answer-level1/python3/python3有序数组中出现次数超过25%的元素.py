@@ -1,9 +1,9 @@
-### 解题思路
-一次遍历
+# ### 解题思路
+# 一次遍历
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findSpecialInteger(self, arr: List[int]) -> int:
         t=len(arr)//4+1
@@ -18,6 +18,6 @@ class Solution:
                 pre=arr[i]
                 cur=1
         return pre
-```
+# ```
 
-![image.png](https://pic.leetcode-cn.com/e428c71dd81b0c27fbc2c2db5c1cbffd7db45690f0b202958e62547c1cf94a84-image.png)
+# ![image.png](https://pic.leetcode-cn.com/e428c71dd81b0c27fbc2c2db5c1cbffd7db45690f0b202958e62547c1cf94a84-image.png)

@@ -1,6 +1,6 @@
-这里给出单链表和双链表的设计。
-- 单链表
-```c
+// 这里给出单链表和双链表的设计。
+// - 单链表
+// ```c
 typedef struct node_obj{
     int val;
     struct node_obj* next;
@@ -87,9 +87,9 @@ void myLinkedListFree(MyLinkedList* obj) {
         free(tmp);
     }
 }
-```
-- 双链表
-```c
+// ```
+// - 双链表
+// ```c
 typedef struct node{
     int val;
     struct node* next;
@@ -180,4 +180,4 @@ void myLinkedListFree(MyLinkedList* obj) {
         free(tmp);
     }
 }
-```
+// ```

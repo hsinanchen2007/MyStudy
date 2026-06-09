@@ -1,10 +1,10 @@
-### 解题思路
-先用递归写出表达式
-然后自底向上计算, 减少重复运算.
+# ### 解题思路
+# 先用递归写出表达式
+# 然后自底向上计算, 减少重复运算.
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def rob(self, nums: List[int]) -> int:
         # def steal(nums, i):
@@ -26,4 +26,4 @@ class Solution:
         return A[-1]
 
 
-```
+# ```

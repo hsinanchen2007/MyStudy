@@ -1,4 +1,4 @@
-```
+// ```
 import (
 	"sort"
 	"strings"
@@ -66,4 +66,4 @@ func (this *FileSystem) AddContentToFile(filePath string, content string) {
 func (this *FileSystem) ReadContentFromFile(filePath string) string {
 	return this.files[filePath]
 }
-```
+// ```

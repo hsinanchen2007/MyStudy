@@ -1,6 +1,6 @@
-分成两个链表，一个小于x，一个大于等于x；
-进行拼接；
-```
+// 分成两个链表，一个小于x，一个大于等于x；
+// 进行拼接；
+// ```
 import java.util.*;
 /**
  * Definition for singly-linked list.
@@ -45,4 +45,4 @@ class Solution {
         }else return head2;
     }
 }
-```
+// ```

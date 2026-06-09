@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public bool CanMeasureWater(int x, int y, int z) {
         if (z == 0) return true;//自动满足
@@ -23,4 +23,4 @@ public class Solution {
             return z % small == 0;
     }
 }
-```
+// ```

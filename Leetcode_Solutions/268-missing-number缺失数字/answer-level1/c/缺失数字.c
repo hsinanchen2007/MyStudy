@@ -1,5 +1,5 @@
-**求和**
-```c
+// **求和**
+// ```c
 int missingNumber(int* nums, int numsSize){
     int ans = (numsSize + 1) * numsSize / 2, i;
     for(i = 0; i < numsSize; i++){
@@ -7,9 +7,9 @@ int missingNumber(int* nums, int numsSize){
     }
     return ans;
 }
-```
-**异或**
-```c
+// ```
+// **异或**
+// ```c
 int missingNumber(int* nums, int numsSize){
     int ans = numsSize, i;
     for(i = 0; i < numsSize; i++){
@@ -17,9 +17,9 @@ int missingNumber(int* nums, int numsSize){
     }
     return ans;
 }
-```
-**哈希**
-```c
+// ```
+// **哈希**
+// ```c
 int missingNumber(int* nums, int numsSize){
     int *p = (int*)calloc(numsSize + 1, sizeof(int));
     int i;
@@ -32,4 +32,4 @@ int missingNumber(int* nums, int numsSize){
     }
     return -1; //not found
 }
-```
+// ```

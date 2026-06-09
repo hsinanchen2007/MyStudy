@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-修改递归为return 1 + core(i + 1, j, m, n, k) + dfs(i, j + 1, m, n, k);
-因为是左上角，只用遍历右边和下边就可以了
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 修改递归为return 1 + core(i + 1, j, m, n, k) + dfs(i, j + 1, m, n, k);
+// 因为是左上角，只用遍历右边和下边就可以了
+// ### 代码
 
-```java
+// ```java
 class Solution {
     //DFS递归实现，需要记录访问过的节点，但并不是回溯，只需改变现场，不需要恢复
     public int movingCount(int m, int n, int k) {
@@ -40,4 +40,4 @@ class Solution {
     }
 }
 
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func isSymmetric(root *TreeNode) bool {
 	if root == nil {
 		return true
@@ -27,4 +27,4 @@ func check(p, q *TreeNode) bool {
 	}
 	return check(p.Left, q.Right) && check(p.Right, q.Left)
 }
-```
+// ```

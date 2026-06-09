@@ -1,4 +1,4 @@
-```
+// ```
 import "fmt"
 
 func getHint(secret string, guess string) string {
@@ -20,4 +20,4 @@ func getHint(secret string, guess string) string {
 	}
 	return fmt.Sprintf("%dA%dB", nb, nc)
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-给“(”、“)”配对，如果temp中是满对，如“(()())”，就删除外层的括号对，传给result。
+# ### 解题思路
+# 给“(”、“)”配对，如果temp中是满对，如“(()())”，就删除外层的括号对，传给result。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def removeOuterParentheses(self, S):
         temp, result = "", ""
@@ -18,4 +18,4 @@ class Solution(object):
                 result += temp[1:-1]
                 temp = ""
         return result
-```
+# ```

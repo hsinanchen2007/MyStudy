@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -37,4 +37,4 @@ var fourSum = function(nums, target) {
   }
   return result;
 };
-```
+// ```

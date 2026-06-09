@@ -1,6 +1,6 @@
-执行用时 :6 ms, 在所有 java 提交中击败了93.45% 的用户
-内存消耗 :38.7 MB, 在所有 java 提交中击败了97.16%的用户
-```
+// 执行用时 :6 ms, 在所有 java 提交中击败了93.45% 的用户
+// 内存消耗 :38.7 MB, 在所有 java 提交中击败了97.16%的用户
+// ```
 class Solution {
     public boolean exist(char[][] board, String word) {
         if(board == null || board.length < 1 || board[0].length < 1 || word == null || word.length() < 1)
@@ -36,4 +36,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

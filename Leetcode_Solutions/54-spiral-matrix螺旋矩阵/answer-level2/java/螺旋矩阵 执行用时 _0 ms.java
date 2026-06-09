@@ -1,11 +1,11 @@
-执行用时 :0 ms, 在所有 Java 提交中击败了100.00%的用户
-内存消耗 :34.5 MB, 在所有 Java 提交中击败了63.43%的用户
+// 执行用时 :0 ms, 在所有 Java 提交中击败了100.00%的用户
+// 内存消耗 :34.5 MB, 在所有 Java 提交中击败了63.43%的用户
 
-思路：每一次循环可以分为四次加入list的操作，上边，右边，下边，左边，一个顺时针循环，每次操作一边结束之后我们将已经加入list的数组一边去除掉
-所以设置 rowStart rowEnd表示行的开始和结束  colStart  colEnd 表示列的开始结束，count表示加入list的个数 total表示总个数
+// 思路：每一次循环可以分为四次加入list的操作，上边，右边，下边，左边，一个顺时针循环，每次操作一边结束之后我们将已经加入list的数组一边去除掉
+// 所以设置 rowStart rowEnd表示行的开始和结束  colStart  colEnd 表示列的开始结束，count表示加入list的个数 total表示总个数
 
-接下来举个例子
-```
+// 接下来举个例子
+// ```
 1，2，3
 4，5，6
 7，8，9
@@ -16,9 +16,9 @@
 8，7加入list 删除下边一行，更新行结束位rowEnd--（rowEnd=1）  if (count>=total) break;
 4，加入list 删除左边一列，更新列开始位colStart++（colStart=1）  if (count>=total) break;
 至此一边循环结束，以此类推进行下一个循环
-```
+// ```
 
-```java
+// ```java
 public List<Integer> spiralOrder(int[][] matrix) {
         if (matrix.length==0) return new ArrayList<>();
         if (matrix[0].length==0) return new ArrayList<>();
@@ -64,4 +64,4 @@ public List<Integer> spiralOrder(int[][] matrix) {
         }
         return list;
     }
-```
+// ```

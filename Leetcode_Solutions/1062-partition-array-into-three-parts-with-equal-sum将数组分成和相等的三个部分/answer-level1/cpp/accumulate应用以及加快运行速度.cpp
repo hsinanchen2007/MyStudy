@@ -1,8 +1,8 @@
-参考官方题解的C++代码
-以及
-关于竞赛大佬常用的 static auto x = []()用法解析
-https://www.cnblogs.com/Kanna/p/12460494.html
-```cpp
+// 参考官方题解的C++代码
+// 以及
+// 关于竞赛大佬常用的 static auto x = []()用法解析
+// https://www.cnblogs.com/Kanna/p/12460494.html
+// ```cpp
 //看题解的时候发现好多大佬都有用这个，使用了以后运行速度快了特别多
 static const auto _ = []()
 {
@@ -39,4 +39,4 @@ public:
         return false;
     }
 };
-```
+// ```

@@ -1,6 +1,6 @@
-最大回文子串问题是一个经典的动态规划问题，给定一个字符串s，可以从中删除一些字符，使得剩下的串是一个回文串。
+# 最大回文子串问题是一个经典的动态规划问题，给定一个字符串s，可以从中删除一些字符，使得剩下的串是一个回文串。
 
-```
+# ```
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         t = s[::-1] # 倒序
@@ -18,4 +18,4 @@ class Solution:
                     else:
                         result_matrix[i+1][j+1] = max(result_matrix[i+1][j], result_matrix[i][j+1])
             print(n-result_matrix[n][n])
-```
+# ```

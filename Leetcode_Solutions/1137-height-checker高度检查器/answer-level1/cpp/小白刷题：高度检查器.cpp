@@ -1,7 +1,7 @@
-笨方法，拷贝一份数组，将原数组排序，与拷贝数组比较，有几个不一样的元素
+// 笨方法，拷贝一份数组，将原数组排序，与拷贝数组比较，有几个不一样的元素
 
-代码：
-```
+// 代码：
+// ```
 class Solution {
 public:
 	int heightChecker(vector<int>& heights) {
@@ -18,4 +18,4 @@ public:
 		return ans;
 	}
 };
-```
+// ```

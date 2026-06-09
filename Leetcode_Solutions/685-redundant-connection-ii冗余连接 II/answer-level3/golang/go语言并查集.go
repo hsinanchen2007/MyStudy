@@ -1,5 +1,5 @@
-如果存在入度为2的节点，优先删除后出现的边，如果不存在入度为2的节点，那一定是根节点的入度为1，此时可以当做无向图处理，删除一条边使之不存在环即可
-```
+// 如果存在入度为2的节点，优先删除后出现的边，如果不存在入度为2的节点，那一定是根节点的入度为1，此时可以当做无向图处理，删除一条边使之不存在环即可
+// ```
 func findRedundantDirectedConnection(edges [][]int) []int {
 	indegree := make([]int, len(edges)+1)
 	for i, val := range edges {
@@ -72,4 +72,4 @@ func union(x int, y int, p []int) {
 		p[xroot] = yroot
 	}
 }
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
 
-![Screenshot 2020-03-16 at 11.22.14 PM.png](https://pic.leetcode-cn.com/a0cb2e36d8c0599e78cceb48e77adae308cbaaf8051ad6d68dd15c1dc38fc8db-Screenshot%202020-03-16%20at%2011.22.14%20PM.png)
+// ![Screenshot 2020-03-16 at 11.22.14 PM.png](https://pic.leetcode-cn.com/a0cb2e36d8c0599e78cceb48e77adae308cbaaf8051ad6d68dd15c1dc38fc8db-Screenshot%202020-03-16%20at%2011.22.14%20PM.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 // 判断是否为质数
 bool isPrime(int num){
     if (num < 2) return false;
@@ -37,4 +37,4 @@ int getOneCount(int num){
 }
 
 
-```
+// ```

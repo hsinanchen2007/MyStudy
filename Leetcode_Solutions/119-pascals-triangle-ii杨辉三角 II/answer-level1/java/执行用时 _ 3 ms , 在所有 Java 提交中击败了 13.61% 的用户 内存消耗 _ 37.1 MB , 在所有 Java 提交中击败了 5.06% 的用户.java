@@ -1,9 +1,9 @@
-### 解题思路
-和上一道杨辉三角类似，但需要改变一些条件，由于是取第K行，但本题由第0行起算，所以实际是第四行，我们想取到该行需要把row<=rowindex,否则取不到第K行。
+// ### 解题思路
+// 和上一道杨辉三角类似，但需要改变一些条件，由于是取第K行，但本题由第0行起算，所以实际是第四行，我们想取到该行需要把row<=rowindex,否则取不到第K行。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> getRow(int rowIndex) {
         List<List<Integer>> list = new ArrayList<List<Integer>>();
@@ -22,4 +22,4 @@ class Solution {
         return list.get(rowIndex);
     }
 }
-```
+// ```

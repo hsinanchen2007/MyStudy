@@ -1,11 +1,11 @@
-# 思路
+# # 思路
 
-转化为从长度为3n的序列中提取长度为n的不相邻子序列问题。 注意首尾不相邻，可以通过算两遍解决。
-时间复杂度 $O(n^2)$
-空间复杂度 $O(N^2)$
-#代码
+# 转化为从长度为3n的序列中提取长度为n的不相邻子序列问题。 注意首尾不相邻，可以通过算两遍解决。
+# 时间复杂度 $O(n^2)$
+# 空间复杂度 $O(N^2)$
+# #代码
 
-```python []
+# ```python []
 class Solution:
     def maxSizeSlices(self, slices):
         import numpy as np
@@ -20,5 +20,5 @@ class Solution:
             return np.max(result)
         return int(max(f(slices[:-1],len(slices)//3),f(slices[1:],len(slices)//3)))
 
-```
+# ```
 

@@ -1,9 +1,9 @@
-### 解题思路
-BFS 队列遍历 求平均值
+// ### 解题思路
+// BFS 队列遍历 求平均值
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 // Definition for a binary tree node.
 // #[derive(Debug, PartialEq, Eq)]
 // pub struct TreeNode {
@@ -53,4 +53,4 @@ impl Solution {
         res
     }
 }
-```
+// ```

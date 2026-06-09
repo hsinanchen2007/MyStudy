@@ -1,7 +1,7 @@
-#### 遍历整个矩阵, 当遇到grid[i][j]==1时, 从(i,j)向四周扩散,寻找相邻的1, 扩散的过程可以用bfs模拟或者dfs模拟, 这里采用的是bfs, 
-#### 扩散过程中使用boolean[][]数组记录已访问过的坐标
+// #### 遍历整个矩阵, 当遇到grid[i][j]==1时, 从(i,j)向四周扩散,寻找相邻的1, 扩散的过程可以用bfs模拟或者dfs模拟, 这里采用的是bfs, 
+// #### 扩散过程中使用boolean[][]数组记录已访问过的坐标
 
-```java
+// ```java
 class Solution {
     public int maxAreaOfIsland(int[][] grid) {
         if(grid==null || grid.length==0 || grid[0]==null || grid[0].length==0){
@@ -58,4 +58,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

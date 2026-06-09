@@ -1,12 +1,12 @@
-### 解题思路
-学习[@wait-for-cheng-shan](/u/wait-for-cheng-shan/)大佬
-[大佬文章地址](https://leetcode-cn.com/problems/er-cha-shu-de-jing-xiang-lcof/solution/er-cha-shu-de-jing-xiang-dui-er-cha-shu-ti-mu-de-l/)
+// ### 解题思路
+// 学习[@wait-for-cheng-shan](/u/wait-for-cheng-shan/)大佬
+// [大佬文章地址](https://leetcode-cn.com/problems/er-cha-shu-de-jing-xiang-lcof/solution/er-cha-shu-de-jing-xiang-dui-er-cha-shu-ti-mu-de-l/)
 
-### 知识点：二叉树前序遍历的顺序 + 递归
+// ### 知识点：二叉树前序遍历的顺序 + 递归
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -32,4 +32,4 @@ func mirrorTree(root *TreeNode) *TreeNode {
 	// 函数返回时就表示当前这个节点，以及它的左右子树都交换完了
 	return root
 }
-```
+// ```

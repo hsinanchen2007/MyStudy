@@ -1,9 +1,9 @@
-### 解题思路
+# ### 解题思路
 
-题不难，但是得注意边界
-### 代码
+# 题不难，但是得注意边界
+# ### 代码
 
-```
+# ```
 class Solution:
     def deleteDuplicates(self, head: ListNode) -> ListNode:
         if not head or not head.next:
@@ -23,4 +23,4 @@ class Solution:
                 pre = pre.next
 
         return dummy.next
-```
+# ```

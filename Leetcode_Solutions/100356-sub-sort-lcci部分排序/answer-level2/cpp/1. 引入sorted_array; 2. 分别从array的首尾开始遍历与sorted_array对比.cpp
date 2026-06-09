@@ -1,10 +1,10 @@
-### 解题思路
-执行用时 :176 ms, 在所有 C++ 提交中击败了15.38% 的用户
-内存消耗 :22.1 MB, 在所有 C++ 提交中击败了100.00%的用户
+// ### 解题思路
+// 执行用时 :176 ms, 在所有 C++ 提交中击败了15.38% 的用户
+// 内存消耗 :22.1 MB, 在所有 C++ 提交中击败了100.00%的用户
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> subSort(vector<int>& array) {
@@ -34,4 +34,4 @@ public:
     	return has_met ? v_bound : v_no_match;
     }
 };
-```
+// ```

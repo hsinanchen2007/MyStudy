@@ -1,5 +1,5 @@
-采用hash映射
-```C []
+// 采用hash映射
+// ```C []
 int arrayPairSum(int* nums, int numsSize){
     int *hash = (int*)malloc(20001 * sizeof(int));
     memset(hash, 0, 20001 * sizeof(int));
@@ -14,4 +14,4 @@ int arrayPairSum(int* nums, int numsSize){
     free(hash);
     return sum;
 }
-```
+// ```

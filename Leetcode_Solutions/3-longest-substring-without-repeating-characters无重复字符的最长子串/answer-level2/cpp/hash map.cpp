@@ -1,9 +1,9 @@
-### 解题思路
-用哈希图来记录每个字符最后一次出现的位置，如果该位置在start point 之后， 则重置start point。
+// ### 解题思路
+// 用哈希图来记录每个字符最后一次出现的位置，如果该位置在start point 之后， 则重置start point。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
@@ -20,4 +20,4 @@ public:
          return maxsub;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-统计核心
+// ### 解题思路
+// 统计核心
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func scoreOfParentheses(S string) int {
 	total:= 0
 	var depth uint 
@@ -19,4 +19,4 @@ func scoreOfParentheses(S string) int {
 	}
 	return total
 }
-```
+// ```

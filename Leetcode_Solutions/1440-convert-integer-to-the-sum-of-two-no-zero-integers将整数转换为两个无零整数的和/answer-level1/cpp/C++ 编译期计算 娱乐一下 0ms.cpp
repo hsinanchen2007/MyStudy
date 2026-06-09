@@ -1,10 +1,10 @@
-![image.png](https://pic.leetcode-cn.com/001769e2dfcc630715be182d2bd78549790fd02e61915dbf9d58e761a6e2aded-image.png)
+// ![image.png](https://pic.leetcode-cn.com/001769e2dfcc630715be182d2bd78549790fd02e61915dbf9d58e761a6e2aded-image.png)
 
-随手乱批的，娱乐一下。
-利用constexpr，编译期计算，编译期就算完了。
-不过代码很丑就是了。
+// 随手乱批的，娱乐一下。
+// 利用constexpr，编译期计算，编译期就算完了。
+// 不过代码很丑就是了。
 
-```
+// ```
 constexpr bool isLegal(int num) {
     while (num > 0) {
         if (!(num%10)) {
@@ -52,4 +52,4 @@ public:
         return { pre1[n], pre2[n] };
     }
 };
-```
+// ```

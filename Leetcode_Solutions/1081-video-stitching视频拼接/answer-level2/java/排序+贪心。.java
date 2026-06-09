@@ -1,13 +1,13 @@
-这个题和跳越游戏2那个题一模一样，只不过跳格子那个题是已经排序过的。
-https://leetcode-cn.com/problems/jump-game-ii/
+// 这个题和跳越游戏2那个题一模一样，只不过跳格子那个题是已经排序过的。
+// https://leetcode-cn.com/problems/jump-game-ii/
 
-区间的左端点clips[i][0]，可以看成跳越游戏那个题的坐标。
-区间的右端点clips[i][1]，可以看成跳越游戏那个题的跳越距离。
-可恨腾讯竟然拿这个当笔试题。。。。。跳越游戏2可是hard题啊！！！
+// 区间的左端点clips[i][0]，可以看成跳越游戏那个题的坐标。
+// 区间的右端点clips[i][1]，可以看成跳越游戏那个题的跳越距离。
+// 可恨腾讯竟然拿这个当笔试题。。。。。跳越游戏2可是hard题啊！！！
 
 
-Java ac代码：
-```
+// Java ac代码：
+// ```
 class Solution {
     public int videoStitching(int[][] clips, int T) {
         
@@ -40,4 +40,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

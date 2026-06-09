@@ -1,6 +1,6 @@
-不太懂优先队列怎么用，求大神指点
+// 不太懂优先队列怎么用，求大神指点
 
-```
+// ```
 
     public List<Integer> topKFrequent(int[] nums, int k) {
         HashMap<Integer,Integer> hashMap = new HashMap<Integer,Integer>();
@@ -56,5 +56,5 @@
             return 0;
         }
     }
-```
+// ```
 

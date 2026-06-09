@@ -1,4 +1,4 @@
-    // 分治法
+//     // 分治法
     class Solution {
         public int maxSubArray(int[] nums) {
             return divide(nums, 0, nums.length - 1);

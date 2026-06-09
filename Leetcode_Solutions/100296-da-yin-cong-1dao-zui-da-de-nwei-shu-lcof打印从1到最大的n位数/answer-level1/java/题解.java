@@ -1,10 +1,10 @@
-### 解题思路
-1、求出最大数
-2、赋值
+// ### 解题思路
+// 1、求出最大数
+// 2、赋值
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] printNumbers(int n) {
         int len=1;
@@ -20,4 +20,4 @@ class Solution {
         return results;
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-# Sort
-```cpp
+// # Sort
+// ```cpp
 class Solution {
 public:
     int lastStoneWeight(vector<int>& stones) {
@@ -18,10 +18,10 @@ public:
         return stones[0];  
     }
 };
-```
+// ```
 
-# Priority_queue
-```cpp
+// # Priority_queue
+// ```cpp
 class Solution {
 public:
     int lastStoneWeight(vector<int>& stones) {
@@ -47,4 +47,4 @@ public:
         return pq.size() == 1 ? pq.top() : 0;
     }
 };
-```
+// ```

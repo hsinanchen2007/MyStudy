@@ -1,6 +1,6 @@
-#### 第一种解法:栈
-第一个想到的解法就是栈
-```python
+# #### 第一种解法:栈
+# 第一个想到的解法就是栈
+# ```python
     def reverseList(self, head: ListNode) -> ListNode:
         s = [] 
         re_point = ListNode(0)
@@ -13,10 +13,10 @@
             re = re.next
         re.next = None
         return re_point.next
-```
+# ```
 
-#### 第二种解法:迭代
-```python
+# #### 第二种解法:迭代
+# ```python
 def reverseList(self, head: ListNode) -> ListNode:
         prev = None
         cur = head
@@ -26,10 +26,10 @@ def reverseList(self, head: ListNode) -> ListNode:
             prev = cur
             cur = next
         return prev
-```
+# ```
 
-#### 第二种解法:递归
-```python
+# #### 第二种解法:递归
+# ```python
 def reverseList(self, head: ListNode) -> ListNode:
         if not head or not head.next:
             return head # 返回原链表为节点作为头结点
@@ -37,4 +37,4 @@ def reverseList(self, head: ListNode) -> ListNode:
         head.next.next = head # 链接新链
         head.next = None
         return point 返回新链表头结点
-```
+# ```

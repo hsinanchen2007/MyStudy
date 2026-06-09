@@ -1,5 +1,5 @@
-栈a负责输入，栈b负责输出
-```
+// 栈a负责输入，栈b负责输出
+// ```
 class CQueue {
     stack<int> a;
     stack<int> b;
@@ -24,4 +24,4 @@ public:
         return tmp;  
     }
 };
-```
+// ```

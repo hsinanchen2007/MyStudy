@@ -1,4 +1,4 @@
-```python 
+# ```python 
 class Solution:
     def removeNthFromEnd(self, head, n):
         global i 
@@ -8,4 +8,4 @@ class Solution:
         head.next = self.removeNthFromEnd(head.next,n)
         i+=1
         return head.next if i==n else head
-```
+# ```

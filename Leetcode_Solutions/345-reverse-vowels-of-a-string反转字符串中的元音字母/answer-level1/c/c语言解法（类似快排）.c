@@ -1,8 +1,8 @@
-### 解题思路
-思路有点像快排。
-### 代码
+// ### 解题思路
+// 思路有点像快排。
+// ### 代码
 
-```c
+// ```c
 char * reverseVowels(char * s){
     int i=0;
     int j=strlen(s)-1;
@@ -24,4 +24,4 @@ char * reverseVowels(char * s){
     }
     return s;
 }
-```
+// ```

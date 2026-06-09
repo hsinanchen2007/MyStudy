@@ -1,9 +1,9 @@
-### 解题思路
-循环中考虑循环的终止节点, 同时对是否存在可能结果进行判断
+// ### 解题思路
+// 循环中考虑循环的终止节点, 同时对是否存在可能结果进行判断
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void combineHelp(vector<vector<int>>& rst, vector<int>& temp, int k, int n, int begin, int sum)
@@ -35,4 +35,4 @@ public:
         return rst;
     }
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-动态规划
-![捕获.JPG](https://pic.leetcode-cn.com/f3b2c3a16914821dbe60e7b93a46cde1065ac86a59c2a5d906d601ec71a23910-%E6%8D%95%E8%8E%B7.JPG)
+// ### 解题思路
+// 动态规划
+// ![捕获.JPG](https://pic.leetcode-cn.com/f3b2c3a16914821dbe60e7b93a46cde1065ac86a59c2a5d906d601ec71a23910-%E6%8D%95%E8%8E%B7.JPG)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     // dp(i, j, 3)为三元组（向左走连续1的个数，向上走连续1的个数，包围的最大面积）
@@ -41,4 +41,4 @@ public:
         return result;
     }
 };
-```
+// ```

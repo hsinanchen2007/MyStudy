@@ -1,19 +1,19 @@
-### 解题思路
-用宽度优先搜索的思路解决二维矩阵连通\最短路径问题
-用collections库中的deque来创建队列
+# ### 解题思路
+# 用宽度优先搜索的思路解决二维矩阵连通\最短路径问题
+# 用collections库中的deque来创建队列
 
-**解决步骤**
-1. 创建队列从给定的坐标开始进行层级遍历，创建集合记录走过的square
-2. 对于每一个队列中的square，对它的四个方向进行遍历
-3. 若判断是border，进行染色
-判断是否为border：
-    1. 在矩阵边缘
-    2. 周围存在不同色的square。
-4. 不是border（即同色），进入队列，并加入已遍历的集合
+# **解决步骤**
+# 1. 创建队列从给定的坐标开始进行层级遍历，创建集合记录走过的square
+# 2. 对于每一个队列中的square，对它的四个方向进行遍历
+# 3. 若判断是border，进行染色
+# 判断是否为border：
+#     1. 在矩阵边缘
+#     2. 周围存在不同色的square。
+# 4. 不是border（即同色），进入队列，并加入已遍历的集合
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import collections
 class Solution:
     def colorBorder(self, grid: List[List[int]], r0: int, c0: int, color: int) -> List[List[int]]:
@@ -46,8 +46,8 @@ class Solution:
         elif grid[x][y] != cur_color:
             return True
         return False
-``````
-```python3
+# ``````
+# ```python3
 import collections
 class Solution:
     def colorBorder(self, grid: List[List[int]], r0: int, c0: int, color: int) -> List[List[int]]:
@@ -80,5 +80,5 @@ class Solution:
         elif grid[x][y] != cur_color:
             return True
         return False
-```
-```
+# ```
+# ```

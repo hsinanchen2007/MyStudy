@@ -1,16 +1,16 @@
-## 思路:
+# ## 思路:
 
-思路一：暴力法
+# 思路一：暴力法
 
-两个`dfs`即可
+# 两个`dfs`即可
 
-思路二：前缀和 + 回溯
+# 思路二：前缀和 + 回溯
 
-## 代码:
+# ## 代码:
 
-思路一：
+# 思路一：
 
-```python
+# ```python
 class Solution:
     def pathSum(self, root: TreeNode, _sum: int) -> int:
         res = 0
@@ -31,11 +31,11 @@ class Solution:
         
         dfs2(root)
         return res
-```
+# ```
 
-思路二：
+# 思路二：
 
-```python
+# ```python
 class Solution:
     def pathSum(self, root: TreeNode, _sum: int) -> int:
         from collections import defaultdict
@@ -59,5 +59,5 @@ class Solution:
 
         dfs(root, 0)
         return res
-```
+# ```
 

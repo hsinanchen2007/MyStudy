@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean hasAlternatingBits(int n) {
         String s=Integer.toBinaryString(n);
@@ -16,4 +16,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

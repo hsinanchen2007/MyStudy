@@ -1,9 +1,9 @@
-### 简单的回溯算法
-简单的回溯算法那
+// ### 简单的回溯算法
+// 简单的回溯算法那
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX_LEN  100
 int g_grids[100][100];
 
@@ -49,4 +49,4 @@ int movingCount(int m, int n, int k){
     }
     return sumCount;
 }
-```
+// ```

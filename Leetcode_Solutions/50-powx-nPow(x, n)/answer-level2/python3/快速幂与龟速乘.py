@@ -1,5 +1,5 @@
-龟速乘只要把称号改为加号就好，一般用于大整数乘法，避免写高精度乘法
-```
+# 龟速乘只要把称号改为加号就好，一般用于大整数乘法，避免写高精度乘法
+# ```
 class Solution:
     def myPow(self, x: float, n: int) -> float:
         res = 1
@@ -19,4 +19,4 @@ class Solution:
         else:
             return res
 
-```
+# ```

@@ -1,4 +1,4 @@
-```js
+// ```js
 /**
  * @param {number[]} A
  * @return {number}
@@ -12,4 +12,4 @@ var peakIndexInMountainArray = function(A) {
 // 需将得到的循环语句中的i值加上1
   return n+1
 };
-```
+// ```

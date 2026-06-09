@@ -1,12 +1,12 @@
-思路：
-1. 将队列按前面的人数k分组并排序。
-2. 创建新数组，按照k从小到大，h从高到低的顺序遍历各个分组，确定重新排序后的位置并插入队列。
+// 思路：
+// 1. 将队列按前面的人数k分组并排序。
+// 2. 创建新数组，按照k从小到大，h从高到低的顺序遍历各个分组，确定重新排序后的位置并插入队列。
 
-```
+// ```
 //执行用时 :64 ms, 在所有 Go 提交中击败了64.00%的用户
 //内存消耗 :8 MB, 在所有 Go 提交中击败了100.00%的用户
-```
-```Go []
+// ```
+// ```Go []
 func reconstructQueue(people [][]int) [][]int {
 	if len(people) <= 1 {
 		return people
@@ -60,5 +60,5 @@ func reconstructQueue(people [][]int) [][]int {
 	}
 	return rcq
 }
-```
-[LeetCodeByGo: 更多LeetCode题库Go语言题解](https://github.com/mrandmrsbenben/LeetCodeByGo)
+// ```
+// [LeetCodeByGo: 更多LeetCode题库Go语言题解](https://github.com/mrandmrsbenben/LeetCodeByGo)

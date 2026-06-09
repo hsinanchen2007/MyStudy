@@ -1,10 +1,10 @@
-### 解题思路
-看了官方题解写的代码。
-重点已经在注释中，拿几个例子分析下就明白啦。
+// ### 解题思路
+// 看了官方题解写的代码。
+// 重点已经在注释中，拿几个例子分析下就明白啦。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String gcdOfStrings(String str1, String str2) {
         // 如果str1和str2调整顺序拼接之后的字符串相同，则一定存在“最大公约数”子串
@@ -27,4 +27,4 @@ class Solution {
         return b == 0 ? a : gcd(b, a%b);
     }
 }
-```
+// ```

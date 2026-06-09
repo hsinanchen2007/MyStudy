@@ -1,4 +1,4 @@
-```java
+// ```java
 class MyLinkedList {
     class DoubleListNode {
         int val;
@@ -88,4 +88,4 @@ class MyLinkedList {
  * obj.deleteAtIndex(index);
  */
 
-```
+// ```

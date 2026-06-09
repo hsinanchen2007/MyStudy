@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     char blackChar = 'B';
@@ -45,4 +45,4 @@ public:
         return resultNum;
     }
 };
-```
+// ```

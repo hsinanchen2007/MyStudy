@@ -1,10 +1,10 @@
-### 解题思路
-![2019-12-31_200810.png](https://pic.leetcode-cn.com/1a09735047029d1ce399a9ac172b87e967bb7654b95e865e6dab989f949ccc99-2019-12-31_200810.png)
-此处撰写解题思路
-**先深拷贝next指针，接着深拷贝random指针。**
-### 代码
+// ### 解题思路
+// ![2019-12-31_200810.png](https://pic.leetcode-cn.com/1a09735047029d1ce399a9ac172b87e967bb7654b95e865e6dab989f949ccc99-2019-12-31_200810.png)
+// 此处撰写解题思路
+// **先深拷贝next指针，接着深拷贝random指针。**
+// ### 代码
 
-```cpp
+// ```cpp
 /*
 // Definition for a Node.
 class Node {
@@ -58,4 +58,4 @@ public:
         return t;
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
 
-```
+# ```
 class Solution:
     def minimumAbsDifference(self, arr: List[int]) -> List[List[int]]:
         if not arr:
@@ -20,4 +20,4 @@ class Solution:
             else:
                 continue
         return res
-```
+# ```

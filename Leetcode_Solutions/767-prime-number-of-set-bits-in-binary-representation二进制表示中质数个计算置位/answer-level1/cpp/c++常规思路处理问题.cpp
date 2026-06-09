@@ -1,10 +1,10 @@
-### 解题思路
-循环R-L，每次循环内统计二进制时1的个数，然后判断是否质数。
-![image.png](https://pic.leetcode-cn.com/43bc26a5d431f3afcd345e1a3269a955b2d1bfa4a851a0fa60d7e0dd882c08f3-image.png)
+// ### 解题思路
+// 循环R-L，每次循环内统计二进制时1的个数，然后判断是否质数。
+// ![image.png](https://pic.leetcode-cn.com/43bc26a5d431f3afcd345e1a3269a955b2d1bfa4a851a0fa60d7e0dd882c08f3-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool iszhishu(int n)
@@ -33,4 +33,4 @@ public:
         return count;
     }
 };
-```
+// ```

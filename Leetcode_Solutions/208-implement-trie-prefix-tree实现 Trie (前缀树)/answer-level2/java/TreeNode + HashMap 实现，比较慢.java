@@ -1,17 +1,17 @@
-执行结果：
-通过
-显示详情
-执行用时 :
-208 ms
-, 在所有 Java 提交中击败了
-23.58%
-的用户
-内存消耗 :
-88.5 MB
-, 在所有 Java 提交中击败了
-6.55%
-的用户
-```
+// 执行结果：
+// 通过
+// 显示详情
+// 执行用时 :
+// 208 ms
+// , 在所有 Java 提交中击败了
+// 23.58%
+// 的用户
+// 内存消耗 :
+// 88.5 MB
+// , 在所有 Java 提交中击败了
+// 6.55%
+// 的用户
+// ```
 class Trie {
     class TreeNode{
         char val;
@@ -84,4 +84,4 @@ class Trie {
  * boolean param_2 = obj.search(word);
  * boolean param_3 = obj.startsWith(prefix);
  */
-```
+// ```

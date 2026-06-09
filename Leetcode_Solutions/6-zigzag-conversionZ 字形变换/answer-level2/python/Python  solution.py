@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution(object):
     def convert(self, s, numRows):
         """
@@ -18,6 +18,6 @@ class Solution(object):
             res[step].append(ch)
         res = map(lambda x: "".join(x), res)
         return "".join(res)
-```       
+# ```       
             
         

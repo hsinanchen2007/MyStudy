@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def rob(self, nums):
         len_nums=len(nums)
@@ -18,4 +18,4 @@ class Solution(object):
             ans[i]=max(nums[i]+ans[i-2],ans[i-1])
         return ans[len_nums-1]
         
-```
+# ```

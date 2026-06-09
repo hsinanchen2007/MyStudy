@@ -1,9 +1,9 @@
-### 解题思路
-回溯法在这里显得有点臃肿了，动态规划会清爽不少，效率也更好。
+// ### 解题思路
+// 回溯法在这里显得有点臃肿了，动态规划会清爽不少，效率也更好。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool wordBreak(string s, vector<string>& wordDict) {
@@ -33,4 +33,4 @@ public:
         return ans[ans.size()-1];
     }
 };
-```
+// ```

@@ -1,13 +1,13 @@
-### 解题思路
-矩阵旋转的替换规则：
-a[i][j]->a[j][n - i - 1]-> a[n - i -1][n - j - 1]->a[n - j - 1][i]->a[i][j]
-![matrix_rotation.jpg](https://pic.leetcode-cn.com/9fdb3fe8ae71275dcd6051235599b54aafe7d4dc7ef4f21a700055da2728cf8e-matrix_rotation.jpg)
+// ### 解题思路
+// 矩阵旋转的替换规则：
+// a[i][j]->a[j][n - i - 1]-> a[n - i -1][n - j - 1]->a[n - j - 1][i]->a[i][j]
+// ![matrix_rotation.jpg](https://pic.leetcode-cn.com/9fdb3fe8ae71275dcd6051235599b54aafe7d4dc7ef4f21a700055da2728cf8e-matrix_rotation.jpg)
 
-此处撰写解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     //row i -> col n - i - 1
@@ -38,4 +38,4 @@ public:
         }
     }
 };
-```
+// ```

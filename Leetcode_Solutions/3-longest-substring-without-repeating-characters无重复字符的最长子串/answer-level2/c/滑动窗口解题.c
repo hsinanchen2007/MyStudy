@@ -1,18 +1,18 @@
-### 解题思路
-left标志窗口左端，right标志窗口右端，i,j控制左右窗口移动，分以下情况
+// ### 解题思路
+// left标志窗口左端，right标志窗口右端，i,j控制左右窗口移动，分以下情况
 
-s[i]!=s[j]时，判断i与j之间的元素与j是否相等，
+// s[i]!=s[j]时，判断i与j之间的元素与j是否相等，
 
-设s[k]==s[j],left=k+1,right=j+1;
-s[k]!=s[j],k++
+// 设s[k]==s[j],left=k+1,right=j+1;
+// s[k]!=s[j],k++
 
-s[i]==s[j]时，left左移，right不变
-i++
+// s[i]==s[j]时，left左移，right不变
+// i++
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int lengthOfLongestSubstring(char * s){
     //滑动窗口
     int left,right,n=1,max=1,i=0,j=1,k;
@@ -61,4 +61,4 @@ int lengthOfLongestSubstring(char * s){
     return max;
 
 }
-```
+// ```

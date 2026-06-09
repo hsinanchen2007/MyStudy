@@ -1,9 +1,9 @@
-### 解题思路
-第一次接触灰度算法，学习阶段，感谢作者 **jawhiow**
+# ### 解题思路
+# 第一次接触灰度算法，学习阶段，感谢作者 **jawhiow**
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     #初始化变量
     def __init__(self):
@@ -87,4 +87,4 @@ class Solution(object):
          
 
 
-```
+# ```

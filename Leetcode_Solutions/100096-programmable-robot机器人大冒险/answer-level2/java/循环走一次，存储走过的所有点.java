@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean robot(String command, int[][] obstacles, int dx, int dy) {
         int x = 0, y = 0;
@@ -25,4 +25,4 @@ class Solution {
         return new int[] {dx - min*x, dy-min*y};
     }
 }
-```
+// ```

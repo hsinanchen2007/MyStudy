@@ -1,8 +1,8 @@
-#####  方法1：DP+DFS
+# #####  方法1：DP+DFS
 
 
-- `dfs`中：
-```
+# - `dfs`中：
+# ```
  for (int i = 0; i < end; i++) {
             if (dp[i]) {
                 String sub = s.substring(i, end);
@@ -13,14 +13,14 @@
                 }
             }
         }
-```
+# ```
 
-其中`dp[i]`是`True`时才有效，如果`dp[i]`为`False`，说明以`s[i-1]`结尾的字符串，其不能分割成多个子字符串，这些子字符串在`wordDict`中找到
-- 如果`s[0...i-1]`可以拆分，而`s[i...end]`又在`wordDict`中找得到，可以进下一层
-- 退出条件：当`end`位置到达`0`位置，也就是到达字符`s`的开头位置
+# 其中`dp[i]`是`True`时才有效，如果`dp[i]`为`False`，说明以`s[i-1]`结尾的字符串，其不能分割成多个子字符串，这些子字符串在`wordDict`中找到
+# - 如果`s[0...i-1]`可以拆分，而`s[i...end]`又在`wordDict`中找得到，可以进下一层
+# - 退出条件：当`end`位置到达`0`位置，也就是到达字符`s`的开头位置
 
 
-```java []
+# ```java []
 public List<String> wordBreak(String s, List<String> wordDict) {
         int n = s.length();
         boolean[] dp = new boolean[n + 1];
@@ -76,8 +76,8 @@ public List<String> wordBreak(String s, List<String> wordDict) {
             }
         }
     }
-```
-```python []
+# ```
+# ```python []
 print('Hello world!')
-```
+# ```
 

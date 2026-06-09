@@ -1,5 +1,5 @@
-四种线的代码大体相同。CV大法
-```
+// 四种线的代码大体相同。CV大法
+// ```
 class Solution {
 public:
     int longestLine(vector<vector<int>>& M) {
@@ -117,4 +117,4 @@ private:
 	}
 	
 };
-```
+// ```

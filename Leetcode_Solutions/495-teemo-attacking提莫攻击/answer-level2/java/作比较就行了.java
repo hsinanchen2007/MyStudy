@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/1ac946e956ef7f0ff4e8e5c9774803d56668142748856c22528c6444cc40968a-image.png)
+// ![image.png](https://pic.leetcode-cn.com/1ac946e956ef7f0ff4e8e5c9774803d56668142748856c22528c6444cc40968a-image.png)
 
-```
+// ```
 class Solution {
     public int findPoisonedDuration(int[] timeSeries, int duration) {
         int answer, i;
@@ -18,4 +18,4 @@ class Solution {
         return answer;
     }   
 }
-```
+// ```

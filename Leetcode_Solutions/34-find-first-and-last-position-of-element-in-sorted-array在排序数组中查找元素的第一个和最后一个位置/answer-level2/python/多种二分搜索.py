@@ -1,38 +1,38 @@
-## 思路：
+# ## 思路：
 
-**思路 1：** 手动二分法!
+# **思路 1：** 手动二分法!
 
-这里提供两种方法，一种容易理解，一种万能公式！
+# 这里提供两种方法，一种容易理解，一种万能公式！
 
-版本1：是指在二分法进行时，就判读是否有等于 `target` 的，但是找到的 `target` 不知道是最左边的数还是最右边的数。所以，通过找到这个数再找出相应的边界值。(最差情况复杂度为 $O(n)$)
+# 版本1：是指在二分法进行时，就判读是否有等于 `target` 的，但是找到的 `target` 不知道是最左边的数还是最右边的数。所以，通过找到这个数再找出相应的边界值。(最差情况复杂度为 $O(n)$)
 
-版本2：是指二分法执行完毕，返回 `target` 在最左边的位置，再用二分法求另一个边界！时间复杂度为：$O(logn)$
+# 版本2：是指二分法执行完毕，返回 `target` 在最左边的位置，再用二分法求另一个边界！时间复杂度为：$O(logn)$
 
-小技巧：
+# 小技巧：
 
-`left < right`, 执行完毕输出
+# `left < right`, 执行完毕输出
 
-`left <= right`, 执行中判断输出
+# `left <= right`, 执行中判断输出
 
-**思路 2：** 库函数
+# **思路 2：** 库函数
 
-Python 的 [bisect 库](https://docs.python.org/3/library/bisect.html) 
+# Python 的 [bisect 库](https://docs.python.org/3/library/bisect.html) 
 
-简要介绍一下，`bisect.bisect_left(a,x,lo=0,hi=len(a))` 在 `a` 中找 `x` 最左边数的索引，如果找不到就返回插入的索引。
+# 简要介绍一下，`bisect.bisect_left(a,x,lo=0,hi=len(a))` 在 `a` 中找 `x` 最左边数的索引，如果找不到就返回插入的索引。
 
-`bisect.bisect(a, x, lo=0, hi=len(a))` 找最右边的！
+# `bisect.bisect(a, x, lo=0, hi=len(a))` 找最右边的！
 
-**思路 3：** 分而治之
+# **思路 3：** 分而治之
 
-当然上面的时间复杂度都是：$O(logn)$
+# 当然上面的时间复杂度都是：$O(logn)$
 
-## 代码：
+# ## 代码：
 
-### 思路 1：
+# ### 思路 1：
 
-版本 1
+# 版本 1
 
-```Python []
+# ```Python []
 class Solution:
     def searchRange(self, nums: List[int], target: int) -> List[int]:
         if not nums:
@@ -58,8 +58,8 @@ class Solution:
             else:
                 right = mid - 1
         return res
-```
-```Java []
+# ```
+# ```Java []
 class Solution {
     public int[] searchRange(int[] nums, int target) {
         int[] res = {-1, -1};
@@ -85,13 +85,13 @@ class Solution {
         
     }
 }
-```
+# ```
 
-### 思路 1：
+# ### 思路 1：
 
-版本 2
+# 版本 2
 
-```Python []
+# ```Python []
 class Solution:
     def searchRange(self, nums: List[int], target: int) -> List[int]:
         if not nums:
@@ -121,6 +121,6 @@ class Solution:
                 right = mid 
         res[1] = left - 1
         return res
-```
+# ```
 
-对库函数使用，大家自行操作的！很简单。
+# 对库函数使用，大家自行操作的！很简单。

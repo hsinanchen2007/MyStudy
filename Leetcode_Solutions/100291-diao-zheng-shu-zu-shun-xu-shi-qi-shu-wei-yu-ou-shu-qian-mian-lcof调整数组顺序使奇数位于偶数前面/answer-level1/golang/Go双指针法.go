@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func exchange(nums []int) []int {
     if len(nums)<2{
         return nums
@@ -32,4 +32,4 @@ func exchange(nums []int) []int {
     }
     return nums
 }
-```
+// ```

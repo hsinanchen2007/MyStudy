@@ -1,4 +1,4 @@
-```
+# ```
 import sys
 count= input('输入一个数字：').strip()
 while len(str(count))>1:

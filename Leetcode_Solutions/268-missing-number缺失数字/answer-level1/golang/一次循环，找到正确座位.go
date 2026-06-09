@@ -1,8 +1,8 @@
-### 解题思路
-一次循环让除了n之外的数字都回到正确位置，最后n在哪就缺哪个数字
-### 代码
+// ### 解题思路
+// 一次循环让除了n之外的数字都回到正确位置，最后n在哪就缺哪个数字
+// ### 代码
 
-```golang
+// ```golang
 func missingNumber(nums []int) int {
     // 一次循环让除了n之外的数字都回到正确位置，最后n在哪就缺哪个数字
     n := len(nums)
@@ -22,4 +22,4 @@ func missingNumber(nums []int) int {
     }
     return idx
 }
-```
+// ```

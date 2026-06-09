@@ -1,13 +1,13 @@
-### 解题思路
-类比数组前n项和。
-由于相同两个数异或等于0，而0与任何数异或又等于该数本身
-所以区间[l, r]之间的异或结果XOR[l, r]也就等于区间[0, r]之间的异或结果XOR[0, r]再与区间[0, l-1]之间的异或结果XOR[0, l-1]再进行异或。公式如下：
+// ### 解题思路
+// 类比数组前n项和。
+// 由于相同两个数异或等于0，而0与任何数异或又等于该数本身
+// 所以区间[l, r]之间的异或结果XOR[l, r]也就等于区间[0, r]之间的异或结果XOR[0, r]再与区间[0, l-1]之间的异或结果XOR[0, l-1]再进行异或。公式如下：
 
-`XOR[l, r] = XOR[0, r] ^ XOR[0, l-1]`
+// `XOR[l, r] = XOR[0, r] ^ XOR[0, l-1]`
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] xorQueries(int[] arr, int[][] queries) {
         int[] xor = new int[arr.length+1];
@@ -23,4 +23,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-排序,然后遍历
+# ### 解题思路
+# 排序,然后遍历
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def merge(self, lst: List[List[int]]) -> List[List[int]]:
         lst.sort(key=lambda x:x[0])
@@ -29,4 +29,4 @@ class Solution:
             j+=1
         ans.append(templst)
         return ans
-```
+# ```

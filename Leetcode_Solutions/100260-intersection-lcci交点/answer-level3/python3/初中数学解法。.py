@@ -1,9 +1,9 @@
-### 解题思路
-初中数学解法。求y=kx+b,最后有个坑，float有误差要特别处理一下。
+# ### 解题思路
+# 初中数学解法。求y=kx+b,最后有个坑，float有误差要特别处理一下。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def intersection(self, start1: List[int], end1: List[int], start2: List[int], end2: List[int]) -> List[float]:
         res = []
@@ -60,4 +60,4 @@ def between(val, val_range):
     if abs(start - val) <= epsilon or abs(end - val) <= epsilon:
         return True
     return start <= val <= end
-```
+# ```

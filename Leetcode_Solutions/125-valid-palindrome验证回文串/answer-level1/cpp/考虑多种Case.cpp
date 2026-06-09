@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-如果以'0'或'a'作为base比较offset，则无法区分字母和数字; 好在可以直接把 char字符作为 int 类型比较，只要做大小写转换即可。
+// 如果以'0'或'a'作为base比较offset，则无法区分字母和数字; 好在可以直接把 char字符作为 int 类型比较，只要做大小写转换即可。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isPalindrome(string s) {
@@ -55,4 +55,4 @@ public:
         return -1;
     }
 };
-```
+// ```

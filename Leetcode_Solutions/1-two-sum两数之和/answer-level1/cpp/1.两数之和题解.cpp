@@ -1,9 +1,9 @@
-### 解题思路
-我最开始的想法是暴力，就是一个n平方的复杂度；现在要学会利用hash ：c++ unordered_map
+// ### 解题思路
+// 我最开始的想法是暴力，就是一个n平方的复杂度；现在要学会利用hash ：c++ unordered_map
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
@@ -28,4 +28,4 @@ public:
        return ans;
     }
 };
-```
+// ```

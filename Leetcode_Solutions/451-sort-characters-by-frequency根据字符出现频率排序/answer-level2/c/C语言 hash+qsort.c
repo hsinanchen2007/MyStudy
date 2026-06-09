@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/32adbe8f005dbff09edd508dc7b40d7fbaa2901dd6441969e61283e11cc5cfe1-image.png)
+// ![image.png](https://pic.leetcode-cn.com/32adbe8f005dbff09edd508dc7b40d7fbaa2901dd6441969e61283e11cc5cfe1-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MY_TABLE_SIZE 128
 typedef struct {
     char ch;
@@ -63,4 +63,4 @@ char * frequencySort(char * s){
     proc(chs, s);
     return rlt(chs, s);
 }
-```
+// ```

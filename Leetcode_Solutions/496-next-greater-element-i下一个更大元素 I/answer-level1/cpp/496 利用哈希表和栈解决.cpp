@@ -1,16 +1,16 @@
-### 解题思路
-利用哈希表和栈
-1，遍历nums2，构建单调栈，如果元素有下一个最大元素，将其录入哈希表中；
-2，根据哈希表，输出nums1的下一个更大元素，如果没有就输出-1。
-### 头文件
-```
+// ### 解题思路
+// 利用哈希表和栈
+// 1，遍历nums2，构建单调栈，如果元素有下一个最大元素，将其录入哈希表中；
+// 2，根据哈希表，输出nums1的下一个更大元素，如果没有就输出-1。
+// ### 头文件
+// ```
 #include <vector>
 #include <stack>
 #include <map>
-```
-### 代码
+// ```
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> nextGreaterElement(vector<int>& nums1, vector<int>& nums2) {
@@ -51,4 +51,4 @@ public:
         return ans;
     }
 };
-```
+// ```

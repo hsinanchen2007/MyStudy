@@ -1,9 +1,9 @@
-### 解题思路
-先对数组进行排序，然后在寻找重复的数字
+// ### 解题思路
+// 先对数组进行排序，然后在寻找重复的数字
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findRepeatNumber(vector<int>& nums) {
@@ -16,4 +16,4 @@ public:
         return -1;
     }
 };
-```
+// ```

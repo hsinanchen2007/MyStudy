@@ -1,5 +1,5 @@
-KMP算法比较逆序串后缀和正序串前缀最大重合子串
-```python []
+# KMP算法比较逆序串后缀和正序串前缀最大重合子串
+# ```python []
 class Solution:
     def shortestPalindrome(self, s: str) -> str:
         n = len(s)
@@ -22,5 +22,5 @@ class Solution:
             if s_new[i] == s_new[t]: t += 1
             f[i] = t
         return s[::-1][0 :  n - f[n_new - 1]] + s
-```
+# ```
 

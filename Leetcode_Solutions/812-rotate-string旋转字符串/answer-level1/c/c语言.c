@@ -1,9 +1,9 @@
-### 解题思路
-c语言
+// ### 解题思路
+// c语言
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool rotateString(char * A, char * B){
     int aLen =  strlen(A);
     int bLen = strlen(B);
@@ -21,4 +21,4 @@ bool rotateString(char * A, char * B){
     }
     return false;
 }
-```
+// ```

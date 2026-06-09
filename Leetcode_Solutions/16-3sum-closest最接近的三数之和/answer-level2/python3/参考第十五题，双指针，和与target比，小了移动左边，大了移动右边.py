@@ -1,4 +1,4 @@
-```
+# ```
         res=nums[0]+nums[1]+nums[2]
         min=abs(target-nums[0]-nums[1]-nums[2])
         list01=nums
@@ -26,4 +26,4 @@
                     res=t
         return res
 
-```
+# ```

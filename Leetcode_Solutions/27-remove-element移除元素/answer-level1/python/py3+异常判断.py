@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def removeElement(self, nums: List[int], val: int) -> int:
         try:
@@ -8,4 +8,4 @@ class Solution:
                 nums.remove(val)
         except ValueError:
             return len(nums)
-```
+# ```

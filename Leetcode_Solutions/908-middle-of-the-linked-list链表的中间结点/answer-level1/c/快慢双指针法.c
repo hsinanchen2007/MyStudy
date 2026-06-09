@@ -1,8 +1,8 @@
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -20,4 +20,4 @@ struct ListNode* middleNode(struct ListNode* head){
       }
       return slow;
 }
-```
+// ```

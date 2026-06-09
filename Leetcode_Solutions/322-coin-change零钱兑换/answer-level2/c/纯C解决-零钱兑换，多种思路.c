@@ -1,15 +1,15 @@
-### 解题思路
-先说一下基本思路。
+// ### 解题思路
+// 先说一下基本思路。
 
-举个例子，假设我们有[1,2,5],我们需要支付的为N元
+// 举个例子，假设我们有[1,2,5],我们需要支付的为N元
 
-那么就一定N-1、N-2、N-5其中一种我们能够凑得齐，并且取凑得其中金额所需的最少张数。
+// 那么就一定N-1、N-2、N-5其中一种我们能够凑得齐，并且取凑得其中金额所需的最少张数。
 
-这里给出动态规划的推导，dp[i]=min(dp[i-1]、dp[i-2]、dp[i-5])+1
-当然其中i-1,i-2,i-5都是有效下标即可
+// 这里给出动态规划的推导，dp[i]=min(dp[i-1]、dp[i-2]、dp[i-5])+1
+// 当然其中i-1,i-2,i-5都是有效下标即可
 
-### 代码
-```
+// ### 代码
+// ```
 //递归，时间超出
 int coinChange(int* coins, int coinsSize, int amount){
     int i;
@@ -64,10 +64,10 @@ int coinChange(int* coins, int coinsSize, int amount){
     return -1;
 }
 
-```
+// ```
 
 
-```c
+// ```c
 //动态规划
 
 int coinChange(int* coins, int coinsSize, int amount){
@@ -95,4 +95,4 @@ int coinChange(int* coins, int coinsSize, int amount){
 }
 
 
-```
+// ```

@@ -1,10 +1,10 @@
-golang解法　１．迭代；　２．递归
+// golang解法　１．迭代；　２．递归
 
-github: [https://github.com/Crownt/leetcode](https://github.com/Crownt/leetcode)
+// github: [https://github.com/Crownt/leetcode](https://github.com/Crownt/leetcode)
 
-1.迭代
+// 1.迭代
 
-```vim
+// ```vim
 func reverseList(head *ListNode) *ListNode {
 
 	 var pre *ListNode
@@ -19,10 +19,10 @@ func reverseList(head *ListNode) *ListNode {
 
 	 return pre
 }
-```
-２．递归
+// ```
+// ２．递归
 
-```go
+// ```go
 // 递归法,假设当前节点的子节点下的节点已经完成反转，需反转当前节点与当前节点的子节点
 // 时间复杂度：O(n)  空间复杂度：O(n)
 
@@ -46,4 +46,4 @@ func reverseList(head *ListNode) *ListNode {
 	
 	return p
 }
-```
+// ```

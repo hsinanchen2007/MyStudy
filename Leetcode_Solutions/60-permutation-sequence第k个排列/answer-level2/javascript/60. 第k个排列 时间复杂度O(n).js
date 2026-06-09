@@ -1,10 +1,10 @@
-## 思路
+// ## 思路
 
-题干中说按大小顺序排序，可以找到规律，所有排列情况由*n*个子集组成（每个子集首数字相同），每个子集有*n!*个元素，可以推算出第*k*个元素可以简要表达为
+// 题干中说按大小顺序排序，可以找到规律，所有排列情况由*n*个子集组成（每个子集首数字相同），每个子集有*n!*个元素，可以推算出第*k*个元素可以简要表达为
 
-`getPermutation(n, k) = n + getPermutation(n - 1, k % n!);`
+// `getPermutation(n, k) = n + getPermutation(n - 1, k % n!);`
 
-```javascript []
+// ```javascript []
 var getPermutation = function(n, k) {
   // 出现的所有数字，之后从中取值
   const nums = [...Array(n)].map((vo, i) => i + 1);
@@ -30,7 +30,7 @@ function factorial(n) {
   }
   return factorial(n - 1) * n;
 }
-```
+// ```
 
-- 空间复杂度*O(n)*
-- 时间复杂度*O(n)*
+// - 空间复杂度*O(n)*
+// - 时间复杂度*O(n)*

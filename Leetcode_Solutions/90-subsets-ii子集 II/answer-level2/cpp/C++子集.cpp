@@ -1,12 +1,12 @@
-主要思路和子集那题一样，就是要去重
-**选的情况**：pos == 0 || nums[pos-1] != nums[pos] || visted[pos-1]
-1.位置是第一个
-2.前一个不等于当前
-3.前一个数字必定选   
-三个条件必定满足一个
-**没选的情况**：继续递归
+// 主要思路和子集那题一样，就是要去重
+// **选的情况**：pos == 0 || nums[pos-1] != nums[pos] || visted[pos-1]
+// 1.位置是第一个
+// 2.前一个不等于当前
+// 3.前一个数字必定选   
+// 三个条件必定满足一个
+// **没选的情况**：继续递归
 
-```
+// ```
 class Solution {
 public:
     void dfs(vector<int>& nums, vector<vector<int>>& result, vector<int>& list, vector<int>& visted, int pos) {
@@ -33,4 +33,4 @@ public:
         return result;
     }
 };
-```
+// ```

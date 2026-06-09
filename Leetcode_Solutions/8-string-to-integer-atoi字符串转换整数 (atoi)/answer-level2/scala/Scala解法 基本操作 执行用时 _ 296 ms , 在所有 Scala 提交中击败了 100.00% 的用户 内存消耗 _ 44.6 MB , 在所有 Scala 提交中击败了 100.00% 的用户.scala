@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
     def myAtoi(str: String): Int = {
         var res = 0L
@@ -39,4 +39,4 @@ object Solution {
         0
     }
 }
-```
+// ```

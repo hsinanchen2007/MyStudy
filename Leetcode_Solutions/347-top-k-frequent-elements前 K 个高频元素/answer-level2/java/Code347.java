@@ -1,13 +1,13 @@
-### 解题思路
-1、Map记录arr中所有元素和元素的频次；
-2、自定义一个优先队列，比较的依据是Map.Entry中的value，也就是频次；
-3、循环k次，把map中前k个元素加入队列，并将这些元素删除，此时queue中是一个最小二叉堆，根节点为最小的节点；
-4、map中剩下的元素继续遍历，如果比当前queue的头节点大，则替换；
-5、最后，因为queue是最小二叉树，所以根据题目要求，倒序放入数组并转成list返回。
+// ### 解题思路
+// 1、Map记录arr中所有元素和元素的频次；
+// 2、自定义一个优先队列，比较的依据是Map.Entry中的value，也就是频次；
+// 3、循环k次，把map中前k个元素加入队列，并将这些元素删除，此时queue中是一个最小二叉堆，根节点为最小的节点；
+// 4、map中剩下的元素继续遍历，如果比当前queue的头节点大，则替换；
+// 5、最后，因为queue是最小二叉树，所以根据题目要求，倒序放入数组并转成list返回。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> topKFrequent(int[] nums, int k) {
         Map<Integer, Integer> map = new TreeMap<>();
@@ -67,4 +67,4 @@ class Solution {
         return Arrays.asList(arr);
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-1. 考虑各种情况
-```
+// 1. 考虑各种情况
+// ```
 import java.util.*;
 
 class Solution {
@@ -81,6 +81,6 @@ class Solution {
         return result;
     }
 }
-```
-2. 自动机
-3. 
+// ```
+// 2. 自动机
+// 3. 

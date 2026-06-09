@@ -1,11 +1,11 @@
-### 解题思路
-1. 计算每个数字的因数
-2. 因数数量不等4时直接return 0
-3. 将所有因数相加计算结果相加得到答案
+// ### 解题思路
+// 1. 计算每个数字的因数
+// 2. 因数数量不等4时直接return 0
+// 3. 将所有因数相加计算结果相加得到答案
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var sumFourDivisors = function(nums) {
     function get4Factors(n) {
       let left = 1, right = n;
@@ -28,4 +28,4 @@ var sumFourDivisors = function(nums) {
     }
     return res;
   };
-```
+// ```

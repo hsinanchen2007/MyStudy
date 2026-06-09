@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def rotate(self, matrix: List[List[int]]) -> None:
         """
@@ -16,4 +16,4 @@ class Solution:
               for j in range(n):
                   newmatrix[j][n-i-1]=matrix[i][j]
         matrix[:]=newmatrix
-```
+# ```

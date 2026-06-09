@@ -1,9 +1,9 @@
-- 状态：通过
-- 执行用时：24 ms
-- 内存消耗：14.8 MB
-- 语言：php
+// - 状态：通过
+// - 执行用时：24 ms
+// - 内存消耗：14.8 MB
+// - 语言：php
 
-```
+// ```
 
 /**
  * Definition for a singly-linked list.
@@ -51,4 +51,4 @@ class Solution {
     }
 }
 
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-1. 将当前的str排序后的结果作为map的key，假如该map中含有key，则将单词假如对应key的value-1下标的vector中
-2. 否则在map中初始化该key对应的value，然后将该单词加入
+// ### 解题思路
+// 1. 将当前的str排序后的结果作为map的key，假如该map中含有key，则将单词假如对应key的value-1下标的vector中
+// 2. 否则在map中初始化该key对应的value，然后将该单词加入
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     map<string,int> mp;
@@ -26,4 +26,4 @@ public:
         return result;
     }
 };
-```
+// ```

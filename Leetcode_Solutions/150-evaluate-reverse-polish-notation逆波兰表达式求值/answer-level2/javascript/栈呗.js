@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/1e9c9513227db9818cad478f07d8a73aab78ce9cb9e1bd55ab31f3b0dad99b33-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/1e9c9513227db9818cad478f07d8a73aab78ce9cb9e1bd55ab31f3b0dad99b33-image.png)
 
-就除法的时候要考虑下取整。
+// 就除法的时候要考虑下取整。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} tokens
  * @return {number}
@@ -35,4 +35,4 @@ var evalRPN = function(tokens) {
     });
     return st[0];
 };
-```
+// ```

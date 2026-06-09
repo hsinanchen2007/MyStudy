@@ -1,8 +1,8 @@
-解一：
+// 解一：
 
-> 用数组保存元素，同时记录当前最小值。不足在于当`pop()`的元素恰好为最小值时要重新`Math.min()`一遍。
+// > 用数组保存元素，同时记录当前最小值。不足在于当`pop()`的元素恰好为最小值时要重新`Math.min()`一遍。
 
-```js
+// ```js
 var MinStack = function () {
     this.items = [];
     this.min = Infinity;
@@ -31,13 +31,13 @@ MinStack.prototype.top = function () {
 MinStack.prototype.getMin = function () {
     return this.min;
 };
-```
+// ```
 
-解二：
+// 解二：
 
-> 双栈，空间换时间，每次`push`保存新的值和新的最小值。类似于Time Machine记录还原点一样。
+// > 双栈，空间换时间，每次`push`保存新的值和新的最小值。类似于Time Machine记录还原点一样。
 
-```js
+// ```js
 var MinStack = function () {
     this.items = [];
     this.minStack = [];
@@ -69,4 +69,4 @@ MinStack.prototype.getMin = function () {
     if(!this.count) return undefined;
     return this.minStack[this.count-1];
 };
-```
+// ```

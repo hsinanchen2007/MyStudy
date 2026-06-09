@@ -1,8 +1,8 @@
-### 解题思路
-通计每个字母出现的次数，出现奇数次的字母不能超过k;
-### 代码
+// ### 解题思路
+// 通计每个字母出现的次数，出现奇数次的字母不能超过k;
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool canConstruct(string s, int k) {
@@ -24,4 +24,4 @@ public:
         return true;
     }
 };
-```
+// ```

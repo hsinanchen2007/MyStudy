@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 //(r1, c1) (r2, c2)满足对角线的特点 r1 - c1 == r2 - c2
 bool isToeplitzMatrix(int** matrix, int matrixSize, int* matrixColSize){
     if (matrixSize == 0) {
@@ -35,4 +35,4 @@ bool isToeplitzMatrix(int** matrix, int matrixSize, int* matrixColSize){
     }
     return true;
 }
-```
+// ```

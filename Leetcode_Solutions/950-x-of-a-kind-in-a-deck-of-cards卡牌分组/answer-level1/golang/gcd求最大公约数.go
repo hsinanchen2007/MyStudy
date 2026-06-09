@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func hasGroupsSizeX(deck []int) bool {
 	numsMap:=make(map[int]int)
 	for _,v:=range deck{
@@ -46,4 +46,4 @@ func hasGroupsSizeX(deck []int) bool {
 }
 
 
-```
+// ```

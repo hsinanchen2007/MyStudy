@@ -1,8 +1,8 @@
-### 解题思路
-代码就跟思路一样直
-### 代码
+// ### 解题思路
+// 代码就跟思路一样直
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] shortestToChar(String S, char C) {
        int count = 0;
@@ -32,4 +32,4 @@ class Solution {
 		return res;		
     }
 }
-```
+// ```

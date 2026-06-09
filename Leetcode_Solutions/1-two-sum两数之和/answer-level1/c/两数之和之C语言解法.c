@@ -1,8 +1,8 @@
-//1.定义一个指针指向开辟的内存空间
-//2.两次f循环寻找
+// //1.定义一个指针指向开辟的内存空间
+// //2.两次f循环寻找
 
-### 代码 C语言描述
-```c
+// ### 代码 C语言描述
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */

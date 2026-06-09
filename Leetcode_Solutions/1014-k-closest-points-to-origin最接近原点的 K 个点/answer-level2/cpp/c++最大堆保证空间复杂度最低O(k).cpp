@@ -1,7 +1,7 @@
-用最小堆需要把所有点放进堆里，最大堆只需要维护k个点就行。
-时间复杂度`O(nlogk)`，空间复杂度`O(k)`
+// 用最小堆需要把所有点放进堆里，最大堆只需要维护k个点就行。
+// 时间复杂度`O(nlogk)`，空间复杂度`O(k)`
 
-```
+// ```
 vector<vector<int>> kClosest(vector<vector<int>>& points, int K) {
         vector<vector<int>> res;
         if (points.size() == 0 || points[0].size() == 0) return res;
@@ -27,4 +27,4 @@ vector<vector<int>> kClosest(vector<vector<int>>& points, int K) {
 
         return res;
     }
-```
+// ```

@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def isBalanced(self, root: TreeNode) -> bool:
         return self.balanced(root)[0]
@@ -15,4 +15,4 @@ class Solution:
             return True, max(lh, rh) + 1
         else:
             return False, max(lh, rh) + 1
-```
+# ```

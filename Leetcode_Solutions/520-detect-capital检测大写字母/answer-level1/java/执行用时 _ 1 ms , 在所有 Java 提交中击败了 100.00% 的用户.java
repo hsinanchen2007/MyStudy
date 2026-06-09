@@ -1,9 +1,9 @@
-### 解题思路
-不完全执行循环，判断所有错误情况。
+// ### 解题思路
+// 不完全执行循环，判断所有错误情况。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 
 /**
@@ -25,4 +25,4 @@ public boolean detectCapitalUse(String word) {
     }
     return true;
 }
-```
+// ```

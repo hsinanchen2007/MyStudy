@@ -1,13 +1,13 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/9/28
- *
- * 解题思路: 因为数组的值在一定的范围内 因此可以自定义hash数组(整数)
- *
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/9/28
+//  *
+//  * 解题思路: 因为数组的值在一定的范围内 因此可以自定义hash数组(整数)
+//  *
+//  */
+// ```
 public int[] findErrorNums(int[] nums) {
 
     int res[] = new int[2];
@@ -28,4 +28,4 @@ public int[] findErrorNums(int[] nums) {
     return res;
 
 }
-```
+// ```

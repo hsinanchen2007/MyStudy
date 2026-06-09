@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func getHint(secret string, guess string) string {
     bullsNum := 0
     cowsNum := 0
@@ -28,4 +28,4 @@ func getHint(secret string, guess string) string {
     }
     return strconv.Itoa(bullsNum) + "A" + strconv.Itoa(cowsNum) + "B"
 }
-```
+// ```

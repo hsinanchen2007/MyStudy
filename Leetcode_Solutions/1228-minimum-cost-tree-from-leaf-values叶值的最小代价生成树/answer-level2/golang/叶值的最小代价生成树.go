@@ -1,9 +1,9 @@
-### 解题思路
-单调递减栈
+// ### 解题思路
+// 单调递减栈
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func min(x, y int) int {
 	if x > y {
 		return y
@@ -28,4 +28,4 @@ func mctFromLeafValues(arr []int) int {
 	}
 	return ans
 }
-```
+// ```

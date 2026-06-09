@@ -1,4 +1,4 @@
-排完序比较有无重合部分，有的话就合并，加入到list中
+// 排完序比较有无重合部分，有的话就合并，加入到list中
 
 class Solution {
     public int[][] merge(int[][] intervals) {

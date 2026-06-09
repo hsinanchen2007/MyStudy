@@ -1,9 +1,9 @@
-### 解题思路
-拆分字符串后得到单词数组，一个一个的处理
+// ### 解题思路
+// 拆分字符串后得到单词数组，一个一个的处理
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private List<Character> y=new ArrayList();
     private StringBuilder ans=new StringBuilder();
@@ -49,4 +49,4 @@ class Solution {
         }
     }
 }
-```
+// ```

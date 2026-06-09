@@ -1,9 +1,9 @@
-### 解题思路
-官方一次循环答案里用了一个for循环和一个while循环，虽然实际上只循环链表了一次，但看上去给人了一种误解。
+// ### 解题思路
+// 官方一次循环答案里用了一个for循环和一个while循环，虽然实际上只循环链表了一次，但看上去给人了一种误解。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -41,4 +41,4 @@ class Solution {
 		return null;
     }
 }
-```
+// ```

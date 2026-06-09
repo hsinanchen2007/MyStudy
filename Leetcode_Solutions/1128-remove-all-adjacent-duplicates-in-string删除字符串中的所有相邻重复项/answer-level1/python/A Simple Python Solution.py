@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def removeDuplicates(self, S):
         """
@@ -16,4 +16,4 @@ class Solution(object):
                 result+=item
 
         return result[1:]
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-往原数组后push新数组，最后删除原数组本来的子数组
+// ### 解题思路
+// 往原数组后push新数组，最后删除原数组本来的子数组
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} board
  * @return {void} Do not return anything, modify board in-place instead.
@@ -60,4 +60,4 @@ var gameOfLife = function(board) {
   // 删除数组前数组原长度个子数组
   board.splice(0, len)
 };
-```
+// ```

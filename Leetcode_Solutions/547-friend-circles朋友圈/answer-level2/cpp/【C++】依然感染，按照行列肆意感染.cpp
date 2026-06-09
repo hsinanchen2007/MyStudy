@@ -1,8 +1,8 @@
-1.BFS搜索
-2.找到一个玩朋友圈的
-3.开始横纵感染
-4.开始寻找下一个
-```
+// 1.BFS搜索
+// 2.找到一个玩朋友圈的
+// 3.开始横纵感染
+// 4.开始寻找下一个
+// ```
 class Solution {
 public:
     int findCircleNum(vector<vector<int>>& M)
@@ -72,4 +72,4 @@ private:
     set<int> visitedRow;
     set<int> visitedCol;
 };
-```
+// ```

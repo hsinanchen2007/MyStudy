@@ -1,9 +1,9 @@
-## 思路：递归
-关键在与正确定位左右子树范围。
+// ## 思路：递归
+// 关键在与正确定位左右子树范围。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
@@ -22,12 +22,12 @@ public:
         return root;
     }
 };
-```
+// ```
 
-### 另一种写法
-修改求根节点索引。
+// ### 另一种写法
+// 修改求根节点索引。
 
-```c++
+// ```c++
 class Solution {
 public:
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
@@ -47,4 +47,4 @@ public:
         return root;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-动态哈希表
+// ### 解题思路
+// 动态哈希表
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func checkIfExist(_ arr: [Int]) -> Bool {
         
@@ -27,4 +27,4 @@ class Solution {
         return false
     }
 }
-```
+// ```

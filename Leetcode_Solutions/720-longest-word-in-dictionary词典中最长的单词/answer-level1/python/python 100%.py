@@ -1,9 +1,9 @@
-### 解题思路
-第一次排序是保证字典序 第二次排序是按照长度 因为python的内建排序本身是稳定的 所以可以保证在第二次排序后的数据仍然符合第一次的字典序
+# ### 解题思路
+# 第一次排序是保证字典序 第二次排序是按照长度 因为python的内建排序本身是稳定的 所以可以保证在第二次排序后的数据仍然符合第一次的字典序
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def longestWord(self, words):
         """
@@ -24,4 +24,4 @@ class Solution(object):
                 return word
         return ""  
 
-```
+# ```

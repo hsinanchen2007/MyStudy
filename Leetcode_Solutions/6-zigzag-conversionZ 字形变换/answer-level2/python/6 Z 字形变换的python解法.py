@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/3ed91e184ccb75730ff689898e52167cc89c3e1814608d3a85b1caf69bbc451c-image.png)
+# ### 解题思路
+# ![image.png](https://pic.leetcode-cn.com/3ed91e184ccb75730ff689898e52167cc89c3e1814608d3a85b1caf69bbc451c-image.png)
 
-就用普通的字符串的思路解决就可以了。
+# 就用普通的字符串的思路解决就可以了。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def convert(self, s, numRows):
         """
@@ -39,4 +39,4 @@ class Solution(object):
         return "".join(list_num)
 
             
-```
+# ```

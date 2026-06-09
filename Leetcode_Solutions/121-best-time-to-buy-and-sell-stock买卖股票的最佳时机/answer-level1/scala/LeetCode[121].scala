@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
     def maxProfit(prices: Array[Int]): Int = {
       var minPrice = Int.MaxValue
@@ -11,4 +11,4 @@ object Solution {
       return profit
     }
 }
-```
+// ```

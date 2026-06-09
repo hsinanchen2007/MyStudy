@@ -1,9 +1,9 @@
-### 解题思路
-本题以map映射求解，首先把所有的字符串分别添加到指定map集合中去，并依次给予对应的索引，随后对字符串数组进行从大到小排序，并依次从map集合中由键找值，并把该值给到提前创建的字符串数组中作为索引，从大到小依次赋予“Gold Medal”、“Silver Medal”、“Bronze Medal”以及3、4、5...
+// ### 解题思路
+// 本题以map映射求解，首先把所有的字符串分别添加到指定map集合中去，并依次给予对应的索引，随后对字符串数组进行从大到小排序，并依次从map集合中由键找值，并把该值给到提前创建的字符串数组中作为索引，从大到小依次赋予“Gold Medal”、“Silver Medal”、“Bronze Medal”以及3、4、5...
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String[] findRelativeRanks(int[] nums) {
         if(nums.length==1) {
@@ -36,4 +36,4 @@ class Solution {
         return arr;
     }
 }
-```
+// ```

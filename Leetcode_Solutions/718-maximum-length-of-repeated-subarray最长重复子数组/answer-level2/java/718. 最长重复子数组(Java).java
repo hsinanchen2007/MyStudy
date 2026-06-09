@@ -1,9 +1,9 @@
-### 解题思路
-当A[i] == B[j],dp[i][j] = dp[i-1][j-1] + 1,
-当A[i] != B[j]时，dp[i][j] = 0,因为子数组是要连续的，一旦不匹配了，就不能再增加长度了。
-### 代码
+// ### 解题思路
+// 当A[i] == B[j],dp[i][j] = dp[i-1][j-1] + 1,
+// 当A[i] != B[j]时，dp[i][j] = 0,因为子数组是要连续的，一旦不匹配了，就不能再增加长度了。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findLength(int[] A, int[] B) {
         int result = 0;
@@ -21,6 +21,6 @@ class Solution {
         return result;
     }
 }
-```
-###
-空间和时间复杂度 O（m x n）;
+// ```
+// ###
+// 空间和时间复杂度 O（m x n）;

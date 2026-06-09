@@ -1,9 +1,9 @@
-### 解题思路
-参考《剑指offer》和[面试题59 - II. 队列的最大值](https://leetcode-cn.com/problems/dui-lie-de-zui-da-zhi-lcof/solution/mian-shi-ti-59-ii-dui-lie-de-zui-da-zhi-by-leetcod/)以及[239. 滑动窗口最大值 C++ 双端队列](https://leetcode-cn.com/problems/sliding-window-maximum/solution/239-hua-dong-chuang-kou-zui-da-zhi-c-shuang-duan-d/)
+// ### 解题思路
+// 参考《剑指offer》和[面试题59 - II. 队列的最大值](https://leetcode-cn.com/problems/dui-lie-de-zui-da-zhi-lcof/solution/mian-shi-ti-59-ii-dui-lie-de-zui-da-zhi-by-leetcod/)以及[239. 滑动窗口最大值 C++ 双端队列](https://leetcode-cn.com/problems/sliding-window-maximum/solution/239-hua-dong-chuang-kou-zui-da-zhi-c-shuang-duan-d/)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MaxQueue {
 public:
     deque<int> maxQueue;    // 队列只保存最大值
@@ -55,4 +55,4 @@ public:
  * int param_3 = obj->pop_front();
  */
 
-```
+// ```

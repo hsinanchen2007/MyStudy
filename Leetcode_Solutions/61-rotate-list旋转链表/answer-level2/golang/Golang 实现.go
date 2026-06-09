@@ -1,9 +1,9 @@
 
-- 先确认新的链表头然后进行本地修改
-- 借助哨兵结点简化操作
+// - 先确认新的链表头然后进行本地修改
+// - 借助哨兵结点简化操作
 
 
-```
+// ```
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -56,4 +56,4 @@ func rotateRight(head *ListNode, k int) *ListNode {
     return dummy.Next
     
 }
-```
+// ```

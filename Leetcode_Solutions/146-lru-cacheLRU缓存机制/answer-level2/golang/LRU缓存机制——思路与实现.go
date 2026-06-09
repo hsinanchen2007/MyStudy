@@ -1,15 +1,15 @@
 
-反复比对了题解区的一些高赞题解，认为从代码逻辑上是一致的，但代码在golang提交中的成绩却并不理想。可能的优化：
+// 反复比对了题解区的一些高赞题解，认为从代码逻辑上是一致的，但代码在golang提交中的成绩却并不理想。可能的优化：
 
-- 取消子函数调用
-- map的实现使用了通用的哈希函数（没有去查阅），运算较慢，可以针对题目都是整型数据设计专用的哈希表。这点等到做到哈希表相关的题再回来优化。
+// - 取消子函数调用
+// - map的实现使用了通用的哈希函数（没有去查阅），运算较慢，可以针对题目都是整型数据设计专用的哈希表。这点等到做到哈希表相关的题再回来优化。
 
-## 思路与实现
+// ## 思路与实现
 
-![image.png](https://pic.leetcode-cn.com/df69694fbbedc546142b179992842d173535fbbe6386393ec7f427655902f1e2-image.png)
+// ![image.png](https://pic.leetcode-cn.com/df69694fbbedc546142b179992842d173535fbbe6386393ec7f427655902f1e2-image.png)
 
 
-```go
+// ```go
 package lt146
 
 import "fmt"
@@ -188,17 +188,17 @@ func printMap(m map[int]*cacheNode) {
 	fmt.Print("\n")
 }
 
-```
+// ```
 
-## 推荐阅读
+// ## 推荐阅读
 
-没有那么多精力去进行详细阐述，在此贴上几篇优秀题解：
+// 没有那么多精力去进行详细阐述，在此贴上几篇优秀题解：
 
-- <https://leetcode-cn.com/problems/lru-cache/solution/lru-ce-lue-xiang-jie-he-shi-xian-by-labuladong/>
-- <https://leetcode-cn.com/problems/lru-cache/solution/tu-wen-bing-mao-xiang-jie-lruji-zhi-by-user7439t/>
-- <https://leetcode-cn.com/problems/lru-cache/solution/shu-ju-jie-gou-fen-xi-python-ha-xi-shuang-xiang-li/>
+// - <https://leetcode-cn.com/problems/lru-cache/solution/lru-ce-lue-xiang-jie-he-shi-xian-by-labuladong/>
+// - <https://leetcode-cn.com/problems/lru-cache/solution/tu-wen-bing-mao-xiang-jie-lruji-zhi-by-user7439t/>
+// - <https://leetcode-cn.com/problems/lru-cache/solution/shu-ju-jie-gou-fen-xi-python-ha-xi-shuang-xiang-li/>
 
-## 链接
+// ## 链接
 
-- 博客： <https://eiger.me/post/algo/lt146/>
-- Github: <https://github.com/azd1997/Leetcode-training/blob/master/lt146/1.go>
+// - 博客： <https://eiger.me/post/algo/lt146/>
+// - Github: <https://github.com/azd1997/Leetcode-training/blob/master/lt146/1.go>

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<string> subdomainVisits(vector<string>& cpdomains) {
@@ -28,4 +28,4 @@ public:
         return ret;
     }
 };
-```
+// ```

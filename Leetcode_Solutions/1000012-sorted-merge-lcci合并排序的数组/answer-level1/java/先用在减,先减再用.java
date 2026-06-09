@@ -1,8 +1,8 @@
-### 解题思路
-深刻体会,什么是先用在减,先减再用
-### 代码
+// ### 解题思路
+// 深刻体会,什么是先用在减,先减再用
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void merge(int[] A, int m, int[] B, int n) {
         while ( m>0 && n>0){
@@ -13,4 +13,4 @@ class Solution {
         }
     }
 }
-```
+// ```

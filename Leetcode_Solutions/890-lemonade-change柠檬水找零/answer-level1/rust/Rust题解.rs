@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn lemonade_change(bills: Vec<i32>) -> bool {
         let mut five = 0;
@@ -24,5 +24,5 @@ impl Solution {
         true
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

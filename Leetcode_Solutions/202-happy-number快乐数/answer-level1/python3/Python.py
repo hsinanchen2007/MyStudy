@@ -1,5 +1,5 @@
-# 每一次记录所有位数的平方和存入列表中 如果有重复说明陷入无限循环 即不是快乐数
-```
+# # 每一次记录所有位数的平方和存入列表中 如果有重复说明陷入无限循环 即不是快乐数
+# ```
 class Solution(object):
     def isHappy(self,n):
         """
@@ -20,9 +20,9 @@ class Solution(object):
             else:
                 list1.append(count)
             n=count
-```
-# 不快乐数会进入4-16-37-58-89-145-42-20-4的循环中
-```
+# ```
+# # 不快乐数会进入4-16-37-58-89-145-42-20-4的循环中
+# ```
 class Solution(object):
     def isHappy(self,n):
         """
@@ -41,10 +41,10 @@ class Solution(object):
                 return False
             n=count
         return True
-```
-求各位数的平方和也可以用
-```
+# ```
+# 求各位数的平方和也可以用
+# ```
 while n:
                 count=(n%10)**2
                 n=n//10
-```
+# ```

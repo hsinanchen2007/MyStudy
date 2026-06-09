@@ -1,11 +1,11 @@
-### 解题思路
-先统计出每个元素出现的次数
-然后，再判断该元素出现的次数是否大于 ⌊ n/2 ⌋
+# ### 解题思路
+# 先统计出每个元素出现的次数
+# 然后，再判断该元素出现的次数是否大于 ⌊ n/2 ⌋
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
         numsDict = {} # 统计列表中出现的元素的次数，key:元素，value:次数
@@ -21,4 +21,4 @@ class Solution:
                 break
             else:
                 continue
-```
+# ```

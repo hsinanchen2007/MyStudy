@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -47,5 +47,5 @@ public:
         return head;
     }
 };
-```
-执行时间很飘，从4-12ms 都有
+// ```
+// 执行时间很飘，从4-12ms 都有

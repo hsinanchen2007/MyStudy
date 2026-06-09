@@ -1,8 +1,8 @@
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
         res = float('-inf')
@@ -17,4 +17,4 @@ class Solution:
         return res
 
             
-```
+# ```

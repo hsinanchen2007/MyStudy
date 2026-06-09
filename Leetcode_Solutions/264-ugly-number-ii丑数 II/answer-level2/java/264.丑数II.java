@@ -1,4 +1,4 @@
-```Java
+// ```Java
 class Solution {
     public int nthUglyNumber(int n) {
     List<Integer>list=new ArrayList<>();
@@ -21,4 +21,4 @@ class Solution {
 		return res>c?c:res;
 	}
 }
-```
+// ```

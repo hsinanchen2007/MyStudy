@@ -1,5 +1,5 @@
-状态转移方程 dp[i][j] = min(current+dp[i-1][j], current+dp[i][j-1])
-```
+// 状态转移方程 dp[i][j] = min(current+dp[i-1][j], current+dp[i][j-1])
+// ```
 func minPathSum(grid [][]int) int {
     if len(grid) == 0 {
 		return 0
@@ -32,4 +32,4 @@ func minPathSum(grid [][]int) int {
 	}
 	return dp[column-1][row-1]
 }
-```
+// ```

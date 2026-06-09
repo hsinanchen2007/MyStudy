@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def hasGroupsSizeX(self, deck: List[int]) -> bool:
         if len(deck) < 2:
@@ -43,4 +43,4 @@ class Solution:
         if mkey == 1:
             return False
         return True
-```
+# ```

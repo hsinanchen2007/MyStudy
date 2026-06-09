@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isIsomorphic(char * s, char * t){
     char ss[128] = "\0";
     char st[128] = "\0";
@@ -17,4 +17,4 @@ bool isIsomorphic(char * s, char * t){
     }
     return true;
 }
-```
+// ```

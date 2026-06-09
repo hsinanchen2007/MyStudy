@@ -1,9 +1,9 @@
-### 解题思路
-本题采用两个字典，完成pattern<->str的双向映射。然后根据索引下标逐个核对映射关系是否与字典中的相同。如果字典中不存在，就创建新的索引；如果字典中存在，判断是否相等，如果不相等，说明没有规律，返回False。
+# ### 解题思路
+# 本题采用两个字典，完成pattern<->str的双向映射。然后根据索引下标逐个核对映射关系是否与字典中的相同。如果字典中不存在，就创建新的索引；如果字典中存在，判断是否相等，如果不相等，说明没有规律，返回False。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def wordPattern(self, pattern: str, str: str) -> bool:
         d = {}
@@ -21,4 +21,4 @@ class Solution:
             elif s[l_str[i]]!=pattern[i]:
                 return False
         return True
-```
+# ```

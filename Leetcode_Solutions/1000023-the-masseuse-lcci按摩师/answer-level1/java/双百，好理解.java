@@ -1,4 +1,4 @@
-```
+// ```
 public static int massage(int[] nums) {
         //将下面三行代码放在前面可以用于对长度<=1的数组直接返回结果
         int len = nums.length;
@@ -17,4 +17,4 @@ public static int massage(int[] nums) {
         //d[len]中所存的就是所求的最大值
         return d[len];
     }
-```
+// ```

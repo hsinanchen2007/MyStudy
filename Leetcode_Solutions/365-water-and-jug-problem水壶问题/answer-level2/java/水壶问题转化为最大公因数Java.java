@@ -1,10 +1,10 @@
-### 解题思路
-转化为mx+ny=z的数学问题，即x和y的最大公因数可否被z整除。
-时间击败100%，空间击败14%
+// ### 解题思路
+// 转化为mx+ny=z的数学问题，即x和y的最大公因数可否被z整除。
+// 时间击败100%，空间击败14%
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canMeasureWater(int x, int y, int z) {
         if(z>(x+y)){//针对1 1 12的实例情况，必须满足该条件
@@ -33,4 +33,4 @@ class Solution {
     }
 
 }
-```
+// ```

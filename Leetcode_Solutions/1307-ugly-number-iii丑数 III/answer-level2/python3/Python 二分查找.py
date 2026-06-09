@@ -1,4 +1,4 @@
-```
+# ```
 from math import gcd
 class Solution:
     def nthUglyNumber(self, n: int, a: int, b: int, c: int) -> int:
@@ -29,4 +29,4 @@ class Solution:
             else:
                 right=mid
         return left
-```
+# ```

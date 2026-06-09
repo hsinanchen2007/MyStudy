@@ -1,9 +1,9 @@
-### 解题思路
-用了split，思路很简单，但是执行用时很长，
+// ### 解题思路
+// 用了split，思路很简单，但是执行用时很长，
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int lengthOfLastWord(String s) {
         String[] str = s.split(" ");
@@ -14,4 +14,4 @@ class Solution {
         }
     }
 }
-```
+// ```

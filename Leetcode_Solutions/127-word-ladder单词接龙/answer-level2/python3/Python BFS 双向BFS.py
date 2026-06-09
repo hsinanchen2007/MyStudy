@@ -1,5 +1,5 @@
-BFS 参考了官方题解的邻接表构建
-```python
+# BFS 参考了官方题解的邻接表构建
+# ```python
 class Solution:
     def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int:
         # BFS
@@ -35,9 +35,9 @@ class Solution:
             step += 1
         else:
             return 0
-```
-双向BFS就是把Queue 改成 beginQueue 和 endQueue 交替搜索即可，理论上搜索树的深度减少了一半，但是实际试起来比上面的解法慢
-```python
+# ```
+# 双向BFS就是把Queue 改成 beginQueue 和 endQueue 交替搜索即可，理论上搜索树的深度减少了一半，但是实际试起来比上面的解法慢
+# ```python
 class Solution:
     def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int:
         # BFS
@@ -76,4 +76,4 @@ class Solution:
                             memo.add(word)
         else:
             return 0
-```
+# ```

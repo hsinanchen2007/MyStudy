@@ -1,17 +1,17 @@
-### 思路解析
-既然丑数只能被 2、3、5 整除，那么一个数`num`是丑数，则需要满足下面的条件：
+// ### 思路解析
+// 既然丑数只能被 2、3、5 整除，那么一个数`num`是丑数，则需要满足下面的条件：
 
-$$
-num = 2^i3^j5^k
-$$
+// $$
+// num = 2^i3^j5^k
+// $$
 
-当 2、3、5 是`num`的倍数的话，那么我就用 2、3、5 不停的去除以`num`，如果除完 2、3、5 之后，最后的结果是`1`，则说明能够除尽，它是一个丑数；否则如果最后的结果不是`1`，则说明`num`还有其他的因子，就不是丑数。
+// 当 2、3、5 是`num`的倍数的话，那么我就用 2、3、5 不停的去除以`num`，如果除完 2、3、5 之后，最后的结果是`1`，则说明能够除尽，它是一个丑数；否则如果最后的结果不是`1`，则说明`num`还有其他的因子，就不是丑数。
 
-需要注意的是：`0`不是丑数，而`1`是丑数（题目规定）。
+// 需要注意的是：`0`不是丑数，而`1`是丑数（题目规定）。
 
 
-### 代码
-```java
+// ### 代码
+// ```java
 class Solution {
     public boolean isUgly(int num) {
         if (num == 0) {
@@ -30,8 +30,8 @@ class Solution {
         return num == 1;
     }
 }
-```
+// ```
 
-### 全部题解
-《剑指Offer》的全部题解与 LeetCode 的部分题解在此下方，其中还包含**基础算法**与**进阶算法**，欢迎查看~
-[LeetCode、SwordToOffer and other algorithms in Java.](https://github.com/dyfloveslife/LeetCodeAndSwordToOffer)
+// ### 全部题解
+// 《剑指Offer》的全部题解与 LeetCode 的部分题解在此下方，其中还包含**基础算法**与**进阶算法**，欢迎查看~
+// [LeetCode、SwordToOffer and other algorithms in Java.](https://github.com/dyfloveslife/LeetCodeAndSwordToOffer)

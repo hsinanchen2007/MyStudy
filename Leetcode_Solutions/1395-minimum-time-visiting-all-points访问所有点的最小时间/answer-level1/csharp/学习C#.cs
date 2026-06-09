@@ -1,11 +1,11 @@
-### 解题思路
-此代码速度很烂
-注意点：求绝对值跟java比较像
-求两个数的最大值`Math.Max(a,b)`;
-Math不能少
-### 代码
+// ### 解题思路
+// 此代码速度很烂
+// 注意点：求绝对值跟java比较像
+// 求两个数的最大值`Math.Max(a,b)`;
+// Math不能少
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int MinTimeToVisitAllPoints(int[][] points) {
             int[] cur = points[0];
@@ -17,4 +17,4 @@ public class Solution {
             return res;
     }
 }
-```
+// ```

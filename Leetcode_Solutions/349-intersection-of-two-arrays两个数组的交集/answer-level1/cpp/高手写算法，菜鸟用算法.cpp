@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
@@ -18,6 +18,6 @@ public:
         return v;
     }
 };
-```
+// ```
 
-先排序，后去重，然后上交集。用STL duang的一下就好了，可是面试官不让。
+// 先排序，后去重，然后上交集。用STL duang的一下就好了，可是面试官不让。

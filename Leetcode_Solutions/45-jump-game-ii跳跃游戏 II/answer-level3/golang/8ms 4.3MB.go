@@ -1,13 +1,13 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-贪婪算法 ，
-- 每次跳跃最长
-- 如果当前的范围可以替换[preLen,maxLen],那么当前的节点就可以替换上一个节点
+// 贪婪算法 ，
+// - 每次跳跃最长
+// - 如果当前的范围可以替换[preLen,maxLen],那么当前的节点就可以替换上一个节点
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func jump(nums []int) int {
 	for i := range nums {
 		nums[i] = i + nums[i]
@@ -50,4 +50,4 @@ func minSteps(nums []int) int {
 	return steps
 }
 
-```
+// ```

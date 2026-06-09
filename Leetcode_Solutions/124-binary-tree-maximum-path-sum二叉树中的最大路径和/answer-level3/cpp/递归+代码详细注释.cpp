@@ -1,6 +1,6 @@
-从叶子节点往上计算最大路径和
+// 从叶子节点往上计算最大路径和
 
-```c++
+// ```c++
 class Solution {
 public:
     int _maxPathSum(TreeNode * root, int & max_sum)
@@ -70,4 +70,4 @@ public:
         return max_sum;
     }
 };
-```
+// ```

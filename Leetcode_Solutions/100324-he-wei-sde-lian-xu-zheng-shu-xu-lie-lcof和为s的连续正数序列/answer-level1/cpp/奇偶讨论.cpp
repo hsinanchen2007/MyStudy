@@ -1,9 +1,9 @@
-### 解题思路
-分为奇偶讨论
+// ### 解题思路
+// 分为奇偶讨论
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> findContinuousSequence(int target) {
@@ -34,4 +34,4 @@ public:
         return result;
     }
 };
-```
+// ```

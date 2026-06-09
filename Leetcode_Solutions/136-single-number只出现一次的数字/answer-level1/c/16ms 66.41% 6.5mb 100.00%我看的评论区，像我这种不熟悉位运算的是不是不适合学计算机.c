@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 int singleNumber(int* nums, int numsSize){
     int a=0,i=0;
@@ -13,4 +13,4 @@ int singleNumber(int* nums, int numsSize){
     }
     return a;
 }
-```
+// ```

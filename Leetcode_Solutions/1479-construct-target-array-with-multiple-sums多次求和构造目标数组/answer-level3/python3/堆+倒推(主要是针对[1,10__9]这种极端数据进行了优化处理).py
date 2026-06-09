@@ -1,6 +1,6 @@
-**思路**:和题解的各位大佬都差不多 详情可见 => [MrYx大佬的题解](https://leetcode-cn.com/problems/construct-target-array-with-multiple-sums/solution/zhao-gui-lu-dao-tui-zui-xiao-dui-you-hua-python3-c/)
-**注意**:最近应该是数据集变了 所以有些题解的代码现在已经AC不了 我一开始基本上和上述链接第一种完全一样 但[1,10*9]一直超时 所以考虑了如何优化 本人菜鸡 优化部分和主要的语句都添加了注释 还请各位多多指教
-```
+# **思路**:和题解的各位大佬都差不多 详情可见 => [MrYx大佬的题解](https://leetcode-cn.com/problems/construct-target-array-with-multiple-sums/solution/zhao-gui-lu-dao-tui-zui-xiao-dui-you-hua-python3-c/)
+# **注意**:最近应该是数据集变了 所以有些题解的代码现在已经AC不了 我一开始基本上和上述链接第一种完全一样 但[1,10*9]一直超时 所以考虑了如何优化 本人菜鸡 优化部分和主要的语句都添加了注释 还请各位多多指教
+# ```
 """
 [9, 5, 3]
 9 => [1, 5, 3]
@@ -32,5 +32,5 @@ def isPossible(target):
 		new=max%sub or sub #能减就减所以用% 但同时能整除的情况下是不能直接new=0的 所以会有or sub
 		total-=max-new #记得更新total
 		heapq.heappush(target,-new)
-```
+# ```
 

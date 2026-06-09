@@ -1,10 +1,10 @@
-## 思路:
+# ## 思路:
 
-没啥好说的，贪心排序比较即可
+# 没啥好说的，贪心排序比较即可
 
-## 代码:
+# ## 代码:
 
-```python
+# ```python
 class Solution:
     def findContentChildren(self, g: List[int], s: List[int]) -> int:
         g.sort()
@@ -20,5 +20,5 @@ class Solution:
                 i += 1
                 j += 1
         return res
-```
+# ```
 

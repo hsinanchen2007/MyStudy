@@ -1,9 +1,9 @@
-### 解题思路
-动态规划：问题能不能用动态规划解决取决于这些”小问题“会不会被被重复调用。
+// ### 解题思路
+// 动态规划：问题能不能用动态规划解决取决于这些”小问题“会不会被被重复调用。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int maxSubArray(int* nums, int numsSize){
     int ret = nums[0];
     int dp = nums[0];
@@ -16,4 +16,4 @@ int maxSubArray(int* nums, int numsSize){
     }
     return ret;
 }
-```
+// ```

@@ -1,11 +1,11 @@
-定义一个Atomic类型共享变量作为状态,假定初始状态值为1
-```
+// 定义一个Atomic类型共享变量作为状态,假定初始状态值为1
+// ```
 private AtomicInteger status = new AtomicInteger(1);
-```
+// ```
 
-各个线程打印前通过一个cas操作更新状态，自选的方式获取锁后执行打印，打印完再更新锁的状态
+// 各个线程打印前通过一个cas操作更新状态，自选的方式获取锁后执行打印，打印完再更新锁的状态
 
-```
+// ```
     while(true) {
         if(lock.compareAndSet(1,-1)) {
             // printFirst.run() outputs "first". Do not change or remove this line.
@@ -14,11 +14,11 @@ private AtomicInteger status = new AtomicInteger(1);
             break;
         }
     }
-```
+// ```
 
-**完整示例**
+// **完整示例**
 
-```
+// ```
 class Foo {
 
     private AtomicInteger lock = new AtomicInteger(1);
@@ -64,4 +64,4 @@ class Foo {
         }
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
 
-```sql
+-- ```sql
 SELECT 
     t.Department,
     t.Employee,
@@ -13,4 +13,4 @@ FROM (
         rank() OVER(partition by e.DepartmentId ORDER BY e.Salary DESC) rank
     FROM Employee e JOIN Department d ON e.DepartmentId = d.Id) t
 WHERE t.rank = 1;
-```
+-- ```

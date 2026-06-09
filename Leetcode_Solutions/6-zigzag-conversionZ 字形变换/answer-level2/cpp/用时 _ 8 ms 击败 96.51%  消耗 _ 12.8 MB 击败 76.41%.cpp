@@ -1,9 +1,9 @@
-### 解题思路
-用N个桶收集每一行的数据，最后合并
+// ### 解题思路
+// 用N个桶收集每一行的数据，最后合并
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string convert(string s, int numRows) {
@@ -27,4 +27,4 @@ public:
         return str[0];
     }
 };
-```
+// ```

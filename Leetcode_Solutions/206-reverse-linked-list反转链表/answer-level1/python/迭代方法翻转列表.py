@@ -1,9 +1,9 @@
-### 解题思路
-每日打卡第二天，感觉这一题还是用迭代的方式容易想一点，感觉用递归容易绕不过来
+# ### 解题思路
+# 每日打卡第二天，感觉这一题还是用迭代的方式容易想一点，感觉用递归容易绕不过来
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -25,4 +25,4 @@ class Solution(object):
             head = tmp
         
         return prev
-```
+# ```

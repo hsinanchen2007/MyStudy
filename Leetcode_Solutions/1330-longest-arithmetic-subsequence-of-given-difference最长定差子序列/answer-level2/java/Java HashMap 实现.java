@@ -1,5 +1,5 @@
-每次记录上次出现的最大的数字
-```
+// 每次记录上次出现的最大的数字
+// ```
 class Solution {
     public int longestSubsequence(int[] arr, int difference) {
         Map<Integer,Integer> map = new HashMap<>();
@@ -17,4 +17,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

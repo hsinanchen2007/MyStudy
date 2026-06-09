@@ -1,16 +1,16 @@
-把图看成一棵树会比较好理解
-要注意和树不同的是，孩子节点可能反过来成为父节点，递归或遍历会形成无限循环
-需要用额外的数据结构如哈希表来记录节点是否访问过
-直观的做法是哈希表定义为键为*Node值为bool，这样不太好处理；想想，改成值为原图中节点，键为新图中节点，会比较好。
+// 把图看成一棵树会比较好理解
+// 要注意和树不同的是，孩子节点可能反过来成为父节点，递归或遍历会形成无限循环
+// 需要用额外的数据结构如哈希表来记录节点是否访问过
+// 直观的做法是哈希表定义为键为*Node值为bool，这样不太好处理；想想，改成值为原图中节点，键为新图中节点，会比较好。
 
-```text
+// ```text
 递归DFS
 
 假设所有节点个数为n，
 时间复杂度O(n)，每个节点处理一次，栈调用时间复杂度O(H),H为图的最大深度，综合复杂度O(n)
 空间复杂度O(n)，哈希表需要O(n)，栈需要O(H)
-```
-```go
+// ```
+// ```go
 func cloneGraph1(node *Node) *Node {
 	visited := make(map[*Node]*Node, 0)
 	var dfs func(*Node) *Node
@@ -30,13 +30,13 @@ func cloneGraph1(node *Node) *Node {
 	}
 	return dfs(node)
 }
-```
-```text
+// ```
+// ```text
 迭代BFS，存放临时节点的容器可随意选用，这里选list
 时间复杂度O(n)，每个节点处理一次
 空间复杂度O(n)，哈希表需要O(n), BFS使用的容器需要O(W)，其中W是图的宽度， 综合复杂度O(n)
-```
-```go
+// ```
+// ```go
 func cloneGraph(node *Node) *Node {
 	if node == nil {
 		return nil
@@ -57,4 +57,4 @@ func cloneGraph(node *Node) *Node {
 	}
 	return visited[node]
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-回溯法遍历所有情况
+// ### 解题思路
+// 回溯法遍历所有情况
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} digits
  * @return {string[]}
@@ -26,4 +26,4 @@ var letterCombinations = function(digits) {
     trackback(0,"");
     return result;    
 };
-```
+// ```

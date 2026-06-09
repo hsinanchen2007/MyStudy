@@ -1,9 +1,9 @@
-### 解题思路
-第一个双100，C++有指针应该更方便
+// ### 解题思路
+// 第一个双100，C++有指针应该更方便
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /*
 // Definition for a Node.
 class Node {
@@ -40,4 +40,4 @@ class Solution {
         return node;
     }
 }
-```
+// ```

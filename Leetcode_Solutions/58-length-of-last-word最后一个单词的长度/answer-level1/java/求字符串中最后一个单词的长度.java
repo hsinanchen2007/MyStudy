@@ -1,9 +1,9 @@
-### 解题思路
-必须从末尾开始遍历，非空开始计数，再次为空就保存该数字，退出循环
+// ### 解题思路
+// 必须从末尾开始遍历，非空开始计数，再次为空就保存该数字，退出循环
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int lengthOfLastWord(String s) {
         int cnt = 0;
@@ -20,4 +20,4 @@ class Solution {
         return cnt;
     }
 }
-```
+// ```

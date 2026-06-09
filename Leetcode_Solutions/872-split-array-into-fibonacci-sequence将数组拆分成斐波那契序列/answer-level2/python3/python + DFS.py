@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def splitIntoFibonacci(self, S: str) -> List[int]:
         # F[i] + F[i + 1] == F[i + 2]
@@ -34,4 +34,4 @@ class Solution:
                         pre1, pre2 = pre2, cur
                     return ans
         return []
-```
+# ```

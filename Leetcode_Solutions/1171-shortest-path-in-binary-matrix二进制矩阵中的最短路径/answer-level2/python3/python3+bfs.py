@@ -1,9 +1,9 @@
-### 解题思路
-还可以状态压缩+原地标记优化一下
+# ### 解题思路
+# 还可以状态压缩+原地标记优化一下
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def shortestPathBinaryMatrix(self, grid: List[List[int]]) -> int:
         R = len(grid)
@@ -35,4 +35,4 @@ class Solution:
                     if tmp_x == R - 1 and tmp_y == C - 1:
                         return dis[tmp_x][tmp_y]
         return -1
-```
+# ```

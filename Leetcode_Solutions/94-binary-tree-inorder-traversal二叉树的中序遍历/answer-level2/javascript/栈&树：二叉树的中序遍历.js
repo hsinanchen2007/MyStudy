@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-一、递归：左 中 右
+// 一、递归：左 中 右
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -30,4 +30,4 @@ var inorderTraversal = function(root) {
     pushRoot(root);
     return res;
 };
-```
+// ```

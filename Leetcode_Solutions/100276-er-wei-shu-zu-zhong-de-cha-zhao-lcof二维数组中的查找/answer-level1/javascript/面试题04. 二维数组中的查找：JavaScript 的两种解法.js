@@ -1,8 +1,8 @@
-## 方法一：暴力遍历
+// ## 方法一：暴力遍历
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} matrix
  * @param {number} target
@@ -16,19 +16,19 @@ var findNumberIn2DArray = function(matrix, target) {
     }
     return false;
 };
-```
+// ```
 
-**复杂度分析：**
+// **复杂度分析：**
 
-- 时间复杂度：O(mn)。二维数组中的每个元素都被遍历，因此时间复杂度为二维数组的大小。
-- 空间复杂度：O(1)
+// - 时间复杂度：O(mn)。二维数组中的每个元素都被遍历，因此时间复杂度为二维数组的大小。
+// - 空间复杂度：O(1)
 
 
-## 方法二：整行整列地排除选项
+// ## 方法二：整行整列地排除选项
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} matrix
  * @param {number} target
@@ -50,13 +50,13 @@ var findNumberIn2DArray = function(matrix, target) {
 
     return false;
 };
-```
+// ```
 
-**复杂度分析：**
+// **复杂度分析：**
 
-- 时间复杂度：O(m + n)
-- 空间复杂度：O(1)
+// - 时间复杂度：O(m + n)
+// - 空间复杂度：O(1)
 
----
+// ---
 
-**更多题解请关注**：[https://github.com/leviding/leetcode-js-leviding](https://github.com/leviding/leetcode-js-leviding)
+// **更多题解请关注**：[https://github.com/leviding/leetcode-js-leviding](https://github.com/leviding/leetcode-js-leviding)

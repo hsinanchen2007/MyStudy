@@ -1,7 +1,7 @@
-### 深度优先搜索
-1. 构造函数使用深度优先搜索的方式进行模拟，同时将所有node的val值压入set集合；
-2. find查找时直接查找set集合即可。
-```
+// ### 深度优先搜索
+// 1. 构造函数使用深度优先搜索的方式进行模拟，同时将所有node的val值压入set集合；
+// 2. find查找时直接查找set集合即可。
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -46,4 +46,4 @@ private:
  * FindElements* obj = new FindElements(root);
  * bool param_1 = obj->find(target);
  */
-```
+// ```

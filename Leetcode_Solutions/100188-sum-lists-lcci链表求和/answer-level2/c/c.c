@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-其实这道题主要是考虑进位问题，当一个链表为空，另一个不为空以及两个均为空，但是仍存在进位情况得到特殊情形的判断。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 其实这道题主要是考虑进位问题，当一个链表为空，另一个不为空以及两个均为空，但是仍存在进位情况得到特殊情形的判断。
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -83,4 +83,4 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
     p->next=NULL;
     return a;
 }
-```
+// ```

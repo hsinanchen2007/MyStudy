@@ -1,5 +1,5 @@
-我是从左到右写的，利用堆栈保存现场。
-```
+# 我是从左到右写的，利用堆栈保存现场。
+# ```
 from collections import defaultdict
 class Solution:
     def countOfAtoms(self, formula: str) -> str:
@@ -48,4 +48,4 @@ class Solution:
             else:
                 ans = ans + atom + str(temp[atom])
         return ans
-```
+# ```

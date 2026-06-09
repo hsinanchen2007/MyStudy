@@ -1,23 +1,23 @@
-### 思路
-对于每一对下标相等的字符，`s[i]`和`t[i]`， 
+# ### 思路
+# 对于每一对下标相等的字符，`s[i]`和`t[i]`， 
 
-把它们转化成相等的 `cost` 是已知的，
+# 把它们转化成相等的 `cost` 是已知的，
 
-`cost = abs(ord(t[i]) - ord(s[i]))`，
+# `cost = abs(ord(t[i]) - ord(s[i]))`，
 
-所以我们可以直接生成一个数组 `record`， `record[i]` 就表示把 `s[i]` 和 `t[i]` 转化成相等的 `cost`，
+# 所以我们可以直接生成一个数组 `record`， `record[i]` 就表示把 `s[i]` 和 `t[i]` 转化成相等的 `cost`，
 
-接着问题就转化为：
+# 接着问题就转化为：
 
-在一个数组中，在连续子数组的和小于等于 `maxCost` 的情况下，
+# 在一个数组中，在连续子数组的和小于等于 `maxCost` 的情况下，
 
-找到最长的连续子数组长度。
+# 找到最长的连续子数组长度。
 
-因此可以用滑动窗口解题。
+# 因此可以用滑动窗口解题。
 
-### 代码实现
+# ### 代码实现
 
-```Python []
+# ```Python []
 class Solution(object):
     def equalSubstring(self, s, t, maxCost):
         """
@@ -45,9 +45,9 @@ class Solution(object):
         res = max(res, end - start + 1)
         return res
         
-```
+# ```
 
-### 复杂度分析
+# ### 复杂度分析
 
-时间复杂度：$O(N)$
-空间复杂度：$O(N)$
+# 时间复杂度：$O(N)$
+# 空间复杂度：$O(N)$

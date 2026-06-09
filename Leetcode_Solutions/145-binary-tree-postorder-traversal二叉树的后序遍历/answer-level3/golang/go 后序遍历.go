@@ -1,4 +1,4 @@
-```
+// ```
 //栈
 func postorderTraversal(root *TreeNode) []int {
 	if root == nil {
@@ -19,4 +19,4 @@ func postorderTraversal(root *TreeNode) []int {
 	}
 	return nums
 }
-```
+// ```

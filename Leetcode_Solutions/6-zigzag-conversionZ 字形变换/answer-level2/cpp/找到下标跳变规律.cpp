@@ -1,11 +1,11 @@
-### 解题思路
-列上字符：Z字排列中组成列的字符
-列间字符：Z字排列中组成斜线的字符
-其他见注释
+// ### 解题思路
+// 列上字符：Z字排列中组成列的字符
+// 列间字符：Z字排列中组成斜线的字符
+// 其他见注释
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string convert(string s, int numRows) {
@@ -53,4 +53,4 @@ public:
         return str_ret;
     }
 };
-```
+// ```

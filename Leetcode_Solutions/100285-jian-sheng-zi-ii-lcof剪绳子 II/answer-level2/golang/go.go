@@ -1,6 +1,6 @@
-祝同学们身体健康！
+// 祝同学们身体健康！
 
-```
+// ```
 func pow3N(n int) int {
 	o := 1
 	for i := 0; i < n; i++ {
@@ -19,4 +19,4 @@ func cuttingRope(n int) int {
 		return pow3N(n/3-m) * (m + 1) * 2 % 1000000007
 	}
 }
-```
+// ```

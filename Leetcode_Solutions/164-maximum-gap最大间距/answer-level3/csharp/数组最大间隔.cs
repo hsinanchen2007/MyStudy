@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路 
+// ### 解题思路
+// 此处撰写解题思路 
 
-先排序 再计算出间隔 取最大值；
+// 先排序 再计算出间隔 取最大值；
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int MaximumGap(int[] nums) {
             int gap = 0;
@@ -27,4 +27,4 @@ public class Solution {
             return gap;
     }
 }
-```
+// ```

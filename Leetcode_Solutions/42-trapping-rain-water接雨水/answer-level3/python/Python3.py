@@ -1,9 +1,9 @@
-### 解题思路
-秘技！反复横跳法
+# ### 解题思路
+# 秘技！反复横跳法
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def trap(self, height: List[int]) -> int:
         # 1. 
@@ -66,4 +66,4 @@ class Solution:
                 r -= 1
         return res
         
-```
+# ```

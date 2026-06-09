@@ -1,10 +1,10 @@
-### 方法一：
+# ### 方法一：
 
-取序列首元素作为树根，序列里小于等于首元素的值递归进左子树，大于的递归进右子树，最后输出，港实话代码结构有点像快排。
+# 取序列首元素作为树根，序列里小于等于首元素的值递归进左子树，大于的递归进右子树，最后输出，港实话代码结构有点像快排。
 
-![image.png](https://pic.leetcode-cn.com/fef6d6ceb35f53bfa56b991dd60e88dc63d13083a5c5e33730f4311e371db584-image.png)
+# ![image.png](https://pic.leetcode-cn.com/fef6d6ceb35f53bfa56b991dd60e88dc63d13083a5c5e33730f4311e371db584-image.png)
 
-```python []
+# ```python []
 class Solution:
     def bstFromPreorder(self, preorder: List[int]) -> TreeNode:
         if preorder:
@@ -13,8 +13,8 @@ class Solution:
             root.left = self.bstFromPreorder(p[0])
             root.right = self.bstFromPreorder(p[1])
             return root
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def bstFromPreorder(self, preorder: List[int]) -> TreeNode:
         if preorder:
@@ -28,8 +28,8 @@ class Solution:
             root.left = self.bstFromPreorder(l)
             root.right = self.bstFromPreorder(r)
             return root
-```
-```python []
+# ```
+# ```python []
 from collections import deque as d
 class Solution:
     def bstFromPreorder(self, preorder: List[int]) -> TreeNode:
@@ -40,15 +40,15 @@ class Solution:
                 root.left, root.right = f(p[0]), f(p[1])
                 return root
         return f(d(preorder))
-```
+# ```
 
-### 方法二：
+# ### 方法二：
 
-仍然是取首元素作为根节点，然后找到小于根节点的分界线对数组进行二分递归即可，减少了`pop(0)`的操作，程序更快了，如果还有优化的点的话，就是写成闭包函数，把递归的参数由传输组变成传坐标。
+# 仍然是取首元素作为根节点，然后找到小于根节点的分界线对数组进行二分递归即可，减少了`pop(0)`的操作，程序更快了，如果还有优化的点的话，就是写成闭包函数，把递归的参数由传输组变成传坐标。
 
-![image.png](https://pic.leetcode-cn.com/e121a5eb88a017b83fc83a91897e8fd55f4e1d64e5132ae873d0208ef1b5edba-image.png)
+# ![image.png](https://pic.leetcode-cn.com/e121a5eb88a017b83fc83a91897e8fd55f4e1d64e5132ae873d0208ef1b5edba-image.png)
 
-```python []
+# ```python []
 class Solution:
     def bstFromPreorder(self, preorder: List[int]) -> TreeNode:
         if preorder:
@@ -57,8 +57,8 @@ class Solution:
             root.left = self.bstFromPreorder(preorder[1: devide])
             root.right = self.bstFromPreorder(preorder[devide: ])
             return root
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def bstFromPreorder(self, preorder: List[int]) -> TreeNode:
         def f(l, r):
@@ -69,8 +69,8 @@ class Solution:
                 root.right = f(devide, r)
                 return root
         return f(0, len(preorder))
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def bstFromPreorder(self, preorder: List[int]) -> TreeNode:
         s, p = [], preorder and [(0, len(preorder), -1)]
@@ -87,4 +87,4 @@ class Solution:
                 p.append((devide, r, l))
                 p.append((l + 1, devide, l))
         return s and s[0]
-```
+# ```

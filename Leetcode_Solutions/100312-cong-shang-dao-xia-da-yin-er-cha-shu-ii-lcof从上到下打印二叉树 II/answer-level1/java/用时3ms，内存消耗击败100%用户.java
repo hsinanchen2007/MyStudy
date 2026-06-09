@@ -1,10 +1,10 @@
-### 解题思路
-1.定义两个队列，queue放本层的节点，queue2放queue中所有节点的子节点。
-2.遍历完一层后，将两个队列都往下更新一层。
+// ### 解题思路
+// 1.定义两个队列，queue放本层的节点，queue2放queue中所有节点的子节点。
+// 2.遍历完一层后，将两个队列都往下更新一层。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -53,4 +53,4 @@ class Solution {
         return list;
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-注意如果使用了全局变量，一定要初始化，因为leetCode会在一次执行中多次测试……
-```
+// 注意如果使用了全局变量，一定要初始化，因为leetCode会在一次执行中多次测试……
+// ```
 
 #define MAX_N 45
 #define MAX_K 9
@@ -78,4 +78,4 @@ int** combinationSum3(int k, int n, int* returnSize, int** returnColumnSizes){
     free(temp);
 	return output;
 }
-```
+// ```

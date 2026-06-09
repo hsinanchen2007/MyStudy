@@ -1,19 +1,19 @@
-### 解题思路
-假设delta_t>0, a = t + delta_t; b = t- delta_t
-从而 a恒等于 (
-((t+delta_t)+(t-delta_t)) + 
-((t+delta_t)-(t-delta_t)
-)/2
-其中，(t+delta_t)-(t-delta_t) = 2*delta_t > 0
-因此，实现的时候需要计算“差值的绝对值”
-这里所谓的绝对值实际上就是“补码“表示
+// ### 解题思路
+// 假设delta_t>0, a = t + delta_t; b = t- delta_t
+// 从而 a恒等于 (
+// ((t+delta_t)+(t-delta_t)) + 
+// ((t+delta_t)-(t-delta_t)
+// )/2
+// 其中，(t+delta_t)-(t-delta_t) = 2*delta_t > 0
+// 因此，实现的时候需要计算“差值的绝对值”
+// 这里所谓的绝对值实际上就是“补码“表示
 
-执行用时 :4 ms, 在所有 C++ 提交中击败了100.00% 的用户
-内存消耗 :8.3 MB, 在所有 C++ 提交中击败了100.00%的用户
+// 执行用时 :4 ms, 在所有 C++ 提交中击败了100.00% 的用户
+// 内存消耗 :8.3 MB, 在所有 C++ 提交中击败了100.00%的用户
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maximum(int a, int b) {
@@ -40,4 +40,4 @@ public:
 //    	return std::max(a,b);
     }
 };
-```
+// ```

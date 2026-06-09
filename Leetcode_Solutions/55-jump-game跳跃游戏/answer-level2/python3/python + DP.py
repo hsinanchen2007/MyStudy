@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def canJump(self, nums: List[int]) -> bool:
         # method : DP
@@ -9,4 +9,4 @@ class Solution:
             if dp[i] >= 0: dp[i] = max(dp[i], nums[i])
             else: break
         return True if dp[-1] != -1 else False
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-用的是最直接的方法……交换排序。
+// ### 解题思路
+// 用的是最直接的方法……交换排序。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 vector<vector<int>> diagonalSort(vector<vector<int>>& mat) {
@@ -21,4 +21,4 @@ vector<vector<int>> diagonalSort(vector<vector<int>>& mat) {
 	return rmat;
 }
 };
-```
+// ```

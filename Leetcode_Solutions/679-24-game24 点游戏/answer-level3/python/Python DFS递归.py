@@ -1,5 +1,5 @@
-四个数取出两个数之后,做加减乘除处理之后加入到原数组中会剩下三个数,递归交给下一层去处理
-```python
+# 四个数取出两个数之后,做加减乘除处理之后加入到原数组中会剩下三个数,递归交给下一层去处理
+# ```python
 class Solution:
     def judgePoint24(self, nums: List[int]) -> bool:
         if not nums: return False
@@ -15,4 +15,4 @@ class Solution:
                         if nums[j] != 0 and helper(newnums + [nums[i]/nums[j]]): return True
             return False
         return helper(nums)
-```
+# ```

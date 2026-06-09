@@ -1,4 +1,4 @@
-```
+// ```
 public class Solution {
     public int[] TwoSum(int[] nums, int target) {
         Hashtable map = new Hashtable();
@@ -17,6 +17,6 @@ public class Solution {
         return null;
     }
 }
-```
+// ```
 
-[微软-内推]（北京上海苏州无锡）大量职位招人，长期有效 https://leetcode-cn.com/circle/article/Cj79fP/
+// [微软-内推]（北京上海苏州无锡）大量职位招人，长期有效 https://leetcode-cn.com/circle/article/Cj79fP/

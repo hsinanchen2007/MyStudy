@@ -1,4 +1,4 @@
-```
+// ```
 int binarySearch(int *nums, int left, int right)
 {
   if(left > right) return -1;
@@ -16,4 +16,4 @@ int findMagicIndex(int* nums, int numsSize)
 {
   return binarySearch(nums, 0, numsSize - 1);
 }
-```
+// ```

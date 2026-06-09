@@ -1,8 +1,8 @@
-1. 借助于ordered_map统计各数字出现的次数；
-2. 将出现次数压入数组并排序；
-3. 尝试2到数据最小元素是否为最大公约数
+// 1. 借助于ordered_map统计各数字出现的次数；
+// 2. 将出现次数压入数组并排序；
+// 3. 尝试2到数据最小元素是否为最大公约数
 
-```
+// ```
 class Solution {
 public:
     bool hasGroupsSizeX(vector<int>& deck) {
@@ -26,5 +26,5 @@ public:
         return false;
     }
 };
-```
+// ```
 

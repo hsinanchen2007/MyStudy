@@ -1,9 +1,9 @@
-### 解题思路
-8ms,6MB
+// ### 解题思路
+// 8ms,6MB
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void rotate(int** matrix, int matrixSize, int* matrixColSize){
 	if (matrixSize < 2)
 		return;
@@ -19,4 +19,4 @@ void rotate(int** matrix, int matrixSize, int* matrixColSize){
 		}
 	}
 }
-```
+// ```

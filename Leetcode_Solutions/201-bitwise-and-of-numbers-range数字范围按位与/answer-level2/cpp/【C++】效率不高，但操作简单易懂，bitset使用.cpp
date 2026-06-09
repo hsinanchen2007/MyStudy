@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int rangeBitwiseAnd(int m, int n)
@@ -21,4 +21,4 @@ public:
         return std::bitset<64>(mString.substr(0, i) + padding).to_ulong();
     }
 };
-```
+// ```

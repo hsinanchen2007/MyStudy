@@ -1,10 +1,10 @@
-### 解题思路
-遍历两次：  
-- 第一次建表
-- 第二次进行查找
-### 代码
+// ### 解题思路
+// 遍历两次：  
+// - 第一次建表
+// - 第二次进行查找
+// ### 代码
 
-```golang
+// ```golang
 func firstUniqChar(s string) byte {
 	res := make([]int, 26)
     //建表
@@ -19,4 +19,4 @@ func firstUniqChar(s string) byte {
 	}
 	return ' '
 }
-```
+// ```

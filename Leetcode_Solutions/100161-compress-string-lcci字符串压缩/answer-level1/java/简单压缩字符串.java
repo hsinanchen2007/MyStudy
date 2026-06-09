@@ -1,11 +1,11 @@
-### 解题思路
-双指针，滑动窗口
-Time: O(n)
-Space: O(n)
+// ### 解题思路
+// 双指针，滑动窗口
+// Time: O(n)
+// Space: O(n)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String compressString(String S) {
         StringBuilder ans = new StringBuilder();
@@ -31,4 +31,4 @@ class Solution {
         return new String(ans);
     }
 }
-```
+// ```

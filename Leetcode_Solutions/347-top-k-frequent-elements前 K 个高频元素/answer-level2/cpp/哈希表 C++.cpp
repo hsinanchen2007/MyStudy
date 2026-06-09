@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-哈希表思想，将映射倒转一次即可。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 哈希表思想，将映射倒转一次即可。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> topKFrequent(vector<int>& nums, int k) {
@@ -28,4 +28,4 @@ public:
         return output;
     }
 };
-```
+// ```

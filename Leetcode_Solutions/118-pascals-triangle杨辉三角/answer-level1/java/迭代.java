@@ -1,9 +1,9 @@
-### 解题思路
-使用迭代，层层生成，用时1ms
+// ### 解题思路
+// 使用迭代，层层生成，用时1ms
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> generate(int numRows) {
         List<List<Integer>> lists = new ArrayList<>();
@@ -26,4 +26,4 @@ class Solution {
         return lists;
     }
 }
-```
+// ```

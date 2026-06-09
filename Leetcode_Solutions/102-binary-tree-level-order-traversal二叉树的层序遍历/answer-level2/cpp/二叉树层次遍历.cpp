@@ -1,6 +1,6 @@
-思路主要是通过栈保存当前层的结点用于下一层遍历,通过广度优先排序遍历整个二叉树.
+// 思路主要是通过栈保存当前层的结点用于下一层遍历,通过广度优先排序遍历整个二叉树.
 
-代码如下:
+// 代码如下:
 class Solution {
 public:
     vector<vector<int>> levelOrder(TreeNode* root) {

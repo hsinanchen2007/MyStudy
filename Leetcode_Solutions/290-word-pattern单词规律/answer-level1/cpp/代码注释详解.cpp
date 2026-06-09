@@ -1,6 +1,6 @@
-看了几位大佬写的hash映射,综合了一下我能看懂的部分,写了点注释,新手入门,因为有些细节乍一看,反应不过来,希望能够帮到大家
+// 看了几位大佬写的hash映射,综合了一下我能看懂的部分,写了点注释,新手入门,因为有些细节乍一看,反应不过来,希望能够帮到大家
 
-```
+// ```
 bool wordPattern(string pattern, string str) {
         unordered_map<char,string> m;
         unordered_map<string,int> used;
@@ -33,4 +33,4 @@ bool wordPattern(string pattern, string str) {
         }
         return true;
     }
-```
+// ```

@@ -1,14 +1,14 @@
-### 解题思路
-本题难点应该是正则表达式，但是很简单，就一个`.`号，使用`.`的前提是前面字符匹配上。那么此时`.`对应26个字母，直接暴力回溯即可，有一个为真就返回真，否者返回假。
+// ### 解题思路
+// 本题难点应该是正则表达式，但是很简单，就一个`.`号，使用`.`的前提是前面字符匹配上。那么此时`.`对应26个字母，直接暴力回溯即可，有一个为真就返回真，否者返回假。
 
-这是不释放每个节点的时间。。
-![image.png](https://pic.leetcode-cn.com/e959d5783bd83774e5394ae03de3c3588e4a2b209aec640f9bbbdcbd8b60de54-image.png)
-完全释放太慢，但是是正确做法，内存是malloc累加值，所以free节点也没变化多大。
-![image.png](https://pic.leetcode-cn.com/75da8924128e8dc9f74f771496f91b5f95f358a93c98140331f193a4f5158ccd-image.png)
+// 这是不释放每个节点的时间。。
+// ![image.png](https://pic.leetcode-cn.com/e959d5783bd83774e5394ae03de3c3588e4a2b209aec640f9bbbdcbd8b60de54-image.png)
+// 完全释放太慢，但是是正确做法，内存是malloc累加值，所以free节点也没变化多大。
+// ![image.png](https://pic.leetcode-cn.com/75da8924128e8dc9f74f771496f91b5f95f358a93c98140331f193a4f5158ccd-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct node {
     bool isend;
     struct node *next[26];
@@ -66,4 +66,4 @@ void wordDictionaryFree(WordDictionary* obj) {
  
  * wordDictionaryFree(obj);
 */
-```
+// ```

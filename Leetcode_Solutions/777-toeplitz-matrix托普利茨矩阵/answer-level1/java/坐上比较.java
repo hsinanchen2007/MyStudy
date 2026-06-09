@@ -1,9 +1,9 @@
-### 解题思路
-判断每一个元素和自身左上的是否一样（合理范围内）
+// ### 解题思路
+// 判断每一个元素和自身左上的是否一样（合理范围内）
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isToeplitzMatrix(int[][] matrix) {
         int cols = matrix[0].length;
@@ -19,4 +19,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

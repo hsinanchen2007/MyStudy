@@ -1,11 +1,11 @@
-### 解题思路
-1. C解决涉及字符串处理，很麻烦。定义交易数据结构体进行处理，定义数组并初始化；
-2. 按2种判定方法进行判定，并记录无效的index；
-3. 对原输入，按无效index申请空间，然后返回即可。
+// ### 解题思路
+// 1. C解决涉及字符串处理，很麻烦。定义交易数据结构体进行处理，定义数组并初始化；
+// 2. 按2种判定方法进行判定，并记录无效的index；
+// 3. 对原输入，按无效index申请空间，然后返回即可。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -122,4 +122,4 @@ char ** invalidTransactions(char ** transactions, int transactionsSize, int* ret
     }
     return  NULL;
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-- 根据size进行第一次分组放到Map中。
-- 遍历Map，根据size大小对每个list进行等分。
-[List等分参考地址](https://e.printstacktrace.blog/divide-a-list-to-lists-of-n-size-in-Java-8/)
+// ### 解题思路
+// - 根据size进行第一次分组放到Map中。
+// - 遍历Map，根据size大小对每个list进行等分。
+// [List等分参考地址](https://e.printstacktrace.blog/divide-a-list-to-lists-of-n-size-in-Java-8/)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> groupThePeople(int[] groupSizes) {
         Map<Integer, ArrayList<Integer>> intGroupMap = new HashMap<Integer, ArrayList<Integer>>();
@@ -32,4 +32,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

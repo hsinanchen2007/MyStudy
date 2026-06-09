@@ -1,11 +1,11 @@
-### 解题思路
-分3步进行思考
-1.如何反转单个链表
-2.当处于中间断的链表反转后，它们的首尾指向是怎样的
-3.如何保存原来最开始的点
-### 代码
+// ### 解题思路
+// 分3步进行思考
+// 1.如何反转单个链表
+// 2.当处于中间断的链表反转后，它们的首尾指向是怎样的
+// 3.如何保存原来最开始的点
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -47,4 +47,4 @@ var reverseBetween = function (head, m, n) {
   tail.next = cur;
   return record.next;
 };
-```
+// ```

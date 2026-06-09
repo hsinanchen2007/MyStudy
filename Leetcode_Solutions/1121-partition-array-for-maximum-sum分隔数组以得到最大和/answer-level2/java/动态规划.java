@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int maxSumAfterPartitioning(int[] nums, int k) {
         int n = nums.length;
@@ -19,4 +19,4 @@ class Solution {
         return dp[n];
     }
 }
-```
+// ```

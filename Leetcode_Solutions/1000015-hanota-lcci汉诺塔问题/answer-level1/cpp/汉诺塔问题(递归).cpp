@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution 
 {
 public:
@@ -21,4 +21,4 @@ public:
         if(n-1) move(n-1,B,A,C);
     }
 };
-```
+// ```

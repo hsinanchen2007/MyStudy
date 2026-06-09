@@ -1,5 +1,5 @@
-继续二刷补题解中，思路清晰
-```
+# 继续二刷补题解中，思路清晰
+# ```
 class Solution:
     def shoppingOffers(self, price: List[int], special: List[List[int]], needs: List[int]) -> int:
         l = len(price)
@@ -19,4 +19,4 @@ class Solution:
         # 先过滤掉不比原价买划算的礼包
         special = list(filter(lambda x: x[-1] < sum(x[i]*price[i] for i in range(l)), special))
         return shopping(special, needs)
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-rt
+# ### 解题思路
+# rt
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -18,4 +18,4 @@ class Solution:
                 return 0
             return 1 + max(helper(root.left), helper(root.right))
         return helper(root)
-```
+# ```

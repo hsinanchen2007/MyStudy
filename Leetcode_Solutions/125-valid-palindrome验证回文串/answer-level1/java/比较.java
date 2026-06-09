@@ -1,13 +1,13 @@
-### 解题思路
-挨个处理非定义字符并添加到StringBuilder
-注意StringBuilder对象的reverse方法是in-place的
+// ### 解题思路
+// 挨个处理非定义字符并添加到StringBuilder
+// 注意StringBuilder对象的reverse方法是in-place的
 
-注意最后的结果转换为String再比较，不要用StringBuilder比较
-时间复杂度O(n)，用时8ms
+// 注意最后的结果转换为String再比较，不要用StringBuilder比较
+// 时间复杂度O(n)，用时8ms
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isPalindrome(String s) {
         if (s == null || s.equals("")){
@@ -30,4 +30,4 @@ class Solution {
         }
     }
 }
-```
+// ```

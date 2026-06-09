@@ -1,9 +1,9 @@
-### 解题思路
-无脑解答
+// ### 解题思路
+// 无脑解答
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX_SQTNUM 46340
 int mySqrt(int x){
 	for(int i=0;;i++){
@@ -15,4 +15,4 @@ int mySqrt(int x){
 		}
     }
 }
-```
+// ```

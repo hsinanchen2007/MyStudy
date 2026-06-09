@@ -1,9 +1,9 @@
-🙋 我来咯，打卡！**求赞求赞～**
+// 🙋 我来咯，打卡！**求赞求赞～**
 
-递推方程：`dp[i] = max(dp[i - 1], dp[i - 2] + nums[i]`
+// 递推方程：`dp[i] = max(dp[i - 1], dp[i - 2] + nums[i]`
 
-1. 空间 $O(n)$
-```Java []
+// 1. 空间 $O(n)$
+// ```Java []
 class Solution {
     public int massage(int[] nums) {
         int n = nums.length;
@@ -22,10 +22,10 @@ class Solution {
         return dp[n - 1];
     }
 }
-```
+// ```
 
-2. 空间优化到 $O(1)$
-```Java []
+// 2. 空间优化到 $O(1)$
+// ```Java []
 class Solution {
     public int massage(int[] nums) {
         int a = 0, b = 0;
@@ -37,7 +37,7 @@ class Solution {
         return b;
     }
 }
-```
+// ```
 
 
-和[198. 打家劫舍](https://leetcode-cn.com/problems/house-robber/)是一模一样的重题，小偷系列一共三道都可以做做（198 213 337）
+// 和[198. 打家劫舍](https://leetcode-cn.com/problems/house-robber/)是一模一样的重题，小偷系列一共三道都可以做做（198 213 337）

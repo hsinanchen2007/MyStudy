@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int getMaxRepetitions(String s1, int n1, String s2, int n2) {
         char[] c1 = s1.toCharArray();
@@ -23,4 +23,4 @@ class Solution {
         return num2 / n2;
     }
 }
-```
+// ```

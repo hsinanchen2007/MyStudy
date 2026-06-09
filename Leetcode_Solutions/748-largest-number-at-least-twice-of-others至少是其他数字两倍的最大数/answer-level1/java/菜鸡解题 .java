@@ -1,9 +1,9 @@
-### 解题思路
-先找到最大值，然后遍历数组，记录最大值的索引
+// ### 解题思路
+// 先找到最大值，然后遍历数组，记录最大值的索引
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int dominantIndex(int[] nums) {
         int[] arrNums = nums.clone();
@@ -21,4 +21,4 @@ class Solution {
         return index;
     }
 }
-```
+// ```

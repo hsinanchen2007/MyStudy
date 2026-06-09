@@ -1,10 +1,10 @@
-### 解题思路
-    分两层循环：
-        外层遍历层次k：1，2，4，8......    共log(n)次
-        内层遍历长度l：2k，4k, 6k, 8k...， 共n次(每个节点都要访问)
-### 代码
+# ### 解题思路
+#     分两层循环：
+#         外层遍历层次k：1，2，4，8......    共log(n)次
+#         内层遍历长度l：2k，4k, 6k, 8k...， 共n次(每个节点都要访问)
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -68,4 +68,4 @@ class Solution(object):
 
 
         
-```
+# ```

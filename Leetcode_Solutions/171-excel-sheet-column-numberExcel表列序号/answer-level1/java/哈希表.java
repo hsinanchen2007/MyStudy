@@ -1,9 +1,9 @@
-### 解题思路
-先用哈希表把所有的字母的值存储起来，然后找到数学关系进行运算就可以了。
+// ### 解题思路
+// 先用哈希表把所有的字母的值存储起来，然后找到数学关系进行运算就可以了。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int titleToNumber(String s) {
         HashMap<Character, Integer> hashmap = new HashMap<>();
@@ -24,4 +24,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

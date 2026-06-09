@@ -1,9 +1,9 @@
-### 解题思路
-用栈实现
+// ### 解题思路
+// 用栈实现
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef unsigned int uint;
 typedef struct {
     uint top;
@@ -67,4 +67,4 @@ bool backspaceCompare(char * S, char * T){
 
     return  true;
 }
-```
+// ```

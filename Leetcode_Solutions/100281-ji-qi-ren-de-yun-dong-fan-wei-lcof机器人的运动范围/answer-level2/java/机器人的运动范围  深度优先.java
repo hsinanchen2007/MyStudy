@@ -1,9 +1,9 @@
-### 解题思路
-使用深度优先解决
+// ### 解题思路
+// 使用深度优先解决
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     //使用栈
     public int movingCount(int m, int n, int k) {
@@ -98,4 +98,4 @@ class Solution {
         return sum<=k;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-- 将字符串递归的分割成回文串；
+# ### 解题思路
+# - 将字符串递归的分割成回文串；
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def partition(self, s: str) -> List[List[str]]:
         res = []
@@ -16,4 +16,4 @@ class Solution:
                     solve(s[i:], tmp + [s[:i]])
         solve(s, [])
         return res
-```
+# ```

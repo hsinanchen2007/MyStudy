@@ -1,10 +1,10 @@
-### 解题思路
-从1开始把数字放到vector里面去，如果sum比target大，就删除前面的，如果小于target，就把后面的加进去。
-因为至少要两个数字，所以只需要判断到target一半的大小就可以了+
+// ### 解题思路
+// 从1开始把数字放到vector里面去，如果sum比target大，就删除前面的，如果小于target，就把后面的加进去。
+// 因为至少要两个数字，所以只需要判断到target一半的大小就可以了+
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> findContinuousSequence(int target) {
@@ -29,4 +29,4 @@ public:
         return result;
     }
 };
-```
+// ```

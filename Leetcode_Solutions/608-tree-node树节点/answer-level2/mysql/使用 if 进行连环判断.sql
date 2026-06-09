@@ -1,9 +1,9 @@
-### 解题思路
-哈哈哈，成功了
+-- ### 解题思路
+-- 哈哈哈，成功了
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 
 
@@ -16,4 +16,4 @@ select
                                       ), "Inner", "Leaf")) Type
 from
     tree;
-```
+-- ```

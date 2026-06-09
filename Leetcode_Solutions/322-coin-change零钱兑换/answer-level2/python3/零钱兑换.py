@@ -1,9 +1,9 @@
-### 解题思路
-functools用法+递归
+# ### 解题思路
+# functools用法+递归
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import functools
 class Solution:
     def coinChange(self, coins: List[int], amount: int) -> int:
@@ -52,4 +52,4 @@ class Solution:
         return helper(amount)
         
 
-```
+# ```

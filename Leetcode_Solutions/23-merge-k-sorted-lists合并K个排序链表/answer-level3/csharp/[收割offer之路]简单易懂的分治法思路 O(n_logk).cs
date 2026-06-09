@@ -1,5 +1,5 @@
-分治法思想 递归的两两合并 执行logk次
-```
+// 分治法思想 递归的两两合并 执行logk次
+// ```
 /*
  * @lc app=leetcode.cn id=23 lang=csharp
  *
@@ -74,4 +74,4 @@ public class Solution {
 // @lc code=end
 
 
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-和“56.合并区间”思路一致。
+# ### 解题思路
+# 和“56.合并区间”思路一致。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def insert(self, intervals: List[List[int]], newInterval: List[int]) -> List[List[int]]:
         intervals.append(newInterval) 
@@ -23,4 +23,4 @@ class Solution:
             i += 1
         return result
 
-```
+# ```

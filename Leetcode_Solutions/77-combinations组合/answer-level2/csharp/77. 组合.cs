@@ -1,9 +1,9 @@
-### 解题思路
-C# 回溯法
+// ### 解题思路
+// C# 回溯法
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public IList<IList<int>> Combine(int n, int k) {
         if(n<1 || k<1) return new List<IList<int>>();
@@ -29,4 +29,4 @@ public class Solution {
         }
     }
 }
-```
+// ```

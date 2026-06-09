@@ -1,12 +1,12 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/4b75f2234d57cd520c1a8d0e6549e65080e39129664330ce4e6758caa9538ef9-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/4b75f2234d57cd520c1a8d0e6549e65080e39129664330ce4e6758caa9538ef9-image.png)
 
-先跟着本能和直觉用了第一个递归，能work但是TLE了。于是用动态规划数组，这下快了，直接AC了。
+// 先跟着本能和直觉用了第一个递归，能work但是TLE了。于是用动态规划数组，这下快了，直接AC了。
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -41,4 +41,4 @@ var massage = function (nums) {
 
     return dp.pop();
 };
-```
+// ```

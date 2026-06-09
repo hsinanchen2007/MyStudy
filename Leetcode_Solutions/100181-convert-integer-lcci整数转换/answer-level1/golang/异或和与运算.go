@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func convertInteger(A int, B int) int {
     var count int
     A = A & math.MaxUint32
@@ -15,4 +15,4 @@ func convertInteger(A int, B int) int {
     }
     return count
 }
-```
+// ```

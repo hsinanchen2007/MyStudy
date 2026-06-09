@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func trap(height []int) int {
     res, leftMax, rightMax := 0, 0, 0
     for left,right:=0,len(height)-1;left<right; {
@@ -25,4 +25,4 @@ func trap(height []int) int {
     }
     return res
 }
-```
+// ```

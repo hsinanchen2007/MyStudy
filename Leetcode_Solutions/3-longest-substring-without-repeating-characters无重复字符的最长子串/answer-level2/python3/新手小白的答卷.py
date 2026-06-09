@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         m=0  # 初始化maxlength的值
@@ -20,4 +20,4 @@ class Solution:
                 j=l.index(s[i])
                 l=l[j+1:]       # 检测与新加入的重复的点，并保留后半段
         return m
-```# 在时间上和内存消耗上都表现的不太好，在下今天初次尝试，欢迎大神点评
+# ```# 在时间上和内存消耗上都表现的不太好，在下今天初次尝试，欢迎大神点评

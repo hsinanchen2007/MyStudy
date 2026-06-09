@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/cb84f47d13df14f35616d778775ecf971b5f649cc93c3ee9f324da9afa7dd7ac-image.png)
+// ![image.png](https://pic.leetcode-cn.com/cb84f47d13df14f35616d778775ecf971b5f649cc93c3ee9f324da9afa7dd7ac-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
 二分查找
 
 - 先处理重复值，如果左指针的值等于左指针右侧的值，指针右移
@@ -9,11 +9,11 @@
 
 判断哪一侧的数组是有序的，在有序的半区选出最小值与当前保存的最小值比较，更新结果
 继续二分查找另一侧
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} numbers
  * @return {number}
@@ -44,4 +44,4 @@ var minArray = function(numbers) {
   
   
   
-```
+// ```

@@ -1,5 +1,5 @@
-### 完整代码
-```
+// ### 完整代码
+// ```
 func plusOne(digits []int) []int {
     if len(digits) == 0 {
 		return digits
@@ -31,6 +31,6 @@ func plusOne(digits []int) []int {
 	}
 	return result
 }
-```
-### 执行结果
-![image.png](https://pic.leetcode-cn.com/003f47447fe77cde5c878232788af2f32c1d2c354149e3c70a9fabb8bbe60865-image.png)
+// ```
+// ### 执行结果
+// ![image.png](https://pic.leetcode-cn.com/003f47447fe77cde5c878232788af2f32c1d2c354149e3c70a9fabb8bbe60865-image.png)

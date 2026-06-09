@@ -1,4 +1,4 @@
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -28,4 +28,4 @@ func preorderTraversal(root *TreeNode) []int {
 	perOrder(root,&res)
 	return res
 }
-```
+// ```

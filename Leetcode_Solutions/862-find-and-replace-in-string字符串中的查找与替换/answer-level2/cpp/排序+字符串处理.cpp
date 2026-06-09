@@ -1,5 +1,5 @@
-对indexes, sources 和 targets 按照升序排列，然后再遍历一次字符串S，到indexes[id]==i的位置判定sources[id]是否是S中连续的一段，若是，则替换。
-```
+// 对indexes, sources 和 targets 按照升序排列，然后再遍历一次字符串S，到indexes[id]==i的位置判定sources[id]是否是S中连续的一段，若是，则替换。
+// ```
 class Solution {
 public:
     string findReplaceString(string S, vector<int>& indexes, vector<string>& sources, vector<string>& targets) {
@@ -30,4 +30,4 @@ public:
     }
 };
 
-```
+// ```

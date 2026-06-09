@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     string licenseKeyFormatting(string S, int K) {
@@ -28,5 +28,5 @@ public:
         return res;
     }
 };
-```
-![1.png](https://pic.leetcode-cn.com/210ade44d9b014f3bef4b8f7bc08bf1c025e60c2f195c52ca9eac2f60bcd18b6-1.png)
+// ```
+// ![1.png](https://pic.leetcode-cn.com/210ade44d9b014f3bef4b8f7bc08bf1c025e60c2f195c52ca9eac2f60bcd18b6-1.png)

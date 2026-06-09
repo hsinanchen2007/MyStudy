@@ -1,9 +1,9 @@
-### 解题思路
-n的倒数第一位就是temp的第一位，所以，通过位移运算符不断取n的倒数第1位，放在temp末尾然后temp左移就好。
+// ### 解题思路
+// n的倒数第一位就是temp的第一位，所以，通过位移运算符不断取n的倒数第1位，放在temp末尾然后temp左移就好。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 uint32_t reverseBits(uint32_t n)
 {
    uint32_t temp=n&1;
@@ -14,4 +14,4 @@ uint32_t reverseBits(uint32_t n)
     }
     return temp;
 }
-```
+// ```

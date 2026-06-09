@@ -1,12 +1,12 @@
-### 1、回溯（超时）
-1. 先将coins按降序排个序（其实不排也行）
-2. 处理coins[0]，可以取i个，i的范围是[0个，remain(最初值为amount)/coins[0]]
-3. 回溯，选择coins[1]可能的取值，remain为amount-coins[0]*i
-4. remain为0时表示找到了一个解，维护一个最小值
+// ### 1、回溯（超时）
+// 1. 先将coins按降序排个序（其实不排也行）
+// 2. 处理coins[0]，可以取i个，i的范围是[0个，remain(最初值为amount)/coins[0]]
+// 3. 回溯，选择coins[1]可能的取值，remain为amount-coins[0]*i
+// 4. remain为0时表示找到了一个解，维护一个最小值
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int cmp(const void *a, const void *b) {
     return *(int*)b - *(int*)a;
 }
@@ -41,18 +41,18 @@ int coinChange(int* coins, int coinsSize, int amount){
         return min;
     }
 }
-```
+// ```
 
-### 2、动态规划
-1. f[s]表示金额s所需的最小硬币数
-2. f[0] = 0
-3. 无解时f[i] = -1
-4. 一般情况下，对于f[i-coins[idx]]有解的情况（idx的最大值是coins[idx]不大于i），f[i]是这些解中的最小值，即：
-```
+// ### 2、动态规划
+// 1. f[s]表示金额s所需的最小硬币数
+// 2. f[0] = 0
+// 3. 无解时f[i] = -1
+// 4. 一般情况下，对于f[i-coins[idx]]有解的情况（idx的最大值是coins[idx]不大于i），f[i]是这些解中的最小值，即：
+// ```
 f[i] = min( f[i-coins[0]]+1, f[i-coins[1]+1, ... f[i-coins[m]+1] )
-```
+// ```
 
-```c
+// ```c
 int cmp_asend(const void *a, const void *b) {
     return *(int*)a - *(int*)b;
 }
@@ -86,4 +86,4 @@ int coinChange(int* coins, int coinsSize, int amount){
     }
     return f[amount];
 }
-```
+// ```

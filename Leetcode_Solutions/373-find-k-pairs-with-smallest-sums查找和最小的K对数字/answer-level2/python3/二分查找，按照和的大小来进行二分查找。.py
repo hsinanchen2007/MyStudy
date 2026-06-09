@@ -1,10 +1,10 @@
-### 解题思路
-很迷的是，leetcode这里竟然不通过，就算是截取了依然不通过。
-![leetcode.png](https://pic.leetcode-cn.com/97f6a4bd2ab19552bf99a0f55a0200d01fff722cd5205004c57009f793b353f1-leetcode.png)
+# ### 解题思路
+# 很迷的是，leetcode这里竟然不通过，就算是截取了依然不通过。
+# ![leetcode.png](https://pic.leetcode-cn.com/97f6a4bd2ab19552bf99a0f55a0200d01fff722cd5205004c57009f793b353f1-leetcode.png)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def kSmallestPairs(self, nums1: List[int], nums2: List[int], k: int) -> List[List[int]]:
         #正确但无法提交
@@ -60,4 +60,4 @@ class Solution:
         #         push(i+1, 0)
         # return res
 
-```
+# ```

@@ -1,6 +1,6 @@
-C语言，直接递归几行代码超时，用哈希提升下效率：
+// C语言，直接递归几行代码超时，用哈希提升下效率：
 
-```c []
+// ```c []
 typedef struct {
     unsigned short cnt;
     unsigned short maxCnt;

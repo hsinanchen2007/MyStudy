@@ -1,10 +1,10 @@
-### 解题思路
-二叉树最重要的遍历，面试常问。这篇文章写的真的棒，二叉树的进阶遍历morris
-https://zhuanlan.zhihu.com/p/101321696
+// ### 解题思路
+// 二叉树最重要的遍历，面试常问。这篇文章写的真的棒，二叉树的进阶遍历morris
+// https://zhuanlan.zhihu.com/p/101321696
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -35,4 +35,4 @@ class Solution {
         return left>right?left+1:right+1;
     }
 }
-```
+// ```

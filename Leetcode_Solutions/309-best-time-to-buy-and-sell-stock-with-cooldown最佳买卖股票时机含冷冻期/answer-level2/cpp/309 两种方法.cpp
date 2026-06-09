@@ -1,9 +1,9 @@
-### 解题思路
-方法一：常规方法，初始化一个三维数组，空间占用较大
-方法二：空间占用为常数
-### 代码
-方法一
-```
+// ### 解题思路
+// 方法一：常规方法，初始化一个三维数组，空间占用较大
+// 方法二：空间占用为常数
+// ### 代码
+// 方法一
+// ```
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
@@ -32,9 +32,9 @@ public:
         return profit[size-1][k][0];
     }
 };
-```
-方法二
-```
+// ```
+// 方法二
+// ```
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
@@ -52,4 +52,4 @@ public:
         return p_i_0;
     }
 };
-```
+// ```

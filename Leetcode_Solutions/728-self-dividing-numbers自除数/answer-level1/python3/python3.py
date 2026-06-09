@@ -1,5 +1,5 @@
-方法一：
-```
+# 方法一：
+# ```
 class Solution:
     def selfDividingNumbers(self, left: int, right: int) -> List[int]:
         result=[]
@@ -10,9 +10,9 @@ class Solution:
             else:
                 result.append(num) #如果没有break，这个数就是自除数
         return result
-```
-方法二：
-```
+# ```
+# 方法二：
+# ```
 class Solution:
     def selfDividingNumbers(self, left: int, right: int) -> List[int]:
         result=[]
@@ -25,4 +25,4 @@ class Solution:
             else:
                 result.append(original) #如果没有break，这个数就是自除数
         return result
-```
+# ```

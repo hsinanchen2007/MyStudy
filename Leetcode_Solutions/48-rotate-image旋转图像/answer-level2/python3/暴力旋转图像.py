@@ -1,5 +1,5 @@
-比较笨的方法,找到索引对应规律, matrix[row][col]对应的旋转之后的索引是matrix[col][n - 1 - row]
-```
+# 比较笨的方法,找到索引对应规律, matrix[row][col]对应的旋转之后的索引是matrix[col][n - 1 - row]
+# ```
 
 class Solution:
     def rotate(self, matrix: List[List[int]]) -> None:
@@ -14,4 +14,4 @@ class Solution:
             col = i % n
             matrix[col][n - 1 - row] = new_matrix[row][col]
 
-```
+# ```

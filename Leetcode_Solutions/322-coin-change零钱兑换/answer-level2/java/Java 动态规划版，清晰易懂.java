@@ -1,13 +1,13 @@
-### 解题思路
-class Solution {
-    经典的动态规划解题思路    
- f(n) = min(f(n-c1),f(n-c2),f(n-c3),...f(n-cn))+1。
-     f(n) 表示要凑齐金额为 n 的最小硬币数量。
-     两个例子去验证：[1,3,5] amount = 9
-     [2] amount = 3
-### 代码
+// ### 解题思路
+// class Solution {
+//     经典的动态规划解题思路    
+//  f(n) = min(f(n-c1),f(n-c2),f(n-c3),...f(n-cn))+1。
+//      f(n) 表示要凑齐金额为 n 的最小硬币数量。
+//      两个例子去验证：[1,3,5] amount = 9
+//      [2] amount = 3
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int coinChange(int[] coins, int amount) {
          if(amount == 0) return 0;
@@ -26,4 +26,4 @@ class Solution {
 
     }
 }
-```
+// ```

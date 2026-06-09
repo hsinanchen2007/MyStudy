@@ -1,6 +1,6 @@
-# 通过标记为计算。踩了多个坑。
+// # 通过标记为计算。踩了多个坑。
 
-```
+// ```
 bool circularArrayLoop(int* nums, int numsSize){
     if (nums == NULL || numsSize <= 0) {/* 第一个坑空数组 */
         return false;
@@ -35,5 +35,5 @@ bool circularArrayLoop(int* nums, int numsSize){
     flag = NULL;
     return false;
 }
-```
+// ```
 

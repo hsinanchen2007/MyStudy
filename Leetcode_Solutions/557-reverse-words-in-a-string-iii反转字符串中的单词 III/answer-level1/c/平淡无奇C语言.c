@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/e097b8d7c3cf5df9d85687004a250f48d3bf1fdc6e659c1915c19473304c5c46-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/e097b8d7c3cf5df9d85687004a250f48d3bf1fdc6e659c1915c19473304c5c46-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * reverseWords(char * s){
     int i, j;
     int len = strlen(s);
@@ -32,4 +32,4 @@ char * reverseWords(char * s){
     }
     return s;
 }
-```
+// ```

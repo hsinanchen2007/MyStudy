@@ -1,12 +1,12 @@
-### 解题思路
-先采用二分查找找出小于目标值的最大左值行，再在此行中根据二分查找查看是否有目标值。
-关于特殊情况的处理要仔细...
-4 ms, 在所有 C++ 提交中击败了99.53%的用户
+// ### 解题思路
+// 先采用二分查找找出小于目标值的最大左值行，再在此行中根据二分查找查看是否有目标值。
+// 关于特殊情况的处理要仔细...
+// 4 ms, 在所有 C++ 提交中击败了99.53%的用户
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
@@ -43,10 +43,10 @@ public:
     }
 };
 
-```
-参考了官网一次二分查找，代码简洁多了，但是执行效率还是一般..
+// ```
+// 参考了官网一次二分查找，代码简洁多了，但是执行效率还是一般..
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool searchMatrix(vector<vector<int>>& matrix,int target){
@@ -70,4 +70,4 @@ public:
         return false;
     }
 };
-```
+// ```

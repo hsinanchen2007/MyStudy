@@ -1,9 +1,9 @@
-### 解题思路
-嵌套子函数中不加nonlocal居然能报错
+# ### 解题思路
+# 嵌套子函数中不加nonlocal居然能报错
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -23,4 +23,4 @@ class Solution:
                 order(root.right)
         order(root)
         return s
-```
+# ```

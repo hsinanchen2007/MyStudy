@@ -1,9 +1,9 @@
-### 解题思路
-连接查询即可
+-- ### 解题思路
+-- 连接查询即可
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 
 
@@ -16,4 +16,4 @@ where u.purchase_date between p.start_date and end_date) t
 group by t.product_id
 
 
-```
+-- ```

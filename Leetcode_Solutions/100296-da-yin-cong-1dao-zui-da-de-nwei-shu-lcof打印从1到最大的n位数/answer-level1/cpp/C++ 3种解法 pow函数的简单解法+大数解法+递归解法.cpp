@@ -1,15 +1,15 @@
-### 解题思路
-1、针对本题的常规思路，利用pow函数，秒解
-2、假设可能出现大数（本题不可能），转换为大数问题求解
-本题自己对于大数解法，分别练习了使用char和string两种方式分别进行求解
--	通过使用char数组进行求解
-- 	通过使用string进行求解
+// ### 解题思路
+// 1、针对本题的常规思路，利用pow函数，秒解
+// 2、假设可能出现大数（本题不可能），转换为大数问题求解
+// 本题自己对于大数解法，分别练习了使用char和string两种方式分别进行求解
+// -	通过使用char数组进行求解
+// - 	通过使用string进行求解
 
-3、递归求解
-### 代码
+// 3、递归求解
+// ### 代码
 
-#### 针对本题的简单解法
-```cpp
+// #### 针对本题的简单解法
+// ```cpp
 class Solution {
 public:
 	vector<int> printNumbers(int n) {
@@ -23,10 +23,10 @@ public:
 		return res;
 	}
 }; 
-```
-#### 大数解法 char版
+// ```
+// #### 大数解法 char版
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	vector<int> res;
@@ -100,10 +100,10 @@ public:
 	}
 };
 
-```
+// ```
 
-#### 大数解法string版
-```cpp
+// #### 大数解法string版
+// ```cpp
 class Solution {
 public:
 	vector<int> res;
@@ -173,10 +173,10 @@ public:
 		res.push_back(num);
 	}
 };
-```
+// ```
 
-#### 递归解法
-```cpp
+// #### 递归解法
+// ```cpp
 class Solution
 {
 public:
@@ -228,4 +228,4 @@ public:
 		}
 	}
 };
-```
+// ```

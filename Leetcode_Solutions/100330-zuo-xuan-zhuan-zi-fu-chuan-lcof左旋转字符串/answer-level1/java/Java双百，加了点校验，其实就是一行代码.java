@@ -1,8 +1,8 @@
-### 解题思路
-此处撰写解题思路
-**不需要使用StringBuilder了**，针对这个，编译器会自动进行优化，可以使用IDEA查看编译后的解析：
+// ### 解题思路
+// 此处撰写解题思路
+// **不需要使用StringBuilder了**，针对这个，编译器会自动进行优化，可以使用IDEA查看编译后的解析：
 
-```java
+// ```java
     public static String reverseLeftWords(String s, int n) {
         if (s != null && s.length() != 0 && n <= s.length()) {
             StringBuilder stringBuilder = new StringBuilder();
@@ -12,11 +12,11 @@
             return null;
         }
     }
-```
+// ```
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String reverseLeftWords(String s, int n) {
         if(s == null || s.length() == 0 || n > s.length()){
@@ -25,4 +25,4 @@ class Solution {
         return s.substring(n) + s.substring(0, n);
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-直接使用LinkedList中的方法即可。
+// ### 解题思路
+// 直接使用LinkedList中的方法即可。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MyQueue {
 
     private Deque<Integer> list = null;
@@ -42,4 +42,4 @@ class MyQueue {
  * int param_3 = obj.peek();
  * boolean param_4 = obj.empty();
  */
-```
+// ```

@@ -1,5 +1,5 @@
-主要需要每次更新栈里面的最小值
-```javascript
+// 主要需要每次更新栈里面的最小值
+// ```javascript
 /**
  * initialize your data structure here.
  */
@@ -50,4 +50,4 @@ MinStack.prototype.getMin = function() {
  * var param_3 = obj.top()
  * var param_4 = obj.getMin()
  */
-```
+// ```

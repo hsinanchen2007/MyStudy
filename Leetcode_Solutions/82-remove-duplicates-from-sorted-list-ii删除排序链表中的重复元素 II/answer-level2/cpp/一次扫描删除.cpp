@@ -1,7 +1,7 @@
- 这里的关键在于需要找到所有的重复元素，然后全部删除掉，所以start记录重复之前的那个元素，比如1 2 2 3 4 ，则start =1 ,first =2 second = 2 ,然后first和second后移动，记录有多少重复的元素，当first!=second时候，就可以删除start到second之间所有的重复元素了！！！！！！！
- 这里依旧用到了重要的头结点。
+//  这里的关键在于需要找到所有的重复元素，然后全部删除掉，所以start记录重复之前的那个元素，比如1 2 2 3 4 ，则start =1 ,first =2 second = 2 ,然后first和second后移动，记录有多少重复的元素，当first!=second时候，就可以删除start到second之间所有的重复元素了！！！！！！！
+//  这里依旧用到了重要的头结点。
 
-```
+// ```
 class Solution
 {
 public:
@@ -66,4 +66,4 @@ public:
         return dummy.next;
     }
 };
-```
+// ```

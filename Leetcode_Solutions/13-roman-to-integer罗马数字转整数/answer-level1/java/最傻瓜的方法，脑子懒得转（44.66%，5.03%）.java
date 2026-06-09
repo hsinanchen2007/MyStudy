@@ -1,5 +1,5 @@
-这个是一篇，脑子都不用转就能看懂的代码，没有if else switch。
-```
+// 这个是一篇，脑子都不用转就能看懂的代码，没有if else switch。
+// ```
     public int romanToInt(String s) {
     	s = s.replace("IV", "a")
     		.replace("IX", "b")
@@ -27,4 +27,4 @@
     	}
     	return count;
     }
-```
+// ```

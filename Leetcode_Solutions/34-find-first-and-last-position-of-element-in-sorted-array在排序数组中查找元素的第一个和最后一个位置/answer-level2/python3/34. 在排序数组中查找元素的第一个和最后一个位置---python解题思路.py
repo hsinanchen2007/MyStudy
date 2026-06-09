@@ -1,6 +1,6 @@
-想了想不能循环每个的话...我能想到的大概就是通过二分法来缩小范围了。找到位置后开始以当前位置为锚点，向前，向后移动下标判断是否等于target
+# 想了想不能循环每个的话...我能想到的大概就是通过二分法来缩小范围了。找到位置后开始以当前位置为锚点，向前，向后移动下标判断是否等于target
 
-```python
+# ```python
 class Solution:
     def searchRange(self, nums: List[int], target: int) -> List[int]:
         if target not in nums: return [-1, -1]
@@ -17,22 +17,22 @@ class Solution:
                     if nums[start - 1] == target: start -= 1
                     if nums[end + 1] == target: end += 1
                     if nums[start - 1] != target and nums[end + 1] != target: return [start, end]
-```
+# ```
 
-发现遇到两种测试用例会down
+# 发现遇到两种测试用例会down
 
-```
+# ```
 nums = [1]
 target = 1
 和
 nums = [1, 8]
 target = 8
 也就是当数组长度<=2的时候会有问题，14行，15行会有越界问题
-```
+# ```
 
-下面是经过思考越界问题后的代码，
+# 下面是经过思考越界问题后的代码，
 
-```python
+# ```python
 class Solution:
     def searchRange(self, nums: List[int], target: int) -> List[int]:
         if target not in nums: return [-1, -1]
@@ -61,11 +61,11 @@ class Solution:
                         else: end_flag = 0
                     else: end_flag = 0
                 return [start, end]
-```
+# ```
 
-运行结果
+# 运行结果
 
-```
+# ```
 执行用时 :100 ms, 在所有 python3 提交中击败了84.79% 的用户
 内存消耗 :14.1 MB, 在所有 python3 提交中击败了5.30%的用户
 
@@ -74,15 +74,15 @@ class Solution:
 
 执行用时 :96 ms, 在所有 python3 提交中击败了92.26% 的用户
 内存消耗 :14.2 MB, 在所有 python3 提交中击败了5.30%的用户
-```
+# ```
 
-代码有点繁杂，看一下官方解答优化一下代码
+# 代码有点繁杂，看一下官方解答优化一下代码
 
-有点失望的是官方也只提供了二分法去解题，希望官方以后可以多几种解题思路
+# 有点失望的是官方也只提供了二分法去解题，希望官方以后可以多几种解题思路
 
-下面是官方的代码
+# 下面是官方的代码
 
-```python
+# ```python
 class Solution:
     def extreme_insertion_index(self, nums, target, left):
         lo = 0
@@ -99,11 +99,11 @@ class Solution:
         if left_idx == len(nums) or nums[left_idx] != target:
             return [-1, -1]
         return [left_idx, self.extreme_insertion_index(nums, target, False)-1]
-```
+# ```
 
-官方运行结果
+# 官方运行结果
 
-```
+# ```
 执行用时 :148 ms, 在所有 python3 提交中击败了11.41% 的用户
 内存消耗 :14 MB, 在所有 python3 提交中击败了5.30%的用户
 
@@ -112,10 +112,10 @@ class Solution:
 
 执行用时 :136 ms, 在所有 python3 提交中击败了16.77% 的用户
 内存消耗 :14.2 MB, 在所有 python3 提交中击败了5.30%的用户
-```
+# ```
 
-结果可以看到其实差不多，都是同样的思路不会有太大的差别，当是代码的简略就比不上官方了。
+# 结果可以看到其实差不多，都是同样的思路不会有太大的差别，当是代码的简略就比不上官方了。
 
-后面有空再优化代码嘿嘿
+# 后面有空再优化代码嘿嘿
 
-欢迎来github上看更多题目的解答[力扣解题思路](https://github.com/WRAllen/LeetCode)
+# 欢迎来github上看更多题目的解答[力扣解题思路](https://github.com/WRAllen/LeetCode)

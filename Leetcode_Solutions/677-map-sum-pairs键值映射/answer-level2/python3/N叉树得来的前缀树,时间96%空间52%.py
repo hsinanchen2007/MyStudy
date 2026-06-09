@@ -1,4 +1,4 @@
-```python
+# ```python
 class MapSum:
 
     def __init__(self,isword=False):
@@ -30,4 +30,4 @@ class MapSum:
         return rst
 # 执行用时 :28 ms, 在所有 Python3 提交中击败了96.06%的用户
 # 内存消耗 :13 MB, 在所有 Python3 提交中击败了52.43%的用户
-```
+# ```

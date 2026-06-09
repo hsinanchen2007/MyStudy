@@ -1,9 +1,9 @@
-### 解题思路
-关键是要能理解：最远能到达某个位置，就一定能到达它前面的任何位置。
+# ### 解题思路
+# 关键是要能理解：最远能到达某个位置，就一定能到达它前面的任何位置。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def canJump(self, nums):
         """
@@ -21,4 +21,4 @@ class Solution(object):
                 return True
         return False
 
-```
+# ```

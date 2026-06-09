@@ -1,6 +1,6 @@
-beat 95.75%
+// beat 95.75%
 
-```
+// ```
 int* countBits(int num, int* returnSize){
     *returnSize = num + 1;
     int *r = (int *)malloc((num+1) * sizeof(int));
@@ -10,4 +10,4 @@ int* countBits(int num, int* returnSize){
     }
     return r;
 }
-```
+// ```

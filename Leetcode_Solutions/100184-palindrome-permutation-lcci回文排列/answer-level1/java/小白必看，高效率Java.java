@@ -1,10 +1,10 @@
-### 解题思路
-观察回文字符串的特性，奇数个个数的字符必须只能存在1个或0个，所以这个问题变成了统计每个字符个数的问题。
-做题要透过现象看本质，方能一通百通，无脑刷题不可取。
+// ### 解题思路
+// 观察回文字符串的特性，奇数个个数的字符必须只能存在1个或0个，所以这个问题变成了统计每个字符个数的问题。
+// 做题要透过现象看本质，方能一通百通，无脑刷题不可取。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canPermutePalindrome(String s) {
         Map<Character, Integer> map = new HashMap<>();
@@ -23,4 +23,4 @@ class Solution {
         return count == 1 || count == 0;
     }
 }
-```
+// ```

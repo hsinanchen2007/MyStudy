@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def kInversePairs(n: Int, k: Int): Int = {
     val M = 1000000007
@@ -14,4 +14,4 @@ object Solution {
     dp(n)(k)
   }
 }
-```
+// ```

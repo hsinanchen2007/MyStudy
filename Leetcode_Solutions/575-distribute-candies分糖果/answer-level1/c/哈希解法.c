@@ -1,4 +1,4 @@
-```
+// ```
 int distributeCandies(int* candies, int candiesSize)
 {
     int arr[200001]={0};
@@ -15,4 +15,4 @@ int distributeCandies(int* candies, int candiesSize)
     max = candiesSize/2;
     return max > sum ? sum : max;
 }
-```
+// ```

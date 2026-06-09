@@ -1,4 +1,4 @@
-```
+// ```
 func totalNQueens(n int) (rst int) {
 	return map[int]int{
 		0:  0,
@@ -25,4 +25,4 @@ func totalNQueens(n int) (rst int) {
 		21: 314666222712,
 	}[n]
 }
-```
+// ```

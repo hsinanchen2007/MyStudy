@@ -1,5 +1,5 @@
-- 使用栈操作即可
-```cpp
+// - 使用栈操作即可
+// ```cpp
 class Solution {
 public:
     NestedInteger deserialize(string S) {
@@ -33,4 +33,4 @@ public:
         return NestedInteger();
     }
 };
-```
+// ```

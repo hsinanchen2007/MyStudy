@@ -1,9 +1,9 @@
-### 解题思路
-strcmp is all
+// ### 解题思路
+// strcmp is all
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct {
     int id;
     char buf[32];
@@ -100,4 +100,4 @@ void logSystemFree(LogSystem* obj) {
  
  * logSystemFree(obj);
 */
-```
+// ```

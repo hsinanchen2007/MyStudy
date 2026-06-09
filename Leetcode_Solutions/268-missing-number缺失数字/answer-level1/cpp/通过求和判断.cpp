@@ -1,9 +1,9 @@
-### 解题思路
-求和相减判断
+// ### 解题思路
+// 求和相减判断
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int missingNumber(vector<int>& nums) {
@@ -15,4 +15,4 @@ public:
         return sum;
     }
 };
-```
+// ```

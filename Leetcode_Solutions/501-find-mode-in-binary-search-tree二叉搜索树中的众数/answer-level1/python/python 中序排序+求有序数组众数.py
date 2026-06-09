@@ -1,9 +1,9 @@
-### 解题思路
-将题目拆解为：中序遍历+有序数组求众数，2个简单的小问题。虽然这样时间复杂性较高，但是程序比较好理解
+# ### 解题思路
+# 将题目拆解为：中序遍历+有序数组求众数，2个简单的小问题。虽然这样时间复杂性较高，但是程序比较好理解
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -42,4 +42,4 @@ class Solution(object):
                 ans.append(nums[i])
                 max_num=cur_num
         return ans
-```
+# ```

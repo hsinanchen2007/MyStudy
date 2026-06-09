@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minIncrementForUnique(self, A: List[int]) -> int:
         A.sort()
@@ -14,10 +14,10 @@ class Solution:
                 A[i] = A[i-1]+1
         return count
 
-```
+# ```
 
 
 
-the very nice method for this problem
+# the very nice method for this problem
 
-贪心算法，排序后按规定排列为最小值
+# 贪心算法，排序后按规定排列为最小值

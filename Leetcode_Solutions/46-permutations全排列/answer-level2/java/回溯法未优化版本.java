@@ -1,4 +1,4 @@
-```
+// ```
     public static void main(String[] args) {
         int[] nums = {1,2,3};
         System.out.println(new Quanpailie40().permute(nums));
@@ -48,4 +48,4 @@ private List<List<Integer>> res = new ArrayList<>();
         }
         return;
     }
-```
+// ```

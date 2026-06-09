@@ -1,18 +1,18 @@
-第一次写题解，有什么不太妥当的地方欢迎大家指出。
-主要是两种方法，一种是双指针，一种是伪分治
+// 第一次写题解，有什么不太妥当的地方欢迎大家指出。
+// 主要是两种方法，一种是双指针，一种是伪分治
 
-# 双指针
+// # 双指针
 
-两个指针 i ， j 分别从左右两端向内移动
-两个指标 leftMax, rightMax 分别用于存储 [:i+1],[j:] 最高的墙
+// 两个指针 i ， j 分别从左右两端向内移动
+// 两个指标 leftMax, rightMax 分别用于存储 [:i+1],[j:] 最高的墙
 
-既定条件：
-对于任何一个位置x，其可容纳的水柱高度为**min(leftMax,rightMax)-height[x]**
-e.g.如果是左侧的高墙更高，那么只能移动右侧的指针，因为 height[j] <= rightMax <= leftMax
-所以可以容纳 rightMax - height[j] 的水量，并且一定不会溢出两边的高墙。
-右侧同理。
+// 既定条件：
+// 对于任何一个位置x，其可容纳的水柱高度为**min(leftMax,rightMax)-height[x]**
+// e.g.如果是左侧的高墙更高，那么只能移动右侧的指针，因为 height[j] <= rightMax <= leftMax
+// 所以可以容纳 rightMax - height[j] 的水量，并且一定不会溢出两边的高墙。
+// 右侧同理。
 
-具体的实现方法：
+// 具体的实现方法：
 
 ![image.png](https://pic.leetcode-cn.com/8866026a02a82e6590e775587a7552476d06eff5d18e7ded109b1e505369e3ea-image.png)
 

@@ -1,9 +1,9 @@
-### 解题思路
-比较标准的动态规划模板之一，取左边和上面更大的那个作为前一步的落脚点
+// ### 解题思路
+// 比较标准的动态规划模板之一，取左边和上面更大的那个作为前一步的落脚点
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxValue(vector<vector<int>>& grid) {
@@ -30,4 +30,4 @@ public:
         return grid[grid.size() - 1][grid[0].size() - 1];
     }
 };
-```
+// ```

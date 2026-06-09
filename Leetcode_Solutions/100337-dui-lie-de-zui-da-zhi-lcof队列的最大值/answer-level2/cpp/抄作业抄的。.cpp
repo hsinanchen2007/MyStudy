@@ -1,9 +1,9 @@
-### 解题思路
-双端队列辅助。
+// ### 解题思路
+// 双端队列辅助。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MaxQueue {
 public:
     MaxQueue() {
@@ -43,4 +43,4 @@ public:
     std::queue<int> numsQ;
     std::deque<int> maxQ;
 };
-```
+// ```

@@ -1,9 +1,9 @@
-参考评论 @唐炜依 大神的写法，第二次循环时添加了一个判断，不然会报错。
-思路：二分法
-1. 先找左边界，从右侧逼近；
-2. 再找右边界，从左侧逼近，注意：在跳出循环时，会出现两种情况：1. 该值等于target，2. 该值大于target
+// 参考评论 @唐炜依 大神的写法，第二次循环时添加了一个判断，不然会报错。
+// 思路：二分法
+// 1. 先找左边界，从右侧逼近；
+// 2. 再找右边界，从左侧逼近，注意：在跳出循环时，会出现两种情况：1. 该值等于target，2. 该值大于target
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -32,4 +32,4 @@ var searchRange = function(nums, target) {
   else result[1] = r - 1
   return result;
 };
-```
+// ```

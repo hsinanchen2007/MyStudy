@@ -1,5 +1,5 @@
-排序后， 从后到前，分别相加左右两边的和，比较大小，输出即可
-```
+// 排序后， 从后到前，分别相加左右两边的和，比较大小，输出即可
+// ```
 class Solution {
     public List<Integer> minSubsequence(int[] nums) {
         Arrays.sort(nums);
@@ -19,4 +19,4 @@ class Solution {
         return null;
     }
 }
-```
+// ```

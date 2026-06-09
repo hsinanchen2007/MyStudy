@@ -1,31 +1,31 @@
-LFU数据结构设计：
-1. 双向链表`HeadEntry`，存：
-    - `key`：访问次数
-    - `value`：`HeadEntry`下挂的链表长度
-    - `head`：`HeadEntry`下挂的链表头
-    - `prev`, `next`：指针
-   `HeadEntry`会用散列表`headers`存储起来（以`key`作为键）
-2. 每个`HeadEntry`挂一个键值双向链表`Entry`，且首尾相连
-    - `key`：对应的键
-    - `value`：对应的值
-    -  `prev`, `next`：指针
-    `Entry`也会用散列表`storage`存储起来（以`key`作为键）
-3. `counts`散列表：存储某个`key`的访问次数
+// LFU数据结构设计：
+// 1. 双向链表`HeadEntry`，存：
+//     - `key`：访问次数
+//     - `value`：`HeadEntry`下挂的链表长度
+//     - `head`：`HeadEntry`下挂的链表头
+//     - `prev`, `next`：指针
+//    `HeadEntry`会用散列表`headers`存储起来（以`key`作为键）
+// 2. 每个`HeadEntry`挂一个键值双向链表`Entry`，且首尾相连
+//     - `key`：对应的键
+//     - `value`：对应的值
+//     -  `prev`, `next`：指针
+//     `Entry`也会用散列表`storage`存储起来（以`key`作为键）
+// 3. `counts`散列表：存储某个`key`的访问次数
 
-`get`时：根据`counts`表和`headers`表获得表头和表项，将表项移除原链表，并放到下一个链表头（若没有则需创建），原表空（即`headEntry.value == 0`）则需删除对应表头，然后更新`counts`, `storage`, `headers`等字段
+// `get`时：根据`counts`表和`headers`表获得表头和表项，将表项移除原链表，并放到下一个链表头（若没有则需创建），原表空（即`headEntry.value == 0`）则需删除对应表头，然后更新`counts`, `storage`, `headers`等字段
 
-`put`时：
-- 若键值存在，则直接更新并执行一次`get`
-- 若不存在，则先找是否需要删除，删除项只要移除第一个链表的尾部即可（`headers[0].next.head.prev`），表空则对应表头要删除，然后将新项插入第一个链表里（但要保证第一个链表头的`key`是1，若没有则需新创建），然后更新`counts`, `storage`, `headers`等字段
+// `put`时：
+// - 若键值存在，则直接更新并执行一次`get`
+// - 若不存在，则先找是否需要删除，删除项只要移除第一个链表的尾部即可（`headers[0].next.head.prev`），表空则对应表头要删除，然后将新项插入第一个链表里（但要保证第一个链表头的`key`是1，若没有则需新创建），然后更新`counts`, `storage`, `headers`等字段
 
----
-> 而LRU只需维护一个双向链表栈+散列表就可以了
----
+// ---
+// > 而LRU只需维护一个双向链表栈+散列表就可以了
+// ---
 
-具体的参考：http://dhruvbird.com/lfu.pdf，也有人贴出图了。
+// 具体的参考：http://dhruvbird.com/lfu.pdf，也有人贴出图了。
 
-代码如下（随便写的，很丑）：
-```java
+// 代码如下（随便写的，很丑）：
+// ```java
 class LFUCache {
 
     // count linked list: 0 <-> 1 <-> ...
@@ -186,4 +186,4 @@ class LFUCache {
         }
     }
 }
-```
+// ```

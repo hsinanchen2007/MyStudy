@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def minDepth(self, root: TreeNode) -> int:
         # 首先计算边界，root为空则返回深度0
@@ -27,4 +27,4 @@ class Solution:
         # 初始化更新过程，root的深度设为1
         helper(root, 1)
         return self.min_depth
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 package main
 
 import "fmt"
@@ -142,4 +142,4 @@ func main() {
 	fmt.Println(cache.Get(4)) // 返回 4
 }
 
-```
+// ```

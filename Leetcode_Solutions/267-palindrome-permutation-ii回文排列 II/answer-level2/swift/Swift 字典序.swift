@@ -1,6 +1,6 @@
-先找出一半的字符，然后找这一半字符的所有字典序，生成字典序的过程是自带去重的，因此最终只需要进行逆序和拼接就可以了
+// 先找出一半的字符，然后找这一半字符的所有字典序，生成字典序的过程是自带去重的，因此最终只需要进行逆序和拼接就可以了
 
-```swift
+// ```swift
 
 func generatePalindromes(_ s: String) -> [String] {
  
@@ -57,4 +57,4 @@ func generatePalindromes(_ s: String) -> [String] {
     return result
 }
 
-```
+// ```

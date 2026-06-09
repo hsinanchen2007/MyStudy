@@ -1,9 +1,9 @@
-### 解题思路
-NA
+// ### 解题思路
+// NA
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> createTargetArray(vector<int>& nums, vector<int>& index) {
@@ -16,4 +16,4 @@ public:
         return res;
     }
 };
-```
+// ```

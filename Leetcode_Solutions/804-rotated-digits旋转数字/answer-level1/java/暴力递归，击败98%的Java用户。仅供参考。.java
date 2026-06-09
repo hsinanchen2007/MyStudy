@@ -1,10 +1,10 @@
-### 解题思路
-看当前数是否是好数，再递归调用计算rotatedDigits(N-1)。
-至于判断当前数，主要是看每一位是否都是旋转数0/1/2/5/6/8/9，并且不能都是0/1/8。
+// ### 解题思路
+// 看当前数是否是好数，再递归调用计算rotatedDigits(N-1)。
+// 至于判断当前数，主要是看每一位是否都是旋转数0/1/2/5/6/8/9，并且不能都是0/1/8。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int rotatedDigits(int N) {
         if (N == 1) return 0;
@@ -24,4 +24,4 @@ class Solution {
         return ((isGood && !isAll018) ? 1 : 0) + rotatedDigits(N - 1);
     };
 }
-```
+// ```

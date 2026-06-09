@@ -1,9 +1,9 @@
-### 解题思路
-先通过前序遍历构造成树转中序遍历，然后在把得到的两个列表合并排序一下就行
+# ### 解题思路
+# 先通过前序遍历构造成树转中序遍历，然后在把得到的两个列表合并排序一下就行
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -39,4 +39,4 @@ def mid_tree(root,res):
     mid_tree(root.right,res)
     return res
 
-```
+# ```

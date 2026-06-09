@@ -1,6 +1,6 @@
-KMP 算法中的 next 数组描述的就是字符串中前缀与后缀的最长匹配长度. `next[i] = j` 表示在 i 之前的子串的最长匹配长度为 j, 即前缀 `[0, ..., j - 1]` 与后缀 `[i - j, ..., i - 1]` 匹配, 这样求得的 `next[s.length()]` 即为快乐前缀的最长长度.
+// KMP 算法中的 next 数组描述的就是字符串中前缀与后缀的最长匹配长度. `next[i] = j` 表示在 i 之前的子串的最长匹配长度为 j, 即前缀 `[0, ..., j - 1]` 与后缀 `[i - j, ..., i - 1]` 匹配, 这样求得的 `next[s.length()]` 即为快乐前缀的最长长度.
 
-```java
+// ```java
 class Solution {
   public String longestPrefix(String s) {
     int[] next = getNext(s);
@@ -24,4 +24,4 @@ class Solution {
     return next;
   }
 }
-```
+// ```

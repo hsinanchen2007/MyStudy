@@ -1,5 +1,5 @@
-这题采用状态回溯法，难点就是查找状态之间的转移关系，看以下代码配合注释应该就可以理解
-```
+// 这题采用状态回溯法，难点就是查找状态之间的转移关系，看以下代码配合注释应该就可以理解
+// ```
 // time complexity O(n * n * 2)
 class Solution {
     public int catMouseGame(int[][] adj) {
@@ -83,4 +83,4 @@ class Solution {
         return status[1][2][0];
     }
 }
-```
+// ```

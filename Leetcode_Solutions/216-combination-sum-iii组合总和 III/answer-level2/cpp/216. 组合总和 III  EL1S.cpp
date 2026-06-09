@@ -1,10 +1,10 @@
-嘻嘻嘻
-![image.png](https://pic.leetcode-cn.com/d41ff12b36aa477459f168e47d433f2137b04339353e8b2f55cd05aeacdd81e5-image.png)
+// 嘻嘻嘻
+// ![image.png](https://pic.leetcode-cn.com/d41ff12b36aa477459f168e47d433f2137b04339353e8b2f55cd05aeacdd81e5-image.png)
 
-首先我们看一下这道题和39题，40题的区别
-这道题说的是从1-9里面挑选k个数，和为n
-也就是在40题的基础上加了一个条件k个数，数组则变成了[1,2,3,4,5,6,7,8,9]
-```
+// 首先我们看一下这道题和39题，40题的区别
+// 这道题说的是从1-9里面挑选k个数，和为n
+// 也就是在40题的基础上加了一个条件k个数，数组则变成了[1,2,3,4,5,6,7,8,9]
+// ```
 class Solution {
     vector<vector<int>> res;
     vector<int> v;
@@ -41,5 +41,5 @@ public:
         return res;
     }
 };
-```
+// ```
 

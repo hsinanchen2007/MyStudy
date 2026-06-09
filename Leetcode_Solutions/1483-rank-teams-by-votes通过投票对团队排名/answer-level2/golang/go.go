@@ -1,14 +1,14 @@
-### 解题思路
-1.map统计
-2.转map为切片 
-type elem struct {
-    value byte      // 团队名
-    rate  []int     // rate[i]表示该团队第i名的票数
-}
-3.排序
-### 代码
+// ### 解题思路
+// 1.map统计
+// 2.转map为切片 
+// type elem struct {
+//     value byte      // 团队名
+//     rate  []int     // rate[i]表示该团队第i名的票数
+// }
+// 3.排序
+// ### 代码
 
-```golang
+// ```golang
 func rankTeams(votes []string) string {
     tmp := make(map[byte][]int, 0)
     for i := range votes[0] {
@@ -58,4 +58,4 @@ func (s IntSlice) Less(i, j int) bool {
     }
     return s[i].value > s[j].value
 }
-```
+// ```

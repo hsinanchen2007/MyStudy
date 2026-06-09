@@ -1,13 +1,13 @@
-### 解题思路
-此处撰写解题思路
-![图片.png](https://pic.leetcode-cn.com/fecfd5cbb20d37cf411ceac9aad3bcd76f0469845adfef39be8755ee91316ba2-%E5%9B%BE%E7%89%87.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![图片.png](https://pic.leetcode-cn.com/fecfd5cbb20d37cf411ceac9aad3bcd76f0469845adfef39be8755ee91316ba2-%E5%9B%BE%E7%89%87.png)
 
-**从边缘开始DFS，然后看内部哪些没有被遍历到，设置为X就行了。**
-**每次DFS之前判断一下是否需要DFS可以加速。**
+// **从边缘开始DFS，然后看内部哪些没有被遍历到，设置为X就行了。**
+// **每次DFS之前判断一下是否需要DFS可以加速。**
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void solve(char[][] board) {
         if (board == null || board.length == 0 || board[0].length == 0) return;
@@ -47,4 +47,4 @@ class Solution {
         }
     }
 }
-```
+// ```

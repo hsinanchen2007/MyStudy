@@ -1,12 +1,12 @@
-**方法**
-1. 先处理深度, 再截取数字
-2. 利用切片模拟入栈和出栈记录父节点的指针
+// **方法**
+// 1. 先处理深度, 再截取数字
+// 2. 利用切片模拟入栈和出栈记录父节点的指针
 
-**结果**
-![image.png](https://pic.leetcode-cn.com/e0dc00c59c7dd8d13385d4be3450a9165afffe0c465dc90aa20fa9cb79a063e6-image.png)
+// **结果**
+// ![image.png](https://pic.leetcode-cn.com/e0dc00c59c7dd8d13385d4be3450a9165afffe0c465dc90aa20fa9cb79a063e6-image.png)
 
-**代码**
-```
+// **代码**
+// ```
 func recoverFromPreorder(S string) *TreeNode {
 
 	l := len(S)
@@ -57,6 +57,6 @@ func recoverFromPreorder(S string) *TreeNode {
 
 	return dummy.Left
 }
-```
+// ```
 
 

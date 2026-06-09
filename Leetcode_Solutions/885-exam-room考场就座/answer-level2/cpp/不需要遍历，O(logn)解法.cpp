@@ -1,5 +1,5 @@
-将连续空位的左右坐标编码作为value， 以空位中的最大距离和可坐的位置编码作为key。利用map的红黑树实现自动排序，取最大，删除和插入都是O(logn)。
-```c++
+// 将连续空位的左右坐标编码作为value， 以空位中的最大距离和可坐的位置编码作为key。利用map的红黑树实现自动排序，取最大，删除和插入都是O(logn)。
+// ```c++
 typedef unsigned long LONG;
 class ExamRoom {
 public:
@@ -72,4 +72,4 @@ public:
     unordered_map<int, int> right;//以p为 右端的连续空位的左端坐标
     int n;
 };
-```
+// ```

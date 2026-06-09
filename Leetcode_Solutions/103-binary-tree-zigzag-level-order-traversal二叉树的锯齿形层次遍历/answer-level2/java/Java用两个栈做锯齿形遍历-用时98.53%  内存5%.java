@@ -1,11 +1,11 @@
-### 解题思路
-用了两个栈，一个栈current用来输出当前层顺序，一个栈next用来存储下一层节点，需要一个变量lefttoright记录当前是从左往右还是从右往左，决定了需要先插入左子节点还是右子节点，每一层遍历完时，做存入结果list,将lefttoright取反，交换两个栈(让next栈为空)三个操作。
-基本还是中序遍历的变体。
+// ### 解题思路
+// 用了两个栈，一个栈current用来输出当前层顺序，一个栈next用来存储下一层节点，需要一个变量lefttoright记录当前是从左往右还是从右往左，决定了需要先插入左子节点还是右子节点，每一层遍历完时，做存入结果list,将lefttoright取反，交换两个栈(让next栈为空)三个操作。
+// 基本还是中序遍历的变体。
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -56,4 +56,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

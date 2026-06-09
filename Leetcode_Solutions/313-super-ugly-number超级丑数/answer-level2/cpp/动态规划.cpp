@@ -1,9 +1,9 @@
-### 解题思路
-需要注意的是，ptr这个数组是以primes[]数组为目标记录的，用re为基础来记录也可以，但是铁超时，内存估计也会超(re集可以非常大，而primes数组毕竟有限)
+// ### 解题思路
+// 需要注意的是，ptr这个数组是以primes[]数组为目标记录的，用re为基础来记录也可以，但是铁超时，内存估计也会超(re集可以非常大，而primes数组毕竟有限)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int nthSuperUglyNumber(int n, vector<int>& primes) {
@@ -26,4 +26,4 @@ public:
         return re[n-1];
     }
 };
-```
+// ```

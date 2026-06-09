@@ -1,6 +1,6 @@
-借鉴了题解中 `不用约分` 和 `C++简单几行的规律题`
+// 借鉴了题解中 `不用约分` 和 `C++简单几行的规律题`
 
-```
+// ```
 #include "LCP2.h"
 #include<vector>
 using namespace std;
@@ -15,4 +15,4 @@ public:
         return {up,down};
     }
 };
-```
+// ```

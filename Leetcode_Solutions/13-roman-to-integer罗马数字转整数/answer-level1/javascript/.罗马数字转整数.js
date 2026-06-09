@@ -1,9 +1,9 @@
-### 解题思路
-简单理解使用map映射，取出最大罗马树，跟后一个比较大于的话就减去，小于的话就加上
+// ### 解题思路
+// 简单理解使用map映射，取出最大罗马树，跟后一个比较大于的话就减去，小于的话就加上
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {number}
@@ -32,4 +32,4 @@ var romanToInt = function(s) {
   res += pre;
   return res;
 };
-```
+// ```

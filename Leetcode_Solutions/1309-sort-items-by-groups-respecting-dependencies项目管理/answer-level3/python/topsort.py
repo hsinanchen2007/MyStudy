@@ -1,11 +1,11 @@
-### 解题思路
-1. 组间拓扑排序
-2. 组内拓扑排序
-3. 拼接结果
+# ### 解题思路
+# 1. 组间拓扑排序
+# 2. 组内拓扑排序
+# 3. 拼接结果
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 from collections import defaultdict
 
 def topsort(grid):
@@ -72,4 +72,4 @@ class Solution(object):
             ans.extend(items_order)
 
         return ans if len(ans) == n else []
-```
+# ```

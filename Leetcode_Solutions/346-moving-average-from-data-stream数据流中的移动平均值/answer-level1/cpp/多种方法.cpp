@@ -1,11 +1,11 @@
-### 解题思路
-- 可以采用队列实现
-- 采用固定数组空间实现
+// ### 解题思路
+// - 可以采用队列实现
+// - 采用固定数组空间实现
 
-### 代码
+// ### 代码
 
-228ms 47.2MB 被95%老哥打败
-```cpp
+// 228ms 47.2MB 被95%老哥打败
+// ```cpp
 class MovingAverage {
 private: 
     int max_size;
@@ -37,4 +37,4 @@ public:
  * MovingAverage* obj = new MovingAverage(size);
  * double param_1 = obj->next(val);
  */
-```
+// ```

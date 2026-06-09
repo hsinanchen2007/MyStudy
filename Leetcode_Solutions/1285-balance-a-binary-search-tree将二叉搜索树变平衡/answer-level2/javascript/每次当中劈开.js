@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/63f55adf9436c5c4625b705c7318a3f75fb8fc9413fa79543b603f2ee8c735fe-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/63f55adf9436c5c4625b705c7318a3f75fb8fc9413fa79543b603f2ee8c735fe-image.png)
 
-序列化为数组，数组排序，当中劈开分左右树，再递归劈开。。。
-### 代码
+// 序列化为数组，数组排序，当中劈开分左右树，再递归劈开。。。
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -50,4 +50,4 @@ var balanceBST = function (root) {
     }
     return buildTree(treeArr);
 };
-```
+// ```

@@ -1,7 +1,7 @@
-![图片.png](https://pic.leetcode-cn.com/671ce259024cca14d5631a83e27cc4f23ca804b4d3eb773d23b7726fb6fd93ba-%E5%9B%BE%E7%89%87.png)
+// ![图片.png](https://pic.leetcode-cn.com/671ce259024cca14d5631a83e27cc4f23ca804b4d3eb773d23b7726fb6fd93ba-%E5%9B%BE%E7%89%87.png)
 
 
-```
+// ```
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -62,5 +62,5 @@ int* arrayRankTransform(int* arr, int arrSize, int* returnSize){
 
 
 
-```
+// ```
 

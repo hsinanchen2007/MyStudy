@@ -1,7 +1,7 @@
-我跟你讲，这招绝对暴力
+// 我跟你讲，这招绝对暴力
 
-代码：
-```
+// 代码：
+// ```
 class Solution {
 public:
     bool isPowerOfTwo(int n) {
@@ -41,4 +41,4 @@ public:
         }
     }
 };
-```
+// ```

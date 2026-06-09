@@ -1,6 +1,6 @@
-方法一： 递归
+// 方法一： 递归
 
-```javascript
+// ```javascript
 /**
  * 递归算法
  * @param {Node} root
@@ -10,11 +10,11 @@ var preorder = function(root) {
   if(!root) return [];
   return Array.prototype.concat.apply([root.val], root.children.map(child => preorder(child)))
 };
-```
+// ```
 
-方法二： 迭代
+// 方法二： 迭代
 
-```javascript
+// ```javascript
 /**
  * N叉树前序遍历
  * @param {Node} root
@@ -35,5 +35,5 @@ var preorder = function(root) {
   }
   return result;
 }
-```
+// ```
 

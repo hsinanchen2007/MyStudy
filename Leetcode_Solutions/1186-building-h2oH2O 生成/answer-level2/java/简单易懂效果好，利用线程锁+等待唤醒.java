@@ -1,4 +1,4 @@
-```
+// ```
 class H2O {
     Integer num = 0;
     Object lock = null;
@@ -32,4 +32,4 @@ class H2O {
         }
     }
 }
-```
+// ```

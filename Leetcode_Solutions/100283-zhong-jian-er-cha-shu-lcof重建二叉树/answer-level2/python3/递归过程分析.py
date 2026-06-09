@@ -1,16 +1,16 @@
-### 解题思路
-递归分析：
-    - 递归的参数：根节点在前序遍历的索引`pre_root`；此根节点要构造的二叉树所包含在中序遍历中的左`in_left`、右`in_right`范围索引
-    - 递归结束条件：此根节点要构造的二叉树为空，即`in_left>in_right`
-    - 递归过程：
-        - 建立根节点
-        - 找到根节点在中序遍历中的位置`in_root`
-        - 建立左子树: `pre_root` = `pre_root+1`, `in_left` = `in_left`, `in_right` = `in_root-1`
-        - 建立右子树: `pre_root` = `pre_root+1+in_root-in_left`, `in_left` = `in_root+1`, `in_right` = `in_right`
+# ### 解题思路
+# 递归分析：
+#     - 递归的参数：根节点在前序遍历的索引`pre_root`；此根节点要构造的二叉树所包含在中序遍历中的左`in_left`、右`in_right`范围索引
+#     - 递归结束条件：此根节点要构造的二叉树为空，即`in_left>in_right`
+#     - 递归过程：
+#         - 建立根节点
+#         - 找到根节点在中序遍历中的位置`in_root`
+#         - 建立左子树: `pre_root` = `pre_root+1`, `in_left` = `in_left`, `in_right` = `in_root-1`
+#         - 建立右子树: `pre_root` = `pre_root+1+in_root-in_left`, `in_left` = `in_root+1`, `in_right` = `in_right`
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -41,4 +41,4 @@ class Solution:
 
         
         
-```
+# ```

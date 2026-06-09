@@ -1,6 +1,6 @@
-利用字符串的indexOf函数，遍历一遍所拥有的石头，判断宝石中是否含有该石头
-indexOf函数返回-1，则说明宝石中不包含该石头
-```
+// 利用字符串的indexOf函数，遍历一遍所拥有的石头，判断宝石中是否含有该石头
+// indexOf函数返回-1，则说明宝石中不包含该石头
+// ```
 class Solution {
     public int numJewelsInStones(String J, String S) {
         char[] ch = S.toCharArray();
@@ -12,4 +12,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

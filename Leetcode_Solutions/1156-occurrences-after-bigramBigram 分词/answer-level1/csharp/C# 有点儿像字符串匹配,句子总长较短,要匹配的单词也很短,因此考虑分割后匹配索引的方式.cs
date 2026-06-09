@@ -1,4 +1,4 @@
-```C# []
+// ```C# []
         public string[] FindOcurrences(string text, string first, string second)
         {
             /*
@@ -28,4 +28,4 @@
 
             return forReturn.ToArray();
         }
-```
+// ```

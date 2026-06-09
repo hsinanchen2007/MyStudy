@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     '''
     num_wanted:  限制选中的个数
@@ -20,4 +20,4 @@ class Solution:
             if count==num_wanted:
                 return res
         return res
-```
+# ```

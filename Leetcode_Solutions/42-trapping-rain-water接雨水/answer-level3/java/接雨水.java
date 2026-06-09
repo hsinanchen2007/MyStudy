@@ -1,9 +1,9 @@
-### 解题思路
-原答主链接：https://leetcode-cn.com/problems/trapping-rain-water/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-w-8/
+// ### 解题思路
+// 原答主链接：https://leetcode-cn.com/problems/trapping-rain-water/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-w-8/
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution{
     public int trap(int[] height) {
         int sum = 0;
@@ -30,4 +30,4 @@ class Solution{
 // 链接：https://leetcode-cn.com/problems/trapping-rain-water/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-w-8/
 // 来源：力扣（LeetCode）
 // 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
-```
+// ```

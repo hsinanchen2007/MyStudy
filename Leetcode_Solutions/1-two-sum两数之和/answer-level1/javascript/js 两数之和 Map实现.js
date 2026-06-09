@@ -1,7 +1,7 @@
-思路：两次循环
-    第一次循环：将数据添加到map中去，键为每一项的值，值为每一项的下标索引，索引是存在数组中添加到map中去
-    第二次循环：使用target-nums[i],如果map中存在这一项,返回下标数组。
-```
+// 思路：两次循环
+//     第一次循环：将数据添加到map中去，键为每一项的值，值为每一项的下标索引，索引是存在数组中添加到map中去
+//     第二次循环：使用target-nums[i],如果map中存在这一项,返回下标数组。
+// ```
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -33,4 +33,4 @@ var twoSum = function(nums, target) {
     }
     return flag;
 };
-```
+// ```

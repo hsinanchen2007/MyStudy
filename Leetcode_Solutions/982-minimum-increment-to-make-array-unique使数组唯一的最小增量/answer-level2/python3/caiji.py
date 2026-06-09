@@ -1,4 +1,4 @@
-```
+# ```
 # -- coding: utf-8 --
 import  collections
 class Solution():
@@ -27,4 +27,4 @@ class Solution():
             index += 1
 
         return move_count
-```
+# ```

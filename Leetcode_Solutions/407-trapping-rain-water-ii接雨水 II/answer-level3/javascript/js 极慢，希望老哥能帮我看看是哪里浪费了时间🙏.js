@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/b831c0de15091e865cde07aca8f8fb3e67ad12136dd606d45ed44b40f5d6469b-image.png)
+// ![image.png](https://pic.leetcode-cn.com/b831c0de15091e865cde07aca8f8fb3e67ad12136dd606d45ed44b40f5d6469b-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
 看了油管上的姐姐讲的视频，很清楚，推荐学习
 https://www.youtube.com/watch?v=ZEgoEf8HGKI
   
@@ -12,11 +12,11 @@ https://www.youtube.com/watch?v=ZEgoEf8HGKI
   - 堆是否为空
 
 js 小顶堆 + BFS + 哈希
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} heightMap
  * @return {number}
@@ -178,4 +178,4 @@ var trapRainWater = function(heightMap) {
     
 //   return count;
 // };
-```
+// ```

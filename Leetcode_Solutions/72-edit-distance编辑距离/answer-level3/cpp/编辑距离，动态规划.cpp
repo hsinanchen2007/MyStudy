@@ -1,16 +1,16 @@
-### 解题思路
-记dp[i][j]为word1的前i个(下标[0,i-1])和word2的前j个(下标[0,j-1])的最小编辑距离
-那么对于dp[i+1][j+1]，我们比较word[i]和word[j]的值
-若两者相等，说明不需要编辑，dp[i+1][j+1] = dp[i][j]
-若两者不等，可以进行三种编辑：
-word1删去word1[i]，对应dp[i+1][j+1] = dp[i][j+1] + 1
-word1插入word2[j],对应dp[i+1][j+1] = dp[i+1][j] + 1
-word1和word2两者都进行替换，对应dp[i+1][j+1] = dp[i][j] + 1
-取三者最小值即可
+// ### 解题思路
+// 记dp[i][j]为word1的前i个(下标[0,i-1])和word2的前j个(下标[0,j-1])的最小编辑距离
+// 那么对于dp[i+1][j+1]，我们比较word[i]和word[j]的值
+// 若两者相等，说明不需要编辑，dp[i+1][j+1] = dp[i][j]
+// 若两者不等，可以进行三种编辑：
+// word1删去word1[i]，对应dp[i+1][j+1] = dp[i][j+1] + 1
+// word1插入word2[j],对应dp[i+1][j+1] = dp[i+1][j] + 1
+// word1和word2两者都进行替换，对应dp[i+1][j+1] = dp[i][j] + 1
+// 取三者最小值即可
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minDistance(string word1, string word2) {
@@ -32,4 +32,4 @@ public:
         return dp[len1][len2];
     }
 };
-```
+// ```

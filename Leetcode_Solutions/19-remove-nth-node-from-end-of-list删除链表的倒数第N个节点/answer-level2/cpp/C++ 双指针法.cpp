@@ -1,5 +1,5 @@
-注意考虑特殊情况，指针q比p先走n步！
-```
+// 注意考虑特殊情况，指针q比p先走n步！
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -29,4 +29,4 @@ public:
         return head;
     }
 };
-```
+// ```

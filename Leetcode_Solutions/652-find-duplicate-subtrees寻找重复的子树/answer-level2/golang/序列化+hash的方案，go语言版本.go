@@ -1,5 +1,5 @@
-先用字符串序列化表示一棵树，再通过hash查找字符串判断重复
-```
+// 先用字符串序列化表示一棵树，再通过hash查找字符串判断重复
+// ```
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -52,4 +52,4 @@ func findDuplicateSubtrees(root *TreeNode) []*TreeNode {
     }
     return res
 }
-```
+// ```

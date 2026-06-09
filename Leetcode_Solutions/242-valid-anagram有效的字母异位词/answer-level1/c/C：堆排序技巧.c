@@ -1,14 +1,14 @@
-### 解题思路
-最先想到的也是排序，那就具体讲排序吧。思路由排序到hash。
+// ### 解题思路
+// 最先想到的也是排序，那就具体讲排序吧。思路由排序到hash。
 
-### 1.python排序与C排序
-起初用python，直接两行，直接通过了，且时间还可观。然后用C写冒泡,有点扣脚，超时警告？对，然后直接gua掉。因此我就好奇，python内置排序如此牛逼！(原谅我的无知，冒泡O($n^2$)显然不是timsort对手)。
-```python []
+// ### 1.python排序与C排序
+// 起初用python，直接两行，直接通过了，且时间还可观。然后用C写冒泡,有点扣脚，超时警告？对，然后直接gua掉。因此我就好奇，python内置排序如此牛逼！(原谅我的无知，冒泡O($n^2$)显然不是timsort对手)。
+// ```python []
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         return sorted(s) == sorted(t)
-```
-```c []
+// ```
+// ```c []
 void buble_sort(char *p, int len){  // 不用flag了
 	for(int i=0;i<len-1;i++){
 		for(int j=0;j<len-i-1;j++){
@@ -31,9 +31,9 @@ bool isAnagram(char * s, char * t){
 	}
 	return true;
 }
-```
-然后换快排，这个排序算法够快，不信这样不能通过测试？
-```c []
+// ```
+// 然后换快排，这个排序算法够快，不信这样不能通过测试？
+// ```c []
 int paratition(char *s, int low, int high){
     int i = low, j;
     char pivot = s[low], tmp;
@@ -67,15 +67,15 @@ bool isAnagram(char * s, char * t){
 	}
 	return true;
 }
-```
-果不其然，通过了，但是有点惨。令人感动。快速排序时间复杂度O(nlog(n))~O($n^2$)，所以原地爆炸。
-920ms,6.18%
-7.2MB,42.24%
+// ```
+// 果不其然，通过了，但是有点惨。令人感动。快速排序时间复杂度O(nlog(n))~O($n^2$)，所以原地爆炸。
+// 920ms,6.18%
+// 7.2MB,42.24%
 
-### 2.边排序边比较
-这个时候我就猜测，是不是sorted(s) == sorted(t)有什么特别策略？通过上面的冒泡，我想到了，其实没必要全部排序完然后再逐个比较，因此每次比较每轮最大值是否相等即可。(本题特殊性，两个字符串长度相等才可能成立。)
-因此可以将冒泡算法(只要能得每轮最大值的排序算法都适用本题)改下，改成同步排序，然后比较每轮最值。
-```c冒泡 []
+// ### 2.边排序边比较
+// 这个时候我就猜测，是不是sorted(s) == sorted(t)有什么特别策略？通过上面的冒泡，我想到了，其实没必要全部排序完然后再逐个比较，因此每次比较每轮最大值是否相等即可。(本题特殊性，两个字符串长度相等才可能成立。)
+// 因此可以将冒泡算法(只要能得每轮最大值的排序算法都适用本题)改下，改成同步排序，然后比较每轮最值。
+// ```c冒泡 []
 bool isAnagram(char * s, char * t){
 	int len_s=strlen(s), len_t=strlen(t);
 	if(len_s!=len_t) return false;
@@ -98,8 +98,8 @@ bool isAnagram(char * s, char * t){
 	}
 	return s[0]==t[0];  // 防止'a','b'
 }
-```
-```c堆排序  []
+// ```
+// ```c堆排序  []
 void swap(char *str, int i, int j) {
 	char tmp = str[i];
 	str[i] = str[j];
@@ -146,15 +146,15 @@ bool isAnagram(char * s, char * t){
 	if(len_s!=len_t) return false;
 	return heapsort(s, t, len_s);  // 任意长度;
 }
-```
-都知道冒泡时间复杂度是O($n^2$),最后依然超时，那么就换一个时间复杂度低的同时还可以得到每轮最值得排序算法，就选堆排序。
-![image.png](https://pic.leetcode-cn.com/ef1454d5654431e318d8dca636fa3c0cec260b32888df2004bfa52fb0f2f7474-image.png)
-堆排序通过，但是另一个排序算法浮现眼前，这不正好固定范围，26字母，桶排序可以了解下。
+// ```
+// 都知道冒泡时间复杂度是O($n^2$),最后依然超时，那么就换一个时间复杂度低的同时还可以得到每轮最值得排序算法，就选堆排序。
+// ![image.png](https://pic.leetcode-cn.com/ef1454d5654431e318d8dca636fa3c0cec260b32888df2004bfa52fb0f2f7474-image.png)
+// 堆排序通过，但是另一个排序算法浮现眼前，这不正好固定范围，26字母，桶排序可以了解下。
 
-### 3.桶排序->桶计数
-虽然后面知道桶排序有点多余，但是思想还是从排序转过去的，逐步优化到空间复杂度为O(1)。
+// ### 3.桶排序->桶计数
+// 虽然后面知道桶排序有点多余，但是思想还是从排序转过去的，逐步优化到空间复杂度为O(1)。
 
-```c桶排序 []
+// ```c桶排序 []
 char *bucketsort(char *s){
 	int i, j, bucket[26] = {0};  // initiative
 	for(i = 0; s[i] != '\0'; i++){
@@ -183,8 +183,8 @@ bool isAnagram(char * s, char * t){
 	}
 	return true;
 }
-```
-```c []
+// ```
+// ```c []
 bool isAnagram(char * s, char * t){
 	int len_s=strlen(s), len_t=strlen(t);
 	if(len_s!=len_t) return false;
@@ -196,15 +196,15 @@ bool isAnagram(char * s, char * t){
 	for(i=0;i<26;i++) if(counter[i]) return false;
 	return true;
 }
-```
+// ```
 
-### 总结
+// ### 总结
 
-最后了解下，python的排序方式是[timsort](https://www.infopulse.com/blog/timsort-sorting-algorithm/)，排序中的战斗机。当然在其他语言也实现了。
-菜狗看不懂。总之，本题特殊，可边排序边比较，虽然不是最优，想法还是可以有的。✊
-|排序|最好|最坏|平均|空间|稳定|
-|:-:|:-:|:-:|:-:|:-:|:-:|
-|timsort|O(n)|O(nlog(n))|O(nlog(n))|O(n)|稳定|
-|快排|O(nlog(n))|O($n^2$)|O(log(n))|O(log(n))|不稳|
-|堆排序|O(nlog(n))|O(nlog(n))|O(nlog(n))|O(1)|不稳|
-其他Google....
+// 最后了解下，python的排序方式是[timsort](https://www.infopulse.com/blog/timsort-sorting-algorithm/)，排序中的战斗机。当然在其他语言也实现了。
+// 菜狗看不懂。总之，本题特殊，可边排序边比较，虽然不是最优，想法还是可以有的。✊
+// |排序|最好|最坏|平均|空间|稳定|
+// |:-:|:-:|:-:|:-:|:-:|:-:|
+// |timsort|O(n)|O(nlog(n))|O(nlog(n))|O(n)|稳定|
+// |快排|O(nlog(n))|O($n^2$)|O(log(n))|O(log(n))|不稳|
+// |堆排序|O(nlog(n))|O(nlog(n))|O(nlog(n))|O(1)|不稳|
+// 其他Google....

@@ -1,4 +1,4 @@
-```
+# ```
 def findLadders(beginWord: str, endWord: str, wordList):
     # you题意可知，在从开始字符beginWord->endWord,途中只能改变一个字符
     # 因此难点如下：
@@ -64,4 +64,4 @@ def findLadders(beginWord: str, endWord: str, wordList):
             return res[ 1: ]
         return res
     return [ ]
-```
+# ```

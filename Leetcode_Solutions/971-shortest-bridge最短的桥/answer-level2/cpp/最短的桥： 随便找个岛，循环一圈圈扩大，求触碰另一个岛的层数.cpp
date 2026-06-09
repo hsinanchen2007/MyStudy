@@ -1,6 +1,6 @@
 
-主逻辑：
-```cpp
+// 主逻辑：
+// ```cpp
 // class ShortestBridge: public MyDebug {
 class Solution {
 public:
@@ -18,10 +18,10 @@ public:
         return level;
     }
 };
-```
+// ```
 
-辅助函数
-```cpp
+// 辅助函数
+// ```cpp
 struct POINT {
     int r;
     int c;
@@ -86,4 +86,4 @@ public:
         return POINT(-1, -1);
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
-思路:刚开始没看懂题,前一个数组是代码执行循序,后面是传入的值,max_value取数组最大,push_back向数组添加值,pop_front弹出数组第一个值
-```
+// 思路:刚开始没看懂题,前一个数组是代码执行循序,后面是传入的值,max_value取数组最大,push_back向数组添加值,pop_front弹出数组第一个值
+// ```
 class MaxQueue
 {
    
@@ -53,4 +53,4 @@ class MaxQueue
  * $obj->push_back($value);
  * $ret_3 = $obj->pop_front();
  */
-```
+// ```

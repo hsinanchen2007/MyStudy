@@ -1,8 +1,8 @@
-### 解题思路
-4ms 从符文串中间左右遍历 aba型和abba型+剪枝
-### 代码
+// ### 解题思路
+// 4ms 从符文串中间左右遍历 aba型和abba型+剪枝
+// ### 代码
 
-```c
+// ```c
 char * longestPalindrome(char * s){
 
     int len = strlen(s);
@@ -110,4 +110,4 @@ char * longestPalindrome(char * s){
 }
 
 
-```
+// ```

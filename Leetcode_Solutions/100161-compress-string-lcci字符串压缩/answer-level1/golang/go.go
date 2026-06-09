@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func compressString(S string) string {
     if len(S) <= 1{
         return S
@@ -24,4 +24,4 @@ func compressString(S string) string {
     }
     return S
 }
-```
+// ```

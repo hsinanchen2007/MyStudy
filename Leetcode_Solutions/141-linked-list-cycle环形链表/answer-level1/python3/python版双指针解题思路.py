@@ -1,10 +1,10 @@
-### 解题思路
-使用双指针，一个指针每次移动一个节点，另一个指针每次移动两个节点，如果存在环，那么这两个指针一定会相遇。
-![image.png](https://pic.leetcode-cn.com/35a5d2b72f60dd13ccfb7a234439dc188fc4b8d87bf40a880ca8789c687386d9-image.png)
+# ### 解题思路
+# 使用双指针，一个指针每次移动一个节点，另一个指针每次移动两个节点，如果存在环，那么这两个指针一定会相遇。
+# ![image.png](https://pic.leetcode-cn.com/35a5d2b72f60dd13ccfb7a234439dc188fc4b8d87bf40a880ca8789c687386d9-image.png)
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -27,4 +27,4 @@ class Solution(object):
             l1 = l1.next
             l2 = l2.next.next
         return False 
-```
+# ```

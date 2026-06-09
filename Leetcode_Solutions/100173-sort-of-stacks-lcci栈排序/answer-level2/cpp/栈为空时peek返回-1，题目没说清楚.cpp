@@ -1,4 +1,4 @@
-```
+// ```
 class SortedStack {
 public:
     stack<int> data,as;
@@ -33,4 +33,4 @@ public:
         return data.empty();
     }
 };
-```
+// ```

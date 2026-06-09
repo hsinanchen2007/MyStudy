@@ -1,4 +1,4 @@
-```
+// ```
 var maximumSum = function (arr) {
   if (arr.length === 1) return arr[0]
   let len = arr.length;
@@ -23,4 +23,4 @@ var maximumSum = function (arr) {
   }
   return res;
 };
-```
+// ```

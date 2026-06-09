@@ -1,9 +1,9 @@
-### 解题思路
-递归 通过return 返回追加, 递归虽然写起来简洁,但是 当数据大的时候就不太好了,栈的深度会非常深
+// ### 解题思路
+// 递归 通过return 返回追加, 递归虽然写起来简洁,但是 当数据大的时候就不太好了,栈的深度会非常深
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -20,15 +20,15 @@ func reversePrint(head *ListNode) []int {
     tmp = append(tmp,head.Val)
 	return tmp
 }
-```
+// ```
 
-### 解题思路
+// ### 解题思路
 
-非递归 执行时间 4ms 内存消耗 3.5MB ,就是简单的循环遍历。
+// 非递归 执行时间 4ms 内存消耗 3.5MB ,就是简单的循环遍历。
 
-### 代码
+// ### 代码
 
-``` golang
+// ``` golang
 func reversePrint(head *ListNode) []int {
 	tmp := make([]*ListNode,0)
 	for head != nil{
@@ -43,5 +43,5 @@ func reversePrint(head *ListNode) []int {
 	return tmp1
 }
 
-```
+// ```
 

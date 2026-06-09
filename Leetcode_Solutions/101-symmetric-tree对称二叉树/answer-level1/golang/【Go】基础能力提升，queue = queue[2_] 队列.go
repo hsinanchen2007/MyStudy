@@ -1,4 +1,4 @@
-```
+// ```
 func isSymmetric(root *TreeNode) bool {
 	if root == nil {
 		return true
@@ -33,4 +33,4 @@ func isSymmetric(root *TreeNode) bool {
 	}
 	return true
 }
-```
+// ```

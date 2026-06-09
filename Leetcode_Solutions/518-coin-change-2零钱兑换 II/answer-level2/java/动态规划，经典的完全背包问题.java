@@ -1,8 +1,8 @@
-经典的完全背包问题，关于01背包与完全背包可以参考此处。
-[背包问题详解](https://blog.csdn.net/reed1991/article/details/53352426)
+// 经典的完全背包问题，关于01背包与完全背包可以参考此处。
+// [背包问题详解](https://blog.csdn.net/reed1991/article/details/53352426)
 
-参考代码如下
-```
+// 参考代码如下
+// ```
 public int change(int amount, int[] coins) {
         if (coins == null) {
             return 0;
@@ -17,4 +17,4 @@ public int change(int amount, int[] coins) {
         return dp[amount];
 
     }
-```
+// ```

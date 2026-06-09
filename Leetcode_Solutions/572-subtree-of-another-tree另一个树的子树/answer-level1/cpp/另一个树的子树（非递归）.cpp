@@ -1,9 +1,9 @@
-### 解题思路
-主要函数里找相同的开头进行匹配，辅助函数判断匹配是否为相同的树。
+// ### 解题思路
+// 主要函数里找相同的开头进行匹配，辅助函数判断匹配是否为相同的树。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -39,4 +39,4 @@ public:
         return isSameTree(p->right,q->right)&&isSameTree(p->left,q->left);
     }
 };
-```
+// ```

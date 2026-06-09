@@ -1,16 +1,16 @@
-### 解题思路
-问题可以理解为dividend包含多少个divisor，这个个数记为quotient。直观想法是：令quotient = 1,2,3,4,...一个个去试，直至逼近dividend，但这样是线性增长，速度太慢。考虑指数增长：令quotient = 1,2,4,8,...一个个去试，当即将要超过dividend时，令增量重回1,2,4,8,...，如此往复，直至逼近dividend。这一过程中要注意防止溢出。
+// ### 解题思路
+// 问题可以理解为dividend包含多少个divisor，这个个数记为quotient。直观想法是：令quotient = 1,2,3,4,...一个个去试，直至逼近dividend，但这样是线性增长，速度太慢。考虑指数增长：令quotient = 1,2,4,8,...一个个去试，当即将要超过dividend时，令增量重回1,2,4,8,...，如此往复，直至逼近dividend。这一过程中要注意防止溢出。
 
-### 解题步骤
-* 考虑会导致溢出的特殊情况：dividend = INT_MIN，divisor = -1。
-* 考虑简单的特殊情况：divisor = 1或-1，这种情况下没必要一个个去试。
-* 记录dividend和divisor的符号，然后将它们都转为负数（若转为正数可能溢出）。
-* 比较dividend和divisor，若dividend < divisor（|dividend| > |divisor|），则假定quotient为正，应用指数增长法得到quotient（已经排除了divisor = 1或-1的情况，因此quotient不会溢出）。
-* 给quotient加上符号，得到最终结果。
+// ### 解题步骤
+// * 考虑会导致溢出的特殊情况：dividend = INT_MIN，divisor = -1。
+// * 考虑简单的特殊情况：divisor = 1或-1，这种情况下没必要一个个去试。
+// * 记录dividend和divisor的符号，然后将它们都转为负数（若转为正数可能溢出）。
+// * 比较dividend和divisor，若dividend < divisor（|dividend| > |divisor|），则假定quotient为正，应用指数增长法得到quotient（已经排除了divisor = 1或-1的情况，因此quotient不会溢出）。
+// * 给quotient加上符号，得到最终结果。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int divide(int dividend, int divisor) {
@@ -87,4 +87,4 @@ public:
             return -quotient;
     }
 };
-```
+// ```

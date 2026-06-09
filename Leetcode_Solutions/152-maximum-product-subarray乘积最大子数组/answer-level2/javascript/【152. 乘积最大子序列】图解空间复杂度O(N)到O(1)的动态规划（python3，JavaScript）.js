@@ -1,16 +1,16 @@
 
 
-## 思路
+// ## 思路
 
-> 这道题目的通过率非常低
+// > 这道题目的通过率非常低
 
-这道题目要我们求解连续的 n 个数中乘积最大的积是多少。这里提到了连续，笔者首先
-想到的就是滑动窗口，但是这里比较特殊，我们不能仅仅维护一个最大值，因此最小值（比如-20）乘以一个比较小的数（比如-10）
-可能就会很大。 因此这种思路并不方便。
+// 这道题目要我们求解连续的 n 个数中乘积最大的积是多少。这里提到了连续，笔者首先
+// 想到的就是滑动窗口，但是这里比较特殊，我们不能仅仅维护一个最大值，因此最小值（比如-20）乘以一个比较小的数（比如-10）
+// 可能就会很大。 因此这种思路并不方便。
 
-首先来暴力求解,我们使用两层循环来枚举所有可能项，这种解法的时间复杂度是O(n^2), 代码如下：
+// 首先来暴力求解,我们使用两层循环来枚举所有可能项，这种解法的时间复杂度是O(n^2), 代码如下：
 
-```js
+// ```js
 var maxProduct = function(nums) {
   let max = nums[0];
   let temp = null;
@@ -25,28 +25,28 @@ var maxProduct = function(nums) {
 
   return max;
 };
-```
+// ```
 
-因此我们需要同时记录乘积最大值和乘积最小值，然后比较元素和这两个的乘积，去不断更新最大值。
+// 因此我们需要同时记录乘积最大值和乘积最小值，然后比较元素和这两个的乘积，去不断更新最大值。
 
-![image.png](https://pic.leetcode-cn.com/3c0bea82e2295d2605eae55d33e7b423d43856abfaa81bdc28e19cb0a2ec8dbe-image.png)
+// ![image.png](https://pic.leetcode-cn.com/3c0bea82e2295d2605eae55d33e7b423d43856abfaa81bdc28e19cb0a2ec8dbe-image.png)
 
-这种思路的解法由于只需要遍历一次，其时间复杂度是O(n)，代码见下方代码区。
+// 这种思路的解法由于只需要遍历一次，其时间复杂度是O(n)，代码见下方代码区。
 
-## 关键点
+// ## 关键点
 
-- 同时记录乘积最大值和乘积最小值
+// - 同时记录乘积最大值和乘积最小值
 
-## 代码
+// ## 代码
 
-代码支持：Python3，JavaScript
-
-
-
-Python3 Code:
+// 代码支持：Python3，JavaScript
 
 
-```python
+
+// Python3 Code:
+
+
+// ```python
 
 
 class Solution:
@@ -63,21 +63,21 @@ class Solution:
                             min_dp[i - 1] * nums[i - 1], nums[i - 1])
             ans = max(ans, max__dp[i])
         return ans
-  ```
+//   ```
 
 
-**复杂度分析**
-- 时间复杂度：$O(N)$
-- 空间复杂度：$O(N)$
+// **复杂度分析**
+// - 时间复杂度：$O(N)$
+// - 空间复杂度：$O(N)$
 
 
-当我们知道动态转移方程的时候，其实应该发现了。我们的dp[i] 只和 dp[i - 1]有关，这是一个空间优化的信号，告诉我们`可以借助两个额外变量记录即可`。
+// 当我们知道动态转移方程的时候，其实应该发现了。我们的dp[i] 只和 dp[i - 1]有关，这是一个空间优化的信号，告诉我们`可以借助两个额外变量记录即可`。
 
 
-Python3 Code:
+// Python3 Code:
 
 
-```python
+// ```python
 
 class Solution:
     def maxProduct(self, nums: List[int]) -> int:
@@ -94,11 +94,11 @@ class Solution:
             ans = max(ans, a)
         return ans
 
-```
+// ```
 
-JavaScript Code:
+// JavaScript Code:
 
-```js
+// ```js
 var maxProduct = function(nums) {
   let max = nums[0];
   let min = nums[0];
@@ -112,13 +112,13 @@ var maxProduct = function(nums) {
   }
   return res;
 };
-```
+// ```
 
 
-**复杂度分析**
-- 时间复杂度：$O(N)$
-- 空间复杂度：$O(1)$
+// **复杂度分析**
+// - 时间复杂度：$O(N)$
+// - 空间复杂度：$O(1)$
 
-欢迎关注我的公众号《脑洞前端》获取更多更新鲜的LeetCode题解
+// 欢迎关注我的公众号《脑洞前端》获取更多更新鲜的LeetCode题解
 
-![](https://pic.leetcode-cn.com/89ef69abbf02a2957838499a96ce3fbb26830aae52e3ab90392e328c2670cddc-file_1581478989502)
+// ![](https://pic.leetcode-cn.com/89ef69abbf02a2957838499a96ce3fbb26830aae52e3ab90392e328c2670cddc-file_1581478989502)

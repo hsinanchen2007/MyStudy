@@ -1,9 +1,9 @@
-### 解题思路
-遍历两个链表,求和并保存进位.每次循环构造一个新节点到结果链表尾部
+// ### 解题思路
+// 遍历两个链表,求和并保存进位.每次循环构造一个新节点到结果链表尾部
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -46,4 +46,4 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 }
 
 
-```
+// ```

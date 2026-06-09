@@ -1,10 +1,10 @@
-### 解题思路
-又要入参判断。
-双指针同时判断，判断完任意一个list之后，剩余的list直接添加到新的list最后即可。
+// ### 解题思路
+// 又要入参判断。
+// 双指针同时判断，判断完任意一个list之后，剩余的list直接添加到新的list最后即可。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -65,4 +65,4 @@ struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2){
 
     return resList->next;
 }
-```
+// ```

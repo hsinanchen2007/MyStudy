@@ -1,5 +1,5 @@
-##原地交换解法
-```
+// ##原地交换解法
+// ```
 class Solution {
     public ListNode oddEvenList(ListNode head) {
         if(head == null) return null;
@@ -17,10 +17,10 @@ class Solution {
         return head;
     }
 }
-```
+// ```
 
-##创建odd链表，even链表，最后连接
-```
+// ##创建odd链表，even链表，最后连接
+// ```
 class Solution {
     public ListNode oddEvenList(ListNode head) {
         if(head == null) return null;
@@ -43,6 +43,6 @@ class Solution {
         return head;
     }
 }
-```
+// ```
 
 

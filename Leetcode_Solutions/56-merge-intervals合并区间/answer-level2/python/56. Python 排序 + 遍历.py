@@ -1,9 +1,9 @@
-### 解题思路
-根据数组中元素的第一个值对数组进行快排，然后判断区间是否重叠，如果有重叠合并区间即可。
+# ### 解题思路
+# 根据数组中元素的第一个值对数组进行快排，然后判断区间是否重叠，如果有重叠合并区间即可。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def merge(self, intervals):
         """
@@ -44,4 +44,4 @@ class Solution(object):
                 y = max([x, y] + intervals[i])
         res.append([x, y])
         return res
-```
+# ```

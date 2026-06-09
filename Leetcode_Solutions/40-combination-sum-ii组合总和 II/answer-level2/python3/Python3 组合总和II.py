@@ -1,10 +1,10 @@
-### 解题思路
-![7.png](https://pic.leetcode-cn.com/90b07980294559c76f69f5a079b2c5cf171ff1f9891bfeec74009ec022b915e3-7.png)
+# ### 解题思路
+# ![7.png](https://pic.leetcode-cn.com/90b07980294559c76f69f5a079b2c5cf171ff1f9891bfeec74009ec022b915e3-7.png)
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def combinationSum2(self, candidates: List[int], target: int) -> List[List[int]]:
         self.res = []
@@ -28,4 +28,4 @@ class Solution:
             else:
                 break
                 
-```
+# ```

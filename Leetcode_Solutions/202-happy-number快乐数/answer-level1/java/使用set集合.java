@@ -1,13 +1,13 @@
-### 解题思路
-1.更新过程中的每个疑似快乐数n：循环取余，平方求和，余数为0则更新n。
-2.判断是否快乐：n为1（ture）；n与之前的疑似n重复（false）
-3.考虑到要记录所有的疑似n，使用Set集合（不能包含重复对象）。
-    使用set.add(n)进行插入对象，如果对象重复，则set.add（n）= false，可以用来作为while循环的条件。
-4.补充知识：Set接口常用的实现类有HashSet类(无序）和TreeSet类（有序）。
+// ### 解题思路
+// 1.更新过程中的每个疑似快乐数n：循环取余，平方求和，余数为0则更新n。
+// 2.判断是否快乐：n为1（ture）；n与之前的疑似n重复（false）
+// 3.考虑到要记录所有的疑似n，使用Set集合（不能包含重复对象）。
+//     使用set.add(n)进行插入对象，如果对象重复，则set.add（n）= false，可以用来作为while循环的条件。
+// 4.补充知识：Set接口常用的实现类有HashSet类(无序）和TreeSet类（有序）。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isHappy(int n) {
         Set<Integer> set = new HashSet<Integer>();
@@ -40,13 +40,13 @@ class Solution {
         return sum; 
     }
 }
-```
-### 解题思路
-使用双指针
+// ```
+// ### 解题思路
+// 使用双指针
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isHappy(int n) {
         //使用快慢指针，慢指针进行一步，快指针进行两部，当它俩相等时则为一个周期结束
@@ -70,4 +70,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

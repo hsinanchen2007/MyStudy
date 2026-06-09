@@ -1,4 +1,4 @@
-```
+// ```
 var sortArray = function(nums) {
     if (nums.length < 2) {
         return nums;
@@ -15,6 +15,6 @@ var sortArray = function(nums) {
     }
     return sortArray(left).concat(middle, sortArray(right))
 };
-```
+// ```
 
-中间这段其实可以再优化，内存占用有些大了
+// 中间这段其实可以再优化，内存占用有些大了

@@ -1,9 +1,9 @@
-### 解题思路
-使用uthash
+// ### 解题思路
+// 使用uthash
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct {
     char name[16];
     int freq;
@@ -56,4 +56,4 @@ void wordsFrequencyFree(WordsFrequency* obj)
         free(s);
     }
 }
-```
+// ```

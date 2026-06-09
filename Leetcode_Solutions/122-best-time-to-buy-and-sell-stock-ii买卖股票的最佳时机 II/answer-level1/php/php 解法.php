@@ -1,4 +1,4 @@
-```
+// ```
 function maxProfit($prices) {
     $maxprofit = 0;
     for($i = 1;$i < count($prices); $i++)
@@ -6,4 +6,4 @@ function maxProfit($prices) {
             $maxprofit += $prices[$i] - $prices[$i-1];
     return $maxprofit;
 }
-```
+// ```

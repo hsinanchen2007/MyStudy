@@ -1,9 +1,9 @@
-### 解题思路
-主要思想是利用dfs搜索来进行求解的
+// ### 解题思路
+// 主要思想是利用dfs搜索来进行求解的
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int movingCount(int m, int n, int k) {
@@ -77,4 +77,4 @@ public:
 		return count;
     }
 };
-```
+// ```

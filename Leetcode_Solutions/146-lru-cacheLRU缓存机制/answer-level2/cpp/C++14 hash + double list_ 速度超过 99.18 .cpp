@@ -1,8 +1,8 @@
-其实思路大家都说得差不多了。使用 C++14 STL 实现时，可以用下面的一些小技巧进一步优化：
-1. 在 hash 时，除了存 `value`，还可以顺带把 LRU 队列中对应节点的 `iterator` 使用 `tuple` 一并存了。这样可以使访问 LRU 队列达到$O(1)$;
-2. LRU 队列直接使用 `list` 实现，非常鲁棒，判断元素是否为最近使用，只需将其 `iterator` 与 `begin()` 比较即可;
+// 其实思路大家都说得差不多了。使用 C++14 STL 实现时，可以用下面的一些小技巧进一步优化：
+// 1. 在 hash 时，除了存 `value`，还可以顺带把 LRU 队列中对应节点的 `iterator` 使用 `tuple` 一并存了。这样可以使访问 LRU 队列达到$O(1)$;
+// 2. LRU 队列直接使用 `list` 实现，非常鲁棒，判断元素是否为最近使用，只需将其 `iterator` 与 `begin()` 比较即可;
 
-```C++
+// ```C++
 class LRUCache {
 public:
   LRUCache(int capacity) : max_c(capacity), c(0) {}
@@ -56,4 +56,4 @@ private:
   list<key_type> lru_queue;
   int c, max_c;
 };
-```
+// ```

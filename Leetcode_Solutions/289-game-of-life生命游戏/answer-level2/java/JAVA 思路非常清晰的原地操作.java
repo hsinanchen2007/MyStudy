@@ -1,16 +1,16 @@
-## 不使用额外的数组空间
+// ## 不使用额外的数组空间
 
-定义两个额外的状态即可：  
-`LIVE_TO_DIE`表示这一轮细胞将要从活变死  
-`DIE_TO_LIVE`表示这一轮细胞将要从死变活  
+// 定义两个额外的状态即可：  
+// `LIVE_TO_DIE`表示这一轮细胞将要从活变死  
+// `DIE_TO_LIVE`表示这一轮细胞将要从死变活  
 
-计算周围的细胞有多少存活的时候，`LIVE` 和 `LIVE_TO_DIE` 都需要计算成活的。  
+// 计算周围的细胞有多少存活的时候，`LIVE` 和 `LIVE_TO_DIE` 都需要计算成活的。  
 
-最后将这两个状态变成真正的状态即可
-`LIVE_TO_DIE` -> `DIE`  
-`DIE_TO_LIVE` -> `LIVE`  
-.
-```java
+// 最后将这两个状态变成真正的状态即可
+// `LIVE_TO_DIE` -> `DIE`  
+// `DIE_TO_LIVE` -> `LIVE`  
+// .
+// ```java
 class Solution {
     public static final int DIE = 0;
     public static final int LIVE = 1;
@@ -44,4 +44,4 @@ class Solution {
         }
     }
 }
-```
+// ```

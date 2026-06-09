@@ -1,5 +1,5 @@
-维护一个小于x的链表和一个大于x的链表，然后合并两个链表即可
-```
+// 维护一个小于x的链表和一个大于x的链表，然后合并两个链表即可
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -37,4 +37,4 @@ public:
     }
 };
 
-```
+// ```

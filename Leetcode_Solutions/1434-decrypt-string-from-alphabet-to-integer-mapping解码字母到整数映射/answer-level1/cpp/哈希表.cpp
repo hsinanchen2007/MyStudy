@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:               //这题需要注意的是string tmp=s[i]+s[i+1]+s[i+2]有点不是我们预期的答案，有点出乎意料，不是常规的  ，所以我换成string自带的求子串的函数substr（）
     string freqAlphabets(string s) {
@@ -53,4 +53,4 @@ public:               //这题需要注意的是string tmp=s[i]+s[i+1]+s[i+2]有
         return res;
     }
 };
-```
+// ```

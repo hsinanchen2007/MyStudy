@@ -1,8 +1,8 @@
-***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，持续更新。***
+// ***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，持续更新。***
 
-穿过最少砖的直线肯定是穿过缝隙最多的线，所以可以遍历整个List，获取每一行每条缝隙对应的砖宽， 将砖宽度和砖宽度出现的次数存入Map，最后遍历map获取出现次数最多的宽度，总行数-出现次数即为结果。
+// 穿过最少砖的直线肯定是穿过缝隙最多的线，所以可以遍历整个List，获取每一行每条缝隙对应的砖宽， 将砖宽度和砖宽度出现的次数存入Map，最后遍历map获取出现次数最多的宽度，总行数-出现次数即为结果。
 
-```
+// ```
 public int leastBricks(List<List<Integer>> wall) {
     Map<Integer, Integer> map = new HashMap<>();
     for (int i = 0; i < wall.size(); i++) {
@@ -20,4 +20,4 @@ public int leastBricks(List<List<Integer>> wall) {
     }
     return wall.size() - max;
 }
-```
+// ```

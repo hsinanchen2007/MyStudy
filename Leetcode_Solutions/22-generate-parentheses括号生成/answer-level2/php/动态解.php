@@ -1,9 +1,9 @@
-### 解题思路
-感谢[@sweetiee](/u/sweetiee/)的动态解，先考虑左括号，之后再比较左右数量
+// ### 解题思路
+// 感谢[@sweetiee](/u/sweetiee/)的动态解，先考虑左括号，之后再比较左右数量
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -29,4 +29,4 @@ class Solution {
         if($right_pas > $left_pas) $this->dfs($left_pas,$right_pas-1,$curRes . ")");
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```php
+// ```php
 class Solution {
 
     /**
@@ -33,4 +33,4 @@ class Solution {
         return $curr * $curr == $num;
     }
 }
-```
+// ```

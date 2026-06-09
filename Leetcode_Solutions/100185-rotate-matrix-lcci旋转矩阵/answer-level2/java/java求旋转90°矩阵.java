@@ -1,5 +1,5 @@
-**此题位矩阵求转置之后再将各行交换（不是排序）**
-```
+// **此题位矩阵求转置之后再将各行交换（不是排序）**
+// ```
 class Solution {
     public void rotate(int[][] matrix) {
             //int[][] matrix1 = new int[matrix.length][matrix[0].length];
@@ -27,4 +27,4 @@ class Solution {
               }
     }
 }
-```
+// ```

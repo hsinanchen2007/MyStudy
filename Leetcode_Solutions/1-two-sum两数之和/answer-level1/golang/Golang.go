@@ -1,9 +1,9 @@
-### 解题思路
-主要就是利用hashmap,判断所需要的值是否在hash中出现
+// ### 解题思路
+// 主要就是利用hashmap,判断所需要的值是否在hash中出现
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func twoSum(nums []int, target int) []int {
     if len(nums) == 0 {
 		return nil
@@ -22,4 +22,4 @@ func twoSum(nums []int, target int) []int {
 	}
 	return nil
 }
-```
+// ```

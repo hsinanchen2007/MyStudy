@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int findLucky(int[] arr) {
         Set<Integer> hs = new HashSet();
@@ -29,4 +29,4 @@ class numComparator implements Comparator<Integer>{
         return (num1-num2)>0 ? -1:1;
     }
 }
-```
+// ```

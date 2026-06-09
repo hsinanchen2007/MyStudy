@@ -1,9 +1,9 @@
-### 解题思路
-1、快慢指针
+// ### 解题思路
+// 1、快慢指针
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func middleNode(head *ListNode) *ListNode {
 	var slow = head
 	var fast = head
@@ -13,4 +13,4 @@ func middleNode(head *ListNode) *ListNode {
 	}
 	return slow
 }
-```
+// ```

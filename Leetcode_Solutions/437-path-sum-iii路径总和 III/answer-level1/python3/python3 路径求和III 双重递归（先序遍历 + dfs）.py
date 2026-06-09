@@ -1,6 +1,6 @@
-1.先序遍历 遍历树的每个结点
-2.对每个结点做一次深度优先搜索（因为路径可以从任一结点开始，且不一定在叶子结点结束），考虑所有父结点 --> 子结点的可能路径
-```
+# 1.先序遍历 遍历树的每个结点
+# 2.对每个结点做一次深度优先搜索（因为路径可以从任一结点开始，且不一定在叶子结点结束），考虑所有父结点 --> 子结点的可能路径
+# ```
 class Solution:
     def pathSum(self, root: TreeNode, sum: int) -> int:
 
@@ -36,4 +36,4 @@ class Solution:
         #     self.dfs(root.left, path + [root.val, ])
         # if root.right:
         #     self.dfs(root.right, path + [root.val, ])
-```
+# ```

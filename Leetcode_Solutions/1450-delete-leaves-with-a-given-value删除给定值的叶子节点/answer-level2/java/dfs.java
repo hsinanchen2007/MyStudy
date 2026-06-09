@@ -1,7 +1,7 @@
-**思路**
-思路很简单，直接show the code：
+// **思路**
+// 思路很简单，直接show the code：
 
-```java
+// ```java
     public TreeNode removeLeafNodes(TreeNode root, int target) {
         if (root == null) {
             return null;
@@ -16,4 +16,4 @@
 
         return root;
     }
-```
+// ```

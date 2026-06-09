@@ -1,4 +1,4 @@
-```
+// ```
 void SubFuncBFS(int n, int** graph, int index, int *visited)
 {
     int i;
@@ -38,4 +38,4 @@ int countComponents(int n, int** edges, int edgesSize, int* edgesColSize)
 	
     return returnValue;
 }
-```
+// ```

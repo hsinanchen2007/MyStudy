@@ -1,9 +1,9 @@
-### 解题思路
-rt
+# ### 解题思路
+# rt
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
         res = []
@@ -15,4 +15,4 @@ class Solution:
                 func(nums[:i] + nums[i+1:], temp + [nums[i]])
         func(nums, [])
         return res
-```
+# ```

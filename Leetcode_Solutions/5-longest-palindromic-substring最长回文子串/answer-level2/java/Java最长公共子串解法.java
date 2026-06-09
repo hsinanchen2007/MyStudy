@@ -1,9 +1,9 @@
-### 解题思路
-利用最长公共子串进行求解
+// ### 解题思路
+// 利用最长公共子串进行求解
 
-### 二维dp数组
+// ### 二维dp数组
 
-```java
+// ```java
 class Solution {
     public String longestPalindrome(String s) {
         if(s == null)
@@ -62,11 +62,11 @@ class Solution {
         chars[j] = temp;
     }
 }
-```
+// ```
 
-### 一维dp数组
+// ### 一维dp数组
 
-```java
+// ```java
 class Solution {
 public String longestPalindrome(String s) {
         if(s == null)
@@ -120,4 +120,4 @@ public String longestPalindrome(String s) {
         chars[j] = temp;
     }
 }
-```
+// ```

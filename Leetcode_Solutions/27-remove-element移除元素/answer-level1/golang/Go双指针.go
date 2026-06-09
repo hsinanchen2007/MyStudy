@@ -1,4 +1,4 @@
-```
+// ```
 func removeElement(nums []int, val int) int {
     k := 0
     for j :=0;j<len(nums);j++{
@@ -9,4 +9,4 @@ func removeElement(nums []int, val int) int {
     }
     return k
 }
-```
+// ```

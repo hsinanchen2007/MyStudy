@@ -1,8 +1,8 @@
-*斜体*# 标题
-先把数组拷贝一份
-将拷贝数组排序
-将原数组元素的值改变为
-“在拷贝数组中该元素的位置”
+// *斜体*# 标题
+// 先把数组拷贝一份
+// 将拷贝数组排序
+// 将原数组元素的值改变为
+// “在拷贝数组中该元素的位置”
 class Solution {
     public int[] smallerNumbersThanCurrent(int[] nums) {
         int num = nums.length;

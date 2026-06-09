@@ -1,11 +1,11 @@
-### 解题思路
-主要就是利用好这几个接口: bin, reverse, join, int
+# ### 解题思路
+# 主要就是利用好这几个接口: bin, reverse, join, int
 
-注意由于输入的数转换后不一定有32位, 要补0补到32位
+# 注意由于输入的数转换后不一定有32位, 要补0补到32位
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverseBits(self, n: int) -> int:
         binary_str = bin(n)[2:]
@@ -15,4 +15,4 @@ class Solution:
             L.append('0')
         binary_str = ''.join(L)
         return int('0b' + binary_str, 2)
-```
+# ```

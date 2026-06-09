@@ -1,7 +1,7 @@
-1. 能直接想到的 DP 状态 f[i][j][k] 使用 a 的前 i 个，b 的前 j 个构造 k 位最大数，其复杂度为 O(mnk)， 超时；
-2. 而发现如果只有一个数组 a，那么复杂度是 O(mk)，而最终答案可以由两个数组的解枚举得到，枚举的复杂度 O(k^2)， 总复杂度 O((m+n+k)k)， 通过
+# 1. 能直接想到的 DP 状态 f[i][j][k] 使用 a 的前 i 个，b 的前 j 个构造 k 位最大数，其复杂度为 O(mnk)， 超时；
+# 2. 而发现如果只有一个数组 a，那么复杂度是 O(mk)，而最终答案可以由两个数组的解枚举得到，枚举的复杂度 O(k^2)， 总复杂度 O((m+n+k)k)， 通过
 
-```python []
+# ```python []
 class Solution:
     def maxNumber(self, a: List[int], b: List[int], c: int) -> List[int]:
         m, n = len(a), len(b)
@@ -39,4 +39,4 @@ class Solution:
             return int(ret)
         
         return list(str(max([deal(f[m-1][i], g[n-1][c-i]) for i in range(min(m,c)+1)])))
-```
+# ```

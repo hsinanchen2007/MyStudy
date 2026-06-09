@@ -1,13 +1,13 @@
-### 解题思路
+// ### 解题思路
 
-使用优先级队列:
-- 队列中最多只有k个元素(可能小于k), 建立一个大小为k的小顶堆的复杂度为O(k)
-- 对于每个元素, 出堆后堆的调整的复杂度为O(log k), 因此n个元素出堆入队的复杂度为 O(n * log k)
-- 总的复杂度为O(n*log(k))
+// 使用优先级队列:
+// - 队列中最多只有k个元素(可能小于k), 建立一个大小为k的小顶堆的复杂度为O(k)
+// - 对于每个元素, 出堆后堆的调整的复杂度为O(log k), 因此n个元素出堆入队的复杂度为 O(n * log k)
+// - 总的复杂度为O(n*log(k))
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -42,4 +42,4 @@ class Solution {
         return dummy.next;
     }
 }
-```
+// ```

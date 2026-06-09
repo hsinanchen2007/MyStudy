@@ -1,9 +1,9 @@
-### 解题思路
-信号量实现，OS生产者消费者经典题，其中信号量的实现参考https://leetcode-cn.com/problems/the-dining-philosophers/solution/zhe-xue-jia-jiu-can-wen-ti-by-mike-meng/
+// ### 解题思路
+// 信号量实现，OS生产者消费者经典题，其中信号量的实现参考https://leetcode-cn.com/problems/the-dining-philosophers/solution/zhe-xue-jia-jiu-can-wen-ti-by-mike-meng/
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class BoundedBlockingQueue {
 public:
     BoundedBlockingQueue(int capacity) {
@@ -59,4 +59,4 @@ Semophore full;
 std::mutex mutex_;
 queue<int> queue_;
 };
-```
+// ```

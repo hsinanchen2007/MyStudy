@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/a0872222e880a88b38f189f2989f0ebeed6c61f7048e5e2dfe688718d078a228-image.png)
+# ![image.png](https://pic.leetcode-cn.com/a0872222e880a88b38f189f2989f0ebeed6c61f7048e5e2dfe688718d078a228-image.png)
 
 
-```
+# ```
 '''
 动态规划
 dp(i, 0) 表示以i位置结尾，不能进行删除操作情况下最大的元素总和
@@ -33,4 +33,4 @@ class Solution:
             dp[i][1] = max(dp[i-1][0], dp[i-1][1] + arr[i])
             ans = max(ans, dp[i][0], dp[i][1])
         return ans
-```
+# ```

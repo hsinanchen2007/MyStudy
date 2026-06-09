@@ -1,9 +1,9 @@
-### 解题思路
-递归发现会超时，也不需要数组几个变量定义就够了，假设res这个数前两个数是zero和one，每次res递增时，zero，one往后移动，新zero等于旧one，新one等于旧res.
+// ### 解题思路
+// 递归发现会超时，也不需要数组几个变量定义就够了，假设res这个数前两个数是zero和one，每次res递增时，zero，one往后移动，新zero等于旧one，新one等于旧res.
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int fib(int n) {
@@ -19,4 +19,4 @@ public:
         return res;
     }
 };
-```
+// ```

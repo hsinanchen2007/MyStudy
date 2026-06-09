@@ -1,4 +1,4 @@
-```
+// ```
 package ZJM_83_删除排序链表中的重复元素;
 
 public class Main {
@@ -94,4 +94,4 @@ class Solution {
  * 特别要注意，循环条件不仅仅要head.next!=null，同时也要head!=null
  */
 
-```
+// ```

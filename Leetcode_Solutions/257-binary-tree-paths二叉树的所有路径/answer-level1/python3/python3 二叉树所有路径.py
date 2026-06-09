@@ -1,6 +1,6 @@
-按深度优先遍历树，如果走到了叶子结点，将当前的完整路径进行保存即可
+# 按深度优先遍历树，如果走到了叶子结点，将当前的完整路径进行保存即可
 
-```
+# ```
 class Solution:
     def binaryTreePaths(self, root: TreeNode) -> List[str]:
         if not root:
@@ -21,4 +21,4 @@ class Solution:
             self.dfs(path+[root.val, ], root.left)
         if root.right:
             self.dfs(path+[root.val, ], root.right)
-```
+# ```

@@ -1,5 +1,5 @@
-【通过】自己写的一种方法，不是很严谨，数据刚好相等就翻车了，本以为很简单，结果翻车了好几次，越改越复杂，就这样吧。
-```cpp
+// 【通过】自己写的一种方法，不是很严谨，数据刚好相等就翻车了，本以为很简单，结果翻车了好几次，越改越复杂，就这样吧。
+// ```cpp
 class Solution {
 public:
     bool canThreePartsEqualSum(vector<int>& A) {
@@ -22,9 +22,9 @@ public:
         return num1==num2;
     }
 };
-```
-【通过】比较简单的一种方法
-```cpp
+// ```
+// 【通过】比较简单的一种方法
+// ```cpp
 class Solution {
 public:
     bool canThreePartsEqualSum(vector<int>& A) {
@@ -46,9 +46,9 @@ public:
         return false;
     }
 };
-```
-【超时】下面是一开始写的笨方法，超时🥺
-```cpp
+// ```
+// 【超时】下面是一开始写的笨方法，超时🥺
+// ```cpp
 class Solution {
 public:
     bool canThreePartsEqualSum(vector<int>& A) {
@@ -75,4 +75,4 @@ public:
         return succ;
     }
 };
-```
+// ```

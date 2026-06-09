@@ -1,5 +1,5 @@
-确定这是中等难度不是小儿科？
-```
+// 确定这是中等难度不是小儿科？
+// ```
 class Solution {
 public:
     int clumsy(int N) {
@@ -31,4 +31,4 @@ public:
         return 0;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int longestPalindrome(char * s){
     int res = 0, *hash = (int*)calloc(58, sizeof(int)); // 122-65+1
     for(int i = 0; i < strlen(s); i++){
@@ -15,4 +15,4 @@ int longestPalindrome(char * s){
     }
     return res;
 }
-```
+// ```

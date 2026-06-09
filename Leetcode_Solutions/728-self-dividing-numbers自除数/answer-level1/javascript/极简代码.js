@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var selfDividingNumbers = function(left, right) {
     let res = [];
 
@@ -26,4 +26,4 @@ function valid(num) {
     }
     return true;
 }
-```
+// ```

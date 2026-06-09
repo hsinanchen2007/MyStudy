@@ -1,9 +1,9 @@
-### 解题思路
-循序渐进，保存中间结果，如果出现循环并且不是1，则不是快乐数。
+// ### 解题思路
+// 循序渐进，保存中间结果，如果出现循环并且不是1，则不是快乐数。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 func square(n int) int {
 	var buf []int
@@ -36,4 +36,4 @@ func isHappy(n int) bool {
 	return false
 }
 
-```
+// ```

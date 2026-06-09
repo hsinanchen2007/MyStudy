@@ -1,6 +1,6 @@
-**思路**:两个hash的key都是数字 一个hash用来表示以key作为连续数字段的头时数字段的最大长度 另一个用来表示k所在的最大连续数字段的最小的数字 在遍历nums的值时 同时更新两个hash的状态
-**注意**:本人菜鸡 这种方法效果不算是特别好 主要的语句都添加了注释 以下代码仅供参考 还请大家多多指教
-```python []
+# **思路**:两个hash的key都是数字 一个hash用来表示以key作为连续数字段的头时数字段的最大长度 另一个用来表示k所在的最大连续数字段的最小的数字 在遍历nums的值时 同时更新两个hash的状态
+# **注意**:本人菜鸡 这种方法效果不算是特别好 主要的语句都添加了注释 以下代码仅供参考 还请大家多多指教
+# ```python []
 class Solution:
 	def longestConsecutive(self,nums):
 		if not nums: #很极端的情况
@@ -27,8 +27,8 @@ class Solution:
 					situ[i]=head
 		return ans
 #🚩假如已经有了4,5,6这么一个连续的数字段 6->4 先添加一个数字7 按照我的代码首先是7->6 然后再是通过6这个桥梁实现了7->4
-```
-```golang []
+# ```
+# ```golang []
 func longestConsecutive(nums []int) int {
 	if len(nums)==0 { //极端情况 特殊处理
 		return 0
@@ -61,4 +61,4 @@ func longestConsecutive(nums []int) int {
 	}
 	return ans
 }
-```
+# ```

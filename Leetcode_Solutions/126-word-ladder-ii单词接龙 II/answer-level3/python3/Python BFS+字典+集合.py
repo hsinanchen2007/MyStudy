@@ -1,7 +1,7 @@
-思路：将单词按字典树的方式分层。在做同一层操作时，不改变单词集合，第一层除外。不断向下一层遍历，缩小解空间，遇到结尾单词，就退出。每个单词节点用字典保存路径（单词序列）。值得一提的是beginWord得特殊处理，因为它在第一个节点就出现了。
+# 思路：将单词按字典树的方式分层。在做同一层操作时，不改变单词集合，第一层除外。不断向下一层遍历，缩小解空间，遇到结尾单词，就退出。每个单词节点用字典保存路径（单词序列）。值得一提的是beginWord得特殊处理，因为它在第一个节点就出现了。
 
 
-```python3 []
+# ```python3 []
 class Solution:
     def findLadders(self, beginWord: str, endWord: str, wordList: List[str]) -> List[List[str]]:
         wordset = set(wordList)
@@ -37,4 +37,4 @@ class Solution:
             wordset = next1
             k += 1
         return d.get(endWord, [])
-```
+# ```

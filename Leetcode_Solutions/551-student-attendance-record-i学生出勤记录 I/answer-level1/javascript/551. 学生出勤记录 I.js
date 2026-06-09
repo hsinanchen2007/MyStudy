@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-利用正则表达式匹配字符串
+// 利用正则表达式匹配字符串
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {boolean}
@@ -12,4 +12,4 @@
 var checkRecord = function(s) {
     return !/(A.*A.*|LLL)/.test(s)
 };
-```
+// ```

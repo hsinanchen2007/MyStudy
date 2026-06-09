@@ -1,12 +1,12 @@
-### 解题思路
-1、先将字符串转换成小写（注意lower()函数需要用一个新的变量接收，不能修改原字符串）；
-2、去除非字母和数字；
-3、输出反转的新字符串；
-4、比较去杂的字符串和反转后的字符串，相同则为True，否则为False。
+# ### 解题思路
+# 1、先将字符串转换成小写（注意lower()函数需要用一个新的变量接收，不能修改原字符串）；
+# 2、去除非字母和数字；
+# 3、输出反转的新字符串；
+# 4、比较去杂的字符串和反转后的字符串，相同则为True，否则为False。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         if s is None:
@@ -25,4 +25,4 @@ class Solution:
             return True
         else:
             return False
-```
+# ```

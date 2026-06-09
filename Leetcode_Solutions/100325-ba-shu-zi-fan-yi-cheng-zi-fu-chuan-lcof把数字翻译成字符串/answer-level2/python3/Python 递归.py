@@ -1,6 +1,6 @@
-转化成字符串来递归
+# 转化成字符串来递归
 
-```python
+# ```python
 class Solution:
     def translateNum(self, num: int) -> int:
         cnt = 0
@@ -15,4 +15,4 @@ class Solution:
                     helper(s[2:])
         helper(str(num))
         return cnt
-```
+# ```

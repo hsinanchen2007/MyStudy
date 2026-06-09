@@ -1,5 +1,5 @@
-**方法一：HashMap记录字母表**
-```
+// **方法一：HashMap记录字母表**
+// ```
 class Solution {
     /**
     * 思路：
@@ -33,10 +33,10 @@ class Solution {
         return ans;
     }
 }
-```
+// ```
 
-**方法二：ASCII字符编码表计数**
-```
+// **方法二：ASCII字符编码表计数**
+// ```
 class Solution {
     /**
     * 思路：
@@ -76,4 +76,4 @@ class Solution {
         return counter;
     }
 }
-```
+// ```

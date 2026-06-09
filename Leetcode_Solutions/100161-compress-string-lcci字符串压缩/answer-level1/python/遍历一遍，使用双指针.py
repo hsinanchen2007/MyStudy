@@ -1,9 +1,9 @@
-### 解题思路
-设置两个指针pre和cur,当pre和cur指向的元素相等时，cur继续向后遍历，当pre和cur指向不同时，pre占到cur位置，cur继续向后遍历，因而每个元素出现的次数为cur-pre。
+# ### 解题思路
+# 设置两个指针pre和cur,当pre和cur指向的元素相等时，cur继续向后遍历，当pre和cur指向不同时，pre占到cur位置，cur继续向后遍历，因而每个元素出现的次数为cur-pre。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def compressString(self, S):
         """
@@ -26,4 +26,4 @@ class Solution(object):
         if len(res)>=len(S):
             return S
         return res      
-```
+# ```

@@ -1,5 +1,5 @@
 
-```
+// ```
 import scala.collection.mutable
 class LFUCache(_capacity: Int) {
 
@@ -78,4 +78,4 @@ class LFUCache(_capacity: Int) {
  * var param_1 = obj.get(key)
  * obj.put(key,value)
  */
-```
+// ```

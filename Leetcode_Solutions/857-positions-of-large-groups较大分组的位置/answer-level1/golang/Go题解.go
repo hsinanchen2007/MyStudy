@@ -1,5 +1,5 @@
-简单的双指针，没什么技术含量
-```golang
+// 简单的双指针，没什么技术含量
+// ```golang
 func largeGroupPositions(S string) [][]int {
     var res [][]int
 	i,j:=0,0
@@ -21,4 +21,4 @@ func largeGroupPositions(S string) [][]int {
 	return res
 
 }
-```
+// ```

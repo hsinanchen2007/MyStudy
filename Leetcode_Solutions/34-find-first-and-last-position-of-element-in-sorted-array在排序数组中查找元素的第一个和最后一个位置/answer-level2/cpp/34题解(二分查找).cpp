@@ -1,8 +1,8 @@
-### 解题思路
-使用两次二分查找，类似于lower_bound和upper_bound
-### 代码
+// ### 解题思路
+// 使用两次二分查找，类似于lower_bound和upper_bound
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
@@ -29,4 +29,4 @@ public:
         return res;
     }
 };
-```
+// ```

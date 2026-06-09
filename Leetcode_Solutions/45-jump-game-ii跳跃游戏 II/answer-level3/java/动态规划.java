@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int jump(int[] nums) {
         // 定义一个数组，用于记录每个位置对应的可到达最后一个位置（目标位置）的最少步数，
@@ -28,4 +28,4 @@ class Solution {
         return dp[0];
     }
 }
-```
+// ```

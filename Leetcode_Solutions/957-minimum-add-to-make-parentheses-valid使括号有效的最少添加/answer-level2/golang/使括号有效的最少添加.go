@@ -1,9 +1,9 @@
-### 解题思路
-统计不匹配的半括号数量
+// ### 解题思路
+// 统计不匹配的半括号数量
 
-### 代码
+// ### 代码
 
-```golang []
+// ```golang []
 func minAddToMakeValid(S string) int {
 	rightLoss := 0
 	leftLoss := 0
@@ -20,8 +20,8 @@ func minAddToMakeValid(S string) int {
 	}
 	return leftLoss + rightLoss
 }
-```
-```java []
+// ```
+// ```java []
 class Solution {
     public int minAddToMakeValid(String s) {
         int leftLoss = 0;
@@ -40,4 +40,4 @@ class Solution {
         return leftLoss + rightLoss;
     }
 }
-```
+// ```

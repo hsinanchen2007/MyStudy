@@ -1,6 +1,6 @@
-看了很多题解，都是三分支，其实两个分支就够了。。。
+// 看了很多题解，都是三分支，其实两个分支就够了。。。
 
-```
+// ```
 public class Solution {
     public int SearchInsert(int[] nums, int target) {
         int l = 0;
@@ -15,4 +15,4 @@ public class Solution {
         return target <= nums[l] ? l : l + 1;
     }
 }
-```
+// ```

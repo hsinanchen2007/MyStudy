@@ -1,9 +1,9 @@
-### 解题思路
-只要满足**每个矩形左下角的点均位于另一个矩形的左下方**(不包括上边和右边的边界所在直线)即可满足题意
+# ### 解题思路
+# 只要满足**每个矩形左下角的点均位于另一个矩形的左下方**(不包括上边和右边的边界所在直线)即可满足题意
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def isRectangleOverlap(self, rec1, rec2):
         #右上角的点坐标一定都大于左下角坐标
@@ -13,4 +13,4 @@ class Solution(object):
             return True
         else:
             return False 
-```
+# ```

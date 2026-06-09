@@ -1,6 +1,6 @@
-算是动态规划吧
+// 算是动态规划吧
 
-```js
+// ```js
 var letterCombinations = function(digits) {
     let map = {
         '2': ['a', 'b', 'c'],
@@ -30,4 +30,4 @@ var letterCombinations = function(digits) {
     }
 
 };
-```
+// ```

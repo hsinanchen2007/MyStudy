@@ -1,4 +1,4 @@
-struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2);//合并两个链表； 
+// struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2);//合并两个链表； 
 
 struct ListNode* mergeKLists(struct ListNode** lists, int listsSize){
 

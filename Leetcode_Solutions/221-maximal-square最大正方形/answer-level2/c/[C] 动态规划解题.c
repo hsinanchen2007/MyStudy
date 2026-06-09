@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int arr_min(int num1, int num2){
     return num1 < num2 ? num1 : num2;
 }
@@ -32,4 +32,4 @@ int maximalSquare(char** matrix, int matrixSize, int* matrixColSize){
     } 
     return len * len;                                                                 
 }
-```
+// ```

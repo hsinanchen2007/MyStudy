@@ -1,9 +1,9 @@
-### 解题思路
-以"上边缘"与"左边缘"为起点,依次斜向下比较,看看是否存在不同的数字
+// ### 解题思路
+// 以"上边缘"与"左边缘"为起点,依次斜向下比较,看看是否存在不同的数字
 
-### 代码
+// ### 代码
 
-```csharp []
+// ```csharp []
 public class Solution {
         public bool IsToeplitzMatrix(int[][] matrix)
         {
@@ -31,14 +31,14 @@ public class Solution {
             return true;
         }
 }
-```
+// ```
 
-### 解题思路
-使用链表,每次比较前,删除最右数字,比较后,在开头增加新的数字
+// ### 解题思路
+// 使用链表,每次比较前,删除最右数字,比较后,在开头增加新的数字
 
-### 代码
+// ### 代码
 
-```csharp []
+// ```csharp []
 public class Solution {
         public bool IsToeplitzMatrix(int[][] matrix)
         {
@@ -65,14 +65,14 @@ public class Solution {
             return true;
         }
 }
-```
+// ```
 
-### 解题思路
-斜向看,行和列都是加 1 的,因此它俩的差值永远是固定的,以此为依据建立字典
+// ### 解题思路
+// 斜向看,行和列都是加 1 的,因此它俩的差值永远是固定的,以此为依据建立字典
 
-### 代码
+// ### 代码
 
-```csharp []
+// ```csharp []
 public class Solution {
         public bool IsToeplitzMatrix(int[][] matrix)
         {
@@ -91,14 +91,14 @@ public class Solution {
             return true;
         }
 }
-```
+// ```
 
-### 解题思路
-每个元素都与左上角的数字比较
+// ### 解题思路
+// 每个元素都与左上角的数字比较
 
-### 代码
+// ### 代码
 
-```csharp []
+// ```csharp []
 public class Solution {
         public bool IsToeplitzMatrix(int[][] matrix)
         {
@@ -110,4 +110,4 @@ public class Solution {
             return true;
         }
 }
-```
+// ```

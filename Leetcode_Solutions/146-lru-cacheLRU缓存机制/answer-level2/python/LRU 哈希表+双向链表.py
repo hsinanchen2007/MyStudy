@@ -1,7 +1,7 @@
-### 解题思路
-写的很乱 
-应该把双向链表封装一下, 基本流程就是下面的
-```
+# ### 解题思路
+# 写的很乱 
+# 应该把双向链表封装一下, 基本流程就是下面的
+# ```
 int get(int key) {
     if (key 不存在) {
         return -1;
@@ -25,15 +25,15 @@ void put(int key, int val) {
         map 中新建 key 对新节点 x 的映射；
     }
 }
-```
-作者：labuladong
-链接：https://leetcode-cn.com/problems/lru-cache/solution/lru-ce-lue-xiang-jie-he-shi-xian-by-labuladong/
-来源：力扣（LeetCode）
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+# ```
+# 作者：labuladong
+# 链接：https://leetcode-cn.com/problems/lru-cache/solution/lru-ce-lue-xiang-jie-he-shi-xian-by-labuladong/
+# 来源：力扣（LeetCode）
+# 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class linkNode:
     def __init__(self, val, key):
         self.next = None
@@ -108,4 +108,4 @@ class LRUCache:
 # obj = LRUCache(capacity)
 # param_1 = obj.get(key)
 # obj.put(key,value)
-```
+# ```

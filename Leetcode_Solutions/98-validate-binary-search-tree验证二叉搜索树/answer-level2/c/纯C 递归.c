@@ -1,9 +1,9 @@
-### 解题思路
-递归 深度优先
+// ### 解题思路
+// 递归 深度优先
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -32,4 +32,4 @@ bool traverse(struct TreeNode* node, long min, long max)
 bool isValidBST(struct TreeNode* root){
     return traverse(root, LONG_MIN, LONG_MAX);
 }
-```
+// ```

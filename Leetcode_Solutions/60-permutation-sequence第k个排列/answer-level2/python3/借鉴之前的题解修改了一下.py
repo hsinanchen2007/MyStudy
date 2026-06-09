@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def getPermutation(self, n: int, k: int) -> str:
         def backtrack(first = 0):
@@ -14,4 +14,4 @@ class Solution:
         backtrack()
         output = sorted(output)
         return ''.join(list(map(str, output[k-1])))
-```
+# ```

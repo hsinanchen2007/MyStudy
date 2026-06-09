@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-还是老一套，直接套模板即可。这次终于没有丧心病狂的test case了。
+// 还是老一套，直接套模板即可。这次终于没有丧心病狂的test case了。
 
-### 代码
+// ### 代码
 
-```scala
+// ```scala
 object Solution {
   def pathSum(root: TreeNode, sum: Int): List[List[Int]] = {
     def children(node: TreeNode): List[TreeNode] = {
@@ -53,4 +53,4 @@ object Solution {
     else res.toList
   }
 }
-```
+// ```

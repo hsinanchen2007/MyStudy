@@ -1,9 +1,9 @@
-### 解题思路
-循环list n-1次，依次删除每一个数字，最后一个是剩下的数字就是结果。
+// ### 解题思路
+// 循环list n-1次，依次删除每一个数字，最后一个是剩下的数字就是结果。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int lastRemaining(int n, int m) {
     	ArrayList<Integer> arrayList = new ArrayList<Integer>();
@@ -19,4 +19,4 @@ class Solution {
     	return arrayList.get(0);
     }
 }
-```
+// ```

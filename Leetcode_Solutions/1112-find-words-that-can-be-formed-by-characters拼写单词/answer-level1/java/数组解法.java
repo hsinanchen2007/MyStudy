@@ -1,9 +1,9 @@
-### 解题思路
-new int[26] 数组统计每个位置上的元素个数。
-对于每一个单词，先新建一个数组统计好个数，再去判断是不是 chars 统计数组的子集，如果是，结果加上这个数组的值。
-### 代码
+// ### 解题思路
+// new int[26] 数组统计每个位置上的元素个数。
+// 对于每一个单词，先新建一个数组统计好个数，再去判断是不是 chars 统计数组的子集，如果是，结果加上这个数组的值。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int countCharacters(String[] words, String chars) {
         // new int[26]
@@ -34,4 +34,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

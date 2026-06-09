@@ -1,14 +1,14 @@
-### 解题思路
-此处撰写解题思路
-（1）index指向A的末尾下标，其长度为m + n - 1;
-（2）index1表示A的有效元素的下标；
-（3）index2表示B的有效元素的下标；
-（4）依次判断元素的大小并插入到A数组中；
-（5）最后判断一下B数组是否已经遍历完即可
+// ### 解题思路
+// 此处撰写解题思路
+// （1）index指向A的末尾下标，其长度为m + n - 1;
+// （2）index1表示A的有效元素的下标；
+// （3）index2表示B的有效元素的下标；
+// （4）依次判断元素的大小并插入到A数组中；
+// （5）最后判断一下B数组是否已经遍历完即可
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void merge(int* A, int ASize, int m, int* B, int BSize, int n){
     int index, index1, index2;
 
@@ -39,4 +39,4 @@ void merge(int* A, int ASize, int m, int* B, int BSize, int n){
 
 }
 
-```
+// ```

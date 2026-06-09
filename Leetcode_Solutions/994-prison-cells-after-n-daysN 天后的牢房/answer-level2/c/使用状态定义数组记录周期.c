@@ -1,5 +1,5 @@
-使用各个牢房状态定义数组，这样就可以计算出当下次该状态再出现时的周期是多少，代码简单易懂：
-```
+// 使用各个牢房状态定义数组，这样就可以计算出当下次该状态再出现时的周期是多少，代码简单易懂：
+// ```
 #define MAX_CELLS_LEN 8
 int dp[2][2][2][2][2][2][2][2];
 void CellsOneStep(int *cells, int cellsSize)
@@ -63,4 +63,4 @@ int* prisonAfterNDays(int* cells, int cellsSize, int N, int* returnSize){
     }
     return result;
 }
-```
+// ```

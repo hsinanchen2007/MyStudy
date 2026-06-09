@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def permuteUnique(self, nums: List[int]) -> List[List[int]]:
         res = []
@@ -15,4 +15,4 @@ class Solution:
                 backtrack(nums[:i] + nums[i+1:], tmp + [nums[i]])
         backtrack(nums, [])
         return res
-```
+# ```

@@ -1,8 +1,8 @@
-### 解题思路
-有点捞，思路简单，效率低；
-### 代码
+// ### 解题思路
+// 有点捞，思路简单，效率低；
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     static bool cmp(string& str1, string& str2)
@@ -33,4 +33,4 @@ public:
        return tmp.size();
     }
 };
-```
+// ```

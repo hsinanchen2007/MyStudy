@@ -1,4 +1,4 @@
-```c
+// ```c
 char* defangIPaddr(const char* address) {
     if (!address || !address[0])
         return NULL;
@@ -27,4 +27,4 @@ char* defangIPaddr(const char* address) {
 
     return res;
 }
-```
+// ```

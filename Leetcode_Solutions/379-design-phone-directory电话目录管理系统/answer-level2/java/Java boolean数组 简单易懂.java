@@ -1,4 +1,4 @@
-```
+// ```
 class PhoneDirectory {
 	boolean[] sys;
 	int size = 0;
@@ -40,4 +40,4 @@ class PhoneDirectory {
 		sys[number] = true;
 	}
 }
-```
+// ```

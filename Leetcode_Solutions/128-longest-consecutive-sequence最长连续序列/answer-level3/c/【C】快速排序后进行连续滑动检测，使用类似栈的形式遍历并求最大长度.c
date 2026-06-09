@@ -1,7 +1,7 @@
-1.快速排序
-2.遍历
-3.查找连续区间求最大的值
-```
+// 1.快速排序
+// 2.遍历
+// 3.查找连续区间求最大的值
+// ```
 /*
 给定一个未排序的整数数组，找出最长连续序列的长度。
 
@@ -114,4 +114,4 @@ int longestConsecutive(int* nums, int numsSize)
     maxLength = (maxLength > length ? maxLength : length);
     return maxLength;
 }
-```
+// ```

@@ -1,10 +1,10 @@
-当前位置的柱子高cur
-左边最高的柱子为L_Max
-右边最高的柱子为R_Max
-当Min(L_Max,R_max)>cur时，该位置积累的雨水量为Min(L_Max,R_max)-cur;
+// 当前位置的柱子高cur
+// 左边最高的柱子为L_Max
+// 右边最高的柱子为R_Max
+// 当Min(L_Max,R_max)>cur时，该位置积累的雨水量为Min(L_Max,R_max)-cur;
 
-如果每次都求左边右边的最大值的话会超时，所以想办法保存之前求过柱子的最大值，如果变动了就更新一下
-```
+// 如果每次都求左边右边的最大值的话会超时，所以想办法保存之前求过柱子的最大值，如果变动了就更新一下
+// ```
 public static int trap(int[] height) {
     if (height.length == 0 || height.length == 1){
         return 0;
@@ -37,4 +37,4 @@ public static int trap(int[] height) {
     }
     return res;
 }
-```
+// ```

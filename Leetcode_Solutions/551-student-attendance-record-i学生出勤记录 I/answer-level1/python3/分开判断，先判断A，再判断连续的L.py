@@ -1,7 +1,7 @@
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def checkRecord(self, s: str) -> bool:
         if s.count("A") > 1:
@@ -18,4 +18,4 @@ class Solution:
             if j - i >2:
                 return False
         return True
-```
+# ```

@@ -1,5 +1,5 @@
-常规思路，向右走，走不通再向下走，走不通再向左，走不通再向上。走过的地方不能再走，直到走过了m*n个元素。
-```
+// 常规思路，向右走，走不通再向下走，走不通再向左，走不通再向上。走过的地方不能再走，直到走过了m*n个元素。
+// ```
 class Solution {
 public:
    vector<int> spiralOrder(vector<vector<int>>& matrix) {
@@ -58,6 +58,6 @@ public:
 	return ans;
 }
 };
-```
+// ```
 
 

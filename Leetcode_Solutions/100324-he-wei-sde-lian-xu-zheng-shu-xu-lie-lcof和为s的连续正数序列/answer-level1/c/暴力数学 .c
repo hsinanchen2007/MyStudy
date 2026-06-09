@@ -1,4 +1,4 @@
-```
+// ```
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -42,4 +42,4 @@ int** findContinuousSequence(int target, int* returnSize, int** returnColumnSize
     return res;
 }
 
-```
+// ```

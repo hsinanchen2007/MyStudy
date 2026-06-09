@@ -1,10 +1,10 @@
-### 解题思路
-关键：设要交换的糖果为a，b。则a，b之间的关系有：
- a=(sumA−sumB)/2+b
- b=(sumB−sumA)/2+a
-### 代码
+// ### 解题思路
+// 关键：设要交换的糖果为a，b。则a，b之间的关系有：
+//  a=(sumA−sumB)/2+b
+//  b=(sumB−sumA)/2+a
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> fairCandySwap(vector<int>& A, vector<int>& B) {
@@ -23,4 +23,4 @@ public:
         return {};
     }
 };
-```
+// ```

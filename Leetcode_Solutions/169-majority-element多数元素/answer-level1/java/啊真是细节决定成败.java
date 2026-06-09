@@ -1,10 +1,10 @@
-### 解题思路
-错了好多次才发现,在计数器加一的时候我写的是times++，然后就一直没看出来。。。
-还有就是有个问题，为何leetcode中没法用keyset()遍历key呢？想用keyset的时候似乎报错是can not find symbol
+// ### 解题思路
+// 错了好多次才发现,在计数器加一的时候我写的是times++，然后就一直没看出来。。。
+// 还有就是有个问题，为何leetcode中没法用keyset()遍历key呢？想用keyset的时候似乎报错是can not find symbol
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int majorityElement(int[] nums) {
         int length=nums.length;
@@ -31,4 +31,4 @@ class Solution {
         return max.getKey();
     }
 }
-```
+// ```

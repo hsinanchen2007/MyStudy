@@ -1,8 +1,8 @@
-### 解题思路
-主要是push，考虑每次入栈的时候都把队列的元素倒过来。
-### 代码
+# ### 解题思路
+# 主要是push，考虑每次入栈的时候都把队列的元素倒过来。
+# ### 代码
 
-```python3
+# ```python3
 from queue import Queue
 
 class MyStack:
@@ -53,4 +53,4 @@ class MyStack:
 # param_2 = obj.pop()
 # param_3 = obj.top()
 # param_4 = obj.empty()
-```
+# ```

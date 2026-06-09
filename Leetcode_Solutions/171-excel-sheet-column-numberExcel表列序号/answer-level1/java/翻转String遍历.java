@@ -1,9 +1,9 @@
-### 解题思路
-可以理解为26进制的数转10进制的数
+// ### 解题思路
+// 可以理解为26进制的数转10进制的数
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int titleToNumber(String s) {
         String reverse_s = new StringBuffer(s).reverse().toString();
@@ -19,4 +19,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

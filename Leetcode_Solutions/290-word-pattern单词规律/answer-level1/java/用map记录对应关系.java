@@ -1,4 +1,4 @@
-pattern与str单词和字符的对应关系使用map来记录可解题。
+// pattern与str单词和字符的对应关系使用map来记录可解题。
 
 public static boolean wordPattern(String pattern, String str) {
         char []cArray = pattern.toCharArray();

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def isIsomorphic(self, s: str, t: str) -> bool:
         zidian1 = {}
@@ -14,4 +14,4 @@ class Solution:
                 if zidian1[s[i]] != t[i]:
                     return(False)
         return(True)
-```
+# ```

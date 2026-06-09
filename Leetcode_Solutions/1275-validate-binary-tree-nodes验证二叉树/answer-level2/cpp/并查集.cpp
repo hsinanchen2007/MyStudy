@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-有点杀鸡用牛刀了…
+// 有点杀鸡用牛刀了…
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class UnionFind {
 private:
     vector<int> parent;
@@ -68,4 +68,4 @@ public:
         return uf.Count() == 1;
     }
 };
-```
+// ```

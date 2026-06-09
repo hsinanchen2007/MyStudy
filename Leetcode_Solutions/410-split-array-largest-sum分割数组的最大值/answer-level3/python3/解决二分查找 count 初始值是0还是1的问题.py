@@ -1,8 +1,8 @@
-"""
-在count初始值是0还是1的问题上,其实0或1均可，count= 0,则可能会少计数一个，count=1则可能多计数一个
-故要修改后面左右指针比较时的“=”放置问题，下面代码如下，均通过
-"""
-```
+# """
+# 在count初始值是0还是1的问题上,其实0或1均可，count= 0,则可能会少计数一个，count=1则可能多计数一个
+# 故要修改后面左右指针比较时的“=”放置问题，下面代码如下，均通过
+# """
+# ```
 class Solution:
     def splitArray(self, nums: List[int], m: int) -> int:
       l,r = max(nums),sum(nums)
@@ -20,8 +20,8 @@ class Solution:
         else:
           r = mid
       return l
-```
-```
+# ```
+# ```
 class Solution:
     def splitArray(self, nums: List[int], m: int) -> int:
       l,r = max(nums),sum(nums)
@@ -39,4 +39,4 @@ class Solution:
         else:
           r = mid
       return l
-```
+# ```

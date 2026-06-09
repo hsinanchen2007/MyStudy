@@ -1,9 +1,9 @@
-### 解题思路
-以空间换时间，根据定义的rule，逐步transform word
+// ### 解题思路
+// 以空间换时间，根据定义的rule，逐步transform word
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public string ToGoatLatin(string S) {
         // Get words.
@@ -29,4 +29,4 @@ public class Solution {
         return String.Join(" ", words);
     }
 }
-```
+// ```

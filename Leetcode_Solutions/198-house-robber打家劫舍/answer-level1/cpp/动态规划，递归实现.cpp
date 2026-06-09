@@ -1,5 +1,5 @@
-直接递归实现f(k) = max(f(k – 2) + A,f(k – 1))会引起堆栈溢出，需要消除重复递归分支。
-```
+// 直接递归实现f(k) = max(f(k – 2) + A,f(k – 1))会引起堆栈溢出，需要消除重复递归分支。
+// ```
 class Solution {
 public:
     int call(int k, vector<int>& nums){
@@ -18,4 +18,4 @@ public:
 private:
     unordered_map<int,int> reco;
 };
-```
+// ```

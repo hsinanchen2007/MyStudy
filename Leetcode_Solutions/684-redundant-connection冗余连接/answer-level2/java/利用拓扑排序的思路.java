@@ -1,5 +1,5 @@
-循环遍历，去掉入度为1的点，然后把这条边上的点的入度都减1.直到没有入度为1的点。剩下的点就是环。然后把所有边从后往前遍历。返回在环上的边。
-```
+// 循环遍历，去掉入度为1的点，然后把这条边上的点的入度都减1.直到没有入度为1的点。剩下的点就是环。然后把所有边从后往前遍历。返回在环上的边。
+// ```
 public class Main_684 {
     public int[] findRedundantConnection(int[][] edges) {
         int n = edges.length;
@@ -47,4 +47,4 @@ public class Main_684 {
         System.out.println(Arrays.toString(main.findRedundantConnection(edge)));
     }
 }
-```
+// ```

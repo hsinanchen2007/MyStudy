@@ -1,9 +1,9 @@
-### 解题思路
-创建两个链表分别记录比x大和比x小的节点，合并的时候记得第二个链表末尾置空，否则出现环
+# ### 解题思路
+# 创建两个链表分别记录比x大和比x小的节点，合并的时候记得第二个链表末尾置空，否则出现环
 
-### 代码
+# ### 代码
 
-```
+# ```
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -26,5 +26,5 @@ class Solution:
         p1.next=dm2.next
         p2.next=None
         return dm1.next
-```
+# ```
 

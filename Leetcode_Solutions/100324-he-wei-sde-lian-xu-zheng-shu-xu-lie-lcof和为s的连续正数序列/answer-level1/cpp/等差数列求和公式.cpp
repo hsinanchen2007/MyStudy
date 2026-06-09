@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> findContinuousSequence(int target) {
@@ -30,4 +30,4 @@ public:
         return vector<vector<int>>(res.rbegin(), res.rend());  //最后倒序输出以满足题目条件
     }
 };
-```
+// ```

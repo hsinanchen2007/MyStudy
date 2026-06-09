@@ -1,10 +1,10 @@
-### 解题思路
-双指针
-不需要判断空指针和单指针
+# ### 解题思路
+# 双指针
+# 不需要判断空指针和单指针
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -25,4 +25,4 @@ class Solution:
                 l=l.next
             r=r.next
         return ans.next
-```
+# ```

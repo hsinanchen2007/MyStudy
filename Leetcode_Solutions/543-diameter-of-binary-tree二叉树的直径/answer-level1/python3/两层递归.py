@@ -1,9 +1,9 @@
-### 解题思路
-两层递归
+# ### 解题思路
+# 两层递归
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -28,4 +28,4 @@ class Solution:
         return 1 + max(self.depth(root.left), self.depth(root.right))
 
         
-```
+# ```

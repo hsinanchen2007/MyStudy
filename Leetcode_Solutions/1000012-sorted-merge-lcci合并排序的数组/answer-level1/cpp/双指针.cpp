@@ -1,5 +1,5 @@
-使用双指针，要注意的是插入元素导致的A的大小的变化和删除末尾的0
-```
+// 使用双指针，要注意的是插入元素导致的A的大小的变化和删除末尾的0
+// ```
 class Solution {
 public:
     void merge(vector<int>& A, int m, vector<int>& B, int n) {
@@ -16,4 +16,4 @@ public:
         if(p==m)while(q<n)A[p++]=B[q++];
     }
 };
-```
+// ```

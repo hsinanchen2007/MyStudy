@@ -1,9 +1,9 @@
-### 解题思路
-在递归里面，深刻理解return的结果是什么，有助于帮助递归。
+// ### 解题思路
+// 在递归里面，深刻理解return的结果是什么，有助于帮助递归。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -30,4 +30,4 @@ public:
         return false;
     }
 };
-```
+// ```

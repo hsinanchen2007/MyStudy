@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String parseTernary(String expression) {
         //由于从后向前遍历，因此我们采用栈这种数据结构
@@ -28,4 +28,4 @@ class Solution {
         return String.valueOf(stack.peek());
     }
 }
-```
+// ```

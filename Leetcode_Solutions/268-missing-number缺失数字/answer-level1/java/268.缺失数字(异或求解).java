@@ -1,4 +1,4 @@
-```Java
+// ```Java
 class Solution {
     public int missingNumber(int[] nums) {
         int res=0;
@@ -9,4 +9,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

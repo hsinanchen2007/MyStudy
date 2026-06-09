@@ -1,14 +1,14 @@
-![image.png](https://pic.leetcode-cn.com/ab101194fe607a8a5955f3688c0e08b42239f89e5826fe243f763a5282fd907c-image.png)
+// ![image.png](https://pic.leetcode-cn.com/ab101194fe607a8a5955f3688c0e08b42239f89e5826fe243f763a5282fd907c-image.png)
 
-分析：
-对于位置 dp[i][j]处的路径条数，是由位置dp[i][j-1]和dp[i-1][j]的和决定的。
-位置可以分为有无障碍。
-有障碍，到达该位置的路径条数直接设置为0.
-无障碍，左上相加。
-特殊情况考虑，第一行第一列是否有障碍，同时进行初始化。
-有障碍，障碍处及障碍后全部变0.即停止遍历。
+// 分析：
+// 对于位置 dp[i][j]处的路径条数，是由位置dp[i][j-1]和dp[i-1][j]的和决定的。
+// 位置可以分为有无障碍。
+// 有障碍，到达该位置的路径条数直接设置为0.
+// 无障碍，左上相加。
+// 特殊情况考虑，第一行第一列是否有障碍，同时进行初始化。
+// 有障碍，障碍处及障碍后全部变0.即停止遍历。
 
-```
+// ```
 class Solution {
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {
         
@@ -47,4 +47,4 @@ class Solution {
         return dp[m-1][n-1];
     }
 }
-```
+// ```

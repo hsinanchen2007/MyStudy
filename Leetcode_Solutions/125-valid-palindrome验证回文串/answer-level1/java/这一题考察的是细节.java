@@ -1,11 +1,11 @@
-### 解题思路
-1，特例，空字符串是有效的
-2，数字和字母是有效的，需要过滤出来
-3，判断回文字符串 
+// ### 解题思路
+// 1，特例，空字符串是有效的
+// 2，数字和字母是有效的，需要过滤出来
+// 3，判断回文字符串 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 import java.lang.StringBuffer;
 class Solution {
     public boolean isPalindrome(String s) {
@@ -51,4 +51,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

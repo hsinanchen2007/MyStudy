@@ -1,9 +1,9 @@
-### 解题思路
-    该颜色的兔子数量减一作为key，相同回答出现的次数作为value，出现次数超过该颜色兔子的可能数量则说明有另一种颜色的兔子和该颜色的数量相同。不详细写了，细细想一下。
+// ### 解题思路
+//     该颜色的兔子数量减一作为key，相同回答出现的次数作为value，出现次数超过该颜色兔子的可能数量则说明有另一种颜色的兔子和该颜色的数量相同。不详细写了，细细想一下。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct {
     int key;
     int val;
@@ -52,4 +52,4 @@ int numRabbits(int* answers, int answersSize){
     DeleteHash(&hashTable);
     return cnt;
 }
-```
+// ```

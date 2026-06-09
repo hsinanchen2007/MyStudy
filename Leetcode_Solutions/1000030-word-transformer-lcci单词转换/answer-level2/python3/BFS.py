@@ -1,6 +1,6 @@
-计算当前单词的所有可行的变词, 当字典很大的时候其复杂度会远远小于遍历整个字典找所有变词
+# 计算当前单词的所有可行的变词, 当字典很大的时候其复杂度会远远小于遍历整个字典找所有变词
 
-```python
+# ```python
 class Solution:
     def findLadders(self, beginWord: str, endWord: str,
                     wordList: List[str]) -> List[str]:
@@ -40,4 +40,4 @@ class Solution:
                     return res[::-1]
             findNexts(s)
         return []
-```
+# ```

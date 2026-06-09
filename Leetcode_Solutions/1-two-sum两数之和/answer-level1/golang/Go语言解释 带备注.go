@@ -1,5 +1,5 @@
-暴力解法
-```
+// 暴力解法
+// ```
 func twoSum(nums []int, target int) []int {
     for i := 0;i < len(nums); i++{//双for循环
         for x := 0;x < len(nums); x++{
@@ -10,9 +10,9 @@ func twoSum(nums []int, target int) []int {
     }
     return nil
 }
-```
-效率解法
-```
+// ```
+// 效率解法
+// ```
 func twoSum(nums []int, target int) []int {
     newMaps = make(map[int]int)
     for index1,value1 = range nums{
@@ -25,5 +25,5 @@ func twoSum(nums []int, target int) []int {
     }
     return nil
 }
-```
+// ```
 

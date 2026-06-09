@@ -1,4 +1,4 @@
-```
+// ```
 func findLonelyPixel(picture [][]byte) int {
 	if 0 == len(picture) || 0 == len(picture[0]) {
 		return 0
@@ -23,4 +23,4 @@ func findLonelyPixel(picture [][]byte) int {
 	}
 	return out
 }
-```
+// ```

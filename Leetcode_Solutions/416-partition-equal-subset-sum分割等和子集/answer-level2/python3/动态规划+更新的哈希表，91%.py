@@ -1,7 +1,7 @@
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     # def canPartition(self, nums: List[int]) -> bool:
     def canPartition(self, nums):
@@ -58,4 +58,4 @@ class Solution:
                 return True
             dic[nums[i]] += 1
         return False
-```
+# ```

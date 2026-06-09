@@ -1,4 +1,4 @@
-```
+// ```
 int myAtoi(char * str)
 {
     int len = strlen(str);
@@ -46,4 +46,4 @@ int myAtoi(char * str)
     return sum;
     
 }
-```
+// ```

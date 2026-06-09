@@ -1,18 +1,18 @@
-### 解题思路
-经典的分组DP题目。
+// ### 解题思路
+// 经典的分组DP题目。
 
-典型的解题思路为，1.从序列中选择一个值，最终结果可以从两边的子问题得到结果；2.求解过程需要遍历移动选择的值。
+// 典型的解题思路为，1.从序列中选择一个值，最终结果可以从两边的子问题得到结果；2.求解过程需要遍历移动选择的值。
 
-dp[i][j]表示从i到j的序列，所需的最小资金。
+// dp[i][j]表示从i到j的序列，所需的最小资金。
 
-递推公式为dp[i][j] = min(dp[i][j], k + max(dp[i][k - 1], dp[k + 1][j])),其中k属于[i, j]
+// 递推公式为dp[i][j] = min(dp[i][j], k + max(dp[i][k - 1], dp[k + 1][j])),其中k属于[i, j]
 
-![image.png](https://pic.leetcode-cn.com/3a8535c6166b9d66637ce4493f2b84d3de73a9599798216ceaed8aa78a64214c-image.png)
+// ![image.png](https://pic.leetcode-cn.com/3a8535c6166b9d66637ce4493f2b84d3de73a9599798216ceaed8aa78a64214c-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <stdlib.h>
 #include <stdio.h>
 #include <stdbool.h>
@@ -67,4 +67,4 @@ int getMoneyAmount(int n){
 */
     return dp[0][n - 1];
 }
-```
+// ```

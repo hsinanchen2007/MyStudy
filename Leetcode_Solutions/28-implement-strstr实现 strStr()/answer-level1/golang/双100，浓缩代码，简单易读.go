@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![11111.png](https://pic.leetcode-cn.com/fb60ed7ba40a67772d3af95ff5fde628a66c9c2a09b32fca2b1687a6d5065c3d-11111.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![11111.png](https://pic.leetcode-cn.com/fb60ed7ba40a67772d3af95ff5fde628a66c9c2a09b32fca2b1687a6d5065c3d-11111.png)
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /*
 解题思路：
 算法一：最笨的办法，复杂度是 O（n^2）
@@ -62,4 +62,4 @@ func hashStr(sep string) (uint32, uint32) {
     // 在计算滚动第四个元素的时候，需要把第一个元素踢出,所以提前算出来
     return hash, pow
 }
-```
+// ```

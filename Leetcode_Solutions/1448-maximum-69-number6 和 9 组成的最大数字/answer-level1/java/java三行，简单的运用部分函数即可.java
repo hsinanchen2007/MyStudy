@@ -1,9 +1,9 @@
-### 解题思路
-三行解决
+// ### 解题思路
+// 三行解决
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maximum69Number (int num) {
         String s = num + "";
@@ -13,4 +13,4 @@ class Solution {
         return Integer.valueOf(s);
     }
 }
-```
+// ```

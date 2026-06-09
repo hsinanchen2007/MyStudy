@@ -1,5 +1,5 @@
-完全按顺序找满足要求的正方形，规律是从前往后找1，找到1后，从后遍历他右下方对角线是否存在1，如果存在再判断以这两点为正方形顶点是否能构成正方形，如果能构成则计算他的面积，从头到尾找完返回最大值。
-```
+// 完全按顺序找满足要求的正方形，规律是从前往后找1，找到1后，从后遍历他右下方对角线是否存在1，如果存在再判断以这两点为正方形顶点是否能构成正方形，如果能构成则计算他的面积，从头到尾找完返回最大值。
+// ```
 int largest1BorderedSquare(int** grid, int gridSize, int* gridColSize){
     int n=gridSize,m=gridColSize[0];
     int N=0;
@@ -21,4 +21,4 @@ int largest1BorderedSquare(int** grid, int gridSize, int* gridColSize){
                     }
     return N;
 }
-```
+// ```

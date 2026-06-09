@@ -1,10 +1,10 @@
-### 解题思路
-全部字母大写
-去除除了字母数字外的符号
+# ### 解题思路
+# 全部字母大写
+# 去除除了字母数字外的符号
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         s = s.upper()
@@ -25,4 +25,4 @@ class Solution:
                 return False
         return True
             
-```
+# ```

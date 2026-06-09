@@ -1,7 +1,7 @@
-分治思路各位大佬都讲得很清楚了，现在把我写的代码供大家参考
-![image.png](https://pic.leetcode-cn.com/6d14ab60f39628cfd31f3264d76220f30e0b99b28021a7e76f7f404a3a403ad3-image.png)
+// 分治思路各位大佬都讲得很清楚了，现在把我写的代码供大家参考
+// ![image.png](https://pic.leetcode-cn.com/6d14ab60f39628cfd31f3264d76220f30e0b99b28021a7e76f7f404a3a403ad3-image.png)
 
-```
+// ```
 class Solution {
 private:
     vector<int> p(vector<string> &input, int l, int r, map<pair<int, int>,vector<int>> &h){
@@ -50,4 +50,4 @@ vector<int> diffWaysToCompute(string s) {
         return p(input, 0, input.size()-1, h);
     }
 };
-```
+// ```

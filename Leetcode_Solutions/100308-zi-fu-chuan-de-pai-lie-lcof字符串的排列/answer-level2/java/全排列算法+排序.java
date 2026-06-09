@@ -1,10 +1,10 @@
-### 解题思路
-思路在这里有写，知乎大佬刷***的题解
-https://zhuanlan.zhihu.com/p/103383116
+// ### 解题思路
+// 思路在这里有写，知乎大佬刷***的题解
+// https://zhuanlan.zhihu.com/p/103383116
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String[] permutation(String s) {
         ArrayList<String> list = new ArrayList<>();
@@ -43,4 +43,4 @@ class Solution {
         arr[j] = temp;
     }
 }
-```
+// ```

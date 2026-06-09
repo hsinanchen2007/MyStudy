@@ -1,14 +1,14 @@
-### 解题思路
+# ### 解题思路
 
-简单计算机想到stack
-注意每次操作都是要保存结果的这样遇到“c”的时候能够cancel，pop（），
-其他的都是append当前的计算结果，
-并且只有“c”才会pop保持一致性
+# 简单计算机想到stack
+# 注意每次操作都是要保存结果的这样遇到“c”的时候能够cancel，pop（），
+# 其他的都是append当前的计算结果，
+# 并且只有“c”才会pop保持一致性
 
-### 代码
+# ### 代码
 
 
-```python3
+# ```python3
 class Solution:
     def calPoints(self, ops: List[str]) -> int:
 
@@ -25,5 +25,5 @@ class Solution:
                 stack.append(int(i))
         
         return sum(i for i in stack)
-```
-```
+# ```
+# ```

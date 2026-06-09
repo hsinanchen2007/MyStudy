@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def isValid(self, s):
         """
@@ -20,6 +20,6 @@ class Solution(object):
             else:
                 stack.append(c)
         return not stack
-```
-有效的字符串满足以下条件：
-每当遇到一个闭括号的时候，它的左边一定是对应的开括号。
+# ```
+# 有效的字符串满足以下条件：
+# 每当遇到一个闭括号的时候，它的左边一定是对应的开括号。

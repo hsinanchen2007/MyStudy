@@ -1,9 +1,9 @@
-### 解题思路
-礼物的最大价值，类似于矩阵的最大路径和等等等,某个点的最大价值，可能是从其左边或者上面传过来的值
-dp[i][j] = Math.max(dp[i-1][j],dp[i][j-1])+nums[i][j];
-### 代码
+// ### 解题思路
+// 礼物的最大价值，类似于矩阵的最大路径和等等等,某个点的最大价值，可能是从其左边或者上面传过来的值
+// dp[i][j] = Math.max(dp[i-1][j],dp[i][j-1])+nums[i][j];
+// ### 代码
 
-```java
+// ```java
 class Solution {
     //动态规划的思想；
     public int maxValue(int[][] grid) {
@@ -25,4 +25,4 @@ class Solution {
         return dp[row-1][col-1];
     }
 }
-```
+// ```

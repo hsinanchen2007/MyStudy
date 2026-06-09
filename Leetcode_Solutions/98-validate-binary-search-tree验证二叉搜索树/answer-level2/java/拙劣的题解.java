@@ -1,9 +1,9 @@
-### 解题思路
-使用中序遍历，加入到一个list集合中，每一次要添加的节点值必须大于list中最后一个节点的值，否则返回false
+// ### 解题思路
+// 使用中序遍历，加入到一个list集合中，每一次要添加的节点值必须大于list中最后一个节点的值，否则返回false
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -27,4 +27,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

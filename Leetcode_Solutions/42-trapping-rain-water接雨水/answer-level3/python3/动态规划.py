@@ -1,5 +1,5 @@
-当前存储水量与之前的关系，分为三种情况。请见代码
-```python []
+# 当前存储水量与之前的关系，分为三种情况。请见代码
+# ```python []
 class Solution:
     def trap(self, height: List[int]) -> int:
         lens = len(height)
@@ -23,5 +23,5 @@ class Solution:
                             break
 
         return(dp[-1])
-```
+# ```
 

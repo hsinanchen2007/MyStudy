@@ -1,9 +1,9 @@
-### 解题思路
-递归：难者不会，会者不难，初学递归容易绕晕
+// ### 解题思路
+// 递归：难者不会，会者不难，初学递归容易绕晕
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int CheckPos(int x, int y) 
 {
    int count = 0;
@@ -58,4 +58,4 @@ int movingCount(int m, int n, int k){
     free(visit);
     return count;
 }
-```
+// ```

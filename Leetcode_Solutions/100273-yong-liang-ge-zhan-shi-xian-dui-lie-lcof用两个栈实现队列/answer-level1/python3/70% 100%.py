@@ -1,9 +1,9 @@
-### 解题思路
-和另外一题一样
+# ### 解题思路
+# 和另外一题一样
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class CQueue:
 
     def __init__(self):
@@ -26,4 +26,4 @@ class CQueue:
 # obj = CQueue()
 # obj.appendTail(value)
 # param_2 = obj.deleteHead()
-```
+# ```

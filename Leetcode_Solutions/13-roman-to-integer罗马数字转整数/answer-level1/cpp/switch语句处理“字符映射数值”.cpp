@@ -1,9 +1,9 @@
-### 解题思路
-使用switch语句来处理遍历过来的字符，对于已知的6种特殊情况进行具体处理；
+// ### 解题思路
+// 使用switch语句来处理遍历过来的字符，对于已知的6种特殊情况进行具体处理；
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int romanToInt(string s) {
@@ -57,4 +57,4 @@ public:
             return res;
     }
 };
-```
+// ```

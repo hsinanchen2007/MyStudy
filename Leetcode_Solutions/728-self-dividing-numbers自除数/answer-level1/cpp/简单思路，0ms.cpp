@@ -1,9 +1,9 @@
-### 解题思路
-注意：各位含有0的数字都需要排除
+// ### 解题思路
+// 注意：各位含有0的数字都需要排除
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> selfDividingNumbers(int left, int right) {
@@ -23,4 +23,4 @@ public:
         return res;
     }   
 };
-```
+// ```

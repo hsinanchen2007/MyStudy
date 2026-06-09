@@ -1,6 +1,6 @@
-只要不超时，没有啥是暴力解决不了。
+// 只要不超时，没有啥是暴力解决不了。
 
-```
+// ```
 public class Solution {
     public int[] MaxDepthAfterSplit(string seq) {
         int[] res = new int[seq.Length];
@@ -29,4 +29,4 @@ public class Solution {
         return res;
     }
 }
-```
+// ```

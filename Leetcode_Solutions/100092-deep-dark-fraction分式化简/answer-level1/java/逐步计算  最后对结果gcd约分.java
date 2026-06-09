@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
       public static int gcd(int m, int n) {
         while (true) {
@@ -36,4 +36,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

@@ -1,13 +1,13 @@
-### 解题思路
-![3.png](https://pic.leetcode-cn.com/cbb55cdf4200edabf17f04c2f9a7aed7e39dce05bfc042d278f39965c81c7558-3.png)
-- 这题还是比较明显状态dp，每一行的状态只与上一行状态有关。
-- dp[i][j]表示第i行考生分布情况为j时的前i行最大学生人数，状态转移方程为dp[i][j]=max(dp[i][j],dp[i-1][k]+num).
-- 其中dp[i-1][k]为上一行考生分布情况为k时的最大人数，num为本行人数（即j的2进制中有多少个1）。
-- 然后每次状态转移前还要判断状态的合法性。
+// ### 解题思路
+// ![3.png](https://pic.leetcode-cn.com/cbb55cdf4200edabf17f04c2f9a7aed7e39dce05bfc042d278f39965c81c7558-3.png)
+// - 这题还是比较明显状态dp，每一行的状态只与上一行状态有关。
+// - dp[i][j]表示第i行考生分布情况为j时的前i行最大学生人数，状态转移方程为dp[i][j]=max(dp[i][j],dp[i-1][k]+num).
+// - 其中dp[i-1][k]为上一行考生分布情况为k时的最大人数，num为本行人数（即j的2进制中有多少个1）。
+// - 然后每次状态转移前还要判断状态的合法性。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxStudents(vector<vector<char>>& seats) {
@@ -63,4 +63,4 @@ public:
         return ans;
     }
 };
-```
+// ```

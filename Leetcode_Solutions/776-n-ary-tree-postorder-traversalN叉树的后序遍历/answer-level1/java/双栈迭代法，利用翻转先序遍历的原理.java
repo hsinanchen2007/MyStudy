@@ -1,6 +1,6 @@
-方法：迭代法，用双栈。
-先序遍历是：中->左->右，那么翻转先序遍历就是：中->右->左，将其依次加入到helper栈中，再依次弹出，就得到了：左->右->中，也就是后序遍历的结果。
-```
+// 方法：迭代法，用双栈。
+// 先序遍历是：中->左->右，那么翻转先序遍历就是：中->右->左，将其依次加入到helper栈中，再依次弹出，就得到了：左->右->中，也就是后序遍历的结果。
+// ```
 public List<Integer> postorder(Node root) {
     List<Integer> res = new ArrayList<>();
     if (root == null) return res;
@@ -22,4 +22,4 @@ public List<Integer> postorder(Node root) {
     }
     return res;
 }
-```
+// ```

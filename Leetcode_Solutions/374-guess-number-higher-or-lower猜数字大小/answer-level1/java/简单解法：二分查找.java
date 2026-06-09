@@ -1,4 +1,4 @@
-```
+// ```
 public class Solution extends GuessGame {
     public int guessNumber(int n) {
         int l = 1; 
@@ -19,4 +19,4 @@ public class Solution extends GuessGame {
         return 0;
     }
 }
-```
+// ```

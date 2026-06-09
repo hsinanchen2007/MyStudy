@@ -1,9 +1,9 @@
-### 重复元素，请考虑set！！！
-### set作用：1.是否包含某个元素。2.去重！
+// ### 重复元素，请考虑set！！！
+// ### set作用：1.是否包含某个元素。2.去重！
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean containsDuplicate(int[] nums) {
         HashSet<Integer> res=new HashSet<>();
@@ -12,4 +12,4 @@ class Solution {
 
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-N皇后可以说是非常经典的回溯算法例题，看到这输出要求我想还是先用数组存储solution比较简单一点。
-```
+// N皇后可以说是非常经典的回溯算法例题，看到这输出要求我想还是先用数组存储solution比较简单一点。
+// ```
 public List<List<String>> solveNQueens(int n) {
         List<List<String>> res = new ArrayList<>();
         int[] queens = new int[n];
@@ -39,4 +39,4 @@ public List<List<String>> solveNQueens(int n) {
         }
         return true;
     }
-```
+// ```

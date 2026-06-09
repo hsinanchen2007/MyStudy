@@ -1,10 +1,10 @@
-#### 方法 1：暴力
+// #### 方法 1：暴力
 
-**算法**
+// **算法**
 
-复用问题「[200. 岛屿数量](https://leetcode-cn.com/problems/number-of-islands/description/)」的代码，对于每一次 _addLand_ 操作，每次操作后调用问题 200 的 `numIslands` 函数去获得岛屿数量。
+// 复用问题「[200. 岛屿数量](https://leetcode-cn.com/problems/number-of-islands/description/)」的代码，对于每一次 _addLand_ 操作，每次操作后调用问题 200 的 `numIslands` 函数去获得岛屿数量。
 
-```c++ [solution-C++]
+// ```c++ [solution-C++]
 class Solution {
 private:
   void dfs(vector<vector<char>>& grid, int r, int c, vector<vector<bool>>& visited) {
@@ -50,9 +50,9 @@ public:
     return ans;
   }
 };
-```
+// ```
 
-```java [solution-Java]
+// ```java [solution-Java]
 class Solution {
   void dfs(char[][] grid, int r, int c, boolean[][] visited) {
     int nr = grid.length;
@@ -106,26 +106,26 @@ class Solution {
     return ans;
   }
 }
-```
+// ```
 
-**复杂度分析**
+// **复杂度分析**
 
-* 时间复杂度： $O(L \times m \times n)$ ，其中 $L$ 是操作的数目， $m$ 是行数， $n$ 是列数。
+// * 时间复杂度： $O(L \times m \times n)$ ，其中 $L$ 是操作的数目， $m$ 是行数， $n$ 是列数。
 
-* 空间复杂度： $O(m \times n)$ ，`grid` 和 `visited` 两个二维数组的空间开销。
+// * 空间复杂度： $O(m \times n)$ ，`grid` 和 `visited` 两个二维数组的空间开销。
 
-#### 方法 2： 哈希表
+// #### 方法 2： 哈希表
 
-**算法**
+// **算法**
 
-用 `HashMap` 将一个岛屿在地图上的坐标映射到它的岛屿编号 island_ID （从 0 开始）。
+// 用 `HashMap` 将一个岛屿在地图上的坐标映射到它的岛屿编号 island_ID （从 0 开始）。
 
-对每一个在 (row, col) 的 _addLand_ 操作，检查它相邻的邻居里是否有在 `HashMap` 中，并将有 `island_ID` 的邻居放到一个集合 `set` 中（这样每个元素都是唯一的）。
-- 如果 `set` 是空的，那么 (row, col) 位置的岛屿形成了一个新的岛屿（island_ID 线性自增 1 ）。
-- 如果 `set` 仅包含一个 island_ID ，那么新的陆地属于一个已经存在的岛屿，且岛屿的 island_ID 保持不变。
-- 如果 `set` 包含超过一个 island_ID ，那么新的陆地会把这些岛屿连接成一个岛屿，我们需要遍历 `HashMap` 更新这个信息（非常耗时！），然后相应地减少岛屿的数目。
+// 对每一个在 (row, col) 的 _addLand_ 操作，检查它相邻的邻居里是否有在 `HashMap` 中，并将有 `island_ID` 的邻居放到一个集合 `set` 中（这样每个元素都是唯一的）。
+// - 如果 `set` 是空的，那么 (row, col) 位置的岛屿形成了一个新的岛屿（island_ID 线性自增 1 ）。
+// - 如果 `set` 仅包含一个 island_ID ，那么新的陆地属于一个已经存在的岛屿，且岛屿的 island_ID 保持不变。
+// - 如果 `set` 包含超过一个 island_ID ，那么新的陆地会把这些岛屿连接成一个岛屿，我们需要遍历 `HashMap` 更新这个信息（非常耗时！），然后相应地减少岛屿的数目。
 
-```c++ [solution-C++]
+// ```c++ [solution-C++]
 class Solution {
 public:
   vector<int> numIslands2(int m, int n, vector<pair<int, int>>& positions) {
@@ -165,9 +165,9 @@ public:
     return ans;
   }
 };
-```
+// ```
 
-```java [solution-Java]
+// ```java [solution-Java]
 class Solution {
   public List<Integer> numIslands2(int m, int n, int[][] positions) {
     List<Integer> ans = new ArrayList<>();
@@ -215,33 +215,33 @@ class Solution {
     return ans;
   }
 }
-```
+// ```
 
-**复杂度分析**
+// **复杂度分析**
 
-* 时间复杂度： $O(L^2)$ ，对于每一次操作，我们遍历整个 HashMap 更新岛屿 id 信息，这个操作的开销是 $O(L)$ 的。
+// * 时间复杂度： $O(L^2)$ ，对于每一次操作，我们遍历整个 HashMap 更新岛屿 id 信息，这个操作的开销是 $O(L)$ 的。
 
-* 空间复杂度： `HashMap` 的空间开销为 $O(L)$ 。
+// * 空间复杂度： `HashMap` 的空间开销为 $O(L)$ 。
 
-附： C++ 的解法 1409ms 运行时间通过了，但是 Java 的解法超时了(TLE)。
+// 附： C++ 的解法 1409ms 运行时间通过了，但是 Java 的解法超时了(TLE)。
 
-#### 方法 3：并查集
+// #### 方法 3：并查集
 
-**想法**
+// **想法**
 
-把二维的网格图当做一个无向图（以邻接矩阵的方式组织），横向或者纵向相邻的节点之间有一条值为 `1` 的边，那么问题就变成了每次 _addLand_ 操作之后在图中寻找连通部分的问题。
+// 把二维的网格图当做一个无向图（以邻接矩阵的方式组织），横向或者纵向相邻的节点之间有一条值为 `1` 的边，那么问题就变成了每次 _addLand_ 操作之后在图中寻找连通部分的问题。
 
-**算法**
+// **算法**
 
-使用并查集这一数据结构，大小为 `m*n` ，在图中保存所有的节点，并初始化每个节点的父节点为 `-1` 表示一个空的图。我们的目标是在每次 _addLand_ 操作以后用新的陆地更新并查集并维护每块陆地所属的岛屿。
+// 使用并查集这一数据结构，大小为 `m*n` ，在图中保存所有的节点，并初始化每个节点的父节点为 `-1` 表示一个空的图。我们的目标是在每次 _addLand_ 操作以后用新的陆地更新并查集并维护每块陆地所属的岛屿。
 
-对于每个在 (row, col) 的 _addLand_ 操作，将它与邻居合并。如果它的邻居没有陆地，就初始化一个新的岛屿（将父节点设为它自己）。
+// 对于每个在 (row, col) 的 _addLand_ 操作，将它与邻居合并。如果它的邻居没有陆地，就初始化一个新的岛屿（将父节点设为它自己）。
 
-以下动画可以更好地说明此算法（包括并查集如何进行 _路径压缩_ 和 _按秩合并_）：
+// 以下动画可以更好地说明此算法（包括并查集如何进行 _路径压缩_ 和 _按秩合并_）：
 
-<![image.png](https://pic.leetcode-cn.com/e153882d4f07eb61ccf392004a6059e422c241d387c209b2c94c1d1f6d0b543e-image.png),![image.png](https://pic.leetcode-cn.com/870d2ce295b10b3f874b203a137740b10ffdb91f1bf5ab8be83c9c2f278c03a7-image.png),![image.png](https://pic.leetcode-cn.com/841601f44fd47df18f4f59df61be79c1cf087933f5f3cfa76f1f4cf562ac00f4-image.png),![image.png](https://pic.leetcode-cn.com/059f29d9e44ac171bf8aabef20040d6e7f23604b03ddfa51432ded4427b7150d-image.png),![image.png](https://pic.leetcode-cn.com/882acdc3dcbe48a236d6ff351d740d228ea981d7d9e724b177a2a7d6c4dd95e2-image.png),![image.png](https://pic.leetcode-cn.com/6c52a998873d5e0ef657aaca974553e7728f0f15d0d9dc14444ed4fc9d5297fe-image.png),![image.png](https://pic.leetcode-cn.com/599a6cee1e2a12d8b4776e9963044ad25dd6c6c3bdc84b02460160dd65c972e9-image.png),![image.png](https://pic.leetcode-cn.com/b383c376a47e4cafd0cf9e004ca3f49100c193791dcf233768f9b0f2a72c0bf0-image.png),![image.png](https://pic.leetcode-cn.com/d6758da9fdfd62c6965f920487cbc6ae7d675ce103a8188b2a0687779b4cc8e6-image.png),![image.png](https://pic.leetcode-cn.com/f0185d4197266cd52897e521c0786f8ba31567fd4beb80ff4aca76dd3675b96f-image.png),![image.png](https://pic.leetcode-cn.com/dc8c550acef8a262535dbcf9f687673ef27ceddc213424433d4a61d016743b2e-image.png),![image.png](https://pic.leetcode-cn.com/e470d87e3ffca8f98bfd1b866ae0870726ed824d5e170850f737fc34b01118db-image.png),![image.png](https://pic.leetcode-cn.com/8e178720b8e8928d2b3c7fb733ab9877d4a5cc98edb71c2803c44e2d7569e756-image.png),![image.png](https://pic.leetcode-cn.com/8c6d22c25307a371d29f49a001581e8b0d84423c5ef720ff1f0b41ab7e4bc45c-image.png),![image.png](https://pic.leetcode-cn.com/5843019cd91aa4da26c4bf922cdeac8981919ea6775384603c6fbddf374e05e7-image.png)>
+// <![image.png](https://pic.leetcode-cn.com/e153882d4f07eb61ccf392004a6059e422c241d387c209b2c94c1d1f6d0b543e-image.png),![image.png](https://pic.leetcode-cn.com/870d2ce295b10b3f874b203a137740b10ffdb91f1bf5ab8be83c9c2f278c03a7-image.png),![image.png](https://pic.leetcode-cn.com/841601f44fd47df18f4f59df61be79c1cf087933f5f3cfa76f1f4cf562ac00f4-image.png),![image.png](https://pic.leetcode-cn.com/059f29d9e44ac171bf8aabef20040d6e7f23604b03ddfa51432ded4427b7150d-image.png),![image.png](https://pic.leetcode-cn.com/882acdc3dcbe48a236d6ff351d740d228ea981d7d9e724b177a2a7d6c4dd95e2-image.png),![image.png](https://pic.leetcode-cn.com/6c52a998873d5e0ef657aaca974553e7728f0f15d0d9dc14444ed4fc9d5297fe-image.png),![image.png](https://pic.leetcode-cn.com/599a6cee1e2a12d8b4776e9963044ad25dd6c6c3bdc84b02460160dd65c972e9-image.png),![image.png](https://pic.leetcode-cn.com/b383c376a47e4cafd0cf9e004ca3f49100c193791dcf233768f9b0f2a72c0bf0-image.png),![image.png](https://pic.leetcode-cn.com/d6758da9fdfd62c6965f920487cbc6ae7d675ce103a8188b2a0687779b4cc8e6-image.png),![image.png](https://pic.leetcode-cn.com/f0185d4197266cd52897e521c0786f8ba31567fd4beb80ff4aca76dd3675b96f-image.png),![image.png](https://pic.leetcode-cn.com/dc8c550acef8a262535dbcf9f687673ef27ceddc213424433d4a61d016743b2e-image.png),![image.png](https://pic.leetcode-cn.com/e470d87e3ffca8f98bfd1b866ae0870726ed824d5e170850f737fc34b01118db-image.png),![image.png](https://pic.leetcode-cn.com/8e178720b8e8928d2b3c7fb733ab9877d4a5cc98edb71c2803c44e2d7569e756-image.png),![image.png](https://pic.leetcode-cn.com/8c6d22c25307a371d29f49a001581e8b0d84423c5ef720ff1f0b41ab7e4bc45c-image.png),![image.png](https://pic.leetcode-cn.com/5843019cd91aa4da26c4bf922cdeac8981919ea6775384603c6fbddf374e05e7-image.png)>
 
-```c++ [solution-C++]
+// ```c++ [solution-C++]
 class UnionFind {
 public:
   UnionFind(int N) {
@@ -314,9 +314,9 @@ public:
     return ans;
   }
 };
-```
+// ```
 
-```java [solution-Java]
+// ```java [solution-Java]
 class Solution {   
   class UnionFind {
     int count; // # of connected components
@@ -406,10 +406,10 @@ class Solution {
     return ans;
   }
 }
-```
+// ```
 
-**复杂度分析**
+// **复杂度分析**
 
-* 时间复杂度： $O(m \times n + L)$ ，其中 $L$ 是操作的数目， $m$ 是行数， $n$ 是列数。需要 $O(m \times n)$ 的时间去初始化并查集， $O(L)$ 的时间去处理岛屿位置。使用路径压缩和按秩合并的情况下，并查集操作的时间可以视为常数时间
+// * 时间复杂度： $O(m \times n + L)$ ，其中 $L$ 是操作的数目， $m$ 是行数， $n$ 是列数。需要 $O(m \times n)$ 的时间去初始化并查集， $O(L)$ 的时间去处理岛屿位置。使用路径压缩和按秩合并的情况下，并查集操作的时间可以视为常数时间
 
-* 空间复杂度： $O(m \times n)$ 。并查集所需的空间。
+// * 空间复杂度： $O(m \times n)$ 。并查集所需的空间。

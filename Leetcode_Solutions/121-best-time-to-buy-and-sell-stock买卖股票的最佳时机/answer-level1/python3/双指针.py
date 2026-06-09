@@ -1,7 +1,7 @@
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         min_price = float('inf')
@@ -11,4 +11,4 @@ class Solution:
             min_price = min(min_price, price)
         return max_profile
 
-```
+# ```

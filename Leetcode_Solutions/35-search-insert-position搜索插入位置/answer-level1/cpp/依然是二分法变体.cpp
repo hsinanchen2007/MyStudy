@@ -1,9 +1,9 @@
-### 解题思路
-二分法变体 ，接上就是多一个判断是否在两侧
+// ### 解题思路
+// 二分法变体 ，接上就是多一个判断是否在两侧
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int searchInsert(vector<int>& nums, int target) {
@@ -26,4 +26,4 @@ public:
         return left;
     }
 };
-```
+// ```

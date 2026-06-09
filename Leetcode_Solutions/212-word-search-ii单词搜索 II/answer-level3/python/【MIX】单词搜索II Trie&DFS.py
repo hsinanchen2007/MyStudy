@@ -1,9 +1,9 @@
-### 解题思路
-在DFS的同时遍历Trie树
+# ### 解题思路
+# 在DFS的同时遍历Trie树
 
-### 代码
+# ### 代码
 
-```c++ []
+# ```c++ []
 // Trie模板
 class Node{
 public:
@@ -103,8 +103,8 @@ private:
         return 0<=x && x<R && 0<=y && y<C;
     }
 };
-```
-```java []
+# ```
+# ```java []
 class Solution {
     // Trie + DFS
     public List<String> findWords(char[][] board, String[] words) {
@@ -194,8 +194,8 @@ class Solution {
         }
     }
 }
-```
-```python []
+# ```
+# ```python []
 # Trie模板
 class Node:
     def __init__(self):
@@ -251,4 +251,4 @@ class Solution:
 
     def inArea(self, x, y):
         return 0<= x and x<self.R and 0<=y and y<self.C
-```
+# ```

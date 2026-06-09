@@ -1,4 +1,4 @@
-```swift
+// ```swift
 class Solution {
     typealias GroupSize = Int
     typealias Indices = [Int]
@@ -24,10 +24,10 @@ class Solution {
         return ans
     }
  }
-```
-可以更简单：
+// ```
+// 可以更简单：
 
-```swift
+// ```swift
  class Solution {
     typealias GroupSize = Int
     typealias Indices = [Int]
@@ -51,4 +51,4 @@ class Solution {
         return ans
     }
  }
-```
+// ```

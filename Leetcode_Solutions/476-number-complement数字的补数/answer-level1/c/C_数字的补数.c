@@ -1,9 +1,9 @@
-### 解题思路
-借助一个栈即可实现
+// ### 解题思路
+// 借助一个栈即可实现
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int findComplement(int num){
     int stack[31];
     int top=0;
@@ -16,4 +16,4 @@ int findComplement(int num){
         num=num*2+stack[--top];
     return num;
 }
-```
+// ```

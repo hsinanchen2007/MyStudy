@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public List<String> generateParenthesis(int n) {
      ArrayList<String>ans=new ArrayList<>();//存放生成的括号组合
@@ -14,4 +14,4 @@ class Solution {
         huisu(ans,left,right+1,n,s+")");//添加右括号
     }
 }
-```
+// ```

@@ -1,13 +1,13 @@
-带编号从小到大对nums归并排序：
-将nums数组分为若干个相邻的a和b段；
-a和b都从小到大有序，暂存数组temp长度tempSize=aSize+bSize；
-思路是遍历temp的每个元素，同时遍历a和b的每个元素，总是将a[j]和b[k]中较小的那个赋值给temp[i];
-aSize+bSize次循环之后temp有序，再将temp赋值给同段的nums。
-另外开辟numsSign和tempSign交换编号。
-一开始，单个元素一定是有序的，之后两段有序数列合并成一大段有序数列，再将两段合并...直到整个数组的元素都有序。（禁止套娃）
-排序的时间复杂度是O(n*log2(n))。且是稳定排序
+// 带编号从小到大对nums归并排序：
+// 将nums数组分为若干个相邻的a和b段；
+// a和b都从小到大有序，暂存数组temp长度tempSize=aSize+bSize；
+// 思路是遍历temp的每个元素，同时遍历a和b的每个元素，总是将a[j]和b[k]中较小的那个赋值给temp[i];
+// aSize+bSize次循环之后temp有序，再将temp赋值给同段的nums。
+// 另外开辟numsSign和tempSign交换编号。
+// 一开始，单个元素一定是有序的，之后两段有序数列合并成一大段有序数列，再将两段合并...直到整个数组的元素都有序。（禁止套娃）
+// 排序的时间复杂度是O(n*log2(n))。且是稳定排序
 
-之后从头尾同时查找：
+// 之后从头尾同时查找：
 sum=nums[j]+nums[k]
 大了k-1，小了j+1
 等于target之后，就将两个numsSign赋值给answer，然后返回。

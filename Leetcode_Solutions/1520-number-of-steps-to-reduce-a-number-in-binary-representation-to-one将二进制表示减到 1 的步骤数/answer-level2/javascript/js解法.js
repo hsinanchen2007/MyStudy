@@ -1,4 +1,4 @@
-```
+// ```
 // 因为字符串足够长，不能转成数字做
 var numSteps = function(s) {
     let arr = s.split('');
@@ -31,6 +31,6 @@ var numSteps = function(s) {
     }
     return cnt;
 };
-```
+// ```
 
-前端算法库：https://github.com/cunzaizhuyi/js-leetcode  
+// 前端算法库：https://github.com/cunzaizhuyi/js-leetcode  

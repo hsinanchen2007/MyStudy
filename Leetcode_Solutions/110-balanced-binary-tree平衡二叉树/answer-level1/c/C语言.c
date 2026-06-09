@@ -1,4 +1,4 @@
-```
+// ```
 #define MY_MAX(a, b) ((a) > (b) ? (a) : (b))
 
 static int GetTreeHeight(struct TreeNode *tree)
@@ -41,4 +41,4 @@ bool isBalanced(struct TreeNode* root){
     
     return true;
 }
-```
+// ```

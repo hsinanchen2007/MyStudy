@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/d22af7bd183cea11fb99aec54fbb9dfdd3bb9043301c79dc5e706cad1f94532b-image.png)
+// ![image.png](https://pic.leetcode-cn.com/d22af7bd183cea11fb99aec54fbb9dfdd3bb9043301c79dc5e706cad1f94532b-image.png)
 
-```
+// ```
 bool isRectangleOverlap(int* rec1, int rec1Size, int* rec2, int rec2Size){
     if ((rec1 == NULL) || (rec1Size == 0) || (rec2 == NULL) || (rec2Size == 0)) {
         return false;
@@ -63,4 +63,4 @@ bool isRectangleOverlap(int* rec1, int rec1Size, int* rec2, int rec2Size){
 
     return false;
 }
-```
+// ```

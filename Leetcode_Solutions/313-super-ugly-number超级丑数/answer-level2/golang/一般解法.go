@@ -1,4 +1,4 @@
-``` go
+// ``` go
 const UINT_MAX = int(^uint(0) >> 1)
 
 func nthSuperUglyNumber(n int, primes []int) int {
@@ -22,4 +22,4 @@ func nthSuperUglyNumber(n int, primes []int) int {
 	}
 	return dp[len(dp)-1]
 }
-```
+// ```

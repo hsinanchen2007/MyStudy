@@ -1,9 +1,9 @@
-### 解题思路
-方法很多，花里胡哨都有
+// ### 解题思路
+// 方法很多，花里胡哨都有
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -40,4 +40,4 @@ public:
       return fakeHead->next;
     }
 };
-```
+// ```

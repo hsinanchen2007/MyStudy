@@ -1,6 +1,6 @@
-swift 版本
+// swift 版本
 
-```
+// ```
 class Solution {
     var dict = [Int: Int]()
     var post = [Int]()
@@ -36,4 +36,4 @@ class Solution {
         return root;
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-先给数组排序，假设[1,2,4,5,6], target=5
-我们知道如果1+5>5,就没必要重复run一遍1+6
+# ### 解题思路
+# 先给数组排序，假设[1,2,4,5,6], target=5
+# 我们知道如果1+5>5,就没必要重复run一遍1+6
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def twoSum(self, nums, target):
         """
@@ -29,4 +29,4 @@ class Solution(object):
                     continue
                 else:
                     break
-```
+# ```

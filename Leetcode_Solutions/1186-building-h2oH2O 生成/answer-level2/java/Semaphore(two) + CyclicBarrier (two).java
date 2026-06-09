@@ -1,8 +1,8 @@
 
-两个信号量分别用于限制可以进入的H,O数目
-用了两个CyclicBarrier主要是为了保证reset能够在await之前进行
-当secondStage.await()时候， firstStage.reset()
-当firstStage.await()时候， secondStage.reset()
+// 两个信号量分别用于限制可以进入的H,O数目
+// 用了两个CyclicBarrier主要是为了保证reset能够在await之前进行
+// 当secondStage.await()时候， firstStage.reset()
+// 当firstStage.await()时候， secondStage.reset()
     CyclicBarrier firstStage = new CyclicBarrier(3);
     CyclicBarrier secondStage = new CyclicBarrier(3);
 

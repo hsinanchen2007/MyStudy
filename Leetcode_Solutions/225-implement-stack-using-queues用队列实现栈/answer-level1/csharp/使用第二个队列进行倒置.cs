@@ -1,8 +1,8 @@
-### 解题思路
-此处撰写解题思路
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// ### 代码
 
-```csharp
+// ```csharp
 public class MyStack {
 
             Queue<int> Q;
@@ -47,4 +47,4 @@ public class MyStack {
  * int param_3 = obj.Top();
  * bool param_4 = obj.Empty();
  */
-```
+// ```

@@ -1,5 +1,5 @@
 
-```
+# ```
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -34,4 +34,4 @@ class Solution:
             preNode=head
             # 不能使用head.next因为上方已经修改了。只能使用postNode
             head=postNode
-```
+# ```

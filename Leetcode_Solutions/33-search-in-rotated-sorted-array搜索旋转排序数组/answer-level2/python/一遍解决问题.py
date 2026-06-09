@@ -1,9 +1,9 @@
-### 解题思路
-先判断target大小是不是比最左数大
-然后二分查找的比较条件中，再增加一个根据nums[mid]与nums[left]或nums[right]的比较
-### 代码
+# ### 解题思路
+# 先判断target大小是不是比最左数大
+# 然后二分查找的比较条件中，再增加一个根据nums[mid]与nums[left]或nums[right]的比较
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         if not nums: return -1
@@ -30,4 +30,4 @@ class Solution:
                 else:
                     return mid
         return -1
-```
+# ```

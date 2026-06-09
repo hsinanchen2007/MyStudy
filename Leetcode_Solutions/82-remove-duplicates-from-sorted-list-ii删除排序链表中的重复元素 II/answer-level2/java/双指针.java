@@ -1,6 +1,6 @@
-> 思路：双指针，以外层的值作为标准进行对比，如果相同，则在退出循环的时候同时删除该节点。时间复杂度 O(n)
+// > 思路：双指针，以外层的值作为标准进行对比，如果相同，则在退出循环的时候同时删除该节点。时间复杂度 O(n)
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -32,4 +32,4 @@ class Solution {
     return p2.next;
   }
 }
-```
+// ```

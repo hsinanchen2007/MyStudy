@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int numDistinct(string s, string t) {
@@ -32,4 +32,4 @@ public:
         return m[a];
     }
 };
-```
+// ```

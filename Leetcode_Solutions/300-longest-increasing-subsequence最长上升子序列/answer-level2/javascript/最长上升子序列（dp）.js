@@ -1,9 +1,9 @@
-### 解题思路
-动态规划
+// ### 解题思路
+// 动态规划
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -26,4 +26,4 @@ const lengthOfLIS = function(nums) {
   }
   return arr.length;
 };
-```
+// ```

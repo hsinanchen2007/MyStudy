@@ -1,4 +1,4 @@
-```
+// ```
 //本来数组里就分为两派，众数和非众数
 
 //如果以众数为candidate那么自然会抵消一半
@@ -19,4 +19,4 @@ int majorityElement(int* nums, int numsSize){
     }
     return candidate;
 }
-```
+// ```

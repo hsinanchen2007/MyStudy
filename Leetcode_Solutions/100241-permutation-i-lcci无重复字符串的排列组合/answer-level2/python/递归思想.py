@@ -1,9 +1,9 @@
-### 解题思路
-![TIM图片20200403111230.png](https://pic.leetcode-cn.com/d1ac6cf63b4d9242f3376126484837cca3ce6ffab11e9a13ddda3802b0f3cfa2-TIM%E5%9B%BE%E7%89%8720200403111230.png)
+# ### 解题思路
+# ![TIM图片20200403111230.png](https://pic.leetcode-cn.com/d1ac6cf63b4d9242f3376126484837cca3ce6ffab11e9a13ddda3802b0f3cfa2-TIM%E5%9B%BE%E7%89%8720200403111230.png)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def permutation(self, S: str) -> List[str]:
         def combation(s):
@@ -23,4 +23,4 @@ class Solution:
         
         
         
-```
+# ```

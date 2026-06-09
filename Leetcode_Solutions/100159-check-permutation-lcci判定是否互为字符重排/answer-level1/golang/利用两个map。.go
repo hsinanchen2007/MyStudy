@@ -1,10 +1,10 @@
-### 解题思路
-分别把他两个字符串存储在map中key为字符，value为该字符出现的次数.
-再遍历map1中的key在map2中是否存在，且存在的时候value是否相等，不存在或者不相等则返回false
+// ### 解题思路
+// 分别把他两个字符串存储在map中key为字符，value为该字符出现的次数.
+// 再遍历map1中的key在map2中是否存在，且存在的时候value是否相等，不存在或者不相等则返回false
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func CheckPermutation(s1 string, s2 string) bool {
     if len(s1)<0||len(s1)>100||len(s2)<0||len(s2)>100{
         return false
@@ -38,4 +38,4 @@ func CheckPermutation(s1 string, s2 string) bool {
     }
     return true
 }
-```
+// ```

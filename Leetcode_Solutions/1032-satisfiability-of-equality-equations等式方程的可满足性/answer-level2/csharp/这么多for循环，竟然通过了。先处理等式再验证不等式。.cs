@@ -1,5 +1,5 @@
- HashSet<string> hsprocess = new HashSet<string>();//记录处理过的等式
-            string[] strarr = new string[equations.Length];//用来存放等式相等的变量
+//  HashSet<string> hsprocess = new HashSet<string>();//记录处理过的等式
+//             string[] strarr = new string[equations.Length];//用来存放等式相等的变量
             int arrindex = 0;
             for (int i = 0; i < strarr.Length; i++) strarr[i] = "";
             List<string> lststrbd = new List<string>();

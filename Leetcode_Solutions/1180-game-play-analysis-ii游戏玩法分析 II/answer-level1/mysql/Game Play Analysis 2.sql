@@ -1,4 +1,4 @@
-```
+-- ```
 SELECT 
 	a.player_id,a.device_id 
 FROM 
@@ -15,4 +15,4 @@ ON
 AND
 	a.player_id = b.player_id
 ;
-```
+-- ```

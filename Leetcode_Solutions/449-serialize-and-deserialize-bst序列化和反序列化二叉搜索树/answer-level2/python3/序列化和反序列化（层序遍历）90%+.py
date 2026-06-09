@@ -1,7 +1,7 @@
-> 比较简单的思路：
-- 根据树的深度使用‘#’将树补全成满二叉树
-- 在重建时需要维护一个待添加左右子节点的树节点的队列
-```python
+# > 比较简单的思路：
+# - 根据树的深度使用‘#’将树补全成满二叉树
+# - 在重建时需要维护一个待添加左右子节点的树节点的队列
+# ```python
 from collections import deque
 
 # Definition for a binary tree node.
@@ -61,4 +61,4 @@ class Codec:
 # Your Codec object will be instantiated and called as such:
 # codec = Codec()
 # codec.deserialize(codec.serialize(root))
-```
+# ```

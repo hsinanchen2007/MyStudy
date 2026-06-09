@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findMaxAverage(nums []int, k int) float64 {
 	res:=0
 	//index:=0
@@ -23,4 +23,4 @@ func findMaxAverage(nums []int, k int) float64 {
 	return float64(res)/float64(k)
 
 }
-```
+// ```

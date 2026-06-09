@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int missingNumber(int[] nums) {
         if(nums[0]!=0) return 0;
@@ -16,4 +16,4 @@ class Solution {
         return nums[nums.length-1]+1;
     }
 }
-```
+// ```

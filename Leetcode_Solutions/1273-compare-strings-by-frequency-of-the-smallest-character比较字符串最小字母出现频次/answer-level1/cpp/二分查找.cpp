@@ -1,5 +1,5 @@
-1. 统计所有的words的最小字母的频次，利用二分查找即可得到结果
-```
+// 1. 统计所有的words的最小字母的频次，利用二分查找即可得到结果
+// ```
 class Solution {
 public:
     int query(string a){
@@ -35,4 +35,4 @@ public:
         return ans;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-前序遍历+排序
+# ### 解题思路
+# 前序遍历+排序
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -33,4 +33,4 @@ class Solution(object):
             if nums[i]>nums[i-1]:
                 return nums[i]
         return -1
-```
+# ```

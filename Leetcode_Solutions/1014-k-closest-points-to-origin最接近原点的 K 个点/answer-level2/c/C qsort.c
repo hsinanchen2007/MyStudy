@@ -1,4 +1,4 @@
-```
+// ```
 typedef struct hash_node {
     int x;
     int y;
@@ -33,4 +33,4 @@ int** kClosest(int** points, int pointsSize, int* pointsColSize, int K, int* ret
     }
     return res;
 }
-```
+// ```

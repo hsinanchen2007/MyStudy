@@ -1,9 +1,9 @@
-### 解题思路
-如题
+// ### 解题思路
+// 如题
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} strs
  * @return {string}
@@ -20,4 +20,4 @@ var longestCommonPrefix = function(strs) {
     }
     return prefixArr.join('');
 };
-```
+// ```

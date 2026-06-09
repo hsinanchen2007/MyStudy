@@ -1,6 +1,6 @@
-典型的01背包问题，关于01背包的详细知识参考[01背包详解](https://blog.csdn.net/reed1991/article/details/53352426)
-具体代码如下
-```
+// 典型的01背包问题，关于01背包的详细知识参考[01背包详解](https://blog.csdn.net/reed1991/article/details/53352426)
+// 具体代码如下
+// ```
 public boolean canPartition(int[] nums) {
         if (nums == null || nums.length == 0) {
             return false;
@@ -24,4 +24,4 @@ public boolean canPartition(int[] nums) {
 
         return res[sum];
     }
-```
+// ```

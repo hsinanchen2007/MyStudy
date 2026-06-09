@@ -1,5 +1,5 @@
-用两个栈，一个从左往右（初始压入root节点），一个从右往左的，代码如下：
-```
+// 用两个栈，一个从左往右（初始压入root节点），一个从右往左的，代码如下：
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -39,4 +39,4 @@ public:
         return results;
     }
 };
-```
+// ```

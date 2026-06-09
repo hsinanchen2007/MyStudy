@@ -1,7 +1,7 @@
-解题思路：算法简单好理解
-1. 先找出最高的
-2. 然后扫描每一行
-```
+// 解题思路：算法简单好理解
+// 1. 先找出最高的
+// 2. 然后扫描每一行
+// ```
 pub fn trap(height: Vec<i32>) -> i32 {
     let mut count = 0;
     let mut max = 0;
@@ -27,4 +27,4 @@ pub fn trap(height: Vec<i32>) -> i32 {
     count as i32
 }
 
-```
+// ```

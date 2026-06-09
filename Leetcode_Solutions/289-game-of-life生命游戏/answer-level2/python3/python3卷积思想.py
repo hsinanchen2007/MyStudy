@@ -1,4 +1,4 @@
-第一步增加数组的行列数，防止边界溢出，有点像卷积的padding
+# 第一步增加数组的行列数，防止边界溢出，有点像卷积的padding
 
 def gameOfLife(self, board: List[List[int]]) -> None:
         """

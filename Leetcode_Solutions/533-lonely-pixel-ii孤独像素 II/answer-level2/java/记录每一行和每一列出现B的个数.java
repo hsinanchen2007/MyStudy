@@ -1,16 +1,16 @@
-### 解题思路
-1. int[] rowsCount:记录每一行出现B的个数
-2. int[] colsCount:记录每一列出现B的个数
-3.  Map<String,Integer> stringMap:将每一行char数组组成一个String，记录每一个String出现的次数（不等于N的肯定就不是目标行了。）提高效率。
-4. int[][] colsRowIndex =new int[rows][N+1]：记录每一列出现X个B的行号。第0位不存值。
-   例如：第1行出现了3个B(分别在2，4,5列)。那么记录为：
-   colsRowIndex[1][1]=2 //第1行中第1次出现B的列号为2
-   colsRowIndex[1][2]=4 //第1行中第2次出现B的列号为4
-   colsRowIndex[1][3]=5 //第1行中第3次出现B的列号为5
+// ### 解题思路
+// 1. int[] rowsCount:记录每一行出现B的个数
+// 2. int[] colsCount:记录每一列出现B的个数
+// 3.  Map<String,Integer> stringMap:将每一行char数组组成一个String，记录每一个String出现的次数（不等于N的肯定就不是目标行了。）提高效率。
+// 4. int[][] colsRowIndex =new int[rows][N+1]：记录每一列出现X个B的行号。第0位不存值。
+//    例如：第1行出现了3个B(分别在2，4,5列)。那么记录为：
+//    colsRowIndex[1][1]=2 //第1行中第1次出现B的列号为2
+//    colsRowIndex[1][2]=4 //第1行中第2次出现B的列号为4
+//    colsRowIndex[1][3]=5 //第1行中第3次出现B的列号为5
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
  public int findBlackPixel(char[][] picture, int N) {
         if(null==picture||picture.length<N)
@@ -84,4 +84,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

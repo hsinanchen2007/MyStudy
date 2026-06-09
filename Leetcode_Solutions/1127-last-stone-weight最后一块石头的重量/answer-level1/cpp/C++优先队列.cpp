@@ -1,9 +1,9 @@
-### 解题思路
-好像也不快……
+// ### 解题思路
+// 好像也不快……
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int lastStoneWeight(vector<int>& stones) {
@@ -21,4 +21,4 @@ public:
         else return pq.top();
     }
 };
-```
+// ```

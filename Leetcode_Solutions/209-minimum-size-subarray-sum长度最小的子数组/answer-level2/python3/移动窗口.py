@@ -1,9 +1,9 @@
-### 解题思路
-移动窗口，当前子串的和等于前一状态的子串的和加上/减去当前移动的值。
+# ### 解题思路
+# 移动窗口，当前子串的和等于前一状态的子串的和加上/减去当前移动的值。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minSubArrayLen(self, s: int, nums):
         i,j = 0,0
@@ -24,4 +24,4 @@ class Solution:
                 i += 1
 
         return res 
-```
+# ```

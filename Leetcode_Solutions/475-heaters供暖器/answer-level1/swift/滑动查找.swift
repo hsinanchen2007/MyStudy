@@ -1,9 +1,9 @@
-### 解题思路
-abs（）函数耗能太大了，这里没有用。
+// ### 解题思路
+// abs（）函数耗能太大了，这里没有用。
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func findRadius(_ houses: [Int], _ heaters: [Int]) -> Int {
 
@@ -51,4 +51,4 @@ class Solution {
         return result
     }
 }
-```
+// ```

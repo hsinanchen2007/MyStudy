@@ -1,9 +1,9 @@
-### 解题思路
-递归的啦
+// ### 解题思路
+// 递归的啦
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -30,4 +30,4 @@ func sumOfLeftLeaves(root *TreeNode) int {
 	return sum
 
 }
-```
+// ```

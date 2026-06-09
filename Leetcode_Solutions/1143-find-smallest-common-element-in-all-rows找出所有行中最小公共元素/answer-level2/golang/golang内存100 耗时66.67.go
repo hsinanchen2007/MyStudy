@@ -1,9 +1,9 @@
-### 解题思路
-先确定最小值最大值 在区间内递增搜索 每次搜索用二分查找
+// ### 解题思路
+// 先确定最小值最大值 在区间内递增搜索 每次搜索用二分查找
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 func smallestCommonElement(mat [][]int) int {
 	row := len(mat)
@@ -58,4 +58,4 @@ func binaryFind(row []int, elem int) bool {
 	return false
 }
 
-```
+// ```

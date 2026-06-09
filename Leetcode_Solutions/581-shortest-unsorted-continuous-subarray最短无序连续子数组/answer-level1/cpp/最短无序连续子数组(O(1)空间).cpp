@@ -1,5 +1,5 @@
-**无序子数组中最小元素的正确位置可以决定左边界，最大元素的正确位置可以决定右边界。**
-```
+// **无序子数组中最小元素的正确位置可以决定左边界，最大元素的正确位置可以决定右边界。**
+// ```
 class Solution {
 public:
     int findUnsortedSubarray(vector<int>& nums) {
@@ -35,4 +35,4 @@ public:
         return (ans > 0) ? ans + 1 : 0;
     }
 };
-```
+// ```

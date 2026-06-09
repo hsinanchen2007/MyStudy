@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public boolean isNumber(String s) {
         int allowE = 1;
@@ -58,4 +58,4 @@ class Solution {
     }
 
 }
-```
+// ```

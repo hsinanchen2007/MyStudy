@@ -1,8 +1,8 @@
-分析：用到了两个递归
-第一个递归：用于遍历每个结点
-第二个递归：从该节点开始向下找存在的路径个数
+# 分析：用到了两个递归
+# 第一个递归：用于遍历每个结点
+# 第二个递归：从该节点开始向下找存在的路径个数
 
-```
+# ```
 def pathSum(self, root, sum):
         """
         :type root: TreeNode
@@ -21,5 +21,5 @@ def pathSum(self, root, sum):
             count+=dfs(root.right,sum-root.val)
             return count
         return dfs(root,sum)+self.pathSum(root.left,sum)+self.pathSum(root.right,sum)
-```
+# ```
 

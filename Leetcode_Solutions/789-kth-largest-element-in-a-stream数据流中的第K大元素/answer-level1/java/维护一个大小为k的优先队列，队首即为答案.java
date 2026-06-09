@@ -1,4 +1,4 @@
-```
+// ```
 class KthLargest {
 	PriorityQueue<Integer> queue;
 	int size = 0;
@@ -20,4 +20,4 @@ class KthLargest {
 		return queue.peek();
 	}
 }
-```
+// ```

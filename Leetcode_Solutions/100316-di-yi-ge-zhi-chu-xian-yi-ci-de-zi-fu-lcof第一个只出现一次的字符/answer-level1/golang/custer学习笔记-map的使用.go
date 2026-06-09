@@ -1,9 +1,9 @@
-### 解题思路
-map的使用
+// ### 解题思路
+// map的使用
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func firstUniqChar(s string) byte {
   // 定义一个map存储字符对应的出现次数和出现下标
   m := make(map[byte]*Pair) 
@@ -34,4 +34,4 @@ type Pair struct {
 func NewPair(index, value int) *Pair {
   return &Pair{index, value}
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```go
+// ```go
 // ListNode Definition for singly-linked list.
 type ListNode struct {
     Val  int
@@ -22,4 +22,4 @@ func removeNthFromEnd(head *ListNode, n int) *ListNode {
     p.Next = p.Next.Next // 循环结束后，跳过要删除的节点
     return dummy.Next    // 返回dummy.Next
 }
-```
+// ```

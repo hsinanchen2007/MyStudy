@@ -1,10 +1,10 @@
-### 解题思路
-完全背包问题
+// ### 解题思路
+// 完全背包问题
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func combinationSum4(nums []int, target int) int {
     if len(nums)==0{
         return 0
@@ -20,4 +20,4 @@ func combinationSum4(nums []int, target int) int {
     }
     return dp[target]
 }
-```
+// ```

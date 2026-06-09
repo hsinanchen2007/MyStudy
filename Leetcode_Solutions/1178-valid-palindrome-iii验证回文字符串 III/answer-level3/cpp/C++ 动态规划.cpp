@@ -1,5 +1,5 @@
-简化为寻找字符串s及其反向字符串的最长公共子序列，例如 **a**b**cd**e**ca** 和 **ac**e**dc**b**a**
-```
+// 简化为寻找字符串s及其反向字符串的最长公共子序列，例如 **a**b**cd**e**ca** 和 **ac**e**dc**b**a**
+// ```
 class Solution {
 public:
     bool isValidPalindrome(string s, int k) {
@@ -19,4 +19,4 @@ public:
         return (dp[len][len] + k >= len);
     }
 };
-```
+// ```

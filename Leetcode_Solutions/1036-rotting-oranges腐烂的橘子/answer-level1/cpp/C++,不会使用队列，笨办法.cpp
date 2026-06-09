@@ -1,6 +1,6 @@
-不会使用队列存储坐标集合，就只能用这种笨办法，这次学到了。
-C++的矢量和python的数组使用体验差好多。
-```
+// 不会使用队列存储坐标集合，就只能用这种笨办法，这次学到了。
+// C++的矢量和python的数组使用体验差好多。
+// ```
 class Solution {
 public:
     int orangesRotting(vector<vector<int>>& grid) {
@@ -42,4 +42,4 @@ public:
     return cnt;
     }
 };
-```
+// ```

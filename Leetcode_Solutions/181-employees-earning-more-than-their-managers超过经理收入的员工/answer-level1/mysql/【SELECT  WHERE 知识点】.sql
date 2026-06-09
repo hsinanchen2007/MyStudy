@@ -1,4 +1,4 @@
-```
+-- ```
 # Write your MySQL query statement below
 SELECT 
     Name Employee #列名
@@ -33,4 +33,4 @@ WHERE
 -- LIKE 	搜索某种模式
 -- IN 	指定针对某个列的多个可能值
 
-```
+-- ```

@@ -1,10 +1,10 @@
-### 解题思路
-1. 遍历一次获取所有的海洋和陆地地址为两个列表
-2. 两个列表嵌套遍历，获得结果。
+// ### 解题思路
+// 1. 遍历一次获取所有的海洋和陆地地址为两个列表
+// 2. 两个列表嵌套遍历，获得结果。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} grid
  * @return {number}
@@ -33,4 +33,4 @@ var maxDistance = function(grid) {
     })
     return res;
 };
-```
+// ```

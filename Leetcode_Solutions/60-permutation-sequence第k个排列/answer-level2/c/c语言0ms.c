@@ -1,9 +1,9 @@
-![微信截图_20200229170612.png](https://pic.leetcode-cn.com/7f6cc0305e3c19b8d0535043dab401fad1f70cded092ecf6c537210995467f84-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200229170612.png)
+// ![微信截图_20200229170612.png](https://pic.leetcode-cn.com/7f6cc0305e3c19b8d0535043dab401fad1f70cded092ecf6c537210995467f84-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200229170612.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char *getPermutation(int n, int k)
 {
     char *str = (char *)malloc(sizeof(char) * n + 1);
@@ -24,4 +24,4 @@ char *getPermutation(int n, int k)
     }
     return str;
 }
-```
+// ```

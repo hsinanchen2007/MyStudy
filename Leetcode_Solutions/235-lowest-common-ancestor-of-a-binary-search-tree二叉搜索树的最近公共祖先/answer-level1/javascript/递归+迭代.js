@@ -1,9 +1,9 @@
-### 解题思路
-方法一、递归
+// ### 解题思路
+// 方法一、递归
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -27,9 +27,9 @@ var lowestCommonAncestor = function(root, p, q) {
     }
 
 };
-```
-方法二、迭代
-```
+// ```
+// 方法二、迭代
+// ```
 var lowestCommonAncestor = function(root, p, q) {
     while(root!=null){
         if(p.val>root.val && q.val>root.val){
@@ -41,5 +41,5 @@ var lowestCommonAncestor = function(root, p, q) {
         }
     }
 };
-```
+// ```
 

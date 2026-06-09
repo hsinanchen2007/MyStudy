@@ -1,6 +1,6 @@
-1.先将数组中字符串按照每个字符串长度排序
-2.拼接字符串并且判断当前字符串是否在已经编码过的字符串里
-```
+// 1.先将数组中字符串按照每个字符串长度排序
+// 2.拼接字符串并且判断当前字符串是否在已经编码过的字符串里
+// ```
 public int minimumLengthEncoding(String[] words) {
             StringBuffer stringBuffer = new StringBuffer();
             for (int i = 0; i < words.length; i++) {
@@ -30,4 +30,4 @@ public int minimumLengthEncoding(String[] words) {
         }
         return stringBuffer.length();
     }
-```
+// ```

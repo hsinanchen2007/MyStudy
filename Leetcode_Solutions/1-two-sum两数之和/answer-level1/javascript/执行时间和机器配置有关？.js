@@ -1,15 +1,15 @@
-![Annotation 2020-03-17 145944.png](https://pic.leetcode-cn.com/7c4e31c487a324966142a7506a92a4f127689cfadcf083e66b16d3c1e707311c-Annotation%202020-03-17%20145944.png)
+// ![Annotation 2020-03-17 145944.png](https://pic.leetcode-cn.com/7c4e31c487a324966142a7506a92a4f127689cfadcf083e66b16d3c1e707311c-Annotation%202020-03-17%20145944.png)
 
-膜拜学习了JS最快的40ms的方法，精妙！情不自禁用8年前的AMD A4的老本提交以下，92ms。。。再用公司新发的本本Thinkpad T580(i5)提交了一遍，48ms。。。。。。
+// 膜拜学习了JS最快的40ms的方法，精妙！情不自禁用8年前的AMD A4的老本提交以下，92ms。。。再用公司新发的本本Thinkpad T580(i5)提交了一遍，48ms。。。。。。
 
-(lll￢ω￢)，上服务器工作站！
+// (lll￢ω￢)，上服务器工作站！
 
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -41,4 +41,4 @@ var twoSum = function (nums, target) {
             map.set(nums[i], i);
         }
     };
-```
+// ```

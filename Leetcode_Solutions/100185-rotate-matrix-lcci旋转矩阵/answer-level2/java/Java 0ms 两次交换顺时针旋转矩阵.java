@@ -1,8 +1,8 @@
-**解题思路为先进行变换，再上下翻转。**
-![图片.png](https://pic.leetcode-cn.com/eb59a2f250a921fe138038f5127693587757f8ac7c03b34468ae0ee7de9d48fe-%E5%9B%BE%E7%89%87.png)
+// **解题思路为先进行变换，再上下翻转。**
+// ![图片.png](https://pic.leetcode-cn.com/eb59a2f250a921fe138038f5127693587757f8ac7c03b34468ae0ee7de9d48fe-%E5%9B%BE%E7%89%87.png)
 
-**代码如下：**
-```
+// **代码如下：**
+// ```
 class Solution {
     public void rotate(int[][] matrix) {
         int size = matrix.length;
@@ -22,4 +22,4 @@ class Solution {
         }
     }
 }
-```
+// ```

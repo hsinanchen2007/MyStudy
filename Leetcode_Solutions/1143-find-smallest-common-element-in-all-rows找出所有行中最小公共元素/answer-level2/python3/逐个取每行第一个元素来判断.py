@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def smallestCommonElement(self, mat):
         """
@@ -22,4 +22,4 @@ class Solution(object):
             hdidx[idx] += 1
             hd[idx] = mat[idx][hdidx[idx]]
 
-```
+# ```

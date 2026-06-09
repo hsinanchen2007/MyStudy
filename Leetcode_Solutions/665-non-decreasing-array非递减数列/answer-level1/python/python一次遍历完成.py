@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def checkPossibility(self, nums):
         """
@@ -25,4 +25,4 @@ class Solution(object):
         if nums[index-1]<nums[index+1] or nums[index]<nums[index+2]:
             return True
         return False
-```
+# ```

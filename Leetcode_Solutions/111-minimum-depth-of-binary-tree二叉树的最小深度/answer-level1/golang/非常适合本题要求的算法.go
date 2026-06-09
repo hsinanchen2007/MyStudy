@@ -1,6 +1,6 @@
-BFS在最理想的情况下，可以在第二层就找到答案（假设树最小深2）。最坏情况也仅需要O(N)时间复杂度。空间则是O(N)的。DFS则每次都需要O(N)。
+// BFS在最理想的情况下，可以在第二层就找到答案（假设树最小深2）。最坏情况也仅需要O(N)时间复杂度。空间则是O(N)的。DFS则每次都需要O(N)。
 
-```go
+// ```go
 func minDepth(root *TreeNode) int {
     if root == nil {
         return 0
@@ -25,4 +25,4 @@ func minDepth(root *TreeNode) int {
     }
     return depth
 }
-```
+// ```

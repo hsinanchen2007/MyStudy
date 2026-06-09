@@ -1,4 +1,4 @@
-```java
+// ```java
 //next数组
     public String longestPrefix(String s) {
         int n=s.length();
@@ -17,4 +17,4 @@
         }
         return s.substring(0,next[n-1]+1);
     }
-```
+// ```

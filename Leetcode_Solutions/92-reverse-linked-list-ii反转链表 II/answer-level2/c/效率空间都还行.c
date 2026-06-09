@@ -1,6 +1,6 @@
-提供一个初学者思路，效率空间都不错，要是有bug，请指正
+// 提供一个初学者思路，效率空间都不错，要是有bug，请指正
 
-```
+// ```
 struct ListNode* reverseBetween(struct ListNode* head, int m, int n) {
 	struct ListNode *p, *q, *new;
 	struct ListNode HEAD;
@@ -33,4 +33,4 @@ struct ListNode* reverseBetween(struct ListNode* head, int m, int n) {
 
 	return HEAD.next;
 }
-```
+// ```

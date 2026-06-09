@@ -1,9 +1,9 @@
-### 解题思路
-滑动窗口+双指针
+// ### 解题思路
+// 滑动窗口+双指针
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -31,15 +31,15 @@ class Solution {
         return $min == PHP_INT_MAX ? 0 : $min;
     }
 }
-```
+// ```
 
-### 性能
-执行用时 :16 ms, 在所有 PHP 提交中击败了100.00%的用户
-内存消耗 :18.8 MB, 在所有 PHP 提交中击败了10.00%的用户
+// ### 性能
+// 执行用时 :16 ms, 在所有 PHP 提交中击败了100.00%的用户
+// 内存消耗 :18.8 MB, 在所有 PHP 提交中击败了10.00%的用户
 
-### 算法复杂度
--- 时间复杂度 O(N)
--- 空间复杂度 O(N)
+// ### 算法复杂度
+// -- 时间复杂度 O(N)
+// -- 空间复杂度 O(N)
 
-### 参考
-[https://leetcode-cn.com/problems/minimum-size-subarray-sum/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-43/](https://leetcode-cn.com/problems/minimum-size-subarray-sum/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-43/)
+// ### 参考
+// [https://leetcode-cn.com/problems/minimum-size-subarray-sum/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-43/](https://leetcode-cn.com/problems/minimum-size-subarray-sum/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-43/)

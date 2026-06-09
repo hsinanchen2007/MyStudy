@@ -1,9 +1,9 @@
-### 解题思路
-对于所有节点，求左子树的最大深度+右子树的最大深度，记录最大值
+// ### 解题思路
+// 对于所有节点，求左子树的最大深度+右子树的最大深度，记录最大值
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -41,4 +41,4 @@ class Solution {
         return Math.max(left, right) + 1;
     }
 }
-```
+// ```

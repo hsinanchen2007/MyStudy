@@ -1,9 +1,9 @@
-### 解题思路
-广度遍历的一般思路和题解
+# ### 解题思路
+# 广度遍历的一般思路和题解
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxDistance(self, grid: List[List[int]]) -> int:
         l = len(grid)
@@ -38,4 +38,4 @@ class Solution:
                     queue.append((x, y+1))
         
         return depth - 1
-```
+# ```

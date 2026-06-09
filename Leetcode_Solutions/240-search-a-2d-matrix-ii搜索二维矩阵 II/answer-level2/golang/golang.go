@@ -1,4 +1,4 @@
-```
+// ```
 // 从右上角开始遍历
 // 1. 向左遍历，找到第一个小于target的元素
 // 2. 向下遍历，找到第一个大于target的元素
@@ -42,4 +42,4 @@ func searchMatrix(matrix [][]int, target int) bool {
     }
     return false
 }
-```
+// ```

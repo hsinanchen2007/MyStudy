@@ -1,8 +1,8 @@
-![捕获leetcode347.JPG](https://pic.leetcode-cn.com/571eb15bc22f38ff1430a92f7c28a9503a0e016a0ce77f8d362d3708a8e88e3e-%E6%8D%95%E8%8E%B7leetcode347.JPG)
+// ![捕获leetcode347.JPG](https://pic.leetcode-cn.com/571eb15bc22f38ff1430a92f7c28a9503a0e016a0ce77f8d362d3708a8e88e3e-%E6%8D%95%E8%8E%B7leetcode347.JPG)
 
 
-首先：将int数组排序，然后遍历一次计算数量后，插入堆中排序，排序是根据数字出现的频率来对比。最后返回前K个即可。
-```
+// 首先：将int数组排序，然后遍历一次计算数量后，插入堆中排序，排序是根据数字出现的频率来对比。最后返回前K个即可。
+// ```
 public class T347_TopKFrequent {
 
     class Node {
@@ -50,4 +50,4 @@ public class T347_TopKFrequent {
     }
 
 }
-```
+// ```

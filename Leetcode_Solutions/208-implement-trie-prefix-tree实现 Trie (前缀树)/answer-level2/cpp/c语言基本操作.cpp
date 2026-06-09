@@ -1,4 +1,4 @@
-```
+// ```
 #define maxn 26
 #define nullptr NULL
 struct TrieNode{
@@ -88,4 +88,4 @@ void trieFree(Trie* obj) {
  
  * trieFree(obj);
 */
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-思路就是利用2个Map，其中一个维护chars字符串中每个字符出现的次数，另外一个维护每个字符串中每个字符的出现次数，然后取其中一个Map中的key，去另外一个Map中比对就可以了，比较粗暴和浪费空间，其实可以利用数组下标去统计chars字符串中每个字符的出现次数，0对应a，1对应b······
+// ### 解题思路
+// 思路就是利用2个Map，其中一个维护chars字符串中每个字符出现的次数，另外一个维护每个字符串中每个字符的出现次数，然后取其中一个Map中的key，去另外一个Map中比对就可以了，比较粗暴和浪费空间，其实可以利用数组下标去统计chars字符串中每个字符的出现次数，0对应a，1对应b······
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int countCharacters(String[] words, String chars) {
         if(words.length == 0 || chars.length() == 0)
@@ -39,4 +39,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

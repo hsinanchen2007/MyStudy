@@ -1,4 +1,4 @@
-```
+// ```
 int fib(int n){
     if (n < 2) {
         return n;
@@ -14,4 +14,4 @@ int fib(int n){
 
     return ret[n%2];
 }
-```
+// ```

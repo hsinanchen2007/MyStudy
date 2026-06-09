@@ -1,4 +1,4 @@
-```
+// ```
 func hammingWeight(num uint32) int {
     var count int//存储1的个数
     for num !=0{
@@ -9,4 +9,4 @@ func hammingWeight(num uint32) int {
     }
     return count   
 }
-```
+// ```

@@ -1,7 +1,7 @@
 
-不断地将下一个节点放入链表最前端：时间 O(N) 空间 O(1)
+# 不断地将下一个节点放入链表最前端：时间 O(N) 空间 O(1)
 
-```python
+# ```python
 class Solution(object):
     def reverseList(self, head):
         if not head:
@@ -13,13 +13,13 @@ class Solution(object):
             p2 = head
             head = p1
         return p2
-```
+# ```
 
-更直观的方法：
+# 更直观的方法：
 
-用栈的性质，将节点压入栈中，再将节点pop出来，构成一个新的链表：时间 O(N) 空间 O(N)
+# 用栈的性质，将节点压入栈中，再将节点pop出来，构成一个新的链表：时间 O(N) 空间 O(N)
 
-```python
+# ```python
 class Solution(object):
     def reverseList(self, head):
         if not head:
@@ -37,5 +37,5 @@ class Solution(object):
             cur = cur.next
             cur.next = None
         return h.next
-```
+# ```
 

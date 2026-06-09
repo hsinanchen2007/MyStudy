@@ -1,4 +1,4 @@
-```
+// ```
 import "sort"
 
 type AutocompleteSystem struct {
@@ -58,4 +58,4 @@ func (this *AutocompleteSystem) Input(c byte) []string {
 	}
 	return out
 }
-```
+// ```

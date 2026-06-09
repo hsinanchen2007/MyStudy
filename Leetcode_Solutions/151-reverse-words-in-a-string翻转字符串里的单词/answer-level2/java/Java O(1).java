@@ -1,9 +1,9 @@
-### 解题思路
-Java O(1)， 先翻转字符串，再翻转每个单词
+// ### 解题思路
+// Java O(1)， 先翻转字符串，再翻转每个单词
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String reverseWords(String s) {
         // O(1)，先翻转整个串，再翻转每个单词（或者先反转每个单词再翻转整个串）
@@ -59,4 +59,4 @@ class Solution {
 
     }
 }
-```
+// ```

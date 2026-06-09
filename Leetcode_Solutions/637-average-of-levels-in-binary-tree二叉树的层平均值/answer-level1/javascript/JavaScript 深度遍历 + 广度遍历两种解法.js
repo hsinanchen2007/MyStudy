@@ -1,8 +1,8 @@
 
-[leetcode](https://github.com/yeyan1996/leetcode) 记录了我刷题的过程( JavaScript 版本)，希望各位赏个 star 👏
+// [leetcode](https://github.com/yeyan1996/leetcode) 记录了我刷题的过程( JavaScript 版本)，希望各位赏个 star 👏
 
-## 广度遍历解法
-```javascript
+// ## 广度遍历解法
+// ```javascript
  var averageOfLevels = function(root) {
   let res = [];
   if (!root) return res;
@@ -20,12 +20,12 @@
   }
   return res;
 }; 
-```
-最简单也是性能效率的最优解法，利用队列逐层遍历二叉树，然后计算当前层数所有元素的平均值
+// ```
+// 最简单也是性能效率的最优解法，利用队列逐层遍历二叉树，然后计算当前层数所有元素的平均值
 
-## 深度遍历解法
+// ## 深度遍历解法
 
-```javascript
+// ```javascript
 var averageOfLevels = function(root) {
   let res = [];
   if (!root) return res;
@@ -37,10 +37,10 @@ var averageOfLevels = function(root) {
   traverse(root, 0);
   return res.map(item => item.reduce((pre, cur) => pre + cur) / item.length);
 };
-```
+// ```
 
-深度遍历解法，前序遍历二叉树，每次递归的时候记录当前的深度，根据深度来将当前节点放入数组的对应的位置
+// 深度遍历解法，前序遍历二叉树，每次递归的时候记录当前的深度，根据深度来将当前节点放入数组的对应的位置
 
-遍历完毕会得到一个二维数组，即数组每个元素也是一个数组，保存了当前层数的所有节点
+// 遍历完毕会得到一个二维数组，即数组每个元素也是一个数组，保存了当前层数的所有节点
 
-将二维数组的每个元素做归并求平均值即可
+// 将二维数组的每个元素做归并求平均值即可

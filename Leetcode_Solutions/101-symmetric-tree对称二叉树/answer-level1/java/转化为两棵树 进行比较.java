@@ -1,9 +1,9 @@
-### 解题思路
-核心思想就是，转化为两棵树。
+// ### 解题思路
+// 核心思想就是，转化为两棵树。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -25,4 +25,4 @@ class Solution {
     return isMirror(t1.right, t2.left) && isMirror(t1.left, t2.right);
    }   
 }
-```
+// ```

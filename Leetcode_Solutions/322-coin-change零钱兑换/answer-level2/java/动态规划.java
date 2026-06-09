@@ -1,6 +1,6 @@
-本题可以转变思路。想象成为爬楼梯的问题。即用最少的步数到达第amount层台阶。每一步你可以迈coins中的任何一个数。
-我们可以用一个数组存放凑齐n元需要的最少硬币数。
-```
+// 本题可以转变思路。想象成为爬楼梯的问题。即用最少的步数到达第amount层台阶。每一步你可以迈coins中的任何一个数。
+// 我们可以用一个数组存放凑齐n元需要的最少硬币数。
+// ```
 class Solution {
     int count = Integer.MAX_VALUE;
     public int coinChange(int[] coins, int amount) {
@@ -25,4 +25,4 @@ class Solution {
         return state[state.length - 1];
     }
 }
-```
+// ```

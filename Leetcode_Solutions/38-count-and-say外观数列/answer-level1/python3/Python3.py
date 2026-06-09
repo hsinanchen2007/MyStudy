@@ -1,17 +1,17 @@
-### 解题思路
-外循环n次
-    初始化
-    对结果进行内循环遍历
-        判断：与temp相等：
-                count+1
-             与temp不等：
-                nums_temp列表中添加count和temp
-                重置
-返回 列表转str
+# ### 解题思路
+# 外循环n次
+#     初始化
+#     对结果进行内循环遍历
+#         判断：与temp相等：
+#                 count+1
+#              与temp不等：
+#                 nums_temp列表中添加count和temp
+#                 重置
+# 返回 列表转str
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countAndSay(self, n: int) -> str:
  
@@ -38,4 +38,4 @@ class Solution:
                                                                   
         
 
-```
+# ```

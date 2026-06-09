@@ -1,9 +1,9 @@
-### 解题思路
-单栈
+# ### 解题思路
+# 单栈
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def trap(self, height: List[int]) -> int:
         length=len(height)
@@ -22,4 +22,4 @@ class Solution:
             idx+=1 
         return res
 
-```
+# ```

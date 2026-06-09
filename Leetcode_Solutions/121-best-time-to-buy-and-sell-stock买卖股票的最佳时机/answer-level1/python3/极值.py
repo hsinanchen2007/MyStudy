@@ -1,8 +1,8 @@
-### 解题思路
+# ### 解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
 
@@ -14,4 +14,4 @@ class Solution:
         return maxprofit
 
 
-```
+# ```

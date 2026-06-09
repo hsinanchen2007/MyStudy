@@ -1,9 +1,9 @@
-### 解题思路
-1. 逐层插入
+# ### 解题思路
+# 1. 逐层插入
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def permute(self, nums):
         """
@@ -22,4 +22,4 @@ class Solution(object):
             last_res = cur_res
         return last_res
 
-```
+# ```

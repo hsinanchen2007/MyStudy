@@ -1,9 +1,9 @@
-### 解题思路
-蛮办法，定义同步变量
+// ### 解题思路
+// 蛮办法，定义同步变量
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Foo {
     private volatile int flag = 1;
     public Foo() {
@@ -30,4 +30,4 @@ class Foo {
         printThird.run();
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def maxDepth(self, root):
         """
@@ -7,4 +7,4 @@ class Solution(object):
         """
 
         return 0 if not root else max(self.maxDepth(root.left), self.maxDepth(root.right)) + 1
-```
+# ```

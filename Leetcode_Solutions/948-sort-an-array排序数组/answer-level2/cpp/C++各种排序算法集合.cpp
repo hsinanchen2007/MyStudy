@@ -1,5 +1,5 @@
-# 高级做法Sort
-```
+// # 高级做法Sort
+// ```
 class Solution {
 public:
     vector<int> sortArray(vector<int>& nums) {
@@ -7,12 +7,12 @@ public:
         return nums;
     }
 };
-```
+// ```
 
-# 冒泡排序
+// # 冒泡排序
 
-对于本题:超出时间限制
-```
+// 对于本题:超出时间限制
+// ```
 class Solution {
 public:
     // 冒泡 
@@ -30,13 +30,13 @@ public:
         return nums;
     }
 };
-```
+// ```
 
 
-# 选择排序
+// # 选择排序
 
-对于本题:超出时间限制
-```
+// 对于本题:超出时间限制
+// ```
 class Solution {
 public:
     // 选择排序
@@ -58,4 +58,4 @@ public:
         return nums;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```java
+// ```java
     private int[] parent;
 
     // 并查集
@@ -37,4 +37,4 @@
         parent[id] = findRoot(parent[id]); // 路径压缩
         return parent[id];
     }
-```
+// ```

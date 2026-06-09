@@ -1,9 +1,9 @@
-### 解题思路
-动态规划，三维数组的状态可以降维二维，因为每一次交易应该只和上一天有关系
+// ### 解题思路
+// 动态规划，三维数组的状态可以降维二维，因为每一次交易应该只和上一天有关系
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX(a,b) (a>b?a:b)
 int maxProfit2(int* prices, int pricesSize) {
 	int dp0 = 0; //售出
@@ -35,4 +35,4 @@ int maxProfit(int k, int* prices, int pricesSize) {
 }
 
 
-```
+// ```

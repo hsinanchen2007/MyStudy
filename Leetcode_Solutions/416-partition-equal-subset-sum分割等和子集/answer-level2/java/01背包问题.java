@@ -1,6 +1,6 @@
-执行用时 :7 ms, 在所有 java 提交中击败了95.20% 的用户
-内存消耗 :36.5 MB, 在所有 java 提交中击败了89.27%的用户
-```
+// 执行用时 :7 ms, 在所有 java 提交中击败了95.20% 的用户
+// 内存消耗 :36.5 MB, 在所有 java 提交中击败了89.27%的用户
+// ```
 class Solution {
     public boolean canPartition(int[] nums) {
         if(nums == null || nums.length < 2)
@@ -22,4 +22,4 @@ class Solution {
         return dp[sum] == 0 ? false : true;
     }
 }
-```
+// ```

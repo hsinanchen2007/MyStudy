@@ -1,9 +1,9 @@
-### 解题思路
-双队列法解决
+// ### 解题思路
+// 双队列法解决
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MyStack {
     //双队列
     /** Initialize your data structure here. */
@@ -65,4 +65,4 @@ class MyStack {
  * int param_3 = obj.top();
  * boolean param_4 = obj.empty();
  */
-```
+// ```

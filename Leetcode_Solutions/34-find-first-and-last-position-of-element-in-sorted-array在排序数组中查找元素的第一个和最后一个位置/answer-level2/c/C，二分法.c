@@ -1,10 +1,10 @@
-### 解题思路
-1，使用二分法找到mid
-2，以mid为中心向两边找边界
+// ### 解题思路
+// 1，使用二分法找到mid
+// 2，以mid为中心向两边找边界
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -80,4 +80,4 @@ int* searchRange(int* nums, int numsSize, int target, int* returnSize){
 
     return pRet;
 }
-```
+// ```

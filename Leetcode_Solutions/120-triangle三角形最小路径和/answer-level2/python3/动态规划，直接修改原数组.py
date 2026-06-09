@@ -1,6 +1,6 @@
-直接原地修改原数组。
+# 直接原地修改原数组。
 
-```
+# ```
 class Solution:
     def minimumTotal(self, triangle: List[List[int]]) -> int:
         n = len(triangle)
@@ -14,11 +14,11 @@ class Solution:
                     else:
                         triangle[i][j] += min(triangle[i-1][j-1], triangle[i-1][j])
         return min(triangle[-1])
-```
+# ```
 
-也可以不改变原数组，利用一个数组存储上一行各位置的最小路径。
+# 也可以不改变原数组，利用一个数组存储上一行各位置的最小路径。
 
-```
+# ```
 class Solution:
     def minimumTotal(self, triangle: List[List[int]]) -> int:
         n = len(triangle)
@@ -34,4 +34,4 @@ class Solution:
                     else:
                         res[j] = min(tmp[j-1], tmp[j]) + triangle[i][j]
         return min(res)
-```
+# ```

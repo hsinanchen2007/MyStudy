@@ -1,8 +1,8 @@
-### 解题思路
-反正这种方法虽然鱼唇但是一次过了就先打个卡。
-### 代码
+// ### 解题思路
+// 反正这种方法虽然鱼唇但是一次过了就先打个卡。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String gcdOfStrings(String str1, String str2) {
         String x="";
@@ -32,4 +32,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

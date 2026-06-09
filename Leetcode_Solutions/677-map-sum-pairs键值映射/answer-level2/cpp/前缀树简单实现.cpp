@@ -1,7 +1,7 @@
-# 利用前缀树的思想构造MapSum
-相比较于前缀树，只是多加了一个value属性，在其为end时，可以通过访问value属性来得知该字符串所对应的值。
+// # 利用前缀树的思想构造MapSum
+// 相比较于前缀树，只是多加了一个value属性，在其为end时，可以通过访问value属性来得知该字符串所对应的值。
 
-```
+// ```
 class MapSum {
 private:
     bool isEnd; // 是否为最后一个字母
@@ -49,5 +49,5 @@ public:
         return dfs(node);
     }
 };
-```
+// ```
 

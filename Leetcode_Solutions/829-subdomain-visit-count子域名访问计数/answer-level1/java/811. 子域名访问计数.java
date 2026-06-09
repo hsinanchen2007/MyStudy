@@ -1,13 +1,13 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/10/12
- *
- * 解题思路: hashMap 的使用
- *
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/10/12
+//  *
+//  * 解题思路: hashMap 的使用
+//  *
+//  */
+// ```
 public List<String> subdomainVisits(String[] cpdomains) {
     HashMap<String,Integer> hashMap = new HashMap<>();
     List<String> list = new ArrayList<>();
@@ -43,4 +43,4 @@ public List<String> subdomainVisits(String[] cpdomains) {
     }
     return list;
 }
-```
+// ```

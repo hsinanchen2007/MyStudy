@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def strWithout3a3b(self, A: int, B: int) -> str:
         if A + B >= 3:
@@ -10,4 +10,4 @@ class Solution:
                 return "ab" * A
         else:
             return 'a' * A + 'b' * B
-```
+# ```

@@ -1,11 +1,11 @@
-![image.png](https://pic.leetcode-cn.com/f65c1254506944e73f0398bbf716419681bfaebb19cc8aa14f8f2f0cdfc7f5aa-image.png)
+// ![image.png](https://pic.leetcode-cn.com/f65c1254506944e73f0398bbf716419681bfaebb19cc8aa14f8f2f0cdfc7f5aa-image.png)
 
-### 解题思路
-用stringstream就能直接用>>操作符获得每个以空格结尾的单词，再借助一个栈反转就行了。
+// ### 解题思路
+// 用stringstream就能直接用>>操作符获得每个以空格结尾的单词，再借助一个栈反转就行了。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string reverseWords(string s) {
@@ -23,4 +23,4 @@ public:
         return ans;
     }
 };
-```
+// ```

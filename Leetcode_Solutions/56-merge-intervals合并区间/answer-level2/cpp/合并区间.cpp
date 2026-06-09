@@ -1,11 +1,11 @@
-### 思路
-要合并最大区间就要知道区间的左值和右值，在此基础上又分为三类
-- 右值大于当前[x,y]中的y
-- 右值介于当前[x,y]
-- 右值小于当前[x,y]中的x
+// ### 思路
+// 要合并最大区间就要知道区间的左值和右值，在此基础上又分为三类
+// - 右值大于当前[x,y]中的y
+// - 右值介于当前[x,y]
+// - 右值小于当前[x,y]中的x
 
-- ##### 方法一
-```
+// - ##### 方法一
+// ```
 // class Solution {
 // public:
 //     vector<vector<int>> merge(vector<vector<int>>& intervals) {
@@ -35,10 +35,10 @@
 //         return res;
 //     }
 // };
-```
+// ```
 
-- #####方法二(一的plus)
-```
+// - #####方法二(一的plus)
+// ```
 class Solution {
 public:
     vector<vector<int>> merge(vector<vector<int>>& intervals) {
@@ -55,6 +55,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
 

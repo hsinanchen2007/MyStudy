@@ -1,9 +1,9 @@
-### 解题思路
-动态规划
+# ### 解题思路
+# 动态规划
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def canJump(self, nums: List[int]) -> bool:
 
@@ -13,4 +13,4 @@ class Solution:
             if max_step <= i: 
                 return False
         return max_step >= len(nums) - 1
-```
+# ```

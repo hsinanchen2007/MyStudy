@@ -1,5 +1,5 @@
-很直观的想法，第一次二分查找确定所要查找的数所在的行，第二次二分查找确定要找到的数列所在的列，最后比较最后定位到的数和target是否相等，相等返回true，不等返回false。
-```
+// 很直观的想法，第一次二分查找确定所要查找的数所在的行，第二次二分查找确定要找到的数列所在的列，最后比较最后定位到的数和target是否相等，相等返回true，不等返回false。
+// ```
 class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
         int begin = 0;
@@ -41,4 +41,4 @@ class Solution {
         }
     }
 }
-```
+// ```

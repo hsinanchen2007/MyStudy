@@ -1,4 +1,4 @@
-```
+// ```
 class MyQueue {
     Stack<Integer> stack;
     /** Initialize your data structure here. */
@@ -42,4 +42,4 @@ class MyQueue {
  * int param_3 = obj.peek();
  * boolean param_4 = obj.empty();
  */
-```
+// ```

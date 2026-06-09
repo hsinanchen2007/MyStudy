@@ -1,9 +1,9 @@
-### 解题思路
-结合简单的打家劫舍，这次的只需要两次调用上一次的方法即可（去头数组，去尾数组谁的结果更大）
+// ### 解题思路
+// 结合简单的打家劫舍，这次的只需要两次调用上一次的方法即可（去头数组，去尾数组谁的结果更大）
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
  public int Rob(int[] nums)
         {
@@ -30,4 +30,4 @@ public class Solution {
             return currentMax;
         }
 }
-```
+// ```

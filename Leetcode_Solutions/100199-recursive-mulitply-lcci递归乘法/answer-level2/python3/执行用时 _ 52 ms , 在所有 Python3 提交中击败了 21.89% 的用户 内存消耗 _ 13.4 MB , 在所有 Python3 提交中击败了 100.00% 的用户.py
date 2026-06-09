@@ -1,10 +1,10 @@
-### 解题思路
-1.判断哪个值更小
-2.选择对应的函数进行递归，防止溢出
+# ### 解题思路
+# 1.判断哪个值更小
+# 2.选择对应的函数进行递归，防止溢出
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def multiply(self, A: int, B: int) -> int:
         def multiplyA(A: int, B: int) -> int:
@@ -21,4 +21,4 @@ class Solution:
             return multiplyA(A, B)       
         else:
             return multiplyB(A, B)
-```
+# ```

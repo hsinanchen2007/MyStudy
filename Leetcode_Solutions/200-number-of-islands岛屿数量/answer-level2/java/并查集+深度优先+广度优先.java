@@ -1,20 +1,20 @@
-# 岛屿数量
->给定一个由 '1'（陆地）和 '0'（水）组成的的二维网格，计算岛屿的数量。一个岛被水包围，并且它是通过水平方向或垂直方向上相邻的陆地连接而成的。你可以假设网格的四个边均被水包围。
+// # 岛屿数量
+// >给定一个由 '1'（陆地）和 '0'（水）组成的的二维网格，计算岛屿的数量。一个岛被水包围，并且它是通过水平方向或垂直方向上相邻的陆地连接而成的。你可以假设网格的四个边均被水包围。
 
->示例 1:
-输入:
-11110
-11010
-11000
-00000
-输出: 1
+// >示例 1:
+// 输入:
+// 11110
+// 11010
+// 11000
+// 00000
+// 输出: 1
 
->来源：力扣（LeetCode）
-链接：https://leetcode-cn.com/problems/number-of-islands
+// >来源：力扣（LeetCode）
+// 链接：https://leetcode-cn.com/problems/number-of-islands
 
-并查集解法
+// 并查集解法
 
-```java
+// ```java
 class Union{
         private int[] union;
         int count = 0;
@@ -84,10 +84,10 @@ class Union{
     private boolean isValid(char[][] grid,int len1,int len2, int x, int y) {
         return x >= 0 && x < len1 && y >= 0 && y < len2 && grid[x][y] == '1';
     }
-```
+// ```
 
-DFS 解法
-```java
+// DFS 解法
+// ```java
 class Solution {
     class Point{
         int x;
@@ -129,10 +129,10 @@ class Solution {
         return x >= 0 && x < len1 && y >= 0 && y < len2;
     }
 }
-```
+// ```
 
-BFS 解法
-```java
+// BFS 解法
+// ```java
 class Solution {
     class Point{
         int x;
@@ -178,4 +178,4 @@ class Solution {
         return x >= 0 && x < len1 && y >= 0 && y < len2;
     }
 }
-```
+// ```

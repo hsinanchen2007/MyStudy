@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def isAdditiveNumber(self, num: str) -> bool:
         for i in range(1, len(num) // 3 + 1):
@@ -43,4 +43,4 @@ class Solution:
             if tmp > 0:
                 return tmp == int(str_sum[-1])
             return True
-```
+# ```

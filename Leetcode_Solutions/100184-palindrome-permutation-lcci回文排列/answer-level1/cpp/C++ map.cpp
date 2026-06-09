@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool canPermutePalindrome(string s) {
@@ -16,8 +16,8 @@ public:
         return (cnt <= 1);
     }
 };
-```
+// ```
 
 
 
-用数组统计也是一个道理
+// 用数组统计也是一个道理

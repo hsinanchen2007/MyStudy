@@ -1,9 +1,9 @@
-### 解题思路
-矩阵长(行数)为matrix.length,宽(列宽)为matrix[i].length
+// ### 解题思路
+// 矩阵长(行数)为matrix.length,宽(列宽)为matrix[i].length
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} matrix
  * @param {number} target
@@ -18,4 +18,4 @@ var findNumberIn2DArray = function(matrix, target) {
     }
     return false;
 };
-```
+// ```

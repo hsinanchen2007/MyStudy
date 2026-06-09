@@ -1,9 +1,9 @@
-### 解题思路
-应用有限自动机（DFA）。坐标分别为当前元素类别和目前所处状态，对应值为下一步状态。
+# ### 解题思路
+# 应用有限自动机（DFA）。坐标分别为当前元素类别和目前所处状态，对应值为下一步状态。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def myAtoi(self, str: str) -> int:
         state_table={'start':['start','signed','input','end'],
@@ -42,4 +42,4 @@ class Solution:
             return sign*num
             
             
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-剑指offer原题，比较简单
+// ### 解题思路
+// 剑指offer原题，比较简单
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int majorityElement(int[] nums) {
         int count  = 1;
@@ -21,4 +21,4 @@ class Solution {
         return major;
     }
 }
-```
+// ```

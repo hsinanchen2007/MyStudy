@@ -1,9 +1,9 @@
-### 解题思路
-使用for循环，分别限定开始数，结束数，剩下的循环遍历获取中间数
+// ### 解题思路
+// 使用for循环，分别限定开始数，结束数，剩下的循环遍历获取中间数
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numTeams(vector<int>& rating) {
@@ -26,4 +26,4 @@ public:
         return res;
     }
 };
-```
+// ```

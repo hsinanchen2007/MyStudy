@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     pair<TreeNode*, TreeNode*> convertBiNodeCore(TreeNode* root) {
         pair<TreeNode*, TreeNode*> res(NULL, NULL);
@@ -25,4 +25,4 @@ public:
         return res.first;
     }
 };
-```
+// ```

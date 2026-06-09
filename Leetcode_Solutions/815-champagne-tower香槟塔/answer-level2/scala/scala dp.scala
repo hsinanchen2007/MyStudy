@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def champagneTower(poured: Int, query_row: Int, query_glass: Int): Double = {
     val dp = Array.fill(101)(0.0)
@@ -10,4 +10,4 @@ object Solution {
     1.0.min(dp(query_glass))
   }
 }
-```
+// ```

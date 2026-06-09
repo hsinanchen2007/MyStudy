@@ -1,6 +1,6 @@
 
 
-```c
+// ```c
 int romanToInt(char * s){
 	int sum=0;
 	while(*s!='\0'){
@@ -15,4 +15,4 @@ int romanToInt(char * s){
 	}		
     return sum;
 }
-```
+// ```

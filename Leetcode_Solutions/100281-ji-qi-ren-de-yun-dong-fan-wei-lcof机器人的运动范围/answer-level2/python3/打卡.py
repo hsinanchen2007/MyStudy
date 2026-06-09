@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def movingCount(self, m: int, n: int, k: int) -> int:
         def sum_ij(row, col):
@@ -25,4 +25,4 @@ class Solution:
                     if 0 <= i + di < m and 0 <= j + dj < n:
                         queue.append((i + di, j + dj))
         return len(marked)
-```
+# ```

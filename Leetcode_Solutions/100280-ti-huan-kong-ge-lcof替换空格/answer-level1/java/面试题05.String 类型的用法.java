@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public String replaceSpace(String s) {
         int num=s.length();
@@ -15,4 +15,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

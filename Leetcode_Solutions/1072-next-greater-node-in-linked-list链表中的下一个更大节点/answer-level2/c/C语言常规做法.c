@@ -1,5 +1,5 @@
-利用双链表构成栈，双链表每个节点需要记录的是index（位置），但该做法占用空间较大，后续再进行更新。
-```c
+// 利用双链表构成栈，双链表每个节点需要记录的是index（位置），但该做法占用空间较大，后续再进行更新。
+// ```c
 typedef struct a{
     int index;
     struct a* next;
@@ -47,4 +47,4 @@ int* nextLargerNodes(struct ListNode* head, int* returnSize){
     free(stack);
     return res;
 }
-```
+// ```

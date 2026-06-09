@@ -1,8 +1,8 @@
 
-![image.png](https://pic.leetcode-cn.com/a0309a0d2182a20b297615470641de36d4e5bebbb911086f4b40fd01af614303-image.png)
+// ![image.png](https://pic.leetcode-cn.com/a0309a0d2182a20b297615470641de36d4e5bebbb911086f4b40fd01af614303-image.png)
 
 
-```
+// ```
 func isUgly(num int) bool {
     if num == 0 {
         return false
@@ -20,4 +20,4 @@ func isUgly(num int) bool {
     }
     return true
 }
-```
+// ```

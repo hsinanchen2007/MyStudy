@@ -1,9 +1,9 @@
-### 解题思路
-额、第一个独立AC的题记录一下  写的还比较弱鸡。
+// ### 解题思路
+// 额、第一个独立AC的题记录一下  写的还比较弱鸡。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Size){
     
     int m=nums1Size,n=nums2Size;
@@ -42,4 +42,4 @@ double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Si
             return *(newnum+mid);
         }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class NestedIterator {
 private:
     class status {
@@ -52,12 +52,12 @@ public:
         return false;
     }
 };
-```
+// ```
 
-nextInt 指向的就是下一个数字。
-大致思路是判断下一个元素是int还是list，
-如果是int,hasNext() 就返回true。
-如果是list,就判断list是否为空，list为空，那就++curIndex,指向当前栈顶的vector里的下一个元素，如果当前栈顶的vector没有下一个元素了，就pop(),取上一个vector。
-重复以上步骤。
+// nextInt 指向的就是下一个数字。
+// 大致思路是判断下一个元素是int还是list，
+// 如果是int,hasNext() 就返回true。
+// 如果是list,就判断list是否为空，list为空，那就++curIndex,指向当前栈顶的vector里的下一个元素，如果当前栈顶的vector没有下一个元素了，就pop(),取上一个vector。
+// 重复以上步骤。
 
-执行用时 : 24 ms , 在所有 C++ 提交中击败了 91.63% 的用户
+// 执行用时 : 24 ms , 在所有 C++ 提交中击败了 91.63% 的用户

@@ -1,10 +1,10 @@
-### 解题思路
-冒泡排序
-![image.png](https://pic.leetcode-cn.com/40fb3c76e0a13246ced3ffbe8240ad78a36b6a2700e1de59fa7c8191f78c035b-image.png)
+// ### 解题思路
+// 冒泡排序
+// ![image.png](https://pic.leetcode-cn.com/40fb3c76e0a13246ced3ffbe8240ad78a36b6a2700e1de59fa7c8191f78c035b-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
@@ -33,4 +33,4 @@ public:
 
     }
 };
-```
+// ```

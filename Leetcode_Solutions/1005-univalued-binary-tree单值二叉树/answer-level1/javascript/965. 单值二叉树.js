@@ -1,15 +1,15 @@
-### 解题思路
+// ### 解题思路
 
-以下是简单的思路：
+// 以下是简单的思路：
 
-- 对比上一个节点的值和当前节点的值，如果不相等，直接返回 ``false``
-- 递归左右子树
+// - 对比上一个节点的值和当前节点的值，如果不相等，直接返回 ``false``
+// - 递归左右子树
 
-⚠️注意：这里使用任意能遍历 ``二叉树`` 的方法都行，核心思想是找出不一样的情况。
+// ⚠️注意：这里使用任意能遍历 ``二叉树`` 的方法都行，核心思想是找出不一样的情况。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -34,4 +34,4 @@ var isUnivalTree = function(root) {
     }
     return helper(root, root && root.val)
 };
-```
+// ```

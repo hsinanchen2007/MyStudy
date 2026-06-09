@@ -1,7 +1,7 @@
-__滑动窗口法：__
+// __滑动窗口法：__
 
-注1. 所有不重复的字符最多有95个；
-```
+// 注1. 所有不重复的字符最多有95个；
+// ```
 class Solution 
 {
     /**
@@ -45,10 +45,10 @@ class Solution
         return true;
     }
 }
-```
+// ```
 
-__仿java的php版本，膜拜大神，值得思考：__
-```
+// __仿java的php版本，膜拜大神，值得思考：__
+// ```
 class Solution 
 {
     /**
@@ -84,4 +84,4 @@ class Solution
         return $length;
     }
 }
-```
+// ```

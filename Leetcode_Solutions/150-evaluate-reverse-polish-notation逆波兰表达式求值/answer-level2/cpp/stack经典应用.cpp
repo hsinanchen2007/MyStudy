@@ -1,9 +1,9 @@
-### 解题思路
-用一个stack来储存，遇到运算符就把前两个数算好。
-需要注意的是负数的情况，要单独判断一下
-### 代码
+// ### 解题思路
+// 用一个stack来储存，遇到运算符就把前两个数算好。
+// 需要注意的是负数的情况，要单独判断一下
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int evalRPN(vector<string>& tokens) {
@@ -55,4 +55,4 @@ public:
         return stk.top();
     }
 };
-```
+// ```

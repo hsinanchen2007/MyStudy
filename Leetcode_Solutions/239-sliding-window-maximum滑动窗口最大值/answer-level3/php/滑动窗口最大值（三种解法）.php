@@ -1,6 +1,6 @@
 
-解法1：暴力求解
-每次迭代到新的滑动窗口时，进行k次大小的遍历，逐次获取滑动窗口的最大值
+// 解法1：暴力求解
+// 每次迭代到新的滑动窗口时，进行k次大小的遍历，逐次获取滑动窗口的最大值
 
 
     int* maxSlidingWindow(int* nums, int numsSize, int k, int* returnSize){

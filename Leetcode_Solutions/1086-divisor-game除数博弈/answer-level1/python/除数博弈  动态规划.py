@@ -1,8 +1,8 @@
-### 解题思路
+# ### 解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def divisorGame(self, N):
         dp = [False]*(N+1)
@@ -18,4 +18,4 @@ class Solution(object):
                         dp[i] = True
                         break        
         return dp[N]
-```
+# ```

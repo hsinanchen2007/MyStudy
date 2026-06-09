@@ -1,6 +1,6 @@
-之前的代码在测试用例[1,-1,1,-1]时不会通过，在每个while循环前，将该段的和令为该段首元素即可，如下
+// 之前的代码在测试用例[1,-1,1,-1]时不会通过，在每个while循环前，将该段的和令为该段首元素即可，如下
 
-```
+// ```
 second_sum = *( A + i++ );
 
 while( second_sum != ( sum / 3 ) && i < ASize - 1 ){
@@ -8,11 +8,11 @@ while( second_sum != ( sum / 3 ) && i < ASize - 1 ){
     second_sum += *( A + i++ );
 
 }
-```
+// ```
 
-完整源码如下
+// 完整源码如下
 
-```
+// ```
 /**
 *
 *整体思路：
@@ -95,4 +95,4 @@ bool canThreePartsEqualSum( int * A , int ASize ){
     return false;
 
 }
-```
+// ```

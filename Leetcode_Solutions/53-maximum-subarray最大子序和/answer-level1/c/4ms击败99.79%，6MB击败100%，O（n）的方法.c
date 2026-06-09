@@ -1,9 +1,9 @@
-### 解题思路
-整体思路是：遍历一遍数组，判断当前值该不该加到总和sum里。最朴素的思路出发。
+// ### 解题思路
+// 整体思路是：遍历一遍数组，判断当前值该不该加到总和sum里。最朴素的思路出发。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int maxSubArray(int* nums, int numsSize){
     if(numsSize==1)
         return nums[0];
@@ -65,4 +65,4 @@ int maxSubArray(int* nums, int numsSize){
     return m;
     }
 }
-```
+// ```

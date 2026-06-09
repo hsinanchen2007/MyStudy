@@ -1,5 +1,5 @@
-哈希5行解决战斗
-```js
+// 哈希5行解决战斗
+// ```js
 var singleNumber = function(nums) {
     const temp = new Set();
     return Array.from(nums.reduce((t, num) => {
@@ -7,4 +7,4 @@ var singleNumber = function(nums) {
         return t;
     }, new Set()));
 };
-```
+// ```

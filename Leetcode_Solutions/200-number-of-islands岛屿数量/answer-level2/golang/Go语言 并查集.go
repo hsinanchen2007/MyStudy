@@ -1,22 +1,22 @@
-定义一个struct：
-包含三个interface：
-union(element1, element2 int) //并查集中的“并”
-find(input int) int //并查集中的“查”
-getCount() //返回“不相交元素集合”个数
-包含两个变量：
-count int //记录“不相交元素集合”个数
-parent []int //记录每个元素的parent，有相同parent的元素视为在同一个“不相交元素集合”
+// 定义一个struct：
+// 包含三个interface：
+// union(element1, element2 int) //并查集中的“并”
+// find(input int) int //并查集中的“查”
+// getCount() //返回“不相交元素集合”个数
+// 包含两个变量：
+// count int //记录“不相交元素集合”个数
+// parent []int //记录每个元素的parent，有相同parent的元素视为在同一个“不相交元素集合”
 
-因为go没有构造函数的概念，所以另外写了一个接口：
-NewUnionFind(grid [][]byte) *UnionFind
-来实现并查集的初始化
+// 因为go没有构造函数的概念，所以另外写了一个接口：
+// NewUnionFind(grid [][]byte) *UnionFind
+// 来实现并查集的初始化
 
-总体思路就比较简单了：
-1. 生成并查集，并将所有值为'1'的元素放进相应的“不相交元素集合”中
-2. 查看一共有多少个“不相交元素集合”，该值即为题目定义的岛屿的数量
+// 总体思路就比较简单了：
+// 1. 生成并查集，并将所有值为'1'的元素放进相应的“不相交元素集合”中
+// 2. 查看一共有多少个“不相交元素集合”，该值即为题目定义的岛屿的数量
 
-代码如下：
-```
+// 代码如下：
+// ```
 type UnionFind struct {
     count int
     parent []int
@@ -86,4 +86,4 @@ func numIslands(grid [][]byte) int {
     }
     return uf.getCount()
 }
-```
+// ```

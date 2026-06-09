@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     double angleClock(int hour, int minutes) {
@@ -8,4 +8,4 @@ public:
         return min(abs(d1-d2),360-abs(d1-d2));
     }
 };
-```
+// ```

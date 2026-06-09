@@ -1,5 +1,5 @@
-都在注释里啦
-```
+# 都在注释里啦
+# ```
 class Solution:
     def removeBoxes(self, boxes: List[int]) -> int:
         memo = {}
@@ -36,4 +36,4 @@ class Solution:
         # 初始状态为 已知boxes[0]有0个的情况下， boxes[0:]能获得的最大积分
         return dp(0, len(boxes), 0)
 
-```
+# ```

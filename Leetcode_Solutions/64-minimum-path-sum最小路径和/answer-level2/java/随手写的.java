@@ -1,8 +1,8 @@
-### 解题思路
-随手写的
-### 代码
+// ### 解题思路
+// 随手写的
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minPathSum(int[][] grid) {
         int m=grid.length;
@@ -21,4 +21,4 @@ class Solution {
         return grid[0][0];
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-排列组合的题，我首先想到的是回溯+剪枝，这份代码的思路首先是找出所有符合要求的组合，然后进行去重；剪枝是先把candidates按升序排序，这样，在当前层找到相等或大于target的值后，便可以return。
+# ### 解题思路
+# 排列组合的题，我首先想到的是回溯+剪枝，这份代码的思路首先是找出所有符合要求的组合，然后进行去重；剪枝是先把candidates按升序排序，这样，在当前层找到相等或大于target的值后，便可以return。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def combinationSum(self, candidates, target: int):
         def isrepeat(a, b):
@@ -50,4 +50,4 @@ class Solution:
                     needed[j]=False
         res = [res[i] for i in range(len(res)) if needed[i]]
         return res
-```
+# ```

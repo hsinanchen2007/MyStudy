@@ -1,13 +1,13 @@
-### 解题思路
-二叉树性质
-1.中序遍历是有序的(left,root,right)
-2.左子树节点均小于根节点
-3.右子树节点均大于根节点
-notice 所以先遍历右子树是倒叙 否则是正序
+// ### 解题思路
+// 二叉树性质
+// 1.中序遍历是有序的(left,root,right)
+// 2.左子树节点均小于根节点
+// 3.右子树节点均大于根节点
+// notice 所以先遍历右子树是倒叙 否则是正序
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -36,4 +36,4 @@ func find(root *TreeNode, res *[]int) {
 	}
 	
 }
-```
+// ```

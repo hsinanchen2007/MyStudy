@@ -1,5 +1,5 @@
-双重遍历，y指向当前结点，x指针右移n次，若x是尾结点则删除y.next，若x==None，则删除头结点。
-```
+# 双重遍历，y指向当前结点，x指针右移n次，若x是尾结点则删除y.next，若x==None，则删除头结点。
+# ```
 class Solution(object):
     def removeNthFromEnd(self, head, n):
         """
@@ -27,4 +27,4 @@ class Solution(object):
                 return head
             y = y.next
         return head
-```
+# ```

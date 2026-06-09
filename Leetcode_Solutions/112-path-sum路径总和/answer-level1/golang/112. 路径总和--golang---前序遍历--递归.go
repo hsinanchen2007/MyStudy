@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-利用递归的前序遍历，找到从根节点到各个叶子节点的路径上的总和是否符合要求
+// 利用递归的前序遍历，找到从根节点到各个叶子节点的路径上的总和是否符合要求
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -51,4 +51,4 @@ func Run(t int,root *TreeNode,sum int) bool {
 }
 
 
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-用左右两指针夹逼移动；注意去重的运用
+// ### 解题思路
+// 用左右两指针夹逼移动；注意去重的运用
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>> lists = new ArrayList<>();
@@ -58,4 +58,4 @@ class Solution {
         return lists;
     }
 }
-```
+// ```

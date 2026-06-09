@@ -1,6 +1,6 @@
-*1、二叉搜索树性质：中序遍历后，得到从小到大排序的数组*
-*2、判断数组前后差值是否大于0*
-```
+# *1、二叉搜索树性质：中序遍历后，得到从小到大排序的数组*
+# *2、判断数组前后差值是否大于0*
+# ```
     def isValidBST(self, root):
         """
         :type root: TreeNode
@@ -22,4 +22,4 @@
                 if (self.list_[i+1] - self.list_[i])<=0:
                     return False
             return True
-```
+# ```

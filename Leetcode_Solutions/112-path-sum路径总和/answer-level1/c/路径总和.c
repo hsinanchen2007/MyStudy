@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/971794421a7eebbf36ceb6373f68e03a66d1895ca4c59f4d2d68ae7d9528f9a5-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/971794421a7eebbf36ceb6373f68e03a66d1895ca4c59f4d2d68ae7d9528f9a5-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -26,4 +26,4 @@ bool hasPathSum(struct TreeNode* root, int sum){
     else
         return hasPathSum(root->left,sum - root->val) || hasPathSum(root->right,sum - root->val);
 }
-```
+// ```

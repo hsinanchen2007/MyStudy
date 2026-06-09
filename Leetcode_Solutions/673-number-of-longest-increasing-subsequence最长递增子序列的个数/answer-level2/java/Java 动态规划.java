@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int findNumberOfLIS(int[] nums) {
         int maxLen=0,res=0; //maxLen：递增子序列的最大长度，res：maxLen长递增子序列的个数
@@ -25,4 +25,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

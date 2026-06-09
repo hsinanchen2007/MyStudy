@@ -1,10 +1,10 @@
-### 解题思路
-使用两个虚假头节点。
-注意最后 rnode.next=null  否则会导致循环链表
+// ### 解题思路
+// 使用两个虚假头节点。
+// 注意最后 rnode.next=null  否则会导致循环链表
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -43,4 +43,4 @@ class Solution {
 
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-执行用时 :0 ms, 在所有 java 提交中击败了100.00% 的用户
-内存消耗 :34.9 MB, 在所有 java 提交中击败了46.10%的用户
-```
+// 执行用时 :0 ms, 在所有 java 提交中击败了100.00% 的用户
+// 内存消耗 :34.9 MB, 在所有 java 提交中击败了46.10%的用户
+// ```
 class Solution {
     public void sortColors(int[] nums) {
         if(nums == null || nums.length < 2)
@@ -26,4 +26,4 @@ class Solution {
         nums[j] = temp;
     }
 }
-```
+// ```

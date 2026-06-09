@@ -1,10 +1,10 @@
 
-![批注 2019-08-18 171937.png](https://pic.leetcode-cn.com/01ce3a2b0650ec7d88018e25e2329d51e29b7b350cd2b24f2bb226d9fff22540-%E6%89%B9%E6%B3%A8%202019-08-18%20171937.png)
+// ![批注 2019-08-18 171937.png](https://pic.leetcode-cn.com/01ce3a2b0650ec7d88018e25e2329d51e29b7b350cd2b24f2bb226d9fff22540-%E6%89%B9%E6%B3%A8%202019-08-18%20171937.png)
 
-各函数复杂度：O(n),O(1),O(1)
-结构里存储二叉树最后一层和倒数第二层节点
+// 各函数复杂度：O(n),O(1),O(1)
+// 结构里存储二叉树最后一层和倒数第二层节点
 
-```
+// ```
 type CBTInserter struct {
     root *TreeNode
     LastLastNodeList []*TreeNode
@@ -56,5 +56,5 @@ func (this *CBTInserter) Insert(v int) int {
 func (this *CBTInserter) Get_root() *TreeNode {
     return this.root
 }
-```
+// ```
 

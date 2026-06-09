@@ -1,12 +1,12 @@
-### 解题思路
+# ### 解题思路
 
-对任意给的首项 a1, 项数n, val = n*a1 + n(n-1)/2, 令 val = target, 遍历 n, 计算 a1 即可
-考虑 n 的遍历空间， [2,k], 其中 k 是最后一个使得  k(k+1)/2 <= target 的变量，相当于 1,2,...,k 之和。
+# 对任意给的首项 a1, 项数n, val = n*a1 + n(n-1)/2, 令 val = target, 遍历 n, 计算 a1 即可
+# 考虑 n 的遍历空间， [2,k], 其中 k 是最后一个使得  k(k+1)/2 <= target 的变量，相当于 1,2,...,k 之和。
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findContinuousSequence(self, target: int) -> List[List[int]]:
         # 对任意给的首项 a1, 项数n, val = n*a1 + n(n-1)/2, 令 val = target, 遍历 n, 计算 a1 即可
@@ -30,4 +30,4 @@ class Solution:
                 result.append(list(range(int(a1), int(a1+n))))
         return result
 
-```
+# ```

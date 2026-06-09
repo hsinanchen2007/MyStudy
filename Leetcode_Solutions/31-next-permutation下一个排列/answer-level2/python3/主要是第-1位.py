@@ -1,9 +1,9 @@
-### 解题思路
-while比for+if整洁多了~
+# ### 解题思路
+# while比for+if整洁多了~
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def nextPermutation(self, nums):
         """
@@ -30,4 +30,4 @@ class Solution(object):
             i += 1
             j -= 1
         return
-```
+# ```

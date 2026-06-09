@@ -1,11 +1,11 @@
-### 解题思路
-1. 思路最简单，也是最常规的方法，循环分配，一遍提交了
-2. 看了官方题解，虽然简单暴力，但简单方法还是有值得学习的地方：
-    - ans[i % num_people] += min(i + 1, candies)
-3. 更高阶解法 等差数列求和 公式推导 -- 数学知识推导
-### 代码
+# ### 解题思路
+# 1. 思路最简单，也是最常规的方法，循环分配，一遍提交了
+# 2. 看了官方题解，虽然简单暴力，但简单方法还是有值得学习的地方：
+#     - ans[i % num_people] += min(i + 1, candies)
+# 3. 更高阶解法 等差数列求和 公式推导 -- 数学知识推导
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def distributeCandies(self, candies: int, num_people: int) -> List[int]:
         if num_people < 1:
@@ -27,4 +27,4 @@ class Solution:
             if i == num_people:
                 i = 0
         return ans 
-```
+# ```

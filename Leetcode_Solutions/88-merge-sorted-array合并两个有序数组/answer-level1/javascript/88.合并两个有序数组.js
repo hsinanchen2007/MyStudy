@@ -1,5 +1,5 @@
-参考题目中的提示，从尾部添加值。
-```
+// 参考题目中的提示，从尾部添加值。
+// ```
 var merge = function(nums1, m, nums2, n) {
     let p1 = m-1,//nums1尾部指针
         p2 = n-1,//nums2尾部指针
@@ -15,4 +15,4 @@ var merge = function(nums1, m, nums2, n) {
         p2--;
     }
 };
-```
+// ```

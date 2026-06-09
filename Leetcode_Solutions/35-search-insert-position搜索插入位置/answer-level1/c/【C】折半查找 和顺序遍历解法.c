@@ -1,9 +1,9 @@
-### 解题思路
-折半查找 和顺序遍历解法
+// ### 解题思路
+// 折半查找 和顺序遍历解法
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 //折半查找法
 int searchInsert(int* nums, int numsSize, int target){
     int a=0, b=numsSize-1, mid;
@@ -17,13 +17,13 @@ int searchInsert(int* nums, int numsSize, int target){
     }
     return target<nums[mid] ? mid : mid + 1;
 }
-```
+// ```
 
-```c
+// ```c
 //顺序遍历法
 int searchInsert(int* nums, int numsSize, int target){
     for(int i=0; i<numsSize; ++i)
         if(target <= nums[i]) return i;
     return numsSize;
 }
-```
+// ```

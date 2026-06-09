@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 public class Solution {
     // you need to treat n as an unsigned value
     public int hammingWeight(int n) {
@@ -14,4 +14,4 @@ public class Solution {
         return count;
     }
 }
-```
+// ```

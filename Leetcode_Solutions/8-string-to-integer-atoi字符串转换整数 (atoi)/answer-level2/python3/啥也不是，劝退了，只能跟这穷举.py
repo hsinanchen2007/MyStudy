@@ -1,9 +1,9 @@
-### 解题思路
+# ### 解题思路
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def myAtoi(self, str):
         """
@@ -41,4 +41,4 @@ class Solution(object):
             return -2147483648 
         else:
             return c
-```
+# ```

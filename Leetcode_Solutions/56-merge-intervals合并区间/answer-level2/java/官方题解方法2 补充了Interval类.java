@@ -1,6 +1,6 @@
-官方题解少了一个类，补充了一下
+// 官方题解少了一个类，补充了一下
 
-```
+// ```
 class Solution {
     private static class Interval {
         int start;
@@ -53,4 +53,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

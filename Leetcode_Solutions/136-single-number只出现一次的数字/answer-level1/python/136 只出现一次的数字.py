@@ -1,9 +1,9 @@
-### 解题思路
-哈希表
+# ### 解题思路
+# 哈希表
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def singleNumber(self, nums):
         """
@@ -19,15 +19,15 @@ class Solution(object):
                 hash_tabel.remove(num)
         return hash_tabel.pop()
 
-```
+# ```
 
 
-### 解题思路
-列表list
+# ### 解题思路
+# 列表list
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def singleNumber(self, nums):
         """
@@ -43,4 +43,4 @@ class Solution(object):
             else:
                 dictnum.remove(num)
         return dictnum.pop()
-```
+# ```

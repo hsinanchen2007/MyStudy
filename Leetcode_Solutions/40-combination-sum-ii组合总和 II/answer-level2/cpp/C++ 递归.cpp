@@ -1,9 +1,9 @@
-### 解题思路
-此题与题目39一样，然后需要两句去重答案的操作，以及一个解中不包含已减去的当前值的改动。
+// ### 解题思路
+// 此题与题目39一样，然后需要两句去重答案的操作，以及一个解中不包含已减去的当前值的改动。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> combinationSum2(vector<int>& candidates, int target)
@@ -38,4 +38,4 @@ public:
         return ;
     }
 };
-```
+// ```

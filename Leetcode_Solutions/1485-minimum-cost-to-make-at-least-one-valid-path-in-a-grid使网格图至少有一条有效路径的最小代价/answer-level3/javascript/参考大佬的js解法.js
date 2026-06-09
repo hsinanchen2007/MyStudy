@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number[][]} grid
  * @return {number}
@@ -32,4 +32,4 @@ var minCost = function(grid) {
   return dist[m - 1][n - 1];
 };
 
-```
+// ```

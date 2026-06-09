@@ -1,5 +1,5 @@
-### 解法一 用二维数组来解决，一维代表第几天，二维代表是否持有股票
-```
+// ### 解法一 用二维数组来解决，一维代表第几天，二维代表是否持有股票
+// ```
 class Solution {
     public int maxProfit(int[] prices, int fee) {
         if(prices.length<=1) return 0;
@@ -21,9 +21,9 @@ class Solution {
         return dp[length-1][0];
     }
 }
-```
-### 解法二 对解法一进一步优化，发现当天的利润只跟前一天有关系，所以只需要用两个int值来记录前一天的持有股票和未持有股票的最大利润.
-```
+// ```
+// ### 解法二 对解法一进一步优化，发现当天的利润只跟前一天有关系，所以只需要用两个int值来记录前一天的持有股票和未持有股票的最大利润.
+// ```
 class Solution {
     public int maxProfit(int[] prices, int fee) {
         if(prices.length<=1) return 0;
@@ -44,15 +44,15 @@ class Solution {
         return preDaySell;
     }
 }
-```
-其实上面的for循环里面的临时变量是可以取消的，但是第一反应还是会通过临时变量记录，以防产生影响，看到了官方提交才发现是可以不用临时变量的。
-1. cash = Math.max(cash, hold + prices[i] - fee); 
-2. hold = Math.max(hold, cash - prices[i]); 我们就只看公式，不看其他的
-3. cash 有两种可能性要么等于cash，要么等于hold + prices[i] - fee；
-4. hold 有两种可能性要么等于hold,要么等于cash - prices[i]；
-5. cash如果等于cash，那么本身值就没有发生变化，所以对下面的计算也就没有影响.
-6. cash如果等于hold + prices[i] - fee，我们将cash带入hold公式里面。
-7. hold = Math.max(hold, hold + prices[i] - fee - prices[i]);==>hold = Math.max(hold, hold - fee);
-8. 可以看到买入当天+ prices[i]跟卖出当天- prices[i]正好抵消了，只剩下hold-fee了，而hold-fee是肯定小于hold的，也就是说hold没有变化.
-9. 而一天最多只能有一个状态的最大利润会发生变化(买入hold会变，卖出cash会变，不买不卖cash跟hold都不变)
-10. 综上结论：如果cash值不变，那么对hold的计算就不会有影响，而如果cash值变了，通过上面带入公式可知，hold最大值会取自身。
+// ```
+// 其实上面的for循环里面的临时变量是可以取消的，但是第一反应还是会通过临时变量记录，以防产生影响，看到了官方提交才发现是可以不用临时变量的。
+// 1. cash = Math.max(cash, hold + prices[i] - fee); 
+// 2. hold = Math.max(hold, cash - prices[i]); 我们就只看公式，不看其他的
+// 3. cash 有两种可能性要么等于cash，要么等于hold + prices[i] - fee；
+// 4. hold 有两种可能性要么等于hold,要么等于cash - prices[i]；
+// 5. cash如果等于cash，那么本身值就没有发生变化，所以对下面的计算也就没有影响.
+// 6. cash如果等于hold + prices[i] - fee，我们将cash带入hold公式里面。
+// 7. hold = Math.max(hold, hold + prices[i] - fee - prices[i]);==>hold = Math.max(hold, hold - fee);
+// 8. 可以看到买入当天+ prices[i]跟卖出当天- prices[i]正好抵消了，只剩下hold-fee了，而hold-fee是肯定小于hold的，也就是说hold没有变化.
+// 9. 而一天最多只能有一个状态的最大利润会发生变化(买入hold会变，卖出cash会变，不买不卖cash跟hold都不变)
+// 10. 综上结论：如果cash值不变，那么对hold的计算就不会有影响，而如果cash值变了，通过上面带入公式可知，hold最大值会取自身。

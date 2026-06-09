@@ -1,9 +1,9 @@
-### 解题思路
-利用数组a记录数组nums里元素出现的次数，对次数进行判断即可
+// ### 解题思路
+// 利用数组a记录数组nums里元素出现的次数，对次数进行判断即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 //用时2ms
 class Solution {
     public int findRepeatNumber(int[] nums) {
@@ -56,4 +56,4 @@ class Solution {
 //         return -1;
 //     }
 // }
-```
+// ```

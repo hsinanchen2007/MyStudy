@@ -1,9 +1,9 @@
-### 解题思路
-无非就是 斐波那契数列 ,用递归处理，切片记录之前的
+// ### 解题思路
+// 无非就是 斐波那契数列 ,用递归处理，切片记录之前的
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func climbStairs(n int) int {
     tmp := make([]int, n+1)
 	return  robot(n,tmp)
@@ -24,4 +24,4 @@ func robot(n int,tmp []int)int{
 
     return k
 }
-```
+// ```

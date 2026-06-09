@@ -1,6 +1,6 @@
 
 
-```
+// ```
 //动态规划
 func generateParenthesis(n int) []string {
 	maps := make([][]string,n+1)
@@ -18,11 +18,11 @@ func generateParenthesis(n int) []string {
 	}
 	return maps[n]
 }
-```
+// ```
 
 
 
-```
+// ```
 //深度优先遍历 从最大开始
 func generateParenthesis(n int) []string {
 	res := []string{}
@@ -72,4 +72,4 @@ func dfs(ss string,left,right,n int, res *[]string)  {
 		dfs(ss +")",left,right+1,n,res)
 	}
 }
-```
+// ```

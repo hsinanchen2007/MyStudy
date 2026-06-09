@@ -1,9 +1,9 @@
-### 解题思路
-对于Python来说很简单，反正平时也是这样用列表模拟栈的。
+# ### 解题思路
+# 对于Python来说很简单，反正平时也是这样用列表模拟栈的。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class MyStack(object):
     def __init__(self):
         """
@@ -53,4 +53,4 @@ class MyStack(object):
 # param_2 = obj.pop()
 # param_3 = obj.top()
 # param_4 = obj.empty()
-```
+# ```

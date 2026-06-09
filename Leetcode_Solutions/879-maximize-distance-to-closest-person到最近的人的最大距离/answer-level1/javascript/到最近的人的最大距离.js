@@ -1,6 +1,6 @@
-*法一：双指针*
+// *法一：双指针*
 
-```js
+// ```js
 var maxDistToClosest = function(seats) {
 
     let left = seats.indexOf(1);
@@ -22,17 +22,17 @@ var maxDistToClosest = function(seats) {
 
     return Math.max(...arr)
 };
-```
+// ```
 
-*法二*
+// *法二*
 
-处理这三种情况就可以
+// 处理这三种情况就可以
 
-•	座位为001时
-•	座位为101时
-•	座位为100时
+// •	座位为001时
+// •	座位为101时
+// •	座位为100时
 
-```js
+// ```js
 var maxDistToClosest = function(seats) {
 
     let arr = seats.join('').split('1').map((item) => item.length);
@@ -43,5 +43,5 @@ var maxDistToClosest = function(seats) {
 
     return Math.max(leftMax, rightMax, centerMax)
 };
-```
+// ```
 

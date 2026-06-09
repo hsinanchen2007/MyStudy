@@ -1,10 +1,10 @@
-### 解题思路
-首先确定哪一个链表更长，然后建立一个数组（maxlen+1）,存放两者的和，然后遍历大于9的进位，将其放到原来的链表中，若有需要，再添加一个放在后面，也可以直接使用malloc新建链表赋值的方式。
-最后可以free(shortlist);
+// ### 解题思路
+// 首先确定哪一个链表更长，然后建立一个数组（maxlen+1）,存放两者的和，然后遍历大于9的进位，将其放到原来的链表中，若有需要，再添加一个放在后面，也可以直接使用malloc新建链表赋值的方式。
+// 最后可以free(shortlist);
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -89,4 +89,4 @@ struct ListNode* addTwoNumbers(struct ListNode *l1, struct ListNode *l2){
 
     return newhead;
 }
-```
+// ```

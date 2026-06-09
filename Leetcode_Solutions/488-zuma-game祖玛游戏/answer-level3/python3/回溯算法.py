@@ -1,7 +1,7 @@
-1. 是一个优化枚举的方法，迭代过程中每次打出一个球，更新board和hand，然后利用DFS求解
-2. 设立一些剪枝条件可以优化速度，不然容易TLE
-3. 时间复杂度o(((n+m)!m!/n!),n<=20,m<=5
-```
+# 1. 是一个优化枚举的方法，迭代过程中每次打出一个球，更新board和hand，然后利用DFS求解
+# 2. 设立一些剪枝条件可以优化速度，不然容易TLE
+# 3. 时间复杂度o(((n+m)!m!/n!),n<=20,m<=5
+# ```
 from collections import defaultdict
 class Solution:
     def findMinStep(self, board: str, hand: str) -> int:
@@ -80,4 +80,4 @@ class Solution:
                             ans = min(ans,z)
     
         return ans+1 if ans != 6 else -1
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
-迭代法，官方方法相同：将每个元素的next都指向其前一个元素。故用到了pervious指针，current指针和future指针。
-### 知识点
-用到了**哑结点**:first。详情见【YY学习笔记24】。
-### 代码
+// ### 解题思路
+// 迭代法，官方方法相同：将每个元素的next都指向其前一个元素。故用到了pervious指针，current指针和future指针。
+// ### 知识点
+// 用到了**哑结点**:first。详情见【YY学习笔记24】。
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -35,4 +35,4 @@ public:
         return prev;
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
-思路就是1个大循环内部套4个小循环，每一个小循环打印的坐标想清楚即可。
-```
+# 思路就是1个大循环内部套4个小循环，每一个小循环打印的坐标想清楚即可。
+# ```
 class Solution:
     def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
         if matrix == []:
@@ -41,8 +41,8 @@ class Solution:
             tmp_column -= 2
         
         return ans
-```
-执行用时:
-36 ms,在所有 Python3 提交中击败了98.77%的用户
-内存消耗:
-13.9 MB,在所有 Python3 提交中击败了5.66%的用户
+# ```
+# 执行用时:
+# 36 ms,在所有 Python3 提交中击败了98.77%的用户
+# 内存消耗:
+# 13.9 MB,在所有 Python3 提交中击败了5.66%的用户

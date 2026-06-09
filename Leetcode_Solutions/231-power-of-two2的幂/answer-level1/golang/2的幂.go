@@ -1,6 +1,6 @@
-只需要统计二进制下1的个数即可，当且仅当1的个数只有1个时，才是2的幂，Go语言实现，用时0毫秒
+// 只需要统计二进制下1的个数即可，当且仅当1的个数只有1个时，才是2的幂，Go语言实现，用时0毫秒
 
-``` go
+// ``` go
 func isPowerOfTwo(n int) bool {
     var cnt = 0
 	for n > 0 {
@@ -14,4 +14,4 @@ func isPowerOfTwo(n int) bool {
 	}
 	return cnt == 1
 }
-```
+// ```

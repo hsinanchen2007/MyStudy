@@ -1,4 +1,4 @@
-```python []
+# ```python []
 class Solution(object):
     def arrangeCoins(self, n):
         """
@@ -14,4 +14,4 @@ class Solution(object):
                 l=m+1
             elif (m**2+m)*0.5>n:
                 r=m-1
-```
+# ```

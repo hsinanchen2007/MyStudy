@@ -1,11 +1,11 @@
-### 解题思路
-![1.png](https://pic.leetcode-cn.com/4be1693e36935bb82853dba52ddbcca45684cea7cc65691ee0e28ce7cf273b63-1.png)
+// ### 解题思路
+// ![1.png](https://pic.leetcode-cn.com/4be1693e36935bb82853dba52ddbcca45684cea7cc65691ee0e28ce7cf273b63-1.png)
 
-设定一个sum，用于记录当前和最大的情况，如果当前最大和小于nums[i]，当前和最大值就设为nums[i]，然后统计出整趟遍历下来最大的和最大值，即为所求。
+// 设定一个sum，用于记录当前和最大的情况，如果当前最大和小于nums[i]，当前和最大值就设为nums[i]，然后统计出整趟遍历下来最大的和最大值，即为所求。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func maxSubArray(nums []int) int {
     if len(nums)==0{    //边界0
         return -2147483648
@@ -25,4 +25,4 @@ func maxSubArray(nums []int) int {
     }
     return ans
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-对于z这个字母这一行隐藏了一个大坑，往下往左时，注意先往左再往下才能够避免踩坑！！！
+// ### 解题思路
+// 对于z这个字母这一行隐藏了一个大坑，往下往左时，注意先往左再往下才能够避免踩坑！！！
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string alphabetBoardPath(string target) {
@@ -52,4 +52,4 @@ public:
         return res;
     }
 };
-```
+// ```

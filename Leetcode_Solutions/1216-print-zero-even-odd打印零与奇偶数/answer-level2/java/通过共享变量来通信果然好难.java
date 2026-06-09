@@ -1,4 +1,4 @@
-```java
+// ```java
 import java.io.IOException;
 import java.util.concurrent.atomic.AtomicInteger;
 
@@ -67,4 +67,4 @@ class ZeroEvenOdd {
         new Thread(obj::even).start();
     }
 }
-```
+// ```

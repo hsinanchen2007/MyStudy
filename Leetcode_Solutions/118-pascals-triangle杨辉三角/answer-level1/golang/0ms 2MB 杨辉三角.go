@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-新一层第j个位置的数值，除了第一个和最后一个是1，
-tmp[j] = result[i-1][j-1] + result[i-1][j]
+// 新一层第j个位置的数值，除了第一个和最后一个是1，
+// tmp[j] = result[i-1][j-1] + result[i-1][j]
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 func generate(numRows int) [][]int {
 
@@ -40,4 +40,4 @@ func generate(numRows int) [][]int {
 
 }
 
-```
+// ```

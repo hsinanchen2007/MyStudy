@@ -1,9 +1,9 @@
-### 解题思路
-第一步，查找`R`所在的位置，然后以`R`为中心，四路展开检索`p`的位置，根据规则进行匹配，最后进行统计。
+// ### 解题思路
+// 第一步，查找`R`所在的位置，然后以`R`为中心，四路展开检索`p`的位置，根据规则进行匹配，最后进行统计。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numRookCaptures(char[][] board) {
         int rI = 0;
@@ -89,4 +89,4 @@ class Solution {
         return catchNumber;
     }
 }
-```
+// ```

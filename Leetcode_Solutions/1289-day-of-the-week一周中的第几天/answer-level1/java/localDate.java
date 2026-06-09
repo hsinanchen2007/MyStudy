@@ -1,10 +1,10 @@
-### 解题思路
-### 变量需要初始化时，先将其设置为null。
-`localDate`对象获取方式：1.now();2.of
+// ### 解题思路
+// ### 变量需要初始化时，先将其设置为null。
+// `localDate`对象获取方式：1.now();2.of
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 import java.time.LocalDate;
 class Solution {
     public String dayOfTheWeek(int day, int month, int year) {
@@ -16,4 +16,4 @@ class Solution {
 
     }
 }
-```
+// ```

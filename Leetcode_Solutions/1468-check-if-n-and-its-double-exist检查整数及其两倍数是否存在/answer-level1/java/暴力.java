@@ -1,9 +1,9 @@
-### 解题思路
-暴力，过了就行
+// ### 解题思路
+// 暴力，过了就行
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean checkIfExist(int[] arr) {
         for(int i = 0; i < arr.length; i++) {
@@ -14,4 +14,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

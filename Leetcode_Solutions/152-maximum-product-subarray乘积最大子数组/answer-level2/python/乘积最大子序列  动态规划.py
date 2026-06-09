@@ -1,8 +1,8 @@
-### 解题思路
+# ### 解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def maxProduct(self, nums):
        #由于数组中存在负数，所以可能存在将最大变为最小，最小变为最大的可能
@@ -17,4 +17,4 @@ class Solution(object):
             cur_min = min(cur_min*nums[i],nums[i])
             max_pro = max(max_pro,cur_max)
         return max_pro
-```
+# ```

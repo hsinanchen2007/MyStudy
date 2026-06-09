@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -37,5 +37,5 @@ int* spiralOrder(int** matrix, int matrixSize, int* matrixColSize, int* returnSi
 
     return result;
 }
-```
-*returnSize赋值小一点，提交就不会报踩内存的错误，但是输出不全。
+// ```
+// *returnSize赋值小一点，提交就不会报踩内存的错误，但是输出不全。

@@ -1,9 +1,9 @@
-### 解题思路
-如果p与q相等，随便返回一个；如果p与q有一个与root相等，返回root；如果p与q分布在root两边返回root；否则，在root的一个方向中向下寻找
+// ### 解题思路
+// 如果p与q相等，随便返回一个；如果p与q有一个与root相等，返回root；如果p与q分布在root两边返回root；否则，在root的一个方向中向下寻找
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -38,4 +38,4 @@ class Solution {
         }
     }
 }
-```
+// ```

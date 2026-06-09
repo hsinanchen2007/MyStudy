@@ -1,6 +1,6 @@
-# 1.迭代
-**思路**:见标题 另外需要注意什么时候切断原本直接相联的两个ListNode的联系
-```
+# # 1.迭代
+# **思路**:见标题 另外需要注意什么时候切断原本直接相联的两个ListNode的联系
+# ```
 class Solution:
 	def reverseBetween(self,head,m,n):
 		dummy=ListNode(0) #创建一个哑值
@@ -22,11 +22,11 @@ class Solution:
 		le.next=t_head #连接左边不需要变换的部分和中间已经变换完成的部分
 		t_tail.next=t_next #这里的t_next表示的是右边不需要变换部分的头
 		return dummy.next #不直接head的原因是m=1的情况直接return head是错误的
-```
-# 2.递归
-**思路**：根本思想是将需要变换的部分分成两段 从中间开始扩散 比如说:1 2 3 4 5的交换就首先是(2,4)然后是(1,5) 前一个元素的遍历(2-1)通过ListNode.next实现 而后一个元素的遍历(4-5) 通过递归的归实现
-**注意**：本来没怎么考虑递归的 但是看到官方题解和labuladong大佬题解的标题就有点坐不住了 还没看他们的解法也不知道想法是不是一样的(总之他们肯定比我写得好) 本人菜鸡 以下代码仅供参考 还请大家多多指教
-```
+# ```
+# # 2.递归
+# **思路**：根本思想是将需要变换的部分分成两段 从中间开始扩散 比如说:1 2 3 4 5的交换就首先是(2,4)然后是(1,5) 前一个元素的遍历(2-1)通过ListNode.next实现 而后一个元素的遍历(4-5) 通过递归的归实现
+# **注意**：本来没怎么考虑递归的 但是看到官方题解和labuladong大佬题解的标题就有点坐不住了 还没看他们的解法也不知道想法是不是一样的(总之他们肯定比我写得好) 本人菜鸡 以下代码仅供参考 还请大家多多指教
+# ```
 class Solution:
 	def reverseBetween(self,head,m,n):
 		odd=True if not (m+n)%2 else False #中间需要变换的部分的长度是奇数->True 反之->False
@@ -48,5 +48,5 @@ class Solution:
 				return head
 		helper(head,1)
 		return dummy.next
-```
+# ```
 

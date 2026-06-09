@@ -1,15 +1,15 @@
-### 解题思路
-递归大法好
+# ### 解题思路
+# 递归大法好
 
-对比两棵树的节点指针p和q：
-1、两棵树不同有两种情况：
-   1) 两棵树的结构不同，即结点的位置不同
-   2) 两棵树的数值不同，即结点的数值不同
-2、两棵树相同只有一种情况：结点位置相同并且结点的值相同
+# 对比两棵树的节点指针p和q：
+# 1、两棵树不同有两种情况：
+#    1) 两棵树的结构不同，即结点的位置不同
+#    2) 两棵树的数值不同，即结点的数值不同
+# 2、两棵树相同只有一种情况：结点位置相同并且结点的值相同
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -31,4 +31,4 @@ class Solution:
             return self.isSameTree(p.left, q.left) and self.isSameTree(p.right, q.right)   # 递归处理
 
 
-```
+# ```

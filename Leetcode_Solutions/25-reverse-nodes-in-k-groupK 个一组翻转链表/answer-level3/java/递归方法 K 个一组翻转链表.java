@@ -1,5 +1,5 @@
-递归方法
-```
+// 递归方法
+// ```
 public ListNode reverseKGroup(ListNode head, int k) {
         //判断个数
        int count = 0;
@@ -28,4 +28,4 @@ public ListNode reverseKGroup(ListNode head, int k) {
         headt.next=reverseKGroup(temp,k);//修正之前翻转链表时将head节点的next
         return pre;
     }
-```
+// ```

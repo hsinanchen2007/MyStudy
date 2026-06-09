@@ -1,15 +1,15 @@
-### 解题思路
-穷举法列出所有单词的全排列【未去重复项】，求从开始时用set作为结果集
+// ### 解题思路
+// 穷举法列出所有单词的全排列【未去重复项】，求从开始时用set作为结果集
 
 
-动态窗口，0,n,2n,3n...慢慢拓展至words.length长度
-超出时，左边收缩
+// 动态窗口，0,n,2n,3n...慢慢拓展至words.length长度
+// 超出时，左边收缩
 
-辅助变量：**words的hash列表,s产生的hash列表**，count已统计个数
+// 辅助变量：**words的hash列表,s产生的hash列表**，count已统计个数
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @param {string[]} words
@@ -58,7 +58,7 @@ var findSubstring = function (s, words) {
     }
     return result
 };
-```
-坑点：
-给的例子只是普通测试用例
-滑动最小单位是step，不是1，后面部分可以前面部分合体满足
+// ```
+// 坑点：
+// 给的例子只是普通测试用例
+// 滑动最小单位是step，不是1，后面部分可以前面部分合体满足

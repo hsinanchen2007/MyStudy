@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/4a0b4e61b26c1c8cac1fe1c128f62841e45bc53c2b02f40e297ccbb6ba38cf24-image.png)
-简单的递归方法
+# ### 解题思路
+# ![image.png](https://pic.leetcode-cn.com/4a0b4e61b26c1c8cac1fe1c128f62841e45bc53c2b02f40e297ccbb6ba38cf24-image.png)
+# 简单的递归方法
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 """
 # Definition for a Node.
 class Node:
@@ -52,4 +52,4 @@ class Solution:
         else: return head
         
 
-```
+# ```

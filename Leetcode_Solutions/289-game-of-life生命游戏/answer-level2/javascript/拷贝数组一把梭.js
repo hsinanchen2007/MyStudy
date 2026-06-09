@@ -1,6 +1,6 @@
 
-思路差不多，但获取邻居那里使用数组过滤，不用多行if-else判断了。
-```js
+// 思路差不多，但获取邻居那里使用数组过滤，不用多行if-else判断了。
+// ```js
 /**
  * @param {number[][]} board
  * @return {void} Do not return anything, modify board in-place instead.
@@ -31,4 +31,4 @@ var gameOfLife = function(board) {
         }
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
-# 递归法
-```
+// # 递归法
+// ```
 class Solution {
 	public int maxDepth(TreeNode root) {
 		if (root == null)
@@ -7,9 +7,9 @@ class Solution {
 		return Math.max(maxDepth(root.left), maxDepth(root.right)) + 1;
 	}
 }
-```
-# 层次遍历
-```
+// ```
+// # 层次遍历
+// ```
 class Solution {
 	public int maxDepth(TreeNode root) {
 		int res = 0;
@@ -32,4 +32,4 @@ class Solution {
 		return res;
 	}
 }
-```
+// ```

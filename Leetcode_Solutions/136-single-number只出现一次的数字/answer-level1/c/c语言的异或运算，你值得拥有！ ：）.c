@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/3ca6fb29173c2b011ec4c56e1200392eb214c78da29a5a3994312305e78790c3-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/3ca6fb29173c2b011ec4c56e1200392eb214c78da29a5a3994312305e78790c3-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int singleNumber(int* nums, int numsSize){
     if(NULL == nums || 0 == numsSize)
     {
@@ -20,4 +20,4 @@ int singleNumber(int* nums, int numsSize){
 
     return ans;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findRestaurant(self, list1: List[str], list2: List[str]) -> List[str]:
         dict = {}
@@ -21,4 +21,4 @@ class Solution:
         return res
 
             
-```
+# ```

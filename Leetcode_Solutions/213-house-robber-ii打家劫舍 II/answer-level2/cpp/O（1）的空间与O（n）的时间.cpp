@@ -1,6 +1,6 @@
-根据提示分两步求解，O（1）的空间与O（n）的时间。
-其实可以不用两次遍历，不过这样变量有点多。
-```
+// 根据提示分两步求解，O（1）的空间与O（n）的时间。
+// 其实可以不用两次遍历，不过这样变量有点多。
+// ```
 class Solution {
 public:
     int rob(vector<int>& nums) {  //dp[i]=max(dp[i-1],dp[i-2]+nums[i])
@@ -28,4 +28,4 @@ public:
         return std::max(max2,max1);
     }
 };
-```
+// ```

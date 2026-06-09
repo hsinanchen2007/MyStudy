@@ -1,8 +1,8 @@
-### 解题思路
-无特判无break极短代码
-### 代码
+// ### 解题思路
+// 无特判无break极短代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void nextPermutation(vector<int>& nums) {
@@ -20,4 +20,4 @@ public:
         sort(nums.begin()+st+1,nums.end());
     }
 };
-```
+// ```

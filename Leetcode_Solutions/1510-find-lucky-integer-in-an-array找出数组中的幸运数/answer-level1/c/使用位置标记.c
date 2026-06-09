@@ -1,9 +1,9 @@
-### 解题思路
-直接使用位置标记即可
+// ### 解题思路
+// 直接使用位置标记即可
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX_SIZE 500
 int findLucky(int *arr, int arrSize)
 {
@@ -24,4 +24,4 @@ int findLucky(int *arr, int arrSize)
     }
     return -1;
 }
-```
+// ```

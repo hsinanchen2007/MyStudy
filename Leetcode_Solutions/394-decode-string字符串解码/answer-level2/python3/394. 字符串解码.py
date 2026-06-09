@@ -1,9 +1,9 @@
-### 解题思路
-https://leetcode-cn.com/problems/decode-string/solution/decode-string-fu-zhu-zhan-fa-di-gui-fa-by-jyd/
+# ### 解题思路
+# https://leetcode-cn.com/problems/decode-string/solution/decode-string-fu-zhu-zhan-fa-di-gui-fa-by-jyd/
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def decodeString(self, s: str) -> str:
         multi = 0
@@ -24,4 +24,4 @@ class Solution:
                 res = last_res + res*last_multi
         return res
 
-```
+# ```

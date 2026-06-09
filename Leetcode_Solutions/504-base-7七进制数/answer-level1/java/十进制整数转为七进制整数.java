@@ -1,10 +1,10 @@
-### 解题思路
-1.十进制整数化为其他进制数时，一般都要考虑正负、为0。
-2.若是整数，需要逆序。
+// ### 解题思路
+// 1.十进制整数化为其他进制数时，一般都要考虑正负、为0。
+// 2.若是整数，需要逆序。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String convertToBase7(int num) {
         if(num == 0) return ("0");
@@ -22,4 +22,4 @@ class Solution {
         return sb.reverse().toString();
     }
 }
-```
+// ```

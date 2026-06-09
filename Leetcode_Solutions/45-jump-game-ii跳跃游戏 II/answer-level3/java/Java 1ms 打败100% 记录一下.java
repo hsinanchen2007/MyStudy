@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int jump(int[] nums) {
         if (nums == null || nums.length < 2) return 0;

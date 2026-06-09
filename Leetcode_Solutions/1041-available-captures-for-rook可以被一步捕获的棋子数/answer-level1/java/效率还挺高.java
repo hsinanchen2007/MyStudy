@@ -1,9 +1,9 @@
 
 
 
-代码
+// 代码
 
-```java
+// ```java
 class Solution {
     public int numRookCaptures(char[][] board) {
         int cnt = 0;
@@ -66,4 +66,4 @@ class Solution {
 	 }
 
 }
-```
+// ```

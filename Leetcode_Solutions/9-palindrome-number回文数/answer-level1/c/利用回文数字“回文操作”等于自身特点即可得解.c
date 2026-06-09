@@ -1,11 +1,11 @@
-### 解题思路
-需注意边界问题：
-1.负数问题
-2.“回文操作”溢出
+// ### 解题思路
+// 需注意边界问题：
+// 1.负数问题
+// 2.“回文操作”溢出
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isPalindrome(int x){
     if(x<0)
         return false;
@@ -20,4 +20,4 @@ bool isPalindrome(int x){
         return true;
     return false;
 }
-```
+// ```

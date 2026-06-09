@@ -1,7 +1,7 @@
-找到计算公式即可得出所有路径
+// 找到计算公式即可得出所有路径
 
-代码块
-```vector<int> pathInZigZagTree(int label) {
+// 代码块
+// ```vector<int> pathInZigZagTree(int label) {
         vector<int> result;
         auto begin = result.begin();
         while (label)

@@ -1,12 +1,12 @@
-### 解题思路
-由于每个格子只能为`0（0）`或者`1（1）`，那么在计算周围格子的时候直接加上`2（二进制为10）`，保留最后一位的数据就好了。
+// ### 解题思路
+// 由于每个格子只能为`0（0）`或者`1（1）`，那么在计算周围格子的时候直接加上`2（二进制为10）`，保留最后一位的数据就好了。
 
-这题我也不知道为什么评测系统原地操作的内存耗费居然比开了一个辅助数组大。
-![Screen Shot 2020-04-02 at 16.18.46.png](https://pic.leetcode-cn.com/33dde7a0a4de7fb76cbe4fdeac0c425f2b7e5f573960e37c157029f72d0662ac-Screen%20Shot%202020-04-02%20at%2016.18.46.png)
+// 这题我也不知道为什么评测系统原地操作的内存耗费居然比开了一个辅助数组大。
+// ![Screen Shot 2020-04-02 at 16.18.46.png](https://pic.leetcode-cn.com/33dde7a0a4de7fb76cbe4fdeac0c425f2b7e5f573960e37c157029f72d0662ac-Screen%20Shot%202020-04-02%20at%2016.18.46.png)
 
 
-### 代码
-```java
+// ### 代码
+// ```java
 class Solution {
     public void gameOfLife(int[][] board) {
         // int[][] newBoard = new int[board.length][board[0].length];
@@ -51,4 +51,4 @@ class Solution {
         }
     }
 }
-```
+// ```

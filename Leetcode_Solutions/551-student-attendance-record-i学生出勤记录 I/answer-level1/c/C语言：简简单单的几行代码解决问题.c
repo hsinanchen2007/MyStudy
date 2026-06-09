@@ -1,8 +1,8 @@
-![QQ截图20190630073539.png](https://pic.leetcode-cn.com/2dda5aeb752ca8a5bc83d6bdb92938c952ae0e41e0dace804e383b07de9904b3-QQ%E6%88%AA%E5%9B%BE20190630073539.png)
+// ![QQ截图20190630073539.png](https://pic.leetcode-cn.com/2dda5aeb752ca8a5bc83d6bdb92938c952ae0e41e0dace804e383b07de9904b3-QQ%E6%88%AA%E5%9B%BE20190630073539.png)
 
-依次遍历字符串就可以了
+// 依次遍历字符串就可以了
 
-```
+// ```
 bool checkRecord(char * s){
     int L_num = 0;  //字符‘L’的数量
     int A_num = 0;  //字符‘S’的数量
@@ -25,7 +25,7 @@ bool checkRecord(char * s){
     }
     return (A_num > 1 ? false : true);
 }
-```
+// ```
 
 
 

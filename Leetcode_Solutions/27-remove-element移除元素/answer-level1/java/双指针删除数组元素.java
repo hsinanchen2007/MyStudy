@@ -1,9 +1,9 @@
-### 解题思路
-双指针删除数组元素，将数组中非val值的数组元素赋值给数组头部
+// ### 解题思路
+// 双指针删除数组元素，将数组中非val值的数组元素赋值给数组头部
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int removeElement(int[] nums, int val) {
         //定义双指针
@@ -16,4 +16,4 @@ class Solution {
 
     }
 }
-```
+// ```

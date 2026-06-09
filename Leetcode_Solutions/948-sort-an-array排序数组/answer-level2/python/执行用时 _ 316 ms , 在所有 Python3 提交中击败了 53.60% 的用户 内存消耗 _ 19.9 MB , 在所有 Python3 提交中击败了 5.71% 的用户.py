@@ -1,9 +1,9 @@
-### 解题思路
-快速排序
+# ### 解题思路
+# 快速排序
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def sortArray(self, nums: List[int]) -> List[int]:
         n = len(nums)
@@ -30,4 +30,4 @@ class Solution:
 
 
         
-```
+# ```

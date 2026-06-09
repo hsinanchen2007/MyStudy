@@ -1,4 +1,4 @@
-```
+// ```
 func preorderTraversal(root *TreeNode) []int {
 	nums := make([]int, 0)
 	if root == nil {
@@ -20,4 +20,4 @@ func preorderTraversal(root *TreeNode) []int {
 	return nums
 }
 
-```
+// ```

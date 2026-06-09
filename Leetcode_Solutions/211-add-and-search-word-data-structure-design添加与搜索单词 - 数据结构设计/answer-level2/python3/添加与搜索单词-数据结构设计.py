@@ -1,11 +1,11 @@
-### 解题思路
-利用前缀树存储单词；
+# ### 解题思路
+# 利用前缀树存储单词；
 
-利用深度优先搜索单词，即遇见字符`.`，遍历当前节点的所有边进行搜索；
+# 利用深度优先搜索单词，即遇见字符`.`，遍历当前节点的所有边进行搜索；
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class WordDictionary:
 
     def __init__(self):
@@ -50,4 +50,4 @@ class WordDictionary:
 # obj = WordDictionary()
 # obj.addWord(word)
 # param_2 = obj.search(word)
-```
+# ```

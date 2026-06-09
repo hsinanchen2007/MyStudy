@@ -1,9 +1,9 @@
-### 解题思路
-这道题有点儿坑，刚开始以为是只需要求出根节点左右两边子树的深度相加即可，后来发现过不了，原因出在子树的两个节点也有可能是最长路径。
+// ### 解题思路
+// 这道题有点儿坑，刚开始以为是只需要求出根节点左右两边子树的深度相加即可，后来发现过不了，原因出在子树的两个节点也有可能是最长路径。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -33,4 +33,4 @@ int diameterOfBinaryTree(struct TreeNode* root){
     int rightl=searchDeep(root->right,&length);
     return length>(leftl+rightl)?length:(leftl+rightl);
 }
-```
+// ```

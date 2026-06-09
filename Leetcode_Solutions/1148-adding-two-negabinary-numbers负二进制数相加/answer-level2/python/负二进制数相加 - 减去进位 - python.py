@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def addNegabinary(self, arr1=[], arr2=[]):
         l1, l2 = len(arr1), len(arr2)
@@ -14,4 +14,4 @@ class Solution(object):
         if carry == 1: ret.extend([1, 1])
         while ret[-1] == 0 and len(ret) > 1: ret.pop()
         return ret[::-1]
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-哈希表解决，我看了一下题解，我是唯一一个C语言实现hash的方法的。。。就是刚......
+// ### 解题思路
+// 哈希表解决，我看了一下题解，我是唯一一个C语言实现hash的方法的。。。就是刚......
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -48,4 +48,4 @@ struct ListNode *detectCycle(struct ListNode *head) {
     }
     return  NULL;
 }
-```
+// ```

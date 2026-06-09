@@ -1,9 +1,9 @@
-### 解题思路
-一个题目写半个小时，基础太弱了
+// ### 解题思路
+// 一个题目写半个小时，基础太弱了
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string reverseVowels(string s) 
@@ -42,4 +42,4 @@ public:
         return s;
     }
 };
-```
+// ```

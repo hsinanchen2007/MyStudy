@@ -1,11 +1,11 @@
-### 解题思路
-1、for循环
-2、把后面k个值赋值到新数组的前k个
-3、再把剩下的接着赋值到新数组里
+# ### 解题思路
+# 1、for循环
+# 2、把后面k个值赋值到新数组的前k个
+# 3、再把剩下的接着赋值到新数组里
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def rotate(self, nums: List[int], k: int) -> None:
         """
@@ -28,4 +28,4 @@ class Solution:
 
 
        
-```
+# ```

@@ -1,4 +1,4 @@
-这是归并：（执行用时:160ms,在所有Python3提交中击败了42.58%的用户内存消耗:17.3MB,在所有Python3提交中击败了35.02%的用户）
+# 这是归并：（执行用时:160ms,在所有Python3提交中击败了42.58%的用户内存消耗:17.3MB,在所有Python3提交中击败了35.02%的用户）
 
     def mergeKLists(self, lists: List[ListNode]) -> ListNode:
         while len(lists)>1:

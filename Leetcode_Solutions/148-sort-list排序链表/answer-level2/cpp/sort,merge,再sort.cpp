@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -44,4 +44,4 @@ public:
         return mergeLists(sortList(head), sortList(right));
     }
 };
-```
+// ```

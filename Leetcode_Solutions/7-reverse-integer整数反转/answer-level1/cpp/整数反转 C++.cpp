@@ -1,6 +1,6 @@
-4ms 和 0ms 轮流出现的一个普通方法（借用额外存储空间）
-![image.png](https://pic.leetcode-cn.com/0fed24f2ebb91635e8b2d2b0332376ef6a4dac3e536c82071dcbf4da4743e881-image.png)
-```C++ []
+// 4ms 和 0ms 轮流出现的一个普通方法（借用额外存储空间）
+// ![image.png](https://pic.leetcode-cn.com/0fed24f2ebb91635e8b2d2b0332376ef6a4dac3e536c82071dcbf4da4743e881-image.png)
+// ```C++ []
 class Solution {
 public:
     int reverse(int x)
@@ -29,4 +29,4 @@ public:
         return j;
     }
 };
-```
+// ```

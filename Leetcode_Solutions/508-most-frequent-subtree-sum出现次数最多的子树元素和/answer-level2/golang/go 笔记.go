@@ -1,5 +1,5 @@
-递归求和，分别求出左子树和右子树的和，然后再加上节点本身的值。求出sum后，用一个map保存全局的sum对应的出现频率。并且用一个max保存最大频率。
-```
+// 递归求和，分别求出左子树和右子树的和，然后再加上节点本身的值。求出sum后，用一个map保存全局的sum对应的出现频率。并且用一个max保存最大频率。
+// ```
 func findFrequentTreeSum(root *TreeNode) []int {
 	var res []int
 	var max int
@@ -24,4 +24,4 @@ func dfsFindFrequentTreeSum(root *TreeNode, middle *map[int]int, res *[]int, max
 	}
 	return cur
 }
-```
+// ```

@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/c1579980b50146cd95373ebef3a449fba8fd9ab803bf9b1f50c90555f786a3f0-image.png)
+# ![image.png](https://pic.leetcode-cn.com/c1579980b50146cd95373ebef3a449fba8fd9ab803bf9b1f50c90555f786a3f0-image.png)
 
 
-```
+# ```
 '''
 bfs 枚举所有可能到达的位置, 检查其中有没有数值是0的位置
 '''
@@ -33,4 +33,4 @@ class Solution:
                     que.put(next)
 
         return False
-```
+# ```

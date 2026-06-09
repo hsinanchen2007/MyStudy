@@ -1,8 +1,8 @@
-### 解题思路
-排序，然后把下标为偶数的相加
-### 代码
+// ### 解题思路
+// 排序，然后把下标为偶数的相加
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func arrayPairSum(_ nums: [Int]) -> Int {
         var arr = nums;
@@ -15,4 +15,4 @@ class Solution {
         return sum
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-时间复杂度: O(N) N = arr.size()
-空间复杂度：O(1)
-```cpp
+// 时间复杂度: O(N) N = arr.size()
+// 空间复杂度：O(1)
+// ```cpp
 class Solution {
 public:
     int kConcatenationMaxSum(vector<int>& arr, int k) {
@@ -28,4 +28,4 @@ public:
         return ret;
     }
 };
-```
+// ```

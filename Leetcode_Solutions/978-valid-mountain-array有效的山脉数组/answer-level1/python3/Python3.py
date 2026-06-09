@@ -1,9 +1,9 @@
-### 解题思路
-先把最大值找出来，再看最大值左边和右边是不是严格递减
+# ### 解题思路
+# 先把最大值找出来，再看最大值左边和右边是不是严格递减
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def validMountainArray(self, A: List[int]) -> bool:
         if len(A) < 3:
@@ -24,4 +24,4 @@ class Solution:
             
 
         
-```
+# ```

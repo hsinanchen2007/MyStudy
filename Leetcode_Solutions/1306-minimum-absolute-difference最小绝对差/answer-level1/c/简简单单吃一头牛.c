@@ -1,4 +1,4 @@
-```
+// ```
 int CompareInt(const void *a, const void *b)
 {
     return *(int *)a - *(int *)b;
@@ -40,4 +40,4 @@ int **minimumAbsDifference(int *arr, int arrSize, int *returnSize, int **returnC
     *returnSize = cow;
     return res;
 }
-```
+// ```

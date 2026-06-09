@@ -1,5 +1,5 @@
 
-```
+# ```
 class Solution:
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
         anum = len(nums1) + len(nums2)
@@ -37,5 +37,5 @@ class Solution:
         else:
             return (max(ll) + min(rr))/2
 
-```
+# ```
 

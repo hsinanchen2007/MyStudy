@@ -1,7 +1,7 @@
-思路：分别dfs搜索两棵树，保存叶子序列，比较即可。
-<br/><br/>
-代码：
-```
+// 思路：分别dfs搜索两棵树，保存叶子序列，比较即可。
+// <br/><br/>
+// 代码：
+// ```
 class Solution {
     List<Integer> list1 = new ArrayList<>();
     List<Integer> list2 = new ArrayList<>();
@@ -41,4 +41,4 @@ class Solution {
         dfs(root.right,tree);
     }
 }
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
-1.判断一下left and right
-2.确认根节点（中间位置的左边）
-3.通过递归root.left左子树 root.right右子树
-4.返回root
+# ### 解题思路
+# 1.判断一下left and right
+# 2.确认根节点（中间位置的左边）
+# 3.通过递归root.left左子树 root.right右子树
+# 4.返回root
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -35,4 +35,4 @@ class Solution(object):
 
 
 
-```
+# ```

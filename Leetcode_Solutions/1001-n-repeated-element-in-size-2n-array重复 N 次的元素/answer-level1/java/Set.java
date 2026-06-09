@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int repeatedNTimes(int[] A) {
         Set<Integer> s = new HashSet<Integer>();
@@ -15,4 +15,4 @@ class Solution {
         return A[0];
     }
 }
-```
+// ```

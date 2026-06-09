@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int numJewelsInStones(String J, String S) {
                 int a[]=new int[256];
@@ -15,4 +15,4 @@ class Solution {
 		return count;
     }
 }
-```
+// ```

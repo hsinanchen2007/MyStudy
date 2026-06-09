@@ -1,10 +1,10 @@
-#### 方法一： 模拟法
+// #### 方法一： 模拟法
 
-**思路和算法**
+// **思路和算法**
 
-直接模拟从牌组中取牌的过程就可以了。举个例子，如果从牌组中以 `[0, 2, 4, ...]` 的顺序取牌，我们只需要把最小的牌放在下标为 `0` 的地方，第二小的牌放在下标为 `1` 的地方，第三小的牌放在下标为 `4` 的地方，依次类推即可。
+// 直接模拟从牌组中取牌的过程就可以了。举个例子，如果从牌组中以 `[0, 2, 4, ...]` 的顺序取牌，我们只需要把最小的牌放在下标为 `0` 的地方，第二小的牌放在下标为 `1` 的地方，第三小的牌放在下标为 `4` 的地方，依次类推即可。
 
-```java [solution1-Java]
+// ```java [solution1-Java]
 class Solution {
     public int[] deckRevealedIncreasing(int[] deck) {
         int N = deck.length;
@@ -23,9 +23,9 @@ class Solution {
         return ans;
     }
 }
-```
+// ```
 
-```python [solution1-Python]
+// ```python [solution1-Python]
 class Solution(object):
     def deckRevealedIncreasing(self, deck):
         N = len(deck)
@@ -38,10 +38,10 @@ class Solution(object):
                 index.append(index.popleft())
 
         return ans
-```
+// ```
 
-**复杂度分析**
+// **复杂度分析**
 
-* 时间复杂度： $O(N \log N)$，其中 $N$ 是牌组的大小。
+// * 时间复杂度： $O(N \log N)$，其中 $N$ 是牌组的大小。
 
-* 空间复杂度： $O(N)$。
+// * 空间复杂度： $O(N)$。

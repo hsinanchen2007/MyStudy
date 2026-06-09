@@ -1,7 +1,7 @@
-### 解题思路
-组合问题的dfs问题，模板如下
-arr是需要组合的元素，m为组合的个数，res用来保存结果，tmp用来保存一个路径的结果,cur为当前遍历的节点
-```
+# ### 解题思路
+# 组合问题的dfs问题，模板如下
+# arr是需要组合的元素，m为组合的个数，res用来保存结果，tmp用来保存一个路径的结果,cur为当前遍历的节点
+# ```
 def group(arr, m, res, tmp, cur):
     if len(tmp) == m:
         res.append(tmp.copy())
@@ -9,11 +9,11 @@ def group(arr, m, res, tmp, cur):
         res.append(arr[i])
         group(arr, m, res, tmp, i+1)
         res.pop()
-```
+# ```
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def combinationSum3(self, k: int, n: int) -> List[List[int]]:
         res = []
@@ -29,4 +29,4 @@ class Solution:
                 tmp.pop()
         dfs(res, [], n, k, 1)
         return res
-```
+# ```

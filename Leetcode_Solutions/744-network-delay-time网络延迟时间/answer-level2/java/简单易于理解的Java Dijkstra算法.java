@@ -1,9 +1,9 @@
-求最大的最短路径。
+// 求最大的最短路径。
 
-这是我的[LeetCode分类题解](https://github.com/caipengbo/LeetCode)（每日更新, issue内有总结），和我一起每日刷题吧！
+// 这是我的[LeetCode分类题解](https://github.com/caipengbo/LeetCode)（每日更新, issue内有总结），和我一起每日刷题吧！
 
-以下是Dijkstra算法（未使用堆优化）。
-```Java
+// 以下是Dijkstra算法（未使用堆优化）。
+// ```Java
 public int networkDelayTime(int[][] times, int N, int K) {
     // 构建邻接矩阵
     int[][] graph = new int[N][N];
@@ -54,4 +54,4 @@ public int dijkstra(int[][] graph, int N, int src) {
     // System.out.println(retMap.toString());
     return ret;
 }
-```
+// ```

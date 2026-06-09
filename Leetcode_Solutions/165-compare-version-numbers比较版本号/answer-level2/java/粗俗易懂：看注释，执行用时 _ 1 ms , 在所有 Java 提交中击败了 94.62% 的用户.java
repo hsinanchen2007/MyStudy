@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int compareVersion(String version1, String version2) {
         // 思路，从左到右一个一个版本号对比
@@ -38,4 +38,4 @@ class Solution {
         return 0;
     }
 }
-```
+// ```

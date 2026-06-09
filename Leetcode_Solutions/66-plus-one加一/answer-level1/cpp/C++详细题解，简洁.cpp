@@ -1,11 +1,11 @@
-对于一般的数字，直接在末位加一即可，
+// 对于一般的数字，直接在末位加一即可，
 
-本题特殊的两个点：
+// 本题特殊的两个点：
 
-1. 若加一之后的值为10，需要进一位
+// 1. 若加一之后的值为10，需要进一位
 
-2. 若数字为类似999 ，加一之后需要多一位数。使用`insert()`来实现，  insert函数  ： vec.insert(begin()+i ,a) 在第i个元素插入a
-```
+// 2. 若数字为类似999 ，加一之后需要多一位数。使用`insert()`来实现，  insert函数  ： vec.insert(begin()+i ,a) 在第i个元素插入a
+// ```
 class Solution {
 public:
     vector<int> plusOne(vector<int>& digits) {
@@ -34,4 +34,4 @@ public:
         return digits;
     }
 };
-```
+// ```

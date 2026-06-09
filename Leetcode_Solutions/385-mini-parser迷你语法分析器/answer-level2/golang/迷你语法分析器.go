@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func deserialize(s string) *NestedInteger {
 	if s[0] != '['{
 		ni:=NestedInteger{}
@@ -50,4 +50,4 @@ func deserialize(s string) *NestedInteger {
 	return &stack[0]
 }
 
-```
+// ```

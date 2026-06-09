@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MIN(a,b)(a>b?b:a);
 
 
@@ -46,4 +46,4 @@ int minSubArrayLen(int s, int* nums, int numsSize){
     }
     return min == INT_MAX ? 0 : min;
 }
-```
+// ```

@@ -1,11 +1,11 @@
-![image.png](https://pic.leetcode-cn.com/db0300020083fb2e375e3d363534aa76d97d9ca410f410107480a1282aae9e45-image.png)
+// ![image.png](https://pic.leetcode-cn.com/db0300020083fb2e375e3d363534aa76d97d9ca410f410107480a1282aae9e45-image.png)
 
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	void nextPermutation(vector<int>& nums) {
@@ -101,4 +101,4 @@ public:
 		}
 	}
 };
-```
+// ```

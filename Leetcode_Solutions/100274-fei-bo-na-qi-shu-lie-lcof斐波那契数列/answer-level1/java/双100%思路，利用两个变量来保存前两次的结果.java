@@ -1,9 +1,9 @@
-### 解题思路
-双100%思路，利用两个变量来保存前两次的结果
+// ### 解题思路
+// 双100%思路，利用两个变量来保存前两次的结果
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int fib(int n) {
         int[] res={0,1};
@@ -22,4 +22,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

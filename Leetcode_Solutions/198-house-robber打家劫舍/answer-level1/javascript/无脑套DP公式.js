@@ -1,9 +1,9 @@
-### 解题思路
-典型DP问题，直接套公式即可： `dp[i] = max(dp[i-2]+nums[i], dp[i-1])`
+// ### 解题思路
+// 典型DP问题，直接套公式即可： `dp[i] = max(dp[i-2]+nums[i], dp[i-1])`
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -25,4 +25,4 @@ var rob = function(nums) {
     }
     return dp[nums.length - 1];
 };
-```
+// ```

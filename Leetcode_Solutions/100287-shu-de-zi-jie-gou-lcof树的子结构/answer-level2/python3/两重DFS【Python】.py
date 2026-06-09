@@ -1,15 +1,15 @@
-### 思路
+# ### 思路
 
-**两重DFS**
+# **两重DFS**
 
-```
+# ```
 第一重：找到起点。先判断当前节点，如果不对就判断左子树和右子树。
 第二重：从找到的起点开始判断剩下的点。
-```
+# ```
 
-##### Python3代码
+# ##### Python3代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -33,12 +33,12 @@ class Solution:
             return False
         # A树的根与B树的根相等
         return self.dfs(A.left, B.left) and self.dfs(A.right, B.right)  # 注意这里是 and
-```
+# ```
 
-### 代码地址
+# ### 代码地址
 
-[GitHub链接](https://github.com/Wonz5130/LeetCode-Solutions/blob/master/solutions/Interview-26-shu-de-zi-jie-gou-lcof/26.py)
+# [GitHub链接](https://github.com/Wonz5130/LeetCode-Solutions/blob/master/solutions/Interview-26-shu-de-zi-jie-gou-lcof/26.py)
 
-### 相似题目
+# ### 相似题目
 
-[LeetCode 1367. 二叉树中的列表](https://leetcode-cn.com/problems/linked-list-in-binary-tree/)
+# [LeetCode 1367. 二叉树中的列表](https://leetcode-cn.com/problems/linked-list-in-binary-tree/)

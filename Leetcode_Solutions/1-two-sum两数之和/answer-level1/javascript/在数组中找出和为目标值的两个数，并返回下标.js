@@ -1,14 +1,14 @@
-### 解题思路
-数组中的两个数之和等于目标值target，
-即，target - arr[i] = arr[n];
-循环数组，记录num = target - arr[i];
-若数组中存在num则证明有两数之和等于目标值。并将i，push到空数组中。
-nums.indexOf(num)可返回num在数组中所在的下标，一并push到空数组中，
-最后将空数组返回即可
+// ### 解题思路
+// 数组中的两个数之和等于目标值target，
+// 即，target - arr[i] = arr[n];
+// 循环数组，记录num = target - arr[i];
+// 若数组中存在num则证明有两数之和等于目标值。并将i，push到空数组中。
+// nums.indexOf(num)可返回num在数组中所在的下标，一并push到空数组中，
+// 最后将空数组返回即可
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -28,4 +28,4 @@ var twoSum = function(nums, target) {
     }
     return indexArr
 };
-```
+// ```

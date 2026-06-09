@@ -1,8 +1,8 @@
-### 思路
+// ### 思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int searchInsert(vector<int>& nums, int target) {
@@ -18,4 +18,4 @@ public:
         return size;
     }
 };
-```
+// ```

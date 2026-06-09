@@ -1,9 +1,9 @@
-### 解题思路
-    打卡学习 ~ ~ ~
-    日常膜拜大佬们的思路与代码
-### 代码
+// ### 解题思路
+//     打卡学习 ~ ~ ~
+//     日常膜拜大佬们的思路与代码
+// ### 代码
 
-```c
+// ```c
 int min(int a,int b){
     return a < b ? a : b;
 }
@@ -17,4 +17,4 @@ int minDistance(char * word1, char * word2){
             dp[i][j] = min(dp[i-1][j-1] + (int)(word1[i-1] != word2[j-1]),min(dp[i-1][j],dp[i][j-1]) + 1);
     return dp[m][n];
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-1.需要找出数组中差值最大的两个数i,j  2.j需要大于i
+// ### 解题思路
+// 1.需要找出数组中差值最大的两个数i,j  2.j需要大于i
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxProfit(int[] prices) {
  int maxPrice = 0;
@@ -15,6 +15,6 @@ class Solution {
         return maxPrice;
     }
 }
-```
-时间复杂度：O(n^2)
-空间复杂度：O(1)
+// ```
+// 时间复杂度：O(n^2)
+// 空间复杂度：O(1)

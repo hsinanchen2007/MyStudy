@@ -1,9 +1,9 @@
-### 解题思路
-递归遍历即可
+// ### 解题思路
+// 递归遍历即可
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a Node.
  * type Node struct {
@@ -23,4 +23,4 @@ func preorder(root *Node) []int {
     }
     return ret
 }
-```
+// ```

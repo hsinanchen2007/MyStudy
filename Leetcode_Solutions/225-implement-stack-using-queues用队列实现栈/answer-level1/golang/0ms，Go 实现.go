@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/73495aba579c753024455c107c462b85d1e3b4d937735f1d0897f8a176e555d0-image.png)
+// ![image.png](https://pic.leetcode-cn.com/73495aba579c753024455c107c462b85d1e3b4d937735f1d0897f8a176e555d0-image.png)
 
-```
+// ```
 type MyStack struct {
     data []int  // 用队列实现栈
 }
@@ -49,4 +49,4 @@ func (this *MyStack) Empty() bool {
  * param_3 := obj.Top();
  * param_4 := obj.Empty();
  */
-```
+// ```

@@ -1,5 +1,5 @@
-说明：求z是否是x与y的最小公倍数的倍数
-```
+// 说明：求z是否是x与y的最小公倍数的倍数
+// ```
 class Solution {
 
     /**
@@ -19,4 +19,4 @@ class Solution {
         return $this->gcd($m,fmod($n,$m));
     }
 }
-```
+// ```

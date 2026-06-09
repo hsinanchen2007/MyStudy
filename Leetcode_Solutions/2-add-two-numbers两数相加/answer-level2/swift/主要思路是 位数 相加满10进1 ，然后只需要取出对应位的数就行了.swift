@@ -1,9 +1,9 @@
-### 解题思路
-主要思路是 位数 相加满10进1 ，然后只需要取出对应位的数就行了
+// ### 解题思路
+// 主要思路是 位数 相加满10进1 ，然后只需要取出对应位的数就行了
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -57,4 +57,4 @@ class Solution {
 }
 
 
-```
+// ```

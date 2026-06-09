@@ -1,14 +1,14 @@
-**递归**
-```
+// **递归**
+// ```
 int fib(int n)
 {
     if(n < 2)
         return n;
     return fib(n-1) + fib(n-2);
 }
-```
-**迭代**
-```
+// ```
+// **迭代**
+// ```
 int fib(int n)
 {
     if(n < 2)
@@ -23,9 +23,9 @@ int fib(int n)
     }
     return cur;
 }
-```
-**动态规划**
-```
+// ```
+// **动态规划**
+// ```
 int fib(int n)
 {
     if(n < 2)
@@ -38,4 +38,4 @@ int fib(int n)
     }
     return dp[n];
 }
-```
+// ```

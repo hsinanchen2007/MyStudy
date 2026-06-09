@@ -1,13 +1,13 @@
-### 解题思路
-1、对比lower和nums[0]是否需要闭区间
-2、对比nums[i]和nums[i-1]是否需要闭区间；注意有个用例考了int边界，两数相减需要转化为long long相减。
-3、对比nums[i]和upper是否需要闭区间
+// ### 解题思路
+// 1、对比lower和nums[0]是否需要闭区间
+// 2、对比nums[i]和nums[i-1]是否需要闭区间；注意有个用例考了int边界，两数相减需要转化为long long相减。
+// 3、对比nums[i]和upper是否需要闭区间
 
-写一个闭区间函数，用sprintf把整数读出到字符串
+// 写一个闭区间函数，用sprintf把整数读出到字符串
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAXLEN 1000
 #define NUMSIZE 25
 char * getResult(int a, int b) {
@@ -45,4 +45,4 @@ char ** findMissingRanges(int* nums, int numsSize, int lower, int upper, int* re
 	return ret;
 }
 
-```
+// ```

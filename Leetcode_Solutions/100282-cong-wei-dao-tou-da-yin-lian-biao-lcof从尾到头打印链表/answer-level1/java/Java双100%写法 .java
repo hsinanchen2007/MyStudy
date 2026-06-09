@@ -1,6 +1,6 @@
-双100%写法 先遍历链表长度 然后反着填充数组
-先没理解头结点是否带值,就一直出问题..
-```java
+// 双100%写法 先遍历链表长度 然后反着填充数组
+// 先没理解头结点是否带值,就一直出问题..
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -27,4 +27,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

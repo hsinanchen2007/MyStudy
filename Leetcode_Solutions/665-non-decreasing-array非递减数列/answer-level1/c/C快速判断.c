@@ -1,8 +1,8 @@
-逐渐缩小范围
-1、如果没有下降过，那么true
-2、如果下降次数大于等于2，那么一定false
-3、如果下降次数是1，依次去掉下降点，继续判断，如果有一个没有下降，那么为true
-```
+// 逐渐缩小范围
+// 1、如果没有下降过，那么true
+// 2、如果下降次数大于等于2，那么一定false
+// 3、如果下降次数是1，依次去掉下降点，继续判断，如果有一个没有下降，那么为true
+// ```
 bool checkPoss(int* nums, int numsSize, int delInx){
 	int i;
 	int cnt = 0;
@@ -45,4 +45,4 @@ bool checkPossibility(int* nums, int numsSize){
     /* 如果只有一次减小，逐次去掉下降点的点，如果不再下降则OK */
 	return checkPoss(nums, numsSize, d1) || checkPoss(nums, numsSize, d2);
 }
-```
+// ```

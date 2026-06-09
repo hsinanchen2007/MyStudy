@@ -1,8 +1,8 @@
-执行用时: 76 ms, 在所有 JavaScript 提交中击败了 97.17% 的用户
+// 执行用时: 76 ms, 在所有 JavaScript 提交中击败了 97.17% 的用户
 
-思路在于当日(i)价格下滑，则取昨日(i-1)卖出的价格差为此次获利。需要注意是在结束的时候需要卖出依旧持有的股票，计算价差获利。
+// 思路在于当日(i)价格下滑，则取昨日(i-1)卖出的价格差为此次获利。需要注意是在结束的时候需要卖出依旧持有的股票，计算价差获利。
 
-```Javascript
+// ```Javascript
 var maxProfit = function (prices) {
     if (prices.length <= 0) {
         return 0;
@@ -20,4 +20,4 @@ var maxProfit = function (prices) {
     totalProfit += prices[prices.length - 1] - minPrice;
     return totalProfit;
 };
-```
+// ```

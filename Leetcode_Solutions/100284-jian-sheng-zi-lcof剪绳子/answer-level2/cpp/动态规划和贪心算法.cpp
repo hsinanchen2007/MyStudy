@@ -1,8 +1,8 @@
-### 解题思路
-参考剑指offer原书，动态规划dp，dp(n) = max(dp(n-cut)*dp(cut))     0 < cut <= n/2
-### 代码
+// ### 解题思路
+// 参考剑指offer原书，动态规划dp，dp(n) = max(dp(n-cut)*dp(cut))     0 < cut <= n/2
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int cuttingRope(int n) {
@@ -28,14 +28,14 @@ public:
         return dp[n];
     }
 };
-```
+// ```
 
-### 解题思路
-贪心算法，尽量多的长度为3的字段，剩余4时停止(4>3*1)
+// ### 解题思路
+// 贪心算法，尽量多的长度为3的字段，剩余4时停止(4>3*1)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int cuttingRope(int n) {
@@ -58,4 +58,4 @@ public:
         return ans;
     }
 };
-```
+// ```

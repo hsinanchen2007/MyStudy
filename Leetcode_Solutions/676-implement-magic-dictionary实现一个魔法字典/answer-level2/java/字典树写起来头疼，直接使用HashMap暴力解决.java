@@ -1,6 +1,6 @@
-找寻字典里面只有一个字母不一样的单词，可以考虑使用map暴力解决，**key为单词长度，value就是同一长度的单词集合**，遍历集合就行。
+// 找寻字典里面只有一个字母不一样的单词，可以考虑使用map暴力解决，**key为单词长度，value就是同一长度的单词集合**，遍历集合就行。
 
-```java
+// ```java
 public class MagicDictionary {
     private HashMap<Integer, ArrayList<String>> wordMap;
 
@@ -42,4 +42,4 @@ public class MagicDictionary {
 
 }
 
-```
+// ```

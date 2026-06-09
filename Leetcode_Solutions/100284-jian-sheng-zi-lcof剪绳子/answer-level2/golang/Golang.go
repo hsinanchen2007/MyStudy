@@ -1,9 +1,9 @@
-### 解题思路
-长度大于3时，最小切分长度是2和3；长度是2或3需要单独讨论。
+// ### 解题思路
+// 长度大于3时，最小切分长度是2和3；长度是2或3需要单独讨论。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func cuttingRope(n int) int {
 	note := make([]int, n+1)
 	var f func(l int) int
@@ -33,4 +33,4 @@ func cuttingRope(n int) int {
 	}
 	return f(n)
 }
-```
+// ```

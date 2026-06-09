@@ -1,4 +1,4 @@
-```
+# ```
 def string(str1,str2):
     len_str1 = len(str1)
     len_str2 = len(str2)
@@ -12,4 +12,4 @@ def string(str1,str2):
             print(' ')
     else:
         print(' ')
-```
+# ```

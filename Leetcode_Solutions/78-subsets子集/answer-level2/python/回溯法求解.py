@@ -1,9 +1,9 @@
-### 解题思路
-分析树形求解思路，套用回溯法模板
+# ### 解题思路
+# 分析树形求解思路，套用回溯法模板
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:
         res = []
@@ -23,4 +23,4 @@ class Solution:
         isBackTracking(res, tmp, 0, len(nums), nums)
 
         return res
-```
+# ```

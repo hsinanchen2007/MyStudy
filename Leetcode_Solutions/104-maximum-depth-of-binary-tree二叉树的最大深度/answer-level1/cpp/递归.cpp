@@ -1,9 +1,9 @@
-### 解题思路
-递归求解
+// ### 解题思路
+// 递归求解
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -22,4 +22,4 @@ public:
             return 1+max(maxDepth(root->left),maxDepth(root->right));
     }
 };
-```
+// ```

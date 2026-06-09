@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def removeDuplicates(self, nums):
         """
@@ -14,4 +14,4 @@ class Solution(object):
                 nums[index_i] = nums[index_j]
         
         return index_i + 1
-```
+# ```

@@ -1,7 +1,7 @@
-### 一般的应用reduce每次求和
+// ### 一般的应用reduce每次求和
 
-最后一个测试用例会超时
-```JavaScript
+// 最后一个测试用例会超时
+// ```JavaScript
 var NumArray = function (nums) {
   this.temp = nums
 };
@@ -17,15 +17,15 @@ NumArray.prototype.sumRange = function (i, j) {
   })
   return ret
 };
-```
+// ```
 
-### 第一次new的时候就进行打表操作 优于99.39%
+// ### 第一次new的时候就进行打表操作 优于99.39%
 
-Your runtime beats 99.39 % of javascript submissions
+// Your runtime beats 99.39 % of javascript submissions
 
-Your memory usage beats 36.36 % of javascript submissions(44.9 MB)
+// Your memory usage beats 36.36 % of javascript submissions(44.9 MB)
 
-```
+// ```
 var NumArray = function (nums) {
   this.temp = nums
   this.ret = []
@@ -45,4 +45,4 @@ NumArray.prototype.sumRange = function (i, j) {
   }
   return this.ret[j] - this.ret[i - 1]
 };
-```
+// ```

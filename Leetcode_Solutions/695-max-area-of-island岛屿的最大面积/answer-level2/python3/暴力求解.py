@@ -1,9 +1,9 @@
-### 解题思路
-暴力求解，待会试试不用字典存，看看能不能快点。。
+# ### 解题思路
+# 暴力求解，待会试试不用字典存，看看能不能快点。。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import numpy as np
 class Solution:
     def maxAreaOfIsland(self, grid: List[List[int]]) -> int:
@@ -51,4 +51,4 @@ class Solution:
         
 
 
-```
+# ```

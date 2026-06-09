@@ -1,9 +1,9 @@
-### 解题思路
-双指针分别指向两个数组末尾，不需要辅助空间
+# ### 解题思路
+# 双指针分别指向两个数组末尾，不需要辅助空间
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def merge(self, A: List[int], m: int, B: List[int], n: int) -> None:
         """
@@ -27,4 +27,4 @@ class Solution:
                 pa-=1
             tail-=1
         return A
-```
+# ```

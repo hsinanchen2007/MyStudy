@@ -1,9 +1,9 @@
-### 解题思路
-并发 完成o（n）时间复杂度  我为golang代言
+// ### 解题思路
+// 并发 完成o（n）时间复杂度  我为golang代言
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func sortArray(nums []int) []int {
     ret := []int{}
     arr := make(chan int, len(nums))
@@ -56,4 +56,4 @@ func Merge(s1, s2, ch chan int) {
 		v2, ok2 = <-s2
 	}
 }
-```
+// ```

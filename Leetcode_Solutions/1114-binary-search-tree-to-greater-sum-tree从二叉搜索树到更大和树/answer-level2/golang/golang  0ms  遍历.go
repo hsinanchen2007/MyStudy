@@ -1,6 +1,6 @@
-从右子树开始遍历，一直累加sum值
-- right -> root -> left
-```
+// 从右子树开始遍历，一直累加sum值
+// - right -> root -> left
+// ```
 func bstToGst(root *TreeNode) *TreeNode {
 	sum := 0
 	btg(root, &sum)
@@ -16,4 +16,4 @@ func btg(root *TreeNode, sum *int) {
 	root.Val = *sum
 	btg(root.Left, sum)
 }
-```
+// ```

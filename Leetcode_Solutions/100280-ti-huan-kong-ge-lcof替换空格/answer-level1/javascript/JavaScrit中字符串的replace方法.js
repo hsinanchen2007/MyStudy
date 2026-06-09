@@ -1,10 +1,10 @@
-### 解题思路
-JavaScrit中字符串的replace方法
+// ### 解题思路
+// JavaScrit中字符串的replace方法
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var replaceSpace = function(s) {
     return s.replace(/ /g, "%20");
 };
-```
+// ```

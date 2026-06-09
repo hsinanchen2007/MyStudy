@@ -1,5 +1,5 @@
-重写排序比较器，调用STL排序，然后拼接成string.
-```
+// 重写排序比较器，调用STL排序，然后拼接成string.
+// ```
 class Solution {
     static bool greater(const int &i, const int &j){
         return to_string(i)+to_string(j)>to_string(j)+to_string(i);
@@ -13,4 +13,4 @@ public:
         return res;
     }
 };
-```
+// ```

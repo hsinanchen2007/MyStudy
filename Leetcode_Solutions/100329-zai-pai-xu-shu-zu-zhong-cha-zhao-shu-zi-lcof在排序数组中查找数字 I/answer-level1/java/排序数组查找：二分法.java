@@ -1,12 +1,12 @@
-### 解题思路
-对于mid和target,有三种情况：
-1.nums[mid] < target,找右边；
-2.nums[mid] > target,找左边；
-3.nums[mid] = target,定义双指针左右搜索。
-返回值为计数。
-### 代码
+// ### 解题思路
+// 对于mid和target,有三种情况：
+// 1.nums[mid] < target,找右边；
+// 2.nums[mid] > target,找左边；
+// 3.nums[mid] = target,定义双指针左右搜索。
+// 返回值为计数。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int search(int[] nums, int target) {
         if(nums == null || nums.length == 0) return 0;
@@ -29,4 +29,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

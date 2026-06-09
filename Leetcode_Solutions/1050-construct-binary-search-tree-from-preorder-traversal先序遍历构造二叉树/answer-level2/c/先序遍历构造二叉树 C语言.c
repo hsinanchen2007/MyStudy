@@ -1,5 +1,5 @@
 
-```c
+// ```c
 struct TreeNode* bstFromPreorder(int* preorder, int preorderSize){
     struct TreeNode* root = (struct TreeNode*)malloc(sizeof(struct TreeNode));
     
@@ -36,4 +36,4 @@ struct TreeNode* bstFromPreorder(int* preorder, int preorderSize){
     
     return root;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 func maxArea(height []int) int {
 	// max := 0
 	// for i := 0; i < len(height); i++ {
@@ -36,4 +36,4 @@ func maxArea(height []int) int {
 
 	return max
 }
-```
+// ```

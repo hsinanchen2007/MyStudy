@@ -1,20 +1,20 @@
-**思路**
+// **思路**
 
-算法复杂度O(log n)，我首先想到的是二分查找
+// 算法复杂度O(log n)，我首先想到的是二分查找
 
-1. 二分查找一定要求出中点，mid = low + high / 2
+// 1. 二分查找一定要求出中点，mid = low + high / 2
 
-2. mid元素要么在前面的大子序列，要么在后面的小子序列；判断mid和low的大小，如果mid大于low，mid一定在大子序列；否则，一定在小子序列
+// 2. mid元素要么在前面的大子序列，要么在后面的小子序列；判断mid和low的大小，如果mid大于low，mid一定在大子序列；否则，一定在小子序列
 
-3. 如果在大子序列，那么low到mid是单调递增的；如果在小子序列，那么mid到high是单调递增的
+// 3. 如果在大子序列，那么low到mid是单调递增的；如果在小子序列，那么mid到high是单调递增的
 
-4. 递归上述过程，可以得到最终的解
+// 4. 递归上述过程，可以得到最终的解
 
-----
+// ----
 
-二分 + 递归
+// 二分 + 递归
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -52,4 +52,4 @@ var search = function (nums, target) {
 
     return dfs(0, nums.length - 1)
 };
-```
+// ```

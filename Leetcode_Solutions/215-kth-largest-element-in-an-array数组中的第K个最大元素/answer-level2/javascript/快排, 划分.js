@@ -1,4 +1,4 @@
-```
+// ```
 function partation (s, l , r)  {
     // // //这里的 l , r 是指整个数组的范围下的坐标
     // let mid = Math.floor( (l + r) / 2 );
@@ -62,4 +62,4 @@ function findKthLargest (nums, k) {
     return -1;
 }
 
-```
+// ```

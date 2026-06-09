@@ -1,7 +1,7 @@
-![QQ截图20191209212937.png](https://pic.leetcode-cn.com/bbac4c752e71f198cac46a02fd825fb099a74209ef5a01564cf86dbdb1457749-QQ%E6%88%AA%E5%9B%BE20191209212937.png)
+# ![QQ截图20191209212937.png](https://pic.leetcode-cn.com/bbac4c752e71f198cac46a02fd825fb099a74209ef5a01564cf86dbdb1457749-QQ%E6%88%AA%E5%9B%BE20191209212937.png)
 
-思路：用排列组合中计算组合的方法，看爬的序列中有几个2，因为这个2是无序的，所以用组合
-```
+# 思路：用排列组合中计算组合的方法，看爬的序列中有几个2，因为这个2是无序的，所以用组合
+# ```
 num = n // 2
         shang = n / 2
         if n == 1:
@@ -26,4 +26,4 @@ num = n // 2
                     fenmu *= (i-j)
                 ways += (fenzi/fenmu)
             return int(ways)
-```
+# ```

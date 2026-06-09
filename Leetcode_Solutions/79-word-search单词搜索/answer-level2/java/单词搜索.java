@@ -1,5 +1,5 @@
-从四个方向DFS搜索，注意记录下走过的路径
-```
+// 从四个方向DFS搜索，注意记录下走过的路径
+// ```
     private boolean[][] isUsed;
     public boolean exist(char[][] board, String word) {
         int row = board.length;
@@ -30,4 +30,4 @@
         
         return false;
     }
-```
+// ```

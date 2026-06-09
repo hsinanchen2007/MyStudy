@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def isMonotonic(self, A: List[int]) -> bool:
         set_A = sorted(A)
@@ -6,4 +6,4 @@ class Solution:
             return True
         else:
             return False
-```
+# ```

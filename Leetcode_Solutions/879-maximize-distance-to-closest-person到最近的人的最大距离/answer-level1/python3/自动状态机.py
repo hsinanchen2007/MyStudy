@@ -1,6 +1,6 @@
-利用自动状态机来判断求解:
-只用遍历一次
-```
+# 利用自动状态机来判断求解:
+# 只用遍历一次
+# ```
 class Solution(object):
     def maxDistToClosest(self, seats):
         """
@@ -52,6 +52,6 @@ class Solution(object):
             if current_range > max_range:
                 max_range = current_range
         return max_range
-```
-图片如下,字体还请不要吐槽
-![Leetcode 2.png](https://pic.leetcode-cn.com/83d9798ceab5fb94b76d48a27642015be1dcd226ddebc618714eae43240502aa-Leetcode%202.png)
+# ```
+# 图片如下,字体还请不要吐槽
+# ![Leetcode 2.png](https://pic.leetcode-cn.com/83d9798ceab5fb94b76d48a27642015be1dcd226ddebc618714eae43240502aa-Leetcode%202.png)

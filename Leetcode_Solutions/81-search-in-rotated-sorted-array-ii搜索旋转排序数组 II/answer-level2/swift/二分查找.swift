@@ -1,6 +1,6 @@
-- 先找到旋转点，将输入数组拼接成一个顺序的数组；
-- 进行二分
-```
+// - 先找到旋转点，将输入数组拼接成一个顺序的数组；
+// - 进行二分
+// ```
 class Solution {
     func search(_ nums: [Int], _ target: Int) -> Bool {
         if nums.count == 0 {
@@ -54,4 +54,4 @@ class Solution {
         return false
     }
 }
-```
+// ```

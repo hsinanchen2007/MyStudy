@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/effb9a0341f1dff85b3fc414c9ed4624d5d42627b5931ed26064ff6b41c64886-image.png)
+// ![image.png](https://pic.leetcode-cn.com/effb9a0341f1dff85b3fc414c9ed4624d5d42627b5931ed26064ff6b41c64886-image.png)
 
-```
+// ```
 class Solution {
     public String decodeAtIndex(String S, int K) {
         int i, count, lastCount;
@@ -23,4 +23,4 @@ class Solution {
         return null;
     }
 }
-```
+// ```

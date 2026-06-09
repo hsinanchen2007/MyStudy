@@ -1,9 +1,9 @@
-### 解题思路
-这个执行用时怎么计算的？同样的代码提交两次用时不同？
+// ### 解题思路
+// 这个执行用时怎么计算的？同样的代码提交两次用时不同？
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> twoSum(vector<int>& numbers, int target) {
@@ -18,4 +18,4 @@ public:
         return vector<int>{-1,-1};
     }
 };
-```
+// ```

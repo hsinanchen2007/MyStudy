@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/f6ae21a45fbf318e448a807025f54f5517f07a82289145a41e68b30e394e0e26-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/f6ae21a45fbf318e448a807025f54f5517f07a82289145a41e68b30e394e0e26-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] numberOfLines(int[] widths, String S) {
         int []  ans = new int[]{1,0};
@@ -20,4 +20,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

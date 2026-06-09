@@ -1,10 +1,10 @@
-### 解题思路
-> dp 递推公式为 dp[i] = max(dp[i-2]+nums[i], dp[i-1])
-- 注意边界条件的处理呢， ```dp[0] = nums[0]; dp[1] = max(nums[:2])```
+# ### 解题思路
+# > dp 递推公式为 dp[i] = max(dp[i-2]+nums[i], dp[i-1])
+# - 注意边界条件的处理呢， ```dp[0] = nums[0]; dp[1] = max(nums[:2])```
 
-### 代码
+# ### 代码
 
-```python3 [group1-标准dp]
+# ```python3 [group1-标准dp]
 class Solution:
     def massage(self, nums: List[int]) -> int:
         if not nums:
@@ -17,9 +17,9 @@ class Solution:
         for i in range(2, len(nums)):
             dp[i] = max(dp[i - 2] + nums[i], dp[i - 1])
         return dp[-1]
-```
+# ```
 
-```python3 [group1-dp压缩]
+# ```python3 [group1-dp压缩]
 class Solution:
     def massage(self, nums: List[int]) -> int:
         if not nums:
@@ -33,11 +33,11 @@ class Solution:
             first = last
             last = curr
         return curr
-```
+# ```
 
 
-# 运行情况
-```
+# # 运行情况
+# ```
 执行用时 :24 ms, 在所有 Python3 提交中击败了99.40%的用户
 内存消耗 :13.4 MB, 在所有 Python3 提交中击败了100.00%的用户
-```
+# ```

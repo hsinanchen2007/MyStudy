@@ -1,5 +1,5 @@
-1,第一个实现的肯定是暴力穷举
-```
+// 1,第一个实现的肯定是暴力穷举
+// ```
 
 object Solution {
   def longestPalindrome(s: String): String = {
@@ -60,5 +60,5 @@ object Solution {
   }
 }
 
-```
+// ```
 

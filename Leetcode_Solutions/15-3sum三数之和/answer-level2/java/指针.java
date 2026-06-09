@@ -1,8 +1,8 @@
-### 解题思路
-变量加双指针
-### 代码
+// ### 解题思路
+// 变量加双指针
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
      List<List<Integer>> ans=new ArrayList();
@@ -34,4 +34,4 @@ class Solution {
      return ans;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int removeDuplicates(int[] nums) {
         //k是慢指针；i是快指针 
@@ -29,4 +29,4 @@ class Solution {
         return k+1;
     }
 }
-```
+// ```

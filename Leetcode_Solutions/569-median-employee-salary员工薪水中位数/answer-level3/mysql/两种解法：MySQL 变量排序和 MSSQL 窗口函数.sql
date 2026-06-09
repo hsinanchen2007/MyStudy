@@ -1,5 +1,5 @@
-## MySQL 变量排序
-```mysql
+-- ## MySQL 变量排序
+-- ```mysql
 select 
     t2.Id,
     t2.Company,
@@ -33,9 +33,9 @@ on t1.Company = t2.Company
 where
     (t1.cnt + 2) div 2 = t2.rnk or 
     (t1.cnt + 1) div 2 = t2.rnk
-```
-## MSSQL 窗口函数
-```mysql
+-- ```
+-- ## MSSQL 窗口函数
+-- ```mysql
 select
     Id,
     Company,
@@ -50,4 +50,4 @@ from (
 where 
     rnk = (cnt + 1) / 2 or 
     rnk = (cnt + 2) / 2
-```
+-- ```

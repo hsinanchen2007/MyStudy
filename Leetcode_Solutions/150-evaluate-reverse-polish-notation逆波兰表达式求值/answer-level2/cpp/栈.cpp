@@ -1,5 +1,5 @@
-科班出身的话，这题目应该算作Easy.
-```
+// 科班出身的话，这题目应该算作Easy.
+// ```
 class Solution {
 public:
     int evalRPN(vector<string>& tokens) {
@@ -21,4 +21,4 @@ public:
         return s.size()?s.top():0;
     }
 };
-```
+// ```

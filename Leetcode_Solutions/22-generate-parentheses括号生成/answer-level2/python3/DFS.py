@@ -1,13 +1,13 @@
-### 解题思路
-DFS
+# ### 解题思路
+# DFS
 
-1. 每次生成左括号或右括号，直到括号数小于或等于2n
-2. 每次生成需要满足右括号数量小于左括号数量，且左括号数量小于n
+# 1. 每次生成左括号或右括号，直到括号数小于或等于2n
+# 2. 每次生成需要满足右括号数量小于左括号数量，且左括号数量小于n
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
         self.res = []
@@ -23,4 +23,4 @@ class Solution:
         if right < left:
             self.dfs(level + 1, left, right + 1, s + ')')
 
-```
+# ```

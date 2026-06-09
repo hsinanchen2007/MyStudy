@@ -1,4 +1,4 @@
-```python
+# ```python
 class TweetCounts:
 
     def __init__(self):
@@ -25,4 +25,4 @@ class TweetCounts:
 # obj = TweetCounts()
 # obj.recordTweet(tweetName,time)
 # param_2 = obj.getTweetCountsPerFrequency(freq,tweetName,startTime,endTime)
-```
+# ```

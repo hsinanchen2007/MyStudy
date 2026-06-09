@@ -1,5 +1,5 @@
-先去重，然后排序
-```python
+# 先去重，然后排序
+# ```python
 class Solution:
     def thirdMax(self, nums: List[int]) -> int:
         nums=set(nums)
@@ -12,4 +12,4 @@ class Solution:
         
         nums.sort()
         return nums[l-3]
-```
+# ```

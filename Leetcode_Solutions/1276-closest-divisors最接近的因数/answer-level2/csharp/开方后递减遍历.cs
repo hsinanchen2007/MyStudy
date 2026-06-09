@@ -1,8 +1,8 @@
-# 解题思路
-给定num先+2。进行开方，结果四舍五入，开始往下遍历，取模。
-模等于0，符合num+2；模等于1，符合num+1。
-# 代码
-```
+// # 解题思路
+// 给定num先+2。进行开方，结果四舍五入，开始往下遍历，取模。
+// 模等于0，符合num+2；模等于1，符合num+1。
+// # 代码
+// ```
 public class Solution {
     public int[] ClosestDivisors(int num) {
         num = num + 2;
@@ -19,4 +19,4 @@ public class Solution {
 		return new int[] { res,sqrtRes };
     }
 }
-```
+// ```

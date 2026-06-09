@@ -1,9 +1,9 @@
-### 解题思路
-其实这个题目就是来求最大公约数，详细思路见注释吧！
+// ### 解题思路
+// 其实这个题目就是来求最大公约数，详细思路见注释吧！
 
-### 思路一
+// ### 思路一
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool hasGroupsSizeX(vector<int>& deck) {
@@ -45,10 +45,10 @@ public:
         return false;
     }
 };
-```
+// ```
 
-## 思路二
-```cpp
+// ## 思路二
+// ```cpp
 class Solution {
 public:
     bool hasGroupsSizeX(vector<int>& deck) {
@@ -82,4 +82,4 @@ public:
         return x == 0 ? y : gcd(y % x, x);
     }
 };
-```
+// ```

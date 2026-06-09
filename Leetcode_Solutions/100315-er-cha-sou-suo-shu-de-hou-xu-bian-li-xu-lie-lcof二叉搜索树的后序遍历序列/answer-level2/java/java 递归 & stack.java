@@ -1,4 +1,4 @@
-```递归 []
+// ```递归 []
 class Solution {
     public boolean verifyPostorder(int[] postorder) {
         return tree(postorder,0,postorder.length-1);
@@ -17,7 +17,7 @@ class Solution {
         return tree(postorder,i,x-1) && tree(postorder,x,j-1);
     }
 }
-```
-```stack []
+// ```
+// ```stack []
 print('Hello world!')
-```
+// ```

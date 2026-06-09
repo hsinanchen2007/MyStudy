@@ -1,4 +1,4 @@
-```
+// ```
 func restoreIPAddresses(s string) []string {
 	ips := []string{}
 
@@ -55,4 +55,4 @@ func isIPPart(p string) bool {
 	return i >= 0 && i <= 255
 }
 
-```
+// ```

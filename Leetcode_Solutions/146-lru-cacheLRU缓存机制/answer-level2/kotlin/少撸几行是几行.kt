@@ -1,4 +1,4 @@
-```kotlin    
+// ```kotlin    
 class LRUCache(capacity: Int) {
         private var map = mutableMapOf<Int, Int>()
         private var queue = ArrayList<Int>(capacity) //队头为最早访问，队尾为最近访问
@@ -31,4 +31,4 @@ class LRUCache(capacity: Int) {
             map.set(key, value)
         }
     }
-```
+// ```

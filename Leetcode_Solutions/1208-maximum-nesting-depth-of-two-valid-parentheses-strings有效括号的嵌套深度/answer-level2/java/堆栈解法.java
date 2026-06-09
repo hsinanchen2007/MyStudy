@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] maxDepthAfterSplit(String seq) {
         int rear = -1;
@@ -17,4 +17,4 @@ class Solution {
     }
 
 }
-```
+// ```

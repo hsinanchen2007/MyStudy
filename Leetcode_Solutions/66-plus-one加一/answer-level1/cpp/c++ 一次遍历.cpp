@@ -1,5 +1,5 @@
-c++ 一次遍历
-```
+// c++ 一次遍历
+// ```
 class Solution {
 public:
 	vector<int> plusOne(vector<int>& digits) {
@@ -26,5 +26,5 @@ public:
 		return res;
 	}
 };
-```
+// ```
 

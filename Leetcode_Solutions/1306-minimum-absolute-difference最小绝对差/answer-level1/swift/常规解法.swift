@@ -1,11 +1,11 @@
-### 解题思路
-话说这种类似的数组题有办法不用下标来解决么...
-都说swift是门优雅的语言，array尽可能的不要用下标
-玛德我怎么就不知道该怎么办呢..
+// ### 解题思路
+// 话说这种类似的数组题有办法不用下标来解决么...
+// 都说swift是门优雅的语言，array尽可能的不要用下标
+// 玛德我怎么就不知道该怎么办呢..
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func minimumAbsDifference(_ arr: [Int]) -> [[Int]] {
         
@@ -45,4 +45,4 @@ class Solution {
         return ans
     }
 }
-```
+// ```

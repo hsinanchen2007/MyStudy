@@ -1,4 +1,4 @@
-```Python []
+# ```Python []
 # 时间复杂度O(2n)，空间复杂度 $O(1)$，res 不算额外空间
 class Solution(object):
     def findDisappearedNumbers(self, nums):
@@ -16,10 +16,10 @@ class Solution(object):
             # 始终保持nums[index]为负数
             nums[index] = -abs(nums[index])
         return [i + 1 for i, num in enumerate(nums) if num > 0]
-```
+# ```
 
-##### 若将题目要求改为数组中每个元素出现的可能次数是 n 次,求出数组中出现此次为偶数（奇数）次的元素（出现 0 次也算偶数次）。
-```Python []
+# ##### 若将题目要求改为数组中每个元素出现的可能次数是 n 次,求出数组中出现此次为偶数（奇数）次的元素（出现 0 次也算偶数次）。
+# ```Python []
 class Solution(object):
     def findDisappearedNumbers(self, nums):
         """
@@ -39,4 +39,4 @@ class Solution(object):
         return [i + 1 for i, num in enumerate(nums) if num > 0]
         #奇数次
         return [i + 1 for i, num in enumerate(nums) if num < 0]
-```
+# ```

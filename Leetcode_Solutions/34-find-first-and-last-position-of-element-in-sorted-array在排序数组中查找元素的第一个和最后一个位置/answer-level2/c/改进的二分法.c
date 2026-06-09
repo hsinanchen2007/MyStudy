@@ -1,13 +1,13 @@
-其实是将普通二分法进行了修改，修改的点就是在于判断mid判断大于，等于，小于上下标位置的条件。而且针对上下标，条件还有些不同。
-对于下标来说，
-mid == 下标的条件：
-nums[mid] == target && nums[mid - 1] < target
-mid < 下标的条件：
-nums[mid] < target
-mid > 下标的条件：
-nums[mid - 1] <= target
-对于上标来说，判断的条件类似。
-```
+// 其实是将普通二分法进行了修改，修改的点就是在于判断mid判断大于，等于，小于上下标位置的条件。而且针对上下标，条件还有些不同。
+// 对于下标来说，
+// mid == 下标的条件：
+// nums[mid] == target && nums[mid - 1] < target
+// mid < 下标的条件：
+// nums[mid] < target
+// mid > 下标的条件：
+// nums[mid - 1] <= target
+// 对于上标来说，判断的条件类似。
+// ```
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -58,4 +58,4 @@ int* searchRange(int* nums, int numsSize, int target, int* returnSize){
     }
     return res;
 }
-```
+// ```

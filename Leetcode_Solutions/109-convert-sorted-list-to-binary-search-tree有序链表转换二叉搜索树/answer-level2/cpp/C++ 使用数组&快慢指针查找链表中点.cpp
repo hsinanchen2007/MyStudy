@@ -1,14 +1,14 @@
-### 1. 借用数组
+// ### 1. 借用数组
 
-不得不说，这个题就是上一个题目的翻版 **[108. 将有序数组转换为二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/)**
+// 不得不说，这个题就是上一个题目的翻版 **[108. 将有序数组转换为二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/)**
 
-所以只要先遍历一次链表，将所有的节点值保存到一个数组里，就变成了上面的那个题。
+// 所以只要先遍历一次链表，将所有的节点值保存到一个数组里，就变成了上面的那个题。
 
-> 时间复杂度为 O(n)，空间复杂度为 O(n)
+// > 时间复杂度为 O(n)，空间复杂度为 O(n)
 
-**代码：**
+// **代码：**
 
-```cpp
+// ```cpp
 class Solution {
 public:
     TreeNode* sortedListToBST(ListNode* head) {
@@ -28,15 +28,15 @@ private:
         return root;
     }
 };
-```
+// ```
 
-### 2. 快慢指针查找链表中点
+// ### 2. 快慢指针查找链表中点
 
-说到底，借用数组只是为了可以方便的查找链表的中点；但是对于链表的中点查询，也是比较简单的。可以参考 **[876. 链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list/)**，具体的就是使用**快慢双指针**。
+// 说到底，借用数组只是为了可以方便的查找链表的中点；但是对于链表的中点查询，也是比较简单的。可以参考 **[876. 链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list/)**，具体的就是使用**快慢双指针**。
 
-> 时间复杂度为 O(nlog(n))，空间复杂度为 O(1)
+// > 时间复杂度为 O(nlog(n))，空间复杂度为 O(1)
 
-```cpp
+// ```cpp
 class Solution {
 public:
     TreeNode* sortedListToBST(ListNode* head) {
@@ -59,4 +59,4 @@ private:
         return root;
     }
 };
-```
+// ```

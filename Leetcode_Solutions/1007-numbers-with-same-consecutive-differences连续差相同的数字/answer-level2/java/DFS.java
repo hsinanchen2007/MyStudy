@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int[] numsSameConsecDiff(int N, int K) {
         if(N == 1){
@@ -39,4 +39,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

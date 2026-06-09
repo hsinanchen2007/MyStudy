@@ -1,16 +1,16 @@
-本质是排序。按照欧几里得距离从小到大对 `points` 进行升序排序，然后取出前 K 个点即可。
+// 本质是排序。按照欧几里得距离从小到大对 `points` 进行升序排序，然后取出前 K 个点即可。
 
-其实就是三个步骤：
+// 其实就是三个步骤：
 
-1. 计算距离
-2. 排序
-3. 取 K 个
+// 1. 计算距离
+// 2. 排序
+// 3. 取 K 个
 
-### 解一：偷懒大法
+// ### 解一：偷懒大法
 
-直接用系统提供的排序函数进行排序。
+// 直接用系统提供的排序函数进行排序。
 
-```python
+// ```python
 class Solution:
     def kClosest(self, points: List[List[int]], K: int) -> List[List[int]]:
         distance = []
@@ -25,32 +25,32 @@ class Solution:
         for i in range(K):
             res.append(points[distance[i][0]])
         return res
-```
+// ```
 
-上面写的比较啰嗦，可以用列表生成式简化一下：
+// 上面写的比较啰嗦，可以用列表生成式简化一下：
 
-```python
+// ```python
 class Solution:
     def kClosest(self, points: List[List[int]], K: int) -> List[List[int]]:
         points.sort(key=lambda x: x[0]**2 + x[1] ** 2)
         return points[:K]
-```
+// ```
 
-### 解二：快速排序
+// ### 解二：快速排序
 
-这里的快速排序无需使整个数组有序，只需要筛选出最小的 K 个值即可。
+// 这里的快速排序无需使整个数组有序，只需要筛选出最小的 K 个值即可。
 
-假设第一次排序后，哨兵值 `pivot` 将原数组分为两个部分：
+// 假设第一次排序后，哨兵值 `pivot` 将原数组分为两个部分：
 
-1. 左侧部分，元素值均小于 `pivot`，假设下标范围是 `[begin, i - 1]`，长度为 `left_length`
-2. 右侧部分，元素值均大于或等于 `pivot`，假设下标范围是 `[i + 1, end]`，长度为 `right_length`
+// 1. 左侧部分，元素值均小于 `pivot`，假设下标范围是 `[begin, i - 1]`，长度为 `left_length`
+// 2. 右侧部分，元素值均大于或等于 `pivot`，假设下标范围是 `[i + 1, end]`，长度为 `right_length`
 
-此时：
+// 此时：
 
-- 如果 `left_length >= K`，最小的 `K` 个值均在左侧，因此下轮递归只需对左侧部分进行排序
-- 如果 `left_length < K`，我们已经获得了 `left_length` 个最小值，因此下轮递归只需对右侧部分进行排序
+// - 如果 `left_length >= K`，最小的 `K` 个值均在左侧，因此下轮递归只需对左侧部分进行排序
+// - 如果 `left_length < K`，我们已经获得了 `left_length` 个最小值，因此下轮递归只需对右侧部分进行排序
 
-```python []
+// ```python []
 class Solution:
     def kClosest(self, points: List[List[int]], K: int) -> List[List[int]]:
         # 计算欧几里得距离
@@ -85,8 +85,8 @@ class Solution:
                 
         work(0, len(points) - 1, K)
         return points[:K]
-```
-```java []
+// ```
+// ```java []
 class Solution {
      public int[][] kClosest(int[][] points, int K) {
         int start = 0;
@@ -132,8 +132,8 @@ class Solution {
         points[b] = temp;
     }
 }
-```
-```php []
+// ```
+// ```php []
 class Solution {
 
     /**
@@ -193,14 +193,14 @@ class Solution {
         return $points[$x][0]*$points[$x][0] + $points[$x][1] * $points[$x][1];
     }
 }
-```
+// ```
 
 
-### 解三：堆排序
+// ### 解三：堆排序
 
-这个问题的本质其实就是对于点到原点的距离，求 Top K 元素。那么，除了排序的方法，以及快速排序以外，还可以利用 **堆** 来得到 Top K 的元素。
+// 这个问题的本质其实就是对于点到原点的距离，求 Top K 元素。那么，除了排序的方法，以及快速排序以外，还可以利用 **堆** 来得到 Top K 的元素。
 
-```java []
+// ```java []
 class Solution {
     public int[][] kClosest(int[][] points, int K) {
         // 在 `Java` 里面，可以利用优先队列：PriorityQueue 来处理，其内部实现是堆。
@@ -215,8 +215,8 @@ class Solution {
         return result;
     }
 }
-```
-```python []
+// ```
+// ```python []
 from heapq import heappush, heappop 
 
 class Solution:
@@ -230,8 +230,8 @@ class Solution:
         for i in range(K):
             res.append(heappop(queue)[1])
         return res
-```
+// ```
 
-----
+// ----
 
-Ps：本题 Java 解法来自 [@csming1995](/u/csming1995/)
+// Ps：本题 Java 解法来自 [@csming1995](/u/csming1995/)

@@ -1,12 +1,12 @@
-### 解题思路
-执行用时 :20 ms, 在所有 Python 提交中击败了80.73%的用户
-内存消耗 :
-13 MB, 在所有 Python 提交中击败了5.37%的用户
+# ### 解题思路
+# 执行用时 :20 ms, 在所有 Python 提交中击败了80.73%的用户
+# 内存消耗 :
+# 13 MB, 在所有 Python 提交中击败了5.37%的用户
 
-遍历两次的方法 直观
-### 代码
+# 遍历两次的方法 直观
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -43,4 +43,4 @@ class Solution(object):
         return head  
 
 
-```
+# ```

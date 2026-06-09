@@ -1,9 +1,9 @@
-### 解题思路
-当numRows>2的时候，除了首尾是1外，其他元素都是上一个数组相邻两个元素的和。
+// ### 解题思路
+// 当numRows>2的时候，除了首尾是1外，其他元素都是上一个数组相邻两个元素的和。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func generate(numRows int) [][]int {
     var yh [][]int
 	for i:=1;i<=numRows;i++{
@@ -24,4 +24,4 @@ func generate(numRows int) [][]int {
 	}
 	return yh
 }
-```
+// ```

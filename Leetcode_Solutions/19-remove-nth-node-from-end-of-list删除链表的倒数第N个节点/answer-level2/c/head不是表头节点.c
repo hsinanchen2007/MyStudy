@@ -1,6 +1,6 @@
-### 代码
-head不是表头节点，踩坑了
-```c
+// ### 代码
+// head不是表头节点，踩坑了
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -29,4 +29,4 @@ struct ListNode* removeNthFromEnd(struct ListNode* head, int n){
     free(q);
     return head;
 }
-```
+// ```

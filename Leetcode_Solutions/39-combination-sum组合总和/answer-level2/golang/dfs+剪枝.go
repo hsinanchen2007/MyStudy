@@ -1,13 +1,13 @@
-### 解题思路
-1.排序
-2.深度优先搜索
-3.剪枝
-4.结算
+// ### 解题思路
+// 1.排序
+// 2.深度优先搜索
+// 3.剪枝
+// 4.结算
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func combinationSum(candidates []int, target int) [][]int {
 	sort.Ints(candidates) //快排，懒得写
 	res := [][]int{}
@@ -30,6 +30,6 @@ func dfs(candidates, nums []int, target, left int, res *[][]int) {
 		dfs(candidates, append(nums, candidates[i]), target-candidates[i], i, res)//分支
 	}
 }
-```
+// ```
 
-[github](https://github.com/temporaries/leetcode)
+// [github](https://github.com/temporaries/leetcode)

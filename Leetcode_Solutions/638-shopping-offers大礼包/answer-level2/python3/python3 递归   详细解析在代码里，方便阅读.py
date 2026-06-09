@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def shoppingOffers(self, price: List[int], special: List[List[int]], needs: List[int]) -> int:
         # 先过滤掉不划算的礼包
@@ -33,4 +33,4 @@ class Solution:
 
         func(needs,special,price,0)
         return self.costtt
-```
+# ```

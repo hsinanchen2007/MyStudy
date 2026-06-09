@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {string} s
  * @param {string[]} d
@@ -33,4 +33,4 @@ var findLongestWord = function(s, d) {
     return true;
   }
 };
-```
+// ```

@@ -1,21 +1,21 @@
-#### 方法一：贪心
+// #### 方法一：贪心
 
-**分析**
+// **分析**
 
-我们这样来看这个问题，公司首先将这 $2N$ 个人全都安排飞往 $B$ 市，再选出 $N$ 个人改变它们的行程，让他们飞往 $A$ 市。如果选择改变一个人的行程，那么公司将会额外付出 `price_A - price_B` 的费用，这个费用可正可负。
+// 我们这样来看这个问题，公司首先将这 $2N$ 个人全都安排飞往 $B$ 市，再选出 $N$ 个人改变它们的行程，让他们飞往 $A$ 市。如果选择改变一个人的行程，那么公司将会额外付出 `price_A - price_B` 的费用，这个费用可正可负。
 
-![bla](https://pic.leetcode-cn.com/Figures/1029/users.png){:width=600}
-{:align=center}
+// ![bla](https://pic.leetcode-cn.com/Figures/1029/users.png){:width=600}
+// {:align=center}
 
-因此最优的方案是，选出 `price_A - price_B` 最小的 $N$ 个人，让他们飞往 `A` 市，其余人飞往 `B` 市。
+// 因此最优的方案是，选出 `price_A - price_B` 最小的 $N$ 个人，让他们飞往 `A` 市，其余人飞往 `B` 市。
 
-**算法**
+// **算法**
 
-- 按照 `price_A - price_B` 从小到大排序；
+// - 按照 `price_A - price_B` 从小到大排序；
 
-- 将前 $N$ 个人飞往 `A` 市，其余人飞往 `B` 市，并计算出总费用。
+// - 将前 $N$ 个人飞往 `A` 市，其余人飞往 `B` 市，并计算出总费用。
 
-```Python [sol1]
+// ```Python [sol1]
 class Solution:
     def twoCitySchedCost(self, costs: List[List[int]]) -> int:
         # Sort by a gain which company has 
@@ -30,9 +30,9 @@ class Solution:
         for i in range(n):
             total += costs[i][0] + costs[i + n][1]
         return total
-```
+// ```
 
-```Java [sol1]
+// ```Java [sol1]
 class Solution {
     public int twoCitySchedCost(int[][] costs) {
       // Sort by a gain which company has 
@@ -53,9 +53,9 @@ class Solution {
       return total;
     }
 }
-```
+// ```
 
-```C++ [sol1]
+// ```C++ [sol1]
 class Solution {
     public:
     int twoCitySchedCost(vector<vector<int>>& costs) {
@@ -75,10 +75,10 @@ class Solution {
         return total;
     }
 };
-```
+// ```
 
-**复杂度分析**
+// **复杂度分析**
 
-* 时间复杂度：$O(N)$，需要对 `price_A - price_B` 进行排序。
+// * 时间复杂度：$O(N)$，需要对 `price_A - price_B` 进行排序。
 
-* 空间复杂度：$O(1)$。
+// * 空间复杂度：$O(1)$。

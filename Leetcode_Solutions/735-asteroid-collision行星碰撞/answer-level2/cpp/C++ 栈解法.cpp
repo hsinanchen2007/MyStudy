@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class Solution {
 public:
     vector<int> asteroidCollision(vector<int>& asteroids) {
@@ -26,6 +26,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/f44e2845632afec00b9882b13a007b15e2e14d02279346a89c89f9fa35f21d13-image.png)
+// ![image.png](https://pic.leetcode-cn.com/f44e2845632afec00b9882b13a007b15e2e14d02279346a89c89f9fa35f21d13-image.png)

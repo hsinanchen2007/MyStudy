@@ -1,4 +1,4 @@
-```
+// ```
 func depthSumInverse(nestedList []*NestedInteger) int {
 	u, w := 0, 0
 	for 0 != len(nestedList) {
@@ -15,4 +15,4 @@ func depthSumInverse(nestedList []*NestedInteger) int {
 	}
 	return w
 }
-```
+// ```

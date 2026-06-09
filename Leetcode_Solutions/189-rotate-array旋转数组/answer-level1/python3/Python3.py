@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def rotate(self, nums: List[int], k: int) -> None:
         """
@@ -22,8 +22,8 @@ class Solution:
             end -= 1
 
 
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def rotate(self, nums: List[int], k: int) -> None:
         """
@@ -34,4 +34,4 @@ class Solution:
         nums[:] = nums[:][::-1]
         nums[:k] = nums[:k][::-1]
         nums[k:] = nums[k:][::-1]
-```
+# ```

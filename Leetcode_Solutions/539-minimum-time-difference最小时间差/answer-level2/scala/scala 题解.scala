@@ -1,4 +1,4 @@
-```scala
+// ```scala
 import scala.collection.mutable.ArrayBuffer
 
 object Solution {
@@ -15,4 +15,4 @@ object Solution {
     math.min(res, 1440 + t(0) - t.last)
   }
 }
-```
+// ```

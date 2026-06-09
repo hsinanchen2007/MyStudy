@@ -1,10 +1,10 @@
-### 解题思路
-通俗易懂就是有点耗时
-![image.png](https://pic.leetcode-cn.com/10bade942b8fff6ed9b4b6fc01445895f6a600506a1f1cc46e63cb79a4e0e5e8-image.png)
+// ### 解题思路
+// 通俗易懂就是有点耗时
+// ![image.png](https://pic.leetcode-cn.com/10bade942b8fff6ed9b4b6fc01445895f6a600506a1f1cc46e63cb79a4e0e5e8-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string compressString(string S) {
@@ -28,4 +28,4 @@ public:
         return st;
     }
 };
-```
+// ```

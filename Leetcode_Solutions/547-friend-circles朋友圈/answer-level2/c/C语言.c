@@ -1,4 +1,4 @@
-```
+// ```
 int find(int i,int*roots){
     while(i!=roots[i])i=roots[i];
     return i;
@@ -37,9 +37,9 @@ int findCircleNum(int** M, int MSize, int* MColSize){
     return count;
 }
 
-```
-广度遍历BFS
-```
+// ```
+// 广度遍历BFS
+// ```
 int findCircleNum(int** M, int MSize, int* MColSize){
     int col=MColSize[0];
     int *visited=malloc(sizeof(int)*MSize);
@@ -65,10 +65,10 @@ int findCircleNum(int** M, int MSize, int* MColSize){
     
     return count;
 }
-```
+// ```
 
-DFS
-```
+// DFS
+// ```
 void dfs(int *visited,int **M,int col,int i){
     visited[i]=1;
     for(int j=0;j<col;j++){
@@ -92,4 +92,4 @@ int findCircleNum(int** M, int MSize, int* MColSize){
     return count;
 }
 
-```
+// ```

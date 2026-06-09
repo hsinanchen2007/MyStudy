@@ -1,9 +1,9 @@
-### 解题思路
-代码有点长，但是逻辑简单。
+// ### 解题思路
+// 代码有点长，但是逻辑简单。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int balancedStringSplit(string s) {
@@ -44,4 +44,4 @@ public:
         return ans;
     }
 };
-```
+// ```

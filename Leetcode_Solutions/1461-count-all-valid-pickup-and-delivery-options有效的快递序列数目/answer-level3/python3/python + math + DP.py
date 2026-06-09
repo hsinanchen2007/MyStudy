@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def countOrders(self, n: int) -> int:
         # pickup(i) -> delivery(i)
@@ -11,4 +11,4 @@ class Solution:
         for i in range(2, n + 1):
             res = (res * i * (2 * i - 1)) % mod
         return int(res)
-```
+# ```

@@ -1,8 +1,8 @@
-遍历每个格子，当格子不在矩阵边缘时，减去可能的重叠计算的面积。
+// 遍历每个格子，当格子不在矩阵边缘时，减去可能的重叠计算的面积。
 
-注意当grid[i][j]为零时，不需要计算，直接下一个。
+// 注意当grid[i][j]为零时，不需要计算，直接下一个。
 
-```go
+// ```go
 func surfaceArea(grid [][]int) int {
     ans := 0
     for i := range grid {
@@ -32,4 +32,4 @@ func min(x, y int) int {
     }
     return y
 }
-```
+// ```

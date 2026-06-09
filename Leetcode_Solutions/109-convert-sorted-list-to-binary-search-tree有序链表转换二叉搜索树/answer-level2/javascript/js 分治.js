@@ -1,4 +1,4 @@
-```
+// ```
 var sortedListToBST = function(head) {
     let child = head;
     const arr = [];
@@ -22,4 +22,4 @@ var sortedListToBST = function(head) {
     }
     return buildTree(arr, 0, arr.length - 1);
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class LRUCache {
 // 这题跟LFU类似，但是只淘汰最少使用的，只看时间，不看访问次数
 // 那么只用一个hashMap存(key,node)，另一个直接用双向链表即可
@@ -112,4 +112,4 @@ class LRUCache {
  * int param_1 = obj.get(key);
  * obj.put(key,value);
  */
-```
+// ```

@@ -1,6 +1,6 @@
-[78题解法](https://leetcode-cn.com/problems/subsets/solution/php-jie-fa-liang-chong-hui-su-jie-fa-by-andfly/)
-本题在78题解法上最后加上一行代码（用于二维数组去重），即可。
-```
+// [78题解法](https://leetcode-cn.com/problems/subsets/solution/php-jie-fa-liang-chong-hui-su-jie-fa-by-andfly/)
+// 本题在78题解法上最后加上一行代码（用于二维数组去重），即可。
+// ```
 function subsetsWithDup($nums) {
     $n = count($nums);
     if($n == 0) return [[]];
@@ -17,4 +17,4 @@ function subsetsWithDup($nums) {
     }
     return array_unique($dp[$n], SORT_REGULAR);
 }
-```
+// ```

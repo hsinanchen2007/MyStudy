@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int missingNumber(vector<int>& nums) {
@@ -15,4 +15,4 @@ public:
         return nums[L]>L?--nums[L] : ++nums[L];
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
-**给定给目标和加上要求返回路径回溯在走就好了由于是二叉树因此就只有两种选择 往左往右 每做一次选择记得清理现场就好**
-```
+// **给定给目标和加上要求返回路径回溯在走就好了由于是二叉树因此就只有两种选择 往左往右 每做一次选择记得清理现场就好**
+// ```
 class Solution {
     List<List<Integer>> res = new LinkedList<>();
     public List<List<Integer>> pathSum(TreeNode root, int sum) {
@@ -28,4 +28,4 @@ class Solution {
         }
     }
 }
-```
+// ```

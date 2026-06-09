@@ -1,10 +1,10 @@
-### 解题思路
-step = 2 * numRows - 2，这一步简单；
-第i行时，step - 2 * i 和 
-2 * i 交替递增，需要好好思考。
-### 代码
+// ### 解题思路
+// step = 2 * numRows - 2，这一步简单；
+// 第i行时，step - 2 * i 和 
+// 2 * i 交替递增，需要好好思考。
+// ### 代码
 
-```c
+// ```c
 char * convert(char * s, int numRows){
     int i;
     int j;
@@ -43,4 +43,4 @@ char * convert(char * s, int numRows){
     str[len] = '\0';
     return str;
 }
-```
+// ```

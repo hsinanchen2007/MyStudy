@@ -1,11 +1,11 @@
-### 解题思路
-１．　先把０移动到最左边
-２．　再把２移动到最左边
+// ### 解题思路
+// １．　先把０移动到最左边
+// ２．　再把２移动到最左边
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void print(vector<int> &nums) {
@@ -36,4 +36,4 @@ public:
         moveSingleNum(nums, left, right, 1);
     }
 };
-```
+// ```

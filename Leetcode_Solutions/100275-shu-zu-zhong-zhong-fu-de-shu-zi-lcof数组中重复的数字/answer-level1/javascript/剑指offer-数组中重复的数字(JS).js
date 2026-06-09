@@ -1,4 +1,4 @@
-```js
+// ```js
 var findRepeatNumber = function(nums) {
   let result = {};
   for (let i of nums) {
@@ -10,4 +10,4 @@ var findRepeatNumber = function(nums) {
   }
   return -1;
 };
-```
+// ```

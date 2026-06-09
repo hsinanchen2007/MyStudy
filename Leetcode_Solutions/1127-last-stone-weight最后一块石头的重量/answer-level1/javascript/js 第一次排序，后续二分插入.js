@@ -1,4 +1,4 @@
-```javascript []
+// ```javascript []
 class Stack {
     constructor(data = [], compare = (a, b) => a - b) {
         this.data = data;
@@ -75,4 +75,4 @@ var lastStoneWeight = function(stones) {
     }
     return stack.isEmpty() ? 0 : stack.peek();
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-先求上下堆叠的标面积，然后在减去跟左和上边相邻的表面积，得出的就是最后面积。
+// ### 解题思路
+// 先求上下堆叠的标面积，然后在减去跟左和上边相邻的表面积，得出的就是最后面积。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int crossFaces(int a, int b) {
         return Math.min(a, b) * 2;
@@ -25,4 +25,4 @@ class Solution {
         return faces;
     }
 }
-```
+// ```

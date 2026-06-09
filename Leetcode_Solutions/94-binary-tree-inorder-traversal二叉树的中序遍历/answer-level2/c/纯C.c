@@ -1,9 +1,9 @@
-### 解题思路
-纯C 没用非递归
+// ### 解题思路
+// 纯C 没用非递归
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -53,4 +53,4 @@ int* inorderTraversal(PARAM_IN struct TreeNode* root, PARAM_OUT int* returnSize)
     return pRes;
 
 }
-```
+// ```

@@ -1,6 +1,6 @@
-zip用的不熟，老老实实交换元素吧，内存消耗100.00%
+# zip用的不熟，老老实实交换元素吧，内存消耗100.00%
 
-```
+# ```
 class Solution:
     def rotate(self, matrix: List[List[int]]) -> None:
         """
@@ -18,5 +18,5 @@ class Solution:
             for y, e in enumerate(row):
                 if x > y:
                     matrix[x][y], matrix[y][x] = matrix[y][x], matrix[x][y]
-```
-![image.png](https://pic.leetcode-cn.com/cf44d1c6037cc3278e9851eb689e8bc86c5dfaf7f302bb9012f7ee1615acfd64-image.png)
+# ```
+# ![image.png](https://pic.leetcode-cn.com/cf44d1c6037cc3278e9851eb689e8bc86c5dfaf7f302bb9012f7ee1615acfd64-image.png)

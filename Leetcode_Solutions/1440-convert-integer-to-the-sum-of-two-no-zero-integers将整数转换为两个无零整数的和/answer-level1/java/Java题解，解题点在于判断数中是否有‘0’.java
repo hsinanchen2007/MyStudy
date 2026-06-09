@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int[] getNoZeroIntegers(int n) {
         int i = 0;//第一个数
@@ -24,4 +24,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

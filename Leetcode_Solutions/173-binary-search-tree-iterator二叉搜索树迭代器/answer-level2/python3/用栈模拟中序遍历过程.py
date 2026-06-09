@@ -1,12 +1,12 @@
-## 思路：
+# ## 思路：
 
-做这道题， 先把树的中序遍历的迭代写法了解一下
+# 做这道题， 先把树的中序遍历的迭代写法了解一下
 
-[94. 二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/) | [题解链接](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/solution/die-dai-he-di-gui-by-powcai)
+# [94. 二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/) | [题解链接](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/solution/die-dai-he-di-gui-by-powcai)
 
-对，这道题就是用**栈**解决，模拟中序遍历过程！
+# 对，这道题就是用**栈**解决，模拟中序遍历过程！
 
-```python
+# ```python
 class BSTIterator:
 
     def __init__(self, root: TreeNode):
@@ -34,5 +34,5 @@ class BSTIterator:
         while node:
             self.stack.append(node)
             node = node.left
-```
+# ```
 

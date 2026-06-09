@@ -1,9 +1,9 @@
-### 解题思路
-因为是有序，如果四分之一长度后还出现，那么就是了
+# ### 解题思路
+# 因为是有序，如果四分之一长度后还出现，那么就是了
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findSpecialInteger(self, arr: List[int]) -> int:
         # 最开始写的这个思路最垃圾了
@@ -28,4 +28,4 @@ class Solution:
                 
 
 
-```
+# ```

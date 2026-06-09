@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
  /**
      * 看一下测试用例的结果就会了解到解是一个子集树，需要搜索一组解===>用回溯法解决
      * 解空间： 子集树 取值范围是在候选数中选择
@@ -40,9 +40,9 @@
         return [...new Set(res)].map(item=>JSON.parse(item));
     };
 
-```
-优化后的代码=======>
-```javascript
+// ```
+// 优化后的代码=======>
+// ```javascript
     const combinationSum1 = (candidates, target)=>{
         let res=[],res0=[];
         /**
@@ -68,4 +68,4 @@
         dfs(0,0,target);
         return res;
     };
-```
+// ```

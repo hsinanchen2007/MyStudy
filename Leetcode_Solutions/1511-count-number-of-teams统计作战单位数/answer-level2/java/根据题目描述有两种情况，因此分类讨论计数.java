@@ -1,15 +1,15 @@
-### 解题思路
-根据描述，有两种情况：
-从大到小；从小到大
-即`rating[i]>rating[j]>rating[k] 或者 rating[i]<rating[j]<rating[k]`
-先确定中间j的取值范围为`1<=j<=rating.length-2`
-以下分情况讨论：
-`1.若rating[i]<rating[j]  --> 判断为从小到大的情况  --> rating[j]<rating[k]`
-`2.若rating[i]>rating[j]  --> 判断为从大到小的情况  --> rating[j]>rating[k]`
+// ### 解题思路
+// 根据描述，有两种情况：
+// 从大到小；从小到大
+// 即`rating[i]>rating[j]>rating[k] 或者 rating[i]<rating[j]<rating[k]`
+// 先确定中间j的取值范围为`1<=j<=rating.length-2`
+// 以下分情况讨论：
+// `1.若rating[i]<rating[j]  --> 判断为从小到大的情况  --> rating[j]<rating[k]`
+// `2.若rating[i]>rating[j]  --> 判断为从大到小的情况  --> rating[j]>rating[k]`
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numTeams(int[] rating) {
         int count = 0;
@@ -36,4 +36,4 @@ class Solution {
 		return count;
     }
 }
-```
+// ```

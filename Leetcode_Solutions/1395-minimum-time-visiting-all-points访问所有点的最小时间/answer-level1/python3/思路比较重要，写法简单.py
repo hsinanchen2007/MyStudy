@@ -1,9 +1,9 @@
-### 解题思路
-两点之间的间距，取最大的那个，作为时长，遍历即可。
+# ### 解题思路
+# 两点之间的间距，取最大的那个，作为时长，遍历即可。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import math
 
 class Solution:
@@ -19,4 +19,4 @@ class Solution:
                 pass
         return res
 
-```
+# ```

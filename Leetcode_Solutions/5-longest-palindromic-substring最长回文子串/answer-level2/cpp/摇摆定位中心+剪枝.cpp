@@ -1,14 +1,14 @@
-![image.png](https://pic.leetcode-cn.com/ff2a77e648f0f4d13ea1378b26b57ad5fa178b85f19e720fc90138f655c6bf1c-image.png)
-**给get_LPS参数加上了引用的优化效果立竿见影：**
-![image.png](https://pic.leetcode-cn.com/12d6c491d033ae424124aa7433992dfcf343e4fe0169715751d46b62a41a2b96-image.png)
+// ![image.png](https://pic.leetcode-cn.com/ff2a77e648f0f4d13ea1378b26b57ad5fa178b85f19e720fc90138f655c6bf1c-image.png)
+// **给get_LPS参数加上了引用的优化效果立竿见影：**
+// ![image.png](https://pic.leetcode-cn.com/12d6c491d033ae424124aa7433992dfcf343e4fe0169715751d46b62a41a2b96-image.png)
 
-### 解题思路
-摇摆方式定位可能的中心。
-剪枝：一旦不可能获得比现在更长的序列就退出循环
+// ### 解题思路
+// 摇摆方式定位可能的中心。
+// 剪枝：一旦不可能获得比现在更长的序列就退出循环
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 string get_LPS(const string & s, int idx)
 {
@@ -51,4 +51,4 @@ public:
         return LPS;
     }
 };
-```
+// ```

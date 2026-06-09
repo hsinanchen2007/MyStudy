@@ -1,14 +1,14 @@
-### 思路
+# ### 思路
 
-**排序**
+# **排序**
 
-```
+# ```
 将数值、权重构造成字典，然后按照先 value 再 key 排序。
-```
+# ```
 
-##### Python3代码
+# ##### Python3代码
 
-```python
+# ```python
 class Solution:
     def getKth(self, lo: int, hi: int, k: int) -> int:
         nums, weight = [], []
@@ -33,8 +33,8 @@ class Solution:
                 x = x / 2
             cnt += 1
         return cnt
-```
+# ```
 
-### GitHub链接
+# ### GitHub链接
 
-[Python](https://github.com/Wonz5130/LeetCode-Solutions/blob/master/solutions/1387-Sort-Integers-by-The-Power-Value/1387.py)
+# [Python](https://github.com/Wonz5130/LeetCode-Solutions/blob/master/solutions/1387-Sort-Integers-by-The-Power-Value/1387.py)

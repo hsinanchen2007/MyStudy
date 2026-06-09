@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/401776028c93960346571e669666eca4bf4474d0c851e8338fb824d12b3c6ae9-image.png)   
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/401776028c93960346571e669666eca4bf4474d0c851e8338fb824d12b3c6ae9-image.png)   
 
-啥思想也没有，就是一个纯空间变幻
+// 啥思想也没有，就是一个纯空间变幻
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} matrix
  * @return {void} Do not return anything, modify matrix in-place instead.
@@ -43,4 +43,4 @@ var rotate = function(matrix) {
         // }
     }
 };
-```
+// ```

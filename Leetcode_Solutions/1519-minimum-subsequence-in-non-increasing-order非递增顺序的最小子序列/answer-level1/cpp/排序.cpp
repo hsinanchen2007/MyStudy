@@ -1,6 +1,6 @@
-降序排列，找到前缀和大于剩余和的第一个位置
+// 降序排列，找到前缀和大于剩余和的第一个位置
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> minSubsequence(vector<int>& nums) {
@@ -21,4 +21,4 @@ public:
         return vector<int>(nums.begin(),nums.begin()+i+1);
     }
 };
-```
+// ```

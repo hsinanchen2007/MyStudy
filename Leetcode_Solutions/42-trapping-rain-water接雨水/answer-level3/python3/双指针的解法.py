@@ -1,7 +1,7 @@
 
-看了好多种方法，还是觉得双指针的最简单，做这个题的时候可以对比下题库里的题：11.盛最多水的容器
-https://leetcode-cn.com/problems/container-with-most-water/
-```python3
+# 看了好多种方法，还是觉得双指针的最简单，做这个题的时候可以对比下题库里的题：11.盛最多水的容器
+# https://leetcode-cn.com/problems/container-with-most-water/
+# ```python3
 class Solution:
     def trap(self, height: List[int]) -> int:
         # 双指针的解法
@@ -20,4 +20,4 @@ class Solution:
                 j -= 1
                 max_j = max(height[j], max_j)
         return res
-```
+# ```

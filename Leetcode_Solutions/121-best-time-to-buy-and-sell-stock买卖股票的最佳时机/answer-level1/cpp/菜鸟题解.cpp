@@ -1,9 +1,9 @@
-### 解题思路
-这个够简单的了，初学c++都能看懂。。。
+// ### 解题思路
+// 这个够简单的了，初学c++都能看懂。。。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
@@ -22,4 +22,4 @@ public:
         return p[0];
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-思路就是把这两个数组重新排好序放到一个数组里面
+// ### 解题思路
+// 思路就是把这两个数组重新排好序放到一个数组里面
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
 
@@ -44,4 +44,4 @@ class Solution {
         return num;
     }
 }
-```
+// ```

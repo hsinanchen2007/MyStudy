@@ -1,9 +1,9 @@
-### 解题思路
-下面的代码是某位童鞋的。这题的滑动技巧是前进一位，就去掉之前第一位的记录，是我之前没有遇见到的。
+# ### 解题思路
+# 下面的代码是某位童鞋的。这题的滑动技巧是前进一位，就去掉之前第一位的记录，是我之前没有遇见到的。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def checkInclusion(self, s1: str, s2: str) -> bool:
         l1,l2 = len(s1), len(s2)
@@ -27,4 +27,4 @@ class Solution:
             if dict1 == dict2:
                 return True
         return False
-```
+# ```

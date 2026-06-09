@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-MAX记录所有和的最大值，sum记录指针到当前数字时应当取的最大和。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// MAX记录所有和的最大值，sum记录指针到当前数字时应当取的最大和。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxSubArray(int[] nums) {
         int MAX = nums[0];
@@ -16,4 +16,4 @@ class Solution {
         return MAX;
     }
 }
-```
+// ```

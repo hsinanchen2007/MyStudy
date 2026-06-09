@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def rotateRight(self, head: ListNode, k: int) -> ListNode:
         if not head:
@@ -15,4 +15,4 @@ class Solution:
         first.next=None
         return res
             
-```
+# ```

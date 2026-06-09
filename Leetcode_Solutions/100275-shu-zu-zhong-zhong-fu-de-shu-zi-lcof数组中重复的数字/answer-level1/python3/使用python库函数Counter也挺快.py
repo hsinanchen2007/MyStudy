@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from collections import Counter
 class Solution:
     def findRepeatNumber(self, nums: List[int]) -> int:
@@ -8,4 +8,4 @@ class Solution:
         for i in count.keys():
             if count[i] > 1:
                 return i
-```
+# ```

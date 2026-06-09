@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-一样的思路，保持广度优先搜索时给个depth标志位即可
+// ### 解题思路
+// 此处撰写解题思路
+// 一样的思路，保持广度优先搜索时给个depth标志位即可
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -38,4 +38,4 @@ public:
         return depth;
     }
 };
-```
+// ```

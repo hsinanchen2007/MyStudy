@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def trailingZeroes(self, n: int) -> int:
         count = 0
@@ -8,4 +8,4 @@ class Solution:
             else:
                 break
         return count
-```
+# ```

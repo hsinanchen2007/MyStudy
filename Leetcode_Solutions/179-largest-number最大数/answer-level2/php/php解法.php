@@ -1,4 +1,4 @@
-```
+// ```
 function largestNumber($nums) {
     $str = '';
     $nums = implode('',$nums);
@@ -11,6 +11,6 @@ function largestNumber($nums) {
     $nums = implode('',$nums);
     return $nums;
 }
-```
+// ```
 
-通过PHP内置函数完成，中间for循环是因为，explode的delimiter不能以''作为条件。
+// 通过PHP内置函数完成，中间for循环是因为，explode的delimiter不能以''作为条件。

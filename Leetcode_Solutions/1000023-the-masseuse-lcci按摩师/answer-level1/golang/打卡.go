@@ -1,9 +1,9 @@
-### 解题思路
-无
+// ### 解题思路
+// 无
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 func massage(nums []int) int {
     max := func(a, b int) int {
@@ -19,4 +19,4 @@ func massage(nums []int) int {
     
     return cur
 }
-```
+// ```

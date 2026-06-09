@@ -1,25 +1,25 @@
-### 解题思路
-设周边或细胞数为nAlive
-1. 细胞死亡: nAlive < 2 || nAlive > 3
-2. 细胞存活状态不变: nAlive == 3 || nAlive == 2
-3. 细胞复活: nAlive == 3
+// ### 解题思路
+// 设周边或细胞数为nAlive
+// 1. 细胞死亡: nAlive < 2 || nAlive > 3
+// 2. 细胞存活状态不变: nAlive == 3 || nAlive == 2
+// 3. 细胞复活: nAlive == 3
 
-构造周边细胞索引:
-int index[MAX_AROUND][2] = {
-    {-1, -1},   // left-up
-    {-1, 0},    // up
-    {-1, 1},    // right-up
-    {0, 1},     // right
-    {1, 1},     // right-down
-    {1, 0},     // down
-    {1, -1},    // left-down
-    {0, -1},    // left
-};
-遍历一遍vector,根据周边alive数量即可得出
+// 构造周边细胞索引:
+// int index[MAX_AROUND][2] = {
+//     {-1, -1},   // left-up
+//     {-1, 0},    // up
+//     {-1, 1},    // right-up
+//     {0, 1},     // right
+//     {1, 1},     // right-down
+//     {1, 0},     // down
+//     {1, -1},    // left-down
+//     {0, -1},    // left
+// };
+// 遍历一遍vector,根据周边alive数量即可得出
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void gameOfLife(std::vector<std::vector<int>>& board)
@@ -70,4 +70,4 @@ public:
         board = newvec;
     }
 };
-```
+// ```

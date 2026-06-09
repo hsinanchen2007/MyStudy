@@ -1,9 +1,9 @@
-### 解题思路1-栈
-（1）利用栈结构的先进后出的特性，先将元素全部压入栈，再依次弹出。
-（2）注意在重新构建链表的指针时是 `new ListNode(stack.pop().val)`,否则会与之前的next混乱。
-（3）O(n)的时间复杂度和O(n)的空间复杂度。
-### 代码1
-```java
+// ### 解题思路1-栈
+// （1）利用栈结构的先进后出的特性，先将元素全部压入栈，再依次弹出。
+// （2）注意在重新构建链表的指针时是 `new ListNode(stack.pop().val)`,否则会与之前的next混乱。
+// （3）O(n)的时间复杂度和O(n)的空间复杂度。
+// ### 代码1
+// ```java
 class Solution {
     public ListNode reverseList(ListNode head) {
         ListNode root = new ListNode(0);
@@ -22,12 +22,12 @@ class Solution {
     }
 }
 
-```
-### 解题思路2-迭代法
-（1）建立三个指针`pre, cur, next`;三个结点依次循环迭代
+// ```
+// ### 解题思路2-迭代法
+// （1）建立三个指针`pre, cur, next`;三个结点依次循环迭代
 
-### 代码2
-```java
+// ### 代码2
+// ```java
 class Solution {
     public ListNode reverseList(ListNode head) {
         ListNode pre = null;
@@ -42,5 +42,5 @@ class Solution {
         return pre;
     }
 }
-```
+// ```
 

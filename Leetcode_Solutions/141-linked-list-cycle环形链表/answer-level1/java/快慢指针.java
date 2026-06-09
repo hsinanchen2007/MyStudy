@@ -1,7 +1,7 @@
 
-fast 跑两步，slow 跑一步，fast 总会先达到终点，或者追上 slow 一圈又一圈。
+// fast 跑两步，slow 跑一步，fast 总会先达到终点，或者追上 slow 一圈又一圈。
 
-```
+// ```
 /**
  * Definition for singly-linked list.
  * class ListNode {
@@ -26,4 +26,4 @@ public class Solution {
         return true;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-先用dfs做了一遍，发现性能很差，但是看着可以倒着来找性能就好很多了
+// ### 解题思路
+// 先用dfs做了一遍，发现性能很差，但是看着可以倒着来找性能就好很多了
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 func getNum(idx,level int) int  {
 	tmp := math.Pow(2.0,float64(level))
@@ -61,4 +61,4 @@ func pathInZigZagTree(label int) []int {
 }
 
 
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-1.先将房屋与供暖器排序，找到房屋离最近供暖气的距离，再取所有距离中的最大值。
+// ### 解题思路
+// 1.先将房屋与供暖器排序，找到房屋离最近供暖气的距离，再取所有距离中的最大值。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findRadius(vector<int>& houses, vector<int>& heaters) {
@@ -33,4 +33,4 @@ public:
         return r;
     }
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-以行循环，依次计算每一列。
-如果不在对角线和横纵轴无效的节点的范围内，则添加，继续向下一行递归，递归完成，回溯一步；否则计算下一列
+# ### 解题思路
+# 以行循环，依次计算每一列。
+# 如果不在对角线和横纵轴无效的节点的范围内，则添加，继续向下一行递归，递归完成，回溯一步；否则计算下一列
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def totalNQueens(self, n: int) -> int:
         def compute_invalid(coor, n, invalid_coors):
@@ -61,4 +61,4 @@ class Solution:
         path = []
         dfs(0,  invalid_coors, path, n, res)
         return len(res)
-```
+# ```

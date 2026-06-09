@@ -1,22 +1,22 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/752690089c66b922a614bff2a4390fc2326c8f9491d668d5b5242b431f4edc40-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/752690089c66b922a614bff2a4390fc2326c8f9491d668d5b5242b431f4edc40-image.png)
 
-递归思路
-几种场景，
-1.先搜索左子树
-若搜索到了，那么直接返回。
-若(get_q_local && root == p) || (get_p_local && root == q)
-则res = root
-2.在搜索右子树
-思路同上，
-3.最后更新搜索结果 get_p get_q
-注意
-1.需要考虑场景的互斥，即不可直接用get_q，而是用local_get_q
-2.找到答案后立刻返回，保证 最近 公共祖先
+// 递归思路
+// 几种场景，
+// 1.先搜索左子树
+// 若搜索到了，那么直接返回。
+// 若(get_q_local && root == p) || (get_p_local && root == q)
+// 则res = root
+// 2.在搜索右子树
+// 思路同上，
+// 3.最后更新搜索结果 get_p get_q
+// 注意
+// 1.需要考虑场景的互斥，即不可直接用get_q，而是用local_get_q
+// 2.找到答案后立刻返回，保证 最近 公共祖先
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -74,4 +74,4 @@ public:
         return res;
     }
 };
-```
+// ```

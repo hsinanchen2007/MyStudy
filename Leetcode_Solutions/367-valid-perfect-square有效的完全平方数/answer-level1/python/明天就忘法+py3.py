@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-牛顿迭代法：x(n+1)=1/2(xn+a/xn)
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 牛顿迭代法：x(n+1)=1/2(xn+a/xn)
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isPerfectSquare(self, num: int) -> bool:
         # 牛顿迭代法
@@ -20,4 +20,4 @@ class Solution:
         
     
 
-```
+# ```

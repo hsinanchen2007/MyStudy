@@ -1,6 +1,6 @@
-### 解法一：循环找括号对 消除
+// ### 解法一：循环找括号对 消除
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {boolean}
@@ -12,13 +12,13 @@ var isValid = function (s) {
   }
   return s ? false : true
 }
-```
+// ```
 
-### 解法二
-定义一个数组保存括号排序，循环字符串，遇到匹配的括号就抵消掉
-![image.png](https://pic.leetcode-cn.com/a84f04b27b24cdc41619ebe734ab39a0ad894e3fcaedf34684072ef5c5c00a81-image.png)
+// ### 解法二
+// 定义一个数组保存括号排序，循环字符串，遇到匹配的括号就抵消掉
+// ![image.png](https://pic.leetcode-cn.com/a84f04b27b24cdc41619ebe734ab39a0ad894e3fcaedf34684072ef5c5c00a81-image.png)
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {boolean}
@@ -38,4 +38,4 @@ var isValid = function (s) {
   }
   return arr.length === 0
 }
-```
+// ```

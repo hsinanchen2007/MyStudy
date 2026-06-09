@@ -1,9 +1,9 @@
-### 解题思路
-二分法
+// ### 解题思路
+// 二分法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public double myPow(double x, int n) {
         if (x == 1) {
@@ -30,4 +30,4 @@ class Solution {
         return y * y * (n % 2 == 1 ? x : 1);
     }
 }
-```
+// ```

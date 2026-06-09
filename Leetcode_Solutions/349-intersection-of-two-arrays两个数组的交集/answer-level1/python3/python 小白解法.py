@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def intersection(self, nums1: List[int], nums2: List[int]) -> List[int]:
         list1 = []
@@ -18,4 +18,4 @@ class Solution:
                 except:
                     continue
             return set(list1)
-```
+# ```

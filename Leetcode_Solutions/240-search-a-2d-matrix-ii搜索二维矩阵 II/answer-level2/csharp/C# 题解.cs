@@ -1,9 +1,9 @@
-二分查找
+// 二分查找
 
-遍历矩阵中的每一行
-对于第i行，初始left和right分别是数组的第一个和最后一个元素的下标，mid=（left+right）/2。
+// 遍历矩阵中的每一行
+// 对于第i行，初始left和right分别是数组的第一个和最后一个元素的下标，mid=（left+right）/2。
 
-```
+// ```
  public bool SearchMatrix(int[,] matrix, int target)
         {
             if (matrix.Length == 0) return false;
@@ -23,4 +23,4 @@
             }
             return false;
         }
-```
+// ```

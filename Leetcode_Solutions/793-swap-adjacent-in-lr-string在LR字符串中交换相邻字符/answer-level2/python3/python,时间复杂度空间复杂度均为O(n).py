@@ -1,7 +1,7 @@
-### 解题思路
-### 代码
+# ### 解题思路
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def canTransform(self, start: str, end: str) -> bool:
         def convert(start):#字符串转化为形如[('R',1)]的数组，'R'为字符，1为下标
@@ -27,4 +27,4 @@ class Solution:
         
 
 
-```
+# ```

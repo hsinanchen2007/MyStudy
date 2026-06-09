@@ -1,10 +1,10 @@
-### 思路
-整体思路为将 NestedInteger结构体中的内容依次压栈，并保证栈顶为Integer即可
+# ### 思路
+# 整体思路为将 NestedInteger结构体中的内容依次压栈，并保证栈顶为Integer即可
 
-本来写的还挺复杂，结果修了几次[[[]],[]]这种test case以后反而代码越来越精简了...真的是越简单的代码出bug的概率越低-_-
+# 本来写的还挺复杂，结果修了几次[[[]],[]]这种test case以后反而代码越来越精简了...真的是越简单的代码出bug的概率越低-_-
 
-### 代码
-```
+# ### 代码
+# ```
 class NestedIterator:
     def __init__(self, nestedList: [NestedInteger]):
         # 对于nestedList中的内容，我们需要从左往右遍历，
@@ -22,4 +22,4 @@ class NestedIterator:
         while len(self.stack) > 0 and self.stack[-1].isInteger() is False:
             self.stack += self.stack.pop().getList()[::-1]
         return len(self.stack) > 0
-```
+# ```

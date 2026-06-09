@@ -1,12 +1,12 @@
-### 解题思路
-序列化时使用队列， 逻辑很清晰
-反序列化时，先将生成的TreeNode*放入vector中。迭代vector构造树
-迭代每个vec[i]，使用j保存i的左子下标。
-具体逻辑见注释
+// ### 解题思路
+// 序列化时使用队列， 逻辑很清晰
+// 反序列化时，先将生成的TreeNode*放入vector中。迭代vector构造树
+// 迭代每个vec[i]，使用j保存i的左子下标。
+// 具体逻辑见注释
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -64,4 +64,4 @@ public:
 // Your Codec object will be instantiated and called as such:
 // Codec codec;
 // codec.deserialize(codec.serialize(root));
-```
+// ```

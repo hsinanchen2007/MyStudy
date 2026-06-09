@@ -1,10 +1,10 @@
-### 解题思路
-最初写了个冒泡排序算法，对wage/quality数组排序并同步quality数组，保证每个下标的对应，用时老是超；
-观摩了大佬的思路后，敲出了如下的代码
-//JS怎么用根堆更优解题？？？
-### 代码
+// ### 解题思路
+// 最初写了个冒泡排序算法，对wage/quality数组排序并同步quality数组，保证每个下标的对应，用时老是超；
+// 观摩了大佬的思路后，敲出了如下的代码
+// //JS怎么用根堆更优解题？？？
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} quality
  * @param {number[]} wage
@@ -51,4 +51,4 @@ let myArray = function (singleDog) {
     }
   } return len
 }
-```
+// ```

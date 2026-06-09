@@ -1,9 +1,9 @@
-### 解题思路
-我的代码写的比较复杂，只是因为需要进行将整型数字转换成字符串，然后再逐步进行比较每一个字符是否相等。
+// ### 解题思路
+// 我的代码写的比较复杂，只是因为需要进行将整型数字转换成字符串，然后再逐步进行比较每一个字符是否相等。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void int_char(int x,char *numchar)
 {
     int temp=x;
@@ -38,4 +38,4 @@ bool isPalindrome(int x){
     if(count==k) return true;
     else return false;
     }
-```
+// ```

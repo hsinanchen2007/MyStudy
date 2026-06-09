@@ -1,5 +1,5 @@
-从左到右，可合并则合并，可排序则排序。
-```
+# 从左到右，可合并则合并，可排序则排序。
+# ```
 class Solution:
     def insert(self, intervals: List[List[int]], newInterval: List[int]) -> List[List[int]]:
         intervals.append(newInterval)
@@ -23,4 +23,4 @@ class Solution:
                     break
             idx -= 1
         return res
-```
+# ```

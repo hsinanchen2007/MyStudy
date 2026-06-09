@@ -1,11 +1,11 @@
-思路：
+// 思路：
 
-arr[0]保存中序前驱，arr[1]保存中序第一次访问的节点，中序遍历时构造链表
+// arr[0]保存中序前驱，arr[1]保存中序第一次访问的节点，中序遍历时构造链表
 
 
-代码：
+// 代码：
 
-```
+// ```
 class Solution {
      public Node treeToDoublyList(Node root) {
          if(root==null)return null;
@@ -31,7 +31,7 @@ class Solution {
         helper(root.right,arr);
     }
 }
-```
+// ```
 
 
 

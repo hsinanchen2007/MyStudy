@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+-- ### 解题思路
+-- 此处撰写解题思路
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 
 select case when mod(id,2)=0 then id-1 
@@ -12,4 +12,4 @@ select case when mod(id,2)=0 then id-1
 ,student
 from seat
 order by id 
-```
+-- ```

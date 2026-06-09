@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool wordBreak(string s, vector<string>& wordDict) {
@@ -20,4 +20,4 @@ public:
         return dp[s.size() - 1];
     }
 };
-```
+// ```

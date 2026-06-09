@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     bool checkRecord(string s) {
@@ -18,4 +18,4 @@ public:
 		return A_count<=1&&max_L<=2;
     }
 };
-```
+// ```

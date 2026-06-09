@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int numTeams(int[] rating) {
         int n = rating.length;
@@ -35,4 +35,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

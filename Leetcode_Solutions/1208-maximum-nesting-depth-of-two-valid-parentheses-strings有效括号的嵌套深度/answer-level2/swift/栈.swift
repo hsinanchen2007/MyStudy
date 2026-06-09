@@ -1,5 +1,5 @@
-执行时间`56ms`，有时间再优化一下
-```
+// 执行时间`56ms`，有时间再优化一下
+// ```
 class Solution {
     func maxDepthAfterSplit(_ seq: String) -> [Int] {
         let c: [Character] = ["(",")"]
@@ -30,4 +30,4 @@ class Solution {
         return res
     }
 }
-```
+// ```

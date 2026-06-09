@@ -1,4 +1,4 @@
-```go
+// ```go
 func combine(n int, k int) [][]int {
     if n == 0 || k == 0 {
         return [][]int{} // 处理边界
@@ -29,4 +29,4 @@ func combineRec(nums []int, start, k int, elem []int, result *[][]int) {
     }
 }
 
-```
+// ```

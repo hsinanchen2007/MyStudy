@@ -1,5 +1,5 @@
-一般解法，使用map存储数字出现的次数
-```cpp
+// 一般解法，使用map存储数字出现的次数
+// ```cpp
 class Solution
 {
 public:
@@ -25,9 +25,9 @@ public:
 		return -1;
 	}
 };
-```
-摩尔投票法：
-```cpp
+// ```
+// 摩尔投票法：
+// ```cpp
 class Solution
 {
 public:
@@ -55,4 +55,4 @@ public:
 		return res;
 	}
 };
-```
+// ```

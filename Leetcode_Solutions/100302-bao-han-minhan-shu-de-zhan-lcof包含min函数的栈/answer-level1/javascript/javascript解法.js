@@ -1,6 +1,6 @@
 
-### 代码
-```javascript
+// ### 代码
+// ```javascript
 /**
  * initialize your data structure here.
  */
@@ -48,4 +48,4 @@ MinStack.prototype.min = function() {
  * var param_3 = obj.top()
  * var param_4 = obj.min()
  */
-```
+// ```

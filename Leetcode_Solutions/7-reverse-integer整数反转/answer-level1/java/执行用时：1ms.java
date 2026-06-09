@@ -1,9 +1,9 @@
-### 解题思路
-使用数据类型long可以避免运算过程中的溢出问题，在最后return时强制转换数据类型，由于之前有溢出判断，所以不用担心强制转换数据类型会造成溢出。
+// ### 解题思路
+// 使用数据类型long可以避免运算过程中的溢出问题，在最后return时强制转换数据类型，由于之前有溢出判断，所以不用担心强制转换数据类型会造成溢出。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int reverse(int x) {
         long num = Math.abs(x);
@@ -18,4 +18,4 @@ class Solution {
         return x > 0 ? (int)res : (int)-res;
     }
 }
-```
+// ```

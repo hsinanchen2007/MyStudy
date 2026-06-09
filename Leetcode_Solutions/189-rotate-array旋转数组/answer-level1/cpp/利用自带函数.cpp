@@ -1,8 +1,8 @@
-思路：
-1、新建一个临时数组temp，让数组后k个元素依次放入，被放入temp数组中的值从nums中删除
-2、利用双指针方法，让temp倒序排列
-3、nums剩余值放入temp后面
-```
+// 思路：
+// 1、新建一个临时数组temp，让数组后k个元素依次放入，被放入temp数组中的值从nums中删除
+// 2、利用双指针方法，让temp倒序排列
+// 3、nums剩余值放入temp后面
+// ```
 class Solution {
 public:
     void rotate(vector<int>& nums, int k) {
@@ -19,4 +19,4 @@ public:
         nums = temp;
     }
 };
-```
+// ```

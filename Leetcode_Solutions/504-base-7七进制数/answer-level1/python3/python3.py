@@ -1,9 +1,9 @@
-### 解题思路
-对7取余数，和转二进制一样
+# ### 解题思路
+# 对7取余数，和转二进制一样
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def convertToBase7(self, num: int) -> str:
         if num==0:
@@ -19,4 +19,4 @@ class Solution:
             
 
 
-```
+# ```

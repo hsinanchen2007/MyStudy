@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def canPermutePalindrome(self, s: str) -> bool:
         if not s:return False
@@ -15,4 +15,4 @@ class Solution:
                 lens += 1
         return True if lens == len(s) else False
         
-```
+# ```

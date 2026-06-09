@@ -1,5 +1,5 @@
-从1开始生成直到n这样一步一步来写，感觉这样比较好理解
-```
+// 从1开始生成直到n这样一步一步来写，感觉这样比较好理解
+// ```
 class Solution {
 public:
     string countAndSay(int n) {
@@ -20,5 +20,5 @@ public:
         return s;
     }
 };
-```
+// ```
 

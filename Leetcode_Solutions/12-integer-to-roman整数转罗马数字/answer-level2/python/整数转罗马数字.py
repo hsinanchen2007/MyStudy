@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def intToRoman(self, num: int) -> str:
         n = [1,5,10,50,100,500,1000]
@@ -38,4 +38,4 @@ class Solution:
                 k = k.replace('CCCC', 'CD', 1)
         
         return k
-```
+# ```

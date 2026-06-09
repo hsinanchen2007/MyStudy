@@ -1,11 +1,11 @@
-![2020032302.PNG](https://pic.leetcode-cn.com/aab99c2ab4665aa002f93e6042361817bb94684d407718c5d7a264d627358f86-2020032302.PNG)
+// ![2020032302.PNG](https://pic.leetcode-cn.com/aab99c2ab4665aa002f93e6042361817bb94684d407718c5d7a264d627358f86-2020032302.PNG)
 
-### 解题思路
-注: 若需要插入数字的当前已填充有数字, 则需要将当前已填的数字以及该数字后面的所有数字往后顺序移动, 将该位置空出来, 然后将新值赋给该空位置
+// ### 解题思路
+// 注: 若需要插入数字的当前已填充有数字, 则需要将当前已填的数字以及该数字后面的所有数字往后顺序移动, 将该位置空出来, 然后将新值赋给该空位置
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] createTargetArray(int[] nums, int[] index) {
         int[] out = new int[nums.length];
@@ -46,4 +46,4 @@ class Solution {
         return out;
     }
 }
-```
+// ```

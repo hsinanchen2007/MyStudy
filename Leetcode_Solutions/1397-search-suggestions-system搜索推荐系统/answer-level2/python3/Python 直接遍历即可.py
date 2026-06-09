@@ -1,5 +1,5 @@
-这个题目就是把求公共前缀的过程写出来了~~，每次都只需要遍历上一次的搜索结果即可，代码如下：
-```
+# 这个题目就是把求公共前缀的过程写出来了~~，每次都只需要遍历上一次的搜索结果即可，代码如下：
+# ```
 class Solution(object):
     def suggestedProducts(self, products, searchWord):
         """
@@ -26,4 +26,4 @@ class Solution(object):
             else:
                 r_p.append(l_f)            
         return r_p
-```
+# ```

@@ -1,4 +1,4 @@
-前
+# 前
 return [root.val] + self.preorderTraversal(root.left) + self.preorderTraversal(root.right) if bool(root) else []
 
 中

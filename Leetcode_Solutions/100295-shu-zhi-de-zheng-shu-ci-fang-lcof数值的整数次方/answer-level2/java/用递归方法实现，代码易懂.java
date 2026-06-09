@@ -1,9 +1,9 @@
-### 解题思路
-使用递归方法试了试，效果还可以
+// ### 解题思路
+// 使用递归方法试了试，效果还可以
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     boolean invalidInput=false;
     public double myPow(double x, int n) {
@@ -23,4 +23,4 @@ class Solution {
         else return postivePow(x*x,n/2);
     }
 }
-```
+// ```

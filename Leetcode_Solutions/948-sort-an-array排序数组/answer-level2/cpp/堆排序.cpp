@@ -1,5 +1,5 @@
 
-```
+// ```
 // O(1) in place . 需要额外空间的是 out of place 或者 None place, 稳定排序
     vector<int> sortArray(vector<int>& nums) {
 
@@ -142,4 +142,4 @@
 
          nums[index] = elemet;
      }
-```
+// ```

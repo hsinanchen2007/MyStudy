@@ -1,10 +1,10 @@
-### 解题思路
-首先是统计战力值，这一步各题解大同小异
-第二步我是让战力从i=0开始，到i=mat[0].size为止，符合条件就push_back,若b.size==k则return
+// ### 解题思路
+// 首先是统计战力值，这一步各题解大同小异
+// 第二步我是让战力从i=0开始，到i=mat[0].size为止，符合条件就push_back,若b.size==k则return
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> kWeakestRows(vector<vector<int>>& mat, int k) {
@@ -28,4 +28,4 @@ public:
         return {0};
     }
 };
-```
+// ```

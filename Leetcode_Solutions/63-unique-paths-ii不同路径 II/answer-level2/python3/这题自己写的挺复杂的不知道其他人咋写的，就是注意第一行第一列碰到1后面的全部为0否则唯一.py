@@ -1,9 +1,9 @@
-### 解题思路
-这题自己写的挺复杂的不知道其他人咋写的，就是注意第一行第一列碰到1后面的全部为0否则唯一
+# ### 解题思路
+# 这题自己写的挺复杂的不知道其他人咋写的，就是注意第一行第一列碰到1后面的全部为0否则唯一
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def uniquePathsWithObstacles(self, obstacleGrid: List[List[int]]) -> int:
 
@@ -35,4 +35,4 @@ class Solution:
                     dp[i][j] = dp[i][j-1]+dp[i-1][j]
         # print(dp)
         return dp[Nrow-1][Ncol-1]
-```
+# ```

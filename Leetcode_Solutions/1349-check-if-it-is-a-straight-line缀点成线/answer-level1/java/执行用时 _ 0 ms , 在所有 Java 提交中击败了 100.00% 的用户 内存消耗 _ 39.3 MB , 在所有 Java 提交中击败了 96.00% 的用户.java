@@ -1,9 +1,9 @@
-### 解题思路
-基础题，斜率必须全部相等才会返回true。
+// ### 解题思路
+// 基础题，斜率必须全部相等才会返回true。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean checkStraightLine(int[][] coordinates) {
         double K = (double)(coordinates[1][1]-coordinates[0][1])/(coordinates[1][0]-coordinates[0][0]);
@@ -15,4 +15,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

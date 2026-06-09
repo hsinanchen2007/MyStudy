@@ -1,15 +1,15 @@
-### 解题思路 - 递归
-相关题目 [112.路径和是否等于给定值](https://leetcode-cn.com/problems/path-sum/solution/custerxue-xi-bi-ji-er-cha-shu-de-di-gui-he-die-dai/) 和 [113.二叉树中和为给定值的路径 ](https://leetcode-cn.com/problems/path-sum-ii/solution/custerxue-xi-bi-ji-er-cha-shu-de-dfshe-die-dai-by-/)
+// ### 解题思路 - 递归
+// 相关题目 [112.路径和是否等于给定值](https://leetcode-cn.com/problems/path-sum/solution/custerxue-xi-bi-ji-er-cha-shu-de-di-gui-he-die-dai/) 和 [113.二叉树中和为给定值的路径 ](https://leetcode-cn.com/problems/path-sum-ii/solution/custerxue-xi-bi-ji-er-cha-shu-de-dfshe-die-dai-by-/)
 
-其中，路径不需要开始于根节点，或结束于叶子节点。但必须是从父节点到子节点。
+// 其中，路径不需要开始于根节点，或结束于叶子节点。但必须是从父节点到子节点。
 
-因此不能简单的固定根节点，然后对二叉树进行遍历，来求得答案。
+// 因此不能简单的固定根节点，然后对二叉树进行遍历，来求得答案。
 
-我们需要对所有的子树进行同样的遍历。
+// 我们需要对所有的子树进行同样的遍历。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -49,25 +49,25 @@ func pathSum(root *TreeNode, sum int) int {
    // 2和3. 分别是递归求左右子树中满足条件的路径数量
    return pathFrom(root, sum) + pathSum(root.Left, sum) + pathSum(root.Right, sum)
 }
-```
+// ```
 
-### 解题思路 - 使用辅助哈希表保存前进路径和的方法
+// ### 解题思路 - 使用辅助哈希表保存前进路径和的方法
 
-更加高效的方法，使用辅助哈希表，用于记录前进路径和和它出现的次数。 
+// 更加高效的方法，使用辅助哈希表，用于记录前进路径和和它出现的次数。 
 
-前进路径和指的是从根节点到当前节点的路径和。
+// 前进路径和指的是从根节点到当前节点的路径和。
 
-比如到达节点1时，前进路径和是1，到达节点2时，前进路径和是3，到达节点3时，前进路径和是6.
+// 比如到达节点1时，前进路径和是1，到达节点2时，前进路径和是3，到达节点3时，前进路径和是6.
 
-这个方法的解题思路是按照根左右的顺序进行前序遍历。
+// 这个方法的解题思路是按照根左右的顺序进行前序遍历。
 
-当前的前进路径和减去目标值得到的数字，如果已经存在与哈希表中，则说明前面存在一条路径。
+// 当前的前进路径和减去目标值得到的数字，如果已经存在与哈希表中，则说明前面存在一条路径。
 
-它的路径和等于差值，那么为目标值。
+// 它的路径和等于差值，那么为目标值。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -104,4 +104,4 @@ func pathSum(root *TreeNode, sum int) int {
    prefixSum[0] = 1                    // 接着把处理边界的0，1数对加入到哈希表
    return dfs(root, 0, sum, prefixSum) // 最后只要调用辅助函数即可
 }
-```
+// ```

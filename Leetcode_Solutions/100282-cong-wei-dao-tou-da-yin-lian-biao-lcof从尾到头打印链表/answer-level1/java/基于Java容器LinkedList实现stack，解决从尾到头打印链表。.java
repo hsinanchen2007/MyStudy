@@ -1,9 +1,9 @@
-### 解题思路
-关键点：链表是顺序存储，从尾到头打印链表，符合栈的后入先出的访问规则，因此可借助栈来实现，java的容器LinkedList可以较好的实现栈和队列数据结构。因此可以使用LinkedList来解决该题。
+// ### 解题思路
+// 关键点：链表是顺序存储，从尾到头打印链表，符合栈的后入先出的访问规则，因此可借助栈来实现，java的容器LinkedList可以较好的实现栈和队列数据结构。因此可以使用LinkedList来解决该题。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -50,4 +50,4 @@ class Solution {
         }
     }
 }
-```
+// ```

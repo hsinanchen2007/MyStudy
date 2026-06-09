@@ -1,10 +1,10 @@
-### 解题思路
-定义栈来一层一层解析
-![image.png](https://pic.leetcode-cn.com/781f9ba8d51cce2e4f98b43803853a4742fb4e17f35c563e9859ed1fbf84e134-image.png)
+// ### 解题思路
+// 定义栈来一层一层解析
+// ![image.png](https://pic.leetcode-cn.com/781f9ba8d51cce2e4f98b43803853a4742fb4e17f35c563e9859ed1fbf84e134-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string decodeString(string s) {
@@ -47,4 +47,4 @@ public:
         return ans;
     }
 };
-```
+// ```

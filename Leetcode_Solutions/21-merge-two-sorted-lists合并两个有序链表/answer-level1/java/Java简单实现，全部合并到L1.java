@@ -1,5 +1,5 @@
-无脑往L1合并就对了
-```java
+// 无脑往L1合并就对了
+// ```java
 class Solution {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         ListNode mhead = new ListNode(Integer.MIN_VALUE);
@@ -19,4 +19,4 @@ class Solution {
         return mhead.next;
     }
 }
-```
+// ```

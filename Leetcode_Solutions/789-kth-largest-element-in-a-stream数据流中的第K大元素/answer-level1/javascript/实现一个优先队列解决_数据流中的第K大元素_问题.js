@@ -1,9 +1,9 @@
-### 解题思路
-说到底就是要自己实现一个优先队列（自排序队列），因为js没有，这题的js不应该是“简单”难度...
+// ### 解题思路
+// 说到底就是要自己实现一个优先队列（自排序队列），因为js没有，这题的js不应该是“简单”难度...
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var KthLargest = function(k, nums) {
     this.kth = k
     this.stack = []
@@ -66,4 +66,4 @@ KthLargest.prototype.add = function(val) {
     this.shiftUp(val)
     return this.stack[this.kth - 1]
 };
-```
+// ```

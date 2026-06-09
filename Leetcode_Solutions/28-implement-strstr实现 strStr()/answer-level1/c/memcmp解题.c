@@ -1,9 +1,9 @@
-### 解题思路
-注意使用memcmp
-滑动窗口
-### 代码
+// ### 解题思路
+// 注意使用memcmp
+// 滑动窗口
+// ### 代码
 
-```c
+// ```c
 int strStr(char * haystack, char * needle){
     if ((needle == NULL) || (haystack == NULL)){
         return 0;
@@ -20,4 +20,4 @@ int strStr(char * haystack, char * needle){
     }
     return index;
 }
-```
+// ```

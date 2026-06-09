@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
    public boolean isValid(String s) {
         Map<Character, Character> map = new HashMap<Character, Character>() {{
@@ -30,4 +30,4 @@ class Solution {
         return stack.isEmpty();
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func searchRange(nums []int, target int) []int {
     if len(nums) == 0 {
         return []int{-1, -1}
@@ -67,4 +67,4 @@ func B(nums []int, target float32, t string, o int) (int, bool) {
         return B(rs, target, t, o + mid)
     }
 }
-```
+// ```

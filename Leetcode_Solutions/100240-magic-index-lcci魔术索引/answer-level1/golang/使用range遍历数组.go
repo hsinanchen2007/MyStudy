@@ -1,4 +1,4 @@
-```go []
+// ```go []
 func findMagicIndex(nums []int) int {
     for key,value:=range nums{
         if value==key{
@@ -7,5 +7,5 @@ func findMagicIndex(nums []int) int {
     }
     return -1
 }
-```
+// ```
 

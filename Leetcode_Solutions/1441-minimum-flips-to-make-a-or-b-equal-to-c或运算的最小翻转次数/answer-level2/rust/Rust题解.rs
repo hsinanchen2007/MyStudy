@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn min_flips(a: i32, b: i32, c: i32) -> i32 {
         let mut a = a;
@@ -23,5 +23,5 @@ impl Solution {
         ret
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

@@ -1,10 +1,10 @@
-### 解题思路
-方法一逻辑可行，但是会超时
-方法二随着remove的元素越来越多。list的大小也在缩小
+// ### 解题思路
+// 方法一逻辑可行，但是会超时
+// 方法二随着remove的元素越来越多。list的大小也在缩小
 
-### 代码
-解法一：超时
-```java
+// ### 代码
+// 解法一：超时
+// ```java
 class Solution {
     public int lastRemaining(int n, int m) {
         int[] a = new int[n];
@@ -31,9 +31,9 @@ class Solution {
         return -1;
     }
 }
-```
-解法二：随着问题的不断缩小，list的大小也在缩小
-```java
+// ```
+// 解法二：随着问题的不断缩小，list的大小也在缩小
+// ```java
 class Solution {
     public int lastRemaining(int n, int m) {
         ArrayList<Integer> list = new ArrayList<>();
@@ -49,4 +49,4 @@ class Solution {
         return list.get(0);
     }
 }
-```
+// ```

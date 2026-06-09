@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def canFinish(numCourses: Int, prerequisites: Array[Array[Int]]): Boolean = {
     val graph: Array[Array[Int]] = Array.fill(numCourses, 0)(0)
@@ -19,4 +19,4 @@ object Solution {
   }
 }
 
-```
+// ```

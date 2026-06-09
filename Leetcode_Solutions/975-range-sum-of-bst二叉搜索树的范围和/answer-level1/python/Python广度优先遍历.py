@@ -1,9 +1,9 @@
-### 解题思路
-BFS和DFS的运行时间和内存差不多额...
+# ### 解题思路
+# BFS和DFS的运行时间和内存差不多额...
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -37,4 +37,4 @@ class Solution(object):
                 tmp.append(tmp1)
         return summation
 
-```
+# ```

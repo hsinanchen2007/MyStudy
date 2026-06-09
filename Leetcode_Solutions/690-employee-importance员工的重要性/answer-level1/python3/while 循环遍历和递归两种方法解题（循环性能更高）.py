@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
-方法一：递归
-```python3
+# ### 代码
+# 方法一：递归
+# ```python3
 """
 # Employee info
 class Employee:
@@ -34,9 +34,9 @@ class Solution:
             return importance + sumimportance(sub_employees)
         return sumimportance([employees_dict[id]])
 
-```
-方法二：while循环
-```python3
+# ```
+# 方法二：while循环
+# ```python3
 from collections import deque
 
 class Solution:
@@ -54,4 +54,4 @@ class Solution:
 
         return importance
 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-不断将最大与第二大处理，直至剩下的石头数num<=1即可
+// ### 解题思路
+// 不断将最大与第二大处理，直至剩下的石头数num<=1即可
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int lastStoneWeight(vector<int>& stones) {
@@ -49,4 +49,4 @@ public:
         return 0;
     }
 };
-```
+// ```

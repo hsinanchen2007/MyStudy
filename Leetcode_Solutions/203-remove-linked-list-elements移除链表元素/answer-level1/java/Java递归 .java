@@ -1,6 +1,6 @@
-# 思路
-递归，看代码就明白了，没啥说的。
-```
+// # 思路
+// 递归，看代码就明白了，没啥说的。
+// ```
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -21,4 +21,4 @@ class Solution {
         }
     }
 }
-```
+// ```

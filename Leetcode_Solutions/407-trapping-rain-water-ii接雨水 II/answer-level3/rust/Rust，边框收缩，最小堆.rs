@@ -1,11 +1,11 @@
-### 解题思路
-边框向内收缩，从最低节点开始（最小堆）
-节点不可重复计算
-边框高于边框内节点时，可以蓄水
+// ### 解题思路
+// 边框向内收缩，从最低节点开始（最小堆）
+// 节点不可重复计算
+// 边框高于边框内节点时，可以蓄水
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 use std::collections::BinaryHeap;
 use std::cmp::{Ordering, max};
 
@@ -167,6 +167,6 @@ impl Solution {
         return total;
     }
 }
-```
+// ```
 
-![rust_binary_heap.png](https://pic.leetcode-cn.com/c10b0918323acd726b35d7e453cb0f9b27a42a9a6c9eb625c3624af654763ce0-rust_binary_heap.png)
+// ![rust_binary_heap.png](https://pic.leetcode-cn.com/c10b0918323acd726b35d7e453cb0f9b27a42a9a6c9eb625c3624af654763ce0-rust_binary_heap.png)

@@ -1,4 +1,4 @@
-```
+// ```
 function coinChange($coins, $amount) {
     $dp = array_fill(1,$amount+1,$amount+1);
     $dp[0] = 0;
@@ -12,4 +12,4 @@ function coinChange($coins, $amount) {
     }
     return $dp[$amount]>$amount?-1:$dp[$amount];
 }
-```
+// ```

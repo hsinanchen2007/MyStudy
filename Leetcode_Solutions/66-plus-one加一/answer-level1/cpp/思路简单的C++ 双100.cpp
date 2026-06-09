@@ -1,5 +1,5 @@
-题目开始没看懂，看懂了发现有点简单.....
-```
+// 题目开始没看懂，看懂了发现有点简单.....
+// ```
 class Solution {
 public:
     vector<int> plusOne(vector<int>& digits) {
@@ -24,4 +24,4 @@ public:
         }
     }
 };
-```
+// ```

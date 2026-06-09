@@ -1,6 +1,6 @@
-C++ 看的一头雾水，发一个最容易理解的动态规划，三维数组
+// C++ 看的一头雾水，发一个最容易理解的动态规划，三维数组
 
-```c++
+// ```c++
 class Solution {
 public:
     bool PredictTheWinner(vector<int>& nums) {
@@ -38,5 +38,5 @@ public:
         return dp[0][n - 1].first >= dp[0][n - 1].second;
     }
 };
-```
+// ```
 

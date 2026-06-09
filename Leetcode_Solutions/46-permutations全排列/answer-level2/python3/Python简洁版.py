@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
         self.r = []
@@ -12,4 +12,4 @@ class Solution:
         for i in nums:
             if i not in tmp:
                 self.xun(tmp + [i], nums)
-```
+# ```

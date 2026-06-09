@@ -1,7 +1,7 @@
-## 思路
-在构造函数中遍历树，将遍历节点值依次存入一个队列。
-### 代码
-```c++
+// ## 思路
+// 在构造函数中遍历树，将遍历节点值依次存入一个队列。
+// ### 代码
+// ```c++
 class BSTIterator {
     stack<TreeNode*> st;
     queue<int> que;
@@ -31,4 +31,4 @@ public:
         return !que.empty();
     }
 };
-```
+// ```

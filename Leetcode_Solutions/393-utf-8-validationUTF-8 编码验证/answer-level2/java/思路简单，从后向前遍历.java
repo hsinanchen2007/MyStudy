@@ -1,6 +1,6 @@
-count用来统计10******这种二进制的数个数，然后根据每个字节数的特点进行判断，从后向前遍历，
-可以用位运算，也可以直接比较数的范围
-```
+// count用来统计10******这种二进制的数个数，然后根据每个字节数的特点进行判断，从后向前遍历，
+// 可以用位运算，也可以直接比较数的范围
+// ```
 class Solution {
     public boolean validUtf8(int[] data) {
         int n=data.length;
@@ -36,4 +36,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

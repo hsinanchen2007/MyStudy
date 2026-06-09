@@ -1,8 +1,8 @@
-## 思路:
+// ## 思路:
 
-因为二叉搜索树中序遍历是递增的,所以我们可以中序遍历判断前一数是否小于后一个数.
+// 因为二叉搜索树中序遍历是递增的,所以我们可以中序遍历判断前一数是否小于后一个数.
 
-```python
+// ```python
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -21,22 +21,22 @@ class Solution:
             helper(root.right)
         helper(root)
         return res == sorted(res) and len(set(res)) == len(res)
-```
+// ```
 
-思路一:迭代
+// 思路一:迭代
 
-我们可以通过中序遍历迭代方式[94. 二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)来判断.
+// 我们可以通过中序遍历迭代方式[94. 二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)来判断.
 
-思路二:递归
+// 思路二:递归
 
-1. 中序遍历递归
-2. 利用`max_val` 和`min_val`
+// 1. 中序遍历递归
+// 2. 利用`max_val` 和`min_val`
 
-## 代码:
+// ## 代码:
 
-迭代
+// 迭代
 
-```python [1]
+// ```python [1]
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -59,11 +59,11 @@ class Solution:
             pre = p
             p = p.right
         return True
-```
+// ```
 
 
 
-```java [1]
+// ```java [1]
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -91,15 +91,15 @@ class Solution {
         return true;
     }
 }
-```
+// ```
 
 
 
-思路二
+// 思路二
 
-利用递归中序遍历
+// 利用递归中序遍历
 
-```python [2]
+// ```python [2]
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -122,11 +122,11 @@ class Solution:
             return  isBST(root.right)
         return isBST(root)
         
-```
+// ```
 
 
 
-```java [2]
+// ```java [2]
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -147,13 +147,13 @@ class Solution {
         return isValidBST(root.right);
     }
 }
-```
+// ```
 
 
 
-利用最大值最小值
+// 利用最大值最小值
 
-```python [3]
+// ```python [3]
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -171,11 +171,11 @@ class Solution:
                 return False
             return isBST(root.left, min_val, root.val) and isBST(root.right, root.val, max_val)
         return isBST(root, float("-inf"), float("inf"))
-```
+// ```
 
 
 
-```java [3]
+// ```java [3]
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -196,5 +196,5 @@ class Solution {
         return isBST(root.left, root.val, minValue) && isBST(root.right,  maxValue, root.val);
     }
 }
-```
+// ```
 

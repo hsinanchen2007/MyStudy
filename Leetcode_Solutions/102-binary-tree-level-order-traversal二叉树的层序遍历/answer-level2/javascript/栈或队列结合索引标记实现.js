@@ -1,4 +1,4 @@
-```js
+// ```js
 var levelOrder = function(root) {
     const res = [];
     const stack = [{ index: 0, node: root }];
@@ -16,11 +16,11 @@ var levelOrder = function(root) {
 
     return res;
 };
-```
+// ```
 
-对比一下队列实现
+// 对比一下队列实现
 
-```js
+// ```js
 var levelOrder = function(root) {
     const res = [];
     const queue = [{ index: 0, node: root }];
@@ -38,11 +38,11 @@ var levelOrder = function(root) {
 
     return res;
 };
-```
+// ```
 
-不用标记的迭代实现:
+// 不用标记的迭代实现:
 
-```js
+// ```js
 var levelOrder = function(root) {
     const res = [];
     let queue = [root];
@@ -66,4 +66,4 @@ var levelOrder = function(root) {
 
     return res;
 };
-```
+// ```

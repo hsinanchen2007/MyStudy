@@ -1,18 +1,18 @@
-### 解题思路
-####前提操作
-1. 首先完成swim和sink实现
-2. 一个变量N记录heap中元素个数
-3. 一个变量size记录heap的大小
-####思路（一边add一边构造堆）
-**注意：**堆由索引1开始
-1. 若当前堆不满，则直接插入到数组后一位，并且swim上移
-2. 若当前堆满，则与heap[1]比较大小，大于则替换，并且sink下移
-3. 若比heap[1]小或者等于，直接舍去。
-4. 返回值即为heap[1]
+// ### 解题思路
+// ####前提操作
+// 1. 首先完成swim和sink实现
+// 2. 一个变量N记录heap中元素个数
+// 3. 一个变量size记录heap的大小
+// ####思路（一边add一边构造堆）
+// **注意：**堆由索引1开始
+// 1. 若当前堆不满，则直接插入到数组后一位，并且swim上移
+// 2. 若当前堆满，则与heap[1]比较大小，大于则替换，并且sink下移
+// 3. 若比heap[1]小或者等于，直接舍去。
+// 4. 返回值即为heap[1]
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class KthLargest {
     private int N = 1;//记录heap中的元素个数
     private int heap[];
@@ -76,4 +76,4 @@ class KthLargest {
  * KthLargest obj = new KthLargest(k, nums);
  * int param_1 = obj.add(val);
  */
-```
+// ```

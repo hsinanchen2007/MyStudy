@@ -1,9 +1,9 @@
-### 解题思路
-暴力解法，用一个大小递减窗口遍历所有面积，取最大;
+// ### 解题思路
+// 暴力解法，用一个大小递减窗口遍历所有面积，取最大;
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public static int maxArea(int[] height) {
         int maxA = 0;
@@ -22,4 +22,4 @@ class Solution {
         return maxA;
     }
 }
-```
+// ```

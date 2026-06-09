@@ -1,10 +1,10 @@
-### 解题思路
-1. 双指针滑动窗口, 时间复杂度$O(N)$, 空间复杂度$O(1)$
-2. 二分法, 时间复杂度$O(NlgN)$
-### 代码
+// ### 解题思路
+// 1. 双指针滑动窗口, 时间复杂度$O(N)$, 空间复杂度$O(1)$
+// 2. 二分法, 时间复杂度$O(NlgN)$
+// ### 代码
 
-**双指针**
-```java []
+// **双指针**
+// ```java []
 class Solution {
     public int minSubArrayLen(int s, int[] nums) {
         // 暴力算法求解, 时间复杂度O(N^3)
@@ -36,8 +36,8 @@ class Solution {
         return res;
     }
 }
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def minSubArrayLen(self, s: int, nums: List[int]) -> int:
         l = -1
@@ -50,9 +50,9 @@ class Solution:
                 arr_sum-=nums[l]
                 res = min(res, r-l+1)
         return 0 if res==float('inf') else res
-```
+// ```
 
-```c++ []
+// ```c++ []
 class Solution {
 public:
     int minSubArrayLen(int s, vector<int>& nums) {
@@ -81,8 +81,8 @@ public:
         return res;
     }
 };
-```
-```c++ []
+// ```
+// ```c++ []
 class Solution {
 public:
     int minSubArrayLen(int s, vector<int>& nums) {
@@ -115,9 +115,9 @@ public:
         return L;
     }
 };
-```
-**二分法**
-```c++ []
+// ```
+// **二分法**
+// ```c++ []
 class Solution {
 public:
     int minSubArrayLen(int s, vector<int>& nums) {
@@ -147,8 +147,8 @@ public:
         return 0;
     }
 };
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def minSubArrayLen(self, s: int, nums: List[int]) -> int:
         from bisect import bisect_left
@@ -169,4 +169,4 @@ class Solution:
             if k != N+1: res = min(res, k-i+1)
         if res == float('inf'): return 0
         return res
-```
+// ```

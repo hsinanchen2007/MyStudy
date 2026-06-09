@@ -1,11 +1,11 @@
-方法一：
-```
+// 方法一：
+// ```
 var strStr = function(haystack, needle) {
     return haystack.indexOf(needle);
 };
-```
-方法二：
-```
+// ```
+// 方法二：
+// ```
 var strStr = function(haystack, needle) {
     if(needle == '') return 0;
     let haystackArr = haystack.split('');
@@ -25,9 +25,9 @@ var strStr = function(haystack, needle) {
     }
     return -1;
 };
-```
-方法三
-```
+// ```
+// 方法三
+// ```
 var strStr = function(haystack, needle) {
     if(needle == '') return 0;
     let haystackArr = haystack.split('');
@@ -39,4 +39,4 @@ var strStr = function(haystack, needle) {
     }
     return -1;
 };
-```
+// ```

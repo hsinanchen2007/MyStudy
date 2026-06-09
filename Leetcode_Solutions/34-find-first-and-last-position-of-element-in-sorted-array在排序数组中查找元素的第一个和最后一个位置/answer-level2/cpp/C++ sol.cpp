@@ -1,9 +1,9 @@
-### 解题思路
-二分法，需要注意的是 l=0, r = nums.size()，这意味着遍历区间是 [l, r)，因此在缩小范围时，总是 [l+1, mid)。
+// ### 解题思路
+// 二分法，需要注意的是 l=0, r = nums.size()，这意味着遍历区间是 [l, r)，因此在缩小范围时，总是 [l+1, mid)。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
@@ -47,4 +47,4 @@ public:
     }
 };
 };
-```
+// ```

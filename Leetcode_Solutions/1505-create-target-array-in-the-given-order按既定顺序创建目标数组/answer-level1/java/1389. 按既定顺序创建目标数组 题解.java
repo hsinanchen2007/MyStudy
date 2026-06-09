@@ -1,10 +1,10 @@
-### 解题思路
-如果用暴力解法，会涉及到数据的大量移动，非常耗费时间
-我的思路是根据index里的数据计算出最终的每个数字对应的下标，然后直接生成target，这样就不用频繁移动数据了
+// ### 解题思路
+// 如果用暴力解法，会涉及到数据的大量移动，非常耗费时间
+// 我的思路是根据index里的数据计算出最终的每个数字对应的下标，然后直接生成target，这样就不用频繁移动数据了
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 
 public int[] createTargetArray(int[] nums, int[] index) {
@@ -26,4 +26,4 @@ public int[] createTargetArray(int[] nums, int[] index) {
         return result;
     }
 }
-```
+// ```

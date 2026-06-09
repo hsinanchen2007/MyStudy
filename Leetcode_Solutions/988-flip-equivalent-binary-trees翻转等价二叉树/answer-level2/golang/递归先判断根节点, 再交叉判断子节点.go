@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -23,4 +23,4 @@ func flipEquiv(root1 *TreeNode, root2 *TreeNode) bool {
     
 }
 
-```
+// ```

@@ -1,5 +1,5 @@
-暴力求解
-```
+// 暴力求解
+// ```
 var majorityElement = function(nums) {
     if(nums.length == 1) return nums[0];
     for(let i = 0,len = nums.length;i<len;i++){
@@ -10,9 +10,9 @@ var majorityElement = function(nums) {
         }
     }
 };
-```
-hash求解
-```
+// ```
+// hash求解
+// ```
 var majorityElement = function(nums) {
     if(nums.length == 1) return nums[0];
     let map = {},result;
@@ -28,16 +28,16 @@ var majorityElement = function(nums) {
     }
     return result;  
 };
-```
-排序求解
-```
+// ```
+// 排序求解
+// ```
 var majorityElement = function(nums) {
     nums.sort();
     return nums[parseInt(nums.length/2)];
 }
-```
-投票求解
-```
+// ```
+// 投票求解
+// ```
 var majorityElement = function(nums) {
         let count = 0;
         let candidate = null;
@@ -51,4 +51,4 @@ var majorityElement = function(nums) {
 
         return candidate;
     }
-```
+// ```

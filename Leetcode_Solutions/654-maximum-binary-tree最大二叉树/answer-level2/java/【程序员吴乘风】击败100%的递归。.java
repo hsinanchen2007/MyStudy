@@ -1,12 +1,12 @@
-阿里系Java程序员。专注Java，算法。公众号同名。
-### 解题思路
-使用递归，将数组拆分成两个不同的子数组，一个是当前数组最大值的左边数组，一个是当前数组最大值的右边数组，并且将index作为分割点，将start和end两个index传入到下一次递归函数中，最终返回TreeNode。
+// 阿里系Java程序员。专注Java，算法。公众号同名。
+// ### 解题思路
+// 使用递归，将数组拆分成两个不同的子数组，一个是当前数组最大值的左边数组，一个是当前数组最大值的右边数组，并且将index作为分割点，将start和end两个index传入到下一次递归函数中，最终返回TreeNode。
 
-![image.png](https://pic.leetcode-cn.com/6669a6b397e4e5bd8962bdc1638fea5d3b49589fb7730d82f9d05c2b67db756c-image.png)
+// ![image.png](https://pic.leetcode-cn.com/6669a6b397e4e5bd8962bdc1638fea5d3b49589fb7730d82f9d05c2b67db756c-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -45,4 +45,4 @@ class Solution {
 
 
 }
-```
+// ```

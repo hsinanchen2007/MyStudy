@@ -1,12 +1,12 @@
-# 方法 ： set
-- 定义一个Set集合，用来存放计算后的平方和;
-- 如果该值在Set中已存在，即进入了死循环，则退出，返回 false； 
-- 否则，将该值放入Set；
-- 若该值等于 1， 则返回true；
-- 否则继续计算新的值的平方和，直至找到平方和为1或者进入死循环就退出。
+// # 方法 ： set
+// - 定义一个Set集合，用来存放计算后的平方和;
+// - 如果该值在Set中已存在，即进入了死循环，则退出，返回 false； 
+// - 否则，将该值放入Set；
+// - 若该值等于 1， 则返回true；
+// - 否则继续计算新的值的平方和，直至找到平方和为1或者进入死循环就退出。
 
 
-```java []
+// ```java []
 class Solution {
     public boolean isHappy(int n) {
         Set<Integer> s = new HashSet<>();
@@ -28,11 +28,11 @@ class Solution {
         return true;
     }
 }
-```
+// ```
 
-或者
+// 或者
 
-```java []
+// ```java []
 class Solution {
     public boolean isHappy(int n) {
 
@@ -55,5 +55,5 @@ class Solution {
         }
     }
 }
-```
+// ```
 

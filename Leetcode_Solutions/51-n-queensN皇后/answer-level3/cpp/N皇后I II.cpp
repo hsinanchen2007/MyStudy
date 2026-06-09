@@ -1,12 +1,12 @@
 
-![image.png](https://pic.leetcode-cn.com/092451fd247d699637b6c93865285c1902a7c822d2f15e8e2bc3a9dc6d42f245-image.png)
+// ![image.png](https://pic.leetcode-cn.com/092451fd247d699637b6c93865285c1902a7c822d2f15e8e2bc3a9dc6d42f245-image.png)
 
-# N皇后I  
+// # N皇后I  
 
-主对角线和副对角线
-用一维坐标来模拟每个皇后在二维坐标系中位置
+// 主对角线和副对角线
+// 用一维坐标来模拟每个皇后在二维坐标系中位置
 
-```
+// ```
 class Solution {
 public:
     vector<vector<string>> solveNQueens(int n) {
@@ -80,10 +80,10 @@ public:
         }
 };
 
-```
+// ```
 
-# N皇后II
-```
+// # N皇后II
+// ```
 class Solution {
 public:
     int totalNQueens(int n)
@@ -150,5 +150,5 @@ public:
             }
         }
 };
-```
+// ```
 

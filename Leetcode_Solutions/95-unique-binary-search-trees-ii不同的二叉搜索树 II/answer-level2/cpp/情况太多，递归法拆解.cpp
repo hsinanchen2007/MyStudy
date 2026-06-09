@@ -1,12 +1,12 @@
-### 解题思路
-首先BST的左边到右边数字递增。参考很常见的一个思路，1到n依次作为root，root的左边和右边生成以同样的方法递归生成subTree。
-值得注意的是：
-1.用for循环遍历拼接subTree
-2.如何拼接树
-3.考虑n=0
-### 代码
+// ### 解题思路
+// 首先BST的左边到右边数字递增。参考很常见的一个思路，1到n依次作为root，root的左边和右边生成以同样的方法递归生成subTree。
+// 值得注意的是：
+// 1.用for循环遍历拼接subTree
+// 2.如何拼接树
+// 3.考虑n=0
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -45,4 +45,4 @@ public:
             return  vector<TreeNode*> {};
     }
 };
-```
+// ```

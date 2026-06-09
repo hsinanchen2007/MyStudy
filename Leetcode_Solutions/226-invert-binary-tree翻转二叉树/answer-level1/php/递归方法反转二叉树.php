@@ -1,9 +1,9 @@
-### 解题思路
-使用递归交换左右子树，完成二叉树反转
+// ### 解题思路
+// 使用递归交换左右子树，完成二叉树反转
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 /**
  * Definition for a binary tree node.
  * class TreeNode {
@@ -38,4 +38,4 @@ class Solution {
         return $tree;
     }
 }
-```
+// ```

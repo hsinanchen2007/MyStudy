@@ -1,9 +1,9 @@
-### 解题思路
-删除链表中的节点需要先将下一个节点的值赋予它然后将它指向下一个节点
+# ### 解题思路
+# 删除链表中的节点需要先将下一个节点的值赋予它然后将它指向下一个节点
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -18,4 +18,4 @@ class Solution:
         """
         node.val = node.next.val
         node.next = node.next.next
-```
+# ```

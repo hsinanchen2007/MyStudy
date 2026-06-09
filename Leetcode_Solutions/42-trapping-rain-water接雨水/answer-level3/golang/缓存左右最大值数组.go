@@ -1,8 +1,8 @@
-### 解题思路
-缓存，空间换时间
-### 代码
+// ### 解题思路
+// 缓存，空间换时间
+// ### 代码
 
-```golang
+// ```golang
 func trap(height []int) int {
     var res = 0
     l := len(height)
@@ -40,4 +40,4 @@ func min(a, b int) int {
     }
     return b
 }
-```
+// ```

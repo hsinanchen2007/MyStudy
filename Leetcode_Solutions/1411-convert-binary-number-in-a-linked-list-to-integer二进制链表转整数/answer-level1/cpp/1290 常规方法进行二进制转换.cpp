@@ -1,7 +1,7 @@
-时间复杂度O(n)，空间复杂度O(1)
-### 代码
+// 时间复杂度O(n)，空间复杂度O(1)
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int getDecimalValue(ListNode* head) {
@@ -13,4 +13,4 @@ public:
         return ans;
     }
 };
-```
+// ```

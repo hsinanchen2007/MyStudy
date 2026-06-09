@@ -1,13 +1,13 @@
-### 解题思路
-字符数组计数
-整理拍照为计数数组
-比较、剪枝
-记录结果
-26 小写字母个数， 97 a， -32 A - a， -6 Z - a
+// ### 解题思路
+// 字符数组计数
+// 整理拍照为计数数组
+// 比较、剪枝
+// 记录结果
+// 26 小写字母个数， 97 a， -32 A - a， -6 Z - a
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String shortestCompletingWord(String licensePlate, String[] words) {
         String min = "";
@@ -47,4 +47,4 @@ class Solution {
         return min;
     }
 }
-```
+// ```

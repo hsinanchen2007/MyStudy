@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int countNodes(TreeNode* root) {
@@ -32,5 +32,5 @@ public:
         return h == 0;
     }
 };
-```
-时间复杂度O(log(n)^2)
+// ```
+// 时间复杂度O(log(n)^2)

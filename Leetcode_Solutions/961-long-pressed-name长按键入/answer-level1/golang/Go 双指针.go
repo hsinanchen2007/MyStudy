@@ -1,4 +1,4 @@
-```
+// ```
 func isLongPressedName(name string, typed string) bool {
     if len(typed) < len(name) {
         return false
@@ -22,4 +22,4 @@ func isLongPressedName(name string, typed string) bool {
     }
     return true
 }
-```
+// ```

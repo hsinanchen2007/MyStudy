@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def largestRectangleArea(self, heights):
         """
@@ -25,5 +25,5 @@ class Solution(object):
                 res = max(res, h[remove_val]*(i-begin))
             stack.append(i)
         return res
-```       
-在这里我只写了代码，关于怎么样的思考过程，可以搜索其他的博客。
+# ```       
+# 在这里我只写了代码，关于怎么样的思考过程，可以搜索其他的博客。

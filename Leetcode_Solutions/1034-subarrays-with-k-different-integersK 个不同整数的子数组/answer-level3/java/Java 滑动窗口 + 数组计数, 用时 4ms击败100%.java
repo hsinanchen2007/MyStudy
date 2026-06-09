@@ -1,9 +1,9 @@
 
-![Snip20200229_1.png](https://pic.leetcode-cn.com/fb4737d37c9e1436d8f69d6810c65f398d4d909bc8ba203bac7f16a6d2a8d1d2-Snip20200229_1.png)
+// ![Snip20200229_1.png](https://pic.leetcode-cn.com/fb4737d37c9e1436d8f69d6810c65f398d4d909bc8ba203bac7f16a6d2a8d1d2-Snip20200229_1.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int subarraysWithKDistinct(int[] A, int K) {
         int len;
@@ -44,4 +44,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

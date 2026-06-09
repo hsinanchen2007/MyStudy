@@ -1,6 +1,6 @@
-# 下面是我的代码
+// # 下面是我的代码
 
-```
+// ```
 #define true -1
 #define false 0
 #ifndef NULL
@@ -120,4 +120,4 @@ void destoryHashMap(HashMap * hashmap){
     free(hashmap);
 }
 
-```
+// ```

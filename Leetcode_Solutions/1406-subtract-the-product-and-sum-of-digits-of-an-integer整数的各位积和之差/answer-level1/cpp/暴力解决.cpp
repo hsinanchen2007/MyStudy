@@ -1,9 +1,9 @@
-### 解题思路
-拆解暴力计算
+// ### 解题思路
+// 拆解暴力计算
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int subtractProductAndSum(int n) {
@@ -21,4 +21,4 @@ public:
     }
 
 };
-```
+// ```

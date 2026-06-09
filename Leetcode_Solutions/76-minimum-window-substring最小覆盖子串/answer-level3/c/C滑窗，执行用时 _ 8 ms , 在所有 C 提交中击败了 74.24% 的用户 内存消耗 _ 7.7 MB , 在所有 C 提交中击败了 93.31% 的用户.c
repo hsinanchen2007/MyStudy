@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define GET_MIN(minLen, minLeft, right, left) \
 { \
     if (minLen > right - left + 1) { \
@@ -112,4 +112,4 @@ char *minWindow(char * s, char * t)
     s[minLen + minLeft] = '\0';
     return s + minLeft;
 }
-```
+// ```

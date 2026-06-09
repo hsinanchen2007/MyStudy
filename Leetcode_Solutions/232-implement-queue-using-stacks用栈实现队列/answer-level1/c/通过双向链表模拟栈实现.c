@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-通过双向链表方式，push就是添加尾节点，pop就是移除首结点并返回节点的内容，peek就是取首节点值但不移除首节点。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 通过双向链表方式，push就是添加尾节点，pop就是移除首结点并返回节点的内容，peek就是取首节点值但不移除首节点。
+// ### 代码
 
-```c
+// ```c
 #include <stdio.h>
 #include <stdlib.h>
 #include <stddef.h>
@@ -277,4 +277,4 @@ void myQueueFree(MyQueue* obj) {
  
  * myQueueFree(obj);
 */
-```
+// ```

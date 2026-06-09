@@ -1,9 +1,9 @@
-### 解题思路
-用Java数组实现就好，注意pos初试指向-1就好
+// ### 解题思路
+// 用Java数组实现就好，注意pos初试指向-1就好
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class CustomStack {
 
     int[] arr;
@@ -56,4 +56,4 @@ class CustomStack {
  * int param_2 = obj.pop();
  * obj.increment(k,val);
  */
-```
+// ```

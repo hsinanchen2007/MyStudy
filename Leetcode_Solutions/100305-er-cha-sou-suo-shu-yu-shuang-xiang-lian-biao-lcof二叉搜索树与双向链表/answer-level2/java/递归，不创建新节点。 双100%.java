@@ -1,9 +1,9 @@
-### 解题思路
-递归，保存首节点指针
+// ### 解题思路
+// 递归，保存首节点指针
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /*
 // Definition for a Node.
 class Node {
@@ -47,4 +47,4 @@ class Solution {
         addNode(root.right);
     }
 }
-```
+// ```

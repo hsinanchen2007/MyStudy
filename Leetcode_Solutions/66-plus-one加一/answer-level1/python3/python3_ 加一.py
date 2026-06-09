@@ -1,4 +1,4 @@
-```python
+# ```python
 def plusOne(digits):
     # 将digits进行倒序, 最后在倒序, 便于理解
     # 将k初始化为1, 就相当于加1
@@ -21,4 +21,4 @@ def plusOne(digits):
 print(plusOne([1,2,3]))
 print(plusOne([4,3,2,1]))
 print(plusOne([9,9,9]))
-```
+# ```

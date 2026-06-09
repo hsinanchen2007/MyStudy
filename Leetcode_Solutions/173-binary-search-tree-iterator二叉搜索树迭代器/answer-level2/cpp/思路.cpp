@@ -1,10 +1,10 @@
-### 解题思路
-也可以先把Tree中序遍历一遍到数组里面，然后找，这样空间消化会比较大一些
+// ### 解题思路
+// 也可以先把Tree中序遍历一遍到数组里面，然后找，这样空间消化会比较大一些
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -57,4 +57,4 @@ public:
  * int param_1 = obj->next();
  * bool param_2 = obj->hasNext();
  */
-```
+// ```

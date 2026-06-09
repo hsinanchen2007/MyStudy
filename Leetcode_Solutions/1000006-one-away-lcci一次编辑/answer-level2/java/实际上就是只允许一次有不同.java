@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean oneEditAway(String first, String second) {
         //小的字符串放在前面，大的放后面
@@ -34,4 +34,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

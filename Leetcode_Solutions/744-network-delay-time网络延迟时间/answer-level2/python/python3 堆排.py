@@ -1,9 +1,9 @@
-### 解题思路
-没有什么高大上的解法，直接按花费时间放到最小堆即可。
+# ### 解题思路
+# 没有什么高大上的解法，直接按花费时间放到最小堆即可。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import heapq
 class Solution:
     def networkDelayTime(self, times: List[List[int]], N: int, K: int) -> int:
@@ -27,4 +27,4 @@ class Solution:
         if cnt == N:
             return res
         return -1
-```
+# ```

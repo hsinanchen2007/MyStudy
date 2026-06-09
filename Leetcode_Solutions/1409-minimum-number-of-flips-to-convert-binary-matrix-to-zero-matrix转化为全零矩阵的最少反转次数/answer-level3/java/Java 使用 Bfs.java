@@ -1,4 +1,4 @@
-```
+// ```
  private static final int[][] dir = {{-1,0},{1,0},{0,-1},{0,1},{0,0}};
     public int minFlips(int[][] mat) {
         // 这里用到了 矩阵位压缩。因为不超过九位数，可以直接放到 int 里面。
@@ -40,4 +40,4 @@
         }
         return -1;
     }
-```
+// ```

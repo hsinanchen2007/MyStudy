@@ -1,4 +1,4 @@
-```
+// ```
 int minAddToMakeValid(char * S){
     if (S == NULL || S[0] == '\0') return 0;
     int top = -1, num = 0,stack[1024];
@@ -11,4 +11,4 @@ int minAddToMakeValid(char * S){
     }
     return (top < 0 ? num : (num + top + 1));
 }
-```
+// ```

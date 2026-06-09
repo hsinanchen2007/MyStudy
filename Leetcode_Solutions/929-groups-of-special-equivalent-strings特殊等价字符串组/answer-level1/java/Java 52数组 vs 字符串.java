@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-特殊等价字符串，思路就是将字符串的偶数位和奇数位分为两个字符串，并排序，再合在一起加入到集合中
+// 特殊等价字符串，思路就是将字符串的偶数位和奇数位分为两个字符串，并排序，再合在一起加入到集合中
 
-第一种办法空间小，第二种办法速度快
+// 第一种办法空间小，第二种办法速度快
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numSpecialEquivGroups(String[] A) {
 		Set<String> set = new HashSet<>();
@@ -23,9 +23,9 @@ class Solution {
 
     }
 }
-```
+// ```
 
-```java
+// ```java
 	public static int numSpecialEquivGroups(String[] A) {
 		Set<String> set = new HashSet<>();
 		for(String str:A) {
@@ -45,4 +45,4 @@ class Solution {
 		}
 		return set.size();
 	}
-```
+// ```

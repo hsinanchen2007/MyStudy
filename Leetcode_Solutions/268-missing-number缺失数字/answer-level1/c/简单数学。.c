@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int missingNumber(int* nums, int numsSize){
 
 int sum = 0;
@@ -13,4 +13,4 @@ for(int i = 0; i <numsSize; i++)
 }
 return (numsSize+1) * (numsSize )/2  - sum;
 }
-```
+// ```

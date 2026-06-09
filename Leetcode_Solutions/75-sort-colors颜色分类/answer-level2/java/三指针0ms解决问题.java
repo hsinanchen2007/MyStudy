@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-三指针
-经典的颜色问题
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 三指针
+// 经典的颜色问题
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public static void swap(int[]num,int i ,int j)
     {
@@ -23,4 +23,4 @@ class Solution {
 
     }
 }
-```
+// ```

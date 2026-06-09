@@ -1,5 +1,5 @@
-只要考虑左边一列和上面一行和他相邻的就可以了，注意如果grid[i][j]如果为0的话得跳过，否则就会多减点
-```cpp
+// 只要考虑左边一列和上面一行和他相邻的就可以了，注意如果grid[i][j]如果为0的话得跳过，否则就会多减点
+// ```cpp
     int surfaceArea(vector<vector<int>>& grid) {
         int m = grid.size();
         int n = m ? grid[0].size() : 0;
@@ -16,4 +16,4 @@
         }
         return ans;
     }
-```
+// ```

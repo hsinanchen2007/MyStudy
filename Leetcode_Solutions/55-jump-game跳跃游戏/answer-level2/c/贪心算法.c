@@ -1,4 +1,4 @@
-```
+// ```
 // 使用贪心算法来进行求解， 每次都选取上一次可以到达的最大位置；
 //看最大位置是不是预期中的值，迭代该最大位置。
 bool canJump(int* nums, int numsSize){
@@ -16,4 +16,4 @@ bool canJump(int* nums, int numsSize){
     }
     return false;
 }
-```
+// ```

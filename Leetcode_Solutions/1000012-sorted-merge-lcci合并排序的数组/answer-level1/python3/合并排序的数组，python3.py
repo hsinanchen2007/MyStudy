@@ -1,10 +1,10 @@
-### 解题思路
-先把A数组尾部的n个元素删掉
-然后依次在A中插入B中的元素
+# ### 解题思路
+# 先把A数组尾部的n个元素删掉
+# 然后依次在A中插入B中的元素
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def merge(self, A: List[int], m: int, B: List[int], n: int) -> None:
         """
@@ -21,4 +21,4 @@ class Solution:
                 else:
                     break
             A.insert(i, B.pop(0))
-```
+# ```

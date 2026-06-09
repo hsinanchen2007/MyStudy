@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-将数字分成三段 0 000 000 000 然后分别对每一段求再合并
+# ### 解题思路
+# 此处撰写解题思路
+# 将数字分成三段 0 000 000 000 然后分别对每一段求再合并
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numberToWords(self, num: int) -> str:
 
@@ -44,4 +44,4 @@ class Solution:
             sp = sp[:-1]
         return sp
             
-```
+# ```

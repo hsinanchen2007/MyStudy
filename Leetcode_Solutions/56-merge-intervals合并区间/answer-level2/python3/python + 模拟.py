@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
         intervals.sort(key = lambda x: (x[0], x[1]))
@@ -15,4 +15,4 @@ class Solution:
             
         return ans
 
-```
+# ```

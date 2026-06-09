@@ -1,6 +1,6 @@
-![5819AD4B-8CE5-4B31-9546-ED671FF09F84.jpeg](https://pic.leetcode-cn.com/7398b91da1c69c67f2483b44a031626f57902fc631ea9eb0f1a7c989eef79607-5819AD4B-8CE5-4B31-9546-ED671FF09F84.jpeg)
+// ![5819AD4B-8CE5-4B31-9546-ED671FF09F84.jpeg](https://pic.leetcode-cn.com/7398b91da1c69c67f2483b44a031626f57902fc631ea9eb0f1a7c989eef79607-5819AD4B-8CE5-4B31-9546-ED671FF09F84.jpeg)
 
-```
+// ```
 int searchInsert(int* nums, int numsSize, int target)
 {
     int left = 0;
@@ -32,4 +32,4 @@ int searchInsert(int* nums, int numsSize, int target)
 
     return left;
 }
-```
+// ```

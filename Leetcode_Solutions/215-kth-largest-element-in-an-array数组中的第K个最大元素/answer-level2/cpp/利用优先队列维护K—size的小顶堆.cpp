@@ -1,9 +1,9 @@
-### 解题思路
-利用优先队列维护K—size的小顶堆
+// ### 解题思路
+// 利用优先队列维护K—size的小顶堆
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findKthLargest(vector<int>& nums, int k) {
@@ -19,4 +19,4 @@ public:
         return Q.top();	
     }
 };
-```
+// ```

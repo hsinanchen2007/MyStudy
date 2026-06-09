@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
 
     def __init__(self):
@@ -36,4 +36,4 @@ class Solution:
         if x != y:
             self.pre[x] = y
         pass
-```
+# ```

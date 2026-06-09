@@ -1,9 +1,9 @@
-1. 先转成list
-2. 再去掉末尾的0 利用while和pop
-3. 遍历比较
-4. 超出短list长度，余下哪个多就是哪个大，不然就是相等
+# 1. 先转成list
+# 2. 再去掉末尾的0 利用while和pop
+# 3. 遍历比较
+# 4. 超出短list长度，余下哪个多就是哪个大，不然就是相等
 
-```
+# ```
 class Solution:
     def compareVersion(self, version1: str, version2: str) -> int:
         v1 = [int(item) for item in version1.split('.')]
@@ -20,5 +20,5 @@ class Solution:
         if len(v1) > len(v2): return 1
         elif len(v1) < len(v2): return -1
         else: return 0
-```
+# ```
 

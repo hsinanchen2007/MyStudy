@@ -1,6 +1,6 @@
-1.先把二叉树中所有的值遍历出来
-2.对遍历出来的值再进行遍历
-3.如果发现有不相同的值就把标志改为false
+// 1.先把二叉树中所有的值遍历出来
+// 2.对遍历出来的值再进行遍历
+// 3.如果发现有不相同的值就把标志改为false
 
 public boolean isUnivalTree(TreeNode root) {
         List<Integer> list = preorderTraversal(root);

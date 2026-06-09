@@ -1,6 +1,6 @@
-*法一*
+// *法一*
 
-```js
+// ```js
 /**
  * @param {number[]} nums
  * @return {number}
@@ -17,11 +17,11 @@ var findMaxConsecutiveOnes = function(nums) {
 };
 var nums = [1,1,0,1,1,1];
 console.log(findMaxConsecutiveOnes(nums));
-```
+// ```
 
-*法二：一遍遍历一遍比较*
+// *法二：一遍遍历一遍比较*
 
-```js
+// ```js
 var findMaxConsecutiveOnes = function(nums) {
     let max = 0;
     let count = 0;
@@ -36,5 +36,5 @@ var findMaxConsecutiveOnes = function(nums) {
     max = Math.max(max, count)
     return max
 };
-```
+// ```
 

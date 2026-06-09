@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxNumberOfFamilies(int n, int[][] reservedSeats) {
         int res = 2*n;
@@ -29,4 +29,4 @@ class Solution {
         return res;
      }
 }
-```
+// ```

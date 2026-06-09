@@ -1,4 +1,4 @@
-```c
+// ```c
 void reverse(char *s, int low, int high)
 {
     for(int i = 0; i <= (high - low) / 2; i++){
@@ -23,4 +23,4 @@ char * reverseWords(char * s)
     }
     return s;
  }
-```
+// ```

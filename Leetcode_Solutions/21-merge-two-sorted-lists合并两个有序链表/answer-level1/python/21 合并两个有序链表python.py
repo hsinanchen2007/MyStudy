@@ -1,12 +1,12 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/68f411aa7f1c780587bdde11f75c6d3bb264e178bfa70f2b14193a75a0c88c5d-image.png)
+# ### 解题思路
+# ![image.png](https://pic.leetcode-cn.com/68f411aa7f1c780587bdde11f75c6d3bb264e178bfa70f2b14193a75a0c88c5d-image.png)
 
-![image.png](https://pic.leetcode-cn.com/c78ecd228dde80f43d5aaec69b424ecc50e7b77c945232d64dceedb2309ca14c-image.png)
+# ![image.png](https://pic.leetcode-cn.com/c78ecd228dde80f43d5aaec69b424ecc50e7b77c945232d64dceedb2309ca14c-image.png)
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -32,4 +32,4 @@ class Solution(object):
         elif l1.val > l2.val:
             l2.next = self.mergeTwoLists(l1, l2.next)
             return l2
-```
+# ```

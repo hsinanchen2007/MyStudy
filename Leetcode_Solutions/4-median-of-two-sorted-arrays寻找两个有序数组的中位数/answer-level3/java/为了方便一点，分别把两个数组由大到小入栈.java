@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         // 有一个数组为空
@@ -77,4 +77,4 @@ class Solution {
         return s1 < s2 ? stack1.pop() : stack2.pop();
     }
 }
-```
+// ```

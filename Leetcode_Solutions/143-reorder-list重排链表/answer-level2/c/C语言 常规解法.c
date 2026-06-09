@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/2e5fe7d9bdb688df2c0d2a981f67b04bd527590e532efde837e5da0c76856f75-image.png)
-常规解法，主要是展示C写法，为C做贡献
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/2e5fe7d9bdb688df2c0d2a981f67b04bd527590e532efde837e5da0c76856f75-image.png)
+// 常规解法，主要是展示C写法，为C做贡献
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -51,4 +51,4 @@ void reorderList(struct ListNode* head){
     return head;
 }
 
-```
+// ```

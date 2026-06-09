@@ -1,7 +1,7 @@
-- 在64题的基础上加了障碍物，所以要稍微改动一下递归的思路。
-![不同路径 II](https://pic.leetcode-cn.com/27c471bdf6da1908eb3a8b3e70c63cfb7b5d50303c3118c1b0db4a3370119a5a.png)
-- 改一下暴力递归的代码（超时）
-```
+// - 在64题的基础上加了障碍物，所以要稍微改动一下递归的思路。
+// ![不同路径 II](https://pic.leetcode-cn.com/27c471bdf6da1908eb3a8b3e70c63cfb7b5d50303c3118c1b0db4a3370119a5a.png)
+// - 改一下暴力递归的代码（超时）
+// ```
 class Solution {
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {
         int m = obstacleGrid.length;
@@ -17,9 +17,9 @@ class Solution {
         return getRes(obstacleGrid, r + 1, c, m, n) + getRes(obstacleGrid, r, c + 1, m, n);
     }
 }
-```
-- 补充一个哈希map提升性能的代码(可以AC)
-```
+// ```
+// - 补充一个哈希map提升性能的代码(可以AC)
+// ```
 class Solution {
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {
         int m = obstacleGrid.length;
@@ -48,9 +48,9 @@ class Solution {
         return ans;
     }
 }
-```
-- 递归改动态规划，直接按照递归的逻辑来
-```
+// ```
+// - 递归改动态规划，直接按照递归的逻辑来
+// ```
 class Solution {
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {
         int m = obstacleGrid.length;
@@ -76,10 +76,10 @@ class Solution {
         return dp[0][0];
     }
 }
-```
+// ```
 
-- 空间上一样可以优化
-```
+// - 空间上一样可以优化
+// ```
 class Solution {
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {
         int m = obstacleGrid.length;
@@ -105,4 +105,4 @@ class Solution {
         return dp[0];
     }
 }
-```
+// ```

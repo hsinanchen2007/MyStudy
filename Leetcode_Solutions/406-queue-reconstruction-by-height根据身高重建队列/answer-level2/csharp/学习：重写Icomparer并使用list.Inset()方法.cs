@@ -1,9 +1,9 @@
-### 解题思路
-跟官方题解思路一样，这里给出C#实现的代码
+// ### 解题思路
+// 跟官方题解思路一样，这里给出C#实现的代码
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int[][] ReconstructQueue(int[][] people) {
         Array.Sort(people,new TestIComparer());
@@ -23,4 +23,4 @@ public class TestIComparer:IComparer<int[]>{
         }
     }
 }
-```
+// ```

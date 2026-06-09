@@ -1,11 +1,11 @@
-### 解题思路
-暴力遍历
-先找到车的位置
-然后分四个方向遍历卒。
+// ### 解题思路
+// 暴力遍历
+// 先找到车的位置
+// 然后分四个方向遍历卒。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numRookCaptures(char[][] board) {
          int index1 = 0,index2 = 0;
@@ -59,4 +59,4 @@ class Solution {
 	  return sum;
     }
 }
-```
+// ```

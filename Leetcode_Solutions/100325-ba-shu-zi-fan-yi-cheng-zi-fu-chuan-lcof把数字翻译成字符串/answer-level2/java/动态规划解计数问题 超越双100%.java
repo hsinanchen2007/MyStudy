@@ -1,12 +1,12 @@
-### 解题思路
-状态转移公式
-dp[i] = dp[i+1] + [i,i+1]<25?dp[i+2]
+// ### 解题思路
+// 状态转移公式
+// dp[i] = dp[i+1] + [i,i+1]<25?dp[i+2]
 
-https://blog.csdn.net/sarafina527/article/details/103522295
+// https://blog.csdn.net/sarafina527/article/details/103522295
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int translateNum(int num) {
         String nstr = String.valueOf(num);
@@ -24,5 +24,5 @@ class Solution {
         return dp[0];
     }
 }
-```
-![image.png](https://pic.leetcode-cn.com/f21b095bd0cc095a6d5bffaf9ca417636522fe5e6f324f238eef3b9819f470ab-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/f21b095bd0cc095a6d5bffaf9ca417636522fe5e6f324f238eef3b9819f470ab-image.png)

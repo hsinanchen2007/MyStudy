@@ -1,7 +1,7 @@
-自己看代码，画画图，就能想明白。
-### 代码
+// 自己看代码，画画图，就能想明白。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] intervalIntersection(int[][] A, int[][] B) {
         List<int []> list=new ArrayList<>();  //新建一个列表，顺序存储
@@ -29,4 +29,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-使用两个栈；一个栈用来push，另一个栈用来pop
+// ### 解题思路
+// 使用两个栈；一个栈用来push，另一个栈用来pop
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MyQueue {
   public:
     /** Initialize your data structure here. */
@@ -58,4 +58,4 @@ class MyQueue {
  * int param_3 = obj->peek();
  * bool param_4 = obj->empty();
  */
-```
+// ```

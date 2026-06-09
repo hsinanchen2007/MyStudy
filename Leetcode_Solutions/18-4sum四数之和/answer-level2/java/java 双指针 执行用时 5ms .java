@@ -1,9 +1,9 @@
-### 解题思路
-解法参考三数之和，注意最大值与最小值的判断。
+// ### 解题思路
+// 解法参考三数之和，注意最大值与最小值的判断。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> fourSum(int[] nums, int target) {
         Arrays.sort(nums);
@@ -34,4 +34,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

@@ -1,47 +1,47 @@
-#### 方法一：容斥原理
+// #### 方法一：容斥原理
 
-**思路**
+// **思路**
 
-假设我们有两个矩形 $A$ 和 $B$，它们叠加后覆盖的总面积为：
+// 假设我们有两个矩形 $A$ 和 $B$，它们叠加后覆盖的总面积为：
 
-$$
-|A \cup B| = |A| + |B| - |A \cap B|
-$$
+// $$
+// |A \cup B| = |A| + |B| - |A \cap B|
+// $$
 
-假设我们有三个矩形 $A, B, C$，它们叠加后覆盖的总面积为：
+// 假设我们有三个矩形 $A, B, C$，它们叠加后覆盖的总面积为：
 
-$$
-|A \cup B \cup C| = |A| + |B| + |C| - |A \cap B| - |A \cap C| - |B \cap C| + |A \cap B \cap C|
-$$
+// $$
+// |A \cup B \cup C| = |A| + |B| + |C| - |A \cap B| - |A \cap C| - |B \cap C| + |A \cap B \cap C|
+// $$
 
-假设我们有四个矩形 $A, B, C, D$，它们叠加后覆盖的总面积为：
+// 假设我们有四个矩形 $A, B, C, D$，它们叠加后覆盖的总面积为：
 
-$$
-\begin{align}
-|A \cup B \cup C \cup D| =\,&\left( |A| + |B| + |C| + |D| \right) - \\
-\,&\left(|A \cap B| + |A \cap C| + |A \cap D| + |B \cap C| + |B \cap D| + |C \cap D|\right) +\\
-\,&\left(|A \cap B \cap C| + |A \cap B \cap D| + |A \cap C \cap D| + |B \cap C \cap D|\right) -\\
-\,&\left(|A \cap B \cap C \cap D|\right)
-\end{align}
-$$
+// $$
+// \begin{align}
+// |A \cup B \cup C \cup D| =\,&\left( |A| + |B| + |C| + |D| \right) - \\
+// \,&\left(|A \cap B| + |A \cap C| + |A \cap D| + |B \cap C| + |B \cap D| + |C \cap D|\right) +\\
+// \,&\left(|A \cap B \cap C| + |A \cap B \cap D| + |A \cap C \cap D| + |B \cap C \cap D|\right) -\\
+// \,&\left(|A \cap B \cap C \cap D|\right)
+// \end{align}
+// $$
 
-可以使用维恩图证明这一点。
+// 可以使用维恩图证明这一点。
 
-$n$ 个矩形 $A_1, A_2, \cdots , A_n$ 重叠后的总面积为：
+// $n$ 个矩形 $A_1, A_2, \cdots , A_n$ 重叠后的总面积为：
 
-$$
-\bigg|\bigcup_{i=1}^n A_i\bigg| = \sum_{\emptyset \neq S \subseteq [n]} (-1)^{|S| + 1} \bigg| \bigcap_{i \in S} A_i \bigg|
-$$
+// $$
+// \bigg|\bigcup_{i=1}^n A_i\bigg| = \sum_{\emptyset \neq S \subseteq [n]} (-1)^{|S| + 1} \bigg| \bigcap_{i \in S} A_i \bigg|
+// $$
 
-**算法**
+// **算法**
 
-如果我们不知道上述原理，可以使用 $\bigg|\bigcup_{i=1}^n A_i\bigg|$ 范围内任意一点验证上述原理的正确性。假设有一点在所有的矩形 $A_i (i \in S)$ 中，并且令 $|S| = n$。在等式右边，该点被计算了 $\binom{n}{1} - \binom{n}{2} + \binom{n}{3} - \cdots \pm \binom{n}{n}$ 次。考虑 $(1 - 1)^n$ 的二项展开，实际上它等于 1。
+// 如果我们不知道上述原理，可以使用 $\bigg|\bigcup_{i=1}^n A_i\bigg|$ 范围内任意一点验证上述原理的正确性。假设有一点在所有的矩形 $A_i (i \in S)$ 中，并且令 $|S| = n$。在等式右边，该点被计算了 $\binom{n}{1} - \binom{n}{2} + \binom{n}{3} - \cdots \pm \binom{n}{n}$ 次。考虑 $(1 - 1)^n$ 的二项展开，实际上它等于 1。
 
-从*矩形面积 I* 中可知，两个轴平行矩形的交集要么是一个新的矩形，要么为空。因此 $\bigcap_{i \in S} A_i$ 要么是一个新矩形，要么为空。
+// 从*矩形面积 I* 中可知，两个轴平行矩形的交集要么是一个新的矩形，要么为空。因此 $\bigcap_{i \in S} A_i$ 要么是一个新矩形，要么为空。
 
-算法流程如下：对于 $\{1, 2, 3, \cdots, N\}$（$N$ 是矩形的数量）的每个子集 $S$，计算该子集的交集 $\bigcap_{i \in S} A_i$ 和它的面积，将结果带入公式得到所有矩形叠加后的覆盖总面积。
+// 算法流程如下：对于 $\{1, 2, 3, \cdots, N\}$（$N$ 是矩形的数量）的每个子集 $S$，计算该子集的交集 $\bigcap_{i \in S} A_i$ 和它的面积，将结果带入公式得到所有矩形叠加后的覆盖总面积。
 
-```java [solution1-Java]
+// ```java [solution1-Java]
 class Solution {
     public int rectangleArea(int[][] rectangles) {
         int N = rectangles.length;
@@ -79,9 +79,9 @@ class Solution {
         };
     }
 }
-```
+// ```
 
-```python [solution1-Python]
+// ```python [solution1-Python]
 class Solution(object):
     def rectangleArea(self, rectangles):
         def intersect(rec1, rec2):
@@ -101,35 +101,35 @@ class Solution(object):
                 ans += (-1) ** (size + 1) * area(reduce(intersect, group))
 
         return ans % (10**9 + 7)
-```
+// ```
 
-**复杂度分析**
+// **复杂度分析**
 
-* 时间复杂度：$O(N * 2^N)$，其中 $N$ 是矩形的数量。 
+// * 时间复杂度：$O(N * 2^N)$，其中 $N$ 是矩形的数量。 
 
-* 空间复杂度：$O(N)$。
+// * 空间复杂度：$O(N)$。
 
-#### 方法二：坐标压缩
+// #### 方法二：坐标压缩
 
-**思路**
+// **思路**
 
-![](https://pic.leetcode-cn.com/Figures/850/example.png){:width=400}
+// ![](https://pic.leetcode-cn.com/Figures/850/example.png){:width=400}
 
-假设矩形列表为 `[[0,0,200,200],[100,0,200,300],[100,0,300,100]]`，而不是 `rectangles = [[0,0,2,2],[1,0,2,3],[1,0,3,1]]`，那么答案会扩大 100 倍。
+// 假设矩形列表为 `[[0,0,200,200],[100,0,200,300],[100,0,300,100]]`，而不是 `rectangles = [[0,0,2,2],[1,0,2,3],[1,0,3,1]]`，那么答案会扩大 100 倍。
 
-如果矩形列表为 `rectangles = [[0,0,2,2],[1,0,2,3],[1,0,30002,1]]`，只有蓝色区域的区域的面积为 3000，其他区域均为 1。
+// 如果矩形列表为 `rectangles = [[0,0,2,2],[1,0,2,3],[1,0,30002,1]]`，只有蓝色区域的区域的面积为 3000，其他区域均为 1。
 
-我们的思想如下：首先获取所有的 `x` 和 `y` 坐标，将它们重新映射到 `0, 1, 2, ...` 等等。例如将 `rectangles  = [[0,0,200,200],[100,0,200,300],[100,0,300,100]]` 映射到 `[[0,0,2,2],[1,0,2,3],[1,0,3,1]]`。然后，使用暴力解法计算总覆盖面积。但是因为每个矩形实际上可能表示更大的面积，所以最后需要调整。
+// 我们的思想如下：首先获取所有的 `x` 和 `y` 坐标，将它们重新映射到 `0, 1, 2, ...` 等等。例如将 `rectangles  = [[0,0,200,200],[100,0,200,300],[100,0,300,100]]` 映射到 `[[0,0,2,2],[1,0,2,3],[1,0,3,1]]`。然后，使用暴力解法计算总覆盖面积。但是因为每个矩形实际上可能表示更大的面积，所以最后需要调整。
 
-**算法**
+// **算法**
 
-将所有 `x` 和 `y` 坐标映射到 `0, 1, 2, ...`。
+// 将所有 `x` 和 `y` 坐标映射到 `0, 1, 2, ...`。
 
-然后使用暴力解法，在网格上标记每个映射后的矩形。例如对于映射后的矩形 `(rx1, ry1, rx2, ry2)`，标记满足 `rx1 <= x < rx2` 且 `ry1 <= y < ry2` 的网格 `grid[x][y] = True`。
+// 然后使用暴力解法，在网格上标记每个映射后的矩形。例如对于映射后的矩形 `(rx1, ry1, rx2, ry2)`，标记满足 `rx1 <= x < rx2` 且 `ry1 <= y < ry2` 的网格 `grid[x][y] = True`。
 
-如果 `x` 映射得到 `rx`，则可以通过逆映射 `imapy` 从 `rx` 得到 `x`，即 `imapx(rx) = x`。每个网格 `grid[rx][ry]` 代表的实际矩形面积为 `(imapx(rx+1) - imapx(rx)) * (imapy(ry+1) - imapy(ry))`。
+// 如果 `x` 映射得到 `rx`，则可以通过逆映射 `imapy` 从 `rx` 得到 `x`，即 `imapx(rx) = x`。每个网格 `grid[rx][ry]` 代表的实际矩形面积为 `(imapx(rx+1) - imapx(rx)) * (imapy(ry+1) - imapy(ry))`。
 
-```java [solution2-Java]
+// ```java [solution2-Java]
 class Solution {
     public int rectangleArea(int[][] rectangles) {
         int N = rectangles.length;
@@ -171,9 +171,9 @@ class Solution {
         return (int) ans;
     }
 }
-```
+// ```
 
-```python [solution2-Python]
+// ```python [solution2-Python]
 class Solution(object):
     def rectangleArea(self, rectangles):
         N = len(rectangles)
@@ -199,30 +199,30 @@ class Solution(object):
                 if val:
                     ans += (imapx[x+1] - imapx[x]) * (imapy[y+1] - imapy[y])
         return ans % (10**9 + 7)
-```
+// ```
 
-**复杂度分析**
+// **复杂度分析**
 
-* 时间复杂度：$O(N^3)$，其中 $N$ 是矩形的数量。
+// * 时间复杂度：$O(N^3)$，其中 $N$ 是矩形的数量。
 
-* 空间复杂度：$O(N^2)$。
+// * 空间复杂度：$O(N^2)$。
 
 
-#### 方法三：线性扫描
+// #### 方法三：线性扫描
 
-**思想**
+// **思想**
 
-将每个矩形都看作是一条从底部传递到顶部的水平线段，把从底部到顶部中间的区域称为活动区域，底部边和顶部边称为水平间隔。每个矩形都会更新两次，即在底部添加水平间隔和顶部删除水平间隔。那么 `N` 个矩形共有 `2 * N` 次更新，且每次最多更新 `N` 个水平间隔。
+// 将每个矩形都看作是一条从底部传递到顶部的水平线段，把从底部到顶部中间的区域称为活动区域，底部边和顶部边称为水平间隔。每个矩形都会更新两次，即在底部添加水平间隔和顶部删除水平间隔。那么 `N` 个矩形共有 `2 * N` 次更新，且每次最多更新 `N` 个水平间隔。
 
-**算法**
+// **算法**
 
-例如矩形 `rec = [1,0,3,1]`，第一次更新是在 `y = 0` 时添加水平间隔 `[1, 3]`，第二次更新是在 `y = 1` 时删除水平间隔。这里需要注意添加和删除的多重性。如果在 `y = 0` 时，添加了两条水平间隔 `[1, 3]` 和 `[0, 2]`，那么在 `y = 1` 时只会删除 `[1, 3]`，不影响 `[0, 2]`。
+// 例如矩形 `rec = [1,0,3,1]`，第一次更新是在 `y = 0` 时添加水平间隔 `[1, 3]`，第二次更新是在 `y = 1` 时删除水平间隔。这里需要注意添加和删除的多重性。如果在 `y = 0` 时，添加了两条水平间隔 `[1, 3]` 和 `[0, 2]`，那么在 `y = 1` 时只会删除 `[1, 3]`，不影响 `[0, 2]`。
 
-为每个矩形创建添加和删除事件，然后以 `y` 从小到大的顺序处理所有事件。存在一个问题，在处理 `add(x1, x2)` 和 `remove(x1, x2)` 事件时如何查询到位于同一 `y` 坐标的其他水平间隔。
+// 为每个矩形创建添加和删除事件，然后以 `y` 从小到大的顺序处理所有事件。存在一个问题，在处理 `add(x1, x2)` 和 `remove(x1, x2)` 事件时如何查询到位于同一 `y` 坐标的其他水平间隔。
 
-因为 `remove(...)` 操作总是在 `add(...)` 之后，因此可以把所有的水平间隔以 `y` 坐标由小到大的顺序排列。然后使用类似于 LeetCode  [合并区间](https://leetcode-cn.com/problems/merge-intervals/)问题实现查询操作 `query()`。
+// 因为 `remove(...)` 操作总是在 `add(...)` 之后，因此可以把所有的水平间隔以 `y` 坐标由小到大的顺序排列。然后使用类似于 LeetCode  [合并区间](https://leetcode-cn.com/problems/merge-intervals/)问题实现查询操作 `query()`。
 
-```java [solution3-Java]
+// ```java [solution3-Java]
 class Solution {
     public int rectangleArea(int[][] rectangles) {
         int OPEN = 0, CLOSE = 1;
@@ -270,9 +270,9 @@ class Solution {
         return (int) ans;
     }
 }
-```
+// ```
 
-```python [solution3-Python]
+// ```python [solution3-Python]
 class Solution(object):
     def rectangleArea(self, rectangles):
         # Populate events
@@ -309,24 +309,24 @@ class Solution(object):
             cur_y = y
 
         return ans % (10**9 + 7)
-```
+// ```
 
-**复杂度分析**
+// **复杂度分析**
 
-* 时间复杂度：$O(N^2 \log N)$，其中 $N$ 是矩形的数量。
+// * 时间复杂度：$O(N^2 \log N)$，其中 $N$ 是矩形的数量。
 
-* 空间复杂度：$O(N)$。
+// * 空间复杂度：$O(N)$。
 
 
-#### 方法四：线段树
+// #### 方法四：线段树
 
-**思路和算法**
+// **思路和算法**
 
-为了使用线段树的思想，也需要支持和*方法三*一样的 `add(x1, x2)`，`remove(x1, x2)` 和 `query()` 操作。
+// 为了使用线段树的思想，也需要支持和*方法三*一样的 `add(x1, x2)`，`remove(x1, x2)` 和 `query()` 操作。
 
-关于更多线段树的知识，可以参考题目：[最长递增子序列的个数](https://leetcode-cn.com/problems/number-of-longest-increasing-subsequence)，[掉落的方块](https://leetcode-cn.com/problems/falling-squares)。
+// 关于更多线段树的知识，可以参考题目：[最长递增子序列的个数](https://leetcode-cn.com/problems/number-of-longest-increasing-subsequence)，[掉落的方块](https://leetcode-cn.com/problems/falling-squares)。
 
-```java [solution4-Java]
+// ```java [solution4-Java]
 class Solution {
     public int rectangleArea(int[][] rectangles) {
         int OPEN = 1, CLOSE = -1;
@@ -412,9 +412,9 @@ class Node {
         return total;
     }
 }
-```
+// ```
 
-```python [solution4-Python]
+// ```python [solution4-Python]
 class Node(object):
     def __init__(self, start, end):
         self.start, self.end = start, end
@@ -477,10 +477,10 @@ class Solution(object):
             cur_y = y
 
         return ans % (10**9 + 7)
-```
+// ```
 
-**复杂度分析**
+// **复杂度分析**
 
-* 时间复杂度：$O(N \log N)$，其中$N$ 是矩形的数量。
+// * 时间复杂度：$O(N \log N)$，其中$N$ 是矩形的数量。
 
-* 空间复杂度：$O(N)$。
+// * 空间复杂度：$O(N)$。

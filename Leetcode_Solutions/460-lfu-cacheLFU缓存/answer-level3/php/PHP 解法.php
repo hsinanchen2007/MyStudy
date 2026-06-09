@@ -1,6 +1,6 @@
-参考官方题解。
+// 参考官方题解。
 
-```php
+// ```php
 class LFUCache
 {
     public $minFreq;
@@ -95,4 +95,4 @@ class LFUNode
         $this->freq = $freq;
     }
 }
-```
+// ```

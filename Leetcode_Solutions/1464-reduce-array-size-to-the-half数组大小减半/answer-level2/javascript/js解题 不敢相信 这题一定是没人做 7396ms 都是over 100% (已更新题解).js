@@ -1,16 +1,16 @@
-![image.png](https://pic.leetcode-cn.com/b26799a7892916cfd37c9aff714b16a7c8988b659e861d1f02e2619ad4523856-image.png)
+// ![image.png](https://pic.leetcode-cn.com/b26799a7892916cfd37c9aff714b16a7c8988b659e861d1f02e2619ad4523856-image.png)
 
-### 解题思路
-```javascript
+// ### 解题思路
+// ```javascript
   思路：
   1.先创建一个所有数值重复出现次数的数组
   2.逆序排序
   3.看看从这个数组中最少拿几个元素，才能拿到 >= 一半数量的元素
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} arr
  * @return {number}
@@ -77,4 +77,4 @@ var minSetSize = function(arr) {
   
 //   return count;
 // };
-```
+// ```

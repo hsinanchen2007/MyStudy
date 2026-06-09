@@ -1,7 +1,7 @@
-A中的每个节点都可能是b的根节点。
-然后递归！ 左子树相同 右子树也要相同
+# A中的每个节点都可能是b的根节点。
+# 然后递归！ 左子树相同 右子树也要相同
 
-```
+# ```
     def isSubStructure(self, A: TreeNode, B: TreeNode) -> bool:
         if not A or not B:
             return False
@@ -33,4 +33,4 @@ A中的每个节点都可能是b的根节点。
             return False
         return self.is_sub(na.left, nb.left) and self.is_sub(na.right, nb.right)
 
-```
+# ```

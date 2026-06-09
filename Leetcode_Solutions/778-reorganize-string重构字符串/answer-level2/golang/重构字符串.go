@@ -1,9 +1,9 @@
-### 解题思路
-计数, 最大堆
+// ### 解题思路
+// 计数, 最大堆
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 //	767
 func reorganizeString(S string) string {
 	cntMap := make(map[rune]int)
@@ -69,4 +69,4 @@ func (pq *RuneCntMaxHeap) Peek() RuneCnt {
 	return (*pq)[0]
 }
 
-```
+// ```

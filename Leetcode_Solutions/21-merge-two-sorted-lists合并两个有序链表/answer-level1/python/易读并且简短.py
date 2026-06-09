@@ -1,9 +1,9 @@
-### 解题思路
-若l1,l2位置不对，就交换，然后可以只写一次递归版本。
+# ### 解题思路
+# 若l1,l2位置不对，就交换，然后可以只写一次递归版本。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 #Definition for singly-linked list.
 class ListNode:
     def __init__(self, x):
@@ -19,10 +19,10 @@ class Solution:
             l1,l2=l2,l1
         l1.next=self.mergeTwoLists(l1.next,l2)
         return l1
-```
+# ```
 
-### 非递归版本
-```python3
+# ### 非递归版本
+# ```python3
   def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:
         new_node=ListNode(0)
         point=new_node
@@ -39,4 +39,4 @@ class Solution:
         else:
             point.next=l2
         return new_node.next
-```
+# ```

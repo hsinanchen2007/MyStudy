@@ -1,9 +1,9 @@
-### 解题思路
-直接找是否存在两个断点即可
+// ### 解题思路
+// 直接找是否存在两个断点即可
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool canThreePartsEqualSum(vector<int>& A) {
@@ -22,4 +22,4 @@ public:
         return true;
     }
 };
-```
+// ```

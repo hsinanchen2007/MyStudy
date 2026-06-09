@@ -1,10 +1,10 @@
-### 解题思路
-① 计算x、y结点的高度，判断高度是否相等；
-② 判断x、y结点是否是“亲兄弟”；
+// ### 解题思路
+// ① 计算x、y结点的高度，判断高度是否相等；
+// ② 判断x、y结点是否是“亲兄弟”；
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 private:
     int height_x(TreeNode *root, int x) {
@@ -45,4 +45,4 @@ public:
         return !samefather(root, x, y);
     }
 };
-```
+// ```

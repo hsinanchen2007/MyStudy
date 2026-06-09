@@ -1,5 +1,5 @@
-状态转移方程：`dp[i]=max(dp[i],dp[j]+nums[i])(i-j>1)`;最后的结果必定是`dp[-1]和dp[-2]`之间的最大值
-```
+// 状态转移方程：`dp[i]=max(dp[i],dp[j]+nums[i])(i-j>1)`;最后的结果必定是`dp[-1]和dp[-2]`之间的最大值
+// ```
 class Solution {
 public:
     int rob(vector<int>& nums) {
@@ -14,4 +14,4 @@ public:
         return nums.size()>1?max(dp[nums.size()-2],dp[nums.size()-1]):dp[nums.size()-1];
     }
 };
-```
+// ```

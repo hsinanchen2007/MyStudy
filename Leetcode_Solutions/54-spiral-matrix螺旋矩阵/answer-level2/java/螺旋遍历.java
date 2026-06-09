@@ -1,6 +1,6 @@
-按题目的要求，右下左上遍历数组。分布定义四个边界up = 0, right = matrix[0].length - 1, down = matrix.length - 1, left = 0;当超过边界就要改变方向，遍历完一行或一列，相应的边界就会缩小。
+// 按题目的要求，右下左上遍历数组。分布定义四个边界up = 0, right = matrix[0].length - 1, down = matrix.length - 1, left = 0;当超过边界就要改变方向，遍历完一行或一列，相应的边界就会缩小。
 
-```
+// ```
 class Solution {
     public List<Integer> spiralOrder(int[][] matrix) {
         List<Integer > ans = new ArrayList<Integer >();
@@ -38,4 +38,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

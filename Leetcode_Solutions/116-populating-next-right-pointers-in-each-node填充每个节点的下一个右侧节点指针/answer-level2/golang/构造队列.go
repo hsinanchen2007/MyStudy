@@ -1,4 +1,4 @@
-```
+// ```
 type Queue struct{
     data []*Node
 }
@@ -48,4 +48,4 @@ func connect(root *Node) *Node {
     }
     return root
 }
-```
+// ```

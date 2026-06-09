@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {string[][]} tickets
  * @return {string[]}
@@ -36,5 +36,5 @@ function getGraph(tickets){
     }
     return map
 }
-```
-![image.png](https://pic.leetcode-cn.com/f23ddf2539c940de9e56f761388156fafdf5f663a0a24fb032706ddf34d17527-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/f23ddf2539c940de9e56f761388156fafdf5f663a0a24fb032706ddf34d17527-image.png)

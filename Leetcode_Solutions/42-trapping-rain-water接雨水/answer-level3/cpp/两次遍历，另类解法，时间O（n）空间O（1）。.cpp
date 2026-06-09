@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/6d8e967fd928009349738fb035e60d2472b318e7c7837561e0c821d6eefe84d0-image.png)
+// ![image.png](https://pic.leetcode-cn.com/6d8e967fd928009349738fb035e60d2472b318e7c7837561e0c821d6eefe84d0-image.png)
 
-第一次遍历找出最高的柱子index，并记录下高度，然后分别从开头和结尾向index遍历，加上每一个块
+// 第一次遍历找出最高的柱子index，并记录下高度，然后分别从开头和结尾向index遍历，加上每一个块
 
-```c++ []
+// ```c++ []
 class Solution {
 public:
     int trap(vector<int>& height) {
@@ -43,7 +43,7 @@ public:
         return result;
     }
 };
-```
+// ```
 
 
 

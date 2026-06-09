@@ -1,12 +1,12 @@
-### 解题思路
-比较笨的方案，先把这个整数转换成数组，然后遍历。
+# ### 解题思路
+# 比较笨的方案，先把这个整数转换成数组，然后遍历。
 
-在求乘积和求和的时候，再将对应数组里面的元素转换为int。最后输出。。。
+# 在求乘积和求和的时候，再将对应数组里面的元素转换为int。最后输出。。。
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def subtractProductAndSum(self, n: int) -> int:
         product = 1
@@ -17,4 +17,4 @@ class Solution:
             summation = summation + int(list(str(n))[i])
         return (product-summation)
 
-```
+# ```

@@ -1,5 +1,5 @@
-萌新入门1个月写的,大佬随便看看就行
-```
+// 萌新入门1个月写的,大佬随便看看就行
+// ```
 var numPairsDivisibleBy60 = function(time) {
     var x = 0
     for(var i = 0;i < time.length;i++){
@@ -12,4 +12,4 @@ var numPairsDivisibleBy60 = function(time) {
     }
     return x;
 };
-```
+// ```

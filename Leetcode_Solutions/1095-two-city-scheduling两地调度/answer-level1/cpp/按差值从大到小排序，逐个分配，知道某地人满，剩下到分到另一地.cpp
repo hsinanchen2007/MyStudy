@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int twoCitySchedCost(vector<vector<int>>& costs) {
@@ -35,4 +35,4 @@ public:
         return abs(v1[0]-v1[1]) > abs(v2[0]-v2[1]);
     }
 };
-```
+// ```

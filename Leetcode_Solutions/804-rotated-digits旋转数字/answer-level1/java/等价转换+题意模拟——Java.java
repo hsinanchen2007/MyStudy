@@ -1,9 +1,9 @@
-思路：好数等价为一个数满足下面的两个条件：
-1. 只由0，1，8，2，5，6，9这几个数字构成
-2. 至少存在一个2或5或6或9
-<br/><br/>
-代码：
-```
+// 思路：好数等价为一个数满足下面的两个条件：
+// 1. 只由0，1，8，2，5，6，9这几个数字构成
+// 2. 至少存在一个2或5或6或9
+// <br/><br/>
+// 代码：
+// ```
 class Solution {
     public int rotatedDigits(int N) {
         int ans = 0;
@@ -38,6 +38,6 @@ class Solution {
         return ok;
     }
 }
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/7d429212bed341d39d5e0c6c6ff53b559011296ba7c5e227a1dafdb405d51c3d-image.png)
+// ![image.png](https://pic.leetcode-cn.com/7d429212bed341d39d5e0c6c6ff53b559011296ba7c5e227a1dafdb405d51c3d-image.png)

@@ -1,4 +1,4 @@
-题目较为简单，主要为了提升效率，使用了两边一起检测的方法。
+// 题目较为简单，主要为了提升效率，使用了两边一起检测的方法。
 
 
     bool searchMatrix(int** matrix, int matrixSize, int* matrixColSize, int target){

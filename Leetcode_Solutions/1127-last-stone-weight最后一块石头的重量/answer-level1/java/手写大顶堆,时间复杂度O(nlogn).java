@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     int size;
     int[] stones;
@@ -56,5 +56,5 @@ class Solution {
         stones[k]=x;
     }
 }
-```
+// ```
 

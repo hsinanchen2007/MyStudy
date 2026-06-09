@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -83,4 +83,4 @@ var search = function(nums, target) {
     }
     return nums[li] === target ? li : -1
 };
-```
+// ```

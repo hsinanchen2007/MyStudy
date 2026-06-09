@@ -1,5 +1,5 @@
-计算前缀和后缀，以及滑动窗口即可
-```
+// 计算前缀和后缀，以及滑动窗口即可
+// ```
 class Solution {
 public:
     int maxSatisfied(vector<int>& customers, vector<int>& grumpy, int X) {
@@ -37,4 +37,4 @@ public:
         return ans;
     }
 };
-```
+// ```

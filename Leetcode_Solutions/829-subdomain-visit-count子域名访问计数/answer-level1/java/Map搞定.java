@@ -1,10 +1,10 @@
-### 解题思路
-substring 结合indexOf很好用
-利用map记录次数很好用
+// ### 解题思路
+// substring 结合indexOf很好用
+// 利用map记录次数很好用
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<String> subdomainVisits(String[] cpdomains) {
         Map<String, Integer> map = new HashMap<>();
@@ -28,4 +28,4 @@ class Solution {
         return results;
     }
 }
-```
+// ```

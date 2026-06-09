@@ -1,10 +1,10 @@
-思路：
+// 思路：
 
-方法1：
+// 方法1：
 
-递归。深度优先搜索，遍历时传入List和当前节点对应的高度，高度h的最大值是list.get(h)，每遍历到一个节点就根据所在的高度和保存的最大值比较即可
+// 递归。深度优先搜索，遍历时传入List和当前节点对应的高度，高度h的最大值是list.get(h)，每遍历到一个节点就根据所在的高度和保存的最大值比较即可
 
-```
+// ```
 public List<Integer> largestValues(TreeNode root) {
     List<Integer> res = new ArrayList<>();
     helper(root, res, 0);
@@ -26,13 +26,13 @@ private void helper(TreeNode root, List<Integer> res, int depth) {
     helper(root.left,res,depth+1);
     helper(root.right,res,depth+1);
 }
-```
+// ```
 
 
 
-方法2：迭代：层序遍历，遍历每层节点时获取对应的最大值即可
+// 方法2：迭代：层序遍历，遍历每层节点时获取对应的最大值即可
 
-```
+// ```
 public List<Integer> largestValues2(TreeNode root) {
     List<Integer> res = new ArrayList<>();
     if(root == null) return res;
@@ -51,4 +51,4 @@ public List<Integer> largestValues2(TreeNode root) {
     }
     return res;
 }
-```
+// ```

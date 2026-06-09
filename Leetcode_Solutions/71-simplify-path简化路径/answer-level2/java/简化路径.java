@@ -1,5 +1,5 @@
-# 代码
-```java []
+// # 代码
+// ```java []
 class Solution {
     public String simplifyPath(String path) {
         if(path.length()==0 || path.length()==1) return path;
@@ -17,4 +17,4 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```

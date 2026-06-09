@@ -1,13 +1,13 @@
-### 解题思路
-动态规划模板题
-不难发现到达每个方块的方法数，为到达其上方和左方相邻方块的方法数之和。
-要想继续节约空间，可以使用**滚动数组**，感兴趣的可以相关资料。
+// ### 解题思路
+// 动态规划模板题
+// 不难发现到达每个方块的方法数，为到达其上方和左方相邻方块的方法数之和。
+// 要想继续节约空间，可以使用**滚动数组**，感兴趣的可以相关资料。
 
-![image.png](https://pic.leetcode-cn.com/3991c59d72046af3a7acef3cf174039cacd5b231e87a2e040b530505630af28f-image.png)
+// ![image.png](https://pic.leetcode-cn.com/3991c59d72046af3a7acef3cf174039cacd5b231e87a2e040b530505630af28f-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int uniquePaths(int m, int n) {
@@ -24,4 +24,4 @@ public:
         return f[n - 1][m - 1];
     }
 };
-```
+// ```

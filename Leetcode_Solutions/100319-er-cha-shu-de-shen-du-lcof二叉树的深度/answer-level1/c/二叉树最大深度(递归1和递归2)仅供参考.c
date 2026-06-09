@@ -1,9 +1,9 @@
-### 解题思路
-两种递归都是非常经典的，最好自己都实现一遍
+// ### 解题思路
+// 两种递归都是非常经典的，最好自己都实现一遍
 
-### 递归1代码
+// ### 递归1代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -24,9 +24,9 @@ int maxDepth(struct TreeNode* root){
     }
     return left>right?left:right;//很基础的判断
 }
-```
-### 递归2代码
-```
+// ```
+// ### 递归2代码
+// ```
 **
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -50,4 +50,4 @@ int maxDepth(struct TreeNode* root){
     maxdepthTraverse(root,1,&maxdep);
     return maxdep;
 }
-```
+// ```

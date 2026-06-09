@@ -1,15 +1,15 @@
-### 解题思路
-在三数之和的基础上，加一层循环
-在第一层循环内添加限制条件：
-```
+# ### 解题思路
+# 在三数之和的基础上，加一层循环
+# 在第一层循环内添加限制条件：
+# ```
 if nums[start] + 3*nums[start+1] > target: break
 if nums[start] + 3*nums[-1] < target: continue
-```
+# ```
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def fourSum(self, nums: List[int], target: int) -> List[List[int]]:
         nums.sort()
@@ -36,4 +36,4 @@ class Solution:
                     else:
                         L += 1
         return res
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-跟全排列Ⅰ相比，只是加了一个boolean[]做标记
+// ### 解题思路
+// 跟全排列Ⅰ相比，只是加了一个boolean[]做标记
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     List<List<Integer>> lists = new ArrayList<>();
     int[] nums;
@@ -44,4 +44,4 @@ class Solution {
         }
     }
 }
-```
+// ```

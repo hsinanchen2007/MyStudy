@@ -1,10 +1,10 @@
 
-![image.png](https://pic.leetcode-cn.com/0248b35ac7b5a612cc7603a94bed6aa4029e4364b7895599aaeacbadfdd3792d-image.png)
+// ![image.png](https://pic.leetcode-cn.com/0248b35ac7b5a612cc7603a94bed6aa4029e4364b7895599aaeacbadfdd3792d-image.png)
 
-递归实现
+// 递归实现
 
-代码
-```
+// 代码
+// ```
 func sortedArrayToBST(nums []int) *TreeNode {
     if len(nums)==0 {   // 叶子节点
         return nil
@@ -16,4 +16,4 @@ func sortedArrayToBST(nums []int) *TreeNode {
     cur.Right = sortedArrayToBST(nums[mid+1:])
     return cur
 }
-```
+// ```

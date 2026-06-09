@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
      
 
-```python []
+# ```python []
 class Solution:
     def permutation(self, s: str) -> List[str]:
         if len(s) == 1: return [s]
@@ -14,9 +14,9 @@ class Solution:
             for y in self.permutation(n):
                 res.append(x+y)
         return list(set(res))
-```  
- 思路解释：
-```python []
+# ```  
+#  思路解释：
+# ```python []
 class Solution:
     def permutation(self, s: str) -> List[str]:
         length = len(s)
@@ -29,4 +29,4 @@ class Solution:
                 for x in self.permutation(rest): #递归
                     res.append(ch + x)  #将ch 和子问题的解依次组合
         return list(set(res))
-```  
+# ```  

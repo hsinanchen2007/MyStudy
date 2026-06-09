@@ -1,8 +1,8 @@
-### 解题思路
-快速排序（记）
-### 代码
+// ### 解题思路
+// 快速排序（记）
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -29,4 +29,4 @@ int* sortArray(int* nums, int numsSize, int* returnSize){
     fastSort(nums,0,numsSize-1);
     return nums;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-使用双指针法遍历字符串s和t，当字符相同时，指针都往后移一位；当不同时，指向t的指针后移一位。
+// ### 解题思路
+// 使用双指针法遍历字符串s和t，当字符相同时，指针都往后移一位；当不同时，指向t的指针后移一位。
 
-### 代码
-方法一：
-```c
+// ### 代码
+// 方法一：
+// ```c
 bool isSubsequence(char * s, char * t){
     if(!s||!t)
         return false;
@@ -36,4 +36,4 @@ bool isSubsequence(char * s, char * t){
         return true;
     return false;
 }
-```
+// ```

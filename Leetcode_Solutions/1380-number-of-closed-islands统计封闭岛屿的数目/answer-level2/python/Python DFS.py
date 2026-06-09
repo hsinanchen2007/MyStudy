@@ -1,6 +1,6 @@
-思路源自[130.被围绕的区域](https://leetcode-cn.com/problems/surrounded-regions/)
-陆地若连边界则一定不是封闭岛屿，因此先把与边界相连的岛屿全部变成水域，此时剩下的岛屿均为封闭岛屿，dfs统计即可
-```
+# 思路源自[130.被围绕的区域](https://leetcode-cn.com/problems/surrounded-regions/)
+# 陆地若连边界则一定不是封闭岛屿，因此先把与边界相连的岛屿全部变成水域，此时剩下的岛屿均为封闭岛屿，dfs统计即可
+# ```
 class Solution(object):
     def closedIsland(self, grid):
         if not grid or not grid[0]:
@@ -29,4 +29,4 @@ class Solution(object):
                     dfs(i, j)
         return ans
 
-```
+# ```

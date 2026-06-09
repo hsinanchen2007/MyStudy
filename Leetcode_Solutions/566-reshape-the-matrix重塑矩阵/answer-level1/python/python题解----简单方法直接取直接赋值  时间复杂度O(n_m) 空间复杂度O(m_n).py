@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def matrixReshape(self, nums, r, c):
         """
@@ -27,4 +27,4 @@ class Solution(object):
                         result[raw].append(i)
                     colum += 1
         return result
-```
+# ```

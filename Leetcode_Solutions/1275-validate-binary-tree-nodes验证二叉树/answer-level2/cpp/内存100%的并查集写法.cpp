@@ -1,10 +1,10 @@
-### 解题思路
-并查集和一般写法不同，执行merge之后，可能会导致原来合并的元素不再合并。遍历左右子节点数组，如果父子节点在该父子关系之前已经被联通了，则返回false，每执行一次merge，无向连通图的连通分量减一，如果最终连通分量不为1，返回false，再检查一次并查集，若并查集中，有两个元素不连通，则返回false，其余情形返回true。
-![image.png](https://pic.leetcode-cn.com/6613bc9a1ee66e9f254d3b04c0ca1a2fd50261f26fb28392bac9b64cf8dc8971-image.png)
+// ### 解题思路
+// 并查集和一般写法不同，执行merge之后，可能会导致原来合并的元素不再合并。遍历左右子节点数组，如果父子节点在该父子关系之前已经被联通了，则返回false，每执行一次merge，无向连通图的连通分量减一，如果最终连通分量不为1，返回false，再检查一次并查集，若并查集中，有两个元素不连通，则返回false，其余情形返回true。
+// ![image.png](https://pic.leetcode-cn.com/6613bc9a1ee66e9f254d3b04c0ca1a2fd50261f26fb28392bac9b64cf8dc8971-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 int length;
@@ -52,4 +52,4 @@ void merge(int x,int y)
       return true;
     }
 };
-```
+// ```

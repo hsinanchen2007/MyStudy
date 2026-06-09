@@ -1,4 +1,4 @@
-```swift []
+// ```swift []
 class Solution {
   func threeSum(_ nums: [Int]) -> [[Int]] {
         let sortNum = nums.sorted()
@@ -41,4 +41,4 @@ class Solution {
         return r
     }
 }
-```
+// ```

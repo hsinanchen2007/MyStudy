@@ -1,10 +1,10 @@
-### 解题思路 1
+// ### 解题思路 1
 
-用另一个完整的数列的和依次减去输入数列中的元素
+// 用另一个完整的数列的和依次减去输入数列中的元素
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func missingNumber(_ nums: [Int]) -> Int {
         let n = nums.count
@@ -13,15 +13,15 @@ class Solution {
         return nums.reduce( sum, - )
     }
 }
-```
+// ```
 
-### 解题思路 2
+// ### 解题思路 2
 
-异或运算
+// 异或运算
 
-### 代码 2
+// ### 代码 2
 
-```swift
+// ```swift
 class Solution {
     func missingNumber(_ nums: [Int]) -> Int {
         
@@ -39,4 +39,4 @@ class Solution {
         return ans
     }
 }
-```
+// ```

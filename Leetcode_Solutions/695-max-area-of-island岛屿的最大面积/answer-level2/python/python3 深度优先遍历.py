@@ -1,9 +1,9 @@
-### 解题思路
-深度优先搜索
+# ### 解题思路
+# 深度优先搜索
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution(object):
     def maxAreaOfIsland(self, grid):
         if grid == [[]]:
@@ -32,4 +32,4 @@ class Solution(object):
                             ret.append(count)
                             break
         return max(ret) if ret != [] else 0
-```
+# ```

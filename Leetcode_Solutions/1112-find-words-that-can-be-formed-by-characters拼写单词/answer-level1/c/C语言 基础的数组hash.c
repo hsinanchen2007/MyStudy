@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/098a89ed8b211ab8d73268e4e33d13af842cff95ca6243d1f1414ac9d2645074-image.png)
+// ![image.png](https://pic.leetcode-cn.com/098a89ed8b211ab8d73268e4e33d13af842cff95ca6243d1f1414ac9d2645074-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 #define MY_CHAR_SIZE 26
 void procChars(char * chars, int charsCnt[MY_CHAR_SIZE])
@@ -43,4 +43,4 @@ int countCharacters(char ** words, int wordsSize, char * chars){
     }
     return rlt;
 }
-```
+// ```

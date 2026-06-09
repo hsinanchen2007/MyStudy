@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def isSubsequence(self, s, t):
         len_s=len(s)
@@ -17,4 +17,4 @@ class Solution(object):
             if j==len_s-1  and i+1<len_t and t[i+1]==s[j]:
                 return True
         return False
-```
+# ```

@@ -1,5 +1,5 @@
-如果用二分法，复杂度可以降到nlog(n)，现在的复杂度是n2
-```
+// 如果用二分法，复杂度可以降到nlog(n)，现在的复杂度是n2
+// ```
 class Solution {
 public:
     int oddEvenJumps(vector<int>& A) {
@@ -56,4 +56,4 @@ public:
 
     }
 };
-```
+// ```

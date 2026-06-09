@@ -1,4 +1,4 @@
-```
+// ```
 struct TrieNode {
     int len = 0;
     vector<TrieNode*> children;
@@ -38,4 +38,4 @@ public:
         root->len = w.size();
     }
 };
-```
+// ```

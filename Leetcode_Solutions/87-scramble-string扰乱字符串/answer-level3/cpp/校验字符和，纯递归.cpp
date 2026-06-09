@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-校验字符和。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 校验字符和。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isSc(string s1, string s2)
@@ -35,4 +35,4 @@ public:
         return isSc(s1,s2);        
     }
 };
-```
+// ```

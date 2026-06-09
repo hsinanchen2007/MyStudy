@@ -1,9 +1,9 @@
-### 解题思路
-和前序思路类似，不过要先右后左（root -> right -> left），最后翻转列表即为后序
+# ### 解题思路
+# 和前序思路类似，不过要先右后左（root -> right -> left），最后翻转列表即为后序
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -23,4 +23,4 @@ class Solution:
             if node.right: stack.append(node.right)  
         out.reverse()
         return out
-```
+# ```

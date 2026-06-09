@@ -1,7 +1,7 @@
 
-![image.png](https://pic.leetcode-cn.com/5144f3e4f7b6365f10cf37c0c65170dc6c55fd9794eee09775da5502a445d9e3-image.png)
+// ![image.png](https://pic.leetcode-cn.com/5144f3e4f7b6365f10cf37c0c65170dc6c55fd9794eee09775da5502a445d9e3-image.png)
 
-```
+// ```
 func wordPattern(pattern string, str string) bool {
     str_arr := strings.Fields(str)
     if len(pattern)!=len(str_arr) {
@@ -21,4 +21,4 @@ func wordPattern(pattern string, str string) bool {
     }
     return true
 }
-```
+// ```

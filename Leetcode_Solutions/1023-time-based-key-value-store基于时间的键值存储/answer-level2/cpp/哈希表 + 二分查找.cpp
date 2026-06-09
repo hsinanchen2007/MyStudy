@@ -1,10 +1,10 @@
-### 解题思路一
+// ### 解题思路一
 
-STL
+// STL
 
-### 代码一
+// ### 代码一
 
-```cpp
+// ```cpp
 class TimeMap {
 private:
     unordered_map<string, vector<pair<int, string>>> dict;
@@ -33,15 +33,15 @@ public:
     }
 };
 
-```
+// ```
 
-### 解题思路二
+// ### 解题思路二
 
-二分查找
+// 二分查找
 
-### 代码二
+// ### 代码二
 
-```cpp
+// ```cpp
 class TimeMap {
 private:
     unordered_map<string, vector<pair<int, string>>> dict;
@@ -76,11 +76,11 @@ public:
     }
 };
 
-```
+// ```
 
-或者这样写：
+// 或者这样写：
 
-```cpp
+// ```cpp
 string binary_search(vector<pair<int, string>>& vec, int v) {
         vector<pair<int, string>>::iterator it, first = vec.begin();
         int count, step;
@@ -102,4 +102,4 @@ string binary_search(vector<pair<int, string>>& vec, int v) {
         
         return first == vec.begin() ? "" : (first - 1)->second;
     }
-```
+// ```

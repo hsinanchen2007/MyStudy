@@ -1,4 +1,4 @@
-主要思路：求出(0,0)到(m,n)的所有元素的前缀和dp[i][j](i,j为当前元素位置);然后再通过dp[i][j]与周围点的关系dp[i][j - k - 1]，dp[i - k - 1][j - k - 1]，求出交叠区域的面积，如果面积是平方数，则说明为题目要求的正方形区域（dp[i][j] - left - up + upperLeft）
+// 主要思路：求出(0,0)到(m,n)的所有元素的前缀和dp[i][j](i,j为当前元素位置);然后再通过dp[i][j]与周围点的关系dp[i][j - k - 1]，dp[i - k - 1][j - k - 1]，求出交叠区域的面积，如果面积是平方数，则说明为题目要求的正方形区域（dp[i][j] - left - up + upperLeft）
 
 int countSquares(vector<vector<int> > &matrix)
     {

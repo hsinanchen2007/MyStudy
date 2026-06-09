@@ -1,5 +1,5 @@
-## 使用 BFS 解法
-```java
+// ## 使用 BFS 解法
+// ```java
 class Solution {
   public int numSquares(int n) {
     Queue<Integer> queue = new LinkedList<>();
@@ -31,10 +31,10 @@ class Solution {
     return distance;
   }
 }
-```
+// ```
 
-## 使用动态规划 Dynamic Programming 解法
-```java 
+// ## 使用动态规划 Dynamic Programming 解法
+// ```java 
 class Solution {
   public int numSquares(int n) {
     int[] dp = new int[n + 1];
@@ -50,11 +50,11 @@ class Solution {
     return dp[n];
   }
 }
-```
+// ```
 
-## 使用记忆化搜索 Memoization Search 解法
+// ## 使用记忆化搜索 Memoization Search 解法
 
-```java
+// ```java
 class Solution {
   public int numSquares(int n) {
     if (n <= 1) {
@@ -86,11 +86,11 @@ class Solution {
     return memo[n];
   }
 }
-```
+// ```
 
-## 使用 DFS 解法
+// ## 使用 DFS 解法
 
-```java
+// ```java
 class Solution {
   public int numSquares(int n) {
 		if (n <= 1) {
@@ -114,4 +114,4 @@ class Solution {
     return result;
   }
 }
-```
+// ```

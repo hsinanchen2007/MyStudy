@@ -1,8 +1,8 @@
-### 解题思路
-官方题解使用堆的方法。
+# ### 解题思路
+# 官方题解使用堆的方法。
 
-### 代码
-```python3 []
+# ### 代码
+# ```python3 []
 class Solution:
     def minMeetingRooms(self, intervals: List[List[int]]) -> int:
         if len(intervals) == 0:
@@ -17,8 +17,8 @@ class Solution:
             else:                   # 没有空余房间
                 heapq.heappush(rooms, e)
         return len(rooms)           # 返回房间个数
-```
-```cpp []
+# ```
+# ```cpp []
 class Solution {
 public:
     int minMeetingRooms(vector<vector<int>>& intervals) {
@@ -42,4 +42,4 @@ public:
         return rooms.size();                // 返回房间个数
     }
 };
-```
+# ```

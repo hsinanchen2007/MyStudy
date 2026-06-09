@@ -1,11 +1,11 @@
-### 解题思路
-解法一：与nums.back()比较
-解法二：与nums[0]比较
+// ### 解题思路
+// 解法一：与nums.back()比较
+// 解法二：与nums[0]比较
 
-### 代码
+// ### 代码
 
-解法一
-```cpp
+// 解法一
+// ```cpp
 class Solution {
 public:
     int findMin(vector<int>& nums) {
@@ -20,10 +20,10 @@ public:
         return nums[r];
     }
 };
-```
-解法二
+// ```
+// 解法二
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	int findMin(vector<int>& nums) {
@@ -38,4 +38,4 @@ public:
 		return nums[r];
 	}
 };
-```
+// ```

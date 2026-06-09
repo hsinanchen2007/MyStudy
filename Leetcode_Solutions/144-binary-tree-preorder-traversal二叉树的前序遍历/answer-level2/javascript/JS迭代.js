@@ -1,5 +1,5 @@
-迭代：利用栈特性，后进先出
-```js
+// 迭代：利用栈特性，后进先出
+// ```js
 var preorderTraversal = function(root) {
     /*//递归
     var res = [];
@@ -26,4 +26,4 @@ var preorderTraversal = function(root) {
     }
     return res;
 };
-```
+// ```

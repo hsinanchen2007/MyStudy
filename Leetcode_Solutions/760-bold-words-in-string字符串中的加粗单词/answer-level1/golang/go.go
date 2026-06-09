@@ -1,4 +1,4 @@
-```
+// ```
 import "bytes"
 
 func boldWords(words []string, S string) string {
@@ -40,4 +40,4 @@ func boldWords(words []string, S string) string {
 	}
 	return buf.String()
 }
-```
+// ```

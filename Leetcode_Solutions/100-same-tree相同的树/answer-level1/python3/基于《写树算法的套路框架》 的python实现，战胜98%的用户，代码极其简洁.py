@@ -1,12 +1,12 @@
-### 解题思路
-把java代码翻译为python了
+# ### 解题思路
+# 把java代码翻译为python了
 
-作者：labuladong
-链接：https://leetcode-cn.com/problems/same-tree/solution/xie-shu-suan-fa-de-tao-lu-kuang-jia-by-wei-lai-bu-/
-来源：力扣（LeetCode）
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+# 作者：labuladong
+# 链接：https://leetcode-cn.com/problems/same-tree/solution/xie-shu-suan-fa-de-tao-lu-kuang-jia-by-wei-lai-bu-/
+# 来源：力扣（LeetCode）
+# 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 
-```java
+# ```java
 boolean isSameTree(TreeNode root1, TreeNode root2) {
     // 都为空的话，显然相同
     if (root1 == null && root2 == null) return true;
@@ -19,14 +19,14 @@ boolean isSameTree(TreeNode root1, TreeNode root2) {
     return isSameTree(root1.left, root2.left)
         && isSameTree(root1.right, root2.right);
 }
-```
+# ```
 
 
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -49,4 +49,4 @@ class Solution:
         return self.isSameTree(p.left, q.left) and self.isSameTree(p.right, q.right)
 
 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-使用两个队列q1,q2，一个进行push/empty操作，另一个辅助进行top/pop操作,即q1存储数据，由于队列是先进先出因此需要另外一个队列进行帮助把最后一个数据之前的数据移动，然后把最后一个数据也就是需要后进先出的数据进行top/pop操作。
+// ### 解题思路
+// 使用两个队列q1,q2，一个进行push/empty操作，另一个辅助进行top/pop操作,即q1存储数据，由于队列是先进先出因此需要另外一个队列进行帮助把最后一个数据之前的数据移动，然后把最后一个数据也就是需要后进先出的数据进行top/pop操作。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MyStack {
 public:
     /** Initialize your data structure here. */
@@ -72,4 +72,4 @@ private:
  * int param_3 = obj->top();
  * bool param_4 = obj->empty();
  */
-```
+// ```

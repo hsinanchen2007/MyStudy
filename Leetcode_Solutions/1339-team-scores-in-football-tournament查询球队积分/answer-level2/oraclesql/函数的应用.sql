@@ -1,5 +1,5 @@
-这道题主要是在函数的应用上，没有什么特别特俗的语法，oracle比mysql这个题跑得慢了
-```
+-- 这道题主要是在函数的应用上，没有什么特别特俗的语法，oracle比mysql这个题跑得慢了
+-- ```
 SELECT *
 FROM (
 	SELECT a.team_id, MAX(team_name) AS team_name, SUM(CASE 
@@ -24,4 +24,4 @@ FROM (
 	GROUP BY a.team_id
 ) a 
 ORDER BY a.num_points DESC,a.team_id
-```
+-- ```

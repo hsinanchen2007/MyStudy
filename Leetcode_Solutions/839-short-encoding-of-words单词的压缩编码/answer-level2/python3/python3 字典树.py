@@ -1,5 +1,5 @@
-标准的字典树应用，直接套模板即可，将每个单词反转，然后按照单词长度从长到短排序。然后对列表进行遍历，依次判断字典树中是否存在该前缀，不存在则插入字典树
-```
+# 标准的字典树应用，直接套模板即可，将每个单词反转，然后按照单词长度从长到短排序。然后对列表进行遍历，依次判断字典树中是否存在该前缀，不存在则插入字典树
+# ```
 class Solution:
     def minimumLengthEncoding(self, words: List[str]) -> int:
         l = 0
@@ -25,4 +25,4 @@ class Solution:
                 return False
             node = node[char]
         return True
-```
+# ```

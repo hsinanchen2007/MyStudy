@@ -1,5 +1,5 @@
-时间复杂度$O((M+N)logM)$，其中$M$为`products`的长度，$N$为`searchWord`的长度，最快72ms，仅供参考。
-```python []
+# 时间复杂度$O((M+N)logM)$，其中$M$为`products`的长度，$N$为`searchWord`的长度，最快72ms，仅供参考。
+# ```python []
 class Solution:
     def suggestedProducts(self, products: List[str], searchWord: str) -> List[List[str]]:
         products.sort()
@@ -9,4 +9,4 @@ class Solution:
                 ans.append(products[j])
                 j += 1
             yield ans 
-```
+# ```

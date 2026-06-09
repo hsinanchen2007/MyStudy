@@ -1,14 +1,14 @@
 
-![image.png](https://pic.leetcode-cn.com/5b84b9bfc5efbf8da71f1afed8b81ca909ea094ecde4f289d7fe8ca86d640fe9-image.png)
+// ![image.png](https://pic.leetcode-cn.com/5b84b9bfc5efbf8da71f1afed8b81ca909ea094ecde4f289d7fe8ca86d640fe9-image.png)
 
-思路：
+// 思路：
 
-遍历整个地图，当遇到土地的时候，首先岛屿数量+1，然后从当前位置开始 DFS 深搜，将所有连接的土地变成水，然后继续遍历地图。
+// 遍历整个地图，当遇到土地的时候，首先岛屿数量+1，然后从当前位置开始 DFS 深搜，将所有连接的土地变成水，然后继续遍历地图。
 
-当地图遍历结束后，返回岛屿数量
+// 当地图遍历结束后，返回岛屿数量
 
-代码：
-```
+// 代码：
+// ```
 var dx = [4]int{-1,0,1,0}               // 控制遍历方向
 var dy = [4]int{0,-1,0,1}
 
@@ -44,4 +44,4 @@ func numIslands(grid [][]byte) int {
     }
     return cnt    
 }
-```
+// ```

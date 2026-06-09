@@ -1,4 +1,4 @@
-```
+// ```
 func toGoatLatin(S string) string {
   
 	sLen := len(S)
@@ -65,4 +65,4 @@ func isVowelsX(v uint8) bool {
 	}
 	return false
 }
-```
+// ```

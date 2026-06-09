@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int lastRemaining(int n) {
         return core(n, n, 1, true);
@@ -19,4 +19,4 @@ class Solution {
         return core(newnum, newn, nstep, !l2r);
     }
 }
-```
+// ```

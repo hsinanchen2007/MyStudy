@@ -1,10 +1,10 @@
-### 解题思路
-head.next表示head的下一位，此时head是4，则head.next是5，那么head.next.next表示5的下一位。
-那么head.next.next = head，表示5的下一位是4.
+# ### 解题思路
+# head.next表示head的下一位，此时head是4，则head.next是5，那么head.next.next表示5的下一位。
+# 那么head.next.next = head，表示5的下一位是4.
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -20,4 +20,4 @@ class Solution:
         head.next = None
         return s
 
-```
+# ```

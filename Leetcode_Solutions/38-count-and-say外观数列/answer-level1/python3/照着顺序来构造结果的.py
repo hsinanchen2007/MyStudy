@@ -1,8 +1,8 @@
-### 解题思路
-根据前一次的构造后一次的字符串，记录长度和开始字母
-### 代码
+# ### 解题思路
+# 根据前一次的构造后一次的字符串，记录长度和开始字母
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countAndSay(self, n):
         # 这个n最大也才30，其实直接枚举还快多了
@@ -30,4 +30,4 @@ class Solution:
         for i in range(1, n):
             result_dict[i + 1] = make_str(result_dict[i])
         return result_dict[n]
-```
+# ```

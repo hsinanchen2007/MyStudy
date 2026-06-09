@@ -1,9 +1,9 @@
-### 解题思路
-双指针
+// ### 解题思路
+// 双指针
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int[][] FindContinuousSequence(int target)
         {
@@ -53,4 +53,4 @@ public class Solution {
             return final;
         }
 }
-```
+// ```

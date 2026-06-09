@@ -1,13 +1,13 @@
-先计算叶子节点的深度。
-```
+// 先计算叶子节点的深度。
+// ```
 leftDepth, left := lt(root.Left, depth + 1)
 rightDepth, right := lt(root.Right, depth + 1)
-```
-对左右节点的值进行判断即可
+// ```
+// 对左右节点的值进行判断即可
 
-如果左右叶子节点深度相同，则公共祖先为当前节点。否则为深度更大的节点
+// 如果左右叶子节点深度相同，则公共祖先为当前节点。否则为深度更大的节点
 
-```
+// ```
 func lcaDeepestLeaves(root *TreeNode) *TreeNode {
     _, ret := lt(root, 0)
     return ret
@@ -29,4 +29,4 @@ func lt(root *TreeNode, depth int) (int, *TreeNode) {
     }
     return rightDepth, right
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 from typing import List
 class Solution:
     def longestConsecutive(self, nums: List[int]) -> int:
@@ -46,4 +46,4 @@ if __name__ == '__main__':
     a = Solution()
     nums = [0, 1, -1]
     print(a.longestConsecutive(nums))
-```
+# ```

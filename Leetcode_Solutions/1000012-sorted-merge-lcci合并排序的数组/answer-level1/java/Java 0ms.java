@@ -1,8 +1,8 @@
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void merge(int[] A, int m, int[] B, int n) {
         int[] Acopy = new int[m];
@@ -17,4 +17,4 @@ class Solution {
             A[pos ++] = B[j ++];
     }
 }
-```
+// ```

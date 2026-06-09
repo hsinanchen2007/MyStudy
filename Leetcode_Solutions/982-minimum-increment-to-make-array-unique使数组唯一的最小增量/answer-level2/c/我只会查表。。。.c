@@ -1,9 +1,9 @@
-### 解题思路
-我只会查表。。。
+// ### 解题思路
+// 我只会查表。。。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX_NUM 50001
 
 int comp(const void *arg1, const void *arg2) {
@@ -37,4 +37,4 @@ int minIncrementForUnique(int* A, int ASize){
     }
     return ans;
 }
-```
+// ```

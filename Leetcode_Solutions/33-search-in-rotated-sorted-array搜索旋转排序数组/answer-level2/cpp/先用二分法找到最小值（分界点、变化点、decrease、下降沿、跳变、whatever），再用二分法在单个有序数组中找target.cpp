@@ -1,13 +1,13 @@
-### 解题思路
-先用二分法找到旋转数组的最小值下标。
-如何找到？
-让nums[mid]和nums[right]相比,而不是nums[left].
-当然，和nums[left]相比也是可以的，那样找的是最大值。可以看我对本题的[另一个题解](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/solution/xian-yong-er-fen-fa-zhao-dao-decreasede-wei-zhi-za/)。
-（有收获请点赞）
+// ### 解题思路
+// 先用二分法找到旋转数组的最小值下标。
+// 如何找到？
+// 让nums[mid]和nums[right]相比,而不是nums[left].
+// 当然，和nums[left]相比也是可以的，那样找的是最大值。可以看我对本题的[另一个题解](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/solution/xian-yong-er-fen-fa-zhao-dao-decreasede-wei-zhi-za/)。
+// （有收获请点赞）
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int search(vector<int>& nums, int target) {
@@ -46,4 +46,4 @@ public:
         return nums[left]==target?left:-1;
     }
 };
-```
+// ```

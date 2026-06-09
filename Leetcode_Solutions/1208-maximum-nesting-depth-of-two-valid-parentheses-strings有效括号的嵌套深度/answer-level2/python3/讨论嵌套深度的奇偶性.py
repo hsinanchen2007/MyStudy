@@ -1,4 +1,4 @@
-```
+# ```
 #问题关键是找出嵌套深度与赋值之间的关系
 #若深度为奇数，赋值为0；为偶数，赋值为1 计算左边'('的个数
 class Solution:
@@ -19,4 +19,4 @@ class Solution:
                         res[j]=1
         return res
 print(Solution().maxDepthAfterSplit("()((()))()"))
-```
+# ```

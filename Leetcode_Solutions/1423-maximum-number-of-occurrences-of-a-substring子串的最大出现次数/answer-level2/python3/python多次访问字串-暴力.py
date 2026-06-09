@@ -1,11 +1,11 @@
-### 解题思路
-1. 首先定位i为可取字符串的位置
-2. 随后保证字符串的长度在min-max之间
-3. 每次加入一个字符，如果加入字符之后不同字符的数目超过maxletter，则break，否则加入字典
+# ### 解题思路
+# 1. 首先定位i为可取字符串的位置
+# 2. 随后保证字符串的长度在min-max之间
+# 3. 每次加入一个字符，如果加入字符之后不同字符的数目超过maxletter，则break，否则加入字典
 
-### 代码
+# ### 代码
 
-```
+# ```
 class Solution:
     def maxFreq(self, s, maxLetters, minSize, maxSize):
         length = len(s)
@@ -32,4 +32,4 @@ class Solution:
         if(len(res) == 0):
             return 0
         return sorted(res.items(), key=lambda x:x[1], reverse=True)[0][1]
-```
+# ```

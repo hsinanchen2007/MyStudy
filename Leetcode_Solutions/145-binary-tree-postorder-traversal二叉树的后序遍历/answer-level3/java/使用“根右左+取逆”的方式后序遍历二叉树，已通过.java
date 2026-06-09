@@ -1,6 +1,6 @@
-后序遍历对应的（左右根），是否可以使用（根右左）的方式遍历完之后然后取逆序得到呢？ 
+// 后序遍历对应的（左右根），是否可以使用（根右左）的方式遍历完之后然后取逆序得到呢？ 
 
-```
+// ```
     public List<TreeNode> postOrderStack3(TreeNode root) {
         Stack<TreeNode> stack = new Stack<>();
         List<TreeNode> list = new LinkedList<>();
@@ -18,4 +18,4 @@
         Collections.reverse(list);
         return list;
     }
-```
+// ```

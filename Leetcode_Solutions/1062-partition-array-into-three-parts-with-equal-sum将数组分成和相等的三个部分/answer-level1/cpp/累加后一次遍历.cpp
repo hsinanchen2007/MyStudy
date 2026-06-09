@@ -1,5 +1,5 @@
-先找到三个数组，把剩下的累加，如果为0，说明原数组和为3的倍数，可以省去前面的判断。
-```
+// 先找到三个数组，把剩下的累加，如果为0，说明原数组和为3的倍数，可以省去前面的判断。
+// ```
 class Solution {
 public:
     bool canThreePartsEqualSum(vector<int>& A) {
@@ -19,4 +19,4 @@ public:
         else return false;
     }
 };
-```
+// ```

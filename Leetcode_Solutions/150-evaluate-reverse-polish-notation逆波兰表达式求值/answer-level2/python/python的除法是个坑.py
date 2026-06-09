@@ -1,6 +1,6 @@
-那就重写除法
+# 那就重写除法
 
-```python
+# ```python
 class Solution:
     def evalRPN(self, tokens: List[str]) -> int:
         stack = []
@@ -30,4 +30,4 @@ class Solution:
             num2 = -num2
             sgn *= -1
         return sgn*(num1//num2)
-```
+# ```

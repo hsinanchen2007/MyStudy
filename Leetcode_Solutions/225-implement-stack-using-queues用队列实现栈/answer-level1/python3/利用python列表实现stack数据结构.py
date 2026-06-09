@@ -1,10 +1,10 @@
-### 解题思路
-python 基本数据结构中没有stack，不过我们通过封装list可以很容易实现stack数据结构的基本功能。
+# ### 解题思路
+# python 基本数据结构中没有stack，不过我们通过封装list可以很容易实现stack数据结构的基本功能。
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class MyStack:
 
     def __init__(self):
@@ -54,4 +54,4 @@ class MyStack:
 # param_2 = obj.pop()
 # param_3 = obj.top()
 # param_4 = obj.empty()
-```
+# ```

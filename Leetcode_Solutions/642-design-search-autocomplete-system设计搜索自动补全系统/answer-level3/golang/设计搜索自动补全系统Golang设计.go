@@ -1,12 +1,12 @@
-### 解题思路
-不说了，字符串比对浪费我80%的时间
-1、trie树
-2、字符串ASCII排序
-还有一个坑，因为用了全局变量，所以在初始化的时候要记得赋为空。
+// ### 解题思路
+// 不说了，字符串比对浪费我80%的时间
+// 1、trie树
+// 2、字符串ASCII排序
+// 还有一个坑，因为用了全局变量，所以在初始化的时候要记得赋为空。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 import (
     "sort"
 )
@@ -171,4 +171,4 @@ func (this *AutocompleteSystem) Input(c byte) []string {
  * obj := Constructor(sentences, times);
  * param_1 := obj.Input(c);
  */
-```
+// ```

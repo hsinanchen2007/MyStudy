@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def gameOfLife(self, board: List[List[int]]) -> None:
         m=len(board)
@@ -21,5 +21,5 @@ class Solution:
                     board[i][j]=0
                 elif turn[i][j]==1:
                     board[i][j]=1
-```
+# ```
 

@@ -1,12 +1,12 @@
-### 解题思路
-Push 切片 append
-Pop 删除并返回切片最后一个元素
-Top 返回切片最后一个元素
-Empty 判断切片长度是否为0
+// ### 解题思路
+// Push 切片 append
+// Pop 删除并返回切片最后一个元素
+// Top 返回切片最后一个元素
+// Empty 判断切片长度是否为0
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type MyStack struct {
     stack []int
 }
@@ -55,4 +55,4 @@ func (this *MyStack) Empty() bool {
  * param_3 := obj.Top();
  * param_4 := obj.Empty();
  */
-```
+// ```

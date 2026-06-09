@@ -1,4 +1,4 @@
-```python3
+# ```python3
 class Solution:
     def climbStairs(self, n: int) -> int:
         """
@@ -18,4 +18,4 @@ class Solution:
         
         return max(n, res)  # 返回n和res中较大的那个
                 
-```
+# ```

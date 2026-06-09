@@ -1,9 +1,9 @@
-### 解题思路
-高票题解的JS翻版，因为自己写的递归重复太多次就溢出了，所以最终改了一下，借鉴了高票题解的思路。
+// ### 解题思路
+// 高票题解的JS翻版，因为自己写的递归重复太多次就溢出了，所以最终改了一下，借鉴了高票题解的思路。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} dividend
  * @param {number} divisor
@@ -36,4 +36,4 @@ var divide = function(dividend, divisor) {
     }
     return res >  2147483647 ? 2147483647 : res;
 };
-```
+// ```

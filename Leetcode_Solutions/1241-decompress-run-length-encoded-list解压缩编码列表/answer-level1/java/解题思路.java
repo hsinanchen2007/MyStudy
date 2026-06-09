@@ -1,11 +1,11 @@
-### 解题思路
-1.计算出所有b共有多少个。
-2.将每个b添加到结果数组中。
+// ### 解题思路
+// 1.计算出所有b共有多少个。
+// 2.将每个b添加到结果数组中。
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] decompressRLElist(int[] nums) {
         int capacity = 0;
@@ -29,4 +29,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
 
-```
+# ```
 class Solution:
 
     def isCousins(self, root: TreeNode, x: int, y: int) -> bool:
@@ -26,4 +26,4 @@ class Solution:
 
         return _node[x] == _node[y] and _parent[x] != _parent[y] and _local[x] != _parent[y] and _local[y] != _parent[x]
 
-```
+# ```

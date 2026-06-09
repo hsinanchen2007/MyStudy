@@ -1,9 +1,9 @@
-### 解题思路
-利用动态规划，状态压缩，找到字符串s的最大回文子序列的长度length，然后len(s)-length就是需要修改的字符数，再该题中为需要插入的字符数
-![image.png](https://pic.leetcode-cn.com/026c871fb262e80cbc058b816b45fde4426a1f30f2b067861dd8b400a9cfc53d-image.png)
+# ### 解题思路
+# 利用动态规划，状态压缩，找到字符串s的最大回文子序列的长度length，然后len(s)-length就是需要修改的字符数，再该题中为需要插入的字符数
+# ![image.png](https://pic.leetcode-cn.com/026c871fb262e80cbc058b816b45fde4426a1f30f2b067861dd8b400a9cfc53d-image.png)
 
-### 代码
-```python
+# ### 代码
+# ```python
 class Solution(object):
     def minInsertions(self, s):
         """
@@ -26,4 +26,4 @@ class Solution(object):
                 temp2=temp1  
         return ls-dp[0]
 
-```
+# ```

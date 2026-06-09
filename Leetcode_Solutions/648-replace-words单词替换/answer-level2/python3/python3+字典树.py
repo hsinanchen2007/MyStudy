@@ -1,9 +1,9 @@
-### 解题思路
-字典树操作
+# ### 解题思路
+# 字典树操作
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def replaceWords(self, dict: List[str], sentence: str) -> str:
         d = {}
@@ -26,4 +26,4 @@ class Solution:
                 else:
                     t = t[sentence[i][j]]
         return ' '.join(sentence)
-```
+# ```

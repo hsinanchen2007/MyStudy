@@ -1,9 +1,9 @@
-### 解题思路
-dp[i][0] = max(dp[i-1][0], dp[i-1][1]) dp[i][1] = dp[i-1][0] + nums[i]
-dp[0][0], dp[0][1] = 0, nums[0]
-### 代码
+// ### 解题思路
+// dp[i][0] = max(dp[i-1][0], dp[i-1][1]) dp[i][1] = dp[i-1][0] + nums[i]
+// dp[0][0], dp[0][1] = 0, nums[0]
+// ### 代码
 
-```golang
+// ```golang
 func rob(nums []int) int {
     n := len(nums)
     if n == 0 {
@@ -35,4 +35,4 @@ func max(a, b int) int {
         return a
     }
 }
-```
+// ```

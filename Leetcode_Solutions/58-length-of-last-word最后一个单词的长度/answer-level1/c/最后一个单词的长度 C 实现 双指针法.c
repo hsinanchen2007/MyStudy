@@ -1,6 +1,6 @@
-![2020-01-02_13-56.png](https://pic.leetcode-cn.com/85b93f502759aac5bd4a9a92d5aa256ed4e5a698e5468627320ba8358c43ff4d-2020-01-02_13-56.png)
+// ![2020-01-02_13-56.png](https://pic.leetcode-cn.com/85b93f502759aac5bd4a9a92d5aa256ed4e5a698e5468627320ba8358c43ff4d-2020-01-02_13-56.png)
 
-```c
+// ```c
 int lengthOfLastWord(char *s) {
   // 左指针和右指针
   int left = -1, right = 0;
@@ -25,4 +25,4 @@ int lengthOfLastWord(char *s) {
 
   return length;
 }
-```
+// ```

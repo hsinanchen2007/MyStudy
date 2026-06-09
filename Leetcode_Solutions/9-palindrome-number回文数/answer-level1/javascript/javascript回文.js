@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-回文嘛，就是从中间截取然后把后一半翻转和前一段对比是否相同，
+// 回文嘛，就是从中间截取然后把后一半翻转和前一段对比是否相同，
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} x
  * @return {boolean}
@@ -27,4 +27,4 @@ var isPalindrome = function (x) {
     // 用every方法直接判断是否全部相等并return
     return arr.every(val => val === true)
 };
-```
+// ```

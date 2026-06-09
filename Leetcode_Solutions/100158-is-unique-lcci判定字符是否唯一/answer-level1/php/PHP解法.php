@@ -1,4 +1,4 @@
-利用PHP中的array_unique 函数
+// 利用PHP中的array_unique 函数
 
 class Solution {
 

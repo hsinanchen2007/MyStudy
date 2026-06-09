@@ -1,5 +1,5 @@
-1. 递归，时间复杂度O(2^n)
-```
+// 1. 递归，时间复杂度O(2^n)
+// ```
 func fib(N int) int {
     if N < 0 {
         return 0       
@@ -10,9 +10,9 @@ func fib(N int) int {
 
     return fib(N-1) + fib(N-2)
 }
-```
-2.动态规划(动态递推)，时间复杂度O(n)，空间复杂度O(n)) 
-```
+// ```
+// 2.动态规划(动态递推)，时间复杂度O(n)，空间复杂度O(n)) 
+// ```
 func fib(N int) int {
     if N < 0 {
         return 0       
@@ -27,9 +27,9 @@ func fib(N int) int {
     }
     return fibArr[N]
 }
-```
-3.动态规划(动态递推)，时间复杂度O(n)，空间复杂度O(1)) 
-```
+// ```
+// 3.动态规划(动态递推)，时间复杂度O(n)，空间复杂度O(1)) 
+// ```
 func fib(N int) int {
     if N <= 0 {
         return 0
@@ -45,6 +45,6 @@ func fib(N int) int {
 
     return pre + prePre
 }
-```
+// ```
 
 

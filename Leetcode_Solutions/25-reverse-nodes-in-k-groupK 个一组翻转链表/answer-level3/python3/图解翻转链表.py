@@ -1,7 +1,7 @@
-![TIM图片20200105150846.png](https://pic.leetcode-cn.com/0c18a8d0f9de7160e283041085c795c97bc3fa0bf5498f28b1c828461b7418bf-TIM%E5%9B%BE%E7%89%8720200105150846.png)
-大致思路如上图
-记录前置指针、后置链表以及翻转部分链表节点，将翻转部分链表指针指向前置结点
-```
+# ![TIM图片20200105150846.png](https://pic.leetcode-cn.com/0c18a8d0f9de7160e283041085c795c97bc3fa0bf5498f28b1c828461b7418bf-TIM%E5%9B%BE%E7%89%8720200105150846.png)
+# 大致思路如上图
+# 记录前置指针、后置链表以及翻转部分链表节点，将翻转部分链表指针指向前置结点
+# ```
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -34,6 +34,6 @@ class Solution:
             for _ in range(k):
                 start=start.next
         return behead.next
-```
+# ```
 
 

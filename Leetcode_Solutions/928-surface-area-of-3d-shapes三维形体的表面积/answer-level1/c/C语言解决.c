@@ -1,10 +1,10 @@
-### 解题思路
-1. 所有立方体表面积之和 - 上下重合面积之和 - 前后左右重合面积之和
-2. 详见代码注释
+// ### 解题思路
+// 1. 所有立方体表面积之和 - 上下重合面积之和 - 前后左右重合面积之和
+// 2. 详见代码注释
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 // 所有立方体表面积之和 - 上下重合面积之和 - 前后左右重合面积之和
 
 bool isInArea(int x, int y, int size)
@@ -67,4 +67,4 @@ int surfaceArea(int** grid, int gridSize, int* gridColSize)
 
     return allArea - sidesArea - surroundArea;    
 }
-```
+// ```

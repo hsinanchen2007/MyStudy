@@ -1,18 +1,18 @@
-### 解题思路
-典型的卡塔兰数问题，使用递归解决。
+// ### 解题思路
+// 典型的卡塔兰数问题，使用递归解决。
 
-问题可以转换为：使用一个括号，剩余的括号构造在这个括号内部，和右侧，遍历所有分配的可能。
+// 问题可以转换为：使用一个括号，剩余的括号构造在这个括号内部，和右侧，遍历所有分配的可能。
 
-其中分布在内部和右侧的括号变成子问题。
+// 其中分布在内部和右侧的括号变成子问题。
 
-对于C语言开发者，由于没有内置动态数据结构，因此使用单链表组织结果。
+// 对于C语言开发者，由于没有内置动态数据结构，因此使用单链表组织结果。
 
 
-![image.png](https://pic.leetcode-cn.com/e866e9407665270ecfadfe18d2d6c0321eabf49ef2e8f1db16a61cff5f4ff5df-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e866e9407665270ecfadfe18d2d6c0321eabf49ef2e8f1db16a61cff5f4ff5df-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct _ret_st
 {
     char *ret;
@@ -93,4 +93,4 @@ char ** generateParenthesis(int n, int* returnSize){
     *returnSize = rsize;
     return ret;
 }
-```
+// ```

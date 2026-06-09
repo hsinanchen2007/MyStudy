@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n)
 {
   for(int i=0;i<n;i++)
@@ -22,4 +22,4 @@ void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n)
   }
 
 }
-```
+// ```

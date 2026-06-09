@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-动态规划，大事化小 
-1. 从数组中找到最大的那个元素。
-2. 最大的元素创建TreeNode，然后左右数组递归调用。
+// 动态规划，大事化小 
+// 1. 从数组中找到最大的那个元素。
+// 2. 最大的元素创建TreeNode，然后左右数组递归调用。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -41,4 +41,4 @@ class Solution {
         return maxIndex;
     }
 }
-```
+// ```

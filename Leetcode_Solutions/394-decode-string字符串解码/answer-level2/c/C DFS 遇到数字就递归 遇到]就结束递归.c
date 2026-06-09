@@ -1,6 +1,6 @@
-DFS思路，跟C点赞第一的兄弟比了一下，差别在于我的DFS是从数字开始，他的是从[开始，代码相差很多
+// DFS思路，跟C点赞第一的兄弟比了一下，差别在于我的DFS是从数字开始，他的是从[开始，代码相差很多
 
-```
+// ```
 #define TMP_SLEN 5000
 int getNumFromS(char *s, int *pos)
 {
@@ -74,4 +74,4 @@ char * decodeString(char * s){
     }
     return sTmp;
 }
-```
+// ```

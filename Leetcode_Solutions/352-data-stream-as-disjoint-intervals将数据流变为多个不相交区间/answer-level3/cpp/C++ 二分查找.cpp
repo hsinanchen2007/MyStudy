@@ -1,8 +1,8 @@
-# 思路
-1，维护一个intervals区间
-2，然后不断添加数的时候，二分法定位数在区间中的位置
-3，更改区间，并输出区间
-```C++ []
+// # 思路
+// 1，维护一个intervals区间
+// 2，然后不断添加数的时候，二分法定位数在区间中的位置
+// 3，更改区间，并输出区间
+// ```C++ []
 class SummaryRanges {
 public:
     vector<vector<int> > intervals;
@@ -74,6 +74,6 @@ public:
     }
 };
 
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/2d05c1229fd21fbffe356374cce51a8dfd5be3af404fab92ea3132649b5f8ebe-image.png)
+// ![image.png](https://pic.leetcode-cn.com/2d05c1229fd21fbffe356374cce51a8dfd5be3af404fab92ea3132649b5f8ebe-image.png)

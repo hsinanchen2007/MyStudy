@@ -1,7 +1,7 @@
-用@分割本地和域名，按规则简化本地，与域名和@拼接在一起插入集合，最终返回集合大小（自动去重）
+// 用@分割本地和域名，按规则简化本地，与域名和@拼接在一起插入集合，最终返回集合大小（自动去重）
 
-代码：
-```
+// 代码：
+// ```
 class Solution {
 public:
     int numUniqueEmails(vector<string>& emails) {
@@ -26,4 +26,4 @@ public:
         return mail.size();
     }
 };
-```
+// ```

@@ -1,16 +1,16 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-动态规划
-1.如果 s[i-1]='(' and s[i]=')' , dp[i]=dp[i-2]+2 也就是dp[i]是dp[i-2]追加了一个"()"
-2.如果 s[i-1]也有最大有效括号，就看s[i-1]的有效括号的最左边字符left是否是'(', 也就是看s[left],s[i] 是否包裹了 s[i-1]
-	- dp[i]=dp[i-1]+2
-	- 这个是否要再判断最新的s[i]的最大有效括号左边S[left]是否也有有效括号，拼接到左边
-	- dp[i] = dp[i]+dp[left]  ; left = i-dp[i-1]-2
+// 动态规划
+// 1.如果 s[i-1]='(' and s[i]=')' , dp[i]=dp[i-2]+2 也就是dp[i]是dp[i-2]追加了一个"()"
+// 2.如果 s[i-1]也有最大有效括号，就看s[i-1]的有效括号的最左边字符left是否是'(', 也就是看s[left],s[i] 是否包裹了 s[i-1]
+// 	- dp[i]=dp[i-1]+2
+// 	- 这个是否要再判断最新的s[i]的最大有效括号左边S[left]是否也有有效括号，拼接到左边
+// 	- dp[i] = dp[i]+dp[left]  ; left = i-dp[i-1]-2
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func longestValidParentheses(s string) int {
 
 	sLen := len(s)
@@ -85,4 +85,4 @@ func longestValidParentheses(s string) int {
 	return maxLen
 
 }
-```
+// ```

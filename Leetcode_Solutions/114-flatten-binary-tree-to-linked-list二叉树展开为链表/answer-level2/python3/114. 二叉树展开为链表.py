@@ -1,6 +1,6 @@
 
 
-```
+# ```
 class Solution:
     def flatten(self, root: TreeNode) -> None:
         """
@@ -15,4 +15,4 @@ class Solution:
                 root.left = None
             root = root.right
         return
-```
+# ```

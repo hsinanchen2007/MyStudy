@@ -1,4 +1,4 @@
-```
+// ```
 void swap(char** a,char** b) {
     char* temp = NULL;
     temp = *a;
@@ -38,4 +38,4 @@ bool isOneEditDistance(char * s, char * t){
     }
     return k == len_ss;
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-找了许多一般说这里有四种解法，动态规划一直不会，用Python实现了暴力法，中心拓展和manacher法，最后一个比较麻烦这里贴出来。
-manacher线性的复杂度，说起来也有一点麻烦。总而言之就是在字符串首尾以及每个字符之间都加上一个其他字符，这样以后不管原来的回文串长度是奇数还是偶数，新字符串中回文串长度都将是奇数。
-贴个详细连接：https://blog.csdn.net/sinat_41053216/article/details/105083200
-### 代码
+# ### 解题思路
+# 找了许多一般说这里有四种解法，动态规划一直不会，用Python实现了暴力法，中心拓展和manacher法，最后一个比较麻烦这里贴出来。
+# manacher线性的复杂度，说起来也有一点麻烦。总而言之就是在字符串首尾以及每个字符之间都加上一个其他字符，这样以后不管原来的回文串长度是奇数还是偶数，新字符串中回文串长度都将是奇数。
+# 贴个详细连接：https://blog.csdn.net/sinat_41053216/article/details/105083200
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestPalindrome(self, s):
         length = len(s)
@@ -47,4 +47,4 @@ class Solution:
         start = (rescenter-(resmlen-1))//2
         end = start + (resmlen-1)
         return s[start:end]
-```
+# ```

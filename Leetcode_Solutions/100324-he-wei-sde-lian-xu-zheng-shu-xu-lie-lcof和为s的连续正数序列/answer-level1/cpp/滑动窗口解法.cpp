@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-使用滑动窗口解法，小于值，右边+1，大于值，左边+1，等于值，记录下来，左边往前滑动。
+// 使用滑动窗口解法，小于值，右边+1，大于值，左边+1，等于值，记录下来，左边往前滑动。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> findContinuousSequence(int target) {
@@ -28,4 +28,4 @@ public:
         return result;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 func contains(bytes []byte, char byte) bool {
 	for _, v := range bytes {
 		if v == char {
@@ -34,4 +34,4 @@ func lengthOfLongestSubstring(s string) int {
 	}
 	return max
 }
-```
+// ```

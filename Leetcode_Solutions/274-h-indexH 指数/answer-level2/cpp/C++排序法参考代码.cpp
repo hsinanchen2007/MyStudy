@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 private:
     static bool cmp(int a, int b){
@@ -15,4 +15,4 @@ public:
         return i-1;
     }
 };
-```
+// ```

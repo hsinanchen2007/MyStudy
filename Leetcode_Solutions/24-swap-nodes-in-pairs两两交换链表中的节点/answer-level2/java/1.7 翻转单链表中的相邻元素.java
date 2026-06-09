@@ -1,10 +1,10 @@
-### 解题思路
-此题要自己添加一个头结点。每四个节点看做一组，只翻转中间两个元素。之后更新。如图：
-![1582037868233.jpg](https://pic.leetcode-cn.com/8db7944d05b93e57bb3971ab4daf379fbbb562250ef739a9a584e0491dccb39b-1582037868233.jpg)
+// ### 解题思路
+// 此题要自己添加一个头结点。每四个节点看做一组，只翻转中间两个元素。之后更新。如图：
+// ![1582037868233.jpg](https://pic.leetcode-cn.com/8db7944d05b93e57bb3971ab4daf379fbbb562250ef739a9a584e0491dccb39b-1582037868233.jpg)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -34,4 +34,4 @@ class Solution {
         return preHead.next;
     }
 }
-```
+// ```

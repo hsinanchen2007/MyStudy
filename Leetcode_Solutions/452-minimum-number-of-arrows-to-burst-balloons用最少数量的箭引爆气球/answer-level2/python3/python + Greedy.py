@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def findMinArrowShots(self, points: List[List[int]]) -> int:
         # ballons at most 10 ** 4
@@ -17,4 +17,4 @@ class Solution:
                 ans += 1
                 end = point[1]
         return ans
-```
+# ```

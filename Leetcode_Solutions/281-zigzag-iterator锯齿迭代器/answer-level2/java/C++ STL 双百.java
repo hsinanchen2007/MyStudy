@@ -1,9 +1,9 @@
-## 思路
-设置一个 flag ，为真的时候返回 vector1 数据，为假的时候返回 vector2 的数据；
-返回之前 flag 取反，返回之后迭代器自增
+// ## 思路
+// 设置一个 flag ，为真的时候返回 vector1 数据，为假的时候返回 vector2 的数据；
+// 返回之前 flag 取反，返回之后迭代器自增
 
-## 代码
-```c++
+// ## 代码
+// ```c++
 class ZigzagIterator {
 public:
 
@@ -43,9 +43,9 @@ public:
  */
 
 
-```
+// ```
 
-## 提交记录
+// ## 提交记录
 
-![image.png](https://pic.leetcode-cn.com/eb4666c3ec5c7ecf1d4c8da06ed43cf92c25cf61e25deedef3d07e69ae825423-image.png)
+// ![image.png](https://pic.leetcode-cn.com/eb4666c3ec5c7ecf1d4c8da06ed43cf92c25cf61e25deedef3d07e69ae825423-image.png)
 

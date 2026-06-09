@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/2bdb004dc2add0785097a760b106466df5f1ffa306d72ab8ee028420278ade9a-image.png)
-```c++
+// ![image.png](https://pic.leetcode-cn.com/2bdb004dc2add0785097a760b106466df5f1ffa306d72ab8ee028420278ade9a-image.png)
+// ```c++
 class Solution {
 public:
     int maxProduct(vector<string>& words) {
@@ -23,4 +23,4 @@ public:
         return res;
     }
 };
-```
+// ```

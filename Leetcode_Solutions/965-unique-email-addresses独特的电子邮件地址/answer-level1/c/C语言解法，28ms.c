@@ -1,5 +1,5 @@
-思路比较笨，仅供用C的参考，C真的不好用
-```
+// 思路比较笨，仅供用C的参考，C真的不好用
+// ```
 int numUniqueEmails(char ** emails, int emailsSize){
     int item = 0;
     char **record;
@@ -70,5 +70,5 @@ int numUniqueEmails(char ** emails, int emailsSize){
 }
 
 
-```
+// ```
 

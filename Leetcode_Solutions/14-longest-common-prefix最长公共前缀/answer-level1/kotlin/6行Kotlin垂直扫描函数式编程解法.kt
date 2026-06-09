@@ -1,4 +1,4 @@
-```kotlin
+// ```kotlin
 class Solution {
     fun longestCommonPrefix(strs: Array<String>): String {
         if (strs.isEmpty()) return ""
@@ -9,4 +9,4 @@ class Solution {
         return strs[0].substring(0, lcpLength)
     }
 }
-```
+// ```

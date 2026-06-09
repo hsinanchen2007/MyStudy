@@ -1,4 +1,4 @@
-```
+// ```
 int trap(int* height, int heightSize)
 {
     if (heightSize <= 2) {
@@ -32,4 +32,4 @@ int trap(int* height, int heightSize)
     free(stack);
     return sum;
 }
-```
+// ```

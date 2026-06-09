@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int removeDuplicates(int[] nums) {
         int sum = 1;
@@ -10,4 +10,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-解法一：暴力，依次遍历二维数组，时间复杂度m*n
-```
+# 解法一：暴力，依次遍历二维数组，时间复杂度m*n
+# ```
 class Solution:
     def findNumberIn2DArray(self, matrix: List[List[int]], target: int) -> bool: 
         if matrix==None or len(matrix)==0:
@@ -11,10 +11,10 @@ class Solution:
                 if matrix[i][j]==target:
                     return True
         return False
-```
+# ```
 
-解法二：因为二维数组的每一行都按照从左到右递增的顺序排序，遍历二维数组的每一行，对每一行使用二分查找方法进行查找
-```
+# 解法二：因为二维数组的每一行都按照从左到右递增的顺序排序，遍历二维数组的每一行，对每一行使用二分查找方法进行查找
+# ```
 class Solution:
     def findNumberIn2DArray(self, matrix: List[List[int]], target: int) -> bool:
         if matrix==None or len(matrix)==0:
@@ -32,11 +32,11 @@ class Solution:
                 else:
                     return True
         return False
-```
+# ```
 
 
-解法三：从左下角开始判断，如果左下角的数字比target大，删除所在行；反之，删除所在列，逐渐向右上角逼近
-```
+# 解法三：从左下角开始判断，如果左下角的数字比target大，删除所在行；反之，删除所在列，逐渐向右上角逼近
+# ```
 class Solution:
     def findNumberIn2DArray(self, matrix: List[List[int]], target: int) -> bool:
         if matrix==None and len(matrix)==0:
@@ -51,11 +51,11 @@ class Solution:
             else:
                 return True
         return False
-```
+# ```
 
 
-解法四：从右上角开始判断，如果右上角的数字比target大，删除所在列；反之，删除所在行，逐渐逼近左下角
-```
+# 解法四：从右上角开始判断，如果右上角的数字比target大，删除所在列；反之，删除所在行，逐渐逼近左下角
+# ```
 class Solution:
     def findNumberIn2DArray(self, matrix: List[List[int]], target: int) -> bool:
         if matrix==None or len(matrix)==0:
@@ -71,4 +71,4 @@ class Solution:
             else:
                 return True
         return False
-```
+# ```

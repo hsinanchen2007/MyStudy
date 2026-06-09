@@ -1,11 +1,11 @@
-# 二叉树 先序遍历 基本思想 :
-- 先访问根节点，再访问 左子树 ， 最后 访问 右子树 
-- 循环以上步骤 
-- 左子树 为null时，访问 右节点
-- 右子树为 null时，返回上一层
+// # 二叉树 先序遍历 基本思想 :
+// - 先访问根节点，再访问 左子树 ， 最后 访问 右子树 
+// - 循环以上步骤 
+// - 左子树 为null时，访问 右节点
+// - 右子树为 null时，返回上一层
 
-__递归遍历:__
-```
+// __递归遍历:__
+// ```
 class Solution {
     public List<Integer> preorderTraversal(TreeNode root) {
         if(root == null) return new ArrayList<Integer>();
@@ -27,9 +27,9 @@ class Solution {
     }
     
 }
-```
-__迭代遍历:__
-```
+// ```
+// __迭代遍历:__
+// ```
 class Solution {
     public List<Integer> preorderTraversal(TreeNode root) {
         if(root == null) return new ArrayList<Integer>();
@@ -50,4 +50,4 @@ class Solution {
         
     }
 }
-```
+// ```

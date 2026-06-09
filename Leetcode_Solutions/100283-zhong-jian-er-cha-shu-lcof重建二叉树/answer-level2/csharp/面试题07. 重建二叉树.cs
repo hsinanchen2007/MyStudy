@@ -1,11 +1,11 @@
-### 解题思路
-C# 使用递归构造二叉树：
-前序遍历作为Queue，诸葛出队表示当前节点；
-在中序遍历找到当前节点的值的索引，以此索引分割当前块，左边作为左子树，右边作为右子树；
+// ### 解题思路
+// C# 使用递归构造二叉树：
+// 前序遍历作为Queue，诸葛出队表示当前节点；
+// 在中序遍历找到当前节点的值的索引，以此索引分割当前块，左边作为左子树，右边作为右子树；
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -52,4 +52,4 @@ public class Solution {
         return currentNode;
     }
 }
-```
+// ```

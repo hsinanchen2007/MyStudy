@@ -1,8 +1,8 @@
-####  方法1：DFS + 回溯（时间消耗很一般）
+# ####  方法1：DFS + 回溯（时间消耗很一般）
 
-**代码：**
+# **代码：**
 
-```python []
+# ```python []
 class Solution:
     def getMaximumGold(self, grid: List[List[int]]) -> int:
         # 不能往回走，说明开采完之后就变成0
@@ -32,4 +32,4 @@ class Solution:
                     visited = {(a, b)}
                     find(visited, a, b, grid[a][b])
         return self.max_
-```
+# ```

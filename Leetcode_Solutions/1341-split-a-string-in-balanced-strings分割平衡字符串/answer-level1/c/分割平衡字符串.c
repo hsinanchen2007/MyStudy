@@ -1,10 +1,10 @@
-### 解题思路
-有点像匹配括号，用栈解决
-每次栈空计数器加一即可。
+// ### 解题思路
+// 有点像匹配括号，用栈解决
+// 每次栈空计数器加一即可。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int balancedStringSplit(char * s){
     int length=0;
     for(char*iter =s;*iter!='\0';++iter)
@@ -32,4 +32,4 @@ int balancedStringSplit(char * s){
 
     return sum;
 }
-```
+// ```

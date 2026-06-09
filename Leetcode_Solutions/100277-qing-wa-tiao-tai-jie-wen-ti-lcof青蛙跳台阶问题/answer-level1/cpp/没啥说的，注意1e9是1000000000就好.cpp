@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numWays(int n) {
@@ -23,4 +23,4 @@ public:
         return dp[n];
     }
 };
-```
+// ```

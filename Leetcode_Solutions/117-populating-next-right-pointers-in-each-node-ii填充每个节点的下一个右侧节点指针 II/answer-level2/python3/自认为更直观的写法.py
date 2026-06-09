@@ -1,9 +1,9 @@
-### 解题思路
-思路和官方差不多，但是官方的写法一时get不到，按照自己的理解撸了一个，自我感觉还算直观，写上必要注释，供各位参考。
+# ### 解题思路
+# 思路和官方差不多，但是官方的写法一时get不到，按照自己的理解撸了一个，自我感觉还算直观，写上必要注释，供各位参考。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 """
 # Definition for a Node.
 class Node:
@@ -50,4 +50,4 @@ class Solution:
                     break
                 leftmost = leftmost.next
         return root
-```
+# ```

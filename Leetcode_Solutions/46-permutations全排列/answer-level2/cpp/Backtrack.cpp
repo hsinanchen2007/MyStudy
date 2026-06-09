@@ -1,9 +1,9 @@
-### 解题思路
-递归树查找合适所有的path.
+// ### 解题思路
+// 递归树查找合适所有的path.
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
  public:
   vector<vector<int>> permute(const vector<int>& nums) {
@@ -36,4 +36,4 @@ class Solution {
  private:
   vector<vector<int>> results_;
 };
-```
+// ```

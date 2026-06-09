@@ -1,11 +1,11 @@
-### 解题思路
-一次遍历，计数+成串
-复杂度O(n)
-有点惊讶，内存居然击败100%
+# ### 解题思路
+# 一次遍历，计数+成串
+# 复杂度O(n)
+# 有点惊讶，内存居然击败100%
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def compressString(self, S: str) -> str:
         cs=' '
@@ -17,4 +17,4 @@ class Solution:
             else:
                 i+=1
         return cs[2:]+str(i) if len(cs)-2<len(S)-1 and i!=0 else S
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int x[10][10]={0},y[10][10]={0},z[10][10]={0};
@@ -41,4 +41,4 @@ public:
         if(temp.size()!=0) solve(board,0);
     }
 };
-```
+// ```

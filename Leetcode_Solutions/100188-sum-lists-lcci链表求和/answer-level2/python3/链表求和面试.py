@@ -1,7 +1,7 @@
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -35,5 +35,5 @@ class Solution:
             pre.next=tail
         return lr
                
-```
-![image.png](https://pic.leetcode-cn.com/018c954cd50b1b04127fe50623a03e272f748fe8184e6d2bec58885c1b1cfbd3-image.png)
+# ```
+# ![image.png](https://pic.leetcode-cn.com/018c954cd50b1b04127fe50623a03e272f748fe8184e6d2bec58885c1b1cfbd3-image.png)

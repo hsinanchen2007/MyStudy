@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-整的是比较无脑的贪心算法，先排序，后比较大小
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 整的是比较无脑的贪心算法，先排序，后比较大小
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] merge(int[][] intervals) {
         Arrays.sort(intervals, Comparator.comparingInt(x->x[0]));
@@ -38,4 +38,4 @@ class Solution {
 
 }
 
-```
+// ```

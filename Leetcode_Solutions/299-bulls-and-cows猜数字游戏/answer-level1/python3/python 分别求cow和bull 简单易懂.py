@@ -1,8 +1,8 @@
-简单来说 先逐位比对 确定bull的数量
-借助counter 统计出每一个重复出现的次数，求和
-然后再去掉bull出现的次数就是cow的次数
+# 简单来说 先逐位比对 确定bull的数量
+# 借助counter 统计出每一个重复出现的次数，求和
+# 然后再去掉bull出现的次数就是cow的次数
 
-```
+# ```
 from collections import Counter
 class Solution:
     def getHint(self, secret: str, guess: str) -> str:
@@ -22,4 +22,4 @@ class Solution:
             cow = cow + min(c1[i],c2[i])
         cow = cow - bull
         return "%dA%dB"%(bull,cow)
-```
+# ```

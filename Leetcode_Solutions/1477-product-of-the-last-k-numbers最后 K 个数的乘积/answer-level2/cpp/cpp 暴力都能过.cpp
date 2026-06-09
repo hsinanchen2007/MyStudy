@@ -1,6 +1,6 @@
-考试的时候感觉暴力能过，随手瞎写了一下，居然真的过了。
+// 考试的时候感觉暴力能过，随手瞎写了一下，居然真的过了。
 
-```
+// ```
 class ProductOfNumbers {
 public:
     ProductOfNumbers() {
@@ -23,4 +23,4 @@ private:
     vector<int> record;
 };
 
-```
+// ```

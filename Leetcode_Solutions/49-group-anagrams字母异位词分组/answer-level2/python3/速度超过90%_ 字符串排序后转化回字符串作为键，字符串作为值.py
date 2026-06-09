@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         hashmap = dict()
@@ -11,4 +11,4 @@ class Solution:
                 hashmap[scopy] = [s]
         return [value for value in hashmap.values()]
             
-```
+# ```

@@ -1,8 +1,8 @@
-#
+// #
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 int strStr(string haystack, string needle)
@@ -27,4 +27,4 @@ int strStr(string haystack, string needle)
     return -1;
 }
 };
-```
+// ```

@@ -1,11 +1,11 @@
-![image.png](https://pic.leetcode-cn.com/8f7b882b3353d1fe9a9d6b4943db608e3452375076b984615033fd79b2c32d43-image.png)
+// ![image.png](https://pic.leetcode-cn.com/8f7b882b3353d1fe9a9d6b4943db608e3452375076b984615033fd79b2c32d43-image.png)
 
-### 解题思路
-见代码注释，写的已经很详细了，有疑问或者问题的欢迎大家提出或指出！
+// ### 解题思路
+// 见代码注释，写的已经很详细了，有疑问或者问题的欢迎大家提出或指出！
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 //int n = N - 1;
 //matrix[i][j]旋转后得位置matrix[j][n - i]
 //本题的解决方式是从外到内一层一层的旋转
@@ -45,4 +45,4 @@ class Solution {
         }
     }
 }
-```
+// ```

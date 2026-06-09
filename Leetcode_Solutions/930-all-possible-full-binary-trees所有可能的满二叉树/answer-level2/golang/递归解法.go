@@ -1,10 +1,10 @@
-### 解题思路
-典型的递归解法
-要注意的是这题和其他题目不一样的是，要返回所有的树而不是递归的个数
+// ### 解题思路
+// 典型的递归解法
+// 要注意的是这题和其他题目不一样的是，要返回所有的树而不是递归的个数
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -37,4 +37,4 @@ func allPossibleFBT(N int) []*TreeNode {
 	return trees
 }
 
-```
+// ```

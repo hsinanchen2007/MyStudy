@@ -1,4 +1,4 @@
-```
+// ```
 public class Solution {
     public int HammingWeight(uint n) {
         int bits = 0;
@@ -12,4 +12,4 @@ public class Solution {
         return bits;
     }
 }
-```
+// ```

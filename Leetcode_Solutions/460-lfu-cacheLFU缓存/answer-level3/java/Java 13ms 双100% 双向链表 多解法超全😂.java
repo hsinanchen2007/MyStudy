@@ -1,30 +1,30 @@
-🙋**我以前的题解竟然被每日一题翻牌了，今天终于不用新更了呢**
+// 🙋**我以前的题解竟然被每日一题翻牌了，今天终于不用新更了呢**
 
-**以下解法中，方法 3 相对于其他人很多几百毫秒的 $O(1)$ 实现来说，是目前最优的 $O(1)$ 实现哦，只需要 13 毫秒！~**
-**想看更多干货题解，请戳 [我的主页](https://leetcode-cn.com/u/sweetiee/)！**
+// **以下解法中，方法 3 相对于其他人很多几百毫秒的 $O(1)$ 实现来说，是目前最优的 $O(1)$ 实现哦，只需要 13 毫秒！~**
+// **想看更多干货题解，请戳 [我的主页](https://leetcode-cn.com/u/sweetiee/)！**
 
-----
-
-
- [TOC]
-
-### 一、$O(1)$ 解法
-
-下面要说的 $O(1)$ 的 3 种 Java 写法其实是 1 种解法，因为具体实现细节中使用的数据结构不同，导致性能有所差异。为方便理解，下面 3 个实现，**性能从略挫逐步优化**：
-
-1. `HashMap<Integer, Node> cache` 存缓存的内容; `min` 是最小访问频次; `HashMap<Integer, LinkedHashSet<Node>> freqMap` 存每个访问频次对应的 Node 的双向链表（写法 1 为了方便，直接用了 JDK 现有的 LinkedHashSet，其实现了 1 条双向链表贯穿哈希表中的所有 Entry，支持以插入的先后顺序对原本无序的 HashSet 进行迭代）
-
-2. `HashMap<Integer, Node> cache` 存缓存的内容; `min` 是最小访问频次; `HashMap<Integer, DoublyLinkedList>freqMap` 存每个访问频次对应的 Node 的双向链表（写法 2 与写法 1 一样，只不过将 JDK 自带的 LinkedHashSet 双向链表实现改成了自定义的双向链表 DoublyLinkedList，减少了一些哈希相关的耗时）
-
-3. `HashMap<Integer, Node> cache` 存缓存的内容; 将写法 1 写法 2 中的 freqMap 不再用 HashMap 来表示，而是直接用双向链表 `DoublyLinkedList firstLinkedList; DoublyLinkedList lastLinkedList`，省去了一些哈希相关的耗时，也不需要用 min 来存储最小频次了，lastLinkedList.pre 这条 DoublyLinkedList 即为最小频次对应的 Node 双向链表，lastLinkedList.pre.tail.pre 这个 Node 即为最小频次的双向链表中的所有 Node 中最先访问的 Node，即容量满了后要删除的 Node。
+// ----
 
 
-**下面贴这仨实现，不多哔哔了直接在代码中注释啦**
-**最优解是第三种，详尽注释了。 其他的实现实在懒得注释了哎🥺，没法折叠好傻x，直接跳去第三种叭**
+//  [TOC]
+
+// ### 一、$O(1)$ 解法
+
+// 下面要说的 $O(1)$ 的 3 种 Java 写法其实是 1 种解法，因为具体实现细节中使用的数据结构不同，导致性能有所差异。为方便理解，下面 3 个实现，**性能从略挫逐步优化**：
+
+// 1. `HashMap<Integer, Node> cache` 存缓存的内容; `min` 是最小访问频次; `HashMap<Integer, LinkedHashSet<Node>> freqMap` 存每个访问频次对应的 Node 的双向链表（写法 1 为了方便，直接用了 JDK 现有的 LinkedHashSet，其实现了 1 条双向链表贯穿哈希表中的所有 Entry，支持以插入的先后顺序对原本无序的 HashSet 进行迭代）
+
+// 2. `HashMap<Integer, Node> cache` 存缓存的内容; `min` 是最小访问频次; `HashMap<Integer, DoublyLinkedList>freqMap` 存每个访问频次对应的 Node 的双向链表（写法 2 与写法 1 一样，只不过将 JDK 自带的 LinkedHashSet 双向链表实现改成了自定义的双向链表 DoublyLinkedList，减少了一些哈希相关的耗时）
+
+// 3. `HashMap<Integer, Node> cache` 存缓存的内容; 将写法 1 写法 2 中的 freqMap 不再用 HashMap 来表示，而是直接用双向链表 `DoublyLinkedList firstLinkedList; DoublyLinkedList lastLinkedList`，省去了一些哈希相关的耗时，也不需要用 min 来存储最小频次了，lastLinkedList.pre 这条 DoublyLinkedList 即为最小频次对应的 Node 双向链表，lastLinkedList.pre.tail.pre 这个 Node 即为最小频次的双向链表中的所有 Node 中最先访问的 Node，即容量满了后要删除的 Node。
 
 
-#### O(1) 解法 —— 双向链表直接使用LinkedHashSet
-``` Java
+// **下面贴这仨实现，不多哔哔了直接在代码中注释啦**
+// **最优解是第三种，详尽注释了。 其他的实现实在懒得注释了哎🥺，没法折叠好傻x，直接跳去第三种叭**
+
+
+// #### O(1) 解法 —— 双向链表直接使用LinkedHashSet
+// ``` Java
 class LFUCache {
     Map<Integer, Node> cache;  // 存储缓存的内容
     Map<Integer, LinkedHashSet<Node>> freqMap; // 存储每个频次对应的双向链表
@@ -116,10 +116,10 @@ class Node {
         this.value = value;
     }
 }
-```
+// ```
 
-#### O(1) 解法 —— 自定义双向链表
-``` Java
+// #### O(1) 解法 —— 自定义双向链表
+// ``` Java
 class LFUCache {
     Map<Integer, Node> cache; // 存储缓存的内容
     Map<Integer, DoublyLinkedList> freqMap; // 存储每个频次对应的双向链表
@@ -227,11 +227,11 @@ class DoublyLinkedList {
         node.pre = head;
     }
 }
-```
+// ```
 
-#### O(1) 解法 —— 存储频次的HashMap改为直接用双向链表（最优实现 13ms 双100%）
+// #### O(1) 解法 —— 存储频次的HashMap改为直接用双向链表（最优实现 13ms 双100%）
 
-``` Java
+// ``` Java
 
 class LFUCache {
 
@@ -528,19 +528,19 @@ class DoublyLinkedList {
 
 }
 
-```
+// ```
 
 
 
----
+// ---
 
-## 二、$O(logN)$ 解法
+// ## 二、$O(logN)$ 解法
 
-#### O(logN) 解法 —— 使用小根堆找到 `freq` 最小，因为 Java 中的 PriorityQueue 默认就是小根堆, 实现最简单
+// #### O(logN) 解法 —— 使用小根堆找到 `freq` 最小，因为 Java 中的 PriorityQueue 默认就是小根堆, 实现最简单
 
-每次将访问频次 `freq` 最小的且最先访问的上浮到堆顶，下面用全局自增 `idx` 表示访问的先后，或者可以直接改成 `idx = System.nanoTime()` 用以比较访问时间的先后。
+// 每次将访问频次 `freq` 最小的且最先访问的上浮到堆顶，下面用全局自增 `idx` 表示访问的先后，或者可以直接改成 `idx = System.nanoTime()` 用以比较访问时间的先后。
 
-``` Java
+// ``` Java
 class LFUCache {
 
     Map<Integer, Node> cache;
@@ -615,16 +615,16 @@ class Node implements Comparable<Node> {
         return diff != 0? diff: idx - node.idx;
     }
 }
-```
+// ```
 
-## 三、O(N) 解法
+// ## 三、O(N) 解法
 
-#### 最傻fufuの O(N) —— 只用1条双向链表
+// #### 最傻fufuの O(N) —— 只用1条双向链表
 
-使 `freq` 小的 `Node` 在链表的左边，`freq` 大的 `Node` 在链表的右边，`freq` 相等的话最久使用的 `Node` 在左边、最近使用的 `Node` 在右边，因此满了之后删除 `head.post`，该 `Node` 即 `freq` 最小且最久访问的。
-每次 `node` 的 `freq++` 后，从当前位置向后遍历链表，直到 `nextNode.freq > node.freq || nextNode == tail`，在 `nextNode` 之前插入该 `node`。
+// 使 `freq` 小的 `Node` 在链表的左边，`freq` 大的 `Node` 在链表的右边，`freq` 相等的话最久使用的 `Node` 在左边、最近使用的 `Node` 在右边，因此满了之后删除 `head.post`，该 `Node` 即 `freq` 最小且最久访问的。
+// 每次 `node` 的 `freq++` 后，从当前位置向后遍历链表，直到 `nextNode.freq > node.freq || nextNode == tail`，在 `nextNode` 之前插入该 `node`。
 
-``` Java
+// ``` Java
 class LFUCache {
 
     HashMap<Integer, Node> cache;
@@ -713,9 +713,9 @@ class Node {
         this.value = value;
     }
 }
-```
+// ```
 
 
----
+// ---
 
-嗯，很全/::)
+// 嗯，很全/::)

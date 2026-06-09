@@ -1,9 +1,9 @@
-### 思路一：istringstream
+// ### 思路一：istringstream
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int countSegments(string s) {
@@ -16,11 +16,11 @@ public:
         return cnt;
     }
 };
-```
+// ```
 
-### 思路二：暴力
-### 代码
-```c++
+// ### 思路二：暴力
+// ### 代码
+// ```c++
 class Solution {
 public:
     int countSegments(string s) {
@@ -33,4 +33,4 @@ public:
         return cnt;
     }
 };
-```
+// ```

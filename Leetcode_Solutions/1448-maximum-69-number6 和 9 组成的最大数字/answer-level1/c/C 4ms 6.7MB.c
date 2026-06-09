@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *总体思路：
@@ -41,4 +41,4 @@ int maximum69Number ( int num ){
     return num;
 
 }
-```
+// ```

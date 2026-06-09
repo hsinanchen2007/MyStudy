@@ -1,9 +1,9 @@
-### 解题思路
-只统计数量 那么出现次数为偶数的数量加2 奇数的全局只统计一次
+// ### 解题思路
+// 只统计数量 那么出现次数为偶数的数量加2 奇数的全局只统计一次
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {number}
@@ -26,4 +26,4 @@ var longestPalindrome = function (s) {
     }
     return count;
 };
-```
+// ```

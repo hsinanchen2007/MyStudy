@@ -1,4 +1,4 @@
-```
+// ```
 public class Solution {
     public bool IsOneBitCharacter(int[] bits) {
         int i = 0;//初始化下标为0
@@ -16,4 +16,4 @@ public class Solution {
         
     }
 }
-```
+// ```

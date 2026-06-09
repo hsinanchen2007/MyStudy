@@ -1,9 +1,9 @@
-### 解题思路
-从右上角开始比较，左小下大,递归查找
+# ### 解题思路
+# 从右上角开始比较，左小下大,递归查找
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def findNumberIn2DArray(self, matrix, target):
         """
@@ -33,4 +33,4 @@ class Solution(object):
     
 
 
-```
+# ```

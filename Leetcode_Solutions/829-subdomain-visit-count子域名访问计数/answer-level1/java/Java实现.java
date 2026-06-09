@@ -1,5 +1,5 @@
-![图片.png](https://pic.leetcode-cn.com/42ce9a314f5a49c83fdcca75c701cf9d1e909dee4b642dda8a20ac9a766044e0-%E5%9B%BE%E7%89%87.png)
-```
+// ![图片.png](https://pic.leetcode-cn.com/42ce9a314f5a49c83fdcca75c701cf9d1e909dee4b642dda8a20ac9a766044e0-%E5%9B%BE%E7%89%87.png)
+// ```
 class Solution {
     public List<String> subdomainVisits(String[] cpdomains) {
      List<String> list=new ArrayList<>();
@@ -43,6 +43,6 @@ class Solution {
 	    
     }
 }
-```
+// ```
 
 

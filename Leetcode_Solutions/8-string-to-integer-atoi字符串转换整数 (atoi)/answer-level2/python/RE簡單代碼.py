@@ -1,9 +1,9 @@
-### 解题思路
+# ### 解题思路
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import re
 class Solution:
     def myAtoi(self, s: str) -> int:
@@ -13,4 +13,4 @@ class Solution:
             return 0
         return max(min( int(aim.group(2)),2**31-1),-2**31)
 
-```
+# ```

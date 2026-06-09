@@ -1,4 +1,4 @@
-```
+// ```
 func subsets(nums []int) (rst [][]int) {
 	if len(nums) == 0 {
 		return [][]int{{}}
@@ -14,4 +14,4 @@ func subsets(nums []int) (rst [][]int) {
 	}
 	return
 }
-```
+// ```

@@ -1,14 +1,14 @@
-### 解题思路
-一不小心还是掉到了陷阱里，
-最开始用得错误的方程
-dp[n] = max(dp[n-1], nums[n] + dp[n-2]))
-但其实状态转换方程应该是
-dp[n] = max(dp[n-1], nums[n] + max(dp[0]...dp[n-2]))
-![image.png](https://pic.leetcode-cn.com/924f2d9451f803d6f8b53badf06dd03faadbeb764ea6e6b1e2265d298a55437c-image.png)
+// ### 解题思路
+// 一不小心还是掉到了陷阱里，
+// 最开始用得错误的方程
+// dp[n] = max(dp[n-1], nums[n] + dp[n-2]))
+// 但其实状态转换方程应该是
+// dp[n] = max(dp[n-1], nums[n] + max(dp[0]...dp[n-2]))
+// ![image.png](https://pic.leetcode-cn.com/924f2d9451f803d6f8b53badf06dd03faadbeb764ea6e6b1e2265d298a55437c-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MY_MAX(a, b) ((a) > (b) ? (a) : (b))
 int proc(int *nums, int numsSize)
 {
@@ -38,4 +38,4 @@ int massage(int* nums, int numsSize){
 	}
 	return proc(nums, numsSize);
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```js
+// ```js
 var numWays = function(n) {
     let arr = [1, 1, 2];
     for (let i = 3; i <= n; i++) {
@@ -6,4 +6,4 @@ var numWays = function(n) {
     }
     return arr[n] % 1000000007
 };
-```
+// ```

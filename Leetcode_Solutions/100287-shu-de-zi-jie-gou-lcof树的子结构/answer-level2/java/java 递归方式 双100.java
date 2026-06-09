@@ -1,8 +1,8 @@
-### 解题思路
-采用递归的方式
-### 代码
+// ### 解题思路
+// 采用递归的方式
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -38,4 +38,4 @@ class Solution {
         return subCheck(A.left,B.left)&&subCheck(A.right,B.right);
     }
 }
-```
+// ```

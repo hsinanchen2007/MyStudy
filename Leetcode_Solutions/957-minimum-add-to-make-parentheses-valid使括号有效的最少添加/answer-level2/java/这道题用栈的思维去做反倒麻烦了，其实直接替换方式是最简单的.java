@@ -1,4 +1,4 @@
-```
+// ```
 Stack<Integer> stack = new Stack<>();
         int result = 0;
         for (int index = 0; index < S.length(); index++) {
@@ -14,4 +14,4 @@ Stack<Integer> stack = new Stack<>();
             }
         }
         return result + stack.size();
-```
+// ```

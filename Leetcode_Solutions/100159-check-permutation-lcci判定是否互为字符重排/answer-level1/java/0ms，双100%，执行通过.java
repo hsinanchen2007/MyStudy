@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean CheckPermutation(String s1, String s2) {
         if (s1.equals("") && s2.equals("")){
@@ -32,4 +32,4 @@ class Solution {
         return total==total1;
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-将数组进行排序，然后将数组中的0进行抽取，不进行比较，比较剩余数值中的相邻两个数值之间的差值。
-```
+// 将数组进行排序，然后将数组中的0进行抽取，不进行比较，比较剩余数值中的相邻两个数值之间的差值。
+// ```
 public boolean isStraight(int[] nums) {
 	Arrays.sort(nums);
 	//累积0的个数，也就是大王与小王的个数
@@ -38,4 +38,4 @@ public boolean isStraight(int[] nums) {
 	return true;
 }
 
-```
+// ```

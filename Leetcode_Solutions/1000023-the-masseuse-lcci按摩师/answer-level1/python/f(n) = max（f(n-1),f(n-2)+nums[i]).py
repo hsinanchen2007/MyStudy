@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def massage(self, nums):
         """
@@ -25,4 +25,4 @@ class Solution(object):
             dp.append (max(dp[i-1],sin2))
         return dp[lenth-1]
         
-```
+# ```

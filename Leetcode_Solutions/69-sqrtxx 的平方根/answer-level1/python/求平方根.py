@@ -1,5 +1,5 @@
-根据题意返回值为整数的求解方式
-```
+# 根据题意返回值为整数的求解方式
+# ```
 class Solution:
     def mySqrt(self, x: int) -> int:
         low = 0
@@ -12,10 +12,10 @@ class Solution:
             else:
                 low = mid
         return low
-```
+# ```
 
-要求误差再error内的求解方式
-```
+# 要求误差再error内的求解方式
+# ```
 def sqrt(x, error):
     low = 0
     high = x / 2 + 1
@@ -27,4 +27,4 @@ def sqrt(x, error):
             low = mid
         mid = (low + high) / 2
     return mid
-```
+# ```

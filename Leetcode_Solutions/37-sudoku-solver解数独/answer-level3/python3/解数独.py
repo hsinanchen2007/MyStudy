@@ -1,9 +1,9 @@
-# 基本思路：
-遍历点，寻找解
-# 约束条件：
-行约束，列约束，块约束。board对应行约束，对应生成列约束和块约束的List
+# # 基本思路：
+# 遍历点，寻找解
+# # 约束条件：
+# 行约束，列约束，块约束。board对应行约束，对应生成列约束和块约束的List
 
-```python []
+# ```python []
 class Solution:
     def solveSudoku(self, board: List[List[str]]) -> None:
         def sudoku(DotIndex):
@@ -26,4 +26,4 @@ class Solution:
         block = [board[3*i][3*j:3*j+3] + board[3*i+1][3*j:3*j+3] + board[3*i+2][3*j:3*j+3] for i in range(3) for j in range(3)]
         Dot = [[i,j] for i in range(9) for j in range(9) if board[i][j]=='.']
         sudoku(0)
-```
+# ```

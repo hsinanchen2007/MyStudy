@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean hasGroupsSizeX(int[] deck){
 		/*
@@ -69,13 +69,13 @@ class Solution {
 		return min;
 	}
 }
-```
+// ```
 
-### 性能表现
+// ### 性能表现
 
-![1.png](https://pic.leetcode-cn.com/e7d98a84feca0065612648e929ab1db903f9959e9ace6847bf2176cffc2aec65-1.png)
+// ![1.png](https://pic.leetcode-cn.com/e7d98a84feca0065612648e929ab1db903f9959e9ace6847bf2176cffc2aec65-1.png)
 
-### 欢迎与我交流
+// ### 欢迎与我交流
 
-![wechat.png](https://pic.leetcode-cn.com/39b5259bae545a949437fa5cc49bf803436ce9fd74e628f3b1421473b73ab5dc-wechat.png)
+// ![wechat.png](https://pic.leetcode-cn.com/39b5259bae545a949437fa5cc49bf803436ce9fd74e628f3b1421473b73ab5dc-wechat.png)
 

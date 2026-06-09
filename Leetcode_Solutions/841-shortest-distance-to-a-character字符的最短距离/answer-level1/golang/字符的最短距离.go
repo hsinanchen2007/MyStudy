@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-主要是先把C在S中每个位置记录下来，后面遍历S进行判断长短即可
+// ### 解题思路
+// 此处撰写解题思路
+// 主要是先把C在S中每个位置记录下来，后面遍历S进行判断长短即可
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func shortestToChar(S string, C byte) []int {
      a := make([]int,0)
     s := make([]int,len(S))
@@ -41,4 +41,4 @@ func shortestToChar(S string, C byte) []int {
 
     return s
 }
-```
+// ```

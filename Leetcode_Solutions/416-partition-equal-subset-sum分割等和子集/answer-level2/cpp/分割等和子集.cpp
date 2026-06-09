@@ -1,16 +1,16 @@
-### 解题思路
-记dp[i][j]为在区间[0,i]中,nums是否存在若干个数字，使得他们的和为j
-那么对dp[i][j]
-若nums[i] == j,即只放入nums[i]即能满足,故dp[i][j] = true;
-若nums[i] > j,即nums[i]必然不能放入集合中,dp[i][j] = dp[i-1][j],
-若nums[j] < j,那么nums[i]有可能可以放入集合中,
-若dp[i-1][j-nums[i]]为true，那么必然能放入，dp[i][j]为true,
-若dp[i-1][j]为true,那么不需要放入nums[i]，dp[i][j]为true,
-综上取dp[i][j] = dp[i-1][j] || dp[i-1][j-nums[i]]
+// ### 解题思路
+// 记dp[i][j]为在区间[0,i]中,nums是否存在若干个数字，使得他们的和为j
+// 那么对dp[i][j]
+// 若nums[i] == j,即只放入nums[i]即能满足,故dp[i][j] = true;
+// 若nums[i] > j,即nums[i]必然不能放入集合中,dp[i][j] = dp[i-1][j],
+// 若nums[j] < j,那么nums[i]有可能可以放入集合中,
+// 若dp[i-1][j-nums[i]]为true，那么必然能放入，dp[i][j]为true,
+// 若dp[i-1][j]为true,那么不需要放入nums[i]，dp[i][j]为true,
+// 综上取dp[i][j] = dp[i-1][j] || dp[i-1][j-nums[i]]
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool canPartition(vector<int>& nums) {
@@ -34,4 +34,4 @@ public:
         return dp[nums.size()-1][target];
     }
 };
-```
+// ```

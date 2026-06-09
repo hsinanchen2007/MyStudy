@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-遍历数组，记录最长的连续递增序列即可。
+// 遍历数组，记录最长的连续递增序列即可。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findLengthOfLCIS(nums []int) int {
 	if len(nums) == 0 {
 		return 0
@@ -29,4 +29,4 @@ func findLengthOfLCIS(nums []int) int {
 	}
 	return res
 }
-```
+// ```

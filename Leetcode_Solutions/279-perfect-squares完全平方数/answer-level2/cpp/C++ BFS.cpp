@@ -1,5 +1,5 @@
-跟一般的广度优先方法一样，记录的是n减掉之前走过的数字之后还需减掉的数额，按步数组织层数以表示和的个数
-```
+// 跟一般的广度优先方法一样，记录的是n减掉之前走过的数字之后还需减掉的数额，按步数组织层数以表示和的个数
+// ```
   int numSquares(int n) {
     if (n < 3) return n;
     vector<int> book;
@@ -23,10 +23,10 @@
     }
     return -1;
   }
-```
-![image.png](https://pic.leetcode-cn.com/4f5621d0ea0a331eeeae7f000c155ef64db1b50432cf951b8f95bf8b2397cd6b-image.png)
-DP方法
-```
+// ```
+// ![image.png](https://pic.leetcode-cn.com/4f5621d0ea0a331eeeae7f000c155ef64db1b50432cf951b8f95bf8b2397cd6b-image.png)
+// DP方法
+// ```
   int numSquares(int n) {
     vector<int> book(n+1,INT_MAX);
     book[0] = 0;
@@ -40,5 +40,5 @@ DP方法
   int min(int x,int y){
     return x<y?x:y;
   }
-```
-![image.png](https://pic.leetcode-cn.com/8307528b3b3bdd222d79d623359fa786382be944d1f6ba3437a998417c66de50-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/8307528b3b3bdd222d79d623359fa786382be944d1f6ba3437a998417c66de50-image.png)

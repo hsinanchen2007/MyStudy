@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/dccdf88d35d1128995b197b8d7039c607bb9a3db99a2ddc79d2e954b72ace2a9-image.png)
+// ![image.png](https://pic.leetcode-cn.com/dccdf88d35d1128995b197b8d7039c607bb9a3db99a2ddc79d2e954b72ace2a9-image.png)
  
-在 update 函数与 sumRange 函数的调用次数是均匀分布的，采用线段树可以在花费一些额外空间的情况下，把这两个操作的时间复杂度都控制在O(log(n))
+// 在 update 函数与 sumRange 函数的调用次数是均匀分布的，采用线段树可以在花费一些额外空间的情况下，把这两个操作的时间复杂度都控制在O(log(n))
 
-```
+// ```
 public class NumArray {
     private int[] tree;
     private int[] nums;
@@ -73,5 +73,5 @@ public class NumArray {
         }
     }
 }
-```
+// ```
 

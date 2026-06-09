@@ -1,9 +1,9 @@
-### 解题思路
-看下每个字母是否在letters中
+# ### 解题思路
+# 看下每个字母是否在letters中
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def nextGreatestLetter(self, letters: List[str], target: str) -> str:
         for i in range(1,26):
@@ -11,4 +11,4 @@ class Solution:
             if ans in letters:
                 return ans
 
-```
+# ```

@@ -1,13 +1,13 @@
-### 解题思路
-![651a4355bb3ce6605fab7dea1c24bbb.png](https://pic.leetcode-cn.com/1ea4844eeff5e1a7682525d87294c9a36f3b640b38e253e9ee8c995d48e120cc-651a4355bb3ce6605fab7dea1c24bbb.png)
+// ### 解题思路
+// ![651a4355bb3ce6605fab7dea1c24bbb.png](https://pic.leetcode-cn.com/1ea4844eeff5e1a7682525d87294c9a36f3b640b38e253e9ee8c995d48e120cc-651a4355bb3ce6605fab7dea1c24bbb.png)
 
-从二维数组的上看,想要移动到位置(x,y)位置的方式就是两种，一种是从其相邻位置,无非就是其上面(x-1,y),以及其左边(x,y-1)。 需要找到一条移动到(x,y-1)或者(x-1,y)的路径
-以此类推要前往(x,y-1)或者(x-1,y) 需要找到其相邻的位置(x,y-1)的相邻位置为(x-1,y-1)和(x,y-2) 或者(x-1,y)的相邻位置为(x-2,y)和（x-1,y-1）
-如果其中有一个方格不能通过，绕道而行。
+// 从二维数组的上看,想要移动到位置(x,y)位置的方式就是两种，一种是从其相邻位置,无非就是其上面(x-1,y),以及其左边(x,y-1)。 需要找到一条移动到(x,y-1)或者(x-1,y)的路径
+// 以此类推要前往(x,y-1)或者(x-1,y) 需要找到其相邻的位置(x,y-1)的相邻位置为(x-1,y-1)和(x,y-2) 或者(x-1,y)的相邻位置为(x-2,y)和（x-1,y-1）
+// 如果其中有一个方格不能通过，绕道而行。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
    public List<List<Integer>> pathWithObstacles(int[][] obstacleGrid) {
         List<List<Integer>> paths=new ArrayList<>();
@@ -58,4 +58,4 @@ class Solution {
         return success;
     }
 }
-```
+// ```

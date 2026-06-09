@@ -1,9 +1,9 @@
-### 解题思路
-用时3ms，非递归，使用快慢指针解决
+// ### 解题思路
+// 用时3ms，非递归，使用快慢指针解决
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String countAndSay(int n) {
         String cur = "1";
@@ -25,4 +25,4 @@ class Solution {
         return cur;
     }
 }
-```
+// ```

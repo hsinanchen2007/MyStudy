@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-KMP 算法
+// KMP 算法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String longestPrefix(String s) {
         int n = s.length();
@@ -19,4 +19,4 @@ class Solution {
         return s.substring(0, max + 1);
     }
 }
-```
+// ```

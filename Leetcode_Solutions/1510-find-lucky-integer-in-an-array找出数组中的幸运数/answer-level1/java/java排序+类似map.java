@@ -1,9 +1,9 @@
-### 解题思路
-先排序，排序后统计
+// ### 解题思路
+// 先排序，排序后统计
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
    public int findLucky(int[] arr) {
         if(arr==null || arr.length==0){
@@ -22,4 +22,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

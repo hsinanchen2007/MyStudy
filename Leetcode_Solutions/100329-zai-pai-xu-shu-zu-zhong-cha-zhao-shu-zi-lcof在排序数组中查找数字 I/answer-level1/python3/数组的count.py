@@ -1,7 +1,7 @@
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         counts =0
@@ -10,4 +10,4 @@ class Solution:
         return counts
         # return nums.count(target)
             
-```
+# ```

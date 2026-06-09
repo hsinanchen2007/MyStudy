@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int max1Profit(int* prices, int pricesSize) {
     if (pricesSize == 1)
         return 0;
@@ -47,4 +47,4 @@ int maxProfit(int* prices, int pricesSize){
     return max;
 
 }
-```
+// ```

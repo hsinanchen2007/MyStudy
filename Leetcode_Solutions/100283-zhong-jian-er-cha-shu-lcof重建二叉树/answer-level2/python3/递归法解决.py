@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def buildTree(self, preorder: List[int], inorder: List[int]) -> TreeNode:
         p1, p2, i1, i2 = 0, len(preorder)-1, 0, len(inorder)-1
@@ -16,4 +16,4 @@ class Solution:
                 return None
 
         return construct(p1,p2,i1,i2)
-```
+# ```

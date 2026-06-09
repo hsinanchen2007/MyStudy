@@ -1,16 +1,16 @@
-### 解题思路
+// ### 解题思路
 
-1、一个for循环，要考虑每个字母向两边扩展之后的的对称特性，就是代码中的getlen(String s,int l,int r)方法
-2、考虑两种情况：aba、abba 。
-3、sta = i - (len3-1)/2+1;  这一步比较难理解，其实主要是分两步：
-    （1）aba 情况：sta = i - (len1)/2 ;  
-    （2）abba 情况 ：sta = i - (len2)/2+1;  
-   end都是一样的，
+// 1、一个for循环，要考虑每个字母向两边扩展之后的的对称特性，就是代码中的getlen(String s,int l,int r)方法
+// 2、考虑两种情况：aba、abba 。
+// 3、sta = i - (len3-1)/2+1;  这一步比较难理解，其实主要是分两步：
+//     （1）aba 情况：sta = i - (len1)/2 ;  
+//     （2）abba 情况 ：sta = i - (len2)/2+1;  
+//    end都是一样的，
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String longestPalindrome(String s) {
         if (s==null && s.length() ==0) return "";
@@ -42,4 +42,4 @@ class Solution {
         return r-l+1;
     }
 }
-```
+// ```

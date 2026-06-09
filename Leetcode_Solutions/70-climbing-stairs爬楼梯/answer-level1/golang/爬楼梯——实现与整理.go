@@ -1,11 +1,11 @@
 
-对于工程师来说，最有意义的方法就是借助缓存优化递归（Sol_1_3）和借助动态规划思想的方法（Sol_1_4， Sol_1_5）。
+// 对于工程师来说，最有意义的方法就是借助缓存优化递归（Sol_1_3）和借助动态规划思想的方法（Sol_1_4， Sol_1_5）。
 
-Binets解法太数学了，斐波那契数列递推公式在阶数n较大时误差变大
+// Binets解法太数学了，斐波那契数列递推公式在阶数n较大时误差变大
 
-## 实现
+// ## 实现
 
-```go
+// ```go
 package lt70
 
 import "math"
@@ -181,8 +181,8 @@ func Sol_1_7(n int) int {
 	fibn := math.Pow((1+sqrt5)/2, float64(n+1)) - math.Pow((1-sqrt5)/2, float64(n+1))
 	return int(fibn/sqrt5)
 }
-```
+// ```
 
-## 参考题解
+// ## 参考题解
 
-- <https://leetcode-cn.com/problems/climbing-stairs/solution/pa-lou-ti-by-leetcode/>
+// - <https://leetcode-cn.com/problems/climbing-stairs/solution/pa-lou-ti-by-leetcode/>

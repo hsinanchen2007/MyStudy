@@ -1,8 +1,8 @@
-# PS:
-也可以不使用stream()，根据S.length()求其**阶乘**，即可得到最终要返回的String[]数组长度。
-只不过懒得这样写，有兴趣可以自行尝试。
-# 代码
-```java
+// # PS:
+// 也可以不使用stream()，根据S.length()求其**阶乘**，即可得到最终要返回的String[]数组长度。
+// 只不过懒得这样写，有兴趣可以自行尝试。
+// # 代码
+// ```java
 class Solution {
     private LinkedList<String> res = new LinkedList<>();
     private boolean[] selected;
@@ -35,4 +35,4 @@ class Solution {
         }
     }
 }
-```
+// ```

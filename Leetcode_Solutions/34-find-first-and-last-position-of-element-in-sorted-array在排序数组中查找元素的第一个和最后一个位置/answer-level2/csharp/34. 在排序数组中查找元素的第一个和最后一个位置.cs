@@ -1,8 +1,8 @@
-### 解题思路
-二分查找大第一个大于target的位置，然后线性查找最后一个的位置
-### 代码
+// ### 解题思路
+// 二分查找大第一个大于target的位置，然后线性查找最后一个的位置
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int[] SearchRange(int[] nums, int target) {
         int len = nums.Length;
@@ -30,4 +30,4 @@ public class Solution {
         }
     }
 }
-```
+// ```

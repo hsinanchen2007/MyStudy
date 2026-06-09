@@ -1,7 +1,7 @@
 
-debug两小时，发现是kmp记错了，py3
-*第九行的海象运算符只有在python3.8以上才有*
-```python
+# debug两小时，发现是kmp记错了，py3
+# *第九行的海象运算符只有在python3.8以上才有*
+# ```python
 class Solution:
     def findGoodStrings(self, n: int, s1: str, s2: str, evil: str) -> int:
         MOD, lz = 10 ** 9 + 7, len(evil)
@@ -34,4 +34,4 @@ class Solution:
         
         pnext = kmp_pnext(evil)
         return F(0, 0, 1, 1)
-```
+# ```

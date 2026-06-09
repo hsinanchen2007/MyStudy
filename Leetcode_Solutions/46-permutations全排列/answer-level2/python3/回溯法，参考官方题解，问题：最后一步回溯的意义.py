@@ -1,9 +1,9 @@
-### 解题思路
-回溯法，仍然不懂最后一步回溯的意义。
+# ### 解题思路
+# 回溯法，仍然不懂最后一步回溯的意义。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
         def backtrack(first=0):
@@ -21,4 +21,4 @@ class Solution:
         backtrack()
         return ans
         
-```
+# ```

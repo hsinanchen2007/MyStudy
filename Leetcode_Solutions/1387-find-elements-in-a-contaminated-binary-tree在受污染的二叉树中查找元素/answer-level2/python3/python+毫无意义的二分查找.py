@@ -1,9 +1,9 @@
-### 解题思路
-以为有什么难度呢，结果一个集合就搞定了😭
+# ### 解题思路
+# 以为有什么难度呢，结果一个集合就搞定了😭
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -48,4 +48,4 @@ class FindElements:
 # Your FindElements object will be instantiated and called as such:
 # obj = FindElements(root)
 # param_1 = obj.find(target)
-```
+# ```

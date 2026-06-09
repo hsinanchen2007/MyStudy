@@ -1,6 +1,6 @@
-本题可以有递归和非递归两种解法，递归解法虽然效率差一点，但是能很好的练习如何写递归的思维。
+// 本题可以有递归和非递归两种解法，递归解法虽然效率差一点，但是能很好的练习如何写递归的思维。
 
-```
+// ```
 public ListNode deleteDuplicates1(ListNode head) {
         if (head == null || head.next == null) {
             return head;
@@ -33,4 +33,4 @@ public ListNode deleteDuplicates1(ListNode head) {
         return head;
 
     }
-```
+// ```

@@ -1,5 +1,5 @@
-不废话 上代码
-```
+// 不废话 上代码
+// ```
 var restoreIpAddresses = function(s) {
     let list = [];
     let memo = new Set(); // 用一个额外的set去过滤重复的ip
@@ -40,4 +40,4 @@ var isVaildIpSection = function (subs) {
     }
     return true;
 }   
-```
+// ```

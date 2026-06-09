@@ -1,9 +1,9 @@
-### 解题思路
-还有比我更快的算法，没理由啊
+// ### 解题思路
+// 还有比我更快的算法，没理由啊
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isPalindrome(string s) {
@@ -29,4 +29,4 @@ public:
         return true;
     }
 };
-```
+// ```

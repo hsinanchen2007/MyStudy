@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/b7e365da8cc7bff89968f5d3ecf7cb11e31e244395193ab98d415d8c74a5c688-image.png)
+// ![image.png](https://pic.leetcode-cn.com/b7e365da8cc7bff89968f5d3ecf7cb11e31e244395193ab98d415d8c74a5c688-image.png)
 
-居然撸了20多行。。还是太菜了
-```
+// 居然撸了20多行。。还是太菜了
+// ```
 class Solution {
 public:
     inline TreeNode* upsideDownBinaryTree(TreeNode* root, TreeNode* prevNode = nullptr) {
@@ -34,4 +34,4 @@ public:
         return upsideDownBinaryTree(newRoot, node);
     }
 };
-```
+// ```

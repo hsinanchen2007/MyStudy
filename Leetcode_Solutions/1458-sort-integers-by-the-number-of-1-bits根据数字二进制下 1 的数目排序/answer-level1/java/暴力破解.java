@@ -1,5 +1,5 @@
 
-```
+// ```
 class Solution {
     public int[] sortByBits(int[] arr) {
 		 
@@ -31,4 +31,4 @@ class Solution {
 		 return i/key.length();
 	 }
 }
-```
+// ```

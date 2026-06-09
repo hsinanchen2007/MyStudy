@@ -1,11 +1,11 @@
-![1.png](https://pic.leetcode-cn.com/de2478c591767cb6a651affb57b482b026b1841b7902e662bab32522cf1509a1-1.png)
+// ![1.png](https://pic.leetcode-cn.com/de2478c591767cb6a651affb57b482b026b1841b7902e662bab32522cf1509a1-1.png)
 
-### 解题思路
-本题坑比较多，先排序
+// ### 解题思路
+// 本题坑比较多，先排序
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -45,4 +45,4 @@ int** merge(int** intervals, int intervalsSize, int* intervalsColSize, int* retu
     *returnSize = x;
 	return res;
 }
-```
+// ```

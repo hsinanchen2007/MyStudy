@@ -1,5 +1,5 @@
-一、深度优先搜索，普通回溯算法
-```
+// 一、深度优先搜索，普通回溯算法
+// ```
 #define MAX_ALPHA 26
 int max = 0;
 int DFS(char** arr, int size, int len, int index, int* bk) {
@@ -28,9 +28,9 @@ int maxLength(char ** arr, int arrSize){
     max = 0;
     return DFS(arr, arrSize, 0, 0, NULL);
 }
-```
-二、字符串数组不长，可以用位运算穷举，不过效率貌似不高
-```
+// ```
+// 二、字符串数组不长，可以用位运算穷举，不过效率貌似不高
+// ```
 #define MAX_SIZE 1 << 16
 int GetBit(char *a) {
     int ret = 0;
@@ -66,6 +66,6 @@ int maxLength(char ** arr, int arrSize){
         max = fmax(max, len);
     }
     return max;
-```
+// ```
 
 

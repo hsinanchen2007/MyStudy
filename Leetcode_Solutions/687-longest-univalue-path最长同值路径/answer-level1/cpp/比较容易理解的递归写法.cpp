@@ -1,9 +1,9 @@
-### 解题思路
-比较容易理解的递归写法，注释写的很全
+// ### 解题思路
+// 比较容易理解的递归写法，注释写的很全
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -41,4 +41,4 @@ public:
         return max(left+1,right+1);
     }
 };
-```
+// ```

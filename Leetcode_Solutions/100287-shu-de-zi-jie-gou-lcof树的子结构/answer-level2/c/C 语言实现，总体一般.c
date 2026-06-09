@@ -1,10 +1,10 @@
-![图片.png](https://pic.leetcode-cn.com/5df60ac6d332e3169c51394c6f4d7705d8ed955792ed0166c5586b53f6a5113e-%E5%9B%BE%E7%89%87.png)
+// ![图片.png](https://pic.leetcode-cn.com/5df60ac6d332e3169c51394c6f4d7705d8ed955792ed0166c5586b53f6a5113e-%E5%9B%BE%E7%89%87.png)
 
-提示一个很重要的点：**二叉树**不是**二叉搜索树**，也就不存在二叉树的性质。我由于想当然，在这里栽了不少跟头。
+// 提示一个很重要的点：**二叉树**不是**二叉搜索树**，也就不存在二叉树的性质。我由于想当然，在这里栽了不少跟头。
 
-如果有同学存在疑问的话，请在下面提出，我尽量解答。
+// 如果有同学存在疑问的话，请在下面提出，我尽量解答。
 
-```
+// ```
 typedef struct TreeNode *BTree;
 
 bool
@@ -51,4 +51,4 @@ isSubStructure( BTree A, BTree B )
 
 	return match;
 }
-```
+// ```

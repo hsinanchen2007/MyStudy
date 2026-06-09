@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/d84e7d7fdb541a17f8f1a08490b3de90c7de75f5c00b46ab5f08837a2a95c771-image.png)
+// ![image.png](https://pic.leetcode-cn.com/d84e7d7fdb541a17f8f1a08490b3de90c7de75f5c00b46ab5f08837a2a95c771-image.png)
 
-```
+// ```
 class Solution {
     public int[] sortedSquares(int[] A) {
         int[] answer;
@@ -22,4 +22,4 @@ class Solution {
         return answer;
     }
 }
-```
+// ```

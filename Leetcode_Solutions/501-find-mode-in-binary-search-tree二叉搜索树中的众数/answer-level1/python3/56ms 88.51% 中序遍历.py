@@ -1,9 +1,9 @@
-### 解题思路
-中序遍历将频率记录在字典中，最后取出最大值
+# ### 解题思路
+# 中序遍历将频率记录在字典中，最后取出最大值
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -35,4 +35,4 @@ class Solution:
                 res.append(item)
         return res
 
-```
+# ```

@@ -1,8 +1,8 @@
-### 解题思路
-利用前序遍历的思路，递归依次修改结点的左右指针，左子树指针设为NULL，右子树指针设为后驱结点。
-### 代码
+// ### 解题思路
+// 利用前序遍历的思路，递归依次修改结点的左右指针，左子树指针设为NULL，右子树指针设为后驱结点。
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -40,4 +40,4 @@ void flatten(struct TreeNode* root){
         }
     }
 }
-```
+// ```

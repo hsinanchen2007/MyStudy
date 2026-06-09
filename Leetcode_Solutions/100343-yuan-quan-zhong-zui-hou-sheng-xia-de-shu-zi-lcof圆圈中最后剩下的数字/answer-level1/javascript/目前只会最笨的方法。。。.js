@@ -1,4 +1,4 @@
-```js
+// ```js
 //我的答案
 var lastRemaining = function(n, m) {
     const arr = [...new Array(n).keys()]
@@ -19,4 +19,4 @@ var lastRemaining = function(n, m) {
 // 2 3 4 2 3 （去3）
 // 2 4 2 4 2 （去2）
 // 剩下4
-```
+// ```

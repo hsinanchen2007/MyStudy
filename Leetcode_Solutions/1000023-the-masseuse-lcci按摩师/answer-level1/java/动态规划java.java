@@ -1,9 +1,9 @@
-### 解题思路
-动态规划java
+// ### 解题思路
+// 动态规划java
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int massage(int[] nums) {
         int len = nums.length;
@@ -19,4 +19,4 @@ class Solution {
 
     }
 }
-```
+// ```

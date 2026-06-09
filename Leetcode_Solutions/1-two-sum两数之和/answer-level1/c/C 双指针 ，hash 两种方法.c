@@ -1,4 +1,4 @@
-```
+// ```
 
 typedef struct tagMap {
 	int value;
@@ -58,11 +58,11 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize) {
 	free(sortMaps);
 	return NULL;
 }
-```
+// ```
 
-hash 法
+// hash 法
 
-```
+// ```
 
 typedef struct node {
 	int value;
@@ -107,4 +107,4 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize) {
 	free(hash);
 	return NULL;
 }
-```
+// ```

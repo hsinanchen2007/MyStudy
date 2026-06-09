@@ -1,9 +1,9 @@
-### 解题思路
-对于每个字符，如果自身为C则为0，否则设置双指针从中间向两边找，结果为两者距离的较小值.
+// ### 解题思路
+// 对于每个字符，如果自身为C则为0，否则设置双指针从中间向两边找，结果为两者距离的较小值.
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] shortestToChar(String S, char C) {
         int len = S.length();
@@ -24,4 +24,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

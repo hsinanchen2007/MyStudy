@@ -1,9 +1,9 @@
-### 解题思路
-就先假设人无限，按照[1,2,3,4,5,....] 生成数组，得到最终的数组之后，再按人数取余遍历。
+// ### 解题思路
+// 就先假设人无限，按照[1,2,3,4,5,....] 生成数组，得到最终的数组之后，再按人数取余遍历。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} candies
  * @param {number} num_people
@@ -32,4 +32,4 @@ var distributeCandies = function (candies, num_people) {
   }
   return res
 };
-```
+// ```

@@ -1,13 +1,13 @@
-### 解题思路
-广度优先搜索！
-因为按层序遍历时每一层组成一个集合，因此额外附加 dep 数组来记录当前到达第几层。
-如果说深搜对应了栈的话，那么广搜对应的就是队列！
+// ### 解题思路
+// 广度优先搜索！
+// 因为按层序遍历时每一层组成一个集合，因此额外附加 dep 数组来记录当前到达第几层。
+// 如果说深搜对应了栈的话，那么广搜对应的就是队列！
 
-![image.png](https://pic.leetcode-cn.com/a5789c24f5d5b4251d152edea58374ac47fc982622372c4fcf442c1b6206547a-image.png)
+// ![image.png](https://pic.leetcode-cn.com/a5789c24f5d5b4251d152edea58374ac47fc982622372c4fcf442c1b6206547a-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -68,4 +68,4 @@ public:
         return ans;
     }
 };
-```
+// ```

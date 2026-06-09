@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```scala
+// ```scala
 object Solution {
     def toLowerCase(str: String): String = {
         str.map{
@@ -8,4 +8,4 @@ object Solution {
         }
     }
 }
-```
+// ```

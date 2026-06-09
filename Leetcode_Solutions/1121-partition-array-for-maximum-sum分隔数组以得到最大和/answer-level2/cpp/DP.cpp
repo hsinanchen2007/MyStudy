@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-对每个位置i，枚举长度 j = 1 ~ K，看是否能更新到数组和更大。
+// 对每个位置i，枚举长度 j = 1 ~ K，看是否能更新到数组和更大。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxSumAfterPartitioning(vector<int>& A, int K) {
@@ -24,4 +24,4 @@ public:
         return dp[n];
     }
 };
-```
+// ```

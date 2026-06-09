@@ -1,4 +1,4 @@
-```
+// ```
  public static String toLowerCase(String str) { //第一种解决方案
         String s= str.toLowerCase();
         return s;
@@ -15,4 +15,4 @@
         }
         return new String(s);
     }
-```
+// ```

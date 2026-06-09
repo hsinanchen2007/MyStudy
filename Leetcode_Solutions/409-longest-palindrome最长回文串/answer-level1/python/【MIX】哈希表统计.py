@@ -1,9 +1,9 @@
-### 解题思路
-建立哈希表处理长度为奇数和偶数的字符
+# ### 解题思路
+# 建立哈希表处理长度为奇数和偶数的字符
 
-### 代码
+# ### 代码
 
-```java []
+# ```java []
 class Solution {
     public int longestPalindrome(String s) {
         // 贪心模式
@@ -24,8 +24,8 @@ class Solution {
         return L;
     }
 }
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def longestPalindrome(self, s: str) -> int:
         N = len(s)
@@ -52,8 +52,8 @@ class Solution:
             L += 1
 
         return L
-```
-```c++ []
+# ```
+# ```c++ []
 class Solution {
 public:
     int longestPalindrome(string s) {
@@ -89,4 +89,4 @@ public:
         return L;
     }
 };
-```
+# ```

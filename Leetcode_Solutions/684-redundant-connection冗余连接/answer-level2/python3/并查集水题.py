@@ -1,6 +1,6 @@
-由于题目已经保证了只有一个桥，那么直接做并差集来判断连通性就好了。遇到第一个联通节点直接输出。
+# 由于题目已经保证了只有一个桥，那么直接做并差集来判断连通性就好了。遇到第一个联通节点直接输出。
 
-```python
+# ```python
 class Solution:
     def __init__(self):
         self.par = [i for i in range(1005)]
@@ -32,4 +32,4 @@ class Solution:
                 self.uniq(x, y)
         return []        
         
-```
+# ```

@@ -1,9 +1,9 @@
 
-执行用时 :4 ms, 在所有 c 提交中击败了73.31%的用户
-内存消耗 :6.7 MB, 在所有 c 提交中击败了100.00%的用户
+// 执行用时 :4 ms, 在所有 c 提交中击败了73.31%的用户
+// 内存消耗 :6.7 MB, 在所有 c 提交中击败了100.00%的用户
 
 
-```
+// ```
 
 int CompareInt(const void *a, const void *b)
 {
@@ -29,4 +29,4 @@ int lastStoneWeight(int* stones, int stonesSize)
     }
 }
 
-```
+// ```

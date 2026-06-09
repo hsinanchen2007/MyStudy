@@ -1,9 +1,9 @@
-### 解题思路
-中序遍历的结果是递增的，如果出现非递增，就不是搜索树了。
+// ### 解题思路
+// 中序遍历的结果是递增的，如果出现非递增，就不是搜索树了。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -33,4 +33,4 @@ var isValidBST = function(root) {
   helper(root)
   return result
 };
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/05266918cf86ce9b00c591bde31c68ad4097dc687fe4d31a5fae934908baa436-image.png)
-### 代码
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/05266918cf86ce9b00c591bde31c68ad4097dc687fe4d31a5fae934908baa436-image.png)
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int strStr(string haystack, string needle) {
@@ -18,4 +18,4 @@ public:
         return -1;
     }
 };
-```
+// ```

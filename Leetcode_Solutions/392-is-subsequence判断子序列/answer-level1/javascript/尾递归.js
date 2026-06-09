@@ -1,12 +1,12 @@
-abc axbxcxd
-  ||
-  \/
-ab axbx
-  ||
-  \/
-a ax
+// abc axbxcxd
+//   ||
+//   \/
+// ab axbx
+//   ||
+//   \/
+// a ax
 
-```
+// ```
 var isSubsequence = function (s, t) {
   if (s.length < 1) {
     return true;
@@ -18,5 +18,5 @@ var isSubsequence = function (s, t) {
   }
   return isSubsequence(s.slice(0, -1), t.slice(0, idx));
 };
-```
+// ```
 

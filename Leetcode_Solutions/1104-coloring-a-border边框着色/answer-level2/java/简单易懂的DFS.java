@@ -1,5 +1,5 @@
-![微信图片_20200113203526.png](https://pic.leetcode-cn.com/f6fb4f76c0f87f4cd161cce7e960d0de1528cbab9a4079b88d88b14cd3ce511c-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200113203526.png)
-```
+// ![微信图片_20200113203526.png](https://pic.leetcode-cn.com/f6fb4f76c0f87f4cd161cce7e960d0de1528cbab9a4079b88d88b14cd3ce511c-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200113203526.png)
+// ```
 class Solution {
     public int[][] colorBorder(int[][] grid, int r0, int c0, int color) {
         boolean[][] flag=new boolean[grid.length][grid[0].length];
@@ -24,5 +24,5 @@ class Solution {
         help(grid,flag,i,j-1,target,color);
     }
 }
-```
+// ```
 

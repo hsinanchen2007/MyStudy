@@ -1,11 +1,11 @@
 
-解题思路：
+// 解题思路：
 
-1. 将pattern和str存储为key【单词】，value【索引数组】
+// 1. 将pattern和str存储为key【单词】，value【索引数组】
 
-2. 对比objPat和objStr中单词出现的索引是否一样
+// 2. 对比objPat和objStr中单词出现的索引是否一样
 
-```js
+// ```js
 var pattern = "abba";
 var str = "dog cat dog cat";
 
@@ -17,9 +17,9 @@ var objStr = {
 'dog': [1, 3],
 'cat': [0, 2]
 };
-```
+// ```
 
-```js
+// ```js
 var wordPattern = function(pattern, str) {
     var arr = str.split(' ');
     if (pattern.length !== arr.length) {
@@ -54,5 +54,5 @@ var wordPattern = function(pattern, str) {
     }
     return true;
 };
-```
+// ```
 

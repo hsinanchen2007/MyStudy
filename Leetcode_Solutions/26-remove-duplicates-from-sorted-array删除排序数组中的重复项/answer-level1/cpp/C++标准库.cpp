@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-C++标准库应用。
+// C++标准库应用。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
@@ -12,4 +12,4 @@ public:
         return std::distance(nums.begin(), iter);
     }
 };
-```
+// ```

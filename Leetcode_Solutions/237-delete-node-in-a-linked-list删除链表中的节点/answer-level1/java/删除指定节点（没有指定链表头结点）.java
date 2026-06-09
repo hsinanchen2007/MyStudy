@@ -1,10 +1,10 @@
-### 解题思路
-方法：直接删除指定节点。时间复杂度：O(1)；空间复杂度：O(1)。
-![桌面.PNG](https://pic.leetcode-cn.com/f5f87f31fd0a2c1d137b9efacbf922b5575fab63000778908c677afdb3b5153b-%E6%A1%8C%E9%9D%A2.PNG)
+// ### 解题思路
+// 方法：直接删除指定节点。时间复杂度：O(1)；空间复杂度：O(1)。
+// ![桌面.PNG](https://pic.leetcode-cn.com/f5f87f31fd0a2c1d137b9efacbf922b5575fab63000778908c677afdb3b5153b-%E6%A1%8C%E9%9D%A2.PNG)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -21,4 +21,4 @@ class Solution {
         node.next = node.next.next;
     }
 }
-```
+// ```

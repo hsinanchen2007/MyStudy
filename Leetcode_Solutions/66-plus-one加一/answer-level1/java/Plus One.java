@@ -1,9 +1,9 @@
-### 解题思路
-this question is mainly about the consideration of carry numbers when the last one is 9, it should then changed into 0 and check if its left side digit is 9. when all of the digits in this array are 9, then it should add one more digit, like 999--1000.
+// ### 解题思路
+// this question is mainly about the consideration of carry numbers when the last one is 9, it should then changed into 0 and check if its left side digit is 9. when all of the digits in this array are 9, then it should add one more digit, like 999--1000.
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] plusOne(int[] digits) {
         for(int digit = digits.length - 1; digit >= 0; digit--) {
@@ -19,4 +19,4 @@ class Solution {
         return newDigits;
     }
 }
-```
+// ```

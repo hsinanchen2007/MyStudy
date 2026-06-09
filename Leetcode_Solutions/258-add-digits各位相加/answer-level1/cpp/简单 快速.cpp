@@ -1,9 +1,9 @@
-### 解题思路
-两个循环搞定
+// ### 解题思路
+// 两个循环搞定
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int addDigits(int num)
@@ -21,4 +21,4 @@ public:
         return sum;
     }
 };
-```
+// ```

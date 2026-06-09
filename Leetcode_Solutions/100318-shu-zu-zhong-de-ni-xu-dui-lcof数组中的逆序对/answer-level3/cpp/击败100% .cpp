@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/9bc029bdefe29c44e6684c4dfc6097ccaca08418a63afd3e8af54e6819ea2374-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/9bc029bdefe29c44e6684c4dfc6097ccaca08418a63afd3e8af54e6819ea2374-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int reversePairs(vector<int>& nums) {
@@ -58,4 +58,4 @@ public:
         return left + right + count;
     }
 };
-```
+// ```

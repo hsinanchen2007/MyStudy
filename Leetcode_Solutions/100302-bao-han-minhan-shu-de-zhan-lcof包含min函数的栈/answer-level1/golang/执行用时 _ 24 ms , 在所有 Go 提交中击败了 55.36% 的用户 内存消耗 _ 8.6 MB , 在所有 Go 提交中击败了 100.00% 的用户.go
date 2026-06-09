@@ -1,4 +1,4 @@
-```
+// ```
 type MinStack struct {
 	stack []int
 	min   []int
@@ -37,4 +37,4 @@ func (this *MinStack) Top() int {
 func (this *MinStack) GetMin() int {
 	return this.min[len(this.min)-1]
 }
-```
+// ```

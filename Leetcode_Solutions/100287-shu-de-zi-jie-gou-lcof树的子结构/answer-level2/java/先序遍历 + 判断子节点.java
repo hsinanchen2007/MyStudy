@@ -1,4 +1,4 @@
-```
+// ```
 
     public boolean isSubStructure(TreeNode A, TreeNode B) {
 
@@ -25,4 +25,4 @@
             return isTree(a.left,b.left) && isTree(a.right,b.right);
         return false;
     }
-```
+// ```

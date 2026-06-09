@@ -1,9 +1,9 @@
-### 解题思路
-首先实现二叉树层序遍历，维护一个队列，在遍历过程中，把每层中两两相对应的左右子树互换就生成镜像二叉树
+// ### 解题思路
+// 首先实现二叉树层序遍历，维护一个队列，在遍历过程中，把每层中两两相对应的左右子树互换就生成镜像二叉树
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -36,4 +36,4 @@ public TreeNode mirrorTree(TreeNode root) {
 		return res;
 	}
 }
-```
+// ```

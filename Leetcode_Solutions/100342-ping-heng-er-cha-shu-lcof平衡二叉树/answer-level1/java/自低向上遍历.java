@@ -1,10 +1,10 @@
-### 解题思路
-1.参考官方，自低向上遍历
-2.递归到最深处开始比较结点高度
-3.如果出现不平衡，说明整个二叉树是不平衡到，直接将高度置为0
-### 代码
+// ### 解题思路
+// 1.参考官方，自低向上遍历
+// 2.递归到最深处开始比较结点高度
+// 3.如果出现不平衡，说明整个二叉树是不平衡到，直接将高度置为0
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -48,4 +48,4 @@ class Solution {
      return isBalancedhelper(root).blance;
     }
 }
-```
+// ```

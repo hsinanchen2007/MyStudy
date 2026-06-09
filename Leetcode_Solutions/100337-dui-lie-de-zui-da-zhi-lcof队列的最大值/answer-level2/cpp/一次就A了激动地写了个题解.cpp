@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-辅助双端队列，用作维护一个可访问栈底的单调栈
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 辅助双端队列，用作维护一个可访问栈底的单调栈
+// ### 代码
 
-```cpp
+// ```cpp
 class MaxQueue {
 public:
     queue<int> q;
@@ -39,4 +39,4 @@ public:
  * obj->push_back(value);
  * int param_3 = obj->pop_front();
  */
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-关注这位知乎大佬，小白也能学懂算法
-https://www.zhihu.com/people/god-jiang
+// ### 解题思路
+// 关注这位知乎大佬，小白也能学懂算法
+// https://www.zhihu.com/people/god-jiang
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -31,4 +31,4 @@ class Solution {
         return left.val==right.val&&is(left.left,right.right)&&is(left.right,right.left);
     }
 }
-```
+// ```

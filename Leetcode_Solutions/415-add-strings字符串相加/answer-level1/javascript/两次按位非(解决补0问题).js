@@ -1,8 +1,8 @@
-跟67题相似
-参考了[@ldq-2](/u/ldq-2/)的67题评论
-*carry代表进位*
+// 跟67题相似
+// 参考了[@ldq-2](/u/ldq-2/)的67题评论
+// *carry代表进位*
 
-```javascript []
+// ```javascript []
 var addStrings = function(num1, num2) {
   var len1 = num1.length - 1
   var len2 = num2.length - 1
@@ -21,6 +21,6 @@ var addStrings = function(num1, num2) {
   }
   return carry !== 0 ? carry + str : str
 }
-```
+// ```
 
 

@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/32a638175a27900f13ca21286a62518dd830ab135d822d885243d6149c1deae7-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/32a638175a27900f13ca21286a62518dd830ab135d822d885243d6149c1deae7-image.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxSubArray(int[] nums) {
 
@@ -32,4 +32,4 @@ class Solution {
 }
 
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-$dp[i]$表示以nums[i]为结尾的最长上升子序列, 时间复杂度$O(N^2)$, 如果配合二分查找时间复杂度可以降为$O(NlgN)$
+# ### 解题思路
+# $dp[i]$表示以nums[i]为结尾的最长上升子序列, 时间复杂度$O(N^2)$, 如果配合二分查找时间复杂度可以降为$O(NlgN)$
 
-**动态规划**
-### 代码
-```java []
+# **动态规划**
+# ### 代码
+# ```java []
 class Solution {
     public int lengthOfLIS(int[] nums) {
         int N = nums.length;
@@ -28,8 +28,8 @@ class Solution {
         return max_dp;
     }
 }
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def lengthOfLIS(self, nums: List[int]) -> int:
         N = len(nums)
@@ -43,8 +43,8 @@ class Solution:
                 if nums[j]<nums[i] and dp[i]<dp[j]+1:
                     dp[i] = dp[j]+1
         return max(dp)
-```
-```c++ []
+# ```
+# ```c++ []
 class Solution {
 public:
     int lengthOfLIS(vector<int>& nums) {
@@ -72,10 +72,10 @@ public:
         return max_seq;
     }
 };
-```
-**伪stack**
-### 代码
-```java []
+# ```
+# **伪stack**
+# ### 代码
+# ```java []
 class Solution {
     public int lengthOfLIS(int[] nums) {
         // 使用伪栈 + 贪心
@@ -97,8 +97,8 @@ class Solution {
         return arr.size();
     }
 }
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def lengthOfLIS(self, nums: List[int]) -> int:
         # 使用伪栈+贪心算法
@@ -116,8 +116,8 @@ class Solution:
                         st[j] = nums[i]
                         break
         return len(st)
-```
-```c++ []
+# ```
+# ```c++ []
 class Solution {
 public:
     int lengthOfLIS(vector<int>& nums) {
@@ -142,10 +142,10 @@ public:
         return stack.size();
     }
 };
-```
-**二分法优化**
-### 代码
-```java []
+# ```
+# **二分法优化**
+# ### 代码
+# ```java []
 class Solution {
     public int lengthOfLIS(int[] A) {
         int N = A.length;
@@ -176,8 +176,8 @@ class Solution {
         return top;
     }
 }
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def lengthOfLIS(self, nums: List[int]) -> int:
         N = len(nums)
@@ -196,8 +196,8 @@ class Solution:
             if end == res:
                 res += 1
         return res
-```
-```c++ []
+# ```
+# ```c++ []
 class Solution {
 public:
     int lengthOfLIS(vector<int>& nums) {
@@ -235,4 +235,4 @@ public:
         return res;
     }
 };
-```
+# ```

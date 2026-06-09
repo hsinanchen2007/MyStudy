@@ -1,9 +1,9 @@
-### 解题思路
-快慢指针。快指针fast前移 n+1，慢指针slow开始移动。当 fast == NULL 时, slow->next 即为要删除的节点。
+// ### 解题思路
+// 快慢指针。快指针fast前移 n+1，慢指针slow开始移动。当 fast == NULL 时, slow->next 即为要删除的节点。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -27,4 +27,4 @@ struct ListNode* removeNthFromEnd(struct ListNode* head, int n){
 }
 
 
-```
+// ```

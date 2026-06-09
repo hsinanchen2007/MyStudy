@@ -1,8 +1,8 @@
-### analyze
+// ### analyze
 
-解法一: 链表, 类似归并排序的合并过程, 见[归并排序](https://github.com/MuYunyun/blog/blob/master/BasicSkill/algorithm/sort/merge_sort.md)
+// 解法一: 链表, 类似归并排序的合并过程, 见[归并排序](https://github.com/MuYunyun/blog/blob/master/BasicSkill/algorithm/sort/merge_sort.md)
 
-```js
+// ```js
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -46,11 +46,11 @@ var mergeTwoLists = function (l1, l2) {
 
   return dummyLink.next
 }
-```
+// ```
 
-解法二: 递归
+// 解法二: 递归
 
-```js
+// ```js
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -78,6 +78,6 @@ var mergeTwoLists = function (l1, l2) {
     return l2
   }
 }
-```
+// ```
 
-> 为确保内容的实时、准确性, 可以查看[JavaScript 题解](https://github.com/MuYunyun/blog/blob/master/BasicSkill/LeetCode/README.md)
+// > 为确保内容的实时、准确性, 可以查看[JavaScript 题解](https://github.com/MuYunyun/blog/blob/master/BasicSkill/LeetCode/README.md)

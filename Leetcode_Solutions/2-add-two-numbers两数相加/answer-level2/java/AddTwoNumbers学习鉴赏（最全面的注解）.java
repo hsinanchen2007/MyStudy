@@ -1,11 +1,11 @@
-### 解题思路
-AddTwoNumbers //解决两个数字相加问题，实际上是链表思想
-//解决这道题就简单的就是遍历两个链表，相加。需要注意的地方就是进位问题。
-//力扣官方的这道题解法真的把最简单的思想表达的淋漓尽致，请欣赏
+// ### 解题思路
+// AddTwoNumbers //解决两个数字相加问题，实际上是链表思想
+// //解决这道题就简单的就是遍历两个链表，相加。需要注意的地方就是进位问题。
+// //力扣官方的这道题解法真的把最简单的思想表达的淋漓尽致，请欣赏
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 public ListNode addTwoNumbers(ListNode l1,ListNode l2){
 ListNode dummyHead = new ListNode(0);
 ListNode p = l1, q = l2, curr = dummyHead; //curr是为了操作结果链表dummyHead而设
@@ -25,4 +25,4 @@ if(carry>0){
 }
 return dummyHead.next; //返回结点地址
 }
-```
+// ```

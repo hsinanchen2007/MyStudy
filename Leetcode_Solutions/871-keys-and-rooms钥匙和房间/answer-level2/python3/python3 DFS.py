@@ -1,5 +1,5 @@
-DFS，访问过的房间用set存储
-```
+# DFS，访问过的房间用set存储
+# ```
 class Solution:
     def canVisitAllRooms(self, rooms: List[List[int]]) -> bool:
         self.r = {0}
@@ -11,4 +11,4 @@ class Solution:
             if j not in self.r:
                 self.r.add(j)
                 self.room(rooms[j], rooms)
-```
+# ```

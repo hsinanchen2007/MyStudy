@@ -1,11 +1,11 @@
-用数组模拟树
-用数组表示二叉树
-i位置的树的parent：(i - 1) / 2
-i位置的树的左子树：2 * (i + 1) - 1
-i位置的树的右子树：2 * (i + 1) 
-![QQ截图20200303214246.jpg](https://pic.leetcode-cn.com/5b14b7d79551fd7fca258f33102a434831e0231377182565ffceddb69ebf2cda-QQ%E6%88%AA%E5%9B%BE20200303214246.jpg)
+// 用数组模拟树
+// 用数组表示二叉树
+// i位置的树的parent：(i - 1) / 2
+// i位置的树的左子树：2 * (i + 1) - 1
+// i位置的树的右子树：2 * (i + 1) 
+// ![QQ截图20200303214246.jpg](https://pic.leetcode-cn.com/5b14b7d79551fd7fca258f33102a434831e0231377182565ffceddb69ebf2cda-QQ%E6%88%AA%E5%9B%BE20200303214246.jpg)
 
-```
+// ```
 class Solution {
     public int pathSum(int[] nums) {
         int[] base = {0, 0, 1, 3, 7};
@@ -44,4 +44,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

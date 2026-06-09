@@ -1,5 +1,5 @@
-刚好之前做过一道题，一年中的第几天，leetcode 1154 直接搬过来。dayOfYear 函数就是
-```
+// 刚好之前做过一道题，一年中的第几天，leetcode 1154 直接搬过来。dayOfYear 函数就是
+// ```
 class Solution {
 public:
     int dayOfYear(string date) {
@@ -50,4 +50,4 @@ public:
         }
     }
 };
-```
+// ```

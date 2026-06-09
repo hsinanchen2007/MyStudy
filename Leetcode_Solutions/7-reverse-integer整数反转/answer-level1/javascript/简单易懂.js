@@ -1,12 +1,12 @@
-### 解题思路
-- 判断正负，取符号
-- 反转前后都要判断是否超出范围
-- 把数字转成字符串再专成数组，调用 reverse 方法，再转成字符串
-- 加上符号
+// ### 解题思路
+// - 判断正负，取符号
+// - 反转前后都要判断是否超出范围
+// - 把数字转成字符串再专成数组，调用 reverse 方法，再转成字符串
+// - 加上符号
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} x
  * @return {number}
@@ -18,4 +18,4 @@ var reverse = function(x) {
     if (res > Math.pow(2, 31) - 1) return 0;
     return flag * res;
 };
-```
+// ```

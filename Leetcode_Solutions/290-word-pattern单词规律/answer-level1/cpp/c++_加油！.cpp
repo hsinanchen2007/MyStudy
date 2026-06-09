@@ -1,8 +1,8 @@
-![单词规律.png](https://pic.leetcode-cn.com/d9bf35432afc0ba621231e4c1d440fecd8c2b9c5a90280369ef30e1616121049-%E5%8D%95%E8%AF%8D%E8%A7%84%E5%BE%8B.png)
+// ![单词规律.png](https://pic.leetcode-cn.com/d9bf35432afc0ba621231e4c1d440fecd8c2b9c5a90280369ef30e1616121049-%E5%8D%95%E8%AF%8D%E8%A7%84%E5%BE%8B.png)
 
-方法1：
+// 方法1：
 
-```
+// ```
 class Solution {
 public:
     bool wordPattern(string pattern, string str) {
@@ -35,5 +35,5 @@ public:
             return true;
         }       
 };
-```
+// ```
 

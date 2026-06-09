@@ -1,8 +1,8 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/4228afde3c9f2bdf9d97475dfe640fd4db06f78d6ecec794f04762a941fff696-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/4228afde3c9f2bdf9d97475dfe640fd4db06f78d6ecec794f04762a941fff696-image.png)
 
 
-```js
+// ```js
 // 如: let R = 2, C = 2, r0 = 0, c0 = 1
 
 //先循环获取所有坐标值 同时计算 曼哈顿距离, 把该距离与坐标值放入同一数组
@@ -17,12 +17,12 @@ arr = [[0,1,0],[0,0,1],[1,1,1],[1,0,2]]
 
 arr = [[0,1],[0,0],[1,1],[1,0]]
 
-```
+// ```
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} R
  * @param {number} C
@@ -45,4 +45,4 @@ var allCellsDistOrder = function(R, C, r0, c0) {
     }
   )
 };
-```
+// ```

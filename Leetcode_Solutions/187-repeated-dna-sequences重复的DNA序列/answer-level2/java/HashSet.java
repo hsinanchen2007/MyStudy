@@ -1,5 +1,5 @@
-// 创建两个hash，一个用于存 10个数组的清单
-// 另外一个进行比较，如果再次出现，在存入
+// // 创建两个hash，一个用于存 10个数组的清单
+// // 另外一个进行比较，如果再次出现，在存入
 
 class Solution {
     public List<String> findRepeatedDnaSequences(String s) {

@@ -1,6 +1,6 @@
-逐个字符添加，添加后去掉该字符（设为为None），尝试完成后进行恢复
+# 逐个字符添加，添加后去掉该字符（设为为None），尝试完成后进行恢复
 
-```
+# ```
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
         def helper(solution):
@@ -21,4 +21,4 @@ class Solution:
         res = []
         helper([])
         return res
-```
+# ```

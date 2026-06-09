@@ -1,15 +1,15 @@
-### 解题思路
-本题不属于算法题，属于Java语言的语法题：
-总结几个重要的Java函数吧。
-StringBuilder xx=new StringBuilder();  //用来建立字符串的函数
-String i:S.split(" ");   //分割字符串
-StringBuilder 中的append函数可以连用。如果加入除第一个字母之外的可以append(i.substring(1))
-删除函数  answer.deleteCharAt(S.length()-1)
+// ### 解题思路
+// 本题不属于算法题，属于Java语言的语法题：
+// 总结几个重要的Java函数吧。
+// StringBuilder xx=new StringBuilder();  //用来建立字符串的函数
+// String i:S.split(" ");   //分割字符串
+// StringBuilder 中的append函数可以连用。如果加入除第一个字母之外的可以append(i.substring(1))
+// 删除函数  answer.deleteCharAt(S.length()-1)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String toGoatLatin(String S) {
         //本题其实就是一个字符串函数在Java语言中的应用，不涉及算法，涉及语法
@@ -41,4 +41,4 @@ class Solution {
         return answer.toString();
     }
 }
-```
+// ```

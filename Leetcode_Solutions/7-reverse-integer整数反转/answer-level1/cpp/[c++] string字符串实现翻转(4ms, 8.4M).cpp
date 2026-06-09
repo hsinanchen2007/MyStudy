@@ -1,9 +1,9 @@
-### 解题思路
-用string实现翻转，就是挺耗内存的
+// ### 解题思路
+// 用string实现翻转，就是挺耗内存的
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 #include<string>
 class Solution {
 public:
@@ -35,4 +35,4 @@ public:
         return result;
     }
 };
-```
+// ```

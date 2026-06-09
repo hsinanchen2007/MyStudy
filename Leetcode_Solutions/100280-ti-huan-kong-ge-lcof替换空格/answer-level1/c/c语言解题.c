@@ -1,8 +1,8 @@
  
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char* replaceSpace(char* s){
     char* ss=(char*)malloc(sizeof(char)*14000);
     int j=0;
@@ -23,4 +23,4 @@ char* replaceSpace(char* s){
     
     return ss;
 }
-```
+// ```

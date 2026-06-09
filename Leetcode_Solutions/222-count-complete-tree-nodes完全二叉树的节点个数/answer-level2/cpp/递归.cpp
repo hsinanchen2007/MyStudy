@@ -1,9 +1,9 @@
-### 解题思路
-递归解法，与求深度一样
+// ### 解题思路
+// 递归解法，与求深度一样
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -20,4 +20,4 @@ public:
         return countNodes(root->left) + countNodes(root->right) + 1;
     }
 };
-```
+// ```

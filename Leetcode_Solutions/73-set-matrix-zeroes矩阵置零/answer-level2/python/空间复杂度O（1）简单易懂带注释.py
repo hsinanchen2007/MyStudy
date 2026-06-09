@@ -1,9 +1,9 @@
-### 解题思路
-难点在于首行首列制0，但是不能影响后续其他行的判断。所以用两个标记，最后来处理首行首列
+# ### 解题思路
+# 难点在于首行首列制0，但是不能影响后续其他行的判断。所以用两个标记，最后来处理首行首列
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def setZeroes(self, matrix: List[List[int]]) -> None:
         """
@@ -33,4 +33,4 @@ class Solution:
         if line_flag:
             for x in range(len(matrix)):
                 matrix[x][0] = 0
-```
+# ```

@@ -1,14 +1,14 @@
-### 思路
-二叉树的前序遍历为中左右，后序遍历为左右中。所以想到利用反向前序遍历，然后再reverse一下得到结果
+// ### 思路
+// 二叉树的前序遍历为中左右，后序遍历为左右中。所以想到利用反向前序遍历，然后再reverse一下得到结果
 
-### C++vector的reverse
-vector的反转我用for循环实现时间0ms内存8.8mb
-但是用内置函数reverse(v.begin(),v.end())时间直接飙升到8ms，内存减少了0.3mb
-最后还是用for循环吧
+// ### C++vector的reverse
+// vector的反转我用for循环实现时间0ms内存8.8mb
+// 但是用内置函数reverse(v.begin(),v.end())时间直接飙升到8ms，内存减少了0.3mb
+// 最后还是用for循环吧
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -45,4 +45,4 @@ public:
 		return v;
 	}
 };
-```
+// ```

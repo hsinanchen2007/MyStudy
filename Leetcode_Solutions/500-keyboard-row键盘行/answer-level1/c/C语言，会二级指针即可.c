@@ -1,6 +1,6 @@
-第一次自己独立完成二级指针的题目，庆祝下
+// 第一次自己独立完成二级指针的题目，庆祝下
 
-```c
+// ```c
 #include <stdio.h>
 #include <string.h>
 #include <stdbool.h>
@@ -78,4 +78,4 @@ int main(void)
     return 0;
 }
 
-```
+// ```

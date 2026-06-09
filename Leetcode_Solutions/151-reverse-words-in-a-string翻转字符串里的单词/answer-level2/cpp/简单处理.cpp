@@ -1,10 +1,10 @@
-### 解题思路
-比较简单的操作
-利用istringstream 读取到vector中
-逆序输出到string中
-### 代码
+// ### 解题思路
+// 比较简单的操作
+// 利用istringstream 读取到vector中
+// 逆序输出到string中
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	string reverseWords(string str) {
@@ -25,4 +25,4 @@ public:
 	}
 };
 
-```
+// ```

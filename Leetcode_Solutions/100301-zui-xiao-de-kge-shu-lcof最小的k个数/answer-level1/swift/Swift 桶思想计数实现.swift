@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-桶思想，放入后，取出指定个非零项即可
+// 桶思想，放入后，取出指定个非零项即可
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func getLeastNumbers(_ arr: [Int], _ k: Int) -> [Int] {
         let len = arr.count
@@ -37,4 +37,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

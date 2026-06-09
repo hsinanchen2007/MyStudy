@@ -1,11 +1,11 @@
-上来第一题就是不熟悉的数据结构……小白选择边抄答案边学习（手动再见）
-栈：后进先出，LIFO
-队列：先进先出，FIFO
-python可以使用单队列list、双队列collections.deque或队列queue.Queue实现。
-这里先写（chao）了个list的解法，唯一不能直接return的就是push()，题目限制只能用最基础的几个操作。
+# 上来第一题就是不熟悉的数据结构……小白选择边抄答案边学习（手动再见）
+# 栈：后进先出，LIFO
+# 队列：先进先出，FIFO
+# python可以使用单队列list、双队列collections.deque或队列queue.Queue实现。
+# 这里先写（chao）了个list的解法，唯一不能直接return的就是push()，题目限制只能用最基础的几个操作。
 
-代码实现：
-```
+# 代码实现：
+# ```
 class MyStack:
 
     def __init__(self):
@@ -49,4 +49,4 @@ class MyStack:
 # param_2 = obj.pop()
 # param_3 = obj.top()
 # param_4 = obj.empty()
-```
+# ```

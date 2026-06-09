@@ -1,6 +1,6 @@
-思路：双指针。快指针在后面找非0元素，找到后利用慢指针更新前面数组。当快指针遍历完数组后，慢指针后面的元素全填0.
+// 思路：双指针。快指针在后面找非0元素，找到后利用慢指针更新前面数组。当快指针遍历完数组后，慢指针后面的元素全填0.
 
-```
+// ```
 func moveZeroes(nums []int) {
 	numsLen := len(nums)
 	var slowIndex int
@@ -27,5 +27,5 @@ func moveZeroes(nums []int) {
 	}
 }
 
-```
-![image.png](https://pic.leetcode-cn.com/6158c3c22cf91b73c0ad1ff975fee90cf0d486bbafc19f1e9fea998ce2ba6080-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/6158c3c22cf91b73c0ad1ff975fee90cf0d486bbafc19f1e9fea998ce2ba6080-image.png)

@@ -1,5 +1,5 @@
-思路是给左面和上面各加一个障碍边，这样不用对边界做判断。
-```
+# 思路是给左面和上面各加一个障碍边，这样不用对边界做判断。
+# ```
 class Solution:
     def uniquePathsWithObstacles(self, obstacleGrid: List[List[int]]) -> int:
         m, n = len(obstacleGrid[0]), len(obstacleGrid)
@@ -8,4 +8,4 @@ class Solution:
             for j in range(0, m):
                 dp[j] = 0 if obstacleGrid[i][j] else dp[j]+dp[j-1]
         return dp[-2]
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-最小值数组
+// ### 解题思路
+// 最小值数组
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func find132pattern(nums []int) bool {
 	length := len(nums)
     if length <= 0 {
@@ -39,4 +39,4 @@ func find132pattern(nums []int) bool {
 	return false
 }
 
-```
+// ```

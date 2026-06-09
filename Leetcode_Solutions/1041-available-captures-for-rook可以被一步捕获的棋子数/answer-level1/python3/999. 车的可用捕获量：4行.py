@@ -1,17 +1,17 @@
 
 
-```python []
+# ```python []
 class Solution:
     def numRookCaptures(self, board: List[List[str]]) -> int:
         r = '|'.join(('', *map(''.join, board), '')).replace('.', '')
         c = '|'.join(('', *map(''.join, zip(*board)), '')).replace('.', '')
         i, j = r.find('R'), c.find('R')
         return (r[i - 1], r[i + 1], c[j - 1], c[j + 1]).count('p')
-```
+# ```
 
-另一种解法：
+# 另一种解法：
 
-```python []
+# ```python []
 class Solution:
     def numRookCaptures(self, board: List[List[str]]) -> int:
         for x, y in itertools.product(range(8), repeat=2):
@@ -22,4 +22,4 @@ class Solution:
                     next((board[x][j] == 'p' for j in range(y + 1, 8) if board[x][j] != '.'), 0),
                     next((board[x][j] == 'p' for j in reversed(range(y)) if board[x][j] != '.'), 0)
                 ))
-```
+# ```

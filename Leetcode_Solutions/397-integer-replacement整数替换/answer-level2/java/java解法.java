@@ -1,6 +1,6 @@
-执行用时 : 6 ms, 击败了53.56% 的用户。
-内存消耗 : 32.8 MB, 击败了79.09% 的用户。
-```
+// 执行用时 : 6 ms, 击败了53.56% 的用户。
+// 内存消耗 : 32.8 MB, 击败了79.09% 的用户。
+// ```
 class Solution {
     public int integerReplacement(int n) {
         int[] min = new int[]{Integer.MAX_VALUE};
@@ -24,4 +24,4 @@ class Solution {
         }
     }
 }
-```
+// ```

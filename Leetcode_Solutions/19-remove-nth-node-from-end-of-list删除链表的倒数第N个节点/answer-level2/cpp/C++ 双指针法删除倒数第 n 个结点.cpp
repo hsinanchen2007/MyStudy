@@ -1,6 +1,6 @@
-***Talk is cheap. Show me the code.***
+// ***Talk is cheap. Show me the code.***
 
-```cpp
+// ```cpp
 // 没有使用哨兵结点的版本
 
 class Solution {
@@ -30,9 +30,9 @@ public:
     	return head;
     }
 };
-```
+// ```
 
-``` cpp
+// ``` cpp
 // 使用了哨兵结点的版本
 
 class Solution {
@@ -59,5 +59,5 @@ public:
     }
 };
 
-```
-- 一般来说，涉及到链表的插入、删除操作，使用哨兵结点可以避免掉某些边界条件的判断，使代码实现变得更简洁
+// ```
+// - 一般来说，涉及到链表的插入、删除操作，使用哨兵结点可以避免掉某些边界条件的判断，使代码实现变得更简洁

@@ -1,12 +1,12 @@
-方法一 合并后排序
-```
+// 方法一 合并后排序
+// ```
 void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
         for(int i=m,j=0;i<m+n;i++,j++) nums1[i]=nums2[j];
         sort(nums1.begin(),nums1.end());
     }
-```
-方法二 双指针1 从前到后
-```
+// ```
+// 方法二 双指针1 从前到后
+// ```
 void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
         int p=0,i=0,j=0;
         vector<int> tmp(nums1.begin(),nums1.begin()+m);
@@ -14,9 +14,9 @@ void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
         while(j<n) nums1[p++] = nums2[j++];
         while(i<m) nums1[p++] = tmp[i++];
     }
-```
-方法三 双指针2 从后到前
-```
+// ```
+// 方法三 双指针2 从后到前
+// ```
 class Solution {
 public:
     void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
@@ -30,4 +30,4 @@ public:
         }
     }
 };
-```
+// ```

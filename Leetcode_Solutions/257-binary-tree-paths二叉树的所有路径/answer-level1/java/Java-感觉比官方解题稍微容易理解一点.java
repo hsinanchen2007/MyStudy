@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
 	List<String> res = new ArrayList<>();
 	private void DFS(TreeNode root, String str) {
@@ -17,4 +17,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

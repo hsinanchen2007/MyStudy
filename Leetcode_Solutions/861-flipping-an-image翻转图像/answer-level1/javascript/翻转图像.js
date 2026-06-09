@@ -1,6 +1,6 @@
-*法一*
+// *法一*
 
-```js
+// ```js
 var flipAndInvertImage = function(A) {
     let res = []
     for (let i = 0; i < A.length; i++) {
@@ -23,11 +23,11 @@ var flipAndInvertImage = function(A) {
     }
     return res
 };
-```
+// ```
 
-*法二*
+// *法二*
 
-```js
+// ```js
 var flipAndInvertImage = function(A) {
     return A.map((item) => {
         return item.reverse().map((num) => {
@@ -35,5 +35,5 @@ var flipAndInvertImage = function(A) {
         })
     });
 };
-```
+// ```
 

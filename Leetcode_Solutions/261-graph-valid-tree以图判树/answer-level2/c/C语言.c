@@ -1,15 +1,15 @@
-**出错用例：**
-`        输入：
-        4
-        [[0,1],[2,3]]
-        输出：
-        true
-        预期：
-        false`
-出错原因：没有判断count的值，加上return count==1;，则运行正确。
-如果不写这个count值的判断，就没有判断边不够用的情况，count>1是两个联通图，在这道题里面也就是两个树。
+// **出错用例：**
+// `        输入：
+//         4
+//         [[0,1],[2,3]]
+//         输出：
+//         true
+//         预期：
+//         false`
+// 出错原因：没有判断count的值，加上return count==1;，则运行正确。
+// 如果不写这个count值的判断，就没有判断边不够用的情况，count>1是两个联通图，在这道题里面也就是两个树。
 
-```
+// ```
 bool UnionFind(int x,int y,int *count,int *roots,int *rank){
     int rootx=Find(x,roots);
     int rooty=Find(y,roots);
@@ -44,4 +44,4 @@ bool validTree(int n, int** edges, int edgesSize, int* edgesColSize){
     }
     return count==1;
 }
-```
+// ```

@@ -1,6 +1,6 @@
-维护一个K大小的最大堆。
-遍历数组，如果比堆顶（最大值）小，就替换堆顶，然后调整堆。
-```
+// 维护一个K大小的最大堆。
+// 遍历数组，如果比堆顶（最大值）小，就替换堆顶，然后调整堆。
+// ```
 public class Solution {
     void swap(int[] nums, int x, int y) {
         var r = nums[x];
@@ -42,4 +42,4 @@ public class Solution {
         return heap;
     }
 }
-```
+// ```

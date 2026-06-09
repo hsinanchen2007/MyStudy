@@ -1,9 +1,9 @@
-### 解题思路
-上一个版本的优化
+// ### 解题思路
+// 上一个版本的优化
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} strs
  * @return {string}
@@ -39,4 +39,4 @@ var longestCommonPrefix = function(strs) {
 
     return commonStr;
 };
-```
+// ```

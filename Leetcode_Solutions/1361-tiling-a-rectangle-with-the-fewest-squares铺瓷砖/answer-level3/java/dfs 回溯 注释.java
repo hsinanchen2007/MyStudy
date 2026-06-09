@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     static int total;
 	static int result;
@@ -85,4 +85,4 @@ loop:			for(int i=1;i<=min;i++){
 		}
 	}
 }
-```
+// ```

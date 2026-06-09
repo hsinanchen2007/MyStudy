@@ -1,9 +1,9 @@
-### 解题思路
-和快排的思路类似
+// ### 解题思路
+// 和快排的思路类似
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int apl(char *S,int n){
     if(S[n]>='a'&&S[n]<='z')return 1;
     else if(S[n]>='A'&&S[n]<='Z')return 1;
@@ -25,4 +25,4 @@ char * reverseOnlyLetters(char * S){
         }
         return S;
 }
-```
+// ```

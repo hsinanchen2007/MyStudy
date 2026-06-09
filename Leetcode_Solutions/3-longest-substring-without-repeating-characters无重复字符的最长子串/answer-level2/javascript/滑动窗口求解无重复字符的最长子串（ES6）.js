@@ -1,5 +1,5 @@
-一目了然，容易理解
-```
+// 一目了然，容易理解
+// ```
 var lengthOfLongestSubstring = function (s) {
   let n = s.length;
   let hashMap = new Map();
@@ -13,4 +13,4 @@ var lengthOfLongestSubstring = function (s) {
   }
   return ans;
 };
-```
+// ```

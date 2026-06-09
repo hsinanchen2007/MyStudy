@@ -1,4 +1,4 @@
-```
+// ```
 /* 二分查找*/
 int dsearch(int *nums, int start, int end, int target)
 {
@@ -36,4 +36,4 @@ int search(int* nums, int numsSize, int target){
     if (nums[numsSize - 1] == target) return numsSize - 1;
     return cut(nums, 0, numsSize - 1, target);
 }
-```
+// ```

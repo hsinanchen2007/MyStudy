@@ -1,9 +1,9 @@
-### 解题思路
-直接贴代码了
+# ### 解题思路
+# 直接贴代码了
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
 
     def dfs(self, x, y, step, steps, golds):
@@ -60,4 +60,4 @@ class Solution(object):
             ans = self.dfs(curx, cury, 0, {}, grid[curx][cury])
 
         return ans
-```
+# ```

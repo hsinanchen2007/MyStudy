@@ -1,9 +1,9 @@
-### 解题思路
-先对数组进行排序，然后再for循环，循环到当前元素等于下一个元素的时候，就说明找到重复元素了
+// ### 解题思路
+// 先对数组进行排序，然后再for循环，循环到当前元素等于下一个元素的时候，就说明找到重复元素了
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findRepeatNumber(int[] nums) {
         Arrays.sort(nums);
@@ -17,4 +17,4 @@ class Solution {
         return value;
     }
 }
-```
+// ```

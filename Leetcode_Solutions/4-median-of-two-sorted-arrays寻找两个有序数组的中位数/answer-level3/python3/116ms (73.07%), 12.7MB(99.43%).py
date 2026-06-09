@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def calMid(self, nums): # sorted arrary: nums:
         mlength = len(nums)
@@ -38,4 +38,4 @@ class Solution:
         
         # print(nums3)
         return self.calMid(nums3)
-```
+# ```

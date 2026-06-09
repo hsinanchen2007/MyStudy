@@ -1,5 +1,5 @@
-就是统计两个1之间有几个0,然后加1
-```
+// 就是统计两个1之间有几个0,然后加1
+// ```
 var binaryGap = function(N) {
    let bi= N.toString(2);
    let max=0;
@@ -13,4 +13,4 @@ var binaryGap = function(N) {
     }
      return max;
 };
-```
+// ```

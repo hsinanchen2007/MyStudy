@@ -1,8 +1,8 @@
-### 解题思路
-- 排序2个升序数组，看是否满足，满足++
-### 代码
+// ### 解题思路
+// - 排序2个升序数组，看是否满足，满足++
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findContentChildren(int[] g, int[] s) {
         Arrays.sort(g);
@@ -14,4 +14,4 @@ class Solution {
         return i;
     }
 }
-```
+// ```

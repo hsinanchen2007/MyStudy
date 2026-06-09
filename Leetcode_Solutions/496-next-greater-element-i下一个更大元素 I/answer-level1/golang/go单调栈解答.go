@@ -1,9 +1,9 @@
-### 解题思路
-使用单调栈
+// ### 解题思路
+// 使用单调栈
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func nextGreaterElement(nums1 []int, nums2 []int) []int {
 	hashMap := make(map[int]int)
 	stack := make([]int, 0, 0)
@@ -34,4 +34,4 @@ func nextGreaterElement(nums1 []int, nums2 []int) []int {
 	}
 	return result
 }
-```
+// ```

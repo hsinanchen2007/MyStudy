@@ -1,8 +1,8 @@
-### 解题思路
+# ### 解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def merge(self, intervals):
         """
@@ -32,4 +32,4 @@ class Solution(object):
         return res
 
 
-```
+# ```

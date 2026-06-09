@@ -1,5 +1,5 @@
-思路和官方题解很像，如果想要找个代码看看可以瞧一瞧
-```
+// 思路和官方题解很像，如果想要找个代码看看可以瞧一瞧
+// ```
 class Solution {
     public int findMin(int[] nums) {
         //if (nums.length == 0) return null;
@@ -19,4 +19,4 @@ class Solution {
         return nums[left];
     }
 }
-```
+// ```

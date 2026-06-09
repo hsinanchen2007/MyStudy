@@ -1,10 +1,10 @@
-### 解题思路
-首尾放置指針,若和>目標,右指針左移,
-                            若和<目標 ,左指針右移
-知道找到兩個指針的位置
-### 代码
+# ### 解题思路
+# 首尾放置指針,若和>目標,右指針左移,
+#                             若和<目標 ,左指針右移
+# 知道找到兩個指針的位置
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def twoSum(self, n: List[int], tar: int) -> List[int]:
         l,r = 0,len(n)-1
@@ -16,4 +16,4 @@ class Solution:
             else:
                 return l+1,r+1
             
-```
+# ```

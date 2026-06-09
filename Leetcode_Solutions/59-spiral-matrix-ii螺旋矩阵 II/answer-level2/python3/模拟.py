@@ -1,9 +1,9 @@
-### 解题思路
-思路与54题类似，逐行逐列模拟。
+# ### 解题思路
+# 思路与54题类似，逐行逐列模拟。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def generateMatrix(self, n: int) -> list:
         matrix = [[0 for _ in range(n)] for _ in range(n)]
@@ -40,4 +40,4 @@ class Solution:
         
 
 
-```
+# ```

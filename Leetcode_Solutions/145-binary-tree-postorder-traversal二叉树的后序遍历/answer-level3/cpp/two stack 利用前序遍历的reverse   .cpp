@@ -1,19 +1,19 @@
-### 4ms
+// ### 4ms
 
-#### 遍历顺序
+// #### 遍历顺序
 
-**前序遍历**:根-左-右
-**后序遍历**:左-右-根
+// **前序遍历**:根-左-右
+// **后序遍历**:左-右-根
 
-**反后序遍历**:根右左
+// **反后序遍历**:根右左
 
-#### 定义两个栈
+// #### 定义两个栈
 
-- stack1，模仿前序遍历的实现“反后序遍历”
-- stack2，保存stack1的pop元素
+// - stack1，模仿前序遍历的实现“反后序遍历”
+// - stack2，保存stack1的pop元素
 
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> postorderTraversal(TreeNode *root) {
@@ -41,4 +41,4 @@ public:
         return res;
     }
 };
-```
+// ```

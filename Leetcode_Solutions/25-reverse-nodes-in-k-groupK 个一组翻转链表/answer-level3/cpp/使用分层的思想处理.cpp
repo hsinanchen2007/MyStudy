@@ -1,16 +1,16 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-封装两个函数
-reverse负责将传入的链表翻转
-kReverse从传入的链表头部中，划出长度为k的区间，调用reverse将区间翻转
+// 封装两个函数
+// reverse负责将传入的链表翻转
+// kReverse从传入的链表头部中，划出长度为k的区间，调用reverse将区间翻转
 
-最后实现接口reverseKGroup，调用kReverse翻转链表，直到将全部链表处理完毕
-reverseKGroup也可以用递归实现
+// 最后实现接口reverseKGroup，调用kReverse翻转链表，直到将全部链表处理完毕
+// reverseKGroup也可以用递归实现
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -79,4 +79,4 @@ private:
         return tail;
     }
 };
-```
+// ```

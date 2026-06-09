@@ -1,9 +1,9 @@
-### 解题思路
-官方题解思路 java版本
+// ### 解题思路
+// 官方题解思路 java版本
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MaxQueue {
 
     private Queue<Integer> q = null;
@@ -44,4 +44,4 @@ class MaxQueue {
  * obj.push_back(value);
  * int param_3 = obj.pop_front();
  */
-```
+// ```

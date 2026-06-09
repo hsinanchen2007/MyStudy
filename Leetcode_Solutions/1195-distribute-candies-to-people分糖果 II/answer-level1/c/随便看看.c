@@ -1,9 +1,9 @@
-### 解题思路
-让i同时兼职当前糖果数与当前小孩序号。
+// ### 解题思路
+// 让i同时兼职当前糖果数与当前小孩序号。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -22,4 +22,4 @@ int* distributeCandies(int candies, int num_people, int* returnSize){
     return ans;
 }
 
-```
+// ```

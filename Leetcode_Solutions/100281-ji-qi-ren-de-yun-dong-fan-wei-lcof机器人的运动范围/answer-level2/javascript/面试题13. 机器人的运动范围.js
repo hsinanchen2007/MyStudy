@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-设置一个访问数组记录访问过的路径
-顺时针进行搜索
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 设置一个访问数组记录访问过的路径
+// 顺时针进行搜索
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} m
  * @param {number} n
@@ -47,4 +47,4 @@ var movingCount = function(m, n, k) {
 
   return _move(0, 0)
 }
-```
+// ```

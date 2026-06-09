@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var missingNumber = function(nums) {
    let s = (0 + nums.length + 1) * (nums.length + 1 - 1) / 2;
    let sum = nums.reduce((prev, next) => {
@@ -8,4 +8,4 @@ var missingNumber = function(nums) {
    })
    return s - sum 
 };
-```
+// ```

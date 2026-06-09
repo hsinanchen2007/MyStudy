@@ -1,9 +1,9 @@
-### 解题思路
-这是easy的难度吗。。。。
+// ### 解题思路
+// 这是easy的难度吗。。。。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string longestWord(vector<string>& words) {
@@ -45,4 +45,4 @@ private:
     trie Trie[10005];
     int nodecnt = 0;
 };
-```
+// ```

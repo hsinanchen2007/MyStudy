@@ -1,6 +1,6 @@
-这一题在初学数据结构的时候曾经作为选择题出现过，所以对于借助结点的双指针算法还是会的；但是我也想拓展一下，不追求效率还有没有其他方法：
-思路：翻转此题中的链表只用改变ListNode中的int 类型的val就行了，那我可以遍历一下把他们存储起来然后赋值不就行了，代码如下：（包括测试代码）
-```java
+// 这一题在初学数据结构的时候曾经作为选择题出现过，所以对于借助结点的双指针算法还是会的；但是我也想拓展一下，不追求效率还有没有其他方法：
+// 思路：翻转此题中的链表只用改变ListNode中的int 类型的val就行了，那我可以遍历一下把他们存储起来然后赋值不就行了，代码如下：（包括测试代码）
+// ```java
 public class ReverseLinked {
 public static ListNode reverseList(ListNode head) {
 		List<Integer> list = new ArrayList<>();
@@ -45,9 +45,9 @@ class ListNode {
 		return sb.toString();
 	}
 }
-```
-当然我能也可以直接存储object对象一个一个链接起来，我用stack也写了一个效率不高也没有提交但是也是一种思路：
-```java
+// ```
+// 当然我能也可以直接存储object对象一个一个链接起来，我用stack也写了一个效率不高也没有提交但是也是一种思路：
+// ```java
 private static ListNode reverseList1(ListNode head) {
 		Stack<ListNode> stack = new Stack<>();
 		while(head!=null) {
@@ -64,4 +64,4 @@ private static ListNode reverseList1(ListNode head) {
 		node.next = null;
 		return head;
 	}
-```
+// ```

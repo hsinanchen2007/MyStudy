@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
   def reverse(x: Int): Int = {
     var xs = x
@@ -19,4 +19,4 @@ object Solution {
     res.toInt
   }
 }
-```
+// ```

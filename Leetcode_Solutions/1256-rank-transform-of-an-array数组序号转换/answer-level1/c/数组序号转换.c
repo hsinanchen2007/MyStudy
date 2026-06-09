@@ -1,9 +1,9 @@
-### 解题思路
-借助UThash,不过执行用时感人
+// ### 解题思路
+// 借助UThash,不过执行用时感人
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -40,4 +40,4 @@ int* arrayRankTransform(int* arr, int arrSize, int* returnSize){
     *returnSize=arrSize;
     return res;
 }
-```
+// ```

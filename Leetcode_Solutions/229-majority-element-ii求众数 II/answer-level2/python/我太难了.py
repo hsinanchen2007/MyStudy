@@ -1,13 +1,13 @@
-### 解题思路
-虽然已经做完了169的众数题，但还是不会做这道...我太难了
+# ### 解题思路
+# 虽然已经做完了169的众数题，但还是不会做这道...我太难了
 
-里面有很多小细节：
-+ 怎么保证两个候选人不一样
-+ 各种逻辑判断`if`,`continue`,`elif`
+# 里面有很多小细节：
+# + 怎么保证两个候选人不一样
+# + 各种逻辑判断`if`,`continue`,`elif`
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def majorityElement(self, nums) -> int:
         ans = []
@@ -48,4 +48,4 @@ class Solution:
             ans.append(b_candidate)
         return ans
 
-```
+# ```

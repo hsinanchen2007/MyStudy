@@ -1,4 +1,4 @@
-```rust
+// ```rust
 impl Solution {
     pub fn generate_possible_next_moves(s: String) -> Vec<String> {
         s
@@ -15,4 +15,4 @@ impl Solution {
     
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-# hash table
-```go
+// # hash table
+// ```go
 // Using HashTable
 func fourSum1(nums []int, target int) [][]int {
   var res [][]int
@@ -47,10 +47,10 @@ func fourSum1(nums []int, target int) [][]int {
   }
   return res
 }
-```
+// ```
 
-# 双指针
-```go
+// # 双指针
+// ```go
 // Two Pointer
 // Sort the array first. For every different number a and b, try to find pair(c,d).which a+b+c+d=0.
 // Using this way, we dont need to see whether the triplet is a repeated one
@@ -104,4 +104,4 @@ func prevNumberIndex(nums []int, index int) int {
   }
   return -1
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-记录下机器人走第一个周期的序列表，然后将所有的情况回归到第一周期
+// ### 解题思路
+// 记录下机器人走第一个周期的序列表，然后将所有的情况回归到第一周期
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool robot(string command, vector<vector<int>>& obstacles, int x, int y) {
@@ -73,4 +73,4 @@ public:
         }
     }
 };
-```
+// ```

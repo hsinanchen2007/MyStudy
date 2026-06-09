@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     
     def minimumTotal(self, triangle: List[List[int]]) -> int:
@@ -15,4 +15,4 @@ class Solution:
             for j in range(1,i+1):
                 new_arr[i][j]=min(new_arr[i-1][j],new_arr[i-1][j-1])+arr[i-1][j-1]
         return min(new_arr[-1])
-```
+# ```

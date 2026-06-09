@@ -1,10 +1,10 @@
-### 解题思路
-让我们不要俯视整个图形，让我们从Z=0的地方看xy平面。
-这时，问题就转换为从是否有重叠的线段。
+// ### 解题思路
+// 让我们不要俯视整个图形，让我们从Z=0的地方看xy平面。
+// 这时，问题就转换为从是否有重叠的线段。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isRectangleOverlap(vector<int>& rec1, vector<int>& rec2) {
@@ -28,4 +28,4 @@ public:
         return true;
     }
 };
-```
+// ```

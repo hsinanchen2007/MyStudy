@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def maxIncreaseKeepingSkyline(self, grid):
         """
@@ -14,4 +14,4 @@ class Solution(object):
                 col_max=max([item[j] for item in grid])
                 rs=rs+abs(grid[i][j]-min(row_max,col_max))
         return rs
-```
+# ```

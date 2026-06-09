@@ -1,4 +1,4 @@
-```python
+# ```python
 from functools import lru_cache
 class Solution:
     def maxStudents(self, seats: List[List[str]]) -> int:
@@ -46,4 +46,4 @@ class Solution:
                 ans = max(ans, dp[i][j])
             flag = temp_flag
         return ans
-```
+# ```

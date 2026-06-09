@@ -1,11 +1,11 @@
-### 解题思路
-第一步：分别存储颜色的出现次数，相等则为猜中；
-第二步：取最小的次数，相加就是猜中和伪猜中的和；
-第三步：和减第一步的猜中则为伪猜中；
+// ### 解题思路
+// 第一步：分别存储颜色的出现次数，相等则为猜中；
+// 第二步：取最小的次数，相加就是猜中和伪猜中的和；
+// 第三步：和减第一步的猜中则为伪猜中；
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> masterMind(string solution, string guess) {
@@ -44,4 +44,4 @@ int count=0;
         return {guessRight,count-guessRight};
     }
 };
-```
+// ```

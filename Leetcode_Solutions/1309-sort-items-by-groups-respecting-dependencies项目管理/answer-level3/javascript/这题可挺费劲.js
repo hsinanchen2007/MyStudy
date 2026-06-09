@@ -1,9 +1,9 @@
-### 解题思路
-其实思路倒是不难，只是写起来比较麻烦，包括小组的拓扑排序和项目的拓扑排序两个部分
+// ### 解题思路
+// 其实思路倒是不难，只是写起来比较麻烦，包括小组的拓扑排序和项目的拓扑排序两个部分
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @param {number} m
@@ -109,4 +109,4 @@ var sortItems = function(n, m, group, beforeItems) {
         return [];
     }
 };
-```
+// ```

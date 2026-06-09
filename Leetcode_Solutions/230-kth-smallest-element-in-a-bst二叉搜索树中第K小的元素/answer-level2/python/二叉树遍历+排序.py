@@ -1,5 +1,5 @@
-思路：遍历二叉树，得到全部元素list，然后排序，按给定k值查找。
-```
+# 思路：遍历二叉树，得到全部元素list，然后排序，按给定k值查找。
+# ```
 class Solution(object):
     def kthSmallest(self, root, k):
         """
@@ -20,4 +20,4 @@ class Solution(object):
         nums.sort()
         # 按指定索引查找        
         return nums[k-1]
-```
+# ```

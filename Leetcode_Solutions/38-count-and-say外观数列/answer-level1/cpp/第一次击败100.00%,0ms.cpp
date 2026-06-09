@@ -1,9 +1,9 @@
-### 解题思路
-就是遍历上一次的字符串,计算连续的个数,生成新的字符串.
+// ### 解题思路
+// 就是遍历上一次的字符串,计算连续的个数,生成新的字符串.
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string countAndSay(int n) {
@@ -39,4 +39,4 @@ public:
         return initStr;
     }
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-1. 双指针赛跑(比较有趣)
-2. 用set记录走过的节点(比较常规)
+// ### 解题思路
+// 1. 双指针赛跑(比较有趣)
+// 2. 用set记录走过的节点(比较常规)
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -35,4 +35,4 @@ var hasCycle = function(head) {
         }
     }
 }
-```
+// ```

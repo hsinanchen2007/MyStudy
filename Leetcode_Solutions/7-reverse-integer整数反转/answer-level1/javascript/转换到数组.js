@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number} x
  * @return {number}
@@ -17,4 +17,4 @@ var reverse = function(x) {
     if(flag === false) return result*-1
     return result
 };
-```
+// ```

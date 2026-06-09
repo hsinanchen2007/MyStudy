@@ -1,10 +1,10 @@
-### 解题思路
-1.使用hash_map记录每一个成绩对应的下标。
-2.将nums降序排列，前三个为一次为金牌、银牌和铜牌，并根据下标写入result容器中，其余的将名次直接写入result容器中。
+// ### 解题思路
+// 1.使用hash_map记录每一个成绩对应的下标。
+// 2.将nums降序排列，前三个为一次为金牌、银牌和铜牌，并根据下标写入result容器中，其余的将名次直接写入result容器中。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> findRelativeRanks(vector<int>& nums) {
@@ -35,4 +35,4 @@ public:
     return result;
     }
 };
-```
+// ```

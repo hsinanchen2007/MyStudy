@@ -1,5 +1,5 @@
-- 在遍历数组时用栈把数组中的数存起来，如果当前遍历的数比栈顶元素来的大，说明栈顶元素的下一个比它大的数就是当前元素。
-```
+// - 在遍历数组时用栈把数组中的数存起来，如果当前遍历的数比栈顶元素来的大，说明栈顶元素的下一个比它大的数就是当前元素。
+// ```
 typedef struct Stack{
     int data;
     struct Stack* next;
@@ -70,4 +70,4 @@ int* dailyTemperatures(int* T, int TSize, int* returnSize){
     myStackFree(obj);
     return returnArray;
 }
-```
+// ```

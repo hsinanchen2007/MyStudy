@@ -1,9 +1,9 @@
-### 解题思路
-利用STL自带的bitset统计比特位
+// ### 解题思路
+// 利用STL自带的bitset统计比特位
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int hammingWeight(uint32_t n) {
@@ -11,4 +11,4 @@ public:
         return bs.count();
     }
 };
-```
+// ```

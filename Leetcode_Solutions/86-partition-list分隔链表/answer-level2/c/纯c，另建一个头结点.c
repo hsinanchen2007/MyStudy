@@ -1,10 +1,10 @@
-### 解题思路
-另建一个头结点，遍历原链表将小于x的结点用尾插法插入结点；
-遍历完后，将剩余结点连接在new链表上
+// ### 解题思路
+// 另建一个头结点，遍历原链表将小于x的结点用尾插法插入结点；
+// 遍历完后，将剩余结点连接在new链表上
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -41,4 +41,4 @@ struct ListNode* partition(struct ListNode* head, int x){
     free(oldhead);
     return newhead->next;
 }
-```
+// ```

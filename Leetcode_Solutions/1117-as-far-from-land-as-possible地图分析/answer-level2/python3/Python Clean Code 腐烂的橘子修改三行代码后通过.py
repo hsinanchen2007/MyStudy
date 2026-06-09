@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def maxDistance(self, grid: List[List[int]]) -> int:
         R, C = len(grid), len(grid[0])
@@ -28,4 +28,4 @@ class Solution:
         # if any(1 in row for row in grid): # any关键字也让代码clean不少
             # return -1
         return maxd
-```
+# ```

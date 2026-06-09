@@ -1,7 +1,7 @@
 
-![image.png](https://pic.leetcode-cn.com/f71f0e7650b8ddcb6cb88fcee34aff85aafcf4a3f330ae6e5f5a3832305ed8e1-image.png)
-速度很快  但是占内存
-```
+// ![image.png](https://pic.leetcode-cn.com/f71f0e7650b8ddcb6cb88fcee34aff85aafcf4a3f330ae6e5f5a3832305ed8e1-image.png)
+// 速度很快  但是占内存
+// ```
    let arr = digits.reverse();
 
 
@@ -20,4 +20,4 @@
 
         }
         return arr.reverse()
-```
+// ```

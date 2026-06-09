@@ -1,4 +1,4 @@
-前n行最多包含(n * n + n) / 2个硬币。
+// 前n行最多包含(n * n + n) / 2个硬币。
 int arrangeCoins(int n){
    long int i,j,k,left,right,mid;
     left=0;

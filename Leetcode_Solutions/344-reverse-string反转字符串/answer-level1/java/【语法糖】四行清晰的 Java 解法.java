@@ -1,9 +1,9 @@
-### 解题思路
-题目过于简单，没啥好说的，就是用了点语法糖。
+// ### 解题思路
+// 题目过于简单，没啥好说的，就是用了点语法糖。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void reverseString(char[] s) {
         for (int l = 0, r = s.length - 1; l < r; l++, r--) {
@@ -13,4 +13,4 @@ class Solution {
         }
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```golang
+// ```golang
 func deckRevealedIncreasing(deck []int) []int {
 	sort.Ints(deck[:]) //从小到大排序
 	ret := deck[len(deck)-1:]
@@ -11,4 +11,4 @@ func deckRevealedIncreasing(deck []int) []int {
 	}
 	return ret
 }
-```
+// ```

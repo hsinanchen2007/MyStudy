@@ -1,9 +1,9 @@
-### 解题思路
-简单信号量即可解决
+// ### 解题思路
+// 简单信号量即可解决
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class FooBar {
     private int n;
         Semaphore s1 = new Semaphore(1); 
@@ -42,4 +42,4 @@ class FooBar {
     }
 }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-### 递归法
-```java
+// ### 递归法
+// ```java
   class Solution {
           public int fib(int N) {
             if(N==0) return 0;
@@ -7,10 +7,10 @@
             return fib(N-1) + fib(N-2);
         }
     }
-```
+// ```
 
-### 迭代法
-```java
+// ### 迭代法
+// ```java
 class Solution {
     public int fib(int N) {
         if(N == 0 || N == 1) return N;
@@ -24,4 +24,4 @@ class Solution {
         return arr[N];
     }
 }
-```
+// ```

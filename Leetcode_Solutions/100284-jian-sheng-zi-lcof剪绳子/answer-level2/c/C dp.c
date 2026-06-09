@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int cuttingRope(int n){
     int dp[n+1];
     dp[0]=0;
@@ -20,4 +20,4 @@ int cuttingRope(int n){
     }
     return dp[n];
 }
-```
+// ```

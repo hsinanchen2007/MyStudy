@@ -1,7 +1,7 @@
-执行用时 :5 ms, 在所有 Java 提交中击败了94.03%的用户
-内存消耗 :36.2 MB, 在所有 Java 提交中击败了89.24%的用户
-两个句子均放在哈希表里，分别比较一次。
-```
+// 执行用时 :5 ms, 在所有 Java 提交中击败了94.03%的用户
+// 内存消耗 :36.2 MB, 在所有 Java 提交中击败了89.24%的用户
+// 两个句子均放在哈希表里，分别比较一次。
+// ```
 class Solution {
     public String[] uncommonFromSentences(String A, String B) {
         String []a=A.split(" ");
@@ -30,4 +30,4 @@ class Solution {
         return list.toArray(new String[list.size()]);
     }
 }
-```
+// ```

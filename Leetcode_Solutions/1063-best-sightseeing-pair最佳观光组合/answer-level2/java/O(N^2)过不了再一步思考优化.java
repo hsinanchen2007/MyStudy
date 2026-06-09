@@ -1,9 +1,9 @@
-### 解题思路
-看注释
+// ### 解题思路
+// 看注释
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxScoreSightseeingPair(int[] A) {
         //找最大，两个for搞定拉，应该能优化什么
@@ -38,4 +38,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

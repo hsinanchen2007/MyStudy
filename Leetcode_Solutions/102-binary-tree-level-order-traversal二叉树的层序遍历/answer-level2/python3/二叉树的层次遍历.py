@@ -1,11 +1,11 @@
-### 解题思路
-层次遍历是广度优先遍历算法，依次遍历每一层数据，同一层的左右孩子结点的数据存放在同一个列表里，所有层的列表的列表，是最终结果。
+# ### 解题思路
+# 层次遍历是广度优先遍历算法，依次遍历每一层数据，同一层的左右孩子结点的数据存放在同一个列表里，所有层的列表的列表，是最终结果。
 
-#### 原作者：LeetCode
+# #### 原作者：LeetCode
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -38,4 +38,4 @@ class Solution(object):
 
                 
 
-```
+# ```

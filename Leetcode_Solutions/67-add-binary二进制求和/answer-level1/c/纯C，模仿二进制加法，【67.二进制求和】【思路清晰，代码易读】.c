@@ -1,9 +1,9 @@
-### 解题思路
-方法一：模拟二进制加法
+// ### 解题思路
+// 方法一：模拟二进制加法
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 //方法一：模拟二进制加法
 #define     MAX(a, b)   ((a) > (b) ? (a) : (b))
 char * addBinary(char * a, char * b){
@@ -57,4 +57,4 @@ char * addBinary(char * a, char * b){
         return &pRet[0];
     }
 }
-```
+// ```

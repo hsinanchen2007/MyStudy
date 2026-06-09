@@ -1,5 +1,5 @@
-如下简单易懂
-```
+# 如下简单易懂
+# ```
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
         if not nums:return 0
@@ -12,4 +12,4 @@ class Solution:
             else:
                 start+=1
         return l
-```
+# ```

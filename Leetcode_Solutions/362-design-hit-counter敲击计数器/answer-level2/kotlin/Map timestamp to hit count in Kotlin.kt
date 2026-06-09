@@ -1,6 +1,6 @@
 
-bit 100% in time-complexity and 50% in space-complexity.
-```
+// bit 100% in time-complexity and 50% in space-complexity.
+// ```
 class HitCounter() {
 
     /** Initialize your data structure here. */
@@ -17,4 +17,4 @@ class HitCounter() {
     fun getHits(timestamp: Int): Int = counter.filter { timestamp - it.key < 300 }.map { it.value }.sum()
 
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-憨憨代码，虽然不是很好，但是应该挺好看懂，不管怎么样记录一下
+// ### 解题思路
+// 憨憨代码，虽然不是很好，但是应该挺好看懂，不管怎么样记录一下
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String longestPalindrome(String s) {
         int n = s.length();
@@ -59,4 +59,4 @@ class Solution {
     }
 
     }
-```
+// ```

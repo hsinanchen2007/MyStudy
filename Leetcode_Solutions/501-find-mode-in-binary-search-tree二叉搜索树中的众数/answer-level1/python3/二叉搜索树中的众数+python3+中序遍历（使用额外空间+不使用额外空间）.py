@@ -1,8 +1,8 @@
-### 1.使用额外空间的中序遍历
-**(可以参考：[二叉树各种遍历算法](https://www.cnblogs.com/anzhengyu/p/11083568.html))**
+# ### 1.使用额外空间的中序遍历
+# **(可以参考：[二叉树各种遍历算法](https://www.cnblogs.com/anzhengyu/p/11083568.html))**
 
- 对于二叉搜索树来说，中序遍历就是一个升序数组，可以基于该数组判断众数。代码如下：
-```
+#  对于二叉搜索树来说，中序遍历就是一个升序数组，可以基于该数组判断众数。代码如下：
+# ```
 class Solution:
     def findMode(self, root: TreeNode) -> List[int]:
         if not root:
@@ -35,14 +35,14 @@ class Solution:
         if not root:
             return []
         return self.order(root.left)+[root.val]+self.order(root.right)
-```
-#### 复杂度分析
-__时间复杂度：__ O(n)
+# ```
+# #### 复杂度分析
+# __时间复杂度：__ O(n)
 
-__空间复杂度：__ O(n)
-### 2.不使用额外空间
-题目要求不使用额外空间，改了一下代码。略啰嗦：
-```
+# __空间复杂度：__ O(n)
+# ### 2.不使用额外空间
+# 题目要求不使用额外空间，改了一下代码。略啰嗦：
+# ```
 
 class Solution:
     def __init__(self):
@@ -80,8 +80,8 @@ class Solution:
                 self.count = 1
                 self.pre = root.val
         self.inorder(root.right)
-```
-#### 复杂度分析
-__时间复杂度：__ O(n)
+# ```
+# #### 复杂度分析
+# __时间复杂度：__ O(n)
 
-__空间复杂度：__ O(n)，递归的空间O(n),target数组的空间最多也到O(n)
+# __空间复杂度：__ O(n)，递归的空间O(n),target数组的空间最多也到O(n)

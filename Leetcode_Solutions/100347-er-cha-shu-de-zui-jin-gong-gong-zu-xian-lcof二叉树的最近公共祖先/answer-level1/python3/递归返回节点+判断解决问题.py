@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -26,4 +26,4 @@ class Solution:
         if left and right:  #两边都有 证明p q一定是分别在左右节点上 root一定是公共祖先
             return root
         return left if left else right  # 只有一边有 root一定不是最近公共祖先 直接把子节点传递回来                                           节点返回
-```
+# ```

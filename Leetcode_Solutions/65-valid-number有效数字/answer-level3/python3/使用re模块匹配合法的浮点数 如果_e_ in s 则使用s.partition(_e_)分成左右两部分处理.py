@@ -1,6 +1,6 @@
-思路：见标题
-注意：在执行用时分布图表见到了不少更加精炼的正则解法 但是那些解法的pattern都写得蛮长的 我的pattern稍微简单一些 各有裨益吧 以下代码仅供参考 还请各位多多指教
-```
+# 思路：见标题
+# 注意：在执行用时分布图表见到了不少更加精炼的正则解法 但是那些解法的pattern都写得蛮长的 我的pattern稍微简单一些 各有裨益吧 以下代码仅供参考 还请各位多多指教
+# ```
 from re import compile,match
 class Solution:
 	def isNumber(self,s):
@@ -21,4 +21,4 @@ class Solution:
 				return False
 			except AttributeError: #同上
 				return False
-```
+# ```

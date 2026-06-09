@@ -1,9 +1,9 @@
-### 解题思路
-日常吐槽swift String类的反人类操作...
+// ### 解题思路
+// 日常吐槽swift String类的反人类操作...
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func reverseOnlyLetters(_ S: String) -> String {
         
@@ -47,13 +47,13 @@ class Solution {
         return result
     }
 }
-```
+// ```
 
-### 代码2 
+// ### 代码2 
 
-主要是针对字符串替换的操作变了个思路，既直接在string上交换字符麻烦的话就先把string转换为array，交换完成后再转换回来（好像没省多少麻烦..
+// 主要是针对字符串替换的操作变了个思路，既直接在string上交换字符麻烦的话就先把string转换为array，交换完成后再转换回来（好像没省多少麻烦..
 
-```swift
+// ```swift
 
 class Solution {
     func reverseOnlyLetters(_ S: String) -> String {
@@ -98,4 +98,4 @@ class Solution {
         return result.map(String.init).joined(separator: "")
     }
 }
-```
+// ```

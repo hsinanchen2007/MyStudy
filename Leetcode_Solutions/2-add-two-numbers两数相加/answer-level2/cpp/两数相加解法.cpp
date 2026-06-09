@@ -1,7 +1,7 @@
-# solution 1
+// # solution 1
 
-这题看到就想到从前往后遍历相加即可, 这题要考察的应该是链表的遍历和插入节点吧.
-```
+// 这题看到就想到从前往后遍历相加即可, 这题要考察的应该是链表的遍历和插入节点吧.
+// ```
 class Solution {
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
@@ -29,13 +29,13 @@ public:
         return head->next;
     }
 };
-```
+// ```
 
-# solution 2
+// # solution 2
 
-solution1中, 是规规矩矩的没去动原来的list, 因此创建节点时会消耗不少时间.
-把这块优化一下, 长的那个list拿来用即可.
-```
+// solution1中, 是规规矩矩的没去动原来的list, 因此创建节点时会消耗不少时间.
+// 把这块优化一下, 长的那个list拿来用即可.
+// ```
 class Solution {
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
@@ -65,4 +65,4 @@ public:
         return head->next;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-实际上就是看小于10的质数因子，而能组成的就只有2、3、4、5、6、7、8、9，枚举法。
+// ### 解题思路
+// 实际上就是看小于10的质数因子，而能组成的就只有2、3、4、5、6、7、8、9，枚举法。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 import "fmt"
 import "math"
 func smallestFactorization(a int) int {
@@ -141,4 +141,4 @@ func smallestFactorization(a int) int {
     //fmt.Println(factors, len(countFactors))
     return res
 }
-```
+// ```

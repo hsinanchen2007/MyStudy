@@ -1,8 +1,8 @@
-排序，考虑数组所有为0的情况
+// 排序，考虑数组所有为0的情况
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool static cmp(int a,int b)
@@ -33,4 +33,4 @@ public:
         return ans;
     }
 };
-```
+// ```

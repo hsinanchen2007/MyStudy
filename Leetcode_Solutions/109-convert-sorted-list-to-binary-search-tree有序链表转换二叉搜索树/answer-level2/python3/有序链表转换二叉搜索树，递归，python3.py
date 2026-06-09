@@ -1,14 +1,14 @@
-### 解题思路
-先将链表head转化成列表res(方便用索引查找和截取数据)
-截取res的中间节点作为根节点root，设中间节点的索引为mid
-则`root.left = method(L[:mid])`, `root.right = method(L[mid+1:])`
+# ### 解题思路
+# 先将链表head转化成列表res(方便用索引查找和截取数据)
+# 截取res的中间节点作为根节点root，设中间节点的索引为mid
+# 则`root.left = method(L[:mid])`, `root.right = method(L[mid+1:])`
 
-返回root
+# 返回root
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -40,4 +40,4 @@ class Solution:
                 root.right = method(L[mid+1:])
             return root
         return method(res)
-```
+# ```

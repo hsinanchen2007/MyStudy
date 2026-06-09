@@ -1,9 +1,9 @@
-### 解题思路
-递归算法
+# ### 解题思路
+# 递归算法
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     
     # 定义上下左右四个行走方向
@@ -56,4 +56,4 @@ class Solution(object):
         return False
 
 
-```
+# ```

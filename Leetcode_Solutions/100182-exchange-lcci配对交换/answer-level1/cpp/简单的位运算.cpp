@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-借助0x55555555把对应的位拿下来交换就可以了。
+// 借助0x55555555把对应的位拿下来交换就可以了。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int exchangeBits(int num) {
@@ -14,4 +14,4 @@ public:
         return odd << 1 | even;
     }
 };
-```
+// ```

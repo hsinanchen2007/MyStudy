@@ -1,9 +1,9 @@
-### 解题思路
-改变数组标记后要改回去。。
+// ### 解题思路
+// 改变数组标记后要改回去。。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean exist(char[][] board, String word) {
         char[] words = word.toCharArray();
@@ -29,4 +29,4 @@ class Solution {
 
     }
 }
-```
+// ```

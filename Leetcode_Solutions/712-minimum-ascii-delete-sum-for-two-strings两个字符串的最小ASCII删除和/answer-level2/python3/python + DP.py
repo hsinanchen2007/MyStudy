@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def minimumDeleteSum(self, s1: str, s2: str) -> int:
         # order: str equal
@@ -36,4 +36,4 @@ class Solution:
         return string_val(s1) + string_val(s2) - common_string_val(s1, s2)
 
 
-```
+# ```

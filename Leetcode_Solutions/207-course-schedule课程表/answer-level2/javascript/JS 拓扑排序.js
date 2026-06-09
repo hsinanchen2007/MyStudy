@@ -1,9 +1,9 @@
-### 解题思路
-就是简单的拓扑排序，唯一一点不同的就是把边缘列表转换为邻接矩阵，其他的就是正常的拓扑排序做法
+// ### 解题思路
+// 就是简单的拓扑排序，唯一一点不同的就是把边缘列表转换为邻接矩阵，其他的就是正常的拓扑排序做法
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} numCourses
  * @param {number[][]} prerequisites
@@ -46,4 +46,4 @@ var canFinish = function(numCourses, prerequisites){
     }    
     return result.length == numCourses
 };
-```
+// ```

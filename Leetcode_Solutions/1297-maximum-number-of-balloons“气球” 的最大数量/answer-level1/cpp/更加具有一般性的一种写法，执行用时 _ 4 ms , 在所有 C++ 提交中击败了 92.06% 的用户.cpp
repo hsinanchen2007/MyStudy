@@ -1,9 +1,9 @@
-### 解题思路
-时间靠前的答案的确很快，但是普适性差了些，以下代码可以更改要匹配的string s，ti[i]/si[i]即有多少组ti[i]可以用来组成单词
+// ### 解题思路
+// 时间靠前的答案的确很快，但是普适性差了些，以下代码可以更改要匹配的string s，ti[i]/si[i]即有多少组ti[i]可以用来组成单词
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxNumberOfBalloons(string text) {
@@ -17,4 +17,4 @@ public:
 		 return res;
     }
 };
-```
+// ```

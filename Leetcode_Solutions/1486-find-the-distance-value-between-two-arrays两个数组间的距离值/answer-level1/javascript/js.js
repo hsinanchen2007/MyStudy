@@ -1,9 +1,9 @@
-### 解题思路
-双周赛22 第一题
-范围不大 暴力遍历就行 O(n^2)
-### 代码
+// ### 解题思路
+// 双周赛22 第一题
+// 范围不大 暴力遍历就行 O(n^2)
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} arr1
  * @param {number[]} arr2
@@ -21,4 +21,4 @@ var findTheDistanceValue = function (arr1, arr2, d) {
   })
   return ans
 }
-```
+// ```

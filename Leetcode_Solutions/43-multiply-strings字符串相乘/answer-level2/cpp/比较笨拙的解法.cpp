@@ -1,9 +1,9 @@
-### 解题思路
-列竖式计算，未经过优化
+// ### 解题思路
+// 列竖式计算，未经过优化
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string addsum(string & sTotal, string & sTemp) {
@@ -48,4 +48,4 @@ public:
         return sumTotal;
     }
 };
-```
+// ```

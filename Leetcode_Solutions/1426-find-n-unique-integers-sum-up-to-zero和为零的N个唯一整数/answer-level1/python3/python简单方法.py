@@ -1,10 +1,10 @@
-### 解题思路
-执行用时 :20 ms, 在所有 Python 提交中击败了75.64%的用户
-内存消耗 :11.7 MB, 在所有 Python 提交中击败了95.12%的用户
+# ### 解题思路
+# 执行用时 :20 ms, 在所有 Python 提交中击败了75.64%的用户
+# 内存消耗 :11.7 MB, 在所有 Python 提交中击败了95.12%的用户
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def sumZero(self, n):
         """
@@ -22,4 +22,4 @@ class Solution(object):
                 b.append(i)
                 b.append(-i)
         return b
-```
+# ```

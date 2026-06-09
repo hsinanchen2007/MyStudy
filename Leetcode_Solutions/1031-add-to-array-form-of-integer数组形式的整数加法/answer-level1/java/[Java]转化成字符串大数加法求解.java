@@ -1,10 +1,10 @@
-**思路** 
+// **思路** 
 
-Java实现思路：转化成两个String类型的数字后，用大数加法实现，最后再转成整型列表返回即可
+// Java实现思路：转化成两个String类型的数字后，用大数加法实现，最后再转成整型列表返回即可
 
-**代码**
+// **代码**
 
-```C++ []
+// ```C++ []
 public List<Integer> addToArrayForm(int[] A, int K) {
         //考虑溢出情况，需要按位模拟
         //都转成字符串，用大数加法完成
@@ -58,4 +58,4 @@ public List<Integer> addToArrayForm(int[] A, int K) {
         }
         return list;
     }
-```
+// ```

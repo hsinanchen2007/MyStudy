@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *总体思路：
@@ -58,4 +58,4 @@ bool judgeCircle(char * moves){
     return false;
 
 }
-```
+// ```

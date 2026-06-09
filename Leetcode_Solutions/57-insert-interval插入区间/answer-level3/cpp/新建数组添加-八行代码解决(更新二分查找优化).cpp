@@ -1,5 +1,5 @@
-效率不高，如果在原数组中就地合并，时间和内存应该可以继续优化。
-```
+// 效率不高，如果在原数组中就地合并，时间和内存应该可以继续优化。
+// ```
 class Solution {
 public:
     vector<vector<int> > insert(vector<vector<int> > &A, vector<int> &a) {
@@ -13,10 +13,10 @@ public:
 		return v;
     }
 };
-```
+// ```
 
-方法2,直接在原数组中就地合并.二分查找找到需要合并的起始位置,然后就地合并,删除已经合并的区间,插入合并后的单个区间.
-```
+// 方法2,直接在原数组中就地合并.二分查找找到需要合并的起始位置,然后就地合并,删除已经合并的区间,插入合并后的单个区间.
+// ```
 class Solution {
 	static bool comp(const vector<int> &a, const vector<int> &b){
 		return a[1]<b[0];
@@ -31,4 +31,4 @@ public:
 		return A;
 	}
 };
-```
+// ```

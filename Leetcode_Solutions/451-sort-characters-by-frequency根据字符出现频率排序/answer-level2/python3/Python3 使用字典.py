@@ -1,11 +1,11 @@
-#### 使用字典实现
-主要思路：
-1. 使用字典记录字符的出现次数`{key:value}={字符:出现次数}`
-2. 利用列表`l1`按顺序记录字符,`l1[value]=key`。
-3. 倒序遍历`l1`,实现降序排列
+# #### 使用字典实现
+# 主要思路：
+# 1. 使用字典记录字符的出现次数`{key:value}={字符:出现次数}`
+# 2. 利用列表`l1`按顺序记录字符,`l1[value]=key`。
+# 3. 倒序遍历`l1`,实现降序排列
 
-代码如下：
-```
+# 代码如下：
+# ```
 from collections import Counter
 class Solution:
     def frequencySort(self, s: str) -> str:
@@ -18,6 +18,6 @@ class Solution:
             if l1[i] != '':
                 res += l1[i]
         return res
-```
+# ```
 
-![白色背景关注.jpg](https://pic.leetcode-cn.com/47d1b5430e869ed420bb0c6e8a90250773528ccf1bf6d4d43aef80dd326eeef9-%E7%99%BD%E8%89%B2%E8%83%8C%E6%99%AF%E5%85%B3%E6%B3%A8.jpg)
+# ![白色背景关注.jpg](https://pic.leetcode-cn.com/47d1b5430e869ed420bb0c6e8a90250773528ccf1bf6d4d43aef80dd326eeef9-%E7%99%BD%E8%89%B2%E8%83%8C%E6%99%AF%E5%85%B3%E6%B3%A8.jpg)

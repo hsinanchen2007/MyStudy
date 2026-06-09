@@ -1,5 +1,5 @@
-为什么python3动态规划再怎么都过不了啊啊啊啊啊
-```python
+# 为什么python3动态规划再怎么都过不了啊啊啊啊啊
+# ```python
     def findMaxForm(self, strs: List[str], m: int, n: int) -> int:
         # 动态规划，超时
         # dp = [[0] * (n+1) for _ in range(m+1)]  # dp(m,n)，当剩m个0和n个1时当前能完成的最大字串数量
@@ -28,4 +28,4 @@
         s1 = sorted(counts, key=lambda i: min(i[0], i[1]))  # 按0或1计数里较小者从小到大排序
         s2 = sorted(counts, key=lambda i: min(m-i[0], n-i[1]), reverse=True)  # 取该字符后剩余0或1计数里较小者从大到小排
         return max(_findMaxForm(s1, m, n), _findMaxForm(s2, m, n))
-```
+# ```

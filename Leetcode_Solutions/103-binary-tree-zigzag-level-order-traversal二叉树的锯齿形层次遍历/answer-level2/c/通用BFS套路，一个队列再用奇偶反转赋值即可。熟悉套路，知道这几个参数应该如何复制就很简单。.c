@@ -1,9 +1,9 @@
-### 解题思路
-通用的BFS，一个队列再用奇偶反转赋值即可。熟悉套路，知道这几个参数应该如何复制就很简单。
+// ### 解题思路
+// 通用的BFS，一个队列再用奇偶反转赋值即可。熟悉套路，知道这几个参数应该如何复制就很简单。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -79,4 +79,4 @@ int** zigzagLevelOrder(struct TreeNode* root, int* returnSize, int** returnColum
 
 
 
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-使用正则，分割和提取compressedString中的字母和数字
+# ### 解题思路
+# 使用正则，分割和提取compressedString中的字母和数字
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import re
 class StringIterator:
 

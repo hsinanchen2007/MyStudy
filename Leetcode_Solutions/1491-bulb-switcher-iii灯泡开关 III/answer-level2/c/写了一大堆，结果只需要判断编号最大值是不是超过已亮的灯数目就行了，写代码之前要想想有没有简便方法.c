@@ -1,11 +1,11 @@
-### 解题思路
-方法一：O(n)看别人的题解总结来的，全部灯蓝意味着当有n个灯是亮的时候，编号1-n全都是亮的，恰好这时亮着的最大编号为n。
-![numTimesAllBlue.png](https://pic.leetcode-cn.com/e696ccbb608e63ab28be16d24b11dae59280bbdb57e77ea919e6287ddd7efba7-numTimesAllBlue.png)
+// ### 解题思路
+// 方法一：O(n)看别人的题解总结来的，全部灯蓝意味着当有n个灯是亮的时候，编号1-n全都是亮的，恰好这时亮着的最大编号为n。
+// ![numTimesAllBlue.png](https://pic.leetcode-cn.com/e696ccbb608e63ab28be16d24b11dae59280bbdb57e77ea919e6287ddd7efba7-numTimesAllBlue.png)
 
-方法二：O(n*n)我自己的代码是暴力法，甚至超时，后来减少搜索范围才没超时。具体方法看代码，其实就是没亮一个灯就从头扫描一遍灯情况，看看是不是全蓝。
-### 代码
+// 方法二：O(n*n)我自己的代码是暴力法，甚至超时，后来减少搜索范围才没超时。具体方法看代码，其实就是没亮一个灯就从头扫描一遍灯情况，看看是不是全蓝。
+// ### 代码
 
-```c
+// ```c
 int numTimesAllBlue(int *light, int lightSize)
 {
     int max=*light,count=0;
@@ -18,9 +18,9 @@ int numTimesAllBlue(int *light, int lightSize)
     }
     return count;
 }
-```
+// ```
 
-```c
+// ```c
 int numTimesAllBlue(int *light, int lightSize)
 {
     int count = 0;              //亮的数目
@@ -60,4 +60,4 @@ int numTimesAllBlue(int *light, int lightSize)
     // printf("%d", all_is_blue_moment);
     return all_is_blue_moment;
 }
-```
+// ```

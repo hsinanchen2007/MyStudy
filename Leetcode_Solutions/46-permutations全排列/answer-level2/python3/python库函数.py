@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def permute(self, nums):
         """
@@ -10,4 +10,4 @@ class Solution(object):
         for i in itertools.permutations(nums,nums.__len__()):
             rs.append(i)
         return rs
-```
+# ```

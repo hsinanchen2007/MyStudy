@@ -1,10 +1,10 @@
-### 解题思路
-# 递归深入，计算出左右深度后取最大值
-# 注意边界值，树的深度可以为0
+// ### 解题思路
+// # 递归深入，计算出左右深度后取最大值
+// # 注意边界值，树的深度可以为0
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -30,4 +30,4 @@ func maxDepth(root *TreeNode) int {
 
 	return r + 1
 }
-```
+// ```

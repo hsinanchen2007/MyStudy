@@ -1,8 +1,8 @@
-### 解题思路小菜鸟的暴力算法
+// ### 解题思路小菜鸟的暴力算法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isUnique(String astr) {
         char[] arr=astr.toCharArray();
@@ -14,11 +14,11 @@ class Solution {
         return true;
     }
 }
-```
-### 
-使用hash表
-###
-```
+// ```
+// ### 
+// 使用hash表
+// ###
+// ```
 public static boolean isUnique(String str) {
 	char[] arr=str.toCharArray();
 	Set<Character>set=new HashSet<Character>();
@@ -27,4 +27,4 @@ public static boolean isUnique(String str) {
 		set.add(a);
 	}
 	return true;
-```
+// ```

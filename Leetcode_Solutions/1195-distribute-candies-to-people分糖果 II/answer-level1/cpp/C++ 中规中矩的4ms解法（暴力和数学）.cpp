@@ -1,5 +1,5 @@
-## 暴力版
-```cpp
+// ## 暴力版
+// ```cpp
 class Solution {
 public:
     vector<int> distributeCandies(int candies, int num_people) {
@@ -13,10 +13,10 @@ public:
         return ans;
     }
 };
-```
+// ```
 
-## 数学版
-```cpp
+// ## 数学版
+// ```cpp
 class Solution {
 public:
     vector<int> distributeCandies(int candies, int num_people) {
@@ -34,4 +34,4 @@ public:
         return d;
     }
 };
-```
+// ```

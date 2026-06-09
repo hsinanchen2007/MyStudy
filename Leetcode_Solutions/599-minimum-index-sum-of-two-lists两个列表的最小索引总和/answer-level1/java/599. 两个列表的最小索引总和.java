@@ -1,12 +1,12 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  :
- * Date   : 2019/9/26
- *
- * 解题思路: 使用hashMap 存储list1<数值,索引>, 然后遍历list2 并判断相同的名称的索引值大小,取最小的集合装进Arrays
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  :
+//  * Date   : 2019/9/26
+//  *
+//  * 解题思路: 使用hashMap 存储list1<数值,索引>, 然后遍历list2 并判断相同的名称的索引值大小,取最小的集合装进Arrays
+//  */
+// ```
  public String[] findRestaurant(String[] list1, String[] list2) {
     ArrayList<String> arrays = new ArrayList<String>();
     HashMap<String,Integer> hashMap = new HashMap();
@@ -28,4 +28,4 @@
     }
     return arrays.toArray(new String[arrays.size()]);
 }
-```
+// ```

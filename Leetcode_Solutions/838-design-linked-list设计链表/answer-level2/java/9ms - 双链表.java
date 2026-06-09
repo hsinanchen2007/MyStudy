@@ -1,10 +1,10 @@
-![记录.png](https://pic.leetcode-cn.com/d518dc8b3c74b0e14c3d3d228fb27d4f44d470fe2b895c645a06a7bb7f7486eb-%E8%AE%B0%E5%BD%95.png)
+// ![记录.png](https://pic.leetcode-cn.com/d518dc8b3c74b0e14c3d3d228fb27d4f44d470fe2b895c645a06a7bb7f7486eb-%E8%AE%B0%E5%BD%95.png)
 
-### 解题思路
-判断需要插入/删除/查询的index离头和尾的距离，哪边近就走哪边。
-### 代码
+// ### 解题思路
+// 判断需要插入/删除/查询的index离头和尾的距离，哪边近就走哪边。
+// ### 代码
 
-```java
+// ```java
 class MyLinkedList {
     
     class ListNode {
@@ -123,4 +123,4 @@ class MyLinkedList {
  * obj.addAtIndex(index,val);
  * obj.deleteAtIndex(index);
  */
-```
+// ```

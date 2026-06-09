@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     inline bool uniqueOccurrences(vector<int>& arr) {
@@ -15,4 +15,4 @@ public:
         return true;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-利用Map这种键值（key-value）映射表的数据结构，能够快速通过key来查找value。
+// ### 解题思路
+// 利用Map这种键值（key-value）映射表的数据结构，能够快速通过key来查找value。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> map = new HashMap<>(); //创建Map映射表
@@ -17,4 +17,4 @@ class Solution {
     }
 }
 
-```
+// ```

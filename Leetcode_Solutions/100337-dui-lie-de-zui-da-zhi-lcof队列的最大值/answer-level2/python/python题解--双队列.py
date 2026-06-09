@@ -1,9 +1,9 @@
-### 解题思路
-这题与 <求滑动窗口内的最大值> 是一样的 
+# ### 解题思路
+# 这题与 <求滑动窗口内的最大值> 是一样的 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 from collections import deque
 class MaxQueue(object):
     from collections import deque
@@ -50,4 +50,4 @@ class MaxQueue(object):
 # param_1 = obj.max_value()
 # obj.push_back(value)
 # param_3 = obj.pop_front()
-```
+# ```

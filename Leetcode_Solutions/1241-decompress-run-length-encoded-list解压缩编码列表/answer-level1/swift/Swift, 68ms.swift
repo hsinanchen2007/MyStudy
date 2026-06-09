@@ -1,4 +1,4 @@
-```swift
+// ```swift
 class Solution {
     func decompressRLElist(_ nums: [Int]) -> [Int] {
         let count = nums.count
@@ -9,4 +9,4 @@ class Solution {
         return ans
     }
 }
-```
+// ```

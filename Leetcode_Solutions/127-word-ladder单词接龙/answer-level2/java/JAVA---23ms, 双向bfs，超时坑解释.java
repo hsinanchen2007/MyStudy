@@ -1,14 +1,14 @@
-最短路径问题
-双向bfs， 从beginword和endWord分别找，如果碰到则表示能转化，层数相加即可
+// 最短路径问题
+// 双向bfs， 从beginword和endWord分别找，如果碰到则表示能转化，层数相加即可
 
-使用双向bfs遇到的超时问题解决方式：
-1. 双向找时每次遍历元素少的会减少耗时；
-2. 遍历字符串时， 可以使用两种方式： 
-（1） 从wordlist中能转化的字符串（当wordlist中元素多时，效率不好）；
-（2） 使用’a'-'z'的依次替换（字符串长度长时效率不好）；
-3. 判断元素是否在list中会遍历查找，而放到hashset中会根据key找，耗时较少
+// 使用双向bfs遇到的超时问题解决方式：
+// 1. 双向找时每次遍历元素少的会减少耗时；
+// 2. 遍历字符串时， 可以使用两种方式： 
+// （1） 从wordlist中能转化的字符串（当wordlist中元素多时，效率不好）；
+// （2） 使用’a'-'z'的依次替换（字符串长度长时效率不好）；
+// 3. 判断元素是否在list中会遍历查找，而放到hashset中会根据key找，耗时较少
 
-```
+// ```
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
         if (!wordList.contains(endWord)) {
             return 0;
@@ -78,4 +78,4 @@
         }
         return 0;
     }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -52,4 +52,4 @@ int* distributeCandies(int candies, int num_people, int* returnSize)
 }
 
 
-```
+// ```

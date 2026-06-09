@@ -1,6 +1,6 @@
-索引最短string
+// 索引最短string
 
-```
+// ```
 func longestCommonPrefix(strs []string) string {
     if len(strs) == 0 {
             return ""
@@ -27,6 +27,6 @@ func longestCommonPrefix(strs []string) string {
         }
         return ""
 }
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/0d4ececb025aacfbd664e632f6ae7255d1adb9133febc17e9ab9cd04c3760929-image.png)
+// ![image.png](https://pic.leetcode-cn.com/0d4ececb025aacfbd664e632f6ae7255d1adb9133febc17e9ab9cd04c3760929-image.png)

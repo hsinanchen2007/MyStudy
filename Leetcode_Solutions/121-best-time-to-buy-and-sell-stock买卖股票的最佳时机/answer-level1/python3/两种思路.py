@@ -1,12 +1,12 @@
-思路一: `Kadane's Algorithm`参考[维基百科](https://zh.wikipedia.org/wiki/%E6%9C%80%E5%A4%A7%E5%AD%90%E6%95%B0%E5%88%97%E9%97%AE%E9%A2%98)
+# 思路一: `Kadane's Algorithm`参考[维基百科](https://zh.wikipedia.org/wiki/%E6%9C%80%E5%A4%A7%E5%AD%90%E6%95%B0%E5%88%97%E9%97%AE%E9%A2%98)
 
-简单介绍一下,如果一个数组为`[a1, a2, a3, a4, a5]`,
+# 简单介绍一下,如果一个数组为`[a1, a2, a3, a4, a5]`,
 
-`a5 - a1 = (a2 - a1) + (a3 - a2) + (a4 - a3) + (a5 - a4)`
+# `a5 - a1 = (a2 - a1) + (a3 - a2) + (a4 - a3) + (a5 - a4)`
 
-所以,我们这一题就是找两个差值最大数!
+# 所以,我们这一题就是找两个差值最大数!
 
-```python [1]
+# ```python [1]
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         res = 0
@@ -18,11 +18,11 @@ class Solution:
             cur_max = max(0, cur_max)
             res = max(res, cur_max)
         return res
-```
+# ```
 
 
 
-```java [1]
+# ```java [1]
 class Solution {
     public int maxProfit(int[] prices) {
         if (prices == null || prices.length == 0) return 0;
@@ -36,11 +36,11 @@ class Solution {
         return res;
     }
 }
-```
+# ```
 
-思路二 : 动态规划,我们可以遍历数组,记录前面最小的价格,用当天价格减去最小价格,一定是这天可以获得最大利润!
+# 思路二 : 动态规划,我们可以遍历数组,记录前面最小的价格,用当天价格减去最小价格,一定是这天可以获得最大利润!
 
-```python [2]
+# ```python [2]
 def maxProfit(self, prices: List[int]) -> int:
         if not prices: return 0
         res = 0
@@ -49,10 +49,10 @@ def maxProfit(self, prices: List[int]) -> int:
             res = max(res, prices[i] - cur_min)
             cur_min = min(cur_min, prices[i])
         return res
-```
+# ```
 
 
-```java [2]
+# ```java [2]
 class Solution {
     public int maxProfit(int[] prices) {
         if (prices == null || prices.length == 0) return 0;
@@ -65,5 +65,5 @@ class Solution {
         return res;  
     }
 }
-```
+# ```
 

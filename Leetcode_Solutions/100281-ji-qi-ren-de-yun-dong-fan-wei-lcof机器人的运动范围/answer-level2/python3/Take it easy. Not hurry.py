@@ -1,10 +1,10 @@
-### 解题思路
-![Capture.PNG](https://pic.leetcode-cn.com/fa08ae5253ca6b3e5ef0a54dd57b48e1e64fc13b6b74601a68daf1f0b1f7dbad-Capture.PNG)
-此处撰写解题思路
+# ### 解题思路
+# ![Capture.PNG](https://pic.leetcode-cn.com/fa08ae5253ca6b3e5ef0a54dd57b48e1e64fc13b6b74601a68daf1f0b1f7dbad-Capture.PNG)
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def movingCount(self, m: int, n: int, k: int) -> int:
         sumOfpoint = lambda x, y: x//10 + x % 10 + y//10 + y % 10
@@ -22,4 +22,4 @@ class Solution:
                 bdep = 0
             return rdep + bdep + 1
         return pathSearch(0, 0)
-```
+# ```

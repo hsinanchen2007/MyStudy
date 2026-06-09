@@ -1,5 +1,5 @@
-差点绕进去出不来了
-```
+# 差点绕进去出不来了
+# ```
 class Solution:
     def distributeCandies(self, candies: int, num: int) -> List[int]:
         su = ((1 + num) * num) // 2
@@ -21,4 +21,4 @@ class Solution:
                 lis[i] += candies
                 candies = 0
         return lis
-```
+# ```

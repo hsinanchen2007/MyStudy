@@ -1,7 +1,7 @@
-### 解题思路
-最初用遍历做，2600ms，鸡肋，算了，也贴上来吧
-### 代码
-```javascript
+// ### 解题思路
+// 最初用遍历做，2600ms，鸡肋，算了，也贴上来吧
+// ### 代码
+// ```javascript
 /**
  * @param {number[]} A
  * @return {number}
@@ -25,11 +25,11 @@ var maxRotateFunction = function (A) {
     return maxR
   }
 };
-```
-### 
-然后看了大佬的解题思路，F(j+1)-F(j)=sum(A)-nA[n-1]
-### 
-```javascript
+// ```
+// ### 
+// 然后看了大佬的解题思路，F(j+1)-F(j)=sum(A)-nA[n-1]
+// ### 
+// ```javascript
 var maxRotateFunction = function (A) {
   let sum=0; temp=0;
   for (let i = 0; i < A.length; i++) {
@@ -43,8 +43,8 @@ var maxRotateFunction = function (A) {
   }
   return maxR
 }
-```
-```javascript
+// ```
+// ```javascript
 //用reduce 内存消耗稍高
 var maxRotateFunction = function (A) {
   if (A.length === 1 || A.length === 0) {
@@ -64,4 +64,4 @@ var maxRotateFunction = function (A) {
   return maxR
   }
 }
-```
+// ```

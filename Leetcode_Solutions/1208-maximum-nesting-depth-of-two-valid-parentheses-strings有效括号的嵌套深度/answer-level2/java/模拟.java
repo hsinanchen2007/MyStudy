@@ -1,9 +1,9 @@
-### 解题思路
-通过阅读可以发现要保持两个子序列的平衡，也就是你分一个括号，我分一个括号
+// ### 解题思路
+// 通过阅读可以发现要保持两个子序列的平衡，也就是你分一个括号，我分一个括号
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] maxDepthAfterSplit(String seq) {
         int a = 0, b = 0;
@@ -31,4 +31,4 @@ class Solution {
         return res; 
     }
 }
-```
+// ```

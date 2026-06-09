@@ -1,7 +1,7 @@
-执行用时 :4 ms, 在所有 C++ 提交中击败了89.04%的用户
-内存消耗 :8.4 MB, 在所有 C++ 提交中击败了93.94%的用户
+// 执行用时 :4 ms, 在所有 C++ 提交中击败了89.04%的用户
+// 内存消耗 :8.4 MB, 在所有 C++ 提交中击败了93.94%的用户
 
-```
+// ```
 class Solution {
 public:
     vector<int> numberOfLines(vector<int>& widths, string S) {
@@ -36,4 +36,4 @@ public:
         return output;
     }
 };
-```
+// ```

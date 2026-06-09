@@ -1,5 +1,5 @@
-使用广度优先搜索时，从右往左向队列中添加新节点。每层队列首的节点即为右视图看到的节点。
-```c++
+// 使用广度优先搜索时，从右往左向队列中添加新节点。每层队列首的节点即为右视图看到的节点。
+// ```c++
 class Solution {
 public:
     vector<int> rightSideView(TreeNode* root) {
@@ -24,4 +24,4 @@ public:
         return view;
     }
 };
-```
+// ```

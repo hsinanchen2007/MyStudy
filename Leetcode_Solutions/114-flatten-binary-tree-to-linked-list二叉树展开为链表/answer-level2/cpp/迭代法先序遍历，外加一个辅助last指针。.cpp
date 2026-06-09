@@ -1,5 +1,5 @@
-98.31%的91.48%
-```
+// 98.31%的91.48%
+// ```
 class Solution {
 public:
     void flatten(TreeNode* root) {
@@ -23,4 +23,4 @@ public:
         last->left = last->right = NULL;
     }
 };
-```
+// ```

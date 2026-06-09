@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-相当于多个数组求和叠加
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 相当于多个数组求和叠加
+# ### 代码
 
-```python3
+# ```python3
 class NumMatrix:
 
     def __init__(self, matrix: List[List[int]]):
@@ -21,4 +21,4 @@ class NumMatrix:
 # Your NumMatrix object will be instantiated and called as such:
 # obj = NumMatrix(matrix)
 # param_1 = obj.sumRegion(row1,col1,row2,col2)
-```
+# ```

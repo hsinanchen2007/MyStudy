@@ -1,6 +1,6 @@
-首先去空格，找到每个单词，然后把单词存到vector里，然后reverse，连接
+// 首先去空格，找到每个单词，然后把单词存到vector里，然后reverse，连接
 
-```
+// ```
 class Solution {
 public:
     string reverseWords(string s) {
@@ -26,4 +26,4 @@ public:
 
     }
 };
-```
+// ```

@@ -1,6 +1,6 @@
-![546A3295-2EEA-4411-B0C8-BAA6A2475386.jpeg](https://pic.leetcode-cn.com/381b9b4e32ab900df071eaf3a8c431db81f9ab5fd438dc31336db8779052589e-546A3295-2EEA-4411-B0C8-BAA6A2475386.jpeg)
+// ![546A3295-2EEA-4411-B0C8-BAA6A2475386.jpeg](https://pic.leetcode-cn.com/381b9b4e32ab900df071eaf3a8c431db81f9ab5fd438dc31336db8779052589e-546A3295-2EEA-4411-B0C8-BAA6A2475386.jpeg)
 
-```
+// ```
 struct HashEntry1 {
     int key;
     int val;
@@ -76,4 +76,4 @@ bool isIsomorphic(char * s, char * t){
 
     return returnVal;
 }
-```
+// ```

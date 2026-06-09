@@ -1,9 +1,9 @@
-### 方法一： 优化的方法二，不再存储中间结果
-见check函数注释
-![image.png](https://pic.leetcode-cn.com/f72009d27213f75e9438d47d51388cdeb590e4e98b070c5eff61b8218425696f-image.png)
-### 代码
+// ### 方法一： 优化的方法二，不再存储中间结果
+// 见check函数注释
+// ![image.png](https://pic.leetcode-cn.com/f72009d27213f75e9438d47d51388cdeb590e4e98b070c5eff61b8218425696f-image.png)
+// ### 代码
 
-```c
+// ```c
 /* 计算y能通过x产生多少个数 */
 bool check(int x, int y, int z)
 {
@@ -43,14 +43,14 @@ bool canMeasureWater(int x, int y, int z){
     }
     return check(x, y, z) || check(y, x, z);
 }
-```
-### 方法二 写得有点儿水，硬是用了hash存储下了所有的值
-见sCal注释，算是提供一个解法吧
-![image.png](https://pic.leetcode-cn.com/e86f0a21a6f600191c9636efde80e9eb13dfc35bdb42bea000ce45ae26cfa7e9-image.png)
+// ```
+// ### 方法二 写得有点儿水，硬是用了hash存储下了所有的值
+// 见sCal注释，算是提供一个解法吧
+// ![image.png](https://pic.leetcode-cn.com/e86f0a21a6f600191c9636efde80e9eb13dfc35bdb42bea000ce45ae26cfa7e9-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MY_OK 0
 #define MY_FAIL (-1)
 #define MY_BASE_SIZE 100000
@@ -185,4 +185,4 @@ bool canMeasureWater(int x, int y, int z){
     sFree(&ys);
     return rlt;
 }
-```
+// ```

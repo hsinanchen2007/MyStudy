@@ -1,9 +1,9 @@
-### 解题思路
-不改变链表结构的前提下，利用栈存放链表从前到后的顺序
+// ### 解题思路
+// 不改变链表结构的前提下，利用栈存放链表从前到后的顺序
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -31,4 +31,4 @@ class Solution {
         return arr;
     }
 }
-```
+// ```

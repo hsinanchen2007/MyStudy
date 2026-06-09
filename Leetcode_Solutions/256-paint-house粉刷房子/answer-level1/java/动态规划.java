@@ -1,9 +1,9 @@
-### 解题思路
-没啥好讲的
+// ### 解题思路
+// 没啥好讲的
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minCost(int[][] costs) {
         int row = costs.length;
@@ -24,4 +24,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

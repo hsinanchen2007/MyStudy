@@ -1,9 +1,9 @@
-### 解题思路
-常规操作，找到R的位置，然后我这个R只能走四个方向，上下左右，用pair包装起来，走这四个方向，碰到了别的棋子就break因为挡着R的路了，碰到小p就加个1，直接break;
+// ### 解题思路
+// 常规操作，找到R的位置，然后我这个R只能走四个方向，上下左右，用pair包装起来，走这四个方向，碰到了别的棋子就break因为挡着R的路了，碰到小p就加个1，直接break;
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numRookCaptures(vector<vector<char>>& board) {
@@ -43,4 +43,4 @@ public:
         return num;
     }
 };
-```
+// ```

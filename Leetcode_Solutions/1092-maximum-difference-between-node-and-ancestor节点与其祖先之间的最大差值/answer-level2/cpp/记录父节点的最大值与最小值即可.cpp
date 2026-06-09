@@ -1,9 +1,9 @@
-### 解题思路
-极简思想，如标题接着来做差即可！！！
+// ### 解题思路
+// 极简思想，如标题接着来做差即可！！！
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -37,4 +37,4 @@ public:
         return max1;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-这一题在leetcode中做过。取右端点为起始点就是解题关键。
+// ### 解题思路
+// 这一题在leetcode中做过。取右端点为起始点就是解题关键。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean findNumberIn2DArray(int[][] matrix, int target) {
         if(matrix.length == 0)
@@ -25,4 +25,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

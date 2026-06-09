@@ -1,11 +1,11 @@
-### 解题思路
-1.a,b,c按从大到小排序
-2.a与b之间的距离d1，b与c之间的距离d2
-3.最小移动次数是0或1或2，最多移动次数是d1+d2
+// ### 解题思路
+// 1.a,b,c按从大到小排序
+// 2.a与b之间的距离d1，b与c之间的距离d2
+// 3.最小移动次数是0或1或2，最多移动次数是d1+d2
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> numMovesStones(int a, int b, int c) {
@@ -32,4 +32,4 @@ public:
         return ans;
     }
 };
-```
+// ```

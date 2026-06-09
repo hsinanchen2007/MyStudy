@@ -1,5 +1,5 @@
-感觉自己的解法太不优雅
-```c
+// 感觉自己的解法太不优雅
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -74,4 +74,4 @@ int main(int argc, char *argv[])
     free(ret);
     return 0;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-这个就是灵活运用了hashmap,最核心的就是注释那两行，一定要注意
+# ### 解题思路
+# 这个就是灵活运用了hashmap,最核心的就是注释那两行，一定要注意
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def subarraySum(self, nums: List[int], k: int) -> int:
         hash_mp ={0:1}
@@ -18,4 +18,4 @@ class Solution:
             else:
                 hash_mp[sums]=1
         return count
-```
+# ```

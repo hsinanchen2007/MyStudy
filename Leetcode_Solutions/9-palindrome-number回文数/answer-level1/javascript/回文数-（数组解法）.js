@@ -1,4 +1,4 @@
-```
+// ```
 var isPalindrome = function(x) {
     //先处理负数，由题知负数一定不是回文数
     if(x<0){
@@ -22,4 +22,4 @@ var isPalindrome = function(x) {
         return true
     }
 };
-```
+// ```

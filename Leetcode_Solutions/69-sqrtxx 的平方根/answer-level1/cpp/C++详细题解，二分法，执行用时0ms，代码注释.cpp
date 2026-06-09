@@ -1,7 +1,7 @@
-### 思路
-- 使用二分法，通过对x和mid的商的比较，得到答案
-- 注意：不能通过mid*mid来与x进行比较，会溢出
-```cpp
+// ### 思路
+// - 使用二分法，通过对x和mid的商的比较，得到答案
+// - 注意：不能通过mid*mid来与x进行比较，会溢出
+// ```cpp
 class Solution {
 public:
     int mySqrt(int x) {
@@ -20,4 +20,4 @@ public:
         return 0;
     }
 };
-```
+// ```

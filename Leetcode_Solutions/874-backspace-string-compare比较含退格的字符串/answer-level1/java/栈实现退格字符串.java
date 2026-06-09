@@ -1,9 +1,9 @@
-### 解题思路
-利用栈的特性，遇到特殊字符可进行后退
+// ### 解题思路
+// 利用栈的特性，遇到特殊字符可进行后退
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean backspaceCompare(String S, String T) {
         return build(S).equals(build(T));
@@ -20,4 +20,4 @@ class Solution {
         return String.valueOf(stack);
     }
 }
-```
+// ```

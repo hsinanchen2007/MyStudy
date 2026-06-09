@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-一个进栈队列, 一个出栈队列.
+// 一个进栈队列, 一个出栈队列.
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 use std::collections::VecDeque;
 
 struct MyStack {
@@ -74,4 +74,4 @@ impl MyStack {
  * let ret_3: i32 = obj.top();
  * let ret_4: bool = obj.empty();
  */
-```
+// ```

@@ -1,15 +1,15 @@
-### 解题思路
-排序+双指针
+// ### 解题思路
+// 排序+双指针
 
-执行用时 : 0 ms, 在所有 golang 提交中击败了100.00%的用户
-内存消耗 : 2.7 MB, 在所有 golang 提交中击败了59.14%的用户
+// 执行用时 : 0 ms, 在所有 golang 提交中击败了100.00%的用户
+// 内存消耗 : 2.7 MB, 在所有 golang 提交中击败了59.14%的用户
 
-+ 记住Abs函数自己写，库里面的形参是float64，强转+浮点运算很慢
-+ 我这边Abs没考虑到临界问题，负数比正数多一个
+// + 记住Abs函数自己写，库里面的形参是float64，强转+浮点运算很慢
+// + 我这边Abs没考虑到临界问题，负数比正数多一个
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func threeSumClosest(nums []int, target int) int {
     ns := nums
     if !sort.IntsAreSorted(ns) {
@@ -57,4 +57,4 @@ func AbsInt(v int) int {
 
 
 */
-```
+// ```

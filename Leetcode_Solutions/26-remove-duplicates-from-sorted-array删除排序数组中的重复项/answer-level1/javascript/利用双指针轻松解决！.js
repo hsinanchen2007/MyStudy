@@ -1,4 +1,4 @@
-```
+// ```
 var removeDuplicates = function (nums) {
     let p = 0, q = 1;
     while (q < nums.length) {
@@ -12,4 +12,4 @@ var removeDuplicates = function (nums) {
     }
     return ++p
 };
-```
+// ```

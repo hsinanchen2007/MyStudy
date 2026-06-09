@@ -1,9 +1,9 @@
-### 解题思路
-去掉字符串中首尾及中间的空格，翻转字符串，翻转单词
+// ### 解题思路
+// 去掉字符串中首尾及中间的空格，翻转字符串，翻转单词
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void reverse(char *start, char *end) {
     if (start == NULL || end == NULL) {
         return;
@@ -91,4 +91,4 @@ char * reverseWords(char * s){
     
     return s;
 }
-```
+// ```

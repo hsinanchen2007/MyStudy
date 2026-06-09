@@ -1,6 +1,6 @@
-1.使用stack找出回文字符集合
-2.DFS回溯搜索
-```
+// 1.使用stack找出回文字符集合
+// 2.DFS回溯搜索
+// ```
 class Solution {
 public:
     vector<string> generatePalindromes(string s) {
@@ -76,4 +76,4 @@ private:
     
     set<string> halfs;
 };
-```
+// ```

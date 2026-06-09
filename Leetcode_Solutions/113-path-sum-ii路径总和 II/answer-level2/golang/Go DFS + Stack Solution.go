@@ -1,6 +1,6 @@
-思路是先 DFS 再使用栈进行回溯
+// 思路是先 DFS 再使用栈进行回溯
 
-```go
+// ```go
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -56,4 +56,4 @@ func pathSum(root *TreeNode, sum int) (result [][]int) {
     helper(root, NewStack(), 0)
     return result
 }
-```
+// ```

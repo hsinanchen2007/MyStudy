@@ -1,4 +1,4 @@
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -42,4 +42,4 @@ int locate(int* array, int arraySize, int target) {
     }
     return -1;
 }
-```
+// ```

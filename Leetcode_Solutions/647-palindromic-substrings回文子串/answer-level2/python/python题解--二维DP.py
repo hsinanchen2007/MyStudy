@@ -1,9 +1,9 @@
-### 解题思路
+# ### 解题思路
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def countSubstrings(self, s):
         """
@@ -34,4 +34,4 @@ class Solution(object):
 
         return res 
                     
-```
+# ```

@@ -1,4 +1,4 @@
-```Java
+// ```Java
 public boolean canMeasureWater(int x, int y, int z) {
     if (x + y < z) {
         return false;
@@ -19,4 +19,4 @@ private int gcd(int a, int b) {
     }
     return a;
 }
-```
+// ```

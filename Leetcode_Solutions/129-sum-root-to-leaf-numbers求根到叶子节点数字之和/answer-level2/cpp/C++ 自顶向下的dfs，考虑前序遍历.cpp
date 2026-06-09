@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 //* 思路：自顶向下的dfs，考虑前序遍历
 void dfs(vector<int>& nums, int tmp, TreeNode* root) {
   if (!root) return;
@@ -12,4 +12,4 @@ int sumNumbers(TreeNode* root) {
   dfs(nums, 0, root);
   return accumulate(nums.begin(), nums.end(), 0);
 }
-```
+// ```

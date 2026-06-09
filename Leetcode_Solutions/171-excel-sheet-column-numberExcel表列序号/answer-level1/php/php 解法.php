@@ -1,4 +1,4 @@
-```
+// ```
 function titleToNumber($s) {
     $n = strlen($s);
     $ans = 0;
@@ -7,4 +7,4 @@ function titleToNumber($s) {
     }
     return $ans;
 }
-```
+// ```

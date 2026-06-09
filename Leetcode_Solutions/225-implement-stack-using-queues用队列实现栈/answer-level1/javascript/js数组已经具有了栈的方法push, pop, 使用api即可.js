@@ -1,9 +1,9 @@
-### 解题思路
-js数组已经具有了栈的方法push, pop, 使用api可以轻易达成需求
+// ### 解题思路
+// js数组已经具有了栈的方法push, pop, 使用api可以轻易达成需求
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Initialize your data structure here.
  */
@@ -56,4 +56,4 @@ MyStack.prototype.empty = function() {
  * var param_3 = obj.top()
  * var param_4 = obj.empty()
  */
-```
+// ```

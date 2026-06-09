@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/7df194ef62e1b4922463356cc89246342897c1c894c0f9374c0c5d64f4833e49-image.png)
+# ![image.png](https://pic.leetcode-cn.com/7df194ef62e1b4922463356cc89246342897c1c894c0f9374c0c5d64f4833e49-image.png)
 
 
-```
+# ```
 '''
 首先有解的前提是colsum中1的总数和upper+lower相等
 从左到右依次扫描colsum，lower, upper分别为两行剩余要填写的1的数量
@@ -37,4 +37,4 @@ class Solution:
                     ans[1][i] = 1
                     ans[0][i] = 0
         return ans
-```
+# ```

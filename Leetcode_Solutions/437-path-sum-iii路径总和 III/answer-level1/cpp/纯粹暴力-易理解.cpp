@@ -1,9 +1,9 @@
-### 解题思路
-思路看注释
+// ### 解题思路
+// 思路看注释
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -39,4 +39,4 @@ public:
         if(root->right != NULL) dfs(root->right, sum + root->right->val, target);
     }
 };
-```
+// ```

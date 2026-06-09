@@ -1,4 +1,4 @@
-```c
+// ```c
 #define SIZE 26
 int g_map[SIZE];
 int copy_map[SIZE];
@@ -33,4 +33,4 @@ int countCharacters(char ** words, int wordsSize, char * chars){
     return ret;
 }
 
-```
+// ```

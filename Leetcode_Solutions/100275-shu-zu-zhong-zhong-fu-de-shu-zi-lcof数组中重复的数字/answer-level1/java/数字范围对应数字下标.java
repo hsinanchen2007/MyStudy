@@ -1,11 +1,11 @@
-### 解题思路
-将数字一一交换到对应的下标下，如果发生冲突了nums[nums[i]] == nums[i]，则直接返回 nums[i]
-利用数组代替hashmap
-这样的空间复杂度就是O(1)了
+// ### 解题思路
+// 将数字一一交换到对应的下标下，如果发生冲突了nums[nums[i]] == nums[i]，则直接返回 nums[i]
+// 利用数组代替hashmap
+// 这样的空间复杂度就是O(1)了
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findRepeatNumber(int[] nums) {
         int i=0;
@@ -29,5 +29,5 @@ class Solution {
         nums[j] = tmp;
     }
 }
-```
-![image.png](https://pic.leetcode-cn.com/712e5e671321f84013c6d332be0f874985b652ffaa7cc6c91bee74e446ec6967-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/712e5e671321f84013c6d332be0f874985b652ffaa7cc6c91bee74e446ec6967-image.png)

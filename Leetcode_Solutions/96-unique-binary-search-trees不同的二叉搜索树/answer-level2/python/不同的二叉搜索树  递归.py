@@ -1,9 +1,9 @@
-### 解题思路
-学习官方题解
+# ### 解题思路
+# 学习官方题解
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def numTrees(self, n):
        #卡特兰数
@@ -19,4 +19,4 @@ class Solution(object):
             for j in range(1,i+1):
                 G[i] += G[j-1] * G[i-j]
         return G[n]
-```
+# ```

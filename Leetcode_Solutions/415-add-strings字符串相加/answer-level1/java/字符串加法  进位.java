@@ -1,12 +1,12 @@
-### 解题思路
-从尾部相加，记录进位
+// ### 解题思路
+// 从尾部相加，记录进位
 
-![image.png](https://pic.leetcode-cn.com/78066555369e5bda443ec7885c10c45b61395ebb0ec2faa9e568f78946d45325-image.png)
+// ![image.png](https://pic.leetcode-cn.com/78066555369e5bda443ec7885c10c45b61395ebb0ec2faa9e568f78946d45325-image.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String addStrings(String num1, String num2) {
         StringBuilder sb = new StringBuilder();
@@ -37,4 +37,4 @@ class Solution {
         return sb.reverse().toString();
     }
 }
-```
+// ```

@@ -1,11 +1,11 @@
-![微信图片_20200320021444.png](https://pic.leetcode-cn.com/4084cde8da08cac48126cf4c4b3d0b9a681f7c3242083fb5508bde15c269f02e-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200320021444.png)
+// ![微信图片_20200320021444.png](https://pic.leetcode-cn.com/4084cde8da08cac48126cf4c4b3d0b9a681f7c3242083fb5508bde15c269f02e-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200320021444.png)
 
 
-### 解题思路
-就是考虑的情况多，本身并没有什么难度
+// ### 解题思路
+// 就是考虑的情况多，本身并没有什么难度
 
-### 代码
-```cpp
+// ### 代码
+// ```cpp
 class Solution {
 public:
   vector<string> fullJustify(vector<string>& words, int maxWidth) {
@@ -102,4 +102,4 @@ public:
 	return result;
 }
 };
-```
+// ```

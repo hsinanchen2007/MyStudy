@@ -1,5 +1,5 @@
-如有疏漏，请指正
-```
+// 如有疏漏，请指正
+// ```
 class Solution {
 public:
     int compress(vector<char>& chars) {
@@ -22,4 +22,4 @@ public:
 	    return chars.size();
     }
 };
-```
+// ```

@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/a5b9d98bfb42dba6b12634cb7b8bdd19006462055a200c9dc2ba0eb8711bd086-image.png)
+// ![image.png](https://pic.leetcode-cn.com/a5b9d98bfb42dba6b12634cb7b8bdd19006462055a200c9dc2ba0eb8711bd086-image.png)
 
-如果不用StringBuilder改用ans+的话会慢很多很多。。。
-```
+// 如果不用StringBuilder改用ans+的话会慢很多很多。。。
+// ```
 class Solution {
     public String reverseWords(String s) {
         String [] str = s.split(" ");
@@ -16,4 +16,4 @@ class Solution {
         return ans.toString().trim();
     }
 }
-```
+// ```

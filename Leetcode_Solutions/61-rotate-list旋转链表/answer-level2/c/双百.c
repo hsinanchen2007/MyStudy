@@ -1,9 +1,9 @@
-### 解题思路
-将后面若干个节点挪到前面来即可
+// ### 解题思路
+// 将后面若干个节点挪到前面来即可
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -39,4 +39,4 @@ struct ListNode* rotateRight(struct ListNode* head, int k){
     tail->next=head;
     return p;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-用hashmap存储结果，注意题目说的满足题意的最少的兔子
+# ### 解题思路
+# 用hashmap存储结果，注意题目说的满足题意的最少的兔子
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numRabbits(self, answers: List[int]) -> int:
         if len(answers)==0:
@@ -22,4 +22,4 @@ class Solution:
                 count += i+1
 
         return count
-```
+# ```

@@ -1,6 +1,6 @@
-执行用时 :0 ms, 在所有 java 提交中击败了100.00% 的用户
-内存消耗 :33.9 MB, 在所有 java 提交中击败了95.28%的用户
-```
+// 执行用时 :0 ms, 在所有 java 提交中击败了100.00% 的用户
+// 内存消耗 :33.9 MB, 在所有 java 提交中击败了95.28%的用户
+// ```
 class Solution {
     public int longestSubstring(String s, int k) { 
         if(s.length() < 1 || k < 1 || k > s.length())
@@ -39,5 +39,5 @@ class Solution {
         return Math.max(getResult(chs, start, index-1, k),getResult(chs, index+1, end, k));
     }
 }
-```
+// ```
 

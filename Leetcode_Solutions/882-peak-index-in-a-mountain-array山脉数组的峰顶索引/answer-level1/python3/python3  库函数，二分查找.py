@@ -1,12 +1,12 @@
-思路一，库函数
-```
+# 思路一，库函数
+# ```
 class Solution:
     def peakIndexInMountainArray(self, A: List[int]) -> int:
         return A.index(max(A))
-```
+# ```
 
-思路二，二分查找
-```
+# 思路二，二分查找
+# ```
 class Solution:
     def peakIndexInMountainArray(self, A: List[int]) -> int:
         low,high = 0,len(A)-1
@@ -19,4 +19,4 @@ class Solution:
             else: 
                 return mid
         return low
-```
+# ```

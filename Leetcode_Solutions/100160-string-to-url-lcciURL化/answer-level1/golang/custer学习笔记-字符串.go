@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-使用 bytes.Buffer 
+// 使用 bytes.Buffer 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func replaceSpaces(S string, length int) string {
   var buffer bytes.Buffer
   for i:=0;i<length;i++{
@@ -16,4 +16,4 @@ func replaceSpaces(S string, length int) string {
   }
   return buffer.String()
 }
-```
+// ```

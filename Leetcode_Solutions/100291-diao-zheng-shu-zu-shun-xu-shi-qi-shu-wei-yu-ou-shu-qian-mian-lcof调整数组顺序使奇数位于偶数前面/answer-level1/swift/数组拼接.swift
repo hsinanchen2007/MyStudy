@@ -1,7 +1,7 @@
-### 数组拼接
-### 代码
+// ### 数组拼接
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func exchange(_ nums: [Int]) -> [Int] {
         var array1 = [Int]()
@@ -16,4 +16,4 @@ class Solution {
         return array1 + array2
     }
 }
-```
+// ```

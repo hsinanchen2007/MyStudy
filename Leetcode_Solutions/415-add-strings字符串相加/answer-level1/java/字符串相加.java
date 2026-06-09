@@ -1,9 +1,9 @@
-### 解题思路
-    二进制加法思路的延申。
+// ### 解题思路
+//     二进制加法思路的延申。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String addStrings(String num1, String num2) {
         //进位处理
@@ -28,4 +28,4 @@ class Solution {
         return sb.reverse().toString();
     }
 }
-```
+// ```

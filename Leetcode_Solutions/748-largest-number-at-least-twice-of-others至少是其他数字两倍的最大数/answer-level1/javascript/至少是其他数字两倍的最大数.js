@@ -1,6 +1,6 @@
-*法一*
+// *法一*
 
-```js
+// ```js
 /**
  * @param {number[]} nums
  * @return {number}
@@ -20,11 +20,11 @@ var dominantIndex = function(nums) {
 };
 var nums = [3, 6, 1, 0];
 console.log(dominantIndex(nums));
-```
+// ```
 
-*法二*
+// *法二*
 
-```js
+// ```js
 var dominantIndex = function(nums) {
     if (nums.length == 0) {
         return -1;
@@ -46,5 +46,5 @@ var dominantIndex = function(nums) {
     }
     return index;
 }
-```
+// ```
 

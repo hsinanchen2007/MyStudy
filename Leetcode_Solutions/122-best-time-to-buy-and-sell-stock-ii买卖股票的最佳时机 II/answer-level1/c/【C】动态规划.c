@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX(x,y) (x)>(y) ? (x) : (y);
 
 int maxProfit(int* prices, int pricesSize){
@@ -27,4 +27,4 @@ int maxProfit(int* prices, int pricesSize){
     return dp[pricesSize-1][0];
 }
 
-```
+// ```

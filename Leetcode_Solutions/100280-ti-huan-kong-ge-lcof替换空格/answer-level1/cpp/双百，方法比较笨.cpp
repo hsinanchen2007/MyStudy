@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     string replaceSpace(string s) {
@@ -19,5 +19,5 @@ public:
         return a;
     }
 };
-```
-![图片.png](https://pic.leetcode-cn.com/9fbc60f51a925e9d811671de9f0e6dcb66a2ee7a9c4a43bf703ccca0b00e7cb2-%E5%9B%BE%E7%89%87.png)
+// ```
+// ![图片.png](https://pic.leetcode-cn.com/9fbc60f51a925e9d811671de9f0e6dcb66a2ee7a9c4a43bf703ccca0b00e7cb2-%E5%9B%BE%E7%89%87.png)

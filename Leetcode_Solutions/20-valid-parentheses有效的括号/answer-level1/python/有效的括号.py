@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isValid(self, s: str) -> bool:
         n = list(s)
@@ -48,4 +48,4 @@ class Solution:
             if i == len(n) - 1 and len(d) == 0:
                 r = True
         return r
-```
+# ```

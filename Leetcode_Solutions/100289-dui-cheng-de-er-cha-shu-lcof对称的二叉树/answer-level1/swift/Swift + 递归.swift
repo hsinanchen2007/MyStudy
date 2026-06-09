@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
      func isSymmetric(_ root: TreeNode?) -> Bool {
         guard root != nil else {
@@ -17,4 +17,4 @@ class Solution {
         return recur(left!.left, right!.right) && recur(left!.right, right!.left)
     }
 }
-```
+// ```

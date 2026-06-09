@@ -1,9 +1,9 @@
-### 解题思路
-判断空格、符号、数值，遇到其他字符直接break，不算难。
+// ### 解题思路
+// 判断空格、符号、数值，遇到其他字符直接break，不算难。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func myAtoi(str string) (result int) {
 	min := - int(math.Pow(2, 31))
 	max :=  int(math.Pow(2, 31)) - 1
@@ -50,4 +50,4 @@ func isNum(n rune) bool {
 		return false
 	}
 }
-```
+// ```

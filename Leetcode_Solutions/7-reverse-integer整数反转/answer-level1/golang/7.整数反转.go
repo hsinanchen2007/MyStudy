@@ -1,4 +1,4 @@
-```go
+// ```go
 func reverse(x int) int {
    ret := 0
    for x != 0 {
@@ -11,5 +11,5 @@ func reverse(x int) int {
    }
    return ret
 }
-```
+// ```
 

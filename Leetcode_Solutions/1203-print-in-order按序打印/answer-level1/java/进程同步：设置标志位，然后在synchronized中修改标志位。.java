@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-`synchronized`**是用来同步同一个进程的不同线程**，通过设置标志位来同步不同进程`firstFinish`
-lock.notify()随机唤醒一个。
-lock.notify()唤醒所有等待次资源的进程。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// `synchronized`**是用来同步同一个进程的不同线程**，通过设置标志位来同步不同进程`firstFinish`
+// lock.notify()随机唤醒一个。
+// lock.notify()唤醒所有等待次资源的进程。
+// ### 代码
 
-```java
+// ```java
 class Foo {
     private boolean  firstFinish;
     private boolean secondFinish;
@@ -42,4 +42,4 @@ class Foo {
         
     }
 }
-```
+// ```

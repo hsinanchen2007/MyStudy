@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 /**
  * @param {string} a
  * @param {string} b
@@ -22,4 +22,4 @@ var addBinary = function(a, b) {
   }
   return carry === 0 ? arr.reverse().join('') : carry + arr.reverse().join('')
 };
-```
+// ```

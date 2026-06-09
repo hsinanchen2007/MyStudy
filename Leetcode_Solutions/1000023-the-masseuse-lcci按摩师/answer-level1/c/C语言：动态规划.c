@@ -1,6 +1,6 @@
-最基本的动态规划题目。和爬楼梯属于同一类
+// 最基本的动态规划题目。和爬楼梯属于同一类
 
-```
+// ```
 #define MAX(a, b) ((a) > (b) ? (a) : (b))
 
 int massage(int* nums, int numsSize){
@@ -23,4 +23,4 @@ int massage(int* nums, int numsSize){
 
     return fstatus[numsSize];
 }
-```
+// ```

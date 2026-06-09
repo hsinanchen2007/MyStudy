@@ -1,9 +1,9 @@
-### 解题思路
-不断进行窗口调整，并将结果存入二维数组
+// ### 解题思路
+// 不断进行窗口调整，并将结果存入二维数组
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findContinuousSequence(target int) [][]int {
     res := make([][]int, 0)
     left := 1
@@ -25,4 +25,4 @@ func findContinuousSequence(target int) [][]int {
     }
     return res
 }
-```
+// ```

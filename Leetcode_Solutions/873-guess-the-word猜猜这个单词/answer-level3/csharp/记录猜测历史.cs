@@ -1,15 +1,15 @@
-### 解题思路
-统计所有Word之间的相似度
-取一个相似Word最多的单词
-判断
-计入历史
-根据结果和历史 查找新的可用猜测单词
+// ### 解题思路
+// 统计所有Word之间的相似度
+// 取一个相似Word最多的单词
+// 判断
+// 计入历史
+// 根据结果和历史 查找新的可用猜测单词
 
 
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 /**
  * // This is the Master's API interface.
  * // You should not implement it, or speculate about its implementation
@@ -166,4 +166,4 @@ class Solution{
     // }
 }
 
-```
+// ```

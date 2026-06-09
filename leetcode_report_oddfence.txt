@@ -1,0 +1,1002 @@
+./91-decode-ways解码方法/answer-level2/python3/DP.py
+./1319-unique-number-of-occurrences独一无二的出现次数/answer-level1/python3/py3.py
+./662-maximum-width-of-binary-tree二叉树最大宽度/answer-level2/java/用时5ms-两个队列.java
+./100299-shan-chu-lian-biao-de-jie-dian-lcof删除链表的节点/answer-level1/java/java 双100%.java
+./15-3sum三数之和/answer-level2/cpp/sort + double pointer;CPP.cpp
+./15-3sum三数之和/answer-level2/javascript/三数之和：超过 98.9% 用户～.js
+./389-find-the-difference找不同/answer-level1/python3/哈希计数思路简捷.py
+./389-find-the-difference找不同/answer-level1/python/哈希计数思路简捷.py
+./389-find-the-difference找不同/answer-level1/c/C语言解决，两种方式，通俗易懂！.c
+./1395-minimum-time-visiting-all-points访问所有点的最小时间/answer-level1/python3/画个图就能明白.py
+./1022-unique-paths-iii不同路径 III/answer-level3/python3/详细注释 易懂（回溯法）.py
+./1078-remove-outermost-parentheses删除最外层的括号/answer-level1/python3/计数器判断括号.py
+./1078-remove-outermost-parentheses删除最外层的括号/answer-level1/golang/初学Go练练手.go
+./210-course-schedule-ii课程表 II/answer-level2/python3/# 没有课程，当然可以完成课程的学习.py
+./567-permutation-in-string字符串的排列/answer-level2/c/C语言滑窗比较.c
+./1009-pancake-sorting煎饼排序/answer-level2/c/C语言一个参考.c
+./551-student-attendance-record-i学生出勤记录 I/answer-level1/java/java 一行.java
+./911-profitable-schemes盈利计划/answer-level3/python3/python极简，二维dp.py
+./911-profitable-schemes盈利计划/answer-level3/python/python极简，二维dp.py
+./1078-remove-outermost-parentheses删除最外层的括号/answer-level1/c/简单的栈的循环解决删除最外层括号.c
+./62-unique-paths不同路径/answer-level2/golang/go 不同路径.go
+./643-maximum-average-subarray-i子数组最大平均数 I/answer-level1/python3/O(n)时间复杂度.py
+./63-unique-paths-ii不同路径 II/answer-level2/python3/动态规划，转换成62题 python3.py
+./63-unique-paths-ii不同路径 II/answer-level2/java/动态规划，代码简单易读，详细.java
+./63-unique-paths-ii不同路径 II/answer-level2/java/简洁明了.java
+./1000009-paths-with-sum-lcci求和路径/answer-level2/python3/Python3_先计算包含根节点的情况，在递归求解不包含根节点的左右子树，统计相加即可。.py
+./1000009-paths-with-sum-lcci求和路径/answer-level2/python/Python3_先计算包含根节点的情况，在递归求解不包含根节点的左右子树，统计相加即可。.py
+./100294-lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof链表中倒数第k个节点/answer-level1/cpp/双指针法.cpp
+./100294-lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof链表中倒数第k个节点/answer-level1/javascript/利用相差k步，一个到头另一个就是后k个.js
+./98-validate-binary-search-tree验证二叉搜索树/answer-level2/java/简单易懂的中序遍历.java
+./125-valid-palindrome验证回文串/answer-level1/golang/Go 调用标准库不使用双指针.go
+./125-valid-palindrome验证回文串/answer-level1/cpp/回文.cpp
+./125-valid-palindrome验证回文串/answer-level1/cpp/O(n) 99.76%.cpp
+./125-valid-palindrome验证回文串/answer-level1/cpp/将原有字符串初步处理后，使用回文判断。.cpp
+./125-valid-palindrome验证回文串/answer-level1/c/两头向中间遍历，左右相等则缩小范围，否则返回false.c
+./1371-minimum-remove-to-make-valid-parentheses移除无效的括号/answer-level2/python3/用两个栈分别存储无效的左括号和右括号对应的index，踢出无效的字符即可。.py
+./1371-minimum-remove-to-make-valid-parentheses移除无效的括号/answer-level2/python/用两个栈分别存储无效的左括号和右括号对应的index，踢出无效的字符即可。.py
+./1371-minimum-remove-to-make-valid-parentheses移除无效的括号/answer-level2/cpp/简单的思路实现移除无效的括号对.cpp
+./76-minimum-window-substring最小覆盖子串/answer-level3/c/C 语言解法, 滑动窗口.c
+./695-max-area-of-island岛屿的最大面积/answer-level2/python3/python dfs.py
+./695-max-area-of-island岛屿的最大面积/answer-level2/javascript/岛屿最大面积.js
+./695-max-area-of-island岛屿的最大面积/answer-level2/c/递归。发现一个问题请教下大家，int max=0；一开始在是全局变量，但是在循环前打印出来是个4不是0,这个是什么原因呢？请教下各位大神.c
+./695-max-area-of-island岛屿的最大面积/answer-level2/c/C语言.c
+./538-convert-bst-to-greater-tree把二叉搜索树转换为累加树/answer-level1/php/php 538. 把二叉搜索树转换为累加树.php
+./538-convert-bst-to-greater-tree把二叉搜索树转换为累加树/answer-level1/cpp/C++ 逆中序遍历.cpp
+./100317-er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof二叉树中和为某一值的路径/answer-level2/cpp/bfs.cpp
+./117-populating-next-right-pointers-in-each-node-ii填充每个节点的下一个右侧节点指针 II/answer-level2/cpp/填充每个节点的下一个右侧节点指针 II.cpp
+./117-populating-next-right-pointers-in-each-node-ii填充每个节点的下一个右侧节点指针 II/answer-level2/cpp/充分利用next指针保存父节点的信息.cpp
+./312-burst-balloons戳气球/answer-level3/java/比较规则的dp .java
+./75-sort-colors颜色分类/answer-level2/python3/python3 巧妙的三指针,代码非常简单清晰！.py
+./98-validate-binary-search-tree验证二叉搜索树/answer-level2/cpp/98. 验证二叉搜索树 C++.cpp
+./98-validate-binary-search-tree验证二叉搜索树/answer-level2/cpp/万物皆可回溯.cpp
+./98-validate-binary-search-tree验证二叉搜索树/answer-level2/cpp/中序遍历二叉搜索树是有序的.cpp
+./98-validate-binary-search-tree验证二叉搜索树/answer-level2/cpp/C++ 提供一个好理解的解题思路.cpp
+./752-ip-to-cidrIP 到 CIDR/answer-level1/cpp/c++，先将ip转为整数，用lowbit(x & -x)取每个地址块最大地址数，然后整数转ip串.cpp
+./334-increasing-triplet-subsequence递增的三元子序列/answer-level2/python3/python3 双指针实现三元子序列.py
+./334-increasing-triplet-subsequence递增的三元子序列/answer-level2/java/记录思路.java
+./73-set-matrix-zeroes矩阵置零/answer-level2/cpp/c++题解   击败了 98.96% 的用户 .cpp
+./889-buddy-strings亲密字符串/answer-level1/java/罗列的情况.java
+./889-buddy-strings亲密字符串/answer-level1/java/Java实现.java
+./22-generate-parentheses括号生成/answer-level2/ruby/DFS求解.rb
+./167-two-sum-ii-input-array-is-sorted两数之和 II - 输入有序数组/answer-level1/python3/哈希，双指针.py
+./167-two-sum-ii-input-array-is-sorted两数之和 II - 输入有序数组/answer-level1/python/167-两数之和II（Python）.py
+./167-two-sum-ii-input-array-is-sorted两数之和 II - 输入有序数组/answer-level1/php/就是想给你们看看这个图片.php
+./167-two-sum-ii-input-array-is-sorted两数之和 II - 输入有序数组/answer-level1/cpp/两数之和 II - 输入有序数组 C++.cpp
+./167-two-sum-ii-input-array-is-sorted两数之和 II - 输入有序数组/answer-level1/cpp/167. 两数之和 II - 输入有序数组 C++  3种方法.cpp
+./1000023-the-masseuse-lcci按摩师/answer-level1/python3/py3 dp.py
+./1360-maximum-length-of-a-concatenated-string-with-unique-characters串联字符串的最大长度/answer-level2/c/回溯算法，参考了其他人的解法.c
+./38-count-and-say外观数列/answer-level1/python3/外观数列.py
+./38-count-and-say外观数列/answer-level1/python3/Python3 函数+递归 （比较好理解）.py
+./38-count-and-say外观数列/answer-level1/cpp/38. 报数.cpp
+./1160-letter-tile-possibilities活字印刷/answer-level2/python3/## 思路分解：带子集+全排列去重。.py
+./1160-letter-tile-possibilities活字印刷/answer-level2/python3/把生成的结果一一添加到集合里，就无需判断答案重合.py
+./1160-letter-tile-possibilities活字印刷/answer-level2/python/## 思路分解：带子集+全排列去重。.py
+./268-missing-number缺失数字/answer-level1/python3/一行代码搞定.py
+./268-missing-number缺失数字/answer-level1/java/用额外的数组计数.java
+./268-missing-number缺失数字/answer-level1/c/建立hash表，记录数值的出现次数；.c
+./22-generate-parentheses括号生成/answer-level2/python3/括号问题变数字问题.py
+./22-generate-parentheses括号生成/answer-level2/python3/深度遍历 + 动态规划.py
+./22-generate-parentheses括号生成/answer-level2/python/动画演示 22. 括号生成.py
+./22-generate-parentheses括号生成/answer-level2/python/DFS求解.py
+./22-generate-parentheses括号生成/answer-level2/java/动画演示 22. 括号生成.java
+./1281-can-make-palindrome-from-substring构建回文串检测/answer-level2/python3/collections.Counter方法.py
+./289-game-of-life生命游戏/answer-level2/c/先获取每个细胞周围的活细胞个数，再基于周围活细胞个数做修改.c
+./75-sort-colors颜色分类/answer-level2/java/三路归并排序.java
+./75-sort-colors颜色分类/answer-level2/javascript/javascript 排序数组.js
+./928-surface-area-of-3d-shapes三维形体的表面积/answer-level1/c/算正方形表面积.c
+./20-valid-parentheses有效的括号/answer-level1/cpp/20. 有效的括号 C++ 使用栈.cpp
+./20-valid-parentheses有效的括号/answer-level1/javascript/超详细-JavaScript实现-堆栈.js
+./20-valid-parentheses有效的括号/answer-level1/c/有效的括号（使用堆栈）.c
+./928-surface-area-of-3d-shapes三维形体的表面积/answer-level1/java/让我们同时向下向右寻找答案.java
+./928-surface-area-of-3d-shapes三维形体的表面积/answer-level1/java/每日打卡.java
+./289-game-of-life生命游戏/answer-level2/java/矩阵问题通用解法.java
+./3-longest-substring-without-repeating-characters无重复字符的最长子串/answer-level2/python3/滑动窗口+哈希表.py
+./3-longest-substring-without-repeating-characters无重复字符的最长子串/answer-level2/cpp/无重复字符的最长子串.cpp
+./3-longest-substring-without-repeating-characters无重复字符的最长子串/answer-level2/csharp/自己记录  无重复字符的最长子串 中等.cs
+./1095-two-city-scheduling两地调度/answer-level1/java/Java 作差排序.java
+./1095-two-city-scheduling两地调度/answer-level1/javascript/javascript 两地调度.js
+./100186-zero-matrix-lcci零矩阵/answer-level2/java/记录自己题解，互相学习.java
+./716-max-stack最大栈/answer-level1/cpp/c++，难点在popMax，需要依次出栈再入栈（直接调用push）.cpp
+./1000008-partition-list-lcci分割链表/answer-level2/cpp/面试题 02.04. 分割链表 C++.cpp
+./1000008-partition-list-lcci分割链表/answer-level2/javascript/两种解法.js
+./1501-circle-and-rectangle-overlapping圆和矩形是否有重叠/answer-level2/python3/验证矩形区域内的点到圆心最小距离（x,y 分别独立选择，三行代码（骗浏览））.py
+./1501-circle-and-rectangle-overlapping圆和矩形是否有重叠/answer-level2/python/验证矩形区域内的点到圆心最小距离（x,y 分别独立选择，三行代码（骗浏览））.py
+./1501-circle-and-rectangle-overlapping圆和矩形是否有重叠/answer-level2/golang/验证矩形区域内的点到圆心最小距离（x,y 分别独立选择，三行代码（骗浏览））.go
+./1501-circle-and-rectangle-overlapping圆和矩形是否有重叠/answer-level2/rust/验证矩形区域内的点到圆心最小距离（x,y 分别独立选择，三行代码（骗浏览））.rs
+./1501-circle-and-rectangle-overlapping圆和矩形是否有重叠/answer-level2/java/验证矩形区域内的点到圆心最小距离（x,y 分别独立选择，三行代码（骗浏览））.java
+./1501-circle-and-rectangle-overlapping圆和矩形是否有重叠/answer-level2/kotlin/验证矩形区域内的点到圆心最小距离（x,y 分别独立选择，三行代码（骗浏览））.kt
+./1501-circle-and-rectangle-overlapping圆和矩形是否有重叠/answer-level2/php/验证矩形区域内的点到圆心最小距离（x,y 分别独立选择，三行代码（骗浏览））.php
+./1501-circle-and-rectangle-overlapping圆和矩形是否有重叠/answer-level2/scala/验证矩形区域内的点到圆心最小距离（x,y 分别独立选择，三行代码（骗浏览））.scala
+./1501-circle-and-rectangle-overlapping圆和矩形是否有重叠/answer-level2/cpp/验证矩形区域内的点到圆心最小距离（x,y 分别独立选择，三行代码（骗浏览））.cpp
+./1501-circle-and-rectangle-overlapping圆和矩形是否有重叠/answer-level2/swift/验证矩形区域内的点到圆心最小距离（x,y 分别独立选择，三行代码（骗浏览））.swift
+./1501-circle-and-rectangle-overlapping圆和矩形是否有重叠/answer-level2/csharp/验证矩形区域内的点到圆心最小距离（x,y 分别独立选择，三行代码（骗浏览））.cs
+./1501-circle-and-rectangle-overlapping圆和矩形是否有重叠/answer-level2/javascript/验证矩形区域内的点到圆心最小距离（x,y 分别独立选择，三行代码（骗浏览））.js
+./1501-circle-and-rectangle-overlapping圆和矩形是否有重叠/answer-level2/c/验证矩形区域内的点到圆心最小距离（x,y 分别独立选择，三行代码（骗浏览））.c
+./1501-circle-and-rectangle-overlapping圆和矩形是否有重叠/answer-level2/ruby/验证矩形区域内的点到圆心最小距离（x,y 分别独立选择，三行代码（骗浏览））.rb
+./329-longest-increasing-path-in-a-matrix矩阵中的最长递增路径/answer-level3/cpp/给一种简单的暴力解法.cpp
+./1241-decompress-run-length-encoded-list解压缩编码列表/answer-level1/python/python ，83.56%  和 100%.py
+./1000006-one-away-lcci一次编辑/answer-level2/cpp/一次遍历 C++.cpp
+./1473-find-the-longest-substring-containing-vowels-in-even-counts每个元音包含偶数次的最长子字符串/answer-level2/python3/Python O(n) 时间复杂度+状态压缩.py
+./187-repeated-dna-sequences重复的DNA序列/answer-level2/python3/python3字典+集合.py
+./35-search-insert-position搜索插入位置/answer-level1/javascript/if else大挑战.js
+./782-jewels-and-stones宝石与石头/answer-level1/java/执行用时 _ 3 ms, 在Jewels and Stones的Java提交中击败了89.46% 的用户 内存消耗 _ 34.3 MB, 在Jewels and Stones的Java提交中击败了93.64% 的用户.java
+./782-jewels-and-stones宝石与石头/answer-level1/java/Java,equals() 比较.java
+./782-jewels-and-stones宝石与石头/answer-level1/c/击败100%用户.c
+./782-jewels-and-stones宝石与石头/answer-level1/c/C语言.c
+./461-hamming-distance汉明距离/answer-level1/python/python.py
+./35-search-insert-position搜索插入位置/answer-level1/python3/Py暴力解+二分查找解.py
+./35-search-insert-position搜索插入位置/answer-level1/python3/二分查找，边界解释，轻松掌握 python3 99.98%.py
+./35-search-insert-position搜索插入位置/answer-level1/python3/Binary Search.py
+./35-search-insert-position搜索插入位置/answer-level1/python/动画演示 35. 搜索插入位置.py
+./35-search-insert-position搜索插入位置/answer-level1/golang/Go一行代码实现.go
+./35-search-insert-position搜索插入位置/answer-level1/java/三种解法 记录一下自己真正的学习了二分查找.java
+./35-search-insert-position搜索插入位置/answer-level1/java/动画演示 35. 搜索插入位置.java
+./35-search-insert-position搜索插入位置/answer-level1/cpp/35.搜索插入位置（二分查找）.cpp
+./501-find-mode-in-binary-search-tree二叉搜索树中的众数/answer-level1/javascript/map.js
+./476-number-complement数字的补数/answer-level1/java/476.java 位运算 移位操作.java
+./1487-cinema-seat-allocation安排电影院座位/answer-level2/cpp/电影院相邻座位 利用Map避免排序 map中的pair为一行对多列的键值对.cpp
+./948-sort-an-array排序数组/answer-level2/python3/912.排序数组（快排python-陈小玉老师版本partition）.py
+./948-sort-an-array排序数组/answer-level2/python/912.排序数组（快排python-陈小玉老师版本partition）.py
+./209-minimum-size-subarray-sum长度最小的子数组/answer-level2/python3/Python3 O(n) time complexity, easy to understand..py
+./209-minimum-size-subarray-sum长度最小的子数组/answer-level2/python/Python3 O(n) time complexity, easy to understand..py
+./209-minimum-size-subarray-sum长度最小的子数组/answer-level2/cpp/长度最小的子数组.cpp
+./209-minimum-size-subarray-sum长度最小的子数组/answer-level2/cpp/97.9%.cpp
+./209-minimum-size-subarray-sum长度最小的子数组/answer-level2/c/C语言两种题解.c
+./948-sort-an-array排序数组/answer-level2/java/磨刀不误砍柴工,四种常用基本重点排序.java
+./948-sort-an-array排序数组/answer-level2/java/JAVA 排序，调用函数.java
+./948-sort-an-array排序数组/answer-level2/c/排序.c
+./133-clone-graph克隆图/answer-level2/python3/栈+非递归dfs 新手教程.py
+./133-clone-graph克隆图/answer-level2/cpp/克隆图.cpp
+./133-clone-graph克隆图/answer-level2/cpp/递归就完事了，两个map，内存击败100%，时间99.18%.cpp
+./975-range-sum-of-bst二叉搜索树的范围和/answer-level1/cpp/执行用时 _ 168 ms , 在所有 C++ 提交中击败了 96.75% 的用户 内存消耗 _ 40.9 MB , 在所有 C++ 提交中击败了 98.44% 的用户.cpp
+./100284-jian-sheng-zi-lcof剪绳子/answer-level2/java/一个小套路.java
+./70-climbing-stairs爬楼梯/answer-level1/javascript/JavaScript递归解法(缓存中间步骤).js
+./100258-swap-numbers-lcci交换数字/answer-level2/golang/单链表.go
+./353-design-snake-game贪吃蛇/answer-level2/scala/simulation.scala
+./871-keys-and-rooms钥匙和房间/answer-level2/cpp/钥匙和房间.cpp
+./871-keys-and-rooms钥匙和房间/answer-level2/c/三种思路（DFS、BFS、计数迭代）.c
+./260-single-number-iii只出现一次的数字 III/answer-level2/cpp/260. 只出现一次的数字 III C++.cpp
+./859-design-circular-deque设计循环双端队列/answer-level2/python/Python模拟数组实现循环双端队列.py
+./859-design-circular-deque设计循环双端队列/answer-level2/java/java 解法 （基于循环数组）.java
+./859-design-circular-deque设计循环双端队列/answer-level2/javascript/js利用数组模拟实现双端队列.js
+./1112-find-words-that-can-be-formed-by-characters拼写单词/answer-level1/python3/python3，利用collection.Counter方法解决.py
+./1112-find-words-that-can-be-formed-by-characters拼写单词/answer-level1/python/python3，利用collection.Counter方法解决.py
+./1112-find-words-that-can-be-formed-by-characters拼写单词/answer-level1/java/Java版本-详细注释-数组与hashMap.java
+./1112-find-words-that-can-be-formed-by-characters拼写单词/answer-level1/cpp/C++直接法，不统计字母次数.cpp
+./1112-find-words-that-can-be-formed-by-characters拼写单词/answer-level1/javascript/哈希map.js
+./982-minimum-increment-to-make-array-unique使数组唯一的最小增量/answer-level2/python3/排序后如果下一个元素小于等于当前元素，下一元素加至当前元素+1，累计次数.py
+./160-intersection-of-two-linked-lists相交链表/answer-level1/python3/160.相交链表（py3）.py
+./160-intersection-of-two-linked-lists相交链表/answer-level1/java/相交链表.java
+./160-intersection-of-two-linked-lists相交链表/answer-level1/java/容易理解和想到的双指针方法.java
+./160-intersection-of-two-linked-lists相交链表/answer-level1/cpp/160. 相交链表 C++ 三种方法  暴力法、hash set法、双指针法.cpp
+./160-intersection-of-two-linked-lists相交链表/answer-level1/c/判断长度，最常规的做法，虽然写的长，但是很直白~.c
+./1115-valid-boomerang有效的回旋镖/answer-level1/cpp/在所有C++提交中击败了 100.00%.cpp
+./176-second-highest-salary第二高的薪水/answer-level1/mysql/176. 第二高的薪水 C++.sql
+./142-linked-list-cycle-ii环形链表 II/answer-level2/cpp/快慢指针赛跑法.cpp
+./14-longest-common-prefix最长公共前缀/answer-level1/php/小白初学PHP.php
+./14-longest-common-prefix最长公共前缀/answer-level1/cpp/14. 最长公共前缀 C++.cpp
+./14-longest-common-prefix最长公共前缀/answer-level1/cpp/vector容器sort算法排序，然后取出首尾字符串的公共前缀就可以了.cpp
+./14-longest-common-prefix最长公共前缀/answer-level1/c/完整解题代码 可直接运行，，解题中要特别注意内存分配.c
+./14-longest-common-prefix最长公共前缀/answer-level1/c/C语言简单方法实现.c
+./1000024-multi-search-lcci多次搜索/answer-level2/python3/Python trie树&AC自动机.py
+./953-reverse-only-letters仅仅反转字母/answer-level1/cpp/STL.cpp
+./5-longest-palindromic-substring最长回文子串/answer-level2/java/从斐波那契数列、股票问题到最长回文子串，一文带你入门动态规划.java
+./5-longest-palindromic-substring最长回文子串/answer-level2/c/动态规划和暴力解法.c
+./605-can-place-flowers种花问题/answer-level1/java/java 100% .java
+./265-paint-house-ii粉刷房子 II/answer-level3/python3/python3 简洁O(nk)解法，借助前i-1栋房子的染色最优组合标记。.py
+./265-paint-house-ii粉刷房子 II/answer-level3/python/python3 简洁O(nk)解法，借助前i-1栋房子的染色最优组合标记。.py
+./941-sort-array-by-parity按奇偶排序数组/answer-level1/java/双指针  JAVA.java
+./184-department-highest-salary部门工资最高的员工/answer-level2/mysql/击败了87.02% 的用户.sql
+./184-department-highest-salary部门工资最高的员工/answer-level2/mssql/利用窗口函数.sql
+./55-jump-game跳跃游戏/answer-level2/java/Java动态规划.java
+./55-jump-game跳跃游戏/answer-level2/java/不知道什么法，就算贪心吧。.java
+./941-sort-array-by-parity按奇偶排序数组/answer-level1/c/C语言 只开了一个数组.c
+./1118-divide-array-into-increasing-sequences将数组分成几个递增序列/answer-level3/java/数组长度除以最大重复数字.java
+./1000024-multi-search-lcci多次搜索/answer-level2/python/Python trie树&AC自动机.py
+./1297-maximum-number-of-balloons“气球” 的最大数量/answer-level1/java/小白题解.java
+./1120-flower-planting-with-no-adjacent不邻接植花/answer-level1/python/Python解法：依次填充颜色.py
+./1120-flower-planting-with-no-adjacent不邻接植花/answer-level1/java/题解.java
+./102-binary-tree-level-order-traversal二叉树的层序遍历/answer-level2/cpp/BFS模板题目.cpp
+./102-binary-tree-level-order-traversal二叉树的层序遍历/answer-level2/c/# 数组保存层次数据，逐层遍历.c
+./19-remove-nth-node-from-end-of-list删除链表的倒数第N个节点/answer-level2/python3/删除链表的第 N 个节点(Python两种方法).py
+./19-remove-nth-node-from-end-of-list删除链表的倒数第N个节点/answer-level2/swift/双指针.swift
+./450-delete-node-in-a-bst删除二叉搜索树中的节点/answer-level2/golang/Go语言实现.go
+./343-integer-break整数拆分/answer-level2/python3/Python+DP-通俗易懂按照自己的步伐来，如果你步伐乱了，停下来就是前进！.py
+./343-integer-break整数拆分/answer-level2/java/递归思路.java
+./213-house-robber-ii打家劫舍 II/answer-level2/java/java题解-动态规划  在打家劫舍I上的改变.java
+./213-house-robber-ii打家劫舍 II/answer-level2/cpp/c++题解.cpp
+./1028-interval-list-intersections区间列表的交集/answer-level2/python/python解，仅仅提供一种思路，算法性能不高.py
+./671-second-minimum-node-in-a-binary-tree二叉树中第二小的节点/answer-level1/golang/Go遍历树并排序.go
+./402-remove-k-digits移掉K位数字/answer-level2/cpp/删除k个数后变最小 .cpp
+./227-basic-calculator-ii基本计算器 II/answer-level2/java/如果一个方法实现不了，那就三个吧.java
+./903-implement-rand10-using-rand7用 Rand7() 实现 Rand10()/answer-level2/cpp/c++,数学，映射（巨简单）.cpp
+./227-basic-calculator-ii基本计算器 II/answer-level2/csharp/通俗易懂的在这里！ 先按照加减split,    剩下就剩乘法除法的先按次序算好了。再回到循环累减再累加就好了.cs
+./543-diameter-of-binary-tree二叉树的直径/answer-level1/golang/GO语言 简单易懂.go
+./543-diameter-of-binary-tree二叉树的直径/answer-level1/golang/Go递归实现.go
+./543-diameter-of-binary-tree二叉树的直径/answer-level1/java/java.java
+./49-group-anagrams字母异位词分组/answer-level2/cpp/字母异位词分组.cpp
+./49-group-anagrams字母异位词分组/answer-level2/cpp/C++用了一大堆容器。。.cpp
+./153-find-minimum-in-rotated-sorted-array寻找旋转排序数组中的最小值/answer-level2/java/在完全理解二分查找后 试了一下这个题 100%.java
+./1369-minimum-swaps-to-make-strings-equal交换字符使得字符串相同/answer-level2/python3/python3.py
+./1369-minimum-swaps-to-make-strings-equal交换字符使得字符串相同/answer-level2/cpp/实际上他只要求返回那个数字而已，并不需要对字符串进行实际交换？？？.cpp
+./908-middle-of-the-linked-list链表的中间结点/answer-level1/c/c语言 快慢指针遍历一次.c
+./908-middle-of-the-linked-list链表的中间结点/answer-level1/c/快慢指针；遍历.c
+./50-powx-nPow(x, n)/answer-level2/cpp/尬王日常（C++）.cpp
+./50-powx-nPow(x, n)/answer-level2/cpp/用二分的思想可以减少一半的相乘的次数.cpp
+./202-happy-number快乐数/answer-level1/python3/Python3 6行代码 时间击败99.30%，内存击败99.23%.py
+./1351-replace-the-substring-for-balanced-string替换子串得到平衡字符串/answer-level2/cpp/c++ 滑动窗口-代码有注解-（代码有套路-附总结代码）.cpp
+./1351-replace-the-substring-for-balanced-string替换子串得到平衡字符串/answer-level2/cpp/C++ 滑动窗口.cpp
+./1243-sum-of-nodes-with-even-valued-grandparent祖父节点值为偶数的节点和/answer-level2/python3/dfs和bfs比较.py
+./1243-sum-of-nodes-with-even-valued-grandparent祖父节点值为偶数的节点和/answer-level2/cpp/超简单的解题方法！一眼看懂.cpp
+./123-best-time-to-buy-and-sell-stock-iii买卖股票的最佳时机 III/answer-level3/cpp/动态规划.cpp
+./123-best-time-to-buy-and-sell-stock-iii买卖股票的最佳时机 III/answer-level3/cpp/看不懂动态规划就做不了这题了？.cpp
+./123-best-time-to-buy-and-sell-stock-iii买卖股票的最佳时机 III/answer-level3/cpp/动态规划 c++.cpp
+./27-remove-element移除元素/answer-level1/python/移除元素 ： 一次循环.py
+./236-lowest-common-ancestor-of-a-binary-tree二叉树的最近公共祖先/answer-level2/cpp/dfs.cpp
+./414-third-maximum-number第三大的数/answer-level1/python/明天就忘法+py3.py
+./100107-guess-numbers猜数字/answer-level1/c/新手做猜数字（C语言）.c
+./202-happy-number快乐数/answer-level1/python/Python3 6行代码 时间击败99.30%，内存击败99.23%.py
+./814-smallest-rotation-with-highest-score得分最高的最小轮调/answer-level3/javascript/O(n)的时间复杂度算法以及解析.js
+./242-valid-anagram有效的字母异位词/answer-level1/python3/采用counter计数哈希方法.py
+./242-valid-anagram有效的字母异位词/answer-level1/python3/验证字典是否相同.py
+./242-valid-anagram有效的字母异位词/answer-level1/python/采用counter计数哈希方法.py
+./94-binary-tree-inorder-traversal二叉树的中序遍历/answer-level2/python/94. Python迭代方法（举例子详细讲解）.py
+./94-binary-tree-inorder-traversal二叉树的中序遍历/answer-level2/java/Java 迭代法和递归法.java
+./94-binary-tree-inorder-traversal二叉树的中序遍历/answer-level2/java/94.二叉树的中序遍历（非递归遍历）.java
+./94-binary-tree-inorder-traversal二叉树的中序遍历/answer-level2/cpp/加一个引用，将递归的4ms变为0ms.cpp
+./94-binary-tree-inorder-traversal二叉树的中序遍历/answer-level2/c/支持C语言.c
+./94-binary-tree-inorder-traversal二叉树的中序遍历/answer-level2/c/C语言实现  使用非递归（堆栈）.c
+./78-subsets子集/answer-level2/java/注释较多.java
+./78-subsets子集/answer-level2/cpp/子集 回溯算法.cpp
+./215-kth-largest-element-in-an-array数组中的第K个最大元素/answer-level2/python/大顶堆积，排序k-1次.py
+./529-minesweeper扫雷游戏/answer-level2/c/DFS解法.c
+./961-long-pressed-name长按键入/answer-level1/golang/Go遍历字符串实现.go
+./215-kth-largest-element-in-an-array数组中的第K个最大元素/answer-level2/cpp/第k个最大元素.cpp
+./215-kth-largest-element-in-an-array数组中的第K个最大元素/answer-level2/cpp/快速选择算法解决Top K的问题.cpp
+./215-kth-largest-element-in-an-array数组中的第K个最大元素/answer-level2/cpp/C++快速选择（快速排序的优化）.cpp
+./215-kth-largest-element-in-an-array数组中的第K个最大元素/answer-level2/cpp/C++ 大根堆解法.cpp
+./215-kth-largest-element-in-an-array数组中的第K个最大元素/answer-level2/cpp/数组中的第K个最大元素2.cpp
+./215-kth-largest-element-in-an-array数组中的第K个最大元素/answer-level2/javascript/快速排序，在所有 JavaScript 提交中击败了 98.79% 的用户.js
+./18-4sum四数之和/answer-level2/java/类似三数之和，在外层多一次循环即可解.java
+./18-4sum四数之和/answer-level2/cpp/两重循环+双指针.cpp
+./443-string-compression压缩字符串/answer-level1/python3/dual pointer进行遍历，添加一个辅助元素.py
+./443-string-compression压缩字符串/answer-level1/java/dual pointer进行遍历，添加一个辅助元素.java
+./100301-zui-xiao-de-kge-shu-lcof最小的k个数/answer-level1/cpp/利用stl中的partial_sort算法.cpp
+./172-factorial-trailing-zeroes阶乘后的零/answer-level1/csharp/0的个数.cs
+./1476-count-negative-numbers-in-a-sorted-matrix统计有序矩阵中的负数/answer-level1/python3/执行用时 _ 32 ms , 在所有 Python3 提交中击败了 99.53% 的用户 内存消耗 _ 14.4 MB , 在所有 Python3 提交中击败了 100.00% 的用户.py
+./242-valid-anagram有效的字母异位词/answer-level1/javascript/js 排序+Hash.js
+./437-path-sum-iii路径总和 III/answer-level1/python3/二叉树后序遍历.py
+./437-path-sum-iii路径总和 III/answer-level1/python/二叉树后序遍历.py
+./53-maximum-subarray最大子序和/answer-level1/c/首页大佬思路的C版.c
+./1483-rank-teams-by-votes通过投票对团队排名/answer-level2/cpp/结构体排序.cpp
+./100293-shun-shi-zhen-da-yin-ju-zhen-lcof顺时针打印矩阵/answer-level1/java/Java实现：一个破题写两个小时，都用在改代码上了.java
+./667-beautiful-arrangement-ii优美的排列 II/answer-level2/java/java 不断翻转，再通过观察直接构造.java
+./58-length-of-last-word最后一个单词的长度/answer-level1/java/第一次写.java
+./58-length-of-last-word最后一个单词的长度/answer-level1/c/最后一个单词的长度（C).c
+./744-network-delay-time网络延迟时间/answer-level2/python/Dijkstra 算法，python，原理说明，代码解释.py
+./100293-shun-shi-zhen-da-yin-ju-zhen-lcof顺时针打印矩阵/answer-level1/cpp/C++双百方法.cpp
+./100293-shun-shi-zhen-da-yin-ju-zhen-lcof顺时针打印矩阵/answer-level1/cpp/简单的for循环.cpp
+./1507-check-if-there-is-a-valid-path-in-a-grid检查网格中是否存在有效路径/answer-level2/c/DFS + visit数组 + 判断是否有效.c
+./415-add-strings字符串相加/answer-level1/python/Python3, the idea is calculate from low pos to high one, and reverse the result..py
+./100327-li-wu-de-zui-da-jie-zhi-lcof礼物的最大价值/answer-level2/java/3ms 90% 100%.java
+./496-next-greater-element-i下一个更大元素 I/answer-level1/java/HashMap的使用.java
+./16-3sum-closest最接近的三数之和/answer-level2/python3/排序+双指针 简单清晰 python3.py
+./432-all-oone-data-structure全 O(1) 的数据结构/answer-level3/javascript/Javascript解题思路.js
+./415-add-strings字符串相加/answer-level1/python3/Python3, the idea is calculate from low pos to high one, and reverse the result..py
+./1000036-circus-tower-lcci马戏团人塔/answer-level2/java/大家帮忙优化一下~.java
+./1128-remove-all-adjacent-duplicates-in-string删除字符串中的所有相邻重复项/answer-level1/cpp/简单地用stack.cpp
+./234-palindrome-linked-list回文链表/answer-level1/cpp/234. 回文链表 C++ .cpp
+./581-shortest-unsorted-continuous-subarray最短无序连续子数组/answer-level1/java/java100%方法 和 50%比较好理解的方法.java
+./64-minimum-path-sum最小路径和/answer-level2/java/从斐波那契数列、股票问题到最长回文子串，一文带你入门动态规划.java
+./64-minimum-path-sum最小路径和/answer-level2/java/超级详细的Java+动态规划左上右下开始两种解法.java
+./69-sqrtxx 的平方根/answer-level1/python3/69. x的整数平方根（二分查找 +牛顿迭代）.py
+./69-sqrtxx 的平方根/answer-level1/python/c++ AC.py
+./69-sqrtxx 的平方根/answer-level1/python/69. x的整数平方根（二分查找 +牛顿迭代）.py
+./69-sqrtxx 的平方根/answer-level1/cpp/c++ AC.cpp
+./69-sqrtxx 的平方根/answer-level1/c/平方根(C).c
+./26-remove-duplicates-from-sorted-array删除排序数组中的重复项/answer-level1/python3/python3 del nums方法.py
+./26-remove-duplicates-from-sorted-array删除排序数组中的重复项/answer-level1/python/26、删除排序数组中的重复项.py
+./26-remove-duplicates-from-sorted-array删除排序数组中的重复项/answer-level1/golang/Go逆序遍历.go
+./26-remove-duplicates-from-sorted-array删除排序数组中的重复项/answer-level1/cpp/个人解题思路.cpp
+./100296-da-yin-cong-1dao-zui-da-de-nwei-shu-lcof打印从1到最大的n位数/answer-level1/java/Java双100% 简便做法.java
+./958-sort-array-by-parity-ii按奇偶排序数组 II/answer-level1/java/我咋觉得你们的代码我读不懂呢.java
+./226-invert-binary-tree翻转二叉树/answer-level1/python/python .py
+./226-invert-binary-tree翻转二叉树/answer-level1/cpp/递归.cpp
+./650-2-keys-keyboard只有两个键的键盘/answer-level2/cpp/C++ 暴力递归.cpp
+./959-3sum-with-multiplicity三数之和的多种可能/answer-level2/java/桶排序.java
+./1094-matrix-cells-in-distance-order距离顺序排列矩阵单元格/answer-level1/python3/距离顺序排序矩阵单元格.py
+./1094-matrix-cells-in-distance-order距离顺序排列矩阵单元格/answer-level1/java/重载comparator来对位置类进行排序.java
+./682-baseball-game棒球比赛/answer-level1/python3/注意每次操作都是要保存结果的这样遇到“c”的时候能够cancel，pop（），其他的都是append当前的计算结果，并且只有“c”才会pop保持一致性.py
+./26-remove-duplicates-from-sorted-array删除排序数组中的重复项/answer-level1/c/C语言版本.c
+./743-closest-leaf-in-a-binary-tree二叉树最近的叶节点/answer-level2/golang/Go 12ms.go
+./1000011-robot-in-a-grid-lcci迷路的机器人/answer-level2/python3/无数据结构解法两则.py
+./747-min-cost-climbing-stairs使用最小花费爬楼梯/answer-level1/java/从斐波那契数列、股票问题到最长回文子串，一文带你入门动态规划.java
+./158-read-n-characters-given-read4-ii-call-multiple-times用 Read4 读取 N 个字符 II/answer-level3/cpp/C++ 保留历史左右边界.cpp
+./451-sort-characters-by-frequency根据字符出现频率排序/answer-level2/python3/map计数 然后根据值排序。40 ms , 在所有Python提交中击败了 99.10% 的用户.py
+./451-sort-characters-by-frequency根据字符出现频率排序/answer-level2/python/collections.Counter 和 sorted().py
+./451-sort-characters-by-frequency根据字符出现频率排序/answer-level2/java/Java--TreeMap-----_ok--71.80%  94.93%.java
+./472-concatenated-words连接词/answer-level3/python3/自己看.py
+./665-non-decreasing-array非递减数列/answer-level1/python3/双指针.py
+./665-non-decreasing-array非递减数列/answer-level1/java/其实就是判断改变i还是i+1的问题.java
+./775-n-ary-tree-preorder-traversalN叉树的前序遍历/answer-level1/python3/Python3的非递归实现.py
+./775-n-ary-tree-preorder-traversalN叉树的前序遍历/answer-level1/java/简单易懂,11行最短题解。.java
+./290-word-pattern单词规律/answer-level1/java/单词规律.java
+./451-sort-characters-by-frequency根据字符出现频率排序/answer-level2/c/C代码简洁实现.c
+./825-max-increase-to-keep-city-skyline保持城市天际线/answer-level2/c/LeetCode 保持城市天际函线.c
+./725-split-linked-list-in-parts分隔链表/answer-level2/c/C语言解法.c
+./253-meeting-rooms-ii会议室 II/answer-level2/java/记录会议室数量变化的位置.java
+./904-leaf-similar-trees叶子相似的树/answer-level1/python3/非递归遍历，遇到不同叶子节点直接退出，不用全部遍历.py
+./1288-maximum-subarray-sum-with-one-deletion删除一次得到子数组最大和/answer-level2/cpp/dp.cpp
+./197-rising-temperature上升的温度/answer-level1/oraclesql/用oracle的偏移分析函数实现.sql
+./207-course-schedule课程表/answer-level2/java/贪心拓扑排序.java
+./207-course-schedule课程表/answer-level2/cpp/简单粗暴的拓扑排序.cpp
+./923-super-egg-drop鸡蛋掉落/answer-level3/java/java二分+动态规划.java
+./923-super-egg-drop鸡蛋掉落/answer-level3/java/理论上时间复杂度O(1)的算法，只用一次初始化数据。.java
+./1421-find-numbers-with-even-number-of-digits统计位数为偶数的数字/answer-level1/c/c的一种实现方法，该题就是怎么计算位数是关键.c
+./1421-find-numbers-with-even-number-of-digits统计位数为偶数的数字/answer-level1/c/C语言常规做法.c
+./1397-search-suggestions-system搜索推荐系统/answer-level2/cpp/直接初始化成set，用内置的lowerbond搞定.cpp
+./950-x-of-a-kind-in-a-deck-of-cards卡牌分组/answer-level1/golang/go 实现，蛮力法.go
+./950-x-of-a-kind-in-a-deck-of-cards卡牌分组/answer-level1/cpp/素数筛.cpp
+./950-x-of-a-kind-in-a-deck-of-cards卡牌分组/answer-level1/cpp/914. 卡牌分组 C++.cpp
+./134-gas-station加油站/answer-level2/c/简单直接的思路.c
+./10-regular-expression-matching正则表达式匹配/answer-level3/java/看了很多视频讲解，终于弄懂了，下一步dp解决.java
+./570-managers-with-at-least-5-direct-reports至少有5名直接下属的经理/answer-level2/mysql/173ms.sql
+./398-random-pick-index随机数索引/answer-level2/java/HashMap实现，思路简单.java
+./10-regular-expression-matching正则表达式匹配/answer-level3/cpp/c++动态规划思路.cpp
+./10-regular-expression-matching正则表达式匹配/answer-level3/cpp/看了就明白的动态规划.cpp
+./100352-diving-board-lcci跳水板/answer-level1/cpp/循环.cpp
+./100352-diving-board-lcci跳水板/answer-level1/cpp/递归.cpp
+./367-valid-perfect-square有效的完全平方数/answer-level1/golang/Go 实现.go
+./1026-string-without-aaa-or-bbb不含 AAA 或 BBB 的字符串/answer-level2/java/尽量保证随机排列.java
+./498-diagonal-traverse对角线遍历/answer-level2/cpp/498. 对角线遍历 C++.cpp
+./100344-gu-piao-de-zui-da-li-run-lcof股票的最大利润/answer-level2/cpp/C++解法.cpp
+./309-best-time-to-buy-and-sell-stock-with-cooldown最佳买卖股票时机含冷冻期/answer-level2/golang/go 解题--动态规划 时间复杂度O(n) 空间复杂度O(1).go
+./179-largest-number最大数/answer-level2/cpp/最大数 补齐位数 未排序 .cpp
+./1460-number-of-substrings-containing-all-three-characters包含所有三种字符的子字符串数目/answer-level2/cpp/双指针与索引表：以 `aabcbabc` 字符串为例.cpp
+./1460-number-of-substrings-containing-all-three-characters包含所有三种字符的子字符串数目/answer-level2/c/C语言.c
+./179-largest-number最大数/answer-level2/python/本质是排序算法.py
+./179-largest-number最大数/answer-level2/java/最大数.java
+./42-trapping-rain-water接雨水/answer-level3/python3/官方题解Python版.py
+./42-trapping-rain-water接雨水/answer-level3/python/官方题解Python版.py
+./542-01-matrix01 矩阵/answer-level2/cpp/01 矩阵.cpp
+./66-plus-one加一/answer-level1/python3/gelthin-进位遍历.py
+./66-plus-one加一/answer-level1/python/python负数切片巧解数组加1问题，速度高于99.61%用户.py
+./66-plus-one加一/answer-level1/cpp/面向新手，两种情况.cpp
+./797-rabbits-in-forest森林中的兔子/answer-level2/python3/不需要哈希，直接做.py
+./326-power-of-three3的幂/answer-level1/golang/Go非递归非循环实现.go
+./569-median-employee-salary员工薪水中位数/answer-level3/mysql/超过 99% 的 MySQL 解法.sql
+./599-minimum-index-sum-of-two-lists两个列表的最小索引总和/answer-level1/cpp/两个列表的最小索引总和.cpp
+./556-next-greater-element-iii下一个更大元素 III/answer-level2/cpp/next_permutation.cpp
+./932-monotonic-array单调数列/answer-level1/cpp/先判断前两个.cpp
+./1434-decrypt-string-from-alphabet-to-integer-mapping解码字母到整数映射/answer-level1/c/解码字母(C语言).c
+./48-rotate-image旋转图像/answer-level2/python3/python3解法.py
+./48-rotate-image旋转图像/answer-level2/python3/python3矩阵90度旋转，简单易懂。.py
+./48-rotate-image旋转图像/answer-level2/c/0ms  100%.c
+./100345-qiu-12n-lcof求1+2+…+n/answer-level2/python/等差数列求和.py
+./23-merge-k-sorted-lists合并K个排序链表/answer-level3/java/合并k个排序链表（分治法）.java
+./23-merge-k-sorted-lists合并K个排序链表/answer-level3/cpp/合并K个排序链表，C++（STL heap堆实现）.cpp
+./1298-reverse-substrings-between-each-pair-of-parentheses反转每对括号间的子串/answer-level2/java/java栈简单应用.java
+./100319-er-cha-shu-de-shen-du-lcof二叉树的深度/answer-level1/java/简洁递归.java
+./768-partition-labels划分字母区间/answer-level2/java/两次遍历.java
+./91-decode-ways解码方法/answer-level2/java/java解题思路详解.java
+./111-minimum-depth-of-binary-tree二叉树的最小深度/answer-level1/java/分析节点类型解题.java
+./111-minimum-depth-of-binary-tree二叉树的最小深度/answer-level1/java/递归 bfs dfs 简单记录.java
+./1403-palindrome-partitioning-iii分割回文串 III/answer-level3/python/python 动态规划.py
+./86-partition-list分隔链表/answer-level2/cpp/看官方题解就图个乐，学技术还得野路子奥.cpp
+./86-partition-list分隔链表/answer-level2/cpp/思路与快速排序中的划分一致.cpp
+./1156-occurrences-after-bigramBigram 分词/answer-level1/java/Java.java
+./86-partition-list分隔链表/answer-level2/python3/86.分隔链表（易懂注释py3双指针）.py
+./86-partition-list分隔链表/answer-level2/golang/多花点内存，避免指针指来指去.go
+./273-integer-to-english-words整数转换英文表示/answer-level3/python/python3 数字转英文笨办法.py
+./1194-path-in-zigzag-labelled-binary-tree二叉树寻路/answer-level2/cpp/推断出计算公式即可得出所有路径.cpp
+./185-department-top-three-salaries部门工资前三高的所有员工/answer-level3/mysql/执行用时 _ 464 ms , 在所有 MySQL 提交中击败了 74.64% 的用户.sql
+./969-number-of-recent-calls最近的请求次数/answer-level1/java/java 队列.java
+./984-most-stones-removed-with-same-row-or-column移除最多的同行或同列石头/answer-level2/cpp/c++并查集.cpp
+./9-palindrome-number回文数/answer-level1/python3/python3回文数.py
+./9-palindrome-number回文数/answer-level1/python/python3回文数.py
+./344-reverse-string反转字符串/answer-level1/cpp/为啥自己写swap函数，编译不通过呢.cpp
+./382-linked-list-random-node链表随机节点/answer-level2/python3/简单解法, 遍历2次.py
+./218-the-skyline-problem天际线问题/answer-level3/cpp/这道题不能点赞，可能就是赞少的原因.cpp
+./9-palindrome-number回文数/answer-level1/java/用数组存储数的每一位来解决.java
+./9-palindrome-number回文数/answer-level1/java/Java 通过  StringBuilder的reverse方法倒序     .java
+./9-palindrome-number回文数/answer-level1/java/9.回文数 .java
+./9-palindrome-number回文数/answer-level1/cpp/9. 回文数 C++  不转换成字符串的实现.cpp
+./9-palindrome-number回文数/answer-level1/cpp/回文数判断.cpp
+./9-palindrome-number回文数/answer-level1/c/回文数-C数字换位解法.c
+./1000003-contiguous-sequence-lcci连续数列/answer-level1/cpp/C++用时4ms，DP，原地.cpp
+./173-binary-search-tree-iterator二叉搜索树迭代器/answer-level2/cpp/自己理解的思路说明，用c++实现.cpp
+./82-remove-duplicates-from-sorted-list-ii删除排序链表中的重复元素 II/answer-level2/cpp/82. 删除排序链表中的重复元素 II  C++  .cpp
+./180-consecutive-numbers连续出现的数字/answer-level2/mysql/两个变量，最后group by 去重重新排序.sql
+./100171-route-between-nodes-lcci节点间通路/answer-level2/python3/BFS_ 建立邻接表-_记录下一步可以跳跃的节点，用数组visited记录遍历过得节点以防循环图。.py
+./100171-route-between-nodes-lcci节点间通路/answer-level2/python3/BFS，邻接表+访问数组记录.py
+./100171-route-between-nodes-lcci节点间通路/answer-level2/python/BFS_ 建立邻接表-_记录下一步可以跳跃的节点，用数组visited记录遍历过得节点以防循环图。.py
+./100171-route-between-nodes-lcci节点间通路/answer-level2/python/BFS，邻接表+访问数组记录.py
+./107-binary-tree-level-order-traversal-ii二叉树的层次遍历 II/answer-level1/javascript/递归或者迭代.js
+./810-valid-tic-tac-toe-state有效的井字游戏/answer-level2/golang/Go简单思路.go
+./100187-delete-middle-node-lcci删除中间节点/answer-level1/javascript/JS .js
+./100187-delete-middle-node-lcci删除中间节点/answer-level1/javascript/把问题转化为node后继身上就可以了.js
+./107-binary-tree-level-order-traversal-ii二叉树的层次遍历 II/answer-level1/java/思路.java
+./107-binary-tree-level-order-traversal-ii二叉树的层次遍历 II/answer-level1/cpp/DFS迭代算法.cpp
+./107-binary-tree-level-order-traversal-ii二叉树的层次遍历 II/answer-level1/cpp/C++双队列实现.cpp
+./45-jump-game-ii跳跃游戏 II/answer-level3/python/动态规划-用时击败99%,内存击败91%（易理解）.py
+./45-jump-game-ii跳跃游戏 II/answer-level3/java/Java 1ms 打败100% 记录一下.java
+./100279-ju-zhen-zhong-de-lu-jing-lcof矩阵中的路径/answer-level2/cpp/DFS+回溯 替代辅助数组.cpp
+./285-inorder-successor-in-bst二叉搜索树中的顺序后继/answer-level2/cpp/O(lgn).cpp
+./230-kth-smallest-element-in-a-bst二叉搜索树中第K小的元素/answer-level2/python/二叉搜索树中第K小的元素，优化终止.py
+./230-kth-smallest-element-in-a-bst二叉搜索树中第K小的元素/answer-level2/java/230. 二叉搜索树中第K小的元素.java
+./503-next-greater-element-ii下一个更大元素 II/answer-level2/cpp/单调栈模板题.cpp
+./541-reverse-string-ii反转字符串 II/answer-level1/java/541.反转字符串2  .java
+./283-move-zeroes移动零/answer-level1/cpp/移0.cpp
+./283-move-zeroes移动零/answer-level1/cpp/two pointers.cpp
+./283-move-zeroes移动零/answer-level1/cpp/双指针.cpp
+./283-move-zeroes移动零/answer-level1/c/暴力求解.c
+./724-find-pivot-index寻找数组的中心索引/answer-level1/python3/python的简单数学思维.py
+./724-find-pivot-index寻找数组的中心索引/answer-level1/golang/go简单思想解题.go
+./724-find-pivot-index寻找数组的中心索引/answer-level1/java/简单易懂解法.java
+./724-find-pivot-index寻找数组的中心索引/answer-level1/cpp/c++ 转换思想的简单思路，24ms -z.cpp
+./109-convert-sorted-list-to-binary-search-tree有序链表转换二叉搜索树/answer-level2/golang/go 模仿中序遍历解法.go
+./365-water-and-jug-problem水壶问题/answer-level2/scala/纯函数式解法（当然最后几个变态用例OOM了.scala
+./365-water-and-jug-problem水壶问题/answer-level2/c/倒水满足性问题.c
+./1108-analyze-user-website-visit-pattern用户网站访问行为分析/answer-level2/scala/Brute Force.scala
+./101-symmetric-tree对称二叉树/answer-level1/python/101. 对称二叉树.py
+./101-symmetric-tree对称二叉树/answer-level1/java/skr函数致敬大碗宽面.java
+./101-symmetric-tree对称二叉树/answer-level1/java/整理了一下二叉树的几种解法 -- 递归、bfs、dfs(前序遍历 中序遍历 后序遍历）.java
+./101-symmetric-tree对称二叉树/answer-level1/cpp/层序遍历，看每层的数是否对称.cpp
+./101-symmetric-tree对称二叉树/answer-level1/c/对称二叉树(C，递归和非递归）.c
+./409-longest-palindrome最长回文串/answer-level1/cpp/c++的双百通过.cpp
+./1000019-binode-lcciBiNode/answer-level1/c/BiNode.c
+./204-count-primes计数质数/answer-level1/python3/python 筛法.py
+./673-number-of-longest-increasing-subsequence最长递增子序列的个数/answer-level2/python3/执行用时 _ 84 ms, 在Python提交中击败了100.00% 的用户.py
+./100158-is-unique-lcci判定字符是否唯一/answer-level1/csharp/c#  简单的很 100% hashset.cs
+./225-implement-stack-using-queues用队列实现栈/answer-level1/c/C语言链表模拟.c
+./225-implement-stack-using-queues用队列实现栈/answer-level1/c/C代码静态数组模拟栈的操作.c
+./225-implement-stack-using-queues用队列实现栈/answer-level1/c/C语言解法，用数组来模拟.c
+./100274-fei-bo-na-qi-shu-lie-lcof斐波那契数列/answer-level1/c/dp&栈.c
+./7-reverse-integer整数反转/answer-level1/cpp/7. 整数反转 C++.cpp
+./7-reverse-integer整数反转/answer-level1/cpp/# C++简单易懂不复杂.cpp
+./7-reverse-integer整数反转/answer-level1/csharp/其实还可以更简化，但我只能写成这样了....cs
+./7-reverse-integer整数反转/answer-level1/csharp/自己记录 整数翻转 简单.cs
+./7-reverse-integer整数反转/answer-level1/c/思路比较简单，注意边界值.c
+./7-reverse-integer整数反转/answer-level1/c/純c的解决方法.c
+./100159-check-permutation-lcci判定是否互为字符重排/answer-level1/swift/判断两个字符串是否是重新排序.swift
+./392-is-subsequence判断子序列/answer-level1/c/C的解法：判断子序列.c
+./1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold大小为 K 且平均值大于等于阈值的子数组数目/answer-level2/java/大小为k且平均值大于等于阈值得子数组数目.java
+./100325-ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof把数字翻译成字符串/answer-level2/python3/找规律，利用斐波那契数列的思想解决.py
+./258-add-digits各位相加/answer-level1/python3/python各位相加.py
+./147-insertion-sort-list对链表进行插入排序/answer-level2/c/C语言解法，插入排序。虚拟头结点，双指针的灵活应用.c
+./39-combination-sum组合总和/answer-level2/java/回溯算法+树.java
+./39-combination-sum组合总和/answer-level2/java/39. 组合总和(java回溯add方法返回bool类型).java
+./225-implement-stack-using-queues用队列实现栈/answer-level1/python3/[python3] 方法有2，单队列、双队列.py
+./225-implement-stack-using-queues用队列实现栈/answer-level1/python/简单思路.py
+./225-implement-stack-using-queues用队列实现栈/answer-level1/python/(打卡)list实现stack.py
+./225-implement-stack-using-queues用队列实现栈/answer-level1/python/使用1个队列实现栈，压入O(1), 弹出O(n)..py
+./225-implement-stack-using-queues用队列实现栈/answer-level1/golang/关键点：将队列尾部的元素作为栈顶元素出栈.go
+./225-implement-stack-using-queues用队列实现栈/answer-level1/golang/golang slice实现方式.go
+./225-implement-stack-using-queues用队列实现栈/answer-level1/java/225用队列实现栈-打卡.java
+./225-implement-stack-using-queues用队列实现栈/answer-level1/cpp/可能是最慢的解法之一：两个队列模拟栈（C++）。.cpp
+./225-implement-stack-using-queues用队列实现栈/answer-level1/cpp/225. 用队列实现栈 C++  四种方法(使用std__queue).cpp
+./155-min-stack最小栈/answer-level1/java/最小栈.java
+./155-min-stack最小栈/answer-level1/java/155. 最小栈(java使用辅助栈).java
+./155-min-stack最小栈/answer-level1/cpp/使用两个栈解决最小栈问题.cpp
+./155-min-stack最小栈/answer-level1/c/最小栈(C).c
+./100274-fei-bo-na-qi-shu-lie-lcof斐波那契数列/answer-level1/cpp/优化一下.cpp
+./100274-fei-bo-na-qi-shu-lie-lcof斐波那契数列/answer-level1/cpp/dp&栈.cpp
+./7-reverse-integer整数反转/answer-level1/python3/Python解法.py
+./322-coin-change零钱兑换/answer-level2/python/背包问题之01背包问题（科普文，基础，背包九讲）.py
+./322-coin-change零钱兑换/answer-level2/java/官方题解的详实解释.java
+./322-coin-change零钱兑换/answer-level2/java/从斐波那契数列、股票问题到最长回文子串，一文带你入门动态规划.java
+./322-coin-change零钱兑换/answer-level2/java/背包问题之01背包问题（科普文，基础，背包九讲）.java
+./322-coin-change零钱兑换/answer-level2/cpp/打卡加1.cpp
+./322-coin-change零钱兑换/answer-level2/c/C语言：动态规划.c
+./100295-shu-zhi-de-zheng-shu-ci-fang-lcof数值的整数次方/answer-level2/cpp/C++ 运用快速幂算法.cpp
+./100308-zi-fu-chuan-de-pai-lie-lcof字符串的排列/answer-level2/python3/Python3回溯法-dfs应用：借助排序排除重复项.py
+./816-design-hashset设计哈希集合/answer-level1/cpp/设计哈希集合.cpp
+./338-counting-bits比特位计数/answer-level2/cpp/比特位计数.cpp
+./100308-zi-fu-chuan-de-pai-lie-lcof字符串的排列/answer-level2/python/Python3回溯法-dfs应用：借助排序排除重复项.py
+./360-sort-transformed-array有序转化数组/answer-level2/python3/利用二次函数的性质合并计算列表，O(N)时间复杂度.py
+./360-sort-transformed-array有序转化数组/answer-level2/python/利用二次函数的性质合并计算列表，O(N)时间复杂度.py
+./297-serialize-and-deserialize-binary-tree二叉树的序列化与反序列化/answer-level3/java/先序遍历实现.java
+./297-serialize-and-deserialize-binary-tree二叉树的序列化与反序列化/answer-level3/cpp/297. 二叉树的序列化与反序列化 C++.cpp
+./863-sum-of-distances-in-tree树中距离之和/answer-level3/cpp/记录一个大坑点，请各位老铁注意！！！.cpp
+./121-best-time-to-buy-and-sell-stock买卖股票的最佳时机/answer-level1/c/[[数组_买卖股票的最佳时机]] 一次遍历+暴力法.c
+./275-h-index-iiH指数 II/answer-level2/c/c 二分查找.c
+./739-daily-temperatures每日温度/answer-level2/c/从倒数第二个数开始对比.c
+./28-implement-strstr实现 strStr()/answer-level1/python3/暴力解题方式，思路清晰，仅供参考.py
+./28-implement-strstr实现 strStr()/answer-level1/cpp/实现 strStr().cpp
+./28-implement-strstr实现 strStr()/answer-level1/cpp/C++—substr() —  取相同长度的子字符串与原字符串比较.cpp
+./121-best-time-to-buy-and-sell-stock买卖股票的最佳时机/answer-level1/python3/python3 简单思路到代码优化.py
+./121-best-time-to-buy-and-sell-stock买卖股票的最佳时机/answer-level1/cpp/股票简单思路却超时特此记录.cpp
+./1034-subarrays-with-k-different-integersK 个不同整数的子数组/answer-level3/golang/滑动窗口.go
+./483-smallest-good-base最小好进制/answer-level3/cpp/二分查找.cpp
+./448-find-all-numbers-disappeared-in-an-array找到所有数组中消失的数字/answer-level1/python/多图演示 448.找到所有数组中消失的数字.py
+./448-find-all-numbers-disappeared-in-an-array找到所有数组中消失的数字/answer-level1/java/多图演示 448.找到所有数组中消失的数字.java
+./448-find-all-numbers-disappeared-in-an-array找到所有数组中消失的数字/answer-level1/cpp/90%.cpp
+./120-triangle三角形最小路径和/answer-level2/golang/动态规划和递归.go
+./1499-maximum-performance-of-a-team最大的团队表现值/answer-level3/cpp/优先队列.cpp
+./24-swap-nodes-in-pairs两两交换链表中的节点/answer-level2/javascript/js 迭代求解 特别要注意前后关系.js
+./857-positions-of-large-groups较大分组的位置/answer-level1/python3/python使用enumerate实现O(n)复杂度判断.py
+./857-positions-of-large-groups较大分组的位置/answer-level1/golang/啊.go
+./144-binary-tree-preorder-traversal二叉树的前序遍历/answer-level2/cpp/144. 二叉树的前序遍历 C++ .cpp
+./144-binary-tree-preorder-traversal二叉树的前序遍历/answer-level2/javascript/[极简] JS 二叉树的前序遍历，递归.js
+./100288-er-cha-shu-de-jing-xiang-lcof二叉树的镜像/answer-level1/java/二叉树的镜像，递归和栈.java
+./100288-er-cha-shu-de-jing-xiang-lcof二叉树的镜像/answer-level1/cpp/二叉树遍历（后序遍历即可）.cpp
+./24-swap-nodes-in-pairs两两交换链表中的节点/answer-level2/python3/两两交换链表中的节点(递归+迭代).py
+./24-swap-nodes-in-pairs两两交换链表中的节点/answer-level2/python/动画演示 迭代+递归 24. 两两交换链表中的节点.py
+./24-swap-nodes-in-pairs两两交换链表中的节点/answer-level2/java/一次遍历方法，添加辅助计数变量和一个辅助结点.java
+./24-swap-nodes-in-pairs两两交换链表中的节点/answer-level2/java/链表节点两两交换--用三个指针标识位置，每次移动两个距离.java
+./24-swap-nodes-in-pairs两两交换链表中的节点/answer-level2/java/递归 or 非递归三指针（前后指针）.java
+./24-swap-nodes-in-pairs两两交换链表中的节点/answer-level2/java/动画演示 迭代+递归 24. 两两交换链表中的节点.java
+./1270-dinner-plate-stacks餐盘栈/answer-level3/python3/随便写写.py
+./1014-k-closest-points-to-origin最接近原点的 K 个点/answer-level2/cpp/三行主代码完成.cpp
+./122-best-time-to-buy-and-sell-stock-ii买卖股票的最佳时机 II/answer-level1/python3/python3简单遍历.py
+./122-best-time-to-buy-and-sell-stock-ii买卖股票的最佳时机 II/answer-level1/python/python3简单遍历.py
+./122-best-time-to-buy-and-sell-stock-ii买卖股票的最佳时机 II/answer-level1/java/122. 买卖股票的最佳时机II，动态规划O(N^2).java
+./122-best-time-to-buy-and-sell-stock-ii买卖股票的最佳时机 II/answer-level1/java/买卖股票的最佳时机Ⅱ.java
+./122-best-time-to-buy-and-sell-stock-ii买卖股票的最佳时机 II/answer-level1/c/贪心算法和动态规划.c
+./745-find-smallest-letter-greater-than-target寻找比目标字母大的最小字母/answer-level1/cpp/二分搜索----C++实现.cpp
+./100312-cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof从上到下打印二叉树 II/answer-level1/python3/gelthin-层次遍历-延迟处理-for循环改队列.py
+./100312-cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof从上到下打印二叉树 II/answer-level1/python/gelthin-层次遍历-延迟处理-for循环改队列.py
+./1278-product-price-at-a-given-date指定日期的产品价格/answer-level2/mysql/left join 可作为套路解决虽然没有数据，但也要显示的要求.sql
+./279-perfect-squares完全平方数/answer-level2/python3/python3最基础的BFS套路代码，适合入门新手！.py
+./454-4sum-ii四数相加 II/answer-level2/java/使用hashmap的Java解法.java
+./774-maximum-depth-of-n-ary-treeN叉树的最大深度/answer-level1/python3/Python3 递归求解.py
+./774-maximum-depth-of-n-ary-treeN叉树的最大深度/answer-level1/python3/python.py
+./100312-cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof从上到下打印二叉树 II/answer-level1/cpp/C++二叉树的而层次遍历.cpp
+./279-perfect-squares完全平方数/answer-level2/cpp/C++ 多种解法.cpp
+./279-perfect-squares完全平方数/answer-level2/cpp/完全平方数.cpp
+./742-to-lower-case转换成小写字母/answer-level1/java/转换成小写字母.java
+./742-to-lower-case转换成小写字母/answer-level1/cpp/个人记录——第一次的方法.cpp
+./742-to-lower-case转换成小写字母/answer-level1/c/c大小写转换.c
+./328-odd-even-linked-list奇偶链表/answer-level2/cpp/简单思路.cpp
+./328-odd-even-linked-list奇偶链表/answer-level2/java/原地链接.java
+./862-find-and-replace-in-string字符串中的查找与替换/answer-level2/cpp/用时间换空间的代表之作！！！.cpp
+./1044-find-common-characters查找常用字符/answer-level1/cpp/用数组统计字符.cpp
+./100281-ji-qi-ren-de-yun-dong-fan-wei-lcof机器人的运动范围/answer-level2/cpp/为什么交C过不了交C++就能过。。.cpp
+./350-intersection-of-two-arrays-ii两个数组的交集 II/answer-level1/golang/Go 排序遍历实现.go
+./350-intersection-of-two-arrays-ii两个数组的交集 II/answer-level1/java/双指针解决(99%).java
+./350-intersection-of-two-arrays-ii两个数组的交集 II/answer-level1/cpp/c++ 双指针+排序.cpp
+./350-intersection-of-two-arrays-ii两个数组的交集 II/answer-level1/cpp/两个数组的交集 II.cpp
+./1146-greatest-common-divisor-of-strings字符串的最大公因子/answer-level1/javascript/字符串的最大公因子JavaScript解法.js
+./1041-available-captures-for-rook可以被一步捕获的棋子数/answer-level1/python3/python3简单思路，就是遍历！！！.py
+./1041-available-captures-for-rook可以被一步捕获的棋子数/answer-level1/python/python3简单思路，就是遍历！！！.py
+./25-reverse-nodes-in-k-groupK 个一组翻转链表/answer-level3/python/动画演示 25. K 个一组翻转链表.py
+./100283-zhong-jian-er-cha-shu-lcof重建二叉树/answer-level2/javascript/分割左右子树，递归建树.js
+./222-count-complete-tree-nodes完全二叉树的节点个数/answer-level2/python3/python基础解法.py
+./1344-maximum-equal-frequency最大相等频率/answer-level3/python3/python, 简单，击败100%.py
+./604-design-compressed-string-iterator迭代压缩字符串/answer-level1/python3/python正则分割源字符串.py
+./860-design-circular-queue设计循环队列/answer-level2/java/java 使用循环数组实现循环队列（需要头尾指针）.java
+./860-design-circular-queue设计循环队列/answer-level2/cpp/c++消耗一个数组位置从而减少开辟新的标识变量，内存100%.cpp
+./860-design-circular-queue设计循环队列/answer-level2/cpp/使用数组实现.cpp
+./860-design-circular-queue设计循环队列/answer-level2/cpp/设计循环队列.cpp
+./223-rectangle-area矩形面积/answer-level2/java/仔细分析就可以解决.java
+./1140-distant-barcodes距离相等的条形码/answer-level2/python/排序然后填充.py
+./1140-distant-barcodes距离相等的条形码/answer-level2/java/贪心堆.java
+./445-add-two-numbers-ii两数相加 II/answer-level2/python3/遍历列表后，字符串拼接，在转换为链表。.py
+./445-add-two-numbers-ii两数相加 II/answer-level2/java/Java 双栈解法.java
+./755-reach-a-number到达终点数字/answer-level2/cpp/好难一简单题.cpp
+./100-same-tree相同的树/answer-level1/python3/相同的树 迭代和递归  python3.py
+./100-same-tree相同的树/answer-level1/c/C语言递归-大道至简.c
+./74-search-a-2d-matrix搜索二维矩阵/answer-level2/python3/Python 3 with O(m) + O(logn) time complexity according to binary search..py
+./74-search-a-2d-matrix搜索二维矩阵/answer-level2/python/Python 3 with O(m) + O(logn) time complexity according to binary search..py
+./356-line-reflection直线镜像/answer-level2/scala/Math.scala
+./127-word-ladder单词接龙/answer-level2/python3/127.单词接龙（官方python注释每一步菜鸟都能看懂[广搜]）.py
+./96-unique-binary-search-trees不同的二叉搜索树/answer-level2/java/之前题解改为动态规划.java
+./1059-missing-element-in-sorted-array有序数组中的缺失元素/answer-level2/c/C的一种解法.c
+./1250-longest-common-subsequence最长公共子序列/answer-level2/java/python3_62.85%  java_69.76%.java
+./31-next-permutation下一个排列/answer-level2/python/下一个排列.py
+./1250-longest-common-subsequence最长公共子序列/answer-level2/python3/python3_62.85%  java_69.76%.py
+./1035-cousins-in-binary-tree二叉树的堂兄弟节点/answer-level1/python/遍历节点，用字典储存字典信息.py
+./445-add-two-numbers-ii两数相加 II/answer-level2/cpp/高效.cpp
+./445-add-two-numbers-ii两数相加 II/answer-level2/c/递归：简单明了.c
+./347-top-k-frequent-elements前 K 个高频元素/answer-level2/java/堆（优先队列）解法.java
+./347-top-k-frequent-elements前 K 个高频元素/answer-level2/cpp/347. 前 K 个高频元素 C++.cpp
+./347-top-k-frequent-elements前 K 个高频元素/answer-level2/cpp/C++各种容器.cpp
+./347-top-k-frequent-elements前 K 个高频元素/answer-level2/cpp/桶的思路.cpp
+./839-short-encoding-of-words单词的压缩编码/answer-level2/python3/python3直白思路，代码略复杂.py
+./839-short-encoding-of-words单词的压缩编码/answer-level2/python/python3直白思路，代码略复杂.py
+./839-short-encoding-of-words单词的压缩编码/answer-level2/c/暴力破解的思路，没有啥技巧在里面.c
+./100356-sub-sort-lcci部分排序/answer-level2/python3/gelthin-遍历.py
+./526-beautiful-arrangement优美的排列/answer-level2/python3/回溯法，每次进行回溯之前判断是否符合条件.py
+./100282-cong-wei-dao-tou-da-yin-lian-biao-lcof从尾到头打印链表/answer-level1/python3/剑指offer面试题6.py
+./13-roman-to-integer罗马数字转整数/answer-level1/python3/暴力计数法.py
+./100347-er-cha-shu-de-zui-jin-gong-gong-zu-xian-lcof二叉树的最近公共祖先/answer-level1/python3/python3后序遍历.py
+./100347-er-cha-shu-de-zui-jin-gong-gong-zu-xian-lcof二叉树的最近公共祖先/answer-level1/python3/前序遍历 后序遍历.py
+./168-excel-sheet-column-titleExcel表列名称/answer-level1/python3/Excel表名称.py
+./1123-single-row-keyboard单行键盘/answer-level1/python3/python3.py
+./856-consecutive-numbers-sum连续整数求和/answer-level3/python3/连续整数求和，简单数学推导.py
+./141-linked-list-cycle环形链表/answer-level1/cpp/141. 环形链表 C++  快慢指针.cpp
+./1000004-pattern-matching-lcci模式匹配/answer-level2/python3/暴力出奇迹，根据规则去做，先统计a,b在pattern中的数量，然后收集a,b可能对应的长度，遍历一遍即可。.py
+./100275-shu-zu-zhong-zhong-fu-de-shu-zi-lcof数组中重复的数字/answer-level1/python3/类Counter方法.py
+./100275-shu-zu-zhong-zhong-fu-de-shu-zi-lcof数组中重复的数字/answer-level1/python3/双百.py
+./447-number-of-boomerangs回旋镖的数量/answer-level1/java/bobo老师的java方法.java
+./1-two-sum两数之和/answer-level1/python3/暴力解决.py
+./1-two-sum两数之和/answer-level1/python/仅是个人想法，但差距还是有很多，仅供大家参考.py
+./1-two-sum两数之和/answer-level1/python/暴力解决.py
+./217-contains-duplicate存在重复元素/answer-level1/cpp/c++先排序再对比.cpp
+./521-longest-uncommon-subsequence-i最长特殊序列 Ⅰ/answer-level1/python3/最长特殊序列.py
+./189-rotate-array旋转数组/answer-level1/rust/Rust 解法.rs
+./189-rotate-array旋转数组/answer-level1/java/Java 使用列表，为什么错了呢.java
+./435-non-overlapping-intervals无重叠区间/answer-level2/java/无重叠区间 Java.java
+./276-paint-fence栅栏涂色/answer-level1/cpp/c++动态规划，第三个的颜色由前两个颜色是否相同决定，.cpp
+./574-winning-candidate当选者/answer-level2/mysql/619 ms , 在所有 MySQL 提交中击败了 41.94% 的用户.sql
+./1316-fizz-buzz-multithreaded交替打印字符串/answer-level2/cpp/条件变量加上单个互斥信号量.cpp
+./1316-fizz-buzz-multithreaded交替打印字符串/answer-level2/c/条件变量加上单个互斥信号量.c
+./100324-he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof和为s的连续正数序列/answer-level1/python3/数学方案.py
+./1-two-sum两数之和/answer-level1/java/暴力计算.java
+./1-two-sum两数之和/answer-level1/kotlin/Java和Kotlin利用哈希表KO这道两数之和.kt
+./1-two-sum两数之和/answer-level1/cpp/两种思路.cpp
+./1-two-sum两数之和/answer-level1/cpp/leetcode 1.cpp
+./1-two-sum两数之和/answer-level1/cpp/BF和hash.cpp
+./1-two-sum两数之和/answer-level1/cpp/1. 两数之和 C++.cpp
+./1-two-sum两数之和/answer-level1/csharp/自己记录 两数之和 简单.cs
+./1-two-sum两数之和/answer-level1/javascript/两数之和js.js
+./1-two-sum两数之和/answer-level1/javascript/资深小白的暴力解法.js
+./1-two-sum两数之和/answer-level1/c/两数之和之C语言解法.c
+./1-two-sum两数之和/answer-level1/c/遍历寻找一组之和符号target，返回.c
+./1-two-sum两数之和/answer-level1/c/C解法：两数之和.c
+./100228-animal-shelter-lcci动物收容所/answer-level1/java/java,两个队列存放猫狗.java
+./100275-shu-zu-zhong-zhong-fu-de-shu-zi-lcof数组中重复的数字/answer-level1/python/类Counter方法.py
+./100275-shu-zu-zhong-zhong-fu-de-shu-zi-lcof数组中重复的数字/answer-level1/cpp/数组中重复的数字 C++.cpp
+./100275-shu-zu-zhong-zhong-fu-de-shu-zi-lcof数组中重复的数字/answer-level1/cpp/C++ 原地交换法.cpp
+./150-evaluate-reverse-polish-notation逆波兰表达式求值/answer-level2/cpp/逆波兰表达式求值.cpp
+./32-longest-valid-parentheses最长有效括号/answer-level3/c/朴素的动态规划 应该是 自低向上法.c
+./1036-rotting-oranges腐烂的橘子/answer-level1/python3/业余傻瓜解法.py
+./1036-rotting-oranges腐烂的橘子/answer-level1/python/994. 腐烂的橘子-广度优先-队列.py
+./1036-rotting-oranges腐烂的橘子/answer-level1/python/业余傻瓜解法.py
+./1036-rotting-oranges腐烂的橘子/answer-level1/cpp/c++ 腐烂的橘子 队列加集合实现.cpp
+./491-increasing-subsequences递增子序列/answer-level2/java/Map_Integer, HashSet_+循环（代码很短，但是时间还需要优化）.java
+./764-n-ary-tree-level-order-traversalN叉树的层序遍历/answer-level2/java/层次遍历.java
+./764-n-ary-tree-level-order-traversalN叉树的层序遍历/answer-level2/cpp/层次遍历.cpp
+./521-longest-uncommon-subsequence-i最长特殊序列 Ⅰ/answer-level1/java/最长特殊序列.java
+./521-longest-uncommon-subsequence-i最长特殊序列 Ⅰ/answer-level1/c/最长特殊序列.c
+./148-sort-list排序链表/answer-level2/java/递归的自下向上的归并排序.java
+./148-sort-list排序链表/answer-level2/cpp/引入vector存储-_sort-_重建list.cpp
+./332-reconstruct-itinerary重新安排行程/answer-level2/c/C语言 DFS.c
+./394-decode-string字符串解码/answer-level2/cpp/字符串解码.cpp
+./100323-ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof把数组排成最小的数/answer-level2/java/面试题45. 把数组排成最小的数（比较器）.java
+./1513-find-all-good-strings找到所有好字符串/answer-level3/java/Java 数位dp + KMP.java
+./1000004-pattern-matching-lcci模式匹配/answer-level2/python/暴力出奇迹，根据规则去做，先统计a,b在pattern中的数量，然后收集a,b可能对应的长度，遍历一遍即可。.py
+./1321-get-equal-substrings-within-budget尽可能使字符串相等/answer-level2/java/Java指针移位的简单解法.java
+./56-merge-intervals合并区间/answer-level2/java/java将区间按左端点进行排序.java
+./56-merge-intervals合并区间/answer-level2/swift/先排序，再逐个对比.swift
+./56-merge-intervals合并区间/answer-level2/c/C语言基础：二维数组作为入参和出参，以及二维数组的排序cmp函数.c
+./633-sum-of-square-numbers平方数之和/answer-level1/java/费马平方和定理最详细注释 相信没有之一.java
+./1299-k-concatenation-maximum-sumK 次串联后最大子数组之和/answer-level2/python3/python3,击败100%.py
+./1299-k-concatenation-maximum-sumK 次串联后最大子数组之和/answer-level2/cpp/C++.cpp
+./100262-smallest-difference-lcci最小差/answer-level2/java/快排+双指针.java
+./1169-largest-values-from-labels受标签影响的最大值/answer-level2/cpp/C++ .cpp
+./206-reverse-linked-list反转链表/answer-level1/cpp/206 反转链表.cpp
+./206-reverse-linked-list反转链表/answer-level1/cpp/206. 反转链表  C++  迭代法、递归法.cpp
+./206-reverse-linked-list反转链表/answer-level1/cpp/反转链表迭代与递归解法.cpp
+./206-reverse-linked-list反转链表/answer-level1/cpp/反转链表.cpp
+./206-reverse-linked-list反转链表/answer-level1/javascript/反转链表.js
+./206-reverse-linked-list反转链表/answer-level1/c/三指针递归与迭代.c
+./1025-minimum-cost-for-tickets最低票价/answer-level2/java/dp solution.java
+./1025-minimum-cost-for-tickets最低票价/answer-level2/cpp/C++动态规划.cpp
+./520-detect-capital检测大写字母/answer-level1/python/基本题型，判断全为大写字母小写字母，大写加全部小写.py
+./1062-partition-array-into-three-parts-with-equal-sum将数组分成和相等的三个部分/answer-level1/python3/从左往右寻找切分点.py
+./1062-partition-array-into-three-parts-with-equal-sum将数组分成和相等的三个部分/answer-level1/golang/Go非递归解法.go
+./1062-partition-array-into-three-parts-with-equal-sum将数组分成和相等的三个部分/answer-level1/java/前后指针向中间加到指定值.java
+./1062-partition-array-into-three-parts-with-equal-sum将数组分成和相等的三个部分/answer-level1/java/_java版本_单次循环，判断满足条件的组合数.java
+./1062-partition-array-into-three-parts-with-equal-sum将数组分成和相等的三个部分/answer-level1/c/打卡第一天.c
+./206-reverse-linked-list反转链表/answer-level1/python3/Python 3 两种解法，详细注释.py
+./206-reverse-linked-list反转链表/answer-level1/python3/206 反转链表.py
+./520-detect-capital检测大写字母/answer-level1/java/基本题型，判断全为大写字母小写字母，大写加全部小写.java
+./520-detect-capital检测大写字母/answer-level1/c/基本题型，判断全为大写字母小写字母，大写加全部小写.c
+./205-isomorphic-strings同构字符串/answer-level1/golang/Go实现.go
+./345-reverse-vowels-of-a-string反转字符串中的元音字母/answer-level1/c/妙啊  C.c
+./72-edit-distance编辑距离/answer-level3/cpp/编辑距离 动态dp[i][j]关系式来源解释🎅 .cpp
+./1251-longest-chunked-palindrome-decomposition段式回文/answer-level3/cpp/递归.cpp
+./100298-fan-zhuan-lian-biao-lcof反转链表/answer-level1/python3/py3 反转链表，两个指针.py
+./100298-fan-zhuan-lian-biao-lcof反转链表/answer-level1/python/py3 反转链表，两个指针.py
+./100298-fan-zhuan-lian-biao-lcof反转链表/answer-level1/java/翻转链表.java
+./100337-dui-lie-de-zui-da-zhi-lcof队列的最大值/answer-level2/java/使用Deque双端队列.java
+./4-median-of-two-sorted-arrays寻找两个有序数组的中位数/answer-level3/cpp/合并，然后取值.cpp
+./4-median-of-two-sorted-arrays寻找两个有序数组的中位数/answer-level3/javascript/JavaScript 版本.js
+./4-median-of-two-sorted-arrays寻找两个有序数组的中位数/answer-level3/c/大家看到有bug，请指出。.c
+./72-edit-distance编辑距离/answer-level3/javascript/JS动态规划-自底向上.js
+./72-edit-distance编辑距离/answer-level3/python3/抄大佬作业的一遍就能记住的python代码.py
+./72-edit-distance编辑距离/answer-level3/python/抄大佬作业的一遍就能记住的python代码.py
+./907-koko-eating-bananas爱吃香蕉的珂珂/answer-level2/c/Binary Search C.c
+./13-roman-to-integer罗马数字转整数/answer-level1/java/罗马字符转数字的题解.java
+./13-roman-to-integer罗马数字转整数/answer-level1/cpp/看起来很新手的写法。运行和内存消耗还行。.cpp
+./13-roman-to-integer罗马数字转整数/answer-level1/cpp/罗马数字转数字(双指针).cpp
+./13-roman-to-integer罗马数字转整数/answer-level1/cpp/C++，用栈进行解答.cpp
+./13-roman-to-integer罗马数字转整数/answer-level1/c/使用哈希表快速定位.c
+./100241-permutation-i-lcci无重复字符串的排列组合/answer-level2/python3/简洁回溯法Python3.py
+./100241-permutation-i-lcci无重复字符串的排列组合/answer-level2/python/简洁回溯法Python3.py
+./203-remove-linked-list-elements移除链表元素/answer-level1/python3/python3解法.py
+./203-remove-linked-list-elements移除链表元素/answer-level1/golang/Go 递归实现.go
+./203-remove-linked-list-elements移除链表元素/answer-level1/java/Java题解，设置虚拟头节点遍历.java
+./203-remove-linked-list-elements移除链表元素/answer-level1/java/简单易懂的双指针.java
+./203-remove-linked-list-elements移除链表元素/answer-level1/javascript/删除结点.js
+./853-most-profit-assigning-work安排工作以达到最大收益/answer-level2/cpp/先排序然后再对比.cpp
+./853-most-profit-assigning-work安排工作以达到最大收益/answer-level2/cpp/排序轻松解决.cpp
+./566-reshape-the-matrix重塑矩阵/answer-level1/java/采用双指针.java
+./566-reshape-the-matrix重塑矩阵/answer-level1/java/遍历元素，重新赋值.java
+./566-reshape-the-matrix重塑矩阵/answer-level1/javascript/重塑矩阵 js 版官方题解-不用额外空间.js
+./526-beautiful-arrangement优美的排列/answer-level2/python/回溯法，每次进行回溯之前判断是否符合条件.py
+./526-beautiful-arrangement优美的排列/answer-level2/c/c语言，全排列。.c
+./817-design-hashmap设计哈希映射/answer-level1/cpp/设计哈希映射.cpp
+./861-flipping-an-image翻转图像/answer-level1/cpp/C++普通遍历解法.cpp
+./926-find-and-replace-pattern查找和替换模式/answer-level2/python3/利用双字典求解.py
+./92-reverse-linked-list-ii反转链表 II/answer-level2/cpp/simple solution.cpp
+./92-reverse-linked-list-ii反转链表 II/answer-level2/cpp/反转链表II.cpp
+./92-reverse-linked-list-ii反转链表 II/answer-level2/cpp/一次遍历反转链表.cpp
+./853-most-profit-assigning-work安排工作以达到最大收益/answer-level2/python3/排序轻松解决.py
+./112-path-sum路径总和/answer-level1/python3/有大佬知道什么情况么，明明sum有为0的时候，却不能return True 出来.py
+./112-path-sum路径总和/answer-level1/python3/树的递归与循环的案例之一.py
+./100304-lian-xu-zi-shu-zu-de-zui-da-he-lcof连续子数组的最大和/answer-level1/java/解题思路，一目了然(JAVA).java
+./368-largest-divisible-subset最大整除子集/answer-level2/python3/python dp.py
+./1001-n-repeated-element-in-size-2n-array重复 N 次的元素/answer-level1/python3/重复的数必定是中位数！.py
+./485-max-consecutive-ones最大连续1的个数/answer-level1/java/双指针法 用时2ms .java
+./697-degree-of-an-array数组的度/answer-level1/cpp/哈希表 + 遍历 .cpp
+./1208-maximum-nesting-depth-of-two-valid-parentheses-strings有效括号的嵌套深度/answer-level2/java/括号的嵌套深度.java
+./1208-maximum-nesting-depth-of-two-valid-parentheses-strings有效括号的嵌套深度/answer-level2/c/括号的嵌套深度.c
+./1208-maximum-nesting-depth-of-two-valid-parentheses-strings有效括号的嵌套深度/answer-level2/c/有效括号字符串的两种解法.c
+./717-1-bit-and-2-bit-characters1比特与2比特字符/answer-level1/golang/Go遍历数组实现.go
+./717-1-bit-and-2-bit-characters1比特与2比特字符/answer-level1/cpp/遍历.cpp
+./1275-validate-binary-tree-nodes验证二叉树/answer-level2/python3/只有一个入度为0的根节点，其他节点都只有一个入度。且根节点有孩子：这样可以防止形成环（或者只有一个节点，n=1的特殊情况）。.py
+./1275-validate-binary-tree-nodes验证二叉树/answer-level2/python/只有一个入度为0的根节点，其他节点都只有一个入度。且根节点有孩子：这样可以防止形成环（或者只有一个节点，n=1的特殊情况）。.py
+./838-design-linked-list设计链表/answer-level2/java/Java 实现，简短易懂.java
+./838-design-linked-list设计链表/answer-level2/cpp/设计链表.cpp
+./178-rank-scores分数排名/answer-level2/mysql/MySQL使用自连接.sql
+./717-1-bit-and-2-bit-characters1比特与2比特字符/answer-level1/c/C语言解法.c
+./1217-relative-sort-array数组的相对排序/answer-level1/php/两个循环搞定.php
+./164-maximum-gap最大间距/answer-level3/java/常规算法，先排序，需要nlogn 复杂度.java
+./460-lfu-cacheLFU缓存/answer-level3/cpp/拙劣但简单，三个map实现.cpp
+./460-lfu-cacheLFU缓存/answer-level3/cpp/哈希表+平衡二叉树.cpp
+./460-lfu-cacheLFU缓存/answer-level3/c/get，putO（1）.c
+./1268-market-analysis-i市场分析 I/answer-level2/mysql/case when 的妙用.sql
+./17-letter-combinations-of-a-phone-number电话号码的字母组合/answer-level2/cpp/队列，深度优先。.cpp
+./17-letter-combinations-of-a-phone-number电话号码的字母组合/answer-level2/cpp/17. 电话号码的字母组合.cpp
+./17-letter-combinations-of-a-phone-number电话号码的字母组合/answer-level2/c/纯C语言回溯模板，双100%.c
+./128-longest-consecutive-sequence最长连续序列/answer-level3/cpp/c++ hash表.cpp
+./841-shortest-distance-to-a-character字符的最短距离/answer-level1/python3/run time 91%, space 91%.py
+./557-reverse-words-in-a-string-iii反转字符串中的单词 III/answer-level1/cpp/C++不用高级函数实现，求改进意见.cpp
+./557-reverse-words-in-a-string-iii反转字符串中的单词 III/answer-level1/cpp/双指针.cpp
+./25-reverse-nodes-in-k-groupK 个一组翻转链表/answer-level3/java/动画演示 25. K 个一组翻转链表.java
+./25-reverse-nodes-in-k-groupK 个一组翻转链表/answer-level3/java/图解k个一组翻转链表.java
+./25-reverse-nodes-in-k-groupK 个一组翻转链表/answer-level3/java/递归算法 3ms.java
+./25-reverse-nodes-in-k-groupK 个一组翻转链表/answer-level3/java/3ms 递归.java
+./525-contiguous-array连续数组/answer-level2/cpp/利用unordered_map.cpp
+./525-contiguous-array连续数组/answer-level2/python3/Python解法，用哈希表记录每个时刻0和1数字个数的差距，没有记录就添加记录，有记录的话就计算更新最大值。.py
+./525-contiguous-array连续数组/answer-level2/python/Python解法，用哈希表记录每个时刻0和1数字个数的差距，没有记录就添加记录，有记录的话就计算更新最大值。.py
+./34-find-first-and-last-position-of-element-in-sorted-array在排序数组中查找元素的第一个和最后一个位置/answer-level2/c/【C语言】二分查找+平移指针.c
+./34-find-first-and-last-position-of-element-in-sorted-array在排序数组中查找元素的第一个和最后一个位置/answer-level2/cpp/C++ 二分法的应用.cpp
+./540-single-element-in-a-sorted-array有序数组中的单一元素/answer-level2/c/二分查找，时间复杂度：O(logN)，空间复杂度：O(1)。.c
+./51-n-queensN皇后/answer-level3/golang/go回溯.go
+./100280-ti-huan-kong-ge-lcof替换空格/answer-level1/python3/一行代码解决替换空格问题.py
+./100280-ti-huan-kong-ge-lcof替换空格/answer-level1/python/一行代码解决替换空格问题.py
+./459-repeated-substring-pattern重复的子字符串/answer-level1/golang/Go 实现.go
+./459-repeated-substring-pattern重复的子字符串/answer-level1/cpp/C++解法，易理解.cpp
+./687-longest-univalue-path最长同值路径/answer-level1/c/C 自己从看题道做题的思路  .c
+./945-snakes-and-ladders蛇梯棋/answer-level2/c/C语言+BFS，你值得拥有！ ：）.c
+./51-n-queensN皇后/answer-level3/c/C 非递归.c
+./29-divide-two-integers两数相除/answer-level2/cpp/翻倍，求余，重复.cpp
+./29-divide-two-integers两数相除/answer-level2/cpp/双一百 longlong型 被除数翻倍.cpp
+./29-divide-two-integers两数相除/answer-level2/c/两数相除c解法.c
+./118-pascals-triangle杨辉三角/answer-level1/python/非常明了的Python解法.py
+./118-pascals-triangle杨辉三角/answer-level1/cpp/杨辉三角公式+边界处理.cpp
+./190-reverse-bits颠倒二进制位/answer-level1/golang/Go 实现.go
+./169-majority-element多数元素/answer-level1/python3/哈希表处理多数元素.py
+./169-majority-element多数元素/answer-level1/python3/Python3字典，.py
+./169-majority-element多数元素/answer-level1/python/哈希表处理多数元素.py
+./169-majority-element多数元素/answer-level1/cpp/169. 多数元素 C++ 排序法、hash法、Boyer-Moore 投票算法.cpp
+./169-majority-element多数元素/answer-level1/javascript/重排序，取中间值.js
+./169-majority-element多数元素/answer-level1/javascript/自己的方法和学习官方方法.js
+./169-majority-element多数元素/answer-level1/c/C divide conquer and Boyer-Moore Algorithm.c
+./364-nested-list-weight-sum-ii加权嵌套序列和 II/answer-level2/java/Todo.java
+./165-compare-version-numbers比较版本号/answer-level2/python3/击败90%的用户.py
+./165-compare-version-numbers比较版本号/answer-level2/cpp/c++解法.cpp
+./118-pascals-triangle杨辉三角/answer-level1/javascript/硬刚版本(js)(JavaScript).js
+./652-find-duplicate-subtrees寻找重复的子树/answer-level2/cpp/寻找重复的子树.cpp
+./146-lru-cacheLRU缓存机制/answer-level2/golang/golang先实现一个双链表, 然后再构造一个LRU Cache(便于学习LRU原理).go
+./146-lru-cacheLRU缓存机制/answer-level2/java/LinkedHashMap可以设定固定长度，并且可以按照access顺序排序.java
+./1041-available-captures-for-rook可以被一步捕获的棋子数/answer-level1/javascript/初入算法 一脸懵逼 习惯暴力解.js
+./119-pascals-triangle-ii杨辉三角 II/answer-level1/java/和118一样的解题，非常容易理解，两道题都有解法.java
+./119-pascals-triangle-ii杨辉三角 II/answer-level1/cpp/杨辉三角 II.cpp
+./119-pascals-triangle-ii杨辉三角 II/answer-level1/javascript/【JS】杨辉三角II 97.2% 式算和图算思路.js
+./119-pascals-triangle-ii杨辉三角 II/answer-level1/javascript/其实就是二项式定理的应用.js
+./753-open-the-lock打开转盘锁/answer-level2/cpp/打开转盘锁.cpp
+./100307-xu-lie-hua-er-cha-shu-lcof序列化二叉树/answer-level3/python3/Python3前序遍历存储二叉树和加载二叉树.py
+./100307-xu-lie-hua-er-cha-shu-lcof序列化二叉树/answer-level3/python/Python3前序遍历存储二叉树和加载二叉树.py
+./670-maximum-swap最大交换/answer-level2/scala/程序小白的思路.scala
+./442-find-all-duplicates-in-an-array数组中重复的数据/answer-level2/c/先排序，这样比较最近两个相连的是否相等，相等请加入到返回列表.c
+./1104-coloring-a-border边框着色/answer-level2/python3/1034. Coloring A Border python3 BFS解法.py
+./21-merge-two-sorted-lists合并两个有序链表/answer-level1/php/递归解法.php
+./21-merge-two-sorted-lists合并两个有序链表/answer-level1/cpp/合并两个有序表（C++）.cpp
+./21-merge-two-sorted-lists合并两个有序链表/answer-level1/cpp/递归与普通遍历.cpp
+./21-merge-two-sorted-lists合并两个有序链表/answer-level1/cpp/迭代合并.cpp
+./21-merge-two-sorted-lists合并两个有序链表/answer-level1/cpp/C++  迭代法(类似归并排序的合并两个有序数组)、  递归法.cpp
+./617-merge-two-binary-trees合并二叉树/answer-level1/java/617递归合并二叉树.java
+./617-merge-two-binary-trees合并二叉树/answer-level1/cpp/迭代求解，参考官方题解.cpp
+./617-merge-two-binary-trees合并二叉树/answer-level1/javascript/递归解法.js
+./898-transpose-matrix转置矩阵/answer-level1/python3/Python简单清晰的思路.py
+./832-binary-tree-pruning二叉树剪枝/answer-level2/cpp/c++的一个递归解法.cpp
+./1359-circular-permutation-in-binary-representation循环码排列/answer-level2/cpp/[C++] 89. 格雷码 + 189. 旋转数组.cpp
+./113-path-sum-ii路径总和 II/answer-level2/python/python 击败97% 递归算法.py
+./113-path-sum-ii路径总和 II/answer-level2/java/113. 路径总和 II(回溯).java
+./113-path-sum-ii路径总和 II/answer-level2/cpp/C++递归.cpp
+./59-spiral-matrix-ii螺旋矩阵 II/answer-level2/python/四种遍历状态，简单易懂，击败98%，Python.py
+./59-spiral-matrix-ii螺旋矩阵 II/answer-level2/java/模拟.java
+./337-house-robber-iii打家劫舍 III/answer-level2/python3/解题报告：递归 + 记忆字典.py
+./337-house-robber-iii打家劫舍 III/answer-level2/java/三种方法解决树形动态规划问题-从入门级代码到高效树形动态规划代码实现.java
+./65-valid-number有效数字/answer-level3/python3/有效数字-有限自动机.py
+./65-valid-number有效数字/answer-level3/java/（Java，String转Double）说出来你可能不信，这都能过.java
+./287-find-the-duplicate-number寻找重复数/answer-level2/python3/剑指offer面试题3,python版答案.py
+./287-find-the-duplicate-number寻找重复数/answer-level2/java/二分法改进版.java
+./287-find-the-duplicate-number寻找重复数/answer-level2/cpp/二分数值.cpp
+./88-merge-sorted-array合并两个有序数组/answer-level1/python3/88. 合并两个有序数组(py3双指针).py
+./88-merge-sorted-array合并两个有序数组/answer-level1/golang/Go 合并排序.go
+./88-merge-sorted-array合并两个有序数组/answer-level1/java/双指针解法.java
+./88-merge-sorted-array合并两个有序数组/answer-level1/cpp/先插入再排序.cpp
+./88-merge-sorted-array合并两个有序数组/answer-level1/cpp/逆序交换.cpp
+./88-merge-sorted-array合并两个有序数组/answer-level1/javascript/看答案的 指针思路不明确.js
+./264-ugly-number-ii丑数 II/answer-level2/cpp/暴力+优先队列(小顶堆)+动态规划(三指针).cpp
+./33-search-in-rotated-sorted-array搜索旋转排序数组/answer-level2/python3/33.搜索选转排序数组（一次二分法python）.py
+./33-search-in-rotated-sorted-array搜索旋转排序数组/answer-level2/python3/某小伙竟用二分法超过99%，还不来看看？.py
+./33-search-in-rotated-sorted-array搜索旋转排序数组/answer-level2/python3/33搜索旋转排序数组.py
+./33-search-in-rotated-sorted-array搜索旋转排序数组/answer-level2/java/二分法找旋转点再找数，击败100%Java.java
+./33-search-in-rotated-sorted-array搜索旋转排序数组/answer-level2/java/二分递归 运行时间1ms.java
+./33-search-in-rotated-sorted-array搜索旋转排序数组/answer-level2/java/击败100%的Java代码。.java
+./264-ugly-number-ii丑数 II/answer-level2/csharp/最小堆  SortedSet 速度不快，但是很好理解.cs
+./8-string-to-integer-atoi字符串转换整数 (atoi)/answer-level2/python3/人与人的差距真的好大....T皿T.py
+./8-string-to-integer-atoi字符串转换整数 (atoi)/answer-level2/python/人与人的差距真的好大....T皿T.py
+./500-keyboard-row键盘行/answer-level1/java/耗时0ms，java.java
+./899-binary-gap二进制间距/answer-level1/java/比较辗转除余法和循环32次右移除法后，感觉后者效果更佳.java
+./257-binary-tree-paths二叉树的所有路径/answer-level1/python3/257.二叉树的所有路径（python使用 Divider Conquer 版本的 DFS）.py
+./748-largest-number-at-least-twice-of-others至少是其他数字两倍的最大数/answer-level1/c/747.至少是其他数字两倍的最大数.c
+./139-word-break单词拆分/answer-level2/cpp/从暴力回溯到记忆化回溯.cpp
+./441-arranging-coins排列硬币/answer-level1/java/这么简单，为什么没人用这个办法呢.java
+./100161-compress-string-lcci字符串压缩/answer-level1/java/面试题 01.06. 字符串压缩（字符串StringBuilder）.java
+./100161-compress-string-lcci字符串压缩/answer-level1/cpp/超出内存报错.cpp
+./100161-compress-string-lcci字符串压缩/answer-level1/c/leetcode编译更加严格.c
+./1409-minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix转化为全零矩阵的最少反转次数/answer-level3/cpp/1284. 转化为全零矩阵的最少反转次数.cpp
+./563-binary-tree-tilt二叉树的坡度/answer-level1/java/击败100%.java
+./563-binary-tree-tilt二叉树的坡度/answer-level1/cpp/深度优先搜索.cpp
+./257-binary-tree-paths二叉树的所有路径/answer-level1/cpp/递归方法.cpp
+./626-exchange-seats换座位/answer-level2/oraclesql/用oracle偏移分析函数查询.sql
+./1005-univalued-binary-tree单值二叉树/answer-level1/cpp/直接递归.cpp
+./83-remove-duplicates-from-sorted-list删除排序链表中的重复元素/answer-level1/java/递归解法.java
+./83-remove-duplicates-from-sorted-list删除排序链表中的重复元素/answer-level1/cpp/单指针.cpp
+./866-rectangle-overlap矩形重叠/answer-level1/csharp/C#.cs
+./866-rectangle-overlap矩形重叠/answer-level1/c/比较x轴y轴坐标是否有相交即可，时间空间双百.c
+./988-flip-equivalent-binary-trees翻转等价二叉树/answer-level2/cpp/递归.cpp
+./1055-pairs-of-songs-with-total-durations-divisible-by-60总持续时间可被 60 整除的歌曲/answer-level1/golang/Go 循环实现.go
+./1055-pairs-of-songs-with-total-durations-divisible-by-60总持续时间可被 60 整除的歌曲/answer-level1/javascript/es6.js
+./891-score-after-flipping-matrix翻转矩阵后的得分/answer-level2/java/1 ms, 在Score After Flipping Matrix的Java提交中击败了100.00% 的用户.java
+./238-product-of-array-except-self除自身以外数组的乘积/answer-level2/java/java 左积_右积.java
+./152-maximum-product-subarray乘积最大子数组/answer-level2/java/暴力法求解.java
+./54-spiral-matrix螺旋矩阵/answer-level2/cpp/C++ 无需判边界（无 if）100%极简.cpp
+./54-spiral-matrix螺旋矩阵/answer-level2/cpp/c++ 思想简单的解法.cpp
+./54-spiral-matrix螺旋矩阵/answer-level2/javascript/自然写法.js
+./331-verify-preorder-serialization-of-a-binary-tree验证二叉树的前序序列化/answer-level2/java/7ms,35.8MB,我就想知道比7ms还快的那34.97%是怎么做出来的.java
+./537-complex-number-multiplication复数乘法/answer-level2/golang/golang中有字符串处理的函数.go
+./494-target-sum目标和/answer-level2/javascript/动态规划；javascript；哈希表.js
+./11-container-with-most-water盛最多水的容器/answer-level2/python3/盛水容器（双指针求解）.py
+./11-container-with-most-water盛最多水的容器/answer-level2/python/盛水容器（双指针求解）.py
+./11-container-with-most-water盛最多水的容器/answer-level2/python/动画演示 11. 盛最多水的容器.py
+./11-container-with-most-water盛最多水的容器/answer-level2/java/动画演示 11. 盛最多水的容器.java
+./11-container-with-most-water盛最多水的容器/answer-level2/c/c.c
+./1238-alphabet-board-path字母板上的路径/answer-level2/python3/python ，顺序至关重要.py
+./645-set-mismatch错误的集合/answer-level1/java/645，错误的集合.java
+./645-set-mismatch错误的集合/answer-level1/java/受【异或大法】的影响 遇到找重复、查缺失的题目 就这样思考了.java
+./211-add-and-search-word-data-structure-design添加与搜索单词 - 数据结构设计/answer-level2/java/java实现.java
+./547-friend-circles朋友圈/answer-level2/cpp/dfs and disjoint set.cpp
+./547-friend-circles朋友圈/answer-level2/c/C语言dfs递归解法.c
+./239-sliding-window-maximum滑动窗口最大值/answer-level3/python3/239. 滑动窗口最大值(py3双端队列).py
+./239-sliding-window-maximum滑动窗口最大值/answer-level3/java/动态规划.java
+./1184-car-pooling拼车/answer-level2/java/Java 超直观 .java
+./583-delete-operation-for-two-strings两个字符串的删除操作/answer-level2/c/C语言 .c
+./182-duplicate-emails查找重复的电子邮箱/answer-level1/mysql/使用GROUP BY 加 HAVING 子句 解决.sql
+./182-duplicate-emails查找重复的电子邮箱/answer-level1/mysql/182. 查找重复的电子邮箱.sql
+./547-friend-circles朋友圈/answer-level2/python/递归，深度优先.py
+./547-friend-circles朋友圈/answer-level2/java/利用深度优先搜索.java
+./114-flatten-binary-tree-to-linked-list二叉树展开为链表/answer-level2/python/动画演示+四种解法 114. 二叉树展开为链表.py
+./114-flatten-binary-tree-to-linked-list二叉树展开为链表/answer-level2/java/动画演示+四种解法 114. 二叉树展开为链表.java
+./114-flatten-binary-tree-to-linked-list二叉树展开为链表/answer-level2/cpp/超详解讲解.cpp
+./890-lemonade-change柠檬水找零/answer-level1/cpp/只有一个地方有贪心.cpp
+./224-basic-calculator基本计算器/answer-level3/java/哎，递归又绕进去了.java
+./219-contains-duplicate-ii存在重复元素 II/answer-level1/c/C语言解法，结构体数组，结构体排序.c
+./1331-path-with-maximum-gold黄金矿工/answer-level2/java/Leetcode 1219.java
+./1205-defanging-an-ip-addressIP 地址无效化/answer-level1/java/Java遍历string.java
+./349-intersection-of-two-arrays两个数组的交集/answer-level1/cpp/c++ set(100%)-z.cpp
+./349-intersection-of-two-arrays两个数组的交集/answer-level1/c/hash统计.c
+./104-maximum-depth-of-binary-tree二叉树的最大深度/answer-level1/python3/二叉树深度.Python, 递归,迭代(BFS, DFS).py
+./104-maximum-depth-of-binary-tree二叉树的最大深度/answer-level1/python/104. 二叉树的最大深度.py
+./208-implement-trie-prefix-tree实现 Trie (前缀树)/answer-level2/java/java实现前缀树（字典树）.java
+./12-integer-to-roman整数转罗马数字/answer-level2/java/暴力取模，整数转罗马数字.java
+./1482-how-many-numbers-are-smaller-than-the-current-number有多少小于当前数字的数字/answer-level1/java/java 桶计数.java
+./1482-how-many-numbers-are-smaller-than-the-current-number有多少小于当前数字的数字/answer-level1/cpp/1365. 有多少小于当前数字的数字 C++ .cpp
+./12-integer-to-roman整数转罗马数字/answer-level2/python3/根据罗马字母起源来转换_).py
+./1103-moving-stones-until-consecutive移动石子直到连续/answer-level1/python3/2行Python，简单明了.py
+./1103-moving-stones-until-consecutive移动石子直到连续/answer-level1/python/2行Python，简单明了.py
+./105-construct-binary-tree-from-preorder-and-inorder-traversal从前序与中序遍历序列构造二叉树/answer-level2/python3/gelthin-复习python global-nonlocal.py
+./105-construct-binary-tree-from-preorder-and-inorder-traversal从前序与中序遍历序列构造二叉树/answer-level2/python/gelthin-复习python global-nonlocal.py
+./105-construct-binary-tree-from-preorder-and-inorder-traversal从前序与中序遍历序列构造二叉树/answer-level2/cpp/从前序和中序遍历序列构造二叉树.cpp
+./105-construct-binary-tree-from-preorder-and-inorder-traversal从前序与中序遍历序列构造二叉树/answer-level2/c/递归解决.c
+./100309-1nzheng-shu-zhong-1chu-xian-de-ci-shu-lcof1～n整数中1出现的次数/answer-level2/python3/针对每一位计算可能出现1的次数，时间复杂度O(N)。  假设数字是123...i...378.（分析时截取左边和右边的数字进行分析，特殊情况只有当i=0或1时）.py
+./100309-1nzheng-shu-zhong-1chu-xian-de-ci-shu-lcof1～n整数中1出现的次数/answer-level2/python/针对每一位计算可能出现1的次数，时间复杂度O(N)。  假设数字是123...i...378.（分析时截取左边和右边的数字进行分析，特殊情况只有当i=0或1时）.py
+./434-number-of-segments-in-a-string字符串中的单词数/answer-level1/python3/434. 字符串中的单词数（不需要使用库函数，字符串两端也不需要添加额外的空格）.py
+./661-image-smoother图片平滑器/answer-level1/cpp/使用值积分.cpp
+./110-balanced-binary-tree平衡二叉树/answer-level1/python3/判断二叉树是否平衡.py
+./110-balanced-binary-tree平衡二叉树/answer-level1/python/一种python解法.py
+./110-balanced-binary-tree平衡二叉树/answer-level1/python/判断二叉树是否平衡.py
+./110-balanced-binary-tree平衡二叉树/answer-level1/java/有问题的解法，但不知道错在哪（我是憨憨）.java
+./582-kill-process杀死进程/answer-level2/cpp/hash + 递归， 执行时间：168ms，内存消耗28M.cpp
+./582-kill-process杀死进程/answer-level2/c/C语言递归+哈希快速索引.c
+./1216-print-zero-even-odd打印零与奇偶数/answer-level2/java/信号量解决.java
+./1216-print-zero-even-odd打印零与奇偶数/answer-level2/cpp/互相激活.cpp
+./1127-last-stone-weight最后一块石头的重量/answer-level1/java/java快速排序+二分搜索+链表.java
+./1181-game-play-analysis-iii游戏玩法分析 III/answer-level2/oraclesql/sum() over().sql
+./131-palindrome-partitioning分割回文串/answer-level2/cpp/记忆化dfs.cpp
+./766-flatten-a-multilevel-doubly-linked-list扁平化多级双向链表/answer-level2/java/简洁的JAVA DFS，此题有两个坑点.java
+./766-flatten-a-multilevel-doubly-linked-list扁平化多级双向链表/answer-level2/cpp/扁平化多级双向链表.cpp
+./177-nth-highest-salary第N高的薪水/answer-level2/mysql/附加行号查询.sql
+./177-nth-highest-salary第N高的薪水/answer-level2/mysql/关于distinct一定要加.sql
+./200-number-of-islands岛屿数量/answer-level2/python3/200.岛屿数量（py3图的宽搜）.py
+./200-number-of-islands岛屿数量/answer-level2/python/leetcode 200 岛屿数量.py
+./1247-decrease-elements-to-make-array-zigzag递减元素使数组呈锯齿状/answer-level2/cpp/元素操作只能减小，所以只有两种方案，比较后求最优。.cpp
+./299-bulls-and-cows猜数字游戏/answer-level1/python/interesting.py
+./299-bulls-and-cows猜数字游戏/answer-level1/javascript/js 两次对比，用map来记录.js
+./378-kth-smallest-element-in-a-sorted-matrix有序矩阵中第K小的元素/answer-level2/golang/多路归并思想，数据结构用堆.go
+./1402-count-square-submatrices-with-all-ones统计全为 1 的正方形子矩阵/answer-level2/python/python 递归和动态规划.py
+./1031-add-to-array-form-of-integer数组形式的整数加法/answer-level1/cpp/不怕大数.cpp
+./41-first-missing-positive缺失的第一个正数/answer-level3/cpp/缺失的第一个正数.cpp
+./674-longest-continuous-increasing-subsequence最长连续递增序列/answer-level1/golang/Go 遍历数组实现.go
+./6-zigzag-conversionZ 字形变换/answer-level2/python3/6.Z字形变换（zigzag分块）.py
+./6-zigzag-conversionZ 字形变换/answer-level2/python3/最直观的思路.py
+./6-zigzag-conversionZ 字形变换/answer-level2/python/Z 字形变换Python.py
+./6-zigzag-conversionZ 字形变换/answer-level2/javascript/暴力破解，求优化.js
+./200-number-of-islands岛屿数量/answer-level2/cpp/岛屿数量.cpp
+./981-delete-columns-to-make-sorted删列造序/answer-level1/golang/给个Go的题解.go
+./981-delete-columns-to-make-sorted删列造序/answer-level1/java/删列造序.java
+./981-delete-columns-to-make-sorted删列造序/answer-level1/cpp/_删除_所有非降序列.cpp
+./100185-rotate-matrix-lcci旋转矩阵/answer-level2/java/Java原地代换，双百达成！.java
+./100185-rotate-matrix-lcci旋转矩阵/answer-level2/cpp/使用辅助数组.cpp
+./1477-product-of-the-last-k-numbers最后 K 个数的乘积/answer-level2/cpp/C++ O(1).cpp
+./1477-product-of-the-last-k-numbers最后 K 个数的乘积/answer-level2/c/C语言题解，使用前缀积，0特殊处理，遇到0清空所有数据.c
+./100185-rotate-matrix-lcci旋转矩阵/answer-level2/python/面试题 01.07. 旋转矩阵.py
+./818-similar-rgb-color相似 RGB 颜色/answer-level1/cpp/两位一算，最小值一定在第一位的相邻字符中，模拟即可.cpp
+./2-add-two-numbers两数相加/answer-level2/python3/一些小白疑问的自我回答.py
+./2-add-two-numbers两数相加/answer-level2/python3/两数相加，Python3.py
+./2-add-two-numbers两数相加/answer-level2/java/Java的2ms不申请Node结点的暴力解法速度超过 99.96% 的用户.java
+./2-add-two-numbers两数相加/answer-level2/swift/递归解法 swift.swift
+./2-add-two-numbers两数相加/answer-level2/javascript/02两数相加----JavaScript.js
+./2-add-two-numbers两数相加/answer-level2/javascript/加法计算，进位问题，递归简洁易懂.js
+./2-add-two-numbers两数相加/answer-level2/c/两数相加C语言思路.c
+./2-add-two-numbers两数相加/answer-level2/c/逐位相加，模拟进位.c
+./154-find-minimum-in-rotated-sorted-array-ii寻找旋转排序数组中的最小值 II/answer-level3/python3/二分查找+内置函数+一次遍历.py
+./1520-number-of-steps-to-reduce-a-number-in-binary-representation-to-one将二进制表示减到 1 的步骤数/answer-level2/java/多米诺骨牌效应.java
+./1013-fibonacci-number斐波那契数/answer-level1/kotlin/对称矩阵优化的矩阵快速幂解法，击败100%的Kotlin提交.kt
+./1013-fibonacci-number斐波那契数/answer-level1/cpp/C++循环.cpp
+./1013-fibonacci-number斐波那契数/answer-level1/cpp/递推比递归好.cpp
+./1137-height-checker高度检查器/answer-level1/python3/Python计数排序.py
+./1137-height-checker高度检查器/answer-level1/golang/Go排序对比.go
+./151-reverse-words-in-a-string翻转字符串里的单词/answer-level2/cpp/翻转字符串里的单词.cpp
+./151-reverse-words-in-a-string翻转字符串里的单词/answer-level2/c/c 挫办法.c
+./1138-grumpy-bookstore-owner爱生气的书店老板/answer-level2/python3/The idea is firstly record the best action position and then just  transform and calculate the result by summing the whole arrow..py
+./776-n-ary-tree-postorder-traversalN叉树的后序遍历/answer-level1/c/C语言简单做法.c
+./720-longest-word-in-dictionary词典中最长的单词/answer-level1/golang/Go排序并遍历实现.go
+./720-longest-word-in-dictionary词典中最长的单词/answer-level1/swift/排序加集合解决，100%.swift
+./1138-grumpy-bookstore-owner爱生气的书店老板/answer-level2/python/The idea is firstly record the best action position and then just  transform and calculate the result by summing the whole arrow..py
+./175-combine-two-tables组合两个表/answer-level1/mysql/关于两表连接的思路.sql
+./804-rotated-digits旋转数字/answer-level1/java/判断当前数是否有效.java
+./100291-diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof调整数组顺序使奇数位于偶数前面/answer-level1/cpp/C++ 类似快排的 partition.cpp
+./81-search-in-rotated-sorted-array-ii搜索旋转排序数组 II/answer-level2/python3/考虑公共区间.py
+./81-search-in-rotated-sorted-array-ii搜索旋转排序数组 II/answer-level2/python/考虑公共区间.py
+./79-word-search单词搜索/answer-level2/cpp/C++ 递归调用.cpp
+./79-word-search单词搜索/answer-level2/cpp/回溯加一些细节问题.cpp
+./1077-confusing-number-ii易混淆数 II/answer-level3/java/简单易懂的java dfs solution.java
+./100329-zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof在排序数组中查找数字 I/answer-level1/cpp/哈希表.cpp
+./100329-zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof在排序数组中查找数字 I/answer-level1/cpp/C++两次二分查找.cpp
+./100329-zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof在排序数组中查找数字 I/answer-level1/javascript/JavaScript 二分法.js
+./1054-complement-of-base-10-integer十进制整数的反码/answer-level1/java/移位实现幂运算.java
+./1054-complement-of-base-10-integer十进制整数的反码/answer-level1/cpp/C++ 用时0ms,100%.cpp
+./822-unique-morse-code-words唯一摩尔斯密码词/answer-level1/cpp/C++普通遍历解法.cpp
+./237-delete-node-in-a-linked-list删除链表中的节点/answer-level1/python3/关注参数没有传入head（考虑题目条件去掉不是尾节点的限制）.py
+./822-unique-morse-code-words唯一摩尔斯密码词/answer-level1/c/804.唯一摩尔斯密码词 C语言.c
+./250-count-univalue-subtrees统计同值子树/answer-level2/cpp/lioney_)使用C++递归解法.cpp
+./729-my-calendar-i我的日程安排表 I/answer-level2/c/只实现了一个链表的插入，没有使用快速查询性能较差.c

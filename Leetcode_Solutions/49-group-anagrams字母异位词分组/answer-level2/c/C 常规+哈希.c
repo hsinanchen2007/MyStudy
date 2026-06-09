@@ -1,13 +1,13 @@
-/*
-思路一： 采用MAP[26]个字母统计的方式，来统计两个字符串中字母的数量是否相同来判断两个词是否异或。
-这种方式无论怎样都超时。
-思路二： 想加快时间就采用哈希的方式（leetcode内置UT哈希），那么哈希的key值怎么选呢？
-题解里面有两种方式：1. 质数，每个字母对应一个质数，一个词对应的质数等于词中字母质数的乘积，这样就能保证字母相同只是排列不用的词具有相同的key值
-                  2. 要想让字母相同、排列不用的词具有相同的key值？ 那就直接对字符串从小到大排列，这就是第二种key值：字符串
-字母相同、排列不用的词具有了相同的key值，有什么用呢？ 
-这些词在输出的队列中具有相同的索引，所以很容易想到哈希结构中的value值就是这个词在输出序列中的索引。
-*/
-```
+// /*
+// 思路一： 采用MAP[26]个字母统计的方式，来统计两个字符串中字母的数量是否相同来判断两个词是否异或。
+// 这种方式无论怎样都超时。
+// 思路二： 想加快时间就采用哈希的方式（leetcode内置UT哈希），那么哈希的key值怎么选呢？
+// 题解里面有两种方式：1. 质数，每个字母对应一个质数，一个词对应的质数等于词中字母质数的乘积，这样就能保证字母相同只是排列不用的词具有相同的key值
+//                   2. 要想让字母相同、排列不用的词具有相同的key值？ 那就直接对字符串从小到大排列，这就是第二种key值：字符串
+// 字母相同、排列不用的词具有了相同的key值，有什么用呢？ 
+// 这些词在输出的队列中具有相同的索引，所以很容易想到哈希结构中的value值就是这个词在输出序列中的索引。
+// */
+// ```
 第一种会超时
 # define MAX_ALP_NUM 26
 bool AreWordsTheSame(char *str1, char *str2) 
@@ -68,8 +68,8 @@ char *** groupAnagrams(char ** strs, int strsSize, int* returnSize, int** return
     *returnColumnSizes = retcolSizes;
     return retStrArr;
 }
-```
-```
+// ```
+// ```
 第二种使用UT哈希，基于字母排序
 #define STR_MAX_LEN 1000
 int compare(void* p1, void* p2)
@@ -129,5 +129,5 @@ char *** groupAnagrams(char ** strs, int strsSize, int* returnSize, int** return
     *returnColumnSizes = retcolSizes;
     return retStrArr;
 }
-```
+// ```
 

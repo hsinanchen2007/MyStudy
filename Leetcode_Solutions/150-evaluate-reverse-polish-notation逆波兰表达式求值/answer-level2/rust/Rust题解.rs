@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn eval_rpn(tokens: Vec<String>) -> i32 {
         let mut nums: Vec<i32> = Vec::new();
@@ -20,5 +20,5 @@ impl Solution {
         nums.pop().unwrap()
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

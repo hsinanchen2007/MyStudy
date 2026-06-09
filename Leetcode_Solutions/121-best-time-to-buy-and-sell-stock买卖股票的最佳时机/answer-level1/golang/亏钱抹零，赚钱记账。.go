@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-亏了钱就抹零抄底，赚了钱就记账。 
+// 亏了钱就抹零抄底，赚了钱就记账。 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func maxProfit(prices []int) int {
 	maxprofit := 0
 	if len(prices) > 1 {
@@ -20,4 +20,4 @@ func maxProfit(prices []int) int {
 	}
 	return maxprofit
 }
-```
+// ```

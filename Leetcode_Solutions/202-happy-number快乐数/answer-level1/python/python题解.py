@@ -1,9 +1,9 @@
 
-![image.png](https://pic.leetcode-cn.com/16fcbb510261eefd78920c71e2a15d4a4e613f6a971545d7b8d73b52aa02c350-image.png)
+# ![image.png](https://pic.leetcode-cn.com/16fcbb510261eefd78920c71e2a15d4a4e613f6a971545d7b8d73b52aa02c350-image.png)
 
-没什么好说的orz
+# 没什么好说的orz
 
-```
+# ```
 class Solution(object):
     def isHappy(self, n):
         """
@@ -26,4 +26,4 @@ class Solution(object):
             lastkeys.add(n)
         #正常通过，返回true
         return True
-```
+# ```

@@ -1,14 +1,14 @@
-### 解题思路
+// ### 解题思路
 
-动态规划，设dp[i]表示到books[i]（这里books的下标从1到n）为止的最小高度，只考虑如何构成书架的最后一排，即
-$$
-dp[i] = \min_k(dp[i-k] + maxHeight)
-$$
-maxHeight表示从books[i-k+1]到books[i]所有书中最高的高度，并且满足books[i-k+1]到books[i]加起来的厚度不超过书架，即能同时放在最后一层，最后输出$dp[n]$即可。
+// 动态规划，设dp[i]表示到books[i]（这里books的下标从1到n）为止的最小高度，只考虑如何构成书架的最后一排，即
+// $$
+// dp[i] = \min_k(dp[i-k] + maxHeight)
+// $$
+// maxHeight表示从books[i-k+1]到books[i]所有书中最高的高度，并且满足books[i-k+1]到books[i]加起来的厚度不超过书架，即能同时放在最后一层，最后输出$dp[n]$即可。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minHeightShelves(vector<vector<int>>& books, int shelf_width) {
@@ -32,4 +32,4 @@ public:
         return dp[books.size()];
     }
 };
-```
+// ```

@@ -1,6 +1,6 @@
-[Leetcode-Java(更多题解，持续更新)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_226_invertTree.java)
+// [Leetcode-Java(更多题解，持续更新)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_226_invertTree.java)
 
-```java
+// ```java
     /**
      * 解题思路：
      * 树的经典解题：左、右、自己，递归遍历，拿到翻转后的左右子树，将root的左右子树坐下替换
@@ -23,4 +23,4 @@
         root.right = left;
         return root;
     }
-```
+// ```

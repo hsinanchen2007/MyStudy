@@ -1,5 +1,5 @@
-逐层填充矩阵
-```
+# 逐层填充矩阵
+# ```
 class Solution:
     def generateMatrix(self, n: int) -> List[List[int]]:
         # 空矩阵
@@ -43,4 +43,4 @@ class Solution:
                 # 当前位置数值 （当前层数位置数值 + 当前层数起始基数[外环囊括的所有数字 - 内环囊括的所有数字]）
                 array_list[r][c] = j + 1 + (n ** 2 - (n - 2 * i) ** 2)
         return array_list
-```
+# ```

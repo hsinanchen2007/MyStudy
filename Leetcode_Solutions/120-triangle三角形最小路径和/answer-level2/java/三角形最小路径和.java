@@ -1,9 +1,9 @@
-### 解题思路
-仿杨辉三角II，自顶向下，每次遍历从后向前计算
+// ### 解题思路
+// 仿杨辉三角II，自顶向下，每次遍历从后向前计算
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minimumTotal(List<List<Integer>> triangle) {
         if (triangle == null) {
@@ -39,4 +39,4 @@ class Solution {
         return min;
     }
 }
-```
+// ```

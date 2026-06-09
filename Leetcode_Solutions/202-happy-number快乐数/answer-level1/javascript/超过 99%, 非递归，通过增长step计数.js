@@ -1,6 +1,6 @@
-## 假设求解过程是无限循环的，那必然存在循环的长度，假设长度为step, 计数count 如果未出现循环就增大 step， 重制count = 0
+// ## 假设求解过程是无限循环的，那必然存在循环的长度，假设长度为step, 计数count 如果未出现循环就增大 step， 重制count = 0
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {boolean}
@@ -29,4 +29,4 @@ var isHappy = function(n) {
         tmp = tmp.split('').reduce((sum, it) => sum + it * it, 0) + ''
     }
 };
-```
+// ```

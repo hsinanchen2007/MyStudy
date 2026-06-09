@@ -1,8 +1,8 @@
-### 解题思路
-双指针法：
-### 代码
+# ### 解题思路
+# 双指针法：
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def getIntersectionNode(self, headA, headB):
         if not headA or not headB: return None
@@ -11,13 +11,13 @@ class Solution:
             pa = pa.next if pa else headB
             pb = pb.next if pb else headA
         return pa 
-```
+# ```
 
-### 解题思路
-把a的尾部接到b的头部，如果相交则成了环。利用[环形链表II](https://leetcode-cn.com/problems/linked-list-cycle-ii/submissions/)里的flyod法判断入环的第一个点
-### 代码
+# ### 解题思路
+# 把a的尾部接到b的头部，如果相交则成了环。利用[环形链表II](https://leetcode-cn.com/problems/linked-list-cycle-ii/submissions/)里的flyod法判断入环的第一个点
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> ListNode:
         if not headA or not headB: return None
@@ -44,4 +44,4 @@ class Solution:
             p1, p2 = p1.next, p2.next
         tail_a.next = None
         return p1
-```
+# ```

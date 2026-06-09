@@ -1,6 +1,6 @@
-我们观察每一层的翻转过程，发现都是一样的过程。
-所有可以将问题逐渐拆解和扩展。
-```
+// 我们观察每一层的翻转过程，发现都是一样的过程。
+// 所有可以将问题逐渐拆解和扩展。
+// ```
 class Solution {
     public void rotate(int[][] matrix) {
         int n = matrix.length - 1;
@@ -19,4 +19,4 @@ class Solution {
         slove(matrix,start+1,end-1);
     }
 }
-```
+// ```

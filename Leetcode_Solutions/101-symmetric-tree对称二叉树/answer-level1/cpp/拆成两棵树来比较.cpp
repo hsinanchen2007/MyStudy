@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -26,4 +26,4 @@ public:
         return isMirror(p->left,q->right)&&isMirror(p->right,q->left);
     }
 };
-```
+// ```

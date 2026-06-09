@@ -1,4 +1,4 @@
-```
+// ```
 /*
  * Copyright (c) Nicolas-Tony Technologies Co., Ltd. 2019-2019. All rights reserved.
  * Description: i love leetcode
@@ -73,4 +73,4 @@ private:
         return results;
     }
 };
-```
+// ```

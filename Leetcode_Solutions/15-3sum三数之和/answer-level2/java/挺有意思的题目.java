@@ -1,10 +1,10 @@
-### 解题思路
-1. 先排序
-2. 排序后用双下标动态比较
+// ### 解题思路
+// 1. 先排序
+// 2. 排序后用双下标动态比较
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
         Arrays.sort(nums);
@@ -37,4 +37,4 @@ class Solution {
         return new ArrayList<>(set);
     }
 }
-```
+// ```

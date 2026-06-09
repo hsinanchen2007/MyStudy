@@ -1,6 +1,6 @@
-1、暴利求解方式：
+// 1、暴利求解方式：
 
-```
+// ```
 
 func twoSum(nums []int, target int) []int {
 	res := make([]int, 2)
@@ -18,10 +18,10 @@ func twoSum(nums []int, target int) []int {
 	return nil
 
 }
-```
+// ```
 
-2、map 方式：
-```
+// 2、map 方式：
+// ```
 
 func twoSum(nums []int, target int) []int {
 	tmp := make(map[int]int)
@@ -43,5 +43,5 @@ func twoSum(nums []int, target int) []int {
 
 	return res
 }
-```
+// ```
 

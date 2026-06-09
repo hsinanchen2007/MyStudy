@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {character[][]} board
  * @param {string} word
@@ -42,4 +42,4 @@ const judge = (board, i, j, row, col, flag, word, k) => {
     return false
 }
 
-```
+// ```

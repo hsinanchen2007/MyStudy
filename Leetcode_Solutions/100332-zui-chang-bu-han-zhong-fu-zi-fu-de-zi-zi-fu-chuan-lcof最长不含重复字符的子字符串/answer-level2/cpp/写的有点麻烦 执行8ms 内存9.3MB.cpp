@@ -1,11 +1,11 @@
-### 解题思路
-双指针i，j 判断首先分两种情况：
-1、s[i]!=s[j] 则前面的指针i++;直到i<j不成立
-2、s[i]=s[j]  则长度为j-i
+// ### 解题思路
+// 双指针i，j 判断首先分两种情况：
+// 1、s[i]!=s[j] 则前面的指针i++;直到i<j不成立
+// 2、s[i]=s[j]  则长度为j-i
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
@@ -37,4 +37,4 @@ public:
         return maxlength;
     }
 };
-```
+// ```

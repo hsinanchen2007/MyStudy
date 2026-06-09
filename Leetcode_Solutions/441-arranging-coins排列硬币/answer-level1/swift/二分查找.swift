@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     func arrangeCoins(_ n: Int) -> Int {
         var left = 0, right = n
@@ -16,6 +16,6 @@ class Solution {
         return right
     }
 }
-```
-执行用时 :16 ms, 在所有 swift 提交中击败了60.00%的用户
-内存消耗 :20.4 MB, 在所有 swift 提交中击败了20.00%的用户
+// ```
+// 执行用时 :16 ms, 在所有 swift 提交中击败了60.00%的用户
+// 内存消耗 :20.4 MB, 在所有 swift 提交中击败了20.00%的用户

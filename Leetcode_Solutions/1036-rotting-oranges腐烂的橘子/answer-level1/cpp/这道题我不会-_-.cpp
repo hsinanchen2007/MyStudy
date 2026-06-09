@@ -1,11 +1,11 @@
-### 解题思路
-参考：
-1 https://leetcode-cn.com/problems/rotting-oranges/solution/fu-lan-de-ju-zi-by-leetcode-solution/
-2 https://leetcode-cn.com/problems/rotting-oranges/solution/yan-du-you-xian-sou-suo-python3-c-by-z1m/
+// ### 解题思路
+// 参考：
+// 1 https://leetcode-cn.com/problems/rotting-oranges/solution/fu-lan-de-ju-zi-by-leetcode-solution/
+// 2 https://leetcode-cn.com/problems/rotting-oranges/solution/yan-du-you-xian-sou-suo-python3-c-by-z1m/
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution 
 {
     int cnt;
@@ -65,4 +65,4 @@ public:
         return cnt ? -1 : ans;
     }
 };
-```
+// ```

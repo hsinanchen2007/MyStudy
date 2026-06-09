@@ -1,4 +1,4 @@
-使用队列实现 BFS 思路，比较简单
+// 使用队列实现 BFS 思路，比较简单
 
 class Solution {
 public:

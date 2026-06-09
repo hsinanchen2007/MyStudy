@@ -1,13 +1,13 @@
 
-# Python实现
+// # Python实现
 
-## 思考
+// ## 思考
 
-1. 暴力解法，三重循环O(N^3)
-1. 因为a+b+c=0，所以枚举完a和枚举完b之后，c=-(a+b)是否存在于数组中。把整个数组放入set中，查询只需要O(1)，枚举a和b是两层循环，去set查询-（a+b）是否存在，总共O(N^2)，需要额外的set所以空间时间复杂度是O(N)
+// 1. 暴力解法，三重循环O(N^3)
+// 1. 因为a+b+c=0，所以枚举完a和枚举完b之后，c=-(a+b)是否存在于数组中。把整个数组放入set中，查询只需要O(1)，枚举a和b是两层循环，去set查询-（a+b）是否存在，总共O(N^2)，需要额外的set所以空间时间复杂度是O(N)
 
-没有通过AC
-```python
+// 没有通过AC
+// ```python
 class Solution(object):
     def threeSum(self, nums):
         """
@@ -28,11 +28,11 @@ class Solution(object):
                 else:
                     res.add((v, -v-x, x))
         return map(list, res)
-```
+// ```
 
-3. 先排序再查找nlogn快排，第一层循环从起点位置开始枚举a，从剩余数组中查找b和c。因为先排序了，所以b和c可以向中间靠拢。如果a+b+c>0，则c从最右端向左移动一位。如果a+b+c<0，则b从最左端向右移动一位。看是否等于0的情况。因为b和c都是线性的往中间移动的，所以时间复杂度是O(N^2)。但是就地查找，没有新开辟set空间，所以空间复杂度是O(1)。
+// 3. 先排序再查找nlogn快排，第一层循环从起点位置开始枚举a，从剩余数组中查找b和c。因为先排序了，所以b和c可以向中间靠拢。如果a+b+c>0，则c从最右端向左移动一位。如果a+b+c<0，则b从最左端向右移动一位。看是否等于0的情况。因为b和c都是线性的往中间移动的，所以时间复杂度是O(N^2)。但是就地查找，没有新开辟set空间，所以空间复杂度是O(1)。
 
-```python
+// ```python
 class Solution(object):
     def threeSum(self, nums):
         """
@@ -58,11 +58,11 @@ class Solution(object):
                         r -=1
                     l+=1;r-=1
         return res
-```
+// ```
 
-# Go实现
+// # Go实现
 
-```go
+// ```go
 func threeSum(nums []int) [][]int {
     res := [][]int{}
     // 1. 排序
@@ -95,14 +95,14 @@ func threeSum(nums []int) [][]int {
     }
     return res
 }
-```
+// ```
 
 
-## 代码优化 
+// ## 代码优化 
 
-学习自[@aQuaYi](/u/aquayi)
+// 学习自[@aQuaYi](/u/aquayi)
 
-```go
+// ```go
 func threeSum(nums []int) [][]int {
         // 排序后，可以按规律查找
     sort.Ints(nums)
@@ -153,10 +153,10 @@ func next(nums []int, l, r int) (int, int) {
 
     return l, r
 }
-```
+// ```
 
-## 查找表实现
-```go
+// ## 查找表实现
+// ```go
 // Using Hash Table to store all the numbers
 // Time Complexity: O(n^2) Space Complexity: O(n)
 func threeSum(nums []int) [][]int {
@@ -191,10 +191,10 @@ func threeSum(nums []int) [][]int {
     }
     return res
 }
-```
+// ```
 
-## 双指针实现
-```go
+// ## 双指针实现
+// ```go
 // Using two pointers technique
 // Time Complexity: O(n^2) Space Complexity: O(n)
 func threeSum(nums []int) [][]int {
@@ -240,4 +240,4 @@ func pre_num_index(nums []int, cur int) int {
     }
     return -1
 }
-```
+// ```

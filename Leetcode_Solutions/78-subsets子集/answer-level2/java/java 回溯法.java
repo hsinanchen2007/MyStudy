@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/8bc4fbf2fa0287934394d4f63e535a66a563e06157f0c7a44f35bfda013ec91c-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/8bc4fbf2fa0287934394d4f63e535a66a563e06157f0c7a44f35bfda013ec91c-image.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> subsets(int[] nums) {
         
@@ -26,4 +26,4 @@ class Solution {
         }
     }
 }
-```
+// ```

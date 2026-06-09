@@ -1,7 +1,7 @@
 
-题目的核心是 “假设我们的环境只能存储 32 位大小的有符号整数” , 也就是说不能用 long 和 unsigned 
+// 题目的核心是 “假设我们的环境只能存储 32 位大小的有符号整数” , 也就是说不能用 long 和 unsigned 
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int myAtoi(string str) {
@@ -37,6 +37,6 @@ public:
         return sign * res;
     }
 };
-```
+// ```
 
-改成 C 语言把 `str.size()` 换成 `strlen` 就可以了
+// 改成 C 语言把 `str.size()` 换成 `strlen` 就可以了

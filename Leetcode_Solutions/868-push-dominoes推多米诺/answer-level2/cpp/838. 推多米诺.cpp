@@ -1,6 +1,6 @@
-![QQ图片20191125102637.png](https://pic.leetcode-cn.com/1d92ef014cb01ad7eb0fff50ce6cb238f330fccbf71e10e4ab3e1c3b61a6d400-QQ%E5%9B%BE%E7%89%8720191125102637.png)
+// ![QQ图片20191125102637.png](https://pic.leetcode-cn.com/1d92ef014cb01ad7eb0fff50ce6cb238f330fccbf71e10e4ab3e1c3b61a6d400-QQ%E5%9B%BE%E7%89%8720191125102637.png)
 
-```
+// ```
 class Solution {
 public:
     string pushDominoes(string dominoes) {
@@ -74,4 +74,4 @@ public:
         return res;
     }
 };
-```
+// ```

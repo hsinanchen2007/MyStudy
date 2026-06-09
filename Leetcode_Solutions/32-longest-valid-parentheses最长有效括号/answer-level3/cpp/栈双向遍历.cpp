@@ -1,9 +1,9 @@
-### 解题思路
-借助栈遍历一次字符串，对未能处理的收尾子字符串反向遍历
+// ### 解题思路
+// 借助栈遍历一次字符串，对未能处理的收尾子字符串反向遍历
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int longestValidParentheses(string s) {
@@ -50,4 +50,4 @@ public:
         return maxnum;
     }
 };
-```
+// ```

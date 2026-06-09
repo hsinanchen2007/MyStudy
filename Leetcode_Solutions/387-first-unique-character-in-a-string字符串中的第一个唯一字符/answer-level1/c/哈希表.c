@@ -1,8 +1,8 @@
-### 解题思路
-    哈希 ~ ~ ~
-### 代码
+// ### 解题思路
+//     哈希 ~ ~ ~
+// ### 代码
 
-```c
+// ```c
 int firstUniqChar(char * s){
     int map[128] = {0};
     int i,len = strlen(s);
@@ -12,4 +12,4 @@ int firstUniqChar(char * s){
             return i;
     return -1;
 }
-```
+// ```

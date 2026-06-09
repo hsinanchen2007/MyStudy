@@ -1,9 +1,9 @@
-### 解题思路
-觉得官方的有点麻烦，重新写了一下，还是调序之后在调回来。
+// ### 解题思路
+// 觉得官方的有点麻烦，重新写了一下，还是调序之后在调回来。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     List<List<Integer>> res = new LinkedList<>();
     public List<List<Integer>> permute(int[] nums) {
@@ -33,4 +33,4 @@ class Solution {
         nums[i] = temp;
     }
 }
-```
+// ```

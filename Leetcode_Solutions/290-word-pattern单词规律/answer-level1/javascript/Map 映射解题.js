@@ -1,8 +1,8 @@
-思路:
+// 思路:
 
-使用 patternMap 与 strArrMap 分别存储 `pattern => strArrMap` 与 `strArrMap => pattern` 的映射, 当存在一对多映射的情况时, 则它们非完全匹配, 否则是完全匹配的。
+// 使用 patternMap 与 strArrMap 分别存储 `pattern => strArrMap` 与 `strArrMap => pattern` 的映射, 当存在一对多映射的情况时, 则它们非完全匹配, 否则是完全匹配的。
 
-```js
+// ```js
 /**
  * @param {string} pattern
  * @param {string} str
@@ -33,10 +33,10 @@ var wordPattern = function(pattern, str) {
 
   return true
 };
-```
+// ```
 
-### 相关题目
+// ### 相关题目
 
-202、205、242、349、350、451
+// 202、205、242、349、350、451
 
-> [JS 题解](https://github.com/MuYunyun/blog/blob/master/BasicSkill/LeetCode/README.md)
+// > [JS 题解](https://github.com/MuYunyun/blog/blob/master/BasicSkill/LeetCode/README.md)

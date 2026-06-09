@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/c15d7c4dad06e594b0102d1ef6333f26390db1e281593c2ce598be64cbebb405-image.png)
-计算的模式没变，但是优化后不使用StringBuilder，考虑转char数组然后用其中长的一个保存求和结果，只在最后返回的时候new出最终的串；
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/c15d7c4dad06e594b0102d1ef6333f26390db1e281593c2ce598be64cbebb405-image.png)
+// 计算的模式没变，但是优化后不使用StringBuilder，考虑转char数组然后用其中长的一个保存求和结果，只在最后返回的时候new出最终的串；
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String addStrings(String num1, String num2) {
 		num1 = num1 == null ? "0" : num1;
@@ -57,4 +57,4 @@ class Solution {
 		return carry ? "1" + new String(cs2) : new String(cs2); 
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-投票算法，实现很简单
+// ### 解题思路
+// 投票算法，实现很简单
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int majorityElement(int* nums, int numsSize) {
     int i;
     int num;
@@ -27,4 +27,4 @@ int majorityElement(int* nums, int numsSize) {
 
     return num;
 }
-```
+// ```

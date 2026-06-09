@@ -1,5 +1,5 @@
-倒序找峰值、谷值，每一个新的峰值诞生，之前的则为最大差值；个人觉得比正序找谷峰值少一些判断
-```
+// 倒序找峰值、谷值，每一个新的峰值诞生，之前的则为最大差值；个人觉得比正序找谷峰值少一些判断
+// ```
 // 72ms 35.8mb
 var maxProfit = function(prices) {
     let len = prices.length
@@ -18,4 +18,4 @@ var maxProfit = function(prices) {
     }
     return res += (maxPrice - minPrice)
 };
-```
+// ```

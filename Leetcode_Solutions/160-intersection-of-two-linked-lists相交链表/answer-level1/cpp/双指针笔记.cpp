@@ -1,13 +1,13 @@
-### 解题思路
-看过一次，还是忘记了双指针的用法。此处做笔记：
-A->B = a->c->b->c
-B->A = b->c->a->c
+// ### 解题思路
+// 看过一次，还是忘记了双指针的用法。此处做笔记：
+// A->B = a->c->b->c
+// B->A = b->c->a->c
 
-len(a->c->b) = len(b->c->a)
+// len(a->c->b) = len(b->c->a)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -39,4 +39,4 @@ public:
         return a;
     }
 };
-```
+// ```

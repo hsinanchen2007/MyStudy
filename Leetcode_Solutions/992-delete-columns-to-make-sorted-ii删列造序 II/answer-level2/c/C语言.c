@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int IsWordsOrder(char ** A, int ASize)
 {
     for (int i = 0; i < ASize - 1; i++) {
@@ -90,4 +90,4 @@ int minDeletionSize(char ** A, int ASize)
 
     return ans;
 }
-```
+// ```

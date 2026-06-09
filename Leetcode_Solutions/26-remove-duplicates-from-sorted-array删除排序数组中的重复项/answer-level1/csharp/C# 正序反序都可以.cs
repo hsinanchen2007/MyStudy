@@ -1,8 +1,8 @@
-### 解题思路
-就是定义一个变量来当做下标，修改nums的值即可，最后返回下标加一
-### 代码
+// ### 解题思路
+// 就是定义一个变量来当做下标，修改nums的值即可，最后返回下标加一
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int RemoveDuplicates(int[] nums) {
          if (nums.Length == 0) return 0;
@@ -26,4 +26,4 @@ public class Solution {
             return index + 1;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-注意可能有多个R的情况
+// ### 解题思路
+// 注意可能有多个R的情况
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct il{
     int x;
     int y;
@@ -47,4 +47,4 @@ int numRookCaptures(char** board, int boardSize, int* boardColSize){
     }
     return ans;
 }
-```
+// ```

@@ -1,16 +1,16 @@
-![image.png](https://pic.leetcode-cn.com/3245d242e58494db6fc4b545a4862af35c6a461f7a7877f6c7d5efac3899cc14-image.png)
+// ![image.png](https://pic.leetcode-cn.com/3245d242e58494db6fc4b545a4862af35c6a461f7a7877f6c7d5efac3899cc14-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
 考点：反向的中序遍历
 中序遍历：左 -> 根 -> 右
 这题我们采用 右 -> 根 -> 左 的顺序，遍历的过程中累加起来即可
 因为二叉搜索树的特点是：右节点值 > 根节点 > 左节点
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -39,4 +39,4 @@ var convertBST = function(root) {
   
   return root;
 };
-```
+// ```

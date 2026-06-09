@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 uint32_t reverseBits(uint32_t n) {
     int x = 0 , i = 0 ,a[32] ;
     for( i = 0 ;i < 32 ;i++)
@@ -17,4 +17,4 @@ uint32_t reverseBits(uint32_t n) {
     }
     return x ;
 }
-```
+// ```

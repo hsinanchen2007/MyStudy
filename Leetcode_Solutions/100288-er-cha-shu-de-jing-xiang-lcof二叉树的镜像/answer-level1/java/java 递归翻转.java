@@ -1,4 +1,4 @@
-```
+// ```
     public TreeNode mirrorTree(TreeNode root) {
         if (root == null) {
             return null;
@@ -8,4 +8,4 @@
         root.right = mirrorTree(node);
         return root;
     }
-```
+// ```

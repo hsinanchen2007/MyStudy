@@ -1,4 +1,4 @@
-````
+// ````
 int lengthOfLongestSubstring(char * s){
     int prior = 0; //上次状态下最长子串的长度
     int left = 0;
@@ -20,4 +20,4 @@ int lengthOfLongestSubstring(char * s){
     return prior;
 }
 
-```
+// ```

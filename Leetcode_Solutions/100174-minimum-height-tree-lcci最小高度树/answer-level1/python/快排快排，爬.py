@@ -1,6 +1,6 @@
 
-### 代码
-```python
+# ### 代码
+# ```python
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -15,4 +15,4 @@ class Solution:
         res.left = self.sortedArrayToBST(nums[:mid])
         res.right = self.sortedArrayToBST(nums[mid+1:])
         return res
-```
+# ```

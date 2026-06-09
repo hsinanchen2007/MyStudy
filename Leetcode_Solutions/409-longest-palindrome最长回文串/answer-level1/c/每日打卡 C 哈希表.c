@@ -1,10 +1,10 @@
-### 解题思路
-找到字符串中从A到z的个数并记录到哈希表中，再读取哈希表，count=所有元素个数中的可以组成偶数+1
-比如 a3 b5 c2 则count= 2+ 4 +2 +flag(1)=9
+// ### 解题思路
+// 找到字符串中从A到z的个数并记录到哈希表中，再读取哈希表，count=所有元素个数中的可以组成偶数+1
+// 比如 a3 b5 c2 则count= 2+ 4 +2 +flag(1)=9
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int longestPalindrome(char * s)
 {
     int len_str = strlen(s);
@@ -29,4 +29,4 @@ int longestPalindrome(char * s)
     return count + flag;
 
 }
-```
+// ```

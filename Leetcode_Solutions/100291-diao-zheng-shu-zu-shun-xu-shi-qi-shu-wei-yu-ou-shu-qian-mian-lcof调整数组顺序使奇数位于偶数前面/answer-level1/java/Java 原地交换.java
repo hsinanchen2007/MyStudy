@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] exchange(int[] nums){
 
@@ -22,6 +22,6 @@ class Solution {
     }
     
 }
-```
-执行用时 :2 ms, 在所有 Java 提交中击败了100.00% 的用户
-内存消耗 :49.4 MB, 在所有 Java 提交中击败了100.00%的用户
+// ```
+// 执行用时 :2 ms, 在所有 Java 提交中击败了100.00% 的用户
+// 内存消耗 :49.4 MB, 在所有 Java 提交中击败了100.00%的用户

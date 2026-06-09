@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def rob(self, nums):
         """
@@ -42,6 +42,6 @@ class Solution(object):
         count1 = max(steal0, steal1)
 
         return max(count0, count1)
-```
+# ```
 
-![image.png](https://pic.leetcode-cn.com/ba6345b66e7b8a4109829599b0208854602a45163b6d488e8ac1af71d343f6e8-image.png)
+# ![image.png](https://pic.leetcode-cn.com/ba6345b66e7b8a4109829599b0208854602a45163b6d488e8ac1af71d343f6e8-image.png)

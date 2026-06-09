@@ -1,10 +1,10 @@
-### 解题思路
-1、找到离海洋最近的陆地路径
-2、找出步骤1中的最大值
+// ### 解题思路
+// 1、找到离海洋最近的陆地路径
+// 2、找出步骤1中的最大值
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func maxDistance(grid [][]int) int {
     sea, land := make(map[int][]int), make(map[int][]int)
 
@@ -44,4 +44,4 @@ func abs(a, b int) int {
     }
     return b - a
 }
-```
+// ```

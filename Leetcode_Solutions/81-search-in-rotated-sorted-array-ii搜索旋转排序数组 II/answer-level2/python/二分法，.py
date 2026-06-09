@@ -1,6 +1,6 @@
-要把边界处理的很清楚，否则很难理解
+# 要把边界处理的很清楚，否则很难理解
 
-```py
+# ```py
 class Solution:
     def search(self, nums, target):
         lb, ub = 0, len(nums) - 1
@@ -27,4 +27,4 @@ class Solution:
                     ub = mid - 1
 
         return False
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * reverseWords(char * s){
     int len=strlen(s);
     int i=0,j=0;
@@ -24,4 +24,4 @@ char * reverseWords(char * s){
     }
     return s;
 }
-```
+// ```

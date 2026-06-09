@@ -1,4 +1,4 @@
-```ruby
+// ```ruby
 import scala.collection.mutable
 object Solution {
  def minStickers(stickers: Array[String], target: String): Int = {
@@ -46,4 +46,4 @@ object Solution {
   }
 
 }
-```
+// ```

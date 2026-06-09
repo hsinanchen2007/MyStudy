@@ -1,5 +1,5 @@
-- 求和相减
-```java
+// - 求和相减
+// ```java
 class Solution {
     public int missingNumber(int[] nums) {
         int sum = 0;
@@ -9,9 +9,9 @@ class Solution {
         return sum + nums.length;
     }
 }
-```
-- 数学公式
-```java
+// ```
+// - 数学公式
+// ```java
 class Solution {
     public int missingNumber(int[] nums) {
         int sum = 0;
@@ -21,9 +21,9 @@ class Solution {
         return (nums.length*(nums.length+1))/2 - sum;
     }
 }
-```
-异或
-```java
+// ```
+// 异或
+// ```java
 class Solution {
     public int missingNumber(int[] nums) {
         int sum = 0;
@@ -33,4 +33,4 @@ class Solution {
         return sum ^ nums.length;
     }
 }
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-使用cur指针指向当前头结点
-使用pre指针指向当前头结点的前一个节点
-将cur.next置为pre然后将pre和cur都向后移动直到cur为None循环结束
-```
+# ### 解题思路
+# 使用cur指针指向当前头结点
+# 使用pre指针指向当前头结点的前一个节点
+# 将cur.next置为pre然后将pre和cur都向后移动直到cur为None循环结束
+# ```
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -20,4 +20,4 @@ class Solution:
             pre = cur
             cur = temp
         return pre
-```
+# ```

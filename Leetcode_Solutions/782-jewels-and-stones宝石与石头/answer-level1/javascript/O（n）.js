@@ -1,9 +1,9 @@
-### 解题思路
-javascript
+// ### 解题思路
+// javascript
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} J
  * @param {string} S
@@ -16,4 +16,4 @@ var numJewelsInStones = function(J, S) {
     }
     return ans
 };
-```
+// ```

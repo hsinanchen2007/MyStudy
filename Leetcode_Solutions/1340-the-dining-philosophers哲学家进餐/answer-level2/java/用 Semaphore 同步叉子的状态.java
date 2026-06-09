@@ -1,24 +1,24 @@
-### 解题思路
+// ### 解题思路
 
-1. 用 Semaphore 同步叉子的状态, 只要当前叉子没有被占用就允许被其他哲学家拿起
-2. 让一部分人先拿左边的叉子, 另一部分人先拿右边的叉子, 避免死锁 (所有哲学家都拿起左边的叉子等待右边的叉子)
+// 1. 用 Semaphore 同步叉子的状态, 只要当前叉子没有被占用就允许被其他哲学家拿起
+// 2. 让一部分人先拿左边的叉子, 另一部分人先拿右边的叉子, 避免死锁 (所有哲学家都拿起左边的叉子等待右边的叉子)
 
-<br>
+// <br>
 
-**但是, 我觉得官方的Java测试用例好像有点问题**
+// **但是, 我觉得官方的Java测试用例好像有点问题**
 
-当发生如下场景: `哲学家1拿起左边的叉子, 而其右边的叉子被旁边的哲学家2拿起` 时, 官方的测试用例可能会不通过.
+// 当发生如下场景: `哲学家1拿起左边的叉子, 而其右边的叉子被旁边的哲学家2拿起` 时, 官方的测试用例可能会不通过.
 
-但根据题目描述, 这种情况(即不保证一个哲学家拿起两把叉子的原子性)应该是允许发生的. 
+// 但根据题目描述, 这种情况(即不保证一个哲学家拿起两把叉子的原子性)应该是允许发生的. 
 
-在修改后的版本A代码中我避免了这种情况的发生, 才最终得以通过测试.
+// 在修改后的版本A代码中我避免了这种情况的发生, 才最终得以通过测试.
 
-原本的实现代码(版本B)和我自己的测试用例也附在本题解的末尾.
+// 原本的实现代码(版本B)和我自己的测试用例也附在本题解的末尾.
 
 
-### 版本A
+// ### 版本A
 
-```java
+// ```java
 class DiningPhilosophers {
 
     private volatile Semaphore[] forks = new Semaphore[]{
@@ -64,13 +64,13 @@ class DiningPhilosophers {
         forks[rightForkNo].release();
     }
 }
-```
+// ```
 
 
 
-### 版本B
+// ### 版本B
 
-```java
+// ```java
 class DiningPhilosophers {
 
     private volatile Semaphore[] forks = new Semaphore[]{
@@ -119,12 +119,12 @@ class DiningPhilosophers {
         forks[rightForkNo].release();
     }
 }
-```
+// ```
 
 
-### 测试用例
+// ### 测试用例
 
-```java
+// ```java
 public class DiningPhilosophersTest {
 
     @Rule
@@ -202,4 +202,4 @@ public class DiningPhilosophersTest {
     }
 
 }
-```
+// ```

@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/212cfc51e00205c3f1d1706ad847043187476b2ecebe5a11f57484e42c608284-image.png)
+// ![image.png](https://pic.leetcode-cn.com/212cfc51e00205c3f1d1706ad847043187476b2ecebe5a11f57484e42c608284-image.png)
 
-```
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -32,4 +32,4 @@ while(p)
 }
 return L->next;
 }
-```
+// ```

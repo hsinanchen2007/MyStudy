@@ -1,4 +1,4 @@
-```
+// ```
 func addToArrayForm(A []int, K int) []int {
 	llen := len(A)
 	A[llen-1] += K
@@ -20,6 +20,6 @@ func addToArrayForm(A []int, K int) []int {
 	result = append(result,A...)
 	return result
 }
-```
+// ```
 
-如有不对请批评改正
+// 如有不对请批评改正

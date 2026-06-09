@@ -1,9 +1,9 @@
-### 解题思路
-看了甜姨的思路，写了python3代码，具体写在注释
+# ### 解题思路
+# 看了甜姨的思路，写了python3代码，具体写在注释
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def surfaceArea(self, grid: List[List[int]]) -> int:
         res = 0 # 总表面积
@@ -19,4 +19,4 @@ class Solution:
                     res -= min(grid[i][j-1],grid[i][j])*2 if j-1>=0 else 0
         return res 
                 
-```
+# ```

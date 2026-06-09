@@ -1,7 +1,7 @@
-### 解题思路
-第一次来力扣，有点不适应
+// ### 解题思路
+// 第一次来力扣，有点不适应
 
-```
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -27,4 +27,4 @@ public:
         return cur->next;
     }
 };
-```
+// ```

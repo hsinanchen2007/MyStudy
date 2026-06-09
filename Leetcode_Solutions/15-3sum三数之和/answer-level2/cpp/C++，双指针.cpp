@@ -1,11 +1,11 @@
-### 题解
-1.第一个数遍历
-2.后两个用左右指针
-3.注意不重复的判断：i>0且不与前一个相等/left>i+1且.../right<size-1且...
+// ### 题解
+// 1.第一个数遍历
+// 2.后两个用左右指针
+// 3.注意不重复的判断：i>0且不与前一个相等/left>i+1且.../right<size-1且...
 
-### 代码
+// ### 代码
 
-```
+// ```
 class Solution {
 public:
     vector<vector<int>> fourSum(vector<int>& nums, int target) {
@@ -40,4 +40,4 @@ public:
         return res;
     }
 };
-```
+// ```

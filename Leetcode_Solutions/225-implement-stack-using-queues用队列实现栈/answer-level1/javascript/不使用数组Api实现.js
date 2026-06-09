@@ -1,9 +1,9 @@
-### 解题思路
-不使用数组Api实现
+// ### 解题思路
+// 不使用数组Api实现
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Initialize your data structure here.
  */
@@ -55,4 +55,4 @@ MyStack.prototype.empty = function() {
  * var param_3 = obj.top()
  * var param_4 = obj.empty()
  */
-```
+// ```

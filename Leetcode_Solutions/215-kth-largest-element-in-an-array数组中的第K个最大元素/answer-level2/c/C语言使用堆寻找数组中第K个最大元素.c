@@ -1,5 +1,5 @@
-主要思路：从数组中选出k个最大的数，建立一个含有k个元素的堆，堆顶保存其中的最小值
-```
+// 主要思路：从数组中选出k个最大的数，建立一个含有k个元素的堆，堆顶保存其中的最小值
+// ```
 int findKthLargest(int* nums, int numsSize, int k){
     int heap[k];
     int ipos, ppos, lpos, rpos, mpos, temp;
@@ -55,4 +55,4 @@ int findKthLargest(int* nums, int numsSize, int k){
 
     return heap[0];
 }
-```
+// ```

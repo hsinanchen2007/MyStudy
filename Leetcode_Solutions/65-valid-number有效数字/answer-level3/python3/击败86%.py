@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def isNumber(self, s: str) -> bool:
         s1 = s.strip()
@@ -19,4 +19,4 @@ class Solution:
             except ValueError:
                 return(False)
         
-```
+# ```

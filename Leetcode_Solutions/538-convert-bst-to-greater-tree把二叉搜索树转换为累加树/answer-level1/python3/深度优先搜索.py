@@ -1,6 +1,6 @@
-先遍历右子树，储存根节点，再遍历左子树：
+# 先遍历右子树，储存根节点，再遍历左子树：
 
-```python []
+# ```python []
 class Solution:
     def convertBST(self, root: TreeNode) -> TreeNode:
         self.num = 0
@@ -16,5 +16,5 @@ class Solution:
         return depthfirstsearch(root)
 
 
-```
+# ```
 

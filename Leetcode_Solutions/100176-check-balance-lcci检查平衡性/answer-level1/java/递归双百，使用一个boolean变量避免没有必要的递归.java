@@ -1,10 +1,10 @@
-### 解题思路
-屏幕快照 2020-02-17 下午5.04.37
-![image.png](https://pic.leetcode-cn.com/6f7542bb30635c5c88e1247b54cf8bb4f19f47e3a5edef08d5bf7cbccc01a8e6-image.png)
+// ### 解题思路
+// 屏幕快照 2020-02-17 下午5.04.37
+// ![image.png](https://pic.leetcode-cn.com/6f7542bb30635c5c88e1247b54cf8bb4f19f47e3a5edef08d5bf7cbccc01a8e6-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -41,4 +41,4 @@ class Solution {
         return Math.max(left,rignt)+1;
     }
 }
-```
+// ```

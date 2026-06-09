@@ -1,5 +1,5 @@
-根据官方题解的思路写的
-```
+// 根据官方题解的思路写的
+// ```
 class Solution {
     public int orangesRotting(int[][] grid) {
         //辅助变量
@@ -44,4 +44,4 @@ class Solution {
         return time;
     }
 }
-```
+// ```

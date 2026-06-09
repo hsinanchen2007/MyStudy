@@ -1,9 +1,9 @@
-### 解题思路
-构建另一个函数，分别判断左子树和右子树，如果都为None，那么就是True，如果存在，判断当前左右节点的值是否相等并递归下去。
+# ### 解题思路
+# 构建另一个函数，分别判断左子树和右子树，如果都为None，那么就是True，如果存在，判断当前左右节点的值是否相等并递归下去。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -25,4 +25,4 @@ class Solution:
             return True
         return self.Symmetric(root.left,root.right)
 
-```
+# ```

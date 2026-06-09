@@ -1,6 +1,6 @@
-用快速排序法思想选第K大数，划分函数（左边比pivot处大，右边比其小）用来找到指定范围内pivot处元素（在这个范围）的位置，然后在初始数据选一个数，如果划分函数找到位置=K-1，找到，大于K，小于K再在相应范围里递归地找。
+# 用快速排序法思想选第K大数，划分函数（左边比pivot处大，右边比其小）用来找到指定范围内pivot处元素（在这个范围）的位置，然后在初始数据选一个数，如果划分函数找到位置=K-1，找到，大于K，小于K再在相应范围里递归地找。
 
-```python
+# ```python
 from random import randint
 class Solution(object):
     def findKthLargest(self, nums, k):
@@ -34,6 +34,6 @@ class Solution(object):
             
         return  select(0,len(nums)-1,k-1)           #heapq.nlargest(k, nums)[-1]
 
-```
+# ```
 
 

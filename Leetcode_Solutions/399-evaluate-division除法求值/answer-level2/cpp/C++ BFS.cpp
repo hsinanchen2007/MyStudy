@@ -1,5 +1,5 @@
-简简单单bfs，注释详细代码整洁
-```
+// 简简单单bfs，注释详细代码整洁
+// ```
 class Solution {
 public:
     vector<double> calcEquation(vector<vector<string>>& equations, vector<double>& values, vector<vector<string>>& queries) {
@@ -78,4 +78,4 @@ public:
         return -1.0;
     }
 };
-```
+// ```

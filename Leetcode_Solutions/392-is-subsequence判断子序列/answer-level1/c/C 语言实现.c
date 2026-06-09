@@ -1,5 +1,5 @@
-C 语言实现
-```C []
+// C 语言实现
+// ```C []
 bool isSubsequence(char * s, char * t){
     while (*t) {
         if (0 == *s)
@@ -12,4 +12,4 @@ bool isSubsequence(char * s, char * t){
     }
     return 0 == *s;
 }
-```
+// ```

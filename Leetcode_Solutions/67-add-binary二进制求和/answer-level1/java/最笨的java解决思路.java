@@ -1,5 +1,5 @@
-### 代码
-```java
+// ### 代码
+// ```java
 class Solution {
     public static String addBinary(String a, String b) {
 		int aL = a.length();
@@ -93,4 +93,4 @@ class Solution {
         return list.isEmpty() ? "" : sb.toString().substring(0, sb.toString().length());
     }
 }
-```
+// ```

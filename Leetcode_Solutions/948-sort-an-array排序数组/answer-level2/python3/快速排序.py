@@ -1,7 +1,7 @@
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def sortArray(self, nums: List[int]) -> List[int]:
         # 锻炼一下自己的快速排序
@@ -19,4 +19,4 @@ class Solution:
 
             
         
-```
+# ```

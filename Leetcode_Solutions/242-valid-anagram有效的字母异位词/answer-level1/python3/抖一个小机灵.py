@@ -1,6 +1,6 @@
-抖一个小机灵
-元素和次数分别放在字典里面 然后对字典item的集合做异或 不为空说明俩字符串不全一样
-```
+# 抖一个小机灵
+# 元素和次数分别放在字典里面 然后对字典item的集合做异或 不为空说明俩字符串不全一样
+# ```
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         if len(s) !=len(t):
@@ -15,4 +15,4 @@ class Solution:
             dic2[i]=t.count(i)
         res=set(dic1.items())^set(dic2.items())
         return len(list(res))==0
-```
+# ```

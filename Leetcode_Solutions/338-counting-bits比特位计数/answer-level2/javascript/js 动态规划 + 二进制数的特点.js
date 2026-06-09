@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/4847c5bf36f330536e3247a0f854150cd7e901b7a00f365f6f8bede8c9e26964-image.png)
+// ![image.png](https://pic.leetcode-cn.com/4847c5bf36f330536e3247a0f854150cd7e901b7a00f365f6f8bede8c9e26964-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
   动态规划，参考作者「duadua」
   
   二进制数的特点：
@@ -11,11 +11,11 @@
   所以对于奇数和偶数的动态转移方程：
   dp[odd] = dp[odd - 1] + 1
   dp[even] = dp[even / 2]
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} num
  * @return {number[]}
@@ -36,4 +36,4 @@ var countBits = function(num) {
   
   return dp;
 };
-```
+// ```

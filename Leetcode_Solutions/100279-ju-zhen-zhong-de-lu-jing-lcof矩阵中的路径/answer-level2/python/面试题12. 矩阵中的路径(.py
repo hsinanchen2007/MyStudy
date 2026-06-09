@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:
         # 回溯法,跟递归类似
@@ -28,4 +28,4 @@ class Solution:
                     return True
         return False
 
-```
+# ```

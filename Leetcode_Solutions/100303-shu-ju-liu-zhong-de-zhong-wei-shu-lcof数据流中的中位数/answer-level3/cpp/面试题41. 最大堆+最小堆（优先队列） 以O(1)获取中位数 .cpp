@@ -1,5 +1,5 @@
-优先队列，top()获得队列头（堆顶）
-```cpp
+// 优先队列，top()获得队列头（堆顶）
+// ```cpp
 class MedianFinder {
 
 private:
@@ -49,4 +49,4 @@ public:
  * obj->addNum(num);
  * double param_2 = obj->findMedian();
  */
-```
+// ```

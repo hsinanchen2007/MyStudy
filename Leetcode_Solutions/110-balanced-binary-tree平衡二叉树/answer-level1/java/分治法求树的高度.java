@@ -1,5 +1,5 @@
-采用分治法思想求左右子树的高度，判断子数是否满足平衡二叉树。
-```java
+// 采用分治法思想求左右子树的高度，判断子数是否满足平衡二叉树。
+// ```java
 class Solution {
     private  boolean flag = true;
     public boolean isBalanced(TreeNode root) {
@@ -14,4 +14,4 @@ class Solution {
         return Math.max(leftHigh,rightHigh)+1;
     }
 }
-```
+// ```

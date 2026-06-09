@@ -1,9 +1,9 @@
-### 解题思路
-闭着眼睛写
+// ### 解题思路
+// 闭着眼睛写
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int fib(int N) {
@@ -23,4 +23,4 @@ public:
         return res;
     }
 };
-```
+// ```

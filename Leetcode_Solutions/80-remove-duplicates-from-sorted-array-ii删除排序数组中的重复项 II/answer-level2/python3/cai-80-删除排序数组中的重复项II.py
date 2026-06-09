@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
         p, r, n = 0, 1, len(nums)
@@ -19,4 +19,4 @@ class Solution:
                 f = 0
             r += 1
         return p+1
-```
+# ```

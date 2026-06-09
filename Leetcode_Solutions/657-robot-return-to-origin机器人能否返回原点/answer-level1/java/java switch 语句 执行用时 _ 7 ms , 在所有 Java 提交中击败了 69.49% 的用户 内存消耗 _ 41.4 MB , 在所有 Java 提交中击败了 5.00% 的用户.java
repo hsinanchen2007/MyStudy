@@ -1,9 +1,9 @@
-### 解题思路
-计算UDLR的个数，判断ucount==dcount 和 lcount==rcount 是否相等，只要有一个不相等就返回false
+// ### 解题思路
+// 计算UDLR的个数，判断ucount==dcount 和 lcount==rcount 是否相等，只要有一个不相等就返回false
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean judgeCircle(String moves) {
         int ucount = 0,dcount = 0,lcount = 0,rcount =0;
@@ -21,4 +21,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

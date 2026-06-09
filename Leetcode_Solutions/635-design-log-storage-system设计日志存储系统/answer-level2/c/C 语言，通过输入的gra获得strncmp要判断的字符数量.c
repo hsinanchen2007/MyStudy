@@ -1,4 +1,4 @@
-```
+// ```
 typedef struct log_system {
     int id;
     char timestamp[20];
@@ -80,4 +80,4 @@ void logSystemFree(LogSystem* obj) {
  
  * logSystemFree(obj);
 */
-```
+// ```

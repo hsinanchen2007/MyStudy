@@ -1,15 +1,15 @@
-### 解题思路
-这是最原始的方法，但是这种方法是可以很好的优化的：（参考[接雨水 方法2](https://leetcode-cn.com/problems/trapping-rain-water/solution/jie-yu-shui-by-leetcode/)）
-**lh[i]是lh[i-1]和当前的height[i]的最大值**，这也算是动态规划的思想了，很妙啊我这么没想到！
-于是可以用数组来记录每一个lh[i]和rh[i]。
-但是这种方式虽然降低了时间复杂度(O(n^2->O(n)))，却增加了空间复杂度(O(1)->O(n))
+// ### 解题思路
+// 这是最原始的方法，但是这种方法是可以很好的优化的：（参考[接雨水 方法2](https://leetcode-cn.com/problems/trapping-rain-water/solution/jie-yu-shui-by-leetcode/)）
+// **lh[i]是lh[i-1]和当前的height[i]的最大值**，这也算是动态规划的思想了，很妙啊我这么没想到！
+// 于是可以用数组来记录每一个lh[i]和rh[i]。
+// 但是这种方式虽然降低了时间复杂度(O(n^2->O(n)))，却增加了空间复杂度(O(1)->O(n))
 
-接下来应该学习一下[接雨水](https://leetcode-cn.com/problems/trapping-rain-water/solution/jie-yu-shui-by-leetcode/)中的另外两中方法。
+// 接下来应该学习一下[接雨水](https://leetcode-cn.com/problems/trapping-rain-water/solution/jie-yu-shui-by-leetcode/)中的另外两中方法。
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int trap(int* height, int heightSize){
     int i;
     int j,k;
@@ -37,4 +37,4 @@ int trap(int* height, int heightSize){
     
     return count;
 }
-```
+// ```

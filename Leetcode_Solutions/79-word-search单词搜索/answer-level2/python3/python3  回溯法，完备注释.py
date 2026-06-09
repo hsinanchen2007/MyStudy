@@ -1,5 +1,5 @@
-使用回溯法进行求解。
-```
+# 使用回溯法进行求解。
+# ```
 class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:
         # 进行搜索与回溯，递归判断每一个位置的附近是否能被搜索（上下左右是否越界，是否被使用过，是否和接下来需要匹配的word中元素吻合）。used数组用于辅助记录，哪些位置的元素已经被使用过
@@ -51,4 +51,4 @@ class Solution:
 
         return False
 
-```
+# ```

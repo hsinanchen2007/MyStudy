@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-原地建表
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 原地建表
+// ### 代码
 
-```c
+// ```c
 int removeElement(int* nums, int numsSize, int val){
      int i=0,len=-1;
      if(numsSize!=0){
@@ -15,4 +15,4 @@ int removeElement(int* nums, int numsSize, int val){
      len++;
      return len;
 }
-```
+// ```

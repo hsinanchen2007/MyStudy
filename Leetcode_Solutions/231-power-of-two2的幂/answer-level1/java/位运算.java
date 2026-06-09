@@ -1,8 +1,8 @@
-### 解题思路
-很菜的位运算解法
-### 代码
+// ### 解题思路
+// 很菜的位运算解法
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isPowerOfTwo(int n) {
         int mask=1;
@@ -15,4 +15,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

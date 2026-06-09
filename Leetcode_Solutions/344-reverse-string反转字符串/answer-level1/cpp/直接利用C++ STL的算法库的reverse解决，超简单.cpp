@@ -1,4 +1,4 @@
-```
+// ```
 #include <algorithm>
 #include <iostream>
 using namespace std;
@@ -8,4 +8,4 @@ public:
         reverse(s.begin(), s.end());
     }
 };
-```
+// ```

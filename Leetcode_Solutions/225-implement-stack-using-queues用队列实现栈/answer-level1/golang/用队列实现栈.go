@@ -1,9 +1,9 @@
-### 解题思路
-使用两个切片
+// ### 解题思路
+// 使用两个切片
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 type MyStack struct {
 	slice1 []int
@@ -76,4 +76,4 @@ func (s *MyStack) Empty() bool {
 	return len(s.slice1) == 0 && len(s.slice2) == 0
 }
 
-```
+// ```

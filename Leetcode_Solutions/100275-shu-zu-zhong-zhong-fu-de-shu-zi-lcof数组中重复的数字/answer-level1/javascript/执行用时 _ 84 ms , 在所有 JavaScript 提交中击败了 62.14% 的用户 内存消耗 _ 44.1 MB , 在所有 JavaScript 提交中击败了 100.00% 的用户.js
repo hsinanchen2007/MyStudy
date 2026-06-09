@@ -1,4 +1,4 @@
-```
+// ```
 var findRepeatNumber = function (nums) {
     let map = new Map(), ans
 
@@ -12,4 +12,4 @@ var findRepeatNumber = function (nums) {
     }
     return ans
 };
-```
+// ```

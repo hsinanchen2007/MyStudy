@@ -1,12 +1,12 @@
-### 解题思路
-时间复杂度O(m+n)，空间复杂度O(1)
+// ### 解题思路
+// 时间复杂度O(m+n)，空间复杂度O(1)
 
-执行用时 :4 ms, 在所有 Go 提交中击败了69.55% 的用户
-内存消耗 :2.5 MB, 在所有 Go 提交中击败了100.00%的用户
+// 执行用时 :4 ms, 在所有 Go 提交中击败了69.55% 的用户
+// 内存消耗 :2.5 MB, 在所有 Go 提交中击败了100.00%的用户
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -35,4 +35,4 @@ func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
 	}
 	return head.Next
 }
-```
+// ```

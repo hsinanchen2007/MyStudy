@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -23,4 +23,4 @@ class Solution {
         return 1 + Math.min(minDepth(root.left), minDepth(root.right));
     }
 }
-```
+// ```

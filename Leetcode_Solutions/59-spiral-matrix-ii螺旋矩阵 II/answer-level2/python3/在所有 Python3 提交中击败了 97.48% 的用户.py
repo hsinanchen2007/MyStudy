@@ -1,9 +1,9 @@
-### 解题思路
-一圈一圈的来
+# ### 解题思路
+# 一圈一圈的来
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def generateMatrix(self, n: int) -> List[List[int]]:
         res = [[0 for x in range(n)] for i in range(n) ]
@@ -52,4 +52,4 @@ class Solution:
 
 
 
-```
+# ```

@@ -1,15 +1,15 @@
-### 解题思路
-在102的基础上加上一个逆置列表的操作。
-其实还可以在
-if(node.left != null)
-    nodes.add(node.left);
-if(node.right != null)
-    nodes.add(node.right);
-这里反过来添加，先加right，在加left。
+// ### 解题思路
+// 在102的基础上加上一个逆置列表的操作。
+// 其实还可以在
+// if(node.left != null)
+//     nodes.add(node.left);
+// if(node.right != null)
+//     nodes.add(node.right);
+// 这里反过来添加，先加right，在加left。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -58,4 +58,4 @@ class Solution {
         return lists;
     }
 }
-```
+// ```

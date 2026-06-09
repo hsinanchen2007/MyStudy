@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def generate(self, numRows: int) -> List[List[int]]:
         ret = []
@@ -10,4 +10,4 @@ class Solution:
                 else:
                     ret[i].append(ret[i - 1][j - 1] + ret[i - 1][j])
         return ret
-```
+# ```

@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution(object):
     def rotate(self, matrix):
         N = len(matrix)
@@ -11,4 +11,4 @@ class Solution(object):
                     matrix[i_new][j_new] = tmp1
                     tmp1 = tmp2
                     i, j = i_new, j_new
-```
+# ```

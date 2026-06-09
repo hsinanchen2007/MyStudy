@@ -1,4 +1,4 @@
-```
+// ```
     public  int climbStairs(int n) {
         int sum1 = 0;
         int sum2 = 1;
@@ -9,4 +9,4 @@
         }
         return sum1 + sum2;
     }
-```
+// ```

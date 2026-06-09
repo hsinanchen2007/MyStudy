@@ -1,10 +1,10 @@
-### 解题思路
-用一个队列保存待处理层的节点，在处理完一层之后，就增加一个结果
-![image.png](https://pic.leetcode-cn.com/2d89c74554bb15913ca04aa1bfc28c4b7b3d520fc5302c24caaf5ffa0bfac355-image.png)
+// ### 解题思路
+// 用一个队列保存待处理层的节点，在处理完一层之后，就增加一个结果
+// ![image.png](https://pic.leetcode-cn.com/2d89c74554bb15913ca04aa1bfc28c4b7b3d520fc5302c24caaf5ffa0bfac355-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -177,4 +177,4 @@ int** levelOrder(struct TreeNode* root, int* returnSize, int** returnColumnSizes
     *returnColumnSizes = r.returnColumnSizes;
     return r.rlt;
 }
-```
+// ```

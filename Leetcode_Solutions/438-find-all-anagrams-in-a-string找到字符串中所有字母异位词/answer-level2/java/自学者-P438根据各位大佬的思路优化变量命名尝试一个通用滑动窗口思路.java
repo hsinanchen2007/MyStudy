@@ -1,10 +1,10 @@
-### 解题思路
-* 滑动窗口要滑动起来
-* 学习字典索引
+// ### 解题思路
+// * 滑动窗口要滑动起来
+// * 学习字典索引
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> findAnagrams(String s, String p) {
         if (Objects.isNull(s) || s.length() == 0) {
@@ -70,4 +70,4 @@ class Solution {
         }
     }   
 }
-```
+// ```

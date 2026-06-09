@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func permute(nums []int) [][]int {
 	result:=make([][]int,0)
 	t:=make([]int,0)
@@ -39,4 +39,4 @@ func isExist(v int, t []int)bool{
 	}
 	return false 
 }
-```
+// ```

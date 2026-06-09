@@ -1,9 +1,9 @@
-### 解题思路
-动态规划，存在性问题，清清爽爽
+// ### 解题思路
+// 动态规划，存在性问题，清清爽爽
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool canJump(int* nums, int numsSize){
     /*
      * 状态转移: f[j] = OR(0 <= i < j){f[i] AND i + a[i] >= j}
@@ -32,4 +32,4 @@ bool canJump(int* nums, int numsSize){
 
     return pIsCan[numsSize - 1];
 }
-```
+// ```

@@ -1,6 +1,6 @@
-1.使用动态规划顺序求解从下表0开始到i的序列和
-2.i到j包含i、j点的序列和则为dp[j] - dp[i-1]
-```
+// 1.使用动态规划顺序求解从下表0开始到i的序列和
+// 2.i到j包含i、j点的序列和则为dp[j] - dp[i-1]
+// ```
 typedef struct {
     int *dp;
     int numsSize;
@@ -64,4 +64,4 @@ void numArrayFree(NumArray* obj)
     obj = NULL;
 }
 
-```
+// ```

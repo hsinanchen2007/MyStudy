@@ -1,9 +1,9 @@
-### 解题思路
-字典序排序后使用哈希图判断
+// ### 解题思路
+// 字典序排序后使用哈希图判断
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<string>> groupAnagrams(vector<string>& strs) {
@@ -25,4 +25,4 @@ public:
         return groupanagrams;
     }
 };
-```
+// ```

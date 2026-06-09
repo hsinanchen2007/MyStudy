@@ -1,9 +1,9 @@
-### 解题思路
-運用遞迴方式 前序排列搜尋 找出比p.val大的最小值的 root位置
+# ### 解题思路
+# 運用遞迴方式 前序排列搜尋 找出比p.val大的最小值的 root位置
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -29,4 +29,4 @@ class Solution:
 
 
 
-```
+# ```

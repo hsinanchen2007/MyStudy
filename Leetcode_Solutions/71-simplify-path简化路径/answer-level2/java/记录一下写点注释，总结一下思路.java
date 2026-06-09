@@ -1,10 +1,10 @@
-### 解题思路
-。
-时间复杂度应该是o（n）,空间复杂度也是o（n）
+// ### 解题思路
+// 。
+// 时间复杂度应该是o（n）,空间复杂度也是o（n）
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String simplifyPath(String path) {
         // 边界判断输入为空或者长度为1时可直接输出
@@ -131,4 +131,4 @@ class Solution {
 
     }
 }
-```
+// ```

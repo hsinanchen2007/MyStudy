@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int waysToChange(int n) {
@@ -19,4 +19,4 @@ public:
 private:
     const static int MOD = 1e9 + 7;
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-如果是求最大，最小的，最好用BFS，非要用DFS，注意回溯。
+// ### 解题思路
+// 如果是求最大，最小的，最好用BFS，非要用DFS，注意回溯。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 #define min(a,b) a<b?a:b
 int g_minstep = INT_MAX;
@@ -66,4 +66,4 @@ int minMutation(char * start, char * end, char ** bank, int bankSize){
    }
    return g_minstep;
 }
-```
+// ```

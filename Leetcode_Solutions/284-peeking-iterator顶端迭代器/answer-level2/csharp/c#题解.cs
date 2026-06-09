@@ -1,6 +1,6 @@
-C#题解
+// C#题解
 
-```
+// ```
 // C# IEnumerator interface reference:
 // https://docs.microsoft.com/en-us/dotnet/api/system.collections.ienumerator?view=netframework-4.8
 
@@ -31,4 +31,4 @@ class PeekingIterator {
         return false;
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-这道题和字符串的加法是一样的，只是进制不同而已，应该过程非常清晰，不明白的欢迎留言。
-```
+// 这道题和字符串的加法是一样的，只是进制不同而已，应该过程非常清晰，不明白的欢迎留言。
+// ```
 char * addBinary(char * a, char * b){
     int length,length1=strlen(a),length2=strlen(b),sum=0,i=length1-1,j=length2-1,k,num;
     if(length1>length2)
@@ -29,4 +29,4 @@ char * addBinary(char * a, char * b){
     }
     return c;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     TreeNode* constructMaximumBinaryTree(vector<int>& nums) {
@@ -30,9 +30,9 @@ public:
         
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/f51c72cb1ee2ed68c3b9fe1e61c4885c6dc7fa7b0bc0122cb615d910a8d7a506-image.png)
+// ![image.png](https://pic.leetcode-cn.com/f51c72cb1ee2ed68c3b9fe1e61c4885c6dc7fa7b0bc0122cb615d910a8d7a506-image.png)
 
 
 

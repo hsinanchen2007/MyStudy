@@ -1,5 +1,5 @@
-利用二叉树的Morris遍历
-```
+// 利用二叉树的Morris遍历
+// ```
     public Node treeToDoublyList(Node root) {
         if(root==null){
             return root;
@@ -31,4 +31,4 @@
         head.left = pre;
         return head;
     }
-```
+// ```

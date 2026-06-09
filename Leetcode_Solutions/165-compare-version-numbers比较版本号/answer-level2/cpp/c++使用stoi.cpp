@@ -1,4 +1,4 @@
-```
+// ```
 int compare(string& s1, string& s2){
         int val1 = stoi(s1);
         int val2 = stoi(s2);
@@ -51,4 +51,4 @@ int compare(string& s1, string& s2){
             ++head;
         }
     }
-```
+// ```

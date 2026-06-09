@@ -1,8 +1,8 @@
-### 解题思路
-把二维矩阵变一维，然后排序，返回第k个元素
+// ### 解题思路
+// 把二维矩阵变一维，然后排序，返回第k个元素
 
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int kthSmallest(vector<vector<int>>& matrix, int k) {
@@ -18,12 +18,12 @@ public:
         return result[k - 1];
     }
 };
-```
+// ```
 
-插入排序
-### 代码
+// 插入排序
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int kthSmallest(vector<vector<int>>& matrix, int k) {
@@ -37,4 +37,4 @@ public:
         return result[k - 1];
     }
 };
-```
+// ```

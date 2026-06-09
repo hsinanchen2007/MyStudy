@@ -1,13 +1,13 @@
-### 解题思路
-链表，链表，链表！
-没有什么难点，但一定要记得进位哦！
-一开始是开了一个新的链表，不断new结点，28ms 10.4MB。
-优化过后充分利用题目已给的两个链表，将值存储到l1里，这样既可以节省时间复杂度，也可以减少一段l1比l2长时的处理代码。
+// ### 解题思路
+// 链表，链表，链表！
+// 没有什么难点，但一定要记得进位哦！
+// 一开始是开了一个新的链表，不断new结点，28ms 10.4MB。
+// 优化过后充分利用题目已给的两个链表，将值存储到l1里，这样既可以节省时间复杂度，也可以减少一段l1比l2长时的处理代码。
 
-![image.png](https://pic.leetcode-cn.com/7476ea53ba8ab683c9b6a3107489bcc404f13d6695c4272d01d4fc96e8adeaaf-image.png)
+// ![image.png](https://pic.leetcode-cn.com/7476ea53ba8ab683c9b6a3107489bcc404f13d6695c4272d01d4fc96e8adeaaf-image.png)
 
-### 代码
-```cpp
+// ### 代码
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -56,5 +56,5 @@ public:
         return pst;
     }
 };
-```
+// ```
 

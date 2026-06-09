@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool isAlienSorted(vector<string>& words, string order) {
@@ -31,4 +31,4 @@ public:
         return s1.size()<s2.size();
     }
 };
-```
+// ```

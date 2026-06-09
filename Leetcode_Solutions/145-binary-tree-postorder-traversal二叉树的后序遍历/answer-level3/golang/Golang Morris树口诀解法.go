@@ -1,12 +1,12 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/22744f4e3a09af62982f15e8ea3b0d0ee1405c994eaaff4e666a8b7d90fcf717-image.png)
-口诀：左空则跳，右空则引，右有则消
-Morris树.jpg
-![image.png](https://pic.leetcode-cn.com/a0d2b12ba6c4f43ed68abaa2da058e01c476d12d03affc07e65e2f699dd43f2b-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/22744f4e3a09af62982f15e8ea3b0d0ee1405c994eaaff4e666a8b7d90fcf717-image.png)
+// 口诀：左空则跳，右空则引，右有则消
+// Morris树.jpg
+// ![image.png](https://pic.leetcode-cn.com/a0d2b12ba6c4f43ed68abaa2da058e01c476d12d03affc07e65e2f699dd43f2b-image.png)
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -60,4 +60,4 @@ func postorderTraversal(root *TreeNode) []int {
     helper(last)
     return result
 }
-```
+// ```

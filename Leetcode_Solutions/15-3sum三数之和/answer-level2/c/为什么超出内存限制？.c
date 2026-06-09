@@ -1,6 +1,6 @@
-求问各位大佬，我的代码为啥超出内存限制了？太长了评论写不下。。
+// 求问各位大佬，我的代码为啥超出内存限制了？太长了评论写不下。。
 
-```
+// ```
 int inc(const void * a,const void *b)
 {
      return *(int *)a- *(int *)b;
@@ -58,4 +58,4 @@ int** threeSum(int* nums, int numsSize, int* returnSize, int** returnColumnSizes
     }
     return res;
 }
-```
+// ```

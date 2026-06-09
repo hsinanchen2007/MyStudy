@@ -1,9 +1,9 @@
-执行用时 :76 ms, 在所有 JavaScript 提交中击败了95.54%的用户
-内存消耗 :35.3 MB, 在所有 JavaScript 提交中击败了29.55%的用户
+// 执行用时 :76 ms, 在所有 JavaScript 提交中击败了95.54%的用户
+// 内存消耗 :35.3 MB, 在所有 JavaScript 提交中击败了29.55%的用户
 
-比较直观的一个写法，采用亦或进行交换，采用按位非进行0与1的互换
+// 比较直观的一个写法，采用亦或进行交换，采用按位非进行0与1的互换
 
-```
+// ```
 var flipAndInvertImage = function(A) {
     
     for(let i=0;i<A.length;i++){
@@ -30,4 +30,4 @@ var flipAndInvertImage = function(A) {
     return A;
     
 };
-```
+// ```

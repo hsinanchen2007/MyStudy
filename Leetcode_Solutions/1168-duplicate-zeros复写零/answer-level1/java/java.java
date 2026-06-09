@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     private void reverse(int []nums,int start,int end)
     {
@@ -27,4 +27,4 @@ class Solution {
      }
     }
 }
-```
+// ```

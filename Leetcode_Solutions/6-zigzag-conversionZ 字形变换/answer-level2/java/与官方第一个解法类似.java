@@ -1,9 +1,9 @@
-1、numRows=1，直接返回；
-2、numRows=2，偶数位置+奇数位置，然后拼接返回；
-3、numRows>=3时，首先要找出第0行的下标的规则：step=numRows +（numRows-2）；
-4、下标对step进行取余，获取到所在行，如果余数小于numRows，则直接为所在行，否则step-余数为所在行；
+// 1、numRows=1，直接返回；
+// 2、numRows=2，偶数位置+奇数位置，然后拼接返回；
+// 3、numRows>=3时，首先要找出第0行的下标的规则：step=numRows +（numRows-2）；
+// 4、下标对step进行取余，获取到所在行，如果余数小于numRows，则直接为所在行，否则step-余数为所在行；
 
-```
+// ```
 class Solution {
     public String convert(String s, int numRows) {
         if(s.length() <= numRows) {
@@ -54,5 +54,5 @@ class Solution {
 		return resultBuilder.toString();
     }
 }
-```
+// ```
 

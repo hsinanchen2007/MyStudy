@@ -1,13 +1,13 @@
-### 解题思路
-先构造累加和序列,第一个置0，后面累加
-双指针滑动窗口[i,j]，dis_sum[j]-dis_sum[i]表示第i个到第j个元素变换的花费。
-如果花费小于maxCost并且j-i大于maxlength，修改maxlength；
-如果花费大于maxCost，则j向后花费会更大，所以i向后。
+// ### 解题思路
+// 先构造累加和序列,第一个置0，后面累加
+// 双指针滑动窗口[i,j]，dis_sum[j]-dis_sum[i]表示第i个到第j个元素变换的花费。
+// 如果花费小于maxCost并且j-i大于maxlength，修改maxlength；
+// 如果花费大于maxCost，则j向后花费会更大，所以i向后。
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int equalSubstring(string s, string t, int maxCost) {
@@ -31,4 +31,4 @@ public:
         return maxlength;
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
-从后向前遍历，依次把遇到的0移动到最后
-```
+// 从后向前遍历，依次把遇到的0移动到最后
+// ```
 class Solution {
 public:
     void moveZeroes(vector<int>& nums) {
@@ -18,4 +18,4 @@ public:
         }
     }
 };
-```
+// ```

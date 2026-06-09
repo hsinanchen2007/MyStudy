@@ -1,9 +1,9 @@
-### 解题思路
-- 快慢指针，快慢要间隔N个节点后，同移快慢指针，快指针为null时，停止移动，挂接慢指针指向next.next; 即删除了倒数节点。
+// ### 解题思路
+// - 快慢指针，快慢要间隔N个节点后，同移快慢指针，快指针为null时，停止移动，挂接慢指针指向next.next; 即删除了倒数节点。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -34,4 +34,4 @@ class Solution {
     return headRoot.next;
     }
 }
-```
+// ```

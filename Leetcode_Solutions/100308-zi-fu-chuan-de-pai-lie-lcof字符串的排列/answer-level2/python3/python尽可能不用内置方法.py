@@ -1,10 +1,10 @@
-### 解题思路
-1、 使用直接插入排序，将字符串排序
-2、参考 leetcode 全排列II
+# ### 解题思路
+# 1、 使用直接插入排序，将字符串排序
+# 2、参考 leetcode 全排列II
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def permutation(self, s: str) -> List[str]:
         size = len(s)
@@ -40,4 +40,4 @@ class Solution:
                 self.helper(s, size, depth+1, path, used, result)
                 used[i] = False
                 path = path[:-1]
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-用字符串序列大小排序一下简化解法
+# ### 解题思路
+# 用字符串序列大小排序一下简化解法
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minimumLengthEncoding(self, words: List[str]) -> int:
         words = [words[i][::-1] for i in range(len(words))]
@@ -23,4 +23,4 @@ class Solution:
         return len(st)
 
 
-```
+# ```

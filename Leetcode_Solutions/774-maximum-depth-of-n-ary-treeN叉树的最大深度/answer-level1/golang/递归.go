@@ -1,9 +1,9 @@
-### 解题思路
-树就递归完事儿
+// ### 解题思路
+// 树就递归完事儿
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a Node.
  * type Node struct {
@@ -38,4 +38,4 @@ func max(x, y int) int {
 	}
 	return y
 }
-```
+// ```

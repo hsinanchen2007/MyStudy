@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def findContinuousSequence(self, target: int) -> List[List[int]]:
         # sliding window
@@ -20,4 +20,4 @@ class Solution:
                 res.append(list(curSeq))
             r += 1
         return res
-```
+# ```

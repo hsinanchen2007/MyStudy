@@ -1,5 +1,5 @@
-- 使用sprintf一直超时，无语，老实使用strncpy
-```
+// - 使用sprintf一直超时，无语，老实使用strncpy
+// ```
 #define MAX_SIZE (1500010)
 #define REPLACE_STRING_LEN (3)
 
@@ -25,4 +25,4 @@ char* replaceSpaces(char* S, int length)
     g_ret[j] = '\0';
     return g_ret;
 }
-```
+// ```

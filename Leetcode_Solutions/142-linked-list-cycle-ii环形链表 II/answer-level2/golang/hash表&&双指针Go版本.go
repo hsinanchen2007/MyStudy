@@ -1,5 +1,5 @@
-1.hash表
-```
+// 1.hash表
+// ```
 func detectCycle(head *ListNode) *ListNode {
     nodeExist := make(map[*ListNode]int)
     cur := head
@@ -12,12 +12,12 @@ func detectCycle(head *ListNode) *ListNode {
     }
     return nil    
 }
-```
-2.双指针
-![99999.jpg](https://pic.leetcode-cn.com/c1c7489f54bfaf281677e692578f03501a676464d1b9e7a04dfebaa0533b85e7-99999.jpg)
-F = b + 1
+// ```
+// 2.双指针
+// ![99999.jpg](https://pic.leetcode-cn.com/c1c7489f54bfaf281677e692578f03501a676464d1b9e7a04dfebaa0533b85e7-99999.jpg)
+// F = b + 1
 
-```
+// ```
 func detectCycle(head *ListNode) *ListNode {
     if head == nil || head.Next == nil {
         return nil
@@ -41,8 +41,8 @@ func detectCycle(head *ListNode) *ListNode {
 
     return ptr1
 } 
-```
-```
+// ```
+// ```
 func detectCycle(head *ListNode) *ListNode {
     if head == nil || head.Next == nil {
         return nil    
@@ -66,6 +66,6 @@ func detectCycle(head *ListNode) *ListNode {
 
     return nil   
 }
-```
+// ```
 
 

@@ -1,10 +1,10 @@
-### 解题思路
-1、很容易看出使用回溯算法进行求解
-2、时钟时间的计算采用位运算很方便
+// ### 解题思路
+// 1、很容易看出使用回溯算法进行求解
+// 2、时钟时间的计算采用位运算很方便
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<String> readBinaryWatch(int num) {
         List<String> res = new ArrayList<String>();
@@ -52,4 +52,4 @@ class Solution {
         }
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def shortestPathBinaryMatrix(self, grid: List[List[int]]) -> int:
         from collections import deque
@@ -30,4 +30,4 @@ class Solution:
                     # 更新备忘录 入队列的同时就要更新备忘录
                     grid[i+dx][j+dy] = 1                 
         return -1
-```
+# ```

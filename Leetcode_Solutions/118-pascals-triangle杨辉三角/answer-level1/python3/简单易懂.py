@@ -1,11 +1,11 @@
-### 解题思路
+# ### 解题思路
 
-找到每一行需要做计算的每一列，每一列的值为上一行相同列与前一列的值之和，每一行首列与尾列均为1。
-![WeChat Screenshot_20191212145754.png](https://pic.leetcode-cn.com/4488e1648eacbb3e673aed2cfc619e999a82ef02bf8e67035b8d22bc93d8434f-WeChat%20Screenshot_20191212145754.png)
+# 找到每一行需要做计算的每一列，每一列的值为上一行相同列与前一列的值之和，每一行首列与尾列均为1。
+# ![WeChat Screenshot_20191212145754.png](https://pic.leetcode-cn.com/4488e1648eacbb3e673aed2cfc619e999a82ef02bf8e67035b8d22bc93d8434f-WeChat%20Screenshot_20191212145754.png)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def generate(self, numRows: int) -> List[List[int]]:
         if numRows<3:
@@ -21,4 +21,4 @@ class Solution:
             res.append(lst)#添加拼接好的行
         return res
         
-```
+# ```

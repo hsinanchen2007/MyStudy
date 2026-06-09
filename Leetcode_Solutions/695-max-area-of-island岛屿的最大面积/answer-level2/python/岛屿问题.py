@@ -1,10 +1,10 @@
-很明显看出是利用DFS解：遍历二维数组，当值为1时开始dfs，搜索的时候有上下左右四个方向，每当走过一个相邻的1（岛屿）就标记一下（改成-1），这样下次就不会走之前走过的岛屿了。
+# 很明显看出是利用DFS解：遍历二维数组，当值为1时开始dfs，搜索的时候有上下左右四个方向，每当走过一个相邻的1（岛屿）就标记一下（改成-1），这样下次就不会走之前走过的岛屿了。
 
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     nextStep = [[0, 1], [1, 0], [0, -1], [-1, 0]]
     step = 0
@@ -37,4 +37,4 @@ class Solution(object):
         for i in range(len(self.nextStep)):
             self.dfs(grid, x + self.nextStep[i][0], y + self.nextStep[i][1])
 
-```
+# ```

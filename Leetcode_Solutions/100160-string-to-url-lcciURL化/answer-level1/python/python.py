@@ -1,9 +1,9 @@
-### 解题思路
-又是一道阅读理解题
+# ### 解题思路
+# 又是一道阅读理解题
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def replaceSpaces(self, S, length):
         """
@@ -12,4 +12,4 @@ class Solution(object):
         :rtype: str
         """
         return "%20".join(S[:length].split(" "))
-```
+# ```

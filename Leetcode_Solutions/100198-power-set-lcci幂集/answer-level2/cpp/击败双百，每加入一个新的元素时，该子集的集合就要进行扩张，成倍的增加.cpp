@@ -1,9 +1,9 @@
-### 解题思路
-每加入一个新的元素时，该子集的集合就要进行扩张，成倍的增加
+// ### 解题思路
+// 每加入一个新的元素时，该子集的集合就要进行扩张，成倍的增加
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> subsets(vector<int>& nums) {
@@ -28,4 +28,4 @@ public:
         return ans;
     }
 };
-```
+// ```

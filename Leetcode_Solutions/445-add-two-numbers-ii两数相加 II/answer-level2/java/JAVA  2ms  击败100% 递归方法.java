@@ -1,22 +1,22 @@
-### 解题思路
-JAVA 2ms 击败100%
-![QQ浏览器截图20191223205847.png](https://pic.leetcode-cn.com/b15f25ec3f42d5c26509254195313543852d641eddad66dd7c510fceb87bd5aa-QQ%E6%B5%8F%E8%A7%88%E5%99%A8%E6%88%AA%E5%9B%BE20191223205847.png)
-采用递归解法
-在进行递归之前我们先遍历得到l1与l2的长度len1与len2;
+// ### 解题思路
+// JAVA 2ms 击败100%
+// ![QQ浏览器截图20191223205847.png](https://pic.leetcode-cn.com/b15f25ec3f42d5c26509254195313543852d641eddad66dd7c510fceb87bd5aa-QQ%E6%B5%8F%E8%A7%88%E5%99%A8%E6%88%AA%E5%9B%BE20191223205847.png)
+// 采用递归解法
+// 在进行递归之前我们先遍历得到l1与l2的长度len1与len2;
 
-递归解法：
+// 递归解法：
 
-如果len1与len2都为1，那么当前的值应为（l1.val+l2.val）%10,进位更新为（l1.val+l2.val）/10；
-如果len1大于len2，递归计算（l1.next,l2），当前的值应为（l1.val+进位）%10，进位更新为（l1.val+进位）/10；
-如果len1等于len2，递归计算（l1.next,l2.next）,当前的值应为（l1.val+进位+l2.val）%10，进位更新为（l1.val+进位+l2.val）/10；
-返回当前节点的指针
-递归结束
+// 如果len1与len2都为1，那么当前的值应为（l1.val+l2.val）%10,进位更新为（l1.val+l2.val）/10；
+// 如果len1大于len2，递归计算（l1.next,l2），当前的值应为（l1.val+进位）%10，进位更新为（l1.val+进位）/10；
+// 如果len1等于len2，递归计算（l1.next,l2.next）,当前的值应为（l1.val+进位+l2.val）%10，进位更新为（l1.val+进位+l2.val）/10；
+// 返回当前节点的指针
+// 递归结束
 
-为方便递归，递归开始前我们保证len1>=len2，另外递归结束后若进位为1，需要新建值为1的头节点
-（代码没有仔细优化）
-### 代码
+// 为方便递归，递归开始前我们保证len1>=len2，另外递归结束后若进位为1，需要新建值为1的头节点
+// （代码没有仔细优化）
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -71,4 +71,4 @@ class Solution {
 
     }
 }
-```
+// ```

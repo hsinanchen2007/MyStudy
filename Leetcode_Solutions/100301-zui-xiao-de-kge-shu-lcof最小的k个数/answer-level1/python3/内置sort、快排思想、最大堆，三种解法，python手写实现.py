@@ -1,21 +1,21 @@
-### 解题思路
-# **1** 最简单的排序
-时间复杂度 O(nlogn)
+# ### 解题思路
+# # **1** 最简单的排序
+# 时间复杂度 O(nlogn)
 
-### 代码
-```python3
+# ### 代码
+# ```python3
 class Solution:
     def getLeastNumbers(self, arr: List[int], k: int) -> List[int]:
         arr.sort()
         return arr[:k]
-```
+# ```
 
-# **2** 利用快排的思想
-若第k小的值出现在左侧(当中值pos - l + 1 > k)，向左递归，出现在右侧(当中值pos - l + 1 < k)，向右递归。
-时间复杂度 最好O(n)，最坏会退化到O(n^2)
+# # **2** 利用快排的思想
+# 若第k小的值出现在左侧(当中值pos - l + 1 > k)，向左递归，出现在右侧(当中值pos - l + 1 < k)，向右递归。
+# 时间复杂度 最好O(n)，最坏会退化到O(n^2)
 
-### 代码
-```python3
+# ### 代码
+# ```python3
 class Solution:
     def getLeastNumbers(self, arr: List[int], k: int) -> List[int]:
         def partition(arr, l, r):
@@ -54,14 +54,14 @@ class Solution:
             return []
         quicksort(arr, 0, len(arr) - 1, k)
         return arr[:k]
-```
+# ```
 
-# **3** 堆的思想
-求前k个最小用最大堆，前k个最大用最小堆，这是因为最大堆堆顶值最大，维护一个k大小的最大堆，向堆中添加剩余元素时，比堆顶值小就弹出堆顶，并向堆中插入该元素，这样，就保证维护了比堆顶小的k-1 个最小值。反之亦然。
-时间复杂度O(nlogk)，因为只需维护k大小的堆
+# # **3** 堆的思想
+# 求前k个最小用最大堆，前k个最大用最小堆，这是因为最大堆堆顶值最大，维护一个k大小的最大堆，向堆中添加剩余元素时，比堆顶值小就弹出堆顶，并向堆中插入该元素，这样，就保证维护了比堆顶小的k-1 个最小值。反之亦然。
+# 时间复杂度O(nlogk)，因为只需维护k大小的堆
 
-### 代码
-```python3
+# ### 代码
+# ```python3
 class Solution:
     def getLeastNumbers(self, arr: List[int], k: int) -> List[int]:
         if k == 0:
@@ -125,4 +125,4 @@ class HeapList():
                 return 2 * i
             else:
                 return 2 * i + 1
-```
+# ```

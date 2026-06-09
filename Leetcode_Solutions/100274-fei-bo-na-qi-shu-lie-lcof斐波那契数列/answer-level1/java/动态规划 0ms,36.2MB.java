@@ -1,10 +1,10 @@
-### 解题思路
-判断n小于2的话直接返回n就可以了,后面的数递增,记得要取模
-今天刚看完一个公众号介绍DP,晚上就用上了
+// ### 解题思路
+// 判断n小于2的话直接返回n就可以了,后面的数递增,记得要取模
+// 今天刚看完一个公众号介绍DP,晚上就用上了
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int fib(int n) {
         if(n < 2){
@@ -21,6 +21,6 @@ class Solution {
         return arr[n];
     }
 }
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/db81efcd9949b8bc4f78ecfbd8e6c10d6e3e6a0ced5586d25db922893122d9a4-image.png)
+// ![image.png](https://pic.leetcode-cn.com/db81efcd9949b8bc4f78ecfbd8e6c10d6e3e6a0ced5586d25db922893122d9a4-image.png)

@@ -1,7 +1,7 @@
 
 
 
-```
+# ```
 # 四周都填充-1
 M.insert(len(M), [-1]*len(M[0]))
 M.insert(0, [-1]*len(M[0]))
@@ -19,5 +19,5 @@ for i in range(1, row-1):
         N[i-1][j-1] = sum(temp2) // len(temp2)
         
 return N
-```
+# ```
 

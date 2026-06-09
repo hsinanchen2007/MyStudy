@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func restoreIpAddresses(s string) []string {
     result := make([]string, 0)
     backtrack(s, nil, &result)
@@ -49,4 +49,4 @@ func ok(str string) bool {
     }
     return false
 }
-```
+// ```

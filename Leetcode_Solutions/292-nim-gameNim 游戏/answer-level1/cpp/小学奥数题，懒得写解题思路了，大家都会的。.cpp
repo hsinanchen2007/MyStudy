@@ -1,8 +1,8 @@
-```C++ []
+// ```C++ []
 class Solution {
 public:
     bool canWinNim(int n) {
         return n%4;
     }
 };
-```
+// ```

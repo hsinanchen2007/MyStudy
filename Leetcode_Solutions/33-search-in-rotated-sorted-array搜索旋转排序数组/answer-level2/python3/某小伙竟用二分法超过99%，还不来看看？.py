@@ -1,10 +1,10 @@
-### 解题思路
-巧妙两次二分法，时间复杂度O(logn)
-![捕2获.PNG](https://pic.leetcode-cn.com/401837810a04c3d9e4a6610057797056c30b90c6925f0a968967b57139b307b9-%E6%8D%952%E8%8E%B7.PNG)
+# ### 解题思路
+# 巧妙两次二分法，时间复杂度O(logn)
+# ![捕2获.PNG](https://pic.leetcode-cn.com/401837810a04c3d9e4a6610057797056c30b90c6925f0a968967b57139b307b9-%E6%8D%952%E8%8E%B7.PNG)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         if not nums:

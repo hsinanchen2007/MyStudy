@@ -1,9 +1,9 @@
-### 解题思路
-LinkedList可以头尾操作
+// ### 解题思路
+// LinkedList可以头尾操作
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class MyStack
 {
     LinkedList<int> queue = new LinkedList<int>();
@@ -74,4 +74,4 @@ public class MyStack
         public bool Empty() => queue1.Count == 0 && queue2.Count == 0;  
     }
 
-```
+// ```

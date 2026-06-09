@@ -1,9 +1,9 @@
-### 解题思路
-如果当前压入的值比当前最小值，则压入一个当前最小值，再压入当前的值！
+// ### 解题思路
+// 如果当前压入的值比当前最小值，则压入一个当前最小值，再压入当前的值！
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MinStack {
     private Stack<Integer> stack = new Stack<>();
     private int min = Integer.MAX_VALUE;
@@ -45,4 +45,4 @@ class MinStack {
  * int param_3 = obj.top();
  * int param_4 = obj.min();
  */
-```
+// ```

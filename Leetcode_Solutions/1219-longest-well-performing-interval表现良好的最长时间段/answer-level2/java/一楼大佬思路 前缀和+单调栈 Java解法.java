@@ -1,6 +1,6 @@
-前缀和+单调栈 花了好久才搞懂~
-思路在 https://www.jianshu.com/p/c548dbae322d 
-```
+// 前缀和+单调栈 花了好久才搞懂~
+// 思路在 https://www.jianshu.com/p/c548dbae322d 
+// ```
 public int longestWPI(int[] hours) {
         int max = 0;
         Stack<Integer> stack = new Stack<>();
@@ -40,4 +40,4 @@ public int longestWPI(int[] hours) {
         }
         return max;
     }
-```
+// ```

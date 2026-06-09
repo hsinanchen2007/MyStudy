@@ -1,9 +1,9 @@
-### 解题思路
-此题遍历即可得到结果，但是考虑到有序数组所以选择二分法
+# ### 解题思路
+# 此题遍历即可得到结果，但是考虑到有序数组所以选择二分法
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def search(self, nums, target):
         left = 0
@@ -33,4 +33,4 @@ class Solution(object):
             elif nums[mid] < target:
                 left = mid + 1
         return count
-```
+# ```

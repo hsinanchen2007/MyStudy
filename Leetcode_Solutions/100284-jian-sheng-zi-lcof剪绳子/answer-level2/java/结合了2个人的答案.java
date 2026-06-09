@@ -1,11 +1,11 @@
-### 解题思路
-1-3个别处理
-n=4开始，从小算到大。
-转移方程：dp[i] = Math.max(dp[j]*dp[i-j], dp[i]);
+// ### 解题思路
+// 1-3个别处理
+// n=4开始，从小算到大。
+// 转移方程：dp[i] = Math.max(dp[j]*dp[i-j], dp[i]);
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int cuttingRope(int n) {
         if (n < 2) {
@@ -30,4 +30,4 @@ class Solution {
         return dp[n];
     }
 }
-```
+// ```

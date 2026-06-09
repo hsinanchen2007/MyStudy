@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```scala
+// ```scala
 object Solution {
     def replaceElements(arr: Array[Int]): Array[Int] = {
     var max = -1
@@ -15,4 +15,4 @@ object Solution {
     arr  
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-多源广度遍历，每一层其实就是距离+1
+# ### 解题思路
+# 多源广度遍历，每一层其实就是距离+1
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxDistance(self, grid: List[List[int]]) -> int:
         if not grid:
@@ -45,4 +45,4 @@ class Solution:
 
         return res_dist                                 
                 
-```
+# ```

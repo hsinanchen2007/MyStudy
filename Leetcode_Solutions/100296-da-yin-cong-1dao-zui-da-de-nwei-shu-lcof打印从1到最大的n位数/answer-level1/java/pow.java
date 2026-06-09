@@ -1,9 +1,9 @@
-### 解题思路
-计算数组大小，注意越界
+// ### 解题思路
+// 计算数组大小，注意越界
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] printNumbers(int n) {
         int count = pow(10,n) - 1;
@@ -25,4 +25,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

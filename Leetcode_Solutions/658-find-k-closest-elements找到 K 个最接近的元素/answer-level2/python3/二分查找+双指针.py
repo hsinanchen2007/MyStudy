@@ -1,14 +1,14 @@
-### 解题思路
+# ### 解题思路
 
-二分查找+双指针法
+# 二分查找+双指针法
 
-数组有序，二分查找到数组中第一个不小于x的数的位置，然后从这个地方开始向两个方向扩展区间。
+# 数组有序，二分查找到数组中第一个不小于x的数的位置，然后从这个地方开始向两个方向扩展区间。
 
-时间复杂度`O(log n + k)`
+# 时间复杂度`O(log n + k)`
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findClosestElements(self, arr: List[int], k: int, x: int) -> List[int]:
         l = 0
@@ -49,4 +49,4 @@ class Solution:
                     j += 1
         return arr[i:j]
             
-```
+# ```

@@ -1,5 +1,5 @@
-### 快速排序
-```cpp
+// ### 快速排序
+// ```cpp
 class Solution {
 public:
     int partition(vector<int>& nums, int l, int r) {
@@ -25,10 +25,10 @@ public:
         return nums;
     }
 };
-```
+// ```
 
-### 归并排序
-```cpp
+// ### 归并排序
+// ```cpp
 class Solution {
 public:
     vector<int> t;  // 临时排序的数的，然后在合并回原数组
@@ -64,10 +64,10 @@ public:
         return nums;
     }
 };
-```
+// ```
 
-### 堆排序
-```cpp
+// ### 堆排序
+// ```cpp
 class Solution {
 private:
     inline int getFa(int i) {
@@ -105,10 +105,10 @@ public:
         return nums;
     }
 };
-```
+// ```
 
-### 计数排序
-```cpp
+// ### 计数排序
+// ```cpp
 class Solution {
 public:
     vector<int> sortArray(vector<int>& nums) {
@@ -129,4 +129,4 @@ public:
         return res;
     }
 };
-```
+// ```

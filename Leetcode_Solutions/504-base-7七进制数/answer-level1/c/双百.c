@@ -1,9 +1,9 @@
-### 解题思路
-千万注意是除7取余。。。。。
+// ### 解题思路
+// 千万注意是除7取余。。。。。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <string.h>
 void reverse(char*s,int low,int high){
     while(low<high){
@@ -40,4 +40,4 @@ char * convertToBase7(int num){
     reverse(res,flag,i-1);
     return res;
 }
-```
+// ```

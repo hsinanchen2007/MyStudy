@@ -1,9 +1,9 @@
-### 解题思路
-一次遍历，采用双指针方式，直接挪动元素。
+// ### 解题思路
+// 一次遍历，采用双指针方式，直接挪动元素。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int removeDuplicates(int[] nums) {
         int start = 0;
@@ -19,4 +19,4 @@ class Solution {
         return start + 1;
     }
 }
-```
+// ```

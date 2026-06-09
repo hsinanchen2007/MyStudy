@@ -1,11 +1,11 @@
-### 解题思路
-map解决 双100%
-map的key为年份，value为生存人数
-注意map最后要按年份排序，然后返回value最大的key
+# ### 解题思路
+# map解决 双100%
+# map的key为年份，value为生存人数
+# 注意map最后要按年份排序，然后返回value最大的key
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxAliveYear(self, birth: List[int], death: List[int]) -> int:
         l_map = {}
@@ -22,4 +22,4 @@ class Solution:
                 max_count=v
                 max_year=k
         return max_year
-```
+# ```

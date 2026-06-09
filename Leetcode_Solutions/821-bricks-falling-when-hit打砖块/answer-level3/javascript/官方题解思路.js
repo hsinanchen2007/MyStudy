@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number[][]} grid
  * @param {number[][]} hits
@@ -88,4 +88,4 @@ DSU.prototype.linkTop = function() {
     return this.count(this.counts.length - 1) - 1
 }
 
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-方法是暴力搜索，两个for嵌套。
-代码中需要给returnSize指向的变量赋值，即*returnSize=2，否则代码会报溢出错误
+// ### 解题思路
+// 方法是暴力搜索，两个for嵌套。
+// 代码中需要给returnSize指向的变量赋值，即*returnSize=2，否则代码会报溢出错误
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -24,4 +24,4 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize){
     }
     return returned_array;
 }
-```
+// ```

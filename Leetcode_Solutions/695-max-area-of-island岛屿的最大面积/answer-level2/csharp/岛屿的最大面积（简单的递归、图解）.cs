@@ -1,21 +1,21 @@
-#### 解题思路：
+// #### 解题思路：
 
-给定一个包含了一些 $0$ 和 $1$ 的非空二维数组 `grid`，一个 **岛屿** 是由四个方向 (水平或垂直) 的 $1$ (代表土地) 构成的组合。你可以假设二维矩阵的四个边缘都被水包围着。
-由于每个岛屿皆被水包围，所以，仅需要确保每一次寻找到新岛屿时，所测量到的岛屿面积为该岛屿的最大面积，最后返回所测所有岛屿中的最大面积即可。
+// 给定一个包含了一些 $0$ 和 $1$ 的非空二维数组 `grid`，一个 **岛屿** 是由四个方向 (水平或垂直) 的 $1$ (代表土地) 构成的组合。你可以假设二维矩阵的四个边缘都被水包围着。
+// 由于每个岛屿皆被水包围，所以，仅需要确保每一次寻找到新岛屿时，所测量到的岛屿面积为该岛屿的最大面积，最后返回所测所有岛屿中的最大面积即可。
 
-由于并不知道如何才可以测量出岛屿的面积，所以为了测量整个岛屿的面积，只能采取一步步探索的方式：
+// 由于并不知道如何才可以测量出岛屿的面积，所以为了测量整个岛屿的面积，只能采取一步步探索的方式：
 
-当登陆某个岛屿后，以此时所处位置为行动中心，随后分别向 **东、南、西、北** 四个方向前进。如果向某一方向前进后其为水或登记的地方则停止探索，而当步入新地点时，则继续以当前所处位置为行动中心，随后再一次向 **东、南、西、北** 四个方向前进，以此类推。
+// 当登陆某个岛屿后，以此时所处位置为行动中心，随后分别向 **东、南、西、北** 四个方向前进。如果向某一方向前进后其为水或登记的地方则停止探索，而当步入新地点时，则继续以当前所处位置为行动中心，随后再一次向 **东、南、西、北** 四个方向前进，以此类推。
 
-此方法过程如下：
+// 此方法过程如下：
 
-<![01.png](https://pic.leetcode-cn.com/f7f75520bb20aff8fed73b3d250f60932c3627ab1d788278b511745695017923-01.png),![02.png](https://pic.leetcode-cn.com/36e3fe2a19aa4cc312aa6290993f7c07d180c690d82763ff48c5183899c54b5b-02.png),![03.png](https://pic.leetcode-cn.com/052ae3f270c8ee9c530cfa9f847d5cc765a1aa0318774874bf3b02220af92494-03.png),![04.png](https://pic.leetcode-cn.com/abd297e3b3bbff18e35320baca4c41328bd63de65a3586d085956cacc8afd3ad-04.png),![05.png](https://pic.leetcode-cn.com/e664cc092d9e76b8fe4cf56efc4f6ae518ed74518071a7a892f8d0877d5e9a91-05.png),![06.png](https://pic.leetcode-cn.com/4a5058e804faf2128c38ea307d594453d932347099d827fb0f2e22879771b229-06.png),![07.png](https://pic.leetcode-cn.com/ecd68c1341b3f9afb6490c25e8381ae56b20d3ae966ad052aca44ec8c66624dd-07.png),![08.png](https://pic.leetcode-cn.com/4d5918c83f3f21ab56856347413aedf46f0e6142d9378200b6bce5ed4a81e342-08.png)>
+// <![01.png](https://pic.leetcode-cn.com/f7f75520bb20aff8fed73b3d250f60932c3627ab1d788278b511745695017923-01.png),![02.png](https://pic.leetcode-cn.com/36e3fe2a19aa4cc312aa6290993f7c07d180c690d82763ff48c5183899c54b5b-02.png),![03.png](https://pic.leetcode-cn.com/052ae3f270c8ee9c530cfa9f847d5cc765a1aa0318774874bf3b02220af92494-03.png),![04.png](https://pic.leetcode-cn.com/abd297e3b3bbff18e35320baca4c41328bd63de65a3586d085956cacc8afd3ad-04.png),![05.png](https://pic.leetcode-cn.com/e664cc092d9e76b8fe4cf56efc4f6ae518ed74518071a7a892f8d0877d5e9a91-05.png),![06.png](https://pic.leetcode-cn.com/4a5058e804faf2128c38ea307d594453d932347099d827fb0f2e22879771b229-06.png),![07.png](https://pic.leetcode-cn.com/ecd68c1341b3f9afb6490c25e8381ae56b20d3ae966ad052aca44ec8c66624dd-07.png),![08.png](https://pic.leetcode-cn.com/4d5918c83f3f21ab56856347413aedf46f0e6142d9378200b6bce5ed4a81e342-08.png)>
 
-对于这种重复的操作，显然离不开循环或递归。在此便采用递归的方式解决。
+// 对于这种重复的操作，显然离不开循环或递归。在此便采用递归的方式解决。
 
-#### 代码：
+// #### 代码：
 
-```Csharp [-C#]
+// ```Csharp [-C#]
 public int MaxAreaOfIsland(int[][] grid)
 {
     int maxArea = 0;
@@ -49,8 +49,8 @@ public int GetArea(int[][] grid, int i, int j)
     }
     return 0;
 }
-```
-```C++ []
+// ```
+// ```C++ []
 int getArea(vector<vector<int>>&  grid, int i, int j)
 {
     //由于坐标每次 +1 ，所以判断是否等于数组长度即可
@@ -84,11 +84,11 @@ public:
         }
         return maxArea;
     }
-```
+// ```
 
-***
+// ***
 
-——————
-如有不足，请大家斧正。
+// ——————
+// 如有不足，请大家斧正。
 
 

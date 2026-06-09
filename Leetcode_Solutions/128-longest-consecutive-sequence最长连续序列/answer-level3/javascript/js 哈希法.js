@@ -1,16 +1,16 @@
-![image.png](https://pic.leetcode-cn.com/8e676da152c4cfbc2dbaf2b749be24f6d2508730277161a87fdc5ff7c568cb98-image.png)
+// ![image.png](https://pic.leetcode-cn.com/8e676da152c4cfbc2dbaf2b749be24f6d2508730277161a87fdc5ff7c568cb98-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
   暴力的算法 + hash 优化
   1. 加入 Set 中将数组去重
   2. 从没有比自己小1的数开始查找连续序列
   3. 一旦查找过的直接删除即可，防止重复查找
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -57,4 +57,4 @@ var longestConsecutive = function(nums) {
   
 //   return max;
 // };
-```
+// ```

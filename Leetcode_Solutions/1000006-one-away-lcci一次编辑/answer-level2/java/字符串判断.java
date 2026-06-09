@@ -1,5 +1,5 @@
 
-```java
+// ```java
 class Solution {
     public boolean oneEditAway(String first, String second) {
         String a = first;
@@ -50,4 +50,4 @@ class Solution {
         return n == 1;
     }
 }
-```
+// ```

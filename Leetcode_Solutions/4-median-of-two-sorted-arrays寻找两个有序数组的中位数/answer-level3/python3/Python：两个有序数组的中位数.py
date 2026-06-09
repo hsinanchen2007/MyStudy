@@ -1,11 +1,11 @@
-### 解题思路
-方法一：
-这个时间复杂度，必然是分治思想的产物
-经典二分法
+# ### 解题思路
+# 方法一：
+# 这个时间复杂度，必然是分治思想的产物
+# 经典二分法
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
         m, n = len(nums1), len(nums2)
@@ -32,15 +32,15 @@ class Solution:
                 else: min_of_right = min(nums1[i], nums2[j])
                 return (max_of_left + min_of_right) / 2.0
 
-```
+# ```
 
-###解题思路
-方法二：
-鸡贼套路
-利用Python函数完成
+# ###解题思路
+# 方法二：
+# 鸡贼套路
+# 利用Python函数完成
 
-###代码
-```python3
+# ###代码
+# ```python3
 class Solution:
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
         nums1.extend(nums2)
@@ -51,7 +51,7 @@ class Solution:
         else:
             return (nums1[length//2]+nums1[length//2-1])/2
             #利用//强行整数化
-```
+# ```
 
-刚好看到评论，没绑定手机，就这里回复一下：
-python的list.sort使用的是timesort这个机制，本质上是归并和插排的结合体，时间复杂度为nlogn,最差为nlogn,最优为n,在这里的编译器里应该算在同一数量级，所以能通过，严格说，较大的数组应该不在复杂度要求内
+# 刚好看到评论，没绑定手机，就这里回复一下：
+# python的list.sort使用的是timesort这个机制，本质上是归并和插排的结合体，时间复杂度为nlogn,最差为nlogn,最优为n,在这里的编译器里应该算在同一数量级，所以能通过，严格说，较大的数组应该不在复杂度要求内

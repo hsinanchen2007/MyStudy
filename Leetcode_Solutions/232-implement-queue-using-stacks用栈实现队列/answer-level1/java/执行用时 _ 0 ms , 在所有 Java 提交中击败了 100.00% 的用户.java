@@ -1,8 +1,8 @@
-### 解题思路
-两个栈操作
-### 代码
+// ### 解题思路
+// 两个栈操作
+// ### 代码
 
-```java
+// ```java
 class MyQueue {
 
     Stack<Integer> stack1 = null;
@@ -66,4 +66,4 @@ class MyQueue {
  * int param_3 = obj.peek();
  * boolean param_4 = obj.empty();
  */
-```
+// ```

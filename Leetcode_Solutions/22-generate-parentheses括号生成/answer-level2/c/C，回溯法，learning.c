@@ -1,14 +1,14 @@
-### 解题思路
-//回溯法:
-//1，画出树形图，找到结束条件 left==right==0
-//2，确定移动下标，数组下标 index 作为移动下标，每一层则 index+1
-//3，找到分支条件，左分支控制标志 left>0  右分支控制 right>left
-//4，左分支回溯，移动下标index+1，左分支控制left-1
-//5，右分支回溯，移动下标index+1，右分支控制right-1
+// ### 解题思路
+// //回溯法:
+// //1，画出树形图，找到结束条件 left==right==0
+// //2，确定移动下标，数组下标 index 作为移动下标，每一层则 index+1
+// //3，找到分支条件，左分支控制标志 left>0  右分支控制 right>left
+// //4，左分支回溯，移动下标index+1，左分支控制left-1
+// //5，右分支回溯，移动下标index+1，右分支控制right-1
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -99,4 +99,4 @@ char ** generateParenthesis(int n, int* returnSize){
 
 
 
-```
+// ```

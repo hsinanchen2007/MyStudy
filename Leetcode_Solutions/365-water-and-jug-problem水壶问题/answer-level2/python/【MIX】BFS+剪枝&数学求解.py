@@ -1,9 +1,9 @@
-### 解题思路
-使用BFS压入可能的状态, 或者使用数学求解
+# ### 解题思路
+# 使用BFS压入可能的状态, 或者使用数学求解
 
-### 代码
+# ### 代码
 
-```java []
+# ```java []
 class Solution {
     public boolean canMeasureWater(int x, int y, int z) {
         // 裴蜀定理求解
@@ -22,8 +22,8 @@ class Solution {
         return gcd(y, x%y);
     }
 }
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def canMeasureWater(self, x: int, y: int, z: int) -> bool:
         # 裴蜀定理
@@ -41,8 +41,8 @@ class Solution:
 
         return self.gcd(y, x%y)
 
-```
-```c++ []
+# ```
+# ```c++ []
 class Solution {
 public:
     bool canMeasureWater(int x, int y, int z) {
@@ -95,4 +95,4 @@ private:
     // 使用一个集合存储已经访问过的状态
     set<pair<int, int>> rec;
 };
-```
+# ```

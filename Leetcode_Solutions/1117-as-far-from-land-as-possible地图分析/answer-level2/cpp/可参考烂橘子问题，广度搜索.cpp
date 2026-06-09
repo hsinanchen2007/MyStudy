@@ -1,5 +1,5 @@
-和烂橘子问题基本一样，那个问题求多少天全部腐烂和这里曼哈顿距离一样。
-```
+// 和烂橘子问题基本一样，那个问题求多少天全部腐烂和这里曼哈顿距离一样。
+// ```
 class Solution {
 public:
     int maxDistance(vector<vector<int>>& grid) {
@@ -34,4 +34,4 @@ public:
         return res;
     }
 };
-```
+// ```

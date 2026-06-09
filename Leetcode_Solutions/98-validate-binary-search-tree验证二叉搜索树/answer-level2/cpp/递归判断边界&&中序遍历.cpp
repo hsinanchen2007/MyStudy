@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -30,9 +30,9 @@ public:
         return dfs(root, INT_MIN, INT_MAX);
     }
 };
-```
-2.验证中序遍历序列是否为单调增
-```
+// ```
+// 2.验证中序遍历序列是否为单调增
+// ```
 class Solution {
     vector<int> v;
     void inorder_traverse(TreeNode* root) {
@@ -59,4 +59,4 @@ public:
         return true;        
     }
 };
-```
+// ```

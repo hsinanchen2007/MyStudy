@@ -1,46 +1,46 @@
-### 关于区间dp
-**背景**：给定一个序列或字符串要进行一些操作，从最后一步出发，要将序列或字符串去头、去尾，如果做过最长回文子串，你就就可以想一下这样子的操作。区间型 $dp$ 一般用 $dp[i][j]$ ，$i$ 代表左端点，$j$ 代表右端点，若有其他维度可再添加，若两个端点之间存在联系，则可再压缩空间。力扣上还有一些题也属于区间 $dp$，我推荐大家做一下，下面列出了一些
-- [5. 最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/)
-- [516. 最长回文子序列](https://leetcode-cn.com/problems/longest-palindromic-subsequence/)
-- [312. 戳气球](https://leetcode-cn.com/problems/burst-balloons/)
-- [1246. 删除回文子数组](https://leetcode-cn.com/problems/palindrome-removal/)（这个题微软面试问的很多）
----
-回归正题，开始解答
+// ### 关于区间dp
+// **背景**：给定一个序列或字符串要进行一些操作，从最后一步出发，要将序列或字符串去头、去尾，如果做过最长回文子串，你就就可以想一下这样子的操作。区间型 $dp$ 一般用 $dp[i][j]$ ，$i$ 代表左端点，$j$ 代表右端点，若有其他维度可再添加，若两个端点之间存在联系，则可再压缩空间。力扣上还有一些题也属于区间 $dp$，我推荐大家做一下，下面列出了一些
+// - [5. 最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/)
+// - [516. 最长回文子序列](https://leetcode-cn.com/problems/longest-palindromic-subsequence/)
+// - [312. 戳气球](https://leetcode-cn.com/problems/burst-balloons/)
+// - [1246. 删除回文子数组](https://leetcode-cn.com/problems/palindrome-removal/)（这个题微软面试问的很多）
+// ---
+// 回归正题，开始解答
 
 
-### 初步分析
-给定两个字符串 $T$ 和 $S$，假设 $T$ 是由 $S$ 变换而来
+// ### 初步分析
+// 给定两个字符串 $T$ 和 $S$，假设 $T$ 是由 $S$ 变换而来
 
-- 如果 $T$ 和 $S$ 长度不一样，必定不能变来
-- 如果长度一样，顶层字符串 $S$ 能够划分为 $S_1$ 和 $S_2$ ，同样字符串 $T$ 也能够划分为 $T_1$ 和 $T_2$
-  - 情况一：没交换，$S_1 ==> T_1$，$S_2 ==> T_2$
-  - 情况二：交换了，$S_1 ==> T_2$，$S_2 ==> T_1$
-- **子问题**就是分别讨论两种情况，$T_1$ 是否由 $S_1$ 变来，$T_2$ 是否由 $S_2$ 变来，或 $T_1$ 是否由 $S_2$ 变来，$T_2$ 是否由 $S_1$变来。
-![image.png](https://pic.leetcode-cn.com/bc453287ed380cf1d8652fdf184508f2106879d1550b1b65f3b7dcd00c21cb32-image.png)
-
-
-### 得到状态
-$dp[i][j][k][h]$ 表示 $T[k..h]$ 是否由 $S[i..j]$ 变来。由于变换必须长度是一样的，因此这边有个关系 $j - i = h - k$ ，可以把四维数组降成三维。$dp[i][j][len]$ 表示从字符串 $S$ 中 $i$ 开始长度为 $len$ 的字符串是否能变换为从字符串 $T$ 中 $j$ 开始长度为 $len$ 的字符串  
-
-### 转移方程
-- $dp[i][j][k]$$=$ 
-    - $OR_{1<=w<=k-1}$  $\left\{ dp[i][j][w]\ \ \&\& \ \  dp[i+w][j+w][k-w] \right\}$  或 
-    - $OR_{1<=w<=k-1}$  $\left\{ dp[i][j+k-w] [w] \ \ \&\& \ \  dp[i+w][j][k-w] \right\}$ 
-
-解释下：枚举 $S_1$ 长度 $w$（从 $1～k-1$，因为要划分），$f[i] [j] [w]$ 表示 $S_1$ 能变成 $T_1$，$f[i+w] [j+w] [k-w]$表示 $S_2$能变成 $T_2$，或者是 $S_1$ 能变成 $T_2$， $S_2$ 能变成 $T_1$。
-
-### 初始条件
-对于长度是 $1$ 的子串，只有相等才能变过去，相等为 $true$，不相等为 $false$。
-
-### 得到答案
-还记得我们的定义吗？$dp[i][j][len]$ 表示从字符串 $S$ 中 $i$ 开始长度为 $len$ 的字符串是否能变换为从字符串 $T$ 中 $j$ 开始长度为 $len$ 的字符串，所以答案是 $dp[0][0][n]$。 时间复杂度 $O(N^4)$，空间复杂度$O(N^3)$
-
-如果您觉得我的题解对您有帮助的话，麻烦给个赞鼓励一下吧^o^
+// - 如果 $T$ 和 $S$ 长度不一样，必定不能变来
+// - 如果长度一样，顶层字符串 $S$ 能够划分为 $S_1$ 和 $S_2$ ，同样字符串 $T$ 也能够划分为 $T_1$ 和 $T_2$
+//   - 情况一：没交换，$S_1 ==> T_1$，$S_2 ==> T_2$
+//   - 情况二：交换了，$S_1 ==> T_2$，$S_2 ==> T_1$
+// - **子问题**就是分别讨论两种情况，$T_1$ 是否由 $S_1$ 变来，$T_2$ 是否由 $S_2$ 变来，或 $T_1$ 是否由 $S_2$ 变来，$T_2$ 是否由 $S_1$变来。
+// ![image.png](https://pic.leetcode-cn.com/bc453287ed380cf1d8652fdf184508f2106879d1550b1b65f3b7dcd00c21cb32-image.png)
 
 
-### 代码
+// ### 得到状态
+// $dp[i][j][k][h]$ 表示 $T[k..h]$ 是否由 $S[i..j]$ 变来。由于变换必须长度是一样的，因此这边有个关系 $j - i = h - k$ ，可以把四维数组降成三维。$dp[i][j][len]$ 表示从字符串 $S$ 中 $i$ 开始长度为 $len$ 的字符串是否能变换为从字符串 $T$ 中 $j$ 开始长度为 $len$ 的字符串  
 
-```java
+// ### 转移方程
+// - $dp[i][j][k]$$=$ 
+//     - $OR_{1<=w<=k-1}$  $\left\{ dp[i][j][w]\ \ \&\& \ \  dp[i+w][j+w][k-w] \right\}$  或 
+//     - $OR_{1<=w<=k-1}$  $\left\{ dp[i][j+k-w] [w] \ \ \&\& \ \  dp[i+w][j][k-w] \right\}$ 
+
+// 解释下：枚举 $S_1$ 长度 $w$（从 $1～k-1$，因为要划分），$f[i] [j] [w]$ 表示 $S_1$ 能变成 $T_1$，$f[i+w] [j+w] [k-w]$表示 $S_2$能变成 $T_2$，或者是 $S_1$ 能变成 $T_2$， $S_2$ 能变成 $T_1$。
+
+// ### 初始条件
+// 对于长度是 $1$ 的子串，只有相等才能变过去，相等为 $true$，不相等为 $false$。
+
+// ### 得到答案
+// 还记得我们的定义吗？$dp[i][j][len]$ 表示从字符串 $S$ 中 $i$ 开始长度为 $len$ 的字符串是否能变换为从字符串 $T$ 中 $j$ 开始长度为 $len$ 的字符串，所以答案是 $dp[0][0][n]$。 时间复杂度 $O(N^4)$，空间复杂度$O(N^3)$
+
+// 如果您觉得我的题解对您有帮助的话，麻烦给个赞鼓励一下吧^o^
+
+
+// ### 代码
+
+// ```java
 class Solution {
     public boolean isScramble(String s1, String s2) {
         char[] chs1 = s1.toCharArray();
@@ -84,11 +84,11 @@ class Solution {
         return dp[0][0][n];
     }
 }
-```
+// ```
 
-当然也可以用递归写
+// 当然也可以用递归写
 
-```java []
+// ```java []
 class Solution {
     public boolean isScramble(String s1, String s2) {
         // 长度不等，必定不能变换
@@ -128,9 +128,9 @@ class Solution {
         return false;
     }
 }
-```
+// ```
 
-```python []
+// ```python []
 class Solution:
     def isScramble(self, s1: str, s2: str) -> bool:
         if len(s1) != len(s2):
@@ -145,4 +145,4 @@ class Solution:
                     (self.isScramble(s1[:i], s2[-i:]) and self.isScramble(s1[i:], s2[:-i])):
                 return True
         return False
-```
+// ```

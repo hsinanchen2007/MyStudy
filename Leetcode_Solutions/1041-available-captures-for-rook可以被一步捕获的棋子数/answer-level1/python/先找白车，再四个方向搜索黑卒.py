@@ -1,6 +1,6 @@
-先暴力枚举发现`白车`的位置，然后从此位置出发，上下左右四个方向开始搜索
+# 先暴力枚举发现`白车`的位置，然后从此位置出发，上下左右四个方向开始搜索
 
-```python
+# ```python
 class Solution:
     def numRookCaptures(self, board: List[List[str]]) -> int:
         # 定义上下左右四个方向
@@ -23,4 +23,4 @@ class Solution:
                                 break
                     return cnt
         return 0
-```
+# ```

@@ -1,7 +1,7 @@
-直接粘代码吧，这个不太难理解：
+// 直接粘代码吧，这个不太难理解：
 
-暴力算法
-```golang []
+// 暴力算法
+// ```golang []
 func intToRoman(num int) string {
 	var roman string
 
@@ -16,10 +16,10 @@ func intToRoman(num int) string {
 
 	return roman
 }
-```
+// ```
 
-贪心算法
-```golang []
+// 贪心算法
+// ```golang []
 func intToRoman(num int) (roman string) {
 	romanNum := []int{1000,900,500,400,100,90,50,40,10,9,5,4,1}
 	romanStr := []string{"M","CM","D","CD","C","XC","L","XL","X","IX","V","IV","I"}
@@ -32,6 +32,6 @@ func intToRoman(num int) (roman string) {
 
 	return
 }
-```
+// ```
 
-有问题，欢迎讨论。
+// 有问题，欢迎讨论。

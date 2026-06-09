@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/4b8c46f5af236b6e52869e8c72fcd169cf58713b17f08df7f340dd1b8ab9b79d-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/4b8c46f5af236b6e52869e8c72fcd169cf58713b17f08df7f340dd1b8ab9b79d-image.png)
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {character}
@@ -27,4 +27,4 @@ var firstUniqChar = function(s) {
     }
     return ' '
 };
-```
+// ```

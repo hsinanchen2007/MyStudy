@@ -1,5 +1,5 @@
-比较tricky的地方就是，需要记录下每一步的最小值，具体看minStackPush函数的实现
-```
+// 比较tricky的地方就是，需要记录下每一步的最小值，具体看minStackPush函数的实现
+// ```
 #define MAX_NUM 20001
 
 typedef struct {
@@ -51,5 +51,5 @@ void minStackFree(MinStack* obj) {
     free(obj);
 }
 
-```
-![image.png](https://pic.leetcode-cn.com/89ec8893208182cd843fe729973aa2e31ad14a083244854e2713f481375ccc9c-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/89ec8893208182cd843fe729973aa2e31ad14a083244854e2713f481375ccc9c-image.png)

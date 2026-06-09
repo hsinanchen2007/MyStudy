@@ -1,29 +1,29 @@
-## 60.n个骰子的点数
+// ## 60.n个骰子的点数
 
-### Information
+// ### Information
 
-* TIME: 2020/02/24
-* LINK: [Click Here](https://leetcode-cn.com/problems/nge-tou-zi-de-dian-shu-lcof/)
-* TAG: `DP`
+// * TIME: 2020/02/24
+// * LINK: [Click Here](https://leetcode-cn.com/problems/nge-tou-zi-de-dian-shu-lcof/)
+// * TAG: `DP`
 
-### Description
+// ### Description
 
-> 把n个骰子扔在地上，所有骰子朝上一面的点数之和为s。输入n，打印出s的所有可能的值出现的概率。
->
-> 你需要用一个浮点数数组返回答案，其中第 i 个元素代表这 n 个骰子所能掷出的点数集合中第 i 小的那个的概率。
+// > 把n个骰子扔在地上，所有骰子朝上一面的点数之和为s。输入n，打印出s的所有可能的值出现的概率。
+// >
+// > 你需要用一个浮点数数组返回答案，其中第 i 个元素代表这 n 个骰子所能掷出的点数集合中第 i 小的那个的概率。
 
-### Example
+// ### Example
 
-```text
+// ```text
 输入: 1
 输出: [0.16667,0.16667,0.16667,0.16667,0.16667,0.16667]
-```
+// ```
 
-### My Answer
+// ### My Answer
 
-> `P(n,sum)=p(n-1,sum-1)+p(n-1,sum-2)+...+p(n-1,sum-6)`
+// > `P(n,sum)=p(n-1,sum-1)+p(n-1,sum-2)+...+p(n-1,sum-6)`
 
-```java
+// ```java
 class Solution {
     public double[] twoSum(int n) {
         int[][] dp = new int[12][70];
@@ -49,13 +49,13 @@ class Solution {
         return res;
     }
 }
-```
+// ```
 
-### Best Answer
+// ### Best Answer
 
-> 空间压缩
+// > 空间压缩
 
-```java
+// ```java
 class Solution {
     public double[] twoSum(int n) {
         int[] dp = new int[6 * n + 1];
@@ -82,23 +82,23 @@ class Solution {
         return res;
     }
 }
-```
+// ```
 
-### Extend & Reference
+// ### Extend & Reference
 
-> 来源：力扣（LeetCode）
-> 链接：https://leetcode-cn.com
-> 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+// > 来源：力扣（LeetCode）
+// > 链接：https://leetcode-cn.com
+// > 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
-### More
+// ### More
 
-> **更多题解，请访问我的GitHub仓库：[LeetCode 刷题日记](https://github.com/ZhuoZhuoCrayon/my-Nodes/blob/master/Daily/README_2020.md)**
->
-> ![alt](https://pic.leetcode-cn.com/f3d090c43e12089ad3613ca36ed0308e0deed65562a99743a4736b4f1be110c9-file_1582539723902)
->
-> [**更多笔记**](https://github.com/ZhuoZhuoCrayon/my-Nodes)：**`Vue` `Java SSM 框架` `阿里云服务器` `JavaScript/HTML/CSS`   `数据库` ...**
->
-> **我的GitHub主页 -> [ZhuoZhuoCrayon](https://github.com/ZhuoZhuoCrayon)**
->
-> 共勉~
+// > **更多题解，请访问我的GitHub仓库：[LeetCode 刷题日记](https://github.com/ZhuoZhuoCrayon/my-Nodes/blob/master/Daily/README_2020.md)**
+// >
+// > ![alt](https://pic.leetcode-cn.com/f3d090c43e12089ad3613ca36ed0308e0deed65562a99743a4736b4f1be110c9-file_1582539723902)
+// >
+// > [**更多笔记**](https://github.com/ZhuoZhuoCrayon/my-Nodes)：**`Vue` `Java SSM 框架` `阿里云服务器` `JavaScript/HTML/CSS`   `数据库` ...**
+// >
+// > **我的GitHub主页 -> [ZhuoZhuoCrayon](https://github.com/ZhuoZhuoCrayon)**
+// >
+// > 共勉~
 

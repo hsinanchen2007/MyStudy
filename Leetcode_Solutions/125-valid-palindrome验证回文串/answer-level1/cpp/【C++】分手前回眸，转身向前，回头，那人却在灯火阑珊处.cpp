@@ -1,7 +1,7 @@
-1.dp初始化说好不分手
-2.转身，回眸
-3.确认过眼神，我遇上对的人
-```
+// 1.dp初始化说好不分手
+// 2.转身，回眸
+// 3.确认过眼神，我遇上对的人
+// ```
 class Solution {
 public:
     static bool needRemove (char c) 
@@ -24,4 +24,4 @@ public:
         return *dp.rbegin();
     }
 };
-```
+// ```

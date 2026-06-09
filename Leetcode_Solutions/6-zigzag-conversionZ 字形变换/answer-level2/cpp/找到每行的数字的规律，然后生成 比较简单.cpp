@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-基本思路就是根据规律，确定每一行的内容
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 基本思路就是根据规律，确定每一行的内容
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string convert(string s, int numRows) {
@@ -56,5 +56,5 @@ public:
         return strResult;
     }
 };
-```
-每到双百 有点遗憾
+// ```
+// 每到双百 有点遗憾

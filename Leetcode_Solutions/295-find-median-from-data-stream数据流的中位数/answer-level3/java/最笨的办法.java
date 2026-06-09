@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MedianFinder {
     ArrayList<Integer> list = new ArrayList<>();
     /** initialize your data structure here. */
@@ -40,4 +40,4 @@ class MedianFinder {
  * obj.addNum(num);
  * double param_2 = obj.findMedian();
  */
-```
+// ```

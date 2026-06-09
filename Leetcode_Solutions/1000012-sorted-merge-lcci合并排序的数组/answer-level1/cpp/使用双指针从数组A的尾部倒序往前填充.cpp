@@ -1,11 +1,11 @@
-### 解题思路
-使用双指针从数组A的尾部倒序往前填充，「就地」算法
+// ### 解题思路
+// 使用双指针从数组A的尾部倒序往前填充，「就地」算法
 
-该题与 [LeetCode-88题](https://leetcode-cn.com/problems/merge-sorted-array/) 完全相同，可作为参考
+// 该题与 [LeetCode-88题](https://leetcode-cn.com/problems/merge-sorted-array/) 完全相同，可作为参考
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void merge(vector<int>& A, int m, vector<int>& B, int n) {
@@ -24,4 +24,4 @@ public:
                 A[cur--] = B[j--];
     }
 };
-```
+// ```

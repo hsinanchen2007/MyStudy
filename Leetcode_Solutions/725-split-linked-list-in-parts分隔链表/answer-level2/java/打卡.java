@@ -1,9 +1,9 @@
-### 解题思路
-    用数组保存，难点是计算数组大小
+// ### 解题思路
+//     用数组保存，难点是计算数组大小
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -51,4 +51,4 @@ class Solution {
 
     }
 }
-```
+// ```

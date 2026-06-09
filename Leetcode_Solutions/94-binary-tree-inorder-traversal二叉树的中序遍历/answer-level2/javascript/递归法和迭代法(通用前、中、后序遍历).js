@@ -1,6 +1,6 @@
-### 递归法
+// ### 递归法
 
-```js
+// ```js
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -19,28 +19,28 @@ var inorderTraversal = function(root) {
     return []
   }
 }
-```
+// ```
 
-### 颜色标记法(迭代法, 模拟系统栈)
+// ### 颜色标记法(迭代法, 模拟系统栈)
 
-使用`颜色标记法`剖析树在中序遍历下的递归操作, 思路如下:
+// 使用`颜色标记法`剖析树在中序遍历下的递归操作, 思路如下:
 
-1. 将访问过的元素标记为灰色, 未访问过的元素标记为白色;
-2. 从栈顶取出访问元素:
-   1. 若为灰色元素, 则打印之;
-   2. 若为白色元素, 按照`右 -> 中 -> 左`的顺序推入栈, 同时将白色元素标记为灰色元素;
+// 1. 将访问过的元素标记为灰色, 未访问过的元素标记为白色;
+// 2. 从栈顶取出访问元素:
+//    1. 若为灰色元素, 则打印之;
+//    2. 若为白色元素, 按照`右 -> 中 -> 左`的顺序推入栈, 同时将白色元素标记为灰色元素;
 
-```js
+// ```js
      4
     / \
    2   5
   / \
  1   3
-```
+// ```
 
-在如上所示树中, 模拟系统栈图解其执行过程如下:
+// 在如上所示树中, 模拟系统栈图解其执行过程如下:
 
-```js
+// ```js
 white 2
 gray  4
 white 5
@@ -60,9 +60,9 @@ white 5
 white 3
 gray  4
 white 5
-```
+// ```
 
-```js
+// ```js
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -97,10 +97,10 @@ var inorderTraversal = function(root) {
 
   return printArr
 }
-```
+// ```
 
-### Sister Title
+// ### Sister Title
 
-144、94、145
+// 144、94、145
 
-> 为确保内容的实时、准确性, 可以查看[JavaScript 题解](https://github.com/MuYunyun/blog/blob/master/LeetCode/README.md)
+// > 为确保内容的实时、准确性, 可以查看[JavaScript 题解](https://github.com/MuYunyun/blog/blob/master/LeetCode/README.md)

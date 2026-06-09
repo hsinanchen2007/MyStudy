@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def sequenceReconstruction(self, org: List[int], seqs: List[List[int]]) -> bool:
         if org == [] : return False # special case
@@ -36,4 +36,4 @@ class Solution:
                     queue.append(neibor)
                     rest -= 1
         return rest == 0
-```
+# ```

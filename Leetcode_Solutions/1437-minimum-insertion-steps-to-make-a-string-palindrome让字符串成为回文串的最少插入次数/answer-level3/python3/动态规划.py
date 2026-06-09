@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def minInsertions(self, s: str) -> int:
         """"
@@ -25,4 +25,4 @@ class Solution:
             dp.append(tmp)
         return dp[length][0]
         
-```
+# ```

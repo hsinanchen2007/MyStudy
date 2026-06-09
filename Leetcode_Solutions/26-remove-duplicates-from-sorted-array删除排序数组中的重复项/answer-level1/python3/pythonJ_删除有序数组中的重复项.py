@@ -1,10 +1,10 @@
-### 解题思路
-方法一：指针法
-构造指针保留最后一个不重复的元素，遍历过程对比元素，如果不同，则覆写
+# ### 解题思路
+# 方法一：指针法
+# 构造指针保留最后一个不重复的元素，遍历过程对比元素，如果不同，则覆写
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
         flag=0
@@ -15,13 +15,13 @@ class Solution:
                 flag+=1
                 nums[flag]=nums[i]
         return flag+1
-```
+# ```
 
-### 解题思路
-方法二：删除重复元素
+# ### 解题思路
+# 方法二：删除重复元素
 
-### 代码
-```python3
+# ### 代码
+# ```python3
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
         i=1
@@ -31,4 +31,4 @@ class Solution:
             else:
                 i+=1
         return len(nums)
-```
+# ```

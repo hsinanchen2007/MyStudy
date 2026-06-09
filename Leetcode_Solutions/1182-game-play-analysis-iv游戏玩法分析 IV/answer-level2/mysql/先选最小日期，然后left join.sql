@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+-- ### 解题思路
+-- 此处撰写解题思路
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 -- select 
 --     count(case when innerq.games_played is not NUll then 1 else Null end)/count(1) as fraction
@@ -30,4 +30,4 @@ Activity as A2
 on
 lhs.player_id=A2.player_id and lhs.date1 = A2.event_date - 1
 
-```
+-- ```

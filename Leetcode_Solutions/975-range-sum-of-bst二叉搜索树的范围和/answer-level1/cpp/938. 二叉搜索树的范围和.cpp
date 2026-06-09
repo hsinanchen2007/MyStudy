@@ -1,6 +1,6 @@
 
-递归解法：
-```
+// 递归解法：
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -21,10 +21,10 @@ public:
         return res;
     }
 };
-```
+// ```
 
-BFS 层序遍历
-```
+// BFS 层序遍历
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -54,14 +54,14 @@ public:
         return res;
     }
 };
-```
+// ```
 
-考虑二叉搜索树独特性质，左子树一定小于右子树
-当L >= 当前节点值，此时没有必要再遍历左子树，也即遍历左子树前，限定 L < 当前节点值;
-当R <= 当前节点值，此时没有必要再遍历右子树，也即遍历右子树前，限定 当前节点值 < R;
+// 考虑二叉搜索树独特性质，左子树一定小于右子树
+// 当L >= 当前节点值，此时没有必要再遍历左子树，也即遍历左子树前，限定 L < 当前节点值;
+// 当R <= 当前节点值，此时没有必要再遍历右子树，也即遍历右子树前，限定 当前节点值 < R;
 
-因此递归解法可更新为：
-```
+// 因此递归解法可更新为：
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -83,10 +83,10 @@ public:
         return res;
     }
 };
-```
+// ```
 
-BFS层次遍历解法可更新为：
-```
+// BFS层次遍历解法可更新为：
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -117,4 +117,4 @@ public:
         return res;
     }
 };
-```
+// ```

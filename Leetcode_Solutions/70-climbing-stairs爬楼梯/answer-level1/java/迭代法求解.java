@@ -1,5 +1,5 @@
-其实本题思想与斐波那契数列类似
-```java []
+// 其实本题思想与斐波那契数列类似
+// ```java []
 class Solution {
     public int climbStairs(int n) {
         if(n==1) return 1;
@@ -14,4 +14,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

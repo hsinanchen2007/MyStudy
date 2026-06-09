@@ -1,9 +1,9 @@
-### 解题思路
-没写，懒得写
+// ### 解题思路
+// 没写，懒得写
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 impl Solution {
     pub fn integer_break(n: i32) -> i32 {
         if n <= 3 {
@@ -24,4 +24,4 @@ impl Solution {
     }
 }
 
-```
+// ```

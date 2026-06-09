@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 func maxSumOfThreeSubarrays(nums []int, k int) []int {
 	times := 3
@@ -76,4 +76,4 @@ func maxSumOfThreeSubarrays(nums []int, k int) []int {
 
 	return result
 }
-```
+// ```

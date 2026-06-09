@@ -1,14 +1,14 @@
-### 解题思路
-其实主要思路大家应该都能想到，但在细节处理上有一点需要注意：如何返回头结点
-这里可以利用一个空的preHead结点，然后取地址赋值给pre，pre永远指向下一个Node
-pre第一次指向的时候就会连带更新preHead的Next为head结点
-后续运行过程中pre=pre.Next会自动更新pre
-最后返回preHead.Next
+// ### 解题思路
+// 其实主要思路大家应该都能想到，但在细节处理上有一点需要注意：如何返回头结点
+// 这里可以利用一个空的preHead结点，然后取地址赋值给pre，pre永远指向下一个Node
+// pre第一次指向的时候就会连带更新preHead的Next为head结点
+// 后续运行过程中pre=pre.Next会自动更新pre
+// 最后返回preHead.Next
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -36,4 +36,4 @@ func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
     }
     return preHead.Next
 }
-```
+// ```

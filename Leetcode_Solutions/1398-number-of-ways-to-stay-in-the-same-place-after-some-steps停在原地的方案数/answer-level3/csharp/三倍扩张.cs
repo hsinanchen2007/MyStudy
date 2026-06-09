@@ -1,11 +1,11 @@
-### 解题思路
-以当前位置和剩余步数 作为 子问题Key
-子问题 各自独立，且子问题 步数 是当前问题 步数的一部分
+// ### 解题思路
+// 以当前位置和剩余步数 作为 子问题Key
+// 子问题 各自独立，且子问题 步数 是当前问题 步数的一部分
 
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 using VT = System.ValueTuple<int, int>;
 class StayPos{
     UInt64 MODV = 1000000000 + 7;
@@ -57,4 +57,4 @@ public class Solution {
         return sp.NumWays(steps, arrLen);
     }
 }
-```
+// ```

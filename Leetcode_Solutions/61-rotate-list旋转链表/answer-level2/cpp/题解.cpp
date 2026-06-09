@@ -1,8 +1,8 @@
-### 解题思路
-找到res的首段，后与head连接，变成循环链表。然后断开
-### 代码
+// ### 解题思路
+// 找到res的首段，后与head连接，变成循环链表。然后断开
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -41,4 +41,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-dp[m][n] = Min(dp[m - 1][n], dp[m][n - 1]) + grid[m][n];
+// ### 解题思路
+// dp[m][n] = Min(dp[m - 1][n], dp[m][n - 1]) + grid[m][n];
 
-### 代码
-```c
+// ### 代码
+// ```c
 int Min(int a, int b) {
     return (a > b) ? b : a;
 }
@@ -27,4 +27,4 @@ int minPathSum(int** grid, int gridSize, int* gridColSize){
 
     return dp[gridSize - 1][*gridColSize - 1];
 }
-```
+// ```

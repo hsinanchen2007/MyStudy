@@ -1,9 +1,9 @@
-### 解题思路
-注意边界条件
+# ### 解题思路
+# 注意边界条件
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestValidParentheses(self, s: str) -> int:
         # dp
@@ -23,4 +23,4 @@ class Solution:
                     else:
                         dp[i] = dp[i - 1] + 2    
         return max(dp)
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
-关注他一起学习数据结构和算法
-https://www.zhihu.com/people/god-jiang
+// ### 解题思路
+// 关注他一起学习数据结构和算法
+// https://www.zhihu.com/people/god-jiang
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int cuttingRope(int n) {
         if(n==2){
@@ -20,4 +20,4 @@ class Solution {
         return (int)((res*n)%1000000007);
     }
 }
-```
+// ```

@@ -1,7 +1,7 @@
 
-主要是在解决重复的数据上进优化，在算法整体复杂度上改变不是太大
+// 主要是在解决重复的数据上进优化，在算法整体复杂度上改变不是太大
 
-```
+// ```
 class Solution {
 public:
    int threeSumClosest(vector<int>& nums, int target) {
@@ -33,5 +33,5 @@ public:
         return res;
     }
 };
-```
+// ```
 

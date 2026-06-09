@@ -1,4 +1,4 @@
-```
+// ```
 const int N = 5e5 + 10;
 
 int tmp[N];
@@ -27,4 +27,4 @@ public:
         return merge(nums, 0, nums.size() - 1);
     }
 };
-```
+// ```

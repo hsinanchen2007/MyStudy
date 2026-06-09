@@ -1,4 +1,4 @@
-```
+// ```
 typedef struct Elmt_ {
     int val;
     struct Elmt_ *next;
@@ -96,4 +96,4 @@ void myStackFree(MyStack* obj) {
  
  * myStackFree(obj);
 */
-```
+// ```

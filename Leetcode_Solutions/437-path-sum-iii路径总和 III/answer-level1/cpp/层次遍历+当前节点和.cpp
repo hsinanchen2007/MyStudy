@@ -1,9 +1,9 @@
-### 解题思路
-1. 层次遍历每一个节点。
-2. 以当前节点开始，路径上和为sum的数量。
-### 代码
+// ### 解题思路
+// 1. 层次遍历每一个节点。
+// 2. 以当前节点开始，路径上和为sum的数量。
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -55,4 +55,4 @@ public:
         Sum(root->right, sum, cur_sum, cur_num);
     }
 };
-```
+// ```

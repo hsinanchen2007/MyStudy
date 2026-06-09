@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverse(self, x: int) -> int:
 
@@ -17,4 +17,4 @@ class Solution:
         return(sign*result_abs)
 
 
-```
+# ```

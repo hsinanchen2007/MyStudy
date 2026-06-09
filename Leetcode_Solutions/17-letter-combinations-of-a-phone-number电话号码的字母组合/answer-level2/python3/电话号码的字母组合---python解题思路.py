@@ -1,7 +1,7 @@
-马上想到的就是把1~9和对应得字母的关系保存到字典里面
-然后就是暴力破解（滑稽）
+# 马上想到的就是把1~9和对应得字母的关系保存到字典里面
+# 然后就是暴力破解（滑稽）
 
-```python
+# ```python
 class Solution:
     def letterCombinations(self, digits: str) -> List[str]:
         letter_dict = {
@@ -26,11 +26,11 @@ class Solution:
                         tem.append(each + each_tem)
                 result = tem
         return result
-```
+# ```
 
-运行结果
+# 运行结果
 
-```
+# ```
 执行用时 :32 ms, 在所有 python3 提交中击败了98.62% 的用户
 内存消耗 :13.8 MB, 在所有 python3 提交中击败了5.30%的用户
 
@@ -39,13 +39,13 @@ class Solution:
 
 执行用时 :28 ms, 在所有 python3 提交中击败了99.76% 的用户
 内存消耗 :13.8 MB, 在所有 python3 提交中击败了5.30%的用户
-```
+# ```
 
-啥？暴力破解就通过了吗？这个是我没有想到的。
+# 啥？暴力破解就通过了吗？这个是我没有想到的。
 
-追求一下pythonic
+# 追求一下pythonic
 
-```python
+# ```python
 class Solution:
     def letterCombinations(self, digits: str) -> List[str]:
         letter_dict = {
@@ -63,17 +63,17 @@ class Solution:
         for digit in digits[1:]:
             result = [ i + j for j in letter_dict[digit] for i in result]
         return result
-```
+# ```
 
-话说极简的pythonic的可读性可真不友好，
+# 话说极简的pythonic的可读性可真不友好，
 
-看了官方的解答，又学习到了一个名词，回溯
-这也是5大经典算法之一的 回溯算法
-回溯法：回溯算法实际上一个类似枚举的搜索尝试过程，主要是在搜索尝试过程中寻找问题的解，当发现已不满足求解条件时，就“回溯”返回，尝试别的路径。深度优先；
+# 看了官方的解答，又学习到了一个名词，回溯
+# 这也是5大经典算法之一的 回溯算法
+# 回溯法：回溯算法实际上一个类似枚举的搜索尝试过程，主要是在搜索尝试过程中寻找问题的解，当发现已不满足求解条件时，就“回溯”返回，尝试别的路径。深度优先；
 
-抄袭一下官方的代码
+# 抄袭一下官方的代码
 
-```python
+# ```python
 class Solution:
     def letterCombinations(self, digits):
         if not digits: return []
@@ -96,11 +96,11 @@ class Solution:
         result = []
         backtrack("", digits)
         return result
-```
+# ```
 
-运行结果
+# 运行结果
 
-```
+# ```
 执行用时 :32 ms, 在所有 python3 提交中击败了98.62% 的用户
 内存消耗 :13.8 MB, 在所有 python3 提交中击败了5.30%的用户
 
@@ -109,11 +109,11 @@ class Solution:
 
 执行用时 :44 ms, 在所有 python3 提交中击败了69.70% 的用户
 内存消耗 :13.8 MB, 在所有 python3 提交中击败了5.30%的用户
-```
+# ```
 
-用 “23” 测试用例来测试的具体过程
+# 用 “23” 测试用例来测试的具体过程
 
-```python
+# ```python
 class Solution:
     def letterCombinations(self, digits):
         if not digits: return []
@@ -160,8 +160,8 @@ result加上 cd
 result加上 ce
 调用backtrack传入 combination + letter= cf next_digits[1:]=
 result加上 cf
-```
+# ```
 
-感觉我是想不到这样的解法了， 诶
+# 感觉我是想不到这样的解法了， 诶
 
-欢迎来github上看更多题目的解答[力扣解题思路](https://github.com/WRAllen/LeetCode)
+# 欢迎来github上看更多题目的解答[力扣解题思路](https://github.com/WRAllen/LeetCode)

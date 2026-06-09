@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int mySqrt(int x){
 
     int max=x,min=0;
@@ -27,4 +27,4 @@ int mySqrt(int x){
     //并且 max的平方小于x，min的平方大于x（直接返回mid的情况除外）
     return max;
 }
-```
+// ```

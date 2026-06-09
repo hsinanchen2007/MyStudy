@@ -1,6 +1,6 @@
 
-#### 代码
-```
+// #### 代码
+// ```
 class Solution {
 public:
     bool exist(vector<vector<char>>& board, string word) {
@@ -34,4 +34,4 @@ public:
         else return false; //不相等
     }
 };
-```
+// ```

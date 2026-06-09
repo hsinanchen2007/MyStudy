@@ -1,4 +1,4 @@
-```
+// ```
 func compressString(S string) string {
 	if len(S) == 0 {
 		return S
@@ -23,4 +23,4 @@ func compressString(S string) string {
 	}
 	return ans
 }
-```
+// ```

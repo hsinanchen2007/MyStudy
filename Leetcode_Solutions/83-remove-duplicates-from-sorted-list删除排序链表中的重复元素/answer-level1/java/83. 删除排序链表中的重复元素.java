@@ -1,6 +1,6 @@
-注意点：循环条件中要设置 pre != null && pre.next != null 缺一不可 否则会空指针异常
+// 注意点：循环条件中要设置 pre != null && pre.next != null 缺一不可 否则会空指针异常
 
-```
+// ```
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -26,4 +26,4 @@ class Solution {
         return head;
     }
 }
-```
+// ```

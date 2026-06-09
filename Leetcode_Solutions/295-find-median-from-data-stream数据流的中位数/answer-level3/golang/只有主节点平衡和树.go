@@ -1,5 +1,5 @@
-自建一个树结构，通过旋转维护主结点两侧平衡，非主流解法，娱乐。。
-```
+// 自建一个树结构，通过旋转维护主结点两侧平衡，非主流解法，娱乐。。
+// ```
 type Node struct {
 	LeftNode  *Node
 	RightNode *Node
@@ -121,4 +121,4 @@ func (this *MedianFinder) FindMedian() float64 {
 
 
 }
-```
+// ```

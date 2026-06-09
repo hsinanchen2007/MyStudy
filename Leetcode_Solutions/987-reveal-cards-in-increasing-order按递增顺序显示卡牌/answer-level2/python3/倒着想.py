@@ -1,9 +1,9 @@
-### 解题思路
-一次通过，不容易。
+# ### 解题思路
+# 一次通过，不容易。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def deckRevealedIncreasing(self, deck: List[int]) -> List[int]:
         deck.sort()
@@ -12,4 +12,4 @@ class Solution:
             res = [deck[i]] + [res.pop()] + res
         return res
 
-```
+# ```

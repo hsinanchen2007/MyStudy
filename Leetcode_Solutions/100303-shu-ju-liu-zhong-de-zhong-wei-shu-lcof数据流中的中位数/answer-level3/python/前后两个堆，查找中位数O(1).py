@@ -1,11 +1,11 @@
-### 解题思路
-前半部分用最大堆，后半部分用最小堆
-python只有小堆顶，大堆顶要将元素转为负数
+# ### 解题思路
+# 前半部分用最大堆，后半部分用最小堆
+# python只有小堆顶，大堆顶要将元素转为负数
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class MedianFinder:
 
     def __init__(self):
@@ -37,4 +37,4 @@ class MedianFinder:
         else:
             return -self.max_heap[0]
             
-```
+# ```

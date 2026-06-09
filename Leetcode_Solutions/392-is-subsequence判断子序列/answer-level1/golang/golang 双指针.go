@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-双指针
+// 双指针
 
 
-### 参考代码
+// ### 参考代码
 
-```
+// ```
 func isSubsequence(s string, t string) bool {
     left :=0
     tlen := len(t)
@@ -26,7 +26,7 @@ func isSubsequence(s string, t string) bool {
     }
     return false
 }
-```
-**更多题解可以在我的[github](https://github.com/LZH139/leetcode_Go)上看到，每天都在持续更新，觉得还不错的话，记得点个小星星哈，谢谢啦**
+// ```
+// **更多题解可以在我的[github](https://github.com/LZH139/leetcode_Go)上看到，每天都在持续更新，觉得还不错的话，记得点个小星星哈，谢谢啦**
 
 

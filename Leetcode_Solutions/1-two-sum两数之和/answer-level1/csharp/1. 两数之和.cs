@@ -1,7 +1,7 @@
-个人解法
-遍历
-时间复杂度O(n^2)，空间复杂度O(1)
-```
+// 个人解法
+// 遍历
+// 时间复杂度O(n^2)，空间复杂度O(1)
+// ```
 public class Solution {
     public int[] TwoSum(int[] nums, int target)
     {
@@ -25,12 +25,12 @@ public class Solution {
         return n;
     }
 }
-```
+// ```
 
-学习解法
-Hash表
-时间复杂度O(n)，空间复杂度O(nn)
-```
+// 学习解法
+// Hash表
+// 时间复杂度O(n)，空间复杂度O(nn)
+// ```
 public class Solution {
     public int[] TwoSum(int[] nums, int target)
     {
@@ -53,4 +53,4 @@ public class Solution {
         return null;
     }
 }
-```
+// ```

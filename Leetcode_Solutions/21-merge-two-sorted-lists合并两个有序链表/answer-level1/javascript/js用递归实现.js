@@ -1,5 +1,5 @@
-其实用递归代码简答很多。
-```js
+// 其实用递归代码简答很多。
+// ```js
 var mergeTwoLists = function(l1, l2) {
     if(l1 === null)
         return l2;
@@ -13,4 +13,4 @@ var mergeTwoLists = function(l1, l2) {
         return l2;
     }
 };
-```
+// ```

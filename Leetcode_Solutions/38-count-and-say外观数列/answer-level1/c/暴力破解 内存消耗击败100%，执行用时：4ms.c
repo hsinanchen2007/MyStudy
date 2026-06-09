@@ -1,9 +1,9 @@
-### 解题思路
-暴力破解
+// ### 解题思路
+// 暴力破解
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * countAndSay(int n){
     int i;
     char *re=calloc(5000,sizeof(char));//注意空间要足够大
@@ -31,4 +31,4 @@ char * countAndSay(int n){
     }
     return s;
 }
-```
+// ```

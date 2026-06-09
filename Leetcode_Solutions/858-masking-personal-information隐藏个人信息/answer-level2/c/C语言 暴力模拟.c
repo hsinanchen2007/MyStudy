@@ -1,4 +1,4 @@
-```c
+// ```c
 #define SIZE 105
 
 void ToLower(char* s)
@@ -83,4 +83,4 @@ char * maskPII(char * S){
     return ret;
 }
 
-```
+// ```

@@ -1,5 +1,5 @@
-DFS,针对每个学生利用深度优先搜索直接朋友,并赋Mark数组表示已访问。java实现
-```
+// DFS,针对每个学生利用深度优先搜索直接朋友,并赋Mark数组表示已访问。java实现
+// ```
 class Solution {
     public int findCircleNum(int[][] M) {
         int ans = 0, N = M.length;
@@ -22,9 +22,9 @@ class Solution {
         }
     }
 }
-```
-并查集，开始时有N个学生，每个学生为一个朋友圈 circles[i]表示所有学生i所属的朋友圈，将是直接朋友且不属于同一个朋友圈的学生合并到同一个朋友圈
-```
+// ```
+// 并查集，开始时有N个学生，每个学生为一个朋友圈 circles[i]表示所有学生i所属的朋友圈，将是直接朋友且不属于同一个朋友圈的学生合并到同一个朋友圈
+// ```
 class Solution {
 public:
     int findCircleNum(vector<vector<int>>& M) {
@@ -69,5 +69,5 @@ public:
         return si;
     }
 };
-```
+// ```
 

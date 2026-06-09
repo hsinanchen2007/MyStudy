@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
-二分
-```java
+// ### 代码
+// 二分
+// ```java
 class Solution {
     public int splitArray(int[] nums, int m) {
         int n = nums.length;
@@ -46,10 +46,10 @@ class Solution {
         return cnt < m; 
     }
 }
-```
+// ```
 
-dp
-```java
+// dp
+// ```java
 class Solution {
     public int splitArray(int[] nums, int m) {
         int n = nums.length;
@@ -76,4 +76,4 @@ class Solution {
         return (int)dp[m][n];
     }
 }
-```
+// ```

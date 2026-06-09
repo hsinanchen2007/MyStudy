@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
-将sort函数的的compare重写，直接用sort函数实现按照costs[1]-costs[0]升序排序，前N个取第一位，后N个取第二位；
-### 代码
+// 将sort函数的的compare重写，直接用sort函数实现按照costs[1]-costs[0]升序排序，前N个取第一位，后N个取第二位；
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     static bool cmp(vector<int> a,vector<int> b)
@@ -30,4 +30,4 @@ public:
     }
     
 };
-```
+// ```

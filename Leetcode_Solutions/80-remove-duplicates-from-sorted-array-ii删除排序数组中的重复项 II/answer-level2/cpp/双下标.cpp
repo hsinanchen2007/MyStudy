@@ -1,10 +1,10 @@
-### 解题思路
-双下标
-![e615a42b80ed429c7346cf96de00070.jpg](https://pic.leetcode-cn.com/1a08d4e8c48b25f5a3bd60b22b573d260a87fb66c8b6756f47b1ff74bf20022c-e615a42b80ed429c7346cf96de00070.jpg)
+// ### 解题思路
+// 双下标
+// ![e615a42b80ed429c7346cf96de00070.jpg](https://pic.leetcode-cn.com/1a08d4e8c48b25f5a3bd60b22b573d260a87fb66c8b6756f47b1ff74bf20022c-e615a42b80ed429c7346cf96de00070.jpg)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) 
@@ -31,4 +31,4 @@ public:
         return k + 1;
     }
 };
-```
+// ```

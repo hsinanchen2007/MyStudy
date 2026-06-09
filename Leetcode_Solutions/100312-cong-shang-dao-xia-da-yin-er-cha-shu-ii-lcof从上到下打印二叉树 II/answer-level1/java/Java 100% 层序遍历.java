@@ -1,6 +1,6 @@
-典型层序遍历。
+// 典型层序遍历。
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -33,4 +33,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

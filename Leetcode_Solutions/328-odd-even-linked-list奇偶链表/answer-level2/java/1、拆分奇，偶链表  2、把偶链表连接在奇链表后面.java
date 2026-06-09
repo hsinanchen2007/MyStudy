@@ -1,6 +1,6 @@
-执行用时 :0 ms, 在所有 java 提交中击败了100.00% 的用户
-内存消耗 :36.6 MB, 在所有 java 提交中击败了93.63%的用户
-```
+// 执行用时 :0 ms, 在所有 java 提交中击败了100.00% 的用户
+// 内存消耗 :36.6 MB, 在所有 java 提交中击败了93.63%的用户
+// ```
 class Solution {
     public ListNode oddEvenList(ListNode head) {
         if(head == null || head.next == null || head.next.next == null)
@@ -25,4 +25,4 @@ class Solution {
         return tempOdd;
     }
 }
-```
+// ```

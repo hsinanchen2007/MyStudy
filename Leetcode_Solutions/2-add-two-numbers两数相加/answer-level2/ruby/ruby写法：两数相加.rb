@@ -1,4 +1,4 @@
-```ruby []
+# ```ruby []
 def add_two_numbers(l1, l2)
     head = ListNode.new(0)
     curr = head
@@ -21,4 +21,4 @@ def add_two_numbers(l1, l2)
     return head.next
     
 end
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
-map的思路：
-    要求相邻子区间的和为k的次数，可以转化为求区间[lefe,right]的和，假设[0,right]的和为sum，[0,left]的和为sum-k，则区间[lefe,right]的和实质上就为[0,right]的和 **减** [0,left]的和。
+// ### 解题思路
+// map的思路：
+//     要求相邻子区间的和为k的次数，可以转化为求区间[lefe,right]的和，假设[0,right]的和为sum，[0,left]的和为sum-k，则区间[lefe,right]的和实质上就为[0,right]的和 **减** [0,left]的和。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 /**********************方法2：map****************/
@@ -44,4 +44,4 @@ int subarraySum(vector<int>& nums, int k) {
     }
 */
 
-```
+// ```

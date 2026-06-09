@@ -1,4 +1,4 @@
-```
+// ```
 import (
 	"sort"
 	"strconv"
@@ -18,4 +18,4 @@ func reorderedPowerOf2(N int) bool {
 	})
 	return m[string(bs)]
 }
-```
+// ```

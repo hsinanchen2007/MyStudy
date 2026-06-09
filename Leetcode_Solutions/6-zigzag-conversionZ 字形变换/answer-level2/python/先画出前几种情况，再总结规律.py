@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def convert(self, s, numRows):
         """
@@ -36,4 +36,4 @@ class Solution(object):
             for i in item:
                 res+=i
         return res
-```
+# ```

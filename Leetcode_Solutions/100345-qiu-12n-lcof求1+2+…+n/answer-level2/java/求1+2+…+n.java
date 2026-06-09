@@ -1,9 +1,9 @@
-### 解题思路
-使用 && 短路的思路处理
+// ### 解题思路
+// 使用 && 短路的思路处理
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int sumNums(int n) {
         int sum = n;
@@ -12,4 +12,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

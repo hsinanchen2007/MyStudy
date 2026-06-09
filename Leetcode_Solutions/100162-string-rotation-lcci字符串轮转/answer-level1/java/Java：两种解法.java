@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean isFlipedString(String s1, String s2) {
         if(s1.length() != s2.length())
@@ -7,9 +7,9 @@ class Solution {
         return s1.contains(s2);
     }
 }
-```
+// ```
 
-```
+// ```
 class Solution {
     public boolean isFlipedString(String s1, String s2) {
         if(s1.length() != s2.length())
@@ -27,5 +27,5 @@ class Solution {
         return false;
     }
 }
-```
+// ```
 

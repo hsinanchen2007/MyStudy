@@ -1,9 +1,9 @@
-### 解题思路
-用递归
+// ### 解题思路
+// 用递归
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @param {string} p
@@ -30,4 +30,4 @@ let isMatch = (s,p)=>{
     }
 };
 
-```
+// ```

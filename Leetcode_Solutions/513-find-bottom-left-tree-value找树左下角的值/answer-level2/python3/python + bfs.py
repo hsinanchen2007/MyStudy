@@ -1,9 +1,9 @@
-### 解题思路
-bfs一下就搞定了
+# ### 解题思路
+# bfs一下就搞定了
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -23,4 +23,4 @@ class Solution:
             helper(root.right, depth + 1)
         helper(root, 0)
         return res[-1][0]
-```
+# ```

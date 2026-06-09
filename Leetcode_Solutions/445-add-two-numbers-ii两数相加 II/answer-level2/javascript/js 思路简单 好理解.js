@@ -1,11 +1,11 @@
-![image.png](https://pic.leetcode-cn.com/dedf00b594beb94f547b228f1888acab399a2ed9797ac0e641caa20c4e7d79e6-image.png)
+// ![image.png](https://pic.leetcode-cn.com/dedf00b594beb94f547b228f1888acab399a2ed9797ac0e641caa20c4e7d79e6-image.png)
 
-### 解题思路
-把两个链表转为数组进行相加，组成一个新的数组，再把新的数组转换为链表进行返回
+// ### 解题思路
+// 把两个链表转为数组进行相加，组成一个新的数组，再把新的数组转换为链表进行返回
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -77,4 +77,4 @@ function sum(a = 0, b = 0, c = 0) {
     last: last
   }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def orangesRotting(self,grid) -> int:
         spend_time = 0
@@ -44,4 +44,4 @@ class Solution:
         if len(good_it) > 0:
             return -1
         return spend_time     
-```
+# ```

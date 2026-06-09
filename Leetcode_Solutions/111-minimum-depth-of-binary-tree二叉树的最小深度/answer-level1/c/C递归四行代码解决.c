@@ -1,6 +1,6 @@
 
 
-```
+// ```
 int minDepth(struct TreeNode* root){
     if (!root) return 0;
     // 单节点计算左右子树最大深度
@@ -10,5 +10,5 @@ int minDepth(struct TreeNode* root){
     return fmin(minDepth(root->left), minDepth(root->right)) + 1;
 }
 
-```
+// ```
 

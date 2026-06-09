@@ -1,5 +1,5 @@
-思路定义一个二维列表，将每个符合条件的列表进去，最后一次for循环找出长度最大的子列表
-```
+// 思路定义一个二维列表，将每个符合条件的列表进去，最后一次for循环找出长度最大的子列表
+// ```
 import scala.collection.mutable.{ListBuffer, Map, Stack}
 object Solution {
     def findLengthOfLCIS(nums: Array[Int]): Int = {
@@ -28,4 +28,4 @@ object Solution {
         length
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func isMatch(s string, p string) bool {
 	return _is_match(s, p)
 }
@@ -24,4 +24,4 @@ func _is_match(s string, p string) bool {
 	}
 	return false
 }
-```
+// ```

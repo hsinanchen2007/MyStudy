@@ -1,5 +1,5 @@
-# 方法1：暴力2层循环
-```
+// # 方法1：暴力2层循环
+// ```
  func twoSum(nums []int, target int) []int {
     if len(nums)<2{
         return nil
@@ -12,12 +12,12 @@
             }
 }
    
-```
+// ```
 
 
 
-# 方法2：利用map记录
-```
+// # 方法2：利用map记录
+// ```
  func twoSum(nums []int, target int) []int {
     	m:=make(map[int]int)
         for i:=0;i<len(nums);i++{
@@ -29,7 +29,7 @@
         }
         return nil
 }
-```
+// ```
 
 
 

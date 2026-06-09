@@ -1,13 +1,13 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/94d666c0d0b6231033544179268533f41fab4cb83b384abe049750a41cd63ac6-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/94d666c0d0b6231033544179268533f41fab4cb83b384abe049750a41cd63ac6-image.png)
 
-- 通过 Map 进行计数
-- 通过forEach两层遍历
-- 通过Array.from(res).sort() 排序
+// - 通过 Map 进行计数
+// - 通过forEach两层遍历
+// - 通过Array.from(res).sort() 排序
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} mat
  * @param {number} k
@@ -36,4 +36,4 @@ var kWeakestRows = function(mat, k) {
   return arrX;
 
 };
-```
+// ```

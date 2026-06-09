@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean validWordAbbreviation(String word, String abbr) {
         //模拟法
@@ -37,4 +37,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

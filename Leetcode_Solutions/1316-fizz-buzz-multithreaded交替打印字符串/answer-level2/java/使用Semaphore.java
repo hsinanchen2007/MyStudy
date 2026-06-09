@@ -1,9 +1,9 @@
-### 解题思路
-依次释放而已
+// ### 解题思路
+// 依次释放而已
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class FizzBuzz {
     private int n;
 
@@ -92,4 +92,4 @@ class FizzBuzz {
         }
     }
 }
-```
+// ```

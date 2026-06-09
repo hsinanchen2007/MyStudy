@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-靠边元素的周边元素为0，把[i,j]位置周边8个位置的元素列出来后相加求和，然后根据当前元素的值和周边元素和的值进行判断
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 靠边元素的周边元素为0，把[i,j]位置周边8个位置的元素列出来后相加求和，然后根据当前元素的值和周边元素和的值进行判断
+// ### 代码
 
-```c
+// ```c
 
 int fun(int** board ,int i ,int j, int boardSize,int boardColSize)
 {
@@ -80,4 +80,4 @@ void gameOfLife(int** board, int boardSize, int* boardColSize)
 
 
 }
-```
+// ```

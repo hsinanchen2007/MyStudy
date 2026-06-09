@@ -1,9 +1,9 @@
-### 解题思路
-2种判断逻辑，如果对应的数字一致，接下来每个数字都需要在子树中找到，否则只需要dfs搜寻即可
+# ### 解题思路
+# 2种判断逻辑，如果对应的数字一致，接下来每个数字都需要在子树中找到，否则只需要dfs搜寻即可
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -42,4 +42,4 @@ class Solution:
         else:
             return False
 
-```
+# ```

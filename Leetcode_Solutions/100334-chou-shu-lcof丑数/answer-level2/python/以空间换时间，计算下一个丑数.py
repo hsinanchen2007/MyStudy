@@ -1,9 +1,9 @@
-### 解题思路
-计算下一个丑数
+# ### 解题思路
+# 计算下一个丑数
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def nthUglyNumber(self, n: int) -> int:
         p2,p3,p5=0,0,0
@@ -15,4 +15,4 @@ class Solution:
             if uglyNumber[-1]==uglyNumber[p5]*5: p5+=1
         return uglyNumber[-1]
 
-```
+# ```

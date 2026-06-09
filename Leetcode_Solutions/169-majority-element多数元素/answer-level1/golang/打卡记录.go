@@ -1,5 +1,5 @@
-1. 哈希表
-```
+// 1. 哈希表
+// ```
 func majorityElement(nums []int) int {
 	m := make(map[int]int)
 	var max int
@@ -12,16 +12,16 @@ func majorityElement(nums []int) int {
 	}
 	return max
 }
-```
-2. 排序法
-```
+// ```
+// 2. 排序法
+// ```
 func majorityElement(nums []int) int {
 	sort.Ints(nums)
 	return nums[len(nums)/2]
 }
-```
-3. 摩尔排序
-```
+// ```
+// 3. 摩尔排序
+// ```
 func majorityElement(nums []int) int {
 	var (
 		k     = nums[0]
@@ -39,4 +39,4 @@ func majorityElement(nums []int) int {
 	}
 	return k
 }
-```
+// ```

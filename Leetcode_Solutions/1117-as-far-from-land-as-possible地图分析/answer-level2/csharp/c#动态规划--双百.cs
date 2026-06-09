@@ -1,11 +1,11 @@
-# 解题思路
-    1、通过定义bool类型判断是否全0或全1，返回-1
-    2、分别从左上到右下、从右下到左上进行遍历
-    3、如果grid[i][j]为0，则将newGrid的值设置为100**注意，不能用int.MaxValue，会报错**
-    4、最后遍历一遍输出结果
+// # 解题思路
+//     1、通过定义bool类型判断是否全0或全1，返回-1
+//     2、分别从左上到右下、从右下到左上进行遍历
+//     3、如果grid[i][j]为0，则将newGrid的值设置为100**注意，不能用int.MaxValue，会报错**
+//     4、最后遍历一遍输出结果
 
-# 实现代码
-```
+// # 实现代码
+// ```
 public class Solution {
     public int MaxDistance(int[][] grid) {
         var res = 0;
@@ -52,4 +52,4 @@ public class Solution {
         return res;
     }
 }
-```
+// ```

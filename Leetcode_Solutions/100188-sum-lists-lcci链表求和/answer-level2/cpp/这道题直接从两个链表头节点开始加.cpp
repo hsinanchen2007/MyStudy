@@ -1,13 +1,13 @@
-### 解题思路
-sum = carry + l1->val + l2->val;
-carry = sum /10;
+// ### 解题思路
+// sum = carry + l1->val + l2->val;
+// carry = sum /10;
 
-ListNode* tmp = (sum%10)
-p(head)->tmp1->tmp2....
+// ListNode* tmp = (sum%10)
+// p(head)->tmp1->tmp2....
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -56,4 +56,4 @@ public:
         return head->next;
     }
 };
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-思路就是source每循环一遍，计数加一
-### 代码
+// ### 解题思路
+// 思路就是source每循环一遍，计数加一
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int shortestWay(string source, string target) {
@@ -28,4 +28,4 @@ public:
         return count+1;
     }
 };
-```
+// ```

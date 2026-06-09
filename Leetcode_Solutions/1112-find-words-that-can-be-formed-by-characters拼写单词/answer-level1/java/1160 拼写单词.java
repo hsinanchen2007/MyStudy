@@ -1,11 +1,11 @@
-### 解题思路
-1. 分别为词汇表和字母表建立一张哈希表
-2. 比较字母表中是否包含词汇表的所有key,若不包含，则直接返回
-3. 若包含，则比较字母表中的value值是否全部大于等于词汇表中的value值，若不成立，则直接返回
+// ### 解题思路
+// 1. 分别为词汇表和字母表建立一张哈希表
+// 2. 比较字母表中是否包含词汇表的所有key,若不包含，则直接返回
+// 3. 若包含，则比较字母表中的value值是否全部大于等于词汇表中的value值，若不成立，则直接返回
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int countCharacters(String[] words, String chars) {
         char ch[]=chars.toCharArray();
@@ -49,4 +49,4 @@ class Solution {
     return result;
     }
 }
-```
+// ```

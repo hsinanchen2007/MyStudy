@@ -1,10 +1,10 @@
-![image.png](https://pic.leetcode-cn.com/df325c51fb1a17808ff603e8ddd7ecb5b6dc5655b57e0d3c6edd56432752a899-image.png)
+// ![image.png](https://pic.leetcode-cn.com/df325c51fb1a17808ff603e8ddd7ecb5b6dc5655b57e0d3c6edd56432752a899-image.png)
 
-### 解题思路
-思路明确一点，就是说逐层打印，每行每列进行，采用嵌套递归，话不多说，上代码。
+// ### 解题思路
+// 思路明确一点，就是说逐层打印，每行每列进行，采用嵌套递归，话不多说，上代码。
 
-### 代码
-```cpp
+// ### 代码
+// ```cpp
 class Solution {
 public:
     void spril(int x,int y,int num,int n,vector<vector<int>> &ans)
@@ -30,4 +30,4 @@ public:
         return ans;
     }
 };
-```
+// ```

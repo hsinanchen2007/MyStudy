@@ -1,9 +1,9 @@
-### 解题思路
-两个键值对数组，$nums,$map;$map就是$nums的键值对颠倒；一次for循环中每循环一次$nums就给$map添加一个元素，用array_key_exists去判断目标值减当前值在$map的key中是否存在，存在则return，不必向下循环全部
+// ### 解题思路
+// 两个键值对数组，$nums,$map;$map就是$nums的键值对颠倒；一次for循环中每循环一次$nums就给$map添加一个元素，用array_key_exists去判断目标值减当前值在$map的key中是否存在，存在则return，不必向下循环全部
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -22,4 +22,4 @@ class Solution {
         }
     }
 }
-```
+// ```

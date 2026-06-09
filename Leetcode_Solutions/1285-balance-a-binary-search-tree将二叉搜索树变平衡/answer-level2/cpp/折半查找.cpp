@@ -1,8 +1,8 @@
-### 解题思路
-左右单旋可能超时，既然是AVL，可以考虑二分构造一棵树
-### 代码
+// ### 解题思路
+// 左右单旋可能超时，既然是AVL，可以考虑二分构造一棵树
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -47,4 +47,4 @@ public:
         return ro;
     }
 };
-```
+// ```

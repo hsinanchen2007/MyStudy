@@ -1,8 +1,8 @@
-***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，持续更新。***
+// ***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，持续更新。***
 
-将word和对应的索引位置存入map，因为word可能有相同存在，所以使用Map<String, List<Integer>>，然后根据需要查询的string获取对应的索引集，两两求出最小值即可。
+// 将word和对应的索引位置存入map，因为word可能有相同存在，所以使用Map<String, List<Integer>>，然后根据需要查询的string获取对应的索引集，两两求出最小值即可。
 
-```
+// ```
 class WordDistance {
     Map<String, List<Integer>> map;
 
@@ -34,4 +34,4 @@ class WordDistance {
     }
 }
 
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-依赖递归就死掉，还是向大佬看齐
+// ### 解题思路
+// 依赖递归就死掉，还是向大佬看齐
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int Fib(int n) {
         int a=0,b=1,sum;        
@@ -15,4 +15,4 @@ public class Solution {
         return a;
     }
 }
-```
+// ```

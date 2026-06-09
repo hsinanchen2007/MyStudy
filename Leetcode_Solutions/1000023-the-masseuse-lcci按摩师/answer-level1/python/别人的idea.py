@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def massage(self, nums: List[int]) -> int:
         index_pre1 = 0
@@ -13,4 +13,4 @@ class Solution:
             index_pre1 = index_pre2
             index_pre2 = t
         return index_pre2
-```
+# ```

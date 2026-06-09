@@ -1,9 +1,9 @@
-### 解题思路
-链表指针，注意点在于链表的返回以及 新链表的定义需要一个指针不动，用来指向求和后的数
+// ### 解题思路
+// 链表指针，注意点在于链表的返回以及 新链表的定义需要一个指针不动，用来指向求和后的数
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -42,4 +42,4 @@ class Solution {
         return pre.next;
     }
 }
-```
+// ```

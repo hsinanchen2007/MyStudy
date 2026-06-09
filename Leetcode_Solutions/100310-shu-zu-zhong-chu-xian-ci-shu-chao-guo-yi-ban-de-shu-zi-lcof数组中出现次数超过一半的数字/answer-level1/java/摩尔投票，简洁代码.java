@@ -1,4 +1,4 @@
-```
+// ```
 public int majorityElement(int[] nums) {
     int c=0,v=-1;
     for(int num:nums){
@@ -7,4 +7,4 @@ public int majorityElement(int[] nums) {
     }
     return v;
 }
-```
+// ```

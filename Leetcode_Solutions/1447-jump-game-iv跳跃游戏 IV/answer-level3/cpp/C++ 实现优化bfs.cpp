@@ -1,31 +1,31 @@
-### 解题思路
-$\LaTeX{}$:优化的$bfs$
-&emsp;我们知道一共有$3$种情况
+// ### 解题思路
+// $\LaTeX{}$:优化的$bfs$
+// &emsp;我们知道一共有$3$种情况
 
-$$\left\{\begin{array}{l}
-i \rightarrow i - 1 &①\\
-i \rightarrow i + 1 &②\\
-i^{\curvearrowright}loc(have\; same\;vlaue)&③
-\end{array}\right.$$
+// $$\left\{\begin{array}{l}
+// i \rightarrow i - 1 &①\\
+// i \rightarrow i + 1 &②\\
+// i^{\curvearrowright}loc(have\; same\;vlaue)&③
+// \end{array}\right.$$
 
-&emsp;但是直接一步步来就会超时，因为其中有很多连续重复的$eg:7,7,7,7\cdots 23,23,23$类似这种，实际上这种**连续重复的都可以看为是一个**，这个需要你稍微仔细考虑下。
-因为我也是个小白，所以我的方法挺笨的：
-- 第一步$\Rrightarrow$初始化1：重点是初始化一个$int\rightarrow vector<int>$的映射，用来存储位置相同的值的$index$
-- 第二步$\Rrightarrow$预处理：我们把**连续重复**的剔除，并记录相同$value$的索引
-- 第三步$\Rrightarrow$初始化2：初始化一个$visit$数组用于记录是否访问，以及初始化一个队列进行$bfs$
-- 第四步$\Rrightarrow$进行$bfs$：
-$$\left\{\begin{array}{l}
-i \rightarrow i - 1 &数组不会越界且未访问&①\\
-i \rightarrow i + 1 & 同上&②\\
-i^{\curvearrowright}loc(have\; same\;vlaue)&遍历你的map[arr[i]]入队vlaue相同且未访问&③
-\end{array}\right.$$
-&emsp;**值得注意的是在第四部中,每次都得确定循环的次数，而循环的次数就等于队列的长度:**
-&emsp;比如我这一步有两个新位置入队，则下一次我必须循环两次因为我得模拟这两个新位置分别对下一次探索的过程，这也是为什么代码中$lop = Q.size()$
-&emsp;我认为是动态规划，但是很不幸太菜了没写出来 $TAT$
-### 代码
+// &emsp;但是直接一步步来就会超时，因为其中有很多连续重复的$eg:7,7,7,7\cdots 23,23,23$类似这种，实际上这种**连续重复的都可以看为是一个**，这个需要你稍微仔细考虑下。
+// 因为我也是个小白，所以我的方法挺笨的：
+// - 第一步$\Rrightarrow$初始化1：重点是初始化一个$int\rightarrow vector<int>$的映射，用来存储位置相同的值的$index$
+// - 第二步$\Rrightarrow$预处理：我们把**连续重复**的剔除，并记录相同$value$的索引
+// - 第三步$\Rrightarrow$初始化2：初始化一个$visit$数组用于记录是否访问，以及初始化一个队列进行$bfs$
+// - 第四步$\Rrightarrow$进行$bfs$：
+// $$\left\{\begin{array}{l}
+// i \rightarrow i - 1 &数组不会越界且未访问&①\\
+// i \rightarrow i + 1 & 同上&②\\
+// i^{\curvearrowright}loc(have\; same\;vlaue)&遍历你的map[arr[i]]入队vlaue相同且未访问&③
+// \end{array}\right.$$
+// &emsp;**值得注意的是在第四部中,每次都得确定循环的次数，而循环的次数就等于队列的长度:**
+// &emsp;比如我这一步有两个新位置入队，则下一次我必须循环两次因为我得模拟这两个新位置分别对下一次探索的过程，这也是为什么代码中$lop = Q.size()$
+// &emsp;我认为是动态规划，但是很不幸太菜了没写出来 $TAT$
+// ### 代码
 
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minJumps(vector<int>& arr) {
@@ -78,4 +78,4 @@ public:
         return ans;
     }
 };
-```
+// ```

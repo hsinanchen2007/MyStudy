@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * convertToBase7(int num){
     if(num==0)  return "0";
     int sign = 0, n = num, size = log10(num)+7;
@@ -22,4 +22,4 @@ char * convertToBase7(int num){
     if(sign!=0)  res[size--] = '-';
     return res+size+1;
 }
-```
+// ```

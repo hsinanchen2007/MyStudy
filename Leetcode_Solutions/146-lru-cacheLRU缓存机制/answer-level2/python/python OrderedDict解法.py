@@ -1,12 +1,12 @@
-使用dict的时候key是无序的，OrderedDict可以保持key的顺序（按照加入字典的顺序）
+# 使用dict的时候key是无序的，OrderedDict可以保持key的顺序（按照加入字典的顺序）
 
-除了keys()、items()、values()这些方法之外，还有两个特殊的方法：
+# 除了keys()、items()、values()这些方法之外，还有两个特殊的方法：
 
-#### popitem(last=True)
+# #### popitem(last=True)
 
-默认pop字典最后一个键值对，可以用 last=False 来pop字典第一个键值对
+# 默认pop字典最后一个键值对，可以用 last=False 来pop字典第一个键值对
 
-```
+# ```
 >>> import collections
 >>> d1 = collections.OrderedDict()
 >>> d1[1]=1
@@ -16,23 +16,23 @@
 (3, 3)
 >>> d1.popitem(last=False)
 (1, 1)
-```
+# ```
 
-#### move_to_end(key, last=True)
+# #### move_to_end(key, last=True)
 
-将某个key移到字典尾部
+# 将某个key移到字典尾部
 
-```
+# ```
 >>> d1
 OrderedDict([(3, 3), (1, 1)])
 >>> d1.move_to_end(3)
 >>> d1
 OrderedDict([(1, 1), (3, 3)])
-```
+# ```
 
-### 解法
+# ### 解法
 
-```python
+# ```python
 class LRUCache:
 
     def __init__(self, capacity: int):
@@ -59,4 +59,4 @@ class LRUCache:
             else:
                 self.count += 1
             self.lookup[key] = value
-```
+# ```

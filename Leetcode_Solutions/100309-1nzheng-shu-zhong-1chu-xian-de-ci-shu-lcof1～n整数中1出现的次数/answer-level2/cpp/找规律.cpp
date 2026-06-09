@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     //找规律法
@@ -35,4 +35,4 @@ public:
         return res;
     }
 };
-```
+// ```

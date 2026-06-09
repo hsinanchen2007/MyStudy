@@ -1,4 +1,4 @@
-```java
+// ```java
 class FooBar {
     private int n;
     private boolean isFooed;
@@ -42,4 +42,4 @@ class FooBar {
         }
     }
 }
-```
+// ```

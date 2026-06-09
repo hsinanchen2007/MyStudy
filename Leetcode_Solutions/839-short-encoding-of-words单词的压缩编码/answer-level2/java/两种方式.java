@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     //普通方式
     public int minimumLengthEncoding(String[] words) {
@@ -19,8 +19,8 @@ class Solution {
        return sb.length();
     }
 }
-```
-```java
+// ```
+// ```java
 //字典树
 class Solution {
     public int minimumLengthEncoding(String[] words){
@@ -55,4 +55,4 @@ class Solution {
         TrieNode[] trieRoot=new TrieNode[26];
     }
 }
-```
+// ```

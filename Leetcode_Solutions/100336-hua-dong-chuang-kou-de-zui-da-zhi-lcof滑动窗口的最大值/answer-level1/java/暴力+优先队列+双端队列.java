@@ -1,5 +1,5 @@
-## 暴力
-```
+// ## 暴力
+// ```
 class Solution {
     public int[] maxSlidingWindow(int[] nums, int k) {
         if (nums.length == 0) return nums;
@@ -14,11 +14,11 @@ class Solution {
         return result;
     }
 }
-```
-时间复杂度: O(nk)
-空间复杂度：O(k)
-## 优先队列
-```
+// ```
+// 时间复杂度: O(nk)
+// 空间复杂度：O(k)
+// ## 优先队列
+// ```
 class Solution {
     public int[] maxSlidingWindow(int[] nums, int k) {
         if (nums.length == 0 || k == 1) return nums;
@@ -35,14 +35,14 @@ class Solution {
         return result;
     }
 }
-```
-时间复杂度: O(nlogk)
-空间复杂度：O(k)
-## 双端队列
-注意在滑动窗口中有些信息是可以省略的
-当窗口中元素A1, A1, ... Ak 当 Ai < Ak 且 i < k时，Ai可以省略，因为只要有Ak在Ai就无用武之地
-因此一旦发现Ai < Ak，就将其移除窗口，最大值永远是窗口最左边的值
-```
+// ```
+// 时间复杂度: O(nlogk)
+// 空间复杂度：O(k)
+// ## 双端队列
+// 注意在滑动窗口中有些信息是可以省略的
+// 当窗口中元素A1, A1, ... Ak 当 Ai < Ak 且 i < k时，Ai可以省略，因为只要有Ak在Ai就无用武之地
+// 因此一旦发现Ai < Ak，就将其移除窗口，最大值永远是窗口最左边的值
+// ```
 class Solution {
     public int[] maxSlidingWindow(int[] nums, int k) {
         if (nums.length == 0 || k == 1) return nums;
@@ -64,6 +64,6 @@ class Solution {
         deque.offerFirst(newVal);
 	}
 }
-```
-时间复杂度: O(n)
-空间复杂度：O(k)
+// ```
+// 时间复杂度: O(n)
+// 空间复杂度：O(k)

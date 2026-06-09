@@ -1,9 +1,9 @@
-### 解题思路
-使用滑动窗口，控制左右边界和sum与target的关系
+# ### 解题思路
+# 使用滑动窗口，控制左右边界和sum与target的关系
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findContinuousSequence(self, target: int) -> List[List[int]]:
 
@@ -26,4 +26,4 @@ class Solution:
                 i+=1
 
         return res
-```
+# ```

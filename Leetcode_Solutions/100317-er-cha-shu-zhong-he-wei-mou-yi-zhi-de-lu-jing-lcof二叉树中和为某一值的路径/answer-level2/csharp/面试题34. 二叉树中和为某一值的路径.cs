@@ -1,13 +1,13 @@
-### 解题思路
-回溯法
-需要注意的问题：
-1. 数值不一定全是正数，有可能会是负数
-2. 路径要求必须是根节点到叶子结点
-3. 回溯时，Path.Add()必须要有对应的Path.RemoveAt(Path.Length-1)
+// ### 解题思路
+// 回溯法
+// 需要注意的问题：
+// 1. 数值不一定全是正数，有可能会是负数
+// 2. 路径要求必须是根节点到叶子结点
+// 3. 回溯时，Path.Add()必须要有对应的Path.RemoveAt(Path.Length-1)
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -54,4 +54,4 @@ public class Solution {
         path.RemoveAt(path.Count - 1);
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-遍历存下x的系数和常数的总和
+// ### 解题思路
+// 遍历存下x的系数和常数的总和
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String solveEquation(String equation) {
     	int positive , i=0;
@@ -56,4 +56,4 @@ class Solution {
         return "x="+(int)(constant/x);
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-是左括号，进栈；是右括号，判断栈顶是不是相应的左括号
+# ### 解题思路
+# 是左括号，进栈；是右括号，判断栈顶是不是相应的左括号
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isValid(self, s: str) -> bool:
         # 先进后出，栈
@@ -23,4 +23,4 @@ class Solution:
         return not stack
 
             
-```
+# ```

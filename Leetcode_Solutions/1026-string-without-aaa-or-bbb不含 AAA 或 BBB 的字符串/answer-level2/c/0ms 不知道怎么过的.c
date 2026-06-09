@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/7ba99d3a2336c1cf8fa31b3c445931bdf8687a11843fd2dd03753bb5e0641902-image.png)
+// ![image.png](https://pic.leetcode-cn.com/7ba99d3a2336c1cf8fa31b3c445931bdf8687a11843fd2dd03753bb5e0641902-image.png)
 
-```
+// ```
 char * strWithout3a3b(int A, int B){
     if ((A == 0 && B >= 3) || (B == 0 && A >= 3)){
         return NULL;
@@ -57,4 +57,4 @@ char * strWithout3a3b(int A, int B){
 
     return buf;
 }
-```
+// ```

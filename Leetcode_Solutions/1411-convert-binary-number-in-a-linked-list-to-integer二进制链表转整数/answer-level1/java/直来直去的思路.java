@@ -1,10 +1,10 @@
-### 解题思路
-1.得到二进制string
-2.将string转化为十进制
+// ### 解题思路
+// 1.得到二进制string
+// 2.将string转化为十进制
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -27,4 +27,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

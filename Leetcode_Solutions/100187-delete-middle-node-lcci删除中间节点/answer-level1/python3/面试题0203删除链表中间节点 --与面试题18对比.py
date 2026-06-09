@@ -1,9 +1,9 @@
-### 解题思路
-与面试题18相同思路，**节点依次前移覆盖之前的节点**
+# ### 解题思路
+# 与面试题18相同思路，**节点依次前移覆盖之前的节点**
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -27,4 +27,4 @@ class Solution:
                 node.next = None
 
 
-```
+# ```

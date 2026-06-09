@@ -1,5 +1,5 @@
-**中心扩散**
-```
+// **中心扩散**
+// ```
 class Solution {
 public:
     //中心扩散法
@@ -26,11 +26,11 @@ public:
         return s.substr(start,len);
     }
 };
-```
+// ```
 
-**动态规划**
+// **动态规划**
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string longestPalindrome(string s) {
@@ -50,4 +50,4 @@ public:
         return s.substr(start,len);
     }
 };
-```
+// ```

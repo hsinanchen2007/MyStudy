@@ -1,5 +1,5 @@
-### 解法Ⅰ 暴力
-```cpp
+// ### 解法Ⅰ 暴力
+// ```cpp
 class Solution {
 public:
 	int findTheDistanceValue(vector<int>& arr1, vector<int>& arr2, int d) {
@@ -15,10 +15,10 @@ public:
 		return ans;
 	}
 };
-```
+// ```
 
-### 解法Ⅱ 二分法
-```cpp
+// ### 解法Ⅱ 二分法
+// ```cpp
 class Solution {
 public: 
     int biSch1(int l, int r, vector<int> arr, int target) {
@@ -44,4 +44,4 @@ public:
         return ans;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     private TreeNode node;
     private int maxDepth;
@@ -24,4 +24,4 @@ class Solution {
         return depth;
     }
 }
-```
+// ```

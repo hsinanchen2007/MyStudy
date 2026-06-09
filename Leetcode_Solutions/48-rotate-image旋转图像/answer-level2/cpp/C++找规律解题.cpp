@@ -1,10 +1,10 @@
-假设当前的数据为matrix[i][j],矩阵的维度为[0,len-1][0,len-1],则经过观察，经过变换后有以下的规律:
-matrix[i][j]取代matrix[j][len-1-i]
-matrix[j][len-1-i]取代matrix[len-1-i][len-1-j]
-matrix[len-1-i][len-1-j]取代matrix[len-1-j,i]
-matrix[len-1-j,i]取代matrix[i][j]
-这样就可以缩小数组的遍历，每回一次性修改这四个值。不过，当len为奇数或偶数的时候，又有一些区别。具体地，见下面的代码：
-```
+// 假设当前的数据为matrix[i][j],矩阵的维度为[0,len-1][0,len-1],则经过观察，经过变换后有以下的规律:
+// matrix[i][j]取代matrix[j][len-1-i]
+// matrix[j][len-1-i]取代matrix[len-1-i][len-1-j]
+// matrix[len-1-i][len-1-j]取代matrix[len-1-j,i]
+// matrix[len-1-j,i]取代matrix[i][j]
+// 这样就可以缩小数组的遍历，每回一次性修改这四个值。不过，当len为奇数或偶数的时候，又有一些区别。具体地，见下面的代码：
+// ```
 void rotate(vector<vector<int>>& matrix) {
         int len=matrix.size();
         if(len<=1)
@@ -33,4 +33,4 @@ void rotate(vector<vector<int>>& matrix) {
         }
         return;        
     }
-```
+// ```

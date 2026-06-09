@@ -1,13 +1,13 @@
-### 解题思路
-栈的操作：
-    push(int x) : 插入数据x，调用queue的push可直接插入数据
-    pop() ： 删除栈顶元素并返回，queue从队头弹出元素，再将元素插入队尾，直到队头为最后一个元素，即为栈顶。保存下来再调用queue的pop()删除。
-    top() ： 返回栈顶元素，调用MyStack类的pop得到栈顶元素，再将元素插入到队尾，返回即可。
-    empty() : 直接返回queue的empty
+// ### 解题思路
+// 栈的操作：
+//     push(int x) : 插入数据x，调用queue的push可直接插入数据
+//     pop() ： 删除栈顶元素并返回，queue从队头弹出元素，再将元素插入队尾，直到队头为最后一个元素，即为栈顶。保存下来再调用queue的pop()删除。
+//     top() ： 返回栈顶元素，调用MyStack类的pop得到栈顶元素，再将元素插入到队尾，返回即可。
+//     empty() : 直接返回queue的empty
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MyStack {
 private:
     queue<int> q;
@@ -55,4 +55,4 @@ public:
  * int param_3 = obj->top();
  * bool param_4 = obj->empty();
  */
-```
+// ```

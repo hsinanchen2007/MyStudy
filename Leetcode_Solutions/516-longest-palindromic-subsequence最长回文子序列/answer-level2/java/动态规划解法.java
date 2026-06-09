@@ -1,9 +1,9 @@
-### 解题思路
-序列型动态规划
+// ### 解题思路
+// 序列型动态规划
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int longestPalindromeSubseq(String ss) {
         if (ss == null || ss.length() == 0) {
@@ -40,4 +40,4 @@ class Solution {
         return dp[0][n - 1];
     }
 }
-```
+// ```

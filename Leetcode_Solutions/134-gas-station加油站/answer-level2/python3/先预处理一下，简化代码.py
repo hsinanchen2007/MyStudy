@@ -1,9 +1,9 @@
-### 解题思路
-先直接用 $gas-cost$ 得到一个差值数组。在这个数组中为负的项不可能做为出发点。对于连续出现的正值，我们只需要检查第一个，检查时从当前值一直往后累加，只要不为负就成功了。
+# ### 解题思路
+# 先直接用 $gas-cost$ 得到一个差值数组。在这个数组中为负的项不可能做为出发点。对于连续出现的正值，我们只需要检查第一个，检查时从当前值一直往后累加，只要不为负就成功了。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def canCompleteCircuit(self, gas: List[int], cost: List[int]) -> int:
         N = len(gas)
@@ -18,4 +18,4 @@ class Solution:
             if temp >=0 : return i
             while i<N and rem[i] >= 0 : i += 1 # 跳过连续的正值
         return -1
-```
+# ```

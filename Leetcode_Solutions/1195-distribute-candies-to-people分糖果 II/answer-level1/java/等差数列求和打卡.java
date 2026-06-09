@@ -1,11 +1,11 @@
-### 解题思路
-- 时间复杂度：O(n)
-- 空间复杂度：O(n)
-- 思路：简单的等差数列求和！
+// ### 解题思路
+// - 时间复杂度：O(n)
+// - 空间复杂度：O(n)
+// - 思路：简单的等差数列求和！
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 	public int[] distributeCandies(int candies, int num_people) {
 		int[] res = new int[num_people];
@@ -45,4 +45,4 @@ class Solution {
 		return res;
 	}
 }
-```
+// ```

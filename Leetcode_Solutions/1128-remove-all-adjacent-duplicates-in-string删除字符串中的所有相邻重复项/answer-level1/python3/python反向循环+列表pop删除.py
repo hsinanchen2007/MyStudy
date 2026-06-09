@@ -1,23 +1,23 @@
-我们一个一个推一遍：
+# 我们一个一个推一遍：
 
-转化为列表，添加0：[a,b,b,a,c,a,0]
+# 转化为列表，添加0：[a,b,b,a,c,a,0]
 
-i = 7 - 2 = 5 -> a != 0
+# i = 7 - 2 = 5 -> a != 0
 
-i = 4 -> c != a
+# i = 4 -> c != a
 
-i = 3 -> a != c
+# i = 3 -> a != c
 
-i = 2 -> b != a
+# i = 2 -> b != a
 
-i = 1 -> b == b -> s_li.pop(2),s_li.pop(1) -> [a,a,c,a,0]
+# i = 1 -> b == b -> s_li.pop(2),s_li.pop(1) -> [a,a,c,a,0]
 
-i = 0 -> a == a -> s_li.pop(1),s_li.pop(0) -> [c,a,0]
+# i = 0 -> a == a -> s_li.pop(1),s_li.pop(0) -> [c,a,0]
 
-最后在去除填上的0 -> [c,a] -> "ca"
+# 最后在去除填上的0 -> [c,a] -> "ca"
 
 
-```
+# ```
 class Solution:
     def removeDuplicates(self, S):
         s_li = list(S)
@@ -30,4 +30,4 @@ class Solution:
             i = i - 1
         s_li.remove(str(0))
         return "".join(s_li)
-```
+# ```

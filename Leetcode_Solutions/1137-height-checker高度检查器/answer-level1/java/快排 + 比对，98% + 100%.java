@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int heightChecker(int[] h) {
         // nlogn + n
@@ -13,4 +13,4 @@ class Solution {
         return rs;
     }
 }
-```
+// ```

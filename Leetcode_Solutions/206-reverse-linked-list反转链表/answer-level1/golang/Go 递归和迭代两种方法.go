@@ -1,5 +1,5 @@
-1. 迭代法
-```
+// 1. 迭代法
+// ```
 func reverseList(head *ListNode) *ListNode {
 	if head == nil || head.Next == nil {
 		return head
@@ -13,9 +13,9 @@ func reverseList(head *ListNode) *ListNode {
 
 	return prev
 }
-```
-2. 递归法
-```
+// ```
+// 2. 递归法
+// ```
 func reverseList(head *ListNode) *ListNode {
 	if head == nil || head.Next == nil {
 		return head
@@ -27,4 +27,4 @@ func reverseList(head *ListNode) *ListNode {
 
 	return prev
 }
-```
+// ```

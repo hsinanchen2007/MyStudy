@@ -1,9 +1,9 @@
-### 解题思路
-先把坐标平移,以rec1的左下角坐标为原点，再判断rec2平移后x轴和y轴上的点是否在rec1两轴线内.
+// ### 解题思路
+// 先把坐标平移,以rec1的左下角坐标为原点，再判断rec2平移后x轴和y轴上的点是否在rec1两轴线内.
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public bool IsRectangleOverlap(int[] rec1, int[] rec2) {
             int[] rec3 = new int[4];
@@ -18,4 +18,4 @@ public class Solution {
             return inX && inY;
     }
 }
-```
+// ```

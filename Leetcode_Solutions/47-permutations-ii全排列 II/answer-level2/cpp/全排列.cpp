@@ -1,9 +1,9 @@
-### 解题思路
-主要是如何去重
+// ### 解题思路
+// 主要是如何去重
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> permuteUnique(vector<int>& nums) {
@@ -37,4 +37,4 @@ public:
         }
     }
 };
-```
+// ```

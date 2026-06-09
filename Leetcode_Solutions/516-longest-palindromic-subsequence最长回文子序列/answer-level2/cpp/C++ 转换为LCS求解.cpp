@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	int longestPalindromeSubseq(string s) {
@@ -34,4 +34,4 @@ public:
 		return dp[s.size()][s.size()];
 	}
 };
-```
+// ```

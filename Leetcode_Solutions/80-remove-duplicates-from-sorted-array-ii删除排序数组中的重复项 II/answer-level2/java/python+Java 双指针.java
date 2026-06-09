@@ -1,5 +1,5 @@
-![1571965708(1).png](https://pic.leetcode-cn.com/998671a167de0d0202519b7e6c094fef6a8222371a3c5565fbc9d98948ad5ce5-1571965708\(1\).png)
-```
+// ![1571965708(1).png](https://pic.leetcode-cn.com/998671a167de0d0202519b7e6c094fef6a8222371a3c5565fbc9d98948ad5ce5-1571965708\(1\).png)
+// ```
 public class Solution {
 	 public int removeDuplicates(int[] nums) {
 	        int size = nums.length;
@@ -31,9 +31,9 @@ public class Solution {
 	 }
  
 
-```
-python
-```
+// ```
+// python
+// ```
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
         size = len(nums)
@@ -55,4 +55,4 @@ class Solution:
                 count = 1
                 j+=1
         return i+1
-```
+// ```

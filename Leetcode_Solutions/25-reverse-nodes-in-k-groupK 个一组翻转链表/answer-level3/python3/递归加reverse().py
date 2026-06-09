@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:  # 递归法
     def reverseKGroup(self, head: ListNode, k: int) -> ListNode:
         if not head or k == 1: return head
@@ -19,5 +19,5 @@ class Solution:  # 递归法
         if len(k_list) == k:
             dumpy.next = self.reverseKGroup(temp, k)  # 递归翻转下一次的k个节点，然后拼接
         return result.next
-```
+# ```
 

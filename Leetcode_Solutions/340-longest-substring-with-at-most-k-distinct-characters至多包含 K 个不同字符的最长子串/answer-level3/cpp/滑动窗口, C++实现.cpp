@@ -1,6 +1,6 @@
-这个题目的解法前面两个题解都讲的很清楚了,本质上就是滑动窗口,至于如何存储子串中的字符其实不是太重要. 下面给出一个c++的解法实现
+// 这个题目的解法前面两个题解都讲的很清楚了,本质上就是滑动窗口,至于如何存储子串中的字符其实不是太重要. 下面给出一个c++的解法实现
 
-```
+// ```
 class Solution {
 public:
   int lengthOfLongestSubstringKDistinct(string s, int k) {
@@ -45,4 +45,4 @@ public:
     return max_length;
   }
 };
-```
+// ```

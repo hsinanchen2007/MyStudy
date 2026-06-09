@@ -1,9 +1,9 @@
-### 解题思路
-思路和111二叉树的最小深度相同，可以用层次遍历和DFS。
+# ### 解题思路
+# 思路和111二叉树的最小深度相同，可以用层次遍历和DFS。
 
-### 代码 --DFS（根节点+max(左子树最大深度，右子树最大深度)）
+# ### 代码 --DFS（根节点+max(左子树最大深度，右子树最大深度)）
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -29,4 +29,4 @@ class Solution:
         return DFS(root)
 
 
-```
+# ```

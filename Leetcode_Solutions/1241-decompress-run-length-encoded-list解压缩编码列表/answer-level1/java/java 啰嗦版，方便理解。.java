@@ -1,4 +1,4 @@
-```
+// ```
 
 public int[] decompressRLElist(int[] nums) {
         if(nums.length % 2 != 0){
@@ -26,5 +26,5 @@ public int[] decompressRLElist(int[] nums) {
 
         return array;
     }
-```
-先算size，再遍历赋值
+// ```
+// 先算size，再遍历赋值

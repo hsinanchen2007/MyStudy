@@ -1,7 +1,7 @@
-C++中没有现成的split函数，用strtok代替，分割后将字符串反转，最后拼接起来
+// C++中没有现成的split函数，用strtok代替，分割后将字符串反转，最后拼接起来
 
-代码：
-```
+// 代码：
+// ```
 class Solution {
 public:
     string reverseWords(string s) {
@@ -22,4 +22,4 @@ public:
         }
     }
 };
-```
+// ```

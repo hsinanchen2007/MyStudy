@@ -1,10 +1,10 @@
-### 解题思路
-1. `后序遍历` 总是最后到达根节点，所以很容易计算出 最长路径 =  `root.Val` + `Left` 最大贡献 + `Right`最大贡献
-2. 唯一要处理的是，当分支为负数时，返回 0 
+// ### 解题思路
+// 1. `后序遍历` 总是最后到达根节点，所以很容易计算出 最长路径 =  `root.Val` + `Left` 最大贡献 + `Right`最大贡献
+// 2. 唯一要处理的是，当分支为负数时，返回 0 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -43,7 +43,7 @@ func max(nums ...int) int {
 	}
 	return max
 }
-```
+// ```
 
-[Go版本 Github](https://github.com/temporaries/leetcode)
-[对应模板](https://github.com/temporaries/leetcode/blob/master/templates/tree/postorder.go)
+// [Go版本 Github](https://github.com/temporaries/leetcode)
+// [对应模板](https://github.com/temporaries/leetcode/blob/master/templates/tree/postorder.go)

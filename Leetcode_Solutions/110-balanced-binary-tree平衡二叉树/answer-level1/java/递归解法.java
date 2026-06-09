@@ -1,10 +1,10 @@
-### 解题思路
-1. 只要左右子树都平衡那这棵树就平衡
-2. 是否平衡利用平衡树的定义来判断
-3. 左右子树的高度计算借鉴 104 号题的方法即可
-### 代码
+// ### 解题思路
+// 1. 只要左右子树都平衡那这棵树就平衡
+// 2. 是否平衡利用平衡树的定义来判断
+// 3. 左右子树的高度计算借鉴 104 号题的方法即可
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -31,4 +31,4 @@ class Solution {
         return Math.max(leftHeight, rghtHeight);
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-如果相交，则交点之后所有节点一样！！！
-所以节点多的先走差值步数，然后一起走！！！
+// ### 解题思路
+// 如果相交，则交点之后所有节点一样！！！
+// 所以节点多的先走差值步数，然后一起走！！！
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -47,4 +47,4 @@ public class Solution {
         return count;
     }
 }
-```
+// ```

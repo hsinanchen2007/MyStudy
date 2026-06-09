@@ -1,11 +1,11 @@
 
-执行结果：通过 显示详情 
-执行用时 : 344 ms, 在所有 c 提交中击败了43.97%的用户
-内存消耗 : 9.8 MB, 在所有 c 提交中击败了100.00%的用户
+// 执行结果：通过 显示详情 
+// 执行用时 : 344 ms, 在所有 c 提交中击败了43.97%的用户
+// 内存消耗 : 9.8 MB, 在所有 c 提交中击败了100.00%的用户
 
 
 
-```
+// ```
 struct node {
     int difficulty;
     int profit;
@@ -73,4 +73,4 @@ int maxProfitAssignment(int* difficulty, int difficultySize, int* profit, int pr
 
     return total;
 }
-```
+// ```

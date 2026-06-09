@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numberOfArithmeticSlices(vector<int>& A) {
@@ -28,4 +28,4 @@ public:
         return ans;
     }
 };
-```
+// ```

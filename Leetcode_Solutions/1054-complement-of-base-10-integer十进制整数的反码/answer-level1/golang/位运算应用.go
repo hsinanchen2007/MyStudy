@@ -1,6 +1,6 @@
-N&1得到最低位n，n^1取反
-计算完右移，循环即可
-```golang
+// N&1得到最低位n，n^1取反
+// 计算完右移，循环即可
+// ```golang
 func bitwiseComplement(N int) int {
     if N == 0 {
         return 1
@@ -12,4 +12,4 @@ func bitwiseComplement(N int) int {
 	}
     return res
 }
-```
+// ```

@@ -1,29 +1,29 @@
-## 6.从尾到头打印链表
+// ## 6.从尾到头打印链表
 
-### Information
+// ### Information
 
-* TIME: 2020/02/27
-* LINK: [Click Here](https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/)
-* TAG: `List`
+// * TIME: 2020/02/27
+// * LINK: [Click Here](https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/)
+// * TAG: `List`
 
-### Description
+// ### Description
 
-> 输入一个链表的头节点，从尾到头反过来返回每个节点的值（用数组返回）。
+// > 输入一个链表的头节点，从尾到头反过来返回每个节点的值（用数组返回）。
 
-### Example
+// ### Example
 
-```text
+// ```text
 输入：head = [1,3,2]
 输出：[2,3,1]
-```
+// ```
 
-### My Answer
+// ### My Answer
 
-> 回溯法，每次返回时，将当前节点值加入`list`
->
-> `out.stream().mapToInt(Integer::valueOf).toArray()` 转`int[]`
+// > 回溯法，每次返回时，将当前节点值加入`list`
+// >
+// > `out.stream().mapToInt(Integer::valueOf).toArray()` 转`int[]`
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -44,23 +44,23 @@ class Solution {
         out.add(head.val);
     }
 }
-```
+// ```
 
-### Extend & Reference
+// ### Extend & Reference
 
-> 来源：力扣（LeetCode）
-> 链接：https://leetcode-cn.com
-> 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+// > 来源：力扣（LeetCode）
+// > 链接：https://leetcode-cn.com
+// > 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
-### More
+// ### More
 
-> **更多题解，请访问我的GitHub仓库：[LeetCode 刷题日记](https://github.com/ZhuoZhuoCrayon/my-Nodes/blob/master/Daily/README_2020.md)**
->
-> ![alt](https://pic.leetcode-cn.com/9ffa3de60c8da1205d44234d6eb7b36e9c035b1e67972360c9387862cad146c2-file_1582779445099)
->
-> [**更多笔记**](https://github.com/ZhuoZhuoCrayon/my-Nodes)：**`Vue` `Java SSM 框架` `阿里云服务器` `JavaScript/HTML/CSS`   `数据库` ...**
->
-> **我的GitHub主页 -> [ZhuoZhuoCrayon](https://github.com/ZhuoZhuoCrayon)**
->
-> 共勉~
+// > **更多题解，请访问我的GitHub仓库：[LeetCode 刷题日记](https://github.com/ZhuoZhuoCrayon/my-Nodes/blob/master/Daily/README_2020.md)**
+// >
+// > ![alt](https://pic.leetcode-cn.com/9ffa3de60c8da1205d44234d6eb7b36e9c035b1e67972360c9387862cad146c2-file_1582779445099)
+// >
+// > [**更多笔记**](https://github.com/ZhuoZhuoCrayon/my-Nodes)：**`Vue` `Java SSM 框架` `阿里云服务器` `JavaScript/HTML/CSS`   `数据库` ...**
+// >
+// > **我的GitHub主页 -> [ZhuoZhuoCrayon](https://github.com/ZhuoZhuoCrayon)**
+// >
+// > 共勉~
 

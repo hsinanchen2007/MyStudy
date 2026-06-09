@@ -1,9 +1,9 @@
-### 解题思路
-https://www.zhihu.com/people/god-jiang
+// ### 解题思路
+// https://www.zhihu.com/people/god-jiang
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int longestPalindrome(String s) {
         int[] res=new int[58];
@@ -17,4 +17,4 @@ class Solution {
         return ans<s.length()?ans+1:ans;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     string alphabetBoardPath(string target) {
@@ -52,6 +52,6 @@ public:
 		return strResult;
     }
 };
-```
-![QQ截图20191206164220.png](https://pic.leetcode-cn.com/b54599e409760234fdbfd1ba80365465433ce4fbba566f7cd3b1a393d8214ffd-QQ%E6%88%AA%E5%9B%BE20191206164220.png)
+// ```
+// ![QQ截图20191206164220.png](https://pic.leetcode-cn.com/b54599e409760234fdbfd1ba80365465433ce4fbba566f7cd3b1a393d8214ffd-QQ%E6%88%AA%E5%9B%BE20191206164220.png)
 

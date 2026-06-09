@@ -1,9 +1,9 @@
-### 解题思路
-将数组和三等分，每部分都是sum/3；只要判断第一部分和第二部分是否为sum/3即可；注意：第二部分不能占剩余数组全部，即第二部分的尾不能是数组长度。
+// ### 解题思路
+// 将数组和三等分，每部分都是sum/3；只要判断第一部分和第二部分是否为sum/3即可；注意：第二部分不能占剩余数组全部，即第二部分的尾不能是数组长度。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canThreePartsEqualSum(int[] A) {
         int sum=0;
@@ -30,4 +30,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

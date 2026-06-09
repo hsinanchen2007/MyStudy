@@ -1,10 +1,10 @@
-![image.png](https://pic.leetcode-cn.com/468b8abd74726abd6f576c488560e840c0fe7a84e52c153f2d0300fab36f1d07-image.png)
+// ![image.png](https://pic.leetcode-cn.com/468b8abd74726abd6f576c488560e840c0fe7a84e52c153f2d0300fab36f1d07-image.png)
 
-### 解题思路
-公式如下 
-![image.png](https://pic.leetcode-cn.com/dbc6bd82c94428fdabd15c65b5258d956fcee0d880b32c5db33edab759cf22cb-image.png)
+// ### 解题思路
+// 公式如下 
+// ![image.png](https://pic.leetcode-cn.com/dbc6bd82c94428fdabd15c65b5258d956fcee0d880b32c5db33edab759cf22cb-image.png)
 
-```
+// ```
 int count(int n){
     int s=1;
     for(int i=2;i*i<=n;i++){
@@ -20,8 +20,8 @@ int count(int n){
     if(n>1) s=s*2;
     return s;
 }
-```
-```
+// ```
+// ```
 int sum(int n){
     int s=1;
     for(int i=2;i*i<=n;i++){
@@ -37,13 +37,13 @@ int sum(int n){
     if(n>1) s=s*(1+n);
     return s;
 }
-```
-把两个合并。
+// ```
+// 把两个合并。
 
-如果因子数>4的时候 就退出不再继续计算。
-### 代码
+// 如果因子数>4的时候 就退出不再继续计算。
+// ### 代码
 
-```cpp
+// ```cpp
 
 using namespace std;
 class Solution {
@@ -91,4 +91,4 @@ public:
 		return allsum;
     }
 };
-```
+// ```

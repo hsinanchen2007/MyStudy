@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int distanceBetweenBusStops(int[] distance, int start, int destination) {
         int x = Math.min(start, destination);
@@ -19,4 +19,4 @@ class Solution {
         return Math.min(sum-num, num);
     }
 }
-```
+// ```

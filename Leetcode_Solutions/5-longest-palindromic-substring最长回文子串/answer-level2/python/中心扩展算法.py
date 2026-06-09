@@ -1,5 +1,5 @@
 
-```python3
+# ```python3
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         N = len(s)
@@ -23,4 +23,4 @@ class Solution:
                 res = s[left:right+1]
         return res
 
-```
+# ```

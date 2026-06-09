@@ -1,11 +1,11 @@
-![image.png](https://pic.leetcode-cn.com/890ed3a48f0fc991ab2545126430bc007063fc685f047a558568aa61a7c4cbba-image.png)
+// ![image.png](https://pic.leetcode-cn.com/890ed3a48f0fc991ab2545126430bc007063fc685f047a558568aa61a7c4cbba-image.png)
 
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Initialize your data structure here.
  */
@@ -54,4 +54,4 @@ MyStack.prototype.empty = function() {
  * var param_3 = obj.top()
  * var param_4 = obj.empty()
  */
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int maxDistance(int[][] grid) {
         int total_max = -1;boolean one = false;
@@ -29,5 +29,5 @@ class Solution {
         else return total_max;
     }
 }
-```
-别骂我，脑力有限，容易看懂！！！
+// ```
+// 别骂我，脑力有限，容易看懂！！！

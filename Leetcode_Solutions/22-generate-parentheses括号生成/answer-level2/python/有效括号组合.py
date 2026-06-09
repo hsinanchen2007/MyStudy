@@ -1,10 +1,10 @@
-### 解题思路
-递归的思路，分别用left，right表示剩余左括号和剩余右括号的数量，
-有效括号的组合条件是剩余左括号不能多余右括号
+# ### 解题思路
+# 递归的思路，分别用left，right表示剩余左括号和剩余右括号的数量，
+# 有效括号的组合条件是剩余左括号不能多余右括号
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def generateParenthesis(self, n):
         """
@@ -24,4 +24,4 @@ class Solution(object):
             res.append(temp)
         self.combinations(temp+'(', res, left-1, right)
         self.combinations(temp+')', res, left, right-1)
-```
+# ```

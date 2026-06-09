@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     bool rotateString(string A, string B) {
@@ -22,7 +22,7 @@ public:
     }
 };
 
-```
-![WX20200310-002256.png](https://pic.leetcode-cn.com/48241a691eea0499f6d782f96625f6cfead4aa44c1af8853c3a2f1dccada63fc-WX20200310-002256.png)
+// ```
+// ![WX20200310-002256.png](https://pic.leetcode-cn.com/48241a691eea0499f6d782f96625f6cfead4aa44c1af8853c3a2f1dccada63fc-WX20200310-002256.png)
 
 

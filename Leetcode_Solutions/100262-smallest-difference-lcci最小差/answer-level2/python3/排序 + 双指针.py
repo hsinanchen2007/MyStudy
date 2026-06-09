@@ -1,5 +1,5 @@
 
-```
+# ```
 class Solution:
     def smallestDifference(self, a: List[int], b: List[int]) -> int:
         if not a or not b: return 
@@ -15,4 +15,4 @@ class Solution:
             else:
                 p2 += 1
         return res
-```
+# ```

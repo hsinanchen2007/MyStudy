@@ -1,5 +1,5 @@
-思路：用hash数组存放每个大写字母的行号，如Q在第1行，然后遍历每个单词，行号不一致则遍历下一个单词，否则赋予结果数组。
-```
+// 思路：用hash数组存放每个大写字母的行号，如Q在第1行，然后遍历每个单词，行号不一致则遍历下一个单词，否则赋予结果数组。
+// ```
 char ** findWords(char ** words, int wordsSize, int* returnSize){
     *returnSize = 0;
     if(words == NULL || wordsSize == 0){
@@ -28,4 +28,4 @@ char ** findWords(char ** words, int wordsSize, int* returnSize){
     return result;
 }
 
-```
+// ```

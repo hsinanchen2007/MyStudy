@@ -1,5 +1,5 @@
 
-```c
+// ```c
 /*
 abcde
 fghij
@@ -49,5 +49,5 @@ char * alphabetBoardPath(char * target){
     path[cur] = '\0';
     return path;
 }
-```
-![image.png](https://pic.leetcode-cn.com/d516749f10495307770973922c827bb02f41a054652454d85c38b1f4345023c2-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/d516749f10495307770973922c827bb02f41a054652454d85c38b1f4345023c2-image.png)

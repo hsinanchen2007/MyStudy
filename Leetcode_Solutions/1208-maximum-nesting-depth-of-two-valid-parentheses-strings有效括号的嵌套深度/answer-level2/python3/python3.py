@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxDepthAfterSplit(self, seq: str) -> List[int]:
         # 先求出最大嵌套深度, 想使得max(depthA, depthb)最小, 即两者平分深度
@@ -35,4 +35,4 @@ class Solution:
         for i in tmp:
             res[i] = 0
         return res
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-官方写法c++版
+// ### 解题思路
+// 官方写法c++版
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findMaxConsecutiveOnes(vector<int>& nums) {
@@ -24,4 +24,4 @@ public:
 
     }
 };
-```
+// ```

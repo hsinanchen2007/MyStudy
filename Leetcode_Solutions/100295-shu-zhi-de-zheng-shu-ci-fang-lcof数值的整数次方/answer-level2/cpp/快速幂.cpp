@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/f0629f3ffd070b64d449111f7e6ecdd0231775773e0bc9e810c59a17866965a5-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/f0629f3ffd070b64d449111f7e6ecdd0231775773e0bc9e810c59a17866965a5-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     double myPow(double x, int q) {
@@ -20,4 +20,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func combine(n int, k int) [][]int {
     if k <= 0 || n <= 0 || n < k{
         return nil
@@ -38,4 +38,4 @@ func backtrace(n, start int, visited []int, result [][]int, k int) [][]int {
     }
     return result
 }
-```
+// ```

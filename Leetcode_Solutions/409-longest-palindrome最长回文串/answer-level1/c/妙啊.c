@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int longestPalindrome(char * s){
     int c[128]={0}, ret=0;    //注意构造初始化
     for(int i=0;i<strlen(s);i++)
@@ -18,4 +18,4 @@ int longestPalindrome(char * s){
 
 }
 
-```
+// ```

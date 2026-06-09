@@ -1,6 +1,6 @@
-![微信图片_20200319223139.png](https://pic.leetcode-cn.com/c2c84ed1edb3db77fbc5a9054186ffbf1316ad915772788c6f3969f61868b05f-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200319223139.png)
-采用递归+备忘录
-```
+// ![微信图片_20200319223139.png](https://pic.leetcode-cn.com/c2c84ed1edb3db77fbc5a9054186ffbf1316ad915772788c6f3969f61868b05f-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200319223139.png)
+// 采用递归+备忘录
+// ```
 class Solution {
 	// 最小值问题初始化为无穷大
 	private int INF = Integer.MAX_VALUE;
@@ -37,4 +37,4 @@ class Solution {
 		return memo[book_num];
 	}
 }
-```
+// ```

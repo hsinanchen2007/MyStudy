@@ -1,9 +1,9 @@
-### 解题思路
-* 按照labuladong题解的指导，采用抢或者不抢的思路去编写
-* 优化了抢劫当前店铺的编码写法，便于理解，详情参考代码注释
-### 代码
+// ### 解题思路
+// * 按照labuladong题解的指导，采用抢或者不抢的思路去编写
+// * 优化了抢劫当前店铺的编码写法，便于理解，详情参考代码注释
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -41,4 +41,4 @@ class Solution {
    
     
 }
-```
+// ```

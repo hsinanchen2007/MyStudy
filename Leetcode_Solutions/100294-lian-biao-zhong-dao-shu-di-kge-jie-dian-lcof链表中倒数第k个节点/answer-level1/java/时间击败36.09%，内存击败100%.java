@@ -1,9 +1,9 @@
-### 解题思路
-1.第一次遍历，求出节点数目count。2.计算count-k，第二次遍历到第count-k个节点，返回该节点。
+// ### 解题思路
+// 1.第一次遍历，求出节点数目count。2.计算count-k，第二次遍历到第count-k个节点，返回该节点。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -28,4 +28,4 @@ class Solution {
         return head;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-先排序 后比较
+// ### 解题思路
+// 先排序 后比较
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool CheckPermutation(string s1, string s2) {
@@ -12,4 +12,4 @@ public:
         return s1==s2;
     }
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-使用一个变量记录previous，一个变量记录next. 然后不断更新current.next = previous 
+// ### 解题思路
+// 此处撰写解题思路
+// 使用一个变量记录previous，一个变量记录next. 然后不断更新current.next = previous 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -31,4 +31,4 @@ var reverseList = function(head) {
 
     return pre;
 };
-```
+// ```

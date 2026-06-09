@@ -1,5 +1,5 @@
-暂时没有太高效的解法，按长度将word存入map中， 遍历指定长度的vector即可
-```
+// 暂时没有太高效的解法，按长度将word存入map中， 遍历指定长度的vector即可
+// ```
 class MagicDictionary {
 public:
     map<int, vector<string>> mmap;
@@ -40,4 +40,4 @@ public:
         return false;
     }
 };
-```
+// ```

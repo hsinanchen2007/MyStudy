@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestPalindrome(self, s: str) -> int:
         l = list(set(s)) #无重复字母列表
@@ -21,4 +21,4 @@ class Solution:
                 return r
             return r+1  #考虑字符串为回文串
             
-```
+# ```

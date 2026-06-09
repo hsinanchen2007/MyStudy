@@ -1,5 +1,5 @@
-- 思想就是拿第一和最后一个元素交换。
-```js
+// - 思想就是拿第一和最后一个元素交换。
+// ```js
 var reverseString = function(s) {
     let len = s.length;
     for(let i = 0; i < len / 2; ++i) {
@@ -9,5 +9,5 @@ var reverseString = function(s) {
     }
     return s;
 };
-```
-![微信图片_20200114110650.png](https://pic.leetcode-cn.com/638866cdf1c501bb9ae554af430bdfb55075ad08a7075d06106cf14e7a0a67aa-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200114110650.png)
+// ```
+// ![微信图片_20200114110650.png](https://pic.leetcode-cn.com/638866cdf1c501bb9ae554af430bdfb55075ad08a7075d06106cf14e7a0a67aa-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200114110650.png)

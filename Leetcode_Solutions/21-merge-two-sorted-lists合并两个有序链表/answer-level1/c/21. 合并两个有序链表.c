@@ -1,9 +1,9 @@
-### 解题思路
-创建一个不放实际值的头结点，用两个指针来遍历所给的两个链表，把值小的放到咋们的sum链表中，并使对于链表的指针往后移
+// ### 解题思路
+// 创建一个不放实际值的头结点，用两个指针来遍历所给的两个链表，把值小的放到咋们的sum链表中，并使对于链表的指针往后移
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -35,4 +35,4 @@ struct ListNode* mergeTwoLists(struct ListNode* p1, struct ListNode* p2){
         t->next = p2;
     return sum->next;
 }
-```
+// ```

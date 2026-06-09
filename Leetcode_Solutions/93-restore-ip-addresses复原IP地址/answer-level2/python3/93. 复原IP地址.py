@@ -1,9 +1,9 @@
-### 解题思路
-要进行试错的组合ip，所以采用回溯法，ip地址的组成有许多限制条件：总共只有4段；每段的数字大小在0~255闭区间里。有这些限制条件，可以用来剪枝。
+# ### 解题思路
+# 要进行试错的组合ip，所以采用回溯法，ip地址的组成有许多限制条件：总共只有4段；每段的数字大小在0~255闭区间里。有这些限制条件，可以用来剪枝。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def restoreIpAddresses(self, s: str):
         def backtrack(start,depth,ip):
@@ -26,4 +26,4 @@ class Solution:
         res = []
         backtrack(0,0,[])
         return res
-```
+# ```

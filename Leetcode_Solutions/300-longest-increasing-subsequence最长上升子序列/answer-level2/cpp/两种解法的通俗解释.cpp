@@ -1,9 +1,9 @@
-### 解题思路
-题解传送门：[https://blog.csdn.net/weixin_43787043/article/details/105226674](23)
+// ### 解题思路
+// 题解传送门：[https://blog.csdn.net/weixin_43787043/article/details/105226674](23)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 #include <algorithm>
 #include <climits>
 #define MAXN 100000
@@ -24,9 +24,9 @@ public:
         return len;
     }
 };
-```
+// ```
 
-```cpp
+// ```cpp
 #include <algorithm>
 #include <climits>
 #define MAXN 100000
@@ -66,4 +66,4 @@ public:
             return Find(a, mid, r, temp);    
     }
 };
-```
+// ```

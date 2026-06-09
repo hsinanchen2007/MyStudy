@@ -1,6 +1,6 @@
-![3.PNG](https://pic.leetcode-cn.com/4c7d568c013c2da53fcaca377e51817367cae81bc6160f7de1e35d236eaaaf67-3.PNG)
+// ![3.PNG](https://pic.leetcode-cn.com/4c7d568c013c2da53fcaca377e51817367cae81bc6160f7de1e35d236eaaaf67-3.PNG)
 
-```
+// ```
 class Solution {
 public:
 	TreeNode* findV(TreeNode *r,int x){//查找x节点 
@@ -26,5 +26,5 @@ public:
 		return f(v->left,root,k)||f(v->right,root,k);
 	}
 };
-```
+// ```
 

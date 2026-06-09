@@ -1,4 +1,4 @@
-```
+// ```
 // 反转链表,方法一：迭代
 	public ListNode reverseList(ListNode head) {
 		// 新链表的第一个结点
@@ -17,4 +17,4 @@
 		}
 		return pre;
 	}
-```
+// ```

@@ -1,8 +1,8 @@
-    思路上很清晰，先将数组排序，再把每个数字以及它们对应出现的次数存进map里面；
-    接着遍历数组，每遇到一个num，就把num, num + 1, ... num + k - 1这k个数结合map，按序进行判断;
-    若存在且对应的value值大于0，则value值减1，否则直接return false。
+//     思路上很清晰，先将数组排序，再把每个数字以及它们对应出现的次数存进map里面；
+//     接着遍历数组，每遇到一个num，就把num, num + 1, ... num + k - 1这k个数结合map，按序进行判断;
+//     若存在且对应的value值大于0，则value值减1，否则直接return false。
 
-```
+// ```
 class Solution {
     public boolean isPossibleDivide(int[] nums, int k) {
         if (nums.length % k != 0)
@@ -29,4 +29,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

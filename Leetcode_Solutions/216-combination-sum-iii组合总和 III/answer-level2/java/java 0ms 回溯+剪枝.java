@@ -1,8 +1,8 @@
-DFS遍历所有组合，需要注意是
-1. 返回组合不重复，因此下一次递归从preIndex+1位置开始；
-2. 组合数量大于k个数或者和超过n进行剪枝。
+// DFS遍历所有组合，需要注意是
+// 1. 返回组合不重复，因此下一次递归从preIndex+1位置开始；
+// 2. 组合数量大于k个数或者和超过n进行剪枝。
 
-``` java
+// ``` java
 class Solution {
     private List<List<Integer>> res;
     private int k;
@@ -32,7 +32,7 @@ class Solution {
         }
     }
 }
-```
+// ```
 
-执行用时：0 ms
-内存消耗：37.1 MB
+// 执行用时：0 ms
+// 内存消耗：37.1 MB

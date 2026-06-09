@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/a2facd3f0a9857a180dfb0d460c09d5fc4c6aceedac26d6eb384f3f3dfdcffa5-image.png)
+# ![image.png](https://pic.leetcode-cn.com/a2facd3f0a9857a180dfb0d460c09d5fc4c6aceedac26d6eb384f3f3dfdcffa5-image.png)
 
 
 
-```
+# ```
 '''
 每本书都是按照顺序放的，这个问题可以抽象成把一个数组分裂成子数组
 每个子数组中宽度和不超过shelf_width, 求所有分组中的最大值之和
@@ -43,4 +43,4 @@ class Solution:
                 j -= 1
 
         return dp[n-1]
-```
+# ```

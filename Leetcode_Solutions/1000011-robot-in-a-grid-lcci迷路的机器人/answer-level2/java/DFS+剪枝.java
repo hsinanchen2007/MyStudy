@@ -1,14 +1,14 @@
-### 解题思路
-深度优先遍历方法，同时使用blockGrid数组记录包含i、j的路径是否能继续向下寻找，当包含i、j的路径不能找到合适的完整径路时，直接放弃搜索。
+// ### 解题思路
+// 深度优先遍历方法，同时使用blockGrid数组记录包含i、j的路径是否能继续向下寻找，当包含i、j的路径不能找到合适的完整径路时，直接放弃搜索。
 
-- 当obstacleGrid[i][j] == 0 && i == xLen - 1 && j == yLen - 1时，找到路径递归结束，返回true，否则返回false；
-- 当i + 1 < xLen && blockGrid[i + 1][j] != 1时，向下走nextStep(i + 1, j)；
-- 当向下走寻路失败且j + 1 < yLen && blockGrid[i][j + 1] != 1时，向右走nextStep(i, j + 1)；
-- 当向下走和向右走都失败时，令blockGrid[i][j] = 1，即包含i、j的路径不能找到合适的完整径路，并返回false；
+// - 当obstacleGrid[i][j] == 0 && i == xLen - 1 && j == yLen - 1时，找到路径递归结束，返回true，否则返回false；
+// - 当i + 1 < xLen && blockGrid[i + 1][j] != 1时，向下走nextStep(i + 1, j)；
+// - 当向下走寻路失败且j + 1 < yLen && blockGrid[i][j + 1] != 1时，向右走nextStep(i, j + 1)；
+// - 当向下走和向右走都失败时，令blockGrid[i][j] = 1，即包含i、j的路径不能找到合适的完整径路，并返回false；
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     int xLen, yLen;
     int xTop = -1, yTop = -1;
@@ -71,4 +71,4 @@ class Solution {
         return b;
     }
 }
-```
+// ```

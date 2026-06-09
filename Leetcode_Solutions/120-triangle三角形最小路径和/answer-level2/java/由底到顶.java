@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int minimumTotal(List<List<Integer>> triangle) {
         int height = triangle.size();
@@ -17,4 +17,4 @@ class Solution {
         return map.get(0);
     }
 }
-```
+// ```

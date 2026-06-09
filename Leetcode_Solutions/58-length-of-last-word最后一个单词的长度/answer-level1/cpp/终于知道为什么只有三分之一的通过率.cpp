@@ -1,9 +1,9 @@
-### 解题思路
-服了，完全想不到有这么多种可能。我提交了五次才通过。
+// ### 解题思路
+// 服了，完全想不到有这么多种可能。我提交了五次才通过。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 int lengthOfLastWord(string s) {
@@ -30,4 +30,4 @@ int lengthOfLastWord(string s) {
 }
 
 };
-```
+// ```

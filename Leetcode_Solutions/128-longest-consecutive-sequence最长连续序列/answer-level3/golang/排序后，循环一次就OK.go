@@ -1,4 +1,4 @@
-```
+// ```
 func longestConsecutive(nums []int) int {
 	if len(nums) == 0 || len(nums) == 1{
 		return len(nums)
@@ -21,4 +21,4 @@ func longestConsecutive(nums []int) int {
 	}
 	return max + 1
 }
-```
+// ```

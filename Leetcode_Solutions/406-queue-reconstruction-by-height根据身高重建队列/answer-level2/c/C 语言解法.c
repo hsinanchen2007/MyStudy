@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```C
+// ```C
 int comp(void *a, void *b) {
     int *x = *(int **)a;
     int *y = *(int **)b;
@@ -92,4 +92,4 @@ int** reconstructQueue(int** people, int peopleSize, int* peopleColSize, int* re
     }
     return res;
 }
-```
+// ```

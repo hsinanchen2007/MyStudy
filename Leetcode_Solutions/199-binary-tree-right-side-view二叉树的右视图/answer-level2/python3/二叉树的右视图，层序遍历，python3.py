@@ -1,9 +1,9 @@
-### 解题思路
-返回二叉树层序遍历结果中每一层的最后一个元素
+# ### 解题思路
+# 返回二叉树层序遍历结果中每一层的最后一个元素
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -27,4 +27,4 @@ class Solution:
                 res.setdefault(queue[i][1]+1, []).append(queue[i][0].right.val)
             i += 1
         return [res[i][-1] for i in res]
-```
+# ```

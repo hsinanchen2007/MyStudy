@@ -1,9 +1,9 @@
-### 解题思路
-动态规划
+# ### 解题思路
+# 动态规划
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minDistance(self, word1: str, word2: str) -> int:
         n = len(word1)
@@ -24,4 +24,4 @@ class Solution:
         return dp[n][m]
 
 
-```
+# ```

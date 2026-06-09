@@ -1,4 +1,4 @@
-```
+// ```
 var canPlaceFlowers = function(flowerbed, n) {
   let temporaryArr = flowerbed.join('').split('1')
   let resnum = 0
@@ -17,4 +17,4 @@ var canPlaceFlowers = function(flowerbed, n) {
   }
   return resnum >= n
 };
-```
+// ```

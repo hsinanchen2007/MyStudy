@@ -1,16 +1,16 @@
-### 解题思路
+# ### 解题思路
 
-- 最开始想到的是暴力法，从最长子串开始查找，是回文字符串则返回，然后用时8000ms
-- 看了官方的解释，暴力法时间复杂度`O(n^3)`，子串数量是`n(n+1)/2`,判断比较子串的每个字符需要`O(n)`
-- 官方介绍了五种算法，中心扩展的时间复杂度为`O(n^2)`,使用该方法后用时1500ms，有改进但仍然较大
-- 还有一种[Manacher算法](https://oi-wiki.org/string/manacher/)，是线性时间，遍历每个字符时记录扩展的最大回文子串，如果下一个字符在最大回文子串当中，该字符与在最大回文子串对称位置的字符拥有相同的扩展，这样可以减少一些无效的迭代，使用该算法后用时600ms
-- 观摩了一种排名靠前的算法，用时60ms，所用仍是中心扩展法，即时间复杂度为`O(n^2)`
-- 之所以如此，是因为算法时间复杂度并不等同于实际用时，数据量较小时，时间复杂度高的算法可能处理操作小于时间复杂度低的算法。题目限定，s最大长度为1000，出现这种情况，也就可以理解了。
+# - 最开始想到的是暴力法，从最长子串开始查找，是回文字符串则返回，然后用时8000ms
+# - 看了官方的解释，暴力法时间复杂度`O(n^3)`，子串数量是`n(n+1)/2`,判断比较子串的每个字符需要`O(n)`
+# - 官方介绍了五种算法，中心扩展的时间复杂度为`O(n^2)`,使用该方法后用时1500ms，有改进但仍然较大
+# - 还有一种[Manacher算法](https://oi-wiki.org/string/manacher/)，是线性时间，遍历每个字符时记录扩展的最大回文子串，如果下一个字符在最大回文子串当中，该字符与在最大回文子串对称位置的字符拥有相同的扩展，这样可以减少一些无效的迭代，使用该算法后用时600ms
+# - 观摩了一种排名靠前的算法，用时60ms，所用仍是中心扩展法，即时间复杂度为`O(n^2)`
+# - 之所以如此，是因为算法时间复杂度并不等同于实际用时，数据量较小时，时间复杂度高的算法可能处理操作小于时间复杂度低的算法。题目限定，s最大长度为1000，出现这种情况，也就可以理解了。
 
-### 代码
+# ### 代码
 
-#### 用时60ms中心扩展，使用双指针遍历
-```python3
+# #### 用时60ms中心扩展，使用双指针遍历
+# ```python3
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         """找到最长回文子串"""
@@ -39,11 +39,11 @@ class Solution:
                 left += 1
 
         return p1 if len(p1) > len(p2) else p2
-```
+# ```
 
-#### 用时1500ms中心扩展，找出每个字符扩展的最大回文子串
+# #### 用时1500ms中心扩展，找出每个字符扩展的最大回文子串
 
-```python3
+# ```python3
 def longest_palindrome(s):
     """找到最长回文子串"""
     if not s:
@@ -62,11 +62,11 @@ def longest_palindrome(s):
     max_d2_index = d2.index(max_d2)
     return s[max_d1_index-max_d1+1:max_d1_index + max_d1] if max_d1 >= max_d2 + 1 \
         else s[max_d2_index - max_d2:d2.index(max_d2) + max_d2]
-```
+# ```
 
-#### 用时600ms,manacher算法，找出每个字符扩展的最大回文子串
+# #### 用时600ms,manacher算法，找出每个字符扩展的最大回文子串
 
-```python3
+# ```python3
 def longest_palindrome(s):
     """找到最长回文子串"""
     if not s:
@@ -98,11 +98,11 @@ def longest_palindrome(s):
     max_d2_index = d2.index(max_d2)
     return s[max_d1_index-max_d1:max_d1_index + max_d1 + 1] if max_d1 >= max_d2 + 1\
         else s[max_d2_index - max_d2 - 1:d2.index(max_d2) + max_d2 + 1]
-```
+# ```
 
-#### 用时8000ms的暴力算法....
+# #### 用时8000ms的暴力算法....
 
-```python3
+# ```python3
 def longest_palindrome(s):
     """找到最长回文子串"""
     if not s:
@@ -125,4 +125,4 @@ def longest_palindrome(s):
             j += 1
         i -= 1
     return s[0]
-```
+# ```

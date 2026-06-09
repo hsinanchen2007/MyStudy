@@ -1,8 +1,8 @@
-### 解题思路
-  在原数组基础上 想到的就是按照下标一步一步往后挪做比较
-### 代码
+// ### 解题思路
+//   在原数组基础上 想到的就是按照下标一步一步往后挪做比较
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -15,4 +15,4 @@ var removeDuplicates = function (nums) {
         }
     }
     return len 
-```
+// ```

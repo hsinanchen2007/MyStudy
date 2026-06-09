@@ -1,9 +1,9 @@
-按行排序，通过变量来控制下标的递增／递减
+// 按行排序，通过变量来控制下标的递增／递减
 
-执行用时 : 120 ms, 在ZigZag Conversion的JavaScript提交中击败了97.80% 的用户
+// 执行用时 : 120 ms, 在ZigZag Conversion的JavaScript提交中击败了97.80% 的用户
 
 
-```javascript []
+// ```javascript []
 /**
  * @param {string} s
  * @param {number} numRows
@@ -38,4 +38,4 @@ var convert = function(s, numRows) {
     // 拼接多个元素并返回结果
     return arr.join('');
 };
-```
+// ```

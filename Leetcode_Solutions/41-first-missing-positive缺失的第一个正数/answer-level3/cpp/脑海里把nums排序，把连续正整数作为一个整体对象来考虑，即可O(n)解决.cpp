@@ -1,5 +1,5 @@
-first[],last[]保存每个数所在连续正整数的左右端点，复杂度O(len(nums))
-```
+// first[],last[]保存每个数所在连续正整数的左右端点，复杂度O(len(nums))
+// ```
 #include<vector>
 #include<cstring>
 using namespace std;
@@ -28,4 +28,4 @@ public:
 		return ret + 1;
     }
 };
-```
+// ```

@@ -1,10 +1,10 @@
-step1:找到pattern长度，lenth；
-step2:遍历query中的一个字符串；query中用i作下标表示当前字符，
-step3:依次与pattern中的字符比较，pattern中用j做下标表示当前字符；
-step4:query中遍历到大写字符的时候，必须等于pattern中的当前字符；不等则直接break，标记false；
-step5:比较j与lenth，不等则表示pattern中还有字符没有在query中出现，标记flase；其他的都已经被标记成true了，不用管；
+// step1:找到pattern长度，lenth；
+// step2:遍历query中的一个字符串；query中用i作下标表示当前字符，
+// step3:依次与pattern中的字符比较，pattern中用j做下标表示当前字符；
+// step4:query中遍历到大写字符的时候，必须等于pattern中的当前字符；不等则直接break，标记false；
+// step5:比较j与lenth，不等则表示pattern中还有字符没有在query中出现，标记flase；其他的都已经被标记成true了，不用管；
 
-```
+// ```
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -50,4 +50,4 @@ bool* camelMatch(char ** queries, int queriesSize, char * pattern, int* returnSi
     *returnSize = queriesSize;
     return res;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-[https://michael.blog.csdn.net/article/details/104610303](https://michael.blog.csdn.net/article/details/104610303)
+// ### 解题思路
+// [https://michael.blog.csdn.net/article/details/104610303](https://michael.blog.csdn.net/article/details/104610303)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     ListNode *detectCycle(ListNode *head) {
@@ -26,4 +26,4 @@ public:
         return fast;
     }
 };
-```
+// ```

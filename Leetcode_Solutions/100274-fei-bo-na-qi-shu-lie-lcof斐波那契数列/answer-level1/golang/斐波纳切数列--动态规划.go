@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func fib(n int) int {
 	if n==0 || n==1 {
 		return n
@@ -18,4 +18,4 @@ func fib(n int) int {
 
 	return s[n]
 }
-```
+// ```

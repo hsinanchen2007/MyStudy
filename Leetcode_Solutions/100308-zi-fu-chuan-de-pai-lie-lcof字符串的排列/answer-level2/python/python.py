@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def permutation(self, s):
         """
@@ -20,4 +20,4 @@ class Solution(object):
                 backtrack(nums[:i] + nums[i + 1:], tmp + [nums[i]])
         backtrack(nums, [])
         return list(set(res))
-```
+# ```

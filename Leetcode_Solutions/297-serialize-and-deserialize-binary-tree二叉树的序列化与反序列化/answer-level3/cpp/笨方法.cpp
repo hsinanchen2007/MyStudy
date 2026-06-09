@@ -1,5 +1,5 @@
-没有使用'#'分隔，就是基础的dfs搜索，加上几个字符串转int和int转字符串的函数，效率比较低，时间就超过50%左右，不过方法很基础。
-```
+// 没有使用'#'分隔，就是基础的dfs搜索，加上几个字符串转int和int转字符串的函数，效率比较低，时间就超过50%左右，不过方法很基础。
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -72,4 +72,4 @@ public:
 // Your Codec object will be instantiated and called as such:
 // Codec codec;
 // codec.deserialize(codec.serialize(root));
-```
+// ```

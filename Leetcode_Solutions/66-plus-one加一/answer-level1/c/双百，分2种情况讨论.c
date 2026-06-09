@@ -1,10 +1,10 @@
-### 解题思路
-直接用数组处理，若转化为数字处理，存在溢出的情况。
-用数组处理，关键看returnSize是否增大（分两种情况，如9999、999和8549、8999两类）和连续的9的位数
+// ### 解题思路
+// 直接用数组处理，若转化为数字处理，存在溢出的情况。
+// 用数组处理，关键看returnSize是否增大（分两种情况，如9999、999和8549、8999两类）和连续的9的位数
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -38,4 +38,4 @@ int* plusOne(int* digits, int digitsSize, int* returnSize){
 
 
 }
-```
+// ```

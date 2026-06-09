@@ -1,22 +1,22 @@
-## 思路:
+// ## 思路:
 
-这道题, 难在时间复杂度限定在$O(n)$, 要不排序就可以了!
+// 这道题, 难在时间复杂度限定在$O(n)$, 要不排序就可以了!
 
-思路一:集合
+// 思路一:集合
 
-集合,查询时间复杂度为$O(1)$
+// 集合,查询时间复杂度为$O(1)$
 
-思路二:字典
+// 思路二:字典
 
-遍历数组, 用字典(哈希)记录目前与该值可以组成最长连续序列.
+// 遍历数组, 用字典(哈希)记录目前与该值可以组成最长连续序列.
 
-直接看代码(有注释)
+// 直接看代码(有注释)
 
-## 代码:
+// ## 代码:
 
-思路一:
+// 思路一:
 
-```python [1]
+// ```python [1]
 class Solution:
     def longestConsecutive(self, nums: List[int]) -> int:
         nums = set(nums)
@@ -30,11 +30,11 @@ class Solution:
                     tmp += 1
                 res = max(res, tmp)
         return res
-```
+// ```
 
 
 
-```java [1]
+// ```java [1]
 class Solution {
     public int longestConsecutive(int[] nums) {
         Set<Integer> num_set = new HashSet<>();
@@ -53,11 +53,11 @@ class Solution {
         return res;
     }
 }
-```
+// ```
 
-思路二:
+// 思路二:
 
-```python [2]
+// ```python [2]
 class Solution:
     def longestConsecutive(self, nums: List[int]) -> int:
         lookup = {}
@@ -74,11 +74,11 @@ class Solution:
                 lookup[num + right] = left + right + 1
                 res = max(res, left + right + 1)
         return res
-```
+// ```
 
 
 
-```java [2]
+// ```java [2]
 class Solution {
     public int longestConsecutive(int[] nums) {
         HashMap<Integer, Integer> lookup = new HashMap<>();
@@ -99,5 +99,5 @@ class Solution {
         return res;
     }
 }
-```
+// ```
 

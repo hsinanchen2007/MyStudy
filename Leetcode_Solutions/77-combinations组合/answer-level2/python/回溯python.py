@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def combine(self, n, k):
         cans = {i+1 for i in range(n)}
@@ -18,4 +18,4 @@ class Solution:
 
         res = backtrack([], cans, k, [])
         return res
-```
+# ```

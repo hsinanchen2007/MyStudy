@@ -1,5 +1,5 @@
-# 动态规划
-```go
+// # 动态规划
+// ```go
 // Time Complexity: O(n^2), Space Complexity: O(n)
 func lengthOfLIS(nums []int) int {
     if nums == nil || len(nums) == 0 {
@@ -27,9 +27,9 @@ func max(a, b int) int {
     }
     return b
 }
-```
-# 动态规划和二分搜索
-```go
+// ```
+// # 动态规划和二分搜索
+// ```go
 // Time: O(n*log(n)), Space: O(n)
 func lengthOfLISBinarySearch(nums []int) int {
     if nums == nil || len(nums) == 0 {
@@ -61,4 +61,4 @@ func binarySearchInsertPosition(d []int, len, x int) int {
     }
     return low
 }
-```
+// ```

@@ -1,9 +1,9 @@
-一个小根堆存成本
-一个大根堆存利润
-每次取成本小于资本的利润放入大根堆，然后每次取大根堆里的最大利润（贪心）
-最终利润即是答案
+# 一个小根堆存成本
+# 一个大根堆存利润
+# 每次取成本小于资本的利润放入大根堆，然后每次取大根堆里的最大利润（贪心）
+# 最终利润即是答案
 
-```python3 []
+# ```python3 []
 class Solution:
     def findMaximizedCapital(self, k: int, W: int, Profits: List[int], Capital: List[int]) -> int:
         H1, H2 = list(zip(Capital, Profits)), []
@@ -15,4 +15,4 @@ class Solution:
                 break
             W -= heappop(H2)
         return W
-```
+# ```

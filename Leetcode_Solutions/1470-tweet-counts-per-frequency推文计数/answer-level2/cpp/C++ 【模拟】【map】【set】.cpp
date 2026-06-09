@@ -1,11 +1,11 @@
-### 解题思路
-和题解的思路差不多，不过个人更喜欢结构体和set。
-用时：124s
-内存：42.9MB（不知为何击败了100% 的用户）
+// ### 解题思路
+// 和题解的思路差不多，不过个人更喜欢结构体和set。
+// 用时：124s
+// 内存：42.9MB（不知为何击败了100% 的用户）
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class TweetCounts {
     struct Man {
         string name;
@@ -70,4 +70,4 @@ public:
  * obj->recordTweet(tweetName,time);
  * vector<int> param_2 = obj->getTweetCountsPerFrequency(freq,tweetName,startTime,endTime);
  */
-```
+// ```

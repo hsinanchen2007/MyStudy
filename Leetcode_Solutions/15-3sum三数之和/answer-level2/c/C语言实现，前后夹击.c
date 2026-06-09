@@ -1,11 +1,11 @@
-执行结果：通过
-显示详情
-执行用时 :172 ms, 在所有 C 提交中击败了98.75%的用户
-内存消耗 :22 MB, 在所有 C 提交中击败了97.86%的用户
+// 执行结果：通过
+// 显示详情
+// 执行用时 :172 ms, 在所有 C 提交中击败了98.75%的用户
+// 内存消耗 :22 MB, 在所有 C 提交中击败了97.86%的用户
 
 
 
-```
+// ```
 int comp(const void *a,const void *b)
 {
     return *(int *)a - *(int *)b;
@@ -52,4 +52,4 @@ int** threeSum(int* nums, int numsSize, int* returnSize, int** returnColumnSizes
     
     return ret;
 }
-```
+// ```

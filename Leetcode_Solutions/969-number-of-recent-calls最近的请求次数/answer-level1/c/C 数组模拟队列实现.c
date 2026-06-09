@@ -1,12 +1,12 @@
-### 解题思路
-数组模拟队列实现
-注意元素最多有3001
-注意边界值
-溢出，假性溢出等常见问题。
+// ### 解题思路
+// 数组模拟队列实现
+// 注意元素最多有3001
+// 注意边界值
+// 溢出，假性溢出等常见问题。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAXSIZE 3001
 #define ERR 1
 #define OK 0
@@ -129,4 +129,4 @@ void recentCounterFree(RecentCounter* obj) {
  
  * recentCounterFree(obj);
 */
-```
+// ```

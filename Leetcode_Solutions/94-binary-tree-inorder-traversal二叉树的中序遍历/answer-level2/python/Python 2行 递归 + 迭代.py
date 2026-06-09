@@ -1,4 +1,4 @@
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -10,9 +10,9 @@ class Solution:
     def inorderTraversal(self, root: TreeNode) -> List[int]:
         f = self.inorderTraversal
         return f(root.left) + [root.val] + f(root.right) if root else []
-```
-- 递归
-```python
+# ```
+# - 递归
+# ```python
 class Solution:
     def inorderTraversal(self, root: TreeNode) -> List[int]:
         r, stack = [], []
@@ -26,5 +26,5 @@ class Solution:
             r.append(node.val)
             root = node.right
         return r
-```
-- 迭代
+# ```
+# - 迭代

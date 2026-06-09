@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
  public int nthSuperUglyNumber(int n, int[] primes) {
         if(n == 0) {
@@ -34,4 +34,4 @@ class Solution {
         return superUgly[n - 1];
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int numRollsToTarget(int d, int f, int target) {
@@ -26,5 +26,5 @@ public:
         return dp[target-1];
     }
 };
-```
-由于每次投骰子的结果只与上一次总点数小于target的结果有关，故可以只用一个长度为target的数组保存结果，只保留最后一次投骰子后的结果。
+// ```
+// 由于每次投骰子的结果只与上一次总点数小于target的结果有关，故可以只用一个长度为target的数组保存结果，只保留最后一次投骰子后的结果。

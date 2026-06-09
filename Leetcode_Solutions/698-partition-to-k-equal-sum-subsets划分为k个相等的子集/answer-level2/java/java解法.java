@@ -1,6 +1,6 @@
-执行用时 :38 ms, 中击败了37.22%的用户。
-内存消耗 :35.2 MB, 击败了89.04%的用户。
-```
+// 执行用时 :38 ms, 中击败了37.22%的用户。
+// 内存消耗 :35.2 MB, 击败了89.04%的用户。
+// ```
 class Solution {
     public boolean canPartitionKSubsets(int[] nums, int k) {
         int sum = 0;
@@ -52,4 +52,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

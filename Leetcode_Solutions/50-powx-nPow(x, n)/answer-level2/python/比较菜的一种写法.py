@@ -1,4 +1,4 @@
-指数每次循环都翻倍，向上逼近n。
+# 指数每次循环都翻倍，向上逼近n。
 
 class Solution(object):
     def myPow(self, x, n):

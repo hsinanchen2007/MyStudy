@@ -1,6 +1,6 @@
-# 思路：
-1，函数的调用是天然的栈结构，没有比用栈更适合本题的了
-```C++ []
+// # 思路：
+// 1，函数的调用是天然的栈结构，没有比用栈更适合本题的了
+// ```C++ []
 class Solution {
 public:
     vector<string> split(const string& s, char sp) {
@@ -41,6 +41,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/084b0d1e95046835d60359dd30455cc49a0849628641354822b16b2c5f82203b-image.png)
+// ![image.png](https://pic.leetcode-cn.com/084b0d1e95046835d60359dd30455cc49a0849628641354822b16b2c5f82203b-image.png)

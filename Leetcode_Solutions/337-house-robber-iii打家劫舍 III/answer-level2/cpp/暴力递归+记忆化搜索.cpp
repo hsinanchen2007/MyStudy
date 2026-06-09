@@ -1,9 +1,9 @@
-### 解题思路
-暴力递归+记忆化搜索，但是更进一步的动态规划解法就不会了。
+// ### 解题思路
+// 暴力递归+记忆化搜索，但是更进一步的动态规划解法就不会了。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 #include <iostream>
 #include <algorithm>
 #include <math.h>
@@ -55,4 +55,4 @@ public:
 		return tryRob(root);
 	}
 };
-```
+// ```

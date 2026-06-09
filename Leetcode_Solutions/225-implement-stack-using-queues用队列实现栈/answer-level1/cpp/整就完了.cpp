@@ -1,14 +1,14 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-1、两个队列，栈push元素的时候，直接que1存元素；
-2、栈pop元素的，把que1里的非最后一个元素全都放到que2里，最后que1只剩下了一个元素，直接把que1的元素pop出来
-3、别忘了que1最后pop以后，把que2的元素再折腾回que1
-4、两个栈实现队列那个题，不用折腾回去
+// 1、两个队列，栈push元素的时候，直接que1存元素；
+// 2、栈pop元素的，把que1里的非最后一个元素全都放到que2里，最后que1只剩下了一个元素，直接把que1的元素pop出来
+// 3、别忘了que1最后pop以后，把que2的元素再折腾回que1
+// 4、两个栈实现队列那个题，不用折腾回去
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MyStack {
 public:
     /** Initialize your data structure here. */
@@ -95,4 +95,4 @@ public:
  * int param_3 = obj->top();
  * bool param_4 = obj->empty();
  */
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-主要记录自己几个盲点
-1. 这个边缘的列表这个表示法，第一次见，每一行代表一条边，【1,0】就是0指向1的边，所以，第一个for循环就是循环每一行的第一个位置，有多少次，入度为几
-2. 第二点是第二个for，只有在你找到一个入度为0以后，才将i重置为-1，整个循环应该会进行的次数，是课程的总次数，但total如果不成环则相等，否则不相等
+// ### 解题思路
+// 主要记录自己几个盲点
+// 1. 这个边缘的列表这个表示法，第一次见，每一行代表一条边，【1,0】就是0指向1的边，所以，第一个for循环就是循环每一行的第一个位置，有多少次，入度为几
+// 2. 第二点是第二个for，只有在你找到一个入度为0以后，才将i重置为-1，整个循环应该会进行的次数，是课程的总次数，但total如果不成环则相等，否则不相等
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool canFinish(int numCourses, int** prerequisites, int prerequisitesSize, int* prerequisitesColSize){
 //判断是否成环
     int i,j;
@@ -26,4 +26,4 @@ bool canFinish(int numCourses, int** prerequisites, int prerequisitesSize, int* 
     }
     return numCourses==total;
 }
-```
+// ```

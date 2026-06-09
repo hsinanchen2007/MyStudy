@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def findErrorNums(self, nums: List[int]) -> List[int]:
         f=[0]*len(nums)
@@ -10,4 +10,4 @@ class Solution:
             elif f[i]==2:
                 b=i+1
         return [b,a]
-```
+# ```

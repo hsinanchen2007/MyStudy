@@ -1,9 +1,9 @@
-### 解题思路
-根据题意，需要原地算法解决，故复制了原数组的一个二维数组temp用于判断，遍历temp每个元素，统计其周围八个位置的细胞存活数survive，当该位置为活细胞时，survice大于3或者小于2时该细胞死亡，当该位置为死细胞时，survice为3时该细胞存活。
+// ### 解题思路
+// 根据题意，需要原地算法解决，故复制了原数组的一个二维数组temp用于判断，遍历temp每个元素，统计其周围八个位置的细胞存活数survive，当该位置为活细胞时，survice大于3或者小于2时该细胞死亡，当该位置为死细胞时，survice为3时该细胞存活。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
       public void gameOfLife(int[][] board) {
         int n = board.length; // 行
@@ -29,4 +29,4 @@ class Solution {
         }
     }
 }
-```
+// ```

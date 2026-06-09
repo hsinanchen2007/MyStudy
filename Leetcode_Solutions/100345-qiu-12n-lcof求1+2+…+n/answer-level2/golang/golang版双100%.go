@@ -1,9 +1,9 @@
-### 解题思路
-没有if，那就用&&来代替，不用循环那就找递归，最终代码如下
+// ### 解题思路
+// 没有if，那就用&&来代替，不用循环那就找递归，最终代码如下
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func sumNums(n int) int {
     var f func(ret *int, n int) bool
 	f = func(ret *int, n int) bool {
@@ -17,4 +17,4 @@ func sumNums(n int) int {
 
 	return ans
 }
-```
+// ```

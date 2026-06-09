@@ -1,6 +1,6 @@
-This solution uses backtracking search.
-First build a Hashmap mapping the first two letters of all available allowed strings to the list of all possible third letter. Then, starting from the very bottom, we first try to build the above level by searching exhaustively through the map, and recursively call the same function on the next level. If false is returned, we try another combination, otherwise we can simply end the search and return true, since that indicates we have reached the top. The base case is when the input string has length 1, we return true.
-```import javafx.util.Pair;
+// This solution uses backtracking search.
+// First build a Hashmap mapping the first two letters of all available allowed strings to the list of all possible third letter. Then, starting from the very bottom, we first try to build the above level by searching exhaustively through the map, and recursively call the same function on the next level. If false is returned, we try another combination, otherwise we can simply end the search and return true, since that indicates we have reached the top. The base case is when the input string has length 1, we return true.
+// ```import javafx.util.Pair;
 class Solution {
     HashMap<Pair<Character,Character>,List<Character>> map = new HashMap<>();
     private boolean backtrack(String s){
@@ -56,4 +56,4 @@ class Solution {
         return backtrack(bottom);
     }
 }
-```
+// ```

@@ -1,7 +1,7 @@
-思路：遍历每一个网格，判断每一个陆地有几面临海，总数即是周长边数
-![image.png](https://pic.leetcode-cn.com/2ff4b74a8fa3c555f8fe01717c6e3534e5201610c3c06a131f9ed94f9b916ac6-image.png)
+# 思路：遍历每一个网格，判断每一个陆地有几面临海，总数即是周长边数
+# ![image.png](https://pic.leetcode-cn.com/2ff4b74a8fa3c555f8fe01717c6e3534e5201610c3c06a131f9ed94f9b916ac6-image.png)
 
-```
+# ```
 class Solution(object):
     def islandPerimeter(self, grid):
         """
@@ -51,4 +51,4 @@ class Solution(object):
         return grid[x+1][y] == 0
 
 
-```
+# ```

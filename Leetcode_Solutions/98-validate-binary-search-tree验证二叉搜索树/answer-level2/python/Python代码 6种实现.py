@@ -1,9 +1,9 @@
-### 解题思路
-结合其他优秀的写法，和自己的一些理解，用6种方式实现
+# ### 解题思路
+# 结合其他优秀的写法，和自己的一些理解，用6种方式实现
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 class TreeNode:
     def __init__(self, x):
@@ -94,4 +94,4 @@ class Solution:
         for i in range(len(l) - 1):
             if l[i] >= l[i + 1]: return False
         return True
-```
+# ```

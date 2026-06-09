@@ -1,4 +1,4 @@
-```
+// ```
 #define max(a,b) a>b?a:b;
 int maxDepth(struct TreeNode* root){
 
@@ -10,4 +10,4 @@ int right=maxDepth(root->right)+1;
 int sum=max(left,right);
 return sum;
 }
-```
+// ```

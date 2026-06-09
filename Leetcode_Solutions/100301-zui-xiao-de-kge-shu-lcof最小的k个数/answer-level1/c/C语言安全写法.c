@@ -1,6 +1,6 @@
 
 
-```
+// ```
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -27,4 +27,4 @@ int comparator(const void* a, const void* b)
     int y = *(int*)b;
     return x - y;
 }
-```
+// ```

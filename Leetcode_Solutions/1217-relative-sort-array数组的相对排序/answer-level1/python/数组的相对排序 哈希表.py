@@ -1,9 +1,9 @@
-### 解题思路
+# ### 解题思路
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def relativeSortArray(self, arr1, arr2):
         dic = {}
@@ -21,4 +21,4 @@ class Solution(object):
             ans += [c]*dic[c]
         ans += sorted(arr11)
         return ans
-```
+# ```

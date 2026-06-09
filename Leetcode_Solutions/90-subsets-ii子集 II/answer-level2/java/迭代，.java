@@ -1,10 +1,10 @@
-迭代，统计前一次添加的集合，若数字和前一个数字相等，只需要在前一个集合的基础上添加就好。
+// 迭代，统计前一次添加的集合，若数字和前一个数字相等，只需要在前一个集合的基础上添加就好。
 
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     static  public List<List<Integer>> subsetsWithDup(int[] nums) {
         Arrays.sort(nums);
@@ -24,4 +24,4 @@ class Solution {
         return list;
     }
 }
-```
+// ```

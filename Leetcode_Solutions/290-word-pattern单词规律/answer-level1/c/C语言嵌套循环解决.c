@@ -1,5 +1,5 @@
-利用strtok函数分割字符串，然后嵌套循环解决，目前看这样比较清晰
-```
+// 利用strtok函数分割字符串，然后嵌套循环解决，目前看这样比较清晰
+// ```
 bool wordPattern(char * pattern, char * str){
     int len = strlen(pattern);
     if(len==0) return false;
@@ -50,5 +50,5 @@ bool wordPattern(char * pattern, char * str){
     }
     return true;
 }
-```
+// ```
 

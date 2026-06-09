@@ -1,11 +1,11 @@
 
-大家好，我的博客是: http://erik-chen.github.io/，欢迎交流！
-### 思路
+# 大家好，我的博客是: http://erik-chen.github.io/，欢迎交流！
+# ### 思路
 
-维护一个字典，用来储存每个num和它的排序（注意并列的情况）
+# 维护一个字典，用来储存每个num和它的排序（注意并列的情况）
 
-### 代码
-```python
+# ### 代码
+# ```python
 class Solution:
     def smallerNumbersThanCurrent(self, nums: List[int]) -> List[int]:
         nums2 = sorted(nums)    # 对nums排序
@@ -19,5 +19,5 @@ class Solution:
         for num in nums:
             res.append(mapping[num])            # res用来储存返回值
         return res
-```
+# ```
 

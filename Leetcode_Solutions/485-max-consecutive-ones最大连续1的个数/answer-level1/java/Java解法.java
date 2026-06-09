@@ -1,9 +1,9 @@
-执行用时 :2 ms, 在所有 Java 提交中击败了99.95%的用户
-内存消耗 :40 MB, 在所有 Java 提交中击败了5.04%的用户
+// 执行用时 :2 ms, 在所有 Java 提交中击败了99.95%的用户
+// 内存消耗 :40 MB, 在所有 Java 提交中击败了5.04%的用户
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findMaxConsecutiveOnes(int[] nums) {
         int answer = 0;
@@ -24,4 +24,4 @@ class Solution {
         return answer;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-两个字典比对
+# ### 解题思路
+# 两个字典比对
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countCharacters(self, words: List[str], chars: str) -> int:
         tempdict = {}
@@ -42,4 +42,4 @@ class Solution:
                 length += len(i)
 
         return length
-```
+# ```

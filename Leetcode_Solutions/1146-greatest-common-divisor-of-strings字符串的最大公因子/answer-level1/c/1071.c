@@ -1,10 +1,10 @@
-### 解题思路
-1. 判断两个字符串是否存在最大公约数: str1 + str2 == str2 + str2
-2. 求解字符串长度的最大公约数
+// ### 解题思路
+// 1. 判断两个字符串是否存在最大公约数: str1 + str2 == str2 + str2
+// 2. 求解字符串长度的最大公约数
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX_LENGTH  2001
 
 int gcd(int x, int y){
@@ -46,4 +46,4 @@ char * gcdOfStrings(char * str1, char * str2){
 
     return res;
 }
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
-由题意可知当k小于链表长度时，后移k位就是倒数k个节点移动到链表的前面
-因此先将k对len取模，找到倒数第k+1个节点和尾节点，
-将倒数第k+1个节点的next设为NULL，并将尾结点指向头结点
-注意：操作时注意边界条件（k为0，链表为空）
+// ### 解题思路
+// 由题意可知当k小于链表长度时，后移k位就是倒数k个节点移动到链表的前面
+// 因此先将k对len取模，找到倒数第k+1个节点和尾节点，
+// 将倒数第k+1个节点的next设为NULL，并将尾结点指向头结点
+// 注意：操作时注意边界条件（k为0，链表为空）
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -52,4 +52,4 @@ struct ListNode* rotateRight(struct ListNode* head, int k){
 
     return cur;
 }
-```
+// ```

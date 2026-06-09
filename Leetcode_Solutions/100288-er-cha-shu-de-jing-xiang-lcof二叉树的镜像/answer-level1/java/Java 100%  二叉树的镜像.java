@@ -1,10 +1,10 @@
-### 解题思路
-从上向下递归处理。
-遇到null节点直接返回；遇到非null节点则交换左右子树，然后递归处理左子树和右子树即可。
+// ### 解题思路
+// 从上向下递归处理。
+// 遇到null节点直接返回；遇到非null节点则交换左右子树，然后递归处理左子树和右子树即可。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -30,4 +30,4 @@ class Solution {
         return root;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-1.连接自身
+-- ### 解题思路
+-- 1.连接自身
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 
 
@@ -17,4 +17,4 @@ on c.customer_id=o.customer_id
 where o.product_name='A' and o1.product_name='B'
 and not exists(select customer_id from Orders o2 where o2.customer_id=o.customer_id and 
 o2.product_name='C')
-```
+-- ```

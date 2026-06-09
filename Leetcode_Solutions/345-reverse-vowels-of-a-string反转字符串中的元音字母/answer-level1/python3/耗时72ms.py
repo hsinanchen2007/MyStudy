@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def reverseVowels(self, s: str) -> str:
         list1 = ['a','e','i','o','u','A','E','I','O','U']
@@ -19,4 +19,4 @@ class Solution:
         for k in list2:
             str2 += k
         return(str2)
-```
+# ```

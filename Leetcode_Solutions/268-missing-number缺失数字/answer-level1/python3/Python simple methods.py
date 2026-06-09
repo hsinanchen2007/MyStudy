@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```
+# ```
 class Solution:
     def missingNumber(self, nums: List[int]) -> int:
         '''
@@ -48,4 +48,4 @@ class Solution:
             if i!=v:
                 return i
 
-```
+# ```

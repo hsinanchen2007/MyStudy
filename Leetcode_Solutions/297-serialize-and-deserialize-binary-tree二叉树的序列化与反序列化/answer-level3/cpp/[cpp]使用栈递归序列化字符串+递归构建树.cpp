@@ -1,5 +1,5 @@
-在序列化的时候使用了一个栈而不是递归。反序列化时使用了递归。
-```cpp
+// 在序列化的时候使用了一个栈而不是递归。反序列化时使用了递归。
+// ```cpp
 class Codec {
 public:
     string serialize(TreeNode* root) {
@@ -51,4 +51,4 @@ public:
         return root;
     }
 };
-```
+// ```

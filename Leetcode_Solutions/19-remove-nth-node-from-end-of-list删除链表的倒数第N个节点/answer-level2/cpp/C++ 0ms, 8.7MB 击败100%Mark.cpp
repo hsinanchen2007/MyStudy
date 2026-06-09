@@ -1,13 +1,13 @@
-### 解题思路
-没什么说的，上链表！
-维护原链表中一段长度为 n + 1 的头尾指针（n + 1 是考虑到该链表为单向链表）
+// ### 解题思路
+// 没什么说的，上链表！
+// 维护原链表中一段长度为 n + 1 的头尾指针（n + 1 是考虑到该链表为单向链表）
 
-![image.png](https://pic.leetcode-cn.com/237f6ad69d4f95fbc59ab04dcffc0642c3208cb53978bdb7224df9737121bd17-image.png)
+// ![image.png](https://pic.leetcode-cn.com/237f6ad69d4f95fbc59ab04dcffc0642c3208cb53978bdb7224df9737121bd17-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -37,4 +37,4 @@ public:
         return head;
     }
 };
-```
+// ```

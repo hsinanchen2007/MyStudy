@@ -1,10 +1,10 @@
-### 解题思路
-分成m段的时候，每段长度尽量接近的时候乘积为最大。
-所以穷举从分成2段到分成n/2段时的最大值。
+// ### 解题思路
+// 分成m段的时候，每段长度尽量接近的时候乘积为最大。
+// 所以穷举从分成2段到分成n/2段时的最大值。
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int CuttingRope(int n) {
         int max = 0;
@@ -26,4 +26,4 @@ public class Solution {
         return max;
     }
 }
-```
+// ```

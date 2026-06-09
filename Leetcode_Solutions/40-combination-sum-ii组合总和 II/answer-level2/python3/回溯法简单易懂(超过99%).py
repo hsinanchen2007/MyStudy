@@ -1,11 +1,11 @@
-![image.png](https://pic.leetcode-cn.com/f00cfe6ff7f5db9b43730dc1cac2cb7350f89dfdad9507f84dded0184b697514-image.png)
+# ![image.png](https://pic.leetcode-cn.com/f00cfe6ff7f5db9b43730dc1cac2cb7350f89dfdad9507f84dded0184b697514-image.png)
 
-我觉得用时还不错,就贴上来我的方法和大家分享
-- 此题与39题类似,但是此题不允许重复使用candidates中的元素,那么说明我们回溯时,应该从candidates[i+1:]开始,这样可以避免我们使用已使用过的元素,具体的代码如下:
-`backtrace(candidates[i+1:],temp[:],target,res)`
-- 我们还需要注意回溯时,应该去重剪枝,在对candidates进行遍历时,我们下一个元素不应该与我们上一个元素相同,具体代码如下:
-`if i==0 or candidates[i]!=candidates[i-1]:`;
-```py
+# 我觉得用时还不错,就贴上来我的方法和大家分享
+# - 此题与39题类似,但是此题不允许重复使用candidates中的元素,那么说明我们回溯时,应该从candidates[i+1:]开始,这样可以避免我们使用已使用过的元素,具体的代码如下:
+# `backtrace(candidates[i+1:],temp[:],target,res)`
+# - 我们还需要注意回溯时,应该去重剪枝,在对candidates进行遍历时,我们下一个元素不应该与我们上一个元素相同,具体代码如下:
+# `if i==0 or candidates[i]!=candidates[i-1]:`;
+# ```py
 class Solution:
     def combinationSum2(self, candidates: List[int], target: int) -> List[List[int]]:
         def backtrace(candidates,temp,target,res):
@@ -25,5 +25,5 @@ class Solution:
         backtrace(candidates,temp,target,res)
         return res
 
-```
+# ```
 

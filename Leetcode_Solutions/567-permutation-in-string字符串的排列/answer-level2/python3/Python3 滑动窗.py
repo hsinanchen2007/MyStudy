@@ -1,11 +1,11 @@
-### 解题思路
-1. 固定一个和S1一样长度的窗口，在S2中不断滑动窗口
+# ### 解题思路
+# 1. 固定一个和S1一样长度的窗口，在S2中不断滑动窗口
 
-2. 滑动过程用哈希表存储内容，每次滑动都删去原来窗口中的第一个字符并添加下一个新的字符
+# 2. 滑动过程用哈希表存储内容，每次滑动都删去原来窗口中的第一个字符并添加下一个新的字符
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def checkInclusion(self, s1: str, s2: str) -> bool:
         if len(s1) > len(s2): return False
@@ -26,4 +26,4 @@ class Solution:
                 if windows[s2[i]] == 0:
                     windows.pop(s2[i])
         return False
-```
+# ```

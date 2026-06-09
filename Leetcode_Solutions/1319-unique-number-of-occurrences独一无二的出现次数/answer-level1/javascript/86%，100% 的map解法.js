@@ -1,4 +1,4 @@
-```
+// ```
 
 var uniqueOccurrences = function(arr) {
     let index = 0
@@ -19,4 +19,4 @@ var uniqueOccurrences = function(arr) {
     })
      return arrNew.length===[...new Set(arrNew)].length 
 };
-```
+// ```

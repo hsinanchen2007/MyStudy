@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minMoves2(int[] nums) {
     
@@ -12,4 +12,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

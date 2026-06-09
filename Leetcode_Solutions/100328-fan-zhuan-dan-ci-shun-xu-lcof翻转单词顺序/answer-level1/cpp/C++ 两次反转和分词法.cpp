@@ -1,17 +1,17 @@
-### 解题思路
-方法1：两次反转，空间复杂度o(1)
-先翻转整个字符串，再对字符串里的每个单词进行翻转
-对于整个字符串s中出的空格的处理：
-- 如果是首尾空格，则使用s.erase()和s.find_first_not_of()和s.find_last_not_of()进行删除
-- 对于中间的多余空格，进行遍历，对于多余的空格使用s.erase进行删除
-对于特判情况的处理：
-- 由于可能出现字符串全为空格的情况，因此应该先删除首尾空格，再判断字符串中字符个数是否为0
+// ### 解题思路
+// 方法1：两次反转，空间复杂度o(1)
+// 先翻转整个字符串，再对字符串里的每个单词进行翻转
+// 对于整个字符串s中出的空格的处理：
+// - 如果是首尾空格，则使用s.erase()和s.find_first_not_of()和s.find_last_not_of()进行删除
+// - 对于中间的多余空格，进行遍历，对于多余的空格使用s.erase进行删除
+// 对于特判情况的处理：
+// - 由于可能出现字符串全为空格的情况，因此应该先删除首尾空格，再判断字符串中字符个数是否为0
 
-方法2：参考
-[@adonis](/u/adonis/)的分词法，用空间换时间，也比较好理解，把每一个单词分出，然后逆序输出，看代码更清晰
-### 代码
+// 方法2：参考
+// [@adonis](/u/adonis/)的分词法，用空间换时间，也比较好理解，把每一个单词分出，然后逆序输出，看代码更清晰
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	string reverseWords(string s) {
@@ -78,9 +78,9 @@ public:
 		}
 	}
 };
-```
-方法2：分词法
-```cpp
+// ```
+// 方法2：分词法
+// ```cpp
 class Solution {
 public:
 	string reverseWords(string s) {
@@ -114,7 +114,7 @@ public:
 		return ans;
 	}
 };
-```
+// ```
 
-### 参考资料
-[关于find_last_not_of和find_first_not_of的用法解释](https://blog.csdn.net/ffjbq/article/details/7611255)
+// ### 参考资料
+// [关于find_last_not_of和find_first_not_of的用法解释](https://blog.csdn.net/ffjbq/article/details/7611255)

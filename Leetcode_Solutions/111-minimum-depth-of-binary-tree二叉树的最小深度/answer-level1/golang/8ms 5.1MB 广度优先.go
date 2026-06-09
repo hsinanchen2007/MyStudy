@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-BFS
+// ### 解题思路
+// 此处撰写解题思路
+// BFS
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -58,4 +58,4 @@ func minDepth(root *TreeNode) int {
 
 }
 
-```
+// ```

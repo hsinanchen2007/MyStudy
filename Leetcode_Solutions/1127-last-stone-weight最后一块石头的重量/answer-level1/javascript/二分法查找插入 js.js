@@ -1,4 +1,4 @@
-```js
+// ```js
 var lastStoneWeight = function(stones) {
         // 1. 石头排序
         stones.sort((a,b) => a-b)
@@ -29,4 +29,4 @@ var lastStoneWeight = function(stones) {
         }
         return left
     }
-```
+// ```

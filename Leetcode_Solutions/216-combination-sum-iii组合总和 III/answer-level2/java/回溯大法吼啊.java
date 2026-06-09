@@ -1,9 +1,9 @@
-### 解题思路
-回溯吃遍天啊
+// ### 解题思路
+// 回溯吃遍天啊
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private List<List<Integer>>res;
     public List<List<Integer>> combinationSum3(int k, int n) {
@@ -27,4 +27,4 @@ class Solution {
         }
     }
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-琐碎细节没有考虑到，接连错 3次。
+# ### 解题思路
+# 琐碎细节没有考虑到，接连错 3次。
 
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numMovesStones(self, a: int, b: int, c: int) -> List[int]:
         if a>b:
@@ -27,4 +27,4 @@ class Solution:
             v1 = 2 # 最小移动次数是尽可能地去靠近 mid, 一步就去靠近
 
         return [v1, v2]
-```
+# ```

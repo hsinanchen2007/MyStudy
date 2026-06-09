@@ -1,10 +1,10 @@
-### analyze
+// ### analyze
 
-该题需注意的点: [1, [4]] 里的子项 1, [4] 分别通过 `getInteger` 与 `getList` 获取到。
+// 该题需注意的点: [1, [4]] 里的子项 1, [4] 分别通过 `getInteger` 与 `getList` 获取到。
 
-### 递归法
+// ### 递归法
 
-```js
+// ```js
 /**
  * // This is the interface that allows for creating nested lists.
  * // You should not implement it, or speculate about its implementation
@@ -73,22 +73,22 @@ NestedIterator.prototype.next = function() {
  * var i = new NestedIterator(nestedList), a = [];
  * while (i.hasNext()) a.push(i.next());
 */
-```
+// ```
 
-### 迭代法
+// ### 迭代法
 
-相对递归法, 迭代法需要额外维护一个`系统调用栈`, 然后使用`颜色标记法`完成题解。
+// 相对递归法, 迭代法需要额外维护一个`系统调用栈`, 然后使用`颜色标记法`完成题解。
 
-颜色标记法思路:
+// 颜色标记法思路:
 
-* 未访问过的列表标记为`白色`, 访问过的列表标记为`灰色`;
-* 从栈顶取出访问元素:
-   * 若为灰色元素, 则打印之;
-   * 若为白色元素, 则遍历子列表:
-      * 若子列表为列表, 则将其`标记为白色`并推入栈;
-      * 若子列表为数字, 则将其`标记为灰色`并推入栈;
+// * 未访问过的列表标记为`白色`, 访问过的列表标记为`灰色`;
+// * 从栈顶取出访问元素:
+//    * 若为灰色元素, 则打印之;
+//    * 若为白色元素, 则遍历子列表:
+//       * 若子列表为列表, 则将其`标记为白色`并推入栈;
+//       * 若子列表为数字, 则将其`标记为灰色`并推入栈;
 
-```js
+// ```js
 /**
  * // This is the interface that allows for creating nested lists.
  * // You should not implement it, or speculate about its implementation
@@ -161,10 +161,10 @@ NestedIterator.prototype.next = function() {
  * var i = new NestedIterator(nestedList), a = [];
  * while (i.hasNext()) a.push(i.next());
 */
-```
+// ```
 
-### Similar Title
+// ### Similar Title
 
-94、144、145
+// 94、144、145
 
-> 为确保内容的实时、准确性, 可以查看[JavaScript 题解](https://github.com/MuYunyun/blog/blob/master/LeetCode/README.md)
+// > 为确保内容的实时、准确性, 可以查看[JavaScript 题解](https://github.com/MuYunyun/blog/blob/master/LeetCode/README.md)

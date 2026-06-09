@@ -1,6 +1,6 @@
-## 思路一：递归
-### 代码
-```c++
+// ## 思路一：递归
+// ### 代码
+// ```c++
 class Solution {
 public:
     vector<TreeNode*> generateTrees(int n) {
@@ -25,9 +25,9 @@ public:
         return res;
     }
 };
-```
-### 记忆化数组优化
-```c++
+// ```
+// ### 记忆化数组优化
+// ```c++
 class Solution {
 public:
     vector<TreeNode*> generateTrees(int n) {
@@ -54,6 +54,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
 

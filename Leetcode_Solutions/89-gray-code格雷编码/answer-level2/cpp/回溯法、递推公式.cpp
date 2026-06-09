@@ -1,10 +1,10 @@
-C++ 版本的代码，具体参考相关链接
+// C++ 版本的代码，具体参考相关链接
 
-## 回溯法
+// ## 回溯法
 
-- [参考](https://leetcode-cn.com/problems/gray-code/solution/jian-dan-de-si-lu-44ms-by-dannnn/)
+// - [参考](https://leetcode-cn.com/problems/gray-code/solution/jian-dan-de-si-lu-44ms-by-dannnn/)
 
-```cpp
+// ```cpp
 // 回溯法
 class Solution {
 public:
@@ -50,14 +50,14 @@ public:
         return ret;
     }
 };
-```
-## 递推公式
+// ```
+// ## 递推公式
 
-- [参考](https://leetcode-cn.com/problems/gray-code/solution/gray-code-jing-xiang-fan-she-fa-by-jyd/)
+// - [参考](https://leetcode-cn.com/problems/gray-code/solution/gray-code-jing-xiang-fan-she-fa-by-jyd/)
 
-$$G(n + 1) = G(n) + map(x + x^n, G'(n))$$
+// $$G(n + 1) = G(n) + map(x + x^n, G'(n))$$
 
-```cpp
+// ```cpp
 // G(n + 1) = G(n) + map(x + x^n, G'(n))
 class Solution {
 public:
@@ -77,4 +77,4 @@ public:
         return ret;
     }
 };
-```
+// ```

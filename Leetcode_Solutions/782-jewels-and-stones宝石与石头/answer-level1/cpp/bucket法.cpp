@@ -1,4 +1,4 @@
-```
+// ```
 public:
     int getIdx(const char& c) {
         if('a' <= c && c <= 'z')  return int(c - 'a') + 26;
@@ -19,4 +19,4 @@ public:
         return res;
     }
 };
-```
+// ```

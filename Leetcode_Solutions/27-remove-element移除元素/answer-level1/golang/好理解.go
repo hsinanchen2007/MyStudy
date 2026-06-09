@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-从数值的前后两端同时向中间遍历，前端比较与Val的大小，相等时与尾端互换位置，同时尾端向前进一前端往后退一，交换的次数就是Val的个数。注意边界条件可取等号。
+// 从数值的前后两端同时向中间遍历，前端比较与Val的大小，相等时与尾端互换位置，同时尾端向前进一前端往后退一，交换的次数就是Val的个数。注意边界条件可取等号。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func removeElement(nums []int, val int) int {
     j:=len(nums)-1
     count := 0
@@ -18,4 +18,4 @@ func removeElement(nums []int, val int) int {
     }
     return len(nums) - count
 }
-```
+// ```

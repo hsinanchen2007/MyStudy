@@ -1,6 +1,6 @@
 
-我这个为啥这么短就通过了
-```
+// 我这个为啥这么短就通过了
+// ```
 class Solution {
     // 5  6  1   7
     public int maxProfit(int[] prices) {
@@ -12,4 +12,4 @@ class Solution {
         return x;
     }
 }
-```
+// ```

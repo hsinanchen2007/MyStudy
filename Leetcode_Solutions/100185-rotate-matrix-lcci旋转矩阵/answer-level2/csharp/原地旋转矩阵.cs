@@ -1,9 +1,9 @@
-### 解题思路
-注意要旋转的点是矩阵的边框顶点，遍历每个顶点，对其做四次变换就可以了
+// ### 解题思路
+// 注意要旋转的点是矩阵的边框顶点，遍历每个顶点，对其做四次变换就可以了
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public void Rotate(int[][] matrix) {
         int n = matrix.Length;
@@ -24,4 +24,4 @@ public class Solution {
         }
     }
 }
-```
+// ```

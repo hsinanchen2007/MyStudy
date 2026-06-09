@@ -1,5 +1,5 @@
-DFS法 在JAVA中击败了100%的用户
-```
+// DFS法 在JAVA中击败了100%的用户
+// ```
 class Solution {
     int ans;
     public int sumRootToLeaf(TreeNode root) {
@@ -16,4 +16,4 @@ class Solution {
         dfs(root.right,sum);
     }
 }
-```
+// ```

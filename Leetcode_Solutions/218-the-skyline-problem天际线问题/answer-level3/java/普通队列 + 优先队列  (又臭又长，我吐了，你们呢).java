@@ -1,10 +1,10 @@
-# 思路
-- 普通队列队列记录下一个建筑的侧边（可能是左边👈也可能是右边👉），优先队列（也就是堆）记录下一下看到的建筑的高度。
-- 效率和内存占用还行：
-![image.png](https://pic.leetcode-cn.com/599a8ea9e64c3f12daed22812f1484bc86f96e8e8394f6512aa37f7c4e2281df-image.png)
+// # 思路
+// - 普通队列队列记录下一个建筑的侧边（可能是左边👈也可能是右边👉），优先队列（也就是堆）记录下一下看到的建筑的高度。
+// - 效率和内存占用还行：
+// ![image.png](https://pic.leetcode-cn.com/599a8ea9e64c3f12daed22812f1484bc86f96e8e8394f6512aa37f7c4e2281df-image.png)
 
-# 代码
-```java
+// # 代码
+// ```java
     static class High{
         int high;
         int expaired;
@@ -72,4 +72,4 @@
         ans.add(Arrays.asList(nowHigh.expaired, 0));
         return ans;
     }
-```
+// ```

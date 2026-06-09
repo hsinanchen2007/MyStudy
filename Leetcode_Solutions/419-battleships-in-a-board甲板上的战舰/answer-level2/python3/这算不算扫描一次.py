@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def countBattleships(self, board: List[List[str]]) -> int:
         num, i = 0, 0
@@ -23,4 +23,4 @@ class Solution:
                 j += 1
             i += 1    
         return num   
-```
+# ```

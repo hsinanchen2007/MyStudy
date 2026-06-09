@@ -1,9 +1,9 @@
-### 解题思路
-申请的res数组0号单元先不用，num大于0时返回res+1，否则令res[0]=‘-’并返回res
-不过好像挺麻烦的
-### 代码
+// ### 解题思路
+// 申请的res数组0号单元先不用，num大于0时返回res+1，否则令res[0]=‘-’并返回res
+// 不过好像挺麻烦的
+// ### 代码
 
-```c
+// ```c
 char * convertToBase7(int num){
     if(num==0) return "0";
     char str[33];
@@ -22,4 +22,4 @@ char * convertToBase7(int num){
     res[0]='-';
     return res;
 }
-```
+// ```

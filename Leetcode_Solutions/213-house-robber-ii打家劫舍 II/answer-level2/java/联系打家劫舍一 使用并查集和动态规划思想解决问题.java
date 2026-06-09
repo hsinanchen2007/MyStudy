@@ -1,10 +1,10 @@
-### 解题如果按照打家劫舍一的思路，可能会出现首尾相连的情况，因此我们引用了并查集的思想，新建find数组，find[i]表示
-dp[i]对应的偷窃的第一个房子，如果find[len-1]==0就表示这次偷窃不成功，所以应该把第一个房子去掉或者最后一个房子去掉再执行一次打家劫舍一的代码。
-![image.png](https://pic.leetcode-cn.com/04d395bbb1ff5be6599e56d1c1b540eb914377fe5da061ce646918af6636930b-image.png)
+// ### 解题如果按照打家劫舍一的思路，可能会出现首尾相连的情况，因此我们引用了并查集的思想，新建find数组，find[i]表示
+// dp[i]对应的偷窃的第一个房子，如果find[len-1]==0就表示这次偷窃不成功，所以应该把第一个房子去掉或者最后一个房子去掉再执行一次打家劫舍一的代码。
+// ![image.png](https://pic.leetcode-cn.com/04d395bbb1ff5be6599e56d1c1b540eb914377fe5da061ce646918af6636930b-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int rob(int[] nums) {
         int len = nums.length;
@@ -37,4 +37,4 @@ class Solution {
         return dp[len-1];
     }
 }
-```
+// ```

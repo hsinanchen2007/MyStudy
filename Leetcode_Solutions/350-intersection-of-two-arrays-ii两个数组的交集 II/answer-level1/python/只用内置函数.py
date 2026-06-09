@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def intersect(self, nums1, nums2):
         """
@@ -19,4 +19,4 @@ class Solution(object):
                 ls.append(item)
                 nums4.remove(item)
         return res
-```
+# ```

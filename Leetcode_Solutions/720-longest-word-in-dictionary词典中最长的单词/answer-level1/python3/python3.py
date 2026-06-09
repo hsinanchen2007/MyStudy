@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def longestWord(self, words: List[str]) -> str:
         dict = [[] for _ in range(31)]
@@ -13,4 +13,4 @@ class Solution:
             longestword = tmp
 
         return sorted(longestword)[0]
-```
+# ```

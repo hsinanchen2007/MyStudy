@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-递归停止条件：当输入节点为None时停止，return。
-利用ans记录当前的数值。
-中序遍历，左根右。
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 递归停止条件：当输入节点为None时停止，return。
+# 利用ans记录当前的数值。
+# 中序遍历，左根右。
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -24,4 +24,4 @@ class Solution:
             dfs(node.right)
         dfs(root)
         return ans[-k]
-```
+# ```

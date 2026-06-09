@@ -1,8 +1,8 @@
-执行用时 :184 ms, 在所有 JavaScript 提交中击败了97.87%的用户
-内存消耗 :56.1 MB, 在所有 JavaScript 提交中击败了100.00%的用户
+// 执行用时 :184 ms, 在所有 JavaScript 提交中击败了97.87%的用户
+// 内存消耗 :56.1 MB, 在所有 JavaScript 提交中击败了100.00%的用户
 
 
-```js
+// ```js
 class WordDictionary {
   map: Map<number, string[]>;
   constructor() {
@@ -51,13 +51,13 @@ class WordDictionary {
     return true;
   }
 }
-```
+// ```
 
-时间复杂度是O(mn)，m是add加入的单词数量，n是搜索的目标单词的长度。
-空间复杂度O(m)
+// 时间复杂度是O(mn)，m是add加入的单词数量，n是搜索的目标单词的长度。
+// 空间复杂度O(m)
 
-附上编译后的js：
-```js
+// 附上编译后的js：
+// ```js
 class WordDictionary {
     constructor() {
         this.map = new Map();
@@ -101,4 +101,4 @@ class WordDictionary {
         return true;
     }
 }
-```
+// ```

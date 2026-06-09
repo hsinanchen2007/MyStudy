@@ -1,9 +1,9 @@
-### 解题思路
-通过set和map减小运行时间
+# ### 解题思路
+# 通过set和map减小运行时间
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def robotSim(self, commands: List[int], obstacles: List[List[int]]) -> int:
         xx = [0, 1, 0, -1]
@@ -29,4 +29,4 @@ class Solution:
             res = max(res, x ** 2 + y ** 2)
 
         return res
-```
+# ```

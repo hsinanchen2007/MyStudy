@@ -1,9 +1,9 @@
-给定一个包含`非负整数`的 m x n 网格，请找出一条从左上角到右下角的路径，使得路径上的数字总和为最小。
-说明：每次只能`向下或者向右`移动一步。
+// 给定一个包含`非负整数`的 m x n 网格，请找出一条从左上角到右下角的路径，使得路径上的数字总和为最小。
+// 说明：每次只能`向下或者向右`移动一步。
 
-非负整数和只能向下向右是能使用dp的关键
-# 自顶向下 TML
-```java
+// 非负整数和只能向下向右是能使用dp的关键
+// # 自顶向下 TML
+// ```java
 int row,col;
 public int minPathSum(int[][] grid) {
     row = grid.length;
@@ -22,10 +22,10 @@ private int helper(int[][] grid, int r, int c){
         left = helper(grid, r, c-1);
     return Math.min(up, left)+grid[r][c];
 }
-```
+// ```
 
-# 自顶向下，记忆化搜索 AC
-```java
+// # 自顶向下，记忆化搜索 AC
+// ```java
 int row,col;
 Integer[][] memo;
 public int minPathSum(int[][] grid) {
@@ -48,10 +48,10 @@ private int helper(int[][] grid, int r, int c){
         left = helper(grid, r, c-1);
     return memo[r][c] = Math.min(up, left)+grid[r][c];
 }
-```
+// ```
 
-# 自底向上 DP AC
-```java
+// # 自底向上 DP AC
+// ```java
 public int minPathSum(int[][] grid) {
     int row = grid.length;
     int col = grid[0].length;
@@ -66,6 +66,6 @@ public int minPathSum(int[][] grid) {
     }
     return ans[row-1][col-1];
 }
-```
+// ```
 
 

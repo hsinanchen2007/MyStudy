@@ -1,4 +1,4 @@
-```
+// ```
 int jump(int* nums, int numsSize){
     if (nums == NULL || numsSize <= 1) {
         return 0;
@@ -23,4 +23,4 @@ int jump(int* nums, int numsSize){
     }
     return -1;
 }
-```
+// ```

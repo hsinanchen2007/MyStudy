@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func compressString(S string) string {
 	// 1.如果当前字符串等于前一个字符串，则count++，否则count==1
 	// 只能依次遍历吗，有没有什么其他方法
@@ -46,4 +46,4 @@ func compressString(S string) string {
 	return final
 }
 
-```
+// ```

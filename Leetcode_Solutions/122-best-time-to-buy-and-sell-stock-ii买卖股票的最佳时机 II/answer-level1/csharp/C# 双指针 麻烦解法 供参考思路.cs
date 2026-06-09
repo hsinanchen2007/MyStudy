@@ -1,7 +1,7 @@
-我是用双指针的思想做的,比最优解麻烦很多,想复杂了.
-不过也是时间复杂度O(N),空间复杂度O(3)
-也不算太麻烦吧,供大家参考思路
-```
+// 我是用双指针的思想做的,比最优解麻烦很多,想复杂了.
+// 不过也是时间复杂度O(N),空间复杂度O(3)
+// 也不算太麻烦吧,供大家参考思路
+// ```
 public class Solution {
     public int MaxProfit(int[] prices) {
         if (prices == null)
@@ -45,4 +45,4 @@ public class Solution {
         return result;
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-1.记录当前位置前后左右所能够炸死的敌人，然后相加即可。
-```
+// 1.记录当前位置前后左右所能够炸死的敌人，然后相加即可。
+// ```
 class Solution {
 public:
     int maxKilledEnemies(vector<vector<char>>& grid) {
@@ -68,4 +68,4 @@ public:
         return ans;
     }
 };
-```
+// ```

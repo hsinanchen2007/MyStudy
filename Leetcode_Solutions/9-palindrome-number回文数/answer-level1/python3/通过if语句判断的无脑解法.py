@@ -1,5 +1,5 @@
-![QQ图片20200222225409.jpg](https://pic.leetcode-cn.com/8143becd256c9f86380217623bd2473cb57096b59fc978cf60e323ebe95352eb-QQ%E5%9B%BE%E7%89%8720200222225409.jpg)
-```
+# ![QQ图片20200222225409.jpg](https://pic.leetcode-cn.com/8143becd256c9f86380217623bd2473cb57096b59fc978cf60e323ebe95352eb-QQ%E5%9B%BE%E7%89%8720200222225409.jpg)
+# ```
 class Solution:
     def isPalindrome(self, x: int) -> bool:
         res = 0
@@ -17,4 +17,4 @@ class Solution:
                     return True
                 else:
                     return False
-```
+# ```

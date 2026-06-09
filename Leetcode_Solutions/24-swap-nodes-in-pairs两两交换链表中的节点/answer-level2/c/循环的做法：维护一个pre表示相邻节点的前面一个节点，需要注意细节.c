@@ -1,4 +1,4 @@
-```
+// ```
 struct ListNode* swapPairs(struct ListNode* head){
     struct ListNode* node = (struct ListNode*)malloc(sizeof(struct ListNode));
     node ->next = head;
@@ -14,4 +14,4 @@ struct ListNode* swapPairs(struct ListNode* head){
     }
     return node ->next;
 }
-```
+// ```

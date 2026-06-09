@@ -1,6 +1,6 @@
-我就是懒的写两个循环
+// 我就是懒的写两个循环
 
-```c
+// ```c
 void cTitle(int n, int *i, char *s)
 {
     if (n == 0)  return;
@@ -19,5 +19,5 @@ char *convertToTitle(int n)
     s[ i ] = '\0';
     return s;
 }
-```
+// ```
 

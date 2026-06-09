@@ -1,6 +1,6 @@
-### 方法1：柱状图
+// ### 方法1：柱状图
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maximalRectangle(vector<vector<char>>& matrix) {
@@ -28,12 +28,12 @@ public:
         return res;
     }
 };
-```
+// ```
 
 
 
-### 方法二：使用柱状图 - 栈
-```cpp
+// ### 方法二：使用柱状图 - 栈
+// ```cpp
 class Solution {
 public:
     int maximalRectangle(vector<vector<char>>& matrix) {
@@ -69,11 +69,11 @@ public:
         return res;
     }
 };
-```
+// ```
 
 
-### 方法三：动态规划 - 每个点的最大高度
-```cpp
+// ### 方法三：动态规划 - 每个点的最大高度
+// ```cpp
 class Solution {
 public:
     int maximalRectangle(vector<vector<char>>& matrix) {
@@ -109,4 +109,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def findContinuousSequence(self, target: int) -> List[List[int]]:
         ans=[]
@@ -8,5 +8,5 @@ class Solution:
                 ans.append(list(range((2*target//i-i+1)//2,(2*target//i+i+1)//2)))
 
         return ans
-```
-额外需要小心的是正整数的要求（第三个判断条件），以及整除的要求（第二个判断条件）。
+# ```
+# 额外需要小心的是正整数的要求（第三个判断条件），以及整除的要求（第二个判断条件）。

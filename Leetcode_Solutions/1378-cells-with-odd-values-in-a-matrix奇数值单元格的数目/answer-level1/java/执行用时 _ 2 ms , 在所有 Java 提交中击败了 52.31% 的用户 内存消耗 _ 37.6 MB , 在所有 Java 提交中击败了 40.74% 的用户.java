@@ -1,8 +1,8 @@
-### 解题思路
-根据题目意思来就可以了，首先找到该行，该行所有元素加1，其次找到该列，该列所有元素加一，嵌套循环即可。
-### 代码
+// ### 解题思路
+// 根据题目意思来就可以了，首先找到该行，该行所有元素加1，其次找到该列，该列所有元素加一，嵌套循环即可。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int oddCells(int n, int m, int[][] indices) {
         int[][] arr = new int[n][m];
@@ -23,4 +23,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

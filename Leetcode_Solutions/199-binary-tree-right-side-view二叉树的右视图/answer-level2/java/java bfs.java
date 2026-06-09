@@ -1,4 +1,4 @@
- ```
+//  ```
     public List<Integer> rightSideView(TreeNode root) {
         LinkedList<Integer> res = new LinkedList<>();
         if (root == null) return res;
@@ -17,4 +17,4 @@
         }
         return res;
     }
-```
+// ```

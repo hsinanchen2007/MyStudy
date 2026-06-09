@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-苦力活
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 苦力活
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void gameOfLife(vector<vector<int>>& board) {
@@ -35,4 +35,4 @@ public:
         }
     }
 };
-```
+// ```

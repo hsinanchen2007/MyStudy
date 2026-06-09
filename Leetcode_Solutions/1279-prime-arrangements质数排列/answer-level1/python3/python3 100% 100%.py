@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def numPrimeArrangements(self, n: int) -> int:
         def df(n):
@@ -22,4 +22,4 @@ class Solution:
                 summ *= i
                 summ = summ % (10**9 + 7)
             return summ
-```
+# ```

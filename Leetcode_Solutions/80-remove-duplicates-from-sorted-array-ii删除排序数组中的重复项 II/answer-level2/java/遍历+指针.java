@@ -1,10 +1,10 @@
-### 解题思路
-pointer指向有效结果的下一位，同时记录数字和出现的次数，2次内赋值过去，2次以上跳过即可。
-![image.png](https://pic.leetcode-cn.com/d5b3fe2d8450d3b451d9e66038a4bffa1a64bf058119e49ea8d532186d7f747f-image.png)
+// ### 解题思路
+// pointer指向有效结果的下一位，同时记录数字和出现的次数，2次内赋值过去，2次以上跳过即可。
+// ![image.png](https://pic.leetcode-cn.com/d5b3fe2d8450d3b451d9e66038a4bffa1a64bf058119e49ea8d532186d7f747f-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int removeDuplicates(int[] nums) {
         if (nums == null || nums.length == 0) return 0;
@@ -24,4 +24,4 @@ class Solution {
         return pointer;
     }
 }
-```
+// ```

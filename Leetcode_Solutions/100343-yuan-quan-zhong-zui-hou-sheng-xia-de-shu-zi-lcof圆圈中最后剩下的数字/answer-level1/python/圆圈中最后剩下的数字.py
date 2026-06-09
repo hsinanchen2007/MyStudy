@@ -1,9 +1,9 @@
-### 解题思路
-和剑指offer上面孩子们的游戏一样
+# ### 解题思路
+# 和剑指offer上面孩子们的游戏一样
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def lastRemaining(self, n, m):
         """
@@ -21,4 +21,4 @@ class Solution(object):
             value = currentvalue
             
         return value
-```
+# ```

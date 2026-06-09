@@ -1,35 +1,35 @@
-### 解题思路
-此处撰写解题思路
-1、想着如何构建简单的连表结构
-2、从简单的构建，到循环构建
-3、反解析
-4、解决一些异常情况
+// ### 解题思路
+// 此处撰写解题思路
+// 1、想着如何构建简单的连表结构
+// 2、从简单的构建，到循环构建
+// 3、反解析
+// 4、解决一些异常情况
 
 
-简单构建：
-ListNode node = new ListNode(1);
-node.next = new ListNode(2);
-node.next.next = new ListNode(3);
+// 简单构建：
+// ListNode node = new ListNode(1);
+// node.next = new ListNode(2);
+// node.next.next = new ListNode(3);
 
-循环构建：
+// 循环构建：
 
-int i = 1;
-ListNode p = new ListNode(i);
-ListNode t = p;
-while (true) {
-    i++;
-    t.next = new ListNode(i);
-    t = t.next;
-    if (i == 5) {
-        break;
-    }
-}
+// int i = 1;
+// ListNode p = new ListNode(i);
+// ListNode t = p;
+// while (true) {
+//     i++;
+//     t.next = new ListNode(i);
+//     t = t.next;
+//     if (i == 5) {
+//         break;
+//     }
+// }
 
-反解析连表。
+// 反解析连表。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -56,4 +56,4 @@ class Solution {
         }
     }
 }
-```
+// ```

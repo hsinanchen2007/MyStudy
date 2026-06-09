@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int uniquePaths(int m, int n) {
         int[][] pathrecord = new int[m][n];
@@ -16,4 +16,4 @@ class Solution {
         return pathrecord[m-1][n-1];
     }
 }
-```
+// ```

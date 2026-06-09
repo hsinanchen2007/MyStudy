@@ -1,6 +1,6 @@
- 因为看到一堆用了排序,似乎根本不知道什么叫时间复杂度.所以贴出来.
+//  因为看到一堆用了排序,似乎根本不知道什么叫时间复杂度.所以贴出来.
 
-``` js
+// ``` js
 let findMedianSortedArrays = function(nums1, nums2) {
   let len1 = nums1.length,len2 = nums2.length;
   let mid = len1 + len2 >> 1; // 中位数位置, 取mid mid+1两个
@@ -24,4 +24,4 @@ let findMedianSortedArrays = function(nums1, nums2) {
   }
   return (len1 + len2) % 2 === 0 ? (n1 + n2)/2 : n2;
 };
-```
+// ```

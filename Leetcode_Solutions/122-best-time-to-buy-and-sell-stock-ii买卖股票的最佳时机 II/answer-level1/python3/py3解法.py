@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         price = sys.maxsize
@@ -18,4 +18,4 @@ class Solution:
                     price = prices[i]
         total_profit += profit
         return total_profit
-```
+# ```

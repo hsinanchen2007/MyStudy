@@ -1,9 +1,9 @@
-### 解题思路
-没什么技巧，理清所有可能就完事，个人觉得自己写的很小学生！
+# ### 解题思路
+# 没什么技巧，理清所有可能就完事，个人觉得自己写的很小学生！
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def myAtoi(self, str: str) -> int:
         str1 = str.lstrip()
@@ -57,4 +57,4 @@ class Solution:
 
         
 
-```
+# ```

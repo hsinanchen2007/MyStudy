@@ -1,18 +1,18 @@
-### 解题思路
-方法一:赖皮方法
-方法二:用递归求全排列
+# ### 解题思路
+# 方法一:赖皮方法
+# 方法二:用递归求全排列
 
-### 代码
-```
+# ### 代码
+# ```
 class Solution:
     def printNumbers(self, n: int) -> List[int]:
         ret=[]
         for i in range(1,10**n):
             ret.append(i)
         return ret
-```
+# ```
 
-```
+# ```
 class Solution:
     def printNumbers(self, n: int) -> List[int]:
         if n<0:
@@ -32,4 +32,4 @@ class Solution:
             ret[0]=str(i)
             print1toN(ret,n,0) #ret表示存储数字的列表,n表示长度,0表示index位置
         return result[1:] #0这个数字不需要返回,所以不用输出
-```
+# ```

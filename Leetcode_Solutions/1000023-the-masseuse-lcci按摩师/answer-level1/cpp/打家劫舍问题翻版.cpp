@@ -1,5 +1,5 @@
-动态规划，打家劫舍问题翻版而已。
-```
+// 动态规划，打家劫舍问题翻版而已。
+// ```
 class Solution {
 public:
     int massage(vector<int>& nums) {
@@ -14,4 +14,4 @@ public:
         return res[nums.size()-1];
     }
 };
-```
+// ```

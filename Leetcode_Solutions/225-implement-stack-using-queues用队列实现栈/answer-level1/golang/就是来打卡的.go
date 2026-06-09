@@ -1,9 +1,9 @@
-### 解题思路
-没啥麻烦的，就是用list实现的，也可以用slice，不过一般做题的时候我都会用list来，这样方便一点
+// ### 解题思路
+// 没啥麻烦的，就是用list实现的，也可以用slice，不过一般做题的时候我都会用list来，这样方便一点
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 import (
     "container/list"
 )
@@ -55,4 +55,4 @@ func (this *MyStack) Empty() bool {
  * param_3 := obj.Top();
  * param_4 := obj.Empty();
  */
-```
+// ```

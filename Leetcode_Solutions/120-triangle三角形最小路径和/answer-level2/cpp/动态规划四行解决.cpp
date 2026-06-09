@@ -1,5 +1,5 @@
-自底向上计算。
-```
+// 自底向上计算。
+// ```
 class Solution {
 public:
     int minimumTotal(vector<vector<int>>& triangle) {
@@ -9,4 +9,4 @@ public:
         return triangle[0][0];
     }
 };
-```
+// ```

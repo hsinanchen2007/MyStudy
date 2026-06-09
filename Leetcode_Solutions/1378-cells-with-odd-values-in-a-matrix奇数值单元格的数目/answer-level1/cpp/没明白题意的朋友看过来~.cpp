@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int oddCells(int n, int m, vector<vector<int>>& indices) {
@@ -26,5 +26,5 @@ public:
         return cnt;
     }
 };
-```
-![1.png](https://pic.leetcode-cn.com/c6eb484fb0856cfa6426fd6bcee124e70b977393e609f3ef9b65be82800f2ff9-1.png)
+// ```
+// ![1.png](https://pic.leetcode-cn.com/c6eb484fb0856cfa6426fd6bcee124e70b977393e609f3ef9b65be82800f2ff9-1.png)

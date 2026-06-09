@@ -1,9 +1,9 @@
-### 解题思路
-老贪心了
+// ### 解题思路
+// 老贪心了
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int balancedStringSplit(char * s){
     int sum=0,res=0;
     while(*s!=0){
@@ -19,4 +19,4 @@ int balancedStringSplit(char * s){
     }
     return res;
 }
-```
+// ```

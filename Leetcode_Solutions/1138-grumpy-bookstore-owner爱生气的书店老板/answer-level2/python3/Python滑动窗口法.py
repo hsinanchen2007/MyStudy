@@ -1,9 +1,9 @@
-本题可将结果分为两部分：
-1）所有grumpy等于0的区域进行求和，作为base
-2）寻找一个长度为X的窗口，使得窗口中grumpy为1积累的新用户最多，作为delta。
-结果即为base+delta。
+# 本题可将结果分为两部分：
+# 1）所有grumpy等于0的区域进行求和，作为base
+# 2）寻找一个长度为X的窗口，使得窗口中grumpy为1积累的新用户最多，作为delta。
+# 结果即为base+delta。
 
-```python
+# ```python
 class Solution(object):
     def maxSatisfied(self, customers, grumpy, X):
         """
@@ -29,4 +29,4 @@ class Solution(object):
                 tmp += customers[pos]
             res = max(tmp, res)
         return res + sum_
-```
+# ```

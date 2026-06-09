@@ -1,16 +1,16 @@
-### 执行时间
-![图片.png](https://pic.leetcode-cn.com/7c3fbc95095c80b5bd90d11abbbb0ff48b4e9fb80801d32831f314015dce2a4f-%E5%9B%BE%E7%89%87.png)
+// ### 执行时间
+// ![图片.png](https://pic.leetcode-cn.com/7c3fbc95095c80b5bd90d11abbbb0ff48b4e9fb80801d32831f314015dce2a4f-%E5%9B%BE%E7%89%87.png)
 
 
-### 思路
-1. 使用 bfs ，找到最短路径
-2. 有箭头的方向相当于步数 +0
-3. 其他方向相当于步数 +1
-4. 将 +0 的格子加入到本次队列
-5. 将 +1 的格子加入到下次队列
+// ### 思路
+// 1. 使用 bfs ，找到最短路径
+// 2. 有箭头的方向相当于步数 +0
+// 3. 其他方向相当于步数 +1
+// 4. 将 +0 的格子加入到本次队列
+// 5. 将 +1 的格子加入到下次队列
 
-### 答题
-```C++
+// ### 答题
+// ```C++
 int minCost(vector<vector<int>>& grid)
 {
     vector<vector<int>> dd = { {}, {0, 1}, {0, -1}, {1, 0}, {-1, 0} };  // 方向数组
@@ -50,13 +50,13 @@ int minCost(vector<vector<int>>& grid)
     }
     return ans;
 }
-```
+// ```
 
 
 
-### 致谢
+// ### 致谢
 
-感谢您的观看，希望对您有帮助，欢迎热烈的交流！  
+// 感谢您的观看，希望对您有帮助，欢迎热烈的交流！  
 
-[我的leetcode](https://github.com/AhJo53589/leetcode-cn)
+// [我的leetcode](https://github.com/AhJo53589/leetcode-cn)
 

@@ -1,9 +1,9 @@
-### 解题思路
-根据62题修改即可
+// ### 解题思路
+// 根据62题修改即可
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} obstacleGrid
  * @return {number}
@@ -35,4 +35,4 @@ var uniquePathsWithObstacles = function(obstacleGrid) {
     }
     return dp[m - 1][n - 1]
 };
-```
+// ```

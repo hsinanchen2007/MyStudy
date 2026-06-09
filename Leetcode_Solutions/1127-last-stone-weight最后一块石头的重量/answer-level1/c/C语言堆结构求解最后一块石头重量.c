@@ -1,4 +1,4 @@
-```
+// ```
 int lastStoneWeight(int* stones, int stonesSize){
     int heap[stonesSize];
     int ipos, ppos, lpos, rpos, mpos, temp, x, y, z, heapSize;
@@ -109,4 +109,4 @@ int lastStoneWeight(int* stones, int stonesSize){
     }
     return heap[0];
 }
-```
+// ```

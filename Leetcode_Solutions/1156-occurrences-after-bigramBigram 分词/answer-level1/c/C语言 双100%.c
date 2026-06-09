@@ -1,9 +1,9 @@
-### 解题思路
-使用状态机
+// ### 解题思路
+// 使用状态机
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -73,4 +73,4 @@ char ** findOcurrences(char * text, char * first, char * second, int* returnSize
 	*returnSize = cnt;
 	return rlt;
 }
-```
+// ```

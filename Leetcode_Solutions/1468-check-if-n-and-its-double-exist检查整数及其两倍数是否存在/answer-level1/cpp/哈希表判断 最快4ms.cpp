@@ -1,9 +1,9 @@
-### 解题思路
-简单易懂
+// ### 解题思路
+// 简单易懂
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool checkIfExist(vector<int>& arr)
@@ -19,4 +19,4 @@ public:
         return 0;
     }
 };
-```
+// ```

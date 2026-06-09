@@ -1,9 +1,9 @@
-### 解题思路
-先找出arr1中出现的元素，然后再用两个list找出未出现的元素，加入最终存放结果的list。
+// ### 解题思路
+// 先找出arr1中出现的元素，然后再用两个list找出未出现的元素，加入最终存放结果的list。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] relativeSortArray(int[] arr1, int[] arr2) {
         List<Integer> list = new ArrayList<>();//最终结果存放
@@ -37,4 +37,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

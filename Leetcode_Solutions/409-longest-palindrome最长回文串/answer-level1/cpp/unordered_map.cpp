@@ -1,20 +1,20 @@
-### 解题思路
-最开始想到用一个vector数组去存放52字母出现的次数，但不知道为什么总是出现下面的错误，
-AddressSanitizer: heap-buffer-overflow on address 0x611000002ce4 at pc 0x000000405b5e
+// ### 解题思路
+// 最开始想到用一个vector数组去存放52字母出现的次数，但不知道为什么总是出现下面的错误，
+// AddressSanitizer: heap-buffer-overflow on address 0x611000002ce4 at pc 0x000000405b5e
 
 
-后来看了一个解题，用unordered_map来保存。节省了空间。
+// 后来看了一个解题，用unordered_map来保存。节省了空间。
 
 
-auto的用法。
+// auto的用法。
 
 
-执行用时 :0 ms, 在所有 C++ 提交中击败了100.00% 的用户
-内存消耗 :8.2 MB, 在所有 C++ 提交中击败了100.00%的用户
+// 执行用时 :0 ms, 在所有 C++ 提交中击败了100.00% 的用户
+// 内存消耗 :8.2 MB, 在所有 C++ 提交中击败了100.00%的用户
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int longestPalindrome(string s) {
@@ -36,4 +36,4 @@ public:
         return res+isodd;
     }
 };
-```
+// ```

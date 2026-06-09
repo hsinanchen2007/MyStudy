@@ -1,9 +1,9 @@
 
-![image.png](https://pic.leetcode-cn.com/781b57c59ada9964ad5e342b5706b1291bf9f9218478f5fdff6a12b90bafb713-image.png)
+# ![image.png](https://pic.leetcode-cn.com/781b57c59ada9964ad5e342b5706b1291bf9f9218478f5fdff6a12b90bafb713-image.png)
 
 
 
-```
+# ```
 
 '''
 假设起点和终点较小值是n
@@ -44,4 +44,4 @@ class Solution:
             else:
                 r = mid - 1
         return ans
-```
+# ```

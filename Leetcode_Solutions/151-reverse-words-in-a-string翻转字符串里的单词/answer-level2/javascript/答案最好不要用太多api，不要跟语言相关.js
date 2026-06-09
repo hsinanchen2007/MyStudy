@@ -1,4 +1,4 @@
-```
+// ```
 var reverseWords = function(s) {
   const SPACE = ' ';
   let ret = [],
@@ -22,5 +22,5 @@ var reverseWords = function(s) {
   return ret.join(SPACE);
 };
 
-```
+// ```
 

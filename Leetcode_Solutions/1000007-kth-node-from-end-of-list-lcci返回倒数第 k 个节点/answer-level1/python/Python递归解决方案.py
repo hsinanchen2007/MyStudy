@@ -1,4 +1,4 @@
-思路就是先递归到尾结点，在回溯的过程中判断k是否为1，不为1就把k-1传到上层递归，若k=1则说明已经找到，返回当前val即可。
+# 思路就是先递归到尾结点，在回溯的过程中判断k是否为1，不为1就把k-1传到上层递归，若k=1则说明已经找到，返回当前val即可。
 
 # Definition for singly-linked list.
 # class ListNode(object):

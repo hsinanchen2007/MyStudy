@@ -1,10 +1,10 @@
-### 解题思路
-第一次和 确定 缺失的两个数的和
-第二次 确定 缺失的第一个数
+// ### 解题思路
+// 第一次和 确定 缺失的两个数的和
+// 第二次 确定 缺失的第一个数
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 class MisNum{
     public int[] MissingTwo(int[] nums) {
         var maxN = nums.Length + 2;
@@ -34,4 +34,4 @@ public class Solution {
         return mn.MissingTwo(nums);
     }
 }
-```
+// ```

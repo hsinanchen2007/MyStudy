@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def distinctEchoSubstrings(self, text: str) -> int:
         if not text or len(text) == 1:
@@ -17,4 +17,4 @@ class Solution:
 
         return len(str_set)
 
-```
+# ```

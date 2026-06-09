@@ -1,8 +1,8 @@
-### 题解思路
-- dp[i]表示s中[i,size()-1]能否被拆分
+// ### 题解思路
+// - dp[i]表示s中[i,size()-1]能否被拆分
 
-### 代码
-```cpp
+// ### 代码
+// ```cpp
 class Solution {
 public:
     bool wordBreak(string s, vector<string>& wordDict) {
@@ -29,5 +29,5 @@ public:
         return false;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/e10faf304c3676d2e1d1684a8fdee31f4f8d814d974945c341eb047f44b40628-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/e10faf304c3676d2e1d1684a8fdee31f4f8d814d974945c341eb047f44b40628-image.png)

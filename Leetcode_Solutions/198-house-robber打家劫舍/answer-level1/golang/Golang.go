@@ -1,4 +1,4 @@
-```
+// ```
 func rob(nums []int) int {
     max := 0
 	opt := make(map[int]int)
@@ -31,4 +31,4 @@ func rob(nums []int) int {
 
 	return max
 }
-```
+// ```

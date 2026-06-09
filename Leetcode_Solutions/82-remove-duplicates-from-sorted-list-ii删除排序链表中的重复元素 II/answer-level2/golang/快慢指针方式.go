@@ -1,9 +1,9 @@
-### 解题思路
-> fast以及fast.Next相同则删除slow到fast.Next.Next{有可能是多个相同，则需要找到最后一个相同值，应为该位置是slow的位置}之间元素
+// ### 解题思路
+// > fast以及fast.Next相同则删除slow到fast.Next.Next{有可能是多个相同，则需要找到最后一个相同值，应为该位置是slow的位置}之间元素
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -45,4 +45,4 @@ func deleteDuplicates(head *ListNode) *ListNode {
 
 
 }
-```
+// ```

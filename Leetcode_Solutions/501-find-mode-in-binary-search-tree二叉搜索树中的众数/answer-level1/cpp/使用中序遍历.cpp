@@ -1,10 +1,10 @@
-### 解题思路
-使用中序遍历，在根结点处，先更新curtime，再与maxtime进行比较。
-注意pre指针在声明处需要使用引用。如果不加引用，pre在递归深层修改的值不会回传到递归的上一层的，会影响结果。
+// ### 解题思路
+// 使用中序遍历，在根结点处，先更新curtime，再与maxtime进行比较。
+// 注意pre指针在声明处需要使用引用。如果不加引用，pre在递归深层修改的值不会回传到递归的上一层的，会影响结果。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -43,4 +43,4 @@ private:
         inOrder(root->right, pre, curTime, maxTime, res);
     }
 };
-```
+// ```

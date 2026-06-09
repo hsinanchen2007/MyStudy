@@ -1,10 +1,10 @@
-### 解题思路
-思路写在代码注释里
-不过这题踩了一坑：空树也是对称的（做题做习惯了，直接return false）
+// ### 解题思路
+// 思路写在代码注释里
+// 不过这题踩了一坑：空树也是对称的（做题做习惯了，直接return false）
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -33,4 +33,4 @@ public:
         return isSymmetric(t1->left,t2->right) && isSymmetric(t1->right,t2->left);
     }
 };
-```
+// ```

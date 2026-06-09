@@ -1,9 +1,9 @@
-### 解题思路
-* [官方思路](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/solution/er-cha-shu-de-ju-chi-xing-ceng-ci-bian-li-by-leetc/)
+// ### 解题思路
+// * [官方思路](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/solution/er-cha-shu-de-ju-chi-xing-ceng-ci-bian-li-by-leetc/)
 
-### 代码
-* bfs实现
-```cpp
+// ### 代码
+// * bfs实现
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -45,10 +45,10 @@ public:
         return ans;
     }
 };
-```
+// ```
 
-* dfs实现
-```cpp
+// * dfs实现
+// ```cpp
 class Solution {
     vector<vector<int>> ans;
 public:
@@ -72,5 +72,5 @@ public:
         if(node->right) dfs(node->right, level+1);
     }
 };
-```
-![1.png](https://pic.leetcode-cn.com/2fbbe9cf3671e8cd9ab5a8e5301a52e00f45e8ba09e14128d974fc2694b75eb3-1.png)
+// ```
+// ![1.png](https://pic.leetcode-cn.com/2fbbe9cf3671e8cd9ab5a8e5301a52e00f45e8ba09e14128d974fc2694b75eb3-1.png)

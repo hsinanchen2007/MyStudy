@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int minCostToMoveChips(int[] chips) {
         int[] magic = new int[2];
@@ -9,4 +9,4 @@ class Solution {
         return magic[0]<magic[1]?magic[0]:magic[1];
     }
 }
-```
+// ```

@@ -1,17 +1,17 @@
-### 解题思路
-1、首先对特殊情况做一个处理
-即 当只有一个节点或空节点时，直接返回head
+// ### 解题思路
+// 1、首先对特殊情况做一个处理
+// 即 当只有一个节点或空节点时，直接返回head
 
-2、此题主要在逻辑中处理好偶数个和奇数个的情况
+// 2、此题主要在逻辑中处理好偶数个和奇数个的情况
 
-3、e.g. 1->2->3->4->5->6->7->8->NULL
+// 3、e.g. 1->2->3->4->5->6->7->8->NULL
  
-![IMG_6501.JPG](https://pic.leetcode-cn.com/03df9f3b099eb84a31ce6a2b947fc65ad49f0acd7b1be8884770aaa33e43798f-IMG_6501.JPG)
+// ![IMG_6501.JPG](https://pic.leetcode-cn.com/03df9f3b099eb84a31ce6a2b947fc65ad49f0acd7b1be8884770aaa33e43798f-IMG_6501.JPG)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -60,4 +60,4 @@ public:
         return pNewHead;
     }
 };
-```
+// ```

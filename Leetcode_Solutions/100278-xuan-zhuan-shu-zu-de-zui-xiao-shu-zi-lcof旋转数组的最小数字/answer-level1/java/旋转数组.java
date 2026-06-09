@@ -1,9 +1,9 @@
-### 解题思路
-找到数组中不满足增序的元素，返回它。如果不存在就返回第一个元素。
+// ### 解题思路
+// 找到数组中不满足增序的元素，返回它。如果不存在就返回第一个元素。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minArray(int[] numbers) {
         if(numbers.length == 0)
@@ -23,4 +23,4 @@ class Solution {
         return numbers[0];
     }
 }
-```
+// ```

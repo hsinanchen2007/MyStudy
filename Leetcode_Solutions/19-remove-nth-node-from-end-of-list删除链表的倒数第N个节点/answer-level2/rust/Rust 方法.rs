@@ -1,7 +1,7 @@
-// 执行用时 :
-// 0 ms, 在所有 Rust 提交中击败了100.00%的用户
-// 内存消耗 :
-// 1.9 MB, 在所有 Rust 提交中击败了100.00%的用户
+// // 执行用时 :
+// // 0 ms, 在所有 Rust 提交中击败了100.00%的用户
+// // 内存消耗 :
+// // 1.9 MB, 在所有 Rust 提交中击败了100.00%的用户
 impl Solution {
     pub fn remove_nth_from_end(head: Option<Box<ListNode>>, n: i32) -> Option<Box<ListNode>> {
         let mut head_ans: Option<Box<ListNode>> = None;

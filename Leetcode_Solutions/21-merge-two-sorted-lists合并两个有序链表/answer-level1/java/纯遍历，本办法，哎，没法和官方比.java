@@ -1,4 +1,4 @@
-```
+// ```
 public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         ListNode newListNode = null;
         ListNode q = l1;
@@ -56,4 +56,4 @@ public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
 
         return newListNode;
     }
-```
+// ```

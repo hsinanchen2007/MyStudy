@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int maxNumberOfFamilies(int n, int[][] reservedSeats) {
         int ans=0;
@@ -61,4 +61,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

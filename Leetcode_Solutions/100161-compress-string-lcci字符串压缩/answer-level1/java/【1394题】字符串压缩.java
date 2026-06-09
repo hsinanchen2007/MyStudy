@@ -1,5 +1,5 @@
-**方法一：一次循环遍历**
-```
+// **方法一：一次循环遍历**
+// ```
 class Solution {
     /**
     * 思路：
@@ -30,10 +30,10 @@ class Solution {
         return sb.append(nums).length() < S.length() ? sb.toString() : S;
     }
 }
-```
+// ```
 
-**方法二：双指针**
-```
+// **方法二：双指针**
+// ```
 class Solution {
     /**
     * 思路：
@@ -58,4 +58,4 @@ class Solution {
 		return sb.length() < S.length ? sb.toString() : S;
 	}
 }
-```
+// ```

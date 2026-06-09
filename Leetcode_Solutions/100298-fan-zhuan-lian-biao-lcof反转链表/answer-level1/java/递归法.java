@@ -1,9 +1,9 @@
-### 解题思路
-从头节点的next指针开始反转，经过递归调用，最后一个节点反转后成为新的头节点，而头节点的next的next指针就指向了自己，此时，头结点的next指向已经无用，置空即可。
+// ### 解题思路
+// 从头节点的next指针开始反转，经过递归调用，最后一个节点反转后成为新的头节点，而头节点的next的next指针就指向了自己，此时，头结点的next指向已经无用，置空即可。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -23,4 +23,4 @@ class Solution {
         return newHead;
     }
 }
-```
+// ```

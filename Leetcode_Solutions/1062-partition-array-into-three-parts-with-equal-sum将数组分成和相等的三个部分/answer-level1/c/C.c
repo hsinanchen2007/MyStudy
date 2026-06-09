@@ -1,5 +1,5 @@
 
-```c
+// ```c
 bool canThreePartsEqualSum(int* A, int ASize){
     int sum = 0, flag = 0, temp = 0;
     for(int i = 0; i < ASize; i++) {
@@ -22,4 +22,4 @@ bool canThreePartsEqualSum(int* A, int ASize){
     }
     return (flag == 2)?true:false;
 }
-```
+// ```

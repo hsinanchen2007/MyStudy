@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def repeatedNTimes(self, A):
         # 摩尔投票要求答案是唯一且超过半数(不包括一半)，而此题答案为一半，因此将末尾数单独考虑
@@ -17,4 +17,4 @@ class Solution(object):
             else:
                 cnt -= 1
         return candidate
-```
+# ```

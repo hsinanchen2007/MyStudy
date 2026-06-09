@@ -1,8 +1,8 @@
-### **方法一：先排序，再双指针搜索**
+// ### **方法一：先排序，再双指针搜索**
 
-执行用时: 124 ms, 在所有 C 提交中击败了100.00%的用户
-先把两个字符串列表排序，然后双指针排查相同的字符串，记录索引和最小的相同字符串。
-```C []
+// 执行用时: 124 ms, 在所有 C 提交中击败了100.00%的用户
+// 先把两个字符串列表排序，然后双指针排查相同的字符串，记录索引和最小的相同字符串。
+// ```C []
 typedef struct _Data{
     int index;
     char *info;
@@ -55,11 +55,11 @@ char ** findRestaurant(char ** list1, int list1Size, char ** list2, int list2Siz
     free(src2);
     return res;
 }
-```
-### **方法二：Hash 映射**
-执行用时: 64 ms, 在所有 C 提交中击败了100.00%的用户
-先对第一个字符串列表进行hash映射，然后在第二个字符串列表中查找相同字符。
-```C []
+// ```
+// ### **方法二：Hash 映射**
+// 执行用时: 64 ms, 在所有 C 提交中击败了100.00%的用户
+// 先对第一个字符串列表进行hash映射，然后在第二个字符串列表中查找相同字符。
+// ```C []
 struct hash_node{
     char *key;
     int val;
@@ -142,4 +142,4 @@ char** findRestaurant(char** list1, int list1Size, char** list2, int list2Size, 
     }
     return res;
 }
-```
+// ```

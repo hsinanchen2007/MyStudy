@@ -1,4 +1,4 @@
-```转换为字符串 []
+// ```转换为字符串 []
 func isPalindrome(_ head: ListNode?) -> Bool {
         var head_ = head
         var ltr: String?, rtl: String?
@@ -15,8 +15,8 @@ func isPalindrome(_ head: ListNode?) -> Bool {
         return ltr == rtl
 
 }
-```
-```转换为数组 []
+// ```
+// ```转换为数组 []
 func isPalindrome(_ head: ListNode?) -> Bool {
         var head_ = head
         var numbers = [Int]()
@@ -36,4 +36,4 @@ func isPalindrome(_ head: ListNode?) -> Bool {
         }
         return true
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 func asteroidCollision(asteroids []int) []int {
 	out := []int{}
 	for i := 0; i < len(asteroids); i++ {
@@ -16,4 +16,4 @@ func asteroidCollision(asteroids []int) []int {
 	}
 	return out
 }
-```
+// ```

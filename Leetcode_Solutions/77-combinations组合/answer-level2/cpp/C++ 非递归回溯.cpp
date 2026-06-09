@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     // 从右往左找到第一个可向左移动的数
@@ -56,5 +56,5 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/5e873cdec1964d8c0a0003a916d2e514c8948c21cce127b3e7a507f5f05ca262-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/5e873cdec1964d8c0a0003a916d2e514c8948c21cce127b3e7a507f5f05ca262-image.png)

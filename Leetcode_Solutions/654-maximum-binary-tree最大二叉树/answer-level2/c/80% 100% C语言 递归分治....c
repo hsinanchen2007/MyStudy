@@ -1,11 +1,11 @@
-### 解题思路
-...写完看了评论区...
-大家都写得一个样...
-这题太水了
+// ### 解题思路
+// ...写完看了评论区...
+// 大家都写得一个样...
+// 这题太水了
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -31,4 +31,4 @@ struct TreeNode* constructMaximumBinaryTree(int* nums, int numsSize){
     root -> right = constructMaximumBinaryTree(nums + maxnum + 1, numsSize - maxnum - 1);
     return root;
 }
-```
+// ```

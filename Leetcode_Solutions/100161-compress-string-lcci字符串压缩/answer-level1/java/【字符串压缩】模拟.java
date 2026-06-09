@@ -1,9 +1,9 @@
-### 解题思路
-直接模拟就行了：遍历整个字符串，用两个变量分别维护**连续字符**和**连续字符的数量**，最后拼接在一起就OK了。
+// ### 解题思路
+// 直接模拟就行了：遍历整个字符串，用两个变量分别维护**连续字符**和**连续字符的数量**，最后拼接在一起就OK了。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String compressString(String S) {
         if (S == null || S.length() <= 2) {
@@ -29,4 +29,4 @@ class Solution {
         return compressStrBuilder.toString();
     }
 }
-```
+// ```

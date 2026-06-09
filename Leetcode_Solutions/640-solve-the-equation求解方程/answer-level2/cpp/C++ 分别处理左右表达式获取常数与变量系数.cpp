@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     #define NO "No solution"
@@ -43,6 +43,6 @@ public:
         return "x=" + to_string(delta_n / delta_x);
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/c76ad63469131fcac34a30e1d962f8d9babc22d02cded34a29e594c2b99a61dd-image.png)
+// ![image.png](https://pic.leetcode-cn.com/c76ad63469131fcac34a30e1d962f8d9babc22d02cded34a29e594c2b99a61dd-image.png)

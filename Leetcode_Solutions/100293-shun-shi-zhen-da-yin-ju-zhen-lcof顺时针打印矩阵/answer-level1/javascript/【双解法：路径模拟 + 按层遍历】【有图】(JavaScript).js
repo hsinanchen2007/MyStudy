@@ -1,14 +1,14 @@
-## 解法 1: 模拟路径
+// ## 解法 1: 模拟路径
 
-根据直觉，当遍历的过程中，遇到超出边界 / 元素已经被访问过的情况时，应该按照顺时针转变方向。
+// 根据直觉，当遍历的过程中，遇到超出边界 / 元素已经被访问过的情况时，应该按照顺时针转变方向。
 
-假设给定的矩阵的形状是 m\*n，那么一共要遍历 m\*n 次。要准备一个长度为 m\*n 的哈希表，来保存元素是否被遍历过。要准备一个记录方向的数组，里面方向的排列顺序是顺时针。
+// 假设给定的矩阵的形状是 m\*n，那么一共要遍历 m\*n 次。要准备一个长度为 m\*n 的哈希表，来保存元素是否被遍历过。要准备一个记录方向的数组，里面方向的排列顺序是顺时针。
 
-时间复杂度为 O(M\*N)，空间复杂度为 O(M\*N)。
+// 时间复杂度为 O(M\*N)，空间复杂度为 O(M\*N)。
 
-代码实现如下：
+// 代码实现如下：
 
-```javascript
+// ```javascript
 // ac地址：https://leetcode-cn.com/problems/shun-shi-zhen-da-yin-ju-zhen-lcof/
 // 原文地址：https://xxoo521.com/2020-01-30-shun-shi-zhen-matrix/
 
@@ -70,23 +70,23 @@ var spiralOrder = function(matrix) {
 
     return results;
 };
-```
+// ```
 
-## 解法 2: 按层遍历
+// ## 解法 2: 按层遍历
 
-这种方法的思路是从外到内，一层层打印。难点在于怎么找到标记点，以及防止重复遍历。
+// 这种方法的思路是从外到内，一层层打印。难点在于怎么找到标记点，以及防止重复遍历。
 
-怎么找到标记点？对于每一层来说，设左上角的元素坐标为 (i, j)，那么右上角的元素坐标为 (i, n - j - 1)，右下角的元素坐标是 (m - i - 1 ,n - j - 1)，左下角的元素坐标是 (m - i - 1, j)。找到标记点后，就是对行/列进行+/-的过程。
+// 怎么找到标记点？对于每一层来说，设左上角的元素坐标为 (i, j)，那么右上角的元素坐标为 (i, n - j - 1)，右下角的元素坐标是 (m - i - 1 ,n - j - 1)，左下角的元素坐标是 (m - i - 1, j)。找到标记点后，就是对行/列进行+/-的过程。
 
-怎么防止重复遍历？找到四个坐标点后，每一层的遍历可以拆分成 4 个部分。我想到的是下图所示的两种拆分方法：
+// 怎么防止重复遍历？找到四个坐标点后，每一层的遍历可以拆分成 4 个部分。我想到的是下图所示的两种拆分方法：
 
-![](https://pic.leetcode-cn.com/dfdfa1be4e547f8a171379e7bf99654885de50c444284bae901a8b803e9bcb01.jpg)
+// ![](https://pic.leetcode-cn.com/dfdfa1be4e547f8a171379e7bf99654885de50c444284bae901a8b803e9bcb01.jpg)
 
-第一种拆分方法会有例外，比较难处理，无法避免重复遍历。因此使用第二种。
+// 第一种拆分方法会有例外，比较难处理，无法避免重复遍历。因此使用第二种。
 
-时间复杂度为 O(M\*N)，空间复杂度为 O(M\*N)。代码实现如下：
+// 时间复杂度为 O(M\*N)，空间复杂度为 O(M\*N)。代码实现如下：
 
-```javascript
+// ```javascript
 // ac地址：https://leetcode-cn.com/problems/shun-shi-zhen-da-yin-ju-zhen-lcof/
 // 原文地址：https://xxoo521.com/2020-01-30-shun-shi-zhen-matrix/
 
@@ -135,10 +135,10 @@ var spiralOrder = function(matrix) {
 
     return results;
 };
-```
+// ```
 
-## 更多资料
+// ## 更多资料
 
--   **📖Blog：[剑指 Offer 题解 + JS 代码](https://xxoo521.com/algorithm/)**
--   **🐱Github ：[https://github.com/dongyuanxin/blog](https://github.com/dongyuanxin/blog)**
--   **🌟 公众号：[心谭博客](https://tva1.sinaimg.cn/large/006tNbRwly1g9xhhp50jpj31bi0hcju4.jpg)**
+// -   **📖Blog：[剑指 Offer 题解 + JS 代码](https://xxoo521.com/algorithm/)**
+// -   **🐱Github ：[https://github.com/dongyuanxin/blog](https://github.com/dongyuanxin/blog)**
+// -   **🌟 公众号：[心谭博客](https://tva1.sinaimg.cn/large/006tNbRwly1g9xhhp50jpj31bi0hcju4.jpg)**

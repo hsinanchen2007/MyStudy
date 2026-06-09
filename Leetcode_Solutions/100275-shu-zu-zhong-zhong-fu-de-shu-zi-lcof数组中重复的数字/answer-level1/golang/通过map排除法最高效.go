@@ -1,7 +1,7 @@
-### 解题思路:
-> 将已经存入的字符标记为1，如果map成功取出值说明有重复元素
+// ### 解题思路:
+// > 将已经存入的字符标记为1，如果map成功取出值说明有重复元素
 
-``` go
+// ``` go
 func findRepeatNumber(nums []int) int {
 	maps := make(map[int]int)
 	var number int
@@ -15,4 +15,4 @@ func findRepeatNumber(nums []int) int {
 	}
 	return number
 }
-```
+// ```

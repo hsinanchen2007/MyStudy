@@ -1,5 +1,5 @@
-/* Write your PL/SQL query statement below */
-```
+-- /* Write your PL/SQL query statement below */
+-- ```
 -- select department,employee,salary
 -- from(
 --     select d.name as department,e.name as employee,e.salary,
@@ -21,4 +21,4 @@ select d.name as department,e.name as employee,e.salary
    and e.departmentid = d.id
    and (e.departmentid,e.salary) in (select e1.departmentid, max(e1.salary) from employee e1 group by e1.departmentid)   
 ; 
-```
+-- ```

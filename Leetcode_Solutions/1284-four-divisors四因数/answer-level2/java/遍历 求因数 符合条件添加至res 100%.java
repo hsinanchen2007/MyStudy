@@ -1,7 +1,7 @@
-contest的时候把每个数的因数从1遍历到本身 所以超时了
-打完比赛仔细想想其实遍历到开方就可以了 哎
+// contest的时候把每个数的因数从1遍历到本身 所以超时了
+// 打完比赛仔细想想其实遍历到开方就可以了 哎
 
-```
+// ```
 class Solution {
     public int sumFourDivisors(int[] nums) {
         int res = 0;
@@ -29,4 +29,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

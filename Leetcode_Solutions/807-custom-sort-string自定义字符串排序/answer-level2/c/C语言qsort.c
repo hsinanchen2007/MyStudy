@@ -1,4 +1,4 @@
-```
+// ```
 int priority[26] = {0};
 
 int compare(const void* ch1, const void* ch2) {
@@ -15,4 +15,4 @@ char * customSortString(char * S, char * T){
     qsort(T, strlen(T), sizeof(char), compare);
     return T;
 }
-```
+// ```

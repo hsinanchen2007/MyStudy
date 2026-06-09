@@ -1,7 +1,7 @@
-1、BFS搜索过程中求出每一层的和
-2、按层压栈
-3、出栈时把每层和乘以权重求总和
-```
+// 1、BFS搜索过程中求出每一层的和
+// 2、按层压栈
+// 3、出栈时把每层和乘以权重求总和
+// ```
 class Solution {
     public int depthSumInverse(List<NestedInteger> nestedList) {
         int result = 0;
@@ -36,4 +36,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

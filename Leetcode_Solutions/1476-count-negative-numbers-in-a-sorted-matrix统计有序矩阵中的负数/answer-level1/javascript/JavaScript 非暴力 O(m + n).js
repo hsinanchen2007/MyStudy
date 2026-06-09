@@ -1,9 +1,9 @@
-### 解题思路
-取右上角数作为起点
+// ### 解题思路
+// 取右上角数作为起点
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} grid
  * @return {number}
@@ -31,4 +31,4 @@ var countNegatives = function(grid) {
     }
     return res
 };
-```
+// ```

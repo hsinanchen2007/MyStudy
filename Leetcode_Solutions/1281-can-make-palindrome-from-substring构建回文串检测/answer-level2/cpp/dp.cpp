@@ -1,8 +1,8 @@
-1. 该题本身不难，但是需要注意时间复杂度。
-2. 求字符串变为回文字符串时，所需要进行替换字符的最小数目，通过求得字母统计中数目为奇数的字符数目```odd```。
-3. 如果字符串长度为奇数，则最少需要将$(odd-1)/2$个字符进行替换，如果字符串长度为偶数，则最少需要将$odd/2$个字符进行替换。
-4. 我们采用滑动窗口来求出字符串的字符统计，同时进行判定给定的k的是否大于最小数目。
-```c++ []
+// 1. 该题本身不难，但是需要注意时间复杂度。
+// 2. 求字符串变为回文字符串时，所需要进行替换字符的最小数目，通过求得字母统计中数目为奇数的字符数目```odd```。
+// 3. 如果字符串长度为奇数，则最少需要将$(odd-1)/2$个字符进行替换，如果字符串长度为偶数，则最少需要将$odd/2$个字符进行替换。
+// 4. 我们采用滑动窗口来求出字符串的字符统计，同时进行判定给定的k的是否大于最小数目。
+// ```c++ []
 class Solution {
 public:
     int replace(vector<int> &l,vector<int> &r,int sz){
@@ -43,8 +43,8 @@ public:
         return ans;
     }
 };
-```
-```java []
+// ```
+// ```java []
 class Solution {
     public int replace(int[] left,int[] right,int sz){
         int odd = 0;
@@ -94,8 +94,8 @@ class Solution {
         return ans;
     }
 }
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def replace(self,left,right,sz):
         odd = 0
@@ -132,4 +132,4 @@ class Solution:
         
         return ans
             
-```
+// ```

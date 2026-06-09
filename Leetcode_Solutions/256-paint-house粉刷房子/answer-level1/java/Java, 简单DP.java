@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int minCost(int[][] costs) {
         int N = costs.length;
@@ -15,4 +15,4 @@ class Solution {
         return Math.min(dp[N-1][0], Math.min(dp[N-1][1], dp[N-1][2]));
     }
 }
-```
+// ```

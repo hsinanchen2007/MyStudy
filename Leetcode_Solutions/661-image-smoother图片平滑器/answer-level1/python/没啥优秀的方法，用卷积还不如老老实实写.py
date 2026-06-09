@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def imageSmoother(self, M):
         """
@@ -18,4 +18,4 @@ class Solution(object):
                 tmp=[M[i+x][j+y] for x,y in direct  if 0<=i+x<r and 0<=j+y<c]
                 res[i][j]=sum(tmp)/len(tmp)
         return res
-```
+# ```

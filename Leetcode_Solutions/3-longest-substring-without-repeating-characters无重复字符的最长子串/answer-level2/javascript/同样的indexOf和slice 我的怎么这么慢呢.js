@@ -1,9 +1,9 @@
-### 解题思路
-同样的用indexof,slice怎么我的怎么慢呢
+// ### 解题思路
+// 同样的用indexof,slice怎么我的怎么慢呢
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {number}
@@ -19,4 +19,4 @@ var lengthOfLongestSubstring = function(s) {
     }
     return l;
 };
-```
+// ```

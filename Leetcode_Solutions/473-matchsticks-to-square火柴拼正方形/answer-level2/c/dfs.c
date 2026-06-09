@@ -1,9 +1,9 @@
-算法：
-1、火柴长度求和除以4，得到商
-2、按照长度从大到小排序
-3、先从长的火柴里面组合商，如果可以组合成4个商，则返回true
+// 算法：
+// 1、火柴长度求和除以4，得到商
+// 2、按照长度从大到小排序
+// 3、先从长的火柴里面组合商，如果可以组合成4个商，则返回true
 
-```
+// ```
 int compare(const void* v1,const void* v2) {
     return *(int*)v2-*(int*)v1;
 }
@@ -69,4 +69,4 @@ bool makesquare(int* nums, int numsSize){
     }
     return false;
 }
-```
+// ```

@@ -1,5 +1,5 @@
-二分查找，AC了，不知道是不是碰巧，求大佬鉴定
-```
+# 二分查找，AC了，不知道是不是碰巧，求大佬鉴定
+# ```
 class Solution:
     def numOfBurgers(self, m: int, n: int) -> List[int]:
         lo, hi = 0, m//4
@@ -13,4 +13,4 @@ class Solution:
             else:
                 hi = mid-1
         return []
-```
+# ```

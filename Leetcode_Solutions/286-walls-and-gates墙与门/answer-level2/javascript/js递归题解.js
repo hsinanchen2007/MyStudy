@@ -1,6 +1,6 @@
-如果使用暴力方法，执行时间是个问题。
+// 如果使用暴力方法，执行时间是个问题。
 
-```js
+// ```js
 const wallsAndGates = function(rooms) {
     if (rooms.length === 0 || rooms[0].length ===0){
         return;
@@ -29,4 +29,4 @@ const wallsAndGates = function(rooms) {
         }
     }
 };
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-从头到尾开始遍历
+# ### 解题思路
+# 从头到尾开始遍历
 
-若遇到相同字符，则重新初始化到 上一个重复字符的下一位
+# 若遇到相同字符，则重新初始化到 上一个重复字符的下一位
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
     
@@ -27,4 +27,4 @@ class Solution:
                 mark[s[idx]] = idx
                 idx += 1
         return count if count > max_count else max_count
-```
+# ```

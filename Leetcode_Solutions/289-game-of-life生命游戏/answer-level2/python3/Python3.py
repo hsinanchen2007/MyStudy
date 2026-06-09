@@ -1,9 +1,9 @@
-### 解题思路
-正负数区分0和1
+# ### 解题思路
+# 正负数区分0和1
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def gameOfLife(self, board: List[List[int]]) -> None:
         """
@@ -37,4 +37,4 @@ class Solution:
                 # 都给劳资死
                 elif count > 3:
                     board[i][j] = 0
-```
+# ```

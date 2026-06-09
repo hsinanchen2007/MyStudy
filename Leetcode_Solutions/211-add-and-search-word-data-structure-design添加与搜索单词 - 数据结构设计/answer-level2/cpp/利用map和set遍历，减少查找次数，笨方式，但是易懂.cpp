@@ -1,14 +1,14 @@
-### 解题思路
-普通遍历超时，想到减少查找次数。
-减少查找次数通过两个方式筛选：1、单词长度 2、去重
-利用map存储set，map看做一个大字典，set看作小字典。每个set中的单词的长度相同。
-查找时根据目标单词word的长度选出对应的小字典set，再遍历set进行查找。
-笨，但是简单易懂O(∩_∩)O。
-![image.png](https://pic.leetcode-cn.com/a569e0752840a09386a2e46792119034677d635732bfbebf7ee709ed1181907f-image.png)
+// ### 解题思路
+// 普通遍历超时，想到减少查找次数。
+// 减少查找次数通过两个方式筛选：1、单词长度 2、去重
+// 利用map存储set，map看做一个大字典，set看作小字典。每个set中的单词的长度相同。
+// 查找时根据目标单词word的长度选出对应的小字典set，再遍历set进行查找。
+// 笨，但是简单易懂O(∩_∩)O。
+// ![image.png](https://pic.leetcode-cn.com/a569e0752840a09386a2e46792119034677d635732bfbebf7ee709ed1181907f-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class WordDictionary {
 public:
     map<int, set<string> > words;   // 大字典
@@ -29,4 +29,4 @@ public:
         return false;
     }
 };
-```
+// ```

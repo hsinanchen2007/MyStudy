@@ -1,9 +1,9 @@
-### 解题思路
-rear指向最後一個元素的後面 即預留一個空位
+// ### 解题思路
+// rear指向最後一個元素的後面 即預留一個空位
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MyCircularQueue {
     private int front;
     private int rear;//環形初始值都爲0
@@ -71,4 +71,4 @@ class MyCircularQueue {
  * boolean param_5 = obj.isEmpty();
  * boolean param_6 = obj.isFull();
  */
-```
+// ```

@@ -1,5 +1,5 @@
-遍历取出所有的值放入数组，排序后重新将其生成为链表
-```
+// 遍历取出所有的值放入数组，排序后重新将其生成为链表
+// ```
 // time: 104ms(80.94%) memory: 38.9MB(51.88%)
 /**
  * Definition for singly-linked list.
@@ -34,4 +34,4 @@ var mergeKLists = function(lists) {
 
     return res.next;
 };
-```
+// ```

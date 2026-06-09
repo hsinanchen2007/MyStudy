@@ -1,12 +1,12 @@
-# 解法一:双指针
+// # 解法一:双指针
 
-**解题思路：**
-**1.定义a和b两个结构体指针，让a先走k次，可得a与b的长度为k**
-**2.当a走到nil/null时，b则正好在倒数为k的节点上，返回b即可得到结果**
+// **解题思路：**
+// **1.定义a和b两个结构体指针，让a先走k次，可得a与b的长度为k**
+// **2.当a走到nil/null时，b则正好在倒数为k的节点上，返回b即可得到结果**
  
---执行用时:0 ms     --内存消耗：2.2 MB
+// --执行用时:0 ms     --内存消耗：2.2 MB
 
-```go
+// ```go
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -26,16 +26,16 @@ func getKthFromEnd(head *ListNode, k int) *ListNode {
     }
     return b
 }
-```
----
+// ```
+// ---
 
-# 解法二:
+// # 解法二:
 
-**解题思路：遍历计数后得到链表的长度，利用链表长度与k的差值找到倒数的节点**
+// **解题思路：遍历计数后得到链表的长度，利用链表长度与k的差值找到倒数的节点**
  
---执行用时:0 ms     --内存消耗：2.2 MB
+// --执行用时:0 ms     --内存消耗：2.2 MB
 
-```go
+// ```go
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -55,4 +55,4 @@ func getKthFromEnd(head *ListNode, k int) *ListNode {
     }
     return cur
 }
-```
+// ```

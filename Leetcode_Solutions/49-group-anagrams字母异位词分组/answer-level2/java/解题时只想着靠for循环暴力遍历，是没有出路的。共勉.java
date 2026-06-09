@@ -1,10 +1,10 @@
-### 解题思路
-![捕获9.PNG](https://pic.leetcode-cn.com/aa66a22cb9a7aacc9c398b37b2b7e4e080e73489269e644954ccb09390c3c13d-%E6%8D%95%E8%8E%B79.PNG)
-此处撰写解题思路
+// ### 解题思路
+// ![捕获9.PNG](https://pic.leetcode-cn.com/aa66a22cb9a7aacc9c398b37b2b7e4e080e73489269e644954ccb09390c3c13d-%E6%8D%95%E8%8E%B79.PNG)
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isValid(String s1,String s2){
         if(s1.length()!=s2.length()){
@@ -79,4 +79,4 @@ class Solution {
 
 
 
-```
+// ```

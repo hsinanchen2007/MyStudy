@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/036aff261b5adf141b49ca68d69b6e8e048f25c33ba750ebe354dff06814a317-image.png)
-主要思路是预先确定最上和最左两个边界，再递归判断最右和最下边界。
-```
+// ![image.png](https://pic.leetcode-cn.com/036aff261b5adf141b49ca68d69b6e8e048f25c33ba750ebe354dff06814a317-image.png)
+// 主要思路是预先确定最上和最左两个边界，再递归判断最右和最下边界。
+// ```
 class Solution {
     int[][] matrix;
     int[] result=new int[]{0,0,0};
@@ -50,5 +50,5 @@ class Solution {
         }
     }
 }
-```
+// ```
 

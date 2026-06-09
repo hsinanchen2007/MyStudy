@@ -1,5 +1,5 @@
-emm看了半天好像没有人提到reverse的那种方法。
-```
+// emm看了半天好像没有人提到reverse的那种方法。
+// ```
 void swap(char *s, int i, int j){
     char t = s[i];
     s[i] = s[j];
@@ -19,4 +19,4 @@ char* reverseLeftWords(char* s, int n){
     reverse(s, len - n, len - 1);
     return s;
 }
-```
+// ```

@@ -1,5 +1,5 @@
-思路简单，见代码即可：
-```
+// 思路简单，见代码即可：
+// ```
 class Solution {
 public:
     unordered_map<char, char> M = {
@@ -13,6 +13,6 @@ public:
         return true;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/22978b7769aaa88acc5daefb80f50a678abd64de7e80a4a0b7b5e90ca6724b36-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/22978b7769aaa88acc5daefb80f50a678abd64de7e80a4a0b7b5e90ca6724b36-image.png)
 

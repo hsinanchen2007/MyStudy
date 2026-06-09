@@ -1,11 +1,11 @@
-![image.png](https://pic.leetcode-cn.com/209b49d3e78176f281588e275e0926e7c830a97035c10390989c7b650b7d4f89-image.png)
+// ![image.png](https://pic.leetcode-cn.com/209b49d3e78176f281588e275e0926e7c830a97035c10390989c7b650b7d4f89-image.png)
 
-### 解题思路
-通过STL的库函数upper_bound()、lower_bound()实现. 思路见注释
+// ### 解题思路
+// 通过STL的库函数upper_bound()、lower_bound()实现. 思路见注释
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
@@ -15,4 +15,4 @@ public:
         return {int(first - nums.begin()), int(last - nums.begin() - 1)}; //返回索引
     }
 };
-```
+// ```

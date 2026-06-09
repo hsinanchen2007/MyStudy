@@ -1,24 +1,24 @@
-解题思路：
-    一. 将数组nums[]中的元素从minHeap[1]开始依次放入，这里分为 num.length >= k 和 num.length < k 两种情况
-        1. num.length >= k：
-        - 将num中的前个元素，依次放入堆中
-        - 从第k+1个元素开始，对元素进行add()操作
-        2. num.length < k：
-        - 将num中的前个元素，依次放入堆中
-    二. add()会判断是 num.length >= k 和 num.length < k 哪种情况
-        1. num.length >= k
-        - 此时堆为有序的，堆顶（即minHeap[1]），为堆中最小元素，同时也是所有数中第k大元素
-        - 若新元素>堆顶元素，则替换对顶元素，并对堆顶元素进行sink()（下沉操作），若新元素<=堆顶元素,则丢弃不作操作
-        2. num.length < k
-        - 由题nums.length >= k-1，所以当进行一次add()操作后堆会被填满
-        - 填满后对堆进行有序化
+// 解题思路：
+//     一. 将数组nums[]中的元素从minHeap[1]开始依次放入，这里分为 num.length >= k 和 num.length < k 两种情况
+//         1. num.length >= k：
+//         - 将num中的前个元素，依次放入堆中
+//         - 从第k+1个元素开始，对元素进行add()操作
+//         2. num.length < k：
+//         - 将num中的前个元素，依次放入堆中
+//     二. add()会判断是 num.length >= k 和 num.length < k 哪种情况
+//         1. num.length >= k
+//         - 此时堆为有序的，堆顶（即minHeap[1]），为堆中最小元素，同时也是所有数中第k大元素
+//         - 若新元素>堆顶元素，则替换对顶元素，并对堆顶元素进行sink()（下沉操作），若新元素<=堆顶元素,则丢弃不作操作
+//         2. num.length < k
+//         - 由题nums.length >= k-1，所以当进行一次add()操作后堆会被填满
+//         - 填满后对堆进行有序化
 
-![image.png](https://pic.leetcode-cn.com/e99bb83f9721a9cbf805f7d8bf7b8783af43b50369e027c0e5b92af8fdd451b9-image.png)
-执行用时：23 ms
-内存消耗：47.8 MB
+// ![image.png](https://pic.leetcode-cn.com/e99bb83f9721a9cbf805f7d8bf7b8783af43b50369e027c0e5b92af8fdd451b9-image.png)
+// 执行用时：23 ms
+// 内存消耗：47.8 MB
 
-代码：
-```
+// 代码：
+// ```
 class KthLargest {
 
     /**小顶堆*/
@@ -96,4 +96,4 @@ class KthLargest {
  * KthLargest obj = new KthLargest(k, nums);
  * int param_1 = obj.add(val);
  */
-```
+// ```

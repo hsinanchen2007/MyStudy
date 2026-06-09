@@ -1,9 +1,9 @@
-### 解题思路
-String to Integer (atoi)
+// ### 解题思路
+// String to Integer (atoi)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int myAtoi(string str) {
@@ -24,4 +24,4 @@ public:
         return ret;
     }
 };
-```
+// ```

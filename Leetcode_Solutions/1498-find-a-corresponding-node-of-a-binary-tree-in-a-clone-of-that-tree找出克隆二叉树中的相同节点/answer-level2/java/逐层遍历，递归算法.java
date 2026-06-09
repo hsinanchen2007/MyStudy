@@ -1,9 +1,9 @@
-### 解题思路
-先判断父节点是否符合要求，符合直接返回，如果不符合要求递归遍历下一层
+// ### 解题思路
+// 先判断父节点是否符合要求，符合直接返回，如果不符合要求递归遍历下一层
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -46,4 +46,4 @@ class Solution {
         return findFromChild(newList,val);
     }
 }
-```
+// ```

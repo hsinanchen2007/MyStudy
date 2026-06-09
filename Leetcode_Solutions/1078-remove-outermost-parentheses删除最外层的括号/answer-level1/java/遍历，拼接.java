@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public String removeOuterParentheses(String S) {
         if ("".equals(S)) return "";
@@ -20,5 +20,5 @@ class Solution {
         return res.toString();
     }
 }
-```
+// ```
 

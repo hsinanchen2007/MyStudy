@@ -1,19 +1,19 @@
-### 解题思路
-1.维护小顶堆，但是没有使用java的工具类，而是用一个长度为k+1的数组维护的堆结构。
-2.主要有两个方法，insert和percolateDown。
-3.其中insert是使用的上滤，原理是先把数据放在末尾，然后和其父节点比较，如果比父节点小那么把父节点的值放到当前位置。就像冒泡一样往上走。
-4.而percolateDown则是下滤，因为顶端就是第k大的元素，如果新加入的比顶小那么不用加入什么也不做，如果比顶大那么顶点会被替换掉，然后调整整个堆使其重新满足堆结构即可。
-关于上滤和下滤，借用《数据结构与算法分析》书中的图，一看就懂。
+// ### 解题思路
+// 1.维护小顶堆，但是没有使用java的工具类，而是用一个长度为k+1的数组维护的堆结构。
+// 2.主要有两个方法，insert和percolateDown。
+// 3.其中insert是使用的上滤，原理是先把数据放在末尾，然后和其父节点比较，如果比父节点小那么把父节点的值放到当前位置。就像冒泡一样往上走。
+// 4.而percolateDown则是下滤，因为顶端就是第k大的元素，如果新加入的比顶小那么不用加入什么也不做，如果比顶大那么顶点会被替换掉，然后调整整个堆使其重新满足堆结构即可。
+// 关于上滤和下滤，借用《数据结构与算法分析》书中的图，一看就懂。
 
-上滤:
-![WX20200104-154847.png](https://pic.leetcode-cn.com/a8437657dfa452d206d3afaec47fca5fd51e85db3a94c35218284fd06369cb6f-WX20200104-154847.png)
+// 上滤:
+// ![WX20200104-154847.png](https://pic.leetcode-cn.com/a8437657dfa452d206d3afaec47fca5fd51e85db3a94c35218284fd06369cb6f-WX20200104-154847.png)
 
-下滤:
-![WX20200104-154944.png](https://pic.leetcode-cn.com/507362e12d15f938c525a80207fd80f5ba043008212becd3491e25c8c4dd7309-WX20200104-154944.png)
+// 下滤:
+// ![WX20200104-154944.png](https://pic.leetcode-cn.com/507362e12d15f938c525a80207fd80f5ba043008212becd3491e25c8c4dd7309-WX20200104-154944.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class KthLargest {
     int[] queue;
         int curSize;
@@ -75,4 +75,4 @@ class KthLargest {
  * KthLargest obj = new KthLargest(k, nums);
  * int param_1 = obj.add(val);
  */
-```
+// ```

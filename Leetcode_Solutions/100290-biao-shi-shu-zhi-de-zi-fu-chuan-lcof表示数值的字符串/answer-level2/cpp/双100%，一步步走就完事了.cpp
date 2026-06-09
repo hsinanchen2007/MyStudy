@@ -1,8 +1,8 @@
 
-**双100%，一步步走就完事了**
+// **双100%，一步步走就完事了**
 
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isNumber(string s) {
@@ -36,4 +36,4 @@ public:
         return isNum && p == s.size();
     }
 };
-```
+// ```

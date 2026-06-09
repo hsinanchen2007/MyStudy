@@ -1,9 +1,9 @@
-### 解题思路
-经典动态规划习题。
+# ### 解题思路
+# 经典动态规划习题。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def climbStairs(self, n):
         """
@@ -18,4 +18,4 @@ class Solution(object):
         for i in range(2, n):
             dp[i] = dp[i - 1] + dp[i - 2]
         return dp[-1]
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-C++思路与java一致，但是另外还可借助vector的特性和函数实现：两数组先合并后排序。
+// ### 解题思路
+// C++思路与java一致，但是另外还可借助vector的特性和函数实现：两数组先合并后排序。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
@@ -20,4 +20,4 @@ public:
         while (p2 >= 0) nums1[p--] = nums2[p2--];
     }
 };
-```
+// ```

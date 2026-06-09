@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isPowerOfThree(int n) {
@@ -6,4 +6,4 @@ public:
     }
 };
 
-```
+// ```

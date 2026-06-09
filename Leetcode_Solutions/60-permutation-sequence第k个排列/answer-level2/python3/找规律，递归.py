@@ -1,5 +1,5 @@
 
-```python []
+# ```python []
 class Solution:
     def getPermutation(self, n: int, k: int) -> str:
         self.res_index = [0]*n
@@ -29,5 +29,5 @@ class Solution:
         self.res_index[-i] = res
         return k-res*last
             
-```
+# ```
 

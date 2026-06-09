@@ -1,6 +1,6 @@
 
-### 队列遍历
-```python
+# ### 队列遍历
+# ```python
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -18,9 +18,9 @@ class Solution:
             if node.left: stack.append((node.left,val+[node.left.val]))
             if node and not node.left and not node.right and sum(val) == target:res.append(val)
         return res
-```
-### DFS 递归
-```
+# ```
+# ### DFS 递归
+# ```
 class Solution:
     def pathSum(self, root: TreeNode, target: int) -> List[List[int]]:
         res = init = []
@@ -32,4 +32,4 @@ class Solution:
             if not root.left and not root.right and cur==target:res.append(path)
         helper(init,0,root)
         return res
-```
+# ```

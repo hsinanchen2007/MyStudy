@@ -1,5 +1,5 @@
-快慢指针法
-```
+// 快慢指针法
+// ```
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -35,4 +35,4 @@ func detectCycle(head *ListNode) *ListNode {
     return p
 }   
 
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-无...
+# ### 解题思路
+# 无...
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def combine(self, n: int, k: int) -> List[List[int]]:
         result = []
@@ -20,4 +20,4 @@ class Solution:
         backtrack([],1)
         return result
 
-```
+# ```

@@ -1,5 +1,5 @@
 
-```
+// ```
 class Solution {
 public:
     int maximumMinimumPath(vector<vector<int>>& A) {
@@ -25,4 +25,4 @@ public:
         return help[m - 1][n - 1];
     }
 };
-```
+// ```

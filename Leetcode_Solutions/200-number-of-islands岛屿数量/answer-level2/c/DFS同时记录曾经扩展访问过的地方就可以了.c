@@ -1,6 +1,6 @@
 
-遍历整个地图，如果没有访问过，并且是陆地，岛屿数量增加1，同时开始DFS进行扩展访问（碰到地图边界、已经访问过、碰到水域都需要停止），同时标记访问过的地方，将此岛屿所有的地域都置为访问过。
-```
+// 遍历整个地图，如果没有访问过，并且是陆地，岛屿数量增加1，同时开始DFS进行扩展访问（碰到地图边界、已经访问过、碰到水域都需要停止），同时标记访问过的地方，将此岛屿所有的地域都置为访问过。
+// ```
 #define HAS_VISITED_FLAG 1
 #define IS_LAND  1
 #define MAX_DIRECT_NUM 4
@@ -82,4 +82,4 @@ int numIslands(char** grid, int gridSize, int* gridColSize)
     
     return isLandCnt;
 }
-```
+// ```

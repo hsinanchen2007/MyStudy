@@ -1,10 +1,10 @@
-### 解题思路
-1. bfs
-2. 迭代利用next属性，和116思路比较相似，但是需要用pre来刷新每一层级的head
+# ### 解题思路
+# 1. bfs
+# 2. 迭代利用next属性，和116思路比较相似，但是需要用pre来刷新每一层级的head
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 """
 # Definition for a Node.
 class Node:
@@ -57,4 +57,4 @@ class Solution:
 
 
                     
-```
+# ```

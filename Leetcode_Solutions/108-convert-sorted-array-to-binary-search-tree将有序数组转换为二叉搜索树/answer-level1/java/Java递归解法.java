@@ -1,5 +1,5 @@
-利用归并排序的思想，直接定位BST中节点在数组中的位置。
-```
+// 利用归并排序的思想，直接定位BST中节点在数组中的位置。
+// ```
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -27,4 +27,4 @@ class Solution {
       return root;
     }
 }
-```
+// ```

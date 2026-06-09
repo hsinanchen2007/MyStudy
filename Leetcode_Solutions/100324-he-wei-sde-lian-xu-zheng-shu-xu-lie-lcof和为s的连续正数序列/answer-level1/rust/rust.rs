@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```rust []
+// ```rust []
 impl Solution {
     pub fn find_continuous_sequence(target: i32) -> Vec<Vec<i32>> {
         let mut res:Vec<Vec<i32>> = Vec::new();
@@ -31,4 +31,4 @@ impl Solution {
         res
     }
 }
-```
+// ```

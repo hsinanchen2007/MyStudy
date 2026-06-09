@@ -1,15 +1,15 @@
-### 解题思路
-（1）除去字符串中空格
-```
+// ### 解题思路
+// （1）除去字符串中空格
+// ```
         auto it  = find(s.begin(), s.end(), ' ');
         while(it!=s.end()){
             s.erase(it);
             it  = find(s.begin(), s.end(), ' ');
         }
-```
-（2）用两个容器 ：vector<char> op; vector<int> num; 分别保存数，和符号
-    其中需要注意一点：需要判断数是否大于计算机能表示的最大数！
-```
+// ```
+// （2）用两个容器 ：vector<char> op; vector<int> num; 分别保存数，和符号
+//     其中需要注意一点：需要判断数是否大于计算机能表示的最大数！
+// ```
         int temp = 0;
         for(char i:s){
             if(i=='+'||i=='-'||i=='*'||i=='/'){
@@ -27,9 +27,9 @@
             }
         }
         num.emplace_back(temp);
-```
-（3）根据运算法则，先计算乘/除的结果，
-```
+// ```
+// （3）根据运算法则，先计算乘/除的结果，
+// ```
         auto it_mul = find(op.begin(),op.end(),'*');
         auto it_div = find(op.begin(),op.end(),'/');
         while(it_mul!=op.end()||it_div!=op.end()){
@@ -50,9 +50,9 @@
          it_mul = find(op.begin(),op.end(),'*');
          it_div = find(op.begin(),op.end(),'/');                    
         }
-```
-（4）之后容器op中只有加/减号，可以从左到右依次计算：
-```
+// ```
+// （4）之后容器op中只有加/减号，可以从左到右依次计算：
+// ```
         int sum = num[0];
         for(int i=0;i<op.size();i++){
             switch(op[i]){
@@ -65,13 +65,13 @@
             }
         }
         return sum;
-```
+// ```
 
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int calculate(string s) {
@@ -134,4 +134,4 @@ public:
         return sum;
     }
 };
-```
+// ```

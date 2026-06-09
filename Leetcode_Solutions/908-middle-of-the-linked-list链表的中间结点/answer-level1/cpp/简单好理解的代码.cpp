@@ -1,5 +1,5 @@
-- 看代码就能懂
-```
+// - 看代码就能懂
+// ```
 class Solution {
 public:
     ListNode* middleNode(ListNode* head) {
@@ -17,4 +17,4 @@ public:
         return slow;
     }
 };
-```
+// ```

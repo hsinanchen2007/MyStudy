@@ -1,17 +1,17 @@
-### 解题思路
+// ### 解题思路
 
-head : 奇数头节点
- // prenew：偶数头节点
+// head : 奇数头节点
+//  // prenew：偶数头节点
 
- // pre:奇数尾节点
- // next：偶数尾节点 
+//  // pre:奇数尾节点
+//  // next：偶数尾节点 
 
-四个节点来回切换，画图太麻烦了，反正都是四个节点
+// 四个节点来回切换，画图太麻烦了，反正都是四个节点
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -52,6 +52,6 @@ class Solution {
         return head;
     }
 }
-```
+// ```
 
-继续学习，看下各位大牛们怎么解决
+// 继续学习，看下各位大牛们怎么解决

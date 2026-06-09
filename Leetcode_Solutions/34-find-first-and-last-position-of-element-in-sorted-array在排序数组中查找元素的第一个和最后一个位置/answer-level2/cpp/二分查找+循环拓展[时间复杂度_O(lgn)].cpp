@@ -1,11 +1,11 @@
-### 解题思路
-1、二分查找是否有对应target的Index ---(时间复杂度O(lgn));
-2、根据该Index，向左右拓展查找对应上下限Index
-3、塞入vecor后返回
+// ### 解题思路
+// 1、二分查找是否有对应target的Index ---(时间复杂度O(lgn));
+// 2、根据该Index，向左右拓展查找对应上下限Index
+// 3、塞入vecor后返回
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
@@ -41,4 +41,4 @@ public:
         return vec;
     }
 };
-```
+// ```

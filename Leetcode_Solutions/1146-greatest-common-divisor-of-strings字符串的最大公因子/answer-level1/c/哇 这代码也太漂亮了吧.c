@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int gcd(int m, int n)
 {
     int r = m % n;
@@ -45,4 +45,4 @@ char * gcdOfStrings(char * str1, char * str2){
     return res;
 }
 
-```
+// ```

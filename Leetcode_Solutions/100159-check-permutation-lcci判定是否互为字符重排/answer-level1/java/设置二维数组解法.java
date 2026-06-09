@@ -1,8 +1,8 @@
-将两个字符串装配为二维数组，第一维存放字符，第二维存放状态，初始默认全部为F。
-每次比较第一个数组的字符，若第二个数组有相同的，则把两个数组相对应的位置的状态改为T。
-一旦出现不匹配的，立即返回false
+// 将两个字符串装配为二维数组，第一维存放字符，第二维存放状态，初始默认全部为F。
+// 每次比较第一个数组的字符，若第二个数组有相同的，则把两个数组相对应的位置的状态改为T。
+// 一旦出现不匹配的，立即返回false
 
-`
+// `
 class Solution {
     public static boolean CheckPermutation(String s1, String s2) {
         boolean flag = true;
@@ -35,4 +35,4 @@ class Solution {
         return flag;
     }
 }
-`
+// `

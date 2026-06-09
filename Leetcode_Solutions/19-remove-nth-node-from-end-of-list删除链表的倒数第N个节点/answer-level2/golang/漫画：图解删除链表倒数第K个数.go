@@ -1,10 +1,10 @@
-本题关键之处（完整代码见文末）：
-- 建立哨兵节点，降低题目复杂度
-- 采用双指针
+// 本题关键之处（完整代码见文末）：
+// - 建立哨兵节点，降低题目复杂度
+// - 采用双指针
 
-![image.png](https://pic.leetcode-cn.com/9c0d3cd8cd70e12abb0b02506da216a059e7209dbed2536581ab0817486ffd3e-image.png)
+// ![image.png](https://pic.leetcode-cn.com/9c0d3cd8cd70e12abb0b02506da216a059e7209dbed2536581ab0817486ffd3e-image.png)
 
-```go []
+// ```go []
 func removeNthFromEnd(head *ListNode, n int) *ListNode {
     result := &ListNode{}
     result.Next = head
@@ -22,7 +22,7 @@ func removeNthFromEnd(head *ListNode, n int) *ListNode {
     pre.Next = pre.Next.Next
     return result.Next
 }
-```
+// ```
 
 
 

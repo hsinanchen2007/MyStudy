@@ -1,4 +1,4 @@
-```
+# ```
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -21,4 +21,4 @@ class Solution:
         root.left=self.buildTree(preorder[1:inorderrootindex+1],inorder[0:inorderrootindex])
         root.right=self.buildTree(preorder[inorderrootindex+1:],inorder[inorderrootindex+1:])
         return root        
-```
+# ```

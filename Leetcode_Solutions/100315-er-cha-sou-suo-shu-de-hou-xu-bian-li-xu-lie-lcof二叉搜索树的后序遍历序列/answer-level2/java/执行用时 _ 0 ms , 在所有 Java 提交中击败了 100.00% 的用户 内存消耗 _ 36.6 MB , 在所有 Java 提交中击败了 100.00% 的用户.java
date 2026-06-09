@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-根据二叉搜索树种左子树所有节点的值都小于根节点的值,右子树的所有节点的值都大于根节点递归找值
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 根据二叉搜索树种左子树所有节点的值都小于根节点的值,右子树的所有节点的值都大于根节点递归找值
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean verifyPostorder(int[] postorder) {
         Boolean ans = new Boolean(true);
@@ -45,4 +45,4 @@ class Solution {
         return verifyPostorderHelper(postOrder,start,index) && verifyPostorderHelper(postOrder,index +1,end - 1);
     }
 }
-```
+// ```

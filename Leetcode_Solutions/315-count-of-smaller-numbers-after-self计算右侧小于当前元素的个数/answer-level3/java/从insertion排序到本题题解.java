@@ -1,5 +1,5 @@
-插入排序本身比较适合本题
-```
+// 插入排序本身比较适合本题
+// ```
 class Solution {
     public List<Integer> countSmaller(int[] nums) {
     	//垃圾题目，非要用List作为返回值
@@ -23,4 +23,4 @@ class Solution {
     	return returnData;
     }
 }
-```
+// ```

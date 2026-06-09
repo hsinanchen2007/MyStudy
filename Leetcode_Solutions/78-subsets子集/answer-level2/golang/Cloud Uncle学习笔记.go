@@ -1,5 +1,5 @@
-1.分治
-```
+// 1.分治
+// ```
 func subsets(nums []int) [][]int {
     res := [][]int{}
 
@@ -29,9 +29,9 @@ func dfs(index int, nums, arr []int, res *[][]int) {
     //revert current state
     arr = arr[:0]
 }
-```
-2.迭代
-```
+// ```
+// 2.迭代
+// ```
 func subsets(nums []int) [][]int {
     res := [][]int{{}}
 
@@ -47,4 +47,4 @@ func subsets(nums []int) [][]int {
 
     return res
 }
-```
+// ```

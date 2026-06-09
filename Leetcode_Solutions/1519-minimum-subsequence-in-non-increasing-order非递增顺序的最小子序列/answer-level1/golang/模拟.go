@@ -1,9 +1,9 @@
-### 解题思路
-先排序，再模拟一遍。
+// ### 解题思路
+// 先排序，再模拟一遍。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func minSubsequence(nums []int) []int {
     sort.Ints(nums)
     sum := 0
@@ -18,4 +18,4 @@ func minSubsequence(nums []int) []int {
     }
     return res
 }
-```
+// ```

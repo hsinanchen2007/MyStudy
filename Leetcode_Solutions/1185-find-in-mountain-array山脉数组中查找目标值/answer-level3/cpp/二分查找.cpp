@@ -1,6 +1,6 @@
-难点在于如何找到峰值
+// 难点在于如何找到峰值
 
-```
+// ```
 /**
  * // This is the MountainArray's API interface.
  * // You should not implement it, or speculate about its implementation
@@ -55,4 +55,4 @@ public:
         return -1;
     }
 };
-```
+// ```

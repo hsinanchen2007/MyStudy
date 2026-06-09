@@ -1,13 +1,13 @@
-二叉排序树满足左子树<右子树规律，删除结点生成新的二叉树也应满足该规律，删除操作需要特别处理要删除结点前驱和后继问题。为方便说明，假设删除结点为key_node，其前驱为pre_node
+# 二叉排序树满足左子树<右子树规律，删除结点生成新的二叉树也应满足该规律，删除操作需要特别处理要删除结点前驱和后继问题。为方便说明，假设删除结点为key_node，其前驱为pre_node
 
-#删除结点分为三种情况：
-1、左子树为空，右孩子替换key_node，即pre_node后继为key_node.right
-2、右子树为空，左孩子替换key_node，即pre_node后继为key_node.left
-3、左右子树都非空，首先找到key_node的后继：右子树中最小结点y（该结点特点：左叶子结点，左孩子为空），该结点可保证新的二叉树依然满足排序规则；然后先交换y和key_node.right位置，最后替换y和key_node
+# #删除结点分为三种情况：
+# 1、左子树为空，右孩子替换key_node，即pre_node后继为key_node.right
+# 2、右子树为空，左孩子替换key_node，即pre_node后继为key_node.left
+# 3、左右子树都非空，首先找到key_node的后继：右子树中最小结点y（该结点特点：左叶子结点，左孩子为空），该结点可保证新的二叉树依然满足排序规则；然后先交换y和key_node.right位置，最后替换y和key_node
 
-结点替换：需特殊处理root结点
+# 结点替换：需特殊处理root结点
 
-```
+# ```
  def deleteNode(self, root, key):
         """
         :type root: TreeNode
@@ -85,4 +85,4 @@
             y.left = key_node.left
 
             return root
-```
+# ```

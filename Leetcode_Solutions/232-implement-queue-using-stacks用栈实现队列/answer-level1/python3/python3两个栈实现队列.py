@@ -1,5 +1,5 @@
-python3两个栈实现队列
-```
+# python3两个栈实现队列
+# ```
 class MyQueue:
     def __init__(self):
         """
@@ -35,4 +35,4 @@ class MyQueue:
         Returns whether the queue is empty.
         """
         return not bool(len(self.stackPush) or len(self.stackPop))
-```
+# ```

@@ -1,15 +1,15 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def isPalindrome(self, x: int) -> bool:
         return str(x) == str(x)[::-1]
-```
+# ```
 
-```python
+# ```python
 class Solution:
     def isPalindrome(self, x: int) -> bool:
         """未通过测试"""
@@ -28,4 +28,4 @@ class Solution:
             ranger //= 100
         return True
 
-```
+# ```

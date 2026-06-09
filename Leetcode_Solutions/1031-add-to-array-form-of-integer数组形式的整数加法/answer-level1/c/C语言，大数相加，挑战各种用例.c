@@ -1,7 +1,7 @@
-C语言
-大数相加
-小人不才，最笨方法解决
-```
+// C语言
+// 大数相加
+// 小人不才，最笨方法解决
+// ```
 #define MAX(a, b)   a > b ? a : b
 int* addToArrayForm(int* A, int ASize, int K, int* returnSize){
     int i = 0;
@@ -89,4 +89,4 @@ int* addToArrayForm(int* A, int ASize, int K, int* returnSize){
         return NULL;
     }
 }
-```
+// ```

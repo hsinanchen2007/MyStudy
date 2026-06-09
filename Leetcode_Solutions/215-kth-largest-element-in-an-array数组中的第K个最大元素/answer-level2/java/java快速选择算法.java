@@ -1,12 +1,12 @@
-### 解题思路
-这题可以用小顶堆来做，官方题解1已经说的很清楚了，这里我用自己思路实现了一下快速选择算法（注意**不是**快速排序算法！！）。
-官方用的递归不太好理解，我这里就用很简单的思路。我用goodnotes画了一张图方便大家理解。
-![IMG_0024.jpg](https://pic.leetcode-cn.com/6e4025bb0218a1451bafa184d590c32b2bc00bbda51bdaa70f178d790236f8e3-IMG_0024.jpg)
+// ### 解题思路
+// 这题可以用小顶堆来做，官方题解1已经说的很清楚了，这里我用自己思路实现了一下快速选择算法（注意**不是**快速排序算法！！）。
+// 官方用的递归不太好理解，我这里就用很简单的思路。我用goodnotes画了一张图方便大家理解。
+// ![IMG_0024.jpg](https://pic.leetcode-cn.com/6e4025bb0218a1451bafa184d590c32b2bc00bbda51bdaa70f178d790236f8e3-IMG_0024.jpg)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 
     public void swap(int[] nums,int i,int j) {
@@ -71,4 +71,4 @@ class Solution {
         return nums[pivot];
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```c
+// ```c
 int hammingWeight(uint32_t n) {
     short count=0;
     while(n!=0){
@@ -7,4 +7,4 @@ int hammingWeight(uint32_t n) {
     }
     return count;
 }
-```
+// ```

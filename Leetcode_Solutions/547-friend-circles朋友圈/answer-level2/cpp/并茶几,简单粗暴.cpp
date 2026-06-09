@@ -1,8 +1,8 @@
 
-![图片.png](https://pic.leetcode-cn.com/0d28fc746184eab172df500ddd44e7b60f3dce1facdd5c27964d01bac72c379e-%E5%9B%BE%E7%89%87.png)
+// ![图片.png](https://pic.leetcode-cn.com/0d28fc746184eab172df500ddd44e7b60f3dce1facdd5c27964d01bac72c379e-%E5%9B%BE%E7%89%87.png)
 
 
-```
+// ```
 class Solution {
 public:
     int *fa;
@@ -50,4 +50,4 @@ public:
     }
     
 };
-```
+// ```

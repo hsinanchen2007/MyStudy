@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func licenseKeyFormatting(S string, K int) string {
 	slice:=[]rune(S)
 	fmt.Println(slice)
@@ -33,4 +33,4 @@ func licenseKeyFormatting(S string, K int) string {
 
 	return string(res)
 }
-```
+// ```

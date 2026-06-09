@@ -1,6 +1,6 @@
-递归+回溯 用一个nxm的二维数组来表示这个矩形 每一个坐标代表一个1x1的小方格 用1表示已覆盖 用0表示未覆盖 不断检索直至找到第一个未被覆盖的小方格 并看能否扩大 注意不能超出边界 不能与已覆盖的地方形成交集 再递归回溯即可
+// 递归+回溯 用一个nxm的二维数组来表示这个矩形 每一个坐标代表一个1x1的小方格 用1表示已覆盖 用0表示未覆盖 不断检索直至找到第一个未被覆盖的小方格 并看能否扩大 注意不能超出边界 不能与已覆盖的地方形成交集 再递归回溯即可
 
-```
+// ```
 int covered[20][20];
 int MIN;
 int min(int a,int b)
@@ -43,12 +43,12 @@ cover(n,m,0);
 return MIN;
 }
  
-```
-运行结果：
-![捕获 - 副本.PNG](https://pic.leetcode-cn.com/f56c6cee14bdfd402620646459577800329236a457dae4ce342eaf0e36e022d8-%E6%8D%95%E8%8E%B7%20-%20%E5%89%AF%E6%9C%AC.PNG)
+// ```
+// 运行结果：
+// ![捕获 - 副本.PNG](https://pic.leetcode-cn.com/f56c6cee14bdfd402620646459577800329236a457dae4ce342eaf0e36e022d8-%E6%8D%95%E8%8E%B7%20-%20%E5%89%AF%E6%9C%AC.PNG)
 
-此外本题还可以用bfs来做 但相比dfs更慢 更费空间 但bfs和dfs思想一样 都是对隐式图（树）的遍历搜索
-```
+// 此外本题还可以用bfs来做 但相比dfs更慢 更费空间 但bfs和dfs思想一样 都是对隐式图（树）的遍历搜索
+// ```
 int tilingRectangle(int n, int m){
 int i,j,k;
 struct Queue{int cover[13][13];int x;int y;int step;}queue[30010];
@@ -86,7 +86,7 @@ rear++;}
 front++;}
 return queue[front].step;
 }
-```
+// ```
 
-运行结果：
-![捕获 - 副本.PNG](https://pic.leetcode-cn.com/92bd0968820701f7f05b302009e02dacfeb2c7477ef250e7bbb245b65bec617e-%E6%8D%95%E8%8E%B7%20-%20%E5%89%AF%E6%9C%AC.PNG)
+// 运行结果：
+// ![捕获 - 副本.PNG](https://pic.leetcode-cn.com/92bd0968820701f7f05b302009e02dacfeb2c7477ef250e7bbb245b65bec617e-%E6%8D%95%E8%8E%B7%20-%20%E5%89%AF%E6%9C%AC.PNG)

@@ -1,9 +1,9 @@
-### 解题思路
-UT_hash
+// ### 解题思路
+// UT_hash
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct {
     int key;
     char value[1000];
@@ -70,4 +70,4 @@ bool wordPattern(char * pattern, char * str)
     return true;
 }
 
-```
+// ```

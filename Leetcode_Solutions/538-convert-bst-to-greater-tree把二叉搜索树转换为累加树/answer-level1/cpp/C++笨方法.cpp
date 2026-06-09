@@ -1,9 +1,9 @@
-没有用到搜索树的特性，好处时对任何树都能用。
-void dfs每次调用遍历整个二叉树，找出大于传入结点值int preval，并累加到int* prept上面；
-void search遍历树的结点一遍，调用void dfs函数计算出当前结点累加值，并将结果压入vector<int> sum
-void search_in函数将vector<int> sum对应位置的值赋值给对应结点，至此完成操作
-得到正确答案
-```
+// 没有用到搜索树的特性，好处时对任何树都能用。
+// void dfs每次调用遍历整个二叉树，找出大于传入结点值int preval，并累加到int* prept上面；
+// void search遍历树的结点一遍，调用void dfs函数计算出当前结点累加值，并将结果压入vector<int> sum
+// void search_in函数将vector<int> sum对应位置的值赋值给对应结点，至此完成操作
+// 得到正确答案
+// ```
 class Solution {
 public:vector<int> sum;
     void dfs(TreeNode* root,int* prept,int preval){//每次传入根结点，当前结点值指针，当前结点值,遍历一次搜索树，获取对应结点的修改值
@@ -39,4 +39,4 @@ public:vector<int> sum;
 	   return root;
     }
 };
-```
+// ```

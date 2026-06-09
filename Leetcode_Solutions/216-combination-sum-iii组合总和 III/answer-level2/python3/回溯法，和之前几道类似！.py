@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def combinationSum3(self, k, n):
         """
@@ -22,4 +22,4 @@ class Solution(object):
             if sum(res) > n or len(res) > k:
                 continue
             self.backtrack(k, n, nums, result, res + [nums[j]], j + 1)
-```
+# ```

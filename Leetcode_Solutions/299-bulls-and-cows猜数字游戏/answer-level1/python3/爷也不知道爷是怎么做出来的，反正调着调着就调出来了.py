@@ -1,10 +1,10 @@
-### 解题思路
-![QQ截图20200304152735.png](https://pic.leetcode-cn.com/8d003801b2a25ec5503660ffb7cb421238ad5a01cb0ce1604891b25671d604da-QQ%E6%88%AA%E5%9B%BE20200304152735.png)
+# ### 解题思路
+# ![QQ截图20200304152735.png](https://pic.leetcode-cn.com/8d003801b2a25ec5503660ffb7cb421238ad5a01cb0ce1604891b25671d604da-QQ%E6%88%AA%E5%9B%BE20200304152735.png)
 
-就硬干
-### 代码
+# 就硬干
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def getHint(self, secret: str, guess: str) -> str:
         sum_A=0
@@ -31,4 +31,4 @@ class Solution:
                 pass
         
         return str(sum_A)+"A"+str(sum_B)+"B"
-```
+# ```

@@ -1,5 +1,5 @@
-平均下来时间复杂度是O(1)，超过99.82%
-```java
+// 平均下来时间复杂度是O(1)，超过99.82%
+// ```java
 class NumArray {
 
     private int[] sum;
@@ -14,4 +14,4 @@ class NumArray {
         return sum[j+1]-sum[i];
     }
 }
-```
+// ```

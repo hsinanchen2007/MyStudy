@@ -1,9 +1,9 @@
-### 解题思路
-记得是pricesSize - 1
+// ### 解题思路
+// 记得是pricesSize - 1
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int maxProfit(int* prices, int pricesSize){
     int temp = 0;
     int max = 0;
@@ -16,4 +16,4 @@ int maxProfit(int* prices, int pricesSize){
     }
     return max;
 }
-```
+// ```

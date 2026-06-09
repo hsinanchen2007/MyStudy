@@ -1,4 +1,4 @@
-```
+// ```
 /*int cmp( const void * a , const void * b ){
 
     return *( int * )a - *( int * )b;
@@ -41,4 +41,4 @@ int findSpecialInteger( int * arr , int arrSize ){
     return *( arr + arrSize - 1 );
 
 }
-```
+// ```

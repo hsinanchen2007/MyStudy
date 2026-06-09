@@ -1,4 +1,4 @@
-```
+// ```
 void dfs(int *arr, int len, int *path,int index, int **ret, int *ret_index,int *visited){
     if(index==len){
     ret[*ret_index]= malloc(sizeof(int)*len);
@@ -41,4 +41,4 @@ int** permute(int* arr, int len, int* returnSize, int** returnColumnSizes){
     return ret;
     
 }
-```
+// ```

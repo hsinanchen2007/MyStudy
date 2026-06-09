@@ -1,10 +1,10 @@
-### 
+// ### 
 
-![image.png](https://pic.leetcode-cn.com/b28f57710ff41642bb5cf9fcf6b5c1d2b137d769ce69a192150555c91cdac069-image.png)
+// ![image.png](https://pic.leetcode-cn.com/b28f57710ff41642bb5cf9fcf6b5c1d2b137d769ce69a192150555c91cdac069-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 typedef struct dotPos {
 	char* dotpos[3]; //记录每个分割点的指针地址
@@ -134,4 +134,4 @@ char** restoreIpAddresses(char* s, int* returnSize) {
 }
 
 
-```
+// ```

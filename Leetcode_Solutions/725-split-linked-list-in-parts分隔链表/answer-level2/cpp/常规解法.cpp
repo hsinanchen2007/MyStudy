@@ -1,11 +1,11 @@
-### 解题思路
-执行用时 :8 ms 在所有 cpp 提交中击败了98.80%的用户
-首先计算链表count，根据k求得分隔后每个链表的长度并存储在vec中
-然后再根据vec和原链表root重新创建链表，并把每个链表头存放在result中
+// ### 解题思路
+// 执行用时 :8 ms 在所有 cpp 提交中击败了98.80%的用户
+// 首先计算链表count，根据k求得分隔后每个链表的长度并存储在vec中
+// 然后再根据vec和原链表root重新创建链表，并把每个链表头存放在result中
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -59,4 +59,4 @@ public:
         return result;
     }
 };
-```
+// ```

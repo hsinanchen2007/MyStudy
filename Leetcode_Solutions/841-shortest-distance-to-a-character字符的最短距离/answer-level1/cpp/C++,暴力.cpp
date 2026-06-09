@@ -1,11 +1,11 @@
-### 解题思路
-很明显距离为左右位的较小值+1，然后……想了一会费脑子又费键盘，而且规模不大还是暴力解吧。然后效果其实还不错
-![image.png](https://pic.leetcode-cn.com/d94d6edfbfce418296e9e201fe3d81a6aeb8ed768acb8cb52db0f4f3822e55e1-image.png)
+// ### 解题思路
+// 很明显距离为左右位的较小值+1，然后……想了一会费脑子又费键盘，而且规模不大还是暴力解吧。然后效果其实还不错
+// ![image.png](https://pic.leetcode-cn.com/d94d6edfbfce418296e9e201fe3d81a6aeb8ed768acb8cb52db0f4f3822e55e1-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> shortestToChar(string S, char C) {
@@ -27,4 +27,4 @@ public:
         return ans;
     }
 };
-```
+// ```

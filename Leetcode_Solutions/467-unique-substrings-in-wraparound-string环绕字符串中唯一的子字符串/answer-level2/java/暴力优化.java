@@ -1,5 +1,5 @@
-直接暴力搞过的哈哈哈
-```
+// 直接暴力搞过的哈哈哈
+// ```
 class Solution {
     public int findSubstringInWraproundString(String p) {
         
@@ -31,4 +31,4 @@ class Solution {
     	return ans;
     }
 }
-```
+// ```

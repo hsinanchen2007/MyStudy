@@ -1,5 +1,5 @@
-**层次遍历，每一次结束时计算计算平均值**
-```cpp
+// **层次遍历，每一次结束时计算计算平均值**
+// ```cpp
 class Solution {
 public:
     vector<double> averageOfLevels(TreeNode* root) {
@@ -33,4 +33,4 @@ public:
         return v;
     }
 };
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
-我的思路：
-1. 暴力循环：时间o(N^2)，空间o(1)
-2. 双指针法：时间o(N)，空间o(1)
-代码展示的是双指针法
+# ### 解题思路
+# 我的思路：
+# 1. 暴力循环：时间o(N^2)，空间o(1)
+# 2. 双指针法：时间o(N)，空间o(1)
+# 代码展示的是双指针法
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def compress(self, chars: List[str]) -> int:
         if chars == ['']:
@@ -35,4 +35,4 @@ class Solution:
 
         len_new = zhizhen + 1  
         return len_new
-```
+# ```

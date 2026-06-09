@@ -1,6 +1,6 @@
 
-### 代码
-```python
+# ### 代码
+# ```python
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -18,4 +18,4 @@ class Solution:
         if root.right: temp += self.rob(root.right.left)+self.rob(root.right.right)
         self.dic[root] = max(temp, self.rob(root.left)+self.rob(root.right))
         return self.dic[root]
-```
+# ```

@@ -1,7 +1,7 @@
-直接维护三个vector，通过index来对队列进行控制，当有对应的数据被使用，或者更新时，将所有的priorVec队列的值更新+1，并将当前值设置为0；
-在进行替换时，只需要查找出priorVec中值最大的那个Index即可；
-写的啰嗦了一点，可以将其中更新priorVec部分抽象为方法。
-```
+// 直接维护三个vector，通过index来对队列进行控制，当有对应的数据被使用，或者更新时，将所有的priorVec队列的值更新+1，并将当前值设置为0；
+// 在进行替换时，只需要查找出priorVec中值最大的那个Index即可；
+// 写的啰嗦了一点，可以将其中更新priorVec部分抽象为方法。
+// ```
 class LRUCache {
 public:
     vector<int> vec;  //key
@@ -76,4 +76,4 @@ public:
  * int param_1 = obj->get(key);
  * obj->put(key,value);
  */
-```
+// ```

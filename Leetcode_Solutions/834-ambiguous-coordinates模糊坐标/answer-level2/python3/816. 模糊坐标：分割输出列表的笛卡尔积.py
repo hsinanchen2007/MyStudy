@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/f667f94bbdbed9427be994f071ff5e6fb45099f34f751b41d48772018ca7958f-image.png)
+# ![image.png](https://pic.leetcode-cn.com/f667f94bbdbed9427be994f071ff5e6fb45099f34f751b41d48772018ca7958f-image.png)
 
-```python []
+# ```python []
 class Solution:
     def ambiguousCoordinates(self, S: str) -> List[str]:
         def f(s):
@@ -14,4 +14,4 @@ class Solution:
             return [s] + [s[: i] + '.' + s[i: ] for i in range(1, len(s))]
         S = S[1: -1]
         return ['(%s, %s)'%(x, y) for i in range(1, len(S)) for x, y in itertools.product(f(S[: i]), f(S[i: ]))]
-```
+# ```

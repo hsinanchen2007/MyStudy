@@ -1,9 +1,9 @@
-### 解题思路
-bfs 广度优先搜索算法
+// ### 解题思路
+// bfs 广度优先搜索算法
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func orangesRotting(grid [][]int) int {
 	var rows = len(grid)
 	var cols = len(grid[0])
@@ -46,4 +46,4 @@ func bfs(grid [][]int, i, j int, rows, cols int, depth int) {
 		bfs(grid, i, j+1, rows, cols, depth+1)
 	}
 }
-```
+// ```

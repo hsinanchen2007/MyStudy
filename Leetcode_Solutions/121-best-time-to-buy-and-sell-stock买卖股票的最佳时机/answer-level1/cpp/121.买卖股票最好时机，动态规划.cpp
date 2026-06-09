@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/31ef263a807845d2aedc1c8a7d7537eb0348494945aaf1172025be1e492d989e-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/31ef263a807845d2aedc1c8a7d7537eb0348494945aaf1172025be1e492d989e-image.png)
 
-T(n) = max(T(n-1), p[i] - min_num);
+// T(n) = max(T(n-1), p[i] - min_num);
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
@@ -23,4 +23,4 @@ public:
         return res;
     }
 };
-```
+// ```

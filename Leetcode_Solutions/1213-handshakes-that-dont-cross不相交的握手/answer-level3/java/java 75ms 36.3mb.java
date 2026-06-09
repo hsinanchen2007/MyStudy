@@ -1,9 +1,9 @@
-### 解题思路
-动态规划，需要注意int相乘导致溢出问题，需要先cast到long再取摸。
+// ### 解题思路
+// 动态规划，需要注意int相乘导致溢出问题，需要先cast到long再取摸。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numberOfWays(int num_people) {
         int[] dp = new int[num_people+1];
@@ -18,4 +18,4 @@ class Solution {
         return dp[num_people];
     }
 }
-```
+// ```

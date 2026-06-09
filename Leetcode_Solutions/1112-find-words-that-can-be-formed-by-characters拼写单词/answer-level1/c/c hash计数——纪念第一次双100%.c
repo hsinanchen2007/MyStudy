@@ -1,12 +1,12 @@
-![双100.jpg](https://pic.leetcode-cn.com/a6e1dd8f18d49898adaf1d567c2119856552827e3da89d398633e7f6482917e7-%E5%8F%8C100.jpg)
+// ![双100.jpg](https://pic.leetcode-cn.com/a6e1dd8f18d49898adaf1d567c2119856552827e3da89d398633e7f6482917e7-%E5%8F%8C100.jpg)
 
-思路：
-只有小写字母，因此长26的数组存hash计数就可以了。
-chars字符遍历，hash值++
-words遍历，每个字符串字符遍历，拷贝个临时hash，每个计数--就可以了，=0直接break出去。
+// 思路：
+// 只有小写字母，因此长26的数组存hash计数就可以了。
+// chars字符遍历，hash值++
+// words遍历，每个字符串字符遍历，拷贝个临时hash，每个计数--就可以了，=0直接break出去。
 
-代码：
-```
+// 代码：
+// ```
 #define HASH_SIZE (26)
 #define GET_HASH_SUB(val) ((val) % HASH_SIZE)
 
@@ -51,5 +51,5 @@ int countCharacters(char ** words, int wordsSize, char * chars){
     
     return retLen;
 }
-```
+// ```
 

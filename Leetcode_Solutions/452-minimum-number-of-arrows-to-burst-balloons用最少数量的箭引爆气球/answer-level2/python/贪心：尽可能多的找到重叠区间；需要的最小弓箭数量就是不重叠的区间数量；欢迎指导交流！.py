@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def findMinArrowShots(self, points):
         """
@@ -30,5 +30,5 @@ class Solution(object):
         # print(res)
         return len(res)
 
-```
-![WechatIMG231.png](https://pic.leetcode-cn.com/9d497a544f12bfafdf4872a41dd560c66988285d54085c1ed47fe9651980550e-WechatIMG231.png)
+# ```
+# ![WechatIMG231.png](https://pic.leetcode-cn.com/9d497a544f12bfafdf4872a41dd560c66988285d54085c1ed47fe9651980550e-WechatIMG231.png)

@@ -1,9 +1,9 @@
-### 解题思路
-1、递归 + 排序去重
+// ### 解题思路
+// 1、递归 + 排序去重
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void subsets(vector<int>& nums, int index, vector<int>& v, vector<vector<int>>& res)
@@ -40,4 +40,4 @@ public:
         return res;
     }
 };
-```
+// ```

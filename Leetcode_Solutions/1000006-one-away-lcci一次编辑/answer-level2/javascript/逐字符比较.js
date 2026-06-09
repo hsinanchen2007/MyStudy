@@ -1,6 +1,6 @@
-逐字符比较，时间复杂度O(N)
+// 逐字符比较，时间复杂度O(N)
 
-```javascript
+// ```javascript
 var oneEditAway = function(first, second) {
   let firstp = secondp = 0
   if(first.length - second.length > 1 ||first.length - second.length < -1) return false
@@ -17,4 +17,4 @@ var oneEditAway = function(first, second) {
   }
   return true
 };
-```
+// ```

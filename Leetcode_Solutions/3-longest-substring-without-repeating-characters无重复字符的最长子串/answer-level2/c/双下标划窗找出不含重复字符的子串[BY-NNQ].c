@@ -1,9 +1,9 @@
-### 解题思路
-> 双下标划窗找出不含重复字符的子串; 详见代码
+// ### 解题思路
+// > 双下标划窗找出不含重复字符的子串; 详见代码
 
-### 代码
+// ### 代码
 
-```c [groups1-c直观双指针]
+// ```c [groups1-c直观双指针]
 #define MAX_CHAR_TYPES 256
 
 int lengthOfLongestSubstring(char *s)
@@ -49,9 +49,9 @@ int lengthOfLongestSubstring(char *s)
     return longest;
 }
 
-```
+// ```
 
-```c [groups1-优化后只记录每个字母上一次出现的位置]
+// ```c [groups1-优化后只记录每个字母上一次出现的位置]
 #define MAX_CHAR_TYPES 256
 
 int lengthOfLongestSubstring(char *s)
@@ -78,10 +78,10 @@ int lengthOfLongestSubstring(char *s)
     }
     return longest;
 }
-```
+// ```
 
-### 运行情况
-```
+// ### 运行情况
+// ```
 执行用时 :8 ms, 在所有 C 提交中击败了68.70%的用户
 内存消耗 :5.6 MB, 在所有 C 提交中击败了100.00%的用户
-```
+// ```

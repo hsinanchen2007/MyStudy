@@ -1,6 +1,6 @@
-hashmap为索引存储字符串即可。
+// hashmap为索引存储字符串即可。
 
-```
+// ```
 class ValidWordAbbr {
 public:
     static string addr(string key){
@@ -54,4 +54,4 @@ private:
  * ValidWordAbbr* obj = new ValidWordAbbr(dictionary);
  * bool param_1 = obj->isUnique(word);
  */
-```
+// ```

@@ -1,17 +1,17 @@
-### 解题思路
-1.思路比较简单：递归 + 中序遍历。
-2.corner condition：
-无；
-3.知识点总结：
-递归+遍历，时间上比较吃亏，没办法。
-4.耗时：30mins，比较满意哈哈 哈哈哈 O(∩_∩)O哈哈~。主要耗时点：
-编码和特殊条件验证；
-![image.png](https://pic.leetcode-cn.com/7a6c1e5914fc2553ddf9a9dad2a865e850feda07955743edeb5d469b7b8cddc8-image.png)
+// ### 解题思路
+// 1.思路比较简单：递归 + 中序遍历。
+// 2.corner condition：
+// 无；
+// 3.知识点总结：
+// 递归+遍历，时间上比较吃亏，没办法。
+// 4.耗时：30mins，比较满意哈哈 哈哈哈 O(∩_∩)O哈哈~。主要耗时点：
+// 编码和特殊条件验证；
+// ![image.png](https://pic.leetcode-cn.com/7a6c1e5914fc2553ddf9a9dad2a865e850feda07955743edeb5d469b7b8cddc8-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -53,4 +53,4 @@ int sumEvenGrandparent(struct TreeNode* root){
     return ret;
 
 }
-```
+// ```

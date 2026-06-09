@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/c60df6ba51d816c00141d9c2867ca6aa6e0e341895491bbde90fef2d1d117745-image.png)
+# ![image.png](https://pic.leetcode-cn.com/c60df6ba51d816c00141d9c2867ca6aa6e0e341895491bbde90fef2d1d117745-image.png)
 
-先把单词生成后缀树，然后再全局记录一下倒序串，查询的时候直接匹配就行了，一次就100%AC还行。
+# 先把单词生成后缀树，然后再全局记录一下倒序串，查询的时候直接匹配就行了，一次就100%AC还行。
 
-```python []
+# ```python []
 class StreamChecker:
 
     def __init__(self, words: List[str]):
@@ -26,4 +26,4 @@ class StreamChecker:
             if 'end' in t:
                 return True
         return False
-```
+# ```

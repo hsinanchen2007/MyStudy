@@ -1,5 +1,5 @@
-方法一:利用双指针进行遍历
-```
+# 方法一:利用双指针进行遍历
+# ```
 class Solution(object):
     def deleteNode(self, head, val):
         """
@@ -22,10 +22,10 @@ class Solution(object):
                 first = first.next
                 second = second.next
         return result
-```
+# ```
 
-方法二: 利用单指针来进行遍历
-```
+# 方法二: 利用单指针来进行遍历
+# ```
 class Solution(object):
     def deleteNode(self, head, val):
         """
@@ -44,4 +44,4 @@ class Solution(object):
                 first = first.next
             first.next = first.next.next
         return result
-```
+# ```

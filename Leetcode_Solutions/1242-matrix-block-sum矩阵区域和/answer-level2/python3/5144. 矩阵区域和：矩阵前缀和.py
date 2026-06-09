@@ -1,4 +1,4 @@
-```python []
+# ```python []
 class Solution:
     def matrixBlockSum(self, mat: List[List[int]], K: int) -> List[List[int]]:
         m, n = len(mat), len(mat[0])
@@ -13,6 +13,6 @@ class Solution:
             return s[a][b] + s[c][d] - s[a][d] - s[c][b]
         return [[area(i, j) for j in range(n)] for i in range(m)]
 
-```
+# ```
 
-![image.png](https://pic.leetcode-cn.com/9347ab61962f90d81cfc844882044115cea56f80346e5ab911e3ebe2b7766c9b-image.png)
+# ![image.png](https://pic.leetcode-cn.com/9347ab61962f90d81cfc844882044115cea56f80346e5ab911e3ebe2b7766c9b-image.png)

@@ -1,15 +1,15 @@
-### 解题思路
-假设`preorder`与`inorder`的范围分别为`[ps,pe]`,`[is,ie]`
-由于`preorder`为前序遍历，所以`preorder[ps]`绝对是整个树的根节点，而由于`inorder`为中序遍历，遵循左子树-根-右子树的规律，所以我们在`inorder`中找到`preorder[ps]`所在的位置`i`,那么：
-`inorder[i]`为根，则`inorder`中`i`左边的值构成左子树，`i`右边的值构成右子树。而在`preorder`中，显然`preorder[ps+1]`起右数左子树长度的值构成左子树，剩下的就构成右子树。
-根`preorder[ps]`or`inorder[i]`
-左子树构成范围：`preorder[ps+1,ps+left]`,`inorder[is,i-1]`
-右子树构成范围：`preorder[ps+left+1,pe]`,`inorder[i+1,is]`
-根据这个思路，递归求解即可。
+// ### 解题思路
+// 假设`preorder`与`inorder`的范围分别为`[ps,pe]`,`[is,ie]`
+// 由于`preorder`为前序遍历，所以`preorder[ps]`绝对是整个树的根节点，而由于`inorder`为中序遍历，遵循左子树-根-右子树的规律，所以我们在`inorder`中找到`preorder[ps]`所在的位置`i`,那么：
+// `inorder[i]`为根，则`inorder`中`i`左边的值构成左子树，`i`右边的值构成右子树。而在`preorder`中，显然`preorder[ps+1]`起右数左子树长度的值构成左子树，剩下的就构成右子树。
+// 根`preorder[ps]`or`inorder[i]`
+// 左子树构成范围：`preorder[ps+1,ps+left]`,`inorder[is,i-1]`
+// 右子树构成范围：`preorder[ps+left+1,pe]`,`inorder[i+1,is]`
+// 根据这个思路，递归求解即可。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 
 class Solution {
     
@@ -53,4 +53,4 @@ class Solution {
         return root;
     }
 }
-```
+// ```

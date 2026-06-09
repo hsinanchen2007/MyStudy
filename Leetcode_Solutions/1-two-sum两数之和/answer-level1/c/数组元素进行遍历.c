@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-第一个for控制一个元素，第二个for是遍历剩下的元素；遍历两个元素的和，得到结果，输出相应的元素位置。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 第一个for控制一个元素，第二个for是遍历剩下的元素；遍历两个元素的和，得到结果，输出相应的元素位置。
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -24,4 +24,4 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize){
         }
         return result;
 }
-```
+// ```

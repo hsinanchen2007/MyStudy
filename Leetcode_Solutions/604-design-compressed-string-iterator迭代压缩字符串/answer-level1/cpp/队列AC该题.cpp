@@ -1,10 +1,10 @@
-### 解题思路
-其实刚拿到时候，想了下，用什么数据结构去组织，发现队列很适合，只是需要记录<char, int>队。唯一麻烦点的就是char对应的int数在大于等于个位数上的识别;
-解决上述问题后，后面思路就是一片开阔，耗时一般，后续想到好的idea再去优化吧，先mark一下。
+// ### 解题思路
+// 其实刚拿到时候，想了下，用什么数据结构去组织，发现队列很适合，只是需要记录<char, int>队。唯一麻烦点的就是char对应的int数在大于等于个位数上的识别;
+// 解决上述问题后，后面思路就是一片开阔，耗时一般，后续想到好的idea再去优化吧，先mark一下。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class StringIterator {
 public:
     StringIterator(string compressedString) {
@@ -49,4 +49,4 @@ private:
  * char param_1 = obj->next();
  * bool param_2 = obj->hasNext();
  */
-```
+// ```

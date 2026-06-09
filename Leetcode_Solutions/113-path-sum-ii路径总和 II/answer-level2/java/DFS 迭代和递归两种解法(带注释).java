@@ -1,5 +1,5 @@
-#### DFS 迭代解法如下：
-```java
+// #### DFS 迭代解法如下：
+// ```java
 class Solution {
     public List<List<Integer>> pathSum(TreeNode root, int sum) {
         List<List<Integer>> list = new ArrayList<>();
@@ -54,10 +54,10 @@ class Solution {
         return list;
     }
 }
-```
+// ```
 
-#### DFS 递归解法
-```java
+// #### DFS 递归解法
+// ```java
 class Solution {
     public List<List<Integer>> pathSum(TreeNode root, int sum) {
         List<List<Integer>> list = new ArrayList<>();
@@ -80,4 +80,4 @@ class Solution {
         path.remove(path.size() - 1);
     }
 }
-```
+// ```

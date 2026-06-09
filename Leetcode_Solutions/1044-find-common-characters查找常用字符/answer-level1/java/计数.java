@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public List<String> commonChars(String[] words) {
         int n = words.length;
@@ -27,4 +27,4 @@ class Solution {
     }
 
 }
-```
+// ```

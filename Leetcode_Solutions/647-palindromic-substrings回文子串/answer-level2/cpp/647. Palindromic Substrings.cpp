@@ -1,10 +1,10 @@
-### 解题思路
-暴力穷举所有长度里面可能成为回文字符串的数量。
-这道题和 5.最长回文字符子串 有直接联系。
+// ### 解题思路
+// 暴力穷举所有长度里面可能成为回文字符串的数量。
+// 这道题和 5.最长回文字符子串 有直接联系。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int countSubstrings(string s) {
@@ -34,13 +34,13 @@ private:
         return true;
     }
 };
-```
-### 解题思路
-5.最长回文字符子串 中心扩展法
+// ```
+// ### 解题思路
+// 5.最长回文字符子串 中心扩展法
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int countSubstrings(string s) {
@@ -67,14 +67,14 @@ private:
             return ans;
     }
 };
-```
+// ```
 
-### 解题思路
-5.最长回文字符子串 DP
+// ### 解题思路
+// 5.最长回文字符子串 DP
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	//dp(i,j), [i, j]是否构成回文字符串
@@ -105,4 +105,4 @@ public:
         return count;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-一个最长的路径肯定是过某个节点，那么这个节点的左子树深度加上右子树深度再加一(他自己)就是过他的路径的最长的长度，那么只要找到所有节点的左子树深度+右子树深度，就能找到最长路径了
-所以其实这个题求的是子树深度。
-### 代码
+# ### 解题思路
+# 一个最长的路径肯定是过某个节点，那么这个节点的左子树深度加上右子树深度再加一(他自己)就是过他的路径的最长的长度，那么只要找到所有节点的左子树深度+右子树深度，就能找到最长路径了
+# 所以其实这个题求的是子树深度。
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -33,4 +33,4 @@ class Solution:
         if leftDepth + rightDepth > self.radius:
             self.radius = leftDepth + rightDepth
         return max(leftDepth , rightDepth) + 1
-```
+# ```

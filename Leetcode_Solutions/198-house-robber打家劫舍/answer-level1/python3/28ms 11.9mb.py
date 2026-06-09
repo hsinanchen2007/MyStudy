@@ -1,13 +1,13 @@
-### 解题思路
+# ### 解题思路
 
-    暴力解题 
-    长度小于等于2 直接返回最大值 长度等于0 就返回0
-    每次第i次 取0-(i-1) 的最大值 进行累加
-    最后返回 最大值就OK
+#     暴力解题 
+#     长度小于等于2 直接返回最大值 长度等于0 就返回0
+#     每次第i次 取0-(i-1) 的最大值 进行累加
+#     最后返回 最大值就OK
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def rob(self, nums):
         """
@@ -22,4 +22,4 @@ class Solution(object):
         for i in range(2, len(nums)):
             nums[i] += max(nums[:i-1])
         return max(nums)
-```
+# ```

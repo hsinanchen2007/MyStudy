@@ -1,6 +1,6 @@
-![Screenshot from 2020-03-29 13-30-56.png](https://pic.leetcode-cn.com/4cf4cf1fa021e7f73b5e1d6d71f81e2a24747a830e1b109d45e391b3d4eb3dbd-Screenshot%20from%202020-03-29%2013-30-56.png)
+# ![Screenshot from 2020-03-29 13-30-56.png](https://pic.leetcode-cn.com/4cf4cf1fa021e7f73b5e1d6d71f81e2a24747a830e1b109d45e391b3d4eb3dbd-Screenshot%20from%202020-03-29%2013-30-56.png)
 
-```
+# ```
 """
 0. leetcode. 182.周赛03, 5370. 设计地铁系统
 1. 这道题在比赛期间没有做出来。比赛结束之后，才写出来的。
@@ -78,4 +78,4 @@ print("t", t)
 u.checkOut(10, "Waterloo", 38)
 z = u.getAverageTime("Leyton", "Waterloo")
 print("z", z)
-```
+# ```

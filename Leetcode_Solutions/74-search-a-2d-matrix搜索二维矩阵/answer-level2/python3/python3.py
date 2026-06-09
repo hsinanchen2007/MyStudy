@@ -1,6 +1,6 @@
-简单的二分查找
-![UC截图20191204141447.png](https://pic.leetcode-cn.com/f7c119195d73f80436a2a456b5d3d17256759a649a9211a92ca36397a16e168e-UC%E6%88%AA%E5%9B%BE20191204141447.png)
-```
+# 简单的二分查找
+# ![UC截图20191204141447.png](https://pic.leetcode-cn.com/f7c119195d73f80436a2a456b5d3d17256759a649a9211a92ca36397a16e168e-UC%E6%88%AA%E5%9B%BE20191204141447.png)
+# ```
 class Solution:
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
         l = []
@@ -17,5 +17,5 @@ class Solution:
             else:
                 return True
         return False
-```
+# ```
 

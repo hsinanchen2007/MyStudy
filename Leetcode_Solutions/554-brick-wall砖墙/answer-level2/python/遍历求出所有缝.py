@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def leastBricks(self, wall):
         """
@@ -18,6 +18,6 @@ class Solution(object):
                 my_dict[s] = my_dict.get(s, 0) + 1
         
         return len(wall) - max(my_dict.values())
-```
-执行用时 :164 ms, 在所有 python 提交中击败了100.00%的用户
+# ```
+# 执行用时 :164 ms, 在所有 python 提交中击败了100.00%的用户
 

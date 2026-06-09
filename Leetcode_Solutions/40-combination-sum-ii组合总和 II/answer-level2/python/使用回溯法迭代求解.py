@@ -1,11 +1,11 @@
-### 解题思路
-和上一题思路相同，不同点在于begin需要+1。
-还有，去重这里，因为上一题可以随意使用重复元素，因此不需要在进行去重。
-这道题则需要在最后进行一次去重。
+# ### 解题思路
+# 和上一题思路相同，不同点在于begin需要+1。
+# 还有，去重这里，因为上一题可以随意使用重复元素，因此不需要在进行去重。
+# 这道题则需要在最后进行一次去重。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def combinationSum2(self, candidates: List[int], target: int) -> List[List[int]]:
         candidates.sort()
@@ -28,4 +28,4 @@ class Solution:
             if i not in temp:
                 temp.append(i)
         return temp
-```
+# ```

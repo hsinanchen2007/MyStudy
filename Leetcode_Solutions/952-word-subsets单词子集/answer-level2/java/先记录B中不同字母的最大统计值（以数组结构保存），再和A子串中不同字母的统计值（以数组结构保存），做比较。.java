@@ -1,4 +1,4 @@
-```
+// ```
     public List<String> wordSubSets(String[] A, String[] B) {
 
         LinkedList<String> result = new LinkedList<>();
@@ -55,4 +55,4 @@
         }
         return arr;
     }
-```
+// ```

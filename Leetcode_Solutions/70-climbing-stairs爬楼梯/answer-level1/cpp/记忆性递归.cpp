@@ -1,6 +1,6 @@
-### 方法1. 解题思路
+// ### 方法1. 解题思路
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int climbStairs(int n) {
@@ -19,12 +19,12 @@ private:
         }
     }
 };
-```
+// ```
 
 
-### 方法二 常量时间
+// ### 方法二 常量时间
 
-```
+// ```
 class Solution {
 public:
     int climbStairs(int n) {
@@ -40,4 +40,4 @@ public:
         return iCur;
     }
 }
-```
+// ```

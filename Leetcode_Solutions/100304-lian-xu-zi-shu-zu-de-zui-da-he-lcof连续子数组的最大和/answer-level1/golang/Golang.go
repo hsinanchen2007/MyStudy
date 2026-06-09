@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func maxSubArray(nums []int) int {
     if len(nums)==0{
         return 0
@@ -18,4 +18,4 @@ func maxSubArray(nums []int) int {
     }
     return max
 }
-```
+// ```

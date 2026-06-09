@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int findMaxConsecutiveOnes(vector<int>& nums) 
@@ -20,4 +20,4 @@ public:
         return max_num;
     }
 };
-```
+// ```

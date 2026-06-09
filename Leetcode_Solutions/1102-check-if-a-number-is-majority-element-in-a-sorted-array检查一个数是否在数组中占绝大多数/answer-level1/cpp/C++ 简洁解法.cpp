@@ -1,5 +1,5 @@
-简单遍历即可
-```
+// 简单遍历即可
+// ```
 class Solution {
 public:
     bool isMajorityElement(vector<int>& nums, int target) {
@@ -10,4 +10,4 @@ public:
         return count > half;
     }
 };
-```
+// ```

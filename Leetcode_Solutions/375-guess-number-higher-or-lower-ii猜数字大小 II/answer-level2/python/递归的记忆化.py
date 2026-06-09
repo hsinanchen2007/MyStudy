@@ -1,7 +1,7 @@
-暴力法的递归过程因为重复的访问了一些节点造成了空间和时间的浪费，直接采用字典存储这些节点，将方便后续的递归。
+# 暴力法的递归过程因为重复的访问了一些节点造成了空间和时间的浪费，直接采用字典存储这些节点，将方便后续的递归。
 
 
-```
+# ```
 class Solution:
     def getMoneyAmount(self, n: int) -> int:
         self.ret = collections.defaultdict(list)
@@ -17,7 +17,7 @@ class Solution:
             self.ret[(a,b)] = m
             return m
         return xunzhao(1, n)
-```
+# ```
 
 
 

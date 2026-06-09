@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-本来用f数组写着写着成了max1max2max3了。。。。。
+// ### 解题思路
+// 此处撰写解题思路
+// 本来用f数组写着写着成了max1max2max3了。。。。。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> maxSumOfThreeSubarrays(vector<int>& nums, int k) {
@@ -74,4 +74,4 @@ public:
         return p;
     }
 };
-```
+// ```

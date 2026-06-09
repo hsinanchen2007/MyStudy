@@ -1,4 +1,4 @@
-使用两个变量分别指向两个数列的队尾，然后挨个比较队尾数据的大小，将大的数据插入到buffer中。
+// 使用两个变量分别指向两个数列的队尾，然后挨个比较队尾数据的大小，将大的数据插入到buffer中。
 
 void merge(int* A, int ASize, int m, int* B, int BSize, int n)
 {

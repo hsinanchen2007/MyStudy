@@ -1,28 +1,28 @@
-### 解题思路
-1. 先判断首字母是否相同
-2. 若相同，则判断余下来的字符是否全部相同
-3. 若不同，则 j += 1
+# ### 解题思路
+# 1. 先判断首字母是否相同
+# 2. 若相同，则判断余下来的字符是否全部相同
+# 3. 若不同，则 j += 1
 
 
-我的实现还是太慢了， 这里 如果 needle 数组较长，needle[1:m] == haystack[j+1:m+j] 太过于耗费时间了。
-可能是直接判断到某一个不同时，直接终止。没必要全部都比一遍。
+# 我的实现还是太慢了， 这里 如果 needle 数组较长，needle[1:m] == haystack[j+1:m+j] 太过于耗费时间了。
+# 可能是直接判断到某一个不同时，直接终止。没必要全部都比一遍。
 
-参考官方题解： 有空学 KMP 算法， Hash 表
+# 参考官方题解： 有空学 KMP 算法， Hash 表
 
-官方题解 2 看上去用了回溯，实际上并不是技巧，仍然相当于把 haystack 的指针往后移动一位，然后从头开始匹配。
+# 官方题解 2 看上去用了回溯，实际上并不是技巧，仍然相当于把 haystack 的指针往后移动一位，然后从头开始匹配。
 
-官方题解 3 Rabin Karp - 常数复杂度 没太看懂。
+# 官方题解 3 Rabin Karp - 常数复杂度 没太看懂。
 
-把代码1 中的连续判断自己来写，发现了一堆 bug. 
+# 把代码1 中的连续判断自己来写，发现了一堆 bug. 
 
-+ 1. 首先 python 的 for 循环变量永远不会超出
-+ 2. 需要剪枝，当 haystack 剩下的子串长度不够时，不用进行判断，直接退出。若无此，可能超时。
-+ 3. 若无上面剪枝，在判断 needle[i] = haystack[i+j] 时，可能 i+j 下标会溢出。 
+# + 1. 首先 python 的 for 循环变量永远不会超出
+# + 2. 需要剪枝，当 haystack 剩下的子串长度不够时，不用进行判断，直接退出。若无此，可能超时。
+# + 3. 若无上面剪枝，在判断 needle[i] = haystack[i+j] 时，可能 i+j 下标会溢出。 
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
         m, n = len(needle), len(haystack)
@@ -43,10 +43,10 @@ class Solution:
                 j += 1
         return -1
          
-```
+# ```
 
-### 代码2
-``` python3
+# ### 代码2
+# ``` python3
 class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
         m, n = len(needle), len(haystack)
@@ -72,4 +72,4 @@ class Solution:
             else:
                 j += 1
         return -1
-```         
+# ```         

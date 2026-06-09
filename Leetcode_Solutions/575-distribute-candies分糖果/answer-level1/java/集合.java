@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int distributeCandies(int[] candies) {
         Set<Integer> set = new HashSet<>();
@@ -16,4 +16,4 @@ class Solution {
         return num;
     }
 }
-```
+// ```

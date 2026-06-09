@@ -1,6 +1,6 @@
-**N位数的每一位仅与前一位相关，十分适合采用DFS递归方法**
+// **N位数的每一位仅与前一位相关，十分适合采用DFS递归方法**
 
-```
+// ```
 int N, K;
 vector<int>ans;
 void help(int digit) {
@@ -16,4 +16,4 @@ vector<int> numsSameConsecDiff(int N, int K) {
         help(i);
     return ans;
 }
-```
+// ```

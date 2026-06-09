@@ -1,9 +1,9 @@
-### 解题思路
-难点在于怎么创建一个空的二维数组 ` let newArr = Array.from(new Array(lens1), () => new Array(lens2))` 
+// ### 解题思路
+// 难点在于怎么创建一个空的二维数组 ` let newArr = Array.from(new Array(lens1), () => new Array(lens2))` 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} A
  * @param {number[]} B
@@ -32,4 +32,4 @@ var maxUncrossedLines = function(A, B) {
   return newArr[lens1-1][lens2-1];
 
 };
-```
+// ```

@@ -1,6 +1,6 @@
-执行用时 :11 ms, 在所有 Java 提交中击败了96.12%的用户
-内存消耗 :58.6 MB, 在所有 Java 提交中击败了94.78%的用户
-```
+// 执行用时 :11 ms, 在所有 Java 提交中击败了96.12%的用户
+// 内存消耗 :58.6 MB, 在所有 Java 提交中击败了94.78%的用户
+// ```
 class Solution {
     public int islandPerimeter(int[][] grid) {
         int [][] newGrid = new int [grid.length+2][grid[0].length+2];
@@ -21,4 +21,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

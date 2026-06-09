@@ -1,5 +1,5 @@
-代码里写繁了，可以不用在head前新建节点，直接把后面的符合要求的节点的next指针指向head，再让head等于该节点就行。
-```C++ []
+// 代码里写繁了，可以不用在head前新建节点，直接把后面的符合要求的节点的next指针指向head，再让head等于该节点就行。
+// ```C++ []
 class Solution {
 public:
 	ListNode* partition(ListNode* head, int x) {
@@ -24,4 +24,4 @@ public:
 		return nhead->next;
 	}
 };
-```
+// ```

@@ -1,5 +1,5 @@
-一、使用库函数
-```
+# 一、使用库函数
+# ```
 class Solution(object):
     def lengthOfLastWord(self, s):
         """
@@ -9,10 +9,10 @@ class Solution(object):
         #去除右端空格
         s=s.rstrip()
         return len(s[s.rfind(" ")+1:])
-```
+# ```
 
-二、遍历
-```
+# 二、遍历
+# ```
 class Solution(object):
     def lengthOfLastWord(self, s):
         """
@@ -29,4 +29,4 @@ class Solution(object):
             else:
                 j+=1
         return j
-```
+# ```

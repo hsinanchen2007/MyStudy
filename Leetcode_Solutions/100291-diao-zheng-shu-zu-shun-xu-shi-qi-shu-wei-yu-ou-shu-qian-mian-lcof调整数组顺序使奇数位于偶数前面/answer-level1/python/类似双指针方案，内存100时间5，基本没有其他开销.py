@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
         def exchange(self, nums):
             self.nums = nums
@@ -29,4 +29,4 @@ class Solution(object):
                     self.nums[l], self.nums[r] = self.nums[r], self.nums[l]
                 else:break
             return self.nums
-```
+# ```

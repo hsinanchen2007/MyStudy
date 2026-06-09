@@ -1,9 +1,9 @@
-### 解题思路
-数组模拟栈，sscanf获取输入
+// ### 解题思路
+// 数组模拟栈，sscanf获取输入
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -41,4 +41,4 @@ int* exclusiveTime(int n, char ** logs, int logsSize, int* returnSize){
     *returnSize = n;
     return result;
 }
-```
+// ```

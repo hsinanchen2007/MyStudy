@@ -1,7 +1,7 @@
-1. 学过操作系统课程的同学都知道这个题目，[参考答案](https://blog.csdn.net/Yun_Ge/article/details/89177918)
-2. 总共有三种办法可以避免死锁的发生；
-3. 限定哲学家就餐数量;
-```
+// 1. 学过操作系统课程的同学都知道这个题目，[参考答案](https://blog.csdn.net/Yun_Ge/article/details/89177918)
+// 2. 总共有三种办法可以避免死锁的发生；
+// 3. 限定哲学家就餐数量;
+// ```
 class Semaphore {
 public:
   Semaphore(int count = 0) : count_(count) {
@@ -63,9 +63,9 @@ private:
     std::mutex lock[5];
     Semaphore guid;
 };
-```
-4. 同时抬起左右拿叉子；
-```
+// ```
+// 4. 同时抬起左右拿叉子；
+// ```
 class DiningPhilosophers {
 public:
     DiningPhilosophers() {
@@ -95,9 +95,9 @@ private:
     std::mutex lock[5];
     std::mutex guid;
 };
-```
-5. 限定就餐策略；
-```
+// ```
+// 5. 限定就餐策略；
+// ```
 class DiningPhilosophers {
 public:
     DiningPhilosophers() {
@@ -133,4 +133,4 @@ private:
     std::mutex lock[5];
 };
 
-```
+// ```

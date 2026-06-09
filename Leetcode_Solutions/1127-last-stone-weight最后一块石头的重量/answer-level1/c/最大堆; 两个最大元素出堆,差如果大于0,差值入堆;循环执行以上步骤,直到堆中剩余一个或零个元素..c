@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /* 创建包含K个元素的最大堆 */
 typedef struct {
     int numsSize;
@@ -128,4 +128,4 @@ int lastStoneWeight(int* stones, int stonesSize){
     kthLargestFree(obj);
     return w;
 }
-```
+// ```

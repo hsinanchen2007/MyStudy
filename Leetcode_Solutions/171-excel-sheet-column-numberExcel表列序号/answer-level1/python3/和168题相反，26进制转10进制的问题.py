@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def titleToNumber(self, s: str) -> int:
         res = 0
@@ -9,4 +9,4 @@ class Solution:
             res += (ord(cur) - 64) * pow(26,i)
             i += 1
         return res
-```
+# ```

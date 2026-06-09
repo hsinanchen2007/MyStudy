@@ -1,9 +1,9 @@
-真实在超时的边缘徘徊，本来没有访问记录的，大概都是30%+的时间，把访问都记录了，一下就冲到了80%+了。
+# 真实在超时的边缘徘徊，本来没有访问记录的，大概都是30%+的时间，把访问都记录了，一下就冲到了80%+了。
 
-![image.png](https://pic.leetcode-cn.com/5624da444ab2f1ed8b3b2e46ad09406f47b4dcda01ce86bd866ef0279f4bdcf3-image.png)
+# ![image.png](https://pic.leetcode-cn.com/5624da444ab2f1ed8b3b2e46ad09406f47b4dcda01ce86bd866ef0279f4bdcf3-image.png)
 
 
-```python []
+# ```python []
 class WordFilter:
 
     def __init__(self, words: List[str]):
@@ -43,4 +43,4 @@ class WordFilter:
                 return i
         self.p_f_visit[(prefix, suffix)] = -1
         return -1
-```
+# ```

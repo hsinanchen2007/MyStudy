@@ -1,12 +1,12 @@
-### 解题思路
-利用go的map字典保存每个字符的最新位置(下标+1)，当遇到重复字符时， 更新子字符串的起始位置(l往后移动一个字符)，当字典中的位置大于l时。
-然后更新当前字符的最新位置， 然后再更新最大子字符串的长度（(r+1)-l）
+// ### 解题思路
+// 利用go的map字典保存每个字符的最新位置(下标+1)，当遇到重复字符时， 更新子字符串的起始位置(l往后移动一个字符)，当字典中的位置大于l时。
+// 然后更新当前字符的最新位置， 然后再更新最大子字符串的长度（(r+1)-l）
 
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func lengthOfLongestSubstring(s string) int {
     d := make(map[string]int)
     var l ,max int = 0,0
@@ -23,4 +23,4 @@ func lengthOfLongestSubstring(s string) int {
     }
     return max
 }
-```
+// ```

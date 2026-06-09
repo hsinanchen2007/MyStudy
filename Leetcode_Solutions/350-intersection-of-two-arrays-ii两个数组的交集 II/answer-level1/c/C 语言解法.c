@@ -1,10 +1,10 @@
-### 解题思路
-method 1: 排序
-method 2: 哈希表（具体代码有些错误，思路理解即可）
+// ### 解题思路
+// method 1: 排序
+// method 2: 哈希表（具体代码有些错误，思路理解即可）
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -152,4 +152,4 @@ int* intersect(int* nums1, int nums1Size, int* nums2, int nums2Size, int* return
 //     returnSize[0] = length;
 //     return res;
 // }
-```
+// ```

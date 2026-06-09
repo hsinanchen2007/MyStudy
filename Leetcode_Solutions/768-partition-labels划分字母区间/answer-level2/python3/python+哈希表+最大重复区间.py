@@ -1,9 +1,9 @@
-### 解题思路
-跟前面有几道题的方法一样
+# ### 解题思路
+# 跟前面有几道题的方法一样
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def partitionLabels(self, S: str) -> List[int]:
         d = {}
@@ -32,4 +32,4 @@ class Solution:
         ans.append(end - start + 1)
         return ans
 
-```
+# ```

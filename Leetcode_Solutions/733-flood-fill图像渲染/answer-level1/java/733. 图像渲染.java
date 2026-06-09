@@ -1,15 +1,15 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/10/10
- *
- * 解题思路: 使用oldColor 记录需要更改的像素点的值 然后进行递归处理 (四个方向)
- *
- * 注意: 题目中会出现有像素点本身为1 要更改为1 需要特殊判断 不然会出现递归栈溢出
- *
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/10/10
+//  *
+//  * 解题思路: 使用oldColor 记录需要更改的像素点的值 然后进行递归处理 (四个方向)
+//  *
+//  * 注意: 题目中会出现有像素点本身为1 要更改为1 需要特殊判断 不然会出现递归栈溢出
+//  *
+//  */
+// ```
 class Solution {
     int oldColor = -1;
     public int[][] floodFill(int[][] image, int sr, int sc, int newColor) {
@@ -53,4 +53,4 @@ class Solution {
         return image;
     }
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-最外层循环是由最外层向最里层依次旋转，旋转n//2次
-第二层循环是每层旋转保留顶层元素，依次left->top，bottom -> left，right -> bottom，top -> right赋值
-注意每一层旋转时，每一边的行数与列数在赋值时怎么样去表示，也就是行列的的变化情况，是什么在不变，什么在减小，增大
+# ### 解题思路
+# 最外层循环是由最外层向最里层依次旋转，旋转n//2次
+# 第二层循环是每层旋转保留顶层元素，依次left->top，bottom -> left，right -> bottom，top -> right赋值
+# 注意每一层旋转时，每一边的行数与列数在赋值时怎么样去表示，也就是行列的的变化情况，是什么在不变，什么在减小，增大
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def rotate(self, matrix):
         """
@@ -31,4 +31,4 @@ class Solution(object):
 
                 # top -> right
                 matrix[i][last] = top;  # right <- saved top    
-```
+# ```

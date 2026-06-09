@@ -1,5 +1,5 @@
-庆祝 LeetCode 和　剑指offer 合作！ 是真的开心！
-```java
+// 庆祝 LeetCode 和　剑指offer 合作！ 是真的开心！
+// ```java
 class Solution {
     public boolean isBalanced(TreeNode root) {
         //递归三部曲，二叉树的题目大部分都可以使用递归
@@ -18,4 +18,4 @@ class Solution {
         return Math.abs(left - right) < 2 ? Math.max(left,right) + 1 : -1;
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-定义两个指针：slow 慢指针，fast：快指针
-fast是slow遍历的两倍： slow = slow.next; fast = fast.next.next;
+// ### 解题思路
+// 定义两个指针：slow 慢指针，fast：快指针
+// fast是slow遍历的两倍： slow = slow.next; fast = fast.next.next;
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -26,4 +26,4 @@ class Solution {
         return slow;
     }
 }
-```
+// ```

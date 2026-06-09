@@ -1,12 +1,12 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/f1a919a983315352090d381da8d61be62145099cb29235bc3918ca06a69da053-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/f1a919a983315352090d381da8d61be62145099cb29235bc3918ca06a69da053-image.png)
 
-和《岛面积》，《岛数量》几个题类似，用队列，需要注意如果newColor和指定位置的原来的color一样，就没必要继续下去了，直接return即可。
+// 和《岛面积》，《岛数量》几个题类似，用队列，需要注意如果newColor和指定位置的原来的color一样，就没必要继续下去了，直接return即可。
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} image
  * @param {number} sr
@@ -49,4 +49,4 @@ var floodFill = function (image, sr, sc, newColor) {
     }
     return image;
 };
-```
+// ```

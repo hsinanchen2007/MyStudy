@@ -1,8 +1,8 @@
-`思路：使用双指针`
+// `思路：使用双指针`
 
-# 第一种
+// # 第一种
 
-```
+// ```
 public int[] sortedSquares(int[] A) {
         int left = 0;
         int right = A.length - 1;
@@ -19,10 +19,10 @@ public int[] sortedSquares(int[] A) {
         }
         return temp;
     }
-```
+// ```
 
-# 第二种
-```
+// # 第二种
+// ```
 public int[] sortedSquares(int[] A) {
         int left = 0;
         int right = A.length - 1;
@@ -49,11 +49,11 @@ public int[] sortedSquares(int[] A) {
     }
 
     
-```
+// ```
 
-# 第三种
+// # 第三种
 
-```
+// ```
 // 先平方，再借助函数【排序】
     public int[] sortedSquares(int[] A) {
         for(int i =0;i<A.length;i++)
@@ -63,12 +63,12 @@ public int[] sortedSquares(int[] A) {
       
       return A;
     }
-```
+// ```
 
 
-`2019年8月22日19:29:17`
+// `2019年8月22日19:29:17`
 
-```
+// ```
 /**
  * javaScript
  * @param {number[]} A
@@ -92,4 +92,4 @@ var sortedSquares = function(A) {
   }
   return result;
 };
-```
+// ```

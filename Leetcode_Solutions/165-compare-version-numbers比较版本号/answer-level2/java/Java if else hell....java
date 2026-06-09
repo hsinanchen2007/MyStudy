@@ -1,8 +1,8 @@
-### 解题思路
-if else hell...
-### 代码
+// ### 解题思路
+// if else hell...
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int compareVersion(String version1, String version2) {
         String[] version1Str = version1.split("\\.");
@@ -33,4 +33,4 @@ class Solution {
         }
     }
 }
-```
+// ```

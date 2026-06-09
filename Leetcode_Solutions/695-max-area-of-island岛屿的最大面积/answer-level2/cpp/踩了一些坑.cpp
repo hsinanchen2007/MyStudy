@@ -1,15 +1,15 @@
-### 解题思路
-新建一个visited数组，用于记录每个点是否被访问过
-void bfs(int i, int j, vector<vector<int>> grid, int &area, int width, int height,vector<vector<int>> &visited)
-改成
-void bfs(int i, int j, const vector<vector<int>> &grid, int &area, const int &width, const int &height,vector<vector<int>> &visited)
-之后
-执行用时2552ms->16ms, 内存消耗622MB->11MB
-影响很明显
-前面的有大量的构造函数和拷贝构造函数的调用，消耗大量的空间和时间
-### 代码
+// ### 解题思路
+// 新建一个visited数组，用于记录每个点是否被访问过
+// void bfs(int i, int j, vector<vector<int>> grid, int &area, int width, int height,vector<vector<int>> &visited)
+// 改成
+// void bfs(int i, int j, const vector<vector<int>> &grid, int &area, const int &width, const int &height,vector<vector<int>> &visited)
+// 之后
+// 执行用时2552ms->16ms, 内存消耗622MB->11MB
+// 影响很明显
+// 前面的有大量的构造函数和拷贝构造函数的调用，消耗大量的空间和时间
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void bfs(int i, int j, const vector<vector<int>> &grid, int &area, const int &width, const int &height,vector<vector<int>> &visited) {
@@ -64,4 +64,4 @@ public:
         return max;
     }
 };
-```
+// ```

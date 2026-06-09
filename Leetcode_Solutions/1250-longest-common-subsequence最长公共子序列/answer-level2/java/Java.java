@@ -1,10 +1,10 @@
-### 解题思路
-先确定string长度，循环不需要减去1
-如果先扩展了字符串，再取长度和没扩展效果一样
+// ### 解题思路
+// 先确定string长度，循环不需要减去1
+// 如果先扩展了字符串，再取长度和没扩展效果一样
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int longestCommonSubsequence(String text1, String text2) {
         
@@ -54,4 +54,4 @@ class Solution {
     }
     */
 }
-```
+// ```

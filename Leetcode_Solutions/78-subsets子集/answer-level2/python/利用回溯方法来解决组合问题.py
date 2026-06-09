@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def subsets(self, nums):
         """
@@ -24,4 +24,4 @@ class Solution(object):
         dfs(ans,nums,[],0)
         return ans
             
-```
+# ```

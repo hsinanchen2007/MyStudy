@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def getPermutation(self, n: int, k: int) -> str:
         array = [i for i in range(1,n+1)]
@@ -22,4 +22,4 @@ class Solution:
             tmp[first-1] = t
             return array[:-(left_rest+1)] + tmp[:1] + core(sorted(tmp[1:]), k-mlt*(first-1))
         return ''.join([str(i) for i in core(array, k)])
-```
+# ```

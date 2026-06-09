@@ -1,4 +1,4 @@
-```
+// ```
 int longestPalindrome(char * s){
     int i, len, index, *hash = (int*)calloc(52, sizeof(int));
     for(i = 0;i < strlen(s);i ++){
@@ -18,4 +18,4 @@ int longestPalindrome(char * s){
     free(hash);
     return len;
 }
-```
+// ```

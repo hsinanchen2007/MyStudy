@@ -1,4 +1,4 @@
-```php
+// ```php
 class Solution
 {
     /**
@@ -10,4 +10,4 @@ class Solution
         return implode(' ', array_filter(array_reverse(explode(' ', $s))));
     }
 }
-```
+// ```

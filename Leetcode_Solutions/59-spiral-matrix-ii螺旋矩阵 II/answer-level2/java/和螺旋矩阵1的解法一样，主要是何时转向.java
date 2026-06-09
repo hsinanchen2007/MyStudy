@@ -1,9 +1,9 @@
-具体参考螺旋矩阵I的解法 如下
+// 具体参考螺旋矩阵I的解法 如下
 
-[力扣](https://leetcode-cn.com/problems/spiral-matrix/solution/javati-mu-xiang-jie-jian-dan-ming-liao-by-percy-6/)
-https://leetcode-cn.com/problems/spiral-matrix/solution/javati-mu-xiang-jie-jian-dan-ming-liao-by-percy-6/
-这里我们不需要visited矩阵，外层判断就是数字是否填写到最大值；内层判断把visited[x][y]改为ans[x][y]==0;
-```
+// [力扣](https://leetcode-cn.com/problems/spiral-matrix/solution/javati-mu-xiang-jie-jian-dan-ming-liao-by-percy-6/)
+// https://leetcode-cn.com/problems/spiral-matrix/solution/javati-mu-xiang-jie-jian-dan-ming-liao-by-percy-6/
+// 这里我们不需要visited矩阵，外层判断就是数字是否填写到最大值；内层判断把visited[x][y]改为ans[x][y]==0;
+// ```
 public int[][] generateMatrix(int n) {
         //List<Integer> ans = new ArrayList();
         int[][] ans = new int[n][n];
@@ -36,4 +36,4 @@ public int[][] generateMatrix(int n) {
         }
         return ans;
     }
-```
+// ```

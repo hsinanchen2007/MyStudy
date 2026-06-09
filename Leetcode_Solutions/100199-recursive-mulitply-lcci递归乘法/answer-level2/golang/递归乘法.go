@@ -1,9 +1,9 @@
-### 解题思路
-两数相乘，可以转化为加法
+// ### 解题思路
+// 两数相乘，可以转化为加法
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func multiply(A int, B int) int {
     if A < B {
         if A == 0 {
@@ -17,4 +17,4 @@ func multiply(A int, B int) int {
         return multiply(A, B-1) + A
     }
 }
-```
+// ```

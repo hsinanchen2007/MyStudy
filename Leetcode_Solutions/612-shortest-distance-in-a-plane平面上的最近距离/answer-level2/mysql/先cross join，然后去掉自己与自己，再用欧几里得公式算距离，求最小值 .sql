@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+-- ### 解题思路
+-- 此处撰写解题思路
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 
 select min(round(sqrt(pow(a.x-b.x,2)+pow(a.y-b.y,2)),2)) as shortest 
@@ -14,4 +14,4 @@ where (a.x,a.y,b.x,b.y) not in (
 )
 
 
-```
+-- ```

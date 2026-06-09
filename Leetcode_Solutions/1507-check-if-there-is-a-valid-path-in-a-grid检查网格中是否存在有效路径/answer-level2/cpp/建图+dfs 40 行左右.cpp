@@ -1,6 +1,6 @@
-把每个格子转化成3*3的格子，有道路的地方写上1，之后dfs即可
+// 把每个格子转化成3*3的格子，有道路的地方写上1，之后dfs即可
 
-```
+// ```
 class Solution {
     int map[1000][1000];
     void fill(int i, int j, int s)
@@ -37,12 +37,12 @@ public:
         return map[3*n-1][3*m-1]==0;
     }
 };
-```
-顺便推荐一道很类似的题，Maze Connect，http://serjudging.vanb.org/wp-content/uploads/Maze-Connect.pdf
-不过这样写可能不是最快的，我花了15分钟。。几乎是剩下三道题时间之和。。
+// ```
+// 顺便推荐一道很类似的题，Maze Connect，http://serjudging.vanb.org/wp-content/uploads/Maze-Connect.pdf
+// 不过这样写可能不是最快的，我花了15分钟。。几乎是剩下三道题时间之和。。
 
-后来想到map部分的函数也可以压缩，这样写比赛的时候可能会更省时间，代码也更短：
-```
+// 后来想到map部分的函数也可以压缩，这样写比赛的时候可能会更省时间，代码也更短：
+// ```
 class Solution {
     int map[1000][1000];
     int o[6][4]={1,0,1,2,0,1,2,1,1,0,2,1,1,2,2,1,1,0,0,1,1,2,0,1};
@@ -74,4 +74,4 @@ public:
         return map[3*n-1][3*m-1]==0;
     }
 };
-```
+// ```

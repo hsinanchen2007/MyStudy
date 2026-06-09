@@ -1,5 +1,5 @@
-### 代码
-```python
+# ### 代码
+# ```python
 class Solution:
     def hasGroupsSizeX(self, deck: List[int]) -> bool:
         dic = collections.defaultdict(int)
@@ -7,4 +7,4 @@ class Solution:
         import math,functools
         res = functools.reduce(math.gcd, dic.values())
         return res >= 2     
-```
+# ```

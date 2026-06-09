@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool isPerfectSquare(int x) {
@@ -12,5 +12,5 @@ public:
         return ans*ans==x;
     }
 };
-```
-卡马克快速平方根
+// ```
+// 卡马克快速平方根

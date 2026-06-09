@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int surfaceArea(int[][] grid) {
         if( grid == null || grid.length<1 || grid[0].length<1){
@@ -26,4 +26,4 @@ class Solution {
         return blocks * 6 - cover *2;
     }
 }
-```
+// ```

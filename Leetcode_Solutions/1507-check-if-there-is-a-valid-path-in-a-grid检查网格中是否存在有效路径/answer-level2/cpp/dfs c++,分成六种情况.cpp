@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool hasValidPath(vector<vector<int>>& grid) {
@@ -48,4 +48,4 @@ public:
         return ret1 || ret2;
     }
 };
-```
+// ```

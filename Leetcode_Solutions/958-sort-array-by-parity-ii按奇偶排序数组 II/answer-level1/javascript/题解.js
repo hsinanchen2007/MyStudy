@@ -1,10 +1,10 @@
-### 解题思路
-解法一：新开一个数组，遍历原数组，偶数放偶数位，奇数放奇数位
-解法二：不开新数组，找到为偶数的奇数位，和为奇数的偶数位，交换
+// ### 解题思路
+// 解法一：新开一个数组，遍历原数组，偶数放偶数位，奇数放奇数位
+// 解法二：不开新数组，找到为偶数的奇数位，和为奇数的偶数位，交换
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} A
  * @return {number[]}
@@ -24,9 +24,9 @@ var sortArrayByParityII = function(A) {
   })
   return r
 };
-```
+// ```
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} A
  * @return {number[]}
@@ -51,4 +51,4 @@ var sortArrayByParityII = function(A) {
     }
   }
 };
-```
+// ```

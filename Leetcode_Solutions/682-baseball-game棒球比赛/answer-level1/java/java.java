@@ -1,8 +1,8 @@
-### 解题思路
-代码如下
-### 代码
+// ### 解题思路
+// 代码如下
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int calPoints(String[] ops) {
         Stack<Integer> resultStack = new Stack();
@@ -30,4 +30,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

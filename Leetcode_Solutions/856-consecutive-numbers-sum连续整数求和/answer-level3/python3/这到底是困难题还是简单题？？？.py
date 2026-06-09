@@ -1,5 +1,5 @@
-这个hard题在在新的面试题里竟然被标记为简单
-```
+# 这个hard题在在新的面试题里竟然被标记为简单
+# ```
 class Solution:
     def consecutiveNumbersSum(self, N: int) -> int:
         hey=0
@@ -12,4 +12,4 @@ class Solution:
                 if sum(ha)==N and 0 not in ha:
                     hey+=1
         return hey+1
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
-# 注意：这个题目的最终点不是最后一个台阶，而是楼顶，因此最终的结果是判断倒数第一个台阶与倒数第二个台阶到楼顶谁近！！！
+# ### 解题思路
+# # 注意：这个题目的最终点不是最后一个台阶，而是楼顶，因此最终的结果是判断倒数第一个台阶与倒数第二个台阶到楼顶谁近！！！
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def minCostClimbingStairs(self, cost):
         """
@@ -24,4 +24,4 @@ class Solution(object):
             dp.append(min(dp[i-2],dp[i-1])+cost[i-2])
         return min(dp[-1],dp[-2])
         
-```
+# ```

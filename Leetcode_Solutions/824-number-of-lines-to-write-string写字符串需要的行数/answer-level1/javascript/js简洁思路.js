@@ -1,9 +1,9 @@
-### 解题思路
-建立一个字符串记录a到z，用角标获取s中对应的长度，
+// ### 解题思路
+// 建立一个字符串记录a到z，用角标获取s中对应的长度，
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} widths
  * @param {string} S
@@ -23,4 +23,4 @@ var numberOfLines = function(widths, S) {
     }
     return [lines,sum];
 };
-```
+// ```

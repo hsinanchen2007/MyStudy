@@ -1,4 +1,4 @@
-```python
+# ```python
 from functools import lru_cache
 class Solution:
     def maxJumps(self, arr: List[int], d: int) -> int:
@@ -20,4 +20,4 @@ class Solution:
         for i in range(len(arr)):
             res = max(res, jump(i))
         return res
-```
+# ```

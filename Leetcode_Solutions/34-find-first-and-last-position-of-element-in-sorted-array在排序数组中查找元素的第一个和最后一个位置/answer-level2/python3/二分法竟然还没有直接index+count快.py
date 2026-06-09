@@ -1,6 +1,6 @@
 
-# 方法一：二分法
-```
+# # 方法一：二分法
+# ```
 class Solution:
     def searchRange(self, nums: list, target: int) -> list:
         start = 0
@@ -29,10 +29,10 @@ class Solution:
                         break
                 return [i, j]
         return [-1, -1]
-```
+# ```
 
-# 方法二：index+count
-```
+# # 方法二：index+count
+# ```
 class Solution:
     def searchRange(self, nums: list, target: int) -> list:
         if target not in nums:
@@ -40,4 +40,4 @@ class Solution:
         start = nums.index(target)
         count = nums.count(target)
         return [start, start+count-1]
-```
+# ```

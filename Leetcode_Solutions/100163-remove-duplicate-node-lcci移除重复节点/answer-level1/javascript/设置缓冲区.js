@@ -1,10 +1,10 @@
-### 解题思路
-1. 设置缓冲区arr, 把链表的每个节点val作为arr的key, 将value设置为1
-2. 查找arr[current.val]. 如果有值为1的元素, 说明重复, 需要删除
+// ### 解题思路
+// 1. 设置缓冲区arr, 把链表的每个节点val作为arr的key, 将value设置为1
+// 2. 查找arr[current.val]. 如果有值为1的元素, 说明重复, 需要删除
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -35,4 +35,4 @@ var removeDuplicateNodes = function(head) {
     }
     return head;
 };
-```
+// ```

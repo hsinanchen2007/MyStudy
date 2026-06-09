@@ -1,10 +1,10 @@
-### 解题思路
-先遍历数组找到board[i][j] == 'R'
-然后该位置的四个方向找符合条件的p
+// ### 解题思路
+// 先遍历数组找到board[i][j] == 'R'
+// 然后该位置的四个方向找符合条件的p
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {character[][]} board
  * @return {number}
@@ -70,4 +70,4 @@ var numRookCaptures = function(board) {
     }
 
 };
-```
+// ```

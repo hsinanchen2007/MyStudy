@@ -1,11 +1,11 @@
-### 解题思路
-到达第0，1，2层不消耗体力；
-到达第i层消耗的最小体力=min( 第i-2层的消耗+从第i-2层出发的体力消耗，
-                            第i-1层的消耗+从第i-1层出发的体力消耗)；
+// ### 解题思路
+// 到达第0，1，2层不消耗体力；
+// 到达第i层消耗的最小体力=min( 第i-2层的消耗+从第i-2层出发的体力消耗，
+//                             第i-1层的消耗+从第i-1层出发的体力消耗)；
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define min(a,b) a<b?a:b
 int minCostClimbingStairs(int* cost, int costSize){
     if(costSize<=1)
@@ -17,4 +17,4 @@ int minCostClimbingStairs(int* cost, int costSize){
     }
     return result[costSize];
 }
-```
+// ```

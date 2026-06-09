@@ -1,4 +1,4 @@
-```
+// ```
 var numDecodings = function (s) {
     let segments = [];
     let span = 0;
@@ -70,4 +70,4 @@ let calculateFibN = function (n) {
     let fibn = Math.pow((1 + sqrt5) / 2, n + 1) - Math.pow((1 - sqrt5) / 2, n + 1);
     return Math.round(fibn / sqrt5);
 }
-```
+// ```

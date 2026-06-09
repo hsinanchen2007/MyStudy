@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/e7a1cdf30880a16042618c25b5dd759d5485f39076565d67a3fdef0c4a36ad74-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/e7a1cdf30880a16042618c25b5dd759d5485f39076565d67a3fdef0c4a36ad74-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int removePalindromeSub(char * s){
     
     int len = strlen(s);
@@ -30,4 +30,4 @@ int removePalindromeSub(char * s){
 
     return  1;
 }
-```
+// ```

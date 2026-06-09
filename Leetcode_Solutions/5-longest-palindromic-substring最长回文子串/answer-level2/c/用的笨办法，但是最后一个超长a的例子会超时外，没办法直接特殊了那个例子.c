@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool rever(char* q,int left, int right)     //判断是否是回文
 {
     int len = right - left + 1;
@@ -73,4 +73,4 @@ char * longestPalindrome(char * s)
     p[l] = '\0';     
     return p;
 }
-```
+// ```

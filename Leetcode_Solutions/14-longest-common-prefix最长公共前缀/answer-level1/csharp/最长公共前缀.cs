@@ -1,5 +1,5 @@
-**基本思路：** 以数组中第一个string元素为基础，逐个取这个string的每个子字符，然后和后面的string元素的对应索引的子字符进行比对
-```
+// **基本思路：** 以数组中第一个string元素为基础，逐个取这个string的每个子字符，然后和后面的string元素的对应索引的子字符进行比对
+// ```
 public string LongestCommonPrefix(string[] strs)
         {
             if (strs.Length == 0)
@@ -24,4 +24,4 @@ public string LongestCommonPrefix(string[] strs)
 
             return result;
         }
-```
+// ```

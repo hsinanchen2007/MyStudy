@@ -1,4 +1,4 @@
-```
+// ```
   def isUgly(num: Int): Boolean = {
     var n = num
     while (n % 2 == 0) {
@@ -12,4 +12,4 @@
     }
     return n == 1
   }
-```
+// ```

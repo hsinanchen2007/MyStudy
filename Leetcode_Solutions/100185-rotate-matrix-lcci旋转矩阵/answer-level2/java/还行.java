@@ -1,9 +1,9 @@
-### 解题思路
-今天这个还是比较简单点的
+// ### 解题思路
+// 今天这个还是比较简单点的
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void rotate(int[][] matrix) {
  int n = matrix.length;
@@ -29,4 +29,4 @@ class Solution {
 
     }
 }
-```
+// ```

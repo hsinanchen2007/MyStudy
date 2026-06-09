@@ -1,12 +1,12 @@
-### 解题思路
-left和right作为边界，在二分的过程中当一个边界为target时，只需移动第二个边界即可
-当边界都为target时得到答案
-当left与right都不为target时进行二分查找
-当找到target时则同时移动边界。
+# ### 解题思路
+# left和right作为边界，在二分的过程中当一个边界为target时，只需移动第二个边界即可
+# 当边界都为target时得到答案
+# 当left与right都不为target时进行二分查找
+# 当找到target时则同时移动边界。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def searchRange(self, nums: List[int], target: int) -> List[int]:
         left = 0
@@ -27,4 +27,4 @@ class Solution:
         return [-1,-1]
 
 
-```
+# ```

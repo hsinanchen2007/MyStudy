@@ -1,9 +1,9 @@
-### 解题思路
-使用sort()函数，对数组进行从小到大排序，再输出arr[0:k]的切片
+// ### 解题思路
+// 使用sort()函数，对数组进行从小到大排序，再输出arr[0:k]的切片
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func getLeastNumbers(arr []int, k int) []int {
     if k > len(arr){
 		fmt.Println("请重新输入")
@@ -18,4 +18,4 @@ func getLeastNumbers(arr []int, k int) []int {
 	return arr[0:k]
 }
 
-```
+// ```

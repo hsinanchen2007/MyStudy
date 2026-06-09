@@ -1,9 +1,9 @@
-### 解题思路
-看了大神的解题思路：如果不是该列数组的首位或者最后一位，则值为a[i-1][j-1] + a[i-1][j] ，否则值为1
+// ### 解题思路
+// 看了大神的解题思路：如果不是该列数组的首位或者最后一位，则值为a[i-1][j-1] + a[i-1][j] ，否则值为1
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} numRows
  * @return {number[][]}
@@ -30,4 +30,4 @@ var generate = function (numRows) {
     }
     return result;
 };
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
-执行用时 :5 ms, 在所有 Java 提交中击败了80.49%的用户
-内存消耗 :36.4 MB, 在所有 Java 提交中击败了92.48%的用户
+// ### 解题思路
+// 执行用时 :5 ms, 在所有 Java 提交中击败了80.49%的用户
+// 内存消耗 :36.4 MB, 在所有 Java 提交中击败了92.48%的用户
 
-正向处理 右边括号 ')' 多余 左括号 '(' 的情况, 方向同理
+// 正向处理 右边括号 ')' 多余 左括号 '(' 的情况, 方向同理
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<String> removeInvalidParentheses(String s) {
         List<String> ret2 = new LinkedList<>();
@@ -141,4 +141,4 @@ class Solution {
         return ret;
     }
 }
-```
+// ```

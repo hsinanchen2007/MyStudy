@@ -1,11 +1,11 @@
-### 解题思路
-画出递归树，找到规律即可。
-![image.png](https://pic.leetcode-cn.com/cbb6a0d57449d049b3698d5d4176f6dd895547d8849c1fc68d0aa65f2514f5a7-image.png)
+// ### 解题思路
+// 画出递归树，找到规律即可。
+// ![image.png](https://pic.leetcode-cn.com/cbb6a0d57449d049b3698d5d4176f6dd895547d8849c1fc68d0aa65f2514f5a7-image.png)
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {string[]}
@@ -29,4 +29,4 @@ var generateParenthesis = function(n) {
     dfs(n, n, '')
     return res
 };
-```
+// ```

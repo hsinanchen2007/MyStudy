@@ -1,4 +1,4 @@
-```
+// ```
 var flipAndInvertImage = function(A) {
     A.forEach(item => {
         item.reverse();
@@ -13,4 +13,4 @@ var flipAndInvertImage = function(A) {
     
     return A
 };
-```
+// ```

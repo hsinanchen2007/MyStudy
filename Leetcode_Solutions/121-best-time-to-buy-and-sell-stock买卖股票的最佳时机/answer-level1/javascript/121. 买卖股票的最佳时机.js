@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-1. 找到一个较小的值 ``prev``，如果找不到，继续找
-2. 满足 1 的条件之后，找到一个较大的值，满足 $prices[i] - prev > curr$，说明此时卖出股票是能盈利的，且利润比上一次买卖的策略大
+// 1. 找到一个较小的值 ``prev``，如果找不到，继续找
+// 2. 满足 1 的条件之后，找到一个较大的值，满足 $prices[i] - prev > curr$，说明此时卖出股票是能盈利的，且利润比上一次买卖的策略大
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} prices
  * @return {number}
@@ -22,4 +22,4 @@ var maxProfit = function(prices) {
     }
     return curr
 };
-```
+// ```

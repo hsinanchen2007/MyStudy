@@ -1,6 +1,6 @@
-## JavaScript队列解法
+// ## JavaScript队列解法
 
-```javascript []
+// ```javascript []
 /**
  * @param {string} astr
  * @return {boolean}
@@ -14,4 +14,4 @@ var isUnique = function(astr) {
     }
     return true
 }; 
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int search(int[] nums, int target) {
         return binarySearch(nums, target);
@@ -36,4 +36,4 @@ class Solution {
         else return 0;
     }
 }
-```
+// ```

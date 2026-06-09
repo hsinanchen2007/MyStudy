@@ -1,9 +1,9 @@
-### 解题思路
-层序遍历再处理
+# ### 解题思路
+# 层序遍历再处理
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -33,4 +33,4 @@ class Solution:
                 res[i] = max(res[i])
             return res
 
-```
+# ```

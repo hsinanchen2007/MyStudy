@@ -1,9 +1,9 @@
-### 解题思路
-每个元素遍历一次周围元素的状态，硬编的
+# ### 解题思路
+# 每个元素遍历一次周围元素的状态，硬编的
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def gameOfLife(self, board) -> None:
         """
@@ -44,4 +44,4 @@ class Solution:
             return 0
         else:
             return 0
-```
+# ```

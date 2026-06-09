@@ -1,5 +1,5 @@
 
-```
+# ```
 class Solution(object):
     def twoSum(self, nums, target):
         """
@@ -22,5 +22,5 @@ class Solution(object):
             else:
                 hash[nums[each]] = each
         return 0
-```
+# ```
 

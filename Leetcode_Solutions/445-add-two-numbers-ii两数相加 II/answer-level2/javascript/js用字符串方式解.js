@@ -1,5 +1,5 @@
-### 1.字符串简单思路（运行会出错）
-```
+// ### 1.字符串简单思路（运行会出错）
+// ```
 
 var addTwoNumbers = function (l1, l2) {
   let str1 = '', str2 = '', ret = proxy = new ListNode(0)
@@ -21,12 +21,12 @@ var addTwoNumbers = function (l1, l2) {
 
   return ret.next
 };
-```
+// ```
 
-*很容易理解， 但是科学计数法会导致问题
-******
-### 2.字符串 自顶向下（skyline）
-```
+// *很容易理解， 但是科学计数法会导致问题
+// ******
+// ### 2.字符串 自顶向下（skyline）
+// ```
 var addTwoNumbers = function (l1, l2) {
   let m = 0, n = 0, str1 = '', str2 = '', ret = proxy = new ListNode(0)
   while (l1) {
@@ -62,8 +62,8 @@ var addTwoNumbers = function (l1, l2) {
 
   return ret.next
 };
-```
+// ```
 
-* 在1的基础上解决求和产生的科学计数法的问题
-* 循环时由最高位向最低位，利用proxy不断向低位移动
+// * 在1的基础上解决求和产生的科学计数法的问题
+// * 循环时由最高位向最低位，利用proxy不断向低位移动
 

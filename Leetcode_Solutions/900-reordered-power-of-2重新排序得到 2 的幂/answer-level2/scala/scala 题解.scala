@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def reorderedPowerOf2(N: Int): Boolean = {
     val sum = func(N)
@@ -16,4 +16,4 @@ object Solution {
     res
   }
 }
-```
+// ```

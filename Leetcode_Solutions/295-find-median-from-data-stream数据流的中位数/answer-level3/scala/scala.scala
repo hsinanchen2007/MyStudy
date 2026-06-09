@@ -1,4 +1,4 @@
-```scala
+// ```scala
 import scala.collection.mutable
 
 class MedianFinder() {
@@ -19,4 +19,4 @@ class MedianFinder() {
   def findMedian(): Double = if (small.size > large.size) small.head else 0.5 * (small.head - large.head)
 
 }
-```
+// ```

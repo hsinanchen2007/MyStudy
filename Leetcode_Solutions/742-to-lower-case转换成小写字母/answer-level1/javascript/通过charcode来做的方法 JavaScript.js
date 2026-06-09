@@ -1,5 +1,5 @@
-这样写主要觉得写个字典有点low 不过空间复杂度只有 5% 是认真的吗
-```javascript
+// 这样写主要觉得写个字典有点low 不过空间复杂度只有 5% 是认真的吗
+// ```javascript
 /*
  * @lc app=leetcode.cn id=709 lang=javascript
  *
@@ -25,4 +25,4 @@ var toLowerCase = function(str) {
 //   ✔ 8/8 cases passed (60 ms)
 //   ✔ Your runtime beats 98.53 % of javascript submissions
 //   ✔ Your memory usage beats 5.16 % of javascript submissions (34.1 MB)
-```
+// ```

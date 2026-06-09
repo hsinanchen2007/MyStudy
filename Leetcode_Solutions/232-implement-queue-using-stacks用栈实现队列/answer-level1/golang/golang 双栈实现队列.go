@@ -1,7 +1,7 @@
-解题思路：
-一个栈负责input，另一个负责output。
-代码：
-```go
+// 解题思路：
+// 一个栈负责input，另一个负责output。
+// 代码：
+// ```go
 type MyQueue struct {
 	a,b *Stack
 }
@@ -82,4 +82,4 @@ func (s *Stack) Len() int {
 func (s *Stack) IsEmpty() bool {
 	return s.Len() == 0
 }
-```
+// ```

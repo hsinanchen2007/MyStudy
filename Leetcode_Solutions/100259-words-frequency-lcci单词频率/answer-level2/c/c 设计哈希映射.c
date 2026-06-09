@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *key：关于键的定义策略：把字符串所有字符减去96后进行累加操作，得到结果key,即key键
 *
@@ -127,4 +127,4 @@ void wordsFrequencyFree( WordsFrequency * obj) {
  
  * wordsFrequencyFree(obj);
 */
-```
+// ```

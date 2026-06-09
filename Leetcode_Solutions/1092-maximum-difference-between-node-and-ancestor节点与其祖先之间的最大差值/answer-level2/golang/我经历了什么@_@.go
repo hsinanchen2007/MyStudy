@@ -1,6 +1,6 @@
 
 
-```
+// ```
 func maxAncestorDiff(root *TreeNode) int {
     _,_,diffMax:=helper(root)
     return diffMax
@@ -53,4 +53,4 @@ func helper(root *TreeNode)(max,min,diffMax int){
     }
     return
 }
-```
+// ```

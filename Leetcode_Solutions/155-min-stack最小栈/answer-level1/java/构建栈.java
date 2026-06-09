@@ -1,9 +1,9 @@
-### 解题思路
-1. 使用链表的方式实现栈
+// ### 解题思路
+// 1. 使用链表的方式实现栈
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MinStack {
 
     Node head;
@@ -56,4 +56,4 @@ class MinStack {
  * int param_3 = obj.top();
  * int param_4 = obj.getMin();
  */
-```
+// ```

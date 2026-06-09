@@ -1,18 +1,18 @@
-### 解题思路
-本题对于**C语言**的**难点在于动态结果数量**的问题。
+// ### 解题思路
+// 本题对于**C语言**的**难点在于动态结果数量**的问题。
 
-这里没有采用申请pool的方式，而是规矩的采用，每次根据返回结果的数量，建立链表组织结果。
+// 这里没有采用申请pool的方式，而是规矩的采用，每次根据返回结果的数量，建立链表组织结果。
 
-**算法**很经典，就是**统计**各个字符出现的数量，**保证在每个位置**，只**使用**这个字符**一次**即可。
+// **算法**很经典，就是**统计**各个字符出现的数量，**保证在每个位置**，只**使用**这个字符**一次**即可。
 
-注意字符包括大小写。
+// 注意字符包括大小写。
 
-![image.png](https://pic.leetcode-cn.com/e9df5ebcb494f122c710fd9a0f8d64b8a7e9e8d7005a97df73acf2f11a8655a0-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e9df5ebcb494f122c710fd9a0f8d64b8a7e9e8d7005a97df73acf2f11a8655a0-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -132,4 +132,4 @@ char** permutation(char* s, int* returnSize){
 
     return ret;
 }
-```
+// ```

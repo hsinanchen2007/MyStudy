@@ -1,14 +1,14 @@
-### 解题思路
-此处撰写解题思路
-首先弄清楚叶子节点含义：左、右孩子节点都是null，searchAllPath得到所有的路径，注意每次加入到res的时候，temp需要重新构建，不然会对同一个对象操作
-出口；
-当遇到叶子节点时，如果累计和nowSum等于sum就把temp（temp要重新构造）加入res
-null节点直接返回
-回溯：
-当前节点的左右子树都试过后，nowSum减去当前节点的值，temp删除当前节点值（也就是最后一个值）
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 首先弄清楚叶子节点含义：左、右孩子节点都是null，searchAllPath得到所有的路径，注意每次加入到res的时候，temp需要重新构建，不然会对同一个对象操作
+// 出口；
+// 当遇到叶子节点时，如果累计和nowSum等于sum就把temp（temp要重新构造）加入res
+// null节点直接返回
+// 回溯：
+// 当前节点的左右子树都试过后，nowSum减去当前节点的值，temp删除当前节点值（也就是最后一个值）
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -51,4 +51,4 @@ class Solution {
         temp.remove(temp.size()-1);
     }
 }
-```
+// ```

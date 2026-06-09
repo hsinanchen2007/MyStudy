@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def maxArea(self, height: List[int]) -> int:
         i,j = 0,len(height)-1
@@ -13,4 +13,4 @@ class Solution:
                 maxh = max(maxh,(j-i)*height[j])
                 j -= 1
         return maxh
-```
+# ```

@@ -1,11 +1,11 @@
-使用了c++ 定义于<algorithm>中的 `lower_bound()` 和 `upper_bound()` 函数
+// 使用了c++ 定义于<algorithm>中的 `lower_bound()` 和 `upper_bound()` 函数
 
-函数功能：
-lower_bound(): 指向首个不小于 value 的元素的迭代器，或若找不到这种元素则为 last
-upper_bound(): 指向首个大于 value 的元素的迭代器，或若找不到这种元素则为 last 
-> 具体看 [https://zh.cppreference.com/w/cpp/algorithm/lower_bound](https://zh.cppreference.com/w/cpp/algorithm/lower_bound)
+// 函数功能：
+// lower_bound(): 指向首个不小于 value 的元素的迭代器，或若找不到这种元素则为 last
+// upper_bound(): 指向首个大于 value 的元素的迭代器，或若找不到这种元素则为 last 
+// > 具体看 [https://zh.cppreference.com/w/cpp/algorithm/lower_bound](https://zh.cppreference.com/w/cpp/algorithm/lower_bound)
 
-```c++
+// ```c++
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
@@ -25,10 +25,10 @@ public:
         
     }
 };
-```
-如果想自己写不想使用库函数的话，可以自行实现 `lower_bound()` 和 `upper_bound()` 函数
+// ```
+// 如果想自己写不想使用库函数的话，可以自行实现 `lower_bound()` 和 `upper_bound()` 函数
 
-```c++
+// ```c++
 int lower_bound(vector<int>& nums, int target)
 {
     int low = 0, high = nums.size();
@@ -56,4 +56,4 @@ int upper_bound(vector<int>& nums, int target)
     }
     return low;
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-自下而上动态规划
-用了个库函数memcpy，拷贝内存内容
+// ### 解题思路
+// 自下而上动态规划
+// 用了个库函数memcpy，拷贝内存内容
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MIN(a,b) ((a)<(b)?(a):(b))
 int minimumTotal(int** triangle, int triangleSize, int* triangleColSize){
     int *arr = (int *)malloc(sizeof(int)*triangleSize);
@@ -16,4 +16,4 @@ int minimumTotal(int** triangle, int triangleSize, int* triangleColSize){
             arr[k] = triangle[j][k] + MIN(arr[k],arr[k+1]);
     return *arr;
 }
-```
+// ```

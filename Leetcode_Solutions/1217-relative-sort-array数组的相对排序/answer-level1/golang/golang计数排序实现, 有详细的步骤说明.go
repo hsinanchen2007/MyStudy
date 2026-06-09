@@ -1,9 +1,9 @@
 
-思路: 利用桶排序的升级版本,计数排序实现解题
-先将元素发送到桶里, 然后收集元素.
-对于此道题, 需要注意收集元素里, 我们需要先收集arr2数组的元素. 剩余部分再按升序收集
+// 思路: 利用桶排序的升级版本,计数排序实现解题
+// 先将元素发送到桶里, 然后收集元素.
+// 对于此道题, 需要注意收集元素里, 我们需要先收集arr2数组的元素. 剩余部分再按升序收集
 
-```
+// ```
 func RelativeSortArray(arr1 []int, arr2 []int) []int {
 	bucket := make([]int, 1001)
 	newBucket := make([]int, len(arr1))
@@ -32,4 +32,4 @@ func RelativeSortArray(arr1 []int, arr2 []int) []int {
 	}
 	return newBucket
 }
-```
+// ```

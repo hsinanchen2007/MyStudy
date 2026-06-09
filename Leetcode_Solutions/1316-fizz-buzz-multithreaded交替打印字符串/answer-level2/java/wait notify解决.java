@@ -1,9 +1,9 @@
-### 解题思路
-当不满足条件时线程wait，满足时notify所有其他线程、输出及计数器加1
+// ### 解题思路
+// 当不满足条件时线程wait，满足时notify所有其他线程、输出及计数器加1
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class FizzBuzz {
     private int n;
     private int c=1;
@@ -73,4 +73,4 @@ class FizzBuzz {
         }
     }
 }
-```
+// ```

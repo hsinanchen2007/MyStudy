@@ -1,5 +1,5 @@
-`findParent`方法寻找父节点，并将父节点保存下来；`merge`方法合并两个节点，更新父节点和计数。
-```java
+// `findParent`方法寻找父节点，并将父节点保存下来；`merge`方法合并两个节点，更新父节点和计数。
+// ```java
 import java.util.HashMap;
 import java.util.Map;
 
@@ -41,4 +41,4 @@ class Solution {
         return count.get(x);
     }
 }
-```
+// ```

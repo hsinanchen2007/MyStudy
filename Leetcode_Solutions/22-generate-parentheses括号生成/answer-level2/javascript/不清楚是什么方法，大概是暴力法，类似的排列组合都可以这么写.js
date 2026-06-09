@@ -1,9 +1,9 @@
-速度还行
-从每个位置 例如1 2 3...位置插入新的'()'组合
-'1(2)3' ---> '()()' '(())' '()()'
-再去重 或者用set
-重复n次
-```
+// 速度还行
+// 从每个位置 例如1 2 3...位置插入新的'()'组合
+// '1(2)3' ---> '()()' '(())' '()()'
+// 再去重 或者用set
+// 重复n次
+// ```
 var generateParenthesis = function(n) {
   if (n === 0) return []
   let result = new Set(['()'])
@@ -24,4 +24,4 @@ var generateParenthesis = function(n) {
   
   return [...result]
 };
-```
+// ```

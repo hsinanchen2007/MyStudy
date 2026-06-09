@@ -1,9 +1,9 @@
-### 解题思路
-贪心+优先队列
+// ### 解题思路
+// 贪心+优先队列
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxEvents(vector<vector<int>>& events) {
@@ -41,4 +41,4 @@ public:
         return ans;
     }
 };
-```
+// ```

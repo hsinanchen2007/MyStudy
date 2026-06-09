@@ -1,8 +1,8 @@
-官方解法，我的理解是复制出来一棵树，然后镜像对比，为何不直接左右两颗树对比呢，这样要省事一半吧。
-只需要先判断一下根节点是否为空，然后就可以左右树进行与官方解法一样的镜像对比了。以下两种解法都是95%+的。
+# 官方解法，我的理解是复制出来一棵树，然后镜像对比，为何不直接左右两颗树对比呢，这样要省事一半吧。
+# 只需要先判断一下根节点是否为空，然后就可以左右树进行与官方解法一样的镜像对比了。以下两种解法都是95%+的。
 
-迭代解法
-```
+# 迭代解法
+# ```
 class Solution:
     def isSymmetric(self, root: TreeNode) -> bool:
         if not root: return True
@@ -17,10 +17,10 @@ class Solution:
             queue.append(n1.right)
             queue.append(n2.left)            
         return True
-```
+# ```
 
-递归解法
-```
+# 递归解法
+# ```
 class Solution:
         def isMirror(n1, n2):
             if not n1 and not n2: return True
@@ -30,4 +30,4 @@ class Solution:
 
         if not root: return True
         else: return isMirror(root.left, root.right)
-```
+# ```

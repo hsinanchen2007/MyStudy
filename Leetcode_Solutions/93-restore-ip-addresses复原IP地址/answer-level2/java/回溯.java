@@ -1,14 +1,14 @@
-### 解题思路
-1.识别现有字符串能够组成的ip，就是将现有字符串分隔成合法的四段ip，长度在4至12位之间。0.0.0.0~255.255.255.254
-2.识别所有可能的组合，这种套路是采用回溯。
-用backTrack(String s, int start, int deep, ArrayList<String> curIp)，start记录当前开始判定的索引，deep记录当前判定的第几个ip段，curIP保存之前已经加入的合法的ip段。
-3.如何回溯呢?回溯的结束条件：加入队列的四段ip的长度等于s字符串的长度并且DEEP了4次（4段）。
-4.从索引0开始，每段只需要3个字符(255),判定是否为合法的数字，合法则继续下一个点的DEEP的计算。
-5.清除当前队列的最后一个。
+// ### 解题思路
+// 1.识别现有字符串能够组成的ip，就是将现有字符串分隔成合法的四段ip，长度在4至12位之间。0.0.0.0~255.255.255.254
+// 2.识别所有可能的组合，这种套路是采用回溯。
+// 用backTrack(String s, int start, int deep, ArrayList<String> curIp)，start记录当前开始判定的索引，deep记录当前判定的第几个ip段，curIP保存之前已经加入的合法的ip段。
+// 3.如何回溯呢?回溯的结束条件：加入队列的四段ip的长度等于s字符串的长度并且DEEP了4次（4段）。
+// 4.从索引0开始，每段只需要3个字符(255),判定是否为合法的数字，合法则继续下一个点的DEEP的计算。
+// 5.清除当前队列的最后一个。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
   private static final String DELIMITER = ".";
     private List<String> res = new ArrayList<>();
@@ -71,4 +71,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

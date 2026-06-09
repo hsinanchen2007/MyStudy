@@ -1,4 +1,4 @@
-```
+// ```
 var climbStairs = function(n, arr=[]) {
   if(n===2) return 2
   if(n===1) return 1
@@ -9,4 +9,4 @@ var climbStairs = function(n, arr=[]) {
   return arr[n]
 };
 
-```
+// ```

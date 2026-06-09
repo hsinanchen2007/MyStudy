@@ -1,4 +1,4 @@
-```c
+// ```c
 
 #define SIZE 155
 #define DIR_ROW 4
@@ -69,4 +69,4 @@ int** pacificAtlantic(int** matrix, int matrixSize, int* matrixColSize, int* ret
     return ret;
 }
 
-```
+// ```

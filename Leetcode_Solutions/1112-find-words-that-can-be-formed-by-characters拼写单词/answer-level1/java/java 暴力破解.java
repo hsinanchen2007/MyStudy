@@ -1,5 +1,5 @@
-java 暴力破解
-```
+// java 暴力破解
+// ```
 class Solution {
     public int countCharacters(String[] words, String chars) {
         int count = 0;
@@ -20,4 +20,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

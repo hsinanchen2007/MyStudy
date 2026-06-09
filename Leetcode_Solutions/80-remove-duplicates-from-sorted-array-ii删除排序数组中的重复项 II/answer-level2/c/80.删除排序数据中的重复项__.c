@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-连续三指针扫描整个数组,细节见注释
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 连续三指针扫描整个数组,细节见注释
+// ### 代码
 
-```c
+// ```c
 int removeDuplicates(int* nums, int numsSize){
     int len=0;
     if(numsSize==0)
@@ -29,4 +29,4 @@ int removeDuplicates(int* nums, int numsSize){
          return len+2;
     }
 }
-```
+// ```

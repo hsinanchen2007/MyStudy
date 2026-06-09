@@ -1,9 +1,9 @@
-### 解题思路
-思路写在下面注释里
+// ### 解题思路
+// 思路写在下面注释里
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} grid
  * @return {number}
@@ -37,4 +37,4 @@ var islandPerimeter = function(grid) {
 function inArea (x, y, limitX, limitY) {
     return x >= 0 && x < limitX && y >= 0 && y < limitY
 }
-```
+// ```

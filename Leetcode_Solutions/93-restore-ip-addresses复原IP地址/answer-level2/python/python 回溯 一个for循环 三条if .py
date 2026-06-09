@@ -1,9 +1,9 @@
-简简单单
+# 简简单单
 
-终止条件： s 用完了，同时tmp中有4条纪录
-起始条件： tmp不足4条，且截取下来的s合法。
+# 终止条件： s 用完了，同时tmp中有4条纪录
+# 起始条件： tmp不足4条，且截取下来的s合法。
 
-```
+# ```
 class Solution(object):
     def restoreIpAddresses(self, s):
         """
@@ -24,4 +24,4 @@ class Solution(object):
 
         backtrack(s, [])
         return self.res
-```
+# ```

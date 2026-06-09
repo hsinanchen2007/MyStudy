@@ -1,6 +1,6 @@
-我这个解法应该是最容易理解的吧？但是不懂怎么算复杂度。
+// 我这个解法应该是最容易理解的吧？但是不懂怎么算复杂度。
 
-``` golang
+// ``` golang
 func strStr(haystack string, needle string) int {
     if needle == "" {
         return 0
@@ -15,4 +15,4 @@ func strStr(haystack string, needle string) int {
     
     return -1
 }
-```
+// ```

@@ -1,7 +1,7 @@
-- 先拆分 ( num + 1, ) num -1, 直到为0为一个完整的组合
-- 删最外层的括号
+# - 先拆分 ( num + 1, ) num -1, 直到为0为一个完整的组合
+# - 删最外层的括号
 
-```
+# ```
 class Solution(object):
     def removeOuterParentheses(self, S):
         """
@@ -25,4 +25,4 @@ class Solution(object):
                 Str = Str + S[pos + 1 : i]
                 pos = i + 1
         return Str
-```
+# ```

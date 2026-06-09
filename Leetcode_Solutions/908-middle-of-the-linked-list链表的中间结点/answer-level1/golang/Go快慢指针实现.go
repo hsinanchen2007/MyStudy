@@ -1,9 +1,9 @@
-### 解题思路
-快指针一次前进2个节点，慢指针一次前进一个，当快指针到头的时候慢指针指向的就是中点。
+// ### 解题思路
+// 快指针一次前进2个节点，慢指针一次前进一个，当快指针到头的时候慢指针指向的就是中点。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -27,4 +27,4 @@ func middleNode(head *ListNode) *ListNode {
         }
     }
 }
-```
+// ```

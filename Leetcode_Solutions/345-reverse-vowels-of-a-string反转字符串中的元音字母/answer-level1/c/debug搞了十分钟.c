@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * reverseVowels(char * s){
     if(s==NULL) return s;
     int len=strlen(s);
@@ -36,4 +36,4 @@ char * reverseVowels(char * s){
     }
     return s;
 }
-```
+// ```

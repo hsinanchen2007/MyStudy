@@ -1,9 +1,9 @@
-### 解题思路
-双循环双指针
+// ### 解题思路
+// 双循环双指针
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var fourSum = function (nums, target) {
     let ans = [];
     if (nums == null || nums.length < 4) return ans;
@@ -32,4 +32,4 @@ var fourSum = function (nums, target) {
     return ans;
 };
 
-```
+// ```

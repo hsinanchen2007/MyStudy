@@ -1,8 +1,8 @@
-### 思路
-用BigInteger的话真的是无脑写就可以了。 (PS: 不过不推荐这么做哦。。 )
-<br>
+// ### 思路
+// 用BigInteger的话真的是无脑写就可以了。 (PS: 不过不推荐这么做哦。。 )
+// <br>
 
-```java
+// ```java
     public int numSteps(String s) {
         BigInteger bi = new BigInteger(s, 2);
         int ans = 0;
@@ -17,4 +17,4 @@
         }
         return ans;
     }
-```
+// ```

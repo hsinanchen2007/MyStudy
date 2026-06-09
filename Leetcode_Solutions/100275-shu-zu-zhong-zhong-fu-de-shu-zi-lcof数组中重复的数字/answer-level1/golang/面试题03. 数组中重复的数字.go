@@ -1,9 +1,9 @@
-### 解题思路
-奥利给！干就完了！
+// ### 解题思路
+// 奥利给！干就完了！
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findRepeatNumber(nums []int) int {
 	// 1.长度为0
 	if len(nums) == 0 {
@@ -30,4 +30,4 @@ func findRepeatNumber(nums []int) int {
 	return -1
 }
 
-```
+// ```

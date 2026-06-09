@@ -1,9 +1,9 @@
-### 解题思路
-方法一：通过和 nums[0]比较，分两段进行循环比较
+// ### 解题思路
+// 方法一：通过和 nums[0]比较，分两段进行循环比较
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 //方法一：通过和 nums[0]比较，分两段进行循环比较
 int search(int* nums, int numsSize, int target){
@@ -53,4 +53,4 @@ int search(int* nums, int numsSize, int target){
     }
     return iRet;
 }
-```
+// ```

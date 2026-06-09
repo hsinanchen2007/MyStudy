@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -17,4 +17,4 @@ class Solution:
         if not root:return 0
         depth = max(self.maxDepth(root.left), self.maxDepth(root.right)) + 1
         return depth
-```
+# ```

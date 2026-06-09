@@ -1,9 +1,9 @@
-### 解题思路
-替换原数组多余项
+// ### 解题思路
+// 替换原数组多余项
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} A
  * @param {number} m
@@ -20,4 +20,4 @@ var merge = function(A, m, B, n) {
     }
     return A.sort((a,b) => a-b)
 };
-```
+// ```

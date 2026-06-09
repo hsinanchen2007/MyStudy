@@ -1,9 +1,9 @@
-### 解题思路
-做这题以前 我没搞懂dp到底是什么 写完ac后 问了人 才知道我这也是dp 凉了
+// ### 解题思路
+// 做这题以前 我没搞懂dp到底是什么 写完ac后 问了人 才知道我这也是dp 凉了
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> generate(int numRows) {
@@ -28,4 +28,4 @@ public:
         return res;
     }
 };
-```
+// ```

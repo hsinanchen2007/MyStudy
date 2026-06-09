@@ -1,5 +1,5 @@
-- DFS：
-```
+// - DFS：
+// ```
 class Solution {
 public:
     int minDepth(TreeNode* root) {
@@ -9,9 +9,9 @@ public:
         return min(minDepth(root->right),minDepth(root->left))+1;
     }
 };
-```
-BFS：
-```
+// ```
+// BFS：
+// ```
 class Solution {
 public:
     int minDepth(TreeNode* root) {
@@ -35,5 +35,5 @@ public:
         return min;
     }
 };
-```
-- 测试结果显示DFS（24ms）的平均用时要短于BFS（32ms）。
+// ```
+// - 测试结果显示DFS（24ms）的平均用时要短于BFS（32ms）。

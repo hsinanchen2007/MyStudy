@@ -1,5 +1,5 @@
-主要注意 除数是 0 的处理
-```
+-- 主要注意 除数是 0 的处理
+-- ```
 SELECT ad_id
 	, convert(decimal(10, 2), isnull(SUM(CASE 
 		WHEN action = 'Clicked' THEN 1
@@ -11,4 +11,4 @@ SELECT ad_id
 FROM Ads
 GROUP BY ad_id
 ORDER BY ctr DESC, ad_id ASC
-```
+-- ```

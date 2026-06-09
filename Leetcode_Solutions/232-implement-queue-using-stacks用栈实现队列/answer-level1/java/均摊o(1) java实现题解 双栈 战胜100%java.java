@@ -1,5 +1,5 @@
-***均摊o1复杂度 java实现题解 双栈 出队栈 入队栈 
-战胜100%java提交***
+// ***均摊o1复杂度 java实现题解 双栈 出队栈 入队栈 
+// 战胜100%java提交***
 ![image.png](https://pic.leetcode-cn.com/8817801e64aee2d5091f983e2729fa5a9e6b33c765ef58ce9e689f60ff6beb02-image.png)
 
 class MyQueue {

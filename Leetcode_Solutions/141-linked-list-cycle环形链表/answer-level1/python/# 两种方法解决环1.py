@@ -1,6 +1,6 @@
-# 两种方法解决环1
-法一 存储走过的节点（鬼打墙做标记）
-```
+# # 两种方法解决环1
+# 法一 存储走过的节点（鬼打墙做标记）
+# ```
         alist = []
         cur = head
         flag = False
@@ -11,10 +11,10 @@
             alist.append(cur)
             cur = cur.next
         return flag
-```
-法二 快慢双指针
-利用try包括快指针，因为在无环的情况下，quick.next可能为None，所以会报错！
-```
+# ```
+# 法二 快慢双指针
+# 利用try包括快指针，因为在无环的情况下，quick.next可能为None，所以会报错！
+# ```
         slow = head
         quick = head
         flag = False
@@ -28,6 +28,6 @@
                 flag = True
                 break
         return flag
-```
+# ```
 
 

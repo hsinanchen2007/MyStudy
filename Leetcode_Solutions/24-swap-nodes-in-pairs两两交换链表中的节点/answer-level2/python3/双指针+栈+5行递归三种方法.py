@@ -1,4 +1,4 @@
-```
+# ```
 # -*- coding: utf-8 -*-
 
 # Author: Cynthia
@@ -48,8 +48,8 @@ class Solution:
             else:
                 p, q = x, z.next
 
-```
-```
+# ```
+# ```
 # -*- coding: utf-8 -*-
 
 # Author: Cynthia
@@ -104,9 +104,9 @@ class Solution:
                     head = head.next
 
         return ans.next
-```
+# ```
 
-```
+# ```
 # -*- coding: utf-8 -*-
 
 # Author: Cynthia
@@ -140,6 +140,6 @@ class Solution:
 
         return rf()
 
-```
+# ```
 
 

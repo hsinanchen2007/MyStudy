@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int findMin(int[] nums) {
         if(nums==null||nums.length<1){
@@ -37,4 +37,4 @@ class Solution {
         
     }
 }
-```
+// ```

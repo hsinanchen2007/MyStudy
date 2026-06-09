@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-借鉴：
-![TIM截图20200409194631.png](https://pic.leetcode-cn.com/8fef9c4d752fc47a85db349898371a2bc658fd22c3ef721301b6170a1f54289c-TIM%E6%88%AA%E5%9B%BE20200409194631.png)
+// ### 解题思路
+// 此处撰写解题思路
+// 借鉴：
+// ![TIM截图20200409194631.png](https://pic.leetcode-cn.com/8fef9c4d752fc47a85db349898371a2bc658fd22c3ef721301b6170a1f54289c-TIM%E6%88%AA%E5%9B%BE20200409194631.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -48,4 +48,4 @@ struct ListNode*reverseKGroup(struct ListNode* head, int k)
 
     return newHead;
 }
-```
+// ```

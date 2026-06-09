@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def findMaxConsecutiveOnes(self, nums):
         """
@@ -19,10 +19,10 @@ class Solution(object):
                 max_one = max(max_one, temp);
                 temp = 0;
         return max(max_one, temp); 
-```
+# ```
 
-# Java
-```
+# # Java
+# ```
 class Solution {
     public int findMaxConsecutiveOnes(int[] nums) {
         int temp = 0;
@@ -39,4 +39,4 @@ class Solution {
         return Math.max(max_ones, temp);
     }
 }
-```
+# ```

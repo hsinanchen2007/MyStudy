@@ -1,16 +1,16 @@
 
-## 思路:
+// ## 思路:
 
-一句话解释: 固定一点, 找其他点和这个点组成直线, 统计他们的斜率!
+// 一句话解释: 固定一点, 找其他点和这个点组成直线, 统计他们的斜率!
 
-这里有一个重点: 求斜率.用两种方法
+// 这里有一个重点: 求斜率.用两种方法
 
-1. 用最大约数方法(`gcd`), 把他化成最简形式, `3/6 == 2/4 == 1/2`
-2. 除数(不太精确, 速度快!)
+// 1. 用最大约数方法(`gcd`), 把他化成最简形式, `3/6 == 2/4 == 1/2`
+// 2. 除数(不太精确, 速度快!)
 
-代码里有注释!
+// 代码里有注释!
 
-```python []
+// ```python []
 class Solution:
     def maxPoints(self, points: List[List[int]]) -> int:
         from collections import Counter, defaultdict
@@ -53,11 +53,11 @@ class Solution:
                 #------------------------------
             res = max(res, max(slope.values()) + points_dict[not_repeat_points[i]])
         return res
-```
+// ```
 
 
 
-```java []
+// ```java []
 class Solution {
     public int maxPoints(int[][] points) {
         int n = points.length;
@@ -94,4 +94,4 @@ class Solution {
         else return gcd(dx, dy % dx);
     }
 }
-```
+// ```

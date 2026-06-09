@@ -1,5 +1,5 @@
 
-```c
+// ```c
 //交换函数
 void swap(char *a, char *b){
     char temp = *a;
@@ -47,4 +47,4 @@ int nextGreaterElement(int n){
 }
 
 
-```
+// ```

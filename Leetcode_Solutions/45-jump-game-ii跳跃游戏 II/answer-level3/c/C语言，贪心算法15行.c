@@ -1,9 +1,9 @@
-### 解题思路
-贪心算法，每次选择当前能跳范围内中，下一步最远的点。
+// ### 解题思路
+// 贪心算法，每次选择当前能跳范围内中，下一步最远的点。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int jump(int* nums, int numsSize){
     int current_max_index = nums[0];
     int pre_max_index = nums[0];
@@ -21,6 +21,6 @@ int jump(int* nums, int numsSize){
     }
     return jump_step;
 }
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/983bad665486fed1309c720c10821c92176600767d52022cc49a40dcd03e3ed0-image.png)
+// ![image.png](https://pic.leetcode-cn.com/983bad665486fed1309c720c10821c92176600767d52022cc49a40dcd03e3ed0-image.png)

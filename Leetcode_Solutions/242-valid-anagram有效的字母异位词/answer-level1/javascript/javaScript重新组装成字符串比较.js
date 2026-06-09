@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路转化成数组排序后重新组装成字符串比较
+// ### 解题思路
+// 此处撰写解题思路转化成数组排序后重新组装成字符串比较
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @param {string} t
@@ -16,4 +16,4 @@ var isAnagram = function(s, t) {
 
     return s.split("").sort().join() === t.split("").sort().join();
 };
-```
+// ```

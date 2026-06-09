@@ -1,5 +1,5 @@
-维护每个推特对应的user字典和user对应的关注者的字典，按照时间顺序维护一个tweet列表
-```
+// 维护每个推特对应的user字典和user对应的关注者的字典，按照时间顺序维护一个tweet列表
+// ```
 public class Twitter
 {
     List<int> TweetList;
@@ -72,4 +72,4 @@ public class Twitter
         }
     }
 }
-```
+// ```

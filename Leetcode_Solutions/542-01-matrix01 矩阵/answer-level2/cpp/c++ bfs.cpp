@@ -1,9 +1,9 @@
-### 解题思路
-建立并初始化1个与输入相同行列的矩阵。用广度优先搜索，两遍遍历搞定。
+// ### 解题思路
+// 建立并初始化1个与输入相同行列的矩阵。用广度优先搜索，两遍遍历搞定。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> updateMatrix(vector<vector<int>>& matrix) {
@@ -60,4 +60,4 @@ public:
         
     }
 };
-```
+// ```

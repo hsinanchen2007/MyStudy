@@ -1,4 +1,4 @@
-```
+# ```
 """
 # Definition for a Node.
 class Node:
@@ -51,5 +51,5 @@ class Solution:
         return depth
         
         
-```
-也是参照了别人的写法，做一下总结吧。
+# ```
+# 也是参照了别人的写法，做一下总结吧。

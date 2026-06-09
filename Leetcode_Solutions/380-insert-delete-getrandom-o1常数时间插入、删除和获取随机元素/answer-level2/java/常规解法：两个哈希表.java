@@ -1,10 +1,10 @@
-### 解题思路
-准备两个哈希表，两个哈希表中的<键，值对>顺序相反。
-删除某位置上的元素，再将这个位置的元素和最后一个元素交换以保证哈希表连续，这样才能保证getRandom()方法的随机性
+// ### 解题思路
+// 准备两个哈希表，两个哈希表中的<键，值对>顺序相反。
+// 删除某位置上的元素，再将这个位置的元素和最后一个元素交换以保证哈希表连续，这样才能保证getRandom()方法的随机性
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class RandomizedSet {
     private HashMap<Integer, Integer> map1;
     private HashMap<Integer, Integer> map2;
@@ -56,4 +56,4 @@ class RandomizedSet {
  * boolean param_2 = obj.remove(val);
  * int param_3 = obj.getRandom();
  */
-```
+// ```

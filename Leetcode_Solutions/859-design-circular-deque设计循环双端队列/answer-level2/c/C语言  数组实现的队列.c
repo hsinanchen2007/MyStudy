@@ -1,4 +1,4 @@
-```
+// ```
 typedef struct {
     int *que;
     int len;
@@ -108,4 +108,4 @@ void myCircularDequeFree(MyCircularDeque* obj) {
  
  * myCircularDequeFree(obj);
 */
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/cfdf3ebd4565b46eb2ba0492e30e8799bc708b4fc7134eeb10848ffcc9684650-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/cfdf3ebd4565b46eb2ba0492e30e8799bc708b4fc7134eeb10848ffcc9684650-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findPairs(int[] nums, int k) {
         if (k < 0) {
@@ -28,4 +28,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

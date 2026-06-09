@@ -1,18 +1,18 @@
-本题可以作为DFS和BFS的入门题，模板题。
+// 本题可以作为DFS和BFS的入门题，模板题。
 
-这是我的[LeetCode分类题解](https://github.com/caipengbo/LeetCode)（每日更新, issue内有总结），和我一起每日刷题吧！
+// 这是我的[LeetCode分类题解](https://github.com/caipengbo/LeetCode)（每日更新, issue内有总结），和我一起每日刷题吧！
 
-**DFS模板**
-```
+// **DFS模板**
+// ```
 dfs出口，不满足条件就退出
 
 操作
 
 递归，接着进一步DFS
-```
+// ```
 
-**BFS模板**
-```
+// **BFS模板**
+// ```
 条件判断（边界判断，其他要求的判断）
 
 创建队列
@@ -24,11 +24,11 @@ while(队列不为空) {
     操作
     根据头部元素，往队列中再次加入满足条件的元素
 }
-```
+// ```
 
-**详细代码**
-DFS
-```Java
+// **详细代码**
+// DFS
+// ```Java
 private void dfs(int[][] image, int i, int j, int oldColor, int newColor) {
     int m = image.length, n = image[0].length;
     // dfs出口，不满足条件就退出
@@ -41,9 +41,9 @@ private void dfs(int[][] image, int i, int j, int oldColor, int newColor) {
     dfs(image, i, j-1, oldColor, newColor);
     dfs(image, i, j+1, oldColor, newColor);
 }
-```
-BFS
-```Java
+// ```
+// BFS
+// ```Java
 private int[][] bfs(int[][] image, int sr, int sc, int newColor) {
     // 条件判断（边界判断，其他要求的判断）
     if (image == null || image.length == 0 || image[0].length == 0 || image[sr][sc] == newColor) return image;
@@ -67,4 +67,4 @@ private int[][] bfs(int[][] image, int sr, int sc, int newColor) {
     }
     return image;
 }
-```
+// ```

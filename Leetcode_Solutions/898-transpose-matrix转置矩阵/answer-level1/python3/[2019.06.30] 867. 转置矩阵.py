@@ -1,7 +1,7 @@
-B是A 置换后的结果  A[i][j] = B[j][i]
-!!! 需要创建一个空的矩阵是j行 i列的
+# B是A 置换后的结果  A[i][j] = B[j][i]
+# !!! 需要创建一个空的矩阵是j行 i列的
 
-```
+# ```
 class Solution(object):
     def transpose(self, A):
         """
@@ -26,4 +26,4 @@ class Solution(object):
           j = 0
 
         return B
-```
+# ```

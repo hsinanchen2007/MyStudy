@@ -1,7 +1,7 @@
-**思路**
-动态规划求解即可。
-考虑dp[i][j]为i个骰子得到j的总的可能。
-```
+// **思路**
+// 动态规划求解即可。
+// 考虑dp[i][j]为i个骰子得到j的总的可能。
+// ```
 int dp[31][1001];
 int mod = 1000000007;
 int CalcTotal(int d, int f, int target) {
@@ -41,4 +41,4 @@ int numRollsToTarget(int d, int f, int target){
 }
 
 
-```
+// ```

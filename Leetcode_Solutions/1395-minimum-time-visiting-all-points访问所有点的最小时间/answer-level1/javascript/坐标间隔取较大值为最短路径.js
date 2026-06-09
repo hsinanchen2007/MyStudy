@@ -1,9 +1,9 @@
-### 解题思路
-坐标间的间隔由于有对角线走法而简化为两个坐标值的差较大者为最短路径，此处使用绝对值方便后续步数计算。
+// ### 解题思路
+// 坐标间的间隔由于有对角线走法而简化为两个坐标值的差较大者为最短路径，此处使用绝对值方便后续步数计算。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} points
  * @return {number}
@@ -19,4 +19,4 @@ var minTimeToVisitAllPoints = function(points) {
     }
     return quickpath
 };
-```
+// ```

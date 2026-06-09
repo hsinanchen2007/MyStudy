@@ -1,5 +1,5 @@
-dfs返回数组ans，ans[0]表示是否是bst，ans[1]表示当前子树最小值，ans[2]表示当前子树最大值.
-```
+// dfs返回数组ans，ans[0]表示是否是bst，ans[1]表示当前子树最小值，ans[2]表示当前子树最大值.
+// ```
 class Solution {
     public boolean isValidBST(TreeNode root) {
         int[] ans = dfs(root);
@@ -22,4 +22,4 @@ class Solution {
         return new int[] {1, min, max};
     }
 }
-```
+// ```

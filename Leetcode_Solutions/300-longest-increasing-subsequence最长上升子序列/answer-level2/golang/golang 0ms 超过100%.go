@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func lengthOfLIS(nums []int) int {
     var dp []int = make([]int, len(nums), len(nums))
     if len(nums) == 0 {return 0}
@@ -36,4 +36,4 @@ func findFirstLeast(dp []int, ret int, value int) int {
 }
 
 
-```
+// ```

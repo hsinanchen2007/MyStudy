@@ -1,12 +1,12 @@
-### 解题思路
-![111.png](https://pic.leetcode-cn.com/b041ec1f4d11ad34030c1eb29ad174b035a51d46835afcaf87448cdbb931cf73-111.png)
+// ### 解题思路
+// ![111.png](https://pic.leetcode-cn.com/b041ec1f4d11ad34030c1eb29ad174b035a51d46835afcaf87448cdbb931cf73-111.png)
 
 
 
-### 代码
+// ### 代码
 
 
-```java
+// ```java
 class Solution {
     public List<String> printVertically(String s) {
         List<String> res=new ArrayList<>();//用于返回结果
@@ -29,4 +29,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

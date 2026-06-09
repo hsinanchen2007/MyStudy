@@ -1,9 +1,9 @@
-### 解题思路
-1、动态规划的思想  ， dp[i] 表示的 按照i结尾的最长的
+// ### 解题思路
+// 1、动态规划的思想  ， dp[i] 表示的 按照i结尾的最长的
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 package main
 
 import (
@@ -46,4 +46,4 @@ func getLIS(nums []int, curDealIndex int) float64 {
 	return res
 }
 
-```
+// ```

@@ -1,10 +1,10 @@
 
-![image.png](https://pic.leetcode-cn.com/71fc698d676e2d4925a32e4b3213e1630c29d7964c9f45189e4538fb0069aafb-image.png)
+// ![image.png](https://pic.leetcode-cn.com/71fc698d676e2d4925a32e4b3213e1630c29d7964c9f45189e4538fb0069aafb-image.png)
 
-思路：先使用快慢指针定位链表中点，然后反转中点的后半部分，最后分别从开头和中点处遍历比较是否是回文链表
+// 思路：先使用快慢指针定位链表中点，然后反转中点的后半部分，最后分别从开头和中点处遍历比较是否是回文链表
 
-代码：
-```
+// 代码：
+// ```
 func isPalindrome(head *ListNode) bool {    // 使用快慢指针寻找链表中点，然后反转后半部分，再分别从开头和中点处遍历比较
     if head == nil {
         return true
@@ -35,4 +35,4 @@ func isPalindrome(head *ListNode) bool {    // 使用快慢指针寻找链表中
     return true
     
 }
-```
+// ```

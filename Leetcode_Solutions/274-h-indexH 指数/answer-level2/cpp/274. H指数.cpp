@@ -1,9 +1,9 @@
-### 解题思路
-降序排列
+// ### 解题思路
+// 降序排列
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 bool myfunction (int i,int j) { return (i>j); }
 
 class Solution {
@@ -22,4 +22,4 @@ public:
         return n;
     }
 };
-```
+// ```

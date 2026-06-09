@@ -1,5 +1,5 @@
-官方题解的区间求和方法的python版，做了一些注释说明。
-```
+# 官方题解的区间求和方法的python版，做了一些注释说明。
+# ```
 class Solution():
     def getModifiedArray(self, length: int, updates: List[List[int]]) -> List[int]:
             ans = [0] * (length + 1)
@@ -9,4 +9,4 @@ class Solution():
             for k in range(1, length):
                 ans[k] += ans[k-1] #把上面的设置累加起来
             return ans[:length] #最后一个元素只是辅助的
-```
+# ```

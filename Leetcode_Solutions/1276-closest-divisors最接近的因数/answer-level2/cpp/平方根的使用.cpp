@@ -1,6 +1,6 @@
-从1开始，到平方根结束，分两个遍历，定义一个s作为标志，那个小取哪个加入结果
+// 从1开始，到平方根结束，分两个遍历，定义一个s作为标志，那个小取哪个加入结果
 
-```
+// ```
 class Solution {
 public:
     vector<int> closestDivisors(int num) {
@@ -32,4 +32,4 @@ public:
         return res;
     }
 };
-```
+// ```

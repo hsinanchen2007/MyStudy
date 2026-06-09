@@ -1,4 +1,4 @@
-```java []
+// ```java []
     public int jump(int[] nums) {
         if(nums.length == 1) return 0; //特殊情况，一步不走就到终点
         int last = 0; //上上一步可达的最远距离
@@ -23,4 +23,4 @@
         //循环结束则说明，这一步可以到达终点了，返回步数即可
         return step;
     }
-```
+// ```

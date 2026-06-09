@@ -1,5 +1,5 @@
-先计算字符串中各个字符出现的次数，再用数据排序，最后字符拼接输出结果
-```js
+// 先计算字符串中各个字符出现的次数，再用数据排序，最后字符拼接输出结果
+// ```js
 var frequencySort = function(s) {
     var map = new Map();
     for(var i=0;i<s.length;i++){
@@ -22,4 +22,4 @@ var frequencySort = function(s) {
     }
     return res;
 };
-```
+// ```

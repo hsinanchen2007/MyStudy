@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func floodFill(image [][]int, sr int, sc int, newColor int) [][]int {
 	pre:=image[sr][sc]
 	//当new 等于 pre的时候 直接返回 image，不然在 后面的 help方法中会陷入死循环
@@ -28,4 +28,4 @@ func helpFloodFill(image *[][]int,i,j,newColor,pre int){
 	}
 
 }
-```
+// ```

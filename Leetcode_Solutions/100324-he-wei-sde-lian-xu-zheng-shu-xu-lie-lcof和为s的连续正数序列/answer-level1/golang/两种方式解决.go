@@ -1,5 +1,5 @@
-# 暴力法
-```
+// # 暴力法
+// ```
 //暴力法
 func findContinuousSequence(target int) [][]int {
     if target<=0{
@@ -25,10 +25,10 @@ func findContinuousSequence(target int) [][]int {
 }
 
 }
-```
+// ```
 
-# 双指针（滑动窗口），本质来源于求和公式（sum=(l+r)(r-l+1)/2）
-```
+// # 双指针（滑动窗口），本质来源于求和公式（sum=(l+r)(r-l+1)/2）
+// ```
 //双指针实现(滑动窗口)
 func findContinuousSequence(target int) [][]int {
     if target<=0{
@@ -60,5 +60,5 @@ func findContinuousSequence(target int) [][]int {
         }
     }
     return res
-```
-### 829题，连续整数求和和这个题目类似
+// ```
+// ### 829题，连续整数求和和这个题目类似

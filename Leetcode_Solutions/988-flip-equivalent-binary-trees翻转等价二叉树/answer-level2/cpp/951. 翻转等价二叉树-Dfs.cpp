@@ -1,6 +1,6 @@
-Dfs遍历所有节点，当节点值不一致时，镜像翻转该节点，再比较一次。
-技巧：不必真的翻转，只需要更换比较入参再次递归遍历即可。
-```
+// Dfs遍历所有节点，当节点值不一致时，镜像翻转该节点，再比较一次。
+// 技巧：不必真的翻转，只需要更换比较入参再次递归遍历即可。
+// ```
 class Solution {
 public:
     bool flipEquiv(TreeNode* root1, TreeNode* root2) {
@@ -20,4 +20,4 @@ public:
                (flipEquiv(root1->left, root2->right) && flipEquiv(root1->right, root2->left));
     }
 };
-```
+// ```

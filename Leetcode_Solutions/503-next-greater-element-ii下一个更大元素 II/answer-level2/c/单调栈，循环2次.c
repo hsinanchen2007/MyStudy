@@ -1,5 +1,5 @@
-单调栈，循环2次，第2次的时候，不压栈。
-```
+// 单调栈，循环2次，第2次的时候，不压栈。
+// ```
 
 
 typedef struct tagNode {
@@ -107,4 +107,4 @@ int* nextGreaterElements(int* nums, int numsSize, int* returnSize)
     *returnSize = numsSize;
     return nexts;
 }
-```
+// ```

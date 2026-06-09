@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class Solution {
 public:
     int minDeletionSize(vector<string>& A) {
@@ -16,4 +16,4 @@ public:
         return s;
     }
 };
-```
+// ```

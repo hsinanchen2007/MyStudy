@@ -1,9 +1,9 @@
-### 递归+sprintf转换计数count为字符串
-此处撰写解题思路
+// ### 递归+sprintf转换计数count为字符串
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * countAndSay(int n){
 	if(n<=1)
 	{
@@ -42,4 +42,4 @@ char * countAndSay(int n){
 	s[num] = '\0';
 	return s;
 }
-```
+// ```

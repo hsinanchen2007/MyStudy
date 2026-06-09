@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int[] decompressRLElist(int[] nums) {
         // understand the question first
@@ -17,4 +17,4 @@ class Solution {
         return rs;
     }
 }
-```
+// ```

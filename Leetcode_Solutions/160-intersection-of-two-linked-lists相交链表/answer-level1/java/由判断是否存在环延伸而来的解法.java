@@ -1,5 +1,5 @@
-可以根据[142. 环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii/)的思路将headA链表的尾部与headB链表的头部连接起来 然后借助快慢指针来解题 当然效果其实一般 算是提供一种思路吧。。
-```java 
+// 可以根据[142. 环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii/)的思路将headA链表的尾部与headB链表的头部连接起来 然后借助快慢指针来解题 当然效果其实一般 算是提供一种思路吧。。
+// ```java 
 public class Solution {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         if(headB==null||headA==null)
@@ -40,5 +40,5 @@ public class Solution {
         return slow;
     }
 }
-```
+// ```
 

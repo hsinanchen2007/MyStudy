@@ -1,7 +1,7 @@
-双指针
-### 代码
+// 双指针
+// ### 代码
 
-```c
+// ```c
 int minSubArrayLen(int s, int* nums, int numsSize){
 
     int i = 0;
@@ -51,4 +51,4 @@ int minSubArrayLen(int s, int* nums, int numsSize){
 
     return lastcount;
 }
-```
+// ```

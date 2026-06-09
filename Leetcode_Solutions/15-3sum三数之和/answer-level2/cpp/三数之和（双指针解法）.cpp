@@ -1,12 +1,12 @@
-### 解题思路
-第一次下意识用暴力法提交超时了，然后看了下 [wu_yan_zu](https://leetcode-cn.com/problems/3sum/solution/pai-xu-shuang-zhi-zhen-zhu-xing-jie-shi-python3-by/) 的解题思路，豁然开朗，这里用c++实现了一下，仅供参考
+// ### 解题思路
+// 第一次下意识用暴力法提交超时了，然后看了下 [wu_yan_zu](https://leetcode-cn.com/problems/3sum/solution/pai-xu-shuang-zhi-zhen-zhu-xing-jie-shi-python3-by/) 的解题思路，豁然开朗，这里用c++实现了一下，仅供参考
 
-执行用时 :88 ms, 在所有 C++ 提交中击败了47.68% 的用户
-内存消耗 : 13.9 MB, 在所有 C++ 提交中击败了 100.00% 的用户
+// 执行用时 :88 ms, 在所有 C++ 提交中击败了47.68% 的用户
+// 内存消耗 : 13.9 MB, 在所有 C++ 提交中击败了 100.00% 的用户
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> threeSum(vector<int>& nums) {
@@ -47,4 +47,4 @@ public:
         return result;
     }
 };
-```
+// ```

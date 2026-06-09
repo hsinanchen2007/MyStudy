@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     TreeNode* maxtree(vector<int>& nums, int L, int R)
@@ -36,5 +36,5 @@ public:
     }
     
 };
-```
-请问大家，为什么第一个函数里 int record = L 改成 int record = 0 就不行呢？按理来说作用应该是一样的啊
+// ```
+// 请问大家，为什么第一个函数里 int record = L 改成 int record = 0 就不行呢？按理来说作用应该是一样的啊

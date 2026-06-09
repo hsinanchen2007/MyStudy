@@ -1,13 +1,13 @@
-1. 关于复杂度
-  1.1 时间复杂度为 O(n)
-  1.2 空间负责度为 O(n)
-2. 我的解题思路
-  2.1 创建一个大小为源矩阵的转置矩阵大小的矩阵
-  2.2 循环遍历源矩阵，将值放入对应的转置矩阵位置中
+// 1. 关于复杂度
+//   1.1 时间复杂度为 O(n)
+//   1.2 空间负责度为 O(n)
+// 2. 我的解题思路
+//   2.1 创建一个大小为源矩阵的转置矩阵大小的矩阵
+//   2.2 循环遍历源矩阵，将值放入对应的转置矩阵位置中
 
-<br />
-### java实现
-```
+// <br />
+// ### java实现
+// ```
 class Solution{
 
     /**
@@ -38,11 +38,11 @@ class Solution{
         return res;
     }
 }
-```
-<br />
+// ```
+// <br />
 
-### php实现
-```
+// ### php实现
+// ```
 class Solution{
 
     /**
@@ -77,7 +77,7 @@ class Solution{
         return $res;
     }
 }
-```
+// ```
 
-如果你有更好的想法或者疑问，可以到 [我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution) 提出issue，我会及时处理
-你也可以关注 [我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution) 获得其他题目解题思路
+// 如果你有更好的想法或者疑问，可以到 [我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution) 提出issue，我会及时处理
+// 你也可以关注 [我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution) 获得其他题目解题思路

@@ -1,4 +1,4 @@
-```js
+// ```js
 var toGoatLatin = function(S) {
     let pat = /^[aeiou]/i;
     let sArr = S.split(' ');
@@ -11,5 +11,5 @@ var toGoatLatin = function(S) {
     }
     return res.replace(/[\s]$/, '')
 };
-```
+// ```
 

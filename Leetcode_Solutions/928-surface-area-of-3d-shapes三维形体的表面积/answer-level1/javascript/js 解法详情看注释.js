@@ -1,4 +1,4 @@
-```
+// ```
 var surfaceArea = function(grid) {
   let s = 0;
   // 遍历每个位置的正方体
@@ -31,4 +31,4 @@ var surfaceArea = function(grid) {
   }
   return s;
 };
-```
+// ```

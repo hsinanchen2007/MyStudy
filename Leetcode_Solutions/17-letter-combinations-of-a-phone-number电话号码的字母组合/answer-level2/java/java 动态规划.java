@@ -1,19 +1,19 @@
-### 解题思路
-假设我们有一个dp数组，索引为i处的值表示当前位置的字符串列表
-      那么dp[i+1] = dp[i]的每一项添加i+1处代表的数组每一个char
-      for(String s:dp[i]){
-            for(char i : chars[i+1]){
-                String newStr = s+i;
-                dp[i+1].add(newStr);
-            }
-     }
+// ### 解题思路
+// 假设我们有一个dp数组，索引为i处的值表示当前位置的字符串列表
+//       那么dp[i+1] = dp[i]的每一项添加i+1处代表的数组每一个char
+//       for(String s:dp[i]){
+//             for(char i : chars[i+1]){
+//                 String newStr = s+i;
+//                 dp[i+1].add(newStr);
+//             }
+//      }
 
-注意到dp数组的每一项代表了一个List<String>
-     所以这里最好用List<List<String>>来表示dp
+// 注意到dp数组的每一项代表了一个List<String>
+//      所以这里最好用List<List<String>>来表示dp
  
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<String> letterCombinations(String digits) {
             char[][] digitChars = new char[][]{
@@ -54,4 +54,4 @@ class Solution {
         return dpList.get(lastIndex);
     }
 }
-```
+// ```

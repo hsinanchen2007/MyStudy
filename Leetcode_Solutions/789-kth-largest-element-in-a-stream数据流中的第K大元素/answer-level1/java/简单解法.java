@@ -1,4 +1,4 @@
-```
+// ```
 class KthLargest {
     //维持一个size位k的小根堆，里面存的都是到现在为止前K个最大的数
     PriorityQueue<Integer> heap;
@@ -24,4 +24,4 @@ class KthLargest {
     }
 }
 
-```
+// ```

@@ -1,6 +1,6 @@
-![捕获.PNG](https://pic.leetcode-cn.com/66e266c045ae83a40f0c883d9ca3c14b23425c9ec28821b7d574e2dabead0720-%E6%8D%95%E8%8E%B7.PNG)
+// ![捕获.PNG](https://pic.leetcode-cn.com/66e266c045ae83a40f0c883d9ca3c14b23425c9ec28821b7d574e2dabead0720-%E6%8D%95%E8%8E%B7.PNG)
 
-```
+// ```
 
 class Solution {
     public int eraseOverlapIntervals(int[][] intervals) {
@@ -26,4 +26,4 @@ class Solution {
     }
 }
 
-```
+// ```

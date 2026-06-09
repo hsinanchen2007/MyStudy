@@ -1,12 +1,12 @@
-### 解题思路
-把n拆成三部分，n=high*10^(digit+1)+cur*10^digit+low
-第digit位上出现1的个数为 high*d+(cur>1)*d+(cur==1)*low
-d=10^digit
-digit=0代表个位
+// ### 解题思路
+// 把n拆成三部分，n=high*10^(digit+1)+cur*10^digit+low
+// 第digit位上出现1的个数为 high*d+(cur>1)*d+(cur==1)*low
+// d=10^digit
+// digit=0代表个位
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int oneInDigit(long n,int digit){
@@ -34,4 +34,4 @@ public:
         return count;
     }
 };
-```
+// ```

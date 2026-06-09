@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 typedef struct TreeNode TreeNode;
 #define MAX_LEN 1000
@@ -50,4 +50,4 @@ int **pathSum(struct TreeNode *root, int sum, int *returnSize, int **returnColum
 
     return ans;
 } 
-```
+// ```

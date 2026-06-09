@@ -1,10 +1,10 @@
-### 解题思路
-1. 方法一：用两个队列互相倒腾实现栈、或者用两个栈互相倒腾实现队列（负负得正）
-2. 方法二：换下Array的pop和shift方法就可以了
+// ### 解题思路
+// 1. 方法一：用两个队列互相倒腾实现栈、或者用两个栈互相倒腾实现队列（负负得正）
+// 2. 方法二：换下Array的pop和shift方法就可以了
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Initialize your data structure here.
  */
@@ -53,4 +53,4 @@ MyStack.prototype.empty = function() {
  * var param_3 = obj.top()
  * var param_4 = obj.empty()
  */
-```
+// ```

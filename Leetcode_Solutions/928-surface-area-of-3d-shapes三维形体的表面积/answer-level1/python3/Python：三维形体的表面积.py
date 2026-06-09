@@ -1,12 +1,12 @@
-### 解题思路
-为什么是简单呢?!
-我觉得好难啊！
-暴力计算：
-算每一个格子最终的表面积，加起来
+# ### 解题思路
+# 为什么是简单呢?!
+# 我觉得好难啊！
+# 暴力计算：
+# 算每一个格子最终的表面积，加起来
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def surfaceArea(self, grid: List[List[int]]) -> int:
         area=0
@@ -23,4 +23,4 @@ class Solution:
                 if j-1>-1: area-=min(k,grid[i][j-1])
                 if j+1<column: area-=min(k,grid[i][j+1])
         return area
-```
+# ```

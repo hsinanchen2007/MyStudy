@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def numUniqueEmails(self, emails: List[str]) -> int:
         def process_email(email: str) -> str:
@@ -16,4 +16,4 @@ class Solution:
         for email in emails:
             res.add(process_email(email))
         return len(res)
-```
+# ```

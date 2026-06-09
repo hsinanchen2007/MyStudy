@@ -1,13 +1,13 @@
-### 解题思路
-1.核心思想：将数组进行排序，先尽量用更多最大的，然后依次将最大硬币的数量减少再试，然后再从第二大的开始试。
-2.最先找到的不一定是最优解，比如[1, 7, 10]，14，那么最先找到的就是10+1+1+1+1，但是7+7才是最优的，因此需要把每种情况都找完。
-3.如果数组当前的最大值比剩下的amount还要大，那么没必要将数组右边的数纳入组合，直接缩小数组范围，直到范围中所有的数都<=amount，这样可以减少递归次数。
+// ### 解题思路
+// 1.核心思想：将数组进行排序，先尽量用更多最大的，然后依次将最大硬币的数量减少再试，然后再从第二大的开始试。
+// 2.最先找到的不一定是最优解，比如[1, 7, 10]，14，那么最先找到的就是10+1+1+1+1，但是7+7才是最优的，因此需要把每种情况都找完。
+// 3.如果数组当前的最大值比剩下的amount还要大，那么没必要将数组右边的数纳入组合，直接缩小数组范围，直到范围中所有的数都<=amount，这样可以减少递归次数。
 
-参考：[ikaruga的题解](https://leetcode-cn.com/problems/coin-change/solution/322-by-ikaruga/)
+// 参考：[ikaruga的题解](https://leetcode-cn.com/problems/coin-change/solution/322-by-ikaruga/)
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func coinChange(coins []int, amount int) int {
     sort.Ints(coins)
     var best int = 0x7FFFFFFF
@@ -42,4 +42,4 @@ func Change(sortedCoins []int, amount int, bigCount int, best *int) {
         Change(sortedCoins[:lenCoins-1], amount-count*sortedCoins[lenCoins-1], bigCount+count, best)
     }
 }
-```
+// ```

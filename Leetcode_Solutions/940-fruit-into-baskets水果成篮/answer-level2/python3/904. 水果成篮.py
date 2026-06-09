@@ -1,9 +1,9 @@
-### 解题思路
-很恐怖，思路不清楚会很混乱。主要是要记录和更新起始位置
+# ### 解题思路
+# 很恐怖，思路不清楚会很混乱。主要是要记录和更新起始位置
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def totalFruit(self, tree: List[int]) -> int:
         if not tree:
@@ -44,4 +44,4 @@ class Solution:
 
 
 
-```
+# ```

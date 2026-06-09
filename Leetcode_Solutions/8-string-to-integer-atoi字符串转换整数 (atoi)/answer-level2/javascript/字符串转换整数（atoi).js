@@ -1,9 +1,9 @@
-### 解题思路
-主要是使用了正则
+// ### 解题思路
+// 主要是使用了正则
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} str
  * @return {number}
@@ -27,4 +27,4 @@ var myAtoi = function(str) {
     }
     return n
 };
-```
+// ```

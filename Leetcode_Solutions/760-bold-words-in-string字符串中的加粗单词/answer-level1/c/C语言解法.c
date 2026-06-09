@@ -1,8 +1,8 @@
-解题思想：建立一个对应长度的HightLight数组，数组中置1代表需要加粗，否则不需要，对于每个查询词都进行查询，记录出所有需要置1的地方，然后按照HightLight数组的连续0和连续1的位置加入<b> </b>
+// 解题思想：建立一个对应长度的HightLight数组，数组中置1代表需要加粗，否则不需要，对于每个查询词都进行查询，记录出所有需要置1的地方，然后按照HightLight数组的连续0和连续1的位置加入<b> </b>
 
-Strstr函数超长查询出错。。。（70/72）
-自己写HighLightWords1 就不会出错。。。
-解题使用的是HighLightWords1,大家可以尝试下使用strstr，会有诡异的错误。。。。
+// Strstr函数超长查询出错。。。（70/72）
+// 自己写HighLightWords1 就不会出错。。。
+// 解题使用的是HighLightWords1,大家可以尝试下使用strstr，会有诡异的错误。。。。
 
 void HighLightWords(char *input, char *word, int *highLight)
 {

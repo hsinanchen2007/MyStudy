@@ -1,9 +1,9 @@
-### 解题思路
-动态规划，temp[j][i]表示j到i位的子串为回文，temp[j][i]为回文的条件即为temp[j]==temp[i]且temp[j+1][i-1]也为回文。
+// ### 解题思路
+// 动态规划，temp[j][i]表示j到i位的子串为回文，temp[j][i]为回文的条件即为temp[j]==temp[i]且temp[j+1][i-1]也为回文。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {string}
@@ -26,4 +26,4 @@ var longestPalindrome = function(s) {
     }
     return res;
 };
-```
+// ```

@@ -1,7 +1,7 @@
-方法1：用两个队列, 一个专门push, 另一个pop.
-        push() : 先放到push队列里, 然后把之前进来的从pop中取出, 再放到push队列里面, 然后交换引用
-        pop () : 从pop中直接弹出
-```
+// 方法1：用两个队列, 一个专门push, 另一个pop.
+//         push() : 先放到push队列里, 然后把之前进来的从pop中取出, 再放到push队列里面, 然后交换引用
+//         pop () : 从pop中直接弹出
+// ```
 // 执行用时 :0 ms, 在所有 Go 提交中击败了100.00%的用户
 // 内存消耗 :2 MB, 在所有 Go 提交中击败了100.00%的用户
 type Queue []int
@@ -59,9 +59,9 @@ func (this *MyStack) Top() int {
 func (this *MyStack) Empty() bool {
     return len(*this.pop) == 0
 }
-```
-方法2 : 原理和方法1一样, 只不过一个队列就可以了
-```
+// ```
+// 方法2 : 原理和方法1一样, 只不过一个队列就可以了
+// ```
 type Queue []int
 
 func (q *Queue) offer(x int) {
@@ -114,7 +114,7 @@ func (this *MyStack) Top() int {
 func (this *MyStack) Empty() bool {
     return len(*this.q) == 0
 }
-```
+// ```
 
 
 

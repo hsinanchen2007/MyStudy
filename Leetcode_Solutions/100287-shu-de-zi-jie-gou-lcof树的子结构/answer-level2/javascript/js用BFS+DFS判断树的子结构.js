@@ -1,8 +1,8 @@
 
-BFS遍历A,然后用dfs来判断当前节点是否存在该子结构
-### 代码
+// BFS遍历A,然后用dfs来判断当前节点是否存在该子结构
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -36,4 +36,4 @@ var isSubStructure = function(A, B) {
     return false;
 
 };
-```
+// ```

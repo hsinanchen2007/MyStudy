@@ -1,8 +1,8 @@
-### 解题思路
-递归判断每个节点的左子树和右子树，遇到树深大于 1 的就算得到解。
-### 代码
+// ### 解题思路
+// 递归判断每个节点的左子树和右子树，遇到树深大于 1 的就算得到解。
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -27,4 +27,4 @@ var isBalanced = function(root) {
    helper(root)
    return result
 };
-```
+// ```

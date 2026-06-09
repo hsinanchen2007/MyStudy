@@ -1,15 +1,15 @@
-## 简介
-- [题目链接](https://leetcode-cn.com/problems/compress-string-lcci/)
+// ## 简介
+// - [题目链接](https://leetcode-cn.com/problems/compress-string-lcci/)
 
 
-## 解法一 - 双指针
-统计相邻字符的重复，我们可以使用双指针技巧。
-1. 假设两个指针 slow, fast，初始时都指向位置 0。
-2. 如果 $S[fast+1] = S[fast]$，那么 $fast = fast+1$，重复第 2 步；如果不等，进入第三步
-3. $[slow, fast]$ 区间里面就是相邻重复字符，将该区间拼接到答案上。
-4. 比较答案和原始长度返回
+// ## 解法一 - 双指针
+// 统计相邻字符的重复，我们可以使用双指针技巧。
+// 1. 假设两个指针 slow, fast，初始时都指向位置 0。
+// 2. 如果 $S[fast+1] = S[fast]$，那么 $fast = fast+1$，重复第 2 步；如果不等，进入第三步
+// 3. $[slow, fast]$ 区间里面就是相邻重复字符，将该区间拼接到答案上。
+// 4. 比较答案和原始长度返回
 
-```javascript
+// ```javascript
 /**
  * @param {string} S
  * @return {string}
@@ -32,8 +32,8 @@ var compressString = function(S) {
 
     return ans;
 };
-```
+// ```
 
-**复杂度分析**:
-- 时间复杂度： $O(N)$, $N$ 是字符串长度
-- 空间复杂度： $O(N)$， 答案的空间
+// **复杂度分析**:
+// - 时间复杂度： $O(N)$, $N$ 是字符串长度
+// - 空间复杂度： $O(N)$， 答案的空间

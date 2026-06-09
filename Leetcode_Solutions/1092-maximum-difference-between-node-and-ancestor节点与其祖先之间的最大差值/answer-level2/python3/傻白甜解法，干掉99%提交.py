@@ -1,14 +1,14 @@
-执行用时 :
-48 ms
-, 在所有 Python3 提交中击败了
-99.07%
-的用户
-内存消耗 :
-20 MB
-, 在所有 Python3 提交中击败了
-100.00%
-的用户
-```
+# 执行用时 :
+# 48 ms
+# , 在所有 Python3 提交中击败了
+# 99.07%
+# 的用户
+# 内存消耗 :
+# 20 MB
+# , 在所有 Python3 提交中击败了
+# 100.00%
+# 的用户
+# ```
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -40,4 +40,4 @@ class Solution:
         if node.right:
             self.solve(node.right, max_ans, min_ans)
         
-```
+# ```

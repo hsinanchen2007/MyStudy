@@ -1,7 +1,7 @@
-### 代码
-每到一个深度为N的节点时，会计算N次，并向下传递长度为N+1的数组
+// ### 代码
+// 每到一个深度为N的节点时，会计算N次，并向下传递长度为N+1的数组
 
-```javascript
+// ```javascript
 var pathSum = function(root, sum) {
     if(!root) {
         return 0
@@ -33,4 +33,4 @@ function RecursiveFunc(node, sum, num, parentSumArr) {
     RecursiveFunc(node.left, sum, num, [].concat(...parentSumArr))
     RecursiveFunc(node.right, sum, num, [].concat(...parentSumArr))
 }
-```
+// ```

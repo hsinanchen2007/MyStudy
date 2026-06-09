@@ -1,4 +1,4 @@
-```python
+# ```python
 def fairCandySwap(A, B):
     # 求得A和B交换元素的差值
     sum_a, sum_b = sum(A), sum(B)
@@ -14,4 +14,4 @@ print(fairCandySwap([1,1], [2,2]))
 print(fairCandySwap([1,2], [2,3]))
 print(fairCandySwap([2], [1,3]))
 print(fairCandySwap([1,2,5], [2,4]))
-```
+# ```

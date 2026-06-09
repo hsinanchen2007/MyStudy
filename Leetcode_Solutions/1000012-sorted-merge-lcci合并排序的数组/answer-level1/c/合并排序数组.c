@@ -1,5 +1,5 @@
-每次排序的位置都在A数组的最后一个单元
-```
+// 每次排序的位置都在A数组的最后一个单元
+// ```
 void merge(int* A, int ASize, int m, int* B, int BSize, int n){
     int apoint=m-1;
     int bpoint=n-1;
@@ -22,4 +22,4 @@ void merge(int* A, int ASize, int m, int* B, int BSize, int n){
         bpoint--;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 int lengthOfLIS(int* nums, int numsSize)
 {
     if (numsSize <= 0) {
@@ -36,4 +36,4 @@ int lengthOfLIS(int* nums, int numsSize)
     }
     return result;
 }
-```
+// ```

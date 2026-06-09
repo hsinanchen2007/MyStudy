@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-用了字典的有序性和哈希性。
+# 用了字典的有序性和哈希性。
 
-### 代码
+# ### 代码
 
-```python []
+# ```python []
 class Solution:
     def removeDuplicateNodes(self, head: ListNode) -> ListNode:
         d = {}
@@ -18,4 +18,4 @@ class Solution:
             tmp = tmp.next
         tmp.next = None
         return ans.next
-```
+# ```

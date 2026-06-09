@@ -1,8 +1,8 @@
-思路：
-    遍历节点，交换左右节点就OK！
+// 思路：
+//     遍历节点，交换左右节点就OK！
 
-代码：
-```
+// 代码：
+// ```
 
 class Solution {
     public TreeNode invertTree(TreeNode root) {
@@ -21,4 +21,4 @@ class Solution {
         comb(l.left);
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-下面代码的执行时间是**36ms**, 内存消耗是**20.9MB**。  
-在循环的代码中有寻址的过程时，先将String转化为数组Array，不仅能够简化寻址代码，还能提高寻址速度。
-```swift
+// 下面代码的执行时间是**36ms**, 内存消耗是**20.9MB**。  
+// 在循环的代码中有寻址的过程时，先将String转化为数组Array，不仅能够简化寻址代码，还能提高寻址速度。
+// ```swift
 class Solution {
     func longestPalindrome(_ s: String) -> String {
         if(s.count < 1){
@@ -42,4 +42,4 @@ class Solution {
         return Array(sMap[start..<start+maxLen]).joined()
     }
 }
-```
+// ```

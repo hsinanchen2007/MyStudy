@@ -1,9 +1,9 @@
-### 解题思路
-遍历到第k个数的时候，如果前k-1个数之和为负数，则丢弃前k-1个数之和。遍历过程中保存最大和。
+// ### 解题思路
+// 遍历到第k个数的时候，如果前k-1个数之和为负数，则丢弃前k-1个数之和。遍历过程中保存最大和。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -20,4 +20,4 @@ var maxSubArray = function(nums) {
   }
   return ans;
 };
-```
+// ```

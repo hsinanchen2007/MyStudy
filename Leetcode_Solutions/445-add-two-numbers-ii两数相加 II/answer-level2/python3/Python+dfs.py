@@ -1,11 +1,11 @@
-### 解题思路
-dfs + 一些辅助函数
-![2020-01-01 00-16-32屏幕截图.png](https://pic.leetcode-cn.com/843d6f979e3b9801fd6513a4072c2c7e3eaba90df156f8ef541d62ebd408f85b-2020-01-01%2000-16-32%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)
+# ### 解题思路
+# dfs + 一些辅助函数
+# ![2020-01-01 00-16-32屏幕截图.png](https://pic.leetcode-cn.com/843d6f979e3b9801fd6513a4072c2c7e3eaba90df156f8ef541d62ebd408f85b-2020-01-01%2000-16-32%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -63,4 +63,4 @@ class Solution:
     #         res.append(head.val)
     #         head = head.next
     #     return res
-```
+# ```

@@ -1,5 +1,5 @@
-统计X和O的数量，顺便统计谁赢得了这盘游戏，根据X和O的数量以及是否有人取胜，做出相应判断即可。
-```java []
+// 统计X和O的数量，顺便统计谁赢得了这盘游戏，根据X和O的数量以及是否有人取胜，做出相应判断即可。
+// ```java []
 public boolean validTicTacToe(String[] board) {
         int XCount = 0;
             int OCount = 0;
@@ -45,8 +45,8 @@ public boolean validTicTacToe(String[] board) {
             if ((b[0] && XCount == OCount) || (b[1] && XCount > OCount)) return false;
             return true;
     }
-```
-```C# []
+// ```
+// ```C# []
 public bool ValidTicTacToe(string[] board) {
             int XCount = 0;
             int OCount = 0;
@@ -95,5 +95,5 @@ public bool ValidTicTacToe(string[] board) {
             if ((b[0] && XCount == OCount) || (b[1] && XCount > OCount)) return false;
             return true;
     }
-```
+// ```
 

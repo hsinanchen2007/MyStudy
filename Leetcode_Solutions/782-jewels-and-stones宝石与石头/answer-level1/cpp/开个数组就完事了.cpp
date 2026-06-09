@@ -1,9 +1,9 @@
-### 解题思路
-开个数组就完事了
+// ### 解题思路
+// 开个数组就完事了
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numJewelsInStones(string J, string S) {
@@ -22,4 +22,4 @@ public:
         return ret;
     }
 };
-```
+// ```

@@ -1,6 +1,6 @@
-*法一*
+// *法一*
 
-```js
+// ```js
 var licenseKeyFormatting = function(S, K) {
     S = S.toUpperCase().replace(/\-/g,'');
     let index = S.length % K;
@@ -16,11 +16,11 @@ var licenseKeyFormatting = function(S, K) {
     }
     return arr.join('-');
 };
-```
+// ```
 
-*法二：逆序插入*
+// *法二：逆序插入*
 
-```js
+// ```js
 var licenseKeyFormatting2 = function(S, K) {
     S = S.replace(/-/g, '')
     let res = ''
@@ -31,5 +31,5 @@ var licenseKeyFormatting2 = function(S, K) {
     }
     return res.toUpperCase()
 };
-```
+// ```
 

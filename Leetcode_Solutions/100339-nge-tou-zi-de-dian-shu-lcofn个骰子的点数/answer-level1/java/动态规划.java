@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public double[] twoSum(int n) {
         //dp[i][j]，i表示色子，j代表总点数
@@ -33,4 +33,4 @@ class Solution {
 
     }
 }
-```
+// ```

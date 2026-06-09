@@ -1,19 +1,19 @@
-### 解题思路
-状态转移方程：
-$$
-dp[i][j] =
-\begin{cases} dp[i-1][j-1]+1 & \text{s1[i]==s2[j]} \\
-max(dp[i-1][j],dp[i][j-1])& \text{s1[i]!=s2[j]}
-\end{cases}
-$$
+# ### 解题思路
+# 状态转移方程：
+# $$
+# dp[i][j] =
+# \begin{cases} dp[i-1][j-1]+1 & \text{s1[i]==s2[j]} \\
+# max(dp[i-1][j],dp[i][j-1])& \text{s1[i]!=s2[j]}
+# \end{cases}
+# $$
 
-从上面看出，我们只参考状态`dp[i-1][j-1]`和`dp[i-1][j]`也就是上面一行的状态，但是可能会问，这里不是还有`dp[i][j-1]`，其状态明显是从左、上和左上转化过来的！
+# 从上面看出，我们只参考状态`dp[i-1][j-1]`和`dp[i-1][j]`也就是上面一行的状态，但是可能会问，这里不是还有`dp[i][j-1]`，其状态明显是从左、上和左上转化过来的！
 
-想要优化，那么就是用一个变量存`dp[i][j-1]`这个值，防止覆盖即可。
+# 想要优化，那么就是用一个变量存`dp[i][j-1]`这个值，防止覆盖即可。
 
-### 一维DP
+# ### 一维DP
 
-```c []
+# ```c []
 #define max(a, b) ((a) > (b) ? (a) : (b))
 
 int longestCommonSubsequence(char * text1, char * text2){
@@ -39,13 +39,13 @@ int longestCommonSubsequence(char * text1, char * text2){
     }
     return dp[len2];
 }
-```
+# ```
 
-### "滚动"数组
-这里其实可以创建两层数组，然后取余实现滚动填充，但是更好的方法就是变量两两交换的方式。或者第二个数组一直创建，然后第一个去复制第二个。
+# ### "滚动"数组
+# 这里其实可以创建两层数组，然后取余实现滚动填充，但是更好的方法就是变量两两交换的方式。或者第二个数组一直创建，然后第一个去复制第二个。
 
-1. 不停申请第二层数组
-```python3 []
+# 1. 不停申请第二层数组
+# ```python3 []
 class Solution:
     def longestCommonSubsequence(self, text1: str, text2: str) -> int:
         len1, len2 = len(text1), len(text2)
@@ -59,10 +59,10 @@ class Solution:
                     dp2[j] = max(dp2[j-1], dp1[j])  # dp[i-1][j]:第一行数组储存的;dp[i][j-1]本数组
             dp1 = dp2  # 引用（后面dp1不用被gc)
         return dp1[-1]
-```
-2. 两两交换操作
+# ```
+# 2. 两两交换操作
 
-```python3 []
+# ```python3 []
 class Solution:
     def longestCommonSubsequence(self, text1: str, text2: str) -> int:
         len1, len2 = len(text1), len(text2)
@@ -76,4 +76,4 @@ class Solution:
                     dp2[j] = max(dp2[j-1], dp1[j])  # dp[i-1][j]:第一行数组储存的;dp[i][j-1]本数组
             dp1, dp2 = dp2, dp1  # 交换，行倒转填充(关键，相当于取余实现的二维数组滚动！)
         return dp1[-1]
-```
+# ```

@@ -1,17 +1,17 @@
-1.如果使用递归做，那么必须列举出所有的路径的可能，找到一条收货最大的路径。
-首先定义int[] nums 为每个房屋的坐标及里面的金额集和，index表示小偷在第（index + 1）的房间里。小偷不能偷相邻的！
-得出递归公式：
-```
+// 1.如果使用递归做，那么必须列举出所有的路径的可能，找到一条收货最大的路径。
+// 首先定义int[] nums 为每个房屋的坐标及里面的金额集和，index表示小偷在第（index + 1）的房间里。小偷不能偷相邻的！
+// 得出递归公式：
+// ```
 在第index + 1个房间上能偷的最大金额 f(index) = nums[index] + Math.max(f(index + 2), f(index + 3));
-```
-递归边界条件
-```
+// ```
+// 递归边界条件
+// ```
 1.当从Begindex = 0 开始偷，边界index < nums.length - 1
 2.当从Begindex = 1 开始偷，边界index < nums.length
 3.当从Begindex = 2 开始偷，边界index < nums.length
-```
-代码如下：
-```
+// ```
+// 代码如下：
+// ```
 class Solution {
     public int rob(int[] nums) {
         if(nums.length == 1) {
@@ -33,11 +33,11 @@ class Solution {
     }
 
 }
-```
-2.存在大量重复计算
-3.待备忘录的递归
-这个备忘录分两种情况：1.能到达nums.length - 1 2.不能到达nums.length - 1
-```
+// ```
+// 2.存在大量重复计算
+// 3.待备忘录的递归
+// 这个备忘录分两种情况：1.能到达nums.length - 1 2.不能到达nums.length - 1
+// ```
 class Solution {
     public static int rob(int[] nums) {
         HashMap<Integer, Integer> hashMap = new HashMap<>();
@@ -64,19 +64,19 @@ class Solution {
     }
 
 }
-```
-4.动态规划
-用 dp[] 来记录当前位置所能获得最大的金额数。
-```
+// ```
+// 4.动态规划
+// 用 dp[] 来记录当前位置所能获得最大的金额数。
+// ```
 dp[i] = nums[i] + Math.max(dp[i - 2], dp[i - 3]);
-```
-有两种状态
-```
+// ```
+// 有两种状态
+// ```
 1.从 0开始 不包含nums.length-1
 2.从 1开始 包含nums.length-1
-```
-代码如下：
-```
+// ```
+// 代码如下：
+// ```
 class Solution {
     public int rob(int[] nums) {
         int length = nums.length;
@@ -105,4 +105,4 @@ class Solution {
         return Math.max(dp[dp.length - 1], dp[dp.length - 2]);
     }
 }
-```
+// ```

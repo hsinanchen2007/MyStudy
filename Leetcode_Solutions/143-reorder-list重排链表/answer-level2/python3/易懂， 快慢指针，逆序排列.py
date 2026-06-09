@@ -1,12 +1,12 @@
-### 解题思路
-本题解法多样，各算法性能参差不齐
-首先通过快慢指针找到中点位置和末尾位置；
-将中点之后的链表进行逆序排列；
-将逆序排列后的链表按照顺序插入到中点之前的链表中
+# ### 解题思路
+# 本题解法多样，各算法性能参差不齐
+# 首先通过快慢指针找到中点位置和末尾位置；
+# 将中点之后的链表进行逆序排列；
+# 将逆序排列后的链表按照顺序插入到中点之前的链表中
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 class ListNode:
     def __init__(self, x):
@@ -47,4 +47,4 @@ class Solution:
             fast.next, cursor.next = cursor.next, fast
             cursor, fast = fast.next, fast_temp
 
-```
+# ```

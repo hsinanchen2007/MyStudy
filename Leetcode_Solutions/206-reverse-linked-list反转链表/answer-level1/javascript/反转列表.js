@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -25,4 +25,4 @@ const reverseList = (head)=> {
 
     return foot;
 };
-```
+// ```

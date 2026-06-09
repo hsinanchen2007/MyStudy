@@ -1,4 +1,4 @@
-```
+# ```
         def find(l, r, s, target):
             if r > target // 2 + 1:
                 return []
@@ -9,5 +9,5 @@
             else:   
                 return find(l + 1, r, s - l, target)
         return find(1, 2, 3, target)
-```
-分三种情况考虑就好了
+# ```
+# 分三种情况考虑就好了

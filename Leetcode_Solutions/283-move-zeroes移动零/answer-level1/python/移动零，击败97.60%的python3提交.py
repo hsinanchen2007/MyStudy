@@ -1,6 +1,6 @@
-解题思路：遍历列表，遇到0就pop到列表尾部。
+# 解题思路：遍历列表，遇到0就pop到列表尾部。
 
-```
+# ```
 class Solution:
     def moveZeroes(self, nums: List[int]) -> None:
         """
@@ -16,4 +16,4 @@ class Solution:
             else:
                 i += 1
         
-```
+# ```

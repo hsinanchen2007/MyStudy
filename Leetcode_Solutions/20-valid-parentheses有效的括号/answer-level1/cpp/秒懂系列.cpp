@@ -1,11 +1,11 @@
-![image.png](https://pic.leetcode-cn.com/bb65db63892661c950549f2fcc59febf0e8e17be90d660972ea9a863b0b9cd08-image.png)
+// ![image.png](https://pic.leetcode-cn.com/bb65db63892661c950549f2fcc59febf0e8e17be90d660972ea9a863b0b9cd08-image.png)
 
-遍历字符串
-- ([{ 前括号直接入栈
-- )]} 栈不空的情况下,后括号的前一个不是与之对应 返回false, 返回将栈中对应的出栈
-最后栈不空返回false
+// 遍历字符串
+// - ([{ 前括号直接入栈
+// - )]} 栈不空的情况下,后括号的前一个不是与之对应 返回false, 返回将栈中对应的出栈
+// 最后栈不空返回false
 
-```c
+// ```c
 class Solution {
 public:
     bool isValid(string s) {
@@ -25,4 +25,4 @@ public:
         return true;
     }
 };
-```
+// ```

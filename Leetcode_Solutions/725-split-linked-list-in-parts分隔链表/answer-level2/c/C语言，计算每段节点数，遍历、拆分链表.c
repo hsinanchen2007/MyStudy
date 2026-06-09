@@ -1,20 +1,20 @@
-![image.png](https://pic.leetcode-cn.com/1d24bab187ebb86f64092b2dcfcfcba640bd87fb43e17a71d1e24ba366fbffa5-image.png)
+// ![image.png](https://pic.leetcode-cn.com/1d24bab187ebb86f64092b2dcfcfcba640bd87fb43e17a71d1e24ba366fbffa5-image.png)
 
-### 解题思路
-1. 遍历一下，取总长度`size`；
-2. 计算每一段的节点数`subCnt = 基础节点数subSize + 补充节点数`
-   其中，基础节点数`subSize = size / k`；  
-   剩余节点数`modSize = size % k`，将剩余节点数一个一个取出来，作为`补充节点`加到每一段中，取完为止。所以补充节点数为1或者为0。  
-   即：  
-   ```c  
+// ### 解题思路
+// 1. 遍历一下，取总长度`size`；
+// 2. 计算每一段的节点数`subCnt = 基础节点数subSize + 补充节点数`
+//    其中，基础节点数`subSize = size / k`；  
+//    剩余节点数`modSize = size % k`，将剩余节点数一个一个取出来，作为`补充节点`加到每一段中，取完为止。所以补充节点数为1或者为0。  
+//    即：  
+//    ```c  
    subCnt = subSize + ((modSize > 0)?1:0);   
    modSize--;
-   ```
-3. 有了每段的节点数，剩下的工作就是遍历整个链表，按节点数拆分保存即可。
+//    ```
+// 3. 有了每段的节点数，剩下的工作就是遍历整个链表，按节点数拆分保存即可。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -75,4 +75,4 @@ struct ListNode** splitListToParts(struct ListNode* root, int k, int* returnSize
 
     return ret;
 }
-```
+// ```

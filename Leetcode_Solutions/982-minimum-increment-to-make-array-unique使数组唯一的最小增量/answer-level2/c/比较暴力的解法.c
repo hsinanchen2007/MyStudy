@@ -1,9 +1,9 @@
-### 解题思路
-就当复习一下快排。
+// ### 解题思路
+// 就当复习一下快排。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void quick_sort(int left, int right, int* A) {
     if (left >= right) {
         return;
@@ -49,4 +49,4 @@ int minIncrementForUnique(int* A, int ASize){
     }
     return count;
 }
-```
+// ```

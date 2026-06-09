@@ -1,9 +1,9 @@
-### 解题思路
-每次交互都是四个点的交互，找出四个点的关系，就可以轻松解决问题。
+// ### 解题思路
+// 每次交互都是四个点的交互，找出四个点的关系，就可以轻松解决问题。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
      public void rotate(int[][] matrix) {
         int len = matrix.length;
@@ -24,4 +24,4 @@ class Solution {
         matrix[col][len - row] = tmp;
     }
 }
-```
+// ```

@@ -1,13 +1,13 @@
-### 解题思路
+// ### 解题思路
 
-建立前綴樹
+// 建立前綴樹
 
-搜尋時, 搜尋成功的條件為:(1)需為完整單字(不可為單字內的部份),(2)換字母一次.
+// 搜尋時, 搜尋成功的條件為:(1)需為完整單字(不可為單字內的部份),(2)換字母一次.
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MagicDictionary {
 
     /** Initialize your data structure here. */
@@ -74,4 +74,4 @@ class MagicDictionary {
  * obj.buildDict(dict);
  * boolean param_2 = obj.search(word);
  */
-```
+// ```

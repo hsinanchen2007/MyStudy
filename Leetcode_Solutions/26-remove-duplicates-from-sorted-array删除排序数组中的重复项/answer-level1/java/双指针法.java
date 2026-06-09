@@ -1,12 +1,12 @@
-![l.png](https://pic.leetcode-cn.com/628574667b4f008c207850b7876704c84be292749f200fe28ec8c7c5230fbe24-l.png)
+// ![l.png](https://pic.leetcode-cn.com/628574667b4f008c207850b7876704c84be292749f200fe28ec8c7c5230fbe24-l.png)
 
 
-### 解题思路
-用两个指针分别代表新数组的尾部索引和原数组的遍历索引，过滤重复项，只留递增数字
+// ### 解题思路
+// 用两个指针分别代表新数组的尾部索引和原数组的遍历索引，过滤重复项，只留递增数字
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int removeDuplicates(int[] nums) {
         if(nums==null|nums.length<1){
@@ -28,4 +28,4 @@ class Solution {
         return p+1;
     }
 }
-```
+// ```

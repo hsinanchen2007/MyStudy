@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 方法1：递归
 class Solution {
 public:
@@ -24,11 +24,11 @@ public:
     }
 };
 
-```
+// ```
 
 
-方法2：迭代
-```
+// 方法2：迭代
+// ```
 class Solution {
 public:
     int kthSmallest(TreeNode* root, int k) {
@@ -51,5 +51,5 @@ public:
          return 0;
     }
 };
-```
+// ```
 

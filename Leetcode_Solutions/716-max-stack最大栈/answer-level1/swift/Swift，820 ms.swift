@@ -1,4 +1,4 @@
-```swift
+// ```swift
 class MaxStack {
 
     var stack = [Int]()
@@ -56,4 +56,4 @@ class MaxStack {
  * let ret_4: Int = obj.peekMax()
  * let ret_5: Int = obj.popMax()
  */
-```
+// ```

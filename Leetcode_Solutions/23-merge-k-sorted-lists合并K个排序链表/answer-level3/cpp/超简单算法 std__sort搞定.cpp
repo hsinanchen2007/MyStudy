@@ -1,5 +1,5 @@
-超简单，不需要什么heap，直接全部读出来，排序，然后重新连一遍就好了。
-```
+// 超简单，不需要什么heap，直接全部读出来，排序，然后重新连一遍就好了。
+// ```
 ListNode* mergeKLists(vector<ListNode*>& lists) {
     vector<ListNode*> longList;
     for (ListNode* start:lists){
@@ -17,4 +17,4 @@ ListNode* mergeKLists(vector<ListNode*>& lists) {
     longList[longList.size()-1]->next = NULL;
     return longList[0];
 }
-```
+// ```

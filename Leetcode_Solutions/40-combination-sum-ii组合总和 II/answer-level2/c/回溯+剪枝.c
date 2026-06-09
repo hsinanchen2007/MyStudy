@@ -1,9 +1,9 @@
-### 解题思路
-去除重复元素最好的方式就是排序，让最后的输出按照递增或递减输出，这样子保证不会重复组合。
+// ### 解题思路
+// 去除重复元素最好的方式就是排序，让最后的输出按照递增或递减输出，这样子保证不会重复组合。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void swap(int *a, int *b)
 {
     int tmp = *a;
@@ -73,4 +73,4 @@ int** combinationSum2(int* candidates, int candidatesSize, int target, int* retu
     *returnColumnSizes = returncolumnSizes;
     return result;
 }
-```
+// ```

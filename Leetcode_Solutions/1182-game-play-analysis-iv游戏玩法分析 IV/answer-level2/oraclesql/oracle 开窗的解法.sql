@@ -1,4 +1,4 @@
-```
+-- ```
 /* Write your PL/SQL query statement below */
 SELECT round(SUM(CASE 
 		WHEN event_date + 1 = nextDate THEN 1
@@ -10,4 +10,4 @@ FROM (
 	FROM Activity
 ) a
 WHERE rk = 1
-```
+-- ```

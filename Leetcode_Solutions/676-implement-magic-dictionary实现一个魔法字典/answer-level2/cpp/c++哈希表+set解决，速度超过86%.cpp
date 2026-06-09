@@ -1,6 +1,6 @@
-将dict中每个单词的字母逐个替换成！然后作为map的key放入map中，map的value是这个键出现的次数，并用一个set保存dict的所有字符串。
-查询的时候，依次替换被查询单词每个字母为！，找到最大的value，如果是0或者是1且原dict出现过则返回false，否则是true；
-```
+// 将dict中每个单词的字母逐个替换成！然后作为map的key放入map中，map的value是这个键出现的次数，并用一个set保存dict的所有字符串。
+// 查询的时候，依次替换被查询单词每个字母为！，找到最大的value，如果是0或者是1且原dict出现过则返回false，否则是true；
+// ```
 class MagicDictionary {
 private:
     unordered_map<string, int> magicDict;
@@ -36,5 +36,5 @@ public:
         return true;
     }
 };
-```
-![微信图片_20191230160344.png](https://pic.leetcode-cn.com/06dd2741fcd7888ac658cd4c060b04ff3f5147dc9018f7041c73a336298151d5-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20191230160344.png)
+// ```
+// ![微信图片_20191230160344.png](https://pic.leetcode-cn.com/06dd2741fcd7888ac658cd4c060b04ff3f5147dc9018f7041c73a336298151d5-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20191230160344.png)

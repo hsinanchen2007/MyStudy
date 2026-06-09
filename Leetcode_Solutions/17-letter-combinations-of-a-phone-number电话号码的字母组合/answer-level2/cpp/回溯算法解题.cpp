@@ -1,9 +1,9 @@
-### 解题思路
-每一层都做选择，dfs来进行每一层遍历。
+// ### 解题思路
+// 每一层都做选择，dfs来进行每一层遍历。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public: 
     void initMap(map<char, string> &dig2str)
@@ -54,4 +54,4 @@ private:
     vector<string> result;
     map<char, string> g_map;
 };
-```
+// ```

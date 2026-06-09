@@ -1,11 +1,11 @@
-![image.png](https://pic.leetcode-cn.com/d00a5c5449090933e0e01d8f29a46a51d2dcec63745ece811e6b5b1d59b2f74d-image.png)
+// ![image.png](https://pic.leetcode-cn.com/d00a5c5449090933e0e01d8f29a46a51d2dcec63745ece811e6b5b1d59b2f74d-image.png)
 
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} maxSize
  */
@@ -53,4 +53,4 @@ CustomStack.prototype.increment = function(k, val) {
  * var param_2 = obj.pop()
  * obj.increment(k,val)
  */
-```
+// ```

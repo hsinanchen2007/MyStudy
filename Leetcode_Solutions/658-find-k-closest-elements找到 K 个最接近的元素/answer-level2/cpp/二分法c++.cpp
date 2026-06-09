@@ -1,6 +1,6 @@
-执行用时 :112 ms, 在所有 C++ 提交中击败了93.99%的用户
-内存消耗 :13.5 MB, 在所有 C++ 提交中击败了43.20%的用户
-```
+// 执行用时 :112 ms, 在所有 C++ 提交中击败了93.99%的用户
+// 内存消耗 :13.5 MB, 在所有 C++ 提交中击败了43.20%的用户
+// ```
 class Solution {
 public:
     vector<int> findClosestElements(vector<int>& arr, int k, int x) {
@@ -87,4 +87,4 @@ public:
         return result;
     }
 };
-```
+// ```

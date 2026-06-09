@@ -1,4 +1,4 @@
-```
+// ```
 import "math"
 
 func min(a, b int) int {
@@ -41,4 +41,4 @@ func cheapestJump(A []int, B int) []int {
 	}
 	return out
 }
-```
+// ```

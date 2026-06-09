@@ -1,10 +1,10 @@
-### 解题思路
-相对比较简单，注意一下最后一下进位的处理
+// ### 解题思路
+// 相对比较简单，注意一下最后一下进位的处理
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string addBinary(string a, string b) {
@@ -29,4 +29,4 @@ public:
       return res;
     }
 };
-```
+// ```

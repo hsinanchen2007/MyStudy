@@ -1,4 +1,4 @@
-```
+// ```
 typedef long long ll;
 class Solution {
 public:
@@ -30,4 +30,4 @@ public:
         return res*bol;
     }
 };
-```
+// ```

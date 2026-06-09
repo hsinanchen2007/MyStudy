@@ -1,15 +1,15 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/10/8
- *
- * 解题思路: 使用hashmap 存储<id,Employee>映射 之后使用队列 或者 递归深度遍历的方式进行子员工的重要性的收集
- *
- * 注意: 本质上是一个树的遍历
- *
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/10/8
+//  *
+//  * 解题思路: 使用hashmap 存储<id,Employee>映射 之后使用队列 或者 递归深度遍历的方式进行子员工的重要性的收集
+//  *
+//  * 注意: 本质上是一个树的遍历
+//  *
+//  */
+// ```
 public class leetcode690 {
 
     public int getImportance(List<Employee> employees, int id) {
@@ -68,4 +68,4 @@ public class leetcode690 {
 
     }
 }
-```
+// ```

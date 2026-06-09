@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def countComponents(self, n, edges):
         dic = collections.defaultdict(list)  # 用value默认为list的字典构图，时间复杂度最差情况为O(N^2)
@@ -21,4 +21,4 @@ class Solution(object):
                             visited.add(n)
                             q.append(n)
         return res  # 遍历结束输出res即为所求
-```
+# ```

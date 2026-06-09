@@ -1,9 +1,9 @@
-### 解题思路
-每隔(2 * numRows - 2)一个循环，第二个数是第二个循环的头减去第几行
+// ### 解题思路
+// 每隔(2 * numRows - 2)一个循环，第二个数是第二个循环的头减去第几行
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string convert(string s, int numRows) {
@@ -35,4 +35,4 @@ public:
         return strResult;
     }
 };
-```
+// ```

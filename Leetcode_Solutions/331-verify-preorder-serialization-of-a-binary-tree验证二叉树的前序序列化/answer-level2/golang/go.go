@@ -1,4 +1,4 @@
-```
+// ```
 func isValidSerialization(preorder string) bool {
 	c, bs := 1, []byte(preorder)
 	bs = append(bs, ',')
@@ -17,4 +17,4 @@ func isValidSerialization(preorder string) bool {
 	}
 	return c == 0
 }
-```
+// ```

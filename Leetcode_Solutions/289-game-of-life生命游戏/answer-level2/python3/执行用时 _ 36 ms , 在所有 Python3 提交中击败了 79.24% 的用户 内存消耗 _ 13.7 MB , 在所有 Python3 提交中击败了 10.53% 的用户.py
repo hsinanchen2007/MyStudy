@@ -1,10 +1,10 @@
-### 解题思路
-复制一个面板，实现同步更新
+# ### 解题思路
+# 复制一个面板，实现同步更新
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def gameOfLife(self, board: List[List[int]]) -> None:
         """
@@ -28,4 +28,4 @@ class Solution:
                     board[row][col] = 0
                 if copy_board[row][col] == 0 and live_cell == 3:
                     board[row][col] = 1
-```
+# ```

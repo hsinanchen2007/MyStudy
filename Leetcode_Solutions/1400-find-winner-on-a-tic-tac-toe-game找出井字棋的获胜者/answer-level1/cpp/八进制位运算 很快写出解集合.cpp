@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     string tictactoe(vector<vector<int>>& moves) {
@@ -28,4 +28,4 @@ public:
             return "Pending";
     }
 };
-```
+// ```

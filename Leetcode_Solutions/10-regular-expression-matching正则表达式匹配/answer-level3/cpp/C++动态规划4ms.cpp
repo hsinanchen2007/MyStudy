@@ -1,8 +1,8 @@
-时间复杂度O(m*n)
+// 时间复杂度O(m*n)
 
-dp[i][j]表示模式串前i个字符"p.substr(0,i)"与待匹配串前j个字符"s.substr(0,j)"的匹配状态
+// dp[i][j]表示模式串前i个字符"p.substr(0,i)"与待匹配串前j个字符"s.substr(0,j)"的匹配状态
 
-```
+// ```
 class Solution {
 public:
     bool isMatch(string s, string p) {
@@ -42,4 +42,4 @@ public:
         return dp[p.length()][s.length()];
     }
 };
-```
+// ```

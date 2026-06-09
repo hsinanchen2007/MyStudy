@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int findContentChildren(vector<int>& g, vector<int>& s) {
@@ -15,5 +15,5 @@ public:
         return ans;
     }
 };
-```
-**和 122 买卖股票的最佳时机 II有点像  **
+// ```
+// **和 122 买卖股票的最佳时机 II有点像  **

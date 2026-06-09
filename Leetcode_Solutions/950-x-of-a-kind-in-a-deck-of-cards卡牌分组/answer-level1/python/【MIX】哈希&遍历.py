@@ -1,10 +1,10 @@
-### 解题思路
-1. 建立数字-频次哈希表, 遍历表长度因子进行判断
-2. 对哈希表的频次求出最大公约数, 检测其值是否大于1
+# ### 解题思路
+# 1. 建立数字-频次哈希表, 遍历表长度因子进行判断
+# 2. 对哈希表的频次求出最大公约数, 检测其值是否大于1
 
-### 代码
+# ### 代码
 
-```java []
+# ```java []
 class Solution {
     public boolean hasGroupsSizeX(int[] deck) {
         // 表长遍历
@@ -52,8 +52,8 @@ class Solution {
         return factors;
     }
 }
-```
-```python []
+# ```
+# ```python []
 import math
 class Solution:
     def hasGroupsSizeX(self, deck: List[int]) -> bool:
@@ -90,8 +90,8 @@ class Solution:
 
 
         return False
-```
-```c++ []
+# ```
+# ```c++ []
 class Solution {
 public:
     bool hasGroupsSizeX(vector<int>& deck) {
@@ -121,4 +121,4 @@ public:
         return gcd(y, x%y);
     }
 };
-```
+# ```

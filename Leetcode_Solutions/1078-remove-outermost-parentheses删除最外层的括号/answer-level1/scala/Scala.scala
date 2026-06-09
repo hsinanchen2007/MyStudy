@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```scala
+// ```scala
 object Solution {
     def removeOuterParentheses(S: String): String = {
       val s = new StringBuilder
@@ -16,4 +16,4 @@ object Solution {
     s.toString  
     }
 }
-```
+// ```

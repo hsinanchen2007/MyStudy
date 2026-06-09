@@ -1,9 +1,9 @@
-### 解题思路
-hashMap记录数字与出现频率之间的映射
+// ### 解题思路
+// hashMap记录数字与出现频率之间的映射
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	vector<int> intersect(vector<int>& nums1, vector<int>& nums2) {
@@ -18,4 +18,4 @@ public:
 		return res;
 	}
 };
-```
+// ```

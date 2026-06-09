@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def shortestSuperstring(self, A: List[str]) -> str:
         n = len(A)
@@ -67,4 +67,4 @@ class Solution:
         for i in range(n-1,0,-1):
             res = res+str_[path[i]][path[i-1]]
         return res+A[path[0]]
-```
+# ```

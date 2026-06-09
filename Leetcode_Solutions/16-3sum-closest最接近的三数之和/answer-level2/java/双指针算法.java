@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int threeSumClosest(int[] nums, int target) {
         if(nums == null || nums.length == 0){
@@ -32,4 +32,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

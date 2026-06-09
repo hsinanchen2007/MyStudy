@@ -1,10 +1,10 @@
-### 解题思路
-![捕获.PNG](https://pic.leetcode-cn.com/8e446375df07d93830ce5e519663ce1a6be5ce7b6ea68baf965df8b423c513f5-%E6%8D%95%E8%8E%B7.PNG)
+// ### 解题思路
+// ![捕获.PNG](https://pic.leetcode-cn.com/8e446375df07d93830ce5e519663ce1a6be5ce7b6ea68baf965df8b423c513f5-%E6%8D%95%E8%8E%B7.PNG)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isPalindrome(string s) {
@@ -43,4 +43,4 @@ public:
         return true;
     }
 };
-```
+// ```

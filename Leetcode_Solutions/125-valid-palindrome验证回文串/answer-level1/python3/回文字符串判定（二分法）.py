@@ -1,9 +1,9 @@
-采用双指针法进行求解：
-  先处理字符串，将其转变为全小写，然后取出数字和字母到新的字符串，最后运用双指针中的二分法进行求解。
+# 采用双指针法进行求解：
+#   先处理字符串，将其转变为全小写，然后取出数字和字母到新的字符串，最后运用双指针中的二分法进行求解。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def isPalindrome(self, s):
         """
@@ -25,4 +25,4 @@ class Solution(object):
             if y[i] != y[len(y)-1-i]:
                 shuchu = False
         return shuchu
-```
+# ```

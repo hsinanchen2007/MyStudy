@@ -1,9 +1,9 @@
-### 解题思路
-一开始看错了题目以为要找复制的元素的位置，写的麻烦了点
+# ### 解题思路
+# 一开始看错了题目以为要找复制的元素的位置，写的麻烦了点
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findErrorNums(self, nums: List[int]) -> List[int]:
         #思路，那就找呗
@@ -18,4 +18,4 @@ class Solution:
                 val = i
                 break
         return [location,val]
-```
+# ```

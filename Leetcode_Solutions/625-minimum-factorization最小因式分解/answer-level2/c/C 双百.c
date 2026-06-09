@@ -1,9 +1,9 @@
-### 解题思路
-C 双百
+// ### 解题思路
+// C 双百
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int smallestFactorization(int a){
     if (a/10 == 0) {
         printf("-1");
@@ -49,4 +49,4 @@ int smallestFactorization(int a){
     }
     return res;
 }
-```
+// ```

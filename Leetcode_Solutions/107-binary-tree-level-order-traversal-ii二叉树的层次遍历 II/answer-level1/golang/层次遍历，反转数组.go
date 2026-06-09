@@ -1,10 +1,10 @@
-### 解题思路
-直接在`103题`基础上，加个反转数组操作
+// ### 解题思路
+// 直接在`103题`基础上，加个反转数组操作
 
-### 代码
-[github](https://github.com/temporaries/leetcode)
+// ### 代码
+// [github](https://github.com/temporaries/leetcode)
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -37,4 +37,4 @@ func dfs(root *TreeNode, level int) {
 		dfs(root.Right, level+1)
 	}
 }
-```
+// ```

@@ -1,5 +1,5 @@
-是修改a[i]还是a[i+1]取决于a[i]的最小值a[i-1]是否是小于等于a[i+1]或者a[i+1]的最大值a[i+2]是否是大于等于a[i]。
-```
+// 是修改a[i]还是a[i+1]取决于a[i]的最小值a[i-1]是否是小于等于a[i+1]或者a[i+1]的最大值a[i+2]是否是大于等于a[i]。
+// ```
 class Solution {
 public:
     bool checkPossibility(vector<int>& nums) {
@@ -17,4 +17,4 @@ public:
         return !flag || nums[nums.size()-2] <= nums[nums.size()-1];
     }
 };
-```
+// ```

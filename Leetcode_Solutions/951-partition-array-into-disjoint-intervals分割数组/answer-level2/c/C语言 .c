@@ -1,5 +1,5 @@
-左边最大值小于右边最小值时，就找到了分割点
-```
+// 左边最大值小于右边最小值时，就找到了分割点
+// ```
 int partitionDisjoint(int* A, int ASize){
     int *left = (int*)malloc(ASize * sizeof(int));
     if (left == NULL) {
@@ -24,4 +24,4 @@ int partitionDisjoint(int* A, int ASize){
     }
     return 0;
 }
-```
+// ```

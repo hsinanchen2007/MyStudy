@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-直接找规律
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 直接找规律
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String convert(String s, int numRows) {
         if (numRows == 1) return s;
@@ -27,4 +27,4 @@ class Solution {
         return res.toString();
     }
 }
-```
+// ```

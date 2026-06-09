@@ -1,6 +1,6 @@
-比较简单，每层按要求变换字符串即可。
+# 比较简单，每层按要求变换字符串即可。
 
-```
+# ```
 class Solution:
     def binaryTreePaths(self, root: TreeNode) -> List[str]:
         def child(root):
@@ -24,13 +24,13 @@ class Solution:
             return res        
         dfs(root,'')
         return res
-```
+# ```
 
 
 
-因为是二叉树的结构，简化了下代码。如下
+# 因为是二叉树的结构，简化了下代码。如下
 
-```
+# ```
 class Solution:
     def binaryTreePaths(self, root: TreeNode) -> List[str]: 
         def dfs(root,str1):
@@ -49,4 +49,4 @@ class Solution:
             return res        
         dfs(root,'')
         return res
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-dp
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// dp
+// ### 代码
 
-```c
+// ```c
 int coinChange(int* coins, int coinsSize, int amount){
     int dp[amount+1];
     const int IMAX=INT_MAX;
@@ -32,4 +32,4 @@ int coinChange(int* coins, int coinsSize, int amount){
 
     return dp[amount];
 }   
-```
+// ```

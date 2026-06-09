@@ -1,9 +1,9 @@
-### 解题思路
-递归二叉树
+// ### 解题思路
+// 递归二叉树
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -23,4 +23,4 @@ struct TreeNode* invertTree(struct TreeNode* root){
     root->right=left;
     return root;
 }
-```
+// ```

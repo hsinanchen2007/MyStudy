@@ -1,9 +1,9 @@
-### 解题思路
-维护一个有K个最大值的队列就可以了,ok，起飞！
+// ### 解题思路
+// 维护一个有K个最大值的队列就可以了,ok，起飞！
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 const int MAXN = 1E5+5;
 const int INF = 1e9+7;
 struct Node{
@@ -39,4 +39,4 @@ public:
         return ans%INF;
     }
 };
-```
+// ```

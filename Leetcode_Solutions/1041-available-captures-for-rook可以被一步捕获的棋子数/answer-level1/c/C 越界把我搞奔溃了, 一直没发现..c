@@ -1,9 +1,9 @@
-### 解题思路
-随便乱写的....
+// ### 解题思路
+// 随便乱写的....
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 int numRookCaptures(char** board, int boardSize, int* boardColSize)
 {
@@ -74,4 +74,4 @@ int numRookCaptures(char** board, int boardSize, int* boardColSize)
 	return count; 
 
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-遍历字典取里面的众数
+# ### 解题思路
+# 遍历字典取里面的众数
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def majorityElement(self, nums):
         """
@@ -20,4 +20,4 @@ class Solution(object):
         for key,value in count_dict.items():
             if count_dict[key] > s_count:
                 return (key)
-```
+# ```

@@ -1,11 +1,11 @@
-### 解题思路
-lc版本的mysql不能用窗口函数
+-- ### 解题思路
+-- lc版本的mysql不能用窗口函数
 
-排名也即不小于本条记录的score的记录数目
+-- 排名也即不小于本条记录的score的记录数目
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 select s1.Score, 
 (
@@ -15,4 +15,4 @@ select s1.Score,
 ) as Rank
 from Scores as s1
 order by s1.Score desc;
-```
+-- ```

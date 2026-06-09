@@ -1,11 +1,11 @@
-### 解题思路
-第一次二分，确定target的大致范围
-第二次二分，分别寻找左边范围和右边范围
-执行用时 :36 ms, 在所有 Python3 提交中击败了93.04%的用户
-内存消耗 :14.7 MB, 在所有 Python3 提交中击败了5.35%的用户
-### 代码
+# ### 解题思路
+# 第一次二分，确定target的大致范围
+# 第二次二分，分别寻找左边范围和右边范围
+# 执行用时 :36 ms, 在所有 Python3 提交中击败了93.04%的用户
+# 内存消耗 :14.7 MB, 在所有 Python3 提交中击败了5.35%的用户
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def searchRange(self, nums: List[int], target: int) -> List[int]:
         l, r = 0 , len(nums)-1
@@ -49,4 +49,4 @@ class Solution:
                     m = m2+1
 
 
-```
+# ```

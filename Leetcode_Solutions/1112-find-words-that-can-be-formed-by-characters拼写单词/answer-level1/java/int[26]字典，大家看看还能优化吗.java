@@ -1,4 +1,4 @@
-```
+// ```
 public int countCharacters(String[] words, String chars) {
     if (chars == null || words == null)
         return 0;
@@ -56,4 +56,4 @@ private void fill_dict(int[] dict, String chars) {
         }
     }   
 }
-```
+// ```

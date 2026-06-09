@@ -1,7 +1,7 @@
- - 改进官方题解一的方法，因为col,hill,dale这三个数组存的数，非0即1，
- - 可以考虑利用位运算改变比特位的0与1状态来代替数组，所以col,hill,dale没有必要弄成数组
- - 既能节省内存，又能快速运算，极限情况下一样可以0ms|100%
-```
+//  - 改进官方题解一的方法，因为col,hill,dale这三个数组存的数，非0即1，
+//  - 可以考虑利用位运算改变比特位的0与1状态来代替数组，所以col,hill,dale没有必要弄成数组
+//  - 既能节省内存，又能快速运算，极限情况下一样可以0ms|100%
+// ```
 class Solution {
 public:
     int totalNQueens(int n) {
@@ -22,4 +22,4 @@ public:
                     backtrack(r+1,n,col|1<<c,hill|1<<r+c,dale|1<<r-c+n,count);
     }
 };
-```
+// ```

@@ -1,10 +1,10 @@
-**可以参考，里面加了开n次方的求法：[求解n次幂，n次方（python3实现）](https://www.cnblogs.com/anzhengyu/p/11185603.html)**
+# **可以参考，里面加了开n次方的求法：[求解n次幂，n次方（python3实现）](https://www.cnblogs.com/anzhengyu/p/11185603.html)**
 
-__解法1：暴力法__
+# __解法1：暴力法__
 
-不是常规意义上的暴力，过程中通过动态调整底数的大小来加快求解。代码如下：
+# 不是常规意义上的暴力，过程中通过动态调整底数的大小来加快求解。代码如下：
 
-```python
+# ```python
 class Solution:
     def myPow(self, x: float, n: int) -> float:
         judge = True
@@ -26,17 +26,17 @@ class Solution:
                 tmp /= x
                 count -= 1
         return final if judge else 1/final
-```
+# ```
 
-__解法2：根据奇偶幂分类（递归法，迭代法，位运算法）__
+# __解法2：根据奇偶幂分类（递归法，迭代法，位运算法）__
 
-1. 如果n为偶数，则pow(x,n) = pow(x^2, n/2)；
+# 1. 如果n为偶数，则pow(x,n) = pow(x^2, n/2)；
 
-2. 如果n为奇数，则pow(x,n) = x*pow(x, n-1)。
+# 2. 如果n为奇数，则pow(x,n) = x*pow(x, n-1)。
 
-递归代码实现如下：
+# 递归代码实现如下：
 
-```python
+# ```python
 class Solution:
     def myPow(self, x: float, n: int) -> float:
         if n<0:
@@ -51,11 +51,11 @@ class Solution:
             return self.help_(x*x, n//2)
         # 如果是奇数
         return self.help_(x*x,(n-1)//2)*x
-```
+# ```
 
-迭代代码如下：
+# 迭代代码如下：
 
-```python
+# ```python
 class Solution:
     def myPow(self, x: float, n: int) -> float:      
         judge = True
@@ -70,13 +70,13 @@ class Solution:
             final *= x
             n -= 1
         return final if judge else 1/final
-```
+# ```
 
-[python位运算符简介](https://www.runoob.com/python/python-operators.html#ysf5)
+# [python位运算符简介](https://www.runoob.com/python/python-operators.html#ysf5)
 
-其实跟上面的方法类似，只是通过位运算符判断奇偶性并且进行除以2的操作（移位操作）。代码如下：
+# 其实跟上面的方法类似，只是通过位运算符判断奇偶性并且进行除以2的操作（移位操作）。代码如下：
 
-```python
+# ```python
 class Solution:
     def myPow(self, x: float, n: int) -> float:      
         judge = True
@@ -90,4 +90,4 @@ class Solution:
             x *= x
             n >>= 1     # 右移一位
         return final if judge else 1/final 
-```
+# ```

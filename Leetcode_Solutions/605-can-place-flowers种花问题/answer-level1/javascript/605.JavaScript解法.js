@@ -1,9 +1,9 @@
-// 第一种思路比较麻烦，但也能够理解，耗时：72 ms	占用：38.1 MB
-// 思路一：正则取出所有的连续0
-// 情况一：只有0，例如0000，则可以种下的数量为：Math.round(n / 2);
-// 情况二：首尾的0， 例如00001111000，则可以种下的数量为：Math.round((item.length-1)/2)
-// 情况三：其余部位的0，1110000100100011，可以种下的数量为：Math.round(item.length/2 - 1)
-```javascript
+// // 第一种思路比较麻烦，但也能够理解，耗时：72 ms	占用：38.1 MB
+// // 思路一：正则取出所有的连续0
+// // 情况一：只有0，例如0000，则可以种下的数量为：Math.round(n / 2);
+// // 情况二：首尾的0， 例如00001111000，则可以种下的数量为：Math.round((item.length-1)/2)
+// // 情况三：其余部位的0，1110000100100011，可以种下的数量为：Math.round(item.length/2 - 1)
+// ```javascript
 const canPlaceFlowers = (flowerbed, n) => {
   if(n === 0) return true;      // n等于0，直接返回true
   let strArr = flowerbed.join('').match(/0+/g); // 正则取出所有连续的0
@@ -21,11 +21,11 @@ const canPlaceFlowers = (flowerbed, n) => {
   }).reduce((a, b) => a + b);
   return n <= result;
 }
-```
+// ```
 
-// 思路二，从头开始遍历数组，依次根据左右是否已经种下判断能不能种下，如过可以种植，就把0修改为1，继续遍历下一个，比计数+1
-// 耗时：80 ms	占用：36.3 MB
-```javascript
+// // 思路二，从头开始遍历数组，依次根据左右是否已经种下判断能不能种下，如过可以种植，就把0修改为1，继续遍历下一个，比计数+1
+// // 耗时：80 ms	占用：36.3 MB
+// ```javascript
 const canPlaceFlowers = (flowerbed, n) => {
   let count = 0, len = flowerbed.length;
 
@@ -44,4 +44,4 @@ const canPlaceFlowers = (flowerbed, n) => {
   }
   return n <= count;
 }
-```
+// ```

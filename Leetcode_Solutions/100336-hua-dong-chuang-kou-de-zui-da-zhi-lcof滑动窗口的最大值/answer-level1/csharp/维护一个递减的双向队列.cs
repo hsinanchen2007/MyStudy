@@ -1,4 +1,4 @@
-```csharp
+// ```csharp
 public int[] MaxSlidingWindow(int[] nums, int k) 
 {
     if (k == 0) return nums;
@@ -31,4 +31,4 @@ public int[] MaxSlidingWindow(int[] nums, int k)
 
     return ans;
 }
-```
+// ```

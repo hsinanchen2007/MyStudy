@@ -1,6 +1,6 @@
-执行用时 :1 ms, 在所有 java 提交中击败了100.00% 的用户
-内存消耗 :36.9 MB, 在所有 java 提交中击败了89.07%的用户
-```
+// 执行用时 :1 ms, 在所有 java 提交中击败了100.00% 的用户
+// 内存消耗 :36.9 MB, 在所有 java 提交中击败了89.07%的用户
+// ```
 class Solution {
     public void nextPermutation(int[] nums) {
         if(nums == null || nums.length < 2)
@@ -36,5 +36,5 @@ class Solution {
         nums[j] = temp;
     }
 }
-```
+// ```
 

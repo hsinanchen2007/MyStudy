@@ -1,6 +1,6 @@
-执行用时：16ms
-内存消耗：6.2MB
-```
+// 执行用时：16ms
+// 内存消耗：6.2MB
+// ```
 int min(int a, int b){
     return a<b? a:b;
 }
@@ -15,4 +15,4 @@ int minFallingPathSum(int** A, int ASize, int* AColSize){
     for(i=1; i<AColSize[ASize-1]; i++) m = min(A[ASize-1][i], m);
     return m;
 }
-```
+// ```

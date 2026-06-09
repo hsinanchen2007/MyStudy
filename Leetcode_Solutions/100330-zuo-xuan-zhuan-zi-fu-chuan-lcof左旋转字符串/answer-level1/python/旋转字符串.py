@@ -1,9 +1,9 @@
-### 解题思路
-三次旋转法
+# ### 解题思路
+# 三次旋转法
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def reverseLeftWords(self, s, n):
         """
@@ -24,4 +24,4 @@ class Solution(object):
         reverse(n,length)
         reverse(0, length)
         return ''.join(s)
-```
+# ```

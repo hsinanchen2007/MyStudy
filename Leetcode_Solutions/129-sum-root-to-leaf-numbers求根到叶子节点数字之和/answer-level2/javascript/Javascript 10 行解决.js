@@ -1,9 +1,9 @@
-### 解题思路
-递归遍历二叉树，同时记录路径数值，遇到叶子节点计算路径和。
+// ### 解题思路
+// 递归遍历二叉树，同时记录路径数值，遇到叶子节点计算路径和。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var sumNumbers = function(root) {
     if (!root) return 0
     let sum = 0
@@ -17,4 +17,4 @@ var sumNumbers = function(root) {
         if (root.right) recurse(root.right, cur)
     }
 };
-```
+// ```

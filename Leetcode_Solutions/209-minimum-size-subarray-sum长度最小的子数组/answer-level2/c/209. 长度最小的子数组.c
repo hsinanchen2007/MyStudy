@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/ccee5a110b69291edbef8d89964523f210f611da91ebfb44c73ded2afde97bf8-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/ccee5a110b69291edbef8d89964523f210f611da91ebfb44c73ded2afde97bf8-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int minSubArrayLen(int s, int* nums, int numsSize){
     if(s < 1 || nums == NULL || numsSize  < 1) return 0;
     
@@ -41,4 +41,4 @@ int minSubArrayLen(int s, int* nums, int numsSize){
     else
         return 0;
 }
-```
+// ```

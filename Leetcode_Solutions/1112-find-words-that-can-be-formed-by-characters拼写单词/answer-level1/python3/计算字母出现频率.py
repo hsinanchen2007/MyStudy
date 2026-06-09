@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countCharacters(self, words: List[str], chars: str) -> int:
         ans = 0
@@ -16,4 +16,4 @@ class Solution:
                     break
             ans = ans+len(word) if learnWord else ans
         return ans
-```
+# ```

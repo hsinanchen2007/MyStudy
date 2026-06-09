@@ -1,9 +1,9 @@
-### 解题思路
-第三通用模版需要，check left&right不管什么情况，因为right，left靠近的时候，没有进循环
+# ### 解题思路
+# 第三通用模版需要，check left&right不管什么情况，因为right，left靠近的时候，没有进循环
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def searchRange(self, nums: List[int], target: int) -> List[int]:
         N = len(nums)
@@ -55,4 +55,4 @@ class Solution:
             return index_end 
 
         return [find_start(),find_end()]
-```
+# ```

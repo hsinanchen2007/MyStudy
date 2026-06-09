@@ -1,4 +1,4 @@
-```
+// ```
 type point struct {
 	x int
 	y int
@@ -94,4 +94,4 @@ func sum(x int)int{
 	}
 	return res
 }
-```
+// ```

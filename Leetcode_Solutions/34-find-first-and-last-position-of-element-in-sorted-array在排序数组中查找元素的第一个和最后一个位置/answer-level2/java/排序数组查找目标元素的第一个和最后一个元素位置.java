@@ -1,9 +1,9 @@
-### 解题思路
-分开考虑。。。
+// ### 解题思路
+// 分开考虑。。。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] searchRange(int[] nums, int target) {
         int len = nums.length;
@@ -57,4 +57,4 @@ class Solution {
         return left;
     }
 }
-```
+// ```

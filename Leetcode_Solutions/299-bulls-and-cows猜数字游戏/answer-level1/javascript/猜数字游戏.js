@@ -1,4 +1,4 @@
-```js
+// ```js
 var getHint = function(secret, guess) {
 	var bulls = 0;
 	var cows = 0;
@@ -16,4 +16,4 @@ var getHint = function(secret, guess) {
     }
     return bulls + 'A' + (cows - bulls) + 'B';
 };
-```
+// ```

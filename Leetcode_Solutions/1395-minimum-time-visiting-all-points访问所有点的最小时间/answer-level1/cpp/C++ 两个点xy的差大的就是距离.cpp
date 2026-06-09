@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int compute(vector<int> a, vector<int> b){
@@ -14,4 +14,4 @@ public:
         return res;
     }
 };
-```
+// ```

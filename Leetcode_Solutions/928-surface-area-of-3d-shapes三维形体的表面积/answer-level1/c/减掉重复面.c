@@ -1,4 +1,4 @@
-大概就是每个六面，减去黏连的面，有个问题就是为啥加的后面和右面不能取等（i+1<== gridSize就不对了）。
+// 大概就是每个六面，减去黏连的面，有个问题就是为啥加的后面和右面不能取等（i+1<== gridSize就不对了）。
 int surfaceArea(int** grid, int gridSize, int* gridColSize)
 {
     int sum = 0;

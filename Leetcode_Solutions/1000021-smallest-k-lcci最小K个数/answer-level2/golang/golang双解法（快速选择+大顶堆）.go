@@ -1,8 +1,8 @@
-## 使用快速选择和大顶堆实现
+// ## 使用快速选择和大顶堆实现
 
-1.快速选择(如果不清楚，可以先去做315题) T：O:(N)，S：O(K)
+// 1.快速选择(如果不清楚，可以先去做315题) T：O:(N)，S：O(K)
 
-```
+// ```
 //快速选择 
 func smallestK(arr []int, k int) []int {
     if arr==nil || len(arr)==0{
@@ -43,11 +43,11 @@ func quickselect(arr []int,left,right int)int{
     arr[right],arr[explodeIndex]=arr[explodeIndex],arr[right]
     return explodeIndex
 }
-```
+// ```
 
-2. 大顶堆实现，维持一个大小为k的大顶堆即可  T：O:(NlogN)，S：O(K)
+// 2. 大顶堆实现，维持一个大小为k的大顶堆即可  T：O:(NlogN)，S：O(K)
 
-```
+// ```
 //堆排序(大顶堆)
 func smallestK(arr []int, k int) []int {
     if arr==nil || len(arr)==0 || k==0{
@@ -102,4 +102,4 @@ func (h *IntHeap)Pop()interface{}{
     *h=old[:len(old)-1]
     return x
 }
-```
+// ```

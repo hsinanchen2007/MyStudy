@@ -1,9 +1,9 @@
-## 分析
-1.申请一个新的栈stack。
- 2.对于以root为根节点的这棵树，依次将左边界压入栈中。即不停的让root = root.left，不断重复此步骤
-3.不断的重复2，直到发现cur为空，此时从stack中弹出一个节点。将该节点的值加入返回结果。并且让node = node.right然后重复步骤2.
-## 代码
-```java
+// ## 分析
+// 1.申请一个新的栈stack。
+//  2.对于以root为根节点的这棵树，依次将左边界压入栈中。即不停的让root = root.left，不断重复此步骤
+// 3.不断的重复2，直到发现cur为空，此时从stack中弹出一个节点。将该节点的值加入返回结果。并且让node = node.right然后重复步骤2.
+// ## 代码
+// ```java
 public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> list = new ArrayList<>();
 
@@ -26,4 +26,4 @@ public List<Integer> inorderTraversal(TreeNode root) {
         return list;
 
     }
-```
+// ```

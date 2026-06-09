@@ -1,5 +1,5 @@
-模拟先序遍历
-```c++
+// 模拟先序遍历
+// ```c++
 class Solution {
 public:
     vector<string> s;
@@ -23,4 +23,4 @@ public:
         return s.size() == 1;
     }
 };
-```
+// ```

@@ -1,16 +1,16 @@
-#### 方法：贪心
+# #### 方法：贪心
 
-**思路**
+# **思路**
 
-直观感觉，我们应该先选择当前所剩最多的待写字母写入字符串中。举一个例子，如果  `A = 6, B = 2`，那么我们期望写出 `'aabaabaa'`。进一步说，设当前所剩最多的待写字母为 `x`，只有前两个已经写下的字母都是 `x` 的时候，下一个写入字符串中的字母才不应该选择它。
+# 直观感觉，我们应该先选择当前所剩最多的待写字母写入字符串中。举一个例子，如果  `A = 6, B = 2`，那么我们期望写出 `'aabaabaa'`。进一步说，设当前所剩最多的待写字母为 `x`，只有前两个已经写下的字母都是 `x` 的时候，下一个写入字符串中的字母才不应该选择它。
 
-**算法**
+# **算法**
 
-我们定义 `A, B`：待写的 `'a'` 与 `'b'` 的数量。
+# 我们定义 `A, B`：待写的 `'a'` 与 `'b'` 的数量。
 
-设当前还需要写入字符串的 `'a'` 与 `'b'` 中较多的那一个为 `x`，如果我们已经连续写了两个 `x` 了，下一次我们应该写另一个字母。否则，我们应该继续写 `x`。
+# 设当前还需要写入字符串的 `'a'` 与 `'b'` 中较多的那一个为 `x`，如果我们已经连续写了两个 `x` 了，下一次我们应该写另一个字母。否则，我们应该继续写 `x`。
 
-```java [xe7TWkmP-Java]
+# ```java [xe7TWkmP-Java]
 class Solution {
     public String strWithout3a3b(int A, int B) {
         StringBuilder ans = new StringBuilder();
@@ -38,8 +38,8 @@ class Solution {
         return ans.toString();
     }
 }
-```
-```python [xe7TWkmP-Python]
+# ```
+# ```python [xe7TWkmP-Python]
 class Solution(object):
     def strWithout3a3b(self, A, B):
         ans = []
@@ -58,14 +58,14 @@ class Solution(object):
                 ans.append('b')
 
         return "".join(ans)
-```
+# ```
 
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度：$O(A+B)$。
+# * 时间复杂度：$O(A+B)$。
 
-* 空间复杂度：$O(A+B)$。
+# * 空间复杂度：$O(A+B)$。
 
 
 

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
      public static boolean isArmstrong(int N) {
         String tmp = String.valueOf(N);
@@ -12,4 +12,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

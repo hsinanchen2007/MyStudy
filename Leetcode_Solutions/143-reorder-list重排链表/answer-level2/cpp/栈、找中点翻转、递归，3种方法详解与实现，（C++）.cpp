@@ -1,8 +1,8 @@
-**方法1：遍历一遍链表，把结点存入栈中，然后再遍历一次链表，将栈中的结点依次插到链表前面；
-当遍历到的结点或它的下一结点和栈中的结点相同时，结束插入，同时断开剩下的结点的连接
-时间复杂度 O(n) 空间复杂度 O(n)**
+// **方法1：遍历一遍链表，把结点存入栈中，然后再遍历一次链表，将栈中的结点依次插到链表前面；
+// 当遍历到的结点或它的下一结点和栈中的结点相同时，结束插入，同时断开剩下的结点的连接
+// 时间复杂度 O(n) 空间复杂度 O(n)**
 
-```cpp
+// ```cpp
     void reorderList(ListNode* head) {
         if(head == nullptr || head->next == nullptr || head->next->next == nullptr) return;
         stack<ListNode* > nodes;
@@ -28,12 +28,12 @@
             }
         }
     }
-```
+// ```
 
-**方法2：先找到链表中点，从中点断开链表，然后翻转中点之后的链表，最后遍历俩链表合并为一个链表
-时间复杂度 O(n) 空间复杂度 O(1)**
+// **方法2：先找到链表中点，从中点断开链表，然后翻转中点之后的链表，最后遍历俩链表合并为一个链表
+// 时间复杂度 O(n) 空间复杂度 O(1)**
 
-```cpp
+// ```cpp
     void reorderList(ListNode* head) {
         if(head == nullptr || head->next == nullptr || head->next->next == nullptr) return;
 
@@ -77,12 +77,12 @@
         }
         return pre_node;
     }
-```
+// ```
 
-**方法3：递归法，递归地断开最后一个结点，直到链表只剩一个或两个节点，然后层层返回开始拼接
-时间复杂度较高 约为 O(n^2) 空间复杂度约为 O(n), 因为每次递归减少两个节点（首尾结点），递归深度近似为 n。**
+// **方法3：递归法，递归地断开最后一个结点，直到链表只剩一个或两个节点，然后层层返回开始拼接
+// 时间复杂度较高 约为 O(n^2) 空间复杂度约为 O(n), 因为每次递归减少两个节点（首尾结点），递归深度近似为 n。**
 
-```cpp
+// ```cpp
     void reorderList(ListNode* head){
         if(head == nullptr || head->next == nullptr) return;
         ListNode* pre = nullptr;
@@ -98,4 +98,4 @@
         head->next = p;
         p->next    = temp_next;
     }
-```
+// ```

@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 public:
     TreeNode* updown(TreeNode* node)
     {
@@ -16,4 +16,4 @@ public:
         return root;
     }
 };
-```
+// ```

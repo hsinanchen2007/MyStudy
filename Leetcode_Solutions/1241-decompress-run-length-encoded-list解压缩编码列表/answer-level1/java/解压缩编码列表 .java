@@ -1,10 +1,10 @@
-### 解题思路
-我的代码怎么总是怎么幼稚简单.......
-好像没用到题目的列表........
+// ### 解题思路
+// 我的代码怎么总是怎么幼稚简单.......
+// 好像没用到题目的列表........
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] decompressRLElist(int[] nums) {
         int geshu = 0;
@@ -32,4 +32,4 @@ class Solution {
         return out;
     }
 }
-```
+// ```

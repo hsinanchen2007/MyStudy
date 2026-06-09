@@ -1,7 +1,7 @@
-* 执行用时 : 52 ms, 在Last Stone Weight的Python3提交中击败了49.25% 的用户
-* 内存消耗 : 13.3 MB, 在Last Stone Weight的Python3提交中击败了100.00% 的用户
+# * 执行用时 : 52 ms, 在Last Stone Weight的Python3提交中击败了49.25% 的用户
+# * 内存消耗 : 13.3 MB, 在Last Stone Weight的Python3提交中击败了100.00% 的用户
 
-```
+# ```
 class Solution:
     def lastStoneWeight(self, stones):
         import heapq
@@ -25,4 +25,4 @@ class Solution:
 
 print(Solution().lastStoneWeight([10, 11, 12]))
 print(Solution().lastStoneWeight([2, 2]))
-```
+# ```

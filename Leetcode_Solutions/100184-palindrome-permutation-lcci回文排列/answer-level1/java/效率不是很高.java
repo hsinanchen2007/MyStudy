@@ -1,9 +1,9 @@
-### 解题思路
-就是取出所有的字符，计算这个字符出现的次数，当这个奇数次数小于2时是回文
+// ### 解题思路
+// 就是取出所有的字符，计算这个字符出现的次数，当这个奇数次数小于2时是回文
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canPermutePalindrome(String s) {
             if (s.length() == 0) {
@@ -29,4 +29,4 @@ class Solution {
         return sum < 2;
     }
 }
-```
+// ```

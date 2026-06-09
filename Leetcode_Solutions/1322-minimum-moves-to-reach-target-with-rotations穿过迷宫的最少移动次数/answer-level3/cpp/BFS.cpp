@@ -1,4 +1,4 @@
-```
+// ```
 #define MAX_N 100
 struct SnakeNode {
     int x;
@@ -79,4 +79,4 @@ public:
         return -1;
     }
 };
-```
+// ```

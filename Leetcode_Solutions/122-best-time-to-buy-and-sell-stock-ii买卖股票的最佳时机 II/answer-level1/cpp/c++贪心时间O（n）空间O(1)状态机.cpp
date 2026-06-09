@@ -1,9 +1,9 @@
-**
-贪心思路：总在股价上升转为下降前卖股票，在股价下降转为上升前买股票
-1.设置状态变量situation=初始化为start（start，up，down）设置利润总量allprofit设置买入index_buy和卖出index_sell
-2.for循环遍历数组，switch前一个状态situation 用switch和if更新状态和allprofit                     
-3.循环结束后 return allprofit
-```
+// **
+// 贪心思路：总在股价上升转为下降前卖股票，在股价下降转为上升前买股票
+// 1.设置状态变量situation=初始化为start（start，up，down）设置利润总量allprofit设置买入index_buy和卖出index_sell
+// 2.for循环遍历数组，switch前一个状态situation 用switch和if更新状态和allprofit                     
+// 3.循环结束后 return allprofit
+// ```
 代码块int maxProfit(vector<int>& prices) {
 	const int start = 0;
 	const int up = 1;
@@ -80,4 +80,4 @@
 	return allprofit;
 
 }
-```
+// ```

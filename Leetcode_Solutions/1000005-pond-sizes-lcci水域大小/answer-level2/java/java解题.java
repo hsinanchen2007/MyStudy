@@ -1,5 +1,5 @@
-DFS：
-```
+// DFS：
+// ```
 class Solution {
     public int[] pondSizes(int[][] land) {
         int[] arr = new int[1000000]; //根据题目设定长度为1000*1000的数组
@@ -37,11 +37,11 @@ class Solution {
 		return count;
 	}
 }
-```
+// ```
 
 
-并查集：
-```
+// 并查集：
+// ```
 class Solution {
     class UF {
 	int count;//连通分量数目
@@ -131,4 +131,4 @@ class Solution {
 		return pond;
     }
 }
-```
+// ```

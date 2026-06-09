@@ -1,4 +1,4 @@
-```
+// ```
 #include <stdbool.h>
 #include <assert.h>
 #include <string.h>
@@ -111,4 +111,4 @@ static int tune_pattern(char *pattern, int len, int map[26][3])
 
     return pos;
 }
-```
+// ```

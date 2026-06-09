@@ -1,9 +1,9 @@
-### 解题思路
-k用于记录遍历到了第几个'.'
+// ### 解题思路
+// k用于记录遍历到了第几个'.'
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * defangIPaddr(char * address){
     int i=0;
     //int j=0;
@@ -29,4 +29,4 @@ char * defangIPaddr(char * address){
     res[i+6]='\0';
     return res;
 }
-```
+// ```

@@ -1,6 +1,6 @@
-### 解题思路
-DFS回溯（超时)
-```
+// ### 解题思路
+// DFS回溯（超时)
+// ```
 class Solution {
 public:
     struct M{
@@ -22,10 +22,10 @@ public:
         return 0;
     }
 };
-```
-O(√n)遍历
+// ```
+// O(√n)遍历
 
-```
+// ```
 class Solution {
 public:
     int reachNumber(int target) {
@@ -37,11 +37,11 @@ public:
         }
     }
 };
-```
+// ```
 
-O(1)求根公式优化
+// O(1)求根公式优化
 
-```cpp
+// ```cpp
 #include<cmath>
 class Solution {
 public:
@@ -52,4 +52,4 @@ public:
         return r%2==0?t:t+1+t%2;
     }
 };
-```
+// ```

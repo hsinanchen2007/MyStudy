@@ -1,4 +1,4 @@
-```c
+// ```c
 char * decodeString(char * s){
     int len = strlen(s);
     
@@ -49,4 +49,4 @@ char * decodeString(char * s){
     ans[++top] = '\0';
     return ans;
 }
-```
+// ```

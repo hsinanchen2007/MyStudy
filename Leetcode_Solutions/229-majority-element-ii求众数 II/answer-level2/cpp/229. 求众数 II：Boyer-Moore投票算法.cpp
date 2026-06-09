@@ -1,11 +1,11 @@
-### 解题思路
-* 注意数据范围（未声明）；
-* 测试样例不保证有解，可能是空数组；
-* 投票算法
+// ### 解题思路
+// * 注意数据范围（未声明）；
+// * 测试样例不保证有解，可能是空数组；
+// * 投票算法
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> majorityElement(vector<int>& nums) {
@@ -46,5 +46,5 @@ public:
         return ans;
     }
 };
-```
-![3.png](https://pic.leetcode-cn.com/0409c822d849ddd52747583e6972f376f351f145b0ee2f351761885a952a0c31-3.png)
+// ```
+// ![3.png](https://pic.leetcode-cn.com/0409c822d849ddd52747583e6972f376f351f145b0ee2f351761885a952a0c31-3.png)

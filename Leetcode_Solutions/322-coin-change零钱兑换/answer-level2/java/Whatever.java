@@ -1,9 +1,9 @@
-### 解题思路
-勉勉强强能看懂吧
+// ### 解题思路
+// 勉勉强强能看懂吧
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     int check=Integer.MAX_VALUE;
     public int coinChange(int[] coins, int amount) {
@@ -36,4 +36,4 @@ class Solution {
         }
     }
 }
-```
+// ```

@@ -1,7 +1,7 @@
-这里当时分了三种情况去操作，后来发现中间一种可以合并到最后一种  
-使用了额外变量`temp`保存返回值，以及使用`pre`保存前一个节点
+// 这里当时分了三种情况去操作，后来发现中间一种可以合并到最后一种  
+// 使用了额外变量`temp`保存返回值，以及使用`pre`保存前一个节点
 
-```
+// ```
 class Solution {
     public ListNode removeElements(ListNode head, int val) {
         if (head == null)
@@ -30,4 +30,4 @@ class Solution {
         return temp;
     }
 }
-```
+// ```

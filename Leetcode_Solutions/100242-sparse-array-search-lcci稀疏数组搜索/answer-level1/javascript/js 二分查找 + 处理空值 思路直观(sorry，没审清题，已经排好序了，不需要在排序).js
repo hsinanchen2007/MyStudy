@@ -1,16 +1,16 @@
-![image.png](https://pic.leetcode-cn.com/1d2ac17af1d08bc39785c03c5b099f596780b94cde1ef8ef2865b7eb12d580df-image.png)
+// ![image.png](https://pic.leetcode-cn.com/1d2ac17af1d08bc39785c03c5b099f596780b94cde1ef8ef2865b7eb12d580df-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
 二分查找
 注意处理空值，遇到空值，low high 指针向中间移动即可，
 如果是每次二分取得的中间数为空，那就让他向右移动，但是不能大于右指针
 (向左移动也可以，但是不能小于左指针，此处的目的同样也是跳过空值)
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} words
  * @param {string} s
@@ -45,4 +45,4 @@ var findString = function(words, s) {
   
   return ans;
 };
-```
+// ```

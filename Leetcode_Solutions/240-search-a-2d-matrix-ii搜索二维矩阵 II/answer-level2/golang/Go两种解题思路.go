@@ -1,5 +1,5 @@
-// first
-```
+// // first
+// ```
 func searchMatrix(matrix [][]int, target int) bool {
 	if len(matrix) == 0 || len(matrix[0]) == 0 {
 		return false
@@ -16,9 +16,9 @@ func searchMatrix(matrix [][]int, target int) bool {
 	}
 	return false
 }
-```
-// second
-```
+// ```
+// // second
+// ```
 func searchMatrix(matrix [][]int, target int) bool {
 	if len(matrix) == 0 || len(matrix[0]) == 0 {
 		return false
@@ -76,5 +76,5 @@ func find(matrix [][]int, i, target int, isFindRow bool) bool {
 	}
 	return false
 }
-```
+// ```
 

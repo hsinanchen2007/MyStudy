@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int helper(int n){//计算阶乘
@@ -32,4 +32,4 @@ public:
         return ret;
     }
 };
-```
+// ```

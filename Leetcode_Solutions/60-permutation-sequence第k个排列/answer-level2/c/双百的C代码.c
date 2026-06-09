@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/1810a7ad293ab83aa08995375519f5d2bd1d722dee1467147b6e328eb69f7fc1-image.png)
+// ![image.png](https://pic.leetcode-cn.com/1810a7ad293ab83aa08995375519f5d2bd1d722dee1467147b6e328eb69f7fc1-image.png)
 
-```
+// ```
 int factoria(int n){
     int f=1;
     for(int i=2;i<=n;i++){
@@ -40,4 +40,4 @@ char * getPermutation(int n, int k) {
     }
     return res;
 }
-```
+// ```

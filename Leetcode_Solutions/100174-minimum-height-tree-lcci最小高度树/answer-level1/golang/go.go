@@ -1,4 +1,4 @@
-```
+// ```
 func buildTree(nums []int,start,end int) *TreeNode  {
 	if start>end{
 		return nil
@@ -19,4 +19,4 @@ func sortedArrayToBST(nums []int) *TreeNode {
 		return buildTree(nums,0,len(nums)-1)
 	}
 }
-```
+// ```

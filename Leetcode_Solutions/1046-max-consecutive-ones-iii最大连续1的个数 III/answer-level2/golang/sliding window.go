@@ -1,4 +1,4 @@
-```
+// ```
 func longestOnes(A []int, K int) int {
     if len(A) == 0 {
         return 0
@@ -27,4 +27,4 @@ func longestOnes(A []int, K int) int {
     }
     return maxLength
 }
-```
+// ```

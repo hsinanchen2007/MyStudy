@@ -1,35 +1,35 @@
-# 题目描述（困难难度）
+// # 题目描述（困难难度）
 
-![image.png](https://pic.leetcode-cn.com/2703c22f2789b1e3fe6e086e8a5bb60f6fff3e993ff7ebe82696d128cf50879c-image.png)
+// ![image.png](https://pic.leetcode-cn.com/2703c22f2789b1e3fe6e086e8a5bb60f6fff3e993ff7ebe82696d128cf50879c-image.png)
 
-一个简单规则的匹配，「点.」代表任意字符，「星号\*」 代表前一个字符重复 0 次或任意次。
+// 一个简单规则的匹配，「点.」代表任意字符，「星号\*」 代表前一个字符重复 0 次或任意次。
 
-# 解法一 递归
+// # 解法一 递归
 
-假如没有通配符 \* ，这道题的难度就会少了很多，我们只需要一个字符，一个字符匹配就行。如果对递归不是很了解，强烈建议看下[这篇文章](https://zhuanlan.zhihu.com/p/42664697)，可以理清一下递归的思路。
+// 假如没有通配符 \* ，这道题的难度就会少了很多，我们只需要一个字符，一个字符匹配就行。如果对递归不是很了解，强烈建议看下[这篇文章](https://zhuanlan.zhihu.com/p/42664697)，可以理清一下递归的思路。
 
-* 我们假设存在这么个函数 isMatch，它将告诉我们 text 和 pattern 是否匹配
+// * 我们假设存在这么个函数 isMatch，它将告诉我们 text 和 pattern 是否匹配
 
-  boolean isMatch ( String text, String pattern ) ;
+//   boolean isMatch ( String text, String pattern ) ;
 
-* 递归规模减小
+// * 递归规模减小
 
-  text 和 pattern 匹配，等价于 text 和 patten  的第一个字符匹配并且剩下的字符也匹配，而判断剩下的字符是否匹配，我们就可以调用 isMatch 函数。也就是
+//   text 和 pattern 匹配，等价于 text 和 patten  的第一个字符匹配并且剩下的字符也匹配，而判断剩下的字符是否匹配，我们就可以调用 isMatch 函数。也就是
 
-  ```java
+//   ```java
   (pattern.charAt(0) == text.charAt(0) || pattern.charAt(0) == '.')&&isMatch(text.substring(1), pattern.substring(1));
-  ```
-* 递归出口
+//   ```
+// * 递归出口
 
-  随着规模的减小， 当 pattern 为空时，如果 text 也为空，就返回 True，不然的话就返回 False 。
+//   随着规模的减小， 当 pattern 为空时，如果 text 也为空，就返回 True，不然的话就返回 False 。
 
-    ```java
+//     ```java
   if (pattern.isEmpty()) return text.isEmpty();
-    ```
+//     ```
 
-综上，我们的代码是
+// 综上，我们的代码是
 
-```java
+// ```java
 public boolean isMatch(String text, String pattern) {
         if (pattern.isEmpty()) return text.isEmpty();
     
@@ -38,13 +38,13 @@ public boolean isMatch(String text, String pattern) {
                                (pattern.charAt(0) == text.charAt(0) || pattern.charAt(0) == '.'));
         return first_match && isMatch(text.substring(1), pattern.substring(1));
     }
-```
+// ```
 
 
 
-当我们考虑了 \* 呢，对于递归规模的减小，会增加对于 \* 的判断，直接看代码吧。
+// 当我们考虑了 \* 呢，对于递归规模的减小，会增加对于 \* 的判断，直接看代码吧。
 
-```java
+// ```java
 public boolean isMatch(String text, String pattern) {
         if (pattern.isEmpty()) return text.isEmpty();
     	 
@@ -61,63 +61,63 @@ public boolean isMatch(String text, String pattern) {
             return first_match && isMatch(text.substring(1), pattern.substring(1));
         }
     }
-```
+// ```
 
-时间复杂度：有点儿小复杂，待更。
+// 时间复杂度：有点儿小复杂，待更。
 
-空间复杂度：有点儿小复杂，待更。
+// 空间复杂度：有点儿小复杂，待更。
 
-# 解法二 动态规划
+// # 解法二 动态规划
 
-上边的递归，为了方便理解，简化下思路。
+// 上边的递归，为了方便理解，简化下思路。
 
-为了判断 text [ 0，len ] 的情况，需要知道 text [ 1，len ] 
+// 为了判断 text [ 0，len ] 的情况，需要知道 text [ 1，len ] 
 
-为了判断 text [ 1，len ] 的情况，需要知道 text [ 2，len ] 
+// 为了判断 text [ 1，len ] 的情况，需要知道 text [ 2，len ] 
 
-为了判断 text [ 2，len ] 的情况，需要知道 text [ 3，len ] 
+// 为了判断 text [ 2，len ] 的情况，需要知道 text [ 3，len ] 
 
-...
+// ...
 
-为了判断 text [ len - 1，len ] 的情况，需要知道 text [ len，len ] 
+// 为了判断 text [ len - 1，len ] 的情况，需要知道 text [ len，len ] 
 
- text [ len，len ]  肯定好求
+//  text [ len，len ]  肯定好求
 
-求出  text [ len，len ] 的情况，就知道了  text [ len - 1，len ] 
+// 求出  text [ len，len ] 的情况，就知道了  text [ len - 1，len ] 
 
-求出  text [ len - 1，len ] 的情况，就知道了  text [ len - 2，len ] 
+// 求出  text [ len - 1，len ] 的情况，就知道了  text [ len - 2，len ] 
 
-...
+// ...
 
-求出  text [ 2，len ] 的情况，就知道了  text [1，len ] 
+// 求出  text [ 2，len ] 的情况，就知道了  text [1，len ] 
 
-求出  text [ l1，len ] 的情况，就知道了  text [ 0，len ] 
+// 求出  text [ l1，len ] 的情况，就知道了  text [ 0，len ] 
 
-从而知道了  text [ 0，len ]  的情况，求得问题的解。
+// 从而知道了  text [ 0，len ]  的情况，求得问题的解。
 
 
 
-上边就是先压栈，然后出栈，其实我们可以直接倒过来求，可以省略压栈的过程。
+// 上边就是先压栈，然后出栈，其实我们可以直接倒过来求，可以省略压栈的过程。
 
-我们先求 text [ len，len ] 的情况
+// 我们先求 text [ len，len ] 的情况
 
-利用  text [ len，len ] 的情况 ，再求  text [ len - 1，len ] 的情况
+// 利用  text [ len，len ] 的情况 ，再求  text [ len - 1，len ] 的情况
 
-...
+// ...
 
-利用  text [ 2，len ] 的情况 ，再求  text [ 1，len ] 的情况
+// 利用  text [ 2，len ] 的情况 ，再求  text [ 1，len ] 的情况
 
-利用  text [1，len ] 的情况 ，再求  text [ 0，len ] 的情况
+// 利用  text [1，len ] 的情况 ，再求  text [ 0，len ] 的情况
 
-从而求出问题的解
+// 从而求出问题的解
 
-我们用 $dp[i][j]$表示 text 从 i 开始到最后，pattern 从 j 开始到最后，此时 text 和 pattern 是否匹配。
+// 我们用 $dp[i][j]$表示 text 从 i 开始到最后，pattern 从 j 开始到最后，此时 text 和 pattern 是否匹配。
 
-![image.png](https://pic.leetcode-cn.com/46156bc31ab43a0b09ed98ae6572bb545550d7becca9fa1cb2b769d445812efb-image.png)
+// ![image.png](https://pic.leetcode-cn.com/46156bc31ab43a0b09ed98ae6572bb545550d7becca9fa1cb2b769d445812efb-image.png)
 
-$dp[2][2]$就是图中橙色的部分.
+// $dp[2][2]$就是图中橙色的部分.
 
-```java
+// ```java
 public boolean isMatch(String text, String pattern) {
     // 多一维的空间，因为求 dp[len - 1][j] 的时候需要知道 dp[len][j] 的情况，
     // 多一维的话，就可以把 对 dp[len - 1][j] 也写进循环了
@@ -142,13 +142,13 @@ public boolean isMatch(String text, String pattern) {
     }
     return dp[0][0];
 }
-```
+// ```
 
-时间复杂度：假设 text 的长度是 T，pattern 的长度是 P ，空间复杂度就是 O（TP）。
+// 时间复杂度：假设 text 的长度是 T，pattern 的长度是 P ，空间复杂度就是 O（TP）。
 
-空间复杂度：申请了 dp 空间，所以是 O（TP），因为每次循环我们只需要知道 i 和 i + 1 时候的情况，所以我们可以向 [第 5 题](http://leetcode.windliang.cc/leetCode-5-Longest-Palindromic-Substring.html) 一样进行优化。
+// 空间复杂度：申请了 dp 空间，所以是 O（TP），因为每次循环我们只需要知道 i 和 i + 1 时候的情况，所以我们可以向 [第 5 题](http://leetcode.windliang.cc/leetCode-5-Longest-Palindromic-Substring.html) 一样进行优化。
 
-```java
+// ```java
 	public boolean isMatch(String text, String pattern) {
 		// 多一维的空间，因为求 dp[len - 1][j] 的时候需要知道 dp[len][j] 的情况，
 		// 多一维的话，就可以把 对 dp[len - 1][j] 也写进循环了
@@ -170,14 +170,14 @@ public boolean isMatch(String text, String pattern) {
 		}
 		return dp[0][0];
 	}
-```
+// ```
 
-时间复杂度：不变， O（TP）。
+// 时间复杂度：不变， O（TP）。
 
-空间复杂度：主要用了两个数组进行轮换，O（P）。
+// 空间复杂度：主要用了两个数组进行轮换，O（P）。
 
-# 总
+// # 总
 
-这道题对于递归的解法，感觉难在怎么去求时间复杂度，现在还没有什么思路，以后再来补充吧。整体来说，只要理清思路，两种算法还是比较好理解的。
+// 这道题对于递归的解法，感觉难在怎么去求时间复杂度，现在还没有什么思路，以后再来补充吧。整体来说，只要理清思路，两种算法还是比较好理解的。
 
-之前自己在博客总结的，更多题解可以在原地址 [https://leetcode.wang](https://leetcode.wang)。
+// 之前自己在博客总结的，更多题解可以在原地址 [https://leetcode.wang](https://leetcode.wang)。

@@ -1,11 +1,11 @@
-可以看到，树的dfs和图的有点区别，树不需要申请额外空间去记录每个节点是否被访问过，但是图是需要的，道理应该很容易想
+# 可以看到，树的dfs和图的有点区别，树不需要申请额外空间去记录每个节点是否被访问过，但是图是需要的，道理应该很容易想
 
-下面代码是一种思路，两种写法，有个小trick是  每次传入 sum-root.val 
+# 下面代码是一种思路，两种写法，有个小trick是  每次传入 sum-root.val 
 
-还有就是python里面list是引用传递，所以最后要pop()
+# 还有就是python里面list是引用传递，所以最后要pop()
 
-感叹下自己以前是最熟悉C++和java的，现在却变成了无能的炼丹师，掉包侠
-```
+# 感叹下自己以前是最熟悉C++和java的，现在却变成了无能的炼丹师，掉包侠
+# ```
 class Solution:
     def pathSum(self, root: TreeNode, sum: int) -> List[List[int]]:
         res = []
@@ -24,8 +24,8 @@ class Solution:
 
         find(root,sum,[])
         return res
-```
-```
+# ```
+# ```
 class Solution:
     def pathSum(self, root: TreeNode, sum: int) -> List[List[int]]:
         res = []
@@ -43,4 +43,4 @@ class Solution:
                 temp.pop()
         find(root,0,[])
         return res
-```
+# ```

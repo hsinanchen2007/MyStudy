@@ -1,8 +1,8 @@
-题目意图应该不是让直接调built-in sort
-按照java sorting的实现对于primitive type采用dual-pivot quick sort
-这里就简单实现了快排
+// 题目意图应该不是让直接调built-in sort
+// 按照java sorting的实现对于primitive type采用dual-pivot quick sort
+// 这里就简单实现了快排
 
-```
+// ```
 class Solution {
     public int[] sortArray(int[] nums) {
         quicksort(nums, 0, nums.length-1);
@@ -36,4 +36,4 @@ class Solution {
         nums[j] = temp;
     }
 }
-```
+// ```

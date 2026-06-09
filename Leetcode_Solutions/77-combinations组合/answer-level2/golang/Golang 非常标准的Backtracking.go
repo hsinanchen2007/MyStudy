@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func combine(n int, k int) [][]int {
     var result [][]int 
     if k == 0{
@@ -33,4 +33,4 @@ func helper(result *[][]int, nums []int, index, k int) {
     return 
 
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canFinish(int numCourses, int[][] prerequisites) {//拓扑排序
         if(prerequisites.length==0)
@@ -49,4 +49,4 @@ class Solution {
         }
     }
 }
-```
+// ```

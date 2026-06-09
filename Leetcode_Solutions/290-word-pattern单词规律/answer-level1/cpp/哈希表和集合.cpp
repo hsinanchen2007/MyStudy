@@ -1,10 +1,10 @@
-### 解题思路
-![1584778910(1).png](https://pic.leetcode-cn.com/8ab0505ff1ff9db83399ec00c3e7079ee97e864da084eaf878ece11d626e93ef-1584778910\(1\).png)
-此处撰写解题思路
+// ### 解题思路
+// ![1584778910(1).png](https://pic.leetcode-cn.com/8ab0505ff1ff9db83399ec00c3e7079ee97e864da084eaf878ece11d626e93ef-1584778910\(1\).png)
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool wordPattern(string pattern, string str) {
@@ -46,4 +46,4 @@ public:
         return myset.size()==mymap.size();
     }
 };
-```
+// ```

@@ -1,12 +1,12 @@
-## 解题思路
-1. 将所有元素按照`height`从小到大，`weight`从大到小排序
-2. 在排好序的数组中，求按`weight`严格单调递增的最长严格单调递增子序列的长度
+# ## 解题思路
+# 1. 将所有元素按照`height`从小到大，`weight`从大到小排序
+# 2. 在排好序的数组中，求按`weight`严格单调递增的最长严格单调递增子序列的长度
 
-## 时间复杂度
-排序`O(nlog(n))` + 求最长单增子序列`O(nlog(n))` = `O(n(logn))`
+# ## 时间复杂度
+# 排序`O(nlog(n))` + 求最长单增子序列`O(nlog(n))` = `O(n(logn))`
 
-## 代码实现
-```python3
+# ## 代码实现
+# ```python3
 import functools
 class Solution:
     
@@ -37,4 +37,4 @@ class Solution:
                     else: h = m
                 dp[l] = nums[i]
         return maxlen
-```
+# ```

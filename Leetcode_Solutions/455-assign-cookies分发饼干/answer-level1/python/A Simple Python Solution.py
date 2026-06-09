@@ -1,7 +1,7 @@
-执行用时 :156 ms, 在所有 Python 提交中击败了99.79% 的用户
-内存消耗 :13 MB, 在所有 Python 提交中击败了22.96%的用户
+# 执行用时 :156 ms, 在所有 Python 提交中击败了99.79% 的用户
+# 内存消耗 :13 MB, 在所有 Python 提交中击败了22.96%的用户
 
-```
+# ```
 class Solution(object):
     def findContentChildren(self, g, s):
         """
@@ -26,4 +26,4 @@ class Solution(object):
         return count
 
         
-```
+# ```

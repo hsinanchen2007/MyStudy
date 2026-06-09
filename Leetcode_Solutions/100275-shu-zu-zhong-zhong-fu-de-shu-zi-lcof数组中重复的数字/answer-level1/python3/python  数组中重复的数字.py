@@ -1,8 +1,8 @@
 
-# 方法一，采用内置排序后，进行遍历，这个样的好处，最大就是没有重复
+# # 方法一，采用内置排序后，进行遍历，这个样的好处，最大就是没有重复
 
 
-```
+# ```
 class Solution:
     def findRepeatNumber(self, nums: List[int]) -> int:
         nums.sort()
@@ -12,10 +12,10 @@ class Solution:
                 return n
             d = n
         return -1
-```
+# ```
 
-# 方法二 采用字典进行计数
-```
+# # 方法二 采用字典进行计数
+# ```
 class Solution:
     def findRepeatNumber(self, nums: List[int]) -> int:
         dic = dict()
@@ -25,4 +25,4 @@ class Solution:
                 return n
             dic[n]= d+1
         return -1
-```
+# ```

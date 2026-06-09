@@ -1,4 +1,4 @@
-```
+// ```
 public int findDuplicate(int[] nums) {
         for (int i = 0; i < nums.length; i++) {
             while (nums[i] != nums[nums[i] - 1]) {
@@ -13,4 +13,4 @@ public int findDuplicate(int[] nums) {
         nums[pos1] = nums[pos2];
         nums[pos2] = tmp;
     }
-```
+// ```

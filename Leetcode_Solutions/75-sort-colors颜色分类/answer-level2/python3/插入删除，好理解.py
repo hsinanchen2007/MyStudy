@@ -1,6 +1,6 @@
-把0往前移动，1往后插入，好理解
+# 把0往前移动，1往后插入，好理解
 
-```
+# ```
 class Solution:
     def sortColors(self, nums: List[int]) -> None:
         """
@@ -24,4 +24,4 @@ class Solution:
             else: #1不动，只走index
                 i+=1
                 count += 1
-```
+# ```

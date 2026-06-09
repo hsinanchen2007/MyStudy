@@ -1,5 +1,5 @@
-11行代码
-```js
+// 11行代码
+// ```js
 /**
  * @param {number} num
  * @return {number}
@@ -17,4 +17,4 @@ var translateNum = function(num) {
     dfs(0);
     return res;
 };
-```
+// ```

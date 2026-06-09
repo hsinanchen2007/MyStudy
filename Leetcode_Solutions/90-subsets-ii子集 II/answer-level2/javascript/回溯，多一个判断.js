@@ -1,6 +1,6 @@
-> 大体思路依然为回溯法，只不过需要加一个判断，如果该数字曾被使用过，则下次跳过该数字
+// > 大体思路依然为回溯法，只不过需要加一个判断，如果该数字曾被使用过，则下次跳过该数字
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number[][]}
@@ -25,4 +25,4 @@ function handler(nums, result, tmp, curr) {
     handler(nums, result, t, i + 1)
   }
 }
-```
+// ```

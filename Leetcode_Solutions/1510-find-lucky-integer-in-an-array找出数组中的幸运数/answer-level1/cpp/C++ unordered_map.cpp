@@ -1,9 +1,9 @@
-### 解题思路
-map 记录出现次数，返回最大值即可。
+// ### 解题思路
+// map 记录出现次数，返回最大值即可。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findLucky(vector<int>& arr) {
@@ -21,4 +21,4 @@ public:
         return maxlucky;
     }
 };
-```
+// ```

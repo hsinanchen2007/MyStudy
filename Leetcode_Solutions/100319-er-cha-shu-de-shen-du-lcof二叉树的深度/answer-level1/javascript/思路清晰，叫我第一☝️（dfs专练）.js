@@ -1,9 +1,9 @@
-### 解题思路
-dfs专练
+// ### 解题思路
+// dfs专练
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -31,4 +31,4 @@ var dfs = function(root, depth){
     dfs(root.left, depth)
     dfs(root.right, depth)
 }
-```
+// ```

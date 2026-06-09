@@ -1,4 +1,4 @@
-```
+// ```
 #define MAPSIZE 128
 int countCharacters(char ** words, int wordsSize, char * chars){
     int stack[MAPSIZE] = { 0 };
@@ -30,4 +30,4 @@ int countCharacters(char ** words, int wordsSize, char * chars){
     }
     return sumcnt;
 }
-```
+// ```

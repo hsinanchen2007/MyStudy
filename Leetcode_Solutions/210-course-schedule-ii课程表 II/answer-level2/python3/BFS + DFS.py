@@ -1,20 +1,20 @@
-## 思路：
+# ## 思路：
 
-意思按照什么顺序可以把所有功课学完
+# 意思按照什么顺序可以把所有功课学完
 
-和[207. 课程表](https://leetcode-cn.com/problems/course-schedule/) | [题解链接](https://leetcode-cn.com/problems/course-schedule/solution/dfs-bfs-by-powcai) 一样，只是把过程记录下来！
+# 和[207. 课程表](https://leetcode-cn.com/problems/course-schedule/) | [题解链接](https://leetcode-cn.com/problems/course-schedule/solution/dfs-bfs-by-powcai) 一样，只是把过程记录下来！
 
-思路一：BFS
+# 思路一：BFS
 
-思路二：DFS
+# 思路二：DFS
 
-如有不清楚的地方， 欢迎留言~
+# 如有不清楚的地方， 欢迎留言~
 
-## 代码：
+# ## 代码：
 
-思路一：BFS
+# 思路一：BFS
 
-```python
+# ```python
 class Solution:
     def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
         from collections import defaultdict
@@ -34,11 +34,11 @@ class Solution:
                 if degree[j] == 0:
                     bfs.append(j)
         return res if len(res) == numCourses else []
-```
+# ```
 
-思路二：DFS
+# 思路二：DFS
 
-```python
+# ```python
 class Solution:
     def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
         from collections import defaultdict
@@ -65,5 +65,5 @@ class Solution:
             if not dfs(i, set()):
                 return []
         return res[::-1]
-```
+# ```
 

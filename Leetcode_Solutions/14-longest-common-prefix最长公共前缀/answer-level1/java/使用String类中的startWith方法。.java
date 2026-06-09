@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-首先筛选出字符串数组中字符串长度最短的长度samlllen，使用substring方法截取首个字符串【0，smalllen）作为一个新的字符串，与字符串数组中所有元素对比。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 首先筛选出字符串数组中字符串长度最短的长度samlllen，使用substring方法截取首个字符串【0，smalllen）作为一个新的字符串，与字符串数组中所有元素对比。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public  String longestCommonPrefix(String[] strarr){
         //如果字符串长度是，内容为空，前缀为空
@@ -30,4 +30,4 @@ class Solution {
         return "";
     }
 }
-```
+// ```

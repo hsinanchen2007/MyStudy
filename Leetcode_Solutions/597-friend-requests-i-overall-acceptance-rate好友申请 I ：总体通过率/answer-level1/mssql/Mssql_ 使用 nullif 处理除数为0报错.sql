@@ -1,4 +1,4 @@
-```
+-- ```
 SELECT convert(decimal(10, 2), isnull((
 		SELECT COUNT(*) AS accepted_count
 		FROM (
@@ -12,4 +12,4 @@ SELECT convert(decimal(10, 2), isnull((
 			FROM friend_request
 		) t1
 	), 0)) AS accept_rate
-```
+-- ```

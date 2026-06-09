@@ -1,5 +1,5 @@
-先找两个的交集，然后找两个交集的交集。......
-```
+// 先找两个的交集，然后找两个交集的交集。......
+// ```
 class Solution {
 public:
     vector<int> Intersection(vector<int>&arr1,vector<int>&arr2)
@@ -37,4 +37,4 @@ public:
         return t3;
     }
 };
-```
+// ```

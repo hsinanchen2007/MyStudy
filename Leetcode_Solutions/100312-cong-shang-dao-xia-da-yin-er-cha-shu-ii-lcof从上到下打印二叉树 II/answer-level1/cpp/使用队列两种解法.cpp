@@ -1,5 +1,5 @@
-方法一，向队列中push节点时，记录其深度，根据深度判断节点的层次
-```cpp
+// 方法一，向队列中push节点时，记录其深度，根据深度判断节点的层次
+// ```cpp
 class Solution
 {
 public:
@@ -43,9 +43,9 @@ public:
 		return res;
 	}
 };
-```
-方法二，每一次均将一层的节点拿出来
-```cpp
+// ```
+// 方法二，每一次均将一层的节点拿出来
+// ```cpp
 class Solution
 {
 public:
@@ -81,4 +81,4 @@ public:
 		return res;
 	}
 };
-```
+// ```

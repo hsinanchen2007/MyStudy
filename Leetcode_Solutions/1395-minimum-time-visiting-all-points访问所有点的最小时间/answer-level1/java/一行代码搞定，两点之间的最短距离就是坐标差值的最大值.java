@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minTimeToVisitAllPoints(int[][] points) {
 int times = 0;
@@ -13,4 +13,4 @@ times += Math.max(Math.abs(points[i + 1][0] - points[i][0]), Math.abs(points[i +
 return times;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int kthSmallest(vector<vector<int>>& matrix, int k) {
@@ -36,4 +36,4 @@ public:
         return left;
     }
 };
-```感觉理解二分精髓才知道为何要这么做吧
+// ```感觉理解二分精髓才知道为何要这么做吧

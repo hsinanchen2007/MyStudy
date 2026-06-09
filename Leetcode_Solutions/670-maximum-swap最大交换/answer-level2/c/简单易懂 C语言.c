@@ -1,16 +1,16 @@
-### 解题思路
-此处撰写解题思路
-1、把num转换为字符串
-2、对转换后的字符串按照降序进行排序qsort
-3、比较排序前后的差异
-4、从后往前找到与排序后比较不一样的字符，
-5、交换字符，输出结果
-![image.png](https://pic.leetcode-cn.com/d2b87304d1ca80b7301db24a3c5fbc091a1769aa92a9f581757f95c82b6159a1-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// 1、把num转换为字符串
+// 2、对转换后的字符串按照降序进行排序qsort
+// 3、比较排序前后的差异
+// 4、从后往前找到与排序后比较不一样的字符，
+// 5、交换字符，输出结果
+// ![image.png](https://pic.leetcode-cn.com/d2b87304d1ca80b7301db24a3c5fbc091a1769aa92a9f581757f95c82b6159a1-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 static void itoa(int n, char *s)
 {
     int i, j;
@@ -65,4 +65,4 @@ int maximumSwap(int num)
     
     return atoi(s);
 }
-```
+// ```

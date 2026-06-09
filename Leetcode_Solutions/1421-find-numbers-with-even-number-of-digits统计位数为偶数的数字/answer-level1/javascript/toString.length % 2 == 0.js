@@ -1,9 +1,9 @@
-### 解题思路
-toString求length取余2
+// ### 解题思路
+// toString求length取余2
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -15,4 +15,4 @@ var findNumbers = function(nums) {
     }
     return c;
 };
-```
+// ```

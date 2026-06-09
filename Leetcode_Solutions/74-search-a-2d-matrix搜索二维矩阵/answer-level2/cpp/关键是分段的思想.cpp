@@ -1,13 +1,13 @@
-### 解题思路
-这道题目将整个数值范围划分为[INT_MIN, matrix[0][0]), [matrix[0][0], matrix[0].end()], (matrix[0].end(), matrix.end().end()], (matrix.end().end(), INT_MAX)
-1. 第一步是排除[INT_MIN, matrix[0][0])与(matrix.end().end(), INT_MAX)
-2. 第二步判断是否在[matrix[0][0], matrix[0].end()]中，如果是，直接最简单的二分
-3. 第三步是本题的关键，先利用matrix[0].end()与matrix.end().end()进行二分找寻行号，然后找到行了之后，在二分找target即可
-- 3中的判断是，如果比matrix[i].end()大，那说明一定是在i之后的行；如果和matrix[i].end()一样大，那么就是第i行；如果比matrix[i].end()小，又比matrix[i-1].end()大，说明在第i行；如果比matrix[i].end()小，又比matrix[i-1].end()小，说明一定是在i之前的行.
+// ### 解题思路
+// 这道题目将整个数值范围划分为[INT_MIN, matrix[0][0]), [matrix[0][0], matrix[0].end()], (matrix[0].end(), matrix.end().end()], (matrix.end().end(), INT_MAX)
+// 1. 第一步是排除[INT_MIN, matrix[0][0])与(matrix.end().end(), INT_MAX)
+// 2. 第二步判断是否在[matrix[0][0], matrix[0].end()]中，如果是，直接最简单的二分
+// 3. 第三步是本题的关键，先利用matrix[0].end()与matrix.end().end()进行二分找寻行号，然后找到行了之后，在二分找target即可
+// - 3中的判断是，如果比matrix[i].end()大，那说明一定是在i之后的行；如果和matrix[i].end()一样大，那么就是第i行；如果比matrix[i].end()小，又比matrix[i-1].end()大，说明在第i行；如果比matrix[i].end()小，又比matrix[i-1].end()小，说明一定是在i之前的行.
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
@@ -60,8 +60,8 @@ public:
         return l;
     }
 };
-```
+// ```
 
-### 结果
-执行用时 : 8 ms , 在所有 C++ 提交中击败了 87.21% 的用户 
-内存消耗 : 7.5 MB , 在所有 C++ 提交中击败了 100.00% 的用户
+// ### 结果
+// 执行用时 : 8 ms , 在所有 C++ 提交中击败了 87.21% 的用户 
+// 内存消耗 : 7.5 MB , 在所有 C++ 提交中击败了 100.00% 的用户

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char* reverseLeftWords(char* s, int n){
     int lenght = strlen(s);
     int temp = 0;
@@ -24,4 +24,4 @@ char* reverseLeftWords(char* s, int n){
     array[temp] = '\0';
     return array;
 }
-```
+// ```

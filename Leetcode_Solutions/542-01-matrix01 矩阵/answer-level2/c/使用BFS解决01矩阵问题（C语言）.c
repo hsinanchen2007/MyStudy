@@ -1,19 +1,19 @@
-### 解题思路
-本题可选思路为BFS和DFS。
+// ### 解题思路
+// 本题可选思路为BFS和DFS。
 
-如果使用DFS，则会遇到正在搜索的路径影响最终结果判断的问题。
-这时的处理方法通常是只将最顶层的遍历结果进行记忆，但是会影响效率（本题超时）。
+// 如果使用DFS，则会遇到正在搜索的路径影响最终结果判断的问题。
+// 这时的处理方法通常是只将最顶层的遍历结果进行记忆，但是会影响效率（本题超时）。
 
-因此使用BFS。具体思路是：
-（1）先找到所有与1相邻的0，放入队列；
-（2）开始广度遍历，将所有相邻的未处理的1放入新队列，并且将这些点的结果输出；
-（3）继续迭代直到队列为空。
+// 因此使用BFS。具体思路是：
+// （1）先找到所有与1相邻的0，放入队列；
+// （2）开始广度遍历，将所有相邻的未处理的1放入新队列，并且将这些点的结果输出；
+// （3）继续迭代直到队列为空。
 
-此题为典型的适合BFS解决的问题。
+// 此题为典型的适合BFS解决的问题。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -174,4 +174,4 @@ int** updateMatrix(int** matrix, int matrixSize, int* matrixColSize, int* return
 	*returnColumnSizes = res_col;
 	return res;
 }
-```
+// ```

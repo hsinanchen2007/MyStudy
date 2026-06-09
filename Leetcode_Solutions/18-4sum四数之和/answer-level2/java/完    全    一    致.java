@@ -1,8 +1,8 @@
-此解法与三数之和解法几乎完全一致，由于问题为四数之和，故新加入一个指针l
-l指针为末指针，用法与k指针相似
-对k和l的遍历次数做了限制略微提高性能
+// 此解法与三数之和解法几乎完全一致，由于问题为四数之和，故新加入一个指针l
+// l指针为末指针，用法与k指针相似
+// 对k和l的遍历次数做了限制略微提高性能
 
-```
+// ```
 public static List<List<Integer>> fourSum(int[] nums, int target) {
         List<List<Integer>> ans = new ArrayList<>();
         Arrays.sort(nums);
@@ -28,4 +28,4 @@ public static List<List<Integer>> fourSum(int[] nums, int target) {
         }
         return ans;
     }
-```
+// ```

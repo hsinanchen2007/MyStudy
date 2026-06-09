@@ -1,11 +1,11 @@
-![1.png](https://pic.leetcode-cn.com/102c31f49d276962735f51e4d5274f7ded1847634b18172aba8e03659a1147c2-1.png)
+// ![1.png](https://pic.leetcode-cn.com/102c31f49d276962735f51e4d5274f7ded1847634b18172aba8e03659a1147c2-1.png)
 
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int numRookCaptures(char** board, int boardSize, int* boardColSize){
 	int res = 0;
 	for (int i = 0; i < boardSize; i++){
@@ -49,4 +49,4 @@ int numRookCaptures(char** board, int boardSize, int* boardColSize){
 	}
 	return res;
 }
-```
+// ```

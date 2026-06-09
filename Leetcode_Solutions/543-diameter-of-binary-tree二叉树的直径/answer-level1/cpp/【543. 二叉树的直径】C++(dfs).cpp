@@ -1,9 +1,9 @@
-### 解题思路
-求直径问题可以转化成求每个结点为根结点的左右子树深度之和(L+R)
+// ### 解题思路
+// 求直径问题可以转化成求每个结点为根结点的左右子树深度之和(L+R)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -32,4 +32,4 @@ public:
         return max_road-1;
     }
 };
-```
+// ```

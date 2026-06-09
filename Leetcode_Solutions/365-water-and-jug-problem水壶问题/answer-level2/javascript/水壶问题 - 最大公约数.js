@@ -1,8 +1,8 @@
-### 解题思路
-# 求最大公约数
-### 代码
+// ### 解题思路
+// # 求最大公约数
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} x
  * @param {number} y
@@ -25,4 +25,4 @@ var canMeasureWater = function(x, y, z) {
     }
     return z % gcd == 0
 };
-```
+// ```

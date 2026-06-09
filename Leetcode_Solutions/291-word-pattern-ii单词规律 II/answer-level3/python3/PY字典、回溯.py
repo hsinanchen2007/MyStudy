@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def wordPatternMatch(self, p: str, s: str,d={},v=set(),i=0,j=0) -> bool:
         if i == 0 and j == 0:
@@ -21,4 +21,4 @@ class Solution:
                 del d[p[i]]
                 v.remove(w)
         return False
-```
+# ```

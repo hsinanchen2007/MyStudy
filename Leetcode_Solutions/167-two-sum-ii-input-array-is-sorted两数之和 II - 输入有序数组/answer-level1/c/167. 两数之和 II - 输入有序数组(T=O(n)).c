@@ -1,11 +1,11 @@
-### 解题思路
-双索引夹逼。和偏大，大索引向前扫；和偏小，小索引向后扫。
-注意：该题结果索引的修正+1。
-时间复杂度O(n)。
+// ### 解题思路
+// 双索引夹逼。和偏大，大索引向前扫；和偏小，小索引向后扫。
+// 注意：该题结果索引的修正+1。
+// 时间复杂度O(n)。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -41,4 +41,4 @@ int* twoSum(int* numbers, int numbersSize, int target, int* returnSize){
     *returnSize = 0;
     return ret;
 }
-```
+// ```

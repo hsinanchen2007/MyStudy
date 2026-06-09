@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def minSwap(self, A: List[int], B: List[int]) -> int:
         n = len(A)
@@ -16,4 +16,4 @@ class Solution:
                 buhuan = huan#如果i不换那么交换前面的
                 huan = t+1
         return min(huan,buhuan)
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+-- ### 解题思路
+-- 此处撰写解题思路
 
-### 代码
+-- ### 代码
 
-```mssql
+-- ```mssql
 /* Write your T-SQL query statement below */
 select business_id from 
 (select e.business_id, 
@@ -18,4 +18,4 @@ on e.business_id=temp.business_id and e.event_type=temp.event_type) temp_1
 group by business_id having sum(c_point)>=2
 
 
-```
+-- ```

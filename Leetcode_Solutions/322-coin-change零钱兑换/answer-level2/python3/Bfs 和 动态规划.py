@@ -1,10 +1,10 @@
-### 解题思路
-这道题的bfs方法和279号题方法相同,但是时间太慢,就不说了.
-动态规划时间也就凑合
+# ### 解题思路
+# 这道题的bfs方法和279号题方法相同,但是时间太慢,就不说了.
+# 动态规划时间也就凑合
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 #dp
 class Solution:
     def coinChange(self, coins: [int], amount: int) -> int:
@@ -48,4 +48,4 @@ class Solution:
                         elif mid>0:
                             que.append(mid)
         return -1
-```
+# ```

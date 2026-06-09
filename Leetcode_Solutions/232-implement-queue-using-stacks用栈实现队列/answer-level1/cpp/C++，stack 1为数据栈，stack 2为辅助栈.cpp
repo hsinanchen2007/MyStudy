@@ -1,9 +1,9 @@
-### 解题思路
-stk_1为数据栈，stk_2为辅助栈
+// ### 解题思路
+// stk_1为数据栈，stk_2为辅助栈
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MyQueue {
 public:
     /** Initialize your data structure here. */
@@ -71,4 +71,4 @@ private:
  * int param_3 = obj->peek();
  * bool param_4 = obj->empty();
  */
-```
+// ```

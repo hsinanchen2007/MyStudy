@@ -1,32 +1,32 @@
-#### 思路
+// #### 思路
 
-其实是一道找规律的题
+// 其实是一道找规律的题
 
-    zero                z
-    one 
-    two                 w
-    three
-    four                u
-    five            
-    six                 x
-    seven
-    eight               g
-    nine
+//     zero                z
+//     one 
+//     two                 w
+//     three
+//     four                u
+//     five            
+//     six                 x
+//     seven
+//     eight               g
+//     nine
     
-    上面标出来的字符, 就是唯一的字符, 若字符串s中找到一个z说明有一个zero. 同理可得 two four six eight. 
+//     上面标出来的字符, 就是唯一的字符, 若字符串s中找到一个z说明有一个zero. 同理可得 two four six eight. 
     
-    之后就是找规律了, 通过已知条件求未知条件。
+//     之后就是找规律了, 通过已知条件求未知条件。
     
-    three字符中, 可以通过已知条件求出来的字符是t, 因为除了three外, 包含t的字符只有 eight 和 two , 恰好eight和two的个数我们可以通过唯一字符w和g得出。
-    所以three出现的概率为 t字符出现的次数减去2出现的个数和8出现的个数。
+//     three字符中, 可以通过已知条件求出来的字符是t, 因为除了three外, 包含t的字符只有 eight 和 two , 恰好eight和two的个数我们可以通过唯一字符w和g得出。
+//     所以three出现的概率为 t字符出现的次数减去2出现的个数和8出现的个数。
     
-    一步一步通过已知条件求未知条件, 找出答案就是时间问题了。
+//     一步一步通过已知条件求未知条件, 找出答案就是时间问题了。
     
     
-#### code
+// #### code
 
 
-```
+// ```
 func originalDigits(s string) string {
     m := make(map[byte]int)
     for i := 0; i < len(s); i++ {
@@ -53,4 +53,4 @@ func originalDigits(s string) string {
     }
     return string(res)
 }
-```
+// ```

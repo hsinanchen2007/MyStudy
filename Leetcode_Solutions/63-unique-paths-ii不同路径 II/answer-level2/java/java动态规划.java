@@ -1,5 +1,5 @@
-与不同路径第一题的思路类似,需要注意的点是当table[i][j]=1时,dp[i][j]=0.即当某点为障碍物时,没有方法可以到达该点
-```
+// 与不同路径第一题的思路类似,需要注意的点是当table[i][j]=1时,dp[i][j]=0.即当某点为障碍物时,没有方法可以到达该点
+// ```
 class Solution {
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {
         int m=obstacleGrid.length;
@@ -25,4 +25,4 @@ class Solution {
         return dp[m-1][n-1];
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
  // 找到中心节点，将后半段反转，依次插入前半段
 func reorderList(head *ListNode)  {
     if head == nil {
@@ -43,4 +43,4 @@ func reverse(node *ListNode) *ListNode {
     }
     return pre
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-这道题不需要在意自己序列化结果格式，只需要能在反序列化后得到原来的树结构即可，主要注意stringstream以及getline函数的使用。
-另外就是队列在避免递归中的使用。
+// ### 解题思路
+// 这道题不需要在意自己序列化结果格式，只需要能在反序列化后得到原来的树结构即可，主要注意stringstream以及getline函数的使用。
+// 另外就是队列在避免递归中的使用。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -75,4 +75,4 @@ public:
 // Your Codec object will be instantiated and called as such:
 // Codec codec;
 // codec.deserialize(codec.serialize(root));
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 // Definition for singly-linked list.
 // #[derive(PartialEq, Eq, Clone, Debug)]
 // pub struct ListNode {
@@ -62,5 +62,5 @@ impl Solution {
 
     }
 }
-```
-0ms,2.2m
+// ```
+// 0ms,2.2m

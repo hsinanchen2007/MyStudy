@@ -1,11 +1,11 @@
-### 解题思路
-使用数组实现，效率不错。
-以空间换时间。
-![image.png](https://pic.leetcode-cn.com/dc8e8f01adcfa9aecf2c1ca3ce84b4bd540f67eca49c63c320b86ffa2f406691-image.png)
+// ### 解题思路
+// 使用数组实现，效率不错。
+// 以空间换时间。
+// ![image.png](https://pic.leetcode-cn.com/dc8e8f01adcfa9aecf2c1ca3ce84b4bd540f67eca49c63c320b86ffa2f406691-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MaxQueue {
 public:
     MaxQueue() {}
@@ -47,4 +47,4 @@ private:
         front = 0, //队列前端索引
         end = 0; //队列后端索引（最后一个值的后一位）
 };
-```
+// ```

@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/2a88c5dd8c1a2859c68f18577d57f398cd3b362a3c4047875504f15bc6b162c8-image.png)
+# ![image.png](https://pic.leetcode-cn.com/2a88c5dd8c1a2859c68f18577d57f398cd3b362a3c4047875504f15bc6b162c8-image.png)
 
-每次迭代视为加入矩阵最外围的一圈数据，将中间的一部分数据继续迭代
+# 每次迭代视为加入矩阵最外围的一圈数据，将中间的一部分数据继续迭代
 
-```
+# ```
 class Solution:
     def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
         if matrix == []: return []
@@ -39,4 +39,4 @@ class Solution:
         
         return fun(matrix)
 
-```
+# ```

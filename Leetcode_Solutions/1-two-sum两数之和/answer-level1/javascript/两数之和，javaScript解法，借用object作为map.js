@@ -1,9 +1,9 @@
-### 解题思路
-假设每种输入只会对应一个答案降低了难度，如果有三个相同值，两两相加得到target，此方法只能找到第一个和第三个值的索引
+// ### 解题思路
+// 假设每种输入只会对应一个答案降低了难度，如果有三个相同值，两两相加得到target，此方法只能找到第一个和第三个值的索引
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -23,4 +23,4 @@ var twoSum = function(nums, target) {
         }
     }
 }
-```
+// ```

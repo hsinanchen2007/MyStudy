@@ -1,5 +1,5 @@
-二进制，每次进位之后，比进位之前多一个
-```
+// 二进制，每次进位之后，比进位之前多一个
+// ```
 int* countBits(int num, int* returnSize){
     int* a=(int*)malloc((num+1)*sizeof(int));
     *returnSize=num+1;
@@ -12,4 +12,4 @@ int* countBits(int num, int* returnSize){
     }
     return a;
 }
-```
+// ```

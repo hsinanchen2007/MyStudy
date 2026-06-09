@@ -1,7 +1,7 @@
-## 思路：将奇偶数位置调换
+// ## 思路：将奇偶数位置调换
 
-# 迭代
-```
+// # 迭代
+// ```
 class Solution {
     public ListNode swapPairs(ListNode head) {
         ListNode dummy = new ListNode(-1);
@@ -17,10 +17,10 @@ class Solution {
         return dummy.next;
     }
 }
-```
-时间复杂度: O(n), 空间复杂度: O(1).
-# 递归
-```
+// ```
+// 时间复杂度: O(n), 空间复杂度: O(1).
+// # 递归
+// ```
 class Solution {
     public ListNode swapPairs(ListNode head) {
         ListNode dummy = new ListNode(-1);
@@ -38,5 +38,5 @@ class Solution {
         head.next = tmp;
     }
 }
-```
-时间复杂度: O(n), 空间复杂度: O(n).
+// ```
+// 时间复杂度: O(n), 空间复杂度: O(n).

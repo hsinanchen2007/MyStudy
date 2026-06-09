@@ -1,9 +1,9 @@
-/* 
-找到第一次且只出现一次的字符
-建立一个临时数组存储已经出现过且不仅仅一次的字符
-*/
+// /* 
+// 找到第一次且只出现一次的字符
+// 建立一个临时数组存储已经出现过且不仅仅一次的字符
+// */
 
-```
+// ```
 bool isBelong(char str[], int len, char c)
 {
     for (int index = 0; index < len; index++) {
@@ -50,4 +50,4 @@ char firstUniqChar(char* s)
 
     return ' ';
 }
-```
+// ```

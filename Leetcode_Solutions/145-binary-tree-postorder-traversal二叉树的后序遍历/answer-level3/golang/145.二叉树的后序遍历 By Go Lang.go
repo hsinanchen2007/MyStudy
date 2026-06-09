@@ -1,9 +1,9 @@
-### 解题思路
-按照root节点，左节点，右节点的顺序压入堆栈，进行迭代。
+// ### 解题思路
+// 按照root节点，左节点，右节点的顺序压入堆栈，进行迭代。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 func postorderTraversal(root *TreeNode) []int {
 	if root == nil {
@@ -33,4 +33,4 @@ func postorderTraversal(root *TreeNode) []int {
 	return buf
 }
 
-```
+// ```

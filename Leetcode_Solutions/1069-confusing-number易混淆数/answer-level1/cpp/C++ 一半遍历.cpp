@@ -1,6 +1,6 @@
-1，首先判断是否字符合法
-2，其次判断翻转是否一致
-```
+// 1，首先判断是否字符合法
+// 2，其次判断翻转是否一致
+// ```
 class Solution {
 public:
     unordered_map<char, char> M = {
@@ -17,6 +17,6 @@ public:
         return !is_same;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/0d024365c994a1f0e99770698a526a09c7657336116c19cef7a3ccd55a58af2c-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/0d024365c994a1f0e99770698a526a09c7657336116c19cef7a3ccd55a58af2c-image.png)
 

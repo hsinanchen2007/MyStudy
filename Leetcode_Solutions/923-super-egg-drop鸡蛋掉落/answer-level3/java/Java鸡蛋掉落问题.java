@@ -1,5 +1,5 @@
-解法一：状态转移求解鸡蛋掉落问题
-```
+// 解法一：状态转移求解鸡蛋掉落问题
+// ```
 class Solution {
     public int superEggDrop(int K, int N) {
         int i=1;
@@ -12,11 +12,11 @@ class Solution {
         return (i == 1 || K == 1) ? i : g(i - 1, K - 1) + g(i - 1, K) + 1;
     }
 }
-```
+// ```
 
-解法二：用O(n)的辅助空间优化时间复杂度
-1ms,100%
-```
+// 解法二：用O(n)的辅助空间优化时间复杂度
+// 1ms,100%
+// ```
 class Solution {
     public int superEggDrop(int K, int N) {
         int[] res=new int[K];
@@ -30,4 +30,4 @@ class Solution {
         return res[0];
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findSubstring(self, s: str, words: List[str]) -> List[int]:
         
@@ -56,4 +56,4 @@ class Solution:
             right += 1
             
         return res
-```
+# ```

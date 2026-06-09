@@ -1,9 +1,9 @@
-### 解题思路
-简单
+// ### 解题思路
+// 简单
 
-### 代码
+// ### 代码
 
-```scala
+// ```scala
 object Solution {
     def numJewelsInStones(J: String, S: String): Int = {
        var count = 0
@@ -15,4 +15,4 @@ object Solution {
       count
     }
 }
-```
+// ```

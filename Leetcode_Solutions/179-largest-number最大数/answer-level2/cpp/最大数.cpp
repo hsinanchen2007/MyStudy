@@ -1,10 +1,10 @@
-### 解题思路
-如何排序
-如果 ab > ba, 那么 a > b，sort自定义排序规则
+// ### 解题思路
+// 如何排序
+// 如果 ab > ba, 那么 a > b，sort自定义排序规则
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string largestNumber(vector<int>& nums) {
@@ -33,4 +33,4 @@ public:
         return ( a+b > b+a) ? true: false;
     }
 };
-```
+// ```

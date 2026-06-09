@@ -1,6 +1,6 @@
-因为预先用了bitset，所以效率不如用与运算直接统计高
+// 因为预先用了bitset，所以效率不如用与运算直接统计高
 
-```
+// ```
 class Solution {
 public:
     int binaryGap(int N) {
@@ -35,4 +35,4 @@ public:
         
     }
 };
-```
+// ```

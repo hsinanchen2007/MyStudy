@@ -1,11 +1,11 @@
-### 解题思路
-target - a = b
-target - b = a
-将每个值缓存在map中，进行查找
+// ### 解题思路
+// target - a = b
+// target - b = a
+// 将每个值缓存在map中，进行查找
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func twoSum(nums []int, target int) []int {
     numMap := make(map[int]int)
     for i := 0; i<len(nums); i++ {
@@ -18,4 +18,4 @@ func twoSum(nums []int, target int) []int {
     }
     return []int{}
 }
-```
+// ```

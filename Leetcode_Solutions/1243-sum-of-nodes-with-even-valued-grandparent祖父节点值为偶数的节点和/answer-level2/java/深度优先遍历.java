@@ -1,8 +1,8 @@
-![无标题.png](https://pic.leetcode-cn.com/b1922465a0c019f6ccb3ca0b31eee9fbe67183a7bfe413caef89ab8b5dd6e2cd-%E6%97%A0%E6%A0%87%E9%A2%98.png)
+// ![无标题.png](https://pic.leetcode-cn.com/b1922465a0c019f6ccb3ca0b31eee9fbe67183a7bfe413caef89ab8b5dd6e2cd-%E6%97%A0%E6%A0%87%E9%A2%98.png)
 
-    代码应该比较清晰明了了，dfs()深度优先遍历每个节点，判断当前节点是否为偶数，若是，就使用get()获取它的隔代节点值。
+//     代码应该比较清晰明了了，dfs()深度优先遍历每个节点，判断当前节点是否为偶数，若是，就使用get()获取它的隔代节点值。
 
-```
+// ```
 class Solution {
     public int sumEvenGrandparent(TreeNode root) {
         return dfs(root);
@@ -25,4 +25,4 @@ class Solution {
         return x + y;
     }
 }
-```
+// ```

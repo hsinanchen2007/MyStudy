@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean isPalindrome(ListNode head) {
         if (head == null) {
@@ -17,4 +17,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

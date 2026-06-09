@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int numberOfSteps (int num) {
@@ -14,4 +14,4 @@ public:
         return count;
     }
 };
-```
+// ```

@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/3f75bf1d45c45f94ae212c01d83370ed662898d0b9cb449b7140ee9f05d746b6-image.png)
+// ![image.png](https://pic.leetcode-cn.com/3f75bf1d45c45f94ae212c01d83370ed662898d0b9cb449b7140ee9f05d746b6-image.png)
 
-```
+// ```
 #define  MAX_SIZE 100000
 #define  MAX_SIZE1 1000
 int Comp(void *a, void *b) {
@@ -56,4 +56,4 @@ int* topKFrequent(int* nums, int numsSize, int k, int* returnSize){
     *returnSize = k;
     return res;
 }
-```
+// ```

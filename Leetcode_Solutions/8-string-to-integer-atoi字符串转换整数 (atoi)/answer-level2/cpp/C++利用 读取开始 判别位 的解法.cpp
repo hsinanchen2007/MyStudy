@@ -1,10 +1,10 @@
-### 解题思路
-利用flag存储+-，利用start确定是否已经开始，若之后再出现不是数字则break；
-复杂度O(n)吧，执行用时一会0，一会4ms
+// ### 解题思路
+// 利用flag存储+-，利用start确定是否已经开始，若之后再出现不是数字则break；
+// 复杂度O(n)吧，执行用时一会0，一会4ms
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int myAtoi(string str) {
@@ -44,4 +44,4 @@ public:
         return flag*result;
     }     
 };
-```
+// ```

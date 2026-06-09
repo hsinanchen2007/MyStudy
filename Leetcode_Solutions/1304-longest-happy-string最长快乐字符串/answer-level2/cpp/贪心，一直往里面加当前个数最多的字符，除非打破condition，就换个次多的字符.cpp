@@ -1,4 +1,4 @@
-```
+// ```
 typedef pair<int, char> pic;
 class Solution {
 public:
@@ -35,4 +35,4 @@ public:
         return ret;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-滑动窗口法解决该问题
+// ### 解题思路
+// 滑动窗口法解决该问题
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean checkInclusion(String s1, String s2) {
         //Java语言滑动窗口法，统计字母出现的次数
@@ -42,4 +42,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

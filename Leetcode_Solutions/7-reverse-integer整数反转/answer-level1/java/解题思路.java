@@ -1,10 +1,10 @@
-### 解题思路
-###此处撰写解题思路
-###运算比较简单，关键是一定要注意溢出操作。
+// ### 解题思路
+// ###此处撰写解题思路
+// ###运算比较简单，关键是一定要注意溢出操作。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
    public static int reverse(int num) {
 		int rev = 0;
@@ -20,4 +20,4 @@ class Solution {
 		return rev;
 	}
 }
-```
+// ```

@@ -1,13 +1,13 @@
-### 解题思路
-思路：双指针。
-当指针包括的区间和大于target，则减去头再比较；
-如果和小于target，则end++往后扩；
-如果和等于target，则加入res，然后end++继续往后扩；
-显然停止的点是target+1的一半。
+// ### 解题思路
+// 思路：双指针。
+// 当指针包括的区间和大于target，则减去头再比较；
+// 如果和小于target，则end++往后扩；
+// 如果和等于target，则加入res，然后end++继续往后扩；
+// 显然停止的点是target+1的一半。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> findContinuousSequence(int target) {
@@ -62,4 +62,4 @@ public:
         return res;
     }
 };
-```
+// ```

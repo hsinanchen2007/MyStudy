@@ -1,7 +1,7 @@
-两种方法代码都比较多
+// 两种方法代码都比较多
 
 
-```c
+// ```c
 
 int longestPalindrome(char * s){
     int l = 0;
@@ -125,4 +125,4 @@ int longestPalindrome(char * s)
     }
     return total;
 # }
-```
+// ```

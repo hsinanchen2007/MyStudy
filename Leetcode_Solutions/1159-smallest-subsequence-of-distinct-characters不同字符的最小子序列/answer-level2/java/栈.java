@@ -1,5 +1,5 @@
-//使用栈存储结果数据，如果当前遍历的元素小于栈顶元素并且栈顶元素在后面的字符串中还存在则弹出，循环此情况。
-```
+// //使用栈存储结果数据，如果当前遍历的元素小于栈顶元素并且栈顶元素在后面的字符串中还存在则弹出，循环此情况。
+// ```
  public  String smallestSubsequence(String text) {
         int len = text.length();
         char tmp;
@@ -18,4 +18,4 @@
             sb.append(stack.pop());
         return sb.reverse().toString();
     }
-```
+// ```

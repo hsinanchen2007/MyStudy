@@ -1,9 +1,9 @@
-### 解题思路
-题目不难，但是情况较多。。多调试就能做出来的
+// ### 解题思路
+// 题目不难，但是情况较多。。多调试就能做出来的
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String breakPalindrome(String palindrome) {
         char[] pal = palindrome.toCharArray();
@@ -26,4 +26,4 @@ class Solution {
         return new String(pal);
     }
 }
-```
+// ```

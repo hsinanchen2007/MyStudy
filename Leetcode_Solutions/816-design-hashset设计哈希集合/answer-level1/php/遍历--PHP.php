@@ -1,11 +1,11 @@
-### 解题思路
-初看跟706题没区别，如果按照706的写法，remove和contains都需要遍历。
+// ### 解题思路
+// 初看跟706题没区别，如果按照706的写法，remove和contains都需要遍历。
 
-优一点的解法还是添加的key作为数组的key, val为空。
+// 优一点的解法还是添加的key作为数组的key, val为空。
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class MyHashSet {
     private $list = [];
     /**
@@ -57,4 +57,4 @@ class MyHashSet {
  * $obj->remove($key);
  * $ret_3 = $obj->contains($key);
  */
-```
+// ```

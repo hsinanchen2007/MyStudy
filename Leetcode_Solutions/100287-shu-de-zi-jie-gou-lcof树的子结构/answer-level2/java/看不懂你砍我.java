@@ -1,6 +1,6 @@
-看不懂你砍我
+// 看不懂你砍我
 
-```
+// ```
 public boolean isSubStructure(TreeNode A, TreeNode B) {
         if (A == null || B == null) {
             return false;
@@ -44,4 +44,4 @@ public boolean isSubStructure(TreeNode A, TreeNode B) {
         }
         return a && b;
     }
-```
+// ```

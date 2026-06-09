@@ -1,9 +1,9 @@
-### 解题思路
-主要总是画出树状图，还有在设计空间大小的时候要足够大
+// ### 解题思路
+// 主要总是画出树状图，还有在设计空间大小的时候要足够大
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 
  void dfs(char **r,int j,int n,int *returnSize,char *lr,int left,int right,int num){
@@ -64,4 +64,4 @@ char ** generateParenthesis(int n, int* returnSize){
 }
 
 
-```
+// ```

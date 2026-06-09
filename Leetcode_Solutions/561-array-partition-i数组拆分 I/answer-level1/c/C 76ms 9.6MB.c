@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *总体思路：
@@ -32,4 +32,4 @@ int arrayPairSum( int * nums, int numsSize ){
     return sum;
 
 }
-```
+// ```

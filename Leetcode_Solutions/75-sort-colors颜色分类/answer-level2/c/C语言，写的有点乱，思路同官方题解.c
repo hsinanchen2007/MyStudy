@@ -1,4 +1,4 @@
-//交换指针指向的值；
+// //交换指针指向的值；
 void swap(int *a, int *b){
     int t;
     t = *a;

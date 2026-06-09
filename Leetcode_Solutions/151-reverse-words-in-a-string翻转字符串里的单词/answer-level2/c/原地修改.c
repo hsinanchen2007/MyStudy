@@ -1,4 +1,4 @@
-```
+// ```
 void revert(char *l, char *r)
 {
     char c;
@@ -60,9 +60,9 @@ char * reverseWords(char * s){
     *start = '\0';
     return s;
 }
-```
-解二
-```
+// ```
+// 解二
+// ```
 void revert(char *l, char *r)
 {
     char c;
@@ -109,4 +109,4 @@ char * reverseWords(char * s){
     *start = '\0';
     return s;
 }
-```
+// ```

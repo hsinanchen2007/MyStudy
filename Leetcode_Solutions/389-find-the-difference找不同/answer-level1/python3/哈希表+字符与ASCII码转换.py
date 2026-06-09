@@ -1,6 +1,6 @@
-方法一，哈希表，分别遍历两个字符串即可。
+# 方法一，哈希表，分别遍历两个字符串即可。
 
-```
+# ```
 class Solution:
     def findTheDifference(self, s: str, t: str) -> str:
         res = {}
@@ -14,10 +14,10 @@ class Solution:
                 res[i] -= 1
             else:
                 return i     #字典中没有相同字符，则返回该字符
-```
+# ```
 
-方法2，字符与ASCII码值转换。
-```
+# 方法2，字符与ASCII码值转换。
+# ```
 class Solution:
     def findTheDifference(self, s: str, t: str) -> str:
         a = 0
@@ -27,5 +27,5 @@ class Solution:
         for i in t:
             b += ord(i)
         return chr(b-a)
-```
+# ```
 

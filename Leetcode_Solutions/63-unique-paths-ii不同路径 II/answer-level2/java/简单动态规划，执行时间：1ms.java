@@ -1,10 +1,10 @@
-### 解题思路
-计算每格的路径数，初始化第一行和第一列为1，遇到障碍设置为0，且在之后的格子初始化为0；
-其他格子遇到障碍设置为0，未遇到障碍时，转移方程为：obstacleGrid[i][j] = obstacleGrid[i-1][j] + obstacleGrid[i][j-1];
+// ### 解题思路
+// 计算每格的路径数，初始化第一行和第一列为1，遇到障碍设置为0，且在之后的格子初始化为0；
+// 其他格子遇到障碍设置为0，未遇到障碍时，转移方程为：obstacleGrid[i][j] = obstacleGrid[i-1][j] + obstacleGrid[i][j-1];
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
      public int uniquePathsWithObstacles(int[][] obstacleGrid) { // m是行，n是列
         int m = obstacleGrid.length;
@@ -39,4 +39,4 @@ class Solution {
         return obstacleGrid[m-1][n-1];
     }
 }
-```
+// ```

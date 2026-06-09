@@ -1,5 +1,5 @@
-建立一个和数列sums_array, 其中sums_array[i]等于sum(nums[0:i+1])。然后用merge sort对这个sums_array进行排序，在排序过程中，每次将left和right列表merge前，为left中的每一个元素确定right中符合条件的值的范围。也就是说在right中设两个指针lo和up，其中lo指向right中第一个使right[lo] - left[i] >= lower的元素，而up指向right中最后一个使right[up] - left[i] <= upper的元素，将up-lo加到最后的结果上即可。
-```
+# 建立一个和数列sums_array, 其中sums_array[i]等于sum(nums[0:i+1])。然后用merge sort对这个sums_array进行排序，在排序过程中，每次将left和right列表merge前，为left中的每一个元素确定right中符合条件的值的范围。也就是说在right中设两个指针lo和up，其中lo指向right中第一个使right[lo] - left[i] >= lower的元素，而up指向right中最后一个使right[up] - left[i] <= upper的元素，将up-lo加到最后的结果上即可。
+# ```
 class Solution:
     res = 0
     def countRangeSum(self, nums: List[int], lower: int, upper: int) -> int:
@@ -53,4 +53,4 @@ class Solution:
         self._merge_sort(sums_array, idx_array, lower, upper, left, mid)
         self._merge_sort(sums_array, idx_array, lower, upper, mid+1, right)
         self._merge(sums_array, idx_array, lower, upper, left, mid, right)
-```
+# ```

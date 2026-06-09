@@ -1,5 +1,5 @@
-# 动态规划法
-```
+# # 动态规划法
+# ```
 def longestPalindrome(self, s: str) -> str:
         if len(s) < 2:
             return s
@@ -19,8 +19,8 @@ def longestPalindrome(self, s: str) -> str:
                         lpdc = strTmp if length_strTmp>len(lpdc) else lpdc
                         
         return lpdc
-```
-空间复杂度O(N), 时间复杂度O(N*N)
-实际上可以不提前判断s长度小于2返回s，减少圈复杂度，但需判断重复字符否则超时。
+# ```
+# 空间复杂度O(N), 时间复杂度O(N*N)
+# 实际上可以不提前判断s长度小于2返回s，减少圈复杂度，但需判断重复字符否则超时。
 
 

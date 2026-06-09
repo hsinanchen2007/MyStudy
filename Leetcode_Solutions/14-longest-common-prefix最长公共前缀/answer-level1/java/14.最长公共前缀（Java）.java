@@ -1,5 +1,5 @@
-#### 思路：
-```
+// #### 思路：
+// ```
 len(公共前缀) <= len(最短串)
 故而可以先迭代数组找到最短串S，然后把数组中的每一个字符串Si依次拎出来，
 让S的值更新成S与Si的公共前缀，最终S的值就是要返回的结果。
@@ -8,9 +8,9 @@ len(公共前缀) <= len(最短串)
 数组只有一个元素，搞不搞特殊都可以。But，搞，耗时是0ms；不搞，耗时是1ms
                                                           ╮(╯▽╰)╭
 
-```
-#### 举个例子：
-```
+// ```
+// #### 举个例子：
+// ```
 比如：["category","core","caffe","cat"]
 一次迭代，得到最短串"cat"，保存下标2以及长度3
 二次迭代：
@@ -21,9 +21,9 @@ len(公共前缀) <= len(最短串)
 3.截取"caffe"长度为1的前缀，"c"与"c"一致，向下进行；
 4.截取"cat"长度为1的前缀，"c"与"c"一致，向下进行；
 
-```
-#### 代码：
-```
+// ```
+// #### 代码：
+// ```
 public static String longestCommonPrefix(String[] strs) {
 	if(strs.length==0) {
 		return "";
@@ -49,4 +49,4 @@ public static String longestCommonPrefix(String[] strs) {
 
 	return strs[st].substring(0,e);
 }
-```
+// ```

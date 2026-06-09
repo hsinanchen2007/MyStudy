@@ -1,10 +1,10 @@
-### 解题思路
-知乎大佬写的三个有关“栈与队列“的题目（包括这个min函数的栈），超简单，小白也能看懂。
-https://zhuanlan.zhihu.com/p/101265667
+// ### 解题思路
+// 知乎大佬写的三个有关“栈与队列“的题目（包括这个min函数的栈），超简单，小白也能看懂。
+// https://zhuanlan.zhihu.com/p/101265667
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MinStack {
     Stack<Integer> stack;
     Stack<Integer> min;
@@ -46,4 +46,4 @@ class MinStack {
  * int param_3 = obj.top();
  * int param_4 = obj.min();
  */
-```
+// ```

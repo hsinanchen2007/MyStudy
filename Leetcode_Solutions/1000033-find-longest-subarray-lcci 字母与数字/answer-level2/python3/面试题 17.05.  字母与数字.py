@@ -1,6 +1,6 @@
 
 
-```python []
+# ```python []
 class Solution:
     def findLongestSubarray(self, array: List[str]) -> List[str]:
         l, r, t, d = 0, 0, 0, {}
@@ -13,4 +13,4 @@ class Solution:
         if t in d and len(array) - d[t] > r - l:
             l, r = d[t], len(array)
         return array[l: r]
-```
+# ```

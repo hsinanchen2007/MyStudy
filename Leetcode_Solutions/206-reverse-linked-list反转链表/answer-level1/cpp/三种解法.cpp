@@ -1,18 +1,18 @@
----
-反转一个单链表。
+// ---
+// 反转一个单链表。
 
-示例:
+// 示例:
 
-输入: 1->2->3->4->5->NULL
-输出: 5->4->3->2->1->NULL
+// 输入: 1->2->3->4->5->NULL
+// 输出: 5->4->3->2->1->NULL
 
----
+// ---
 
-### 方法一：外部容器
+// ### 方法一：外部容器
 
-将链表转存至新的容器vector内，再利用vector本身的reverse_iterator进行反向遍历，将内容一一对应存入链表节点内。
+// 将链表转存至新的容器vector内，再利用vector本身的reverse_iterator进行反向遍历，将内容一一对应存入链表节点内。
 
-```c++
+// ```c++
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -51,20 +51,20 @@ public:
         return resHead;
     }
 };
-```
+// ```
 
-##### 复杂度分析
+// ##### 复杂度分析
 
-- 时间复杂度：*O*(*n*)，其中*n*为链表长度。
-- 空间复杂度：*O*(*n*)。
+// - 时间复杂度：*O*(*n*)，其中*n*为链表长度。
+// - 空间复杂度：*O*(*n*)。
 
 
 
-### 方法二：迭代
+// ### 方法二：迭代
 
-在遍历列表时，将当前节点的 next 指针改为指向它的前一个节点。分别需要一个指针用来记录上一个节点（previous），当前节点（current）以及下一个节点（next）。
+// 在遍历列表时，将当前节点的 next 指针改为指向它的前一个节点。分别需要一个指针用来记录上一个节点（previous），当前节点（current）以及下一个节点（next）。
 
-```c++
+// ```c++
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -94,28 +94,28 @@ public:
         return prev;
     }
 };
-```
+// ```
 
-##### 复杂度分析
+// ##### 复杂度分析
 
-- 时间复杂度：*O*(*n*)，其中*n*为链表长度。
-- 空间复杂度：*O*(1)。
+// - 时间复杂度：*O*(*n*)，其中*n*为链表长度。
+// - 空间复杂度：*O*(1)。
 
 
 
-### 方法三：递归
+// ### 方法三：递归
 
-递归方法比较难理解，假设我们传入的链表为``1->2->3->4->5->NULL``，那么传入的``head``即节点``1``，递归令节点``curr``等于``reverseList(head->next)``，终止条件为``head或head->next为空``，并返回``head``。
+// 递归方法比较难理解，假设我们传入的链表为``1->2->3->4->5->NULL``，那么传入的``head``即节点``1``，递归令节点``curr``等于``reverseList(head->next)``，终止条件为``head或head->next为空``，并返回``head``。
 
-在这个例子中，最后一层返回的即节点``5``，此时``head``指向节点``4``，我们令``head->next->next = head``，即``1->2->3->4->5->4``：
+// 在这个例子中，最后一层返回的即节点``5``，此时``head``指向节点``4``，我们令``head->next->next = head``，即``1->2->3->4->5->4``：
 
-![image-20200212170704129.png](https://pic.leetcode-cn.com/8aa2c8ba1f96bb1e1babf20417e022dc683a7bf77647c946479b05694b53edeb-image-20200212170704129.png)
+// ![image-20200212170704129.png](https://pic.leetcode-cn.com/8aa2c8ba1f96bb1e1babf20417e022dc683a7bf77647c946479b05694b53edeb-image-20200212170704129.png)
 
-接着，令``head->next = null``，即``1->2->3->4->null``且``5->4``：
+// 接着，令``head->next = null``，即``1->2->3->4->null``且``5->4``：
 
-![image-20200212170719065.png](https://pic.leetcode-cn.com/e7d65316ef233d2e4d12cb241279e88c0c6c67be3d3a2abfbcf20b1900584231-image-20200212170719065.png)
+// ![image-20200212170719065.png](https://pic.leetcode-cn.com/e7d65316ef233d2e4d12cb241279e88c0c6c67be3d3a2abfbcf20b1900584231-image-20200212170719065.png)
 
-```c++
+// ```c++
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -138,9 +138,9 @@ public:
         return curr;
     }
 };
-```
+// ```
 
-##### 复杂度分析
+// ##### 复杂度分析
 
-- 时间复杂度：*O*(*n*)，其中*n*为链表长度。
-- 空间复杂度：*O*(*n*)，递归至*n*层。
+// - 时间复杂度：*O*(*n*)，其中*n*为链表长度。
+// - 空间复杂度：*O*(*n*)，递归至*n*层。

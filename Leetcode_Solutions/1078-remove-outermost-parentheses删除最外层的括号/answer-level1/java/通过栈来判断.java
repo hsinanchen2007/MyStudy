@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public String removeOuterParentheses(String S) {
         StringBuffer sb = new StringBuffer();
@@ -23,4 +23,4 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-设定滑动指针，以及当前累加值，当累加值不大于0时，
-前一组数据已无意义，则从下个坐标开始计算下一组值
-### 代码
+// ### 解题思路
+// 设定滑动指针，以及当前累加值，当累加值不大于0时，
+// 前一组数据已无意义，则从下个坐标开始计算下一组值
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxSubArray(int[] nums) {
         if(nums.length == 0) return 0;
@@ -22,4 +22,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

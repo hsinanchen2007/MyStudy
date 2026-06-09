@@ -1,7 +1,7 @@
-* 执行用时 : 48 ms, 在Valid Boomerang的Python3提交中击败了93.07% 的用户
-* 内存消耗 : 13.1 MB, 在Valid Boomerang的Python3提交中击败了100.00% 的用户
+# * 执行用时 : 48 ms, 在Valid Boomerang的Python3提交中击败了93.07% 的用户
+# * 内存消耗 : 13.1 MB, 在Valid Boomerang的Python3提交中击败了100.00% 的用户
 
-```
+# ```
 class Solution:
     def isBoomerang(self, points):
         for i in range(2):
@@ -14,4 +14,4 @@ class Solution:
         elif (points[0][1] - points[1][1])/(points[0][0] - points[1][0]) == (points[1][1] - points[2][1])/(points[1][0]-points[2][0]):
             return False
         return True
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-    将每个队的排在个名次的的数量转化为权重分，比如第一名权重是第二名的权重的26倍，依次类推
-复杂度为O(n*m);(n=votes.length;m=votes[0].length);
-### 代码
+// ### 解题思路
+//     将每个队的排在个名次的的数量转化为权重分，比如第一名权重是第二名的权重的26倍，依次类推
+// 复杂度为O(n*m);(n=votes.length;m=votes[0].length);
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} votes
  * @return {string}
@@ -31,4 +31,4 @@ var rankTeams = function(votes) {
     })
     return res.join("");
 };
-```
+// ```

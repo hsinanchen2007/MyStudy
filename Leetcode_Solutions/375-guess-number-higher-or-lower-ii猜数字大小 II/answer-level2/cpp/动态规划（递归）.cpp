@@ -1,9 +1,9 @@
-### 解题思路
-设dp1(a,b)为从a到b取数所需要最少金额，可以得到状态转移关系dp1(a,b)=min(max(dp1(a,m-1),dp1(m+1,b))+m);(a<=m<=b)，m为当前所猜的数,构建dp数组存取某个状态的解，防止重复计算同一解。递归的边界为2种情形，a>=b,dp1(a,b)=0;a==b-1,dp1(a,b)=a.
+// ### 解题思路
+// 设dp1(a,b)为从a到b取数所需要最少金额，可以得到状态转移关系dp1(a,b)=min(max(dp1(a,m-1),dp1(m+1,b))+m);(a<=m<=b)，m为当前所猜的数,构建dp数组存取某个状态的解，防止重复计算同一解。递归的边界为2种情形，a>=b,dp1(a,b)=0;a==b-1,dp1(a,b)=a.
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 const int maxm2 = pow(2, 31) - 1;
@@ -39,4 +39,4 @@ int dp1(int start, int end, int**dp)
 	return dp1(1, n, dp);
     }
 };
-```
+// ```

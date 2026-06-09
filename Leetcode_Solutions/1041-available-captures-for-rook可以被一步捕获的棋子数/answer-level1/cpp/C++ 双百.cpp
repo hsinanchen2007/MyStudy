@@ -1,9 +1,9 @@
-### 解题思路
-遍历找出车，然后考虑四个方向的离车最近的卒和象，遍历一遍即可
+// ### 解题思路
+// 遍历找出车，然后考虑四个方向的离车最近的卒和象，遍历一遍即可
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numRookCaptures(vector<vector<char>>& board) {
@@ -35,4 +35,4 @@ public:
         return (px1>bx1)+(px2<bx2)+(py1>by1)+(py2<by2);
     }
 };
-```
+// ```

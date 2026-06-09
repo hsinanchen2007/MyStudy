@@ -1,8 +1,8 @@
-大概就是那几种做法：
+// 大概就是那几种做法：
 
-- 反转链表：迭代法反转链表，比较简单。
+// - 反转链表：迭代法反转链表，比较简单。
 
-```c++
+// ```c++
 class Solution {
 public:
     vector<int> reversePrint(ListNode* head) {
@@ -21,11 +21,11 @@ public:
         return res;
     }
 };
-```
+// ```
 
-- 头插法：创建一个新的链表，使用头插法添加元素，获得一个反转的链表。
+// - 头插法：创建一个新的链表，使用头插法添加元素，获得一个反转的链表。
 
-```c++
+// ```c++
 class Solution {
 public:
     vector<int> reversePrint(ListNode* head) {
@@ -45,11 +45,11 @@ public:
         return res;
     }
 };
-```
+// ```
 
-- 使用栈：
+// - 使用栈：
 
-```c++
+// ```c++
 class Solution {
 public:
     vector<int> reversePrint(ListNode* head) {
@@ -66,6 +66,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-似乎是头插法和栈快一点，都是 0ms；反转实属 8 太行，要 4ms。
+// 似乎是头插法和栈快一点，都是 0ms；反转实属 8 太行，要 4ms。

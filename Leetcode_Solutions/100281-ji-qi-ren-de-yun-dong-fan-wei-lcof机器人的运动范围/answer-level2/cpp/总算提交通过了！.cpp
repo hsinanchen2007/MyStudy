@@ -1,9 +1,9 @@
-### 解题思路
-提交了9次，总算通过了所有用例，不容易啊！
+// ### 解题思路
+// 提交了9次，总算通过了所有用例，不容易啊！
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int  getDigitSum(int i)
@@ -44,4 +44,4 @@ public:
         return res;
     }
 };
-```
+// ```

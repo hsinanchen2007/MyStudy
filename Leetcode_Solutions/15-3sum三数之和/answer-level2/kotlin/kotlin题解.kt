@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```kotlin
+// ```kotlin
 class Solution {
  fun threeSum(nums: IntArray): List<List<Int>> {
         if(nums.isEmpty()) return listOf()
@@ -40,4 +40,4 @@ class Solution {
         return listOf()
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int min_dif = 100;
@@ -22,4 +22,4 @@ public:
         return min_dif;
     }
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-解法三: Semaphore
-注意，要先初始化为0。然后先release到1，再acquire。
+// ### 解题思路
+// 解法三: Semaphore
+// 注意，要先初始化为0。然后先release到1，再acquire。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 import java.util.concurrent.*;
 
 class Foo {
@@ -32,4 +32,4 @@ class Foo {
 		printThird.run();
 	}
 }
-```
+// ```

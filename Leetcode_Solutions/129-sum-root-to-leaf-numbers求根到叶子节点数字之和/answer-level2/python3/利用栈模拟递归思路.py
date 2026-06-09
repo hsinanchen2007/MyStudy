@@ -1,9 +1,9 @@
-### 解题思路
-与第257题思路几乎相同,利用栈,将每一条路径都遍历
+# ### 解题思路
+# 与第257题思路几乎相同,利用栈,将每一条路径都遍历
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def sumNumbers(self, root: TreeNode) -> int:
         if not root:
@@ -20,4 +20,4 @@ class Solution:
                 stack.append((node.left,val+str(node.left.val)))
         sus=sum(int(i)for i in res )#遍历res,求和
         return sus
-```
+# ```

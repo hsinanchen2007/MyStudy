@@ -1,5 +1,5 @@
-### 方法一 暴力
-```cpp
+// ### 方法一 暴力
+// ```cpp
 class Solution {
 public:
     int findSpecialInteger(vector<int>& arr) {
@@ -17,10 +17,10 @@ public:
         return -1;
     }
 };
-```
+// ```
 
-### 方法二 二分查找
-```cpp
+// ### 方法二 二分查找
+// ```cpp
 class Solution {
 public:
     int findSpecialInteger(vector<int>& arr) {
@@ -33,4 +33,4 @@ public:
         return -1;
     }
 };
-```
+// ```

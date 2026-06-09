@@ -1,4 +1,4 @@
-```
+// ```
 bool stoneGame(int* piles, int pilesSize){
     int i, j;
     int*** dp = (int***)malloc(sizeof(int**) * pilesSize);
@@ -29,4 +29,4 @@ bool stoneGame(int* piles, int pilesSize){
     }
     return dp[0][pilesSize - 1][0] > dp[0][pilesSize - 1][1];
 }
-```
+// ```

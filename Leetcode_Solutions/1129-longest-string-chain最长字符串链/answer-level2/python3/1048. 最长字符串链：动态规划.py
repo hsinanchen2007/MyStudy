@@ -1,5 +1,5 @@
 
-```python []
+# ```python []
 class Solution:
     def longestStrChain(self, words: List[str]) -> int:
         ans, dp = 0, collections.defaultdict(int)
@@ -8,4 +8,4 @@ class Solution:
                 dp[w] = max(dp[w], dp[w[: i] + w[i + 1:]] + 1)
             ans = max(ans, dp[w])
         return ans
-```
+# ```

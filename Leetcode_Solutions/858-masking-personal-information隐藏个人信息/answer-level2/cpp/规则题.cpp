@@ -1,9 +1,9 @@
-### 解题思路
-按两种思路规则弥补即可
+// ### 解题思路
+// 按两种思路规则弥补即可
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string maskPII(string S) {
@@ -61,4 +61,4 @@ public:
         return S;
     }
 };
-```
+// ```

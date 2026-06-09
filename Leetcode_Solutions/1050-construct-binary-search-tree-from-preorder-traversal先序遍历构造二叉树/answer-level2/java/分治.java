@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public TreeNode bstFromPreorder(int[] preorder) {
         if (preorder == null) {
@@ -23,4 +23,4 @@ class Solution {
         return root;
     }
 }
-```
+// ```

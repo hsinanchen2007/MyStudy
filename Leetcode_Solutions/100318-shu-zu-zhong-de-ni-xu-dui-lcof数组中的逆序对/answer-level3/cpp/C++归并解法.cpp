@@ -1,5 +1,5 @@
-参考[@liweiwei1419](/u/liweiwei1419/)大佬的解法，用C++写了归并排序的解法
-```
+// 参考[@liweiwei1419](/u/liweiwei1419/)大佬的解法，用C++写了归并排序的解法
+// ```
 class Solution {
 public:
 	int reversePairs(vector<int>& nums) {
@@ -36,4 +36,4 @@ public:
 		}
 	}
 };
-```
+// ```

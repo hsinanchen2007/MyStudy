@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
-[偷来的](https://leetcode-cn.com/problems/subsets-ii/solution/zai-zi-ji-de-ji-chu-shang-zeng-jia-qu-zhong-python/)
+# ### 代码
+# [偷来的](https://leetcode-cn.com/problems/subsets-ii/solution/zai-zi-ji-de-ji-chu-shang-zeng-jia-qu-zhong-python/)
 
-```python
+# ```python
 class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:
         def recursion(num: int, cur_len :int):
@@ -21,10 +21,10 @@ class Solution:
             recursion(num, index+1)
         return res
 
-```
+# ```
 
-我的：
-```python
+# 我的：
+# ```python
 class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:
         if not nums:
@@ -35,9 +35,9 @@ class Solution:
                 ans.append(ans[x]+[nums[i]])
         return ans
 
-```
-### [二进制模拟](https://leetcode-cn.com/problems/subsets/solution/er-jin-zhi-wei-zhu-ge-mei-ju-dfssan-chong-si-lu-9c/)
-```python
+# ```
+# ### [二进制模拟](https://leetcode-cn.com/problems/subsets/solution/er-jin-zhi-wei-zhu-ge-mei-ju-dfssan-chong-si-lu-9c/)
+# ```python
 class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:
         if not nums:
@@ -49,4 +49,4 @@ class Solution:
                 if (i>>j) & 1 ==1: temp.append(nums[j])
             ans.append(temp[:])
         return ans
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         n=len(prices)
@@ -21,4 +21,4 @@ class Solution:
             minp=min(minp,prices[i])
 
         return maxs
-```
+# ```

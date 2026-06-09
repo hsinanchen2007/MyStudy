@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public double findMedianSortedArrays(int[] arrA, int[] arrB) {
         int m = arrA.length, n = arrB.length;
@@ -52,7 +52,7 @@ class Solution {
         return 0.0;
     }
 }
-```
+// ```
 
-官方解答在j == 0或者j == n的情况只存在于m=n 的时候，
-其他情况下，j必然>0并且<n
+// 官方解答在j == 0或者j == n的情况只存在于m=n 的时候，
+// 其他情况下，j必然>0并且<n

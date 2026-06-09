@@ -1,10 +1,10 @@
-### 解题思路
-参考官方题解 C语言版本
-设置一个visited[]数组。值为0表示未访问  1表示已访问  2表示已访问且为安全状态
+// ### 解题思路
+// 参考官方题解 C语言版本
+// 设置一个visited[]数组。值为0表示未访问  1表示已访问  2表示已访问且为安全状态
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -41,4 +41,4 @@ int* eventualSafeNodes(int** graph, int graphSize, int* graphColSize, int* retur
 
     return res;
 }
-```
+// ```

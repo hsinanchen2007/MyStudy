@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/cddce1c4d18f42a91285206f33ac4a3828c3d151067a097e9797eef9b277d06f-image.png)
+# ![image.png](https://pic.leetcode-cn.com/cddce1c4d18f42a91285206f33ac4a3828c3d151067a097e9797eef9b277d06f-image.png)
 
 
-```
+# ```
 '''
 前缀和思想结合动态规划求解
 大于8和小于等于8的数值映射成1和0
@@ -58,4 +58,4 @@ class Solution:
 
         return ans
 
-```
+# ```

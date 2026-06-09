@@ -1,10 +1,10 @@
-### 解题思路
-1. 遍历一次求length, 找到需要删除的位置
-2. 遍历二次删除某个结点
+# ### 解题思路
+# 1. 遍历一次求length, 找到需要删除的位置
+# 2. 遍历二次删除某个结点
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -40,4 +40,4 @@ class Solution(object):
             else:
                 tempCur.next = tempCur.next.next
         return head
-```
+# ```

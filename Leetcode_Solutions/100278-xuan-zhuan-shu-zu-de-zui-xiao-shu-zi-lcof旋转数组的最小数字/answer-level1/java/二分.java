@@ -1,9 +1,9 @@
-### 解题思路
-幼稚的算法、二分算法
+// ### 解题思路
+// 幼稚的算法、二分算法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minArray(int[] numbers) {
         //1、Arrays.sort法
@@ -30,4 +30,4 @@ class Solution {
         return numbers[left];
     }
 }
-```
+// ```

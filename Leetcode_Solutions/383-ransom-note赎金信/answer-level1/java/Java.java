@@ -1,8 +1,8 @@
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 import java.util.HashMap;
 class Solution {
     public boolean canConstruct(String ransomNote, String magazine) {
@@ -14,4 +14,4 @@ class Solution {
         return map.values().stream().allMatch(i -> i >= 0);
     }
 }
-```
+// ```

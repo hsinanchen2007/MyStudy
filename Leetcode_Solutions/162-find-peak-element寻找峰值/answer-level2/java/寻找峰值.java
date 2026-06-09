@@ -1,4 +1,4 @@
-```
+// ```
     public int findPeakElement(int[] nums) {
         int len = nums.length, l=0, r=len-1;
         while(l < r){
@@ -9,4 +9,4 @@
         
         return l;
     }
-```
+// ```

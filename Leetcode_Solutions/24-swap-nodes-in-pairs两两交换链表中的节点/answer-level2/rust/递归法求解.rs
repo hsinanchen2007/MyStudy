@@ -1,4 +1,4 @@
-```rust
+// ```rust
 impl Solution {
     pub fn swap_pairs(head: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
         Solution::swap_rec(head)
@@ -17,4 +17,4 @@ impl Solution {
     }
 }
 
-```
+// ```

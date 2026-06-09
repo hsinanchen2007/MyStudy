@@ -1,6 +1,6 @@
-![QQ截图20190925171934.png](https://pic.leetcode-cn.com/5b44e5bedd2b2a1afc1499f28863d31d9ced8c5480c1188507cdf62bf5905293-QQ%E6%88%AA%E5%9B%BE20190925171934.png)
+// ![QQ截图20190925171934.png](https://pic.leetcode-cn.com/5b44e5bedd2b2a1afc1499f28863d31d9ced8c5480c1188507cdf62bf5905293-QQ%E6%88%AA%E5%9B%BE20190925171934.png)
 
-```
+// ```
 /**
  * @param {string[]} words
  * @param {number} maxWidth
@@ -79,5 +79,5 @@ var startFix = function(result, i, maxWidth) {
         result[i] += ' '
     }
 }
-```
+// ```
 

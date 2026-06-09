@@ -1,9 +1,9 @@
-### 解题思路
-看到题先想到得是转换类型再计算，想法简单，但是总感觉还有更直接的转换方法。
+# ### 解题思路
+# 看到题先想到得是转换类型再计算，想法简单，但是总感觉还有更直接的转换方法。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def plusOne(self, digits: List[int]) -> List[int]:
         str_=""
@@ -17,4 +17,4 @@ class Solution:
 
 
 
-```
+# ```

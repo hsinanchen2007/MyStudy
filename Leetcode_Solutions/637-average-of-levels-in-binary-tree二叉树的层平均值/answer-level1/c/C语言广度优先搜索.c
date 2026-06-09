@@ -1,10 +1,10 @@
-### 解题思路
-广度优先搜索，层序遍历每一层
-需要注意，这里入队列的是指针
+// ### 解题思路
+// 广度优先搜索，层序遍历每一层
+// 需要注意，这里入队列的是指针
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -159,4 +159,4 @@ double* averageOfLevels(struct TreeNode* root, int* returnSize){
 }
 
 
-```
+// ```

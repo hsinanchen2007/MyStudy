@@ -1,10 +1,10 @@
-### 解题思路
-此处用的是广度优先解决
-一层一层的遍历，每处理一层，将level + 1
+// ### 解题思路
+// 此处用的是广度优先解决
+// 一层一层的遍历，每处理一层，将level + 1
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -36,4 +36,4 @@ var maxDepth = function(root) {
     }
     return level
 };
-```
+// ```

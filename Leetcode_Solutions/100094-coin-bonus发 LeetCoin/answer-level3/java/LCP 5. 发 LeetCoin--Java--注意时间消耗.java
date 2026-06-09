@@ -1,7 +1,7 @@
-[Leetcode-Java(200+题解，持续更新、欢迎star)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/LCP/_5_bonus_2.java)
+// [Leetcode-Java(200+题解，持续更新、欢迎star)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/LCP/_5_bonus_2.java)
 
-[原始题解，易理解，但提交超时](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/LCP/_5_bonus.java)
-```java
+// [原始题解，易理解，但提交超时](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/LCP/_5_bonus.java)
+// ```java
     private int mod = 1000000007;
 
     /**
@@ -111,4 +111,4 @@
             teamSize = 1;//自己
         }
     }
-```
+// ```

@@ -1,10 +1,10 @@
-两数相除，关键点有：
-1） INT-MIN / -1 = INT_MAX
-2)  除数与被除数使用绝对值，用long来表示，正负号先判别出来
-3)  结果是以二进制的方式累加的
+// 两数相除，关键点有：
+// 1） INT-MIN / -1 = INT_MAX
+// 2)  除数与被除数使用绝对值，用long来表示，正负号先判别出来
+// 3)  结果是以二进制的方式累加的
 
 
-```
+// ```
 int divide(int dividend, int divisor) {
     if (divisor == 0)
         return -1;
@@ -29,4 +29,4 @@ int divide(int dividend, int divisor) {
     }
     return sign * res;
 }
-```
+// ```

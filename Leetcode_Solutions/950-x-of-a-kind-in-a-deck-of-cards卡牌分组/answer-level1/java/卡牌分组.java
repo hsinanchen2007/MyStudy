@@ -1,10 +1,10 @@
-### 解题思路
-1.定义count数组存储deck中每个数的出现次数,
-2.辗转相处法gcd求count中每个数字出现次数的最大公约数g
+// ### 解题思路
+// 1.定义count数组存储deck中每个数的出现次数,
+// 2.辗转相处法gcd求count中每个数字出现次数的最大公约数g
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean hasGroupsSizeX(int[] deck) {
 		int[] count = new int[10000];
@@ -32,4 +32,4 @@ class Solution {
 		return gcd(y, x%y);
 	}
 }
-```
+// ```

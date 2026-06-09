@@ -1,6 +1,6 @@
-![1f95a9f53714bf2c858a4096a44ca31.png](https://pic.leetcode-cn.com/cf0cb24edd5cf468d417834a3513e4d4a084feae418d8351d99a26dfea1ab3f1-1f95a9f53714bf2c858a4096a44ca31.png)
+// ![1f95a9f53714bf2c858a4096a44ca31.png](https://pic.leetcode-cn.com/cf0cb24edd5cf468d417834a3513e4d4a084feae418d8351d99a26dfea1ab3f1-1f95a9f53714bf2c858a4096a44ca31.png)
 
-```
+// ```
 
 int trap(int* height, int heightSize){
     //无解情况
@@ -73,4 +73,4 @@ int trap(int* height, int heightSize){
     }
     return water-self_vol;
 }
-```
+// ```

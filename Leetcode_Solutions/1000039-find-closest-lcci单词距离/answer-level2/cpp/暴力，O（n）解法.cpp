@@ -1,6 +1,6 @@
-扫一遍集合，记录word1和word2上一次出现位置，扫到word1或者word2时更新答案。
-时间复杂度：O（n） 空间复杂度：O（1）
-```
+// 扫一遍集合，记录word1和word2上一次出现位置，扫到word1或者word2时更新答案。
+// 时间复杂度：O（n） 空间复杂度：O（1）
+// ```
 class Solution {
     const int INF=(1LL<<31)-1;
 public:
@@ -24,4 +24,4 @@ public:
         return Ans;
     }
 };
-```
+// ```

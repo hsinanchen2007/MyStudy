@@ -1,7 +1,7 @@
 
-操作理论都被大神讲的差不多了，就把自己的解题结果上传了，仅供参考，如果有不对的地方还请指正
+# 操作理论都被大神讲的差不多了，就把自己的解题结果上传了，仅供参考，如果有不对的地方还请指正
 
-```
+# ```
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -31,4 +31,4 @@ class Solution:
             result_node.next = self.add_two(l1_next, l2_next)
 
         return result_node
-```
+# ```

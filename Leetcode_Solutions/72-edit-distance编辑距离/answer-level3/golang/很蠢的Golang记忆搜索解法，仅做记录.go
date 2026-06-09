@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func minDistance(word1 string, word2 string) int {
     mem := make(map[string]int)
 	return helper(word1, word2,&mem)
@@ -45,4 +45,4 @@ func getMin(nums ...int) int {
 	}
 	return min
 }
-```
+// ```

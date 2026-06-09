@@ -1,6 +1,6 @@
-[Leetcode-Java(200+题解，持续更新、欢迎star)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_617_mergeTrees.java)
+// [Leetcode-Java(200+题解，持续更新、欢迎star)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_617_mergeTrees.java)
 
-```java
+// ```java
     /**
      * 解题思路：
      * 对于数的题目基本是DFS递归
@@ -24,4 +24,4 @@
         node.right = mergeTrees(t1 == null ? null : t1.right, t2 == null ? null : t2.right);
         return node;
     }
-```
+// ```

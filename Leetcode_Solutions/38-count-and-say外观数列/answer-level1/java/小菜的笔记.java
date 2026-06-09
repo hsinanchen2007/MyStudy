@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-注意递归的使用。
+// ### 解题思路
+// 此处撰写解题思路
+// 注意递归的使用。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String countAndSay(int n) {
         if(n>1){
@@ -35,4 +35,4 @@ class Solution {
 
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-深度优先搜索问题
+# ### 解题思路
+# 深度优先搜索问题
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import numpy as np
 class Solution:
     def floodFill(self, image: List[List[int]], sr: int, sc: int, newColor: int) -> List[List[int]]:
@@ -36,4 +36,4 @@ class Solution:
 
 
             
-```
+# ```

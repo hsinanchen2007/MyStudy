@@ -1,9 +1,9 @@
-### 解题思路
-每个节点最大路径为左树高度 + 右树高度， 在求高度过程中找到最大的L+R 就是结果
+// ### 解题思路
+// 每个节点最大路径为左树高度 + 右树高度， 在求高度过程中找到最大的L+R 就是结果
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -35,4 +35,4 @@ int diameterOfBinaryTree(struct TreeNode* root){
     depth(root);
     return ans - 1;
 }
-```
+// ```

@@ -1,5 +1,5 @@
-虽然本题可以用stack解决。但deque双端插入、删除的性质使得想法更加直接和简单。上代码：
-```
+// 虽然本题可以用stack解决。但deque双端插入、删除的性质使得想法更加直接和简单。上代码：
+// ```
 class Solution {
 public:
     int calculate(string s) {
@@ -58,4 +58,4 @@ public:
         return opands.back();
     }
 };
-```
+// ```

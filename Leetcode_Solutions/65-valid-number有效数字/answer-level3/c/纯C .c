@@ -1,9 +1,9 @@
-### 解题思路
-纯C 一步一步来
+// ### 解题思路
+// 纯C 一步一步来
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isNumber(char * s){
     bool bIsNum = false;
 
@@ -58,4 +58,4 @@ bool isNumber(char * s){
 
     return '\0' == *s && bIsNum;
 }
-```
+// ```

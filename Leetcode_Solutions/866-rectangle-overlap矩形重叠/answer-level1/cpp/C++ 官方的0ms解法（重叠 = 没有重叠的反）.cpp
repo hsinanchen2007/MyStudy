@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isRectangleOverlap(vector<int>& rec1, vector<int>& rec2) {
@@ -8,4 +8,4 @@ public:
                  rec1[1] >= rec2[3]);
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
-# 代码：
-```
+// # 代码：
+// ```
 char* replaceSpace(char* s){
     char  *newans = malloc(sizeof(char) * 10000);
     int i = 0;
@@ -18,5 +18,5 @@ char* replaceSpace(char* s){
 
     return newans;
 }
-```
+// ```
 

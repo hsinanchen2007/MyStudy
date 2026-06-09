@@ -1,5 +1,5 @@
-- 深搜即可
-```cpp
+// - 深搜即可
+// ```cpp
 class Solution {
 public:
     int n;
@@ -23,4 +23,4 @@ public:
         }
     }
 };
-```
+// ```

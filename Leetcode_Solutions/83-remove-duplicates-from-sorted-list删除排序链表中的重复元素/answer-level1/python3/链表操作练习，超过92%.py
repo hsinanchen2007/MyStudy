@@ -1,4 +1,4 @@
-```
+# ```
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -20,5 +20,5 @@ class Solution:
                 temp = head.val
             head = head.next
         return ret
-```
-链表操作练习。中间需要用while循环
+# ```
+# 链表操作练习。中间需要用while循环

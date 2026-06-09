@@ -1,4 +1,4 @@
-```
+// ```
 int search(int* nums, int numsSize, int target){
     int left = 0;
     int right = numsSize - 1;
@@ -49,4 +49,4 @@ int search(int* nums, int numsSize, int target){
     // printf("nums[mid] = %d\n", nums[mid]);
     return nums[mid] == target ? mid : -1;
 }
-```
+// ```

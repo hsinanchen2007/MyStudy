@@ -1,5 +1,5 @@
-详解在代码里,第一次写C++题解,有不足的地方希望大家提出来~
-```
+// 详解在代码里,第一次写C++题解,有不足的地方希望大家提出来~
+// ```
 class Solution {
 public:
     int findBestValue(vector<int> &arr, int target) {
@@ -64,4 +64,4 @@ public:
         return 0;
     }
 };
-```
+// ```

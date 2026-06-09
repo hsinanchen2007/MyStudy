@@ -1,7 +1,7 @@
 
 
 
-```
+# ```
 '''
 多路BFS求每个点到所有1位置距离和最小值
 '''
@@ -47,4 +47,4 @@ class Solution:
 
         return ans if ans != 0x7fffffff else -1
 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-相较于三数，就是多一重循环，提高效率的点就在于剪枝，注意最大和最小的不符情况不同对待
+// ### 解题思路
+// 相较于三数，就是多一重循环，提高效率的点就在于剪枝，注意最大和最小的不符情况不同对待
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> fourSum(int[] nums, int target) {
       List<List<Integer>> result = new ArrayList<List<Integer>>();
@@ -48,4 +48,4 @@ class Solution {
 		return result;
     }
 }
-```
+// ```

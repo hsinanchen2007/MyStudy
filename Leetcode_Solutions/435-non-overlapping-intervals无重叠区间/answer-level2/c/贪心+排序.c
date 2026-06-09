@@ -1,11 +1,11 @@
-### 解题思路
-先对数组排序，按照若右区间相等，比较左区间，否则直接比较左区间的原则，由小到大排序；
-再遍历排序数组，先记录第一个右区间end，不重叠区间个数cnt = 1，每一次若左区间小于end则跳下一个元素，否则更新end，cnt++；
-最后返回区间数减去cnt即可。
+// ### 解题思路
+// 先对数组排序，按照若右区间相等，比较左区间，否则直接比较左区间的原则，由小到大排序；
+// 再遍历排序数组，先记录第一个右区间end，不重叠区间个数cnt = 1，每一次若左区间小于end则跳下一个元素，否则更新end，cnt++；
+// 最后返回区间数减去cnt即可。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int cmp(const void*a,const void*b){
     int *p1 = *(int**)a,*p2 = *(int**)b;
     if(p1[1]==p2[1]) return p1[0]-p2[0];
@@ -36,4 +36,4 @@ int eraseOverlapIntervals(int** intervals, int intervalsSize, int* intervalsColS
     
     return intervalsSize - cnt;
 }
-```
+// ```

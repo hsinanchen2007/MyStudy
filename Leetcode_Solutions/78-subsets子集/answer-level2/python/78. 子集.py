@@ -1,9 +1,9 @@
-### 解题思路
-遇上**排列/组合/子集**，立即推回溯+剪枝。
+# ### 解题思路
+# 遇上**排列/组合/子集**，立即推回溯+剪枝。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:
         def backtrack(nums):
@@ -16,4 +16,4 @@ class Solution:
         tmp = []
         backtrack(nums)
         return res
-```
+# ```

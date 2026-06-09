@@ -1,10 +1,10 @@
-### 解题思路
-1. 排序递增
-2. 探测法
+# ### 解题思路
+# 1. 排序递增
+# 2. 探测法
 
-### 代码
+# ### 代码
 
-```java []
+# ```java []
 class Solution {
     public int minIncrementForUnique(int[] A) {
         // 探测法
@@ -32,8 +32,8 @@ class Solution {
 
     private int []T;
 }
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def minIncrementForUnique(self, A: List[int]) -> int:
         # 哈希探测法
@@ -56,8 +56,8 @@ class Solution:
         p = self.getPos(p+1)
         self.T[x] = p
         return p
-```
-```c++ []
+# ```
+# ```c++ []
 class Solution {
 public:
     int minIncrementForUnique(vector<int>& A) {
@@ -93,8 +93,8 @@ private:
     int T[60000];
 
 };
-```
-```c++ []
+# ```
+# ```c++ []
 class Solution {
 public:
     int minIncrementForUnique(vector<int>& A) {
@@ -113,4 +113,4 @@ public:
         return steps;
     }
 };
-```
+# ```

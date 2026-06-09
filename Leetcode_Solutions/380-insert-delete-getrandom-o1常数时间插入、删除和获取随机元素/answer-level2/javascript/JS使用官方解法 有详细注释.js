@@ -1,4 +1,4 @@
-```
+// ```
 var RandomizedSet = function () {
     // this.set = new Set()
     //存放值
@@ -47,4 +47,4 @@ RandomizedSet.prototype.getRandom = function () {
     //以随机数为下标返回
     return this.set[random]
 };
-```
+// ```

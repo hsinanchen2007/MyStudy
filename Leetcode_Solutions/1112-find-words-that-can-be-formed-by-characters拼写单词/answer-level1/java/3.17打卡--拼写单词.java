@@ -1,8 +1,8 @@
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int countCharacters(String[] words, String chars) {
         int[] table = new int[26];
@@ -25,4 +25,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

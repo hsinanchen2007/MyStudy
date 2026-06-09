@@ -1,9 +1,9 @@
-### 解题思路
-先得到列表长度，再比较列表里x,y坐标点前后项差值哪个最大，取最大的那个就是最优时间。
+# ### 解题思路
+# 先得到列表长度，再比较列表里x,y坐标点前后项差值哪个最大，取最大的那个就是最优时间。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def minTimeToVisitAllPoints(self, points):
         """
@@ -22,4 +22,4 @@ class Solution(object):
             if ym < xm :
                 minTime+=xm
         return minTime
-```
+# ```

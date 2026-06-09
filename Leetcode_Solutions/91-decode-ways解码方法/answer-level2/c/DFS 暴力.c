@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int g_len = 0;
 
 void Dfs(char *s, int i, int *cnt)
@@ -33,4 +33,4 @@ int numDecodings(char * s){
     Dfs(s, 0, &cnt);
     return cnt;
 }
-```
+// ```

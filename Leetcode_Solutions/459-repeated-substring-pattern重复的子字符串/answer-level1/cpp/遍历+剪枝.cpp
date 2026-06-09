@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool repeatedSubstringPattern(string s) {
@@ -34,4 +34,4 @@ public:
         return true;
     }
 };
-```
+// ```

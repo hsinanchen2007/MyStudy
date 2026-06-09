@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 int FindNinA(int* A, int ASize, int n)
 {
@@ -50,4 +50,4 @@ int* pancakeSort(int* A, int ASize, int* returnSize)
     *returnSize = retSize;
     return ret;
 }
-```
+// ```

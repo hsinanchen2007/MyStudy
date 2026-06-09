@@ -1,6 +1,6 @@
-class Solution {
-public:
-```
+// class Solution {
+// public:
+// ```
 string addStrings(string num1, string num2) {
 //先将num2字符串各位代表的整数加到num1上，然后做进位处理
 	int i;
@@ -27,5 +27,5 @@ string addStrings(string num1, string num2) {
 	}
 	return num1;
 }
-```    
-};
+// ```    
+// };

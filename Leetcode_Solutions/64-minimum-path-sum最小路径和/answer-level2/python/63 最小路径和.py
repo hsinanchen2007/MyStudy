@@ -1,9 +1,9 @@
-### 解题思路
-动态规划
+# ### 解题思路
+# 动态规划
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def minPathSum(self, grid):
         """
@@ -31,4 +31,4 @@ class Solution(object):
         return dp[m-1][n-1]
 
 
-```
+# ```

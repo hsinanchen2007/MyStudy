@@ -1,10 +1,10 @@
-### 解题思路
-双指针
-排序后从头比较两个数组，注意while条件，其中一个数组遍历到头的时候就不用比较了，
+# ### 解题思路
+# 双指针
+# 排序后从头比较两个数组，注意while条件，其中一个数组遍历到头的时候就不用比较了，
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def intersect(self, nums1: List[int], nums2: List[int]) -> List[int]:
         nums1.sort()
@@ -22,4 +22,4 @@ class Solution:
                 i+=1
                 j+=1
         return res
-```
+# ```

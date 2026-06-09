@@ -1,9 +1,9 @@
-### 解题思路
-枚舉所有可能解法，判斷每一個減去當前值的余數是否是一個平方數，如果是則返回true，如果沒有找到則返回false
+// ### 解题思路
+// 枚舉所有可能解法，判斷每一個減去當前值的余數是否是一個平方數，如果是則返回true，如果沒有找到則返回false
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool judgeSquareSum(int c) {
@@ -20,4 +20,4 @@ public:
         return false;
     }
 };
-```
+// ```

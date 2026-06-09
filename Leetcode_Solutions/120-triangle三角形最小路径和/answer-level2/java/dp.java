@@ -1,12 +1,12 @@
-### 解题思路
-子问题：从下往上看，第i层最小的值
-状态方程；p[i,j]来表示第i层的值
-状态转移方程：
-从第i+1层到第i层的方程，p[i,j] = Math.min(p[i+1, j+1]+tri[i,j],p[i+1, j+1]+tri[i,j])
+// ### 解题思路
+// 子问题：从下往上看，第i层最小的值
+// 状态方程；p[i,j]来表示第i层的值
+// 状态转移方程：
+// 从第i+1层到第i层的方程，p[i,j] = Math.min(p[i+1, j+1]+tri[i,j],p[i+1, j+1]+tri[i,j])
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minimumTotal(List<List<Integer>> triangle) {
        
@@ -32,4 +32,4 @@ class Solution {
         return p[0][0];
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-就是把一个整数转成一个个位数的数组，再遍历数组就欧克了
+// ### 解题思路
+// 就是把一个整数转成一个个位数的数组，再遍历数组就欧克了
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {number}
@@ -18,4 +18,4 @@ var subtractProductAndSum = function (n) {
     }
     return ji - sum
 };
-```
+// ```

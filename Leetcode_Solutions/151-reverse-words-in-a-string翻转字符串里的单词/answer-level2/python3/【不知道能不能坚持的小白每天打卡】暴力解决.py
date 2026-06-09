@@ -1,10 +1,10 @@
-### 解题思路
-直接按题意暴力解决。
-主要就是把单词拿到，然后倒叙拼接。
+# ### 解题思路
+# 直接按题意暴力解决。
+# 主要就是把单词拿到，然后倒叙拼接。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverseWords(self, s: str) -> str:
         stack = ['']
@@ -23,4 +23,4 @@ class Solution:
             res += stack[i] + ' '
         # 因为格式问题，会多一个空格，返回的时候剔除就行
         return res[:-1]
-```
+# ```

@@ -1,12 +1,12 @@
-答案就是 N 减去 没有重复数字的个数
+// 答案就是 N 减去 没有重复数字的个数
 
-可运用排列组合求得
+// 可运用排列组合求得
 
-*代码挂着先*
+// *代码挂着先*
 
-4ms
+// 4ms
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numDupDigitsAtMostN(int N) {
@@ -50,4 +50,4 @@ public:
         return res;
     }
 };
-```
+// ```

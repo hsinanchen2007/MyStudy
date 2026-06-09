@@ -1,9 +1,9 @@
-### 解题思路
-就上下左右遍历，也太简单了吧，感觉自己是渣渣
+# ### 解题思路
+# 就上下左右遍历，也太简单了吧，感觉自己是渣渣
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numRookCaptures(self, board: List[List[str]]) -> int:
         res = 0
@@ -47,4 +47,4 @@ class Solution:
             changey += 1
         return res
 
-```
+# ```

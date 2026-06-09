@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-（1）中序遍历时相等结点的下一个元素就是所求的元素；
-（2）注意：入参指针需要制定为二维指针，flag也需要制定为一维指针的形式，当找到元素的时候需要将flag置为0，否则会被后边的元素冲掉。
+// （1）中序遍历时相等结点的下一个元素就是所求的元素；
+// （2）注意：入参指针需要制定为二维指针，flag也需要制定为一维指针的形式，当找到元素的时候需要将flag置为0，否则会被后边的元素冲掉。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -45,4 +45,4 @@ struct TreeNode* inorderSuccessor(struct TreeNode* root, struct TreeNode* p){
     return res;
 }
 
-```
+// ```

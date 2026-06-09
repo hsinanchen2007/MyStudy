@@ -1,8 +1,8 @@
-### 解题思路
-dp[i][j]=dp[i-1][j]+dp[i][j-1]
-### 代码
+// ### 解题思路
+// dp[i][j]=dp[i-1][j]+dp[i][j-1]
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int uniquePaths(int m, int n) {
@@ -19,4 +19,4 @@ public:
         return dp[m-1][n-1];
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def longestPrefix(self, s: str) -> str:
         n = len(s)
@@ -11,4 +11,4 @@ class Solution:
                     res = s[:n-i]
                     return res
         return res 
-```
+# ```

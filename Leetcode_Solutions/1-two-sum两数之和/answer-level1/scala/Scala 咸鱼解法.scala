@@ -1,4 +1,4 @@
-```Scala
+// ```Scala
 object Solution {
   def twoSum(nums: Array[Int], target: Int): Array[Int] = {
     var map = Map[Int, Int]()
@@ -14,4 +14,4 @@ object Solution {
     Array(0, 0)
   }
 }
-```
+// ```

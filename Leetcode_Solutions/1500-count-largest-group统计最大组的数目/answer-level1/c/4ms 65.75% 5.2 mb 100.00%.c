@@ -1,8 +1,8 @@
-### 解题思路
-n最大为10000，故最大各位数和不超过36
-### 代码
+// ### 解题思路
+// n最大为10000，故最大各位数和不超过36
+// ### 代码
 
-```c
+// ```c
 int sumByPos(int i){
     int sum=0;
     while(i>0){
@@ -32,4 +32,4 @@ int countLargestGroup(int n){
     }
     return sum;
 }
-```
+// ```

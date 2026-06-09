@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type Delete struct{
     times int
     time int
@@ -72,4 +72,4 @@ func (this *LFUCache) Put(key int, value int)  {
  * param_1 := obj.Get(key);
  * obj.Put(key,value);
  */
-```
+// ```

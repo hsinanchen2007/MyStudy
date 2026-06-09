@@ -1,4 +1,4 @@
-速度是真的慢。。。
+// 速度是真的慢。。。
 
     int depth(TreeNode* root){
         if(root==nullptr) return 0;

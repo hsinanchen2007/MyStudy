@@ -1,10 +1,10 @@
-### 解题思路
-方法一：队列
-最简单的思路，使用队列……
+# ### 解题思路
+# 方法一：队列
+# 最简单的思路，使用队列……
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import queue
 class MaxQueue:
 
@@ -25,14 +25,14 @@ class MaxQueue:
 # param_1 = obj.max_value()
 # obj.push_back(value)
 # param_3 = obj.pop_front()
-```
+# ```
 
-### 解题思路
-方法二：双端队列
-偷师官方思路，感觉没啥用，时空复杂度都没有降低，而且都是引用了queue包，操作上也很相似
+# ### 解题思路
+# 方法二：双端队列
+# 偷师官方思路，感觉没啥用，时空复杂度都没有降低，而且都是引用了queue包，操作上也很相似
 
-### 代码
-```python3
+# ### 代码
+# ```python3
 import queue
 class MaxQueue:
 
@@ -63,4 +63,4 @@ class MaxQueue:
 # param_1 = obj.max_value()
 # obj.push_back(value)
 # param_3 = obj.pop_front()
-```
+# ```

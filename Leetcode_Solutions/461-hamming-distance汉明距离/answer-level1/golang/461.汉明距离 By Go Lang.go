@@ -1,10 +1,10 @@
-### 解题思路
-Go里面没找到异或Operator，人肉做。
-循环右移，判断末位是否不一样，不一样则加一
+// ### 解题思路
+// Go里面没找到异或Operator，人肉做。
+// 循环右移，判断末位是否不一样，不一样则加一
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 func hammingDistance(x int, y int) int {
 	c := 0
@@ -16,4 +16,4 @@ func hammingDistance(x int, y int) int {
 	}
 	return c
 }
-```
+// ```

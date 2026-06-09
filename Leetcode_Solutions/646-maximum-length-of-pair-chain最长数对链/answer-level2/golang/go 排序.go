@@ -1,10 +1,10 @@
-### 解题思路
-1、对pairs排序, 优先对比第一个元素，若第一个元素相等，则对比最后一个元素
-2、设置对链中最小值为maxInt， 倒序遍历pairs，若元素最后一个元素小于对链中的最小值，对链数量+1，对链最小值设置为元素第一个元素
+// ### 解题思路
+// 1、对pairs排序, 优先对比第一个元素，若第一个元素相等，则对比最后一个元素
+// 2、设置对链中最小值为maxInt， 倒序遍历pairs，若元素最后一个元素小于对链中的最小值，对链数量+1，对链最小值设置为元素第一个元素
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findLongestChain(pairs [][]int) int {
     arr := Pairs{}
 	arr = pairs
@@ -41,4 +41,4 @@ func (p Pairs) Less(i, j int) bool {
 func (p Pairs) Swap(i, j int) {
 	p[i], p[j] = p[j], p[i]
 }
-```
+// ```

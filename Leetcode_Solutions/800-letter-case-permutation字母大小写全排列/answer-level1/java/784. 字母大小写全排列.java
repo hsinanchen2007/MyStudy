@@ -1,17 +1,17 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/10/11
- * 
- * 解题思路: 此题首先要掌握排列树的基本使用 在排列树的基础上 遇到数字跳过即可 例子如图：
- * 
- * 后附上排列树 子集树参考代码
- * 
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/10/11
+//  * 
+//  * 解题思路: 此题首先要掌握排列树的基本使用 在排列树的基础上 遇到数字跳过即可 例子如图：
+//  * 
+//  * 后附上排列树 子集树参考代码
+//  * 
  
-![DA2B2175F3CFF9DF780C525546F8A2EF.png](https://pic.leetcode-cn.com/10b29a164de6bf1236c406b8adea3c7c839435671d8df0e248cb6a36a16b7278-DA2B2175F3CFF9DF780C525546F8A2EF.png)
-*/
-```
+// ![DA2B2175F3CFF9DF780C525546F8A2EF.png](https://pic.leetcode-cn.com/10b29a164de6bf1236c406b8adea3c7c839435671d8df0e248cb6a36a16b7278-DA2B2175F3CFF9DF780C525546F8A2EF.png)
+// */
+// ```
 class Solution {
     List<String> list = new ArrayList<>();
     public List<String> letterCasePermutation(String S) {
@@ -78,4 +78,4 @@ class Solution {
         S[l] = S[r];
         S[r] = t;
     }
-```
+// ```

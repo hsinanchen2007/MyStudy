@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> getRow(int rowIndex){
 		// 使用递归
@@ -22,12 +22,12 @@ class Solution {
 		return res;
 	}
 }
-```
+// ```
 
-### 性能表现
+// ### 性能表现
 
-![1.png](https://pic.leetcode-cn.com/5eb03c3b9a666cf3615eea4eb933620d16ace9100d98160e9569dda4ac40bcac-1.png)
+// ![1.png](https://pic.leetcode-cn.com/5eb03c3b9a666cf3615eea4eb933620d16ace9100d98160e9569dda4ac40bcac-1.png)
 
-### 欢迎与我交流
+// ### 欢迎与我交流
 
-![wechat.png](https://pic.leetcode-cn.com/cbd63b8f99901a92c9fa4c15b00942a6f385253c7201b76e6eddbfd3214c9365-wechat.png)
+// ![wechat.png](https://pic.leetcode-cn.com/cbd63b8f99901a92c9fa4c15b00942a6f385253c7201b76e6eddbfd3214c9365-wechat.png)

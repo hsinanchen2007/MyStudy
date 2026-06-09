@@ -1,5 +1,5 @@
-枚举所有可能的排列，字典树去重
-```
+// 枚举所有可能的排列，字典树去重
+// ```
 var cnt int
 var st [10]int
 var vis [10]int
@@ -67,4 +67,4 @@ func numTilePossibilities(tiles string) int {
 	dfs(tiles,0)
 	return answer;
 }
-```
+// ```

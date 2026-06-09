@@ -1,6 +1,6 @@
-这里纸不够，我写不下了。
+// 这里纸不够，我写不下了。
 
-```javascript []
+// ```javascript []
 var isValidSudoku = function(chars) {
     //二进制存储，输入值对应于索引位置的值1，用移位操作设值
 	var row = [0,0,0,0,0,0,0,0,0], col = [0,0,0,0,0,0,0,0,0], box = [0,0,0,0,0,0,0,0,0];
@@ -19,8 +19,8 @@ var isValidSudoku = function(chars) {
 	}
 	return true;
 };
-```
-```java []
+// ```
+// ```java []
 public boolean isValidSudoku(char[][] chars) {
   //二进制存储，输入值对应于索引位置的值1，用移位操作设值
 	int[] row = new int[9], col = new int[9], box = new int[9];
@@ -39,5 +39,5 @@ public boolean isValidSudoku(char[][] chars) {
 	}
 	return true;
 }
-```
-![1.png](https://pic.leetcode-cn.com/d129004cb6a95bd07fc17f51d396d69af91bc335d62f7ab250069917c64af2f6-1.png)
+// ```
+// ![1.png](https://pic.leetcode-cn.com/d129004cb6a95bd07fc17f51d396d69af91bc335d62f7ab250069917c64af2f6-1.png)

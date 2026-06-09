@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type postion struct{
 	x int
 	y int
@@ -103,4 +103,4 @@ func setValue(i int,j int, board [][]byte){
 	setValue(i,j-1,board)
 	setValue(i,j+1,board)
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-1. 剪枝： 当前可用的(个数m和当前可用的)个数小于0 or 当前output中)个数大于(的个数；
-2. 递归边界：m ===0 && n === 0，加入res中；
-3. 继续搜索：加上( or )，减去对应的m or n
+// ### 解题思路
+// 1. 剪枝： 当前可用的(个数m和当前可用的)个数小于0 or 当前output中)个数大于(的个数；
+// 2. 递归边界：m ===0 && n === 0，加入res中；
+// 3. 继续搜索：加上( or )，减去对应的m or n
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {string[]}
@@ -22,4 +22,4 @@ function dfs(m, n, output, res) {
     dfs(m - 1, n, output + '(', res);
     dfs(m, n - 1, output + ')', res);
 }
-```
+// ```

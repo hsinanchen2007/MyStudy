@@ -1,9 +1,9 @@
-### 解题思路
-统计每个数字的个数，求最大公约数，如果最大公约数大于等于2，则可以分组。（辗转相除法求最大公约数的细节不记得了，从百度抄的）
+// ### 解题思路
+// 统计每个数字的个数，求最大公约数，如果最大公约数大于等于2，则可以分组。（辗转相除法求最大公约数的细节不记得了，从百度抄的）
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean hasGroupsSizeX(int[] deck) {
         Map<Integer, Integer> countMap = new HashMap<>();
@@ -38,4 +38,4 @@ class Solution {
         return m;
     }
 }
-```
+// ```

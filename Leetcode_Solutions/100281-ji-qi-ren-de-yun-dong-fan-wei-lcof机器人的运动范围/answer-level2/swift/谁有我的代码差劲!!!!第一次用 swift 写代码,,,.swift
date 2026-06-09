@@ -1,9 +1,9 @@
-### 解题思路
-就 bfs 就可以, 边界判断加坐标判断
+// ### 解题思路
+// 就 bfs 就可以, 边界判断加坐标判断
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func movingCount(_ m: Int, _ n: Int, _ k: Int) -> Int {
         var res = 1;
@@ -46,4 +46,4 @@ class Solution {
         return x % 10 + self.everyPlaceSum(x / 10)
     }
 }
-```
+// ```

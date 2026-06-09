@@ -1,5 +1,5 @@
-不快不慢，好理解~
-```
+// 不快不慢，好理解~
+// ```
 class Solution {
     
     private boolean check(String s, int i, int j) {
@@ -27,4 +27,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-前中后都等于sum/3就true
+// ### 解题思路
+// 前中后都等于sum/3就true
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool canThreePartsEqualSum(int* A, int ASize){
     if(ASize < 3){
         return false;
@@ -37,4 +37,4 @@ bool canThreePartsEqualSum(int* A, int ASize){
     }
     return false;
 }
-```
+// ```

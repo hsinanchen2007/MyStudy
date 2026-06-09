@@ -1,4 +1,4 @@
-```
+// ```
 func GetLongestStringLength(s string)(count int){
 	strSlice := ""
 	tmp := ""
@@ -29,4 +29,4 @@ func HasString(s string, str string) (b bool, idx int) {
 	}
 	return false,-1
 }
-```
+// ```

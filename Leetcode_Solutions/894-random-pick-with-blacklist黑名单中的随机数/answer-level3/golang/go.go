@@ -1,4 +1,4 @@
-```
+// ```
 import "sort"
 import "math/rand"
 
@@ -32,4 +32,4 @@ func (this *Solution) Pick() int {
 	})
 	return j + this.m[this.s[k-1]]
 }
-```
+// ```

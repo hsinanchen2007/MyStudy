@@ -1,12 +1,12 @@
-### 解题思路
-面向对象设计程序 建立运动员对象之后再操作
+// ### 解题思路
+// 面向对象设计程序 建立运动员对象之后再操作
 
-代码多，但是效率还行
-![image.png](https://pic.leetcode-cn.com/10243de5e5b07d6cececb88bc4bd5d81e79df8088ad8745bcfdbdb1b9f5cbf09-image.png)
+// 代码多，但是效率还行
+// ![image.png](https://pic.leetcode-cn.com/10243de5e5b07d6cececb88bc4bd5d81e79df8088ad8745bcfdbdb1b9f5cbf09-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -109,4 +109,4 @@ char ** findRelativeRanks(int* nums, int numsSize, int* returnSize){
     *returnSize=numsSize;
     return result;
 }
-```
+// ```

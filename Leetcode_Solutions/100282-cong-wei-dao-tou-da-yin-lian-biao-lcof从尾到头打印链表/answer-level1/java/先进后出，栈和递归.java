@@ -1,11 +1,11 @@
-### 解题思路
-题目描述了一个先进后出的结构，很容易想到栈，
-进而想到递归，递归也可以实现先进后出，只要将本节点的操作置于递归之后即可。
+// ### 解题思路
+// 题目描述了一个先进后出的结构，很容易想到栈，
+// 进而想到递归，递归也可以实现先进后出，只要将本节点的操作置于递归之后即可。
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -30,14 +30,14 @@ class Solution {
     }
 
 }
-```
-### 递归
+// ```
+// ### 递归
 
-实现一个addResult()方法，先递归，后做本函数内添加操作。
+// 实现一个addResult()方法，先递归，后做本函数内添加操作。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -66,4 +66,4 @@ class Solution {
         }
     }
 }
-```
+// ```

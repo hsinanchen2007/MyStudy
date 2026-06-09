@@ -1,5 +1,5 @@
-为防止int溢出，回文后的数字置为long
-```
+// 为防止int溢出，回文后的数字置为long
+// ```
 bool isPalindrome(int x){
     if (x < 0) {
         return false;
@@ -20,4 +20,4 @@ bool isPalindrome(int x){
     }
     return true;
 }
-```
+// ```

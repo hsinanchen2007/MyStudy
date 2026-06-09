@@ -1,9 +1,9 @@
-### 解题思路
-转置矩阵的列数 = 原矩阵的行数，这点一定要注意了！
+// ### 解题思路
+// 转置矩阵的列数 = 原矩阵的行数，这点一定要注意了！
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> transpose(vector<vector<int>>& A) {
@@ -21,4 +21,4 @@ public:
         return T;
     }
 };
-```
+// ```

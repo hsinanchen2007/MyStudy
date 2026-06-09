@@ -1,9 +1,9 @@
-### 解题思路
-不需要判断两部分，主要判断右子树。
+# ### 解题思路
+# 不需要判断两部分，主要判断右子树。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def verifyPostorder(self, postorder: List[int]) -> bool:
         if not postorder:return True
@@ -22,4 +22,4 @@ class Solution:
         return self.verifyPostorder(left) and self.verifyPostorder(right)
                 
         
-```
+# ```

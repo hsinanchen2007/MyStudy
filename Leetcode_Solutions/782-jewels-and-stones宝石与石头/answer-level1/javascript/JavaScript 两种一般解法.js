@@ -1,4 +1,4 @@
-```
+// ```
 var numJewelsInStones = function(J, S) {
     let c=0;
     for( let i in S ){
@@ -9,4 +9,4 @@ var numJewelsInStones = function(J, S) {
     //let a = S.match( new RegExp( '[' +J +']'  ,'g') )
     //return a == null ? 0 : a.length;
 };
-```
+// ```

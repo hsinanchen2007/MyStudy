@@ -1,10 +1,10 @@
-### 解题思路
-和杨辉三角I题思路相同
-![image.png](https://pic.leetcode-cn.com/e7e114b19282414e609d9199561161672fdd1ce07be497f3c8a8771b15b33993-image.png)
+# ### 解题思路
+# 和杨辉三角I题思路相同
+# ![image.png](https://pic.leetcode-cn.com/e7e114b19282414e609d9199561161672fdd1ce07be497f3c8a8771b15b33993-image.png)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def getRow(self, rowIndex: int) -> List[int]:
         res = [1]
@@ -15,4 +15,4 @@ class Solution:
             res = temp
         return res
 
-```
+# ```

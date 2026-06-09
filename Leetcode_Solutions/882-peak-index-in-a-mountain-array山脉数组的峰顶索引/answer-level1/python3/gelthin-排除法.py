@@ -1,10 +1,10 @@
-### 解题思路
-此题同 [162. 寻找峰值](https://leetcode-cn.com/problems/find-peak-element/)
-见题解 [162. 题解排除法](https://leetcode-cn.com/problems/find-peak-element/solution/pai-chu-fa-by-gelthin-2/)
+# ### 解题思路
+# 此题同 [162. 寻找峰值](https://leetcode-cn.com/problems/find-peak-element/)
+# 见题解 [162. 题解排除法](https://leetcode-cn.com/problems/find-peak-element/solution/pai-chu-fa-by-gelthin-2/)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def peakIndexInMountainArray(self, A: List[int]) -> int:
         n = len(A)
@@ -21,4 +21,4 @@ class Solution:
             else:
                 b = mid-1
         return a
-```
+# ```

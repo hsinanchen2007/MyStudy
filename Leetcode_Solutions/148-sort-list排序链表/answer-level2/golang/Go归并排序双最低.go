@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/e1c94187c5207d7c78e3588ad944eef6ac743ecd9b57ba73d19e93269bbc6c8a-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/e1c94187c5207d7c78e3588ad944eef6ac743ecd9b57ba73d19e93269bbc6c8a-image.png)
+// ```
 func sortList(head *ListNode) *ListNode {
     if head==nil||head.Next==nil{
         return head
@@ -41,4 +41,4 @@ func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
     }
     return ptr.Next
 }
-```
+// ```

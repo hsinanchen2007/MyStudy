@@ -1,10 +1,10 @@
 
-看了好多都是计算平均时间都是用：`总时间 / 行程次数` 在一些极端情况下可能溢出。这里介绍一个累加平均值的方法，避免溢出。
-累加平均值的公式: 
-$$avg_{new}=avg_{pre}*(num_{pre}/(num_{pre}+1))+val_{new}/(num_{pre}+1) $$
-其中 $avg_{pre}$ 上一次求得的平均值，$num_{pre}$ 为上次求平均值时的元素个数，$val_{new}$ 新添加的值 $avg_{new}$ 为添加新值后的平均值。
+// 看了好多都是计算平均时间都是用：`总时间 / 行程次数` 在一些极端情况下可能溢出。这里介绍一个累加平均值的方法，避免溢出。
+// 累加平均值的公式: 
+// $$avg_{new}=avg_{pre}*(num_{pre}/(num_{pre}+1))+val_{new}/(num_{pre}+1) $$
+// 其中 $avg_{pre}$ 上一次求得的平均值，$num_{pre}$ 为上次求平均值时的元素个数，$val_{new}$ 新添加的值 $avg_{new}$ 为添加新值后的平均值。
 
-```cpp
+// ```cpp
 class UndergroundSystem {
 public:
     
@@ -37,7 +37,7 @@ public:
             return average_time[startStation][endStation].first;
     }
 };
-```
-**结果：**
-![snipaste_20200329_171744.png](https://pic.leetcode-cn.com/b84828917e486d1c9f7dd3f6445b78c43c6f4b25d43cce1d379c08a5db9a4c61-snipaste_20200329_171744.png)
+// ```
+// **结果：**
+// ![snipaste_20200329_171744.png](https://pic.leetcode-cn.com/b84828917e486d1c9f7dd3f6445b78c43c6f4b25d43cce1d379c08a5db9a4c61-snipaste_20200329_171744.png)
 

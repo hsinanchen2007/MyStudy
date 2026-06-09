@@ -1,5 +1,5 @@
-不满足算法的时间复杂度为 O(log(m + n))。
-```
+// 不满足算法的时间复杂度为 O(log(m + n))。
+// ```
 class Solution {
      public  double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int [] num = new int[nums1.length+nums2.length];
@@ -14,4 +14,4 @@ class Solution {
         return  -1;
     }
 }
-```
+// ```

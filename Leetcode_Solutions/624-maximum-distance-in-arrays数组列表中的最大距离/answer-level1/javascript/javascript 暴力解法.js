@@ -1,9 +1,9 @@
-### 解法一
-最大值一定是一组的最后一个元素与另一组第一个元素之间的距离，使用暴力枚举结果
+// ### 解法一
+// 最大值一定是一组的最后一个元素与另一组第一个元素之间的距离，使用暴力枚举结果
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} arrays
  * @return {number}
@@ -23,13 +23,13 @@ var maxDistance = function(arrays) {
     }
     return maxDistance
 };
-```
+// ```
 
-### 解法二
-使用双指针，分别维护最小值和最大值，一次循环解决
+// ### 解法二
+// 使用双指针，分别维护最小值和最大值，一次循环解决
 
-###代码
-```javacsript
+// ###代码
+// ```javacsript
 /**
  * @param {number[][]} arrays
  * @return {number}
@@ -43,4 +43,4 @@ var maxDistance = function(arrays) {
     }
     return res;
 }
-```
+// ```

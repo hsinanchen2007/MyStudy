@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/d8957e39a9521f4f8a89bf12a19227d141783e9fe3ca283f4b7edec8d3ed7856-image.png)
+// ![image.png](https://pic.leetcode-cn.com/d8957e39a9521f4f8a89bf12a19227d141783e9fe3ca283f4b7edec8d3ed7856-image.png)
 
-```
+// ```
 impl Solution {
     pub fn is_long_pressed_name(name: String, typed: String) -> bool {
         let mut n = Vec::new();
@@ -46,5 +46,5 @@ impl Solution {
     }
 }
 
-```
+// ```
 

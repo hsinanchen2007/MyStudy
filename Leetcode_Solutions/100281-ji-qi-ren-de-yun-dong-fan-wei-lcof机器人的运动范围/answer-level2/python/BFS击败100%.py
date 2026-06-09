@@ -1,10 +1,10 @@
-一起组队刷题打卡，微博 [@爱编程的周鸟](https://weibo.com/iosxxoo) 求关注求交流。
+# 一起组队刷题打卡，微博 [@爱编程的周鸟](https://weibo.com/iosxxoo) 求关注求交流。
 
-### 题解
-使用visited数组记录访问过的位置结合BFS即可。
+# ### 题解
+# 使用visited数组记录访问过的位置结合BFS即可。
 
-### 代码
-```python
+# ### 代码
+# ```python
 class Solution(object):
     def movingCount(self, m, n, k):
         """
@@ -46,4 +46,4 @@ def BFS(array, i, j, threshold, visited):
     res += BFS(array, i, j-1, threshold, visited)
     return res
 
-```
+# ```

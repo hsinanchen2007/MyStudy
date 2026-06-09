@@ -1,5 +1,5 @@
-欠了两天了
-```
+// 欠了两天了
+// ```
 var canThreePartsEqualSum = function(A) {
     let sum = A.reduce((acc,cur)=>acc+cur) //sum数组之和
     let temp = 0   //temp累加
@@ -14,4 +14,4 @@ var canThreePartsEqualSum = function(A) {
     return (sum!=0 && cnt==3)||(sum==0 && cnt>2)
 };
 
-```
+// ```

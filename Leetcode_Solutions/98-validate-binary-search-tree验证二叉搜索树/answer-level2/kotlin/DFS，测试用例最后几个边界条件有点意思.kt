@@ -1,5 +1,5 @@
-测试用例最后结尾的几个边界条件是真的卡，索性用 Long 了。
-```
+// 测试用例最后结尾的几个边界条件是真的卡，索性用 Long 了。
+// ```
 class Solution {
     var result = true
     fun isValidBST(root: TreeNode?): Boolean {
@@ -18,5 +18,5 @@ class Solution {
         }
     }
 }
-```
-DFS 解法，给每个数字规定一个范围区间。区间两端分别是父结点和上一个拐点。
+// ```
+// DFS 解法，给每个数字规定一个范围区间。区间两端分别是父结点和上一个拐点。

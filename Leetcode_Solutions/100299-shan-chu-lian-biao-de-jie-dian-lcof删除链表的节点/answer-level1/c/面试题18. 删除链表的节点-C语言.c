@@ -1,9 +1,9 @@
-### 解题思路
-详见：203. 移除链表元素
+// ### 解题思路
+// 详见：203. 移除链表元素
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -80,4 +80,4 @@ struct ListNode* deleteNode(struct ListNode* head, int val){
 
     return head;
 }
-```
+// ```

@@ -1,5 +1,5 @@
 
-```
+// ```
     1
    / \
   2   5
@@ -49,9 +49,9 @@
   
 
 
-```
+// ```
 
-```
+// ```
 var flatten = function(root) {
     helper(root);
 };
@@ -82,4 +82,4 @@ function findRight(root){
    }
    return findRight(root.right);
 }
-```
+// ```

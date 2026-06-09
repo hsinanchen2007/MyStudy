@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def merge(self, nums1, m, nums2, n):
        
@@ -19,5 +19,5 @@ class Solution(object):
         else:
             nums1[p1+p2:] = nums1_bak[p1:]
        
-```
-这里，如果使用nums1.append 的话，需要把原来nums1 清空，那么需要使用del nums1[:] 或 nums1[:] = [] 的技巧
+# ```
+# 这里，如果使用nums1.append 的话，需要把原来nums1 清空，那么需要使用del nums1[:] 或 nums1[:] = [] 的技巧

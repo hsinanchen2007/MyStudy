@@ -1,11 +1,11 @@
-### 解题思路
+# ### 解题思路
 
-图的遍历，广搜或者深搜
+# 图的遍历，广搜或者深搜
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def movingCount(self, m: int, n: int, k: int) -> int:
         
@@ -39,4 +39,4 @@ class Solution:
                         t.append([x_, y_])
             s = t
         return res
-```
+# ```

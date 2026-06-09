@@ -1,9 +1,9 @@
-### 解题思路
- 树上qi个猴
+// ### 解题思路
+//  树上qi个猴
 
-### 代码
-地上一个猴子
-```c
+// ### 代码
+// 地上一个猴子
+// ```c
 int findLUSlength(char * a, char * b){
     if(NULL == a || NULL == b){
         return 0;
@@ -15,4 +15,4 @@ int findLUSlength(char * a, char * b){
 
     return strlen(a) > strlen(b)?strlen(a):strlen(b);
 }
-```
+// ```

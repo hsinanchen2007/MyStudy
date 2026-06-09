@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     # def minArray(self, numbers: List[int]) -> int:
     #     if not numbers:
@@ -25,4 +25,4 @@ class Solution:
             else:
                 j -= 1
         return numbers[i]
-```
+# ```

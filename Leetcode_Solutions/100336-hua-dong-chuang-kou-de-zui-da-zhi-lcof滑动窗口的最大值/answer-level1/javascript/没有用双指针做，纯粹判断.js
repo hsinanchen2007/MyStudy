@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-执行用时 :92 ms, 在所有 JavaScript 提交中击败了97.66%的用户
-内存消耗 :41.7 MB, 在所有 JavaScript 提交中击败了100.00%的用户
-### 代码
+// 执行用时 :92 ms, 在所有 JavaScript 提交中击败了97.66%的用户
+// 内存消耗 :41.7 MB, 在所有 JavaScript 提交中击败了100.00%的用户
+// ### 代码
 
-```javascript
+// ```javascript
 var maxSlidingWindow = function(nums, k) {
  
     // var win = nums.slice(0,k);
@@ -83,4 +83,4 @@ var maxSlidingWindow = function(nums, k) {
 
 //预期结果
 //[3,3,2,5]???
-```
+// ```

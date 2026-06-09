@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func isOneBitCharacter(bits []int) bool {
     
     for i := len(bits) - 2; i >= 0; i-- {
@@ -13,4 +13,4 @@ func isOneBitCharacter(bits []int) bool {
     }
     return (len(bits) - 1) % 2 == 0
 }
-```
+// ```

@@ -1,8 +1,8 @@
-### 
-遍历一遍，从第一个开始查找，不好的就是我的这个太占内存……
-### 代码
+// ### 
+// 遍历一遍，从第一个开始查找，不好的就是我的这个太占内存……
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int searchInsert(vector<int>& nums, int target) {
@@ -27,4 +27,4 @@ public:
         return position;
     }
 };
-```
+// ```

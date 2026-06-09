@@ -1,11 +1,11 @@
-关于解这道题的思路：
+// 关于解这道题的思路：
 
-- ``arr1`` 数组中跟 ``arr2`` 中存在交集的部分，按照在 ``arr2`` 数组中的顺序先排序
-- 排序完后，``arr1`` 数组中剩余的部分按升序合并到之前的数组里
+// - ``arr1`` 数组中跟 ``arr2`` 中存在交集的部分，按照在 ``arr2`` 数组中的顺序先排序
+// - 排序完后，``arr1`` 数组中剩余的部分按升序合并到之前的数组里
 
-第一版程序：
+// 第一版程序：
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} arr1
  * @param {number[]} arr2
@@ -26,11 +26,11 @@ var relativeSortArray = function(arr1, arr2) {
     }
     return result.concat(arr1.sort((a, b) => a - b))
 };
-```
+// ```
 
-稍加思考后，觉得内层的 ``while`` 循环其实不必要。  
-第二版程序：
-```javascript
+// 稍加思考后，觉得内层的 ``while`` 循环其实不必要。  
+// 第二版程序：
+// ```javascript
 /**
  * @param {number[]} arr1
  * @param {number[]} arr2
@@ -54,4 +54,4 @@ var relativeSortArray = function(arr1, arr2) {
     return result.concat(arr1.sort((a, b) => a - b))
 };
 
-```
+// ```

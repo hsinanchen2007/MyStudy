@@ -1,7 +1,7 @@
-#### 二分查找
-- 注意二分的循环的临界点
-- 利用 `m == x/m`的形式来避免大数问题
-```java
+// #### 二分查找
+// - 注意二分的循环的临界点
+// - 利用 `m == x/m`的形式来避免大数问题
+// ```java
 class Solution {
     public int mySqrt(int x) {
         if(x<0){
@@ -25,10 +25,10 @@ class Solution {
         return result;
     }
 }
-```
-#### 牛顿法
-利用牛顿迭代公式 
-```bash
+// ```
+// #### 牛顿法
+// 利用牛顿迭代公式 
+// ```bash
 k^2 = x
 => k^2 -x =0
 => f(k) = k^2 -x
@@ -39,10 +39,10 @@ k^2 = x
 so: 2k*k = k^2 - x
 => k = k/2 - x/(2k)
  
-```
-> 注意迭代的临界点，这里因取整，所以临界点取0.5亦可；
+// ```
+// > 注意迭代的临界点，这里因取整，所以临界点取0.5亦可；
 
-```java
+// ```java
     public int mySqrt(int x) {
         if(x<0){
             throw new IllegalArgumentException("x's value error");
@@ -56,4 +56,4 @@ so: 2k*k = k^2 - x
         }
         return (int)k;
     }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-全排列问题，使用回溯算法求解
+// ### 解题思路
+// 全排列问题，使用回溯算法求解
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -93,4 +93,4 @@ char ** letterCombinations(char * digits, int* returnSize){
     combination(digits, 0, buf, res, returnSize);
     return res;
 }
-```
+// ```

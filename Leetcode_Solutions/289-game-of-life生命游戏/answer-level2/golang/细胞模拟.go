@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func gameOfLife(board [][]int)  {
     x:=len(board)
     y:=len(board[0])
@@ -65,4 +65,4 @@ func gameOfLife(board [][]int)  {
 
 
 }
-```
+// ```

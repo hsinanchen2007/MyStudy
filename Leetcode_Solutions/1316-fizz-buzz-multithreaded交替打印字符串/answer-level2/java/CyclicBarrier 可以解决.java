@@ -1,9 +1,9 @@
-这里其实就体现了Java并发包工具的方便。设立static（静态唯一)的CyclicBarrier（等待其他线程都一起触发之后，才进行下一步操作。）。
+// 这里其实就体现了Java并发包工具的方便。设立static（静态唯一)的CyclicBarrier（等待其他线程都一起触发之后，才进行下一步操作。）。
 
-执行用时 :6 ms, 在所有 java 提交中击败了66.67%的用户
-内存消耗 :36.3 MB, 在所有 java 提交中击败了100.00%的用户
+// 执行用时 :6 ms, 在所有 java 提交中击败了66.67%的用户
+// 内存消耗 :36.3 MB, 在所有 java 提交中击败了100.00%的用户
 
-```
+// ```
 private static CyclicBarrier barrier = new CyclicBarrier(4);
 
     public FizzBuzz(int n) {
@@ -66,4 +66,4 @@ private static CyclicBarrier barrier = new CyclicBarrier(4);
         }
     }
 }
-```
+// ```

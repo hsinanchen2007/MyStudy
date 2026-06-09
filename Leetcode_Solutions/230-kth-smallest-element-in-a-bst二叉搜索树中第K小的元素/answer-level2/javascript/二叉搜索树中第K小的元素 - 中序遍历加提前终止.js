@@ -1,10 +1,10 @@
-### 解题思路
-中序遍历加提前终止，思路见代码注释
-![image.png](https://pic.leetcode-cn.com/af6bc25cb64a0f9ef247a8a73a9351e7339213e3c7bd45d4ca3f49f8288371dc-image.png)
+// ### 解题思路
+// 中序遍历加提前终止，思路见代码注释
+// ![image.png](https://pic.leetcode-cn.com/af6bc25cb64a0f9ef247a8a73a9351e7339213e3c7bd45d4ca3f49f8288371dc-image.png)
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -43,4 +43,4 @@ var kthSmallest = function(root, k) {
     order(root);
     return res;
 };
-```
+// ```

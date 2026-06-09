@@ -1,8 +1,8 @@
 
-用链表模拟插入排序，因为要修改链表的位置，所以用pre来记录前一个节点，方便操作。 
-因为需要pre，所以设置dummyhead作为head的pre。
+// 用链表模拟插入排序，因为要修改链表的位置，所以用pre来记录前一个节点，方便操作。 
+// 因为需要pre，所以设置dummyhead作为head的pre。
 
-```
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -42,4 +42,4 @@ public:
         return  dummyHead->next;
     }
 };
-```
+// ```

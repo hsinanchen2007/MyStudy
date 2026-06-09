@@ -1,6 +1,6 @@
-递归解法：
-每次递归给root->left->next和root->right->next赋值
-```
+// 递归解法：
+// 每次递归给root->left->next和root->right->next赋值
+// ```
 function connect($root) {
     if($root == null) return null;
     if($root->left != null){
@@ -11,4 +11,4 @@ function connect($root) {
     $this->connect($root->right);
     return $root;
 }
-```
+// ```

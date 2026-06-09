@@ -1,5 +1,5 @@
 
-```
+# ```
 def containsNearbyDuplicate(self, nums: List[int], k: int) -> bool:
         hash_set = {}
         for index,num in enumerate(nums):
@@ -11,5 +11,5 @@ def containsNearbyDuplicate(self, nums: List[int], k: int) -> bool:
                 else:
                     hash_set[num] = index 
         return False
-```
+# ```
 

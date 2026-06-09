@@ -1,9 +1,9 @@
-### 解题思路
+# ### 解题思路
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def singleNumbers(self, nums: List[int]) -> List[int]:
         x=nums[0]
@@ -18,4 +18,4 @@ class Solution:
             else:
                 c^=nums[i]
         return z,c
-```
+# ```

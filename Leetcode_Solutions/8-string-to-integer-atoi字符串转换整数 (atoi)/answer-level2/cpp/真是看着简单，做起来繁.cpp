@@ -1,7 +1,7 @@
-一开始空字符串或者只有空格的字符串没排除，搞死我了。
-后面判断超过INT_MAX或者小于等于INT_MIN的也很繁。
+// 一开始空字符串或者只有空格的字符串没排除，搞死我了。
+// 后面判断超过INT_MAX或者小于等于INT_MIN的也很繁。
 
-```C++ []
+// ```C++ []
 class Solution {
 public:
 	int myAtoi(string str) {
@@ -36,4 +36,4 @@ public:
 		return res;
 	}
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-https://leetcode.com/problems/n-ary-tree-postorder-traversal/discuss/150339/C%2B%2B-super-easy-11-line-solution-beats-100!
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// https://leetcode.com/problems/n-ary-tree-postorder-traversal/discuss/150339/C%2B%2B-super-easy-11-line-solution-beats-100!
+// ### 代码
 
-```cpp
+// ```cpp
 /*
 // Definition for a Node.
 class Node {
@@ -43,4 +43,4 @@ public:
     }
 
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 import "strconv"
 
 func str2tree(s string) *TreeNode {
@@ -29,4 +29,4 @@ func str2tree(s string) *TreeNode {
 	}
 	return st[len(st)-1]
 }
-```
+// ```

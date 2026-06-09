@@ -1,6 +1,6 @@
-对字符串数组进行排序，对于字符串 m, n，如果 mn < nm，返回 true，否则，返回 false
+// 对字符串数组进行排序，对于字符串 m, n，如果 mn < nm，返回 true，否则，返回 false
 
-```
+// ```
 class Solution {
    public:
     string minNumber(vector<int>& nums) {
@@ -21,7 +21,7 @@ class Solution {
         return res;
     }
 };
-```
+// ```
 
 
 

@@ -1,9 +1,9 @@
-### 解题思路
-定义一维数组存入每个字符出现次数，数其中出现奇数次的个数即可。
+// ### 解题思路
+// 定义一维数组存入每个字符出现次数，数其中出现奇数次的个数即可。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int longestPalindrome(char * s){
     int i, len=strlen(s), count=0;
     char cs[58];
@@ -21,4 +21,4 @@ int longestPalindrome(char * s){
         return len-count+1;
     return len;
 }
-```
+// ```

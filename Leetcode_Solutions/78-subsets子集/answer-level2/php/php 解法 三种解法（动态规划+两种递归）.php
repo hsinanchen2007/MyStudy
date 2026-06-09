@@ -1,5 +1,5 @@
-动态规划解法：
-```
+// 动态规划解法：
+// ```
 function subsets($nums) {
     $n = count($nums);
     if($n == 0) return [[]];
@@ -15,11 +15,11 @@ function subsets($nums) {
     }
     return $dp[$n];
 }
-```
+// ```
 
 
-回溯解法1：
-```
+// 回溯解法1：
+// ```
 class Solution {
 
     /**
@@ -47,10 +47,10 @@ class Solution {
         $this->backtrack($n+1,$nums,$ans);
     }
 }
-```
+// ```
 
-回溯解法2：
-```
+// 回溯解法2：
+// ```
 class Solution {
 
     /**
@@ -73,4 +73,4 @@ class Solution {
         }
     }
 }
-```
+// ```

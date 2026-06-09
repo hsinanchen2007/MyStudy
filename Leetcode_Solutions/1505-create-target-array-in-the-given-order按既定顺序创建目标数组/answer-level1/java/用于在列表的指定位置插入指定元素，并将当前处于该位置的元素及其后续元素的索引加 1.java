@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int[] createTargetArray(int[] nums, int[] index) {
         List<Integer> list = new ArrayList<>();
@@ -17,4 +17,4 @@ class Solution {
 
     }
 }
-```
+// ```

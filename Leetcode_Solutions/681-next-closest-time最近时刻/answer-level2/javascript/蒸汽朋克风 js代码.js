@@ -1,7 +1,7 @@
-判断套判断，循环接循环
-这！就是朋克！
+// 判断套判断，循环接循环
+// 这！就是朋克！
 
-```
+// ```
 /**
  * @param {string} time
  * @return {string}
@@ -97,4 +97,4 @@ var nextClosestTime = function (time) {
 
     return stringArr.join('')
 }
-```
+// ```

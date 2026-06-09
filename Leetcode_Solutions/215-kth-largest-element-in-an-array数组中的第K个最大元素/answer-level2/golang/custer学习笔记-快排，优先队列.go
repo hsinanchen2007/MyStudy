@@ -1,18 +1,18 @@
-# 排序
+// # 排序
 
-- 最朴素的方法是先对数组进行排序，再返回倒数第 k 个元素，就像 Python 中的 sorted(nums)[-k]。
-- 算法的时间复杂度为O(NlogN)，空间复杂度为O(1)。
-- 这个时间复杂度并不令人满意，让我们试着用额外空间来优化时间复杂度。
-```go
+// - 最朴素的方法是先对数组进行排序，再返回倒数第 k 个元素，就像 Python 中的 sorted(nums)[-k]。
+// - 算法的时间复杂度为O(NlogN)，空间复杂度为O(1)。
+// - 这个时间复杂度并不令人满意，让我们试着用额外空间来优化时间复杂度。
+// ```go
 func findKthLargest(nums []int, k int) int {
   sort.Slice(nums, func(i, j int) bool {
     return nums[i] > nums[j]
   })
   return nums[k-1]
 }
-```
-# 快排
-```go 
+// ```
+// # 快排
+// ```go 
 func findKthLargest(nums []int, k int) int {
   return solved(nums, 0, len(nums)-1, len(nums)-k)
 }
@@ -50,9 +50,9 @@ func solved(arr []int, l, r, k int) int {
     return solved(arr, p+1, r, k)
   }
 }
-```
-# 最小堆
-```go
+// ```
+// # 最小堆
+// ```go
 // Using Min Heap to store the k largest elements
 // Time Complexity: O(nlogk) Space Complexity: O(k)
 // https://github.com/aQuaYi/LeetCode-in-Go/blob/master/Algorithms/0215.kth-largest-element-in-an-array/kth-largest-element-in-an-array.go
@@ -81,10 +81,10 @@ func (h *highHeap) Pop() interface{} { // Pop 使用 *h，是因为减短了 h �
   *h = (*h)[:len(*h)-1]
   return res
 }
-```
+// ```
 
-#快排思想
-```go
+// #快排思想
+// ```go
 // Based on Quick Sort Partition.Time Complexity: O(n) Space Complexity: O(logn)
 func findKthLargest3(nums []int, k int) int {
   rand.Seed(time.Now().Unix())
@@ -119,4 +119,4 @@ func partition(nums []int, l, r int) int {
   nums[l], nums[lt-1] = nums[lt-1], nums[l]
   return lt - 1
 }
-```
+// ```

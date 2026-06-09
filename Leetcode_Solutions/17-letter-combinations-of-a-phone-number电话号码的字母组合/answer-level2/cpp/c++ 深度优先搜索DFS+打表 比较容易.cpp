@@ -1,11 +1,11 @@
-首先将table表打好
-然后建一个temp栈记录
-选择第一个数字，写一个for循环遍历table中该字母对应的字符串的字母然后压入temp，当temp满的时候加入结果集
-递归搜索下一个数字
-退栈
-记得写递归结束的判断
-ok，上代码
-```
+// 首先将table表打好
+// 然后建一个temp栈记录
+// 选择第一个数字，写一个for循环遍历table中该字母对应的字符串的字母然后压入temp，当temp满的时候加入结果集
+// 递归搜索下一个数字
+// 退栈
+// 记得写递归结束的判断
+// ok，上代码
+// ```
 class Solution {
 public:
     string table[10]={"","","abc","def","ghi","jkl","mno","pqrs","tuv","wxyz"};
@@ -32,4 +32,4 @@ public:
         return res;
     }
 };
-```
+// ```

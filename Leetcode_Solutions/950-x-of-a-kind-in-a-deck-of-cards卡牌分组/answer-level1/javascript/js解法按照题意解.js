@@ -1,4 +1,4 @@
-```
+// ```
 /* 
 首先 X 肯定是在2-9范围内
 其次数组能被分割为X份 则该数组长度肯定能整除X
@@ -23,4 +23,4 @@ var hasGroupsSizeX = function(deck) {
   }
   return res
 };
-```
+// ```

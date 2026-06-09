@@ -1,4 +1,4 @@
-    // 小于链表 + 大于等于链表
+//     // 小于链表 + 大于等于链表
     class Solution {
         public ListNode partition(ListNode head, int x) {
             ListNode p = head, q = head;

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     func arrayPairSum(_ nums: [Int]) -> Int {
         let newNums = nums.sorted()
@@ -11,4 +11,4 @@ class Solution {
         return sum
     }
 }
-```
+// ```

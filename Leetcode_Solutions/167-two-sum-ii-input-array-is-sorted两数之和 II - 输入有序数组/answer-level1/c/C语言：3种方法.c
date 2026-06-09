@@ -1,6 +1,6 @@
-方法1：双指针
+// 方法1：双指针
 
-```
+// ```
 int* twoSum(int* numbers, int numbersSize, int target, int* returnSize){
     int low = 0, high = numbersSize - 1;
     
@@ -21,11 +21,11 @@ int* twoSum(int* numbers, int numbersSize, int target, int* returnSize){
     return res;
 }
 
-```
+// ```
 
-方法2：二分法
+// 方法2：二分法
 
-```
+// ```
 int* twoSum(int* numbers, int numbersSize, int target, int* returnSize){
     int i, l, r, m, flg = 0;
    
@@ -52,10 +52,10 @@ int* twoSum(int* numbers, int numbersSize, int target, int* returnSize){
     return res;
 }
 
-```
-方法3：暴力法
+// ```
+// 方法3：暴力法
 
-```
+// ```
 int* twoSum(int* numbers, int numbersSize, int target, int* returnSize){
     int i, j, flg = 0;
 
@@ -75,5 +75,5 @@ int* twoSum(int* numbers, int numbersSize, int target, int* returnSize){
     res[1] = j + 1;
     return res;
 }
-```
+// ```
 

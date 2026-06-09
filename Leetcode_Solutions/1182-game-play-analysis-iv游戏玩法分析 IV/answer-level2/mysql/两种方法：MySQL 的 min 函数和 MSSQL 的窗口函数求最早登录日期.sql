@@ -1,5 +1,5 @@
-## MySQL 的 min 函数
-```
+-- ## MySQL 的 min 函数
+-- ```
 select round((
     select
         count(a1.player_id) cnt 
@@ -17,9 +17,9 @@ select round((
         datediff(a1.event_date, a2.event_date) = 1 
 ) / count(distinct a.player_id), 2) fraction
 from Activity a
-```
-## MSSQL 的窗口函数
-```
+-- ```
+-- ## MSSQL 的窗口函数
+-- ```
 select
     round(sum(
         case
@@ -42,4 +42,4 @@ from
     ) a2
 where 
     a1.player_id = a2.player_id
-```
+-- ```

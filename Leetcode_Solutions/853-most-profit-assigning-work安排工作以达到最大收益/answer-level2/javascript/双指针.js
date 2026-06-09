@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number[]} difficulty
  * @param {number[]} profit
@@ -22,4 +22,4 @@ var maxProfitAssignment = function(difficulty, profit, worker) {
     }
     return ans
 };
-```
+// ```

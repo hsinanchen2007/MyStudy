@@ -1,9 +1,9 @@
-### 解题思路
-先求 加起来总值， 这样后序遍历时，sum减去子节点和，就可以得到另一边和了
+// ### 解题思路
+// 先求 加起来总值， 这样后序遍历时，sum减去子节点和，就可以得到另一边和了
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -69,4 +69,4 @@ func sum(root *TreeNode) int{
 
     return val + root.Val
 }
-```
+// ```

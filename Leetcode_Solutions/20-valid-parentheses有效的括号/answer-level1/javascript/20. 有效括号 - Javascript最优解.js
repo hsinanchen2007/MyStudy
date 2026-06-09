@@ -1,4 +1,4 @@
-```js
+// ```js
 /**
  * @param {string} s
  * @return {boolean}
@@ -20,4 +20,4 @@ var isValid = function(s) {
     }
     return !stack.length // 字符串遍历完，如果不是空栈就证明不是一一匹配的括号组合
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-求和
+// ### 解题思路
+// 求和
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} moves
  * @return {boolean}
@@ -21,4 +21,4 @@ var judgeCircle = function (moves) {
     }
     return r === 0 && c === 0
 };
-```
+// ```

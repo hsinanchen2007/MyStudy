@@ -1,47 +1,47 @@
-## 思路:
+// ## 思路:
 
-**思路一:** 利用两个指针进行遍历。
+// **思路一:** 利用两个指针进行遍历。
 
-在代码里解释.
+// 在代码里解释.
 
-时间复杂度为:$O(mn)$
+// 时间复杂度为:$O(mn)$
 
-**思路二:** 动态规划
+// **思路二:** 动态规划
 
-自底向上
+// 自底向上
 
-`dp[i][j]`表示`s`到`i位置`,`p`到`j`位置是否匹配!
+// `dp[i][j]`表示`s`到`i位置`,`p`到`j`位置是否匹配!
 
-初始化:
+// 初始化:
 
-1. `dp[0][0]`:什么都没有,所以为`true`
-2. 第一行`dp[0][j]`,换句话说,`s`为空,与`p`匹配,所以只要`p`开始为`*`才为`true`
-3. 第一列`dp[i][0]`,当然全部为`False`
+// 1. `dp[0][0]`:什么都没有,所以为`true`
+// 2. 第一行`dp[0][j]`,换句话说,`s`为空,与`p`匹配,所以只要`p`开始为`*`才为`true`
+// 3. 第一列`dp[i][0]`,当然全部为`False`
 
-动态方程:
+// 动态方程:
 
-1. 如果`(s[i] == p[j]  || p[j] == "?")  && dp[i-1][j-1]` ,有`dp[i][j] = true`
+// 1. 如果`(s[i] == p[j]  || p[j] == "?")  && dp[i-1][j-1]` ,有`dp[i][j] = true`
 
-2. 如果`p[j] == "*" && (dp[i-1][j] = true || dp[i][j-1] = true) `有`dp[i][j] = true`
+// 2. 如果`p[j] == "*" && (dp[i-1][j] = true || dp[i][j-1] = true) `有`dp[i][j] = true`
 
-   ​	note:
+//    ​	note:
 
-   ​		 `dp[i][j-1]`,表示`*`代表是空字符,例如`ab,ab*`
+//    ​		 `dp[i][j-1]`,表示`*`代表是空字符,例如`ab,ab*`
 
-   ​		`dp[i-1][j]`,表示`*`代表非空任何字符,例如`abcd,ab*`
-自顶向下就很简单了!
+//    ​		`dp[i-1][j]`,表示`*`代表非空任何字符,例如`abcd,ab*`
+// 自顶向下就很简单了!
 
    
 
 
 
-​	
+// ​	
 
-## 代码:
+// ## 代码:
 
-思路一
+// 思路一
 
-```python [1]
+// ```python [1]
 class Solution:
     def isMatch(self, s, p):
         """
@@ -74,11 +74,11 @@ class Solution:
                 return False
          # 将多余的 * 直接匹配空串
         return all(x == "*" for x in p[j:])
-```
+// ```
 
 
 
-```java [1]
+// ```java [1]
 class Solution {
     public boolean isMatch(String s, String p) {
         int sn = s.length();
@@ -111,15 +111,15 @@ class Solution {
         
     }
 }
-```
+// ```
 
 
 
 
-思路2
+// 思路2
 
 
-```python [2]
+// ```python [2]
 class Solution:
     def isMatch(self, s, p):
         """
@@ -142,9 +142,9 @@ class Solution:
                 elif p[j - 1] == "*":
                     dp[i][j] = dp[i - 1][j] or dp[i][j - 1]
         return dp[-1][-1]
-```
+// ```
 
-```java [2]
+// ```java [2]
 class Solution {
     public boolean isMatch(String s, String p) {
         boolean[][] dp = new boolean[s.length() + 1][p.length() + 1];
@@ -167,9 +167,9 @@ class Solution {
         
     }
 }
-```
-自顶向下
-```python
+// ```
+// 自顶向下
+// ```python
 class Solution:
     def isMatch(self, s: str, p: str) -> bool:
         import functools
@@ -186,5 +186,5 @@ class Solution:
             return False
         
         return dfs(0, 0)
-```
+// ```
 

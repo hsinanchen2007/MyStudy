@@ -1,10 +1,10 @@
-### 解题思路
-1、带入一堆参数
-2、DFS进入和退出后的对应状态变量要维护好
+// ### 解题思路
+// 1、带入一堆参数
+// 2、DFS进入和退出后的对应状态变量要维护好
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -80,4 +80,4 @@ int* findRedundantConnection(int** edges, int edgesSize, int* edgesColSize, int*
     *returnSize = 2;
     return ret;
 }
-```
+// ```

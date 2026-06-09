@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn fair_candy_swap(a: Vec<i32>, b: Vec<i32>) -> Vec<i32> {
         let sum_a = a.iter().sum::<i32>();
@@ -14,5 +14,5 @@ impl Solution {
         Vec::new()
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

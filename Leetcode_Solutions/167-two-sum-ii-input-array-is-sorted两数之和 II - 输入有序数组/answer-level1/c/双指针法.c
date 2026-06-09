@@ -1,9 +1,9 @@
-### 解题思路
-充分利用题目给出的有序数组条件，从有序数组的两头不断逼近，以得出最终结果。
+// ### 解题思路
+// 充分利用题目给出的有序数组条件，从有序数组的两头不断逼近，以得出最终结果。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -28,4 +28,4 @@ int* twoSum(int* numbers, int numbersSize, int target, int* returnSize){
     *returnSize = 0;
     return NULL;
 }
-```
+// ```

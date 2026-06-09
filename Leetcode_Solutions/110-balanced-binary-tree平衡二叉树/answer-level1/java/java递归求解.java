@@ -1,7 +1,7 @@
-## 解析
-以前序遍历的方式递归的检查每一个节点是否满足平衡二叉树的定义
-## 代码
-```java
+// ## 解析
+// 以前序遍历的方式递归的检查每一个节点是否满足平衡二叉树的定义
+// ## 代码
+// ```java
 public boolean isBalanced(TreeNode root) {
         if(root == null){
             return true;
@@ -19,4 +19,4 @@ public boolean isBalanced(TreeNode root) {
         }
         return Math.max(dep(root.left),dep(root.right))+1;
     }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-将股票价格在坐标轴上画出来，找出递增的片段，将每个递增片段的差加起来就是最大值
+// ### 解题思路
+// 将股票价格在坐标轴上画出来，找出递增的片段，将每个递增片段的差加起来就是最大值
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxProfit(int[] prices) {
         int len = prices.length;
@@ -18,4 +18,4 @@ class Solution {
         return delta;
     }
 }
-```
+// ```

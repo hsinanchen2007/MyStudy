@@ -1,13 +1,13 @@
-### 解题思路
-执行用时 :44 ms, 在所有 Python3 提交中击败了94.56%的用户
-看到这个94.56%才敢贴的
+# ### 解题思路
+# 执行用时 :44 ms, 在所有 Python3 提交中击败了94.56%的用户
+# 看到这个94.56%才敢贴的
 
-就是用字典和列表存储下数字的出现次数，然后比较下能不能整除从2到最小的出现次数
+# 就是用字典和列表存储下数字的出现次数，然后比较下能不能整除从2到最小的出现次数
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def hasGroupsSizeX(self, deck: List[int]) -> bool:
         dic = {}
@@ -27,4 +27,4 @@ class Solution:
             if success == 1:
                 return True
         return False
-```
+# ```

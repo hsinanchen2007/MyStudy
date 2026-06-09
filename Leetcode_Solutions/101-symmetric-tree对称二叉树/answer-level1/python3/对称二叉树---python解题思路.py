@@ -1,12 +1,12 @@
-套用递归三部曲模板
+# 套用递归三部曲模板
 
-1.**递归终止条件** 节点同时为空，或者其中一个节点为空
+# 1.**递归终止条件** 节点同时为空，或者其中一个节点为空
 
-2.**本次递归做什么** 判断左右节是否关于中间对称，之前绞尽脑汁想一个root只有一进入递归肯定有问题，怎么办呢？一个不行我们就两个！
+# 2.**本次递归做什么** 判断左右节是否关于中间对称，之前绞尽脑汁想一个root只有一进入递归肯定有问题，怎么办呢？一个不行我们就两个！
 
-3.**返回什么** 是否相等
+# 3.**返回什么** 是否相等
 
-```python
+# ```python
 class Solution:
     def isSymmetric(self, root: TreeNode) -> bool:
         def new_func(root_1, root_2):
@@ -21,11 +21,11 @@ class Solution:
             # 不相等就马上返回不等
             else: return False
         return new_func(root, root)
-```
+# ```
 
-运行结果
+# 运行结果
 
-```
+# ```
 执行用时 :32 ms, 在所有 python3 提交中击败了98.99% 的用户
 内存消耗 :12.8 MB, 在所有 python3 提交中击败了99.34%的用户
 
@@ -34,8 +34,8 @@ class Solution:
 
 执行用时 :36 ms, 在所有 python3 提交中击败了96.37% 的用户
 内存消耗 :12.7 MB, 在所有 python3 提交中击败了99.45%的用户
-```
+# ```
 
 
 
-欢迎来github上看更多题目的解答[力扣解题思路](https://github.com/WRAllen/LeetCode)
+# 欢迎来github上看更多题目的解答[力扣解题思路](https://github.com/WRAllen/LeetCode)

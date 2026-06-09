@@ -1,4 +1,4 @@
-```
+// ```
 vector<int> distributeCandies(int candies, int num_people) {
         vector<int> tempArr(num_people, 0);
         int roundNum = 0;
@@ -25,4 +25,4 @@ vector<int> distributeCandies(int candies, int num_people) {
         
         return tempArr;
     }
-```
+// ```

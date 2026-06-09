@@ -1,4 +1,4 @@
-```python
+# ```python
 from collections import deque
 import json
 
@@ -64,6 +64,6 @@ class Codec:
             root.left = left
             root.right = right
         return head
-```
+# ```
 
-结合leetcode的格式说明，代码还是比较清晰的。
+# 结合leetcode的格式说明，代码还是比较清晰的。

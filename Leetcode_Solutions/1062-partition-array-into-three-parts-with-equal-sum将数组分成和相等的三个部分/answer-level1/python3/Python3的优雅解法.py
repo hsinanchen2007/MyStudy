@@ -1,4 +1,4 @@
-```
+# ```
 def canThreePartsEqualSum(self, A: 'List[int]') -> bool:
     sum_A = sum(A)
     mean_A = sum_A / 3
@@ -13,5 +13,5 @@ def canThreePartsEqualSum(self, A: 'List[int]') -> bool:
                 if C == 2: # 在除了A中除最后一项外，能找到两组的和与A/3相等；则必为true
                     return True
     return False  
-```
+# ```
 

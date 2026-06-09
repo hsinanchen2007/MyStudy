@@ -1,7 +1,7 @@
 
-对于这种加减法问题，变成2堆就能转化成纯加法问题了
+// 对于这种加减法问题，变成2堆就能转化成纯加法问题了
 
-```
+// ```
 int findTargetSumWays(int* nums, int numsSize, int S)
 {
     int sum = 0;
@@ -20,4 +20,4 @@ int findTargetSumWays(int* nums, int numsSize, int S)
     }
     return dp[aim];
 }
-```
+// ```

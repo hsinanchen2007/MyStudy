@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def maxSubArrayLen(self, nums: List[int], k: int) -> int:
         # Time complexity : O(N)
@@ -13,4 +13,4 @@ class Solution:
             if pre_sum not in pre_dic:
                 pre_dic[pre_sum] = i + 1
         return res
-```
+# ```

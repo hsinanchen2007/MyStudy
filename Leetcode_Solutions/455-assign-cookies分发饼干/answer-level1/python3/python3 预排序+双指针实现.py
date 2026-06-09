@@ -1,10 +1,10 @@
-### 解题思路
-时间复杂度：排序需要O(nlog(n))，双指针需要O(n)，所以综合来看需要O(nlog(n))
-空间复杂度：O(1)
+# ### 解题思路
+# 时间复杂度：排序需要O(nlog(n))，双指针需要O(n)，所以综合来看需要O(nlog(n))
+# 空间复杂度：O(1)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findContentChildren(self, g: List[int], s: List[int]) -> int:
         g.sort()
@@ -17,4 +17,4 @@ class Solution:
             j+=1
         return i
             
-```
+# ```

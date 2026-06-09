@@ -1,9 +1,9 @@
-### 解题思路
-1、思考 BFS 和 DFS的区别
+// ### 解题思路
+// 1、思考 BFS 和 DFS的区别
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func maxAreaOfIsland(grid [][]int) int {
 	var maxArea = 0
 	for i := 0; i < len(grid); i++ {
@@ -31,4 +31,4 @@ func GetArea(grid [][]int, x, y int) int {
 	}
 	return 0
 }
-```
+// ```

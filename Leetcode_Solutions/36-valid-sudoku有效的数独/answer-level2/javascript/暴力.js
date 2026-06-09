@@ -1,7 +1,7 @@
 
-### 暴力循环
-应该没有捷径，直接暴力循环即可
-```
+// ### 暴力循环
+// 应该没有捷径，直接暴力循环即可
+// ```
 var isValidSudoku = function (board) {
     for (let i = 0; i < 9; i++) {
         let vSet = new Set()
@@ -44,4 +44,4 @@ var isValidSudoku = function (board) {
 };
 
 
-```
+// ```

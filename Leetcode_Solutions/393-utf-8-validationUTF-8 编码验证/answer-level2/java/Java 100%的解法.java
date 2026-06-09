@@ -1,7 +1,7 @@
 
-以下解法快过100%的Java提交。思路见代码和注释
+// 以下解法快过100%的Java提交。思路见代码和注释
 
-```java
+// ```java
 class Solution {
     public boolean validUtf8(int[] data) {
         int i=0;
@@ -46,8 +46,8 @@ class Solution {
         return true;
     }
 }
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/5fd7987971d22cffec375a18872dafec9bd1d02dd1014087ac11539c4bf2ac6f-image.png)
+// ![image.png](https://pic.leetcode-cn.com/5fd7987971d22cffec375a18872dafec9bd1d02dd1014087ac11539c4bf2ac6f-image.png)
 
 

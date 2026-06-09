@@ -1,11 +1,11 @@
-### 解题思路
-执行用时 :2 ms, 在所有 Java 提交中击败了41.17%的用户
+// ### 解题思路
+// 执行用时 :2 ms, 在所有 Java 提交中击败了41.17%的用户
 
-注意边界和特殊情况，题目本身不难。
+// 注意边界和特殊情况，题目本身不难。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String reverseStr(String s, int k) {
         // 1.判断非法情况
@@ -49,4 +49,4 @@ class Solution {
         return result.toString();
     }
 }
-```
+// ```

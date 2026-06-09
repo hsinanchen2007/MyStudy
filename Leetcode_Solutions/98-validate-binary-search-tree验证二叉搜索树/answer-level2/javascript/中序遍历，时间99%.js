@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-看了官方题解，发现可以利用中序遍历的顺序，果然速度很快
- * 利用中序遍历的读取顺序，只要当前val比上一个val大就可以了
- * 默认值为最小值
+// 看了官方题解，发现可以利用中序遍历的顺序，果然速度很快
+//  * 利用中序遍历的读取顺序，只要当前val比上一个val大就可以了
+//  * 默认值为最小值
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -34,4 +34,4 @@ var isValidBST = function (root) {
         }
     }
 };
-```
+// ```

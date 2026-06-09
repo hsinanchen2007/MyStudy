@@ -1,6 +1,6 @@
-这道题在竞赛的时候似乎有哪个地方状态不一致，结果我一直崩，写法最 low 的现在都可以通过。
+// 这道题在竞赛的时候似乎有哪个地方状态不一致，结果我一直崩，写法最 low 的现在都可以通过。
 
-```
+// ```
 import "sort"
 
 type TweetCounts struct {
@@ -44,4 +44,4 @@ func (this *TweetCounts) GetTweetCountsPerFrequency(freq string, tweetName strin
 	}
 	return rst
 }
-```
+// ```

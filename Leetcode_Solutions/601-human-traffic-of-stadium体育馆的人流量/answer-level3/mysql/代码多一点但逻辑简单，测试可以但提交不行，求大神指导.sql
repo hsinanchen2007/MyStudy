@@ -1,4 +1,4 @@
-select distinct all_table.id id, all_table.visit_date visit_date, all_table.people people #@4去除重复项
+-- select distinct all_table.id id, all_table.visit_date visit_date, all_table.people people #@4去除重复项
 from(
 (select a.id id, a.visit_date visit_date, a.people people #@1表一，以三天为一个单位，选出第一天
 from stadium a,stadium b, stadium c

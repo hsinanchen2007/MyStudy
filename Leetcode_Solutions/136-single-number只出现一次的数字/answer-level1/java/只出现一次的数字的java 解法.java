@@ -1,5 +1,5 @@
 
-//二次for循环，二个指针都从索引值0开始，当两个指针索引值相同时，则跳过
+// //二次for循环，二个指针都从索引值0开始，当两个指针索引值相同时，则跳过
 public static int singleNumber(int[] nums) {
     for(int i =0;i<nums.length;i++) {
         //打标，每一次i移动时，将该标识设置为true

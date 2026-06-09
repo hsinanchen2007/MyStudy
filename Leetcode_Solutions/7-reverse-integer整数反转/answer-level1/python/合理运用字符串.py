@@ -1,8 +1,8 @@
-转化成字符串，反转之后再转化回来。
+# 转化成字符串，反转之后再转化回来。
 
-整道题目的代码如下：
+# 整道题目的代码如下：
 
-```python
+# ```python
 class Solution(object):
     def reverse(self, x):
         """
@@ -24,5 +24,5 @@ class Solution(object):
         if res < minv or res > maxv:
             return 0
         return res
-```
+# ```
 

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-思路见下面代码
+// ### 解题思路
+// 此处撰写解题思路
+// 思路见下面代码
 
-### 代码
-```
+// ### 代码
+// ```
 第一步找出递归算法
 numDecodings(s)=numDecodings(s[1:])+numDecodings(2:)
 "17314560213"
@@ -14,10 +14,10 @@ numDecodings(s)=numDecodings(s[1:])+numDecodings(2:)
 
 "12311" "02311" "73111" "10121"
 中间位置判断 第一位数为0返回为0 73>26因此7只能单独放  "73111"种数="3111"的种数 "10121"="121"的种数
-```
+// ```
 
 
-```golang
+// ```golang
 var m=map[string]int{}
 func numDecodings(s string) int {
 	l:=len(s)
@@ -72,4 +72,4 @@ func numDecodings1(s string) int {
 	m[s]=numDecodings1(s[1:])+numDecodings1(s[2:])
 	return m[s]
 }
-```
+// ```

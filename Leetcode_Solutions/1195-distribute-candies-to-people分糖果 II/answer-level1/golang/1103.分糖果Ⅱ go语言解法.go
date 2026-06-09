@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-简单题，直接上代码
+// 简单题，直接上代码
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func distributeCandies(candies int, num_people int) []int {
 	res := make([]int,num_people)
 	p := 0				//指向当前该发糖果的孩子
@@ -25,4 +25,4 @@ func distributeCandies(candies int, num_people int) []int {
 	}
 	return res
 }
-```
+// ```

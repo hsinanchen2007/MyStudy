@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     string getHint(string secret, string guess) {
@@ -20,4 +20,4 @@ public:
         return to_string(a)+"A"+to_string(b)+"B";
     }
 };
-```
+// ```

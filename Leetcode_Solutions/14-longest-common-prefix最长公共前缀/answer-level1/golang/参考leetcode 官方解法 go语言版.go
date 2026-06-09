@@ -1,5 +1,5 @@
-解法1:
-``` 
+// 解法1:
+// ``` 
 func longestCommonPrefix(strs []string) string {
 	if len(strs) == 0 {
 		return ""
@@ -18,9 +18,9 @@ func longestCommonPrefix(strs []string) string {
 	}
 	return res
 }
-```
-解法2:
-```
+// ```
+// 解法2:
+// ```
 func longestCommonPrefix(strs []string) string {
 	if len(strs) == 0 {
 		return ""
@@ -37,9 +37,9 @@ func longestCommonPrefix(strs []string) string {
 	}
 	return  strs[0]
 }
-``` 
- 解法3: 
-```
+// ``` 
+//  解法3: 
+// ```
 func longestCommonPrefix(strs []string) string {
 	switch {
 	case len(strs) == 0:
@@ -58,4 +58,4 @@ func longestCommonPrefix(strs []string) string {
 		return longestCommonPrefix3([]string{str1, str2})
 	}
 }
-```
+// ```

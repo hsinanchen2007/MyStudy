@@ -1,9 +1,9 @@
-### 解题思路
-数出每个element有几位数，判断数字的数目是否为偶数，若是，则`count++`即可
+// ### 解题思路
+// 数出每个element有几位数，判断数字的数目是否为偶数，若是，则`count++`即可
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int findNumbers(int* nums, int numsSize){
     int count=0;
     for (int i=0 ; i<numsSize ; i++)
@@ -19,4 +19,4 @@ int findNumbers(int* nums, int numsSize){
     }
     return count;
 }
-```
+// ```

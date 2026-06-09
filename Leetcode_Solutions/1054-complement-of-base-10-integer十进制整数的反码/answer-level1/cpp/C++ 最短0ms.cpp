@@ -1,10 +1,10 @@
-### 解题思路
-使用bitCount计算N共有多少二进制位，然后再一位位地与1异或运算就行了
-![image.png](https://pic.leetcode-cn.com/afbaef9f4d5177ee99f5c812c401fc7143f93d3b574f02f8bb268f3c03ed5e12-image.png)
+// ### 解题思路
+// 使用bitCount计算N共有多少二进制位，然后再一位位地与1异或运算就行了
+// ![image.png](https://pic.leetcode-cn.com/afbaef9f4d5177ee99f5c812c401fc7143f93d3b574f02f8bb268f3c03ed5e12-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int bitwiseComplement(int N)
@@ -30,4 +30,4 @@ public:
         return cnt;
     }
 };
-```
+// ```

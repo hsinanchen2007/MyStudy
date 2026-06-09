@@ -1,10 +1,10 @@
-### 解题思路
-对于source中的每一个位置，我们找到下一个任意字母的最小序号。
-遍历target，每次next序号大于等于n时，说明需要一个额外的source串，计数+1。
+// ### 解题思路
+// 对于source中的每一个位置，我们找到下一个任意字母的最小序号。
+// 遍历target，每次next序号大于等于n时，说明需要一个额外的source串，计数+1。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int shortestWay(string source, string target) {
@@ -32,4 +32,4 @@ public:
         return ans;
     }
 };
-```
+// ```

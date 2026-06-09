@@ -1,9 +1,9 @@
-### 解题思路
- 看代码注释
+// ### 解题思路
+//  看代码注释
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int longestPalindrome(String s) {
             Map<Character, Integer> map=new HashMap<Character, Integer>();
@@ -25,4 +25,4 @@ class Solution {
 	    	return counts<s.length()?counts+1:counts;
     }
 }
-```
+// ```

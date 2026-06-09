@@ -1,16 +1,16 @@
-根据大佬的思路[powcai题解](https://leetcode-cn.com/problems/merge-intervals/solution/pai-xu-by-powcai/)整理了一下：
-(1)先按照左边界排升序，
-(2)在将相同左边界的元素又按照右边界排一次升序。
+# 根据大佬的思路[powcai题解](https://leetcode-cn.com/problems/merge-intervals/solution/pai-xu-by-powcai/)整理了一下：
+# (1)先按照左边界排升序，
+# (2)在将相同左边界的元素又按照右边界排一次升序。
 
-大佬就是大佬！！！
+# 大佬就是大佬！！！
 
-我们来看一看强在哪里，这一句：
+# 我们来看一看强在哪里，这一句：
 
-`res = sorted(intervals)`
+# `res = sorted(intervals)`
 
-可以直接替换下面这一大段代码：
+# 可以直接替换下面这一大段代码：
 
-```
+# ```
         sort_tmp = sorted(intervals, key=lambda inter: inter[0])
         res = []
         i = 0
@@ -24,10 +24,10 @@
                 i += 1  
             group =  sorted(group, key=lambda g: g[1])   
             res.extend(group)
-```
+# ```
 
-最终答案：
-```
+# 最终答案：
+# ```
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
         sort_tmp = sorted(intervals, key=lambda inter: inter[0])
@@ -59,4 +59,4 @@ class Solution:
             final_res.append([left, right])
             i += 1
         return final_res
-```
+# ```

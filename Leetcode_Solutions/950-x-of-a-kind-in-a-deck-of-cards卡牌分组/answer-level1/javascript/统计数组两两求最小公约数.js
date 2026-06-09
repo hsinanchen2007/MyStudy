@@ -1,11 +1,11 @@
-![image.png](https://pic.leetcode-cn.com/a6927494f0f53afea4386c74ba0d9e287a5ddd30dd070ae4ddceb5d378819bdf-image.png)
+// ![image.png](https://pic.leetcode-cn.com/a6927494f0f53afea4386c74ba0d9e287a5ddd30dd070ae4ddceb5d378819bdf-image.png)
 
-### 解题思路
-计数数组两两求最小公约数, 处理特殊情况
+// ### 解题思路
+// 计数数组两两求最小公约数, 处理特殊情况
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} deck
  * @return {boolean}
@@ -59,4 +59,4 @@ var hasGroupsSizeX = function(deck) {
   }
   return true
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-执行用时：击败5.01%用户
-内存消耗：击败100%用户
+# ### 解题思路
+# 执行用时：击败5.01%用户
+# 内存消耗：击败100%用户
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def smallerNumbersThanCurrent(self, nums: List[int]) -> List[int]:
         out = []
@@ -19,4 +19,4 @@ class Solution:
             out += [num]
         return out
 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-双指针 快指针(fast)先走k布, 再快慢指针一起走, 直到fast为null, 这时候的慢指针就是返回的链表
+// ### 解题思路
+// 双指针 快指针(fast)先走k布, 再快慢指针一起走, 直到fast为null, 这时候的慢指针就是返回的链表
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -31,4 +31,4 @@ var getKthFromEnd = function(head, k) {
     }
     return slow;
 };
-```
+// ```

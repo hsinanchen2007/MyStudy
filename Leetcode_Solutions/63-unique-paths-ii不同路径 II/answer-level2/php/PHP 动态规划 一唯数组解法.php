@@ -1,4 +1,4 @@
-```
+// ```
 function uniquePathsWithObstacles($obstacleGrid)
 {
         // 行
@@ -19,4 +19,4 @@ function uniquePathsWithObstacles($obstacleGrid)
         }
         return $res[$m - 1];
 }
-```
+// ```

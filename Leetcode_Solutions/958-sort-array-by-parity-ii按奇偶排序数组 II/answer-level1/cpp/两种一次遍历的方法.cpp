@@ -1,8 +1,8 @@
-**方法一：
-一次遍历，分别将奇数和偶数置于对应的位置。
-**
+// **方法一：
+// 一次遍历，分别将奇数和偶数置于对应的位置。
+// **
 
-```
+// ```
 vector<int> sortArrayByParityII(vector<int>& A)
 {
 	vector<int> v(A.size());
@@ -24,14 +24,14 @@ vector<int> sortArrayByParityII(vector<int>& A)
 	}
 	return v;
 }
-```
+// ```
 
 
 
-方法二：
+// 方法二：
 
 
-```
+// ```
 vector<int> sortArrayByParityII(vector<int>& A) {
 	for (int i = 0; i < A.size(); i++)
 	{
@@ -54,7 +54,7 @@ vector<int> sortArrayByParityII(vector<int>& A) {
 	}
 	return A;
 }
-```
+// ```
 
 
 

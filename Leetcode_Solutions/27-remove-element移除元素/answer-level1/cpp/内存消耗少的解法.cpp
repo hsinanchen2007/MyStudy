@@ -1,9 +1,9 @@
-### 解题思路
-遍历数组，将与val不同的值放入数组前面，并用k作为索引,遇到不同值就自加，最后返回值k即为新数组长
+// ### 解题思路
+// 遍历数组，将与val不同的值放入数组前面，并用k作为索引,遇到不同值就自加，最后返回值k即为新数组长
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int removeElement(vector<int>& nums, int val) {
@@ -16,4 +16,4 @@ public:
         return k;
     }
 };
-```
+// ```

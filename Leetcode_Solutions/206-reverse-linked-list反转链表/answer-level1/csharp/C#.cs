@@ -1,7 +1,7 @@
-### 解题思路
-递归和迭代
+// ### 解题思路
+// 递归和迭代
 
-```csharp
+// ```csharp
 public ListNode ReverseList(ListNode head) 
 {
     if (head == null || head.next == null)
@@ -25,4 +25,4 @@ public ListNode ReverseList(ListNode head)
     }
     return pre;
 }
-```
+// ```

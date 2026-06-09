@@ -1,9 +1,9 @@
-### 解题思路
-建立两个栈，一个用来插入数据，一个用来输出。
+// ### 解题思路
+// 建立两个栈，一个用来插入数据，一个用来输出。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class CQueue {
      private Stack<Integer> stack1 ;
      private Stack<Integer> stack2 ;
@@ -38,4 +38,4 @@ class CQueue {
  * obj.appendTail(value);
  * int param_2 = obj.deleteHead();
  */
-```
+// ```

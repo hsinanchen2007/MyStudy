@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def powerfulIntegers(self, x: int, y: int, bound: int) -> List[int]:
         i=0
@@ -13,4 +13,4 @@ class Solution:
                 r = x**i+y**j
             i+=1
         return list(res)
-```
+# ```

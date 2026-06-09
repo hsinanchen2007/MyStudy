@@ -1,12 +1,12 @@
-# 题意：对数组升序排序
-```
+# # 题意：对数组升序排序
+# ```
 输入：nums = [5,2,3,1]
 输出：[1,2,3,5
-```
-# 代码
+# ```
+# # 代码
 
-**1、计数排序**
-```
+# **1、计数排序**
+# ```
 class Solution:
     def sortArray(self, nums: List[int]) -> List[int]:
         from collections import defaultdict
@@ -20,10 +20,10 @@ class Solution:
             return B
         res = counter_sort(nums)
         return res
-```
+# ```
 
-**2、快排**
-```
+# **2、快排**
+# ```
 class Solution:
     def sortArray(self, nums: List[int]) -> List[int]:
         n = len(nums)
@@ -52,10 +52,10 @@ class Solution:
             self.quickSorthepler(alist,first,pointmark-1)
             self.quickSorthepler(alist, pointmark + 1, last)
 
-```
+# ```
 
-**3、归并排序 merge**
-```
+# **3、归并排序 merge**
+# ```
 class Solution:
     def sortArray(self, nums: List[int]) -> List[int]:
         res = []
@@ -71,9 +71,9 @@ class Solution:
                 res.append(right.pop())
         res.reverse()
         return (left or right) + res  # 将剩余left或right中的数和res合并
-```
-**4、选择排序（超时）**
-```
+# ```
+# **4、选择排序（超时）**
+# ```
 class Solution:
     def sortArray(self, nums: List[int]) -> List[int]:
         # selection sort 
@@ -84,11 +84,11 @@ class Solution:
                     nums[i],nums[j] = nums[j],nums[i]
                     #print(nums)
         return nums
-```
+# ```
 
 
-**5、插入排序（超时）**
-```
+# **5、插入排序（超时）**
+# ```
 class Solution:
     def sortArray(self, nums: List[int]) -> List[int]:
         # insert sort 
@@ -98,9 +98,9 @@ class Solution:
                 nums[i-1],nums[i] = nums[i],nums[i-1]
                 i -= 1
         return nums
-```
-**6、 堆排序**
-```
+# ```
+# **6、 堆排序**
+# ```
 class Solution:
     def sortArray(self, nums: List[int]) -> List[int]:
 
@@ -126,9 +126,9 @@ class Solution:
             nums[0],nums[i] = nums[i],nums[0]  #排序
             build_heap(nums,0,i)  #调整
         return nums
-```
-**7 堆排序 递归的写法**
-```
+# ```
+# **7 堆排序 递归的写法**
+# ```
 class Solution:
     def sortArray(self, nums: List[int]) -> List[int]:
         n = len(nums)
@@ -157,4 +157,4 @@ class Solution:
         parent = (last_node-1) // 2
         for i in range(parent, -1,-1):
             self.heapify(nums,i,n)
-```
+# ```

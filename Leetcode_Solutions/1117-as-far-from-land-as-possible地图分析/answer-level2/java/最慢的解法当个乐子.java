@@ -1,11 +1,11 @@
-### 解题思路
-将所有海洋到所有陆地的距离找到，比较即可，太慢了，哈哈，写代码就图一乐
-![image.png](https://pic.leetcode-cn.com/9aef93fe3ae21e22f4588c81721ca44389e8aa46a135a85965e8ae807f06e0fa-image.png)
-![NV6G\]@`5YRO}$5LXWXWD@Q1.png](https://pic.leetcode-cn.com/2adc1a6aa9954f3ff3d93d2a54af74e957bb8a63eca044543a7ed76a761d84ea-NV6G%5D@%605YRO%7D$5LXWXWD@Q1.png)
+// ### 解题思路
+// 将所有海洋到所有陆地的距离找到，比较即可，太慢了，哈哈，写代码就图一乐
+// ![image.png](https://pic.leetcode-cn.com/9aef93fe3ae21e22f4588c81721ca44389e8aa46a135a85965e8ae807f06e0fa-image.png)
+// ![NV6G\]@`5YRO}$5LXWXWD@Q1.png](https://pic.leetcode-cn.com/2adc1a6aa9954f3ff3d93d2a54af74e957bb8a63eca044543a7ed76a761d84ea-NV6G%5D@%605YRO%7D$5LXWXWD@Q1.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     class Node{
         int x;
@@ -50,4 +50,4 @@ class Solution {
 
     }
 }
-```
+// ```

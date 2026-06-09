@@ -1,13 +1,13 @@
-### 解题思路
-此处撰写解题思路
-1. 创建一条辅助的ArrayList，并将两个链表的值统统add()进ArrayList
-2. 将ArrayList用Collections接口的sort()方法，从小到大排序
-3. 通过遍历ArrayList，一边用当前数值创建新的ListNode，一边建立上一个节点和当前节点的next关系，从而形成一条新的链表(合并并且sort过的)
-4. 最终返回新建好的链表的head
+// ### 解题思路
+// 此处撰写解题思路
+// 1. 创建一条辅助的ArrayList，并将两个链表的值统统add()进ArrayList
+// 2. 将ArrayList用Collections接口的sort()方法，从小到大排序
+// 3. 通过遍历ArrayList，一边用当前数值创建新的ListNode，一边建立上一个节点和当前节点的next关系，从而形成一条新的链表(合并并且sort过的)
+// 4. 最终返回新建好的链表的head
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -50,4 +50,4 @@ class Solution {
         return head;
     }
 }
-```
+// ```

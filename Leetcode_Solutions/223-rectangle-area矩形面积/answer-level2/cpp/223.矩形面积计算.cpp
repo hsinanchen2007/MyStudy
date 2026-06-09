@@ -1,10 +1,10 @@
-### 解题思路
-1.判断是否重叠
-2.计算重叠区域的面积，采用投影到两个坐标轴上
+// ### 解题思路
+// 1.判断是否重叠
+// 2.计算重叠区域的面积，采用投影到两个坐标轴上
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool overlap(int &A, int &B, int &C, int &D, int &E, int &F, int &G, int &H){
@@ -27,4 +27,4 @@ public:
         else return area1+area2;
     }
 };
-```
+// ```

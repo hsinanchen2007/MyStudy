@@ -1,9 +1,9 @@
-### 解题思路
-这个listnode的数据结构这卡了好久，用个res1来记录最开始的位置，后面就是按位相加就行了，这个代码还是有很多可以优化的地方的
+# ### 解题思路
+# 这个listnode的数据结构这卡了好久，用个res1来记录最开始的位置，后面就是按位相加就行了，这个代码还是有很多可以优化的地方的
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -47,4 +47,4 @@ class Solution:
         if advance == 1:
             res.next = ListNode(advance)
         return res1
-```
+# ```

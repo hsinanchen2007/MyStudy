@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-使用深度优先进行搜索, 结果存放在list中, 进行回溯
+// 使用深度优先进行搜索, 结果存放在list中, 进行回溯
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     List<String> result = new ArrayList<>();
     public List<String> generateParenthesis(int n) {
@@ -32,4 +32,4 @@ class Solution {
         }
     }
 }
-```
+// ```

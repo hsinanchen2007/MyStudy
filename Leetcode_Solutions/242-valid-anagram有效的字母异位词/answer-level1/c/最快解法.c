@@ -1,4 +1,4 @@
-```
+// ```
 执行结果：
 通过
 显示详情
@@ -34,4 +34,4 @@ bool isAnagram(char * s, char * t){
 
     return true;
 }
-```
+// ```

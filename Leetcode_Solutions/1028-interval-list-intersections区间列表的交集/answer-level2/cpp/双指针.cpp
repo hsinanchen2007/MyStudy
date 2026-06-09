@@ -1,9 +1,9 @@
-### 解题思路
-不断向前移动指针，把所有不可能情形排除，复杂度O(N).
+// ### 解题思路
+// 不断向前移动指针，把所有不可能情形排除，复杂度O(N).
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> intervalIntersection(vector<vector<int>>& A, vector<vector<int>>& B) {
@@ -59,4 +59,4 @@ public:
     return res;
     }
 };
-```
+// ```

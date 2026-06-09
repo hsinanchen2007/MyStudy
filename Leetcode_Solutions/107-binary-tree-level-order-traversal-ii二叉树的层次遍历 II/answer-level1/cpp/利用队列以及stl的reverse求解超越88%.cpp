@@ -1,5 +1,5 @@
-遍历每一层，每一层新生成一个vector<int>, 结束再用std::reverse逆反下， 或者也可以用stack<vector<int>> 存第一波结果， 然后再push到答案
-```
+// 遍历每一层，每一层新生成一个vector<int>, 结束再用std::reverse逆反下， 或者也可以用stack<vector<int>> 存第一波结果， 然后再push到答案
+// ```
 class Solution {
 public:
     vector<vector<int>> levelOrderBottom(TreeNode* root) {
@@ -24,4 +24,4 @@ public:
         return res;
     }
 };
-```
+// ```

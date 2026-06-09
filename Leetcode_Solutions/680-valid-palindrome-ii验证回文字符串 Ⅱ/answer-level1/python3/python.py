@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def validPalindrome(self, s: str) -> bool:
         
@@ -14,4 +14,4 @@ class Solution:
                 return is_it(s[l+1:r+1]) or is_it(s[l:r])
         
         return True
-```
+# ```

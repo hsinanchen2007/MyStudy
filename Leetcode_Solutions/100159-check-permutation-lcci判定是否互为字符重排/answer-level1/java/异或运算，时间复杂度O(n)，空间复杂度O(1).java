@@ -1,10 +1,10 @@
-### 解题思路
-因为异或运算的特点是：相同的两个值的运算结果为0，并且满足交换律。所以用异或计算两个字符串中所有字符。如果最终结果是0的话，说明两个字符串中所有的字符都有对应出现。时间复杂度O(n),空间复杂度O(1)
-![image.png](https://pic.leetcode-cn.com/bc9b9b285bb1ac14ccdd801e83e4d0e425bac978669d7ac354ab7976a891a2f8-image.png)
+// ### 解题思路
+// 因为异或运算的特点是：相同的两个值的运算结果为0，并且满足交换律。所以用异或计算两个字符串中所有字符。如果最终结果是0的话，说明两个字符串中所有的字符都有对应出现。时间复杂度O(n),空间复杂度O(1)
+// ![image.png](https://pic.leetcode-cn.com/bc9b9b285bb1ac14ccdd801e83e4d0e425bac978669d7ac354ab7976a891a2f8-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean CheckPermutation(String s1, String s2) {
         if (s1 == null || s2 == null) {
@@ -23,4 +23,4 @@ class Solution {
         return result == 0;
     }
 }
-```
+// ```

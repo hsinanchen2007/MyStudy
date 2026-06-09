@@ -1,14 +1,14 @@
-[350_两个数组的交集 II 题解](https://github.com/luo-rong/LeetCode/tree/master/src/_350_IntersectionOfTwoArraysII) / [GitHub 持续更新](https://github.com/luo-rong/LeetCode)
+// [350_两个数组的交集 II 题解](https://github.com/luo-rong/LeetCode/tree/master/src/_350_IntersectionOfTwoArraysII) / [GitHub 持续更新](https://github.com/luo-rong/LeetCode)
 
-1. 对两个数组分别排序
-2. 用双指针分别遍历两个数组，后移数组当前值较小的指针，直到被移动指针的数组当前值不小于另一数组或数组遍历结束
-3. 若当前值相等则记录到结果数组中
-4. 循环2-3步骤，直到其中一个数组遍历结束
+// 1. 对两个数组分别排序
+// 2. 用双指针分别遍历两个数组，后移数组当前值较小的指针，直到被移动指针的数组当前值不小于另一数组或数组遍历结束
+// 3. 若当前值相等则记录到结果数组中
+// 4. 循环2-3步骤，直到其中一个数组遍历结束
 
-**注意**   
-`while`循环后注意下标范围！！！！两个方法思路基本相同，非排序部分的时间复杂度都是`O(n)`
+// **注意**   
+// `while`循环后注意下标范围！！！！两个方法思路基本相同，非排序部分的时间复杂度都是`O(n)`
 
-```java [-Java]
+// ```java [-Java]
 public class IntersectionOfTwoArrays {
     public int[] intersect1(int[] nums1, int[] nums2) {
         Arrays.sort(nums1);
@@ -52,4 +52,4 @@ public class IntersectionOfTwoArrays {
         return result;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class StockSpanner {
 
     private List<Integer> records = new ArrayList<>();
@@ -28,5 +28,5 @@ class StockSpanner {
         return spinner;
     }
 }
-```
-![image.png](https://pic.leetcode-cn.com/37548c754230df14238d246c5522ef08be7a123d4b05cd7c6d5d9a0cae314881-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/37548c754230df14238d246c5522ef08be7a123d4b05cd7c6d5d9a0cae314881-image.png)

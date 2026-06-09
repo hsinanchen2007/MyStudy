@@ -1,7 +1,7 @@
-* 执行用时 : 40 ms, 在Height Checker的Python3提交中击败了100.00% 的用户
-* 内存消耗 : 13.1 MB, 在Height Checker的Python3提交中击败了100.00% 的用户
+# * 执行用时 : 40 ms, 在Height Checker的Python3提交中击败了100.00% 的用户
+# * 内存消耗 : 13.1 MB, 在Height Checker的Python3提交中击败了100.00% 的用户
 
-```
+# ```
 class Solution:
     def heightChecker(self, heights):
         result = 0
@@ -9,4 +9,4 @@ class Solution:
             if i != j:
                 result += 1
         return result
-```
+# ```

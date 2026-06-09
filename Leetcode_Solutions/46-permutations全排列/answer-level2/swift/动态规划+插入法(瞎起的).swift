@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/0dc384470c07f9448a5fd840e0c3985f4f7da970739cd7c9b712c50898db4e88-image.png)
+// ![image.png](https://pic.leetcode-cn.com/0dc384470c07f9448a5fd840e0c3985f4f7da970739cd7c9b712c50898db4e88-image.png)
 
-```
+// ```
 class Solution {
     func permute(_ nums: [Int]) -> [[Int]] {
         var resultArray: [[Int]] = [[]]
@@ -26,4 +26,4 @@ class Solution {
         return resultArray
     }
 }
-```
+// ```

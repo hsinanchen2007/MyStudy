@@ -1,8 +1,8 @@
-比较简单，只需要计算沿着对角线最少移动的距离，其余的用横或纵补齐即可
+// 比较简单，只需要计算沿着对角线最少移动的距离，其余的用横或纵补齐即可
 
-代码：
+// 代码：
 
-```c++
+// ```c++
 class Solution {
 public:
     int minTimeToVisitAllPoints(vector<vector<int>>& points) {
@@ -15,5 +15,5 @@ public:
         return res;
     }
 };
-```
+// ```
 

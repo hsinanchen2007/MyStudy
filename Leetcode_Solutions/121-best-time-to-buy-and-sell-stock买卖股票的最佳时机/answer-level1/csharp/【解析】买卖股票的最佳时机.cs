@@ -1,9 +1,9 @@
-### 解题思路
-简单的贪心算法即可通过。
+// ### 解题思路
+// 简单的贪心算法即可通过。
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int MaxProfit(int[] prices) {
         int profit;
@@ -17,4 +17,4 @@ public class Solution {
         return maxProfit;
     }
 }
-```
+// ```

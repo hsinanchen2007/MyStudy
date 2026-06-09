@@ -1,11 +1,11 @@
-### 解题思路
-        从两边向中间夹，小的指针向内移并加上差值；
-![image.png](https://pic.leetcode-cn.com/0ff3362faf00bd0acdce2014fee9ce240da7e31baaeb03789b901b7b034c02d5-image.png)
+// ### 解题思路
+//         从两边向中间夹，小的指针向内移并加上差值；
+// ![image.png](https://pic.leetcode-cn.com/0ff3362faf00bd0acdce2014fee9ce240da7e31baaeb03789b901b7b034c02d5-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int trap(vector<int>& height) {
@@ -22,4 +22,4 @@ public:
         return count;
     }
 };
-```
+// ```

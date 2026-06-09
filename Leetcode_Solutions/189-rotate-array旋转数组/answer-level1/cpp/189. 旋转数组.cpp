@@ -1,6 +1,6 @@
-## 408真题の原地循环右移
-**利用三次逆置，实现循环左移的操作**
-```cpp
+// ## 408真题の原地循环右移
+// **利用三次逆置，实现循环左移的操作**
+// ```cpp
 class Solution {
 public:
     //逆置[left, right]
@@ -21,9 +21,9 @@ public:
         myReverse(nums, k, len-1);
     }
 };
-```
-## 右移k位相当于左移len-k位
-```cpp
+// ```
+// ## 右移k位相当于左移len-k位
+// ```cpp
 class Solution {
 public:
     void rotate(vector<int>& nums, int k) {
@@ -39,6 +39,6 @@ public:
         nums.resize(len);
     }
 };
-```
-## 暴力法
-*略*
+// ```
+// ## 暴力法
+// *略*

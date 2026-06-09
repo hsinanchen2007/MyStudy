@@ -1,4 +1,4 @@
-```go
+// ```go
 /**
  1. 定义状态 dp[i][j] 为当前 i*j 的路径总数
  2. 递推方程 dp[i][j] = dp[i-1][j]+dp[i][j-1]
@@ -20,4 +20,4 @@ func uniquePaths(m int, n int) int {
    }
    return cur[n-1]
 }
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
+# ### 解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def sortedSquares(self, A: List[int]) -> List[int]:
         for i,c in enumerate(A):
@@ -18,4 +18,4 @@ class Solution:
                 result.append(A[i])
                 i += 1
         return result[::-1]
-```
+# ```

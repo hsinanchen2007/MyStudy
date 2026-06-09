@@ -1,5 +1,5 @@
-用一个变量记录递归深度，到链表末的时候就知道数组长度，然后逆序赋值就行
-```
+// 用一个变量记录递归深度，到链表末的时候就知道数组长度，然后逆序赋值就行
+// ```
 class Solution {
     int[] ans;
     public int[] reversePrint(ListNode head) {
@@ -16,4 +16,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

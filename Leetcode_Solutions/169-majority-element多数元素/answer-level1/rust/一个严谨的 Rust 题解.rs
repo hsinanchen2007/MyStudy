@@ -1,6 +1,6 @@
-在提交排行里看到的, 对于 Option 类型的运用太棒了.
+// 在提交排行里看到的, 对于 Option 类型的运用太棒了.
 
-```rs
+// ```rs
 impl Solution {
     pub fn majority_element(nums: Vec<i32>) -> i32 {
         // 用 None 表示没有找到 多数元素
@@ -33,4 +33,4 @@ impl Solution {
         }
     }
 }
-```
+// ```

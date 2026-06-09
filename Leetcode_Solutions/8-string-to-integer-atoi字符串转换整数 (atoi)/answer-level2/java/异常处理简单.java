@@ -1,9 +1,9 @@
-### 解题思路
-1. 判断加异常处理
+// ### 解题思路
+// 1. 判断加异常处理
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int myAtoi(String str) {
         str = str.trim();
@@ -43,4 +43,4 @@ class Solution {
         }
     }
 }
-```
+// ```

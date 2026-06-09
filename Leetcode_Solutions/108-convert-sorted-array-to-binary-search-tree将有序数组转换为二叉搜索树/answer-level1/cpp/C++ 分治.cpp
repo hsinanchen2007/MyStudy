@@ -1,6 +1,6 @@
-解题思路：递归 + 分治
-细节优化：使用下标代替数组传递，避免vector的创建析构开销
-```cpp
+// 解题思路：递归 + 分治
+// 细节优化：使用下标代替数组传递，避免vector的创建析构开销
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -27,4 +27,4 @@ public:
         return satb(nums, 0, nums.size());
     }
 };
-```
+// ```

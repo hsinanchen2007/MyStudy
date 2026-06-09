@@ -1,9 +1,9 @@
-### 解题思路
-特判第一下，m为1的时候单独处理。
+// ### 解题思路
+// 特判第一下，m为1的时候单独处理。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -76,4 +76,4 @@ public:
         return head;
     }
 };
-```
+// ```

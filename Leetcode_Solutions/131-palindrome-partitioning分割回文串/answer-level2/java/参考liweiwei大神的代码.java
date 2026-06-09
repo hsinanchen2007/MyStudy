@@ -1,14 +1,14 @@
-### 解题思路
-此类题目都有一定的分析思路 代码也有一定的遍写技巧
-如果Deque代替java原来的stack的话
-Deque<String> path = new ArrayDeque<>();
-push <=> addFirst
-pop  <=> removeFirst
-peek <=> peekFirst
+// ### 解题思路
+// 此类题目都有一定的分析思路 代码也有一定的遍写技巧
+// 如果Deque代替java原来的stack的话
+// Deque<String> path = new ArrayDeque<>();
+// push <=> addFirst
+// pop  <=> removeFirst
+// peek <=> peekFirst
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Stack;
@@ -79,4 +79,4 @@ class Solution {
     }
 
 }
-```
+// ```

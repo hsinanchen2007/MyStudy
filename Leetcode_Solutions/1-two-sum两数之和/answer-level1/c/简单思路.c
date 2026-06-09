@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-第一层循环是为了遍历数组，第二层循环是为了检验数组中是否存在等于target-nums[i]，最后用数组a存放下标。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 第一层循环是为了遍历数组，第二层循环是为了检验数组中是否存在等于target-nums[i]，最后用数组a存放下标。
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -26,4 +26,4 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize){
 }
 return a;
 }
-```
+// ```

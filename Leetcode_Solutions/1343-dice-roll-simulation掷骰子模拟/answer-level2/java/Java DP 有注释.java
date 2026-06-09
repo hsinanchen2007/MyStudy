@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int dieSimulator(int n, int[] rollMax) {
         int mod = 1000000007;
@@ -25,4 +25,4 @@ class Solution {
         return dp[n][6];
     }
 }
-```
+// ```

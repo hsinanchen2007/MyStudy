@@ -1,6 +1,6 @@
 
-- 暴力
-```
+// - 暴力
+// ```
 // class Solution {
 // public:
 //     vector<vector<int>> fourSum(vector<int>& nums, int target) {
@@ -22,11 +22,11 @@
 //         return res;
 //     }
 // };
-```
+// ```
 
-- 双指针
-别说四数之和了，k数之和都可以用这玩意，时间复杂度O(n^(k-1)),就是一个模板
-```
+// - 双指针
+// 别说四数之和了，k数之和都可以用这玩意，时间复杂度O(n^(k-1)),就是一个模板
+// ```
 class Solution {
 public:
     vector<vector<int>> fourSum(vector<int>& nums, int target) {
@@ -54,4 +54,4 @@ public:
         return res;
     }
 };
-```
+// ```

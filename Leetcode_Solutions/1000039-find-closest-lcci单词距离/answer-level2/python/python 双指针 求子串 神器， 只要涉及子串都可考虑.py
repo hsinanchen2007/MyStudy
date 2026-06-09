@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def findClosest(self, words, word1, word2):
         wordDict = {word1:0, word2:0}
@@ -32,4 +32,4 @@ class Solution(object):
 
         return ans
 
-```
+# ```

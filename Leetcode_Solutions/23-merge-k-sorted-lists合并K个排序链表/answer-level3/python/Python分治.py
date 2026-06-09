@@ -1,9 +1,9 @@
-### 解题思路
-分治的思想很简单，就是两两进行合并，直到将所有链表合并成一个，如果对两个链表的合并熟练的话这道题应该不难解决。
+# ### 解题思路
+# 分治的思想很简单，就是两两进行合并，直到将所有链表合并成一个，如果对两个链表的合并熟练的话这道题应该不难解决。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -38,4 +38,4 @@ class Solution(object):
             return get_res(get_res(lists[:mid + 1]) + get_res(lists[mid + 1:]))
         return get_res(lists)[0]
 
-```
+# ```

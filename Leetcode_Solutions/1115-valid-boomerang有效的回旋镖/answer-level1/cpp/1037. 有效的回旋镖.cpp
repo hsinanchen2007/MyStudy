@@ -1,5 +1,5 @@
-![111.png](https://pic.leetcode-cn.com/ce86edeef9862a3af499bbb489d15ce162d1626d26abcce01bb319d45d90dcfc-111.png)
-```
+// ![111.png](https://pic.leetcode-cn.com/ce86edeef9862a3af499bbb489d15ce162d1626d26abcce01bb319d45d90dcfc-111.png)
+// ```
 class Solution {
 public:
     bool isBoomerang(vector<vector<int>>& points) {
@@ -12,4 +12,4 @@ public:
         return true;
     }
 };
-```
+// ```

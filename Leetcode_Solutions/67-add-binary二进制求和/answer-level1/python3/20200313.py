@@ -1,9 +1,9 @@
-### 解题思路
-没啥解题思路，看了dalao们的题解，我觉得我不配用python
+# ### 解题思路
+# 没啥解题思路，看了dalao们的题解，我觉得我不配用python
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def addBinary(self, a: str, b: str) -> str:
         res = []
@@ -36,4 +36,4 @@ class Solution:
             elif i == len(res) - 1:
                 return "0"
 
-```
+# ```

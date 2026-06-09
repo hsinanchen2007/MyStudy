@@ -1,7 +1,7 @@
-1. 注意两个指针要一起出发同样的长度，不能让A，B直接走到最后，再从头开始，会导致步调不一致
-2. 注意跳出循环的条件，
-3. 不能改变原有的结构，创建新的节点
-```
+# 1. 注意两个指针要一起出发同样的长度，不能让A，B直接走到最后，再从头开始，会导致步调不一致
+# 2. 注意跳出循环的条件，
+# 3. 不能改变原有的结构，创建新的节点
+# ```
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -26,4 +26,4 @@ class Solution:
             # nheadA = nheadA.next if nheadA else headB
             # nheadB = nheadB.next if nheadB else headA
         return nheadB
-```
+# ```

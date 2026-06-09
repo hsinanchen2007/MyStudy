@@ -1,9 +1,9 @@
-### 解题思路
-利用UThash,边建立哈希表边检查
+// ### 解题思路
+// 利用UThash,边建立哈希表边检查
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct HASH{
     int data;
     UT_hash_handle hh;
@@ -40,4 +40,4 @@ bool checkIfExist(int* arr, int arrSize){
     }
     return false;
 }
-```
+// ```

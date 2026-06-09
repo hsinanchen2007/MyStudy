@@ -1,10 +1,10 @@
-### 解题思路
-把所有的从1971年1月1日的天数加起来，由于1971年1月1日是周五，就可以通过取余算出答案。
-![image.png](https://pic.leetcode-cn.com/7d0f3a2ba93d1dae2b387dac1bec9c33a4a5e25e8f75a4bf831cc980eb831842-image.png)
+// ### 解题思路
+// 把所有的从1971年1月1日的天数加起来，由于1971年1月1日是周五，就可以通过取余算出答案。
+// ![image.png](https://pic.leetcode-cn.com/7d0f3a2ba93d1dae2b387dac1bec9c33a4a5e25e8f75a4bf831cc980eb831842-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String dayOfTheWeek(int day, int month, int year) {
         String[] weekdays = new String[]{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"};
@@ -34,4 +34,4 @@ class Solution {
         return year % 400 == 0 || (year % 100 != 0 && year % 4 == 0);
     }
 }
-```
+// ```

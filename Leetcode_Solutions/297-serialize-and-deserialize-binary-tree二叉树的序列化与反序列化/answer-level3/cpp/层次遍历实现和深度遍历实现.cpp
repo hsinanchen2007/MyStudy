@@ -1,8 +1,8 @@
-对比发现层次遍历实现效率明显更高。。
+// 对比发现层次遍历实现效率明显更高。。
 
-### 1. 层次遍历实现
+// ### 1. 层次遍历实现
 
-```
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -81,14 +81,14 @@ public:
 // Your Codec object will be instantiated and called as such:
 // Codec codec;
 // codec.deserialize(codec.serialize(root));
-```
+// ```
 
----
+// ---
 
-### 2. 前序遍历实现
+// ### 2. 前序遍历实现
 
 
-```
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -150,4 +150,4 @@ public:
 // Your Codec object will be instantiated and called as such:
 // Codec codec;
 // codec.deserialize(codec.serialize(root));
-```
+// ```

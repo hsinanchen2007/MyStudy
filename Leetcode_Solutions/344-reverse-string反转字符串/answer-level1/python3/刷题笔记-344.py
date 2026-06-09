@@ -1,24 +1,24 @@
-# 题目要点
-1. 不需要返回值
-2. 原地修改数组
+# # 题目要点
+# 1. 不需要返回值
+# 2. 原地修改数组
 
-# 直接使用list.reverse()翻转数组
+# # 直接使用list.reverse()翻转数组
 
-```python []
+# ```python []
 class Solution:
     def reverseString(self, s: List[str]) -> None:
         """
         Do not return anything, modify s in-place instead.
         """
         s.reverse()
-```
+# ```
 
-# 双指针
+# # 双指针
 
-初始化两个指针，一个指向头部，一个指向尾部。
-循环交换两个指针指向的元素，直到到达数组的中间位置。
+# 初始化两个指针，一个指向头部，一个指向尾部。
+# 循环交换两个指针指向的元素，直到到达数组的中间位置。
 
-```python []
+# ```python []
 class Solution:
     def reverseString(self, s: List[str]) -> None:
         """
@@ -33,13 +33,13 @@ class Solution:
             s[head], s[tail] = s[tail], s[head]
             head += 1
             tail -= 1
-```
+# ```
 
-简化：
+# 简化：
 
-循环条件简化为头指针小于尾指针。
+# 循环条件简化为头指针小于尾指针。
 
-```python []
+# ```python []
 class Solution:
     def reverseString(self, s: List[str]) -> None:
         """
@@ -52,5 +52,5 @@ class Solution:
             s[head], s[tail] = s[tail], s[head]
             head += 1
             tail -= 1
-```
+# ```
 

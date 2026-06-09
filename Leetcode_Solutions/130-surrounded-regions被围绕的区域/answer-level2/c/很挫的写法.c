@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX_VIST_LEN 200
 int g_vist[MAX_VIST_LEN][MAX_VIST_LEN];
 int g_reslt[MAX_VIST_LEN][MAX_VIST_LEN];
@@ -89,4 +89,4 @@ void solve(char** board, int boardSize, int* boardColSize){
 
     return;
 }
-```
+// ```

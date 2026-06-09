@@ -1,9 +1,9 @@
 
-执行用时 :6 ms, 在所有 Java 提交中击败了98.92%的用户
-内存消耗 :39 MB, 在所有 Java 提交中击败了96.26%的用户
+// 执行用时 :6 ms, 在所有 Java 提交中击败了98.92%的用户
+// 内存消耗 :39 MB, 在所有 Java 提交中击败了96.26%的用户
 
-删掉注释可以看控制台输出
-```
+// 删掉注释可以看控制台输出
+// ```
 class Solution {
     public boolean exist(char[][] board, String word) {
     	if(board.length==0)return false;
@@ -78,4 +78,4 @@ class Solution {
     	return 0;
     }
 }
-```
+// ```

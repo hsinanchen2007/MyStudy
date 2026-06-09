@@ -1,6 +1,6 @@
-![图片1.png](https://pic.leetcode-cn.com/920dc8750c4292856fa990a2b492436c7665fdf55c59014969fd1801a8eb380f-%E5%9B%BE%E7%89%871.png)
+// ![图片1.png](https://pic.leetcode-cn.com/920dc8750c4292856fa990a2b492436c7665fdf55c59014969fd1801a8eb380f-%E5%9B%BE%E7%89%871.png)
 
-```rust
+// ```rust
 impl Solution {
     pub fn count_vowel_permutation(n: i32) -> i32 {
         let mut count_n:[i64;5] = [1,1,1,1,1]; // a,e,i,o,u
@@ -19,4 +19,4 @@ impl Solution {
         r as i32
     }
 }
-```
+// ```

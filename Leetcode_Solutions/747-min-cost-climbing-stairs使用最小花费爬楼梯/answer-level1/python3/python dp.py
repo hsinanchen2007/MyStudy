@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minCostClimbingStairs(self, cost: List[int]) -> int:
         dp = [0, 0] + cost
@@ -24,4 +24,4 @@ class Solution:
         
         return dp[-1]
         
-```
+# ```

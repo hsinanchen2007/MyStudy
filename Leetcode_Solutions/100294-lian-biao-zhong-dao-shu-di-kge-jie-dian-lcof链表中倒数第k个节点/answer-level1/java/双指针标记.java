@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-p1 p2指向头，p2先走k步，然后一起走。
+// p1 p2指向头，p2先走k步，然后一起走。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -29,4 +29,4 @@ class Solution {
         return p1;
     }
 }
-```
+// ```

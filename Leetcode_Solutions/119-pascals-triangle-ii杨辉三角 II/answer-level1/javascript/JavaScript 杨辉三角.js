@@ -1,8 +1,8 @@
-### 解题思路
-自己还没完全理解，看的大神思路
-### 代码
+// ### 解题思路
+// 自己还没完全理解，看的大神思路
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} rowIndex
  * @return {number[]}
@@ -17,4 +17,4 @@ var getRow = function(rowIndex) {
 	}
 	return resultArr;
 };
-```
+// ```

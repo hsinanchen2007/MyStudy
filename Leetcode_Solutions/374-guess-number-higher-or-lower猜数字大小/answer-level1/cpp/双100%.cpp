@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /** 
  * Forward declaration of guess API.
  * @param  num   your guess
@@ -26,4 +26,4 @@ public:
         return -1;
     }
 };
-```
+// ```

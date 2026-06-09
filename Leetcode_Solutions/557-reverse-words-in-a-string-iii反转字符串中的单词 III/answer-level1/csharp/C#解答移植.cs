@@ -1,5 +1,5 @@
 
-```csharp
+// ```csharp
 public string ReverseWords(string s)
 {
     StringBuilder a = new StringBuilder(s);
@@ -24,6 +24,6 @@ public void ReverseString(int front, int tail, StringBuilder str)
         str[front++] ^= str[tail--];
     }
 }
-```
-![image.png](https://pic.leetcode-cn.com/06f675afdf187b4c33de1b0f484ac8f742c359ffcab3e913fcbfc7655b1aa5db-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/06f675afdf187b4c33de1b0f484ac8f742c359ffcab3e913fcbfc7655b1aa5db-image.png)
 

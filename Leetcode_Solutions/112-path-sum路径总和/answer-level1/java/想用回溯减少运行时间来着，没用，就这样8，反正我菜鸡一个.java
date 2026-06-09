@@ -1,18 +1,18 @@
-### 解题思路
-执行用时 :
-1 ms
-, 在所有 java 提交中击败了
-64.57%
-的用户
-内存消耗 :
-37.6 MB
-, 在所有 java 提交中击败了
-52.28%
-的用户
+// ### 解题思路
+// 执行用时 :
+// 1 ms
+// , 在所有 java 提交中击败了
+// 64.57%
+// 的用户
+// 内存消耗 :
+// 37.6 MB
+// , 在所有 java 提交中击败了
+// 52.28%
+// 的用户
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -46,4 +46,4 @@ class Solution {
         recursive_tree(root.right,s,target);
     }
 }
-```
+// ```

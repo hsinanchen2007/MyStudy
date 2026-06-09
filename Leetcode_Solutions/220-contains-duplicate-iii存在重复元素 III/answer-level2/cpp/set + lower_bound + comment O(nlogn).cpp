@@ -1,6 +1,6 @@
-时间: O(nlogn)
-空间: O(k)
-```cpp
+// 时间: O(nlogn)
+// 空间: O(k)
+// ```cpp
 class Solution {
 public:
     bool containsNearbyAlmostDuplicate(vector<int>& nums, int k, int t) {
@@ -23,7 +23,7 @@ public:
         }
         return false;
     }
-```
+// ```
 
-如果有写得不清楚的, 欢迎提出来
-大家一起交流!
+// 如果有写得不清楚的, 欢迎提出来
+// 大家一起交流!

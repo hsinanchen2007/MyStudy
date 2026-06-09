@@ -1,4 +1,4 @@
-```
+// ```
 function LCS(str1, str2){
     console.log(str1);
     console.log(str2);
@@ -49,4 +49,4 @@ function LCS(str1, str2){
     return maxLen;
 }
 
-```
+// ```

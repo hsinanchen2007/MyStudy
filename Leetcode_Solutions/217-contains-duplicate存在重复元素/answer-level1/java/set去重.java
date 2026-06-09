@@ -1,9 +1,9 @@
-### 解题思路
-set去重法
+// ### 解题思路
+// set去重法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean containsDuplicate(int[] nums) {
         //set法
@@ -25,4 +25,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

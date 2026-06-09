@@ -1,5 +1,5 @@
-hash，关键在于要节省内存。
-```
+// hash，关键在于要节省内存。
+// ```
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
@@ -121,6 +121,6 @@ char** computeSimilarities(int** docs, int docsSize, int* docsColSize, int* retu
     return res;
 }
 
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/a394cad2721286e005967044b9ba5ae0fca7c5a9a7b3c1e403e08873885ae44d-image.png)
+// ![image.png](https://pic.leetcode-cn.com/a394cad2721286e005967044b9ba5ae0fca7c5a9a7b3c1e403e08873885ae44d-image.png)

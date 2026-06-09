@@ -1,9 +1,9 @@
-### 解题思路
-`核心代码 next = head.next head.next = pre pre = head head = next`
+# ### 解题思路
+# `核心代码 next = head.next head.next = pre pre = head head = next`
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -23,4 +23,4 @@ class Solution(object):
             pre = head
             head = next
         return pre
-```
+# ```

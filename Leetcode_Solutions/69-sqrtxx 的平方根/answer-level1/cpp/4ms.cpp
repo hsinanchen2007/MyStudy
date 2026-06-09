@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-在遍历过程中一定会遇到一个a²<x<b²（且b-a==1）
-利用此思想使用二分法查找[a，b]，当b-a==1时break，return a即可
+// 在遍历过程中一定会遇到一个a²<x<b²（且b-a==1）
+// 利用此思想使用二分法查找[a，b]，当b-a==1时break，return a即可
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 #include <tgmath.h>
 class Solution {
 public:
@@ -23,4 +23,4 @@ public:
             }
     }
 };
-```
+// ```

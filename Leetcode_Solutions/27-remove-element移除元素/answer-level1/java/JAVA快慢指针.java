@@ -1,9 +1,9 @@
-### 解题思路
-![1.png](https://pic.leetcode-cn.com/4d3aa2d981e242589478140096d861f2b43eb60e5984c13b58d2868a80cc25c4-1.png)
+// ### 解题思路
+// ![1.png](https://pic.leetcode-cn.com/4d3aa2d981e242589478140096d861f2b43eb60e5984c13b58d2868a80cc25c4-1.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int removeElement(int[] nums, int val) {
         if (nums.length == 0) return 0;
@@ -18,4 +18,4 @@ class Solution {
         return slow;
     }
 }
-```
+// ```

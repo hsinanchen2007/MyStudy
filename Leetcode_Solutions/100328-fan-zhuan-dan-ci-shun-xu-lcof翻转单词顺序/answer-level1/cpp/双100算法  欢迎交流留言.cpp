@@ -1,9 +1,9 @@
-![960be0d1fe2cfd9ed2ee633a1f38022.png](https://pic.leetcode-cn.com/79ed4e1cb6a99f9275c0de6c977edeaa3bfc802accf24625d77a3d4d93f45ccc-960be0d1fe2cfd9ed2ee633a1f38022.png)
+// ![960be0d1fe2cfd9ed2ee633a1f38022.png](https://pic.leetcode-cn.com/79ed4e1cb6a99f9275c0de6c977edeaa3bfc802accf24625d77a3d4d93f45ccc-960be0d1fe2cfd9ed2ee633a1f38022.png)
 
 
 
 
-```
+// ```
 class Solution {
 public:
     string reverseWords(string s) {
@@ -24,4 +24,4 @@ public:
 
     }
 };
-```
+// ```

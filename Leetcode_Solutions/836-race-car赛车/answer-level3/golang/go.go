@@ -1,4 +1,4 @@
-```
+// ```
 import "math"
 
 func racecar(target int) int {
@@ -26,4 +26,4 @@ func racecar(target int) int {
 	}
 	return t[target]
 }
-```
+// ```

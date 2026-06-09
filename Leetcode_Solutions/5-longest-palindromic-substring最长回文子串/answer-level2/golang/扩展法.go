@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func longestPalindrome(s string) string {
     result := ""
     for i:=0; i < len(s); i++{
@@ -26,4 +26,4 @@ func expandStr(s string, left,right int) string{
     }
     return s[left+1:right]
 }
-```
+// ```

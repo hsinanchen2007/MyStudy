@@ -1,4 +1,4 @@
-```python
+# ```python
 class WordDistance:
     def __init__(self, words: List[str]):
         self.hash_table = collections.defaultdict(list)
@@ -22,4 +22,4 @@ class WordDistance:
 # Your WordDistance object will be instantiated and called as such:
 # obj = WordDistance(words)
 # param_1 = obj.shortest(word1,word2)
-```
+# ```

@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> distributeCandies(int candies, int num_people) {
@@ -34,5 +34,5 @@ public:
         return ans;
     }
 };
-```
-![微信图片_20200305115426.png](https://pic.leetcode-cn.com/778cbe84a4ec3c92abd0eeac0a45d1bbd443fc771d4914f4f6502be3f4d8c3fa-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200305115426.png)
+// ```
+// ![微信图片_20200305115426.png](https://pic.leetcode-cn.com/778cbe84a4ec3c92abd0eeac0a45d1bbd443fc771d4914f4f6502be3f4d8c3fa-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200305115426.png)

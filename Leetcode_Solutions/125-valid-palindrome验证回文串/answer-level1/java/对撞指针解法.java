@@ -1,9 +1,9 @@
-### 解题思路
-对撞指针左右逼近
+// ### 解题思路
+// 对撞指针左右逼近
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isPalindrome(String s) {
         int l = 0;
@@ -24,4 +24,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

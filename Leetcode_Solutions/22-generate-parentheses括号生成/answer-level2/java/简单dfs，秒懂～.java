@@ -1,6 +1,6 @@
-🙋 今日打卡
+// 🙋 今日打卡
 
-``` Java
+// ``` Java
 class Solution {
     List<String> res = new ArrayList<>();
     public List<String> generateParenthesis(int n) {
@@ -21,4 +21,4 @@ class Solution {
             dfs(left, right - 1, curStr + ")");
         }
     }
-```
+// ```

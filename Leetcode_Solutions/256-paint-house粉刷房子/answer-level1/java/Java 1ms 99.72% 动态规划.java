@@ -1,9 +1,9 @@
-### 解题思路
-记录上一次房子刷不同颜色的最小花费，然后将当前房子刷不同颜色的最小花费算出来，遍历完成后取最小的花费即可。
+// ### 解题思路
+// 记录上一次房子刷不同颜色的最小花费，然后将当前房子刷不同颜色的最小花费算出来，遍历完成后取最小的花费即可。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minCost(int[][] costs) {
         if (costs.length == 0) {
@@ -25,4 +25,4 @@ class Solution {
         return Math.min(lastRedCost, Math.min(lastBlueCost, lastGreenCost));
     }
 }
-```
+// ```

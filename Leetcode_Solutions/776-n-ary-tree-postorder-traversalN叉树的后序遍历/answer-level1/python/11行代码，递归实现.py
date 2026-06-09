@@ -1,6 +1,6 @@
-递归，题目中同一层的兄弟结点存储在list中，使用循环处理同一层的兄弟结点，但优先处理左子树。
+# 递归，题目中同一层的兄弟结点存储在list中，使用循环处理同一层的兄弟结点，但优先处理左子树。
 
-```
+# ```
 """
 # Definition for a Node.
 class Node(object):
@@ -29,7 +29,7 @@ class Solution(object):
             
         h(root)
         return res
-```
+# ```
 
 
 

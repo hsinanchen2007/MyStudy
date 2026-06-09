@@ -1,8 +1,8 @@
-### 解题思路
-双栈，一个保存'('另一个保存'*'
-### 代码
+// ### 解题思路
+// 双栈，一个保存'('另一个保存'*'
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool checkValidString(string s) {
@@ -33,4 +33,4 @@ public:
         return false;
     }   
 };
-```
+// ```

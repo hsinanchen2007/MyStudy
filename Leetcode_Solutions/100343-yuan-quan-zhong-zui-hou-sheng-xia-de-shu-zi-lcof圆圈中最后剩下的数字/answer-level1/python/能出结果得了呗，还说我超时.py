@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def lastRemaining(self, n: int, m: int) -> int:
         my_list = list(range(n))
@@ -38,4 +38,4 @@ class Solution:
         for i in my_list:
             if i not in del_list:
                 return i
-```
+# ```

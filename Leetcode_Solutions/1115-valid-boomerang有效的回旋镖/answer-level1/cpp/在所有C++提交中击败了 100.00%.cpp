@@ -1,5 +1,5 @@
-两点连成一条直线。因为2条线都共享一个点，只要两条线斜率相等，必为同一条直线。
-```c++
+// 两点连成一条直线。因为2条线都共享一个点，只要两条线斜率相等，必为同一条直线。
+// ```c++
 class Solution {
 public:
     bool isBoomerang(vector<vector<int>>& points) {

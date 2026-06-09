@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/f93c6b91041e341658347e3f92dbadc6ddaec2e9b6fe07a1d4912c8c89825ef5-image.png)
+# ![image.png](https://pic.leetcode-cn.com/f93c6b91041e341658347e3f92dbadc6ddaec2e9b6fe07a1d4912c8c89825ef5-image.png)
 
 
-```python
+# ```python
 class Solution:
     def kthSmallest(self, root: TreeNode, k: int) -> int:
         stack= []
@@ -19,4 +19,4 @@ class Solution:
                 root = root.right
 
         return root.val
-```
+# ```

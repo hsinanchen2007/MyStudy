@@ -1,9 +1,9 @@
-### 解题思路
-DP基础上，把0位置的值提前计算，减少if语句，加速算法。
+# ### 解题思路
+# DP基础上，把0位置的值提前计算，减少if语句，加速算法。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minDistance(self, word1: str, word2: str) -> int:
         
@@ -27,4 +27,4 @@ class Solution:
 
         return(len(word1)+len(word2)-2*l[-1][-1])
 
-```
+# ```

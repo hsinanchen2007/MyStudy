@@ -1,12 +1,12 @@
-### 解题思路
-1, 定位滑窗，head 指向第一个小于 head + 1的位置
-2, 交换数字位置，
-    1) 将head 至 Tail 之间的数字倒序
-    2) 将Tail 至 numsSize 之间的数字倒序
-    3) 将Tail 至 numsSize 之间的数字插入到 head 前
-### 代码
+// ### 解题思路
+// 1, 定位滑窗，head 指向第一个小于 head + 1的位置
+// 2, 交换数字位置，
+//     1) 将head 至 Tail 之间的数字倒序
+//     2) 将Tail 至 numsSize 之间的数字倒序
+//     3) 将Tail 至 numsSize 之间的数字插入到 head 前
+// ### 代码
 
-```c
+// ```c
 
 // 将输入数字倒序
 void reversenums(int* nums, int numsSize){
@@ -105,4 +105,4 @@ void nextPermutation(int* nums, int numsSize){
     }
     return nums;
 }
-```
+// ```

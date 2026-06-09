@@ -1,6 +1,6 @@
 
-直接上代码，详见博客——https://blog.csdn.net/TeFuirnever/article/details/94444437
-```py
+# 直接上代码，详见博客——https://blog.csdn.net/TeFuirnever/article/details/94444437
+# ```py
 class Solution:
     def threeSumClosest(self, nums, target):
         """
@@ -27,6 +27,6 @@ class Solution:
                         return target
         result.sort(key=lambda x:abs(x-target))
         return result[0]
-```
+# ```
 
 

@@ -1,9 +1,9 @@
-### 解题思路
-遍历moves字符串进行模式匹配
+// ### 解题思路
+// 遍历moves字符串进行模式匹配
 
-### 代码
+// ### 代码
 
-```scala
+// ```scala
 object Solution {
     def judgeCircle(moves: String): Boolean = {
     var x = 0
@@ -20,4 +20,4 @@ object Solution {
     false    
     }
 }
-```
+// ```

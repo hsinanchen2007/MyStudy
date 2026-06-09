@@ -1,9 +1,9 @@
-### 解题思路
-DFS+贪心，DP想不来。
+// ### 解题思路
+// DFS+贪心，DP想不来。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int retCountCoin = 0;
 int retMin = 0;
 int cmpCoin(const void *a, const void *b) {
@@ -64,4 +64,4 @@ int coinChange(int* coins, int coinsSize, int amount){
 
 	return (retMin == INT_MAX) ? -1 : retMin;
 }
-```
+// ```

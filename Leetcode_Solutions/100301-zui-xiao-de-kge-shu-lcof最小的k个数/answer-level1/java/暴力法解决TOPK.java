@@ -1,8 +1,8 @@
-### 解题思路
-给原始数组排序，然后返回数组的前k个元素（新手上路，有不足还请大佬们指正；）
-### 代码
+// ### 解题思路
+// 给原始数组排序，然后返回数组的前k个元素（新手上路，有不足还请大佬们指正；）
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] getLeastNumbers(int[] arr, int k) {
         //给数组排序；
@@ -16,4 +16,4 @@ class Solution {
         return answer;
     }
 }
-```
+// ```

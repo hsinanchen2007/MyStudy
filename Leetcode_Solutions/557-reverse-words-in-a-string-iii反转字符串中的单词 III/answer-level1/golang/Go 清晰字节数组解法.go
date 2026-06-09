@@ -1,6 +1,6 @@
-`string` 先行转化为 `[]byte`, 然后对数组原地再转化为 string.
+// `string` 先行转化为 `[]byte`, 然后对数组原地再转化为 string.
 
-```go []
+// ```go []
 func reverseWords(s string) string {
 	b := []byte(s)
 
@@ -33,4 +33,4 @@ func reverse(b []byte, i, j int) {
 		j--
 	}
 }
-```
+// ```

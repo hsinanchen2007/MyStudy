@@ -1,12 +1,12 @@
-### 解题思路
-这题有点推理或者脑筋急转弯
-设单个字符串的最大深度为n，现在分成a,b 2个部分
-则a和b的最大深度为n/2的时候，a b合到一起一定是最优解
-因此，第一遍求最大深度max，第二遍便利当前深度a小于max的时候放到a，其他的放到b
+// ### 解题思路
+// 这题有点推理或者脑筋急转弯
+// 设单个字符串的最大深度为n，现在分成a,b 2个部分
+// 则a和b的最大深度为n/2的时候，a b合到一起一定是最优解
+// 因此，第一遍求最大深度max，第二遍便利当前深度a小于max的时候放到a，其他的放到b
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -73,4 +73,4 @@ int *maxDepthAfterSplit(char *seq, int *returnSize)
 	*returnSize = strlen(seq);
 	return ans;
 }
-```
+// ```

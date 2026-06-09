@@ -1,10 +1,10 @@
-### 解题思路
-最大公约数法求解
-注意：每组牌面相同且都有X张牌，那么相同数字的牌可以为X、2X、...
+// ### 解题思路
+// 最大公约数法求解
+// 注意：每组牌面相同且都有X张牌，那么相同数字的牌可以为X、2X、...
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean hasGroupsSizeX(int[] deck) {
         int[] count = new int[1000];
@@ -28,4 +28,4 @@ class Solution {
         return x==0 ? y: gcd(y%x, x);
     }
 }
-```
+// ```

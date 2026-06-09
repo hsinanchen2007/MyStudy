@@ -1,4 +1,4 @@
-```
+// ```
 struct Node {
     int num;
     int index[3];
@@ -33,4 +33,4 @@ int* gardenNoAdj(int N, int** paths, int pathsSize, int* pathsColSize, int* retu
     }
     return res;
 }
-```
+// ```

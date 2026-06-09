@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean containsNearbyDuplicate(int[] nums, int k) {
         Map<Integer,Integer>map = new HashMap<>();
@@ -16,4 +16,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

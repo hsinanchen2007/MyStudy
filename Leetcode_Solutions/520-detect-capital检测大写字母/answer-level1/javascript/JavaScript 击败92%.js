@@ -1,4 +1,4 @@
-```
+// ```
 var detectCapitalUse = function(word) {
     arr = []
     for(i in word){
@@ -14,4 +14,4 @@ var detectCapitalUse = function(word) {
         return false
     }
 };
-```
+// ```

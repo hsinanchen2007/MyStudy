@@ -1,5 +1,5 @@
-数据量很小，可以直接暴力解，扫描发现哪个数出现了第二次直接返回就好
-```
+// 数据量很小，可以直接暴力解，扫描发现哪个数出现了第二次直接返回就好
+// ```
 class Solution {
     public int repeatedNTimes(int[] A) {
         boolean[] check = new boolean[10001];
@@ -12,4 +12,4 @@ class Solution {
         return 0;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class Solution {
 public:
     bool validUtf8(vector<int>& data) {
@@ -21,4 +21,4 @@ public:
         return true;
     }
 };
-```
+// ```

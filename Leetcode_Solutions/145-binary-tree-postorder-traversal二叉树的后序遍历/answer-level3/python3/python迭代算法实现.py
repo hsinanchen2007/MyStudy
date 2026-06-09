@@ -1,11 +1,11 @@
-### 解题思路
-迭代算法要比递归算法多考虑存值顺序的实现
-中序遍历的顺序：left=>right=>node
-利用deelListMaker函数拆分TreeNode，left直接放在数组顶端，node和right的存储位置根据left的值视情况而定。
+# ### 解题思路
+# 迭代算法要比递归算法多考虑存值顺序的实现
+# 中序遍历的顺序：left=>right=>node
+# 利用deelListMaker函数拆分TreeNode，left直接放在数组顶端，node和right的存储位置根据left的值视情况而定。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -36,4 +36,4 @@ class Solution:
         while len(self.deelList)>0:
             self.deelListMaker(self.deelList.pop(0))
         return self.result
-```
+# ```

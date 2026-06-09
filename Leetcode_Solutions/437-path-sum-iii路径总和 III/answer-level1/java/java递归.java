@@ -1,11 +1,11 @@
-### 解题思路
-使用全局变量记录路线数；
-递归函数`reverse`用于判断从当前节点出发是否有路径满足条件；
-接着对左子树右子树递归主函数。
+// ### 解题思路
+// 使用全局变量记录路线数；
+// 递归函数`reverse`用于判断从当前节点出发是否有路径满足条件；
+// 接着对左子树右子树递归主函数。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -39,4 +39,4 @@ class Solution {
         reverse(root.right, sum, curr);
     }
 }
-```
+// ```

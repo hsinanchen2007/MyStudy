@@ -1,8 +1,8 @@
 
-1. 对输入数组进行归并排序。
-2. 在排序过程中，左数组的数据copy到临时数组时，计数rightIndex-middle-1，这里的时间复杂度会低，因为不用逐个迭代累加，直接通过计算求得。
+// 1. 对输入数组进行归并排序。
+// 2. 在排序过程中，左数组的数据copy到临时数组时，计数rightIndex-middle-1，这里的时间复杂度会低，因为不用逐个迭代累加，直接通过计算求得。
 
-```
+// ```
 class Solution {
      var index315:[Int]!
     func countSmaller(_ nums: [Int]) -> [Int] {
@@ -65,4 +65,4 @@ class Solution {
         }
     }
 }
-```
+// ```

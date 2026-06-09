@@ -1,11 +1,11 @@
-### 解题思路
-线性动态规划
-    状态：每当我们选择一个元素作为摆动序列的一部分时，这个元素要么是上升的，要么是下降的，这取决于前一个元素的大小。
-    转移函数见代码
+# ### 解题思路
+# 线性动态规划
+#     状态：每当我们选择一个元素作为摆动序列的一部分时，这个元素要么是上升的，要么是下降的，这取决于前一个元素的大小。
+#     转移函数见代码
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def wiggleMaxLength(self, nums: List[int]) -> int:
         """
@@ -31,4 +31,4 @@ class Solution:
                 up_arr[i] = up_arr[i - 1]
                 down_arr[i] = down_arr[i - 1]
         return max(up_arr[-1], down_arr[-1])
-```
+# ```

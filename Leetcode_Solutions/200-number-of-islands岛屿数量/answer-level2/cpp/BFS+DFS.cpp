@@ -1,5 +1,5 @@
-利用队列实现BFS
-```
+// 利用队列实现BFS
+// ```
 class Solution {
 public:
     int numIslands(vector<vector<char>>& grid) {
@@ -46,9 +46,9 @@ public:
         return nums;
     }
 };
-```
-DFS（递归版）:
-```
+// ```
+// DFS（递归版）:
+// ```
 class Solution {
 public:
     void dfs(vector<vector<char>>& grid,int i,int j){
@@ -103,10 +103,10 @@ public:
         return nums;
     }
 };
-```
+// ```
 
-DFS（迭代版）:
-```
+// DFS（迭代版）:
+// ```
 class Solution {
 public:
     void dfs(vector<vector<char>>& grid,int i,int j){
@@ -170,4 +170,4 @@ public:
         return nums;
     }
 };
-```
+// ```

@@ -1,13 +1,13 @@
-### 思路
-1. 要求删除最小数量的字符，那么从删除 0 个开始。
-2. 使用`vector<int> use`标志位，表示每次删除的字符。
-3. 初始化时，决定删除几个字符。之后循环得到标志位的下一次排列。这样就能遍历删除各个字符组合的情况。
-4. 根据标志位，计算括号是否合法。
-5. 结果需要去重复，所以使用`set<string> ans`保存。
-6. 最后转为输出格式。
+// ### 思路
+// 1. 要求删除最小数量的字符，那么从删除 0 个开始。
+// 2. 使用`vector<int> use`标志位，表示每次删除的字符。
+// 3. 初始化时，决定删除几个字符。之后循环得到标志位的下一次排列。这样就能遍历删除各个字符组合的情况。
+// 4. 根据标志位，计算括号是否合法。
+// 5. 结果需要去重复，所以使用`set<string> ans`保存。
+// 6. 最后转为输出格式。
 
-### 答题
-```C++
+// ### 答题
+// ```C++
 bool valid(string& s, vector<int>& use) // 根据use标志位，验证括号是否合法
 {
 	int st = 0;
@@ -52,13 +52,13 @@ vector<string> removeInvalidParentheses(string s)
 	if (ans.empty()) return { "" };
 	return vector<string>(ans.begin(), ans.end());
 }
-```
+// ```
 
 
 
-### 致谢
+// ### 致谢
 
-感谢您的观看，希望对您有帮助，欢迎热烈的交流！  
+// 感谢您的观看，希望对您有帮助，欢迎热烈的交流！  
 
-[我的leetcode](https://github.com/AhJo53589/leetcode-cn)
+// [我的leetcode](https://github.com/AhJo53589/leetcode-cn)
 

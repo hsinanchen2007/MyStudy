@@ -1,7 +1,7 @@
 
-### 代码1
+// ### 代码1
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxArea(vector<int>& height) {
@@ -17,10 +17,10 @@ public:
         return maxn;
     }
 };
-```
+// ```
 
-### 代码2
-```cpp
+// ### 代码2
+// ```cpp
 class Solution
 {
 public:
@@ -37,4 +37,4 @@ public:
         return maxn;
     }
 };
-```
+// ```

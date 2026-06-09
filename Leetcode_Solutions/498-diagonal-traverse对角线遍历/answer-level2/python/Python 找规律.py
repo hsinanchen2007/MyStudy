@@ -1,16 +1,16 @@
-个人感觉这种题还是偏向于找规律一点，如果刷题为了面试的，可以不用太纠结这种题。
+# 个人感觉这种题还是偏向于找规律一点，如果刷题为了面试的，可以不用太纠结这种题。
 
-一共找到三条规律，假定矩阵的形状是`(xsize, ysize)`：
-1. 对象线规律（1
-    对角线上的元素之和是固定的，范围在`range(xsize + ysize - 1)`内，依次递增
+# 一共找到三条规律，假定矩阵的形状是`(xsize, ysize)`：
+# 1. 对象线规律（1
+#     对角线上的元素之和是固定的，范围在`range(xsize + ysize - 1)`内，依次递增
 
-2. 对角线规律（2
-    遍历的时候，如果对角线之和是奇数，则逆序遍历，否则，顺序遍历
+# 2. 对角线规律（2
+#     遍历的时候，如果对角线之和是奇数，则逆序遍历，否则，顺序遍历
 
-3. 起始坐标终止坐标规律
-    以横坐标为例，`x_start = min(diagonal_sum, xsize - 1)`，`x_end = max(diagonal_sum - ysize + 1, 0)`，同理`y`也可以找出类似的规律
+# 3. 起始坐标终止坐标规律
+#     以横坐标为例，`x_start = min(diagonal_sum, xsize - 1)`，`x_end = max(diagonal_sum - ysize + 1, 0)`，同理`y`也可以找出类似的规律
 
-```python
+# ```python
 class Solution:
     def findDiagonalOrder(self, matrix: List[List[int]]) -> List[int]:
         if not matrix or not matrix[0]:
@@ -38,4 +38,4 @@ class Solution:
             result.extend(tmp)
 
         return result
-```
+# ```

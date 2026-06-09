@@ -1,9 +1,9 @@
-### 解题思路
-使用了切片和try-except减少判断,达到写字节最省事的目的;若使用字典则大大提升了效率
-而最后的28ms是舶来研究如何提高运行效率修改了一下,但是还是没12ms,不晓得怎么做到的
-### 代码
-496ms:
-```python
+# ### 解题思路
+# 使用了切片和try-except减少判断,达到写字节最省事的目的;若使用字典则大大提升了效率
+# 而最后的28ms是舶来研究如何提高运行效率修改了一下,但是还是没12ms,不晓得怎么做到的
+# ### 代码
+# 496ms:
+# ```python
 class Solution(object):
     def twoSum(self, nums, target):
 
@@ -12,9 +12,9 @@ class Solution(object):
                 return [s,nums[ s+1: ].index(target-i)+s+1]
             except:
                 pass
-```
-40ms:
-```python
+# ```
+# 40ms:
+# ```python
         #40ms--------|
         mm={}
         for s,i in enumerate(nums):
@@ -23,9 +23,9 @@ class Solution(object):
                 return [mm[w],s]
              except:
                 mm[i]=s
-```
-28ms:
-```python
+# ```
+# 28ms:
+# ```python
         #28ms-------|
         n = len(nums)
         res = {}
@@ -37,4 +37,4 @@ class Solution(object):
             d = target-nums[i]
             if d in res and i !=res[d]:
                 return [i, res[d]]
-```
+# ```

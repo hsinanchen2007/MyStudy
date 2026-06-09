@@ -1,4 +1,4 @@
-``` javascript
+// ``` javascript
 var tree2str = function(t) {
     if (!t) {
         return ''
@@ -14,4 +14,4 @@ var tree2str = function(t) {
     }
     return res
 };
-```
+// ```

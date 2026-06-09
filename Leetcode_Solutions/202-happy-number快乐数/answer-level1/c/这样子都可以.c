@@ -1,9 +1,9 @@
-### 解题思路
-设置最多循环10次就可以了
+// ### 解题思路
+// 设置最多循环10次就可以了
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isHappy(int n){
     int count  = 0;
     int sum = 0;
@@ -24,4 +24,4 @@ bool isHappy(int n){
     }
     return false;
 }
-```
+// ```

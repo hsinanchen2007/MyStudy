@@ -1,4 +1,4 @@
-```swift
+// ```swift
 class Solution {
     func repeatedNTimes(_ A: [Int]) -> Int {
         var set = Set<Int>()
@@ -11,4 +11,4 @@ class Solution {
         return A[0]
     }
 }
-```
+// ```

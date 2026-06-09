@@ -1,9 +1,9 @@
-### 解题思路
-dp[i][j] 定义为s[0....i] 与 p[0....j]是否匹配
+# ### 解题思路
+# dp[i][j] 定义为s[0....i] 与 p[0....j]是否匹配
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isMatch(self, s: str, p: str) -> bool:
         n, m = len(s), len(p)
@@ -43,4 +43,4 @@ class Solution:
 
         return dp[n - 1][m - 1]
 
-```
+# ```

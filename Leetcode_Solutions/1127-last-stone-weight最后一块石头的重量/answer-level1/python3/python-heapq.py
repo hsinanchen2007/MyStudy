@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def lastStoneWeight(self, stones) -> int:
         if stones.__len__() == 1:
@@ -18,4 +18,4 @@ class Solution:
                 return 0
             if stones.__len__() == 1:
                 return -stones[0]
-```
+# ```

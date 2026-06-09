@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/0d9c6fae41e2a9e2a9d6c793c72026aaf5004f4717565329df7f1469923e1e8c-image.png)
+// ![image.png](https://pic.leetcode-cn.com/0d9c6fae41e2a9e2a9d6c793c72026aaf5004f4717565329df7f1469923e1e8c-image.png)
 
-使用`unordered_map<string, unordered_set<string> *>`来存储每个词对应的近义词集合，其内容不需要排序。
+// 使用`unordered_map<string, unordered_set<string> *>`来存储每个词对应的近义词集合，其内容不需要排序。
 
-```c++
+// ```c++
 class Solution {
 public:
     void backtracking(set<string>& res, vector<string>& words, unordered_map<string, unordered_set<string> *>& similar, int index){
@@ -61,10 +61,10 @@ public:
         return vector<string>(res.begin(), res.end());
     }
 };
-```
+// ```
 
-注释版本：
-```c++
+// 注释版本：
+// ```c++
 class Solution {
 public:
     // 回溯
@@ -136,4 +136,4 @@ public:
         return vector<string>(res.begin(), res.end());
     }
 };
-```
+// ```

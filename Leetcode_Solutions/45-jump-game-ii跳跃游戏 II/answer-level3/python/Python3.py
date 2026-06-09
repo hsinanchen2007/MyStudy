@@ -1,9 +1,9 @@
-### 解题思路
-贪心算法
+# ### 解题思路
+# 贪心算法
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def jump(self, nums: List[int]) -> int:
         if len(nums)<2:
@@ -23,4 +23,4 @@ class Solution:
                     jumpStep=s
             pos=pos+jumpStep
             cnt+=1
-```
+# ```

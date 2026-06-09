@@ -1,8 +1,8 @@
-### 解题思路
-用set存储过往节点
-### 代码
+// ### 解题思路
+// 用set存储过往节点
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -30,4 +30,4 @@ public:
         return NULL;
     }
 };
-```
+// ```

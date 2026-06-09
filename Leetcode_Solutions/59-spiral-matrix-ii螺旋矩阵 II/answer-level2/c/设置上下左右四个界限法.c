@@ -1,11 +1,11 @@
-### 解题思路
-思路和spiral matrix 2相同,赋值那段逆向操作即可
-![图片.png](https://pic.leetcode-cn.com/fe9f44712e0a9d60785ee3c9e275ceb00e4b83a644a1bbb7e30cf7d2c405840e-%E5%9B%BE%E7%89%87.png)
+// ### 解题思路
+// 思路和spiral matrix 2相同,赋值那段逆向操作即可
+// ![图片.png](https://pic.leetcode-cn.com/fe9f44712e0a9d60785ee3c9e275ceb00e4b83a644a1bbb7e30cf7d2c405840e-%E5%9B%BE%E7%89%87.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -56,4 +56,4 @@ int** generateMatrix(int n, int* returnSize, int** returnColumnSizes){
     *returnSize=n;  
     return matrix;
 }
-```
+// ```

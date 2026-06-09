@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean canJump(int[] nums) {
         if(nums == null || nums.length == 0){
@@ -25,4 +25,4 @@ class Solution {
         return dp[0];
     }
 }
-```
+// ```

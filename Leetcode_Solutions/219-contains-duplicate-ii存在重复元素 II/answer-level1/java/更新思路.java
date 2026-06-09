@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean containsNearbyDuplicate(int[] nums, int k) {
         int n = nums.length;
@@ -13,6 +13,6 @@ class Solution {
         return false;
     }
 }
-```
-走一遍代码就可以了解到这一种思路，其实是不断的更新相同值的位置。键是数组元素，值是数组索引。
-不断的更新理的最大绝对值差的两个数，如果存在就返回true。
+// ```
+// 走一遍代码就可以了解到这一种思路，其实是不断的更新相同值的位置。键是数组元素，值是数组索引。
+// 不断的更新理的最大绝对值差的两个数，如果存在就返回true。

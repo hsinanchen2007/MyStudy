@@ -1,9 +1,9 @@
-### 解题思路
-递归判断左子树和右子树是否符合条件
+# ### 解题思路
+# 递归判断左子树和右子树是否符合条件
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -21,4 +21,4 @@ class Solution:
             return max(left,right)+1, lf and rf and abs(left-right)<=1
         return getHeight(root)[1]
         
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
     
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int movingCount(int m, int n, int k) {
         Queue<Entry> q = new LinkedList<>();
@@ -61,4 +61,4 @@ class Solution {
         }
     }
 }
-```
+// ```

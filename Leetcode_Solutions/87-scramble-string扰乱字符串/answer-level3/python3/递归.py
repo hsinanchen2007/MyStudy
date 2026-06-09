@@ -1,13 +1,13 @@
-## 思路:
+# ## 思路:
 
-递归
+# 递归
 
-直接看代码,很好理解!
+# 直接看代码,很好理解!
 
-## 代码:
+# ## 代码:
 
 
-```python [1]
+# ```python [1]
 import functools
 class Solution:
     @functools.lru_cache(None)
@@ -22,11 +22,11 @@ class Solution:
             if self.isScramble(s1[:i],s2[-i:]) and self.isScramble(s1[i:],s2[:-i]):
                 return True
         return False
-```
+# ```
 
 
 
-```java [1]
+# ```java [1]
 class Solution {
     public boolean isScramble(String s1, String s2) {
         if (s1 == null || s2 == null) return false;
@@ -49,5 +49,5 @@ class Solution {
         return false;   
     }
 }
-```
+# ```
 

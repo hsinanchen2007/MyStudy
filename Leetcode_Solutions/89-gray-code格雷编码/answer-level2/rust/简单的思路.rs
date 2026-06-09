@@ -1,4 +1,4 @@
-```rust
+// ```rust
 impl Solution {
     pub fn gray_code(n: i32) -> Vec<i32> {
         let mut r = vec![0];
@@ -13,4 +13,4 @@ impl Solution {
         r
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```go
+// ```go
 func isBipartite(graph [][]int) bool {
 	// 二分图染色问题
 	V := len(graph) // 图的顶点
@@ -33,4 +33,4 @@ func dfs(v, color int, visited []bool, colors []int, graph [][]int) bool {
 	}
 	return true
 }
-```
+// ```

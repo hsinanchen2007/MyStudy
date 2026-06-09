@@ -1,4 +1,4 @@
-```
+// ```
 var compress = function(chars) {
     let count = 1;
     let i = 0;
@@ -23,4 +23,4 @@ var compress = function(chars) {
     }
     return chars.length;
 };
-```
+// ```

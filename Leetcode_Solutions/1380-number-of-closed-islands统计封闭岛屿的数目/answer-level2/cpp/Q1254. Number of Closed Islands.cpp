@@ -1,6 +1,6 @@
-## 广度优先搜索BFS/深度优先搜索DFS
-BFS/DFS搜索并标记连通图岛屿，如果该岛屿在地图的四边上，则该岛屿不是封闭的。
-```
+// ## 广度优先搜索BFS/深度优先搜索DFS
+// BFS/DFS搜索并标记连通图岛屿，如果该岛屿在地图的四边上，则该岛屿不是封闭的。
+// ```
 class Solution {
 public:
 	int closedIsland(vector<vector<int>>& grid) {
@@ -58,5 +58,5 @@ public:
 		return nCount;
 	}
 };
-```
-我果真不适合写题解，写文章啊！
+// ```
+// 我果真不适合写题解，写文章啊！

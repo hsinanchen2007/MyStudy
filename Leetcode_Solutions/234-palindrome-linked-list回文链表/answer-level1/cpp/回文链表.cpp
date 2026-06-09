@@ -1,4 +1,4 @@
-```
+// ```
     bool isPalindrome(ListNode* head) {
         if(head==NULL || head->next==NULL) return true;
         
@@ -22,4 +22,4 @@
         }
         return intStack.empty();
     }
-```
+// ```

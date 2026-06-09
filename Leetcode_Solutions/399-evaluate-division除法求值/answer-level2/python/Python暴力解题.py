@@ -1,7 +1,7 @@
-# Python笨办法，暴力解题
-尝试了很多次终于做出来了。
-![Capture.PNG](https://pic.leetcode-cn.com/c8326d94ff3ad42ff58acd79606f128fd705618309c6fa80f64fcacc2a56ae19-Capture.PNG)
-```
+# # Python笨办法，暴力解题
+# 尝试了很多次终于做出来了。
+# ![Capture.PNG](https://pic.leetcode-cn.com/c8326d94ff3ad42ff58acd79606f128fd705618309c6fa80f64fcacc2a56ae19-Capture.PNG)
+# ```
 class Solution(object):
     def calcEquation(self, equations, values, queries):
         """
@@ -78,4 +78,4 @@ class Solution(object):
             res.append(i[2])
             
         return res
-```
+# ```

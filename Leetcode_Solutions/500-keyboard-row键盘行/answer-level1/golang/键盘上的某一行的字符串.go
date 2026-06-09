@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findWords(words []string) []string {
 	res:=make([]string,0)
 	for _,v:=range words{
@@ -45,4 +45,4 @@ func findWords(words []string) []string {
 	return res
 }
 
-```
+// ```

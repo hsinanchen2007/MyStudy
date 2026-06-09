@@ -1,9 +1,9 @@
-### 解题思路
-一个while循环，分别乘以和加上n%10的余数，最后相减。
+// ### 解题思路
+// 一个while循环，分别乘以和加上n%10的余数，最后相减。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int subtractProductAndSum(int n) {
         int multiple = 1,sum = 0;
@@ -16,4 +16,4 @@ class Solution {
         return multiple - sum;
     }
 }
-```
+// ```

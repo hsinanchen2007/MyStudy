@@ -1,9 +1,9 @@
-总体思路还是看代码简单，容易理解
+# 总体思路还是看代码简单，容易理解
 
-**前序**
+# **前序**
 
-递归
-```
+# 递归
+# ```
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -22,9 +22,9 @@ class Solution:
             helper(root.right)
         helper(root)
         return res
-```
-迭代
-```
+# ```
+# 迭代
+# ```
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -52,12 +52,12 @@ class Solution(object):
                 p = stack.pop().right
 
         return output
-```
+# ```
 
-**中序**
+# **中序**
 
-递归
-```
+# 递归
+# ```
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -76,9 +76,9 @@ class Solution:
             helper(root.right)
         helper(root)
         return res
-```
-迭代
-```
+# ```
+# 迭代
+# ```
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -102,12 +102,12 @@ class Solution:
                 res.append(p.val)
                 p = p.right
         return res
-```
+# ```
 
-**后序**
+# **后序**
 
-递归
-```
+# 递归
+# ```
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -126,9 +126,9 @@ class Solution:
             res.append(root.val)
         helper(root)
         return res
-```
-迭代
-```
+# ```
+# 迭代
+# ```
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -157,5 +157,5 @@ class Solution:
                     output.append(temp.val)
                     last_node = stack.pop()
         return output
-```
+# ```
 

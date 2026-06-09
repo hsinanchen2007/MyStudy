@@ -1,11 +1,11 @@
-### 解题思路
-１、将数字转换为字符串；
-２、按照字符串长度从高到低（左到位逐位处理）
-３、需要注意百位，十位、个位的处理
+// ### 解题思路
+// １、将数字转换为字符串；
+// ２、按照字符串长度从高到低（左到位逐位处理）
+// ３、需要注意百位，十位、个位的处理
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public static String numberToWords(int num) {
         if (num < 0) {
@@ -172,4 +172,4 @@ class Solution {
         return dictForNumberVsWord;
     }
 }
-```
+// ```

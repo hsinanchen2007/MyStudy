@@ -1,5 +1,5 @@
 
-```
+// ```
 class Solution {
 public:
     int ToInt(string str)
@@ -44,4 +44,4 @@ public:
     }
 };
 
-```
+// ```

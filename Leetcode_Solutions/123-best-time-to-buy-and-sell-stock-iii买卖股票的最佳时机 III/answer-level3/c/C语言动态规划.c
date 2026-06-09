@@ -1,4 +1,4 @@
-```
+// ```
 int maxProfit(int* prices, int pricesSize){
     if(pricesSize < 2) {
         return 0;
@@ -28,4 +28,4 @@ int maxProfit(int* prices, int pricesSize){
     }
     return max;
 }
-```
+// ```

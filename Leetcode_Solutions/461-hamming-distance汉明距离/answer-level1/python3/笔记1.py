@@ -1,4 +1,4 @@
-```c []
+# ```c []
 int hammingDistance(int x, int y){
 int a;
 a=x^y;  
@@ -10,8 +10,8 @@ while(a>0)
 }
 return(res);
 }
-```
-```c++ []
+# ```
+# ```c++ []
 class Solution {
 public:
     int hammingDistance(int x, int y) {
@@ -25,10 +25,10 @@ public:
         return res;
     }
 };
-```
-```py []
+# ```
+# ```py []
 class Solution:
     def hammingDistance(self, x: int, y: int) -> int:
         return bin(x^y).count("1")
-```
+# ```
 

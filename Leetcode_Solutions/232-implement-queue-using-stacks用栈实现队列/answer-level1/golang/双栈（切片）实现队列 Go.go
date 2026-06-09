@@ -1,4 +1,4 @@
-```go
+// ```go
 type MyQueue struct {
     input []int
     output []int
@@ -40,4 +40,4 @@ func (this *MyQueue) Empty() bool {
     }
     return  false
 }
-```
+// ```

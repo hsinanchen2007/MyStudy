@@ -1,7 +1,7 @@
 
 
-//做DP，通用
-```
+// //做DP，通用
+// ```
 func maxProduct(nums []int) int {
     if len(nums) <= 0 {
         return 0
@@ -34,10 +34,10 @@ func min(a int, b int) int {
 	}
 	return a
 }
-```
+// ```
 
-//易懂针对这题
-```
+// //易懂针对这题
+// ```
 func maxProduct(nums []int) int {
     if len(nums) == 0 {
 		return 0
@@ -55,4 +55,4 @@ func maxProduct(nums []int) int {
 	return res
 }
 
-```
+// ```

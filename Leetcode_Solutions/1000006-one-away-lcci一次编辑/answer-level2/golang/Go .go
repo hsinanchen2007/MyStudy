@@ -1,9 +1,9 @@
-### 解题思路
-双指针，删除与增加等价
+// ### 解题思路
+// 双指针，删除与增加等价
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func oneEditAway(first string, second string) bool {
     len1 := len(first)
     len2 := len(second)
@@ -27,4 +27,4 @@ func oneEditAway(first string, second string) bool {
     }
     return cnt <= 1
 }
-```
+// ```

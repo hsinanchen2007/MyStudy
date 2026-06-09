@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def equationsPossible(self, equations: List[str]) -> bool:
         dic = {chr(ord('a') + x): chr(ord('a') + x) for x in range(26)}
@@ -21,4 +21,4 @@ class Solution:
                 if a_root == b_root:
                     return False
         return True
-```
+# ```

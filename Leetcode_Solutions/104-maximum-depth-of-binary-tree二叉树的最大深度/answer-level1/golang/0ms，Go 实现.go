@@ -1,8 +1,8 @@
 
-![image.png](https://pic.leetcode-cn.com/bef4dba958d845648897c652f2b8f835772bb0ae9d9be38955981968c98b7d17-image.png)
+// ![image.png](https://pic.leetcode-cn.com/bef4dba958d845648897c652f2b8f835772bb0ae9d9be38955981968c98b7d17-image.png)
 
-代码
-```
+// 代码
+// ```
 func maxDepth(root *TreeNode) int {
     if root == nil {    // 终止条件
         return 0
@@ -15,4 +15,4 @@ func maxDepth(root *TreeNode) int {
         return rdepth
     }
 }
-```
+// ```

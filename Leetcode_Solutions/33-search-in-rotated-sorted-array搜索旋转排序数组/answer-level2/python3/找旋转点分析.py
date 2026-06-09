@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
 
@@ -61,4 +61,4 @@ class Solution:
         # self.res=-1
         # binary_search(nums,target,0,len(nums)-1)
         # return self.res
-```
+# ```

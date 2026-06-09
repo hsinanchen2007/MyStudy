@@ -1,9 +1,9 @@
-### 解题思路
-栈的思想
+// ### 解题思路
+// 栈的思想
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isValid(char * s){
     if(s==NULL) return true;
     int n=strlen(s),i,k=-1;
@@ -44,4 +44,4 @@ bool isValid(char * s){
 
 }
 
-```
+// ```

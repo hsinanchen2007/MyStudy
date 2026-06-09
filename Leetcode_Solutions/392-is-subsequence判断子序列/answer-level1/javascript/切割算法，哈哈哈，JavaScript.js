@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @param {string} t
@@ -85,4 +85,4 @@ var isSubsequence = function(s, t) {
     //一行代码，但是不是很好理解，上面的可读性更高
     // return !!new RegExp('\w*' + s.split('').join('\\w*') + '\w*').exec(t);
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-![微信图片_20200302011600.png](https://pic.leetcode-cn.com/dcdcc8c6d79a9867a0bc7156fab8359fdf48a731249f924732e71cfa7296e4f6-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200302011600.png)
-此处撰写解题思路
+// ### 解题思路
+// ![微信图片_20200302011600.png](https://pic.leetcode-cn.com/dcdcc8c6d79a9867a0bc7156fab8359fdf48a731249f924732e71cfa7296e4f6-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200302011600.png)
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numUniqueEmails(vector<string>& emails) {
@@ -34,4 +34,4 @@ public:
         return emails.size();  //返回的就是数组中不同email的个数
     }
 };
-```
+// ```

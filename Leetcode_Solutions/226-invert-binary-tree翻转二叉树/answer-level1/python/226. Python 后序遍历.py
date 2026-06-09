@@ -1,9 +1,9 @@
-### 解题思路
-只需要将左右子树互换即可。
+# ### 解题思路
+# 只需要将左右子树互换即可。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -26,4 +26,4 @@ class Solution(object):
             root.right = left
             return root
         return get_res(root)
-```
+# ```

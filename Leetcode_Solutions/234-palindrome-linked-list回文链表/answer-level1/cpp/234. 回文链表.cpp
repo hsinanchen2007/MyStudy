@@ -1,8 +1,8 @@
-## 反转一半链表----空间复杂度O(1)
-**1. 利用快慢指针找到链表一半的位置
-2. 反转前一半
-3. 再进行对比**
-```cpp
+// ## 反转一半链表----空间复杂度O(1)
+// **1. 利用快慢指针找到链表一半的位置
+// 2. 反转前一半
+// 3. 再进行对比**
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -34,10 +34,10 @@ public:
         return true;
     }
 };
-```
-## 借助vector数组
-**将链表的结点值全部读到数组中，再判断数组是否对称**
-```cpp
+// ```
+// ## 借助vector数组
+// **将链表的结点值全部读到数组中，再判断数组是否对称**
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -60,4 +60,4 @@ public:
         return true;
     }
 };
-```
+// ```

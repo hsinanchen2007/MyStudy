@@ -1,5 +1,5 @@
-嘿嘿
- ```
+# 嘿嘿
+#  ```
 class Solution(object):
     def reachingPoints(self, sx, sy, tx, ty):
         """
@@ -24,4 +24,4 @@ class Solution(object):
                 tx=tx-ty*((tx-ty)//ty+1)
             else:
                 ty=ty-tx*((ty-tx)//tx+1)
-```
+# ```

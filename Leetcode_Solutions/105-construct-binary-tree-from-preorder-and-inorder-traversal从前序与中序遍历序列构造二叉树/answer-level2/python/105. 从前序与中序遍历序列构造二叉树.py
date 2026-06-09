@@ -1,10 +1,10 @@
-### 解题思路
-第一步，根据前序序列里的每一个元素，将中序序列分成两段
-第二步，前序序列里的元素为根节点，中序序列的两段分别为左子树和右子树
-重复上述两步，直到数组为空
-### 代码
+# ### 解题思路
+# 第一步，根据前序序列里的每一个元素，将中序序列分成两段
+# 第二步，前序序列里的元素为根节点，中序序列的两段分别为左子树和右子树
+# 重复上述两步，直到数组为空
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -27,4 +27,4 @@ class Solution(object):
             node.right = self.buildTree(preorder, inorder[inorder.index(val) + 1:])
 
             return node
-```
+# ```

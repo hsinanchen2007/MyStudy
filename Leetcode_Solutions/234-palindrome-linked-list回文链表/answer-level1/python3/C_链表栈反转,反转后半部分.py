@@ -1,8 +1,8 @@
-### 解题思路
-此题可以取出值，然后进行判断，当然一个比较好的例子就是，官方题解走一半，然后利用回文性质，把链表后半给反转对比，反转链表就是206题。
+# ### 解题思路
+# 此题可以取出值，然后进行判断，当然一个比较好的例子就是，官方题解走一半，然后利用回文性质，把链表后半给反转对比，反转链表就是206题。
 
-最初想的是，取出来，当回文整数对待，这个还行，但是到21/26出现[-126,-126]???直接挂掉。
-```python []
+# 最初想的是，取出来，当回文整数对待，这个还行，但是到21/26出现[-126,-126]???直接挂掉。
+# ```python []
 class Solution:
     def isPalindrome(self, head: ListNode) -> bool:
         LinkSum = 0  # 存每个结点值转为回文数字判断
@@ -14,11 +14,11 @@ class Solution:
             half = half * 10 + LinkSum % 10  # 取linksum余数
             LinkSum //= 10  # 不断缩小
         return LinkSum == half or half // 10 == LinkSum
-```
+# ```
 
-### 1.链表取出值
-还是不太行，时间即使O(n)，但是不行，被90%打败。
-```c []
+# ### 1.链表取出值
+# 还是不太行，时间即使O(n)，但是不行，被90%打败。
+# ```c []
 typedef struct StackNode{
 	int data;
 	struct StackNode *next;
@@ -55,8 +55,8 @@ bool isPalindrome(struct ListNode* head){
 	}
 	return true;
 }
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def isPalindrome(self, head: ListNode) -> bool:
         data = []
@@ -64,14 +64,14 @@ class Solution:
             data.append(head.val)
             head = head.next
         return data == data[::-1]
-```
+# ```
 
-### 2.反转后半部分
-1. 得到全长
-2. 得到len/2指针(这里涉及到后面奇偶)
-3. 反转后半部分链表
-4. 对比两半链表(不需要考虑奇偶！)
-```c []
+# ### 2.反转后半部分
+# 1. 得到全长
+# 2. 得到len/2指针(这里涉及到后面奇偶)
+# 3. 反转后半部分链表
+# 4. 对比两半链表(不需要考虑奇偶！)
+# ```c []
 bool isPalindrome(struct ListNode* head){
     struct ListNode *curr = head, *p = NULL, *q = NULL;
     int len = 0;
@@ -100,5 +100,5 @@ bool isPalindrome(struct ListNode* head){
         half_len--,head = head->next,p = p->next) {}
     return !half_len;  // 0:回文，1不是回文
 }
-```
+# ```
 

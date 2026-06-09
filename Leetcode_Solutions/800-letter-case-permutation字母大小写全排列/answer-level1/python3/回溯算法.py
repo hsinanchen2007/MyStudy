@@ -1,5 +1,5 @@
-![99e704b3479349e8906ee846f245567.png](https://pic.leetcode-cn.com/10195d09cf3dbeb9852b170c850549514550af59bbae9690a42d96bb6d5bc4a8-99e704b3479349e8906ee846f245567.png)
-```python []
+# ![99e704b3479349e8906ee846f245567.png](https://pic.leetcode-cn.com/10195d09cf3dbeb9852b170c850549514550af59bbae9690a42d96bb6d5bc4a8-99e704b3479349e8906ee846f245567.png)
+# ```python []
 class Solution:
     def letterCasePermutation(self, S: str) -> List[str]:
         res = []
@@ -15,4 +15,4 @@ class Solution:
         
         traceback('', S)
         return res
-```
+# ```

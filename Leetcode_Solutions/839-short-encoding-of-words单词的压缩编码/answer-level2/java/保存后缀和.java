@@ -1,9 +1,9 @@
-### 解题思路
-参考leetcode题解思路
+// ### 解题思路
+// 参考leetcode题解思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minimumLengthEncoding(String[] words) {
         //特例
@@ -29,4 +29,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

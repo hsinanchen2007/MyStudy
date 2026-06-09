@@ -1,7 +1,7 @@
-1. 先判断有无环（用快慢指针法）
-2. 发现有环后，从头和交汇点分别开始每次往前移动一个，当再次交汇时，其便为环的入口。
+// 1. 先判断有无环（用快慢指针法）
+// 2. 发现有环后，从头和交汇点分别开始每次往前移动一个，当再次交汇时，其便为环的入口。
 
-```
+// ```
 class Solution {
 public:
     ListNode *detectCycle(ListNode *head) {
@@ -25,9 +25,9 @@ public:
         return NULL;
     }
 };
-```
+// ```
 
 
-**具体理论见官方题解：**
+// **具体理论见官方题解：**
 
-[无效的图片地址](https://picturesbed.oss-cn-hangzhou.aliyuncs.com/img/20190617194006.png)
+// [无效的图片地址](https://picturesbed.oss-cn-hangzhou.aliyuncs.com/img/20190617194006.png)

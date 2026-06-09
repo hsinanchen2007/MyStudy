@@ -1,10 +1,10 @@
-### 解题思路
-算法：递归先序遍历，将结果存入t1。
-对时间优化，可以转为使用栈。
+// ### 解题思路
+// 算法：递归先序遍历，将结果存入t1。
+// 对时间优化，可以转为使用栈。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -26,4 +26,4 @@ func mergeTrees(t1 *TreeNode, t2 *TreeNode) *TreeNode {
 	t1.Right = mergeTrees(t1.Right, t2.Right)
 	return t1
 }
-```
+// ```

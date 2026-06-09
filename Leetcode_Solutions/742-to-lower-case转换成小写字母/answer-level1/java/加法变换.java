@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public String toLowerCase(String str) {
         char[] ch = str.toCharArray();
@@ -11,4 +11,4 @@ class Solution {
         return String.valueOf(ch);
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-提交结果：
-![图片.png](https://pic.leetcode-cn.com/811c22f75b3cc5e08f66c2936b757ffdb184f3e586e27e6ccc9124ef8e1e1f43-%E5%9B%BE%E7%89%87.png)
+// 提交结果：
+// ![图片.png](https://pic.leetcode-cn.com/811c22f75b3cc5e08f66c2936b757ffdb184f3e586e27e6ccc9124ef8e1e1f43-%E5%9B%BE%E7%89%87.png)
 
-思路简述：
-一开始选用的解法是纯粹使用C++里面的双端队列容器deque来按照题意编写代码。提交之后发现，这种解法速度很慢，且内存占用很高。于是抛弃这种解法，转而使用移动的下标，构造窗口的两端。具体代码分解见代码。
-代码：
-```c++
+// 思路简述：
+// 一开始选用的解法是纯粹使用C++里面的双端队列容器deque来按照题意编写代码。提交之后发现，这种解法速度很慢，且内存占用很高。于是抛弃这种解法，转而使用移动的下标，构造窗口的两端。具体代码分解见代码。
+// 代码：
+// ```c++
 class Solution {
 public:
     vector<int> maxSlidingWindow(vector<int>& nums, int k) {
@@ -82,5 +82,5 @@ public:
 		return result;
     }
 };
-```
+// ```
 

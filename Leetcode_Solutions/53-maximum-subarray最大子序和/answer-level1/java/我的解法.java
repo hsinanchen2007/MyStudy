@@ -1,4 +1,4 @@
-```
+// ```
 public int maxSubArray(int[] nums) {
         int maxSum=nums[0];
         int total= nums[0];
@@ -9,4 +9,4 @@ public int maxSubArray(int[] nums) {
         }
         return total;
     }
-```
+// ```

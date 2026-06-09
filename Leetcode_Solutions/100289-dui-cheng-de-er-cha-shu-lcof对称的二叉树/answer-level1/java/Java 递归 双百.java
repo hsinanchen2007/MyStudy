@@ -1,9 +1,9 @@
-### 解题思路
-将根节点的左右子树看做两个二叉树进行比较
+// ### 解题思路
+// 将根节点的左右子树看做两个二叉树进行比较
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -38,4 +38,4 @@ class Solution {
 
     }
 }
-```
+// ```

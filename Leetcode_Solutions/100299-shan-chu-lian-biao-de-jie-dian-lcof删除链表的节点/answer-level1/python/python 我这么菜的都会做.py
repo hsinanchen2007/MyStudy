@@ -1,5 +1,5 @@
 
-```
+# ```
 class Solution:
     def deleteNode(self, head: ListNode, val: int) -> ListNode:
         dummy = ListNode(-1)
@@ -11,5 +11,5 @@ class Solution:
                 break
             p = p.next
         return dummy.next
-```
+# ```
 

@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-用拉链法处理冲突，借用一下官方题解的图，不过我选的表长和取余的数跟官方不同：
+// 用拉链法处理冲突，借用一下官方题解的图，不过我选的表长和取余的数跟官方不同：
 
-![image.png](https://pic.leetcode-cn.com/bb6f30f2b69e1c8b711487200b16ee0725099db6fc8487195be6c2d4c95e86ea-image.png)
+// ![image.png](https://pic.leetcode-cn.com/bb6f30f2b69e1c8b711487200b16ee0725099db6fc8487195be6c2d4c95e86ea-image.png)
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type MyHashMap struct {
 	hash [1002]List
 }
@@ -65,4 +65,4 @@ func (this *MyHashMap) Remove(key int)  {
  * param_2 := obj.Get(key);
  * obj.Remove(key);
  */
-```
+// ```

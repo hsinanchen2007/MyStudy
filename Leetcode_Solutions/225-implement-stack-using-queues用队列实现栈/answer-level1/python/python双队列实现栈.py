@@ -1,8 +1,8 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
-```python 双队列实现栈 
+# ### 代码
+# ```python 双队列实现栈 
 class MyStack(object):
 
     def __init__(self):
@@ -51,4 +51,4 @@ class MyStack(object):
         return not len(self.quque1)
 
 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-由于第一位和最后一位都可能为target，所以初始化为-1与nums.size()
+// ### 解题思路
+// 由于第一位和最后一位都可能为target，所以初始化为-1与nums.size()
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution{
 	public:
 		int search(vector<int>& nums, int target){
@@ -33,4 +33,4 @@ class Solution{
 		}
 };
 
-```
+// ```

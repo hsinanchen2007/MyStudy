@@ -1,10 +1,10 @@
-### 解题思路
-C语言+栈
-1.暴力解法不能满足时间的要求
-2.遍历T数组，与栈顶元素进行比较，如果T[i]>栈顶索引对应的元素，则将栈顶元素移除，并且将两者索引差值存储在res数组中。否则的话就将新的元素叠加至栈上。
-### 代码
+// ### 解题思路
+// C语言+栈
+// 1.暴力解法不能满足时间的要求
+// 2.遍历T数组，与栈顶元素进行比较，如果T[i]>栈顶索引对应的元素，则将栈顶元素移除，并且将两者索引差值存储在res数组中。否则的话就将新的元素叠加至栈上。
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -27,4 +27,4 @@ int* dailyTemperatures(int* T, int TSize, int* returnSize){
 	free(stack);
 	return res;
 }
-```
+// ```

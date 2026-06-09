@@ -1,9 +1,9 @@
-### 解题思路
-创建两个数组一个存储缓冲数值，一个缓冲对应个数，然后对比个数返回相应数值。
+// ### 解题思路
+// 创建两个数组一个存储缓冲数值，一个缓冲对应个数，然后对比个数返回相应数值。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int majorityElement(int* nums, int numsSize)
 {
     const int num = (int)(numsSize / 2 + 1);
@@ -40,4 +40,4 @@ int majorityElement(int* nums, int numsSize)
     }
     return arrayVal[ret];
 }
-```
+// ```

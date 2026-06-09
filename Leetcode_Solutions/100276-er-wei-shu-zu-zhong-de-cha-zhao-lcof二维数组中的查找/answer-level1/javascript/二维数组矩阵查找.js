@@ -1,10 +1,10 @@
-### 解题思路
-1、利用杨氏矩阵，类似二分（对角二分法）
-2、杨氏矩阵自行百度
+// ### 解题思路
+// 1、利用杨氏矩阵，类似二分（对角二分法）
+// 2、杨氏矩阵自行百度
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} matrix
  * @param {number} target
@@ -42,4 +42,4 @@ var findNumberIn2DArray = function(matrix, target) {
 function findNumber_second(matrix, target) {
     return matrix.flat(1).includes(target)
 }
-```
+// ```

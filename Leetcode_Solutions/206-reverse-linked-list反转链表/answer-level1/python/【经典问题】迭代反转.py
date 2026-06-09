@@ -1,9 +1,9 @@
-### 解题思路
-非常经典的链表问题，大致思路就是通过制造一个pre的空指针，然后让cur指针不断的反向指向pre，实现局部反转，通过迭代的方式进行整个链表的反转。
+# ### 解题思路
+# 非常经典的链表问题，大致思路就是通过制造一个pre的空指针，然后让cur指针不断的反向指向pre，实现局部反转，通过迭代的方式进行整个链表的反转。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -25,4 +25,4 @@ class Solution(object):
             cur=third
         return pre
 
-```
+# ```

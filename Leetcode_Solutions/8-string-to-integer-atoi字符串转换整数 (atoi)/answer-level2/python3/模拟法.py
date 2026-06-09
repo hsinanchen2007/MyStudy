@@ -1,9 +1,9 @@
-### 解题思路
-暴力模拟，各种情况考虑清楚。。。。。。
+# ### 解题思路
+# 暴力模拟，各种情况考虑清楚。。。。。。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import math
 class Solution:
     def myAtoi(self, _str: str) -> int:
@@ -49,4 +49,4 @@ class Solution:
         else:
             return result
                     
-```
+# ```

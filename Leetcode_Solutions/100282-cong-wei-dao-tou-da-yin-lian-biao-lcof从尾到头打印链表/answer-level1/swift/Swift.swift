@@ -1,8 +1,8 @@
-### 解题思路
-遍历链表把数字输入到数组中，数组倒序
-### 代码
+// ### 解题思路
+// 遍历链表把数字输入到数组中，数组倒序
+// ### 代码
 
-```swift
+// ```swift
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -27,4 +27,4 @@ class Solution {
         return queue.reversed()
     }
 }
-```
+// ```

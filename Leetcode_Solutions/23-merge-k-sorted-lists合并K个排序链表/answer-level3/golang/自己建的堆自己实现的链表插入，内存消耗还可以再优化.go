@@ -1,11 +1,11 @@
-### 解题思路
-1.将链表中的数据建堆
-2.对堆进行排序
-3.将堆中数据插入到新的链表中
+// ### 解题思路
+// 1.将链表中的数据建堆
+// 2.对堆进行排序
+// 3.将堆中数据插入到新的链表中
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -166,4 +166,4 @@ func (this *Heap) sort() {
 		this.sinkTo(1, N)
 	}
 }
-```
+// ```

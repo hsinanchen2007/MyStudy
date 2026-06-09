@@ -1,8 +1,8 @@
-解题思路清晰易懂，小白的成长之路
+// 解题思路清晰易懂，小白的成长之路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int reverse(int x) {
         if(x == Integer.MIN_VALUE)
@@ -27,5 +27,5 @@ class Solution {
 		return (flag > 0)? res : res*flag;
     }
 }
-```
-![image.png](https://pic.leetcode-cn.com/6e1f6ec38cf085b0a50a60d8b890efdb837459e7faad27b38ab731b51b8b9933-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/6e1f6ec38cf085b0a50a60d8b890efdb837459e7faad27b38ab731b51b8b9933-image.png)

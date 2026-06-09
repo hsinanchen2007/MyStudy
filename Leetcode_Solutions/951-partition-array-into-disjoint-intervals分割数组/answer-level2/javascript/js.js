@@ -1,8 +1,8 @@
-/**
- * @param {number[]} A
- * @return {number}
- */
-```javascript
+// /**
+//  * @param {number[]} A
+//  * @return {number}
+//  */
+// ```javascript
 var partitionDisjoint = function(A) {
             // 创建一个数组 arr[i] 代表着 (A[i]~A[len-1]中的最小值)
             const arr = [],len=A.length
@@ -32,4 +32,4 @@ var partitionDisjoint = function(A) {
                 }
             }
   };
-```
+// ```

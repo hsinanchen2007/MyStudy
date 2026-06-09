@@ -1,9 +1,9 @@
-### 解题思路
-构建一个大根堆，以每个条形码在数组中出现的次数为依据进行比较，设返回的vector为re，re从0到barcodes.size()-1，每次取出堆顶。若堆顶和re的最后一个元素相同，则定义一个temp来保存堆的top()，将堆pop()，然后在re尾部添加堆顶所对应的数值，将堆顶的amount减一，存到temp中，堆pop（）后再将temp放入堆中。若堆顶和re的最后一个元素不同，在re尾部添加堆顶所对应的数值，将堆顶的amount减一，存到temp中，堆pop（）后再将temp放入堆中。
+// ### 解题思路
+// 构建一个大根堆，以每个条形码在数组中出现的次数为依据进行比较，设返回的vector为re，re从0到barcodes.size()-1，每次取出堆顶。若堆顶和re的最后一个元素相同，则定义一个temp来保存堆的top()，将堆pop()，然后在re尾部添加堆顶所对应的数值，将堆顶的amount减一，存到temp中，堆pop（）后再将temp放入堆中。若堆顶和re的最后一个元素不同，在re尾部添加堆顶所对应的数值，将堆顶的amount减一，存到temp中，堆pop（）后再将temp放入堆中。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 struct Bar
@@ -82,4 +82,4 @@ struct Bar
 	return re;
     }
 };
-```
+// ```

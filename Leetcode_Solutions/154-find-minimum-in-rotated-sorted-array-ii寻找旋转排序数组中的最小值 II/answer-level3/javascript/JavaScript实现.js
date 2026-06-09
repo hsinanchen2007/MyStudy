@@ -1,4 +1,4 @@
-```
+// ```
 var findMin = function(nums) {
     let left = 0,right = nums.length-1,mid;
     if(nums.length <= 1) return nums
@@ -32,4 +32,4 @@ function find(arr,left,right){
     }
     return res
 }
-```
+// ```

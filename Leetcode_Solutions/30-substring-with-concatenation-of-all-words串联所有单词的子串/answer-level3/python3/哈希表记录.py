@@ -1,8 +1,8 @@
-不行，太慢了，但练习练习哈希表（字典）吧
+# 不行，太慢了，但练习练习哈希表（字典）吧
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findSubstring(self, s: str, words: List[str]) -> List[int]:
         if s == "" or words == []: return []
@@ -33,4 +33,4 @@ class Solution:
 
 
 
-```
+# ```

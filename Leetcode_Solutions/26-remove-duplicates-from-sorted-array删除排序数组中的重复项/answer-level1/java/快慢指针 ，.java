@@ -1,9 +1,9 @@
-### 解题思路
-只是计算去掉重复项以后的数组大小，，，，，
+// ### 解题思路
+// 只是计算去掉重复项以后的数组大小，，，，，
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int removeDuplicates(int[] nums) {
 
@@ -27,4 +27,4 @@ class Solution {
 
     }
 }
-```
+// ```

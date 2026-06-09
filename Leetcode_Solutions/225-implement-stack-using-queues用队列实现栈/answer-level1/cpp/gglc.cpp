@@ -1,7 +1,7 @@
-**题解1：**
-	1. 用2个stack，push & top的复杂度为O(1)，pop的复杂度为O(n)
-	2. 注意pop的时候，_top变量的处理
-```
+// **题解1：**
+// 	1. 用2个stack，push & top的复杂度为O(1)，pop的复杂度为O(n)
+// 	2. 注意pop的时候，_top变量的处理
+// ```
 class MyStack {
 public:
     queue<int> q;
@@ -54,17 +54,17 @@ public:
 * int param_3 = obj->top();
 * bool param_4 = obj->empty();
 */
-```
+// ```
 
-题解2：
-	1. 单个队列用implace的方式就可以实现
-	2. 在push的时候：
-        1. 先将第一个元素入列
-		2. 将最后一个元素以外的元素出列后重新入列
-	3. pop() & top()
-        1. 直接出列 & 栈顶元素
+// 题解2：
+// 	1. 单个队列用implace的方式就可以实现
+// 	2. 在push的时候：
+//         1. 先将第一个元素入列
+// 		2. 将最后一个元素以外的元素出列后重新入列
+// 	3. pop() & top()
+//         1. 直接出列 & 栈顶元素
 
-```
+// ```
 class MyStack {
 public:
     queue<int> q;
@@ -109,5 +109,5 @@ public:
  * int param_3 = obj->top();
  * bool param_4 = obj->empty();
  */
-```
+// ```
 

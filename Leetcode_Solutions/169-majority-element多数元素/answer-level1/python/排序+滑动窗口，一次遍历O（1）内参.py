@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def majorityElement(self, nums):
         """
@@ -16,4 +16,4 @@ class Solution(object):
                 tail +=1
             else:
                 head = tail
-```
+# ```

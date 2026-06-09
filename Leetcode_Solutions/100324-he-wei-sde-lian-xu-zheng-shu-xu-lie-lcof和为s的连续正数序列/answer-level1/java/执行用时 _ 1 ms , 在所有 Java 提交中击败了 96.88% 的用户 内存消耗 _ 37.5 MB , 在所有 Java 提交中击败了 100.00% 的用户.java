@@ -1,8 +1,8 @@
-### 解题思路
-## ***数学巧妙法***
-### 代码
+// ### 解题思路
+// ## ***数学巧妙法***
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] findContinuousSequence(int target) {
       List<int[]> res = new ArrayList<>();
@@ -31,4 +31,4 @@ class Solution {
 		return res.toArray(new int[res.size()][]);
     }
 }
-```
+// ```

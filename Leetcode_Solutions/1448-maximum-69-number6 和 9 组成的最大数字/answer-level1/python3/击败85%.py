@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def maximum69Number (self, num: int) -> int:
         str1 = str(num)
@@ -12,4 +12,4 @@ class Solution:
             for i in list1:
                 str2 += i
             return(int(str2))
-```
+# ```

@@ -1,6 +1,6 @@
-数组遍历
+// 数组遍历
 
-```
+// ```
 class Solution {
     public int removeDuplicates(int[] nums) {
         if (nums == null || nums.length < 1) {
@@ -20,4 +20,4 @@ class Solution {
         return distinctCount;
     }
 }
-```
+// ```

@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/9ecb5ad3bffcba1f4a6a147dcd2466b667ead47d06717dac85b6d4b40c316a40-image.png)
+# ![image.png](https://pic.leetcode-cn.com/9ecb5ad3bffcba1f4a6a147dcd2466b667ead47d06717dac85b6d4b40c316a40-image.png)
 
 
 
-```
+# ```
 '''
 最小生成树算法
 '''
@@ -68,4 +68,4 @@ class Solution:
                 s.add(node2)
 
         return total_cost if  len(s) == N and merge_set.getRootNum() == 1 else -1
-```
+# ```

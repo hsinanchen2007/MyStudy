@@ -1,10 +1,10 @@
-### 解题思路
-额外申请两个数组，用以存放chars数组的结果，因为是小写字母，所以数组空间26就够了。
-申请两个原因是在轮询过程中，其中一个数组的值会因计算次数而被清空，需要重新赋值。
+// ### 解题思路
+// 额外申请两个数组，用以存放chars数组的结果，因为是小写字母，所以数组空间26就够了。
+// 申请两个原因是在轮询过程中，其中一个数组的值会因计算次数而被清空，需要重新赋值。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <stdlib.h>
 
 int countCharacters(char ** words, int wordsSize, char * chars) {
@@ -49,4 +49,4 @@ int countCharacters(char ** words, int wordsSize, char * chars) {
 	}
 	return rtnLens;
 }
-```
+// ```

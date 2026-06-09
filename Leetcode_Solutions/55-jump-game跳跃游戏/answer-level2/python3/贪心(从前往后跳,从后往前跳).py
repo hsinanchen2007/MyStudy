@@ -1,36 +1,36 @@
-## 思路:
+# ## 思路:
 
-贪心算法
+# 贪心算法
 
-思路一:
+# 思路一:
 
-从前往后跳
+# 从前往后跳
 
-思路二:
+# 思路二:
 
-从后往前推
+# 从后往前推
 
-------
+# ------
 
-[45. 跳跃游戏 II](https://leetcode-cn.com/problems/jump-game-ii/)一样的,
+# [45. 跳跃游戏 II](https://leetcode-cn.com/problems/jump-game-ii/)一样的,
 
-[[解题链接]45. 跳跃游戏 II](https://leetcode-cn.com/problems/jump-game-ii/)
-
-
-
-## 代码:
+# [[解题链接]45. 跳跃游戏 II](https://leetcode-cn.com/problems/jump-game-ii/)
 
 
+
+# ## 代码:
 
 
 
 
 
-思路一:
+
+
+# 思路一:
 
 
 
-```python [1]
+# ```python [1]
 class Solution:
     def canJump(self, nums: List[int]) -> bool:
         start = 0
@@ -40,11 +40,11 @@ class Solution:
             end = max(end, nums[start] + start)
             start += 1
         return end >= n - 1
-```
+# ```
 
 
 
-```java [1]
+# ```java [1]
 class Solution {
     public boolean canJump(int[] nums) {
         int start = 0;
@@ -56,13 +56,13 @@ class Solution {
         return end >= nums.length-1;
     }
 }
-```
+# ```
 
-思路二
+# 思路二
 
 
 
-```python [2]
+# ```python [2]
 class Solution:
     def canJump(self, nums: List[int]) -> bool:
         #start = 0
@@ -73,11 +73,11 @@ class Solution:
             if start + nums[start] >= end: end = start
             start -= 1
         return end <= 0
-```
+# ```
 
 
 
-```java [2]
+# ```java [2]
 class Solution {
     public boolean canJump(int[] nums) {
         int n = nums.length;
@@ -90,5 +90,5 @@ class Solution {
         return end <= 0;
     }
 }
-```
+# ```
 

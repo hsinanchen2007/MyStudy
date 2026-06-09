@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/a2a2a622224f0e85a1ebbd936c554f269a61ff456f79630bc39413efc8be58aa-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/a2a2a622224f0e85a1ebbd936c554f269a61ff456f79630bc39413efc8be58aa-image.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 // package com.leetcode.practices.convexPolygon;
 
 import java.util.ArrayList;
@@ -114,4 +114,4 @@ public class Solution {
 
 }
 
-```
+// ```

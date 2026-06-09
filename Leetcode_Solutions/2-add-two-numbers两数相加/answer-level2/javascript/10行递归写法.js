@@ -1,7 +1,7 @@
-脚本语言就是要简单，直观。
-另外这个其实可以优化成尾递归。
-JavaScript
-```
+// 脚本语言就是要简单，直观。
+// 另外这个其实可以优化成尾递归。
+// JavaScript
+// ```
 var addTwoNumbers = function(l1, l2, c=false) {
   if (l1 === null && l2 === null) {
     return c ? new ListNode(1) : null;
@@ -13,10 +13,10 @@ var addTwoNumbers = function(l1, l2, c=false) {
   l.next = addTwoNumbers(la, lb, x >= 10);
   return l;
 };
-```
-Ruby 真的是能少写一个字绝不多写一个字
-Ruby
-```
+// ```
+// Ruby 真的是能少写一个字绝不多写一个字
+// Ruby
+// ```
 def add_two_numbers(l1, l2, c=false)
   if l1 == nil && l2 == nil then return c ? ListNode.new(1) : nil end
   a, la = l1 == nil ? [0, nil] : [l1.val, l1.next]
@@ -26,4 +26,4 @@ def add_two_numbers(l1, l2, c=false)
   l.next = add_two_numbers(la, lb, x >= 10)
   return l
 end
-```
+// ```

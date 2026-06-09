@@ -1,6 +1,6 @@
-1. 将字符串转成数组，小写转大写；
-2. 同时从数组头部向后遍历，从数组尾部向前遍历, 遇到其它字符则跳过，相同则继续，不同则return false；
-```
+// 1. 将字符串转成数组，小写转大写；
+// 2. 同时从数组头部向后遍历，从数组尾部向前遍历, 遇到其它字符则跳过，相同则继续，不同则return false；
+// ```
 class Solution {
     public boolean isPalindrome(String s) {
         char[] sarr = s.toLowerCase().toCharArray();
@@ -19,4 +19,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

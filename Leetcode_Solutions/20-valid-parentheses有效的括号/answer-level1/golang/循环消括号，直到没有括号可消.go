@@ -1,4 +1,4 @@
-[暴力解法， 将所有配对括号替换为""
+// [暴力解法， 将所有配对括号替换为""
 func isValid(s string) bool {  
     var length int
     for length != len(s){ 

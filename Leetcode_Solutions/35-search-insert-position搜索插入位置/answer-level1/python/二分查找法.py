@@ -1,10 +1,10 @@
-### 解题思路
-时间复杂度：O（log（n））
-空间复杂度：O（1）
+# ### 解题思路
+# 时间复杂度：O（log（n））
+# 空间复杂度：O（1）
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
         import math
@@ -32,4 +32,4 @@ class Solution:
         else:
             return low + 1
 
-```
+# ```

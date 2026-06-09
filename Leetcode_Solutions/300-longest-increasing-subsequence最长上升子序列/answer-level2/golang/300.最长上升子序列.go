@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-动态规划
-状态转移方程：dp[i]=max(dp[j])+1,其中0≤j<i且num[j]<num[i]
-维护dp表即可，dp[i]表示以第i个元素结尾的最长子序列长度。
+// 动态规划
+// 状态转移方程：dp[i]=max(dp[j])+1,其中0≤j<i且num[j]<num[i]
+// 维护dp表即可，dp[i]表示以第i个元素结尾的最长子序列长度。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func lengthOfLIS(nums []int) int {
 	if len(nums) == 0 {
 		return 0
@@ -33,4 +33,4 @@ func max(a int,b int) int {
 		return b
 	}
 }
-```
+// ```

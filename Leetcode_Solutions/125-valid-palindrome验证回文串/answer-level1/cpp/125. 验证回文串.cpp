@@ -1,7 +1,7 @@
-## 借助辅助string
-**1. 把s中的数字和字母读入str中，并把大写字母改为小写
-2. 判断str是否对称**
-```cpp
+// ## 借助辅助string
+// **1. 把s中的数字和字母读入str中，并把大写字母改为小写
+// 2. 判断str是否对称**
+// ```cpp
 class Solution {
 public:
     bool isPalindrome(string s) {
@@ -21,16 +21,16 @@ public:
         return true;
     }
 };
-```
-## 双指针法
-**1. i从前开始遍历，j从后开始遍历
-2. 依次找到最前面和最后面的字母(数字)
-3. 边比较边i++,j--
-4. 若途中发现两边字母(数字)不同，返回false
-5. 当i>=j时，返回true**
+// ```
+// ## 双指针法
+// **1. i从前开始遍历，j从后开始遍历
+// 2. 依次找到最前面和最后面的字母(数字)
+// 3. 边比较边i++,j--
+// 4. 若途中发现两边字母(数字)不同，返回false
+// 5. 当i>=j时，返回true**
 
-**注意：'0'和'P'也符合 '0'-'P'=='a'-'A' ！！！**
-```cpp
+// **注意：'0'和'P'也符合 '0'-'P'=='a'-'A' ！！！**
+// ```cpp
 class Solution {
 public:
     bool isPalindrome(string s) {
@@ -50,9 +50,9 @@ public:
         return true;
     }
 };
-```
-## 哈希表法 慢
-```cpp
+// ```
+// ## 哈希表法 慢
+// ```cpp
 class Solution {
 private:
     int hash[36]={0};
@@ -88,4 +88,4 @@ public:
         return true;
     }
 };
-```
+// ```

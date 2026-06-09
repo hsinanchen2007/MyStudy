@@ -1,4 +1,4 @@
-```c# []
+// ```c# []
 public IList<string> CommonChars(string[] A) {
         var res=new int[A.Length,26];
         for(var i=0;i<A.Length;i++){
@@ -24,9 +24,9 @@ public IList<string> CommonChars(string[] A) {
         }
         return list;
     }
-```
-优化一下
-```
+// ```
+// 优化一下
+// ```
  public IList<string> CommonChars(string[] A)
         {
             var res = new int[26];
@@ -63,5 +63,5 @@ public IList<string> CommonChars(string[] A) {
             }
             return list;
         }
-```
+// ```
 

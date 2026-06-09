@@ -1,17 +1,17 @@
-### 解题思路
-![546A34E8-44E4-4170-88A8-3E615A2836CA.png](https://pic.leetcode-cn.com/c9fd4eda574d765d41adcb2ce443cfbfd01ea5fbb1e0288156d5bb159a941927-546A34E8-44E4-4170-88A8-3E615A2836CA.png)
-设置一个26位的数组
-1，赋初值为-1，表示字符串s中没有此字符
-2，如果出现重复字符，数组值为0
-3，不出现重复字符且为唯一字符，值为对应字符的索引值+1
+// ### 解题思路
+// ![546A34E8-44E4-4170-88A8-3E615A2836CA.png](https://pic.leetcode-cn.com/c9fd4eda574d765d41adcb2ce443cfbfd01ea5fbb1e0288156d5bb159a941927-546A34E8-44E4-4170-88A8-3E615A2836CA.png)
+// 设置一个26位的数组
+// 1，赋初值为-1，表示字符串s中没有此字符
+// 2，如果出现重复字符，数组值为0
+// 3，不出现重复字符且为唯一字符，值为对应字符的索引值+1
 
-最后，遍历26位的数组，找出最小的索引值即可
+// 最后，遍历26位的数组，找出最小的索引值即可
 
-p.s:总觉得我写的这个代码优化余地很大
+// p.s:总觉得我写的这个代码优化余地很大
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int firstUniqChar(String s) {
         if (s.length() == 0) {
@@ -45,4 +45,4 @@ class Solution {
         return (index == Integer.MAX_VALUE) ? -1 : index;
     }
 }
-```
+// ```

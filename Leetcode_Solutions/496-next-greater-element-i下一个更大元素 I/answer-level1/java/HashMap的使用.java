@@ -1,7 +1,7 @@
 
 
-### 代码
-```java
+// ### 代码
+// ```java
 class Solution {
     public static int[] nextGreaterElement(int[] nums1, int[] nums2) {
         HashMap<Integer,Integer> hmap = new HashMap<>();

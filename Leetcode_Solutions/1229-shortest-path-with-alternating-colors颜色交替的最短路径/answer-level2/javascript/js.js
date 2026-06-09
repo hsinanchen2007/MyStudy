@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number} n
  * @param {number[][]} red_edges
@@ -78,4 +78,4 @@ var shortestAlternatingPaths = function(n, red_edges, blue_edges) {
     return -1;
   }
 };
-```
+// ```

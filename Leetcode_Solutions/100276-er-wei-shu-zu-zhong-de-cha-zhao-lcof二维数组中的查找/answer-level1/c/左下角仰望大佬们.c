@@ -1,9 +1,9 @@
-### 解题思路
-左下角和右上其实思路是一个意思
+// ### 解题思路
+// 左下角和右上其实思路是一个意思
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool findNumberIn2DArray(int** matrix, int matrixSize, int* matrixColSize, int target){
    int flag = 0;
 
@@ -26,4 +26,4 @@ bool findNumberIn2DArray(int** matrix, int matrixSize, int* matrixColSize, int t
 
    return flag;
 }
-```
+// ```

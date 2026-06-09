@@ -1,4 +1,4 @@
-```
+// ```
 import "strings"
 
 const prime = 16777619
@@ -40,4 +40,4 @@ func longestDupSubstring(S string) string {
 	}
 	return out
 }
-```
+// ```

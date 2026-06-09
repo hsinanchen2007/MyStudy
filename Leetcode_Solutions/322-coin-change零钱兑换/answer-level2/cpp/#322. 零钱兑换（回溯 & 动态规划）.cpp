@@ -1,5 +1,5 @@
-### 回溯+备忘录
-```cpp
+// ### 回溯+备忘录
+// ```cpp
 class Solution {
 public:
     int coinChange(vector<int>& coins, int amount) {
@@ -28,18 +28,18 @@ private:
 private:
     int minCount = INT_MAX;
 };
-```
----
+// ```
+// ---
 
 
-### 动态规划
+// ### 动态规划
 
-#### 状态转移方程
-```cpp
+// #### 状态转移方程
+// ```cpp
 f(n) = min(f(n-coins[0]), f(n-coins[1]), ... ,f(n-coins[size-1])) + 1
-```
-#### 递归形式
-```cpp
+// ```
+// #### 递归形式
+// ```cpp
 class Solution {
 public:
     int coinChange(vector<int>& coins, int amount) {
@@ -67,10 +67,10 @@ private:
 private:
     vector<int> F;
 };
-```
+// ```
 
-#### 迭代形式
-```cpp
+// #### 迭代形式
+// ```cpp
 class Solution {
 public:
     int coinChange(vector<int>& coins, int amount) {
@@ -87,4 +87,4 @@ public:
         return dp[amount] == INT_MAX ? -1 : dp[amount];
     }
 };
-```
+// ```

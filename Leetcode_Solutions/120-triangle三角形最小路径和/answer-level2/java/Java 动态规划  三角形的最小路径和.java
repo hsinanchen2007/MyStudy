@@ -1,12 +1,12 @@
-### 解题思路
-动态规划。
-想象成一棵树，从下向上思考。
-递推公式：
-dp[i][j] = Math.min(dp[i + 1][j], dp[i + 1][j + 1]) + triangle.get(i).get(j);
+// ### 解题思路
+// 动态规划。
+// 想象成一棵树，从下向上思考。
+// 递推公式：
+// dp[i][j] = Math.min(dp[i + 1][j], dp[i + 1][j + 1]) + triangle.get(i).get(j);
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minimumTotal(List<List<Integer>> triangle) {
         if (triangle == null || triangle.size() == 0) {
@@ -30,4 +30,4 @@ class Solution {
         return dp[0][0];
     }
 }
-```
+// ```

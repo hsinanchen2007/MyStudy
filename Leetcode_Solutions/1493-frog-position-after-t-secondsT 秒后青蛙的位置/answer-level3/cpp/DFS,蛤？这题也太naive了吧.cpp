@@ -1,10 +1,10 @@
-### 解题思路
-map 统计所有边加快遍历速度
-count 计可走路径，+1s后，分支概率为 prob/count
-如果还有剩余时间但是没有可以走的路径，或者时间结束，则返回当前节点是否为目标
-### 代码
+// ### 解题思路
+// map 统计所有边加快遍历速度
+// count 计可走路径，+1s后，分支概率为 prob/count
+// 如果还有剩余时间但是没有可以走的路径，或者时间结束，则返回当前节点是否为目标
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     double dfs(map<int,vector<int>> &dict, vector<bool> &visit,int cur,int t,int target){
@@ -33,4 +33,4 @@ public:
         return dfs(dict,visit,1,t,target);
     }
 };
-```
+// ```

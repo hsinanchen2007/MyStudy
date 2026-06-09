@@ -1,11 +1,11 @@
-### 解题思路
-两次遍历
-1. 一次算出所有的和totalSum， 
-2. 另外一次先序遍历，totalSum减去已经遍历过的节点，就是剩余的和。与当前的节点的值相加就是值 
+// ### 解题思路
+// 两次遍历
+// 1. 一次算出所有的和totalSum， 
+// 2. 另外一次先序遍历，totalSum减去已经遍历过的节点，就是剩余的和。与当前的节点的值相加就是值 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -52,4 +52,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

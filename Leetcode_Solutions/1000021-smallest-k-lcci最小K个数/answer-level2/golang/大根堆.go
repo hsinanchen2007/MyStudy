@@ -1,4 +1,4 @@
-```go
+// ```go
 import (
 	"container/heap"
 	"sort"
@@ -58,4 +58,4 @@ func smallestK(arr []int, k int) []int {
 	return []int(*h)
 }
 
-```
+// ```

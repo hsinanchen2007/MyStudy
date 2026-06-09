@@ -1,12 +1,12 @@
-### 解题思路
-![屏幕快照 2019-12-12 上午11.04.52.png](https://pic.leetcode-cn.com/19cbdcc630b409113691d386432b5bf709a2d433c122ce63a2605043aa9d05ef-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-12-12%20%E4%B8%8A%E5%8D%8811.04.52.png)
+// ### 解题思路
+// ![屏幕快照 2019-12-12 上午11.04.52.png](https://pic.leetcode-cn.com/19cbdcc630b409113691d386432b5bf709a2d433c122ce63a2605043aa9d05ef-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-12-12%20%E4%B8%8A%E5%8D%8811.04.52.png)
 
-思路见下方注释
+// 思路见下方注释
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var buddyStrings = function(A, B) {
   if (A === "" && B === "") {
     return false
@@ -63,4 +63,4 @@ var buddyStrings = function(A, B) {
   }
 }
 
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-先把'R'找出来
-然后以'R'为起点，往四个方向上找
+# ### 解题思路
+# 先把'R'找出来
+# 然后以'R'为起点，往四个方向上找
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numRookCaptures(self, board: List[List[str]]) -> int:
         count = 0
@@ -61,4 +61,4 @@ class Solution:
                     break
         
         return count
-```
+# ```

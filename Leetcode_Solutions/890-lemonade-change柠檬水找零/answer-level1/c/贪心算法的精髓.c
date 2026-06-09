@@ -1,9 +1,9 @@
-### 解题思路
-优先使用 10元而不是5元，完美的诠释了贪心算法的精髓！！！！！
+// ### 解题思路
+// 优先使用 10元而不是5元，完美的诠释了贪心算法的精髓！！！！！
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool lemonadeChange(int* bills, int billsSize){
     int five = 0;
     int ten = 0;
@@ -31,4 +31,4 @@ bool lemonadeChange(int* bills, int billsSize){
     }
     return true;
 }
-```
+// ```

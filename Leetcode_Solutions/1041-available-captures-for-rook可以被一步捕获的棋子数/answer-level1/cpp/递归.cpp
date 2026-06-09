@@ -1,9 +1,9 @@
-### 解题思路
-参考别人的思路
+// ### 解题思路
+// 参考别人的思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 int move(vector< vector<char> > board, int cur_x, int cur_y, int x_d, int y_d)//递归模拟车的移动
@@ -52,4 +52,4 @@ int count = 0;
     }
 };
 
-```
+// ```

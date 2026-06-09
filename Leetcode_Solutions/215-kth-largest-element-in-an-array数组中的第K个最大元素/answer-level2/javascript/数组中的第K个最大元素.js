@@ -1,9 +1,9 @@
-### 解题思路
-我调库我光荣(手动狗头)
+// ### 解题思路
+// 我调库我光荣(手动狗头)
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} k
@@ -13,4 +13,4 @@ var findKthLargest = function(nums, k) {
     let arr=nums.sort((a,b)=>b-a);
     return arr[k-1]
 };
-```
+// ```

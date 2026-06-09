@@ -1,12 +1,12 @@
-### 解题思路
-这两种方法都是对整个数组从头开始求和，然后每次确定边界，看边界中间有多少个数:
-- 假设[i,j]是满足条件的一个区间那么有lower<=sum[i,j]<=upper，即lower<=sum(0,j]-sum(0,i)<=upper
-- 也就是看j前面的和有多少在区间[sum(0,j]-upper,sum(0,j]-lower]中
-方法很多，还可以用二分或二叉搜索树，我只写了暴力和树状数组的代码
+// ### 解题思路
+// 这两种方法都是对整个数组从头开始求和，然后每次确定边界，看边界中间有多少个数:
+// - 假设[i,j]是满足条件的一个区间那么有lower<=sum[i,j]<=upper，即lower<=sum(0,j]-sum(0,i)<=upper
+// - 也就是看j前面的和有多少在区间[sum(0,j]-upper,sum(0,j]-lower]中
+// 方法很多，还可以用二分或二叉搜索树，我只写了暴力和树状数组的代码
 
-### 代码
-暴力
-```
+// ### 代码
+// 暴力
+// ```
 class Solution {
 public:
     int countRangeSum(vector<int>& nums, int lower, int upper) {
@@ -25,9 +25,9 @@ public:
         return res;
     }
 };
-```
-树状数组
-```cpp
+// ```
+// 树状数组
+// ```cpp
 class Solution {
 public:
     vector<int>tree;
@@ -80,4 +80,4 @@ public:
         return x&(-x);
     }
 };
-```
+// ```

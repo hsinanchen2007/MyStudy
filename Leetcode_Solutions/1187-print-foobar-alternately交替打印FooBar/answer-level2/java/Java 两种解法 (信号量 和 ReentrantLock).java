@@ -1,8 +1,8 @@
-### 方法一 使用信号量
+// ### 方法一 使用信号量
 
-使用信号量的方式比较简洁, 设定两个信号量即可.
+// 使用信号量的方式比较简洁, 设定两个信号量即可.
 
-```Java
+// ```Java
 class FooBar {
     private int n;
     private final Semaphore fooSem;
@@ -30,22 +30,22 @@ class FooBar {
         }
     }
 }
-```
+// ```
 
-### 方法二 加锁 使用计数器
+// ### 方法二 加锁 使用计数器
 
-使用一个计数器 `cnt` 表示当前该谁来打印. 在调用 `printXXX()` 之前检查计数器的值:
+// 使用一个计数器 `cnt` 表示当前该谁来打印. 在调用 `printXXX()` 之前检查计数器的值:
 
-- 当 `cnt` 为 0 时才能调用 `printFoo()`, 调用后设置 `cnt` 为 1
-- 当 `cnt` 为 1 时才能调用 `printBar()`, 调用后设置 `cnt` 为 0
+// - 当 `cnt` 为 0 时才能调用 `printFoo()`, 调用后设置 `cnt` 为 1
+// - 当 `cnt` 为 1 时才能调用 `printBar()`, 调用后设置 `cnt` 为 0
 
-如果 `cnt` 不是当前的值, 就需要等待. 如果只使用一个简单的 `while` 循环: `while (cnt != 0);`, 会超时, 可以使用 `synchronized` + `wait()` + `notifyAll()` 来提速. *`wait()` 之后就不会无脑地一直循环了, 而是等待被 `notify`, 所以更快.*
+// 如果 `cnt` 不是当前的值, 就需要等待. 如果只使用一个简单的 `while` 循环: `while (cnt != 0);`, 会超时, 可以使用 `synchronized` + `wait()` + `notifyAll()` 来提速. *`wait()` 之后就不会无脑地一直循环了, 而是等待被 `notify`, 所以更快.*
 
-而相比于 `synchronized`, 使用 `ReentrantLock` + `Condition` 更快. 思路一样, 写法略有不同.
+// 而相比于 `synchronized`, 使用 `ReentrantLock` + `Condition` 更快. 思路一样, 写法略有不同.
 
-#### 使用 `synchronized`
+// #### 使用 `synchronized`
 
-```Java
+// ```Java
 class FooBar {
     private int n;
     private volatile int cnt;
@@ -85,11 +85,11 @@ class FooBar {
         }
     }
 }
-```
+// ```
 
-#### `ReenTrantLock` 速度较快
+// #### `ReenTrantLock` 速度较快
 
-```java
+// ```java
 class FooBar {
     private int n;
     private volatile int cnt;
@@ -136,4 +136,4 @@ class FooBar {
         }
     }
 }
-```
+// ```

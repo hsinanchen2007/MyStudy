@@ -1,9 +1,9 @@
-### 解题思路
-对于B[i]，对应A[]中比B[i]大的最小值，若不存在，则对应A[]中的最小值
+// ### 解题思路
+// 对于B[i]，对应A[]中比B[i]大的最小值，若不存在，则对应A[]中的最小值
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> advantageCount(vector<int>& A, vector<int>& B) {
@@ -30,4 +30,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,6 +1,6 @@
-这个是个简单题，代码那么长，合适吗？
+// 这个是个简单题，代码那么长，合适吗？
 
-```
+// ```
     public int[] kWeakestRows(int[][] mat, int k) {
         int[][] tmp = new int[mat.length][2];
         for(int i = 0; i < mat.length; i++){
@@ -16,4 +16,4 @@
         }
         return res;
     }
-```
+// ```

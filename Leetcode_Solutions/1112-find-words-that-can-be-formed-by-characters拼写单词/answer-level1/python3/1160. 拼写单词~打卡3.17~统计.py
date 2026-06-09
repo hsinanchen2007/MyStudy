@@ -1,10 +1,10 @@
-### 解题思路
-这道题使用统计的方法，使用字典记录words中每个单词中字符出现的次数， 以及记录chars中字符出现的次数（这样就能保证每个单词只能用一次）
-如果words中的单词都出现在了chars中，且出现次数小于等于chars中出现的，那么计入结果即可
+# ### 解题思路
+# 这道题使用统计的方法，使用字典记录words中每个单词中字符出现的次数， 以及记录chars中字符出现的次数（这样就能保证每个单词只能用一次）
+# 如果words中的单词都出现在了chars中，且出现次数小于等于chars中出现的，那么计入结果即可
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countCharacters(self, words: List[str], chars: str) -> int:
         from collections import defaultdict
@@ -35,4 +35,4 @@ class Solution:
         return ans
 
         
-```
+# ```

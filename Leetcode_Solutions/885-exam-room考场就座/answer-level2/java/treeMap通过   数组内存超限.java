@@ -1,15 +1,15 @@
-# 解法一
-`执行用时 :
-108 ms
-, 在所有 java 提交中击败了
-80.33%
-的用户
-内存消耗 :
-40.4 MB
-, 在所有 java 提交中击败了
-90.00%
-的用户`
-```
+// # 解法一
+// `执行用时 :
+// 108 ms
+// , 在所有 java 提交中击败了
+// 80.33%
+// 的用户
+// 内存消耗 :
+// 40.4 MB
+// , 在所有 java 提交中击败了
+// 90.00%
+// 的用户`
+// ```
 class ExamRoom {
     TreeMap<Integer,Integer> treeMap = new TreeMap<>();
     int n = 0;
@@ -55,11 +55,11 @@ class ExamRoom {
        treeMap.remove(p);
     }
 }
-```
+// ```
 
-# 解法二
-使用数组，内存超过限制...
-```
+// # 解法二
+// 使用数组，内存超过限制...
+// ```
 class ExamRoom {
     int[] arr = null;
 
@@ -104,4 +104,4 @@ class ExamRoom {
         arr[p] =0;
     }
 }
-```
+// ```

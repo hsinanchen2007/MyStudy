@@ -1,16 +1,16 @@
-#### 方法一：递归
+# #### 方法一：递归
 
-**直觉**
+# **直觉**
 
-最简单的策略是使用递归。首先判断 `p` 和 `q` 是不是 `None`，然后判断它们的值是否相等。
-若以上判断通过，则递归对子结点做同样操作。
+# 最简单的策略是使用递归。首先判断 `p` 和 `q` 是不是 `None`，然后判断它们的值是否相等。
+# 若以上判断通过，则递归对子结点做同样操作。
 
-**实现**
+# **实现**
 
-<![image.png](https://pic.leetcode-cn.com/ff74097c57e9bfcccd31f44cda2850ae9d287028ac7ac7dff3b409d497b4051d-image.png),![image.png](https://pic.leetcode-cn.com/725bea885f3c88791d8c891e3bb8efe957c206812ddc720127c3e6fd63e95af0-image.png),![image.png](https://pic.leetcode-cn.com/f9fa6061d9bd3109cf04cc5d49de4bd72f558c711c7d51f76afe162e6079acaa-image.png), ![image.png](https://pic.leetcode-cn.com/f1a4ca79a31df13e7048aa95592167e2523c5b7e1535f1216a188f95ca8a74c0-image.png), ![image.png](https://pic.leetcode-cn.com/0e9acd7d480af1ce73b823b70d8672a939794858687020b523554c5b0e33c2b5-image.png),![image.png](https://pic.leetcode-cn.com/fe7d618835cbf3ec88c82896aee4b6c14d675d7a90befd89e7f27255e4addb11-image.png)>
+# <![image.png](https://pic.leetcode-cn.com/ff74097c57e9bfcccd31f44cda2850ae9d287028ac7ac7dff3b409d497b4051d-image.png),![image.png](https://pic.leetcode-cn.com/725bea885f3c88791d8c891e3bb8efe957c206812ddc720127c3e6fd63e95af0-image.png),![image.png](https://pic.leetcode-cn.com/f9fa6061d9bd3109cf04cc5d49de4bd72f558c711c7d51f76afe162e6079acaa-image.png), ![image.png](https://pic.leetcode-cn.com/f1a4ca79a31df13e7048aa95592167e2523c5b7e1535f1216a188f95ca8a74c0-image.png), ![image.png](https://pic.leetcode-cn.com/0e9acd7d480af1ce73b823b70d8672a939794858687020b523554c5b0e33c2b5-image.png),![image.png](https://pic.leetcode-cn.com/fe7d618835cbf3ec88c82896aee4b6c14d675d7a90befd89e7f27255e4addb11-image.png)>
 
 
-```Python [solution 1]
+# ```Python [solution 1]
 class Solution:
     def isSameTree(self, p, q):
         """
@@ -28,9 +28,9 @@ class Solution:
             return False
         return self.isSameTree(p.right, q.right) and \
                self.isSameTree(p.left, q.left)
-```
+# ```
 
-```Java [solution 1]
+# ```Java [solution 1]
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -51,34 +51,34 @@ class Solution {
             isSameTree(p.left, q.left);
   }
 }
-```
+# ```
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度 : $O(N)$，其中 N 是树的结点数，因为每个结点都访问一次。
+# * 时间复杂度 : $O(N)$，其中 N 是树的结点数，因为每个结点都访问一次。
  
-* 空间复杂度 : 最优情况（完全平衡二叉树）时为 $O(\log(N))$，最坏情况下（完全不平衡二叉树）时为 ${O}(N)$，用于维护递归栈。
-<br />
-<br />
+# * 空间复杂度 : 最优情况（完全平衡二叉树）时为 $O(\log(N))$，最坏情况下（完全不平衡二叉树）时为 ${O}(N)$，用于维护递归栈。
+# <br />
+# <br />
 
 
----
-#### 方法二：迭代
+# ---
+# #### 方法二：迭代
 
-**直觉**
+# **直觉**
 
-从根开始，每次迭代将当前结点从双向队列中弹出。然后，进行方法一中的判断：
+# 从根开始，每次迭代将当前结点从双向队列中弹出。然后，进行方法一中的判断：
 
-- `p` 和 `q` 不是 `None`, 
+# - `p` 和 `q` 不是 `None`, 
 
-- `p.val` 等于 `q.val`,
+# - `p.val` 等于 `q.val`,
 
-若以上均满足，则压入子结点。
+# 若以上均满足，则压入子结点。
 
-**实现**
+# **实现**
 
 
-```Python [solution 2]
+# ```Python [solution 2]
 from collections import deque
 class Solution:
     def isSameTree(self, p, q):
@@ -109,9 +109,9 @@ class Solution:
                 deq.append((p.right, q.right))
                     
         return True
-```
+# ```
 
-```Java [solution 2]
+# ```Java [solution 2]
 class Solution {
   public boolean check(TreeNode p, TreeNode q) {
     // p and q are null
@@ -154,10 +154,10 @@ class Solution {
     return true;
   }
 }
-```
+# ```
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度 : $O(N)$，其中 N 是树的结点数，因为每个结点都访问一次。
+# * 时间复杂度 : $O(N)$，其中 N 是树的结点数，因为每个结点都访问一次。
  
-* 空间复杂度 : 最优情况（完全平衡二叉树）时为 $O(\log(N))$，最坏情况下（完全不平衡二叉树）时为 ${O}(N)$，用于维护双向队列。
+# * 空间复杂度 : 最优情况（完全平衡二叉树）时为 $O(\log(N))$，最坏情况下（完全不平衡二叉树）时为 ${O}(N)$，用于维护双向队列。

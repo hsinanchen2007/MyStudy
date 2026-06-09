@@ -1,9 +1,9 @@
 
-对于这道题，我的第一直觉是利用递归来按照逆序获取链表的尾部。
-示意图如下：
-![無題.png](https://pic.leetcode-cn.com/9f5c0eb53b64fd6d4ea19c27e27926bacea3e0968c4d23ca9316b307beb8d3d5-%E7%84%A1%E9%A1%8C.png)
-欢迎讨论
-```
+// 对于这道题，我的第一直觉是利用递归来按照逆序获取链表的尾部。
+// 示意图如下：
+// ![無題.png](https://pic.leetcode-cn.com/9f5c0eb53b64fd6d4ea19c27e27926bacea3e0968c4d23ca9316b307beb8d3d5-%E7%84%A1%E9%A1%8C.png)
+// 欢迎讨论
+// ```
 class Solution {
 public:
     ListNode* node;                         //新建一个节点用来保存当前排序进度
@@ -24,4 +24,4 @@ public:
                                             //判断是否完成排序。
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 class ListNode:
     def __init__(self, x):
@@ -56,4 +56,4 @@ class Solution:
         #     addTwoNumbers(self, l1.next, l2.next)
         # elif isinstance(l1.next, ListNode) and l2.next is None:
         #     l1.next.x = l1.next.x + l
-```
+# ```

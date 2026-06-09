@@ -1,6 +1,6 @@
-字典的key是字符串sorted后的输出，value是列表，装字母异位词
-ps:和大佬的哈希有差距
-```
+# 字典的key是字符串sorted后的输出，value是列表，装字母异位词
+# ps:和大佬的哈希有差距
+# ```
 class Solution(object):
     def groupAnagrams(self, strs):
         """
@@ -23,4 +23,4 @@ class Solution(object):
             res.append(zidian[j])
 
         return res
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 // 131. 分割回文串 https://leetcode-cn.com/problems/palindrome-partitioning/
 func partition(s string) [][]string {
@@ -49,4 +49,4 @@ func ispalindrome(s string) bool {
 	return true
 }
 
-```
+// ```

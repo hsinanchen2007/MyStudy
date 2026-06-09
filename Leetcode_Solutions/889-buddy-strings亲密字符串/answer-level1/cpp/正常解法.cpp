@@ -1,8 +1,8 @@
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool buddyStrings(string A, string B) {
@@ -31,4 +31,4 @@ public:
         return true;
     }
 };
-```
+// ```

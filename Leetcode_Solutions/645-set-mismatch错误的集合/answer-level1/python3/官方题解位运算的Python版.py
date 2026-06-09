@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findErrorNums(self, nums):
         xor = xor0 = xor1 = 0
@@ -26,4 +26,4 @@ class Solution:
             if nums[i] == xor0:
                 return [xor0, xor1]
         return [xor1, xor0]
-```
+# ```

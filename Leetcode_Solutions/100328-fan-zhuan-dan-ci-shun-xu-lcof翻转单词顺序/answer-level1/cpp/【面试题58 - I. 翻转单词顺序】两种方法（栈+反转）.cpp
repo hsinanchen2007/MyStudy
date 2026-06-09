@@ -1,10 +1,10 @@
-## 思路一：栈
-通过空格分割单词并放入栈中，然后依次从栈中取出。
+// ## 思路一：栈
+// 通过空格分割单词并放入栈中，然后依次从栈中取出。
 
-### 代码
-时间复杂度：O(n)
-空间复杂度：O(n)
-```cpp
+// ### 代码
+// 时间复杂度：O(n)
+// 空间复杂度：O(n)
+// ```cpp
 class Solution {
 public:
     string reverseWords(string s) {
@@ -24,11 +24,11 @@ public:
         return res;
     }
 };
-```
+// ```
 
-### 另一种写法
-将字符串放入vector中，然后从后向前遍历。
-```c++
+// ### 另一种写法
+// 将字符串放入vector中，然后从后向前遍历。
+// ```c++
 class Solution {
 public:
     string reverseWords(string s) {
@@ -45,16 +45,16 @@ public:
         return res;
     }
 };
-```
+// ```
 
 
-## 思路二：reverse
-从前向后，先对每个单词反转，再对整个句子反转。
+// ## 思路二：reverse
+// 从前向后，先对每个单词反转，再对整个句子反转。
 
-### 代码
-时间复杂度：O(n)
-空间复杂度：O(1)
-```c++
+// ### 代码
+// 时间复杂度：O(n)
+// 空间复杂度：O(1)
+// ```c++
 class Solution {
 public:
     string reverseWords(string s) {
@@ -76,4 +76,4 @@ public:
         return res;
     }
 };
-```
+// ```

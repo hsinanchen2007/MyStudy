@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-时间复杂度：O(A.length)
-空间复杂度：A,i,O(2)
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 时间复杂度：O(A.length)
+// 空间复杂度：A,i,O(2)
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maximum69Number (int num) {
         //int flag=0;
@@ -22,4 +22,4 @@ class Solution {
         return Integer.parseInt(String.valueOf(A));//现将数组转换为字符串，然后转换为int型
     }
 }
-```
+// ```

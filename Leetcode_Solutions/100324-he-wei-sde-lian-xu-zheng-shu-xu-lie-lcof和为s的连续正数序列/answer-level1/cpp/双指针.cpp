@@ -1,9 +1,9 @@
-### 解题思路
-用两个指针l,r分别移动进行判断。
+// ### 解题思路
+// 用两个指针l,r分别移动进行判断。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> findContinuousSequence(int target) {
@@ -33,4 +33,4 @@ public:
         return ans;
     }
 };
-```
+// ```

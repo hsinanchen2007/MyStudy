@@ -1,10 +1,10 @@
 
-![7t0ms.png](https://pic.leetcode-cn.com/8b642f90a65141f08d30b8705f78bb83d1a0230bdb22b32c6ca452d33c96a078-7t0ms.png)
+// ![7t0ms.png](https://pic.leetcode-cn.com/8b642f90a65141f08d30b8705f78bb83d1a0230bdb22b32c6ca452d33c96a078-7t0ms.png)
 
-Go 的取模运算很方便，不用单独判断正负了。
+// Go 的取模运算很方便，不用单独判断正负了。
 
-代码：
-```
+// 代码：
+// ```
 func reverse(x int) int {
     y := 0
     for x!=0 {
@@ -16,4 +16,4 @@ func reverse(x int) int {
     }
     return y
 }
-```
+// ```

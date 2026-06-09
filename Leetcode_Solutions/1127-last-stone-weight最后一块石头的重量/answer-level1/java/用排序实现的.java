@@ -1,4 +1,4 @@
-按自己的理解写的`int result = 0;
+// 按自己的理解写的`int result = 0;
         if (stones==null){
             return result;
         }

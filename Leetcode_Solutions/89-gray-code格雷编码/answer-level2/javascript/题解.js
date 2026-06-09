@@ -1,11 +1,11 @@
-### 解题思路
-1、找出镜像规律
-2、递归求解
-3、操作二进制字符串，最后再转成10进制数字
+// ### 解题思路
+// 1、找出镜像规律
+// 2、递归求解
+// 3、操作二进制字符串，最后再转成10进制数字
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {number[]}
@@ -26,4 +26,4 @@ var grayCode = function(n) {
   }
   return make(n).map(item => parseInt(item, 2))
 };
-```
+// ```

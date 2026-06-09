@@ -1,10 +1,10 @@
-### 解题思路
-执行用时 :8 ms, 在所有 C 提交中击败了95.44%的用户
-内存消耗 :6.1 MB, 在所有 C 提交中击败了100.00%的用户
+// ### 解题思路
+// 执行用时 :8 ms, 在所有 C 提交中击败了95.44%的用户
+// 内存消耗 :6.1 MB, 在所有 C 提交中击败了100.00%的用户
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int findLengthOfLCIS(int* nums, int numsSize){
     if(numsSize<2)
         return numsSize;
@@ -22,4 +22,4 @@ int findLengthOfLCIS(int* nums, int numsSize){
     }
     return max>cnt?max:cnt;
 }
-```
+// ```

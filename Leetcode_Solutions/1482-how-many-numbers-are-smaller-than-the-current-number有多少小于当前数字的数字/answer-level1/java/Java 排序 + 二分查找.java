@@ -1,9 +1,9 @@
-### 解题思路
-    先copy一份数组，然后给排序一下，用二分查找找到每个元素在排好序数组中的位置，位置是多少，前面就有几个比它小的，如果有重复的就往左循环移动。
+// ### 解题思路
+//     先copy一份数组，然后给排序一下，用二分查找找到每个元素在排好序数组中的位置，位置是多少，前面就有几个比它小的，如果有重复的就往左循环移动。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] smallerNumbersThanCurrent(int[] nums) {
         int[] res = new int[nums.length];
@@ -39,4 +39,4 @@ class Solution {
 
     }
 }
-```
+// ```

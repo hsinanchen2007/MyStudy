@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int myAtoi(string str) {
@@ -32,4 +32,4 @@ public:
         if (flag == -1)   ans = -ans;
 
         return ans;
-```
+// ```

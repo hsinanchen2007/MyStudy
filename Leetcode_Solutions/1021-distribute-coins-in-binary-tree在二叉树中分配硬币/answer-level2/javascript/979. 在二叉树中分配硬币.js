@@ -1,11 +1,11 @@
-### 解题思路
-深度优先遍历的时候要保留两个值才能保证返回。
-- 首先要保留深度优先遍历移动之后该节点的值
-- 然后在深度优先遍历过程中迭代步长
+// ### 解题思路
+// 深度优先遍历的时候要保留两个值才能保证返回。
+// - 首先要保留深度优先遍历移动之后该节点的值
+// - 然后在深度优先遍历过程中迭代步长
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -29,4 +29,4 @@ var distributeCoins = function(root) {
    helper(root);
    return path;
 };
-```
+// ```

@@ -1,17 +1,17 @@
-同习题 [322. 零钱兑换](https://leetcode-cn.com/problems/coin-change/solution/gelthin-jie-sheng-kong-jian-yong-dict-by-gelthin/)
+# 同习题 [322. 零钱兑换](https://leetcode-cn.com/problems/coin-change/solution/gelthin-jie-sheng-kong-jian-yong-dict-by-gelthin/)
 
-思路很像。
-最开始用蛮力递归， 后来用 DP, 但DP 数组太多，后来用带存储值的递归，但只计算部分状态。
+# 思路很像。
+# 最开始用蛮力递归， 后来用 DP, 但DP 数组太多，后来用带存储值的递归，但只计算部分状态。
 
-注意状态转移方程， 
-+ DP[n] = DP[n-coin] +1 
-+ 而不是DP[n] = min( DP[x] + DP[i-x] for x in range(n))
-也即不需要去枚举所有的DP 前的状态 
+# 注意状态转移方程， 
+# + DP[n] = DP[n-coin] +1 
+# + 而不是DP[n] = min( DP[x] + DP[i-x] for x in range(n))
+# 也即不需要去枚举所有的DP 前的状态 
 
-按照官方题解所说，下面代码在 python2 可以过，但 python3 过不了很奇怪。
-官方题解还提供了很多其他的做法，非常巧妙。
+# 按照官方题解所说，下面代码在 python2 可以过，但 python3 过不了很奇怪。
+# 官方题解还提供了很多其他的做法，非常巧妙。
 
-``` python3
+# ``` python3
 class Solution:
     def numSquares(self, n: int) -> int:
         # DP = [x for x in range(n+1)] # 初始化为 [1,2,3,4,5,6]
@@ -46,5 +46,5 @@ class Solution:
         t = int(math.sqrt(n))
         vals = [x**2 for x in range(1, t+1)] 
         return helper(n, DP, vals)
-```
+# ```
 

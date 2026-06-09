@@ -1,10 +1,10 @@
-### 解题思路
-![25844004-5A59-4f9c-81E1-86904A04D7B6.png](https://pic.leetcode-cn.com/bfb4fec0a221a9f44067a5dea3751b438bffb447e936785049720cf16ac9defc-25844004-5A59-4f9c-81E1-86904A04D7B6.png)
-具体可以看这个视频[https://www.bilibili.com/video/av35235691](https://www.bilibili.com/video/av35235691)
+// ### 解题思路
+// ![25844004-5A59-4f9c-81E1-86904A04D7B6.png](https://pic.leetcode-cn.com/bfb4fec0a221a9f44067a5dea3751b438bffb447e936785049720cf16ac9defc-25844004-5A59-4f9c-81E1-86904A04D7B6.png)
+// 具体可以看这个视频[https://www.bilibili.com/video/av35235691](https://www.bilibili.com/video/av35235691)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool canMeasureWater(int x, int y, int z) {  
@@ -33,4 +33,4 @@ public:
             return false;
     }
 };
-```
+// ```

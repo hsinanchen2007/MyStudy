@@ -1,29 +1,29 @@
-# 35 - 杨辉三角2
+// # 35 - 杨辉三角2
 
-## 题目
+// ## 题目
 
-给定一个非负索引 *k*，其中 *k* ≤ 33，返回杨辉三角的第 *k* 行。
+// 给定一个非负索引 *k*，其中 *k* ≤ 33，返回杨辉三角的第 *k* 行。
 
-![img](https://pic.leetcode-cn.com/e4f962a630c04f4869438a5a5ee8384da74f04c7adb0e88d84c9f8938d8fec86.gif)
+// ![img](https://pic.leetcode-cn.com/e4f962a630c04f4869438a5a5ee8384da74f04c7adb0e88d84c9f8938d8fec86.gif)
 
-在杨辉三角中，每个数是它左上方和右上方的数的和。
+// 在杨辉三角中，每个数是它左上方和右上方的数的和。
 
-示例:
+// 示例:
 
-> 输入: 3
-> 输出: [1,3,3,1]
+// > 输入: 3
+// > 输出: [1,3,3,1]
 
-进阶：
+// 进阶：
 
-你可以优化你的算法到 O(k) 空间复杂度吗？
+// 你可以优化你的算法到 O(k) 空间复杂度吗？
 
-## 解答
+// ## 解答
 
-返回第k行，拿到题目就有两个想法。【其实是在返回k+1行，第一行他没算】
+// 返回第k行，拿到题目就有两个想法。【其实是在返回k+1行，第一行他没算】
 
-可以直接把杨辉三角的代码，返回最后一行；
+// 可以直接把杨辉三角的代码，返回最后一行；
 
-```js
+// ```js
 var getRow = function (rowIndex) {
   const result = [];
   for (let i = 0; i < rowIndex + 1; i++) {
@@ -38,15 +38,15 @@ var getRow = function (rowIndex) {
   }
   return result[result.length - 1]
 };
-```
+// ```
 
-> Runtime: 56 ms, faster than 61.34% of JavaScript online submissions for Pascal's Triangle II.
->
-> Memory Usage: 33.9 MB, less than 65.19% of JavaScript online submissions for Pascal's Triangle II.
+// > Runtime: 56 ms, faster than 61.34% of JavaScript online submissions for Pascal's Triangle II.
+// >
+// > Memory Usage: 33.9 MB, less than 65.19% of JavaScript online submissions for Pascal's Triangle II.
 
-也有数学方法可以直接得出某一行的代码。
+// 也有数学方法可以直接得出某一行的代码。
 
-```js
+// ```js
 /**
  * @param {number} rowIndex
  * @return {number[]}
@@ -91,8 +91,8 @@ var factor = function (n, total = 1) {
     return factor(n - 1, n * total)
   }
 }
-```
+// ```
 
-> Runtime: 48 ms, faster than 93.64% of JavaScript online submissions for Pascal's Triangle II.
->
-> Memory Usage: 34.3 MB, less than 33.33% of JavaScript online submissions for Pascal's Triangle II.
+// > Runtime: 48 ms, faster than 93.64% of JavaScript online submissions for Pascal's Triangle II.
+// >
+// > Memory Usage: 34.3 MB, less than 33.33% of JavaScript online submissions for Pascal's Triangle II.

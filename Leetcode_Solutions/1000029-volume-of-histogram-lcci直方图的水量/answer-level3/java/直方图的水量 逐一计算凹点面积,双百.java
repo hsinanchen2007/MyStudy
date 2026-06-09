@@ -1,12 +1,12 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/c437fe7126387944568ad302b9c1a59956c932ccbe437d0e422ede2902cf689f-image.png)
-首先距离至少大于等于3才有可能出现凹点,
-其次i>i+1,才会以i开始到j存在凹点
-逐一计算每一个出现的面积
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/c437fe7126387944568ad302b9c1a59956c932ccbe437d0e422ede2902cf689f-image.png)
+// 首先距离至少大于等于3才有可能出现凹点,
+// 其次i>i+1,才会以i开始到j存在凹点
+// 逐一计算每一个出现的面积
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int trap(int[] height) {
         int result=0;
@@ -40,4 +40,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

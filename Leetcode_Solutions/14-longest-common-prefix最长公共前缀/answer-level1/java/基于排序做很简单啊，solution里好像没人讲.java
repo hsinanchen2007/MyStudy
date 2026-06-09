@@ -1,9 +1,9 @@
-### 解题思路
-首先把数组排序，问题就转变成第一个字符串和最后一个字符串公共前缀的问题了
+// ### 解题思路
+// 首先把数组排序，问题就转变成第一个字符串和最后一个字符串公共前缀的问题了
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String longestCommonPrefix(String[] strs) {
         if(strs==null||strs.length==0)
@@ -29,4 +29,4 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```

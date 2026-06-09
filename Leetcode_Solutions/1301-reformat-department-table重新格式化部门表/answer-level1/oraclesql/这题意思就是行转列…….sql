@@ -1,5 +1,5 @@
-关于效率……我真不知道如何提高了……
-```
+-- 关于效率……我真不知道如何提高了……
+-- ```
 SELECT 
 id "id",
 MAX(DECODE(month,'Jan',revenue,null)) "Jan_Revenue",
@@ -16,4 +16,4 @@ MAX(DECODE(month,'Nov',revenue,null)) "Nov_Revenue",
 MAX(DECODE(month,'Dec',revenue,null)) "Dec_Revenue" 
 FROM Department 
 GROUP BY id
-```
+-- ```

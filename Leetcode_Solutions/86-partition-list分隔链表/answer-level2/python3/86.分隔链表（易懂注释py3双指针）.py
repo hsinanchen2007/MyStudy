@@ -1,5 +1,5 @@
-#双指针方法
-```python []
+# #双指针方法
+# ```python []
 class Solution:
     def partition(self, head: ListNode, x: int) -> ListNode: 
         if head is None:

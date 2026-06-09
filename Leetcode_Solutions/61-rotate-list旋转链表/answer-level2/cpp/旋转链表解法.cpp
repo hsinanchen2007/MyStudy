@@ -1,45 +1,45 @@
-## 1. 获取链表节点的数量
-这里是递归获取链表节点的代码
-```cpp
+// ## 1. 获取链表节点的数量
+// 这里是递归获取链表节点的代码
+// ```cpp
 int getCount(ListNode* head) {
     return head ? (head->next ? 1 + getCount(head->next) : 1) : 0;
 }
-```
-```cpp
+// ```
+// ```cpp
 int count = getCount(head);
-```
-## 2. 对k求模
-计算k与节点数量的模，如果节点数量为0或者k与节点数量的模为0，则返回原链表。
-```cpp
+// ```
+// ## 2. 对k求模
+// 计算k与节点数量的模，如果节点数量为0或者k与节点数量的模为0，则返回原链表。
+// ```cpp
 if (count == 0 || (k = k % count) == 0) return head;
-```
-## 3. 断开链表
-把节点断开为前后两部分，前面那部分数量为(节点数量-k)，后面部分的节点数量为k. 获取前链表的尾部(front_tail), 则后链表的头部(back_head)为前链表尾部的下一节点.
-```cpp
+// ```
+// ## 3. 断开链表
+// 把节点断开为前后两部分，前面那部分数量为(节点数量-k)，后面部分的节点数量为k. 获取前链表的尾部(front_tail), 则后链表的头部(back_head)为前链表尾部的下一节点.
+// ```cpp
 ListNode * front_tail = getElement(head, count - k - 1);
 ListNode * back_head = front_tail->next;
-```
-根据索引获取链表节点的方式如下:
-```cpp
+// ```
+// 根据索引获取链表节点的方式如下:
+// ```cpp
 ListNode* getElement(ListNode* head, int index) {
     return index ? getElement(head->next, index - 1) : head;
 }
-```
-## 4. 调换链表位置
-将前链表的尾部(front_tail)置空，后链表的尾部(back_tail)指向原来的头部(head)。
-```cpp
+// ```
+// ## 4. 调换链表位置
+// 将前链表的尾部(front_tail)置空，后链表的尾部(back_tail)指向原来的头部(head)。
+// ```cpp
 front_tail->next = NULL;
 ListNode * back_tail = getLast(back_head);
 back_tail->next = head;
-```
-递归获取链表最后一个节点的方式如下:
-```cpp
+// ```
+// 递归获取链表最后一个节点的方式如下:
+// ```cpp
 ListNode* getLast(ListNode* head) {
     return head ? (head->next ? getLast(head->next): head) : head;
 }
-```
-完整的C++代码如下:
-```cpp
+// ```
+// 完整的C++代码如下:
+// ```cpp
 #include <iostream>
 using namespace std;
 struct ListNode {
@@ -90,4 +90,4 @@ int main(int argc, const char * argv[]) {
     return 0;
 }
 
-```
+// ```

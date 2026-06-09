@@ -1,4 +1,4 @@
-```Java
+// ```Java
 public boolean canThreePartsEqualSum(int[] A) {
     // 求和
     int sum = 0;
@@ -31,4 +31,4 @@ public boolean canThreePartsEqualSum(int[] A) {
     }
     return false;
 }
-```
+// ```

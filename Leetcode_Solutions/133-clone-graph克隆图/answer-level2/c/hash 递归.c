@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for a Node.
  * struct Node {
@@ -66,4 +66,4 @@ struct Node *cloneGraph(struct Node *s)
     cnt = 0;
     return Process(s);
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
     nums1 = append(nums1, nums2...)
     lenn := len(nums1)
@@ -46,6 +46,6 @@ func quickSort(arr []int, left, right int) {
 		quickSort(arr, part[1]+1, right)
 	}
 }
-```
-![image.png](https://pic.leetcode-cn.com/e0ed5ca45e96ff301dd0679f36a8c6fdbc910ae218e359aa3112ea70982861b0-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/e0ed5ca45e96ff301dd0679f36a8c6fdbc910ae218e359aa3112ea70982861b0-image.png)
 

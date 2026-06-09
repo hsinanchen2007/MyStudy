@@ -1,10 +1,10 @@
-### 解题思路
-1，构建单调数据，保证从大到小
-2，凡是遇到不符合单调的数则二分查找寻求最远的小于等于该值的下标
+// ### 解题思路
+// 1，构建单调数据，保证从大到小
+// 2，凡是遇到不符合单调的数则二分查找寻求最远的小于等于该值的下标
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int bisearch(const vector<int>& A, vector<int>& indices, int t) {
@@ -36,5 +36,5 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/8f2042724ce7118be4daabb7026b916c8bd551dff430847b438b850ec81c8637-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/8f2042724ce7118be4daabb7026b916c8bd551dff430847b438b850ec81c8637-image.png)

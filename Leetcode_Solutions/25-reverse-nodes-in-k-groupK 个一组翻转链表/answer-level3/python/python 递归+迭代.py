@@ -1,9 +1,9 @@
-### 解题思路
-如果知道 k 个一组的链表翻转结果 head,tail,就容易完成递归；tail.next 为下一组k个链表的表头。
+# ### 解题思路
+# 如果知道 k 个一组的链表翻转结果 head,tail,就容易完成递归；tail.next 为下一组k个链表的表头。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -39,4 +39,4 @@ class Solution:
         return h
 
 
-```
+# ```

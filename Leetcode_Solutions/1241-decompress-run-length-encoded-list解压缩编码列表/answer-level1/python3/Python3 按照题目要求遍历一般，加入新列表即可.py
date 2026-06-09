@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def decompressRLElist(self, nums: List[int]) -> List[int]:
         new_nums=[]
@@ -7,4 +7,4 @@ class Solution:
                 for _ in range(nums[i]):
                     new_nums.append(nums[i+1])
         return new_nums
-```
+# ```

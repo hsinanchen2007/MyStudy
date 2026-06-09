@@ -1,9 +1,9 @@
-### 解题思路
-利用一个假的头指针， 这是比较通用的一个技巧， 感觉这题目最重要的就是这点
+// ### 解题思路
+// 利用一个假的头指针， 这是比较通用的一个技巧， 感觉这题目最重要的就是这点
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -30,4 +30,4 @@ class Solution {
         return dummy.next;
     }
 }
-```
+// ```

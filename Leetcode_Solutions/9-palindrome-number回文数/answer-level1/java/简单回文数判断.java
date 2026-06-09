@@ -1,9 +1,9 @@
-### 解题思路
-先判断基本的小于0和等于0，然后取每一位，然后从一个从左到右遍历，另一个从右到左遍历。如果都一致那么是回文。反之不是
+// ### 解题思路
+// 先判断基本的小于0和等于0，然后取每一位，然后从一个从左到右遍历，另一个从右到左遍历。如果都一致那么是回文。反之不是
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 import java.lang.Math;
 class Solution {
     public boolean isPalindrome(int x) {
@@ -29,4 +29,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

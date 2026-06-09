@@ -1,10 +1,10 @@
-### 解题思路
-1.为了方便(防止重复计算)，需要将二叉树的每个父节点变成--此节点的value + 所有孩子节点的value-- 可以用后序遍历
-2.然后遍历树，找出最大乘积即可
+// ### 解题思路
+// 1.为了方便(防止重复计算)，需要将二叉树的每个父节点变成--此节点的value + 所有孩子节点的value-- 可以用后序遍历
+// 2.然后遍历树，找出最大乘积即可
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -36,4 +36,4 @@ int maxProduct(struct TreeNode* root){
     DFS(root);
     return best%1000000007;
 }
-```
+// ```

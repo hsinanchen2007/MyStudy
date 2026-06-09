@@ -1,9 +1,9 @@
 
-解题思路：
-1：将sentence处理成字符串p
-2：将p放入屏幕矩阵中，通过getEndPoint函数，根据字符串在矩阵的起始位置，获取该字符串在矩阵中的最后一个字符的坐标位置。
-3：getEndPoint中，判断当前行是否能装下该字符串，如果装不下，把剩下的字符串截断，再递归通过getEndPoint递归计算最后一个字符的坐标位置
-```
+// 解题思路：
+// 1：将sentence处理成字符串p
+// 2：将p放入屏幕矩阵中，通过getEndPoint函数，根据字符串在矩阵的起始位置，获取该字符串在矩阵中的最后一个字符的坐标位置。
+// 3：getEndPoint中，判断当前行是否能装下该字符串，如果装不下，把剩下的字符串截断，再递归通过getEndPoint递归计算最后一个字符的坐标位置
+// ```
 
 func wordsTyping(sentence []string, rows int, cols int) int {
 	p := strings.Join(sentence," ")
@@ -43,4 +43,4 @@ func getEndPoint(p string,rowStart,colStart,rows,cols int)(rowEnd,colEnd int) {
 	}
 	return getEndPoint(pNew,rowStart+1,0,rows,cols)
 }
-```
+// ```

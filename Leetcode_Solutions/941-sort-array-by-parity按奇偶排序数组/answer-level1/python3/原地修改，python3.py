@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def sortArrayByParity(self, A: List[int]) -> List[int]:
         start,end=0,len(A)-1
@@ -12,4 +12,4 @@ class Solution:
                 end-=1
         return A
 
-```
+# ```

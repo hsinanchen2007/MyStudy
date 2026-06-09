@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def middleNode(self, head):
         """
@@ -12,4 +12,4 @@ class Solution(object):
             temp = temp.next
         result[-1].next = None
         return result[len(result)//2]
-```
+# ```

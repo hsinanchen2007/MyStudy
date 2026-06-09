@@ -1,9 +1,9 @@
-### 解题思路
-两者的区别在于 DFS 使用 Stack 而 BFS 使用 Queue.
+// ### 解题思路
+// 两者的区别在于 DFS 使用 Stack 而 BFS 使用 Queue.
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int movingCount(int m, int n, int k) {
         //BFS
@@ -66,4 +66,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

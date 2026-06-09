@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def numSteps(self, s: str) -> int:
         if s == "1":return 0
@@ -15,4 +15,4 @@ class Solution:
                     s = s[:right]+'1'+'0'*(n - right - 1)
             step += 1
         return step
-```
+# ```

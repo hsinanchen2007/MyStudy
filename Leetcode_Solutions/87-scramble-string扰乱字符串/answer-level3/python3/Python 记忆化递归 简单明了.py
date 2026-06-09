@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/4939d2b871b5e81e502bb1223824b2e0c3ab6ef29286565cf81f2f082ff22867-image.png)
+# ![image.png](https://pic.leetcode-cn.com/4939d2b871b5e81e502bb1223824b2e0c3ab6ef29286565cf81f2f082ff22867-image.png)
 
 
-```
+# ```
 '''
 两个字符串要能互相转换，要么前半部分后后半部分都能相互转换
 或者s1前半部分和s2后半部分能相互转换且s1后半部分和s2前半部分能相互
@@ -27,4 +27,4 @@ class Solution:
                (self.isScramble(s1[:mid], s2[-mid:]) and self.isScramble(s1[mid:], s2[:len(s1)-mid])):
                 return True
         return False
-```
+# ```

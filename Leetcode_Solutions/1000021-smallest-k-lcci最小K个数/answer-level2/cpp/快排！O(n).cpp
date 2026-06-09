@@ -1,8 +1,8 @@
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> smallestK(vector<int>& arr, int k) {
@@ -44,4 +44,4 @@ public:
     		swap(arr[mid],arr[l]);
     }
 };
-```
+// ```

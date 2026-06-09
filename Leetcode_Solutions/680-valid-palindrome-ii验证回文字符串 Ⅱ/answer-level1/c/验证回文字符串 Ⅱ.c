@@ -1,4 +1,4 @@
-```
+// ```
 bool checkIsPalindrome(char* s,int left,int right) {
     while(left < right) {
         if(s[left] != s[right]) {
@@ -31,4 +31,4 @@ bool validPalindrome(char * s){
     }
     return true;
 }
-```
+// ```

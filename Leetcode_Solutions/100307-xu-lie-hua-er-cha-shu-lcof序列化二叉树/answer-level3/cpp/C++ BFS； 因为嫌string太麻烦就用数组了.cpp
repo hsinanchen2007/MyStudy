@@ -1,7 +1,7 @@
-**解题思路**
-用INT_MIN表示空节点
-幸亏测试用例中没有INT_MIN,不然真的不得不用string
-```
+// **解题思路**
+// 用INT_MIN表示空节点
+// 幸亏测试用例中没有INT_MIN,不然真的不得不用string
+// ```
 class Codec {
 public:
     // Encodes a tree to a single string.
@@ -33,4 +33,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,10 +1,10 @@
-# 学习自[@liuyubobobo](/u/liuyubobobo/)
+// # 学习自[@liuyubobobo](/u/liuyubobobo/)
 
-[慕课网刘宇波老师](https://coding.imooc.com/lesson/82.html)的[玩转算法面试课程](https://github.com/liuyubobobo/Play-with-Algorithm-Interview/tree/master/03-Using-Array/Course%20Code%20(Java)/08-Longest-Substring-Without-Repeating-Characters/src)
+// [慕课网刘宇波老师](https://coding.imooc.com/lesson/82.html)的[玩转算法面试课程](https://github.com/liuyubobobo/Play-with-Algorithm-Interview/tree/master/03-Using-Array/Course%20Code%20(Java)/08-Longest-Substring-Without-Repeating-Characters/src)
 
-## 1. 滑动窗口
+// ## 1. 滑动窗口
 
-```go
+// ```go
 // 滑动窗口 时间复杂度: O(len(s)) 空间复杂度: O(len(charset))
 func lengthOfLongestSubstring(s string) int {
   freq := make([]int, 256)
@@ -33,11 +33,11 @@ func max(a, b int) int {
   }
   return b
 }
-```
+// ```
 
-## 2. 滑动窗口代码优化
+// ## 2. 滑动窗口代码优化
 
-```go
+// ```go
 // 滑动窗口代码优化 时间复杂度: O(len(s)) 空间复杂度: O(len(charset))
 func lengthOfLongestSubstring(s string) int {
   freq := make([]int, 256)
@@ -63,11 +63,11 @@ func max(a, b int) int {
   }
   return b
 }
-```
+// ```
 
-## 3. 滑动窗口另一种实现,仅做参考
+// ## 3. 滑动窗口另一种实现,仅做参考
 
-```go
+// ```go
 // 滑动窗口另一种实现,仅做参考 时间复杂度: O(len(s)) 空间复杂度: O(len(charset))
 func lengthOfLongestSubstring(s string) int {
   freq := make([]int, 256)
@@ -98,11 +98,11 @@ func max(a, b int) int {
   }
   return b
 }
-```
+// ```
 
-## 4. 滑动窗口左指针的跳跃
+// ## 4. 滑动窗口左指针的跳跃
 
-```go
+// ```go
 // l每次可以向前跳跃,而不仅仅是+1,但代价是,为了获得这个跳跃位置,每次需要遍历整个窗口的字符串
 // 时间复杂度: O(len(s)*len(charset)) 空间复杂度: O(1)
 func lengthOfLongestSubstring(s string) int {
@@ -135,11 +135,11 @@ func max(a, b int) int {
   }
   return b
 }
-```
+// ```
 
-## 5. 滑动窗口-使用last[c]保存字符c上一次出现的位置
+// ## 5. 滑动窗口-使用last[c]保存字符c上一次出现的位置
 
-```go
+// ```go
 // 滑动窗口 其中使用last[c]保存字符c上一次出现的位置,用于在右边界发现重复字符时,快速移动左边界
 // 使用这种方法,时间复杂度依然为O(n),但是只需要动r指针,实际上对整个s只遍历一次
 // 相较而言,之前的方法,需要移动l和r两个指针,相对于对s遍历了两次
@@ -168,11 +168,11 @@ func max(a, b int) int {
   }
   return b
 }
-```
+// ```
 
-# Go语言map使用
+// # Go语言map使用
 
-```go
+// ```go
 func lengthOfLongestSubstring(s string) int {
 	lastOccurred := make(map[rune]int) // 记录已经访问的字母
 	l := 0                             // 左边界的指针
@@ -188,4 +188,4 @@ func lengthOfLongestSubstring(s string) int {
 	}
 	return res
 }
-```
+// ```

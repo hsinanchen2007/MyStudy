@@ -1,9 +1,9 @@
-### 解题思路
-c代码
+// ### 解题思路
+// c代码
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -67,4 +67,4 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
 	tail->next = NULL;
 	return head;
 }
-```
+// ```

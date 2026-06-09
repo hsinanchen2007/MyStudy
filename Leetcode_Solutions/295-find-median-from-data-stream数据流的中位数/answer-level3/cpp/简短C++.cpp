@@ -1,4 +1,4 @@
-```
+// ```
 class MedianFinder {
 public:
     multiset<int> set;
@@ -19,4 +19,4 @@ public:
         else return (*it + *next(it, 1)) / 2.0;
     }
 };
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-按照给的numRows建立一个二维vector
-遍历s，把对应的字符放到应该在的行中去，也就是把它push进对应行的vector。
-在遍历输出
-注意特殊情况
-### 代码
+// ### 解题思路
+// 按照给的numRows建立一个二维vector
+// 遍历s，把对应的字符放到应该在的行中去，也就是把它push进对应行的vector。
+// 在遍历输出
+// 注意特殊情况
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string convert(string s, int numRows) {
@@ -39,4 +39,4 @@ public:
         return mid;
     }
 };
-```
+// ```

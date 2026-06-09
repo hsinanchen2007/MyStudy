@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func fourSum(nums []int, target int) [][]int {
     if len(nums) < 4 {
         return [][]int{}
@@ -68,4 +68,4 @@ func fourSum(nums []int, target int) [][]int {
 
     return result
 }
-```
+// ```

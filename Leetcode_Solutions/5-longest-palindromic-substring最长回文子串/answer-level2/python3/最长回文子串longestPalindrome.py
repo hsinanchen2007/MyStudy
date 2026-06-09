@@ -1,10 +1,10 @@
-### 解题思路
-考虑回文字符串是奇数就可以直接用字符串中某个值作为回文中点
-如果回文字符串是偶数就要用字符串中某两个连续的值作为回文中点
+# ### 解题思路
+# 考虑回文字符串是奇数就可以直接用字符串中某个值作为回文中点
+# 如果回文字符串是偶数就要用字符串中某两个连续的值作为回文中点
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         res_str = ""
@@ -41,4 +41,4 @@ class Solution:
                     max_len = temp_len * 2
                     res_str = temp_str[::-1] + temp_str[::]
         return res_str
-```
+# ```

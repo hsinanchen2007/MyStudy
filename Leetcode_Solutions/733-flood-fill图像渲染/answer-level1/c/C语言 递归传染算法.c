@@ -1,11 +1,11 @@
-### 解题思路
-逐个递归进行传染上色
+// ### 解题思路
+// 逐个递归进行传染上色
 
-![image.png](https://pic.leetcode-cn.com/5b428a309ab615ce2af8f7b12a5a2f4b3bb36c10e064a9a4216b35d087cd91da-image.png)
+// ![image.png](https://pic.leetcode-cn.com/5b428a309ab615ce2af8f7b12a5a2f4b3bb36c10e064a9a4216b35d087cd91da-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -37,4 +37,4 @@ int** floodFill(int** image, int imageSize, int* imageColSize, int sr, int sc, i
 	*returnColumnSizes = imageColSize;
 	return image;
 }
-```
+// ```

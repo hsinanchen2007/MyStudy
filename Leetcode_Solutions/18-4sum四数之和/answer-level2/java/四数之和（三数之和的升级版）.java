@@ -1,4 +1,4 @@
-和三数之和解法类似，依然使用双指针解法，只不过在三数之和的基础上在套一层for循环
+// 和三数之和解法类似，依然使用双指针解法，只不过在三数之和的基础上在套一层for循环
 public class Main{
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);

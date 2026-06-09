@@ -1,12 +1,12 @@
-### 解题思路
-先将待排序list按第一个数据排序，下一步逐步规划。如果发生合并则将合并的作为pre，否则将将cur作为pre。
+# ### 解题思路
+# 先将待排序list按第一个数据排序，下一步逐步规划。如果发生合并则将合并的作为pre，否则将将cur作为pre。
 
 
-![634657b1b30d89932eb1be4da8d22ab.png](https://pic.leetcode-cn.com/7069f8fc5d4ee7453efbb7e47076fa3a86c9bdba0e8a36c2ac01cc5ae8a9a08e-634657b1b30d89932eb1be4da8d22ab.png)
+# ![634657b1b30d89932eb1be4da8d22ab.png](https://pic.leetcode-cn.com/7069f8fc5d4ee7453efbb7e47076fa3a86c9bdba0e8a36c2ac01cc5ae8a9a08e-634657b1b30d89932eb1be4da8d22ab.png)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def merge(self, intervals):
         ans=[]
@@ -38,4 +38,4 @@ class Solution:
                 else:
                     ans.append(pre)
         return ans
-```
+# ```

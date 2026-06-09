@@ -1,6 +1,6 @@
-## 思路：BFS
-### 代码
-```c++
+// ## 思路：BFS
+// ### 代码
+// ```c++
 class Solution {
 public:
     bool canVisitAllRooms(vector<vector<int>>& rooms) {
@@ -27,4 +27,4 @@ public:
         return true;
     }
 };
-```
+// ```

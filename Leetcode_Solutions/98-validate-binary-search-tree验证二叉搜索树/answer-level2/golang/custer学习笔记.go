@@ -1,11 +1,11 @@
-# 思考
+// # 思考
 
-1. 二叉搜索树特性，中序遍历输出的数组是否为升序的-技巧只要后面的值大于前面节点就可以
-1. 递归判断，递归函数设计需要技巧-对于递归找左子树的最大值要小于根节点，右子树的最小值大于根节点
+// 1. 二叉搜索树特性，中序遍历输出的数组是否为升序的-技巧只要后面的值大于前面节点就可以
+// 1. 递归判断，递归函数设计需要技巧-对于递归找左子树的最大值要小于根节点，右子树的最小值大于根节点
 
-# Python实现
+// # Python实现
 
-```python
+// ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -28,9 +28,9 @@ class Solution(object):
         if root is None:
             return []
         return self.inorder(root.left) + [root.val] + self.inorder(root.right)
-```
+// ```
 
-```python
+// ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -60,9 +60,9 @@ class Solution(object):
         self.prev = root
         # 中序遍历，右子树
         return self.helper(root.right)
-```
+// ```
 
-```java
+// ```java
 public boolean isValid(TreeNode root, Integer min, Integer max) {
 	if (root == null) return true;
     if (min != nill && root.val <= min) return false;
@@ -81,11 +81,11 @@ public boolean isValidBST(TreeNode root) {
     boolean right = isValidBST(root.right);
     return left && mid && right;
 }
-```
+// ```
 
-# Go实现
+// # Go实现
 
-```go
+// ```go
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -110,6 +110,6 @@ func isBST(root *TreeNode, left, right int) bool {
     }
     return isBST(root.Left, left, root.Val) && isBST(root.Right, root.Val, right)
 }
-```
+// ```
 
 

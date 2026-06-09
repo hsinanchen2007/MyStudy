@@ -1,13 +1,13 @@
-# 说明:  
+// # 说明:  
 
-添加一个size数组，对于节点x, size[parent[x]] 记录x所属组的大小，即岛屿大小。  
-其他的与并查集基本算法一致，可参考  
-[Leetcode-岛屿数量200](https://leetcode-cn.com/problems/number-of-islands/)
+// 添加一个size数组，对于节点x, size[parent[x]] 记录x所属组的大小，即岛屿大小。  
+// 其他的与并查集基本算法一致，可参考  
+// [Leetcode-岛屿数量200](https://leetcode-cn.com/problems/number-of-islands/)
 
-# 代码如下:  
-`--------------------------------------------------------------`  
+// # 代码如下:  
+// `--------------------------------------------------------------`  
 
-```c++
+// ```c++
 class Solution {
 public:
     vector<int> parent, size;
@@ -61,4 +61,4 @@ public:
         return maxSize;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 int isWord(char ch) //判断字符是否为字母
 {
     if((ch>='A'&&ch<='Z') || (ch>='a'&&ch<='z'))
@@ -35,4 +35,4 @@ char * reverseOnlyLetters(char * S){
     return S;
 }
 
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-&优先级比==低，一定要加括号啊！！
+// ### 解题思路
+// &优先级比==低，一定要加括号啊！！
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> singleNumbers(vector<int>& nums) {
@@ -25,4 +25,4 @@ public:
         return res;
     }
 };
-```
+// ```

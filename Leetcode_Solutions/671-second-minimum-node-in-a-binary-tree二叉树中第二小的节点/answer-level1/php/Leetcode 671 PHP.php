@@ -1,9 +1,9 @@
-### 解题思路
-递归思路
+// ### 解题思路
+// 递归思路
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 /**
  * Definition for a binary tree node.
  * class TreeNode {
@@ -43,15 +43,15 @@ class Solution {
         $this->help($root->right,$min1,$min2);
     }
 }
-```
+// ```
 
-### 解题思路
-迭代思路：
-先序遍历
+// ### 解题思路
+// 迭代思路：
+// 先序遍历
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 /**
  * Definition for a binary tree node.
  * class TreeNode {
@@ -88,4 +88,4 @@ class Solution {
         
     }
 }
-```
+// ```

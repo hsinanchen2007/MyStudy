@@ -1,18 +1,18 @@
-### 解题思路
-用一个队列实现全排列：
-从前往后，每次取字符串的一个字符，
-如果是数字：遍历队列，并将该数字字符添加到队列元素末尾；
-如果是字母：遍历队列，并将该字母字符变化大小写后添加到队列元素末尾。
+// ### 解题思路
+// 用一个队列实现全排列：
+// 从前往后，每次取字符串的一个字符，
+// 如果是数字：遍历队列，并将该数字字符添加到队列元素末尾；
+// 如果是字母：遍历队列，并将该字母字符变化大小写后添加到队列元素末尾。
 
-以下是 a1b2 示例：
+// 以下是 a1b2 示例：
 
-![image.png](https://pic.leetcode-cn.com/a5bca00957d01de738c2153742cd87d22a097afb6f3433d7737c19a0c3f2c164-image.png)
+// ![image.png](https://pic.leetcode-cn.com/a5bca00957d01de738c2153742cd87d22a097afb6f3433d7737c19a0c3f2c164-image.png)
 
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<String> letterCasePermutation(String S) {
         LinkedList<String> queue = new LinkedList();
@@ -66,4 +66,4 @@ class Solution {
 
     }
 }
-```
+// ```

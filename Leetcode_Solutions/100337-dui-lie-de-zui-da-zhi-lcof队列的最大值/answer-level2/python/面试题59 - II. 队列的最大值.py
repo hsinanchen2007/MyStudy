@@ -1,9 +1,9 @@
-### 解题思路
-需要注意的地方就是队列时先入先出
+# ### 解题思路
+# 需要注意的地方就是队列时先入先出
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class MaxQueue(object):
 
     def __init__(self):
@@ -28,4 +28,4 @@ class MaxQueue(object):
 
 
 
-```
+# ```

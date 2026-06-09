@@ -1,9 +1,9 @@
-### 解题思路
-先判断0点的位置，再对该位置之前的数进行遍历，看是否能跳过该0点的位置，如果不可以，则直接返回false ，可以，则继续遍历数组。
+// ### 解题思路
+// 先判断0点的位置，再对该位置之前的数进行遍历，看是否能跳过该0点的位置，如果不可以，则直接返回false ，可以，则继续遍历数组。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
  public static boolean canJump(int[] nums) {
 		boolean bool=true;
@@ -46,4 +46,4 @@ class Solution {
         return bool;
     }
 }
-```
+// ```

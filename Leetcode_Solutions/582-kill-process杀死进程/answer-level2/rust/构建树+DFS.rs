@@ -1,6 +1,6 @@
-rust 24ms
-基本思想很简单，根据pid -> ppid构建一颗树`HashMap<ppid, Vec<pid>>`。然后从kill节点开始dfs，记录所有子节点就行了。总体复杂度就是O(n)
-```rust
+// rust 24ms
+// 基本思想很简单，根据pid -> ppid构建一颗树`HashMap<ppid, Vec<pid>>`。然后从kill节点开始dfs，记录所有子节点就行了。总体复杂度就是O(n)
+// ```rust
 use std::collections::HashMap;
 
 impl Solution {
@@ -22,4 +22,4 @@ impl Solution {
         }
     }
 }
-```
+// ```

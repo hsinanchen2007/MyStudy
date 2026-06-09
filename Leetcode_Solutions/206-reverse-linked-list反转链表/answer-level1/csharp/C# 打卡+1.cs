@@ -1,10 +1,10 @@
-### 解题思路
-打卡+1
-用两个指针一个临时变量，遍历反转
+// ### 解题思路
+// 打卡+1
+// 用两个指针一个临时变量，遍历反转
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -28,4 +28,4 @@ public class Solution {
             return pre;
     }
 }
-```
+// ```

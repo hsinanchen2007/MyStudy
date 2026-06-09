@@ -1,4 +1,4 @@
-```
+// ```
 public int search(int[] nums, int target) {
         if (nums == null || nums.length == 0)
             return -1;
@@ -23,4 +23,4 @@ public int search(int[] nums, int target) {
         else
             return search(nums, target, low, mid - 1);
     }
-```
+// ```

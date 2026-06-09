@@ -1,4 +1,4 @@
-```
+// ```
 fun fullJustify(words: Array<String>, maxWidth: Int): List<String> {
           val list = arrayListOf<String>()
         var strBuilder: StringBuilder = StringBuilder()
@@ -62,4 +62,4 @@ fun fullJustify(words: Array<String>, maxWidth: Int): List<String> {
         }
         return list
     }
-```
+// ```

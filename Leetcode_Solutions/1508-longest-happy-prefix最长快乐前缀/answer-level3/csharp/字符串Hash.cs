@@ -1,12 +1,12 @@
-### 解题思路
-prefix 做hash
-suffix 做逆向hash
-hash可迭代
-若hash 值相等 且 长度相等 则是一个 最长解
+// ### 解题思路
+// prefix 做hash
+// suffix 做逆向hash
+// hash可迭代
+// 若hash 值相等 且 长度相等 则是一个 最长解
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 class HappyPrefix {
     Dictionary<UInt64, int> hashPrefix = new Dictionary<ulong, int>();
     public string LongestPrefix(string s) {
@@ -54,4 +54,4 @@ public class Solution {
         return hp.LongestPrefix(s);
     }
 }
-```
+// ```

@@ -1,29 +1,29 @@
-### 解题思路
- 对于水壶`X`和`Y`，每次有6种可选操作：
-1. 装满`X`
-2. 倒空`X`
-3. 装满`Y`
-4. 倒空`Y`
-5. 把`X`里的水倒入`Y`
-    * `X`里的水多余`Y`的余量（倒不完）
-    * `X`里的水少于`Y`的余量（倒完）
-6. 把`Y`里的水倒入`X`
-    * `Y`里的水多余`X`的余量（倒不完）
-    * `Y`里的水少于`X`的余量（倒完）
+// ### 解题思路
+//  对于水壶`X`和`Y`，每次有6种可选操作：
+// 1. 装满`X`
+// 2. 倒空`X`
+// 3. 装满`Y`
+// 4. 倒空`Y`
+// 5. 把`X`里的水倒入`Y`
+//     * `X`里的水多余`Y`的余量（倒不完）
+//     * `X`里的水少于`Y`的余量（倒完）
+// 6. 把`Y`里的水倒入`X`
+//     * `Y`里的水多余`X`的余量（倒不完）
+//     * `Y`里的水少于`X`的余量（倒完）
 
- **题目里的坑：**
-    1. 存储状态的数组用`byte[][]`会超空间，需要把状态压缩一下，转化为`Long`。
-    2. 当`X`和`Y`水壶两个加一起的容量不到`z`时，一定没有解。
+//  **题目里的坑：**
+//     1. 存储状态的数组用`byte[][]`会超空间，需要把状态压缩一下，转化为`Long`。
+//     2. 当`X`和`Y`水壶两个加一起的容量不到`z`时，一定没有解。
  
-**复杂度分析**
-* 时间复杂度： $O(XY)$
-* 空间复杂度： $O(XY)$
-* 
-一个牛逼的BFS写法，直接算总水量（因为不可能两个杯子都是半满状态，官方给出的解释是“因为观察所有题目中的操作，操作的结果都至少有一个桶是空的或者满的”）。**测了一下，速度能提高5倍多**。
- >[https://leetcode-cn.com/problems/water-and-jug-problem/solution/hu-dan-long-wei-liang-zhang-you-yi-si-de-tu-by-ant/](https://leetcode-cn.com/problems/water-and-jug-problem/solution/hu-dan-long-wei-liang-zhang-you-yi-si-de-tu-by-ant/)
+// **复杂度分析**
+// * 时间复杂度： $O(XY)$
+// * 空间复杂度： $O(XY)$
+// * 
+// 一个牛逼的BFS写法，直接算总水量（因为不可能两个杯子都是半满状态，官方给出的解释是“因为观察所有题目中的操作，操作的结果都至少有一个桶是空的或者满的”）。**测了一下，速度能提高5倍多**。
+//  >[https://leetcode-cn.com/problems/water-and-jug-problem/solution/hu-dan-long-wei-liang-zhang-you-yi-si-de-tu-by-ant/](https://leetcode-cn.com/problems/water-and-jug-problem/solution/hu-dan-long-wei-liang-zhang-you-yi-si-de-tu-by-ant/)
 
-### 代码
-``` java
+// ### 代码
+// ``` java
 class Solution {
     private Set<Long> marked;
     private Queue<Long> states; 
@@ -107,4 +107,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-一次遍历即可
+// ### 解题思路
+// 一次遍历即可
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> shortestToChar(string S, char C) {
@@ -30,6 +30,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/a99a181d3e9654cca6395d5c01ca718465b49c3e14498df5bbf8e5d0b0cebced-image.png)
+// ![image.png](https://pic.leetcode-cn.com/a99a181d3e9654cca6395d5c01ca718465b49c3e14498df5bbf8e5d0b0cebced-image.png)

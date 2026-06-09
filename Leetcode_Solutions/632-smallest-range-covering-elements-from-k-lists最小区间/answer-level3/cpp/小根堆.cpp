@@ -1,5 +1,5 @@
-小根堆可解，用一个数表示当前堆中的最大值并每次迭代更新。
-```
+// 小根堆可解，用一个数表示当前堆中的最大值并每次迭代更新。
+// ```
 struct ele{
         int value;
         int arrayIdx;  // idx-th array
@@ -50,4 +50,4 @@ public:
         return ans;
     }
 };
-```
+// ```

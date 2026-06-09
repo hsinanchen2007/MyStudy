@@ -1,9 +1,9 @@
-### 解题思路
-C++使用STL的优先队列求解，思路简洁清晰。
+// ### 解题思路
+// C++使用STL的优先队列求解，思路简洁清晰。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     struct cmp
@@ -50,4 +50,4 @@ public:
         return result;
     }
 };
-```
+// ```

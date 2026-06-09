@@ -1,4 +1,4 @@
-```
+// ```
 import (
 	"fmt"
 	"strconv"
@@ -35,4 +35,4 @@ func reverce(str string) string {
     }
     return ret
 }
-```
+// ```

@@ -1,5 +1,5 @@
 
-先看看[工业实现](https://docs.python.org/2/library/itertools.html#itertools.product)：
+# 先看看[工业实现](https://docs.python.org/2/library/itertools.html#itertools.product)：
 
 
 def product(*args, **kwds):

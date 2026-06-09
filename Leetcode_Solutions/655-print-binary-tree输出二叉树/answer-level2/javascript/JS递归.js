@@ -1,5 +1,5 @@
-先获取数深度m二维数组行数，再根据n=2^m-1获取二维数组列数，根节点位于当前行数中位数，左子树为左侧中位数，右子树为右侧中位数，递归赋值
-```js
+// 先获取数深度m二维数组行数，再根据n=2^m-1获取二维数组列数，根节点位于当前行数中位数，左子树为左侧中位数，右子树为右侧中位数，递归赋值
+// ```js
 var printTree = function (root) {
     var res = [];
     var m = getDepth(root, 0);
@@ -28,4 +28,4 @@ var printTree = function (root) {
         return Math.max(l, r);
     }
 };
-```
+// ```

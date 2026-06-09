@@ -1,9 +1,9 @@
-### 解题思路
-数组反转`Array.Reverse(arr);`不用反转后再覆盖
-`Array.Reverse(arr, begin, end);`
-### 代码
+// ### 解题思路
+// 数组反转`Array.Reverse(arr);`不用反转后再覆盖
+// `Array.Reverse(arr, begin, end);`
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int[][] FlipAndInvertImage(int[][] A) {
         for(int i = 0;i<A.Length;i++){
@@ -16,4 +16,4 @@ public class Solution {
             return A;
     }
 }
-```
+// ```

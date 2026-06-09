@@ -1,10 +1,10 @@
-### 解题思路
-根据二叉搜索树特点，中序遍历为升序，因此需要与中序遍历逆序返回第K个。
-因此递归中序遍历处理root.left变更为root.right即可，left和right处理顺序交换。
+// ### 解题思路
+// 根据二叉搜索树特点，中序遍历为升序，因此需要与中序遍历逆序返回第K个。
+// 因此递归中序遍历处理root.left变更为root.right即可，left和right处理顺序交换。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -43,4 +43,4 @@ class Solution {
         func(root.left);
     }
 }
-```
+// ```

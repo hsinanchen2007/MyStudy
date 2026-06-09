@@ -1,9 +1,9 @@
-### 解题思路
-这不跟三数之和一样么，先排序，固定一位置然后该位置右侧双指针。记录一下当前最接近的sum即可。
+// ### 解题思路
+// 这不跟三数之和一样么，先排序，固定一位置然后该位置右侧双指针。记录一下当前最接近的sum即可。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int threeSumClosest(int[] nums, int target) {
         int n = nums.length;
@@ -34,4 +34,4 @@ class Solution {
         return nearSum;
     }
 }
-```
+// ```

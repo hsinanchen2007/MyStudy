@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {string} str
  * @return {number}
@@ -11,4 +11,4 @@ var myAtoi = function(str) {
     const edge = Math.pow(2, 31);
     return Math.max(-edge, Math.min(edge - 1, num));
 };
-```
+// ```

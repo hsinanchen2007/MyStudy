@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     private final char[] CC = new char[]{'a','b','c','d','e','f','g','h','i',
                                         'j','k','l','m','n','o','p','q',
@@ -19,6 +19,6 @@ class Solution {
         arr[idx] = CC[ori];
     }
 }
-```
-执行用时 :3 ms, 在所有 Java 提交中击败了100.00% 的用户
-内存消耗 :40.6 MB, 在所有 Java 提交中击败了98.25%的用户
+// ```
+// 执行用时 :3 ms, 在所有 Java 提交中击败了100.00% 的用户
+// 内存消耗 :40.6 MB, 在所有 Java 提交中击败了98.25%的用户

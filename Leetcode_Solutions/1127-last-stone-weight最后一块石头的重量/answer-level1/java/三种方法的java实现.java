@@ -1,8 +1,8 @@
-1、使用大顶堆
-2、循环排序
-3、双栈实现大顶堆
+// 1、使用大顶堆
+// 2、循环排序
+// 3、双栈实现大顶堆
 
-```
+// ```
 public class heap {
 
     public static void main(String[] args) {
@@ -74,4 +74,4 @@ public class heap {
         return max.isEmpty() ? 0 : max.pop();
     }
 }
-```
+// ```

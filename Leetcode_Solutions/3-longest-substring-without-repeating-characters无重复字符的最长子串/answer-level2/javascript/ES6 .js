@@ -1,10 +1,10 @@
-### 解题思路
-maxStr：记录最大字符串
-max：记录最大值
+// ### 解题思路
+// maxStr：记录最大字符串
+// max：记录最大值
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {number}
@@ -29,4 +29,4 @@ var lengthOfLongestSubstring = function (s) {
   }
   return max
 };
-```
+// ```

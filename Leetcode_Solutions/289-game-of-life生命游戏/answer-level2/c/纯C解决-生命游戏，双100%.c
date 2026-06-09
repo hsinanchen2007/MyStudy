@@ -1,9 +1,9 @@
-### 解题思路
-没难点，就是方向数组，注意别把本身的坐标给计算进去
+// ### 解题思路
+// 没难点，就是方向数组，注意别把本身的坐标给计算进去
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void gameOfLife(int** board, int boardSize, int* boardColSize){
     //方向数组
     int dir_x[8]={-1,-1,-1,0,0,1,1,1};
@@ -43,4 +43,4 @@ board[i][j] = t_board[i][j];//逐元素赋值。
    // memcpy(board,t_board,sizeof(t_board));
 }
 
-```
+// ```

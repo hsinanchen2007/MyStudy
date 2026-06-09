@@ -1,4 +1,4 @@
-```js
+// ```js
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -26,4 +26,4 @@ var searchRange = function(nums, target) {
     }
     return [-1,-1]
 };
-```
+// ```

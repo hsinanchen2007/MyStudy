@@ -1,8 +1,8 @@
 
-先创建元素为其索引的长度为n的数组，然后判断从零位置开始  每次循环删掉第m个元素
-![image.png](https://pic.leetcode-cn.com/81ede217841640b9949731321895cf57ea830fe23947ddeef691143f8696897b-image.png)
+// 先创建元素为其索引的长度为n的数组，然后判断从零位置开始  每次循环删掉第m个元素
+// ![image.png](https://pic.leetcode-cn.com/81ede217841640b9949731321895cf57ea830fe23947ddeef691143f8696897b-image.png)
 
-```javascript
+// ```javascript
 var lastRemaining = function(n, m) {
     if (n === 1) return 0;
     let arr = [... new Array(n).keys()];
@@ -16,4 +16,4 @@ var lastRemaining = function(n, m) {
     }
     return arr[0]
 };
-```
+// ```

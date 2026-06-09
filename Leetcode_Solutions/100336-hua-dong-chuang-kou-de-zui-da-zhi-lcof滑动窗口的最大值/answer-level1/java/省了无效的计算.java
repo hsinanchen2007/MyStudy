@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int[] maxSlidingWindow(int[] nums, int k) {
         int l=0,r=k-1;
@@ -28,4 +28,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

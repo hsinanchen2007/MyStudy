@@ -1,10 +1,10 @@
-### 解题思路
-1 递归遍历左右子树，每次遍历的sum值等于前一次sum值减去上一次遍历的父节点的值。
-2 直到遍历的叶子结点，当叶子结点的值和当前sum的值相等的时候说明存在这个路径。
+// ### 解题思路
+// 1 递归遍历左右子树，每次遍历的sum值等于前一次sum值减去上一次遍历的父节点的值。
+// 2 直到遍历的叶子结点，当叶子结点的值和当前sum的值相等的时候说明存在这个路径。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -23,4 +23,4 @@ class Solution {
         return hasPathSum(root.left,sum-root.val)||hasPathSum(root.right,sum-root.val);
     }
 }
-```
+// ```

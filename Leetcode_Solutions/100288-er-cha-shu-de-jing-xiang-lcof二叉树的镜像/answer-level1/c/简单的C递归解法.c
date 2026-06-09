@@ -1,9 +1,9 @@
-### 解题思路
-使用后序遍历方法，从后往前将每个节点的子树（如果有）左右互换。
+// ### 解题思路
+// 使用后序遍历方法，从后往前将每个节点的子树（如果有）左右互换。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -35,4 +35,4 @@ struct TreeNode* mirrorTree(struct TreeNode* root){
     swapChildTreeNode(root);
     return root;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-一行一行的生成，从右向左构造是为了防止覆盖
+// ### 解题思路
+// 一行一行的生成，从右向左构造是为了防止覆盖
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> getRow(int rowIndex) {
@@ -17,4 +17,4 @@ public:
         return res;
     }
 };
-```
+// ```

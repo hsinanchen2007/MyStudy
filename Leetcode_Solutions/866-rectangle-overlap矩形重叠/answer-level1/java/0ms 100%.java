@@ -1,9 +1,9 @@
-### 解题思路
-纯枚举，逻辑
+// ### 解题思路
+// 纯枚举，逻辑
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isRectangleOverlap(int[] rec1, int[] rec2) {
         int x1Left = rec1[0];
@@ -27,4 +27,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

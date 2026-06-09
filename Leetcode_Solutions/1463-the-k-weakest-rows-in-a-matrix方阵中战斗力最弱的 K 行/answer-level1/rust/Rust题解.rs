@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn k_weakest_rows(mat: Vec<Vec<i32>>, k: i32) -> Vec<i32> {
         let mat = mat.iter().map(|r| r.iter().sum()).collect::<Vec<i32>>();
@@ -8,5 +8,5 @@ impl Solution {
         ret[..(k as usize)].to_vec()
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

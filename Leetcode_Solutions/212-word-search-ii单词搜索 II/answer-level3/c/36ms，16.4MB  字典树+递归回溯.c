@@ -1,10 +1,10 @@
-### 解题思路
-思路比较清晰，数据结构使用字典树进行存储，算法使用DFS进行搜索。
-树结构使用索引比使用指针更快，同时占用内存更少；bits可以继续位操作优化，有兴趣可以试试~
+// ### 解题思路
+// 思路比较清晰，数据结构使用字典树进行存储，算法使用DFS进行搜索。
+// 树结构使用索引比使用指针更快，同时占用内存更少；bits可以继续位操作优化，有兴趣可以试试~
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -158,4 +158,4 @@ char ** findWords(char** board, int boardSize, int* boardColSize, char ** words,
     return match;
 }
 
-```
+// ```

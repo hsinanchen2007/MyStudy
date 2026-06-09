@@ -1,9 +1,9 @@
-### 解题思路
-思路比较简单，一行一行处理，一步一步来就行，注释比较清楚，题目也比较简单
+# ### 解题思路
+# 思路比较简单，一行一行处理，一步一步来就行，注释比较清楚，题目也比较简单
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def flipAndInvertImage(self, A: List[List[int]]) -> List[List[int]]:
         # 遍历图像的每一行
@@ -17,4 +17,4 @@ class Solution:
             # 存起来
             res.append(line)
         return res
-```
+# ```

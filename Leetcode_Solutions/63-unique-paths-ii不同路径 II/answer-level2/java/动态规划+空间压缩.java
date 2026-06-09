@@ -1,7 +1,7 @@
-## 解析
-本题和62题很像。解法也很类似。只不过要加点判断条件。
-## 代码
-```java
+// ## 解析
+// 本题和62题很像。解法也很类似。只不过要加点判断条件。
+// ## 代码
+// ```java
 public int uniquePathsWithObstacles(int[][] obstacleGrid) {
         if (obstacleGrid == null || obstacleGrid.length == 0) {
             return 0;
@@ -80,4 +80,4 @@ public int uniquePathsWithObstacles(int[][] obstacleGrid) {
         }
         return dp[row - 1][col - 1];
     }
-```
+// ```

@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
 	def findCheapestPrice(self, n: int, flights: List[List[int]], src: int, dst: int, K: int) -> int:
 		# K => bfs
@@ -21,4 +21,4 @@ class Solution:
 						cost[nei] = costList[(top, nei)] + c
 						queue.append((nei, cost[nei]))
 		return cost[dst] if cost[dst] != float('inf') else -1
-```
+# ```

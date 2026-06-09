@@ -1,10 +1,10 @@
-### 解题思路
-求和/3 => 是否能整除
-同时从数组两端向中间逐个求和, 和为目标时停止移动指针, 设置flag为true, 两个flag都为true时候返回
+// ### 解题思路
+// 求和/3 => 是否能整除
+// 同时从数组两端向中间逐个求和, 和为目标时停止移动指针, 设置flag为true, 两个flag都为true时候返回
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} A
  * @return {boolean}
@@ -42,4 +42,4 @@ var canThreePartsEqualSum = function (A) {
         return false
     }
 };
-```
+// ```

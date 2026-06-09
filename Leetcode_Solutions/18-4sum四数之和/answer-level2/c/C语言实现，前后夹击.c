@@ -1,11 +1,11 @@
-执行结果：通过
-显示详情
-执行用时 :36 ms, 在所有 C 提交中击败了87.26%的用户
-内存消耗 :8.2 MB, 在所有 C 提交中击败了86.54%的用户
+// 执行结果：通过
+// 显示详情
+// 执行用时 :36 ms, 在所有 C 提交中击败了87.26%的用户
+// 内存消耗 :8.2 MB, 在所有 C 提交中击败了86.54%的用户
 
 
 
-```
+// ```
 int comp(const void *a,const void *b)
 {
     return *(int *)a - *(int *)b;
@@ -62,4 +62,4 @@ int** fourSum(int* nums, int numsSize, int target, int* returnSize, int** return
     
     return ret;
 }
-```
+// ```

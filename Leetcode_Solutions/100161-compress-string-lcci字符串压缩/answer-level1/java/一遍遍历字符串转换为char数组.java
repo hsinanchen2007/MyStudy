@@ -1,9 +1,9 @@
-### 解题思路
-一遍遍历字符串转换为char数组
+// ### 解题思路
+// 一遍遍历字符串转换为char数组
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String compressString(String S) {
 
@@ -36,4 +36,4 @@ class Solution {
         
     }
 }
-```
+// ```

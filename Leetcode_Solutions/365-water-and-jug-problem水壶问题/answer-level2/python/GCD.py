@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def canMeasureWater(self, x: int, y: int, z: int) -> bool:
         import math
@@ -18,4 +18,4 @@ class Solution:
         
         return z % math.gcd(x, y) == 0
 
-```
+# ```

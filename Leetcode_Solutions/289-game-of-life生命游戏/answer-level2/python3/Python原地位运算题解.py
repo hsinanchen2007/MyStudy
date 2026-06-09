@@ -1,12 +1,12 @@
-board中只有0和1两种状态，只占用了int的最低位，我们可以把int的高位利用起来
+# board中只有0和1两种状态，只占用了int的最低位，我们可以把int的高位利用起来
 
-第一次遍历board，当我们确定(i, j)位置的cell更新后的状态是存活，就把高位的值置为1
-board[i][j] |= 2
+# 第一次遍历board，当我们确定(i, j)位置的cell更新后的状态是存活，就把高位的值置为1
+# board[i][j] |= 2
 
-第二次遍历board，把高位挪回低位
-board[i][j] >>= 1
+# 第二次遍历board，把高位挪回低位
+# board[i][j] >>= 1
 
-```python []
+# ```python []
 class Solution:
     def gameOfLife(self, board: List[List[int]]) -> None:
         """
@@ -28,4 +28,4 @@ class Solution:
             for j in range(n):
                 board[i][j] >>= 1
 
-```
+# ```

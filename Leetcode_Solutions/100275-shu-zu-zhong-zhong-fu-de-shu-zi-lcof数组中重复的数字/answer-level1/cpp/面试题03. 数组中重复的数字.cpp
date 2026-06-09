@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-排序后与后一个数进行比较
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 排序后与后一个数进行比较
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findRepeatNumber(vector<int>& nums) {
@@ -17,4 +17,4 @@ public:
         return nums[i];
     }
 };
-```
+// ```

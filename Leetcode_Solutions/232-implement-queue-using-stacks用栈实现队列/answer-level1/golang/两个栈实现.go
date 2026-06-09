@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/f6639a3fdc3de492b3a8173fd72906c4d1c084f1fe3ecc546676ab95bc5d749f-image.png)
+// ![image.png](https://pic.leetcode-cn.com/f6639a3fdc3de492b3a8173fd72906c4d1c084f1fe3ecc546676ab95bc5d749f-image.png)
 
-```
+// ```
 type Stack struct {
     v []int
 }
@@ -78,4 +78,4 @@ func (this *MyQueue) Empty() bool {
  * param_3 := obj.Peek();
  * param_4 := obj.Empty();
  */
-```
+// ```

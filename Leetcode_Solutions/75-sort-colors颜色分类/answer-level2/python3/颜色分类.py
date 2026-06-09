@@ -1,5 +1,5 @@
-计数排序：
-```
+# 计数排序：
+# ```
 class Solution:
     def sortColors(self, nums: List[int]) -> None:
         """
@@ -15,10 +15,10 @@ class Solution:
                 z += 1
         nums[:x], nums[x:x+y], nums[x+y:] = [0]*x, [1]*y, [2]*z
         return nums
-```
+# ```
 
-三路排序：
-```
+# 三路排序：
+# ```
 class Solution:
     def sortColors(self, nums: List[int]) -> None:
         """
@@ -36,4 +36,4 @@ class Solution:
                 gt -= 1
                 nums[i], nums[gt] = nums[gt], nums[i]
         return nums
-```
+# ```

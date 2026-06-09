@@ -1,9 +1,9 @@
-### 解题思路
-按照进阶要求:一次线性扫描
+// ### 解题思路
+// 按照进阶要求:一次线性扫描
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -36,4 +36,4 @@ public:
         return _head;
     }
 };
-```
+// ```

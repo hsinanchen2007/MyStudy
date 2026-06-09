@@ -1,9 +1,9 @@
-### 解题思路
-总面积，减去折叠的面积。
+// ### 解题思路
+// 总面积，减去折叠的面积。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int surfaceArea(vector<vector<int>>& grid) {
@@ -42,4 +42,4 @@ public:
         return min(v, grid[i][j]);
     }
 };
-```
+// ```

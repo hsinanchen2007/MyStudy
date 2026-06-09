@@ -1,4 +1,4 @@
-```
+// ```
 public class Solution {
     public int EqualSubstring(string s, string t, int maxCost) {
            int[] cnt=new int[s.Length];
@@ -29,4 +29,4 @@ public class Solution {
            return res;
     }
 }
-```
+// ```

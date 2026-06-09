@@ -1,8 +1,8 @@
-### 解题思路
-单词循环内指针跳两次
-### 代码
+// ### 解题思路
+// 单词循环内指针跳两次
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -28,4 +28,4 @@ var middleNode = function (head) {
         else return middle
     }
 };
-```
+// ```

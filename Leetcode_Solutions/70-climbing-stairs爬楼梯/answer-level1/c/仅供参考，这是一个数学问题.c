@@ -1,4 +1,4 @@
-```
+// ```
 int climbStairs(int n){
 int tri=2;
     long long count=3;
@@ -12,4 +12,4 @@ int tri=2;
   }
     return count;
 }
-```
+// ```

@@ -1,5 +1,5 @@
-在 Java 中,String#indexOf 方法的简化，源码基本没动，只是简单修改了一下形参列表
-```
+// 在 Java 中,String#indexOf 方法的简化，源码基本没动，只是简单修改了一下形参列表
+// ```
 public class Demo028 {
     public static int strStr(String haystack, String needle) {
         return indexOf(haystack.toCharArray(), haystack.length(), needle.toCharArray(), needle.length());
@@ -45,4 +45,4 @@ public class Demo028 {
         System.out.println(strStr("hello", "ll"));
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```js
+// ```js
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -34,4 +34,4 @@ var getTargetCopy = function(original, cloned, target) {
         return null;
     }
 };
-```
+// ```

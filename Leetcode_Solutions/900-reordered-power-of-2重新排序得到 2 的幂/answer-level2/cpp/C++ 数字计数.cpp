@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int digitLen(int n) {
@@ -31,5 +31,5 @@ public:
         return M[S].count(b) > 0;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/06461c31cce628e819959e171ef9b2116d348fe7e33cf5863a88699dda4c24a3-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/06461c31cce628e819959e171ef9b2116d348fe7e33cf5863a88699dda4c24a3-image.png)

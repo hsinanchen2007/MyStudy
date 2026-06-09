@@ -1,9 +1,9 @@
-### 解题思路
-和高赞一样的解题思路，c++的实现。双向链表recent中越靠前越least recently.
+// ### 解题思路
+// 和高赞一样的解题思路，c++的实现。双向链表recent中越靠前越least recently.
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 typedef int key;
 
 class LRUCache {
@@ -52,4 +52,4 @@ public:
  * int param_1 = obj->get(key);
  * obj->put(key,value);
  */
-```
+// ```

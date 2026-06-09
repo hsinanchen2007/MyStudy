@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/f592cf2deb8590664b8353bb8cac547f591dd390408ccaccff41d840624646d0-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/f592cf2deb8590664b8353bb8cac547f591dd390408ccaccff41d840624646d0-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void cmdCount(char * cmd, int *pxNum, int *pyNum) { //计算命令中x、y的个数
     char *p = cmd;
 
@@ -128,4 +128,4 @@ bool robot(char * command, int** obstacles, int obstaclesSize, int* obstaclesCol
 
     return true;
 }
-```
+// ```

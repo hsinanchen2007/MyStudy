@@ -1,14 +1,14 @@
-### 解题思路
+// ### 解题思路
 
-解题思路参考这位同学的妙思：
-https://leetcode-cn.com/problems/jump-game/solution/55-by-ikaruga/
+// 解题思路参考这位同学的妙思：
+// https://leetcode-cn.com/problems/jump-game/solution/55-by-ikaruga/
 
-执行用时 :8 ms, 在所有 Go 提交中击败了97.03%的用户
-内存消耗 :4.2 MB, 在所有 Go 提交中击败了63.49%的用户
+// 执行用时 :8 ms, 在所有 Go 提交中击败了97.03%的用户
+// 内存消耗 :4.2 MB, 在所有 Go 提交中击败了63.49%的用户
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 func canJump(nums []int) bool {
     maxPosition := 0
@@ -27,4 +27,4 @@ func max(a,b int) int {
         return b
     }
 }
-```
+// ```

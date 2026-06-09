@@ -1,7 +1,7 @@
-思路：
-观察题目发现：旋转90度实际就是将第i行变为第n-1-i列。
-于是使用辅助数组得以下解。
-```class Solution {
+// 思路：
+// 观察题目发现：旋转90度实际就是将第i行变为第n-1-i列。
+// 于是使用辅助数组得以下解。
+// ```class Solution {
 public:
     void rotate(vector<vector<int>>& matrix) {
         int *a = new int[matrix.size()*matrix.size()];

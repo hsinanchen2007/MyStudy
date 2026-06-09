@@ -1,10 +1,10 @@
-### 解题思路
-1. 拿出第一个str，然后遍历每一个是否相等
-2. 通过zip进行操作，将字符串的每个序列组成list，通过set看是否是同一个字母
+# ### 解题思路
+# 1. 拿出第一个str，然后遍历每一个是否相等
+# 2. 通过zip进行操作，将字符串的每个序列组成list，通过set看是否是同一个字母
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
         # if not strs: 
@@ -22,4 +22,4 @@ class Solution:
             else:
                 break
         return res
-```
+# ```

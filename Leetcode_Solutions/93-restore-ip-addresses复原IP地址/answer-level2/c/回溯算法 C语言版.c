@@ -1,35 +1,35 @@
-### 解题思路
-回溯算法：套用模板
-void backtrace(int i, int n, other parameters) 
-{
-    if (i == n)
-    {
-        if (valid) {
-            add record; 
-        } else {
-            return;
-        }
-    }
+// ### 解题思路
+// 回溯算法：套用模板
+// void backtrace(int i, int n, other parameters) 
+// {
+//     if (i == n)
+//     {
+//         if (valid) {
+//             add record; 
+//         } else {
+//             return;
+//         }
+//     }
 
-    for (next ans in position i) {
-        /* 有效性检查 */
+//     for (next ans in position i) {
+//         /* 有效性检查 */
  
-        /* 保存对应dotindex的place值 */
-        pstAddrRecord->dotIndexBuf[dotIndex] = k;
+//         /* 保存对应dotindex的place值 */
+//         pstAddrRecord->dotIndexBuf[dotIndex] = k;
 
-        /* 进一步深度优先搜索 */
-        backstace(i + 1, n, other parameters);
+//         /* 进一步深度优先搜索 */
+//         backstace(i + 1, n, other parameters);
     
 
-        /* 回溯：还原dotIndex对应的place值 */
-        pstAddrRecord->dotIndexBuf[dotIndex] = 0;
-    }
-}
+//         /* 回溯：还原dotIndex对应的place值 */
+//         pstAddrRecord->dotIndexBuf[dotIndex] = 0;
+//     }
+// }
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  * auther :[生哥]
@@ -186,4 +186,4 @@ char ** restoreIpAddresses(char * s, int* returnSize){
     *returnSize = stAddrRecord.count;
     return stAddrRecord.pRecord;
 }
-```
+// ```

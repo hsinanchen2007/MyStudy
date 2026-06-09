@@ -1,5 +1,5 @@
-time: 0ms , memory: 2mb;
-```rust 
+// time: 0ms , memory: 2mb;
+// ```rust 
 impl Solution {
     pub fn multiply(num1: String, num2: String) -> String {
         if num1 == "0" || num2 == "0" {
@@ -30,4 +30,4 @@ impl Solution {
         s.chars().rev().collect()
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-解题思路：
-用一个256大小的int数组存储位置信息，然后用双指针计算长度
-```
+// 解题思路：
+// 用一个256大小的int数组存储位置信息，然后用双指针计算长度
+// ```
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
@@ -21,5 +21,5 @@ public:
         return max;
     }
 };
-```
+// ```
 

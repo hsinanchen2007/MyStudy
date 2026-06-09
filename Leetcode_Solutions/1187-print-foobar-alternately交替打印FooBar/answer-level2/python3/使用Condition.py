@@ -1,4 +1,4 @@
-```Python
+# ```Python
 from threading import Condition
 class FooBar:
     def __init__(self, n):
@@ -28,5 +28,5 @@ class FooBar:
             printBar()
             
         self.con.release()
-```
+# ```
 

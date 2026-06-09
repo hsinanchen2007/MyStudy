@@ -1,7 +1,7 @@
-思路简单到不用写详解，直接看代码：
+// 思路简单到不用写详解，直接看代码：
 
 
-```c++
+// ```c++
 class Solution {
 public:
 	bool PredictTheWinner(vector<int>& nums) {
@@ -20,10 +20,10 @@ public:
 			return helper(left + 1, right, score_A, score_B + nums[left], true, nums) && helper(left, right - 1, score_A, score_B + nums[right], true, nums);
 	}
 };
-```
+// ```
 
-结果还不错，可能是测试用例太少的原因
+// 结果还不错，可能是测试用例太少的原因
 
-![1.jpg](https://pic.leetcode-cn.com/a305f0222c776534a6b74de0fe8dc285b27f23c850b7fe05efa7ff8f9bc75e2b-1.jpg)
+// ![1.jpg](https://pic.leetcode-cn.com/a305f0222c776534a6b74de0fe8dc285b27f23c850b7fe05efa7ff8f9bc75e2b-1.jpg)
 
 

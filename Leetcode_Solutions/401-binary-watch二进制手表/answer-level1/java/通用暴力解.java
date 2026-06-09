@@ -1,4 +1,4 @@
-罗列所有组合，输出合理解
+// 罗列所有组合，输出合理解
 
 class Solution {
  List<int[]> list = new ArrayList();

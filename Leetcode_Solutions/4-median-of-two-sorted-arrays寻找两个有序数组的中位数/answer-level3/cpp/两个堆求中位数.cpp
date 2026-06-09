@@ -1,5 +1,5 @@
-没注意到有序条件，大佬帮看下，用两个堆的话是不是复杂度是不是O((m+n)log(m+n))？（但是能通过。。）
-```
+// 没注意到有序条件，大佬帮看下，用两个堆的话是不是复杂度是不是O((m+n)log(m+n))？（但是能通过。。）
+// ```
 class Solution {
 public:
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
@@ -26,4 +26,4 @@ public:
         return (n + m)&1 ? maxq.top()*1.0 : (minq.top()+maxq.top())/2.0;
     }
 };
-```
+// ```

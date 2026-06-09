@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def uniquePaths(self, m: int, n: int) -> int:
         dp=[[0]*n for _ in range(m)]
@@ -18,4 +18,4 @@ class Solution:
                 dp[i][j] = dp[i-1][j]+dp[i][j-1]
 
         return dp[m-1][n-1]
-```
+# ```

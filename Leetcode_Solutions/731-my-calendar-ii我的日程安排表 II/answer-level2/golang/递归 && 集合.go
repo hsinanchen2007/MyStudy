@@ -1,14 +1,14 @@
-### 解题思路
-1：calendars 记录所有不重叠的预订时间；calendarsRepeat记录所有双重预订的时间；
-2：根据本次book的时间段time[start,end]，遍历calendars，对于calendars中每个预订时间time0[start,end]，作如下处理：
-   2.1：判断time[start,end]和time0[start,end]是否有交集，如果没有，则继续判断calendars中下一个预订时间。
-   2.2：计算time[start,end]和time0[start,end]重叠时间段，判断是否和calendarsRepeat中记录时间有重叠，如果有重叠，则本次添加失败，直接退出；如果没有重叠，将本次新产生的重叠         时间段添加到calendarsRepeat中。
-   2.3：计算time[start,end]和time0[start,end]非重叠的时间段，每个非重叠时间段再次使用BookFirst方法尝试添加，如果添加失败，则本次任务结束；如果添加成功，将非重叠时间段添加到calendars中。
-3：注意，如果添加失败了，记得回退本次处理过程中的数据。
+// ### 解题思路
+// 1：calendars 记录所有不重叠的预订时间；calendarsRepeat记录所有双重预订的时间；
+// 2：根据本次book的时间段time[start,end]，遍历calendars，对于calendars中每个预订时间time0[start,end]，作如下处理：
+//    2.1：判断time[start,end]和time0[start,end]是否有交集，如果没有，则继续判断calendars中下一个预订时间。
+//    2.2：计算time[start,end]和time0[start,end]重叠时间段，判断是否和calendarsRepeat中记录时间有重叠，如果有重叠，则本次添加失败，直接退出；如果没有重叠，将本次新产生的重叠         时间段添加到calendarsRepeat中。
+//    2.3：计算time[start,end]和time0[start,end]非重叠的时间段，每个非重叠时间段再次使用BookFirst方法尝试添加，如果添加失败，则本次任务结束；如果添加成功，将非重叠时间段添加到calendars中。
+// 3：注意，如果添加失败了，记得回退本次处理过程中的数据。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 type MyCalendarTwo struct {
     calendars []time
@@ -83,6 +83,6 @@ func (this *MyCalendarTwo) BookRepeat(start int, end int) bool {
  * obj := Constructor();
  * param_1 := obj.BookFirst(start,end);
  */
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/3988756223a563b493388db1fd817ecd1c6c7ecdf44d3422f8670431734421a4-image.png)
+// ![image.png](https://pic.leetcode-cn.com/3988756223a563b493388db1fd817ecd1c6c7ecdf44d3422f8670431734421a4-image.png)

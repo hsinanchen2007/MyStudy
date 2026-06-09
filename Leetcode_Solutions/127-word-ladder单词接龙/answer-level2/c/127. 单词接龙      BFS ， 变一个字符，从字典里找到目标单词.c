@@ -1,35 +1,35 @@
-### 解题思路
-给定两个单词（beginWord 和 endWord）和一个字典，找到从 beginWord 到 endWord 的最短转换序列的长度。转换需遵循如下规则：
+// ### 解题思路
+// 给定两个单词（beginWord 和 endWord）和一个字典，找到从 beginWord 到 endWord 的最短转换序列的长度。转换需遵循如下规则：
 
-每次转换只能改变一个字母。
-转换过程中的中间单词必须是字典中的单词。
-说明:
+// 每次转换只能改变一个字母。
+// 转换过程中的中间单词必须是字典中的单词。
+// 说明:
 
-如果不存在这样的转换序列，返回 0。
-所有单词具有相同的长度。
-所有单词只由小写字母组成。
-字典中不存在重复的单词。
-你可以假设 beginWord 和 endWord 是非空的，且二者不相同。
-示例 1:
+// 如果不存在这样的转换序列，返回 0。
+// 所有单词具有相同的长度。
+// 所有单词只由小写字母组成。
+// 字典中不存在重复的单词。
+// 你可以假设 beginWord 和 endWord 是非空的，且二者不相同。
+// 示例 1:
 
-输入:
-beginWord = "hit",
-endWord = "cog",
-wordList = ["hot","dot","dog","lot","log","cog"]
+// 输入:
+// beginWord = "hit",
+// endWord = "cog",
+// wordList = ["hot","dot","dog","lot","log","cog"]
 
-输出: 5
+// 输出: 5
 
-解释: 一个最短转换序列是 "hit" -> "hot" -> "dot" -> "dog" -> "cog",
-     返回它的长度 5。
+// 解释: 一个最短转换序列是 "hit" -> "hot" -> "dot" -> "dog" -> "cog",
+//      返回它的长度 5。
 
 
 
-1.宽度搜索，二叉树层次遍历类似
-2.每个元素入过队列后，后面就不用再将其入队列了。　加此标记也保证不会死循环了
+// 1.宽度搜索，二叉树层次遍历类似
+// 2.每个元素入过队列后，后面就不用再将其入队列了。　加此标记也保证不会死循环了
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 bool onediff(char * beginWord, char * endWord){
     int len = strlen(beginWord);
@@ -82,4 +82,4 @@ int ladderLength(char * beginWord, char * endWord, char ** wordList, int wordLis
     
     return 0;
 }
-```
+// ```

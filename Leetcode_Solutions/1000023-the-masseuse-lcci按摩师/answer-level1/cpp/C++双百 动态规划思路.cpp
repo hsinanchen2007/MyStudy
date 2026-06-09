@@ -1,11 +1,11 @@
-### 解题思路
-使用pre2，pre1记录记录前2天，前1天的最大预约时间，无需dp数组
-![image.png](https://pic.leetcode-cn.com/72db7d15c800d1052adce89c7212b93cab98a1a820a5175294b141ddc39dcc5f-image.png)
+// ### 解题思路
+// 使用pre2，pre1记录记录前2天，前1天的最大预约时间，无需dp数组
+// ![image.png](https://pic.leetcode-cn.com/72db7d15c800d1052adce89c7212b93cab98a1a820a5175294b141ddc39dcc5f-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int massage(vector<int>& nums) {
@@ -21,4 +21,4 @@ public:
         return now;
     }
 };
-```
+// ```

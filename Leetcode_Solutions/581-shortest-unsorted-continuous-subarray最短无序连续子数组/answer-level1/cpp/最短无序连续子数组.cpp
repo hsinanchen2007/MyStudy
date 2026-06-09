@@ -1,6 +1,6 @@
-#A1：超出时间限制的暴力方法==
-首先新建vector拷贝原数组，冒泡排序，再分别从头和尾比较原，新数组的值，记录第一个不同的数
-```
+// #A1：超出时间限制的暴力方法==
+// 首先新建vector拷贝原数组，冒泡排序，再分别从头和尾比较原，新数组的值，记录第一个不同的数
+// ```
 for(int i = 0; i < sort.size(); i++){
             for(int j = i+1; j < sort.size(); j++){
                 if(sort[i] > sort[j]){
@@ -32,9 +32,9 @@ for(int i = 0; i < sort.size(); i++){
             length = end - begin + 1;
         }
         return length;
-```
-A2：分别从头和尾搜索，记录最远min,max位置
-```
+// ```
+// A2：分别从头和尾搜索，记录最远min,max位置
+// ```
 int max, min, begin, end;
         max = nums[0];
         min = nums[nums.size()-1];
@@ -62,5 +62,5 @@ int max, min, begin, end;
         if(length > 0){
             length += 1;
         }
-```
+// ```
 

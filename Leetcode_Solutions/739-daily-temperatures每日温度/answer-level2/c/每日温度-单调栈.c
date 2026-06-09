@@ -1,4 +1,4 @@
-```
+// ```
 int* dailyTemperatures(int* T, int TSize, int* returnSize){
     int *stk = (int *) malloc(sizeof(int) * TSize);
     int *res = (int *) malloc(sizeof(int) * TSize);
@@ -13,4 +13,4 @@ int* dailyTemperatures(int* T, int TSize, int* returnSize){
     *returnSize = TSize;
     return res;
 }
-```
+// ```

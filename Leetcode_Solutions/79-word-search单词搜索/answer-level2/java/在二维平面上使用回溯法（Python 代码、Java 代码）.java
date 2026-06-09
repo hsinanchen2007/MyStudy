@@ -1,11 +1,11 @@
-这是一个使用回溯算法解决的问题，涉及的知识点有 DFS 和状态重置。
+// 这是一个使用回溯算法解决的问题，涉及的知识点有 DFS 和状态重置。
 
-<![79-1.png](https://pic.leetcode-cn.com/d504319785cb9ee880004a94f1318954f66ea5b29459db44b81ebc048129c98a-79-1.png),![79-2.png](https://pic.leetcode-cn.com/ce56eaaf43b587ad6e02bd3951b27291cf27d159106a984ab73659c511faa87d-79-2.png),![79-3.png](https://pic.leetcode-cn.com/631f0247763caba9fa164888f80459e9985826ed1393f3032363f999456b3025-79-3.png),![79-4.png](https://pic.leetcode-cn.com/9a3a3cc259208cb391ee7065c5be446091bab7b29094a3d5122918569835a6fc-79-4.png),![79-5.png](https://pic.leetcode-cn.com/b74270d9ddd333a7d92c8cb791044ef8b0e272db568a51eb7d547cdc8b6999f8-79-5.png),![79-6.png](https://pic.leetcode-cn.com/06fe072d677aeb8611f3169ed294d1af7a4bc8693c0c5c6898c8bb24eee92c91-79-6.png),![79-7.png](https://pic.leetcode-cn.com/4ad2839afb72036fec361e1afff1669650279b64cf4f2d791400818f49f71f7a-79-7.png),![79-8.png](https://pic.leetcode-cn.com/6b8b17fd56c4e51e9af162ae92e31b2b5245411c47f25772a7946bb938bcc993-79-8.png),![79-9.png](https://pic.leetcode-cn.com/95e5ef5684d49e29e0ba604937804a85b8ada69d22b87c5bf629c4ab8b6cb904-79-9.png),![79-10.png](https://pic.leetcode-cn.com/ffb4b6ec9430eb17cfd6d56af0cd6b941bd4f444198c9e133884ec6fd5e7b290-79-10.png),![79-11.png](https://pic.leetcode-cn.com/adf76299376889d03ddc7d532213c7e5381ac14f3d01e7ee80f2945e265d23a2-79-11.png),![79-12.png](https://pic.leetcode-cn.com/bc375f253b7e7453e46ee1282779e1067808766454fc8a4cbd9d570f7c9454a3-79-12.png),![79-13.png](https://pic.leetcode-cn.com/80a6087835851324b091ce1e6c9dea8760cde57f4f2b35cfdac4a001bb42429b-79-13.png)>
+// <![79-1.png](https://pic.leetcode-cn.com/d504319785cb9ee880004a94f1318954f66ea5b29459db44b81ebc048129c98a-79-1.png),![79-2.png](https://pic.leetcode-cn.com/ce56eaaf43b587ad6e02bd3951b27291cf27d159106a984ab73659c511faa87d-79-2.png),![79-3.png](https://pic.leetcode-cn.com/631f0247763caba9fa164888f80459e9985826ed1393f3032363f999456b3025-79-3.png),![79-4.png](https://pic.leetcode-cn.com/9a3a3cc259208cb391ee7065c5be446091bab7b29094a3d5122918569835a6fc-79-4.png),![79-5.png](https://pic.leetcode-cn.com/b74270d9ddd333a7d92c8cb791044ef8b0e272db568a51eb7d547cdc8b6999f8-79-5.png),![79-6.png](https://pic.leetcode-cn.com/06fe072d677aeb8611f3169ed294d1af7a4bc8693c0c5c6898c8bb24eee92c91-79-6.png),![79-7.png](https://pic.leetcode-cn.com/4ad2839afb72036fec361e1afff1669650279b64cf4f2d791400818f49f71f7a-79-7.png),![79-8.png](https://pic.leetcode-cn.com/6b8b17fd56c4e51e9af162ae92e31b2b5245411c47f25772a7946bb938bcc993-79-8.png),![79-9.png](https://pic.leetcode-cn.com/95e5ef5684d49e29e0ba604937804a85b8ada69d22b87c5bf629c4ab8b6cb904-79-9.png),![79-10.png](https://pic.leetcode-cn.com/ffb4b6ec9430eb17cfd6d56af0cd6b941bd4f444198c9e133884ec6fd5e7b290-79-10.png),![79-11.png](https://pic.leetcode-cn.com/adf76299376889d03ddc7d532213c7e5381ac14f3d01e7ee80f2945e265d23a2-79-11.png),![79-12.png](https://pic.leetcode-cn.com/bc375f253b7e7453e46ee1282779e1067808766454fc8a4cbd9d570f7c9454a3-79-12.png),![79-13.png](https://pic.leetcode-cn.com/80a6087835851324b091ce1e6c9dea8760cde57f4f2b35cfdac4a001bb42429b-79-13.png)>
 
 
-**参考代码**：
+// **参考代码**：
 
-```Python []
+// ```Python []
 from typing import List
 
 
@@ -53,8 +53,8 @@ class Solution:
                     return True
             marked[start_x][start_y] = False
         return False
-```
-```Java []
+// ```
+// ```Java []
 public class Solution {
 
     private boolean[][] marked;
@@ -133,34 +133,34 @@ public class Solution {
         System.out.println(exist);
     }
 }
-```
+// ```
 
-**说明**：
+// **说明**：
 
-1、偏移量数组在二维平面内是经常使用的，可以把它的设置当做一个技巧，并且在这个问题中，偏移量数组内的 4 个偏移的顺序无关紧要；
+// 1、偏移量数组在二维平面内是经常使用的，可以把它的设置当做一个技巧，并且在这个问题中，偏移量数组内的 4 个偏移的顺序无关紧要；
 
-说明：类似使用这个技巧的问题还有：[「力扣」第 130 题：被围绕的区域](https://leetcode-cn.com/problems/surrounded-regions/)、[「力扣」第 200 题：岛屿数量](https://leetcode-cn.com/problems/number-of-islands/)。
+// 说明：类似使用这个技巧的问题还有：[「力扣」第 130 题：被围绕的区域](https://leetcode-cn.com/problems/surrounded-regions/)、[「力扣」第 200 题：岛屿数量](https://leetcode-cn.com/problems/number-of-islands/)。
 
-2、对于这种搜索算法，我认为理解 DFS 和状态重置并不难，代码编写也相对固定，难在代码的编写和细节的处理，建议多次编写，自己多总结多思考，把自己遇到的坑记下。
+// 2、对于这种搜索算法，我认为理解 DFS 和状态重置并不难，代码编写也相对固定，难在代码的编写和细节的处理，建议多次编写，自己多总结多思考，把自己遇到的坑记下。
 
-我自己在写
+// 我自己在写
 
-```python
+// ```python
 for i in range(m):
     for j in range(n):
         # 对每一个格子都从头开始搜索
         if self.__search_word(board, word, 0, i, j, marked, m, n):
             return True
-```
+// ```
 
-这一段的时候，就傻乎乎地写成了：
+// 这一段的时候，就傻乎乎地写成了：
 
-```python
+// ```python
 # 这一段代码是错误的，不要模仿
 for i in range(m):
     for j in range(n):
         # 对每一个格子都从头开始搜索
         return self.__search_word(board, word, 0, i, j, marked, m, n)
-```
+// ```
 
-这样其实就变成只从坐标 `(0,0)` 开始搜索，搜索不到返回 `False`，但题目的意思是：只要你的搜索返回 `True` 才返回，如果全部的格子都搜索完了以后，都返回 `False` ，才返回 `False`。
+// 这样其实就变成只从坐标 `(0,0)` 开始搜索，搜索不到返回 `False`，但题目的意思是：只要你的搜索返回 `True` 才返回，如果全部的格子都搜索完了以后，都返回 `False` ，才返回 `False`。

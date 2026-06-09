@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     
     private int[][] dirs = {{0, -1}, {0, 1}, {-1, 0}, {1, 0}};
@@ -64,4 +64,4 @@ class Solution {
         return res == Integer.MAX_VALUE ? -1 : res;
     }
 }
-```
+// ```

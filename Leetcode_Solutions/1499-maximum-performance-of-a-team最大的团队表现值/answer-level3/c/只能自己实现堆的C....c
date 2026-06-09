@@ -1,4 +1,4 @@
-```
+// ```
 #define MAX(a, b) ((a) > (b) ? (a) : (b))
 
 typedef struct tagSortArr {
@@ -86,4 +86,4 @@ int maxPerformance(int n, int* speed, int speedSize, int* efficiency, int effici
     free(heap);
     return res % 100000007;
 }
-```
+// ```

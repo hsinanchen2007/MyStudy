@@ -1,13 +1,13 @@
-### 解题思路
-DFS加两个二维数组缓存到达当前位置最小的步数，因为形态不一样，平行的步数，也有垂直的步数。
-这样就实现了剪枝的操作。
+// ### 解题思路
+// DFS加两个二维数组缓存到达当前位置最小的步数，因为形态不一样，平行的步数，也有垂直的步数。
+// 这样就实现了剪枝的操作。
 
-![image.png](https://pic.leetcode-cn.com/b48ff647a4d19000510c632e2c4097131c5e782fadcde9223226af134948f5a1-image.png)
+// ![image.png](https://pic.leetcode-cn.com/b48ff647a4d19000510c632e2c4097131c5e782fadcde9223226af134948f5a1-image.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minimumMoves(int[][] grid) {
         int[][] h = new int[grid.length][];
@@ -47,4 +47,4 @@ class Solution {
             dfs(grid, h, v, x, y, x, y + 1, count + 1);
     }
 }
-```
+// ```

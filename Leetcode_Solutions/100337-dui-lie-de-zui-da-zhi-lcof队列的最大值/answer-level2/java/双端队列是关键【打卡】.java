@@ -1,9 +1,9 @@
-### 解题思路
-用双端队列保存历史最大值
+// ### 解题思路
+// 用双端队列保存历史最大值
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MaxQueue {
     Queue<Integer> que;
     Deque<Integer> deq;
@@ -42,4 +42,4 @@ class MaxQueue {
  * obj.push_back(value);
  * int param_3 = obj.pop_front();
  */
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-用到列表自带排序sort()
-时间快、内存消耗少
+# ### 解题思路
+# 用到列表自带排序sort()
+# 时间快、内存消耗少
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def singleNumber(self, nums: List[int]) -> int:
         nums.sort()
@@ -18,4 +18,4 @@ class Solution:
         else:
             return nums[0]
         return nums[len(nums)-1]
-```
+# ```

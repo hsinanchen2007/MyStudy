@@ -1,5 +1,5 @@
-![WechatIMG1582.jpeg](https://pic.leetcode-cn.com/d972ce28423f3f1bf54381c8e3cb2322895918f226ee35008bfdec5a6f93e637-WechatIMG1582.jpeg)
-```
+// ![WechatIMG1582.jpeg](https://pic.leetcode-cn.com/d972ce28423f3f1bf54381c8e3cb2322895918f226ee35008bfdec5a6f93e637-WechatIMG1582.jpeg)
+// ```
 class Solution {
 public:
     vector<ListNode*> splitListToParts(ListNode* root, int k) {
@@ -40,5 +40,5 @@ public:
         return len;
     }
 };
-```
+// ```
 

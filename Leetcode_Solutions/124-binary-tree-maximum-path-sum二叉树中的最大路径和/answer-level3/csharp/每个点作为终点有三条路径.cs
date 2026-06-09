@@ -1,12 +1,12 @@
-### 解题思路
-左右孩子路径 到达 
-从父亲路径到达
-以及仅包含自己
-统计每个节点的 极大值
+// ### 解题思路
+// 左右孩子路径 到达 
+// 从父亲路径到达
+// 以及仅包含自己
+// 统计每个节点的 极大值
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -187,4 +187,4 @@ public class Solution {
         return mt.MaxPathSum(root);
     }
 }
-```
+// ```

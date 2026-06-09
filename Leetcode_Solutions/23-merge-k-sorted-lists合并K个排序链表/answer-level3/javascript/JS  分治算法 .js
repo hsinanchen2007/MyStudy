@@ -1,8 +1,8 @@
-### 解题思路
-分治算法的JS版本
-### 代码
+// ### 解题思路
+// 分治算法的JS版本
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -50,4 +50,4 @@ var mergeKLists = function(lists) {
     }
     return lists[0];
 };
-```
+// ```

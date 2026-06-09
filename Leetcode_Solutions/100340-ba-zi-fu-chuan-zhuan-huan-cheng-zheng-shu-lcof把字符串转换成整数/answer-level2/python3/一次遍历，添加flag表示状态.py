@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def strToInt(self, str: str) -> int:
       if not str:
@@ -21,4 +21,4 @@ class Solution:
         return ans
       else:
         return -2**31 if ans < 0 else 2 ** 31 -1
-```
+# ```

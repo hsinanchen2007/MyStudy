@@ -1,14 +1,14 @@
-### 解题思路
+# ### 解题思路
 
-时间复杂度：O(n)
-空间复杂度：O(n)
+# 时间复杂度：O(n)
+# 空间复杂度：O(n)
 
-### 代码
+# ### 代码
 
-执行用时 : 64 ms , 在所有 Python3 提交中击败了 94.59% 的用户
-内存消耗 : 23.8 MB , 在所有 Python3 提交中击败了 100.00% 的用户
+# 执行用时 : 64 ms , 在所有 Python3 提交中击败了 94.59% 的用户
+# 内存消耗 : 23.8 MB , 在所有 Python3 提交中击败了 100.00% 的用户
 
-```python3
+# ```python3
 class Solution:
     def constructArr(self, A: List[int]) -> List[int]:
         if not A: return []
@@ -23,5 +23,5 @@ class Solution:
         
         B = [f*b for f, b in zip(forward, backward)]
         return B
-```
+# ```
 

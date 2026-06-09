@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-将字符串分成四段，每段进行有效检查：如果是0的话只能有一位，如果不是0的话首位不能是0
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 将字符串分成四段，每段进行有效检查：如果是0的话只能有一位，如果不是0的话首位不能是0
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def restoreIpAddresses(self, s: str) -> List[str]:
         def is_vaild(s):
@@ -30,4 +30,4 @@ class Solution:
                                 res.add(".".join(seg))
         return list(res)
 
-```
+# ```

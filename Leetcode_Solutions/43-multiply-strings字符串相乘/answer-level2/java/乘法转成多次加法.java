@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public String multiply(String num1, String num2) {
         if (num1.length() > num2.length()) {
@@ -47,4 +47,4 @@ class Solution {
         }
     }
 }
-```
+// ```

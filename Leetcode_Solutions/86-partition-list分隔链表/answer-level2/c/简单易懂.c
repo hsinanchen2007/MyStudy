@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-一定要记得将后面一条链表的尾部指向NULL， 不然就变成环形链表， 然后就TLE了
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 一定要记得将后面一条链表的尾部指向NULL， 不然就变成环形链表， 然后就TLE了
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -37,4 +37,4 @@ struct ListNode* partition(struct ListNode* head, int x){
     free(head2);
     return ans;
 }
-```
+// ```

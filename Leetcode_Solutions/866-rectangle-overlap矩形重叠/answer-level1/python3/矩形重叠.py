@@ -1,9 +1,9 @@
-### 解题思路
-相交的情况太冗余容易漏，考虑不相交的情况
+# ### 解题思路
+# 相交的情况太冗余容易漏，考虑不相交的情况
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isRectangleOverlap(self, rec1: List[int], rec2: List[int]) -> bool:
         # 考虑两矩形不相交的情况，当二矩形x的最大值都小于一矩形的最小值，或者二矩形最小值都大于一矩形的最大值时（说最大值最小值不严谨）
@@ -14,4 +14,4 @@ class Solution:
             return False
         else:
             return True
-```
+# ```

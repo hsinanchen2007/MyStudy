@@ -1,9 +1,9 @@
-### 解题思路
-与普通插入排序思路一致
-![147链表的插入排序.mp4](5dd98a6f-ae78-45ca-b378-9fee35f4ccdb)
-### 代码
+// ### 解题思路
+// 与普通插入排序思路一致
+// ![147链表的插入排序.mp4](5dd98a6f-ae78-45ca-b378-9fee35f4ccdb)
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -44,4 +44,4 @@ public:
         return res;
     }
 };
-```
+// ```

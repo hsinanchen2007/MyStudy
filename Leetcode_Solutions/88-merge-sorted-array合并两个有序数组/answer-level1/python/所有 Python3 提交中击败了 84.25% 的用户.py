@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-思路：
-1、定位目标  当mid大于target的时候,right = mid  而不是mid-1 ,因为原表中可能没有target
-2、num1插入的同时，释放最后一个节点
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 思路：
+# 1、定位目标  当mid大于target的时候,right = mid  而不是mid-1 ,因为原表中可能没有target
+# 2、num1插入的同时，释放最后一个节点
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
         """
@@ -31,4 +31,4 @@ class Solution:
                 left = mid + 1
         return left
 
-```
+# ```

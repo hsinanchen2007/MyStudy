@@ -1,9 +1,9 @@
-### 解题思路
-将count次数存储到新建数组中，当走到当前数值时，用此数与其前面所有数进行比较，之后在更新数组的count个数，最后返回数组中最大的那个值。：）
+# ### 解题思路
+# 将count次数存储到新建数组中，当走到当前数值时，用此数与其前面所有数进行比较，之后在更新数组的count个数，最后返回数组中最大的那个值。：）
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def lengthOfLIS(self, nums: List[int]) -> int:
         if not nums:
@@ -19,4 +19,4 @@ class Solution:
 
             
         
-```
+# ```

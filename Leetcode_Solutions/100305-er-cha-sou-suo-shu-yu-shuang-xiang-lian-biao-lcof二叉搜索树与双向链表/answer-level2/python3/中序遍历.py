@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def treeToDoublyList(self, root: 'Node') -> 'Node':
         stk = []
@@ -25,4 +25,4 @@ class Solution:
                 pre = cur
             cur = cur.right 
             stk.append(cur)
-```
+# ```

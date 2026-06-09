@@ -1,11 +1,11 @@
-![image.png](https://pic.leetcode-cn.com/5c623cd4ab240473ddb2793b91e5a285caac63431cf2271236cde2a23bbd6560-image.png)
+// ![image.png](https://pic.leetcode-cn.com/5c623cd4ab240473ddb2793b91e5a285caac63431cf2271236cde2a23bbd6560-image.png)
 
-### 解题思路
-C++回溯，定义三个标记数组分别代表三个限制：若在某一行摆了一个皇后，则皇后位置所在列、45度斜线、135度斜线均不能摆放皇后。
+// ### 解题思路
+// C++回溯，定义三个标记数组分别代表三个限制：若在某一行摆了一个皇后，则皇后位置所在列、45度斜线、135度斜线均不能摆放皇后。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<string>> res;
@@ -39,4 +39,4 @@ public:
         return res;
     }
 };
-```
+// ```

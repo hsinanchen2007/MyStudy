@@ -1,11 +1,11 @@
-### 解题思路
- * 请实现一个函数，把字符串 s 中的每个空格替换成"%20"。
- * 先遍历一遍 有多少空格n，申请长度后 len+2*n
- * 然后从后面开始复制，如果遇到空格，则将%20复制进去
+// ### 解题思路
+//  * 请实现一个函数，把字符串 s 中的每个空格替换成"%20"。
+//  * 先遍历一遍 有多少空格n，申请长度后 len+2*n
+//  * 然后从后面开始复制，如果遇到空格，则将%20复制进去
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String replaceSpace(String s) {
         int n = 0;
@@ -29,5 +29,5 @@ class Solution {
         return new String(chars);
     }
 }
-```
-![image.png](https://pic.leetcode-cn.com/70bd59a6c0f051f04650738c178131c40f704125e05e4a46de5f5f2bc216fc08-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/70bd59a6c0f051f04650738c178131c40f704125e05e4a46de5f5f2bc216fc08-image.png)

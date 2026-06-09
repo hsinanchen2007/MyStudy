@@ -1,12 +1,12 @@
-### 解题思路
-1.使用两个指针 read 和 write 分别标记读和写的位置，使用anchor用于标记连续出现字符的其实位置指针。
-2.read用于读取字符串，write用于写出内容，利用anchor计算相同字符的个数。
-3.返回write即是压缩后字符串的长度。
+// ### 解题思路
+// 1.使用两个指针 read 和 write 分别标记读和写的位置，使用anchor用于标记连续出现字符的其实位置指针。
+// 2.read用于读取字符串，write用于写出内容，利用anchor计算相同字符的个数。
+// 3.返回write即是压缩后字符串的长度。
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int compress(vector<char>& chars) {
@@ -27,4 +27,4 @@ public:
         return write;
     }
 };
-```
+// ```

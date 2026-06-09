@@ -1,5 +1,5 @@
-思路很简单，每次选择字符数最多并且连续的次数小于2（假设为a），选择后，需要将a的连续次数+1,将a的个数-1，剩余的b，c连续次数归0，个数保持不变。
-```
+// 思路很简单，每次选择字符数最多并且连续的次数小于2（假设为a），选择后，需要将a的连续次数+1,将a的个数-1，剩余的b，c连续次数归0，个数保持不变。
+// ```
 public String longestDiverseString(int a, int b, int c) {
         StringBuilder s = new StringBuilder("");
         int[] count = new int[]{a, b, c};
@@ -36,4 +36,4 @@ public String longestDiverseString(int a, int b, int c) {
         }
     }
 
-```
+// ```

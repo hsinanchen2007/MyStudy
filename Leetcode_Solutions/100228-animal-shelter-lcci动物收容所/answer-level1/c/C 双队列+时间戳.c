@@ -1,4 +1,4 @@
-```
+// ```
 #define MAX_ANIMAL 20000
 
 typedef struct{
@@ -108,4 +108,4 @@ void animalShelfFree(AnimalShelf* obj)
 {
   free(obj);
 }
-```
+// ```

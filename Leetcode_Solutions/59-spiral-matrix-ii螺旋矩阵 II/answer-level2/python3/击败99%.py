@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def generateMatrix(self, n: int) -> List[List[int]]:
         # _*_ coding:gbk _*_
@@ -26,4 +26,4 @@ class Solution:
             n = n - 2
             ii += 1
             jj -= 1
-```
+# ```

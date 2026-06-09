@@ -1,12 +1,12 @@
-### 解题思路
-1 快速排序算法；
-2 从右向左查找；
-3 当相遇时交换两个数在数组中的位置；
-4 最终将基准数归位；
+// ### 解题思路
+// 1 快速排序算法；
+// 2 从右向左查找；
+// 3 当相遇时交换两个数在数组中的位置；
+// 4 最终将基准数归位；
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -49,4 +49,4 @@ int* sortArray(int* nums, int numsSize, int* returnSize){
 
     return output;
 }
-```
+// ```

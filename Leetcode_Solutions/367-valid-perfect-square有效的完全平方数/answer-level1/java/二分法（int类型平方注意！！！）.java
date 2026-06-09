@@ -1,10 +1,10 @@
-### 解题思路
-1、标准的二分法查找
-2、注意：int类型平方时，要先转double，再计算。如果先计算再转会计算异常 例如：i = 202050
+// ### 解题思路
+// 1、标准的二分法查找
+// 2、注意：int类型平方时，要先转double，再计算。如果先计算再转会计算异常 例如：i = 202050
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isPerfectSquare(int num) {
         int low = 0;
@@ -33,4 +33,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

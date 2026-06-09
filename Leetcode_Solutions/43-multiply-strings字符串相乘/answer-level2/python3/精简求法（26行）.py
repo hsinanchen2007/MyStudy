@@ -1,7 +1,7 @@
-第一个函数multiply为主函数
-第二个函数用于一个整数乘以一个字符串：例如2*‘123’ = ‘246’
-第三个函数即两个字符串相加，即第415题的题解。
-```
+# 第一个函数multiply为主函数
+# 第二个函数用于一个整数乘以一个字符串：例如2*‘123’ = ‘246’
+# 第三个函数即两个字符串相加，即第415题的题解。
+# ```
 class Solution:
     def multiply(self, num1: str, num2: str) -> str:
         if num1 == "0" or num2 == "0": #处理特殊情况
@@ -28,4 +28,4 @@ class Solution:
             i-=1
             j-=1
         return str(car)+res if car else res
-```
+# ```

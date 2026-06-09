@@ -1,8 +1,8 @@
-满足条件 -> 扩张长度1，不满足条件 -> 滑动
-保存滑动窗口内相同字母出现次数的历史最大值，
-通过判断窗口宽度(right - left + 1) - maxFreq > K来决定窗口是否做滑动，否则窗口就扩张
-这里只需要记录历史最大值的原因是我们只需要最终保证输出的是最大长度，无需缩减窗口大小
-```python
+# 满足条件 -> 扩张长度1，不满足条件 -> 滑动
+# 保存滑动窗口内相同字母出现次数的历史最大值，
+# 通过判断窗口宽度(right - left + 1) - maxFreq > K来决定窗口是否做滑动，否则窗口就扩张
+# 这里只需要记录历史最大值的原因是我们只需要最终保证输出的是最大长度，无需缩减窗口大小
+# ```python
 class Solution:
     def characterReplacement(self, s: str, k: int) -> int:
         from collections import defaultdict
@@ -22,4 +22,4 @@ class Solution:
                 freqDict[leftChar] -= 1       
             maxLen = max(maxLen, windowEnd - windowStart + 1)
         return maxLen
-```
+# ```

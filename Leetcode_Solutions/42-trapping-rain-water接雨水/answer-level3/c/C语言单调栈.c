@@ -1,9 +1,9 @@
-### 解题思路
-思路清晰，单调栈的基本用法
+// ### 解题思路
+// 思路清晰，单调栈的基本用法
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include  <limits.h>
 #define MaxSize    65535
 typedef struct
@@ -110,4 +110,4 @@ int trap(int* height, int heightSize){
 
 
 
-```
+// ```

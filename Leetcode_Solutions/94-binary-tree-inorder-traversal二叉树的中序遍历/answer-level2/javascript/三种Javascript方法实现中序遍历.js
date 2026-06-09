@@ -1,14 +1,14 @@
-### 什么是中序遍历？
-先遍历左子树，然后访问根结点，最后遍历右子树
+// ### 什么是中序遍历？
+// 先遍历左子树，然后访问根结点，最后遍历右子树
 
 
-### 实现方式如下：
-##### 一、 堆栈法（易理解）：
-1. 如果存在左分支则入栈，并忘左跳  
-2. 如果不存在左分支和右分支（即到底了）保存当前值并跳转回上一个节点（保存在栈中，出栈即可）并将这个节点的左分支设为null  
-3. 如果只存在右分支，左分支为null则保存当前节点并忘右分支走
+// ### 实现方式如下：
+// ##### 一、 堆栈法（易理解）：
+// 1. 如果存在左分支则入栈，并忘左跳  
+// 2. 如果不存在左分支和右分支（即到底了）保存当前值并跳转回上一个节点（保存在栈中，出栈即可）并将这个节点的左分支设为null  
+// 3. 如果只存在右分支，左分支为null则保存当前节点并忘右分支走
 
-```Javascript
+// ```Javascript
 var inorderTraversal = function(root) {
     var res = [], stack = []
     while(root || stack.length) {
@@ -27,12 +27,12 @@ var inorderTraversal = function(root) {
     }
     return res
 };
-```
-##### 二、 递归（实现简单）：
-1. 先判断是否存在左分支，存在就往左分支走
-2. 当左分支不存在时，将此时的值push进列表中，看是否还有右分支，如果有就递归执行右分支的node
+// ```
+// ##### 二、 递归（实现简单）：
+// 1. 先判断是否存在左分支，存在就往左分支走
+// 2. 当左分支不存在时，将此时的值push进列表中，看是否还有右分支，如果有就递归执行右分支的node
 
-```Javascript
+// ```Javascript
 var inorderTraversal = function(root, res = []) {
     if(!root) return []
     if(root.left){
@@ -44,11 +44,11 @@ var inorderTraversal = function(root, res = []) {
     }
     return res;
 };
-```
+// ```
 
 
-##### 三、 莫里斯遍历：
-```Javascript
+// ##### 三、 莫里斯遍历：
+// ```Javascript
 var inorderTraversal = function(root) {
     let arr = []
     let current = root
@@ -74,4 +74,4 @@ var inorderTraversal = function(root) {
     }
     return arr
 };
-```
+// ```

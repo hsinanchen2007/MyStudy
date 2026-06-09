@@ -1,4 +1,4 @@
-```
+// ```
 typedef struct{
   int row;
   int col;
@@ -113,4 +113,4 @@ int orangesRotting(int** grid, int gridSize, int* gridColSize){
   if(rottenCnt == orangeCnt) return min;  // return min if all oranges turned rotten
   else return -1; // there is at least one orange won't be rotten
 }
-```
+// ```

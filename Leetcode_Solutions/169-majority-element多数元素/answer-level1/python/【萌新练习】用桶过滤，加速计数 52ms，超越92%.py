@@ -1,12 +1,12 @@
-### 解题思路
-# 萌新，欢迎大家指点
+# ### 解题思路
+# # 萌新，欢迎大家指点
 
-# 主要思想：count方法记录每个元素出现次数
-# 加速思想：用桶过滤已经计数的元素
+# # 主要思想：count方法记录每个元素出现次数
+# # 加速思想：用桶过滤已经计数的元素
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
         res=[] # 创建桶
@@ -18,4 +18,4 @@ class Solution:
                     return i
             elif i in res:
                 continue
-```
+# ```

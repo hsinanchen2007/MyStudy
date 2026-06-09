@@ -1,11 +1,11 @@
-c++ 快排  每个案列都随机化一下  避免极端案例
+// c++ 快排  每个案列都随机化一下  避免极端案例
 
-- 记得快排前，对数组随机化一下，避免极端案例，退化成 O(N^2)冒泡算法
+// - 记得快排前，对数组随机化一下，避免极端案例，退化成 O(N^2)冒泡算法
 
-**非递归**
+// **非递归**
 
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int partition(vector<int>& nums,int left,int right){
@@ -52,10 +52,10 @@ public:
     }
 };
 
-```
+// ```
 
-**递归**
-```swift
+// **递归**
+// ```swift
 class Solution {
 public:
     int partition(vector<int>& nums,int left,int right){
@@ -91,15 +91,15 @@ public:
     }
 };
 
-```
+// ```
 
 
 
-**小顶堆**
+// **小顶堆**
 
-手动维护一个大小为k小顶堆，最后弹出堆顶元素 即为小顶堆中最小的元素  也是整个数组中第k大的元素
+// 手动维护一个大小为k小顶堆，最后弹出堆顶元素 即为小顶堆中最小的元素  也是整个数组中第k大的元素
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void adjust_heap(vector<int>& nums,int index){
@@ -135,4 +135,4 @@ public:
         return tmp[0];
     }
 };
-```
+// ```

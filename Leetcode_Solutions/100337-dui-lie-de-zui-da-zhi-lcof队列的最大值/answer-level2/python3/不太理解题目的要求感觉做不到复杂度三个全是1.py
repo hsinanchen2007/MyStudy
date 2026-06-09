@@ -1,5 +1,5 @@
-对于最大值和插入都是1.pop有的时候是1
-```python3
+# 对于最大值和插入都是1.pop有的时候是1
+# ```python3
 class MaxQueue:
 
     def __init__(self):
@@ -36,4 +36,4 @@ class MaxQueue:
 # param_1 = obj.max_value()
 # obj.push_back(value)
 # param_3 = obj.pop_front()
-```
+# ```

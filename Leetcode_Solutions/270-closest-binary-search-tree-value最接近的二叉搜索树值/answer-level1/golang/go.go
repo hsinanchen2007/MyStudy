@@ -1,4 +1,4 @@
-```
+// ```
 func closest(l, r int, m float64) int {
 	if m-float64(l) < float64(r)-m {
 		return l
@@ -22,4 +22,4 @@ func closestValue(root *TreeNode, target float64) int {
 		return root.Val
 	}
 }
-```
+// ```

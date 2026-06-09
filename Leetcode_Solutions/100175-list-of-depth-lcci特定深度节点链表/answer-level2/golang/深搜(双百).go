@@ -1,4 +1,4 @@
-```
+// ```
 //深搜记录层数，数组中添加节点
 
 /**
@@ -42,4 +42,4 @@ func doSomething(tree *TreeNode, n int) {
 		doSomething(tree.Right, n+1)
 	}
 }
-```
+// ```

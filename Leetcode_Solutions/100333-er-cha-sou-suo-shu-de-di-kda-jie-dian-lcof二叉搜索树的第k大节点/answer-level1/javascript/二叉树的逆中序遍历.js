@@ -1,9 +1,9 @@
-### 解题思路
-第k大的节点，显然就是逆中序遍历的第k个节点，即右->根->左的顺序遍历
+// ### 解题思路
+// 第k大的节点，显然就是逆中序遍历的第k个节点，即右->根->左的顺序遍历
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var kthLargest = function(root, k) {
     // 二叉搜索树的逆中序遍历
     if (!root) return null;
@@ -24,4 +24,4 @@ var kthLargest = function(root, k) {
     }
     return null;
 };
-```
+// ```

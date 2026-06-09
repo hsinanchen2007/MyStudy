@@ -1,9 +1,9 @@
-### 解题思路
-典型二分法，套模板就行
+# ### 解题思路
+# 典型二分法，套模板就行
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isPerfectSquare(self, num: int) -> bool:
         left = 0
@@ -23,4 +23,4 @@ class Solution:
         else:
             False
             
-```
+# ```

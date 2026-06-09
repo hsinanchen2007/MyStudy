@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public void merge(int[] A, int m, int[] B, int n) {
         // 先确保将其中一个数组中的数字遍历完
@@ -18,4 +18,4 @@ class Solution {
         }
     }
 }
-```
+// ```

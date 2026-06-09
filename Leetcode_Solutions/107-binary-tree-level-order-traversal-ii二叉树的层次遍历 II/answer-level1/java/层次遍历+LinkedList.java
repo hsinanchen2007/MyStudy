@@ -1,4 +1,4 @@
-与普通层次遍历的差别在于直接利用linkedlist特性插入到一开始的list
+// 与普通层次遍历的差别在于直接利用linkedlist特性插入到一开始的list
 
 /**
  * Definition for a binary tree node.

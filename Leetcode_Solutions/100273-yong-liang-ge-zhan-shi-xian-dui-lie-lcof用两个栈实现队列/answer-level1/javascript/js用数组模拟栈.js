@@ -1,9 +1,9 @@
-### 解题思路
-见注释，理解题意很重要。虽然还是看不懂题目给的sample task
+// ### 解题思路
+// 见注释，理解题意很重要。虽然还是看不懂题目给的sample task
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var CQueue = function() {
   this.inStack = [];
   this.outStack = [];
@@ -42,4 +42,4 @@ CQueue.prototype.deleteHead = function() {
  * obj.appendTail(value)
  * var param_2 = obj.deleteHead()
  */
-```
+// ```

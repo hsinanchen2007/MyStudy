@@ -1,5 +1,5 @@
-# 菜鸟解法
-```golang
+// # 菜鸟解法
+// ```golang
 func plusOne(digits []int) []int {
     
     // 进位
@@ -32,11 +32,11 @@ func plusOne(digits []int) []int {
     
     return digits
 }
-```
+// ```
 
-# 置顶解法
-翻译置顶的解法，确实比较巧妙
-```golang
+// # 置顶解法
+// 翻译置顶的解法，确实比较巧妙
+// ```golang
 func plusOne(digits []int) []int {
     
     for i := len(digits) - 1; i >= 0; i-- {
@@ -53,5 +53,5 @@ func plusOne(digits []int) []int {
     
     return digits
 }
-```
+// ```
 

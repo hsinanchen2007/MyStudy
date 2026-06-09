@@ -1,9 +1,9 @@
-### 解题思路
-一下子没看出奇偶规律，采用的类似有效括号的嵌套深度来做的。。。
+// ### 解题思路
+// 一下子没看出奇偶规律，采用的类似有效括号的嵌套深度来做的。。。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] maxDepthAfterSplit(String seq) {
         char[] chars = seq.toCharArray();
@@ -34,4 +34,4 @@ class Solution {
         return new int[]{-1};
     }
 }
-```
+// ```

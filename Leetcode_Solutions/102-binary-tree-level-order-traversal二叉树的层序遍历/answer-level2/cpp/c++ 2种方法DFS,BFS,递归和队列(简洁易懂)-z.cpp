@@ -1,8 +1,8 @@
-做了这道题的童鞋可以顺带做一下103，一样的思路，细节不同
-[103.二叉树的锯齿形层次遍历](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/solution/c-2chong-fang-fa-dfsbfsdi-gui-he-dui-lie-jian-ji-y/)
-### DFS
+// 做了这道题的童鞋可以顺带做一下103，一样的思路，细节不同
+// [103.二叉树的锯齿形层次遍历](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/solution/c-2chong-fang-fa-dfsbfsdi-gui-he-dui-lie-jian-ji-y/)
+// ### DFS
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> res;   
@@ -21,11 +21,11 @@ public:
         addVector(root->right,level+1);
     }
 };
-```
+// ```
 
-### BFS
+// ### BFS
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> levelOrder(TreeNode* root) {
@@ -52,4 +52,4 @@ public:
         return res;
         }
 };
-```
+// ```

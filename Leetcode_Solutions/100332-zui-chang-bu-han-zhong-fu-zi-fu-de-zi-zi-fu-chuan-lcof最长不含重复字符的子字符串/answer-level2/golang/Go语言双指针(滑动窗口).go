@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func lengthOfLongestSubstring(s string) int {
 	if len(s) == 1||len(s)==0{//特殊情况
 		return len(s)
@@ -38,4 +38,4 @@ func lengthOfLongestSubstring(s string) int {
 func contact(str1,str2 string) string{
 	return str1+str2
 }
-```
+// ```

@@ -1,16 +1,16 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/3712ae4fda11ca7de09c904bde99bda4e0c13e5a5af2f351dcfd31b238e73b03-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/3712ae4fda11ca7de09c904bde99bda4e0c13e5a5af2f351dcfd31b238e73b03-image.png)
 
-看了题解，发表两点看法：
-1）c语言没有map，可以统计每个数出现的次数，但是没办法随机访问，而map是可以随机访问的
-2）进行排序，然后使用双指针法，题目中给出了个一个边界条件，那就是 INT_MIN和1的减法，会导致整数溢出，为了解决这个整数溢出，
-有两种办法：
-a）在qsort中针对特殊情况特殊处理
-b) 把题目的int整数数组 赋值为 long类型数组
-### 代码
+// 看了题解，发表两点看法：
+// 1）c语言没有map，可以统计每个数出现的次数，但是没办法随机访问，而map是可以随机访问的
+// 2）进行排序，然后使用双指针法，题目中给出了个一个边界条件，那就是 INT_MIN和1的减法，会导致整数溢出，为了解决这个整数溢出，
+// 有两种办法：
+// a）在qsort中针对特殊情况特殊处理
+// b) 把题目的int整数数组 赋值为 long类型数组
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -56,4 +56,4 @@ int* intersect(int* nums1, int nums1Size, int* nums2, int nums2Size, int* return
     *returnSize = k;
     return res;
 }
-```
+// ```

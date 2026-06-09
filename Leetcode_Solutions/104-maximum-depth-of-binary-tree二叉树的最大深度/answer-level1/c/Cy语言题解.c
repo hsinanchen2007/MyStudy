@@ -1,10 +1,10 @@
-### 解题思路
-1、算是全局变量的depth，记录最大的深度
-2、递归统计左右子树的深度，每次获取最大值。
+// ### 解题思路
+// 1、算是全局变量的depth，记录最大的深度
+// 2、递归统计左右子树的深度，每次获取最大值。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -36,4 +36,4 @@ int maxDepth(struct TreeNode* root){
 
     return depth;
 }
-```
+// ```

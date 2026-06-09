@@ -1,9 +1,9 @@
-### 解题思路
-C# 递归回溯法
+// ### 解题思路
+// C# 递归回溯法
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public bool Exist(char[][] board, string word) {
         for (int y = 0; y < board.Length; y++)
@@ -40,4 +40,4 @@ public class Solution {
         return result;
     }
 }
-```
+// ```

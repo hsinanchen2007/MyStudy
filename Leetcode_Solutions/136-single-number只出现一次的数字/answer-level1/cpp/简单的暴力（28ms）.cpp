@@ -1,8 +1,8 @@
-一个简单的暴力解法，28ms
+// 一个简单的暴力解法，28ms
 
 
 
-```
+// ```
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
@@ -21,4 +21,4 @@ public:
         return nums[n - 1];
     }
 };
-```
+// ```

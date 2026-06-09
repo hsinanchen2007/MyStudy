@@ -1,9 +1,9 @@
-### 解题思路
-直接使用 while 跳过最后的所有空格即可
+// ### 解题思路
+// 直接使用 while 跳过最后的所有空格即可
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {number}
@@ -25,4 +25,4 @@ var lengthOfLastWord = function(s) {
 
     return count;
 };
-```
+// ```

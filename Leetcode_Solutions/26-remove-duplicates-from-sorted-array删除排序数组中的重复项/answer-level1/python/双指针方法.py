@@ -1,10 +1,10 @@
-### 解题思路
-用双指针方法 slow在最前面 fast在1处 每次fast数字与slow比较 若相等 fast继续往前走
-若不相等 fast的位置放在slow中 说明之前slow中的数字遍历完了 slow++ fast++。
+# ### 解题思路
+# 用双指针方法 slow在最前面 fast在1处 每次fast数字与slow比较 若相等 fast继续往前走
+# 若不相等 fast的位置放在slow中 说明之前slow中的数字遍历完了 slow++ fast++。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
         if (len(nums)==0): return 0
@@ -17,4 +17,4 @@ class Solution:
         return slow+1
 
             
-```
+# ```

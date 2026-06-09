@@ -1,4 +1,4 @@
-```
+// ```
 int partition(int arr[], int left, int right) {
 	int j = left, i;
 	int val = arr[right];
@@ -46,4 +46,4 @@ int singleNumber(int* nums, int numsSize){
     return temp;
 }
 
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-用了两个for循环一直提示我超出时间限制，话说题目在哪里能看到这个要求啊，最后用了从和里面相减的方法才通过orz
+// ### 解题思路
+// 用了两个for循环一直提示我超出时间限制，话说题目在哪里能看到这个要求啊，最后用了从和里面相减的方法才通过orz
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] sumEvenAfterQueries(int[] A, int[][] queries) {
        int[] ans = new int[queries.length];
@@ -36,4 +36,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

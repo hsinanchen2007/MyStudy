@@ -1,6 +1,6 @@
-处理有区间交集的情况，思路看注释
+// 处理有区间交集的情况，思路看注释
 
-```
+// ```
 class Solution {
 public:
     int findPoisonedDuration(vector<int>& timeSeries, int duration) {
@@ -28,4 +28,4 @@ public:
         return ans;
     }
 };
-```
+// ```

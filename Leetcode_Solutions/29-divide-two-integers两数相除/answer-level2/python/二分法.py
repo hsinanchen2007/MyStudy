@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def divide(self,a,b):
         state=0
@@ -24,4 +24,4 @@ class Solution(object):
         else:
             i=min(i,2**31-1)
         return i
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 //子函数：反转p_left和p_right之间的字符
 void reverse(char* s, int p_left, int p_right) 
 {    
@@ -31,4 +31,4 @@ char* reverseStr(char* s, int k)
     }
     return s;
 }
-```
+// ```

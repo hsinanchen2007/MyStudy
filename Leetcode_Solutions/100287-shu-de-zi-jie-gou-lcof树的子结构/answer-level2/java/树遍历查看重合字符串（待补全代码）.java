@@ -1,6 +1,6 @@
-遍历两个树查看有无重合字符串
+// 遍历两个树查看有无重合字符串
 
-```
+// ```
 public boolean isSubStructure(TreeNode A, TreeNode B) {
         if(A==null || B==null) return false;
         String a,b;
@@ -19,4 +19,4 @@ public boolean isSubStructure(TreeNode A, TreeNode B) {
         r2 = a.indexOf(b);
         return r1+r2+r2>-3;        
     }
-```
+// ```

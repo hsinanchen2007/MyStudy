@@ -1,9 +1,9 @@
-### 解题思路
-修改每个节点的 的前项后项
+// ### 解题思路
+// 修改每个节点的 的前项后项
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -26,4 +26,4 @@ public class Solution {
                 return prev;
     }
 }
-```
+// ```

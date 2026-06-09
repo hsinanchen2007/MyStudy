@@ -1,9 +1,9 @@
-### 解题思路
-和三数之和一样，多加了一重循环，同时要注意排除a,b的重复情况
+// ### 解题思路
+// 和三数之和一样，多加了一重循环，同时要注意排除a,b的重复情况
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> fourSum(int[] nums, int target) {
         Arrays.sort(nums);
@@ -41,4 +41,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

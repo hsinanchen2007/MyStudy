@@ -1,9 +1,9 @@
-### 解题思路
-python 直接找最终位置
+# ### 解题思路
+# python 直接找最终位置
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
 	def missingTwo(self, nums):
 		"""
@@ -29,4 +29,4 @@ class Solution(object):
 				ans.append(i+1)
 
 		return ans
-```
+# ```

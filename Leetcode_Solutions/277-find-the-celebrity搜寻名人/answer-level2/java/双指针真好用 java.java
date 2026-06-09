@@ -1,4 +1,4 @@
-```
+// ```
 public class Solution extends Relation {
     public int findCelebrity (int n) {
         int left = 0, right = n - 1;
@@ -7,4 +7,4 @@ public class Solution extends Relation {
         return left;
     }
 }
-```
+// ```

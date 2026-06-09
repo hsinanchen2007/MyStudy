@@ -1,9 +1,9 @@
-### 解题思路
-可能最近刷题有感觉了，之前觉得很难写的递归，竟然都能一下子写出来了。递归很简单啦，以1->2->3->4->null为例说明。先将1和2互换，然后将1指向递归函数即可。非递归类似的思路。其实递归和非递归有关系的，自己写几个就能感觉出来了。
+// ### 解题思路
+// 可能最近刷题有感觉了，之前觉得很难写的递归，竟然都能一下子写出来了。递归很简单啦，以1->2->3->4->null为例说明。先将1和2互换，然后将1指向递归函数即可。非递归类似的思路。其实递归和非递归有关系的，自己写几个就能感觉出来了。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -23,9 +23,9 @@ class Solution {
         return next;
     }
 }
-```
+// ```
 
-```java
+// ```java
 public ListNode swapPairs(ListNode head){
     if(head == null || head.next == null)
         return head;
@@ -44,4 +44,4 @@ public ListNode swapPairs(ListNode head){
     }
     return preHead.next;
 }
-```
+// ```

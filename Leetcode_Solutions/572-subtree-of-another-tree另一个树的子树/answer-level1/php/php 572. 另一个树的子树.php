@@ -1,13 +1,13 @@
-### 解题思路
-一个树是另一个树的子树的三种情况
+// ### 解题思路
+// 一个树是另一个树的子树的三种情况
 
-要么这两个树相等
-要么这个树是左树的子树
-要么这个树是右树的子树
+// 要么这两个树相等
+// 要么这个树是左树的子树
+// 要么这个树是右树的子树
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 /**
  * Definition for a binary tree node.
  * class TreeNode {
@@ -56,7 +56,7 @@ class Solution {
             && $this->isSameTree($s->right, $t->right);//右节点比较
     }
 }
-```
-## 参考
-[评论区](https://leetcode-cn.com/problems/subtree-of-another-tree/comments/)
-[572. 另一个树的子树](https://leetcode-cn.com/problems/subtree-of-another-tree/solution/di-gui-php-by-salmonl-5/)
+// ```
+// ## 参考
+// [评论区](https://leetcode-cn.com/problems/subtree-of-another-tree/comments/)
+// [572. 另一个树的子树](https://leetcode-cn.com/problems/subtree-of-another-tree/solution/di-gui-php-by-salmonl-5/)

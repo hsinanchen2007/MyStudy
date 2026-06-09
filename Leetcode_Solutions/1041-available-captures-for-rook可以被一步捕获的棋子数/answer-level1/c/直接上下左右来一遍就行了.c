@@ -1,9 +1,9 @@
-### 解题思路
-直接上下左右来一遍就行了
+// ### 解题思路
+// 直接上下左右来一遍就行了
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int dfs(char** board, int boardSize, int* boardColSize, int xR, int yR, int x, int y)
 {
     if (xR + x < 0 || xR + x >= boardSize || yR + y < 0 || yR + y >= boardColSize[xR + x]) {
@@ -35,4 +35,4 @@ int numRookCaptures(char** board, int boardSize, int* boardColSize){
     int down = dfs(board, boardSize, boardColSize, xR, yR, 0, -1);
     return left + right + up + down;
 }
-```
+// ```

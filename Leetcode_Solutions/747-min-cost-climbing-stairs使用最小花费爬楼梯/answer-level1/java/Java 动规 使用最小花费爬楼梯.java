@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     // 要爬到最顶层，必须要跨越第cost.length阶
     public int minCostClimbingStairs(int[] cost) {
@@ -15,4 +15,4 @@ class Solution {
         return dp[n]; // 返回爬到楼层顶部的最小体力
     }
 }
-```
+// ```

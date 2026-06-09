@@ -1,4 +1,4 @@
-```
+// ```
 class MaxQueue {
 public:
     queue<int> q;
@@ -20,5 +20,5 @@ public:
         return q.empty()?-1:(v=q.front(),Max.erase(-v),q.pop(),v);
     }
 };
-```
-set支持插入删除和自动排序 很方便的数据结构
+// ```
+// set支持插入删除和自动排序 很方便的数据结构

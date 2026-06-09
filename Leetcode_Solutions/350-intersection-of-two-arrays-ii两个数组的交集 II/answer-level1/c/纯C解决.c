@@ -1,13 +1,13 @@
-### 解题思路
-思路很简单，先排序，然后稍微利用一下归并的思想。
+// ### 解题思路
+// 思路很简单，先排序，然后稍微利用一下归并的思想。
 
-nums1,nums2，用两个指针指向他们的下标，然后对于相同的，那么肯定是直接存储，然后对于小的是先移动，因为小的必然没有共同的元素。
+// nums1,nums2，用两个指针指向他们的下标，然后对于相同的，那么肯定是直接存储，然后对于小的是先移动，因为小的必然没有共同的元素。
 
-时间复杂度取决于你所使用的排序算法。
+// 时间复杂度取决于你所使用的排序算法。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -59,4 +59,4 @@ int* intersect(int* nums1, int nums1Size, int* nums2, int nums2Size, int* return
     *returnSize=index;
     return nums;
 }
-```
+// ```

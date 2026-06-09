@@ -1,4 +1,4 @@
-```
+// ```
 public String addBinary(String a, String b) {
 		int carry = 0;
 		int i = a.length() - 1;
@@ -18,4 +18,4 @@ public String addBinary(String a, String b) {
 		}
 		return sb.reverse().toString();
 	}
-```
+// ```

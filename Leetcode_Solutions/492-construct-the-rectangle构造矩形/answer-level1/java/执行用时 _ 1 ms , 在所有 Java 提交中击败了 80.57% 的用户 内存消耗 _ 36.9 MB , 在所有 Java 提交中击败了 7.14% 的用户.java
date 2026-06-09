@@ -1,9 +1,9 @@
-### 解题思路
-对面积开方，从中间往前找，i为宽，area/i为长，找到一个就结束循环
+// ### 解题思路
+// 对面积开方，从中间往前找，i为宽，area/i为长，找到一个就结束循环
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] constructRectangle(int area) {
         int[] ans = new int[2];
@@ -17,4 +17,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

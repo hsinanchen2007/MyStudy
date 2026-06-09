@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] twoSum(int[] numbers, int target) {
         int[] res = new int[2];
@@ -31,4 +31,4 @@ static int erfen(int[] numbers,int start,int end,int t){
         return 0;   
     }
 }
-```
+// ```

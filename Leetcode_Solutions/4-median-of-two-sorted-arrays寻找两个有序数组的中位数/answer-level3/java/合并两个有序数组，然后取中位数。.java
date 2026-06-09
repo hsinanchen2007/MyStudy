@@ -1,9 +1,9 @@
-### 解题思路
-先把两个数组有序合并，然后取中位数。
+// ### 解题思路
+// 先把两个数组有序合并，然后取中位数。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int allLen = nums1.length + nums2.length;
@@ -54,4 +54,4 @@ class Solution {
 
     }
 }
-```
+// ```

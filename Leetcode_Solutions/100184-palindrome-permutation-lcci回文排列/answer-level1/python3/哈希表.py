@@ -1,9 +1,9 @@
-### 解题思路
-首先将字符串存入哈希表，再计算每个字符奇数个的个数，如果奇数个数大于2个，就判定False
+# ### 解题思路
+# 首先将字符串存入哈希表，再计算每个字符奇数个的个数，如果奇数个数大于2个，就判定False
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def canPermutePalindrome(self, s):
         """
@@ -28,4 +28,4 @@ class Solution(object):
             return False
         else:
             return True
-```
+# ```

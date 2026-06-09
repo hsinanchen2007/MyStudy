@@ -1,6 +1,6 @@
 
 
-```
+// ```
 class Solution {
     public boolean hasValidPath(int[][] grid) {
         if(grid.length == 1 && grid[0].length == 1) return true;
@@ -76,4 +76,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-dp
+// ### 解题思路
+// dp
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isScramble(String s1, String s2) {
         int m = s1.length();
@@ -49,4 +49,4 @@ class Solution {
         return dp[0][0][n];
     }
 }
-```
+// ```

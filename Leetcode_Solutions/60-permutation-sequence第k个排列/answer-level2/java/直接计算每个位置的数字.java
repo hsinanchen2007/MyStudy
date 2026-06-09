@@ -1,5 +1,5 @@
-每个位置的数字信息可以直接通过计算得出，代码如下
-```
+// 每个位置的数字信息可以直接通过计算得出，代码如下
+// ```
         int[] numOrder = new int[n + 1];
         numOrder[0] = 0;
         Map<Integer, Integer> fMap = new HashMap<>();
@@ -22,4 +22,4 @@
         }
         s.append(list.get(0));
         return s.toString();
-```
+// ```

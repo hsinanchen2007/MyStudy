@@ -1,9 +1,9 @@
 
-**#闰年判断:**
-```
+// **#闰年判断:**
+// ```
 ((year % 4 == 0)&&(year % 100 != 0)) || (year % 400 == 0)
-```
-```
+// ```
+// ```
 class Solution {
     static boolean isRun(int year){ 
         return year%100!=0&&year%4==0 || year%400==0;       //判断闰年
@@ -40,4 +40,4 @@ class Solution {
         return sum+date11;
     }
 }
-```
+// ```

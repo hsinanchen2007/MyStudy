@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 // 分制
 func sortArray(nums []int) []int {
     var lens = len(nums)
@@ -44,4 +44,4 @@ func Merge(Pre,Post []int) []int{
     }
     return list
 }
-```
+// ```

@@ -1,5 +1,5 @@
-**DFS:**
-```
+// **DFS:**
+// ```
 class Solution {
 public:
     int maxDepth(TreeNode* root) {
@@ -7,12 +7,12 @@ public:
         return max(maxDepth(root->left) + 1, maxDepth(root->right) + 1);
     }
 };
-```
-- Time: O(N)
-- Space: O(h) (树的深度H)
+// ```
+// - Time: O(N)
+// - Space: O(h) (树的深度H)
 
-**BFS:**
-```
+// **BFS:**
+// ```
 class Solution {
 public:
     int maxDepth(TreeNode* root) {
@@ -33,9 +33,9 @@ public:
         return depth;
     }
 };
-```
-- Time: O(N)
-- Space: O(w) (树每一层的宽度W)
+// ```
+// - Time: O(N)
+// - Space: O(w) (树每一层的宽度W)
 
-#
-- 来自LeetCode英文网站：insomniacat用户
+// #
+// - 来自LeetCode英文网站：insomniacat用户

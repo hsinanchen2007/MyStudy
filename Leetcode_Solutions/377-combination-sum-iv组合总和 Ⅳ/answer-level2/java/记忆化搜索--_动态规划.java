@@ -1,19 +1,19 @@
-记忆化搜索，就是回溯过程中记忆重叠子问题的答案。
+// 记忆化搜索，就是回溯过程中记忆重叠子问题的答案。
 
-对于例子
-nums = [1, 2, 3]
-target = 4
-```
+// 对于例子
+// nums = [1, 2, 3]
+// target = 4
+// ```
         4
      /  |  \    分别-1，-2，-3
     3   2   1
   / | \         再分别-1，-2，-3知道等于0为止，这些减数的路径就是一个符合题意的组合。
  2  1  0 ....
-```
-即状态转移方程为f(4) = f(3) + f(2) + f(1);
+// ```
+// 即状态转移方程为f(4) = f(3) + f(2) + f(1);
 
-# 记忆化搜索
-```java
+// # 记忆化搜索
+// ```java
 int[] memo;
 public int combinationSum4(int[] nums, int target) {
     memo = new int[target+1];
@@ -35,10 +35,10 @@ private int backtracking(int target, final int[] candidates) {
     memo[target] = res;
     return res;
 }
-```
+// ```
 
-# DP
-```java
+// # DP
+// ```java
 public int combinationSum4(int[] nums, int target) {
     int[] dp = new int[target+1];
     dp[0]=0;
@@ -57,6 +57,6 @@ public int combinationSum4(int[] nums, int target) {
     }
     return dp[target];
 }
-```
+// ```
 
 

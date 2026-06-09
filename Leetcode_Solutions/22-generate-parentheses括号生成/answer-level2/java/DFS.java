@@ -1,9 +1,9 @@
-### 解题思路
-原答主链接;https://leetcode-cn.com/problems/generate-parentheses/solution/zui-jian-dan-yi-dong-de-dong-tai-gui-hua-bu-lun-da/
+// ### 解题思路
+// 原答主链接;https://leetcode-cn.com/problems/generate-parentheses/solution/zui-jian-dan-yi-dong-de-dong-tai-gui-hua-bu-lun-da/
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution{
     public List<String> generateParenthesis(int n) {
             LinkedList<LinkedList<String>> result = new LinkedList<LinkedList<String>>();
@@ -34,4 +34,4 @@ class Solution{
     }   
 }
 
-```
+// ```

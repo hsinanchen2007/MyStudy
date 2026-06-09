@@ -1,10 +1,10 @@
-### 解题思路
-用递归法一圈一圈打印
-关键在于递归出口的判断，m<=2或n<=2都可以直接作为递归出口
+# ### 解题思路
+# 用递归法一圈一圈打印
+# 关键在于递归出口的判断，m<=2或n<=2都可以直接作为递归出口
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def spiralOrder(self, matrix):
         """
@@ -49,4 +49,4 @@ class Solution(object):
     
         getNum(matrix,m,n)
         return self.res
-```
+# ```

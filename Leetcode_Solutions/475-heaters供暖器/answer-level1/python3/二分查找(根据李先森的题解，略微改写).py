@@ -1,8 +1,8 @@
-根据@李先森的题解，略微改写了一下，更接近于经典的二分查找写法(循环条件left <= right )。
+# 根据@李先森的题解，略微改写了一下，更接近于经典的二分查找写法(循环条件left <= right )。
 
-速度一般 39.89%
+# 速度一般 39.89%
 
-```python
+# ```python
 class Solution:
     def findRadius(self, houses: List[int], heaters: List[int]) -> int:
         # 存放每个房屋与加热器的最短距离
@@ -41,4 +41,4 @@ class Solution:
                 
         return max(res)
 
-```
+# ```

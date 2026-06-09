@@ -1,11 +1,11 @@
-这是我最喜欢的计算斐波那契数列的方法，详见[Fast Fibonacci algorithms](https://www.nayuki.io/page/fast-fibonacci-algorithms)
-这种方法基于如下的公式：
-$$
- F(2k) = F(k) \left[ 2F(k+1) - F(k) \right] \\
- F(2k+1) = F(k+1)^2 + F(k)^2
-$$
-这种的计算方法的时间复杂度是 $\Theta(\log n)$
-```python3
+# 这是我最喜欢的计算斐波那契数列的方法，详见[Fast Fibonacci algorithms](https://www.nayuki.io/page/fast-fibonacci-algorithms)
+# 这种方法基于如下的公式：
+# $$
+#  F(2k) = F(k) \left[ 2F(k+1) - F(k) \right] \\
+#  F(2k+1) = F(k+1)^2 + F(k)^2
+# $$
+# 这种的计算方法的时间复杂度是 $\Theta(\log n)$
+# ```python3
 # returns F(n)
 def fibonacci(n: int):  
     return _fib(n)[0]
@@ -26,4 +26,4 @@ def _fib(n: int):
             return (d, c + d)
         else:
             return (c, d)
-```
+# ```

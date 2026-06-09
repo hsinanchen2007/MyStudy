@@ -1,4 +1,4 @@
-```
+// ```
     public boolean oneEditAway(String first, String second) {
         int flen = first.length(), slen = second.length();
         if(Math.abs(flen-slen)>1) return false;
@@ -23,4 +23,4 @@
         else if((fs==first.length()||ss==second.length())&&!mark[0]) return true;
         else return false;
     }
-```
+// ```

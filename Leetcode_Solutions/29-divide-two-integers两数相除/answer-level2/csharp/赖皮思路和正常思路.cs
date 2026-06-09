@@ -1,9 +1,9 @@
-### 解题思路
-先说赖皮思路，有这个思路是因为题目描述不严谨（也可能是故意留下的方法），如果除了加减法和位移以外，还能考虑指数对数，那么a/b可以用floor(e^(lna-lnb))这样的公式替代。
-当然，由于对数的入参必须为正数，所以要把负数变正数，就得考虑-2^31的问题，所以之前的修正会比较多。代码如下：
-### 代码
+// ### 解题思路
+// 先说赖皮思路，有这个思路是因为题目描述不严谨（也可能是故意留下的方法），如果除了加减法和位移以外，还能考虑指数对数，那么a/b可以用floor(e^(lna-lnb))这样的公式替代。
+// 当然，由于对数的入参必须为正数，所以要把负数变正数，就得考虑-2^31的问题，所以之前的修正会比较多。代码如下：
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int Divide(int dividend, int divisor) {
         // 溢出判断
@@ -120,13 +120,13 @@ public class Solution {
     }
 }
 
-```
+// ```
 
-下面是常规思路的代码
+// 下面是常规思路的代码
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int Divide(int dividend, int divisor) {
         // 短路判断
@@ -269,4 +269,4 @@ public class Solution {
         }
     }
 }
-```
+// ```

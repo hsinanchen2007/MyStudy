@@ -1,6 +1,6 @@
-广度优先遍历
+// 广度优先遍历
 
-```javascript []
+// ```javascript []
 /**
  * @param {number} n
  * @param {number[][]} red_edges
@@ -75,4 +75,4 @@ var shortestAlternatingPaths = function(n, red_edges, blue_edges) {
 	}
 	return result
 };
-```
+// ```

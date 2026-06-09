@@ -1,5 +1,5 @@
 
-```python []
+# ```python []
 class Solution(object):
     def nthUglyNumber(self, n):
         """
@@ -28,4 +28,4 @@ class Solution(object):
             dp.append(tmp)
             n -= 1
         return dp[-1]
-```
+# ```

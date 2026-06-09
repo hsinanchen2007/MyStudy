@@ -1,5 +1,5 @@
-二分思想进行尾部搜索
-```python []
+# 二分思想进行尾部搜索
+# ```python []
 class Solution:
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
         if len(matrix)==0:  return False
@@ -10,5 +10,5 @@ class Solution:
                 for y in x:
                     if target == y: ans = True
         return ans
-```
+# ```
 

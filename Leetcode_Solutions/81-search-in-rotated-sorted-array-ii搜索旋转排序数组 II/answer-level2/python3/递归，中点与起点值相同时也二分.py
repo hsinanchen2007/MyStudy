@@ -1,10 +1,10 @@
-### 解题思路
-看了很多大佬们的代码，感觉思路都一样，在nums[mid]==nums[left]的时候采取的都是left+=1继续验证。
-我的则是把列表分为左右两半，分别二分。
+# ### 解题思路
+# 看了很多大佬们的代码，感觉思路都一样，在nums[mid]==nums[left]的时候采取的都是left+=1继续验证。
+# 我的则是把列表分为左右两半，分别二分。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def search(self, nums: List[int], target: int) -> bool:
         n=len(nums)-1
@@ -37,4 +37,4 @@ class Solution:
                     else:
                         left=mid+1
         return False
-```
+# ```

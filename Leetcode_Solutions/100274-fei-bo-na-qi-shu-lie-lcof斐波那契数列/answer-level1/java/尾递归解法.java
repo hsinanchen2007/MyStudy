@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-基于尾递归的算法经编译器优化后，可以像普通循环一样快。
+// 基于尾递归的算法经编译器优化后，可以像普通循环一样快。
 
-### 代码
+// ### 代码
 
-```java []
+// ```java []
 class Solution {
     public int fib(int n) {
         return fibsHelper(n, 0, 0, 1);
@@ -18,8 +18,8 @@ class Solution {
         }
     }
 }
-```
-```scala []
+// ```
+// ```scala []
 object Solution {
     def fib(n: Int): Int = {
         fibsHelper(n, 0, 0, 1)
@@ -32,4 +32,4 @@ object Solution {
         }
     }
 }
-```
+// ```

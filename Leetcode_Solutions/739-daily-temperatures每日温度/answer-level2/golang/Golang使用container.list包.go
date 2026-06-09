@@ -1,9 +1,9 @@
-### 解题思路
-典型单调栈的解法。
+// ### 解题思路
+// 典型单调栈的解法。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func dailyTemperatures(T []int) []int {
     res := make([]int, len(T), len(T))
     stack := list.New()
@@ -16,4 +16,4 @@ func dailyTemperatures(T []int) []int {
     }
     return res
 }
-```
+// ```

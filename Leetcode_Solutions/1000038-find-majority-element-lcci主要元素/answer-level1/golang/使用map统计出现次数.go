@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func majorityElement(nums []int) int {
     m := make(map[int]int)
     for _, v := range nums {
@@ -18,4 +18,4 @@ func majorityElement(nums []int) int {
     }
     return -1
 }
-```
+// ```

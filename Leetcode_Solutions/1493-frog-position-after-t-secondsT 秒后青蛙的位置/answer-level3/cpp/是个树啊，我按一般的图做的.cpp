@@ -1,8 +1,8 @@
-先把边改成邻接描述方便计算。
-建立prob矩阵表示某时刻某点的概率，在函数间按引用传递。
-用数组visited记录访问过的节点，如果邻接有没访问过的节点，把概率等分过去。
+// 先把边改成邻接描述方便计算。
+// 建立prob矩阵表示某时刻某点的概率，在函数间按引用传递。
+// 用数组visited记录访问过的节点，如果邻接有没访问过的节点，把概率等分过去。
 
-```
+// ```
 class Solution {
 public:
     void visit(vector<vector<int>>&nb,vector<vector<double>>&prob,vector<int>visited,int place,double p,int t,int time){
@@ -39,4 +39,4 @@ public:
         return prob[t][target-1];
     }
 };
-```
+// ```

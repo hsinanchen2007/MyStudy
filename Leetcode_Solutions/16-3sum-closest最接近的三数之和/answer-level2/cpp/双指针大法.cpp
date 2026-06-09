@@ -1,13 +1,13 @@
-### 解题思路
-同三数和问题，用双指针解决
-- 先排序(我这里是升序)
-- 枚举第一个数nums[i]，k = target - nums[i]
-- 接下来用双指针nums[l] 和 nums[r]，让其和更加接近k即可
-- 因为枚举的是第一个数，所以nums[l] + nums[r] >= 2 * nums[i]，所以若此时k < 2 * nums[i]可以不用继续了，因为差距只会越来越大
-- 用时8ms, 内存6.5MB
-### 代码
+// ### 解题思路
+// 同三数和问题，用双指针解决
+// - 先排序(我这里是升序)
+// - 枚举第一个数nums[i]，k = target - nums[i]
+// - 接下来用双指针nums[l] 和 nums[r]，让其和更加接近k即可
+// - 因为枚举的是第一个数，所以nums[l] + nums[r] >= 2 * nums[i]，所以若此时k < 2 * nums[i]可以不用继续了，因为差距只会越来越大
+// - 用时8ms, 内存6.5MB
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int threeSumClosest(vector<int>& nums, int target) {
@@ -54,4 +54,4 @@ public:
         return ans;
     }
 };
-```
+// ```

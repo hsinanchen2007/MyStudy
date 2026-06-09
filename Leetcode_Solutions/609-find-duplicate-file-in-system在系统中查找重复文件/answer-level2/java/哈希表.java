@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public List<List<String>> findDuplicate(String[] paths) {
         // 文件内容 -> 路径列表
@@ -23,4 +23,4 @@ class Solution {
         return lists;
     }
 }
-```
+// ```

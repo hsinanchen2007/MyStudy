@@ -1,6 +1,6 @@
-### 解法一：
+// ### 解法一：
 
-```javascript
+// ```javascript
 var missingNumber = function(nums) {
     for (let i = 0; ; i++) {
         if (nums.indexOf(i) === -1) {
@@ -8,14 +8,14 @@ var missingNumber = function(nums) {
         }
     }
 };
-```
-时间复杂度：O(n^2)
-空间复杂度：O(1)
+// ```
+// 时间复杂度：O(n^2)
+// 空间复杂度：O(1)
 
-### 解法二：
+// ### 解法二：
 
 
-```javascript
+// ```javascript
 var missingNumber = function(nums) {
     nums.sort((a, b) => a - b).filter(item => item >= 0)
     if (nums[0] === 0) {
@@ -29,6 +29,6 @@ var missingNumber = function(nums) {
         return 0
     }
 };
-```
-时间复杂度：O(n log n)
-空间复杂度：O(1)
+// ```
+// 时间复杂度：O(n log n)
+// 空间复杂度：O(1)

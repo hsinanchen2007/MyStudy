@@ -1,7 +1,7 @@
-![LQZ0`\[4OIZKP6L)BQAJXW8X.png](https://pic.leetcode-cn.com/ced4b176cffea60d11153df13e6530c398cf11171a00187b1d29b176b8a96ba6-LQZ0%60%5B4OIZKP6L\)BQAJXW8X.png)
+// ![LQZ0`\[4OIZKP6L)BQAJXW8X.png](https://pic.leetcode-cn.com/ced4b176cffea60d11153df13e6530c398cf11171a00187b1d29b176b8a96ba6-LQZ0%60%5B4OIZKP6L\)BQAJXW8X.png)
 
 
-```
+// ```
 public class Solution {
     public int NumRookCaptures(char[][] board) {
         int sum = 0;
@@ -65,4 +65,4 @@ public class Solution {
         return sum;
     }
 }
-```
+// ```

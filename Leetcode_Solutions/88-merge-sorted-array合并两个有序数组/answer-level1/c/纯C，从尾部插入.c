@@ -1,9 +1,9 @@
-### 解题思路
-从nums1的n+m-1位置开始插入
+// ### 解题思路
+// 从nums1的n+m-1位置开始插入
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n)
 {//从尾部开始写数据
     int r=m+n-1;//插入数据的尾指针
@@ -30,4 +30,4 @@ void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n)
         nums1[r--]=nums2[r2--];
 
 }
-```
+// ```

@@ -1,16 +1,16 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/c91dd76b31f2826c1effc797681d8d4e3e58bb5dbc22277bccef753b3d681830-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/c91dd76b31f2826c1effc797681d8d4e3e58bb5dbc22277bccef753b3d681830-image.png)
 
-这数字有点不理想，我猜是服务器现在压力太大。不至于这么低。。。。思路同[地图分析](https://leetcode-cn.com/problems/as-far-from-land-as-possible/solution/di-tu-fen-xi-jsduo-yuan-bfs-by-closertb/), 只是一个是BFS，一个时DFS。但思路一致，都是先找出所有岛屿，然后对每个岛屿向四个方向展开；
->步骤
- - 寻找所有陆地；
- - 遍历陆地，但遍历前，先检查是否已遍历过；
- - 四个方向深度遍历，然后求和；
- - 遍历结果和当前最大值比较；
+// 这数字有点不理想，我猜是服务器现在压力太大。不至于这么低。。。。思路同[地图分析](https://leetcode-cn.com/problems/as-far-from-land-as-possible/solution/di-tu-fen-xi-jsduo-yuan-bfs-by-closertb/), 只是一个是BFS，一个时DFS。但思路一致，都是先找出所有岛屿，然后对每个岛屿向四个方向展开；
+// >步骤
+//  - 寻找所有陆地；
+//  - 遍历陆地，但遍历前，先检查是否已遍历过；
+//  - 四个方向深度遍历，然后求和；
+//  - 遍历结果和当前最大值比较；
  
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} grid
  * @return {number}
@@ -91,4 +91,4 @@ var maxAreaOfIsland = function(words) {
     }
     return max;
 };
-```
+// ```

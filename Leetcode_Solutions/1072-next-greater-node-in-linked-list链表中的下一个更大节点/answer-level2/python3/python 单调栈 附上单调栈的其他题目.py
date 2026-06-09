@@ -1,24 +1,24 @@
-## 单调栈题目
+# ## 单调栈题目
 
-- 42
-- 84
-- 907
-- 1019
-- 768
-- 402
+# - 42
+# - 84
+# - 907
+# - 1019
+# - 768
+# - 402
 
-## 代码
+# ## 代码
 
-记录位置的数据结构是必须的
+# 记录位置的数据结构是必须的
 
-可以
+# 可以
 
-- 多加个栈
-- 多加个记录位置的数组
-- 用栈中放的是pair(其实等效于2个栈)
+# - 多加个栈
+# - 多加个记录位置的数组
+# - 用栈中放的是pair(其实等效于2个栈)
 
-链表转数组
-```python
+# 链表转数组
+# ```python
 class Solution:
     def nextLargerNodes(self, head: ListNode) -> List[int]:        
         nums = []
@@ -40,10 +40,10 @@ class Solution:
             stack_loc.append(i)
 
         return res  
-```
+# ```
 
-直接操作链表
-```python
+# 直接操作链表
+# ```python
 class Solution:
     def nextLargerNodes(self, head: ListNode) -> List[int]:        
         stack = []
@@ -63,5 +63,5 @@ class Solution:
             head = head.next
 
         return res  
-```
+# ```
 

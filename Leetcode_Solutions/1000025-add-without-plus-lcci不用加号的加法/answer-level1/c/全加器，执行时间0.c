@@ -1,11 +1,11 @@
-### 解题思路
-全加器,
-本位 = a XOR b XOR c
-进位 = (a AND b) OR (c AND (a OR b))
+// ### 解题思路
+// 全加器,
+// 本位 = a XOR b XOR c
+// 进位 = (a AND b) OR (c AND (a OR b))
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int add(int a, int b) {
     unsigned int ans = 0,c = 0,mask = 1;
     while(mask){
@@ -18,4 +18,4 @@ int add(int a, int b) {
     }
     return (int)ans;
 }
-```
+// ```

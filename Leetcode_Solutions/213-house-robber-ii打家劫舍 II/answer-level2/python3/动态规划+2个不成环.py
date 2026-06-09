@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def rob(self, nums: List[int]) -> int:
         def robline(nums):
@@ -12,4 +12,4 @@ class Solution:
         if len(nums) == 1:
             return nums[0]
         return max(robline(nums[1:]), robline(nums[:-1]))
-```
+# ```

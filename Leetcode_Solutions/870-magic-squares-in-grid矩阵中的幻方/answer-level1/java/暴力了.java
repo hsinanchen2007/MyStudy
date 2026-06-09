@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
   public int numMagicSquaresInside(int[][] grid) {
         int r = grid.length, c = grid[0].length;
@@ -63,4 +63,4 @@ class Solution {
     }
 
 }
-```
+// ```

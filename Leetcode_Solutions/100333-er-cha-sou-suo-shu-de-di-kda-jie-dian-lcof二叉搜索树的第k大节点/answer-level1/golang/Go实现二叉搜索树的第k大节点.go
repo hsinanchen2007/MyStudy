@@ -1,6 +1,6 @@
 
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -27,4 +27,4 @@ func kthLargest(root *TreeNode, k int) int {
 	return res[len(res)-k]
 }
 
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-两行搞定……
+// ### 解题思路
+// 两行搞定……
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int distributeCandies(vector<int>& candies) {
@@ -11,4 +11,4 @@ public:
         return min(candies.size()/2,s.size());
     }
 };
-```
+// ```

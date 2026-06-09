@@ -1,10 +1,10 @@
-### 解题思路
-简单易懂，代码精简
-![image.png](https://pic.leetcode-cn.com/3e6b58e48bf20719ee2e3f8dd83c1490509eab5a5f65fc24417cd1eabf12ef1a-image.png)
+# ### 解题思路
+# 简单易懂，代码精简
+# ![image.png](https://pic.leetcode-cn.com/3e6b58e48bf20719ee2e3f8dd83c1490509eab5a5f65fc24417cd1eabf12ef1a-image.png)
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class NumArray(object):
 
     def __init__(self, nums):
@@ -53,4 +53,4 @@ class NumArray(object):
 # obj = NumArray(nums)
 # obj.update(i,val)
 # param_2 = obj.sumRange(i,j)
-```
+# ```

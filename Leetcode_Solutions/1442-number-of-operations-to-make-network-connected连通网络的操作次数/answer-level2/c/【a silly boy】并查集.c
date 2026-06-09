@@ -1,4 +1,4 @@
-```
+// ```
 int cmp(const void *a, const void *b) {
     return *(int *)a - *(int *)b;
 }
@@ -74,4 +74,4 @@ int makeConnected(int n, int** connections, int connectionsSize, int* connection
         return -1;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-线性复杂度，但是空间复杂度O(n)
+// ### 解题思路
+// 线性复杂度，但是空间复杂度O(n)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int singleNumber(vector<int> &nums)
@@ -26,4 +26,4 @@ public:
         return result;
     }
 };
-```
+// ```

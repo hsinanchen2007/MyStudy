@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     string shortestCommonSupersequence(string str1, string str2) {
@@ -39,6 +39,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/985a90a49bc00fde7166161f3b2b0be4cf7071a4625f36f09df67dbb9d4ada8b-image.png)
+// ![image.png](https://pic.leetcode-cn.com/985a90a49bc00fde7166161f3b2b0be4cf7071a4625f36f09df67dbb9d4ada8b-image.png)

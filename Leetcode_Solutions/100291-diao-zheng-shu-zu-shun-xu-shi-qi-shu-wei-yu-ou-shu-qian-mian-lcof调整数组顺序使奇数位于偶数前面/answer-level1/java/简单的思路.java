@@ -1,9 +1,9 @@
-### 解题思路
-老往复杂了去想 做出来的更差劲。。
+// ### 解题思路
+// 老往复杂了去想 做出来的更差劲。。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] exchange(int[] nums) {
         int[] arr  = new int[nums.length];
@@ -24,4 +24,4 @@ class Solution {
         return arr;
     }
 }
-```
+// ```

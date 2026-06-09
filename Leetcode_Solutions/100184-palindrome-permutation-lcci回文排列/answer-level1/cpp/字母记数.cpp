@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool canPermutePalindrome(string s) {
@@ -18,4 +18,4 @@ public:
         return odd<2;//如果出现奇数次的字母多于1个，那么这些字母无法构成一个回文串
     }   
 };
-```
+// ```

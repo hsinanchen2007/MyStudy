@@ -1,9 +1,9 @@
-### 解题思路
-与[118](https://leetcode-cn.com/problems/pascals-triangle/solution/c-dong-tai-gui-hua-by-imopika/)思路一样。
+// ### 解题思路
+// 与[118](https://leetcode-cn.com/problems/pascals-triangle/solution/c-dong-tai-gui-hua-by-imopika/)思路一样。
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public IList<int> GetRow(int rowIndex) {
         int numRows = 34;
@@ -27,4 +27,4 @@ public class Solution {
         return dp[rowIndex].ToList();
     }
 }
-```
+// ```

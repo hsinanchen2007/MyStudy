@@ -1,9 +1,9 @@
-### 解题思路
-**队列**：先进先出。把已经拼接过的结果插到尾部，然后待拼接的从头部出去，直到走完digits
+// ### 解题思路
+// **队列**：先进先出。把已经拼接过的结果插到尾部，然后待拼接的从头部出去，直到走完digits
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func letterCombinations(digits string) []string {
 	if digits == "" || len(digits) == 0 {
 		return nil
@@ -31,4 +31,4 @@ func letterCombinations(digits string) []string {
 	}
 	return res
 }
-```
+// ```

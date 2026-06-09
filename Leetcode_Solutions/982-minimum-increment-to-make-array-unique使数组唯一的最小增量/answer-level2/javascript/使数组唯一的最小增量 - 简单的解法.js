@@ -1,9 +1,9 @@
-### 解题思路
-先排序，根据数组起止下标判断数字是否重复。若重复，则其他数++
+// ### 解题思路
+// 先排序，根据数组起止下标判断数字是否重复。若重复，则其他数++
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} A
  * @return {number}
@@ -67,4 +67,4 @@ var minIncrementForUnique = function(A) {
 //     }
 //     return n
 // };
-```
+// ```

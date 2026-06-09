@@ -1,5 +1,5 @@
-java语言，运行时间超过100%用户
-```
+// java语言，运行时间超过100%用户
+// ```
 public void nextPermutation(int[] nums) {
     boolean haveNext = true;
     for (int i = 0; i < nums.length - 1; i++){
@@ -63,4 +63,4 @@ public int findMin(int[] nums, int n){
     }
     return res;
 }
-```
+// ```

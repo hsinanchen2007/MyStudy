@@ -1,11 +1,11 @@
-### 解题思路
-gridSize 是行数
-gridColSize 是列数（不知道为什么以指针方式传进来）
-grid 就是二维数组
+// ### 解题思路
+// gridSize 是行数
+// gridColSize 是列数（不知道为什么以指针方式传进来）
+// grid 就是二维数组
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 
 int countNegatives(int** grid, int gridSize, int* gridColSize){
@@ -20,4 +20,4 @@ int countNegatives(int** grid, int gridSize, int* gridColSize){
     }
     return gridSize**gridColSize-sum;
 }
-```
+// ```

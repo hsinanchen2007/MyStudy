@@ -1,10 +1,10 @@
-### 解题思路
-1.将数字的每一位放到int slice中
-2.遍历slice的前一半，比较每一位与其对称位的值是否相对
+// ### 解题思路
+// 1.将数字的每一位放到int slice中
+// 2.遍历slice的前一半，比较每一位与其对称位的值是否相对
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func isPalindrome(x int) bool {
 	if x < 0 {
 		return false
@@ -39,4 +39,4 @@ func isPalindrome(x int) bool {
 	return isPalindrome
 }
 
-```
+// ```

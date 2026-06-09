@@ -1,9 +1,9 @@
-### 解题思路
-C# 队列x2+栈 模拟
+// ### 解题思路
+// C# 队列x2+栈 模拟
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public bool ValidateStackSequences(int[] pushed, int[] popped) {
         if (pushed.Length != popped.Length) return false;
@@ -41,4 +41,4 @@ public class Solution {
         return true;
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-方法一：字符串转数组，通过计数器统计形成单词的长度
-方法二：通过 Map 对字母表出现的字母计数
+// ### 解题思路
+// 方法一：字符串转数组，通过计数器统计形成单词的长度
+// 方法二：通过 Map 对字母表出现的字母计数
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} words
  * @param {string} chars
@@ -81,4 +81,4 @@ function stringToMap(chars){
     }
     return charsMap;
 }
-```
+// ```

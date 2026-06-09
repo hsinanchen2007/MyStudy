@@ -1,8 +1,8 @@
-1. 递归
+// 1. 递归
 
-递归方法比较好理解，不再详细说明
+// 递归方法比较好理解，不再详细说明
 
-```
+// ```
 class Solution {
 public:
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
@@ -15,11 +15,11 @@ public:
         return left ? left : right;
     }
 };
-```
+// ```
 
-2. 先求从根节点到每个 node 的路径，转化为链表首个公共节点问题（需要额外的存储空间）
+// 2. 先求从根节点到每个 node 的路径，转化为链表首个公共节点问题（需要额外的存储空间）
 
-```
+// ```
 class Solution {
 public:
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
@@ -57,4 +57,4 @@ public:
     }
 };
 
-```
+// ```

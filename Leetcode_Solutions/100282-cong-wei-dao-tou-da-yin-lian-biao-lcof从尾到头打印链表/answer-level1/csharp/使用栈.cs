@@ -1,11 +1,11 @@
-### 解题思路
-利用栈后入先出的特性
-先写入栈中
-再从栈中弹出
+// ### 解题思路
+// 利用栈后入先出的特性
+// 先写入栈中
+// 再从栈中弹出
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -29,4 +29,4 @@ public class Solution {
         return arr;
     }
 }
-```
+// ```

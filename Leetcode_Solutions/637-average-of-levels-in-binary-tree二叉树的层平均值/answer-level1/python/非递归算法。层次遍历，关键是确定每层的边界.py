@@ -1,9 +1,9 @@
-### 解题思路
-parent表示当前层的节点，child表示下一层节点。设置两个队列的目的用于区分每层的边界
+# ### 解题思路
+# parent表示当前层的节点，child表示下一层节点。设置两个队列的目的用于区分每层的边界
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -45,4 +45,4 @@ class Solution(object):
                 child = []
 
         return result
-```
+# ```

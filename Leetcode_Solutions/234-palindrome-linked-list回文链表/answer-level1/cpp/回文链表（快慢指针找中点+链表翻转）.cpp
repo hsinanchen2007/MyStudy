@@ -1,11 +1,11 @@
-## 思路分析
-本题为 [206. 反转链表](https://leetcode-cn.com/problems/reverse-linked-list/])和 [876. 链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list/) 的结合情况：
-1. 先用快慢指针思想找到链表中点；
-2. 翻转后半部分链表；
-3. 比较值；
+// ## 思路分析
+// 本题为 [206. 反转链表](https://leetcode-cn.com/problems/reverse-linked-list/])和 [876. 链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list/) 的结合情况：
+// 1. 先用快慢指针思想找到链表中点；
+// 2. 翻转后半部分链表；
+// 3. 比较值；
 
-## 代码实现
-```cpp
+// ## 代码实现
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -51,4 +51,4 @@ private:
         return pre;
     }
 };
-```
+// ```

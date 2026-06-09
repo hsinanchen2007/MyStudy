@@ -1,9 +1,9 @@
-### 解题思路
-DPDPDPDPDPDPDPDP
+# ### 解题思路
+# DPDPDPDPDPDPDPDP
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def massage(self, nums) -> int:
         if nums == []:
@@ -16,4 +16,4 @@ class Solution:
 
         return nums[len(nums) - 1]
 
-```
+# ```

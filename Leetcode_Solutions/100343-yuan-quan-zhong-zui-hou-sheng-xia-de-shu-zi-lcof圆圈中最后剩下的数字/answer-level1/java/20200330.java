@@ -1,9 +1,9 @@
-### 解题思路
-用ArrayList 模拟数据的删除过程，尝试过用数组模拟但是数组不方便进行删除操作，会超时
+// ### 解题思路
+// 用ArrayList 模拟数据的删除过程，尝试过用数组模拟但是数组不方便进行删除操作，会超时
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int lastRemaining(int n, int m) {
         ArrayList<Integer> tmp = new ArrayList<Integer>();
@@ -21,4 +21,4 @@ class Solution {
 
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-只需要确认前两部分是否相等且等于总和的三分之一，再判断是否存在第三部分即可
+// ### 解题思路
+// 只需要确认前两部分是否相等且等于总和的三分之一，再判断是否存在第三部分即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canThreePartsEqualSum(int[] A) {
 
@@ -58,4 +58,4 @@ class Solution {
 
     }
 }
-```
+// ```

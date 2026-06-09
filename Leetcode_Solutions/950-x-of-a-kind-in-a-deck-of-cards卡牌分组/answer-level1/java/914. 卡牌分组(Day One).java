@@ -1,9 +1,9 @@
-### 法一
-思想是求出每个元素的个数，然后判断这些元素的最大公约数。这里采用HashMap计数。
+// ### 法一
+// 思想是求出每个元素的个数，然后判断这些元素的最大公约数。这里采用HashMap计数。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean hasGroupsSizeX(int[] deck) {
         Map<Integer, Integer> map = new HashMap<>();
@@ -38,11 +38,11 @@ class Solution {
         return gcd(b, a % b);
     }
 }
-```
-### 法二
-思路同一，但是根据题目条件采用数组计数。
+// ```
+// ### 法二
+// 思路同一，但是根据题目条件采用数组计数。
 
-```java
+// ```java
 class Solution {
     public boolean hasGroupsSizeX(int[] deck) {
         int N = 10000;
@@ -67,12 +67,12 @@ class Solution {
         return 0 == b ? a : gcd(b, a % b);
     }
 }
-```
+// ```
 
-### 法三（法二的优化）
-思路也同法二，但是在计算最大公约数的时候采用合并的思想，这样时间为O(Log(N))
+// ### 法三（法二的优化）
+// 思路也同法二，但是在计算最大公约数的时候采用合并的思想，这样时间为O(Log(N))
 
-```java
+// ```java
 class Solution {
     public boolean hasGroupsSizeX(int[] deck) {
         int N = 10000;
@@ -105,4 +105,4 @@ class Solution {
         return 0 == b ? a : gcd(b, a % b);
     }
 }
-```
+// ```

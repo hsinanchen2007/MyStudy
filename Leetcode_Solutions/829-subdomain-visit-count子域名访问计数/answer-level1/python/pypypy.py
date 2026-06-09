@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def subdomainVisits(self, cpdomains: List[str]) -> List[str]:
         dic = collections.defaultdict(int)
@@ -17,4 +17,4 @@ class Solution:
                 dic[temp] +=int(num)
 
         return [str(dic[key])+" "+key  for key in dic]
-```
+# ```

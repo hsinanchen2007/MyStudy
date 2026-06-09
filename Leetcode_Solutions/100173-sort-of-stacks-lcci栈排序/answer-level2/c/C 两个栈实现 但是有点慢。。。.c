@@ -1,4 +1,4 @@
-```
+// ```
 #define MAX_LEN 5000
 
 typedef struct {
@@ -72,4 +72,4 @@ void sortedStackFree(SortedStack* obj) {
   free(obj);
 }
 
-```
+// ```

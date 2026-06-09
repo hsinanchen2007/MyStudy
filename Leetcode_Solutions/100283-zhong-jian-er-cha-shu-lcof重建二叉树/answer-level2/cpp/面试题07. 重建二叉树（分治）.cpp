@@ -1,6 +1,6 @@
-***Talk is cheap. Show me the code.***
+// ***Talk is cheap. Show me the code.***
 
-```cpp
+// ```cpp
 class Solution {
 public:
     typedef vector<int>::iterator iterator;
@@ -32,5 +32,5 @@ private:
 private:
     unordered_map<int, iterator> umap;
 };
-```
-![Xnip2020-03-11_23-56-57.jpg](https://pic.leetcode-cn.com/60a94671bb2c84fd2dfc686577830dfa5ffa7b04e20c55dbb69dc2141ac4a1fd-Xnip2020-03-11_23-56-57.jpg)
+// ```
+// ![Xnip2020-03-11_23-56-57.jpg](https://pic.leetcode-cn.com/60a94671bb2c84fd2dfc686577830dfa5ffa7b04e20c55dbb69dc2141ac4a1fd-Xnip2020-03-11_23-56-57.jpg)

@@ -1,4 +1,4 @@
-```
+// ```
  */
 var isUgly = function(num) {
     let ar = [2,3,5]
@@ -32,4 +32,4 @@ var isUgly = function(num) {
 
     return a
 };
-```
+// ```

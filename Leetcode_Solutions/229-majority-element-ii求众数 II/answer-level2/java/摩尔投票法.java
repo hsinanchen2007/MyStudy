@@ -1,9 +1,9 @@
-### 解题思路
-原答主链接：https://leetcode-cn.com/problems/majority-element-ii/solution/liang-fu-dong-hua-yan-shi-mo-er-tou-piao-fa-zui-zh/
+// ### 解题思路
+// 原答主链接：https://leetcode-cn.com/problems/majority-element-ii/solution/liang-fu-dong-hua-yan-shi-mo-er-tou-piao-fa-zui-zh/
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> majorityElement(int[] nums) {
         // 创建返回值
@@ -63,4 +63,4 @@ class Solution {
 // 链接：https://leetcode-cn.com/problems/majority-element-ii/solution/liang-fu-dong-hua-yan-shi-mo-er-tou-piao-fa-zui-zh/
 // 来源：力扣（LeetCode）
 // 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
-```
+// ```

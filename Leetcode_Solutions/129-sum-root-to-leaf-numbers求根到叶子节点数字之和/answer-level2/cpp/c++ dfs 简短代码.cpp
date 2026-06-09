@@ -1,8 +1,8 @@
-思路：从根节点到叶子节点dfs,把到目前为止的和传递给左右子节点，在叶子节点的时候加起来
-![image.png](https://pic.leetcode-cn.com/aa33115635408a3ff31abc21e18cb88d6f3929d6495d6c7f75525d67ad0158c0-image.png)
+// 思路：从根节点到叶子节点dfs,把到目前为止的和传递给左右子节点，在叶子节点的时候加起来
+// ![image.png](https://pic.leetcode-cn.com/aa33115635408a3ff31abc21e18cb88d6f3929d6495d6c7f75525d67ad0158c0-image.png)
 
 
-```
+// ```
 class Solution {
 public:
     int sumNumbers(TreeNode* root) {
@@ -30,4 +30,4 @@ public:
         return ans;
     }
 };
-```
+// ```

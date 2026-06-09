@@ -1,7 +1,7 @@
-执行用时 : 256 ms, 在所有 JavaScript 提交中击败了 76.92% 的用户
-内存消耗 : 49.3 MB, 在所有 JavaScript 提交中击败了 100.00% 的用户
+// 执行用时 : 256 ms, 在所有 JavaScript 提交中击败了 76.92% 的用户
+// 内存消耗 : 49.3 MB, 在所有 JavaScript 提交中击败了 100.00% 的用户
 
-```javascript
+// ```javascript
 var allCellsDistOrder = function(R, C, r0, c0) {
     var res = [];
     for (let i = 0; i < R; ++i) {
@@ -17,6 +17,6 @@ var allCellsDistOrder = function(R, C, r0, c0) {
     });
     return res;
 };
-```
+// ```
 
-大概是因为用 js 的人太少了叭
+// 大概是因为用 js 的人太少了叭

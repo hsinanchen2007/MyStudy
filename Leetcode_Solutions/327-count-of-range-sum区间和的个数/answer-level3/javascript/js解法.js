@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number[]} nums
  * @param {number} lower
@@ -27,4 +27,4 @@ var countRangeSum = function(nums, lower, upper) {
   }
   return res;
 };
-```
+// ```

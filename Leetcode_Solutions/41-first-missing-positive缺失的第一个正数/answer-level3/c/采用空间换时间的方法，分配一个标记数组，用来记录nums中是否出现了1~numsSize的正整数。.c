@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int firstMissingPositive(int* nums, int numsSize){
     int i;
     int *B = (int*)malloc(sizeof(int)*numsSize);//标记数组
@@ -19,4 +19,4 @@ int firstMissingPositive(int* nums, int numsSize){
     }
     return i+1;
 }
-```
+// ```

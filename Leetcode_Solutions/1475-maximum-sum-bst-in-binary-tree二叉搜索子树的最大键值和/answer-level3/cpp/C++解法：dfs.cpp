@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-一个简单的dfs，注意判断BST（优先级最高）和回传BST计算值即可。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 一个简单的dfs，注意判断BST（优先级最高）和回传BST计算值即可。
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -50,4 +50,4 @@ public:
         return max;
     }
 };
-```
+// ```

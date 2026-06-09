@@ -1,8 +1,8 @@
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func reverseLeftWords(s string, n int) string {
     return string([]byte(s)[n:])+string([]byte(s)[:n])
 }
-```
+// ```

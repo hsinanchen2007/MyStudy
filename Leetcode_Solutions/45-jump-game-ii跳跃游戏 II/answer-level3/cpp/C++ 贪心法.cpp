@@ -1,5 +1,5 @@
-这里我用的是贪心法，helper[i] 代表nums[i] 位置可以到达的最远下标，最多不超过nums.size()-1。当然也可以降低空间复杂度，将helper数组设置成一个单位。供参考吧！
-```
+// 这里我用的是贪心法，helper[i] 代表nums[i] 位置可以到达的最远下标，最多不超过nums.size()-1。当然也可以降低空间复杂度，将helper数组设置成一个单位。供参考吧！
+// ```
 class Solution {
 public:
     int jump(vector<int>& nums) {
@@ -26,4 +26,4 @@ public:
         return j_cnt;
     }
 };
-```
+// ```

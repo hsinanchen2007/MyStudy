@@ -1,4 +1,4 @@
-```
+// ```
 func searchInsert(_ nums: [Int], _ target: Int) -> Int {
         if let index = nums.firstIndex(of: target) {
             return index
@@ -8,4 +8,4 @@ func searchInsert(_ nums: [Int], _ target: Int) -> Int {
         array.sort()
         return array.firstIndex(of: target)!
     }
-```
+// ```

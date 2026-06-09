@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     /**
      * @param Integer[] $nums
@@ -25,4 +25,4 @@ class Solution {
         return $index;
     }
 }
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-c++题解思路，很有道理
-### 代码
+# ### 解题思路
+# c++题解思路，很有道理
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countBinarySubstrings(self, s: str) -> int:
         n, pre, cur, len_ = 0, 0, 1, len(s) - 1
@@ -15,4 +15,4 @@ class Solution:
             if pre >= cur:
                 n += 1
         return n
-```
+# ```

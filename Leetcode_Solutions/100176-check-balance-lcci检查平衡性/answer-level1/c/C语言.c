@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-（1）求出树的深度
-（2）依次判断左右子树是否是平衡二叉树
+// ### 解题思路
+// 此处撰写解题思路
+// （1）求出树的深度
+// （2）依次判断左右子树是否是平衡二叉树
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -45,4 +45,4 @@ bool isBalanced(struct TreeNode* root){
         return isBalanced(root->left) && isBalanced(root->right);
     }
 }
-```
+// ```

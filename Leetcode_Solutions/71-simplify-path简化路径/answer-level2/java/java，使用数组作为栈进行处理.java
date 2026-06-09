@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String simplifyPath(String path) {
         //        String[] pathArr =  path.split("/+"); 则会导致时间多一倍，使用正则表达式
@@ -28,4 +28,4 @@ class Solution {
         return stringBuilder.toString();
     }
 }
-```
+// ```

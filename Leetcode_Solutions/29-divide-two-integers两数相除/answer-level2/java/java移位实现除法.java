@@ -1,18 +1,18 @@
-### 解题思路
-此处撰写解题思路
-注意这种边界情况的处理
-        //防止溢出，这里先加上abs(divisor)
-        if (dividend == Integer.MIN_VALUE) {
-            dividend += divisor;
-            //这里注意res += 1
-            res += 1;
-        }
-每次循环
-    1. 被除数 -= 2^n*除数 
-    2. res += 2^n
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 注意这种边界情况的处理
+//         //防止溢出，这里先加上abs(divisor)
+//         if (dividend == Integer.MIN_VALUE) {
+//             dividend += divisor;
+//             //这里注意res += 1
+//             res += 1;
+//         }
+// 每次循环
+//     1. 被除数 -= 2^n*除数 
+//     2. res += 2^n
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int divide(int dividend, int divisor) {
         if (divisor == Integer.MIN_VALUE && dividend == Integer.MIN_VALUE) {
@@ -54,4 +54,4 @@ class Solution {
         return res * (neg ? -1 : 1);
     }
 }
-```
+// ```

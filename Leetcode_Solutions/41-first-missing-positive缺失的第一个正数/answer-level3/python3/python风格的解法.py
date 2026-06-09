@@ -1,4 +1,4 @@
-一个比较python风格的方法：
+# 一个比较python风格的方法：
 class Solution:
     def firstMissingPositive(self, nums: List[int]) -> int:
         dicts = dict(zip(nums,nums))

@@ -1,7 +1,7 @@
-解题思路：
-两个队列，一个只负责栈的input功能，另一个只负责栈的output功能。
-代码：
-```go
+// 解题思路：
+// 两个队列，一个只负责栈的input功能，另一个只负责栈的output功能。
+// 代码：
+// ```go
 
 // MyStack 是用 Queue 实现的 栈
 type MyStack struct {
@@ -73,5 +73,5 @@ func (q *Queue) Len() int {
 func (q *Queue) IsEmpty() bool {
 	return q.Len() == 0
 }
-```
+// ```
 

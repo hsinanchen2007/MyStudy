@@ -1,6 +1,6 @@
-java StringBuilder 实现
+// java StringBuilder 实现
 
-```
+// ```
 class Solution {
     public String removeOuterParentheses(String S) {
         StringBuilder builder = new StringBuilder();
@@ -19,4 +19,4 @@ class Solution {
         return builder.toString();
     }
 }
-```
+// ```

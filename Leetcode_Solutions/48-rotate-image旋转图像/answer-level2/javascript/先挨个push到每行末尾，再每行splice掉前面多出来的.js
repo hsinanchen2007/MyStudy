@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/bdd994839718dde361fe7db0695b7fe3e010e66f66676d938d4700e024e2ad9b-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/bdd994839718dde361fe7db0695b7fe3e010e66f66676d938d4700e024e2ad9b-image.png)
 
-不知道这样算不算“在原来的矩阵上修改”。
+// 不知道这样算不算“在原来的矩阵上修改”。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} matrix
  * @return {void} Do not return anything, modify matrix in-place instead.
@@ -23,4 +23,4 @@ var rotate = function(matrix) {
         matrix[i].splice(0, len);
     }
 };
-```
+// ```

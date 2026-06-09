@@ -1,8 +1,8 @@
-**思路：** 依照题目描述可以根据第一个字符是1或2分情况处理。只有当第一个字符为1或2时需要考虑是否有#，其余情况正常处理即可
+// **思路：** 依照题目描述可以根据第一个字符是1或2分情况处理。只有当第一个字符为1或2时需要考虑是否有#，其余情况正常处理即可
 
 
 
-```
+// ```
 class Solution {
     public String freqAlphabets(String s) {
         StringBuilder ans = new StringBuilder();
@@ -25,4 +25,4 @@ class Solution {
         return ans.toString();
     }
 }
-```
+// ```

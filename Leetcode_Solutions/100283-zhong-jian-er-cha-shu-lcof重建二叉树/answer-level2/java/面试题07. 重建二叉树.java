@@ -1,11 +1,11 @@
-### 解题思路
-递归
-时间复杂度：每个节点都需要创建，O(n)
-空间复杂度：存储整个二叉树占用O(n)的空间
+// ### 解题思路
+// 递归
+// 时间复杂度：每个节点都需要创建，O(n)
+// 空间复杂度：存储整个二叉树占用O(n)的空间
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -53,12 +53,12 @@ class Solution {
         return node;
     }
 }
-```
+// ```
 
-**参考官方题解之后，对上述实现做了两点优化**
-1、每次递归时数组拷贝效率太低，直接利用原数组中相应的指针来确定子树的前序中序遍历结果的边界。
-2、利用HashMap查询根节点在中序遍历结果中的位置，不需要每次遍历数组。
-```java
+// **参考官方题解之后，对上述实现做了两点优化**
+// 1、每次递归时数组拷贝效率太低，直接利用原数组中相应的指针来确定子树的前序中序遍历结果的边界。
+// 2、利用HashMap查询根节点在中序遍历结果中的位置，不需要每次遍历数组。
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -108,6 +108,6 @@ class Solution {
         return root;
     }
 }
-```
-优化结果：
-![无标题2.png](https://pic.leetcode-cn.com/969d8fa48db7c9b55db0485ac6720f51ae4cee69d7de0e21a88caeca37aa2b70-%E6%97%A0%E6%A0%87%E9%A2%982.png)
+// ```
+// 优化结果：
+// ![无标题2.png](https://pic.leetcode-cn.com/969d8fa48db7c9b55db0485ac6720f51ae4cee69d7de0e21a88caeca37aa2b70-%E6%97%A0%E6%A0%87%E9%A2%982.png)

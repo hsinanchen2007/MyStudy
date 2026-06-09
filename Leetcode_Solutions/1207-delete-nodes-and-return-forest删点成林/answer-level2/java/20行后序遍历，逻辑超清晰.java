@@ -1,14 +1,14 @@
-### 解题思路
-首先把to_delete变成set，此处不多说；
-节点进入结果当中，有2个条件：
-* 不被删除
-* 父节点不存在
-因此在遍历过程中，将parentExists标志传递给子节点，子递归就可以选择是否加入到结果。
-另外，如果子节点被删除，父节点的left、right字段需要更新。
+// ### 解题思路
+// 首先把to_delete变成set，此处不多说；
+// 节点进入结果当中，有2个条件：
+// * 不被删除
+// * 父节点不存在
+// 因此在遍历过程中，将parentExists标志传递给子节点，子递归就可以选择是否加入到结果。
+// 另外，如果子节点被删除，父节点的left、right字段需要更新。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -45,4 +45,4 @@ class Solution {
         return del;
     }
 }
-```
+// ```

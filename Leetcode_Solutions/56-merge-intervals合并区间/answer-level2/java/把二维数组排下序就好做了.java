@@ -1,4 +1,4 @@
-```
+// ```
 public int[][] merge(int[][] intervals) {
         List<int[]> res = new ArrayList<>();
 
@@ -25,4 +25,4 @@ public int[][] merge(int[][] intervals) {
         }
         return res.toArray(new int[res.size()][2]);
     }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-1. 主要是实现快排
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 1. 主要是实现快排
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:
         def sort(nums, l, r):
@@ -34,4 +34,4 @@ class Solution:
             return nums[k]
         help(nums, 0, n-1, n-k)
         return nums[n-k]
-```
+# ```

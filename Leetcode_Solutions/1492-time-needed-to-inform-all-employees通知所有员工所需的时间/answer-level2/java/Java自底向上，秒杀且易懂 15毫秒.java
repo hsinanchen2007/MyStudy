@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/a2e430163228284f5d9031fd800367961d26674c04aa06c8cdc0555fa1c5b39a-image.png)
+// ![image.png](https://pic.leetcode-cn.com/a2e430163228284f5d9031fd800367961d26674c04aa06c8cdc0555fa1c5b39a-image.png)
 
 
-```
+// ```
 class Solution {
     public int numOfMinutes(int n, int headID, int[] manager, int[] informTime) {
         int[] arr=new int[n];
@@ -21,4 +21,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-一个模糊点就是，如果空格数量不能整除要怎么处理，例如：
+// 一个模糊点就是，如果空格数量不能整除要怎么处理，例如：
 
-- 8 个空格分 3 份，应该是 [3, 3, 2] 而不是 [4, 2, 2]
-- 10 个空格分 4 份，应该是 [3, 3, 2, 2]，而不是 [4, 2, 2, 2]
+// - 8 个空格分 3 份，应该是 [3, 3, 2] 而不是 [4, 2, 2]
+// - 10 个空格分 4 份，应该是 [3, 3, 2, 2]，而不是 [4, 2, 2, 2]
 
-```
+// ```
 import (
 	"bytes"
 	"strings"
@@ -69,4 +69,4 @@ func adjustWords(words []string, subLen, maxWidth int) string {
 func singleWords(words []string, maxWidth int) string {
 	return words[0] + strings.Repeat(string(space), maxWidth-len(words[0]))
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-dp是通解
-这个二分法是真的厉害
+# ### 解题思路
+# dp是通解
+# 这个二分法是真的厉害
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def lengthOfLIS(self, nums: List[int]) -> int:
         d = []
@@ -23,4 +23,4 @@ class Solution:
                         l = mid + 1
                 d[loc] = n
         return len(d)
-```
+# ```

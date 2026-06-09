@@ -1,13 +1,13 @@
-### 解题思路
-使用list实现stack的功能。
-1. push: 直接用append，在末尾加上元素。
-2. pop：截取列表的第一个到倒数第二个元素，返回末尾元素。
-3. top：返回末尾元素。
-4. empty：判断list长度是否为0。
+# ### 解题思路
+# 使用list实现stack的功能。
+# 1. push: 直接用append，在末尾加上元素。
+# 2. pop：截取列表的第一个到倒数第二个元素，返回末尾元素。
+# 3. top：返回末尾元素。
+# 4. empty：判断list长度是否为0。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class MyStack:
 
     def __init__(self):
@@ -65,4 +65,4 @@ class MyStack:
 # param_2 = obj.pop()
 # param_3 = obj.top()
 # param_4 = obj.empty()
-```
+# ```

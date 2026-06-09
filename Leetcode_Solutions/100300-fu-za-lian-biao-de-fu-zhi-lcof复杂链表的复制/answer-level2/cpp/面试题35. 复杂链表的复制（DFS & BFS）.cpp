@@ -1,5 +1,5 @@
-### DFS
-```cpp
+// ### DFS
+// ```cpp
 class Solution {
 public:
     Node* copyRandomList(Node* head) {
@@ -18,10 +18,10 @@ public:
         return newNode;
     }
 };
-```
+// ```
 
-### BFS
-```cpp
+// ### BFS
+// ```cpp
 class Solution {
 public:
     Node* copyRandomList(Node* head) {
@@ -54,4 +54,4 @@ public:
         return newHead;
     }
 };
-```
+// ```

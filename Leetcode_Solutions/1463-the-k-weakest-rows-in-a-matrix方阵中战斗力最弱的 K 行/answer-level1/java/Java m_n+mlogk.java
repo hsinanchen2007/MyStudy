@@ -1,8 +1,8 @@
-既然先给了k一定注意m和n的关系。不是方阵的话，行可能很大列很少，此时直接sort的复杂度是m*n+mlogm。
-是方阵的话不用说怎么样都是O(n^2)。
-用最大堆保证堆里只有k个元素，超过k时把最大的元素剔除，使得时间复杂度变为m*n+mlogk。
-这对k小，n小，m大的情况非常有帮助。
-```
+// 既然先给了k一定注意m和n的关系。不是方阵的话，行可能很大列很少，此时直接sort的复杂度是m*n+mlogm。
+// 是方阵的话不用说怎么样都是O(n^2)。
+// 用最大堆保证堆里只有k个元素，超过k时把最大的元素剔除，使得时间复杂度变为m*n+mlogk。
+// 这对k小，n小，m大的情况非常有帮助。
+// ```
 class Solution {
     private Map<Integer,Integer> map = new HashMap();
     public int[] kWeakestRows(int[][] mat, int k) {
@@ -29,4 +29,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

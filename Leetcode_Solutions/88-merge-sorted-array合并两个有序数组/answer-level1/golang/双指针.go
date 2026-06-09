@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func merge(nums1 []int, m int, nums2 []int, n int)  {
     for i,j:=0,0;j<n;i++{
 		if i>=m+j{
@@ -20,4 +20,4 @@ func merge(nums1 []int, m int, nums2 []int, n int)  {
 		}
 	}
 }
-```
+// ```

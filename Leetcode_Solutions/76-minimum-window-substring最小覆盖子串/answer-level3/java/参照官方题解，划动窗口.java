@@ -1,17 +1,17 @@
-执行结果：
-通过
-显示详情
-执行用时 :
-69 ms
-, 在所有 Java 提交中击败了
-39.18%
-的用户
-内存消耗 :
-40 MB
-, 在所有 Java 提交中击败了
-56.57%
-的用户
-```
+// 执行结果：
+// 通过
+// 显示详情
+// 执行用时 :
+// 69 ms
+// , 在所有 Java 提交中击败了
+// 39.18%
+// 的用户
+// 内存消耗 :
+// 40 MB
+// , 在所有 Java 提交中击败了
+// 56.57%
+// 的用户
+// ```
 class Solution {
     public String minWindow(String s, String t) {
         int slen = s.length();
@@ -108,12 +108,12 @@ class Solution {
     }
     
 }
-```
+// ```
 
 
 
-暴力统计，超时。。
-```
+// 暴力统计，超时。。
+// ```
 class Solution {
     public String minWindow(String s, String t) {
         int slen = s.length();
@@ -182,4 +182,4 @@ class Solution {
     }
     
 }
-```
+// ```

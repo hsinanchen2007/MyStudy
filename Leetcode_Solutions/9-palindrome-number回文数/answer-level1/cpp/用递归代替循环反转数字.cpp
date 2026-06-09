@@ -1,9 +1,9 @@
-### 解题思路
-用递归代替循环反转数字
+// ### 解题思路
+// 用递归代替循环反转数字
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int reversed(int x, int& total){
@@ -26,4 +26,4 @@ public:
         }
     }
 };
-```
+// ```

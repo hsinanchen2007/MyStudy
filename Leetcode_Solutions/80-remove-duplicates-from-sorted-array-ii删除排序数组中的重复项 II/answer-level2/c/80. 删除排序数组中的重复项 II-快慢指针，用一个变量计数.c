@@ -1,9 +1,9 @@
-### 解题思路
-快慢指针，要增加一个变量来计数
+// ### 解题思路
+// 快慢指针，要增加一个变量来计数
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int removeDuplicates(int* nums, int numsSize){
     if (nums == NULL || numsSize == 0) {
         return 0;
@@ -27,4 +27,4 @@ int removeDuplicates(int* nums, int numsSize){
     
     return (slow + 1);
 }
-```
+// ```

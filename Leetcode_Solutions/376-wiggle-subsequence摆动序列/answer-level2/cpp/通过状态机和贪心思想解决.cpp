@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int wiggleMaxLength(vector<int>& nums) { //利用贪心的思想，如果有持续一段的上升或下降，只有当状态变换时，最长序列++
@@ -39,4 +39,4 @@ public:
         return max_length;
     }
 };
-```
+// ```

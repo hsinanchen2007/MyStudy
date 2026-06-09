@@ -1,6 +1,6 @@
-感觉o(h)内存和next的o(1)有冲突，要o(1)的话就需要o(n)的内存，感到困惑
+// 感觉o(h)内存和next的o(1)有冲突，要o(1)的话就需要o(n)的内存，感到困惑
 
-```
+// ```
 class BSTIterator {
 
     LinkedList<TreeNode> linkedList = new LinkedList<>();
@@ -33,4 +33,4 @@ class BSTIterator {
         return !linkedList.isEmpty();
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
 
 
-```java []
+// ```java []
 class Solution {
     public void wiggleSort(int[] nums) {
         Arrays.sort(nums);
@@ -25,5 +25,5 @@ class Solution {
         nums[insetIndex] = temp;
     }
 }
-```
+// ```
 

@@ -1,9 +1,9 @@
-### 解题思路
-1、分为两个区间，分别旋转
-2、整体旋转
-### 代码
+// ### 解题思路
+// 1、分为两个区间，分别旋转
+// 2、整体旋转
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string reverseLeftWords(string s, int n) {
@@ -27,4 +27,4 @@ public:
 
     
 };
-```
+// ```

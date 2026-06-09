@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *整体思路：暴力法
@@ -67,4 +67,4 @@ int ** findContinuousSequence( int target , int * returnSize , int ** returnColu
     return buffer;
 
 }
-```
+// ```

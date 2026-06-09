@@ -1,14 +1,14 @@
-### 解题思路
-这次代码是根据N皇后的位运算总结出来的，
-N皇后的位运算的核心是选择空位置，
-int freeLocation=~(col|lx|rx)&((1<<n)-1);此处为N皇后选择（会包含之前的不可选择位置）
-int dir = (left | right | up | down)&((1 << 4) - 1);  此处的选择与N皇后不同之处是他不包含之前的不可选择位置
+// ### 解题思路
+// 这次代码是根据N皇后的位运算总结出来的，
+// N皇后的位运算的核心是选择空位置，
+// int freeLocation=~(col|lx|rx)&((1<<n)-1);此处为N皇后选择（会包含之前的不可选择位置）
+// int dir = (left | right | up | down)&((1 << 4) - 1);  此处的选择与N皇后不同之处是他不包含之前的不可选择位置
 
-dir为空位置，每次空位置递归后都会减少1个
-pick=dir&(-dir)每次选择最右边那个位置
-### 代码
+// dir为空位置，每次空位置递归后都会减少1个
+// pick=dir&(-dir)每次选择最右边那个位置
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	bool isFull(std::vector<std::vector<int>>& grid,int row,int coloumn) {
@@ -83,4 +83,4 @@ private:
 	int up = 0;
 	int down = 0;
 };
-```
+// ```

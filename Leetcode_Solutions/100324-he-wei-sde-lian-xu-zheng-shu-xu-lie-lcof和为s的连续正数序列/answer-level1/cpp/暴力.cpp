@@ -1,9 +1,9 @@
-### 解题思路
-sum前缀和即可
+// ### 解题思路
+// sum前缀和即可
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> findContinuousSequence(int target) {
@@ -29,4 +29,4 @@ public:
         return ve;
     }
 };
-```
+// ```

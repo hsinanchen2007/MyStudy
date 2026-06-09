@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-How can the input being `[]`????
+# ### 解题思路
+# 此处撰写解题思路
+# How can the input being `[]`????
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -33,4 +33,4 @@ class Solution:
                 return next_head
         except AttributeError:
             return None
-```
+# ```

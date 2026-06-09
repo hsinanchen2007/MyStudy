@@ -1,4 +1,4 @@
-```
+// ```
 class FizzBuzz {
     private int n;
     private volatile int current=1;
@@ -55,4 +55,4 @@ class FizzBuzz {
         }
     }
 }
-```
+// ```

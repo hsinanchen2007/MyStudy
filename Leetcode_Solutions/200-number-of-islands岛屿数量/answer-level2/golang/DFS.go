@@ -1,4 +1,4 @@
-```
+// ```
 const (
 	charDelete = 'X'
 	charIsland = '1'
@@ -54,4 +54,4 @@ func travelIsland(grid [][]byte, x, y, lenX, lenY int) bool {
 	}
 	return true
 }
-```
+// ```

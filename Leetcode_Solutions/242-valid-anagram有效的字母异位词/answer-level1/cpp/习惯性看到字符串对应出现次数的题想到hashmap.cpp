@@ -1,9 +1,9 @@
-### 解题思路
-习惯性看到字符串对应出现次数的题想到hashmap。总觉得还能改进，使得答案更加简单。意犹未尽，欢迎赐教。
+// ### 解题思路
+// 习惯性看到字符串对应出现次数的题想到hashmap。总觉得还能改进，使得答案更加简单。意犹未尽，欢迎赐教。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	bool isAnagram(string s, string t) {
@@ -23,4 +23,4 @@ public:
 		return true;
 	}
 };
-```
+// ```

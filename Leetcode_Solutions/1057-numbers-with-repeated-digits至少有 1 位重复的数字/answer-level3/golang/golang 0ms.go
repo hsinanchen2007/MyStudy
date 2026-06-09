@@ -1,5 +1,5 @@
-计算出没有重复数字的数量
-```
+// 计算出没有重复数字的数量
+// ```
 func numDupDigitsAtMostN(N int) int {
 	if N <= 10 {
 		return 0
@@ -53,4 +53,4 @@ func numDupDigitsAtMostN(N int) int {
 	return N - sum
 }
 
-```
+// ```

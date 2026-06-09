@@ -1,8 +1,8 @@
-[leetcode61](https://leetcode-cn.com/problems/rotate-list/)
+// [leetcode61](https://leetcode-cn.com/problems/rotate-list/)
 
-* 将链表看成环形的，找到倒数第K个做头部即可。
+// * 将链表看成环形的，找到倒数第K个做头部即可。
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -38,5 +38,5 @@ class Solution {
         return head;
     }
 }
-```
+// ```
 

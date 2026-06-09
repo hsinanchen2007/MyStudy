@@ -1,9 +1,9 @@
-### 解题思路
-主要思想就是新建pre和next去保存当前节点的前一个和后一个结点
+# ### 解题思路
+# 主要思想就是新建pre和next去保存当前节点的前一个和后一个结点
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -22,10 +22,10 @@ class Solution:
             head.next = pre
             pre, head = head, tmp
         return pre
-```
+# ```
 
-递归
-```
+# 递归
+# ```
 def reverseList(self, head: ListNode) -> ListNode:
         def solve(head, pre):
             if not head:
@@ -34,10 +34,10 @@ def reverseList(self, head: ListNode) -> ListNode:
             head.next = pre
             return solve(tmp, head)
         return solve(head, None)
-```
+# ```
 
-这个递归有意思
-```
+# 这个递归有意思
+# ```
 def reverseList(self, head: ListNode) -> ListNode:
         if head == None or head.next == None: # 第一个判断条件只会用于初始的head就是None时
             return head
@@ -46,4 +46,4 @@ def reverseList(self, head: ListNode) -> ListNode:
         head.next.next = head
         head.next = None
         return p 
-```
+# ```

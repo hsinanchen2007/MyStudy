@@ -1,8 +1,8 @@
-### 解题思路
-    la la la 打卡学习 ~ ~ ~ 
-    解析就在代码中
-### 代码
-```cpp
+// ### 解题思路
+//     la la la 打卡学习 ~ ~ ~ 
+//     解析就在代码中
+// ### 代码
+// ```cpp
 class Solution {
 public:
     vector<int> parents;
@@ -46,4 +46,4 @@ public:
         return {-1,-1};
     }
 };
-```
+// ```

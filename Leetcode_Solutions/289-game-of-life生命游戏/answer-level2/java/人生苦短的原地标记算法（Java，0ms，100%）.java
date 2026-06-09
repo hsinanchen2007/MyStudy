@@ -1,10 +1,10 @@
-简单直白，完全按照题目解释做了两个循环。第一个循环用于标记，第二个循环用于赋值。
-1——保持1
--1——1转0
-0——保持0
--2——0转1
+// 简单直白，完全按照题目解释做了两个循环。第一个循环用于标记，第二个循环用于赋值。
+// 1——保持1
+// -1——1转0
+// 0——保持0
+// -2——0转1
 
-```java
+// ```java
 class Solution {
     public void gameOfLife(int[][] board) {
         for(int i = 0; i < board.length; i++){
@@ -33,8 +33,8 @@ class Solution {
         return board[i][j] == 1 ? (count == 3 || count == 4 ? 1 : -1) : (count == 3 ? -2 : 0);
     }
 }
-```
+// ```
 
----
+// ---
 
-欢迎大家关注博客交流[LeetCode 从零单刷个人笔记整理（持续更新）](https://blog.csdn.net/qq_20304723/article/details/89401203)
+// 欢迎大家关注博客交流[LeetCode 从零单刷个人笔记整理（持续更新）](https://blog.csdn.net/qq_20304723/article/details/89401203)

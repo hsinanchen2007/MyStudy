@@ -1,9 +1,9 @@
-### 解题思路
-分别统计L 和 R的个数 当统计到的个数相等时则是一个平衡字符串
+// ### 解题思路
+// 分别统计L 和 R的个数 当统计到的个数相等时则是一个平衡字符串
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int balancedStringSplit(String s) {
         int count = 0;
@@ -23,4 +23,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

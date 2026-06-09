@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     // 在每个bit模拟3进制加法
     // mean (once, twice)
@@ -17,4 +17,4 @@ impl Solution {
     }
 }
 
-```
+// ```

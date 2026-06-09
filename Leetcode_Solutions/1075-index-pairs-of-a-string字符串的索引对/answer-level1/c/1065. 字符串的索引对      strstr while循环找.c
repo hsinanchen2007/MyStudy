@@ -1,17 +1,17 @@
-### 解题思路
-给出 字符串 text 和 字符串列表 words, 返回所有的索引对 [i, j] 使得在索引对范围内的子字符串 text[i]...text[j]（包括 i 和 j）属于字符串列表 words。
+// ### 解题思路
+// 给出 字符串 text 和 字符串列表 words, 返回所有的索引对 [i, j] 使得在索引对范围内的子字符串 text[i]...text[j]（包括 i 和 j）属于字符串列表 words。
 
- 
+//  
 
-示例 1:
+// 示例 1:
 
-输入: text = "thestoryofleetcodeandme", words = ["story","fleet","leetcode"]
-输出: [[3,7],[9,13],[10,17]]
+// 输入: text = "thestoryofleetcodeandme", words = ["story","fleet","leetcode"]
+// 输出: [[3,7],[9,13],[10,17]]
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -56,4 +56,4 @@ int** indexPairs(char * text, char ** words, int wordsSize, int* returnSize, int
     *returnSize = k; 
     return result;
 }
-```
+// ```

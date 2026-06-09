@@ -1,10 +1,10 @@
-### 解题思路
-第一步使用找出旋转点
-第二步判断目标值所在区域
-第三步再次二分查找
-### 代码
+// ### 解题思路
+// 第一步使用找出旋转点
+// 第二步判断目标值所在区域
+// 第三步再次二分查找
+// ### 代码
 
-```golang
+// ```golang
 func search(nums []int, target int) int {
 	if len(nums) == 0 {
 		return -1
@@ -66,4 +66,4 @@ func search(nums []int, target int) int {
 
 	return -1
 }
-```
+// ```

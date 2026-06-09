@@ -1,9 +1,9 @@
-### 解题思路
-找出节点总数
-取中值，返回中间节点
-### 代码
+// ### 解题思路
+// 找出节点总数
+// 取中值，返回中间节点
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -40,4 +40,4 @@ struct ListNode* middleNode(struct ListNode* head){
     return p;
 
 }
-```
+// ```

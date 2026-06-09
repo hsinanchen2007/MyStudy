@@ -1,9 +1,9 @@
-### 解题思路
-python3 遍历一遍即可
+# ### 解题思路
+# python3 遍历一遍即可
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxProduct(self, nums: List[int]) -> int:
         if not nums:
@@ -24,4 +24,4 @@ class Solution:
 
         return ret_max
 
-```
+# ```

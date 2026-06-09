@@ -1,9 +1,9 @@
-### 解题思路
-比较最右一位
+// ### 解题思路
+// 比较最右一位
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int hammingWeight(uint32_t n) {
@@ -19,4 +19,4 @@ public:
         return count;
     }
 };
-```
+// ```

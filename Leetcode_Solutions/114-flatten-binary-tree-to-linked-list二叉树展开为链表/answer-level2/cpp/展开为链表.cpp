@@ -1,5 +1,5 @@
-方法一 前序遍历树，用一个vec记录值，再展开为链表。不合题意，这是只是记录一下。
-```
+// 方法一 前序遍历树，用一个vec记录值，再展开为链表。不合题意，这是只是记录一下。
+// ```
 class Solution {
 public:
     void flatten(TreeNode* root) {
@@ -23,10 +23,10 @@ public:
         }
     }
 };
-```
-方法二
-![微信图片_20200106110112.jpg](https://pic.leetcode-cn.com/11c7752bac429ac28e76756f61fbafe7f3cc024bfe5d8658c4de42ba8b2b60dc-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200106110112.jpg)
-```
+// ```
+// 方法二
+// ![微信图片_20200106110112.jpg](https://pic.leetcode-cn.com/11c7752bac429ac28e76756f61fbafe7f3cc024bfe5d8658c4de42ba8b2b60dc-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200106110112.jpg)
+// ```
 class Solution {
 public:
     void flatten(TreeNode* root) {
@@ -42,8 +42,8 @@ public:
         }
     }
 };
-```
-```
+// ```
+// ```
 class Solution {
 public:
     void flatten(TreeNode* root) {
@@ -59,4 +59,4 @@ public:
         return;
     }
 };
-```
+// ```

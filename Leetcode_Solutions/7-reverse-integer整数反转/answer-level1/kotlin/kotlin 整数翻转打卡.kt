@@ -1,4 +1,4 @@
-```kotlin
+// ```kotlin
 class Solution {
     fun reverse(x: Int): Int {
     var x = x
@@ -12,4 +12,4 @@ class Solution {
     return rev
     }
 }
-```
+// ```

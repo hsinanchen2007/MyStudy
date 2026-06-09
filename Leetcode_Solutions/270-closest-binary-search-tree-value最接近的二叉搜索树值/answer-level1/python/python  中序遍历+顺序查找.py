@@ -1,10 +1,10 @@
-### 解题思路
-中序遍历+顺序查找
-简单易懂，但是性能不是很高
+# ### 解题思路
+# 中序遍历+顺序查找
+# 简单易懂，但是性能不是很高
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -37,4 +37,4 @@ class Solution(object):
         return ans
 
 
-```
+# ```

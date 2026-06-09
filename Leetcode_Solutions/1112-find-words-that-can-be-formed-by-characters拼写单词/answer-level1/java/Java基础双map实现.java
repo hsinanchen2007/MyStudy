@@ -1,9 +1,9 @@
-### 解题思路
-判断条件有点坑
+// ### 解题思路
+// 判断条件有点坑
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int countCharacters(String[] words, String chars) {
             int count=0;
@@ -67,4 +67,4 @@ class Solution {
             return count;
     }
 }
-```
+// ```

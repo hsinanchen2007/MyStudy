@@ -1,5 +1,5 @@
-利用所给的公交车和公交车站信息构造一个map存储，key为车站，value是经停公交车list。利用map结构和routes二维数字构建广度优先搜索树，之后按照广度优先搜索算法BFS进行操作，到达每个公交车站所乘坐的公交车使用list存储，最后统计换乘公交车数量。
-```
+// 利用所给的公交车和公交车站信息构造一个map存储，key为车站，value是经停公交车list。利用map结构和routes二维数字构建广度优先搜索树，之后按照广度优先搜索算法BFS进行操作，到达每个公交车站所乘坐的公交车使用list存储，最后统计换乘公交车数量。
+// ```
 class Solution {
     public int numBusesToDestination(int[][] routes, int S, int T) {
         if (routes.length > 500 || routes.length < 1){
@@ -116,4 +116,4 @@ class Solution {
         }
     }
 }
-```
+// ```

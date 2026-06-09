@@ -1,9 +1,9 @@
-### 解题思路
-每一个点，统计和它相同斜率的其他点
+// ### 解题思路
+// 每一个点，统计和它相同斜率的其他点
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxPoints(vector<vector<int>>& points) {
@@ -49,4 +49,4 @@ private:
     }
 };
 
-```
+// ```

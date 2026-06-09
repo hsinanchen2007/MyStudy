@@ -1,11 +1,11 @@
-### 解题思路
-速度有点慢。
-这一题应该可以通过剪枝加速。
+# ### 解题思路
+# 速度有点慢。
+# 这一题应该可以通过剪枝加速。
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def combinationSum3(self, k: int, n: int) -> List[List[int]]:
 
@@ -29,4 +29,4 @@ class Solution:
         res = []
         dfs([], n, 1)
         return res
-```
+# ```

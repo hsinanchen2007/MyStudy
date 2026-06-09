@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 /*
 * 不带缓存的fib
 * 时间复杂度为O(2^n)，
@@ -51,4 +51,4 @@ var fib = function(N) {
     }
     return result
 };
-```
+// ```

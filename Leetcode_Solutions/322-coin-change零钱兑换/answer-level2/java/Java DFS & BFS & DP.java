@@ -1,5 +1,5 @@
-1、DFS
-```java
+// 1、DFS
+// ```java
 class Solution {
     public int coinChange(int[] coins, int amount) {
         if (amount < 1) return 0;
@@ -21,10 +21,10 @@ class Solution {
         return count;
     }
 }
-```
+// ```
 
-2、BFS
-```java
+// 2、BFS
+// ```java
 class Solution {
     public int coinChange(int[] coins, int amount) {
         if (amount < 1) return 0;
@@ -50,10 +50,10 @@ class Solution {
         return -1;
     }
 }
-```
+// ```
 
-3、DP
-```java
+// 3、DP
+// ```java
 class Solution {
     public int coinChange(int[] coins, int amount) {
         if (amount < 1) return 0;
@@ -69,9 +69,9 @@ class Solution {
         return dp[amount];
     }
 }
-```
-稍作优化
-```java
+// ```
+// 稍作优化
+// ```java
 class Solution {
     public int coinChange(int[] coins, int amount) {
         if (amount < 1) return 0;
@@ -87,6 +87,6 @@ class Solution {
         return dp[amount] > amount ? -1 : dp[amount];
     }
 }
-```
+// ```
 
 

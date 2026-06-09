@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-1、如果出现重复数值，则直接next指向next->next节点；
-2、得考虑空节点情况；
+// ### 解题思路
+// 此处撰写解题思路
+// 1、如果出现重复数值，则直接next指向next->next节点；
+// 2、得考虑空节点情况；
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -32,4 +32,4 @@ struct ListNode* deleteDuplicates(struct ListNode* head){
 
     return head;
 }
-```
+// ```

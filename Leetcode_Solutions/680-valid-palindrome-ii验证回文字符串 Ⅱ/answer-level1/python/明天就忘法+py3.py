@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-双指针
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 双指针
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def validPalindrome(self, s: str) -> bool:
         #双指针
@@ -32,4 +32,4 @@ class Solution:
         return False
 
  
-```
+# ```

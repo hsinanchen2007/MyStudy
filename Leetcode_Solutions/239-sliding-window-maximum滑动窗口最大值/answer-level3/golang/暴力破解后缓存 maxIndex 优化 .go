@@ -1,8 +1,8 @@
-![FireShot Capture 047 - 239. 滑动窗口最大值 - 力扣（LeetCode） - leetcode-cn.com.png](https://pic.leetcode-cn.com/6dc1df2ff71f310dcde89329ee133dfe1e6a85604681fc9f334a266ab79eb8b2-FireShot%20Capture%20047%20-%20239.%20%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3%E6%9C%80%E5%A4%A7%E5%80%BC%20-%20%E5%8A%9B%E6%89%A3%EF%BC%88LeetCode%EF%BC%89%20-%20leetcode-cn.com.png)
+// ![FireShot Capture 047 - 239. 滑动窗口最大值 - 力扣（LeetCode） - leetcode-cn.com.png](https://pic.leetcode-cn.com/6dc1df2ff71f310dcde89329ee133dfe1e6a85604681fc9f334a266ab79eb8b2-FireShot%20Capture%20047%20-%20239.%20%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3%E6%9C%80%E5%A4%A7%E5%80%BC%20-%20%E5%8A%9B%E6%89%A3%EF%BC%88LeetCode%EF%BC%89%20-%20leetcode-cn.com.png)
 
-缓存了上一个 maxIndex，能尽量少便利就少便利
+// 缓存了上一个 maxIndex，能尽量少便利就少便利
 
-```
+// ```
 func maxSlidingWindow(nums []int, k int) []int {
     if nums == nil{
 		return []int{}
@@ -39,4 +39,4 @@ func maxSlidingWindow(nums []int, k int) []int {
 
 	return res
 }
-```
+// ```

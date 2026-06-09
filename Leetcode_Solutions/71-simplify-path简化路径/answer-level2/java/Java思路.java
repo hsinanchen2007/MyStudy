@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public String simplifyPath(String path) {
         String[] str = path.split("/");
@@ -29,4 +29,4 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```

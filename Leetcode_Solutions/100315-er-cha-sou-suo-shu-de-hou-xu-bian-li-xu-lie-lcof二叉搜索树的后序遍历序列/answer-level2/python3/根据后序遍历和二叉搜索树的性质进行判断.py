@@ -1,10 +1,10 @@
-### 解题思路
-根据后序遍历和二叉搜索树的性质进行判断：后序遍历的根为数组中最后一个数，二叉搜索树的左子树小于根，右子树大于根，迭代。直到所有的结点都满足该性质返回True
-![下载 (7).png](https://pic.leetcode-cn.com/90b38a89bf74b5e23594016d9b65db7b1a79cca4ffd157b762c3e73bafdb35ed-%E4%B8%8B%E8%BD%BD%20\(7\).png)
+# ### 解题思路
+# 根据后序遍历和二叉搜索树的性质进行判断：后序遍历的根为数组中最后一个数，二叉搜索树的左子树小于根，右子树大于根，迭代。直到所有的结点都满足该性质返回True
+# ![下载 (7).png](https://pic.leetcode-cn.com/90b38a89bf74b5e23594016d9b65db7b1a79cca4ffd157b762c3e73bafdb35ed-%E4%B8%8B%E8%BD%BD%20\(7\).png)
 
-### 代码
+# ### 代码
 
-```
+# ```
 class Solution:
     def verifyPostorder(self, postorder: List[int]) -> bool:
         if not postorder :
@@ -32,4 +32,4 @@ class Solution:
         return fuc(postorder)
 
 
-```
+# ```

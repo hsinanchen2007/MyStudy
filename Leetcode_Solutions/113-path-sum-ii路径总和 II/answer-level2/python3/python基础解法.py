@@ -1,10 +1,10 @@
-### 解题思路
-1. 迭代，主要是需要记录所有的val值
-2. 递归，递归的出口还是没有子节点和值==sum_
+# ### 解题思路
+# 1. 迭代，主要是需要记录所有的val值
+# 2. 递归，递归的出口还是没有子节点和值==sum_
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -40,4 +40,4 @@ class Solution:
             helper(root.right, tmp + [root.val], sum_ - root.val)
         helper(root, [], sum_)
         return ans
-```
+# ```

@@ -1,11 +1,11 @@
-### 解题思路
-搜索数值的一半，特殊情况：
-1、关于零的问题:记录零的个数；
-2、关于奇数的问题：奇数不可能是整数的两倍；
+// ### 解题思路
+// 搜索数值的一半，特殊情况：
+// 1、关于零的问题:记录零的个数；
+// 2、关于奇数的问题：奇数不可能是整数的两倍；
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool checkIfExist(vector<int>& arr) {
@@ -31,4 +31,4 @@ public:
         return searchHalfelement(arr,l,mid,val) || searchHalfelement(arr,mid+1,r,val);
     }
 };
-```
+// ```

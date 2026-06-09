@@ -1,8 +1,8 @@
-# 思路：
-1）递归
-2）利用. 二叉树的深度 的解来计算每层每个节点两边的深度之差
-# 代码：
-```
+// # 思路：
+// 1）递归
+// 2）利用. 二叉树的深度 的解来计算每层每个节点两边的深度之差
+// # 代码：
+// ```
 int maxDepth(struct TreeNode* root);
 bool isBalanced(struct TreeNode* root){
     if(root == NULL){
@@ -23,4 +23,4 @@ int maxDepth(struct TreeNode* root){
 }
 
 
-```
+// ```

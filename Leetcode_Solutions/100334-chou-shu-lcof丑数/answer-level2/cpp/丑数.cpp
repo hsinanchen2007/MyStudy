@@ -1,9 +1,9 @@
-### 解题思路
-参考别人的代码
+// ### 解题思路
+// 参考别人的代码
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int nthUglyNumber(int n) {
@@ -19,4 +19,4 @@ public:
         return dp[n-1];
     }
 };
-```
+// ```

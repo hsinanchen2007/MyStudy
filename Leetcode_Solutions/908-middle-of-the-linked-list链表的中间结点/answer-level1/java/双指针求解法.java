@@ -1,9 +1,9 @@
-### 解题思路
-向下移的指针动两下，中间节点指针动一下
+// ### 解题思路
+// 向下移的指针动两下，中间节点指针动一下
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -27,4 +27,4 @@ class Solution {
         return midNode;
     }
 }
-```
+// ```

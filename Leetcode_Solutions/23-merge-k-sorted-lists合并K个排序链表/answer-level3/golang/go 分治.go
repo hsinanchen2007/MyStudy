@@ -1,9 +1,9 @@
-### 解题思路
-采用分治的方式
+// ### 解题思路
+// 采用分治的方式
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -74,4 +74,4 @@ func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
 	}
 	return head
 }
-```
+// ```

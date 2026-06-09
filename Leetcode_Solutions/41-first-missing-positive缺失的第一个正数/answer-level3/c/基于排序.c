@@ -1,4 +1,4 @@
-```
+// ```
 #if 0 //方法1
 #define INT_MAX 2^31
 //有符号整形变量的范围是INT_MAX - 1 (-2147483648    2147483647)
@@ -84,5 +84,5 @@ int firstMissingPositive(int* nums, int numsSize){
     return res;
 }
 #endif
-```
+// ```
 

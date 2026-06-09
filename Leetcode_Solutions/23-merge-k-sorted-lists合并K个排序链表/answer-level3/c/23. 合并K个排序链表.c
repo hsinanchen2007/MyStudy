@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-**p指针时要考虑各种情况如【】,这是要先判断再赋值要不然容易出错。head=lists[0].
+// ### 解题思路
+// 此处撰写解题思路
+// **p指针时要考虑各种情况如【】,这是要先判断再赋值要不然容易出错。head=lists[0].
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -96,4 +96,4 @@ struct ListNode* mergeKLists(struct ListNode** lists, int listsSize){
     return head;
 
 }
-```
+// ```

@@ -1,7 +1,7 @@
-执行用时 :72 ms, 在所有 JavaScript 提交中击败了98.72%的用户
-内存消耗 :38.2 MB, 在所有 JavaScript 提交中击败了16.67%的用户
+// 执行用时 :72 ms, 在所有 JavaScript 提交中击败了98.72%的用户
+// 内存消耗 :38.2 MB, 在所有 JavaScript 提交中击败了16.67%的用户
 
-```
+// ```
 /**
  * @param {number[]} timeSeries
  * @param {number} duration
@@ -18,4 +18,4 @@ var findPoisonedDuration = function(timeSeries, duration) {
     }
     return time
 };
-```
+// ```

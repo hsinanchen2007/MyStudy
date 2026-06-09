@@ -1,5 +1,5 @@
-![1](https://pic.leetcode-cn.com/76c97deabe56f2516665f09244dbbce36d8211ec754dcf118e063e1b37287ae5-QQ%E5%9B%BE%E7%89%8720200326212346.png)
-```
+// ![1](https://pic.leetcode-cn.com/76c97deabe56f2516665f09244dbbce36d8211ec754dcf118e063e1b37287ae5-QQ%E5%9B%BE%E7%89%8720200326212346.png)
+// ```
  public static ListNode removeNthFromEnd(ListNode head, int n) {
 //添加一个头结点
         ListNode listNode = new ListNode(-1);
@@ -24,4 +24,4 @@
         n--;
         return n;
     }
-```
+// ```

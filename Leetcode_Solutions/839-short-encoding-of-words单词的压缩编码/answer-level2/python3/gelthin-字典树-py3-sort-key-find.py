@@ -1,15 +1,15 @@
-### 解题思路
+# ### 解题思路
 
 
 
-很多细节：
-1. python 的 string.sort() 和 sorted(A, key, reversed)
-2. words.sort(key=lambda x: -len(x)) 
-3. [字符串查找第一个匹配子串的 find 函数 和 index 函数](https://www.cnblogs.com/yangwu-183/p/10042755.html)： find 函数没找到会返回 -1， index 函数没找到会抛出异常
-4. set.discard() 不存在不会报错 和 set.remove() 不存在会抛出异常， 用 discard 可以少一次 in 判断。
+# 很多细节：
+# 1. python 的 string.sort() 和 sorted(A, key, reversed)
+# 2. words.sort(key=lambda x: -len(x)) 
+# 3. [字符串查找第一个匹配子串的 find 函数 和 index 函数](https://www.cnblogs.com/yangwu-183/p/10042755.html)： find 函数没找到会返回 -1， index 函数没找到会抛出异常
+# 4. set.discard() 不存在不会报错 和 set.remove() 不存在会抛出异常， 用 discard 可以少一次 in 判断。
 
-#### 官方题解两种解法写法非常奇妙
-```python3
+# #### 官方题解两种解法写法非常奇妙
+# ```python3
 class Solution: # 解法1
     def minimumLengthEncoding(self, words: List[str]) -> int:
         good = set(words)
@@ -35,17 +35,17 @@ class Solution: # 解法2， 复杂写法
         return sum(len(word) + 1
                    for i, word in enumerate(words)
                    if len(nodes[i]) == 0)
-```
+# ```
 
 
-[208. 实现 Trie (前缀树)](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)
-#### 更高级的解法： 官方题解 和 [字典树/Trie树/前缀树](https://leetcode-cn.com/problems/short-encoding-of-words/solution/99-java-trie-tu-xie-gong-lue-bao-jiao-bao-hui-by-s/)
+# [208. 实现 Trie (前缀树)](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)
+# #### 更高级的解法： 官方题解 和 [字典树/Trie树/前缀树](https://leetcode-cn.com/problems/short-encoding-of-words/solution/99-java-trie-tu-xie-gong-lue-bao-jiao-bao-hui-by-s/)
 
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minimumLengthEncoding(self, words: List[str]) -> int:
         words.sort(key = lambda x:-len(x)) #不排序 ["me", "time"] 过不去
@@ -65,4 +65,4 @@ class Solution:
                 S += "#"
         return len(S)
         
-```
+# ```

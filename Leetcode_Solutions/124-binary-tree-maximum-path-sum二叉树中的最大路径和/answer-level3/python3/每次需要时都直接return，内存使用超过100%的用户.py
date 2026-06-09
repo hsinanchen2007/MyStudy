@@ -1,7 +1,7 @@
-跟官方题解思路相同
-返回时直接return
+# 跟官方题解思路相同
+# 返回时直接return
 
-```
+# ```
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -26,4 +26,4 @@ class Solution:
         max_sum = float("-inf")
         helper(root)
         return max_sum
-```
+# ```

@@ -1,28 +1,28 @@
-### 解题思路
-两个锁可以让两个函数交替运行：
-    mutex lock1
-    mutex lock2
+// ### 解题思路
+// 两个锁可以让两个函数交替运行：
+//     mutex lock1
+//     mutex lock2
 
-    init():
-        lock2.lock()
+//     init():
+//         lock2.lock()
 
-    fun1():
-        lock1.lock()
-        /..../
-        lock2.unlock()
+//     fun1():
+//         lock1.lock()
+//         /..../
+//         lock2.unlock()
 
-    fun2():
-        lock2.lock()
-        /..../
-        lock1.unlock()
-考虑把odd和even函数放一起当成一个函数，这个函数和zero函数交替运行，这里用2个锁。
-odd和even也交替运行，这里也用2个锁。
+//     fun2():
+//         lock2.lock()
+//         /..../
+//         lock1.unlock()
+// 考虑把odd和even函数放一起当成一个函数，这个函数和zero函数交替运行，这里用2个锁。
+// odd和even也交替运行，这里也用2个锁。
 
-odd和even的函数先执行“odd和even”的锁，避免死锁。
+// odd和even的函数先执行“odd和even”的锁，避免死锁。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class ZeroEvenOdd {
 private:
     int n;
@@ -66,4 +66,4 @@ public:
         }
     }
 };
-```
+// ```

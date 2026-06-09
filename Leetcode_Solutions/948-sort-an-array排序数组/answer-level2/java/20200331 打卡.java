@@ -1,9 +1,9 @@
-### 解题思路
-归并排序
+// ### 解题思路
+// 归并排序
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] sortArray(int[] nums) {
        if (nums.length < 2) {
@@ -41,10 +41,10 @@ class Solution {
         }
     }
 }
-```
-快速排序
+// ```
+// 快速排序
 
-```java
+// ```java
  public int[] sortArray(int[] nums) {
         quickSort(nums,0,nums.length-1);
         return nums;
@@ -70,4 +70,4 @@ class Solution {
         }
         return left;
     }
-```
+// ```

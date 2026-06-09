@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int distinctEchoSubstrings(String text) {
         long a = 29;
@@ -23,4 +23,4 @@ class Solution {
         return hs.size();
     }
 }
-```
+// ```

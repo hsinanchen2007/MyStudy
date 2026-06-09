@@ -1,4 +1,4 @@
-```
+// ```
 impl Solution {
     pub fn longest_palindrome(s: String) -> String {
         let len_s = s.len();
@@ -21,4 +21,4 @@ impl Solution {
         ret_s
     }
 }
-```
+// ```

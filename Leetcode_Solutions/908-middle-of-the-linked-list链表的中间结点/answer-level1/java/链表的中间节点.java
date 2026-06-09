@@ -1,9 +1,9 @@
-### 解题思路
-####可使用快慢指针法
+// ### 解题思路
+// ####可使用快慢指针法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -50,4 +50,4 @@ class Solution {
 
     }
 }
-```
+// ```

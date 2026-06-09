@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func threeSum(nums []int) [][]int {
     sort.Ints(nums)
     var res [][]int
@@ -48,4 +48,4 @@ func threeSum(nums []int) [][]int {
 
     return res
 }
-```
+// ```

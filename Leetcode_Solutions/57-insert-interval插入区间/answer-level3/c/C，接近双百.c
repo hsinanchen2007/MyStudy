@@ -1,9 +1,9 @@
-### 解题思路
-一次通过，纪念一下
+// ### 解题思路
+// 一次通过，纪念一下
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define RES_COL_SIZE 2
 #define INVALID_INTERVAL 0xFFFFFFFF
 
@@ -102,4 +102,4 @@ int** insert(int** intervals, int intervalsSize, int* intervalsColSize, int* new
     *returnColumnSizes = AddResCol(size);
     return res;
 }
-```
+// ```

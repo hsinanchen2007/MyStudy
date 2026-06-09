@@ -1,11 +1,11 @@
-### 解题思路
-中序排序的变形。搜索树的最左节点作为链表头节点，最右节点作为链表尾节点。
-中序遍历的过程中，准备一个pre和一个cur，pre指向当前节点的前一个节点，在pre和cur之间连线就行。
-![image.png](https://pic.leetcode-cn.com/1ff0edfb1a6924bb64b0fa0fdd28f1e050ad626e881e79018d034908d9546e70-image.png)
+// ### 解题思路
+// 中序排序的变形。搜索树的最左节点作为链表头节点，最右节点作为链表尾节点。
+// 中序遍历的过程中，准备一个pre和一个cur，pre指向当前节点的前一个节点，在pre和cur之间连线就行。
+// ![image.png](https://pic.leetcode-cn.com/1ff0edfb1a6924bb64b0fa0fdd28f1e050ad626e881e79018d034908d9546e70-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /*
 // Definition for a Node.
 class Node {
@@ -61,4 +61,4 @@ class Solution {    //循环！
         return root;
     }
 }
-```
+// ```

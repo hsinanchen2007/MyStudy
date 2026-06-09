@@ -1,9 +1,9 @@
-### 解题思路
-用两个数组记录各行各列服务器存在情况，遍历两遍数组，如果该位置存在服务器且与之同行or同列服务器个数大于1则将该位置标记为1
+// ### 解题思路
+// 用两个数组记录各行各列服务器存在情况，遍历两遍数组，如果该位置存在服务器且与之同行or同列服务器个数大于1则将该位置标记为1
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int countServers(int** grid, int gridSize, int* gridColSize){
     int m=gridSize;
     int n=*gridColSize;
@@ -32,4 +32,4 @@ int countServers(int** grid, int gridSize, int* gridColSize){
     }
     return result;
 }
-```
+// ```

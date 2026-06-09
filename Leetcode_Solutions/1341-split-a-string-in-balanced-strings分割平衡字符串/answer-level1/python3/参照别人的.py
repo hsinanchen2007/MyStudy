@@ -1,11 +1,11 @@
-### 解题思路
-首先题目给的实例是成组的，不要考虑复杂。
-条件分析:一对里面L的数量等于R的数量.
-思路:遍历数组中L和R的数量，L或者R的数量变化必然是从0到相等再到不相等。
+# ### 解题思路
+# 首先题目给的实例是成组的，不要考虑复杂。
+# 条件分析:一对里面L的数量等于R的数量.
+# 思路:遍历数组中L和R的数量，L或者R的数量变化必然是从0到相等再到不相等。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def balancedStringSplit(self, s: str) -> int:
      count = 0
@@ -22,4 +22,4 @@ class Solution:
         else:
          continue
      return(count)
-```
+# ```

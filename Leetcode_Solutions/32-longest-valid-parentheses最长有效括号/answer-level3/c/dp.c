@@ -1,12 +1,12 @@
-### 解题思路
-dp[i] 表示已i结尾的最长有效字串；
-dp[i]如果为‘（’，则dp[i]为0；
-否则dp[i] 需要结合dp【i-1】的起始的前一个位置进行判断，如果匹配，则联合dp[i-1] dp[i-1 - dp[i-1]] + 2
-需要判断索引是否符合哟啊求
+// ### 解题思路
+// dp[i] 表示已i结尾的最长有效字串；
+// dp[i]如果为‘（’，则dp[i]为0；
+// 否则dp[i] 需要结合dp【i-1】的起始的前一个位置进行判断，如果匹配，则联合dp[i-1] dp[i-1 - dp[i-1]] + 2
+// 需要判断索引是否符合哟啊求
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int longestValidParentheses(char * s){
     if ((s == NULL) || (strlen(s) <= 1)) {
         return 0;
@@ -42,4 +42,4 @@ int longestValidParentheses(char * s){
     
     return maxLength;
 }
-```
+// ```

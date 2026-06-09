@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 // Forward declaration of the knows API.
 bool knows(int a, int b);
 
@@ -21,7 +21,7 @@ public:
         return i;
     }
 };
-```
+// ```
 
 
-![image.png](https://pic.leetcode-cn.com/39d448e7b3bd94213a10c25a5472e48a30006711e1e5108618c8d9b9263b15c8-image.png)
+// ![image.png](https://pic.leetcode-cn.com/39d448e7b3bd94213a10c25a5472e48a30006711e1e5108618c8d9b9263b15c8-image.png)

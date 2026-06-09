@@ -1,9 +1,9 @@
-### 解题思路
-并查集的应用。
+// ### 解题思路
+// 并查集的应用。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -73,4 +73,4 @@ int makeConnected(int n, int** connections, int connectionsSize, int* connection
 
 
 }
-```
+// ```

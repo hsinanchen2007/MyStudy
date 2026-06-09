@@ -1,8 +1,8 @@
-看到大家结题那种暴力结题只能膜拜，我用的比较笨的方法，第一次发题
+// 看到大家结题那种暴力结题只能膜拜，我用的比较笨的方法，第一次发题
 
-![1564737323.png](https://pic.leetcode-cn.com/95967a14bbba5fdba18e84637e90381cdc0590b89b41c893d23263b0bcef1421-1564737323.png)
+// ![1564737323.png](https://pic.leetcode-cn.com/95967a14bbba5fdba18e84637e90381cdc0590b89b41c893d23263b0bcef1421-1564737323.png)
 
-```
+// ```
 string intToRoman(int num){
 
     enum Roman_Type{I,V,X,L,C,D,M};
@@ -116,4 +116,4 @@ string intToRoman(int num){
     return res;
 }
 
-```
+// ```

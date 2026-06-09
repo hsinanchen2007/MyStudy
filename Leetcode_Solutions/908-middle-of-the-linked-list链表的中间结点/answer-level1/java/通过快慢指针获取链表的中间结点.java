@@ -1,8 +1,8 @@
-### 解题思路
-    快慢指针法：当快指针走到链表末尾时，慢指针刚好走到中间；
-### 代码
+// ### 解题思路
+//     快慢指针法：当快指针走到链表末尾时，慢指针刚好走到中间；
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -23,4 +23,4 @@ class Solution {
         return slowPointer;      
     }
 }
-```
+// ```

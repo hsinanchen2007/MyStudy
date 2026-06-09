@@ -1,15 +1,15 @@
-### 解题思路
-采用分治法来解决逆序对问题。
-将输入序列A分为两部分，AL和AR。AL和AR可以使用完全相同的策略用于AL和AR中的逆序对数。
-原问题的解也有可能在AL和AR中，所以要考虑跨界的可能。
-因此总的逆序对数等于左边子问题的AL加上右边子问题的AR的逆序对数，再加上跨界情况求得的逆序数。
-$$T(n) = 2T(n/2)+O(n) = O(nlogn)$$
+// ### 解题思路
+// 采用分治法来解决逆序对问题。
+// 将输入序列A分为两部分，AL和AR。AL和AR可以使用完全相同的策略用于AL和AR中的逆序对数。
+// 原问题的解也有可能在AL和AR中，所以要考虑跨界的可能。
+// 因此总的逆序对数等于左边子问题的AL加上右边子问题的AR的逆序对数，再加上跨界情况求得的逆序数。
+// $$T(n) = 2T(n/2)+O(n) = O(nlogn)$$
 				
-![image.png](https://pic.leetcode-cn.com/e5f2c52005662384c82159d9203a0a17d9152cf84fde4b6c49117d6b7343031f-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e5f2c52005662384c82159d9203a0a17d9152cf84fde4b6c49117d6b7343031f-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     //int merge_and_count(int l,int middle,int r,vector<int>& num);
@@ -52,4 +52,4 @@ public:
         return count_inversions_dc(0,nums.size()-1,nums);
     }
 };
-```
+// ```

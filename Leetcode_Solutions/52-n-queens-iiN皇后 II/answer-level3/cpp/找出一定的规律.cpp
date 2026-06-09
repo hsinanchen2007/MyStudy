@@ -1,20 +1,20 @@
-### 解题思路
-![1.png](https://pic.leetcode-cn.com/0dde95875337c0cf608bf643cefdf0ca1d3262a401eab978d1797aa7e898256a-1.png)
+// ### 解题思路
+// ![1.png](https://pic.leetcode-cn.com/0dde95875337c0cf608bf643cefdf0ca1d3262a401eab978d1797aa7e898256a-1.png)
 
-最重要的就是理解
+// 最重要的就是理解
 
-cur代表行数
-i为列数
+// cur代表行数
+// i为列数
 
-1. row[i] = 1同列的不能放入
+// 1. row[i] = 1同列的不能放入
 
-2. 设横列坐标分别为1~n，此时找出规律：某一点 **在一撇上所有的x+y = a**, 在一撇上pie[cur + i] = 1；
+// 2. 设横列坐标分别为1~n，此时找出规律：某一点 **在一撇上所有的x+y = a**, 在一撇上pie[cur + i] = 1；
 
-3. 在一捺上所有的x-y = b,但是防止x-y < 0,所以加了一个 **x - y + n = c**， 在一捺上na[cur - i + n] = 1;
+// 3. 在一捺上所有的x-y = b,但是防止x-y < 0,所以加了一个 **x - y + n = c**， 在一捺上na[cur - i + n] = 1;
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int totalNQueens(int n) {
@@ -43,4 +43,4 @@ public:
         }
     }
 };
-```
+// ```

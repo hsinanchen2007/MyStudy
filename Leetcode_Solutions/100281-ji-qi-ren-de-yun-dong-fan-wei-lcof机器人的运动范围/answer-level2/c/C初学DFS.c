@@ -1,4 +1,4 @@
-```c
+// ```c
 int sum;
 const int ways[2][2]={{1,0},{0,1}};//方向
 
@@ -40,4 +40,4 @@ int movingCount(int m, int n, int k){
     dfs(0,0,k,m,n,save);
     return sum;
 }
-```
+// ```

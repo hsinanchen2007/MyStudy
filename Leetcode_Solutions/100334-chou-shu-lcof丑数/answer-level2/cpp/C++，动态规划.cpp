@@ -1,13 +1,13 @@
-### 解题思路
-暴力解超时，最小堆的时间耗时有点大，动态规划果然还是最优的。其他人关于动态规划的解释已经很多了，给一幅图就能很清楚地明白动态规划的过程。
+// ### 解题思路
+// 暴力解超时，最小堆的时间耗时有点大，动态规划果然还是最优的。其他人关于动态规划的解释已经很多了，给一幅图就能很清楚地明白动态规划的过程。
 
-UglyNumber_mutiply2[index2]：  1x2    2x2    3x2    4x2...
-UglyNumber_mutiply3[index3]：  1x3    2x3    3x3    4x4...
-UglyNumber_mutiply5[index5]：  1x5    2x5    3x5    4x5...
+// UglyNumber_mutiply2[index2]：  1x2    2x2    3x2    4x2...
+// UglyNumber_mutiply3[index3]：  1x3    2x3    3x3    4x4...
+// UglyNumber_mutiply5[index5]：  1x5    2x5    3x5    4x5...
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int nthUglyNumber(int n) {
@@ -34,4 +34,4 @@ public:
 
     }
 };
-```
+// ```

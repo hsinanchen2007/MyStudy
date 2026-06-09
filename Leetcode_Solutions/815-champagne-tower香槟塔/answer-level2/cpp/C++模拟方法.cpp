@@ -1,9 +1,9 @@
-### 解题思路
-不用开那么大的数组，只要记住这一层就能算下一层了。
+// ### 解题思路
+// 不用开那么大的数组，只要记住这一层就能算下一层了。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     double champagneTower(int poured, int query_row, int query_glass) {
@@ -20,4 +20,4 @@ public:
         return min(vol[query_glass],1.);
     }
 };
-```
+// ```

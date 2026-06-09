@@ -1,9 +1,9 @@
-### 解题思路
-哈哈哈，时间复杂度不行，空间复杂度很优
+// ### 解题思路
+// 哈哈哈，时间复杂度不行，空间复杂度很优
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 //双链栈实现队列
 
 type StackNode struct {
@@ -70,4 +70,4 @@ func (this *CQueue) DeleteHead() int {
 
 	return result
 }
-```
+// ```

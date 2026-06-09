@@ -1,5 +1,5 @@
-为每次都是选取最大的两颗石头，所以可以利用排序来做，每次选出两颗最大的石头并做了相应的处理后，再次对数组进行排序，这样就保证所有的零在前面，最后数组最后两位只能是0和某个数，或者都是零。
-```
+// 为每次都是选取最大的两颗石头，所以可以利用排序来做，每次选出两颗最大的石头并做了相应的处理后，再次对数组进行排序，这样就保证所有的零在前面，最后数组最后两位只能是0和某个数，或者都是零。
+// ```
 public static int lastStoneWeight(int[] stones) {
 		int result=1000;
 		int[] arr = Arrays.copyOf(stones, stones.length);
@@ -30,4 +30,4 @@ public static int lastStoneWeight(int[] stones) {
 		
 		return result;
 	}
-```
+// ```

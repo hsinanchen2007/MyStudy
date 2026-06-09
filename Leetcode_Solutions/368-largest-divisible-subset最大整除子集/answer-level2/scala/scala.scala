@@ -1,4 +1,4 @@
-```scala []
+// ```scala []
 object Solution {
     // sort
     // dp[j] = 1 max max(dp[i]+ 1), for i that A(j) % A(i) == 0
@@ -21,4 +21,4 @@ object Solution {
         dp.sortBy{x=> - x.length}.head.reverse
     }
 }
-```
+// ```

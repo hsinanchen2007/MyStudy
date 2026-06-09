@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int countCharacters(String[] words, String chars) {
          int res = 0;
@@ -35,4 +35,4 @@ class Solution {
 
     }
 }
-```很简单，循环遍历使用数组判断是否包含包含另一个所有的字母即可
+// ```很简单，循环遍历使用数组判断是否包含包含另一个所有的字母即可

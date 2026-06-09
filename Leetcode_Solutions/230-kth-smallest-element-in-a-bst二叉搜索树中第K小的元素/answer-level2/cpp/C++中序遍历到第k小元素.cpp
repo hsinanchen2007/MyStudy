@@ -1,5 +1,5 @@
-C++中序遍历，遍历到第k小，全局变量a保存数值，跳出函数
-```cpp
+// C++中序遍历，遍历到第k小，全局变量a保存数值，跳出函数
+// ```cpp
 class Solution {
 public:
     int a,n;
@@ -20,4 +20,4 @@ public:
         return a;
     }
 };
-```
+// ```

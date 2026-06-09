@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findClosest(words []string, word1 string, word2 string) int {
     var (
         result int
@@ -34,4 +34,4 @@ func abs(number int) int{
     }
     return number
 }
-```
+// ```

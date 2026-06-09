@@ -1,6 +1,6 @@
-给定一个mxn的矩阵，找m和n的最小值min = min{m,n},则（0,0）元素的对角线元素为(0，0),(1,1),...,(min,min)
-对每个对角线元素所在的行和列进行二分查找即可(每次不用对该行列的所有元素进行查找，只需要从[min,length-1]中查找)
-```
+// 给定一个mxn的矩阵，找m和n的最小值min = min{m,n},则（0,0）元素的对角线元素为(0，0),(1,1),...,(min,min)
+// 对每个对角线元素所在的行和列进行二分查找即可(每次不用对该行列的所有元素进行查找，只需要从[min,length-1]中查找)
+// ```
 public boolean findNumberIn2DArray(int[][] matrix, int target) {
         if(matrix.length == 0)
             return false;
@@ -54,4 +54,4 @@ public boolean findNumberIn2DArray(int[][] matrix, int target) {
         }
         return find;
     }
-```
+// ```

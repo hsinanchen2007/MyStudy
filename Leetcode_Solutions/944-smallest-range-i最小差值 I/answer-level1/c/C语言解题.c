@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int smallestRangeI(int* A, int ASize, int K)
 {
     int res,max = A[0],min = A[0];
@@ -20,4 +20,4 @@ int smallestRangeI(int* A, int ASize, int K)
     else return max - min -2 * K;
     return 0;
 }
-```
+// ```

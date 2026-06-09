@@ -1,4 +1,4 @@
-```
+// ```
 inline int plusMod26(const int& x, const int& y) {
     return (x+y)%26; // 必须取余，否则导致结果溢出。
 }
@@ -16,4 +16,4 @@ public:
         return S;
     }
 };
-```
+// ```

@@ -1,13 +1,13 @@
-### 解题思路
-此处撰写解题思路
-go 双链表加map解法
-俩个map 
-1 key  *Node  保存key和对应的node地址
-2  freq  *DoubleNode  保存频率和对应DoubleNode地址
-关键是注意处理最小频率问题 
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// go 双链表加map解法
+// 俩个map 
+// 1 key  *Node  保存key和对应的node地址
+// 2  freq  *DoubleNode  保存频率和对应DoubleNode地址
+// 关键是注意处理最小频率问题 
+// ### 代码
 
-```golang
+// ```golang
 type LFUCache struct {
     capacity    int         // 容量
     minfreq     int         // 目前最小频率
@@ -146,4 +146,4 @@ func (this *LFUCache) Put(key int, value int)  {
  * param_1 := obj.Get(key);
  * obj.Put(key,value);
  */
-```
+// ```

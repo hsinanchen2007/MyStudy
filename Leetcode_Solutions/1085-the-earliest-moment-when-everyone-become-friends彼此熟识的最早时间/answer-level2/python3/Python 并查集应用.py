@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/bd53f74e53b041f0ae68c3ab920aca8cbee1436a5f1ab0aae75e6b90c8a070a6-image.png)
+# ![image.png](https://pic.leetcode-cn.com/bd53f74e53b041f0ae68c3ab920aca8cbee1436a5f1ab0aae75e6b90c8a070a6-image.png)
 
 
-```
+# ```
 class MergeSet:
     def __init__(self, init_list):
         self.m = {i:i for i in init_list}
@@ -57,4 +57,4 @@ class Solution:
             if merge_set.getRootNum() == 1:
                 return time
         return -1
-```
+# ```

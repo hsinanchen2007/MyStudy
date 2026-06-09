@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool uniqueOccurrences(vector<int>& arr) {
@@ -18,5 +18,5 @@ public:
         return true;
     }
 };
-```
-![微信截图_20191207130851.png](https://pic.leetcode-cn.com/d9f3c589cf38229a3431aac3e419f5de14943256c5a17908233f8cf873972e99-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20191207130851.png)
+// ```
+// ![微信截图_20191207130851.png](https://pic.leetcode-cn.com/d9f3c589cf38229a3431aac3e419f5de14943256c5a17908233f8cf873972e99-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20191207130851.png)

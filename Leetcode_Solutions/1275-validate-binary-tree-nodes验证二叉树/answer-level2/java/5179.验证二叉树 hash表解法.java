@@ -1,18 +1,18 @@
 
 
-如果某个元素在两边共出现了两次说明存在同一指向
+// 如果某个元素在两边共出现了两次说明存在同一指向
 
-或者有指向0的子树
+// 或者有指向0的子树
 
-或者某个元素没有出现在两边则说明不连通
+// 或者某个元素没有出现在两边则说明不连通
 
-于是 遍历左右放入hashSet中，如果重复则返回false
+// 于是 遍历左右放入hashSet中，如果重复则返回false
 
-接着判断0是否在其中
+// 接着判断0是否在其中
 
-最后判断是否所有元素都放入
+// 最后判断是否所有元素都放入
 
-```
+// ```
 class Solution {
     public boolean validateBinaryTreeNodes(int n, int[] leftChild, int[] rightChild) {
     	HashSet<Integer> hashSet = new HashSet<>();
@@ -49,4 +49,4 @@ class Solution {
     	
     }
 }
-```
+// ```

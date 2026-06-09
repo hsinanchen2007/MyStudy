@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def maximumSwap(self, num: int) -> int:
         if num<=9:
@@ -16,4 +16,4 @@ class Solution:
                 if rs<tmp_num:
                     rs=tmp_num
         return rs
-```
+# ```

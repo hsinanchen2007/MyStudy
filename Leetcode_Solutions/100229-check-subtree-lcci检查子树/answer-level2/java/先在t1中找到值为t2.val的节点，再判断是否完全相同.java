@@ -1,8 +1,8 @@
-# 很相似的题目
-[面试题26. 树的子结构](https://leetcode-cn.com/problems/shu-de-zi-jie-gou-lcof/solution/guan-fang-ce-shi-yong-li-you-dian-wen-ti-by-gfu/)
+// # 很相似的题目
+// [面试题26. 树的子结构](https://leetcode-cn.com/problems/shu-de-zi-jie-gou-lcof/solution/guan-fang-ce-shi-yong-li-you-dian-wen-ti-by-gfu/)
 
-# 代码
-```java
+// # 代码
+// ```java
 class Solution {
     private TreeNode global_B;
     private int target;
@@ -38,4 +38,4 @@ class Solution {
         return b.val == a.val && isEqual(a.left, b.left) && isEqual(a.right, b.right);
     }
 }
-```
+// ```

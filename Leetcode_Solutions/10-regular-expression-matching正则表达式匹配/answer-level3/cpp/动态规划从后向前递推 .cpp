@@ -1,6 +1,6 @@
     
-c++
-```
+// c++
+// ```
 bool isMatch(string s, string p) {
         int m = s.size(), n = p.size();
         vector<vector<bool>> dp(m + 1, vector<bool>(n + 1, false));
@@ -21,9 +21,9 @@ bool isMatch(string s, string p) {
         }
         return dp[0][0];
     }
-```
-c#
-```
+// ```
+// c#
+// ```
     public bool IsMatch(string s, string p) {
         bool[,] dp = new bool[s.Length + 1, p.Length + 1];
         dp[s.Length, p.Length] = true;
@@ -43,7 +43,7 @@ c#
         }
         return dp[0, 0];
     }
-```
+// ```
 
 
 

@@ -1,4 +1,4 @@
-```
+// ```
 func trailingZeroes(n int) int {
     count := 0
 	for i := 5; i <= n; i *= 5 {
@@ -6,4 +6,4 @@ func trailingZeroes(n int) int {
 	}
 	return count
 }
-```
+// ```

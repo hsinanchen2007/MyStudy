@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/e3eb585827350742b36c26e428ae34483d00676a2de18d8b546a86112871338b-image.png)
+# ![image.png](https://pic.leetcode-cn.com/e3eb585827350742b36c26e428ae34483d00676a2de18d8b546a86112871338b-image.png)
 
 
-```
+# ```
 from typing import List
 import bisect
 class Solution:
@@ -27,5 +27,5 @@ class Solution:
 
         return -1
 
-```
+# ```
 

@@ -1,7 +1,7 @@
-# 思路：
-深度优先遍历时记录所有出现过的值的频次信息即可
+// # 思路：
+// 深度优先遍历时记录所有出现过的值的频次信息即可
 
-```C++ []
+// ```C++ []
 class Solution {
 public:
     int dfs(TreeNode* root, unordered_map<int, int>& m, int& max_count) {
@@ -25,6 +25,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/cf1247017223d1c5816bc190aeb416fe1df5d249548ae17549daca98a38cf338-image.png)
+// ![image.png](https://pic.leetcode-cn.com/cf1247017223d1c5816bc190aeb416fe1df5d249548ae17549daca98a38cf338-image.png)

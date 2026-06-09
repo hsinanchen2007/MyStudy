@@ -1,9 +1,9 @@
-### 解题思路
-循环遍历 
+// ### 解题思路
+// 循环遍历 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
         public int[] smallerNumbersThanCurrent(int[] nums) {
         int[] resp = new int[nums.length];
@@ -20,4 +20,4 @@ class Solution {
         return resp;
         }
 }
-```
+// ```

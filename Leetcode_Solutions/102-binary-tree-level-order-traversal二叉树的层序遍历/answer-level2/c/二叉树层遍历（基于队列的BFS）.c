@@ -1,9 +1,9 @@
-### 解题思路
-基于队列的BFS，由于C语言不支持动态数组，需要手动造轮子。
+// ### 解题思路
+// 基于队列的BFS，由于C语言不支持动态数组，需要手动造轮子。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -117,4 +117,4 @@ int** levelOrder(struct TreeNode* root, int* returnSize, int** returnColumnSizes
 
     return res;
 }
-```
+// ```

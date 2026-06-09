@@ -1,4 +1,4 @@
-```go
+// ```go
 func thirdMax(nums []int) int {
 
 	max, secMax, thirdMax := math.MinInt64, math.MinInt64, math.MinInt64
@@ -26,4 +26,4 @@ func thirdMax(nums []int) int {
 
 	return max
 }
-```
+// ```

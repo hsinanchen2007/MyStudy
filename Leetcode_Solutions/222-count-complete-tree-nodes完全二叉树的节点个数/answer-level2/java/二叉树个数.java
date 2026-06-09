@@ -1,9 +1,9 @@
-### 解题思路
-判断二叉树节点多少的递归判断方式。
+// ### 解题思路
+// 判断二叉树节点多少的递归判断方式。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -25,4 +25,4 @@ class Solution {
         return getNodeNumber(root);
     }
 }
-```
+// ```

@@ -1,7 +1,7 @@
-本题思路是裸的295的思路，唯一不同点就是需要删除堆中元素，这个可以手写实现
+// 本题思路是裸的295的思路，唯一不同点就是需要删除堆中元素，这个可以手写实现
 
-js实现如下：O(n * 2 * log(k / 2))
-```js
+// js实现如下：O(n * 2 * log(k / 2))
+// ```js
 var medianSlidingWindow = function(nums, k) {
     // 堆的实现
     class H {
@@ -119,4 +119,4 @@ var medianSlidingWindow = function(nums, k) {
     }
     return res;
 };
-```
+// ```

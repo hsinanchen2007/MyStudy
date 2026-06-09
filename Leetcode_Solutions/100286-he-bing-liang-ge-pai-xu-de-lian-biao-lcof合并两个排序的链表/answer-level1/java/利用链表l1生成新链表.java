@@ -1,9 +1,9 @@
-### 解题思路
-将l2中的节点插入l1中，最后返回即可
+// ### 解题思路
+// 将l2中的节点插入l1中，最后返回即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -43,4 +43,4 @@ class Solution {
         return head.next;
     }
 }
-```
+// ```

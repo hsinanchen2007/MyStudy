@@ -1,10 +1,10 @@
-### 解题思路
-二分法（递归实现）
-![image.png](https://pic.leetcode-cn.com/1668b4bdbac4587c9b75abf00a22fd76991a868e13a33a866bda035fea3195bd-image.png)
+// ### 解题思路
+// 二分法（递归实现）
+// ![image.png](https://pic.leetcode-cn.com/1668b4bdbac4587c9b75abf00a22fd76991a868e13a33a866bda035fea3195bd-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] searchRange(int[] nums, int target) {
         int[] res = {-1,-1};
@@ -36,4 +36,4 @@ class Solution {
         return;
     }
 }
-```
+// ```

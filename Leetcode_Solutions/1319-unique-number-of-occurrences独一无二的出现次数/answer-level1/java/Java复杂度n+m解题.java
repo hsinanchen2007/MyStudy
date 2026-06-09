@@ -1,4 +1,4 @@
-```
+// ```
         // 先找到所有的数字及出现的次数，放到map中
         Map<Integer, Integer> map = new HashMap<>();
         for (int num : arr) {
@@ -18,4 +18,4 @@
             }
         }
         return true;
-```
+// ```

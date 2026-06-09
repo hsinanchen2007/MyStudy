@@ -1,9 +1,9 @@
-### 解题思路
-考虑最左、最右是0以及中间是0三种可能，前两种可能用双指针法，中间部分找最大空字符长度即可
+# ### 解题思路
+# 考虑最左、最右是0以及中间是0三种可能，前两种可能用双指针法，中间部分找最大空字符长度即可
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxDistToClosest(self, seats: List[int]) -> int:
         max_ = count = 0
@@ -25,4 +25,4 @@ class Solution:
         if max(count1, count2) >= math.ceil(max_ / 2):
             return max(count1, count2)
         return math.ceil(max_ / 2)
-```
+# ```

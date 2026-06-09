@@ -1,7 +1,7 @@
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def canConstruct(self, ransomNote: str, magazine: str) -> bool:
         if len(ransomNote) == 0:
@@ -19,4 +19,4 @@ class Solution:
                 return False
         return True
             
-```
+# ```

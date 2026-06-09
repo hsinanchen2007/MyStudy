@@ -1,9 +1,9 @@
-### 解题思路
-快慢指针，一个指针先走k步，然后一起走，走到null时，后走的指针对应节点即倒数dik个节点。
+// ### 解题思路
+// 快慢指针，一个指针先走k步，然后一起走，走到null时，后走的指针对应节点即倒数dik个节点。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -38,4 +38,4 @@ class Solution {
         return q.val;
     }
 }
-```
+// ```

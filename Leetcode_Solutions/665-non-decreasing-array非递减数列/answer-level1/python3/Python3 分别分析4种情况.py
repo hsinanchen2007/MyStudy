@@ -1,11 +1,11 @@
-### 解题思路
-先nums = [float('-inf')] + nums + [float('inf')] 防止溢出
+# ### 解题思路
+# 先nums = [float('-inf')] + nums + [float('inf')] 防止溢出
 
-![屏幕快照 2020-04-05 下午9.19.03.png](https://pic.leetcode-cn.com/ea62d20c2dd3fd3deeb71e2112dc85c2fd7cb335af99e3eb87bb64896e6b363e-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-04-05%20%E4%B8%8B%E5%8D%889.19.03.png)
+# ![屏幕快照 2020-04-05 下午9.19.03.png](https://pic.leetcode-cn.com/ea62d20c2dd3fd3deeb71e2112dc85c2fd7cb335af99e3eb87bb64896e6b363e-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-04-05%20%E4%B8%8B%E5%8D%889.19.03.png)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def checkPossibility(self, nums: List[int]) -> bool:
         nums = [float('-inf')] + nums + [float('inf')]
@@ -42,4 +42,4 @@ class Solution:
             if count == 2: return False
         return True
 
-```
+# ```

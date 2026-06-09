@@ -1,9 +1,9 @@
-### 解题思路
-避雷：最后判断的时候一定一定不能用else if！因为2*3和3*2这种等价关系！！！
+// ### 解题思路
+// 避雷：最后判断的时候一定一定不能用else if！因为2*3和3*2这种等价关系！！！
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int nthUglyNumber(int n) {
@@ -30,4 +30,4 @@ public:
         return as[n];
     }
 };
-```
+// ```

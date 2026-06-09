@@ -1,5 +1,5 @@
-思路：左右两个指针找旋转点，并同时与目标元素比较，如果到旋转点，目标元素还没有找到，则再用二分查找去找目标元素。
-```
+// 思路：左右两个指针找旋转点，并同时与目标元素比较，如果到旋转点，目标元素还没有找到，则再用二分查找去找目标元素。
+// ```
 public int search(int[] nums, int target) {
 		int length = nums.length;
 		if(length < 1) {
@@ -32,4 +32,4 @@ public int search(int[] nums, int target) {
 		
 		return -1;
 	}
-```
+// ```

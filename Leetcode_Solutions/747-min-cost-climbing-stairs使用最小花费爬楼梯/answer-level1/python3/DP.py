@@ -1,7 +1,7 @@
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minCostClimbingStairs(self, cost: List[int]) -> int:
         if len(cost)<3:return min(cost)
@@ -11,4 +11,4 @@ class Solution:
             # slide array
             dp_0,dp_1 = dp_1,min(dp_0+cost[i],dp_1+cost[i])
         return min(dp_0,dp_1)
-```
+# ```

@@ -1,4 +1,4 @@
-```java
+// ```java
     //方法1， 位运算
     public static int missingNumber(int[] nums) {
         int result = 0;
@@ -26,4 +26,4 @@
         }
         return result;
     }
-```
+// ```

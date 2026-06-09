@@ -1,5 +1,5 @@
-哈希表，注意 "ab":"dog dog" = false, "abba":"dog dog dog dog" = false这两种也算错，所以要用两个互相对比
-```c++
+// 哈希表，注意 "ab":"dog dog" = false, "abba":"dog dog dog dog" = false这两种也算错，所以要用两个互相对比
+// ```c++
 class Solution {
 public:
     bool wordPattern(string pattern, string str) {
@@ -32,5 +32,5 @@ public:
         return true;
     }
 };
-```
+// ```
 

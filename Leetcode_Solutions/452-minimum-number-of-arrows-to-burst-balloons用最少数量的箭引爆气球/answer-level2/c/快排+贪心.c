@@ -1,4 +1,4 @@
-```
+// ```
 int compare(const void *a, const void *b)
 {
     int *p1 = *(int **)a;
@@ -30,4 +30,4 @@ int findMinArrowShots(int** points, int pointsSize, int* pointsColSize)
 
     return count;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def trulyMostPopular(self, names, synonyms):
         #对名单进行处理,g字典是个存根的字典,mzz字典是个寻名对应数的字典
@@ -38,4 +38,4 @@ class Solution(object):
             ans[xt] = ans.get(xt,0)+mzz[k]
 
         return [k+'('+str(v)+')' for k, v in ans.items()] #不用解析,同语句时间增倍
-```
+# ```

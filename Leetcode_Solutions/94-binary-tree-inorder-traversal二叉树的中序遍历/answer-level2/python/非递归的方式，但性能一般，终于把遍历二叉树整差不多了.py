@@ -1,11 +1,11 @@
-### 解题思路
-大概就是这个模版，画个二叉树一步一步跟着走
-记住栈里的情况，看什么时候需要把pop出的数据放进res
-看了解答区大佬的前序，自己实现下中序后续，还是很有收获
+# ### 解题思路
+# 大概就是这个模版，画个二叉树一步一步跟着走
+# 记住栈里的情况，看什么时候需要把pop出的数据放进res
+# 看了解答区大佬的前序，自己实现下中序后续，还是很有收获
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -28,4 +28,4 @@ class Solution(object):
         return res
 
     
-```
+# ```

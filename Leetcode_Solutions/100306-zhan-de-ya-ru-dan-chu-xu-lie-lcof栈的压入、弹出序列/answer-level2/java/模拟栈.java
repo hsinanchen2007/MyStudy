@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public static boolean validateStackSequences(int[] pushed, int[] popped) {
         Stack<Integer> A=new Stack<>();
@@ -16,4 +16,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

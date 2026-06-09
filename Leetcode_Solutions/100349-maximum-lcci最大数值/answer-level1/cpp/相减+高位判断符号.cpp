@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
 	int maximum(int a, int b) {
@@ -7,4 +7,4 @@ public:
 		return ret[(((unsigned long long)m) >> 63) & 1];
 	}
 };
-```
+// ```

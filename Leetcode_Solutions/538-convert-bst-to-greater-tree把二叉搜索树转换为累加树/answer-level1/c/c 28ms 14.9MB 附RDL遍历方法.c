@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *整体思路：中序遍历
@@ -122,4 +122,4 @@ struct TreeNode * convertBST( struct TreeNode * root ){
 
 }
 */
-```
+// ```

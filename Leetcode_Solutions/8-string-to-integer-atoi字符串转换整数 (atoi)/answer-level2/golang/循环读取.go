@@ -1,7 +1,7 @@
-begin用于判断数是否已经开始，negative为负数标记，整体流程比较容易看得懂
-![Jietu20200305-235510@2x.jpg](https://pic.leetcode-cn.com/f53b4e39598eb60b175d020982333910f0b927400962b44474256520c7d2e788-Jietu20200305-235510@2x.jpg)
+// begin用于判断数是否已经开始，negative为负数标记，整体流程比较容易看得懂
+// ![Jietu20200305-235510@2x.jpg](https://pic.leetcode-cn.com/f53b4e39598eb60b175d020982333910f0b927400962b44474256520c7d2e788-Jietu20200305-235510@2x.jpg)
 
-```go
+// ```go
 func myAtoi(str string) int {
 	res, negative, begin := 0, false, false
 	for _, value := range str {
@@ -38,4 +38,4 @@ func myAtoi(str string) int {
 	}
 	return res
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-递归判断  如果左为空，则右包含p,q,如果右为空则左包含p,q
+# ### 解题思路
+# 此处撰写解题思路
+# 递归判断  如果左为空，则右包含p,q,如果右为空则左包含p,q
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -24,4 +24,4 @@ class Solution:
         if le==None:
             return ri
         return root    
-```
+# ```

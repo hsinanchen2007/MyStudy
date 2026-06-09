@@ -1,9 +1,9 @@
-### 解题思路
-如果 B-A 大于 2  那就先拼凑 bba,  如果是B和A之差 在1和-1之间， 先凑ab 或者ba， 同理A-B大于2  就是aab
+// ### 解题思路
+// 如果 B-A 大于 2  那就先拼凑 bba,  如果是B和A之差 在1和-1之间， 先凑ab 或者ba， 同理A-B大于2  就是aab
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * strWithout3a3b(int A, int B){
     char* ret = (char*)malloc(sizeof(char) * (A + B + 1));
     
@@ -42,4 +42,4 @@ char * strWithout3a3b(int A, int B){
 
     return ret;
 }
-```
+// ```

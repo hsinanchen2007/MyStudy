@@ -1,9 +1,9 @@
-### 解题思路
-![QQ图片20200316113119.png](https://pic.leetcode-cn.com/d9c8b57e7f15f6a47824f655bb7541ad0f0a13a20c6a5bbe481e4a2704858e50-QQ%E5%9B%BE%E7%89%8720200316113119.png)
+// ### 解题思路
+// ![QQ图片20200316113119.png](https://pic.leetcode-cn.com/d9c8b57e7f15f6a47824f655bb7541ad0f0a13a20c6a5bbe481e4a2704858e50-QQ%E5%9B%BE%E7%89%8720200316113119.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 string compressString(string S) {
@@ -26,4 +26,4 @@ string compressString(string S) {
 		return str.size() > len ? S : str;//不要忘记\0也要占位
 	}
 };
-```
+// ```

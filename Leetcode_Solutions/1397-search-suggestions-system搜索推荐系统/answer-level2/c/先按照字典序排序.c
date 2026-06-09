@@ -1,9 +1,9 @@
-### 解题思路
-先按照字典序排序，再暴力
+// ### 解题思路
+// 先按照字典序排序，再暴力
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -64,4 +64,4 @@ char *** suggestedProducts(char ** products, int productsSize, char * searchWord
     
     return res;
 }
-```
+// ```

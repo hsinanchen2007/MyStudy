@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int threeSumClosest(int* nums, int numsSize, int target){
 	if(numsSize == 3)
 		return nums[0]+nums[1]+nums[2];
@@ -33,4 +33,4 @@ int threeSumClosest(int* nums, int numsSize, int target){
 	}
 	return return_num;
 }
-```
+// ```

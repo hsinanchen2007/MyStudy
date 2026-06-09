@@ -1,8 +1,8 @@
-### 解题思路
-把A排序，和B对比，不明白为啥少了一次排序时间更久了。
-### 代码
+// ### 解题思路
+// 把A排序，和B对比，不明白为啥少了一次排序时间更久了。
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -57,4 +57,4 @@ int* advantageCount(int* A, int ASize, int* B, int BSize, int* returnSize){
     }
     return retArr;
 }
-```
+// ```

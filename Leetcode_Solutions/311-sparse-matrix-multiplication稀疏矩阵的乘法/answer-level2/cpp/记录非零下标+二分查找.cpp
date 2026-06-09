@@ -1,6 +1,6 @@
-首先用二维数组记录A每行非零下标和B每列非零下标。
-在乘的时候，可以用二分查找找出对应行和列同时非零的下标，相乘即可。
-```c++
+// 首先用二维数组记录A每行非零下标和B每列非零下标。
+// 在乘的时候，可以用二分查找找出对应行和列同时非零的下标，相乘即可。
+// ```c++
 class Solution {
 public:
     vector<vector<int>> multiply(vector<vector<int>>& A, vector<vector<int>>& B) {
@@ -46,4 +46,4 @@ public:
         return res;
     }
 };
-```
+// ```

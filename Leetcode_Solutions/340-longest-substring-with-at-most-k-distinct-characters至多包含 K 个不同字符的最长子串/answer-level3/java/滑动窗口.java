@@ -1,5 +1,5 @@
-和题目 [159. 至多包含两个不同字符的最长子串](https://leetcode-cn.com/problems/longest-substring-with-at-most-two-distinct-characters/solution/hua-dong-chuang-kou-by-tangweiqun-5/) 解法是一样的，区别就是将 k 替换成 2
-```java
+// 和题目 [159. 至多包含两个不同字符的最长子串](https://leetcode-cn.com/problems/longest-substring-with-at-most-two-distinct-characters/solution/hua-dong-chuang-kou-by-tangweiqun-5/) 解法是一样的，区别就是将 k 替换成 2
+// ```java
 class Solution {
     public int lengthOfLongestSubstringKDistinct(String s, int k) {
         // 存储至多包含 K 个不同字符的最长子串的长度
@@ -38,4 +38,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

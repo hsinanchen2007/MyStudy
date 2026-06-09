@@ -1,4 +1,4 @@
-```
+// ```
 public class Num657 {
 
     /**向上*/
@@ -31,4 +31,4 @@ public class Num657 {
         return vertical == 0 && level == 0;//如果竖直方向和水平方向都是0，说明返回了原点
     }
 }
-```
+// ```

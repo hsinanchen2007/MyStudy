@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn my_pow(x: f64, n: i32) -> f64 {
         if n > 0 {
@@ -20,5 +20,5 @@ impl Solution {
         }
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

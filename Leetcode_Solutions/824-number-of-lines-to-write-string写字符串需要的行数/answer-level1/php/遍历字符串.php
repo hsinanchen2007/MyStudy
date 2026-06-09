@@ -1,4 +1,4 @@
-```
+// ```
 function numberOfLines($widths, $S) {
         $sum = 0;
      	$line = 0;
@@ -17,4 +17,4 @@ function numberOfLines($widths, $S) {
      	}
      	return [++$line,$sum];
     }
-```
+// ```

@@ -1,4 +1,4 @@
-```python
+# ```python
 def sortArrayByParity(A):
     # i, j设定为头尾索引
     i, j = 0, len(A) - 1
@@ -17,4 +17,4 @@ def sortArrayByParity(A):
     return A
 
 print(sortArrayByParity([3,1,2,4]))
-```
+# ```

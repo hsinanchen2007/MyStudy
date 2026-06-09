@@ -1,5 +1,5 @@
-# ***纯数学问题***
-```
+// # ***纯数学问题***
+// ```
 class Solution {
 public:
     vector<int> distributeCandies(int candies, int num_people) {
@@ -27,10 +27,10 @@ public:
         return res;
     }
 };
-```
+// ```
 
-赋个没注释的,看的清楚一些
-```
+// 赋个没注释的,看的清楚一些
+// ```
 class Solution {
 public:
     vector<int> distributeCandies(int candies, int num_people) {
@@ -47,7 +47,7 @@ public:
         return res;
     }
 };
-```
+// ```
 
-# 时间复杂度:O(n)
-# 空间复杂度:O(n)
+// # 时间复杂度:O(n)
+// # 空间复杂度:O(n)

@@ -1,4 +1,4 @@
-```go []
+// ```go []
 func movingCount(m int, n int, k int) int {
 	dp := make([][]int, m+1)
 	for i := range dp {
@@ -34,4 +34,4 @@ func sumPos(n int) int {
 
 	return sum
 }
-```
+// ```

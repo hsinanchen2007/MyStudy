@@ -1,8 +1,8 @@
-### 解题思路
-两次双重for循环解决问题
-### 代码
+// ### 解题思路
+// 两次双重for循环解决问题
+// ### 代码
 
-```c
+// ```c
 void rotate(int** matrix, int matrixSize, int* matrixColSize){
     int temp;
     for(int i=0;i<matrixSize;i++){//以主对角线作为对称轴，将两边的数字进行转换
@@ -20,4 +20,4 @@ void rotate(int** matrix, int matrixSize, int* matrixColSize){
         }
     }
 }
-```
+// ```

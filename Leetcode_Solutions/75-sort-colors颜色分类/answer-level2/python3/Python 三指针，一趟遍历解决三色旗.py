@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def sortColors(self, nums: List[int]) -> None:
         '''三色旗问题，最初可将其看为四类：red，white，blue和unclassified
@@ -22,4 +22,4 @@ class Solution:
             else:
                 nums[w], nums[b] = nums[b], nums[w]
                 b -= 1
-```
+# ```

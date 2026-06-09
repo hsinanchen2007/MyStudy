@@ -1,9 +1,9 @@
-### 解题思路
-身高不能相同
+// ### 解题思路
+// 身高不能相同
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func bestSeqAtIndex(height []int, weight []int) int {
     n := len(height)
     if n <= 1 { return n }
@@ -38,4 +38,4 @@ func bestSeqAtIndex(height []int, weight []int) int {
     }
     return len(id)
 }
-```
+// ```

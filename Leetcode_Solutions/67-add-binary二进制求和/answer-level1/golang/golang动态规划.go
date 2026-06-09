@@ -1,8 +1,8 @@
-### 解题思路
-此题可用动态规划写，从后往前遍历，前一个值受后一个值的影响。这版代码比较粗糙，是否有更优化的代码有时间再看吧。
-### 代码
+// ### 解题思路
+// 此题可用动态规划写，从后往前遍历，前一个值受后一个值的影响。这版代码比较粗糙，是否有更优化的代码有时间再看吧。
+// ### 代码
 
-```golang
+// ```golang
 func addBinary(a string, b string) string {
 //动态规划 res[k]=sliceA[k]+sliceB[k]+jinwei[k+1],jinwei[k]=1 if sliceA[k]=='1'&&sliceB[k]=='1' else 0
 	var sliceA,sliceB []byte
@@ -62,4 +62,4 @@ func addBinary(a string, b string) string {
 	}
 }
 
-```
+// ```

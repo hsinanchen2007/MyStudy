@@ -1,4 +1,4 @@
-采用将a,b用parseInt转换成二进制数相加后，调用toString(2)转二进制的方法会导致溢出。
+// 采用将a,b用parseInt转换成二进制数相加后，调用toString(2)转二进制的方法会导致溢出。
 
 /**
  * @param {string} a

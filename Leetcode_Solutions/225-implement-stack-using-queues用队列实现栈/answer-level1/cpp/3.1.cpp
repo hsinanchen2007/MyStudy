@@ -1,9 +1,9 @@
-### 解题思路
-队头相当于栈底，队尾相当于栈顶
+// ### 解题思路
+// 队头相当于栈底，队尾相当于栈顶
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MyStack {
 public:
     /** Initialize your data structure here. */
@@ -54,4 +54,4 @@ public:
  * int param_3 = obj->top();
  * bool param_4 = obj->empty();
  */
-```
+// ```

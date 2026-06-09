@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 func groupStrings(strings []string) [][]string {
 	if len(strings) == 0 {
@@ -88,4 +88,4 @@ func possible(s1, s2 []byte, n int) bool {
 	return true
 }
 
-```
+// ```

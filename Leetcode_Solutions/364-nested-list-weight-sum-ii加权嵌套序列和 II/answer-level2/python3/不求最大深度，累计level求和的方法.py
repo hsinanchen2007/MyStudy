@@ -1,6 +1,6 @@
-很多方法都是cache一次dfs求得深度再求和的方法或者两次dfs求深度加上求和的方法
-以下这个方法不用求得深度，只要一层一层的累加进res即可。同样的题目包括[1420 做菜顺序](https://leetcode-cn.com/problems/reducing-dishes/)
-```
+# 很多方法都是cache一次dfs求得深度再求和的方法或者两次dfs求深度加上求和的方法
+# 以下这个方法不用求得深度，只要一层一层的累加进res即可。同样的题目包括[1420 做菜顺序](https://leetcode-cn.com/problems/reducing-dishes/)
+# ```
 class Solution:
     def depthSumInverse(self, nestedList: List[NestedInteger]) -> int:
         res, level_sum = 0, 0
@@ -14,4 +14,4 @@ class Solution:
             nestedList = next_level
             res += level_sum
         return res
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def merge(self, A, m, B, n):
         """
@@ -30,4 +30,4 @@ class Solution(object):
                 A[cur] = b_val
                 pb -= 1
             cur -= 1
-```
+# ```

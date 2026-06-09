@@ -1,9 +1,9 @@
-### 解题思路
-暴力法 java
+// ### 解题思路
+// 暴力法 java
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     //暴力法
     public int trap(int[] height) {
@@ -32,4 +32,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

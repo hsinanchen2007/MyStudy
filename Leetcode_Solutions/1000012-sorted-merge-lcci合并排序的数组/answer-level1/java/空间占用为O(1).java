@@ -1,10 +1,10 @@
-### 解题思路
-空间占用为O(1)，选最大的放到最右。
+// ### 解题思路
+// 空间占用为O(1)，选最大的放到最右。
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void merge(int[] A, int m, int[] B, int n) {
         if(n>0){
@@ -38,4 +38,4 @@ class Solution {
 
     }
 }
-```
+// ```

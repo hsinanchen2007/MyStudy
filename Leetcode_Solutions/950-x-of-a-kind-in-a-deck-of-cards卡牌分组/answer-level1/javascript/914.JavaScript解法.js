@@ -1,9 +1,9 @@
-// 解题结果：执行用时72ms，内存消耗36M
-// 解题思路：
-// 1、把所有数据遍历，生成一数据值为key，数量为value的对象
-// 2、生成以value为值的数组，并去重，因为重复的数据结果是一样的
-// 3、数组相邻数据两两求最大公约数
-```javascript
+// // 解题结果：执行用时72ms，内存消耗36M
+// // 解题思路：
+// // 1、把所有数据遍历，生成一数据值为key，数量为value的对象
+// // 2、生成以value为值的数组，并去重，因为重复的数据结果是一样的
+// // 3、数组相邻数据两两求最大公约数
+// ```javascript
 const hasGroupsSizeX = (deck) => {
   if(deck.length <= 1) return false;
   let obj = {}, result = 1;
@@ -41,4 +41,4 @@ const hasGroupsSizeX = (deck) => {
 const gcd = (x, y) => {
   return x == 0 ? y : gcd(y%x, x);
 }
-```
+// ```

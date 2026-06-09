@@ -1,9 +1,9 @@
-### 解题思路
-使用map存储异位词
+// ### 解题思路
+// 使用map存储异位词
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} strs
  * @return {string[][]}
@@ -29,4 +29,4 @@ var groupAnagrams = function(strs) {
     })
     return res
 };
-```
+// ```

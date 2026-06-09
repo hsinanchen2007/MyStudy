@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 var kSimilarity = function(A, B) {
     //起始节点以及步数（初始步数为0）
     let stack=[[A,0]];
@@ -38,4 +38,4 @@ var kSimilarity = function(A, B) {
                str.substring(j+1);
     }
 };
-```
+// ```

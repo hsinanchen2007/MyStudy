@@ -1,10 +1,10 @@
-### 解题思路
-将每个1周围的1深度遍历进行变为0的操作
-最后累加数目即可
+# ### 解题思路
+# 将每个1周围的1深度遍历进行变为0的操作
+# 最后累加数目即可
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def numIslands(self, grid):
         """
@@ -30,4 +30,4 @@ class Solution(object):
                     dfs(i,j)
                     ans=ans+1
         return ans
-```
+# ```

@@ -1,11 +1,11 @@
-### 解题思路
-关键点在：
-1，arr的数组和是正数还是负数
-2，k是否大于1
+// ### 解题思路
+// 关键点在：
+// 1，arr的数组和是正数还是负数
+// 2，k是否大于1
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     using ll = long long;
@@ -28,6 +28,6 @@ public:
         return ((m + (k - 2) * (s % M)) % M + M) % M;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/d13246a83c0bcbb0e925c029a24dca8d70c07b88b6b7f84d6ea6c40c28803df1-image.png)
+// ![image.png](https://pic.leetcode-cn.com/d13246a83c0bcbb0e925c029a24dca8d70c07b88b6b7f84d6ea6c40c28803df1-image.png)

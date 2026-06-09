@@ -1,9 +1,9 @@
-### 解题思路
-搜索标记可达位置
+// ### 解题思路
+// 搜索标记可达位置
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 var matrix [][]int
 func movingCount(m int, n int, k int) int {
 	matrix = make([][]int, m)
@@ -69,4 +69,4 @@ func bitSum(x, y int) int {
 	}
 	return res
 }
-```
+// ```

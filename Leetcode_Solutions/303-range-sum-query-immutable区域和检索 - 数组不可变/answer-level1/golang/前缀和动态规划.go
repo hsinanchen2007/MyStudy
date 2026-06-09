@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type NumArray struct {
 	sum []int
 }
@@ -22,4 +22,4 @@ func Constructor(nums []int) NumArray {
 func (this *NumArray) SumRange(i int, j int) int {
 	return this.sum[j+1] - this.sum[i]
 }
-```
+// ```

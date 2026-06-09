@@ -1,9 +1,9 @@
-### 解题思路
-这个方法远远比建立数组遍历两次找最多值要简单的多
+// ### 解题思路
+// 这个方法远远比建立数组遍历两次找最多值要简单的多
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 	public int majorityElement(int[] nums) {
 		int res=nums[0];
@@ -21,4 +21,4 @@ class Solution {
 		return res;
     }
 }
-```
+// ```

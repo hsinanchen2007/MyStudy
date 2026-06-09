@@ -1,9 +1,9 @@
-### 解题思路
-代碼部分含有set及相關函數
+// ### 解题思路
+// 代碼部分含有set及相關函數
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool containsDuplicate(vector<int>& nums) {
@@ -16,4 +16,4 @@ public:
         return false;
     }
 };
-```
+// ```

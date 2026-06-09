@@ -1,6 +1,6 @@
-为什么数据量这么大
+// 为什么数据量这么大
 
-```c
+// ```c
 typedef struct {
     int *data;
     int *min;
@@ -88,4 +88,4 @@ void minStackFree(MinStack* obj) {
  
  * minStackFree(obj);
 */
-```
+// ```

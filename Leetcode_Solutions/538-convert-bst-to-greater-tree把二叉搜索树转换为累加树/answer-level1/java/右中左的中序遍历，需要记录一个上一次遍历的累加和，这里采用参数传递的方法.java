@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {//左中右是按从小到大的遍历，所以右中左遍历就是从大到小，因此右中左遍历，比例过程中不断的加上原来的数就行了。
     public TreeNode convertBST(TreeNode root) {
         search(root, 0);
@@ -13,4 +13,4 @@ class Solution {//左中右是按从小到大的遍历，所以右中左遍历�
         return left_val;//这里是把左中右三个节点里最后一个遍历的左子节点的返回值，返回给下一层
     }
 }
-```
+// ```

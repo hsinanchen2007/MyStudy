@@ -1,8 +1,8 @@
-### 解题思路
-插入新的区间到原来的数组中，然后将新数组排序。接着再一个个插入最终结果的空列表中。该合并就合并，不能合并就直接添加区间。很简单的思路。
-### 代码
+# ### 解题思路
+# 插入新的区间到原来的数组中，然后将新数组排序。接着再一个个插入最终结果的空列表中。该合并就合并，不能合并就直接添加区间。很简单的思路。
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def insert(self, intervals, newInterval):
         """
@@ -31,4 +31,4 @@ class Solution(object):
             elif inter[1]<=last[1] and inter[0]>=last[0]:
                 continue
         return Res
-```
+# ```

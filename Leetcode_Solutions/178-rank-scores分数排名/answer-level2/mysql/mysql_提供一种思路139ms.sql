@@ -1,4 +1,4 @@
-# 我以为会很慢，结果看着还好，87%
+-- # 我以为会很慢，结果看着还好，87%
 
 select ss.Score AS SCore, temp.num AS Rank
 from Scores ss

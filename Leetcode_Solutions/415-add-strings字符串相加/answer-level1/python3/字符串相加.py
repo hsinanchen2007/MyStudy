@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def addStrings(self, num1: str, num2: str) -> str:
         short_str = min([num1,num2],key = len)
@@ -27,4 +27,4 @@ class Solution:
         print(short_list)
         return ''.join(short_list[:])
 
-```
+# ```

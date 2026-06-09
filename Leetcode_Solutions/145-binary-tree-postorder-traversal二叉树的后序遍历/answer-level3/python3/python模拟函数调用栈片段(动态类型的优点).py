@@ -1,4 +1,4 @@
-```python
+# ```python
 
 # 递归版
 class Solution:
@@ -30,4 +30,4 @@ class Solution:
                     stack.append(croot.right)
                     stack.append(croot.left)
         return result
-```
+# ```

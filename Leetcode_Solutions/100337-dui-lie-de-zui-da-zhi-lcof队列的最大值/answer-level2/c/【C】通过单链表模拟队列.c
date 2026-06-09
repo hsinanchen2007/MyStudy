@@ -1,9 +1,9 @@
-### 解题思路
-    好像在pop的时候做不到o(1),因为pop的时候要重新判断最大值元素，最坏情况下需要遍历整个链表
+// ### 解题思路
+//     好像在pop的时候做不到o(1),因为pop的时候要重新判断最大值元素，最坏情况下需要遍历整个链表
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct Queue{
     int val;
     struct Queue *next;
@@ -97,4 +97,4 @@ void maxQueueFree(MaxQueue* obj) {
  
  * maxQueueFree(obj);
 */
-```
+// ```

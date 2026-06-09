@@ -1,16 +1,16 @@
-### 双指针
-同样维护三个指针，第一个指针i从0开始一直到num.size（）-1，第二个指针left从i+1开始，第三个指针right从最后一个开始。
-sum=nums[i]+nums[left]+nums[right]
-(1) 当|target-sum|<|target-res|时，说明找到更加接近的了，将答案替换成当前的sum。
-(2) 当target>sum，说明sum还不够大，因此left++
-(3) 当target<sum，说明sum太大了，因此right--
-(4) 当target==sum，说明差距为0，直接返回作为答案。
-### 时间/空间复杂度
-时间复杂度：O(n2)
-空间复杂度: O(1)
-### 代码
+// ### 双指针
+// 同样维护三个指针，第一个指针i从0开始一直到num.size（）-1，第二个指针left从i+1开始，第三个指针right从最后一个开始。
+// sum=nums[i]+nums[left]+nums[right]
+// (1) 当|target-sum|<|target-res|时，说明找到更加接近的了，将答案替换成当前的sum。
+// (2) 当target>sum，说明sum还不够大，因此left++
+// (3) 当target<sum，说明sum太大了，因此right--
+// (4) 当target==sum，说明差距为0，直接返回作为答案。
+// ### 时间/空间复杂度
+// 时间复杂度：O(n2)
+// 空间复杂度: O(1)
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int threeSumClosest(vector<int>& nums, int target) {
@@ -34,4 +34,4 @@ public:
         return res;
     }
 };
-```
+// ```

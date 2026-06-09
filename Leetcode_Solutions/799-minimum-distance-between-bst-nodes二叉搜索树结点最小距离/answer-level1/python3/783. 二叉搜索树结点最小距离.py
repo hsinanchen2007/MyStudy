@@ -1,11 +1,11 @@
-### 解题思路
-中序遍历， 不断比较当前节点和上一个节点差值即可（递归and迭代）
-![image.png](https://pic.leetcode-cn.com/a1318d5ea6d44d7b7a781c0845df0198a09492b63dbd7a497ea6a2264edfd210-image.png)
+# ### 解题思路
+# 中序遍历， 不断比较当前节点和上一个节点差值即可（递归and迭代）
+# ![image.png](https://pic.leetcode-cn.com/a1318d5ea6d44d7b7a781c0845df0198a09492b63dbd7a497ea6a2264edfd210-image.png)
 
 
-### 代码（递归版本）
+# ### 代码（递归版本）
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -32,9 +32,9 @@ class Solution:
             help(root.right)
         help(root)
         return res
-```
-### 代码（迭代版本）
-``` python3
+# ```
+# ### 代码（迭代版本）
+# ``` python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -61,4 +61,4 @@ class Solution:
 
             root = root.right
         return res
-```
+# ```

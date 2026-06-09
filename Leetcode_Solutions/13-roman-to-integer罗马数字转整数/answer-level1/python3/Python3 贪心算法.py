@@ -1,9 +1,9 @@
-### 解题思路
-遍历的时候优先看有没有2个字符能转换整数的，没有才取一个字符转换整数。
+# ### 解题思路
+# 遍历的时候优先看有没有2个字符能转换整数的，没有才取一个字符转换整数。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def romanToInt(self, s: str) -> int:
         trans_map = {
@@ -36,4 +36,4 @@ class Solution:
 
         return ans
 
-```
+# ```

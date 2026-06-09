@@ -1,11 +1,11 @@
-### 解题思路
-用container/list的来模拟stack。
-注意golang的反射语法.
-不能用强制转换。
+// ### 解题思路
+// 用container/list的来模拟stack。
+// 注意golang的反射语法.
+// 不能用强制转换。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 type MyStack struct {
 	list *list.List
@@ -56,4 +56,4 @@ func (this *MyStack) Empty() bool {
  * param_3 := obj.Top();
  * param_4 := obj.Empty();
  */
-```
+// ```

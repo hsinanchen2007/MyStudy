@@ -1,4 +1,4 @@
-```
+// ```
 
     function maxArea($height) {
          $max = 0;
@@ -16,4 +16,4 @@
         }
         return $max;
     }
-```
+// ```

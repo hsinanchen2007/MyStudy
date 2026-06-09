@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-* 第一次，这里第二次循环没有注意越界了
-```javascript
+// * 第一次，这里第二次循环没有注意越界了
+// ```javascript
 7052 ms	36.3 MB
 /**
  * @param {number[]} nums
@@ -24,9 +24,9 @@ var containsNearbyDuplicate = function(nums, k) {
     }
     return false
 };
-```
-* 第二次，修改了越界，速度快了很多
-```javascript
+// ```
+// * 第二次，修改了越界，速度快了很多
+// ```javascript
 1548 ms	36.3 MB
 /**
  * @param {number[]} nums
@@ -47,4 +47,4 @@ var containsNearbyDuplicate = function(nums, k) {
     }
     return false
 };
-```
+// ```

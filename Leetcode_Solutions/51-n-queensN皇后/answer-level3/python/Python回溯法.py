@@ -1,9 +1,9 @@
-### 解题思路
-参考自labuladong大神
+# ### 解题思路
+# 参考自labuladong大神
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def solveNQueens(self, n: int) -> List[List[str]]:
         res = []
@@ -52,4 +52,4 @@ class Solution:
                 res2[index].append(r_str)
             
         return res2
-```
+# ```

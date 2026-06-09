@@ -1,6 +1,6 @@
-思路：头尾双指针，逐渐缩小。一次遍历，即可找到解。
+// 思路：头尾双指针，逐渐缩小。一次遍历，即可找到解。
 
-```
+// ```
 func twoSum1(numbers []int, target int) []int {
 	for cursorLeft, cursorRight := 0, len(numbers)-1; cursorLeft < cursorRight; cursorLeft++ {
 		// 本轮所需要找的值
@@ -26,5 +26,5 @@ func twoSum1(numbers []int, target int) []int {
 	return nil
 }
 
-```
-![image.png](https://pic.leetcode-cn.com/e547da9a7b875509fc353cb763a67cffcec896bd185f8bb8e4ad7179f57622a3-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/e547da9a7b875509fc353cb763a67cffcec896bd185f8bb8e4ad7179f57622a3-image.png)

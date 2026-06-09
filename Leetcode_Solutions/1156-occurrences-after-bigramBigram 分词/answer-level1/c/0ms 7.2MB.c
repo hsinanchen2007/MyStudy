@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *整体思路：
@@ -72,4 +72,4 @@ char ** findOcurrences( char * text , char * first , char * second , int * retur
     return buffer;
 
 }
-```
+// ```

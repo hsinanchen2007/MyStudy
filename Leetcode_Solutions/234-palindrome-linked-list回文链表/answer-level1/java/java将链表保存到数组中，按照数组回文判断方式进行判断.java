@@ -1,4 +1,4 @@
-```
+// ```
 class Palindrome{
     public  boolean isPalindrome(ListNode head){
         int length = 0;
@@ -24,4 +24,4 @@ class Palindrome{
         return  true;
     }
 }
-```
+// ```

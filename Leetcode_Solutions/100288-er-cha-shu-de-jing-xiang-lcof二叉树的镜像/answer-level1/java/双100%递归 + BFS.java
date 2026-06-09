@@ -1,4 +1,4 @@
-```java
+// ```java
     //基于队列的BFS解法
     public TreeNode mirrorTree(TreeNode root) {
         Deque<TreeNode> queue = new LinkedList<TreeNode>();
@@ -16,10 +16,10 @@
         }
         return root;
     }
-```
+// ```
 
 
-```java
+// ```java
 class Solution {
     public TreeNode mirrorTree(TreeNode root) {
         if(root == null){
@@ -34,4 +34,4 @@ class Solution {
         return root;
     }
 }
-```
+// ```

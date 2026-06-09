@@ -1,10 +1,10 @@
-### 解题思路
-1. 抓住循环的指针 cur
-2. 选定 临时指针 pos,表明当前的标题
-3. 选定 pre 指向新的标题， 每次循环记得回到新表头位置
-### 代码
+// ### 解题思路
+// 1. 抓住循环的指针 cur
+// 2. 选定 临时指针 pos,表明当前的标题
+// 3. 选定 pre 指向新的标题， 每次循环记得回到新表头位置
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -27,4 +27,4 @@ func reverseList(head *ListNode) *ListNode {
     }
     return pre
 }
-```
+// ```

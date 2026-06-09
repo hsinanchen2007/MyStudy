@@ -1,5 +1,5 @@
-见注释
-```cpp
+// 见注释
+// ```cpp
 class Solution {
 public:
 	string findContestMatch(int n) {
@@ -18,4 +18,4 @@ public:
 		return '(' + match(start, nextRoundDis, target) + ',' + match(roundDis - start, nextRoundDis, target) + ')';
 	}
 };
-```
+// ```

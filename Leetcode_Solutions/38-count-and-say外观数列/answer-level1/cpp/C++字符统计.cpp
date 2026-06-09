@@ -1,11 +1,11 @@
-![截屏2020-04-10下午12.53.42.png](https://pic.leetcode-cn.com/ec14541eaec5e39efb7b1e3a732969bd0a2d67be4f3b40200ab227d171657e9b-%E6%88%AA%E5%B1%8F2020-04-10%E4%B8%8B%E5%8D%8812.53.42.png)
+// ![截屏2020-04-10下午12.53.42.png](https://pic.leetcode-cn.com/ec14541eaec5e39efb7b1e3a732969bd0a2d67be4f3b40200ab227d171657e9b-%E6%88%AA%E5%B1%8F2020-04-10%E4%B8%8B%E5%8D%8812.53.42.png)
 
-### 解题思路
-从 “1” 开始逐个计算直到第 n 个 字符串，具体思路见代码。
+// ### 解题思路
+// 从 “1” 开始逐个计算直到第 n 个 字符串，具体思路见代码。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string countAndSay(int n) {
@@ -35,4 +35,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-从尾向头遍历替换。
+// ### 解题思路
+// 从尾向头遍历替换。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func replaceSpace(s string) string {
     for i := len(s) - 1; i >= 0; i-- {
         if s[i] == 32 {
@@ -12,4 +12,4 @@ func replaceSpace(s string) string {
     }
     return s
 }
-```
+// ```

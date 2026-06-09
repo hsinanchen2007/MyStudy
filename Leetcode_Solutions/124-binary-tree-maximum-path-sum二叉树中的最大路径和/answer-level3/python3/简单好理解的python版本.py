@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     maxValue = float("-inf")
     def maxPathSum(self, root: TreeNode) -> int:
@@ -10,4 +10,4 @@ class Solution:
             return max(root.val + max(l,r), 0)
         helper(root)
         return self.maxValue
-```
+# ```

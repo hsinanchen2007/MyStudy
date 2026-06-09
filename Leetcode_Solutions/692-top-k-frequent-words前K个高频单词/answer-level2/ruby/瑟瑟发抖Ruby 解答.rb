@@ -1,4 +1,4 @@
-```
+# ```
 def top_k_frequent(words, k)
   res,fin,ans={},{},[]
   words.each_index do |i|
@@ -18,4 +18,4 @@ def top_k_frequent(words, k)
     end
     ans[0..k-1]
 end
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 void swap(char *a, char *b){
     *a ^= *b;
     *b ^= *a;
@@ -19,4 +19,4 @@ char * reverseStr(char * s, int k){
     }
     return s;
 }
-```
+// ```

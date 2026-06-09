@@ -1,4 +1,4 @@
-这道题可以用双指针来解决 快指针不断往前走 慢指针存不是元音的char
+// 这道题可以用双指针来解决 快指针不断往前走 慢指针存不是元音的char
 class Solution {
     public String removeVowels(String S) {
         char[] ch = S.toCharArray();

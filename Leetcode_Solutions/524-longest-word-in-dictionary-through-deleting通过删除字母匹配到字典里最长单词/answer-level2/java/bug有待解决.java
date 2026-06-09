@@ -1,10 +1,10 @@
-### 解题思路
-下面的代码不知道问题出在了哪儿
+// ### 解题思路
+// 下面的代码不知道问题出在了哪儿
 
 
-### 代码
+// ### 代码
 
-//记录下，这个程序可能是对的，但是有小bug
+// //记录下，这个程序可能是对的，但是有小bug
 class Solution {
     public String findLongestWord(String s, List<String> d) {
         String target="";  //定义一个目标空字符串，最后做返回值

@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/32eb6a1c9223b1160b5ca5ba41a352002dbaaa84637f817a998d64749e313791-image.png)
+// ![image.png](https://pic.leetcode-cn.com/32eb6a1c9223b1160b5ca5ba41a352002dbaaa84637f817a998d64749e313791-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
 遍历二叉搜索树：
 由于二叉搜索树的特点为：每一个节点值小于它的左节点值，大于它的右节点的值
 那么我们从根节点出发：
@@ -10,11 +10,11 @@
   3. 当前节点值大于目标值，在节点的左子树上继续搜索
 
 最后如果没有符合条件的树，返回 null
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -44,4 +44,4 @@ var searchBST = function(root, val) {
   
   return ans;
 };
-```
+// ```

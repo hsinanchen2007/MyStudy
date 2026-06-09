@@ -1,9 +1,9 @@
-### 解题思路
-一开始没get到标准解的dfs，于是写了这么个破玩意儿
+// ### 解题思路
+// 一开始没get到标准解的dfs，于是写了这么个破玩意儿
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -42,4 +42,4 @@ class Solution {
         depth--;
     }
 }
-```
+// ```

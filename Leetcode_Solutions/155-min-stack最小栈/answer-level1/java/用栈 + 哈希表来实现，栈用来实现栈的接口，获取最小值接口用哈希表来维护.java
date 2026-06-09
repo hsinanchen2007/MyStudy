@@ -1,7 +1,7 @@
-解题思路：用栈+哈希表来实现，栈用来实现栈的接口，获取最小值接口用哈希表来维护，哈希表存储当前栈的深度与当前深度最小值的映射。
-Talk is cheap, show me the code:
+// 解题思路：用栈+哈希表来实现，栈用来实现栈的接口，获取最小值接口用哈希表来维护，哈希表存储当前栈的深度与当前深度最小值的映射。
+// Talk is cheap, show me the code:
 
-```
+// ```
 class MinStack {
 
     Stack<Integer> stack;
@@ -32,4 +32,4 @@ class MinStack {
         return map.get(stack.size());
     }
 }
-```
+// ```

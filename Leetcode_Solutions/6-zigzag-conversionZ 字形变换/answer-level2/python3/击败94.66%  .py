@@ -1,5 +1,5 @@
 
-```python3 []
+# ```python3 []
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
         if s=='' or  numRows==1:
@@ -34,4 +34,4 @@ class Solution:
                 s2=s2+j
         return s2
         
-```
+# ```

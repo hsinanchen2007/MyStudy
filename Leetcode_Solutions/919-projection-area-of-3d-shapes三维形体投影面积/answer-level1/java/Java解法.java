@@ -1,9 +1,9 @@
-### 解题思路
-感觉题目不严谨，没有说每个数组的长度是相同的，我是按照不相同来做的，用hash表存储结果计算
+// ### 解题思路
+// 感觉题目不严谨，没有说每个数组的长度是相同的，我是按照不相同来做的，用hash表存储结果计算
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int projectionArea(int[][] grid) {
         int[] xs = new int[50];
@@ -24,4 +24,4 @@ class Solution {
         return area;
     }
 }
-```
+// ```

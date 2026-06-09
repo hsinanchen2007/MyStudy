@@ -1,9 +1,9 @@
-### 解题思路
-就是先统计长度，然后按照位置来找节点嘛
+// ### 解题思路
+// 就是先统计长度，然后按照位置来找节点嘛
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -26,4 +26,4 @@ class Solution {
         return head;
     }
 }
-```
+// ```

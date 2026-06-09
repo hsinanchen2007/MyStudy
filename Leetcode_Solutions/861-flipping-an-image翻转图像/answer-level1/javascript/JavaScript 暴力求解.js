@@ -1,10 +1,10 @@
-### 解题思路
-- 通过 reverse(), 对每一行的数组进行翻转
-- 然后对二维数组进行遍历 判断为0，则重新赋值为1； 
+// ### 解题思路
+// - 通过 reverse(), 对每一行的数组进行翻转
+// - 然后对二维数组进行遍历 判断为0，则重新赋值为1； 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} A
  * @return {number[][]}
@@ -26,4 +26,4 @@ var flipAndInvertImage = function(A) {
     }
     return A
 };
-```
+// ```

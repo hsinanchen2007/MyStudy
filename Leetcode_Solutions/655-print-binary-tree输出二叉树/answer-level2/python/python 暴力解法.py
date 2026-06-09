@@ -1,4 +1,4 @@
-```
+# ```
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -41,5 +41,5 @@ class Solution(object):
         pfs(root,1,0,width)
         return res
             
-```
-暴力解不过好像没有特别快的解法
+# ```
+# 暴力解不过好像没有特别快的解法

@@ -1,4 +1,4 @@
-```python
+# ```python
     def maxSlidingWindow(self, nums: list, k: int) -> list:
         q, res = [], []
         for i in range(len(nums)):
@@ -12,4 +12,4 @@
                 q.append(i)  # 将当前值加入队列
             res.append(nums[q[0]])  # 队首即最大值
         return res[k-1:]  # k-1前不是有效的滑动窗口
-```
+# ```

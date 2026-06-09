@@ -1,10 +1,10 @@
-### 解题思路
-[@mian-mian-sir](/u/mian-mian-sir/)
-参看大佬，做了些许改动
+# ### 解题思路
+# [@mian-mian-sir](/u/mian-mian-sir/)
+# 参看大佬，做了些许改动
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
 # 加入初始化
     def __init__(self):
@@ -21,4 +21,4 @@ class Solution:
             self.dfs(node.left,maxv,minv)
             self.dfs(node.right,maxv,minv)  
 
-```
+# ```

@@ -1,5 +1,5 @@
-思路很简单，先构建一个词典set，然后对sentence中的每个单词init，判断是否存在词根在set中
-```
+// 思路很简单，先构建一个词典set，然后对sentence中的每个单词init，判断是否存在词根在set中
+// ```
 class Solution {
 public:
     string replaceWords(vector<string>& dict, string sentence) {
@@ -26,4 +26,4 @@ public:
         return ret;
     }
 };
-```
+// ```

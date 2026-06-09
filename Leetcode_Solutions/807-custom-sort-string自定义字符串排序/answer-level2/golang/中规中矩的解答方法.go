@@ -1,9 +1,9 @@
-### 解题思路
-    用S中的字母进行遍历，用一个map,TMap记录该字母在T中出现的个数，拼接出S顺序的字符串str， 最后再将S中未出现的字母组成的字符串拼接到str的后面即可。 
+// ### 解题思路
+//     用S中的字母进行遍历，用一个map,TMap记录该字母在T中出现的个数，拼接出S顺序的字符串str， 最后再将S中未出现的字母组成的字符串拼接到str的后面即可。 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func customSortString(S string, T string) string {
     TMap := make(map[string]int, len(T))
     str := ""
@@ -28,4 +28,4 @@ func customSortString(S string, T string) string {
     } 
     return str
 }
-```
+// ```

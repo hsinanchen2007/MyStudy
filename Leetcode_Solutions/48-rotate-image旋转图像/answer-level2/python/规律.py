@@ -1,6 +1,6 @@
-思路很简单，对于某个点(x,y)顺时针旋转90度, 对应的位置是(y, n-x)
+# 思路很简单，对于某个点(x,y)顺时针旋转90度, 对应的位置是(y, n-x)
 
-```python3
+# ```python3
 class Solution:
     def rotate(self, matrix: list) -> None:
         """
@@ -15,4 +15,4 @@ class Solution:
                     = matrix[n-l][s], matrix[s][l], matrix[l][n-s], matrix[n-s][n-l]
             s += 1
             e -= 1
-```
+# ```

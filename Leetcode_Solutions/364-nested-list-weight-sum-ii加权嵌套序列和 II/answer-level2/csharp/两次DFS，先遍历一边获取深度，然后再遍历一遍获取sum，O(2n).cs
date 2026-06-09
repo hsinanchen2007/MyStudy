@@ -1,4 +1,4 @@
-```
+// ```
 public class _364_加权嵌套序列和_2
 {
     public int DepthSumInverse(IList<NestedInteger> nestedList)
@@ -50,4 +50,4 @@ public class _364_加权嵌套序列和_2
         return sum * depth + sum_sub;
     }
 }
-```
+// ```

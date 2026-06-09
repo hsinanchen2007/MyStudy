@@ -1,9 +1,9 @@
-### 解题思路
-用链表节点类型的数组存储每个节点，遍历完获得节点数量cnt后，直接返回下标为cnt/2的节点
+// ### 解题思路
+// 用链表节点类型的数组存储每个节点，遍历完获得节点数量cnt后，直接返回下标为cnt/2的节点
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -23,4 +23,4 @@ struct ListNode* middleNode(struct ListNode* head){
    }
     return p[cnt/2];
 }
-```
+// ```

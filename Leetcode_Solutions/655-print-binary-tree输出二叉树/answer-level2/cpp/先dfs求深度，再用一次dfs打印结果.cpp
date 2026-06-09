@@ -1,6 +1,6 @@
-![截屏2020-03-26下午1.59.14.png](https://pic.leetcode-cn.com/f5f81da55636a5513bca1a38feae227485ff5fb37fae22f6234f2ff10658700d-%E6%88%AA%E5%B1%8F2020-03-26%E4%B8%8B%E5%8D%881.59.14.png)
+// ![截屏2020-03-26下午1.59.14.png](https://pic.leetcode-cn.com/f5f81da55636a5513bca1a38feae227485ff5fb37fae22f6234f2ff10658700d-%E6%88%AA%E5%B1%8F2020-03-26%E4%B8%8B%E5%8D%881.59.14.png)
 
-```
+// ```
 class Solution {
 public:
     vector<vector<string> > printTree(TreeNode* root) {
@@ -28,4 +28,4 @@ public:
     	return max(treeDepth(root->left) + 1, treeDepth(root->right) + 1);
     }
 };
-```
+// ```

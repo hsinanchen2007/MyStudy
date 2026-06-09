@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func min(nums [3]int) int {
 	res := 99999
 	for _, v := range nums {
@@ -35,4 +35,4 @@ func minDistance(word1 string, word2 string) int {
 	}
 	return dp[m-1][n-1]
 }
-```
+// ```

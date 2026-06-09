@@ -1,11 +1,11 @@
-### 解题思路
-- 可以采用dummy结点
-- 也可以不采用dummy结点
+// ### 解题思路
+// - 可以采用dummy结点
+// - 也可以不采用dummy结点
 
-### 代码
+// ### 代码
 
-8ms 6.8MB
-```cpp
+// 8ms 6.8MB
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -43,4 +43,4 @@ public:
         return rst->next;
     }
 };
-```
+// ```

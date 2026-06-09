@@ -1,9 +1,9 @@
-### 解题思路
-synchronized 解决单次执行， volatile boolean 解决第一次执行
+// ### 解题思路
+// synchronized 解决单次执行， volatile boolean 解决第一次执行
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class FooBar {
 
     private int              n;
@@ -44,4 +44,4 @@ class FooBar {
         }
     }
 }
-```
+// ```

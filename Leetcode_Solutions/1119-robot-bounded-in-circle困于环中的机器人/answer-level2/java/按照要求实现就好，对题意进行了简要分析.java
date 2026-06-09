@@ -1,75 +1,75 @@
-# 1041. 困于环中的机器人 - Robot Bounded In Circle
+// # 1041. 困于环中的机器人 - Robot Bounded In Circle
 
-## [更新链接](https://www.zhangjc.site/archives/332.html)
+// ## [更新链接](https://www.zhangjc.site/archives/332.html)
 
-> 【数组】
+// > 【数组】
 
-## [Problem Link](https://leetcode-cn.com/problems/robot-bounded-in-circle/)
+// ## [Problem Link](https://leetcode-cn.com/problems/robot-bounded-in-circle/)
 
-> 在无限的平面上，机器人最初位于 `(0, 0)` 处，面朝北方。机器人可以接受下列三条指令之一：
->
-> - `"G"`：直走 1 个单位
-> - `"L"`：左转 90 度
-> - `"R"`：右转 90 度
->
-> 机器人按顺序执行指令 `instructions`，并一直重复它们。
->
-> 只有在平面中存在环使得机器人永远无法离开时，返回 `true`。否则，返回 `false`。
+// > 在无限的平面上，机器人最初位于 `(0, 0)` 处，面朝北方。机器人可以接受下列三条指令之一：
+// >
+// > - `"G"`：直走 1 个单位
+// > - `"L"`：左转 90 度
+// > - `"R"`：右转 90 度
+// >
+// > 机器人按顺序执行指令 `instructions`，并一直重复它们。
+// >
+// > 只有在平面中存在环使得机器人永远无法离开时，返回 `true`。否则，返回 `false`。
 
-## Example:
+// ## Example:
 
-**示例 1：**
+// **示例 1：**
 
-```
+// ```
 输入："GGLLGG"
 输出：true
 解释：
 机器人从 (0,0) 移动到 (0,2)，转 180 度，然后回到 (0,0)。
 重复这些指令，机器人将保持在以原点为中心，2 为半径的环中进行移动。
-```
+// ```
 
-**示例 2：**
+// **示例 2：**
 
-```
+// ```
 输入："GG"
 输出：false
 解释：
 机器人无限向北移动。
-```
+// ```
 
-**示例 3：**
+// **示例 3：**
 
-```
+// ```
 输入："GL"
 输出：true
 解释：
 机器人按 (0, 0) -> (0, 1) -> (-1, 1) -> (-1, 0) -> (0, 0) -> ... 进行移动。
-```
+// ```
 
- **提示：**
+//  **提示：**
 
-1. `1 <= instructions.length <= 100`
-2. `instructions[i]` 在 `{'G', 'L', 'R'}` 中
+// 1. `1 <= instructions.length <= 100`
+// 2. `instructions[i]` 在 `{'G', 'L', 'R'}` 中
 
-------
+// ------
 
-## Analysis
+// ## Analysis
 
-使用数组 `pos[4] = {Up, Right, Down, Left}​`  代表当前位置与初始位置的相对关系
+// 使用数组 `pos[4] = {Up, Right, Down, Left}​`  代表当前位置与初始位置的相对关系
 
-使用 dir 记录当前方向 
+// 使用 dir 记录当前方向 
 
-- `R`: $(dir + 1) % 4$
-- `L`: $(dir - 1) % 4$
-- `G`: $pos[dir]++$
+// - `R`: $(dir + 1) % 4$
+// - `L`: $(dir - 1) % 4$
+// - `G`: $pos[dir]++$
 
-## Solution 【数组】 ( 2ms)
+// ## Solution 【数组】 ( 2ms)
 
-> 执行用时 : 2 ms, 在Robot Bounded In Circle的Java提交中击败了68.78% 的用户
->
-> 内存消耗 : 33.8 MB, 在Robot Bounded In Circle的Java提交中击败了100.00% 的用户
+// > 执行用时 : 2 ms, 在Robot Bounded In Circle的Java提交中击败了68.78% 的用户
+// >
+// > 内存消耗 : 33.8 MB, 在Robot Bounded In Circle的Java提交中击败了100.00% 的用户
 
-```java
+// ```java
 class Solution {
     public boolean isRobotBounded(String instructions) {
         /* 使用数组pos[4] = {Up, Right, Down, Left} 代表当前位置与初始位置的相对关系
@@ -111,11 +111,11 @@ class Solution {
         
     }
 }
-```
+// ```
 
-#### 复杂度分析
+// #### 复杂度分析
 
-时间：$O(N)$
+// 时间：$O(N)$
 
-空间：$O(1)$
+// 空间：$O(1)$
 

@@ -1,4 +1,4 @@
-```
+// ```
 int numOfSubarrays(int* arr, int arrSize, int k, int threshold) {
     int preSum[arrSize + 1];
     memset(preSum,0,sizeof(int) * (arrSize + 1));
@@ -15,4 +15,4 @@ int numOfSubarrays(int* arr, int arrSize, int k, int threshold) {
     }
     return retNum;
 }
-```
+// ```

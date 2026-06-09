@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class LRUCache {
 protected:
 	//哈希函数 算槽位 求mod
@@ -210,4 +210,4 @@ protected:
 	int m_nIdle;//空闲链表
 	int m_capacity;//容积
 };
-```
+// ```

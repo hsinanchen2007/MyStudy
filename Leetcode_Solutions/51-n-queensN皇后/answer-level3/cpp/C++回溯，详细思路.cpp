@@ -1,12 +1,12 @@
-https://blog.csdn.net/aa123248135/article/details/94305339
+// https://blog.csdn.net/aa123248135/article/details/94305339
 
-题意理解：
-1. 在国际象棋中，皇后所在的行（左右），列（上下），以及左上角、左下角、右上角等8个方向均能够被攻击；
-2. 因为题目意思是在N*N的棋盘上布置N个皇后，因此每行每列最多只有一个皇后；
+// 题意理解：
+// 1. 在国际象棋中，皇后所在的行（左右），列（上下），以及左上角、左下角、右上角等8个方向均能够被攻击；
+// 2. 因为题目意思是在N*N的棋盘上布置N个皇后，因此每行每列最多只有一个皇后；
 
-解题思路：
-1. 用一个二维数组模拟国际象棋的棋盘，全部初始化为0，当在期盼中布置皇后时，将皇后所能攻击到的范围置1；
-```cpp
+// 解题思路：
+// 1. 用一个二维数组模拟国际象棋的棋盘，全部初始化为0，当在期盼中布置皇后时，将皇后所能攻击到的范围置1；
+// ```cpp
  //x:皇后所在行下标，y:皇后所在列下标，matrix:模拟棋盘的二维数组
  void put_down_the_queen(int x, int y, vector<vector<int>> &matrix) {
  	//dx[],dy[]分别是模拟八个方向上x,y的移动方向，如dx[0]=-1,dy[0]=0,表示皇后
@@ -28,12 +28,12 @@ https://blog.csdn.net/aa123248135/article/details/94305339
 			}
 		}
 	}
-```
+// ```
 
-2. 递归回溯过程
-//一行一行的往下布置皇后位置
-//k:当前行数，n:棋盘行数，matrix:模拟棋盘数组,res:返回的结果,location:代表皇后位置的一个解
-```cpp
+// 2. 递归回溯过程
+// //一行一行的往下布置皇后位置
+// //k:当前行数，n:棋盘行数，matrix:模拟棋盘数组,res:返回的结果,location:代表皇后位置的一个解
+// ```cpp
 void helper(int k, int n, vector<vector<int>>& matrix, vector<vector<string>>& res, vector<string>& location) {
 	//若布置到了最后一行，说明棋盘上皇后数量已经达到n,满足条件，将当前解放入结果中
 	if (k == n) {
@@ -58,11 +58,11 @@ void helper(int k, int n, vector<vector<int>>& matrix, vector<vector<string>>& r
 		}
 	}
 }
-```
+// ```
 
- 3. 主函数
- //函数的主要逻辑都有了，剩下的就是初始化并返回结果了；
-```cpp
+//  3. 主函数
+//  //函数的主要逻辑都有了，剩下的就是初始化并返回结果了；
+// ```cpp
  vector<vector<string>> solveNQueens(int n) {
 	vector<vector<string>> res;
 	if (n <= 0)
@@ -84,4 +84,4 @@ void helper(int k, int n, vector<vector<int>>& matrix, vector<vector<string>>& r
 	helper(0, n, matrix, res, location);
 	return res;
 }
-```
+// ```

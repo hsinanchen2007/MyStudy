@@ -1,7 +1,7 @@
-用并查集来做，网上找了个很好理解的讲义，大家可以看看。
-https://blog.csdn.net/liujian20150808/article/details/50848646
+// 用并查集来做，网上找了个很好理解的讲义，大家可以看看。
+// https://blog.csdn.net/liujian20150808/article/details/50848646
 
-```
+// ```
 int pre[26] = {0};
 /* 查找根节点函数 */
 int find(int x) {
@@ -58,4 +58,4 @@ bool equationsPossible(char ** equations, int equationsSize){
     }
     return flag;
 }
-```
+// ```

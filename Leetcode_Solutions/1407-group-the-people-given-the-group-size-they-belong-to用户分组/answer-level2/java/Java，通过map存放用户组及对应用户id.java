@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public List<List<Integer>> groupThePeople(int[] groupSizes) {
         // key 用户组，value 为用户组 id
@@ -22,4 +22,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

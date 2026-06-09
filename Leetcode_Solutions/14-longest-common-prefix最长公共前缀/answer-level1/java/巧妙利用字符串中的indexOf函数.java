@@ -1,10 +1,10 @@
-### 解题思路
-利用字符串的indexOf函数来寻找是否包含相同字符，如果不包含返回-1，包含的话返回索引值。
-时间复杂度是O(strs.length)
+// ### 解题思路
+// 利用字符串的indexOf函数来寻找是否包含相同字符，如果不包含返回-1，包含的话返回索引值。
+// 时间复杂度是O(strs.length)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String longestCommonPrefix(String[] strs) {
         if(strs.length==0){
@@ -20,4 +20,4 @@ class Solution {
         return prefix;
     }
 }
-```
+// ```

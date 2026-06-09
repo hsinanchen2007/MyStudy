@@ -1,4 +1,4 @@
-```
+// ```
 #define MAX_PATH 1000
 int IsLeaf(struct TreeNode *root) {
     return !(root->left || root->right);
@@ -55,4 +55,4 @@ int** pathSum(struct TreeNode* root, int sum, int* returnSize, int** returnColum
     }
     return returnPath;
 }
-```
+// ```

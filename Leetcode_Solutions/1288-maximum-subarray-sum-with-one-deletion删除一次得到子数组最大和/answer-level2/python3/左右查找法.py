@@ -1,16 +1,16 @@
-- 思路较为简单
-- 设计两个数组，left和right，
-  - left 统计从0到当前位置最大的和值
-  - right统计从最后位置到当前位置的最大和值
-- 结果值从下面的情况中寻找：
-  - 左面最大，不含当前值
-  - 右面最大，不含当前值
-  - 左面最大，含当前值
-  - 右面最大，含当前值
-  - 左面最大加右面最大，不含当前值
-  - 左面最大加右面最大，含当前值
+# - 思路较为简单
+# - 设计两个数组，left和right，
+#   - left 统计从0到当前位置最大的和值
+#   - right统计从最后位置到当前位置的最大和值
+# - 结果值从下面的情况中寻找：
+#   - 左面最大，不含当前值
+#   - 右面最大，不含当前值
+#   - 左面最大，含当前值
+#   - 右面最大，含当前值
+#   - 左面最大加右面最大，不含当前值
+#   - 左面最大加右面最大，含当前值
 
-```python
+# ```python
 class Solution:
     def maximumSum(self, arr: List[int]) -> int:
         length = len(arr)
@@ -33,6 +33,6 @@ class Solution:
 
             res = max(res, left_val, right_val, left_val + right_val, left[i], right[i], left[i] + right[i] - arr[i])
         return res
-```
+# ```
 
 

@@ -1,6 +1,6 @@
- GO 迭代、递归解法
+//  GO 迭代、递归解法
 
-`#递归解法
+// `#递归解法
 
     func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
         if (nil == l1) {
@@ -19,7 +19,7 @@
             return l2
         }
     }
-`
+// `
 `#迭代解法
 
     func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {

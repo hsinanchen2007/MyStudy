@@ -1,4 +1,4 @@
-php解法一：
+// php解法一：
 class Solution {
 
     /**

@@ -1,8 +1,8 @@
-参照官方正解的ruby版本, 哈，估计是用ruby的太少了，所以貌似效率很好
-> 执行用时 :84 ms, 在所有 Ruby 提交中击败了95.38%的用户
-> 内存消耗 :9.2 MB, 在所有 Ruby 提交中击败了100.00%的用户
+# 参照官方正解的ruby版本, 哈，估计是用ruby的太少了，所以貌似效率很好
+# > 执行用时 :84 ms, 在所有 Ruby 提交中击败了95.38%的用户
+# > 内存消耗 :9.2 MB, 在所有 Ruby 提交中击败了100.00%的用户
 
-```ruby
+# ```ruby
 # @param {String} s
 # @return {Integer}
 def length_of_longest_substring(s)
@@ -20,4 +20,4 @@ def length_of_longest_substring(s)
     end
     return ans
 end
-```
+# ```

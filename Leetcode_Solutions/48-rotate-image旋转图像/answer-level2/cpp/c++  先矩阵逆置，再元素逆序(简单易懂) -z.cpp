@@ -1,10 +1,10 @@
-### 解题思路
-参考了官方写法1，
-对矩阵先进行逆置，再每一行的元素进行逆序
+// ### 解题思路
+// 参考了官方写法1，
+// 对矩阵先进行逆置，再每一行的元素进行逆序
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void rotate(vector<vector<int>>& matrix) {
@@ -18,13 +18,13 @@ public:
       reverse(matrix[i].begin(),matrix[i].end());
     }
 };
-```
+// ```
 
-### 自己实现
+// ### 自己实现
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void rotate(vector<vector<int>>& matrix) {
@@ -47,4 +47,4 @@ public:
       }
     }
 };
-```
+// ```

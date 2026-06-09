@@ -1,8 +1,8 @@
-这题做的，费死个劲了，提交了n次终于对了。
-时间复杂度  O(n*n)   (不会写n方。好尴尬 -_-!)
+// 这题做的，费死个劲了，提交了n次终于对了。
+// 时间复杂度  O(n*n)   (不会写n方。好尴尬 -_-!)
 
 
-```
+// ```
 func threeSum(nums []int) [][]int {
 	res := [][]int{}
 	sort.Ints(nums)  //调用系统排序方法排序
@@ -37,5 +37,5 @@ func twoSum(nums []int, target int) [][]int {
 	}
 	return res
 }
-```
+// ```
 

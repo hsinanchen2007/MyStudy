@@ -1,9 +1,9 @@
-### 解题思路
-   先找倒数第n个节点的前驱，使它的next指向要删除结点的next 这样就可把倒数第n个节点删除。
+// ### 解题思路
+//    先找倒数第n个节点的前驱，使它的next指向要删除结点的next 这样就可把倒数第n个节点删除。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -42,4 +42,4 @@ class Solution {
 
     }
 }
-```
+// ```

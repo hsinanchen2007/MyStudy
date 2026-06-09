@@ -1,14 +1,14 @@
-## 结果
+// ## 结果
 
-![image.png](https://pic.leetcode-cn.com/5899fb4aa3958c14e898c6f5c47e400d050b5a1e88f5bf63702da2cc286d5235-image.png)
+// ![image.png](https://pic.leetcode-cn.com/5899fb4aa3958c14e898c6f5c47e400d050b5a1e88f5bf63702da2cc286d5235-image.png)
 
-## 思路
+// ## 思路
 
-回溯法，开始前将数组排序，每一步填一个数，填完以后如果之后的数与当前填数相同则跳过，避免重复
+// 回溯法，开始前将数组排序，每一步填一个数，填完以后如果之后的数与当前填数相同则跳过，避免重复
 
-## Code
+// ## Code
 
-```
+// ```
 func permuteUnique(nums []int) (result [][]int) {
     sort.Ints(nums)
     mp := make([]bool, len(nums))
@@ -39,5 +39,5 @@ func fill(nums []int, mp []bool, buf []int, result *[][]int, dict map[string]boo
     }
     
 }
-```
+// ```
 

@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/2ac1f0e3ba208f5e9c75882ff8956f2a3cdfd551fe3ee98fa5ab4efd2b6a7c13-image.png)
-实际上这道题考察就是数组的逐位比较
-```
+// ![image.png](https://pic.leetcode-cn.com/2ac1f0e3ba208f5e9c75882ff8956f2a3cdfd551fe3ee98fa5ab4efd2b6a7c13-image.png)
+// 实际上这道题考察就是数组的逐位比较
+// ```
 public String rankTeams(String[] votes) {
     int rowNum = votes.length;
     int colNum = votes[0].length();
@@ -52,5 +52,5 @@ public String rankTeams(String[] votes) {
     }
     return res.toString();
 }
-```
-解题思路是先构造一个hashMap，key值即为队名，value值为一个数组，每个index上的值即该队有多少次排名index+1。则我们只需重写hashMap的比较器即可。不过注意比较器的返回值。
+// ```
+// 解题思路是先构造一个hashMap，key值即为队名，value值为一个数组，每个index上的值即该队有多少次排名index+1。则我们只需重写hashMap的比较器即可。不过注意比较器的返回值。

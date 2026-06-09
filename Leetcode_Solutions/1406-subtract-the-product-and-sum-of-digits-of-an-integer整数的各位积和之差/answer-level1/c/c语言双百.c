@@ -1,9 +1,9 @@
-### 解题思路
-执行用时 :0 ms, 在所有 C 提交中击败了100.00%的用户内存消耗 :5 MB, 在所有 C 提交中击败了100.00%的用户.
+// ### 解题思路
+// 执行用时 :0 ms, 在所有 C 提交中击败了100.00%的用户内存消耗 :5 MB, 在所有 C 提交中击败了100.00%的用户.
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int subtractProductAndSum(int n){
     int sums=0,mul=1,result=0;
     while(n!=0){
@@ -14,4 +14,4 @@ int subtractProductAndSum(int n){
     result=mul-sums;
     return result;
 }
-```
+// ```

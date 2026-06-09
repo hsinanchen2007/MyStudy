@@ -1,7 +1,7 @@
-BFS，遍历每一层并判断是否对称
+// BFS，遍历每一层并判断是否对称
 
-代码：
-```
+// 代码：
+// ```
 class Solution {
 public:
     bool isSymmetric(TreeNode* root) {
@@ -27,4 +27,4 @@ public:
         return true;
     }
 };
-```
+// ```

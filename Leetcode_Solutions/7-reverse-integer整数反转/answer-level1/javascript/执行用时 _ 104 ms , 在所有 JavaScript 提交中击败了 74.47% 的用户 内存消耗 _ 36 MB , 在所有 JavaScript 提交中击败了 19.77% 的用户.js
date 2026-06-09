@@ -1,4 +1,4 @@
-```javascript []
+// ```javascript []
 var reverse = function (x) {
     let min = Math.pow(-2, 31)
     let max = Math.pow(2, 31) - 1
@@ -37,4 +37,4 @@ console.log(reverse(1320))
  *  3. 反转就是简单的反转，使用reverse也可以，最后将负号加上即可，得出结果返回
  *  4. 判断最大值和最小值超出返回0即可
  */
-```
+// ```

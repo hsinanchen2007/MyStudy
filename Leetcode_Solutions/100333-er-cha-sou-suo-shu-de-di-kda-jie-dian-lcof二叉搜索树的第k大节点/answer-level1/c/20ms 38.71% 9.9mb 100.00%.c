@@ -1,10 +1,10 @@
-### 解题思路
-二叉搜索树先右后左中序遍历可得到递减序列
-注意要用全局变量保存
+// ### 解题思路
+// 二叉搜索树先右后左中序遍历可得到递减序列
+// 注意要用全局变量保存
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -35,4 +35,4 @@ int kthLargest(struct TreeNode* root, int k){
     inOrder(root,k);
     return res;
 }
-```
+// ```

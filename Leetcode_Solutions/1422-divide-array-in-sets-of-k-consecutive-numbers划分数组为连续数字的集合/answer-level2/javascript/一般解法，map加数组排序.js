@@ -1,4 +1,4 @@
-```
+// ```
 
 /**
  * @param {number[]} nums
@@ -32,4 +32,4 @@ var isPossibleDivide = function(nums, k) {
     }
     return true
 };
-```
+// ```

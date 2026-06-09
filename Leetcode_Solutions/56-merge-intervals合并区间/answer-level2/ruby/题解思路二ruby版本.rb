@@ -1,12 +1,12 @@
-### 解题思路
-同题解思路二
+# ### 解题思路
+# 同题解思路二
 
-执行用时 :48 ms, 在所有 Ruby 提交中击败了100.00%的用户
-内存消耗 :9.8 MB, 在所有 Ruby 提交中击败了100.00%的用户
+# 执行用时 :48 ms, 在所有 Ruby 提交中击败了100.00%的用户
+# 内存消耗 :9.8 MB, 在所有 Ruby 提交中击败了100.00%的用户
 
-### 代码
+# ### 代码
 
-```ruby
+# ```ruby
 def merge(intervals)
     return intervals if intervals.empty?
 	n = intervals.sort_by{|a| a[0] } # O(logn)
@@ -26,4 +26,4 @@ def merge(intervals)
 	end
 	a
 end
-```
+# ```

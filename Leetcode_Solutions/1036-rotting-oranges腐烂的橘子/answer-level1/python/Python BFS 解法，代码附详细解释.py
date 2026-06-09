@@ -1,7 +1,7 @@
-可以把输入网格想象成如下的样子：
-![image.png](https://pic.leetcode-cn.com/dc2548401e0d5db7fd3933378d6ba0d262acda3f1cb3d68fa9f4a41781b8d6bc-image.png)
+# 可以把输入网格想象成如下的样子：
+# ![image.png](https://pic.leetcode-cn.com/dc2548401e0d5db7fd3933378d6ba0d262acda3f1cb3d68fa9f4a41781b8d6bc-image.png)
 
-```
+# ```
 class Solution:
     def orangesRotting(self, grid: List[List[int]]) -> int:
         # 网格的长，宽
@@ -43,4 +43,4 @@ class Solution:
         
         # 经过传染，审查，隔离的循环后，如果还有好橘子幸存，返回-1宣布胜利，否则返回橘子们的存活时间
         return -1 if ['survive' for y in range(m) for x in range(n) if grid[y][x]==1] else minute
-```
+# ```

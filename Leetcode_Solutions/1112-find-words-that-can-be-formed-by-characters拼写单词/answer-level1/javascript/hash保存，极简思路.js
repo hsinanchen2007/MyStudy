@@ -1,10 +1,10 @@
-### 解题思路
-遍历chars，将每个字符和它出现的次数分别作为key-value保存
-遍历words，对每个单词进行遍历，使用已经生成的hash来检测某个字符出现的次数
+// ### 解题思路
+// 遍历chars，将每个字符和它出现的次数分别作为key-value保存
+// 遍历words，对每个单词进行遍历，使用已经生成的hash来检测某个字符出现的次数
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var countCharacters = function(words, chars) {
     let needs = new Map(), res = 0;
 
@@ -31,4 +31,4 @@ function help(s, hash) {
     }
     return true;
 }
-```
+// ```

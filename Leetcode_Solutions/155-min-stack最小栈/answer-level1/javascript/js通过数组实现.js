@@ -1,5 +1,5 @@
-![TIM截图20190815093511.png](https://pic.leetcode-cn.com/529fedf41814b69f7fdacf5eb3a0968d7f9b377709b698c67c0a6e43685e67af-TIM%E6%88%AA%E5%9B%BE20190815093511.png)
-```
+// ![TIM截图20190815093511.png](https://pic.leetcode-cn.com/529fedf41814b69f7fdacf5eb3a0968d7f9b377709b698c67c0a6e43685e67af-TIM%E6%88%AA%E5%9B%BE20190815093511.png)
+// ```
 思路：
 
 用额外变量保存最小值，和使用辅助栈保存最小值的思路类似
@@ -57,4 +57,4 @@ MinStack.prototype.getMin = function () {
  * var param_3 = obj.top()
  * var param_4 = obj.getMin()
  */
-```
+// ```

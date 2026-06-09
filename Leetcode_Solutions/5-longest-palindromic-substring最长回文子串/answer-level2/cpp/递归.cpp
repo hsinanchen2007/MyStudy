@@ -1,9 +1,9 @@
-### 解题思路
-遍历字符串的每一个char作为起点进行递归。
+// ### 解题思路
+// 遍历字符串的每一个char作为起点进行递归。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxsublength = 1, start = 0;  // 记录最长回文串的起始点和最长的长度
@@ -31,4 +31,4 @@ public:
         return depth(s-1, e+1);  
     }
 };
-```
+// ```

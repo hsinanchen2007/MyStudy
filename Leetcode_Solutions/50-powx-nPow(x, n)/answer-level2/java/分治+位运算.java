@@ -1,9 +1,9 @@
-迭代 - 内存炸了
-暴力 - 超时
-# 分治
-注意Integer.MIN_VALUE：Java中的Integer.MIN_VALUE = -Integer.MIN_VALUE
-### 递归
-```
+// 迭代 - 内存炸了
+// 暴力 - 超时
+// # 分治
+// 注意Integer.MIN_VALUE：Java中的Integer.MIN_VALUE = -Integer.MIN_VALUE
+// ### 递归
+// ```
 class Solution {
     public double myPow(double x, int n) {
         return n > 0 ? myPowHelper(x, n) : myPowHelper(1 / x, -(long)n);
@@ -15,11 +15,11 @@ class Solution {
         return n % 2 == 0 ? result * result : result * result * x;
     }
 }
-```
-时间复杂度: O(logn)
-空间复杂度: O(h)
-### 位运算
-```
+// ```
+// 时间复杂度: O(logn)
+// 空间复杂度: O(h)
+// ### 位运算
+// ```
 class Solution {
 
     public double myPow(double x, int n) {
@@ -35,8 +35,8 @@ class Solution {
         return result;
     }
 }
-```
-时间复杂度: O(logn)
-空间复杂度: O(1)
+// ```
+// 时间复杂度: O(logn)
+// 空间复杂度: O(1)
 
 

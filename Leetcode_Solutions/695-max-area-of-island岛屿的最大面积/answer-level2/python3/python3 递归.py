@@ -1,10 +1,10 @@
-### 解题思路
-找到陆地（值为1）,并由此找到并计算整个岛屿的面积(深度有限，递归)，在计算的过程中，将计算过的部分置为0，避免重复计算
-储存所有陆地，获得最大值
+# ### 解题思路
+# 找到陆地（值为1）,并由此找到并计算整个岛屿的面积(深度有限，递归)，在计算的过程中，将计算过的部分置为0，避免重复计算
+# 储存所有陆地，获得最大值
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxAreaOfIsland(self, grid: List[List[int]]) -> int:
         length = len(grid)
@@ -33,4 +33,4 @@ class Solution:
         if len(max_area)==0:
             return 0
         return max(max_area)
-```
+# ```

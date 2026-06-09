@@ -1,9 +1,9 @@
-### 解题思路
-java，0往前放，2往后放
+// ### 解题思路
+// java，0往前放，2往后放
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void sortColors(int[] nums) {
 		int q = nums.length-1;		//指向已经调整好的数2
@@ -51,4 +51,4 @@ class Solution {
 		}
     }
 }
-```
+// ```

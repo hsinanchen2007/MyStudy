@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int maximum69Number (int num)
 {
     int temp = num;
@@ -17,4 +17,4 @@ int maximum69Number (int num)
     }
     return index == -1 ? num : num + 3 * pow(10, index); 
 }
-```
+// ```

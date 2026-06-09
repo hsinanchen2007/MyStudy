@@ -1,18 +1,18 @@
-## 思路:
+# ## 思路:
 
-与[上一题层次遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/solution/di-gui-he-die-dai-by-powcai-2)一样,只不过输出的顺序取反了!
+# 与[上一题层次遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/solution/di-gui-he-die-dai-by-powcai-2)一样,只不过输出的顺序取反了!
 
-所以只需要从头添加数组就可以了!
+# 所以只需要从头添加数组就可以了!
 
-思路一: 迭代
+# 思路一: 迭代
 
-思路二: 递归
+# 思路二: 递归
 
-## 代码:
+# ## 代码:
 
-思路一:
+# 思路一:
 
-```python [1]
+# ```python [1]
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -39,10 +39,10 @@ class Solution:
                     queue.appendleft(node.right)
             res.insert(0, tmp)
         return res
-```
+# ```
 
 
-```java [1]
+# ```java [1]
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -72,11 +72,11 @@ class Solution {
         return res;  
     }
 }
-```
+# ```
 
-思路二:
+# 思路二:
 
-```python [2]
+# ```python [2]
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -96,11 +96,11 @@ class Solution:
             helper(root.right, depth+1)
         helper(root, 0)
         return res
-```
+# ```
 
 
 
-```java [2]
+# ```java [2]
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -125,5 +125,5 @@ class Solution {
         helper(res, root.right, depth + 1);
     }
 }
-```
+# ```
 

@@ -1,5 +1,5 @@
-算法：增加一个辅助元素。
-```python []
+# 算法：增加一个辅助元素。
+# ```python []
 class Solution:
     def summaryRanges(self, nums: List[int]) -> List[str]:
         if not nums:
@@ -16,5 +16,5 @@ class Solution:
             else:
                 cur = nums[i]
         return res
-```
+# ```
 

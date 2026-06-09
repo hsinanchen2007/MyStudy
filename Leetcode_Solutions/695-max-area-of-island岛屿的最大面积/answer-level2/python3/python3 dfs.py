@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxAreaOfIsland(self, grid: List[List[int]]) -> int:
         
@@ -29,4 +29,4 @@ class Solution:
             for j in range(n):
                 self.maxn = max(dfs(i,j),self.maxn)
         return self.maxn
-```
+# ```

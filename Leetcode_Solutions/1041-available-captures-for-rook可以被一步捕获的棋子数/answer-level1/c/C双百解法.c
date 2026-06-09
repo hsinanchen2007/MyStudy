@@ -1,4 +1,4 @@
-```
+// ```
 
 #define UP 0
 #define RIGHT 1
@@ -41,4 +41,4 @@ int find (char** board, int boardSize, int dir, int x, int y) {
     }
     return 0;
 }
-```
+// ```

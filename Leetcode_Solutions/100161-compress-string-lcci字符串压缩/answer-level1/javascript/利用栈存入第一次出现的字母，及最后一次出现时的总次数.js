@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} S
  * @return {string}
@@ -30,5 +30,5 @@ var compressString = function(S) {
     }
     return str.length>=S.length?S:str  //选择短的输出
 };
-```
-![image.png](https://pic.leetcode-cn.com/e2e29b490a28fff16046da709b97a4c20ea10317b57ba1a8134b51113fb6fe04-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/e2e29b490a28fff16046da709b97a4c20ea10317b57ba1a8134b51113fb6fe04-image.png)

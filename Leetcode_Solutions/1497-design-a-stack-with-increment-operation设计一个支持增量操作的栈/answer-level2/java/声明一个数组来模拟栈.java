@@ -1,13 +1,13 @@
-![2020032201.PNG](https://pic.leetcode-cn.com/83bdcbc2321bbdfefe6c8414050dd7a4ccdb89fe00d9cd7178ff5b98fcfc6b21-2020032201.PNG)
+// ![2020032201.PNG](https://pic.leetcode-cn.com/83bdcbc2321bbdfefe6c8414050dd7a4ccdb89fe00d9cd7178ff5b98fcfc6b21-2020032201.PNG)
 
-### 解题思路
-1. 声明一个数组来模拟栈的压入栈和弹出栈的操作;
+// ### 解题思路
+// 1. 声明一个数组来模拟栈的压入栈和弹出栈的操作;
 
-2. 当给栈底元素实现增量操作时, 从左边遍历数组, 并给数组的元素增加一定量的值
+// 2. 当给栈底元素实现增量操作时, 从左边遍历数组, 并给数组的元素增加一定量的值
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class CustomStack {
     private int[] stack;
     private int maxSize;
@@ -54,4 +54,4 @@ class CustomStack {
  * int param_2 = obj.pop();
  * obj.increment(k,val);
  */
-```
+// ```

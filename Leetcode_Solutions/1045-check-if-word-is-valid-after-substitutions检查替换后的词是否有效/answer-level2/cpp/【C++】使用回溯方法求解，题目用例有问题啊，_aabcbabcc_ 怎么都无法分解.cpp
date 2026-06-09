@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/2b436edd85c42ee8ff53217e6c6d22c86144fbe1a6fec53db252b8cf6c8024ef-image.png)
+// ![image.png](https://pic.leetcode-cn.com/2b436edd85c42ee8ff53217e6c6d22c86144fbe1a6fec53db252b8cf6c8024ef-image.png)
 
-1.构造字典，所有可能的拆分
-2.使用DFS回溯，终止条件为拼接的字符串长度大于等于s的长度
-```
+// 1.构造字典，所有可能的拆分
+// 2.使用DFS回溯，终止条件为拼接的字符串长度大于等于s的长度
+// ```
 /*
 * Copyright (c) Nicolas-Tony Technologies Co., Ltd. 2019-2019. All rights reserved.
 * Description: 1003. 检查替换后的词是否有效
@@ -50,4 +50,4 @@ private:
 private:
     map<string, string> words = {{"abc", ""}, {"a", "bc"}, {"ab", "c"}, {"", "abc"}, /*{"bc", "a"}, {"c", "ab"}*/};
 };
-```
+// ```

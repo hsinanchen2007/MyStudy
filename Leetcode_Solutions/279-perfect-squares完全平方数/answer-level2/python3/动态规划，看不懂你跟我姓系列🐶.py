@@ -1,7 +1,7 @@
-思路：
-step-1:先构造不大于n的完全平方数list
-step2:dp更新，如果这个数本身就是完全平方数那么等于1，不然dp[i] = 1+min([dp[i-k] for k in totallist if i-k>0])
-```python
+# 思路：
+# step-1:先构造不大于n的完全平方数list
+# step2:dp更新，如果这个数本身就是完全平方数那么等于1，不然dp[i] = 1+min([dp[i-k] for k in totallist if i-k>0])
+# ```python
 import numpy as np
 class Solution:
     def numSquares(self, n: int) -> int:
@@ -15,4 +15,4 @@ class Solution:
             else:
                 dp[i] = 1+min([dp[i-k] for k in totallist if i-k>0])
         return(dp[-1])
-```
+# ```

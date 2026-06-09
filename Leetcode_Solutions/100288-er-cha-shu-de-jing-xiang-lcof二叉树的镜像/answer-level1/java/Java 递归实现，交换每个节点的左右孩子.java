@@ -1,6 +1,6 @@
-递归实现，交换每个节点的左右孩子
+// 递归实现，交换每个节点的左右孩子
 
-```
+// ```
 class Solution {
     public TreeNode mirrorTree(TreeNode root) {
         if(root == null) return root;
@@ -24,4 +24,4 @@ class Solution {
         return root;
     }
 }
-```
+// ```

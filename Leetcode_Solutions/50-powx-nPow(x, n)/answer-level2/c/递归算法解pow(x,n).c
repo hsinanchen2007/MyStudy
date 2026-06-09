@@ -1,9 +1,9 @@
-### 解题思路
-见代码注释
+// ### 解题思路
+// 见代码注释
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 double myPow(double x, int n){
     /*使用复杂度为O(logN)的递归算法pow(x,n)=pow(pow(x,n/2),2)*/
     if(n==0)
@@ -31,4 +31,4 @@ double myPow(double x, int n){
 
     return xn * xn * x;
 }
-```
+// ```

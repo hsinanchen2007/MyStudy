@@ -1,5 +1,5 @@
-什么叫真正的笨方法
-```
+// 什么叫真正的笨方法
+// ```
 class Solution {
     func sortArrayByParityII(_ A: [Int]) -> [Int] {
         var arr = A.sorted{ (a, b) -> Bool in
@@ -15,9 +15,9 @@ class Solution {
         return result
     }
 }
-```
-聪明的方法，参考pingcoool的题解。
-```
+// ```
+// 聪明的方法，参考pingcoool的题解。
+// ```
 class Solution {
     func sortArrayByParityII(_ A: [Int]) -> [Int] {
         var arr = A
@@ -39,5 +39,5 @@ class Solution {
     }
 }
 }
-```
+// ```
 

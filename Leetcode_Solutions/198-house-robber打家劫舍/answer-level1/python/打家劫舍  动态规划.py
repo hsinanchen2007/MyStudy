@@ -1,9 +1,9 @@
-### 解题思路
-dp[i] = max(dp[i-2] + nums[i],dp[i-1] - nums[i-1] + nums[i])
+# ### 解题思路
+# dp[i] = max(dp[i-2] + nums[i],dp[i-1] - nums[i-1] + nums[i])
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def rob(self, nums):
         if not nums:
@@ -17,4 +17,4 @@ class Solution(object):
             for i in range(2,len(nums)):
                 dp[i] = max(dp[i-2] + nums[i],dp[i-1] - nums[i-1] + nums[i])
             return max(dp)
-```
+# ```

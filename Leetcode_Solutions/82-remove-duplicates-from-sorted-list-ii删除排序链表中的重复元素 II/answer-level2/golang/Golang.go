@@ -1,10 +1,10 @@
 
-外循环从开始走到结尾，遇到当前与下一个相同，开始内循环直到不同。
-默认个数为1（本身），遇同++，内循环停止时判断与1的关系。
-同代表只有一个，插入。
-不同则继续移动。！！注意point指针也要移动。
+// 外循环从开始走到结尾，遇到当前与下一个相同，开始内循环直到不同。
+// 默认个数为1（本身），遇同++，内循环停止时判断与1的关系。
+// 同代表只有一个，插入。
+// 不同则继续移动。！！注意point指针也要移动。
 
-```
+// ```
 func deleteDuplicates(head *ListNode) *ListNode {
 	if head == nil{
         return nil
@@ -32,4 +32,4 @@ func deleteDuplicates(head *ListNode) *ListNode {
 	}
 	return pre.Next
 }
-```
+// ```

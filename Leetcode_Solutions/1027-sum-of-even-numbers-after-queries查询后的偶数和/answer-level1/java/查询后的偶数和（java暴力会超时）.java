@@ -1,8 +1,8 @@
-先用的暴力，提交后倒数第二个没过，超时了。
-查询前可以先计算出A中偶数和sum，由于每次查询只更改A中一个数，所以可以根据当前要更改的数为奇偶，调整sum。
+// 先用的暴力，提交后倒数第二个没过，超时了。
+// 查询前可以先计算出A中偶数和sum，由于每次查询只更改A中一个数，所以可以根据当前要更改的数为奇偶，调整sum。
 
 
-```
+// ```
 class Solution {
     public int[] sumEvenAfterQueries(int[] A, int[][] queries) {
         int len=queries.length;
@@ -25,4 +25,4 @@ class Solution {
         return answer;
     }
 }
-```
+// ```

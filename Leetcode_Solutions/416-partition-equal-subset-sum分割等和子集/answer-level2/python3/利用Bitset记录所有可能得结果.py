@@ -1,6 +1,6 @@
-Python中没有Bitset数据结构，但是不妨碍使用
-非背包方法
-```
+# Python中没有Bitset数据结构，但是不妨碍使用
+# 非背包方法
+# ```
 class Solution:
     def canPartition(self, nums):
 
@@ -21,7 +21,7 @@ class Solution:
             return True
         else:
             return False
-```
+# ```
 
 
-[https://blog.csdn.net/qq_29921623/article/details/100581100]()
+# [https://blog.csdn.net/qq_29921623/article/details/100581100]()

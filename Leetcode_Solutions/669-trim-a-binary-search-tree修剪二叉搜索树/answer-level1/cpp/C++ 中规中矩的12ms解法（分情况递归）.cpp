@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     TreeNode* trimBST(TreeNode* root, int L, int R) {
@@ -11,4 +11,4 @@ public:
         return root;
     }
 };
-```
+// ```

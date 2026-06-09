@@ -1,5 +1,5 @@
-具体详解请看官方思路。
-```c
+// 具体详解请看官方思路。
+// ```c
 int majorityElement(int* nums, int numsSize){
     int candidate;
     int count = 0;
@@ -11,4 +11,4 @@ int majorityElement(int* nums, int numsSize){
     }
     return candidate;
 }
-```
+// ```

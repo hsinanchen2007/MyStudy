@@ -1,9 +1,9 @@
-### 解题思路
-纯C
+// ### 解题思路
+// 纯C
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * multiply(char * num1, char * num2){
     int len1 = strlen(num1);
     int len2 = strlen(num2);
@@ -50,4 +50,4 @@ char * multiply(char * num1, char * num2){
         return pcRes + pre;
     }
 }
-```
+// ```

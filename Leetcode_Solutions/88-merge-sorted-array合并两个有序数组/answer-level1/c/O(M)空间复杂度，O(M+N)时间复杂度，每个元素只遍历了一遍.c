@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n){
     int *num1_copy = (int *)malloc(sizeof(int) * m);
     for(int i = 0; i < m; i++){
@@ -35,4 +35,4 @@ void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n){
         }
     }
 }
-```
+// ```

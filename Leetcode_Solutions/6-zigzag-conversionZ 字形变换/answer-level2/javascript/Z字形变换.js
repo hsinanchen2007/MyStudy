@@ -1,9 +1,9 @@
-### 解题思路
-创建numRows个数组，向其中填值
+// ### 解题思路
+// 创建numRows个数组，向其中填值
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @param {number} numRows
@@ -37,4 +37,4 @@ const convert = (s, numRows)=> {
 
   return res;
 };
-```
+// ```

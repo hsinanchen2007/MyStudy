@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
  public:
 
@@ -44,4 +44,4 @@ class Solution {
     return simpleA[left] == simpleB[right] && simpleA[right] == simpleB[left];
   }
 };
-```
+// ```

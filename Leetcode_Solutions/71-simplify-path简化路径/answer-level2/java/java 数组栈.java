@@ -1,5 +1,5 @@
-破玩意, 调了我半天
-```java
+// 破玩意, 调了我半天
+// ```java
     public String simplifyPath(String path) {
         path += '/';
         char[] chs = path.toCharArray();
@@ -26,4 +26,4 @@
         if (top > 0 && chs[top] == '/') top--;
         return new String(chs, 0, top + 1);
     }
-```
+// ```

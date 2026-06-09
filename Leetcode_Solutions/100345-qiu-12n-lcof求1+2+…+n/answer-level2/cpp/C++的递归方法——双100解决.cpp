@@ -1,5 +1,5 @@
-#### 既然不能if，while等关键字，采用逻辑与的短路特性实现递归终止
-```
+// #### 既然不能if，while等关键字，采用逻辑与的短路特性实现递归终止
+// ```
 class Solution {
 public:
     int sumNums(int n) {
@@ -8,4 +8,4 @@ public:
         return ans;
     }
 };
-```
+// ```

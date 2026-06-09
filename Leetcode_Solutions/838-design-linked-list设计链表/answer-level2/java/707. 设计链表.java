@@ -1,14 +1,14 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/10/9
- *
- * 解题思路: 注意index 为负数的情况 直接插入到头部 其余的细心一点就行
- *
- */
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/10/9
+//  *
+//  * 解题思路: 注意index 为负数的情况 直接插入到头部 其余的细心一点就行
+//  *
+//  */
 
-```
+// ```
 class MyLinkedList {
 
     class list{
@@ -90,4 +90,4 @@ class MyLinkedList {
         }
     }
 }
-```
+// ```

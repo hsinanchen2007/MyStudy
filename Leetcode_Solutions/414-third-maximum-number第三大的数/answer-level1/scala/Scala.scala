@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```scala
+// ```scala
 object Solution {
     def thirdMax(nums: Array[Int]): Int = {
         import scala.collection.mutable
@@ -20,4 +20,4 @@ object Solution {
     }    
     }
 }
-```
+// ```

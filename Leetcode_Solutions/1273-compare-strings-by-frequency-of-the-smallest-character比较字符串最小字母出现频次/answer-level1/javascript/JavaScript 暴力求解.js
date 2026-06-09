@@ -1,13 +1,13 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/755043117adc0a874371f0394ddfb59003fcfddcb002f81c2c8e57010b2c8e9e-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/755043117adc0a874371f0394ddfb59003fcfddcb002f81c2c8e57010b2c8e9e-image.png)
 
-- find() 查找最小的索引数
-- 通过遍历，然后通过 Array.filter进行遍历，将得到的 count 加到 arr中，return arr
+// - find() 查找最小的索引数
+// - 通过遍历，然后通过 Array.filter进行遍历，将得到的 count 加到 arr中，return arr
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} queries
  * @param {string[]} words
@@ -37,4 +37,4 @@ function find(x){
     }
     return num
 }
-```
+// ```

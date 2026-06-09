@@ -1,10 +1,10 @@
-### 解题思路
-1. 设置二维数组表示四个方向
-2. 设置访问状态visited，避免探测的时候往回探测
+// ### 解题思路
+// 1. 设置二维数组表示四个方向
+// 2. 设置访问状态visited，避免探测的时候往回探测
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean exist(char[][] board, String word) {
         if (board.length == 0)
@@ -45,4 +45,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

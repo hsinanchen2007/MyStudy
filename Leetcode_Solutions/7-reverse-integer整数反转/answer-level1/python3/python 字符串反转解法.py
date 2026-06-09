@@ -1,9 +1,9 @@
-### 解题思路
-用python中str()之后反转很方便
+# ### 解题思路
+# 用python中str()之后反转很方便
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverse(self, x: int) -> int:
         if x<0:
@@ -15,4 +15,4 @@ class Solution:
         else:
             return rev
 
-```
+# ```

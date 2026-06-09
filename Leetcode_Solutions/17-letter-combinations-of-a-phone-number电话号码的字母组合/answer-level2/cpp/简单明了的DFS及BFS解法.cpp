@@ -1,5 +1,5 @@
-简单DFS如下
-```
+// 简单DFS如下
+// ```
     void DFS(string digits,string curr,int layer){
         if(layer == digits.size())
             res.push_back(curr);
@@ -7,9 +7,9 @@
             for(int i=0;i<mp[digits[layer]].size();i++)
                 DFS(digits,curr + mp[digits[layer]][i],layer+1); 
     }
-```
-BFS稍微复杂点，但是容易理解
-```
+// ```
+// BFS稍微复杂点，但是容易理解
+// ```
     void BFS(string digits){
         queue<string> q;
         for(int i=0;i<mp[digits[0]].size();i++){
@@ -37,9 +37,9 @@ BFS稍微复杂点，但是容易理解
             q.pop();
         }
     }
-```
-完整代码见下
-```
+// ```
+// 完整代码见下
+// ```
 class Solution {
 public:
     unordered_map<char, string> mp = unordered_map<char, string>{
@@ -58,5 +58,5 @@ public:
         return res;
     }
 };
-```
+// ```
 

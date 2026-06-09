@@ -1,13 +1,13 @@
-![image.png](https://pic.leetcode-cn.com/d67a73c5cb09880f323749d153f287ae19317fbb52d4b07f458dc2167c73f0a1-image.png)
+// ![image.png](https://pic.leetcode-cn.com/d67a73c5cb09880f323749d153f287ae19317fbb52d4b07f458dc2167c73f0a1-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
 自定义排序
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} votes
  * @return {string}
@@ -55,4 +55,4 @@ var rankTeams = function(votes) {
   
   return ans.join('');
 };
-```
+// ```

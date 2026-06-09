@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/bd67aeb086b0e9e191912d60cc751ef723c18770a38a475a990999269701e36d-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/bd67aeb086b0e9e191912d60cc751ef723c18770a38a475a990999269701e36d-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     // 以某个士兵为中心，统计左边+右边；
@@ -38,4 +38,4 @@ public:
         return ans;
     }
 };
-```
+// ```

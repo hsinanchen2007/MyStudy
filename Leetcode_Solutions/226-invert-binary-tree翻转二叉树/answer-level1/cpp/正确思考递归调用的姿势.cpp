@@ -1,6 +1,6 @@
-![leetcode.PNG](https://pic.leetcode-cn.com/91b6429f23c2d11d378d76b724b4edeba80ded835435702bb3dd0647a08ea818-leetcode.PNG)
+// ![leetcode.PNG](https://pic.leetcode-cn.com/91b6429f23c2d11d378d76b724b4edeba80ded835435702bb3dd0647a08ea818-leetcode.PNG)
 
-```
+// ```
 书写递归函数的核心：
     一、递归的应用场景：子问题需与原问题为同样或类似的事，且规模更小（往往体现在函数参数的变化）
 
@@ -16,10 +16,10 @@
         2、如何处理不满足递归条件的情况
         3、递归函数参数如何变化
         4、递归返回值的处理
-```
-### 代码
+// ```
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -42,4 +42,4 @@ public:
         return root;
     }
 };
-```
+// ```

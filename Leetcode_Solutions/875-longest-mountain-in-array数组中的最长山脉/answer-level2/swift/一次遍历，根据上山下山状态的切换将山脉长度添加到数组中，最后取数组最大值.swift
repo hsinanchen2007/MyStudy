@@ -1,4 +1,4 @@
-```
+// ```
 func longestMountain(_ A: [Int]) -> Int {
         var right = 0
         var length = 0
@@ -44,6 +44,6 @@ func longestMountain(_ A: [Int]) -> Int {
         }
         return max > 0 ? max + 1 : 0
     }
-```
+// ```
 
 

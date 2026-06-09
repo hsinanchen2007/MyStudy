@@ -1,6 +1,6 @@
-91%+100%
-### 代码
-```python
+# 91%+100%
+# ### 代码
+# ```python
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
         if not intervals: return []
@@ -13,4 +13,4 @@ class Solution:
             else:
                 res[-1][1] = max(i[1],res[-1][1])
         return res
-```
+# ```

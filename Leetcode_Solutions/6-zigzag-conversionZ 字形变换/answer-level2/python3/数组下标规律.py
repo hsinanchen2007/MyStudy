@@ -1,5 +1,5 @@
-在字符串错位拼接上遇到了麻烦，只能用笨方法for循环拼接
-```
+# 在字符串错位拼接上遇到了麻烦，只能用笨方法for循环拼接
+# ```
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
         if numRows < 1:
@@ -26,4 +26,4 @@ class Solution:
         result += s[numRows-1::m]
 
         return result
-```
+# ```

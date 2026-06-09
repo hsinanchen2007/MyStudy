@@ -1,9 +1,9 @@
-执行用时 : 13 ms, 在ZigZag Conversion的Java提交中击败了90.95% 的用户
-内存消耗 : 40.8 MB, 在ZigZag Conversion的Java提交中击败了80.52% 的用户
+// 执行用时 : 13 ms, 在ZigZag Conversion的Java提交中击败了90.95% 的用户
+// 内存消耗 : 40.8 MB, 在ZigZag Conversion的Java提交中击败了80.52% 的用户
 
-解得凑合，尽力了。头都大了
+// 解得凑合，尽力了。头都大了
 
-这个算法是先找出有多少个V字循环，然后从这些V的顶点开始竖着往下撸。不大好描述，看代码吧。
+// 这个算法是先找出有多少个V字循环，然后从这些V的顶点开始竖着往下撸。不大好描述，看代码吧。
 
 
 	public static String convert1(String s, int numRows) {

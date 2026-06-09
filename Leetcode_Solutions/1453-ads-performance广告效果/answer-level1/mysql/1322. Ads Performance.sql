@@ -1,9 +1,9 @@
-### 解题思路
-其实 ctr分为两种情况，就是说分母为0时直接取0，不为0时用公式计算。只需要使用条件句区分开就行
+-- ### 解题思路
+-- 其实 ctr分为两种情况，就是说分母为0时直接取0，不为0时用公式计算。只需要使用条件句区分开就行
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 
 select ad_id,
@@ -14,4 +14,4 @@ select ad_id,
 from Ads
 group by ad_id 
 order by ctr desc, ad_id asc;
-```
+-- ```

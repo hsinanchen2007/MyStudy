@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     double myPow(double x, int n) {
@@ -28,4 +28,4 @@ public:
 		return res;
     }
 };
-```
+// ```

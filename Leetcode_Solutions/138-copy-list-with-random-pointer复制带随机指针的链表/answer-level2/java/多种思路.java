@@ -1,21 +1,21 @@
-## 思路:
+// ## 思路:
 
-思路一: 可以套用与 [133. 克隆图](https://leetcode-cn.com/problems/clone-graph/)|[题解链接](https://leetcode-cn.com/problems/clone-graph/solution/dfs-he-bfs-by-powcai)一样方法两种遍历(`DFS`, `BFS`)
+// 思路一: 可以套用与 [133. 克隆图](https://leetcode-cn.com/problems/clone-graph/)|[题解链接](https://leetcode-cn.com/problems/clone-graph/solution/dfs-he-bfs-by-powcai)一样方法两种遍历(`DFS`, `BFS`)
 
-思路二: 因为是链表,所以直接先把所有节点找到, 再连线;
+// 思路二: 因为是链表,所以直接先把所有节点找到, 再连线;
 
-思路三:
+// 思路三:
 
-这个方法十分巧妙 , 用图说明吧
+// 这个方法十分巧妙 , 用图说明吧
 
-![1563690472002.png](https://pic.leetcode-cn.com/4bc12694524ee548153e207fd069607af8299530bb2a2f3690c68f7b86d91e2b-1563690472002.png)
+// ![1563690472002.png](https://pic.leetcode-cn.com/4bc12694524ee548153e207fd069607af8299530bb2a2f3690c68f7b86d91e2b-1563690472002.png)
 
 
-## 代码:
+// ## 代码:
 
-思路一: `DFS` 和 `BFS`
+// 思路一: `DFS` 和 `BFS`
 
-```python []
+// ```python []
 class Solution:
     def copyRandomList(self, head: 'Node') -> 'Node':
         lookup = {}
@@ -27,11 +27,11 @@ class Solution:
             clone.next, clone.random = dfs(head.next), dfs(head.random)
             return clone
         return dfs(head)
-```
+// ```
 
 
 
-```python []
+// ```python []
 class Solution:
     def copyRandomList(self, head: 'Node') -> 'Node':
         from collections import deque
@@ -55,11 +55,11 @@ class Solution:
                 lookup[tmp].random = lookup.get(tmp.random)
             return clone
         return bfs(head)
-```
+// ```
 
-思路二:
+// 思路二:
 
-```python []
+// ```python []
 class Solution:
     def copyRandomList(self, head: 'Node') -> 'Node':
         if not head: return None
@@ -77,11 +77,11 @@ class Solution:
             lookup[node].random = lookup.get(node.random)
             node = node.next
         return lookup[head]
-```
+// ```
 
 
 
-```java []
+// ```java []
 class Solution {
     public Node copyRandomList(Node head) {
         if (head == null) return null;
@@ -100,11 +100,11 @@ class Solution {
         return lookup.get(head);
     }
 }
-```
+// ```
 
-思路三:
+// 思路三:
 
-```python []
+// ```python []
 class Solution:
     def copyRandomList(self, head: 'Node') -> 'Node':
         if not head: return None
@@ -139,11 +139,11 @@ class Solution:
         cur.next = copy_cur.next
         copy_cur.next = None
         return copy_head
-```
+// ```
 
 
 
-```java []
+// ```java []
 class Solution {
     public Node copyRandomList(Node head) {
         if (head == null) return null;
@@ -177,5 +177,5 @@ class Solution {
         return copy_head;
     }
 }
-```
+// ```
 

@@ -1,4 +1,4 @@
-```
+// ```
 /**
 
 [1,2, 3]
@@ -22,4 +22,4 @@ func trimBST(root *TreeNode, L int, R int) *TreeNode {
 	root.Right = trimBST(root.Right, L, R)
 	return root
 }
-```
+// ```

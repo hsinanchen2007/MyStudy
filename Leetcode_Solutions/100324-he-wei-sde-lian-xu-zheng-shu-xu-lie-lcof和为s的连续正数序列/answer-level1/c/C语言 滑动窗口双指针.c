@@ -1,11 +1,11 @@
-### 解题思路
-	滑动窗口的方法这边就不多说了，官方题解有写，这边提一下用C实现的几个坑：
-	1、returnSize空间不用申请，后面的returnColumnSizes的第二维列宽需要申请
-	2、返回的二维数组的列宽需要动态申请，也就是到用的时候申请滑动窗口大小的列宽，不然大数据时候内存会超出限制
-	3、滑动窗口左指针遍历的长度是target/2
-### 代码
+// ### 解题思路
+// 	滑动窗口的方法这边就不多说了，官方题解有写，这边提一下用C实现的几个坑：
+// 	1、returnSize空间不用申请，后面的returnColumnSizes的第二维列宽需要申请
+// 	2、返回的二维数组的列宽需要动态申请，也就是到用的时候申请滑动窗口大小的列宽，不然大数据时候内存会超出限制
+// 	3、滑动窗口左指针遍历的长度是target/2
+// ### 代码
 
-```c
+// ```c
 int** findContinuousSequence(int target, int* returnSize, int** returnColumnSizes) {
 	if (target == 0) {
 		*returnSize = 0;
@@ -41,4 +41,4 @@ int** findContinuousSequence(int target, int* returnSize, int** returnColumnSize
 	*returnSize = idx;
 	return rtnSeq;
 }
-```
+// ```

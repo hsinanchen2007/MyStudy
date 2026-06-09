@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```c
+// ```c
 int removeElement(int* nums, int numsSize, int val){
     int size = 0;
     int i = 0;
@@ -15,4 +15,4 @@ int removeElement(int* nums, int numsSize, int val){
 
     return size;
 }
-```
+// ```

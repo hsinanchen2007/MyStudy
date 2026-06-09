@@ -1,6 +1,6 @@
-对于任意子树来讲，通过递归将左子树flatten（返回左子树flatten后尾节点或者说最右侧的节点），然后将右子树flatten（返回右子树flatten后尾节点或者说最右侧的节点），将flatten后的左子树尾节点指向flatten后的右子树，再将root的右节点指向flatten后的左子树。执行完以上步骤后，当前子树就被flatten了，最后返回子树flatten后的尾节点。
+// 对于任意子树来讲，通过递归将左子树flatten（返回左子树flatten后尾节点或者说最右侧的节点），然后将右子树flatten（返回右子树flatten后尾节点或者说最右侧的节点），将flatten后的左子树尾节点指向flatten后的右子树，再将root的右节点指向flatten后的左子树。执行完以上步骤后，当前子树就被flatten了，最后返回子树flatten后的尾节点。
 
-```
+// ```
 class Solution {
         public void flatten(TreeNode root) {
 
@@ -32,4 +32,4 @@ class Solution {
             return tailOfRight == null ? (tailOfLeft == null ? subRoot: tailOfLeft) : tailOfRight;
         }
     }
-```
+// ```

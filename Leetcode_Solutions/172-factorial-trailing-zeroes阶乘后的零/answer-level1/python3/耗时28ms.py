@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def trailingZeroes(self, n: int) -> int:
         num = 0
@@ -11,4 +11,4 @@ class Solution:
                 n = 0
         return(num)
         
-```
+# ```

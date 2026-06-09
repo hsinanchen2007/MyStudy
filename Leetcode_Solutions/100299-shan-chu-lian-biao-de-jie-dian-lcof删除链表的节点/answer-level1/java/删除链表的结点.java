@@ -1,9 +1,9 @@
-### 解题思路
-要考虑两种特殊的情况：如果刚好删除第一个元素；如果刚好删除最后一个元素。
+// ### 解题思路
+// 要考虑两种特殊的情况：如果刚好删除第一个元素；如果刚好删除最后一个元素。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -37,4 +37,4 @@ class Solution {
         return head;
     }
 }
-```
+// ```

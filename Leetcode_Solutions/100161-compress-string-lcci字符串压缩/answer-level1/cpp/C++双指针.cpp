@@ -1,9 +1,9 @@
-### C++双指针
-C++双指针
+// ### C++双指针
+// C++双指针
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string compressString(string S) {
@@ -28,4 +28,4 @@ public:
         return res.size() >= S.size() ? S : res;
     }
 };
-```
+// ```

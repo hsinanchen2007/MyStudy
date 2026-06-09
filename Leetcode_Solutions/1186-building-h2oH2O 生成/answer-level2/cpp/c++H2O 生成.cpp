@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class H2O {
 public:
     H2O():H(0),O(0) {
@@ -80,4 +80,4 @@ private:
     std::condition_variable cond3;
     std::condition_variable cond4;
 };
-```
+// ```

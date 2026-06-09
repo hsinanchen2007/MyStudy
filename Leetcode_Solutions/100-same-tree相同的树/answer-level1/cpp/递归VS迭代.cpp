@@ -1,8 +1,8 @@
-# ***递归VS迭代***
+// # ***递归VS迭代***
 
-**话不多说，直接上代码！**
-1. **递归**
-```
+// **话不多说，直接上代码！**
+// 1. **递归**
+// ```
 class Solution {
             public:
             bool isSameTree(TreeNode* p, TreeNode* q) {
@@ -11,14 +11,14 @@ class Solution {
                 return (p->val == q->val && isSameTree(p->left,q->left) && isSameTree(p->right,q->right));
             }
 };
-```
-**提交通过！**
+// ```
+// **提交通过！**
                          
-![QQ图片20191213012908.png](https://pic.leetcode-cn.com/c665e3ed8306f90eaff8f1b3c51fde15e97302ac74c983dc6259c3d6ed688c16-QQ%E5%9B%BE%E7%89%8720191213012908.png)
+// ![QQ图片20191213012908.png](https://pic.leetcode-cn.com/c665e3ed8306f90eaff8f1b3c51fde15e97302ac74c983dc6259c3d6ed688c16-QQ%E5%9B%BE%E7%89%8720191213012908.png)
 
-2.**迭代** 
-迭代需要借助辅助工具，这里用stack
-```
+// 2.**迭代** 
+// 迭代需要借助辅助工具，这里用stack
+// ```
 class Solution {
 public:
     bool isSameTree(TreeNode* p, TreeNode* q) {
@@ -46,7 +46,7 @@ public:
         return true;
     }
 };
-```
-**提交通过！**
-![QQ图片20191213012935.png](https://pic.leetcode-cn.com/c2dece1ad70583563fb6cb7b015ca9fdc253215ed7224e93f2cc2dba13d9b147-QQ%E5%9B%BE%E7%89%8720191213012935.png)
+// ```
+// **提交通过！**
+// ![QQ图片20191213012935.png](https://pic.leetcode-cn.com/c2dece1ad70583563fb6cb7b015ca9fdc253215ed7224e93f2cc2dba13d9b147-QQ%E5%9B%BE%E7%89%8720191213012935.png)
 

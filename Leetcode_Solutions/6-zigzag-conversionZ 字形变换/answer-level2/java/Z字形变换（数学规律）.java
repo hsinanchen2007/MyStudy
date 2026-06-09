@@ -1,17 +1,17 @@
-### 解题思路
-    把字符串的一竖列和一斜排看作一组，分行运算，所要返回的字符串为str，传入的字符串为s，则每一行下竖排间隔为numRows
-```
+// ### 解题思路
+//     把字符串的一竖列和一斜排看作一组，分行运算，所要返回的字符串为str，传入的字符串为s，则每一行下竖排间隔为numRows
+// ```
 竖排间隔:(numRows-2)*2+1+1  //这里的numRows-2为除了第一行和最后一行以外其他行
 斜排位置：int plus = (i==0||i==numRows-1)?0:((numRows-i-2)*2+1+1); //i为所在行号
 
-```
+// ```
 
 
-空间复杂度应该是O(n)吧？为什么占用内存这么大。。
+// 空间复杂度应该是O(n)吧？为什么占用内存这么大。。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String convert(String s, int numRows) {
         if(numRows==1){
@@ -35,4 +35,4 @@ class Solution {
         return str.toString();
     }
 }
-```
+// ```

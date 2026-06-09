@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class MyStack {
 
     public Queue<int> myQueue = new Queue<int>();
@@ -69,4 +69,4 @@ public class MyStack {
  * int param_3 = obj.Top();
  * bool param_4 = obj.Empty();
  */
-```
+// ```

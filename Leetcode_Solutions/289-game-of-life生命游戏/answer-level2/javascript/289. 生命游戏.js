@@ -1,9 +1,9 @@
-### 解题思路
-新增状态表示前后变化情况
+// ### 解题思路
+// 新增状态表示前后变化情况
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} board
  * @return {void} Do not return anything, modify board in-place instead.
@@ -54,4 +54,4 @@ var gameOfLife = function (board) {
 
     return board
 };
-```
+// ```

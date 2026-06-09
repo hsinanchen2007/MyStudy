@@ -1,9 +1,9 @@
-### 解题思路
-从前往后比较时移动元素会很麻烦
+// ### 解题思路
+// 从前往后比较时移动元素会很麻烦
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func merge(nums1 []int, m int, nums2 []int, n int)  {
 	var i, j = m -1, n - 1
 
@@ -17,4 +17,4 @@ func merge(nums1 []int, m int, nums2 []int, n int)  {
 		}
 	}
 }
-```
+// ```

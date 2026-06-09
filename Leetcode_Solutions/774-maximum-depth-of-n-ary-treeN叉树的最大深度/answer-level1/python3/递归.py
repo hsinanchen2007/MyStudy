@@ -1,9 +1,9 @@
-### 解题思路
-递归
+# ### 解题思路
+# 递归
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 """
 # Definition for a Node.
 class Node:
@@ -25,4 +25,4 @@ class Solution:
             #        max = self.maxDepth(x)
                 #res = max(res + self.maxDepth(x),res) ,错误写法，max后面第一个res也会累加
             return 1+max(m)
-```
+# ```

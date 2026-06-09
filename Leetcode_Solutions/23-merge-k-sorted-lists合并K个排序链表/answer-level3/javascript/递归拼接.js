@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var mergeKLists = function(lists) {
     if (!lists || !lists.length) return null;
     if (lists.length === 1) return lists[0];
@@ -53,4 +53,4 @@ var mergeKLists = function(lists) {
     check(lists);
     return head;
   };
-```
+// ```

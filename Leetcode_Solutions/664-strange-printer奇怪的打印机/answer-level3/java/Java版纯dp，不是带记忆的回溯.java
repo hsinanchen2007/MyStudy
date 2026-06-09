@@ -1,11 +1,11 @@
-dp[i][j]表示打印从i到j位置的子串，需要的最少的打印次数。
-状态转移方程是
-dp[i][j] = min{dp[i+1][nextIndex-1] +  dp[nextIndex][j], nextIndex是指与s[i]相同的下一个字符的index，遍历所有这样的位置}
-所以我们需要预先计算好一个next数组
+// dp[i][j]表示打印从i到j位置的子串，需要的最少的打印次数。
+// 状态转移方程是
+// dp[i][j] = min{dp[i+1][nextIndex-1] +  dp[nextIndex][j], nextIndex是指与s[i]相同的下一个字符的index，遍历所有这样的位置}
+// 所以我们需要预先计算好一个next数组
 
-实际编程中有一个小trick，就是我们可以先找到第一个与s[i]不同的字符，以它作为起点进行遍历操作
+// 实际编程中有一个小trick，就是我们可以先找到第一个与s[i]不同的字符，以它作为起点进行遍历操作
 
-```
+// ```
   public int strangePrinter(String s) {
     if (s == null || s.length() == 0) {
       return 0;
@@ -52,4 +52,4 @@ dp[i][j] = min{dp[i+1][nextIndex-1] +  dp[nextIndex][j], nextIndex是指与s[i]�
     }
     return dp[0][n-1];
   }
-```
+// ```

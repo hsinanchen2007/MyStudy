@@ -1,14 +1,14 @@
-### 解题思路
-python 双字典
+# ### 解题思路
+# python 双字典
 
-key到value+freq的映射
-self.key_dict = {}  # key:[value, freq]
+# key到value+freq的映射
+# self.key_dict = {}  # key:[value, freq]
 
-freq映射到所有相应freq的key的双向队列，新到旧排列，更新freq时从左侧插入，容量满需要删除时，从右侧pop
-self.freq_dict = defaultdict(deque) # freq: list[key] new -> old
-### 代码
+# freq映射到所有相应freq的key的双向队列，新到旧排列，更新freq时从左侧插入，容量满需要删除时，从右侧pop
+# self.freq_dict = defaultdict(deque) # freq: list[key] new -> old
+# ### 代码
 
-```python3
+# ```python3
 from collections import defaultdict,deque
 class LFUCache:
 
@@ -70,4 +70,4 @@ class LFUCache:
 # obj = LFUCache(capacity)
 # param_1 = obj.get(key)
 # obj.put(key,value)
-```
+# ```

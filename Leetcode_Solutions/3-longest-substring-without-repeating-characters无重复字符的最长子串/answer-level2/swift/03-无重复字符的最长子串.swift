@@ -1,9 +1,9 @@
-### 解题思路
-利用滑动窗口来进行搜索。
+// ### 解题思路
+// 利用滑动窗口来进行搜索。
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func lengthOfLongestSubstring(_ s: String) -> Int {
         // 将字符串转变为数组
@@ -32,4 +32,4 @@ class Solution {
         return maxQueue.count
     }
 }
-```
+// ```

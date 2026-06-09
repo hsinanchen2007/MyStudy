@@ -1,7 +1,7 @@
-先对两个数组排序后遍历
-排序的时间O(nlog(n))
-遍历的时间为O(n)
-```
+// 先对两个数组排序后遍历
+// 排序的时间O(nlog(n))
+// 遍历的时间为O(n)
+// ```
 class Solution {
     public int[] intersection(int[] nums1, int[] nums2) {
         if(nums1.length==0&&nums2.length==0){
@@ -30,4 +30,4 @@ class Solution {
         return ress;
     }
 }
-```
+// ```

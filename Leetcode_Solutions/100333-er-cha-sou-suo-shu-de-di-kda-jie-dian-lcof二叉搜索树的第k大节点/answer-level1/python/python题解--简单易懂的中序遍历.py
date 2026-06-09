@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/d6a8f3cbf7544020883dbf13185ea6783c7607ffebc1817f362f3f60da416073-image.png)
-- 因为要找第`k`大的节点,我们又知道二叉搜索树的特征,根节点的值大于左子树小于右子树
-- 由于需要找第`k`大,我们那就先遍历右子树,在遍历左子树,设置全局变量来统计第`k`个大的数即可
-### 代码
+# ### 解题思路
+# ![image.png](https://pic.leetcode-cn.com/d6a8f3cbf7544020883dbf13185ea6783c7607ffebc1817f362f3f60da416073-image.png)
+# - 因为要找第`k`大的节点,我们又知道二叉搜索树的特征,根节点的值大于左子树小于右子树
+# - 由于需要找第`k`大,我们那就先遍历右子树,在遍历左子树,设置全局变量来统计第`k`个大的数即可
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -34,4 +34,4 @@ class Solution(object):
         return result[0]
             
             
-```
+# ```

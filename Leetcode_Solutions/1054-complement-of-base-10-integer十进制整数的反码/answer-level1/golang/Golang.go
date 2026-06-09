@@ -1,4 +1,4 @@
-```
+// ```
 
 func bitwiseComplement(N int) int {
 	if N == 0 {
@@ -20,4 +20,4 @@ func bitwiseComplement(N int) int {
 	
 	return bin
 }
-```
+// ```

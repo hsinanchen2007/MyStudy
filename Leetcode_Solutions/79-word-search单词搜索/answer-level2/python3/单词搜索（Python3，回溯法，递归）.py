@@ -1,25 +1,25 @@
 
-![word_resarch.png](https://pic.leetcode-cn.com/9941cf3e7d7e8148bb26056d7df51adaa017183013e2524e4c5f5b32de5f2d67-word_resarch.png)
-**路径**：搜索的过程中有几种限制，i代表行，j代表列，二维网格m*n：
-1. i=0时，不可以向上走
-2. i=m-1时，不可以向下走
-3. j=0时，不可以向左走
-4. j=n-1时，不可以向右走
+# ![word_resarch.png](https://pic.leetcode-cn.com/9941cf3e7d7e8148bb26056d7df51adaa017183013e2524e4c5f5b32de5f2d67-word_resarch.png)
+# **路径**：搜索的过程中有几种限制，i代表行，j代表列，二维网格m*n：
+# 1. i=0时，不可以向上走
+# 2. i=m-1时，不可以向下走
+# 3. j=0时，不可以向左走
+# 4. j=n-1时，不可以向右走
 
-算法过程描述：
-step=0，step记录网格匹配word的个数
-迭代二维网格board，字母board[i][j]：
-    if board[i][j]==word[step] 则step+=1
-    调用backtrace函数
-        递归出口：当step==len(ch)
-            设置self.exit=1,self.flag=1
-            退出递归体
-        递归体：
-            反复执行**路径**，递归搜索单词
-            若满足其中一种路径条件，对step+=1,更新行列坐标
-若flag==1且无环出现，则返回搜索成功
-否则返回搜索失败
-```
+# 算法过程描述：
+# step=0，step记录网格匹配word的个数
+# 迭代二维网格board，字母board[i][j]：
+#     if board[i][j]==word[step] 则step+=1
+#     调用backtrace函数
+#         递归出口：当step==len(ch)
+#             设置self.exit=1,self.flag=1
+#             退出递归体
+#         递归体：
+#             反复执行**路径**，递归搜索单词
+#             若满足其中一种路径条件，对step+=1,更新行列坐标
+# 若flag==1且无环出现，则返回搜索成功
+# 否则返回搜索失败
+# ```
 class Solution:
     def __init__(self):
         #flag默认为0表示没有这个单词
@@ -95,4 +95,4 @@ class Solution:
                     continue
         return False
                 
-```
+# ```

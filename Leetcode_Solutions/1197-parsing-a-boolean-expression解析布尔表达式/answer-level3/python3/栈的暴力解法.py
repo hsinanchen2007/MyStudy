@@ -1,5 +1,5 @@
-详见代码注释
-```
+# 详见代码注释
+# ```
 class Solution(object):#stack暴力解法
     def parseBoolExpr(self, expression):
         stack = []  # 用来储存所有的东西
@@ -31,4 +31,4 @@ class Solution(object):#stack暴力解法
             else:
                 stack.append(expression[i])
         return stack[-1]
-```
+# ```

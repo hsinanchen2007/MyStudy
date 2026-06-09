@@ -1,6 +1,6 @@
-方法1：哈希表
+// 方法1：哈希表
 
-```
+// ```
 class Solution {
 public:
     bool isAnagram(string s, string t) {
@@ -24,11 +24,11 @@ public:
         return (s.length()==t.length());
     }
 };
-```
+// ```
 
-方法2：排序
+// 方法2：排序
 
-```
+// ```
 class Solution {
 public:
     bool isAnagram(string s, string t) {
@@ -39,13 +39,13 @@ public:
         return(s==t);
     }
 };
-```
+// ```
 
-方法3：容器版本的哈希表
+// 方法3：容器版本的哈希表
 
-这里不用数组的原因是因为数组直接不能通过“==”运算符直接比较大小。
+// 这里不用数组的原因是因为数组直接不能通过“==”运算符直接比较大小。
 
-```
+// ```
 class Solution {
 public:
     bool isAnagram(string s, string t) {
@@ -65,4 +65,4 @@ public:
         return (S==T);
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         if len(prices) == 0:
@@ -11,4 +11,4 @@ class Solution:
             else:
                 res = max(res, prices[i]-min_val)
         return res
-```
+# ```

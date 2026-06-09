@@ -1,18 +1,18 @@
-# 标题 组合倒推法
+// # 标题 组合倒推法
 
-*思想方法*
+// *思想方法*
 
-1、首先根据题目描述可知是一个排序组合根据倒推 ,从后面往前组合
+// 1、首先根据题目描述可知是一个排序组合根据倒推 ,从后面往前组合
 
-用list2存放上一次组合数据，list存放本次组合数据
+// 用list2存放上一次组合数据，list存放本次组合数据
 
 
-输入为23 2对应 “abc” 3对应“def”
-第一次 list={d,e,f} list2 = null
-第二次 list2 = {d,e,f} ，list为新组合的List<String>
-a和list2组合放入list
-b和list2组合放入list
-c和list2组合放入list
+// 输入为23 2对应 “abc” 3对应“def”
+// 第一次 list={d,e,f} list2 = null
+// 第二次 list2 = {d,e,f} ，list为新组合的List<String>
+// a和list2组合放入list
+// b和list2组合放入list
+// c和list2组合放入list
 
 list{
 a{d,e,f},

@@ -1,5 +1,5 @@
-后序遍历和二叉树的后序遍历一样，只不过使用了yield
-```py
+# 后序遍历和二叉树的后序遍历一样，只不过使用了yield
+# ```py
 def postorder(root):
 
     def postorder_tree_walk(root):
@@ -9,4 +9,4 @@ def postorder(root):
             yield root.val
         
     return [i for i in postorder_tree_walk(root)]
-```
+# ```

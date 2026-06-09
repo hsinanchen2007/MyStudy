@@ -1,4 +1,4 @@
-在所有java提交中击败100%的用户
+// 在所有java提交中击败100%的用户
 
 public String simplifyPath(String path) {
        	   if(path == null) {

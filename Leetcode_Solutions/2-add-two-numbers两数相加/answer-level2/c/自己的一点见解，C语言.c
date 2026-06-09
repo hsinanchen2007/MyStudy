@@ -1,15 +1,15 @@
-### 解题思路
-![捕获.PNG](https://pic.leetcode-cn.com/7d9776d8d381e8f76444211ecad2fa421976692b828f7b04b91caf80f1114086-%E6%8D%95%E8%8E%B7.PNG)
+// ### 解题思路
+// ![捕获.PNG](https://pic.leetcode-cn.com/7d9776d8d381e8f76444211ecad2fa421976692b828f7b04b91caf80f1114086-%E6%8D%95%E8%8E%B7.PNG)
 
-1.首先新建一个头节点，用来保存返回的链表。
-2.循环读取两个链表的数值，并将相加的和再加上进位值存入返回链表节点val中，当val>=10时,取个位数，并将进位标志置1.（最大进位就是1）
-3.循环结束，如果进位值为1，说明还有进位，需要新建一个节点。将其值存为1，并附在链表的末尾。
-over
+// 1.首先新建一个头节点，用来保存返回的链表。
+// 2.循环读取两个链表的数值，并将相加的和再加上进位值存入返回链表节点val中，当val>=10时,取个位数，并将进位标志置1.（最大进位就是1）
+// 3.循环结束，如果进位值为1，说明还有进位，需要新建一个节点。将其值存为1，并附在链表的末尾。
+// over
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -72,4 +72,4 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
     }
     return temp3->next;
 }
-```
+// ```

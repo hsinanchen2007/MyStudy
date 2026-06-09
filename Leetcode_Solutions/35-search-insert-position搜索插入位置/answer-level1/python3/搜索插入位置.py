@@ -1,10 +1,10 @@
-### 解题思路
-#此处撰写解题思路
-菜鸟
-题目中说 给定一个排序数组，所以考虑用二分法进行查找。
-### 代码
+# ### 解题思路
+# #此处撰写解题思路
+# 菜鸟
+# 题目中说 给定一个排序数组，所以考虑用二分法进行查找。
+# ### 代码
 
-```python3
+# ```python3
 import math
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
@@ -28,4 +28,4 @@ class Solution:
         #print('left = {}, right = {}, mid = {}'.format(left, right, middle))
         return right
             
-```
+# ```

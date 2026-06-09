@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxA(self, N: int) -> int:
         # 最后一次按键要么是 A 要么是 C-V
@@ -15,4 +15,4 @@ class Solution:
                 # 屏幕上共 dp[j - 2] * (i - j + 1) 个 A
                 dp[i] = max(dp[i], dp[j - 2] * (i - j + 1))
         return dp[N]
-```
+# ```

@@ -1,6 +1,6 @@
-## 思路
-### 代码
-```c++
+// ## 思路
+// ### 代码
+// ```c++
 class Solution {
 public:
     bool containsDuplicate(vector<int>& nums) {
@@ -15,4 +15,4 @@ public:
         return false;
     }
 };
-```
+// ```

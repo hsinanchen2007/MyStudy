@@ -1,8 +1,8 @@
-## 思路
-如果当前位置为 0， 则考虑前后是否为 0，在判断前后时添加边界限制条件。（充分利用短路原理）
+// ## 思路
+// 如果当前位置为 0， 则考虑前后是否为 0，在判断前后时添加边界限制条件。（充分利用短路原理）
 
-### 代码
-```c++
+// ### 代码
+// ```c++
 class Solution {
 public:
     bool canPlaceFlowers(vector<int>& flowerbed, int n) {
@@ -19,4 +19,4 @@ public:
         return n > 0 ? false : true;
     }
 };
-```
+// ```

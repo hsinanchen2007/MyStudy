@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/56f23d2d0df00707eb1cdda8a9c8d9c9f8378111243ccee00ffe593e744d5393-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/56f23d2d0df00707eb1cdda8a9c8d9c9f8378111243ccee00ffe593e744d5393-image.png)
+// ```
 func buddyStrings(A string, B string) bool {
 	aLen,bLen := len(A),len(B)
 	if aLen != bLen {
@@ -32,4 +32,4 @@ func buddyStrings(A string, B string) bool {
 	}
 	return  second != -1 && A[first] ==  B[second] && A[second] == B[first]
 }
-```
+// ```

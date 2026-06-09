@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
-1.两个整型数组长度不能同为0
-2.数组相加后排序，从大到小
-3.判断列表长度，奇数偶数
-4.判断的所有下表减一，返回中间数
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 1.两个整型数组长度不能同为0
+# 2.数组相加后排序，从大到小
+# 3.判断列表长度，奇数偶数
+# 4.判断的所有下表减一，返回中间数
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def findMedianSortedArrays(self, nums1, nums2):
     	num3=[]
@@ -26,4 +26,4 @@ class Solution(object):
 	    		z1=int((c-1))/int(2)
 	    		z2=int(z1)+1
 	    		return float(num3[z2-1])
-```
+# ```

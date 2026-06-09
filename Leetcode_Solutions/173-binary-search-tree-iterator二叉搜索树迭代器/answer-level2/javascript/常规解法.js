@@ -1,8 +1,8 @@
-### 解题思路
-- 先遍历
-- 在排序
+// ### 解题思路
+// - 先遍历
+// - 在排序
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -67,4 +67,4 @@ BSTIterator.prototype.hasNext = function() {
     return false;
   }
 };
-```
+// ```

@@ -1,14 +1,14 @@
-![双百](https://pic.leetcode-cn.com/de2e3ebf7ae813df49dccb15024fcf024239cd61ce99dcf8f2df401c7351fe8b)
+// ![双百](https://pic.leetcode-cn.com/de2e3ebf7ae813df49dccb15024fcf024239cd61ce99dcf8f2df401c7351fe8b)
 
-这个题我是感觉挺无语的，没什么意思~~~
-
-
-代码给出了，注释写的应该可以让别人看懂，有什什么问题欢迎指出~~~
+// 这个题我是感觉挺无语的，没什么意思~~~
 
 
-**代码：**
+// 代码给出了，注释写的应该可以让别人看懂，有什什么问题欢迎指出~~~
 
-```cpp
+
+// **代码：**
+
+// ```cpp
 class Solution {
 public:
     bool isLongPressedName(string name, string typed) {
@@ -35,4 +35,4 @@ public:
         return cur1 == name.size();
     }
 };
-```
+// ```

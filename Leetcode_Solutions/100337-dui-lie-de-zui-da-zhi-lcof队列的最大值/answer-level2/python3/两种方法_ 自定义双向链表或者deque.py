@@ -1,10 +1,10 @@
-### 解题思路
-1. 方法1: 使用自定义链表保存普通queue和最大queue(最大值位于tail), 得使用双向链表, 因为最大queue需要从head插入/tail删除, 而普通queue需要从head删除/tail插入, 只需要存正常的queue的head和tail, 以及maxqueue的mxhead, mxtail
-2. 方法2: 使用deque代替自定义双向链表
+# ### 解题思路
+# 1. 方法1: 使用自定义链表保存普通queue和最大queue(最大值位于tail), 得使用双向链表, 因为最大queue需要从head插入/tail删除, 而普通queue需要从head删除/tail插入, 只需要存正常的queue的head和tail, 以及maxqueue的mxhead, mxtail
+# 2. 方法2: 使用deque代替自定义双向链表
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 
 # 方法1: 自定义双向链表
 class ListNode():
@@ -63,9 +63,9 @@ class MaxQueue:
             if res == self.mxtail.val:
                 self.mxtail, _ = self.remove_connection(self.mxtail.prev)
         return res
-```
+# ```
 
-```python
+# ```python
 
 # 方法2: 两个deque
 class MaxQueue:
@@ -92,4 +92,4 @@ class MaxQueue:
         if res == self.mxq[-1]:
             self.mxq.pop()
         return res
-```
+# ```

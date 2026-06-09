@@ -1,9 +1,9 @@
-### 解题思路
-正常的深度优先遍历，如果判断陆地碰到了边，即 i==0||i==grid.length-1 ||j==0 ||j==grid[0].length-1，那么证明这个块陆地不满足情况，其他都满足。
+// ### 解题思路
+// 正常的深度优先遍历，如果判断陆地碰到了边，即 i==0||i==grid.length-1 ||j==0 ||j==grid[0].length-1，那么证明这个块陆地不满足情况，其他都满足。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     boolean isIsland;
     public int closedIsland(int[][] grid) {
@@ -48,4 +48,4 @@ class Solution {
         }
     }
 }
-```
+// ```

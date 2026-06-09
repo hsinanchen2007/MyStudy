@@ -1,4 +1,4 @@
-```js
+// ```js
 var tribonacci = function(n) {
     let res = [0,1,1]
     for (let i = 3; i <= n; i++) {
@@ -6,4 +6,4 @@ var tribonacci = function(n) {
     }
     return res[n]
 };
-```
+// ```

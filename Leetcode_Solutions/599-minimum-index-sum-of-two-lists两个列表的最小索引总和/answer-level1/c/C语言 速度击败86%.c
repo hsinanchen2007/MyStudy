@@ -1,15 +1,15 @@
-### 解题思路
-中规中矩的解法。
+// ### 解题思路
+// 中规中矩的解法。
 
-1、排序
-2、找到最小inx和
-3、将inx和最小的结果找到并返回
+// 1、排序
+// 2、找到最小inx和
+// 3、将inx和最小的结果找到并返回
 
-![image.png](https://pic.leetcode-cn.com/3107664ab59bae4ba46a97f882013d4ae2b574f945e4f91117fec43065ff14a2-image.png)
+// ![image.png](https://pic.leetcode-cn.com/3107664ab59bae4ba46a97f882013d4ae2b574f945e4f91117fec43065ff14a2-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -145,4 +145,4 @@ char ** findRestaurant(char ** list1, int list1Size, char ** list2, int list2Siz
 	return rlt;
 }
 
-```
+// ```

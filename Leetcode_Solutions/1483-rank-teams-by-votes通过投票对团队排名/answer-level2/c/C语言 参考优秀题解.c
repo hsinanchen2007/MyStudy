@@ -1,4 +1,4 @@
-```
+// ```
 int compVote(int* v1, int n1, int* v2, int n2, int n)
 {
     for (int i = 0; i < n; i++) {
@@ -65,4 +65,4 @@ char * rankTeams(char ** votes, int votesSize) {
     
     return res;
 }
-```
+// ```

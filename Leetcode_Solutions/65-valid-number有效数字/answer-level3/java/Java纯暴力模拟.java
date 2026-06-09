@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean isNumber(String s) {
         int i = 0;
@@ -66,4 +66,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

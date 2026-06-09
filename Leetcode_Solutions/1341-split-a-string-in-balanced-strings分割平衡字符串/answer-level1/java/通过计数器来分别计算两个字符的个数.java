@@ -1,5 +1,5 @@
-执行用时 :0 ms, 在所有 java 提交中击败了100.00%的用户
-内存消耗 :34 MB在所有 java 提交中击败了100.00%的用户
+// 执行用时 :0 ms, 在所有 java 提交中击败了100.00%的用户
+// 内存消耗 :34 MB在所有 java 提交中击败了100.00%的用户
 class Solution {
     public int balancedStringSplit(String s) {
         int count1=0,count2=0;

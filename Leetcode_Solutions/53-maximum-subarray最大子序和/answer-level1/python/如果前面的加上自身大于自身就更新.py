@@ -1,9 +1,9 @@
-### 解题思路
-如果前面的数据加上自身，大于自身，就更新；否则用自身就好了；
+# ### 解题思路
+# 如果前面的数据加上自身，大于自身，就更新；否则用自身就好了；
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 import numpy as np
 
 
@@ -21,4 +21,4 @@ class Solution(object):
             else:
                 dp[i] = nums[i]
         return int(np.array(dp).max())
-```
+# ```

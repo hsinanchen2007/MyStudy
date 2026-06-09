@@ -1,9 +1,9 @@
-### 解题思路
-排序后，如果当前文件夹路径包含之前的路径则跳过，不包含放入结果列表
+// ### 解题思路
+// 排序后，如果当前文件夹路径包含之前的路径则跳过，不包含放入结果列表
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<String> removeSubfolders(String[] folder) {
         List<String> result = new LinkedList<>();
@@ -20,4 +20,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-调用了一个函数 来判断[i][j]是否回文串
-主要还是用的动态规划思想
+# ### 解题思路
+# 调用了一个函数 来判断[i][j]是否回文串
+# 主要还是用的动态规划思想
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minCut(self, s: str) -> int:
         if len(s)<1 :
@@ -39,4 +39,4 @@ class Solution:
                     j+=1
             return f
         
-```
+# ```

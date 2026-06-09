@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def removeElement(self, nums, val):
         """
@@ -12,4 +12,4 @@ class Solution(object):
                 nums[i]=num
                 i+=1
         return i
-```
+# ```

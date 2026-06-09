@@ -1,12 +1,12 @@
-### 解题思路
-最大数和最小数，平均数
-遍历M N 中较小者 构成的单调数列，寻找小于 Mid的数字数量
-调整 Start End 的值
+// ### 解题思路
+// 最大数和最小数，平均数
+// 遍历M N 中较小者 构成的单调数列，寻找小于 Mid的数字数量
+// 调整 Start End 的值
 
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 class FindKInMul {
     private int FindSmallNum (int iRow, int midV, int nCol) {
         //1*i 2*i 3*i ... n*i
@@ -96,4 +96,4 @@ public class Solution {
         return fk.FindKthNumber(m, n, k);
     }
 }
-```
+// ```

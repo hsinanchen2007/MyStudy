@@ -1,13 +1,13 @@
-### 解题思路
-使用pyython内置的顺序索引类list完成题目。
-push: 尾部追加， 直接使用list 的自带方法 .append(item);
-pop: 尾部删除，使用list的自带方法 .pop(-1), 该函数符合弹出指定索引处并有返回值的要求；
-top: 索引获取list 的尾元即可；
-empty: python 将条件语句中的 '[]','','{}' 均看作假，因此可直接使用list自身作为判断条件； 
+# ### 解题思路
+# 使用pyython内置的顺序索引类list完成题目。
+# push: 尾部追加， 直接使用list 的自带方法 .append(item);
+# pop: 尾部删除，使用list的自带方法 .pop(-1), 该函数符合弹出指定索引处并有返回值的要求；
+# top: 索引获取list 的尾元即可；
+# empty: python 将条件语句中的 '[]','','{}' 均看作假，因此可直接使用list自身作为判断条件； 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class MyStack:
 
     def __init__(self):
@@ -55,4 +55,4 @@ class MyStack:
 # param_2 = obj.pop()
 # param_3 = obj.top()
 # param_4 = obj.empty()
-```
+# ```

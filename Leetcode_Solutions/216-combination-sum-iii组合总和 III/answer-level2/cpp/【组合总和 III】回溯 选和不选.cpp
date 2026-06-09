@@ -1,12 +1,12 @@
-### 执行时间
-![图片.png](https://pic.leetcode-cn.com/9e14247451e2453fbb594cc4ead3118c3cbb8eeb1f3cc1b7cbcae5021837a8d0-%E5%9B%BE%E7%89%87.png)
+// ### 执行时间
+// ![图片.png](https://pic.leetcode-cn.com/9e14247451e2453fbb594cc4ead3118c3cbb8eeb1f3cc1b7cbcae5021837a8d0-%E5%9B%BE%E7%89%87.png)
 
-### 思路
-1. 回溯
-2. 选和不选
+// ### 思路
+// 1. 回溯
+// 2. 选和不选
 
-### 答题
-```C++ []
+// ### 答题
+// ```C++ []
 void dfs(int k, int sum, int idx, vector<int>& cur, vector<vector<int>>& ans)
 {
     if (k == 0 && sum == 0)
@@ -35,13 +35,13 @@ vector<vector<int>> combinationSum3(int k, int n)
     dfs(k, n, 9, cur, ans);
     return ans;
 }
-```
+// ```
 
 
 
-### 致谢
+// ### 致谢
 
-感谢您的观看，希望对您有帮助，欢迎热烈的交流！  
+// 感谢您的观看，希望对您有帮助，欢迎热烈的交流！  
 
-[我的leetcode](https://github.com/AhJo53589/leetcode-cn)
+// [我的leetcode](https://github.com/AhJo53589/leetcode-cn)
 

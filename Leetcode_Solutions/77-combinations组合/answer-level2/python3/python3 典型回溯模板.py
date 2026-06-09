@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-典型的回溯算法，索引去重，不选择已经选择过的元素。
+# ### 解题思路
+# 此处撰写解题思路
+# 典型的回溯算法，索引去重，不选择已经选择过的元素。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def combine(self, n: int, k: int) -> List[List[int]]:
         ans = []
@@ -23,4 +23,4 @@ class Solution:
         return ans
                 
 
-```
+# ```

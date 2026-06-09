@@ -1,10 +1,10 @@
-### 解题思路
-写了点文字，但是不会描述又删掉了，应该能看懂👀
-公式(a - b) * 2 = sum1 - sum2;
+// ### 解题思路
+// 写了点文字，但是不会描述又删掉了，应该能看懂👀
+// 公式(a - b) * 2 = sum1 - sum2;
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] findSwapValues(int[] array1, int[] array2) {
         int sum1 = 0;
@@ -40,5 +40,5 @@ class Solution {
         return new int[0];
     }
 }
-```
-### 时间复杂度O(Math.max(array1.length, array2.length))
+// ```
+// ### 时间复杂度O(Math.max(array1.length, array2.length))

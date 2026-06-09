@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-其实就是前序遍历的思路，最后反转下数组
+// 其实就是前序遍历的思路，最后反转下数组
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a Node.
  * type Node struct {
@@ -49,4 +49,4 @@ if root == nil {
 
 	return res
 }
-```
+// ```

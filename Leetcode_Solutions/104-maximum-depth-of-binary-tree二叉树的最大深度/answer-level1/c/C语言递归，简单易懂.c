@@ -1,4 +1,4 @@
-```
+// ```
 int maxDepth(struct TreeNode* root){
     int lhigh,rhigh;
     if(root==NULL)
@@ -9,4 +9,4 @@ int maxDepth(struct TreeNode* root){
     rhigh=maxDepth(root->right);//遍历右子树
     return lhigh>rhigh?(lhigh+1):(rhigh+1);//判断大小
 }
-```
+// ```

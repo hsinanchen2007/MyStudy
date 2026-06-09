@@ -1,4 +1,4 @@
-```
+// ```
 public List<Double> averageOfLevels(TreeNode root) {
         List<Double> resList=new ArrayList<>();
         if(root==null)return resList;
@@ -21,8 +21,8 @@ public List<Double> averageOfLevels(TreeNode root) {
         }
         return resList;
     }
-```
+// ```
     
     
-![TIM截图20191124155448.png](https://pic.leetcode-cn.com/0e7697f2baf4ae4e1b8c55b3dcb1762c2621aff0896c271b2a4a900b5d817e79-TIM%E6%88%AA%E5%9B%BE20191124155448.png)
+// ![TIM截图20191124155448.png](https://pic.leetcode-cn.com/0e7697f2baf4ae4e1b8c55b3dcb1762c2621aff0896c271b2a4a900b5d817e79-TIM%E6%88%AA%E5%9B%BE20191124155448.png)
 

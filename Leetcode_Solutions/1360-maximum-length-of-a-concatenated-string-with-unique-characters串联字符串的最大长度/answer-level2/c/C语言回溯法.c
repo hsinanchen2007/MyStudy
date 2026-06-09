@@ -1,9 +1,9 @@
-### 解题思路
-回溯法，依次将字符串拼在一起计算长度。过程中需要注意字符串本身也不要能有重复字符。
+// ### 解题思路
+// 回溯法，依次将字符串拼在一起计算长度。过程中需要注意字符串本身也不要能有重复字符。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int fillArr(char ** arr, int arrSize, int index, char *s)
 {
     int tmpLen = strlen(s);
@@ -54,4 +54,4 @@ int maxLength(char ** arr, int arrSize){
     char *s = "";
     return fillArr(arr, arrSize, 0, s);
 }
-```
+// ```

@@ -1,6 +1,6 @@
-**思路**：先序创建就能满足题目的要求了 findall可以方便地匹配s deque方便FIFO
-**注意**：本人菜鸡 语文水平很差 表述方面可能不易理解 主要的语句都添加了注释 以下代码仅供参考 还请大家多多指教
-```
+# **思路**：先序创建就能满足题目的要求了 findall可以方便地匹配s deque方便FIFO
+# **注意**：本人菜鸡 语文水平很差 表述方面可能不易理解 主要的语句都添加了注释 以下代码仅供参考 还请大家多多指教
+# ```
 from re import findall
 from collections import deque
 class Solution:
@@ -17,4 +17,4 @@ class Solution:
 			new_root.right=helper(need+1) #连接当前root的右子树
 			return new_root #返回当前子树
 		return helper(0) #参数取0是为了配合根节点的创建
-```
+# ```

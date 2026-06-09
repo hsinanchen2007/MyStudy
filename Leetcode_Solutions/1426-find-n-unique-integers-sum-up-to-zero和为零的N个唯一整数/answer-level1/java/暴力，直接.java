@@ -1,9 +1,9 @@
-### 解题思路
-最后一个数等于前面数的和的相反数
+// ### 解题思路
+// 最后一个数等于前面数的和的相反数
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] sumZero(int n) {
         int[] arr = new int[n];
@@ -16,4 +16,4 @@ class Solution {
         return arr;
     }
 }
-```
+// ```

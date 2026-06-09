@@ -1,12 +1,12 @@
-### 解题思路
-广搜那就只能存数组了，将头节点及其val存进arr[0]和ans。
-设一个路标local，代表我们已经遍历过的节点所在arr中的位置。
-然后以arr[0]为入口，顺着arr[local]的位置依此往后遍历，每遍历一个节点就把它的左右孩子push到arr的尾部。
-同时往ans中存当前节点的val。
+// ### 解题思路
+// 广搜那就只能存数组了，将头节点及其val存进arr[0]和ans。
+// 设一个路标local，代表我们已经遍历过的节点所在arr中的位置。
+// 然后以arr[0]为入口，顺着arr[local]的位置依此往后遍历，每遍历一个节点就把它的左右孩子push到arr的尾部。
+// 同时往ans中存当前节点的val。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -47,4 +47,4 @@ public:
         return ans;
     }
 };
-```
+// ```

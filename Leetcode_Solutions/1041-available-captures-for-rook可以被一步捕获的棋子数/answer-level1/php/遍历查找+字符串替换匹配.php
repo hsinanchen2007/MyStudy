@@ -1,11 +1,11 @@
-### 解题思路
-执行用时 :4 ms , 在所有 PHP 提交中击败了100.00%的用户
-内存消耗 :14.8 MB, 在所有 PHP 提交中击败了100.00%的用户
+// ### 解题思路
+// 执行用时 :4 ms , 在所有 PHP 提交中击败了100.00%的用户
+// 内存消耗 :14.8 MB, 在所有 PHP 提交中击败了100.00%的用户
 
-在[https://leetcode-cn.com/problems/available-captures-for-rook/solution/bian-li-php-by-salmonl-7/](仁兄)的基础上加了一行代码
-### 代码
+// 在[https://leetcode-cn.com/problems/available-captures-for-rook/solution/bian-li-php-by-salmonl-7/](仁兄)的基础上加了一行代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -42,4 +42,4 @@ class Solution {
         return $count;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-没有用环的思想，但是觉得这种方法比较简单
+// ### 解题思路
+// 没有用环的思想，但是觉得这种方法比较简单
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -56,4 +56,4 @@ struct ListNode* rotateRight(struct ListNode* head, int k){
 
     return new; 
 }
-```
+// ```

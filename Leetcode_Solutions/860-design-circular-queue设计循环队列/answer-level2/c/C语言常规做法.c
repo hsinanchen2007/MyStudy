@@ -1,6 +1,6 @@
-该题代码实现较为常规，不再赘述。
-需要注意释放内存空间时，先释放obj->queue，再释放obj。
-```c
+// 该题代码实现较为常规，不再赘述。
+// 需要注意释放内存空间时，先释放obj->queue，再释放obj。
+// ```c
 typedef struct myQueue{
     int* queue;
     int head;
@@ -66,4 +66,4 @@ void myCircularQueueFree(MyCircularQueue* obj) {
     free(obj->queue);
     free(obj);
 }
-```
+// ```

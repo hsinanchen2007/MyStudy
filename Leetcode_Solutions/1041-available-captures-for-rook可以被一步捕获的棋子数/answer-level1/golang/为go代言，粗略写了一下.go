@@ -1,9 +1,9 @@
-### 解题思路
-我为go代言
+// ### 解题思路
+// 我为go代言
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func numRookCaptures(board [][]byte) int {
 	num := 0
 	stop := make(chan int)
@@ -77,4 +77,4 @@ func find(x int, r *[2]int, array []byte, stop chan int) {
 	}
 }
 
-```
+// ```

@@ -1,17 +1,17 @@
 
-实现一个简单的带有优先级的队列，存放链表。 链表首元素通过比较器比较val，作为优先级。
-优先队列是用于保障 链表的存入速度+首元素的提取速度是局部优化过的。比暴力法能好一些。
+// 实现一个简单的带有优先级的队列，存放链表。 链表首元素通过比较器比较val，作为优先级。
+// 优先队列是用于保障 链表的存入速度+首元素的提取速度是局部优化过的。比暴力法能好一些。
 
-核心函数mergeKLists_methodPrioQueue()
+// 核心函数mergeKLists_methodPrioQueue()
 
-PriorityQueue简介：
+// PriorityQueue简介：
 
-    PriorityQueue能保证每次取出的元素都是队列中权值最小的。使用比较器实现权值比较。
-    PriorityQueue通过完全二叉树（complete binary tree）实现的小顶堆（任意一个非叶子节点的权值，都不大于其左右子节点的权值）.
-    完全二叉树,意味着可以通过数组来作为PriorityQueue的底层实现。
-    PriorityQueue 资料参考 https://www.cnblogs.com/CarpenterLee/p/5488070.html
+//     PriorityQueue能保证每次取出的元素都是队列中权值最小的。使用比较器实现权值比较。
+//     PriorityQueue通过完全二叉树（complete binary tree）实现的小顶堆（任意一个非叶子节点的权值，都不大于其左右子节点的权值）.
+//     完全二叉树,意味着可以通过数组来作为PriorityQueue的底层实现。
+//     PriorityQueue 资料参考 https://www.cnblogs.com/CarpenterLee/p/5488070.html
 
-```c
+// ```c
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -278,4 +278,4 @@ int mergeKLists_tester(void)
     return 0;
 }
 
-```
+// ```

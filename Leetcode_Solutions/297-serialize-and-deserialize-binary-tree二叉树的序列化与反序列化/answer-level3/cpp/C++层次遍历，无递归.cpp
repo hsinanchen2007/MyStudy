@@ -1,5 +1,5 @@
-感觉最大的难点是分割字符串和删除多于的null。如果用C#、Java之类的，有强大的字符串操作函数，肯定写起来非常快。
-```cpp
+// 感觉最大的难点是分割字符串和删除多于的null。如果用C#、Java之类的，有强大的字符串操作函数，肯定写起来非常快。
+// ```cpp
 class Codec 
 {
 public:
@@ -118,4 +118,4 @@ public:
         return nodes.empty() ? nullptr : nodes.front();
     }
 };
-```
+// ```

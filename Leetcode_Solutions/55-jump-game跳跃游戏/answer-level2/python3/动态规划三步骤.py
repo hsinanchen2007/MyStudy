@@ -1,4 +1,4 @@
-```
+# ```
     def canJump(self, nums):
         """
         1. dp[i]表示是否能到达位置i
@@ -18,4 +18,4 @@
                 dp.append(_can)
         _dpfunc()
         return dp[-1]
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-这类问题很多，对于字符串，能用哈希表解决就可以用数组解决
+// ### 解题思路
+// 这类问题很多，对于字符串，能用哈希表解决就可以用数组解决
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
      public char firstUniqChar(String s) {
         int[] arr = new int[26];
@@ -18,4 +18,4 @@ class Solution {
         return ' ';
     }
 }
-```
+// ```

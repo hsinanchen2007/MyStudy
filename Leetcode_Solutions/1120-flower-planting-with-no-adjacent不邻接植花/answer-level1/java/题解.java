@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int[] gardenNoAdj(int N, int[][] paths) {
         int[][] topo = new int[N+1][3] ;

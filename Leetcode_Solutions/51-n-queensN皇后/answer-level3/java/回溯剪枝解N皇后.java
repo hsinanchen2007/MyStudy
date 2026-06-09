@@ -1,6 +1,6 @@
-**暴力枚举:** 枚举每一层皇后能在的所有可能性
-**剪枝:** 根据条件每列、每个左右斜列只有一个皇后的条件
-```
+// **暴力枚举:** 枚举每一层皇后能在的所有可能性
+// **剪枝:** 根据条件每列、每个左右斜列只有一个皇后的条件
+// ```
     public List<List<String>> solveNQueens(int n) {
         List<List<String>> results = new LinkedList<>();
         char[][] board = new char[n][n];
@@ -39,4 +39,4 @@
         }
         results.add(result);
     }
-```
+// ```

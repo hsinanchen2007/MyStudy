@@ -1,9 +1,9 @@
-### 解题思路
-二叉树中序遍历迭代法的应用
+# ### 解题思路
+# 二叉树中序遍历迭代法的应用
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -47,4 +47,4 @@ class BSTIterator:
 # obj = BSTIterator(root)
 # param_1 = obj.next()
 # param_2 = obj.hasNext()
-```
+# ```

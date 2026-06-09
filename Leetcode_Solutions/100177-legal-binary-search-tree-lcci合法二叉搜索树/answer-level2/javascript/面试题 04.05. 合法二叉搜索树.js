@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-由于 ``二叉搜索树`` 的 ``中序遍历`` 结果是「严格递增」的，因此直接判断 ``中序遍历`` 的结果是否是「严格递增」即可。
+// 由于 ``二叉搜索树`` 的 ``中序遍历`` 结果是「严格递增」的，因此直接判断 ``中序遍历`` 的结果是否是「严格递增」即可。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -34,4 +34,4 @@ var isValidBST = function(root) {
     let prev = Number.MIN_SAFE_INTEGER
     return helper(root)
 };
-```
+// ```

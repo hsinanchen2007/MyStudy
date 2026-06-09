@@ -1,4 +1,4 @@
-```
+// ```
 func insert(intervals [][]int, newInterval []int) (rst [][]int) {
 	var begin = -1
 	var end = -1
@@ -76,4 +76,4 @@ func insert(intervals [][]int, newInterval []int) (rst [][]int) {
 
 	return rst
 }
-```
+// ```

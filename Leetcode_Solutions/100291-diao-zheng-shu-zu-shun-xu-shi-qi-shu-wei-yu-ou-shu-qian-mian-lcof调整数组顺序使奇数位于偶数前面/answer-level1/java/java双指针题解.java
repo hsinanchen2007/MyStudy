@@ -1,7 +1,7 @@
-利用快速排序的思想，一个指针left从前面开始找偶数，一个指针right从后面开始找奇数，然后调换两个位置的数字，直到
-left >= right，此时所有的奇数都在前面，所有的偶数都在后面
+// 利用快速排序的思想，一个指针left从前面开始找偶数，一个指针right从后面开始找奇数，然后调换两个位置的数字，直到
+// left >= right，此时所有的奇数都在前面，所有的偶数都在后面
 
-```
+// ```
 class Solution {
     public int[] exchange(int[] nums) {
         int left = 0;
@@ -24,4 +24,4 @@ class Solution {
         return nums;
     }
 }
-```
+// ```

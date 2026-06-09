@@ -1,9 +1,9 @@
 
-![image.png](https://pic.leetcode-cn.com/60624db84d679f15c578e47c370f17f823fe06c2d37081840ef574265de4f756-image.png)
+// ![image.png](https://pic.leetcode-cn.com/60624db84d679f15c578e47c370f17f823fe06c2d37081840ef574265de4f756-image.png)
 
 
-方法一：用切片模拟栈，使用 switch 
-```
+// 方法一：用切片模拟栈，使用 switch 
+// ```
 func handle(stack []string, x string) (bool, []string) {
     if(len(stack)==0) { // 栈空了，返回错误
         return false, stack
@@ -44,11 +44,11 @@ func isValid(s string) bool {
         return false
     }
 }
-```
-这个代码太长了，而且不够优雅，于是改进一下。
+// ```
+// 这个代码太长了，而且不够优雅，于是改进一下。
 
-方法二：用切片模拟栈，用 map 保存对应的前括号，switch => if else
-```
+// 方法二：用切片模拟栈，用 map 保存对应的前括号，switch => if else
+// ```
 func isValid(s string) bool {
     stack := []string{}
     // 后括号映射表
@@ -71,4 +71,4 @@ func isValid(s string) bool {
         return false
     }
 }
-```
+// ```

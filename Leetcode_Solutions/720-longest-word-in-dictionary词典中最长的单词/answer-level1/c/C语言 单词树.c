@@ -1,10 +1,10 @@
-### 解题思路
-一把过，使用单词数，用了几个递归解决
-![image.png](https://pic.leetcode-cn.com/6c59aef28f2dbe72c6bf2949a492575024ac6d4e7bb4b6e08b6950868e9b252c-image.png)
+// ### 解题思路
+// 一把过，使用单词数，用了几个递归解决
+// ![image.png](https://pic.leetcode-cn.com/6c59aef28f2dbe72c6bf2949a492575024ac6d4e7bb4b6e08b6950868e9b252c-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MY_OK 0
 #define MY_FAIL (-1)
 
@@ -136,4 +136,4 @@ char * longestWord(char ** words, int wordsSize){
     rFree(&r);
     return r.rlt;
 }
-```
+// ```

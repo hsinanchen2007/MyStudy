@@ -1,17 +1,17 @@
-### 解题思路
-参考[官方题解-面试题59 - II. 队列的最大值](https://leetcode-cn.com/problems/dui-lie-de-zui-da-zhi-lcof/solution/mian-shi-ti-59-ii-dui-lie-de-zui-da-zhi-by-leetcod/)
+# ### 解题思路
+# 参考[官方题解-面试题59 - II. 队列的最大值](https://leetcode-cn.com/problems/dui-lie-de-zui-da-zhi-lcof/solution/mian-shi-ti-59-ii-dui-lie-de-zui-da-zhi-by-leetcod/)
 
-与习题 [155. 最小栈](https://leetcode-cn.com/problems/min-stack/) 异曲同工之妙。
+# 与习题 [155. 最小栈](https://leetcode-cn.com/problems/min-stack/) 异曲同工之妙。
 
-在习题也用到了单调栈的思想， [496. 下一个更大元素 I-gelthin-单调栈-巧妙](https://leetcode-cn.com/problems/next-greater-element-i/solution/gelthin-zhe-yi-ge-ti-mu-fei-chang-qiao-miao-by-gel/)
+# 在习题也用到了单调栈的思想， [496. 下一个更大元素 I-gelthin-单调栈-巧妙](https://leetcode-cn.com/problems/next-greater-element-i/solution/gelthin-zhe-yi-ge-ti-mu-fei-chang-qiao-miao-by-gel/)
 
-这里也是用到了非同步单调双端队列的思想。
-就是要注意，什么时候更新单调双端队列的头部元素。
+# 这里也是用到了非同步单调双端队列的思想。
+# 就是要注意，什么时候更新单调双端队列的头部元素。
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class MaxQueue:
 
     def __init__(self):
@@ -46,4 +46,4 @@ class MaxQueue:
 # param_1 = obj.max_value()
 # obj.push_back(value)
 # param_3 = obj.pop_front()
-```
+# ```

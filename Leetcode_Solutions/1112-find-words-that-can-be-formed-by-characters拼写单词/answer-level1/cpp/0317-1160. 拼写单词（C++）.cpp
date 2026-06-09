@@ -1,9 +1,9 @@
-### 解题思路
-注意2点：**每次**拼写时，chars 中的每个字母都只能**用一次**。
+// ### 解题思路
+// 注意2点：**每次**拼写时，chars 中的每个字母都只能**用一次**。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int countCharacters(vector<string>& words, string chars) {
@@ -31,4 +31,4 @@ public:
         return res;
     }
 };
-```
+// ```

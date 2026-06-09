@@ -1,6 +1,6 @@
-## 并查集解法
+// ## 并查集解法
 
-```java
+// ```java
 class UFSolution {
     private char[][] mGrid;
         private int mRows;
@@ -103,4 +103,4 @@ public static class UF {
     }
   }
 }
-```
+// ```

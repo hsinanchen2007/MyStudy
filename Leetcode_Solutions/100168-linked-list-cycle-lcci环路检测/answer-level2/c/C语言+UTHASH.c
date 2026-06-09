@@ -1,8 +1,8 @@
-### 解题思路
-C语言+UTHASH
-### 代码
+// ### 解题思路
+// C语言+UTHASH
+// ### 代码
 
-```c
+// ```c
 typedef struct {
 	struct ListNode *ptr;
 	int val;
@@ -29,4 +29,4 @@ struct ListNode *detectCycle(struct ListNode *head) {
 	}
 	return ret;
 }
-```
+// ```

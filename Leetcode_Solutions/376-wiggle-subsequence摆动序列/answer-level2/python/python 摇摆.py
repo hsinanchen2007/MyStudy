@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-用if..else循环，保留上个状态，往下循环，与上个转相反，那么长度加1
+# ### 解题思路
+# 此处撰写解题思路
+# 用if..else循环，保留上个状态，往下循环，与上个转相反，那么长度加1
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def wiggleMaxLength(self, nums):
         """
@@ -53,4 +53,4 @@ class Solution(object):
 
                     
 
-```
+# ```

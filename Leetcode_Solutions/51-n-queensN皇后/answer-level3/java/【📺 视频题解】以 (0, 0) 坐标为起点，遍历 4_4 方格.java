@@ -1,6 +1,6 @@
-![...190828-184931-HD.mp4](50473eed-0917-4b24-9c1e-5c08545ac141)
+// ![...190828-184931-HD.mp4](50473eed-0917-4b24-9c1e-5c08545ac141)
 
-````
+// ````
 public List<List<String>> solveNQueens(int n) {
     List<List<String>> res = new ArrayList<>();
     char[][] broad = new char[n][n];
@@ -52,4 +52,4 @@ private List<String> construct(char[][] broad) {
     }
     return list;
 }
-```
+// ```

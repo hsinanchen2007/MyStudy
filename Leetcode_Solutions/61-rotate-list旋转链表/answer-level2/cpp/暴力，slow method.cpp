@@ -1,8 +1,8 @@
-时间比较慢 击败 37% .
+// 时间比较慢 击败 37% .
 
-dummyHead 一定要记住呀
+// dummyHead 一定要记住呀
 
-```
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -41,4 +41,4 @@ public:
         return dummyHead->next;
     }
 };
-```
+// ```

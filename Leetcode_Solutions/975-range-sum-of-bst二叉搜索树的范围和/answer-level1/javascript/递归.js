@@ -1,4 +1,4 @@
-```javascript []
+// ```javascript []
 var rangeSumBST = function (root, L, R) {
     if (root === null) {
         return 0
@@ -19,5 +19,5 @@ var rangeSumBST = function (root, L, R) {
  *  2. 判断如果当前值大于右树则递归左树，小于左树递归右树
  *  3. 当然还有漏网之🐟【相等的情况】，这就交给下一步去做相等的情乱同时去左树和右树进行递归
  */
-```
+// ```
 

@@ -1,7 +1,7 @@
-由于最小值仅和push和pop相关，那么记录子栈的最小值即可，因为一层层pop掉后，如果最小值出栈了，那么子栈的最小值将成为整个栈的最小值。
+// 由于最小值仅和push和pop相关，那么记录子栈的最小值即可，因为一层层pop掉后，如果最小值出栈了，那么子栈的最小值将成为整个栈的最小值。
 
-附上golang的题解：
-```
+// 附上golang的题解：
+// ```
 type MinStack struct {
     top *Node
 }
@@ -59,4 +59,4 @@ func (this *MinStack) Top() int {
 func (this *MinStack) GetMin() int {
     return this.top.SubMin
 }
-```
+// ```

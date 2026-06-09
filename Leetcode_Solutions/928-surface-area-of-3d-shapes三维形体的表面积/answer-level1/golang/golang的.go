@@ -1,4 +1,4 @@
-```
+// ```
 func surfaceArea(grid [][]int) int {
 	ans := 0
 	lenY := len(grid)
@@ -34,6 +34,6 @@ func lessOne(x, y int) int {
 	}
 	return y
 }
-```
-![搜狗截图20年01月11日1426_1.png](https://pic.leetcode-cn.com/1bf06330a8848744cd5f7960a9b419ce2d04265323a577d2385b598b78d33099-%E6%90%9C%E7%8B%97%E6%88%AA%E5%9B%BE20%E5%B9%B401%E6%9C%8811%E6%97%A51426_1.png)
+// ```
+// ![搜狗截图20年01月11日1426_1.png](https://pic.leetcode-cn.com/1bf06330a8848744cd5f7960a9b419ce2d04265323a577d2385b598b78d33099-%E6%90%9C%E7%8B%97%E6%88%AA%E5%9B%BE20%E5%B9%B401%E6%9C%8811%E6%97%A51426_1.png)
 

@@ -1,5 +1,5 @@
-双指针应用
-```
+// 双指针应用
+// ```
     public void sortColors(int[] nums) {
         if(nums.length == 0) return ;
         
@@ -17,4 +17,4 @@
         arr[i] = arr[j];
         arr[j] = temp;
     }
-```
+// ```

@@ -1,5 +1,5 @@
-感觉这个题。。。。。。没有什么可以节省时间的地方啊！
-```
+// 感觉这个题。。。。。。没有什么可以节省时间的地方啊！
+// ```
 public List<List<Integer>> generate(int numRows) {
 
         List<List<Integer>> res = new ArrayList<>();
@@ -23,4 +23,4 @@ public List<List<Integer>> generate(int numRows) {
         }
         return res;
     }
-```
+// ```

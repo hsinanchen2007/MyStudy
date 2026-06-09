@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int waysToStep(int n) {
         if(n == 1) return 1;
@@ -19,9 +19,9 @@ class Solution {
         return (int) dp[n];
     }
 }
-```
+// ```
 
-```java
+// ```java
 class Solution {
     public int waysToStep(int n) {
         if(n == 1) return 1;
@@ -36,4 +36,4 @@ class Solution {
         return (int) f;
     }
 }
-```
+// ```

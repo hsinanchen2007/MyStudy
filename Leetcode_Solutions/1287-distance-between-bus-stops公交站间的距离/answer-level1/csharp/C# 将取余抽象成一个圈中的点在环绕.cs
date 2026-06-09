@@ -1,4 +1,4 @@
-```C# []
+// ```C# []
         public int DistanceBetweenBusStops(int[] distance, int start, int destination)
         {
             /*
@@ -27,4 +27,4 @@
 
             return Math.Min(startToDestinationDistance, sumDistance - startToDestinationDistance);
         }
-```
+// ```

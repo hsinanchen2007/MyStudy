@@ -1,8 +1,8 @@
-执行用时 :
-0 ms, 在所有Go提交中击败了100.00%的用户
-内存消耗 :
-2.7 MB, 在所有Go提交中击败了74.62%的用户
-```
+// 执行用时 :
+// 0 ms, 在所有Go提交中击败了100.00%的用户
+// 内存消耗 :
+// 2.7 MB, 在所有Go提交中击败了74.62%的用户
+// ```
 func lengthOfLongestSubstring(s string) int {
     val := []byte(s)
 	kvMap := make([]int, 128)
@@ -20,4 +20,4 @@ func lengthOfLongestSubstring(s string) int {
 	}
 	return max
 }
-```
+// ```

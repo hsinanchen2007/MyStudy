@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-**执行结果：**
-执行用时 :8 ms, 在所有 Java 提交中击败了17.82%的用户
-内存消耗 :41.8 MB, 在所有 Java 提交中击败了5.74%的用户
+// **执行结果：**
+// 执行用时 :8 ms, 在所有 Java 提交中击败了17.82%的用户
+// 内存消耗 :41.8 MB, 在所有 Java 提交中击败了5.74%的用户
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String gcdOfStrings(String str1, String str2) {
         String result = "";
@@ -44,4 +44,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-8ms-6.7MB
-```
+// 8ms-6.7MB
+// ```
 func maxPathSum(root *TreeNode) int {
     var res = -1<<30
     maxSum(root,&res)
@@ -28,4 +28,4 @@ func max(x,y int)int{
     }
     return y
 }
-```
+// ```

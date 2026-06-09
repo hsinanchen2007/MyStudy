@@ -1,8 +1,8 @@
-注意先排序
+// 注意先排序
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> subsetsWithDup(vector<int>& nums) {
@@ -34,4 +34,4 @@ public:
 private:
     vector<vector<int> > ans;
 };
-```
+// ```

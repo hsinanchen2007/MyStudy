@@ -1,5 +1,5 @@
-先求出数组元素之和，后续遍历时只需要加减单个元素即可比较两边大小。时间复杂度为O(N)。
-```c
+// 先求出数组元素之和，后续遍历时只需要加减单个元素即可比较两边大小。时间复杂度为O(N)。
+// ```c
 int pivotIndex(int* nums, int numsSize){
     if(numsSize<3) return -1;
     int i,left_sum=0,right_sum=0;
@@ -12,4 +12,4 @@ int pivotIndex(int* nums, int numsSize){
     }
     return -1;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-- 左连接 left join
+-- - 左连接 left join
 
-left join Table2
-on 条件
+-- left join Table2
+-- on 条件
 
-```
+-- ```
 # Write your MySQL query statement below
 
 # 这是错的
@@ -17,4 +17,4 @@ select FirstName, LastName, City, State
 from Person
 left join Address
 on Person.PersonId = Address.PersonId
-```
+-- ```

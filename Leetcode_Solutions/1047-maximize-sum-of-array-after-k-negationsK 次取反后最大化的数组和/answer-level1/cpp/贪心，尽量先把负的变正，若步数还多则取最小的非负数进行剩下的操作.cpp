@@ -1,6 +1,6 @@
-解题思路如题。当然也可以次次进行排序，然后取最小值取反，不过这样用时会长一点。
-代码如下：
-```
+// 解题思路如题。当然也可以次次进行排序，然后取最小值取反，不过这样用时会长一点。
+// 代码如下：
+// ```
 class Solution {
 public:
 	int largestSumAfterKNegations(vector<int>& A, int K) {
@@ -30,4 +30,4 @@ public:
 		return sum;
 	}
 };
-```
+// ```

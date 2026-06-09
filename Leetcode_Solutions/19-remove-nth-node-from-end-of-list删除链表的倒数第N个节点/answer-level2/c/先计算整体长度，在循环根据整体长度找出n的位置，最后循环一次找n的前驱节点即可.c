@@ -1,9 +1,9 @@
-### 解题思路
-先计算整体长度，在根据整体长度找出n的位置，最后循环一次找n的前驱节点即可
+// ### 解题思路
+// 先计算整体长度，在根据整体长度找出n的位置，最后循环一次找n的前驱节点即可
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -45,4 +45,4 @@ struct ListNode* removeNthFromEnd(struct ListNode* head, int n)
 }
 
 
-```
+// ```

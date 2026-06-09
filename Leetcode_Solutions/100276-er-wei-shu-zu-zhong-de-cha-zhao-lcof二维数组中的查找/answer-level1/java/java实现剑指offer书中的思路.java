@@ -1,10 +1,10 @@
-### 解题思路
-从右往左先剔除比target大的所在列，
-确定列后再从上往下找target所在行
+// ### 解题思路
+// 从右往左先剔除比target大的所在列，
+// 确定列后再从上往下找target所在行
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
    public boolean findNumberIn2DArray(int[][] matrix, int target) {
          if (matrix.length == 0 || matrix[0].length == 0) {
@@ -24,4 +24,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

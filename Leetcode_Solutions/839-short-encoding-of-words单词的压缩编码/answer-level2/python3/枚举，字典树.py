@@ -1,9 +1,9 @@
-### 解题思路
-思路其他题解说的很好了，我集中了一下枚举法，包调用，和手写字点树三种方法的代码
+# ### 解题思路
+# 思路其他题解说的很好了，我集中了一下枚举法，包调用，和手写字点树三种方法的代码
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minimumLengthEncoding(self, words: List[str]) -> int:
         # way 1 : set 枚举
@@ -57,4 +57,4 @@ class Solution:
         vis(root) 
         
         return ans
-```
+# ```

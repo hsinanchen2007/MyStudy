@@ -1,9 +1,9 @@
-### 解题思路
-翻转一半的字符
+// ### 解题思路
+// 翻转一半的字符
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isPalindrome(int x) {
@@ -17,4 +17,4 @@ public:
         return x==revertedNumber || revertedNumber / 10 == x;
     }
 };
-```
+// ```

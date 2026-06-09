@@ -1,7 +1,7 @@
 
-基本思路：使用二分查找分别找出左边界和右边界
+// 基本思路：使用二分查找分别找出左边界和右边界
 
-```
+// ```
 class Solution {
    public:
     int search(vector<int>& nums, int target) {
@@ -38,4 +38,4 @@ class Solution {
         return right_bound - left_bound + 1;
     }
 };
-```
+// ```

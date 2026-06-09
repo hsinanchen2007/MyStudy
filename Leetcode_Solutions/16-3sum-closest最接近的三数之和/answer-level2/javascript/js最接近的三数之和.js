@@ -1,5 +1,5 @@
-//第一种：暴力法：复杂度太高
-```
+// //第一种：暴力法：复杂度太高
+// ```
 let res = nums[0]+nums[1]+nums[2];
 let abs = Math.abs(res-target);
 for(let i=0; i<nums.length-2;i++){
@@ -14,10 +14,10 @@ for(let i=0; i<nums.length-2;i++){
     }
 }
 return res;
-```
-第二种方法
+// ```
+// 第二种方法
     
-```
+// ```
 nums.sort((a,b) => a-b); // 先排序
 let res = nums[0]+nums[1]+nums[2];
 let abs = Math.abs(res-target);
@@ -40,4 +40,4 @@ for(let i=0; i<nums.length-2;i++){
     }
 }
 return res;
-```
+// ```

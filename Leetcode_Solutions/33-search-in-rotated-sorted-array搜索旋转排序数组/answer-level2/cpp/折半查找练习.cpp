@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-若nums[mid]！= target
-先判断是左区间有序还是右区间有序，再判断target在左区间还是在右区间。
+// 若nums[mid]！= target
+// 先判断是左区间有序还是右区间有序，再判断target在左区间还是在右区间。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution 
 {
 public:
@@ -35,4 +35,4 @@ public:
         return -1;
     }
 };
-```
+// ```

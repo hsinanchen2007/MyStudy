@@ -1,9 +1,9 @@
-### 解题思路
-循环字典 如果值比上一个值大,就把key 和 value 都替换了. 最后返回key
+# ### 解题思路
+# 循环字典 如果值比上一个值大,就把key 和 value 都替换了. 最后返回key
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from collections import Counter
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
@@ -20,4 +20,4 @@ class Solution:
         return ans
 
 
-```
+# ```

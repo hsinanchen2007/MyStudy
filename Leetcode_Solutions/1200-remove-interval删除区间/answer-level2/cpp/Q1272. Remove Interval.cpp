@@ -1,8 +1,8 @@
-模拟，分情况讨论即可。扫描区间列表
-1. 如果区间`interval`和要删除的区间`toBeRemoved`不相交，则将区间`interval`添加到剩余区间列表`vecAns`；
-2. 如果要删除的区间`toBeRemoved`的左边界大于区间`interval`的左边界，则添加区间`[interval.left, toBeRemoved.left)`；
-3. 如果要删除的区间`toBeRemoved`的右边界小于区间`interval`的右边界，则添加区间`[toBeRemoved.right, interval.right)`。
-```
+// 模拟，分情况讨论即可。扫描区间列表
+// 1. 如果区间`interval`和要删除的区间`toBeRemoved`不相交，则将区间`interval`添加到剩余区间列表`vecAns`；
+// 2. 如果要删除的区间`toBeRemoved`的左边界大于区间`interval`的左边界，则添加区间`[interval.left, toBeRemoved.left)`；
+// 3. 如果要删除的区间`toBeRemoved`的右边界小于区间`interval`的右边界，则添加区间`[toBeRemoved.right, interval.right)`。
+// ```
 class Solution {
 public:
 	vector<vector<int>> removeInterval(vector<vector<int>>& intervals, vector<int>& toBeRemoved) {
@@ -39,4 +39,4 @@ public:
 		return vecAns;
 	}
 };
-```
+// ```

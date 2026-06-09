@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-规律见上一题的题解
+# 规律见上一题的题解
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def cuttingRope(self, n: int) -> int:
         def pow(a, b):
@@ -23,8 +23,8 @@ class Solution:
             return (pow(3, ((n-4)//3)) * 4) % 1000000007
         if n % 3 == 2:   # 剪一个 2,剩下的都剪成 3
             return (pow(3, ((n-2)//3)) * 2) % 1000000007
-```
+# ```
 
 
-欢迎来我的博客： [https://codeplot.top/](https://codeplot.top/)
-我的博客刷题分类：[https://codeplot.top/categories/%E5%88%B7%E9%A2%98/](https://codeplot.top/categories/%E5%88%B7%E9%A2%98/)
+# 欢迎来我的博客： [https://codeplot.top/](https://codeplot.top/)
+# 我的博客刷题分类：[https://codeplot.top/categories/%E5%88%B7%E9%A2%98/](https://codeplot.top/categories/%E5%88%B7%E9%A2%98/)

@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/07494c5e0565429899b94b988154e783b9554258b8cdfdf7236e3f840f5fceca-image.png)
+# ![image.png](https://pic.leetcode-cn.com/07494c5e0565429899b94b988154e783b9554258b8cdfdf7236e3f840f5fceca-image.png)
 
 
 
-```
+# ```
 
 '''
 动态规划
@@ -31,6 +31,6 @@ class Solution:
                 dp[i][j] = (dp[i-1][j-1] * (N - (j-1)) + dp[i-1][j] * max(0, j-K)) % MOD
         return dp[L][N]
 
-```
+# ```
 
 

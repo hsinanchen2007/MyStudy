@@ -1,16 +1,16 @@
-### BFS
-执行用时 :104 ms, 在所有 Python3 提交中击败了69.42%的用户
-内存消耗 :19.9 MB, 在所有 Python3 提交中击败了5.05%的用户
+# ### BFS
+# 执行用时 :104 ms, 在所有 Python3 提交中击败了69.42%的用户
+# 内存消耗 :19.9 MB, 在所有 Python3 提交中击败了5.05%的用户
 
-思路：
-1. 维护一个marked集合，存放已经被判断过是陆地还是岛屿(i, j)对
-2. 找到靠近左上方的第一个不在marked中的值得“1”的位置(a, b)，以此为根节点进行BFS
-    BFS过程中marked不断增加
-    当队列为空的时候说明与根节点相临的所有点被找到，即发现了一个岛屿
-3. 重复上一个过程，直到不存在不在marked中的值得“1”的位置
-### 代码
+# 思路：
+# 1. 维护一个marked集合，存放已经被判断过是陆地还是岛屿(i, j)对
+# 2. 找到靠近左上方的第一个不在marked中的值得“1”的位置(a, b)，以此为根节点进行BFS
+#     BFS过程中marked不断增加
+#     当队列为空的时候说明与根节点相临的所有点被找到，即发现了一个岛屿
+# 3. 重复上一个过程，直到不存在不在marked中的值得“1”的位置
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
         marked = set()
@@ -51,13 +51,13 @@ class Solution:
                             # print('cnt:', cnt)
 
         return cnt
-```
+# ```
 
-### DFS
-递归
+# ### DFS
+# 递归
 
-### 代码
-``` python3
+# ### 代码
+# ``` python3
 class Solution:
     def dfs(self, inputs):
         directions = [(-1, 0), (1, 0), (0, -1), (0, 1)]
@@ -81,4 +81,4 @@ class Solution:
                     self.seen.add((i, j))
                     self.dfs(grid)
         return self.cnt
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-先沿着水平中轴线垂直旋转，再沿着左上右下对角线旋转。用Python实现不到十行……
+# ### 解题思路
+# 先沿着水平中轴线垂直旋转，再沿着左上右下对角线旋转。用Python实现不到十行……
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def rotate(self, matrix: List[List[int]]) -> None:
         """
@@ -17,4 +17,4 @@ class Solution:
         for row_index in range(row_count):
             for col_index in range(row_index):
                 matrix[row_index][col_index], matrix[col_index][row_index] = matrix[col_index][row_index], matrix[row_index][col_index]
-```
+# ```

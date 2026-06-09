@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/c17801cd88c9f74c65243a871fad9b81b2c1ed39dbfe8832ca7074b9da4b09b3-image.png)
+// ![image.png](https://pic.leetcode-cn.com/c17801cd88c9f74c65243a871fad9b81b2c1ed39dbfe8832ca7074b9da4b09b3-image.png)
 
-可以使用递归的方法解决。一个有序数组可以和一个平衡二叉树对应，数组中间的值作为根元素，左半部分为根元素左叶，右半部分为根元素右叶。
-用伪代码(类似Rust但不考虑borrow checker)表示为
+// 可以使用递归的方法解决。一个有序数组可以和一个平衡二叉树对应，数组中间的值作为根元素，左半部分为根元素左叶，右半部分为根元素右叶。
+// 用伪代码(类似Rust但不考虑borrow checker)表示为
 
-```
+// ```
 // 此函数左闭右开，初始时
 // start = 0, end = array.len()
 arrary_to_bst(array, start, end) -> Option<TreeNode> {
@@ -21,19 +21,19 @@ arrary_to_bst(array, start, end) -> Option<TreeNode> {
         Some(node)
     }
 }
-```
+// ```
 
-由于 Rust 自身的 borrow checker 需要使用 Rc 来共享所有权，使用 RefCell 来实现内部可变性，所以代码会显得稍微复杂点。
-不熟悉的可以参考 Rust 的文档。
+// 由于 Rust 自身的 borrow checker 需要使用 Rc 来共享所有权，使用 RefCell 来实现内部可变性，所以代码会显得稍微复杂点。
+// 不熟悉的可以参考 Rust 的文档。
 
-[Rc](https://doc.rust-lang.org/std/rc/struct.Rc.html)
-[RefCell](https://doc.rust-lang.org/std/cell/struct.RefCell.html)
+// [Rc](https://doc.rust-lang.org/std/rc/struct.Rc.html)
+// [RefCell](https://doc.rust-lang.org/std/cell/struct.RefCell.html)
 
 
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 // Definition for a binary tree node.
 // #[derive(Debug, PartialEq, Eq)]
 // pub struct TreeNode {
@@ -75,4 +75,4 @@ fn help(nums: &Vec<i32>, start: usize, end: usize) -> Option<Rc<RefCell<TreeNode
         Some(node)
     }
 }
-```
+// ```

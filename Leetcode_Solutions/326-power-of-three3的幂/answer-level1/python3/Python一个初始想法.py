@@ -1,9 +1,9 @@
-### 解题思路
-通过n除以3的商和余数判断。
+# ### 解题思路
+# 通过n除以3的商和余数判断。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isPowerOfThree(self, n: int) -> bool:
         
@@ -23,4 +23,4 @@ class Solution:
             num2 = num%3
             num = num//3
             
-```
+# ```

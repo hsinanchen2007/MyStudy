@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -30,17 +30,17 @@ public class Solution {
         return start.next;   //运算结束时start里存的是{val=0 next={val=result1 next={val=result2 next={......}}}}  因为第一个点是定义start时插入的val=0 所以答案要舍弃第一个点 故 start.next
     }
 }
-```
+// ```
 
 
 
-执行用时 :
-132 ms
-, 在所有 C# 提交中击败了
-54.56%
-的用户
-内存消耗 :
-27.7 MB
-, 在所有 C# 提交中击败了
-5.17%
-的用户
+// 执行用时 :
+// 132 ms
+// , 在所有 C# 提交中击败了
+// 54.56%
+// 的用户
+// 内存消耗 :
+// 27.7 MB
+// , 在所有 C# 提交中击败了
+// 5.17%
+// 的用户

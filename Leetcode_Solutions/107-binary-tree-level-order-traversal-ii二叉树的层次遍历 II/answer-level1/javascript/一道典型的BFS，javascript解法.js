@@ -1,5 +1,5 @@
-一道简单BFS，写一个javascript题解
-```
+// 一道简单BFS，写一个javascript题解
+// ```
 const queue = []
     const res = []
     let level = 0
@@ -27,4 +27,4 @@ const queue = []
     }
 
     return res.reverse()
-```
+// ```

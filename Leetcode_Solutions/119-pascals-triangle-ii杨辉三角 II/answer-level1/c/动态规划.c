@@ -1,13 +1,13 @@
-### 解题思路
-用pre数组保存i-1行数据
-用cur数组表示d第i行数据
-求当前值：
-cur[i] = pre[i-1] + pre[i];
-下一次循环：
-memcpy(pre, cur, sizeof(int)*rows);
-### 代码
+// ### 解题思路
+// 用pre数组保存i-1行数据
+// 用cur数组表示d第i行数据
+// 求当前值：
+// cur[i] = pre[i-1] + pre[i];
+// 下一次循环：
+// memcpy(pre, cur, sizeof(int)*rows);
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -29,4 +29,4 @@ int* getRow(int rowIndex, int* returnSize){
     }
     return cur;
 }
-```
+// ```

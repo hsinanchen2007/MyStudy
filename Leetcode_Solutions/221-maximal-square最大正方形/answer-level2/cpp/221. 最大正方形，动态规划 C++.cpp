@@ -1,10 +1,10 @@
-### 解题思路
-动态规划
-mm[i][j] = min(mm[i-1][j-1], mm[i][j-1], mm[i-1][j]) + 1;
+// ### 解题思路
+// 动态规划
+// mm[i][j] = min(mm[i-1][j-1], mm[i][j-1], mm[i-1][j]) + 1;
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maximalSquare(vector<vector<char>>& matrix) {
@@ -34,4 +34,4 @@ public:
         return max_length * max_length;
     }
 };
-```
+// ```

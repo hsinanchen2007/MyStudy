@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} matrix
  * @return {boolean}
@@ -41,4 +41,4 @@ var isToeplitzMatrix = function(matrix) {
     }
     return true
 };    
-```
+// ```

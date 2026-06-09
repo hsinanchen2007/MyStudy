@@ -1,6 +1,6 @@
-如果是3的幂，那么可以使用log来计算
+// 如果是3的幂，那么可以使用log来计算
 
-```go
+// ```go
 func isPowerOfThree(n int) bool {
 	if n == 0 {
 		return false
@@ -17,4 +17,4 @@ func isPowerOfThree(n int) bool {
 	// 然后将v转换为int并使用原来的v除转换后的数结果为1就为true
 	return v/float64(int(v)) == 1
 }
-```
+// ```

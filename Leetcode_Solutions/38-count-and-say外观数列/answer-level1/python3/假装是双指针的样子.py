@@ -1,6 +1,6 @@
 
-python
-```
+# python
+# ```
 class Solution:
     def countAndSay(self, n: int) -> str:
         print("n = ", n)
@@ -32,7 +32,7 @@ class Solution:
             i += 1
         return str(num)   
 
-```
+# ```
 
 
-java
+# java

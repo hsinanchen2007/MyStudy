@@ -1,7 +1,7 @@
-解题思路写在博客中：https://my.oschina.net/siwcky90/blog/3147328
+-- 解题思路写在博客中：https://my.oschina.net/siwcky90/blog/3147328
 
-答案:
-```
+-- 答案:
+-- ```
 SELECT
 	de.name AS Department,
 	em.name AS Employee,
@@ -36,4 +36,4 @@ WHERE
 ORDER BY
 	em.DepartmentId,
 	em.Salary DESC
-```
+-- ```

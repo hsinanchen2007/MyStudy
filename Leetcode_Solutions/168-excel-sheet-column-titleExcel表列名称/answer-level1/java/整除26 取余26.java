@@ -1,5 +1,5 @@
-题目本意实际按照26分解target数字。
-每次按照26取余直至比26还小。
+// 题目本意实际按照26分解target数字。
+// 每次按照26取余直至比26还小。
 
 public static String convertToTitle(int n) {
     	ArrayList<Integer> cNum = new ArrayList<>();

@@ -1,5 +1,5 @@
-双队列遍历元素，轮换插入元素。
-```c++
+// 双队列遍历元素，轮换插入元素。
+// ```c++
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -34,4 +34,4 @@ public:
         return ans;
     }
 };
-```
+// ```

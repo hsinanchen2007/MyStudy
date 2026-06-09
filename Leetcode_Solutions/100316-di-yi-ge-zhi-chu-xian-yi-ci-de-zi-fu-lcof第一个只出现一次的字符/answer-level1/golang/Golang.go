@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func firstUniqChar(s string) byte {
     if len(s)==0{
         return ' '
@@ -26,4 +26,4 @@ func firstUniqChar(s string) byte {
     }
     return res
 }
-```
+// ```

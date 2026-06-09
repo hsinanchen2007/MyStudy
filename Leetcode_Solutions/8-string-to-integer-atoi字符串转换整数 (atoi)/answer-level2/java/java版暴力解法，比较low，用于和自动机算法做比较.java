@@ -1,9 +1,9 @@
-### 解题思路
-直接硬钢，暴力解法，比较丢人的写法，主要用来和自动机算法用来做比较。
+// ### 解题思路
+// 直接硬钢，暴力解法，比较丢人的写法，主要用来和自动机算法用来做比较。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
      public int myAtoi(String str) {
         if(str == null || "".equals(str)){
@@ -38,4 +38,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

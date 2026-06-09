@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/2870d62f0067abfba91a85acabf5d343d969de02cfd4125031675840c57c89e0-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/2870d62f0067abfba91a85acabf5d343d969de02cfd4125031675840c57c89e0-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int sumFourDivisors(vector<int>& nums) {
@@ -31,4 +31,4 @@ public:
         return pr.size() == 2;
     }
 };
-```
+// ```

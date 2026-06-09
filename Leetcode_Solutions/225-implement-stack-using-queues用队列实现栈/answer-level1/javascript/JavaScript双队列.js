@@ -1,9 +1,9 @@
-### 解题思路
-queue1和queue2,当push值时保存队尾元素，pop时将queue1的值存入queue2中并更新队尾元素，当剩下queue1的最后一个元素时，直接返回该元素。
+// ### 解题思路
+// queue1和queue2,当push值时保存队尾元素，pop时将queue1的值存入queue2中并更新队尾元素，当剩下queue1的最后一个元素时，直接返回该元素。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Initialize your data structure here.
  */
@@ -66,4 +66,4 @@ MyStack.prototype.empty = function() {
  * var param_3 = obj.top()
  * var param_4 = obj.empty()
  */
-```
+// ```

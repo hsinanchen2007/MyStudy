@@ -1,11 +1,11 @@
-### 解题思路
-先判断字符串的长度
-然后将字符串转化为数组
-然后 运用双指针去写m，就很好写了
+// ### 解题思路
+// 先判断字符串的长度
+// 然后将字符串转化为数组
+// 然后 运用双指针去写m，就很好写了
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String compressString(String S) {
         int len = S.length();
@@ -30,4 +30,4 @@ class Solution {
         return sb.length()<len?sb.toString():S;
     }
 }
-```
+// ```

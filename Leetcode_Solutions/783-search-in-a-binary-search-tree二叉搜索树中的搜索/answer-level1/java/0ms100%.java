@@ -1,9 +1,9 @@
-### 解题思路
-递归算法，利用二分搜索树性质，当前节点值大于val找左节点，小于找右节点，等于直接返回
+// ### 解题思路
+// 递归算法，利用二分搜索树性质，当前节点值大于val找左节点，小于找右节点，等于直接返回
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -28,4 +28,4 @@ class Solution {
             return helper(node.right,val);
     }
 }
-```
+// ```

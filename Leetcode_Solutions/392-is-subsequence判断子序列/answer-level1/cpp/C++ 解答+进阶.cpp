@@ -1,7 +1,7 @@
-## 解答
-时间复杂度: *O(N)*
-空间复杂度：*O(1)*
-```cpp
+// ## 解答
+// 时间复杂度: *O(N)*
+// 空间复杂度：*O(1)*
+// ```cpp
 class Solution {
 public:
     bool isSubsequence(string s, string t) {
@@ -21,13 +21,13 @@ public:
         return true;
     }
 };
-```
+// ```
 
-## 进阶
-t固定，批量进行s查找
-每次查找的时间复杂度：*O(Log(N))*
-全局空间复杂度：*O(1)*
-```cpp
+// ## 进阶
+// t固定，批量进行s查找
+// 每次查找的时间复杂度：*O(Log(N))*
+// 全局空间复杂度：*O(1)*
+// ```cpp
 class Solution {
 public:
     bool isSubsequence(string s, string t) {
@@ -50,4 +50,4 @@ public:
         return true;
     }
 };
-```
+// ```

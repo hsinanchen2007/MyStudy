@@ -1,9 +1,9 @@
-### 解题思路
-好像没什么好解析的。。。
+// ### 解题思路
+// 好像没什么好解析的。。。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {boolean}
@@ -22,4 +22,4 @@ var checkRecord = function(s) {
     if(a > 1) return false
     return true
 };
-```
+// ```

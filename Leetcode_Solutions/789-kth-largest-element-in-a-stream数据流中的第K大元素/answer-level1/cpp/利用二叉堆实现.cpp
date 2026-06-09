@@ -1,7 +1,7 @@
-注意：利用小顶堆，size=k 也就是堆顶就是要找的k最大元素 (C++实现)
+// 注意：利用小顶堆，size=k 也就是堆顶就是要找的k最大元素 (C++实现)
 
- 第一种：直接利用priority_queue小顶堆实现
-```
+//  第一种：直接利用priority_queue小顶堆实现
+// ```
     KthLargest1(int k, vector<int>& nums) {
         this->size = k;
         pq = new priority_queue<int, vector<int>, greater<int>>(size, INT_MIN);
@@ -20,12 +20,12 @@
 
         return pq->top();
     }
-```
+// ```
 
 
 
-第二种：利用二叉堆实现 （注意是小顶堆，判断细节不要搞错）
-```
+// 第二种：利用二叉堆实现 （注意是小顶堆，判断细节不要搞错）
+// ```
      KthLargest(int k, vector<int>& nums) {
          size = k;
          vet = new vector<int>(size,INT_MIN);
@@ -87,4 +87,4 @@
         }
         nums[index] =  element;
     }
-```
+// ```

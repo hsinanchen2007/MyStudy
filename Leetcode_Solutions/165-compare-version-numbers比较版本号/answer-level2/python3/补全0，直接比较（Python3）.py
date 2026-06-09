@@ -1,6 +1,6 @@
-补全0，直接进行比较
+# 补全0，直接进行比较
 
-```Python
+# ```Python
 class Solution:
     def compareVersion(self, version1: str, version2: str) -> int:
         v1_list = [int(i) for i in version1.split('.')]
@@ -18,4 +18,4 @@ class Solution:
         else:
             return 0
 
-```
+# ```

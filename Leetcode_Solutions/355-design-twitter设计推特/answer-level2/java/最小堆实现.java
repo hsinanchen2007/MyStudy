@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Tweet{
     Integer tweetId;
     Integer index;
@@ -101,4 +101,4 @@ public class Twitter {
  * obj.follow(followerId,followeeId);
  * obj.unfollow(followerId,followeeId);
  */
-```
+// ```

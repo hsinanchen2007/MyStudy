@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-先把内奸C和它同党,清除干净
+// 先把内奸C和它同党,清除干净
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} ops
  * @return {number}
@@ -33,4 +33,4 @@ var calPoints = function(ops) {
     })
     return total
 };
-```
+// ```

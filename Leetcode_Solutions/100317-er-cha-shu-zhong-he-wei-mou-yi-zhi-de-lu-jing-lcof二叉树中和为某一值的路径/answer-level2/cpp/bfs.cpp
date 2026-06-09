@@ -1,15 +1,15 @@
-### 解题思路
-很正常的层次遍历bfs，如果可以优化的话就是在判断语气那里可以剪枝，但这题好像剪不了枝
-queue的元素为pair，保存node指针和当前值
+// ### 解题思路
+// 很正常的层次遍历bfs，如果可以优化的话就是在判断语气那里可以剪枝，但这题好像剪不了枝
+// queue的元素为pair，保存node指针和当前值
 
-那么问题反而在于怎么保存路径
-使用map<TreeNode*, TreeNode*> 32 ms, 在所有 C++ 提交中击败了17.36%的用户（被吊起来打
-显然我们不需要有序关联容器浪费时间去做比较
-使用unorder_map<TreeNode*, TreeNode*>8 ms, 在所有 C++ 提交中击败了93.92%的用户
+// 那么问题反而在于怎么保存路径
+// 使用map<TreeNode*, TreeNode*> 32 ms, 在所有 C++ 提交中击败了17.36%的用户（被吊起来打
+// 显然我们不需要有序关联容器浪费时间去做比较
+// 使用unorder_map<TreeNode*, TreeNode*>8 ms, 在所有 C++ 提交中击败了93.92%的用户
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
 #判断target是否在数组中，在的话直接返回位置
@@ -16,4 +16,4 @@ class Solution:
         for i in range(len(nums)):
             if nums[i]>=target:
                 return i
-```
+# ```

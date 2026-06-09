@@ -1,17 +1,17 @@
-### 解题思路
-"""
-Input: -1->5->3->4->0
-Output: -1->0->3->4->5
+# ### 解题思路
+# """
+# Input: -1->5->3->4->0
+# Output: -1->0->3->4->5
 
-思路:
-1. 获取所有值
-2. 重新排序
-3. 重新创建链表值
-"""
+# 思路:
+# 1. 获取所有值
+# 2. 重新排序
+# 3. 重新创建链表值
+# """
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -38,4 +38,4 @@ class Solution(object):
             cur.next = ListNode(v)
             cur = cur.next
         return self.head
-```
+# ```

@@ -1,7 +1,7 @@
-能不用递归就不用递归，毕竟栈帧就2M大很容易爆栈。本题其实是分治，分治到最细粒度都是两两合并再回溯，所以可以直接两两合并。
+// 能不用递归就不用递归，毕竟栈帧就2M大很容易爆栈。本题其实是分治，分治到最细粒度都是两两合并再回溯，所以可以直接两两合并。
 
-Java
-```
+// Java
+// ```
 	public IntNode T23(IntNode[] intNodes) {
         if (intNodes == null || intNodes.length == 0) return null;
         //分治到最细粒度也就是两个链表合并，所以直接两两合并即可
@@ -37,9 +37,9 @@ Java
         }
         return res.get(0);
     }
-```
-JavaScript
-```
+// ```
+// JavaScript
+// ```
 function(nodes) {
     if (nodes == null || nodes.length == 0) return null;
     //分治到最细粒度也就是两个链表合并，所以直接两两合并即可
@@ -71,8 +71,8 @@ function(nodes) {
     }
     return nodes[0];
 }
-```
+// ```
 
 
-![1.png](https://pic.leetcode-cn.com/c7d98e8bf384a503a21ac560458516e72811702fa164879fff1dd0d3ad29cfc0-1.png)
-![2.png](https://pic.leetcode-cn.com/17fbf68692d2c092a1173c2c037a72004129f0da4a5937251384ead5c189ff4f-2.png)
+// ![1.png](https://pic.leetcode-cn.com/c7d98e8bf384a503a21ac560458516e72811702fa164879fff1dd0d3ad29cfc0-1.png)
+// ![2.png](https://pic.leetcode-cn.com/17fbf68692d2c092a1173c2c037a72004129f0da4a5937251384ead5c189ff4f-2.png)

@@ -1,9 +1,9 @@
-### 解题思路
-挨个遍历超时,后来加上了 长度是part倍数的验证就过了
+# ### 解题思路
+# 挨个遍历超时,后来加上了 长度是part倍数的验证就过了
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def repeatedSubstringPattern(self, s):
         """
@@ -20,4 +20,4 @@ class Solution(object):
             else:
                 return True
         return False
-```
+# ```

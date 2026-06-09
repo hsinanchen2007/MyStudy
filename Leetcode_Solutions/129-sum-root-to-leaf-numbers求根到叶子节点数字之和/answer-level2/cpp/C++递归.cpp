@@ -1,6 +1,6 @@
-![微信图片_20191123221245.png](https://pic.leetcode-cn.com/7d7f3719f6487284dcd48c8938823e97208a26537e1352909d94518a8a97e393-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20191123221245.png)
+// ![微信图片_20191123221245.png](https://pic.leetcode-cn.com/7d7f3719f6487284dcd48c8938823e97208a26537e1352909d94518a8a97e393-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20191123221245.png)
 
-```
+// ```
 class Solution {
 public:
     int res;
@@ -27,4 +27,4 @@ public:
         return res;
     }
 };
-```
+// ```

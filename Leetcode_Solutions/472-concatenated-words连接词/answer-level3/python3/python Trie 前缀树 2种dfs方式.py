@@ -1,4 +1,4 @@
-```python3
+# ```python3
 # 前缀树,leetcode 208
 class TrieNode:
     def __init__(self):
@@ -49,4 +49,4 @@ class Solution:
             if dfs(word, 0, 0):
                 re.append(word)
         return re
-```
+# ```

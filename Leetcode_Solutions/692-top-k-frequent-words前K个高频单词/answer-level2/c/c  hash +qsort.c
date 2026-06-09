@@ -1,9 +1,9 @@
-### 解题思路
-hash + 排序， 单词作为key。
+// ### 解题思路
+// hash + 排序， 单词作为key。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <stdlib.h>
 #include <stdio.h>
 #inlcude <uthash.h>
@@ -83,4 +83,4 @@ char ** topKFrequent(char ** words, int wordsSize, int k, int* returnSize){
 }
 
 
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int dp[1001][1001];
 
 int is_pa(char *s, int i, int j) {
@@ -49,4 +49,4 @@ char * longestPalindrome(char * s){
     s[max_e + 1] = '\0';
     return s + max_s;
 }
-```
+// ```

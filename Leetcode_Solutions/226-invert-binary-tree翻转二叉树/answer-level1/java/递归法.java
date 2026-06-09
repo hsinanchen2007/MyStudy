@@ -1,9 +1,9 @@
-### 解题思路
-时间复杂度为O(n)，n 为节点个数，因为每个节点都被访问一次，这个不能优化啦。
+// ### 解题思路
+// 时间复杂度为O(n)，n 为节点个数，因为每个节点都被访问一次，这个不能优化啦。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -24,4 +24,4 @@ class Solution {
         return root;
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-注意一个情况的处理
-```c#
+// 注意一个情况的处理
+// ```c#
 public class Solution
 {
     public int MaxSumDivThree(int[] nums)
@@ -25,4 +25,4 @@ public class Solution
         return dp[nums.Length, 0];
     }
 }
-```
+// ```

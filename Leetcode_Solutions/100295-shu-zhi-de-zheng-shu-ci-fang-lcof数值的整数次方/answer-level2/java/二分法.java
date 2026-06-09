@@ -1,9 +1,9 @@
-### 解题思路
-经典的二分快速幂
+// ### 解题思路
+// 经典的二分快速幂
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public double myPow(double x, int n) {
         if (n == 0) return 1;
@@ -19,4 +19,4 @@ class Solution {
         }
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
  public static int countSegments(String s) {
 	        if(s.equals("")){
 	            return 0;
@@ -12,4 +12,4 @@
 	        }
 	        return result;
 	    }
-```
+// ```

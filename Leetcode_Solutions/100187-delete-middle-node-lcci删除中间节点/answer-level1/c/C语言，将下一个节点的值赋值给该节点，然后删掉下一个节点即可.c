@@ -1,5 +1,5 @@
 
-``` c
+// ``` c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -17,5 +17,5 @@ void deleteNode(struct ListNode* node) {
 	// 释放掉
     free(q);
 }
-```
+// ```
 

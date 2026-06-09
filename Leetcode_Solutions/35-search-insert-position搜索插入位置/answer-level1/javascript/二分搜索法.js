@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -30,4 +30,4 @@ var searchInsert = function(nums, target) {
 
     return Math.floor((low + high) / 2) + 1;
 };
-```
+// ```

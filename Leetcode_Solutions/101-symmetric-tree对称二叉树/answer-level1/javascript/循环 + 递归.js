@@ -1,6 +1,6 @@
-## 第一版，循环 + 递归
-> 88ms,35.6M。
-```javascript []
+// ## 第一版，循环 + 递归
+// > 88ms,35.6M。
+// ```javascript []
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -28,6 +28,6 @@ function checkNode(left, right) {
   }
   return true;
 }
-```
-## 思路：设左子树A，右子树为B。A向左循环 同时 B向右循环，每次循环在A和B的对应位置检查是否符合对称。每次循环中访问到的A子代的左子树向右递归，同时B子代的所有右子树向左递归，检查对应位置的值是否符合对称
-![未命名文件.jpg](https://pic.leetcode-cn.com/3a88c6a84bbe8c4099e3528774c3819eb2d46029f1d5bdfb953fe5131bf737ac-%E6%9C%AA%E5%91%BD%E5%90%8D%E6%96%87%E4%BB%B6.jpg)
+// ```
+// ## 思路：设左子树A，右子树为B。A向左循环 同时 B向右循环，每次循环在A和B的对应位置检查是否符合对称。每次循环中访问到的A子代的左子树向右递归，同时B子代的所有右子树向左递归，检查对应位置的值是否符合对称
+// ![未命名文件.jpg](https://pic.leetcode-cn.com/3a88c6a84bbe8c4099e3528774c3819eb2d46029f1d5bdfb953fe5131bf737ac-%E6%9C%AA%E5%91%BD%E5%90%8D%E6%96%87%E4%BB%B6.jpg)

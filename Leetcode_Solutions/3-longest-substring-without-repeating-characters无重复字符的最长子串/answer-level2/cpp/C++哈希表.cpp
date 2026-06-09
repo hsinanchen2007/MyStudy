@@ -1,9 +1,9 @@
-### 解题思路
-遍历字符串，在哈希表中没找到则添加进去，自增当前长度；找到了刷新最大长度和当前长度。
+// ### 解题思路
+// 遍历字符串，在哈希表中没找到则添加进去，自增当前长度；找到了刷新最大长度和当前长度。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	int lengthOfLongestSubstring(string s) {
@@ -26,4 +26,4 @@ public:
 		return maxLen;
 	}
 };
-```
+// ```

@@ -1,14 +1,14 @@
-# 1. 方法一：递归
+// # 1. 方法一：递归
     
-二叉搜索树中序遍历输出应该是**递增**的，在遍历二叉树的过程中找到不满足递增的点（即错误交换的点），交换两者的值即可。
-错误交换的点在中序遍历结果中**可能是相邻的，也可能是不相邻的**。
-![image.png](https://pic.leetcode-cn.com/63d37b9af0d8e912bc711bdd16a7c122c7a03674c20996041840434644ac3f74-image.png)
+// 二叉搜索树中序遍历输出应该是**递增**的，在遍历二叉树的过程中找到不满足递增的点（即错误交换的点），交换两者的值即可。
+// 错误交换的点在中序遍历结果中**可能是相邻的，也可能是不相邻的**。
+// ![image.png](https://pic.leetcode-cn.com/63d37b9af0d8e912bc711bdd16a7c122c7a03674c20996041840434644ac3f74-image.png)
 
-如上图示例二的中序遍历结果1324，错误交换的点2和3就是相邻的；使用first和second表示错误交换的两个点，在第一次遇到不递增的情况时，将first置为3，second置为2，遍历结束后交换first与second。
-![image.png](https://pic.leetcode-cn.com/f464ca29a037cba3db30383ebfa8a7413e36a5f1e12a7342717688b7e9c8a34f-image.png)
+// 如上图示例二的中序遍历结果1324，错误交换的点2和3就是相邻的；使用first和second表示错误交换的两个点，在第一次遇到不递增的情况时，将first置为3，second置为2，遍历结束后交换first与second。
+// ![image.png](https://pic.leetcode-cn.com/f464ca29a037cba3db30383ebfa8a7413e36a5f1e12a7342717688b7e9c8a34f-image.png)
 
-示例一的中序遍历结果321，错误交换的点就是不相邻的。**在第一次遇到不递增的情况时，将first设置为3，second设置为2，在第二次遇到不递增的情况时，只改变second，将second置为1**.遍历结束后交换first与second。
-```
+// 示例一的中序遍历结果321，错误交换的点就是不相邻的。**在第一次遇到不递增的情况时，将first设置为3，second设置为2，在第二次遇到不递增的情况时，只改变second，将second置为1**.遍历结束后交换first与second。
+// ```
 class Solution {
 public:
     TreeNode* first = NULL;
@@ -36,11 +36,11 @@ public:
         second->val = tmp;
     }
 };
-```
+// ```
 
-# 2. 方法二：迭代，使用栈
-将[**94题-二叉树的中序遍历**](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)的代码像方法一那样稍微修改一下即可。
-```
+// # 2. 方法二：迭代，使用栈
+// 将[**94题-二叉树的中序遍历**](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)的代码像方法一那样稍微修改一下即可。
+// ```
 class Solution {
 public:
     void recoverTree(TreeNode* root) {
@@ -73,10 +73,10 @@ public:
         second->val = tmp;
     }
 };
-```
-# 3. 莫里斯遍历，空间复杂度O(1)
-莫里斯遍历在[**94题-二叉树的中序遍历**](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)的基础上修改一下即可，输出元素时判断前驱结点的大小是否大于当前结点，记录两个错误位置的方式与方法一相同。
-```
+// ```
+// # 3. 莫里斯遍历，空间复杂度O(1)
+// 莫里斯遍历在[**94题-二叉树的中序遍历**](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)的基础上修改一下即可，输出元素时判断前驱结点的大小是否大于当前结点，记录两个错误位置的方式与方法一相同。
+// ```
 class Solution {
 public:
     void recoverTree(TreeNode* root) {
@@ -127,5 +127,5 @@ public:
         second->val = itmp;
     }
 };
-```
+// ```
 

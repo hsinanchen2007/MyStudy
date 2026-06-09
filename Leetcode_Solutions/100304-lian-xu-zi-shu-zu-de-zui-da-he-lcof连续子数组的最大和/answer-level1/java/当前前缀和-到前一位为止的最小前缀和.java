@@ -1,14 +1,14 @@
-### 解题思路
-minsum：到i-1为止最小前缀和
-pre：求0-i位的和
-不断用pre-minsum更新答案。
-O（n）
-![image.png](https://pic.leetcode-cn.com/64555890d6a298fd3e32d03a775ce4b6e91d5fe332a72f04f6926e752519a9cd-image.png)
+// ### 解题思路
+// minsum：到i-1为止最小前缀和
+// pre：求0-i位的和
+// 不断用pre-minsum更新答案。
+// O（n）
+// ![image.png](https://pic.leetcode-cn.com/64555890d6a298fd3e32d03a775ce4b6e91d5fe332a72f04f6926e752519a9cd-image.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxSubArray(int[] nums) {
         int n=nums.length;
@@ -24,4 +24,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

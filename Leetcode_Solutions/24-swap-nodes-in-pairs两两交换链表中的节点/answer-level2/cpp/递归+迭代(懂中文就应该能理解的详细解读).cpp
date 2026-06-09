@@ -1,5 +1,5 @@
-C++常规迭代法：
-```
+// C++常规迭代法：
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -43,10 +43,10 @@ public:
 
     }
 };
-```
+// ```
 
-C++递归法：
-```
+// C++递归法：
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -77,4 +77,4 @@ public:
 
     }
 };
-```
+// ```

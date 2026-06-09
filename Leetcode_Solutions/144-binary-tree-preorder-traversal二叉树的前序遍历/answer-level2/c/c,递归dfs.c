@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-这里的一个问题是：题目给的输入是数组，当数组为NULL或者元素个数为0时，入参root就为NULL，但是我们不能返回NULL，依旧要返回数组，只不过 *returnSize 为0
+// 这里的一个问题是：题目给的输入是数组，当数组为NULL或者元素个数为0时，入参root就为NULL，但是我们不能返回NULL，依旧要返回数组，只不过 *returnSize 为0
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -41,4 +41,4 @@ int* preorderTraversal(struct TreeNode* root, int* returnSize){
     
     return g_res;
 }
-```
+// ```

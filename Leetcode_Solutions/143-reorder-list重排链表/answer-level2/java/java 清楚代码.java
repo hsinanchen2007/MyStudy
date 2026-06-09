@@ -1,12 +1,12 @@
-### 解题思路
-分三步
-1, 找到中节点
-2, 翻转后一半
-3, 两链表merge
+// ### 解题思路
+// 分三步
+// 1, 找到中节点
+// 2, 翻转后一半
+// 3, 两链表merge
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void reorderList(ListNode head) {
         if (head == null || head.next == null || head.next.next == null) {
@@ -54,4 +54,4 @@ class Solution {
     }
 }
 
-```
+// ```

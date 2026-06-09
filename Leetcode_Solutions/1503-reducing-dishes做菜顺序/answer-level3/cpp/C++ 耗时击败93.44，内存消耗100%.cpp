@@ -1,9 +1,9 @@
-### 解题思路
-先排序，然后从后往前计算当前值与后面所有值之和的大小，大于0则做这道菜，否则结束返回。
+// ### 解题思路
+// 先排序，然后从后往前计算当前值与后面所有值之和的大小，大于0则做这道菜，否则结束返回。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxSatisfaction(vector<int>& satisfaction) {
@@ -30,4 +30,4 @@ public:
         return num_sum;
     }
 };
-```
+// ```

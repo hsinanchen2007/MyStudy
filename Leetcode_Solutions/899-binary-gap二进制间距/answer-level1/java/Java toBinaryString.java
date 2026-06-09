@@ -1,4 +1,4 @@
-```
+// ```
 import static java.lang.Integer.toBinaryString;
 
 class Solution {
@@ -20,5 +20,5 @@ class Solution {
         return gap;
     }
 }
-```
+// ```
 

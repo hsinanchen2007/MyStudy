@@ -1,12 +1,12 @@
-### 解题思路
-两个链表都从后面开始加：先把了l1, l2翻转了
-循环重复sum=l1.val||l2.val+carryOut, carryOut = sum/10, list.next.val = sum%10的过程
-注意现在得到的结果与需求结果是相反的，因为每次得到的value都放在next.val
-最后再把现有的链表翻转得到想要的结果。
+// ### 解题思路
+// 两个链表都从后面开始加：先把了l1, l2翻转了
+// 循环重复sum=l1.val||l2.val+carryOut, carryOut = sum/10, list.next.val = sum%10的过程
+// 注意现在得到的结果与需求结果是相反的，因为每次得到的value都放在next.val
+// 最后再把现有的链表翻转得到想要的结果。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -50,4 +50,4 @@ class Solution {
         
     }
 }
-```
+// ```

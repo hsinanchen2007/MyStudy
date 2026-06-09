@@ -1,4 +1,4 @@
-```java
+// ```java
 public class coding_365 {
     public boolean canMeasureWater(int x, int y, int z) {
         if (x == z || y == z || x + y == z || z == 0) {
@@ -14,4 +14,4 @@ public class coding_365 {
         return y == 0 ? x : gcd(y, x % y);
     }
 }
-```
+// ```

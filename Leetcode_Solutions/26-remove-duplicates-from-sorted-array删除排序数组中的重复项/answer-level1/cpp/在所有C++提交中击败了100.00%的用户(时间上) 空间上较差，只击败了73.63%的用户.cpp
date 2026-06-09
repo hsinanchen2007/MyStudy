@@ -1,9 +1,9 @@
-### 解题思路
-设置两个指针，一个用来遍历vector，一个用来存储最终结果并修改vector
+// ### 解题思路
+// 设置两个指针，一个用来遍历vector，一个用来存储最终结果并修改vector
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	int removeDuplicates(vector<int>& nums) {
@@ -24,4 +24,4 @@ public:
 		return result;
 	}
 };
-```
+// ```

@@ -1,6 +1,6 @@
-执行用时 :14 ms, 在所有 java 提交中击败了100.00%的用户
-内存消耗 :45.6 MB, 在所有 java 提交中击败了94.12%的用户
-```
+// 执行用时 :14 ms, 在所有 java 提交中击败了100.00%的用户
+// 内存消耗 :45.6 MB, 在所有 java 提交中击败了94.12%的用户
+// ```
 //map中key是加入的数,value是该数在list中的索引
 class RandomizedSet {
     Map<Integer, Integer> map;
@@ -60,4 +60,4 @@ class RandomizedSet {
  * boolean param_2 = obj.remove(val);
  * int param_3 = obj.getRandom();
  */
-```
+// ```

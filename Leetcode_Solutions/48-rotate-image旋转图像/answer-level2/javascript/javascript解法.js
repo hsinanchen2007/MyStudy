@@ -1,9 +1,9 @@
-### 解题思路
-先反转再交换
+// ### 解题思路
+// 先反转再交换
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} matrix
  * @return {void} Do not return anything, modify matrix in-place instead.
@@ -28,4 +28,4 @@ var rotate = function(matrix) {
 
     return matrix
 };
-```
+// ```

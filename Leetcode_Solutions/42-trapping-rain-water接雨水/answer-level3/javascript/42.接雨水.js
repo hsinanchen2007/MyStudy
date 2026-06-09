@@ -1,5 +1,5 @@
-双指针法:
-```
+// 双指针法:
+// ```
 var trap = function(height) {
     const length = height.length
     if (length === 0) return 0
@@ -30,4 +30,4 @@ var trap = function(height) {
     }
     return result
 };
-```
+// ```

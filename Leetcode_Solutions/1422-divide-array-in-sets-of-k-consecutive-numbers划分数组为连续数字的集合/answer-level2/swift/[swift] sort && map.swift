@@ -1,4 +1,4 @@
-```swift
+// ```swift
  class Solution {
     func isPossibleDivide(_ nums: [Int], _ k: Int) -> Bool {
         guard nums.count >= k && nums.count % k == 0 else {
@@ -38,4 +38,4 @@
         return counter.isEmpty
     }
  }
-```
+// ```

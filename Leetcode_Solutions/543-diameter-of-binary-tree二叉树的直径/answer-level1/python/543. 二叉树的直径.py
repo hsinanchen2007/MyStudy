@@ -1,9 +1,9 @@
-### 解题思路
-其实二叉树的题目套路挺固定的，都是向左树和右树要信息，一开始想了很复杂，一个一个遍历节点，但是其实只要利用递归就可以了，不需要用for循环，这是利用了系统栈帮忙实现的。
+# ### 解题思路
+# 其实二叉树的题目套路挺固定的，都是向左树和右树要信息，一开始想了很复杂，一个一个遍历节点，但是其实只要利用递归就可以了，不需要用for循环，这是利用了系统栈帮忙实现的。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -45,4 +45,4 @@ class Solution(object):
         # return leftcount+rightcount
 
 
-```
+# ```

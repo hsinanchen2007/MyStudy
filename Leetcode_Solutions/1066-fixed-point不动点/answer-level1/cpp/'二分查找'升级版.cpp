@@ -1,9 +1,9 @@
-# 1.分析
-如果只有一个A[i]=i，通用的二分查找(*binarySearch*)即可。
-但是，实际上，可能出现多个A[i]=i，此时在找到第一个A[i]=i时，要继续使用二分法往下找**不动点**，所以要使用*fixedPoint*方法。
-*binarySearch*和*fixedPoint*两个方法，*fixedPoint*多出的部分，已经在注释中标明：①②③④。
-# 2.代码
-```
+// # 1.分析
+// 如果只有一个A[i]=i，通用的二分查找(*binarySearch*)即可。
+// 但是，实际上，可能出现多个A[i]=i，此时在找到第一个A[i]=i时，要继续使用二分法往下找**不动点**，所以要使用*fixedPoint*方法。
+// *binarySearch*和*fixedPoint*两个方法，*fixedPoint*多出的部分，已经在注释中标明：①②③④。
+// # 2.代码
+// ```
 class Solution {
     public:
          int fixedPoint(vector<int>& A) {
@@ -44,4 +44,4 @@ class Solution {
             return -1;
         }
 };
-```
+// ```

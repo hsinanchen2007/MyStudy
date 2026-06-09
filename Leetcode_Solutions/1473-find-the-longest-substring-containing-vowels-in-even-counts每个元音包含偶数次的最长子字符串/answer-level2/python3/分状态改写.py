@@ -1,8 +1,8 @@
-### 解题思路
-模仿人家的思路，自己写了段python代码，还是很简单的。
-### 代码
+# ### 解题思路
+# 模仿人家的思路，自己写了段python代码，还是很简单的。
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findTheLongestSubstring(self, s: str) -> int:
         list_vowel = ['a', 'e', 'i', 'o', 'u']
@@ -49,4 +49,4 @@ class Solution:
                     # print(k, start, end)
         return end - start
 
-```
+# ```

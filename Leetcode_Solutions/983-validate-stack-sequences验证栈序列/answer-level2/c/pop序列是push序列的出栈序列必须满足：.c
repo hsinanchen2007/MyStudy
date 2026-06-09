@@ -1,7 +1,7 @@
-**pop序列是push序列的出栈序列必须满足条件：**
-    **遍历pop序列每个元素x对应的push索引xindex，以xindex为起点，后续所有小于xindex的值必须呈现降序排列。**
-    举例：push序列[2,1,5,6,7]，pop序列[6,2,1,5,7] pop对应在push的index序列[3,0,1,2,4]
-         那么index=3右侧所有小于3的数字呈现0、1、2升序排列，因此不满足条件。
+// **pop序列是push序列的出栈序列必须满足条件：**
+//     **遍历pop序列每个元素x对应的push索引xindex，以xindex为起点，后续所有小于xindex的值必须呈现降序排列。**
+//     举例：push序列[2,1,5,6,7]，pop序列[6,2,1,5,7] pop对应在push的index序列[3,0,1,2,4]
+//          那么index=3右侧所有小于3的数字呈现0、1、2升序排列，因此不满足条件。
 
 		
         int getIndex(int num, int* arr, int arrSize){

@@ -1,5 +1,5 @@
-1、暴力法
-```javascript
+// 1、暴力法
+// ```javascript
 /**
  * @param {number[]} numbers
  * @param {number} target
@@ -16,14 +16,14 @@ var twoSum = function(numbers, target) {
     }
     return null;
 };
-```
-时间复杂度：O(n^2)
-空间复杂度：O(1)
+// ```
+// 时间复杂度：O(n^2)
+// 空间复杂度：O(1)
 
 
-2、双指针
-这里也可以理解为二分法
-```javascript
+// 2、双指针
+// 这里也可以理解为二分法
+// ```javascript
 /**
  * @param {number[]} numbers
  * @param {number} target
@@ -42,6 +42,6 @@ var twoSum = function(numbers, target) {
     }
     return null;
 };
-```
-时间复杂度：O(n),每个元素最多被访问一次，共有 n 个元素。
-空间复杂度：O(1),只是用了两个指针
+// ```
+// 时间复杂度：O(n),每个元素最多被访问一次，共有 n 个元素。
+// 空间复杂度：O(1),只是用了两个指针

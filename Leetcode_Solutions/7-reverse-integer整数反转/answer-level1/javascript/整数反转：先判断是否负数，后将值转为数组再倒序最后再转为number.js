@@ -1,9 +1,9 @@
-### 解题思路
-先判断是否负数，后将值转为数组再倒序最后再转为number
+// ### 解题思路
+// 先判断是否负数，后将值转为数组再倒序最后再转为number
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} x
  * @return {number}
@@ -18,4 +18,4 @@ var reverse = function(x) {
     // 溢出判断
     return outRange ? 0 : target
 };
-```
+// ```

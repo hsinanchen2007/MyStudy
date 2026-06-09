@@ -1,11 +1,11 @@
-解题思路：
-直接对树进行深度搜索遍历dfs，因为从父节点到各个子节的概率相同，所以到子节点的概率为：
-当前节点概率/子节点数目
-其中当前节点概率指的是从根节点到当前节点的概率。
-如果能在t步内遍历到目标节点，则返回当前概率，否则返回0
+// 解题思路：
+// 直接对树进行深度搜索遍历dfs，因为从父节点到各个子节的概率相同，所以到子节点的概率为：
+// 当前节点概率/子节点数目
+// 其中当前节点概率指的是从根节点到当前节点的概率。
+// 如果能在t步内遍历到目标节点，则返回当前概率，否则返回0
 
-create by chris https://github.com/noyo/Leetcode-Hard-Java
-```
+// create by chris https://github.com/noyo/Leetcode-Hard-Java
+// ```
 public class Problem5355 {
 
     //邻接表
@@ -58,4 +58,4 @@ public class Problem5355 {
         return res;
     }
 }
-```
+// ```

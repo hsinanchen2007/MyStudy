@@ -1,4 +1,4 @@
-```
+// ```
 
 func backspaceCompare(S string, T string) bool {
 	sStack := genStack(S)
@@ -68,4 +68,4 @@ func (s *Stack) Push(val int) {
 	s.Vals = append(s.Vals, &val)
 }
 
-```
+// ```

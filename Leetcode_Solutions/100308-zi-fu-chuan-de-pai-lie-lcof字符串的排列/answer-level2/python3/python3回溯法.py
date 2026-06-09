@@ -1,5 +1,5 @@
-# 字符串的全排列代码
-```
+# # 字符串的全排列代码
+# ```
 class Solution:
     def permutation(self, s: str) -> List[str]:
         if not s: return 
@@ -13,10 +13,10 @@ class Solution:
                 helper(s[:i]+s[i+1:],tmp+[char])
         helper(s,[])
         return res
-```
-# 另外附上数组的全排列代码
-# 善于总结，方能百战不殆
-```
+# ```
+# # 另外附上数组的全排列代码
+# # 善于总结，方能百战不殆
+# ```
 class Solution:
     def permuteUnique(self, nums: List[int]) -> List[List[int]]:
         res=[]
@@ -30,5 +30,5 @@ class Solution:
                 helper(nums[:i]+nums[i+1:],temp+[nums[i]])
         helper(nums,[])
         return res
-```
+# ```
 

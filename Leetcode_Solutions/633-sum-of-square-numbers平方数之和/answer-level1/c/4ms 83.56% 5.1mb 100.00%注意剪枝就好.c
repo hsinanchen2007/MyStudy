@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <math.h>
 bool judgeSquareSum(long c){
     long limit=(int)sqrt(c);
@@ -17,4 +17,4 @@ bool judgeSquareSum(long c){
     }
     return false;
 }
-```
+// ```

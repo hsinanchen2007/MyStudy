@@ -1,12 +1,12 @@
-### 解题思路
-可以看一下[官方题解](https://leetcode-cn.com/problems/as-far-from-land-as-possible/solution/di-tu-fen-xi-by-leetcode-solution/)拓展一下思路。
+// ### 解题思路
+// 可以看一下[官方题解](https://leetcode-cn.com/problems/as-far-from-land-as-possible/solution/di-tu-fen-xi-by-leetcode-solution/)拓展一下思路。
 
-### 朴素BFS代码
+// ### 朴素BFS代码
 
-- 思路：每个海洋的点都考虑一遍，每个点都做一次BFS找出离它距离最近的陆地的距离，然后把每个海洋的点遍历完取最大值，就是答案！
-- 时间复杂度：每个点做BFS最差是O(N^2)，最差情况是每个点都要跑一遍BFS（全是海洋的情况）,所以时间复杂度为O(N^4)，N不超过100，所以不会超时！
+// - 思路：每个海洋的点都考虑一遍，每个点都做一次BFS找出离它距离最近的陆地的距离，然后把每个海洋的点遍历完取最大值，就是答案！
+// - 时间复杂度：每个点做BFS最差是O(N^2)，最差情况是每个点都要跑一遍BFS（全是海洋的情况）,所以时间复杂度为O(N^4)，N不超过100，所以不会超时！
 
-```cpp
+// ```cpp
 typedef pair<int,int> PII;
 bool st[110][110];
 int dist[110][110];
@@ -62,17 +62,17 @@ public:
         return maxv;
     }
 };
-```
+// ```
 
-### 多源BFS代码
+// ### 多源BFS代码
 
-思路和下面两篇题解相同,可以看一看，比较直观
-[dalao1](https://leetcode-cn.com/problems/as-far-from-land-as-possible/solution/lu-di-bu-duan-chang-da-zhi-dao-fu-gai-zheng-ge-di-/)
-[dalao2](https://leetcode-cn.com/problems/as-far-from-land-as-possible/solution/zhen-liang-yan-sou-huan-neng-duo-yuan-kan-wan-miao/)
-- 思路：将每个陆地的点都入队，同时开始让这些陆地开始长大，直到整个地图被陆地覆盖，此时最大的dist就是答案
-- 时间复杂度，每个点只被遍历一遍，所以时间复杂度为 O(N^2)
+// 思路和下面两篇题解相同,可以看一看，比较直观
+// [dalao1](https://leetcode-cn.com/problems/as-far-from-land-as-possible/solution/lu-di-bu-duan-chang-da-zhi-dao-fu-gai-zheng-ge-di-/)
+// [dalao2](https://leetcode-cn.com/problems/as-far-from-land-as-possible/solution/zhen-liang-yan-sou-huan-neng-duo-yuan-kan-wan-miao/)
+// - 思路：将每个陆地的点都入队，同时开始让这些陆地开始长大，直到整个地图被陆地覆盖，此时最大的dist就是答案
+// - 时间复杂度，每个点只被遍历一遍，所以时间复杂度为 O(N^2)
 
-```cpp
+// ```cpp
 typedef pair<int,int> PII;
 bool st[110][110];
 int dist[110][110];
@@ -129,4 +129,4 @@ public:
         return maxv;
     }
 };
-```
+// ```

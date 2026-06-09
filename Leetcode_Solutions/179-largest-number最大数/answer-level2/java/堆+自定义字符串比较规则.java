@@ -1,14 +1,14 @@
-### 解题思路
-这个题的关键就是怎么比较字符串的“大小”
-假设字符串a和b，长度分别为m和n
+// ### 解题思路
+// 这个题的关键就是怎么比较字符串的“大小”
+// 假设字符串a和b，长度分别为m和n
 
-1. 若m = n 直接调用compareTo
-2. 若m > n 则截取a的前n个字符与b比较，若不相等则返回compareTo比较的结果，若相等则选取a剩下的字符串（a.subString(n)）与b进行比较，循环1，2步骤即可。
+// 1. 若m = n 直接调用compareTo
+// 2. 若m > n 则截取a的前n个字符与b比较，若不相等则返回compareTo比较的结果，若相等则选取a剩下的字符串（a.subString(n)）与b进行比较，循环1，2步骤即可。
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String largestNumber(int[] nums) {
         if (nums.length == 0)
@@ -64,4 +64,4 @@ class Solution {
         }
     }
 }
-```
+// ```

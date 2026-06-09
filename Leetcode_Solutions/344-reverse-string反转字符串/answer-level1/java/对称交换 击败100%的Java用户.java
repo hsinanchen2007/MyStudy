@@ -1,5 +1,5 @@
-代码如下：
-```
+// 代码如下：
+// ```
 class Solution {
     public void reverseString(char[] s) {
         int maxIndex = s.length-1;
@@ -10,4 +10,4 @@ class Solution {
         }
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 struct Node* connect(struct Node* root) {
     if(root == NULL)
         return NULL;
@@ -26,4 +26,4 @@ struct Node* connect(struct Node* root) {
     }
     return root;
 }
-```
+// ```

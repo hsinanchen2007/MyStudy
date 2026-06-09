@@ -1,9 +1,9 @@
-### 解题思路
-BFS 层次遍历，后倒序
+# ### 解题思路
+# BFS 层次遍历，后倒序
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -33,4 +33,4 @@ class Solution(object):
                 stack.append((layer + 1,r.right))
         ans.append(temp)
         return ans[::-1]
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-用数组实现入栈出栈，复习了list的操作，感觉python在静态队列的实现上挺友好
+# ### 解题思路
+# 用数组实现入栈出栈，复习了list的操作，感觉python在静态队列的实现上挺友好
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isValid(self, s: str) -> bool:
         sets={"(":1,")":-1,"{":9,"}":-9,"[":100,"]":-100," ":0}
@@ -24,4 +24,4 @@ class Solution:
                 else:
                     return False
         return False if sum1 else True
-```
+# ```

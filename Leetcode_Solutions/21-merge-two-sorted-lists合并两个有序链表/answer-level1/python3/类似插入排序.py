@@ -1,10 +1,10 @@
-### 解题思路
-时间复杂度：O(m+n)
-空间复杂度：O(m+n)
+# ### 解题思路
+# 时间复杂度：O(m+n)
+# 空间复杂度：O(m+n)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -38,4 +38,4 @@ class Solution:
                 next_node.next = l2
         return merged
 
-```
+# ```

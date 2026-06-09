@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def isLongPressedName(self, name, typed):
         """
@@ -20,4 +20,4 @@ class Solution(object):
             else:
                 q+=1
         return p==len(name)
-```
+# ```

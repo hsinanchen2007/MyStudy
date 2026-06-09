@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/577d130416a11cd9732fbdb853b3dff051c8c7637a03e34a125c27337e7fd816-image.png)
-可能是这道题PHP就我一个人解答吧?
+// ![image.png](https://pic.leetcode-cn.com/577d130416a11cd9732fbdb853b3dff051c8c7637a03e34a125c27337e7fd816-image.png)
+// 可能是这道题PHP就我一个人解答吧?
 
-时间复杂度O(n),空间复杂度O(1)
-```
+// 时间复杂度O(n),空间复杂度O(1)
+// ```
 class Solution {
 
     /**
@@ -36,4 +36,4 @@ class Solution {
         return $out;
     }
 }
-```
+// ```

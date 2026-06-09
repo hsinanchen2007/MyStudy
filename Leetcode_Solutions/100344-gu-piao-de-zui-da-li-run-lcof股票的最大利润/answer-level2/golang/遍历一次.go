@@ -1,9 +1,9 @@
-### 解题思路
-逐个遍历，记录下当前位置的最大值和最小值，即得当前位置的最大利润。遍历完后，即得最大利润。
+// ### 解题思路
+// 逐个遍历，记录下当前位置的最大值和最小值，即得当前位置的最大利润。遍历完后，即得最大利润。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func maxProfit(prices []int) int {
     if len(prices) < 1 {
         return 0
@@ -19,4 +19,4 @@ func maxProfit(prices []int) int {
     }
     return res
 }
-```
+// ```

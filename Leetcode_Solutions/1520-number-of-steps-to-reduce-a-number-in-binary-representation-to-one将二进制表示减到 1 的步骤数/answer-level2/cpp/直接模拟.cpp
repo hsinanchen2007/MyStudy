@@ -1,6 +1,6 @@
-1. 如果为偶数，则去掉最后一位。
-2. 如果为奇数，则进行加1模拟。
-```c++
+// 1. 如果为偶数，则去掉最后一位。
+// 2. 如果为奇数，则进行加1模拟。
+// ```c++
 class Solution {
 public:
     string increment(string &s){
@@ -32,4 +32,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-1.先对其进行排序
-2.依次遍历，更新所有的射击区间
+// ### 解题思路
+// 1.先对其进行排序
+// 2.依次遍历，更新所有的射击区间
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 bool cmp(const vector<int> &a ,const vector<int> &b){
         return a.front() <= b.front();
 }
@@ -34,4 +34,4 @@ public:
         return  shoot_num;
     }
 };
-```
+// ```

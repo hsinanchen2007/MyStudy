@@ -1,11 +1,11 @@
-![image.png](https://pic.leetcode-cn.com/2e6cdfd9ea8b42f963df51d09ee62c9720470a70696e58f2576b56b199edef2d-image.png)
+// ![image.png](https://pic.leetcode-cn.com/2e6cdfd9ea8b42f963df51d09ee62c9720470a70696e58f2576b56b199edef2d-image.png)
 
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} arr
  * @param {number} k
@@ -38,4 +38,4 @@ var numOfSubarrays = function(arr, k, threshold) {
   
   return ans;
 };
-```
+// ```

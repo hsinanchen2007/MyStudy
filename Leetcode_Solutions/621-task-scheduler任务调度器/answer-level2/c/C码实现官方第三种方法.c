@@ -1,9 +1,9 @@
-### 解题思路
-leetcode官方第三种方法的图形分析法很巧妙。
+// ### 解题思路
+// leetcode官方第三种方法的图形分析法很巧妙。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX_TASK_NUM 26
 
 int compare(const void *a, const void *b)
@@ -29,7 +29,7 @@ int leastInterval(char* tasks, int tasksSize, int n){
     }
     return (idleTime > 0) ? (idleTime + tasksSize) : tasksSize;
 }
-```
-### 执行结果
-执行用时 :52 ms, 在所有 C 提交中击败了62.03%的用户
-内存消耗 :6.1 MB, 在所有 C 提交中击败了100.00%的用户
+// ```
+// ### 执行结果
+// 执行用时 :52 ms, 在所有 C 提交中击败了62.03%的用户
+// 内存消耗 :6.1 MB, 在所有 C 提交中击败了100.00%的用户

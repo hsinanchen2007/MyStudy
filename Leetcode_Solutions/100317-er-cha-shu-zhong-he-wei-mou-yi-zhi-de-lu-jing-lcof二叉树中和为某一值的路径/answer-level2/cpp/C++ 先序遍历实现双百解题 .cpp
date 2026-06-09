@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/df3853080d918701b084db08aebf5e94cfd334fdb046ac4455add7dadc3ae7e2-image.png)
-二叉树的先序遍历的变形，也可以说是DFS
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/df3853080d918701b084db08aebf5e94cfd334fdb046ac4455add7dadc3ae7e2-image.png)
+// 二叉树的先序遍历的变形，也可以说是DFS
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	vector<vector<int>> pathSum(TreeNode* root, int sum) {
@@ -31,4 +31,4 @@ public:
 		path.pop_back();
 	}
 };
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-首先用二分查找的思路来找到divide_point, 然后对nums进行重新组装
-然后就是对已经有序的nums进行二分查找了.
-如果用我这种递归写法来做二分查找, 不要漏掉if left > right这个情况.
+# ### 解题思路
+# 首先用二分查找的思路来找到divide_point, 然后对nums进行重新组装
+# 然后就是对已经有序的nums进行二分查找了.
+# 如果用我这种递归写法来做二分查找, 不要漏掉if left > right这个情况.
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         # 先二分查找看下是否正常
@@ -61,4 +61,4 @@ class Solution:
         else:
             return self.binary_search(nums, mid + 1, right, target)
 
-```
+# ```

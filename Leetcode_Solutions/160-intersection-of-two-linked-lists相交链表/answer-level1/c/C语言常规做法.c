@@ -1,6 +1,6 @@
-不难发现，如果两链表相交，则两链表尾部到相交节点距离相同。具体算法如下。两个方法的原理相同。
-- 方法一
-```c
+// 不难发现，如果两链表相交，则两链表尾部到相交节点距离相同。具体算法如下。两个方法的原理相同。
+// - 方法一
+// ```c
 struct ListNode *getIntersectionNode(struct ListNode *headA, struct ListNode *headB) {
     struct ListNode *p_1=headA,*p_2=headB;
     while(p_1!=0&&p_2!=0){
@@ -25,10 +25,10 @@ struct ListNode *getIntersectionNode(struct ListNode *headA, struct ListNode *he
     }
     return 0;
 }
-```
-- 方法二
-为了简明易读，某些步骤通过另写函数实现。
-```c
+// ```
+// - 方法二
+// 为了简明易读，某些步骤通过另写函数实现。
+// ```c
 short length(struct ListNode *obj){
     short length=0;
     while(obj!=0){
@@ -61,4 +61,4 @@ struct ListNode *getIntersectionNode(struct ListNode *headA, struct ListNode *he
     }
     return 0;
 }
-```
+// ```

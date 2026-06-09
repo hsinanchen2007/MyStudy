@@ -1,9 +1,9 @@
-### 解题思路
-首个leetcode题目，熟悉一下leetcode刷题流程！
-立个flag！！！
-### 代码
+// ### 解题思路
+// 首个leetcode题目，熟悉一下leetcode刷题流程！
+// 立个flag！！！
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
@@ -19,4 +19,4 @@ public:
         return{i,j};
     };
 };
-```
+// ```

@@ -1,6 +1,6 @@
-需要遍历两次，每次都是O(m+n)的时间。
+// 需要遍历两次，每次都是O(m+n)的时间。
 
-```
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -53,4 +53,4 @@ public:
         
     }
 };
-```
+// ```

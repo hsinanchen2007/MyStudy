@@ -1,9 +1,9 @@
-### 解题思路
-整数快速幂，浮点数快速幂，没区别。
+// ### 解题思路
+// 整数快速幂，浮点数快速幂，没区别。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     double myPow(double x, int n) {
@@ -23,4 +23,4 @@ public:
         return pow;
     }
 };
-```
+// ```

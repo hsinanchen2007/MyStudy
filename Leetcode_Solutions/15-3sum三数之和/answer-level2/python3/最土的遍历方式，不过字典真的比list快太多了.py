@@ -1,14 +1,14 @@
-### 解题思路
-最土的遍历代码，可以再优化，不过字典 hash是真快呀
+# ### 解题思路
+# 最土的遍历代码，可以再优化，不过字典 hash是真快呀
 
-执行用时 :
-480 ms, 在所有 Python3 提交中击败了98.01%的用户
-内存消耗 :
-20.6 MB, 在所有 Python3 提交中击败了5.13%的用户
+# 执行用时 :
+# 480 ms, 在所有 Python3 提交中击败了98.01%的用户
+# 内存消耗 :
+# 20.6 MB, 在所有 Python3 提交中击败了5.13%的用户
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution(object):
     def threeSum(self, nums: list) -> list:
 
@@ -80,4 +80,4 @@ class Solution(object):
             resultList2.append(list(item))
         return resultList2
 
-```
+# ```

@@ -1,4 +1,4 @@
-```swift
+// ```swift
 class Solution {
     func rob(_ nums: [Int]) -> Int {
         if nums.isEmpty {
@@ -18,4 +18,4 @@ class Solution {
         return neg1
     }
 }
-```
+// ```

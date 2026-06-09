@@ -1,13 +1,13 @@
-### 解题思路
-看了大佬后的代码才写出来的，自己还是太菜。
-加油呀！
-最开始想到的是DFS，想的思路是找最大数max，每次用n减去max*max，如果n小于0，就回溯，可是n不可能小于0，因为有1这个完全平方数
+// ### 解题思路
+// 看了大佬后的代码才写出来的，自己还是太菜。
+// 加油呀！
+// 最开始想到的是DFS，想的思路是找最大数max，每次用n减去max*max，如果n小于0，就回溯，可是n不可能小于0，因为有1这个完全平方数
 
-用DFS把所有的实现都写出来，然后选择一个最小的，方法很笨拙，就当加深自己对于知识的理解好了。
+// 用DFS把所有的实现都写出来，然后选择一个最小的，方法很笨拙，就当加深自己对于知识的理解好了。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numSquares(int n) {
         int level = 0;
@@ -42,9 +42,9 @@ class Solution {
         return i-1;
     }
 }
-```
+// ```
 
-```java
+// ```java
 DFS 其中result[0]为最小次数，result[1]为总次数。
 public int numSquares1(int n){
         int[] result  = new int[2];
@@ -70,4 +70,4 @@ public int numSquares1(int n){
             list.remove(list.size()-1);
         }
     }
-```
+// ```

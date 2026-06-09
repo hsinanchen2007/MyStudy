@@ -1,12 +1,12 @@
-### 解题思路
-思路有点类似head的parent节点是i,则left的index为2*i
-                                  right的index为2*i+1
-无非就是遞歸地進行
-要麼是當前寬度-首次出現的節點+1
-就是下一層的寬度
-### 代码
+# ### 解题思路
+# 思路有点类似head的parent节点是i,则left的index为2*i
+#                                   right的index为2*i+1
+# 无非就是遞歸地進行
+# 要麼是當前寬度-首次出現的節點+1
+# 就是下一層的寬度
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -27,4 +27,4 @@ class Solution:
                     h(r.right,2*w+1,d+1))
         return h(root,0,0)
         
-```
+# ```

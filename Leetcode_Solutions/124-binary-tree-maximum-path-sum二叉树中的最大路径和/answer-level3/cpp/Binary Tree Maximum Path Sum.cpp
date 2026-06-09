@@ -1,17 +1,17 @@
-### 解题思路
-特别注意，路径不能分叉，从某个结点出发，一次性到另一个节点，每条边只能经过一次；
-所以，如果将某条路径放在原二叉树中，可以将其视为一颗子树，只有子树的根能够进行一次分叉，其余不存在左右孩子均出现在路径的情况；
-所以我们可以单独通过递归先来计算由根节点产生单向路径的路径最大值（无分叉）: g(root);
-g(root)=max{root->val;root->val+g(root->left);root->val+g(root->right);}
-那么再考虑这道题目的最大路径和 : f(root);
-如果路径经过root，那么
-f(root)=max{root->val,g(root),root->val+g(root->left)+g(root->right);}
-如果不经过root，那么
-f(root)=max{f(root->right);f(root->left)};
+// ### 解题思路
+// 特别注意，路径不能分叉，从某个结点出发，一次性到另一个节点，每条边只能经过一次；
+// 所以，如果将某条路径放在原二叉树中，可以将其视为一颗子树，只有子树的根能够进行一次分叉，其余不存在左右孩子均出现在路径的情况；
+// 所以我们可以单独通过递归先来计算由根节点产生单向路径的路径最大值（无分叉）: g(root);
+// g(root)=max{root->val;root->val+g(root->left);root->val+g(root->right);}
+// 那么再考虑这道题目的最大路径和 : f(root);
+// 如果路径经过root，那么
+// f(root)=max{root->val,g(root),root->val+g(root->left)+g(root->right);}
+// 如果不经过root，那么
+// f(root)=max{f(root->right);f(root->left)};
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -71,4 +71,4 @@ public:
         }
     }
 };
-```
+// ```

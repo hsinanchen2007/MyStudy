@@ -1,9 +1,9 @@
-### 解题思路
-	想了半天没想到BFS也没想到数学法，写的暴力循环没用，看了题解发现数学还是王道
+// ### 解题思路
+// 	想了半天没想到BFS也没想到数学法，写的暴力循环没用，看了题解发现数学还是王道
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <stdbool.h>
 
 int gcd(int a, int b) {
@@ -35,4 +35,4 @@ bool canMeasureWater(int x, int y, int z) {
 		return false;
 	}
 }
-```
+// ```

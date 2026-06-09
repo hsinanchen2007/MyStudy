@@ -1,13 +1,13 @@
-记录每轮最小的 cost 和第二小的 cost，以及最小 cost 的 id。
+// 记录每轮最小的 cost 和第二小的 cost，以及最小 cost 的 id。
 
-下一轮中，对每个 color，当前 id 和上一轮最小 cost 的 id 不同时，则以第二小 cost 为基础，否则以最小 cost 为基础。
+// 下一轮中，对每个 color，当前 id 和上一轮最小 cost 的 id 不同时，则以第二小 cost 为基础，否则以最小 cost 为基础。
 
-时间复杂度 O(nk) 空间复杂度 O(1)
+// 时间复杂度 O(nk) 空间复杂度 O(1)
 
-![image.png](https://pic.leetcode-cn.com/73b683f571698ff4e3bd7b434f9316ad9e57d3e2bd27a798272b3efe2d95e3f3-image.png)
+// ![image.png](https://pic.leetcode-cn.com/73b683f571698ff4e3bd7b434f9316ad9e57d3e2bd27a798272b3efe2d95e3f3-image.png)
 
 
-```rust
+// ```rust
 struct CostRecord {
     min_cost: i32,
     second_min_cost: i32,
@@ -55,4 +55,4 @@ impl Solution {
         record.min_cost
     }
 }
-```
+// ```

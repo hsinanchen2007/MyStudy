@@ -1,9 +1,9 @@
-### 解题思路
-链表问题，需要考虑的是到底要存多少指针。循环的时候，两个指针用来交换，剩下一个指针作为游标像后移动。
+// ### 解题思路
+// 链表问题，需要考虑的是到底要存多少指针。循环的时候，两个指针用来交换，剩下一个指针作为游标像后移动。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -33,4 +33,4 @@ var swapPairs = function(head) {
   }
   return self.next
 };
-```
+// ```

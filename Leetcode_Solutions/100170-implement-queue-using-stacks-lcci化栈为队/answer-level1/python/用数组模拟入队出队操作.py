@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/1820e65f775d6fc761d95c48a1111968029715f605108b0739b4dd3249abbfe4-image.png)
+# ### 解题思路
+# 此处撰写解题思路
+# ![image.png](https://pic.leetcode-cn.com/1820e65f775d6fc761d95c48a1111968029715f605108b0739b4dd3249abbfe4-image.png)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class MyQueue:
 
     def __init__(self):
@@ -50,4 +50,4 @@ class MyQueue:
 # param_2 = obj.pop()
 # param_3 = obj.peek()
 # param_4 = obj.empty()
-```
+# ```

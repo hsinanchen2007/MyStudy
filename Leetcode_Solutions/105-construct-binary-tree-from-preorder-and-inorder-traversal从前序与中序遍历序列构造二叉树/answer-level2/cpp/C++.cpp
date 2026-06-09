@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     void buildT(vector<int>& preorder, vector<int>& inorder, TreeNode* &p, int low_pre, int high_pre, int low_in, int high_in){
@@ -28,4 +28,4 @@ public:
         return root;
     }
 };
-```
+// ```

@@ -1,6 +1,6 @@
-思路：中序遍历后便得到一个升序序列。
-<br/><br/>
-```zephir
+// 思路：中序遍历后便得到一个升序序列。
+// <br/><br/>
+// ```zephir
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -49,4 +49,4 @@ class BSTIterator {
  * int param_1 = obj.next();
  * boolean param_2 = obj.hasNext();
  */
-```
+// ```

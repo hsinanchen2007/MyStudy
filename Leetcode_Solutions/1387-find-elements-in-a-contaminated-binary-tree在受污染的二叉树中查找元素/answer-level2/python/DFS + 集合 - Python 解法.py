@@ -1,13 +1,13 @@
-## 思路
+# ## 思路
 
-利用`DFS`按题目要求建树，
+# 利用`DFS`按题目要求建树，
 
-建树过程中用一个集合 `self.values`，记录树中所有的值，
+# 建树过程中用一个集合 `self.values`，记录树中所有的值，
 
-这样可以快速知道一个值在不在树中。
+# 这样可以快速知道一个值在不在树中。
 
-## 代码实现
-```Python
+# ## 代码实现
+# ```Python
 class FindElements(object):
 
     def __init__(self, root):
@@ -36,8 +36,8 @@ class FindElements(object):
         
         return target in self.values
 
-```
+# ```
 
-## 复杂度分析：
-时间复杂度：$O(N)$
-空间复杂度：$O(N)$
+# ## 复杂度分析：
+# 时间复杂度：$O(N)$
+# 空间复杂度：$O(N)$

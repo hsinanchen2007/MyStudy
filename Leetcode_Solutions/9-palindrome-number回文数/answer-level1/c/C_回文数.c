@@ -1,11 +1,11 @@
-### 解题思路
-利用 % 和 / 把数从低位到高位入栈，再逐个出栈和低位比较。
-0要单独考虑
-负数直接返回false
+// ### 解题思路
+// 利用 % 和 / 把数从低位到高位入栈，再逐个出栈和低位比较。
+// 0要单独考虑
+// 负数直接返回false
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct Node{
     int data;
     struct Node* next;
@@ -53,4 +53,4 @@ bool isPalindrome(int x){
 
     return flag;
 }
-```
+// ```

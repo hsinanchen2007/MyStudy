@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int distance(vector<int> nums,int pos)
@@ -29,4 +29,4 @@ public:
         return res;
     }
 };
-```
+// ```

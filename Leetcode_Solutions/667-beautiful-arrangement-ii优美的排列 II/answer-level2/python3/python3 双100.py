@@ -1,9 +1,9 @@
-### 解题思路
-官方题解思路
+# ### 解题思路
+# 官方题解思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def constructArray(self, n: int, k: int) -> List[int]:
         if n==1:
@@ -22,4 +22,4 @@ class Solution:
                 i+=1
                 j-=1
             return front_part
-```
+# ```

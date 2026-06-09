@@ -1,9 +1,9 @@
-### 解题思路
-基本上是相当于把官方的C++方案改写了一下，思想其实还是枚举，这是C#的版本的第一种
+// ### 解题思路
+// 基本上是相当于把官方的C++方案改写了一下，思想其实还是枚举，这是C#的版本的第一种
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int[][] FindContinuousSequence(int target) {
         List<int> res = new List<int>();
@@ -31,4 +31,4 @@ public class Solution {
         return expandres.ToArray();
     }
 }
-```
+// ```

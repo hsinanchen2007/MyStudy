@@ -1,9 +1,9 @@
-### 解题思路
-mid 不能用 （low+high）/2 因为测试用例会很大，产生溢出。
+// ### 解题思路
+// mid 不能用 （low+high）/2 因为测试用例会很大，产生溢出。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 // The API isBadVersion is defined for you.
 // bool isBadVersion(int version);
 
@@ -23,4 +23,4 @@ int firstBadVersion(int n) {
     return 1;
 }
 
-```
+// ```

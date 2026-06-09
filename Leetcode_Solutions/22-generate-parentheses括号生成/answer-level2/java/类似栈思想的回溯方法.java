@@ -1,4 +1,4 @@
-```java
+// ```java
 public List<String> generateParenthesis(int n) {
         List<String> res=new ArrayList<>();
         dfs(res, new StringBuilder(), 0, n);
@@ -12,4 +12,4 @@ public List<String> generateParenthesis(int n) {
         dfs(list, sb.append(')'), left-1, n-1);//当添加一个右括号，相当于抵消一个左括号
         sb.deleteCharAt(sb.length()-1);
     }
-```
+// ```

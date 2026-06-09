@@ -1,9 +1,9 @@
-### 解题思路
-哈希表计数, 最小堆
+// ### 解题思路
+// 哈希表计数, 最小堆
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 //	347
 type Feq struct {
@@ -60,4 +60,4 @@ func topKFrequent(nums []int, k int) []int {
 	return res
 }
 
-```
+// ```

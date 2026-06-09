@@ -1,9 +1,9 @@
-### 解题思路
-建立一个空的头结点l,p指向l,r指向p的下一个。如果r->val==r->next->val,则r不断跳过重复数字，到下一个数为止。不重复的数字就赋给p
+// ### 解题思路
+// 建立一个空的头结点l,p指向l,r指向p的下一个。如果r->val==r->next->val,则r不断跳过重复数字，到下一个数为止。不重复的数字就赋给p
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -35,4 +35,4 @@ struct ListNode* deleteDuplicates(struct ListNode* head){
     free(p);
     return l;
 }
-```
+// ```

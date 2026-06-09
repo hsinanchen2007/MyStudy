@@ -1,18 +1,18 @@
-### 解题思路
-典型的棋类问题，判断能否到达某状态或步数，通常使用BFS或DFS+memo解决。
+// ### 解题思路
+// 典型的棋类问题，判断能否到达某状态或步数，通常使用BFS或DFS+memo解决。
 
-本题使用编程更为友好的BFS解决。
+// 本题使用编程更为友好的BFS解决。
 
-另外对于已经使用的状态或无法到达的状态，使用HASH表组织。
+// 另外对于已经使用的状态或无法到达的状态，使用HASH表组织。
 
-编程时注意，hash使用的地址为实际比对数据的地址，本题无需再加&。
+// 编程时注意，hash使用的地址为实际比对数据的地址，本题无需再加&。
 
-![image.png](https://pic.leetcode-cn.com/8ca8fb2589f5832966df855674c4d22ed60ccf785caa15192050c48d92a4aee7-image.png)
+// ![image.png](https://pic.leetcode-cn.com/8ca8fb2589f5832966df855674c4d22ed60ccf785caa15192050c48d92a4aee7-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <stdlib.h>
 #include <stdio.h>
 #include <stdbool.h>
@@ -138,4 +138,4 @@ int openLock(char ** deadends, int deadendsSize, char * target){
 
     return -1;
 }
-```
+// ```

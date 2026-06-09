@@ -1,8 +1,8 @@
-# 思路
-1. 一开始我们使得a的长度大于b的长度
-2. 比较短的=>补零
-3. 从最后一位出发，满二进一(通过status和high分别记录进位&余位)
-```
+// # 思路
+// 1. 一开始我们使得a的长度大于b的长度
+// 2. 比较短的=>补零
+// 3. 从最后一位出发，满二进一(通过status和high分别记录进位&余位)
+// ```
 class Solution {
 public:
     string addBinary(string a, string b) {
@@ -57,16 +57,16 @@ public:
         return result;
     }
 };
-```
+// ```
 
-代码优化：
-*通过观察发现，status和high的赋值有逻辑，因此优化代码如下*
-```
+// 代码优化：
+// *通过观察发现，status和high的赋值有逻辑，因此优化代码如下*
+// ```
 high = temp % 2;
 status = temp < 2 ? 0 : 1;
-```
-最终代码：
-```
+// ```
+// 最终代码：
+// ```
 class Solution {
 public:
     string addBinary(string a, string b) {
@@ -97,5 +97,5 @@ public:
         return result;
     }
 };
-```
+// ```
 

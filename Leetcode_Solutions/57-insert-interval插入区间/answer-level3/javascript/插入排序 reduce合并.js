@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/1a1efdbcf6f150f27602c95d4084330099e44909e987aca4f4e657c108f993d0-image.png)
+// ![image.png](https://pic.leetcode-cn.com/1a1efdbcf6f150f27602c95d4084330099e44909e987aca4f4e657c108f993d0-image.png)
 
-```
+// ```
 var insert = function(intervals, newInterval) {
     intervals.push(newInterval);
     let curInd = intervals.length - 1;
@@ -25,4 +25,4 @@ var insert = function(intervals, newInterval) {
     }))
     return res;
 };
-```
+// ```

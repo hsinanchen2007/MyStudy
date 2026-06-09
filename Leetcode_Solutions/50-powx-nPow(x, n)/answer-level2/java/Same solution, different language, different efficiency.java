@@ -1,5 +1,5 @@
-Java solution: 
-```
+// Java solution: 
+// ```
     public double myPow(double x, int n) {
         if (n < 0) {
             x = 1 / x;
@@ -17,14 +17,14 @@ Java solution:
         }
         return value * value * x;
     }
-```
+// ```
 
-Java solution efficiency: 
-**Runtime: 0 ms, faster than 100.00% of Java online submissions for Pow(x, n).
-Memory Usage: 36.7 MB, less than 5.88% of Java online submissions for Pow(x, n).**
+// Java solution efficiency: 
+// **Runtime: 0 ms, faster than 100.00% of Java online submissions for Pow(x, n).
+// Memory Usage: 36.7 MB, less than 5.88% of Java online submissions for Pow(x, n).**
 
-Kotlin solution: 
-```
+// Kotlin solution: 
+// ```
     fun myPow(x: Double, n: Int): Double {
         var xVal = x
         if (n < 0) {
@@ -40,10 +40,10 @@ Kotlin solution:
         val halfP = recursivePow(x, n / 2)
         return if (n and 1 == 1) halfP * halfP * x else halfP * halfP
     }
-```
-Kotlin solution efficiency: 
-**Runtime: 148 ms, faster than 73.53% of Kotlin online submissions for Pow(x, n).
-Memory Usage: 32 MB, less than 100.00% of Kotlin online submissions for Pow(x, n).**
+// ```
+// Kotlin solution efficiency: 
+// **Runtime: 148 ms, faster than 73.53% of Kotlin online submissions for Pow(x, n).
+// Memory Usage: 32 MB, less than 100.00% of Kotlin online submissions for Pow(x, n).**
 
 
-**So, Java language is better in efficiency?**
+// **So, Java language is better in efficiency?**

@@ -1,5 +1,5 @@
-1. 递归
-```js
+// 1. 递归
+// ```js
 /**
  * @param {number} numRows
  * @return {number[][]}
@@ -20,10 +20,10 @@ var generate = function(numRows) {
     }
     return res
 };
-```
+// ```
 
-2. 非递归
-```js
+// 2. 非递归
+// ```js
 /**
  * @param {number} numRows
  * @return {number[][]}
@@ -41,7 +41,7 @@ var generate = function(numRows) {
     }
     return res
 };
-```
+// ```
 
 
-> 其实两种解法类似，非递归只是把结果从res取出来。
+// > 其实两种解法类似，非递归只是把结果从res取出来。

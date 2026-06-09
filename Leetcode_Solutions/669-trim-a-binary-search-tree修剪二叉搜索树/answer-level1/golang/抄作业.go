@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -26,4 +26,4 @@ func trimBST(root *TreeNode, L int, R int) *TreeNode {
 	root.Right=trimBST(root.Right,L,R)
 	return root
 }
-```
+// ```

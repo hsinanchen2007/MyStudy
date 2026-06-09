@@ -1,9 +1,9 @@
-### 解题思路
-跑了几次es6解构比concat速度快一些
+// ### 解题思路
+// 跑了几次es6解构比concat速度快一些
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number[]}
@@ -15,4 +15,4 @@ var decompressRLElist = function (nums) {
     }
     return result
 };
-```
+// ```

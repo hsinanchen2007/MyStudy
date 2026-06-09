@@ -1,9 +1,9 @@
-### 解题思路1
-递归
+# ### 解题思路1
+# 递归
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -22,12 +22,12 @@ class Solution:
         else:
             l2.next=self.mergeTwoLists(l1,l2.next)
             return l2
-```
-### 解题思路1
-迭代
+# ```
+# ### 解题思路1
+# 迭代
 
-### 代码
-```
+# ### 代码
+# ```
 class Solution:
     def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:
         head = point = ListNode(0)
@@ -45,4 +45,4 @@ class Solution:
                 else:
                     point.next=l1
                 return head.next
-```
+# ```

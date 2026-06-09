@@ -1,6 +1,6 @@
-位运算 phpphp版本
+// 位运算 phpphp版本
 
-```
+// ```
 /**
      * @param Integer $a
      * @param Integer $b
@@ -15,4 +15,4 @@
         }
         return $a;
     }
-```
+// ```

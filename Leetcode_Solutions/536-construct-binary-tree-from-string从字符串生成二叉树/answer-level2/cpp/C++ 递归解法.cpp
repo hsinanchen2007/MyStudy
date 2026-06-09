@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class Solution {
 public:
     TreeNode* dfs(const string& s, int l, int r) {
@@ -21,6 +21,6 @@ public:
         return dfs(s, 0, s.size() - 1);
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/7de986d30ad711266445bb4f3d570580a76f27cc28f341d4c318c83c3ba1f8e2-image.png)
+// ![image.png](https://pic.leetcode-cn.com/7de986d30ad711266445bb4f3d570580a76f27cc28f341d4c318c83c3ba1f8e2-image.png)

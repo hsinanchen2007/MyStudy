@@ -1,9 +1,9 @@
-### 解题思路
-python3 是没什么人用吗？执行时间排第一还是第一次！！！有没有大神看看怎么优化一下我丑陋的code。。。。
+# ### 解题思路
+# python3 是没什么人用吗？执行时间排第一还是第一次！！！有没有大神看看怎么优化一下我丑陋的code。。。。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def advantageCount(self, A: List[int], B: List[int]) -> List[int]:
         A.sort()
@@ -34,4 +34,4 @@ class Solution:
 
         return result
 
-```
+# ```

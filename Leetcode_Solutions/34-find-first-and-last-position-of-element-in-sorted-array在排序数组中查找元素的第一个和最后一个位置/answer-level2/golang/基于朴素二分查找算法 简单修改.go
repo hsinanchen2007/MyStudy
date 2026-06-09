@@ -1,4 +1,4 @@
-```
+// ```
 func findLeft(nums[]int,target int)int{
 	left,right:=0,len(nums)-1
 	var flag bool
@@ -45,4 +45,4 @@ func findRight(nums []int, target int) int {
 func searchRange(nums []int, target int) []int {
 	return []int{findLeft(nums,target),findRight(nums,target)}
 }
-```
+// ```

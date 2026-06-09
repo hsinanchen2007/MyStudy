@@ -1,4 +1,4 @@
-```
+// ```
 public int[] sortArrayByParity(int[] A) {
         int length = A.length;
         if (length <= 1) return A;//如果数组长度小于等于1，直接返回
@@ -12,6 +12,6 @@ public int[] sortArrayByParity(int[] A) {
         }
         return A;
     }
-```
-![image.png](https://pic.leetcode-cn.com/c8ee49a933a5f8489f2e624201c4958c454c5c56f64a1f392447fece9dc04e3f-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/c8ee49a933a5f8489f2e624201c4958c454c5c56f64a1f392447fece9dc04e3f-image.png)
 

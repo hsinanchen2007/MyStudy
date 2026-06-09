@@ -1,10 +1,10 @@
-### 解题思路
-动态转移方程为：
-dp[i][j] = Math.min(Math.min(dp[i-1][j], dp[i][j-1]), dp[i-1][j-1]) + 1;
+// ### 解题思路
+// 动态转移方程为：
+// dp[i][j] = Math.min(Math.min(dp[i-1][j], dp[i][j-1]), dp[i-1][j-1]) + 1;
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maximalSquare(char[][] matrix) {
         //边届条件
@@ -39,4 +39,4 @@ class Solution {
         return max*max;
     }
 }
-```
+// ```

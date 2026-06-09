@@ -1,10 +1,10 @@
-### 解题思路
-基本思想就是不断比较头数字的大小进行排序。
-但是不太理解，为啥最后的赋值不能nums1 = result
+# ### 解题思路
+# 基本思想就是不断比较头数字的大小进行排序。
+# 但是不太理解，为啥最后的赋值不能nums1 = result
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def merge(self, nums1, m, nums2, n):
         """
@@ -28,4 +28,4 @@ class Solution(object):
         if b < n:
             result += nums2[b:]
         nums1[:] = result[:]
-```
+# ```

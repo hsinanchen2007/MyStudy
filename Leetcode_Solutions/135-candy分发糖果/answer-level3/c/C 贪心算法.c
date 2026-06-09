@@ -1,5 +1,5 @@
 
-```
+// ```
 int candy(int* ratings, int ratingsSize){
 	
 	if(ratingsSize <= 0)
@@ -39,4 +39,4 @@ int candy(int* ratings, int ratingsSize){
 	
 	return ret;
 }
-```
+// ```

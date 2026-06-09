@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-不断和最低位异或
+// 不断和最低位异或
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> grayCode(int n) {
@@ -17,4 +17,4 @@ public:
         return ret;
     }
 };
-```
+// ```

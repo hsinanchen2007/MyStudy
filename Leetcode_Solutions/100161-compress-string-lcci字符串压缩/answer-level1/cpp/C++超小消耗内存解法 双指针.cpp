@@ -1,12 +1,12 @@
-### 解题思路
-![捕获.PNG](https://pic.leetcode-cn.com/3b91b247dd158cf5dfdb3bbfdba524271cd27cf167bbde8f1467ff8447143dab-%E6%8D%95%E8%8E%B7.PNG)
+// ### 解题思路
+// ![捕获.PNG](https://pic.leetcode-cn.com/3b91b247dd158cf5dfdb3bbfdba524271cd27cf167bbde8f1467ff8447143dab-%E6%8D%95%E8%8E%B7.PNG)
 
-采用两个指针 一个指针指向当前值 另一个指针指向元素的值如果跟这个指针指向元素值一样那就计数
-不一样那么就 将原来的值保存起来 然后更新
+// 采用两个指针 一个指针指向当前值 另一个指针指向元素的值如果跟这个指针指向元素值一样那就计数
+// 不一样那么就 将原来的值保存起来 然后更新
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string compressString(string S) {
@@ -59,4 +59,4 @@ public:
 
     }
 };
-```
+// ```

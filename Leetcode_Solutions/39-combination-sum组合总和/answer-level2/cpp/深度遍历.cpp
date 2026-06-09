@@ -1,10 +1,10 @@
-### 解题思路
-1、由于可以使用重复的数字，针对每个数字都递归一遍候选序列，直到满足要求或超过目标值。
-2、在递归过程中，后面的数字会重复前面数字的递归序列，需要去除重复，即每层递归，当前数字只从当前值开始。
+// ### 解题思路
+// 1、由于可以使用重复的数字，针对每个数字都递归一遍候选序列，直到满足要求或超过目标值。
+// 2、在递归过程中，后面的数字会重复前面数字的递归序列，需要去除重复，即每层递归，当前数字只从当前值开始。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 void combinationSum(vector<vector<int>>& res, vector<int>& candidates, int target, vector<int>& vec, int start){
@@ -27,4 +27,4 @@ vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
     return res;
 }
 };
-```
+// ```

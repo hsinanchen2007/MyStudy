@@ -1,12 +1,12 @@
-能应付各种奇怪的 case:
+// 能应付各种奇怪的 case:
 
-```c
+// ```c
    "", "abc"
 "abc", ""
 "abc", "abbec"
-```
+// ```
 
-```c++
+// ```c++
 bool isLongPressedName(string name, string typed) {
     int i = 0, j = 0;
     char last = 0;
@@ -21,4 +21,4 @@ bool isLongPressedName(string name, string typed) {
     }
     return i == name.length() && j == typed.length();
 }
-```
+// ```

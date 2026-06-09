@@ -1,9 +1,9 @@
-### 解题思路
-链表尽量还是用双向链表实现。。单项链表我卡在addToTail这里好久才debug出来
+// ### 解题思路
+// 链表尽量还是用双向链表实现。。单项链表我卡在addToTail这里好久才debug出来
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MyLinkedList
 {
 public:
@@ -155,4 +155,4 @@ public:
         delete toDelete;
     }
 };
-```
+// ```

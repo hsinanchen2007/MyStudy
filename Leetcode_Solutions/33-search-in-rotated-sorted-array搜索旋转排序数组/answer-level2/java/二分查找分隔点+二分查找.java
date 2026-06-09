@@ -1,10 +1,10 @@
-### 解题思路
-![WechatIMG6.jpeg](https://pic.leetcode-cn.com/b41b65ea9172798e6db4b6b0da0aeb587fd570631760445541845970cf6556d5-WechatIMG6.jpeg)
+// ### 解题思路
+// ![WechatIMG6.jpeg](https://pic.leetcode-cn.com/b41b65ea9172798e6db4b6b0da0aeb587fd570631760445541845970cf6556d5-WechatIMG6.jpeg)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int search(int[] nums, int target) {
         if(nums==null || nums.length==0){
@@ -70,4 +70,4 @@ class Solution {
         
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-暴力法，但是牵涉到重复比较的问题，会出现次数多。所以应对原始数组先排序，再比较如果存在交集，则同时跳过比较下一个。
+// ### 解题思路
+// 此处撰写解题思路
+// 暴力法，但是牵涉到重复比较的问题，会出现次数多。所以应对原始数组先排序，再比较如果存在交集，则同时跳过比较下一个。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -62,4 +62,4 @@ int* intersect(int* nums1, int nums1Size, int* nums2, int nums2Size, int* return
     return res;
 
 }
-```
+// ```

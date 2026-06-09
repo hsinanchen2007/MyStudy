@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int minimumLengthEncoding(char** words, int wordsSize) {
 	int i = 0, j = 0, k = 0, cnt1 = 0, p = 1,m=0,n=0;
     int* a = (int*)malloc(sizeof(int) * wordsSize);
@@ -53,4 +53,4 @@ int minimumLengthEncoding(char** words, int wordsSize) {
 	}
 	return cnt1;
 }
-```
+// ```

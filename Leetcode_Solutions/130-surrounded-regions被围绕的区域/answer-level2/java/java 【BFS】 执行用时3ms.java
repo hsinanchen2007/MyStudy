@@ -1,9 +1,9 @@
-### 解题思路
-用广度优先算法将与四个边上的O连通的O变为Y，然后剩下的O即为被包围的，变为X即可，最后再遍历一遍把Y变回O
+// ### 解题思路
+// 用广度优先算法将与四个边上的O连通的O变为Y，然后剩下的O即为被包围的，变为X即可，最后再遍历一遍把Y变回O
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void solve(char[][] board) {
         int M = board.length;
@@ -66,4 +66,4 @@ class Solution {
         }
     }
 }
-```
+// ```

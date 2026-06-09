@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-1、主要确定清楚杨辉三角的定义就好
+// ### 解题思路
+// 此处撰写解题思路
+// 1、主要确定清楚杨辉三角的定义就好
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -34,4 +34,4 @@ int** generate(int numRows, int* returnSize, int** returnColumnSizes){
 
     return results;
 }
-```
+// ```

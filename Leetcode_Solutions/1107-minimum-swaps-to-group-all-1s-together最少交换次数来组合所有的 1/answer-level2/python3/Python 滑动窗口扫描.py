@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/17f0de310f8299475269568b11a938766e14db3006dc92c29446dbef422ba040-image.png)
+# ![image.png](https://pic.leetcode-cn.com/17f0de310f8299475269568b11a938766e14db3006dc92c29446dbef422ba040-image.png)
 
 
-```
+# ```
 '''
 最终状态一定是n个1连在一起，那么只要能找到一个长度为n的窗口，
 包含最多的1， 那么交换次数自然就是最少的
@@ -31,4 +31,4 @@ class Solution:
             r += 1
 
         return window_len - max_cnt
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 class MyStack{
 	Queue<Integer>queue1;
 	Queue<Integer>queue2;
@@ -40,4 +40,4 @@ class MyStack{
 		return queue1.isEmpty();
 	}
 }
-```
+// ```

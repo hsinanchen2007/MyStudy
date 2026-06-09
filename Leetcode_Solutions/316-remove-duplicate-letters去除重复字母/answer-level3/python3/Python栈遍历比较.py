@@ -1,9 +1,9 @@
-### 解题思路
-见注释
+# ### 解题思路
+# 见注释
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def removeDuplicateLetters(self, s: str) -> str:
         stack = ['0']  # 放一个比字母都小的字符
@@ -17,4 +17,4 @@ class Solution:
                 # 压入新元素
                 stack.append(c)
         return ''.join(stack[1:])
-```
+# ```

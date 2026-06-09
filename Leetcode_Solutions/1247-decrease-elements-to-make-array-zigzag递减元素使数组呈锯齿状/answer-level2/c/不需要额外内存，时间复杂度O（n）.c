@@ -1,5 +1,5 @@
 
-```
+// ```
 #define MAXSIZE 1002
 int movesToMakeZigzag(int* nums, int numsSize){
     int ret1 = 0;
@@ -36,4 +36,4 @@ int movesToMakeZigzag(int* nums, int numsSize){
     return ret1 < ret2 ? ret1 : ret2;
 }
 
-```
+// ```

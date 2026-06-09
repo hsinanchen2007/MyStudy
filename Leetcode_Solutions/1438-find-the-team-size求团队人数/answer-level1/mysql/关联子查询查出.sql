@@ -1,5 +1,5 @@
-子查询先基于员工COUNT各TEAM的数量
-然后基于TEAMID 关联员工进行查询
+-- 子查询先基于员工COUNT各TEAM的数量
+-- 然后基于TEAMID 关联员工进行查询
 
 select 
 e.employee_id, 

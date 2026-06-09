@@ -1,9 +1,9 @@
-### 解题思路
-同右上角法的思路
+// ### 解题思路
+// 同右上角法的思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean findNumberIn2DArray(int[][] matrix, int target) {
           boolean flag=false;
@@ -26,4 +26,4 @@ class Solution {
           return flag;
     }
 }
-```
+// ```

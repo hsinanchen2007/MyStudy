@@ -1,4 +1,4 @@
-```
+// ```
 var suggestedProducts = function(products, searchWord) {
   let result = []
   for(let i = 0; i < searchWord.length; i++){
@@ -15,5 +15,5 @@ var suggestedProducts = function(products, searchWord) {
   }
   return result
 };
-```
-根本没想那么多....啊啊啊，也没想到前缀树....
+// ```
+// 根本没想那么多....啊啊啊，也没想到前缀树....

@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-见注释
+// 见注释
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} words
  * @param {string} chars
@@ -30,4 +30,4 @@ var countCharacters = function (words, chars) {
     /** 这里我一开始是直接返回的 words.length 审题不清，后来才发现是每个单词的长度之和 */
     }).join('').length
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-内存消耗还可以
+// ### 解题思路
+// 内存消耗还可以
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] printNumbers(int n) {
         int i;
@@ -19,4 +19,4 @@ class Solution {
         return b;
     }
 }
-```
+// ```

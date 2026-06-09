@@ -1,9 +1,9 @@
-### 解题思路
-我寻思我做的也是O(N)时间复杂度，应该不用优化了吧。。。
+// ### 解题思路
+// 我寻思我做的也是O(N)时间复杂度，应该不用优化了吧。。。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findMaxConsecutiveOnes(int[] nums) {
         int res = 0;
@@ -22,4 +22,4 @@ class Solution {
         return res = res > tmp ? res : tmp;
     }
 }
-```
+// ```

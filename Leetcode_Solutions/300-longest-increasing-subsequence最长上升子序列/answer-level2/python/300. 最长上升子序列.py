@@ -1,9 +1,9 @@
-### 解题思路
-用另一个数组来保存最长序列，该数组一定满足上升序列，具体见程序
+# ### 解题思路
+# 用另一个数组来保存最长序列，该数组一定满足上升序列，具体见程序
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def lengthOfLIS(self, nums):
         if not nums:return 0
@@ -20,4 +20,4 @@ class Solution(object):
                         temp[n] = nums[i]
                         break
         return len(temp)
-```
+# ```

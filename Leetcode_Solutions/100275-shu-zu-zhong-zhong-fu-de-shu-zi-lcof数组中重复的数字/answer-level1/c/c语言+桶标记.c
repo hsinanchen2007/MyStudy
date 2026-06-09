@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-![图片.png](https://pic.leetcode-cn.com/739357d283569a1904b73e97aa939f731c8634c1aa1f217abdd336ae9ca01e3a-%E5%9B%BE%E7%89%87.png)
+// ![图片.png](https://pic.leetcode-cn.com/739357d283569a1904b73e97aa939f731c8634c1aa1f217abdd336ae9ca01e3a-%E5%9B%BE%E7%89%87.png)
 
-采用**桶标记**
+// 采用**桶标记**
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int findRepeatNumber(int* nums, int numsSize){
 
     int pot[100005]={0};//开辟数组，记录位置
@@ -39,4 +39,4 @@ int findRepeatNumber(int* nums, int numsSize){//抽屉原理 待补充完全
     }
     return 0;
 }
-```
+// ```

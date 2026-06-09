@@ -1,8 +1,8 @@
-### 解题思路
-两个指针往中间走
-### 代码
+// ### 解题思路
+// 两个指针往中间走
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int search(vector<int>& nums, int target) {
@@ -41,4 +41,4 @@ public:
         return -1;
     }
 };
-```
+// ```

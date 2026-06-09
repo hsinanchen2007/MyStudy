@@ -1,4 +1,4 @@
-```
+// ```
 package leetCodeTest;
 
 import java.util.Arrays;
@@ -47,4 +47,4 @@ public class 主要元素 {
     }
 }
 
-```
+// ```

@@ -1,8 +1,8 @@
-【 36 ms - 97.60% ，9.5 MB - 94.94% 】
+// 【 36 ms - 97.60% ，9.5 MB - 94.94% 】
 
-左指针寻找奇数，右指针寻找偶数，再进行交换。
+// 左指针寻找奇数，右指针寻找偶数，再进行交换。
 
-```
+// ```
 class Solution {
 public:
     vector<int> sortArrayByParity(vector<int>& A) {
@@ -16,4 +16,4 @@ public:
         return A;
     }
 };
-```
+// ```

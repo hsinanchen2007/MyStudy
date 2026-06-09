@@ -1,18 +1,18 @@
-### 解题思路
-执行用时 :20 ms, 在所有 Python 提交中击败了88.51%的用户
-内存消耗 :11.8 MB, 在所有 Python 提交中击败了13.51%的用户
+# ### 解题思路
+# 执行用时 :20 ms, 在所有 Python 提交中击败了88.51%的用户
+# 内存消耗 :11.8 MB, 在所有 Python 提交中击败了13.51%的用户
 
-首先初始化数组
-按规则分糖果，记录已分糖果总数n和次数ln
-注意判断条件：
-1.ln<=人数时，ans[ln]得到糖果
-2.ln>人数时，取ln/num_pepole的余数，ans[余数]得到糖果
-3.最后一次分糖果
-直到分完糖果
+# 首先初始化数组
+# 按规则分糖果，记录已分糖果总数n和次数ln
+# 注意判断条件：
+# 1.ln<=人数时，ans[ln]得到糖果
+# 2.ln>人数时，取ln/num_pepole的余数，ans[余数]得到糖果
+# 3.最后一次分糖果
+# 直到分完糖果
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def distributeCandies(self, candies, num_people):
         """
@@ -45,4 +45,4 @@ class Solution(object):
                 else:
                     ans[ln] += a
                 ln += 1     
-```
+# ```

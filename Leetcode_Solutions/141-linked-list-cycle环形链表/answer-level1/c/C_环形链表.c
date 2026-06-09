@@ -1,10 +1,10 @@
-### 解题思路
-判断链表是否有环。
-模板，硬背也要背下来
+// ### 解题思路
+// 判断链表是否有环。
+// 模板，硬背也要背下来
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -28,4 +28,4 @@ bool hasCycle(struct ListNode *head) {
     }
     return false;
 }
-```
+// ```

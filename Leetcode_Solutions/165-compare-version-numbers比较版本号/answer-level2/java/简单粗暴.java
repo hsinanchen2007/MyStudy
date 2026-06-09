@@ -1,9 +1,9 @@
-### 解题思路
-分割"."，转换int数组，逐个比较，缺省为0
+// ### 解题思路
+// 分割"."，转换int数组，逐个比较，缺省为0
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
    public int compareVersion(String version1, String version2) {
 		String[] versionArr1 = version1.split("\\.");
@@ -28,4 +28,4 @@ class Solution {
 		return 0;
 	}
 }
-```
+// ```

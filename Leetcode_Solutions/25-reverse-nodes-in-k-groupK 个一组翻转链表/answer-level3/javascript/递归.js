@@ -1,9 +1,9 @@
-### 解题思路
-首先考虑递归，可以将链表看成一段一段的执行栈，问题就变成了找递归的结束和递归的时机
+// ### 解题思路
+// 首先考虑递归，可以将链表看成一段一段的执行栈，问题就变成了找递归的结束和递归的时机
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -37,4 +37,4 @@ var reverseKGroup = function(head, k) {
     head.next = reverseKGroup(cur,k);
     return pre;
 };
-```
+// ```

@@ -1,27 +1,27 @@
-### 学习思路
+// ### 学习思路
 
-- 类似 [LRU](https://leetcode-cn.com/problems/lru-cache/) 的题
-- 考察点核心：设计数据结构、链表操作、细心(肉眼debug)
-- 建议
-  - 先试着完全自己设计数据结构，画画图，至少有个自己的思路
-  - 实在想不出来，或想出来了但总是不通过
-    - 或心态崩溃老子不干了但好像还可以再抢救一下
-    - 可以开始看别人的思路了
-  - 笔者的学习方法：**一点一点学，一点一点自己写**
-    - `Node` 节点怎么定义，增加 `int freq` 频率属性是否更好
-    - `DoubleLinkedList` 双向链表中定义了哪些 `public` 方法，是否加上哨兵节点(`head`, `tail`)更好实现
-    - `Cache` 主类有哪些 `private` 属性，封装了哪些 `private` 方法
-    - 至此，可以说已经把别人的 **思路关键点** 放到自己的脑袋里了
-      - 毕竟最希望在题解中找到的，是「我到底差了 **哪一点** 就全通了」
-- 参考 [Sweetiee 🍬](https://leetcode-cn.com/problems/lfu-cache/solution/java-13ms-shuang-100-shuang-xiang-lian-biao-duo-ji/)
-- 参考 [liweiwei1419](https://leetcode-cn.com/problems/lfu-cache/solution/ha-xi-biao-shuang-xiang-lian-biao-java-by-liweiwei/)
+// - 类似 [LRU](https://leetcode-cn.com/problems/lru-cache/) 的题
+// - 考察点核心：设计数据结构、链表操作、细心(肉眼debug)
+// - 建议
+//   - 先试着完全自己设计数据结构，画画图，至少有个自己的思路
+//   - 实在想不出来，或想出来了但总是不通过
+//     - 或心态崩溃老子不干了但好像还可以再抢救一下
+//     - 可以开始看别人的思路了
+//   - 笔者的学习方法：**一点一点学，一点一点自己写**
+//     - `Node` 节点怎么定义，增加 `int freq` 频率属性是否更好
+//     - `DoubleLinkedList` 双向链表中定义了哪些 `public` 方法，是否加上哨兵节点(`head`, `tail`)更好实现
+//     - `Cache` 主类有哪些 `private` 属性，封装了哪些 `private` 方法
+//     - 至此，可以说已经把别人的 **思路关键点** 放到自己的脑袋里了
+//       - 毕竟最希望在题解中找到的，是「我到底差了 **哪一点** 就全通了」
+// - 参考 [Sweetiee 🍬](https://leetcode-cn.com/problems/lfu-cache/solution/java-13ms-shuang-100-shuang-xiang-lian-biao-duo-ji/)
+// - 参考 [liweiwei1419](https://leetcode-cn.com/problems/lfu-cache/solution/ha-xi-biao-shuang-xiang-lian-biao-java-by-liweiwei/)
 
-### 构建节点
+// ### 构建节点
 
-- 除了 `freq` ，其他属性应该是大多能想到的（建议先做 LRU 的题）
-- `freq` 没有会怎样，是否有其他方式解决，都不如自己试试更深刻
+// - 除了 `freq` ，其他属性应该是大多能想到的（建议先做 LRU 的题）
+// - `freq` 没有会怎样，是否有其他方式解决，都不如自己试试更深刻
 
-```java
+// ```java
 public class LFUCacheNode {
     int key, value, freq; // freq 频率
     LFUCacheNode prev, next;
@@ -32,18 +32,18 @@ public class LFUCacheNode {
         this.prev = this.next = null;
     }
 }
-```
+// ```
 
-### 构建双向链表
+// ### 构建双向链表
 
-- 需要支持的操作有：
-  - 从已有频率的链表中删除 `remove(node)`
-  - 加入到新频率的链表中 `addFirst(node)`
-  - 挤出 **最低频率** 链表中的最后一位 `removeLast()`
-- 增加哨兵节点
-- 是否需要 `size`、`capacity` ？可以先加上，不用再删嘛~
+// - 需要支持的操作有：
+//   - 从已有频率的链表中删除 `remove(node)`
+//   - 加入到新频率的链表中 `addFirst(node)`
+//   - 挤出 **最低频率** 链表中的最后一位 `removeLast()`
+// - 增加哨兵节点
+// - 是否需要 `size`、`capacity` ？可以先加上，不用再删嘛~
 
-```java
+// ```java
 public class LFUCacheDbLinkedList {
     private LFUCacheNode head, tail; // 哨兵节点，有助于增删操作的实现
 
@@ -93,16 +93,16 @@ public class LFUCacheDbLinkedList {
         return head.next == tail;
     }
 }
-```
+// ```
 
-### 完善主类
+// ### 完善主类
 
-- 肯定需要一个 `map` 存储数据
-- 根据大佬们的思路，每个频率都有一个双向链表，故 `freqMap`
-- `size` , `capacity` 先写着就当全局变量
-- `minF` 当前最低频率是什么东东？即上文「构建双向链表」步骤中提到的「挤出 **最低频率** 链表中最后一位」，为了快速定位而存在
+// - 肯定需要一个 `map` 存储数据
+// - 根据大佬们的思路，每个频率都有一个双向链表，故 `freqMap`
+// - `size` , `capacity` 先写着就当全局变量
+// - `minF` 当前最低频率是什么东东？即上文「构建双向链表」步骤中提到的「挤出 **最低频率** 链表中最后一位」，为了快速定位而存在
 
-```java
+// ```java
 public class LFUCache {
     private Map<Integer, LFUCacheNode> map;
     private Map<Integer, LFUCacheDbLinkedList> freqMap;
@@ -175,4 +175,4 @@ public class LFUCache {
         node.freq = newF;
     }
 }
-```
+// ```

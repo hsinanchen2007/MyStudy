@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def lengthOfLIS(self, nums: List[int]) -> int:
         n=len(nums)
@@ -16,4 +16,4 @@ class Solution:
                     #要更新和自己比 比如[1,2,6,4,10]
                     dp[i]=max(dp[i],dp[j]+1)
         return max(dp)
-```
+# ```

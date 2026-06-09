@@ -1,14 +1,14 @@
-### 解题思路
+// ### 解题思路
 
-重点是需要知道动态规划数组的含义：
-dp_max[i] 指的是以第 i 个数结尾的乘积最大的连续子序列
-dp_min[i] 指的是以第 i 个数结尾的乘积最小的连续子序列
+// 重点是需要知道动态规划数组的含义：
+// dp_max[i] 指的是以第 i 个数结尾的乘积最大的连续子序列
+// dp_min[i] 指的是以第 i 个数结尾的乘积最小的连续子序列
 
-然后当遇到负数的时候需要将dpmax[i-1] 和 dpmin[i-1]的值交换进行计算。
+// 然后当遇到负数的时候需要将dpmax[i-1] 和 dpmin[i-1]的值交换进行计算。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxProduct(int[] nums) {
         if(nums.length == 0) 
@@ -40,4 +40,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-找到“R”的位置，上下左右扫一下就行
+// 找到“R”的位置，上下左右扫一下就行
 
-```
+// ```
     public int numRookCaptures(char[][] board) {
         if (board == null || board.length == 0 || board[0].length == 0) {
             return 0;
@@ -56,4 +56,4 @@
         return res;
 
     }
-```
+// ```

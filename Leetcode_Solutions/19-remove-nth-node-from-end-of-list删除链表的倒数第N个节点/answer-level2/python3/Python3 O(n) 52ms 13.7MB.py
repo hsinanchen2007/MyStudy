@@ -1,6 +1,6 @@
-语言：Python3
-效果：O(n) 52ms 13.7MB
-```python []
+# 语言：Python3
+# 效果：O(n) 52ms 13.7MB
+# ```python []
     def removeNthFromEnd(self, head: ListNode, n: int) -> ListNode:
         # 添加前置节点（解决各种NoType的问题）
         temp = ListNode(0)
@@ -16,4 +16,4 @@
         # 删除节点
         temp2.next = temp2.next.next
         return temp.next
-```
+# ```

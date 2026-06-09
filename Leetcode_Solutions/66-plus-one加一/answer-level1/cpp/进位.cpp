@@ -1,9 +1,9 @@
-### 解题思路
-注意判断一下最后的进位就好了
+// ### 解题思路
+// 注意判断一下最后的进位就好了
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> plusOne(vector<int>& digits) {
@@ -25,4 +25,4 @@ public:
       return digits;
     }
 };
-```
+// ```

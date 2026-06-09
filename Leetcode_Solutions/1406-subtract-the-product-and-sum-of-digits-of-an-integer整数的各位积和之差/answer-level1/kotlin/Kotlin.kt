@@ -1,10 +1,10 @@
-### 解题思路
-执行时间168ms，惨不忍睹
-内存消耗击败100%
+// ### 解题思路
+// 执行时间168ms，惨不忍睹
+// 内存消耗击败100%
 
-### 代码
+// ### 代码
 
-```kotlin
+// ```kotlin
 class Solution {
 fun subtractProductAndSum(n: Int): Int {
     var str:String = n.toString()
@@ -17,4 +17,4 @@ fun subtractProductAndSum(n: Int): Int {
     return product-sum
 }
 }
-```
+// ```

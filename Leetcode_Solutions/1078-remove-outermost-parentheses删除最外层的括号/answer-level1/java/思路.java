@@ -1,6 +1,6 @@
-使用一个栈来消去最外层的括号
-使用一个信号量来表示内层是否完整
-```
+// 使用一个栈来消去最外层的括号
+// 使用一个信号量来表示内层是否完整
+// ```
     class Solution {
     public static String removeOuterParentheses (String s){
         StringBuilder sb = new StringBuilder();
@@ -35,4 +35,4 @@
 
     }
 }
-```
+// ```

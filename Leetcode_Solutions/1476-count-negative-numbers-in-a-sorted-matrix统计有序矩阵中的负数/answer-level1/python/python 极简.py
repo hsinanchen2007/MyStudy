@@ -1,11 +1,11 @@
-### 解题思路
-右上角开始判断
-1. 比0大，下移一行
-2. 比0小，计数  += 行数 - 当前行 - 1
+# ### 解题思路
+# 右上角开始判断
+# 1. 比0大，下移一行
+# 2. 比0小，计数  += 行数 - 当前行 - 1
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def countNegatives(self, grid):
         """
@@ -27,4 +27,4 @@ class Solution(object):
                 cur_col = cur_col - 1
         return negative_num
 
-```
+# ```

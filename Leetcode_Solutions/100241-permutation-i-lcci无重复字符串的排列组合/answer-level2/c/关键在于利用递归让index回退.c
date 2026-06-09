@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/25d76a5fe9f098f0729456ef569e5c885d42ec2a66bf1642c5a3d093557774cb-image.png)
-1) 执行耗时这个得想办法优化一下
-2) 关键就在于利用递归让index回退，要充分理解函数调用对栈的使用，以及每个函数栈中变量的值。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/25d76a5fe9f098f0729456ef569e5c885d42ec2a66bf1642c5a3d093557774cb-image.png)
+// 1) 执行耗时这个得想办法优化一下
+// 2) 关键就在于利用递归让index回退，要充分理解函数调用对栈的使用，以及每个函数栈中变量的值。
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -48,4 +48,4 @@ char** permutation(char* S, int* returnSize){
     *returnSize = g_res_index;
     return g_res;
 }
-```
+// ```

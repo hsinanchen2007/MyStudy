@@ -1,9 +1,9 @@
-### 解题思路
-动态规划，一个$n$对括号的字符串可以看成"("+$i$对括号字符串+")"+$n-1-i$对括号字符串
+// ### 解题思路
+// 动态规划，一个$n$对括号的字符串可以看成"("+$i$对括号字符串+")"+$n-1-i$对括号字符串
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -66,4 +66,4 @@ char ** generateParenthesis(int n, int* returnSize){
     free(memorize[n]);
     return result;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-利用双端链表实现双端队列
+// ### 解题思路
+// 利用双端链表实现双端队列
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MyCircularDeque {
 public:
     struct DLNode {
@@ -108,6 +108,6 @@ public:
  * bool param_7 = obj->isEmpty();
  * bool param_8 = obj->isFull();
  */
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/3d3e681f1f58391c0c9efd276aa880314c10896d89006120e0f51d474689b21e-image.png)
+// ![image.png](https://pic.leetcode-cn.com/3d3e681f1f58391c0c9efd276aa880314c10896d89006120e0f51d474689b21e-image.png)

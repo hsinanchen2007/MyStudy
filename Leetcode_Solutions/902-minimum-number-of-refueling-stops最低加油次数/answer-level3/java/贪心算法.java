@@ -1,8 +1,8 @@
-### 解题思路
-贪心算法，每次在可行使范围内，找最大的加油站，
-### 代码
+// ### 解题思路
+// 贪心算法，每次在可行使范围内，找最大的加油站，
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minRefuelStops(int target, int startFuel, int[][] stations) {
         if(startFuel>=target){
@@ -40,4 +40,4 @@ class Solution {
         return fuel<target?-1:count;
     }
 }
-```
+// ```

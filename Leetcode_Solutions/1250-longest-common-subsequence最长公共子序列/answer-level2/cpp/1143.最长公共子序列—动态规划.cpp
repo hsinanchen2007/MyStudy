@@ -1,6 +1,6 @@
-字符串text1和text2，构造一个DP表（下表来自https://leetcode-cn.com/problems/longest-common-subsequence/solution/dong-tai-gui-hua-zhi-zui-chang-gong-gong-zi-xu-lie/）：
-![image.png](https://pic.leetcode-cn.com/4ec0bb0900d502075bdfd12dccf4be42a5e63f2cce93a02c431ac92c61f19c8c-image.png)
-```
+// 字符串text1和text2，构造一个DP表（下表来自https://leetcode-cn.com/problems/longest-common-subsequence/solution/dong-tai-gui-hua-zhi-zui-chang-gong-gong-zi-xu-lie/）：
+// ![image.png](https://pic.leetcode-cn.com/4ec0bb0900d502075bdfd12dccf4be42a5e63f2cce93a02c431ac92c61f19c8c-image.png)
+// ```
 class Solution {
 public:
     int longestCommonSubsequence(string text1, string text2) {
@@ -16,4 +16,4 @@ public:
         return dp[m][n];
     }
 };
-```
+// ```

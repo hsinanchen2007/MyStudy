@@ -1,9 +1,9 @@
-### 解题思路
-几个月前刷的题,写完就忘...
+// ### 解题思路
+// 几个月前刷的题,写完就忘...
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {string[]}
@@ -24,4 +24,4 @@ var generateParenthesis = function(n) {
     }
     return results[results.length - 1]
 };
-```
+// ```

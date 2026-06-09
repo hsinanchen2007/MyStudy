@@ -1,15 +1,15 @@
-### 解题思路
-基本同习题 [189. 旋转数组-gelthin-经典题-代码没写好](https://leetcode-cn.com/problems/rotate-array/solution/gelthin-jing-dian-ti-by-gelthin-2/)
+# ### 解题思路
+# 基本同习题 [189. 旋转数组-gelthin-经典题-代码没写好](https://leetcode-cn.com/problems/rotate-array/solution/gelthin-jing-dian-ti-by-gelthin-2/)
 
 
-目前还只会两次反转的方法，有一步到位的方法，但写起来复杂，易错。还没有去学习写。
+# 目前还只会两次反转的方法，有一步到位的方法，但写起来复杂，易错。还没有去学习写。
 
 
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverseLeftWords(self, s: str, n: int) -> str:
         def swap(s_l, p, q):  ## 这里 s_l 相当于是传引用
@@ -27,4 +27,4 @@ class Solution:
         swap(s_l, leng-n, leng-1)
         return "".join(s_l)
 
-```
+# ```

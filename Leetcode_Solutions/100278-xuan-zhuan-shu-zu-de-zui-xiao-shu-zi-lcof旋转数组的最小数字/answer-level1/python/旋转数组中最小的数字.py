@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-旋转数组的特性：其实是数组中有两个递增数列，不断缩小定位区间
+# 旋转数组的特性：其实是数组中有两个递增数列，不断缩小定位区间
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minArray(self, numbers: List[int]) -> int:
 
@@ -42,4 +42,4 @@ class Solution:
    
 
 
-```
+# ```

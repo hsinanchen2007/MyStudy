@@ -1,4 +1,4 @@
-```
+# ```
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -19,4 +19,4 @@ class Solution:
             else:
                 return self.checkSubTree(t1.left, t2) or self.checkSubTree(t1.right, t2)
 
-```
+# ```

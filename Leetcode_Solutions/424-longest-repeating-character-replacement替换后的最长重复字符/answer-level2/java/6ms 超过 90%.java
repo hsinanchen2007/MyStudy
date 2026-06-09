@@ -1,4 +1,4 @@
-```
+// ```
    public int characterReplacement4(String s, int k) {
         int result = 0;
         int maxCount = 0;
@@ -17,6 +17,6 @@
         }
         return result;
     }
-```
+// ```
 
-更多参考 https://github.com/wenxueliu/leecode_practice/blob/master/src/main/java/com/wenxueliu/leetcode/LeetCode424.java
+// 更多参考 https://github.com/wenxueliu/leecode_practice/blob/master/src/main/java/com/wenxueliu/leetcode/LeetCode424.java

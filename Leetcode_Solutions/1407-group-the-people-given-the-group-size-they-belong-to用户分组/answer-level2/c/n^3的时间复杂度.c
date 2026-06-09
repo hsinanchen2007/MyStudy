@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
-![image.png](https://pic.leetcode-cn.com/e9073a69a089e4f8b10af53df6fbc168666b76c8628deff76b3d2c6a28bcde3d-image.png)
+// ### 代码
+// ![image.png](https://pic.leetcode-cn.com/e9073a69a089e4f8b10af53df6fbc168666b76c8628deff76b3d2c6a28bcde3d-image.png)
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -37,4 +37,4 @@ int** groupThePeople(int* groupSizes, int groupSizesSize, int* returnSize, int**
     *returnSize = res_index;
     return res;
 }
-```
+// ```

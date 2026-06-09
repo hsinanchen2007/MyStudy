@@ -1,12 +1,12 @@
 
-![屏幕快照 2020-04-02 下午5.48.34.png](https://pic.leetcode-cn.com/26446075261e8b69a03080dedaebe17518d9636368fa2d66960187ecccaada16-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-04-02%20%E4%B8%8B%E5%8D%885.48.34.png)
+// ![屏幕快照 2020-04-02 下午5.48.34.png](https://pic.leetcode-cn.com/26446075261e8b69a03080dedaebe17518d9636368fa2d66960187ecccaada16-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-04-02%20%E4%B8%8B%E5%8D%885.48.34.png)
 
-### 解题思路
-判断当前节点是否在边界(网格边界或连通分量边界)，利用深度优先搜索，访问上下左右位置。
+// ### 解题思路
+// 判断当前节点是否在边界(网格边界或连通分量边界)，利用深度优先搜索，访问上下左右位置。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] colorBorder(int[][] grid, int r0, int c0, int color) {
         if (grid == null || grid.length == 0 || grid[0].length == 0) return grid;
@@ -50,4 +50,4 @@ class Solution {
         }
     }
 }
-```
+// ```

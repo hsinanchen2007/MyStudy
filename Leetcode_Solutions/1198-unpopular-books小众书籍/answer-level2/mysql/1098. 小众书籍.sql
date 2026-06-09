@@ -1,14 +1,14 @@
-### 解题思路
-此处撰写解题思路
-题目的要求
-1.过去一年内
-2.少于10本
-3.排除上市不到一个月的
+-- ### 解题思路
+-- 此处撰写解题思路
+-- 题目的要求
+-- 1.过去一年内
+-- 2.少于10本
+-- 3.排除上市不到一个月的
 
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 
 select b.book_id,b.name 
@@ -20,4 +20,4 @@ and  b.book_id not in(
     group by book_id
     having sum(quantity) >=10
 )
-```
+-- ```

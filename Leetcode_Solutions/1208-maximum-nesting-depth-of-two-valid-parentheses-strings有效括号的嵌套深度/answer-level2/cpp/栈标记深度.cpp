@@ -1,9 +1,9 @@
-### 解题思路
-1、标记()的深度，(加1，)减1,同时统计最大深度。
-2、将深度大于最大深度一半的()，标记为1，其它的标记为0;
-### 代码
+// ### 解题思路
+// 1、标记()的深度，(加1，)减1,同时统计最大深度。
+// 2、将深度大于最大深度一半的()，标记为1，其它的标记为0;
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 vector<int> maxDepthAfterSplit(string seq) {
@@ -33,4 +33,4 @@ vector<int> maxDepthAfterSplit(string seq) {
     return vec;
 }
 };
-```
+// ```

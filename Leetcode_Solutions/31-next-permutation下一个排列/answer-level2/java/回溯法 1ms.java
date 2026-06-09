@@ -1,14 +1,14 @@
-### 解题思路
-nextPermutation可以分两种情况，
-第一个num[0]变位置, 如果nums[0]>=nums[1], 则数组倒置，即为结果
-如果nums[0]<nums[1], 则先将nums[1,2,...], 然后找到第一个大于nums[0]的位置，再进行位置交换即可得到结果
+// ### 解题思路
+// nextPermutation可以分两种情况，
+// 第一个num[0]变位置, 如果nums[0]>=nums[1], 则数组倒置，即为结果
+// 如果nums[0]<nums[1], 则先将nums[1,2,...], 然后找到第一个大于nums[0]的位置，再进行位置交换即可得到结果
 
 
-第一个num[0]不变位置, 只要nums[1,2,...]之后，至少存在一个对即可(ai, aj) ai<aj; 则可以递归到nextPermutationInner(nums, 1)
+// 第一个num[0]不变位置, 只要nums[1,2,...]之后，至少存在一个对即可(ai, aj) ai<aj; 则可以递归到nextPermutationInner(nums, 1)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * @Author : josan
  * @Date : 2020/2/7 13:27
@@ -69,10 +69,10 @@ public class Solution {
 
 }
 
-```
+// ```
 
-### 测试代码
-```
+// ### 测试代码
+// ```
 package leetcode.study.group002.ex0031;
 
 import org.junit.Assert;
@@ -104,4 +104,4 @@ public class TestSolution {
     }
 }
 
-```
+// ```

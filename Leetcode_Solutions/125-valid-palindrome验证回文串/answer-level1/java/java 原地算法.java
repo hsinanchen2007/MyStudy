@@ -1,6 +1,6 @@
-1. 原地算法先过滤出有效字符
-2. 判断是否是回文
-```
+// 1. 原地算法先过滤出有效字符
+// 2. 判断是否是回文
+// ```
     public boolean isPalindrome(String s) {
         char[] cs = s.toCharArray();
         int cnt = 0, j = 0;
@@ -16,4 +16,4 @@
         return true;
     }
 
-```
+// ```

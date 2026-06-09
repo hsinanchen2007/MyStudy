@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 /*埃氏筛，应用场景是对一定范围内的本质就是剔除掉质数的整数倍，有两处小的优化*/
 int countPrimes(int n) {
     if(n <= 1) return 0;//第一步，永远是特判
@@ -19,4 +19,4 @@ int countPrimes(int n) {
 		for(int i = 1; i < n; ++i) if(p[i]) ++c;
 		return c;
 }
-```
+// ```

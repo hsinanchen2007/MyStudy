@@ -1,13 +1,13 @@
-思路：
-1、将vector<int>转变为vector<string>
-2、快速排序，将vector<string>从大到小排序。
-   判断A、B大小规则：比较A+B和B+A那个大
-3、将排完序的vector<string>连起来即结果；
-   注意：若开头为‘0’，则输出‘0’；例子：输入0，0；输出：0
-改进：
-无需将vector<int>转变，直接排序vector<int>
-关键：如何判断a和b谁先谁后？
-```
+// 思路：
+// 1、将vector<int>转变为vector<string>
+// 2、快速排序，将vector<string>从大到小排序。
+//    判断A、B大小规则：比较A+B和B+A那个大
+// 3、将排完序的vector<string>连起来即结果；
+//    注意：若开头为‘0’，则输出‘0’；例子：输入0，0；输出：0
+// 改进：
+// 无需将vector<int>转变，直接排序vector<int>
+// 关键：如何判断a和b谁先谁后？
+// ```
 vector<int> ve;
 using T = decltype(ve.begin());
 
@@ -72,6 +72,6 @@ string Solution::largestNumber(vector<int>& nums)
 	return out;
 }
 
-```
+// ```
 
 

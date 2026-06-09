@@ -1,9 +1,9 @@
-### 解题思路
-先将字符串s t 进行排序
-再将排序后的字符串进行比较
-### 代码
+// ### 解题思路
+// 先将字符串s t 进行排序
+// 再将排序后的字符串进行比较
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isAnagram(string s, string t) {
@@ -12,4 +12,4 @@ public:
         return s==t;
     }
 };
-```
+// ```

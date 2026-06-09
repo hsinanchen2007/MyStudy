@@ -1,10 +1,10 @@
-### 解题思路
-go解答，其中滑动窗口－数据解法
-执行用时 :0 ms, 在所有 Go 提交中击败了100.00% 的用户
-内存消耗 :2.6 MB, 在所有 Go 提交中击败了93.37%的用户
+// ### 解题思路
+// go解答，其中滑动窗口－数据解法
+// 执行用时 :0 ms, 在所有 Go 提交中击败了100.00% 的用户
+// 内存消耗 :2.6 MB, 在所有 Go 提交中击败了93.37%的用户
 
-#### 暴力解法:
-```golang
+// #### 暴力解法:
+// ```golang
 func lengthOfLongestSubstring(s string) int {
     count := len(s)
 	var max int
@@ -39,10 +39,10 @@ func lengthOfLongestSubstring(s string) int {
 	}
 	return max
 }
-```
+// ```
 
-#### 滑动窗口--map
-```goalng
+// #### 滑动窗口--map
+// ```goalng
 func lengthOfLongestSubstring(s string) int {
     count := len(s)
 	max := 0
@@ -66,11 +66,11 @@ func lengthOfLongestSubstring(s string) int {
 	}
 	return max
 }
-```
+// ```
 
-#### 滑动窗口--数组
+// #### 滑动窗口--数组
 
-```golang
+// ```golang
 func lengthOfLongestSubstring(s string) int {
     count := len(s)
 	max := 0
@@ -94,4 +94,4 @@ func lengthOfLongestSubstring(s string) int {
 	}
 	return max
 }
-```
+// ```

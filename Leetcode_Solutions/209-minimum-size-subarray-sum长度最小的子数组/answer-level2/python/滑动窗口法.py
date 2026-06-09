@@ -1,5 +1,5 @@
-就是标准的滑动窗口法，双指针移动。
-```
+# 就是标准的滑动窗口法，双指针移动。
+# ```
 class Solution(object):
     def minSubArrayLen(self, s, nums):
         """
@@ -20,4 +20,4 @@ class Solution(object):
                 tmp_sum -= nums[start]
                 start += 1
         return 0 if res == float('inf') else res
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 void reverseString(char* s, int sSize){
     solve(s, 0, sSize-1);
 }
@@ -14,4 +14,4 @@ void solve(char *s, int left, int right) {
 }
 
 
-```
+// ```

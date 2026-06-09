@@ -1,6 +1,6 @@
-开始是暴力解决， 最后看了官方给的第二种思路 
+// 开始是暴力解决， 最后看了官方给的第二种思路 
 
-```
+// ```
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -20,4 +20,4 @@ int* sortArrayByParityII(int* A, int ASize, int* returnSize){
     }
     return A;
 }
-```
+// ```

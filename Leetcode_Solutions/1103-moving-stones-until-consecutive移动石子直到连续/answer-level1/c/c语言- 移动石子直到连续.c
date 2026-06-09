@@ -1,9 +1,9 @@
-### 解题思路
-这题好烦哈哈哈哈
+// ### 解题思路
+// 这题好烦哈哈哈哈
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -61,4 +61,4 @@ int* numMovesStones(int a, int b, int c, int* returnSize){
         returnA[1]=max;
        return returnA;
 }
-```
+// ```

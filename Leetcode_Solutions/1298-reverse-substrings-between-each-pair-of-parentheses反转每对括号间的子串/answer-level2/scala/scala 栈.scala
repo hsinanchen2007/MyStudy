@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def reverseParentheses(s: String): String = {
     var str = ""
@@ -21,4 +21,4 @@ object Solution {
     str.reverse
   }
 }
-```
+// ```

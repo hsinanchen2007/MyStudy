@@ -1,4 +1,4 @@
-```
+// ```
 function searchInsert($nums, $target) {
     $start = 0;
     $end = count($nums) - 1;
@@ -14,4 +14,4 @@ function searchInsert($nums, $target) {
     }
     return $start;
 }
-```
+// ```

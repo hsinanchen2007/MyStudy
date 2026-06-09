@@ -1,5 +1,5 @@
-#### 参考了官方解法，结合限制性条件与回溯
-```
+# #### 参考了官方解法，结合限制性条件与回溯
+# ```
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # @Time    : 2019/6/14 21:04
@@ -68,4 +68,4 @@ class RestoreIpAddress(object):
     def result(self):
         self.backtrack()
         return self.output
-```
+# ```

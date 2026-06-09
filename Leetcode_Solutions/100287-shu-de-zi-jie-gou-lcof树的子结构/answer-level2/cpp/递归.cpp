@@ -1,9 +1,9 @@
-### 解题思路
-对树进行遍历，在遍历的过程中，比较A,B节点的值。
+// ### 解题思路
+// 对树进行遍历，在遍历的过程中，比较A,B节点的值。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isSubStructure(TreeNode* A, TreeNode* B) {
@@ -21,4 +21,4 @@ public:
     }
    
 };
-```
+// ```

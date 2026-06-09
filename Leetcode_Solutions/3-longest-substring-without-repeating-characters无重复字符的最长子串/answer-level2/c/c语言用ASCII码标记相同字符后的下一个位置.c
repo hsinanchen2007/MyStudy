@@ -1,9 +1,9 @@
-### 解题思路
-将官方解法的ASCII码方式改写为c语言
+// ### 解题思路
+// 将官方解法的ASCII码方式改写为c语言
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int lengthOfLongestSubstring(char * s){
     int n=strlen(s),max=0,i=0,j=0,h;
     int index[128]={0}; //设置空数组
@@ -17,4 +17,4 @@ int lengthOfLongestSubstring(char * s){
     return max;
 }
 
-```
+// ```

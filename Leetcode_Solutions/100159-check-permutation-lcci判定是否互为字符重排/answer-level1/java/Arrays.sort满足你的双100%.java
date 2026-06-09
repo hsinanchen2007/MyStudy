@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
    public boolean CheckPermutation(String s1, String s2) {
 	        char[] char1 = s1.toCharArray();
@@ -15,4 +15,4 @@ class Solution {
 	        return s1.equals(s2);
 	    }
 }
-```
+// ```

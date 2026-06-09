@@ -1,53 +1,53 @@
-### 解题思路
-我们先把
-```
+# ### 解题思路
+# 我们先把
+# ```
 L   C   I   R
 E T O E S I I G
 E   D   H   N
-```
-写成下面这个样子，也就是V型的，比题目说的N型好理解
-可以想象用手捏着最后一个字符，往右拉了一下：
-```
+# ```
+# 写成下面这个样子，也就是V型的，比题目说的N型好理解
+# 可以想象用手捏着最后一个字符，往右拉了一下：
+# ```
 L       C       I       R
   E   T   O   E   S   I   I   G
     E       D       H       N
-```
-这时候每一列跟原字符串是一一对应的：
-```
+# ```
+# 这时候每一列跟原字符串是一一对应的：
+# ```
 L E E T C O D E I S H I R I N G
 | | | | | | | | | | | | | | | |
 L | | | C | | | I | | | R | | |
   E | T   O | E   S | I   I | G
     E       D       H       N
-```
-然后我们把
-```
+# ```
+# 然后我们把
+# ```
 L       C       I       R
   E   T   O   E   S   I   I   G
     E       D       H       N
-```
-每一行用原字符串对应的字符一一补齐：  
-```
+# ```
+# 每一行用原字符串对应的字符一一补齐：  
+# ```
 'L'E E T'C'O D E'I'S H I'R'I N G    
  L'E'E'T'C'O'D'E'I'S'H'I'R'I'N'G'   
  L E'E'T C O'D'E I S'H'I R I'N'G  
-```
-为了直观的看，我放了python3的Blackboard主题配色截图：
+# ```
+# 为了直观的看，我放了python3的Blackboard主题配色截图：
 
-![image.png](https://pic.leetcode-cn.com/6b45ff2389e4649ed2872777043782079f300799cb80b77d6f3447b73b8e18a6-image.png)
+# ![image.png](https://pic.leetcode-cn.com/6b45ff2389e4649ed2872777043782079f300799cb80b77d6f3447b73b8e18a6-image.png)
 
-可以看到题目说的N字型的走向：
+# 可以看到题目说的N字型的走向：
 
-![image.png](https://pic.leetcode-cn.com/28ac1a0cbbe2c7193ad27b798ee0a78dbc76f457dee33fe1a9f11acdcd8b1646-image.png)
+# ![image.png](https://pic.leetcode-cn.com/28ac1a0cbbe2c7193ad27b798ee0a78dbc76f457dee33fe1a9f11acdcd8b1646-image.png)
 
-实际上就是，
-对列来说，一直往右走，
-对行来说，碰到边界就改变方向；
+# 实际上就是，
+# 对列来说，一直往右走，
+# 对行来说，碰到边界就改变方向；
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
         if numRows <= 1:return s

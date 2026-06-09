@@ -1,9 +1,9 @@
-### 解题思路
-处理好细节就行
+// ### 解题思路
+// 处理好细节就行
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int compress(char* chars, int charsSize){
     int i,j,k,c;
     i=j=k=0;
@@ -26,4 +26,4 @@ int compress(char* chars, int charsSize){
     }
     return k;
 }
-```
+// ```

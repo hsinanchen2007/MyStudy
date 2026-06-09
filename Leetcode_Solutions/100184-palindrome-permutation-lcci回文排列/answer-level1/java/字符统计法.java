@@ -1,9 +1,9 @@
-### 解题思路
-  先统计每个字符出现的次数，如果出现奇数次的字符大于1次，则为false
+// ### 解题思路
+//   先统计每个字符出现的次数，如果出现奇数次的字符大于1次，则为false
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canPermutePalindrome(String s) {
         int oddNum = 0;
@@ -22,4 +22,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

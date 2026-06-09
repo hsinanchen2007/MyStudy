@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-第一种方法是利用递归，求树的深度
+// 第一种方法是利用递归，求树的深度
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -39,11 +39,11 @@ class Solution {
         
     }
 }
-```
+// ```
 
-第二种方式是借助队列的方式来层次遍历
+// 第二种方式是借助队列的方式来层次遍历
 
-```
+// ```
 class Solution {
     public int maxDepth(TreeNode root) {
         if(root==null){
@@ -71,4 +71,4 @@ class Solution {
 
     }
 }
-```
+// ```

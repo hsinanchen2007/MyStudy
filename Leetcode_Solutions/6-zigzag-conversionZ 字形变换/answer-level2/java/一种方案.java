@@ -1,5 +1,5 @@
-利用Z形的结构来解
-```
+// 利用Z形的结构来解
+// ```
 public String convertImp1(String s, int numRows) {
 		// 如果是空字符则直接返回空
 		if (s.length() == 0) {
@@ -40,5 +40,5 @@ public String convertImp1(String s, int numRows) {
 		}
 		return newS.toString();
 	}
-```
+// ```
 

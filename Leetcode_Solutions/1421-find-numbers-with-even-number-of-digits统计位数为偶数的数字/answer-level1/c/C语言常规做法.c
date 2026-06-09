@@ -1,6 +1,6 @@
-提供两种做法。
-做法一：
-```c
+// 提供两种做法。
+// 做法一：
+// ```c
 int findNumbers(int* nums, int numsSize){
     int i,count=0,digit;
     for(i=0;i<numsSize;i++){
@@ -14,9 +14,9 @@ int findNumbers(int* nums, int numsSize){
     }
     return count;
 }
-```
-做法二：
-```c
+// ```
+// 做法二：
+// ```c
 int findNumbers(int* nums, int numsSize){
     short i,count=0;
     for(i=0;i<numsSize;i++)

@@ -1,9 +1,9 @@
-### 解题思路
-开头添加虚拟头节点解决链表头有重复的情况，双指针遍历
+// ### 解题思路
+// 开头添加虚拟头节点解决链表头有重复的情况，双指针遍历
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -32,4 +32,4 @@ public:
         return dummy->next;
     }
 };
-```
+// ```

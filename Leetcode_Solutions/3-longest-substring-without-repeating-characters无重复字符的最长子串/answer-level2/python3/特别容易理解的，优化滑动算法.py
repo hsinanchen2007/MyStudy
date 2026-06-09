@@ -1,5 +1,5 @@
-利用字典存储，减少查重时间
-```
+# 利用字典存储，减少查重时间
+# ```
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         length = len(s)
@@ -20,4 +20,4 @@ class Solution:
                 start = temp[each][1] + 1  
             temp[each] = [1, index]
         return max(Max, length-start)
-```
+# ```

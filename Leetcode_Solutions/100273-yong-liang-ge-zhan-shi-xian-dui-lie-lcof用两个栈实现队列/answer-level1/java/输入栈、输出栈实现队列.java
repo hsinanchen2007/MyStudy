@@ -1,5 +1,5 @@
-使用两个栈，一个用于存储输入的元素，一个用于存储需要弹出的元素。
-```
+// 使用两个栈，一个用于存储输入的元素，一个用于存储需要弹出的元素。
+// ```
 public class CQueue {
 	
 	Stack<Integer> stack_in=new Stack<>();
@@ -28,4 +28,4 @@ public class CQueue {
     }
 }
 
-```
+// ```

@@ -1,17 +1,17 @@
-代码报错怎么办, try-catch盖住不就完了. 
-公司倒闭了, 嘻嘻.
+# 代码报错怎么办, try-catch盖住不就完了. 
+# 公司倒闭了, 嘻嘻.
 
-#### 经过这道题, 我们知道了
-##### 当除数为0时:
-- c++里除数为0引发的是硬件中断而不是异常;
-- js里会根据被除数不同返回不同的值:
-    ```
+# #### 经过这道题, 我们知道了
+# ##### 当除数为0时:
+# - c++里除数为0引发的是硬件中断而不是异常;
+# - js里会根据被除数不同返回不同的值:
+#     ```
     var a=0/0;      //NaN;
 
     var a=1/0;      //Infinity;
-    ```
-#### 可捕获到异常的部分语言
-```java []
+#     ```
+# #### 可捕获到异常的部分语言
+# ```java []
 class Solution {
     public int sumNums(int n) {
         try{
@@ -23,8 +23,8 @@ class Solution {
         return n + sumNums(n - 1);
     }
 }
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def sumNums(self, n: int) -> int:
         # if n != 0:
@@ -36,8 +36,8 @@ class Solution:
             return n
         # 上接continue
         return n + self.sumNums(n - 1)
-```
-```ruby []
+# ```
+# ```ruby []
 # @param {Integer} n
 # @return {Integer}
 def sum_nums(n)
@@ -48,5 +48,5 @@ def sum_nums(n)
     end
     n + sum_nums(n - 1)
 end
-```
+# ```
 

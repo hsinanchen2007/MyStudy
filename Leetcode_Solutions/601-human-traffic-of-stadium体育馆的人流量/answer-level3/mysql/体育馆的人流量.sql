@@ -1,9 +1,9 @@
-### 解题思路
-代码自己看，思想简单，不好实现，用了多层嵌套查询。执行时间149ms，超过76%用户，消耗内存0 MB，超过100%用户
+-- ### 解题思路
+-- 代码自己看，思想简单，不好实现，用了多层嵌套查询。执行时间149ms，超过76%用户，消耗内存0 MB，超过100%用户
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 SELECT b.id,b.visit_date,b.people
 FROM
 	(SELECT id,visit_date,people,IF(people>=100,@groups:=@i,@groups:=0) AS ranking,IF(people<100,@i:=@i+1,@i:=@i) AS temp
@@ -27,4 +27,4 @@ WHERE
 	)
 order by id;
 
-```
+-- ```

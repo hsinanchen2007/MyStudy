@@ -1,10 +1,10 @@
-### 解题思路
-使用Dictionary 紀錄有發生敲鐘的時刻
-在需要get的時候 統計在時間內發生敲擊的總和
+# ### 解题思路
+# 使用Dictionary 紀錄有發生敲鐘的時刻
+# 在需要get的時候 統計在時間內發生敲擊的總和
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class HitCounter:
 
     def __init__(self):
@@ -44,4 +44,4 @@ class HitCounter:
 # obj = HitCounter()
 # obj.hit(timestamp)
 # param_2 = obj.getHits(timestamp)
-```
+# ```

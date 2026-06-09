@@ -1,14 +1,14 @@
-递归 (会超时))
-```
+// 递归 (会超时))
+// ```
     public static int fib(int n) {
         if(n==0) return 0;
         if(n==1) return 1;
         return fib1(n-1)+fib1(n-2);
     }
-```
+// ```
 
-递归优化
-```
+// 递归优化
+// ```
     /*带备忘录的递归算法*/
     public static int fib(int n) {
         int[] arr=new int[101];
@@ -27,10 +27,10 @@
         arr[n]=(fibSolution(arr,n-1)+fibSolution(arr,n-2))%1000000007;
         return arr[n];
     }
-```
+// ```
 
-动态规划
-```
+// 动态规划
+// ```
     public static int fib(int n){
         int[] arr=new int[101];
         arr[0]=0;
@@ -40,6 +40,6 @@
         }
         return arr[n];
     }
-```
+// ```
 
 

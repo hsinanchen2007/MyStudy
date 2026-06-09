@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int trailingZeroes(int n) {
         int zeros = 0;
@@ -9,4 +9,4 @@ class Solution {
         return zeros;
     }
 }
-```
+// ```

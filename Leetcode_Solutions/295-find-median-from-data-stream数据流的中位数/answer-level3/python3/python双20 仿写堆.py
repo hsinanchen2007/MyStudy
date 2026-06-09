@@ -1,8 +1,8 @@
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class MedianFinder:
     def __init__(self):
         self.lnums=[]
@@ -70,4 +70,4 @@ class MedianFinder:
                 j=small
             else:
                 break
-```
+# ```

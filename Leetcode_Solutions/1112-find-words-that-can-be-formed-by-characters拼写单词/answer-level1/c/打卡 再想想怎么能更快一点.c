@@ -1,10 +1,10 @@
-### 解题思路
-桶排
-![image.png](https://pic.leetcode-cn.com/a84956247170556f3e248ea429a7f6c47108772e2584e1202afdd820aa3f68cc-image.png)
+// ### 解题思路
+// 桶排
+// ![image.png](https://pic.leetcode-cn.com/a84956247170556f3e248ea429a7f6c47108772e2584e1202afdd820aa3f68cc-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX_CH_NUM 26
 #define MAX_SIGNLE_CH_NUM 110
 int chCount[MAX_CH_NUM];
@@ -50,4 +50,4 @@ int countCharacters(char ** words, int wordsSize, char * chars){
     }
     return resCnt;
 }
-```
+// ```

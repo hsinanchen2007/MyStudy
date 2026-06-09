@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int majorityElement(int* nums, int numsSize){
     int compare(const void *value1, const void *value2) {
         // 升序
@@ -12,4 +12,4 @@ int majorityElement(int* nums, int numsSize){
     qsort(nums, numsSize, sizeof(int), compare);
     return nums[numsSize/2];
 }
-```
+// ```

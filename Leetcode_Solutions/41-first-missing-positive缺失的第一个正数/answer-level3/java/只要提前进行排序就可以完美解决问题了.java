@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-[0,1,1,2,2]
-第一次提交的时候没注意，被这个重复的情况给绊住了。
-于是添加while循环，将相同元素的内容直接跳过。
+// [0,1,1,2,2]
+// 第一次提交的时候没注意，被这个重复的情况给绊住了。
+// 于是添加while循环，将相同元素的内容直接跳过。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int firstMissingPositive(int[] nums) {
         Arrays.sort(nums);
@@ -30,4 +30,4 @@ class Solution {
         return minRes;
     }
 }
-```
+// ```

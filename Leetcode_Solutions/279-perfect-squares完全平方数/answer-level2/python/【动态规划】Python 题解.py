@@ -1,14 +1,14 @@
-动态规划。
+# 动态规划。
 
-设 `f(n)` 表示组成和的完全平方数的最少个数，那么有：
+# 设 `f(n)` 表示组成和的完全平方数的最少个数，那么有：
 
-```lisp
+# ```lisp
 f(n) = min(f(n - num1), f(n - num2), ... , f(n - numx)) + 1
-```
+# ```
 
-其中 `num1 ~ numx` 为若干个符合条件的完全平方数。
+# 其中 `num1 ~ numx` 为若干个符合条件的完全平方数。
 
-```python
+# ```python
 import math
 
 #f(12) = min(f(1), f(4), f(9)) + 1
@@ -37,6 +37,6 @@ class Solution(object):
             dp[i] = count
             
         return dp[n]
-```
+# ```
 
-论动态规划，这题和 [322. 零钱兑换](https://leetcode-cn.com/problems/coin-change/) 思路挺像的。
+# 论动态规划，这题和 [322. 零钱兑换](https://leetcode-cn.com/problems/coin-change/) 思路挺像的。

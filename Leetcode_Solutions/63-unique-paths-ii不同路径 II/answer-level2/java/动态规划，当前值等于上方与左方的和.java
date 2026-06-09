@@ -1,17 +1,17 @@
-执行结果：
-通过
-显示详情
-执行用时 :
-2 ms
-, 在所有 Java 提交中击败了
-53.33%
-的用户
-内存消耗 :
-35.7 MB
-, 在所有 Java 提交中击败了
-41.44%
-的用户
-```
+// 执行结果：
+// 通过
+// 显示详情
+// 执行用时 :
+// 2 ms
+// , 在所有 Java 提交中击败了
+// 53.33%
+// 的用户
+// 内存消耗 :
+// 35.7 MB
+// , 在所有 Java 提交中击败了
+// 41.44%
+// 的用户
+// ```
 class Solution {
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {
         int m = obstacleGrid.length;
@@ -40,4 +40,4 @@ class Solution {
         return in[i][j];
     }
 }
-```
+// ```

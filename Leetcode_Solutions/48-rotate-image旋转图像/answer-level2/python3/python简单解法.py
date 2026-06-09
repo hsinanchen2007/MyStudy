@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def rotate(self, matrix):
         """
@@ -10,4 +10,4 @@ class Solution(object):
             for index in range(layer,n-layer-1):#matrix[index][index]就是该圈左上角
                 # print(layer,index)
                 matrix[layer][index],matrix[index][n-layer-1],matrix[n-layer-1][n-index-1],matrix[n-index-1][layer]=matrix[n-index-1][layer],matrix[layer][index],matrix[index][n-layer-1],matrix[n-layer-1][n-index-1]
-```
+# ```

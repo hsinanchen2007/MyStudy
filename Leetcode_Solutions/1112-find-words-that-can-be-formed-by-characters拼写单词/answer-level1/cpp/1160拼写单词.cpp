@@ -1,9 +1,9 @@
-### 解题思路
-像是堆排序，把每个字母个数存出来比较就可以了。
+// ### 解题思路
+// 像是堆排序，把每个字母个数存出来比较就可以了。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int countCharacters(vector<string>& words, string chars) {
@@ -32,4 +32,4 @@ public:
         return ans;
     }
 };
-```
+// ```

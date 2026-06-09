@@ -1,12 +1,12 @@
 
 
-解法1、DFS（深度优先搜索）：可能会爆栈
-```
+// 解法1、DFS（深度优先搜索）：可能会爆栈
+// ```
     时间复杂度：O(n),每个结点只有进栈和出栈一次
     空间复杂度: 当树完全不平衡时，比如变成一条直链，复杂度是O(n)，若是完全平衡，则树高是log2（n）,复杂度是O(log2（n）)
-```
+// ```
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -30,15 +30,15 @@ public:
         return  dfs(root, max_dept);
     }
 };
-```
+// ```
 
-2、BFS（宽度优先搜索）：防止爆栈
+// 2、BFS（宽度优先搜索）：防止爆栈
 
-```
+// ```
     时间复杂度：O(n),每个结点只有进出队列一次
     空间复杂度: O(n),n为结点总数
-```
-```cpp
+// ```
+// ```cpp
 class Solution {
 public:
     int maxDepth(TreeNode* root) {
@@ -58,5 +58,5 @@ public:
         return max_dept;
     }
 };
-```
+// ```
 

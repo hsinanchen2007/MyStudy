@@ -1,9 +1,9 @@
-### 解题思路
-使用Map<Integer,Integer>做数字频率统计，使用PriorityQueue<Map.Entry<Integer,Integer>>对键值对按照频率降序，从队列头弹出键值对，直到频率总和超过数组大小的一半。
+// ### 解题思路
+// 使用Map<Integer,Integer>做数字频率统计，使用PriorityQueue<Map.Entry<Integer,Integer>>对键值对按照频率降序，从队列头弹出键值对，直到频率总和超过数组大小的一半。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minSetSize(int[] arr) {
         //特殊情况
@@ -41,4 +41,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

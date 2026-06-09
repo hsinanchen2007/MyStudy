@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/24dc69041e72474ce1197f911c192f5d6ae1890fac054b326e69330cdef44ab3-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/24dc69041e72474ce1197f911c192f5d6ae1890fac054b326e69330cdef44ab3-image.png)
+// ```
 class Solution {
 public:
     string reverseParentheses(string s) 
@@ -26,5 +26,5 @@ public:
         return res;
     }
 };
-```
+// ```
 

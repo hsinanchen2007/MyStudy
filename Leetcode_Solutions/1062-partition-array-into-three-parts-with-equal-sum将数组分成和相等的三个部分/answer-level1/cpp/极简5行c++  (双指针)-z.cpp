@@ -1,9 +1,9 @@
-### 解题思路
-双指针法debug了好多次，难受，sum为0的情况太难受了
+// ### 解题思路
+// 双指针法debug了好多次，难受，sum为0的情况太难受了
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool canThreePartsEqualSum(vector<int>& A) {
@@ -16,4 +16,4 @@ public:
          return sum%3==0 & left<=right;;
     }
 };
-```
+// ```

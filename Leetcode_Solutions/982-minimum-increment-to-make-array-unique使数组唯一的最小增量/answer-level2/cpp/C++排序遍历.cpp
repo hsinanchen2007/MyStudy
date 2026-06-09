@@ -1,9 +1,9 @@
-### 解题思路
-排序遍历，若某位小于等于前一位，增量为使其比前一位大1的值，将值累加即为答案
+// ### 解题思路
+// 排序遍历，若某位小于等于前一位，增量为使其比前一位大1的值，将值累加即为答案
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minIncrementForUnique(vector<int>& A) {
@@ -17,4 +17,4 @@ public:
         return ans;
     }
 };
-```
+// ```

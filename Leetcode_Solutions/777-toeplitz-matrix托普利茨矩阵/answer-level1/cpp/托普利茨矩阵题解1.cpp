@@ -1,13 +1,13 @@
-### 解题思路
-此处撰写解题思路
-首先：划去第一行和第一列，
-第二：检查剩下的元素是否等于左上角元素，通过遍历元素实现。
-第三：遍历完k等于rows+cols-(rows-1)*(cols-1)
-第四：判定k-1是否等于rows*cols;是，则输出true
+// ### 解题思路
+// 此处撰写解题思路
+// 首先：划去第一行和第一列，
+// 第二：检查剩下的元素是否等于左上角元素，通过遍历元素实现。
+// 第三：遍历完k等于rows+cols-(rows-1)*(cols-1)
+// 第四：判定k-1是否等于rows*cols;是，则输出true
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isToeplitzMatrix(vector<vector<int>>& matrix) {
@@ -36,4 +36,4 @@ public:
         
     }
 };
-```
+// ```

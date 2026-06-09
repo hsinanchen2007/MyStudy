@@ -1,9 +1,9 @@
-### 解题思路
-单词倒过来存到字典树里，这样同样的后缀就可以存在一起
+// ### 解题思路
+// 单词倒过来存到字典树里，这样同样的后缀就可以存在一起
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 struct node{
     bool isWord;
     unordered_map<char,node *> next;
@@ -53,4 +53,4 @@ public:
         return ans;
     }
 };
-```
+// ```

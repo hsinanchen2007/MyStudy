@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     int index = 0;
     //s = "3[a2[c]]", 返回 "accaccacc".
@@ -52,4 +52,4 @@ class Solution {
         return res.toString();
     }
 }
-```
+// ```

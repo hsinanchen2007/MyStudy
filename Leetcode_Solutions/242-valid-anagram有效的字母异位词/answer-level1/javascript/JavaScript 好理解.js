@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/c480a36d65b17836637997cffd6a3596ac0adfb9b1f8af2f5172982321745f75-image.png)
-- 通过 obj 进行对单个字符进行计数
-- 然后通过 for in 遍历对象，判断键值对是否相等
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/c480a36d65b17836637997cffd6a3596ac0adfb9b1f8af2f5172982321745f75-image.png)
+// - 通过 obj 进行对单个字符进行计数
+// - 然后通过 for in 遍历对象，判断键值对是否相等
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @param {string} t
@@ -35,4 +35,4 @@ var isAnagram = function(s, t) {
    
  }
 
-```
+// ```

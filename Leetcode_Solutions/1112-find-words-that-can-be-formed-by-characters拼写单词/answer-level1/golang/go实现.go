@@ -1,9 +1,9 @@
-### 解题思路
-1、使用map 映射数量
+// ### 解题思路
+// 1、使用map 映射数量
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 package main
 
 import "fmt"
@@ -29,4 +29,4 @@ func countCharacters(words []string, chars string) int {
 	}
 	return resCount
 }
-```
+// ```

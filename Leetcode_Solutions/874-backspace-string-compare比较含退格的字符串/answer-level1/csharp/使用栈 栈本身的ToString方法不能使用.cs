@@ -1,4 +1,4 @@
-```
+// ```
 public class Solution {
     public bool BackspaceCompare(string S, string T) {
         
@@ -26,4 +26,4 @@ public class Solution {
         return result;
     }
 }
-```
+// ```

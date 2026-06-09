@@ -1,9 +1,9 @@
-### 解题思路
-每次取出nums[i:i+k]的窗口，计算sum，返回sum最大的窗口即可
+# ### 解题思路
+# 每次取出nums[i:i+k]的窗口，计算sum，返回sum最大的窗口即可
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findMaxAverage(self, nums: List[int], k: int) -> float:
         length=len(nums)
@@ -19,4 +19,4 @@ class Solution:
         return res/k
 
 
-```
+# ```

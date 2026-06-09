@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func tribonacci(n int) int {
     if n < 2 {
         return n
@@ -20,4 +20,4 @@ func tribonacci(n int) int {
     }
     return a[n-1] + a[n-2] + a[n-3]
 }
-```
+// ```

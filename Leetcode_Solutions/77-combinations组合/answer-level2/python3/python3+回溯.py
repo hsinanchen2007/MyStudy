@@ -1,5 +1,5 @@
-剪枝好像不对😂
-```
+# 剪枝好像不对😂
+# ```
 class Solution:
     def combine(self, n: int, k: int) -> List[List[int]]:
         if not n or not k:
@@ -18,4 +18,4 @@ class Solution:
                 tmp.pop()
         helper(nums, [], ans)
         return ans
-```
+# ```

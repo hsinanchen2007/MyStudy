@@ -1,10 +1,10 @@
-### 解题思路
-spilt()以" "切割字符串时，当有多个空格时，例如” hello world“->"","hello","world"  "   hello world!"->"","","","hello","world!"
-所以舍去”“，然后用append 加入字符串，最后返回时要注意删除字符串首尾空格
+// ### 解题思路
+// spilt()以" "切割字符串时，当有多个空格时，例如” hello world“->"","hello","world"  "   hello world!"->"","","","hello","world!"
+// 所以舍去”“，然后用append 加入字符串，最后返回时要注意删除字符串首尾空格
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String reverseWords(String s) {
         String string ="";
@@ -25,4 +25,4 @@ class Solution {
 
     }
 }
-```
+// ```

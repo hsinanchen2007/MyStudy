@@ -1,10 +1,10 @@
-### 解题思路
-菜鸡代码，又臭又长
-执行用时 :8 ms, 在所有 C++ 提交中击败了99.71%的用户
-内存消耗 :17.7 MB, 在所有 C++ 提交中击败了5.08%的用户
-### 代码
+// ### 解题思路
+// 菜鸡代码，又臭又长
+// 执行用时 :8 ms, 在所有 C++ 提交中击败了99.71%的用户
+// 内存消耗 :17.7 MB, 在所有 C++ 提交中击败了5.08%的用户
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> insert(vector<vector<int>>& intervals, vector<int>& newInterval) {
@@ -81,4 +81,4 @@ public:
         return ans;
     }
 };
-```
+// ```

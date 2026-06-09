@@ -1,9 +1,9 @@
-### 解题思路
-太笨了，只想到了dfs一种方法 不知道为什么内存占用特别多，但时间98
+// ### 解题思路
+// 太笨了，只想到了dfs一种方法 不知道为什么内存占用特别多，但时间98
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
  public List<String> generateParenthesis(int n) {
         List<String> ans = new ArrayList<>();
@@ -29,4 +29,4 @@ class Solution {
         ans.add(s);
     }
 }
-```
+// ```

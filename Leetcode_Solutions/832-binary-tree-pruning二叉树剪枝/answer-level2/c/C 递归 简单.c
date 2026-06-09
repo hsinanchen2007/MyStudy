@@ -1,9 +1,9 @@
-### 解题思路
-直接看代码 = =
+// ### 解题思路
+// 直接看代码 = =
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -24,4 +24,4 @@ struct TreeNode* pruneTree(struct TreeNode* root){
     }
     return root;
 }
-```
+// ```

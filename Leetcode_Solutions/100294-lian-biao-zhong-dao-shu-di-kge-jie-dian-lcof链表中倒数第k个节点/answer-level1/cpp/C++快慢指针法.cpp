@@ -1,6 +1,6 @@
-先让快指针走K步，然后快指针和慢指针一起走，快指针走到结尾为止
+// 先让快指针走K步，然后快指针和慢指针一起走，快指针走到结尾为止
 
-```
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -26,4 +26,4 @@ public:
         return slow;
     }
 };
-```
+// ```

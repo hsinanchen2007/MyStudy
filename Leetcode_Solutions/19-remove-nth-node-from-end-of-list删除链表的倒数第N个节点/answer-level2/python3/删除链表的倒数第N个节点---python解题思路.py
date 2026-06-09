@@ -1,8 +1,8 @@
-之前接触过的链表少之又少，大多只是稍微了解一下，感谢LeetCode又有机会让我进一步的了解链表
+# 之前接触过的链表少之又少，大多只是稍微了解一下，感谢LeetCode又有机会让我进一步的了解链表
 
-看到题目的要求，去除后面第几位，马上想到的就是把他转化成去除前面的第几位。这样应该是比较好解决的，尝试了一下，处理了一个特殊情况就通过检查了
+# 看到题目的要求，去除后面第几位，马上想到的就是把他转化成去除前面的第几位。这样应该是比较好解决的，尝试了一下，处理了一个特殊情况就通过检查了
 
-```python
+# ```python
 class Solution:
     def removeNthFromEnd(self, head: ListNode, n: int) -> ListNode:
         if not head or head.next == None:
@@ -29,11 +29,11 @@ class Solution:
         else:
             tem_list[new_n - 1].next = tem_list[new_n + 1]
             return tem_list[0]
-```
+# ```
 
-运行结果
+# 运行结果
 
-```
+# ```
 执行用时 :32 ms, 在所有 python3 提交中击败了99.51% 的用户
 内存消耗 :13.7 MB, 在所有 python3 提交中击败了5.53%的用户
 
@@ -42,19 +42,19 @@ class Solution:
 
 执行用时 :40 ms, 在所有 python3 提交中击败了91.07% 的用户
 内存消耗 :13.9 MB, 在所有 python3 提交中击败了5.53%的用户
-```
+# ```
 
-很开心只测试了几次就通过了检查而且速度也非常快的O(∩_∩)O哈哈~
+# 很开心只测试了几次就通过了检查而且速度也非常快的O(∩_∩)O哈哈~
 
-这里取巧使用了列表，省去了找上下节点的问题
+# 这里取巧使用了列表，省去了找上下节点的问题
 
-接下来就是学习一下官方是怎么解答的了
+# 接下来就是学习一下官方是怎么解答的了
 
-发现官方巧妙的使用了双指针，Excuse me 双指针还能这样使用，流批流批
+# 发现官方巧妙的使用了双指针，Excuse me 双指针还能这样使用，流批流批
 
-接下来就是官方的思路的代码
+# 接下来就是官方的思路的代码
 
-```python
+# ```python
 class Solution:
     def removeNthFromEnd(self, head: ListNode, n: int) -> ListNode:
         if not head or head.next == None:
@@ -72,11 +72,11 @@ class Solution:
             second_node = second_node.next 
         second_node.next = second_node.next.next
         return head_node.next
-```
+# ```
 
-运行结果
+# 运行结果
 
-```
+# ```
 执行用时 :40 ms, 在所有 python3 提交中击败了91.07% 的用户
 内存消耗 :13.8 MB, 在所有 python3 提交中击败了5.53%的用户
 
@@ -85,7 +85,7 @@ class Solution:
 
 执行用时 :40 ms, 在所有 python3 提交中击败了91.07% 的用户
 内存消耗 :13.9 MB, 在所有 python3 提交中击败了5.53%的用户
-```
+# ```
 
-利用了同一个链表的长度是一样的，同样起步的两个节点，一个先多走2步另一个等前一个多走完再走就会少走多走的步数。真是十分的巧妙啊！佩服佩服
-欢迎来github上看更多题目的解答[力扣解题思路](https://github.com/WRAllen/LeetCode)
+# 利用了同一个链表的长度是一样的，同样起步的两个节点，一个先多走2步另一个等前一个多走完再走就会少走多走的步数。真是十分的巧妙啊！佩服佩服
+# 欢迎来github上看更多题目的解答[力扣解题思路](https://github.com/WRAllen/LeetCode)

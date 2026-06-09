@@ -1,12 +1,12 @@
-### 解题思路
-把官方穷举用JAVA写了一遍
-check函数是检测最大公因数是否能组成输入的字符串，t：公因数字符串，s：原字符串。最后用了2ms（42.82%），38.9mb（9.01%）我去面壁
-ps：果然看c++就是会出错，java对比字符串要用`String.equals()`
-我还漏个s，疯狂报错。。。
+// ### 解题思路
+// 把官方穷举用JAVA写了一遍
+// check函数是检测最大公因数是否能组成输入的字符串，t：公因数字符串，s：原字符串。最后用了2ms（42.82%），38.9mb（9.01%）我去面壁
+// ps：果然看c++就是会出错，java对比字符串要用`String.equals()`
+// 我还漏个s，疯狂报错。。。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     boolean check(String t, String s){
         int lenx = (int)s.length() / (int)t.length();
@@ -51,4 +51,4 @@ class Solution {
         return "";
     }
 }
-```
+// ```

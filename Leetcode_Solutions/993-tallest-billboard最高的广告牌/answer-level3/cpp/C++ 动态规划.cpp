@@ -1,8 +1,8 @@
-**思路**
-`dp[i][j]`代表前`i`个钢筋组成的两个框架高度差为`j`的时候的长度之和
-由于考察到第`i`个钢筋的时候，其结果仅取决于上一个钢筋的结果，因此可以进行状态压缩为一维的dp。
-状态转移方程详可代码注释。
-```
+// **思路**
+// `dp[i][j]`代表前`i`个钢筋组成的两个框架高度差为`j`的时候的长度之和
+// 由于考察到第`i`个钢筋的时候，其结果仅取决于上一个钢筋的结果，因此可以进行状态压缩为一维的dp。
+// 状态转移方程详可代码注释。
+// ```
 class Solution {
 public:
     int tallestBillboard(vector<int>& rods) {
@@ -26,6 +26,6 @@ public:
         return dp[0] / 2;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/fc5b89ce41d640aaa1d972c6dd526967e257881bf146efa65a375ccfef47cc80-image.png)
+// ![image.png](https://pic.leetcode-cn.com/fc5b89ce41d640aaa1d972c6dd526967e257881bf146efa65a375ccfef47cc80-image.png)

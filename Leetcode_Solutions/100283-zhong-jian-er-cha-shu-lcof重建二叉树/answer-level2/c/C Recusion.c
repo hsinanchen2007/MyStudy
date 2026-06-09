@@ -1,10 +1,10 @@
-### 解题思路
-1. 根据前序遍历和中序遍历的特点，可以知道父节点和左右孩子
-2. 递归求解即可
+// ### 解题思路
+// 1. 根据前序遍历和中序遍历的特点，可以知道父节点和左右孩子
+// 2. 递归求解即可
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -40,4 +40,4 @@ struct TreeNode* buildTree(int* preorder, int preorderSize, int* inorder, int in
     
     return create(preorder, inorder, 0, preorderSize - 1, 0 ,inorderSize - 1);
 }
-```
+// ```

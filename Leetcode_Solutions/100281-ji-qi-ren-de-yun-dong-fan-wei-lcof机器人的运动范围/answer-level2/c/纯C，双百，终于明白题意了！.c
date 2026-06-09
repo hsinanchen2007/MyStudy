@@ -1,11 +1,11 @@
-![1.png](https://pic.leetcode-cn.com/26117eda28d80a13255e520518ff61b5702314cff1dceff0e75137719bffc220-1.png)
+// ![1.png](https://pic.leetcode-cn.com/26117eda28d80a13255e520518ff61b5702314cff1dceff0e75137719bffc220-1.png)
 
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int num(int x){
 	int res = 0;
 	while (x){
@@ -35,4 +35,4 @@ int movingCount(int m, int n, int k){
 	}
 	return res;
 }
-```
+// ```

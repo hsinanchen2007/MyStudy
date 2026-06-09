@@ -1,9 +1,9 @@
-### 解题思路
-可以用双指针遍历，不需要trim或者split
+// ### 解题思路
+// 可以用双指针遍历，不需要trim或者split
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     // 双指针
     public int lengthOfLastWord(String s) {
@@ -25,4 +25,4 @@ class Solution {
         return i - j;
     }
 }
-```
+// ```

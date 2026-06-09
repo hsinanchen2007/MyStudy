@@ -1,4 +1,4 @@
-解题还要要直接看代码：
+// 解题还要要直接看代码：
 
 class Solution {
     public void nextPermutation(int[] nums) {

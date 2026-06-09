@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def rob(self, nums: List[int]) -> int:
         n=len(nums)
@@ -16,4 +16,4 @@ class Solution:
         for i in range(2,n):
             geld[i]=max(geld[i-2]+nums[i],geld[i-1])
         return geld[-1]
-```
+# ```

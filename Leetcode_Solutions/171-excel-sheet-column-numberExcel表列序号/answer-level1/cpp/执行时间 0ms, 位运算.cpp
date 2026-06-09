@@ -1,9 +1,9 @@
-### 解题思路
-用多次移位运算替换乘法。
+// ### 解题思路
+// 用多次移位运算替换乘法。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int titleToNumber(string s) {
@@ -14,7 +14,7 @@ public:
         return res;
     }
 };
-```
+// ```
 
-###截图
-![解题.jpg](https://pic.leetcode-cn.com/6031a5aa7e72232105e4c3f2ea11d08716d777524b9ac875876dd98d7bff1368-%E8%A7%A3%E9%A2%98.jpg)
+// ###截图
+// ![解题.jpg](https://pic.leetcode-cn.com/6031a5aa7e72232105e4c3f2ea11d08716d777524b9ac875876dd98d7bff1368-%E8%A7%A3%E9%A2%98.jpg)

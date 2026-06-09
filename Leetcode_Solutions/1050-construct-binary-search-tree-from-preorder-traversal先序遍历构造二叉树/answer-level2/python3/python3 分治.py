@@ -1,12 +1,12 @@
-### 解题思路
-preorder的第一个元素作为root.val
-将比其小的元素存放在leftList里
-比其大的元素存放在rightList里
-递归调用，分别建好左子树和右子树
-返回root
-### 代码
+# ### 解题思路
+# preorder的第一个元素作为root.val
+# 将比其小的元素存放在leftList里
+# 比其大的元素存放在rightList里
+# 递归调用，分别建好左子树和右子树
+# 返回root
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -29,4 +29,4 @@ class Solution:
         root.left = self.bstFromPreorder(leftList)
         root.right = self.bstFromPreorder(rightList)
         return root
-```
+# ```

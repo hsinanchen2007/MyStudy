@@ -1,4 +1,4 @@
-方法一：（使用左关联）
+-- 方法一：（使用左关联）
 select a.Name as Customers
 from Customers a
 left join Orders b

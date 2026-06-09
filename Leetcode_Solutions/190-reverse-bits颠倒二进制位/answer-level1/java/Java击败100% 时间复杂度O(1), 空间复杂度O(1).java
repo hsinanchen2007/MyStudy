@@ -1,5 +1,5 @@
-#### 一步到位:直接把二进制的每一位安排到最终位置上; 时间复杂度O(1), 空间复杂度O(1)
-```java
+// #### 一步到位:直接把二进制的每一位安排到最终位置上; 时间复杂度O(1), 空间复杂度O(1)
+// ```java
 public class Solution {
     // you need treat n as an unsigned value
     public int reverseBits(int n) {
@@ -15,4 +15,4 @@ public class Solution {
         return res;
     }
 }
-```
+// ```

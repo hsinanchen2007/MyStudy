@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def isSymmetric(self, root: TreeNode) -> bool:
         def judge(a , b):
@@ -19,4 +19,4 @@ class Solution:
             stk.append(a.right)
             stk.append(b.left)
         return True   
-```
+# ```

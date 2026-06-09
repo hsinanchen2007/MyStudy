@@ -1,5 +1,5 @@
-双指针的应用
-```java
+// 双指针的应用
+// ```java
 import java.util.*;
 class Solution {
      private final static HashSet<Character> set = new HashSet<>(Arrays.asList('a','o','e','i','u','A','O','E','I','U'));
@@ -21,4 +21,4 @@ class Solution {
         return new String(result);
     }
 }
-```
+// ```

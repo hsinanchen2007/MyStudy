@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 public class Solution {
 
     public double myPow(double x, int n) {
@@ -25,4 +25,4 @@ public class Solution {
         return res;
     }
 }
-```
+// ```

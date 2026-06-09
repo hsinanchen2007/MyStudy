@@ -1,16 +1,16 @@
-## 结果
+// ## 结果
 
-![image.png](https://pic.leetcode-cn.com/5c118727c2adb7559b00aa8fc3f0e65e525782ae96556d11e51558bf20446b58-image.png)
+// ![image.png](https://pic.leetcode-cn.com/5c118727c2adb7559b00aa8fc3f0e65e525782ae96556d11e51558bf20446b58-image.png)
 
-## 思路
+// ## 思路
 
-回溯法，与[N皇后](https://leetcode-cn.com/problems/n-queens/)类似
-- 每一步在棋盘新的一行中不同位置放置一个皇后，然后执行下一步
-- 每一步的放置需要考虑是否引起冲突【皇后所在列没有皇后，四个对角方向没有皇后】
+// 回溯法，与[N皇后](https://leetcode-cn.com/problems/n-queens/)类似
+// - 每一步在棋盘新的一行中不同位置放置一个皇后，然后执行下一步
+// - 每一步的放置需要考虑是否引起冲突【皇后所在列没有皇后，四个对角方向没有皇后】
 
-## Code
+// ## Code
 
-```
+// ```
 func totalNQueens(n int) (result int) {
     board := makeBoard(n)
     place(n, 0, board, &result)
@@ -79,6 +79,6 @@ func makeBoard(n int) [][]byte {
     }
     return result
 }
-```
+// ```
 
 

@@ -1,9 +1,9 @@
-### 解题思路
-广度优先搜索，C++，入度都为0
+// ### 解题思路
+// 广度优先搜索，C++，入度都为0
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
@@ -46,4 +46,4 @@ public:
     }
 };
 
-```
+// ```

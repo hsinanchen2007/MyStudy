@@ -1,4 +1,4 @@
-```
+// ```
 两种方法都是看题解写的==
 // 找到环形列表的环的起点
 //方法一：快慢指针
@@ -54,4 +54,4 @@ struct ListNode *detectCycle(struct ListNode *head) {
     }
     return  NULL;
 }
-```
+// ```

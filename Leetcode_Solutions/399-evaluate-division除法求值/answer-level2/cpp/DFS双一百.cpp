@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<double> calcEquation(vector<vector<string>>& equations, vector<double>& values, vector<vector<string>>& queries) {
@@ -36,5 +36,5 @@ public:
     }
 };
 
-```
-![image.png](https://pic.leetcode-cn.com/28ef61e0e76019d4a579652970c40747b0c48aad7fd6eae1564a3d993e94a93e-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/28ef61e0e76019d4a579652970c40747b0c48aad7fd6eae1564a3d993e94a93e-image.png)

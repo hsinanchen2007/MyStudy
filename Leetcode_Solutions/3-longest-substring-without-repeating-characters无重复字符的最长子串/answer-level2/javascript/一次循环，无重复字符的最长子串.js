@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {number}
@@ -26,4 +26,4 @@ var lengthOfLongestSubstring = function(s) {
     // 判断最后的子串是不是最长
     return l < _s.length ? _s.length : l
 };
-```
+// ```

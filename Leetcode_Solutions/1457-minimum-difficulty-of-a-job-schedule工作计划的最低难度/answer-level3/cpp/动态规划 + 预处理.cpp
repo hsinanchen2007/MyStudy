@@ -1,14 +1,14 @@
-### 解题思路
+// ### 解题思路
 
-DP公式：
+// DP公式：
 
-`dp[i][j] = min(dp[i][j], dp[i-1][k] + maxD[k+1][j])`, 其中 i 为 分割的分数， i = 1 ~ d； j 为 已处理的工作的长度， j = 1 ~ n； k为在 [i - 1, j） 区间的分割点， k = i-1 ~ j-1。
+// `dp[i][j] = min(dp[i][j], dp[i-1][k] + maxD[k+1][j])`, 其中 i 为 分割的分数， i = 1 ~ d； j 为 已处理的工作的长度， j = 1 ~ n； k为在 [i - 1, j） 区间的分割点， k = i-1 ~ j-1。
 
-maxD[i][j] 表示区间[i, j] 内的最大元素，可以在 O(N^2) 的时间内预计算出来。
+// maxD[i][j] 表示区间[i, j] 内的最大元素，可以在 O(N^2) 的时间内预计算出来。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minDifficulty(vector<int>& jobDifficulty, int d) {
@@ -38,4 +38,4 @@ public:
         return dp[d][n];
     }
 };
-```
+// ```

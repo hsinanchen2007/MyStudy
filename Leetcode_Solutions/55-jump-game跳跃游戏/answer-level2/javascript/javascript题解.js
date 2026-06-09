@@ -1,18 +1,18 @@
-[55.跳跃游戏](https://leetcode-cn.com/problems/jump-game/submissions/)    
+// [55.跳跃游戏](https://leetcode-cn.com/problems/jump-game/submissions/)    
 
-[力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md)   
+// [力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md)   
 
-## 方法一 从后往前    
+// ## 方法一 从后往前    
 
-从后往前判断某一个位置是否能够跳的到最后一个位置。   
+// 从后往前判断某一个位置是否能够跳的到最后一个位置。   
 
-判断依据是当前数组下标+当前位置的值的和是否大于能够跳的到最后一个位置的数组下标。   
+// 判断依据是当前数组下标+当前位置的值的和是否大于能够跳的到最后一个位置的数组下标。   
 
-最后判断从开始能够跳的到最后一个位置的依据是，数组下标0处是否可以跳到下一个能跳到最后一个位置的数组下标。   
+// 最后判断从开始能够跳的到最后一个位置的依据是，数组下标0处是否可以跳到下一个能跳到最后一个位置的数组下标。   
 
-写的比较抽象，代码比较好理解：   
+// 写的比较抽象，代码比较好理解：   
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {boolean}
@@ -27,18 +27,18 @@ var canJump = function(nums) {
     }
     return pos === 0;
 };
-```
+// ```
 
-**时间复杂度**：`O(N)`    
+// **时间复杂度**：`O(N)`    
 
-**空间复杂度**：`O(1)`
+// **空间复杂度**：`O(1)`
 
 
-## 从前往后   
+// ## 从前往后   
 
-效率比较低。   
+// 效率比较低。   
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {boolean}
@@ -56,8 +56,8 @@ var canJump = function(nums) {
     }
     return dp[nums.length-1];
 };
-```
+// ```
 
-**时间复杂度**：`O(n²)`    
+// **时间复杂度**：`O(n²)`    
 
-**空间复杂度**：`O(n)`
+// **空间复杂度**：`O(n)`

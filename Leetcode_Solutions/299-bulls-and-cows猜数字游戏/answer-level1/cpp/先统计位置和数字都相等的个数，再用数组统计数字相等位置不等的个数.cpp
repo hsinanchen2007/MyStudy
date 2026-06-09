@@ -1,9 +1,9 @@
-### 解题思路
-c++, 击败95.65%和100%，先统计位置和数字都相等的个数，再用数组统计数字相等位置不等的个数
+// ### 解题思路
+// c++, 击败95.65%和100%，先统计位置和数字都相等的个数，再用数组统计数字相等位置不等的个数
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string getHint(string secret, string guess) {
@@ -26,4 +26,4 @@ public:
         return to_string(co1) + 'A' + to_string(cou2) + 'B';
     }
 };
-```
+// ```

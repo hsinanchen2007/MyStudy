@@ -1,4 +1,4 @@
-拆解数值, 装入list中, 然后遍历一下.
+# 拆解数值, 装入list中, 然后遍历一下.
 
 class Solution:
     def isPalindrome(self, x: int) -> bool:

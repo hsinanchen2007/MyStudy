@@ -1,12 +1,12 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/9/3
- * 
- * 解题思路: 使用hashset 辅助来做 注意：一个空的数组 new int[0]
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/9/3
+//  * 
+//  * 解题思路: 使用hashset 辅助来做 注意：一个空的数组 new int[0]
+//  */
+// ```
 public int[] intersection(int[] nums1, int[] nums2) {
 
     int[] res ;
@@ -37,4 +37,4 @@ public int[] intersection(int[] nums1, int[] nums2) {
     return res;
 }
 
-```
+// ```

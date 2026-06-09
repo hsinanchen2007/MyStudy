@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 // 冒泡排序
 void sort(int * nums, int n)
 {
@@ -25,9 +25,9 @@ void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n){
     }
     sort(nums1, m + n);
 }
-```
+// ```
 
-```
+// ```
 // 插入排序
 void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n){
     for(int i = 0 ; i < n; i++){
@@ -43,4 +43,4 @@ void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n){
         m = m + 1;
     }
 }
-```
+// ```

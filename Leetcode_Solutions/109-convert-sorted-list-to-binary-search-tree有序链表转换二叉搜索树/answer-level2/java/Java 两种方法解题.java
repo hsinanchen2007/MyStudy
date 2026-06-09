@@ -1,8 +1,8 @@
-***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，持续更新。***
+// ***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，持续更新。***
 
-方法1：
-遍历链表，将值存入数组，数组值为二叉树的中序遍历值，使用递归还原。
-```
+// 方法1：
+// 遍历链表，将值存入数组，数组值为二叉树的中序遍历值，使用递归还原。
+// ```
  //方法1：
 public TreeNode sortedListToBST(ListNode head) {
     //1.遍历链表，使用数组保留节点升序值
@@ -24,10 +24,10 @@ private TreeNode helper(List<Integer> list, int lo, int hi) {
     root.right = helper(list,mid+1,hi);
     return root;
 }
-```
+// ```
 
-方法2：使用快慢指针求链表中点，然后使用中序遍历得到二叉树
-```
+// 方法2：使用快慢指针求链表中点，然后使用中序遍历得到二叉树
+// ```
  public TreeNode sortedListToBST(ListNode head) {
         if (head == null) return null;
         return helper(head, null);
@@ -47,6 +47,6 @@ private TreeNode helper(ListNode head, ListNode tail) {
     root.right = helper(slow.next, tail);
     return root;
 }
-```
+// ```
 
 

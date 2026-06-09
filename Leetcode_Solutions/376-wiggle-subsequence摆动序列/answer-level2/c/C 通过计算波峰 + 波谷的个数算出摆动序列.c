@@ -1,7 +1,7 @@
 
-摆动序列实际就是波峰和波谷的个数
+// 摆动序列实际就是波峰和波谷的个数
 
-```
+// ```
 int wiggleMaxLength(int* nums, int numsSize)
 {
     int preOffSet = 0; 
@@ -33,4 +33,4 @@ int wiggleMaxLength(int* nums, int numsSize)
     
     return count;
 }
-```
+// ```

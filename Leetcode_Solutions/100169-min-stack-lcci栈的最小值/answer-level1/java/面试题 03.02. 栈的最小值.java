@@ -1,9 +1,9 @@
-### 解题思路
-注意 x<=minStack.peek()； 等于号很重要
+// ### 解题思路
+// 注意 x<=minStack.peek()； 等于号很重要
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MinStack {
     private Stack<Integer> stack=new Stack<Integer>();
     private Stack<Integer> minStack=new Stack<Integer>();
@@ -49,4 +49,4 @@ class MinStack {
  * int param_3 = obj.top();
  * int param_4 = obj.getMin();
  */
-```
+// ```

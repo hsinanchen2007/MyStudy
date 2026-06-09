@@ -1,4 +1,4 @@
-```
+// ```
 long long int cmp(const void *a, const void *b) {
     return (long long int)(*(int *)a) - (long long int)(*(int *)b);
 }
@@ -35,4 +35,4 @@ int longestConsecutive(int* nums, int numsSize){
 
     return size;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-怪我太菜，（捂脸）滑动窗口解
+// ### 解题思路
+// 怪我太菜，（捂脸）滑动窗口解
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] findContinuousSequence(int target) {
         int i = 1; // 滑动窗口的左边界
@@ -36,4 +36,4 @@ class Solution {
     return res.toArray(new int[res.size()][]);
     }
 }
-```
+// ```

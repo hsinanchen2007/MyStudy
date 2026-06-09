@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool validateBinaryTreeNodes(int n, vector<int>& leftChild, vector<int>& rightChild) {
@@ -39,4 +39,4 @@ public:
         return parent.size() == n; // 不等于说明有节点漏了,不在二叉树里
     }
 };
-```
+// ```

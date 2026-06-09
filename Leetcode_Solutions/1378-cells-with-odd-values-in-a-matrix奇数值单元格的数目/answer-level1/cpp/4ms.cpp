@@ -1,9 +1,9 @@
-### 解题思路
-直接模拟，本来想想下有没有数学方法，后来放弃了
+// ### 解题思路
+// 直接模拟，本来想想下有没有数学方法，后来放弃了
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int oddCells(int n, int m, vector<vector<int>>& indices) {
@@ -26,4 +26,4 @@ public:
         return res;
     }
 };
-```
+// ```

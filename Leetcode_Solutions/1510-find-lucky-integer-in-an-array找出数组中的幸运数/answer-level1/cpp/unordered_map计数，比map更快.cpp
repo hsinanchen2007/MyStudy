@@ -1,5 +1,5 @@
-使用unordered_map存储数组及出现次数，最后遍历即可找出幸运数
-```c++
+// 使用unordered_map存储数组及出现次数，最后遍历即可找出幸运数
+// ```c++
 class Solution {
 public:
     int findLucky(vector<int>& arr) {
@@ -18,4 +18,4 @@ public:
         return res;
     }
 };
-```
+// ```

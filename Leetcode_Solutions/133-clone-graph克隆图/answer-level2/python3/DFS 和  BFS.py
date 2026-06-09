@@ -1,22 +1,22 @@
-### 解题思路:
+# ### 解题思路:
 
-这道题就是遍历整个图，所以遍历时候要记录已经访问点，我们用一个字典记录。
+# 这道题就是遍历整个图，所以遍历时候要记录已经访问点，我们用一个字典记录。
 
-所以，遍历方法就有两种。
+# 所以，遍历方法就有两种。
 
-思路一:DFS (深度遍历)
+# 思路一:DFS (深度遍历)
 
-思路二:BFS (广度遍历)
+# 思路二:BFS (广度遍历)
 
-!!! 大家重点掌握，后面图遍历都和这个有关系！
+# !!! 大家重点掌握，后面图遍历都和这个有关系！
 
 
 
-### 代码:
+# ### 代码:
 
-思路一:
+# 思路一:
 
-```Python [1]
+# ```Python [1]
 class Solution:
     def cloneGraph(self, node: 'Node') -> 'Node':
         lookup = {}
@@ -34,11 +34,11 @@ class Solution:
             return clone
 
         return dfs(node)
-```
+# ```
 
 
 
-```Java [1]
+# ```Java [1]
 class Solution {
     public Node cloneGraph(Node node) {
         Map<Node, Node> lookup = new HashMap<>();
@@ -54,11 +54,11 @@ class Solution {
         return clone;
     }
 }
-```
+# ```
 
-思路二:
+# 思路二:
 
-```Python [2]
+# ```Python [2]
 class Solution:
     def cloneGraph(self, node: 'Node') -> 'Node':
         from collections import deque
@@ -80,11 +80,11 @@ class Solution:
             return clone
 
         return bfs(node)
-```
+# ```
 
 
 
-```Java [2]
+# ```Java [2]
 class Solution {
     public Node cloneGraph(Node node) {
         if (node == null) return null;
@@ -106,5 +106,5 @@ class Solution {
         return clone;
     }
 }
-```
+# ```
 

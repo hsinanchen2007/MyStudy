@@ -1,7 +1,7 @@
-此三数之和 Java题解 基本出自[@zhu_shi_fu](/u/zhu_shi_fu/)的解法
+// 此三数之和 Java题解 基本出自[@zhu_shi_fu](/u/zhu_shi_fu/)的解法
 
 
-```
+// ```
 public List<List<Integer>> threeSum(int[] nums) {
         //排序
         Arrays.sort(nums);
@@ -54,4 +54,4 @@ public List<List<Integer>> threeSum(int[] nums) {
         }
         return list;
     }
-```
+// ```

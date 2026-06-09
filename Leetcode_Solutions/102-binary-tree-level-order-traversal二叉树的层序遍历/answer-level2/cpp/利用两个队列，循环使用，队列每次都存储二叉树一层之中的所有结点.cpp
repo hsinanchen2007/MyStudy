@@ -1,10 +1,10 @@
-### 解题思路
-执行用时 :4 ms, 在所有 C++ 提交中击败了92.08%的用户
-![Untitled.png](https://pic.leetcode-cn.com/cf9593edd471b0264fe7be5106d649efb2eea7b7b5b8d4a3f411820dc3cc6127-Untitled.png)
-如图所示。在1，2，3三步中，1中的q1，2中的q2，3中的q1分别保存着二叉树中第一层，第二层和第三层的元素结点。按照这个思路便有了下面的代码
-### 代码
+// ### 解题思路
+// 执行用时 :4 ms, 在所有 C++ 提交中击败了92.08%的用户
+// ![Untitled.png](https://pic.leetcode-cn.com/cf9593edd471b0264fe7be5106d649efb2eea7b7b5b8d4a3f411820dc3cc6127-Untitled.png)
+// 如图所示。在1，2，3三步中，1中的q1，2中的q2，3中的q1分别保存着二叉树中第一层，第二层和第三层的元素结点。按照这个思路便有了下面的代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -50,4 +50,4 @@ public:
         return ans;
     }
 };
-```
+// ```

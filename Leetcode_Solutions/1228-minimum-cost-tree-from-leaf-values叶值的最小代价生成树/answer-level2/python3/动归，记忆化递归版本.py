@@ -1,6 +1,6 @@
-O(n^3)速度一般，还是贪心单调栈厉害点。
+# O(n^3)速度一般，还是贪心单调栈厉害点。
 
-```
+# ```
 class Solution(object):
     def mctFromLeafValues(self, arr):
         """
@@ -40,4 +40,4 @@ class Solution(object):
                 return f_ans[(i, j)]
         
         return fAns()
-```
+# ```

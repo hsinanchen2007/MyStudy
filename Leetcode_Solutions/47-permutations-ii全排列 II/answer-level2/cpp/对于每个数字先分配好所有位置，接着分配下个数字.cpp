@@ -1,9 +1,9 @@
-### 解题思路
-对于每个数字先分配好其能出现位置的所有组合，然后分配下个数字，每全部分配完一次即得到一个排列。
+// ### 解题思路
+// 对于每个数字先分配好其能出现位置的所有组合，然后分配下个数字，每全部分配完一次即得到一个排列。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> permuteUnique(vector<int>& nums) {
@@ -44,4 +44,4 @@ public:
     map<int, int> ps;
     vector<int> flags;
 };
-```
+// ```

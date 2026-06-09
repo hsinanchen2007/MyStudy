@@ -1,4 +1,4 @@
-```
+// ```
 let r = grid.length;
     let c = grid[0].length;
     let queue = [];
@@ -34,4 +34,4 @@ let r = grid.length;
     let check = grid.some( _ => _.some(item => item === 1)); // 检测遍历完是否还有完好的橘子
     if (check) return -1;
     return res - 1;      // 最后一次列表中都没有可烂的橘子了，需要减一分钟
-```
+// ```

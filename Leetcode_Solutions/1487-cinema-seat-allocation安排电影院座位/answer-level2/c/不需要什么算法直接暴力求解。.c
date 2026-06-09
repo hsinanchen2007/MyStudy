@@ -1,9 +1,9 @@
-### 解题思路
-把坐一个人的，两个人的，三个人的分别选出来就可以了。
+// ### 解题思路
+// 把坐一个人的，两个人的，三个人的分别选出来就可以了。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 //
 // Created by l00286453 on 2020/4/5.
 //
@@ -79,4 +79,4 @@ int maxNumberOfFamilies(int n, int** reservedSeats, int reservedSeatsSize, int* 
     return totalcnt;
 
 }
-```
+// ```

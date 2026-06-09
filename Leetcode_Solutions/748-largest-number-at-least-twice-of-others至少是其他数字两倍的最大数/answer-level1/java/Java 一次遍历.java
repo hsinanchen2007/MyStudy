@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int dominantIndex(int[] nums) {
         
@@ -25,6 +25,6 @@ class Solution {
         return dominantIndex;
     }
 }
-```
+// ```
 
-思路就是找到最大的前两个数。然后比较第一大的数是否至少是第二大的数的两倍
+// 思路就是找到最大的前两个数。然后比较第一大的数是否至少是第二大的数的两倍

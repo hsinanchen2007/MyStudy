@@ -1,7 +1,7 @@
-这一题的思路怎么说呢，也是很直接。就是遍历每一节点对应的左右子树的高度，判定其是否符合条件。只要发现其不符合，立即退出，判定其不是平衡二叉树；反之，若一直都符合条件，那我们可以说它就是平衡二叉树。
+# 这一题的思路怎么说呢，也是很直接。就是遍历每一节点对应的左右子树的高度，判定其是否符合条件。只要发现其不符合，立即退出，判定其不是平衡二叉树；反之，若一直都符合条件，那我们可以说它就是平衡二叉树。
 
-代码如下：
-```python
+# 代码如下：
+# ```python
 class Solution(object):
     # 遍历每一节点的左右子树的高度，判定其是否符合条件；
     # 只要发现其不符合，立即退出，判定其不是平衡二叉树
@@ -71,7 +71,7 @@ if __name__ == "__main__":
     root = build(nums)
     is_balanced = Solution().isBalanced(root)
     print(is_balanced)
-```
-执行效率，还算是可以吧，在70%左右。
+# ```
+# 执行效率，还算是可以吧，在70%左右。
 
-![image.png](https://pic.leetcode-cn.com/4600814752ccd7f9666b4347ce574ea029f86d0e1100661d3d1edab824ce6e30-image.png)
+# ![image.png](https://pic.leetcode-cn.com/4600814752ccd7f9666b4347ce574ea029f86d0e1100661d3d1edab824ce6e30-image.png)

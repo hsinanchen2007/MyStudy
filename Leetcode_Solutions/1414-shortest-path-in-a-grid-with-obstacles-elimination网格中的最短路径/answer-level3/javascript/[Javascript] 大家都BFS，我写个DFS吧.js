@@ -1,5 +1,5 @@
-比赛的时候没想太多，上来DFS结果超时了，原因在于没有用最优子结构去剪枝，废话不说具体思路看代码注释
-``` javascript
+// 比赛的时候没想太多，上来DFS结果超时了，原因在于没有用最优子结构去剪枝，废话不说具体思路看代码注释
+// ``` javascript
 /**
  * @param {number[][]} grid
  * @param {number} k
@@ -139,4 +139,4 @@ var shortestPath = function(grid, K) {
 //   )
 // );
 
-```
+// ```

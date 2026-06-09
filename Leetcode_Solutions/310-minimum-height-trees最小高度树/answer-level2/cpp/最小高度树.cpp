@@ -1,5 +1,5 @@
-因为最后得到的结果可能是一个节点或者两个节点，因此我们设置n>2作为判定条件，使用BFS算法实现。
-```
+// 因为最后得到的结果可能是一个节点或者两个节点，因此我们设置n>2作为判定条件，使用BFS算法实现。
+// ```
 class Solution {
 public:
     vector<int> findMinHeightTrees(int n, vector<vector<int>>& edges) {
@@ -33,4 +33,4 @@ public:
         return res;
     }
 };
-```
+// ```

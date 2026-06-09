@@ -1,12 +1,12 @@
-### 解题思路
-关键点有两个：
-1.使用DATE_FORMAT()函数把日期转换成月份
-2.count()/sum()函数在聚合时加入条件
-（sum()函数中返回0/count()函数中返回null可以过滤掉不符合记录）
+-- ### 解题思路
+-- 关键点有两个：
+-- 1.使用DATE_FORMAT()函数把日期转换成月份
+-- 2.count()/sum()函数在聚合时加入条件
+-- （sum()函数中返回0/count()函数中返回null可以过滤掉不符合记录）
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 
 SELECT DATE_FORMAT(trans_date, '%Y-%m') AS month, country
@@ -16,4 +16,4 @@ SELECT DATE_FORMAT(trans_date, '%Y-%m') AS month, country
 	, SUM(if(state = 'approved', amount, 0)) AS approved_total_amount
 FROM Transactions
 GROUP BY month, country
-```
+-- ```

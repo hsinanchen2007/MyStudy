@@ -1,9 +1,9 @@
-### 解题思路
-记录所有行最小值，记录所有列最大值，然后其中行最小值==列最大值的值即为结果
+// ### 解题思路
+// 记录所有行最小值，记录所有列最大值，然后其中行最小值==列最大值的值即为结果
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -46,4 +46,4 @@ int* luckyNumbers (int** matrix, int matrixSize, int* matrixColSize, int* return
 }
 // 1 3 15
 // 15 16 17 12
-```
+// ```

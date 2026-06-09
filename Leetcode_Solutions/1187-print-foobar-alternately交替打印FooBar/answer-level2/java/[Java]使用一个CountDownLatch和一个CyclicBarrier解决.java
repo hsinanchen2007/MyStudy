@@ -1,6 +1,6 @@
-本题可以将printFoo方法和printBar看成具有先后顺序的一组执行方法。
-使用CountDownLatch来保证组内任务的执行先后顺序，使用CyclicBarrier保证任务按组进行。
-```
+// 本题可以将printFoo方法和printBar看成具有先后顺序的一组执行方法。
+// 使用CountDownLatch来保证组内任务的执行先后顺序，使用CyclicBarrier保证任务按组进行。
+// ```
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.CyclicBarrier;
 class FooBar {
@@ -36,4 +36,4 @@ class FooBar {
         } catch(Exception e) {}
     }
 }
-```
+// ```

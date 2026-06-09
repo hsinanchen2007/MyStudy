@@ -1,9 +1,9 @@
-### 解题思路
-1.定义一个反转的头结点reverseList，和用来遍历的ListNode指针temp。2.计算出原有节点的数目。3.reverseList=最后一个节点。4.通过循环把前几个节点都加入到reverseList后面。5.一定要 temp.next = head; head.next=null;一个用来添加最后一个节点（也就是原来的第一个），后一句是为了把原有的第一个节点的next指针设为0，不然又会和原来的连起来。
+// ### 解题思路
+// 1.定义一个反转的头结点reverseList，和用来遍历的ListNode指针temp。2.计算出原有节点的数目。3.reverseList=最后一个节点。4.通过循环把前几个节点都加入到reverseList后面。5.一定要 temp.next = head; head.next=null;一个用来添加最后一个节点（也就是原来的第一个），后一句是为了把原有的第一个节点的next指针设为0，不然又会和原来的连起来。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -41,4 +41,4 @@ class Solution {
 
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * 可以将题意转化为，求所有牌数量的最大公约数是否大于等于2
  */
@@ -31,4 +31,4 @@ var hasGroupsSizeX = function(deck) {
     }
     return true
 };
-```
+// ```

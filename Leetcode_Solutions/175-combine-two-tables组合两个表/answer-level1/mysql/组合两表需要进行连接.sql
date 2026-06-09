@@ -1,4 +1,4 @@
-一开始采用
+-- 一开始采用
 select Person.FirstName, Person.LastName, Address.City, Address.State **from Person, Address where** Address.PersonId = Person.PersonId
 语句进行查询；
 此语句在地址表无PersonId的情况下；将无法进行查询。本应返回null,null;但是实际结果为空。

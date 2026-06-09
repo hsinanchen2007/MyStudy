@@ -1,9 +1,9 @@
-### 解题思路
-从左下角开始搜索，target > 当前数字则向右搜索，反之则向上搜索，需要注意二维数组为空的特殊情况
+// ### 解题思路
+// 从左下角开始搜索，target > 当前数字则向右搜索，反之则向上搜索，需要注意二维数组为空的特殊情况
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean findNumberIn2DArray(int[][] array, int target) {
         int row = array.length;
@@ -27,4 +27,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

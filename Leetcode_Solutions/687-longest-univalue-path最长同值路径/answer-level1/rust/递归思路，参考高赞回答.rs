@@ -1,9 +1,9 @@
-### 解题思路
-使用全局变量返回最后的答案，每次递归返回左子树或右子树同根节点的最大路径
+// ### 解题思路
+// 使用全局变量返回最后的答案，每次递归返回左子树或右子树同根节点的最大路径
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 // Definition for a binary tree node.
 // #[derive(Debug, PartialEq, Eq)]
 // pub struct TreeNode {
@@ -60,4 +60,4 @@ impl Solution {
     }
 }
 
-```
+// ```

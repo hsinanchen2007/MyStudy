@@ -1,11 +1,11 @@
-### 解题思路
-1. 数组排序
-2. 每找到一个子集，就在该子集的基础上增添元素变长子集(进行下一次递归)
-3. 回溯之前要对元素判重，如果元素重复就不要进行迭代
+// ### 解题思路
+// 1. 数组排序
+// 2. 每找到一个子集，就在该子集的基础上增添元素变长子集(进行下一次递归)
+// 3. 回溯之前要对元素判重，如果元素重复就不要进行迭代
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private void backtrack(int []nums, int start, List<Integer> tmp,List<List<Integer>> res) {
         for (int i=start; i < nums.length; i++) {
@@ -24,4 +24,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

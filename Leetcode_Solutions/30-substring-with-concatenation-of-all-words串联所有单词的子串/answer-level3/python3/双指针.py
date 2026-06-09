@@ -1,10 +1,10 @@
-### 解题思路
-问题是个双指针的问题，但是要根据规则考虑一些case；
+# ### 解题思路
+# 问题是个双指针的问题，但是要根据规则考虑一些case；
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def findSubstring(self, s: str, words: List[str]) -> List[int]:
         if not words:
@@ -39,4 +39,4 @@ class Solution:
                         if not candi_words:
                             res.append(st)
         return res
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-在 BFS 的时候记录当前节点与它的父节点
+// ### 解题思路
+// 在 BFS 的时候记录当前节点与它的父节点
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -47,4 +47,4 @@ class Solution {
         }
     }
 }
-```
+// ```

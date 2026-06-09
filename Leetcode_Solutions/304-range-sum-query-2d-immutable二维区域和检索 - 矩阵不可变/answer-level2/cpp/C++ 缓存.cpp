@@ -1,10 +1,10 @@
-### 解题思路
-1、可以用线段树解，但是出来特别慢
-2、参考题解的，先求每个点和原点组成的矩形的和，然后做减法计算。
+// ### 解题思路
+// 1、可以用线段树解，但是出来特别慢
+// 2、参考题解的，先求每个点和原点组成的矩形的和，然后做减法计算。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class NumMatrix {
 public:
     vector<vector<int>> dp;
@@ -30,4 +30,4 @@ public:
  * NumMatrix* obj = new NumMatrix(matrix);
  * int param_1 = obj->sumRegion(row1,col1,row2,col2);
  */
-```
+// ```

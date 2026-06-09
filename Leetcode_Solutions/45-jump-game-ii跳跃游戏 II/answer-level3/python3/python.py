@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def jump(self, nums: List[int]) -> int:
         
@@ -15,4 +15,4 @@ class Solution:
                end = maxDistance
                if end >= len(nums) - 1: break
         return ans
-```
+# ```

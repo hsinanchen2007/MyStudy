@@ -1,12 +1,12 @@
-### 解题思路
-for循环从长度1到len(str1),
-对每个子串token先检查长度: 是否都能被str1和str2整除,
-再检查是否token * k 刚好就是str1, 此处k = len(str1) // len(token)
-最后把最大的那个子串取出来返回即可
+# ### 解题思路
+# for循环从长度1到len(str1),
+# 对每个子串token先检查长度: 是否都能被str1和str2整除,
+# 再检查是否token * k 刚好就是str1, 此处k = len(str1) // len(token)
+# 最后把最大的那个子串取出来返回即可
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 
 class Solution:
     def gcdOfStrings(self, str1: str, str2: str) -> str:
@@ -26,4 +26,4 @@ class Solution:
                 max_token = string
         return max_token
             
-```
+# ```

@@ -1,11 +1,11 @@
-### 解题思路
-记录每个值的数量，选取最小的一个，获取最小的那个的所有因数
-如果要符合要求，那么X必然是所有因数中的一个，并且X>=2
-暴力求解即可。
+# ### 解题思路
+# 记录每个值的数量，选取最小的一个，获取最小的那个的所有因数
+# 如果要符合要求，那么X必然是所有因数中的一个，并且X>=2
+# 暴力求解即可。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import math
 class Solution:
     def hasGroupsSizeX(self, deck: List[int]) -> bool:
@@ -36,4 +36,4 @@ class Solution:
                 return flag
         # print(countor)
         return False
-```
+# ```

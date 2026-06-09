@@ -1,9 +1,9 @@
-### 解题思路
-使用逆序指针合并两个有序数组
+// ### 解题思路
+// 使用逆序指针合并两个有序数组
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public void Merge(int[] A, int m, int[] B, int n) {
         for (int position = m + n - 1; position >= 0; position--)
@@ -30,4 +30,4 @@ public class Solution {
         }
     }
 }
-```
+// ```

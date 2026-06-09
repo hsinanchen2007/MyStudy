@@ -1,9 +1,9 @@
-### 解题思路
-抄作业成功
+// ### 解题思路
+// 抄作业成功
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -31,4 +31,4 @@ var twoSum = function(nums, target) {
     }
     
 };
-```
+// ```

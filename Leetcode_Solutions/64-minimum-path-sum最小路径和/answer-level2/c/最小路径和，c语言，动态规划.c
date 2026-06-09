@@ -1,11 +1,11 @@
-### 解题思路
-动态规划dp。
-1.二维数组dp[][],空间复杂度O(mn)
-2.压缩空间使用一维数组dp[],空间复杂度O(min(m,n))
-3.如果不需要原来的数组，可以在原来数组上进行dp, 空间复杂度O(1) 
-### 代码
+// ### 解题思路
+// 动态规划dp。
+// 1.二维数组dp[][],空间复杂度O(mn)
+// 2.压缩空间使用一维数组dp[],空间复杂度O(min(m,n))
+// 3.如果不需要原来的数组，可以在原来数组上进行dp, 空间复杂度O(1) 
+// ### 代码
 
-```c 
+// ```c 
 1
 int minPathSum(int** grid, int gridSize, int* gridColSize){
     if(gridSize == 0){
@@ -26,8 +26,8 @@ int minPathSum(int** grid, int gridSize, int* gridColSize){
     }
     return dp[gridSize-1][gridColSize[0]-1];
 }
-```
-``` 
+// ```
+// ``` 
 2
 int minPathSum(int** grid, int gridSize, int* gridColSize){
     if(gridSize == 0){
@@ -62,8 +62,8 @@ int minPathSum(int** grid, int gridSize, int* gridColSize){
     }
     return 0;
 }
-```
-```
+// ```
+// ```
 3
 懒得写了，嘻。
-```
+// ```

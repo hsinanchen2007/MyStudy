@@ -1,6 +1,6 @@
 
-感觉下面的写法还是很易懂的，就是额外记录一个当前节点为止的上升序列长度。
-```c++
+// 感觉下面的写法还是很易懂的，就是额外记录一个当前节点为止的上升序列长度。
+// ```c++
 class Solution {
 public:
     int longestMountain(vector<int>& A) {
@@ -27,4 +27,4 @@ public:
         return result;
     }
 };
-```
+// ```

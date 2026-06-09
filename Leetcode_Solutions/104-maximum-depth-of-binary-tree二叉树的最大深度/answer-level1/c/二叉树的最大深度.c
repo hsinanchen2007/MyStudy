@@ -1,10 +1,10 @@
-### 解题思路
-树 —— 递归
-递归还是没掌握好
+// ### 解题思路
+// 树 —— 递归
+// 递归还是没掌握好
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -22,7 +22,7 @@ int maxDepth(struct TreeNode* root){
     lt = lt > rt ? lt : rt;
     return 1+ lt; 
 }
-```
-JAVA
-![image.png](https://pic.leetcode-cn.com/4bc11b210c2ccdeb8c894d071316e7476525b15dae40e9a8426e6eae4b13d3fb-image.png)
+// ```
+// JAVA
+// ![image.png](https://pic.leetcode-cn.com/4bc11b210c2ccdeb8c894d071316e7476525b15dae40e9a8426e6eae4b13d3fb-image.png)
 

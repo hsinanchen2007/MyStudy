@@ -1,9 +1,9 @@
-第一次正经写题解，我也不知道这种解法叫什么名字。
-有一个人叫i，i被通知到的耗时 = i的上一级被通知到的耗时 + i的上一级要等多久才向下通知，这个应该很容易理解。
-如果helper(i)返回值是**i被通知到的耗时**，那么 helper(i) = helper(i的管理员 也就是manager[i]) + infromTime[manager[i]];
-理解了上面几句话，那就很简单了，只要用helper遍历整个manager数组，同时记录下最大的耗时，就是最终结果了。
-直接看代码加注释：
-```
+// 第一次正经写题解，我也不知道这种解法叫什么名字。
+// 有一个人叫i，i被通知到的耗时 = i的上一级被通知到的耗时 + i的上一级要等多久才向下通知，这个应该很容易理解。
+// 如果helper(i)返回值是**i被通知到的耗时**，那么 helper(i) = helper(i的管理员 也就是manager[i]) + infromTime[manager[i]];
+// 理解了上面几句话，那就很简单了，只要用helper遍历整个manager数组，同时记录下最大的耗时，就是最终结果了。
+// 直接看代码加注释：
+// ```
 /**
  * @param {number} n
  * @param {number} headID
@@ -39,4 +39,4 @@ var numOfMinutes = function (n, headID, manager, informTime) {
     // [通知到i耗时] = [通知到i的管理员耗时] + [i的管理员要等多久才向下通知]
   }
 };
-```
+// ```

@@ -1,8 +1,8 @@
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def removeElement(self, nums, val):
         """
@@ -22,4 +22,4 @@ class Solution(object):
         nums.pop(i)
         return len(nums)
              
-```
+# ```

@@ -1,11 +1,11 @@
-### 解题思路
-    1、递归
-    2、循环
-    3、数学
+// ### 解题思路
+//     1、递归
+//     2、循环
+//     3、数学
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int fib(int N) {
         if (n <= 1) {
@@ -14,9 +14,9 @@ class Solution {
         return fib1(n - 1) + fib1(n - 2);
     }
 }
-```
+// ```
 
-```java
+// ```java
 class Solution {
     public int fib(int N) {
         int first = 0;
@@ -32,13 +32,13 @@ class Solution {
         return second;
     }
 }
-```
+// ```
 
-```java
+// ```java
 class Solution {
     public int fib(int N) {
     double c = Math.sqrt(5);
     return (int) ((Math.pow((1 + c) / 2, N) - Math.pow((1 - c) / 2, N)) / c);
     }
 }
-```
+// ```

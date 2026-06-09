@@ -1,9 +1,9 @@
-### 解题思路
-转成字符串进行处理
+// ### 解题思路
+// 转成字符串进行处理
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int subtractProductAndSum(int n) {
@@ -16,4 +16,4 @@ public:
         return x-y;
     }
 };
-```
+// ```

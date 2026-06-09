@@ -1,11 +1,11 @@
-### 解题思路
-没什么好说的，细心就好
+// ### 解题思路
+// 没什么好说的，细心就好
 
-![image.png](https://pic.leetcode-cn.com/03150f1ed9da1aca7af93393b1b8a5a90280e4fdcc5cb18ff54b957147b8187f-image.png)
+// ![image.png](https://pic.leetcode-cn.com/03150f1ed9da1aca7af93393b1b8a5a90280e4fdcc5cb18ff54b957147b8187f-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /*
 // Definition for a Node.
 class Node {
@@ -49,4 +49,4 @@ public:
         return root;
     }
 };
-```
+// ```

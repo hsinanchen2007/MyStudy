@@ -1,5 +1,5 @@
-如下：
-```python []
+# 如下：
+# ```python []
 class Solution(object):
     def insert(self, intervals, newInterval):
         """
@@ -24,5 +24,5 @@ class Solution(object):
                 tmp = [little, big]
 
         return result + [tmp]
-```
+# ```
 

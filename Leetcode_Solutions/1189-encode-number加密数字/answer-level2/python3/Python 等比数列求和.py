@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/0206f994cfdba681686a37b680dbb5127d962bbcda588119b6f318cc84993a3f-image.png)
+# ![image.png](https://pic.leetcode-cn.com/0206f994cfdba681686a37b680dbb5127d962bbcda588119b6f318cc84993a3f-image.png)
 
 
-```
+# ```
 '''
 等比数列求和，算出来在那个区间内，再组字符串
 '''
@@ -27,4 +27,4 @@ class Solution:
         while len(ans) < n-1:
             ans = '0' + ans
         return ans
-```
+# ```

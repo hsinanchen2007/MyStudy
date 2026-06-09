@@ -1,5 +1,5 @@
-区间和为 0 或者等于区域网格数量则是叶子节点
-```javascript
+// 区间和为 0 或者等于区域网格数量则是叶子节点
+// ```javascript
 /**
  * // Definition for a QuadTree node.
  * function Node(val,isLeaf,topLeft,topRight,bottomLeft,bottomRight) {
@@ -56,4 +56,4 @@ var construct = function(grid) {
     return dp[row2 + 1][col2 + 1] - dp[row1][col2 + 1] - dp[row2 + 1][col1] + dp[row1][col1];
   }
 };
-```
+// ```

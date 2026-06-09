@@ -1,9 +1,9 @@
-- 设置一个tag记录进位，进1就将tag设为1，进2就将tag设为2。
-- 当两个链表都不为空时，每次从链表中各取出一位数a、b，令temp = a + b + tag，此时temp可能会大于10，所以令tag = temp / 10，作为进位，令temp = temp % 10，作为当前位的数值。
-- 当一个链表为空，另一个链表不为空时，每次从非空的链表中取出一位数a，令temp = a + tag，此时temp可能会大于10，所以令tag = temp / 10，作为进位，令temp = temp % 10，作为当前位的数值。
-- 在两个链表均为空时，需要检查tag是否为0，如果tag不为0，则将tag设为最高位的值。
+// - 设置一个tag记录进位，进1就将tag设为1，进2就将tag设为2。
+// - 当两个链表都不为空时，每次从链表中各取出一位数a、b，令temp = a + b + tag，此时temp可能会大于10，所以令tag = temp / 10，作为进位，令temp = temp % 10，作为当前位的数值。
+// - 当一个链表为空，另一个链表不为空时，每次从非空的链表中取出一位数a，令temp = a + tag，此时temp可能会大于10，所以令tag = temp / 10，作为进位，令temp = temp % 10，作为当前位的数值。
+// - 在两个链表均为空时，需要检查tag是否为0，如果tag不为0，则将tag设为最高位的值。
 
-```java
+// ```java
 class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
     	// 该头部只是一个定位，并不保存实际数据，实际数据从head.next开始
@@ -35,4 +35,4 @@ class Solution {
         return head.next;
     }
 }
-```
+// ```

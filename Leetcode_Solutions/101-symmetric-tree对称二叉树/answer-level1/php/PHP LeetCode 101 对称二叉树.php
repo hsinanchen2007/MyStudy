@@ -1,9 +1,9 @@
-### 解题思路
-递归算法：拆分开就是判断左子树和右子树是否对称
+// ### 解题思路
+// 递归算法：拆分开就是判断左子树和右子树是否对称
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 /**
  * Definition for a binary tree node.
  * class TreeNode {
@@ -34,15 +34,15 @@ class Solution {
         ($this->isSym($l->right, $r->left));
     }
 }
-```
+// ```
 
-### 解题思路2
-迭代算法：利用array模拟队列  先进先出；
-同时left和right出队列做对比
+// ### 解题思路2
+// 迭代算法：利用array模拟队列  先进先出；
+// 同时left和right出队列做对比
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 /**
  * Definition for a binary tree node.
  * class TreeNode {
@@ -83,4 +83,4 @@ class Solution {
         return $bool;
     }
 }
-```
+// ```

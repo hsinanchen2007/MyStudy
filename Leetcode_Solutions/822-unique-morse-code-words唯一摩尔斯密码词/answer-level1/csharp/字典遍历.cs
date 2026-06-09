@@ -1,4 +1,4 @@
-```
+// ```
     public int UniqueMorseRepresentations(string[] words) {
         int result = 0;
         Dictionary<char, string> dic = new Dictionary<char, string>();
@@ -50,4 +50,4 @@
 
         return d.Count();
     }
-```
+// ```

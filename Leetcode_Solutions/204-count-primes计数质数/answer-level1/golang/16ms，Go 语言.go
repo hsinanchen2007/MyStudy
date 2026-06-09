@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/2332cc128c1ffec03f99adef81fb765bbe3665f8eddc8aa1ea0b30964eca7fc0-image.png)
+// ![image.png](https://pic.leetcode-cn.com/2332cc128c1ffec03f99adef81fb765bbe3665f8eddc8aa1ea0b30964eca7fc0-image.png)
 
-```
+// ```
 func countPrimes(n int) int {      // 筛法求质数
     a := make([]bool, n)
     cnt := 0
@@ -15,4 +15,4 @@ func countPrimes(n int) int {      // 筛法求质数
     }
     return cnt
 }
-```
+// ```

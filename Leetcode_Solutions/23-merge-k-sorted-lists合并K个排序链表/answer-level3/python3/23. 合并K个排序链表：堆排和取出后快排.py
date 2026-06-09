@@ -1,5 +1,5 @@
-堆排
-```python []
+# 堆排
+# ```python []
 class Solution:
     def mergeKLists(self, lists: List[ListNode]) -> ListNode:
         heap = [[node.val, id(node), node] for node in lists if node]
@@ -11,9 +11,9 @@ class Solution:
             tmp.next = node
             tmp = tmp.next
         return ans.next
-```
-快排
-```python []
+# ```
+# 快排
+# ```python []
 class Solution:
     def mergeKLists(self, lists: List[ListNode]) -> ListNode:
         vals = []
@@ -27,6 +27,6 @@ class Solution:
             tmp.next = ListNode(val)
             tmp = tmp.next
         return ans.next
-```
+# ```
 
-![image.png](https://pic.leetcode-cn.com/0251cf25ea94207c58094baf083c76b84359a347abb46d9cefd5a4e7306fe230-image.png)
+# ![image.png](https://pic.leetcode-cn.com/0251cf25ea94207c58094baf083c76b84359a347abb46d9cefd5a4e7306fe230-image.png)

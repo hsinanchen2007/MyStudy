@@ -1,5 +1,5 @@
-这里通过深度优先搜索把所有可以计算的字符串对都进行了计算，之后查询只需要直接取值就行了
-```
+// 这里通过深度优先搜索把所有可以计算的字符串对都进行了计算，之后查询只需要直接取值就行了
+// ```
 class Solution {
 public:
     vector<vector<int> > graph;
@@ -78,6 +78,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/4c55a3ef2a62907ace017cc77373a1e87212571a9f8ccde1935e0147843f27ce-image.png)
+// ![image.png](https://pic.leetcode-cn.com/4c55a3ef2a62907ace017cc77373a1e87212571a9f8ccde1935e0147843f27ce-image.png)

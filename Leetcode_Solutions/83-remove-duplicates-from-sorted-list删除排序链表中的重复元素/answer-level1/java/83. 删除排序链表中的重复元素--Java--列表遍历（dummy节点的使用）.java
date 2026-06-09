@@ -1,6 +1,6 @@
-[Leetcode-Java(200+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_83_deleteDuplicates.java)
+// [Leetcode-Java(200+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_83_deleteDuplicates.java)
 
-```java
+// ```java
     /**
      * 解题思路：典型的列表遍历
      *
@@ -23,4 +23,4 @@
 
         return dummy.next;
     }
-```
+// ```

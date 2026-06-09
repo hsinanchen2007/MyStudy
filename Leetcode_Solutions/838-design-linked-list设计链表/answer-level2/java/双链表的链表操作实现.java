@@ -1,8 +1,8 @@
-### 解题思路
-采用双链表的方式实现,对于尾插法更快,在取节点的时候参考linkList的源码使用 从两头进行查找更快.
-### 代码
+// ### 解题思路
+// 采用双链表的方式实现,对于尾插法更快,在取节点的时候参考linkList的源码使用 从两头进行查找更快.
+// ### 代码
 
-```java
+// ```java
 class MyLinkedList {
  transient int size = 0;
     transient Node first;
@@ -144,4 +144,4 @@ class MyLinkedList {
  * obj.addAtIndex(index,val);
  * obj.deleteAtIndex(index);
  */
-```
+// ```

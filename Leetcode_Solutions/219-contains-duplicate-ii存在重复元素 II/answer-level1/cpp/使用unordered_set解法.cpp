@@ -1,5 +1,5 @@
-onordered_set是使用哈希表实现的，非常适合该题，话不多说，直接上code。
-```
+// onordered_set是使用哈希表实现的，非常适合该题，话不多说，直接上code。
+// ```
 class Solution {
 public:
     bool containsNearbyDuplicate(vector<int>& nums, int k) {
@@ -20,5 +20,5 @@ public:
         
     }
 };
-```
+// ```
 

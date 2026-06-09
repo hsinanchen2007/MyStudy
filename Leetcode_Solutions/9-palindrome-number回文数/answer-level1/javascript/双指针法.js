@@ -1,6 +1,6 @@
-**解题思路就是利用两个指针对碰的方法**
+// **解题思路就是利用两个指针对碰的方法**
 
-```
+// ```
 const isPalindrome = (x) => {
   if (x < 0) {
     return false
@@ -19,5 +19,5 @@ const isPalindrome = (x) => {
   }
   return flag
 }
-```
+// ```
 

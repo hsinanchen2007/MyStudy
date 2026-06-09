@@ -1,6 +1,6 @@
-![QQ截图20190721091304.png](https://pic.leetcode-cn.com/56b0dc09684cfb1dc61281bf40bb982137693f7eaaff7d484c869e6f3a723f46-QQ%E6%88%AA%E5%9B%BE20190721091304.png)
-- 转换成分钟，排序后比较
-```
+// ![QQ截图20190721091304.png](https://pic.leetcode-cn.com/56b0dc09684cfb1dc61281bf40bb982137693f7eaaff7d484c869e6f3a723f46-QQ%E6%88%AA%E5%9B%BE20190721091304.png)
+// - 转换成分钟，排序后比较
+// ```
 #define DAY_MINU (24*60)
 int  compare(const void *a,const void *b) {
     return (*((int*) a) - *((int*) b));
@@ -24,4 +24,4 @@ int findMinDifference(char ** timePoints, int timePointsSize){
            (DAY_MINU-minu_array[timePointsSize-1] + minu_array[0]) :
            min_point;
 }
-```
+// ```

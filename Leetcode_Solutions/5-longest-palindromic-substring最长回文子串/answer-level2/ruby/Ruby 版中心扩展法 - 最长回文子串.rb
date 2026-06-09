@@ -1,4 +1,4 @@
-```ruby
+# ```ruby
 # @param {String} s
 # @return {String}
 def longest_palindrome(s)
@@ -28,4 +28,4 @@ def expand_around_center(s, left, right)
     end
     return r - l - 1
 end
-```
+# ```

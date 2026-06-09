@@ -1,8 +1,8 @@
-### 解题思路
-通过快慢指针来结束循环。
-### 代码
+// ### 解题思路
+// 通过快慢指针来结束循环。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isHappy(int n) {
         int slow = n, fast = n;
@@ -26,4 +26,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

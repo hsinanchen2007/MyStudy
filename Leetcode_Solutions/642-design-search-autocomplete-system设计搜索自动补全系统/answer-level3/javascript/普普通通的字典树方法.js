@@ -1,9 +1,9 @@
-### 解题思路
-普通的Trie普通的通过。因为没有JavaScript的相关题解，所以贡献一下。
+// ### 解题思路
+// 普通的Trie普通的通过。因为没有JavaScript的相关题解，所以贡献一下。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var Node = function(){
     this.end = false;
     this.freq = 0;
@@ -95,4 +95,4 @@ AutocompleteSystem.prototype.input = function(c) {
  * var obj = new AutocompleteSystem(sentences, times)
  * var param_1 = obj.input(c)
  */
-```
+// ```

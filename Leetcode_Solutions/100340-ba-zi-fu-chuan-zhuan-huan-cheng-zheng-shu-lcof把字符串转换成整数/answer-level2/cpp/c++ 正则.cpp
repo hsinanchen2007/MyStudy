@@ -1,9 +1,9 @@
-### 解题思路
-为什么第一次提交编译出错？？
+// ### 解题思路
+// 为什么第一次提交编译出错？？
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int strToInt(string str) {
@@ -34,4 +34,4 @@ public:
         return 0;
     }
 };
-```
+// ```

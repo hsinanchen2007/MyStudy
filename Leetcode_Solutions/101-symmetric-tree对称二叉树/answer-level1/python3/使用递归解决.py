@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-1. 需要判断两条：1）是否为完整二叉树 2）树的左节点是否与树的右节点相等
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 1. 需要判断两条：1）是否为完整二叉树 2）树的左节点是否与树的右节点相等
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -25,4 +25,4 @@ class Solution:
                 return False
             return help(left.left, right.right) and help(left.right, right.left)
         return help(root, root)
-```
+# ```

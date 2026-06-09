@@ -1,11 +1,11 @@
-### 解题思路
-先排序，然后左右指针逼近target，记录最小diff的sum值
+// ### 解题思路
+// 先排序，然后左右指针逼近target，记录最小diff的sum值
 
-![image.png](https://pic.leetcode-cn.com/4d4123f8b998b3d186c752e30aae06a8178f1630c76618e32c95c01ee6409f8d-image.png)
+// ![image.png](https://pic.leetcode-cn.com/4d4123f8b998b3d186c752e30aae06a8178f1630c76618e32c95c01ee6409f8d-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int cmp(const void *a, const void *b)
 {
     return *(int*)a > *(int*)b;
@@ -51,4 +51,4 @@ int threeSumClosest(int* nums, int numsSize, int target){
     prepare(nums, numsSize);
     return proc(nums, numsSize, target);
 }
-```
+// ```

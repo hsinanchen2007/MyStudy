@@ -1,8 +1,8 @@
-### 解题思路1
-mark下刷题中的代码快照。思路就是找到确认是否是动态规划类问题，然后找出递推公式，然后coding。显然这段代码太冗长...
-### 代码
+// ### 解题思路1
+// mark下刷题中的代码快照。思路就是找到确认是否是动态规划类问题，然后找出递推公式，然后coding。显然这段代码太冗长...
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
      public int NumDecodings(string s)
         {
@@ -76,4 +76,4 @@ public class Solution {
             return false;
         }
 }
-```
+// ```

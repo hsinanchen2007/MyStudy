@@ -1,4 +1,4 @@
-```python
+# ```python
     def minMutation(self, start: str, end: str, bank: List[str]) -> int:
         # 广度优先搜索
         bank = set(bank)  # 转换为set, in判断只需O(1)时间
@@ -17,4 +17,4 @@
                         q.append((new, step+1))  # 入队，继续广度搜索
                         bank.remove(new)  # 避免重复遍历
         return -1  # 队列空了说明不可达
-```
+# ```

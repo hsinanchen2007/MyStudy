@@ -1,9 +1,9 @@
-### 解题思路
-这是一个仅供参考的非递归做法，仅提供不同的思路，时空复杂度均不是最优。
+// ### 解题思路
+// 这是一个仅供参考的非递归做法，仅提供不同的思路，时空复杂度均不是最优。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 int pathSum(TreeNode* root, int sum) {
     if (root == nullptr) return 0;
     unordered_map<TreeNode*, vector<int>> hash;
@@ -29,4 +29,4 @@ int pathSum(TreeNode* root, int sum) {
     }
     return cnt;
 }
-```
+// ```

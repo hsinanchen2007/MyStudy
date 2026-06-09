@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int singleNumber(int[] nums) {
         if(nums.length==1)return nums[0];
@@ -21,4 +21,4 @@ class Solution {
         return nums[nums.length-1];
     }
 }
-```
+// ```

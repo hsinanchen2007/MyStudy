@@ -1,10 +1,10 @@
-### 解题思路
-1. 从最好一个数字开始，逢九进位，遇到其他的则退出循环
-2. 然后检查最高位是否为0，如果为0再将返回数组扩展一位并置1
+// ### 解题思路
+// 1. 从最好一个数字开始，逢九进位，遇到其他的则退出循环
+// 2. 然后检查最高位是否为0，如果为0再将返回数组扩展一位并置1
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -44,4 +44,4 @@ int* plusOne(int* digits, int digitsSize, int* returnSize){
     }
     return arr;
 }
-```
+// ```

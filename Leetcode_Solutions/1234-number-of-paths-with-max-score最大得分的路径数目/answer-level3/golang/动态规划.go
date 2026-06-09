@@ -1,8 +1,8 @@
-解题思路
-两个dp， 一个保存得分， 一个保存路径数
-### 代码
+// 解题思路
+// 两个dp， 一个保存得分， 一个保存路径数
+// ### 代码
 
-```golang
+// ```golang
 func pathsWithMaxScore(board []string) []int { 
     if board[0] == "EX" && board[1] == "XS" {
         return []int{0,1}
@@ -90,4 +90,4 @@ func Max(i,j,k int)int {
     }
     return i
 }
-```
+// ```

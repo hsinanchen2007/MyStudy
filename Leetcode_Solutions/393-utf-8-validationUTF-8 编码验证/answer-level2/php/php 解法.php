@@ -1,4 +1,4 @@
-```
+// ```
 function validUtf8($data) {
     $byteLength = 0;
     $binData = [];
@@ -23,4 +23,4 @@ function validUtf8($data) {
     }
     return $byteLength == 0;
 }
-```
+// ```

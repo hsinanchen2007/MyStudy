@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] searchRange(int[] nums, int target) {
 int[] arr = new int[]{-1,-1};
@@ -38,4 +38,4 @@ int[] arr = new int[]{-1,-1};
         return arr;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-如题
-先把矩阵转置，然后再把每一行逆序
-### 代码
+# ### 解题思路
+# 如题
+# 先把矩阵转置，然后再把每一行逆序
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def rotate(self, matrix):
         """
@@ -19,4 +19,4 @@ class Solution(object):
                 matrix[j][i]=tmp
         for i in range(n):
             matrix[i]=matrix[i][::-1]
-```
+# ```

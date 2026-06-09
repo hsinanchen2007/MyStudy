@@ -1,6 +1,6 @@
-java   6ms。
-先计算不使用技能时满意顾客数，再滑动窗口计算使用技能后新满意的顾客数，结果相加即可
-```
+// java   6ms。
+// 先计算不使用技能时满意顾客数，再滑动窗口计算使用技能后新满意的顾客数，结果相加即可
+// ```
 public int maxSatisfied(int[] customers, int[] grumpy, int X) {
         int temp = 0;
         int sum = 0;
@@ -26,4 +26,4 @@ public int maxSatisfied(int[] customers, int[] grumpy, int X) {
         }
         return max+sum;
     }
-```
+// ```

@@ -1,8 +1,8 @@
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	int longestWPI(vector<int>& hours) {
@@ -20,4 +20,4 @@ public:
 		return ans;
 	}
 };
-```
+// ```

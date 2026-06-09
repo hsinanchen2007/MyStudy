@@ -1,10 +1,10 @@
-### 解题思路
-解法一和解法二：面试经典考点erase
-解法三：双指针
+// ### 解题思路
+// 解法一和解法二：面试经典考点erase
+// 解法三：双指针
 
-### 代码
-解法一
-```cpp
+// ### 代码
+// 解法一
+// ```cpp
 class Solution {
 public:
 	int removeDuplicates(vector<int>& nums) {
@@ -18,9 +18,9 @@ public:
 		return nums.size();
 	}
 };
-```
-解法二
-```cpp
+// ```
+// 解法二
+// ```cpp
 class Solution {
 public:
 	int removeDuplicates(vector<int>& nums) {
@@ -36,9 +36,9 @@ public:
 		return nums.size();
 	}
 };
-```
-解法三
-```
+// ```
+// 解法三
+// ```
 class Solution {
 public:
 	int removeDuplicates(vector<int>& nums) {
@@ -52,4 +52,4 @@ public:
 		return k;
 	}
 };
-```
+// ```

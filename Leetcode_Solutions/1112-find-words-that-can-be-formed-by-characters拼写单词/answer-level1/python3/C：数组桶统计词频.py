@@ -1,10 +1,10 @@
-### 解题思路
-题目要求:**注意：每次拼写时，chars 中的每个字母都只能用一次。**，就不可以用`set`解决，那么意思就是单词`word`内字母个数$\leq$`chars`内字母个数。
+# ### 解题思路
+# 题目要求:**注意：每次拼写时，chars 中的每个字母都只能用一次。**，就不可以用`set`解决，那么意思就是单词`word`内字母个数$\leq$`chars`内字母个数。
 
-### 代码
-+ 与每次拷贝清零零时`word`桶，还可以在比较完后清0供下次使用（虽然可以提前返回）
-+ 没有python的for-else，可以手动实现。
-```c
+# ### 代码
+# + 与每次拷贝清零零时`word`桶，还可以在比较完后清0供下次使用（虽然可以提前返回）
+# + 没有python的for-else，可以手动实现。
+# ```c
 int countCharacters(char ** words, int wordsSize, char * chars){
 	char char_cnt[26] = {0}, word_cnt[26] = {0};
 	short i, j, word_len = 0, tmp_len;
@@ -28,14 +28,14 @@ int countCharacters(char ** words, int wordsSize, char * chars){
 	}
 	return len;
 }
-```
-当然不造轮子，使用`Counter`的`&`运算，然后比对与原来是否相同也是可行的（效率比for低）。
+# ```
+# 当然不造轮子，使用`Counter`的`&`运算，然后比对与原来是否相同也是可行的（效率比for低）。
 
-```python3 []
+# ```python3 []
 class Solution:
     def countCharacters(self, words: List[str], chars: str) -> int:
         from collections import Counter
         return sum(len(word) for word in words
             if Counter(word) & Counter(chars) == Counter(word))
-```
+# ```
 

@@ -1,10 +1,10 @@
-### 解题思路
-这个题其实是个漫水填充题（FloodFill），我们只需要对所有为0的点进行DFS，并将遍历过的点标记即可。
-![image.png](https://pic.leetcode-cn.com/82ea7fa4223e0ec2b5f8dcd47b3f001f673062aa806f5a4af9a64e2a0ae05f8c-image.png)
+// ### 解题思路
+// 这个题其实是个漫水填充题（FloodFill），我们只需要对所有为0的点进行DFS，并将遍历过的点标记即可。
+// ![image.png](https://pic.leetcode-cn.com/82ea7fa4223e0ec2b5f8dcd47b3f001f673062aa806f5a4af9a64e2a0ae05f8c-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	vector<int > result;
@@ -44,4 +44,4 @@ public:
     }
 };
 
-```
+// ```

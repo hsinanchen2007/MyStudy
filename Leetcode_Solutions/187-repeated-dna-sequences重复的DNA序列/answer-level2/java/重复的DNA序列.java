@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<String> findRepeatedDnaSequences(String s) {
         //两个哈希表组合解题
@@ -17,4 +17,4 @@ class Solution {
         return new ArrayList<String>(help); //将哈希集合中的元素转换为列表
     }
 }
-```
+// ```

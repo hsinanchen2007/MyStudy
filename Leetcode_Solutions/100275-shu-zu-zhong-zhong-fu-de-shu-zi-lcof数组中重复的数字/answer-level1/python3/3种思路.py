@@ -1,11 +1,11 @@
-### 解题思路
-1.一开始想到的pop超时了
-2.通过dict的特性
-3.题目中有说所有数字小于n
+# ### 解题思路
+# 1.一开始想到的pop超时了
+# 2.通过dict的特性
+# 3.题目中有说所有数字小于n
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findRepeatNumber(self, nums: List[int]) -> int:
         # i = 0
@@ -30,4 +30,4 @@ class Solution:
                 lst[i] = 1
             else:
                 return i
-```
+# ```

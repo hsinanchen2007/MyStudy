@@ -1,8 +1,8 @@
-# 思路
-嘿嘿，奥利给
-# 代码
+// # 思路
+// 嘿嘿，奥利给
+// # 代码
 
-```
+// ```
 char * freqAlphabets(char * s){
     int preTwo = 0;
     int i = 0;

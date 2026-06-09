@@ -1,9 +1,9 @@
-### 解题思路
-递归的核心就是有计算就在最外层加个计算，不然都是return 的终止条件
+// ### 解题思路
+// 递归的核心就是有计算就在最外层加个计算，不然都是return 的终止条件
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} x
  * @param {number} n
@@ -23,4 +23,4 @@ var myPow = function(x, n) {
     }
 };
 
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-同样使用划窗法，与209. 长度最小的子数组不同，该问题是求最大子串。把条件稍加修改，老代码就可以复用了。
+// ### 解题思路
+// 同样使用划窗法，与209. 长度最小的子数组不同，该问题是求最大子串。把条件稍加修改，老代码就可以复用了。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int maxSubArrayLen(int s, int* nums, int numsSize){
     int leftWin = 0;
     int rightWin = 0;
@@ -49,4 +49,4 @@ int equalSubstring(char * s, char * t, int maxCost){
     int ret = maxSubArrayLen(maxCost, &costArr[0], sLen);
     return ret;
 }
-```
+// ```

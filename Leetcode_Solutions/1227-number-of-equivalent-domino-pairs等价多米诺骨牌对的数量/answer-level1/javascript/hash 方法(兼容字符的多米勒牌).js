@@ -1,26 +1,26 @@
-前面的方法都聊的很好的，我只说一点：
+// 前面的方法都聊的很好的，我只说一点：
 
-```
+// ```
 ${Math.min(dominoes[i][0], dominoes[i][1])}${Math.max(dominoes[i][0], dominoes[i][1])}
 
 作者：jsliang
 链接：https://leetcode-cn.com/problems/number-of-equivalent-domino-pairs/solution/jsiang-1128-deng-jie-duo-mi-nuo-gu-pai-dui-de-shu-/
 来源：力扣（LeetCode）
 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
-```
+// ```
 
-通过最小和最大来记录哈希表的key 确实很好，但如果这里题目改一下：
+// 通过最小和最大来记录哈希表的key 确实很好，但如果这里题目改一下：
 
-dominoes[i][j] 可以取字符 而不单纯局限于数字
+// dominoes[i][j] 可以取字符 而不单纯局限于数字
 
-那么这招就没有用了
+// 那么这招就没有用了
 
-我的解法是兼容了字符的，效率如下：
-执行用时 :80 ms, 在所有 JavaScript 提交中击败了91.07%的用户
-内存消耗 :43.9 MB, 在所有 JavaScript 提交中击败了30.77%的用户
+// 我的解法是兼容了字符的，效率如下：
+// 执行用时 :80 ms, 在所有 JavaScript 提交中击败了91.07%的用户
+// 内存消耗 :43.9 MB, 在所有 JavaScript 提交中击败了30.77%的用户
 
 
-```
+// ```
 var numEquivDominoPairs = function(dominoes) {
   if (!dominoes.length) {
       return 0
@@ -72,4 +72,4 @@ var numEquivDominoPairs = function(dominoes) {
   hashMap = null
   return result
 };
-```
+// ```

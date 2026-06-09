@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
   def hasGroupsSizeX(deck: Array[Int]): Boolean = {
     val intToInt = deck.map(x => (x, 1)).groupBy(_._1).mapValues(x => x.length)
@@ -8,4 +8,4 @@ object Solution {
     (2 to min) exists (i => distinct.forall(_ % i == 0))
   }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-一、简单运用滑动窗口思路做法
-```java
+// 一、简单运用滑动窗口思路做法
+// ```java
 class Solution {
     public int[] maxSlidingWindow(int[] nums, int k) {
         if(nums.length == 0) return nums;
@@ -41,11 +41,11 @@ class Solution {
         return maxVal;
     }
 }
-```
+// ```
 
 
-二、添加了Deque用于便捷找出window最大值
-```java
+// 二、添加了Deque用于便捷找出window最大值
+// ```java
 class Solution {
     public int[] maxSlidingWindow(int[] nums, int k) {
         if(nums.length == 0) return nums;
@@ -105,5 +105,5 @@ class Solution {
         return ans;
     }
 }
-```
+// ```
 

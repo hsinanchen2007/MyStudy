@@ -1,9 +1,9 @@
-### 解题思路
-典型的动态规划中的记忆化搜索问题，DP为从n到0个数，记住，这里不能使用贪心算法，因为并不一定取最大的平方数就可以获得最小数量的平方数之和。
+// ### 解题思路
+// 典型的动态规划中的记忆化搜索问题，DP为从n到0个数，记住，这里不能使用贪心算法，因为并不一定取最大的平方数就可以获得最小数量的平方数之和。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	void GetSquareNumsUnderN(vector<int>& squareNums, int n) {
@@ -35,4 +35,4 @@ public:
 		return DPNumSquares(squareNums, n, DpSquareVec);
     }
 };
-```
+// ```

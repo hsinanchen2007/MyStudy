@@ -1,5 +1,5 @@
-**方法一：数组排序**
-```
+// **方法一：数组排序**
+// ```
 class Solution {
     /**
     * 思路：
@@ -17,10 +17,10 @@ class Solution {
         return Arrays.copyOf(arr,k);
     }
 }
-```
+// ```
 
-**方法二：快速排序思路**
-```
+// **方法二：快速排序思路**
+// ```
 class Solution {
     /**
     * 思路：
@@ -67,10 +67,10 @@ class Solution {
         return low;
     }
 }
-```
+// ```
 
-**方法三：堆排序思路**
-```
+// **方法三：堆排序思路**
+// ```
 class Solution {
     /**
     * 思路：
@@ -104,11 +104,11 @@ class Solution {
         return res;
     }
 }
-```
+// ```
 
 
-**方法四：二叉搜索树**
-```
+// **方法四：二叉搜索树**
+// ```
 class Solution {
     public int[] getLeastNumbers(int[] arr, int k) {
         if (k >= arr.length) {
@@ -152,4 +152,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

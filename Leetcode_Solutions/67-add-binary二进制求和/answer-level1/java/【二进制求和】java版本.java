@@ -1,13 +1,13 @@
-### 解题思路
-例如a="1100101",b="1011"
-1、将a,b反转，ar="1010011",br="1101"
-2、定义isCarry，代表是否需要进位
-3、遍历max次（取a,b大的那个），并与isCarry比较，详细请看代码
-4、将结果再次反转即可
+// ### 解题思路
+// 例如a="1100101",b="1011"
+// 1、将a,b反转，ar="1010011",br="1101"
+// 2、定义isCarry，代表是否需要进位
+// 3、遍历max次（取a,b大的那个），并与isCarry比较，详细请看代码
+// 4、将结果再次反转即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String addBinary(String a, String b) {
         StringBuilder sb = new StringBuilder();
@@ -35,4 +35,4 @@ class Solution {
         return sb.reverse().toString();
     }
 }
-```
+// ```

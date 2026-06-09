@@ -1,5 +1,5 @@
-此题最关键的是题目的解析：
-    给定数组nums和常数k，存在不同的i、j使得nums[i] = nums[j]，且abs(i-j) <= k。
+// 此题最关键的是题目的解析：
+//     给定数组nums和常数k，存在不同的i、j使得nums[i] = nums[j]，且abs(i-j) <= k。
 
     bool containsNearbyDuplicate(vector<int>& nums, int k) {
         unordered_set<int> set; //搜索、插入和移除平均常数时间复杂度，不会超时

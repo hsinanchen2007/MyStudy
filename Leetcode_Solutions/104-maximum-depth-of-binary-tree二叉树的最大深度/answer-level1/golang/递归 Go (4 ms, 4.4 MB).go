@@ -1,9 +1,9 @@
-### 解题思路
-递归 比较左右子树深度 取最大值+1
+// ### 解题思路
+// 递归 比较左右子树深度 取最大值+1
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -23,4 +23,4 @@ func maxDepth(root *TreeNode) int {
 	}
 	return right + 1
 }
-```
+// ```

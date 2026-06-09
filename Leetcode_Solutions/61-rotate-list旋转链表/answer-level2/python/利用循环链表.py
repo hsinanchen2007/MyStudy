@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-先将首尾连接变成循环列表，然后再寻找旋转后的头指针并断开连接
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 先将首尾连接变成循环列表，然后再寻找旋转后的头指针并断开连接
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -27,4 +27,4 @@ class Solution(object):
         n=h.next
         h.next=None
         return n
-```
+# ```

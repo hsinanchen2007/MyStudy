@@ -1,9 +1,9 @@
-### 解题思路1
-直接调用现成类库
+// ### 解题思路1
+// 直接调用现成类库
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
      public string ReplaceSpace(string s) {
          if(s == null)
@@ -15,14 +15,14 @@ public class Solution {
      }
 
 }
-```
+// ```
 
-### 解题思路2
-循环
+// ### 解题思路2
+// 循环
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public string ReplaceSpace(string s) {
         if(s == null)
@@ -44,4 +44,4 @@ public class Solution {
         return sb.ToString();
     } 
 }
-```
+// ```

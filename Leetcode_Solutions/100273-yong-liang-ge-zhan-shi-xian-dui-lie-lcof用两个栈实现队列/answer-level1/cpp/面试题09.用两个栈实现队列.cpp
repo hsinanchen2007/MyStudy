@@ -1,10 +1,10 @@
-### 解题思路
-核心要点：两个stack类型成员变量，入队=s1.push，出队=if s2非空->s2.pop else s1全部弹出到s2 再s2.pop
-执行用时 :464 ms, 在所有 C++ 提交中击败了49.37%的用户
-内存消耗 :105.2 MB, 在所有 C++ 提交中击败了100.00%的用户
-### 代码
+// ### 解题思路
+// 核心要点：两个stack类型成员变量，入队=s1.push，出队=if s2非空->s2.pop else s1全部弹出到s2 再s2.pop
+// 执行用时 :464 ms, 在所有 C++ 提交中击败了49.37%的用户
+// 内存消耗 :105.2 MB, 在所有 C++ 提交中击败了100.00%的用户
+// ### 代码
 
-```cpp
+// ```cpp
 class CQueue {
     stack<int>s1;
     stack<int>s2;
@@ -41,4 +41,4 @@ public:
  * obj->appendTail(value);
  * int param_2 = obj->deleteHead();
  */
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-写成了简单但是不容易看懂的样子
+// ### 解题思路
+// 写成了简单但是不容易看懂的样子
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> maxDepthAfterSplit(string seq) {
@@ -27,4 +27,4 @@ public:
     }
 };
 
-```
+// ```

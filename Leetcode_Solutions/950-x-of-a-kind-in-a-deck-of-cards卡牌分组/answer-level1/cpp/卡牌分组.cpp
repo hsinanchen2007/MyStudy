@@ -1,9 +1,9 @@
-### 解题思路
-最大公约数
+// ### 解题思路
+// 最大公约数
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
     int cnt[10000] = {0};
 public:
@@ -25,4 +25,4 @@ public:
         return g >= 2 ? true : false;
     }
 };
-```
+// ```

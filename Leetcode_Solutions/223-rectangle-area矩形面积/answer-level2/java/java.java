@@ -1,9 +1,9 @@
-### 解题思路
-关键在于判断两个图形有无重叠部分
+// ### 解题思路
+// 关键在于判断两个图形有无重叠部分
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int computeArea(int A, int B, int C, int D, int E, int F, int G, int H) {
         int area1 = Math.abs((C-A) * (D-B));
@@ -22,4 +22,4 @@ class Solution {
         return area3;
     }
 }
-```
+// ```

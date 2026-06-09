@@ -1,10 +1,10 @@
-### 解题思路
-这个题的思路跟LeetCode_228题"汇总区间"相似，只是输入的数据无序
-这里可以采用TreeSet使输入的数据自动排序,然后就可以采用228题的算法了
+// ### 解题思路
+// 这个题的思路跟LeetCode_228题"汇总区间"相似，只是输入的数据无序
+// 这里可以采用TreeSet使输入的数据自动排序,然后就可以采用228题的算法了
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class SummaryRanges {
 
     TreeSet<Integer> set = null;
@@ -61,4 +61,4 @@ class SummaryRanges {
  * obj.addNum(val);
  * int[][] param_2 = obj.getIntervals();
  */
-```
+// ```

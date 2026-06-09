@@ -1,9 +1,9 @@
-### 解题思路
-JAVA 暴力循环就完事了
+// ### 解题思路
+// JAVA 暴力循环就完事了
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int strStr(String haystack, String needle) {
           //先把特殊情况写了
@@ -37,4 +37,4 @@ class Solution {
 
     }
 }
-```
+// ```

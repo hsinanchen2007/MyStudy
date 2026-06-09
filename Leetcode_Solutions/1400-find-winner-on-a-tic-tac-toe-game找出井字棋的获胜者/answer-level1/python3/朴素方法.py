@@ -1,4 +1,4 @@
-```python []
+# ```python []
 class Solution:
     def tictactoe(self, moves: List[List[int]]) -> str:
         
@@ -20,4 +20,4 @@ class Solution:
         if len(moves) == 9:  # 如果没有人赢并且格子走完了，return 'Draw'
             return 'Draw'  
         return 'Pending'  # 如果没有人赢并且格子没走完，return 'Pending'
-```
+# ```

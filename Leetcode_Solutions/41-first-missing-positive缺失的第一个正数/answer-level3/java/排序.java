@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int firstMissingPositive(int[] nums) {
         if(nums.length==0) return 1;
@@ -23,4 +23,4 @@ class Solution {
         return j==nums[nums.length-1]?j+1:j;
     }
 }
-```
+// ```

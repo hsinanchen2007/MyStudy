@@ -1,8 +1,8 @@
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
     bool judge(string t,string s){
         int lenx = s.size() / t.size();
@@ -26,4 +26,4 @@ public:
     }
 };
 
-```
+// ```

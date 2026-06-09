@@ -1,11 +1,11 @@
-### 解题思路
-遍历数组，找到可能的最大值max与n比较，
-max<n false
-max>n true
+// ### 解题思路
+// 遍历数组，找到可能的最大值max与n比较，
+// max<n false
+// max>n true
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canPlaceFlowers(int[] flowerbed, int n) {
         int num =flowerbed.length;
@@ -54,4 +54,4 @@ class Solution {
         
     }
 }
-```
+// ```

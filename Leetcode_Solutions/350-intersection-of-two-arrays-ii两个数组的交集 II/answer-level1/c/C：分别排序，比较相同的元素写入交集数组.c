@@ -1,8 +1,8 @@
-思路：
-qsort分别排序，比较不相等时循环标记后移，
-比较相等的元素加入交集
+// 思路：
+// qsort分别排序，比较不相等时循环标记后移，
+// 比较相等的元素加入交集
 
-```
+// ```
 int compare(const void* a, const void* b){
     return *(int*)a > *(int*)b;
 }
@@ -27,4 +27,4 @@ int* intersect(int* nums1, int nums1Size, int* nums2, int nums2Size, int* return
     }
     return result;
 }
-```
+// ```

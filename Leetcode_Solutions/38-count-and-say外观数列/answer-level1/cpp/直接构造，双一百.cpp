@@ -1,11 +1,11 @@
-### 解题思路
-没打表，双一百，无情。
-![image.png](https://pic.leetcode-cn.com/1a4d849e65b9998aaee99bb7da91cc35aaf3d2966b925ab7ed20d0635393038c-image.png)
+// ### 解题思路
+// 没打表，双一百，无情。
+// ![image.png](https://pic.leetcode-cn.com/1a4d849e65b9998aaee99bb7da91cc35aaf3d2966b925ab7ed20d0635393038c-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
     string getS(string str)
     {
@@ -33,4 +33,4 @@ public:
         return res;
     }
 };
-```
+// ```

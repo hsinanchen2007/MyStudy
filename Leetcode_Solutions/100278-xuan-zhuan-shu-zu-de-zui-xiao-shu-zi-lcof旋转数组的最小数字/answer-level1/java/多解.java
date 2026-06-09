@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
-1：排序输出numbersnumbers【0】
-2: 二分法
-3：直接循环处理。
+// ### 解题思路
+// 此处撰写解题思路
+// 1：排序输出numbersnumbers【0】
+// 2: 二分法
+// 3：直接循环处理。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minArray(int[] numbers) 
     {
@@ -44,4 +44,4 @@ class Solution {
 
     }
 }
-```
+// ```

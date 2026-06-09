@@ -1,32 +1,32 @@
-C艹: 4ms 8.7MB
+// C艹: 4ms 8.7MB
 
-Swift: 28ms 21.2MB
+// Swift: 28ms 21.2MB
 
-### 解题思路
-看起来就需要遍历, 从左往右选择`K`个区间的时候, 每次计算都需要用到上一次选择都结果, 那么就是动态规划了
+// ### 解题思路
+// 看起来就需要遍历, 从左往右选择`K`个区间的时候, 每次计算都需要用到上一次选择都结果, 那么就是动态规划了
 
-设第$k$个选择第区间为$[st, ed]$, 输入数组的长度为$len$
+// 设第$k$个选择第区间为$[st, ed]$, 输入数组的长度为$len$
 
-得到状态转移方程
+// 得到状态转移方程
 
-$$
-\left\{\begin{aligned}
+// $$
+// \left\{\begin{aligned}
 
-dp[k][ed] &= max\{v_i | i \in [st, ed] \} \\
-vi &= dp[k-1][i-1] + avg\{[i, ed] \} \\
-st &\geq k \\
-ed &= len - K + k
+// dp[k][ed] &= max\{v_i | i \in [st, ed] \} \\
+// vi &= dp[k-1][i-1] + avg\{[i, ed] \} \\
+// st &\geq k \\
+// ed &= len - K + k
 
-\end{aligned}\right.
-$$
+// \end{aligned}\right.
+// $$
 
-当然了, 上面的表达式只为说明思路
+// 当然了, 上面的表达式只为说明思路
 
-具体实现时需要对下标`+1`或`-1`
+// 具体实现时需要对下标`+1`或`-1`
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     double largestSumOfAverages(vector<int>& A, int K) {
@@ -54,9 +54,9 @@ public:
         return dp[K-1][A.size()-1];
     }
 };
-```
+// ```
 
-```swift
+// ```swift
 class Solution {
     func largestSumOfAverages(_ A: [Int], _ K: Int) -> Double {
         var dp = Array.init(repeating: Array.init(repeating: 0.0, count: A.count), count: K)
@@ -87,4 +87,4 @@ class Solution {
         return dp[K - 1][A.count - 1]
     }
 }
-```
+// ```

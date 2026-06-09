@@ -1,10 +1,10 @@
-### 解题思路
-1.给出的字符串数组可以重复使用
-2.那么我们需要找到能够组成的新的new_bottom，然后对每一个新的new_bottom进行尝试，只要有一个能达到效果那么就可以
+// ### 解题思路
+// 1.给出的字符串数组可以重复使用
+// 2.那么我们需要找到能够组成的新的new_bottom，然后对每一个新的new_bottom进行尝试，只要有一个能达到效果那么就可以
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int test(char *a,char *b){
     if ((a[0]==b[0])&&(a[1]==b[1]))
         return 1;
@@ -76,4 +76,4 @@ bool pyramidTransition(char * bottom, char ** allowed, int allowedSize){
     }
     return false;
 }
-```
+// ```

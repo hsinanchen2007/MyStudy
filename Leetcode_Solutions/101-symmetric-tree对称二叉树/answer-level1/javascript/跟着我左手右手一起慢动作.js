@@ -1,16 +1,16 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/fd260daa6a40fc362a0c5725cf9d160aeedfff95e9b2aa05d77f983abae9e863-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/fd260daa6a40fc362a0c5725cf9d160aeedfff95e9b2aa05d77f983abae9e863-image.png)
 
-感觉繁琐无比的套路，面试官说“你能再提供一个慢一点的算法吗”，我就想了这个方案给到他。。。。。
-![image.png](https://pic.leetcode-cn.com/e9a52196d998cf68459f492bb023b14b9b7123bf2c3adb42ca40e1f6b15390ca-image.png)
+// 感觉繁琐无比的套路，面试官说“你能再提供一个慢一点的算法吗”，我就想了这个方案给到他。。。。。
+// ![image.png](https://pic.leetcode-cn.com/e9a52196d998cf68459f492bb023b14b9b7123bf2c3adb42ca40e1f6b15390ca-image.png)
 
-好吧，就是对着左树走“中-左-右”，对着右树走“中-右-左”，但是不能跳过null啊，于是我搞了一个对象来放“外节点”和“内节点”（不用左右而用内外），但是对象always是不相等的啊，于是我又搞了个循环来深度遍历对象数组。
+// 好吧，就是对着左树走“中-左-右”，对着右树走“中-右-左”，但是不能跳过null啊，于是我搞了一个对象来放“外节点”和“内节点”（不用左右而用内外），但是对象always是不相等的啊，于是我又搞了个循环来深度遍历对象数组。
 
-好吧，发完这个题解，我就去看高手的套路了……
+// 好吧，发完这个题解，我就去看高手的套路了……
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -77,4 +77,4 @@ var isSymmetric = function (root) {
     return true;
 
 };
-```
+// ```

@@ -1,6 +1,6 @@
-模仿[264. 丑数 II]的题解写的
+# 模仿[264. 丑数 II]的题解写的
 
-```python []
+# ```python []
 class Solution(object):
     def nthSuperUglyNumber(self, n, primes):
         """
@@ -24,5 +24,5 @@ class Solution(object):
                     pos[j] += 1
             dp[i] = _min
         return dp[n - 1]
-```
+# ```
 

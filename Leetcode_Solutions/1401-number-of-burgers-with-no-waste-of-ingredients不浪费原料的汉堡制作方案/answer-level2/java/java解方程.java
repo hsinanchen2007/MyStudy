@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public List<Integer> numOfBurgers(int tomatoSlices, int cheeseSlices) {
         //可以的话设置两个值加进去
@@ -34,4 +34,4 @@ class Solution {
         return numList;
     }
 }
-```
+// ```

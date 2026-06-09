@@ -1,6 +1,6 @@
-极简单的递归使用
+// 极简单的递归使用
 
-```go
+// ```go
 func inorderTraversal(root *TreeNode) []int {
 	if root == nil {
 		return nil
@@ -9,4 +9,4 @@ func inorderTraversal(root *TreeNode) []int {
 	r2 := inorderTraversal(root.Right)
 	return append(append(r1, root.Val), r2...)
 }
-```
+// ```

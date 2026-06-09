@@ -1,10 +1,10 @@
-### 解题思路
-![截屏2020-02-01下午3.18.35.png](https://pic.leetcode-cn.com/cf9790cbcc394c924a0cf98374fc2d09746e824b28f3d8d91f0d270f8845c490-%E6%88%AA%E5%B1%8F2020-02-01%E4%B8%8B%E5%8D%883.18.35.png)
-此处撰写解题思路
+// ### 解题思路
+// ![截屏2020-02-01下午3.18.35.png](https://pic.leetcode-cn.com/cf9790cbcc394c924a0cf98374fc2d09746e824b28f3d8d91f0d270f8845c490-%E6%88%AA%E5%B1%8F2020-02-01%E4%B8%8B%E5%8D%883.18.35.png)
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define HASH_NUM 60
 
 int numPairsDivisibleBy60(int* time, int timeSize){
@@ -35,4 +35,4 @@ int numPairsDivisibleBy60(int* time, int timeSize){
     
     return counter;
 }
-```
+// ```

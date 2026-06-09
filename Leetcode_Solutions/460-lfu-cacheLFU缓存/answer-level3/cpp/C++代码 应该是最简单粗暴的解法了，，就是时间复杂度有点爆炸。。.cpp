@@ -1,9 +1,9 @@
-### 解题思路
-打卡完毕，我去看大佬们的题解了
+// ### 解题思路
+// 打卡完毕，我去看大佬们的题解了
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class LFUCache {
 
     struct Cache{
@@ -60,4 +60,4 @@ public:
         cache.push_back(Cache(key,value)); //添加到最后表明是最近使用
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-三段之和相等，只要求首尾两段之和等于sum//3即可，用两个指针分别指向左右，想中间移动，只有相等时停止，最后比较。
+# ### 解题思路
+# 三段之和相等，只要求首尾两段之和等于sum//3即可，用两个指针分别指向左右，想中间移动，只有相等时停止，最后比较。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def canThreePartsEqualSum(self, A: List[int]) -> bool:
         if not A:
@@ -30,4 +30,4 @@ class Solution:
             return True 
         else:
             return False
-```
+# ```

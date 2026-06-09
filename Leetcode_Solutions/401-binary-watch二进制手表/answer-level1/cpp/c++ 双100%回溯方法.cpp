@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> readBinaryWatch(int num) {
@@ -41,6 +41,6 @@ public:
         }
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/d5895f45de138e138413b0c4e05f2a28b59f3846b1ce7dc838aae02c299fde31-image.png)
+// ![image.png](https://pic.leetcode-cn.com/d5895f45de138e138413b0c4e05f2a28b59f3846b1ce7dc838aae02c299fde31-image.png)

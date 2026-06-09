@@ -1,9 +1,9 @@
-### 解题思路
-先排序，后比较，如果尺寸大于胃口则同时向后移一位，否则饼干向后移动一位，胃口不变
+// ### 解题思路
+// 先排序，后比较，如果尺寸大于胃口则同时向后移一位，否则饼干向后移动一位，胃口不变
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findContentChildren(int[] g, int[] s) {
         Arrays.sort(g);
@@ -21,4 +21,4 @@ class Solution {
         return i;
     }
 }
-```
+// ```

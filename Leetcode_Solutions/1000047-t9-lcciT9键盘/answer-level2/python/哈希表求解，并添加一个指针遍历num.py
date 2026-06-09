@@ -1,4 +1,4 @@
-```Java []
+# ```Java []
 class Solution {
     public List<String> getValidT9Words(String num, String[] words) {
         List<String> res = new ArrayList<>();
@@ -18,8 +18,8 @@ class Solution {
         return res;
     }
 }
-```
-```Python []
+# ```
+# ```Python []
 class Solution:
     def getValidT9Words(self, num: str, words: List[str]) -> List[str]:
         ans = list()
@@ -35,4 +35,4 @@ class Solution:
                     break
             if flag: ans.append(word)
         return ans
-```
+# ```

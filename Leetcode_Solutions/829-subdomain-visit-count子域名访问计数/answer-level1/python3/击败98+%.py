@@ -1,10 +1,10 @@
-### 解题思路
-1.本题的重点在于分解字符串，界定符选取“.”
-2.另外需要结合string.split('.',maxsplit=1)，表示只分解第一个界定符
+# ### 解题思路
+# 1.本题的重点在于分解字符串，界定符选取“.”
+# 2.另外需要结合string.split('.',maxsplit=1)，表示只分解第一个界定符
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def subdomainVisits(self, cpdomains: List[str]) -> List[str]:
         hash_map={}
@@ -36,4 +36,4 @@ class Solution:
         for key,value in hash_map.items():
             res.append(str(value)+' '+key)
         return res
-```
+# ```

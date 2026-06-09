@@ -1,6 +1,6 @@
-执行用时 : 2 ms     99.25%
-内存消耗 : 36.6 MB  77.69%
-```
+// 执行用时 : 2 ms     99.25%
+// 内存消耗 : 36.6 MB  77.69%
+// ```
     ArrayList<Integer> list = new ArrayList();
     public List<Integer> pancakeSort(int[] A) {
         int max;
@@ -35,4 +35,4 @@
         A[a] = A[b];
         A[b] = temp;
     }
-```
+// ```

@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/5b844f9b85f82c94196020fba6011e00e331165d8572b1f22c91d117008cd28f-image.png)
-注意当前节点未找到的时候将访问节点置为未访问
+// ![image.png](https://pic.leetcode-cn.com/5b844f9b85f82c94196020fba6011e00e331165d8572b1f22c91d117008cd28f-image.png)
+// 注意当前节点未找到的时候将访问节点置为未访问
 
-```
+// ```
 bool core(char** board, int boardSize, int* boardColSize, char * word, int now, int** visited, int i, int j)
 {
     if (i < 0 || i >= boardSize || j < 0 || j >= *boardColSize) {
@@ -46,4 +46,4 @@ bool exist(char** board, int boardSize, int* boardColSize, char * word)
     }
     return false;
 }
-```
+// ```

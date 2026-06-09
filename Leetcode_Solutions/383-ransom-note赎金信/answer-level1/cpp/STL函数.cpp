@@ -1,9 +1,9 @@
-### 解题思路
-纯用库函数，为了熟悉string成员函数，运行时间较长
+// ### 解题思路
+// 纯用库函数，为了熟悉string成员函数，运行时间较长
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool canConstruct(string ransomNote, string magazine) {
@@ -23,4 +23,4 @@ public:
         return true;
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
-时间复杂度O(max(nums.size(),nums[i]区间长度))，空间复杂度O(nums[i]区间长度)
-```cpp
+// 时间复杂度O(max(nums.size(),nums[i]区间长度))，空间复杂度O(nums[i]区间长度)
+// ```cpp
 class Solution 
 {
 public:
@@ -27,4 +27,4 @@ public:
 		return res;
 	}
 };
-```
+// ```

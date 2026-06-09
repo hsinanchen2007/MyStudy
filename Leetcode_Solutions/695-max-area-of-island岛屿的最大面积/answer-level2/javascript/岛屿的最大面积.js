@@ -1,5 +1,5 @@
-代码清析明了，从起始点开始查找，起始点置0，从起始点上下左右四个方法逐个查找
-```
+// 代码清析明了，从起始点开始查找，起始点置0，从起始点上下左右四个方法逐个查找
+// ```
 /**
  * @param {number[][]} grid
  * @return {number}
@@ -48,4 +48,4 @@ var maxAreaOfIsland = function(grid) {
     }
     return result
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
     public boolean isSubsequence(String s, String t) {
         int index = -1;
         for (char c : s.toCharArray()) {
@@ -7,4 +7,4 @@
         }
         return true;
     }
-```
+// ```

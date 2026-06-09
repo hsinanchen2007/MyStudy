@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
-1、对arr进行升序排序
-2、遍历找出最小绝对差
-3、遍历找出符合最小绝对差的值，push进res
-```javascript
+// ### 代码
+// 1、对arr进行升序排序
+// 2、遍历找出最小绝对差
+// 3、遍历找出符合最小绝对差的值，push进res
+// ```javascript
 /**
  * @param {number[]} arr
  * @return {number[][]}
@@ -25,4 +25,4 @@ var minimumAbsDifference = function(arr) {
     }
     return res
 };
-```
+// ```

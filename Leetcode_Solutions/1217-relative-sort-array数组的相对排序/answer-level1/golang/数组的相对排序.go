@@ -1,4 +1,4 @@
-```
+// ```
 /*
 1. 对arr1建立哈希表（用map）
 2. 对arr2中每个元素，取出哈希表中对应int数组
@@ -48,4 +48,4 @@ func intArr2Map(arr []int) map[int][]int {
     
     return dict
 }
-```
+// ```

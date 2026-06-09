@@ -1,9 +1,9 @@
-### 解题思路
-lef和rig分别指向左右的数，比较并从最大位开始装
+// ### 解题思路
+// lef和rig分别指向左右的数，比较并从最大位开始装
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> sortedSquares(vector<int>& A)
@@ -21,4 +21,4 @@ public:
         return ans;
     }
 };
-```
+// ```

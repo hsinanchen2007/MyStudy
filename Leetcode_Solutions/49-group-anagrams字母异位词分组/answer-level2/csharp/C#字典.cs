@@ -1,4 +1,4 @@
-```csharp
+// ```csharp
         // 先遍历, 排序字符, 相等的放入字典中
         public IList<IList<string>> GroupAnagrams(string[] strs)
         {
@@ -31,4 +31,4 @@
 
             return res;
         }
-```
+// ```

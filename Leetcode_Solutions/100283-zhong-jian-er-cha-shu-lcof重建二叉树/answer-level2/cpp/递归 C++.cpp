@@ -1,8 +1,8 @@
-1. 前序遍历首元素为根结点`[root,***]`
-2. 以根结点划分中序遍历`[l_i,root,r_i]`，`l_i`为左子树的中序遍历序列，`r_i`为右子树大中序遍历序列
-3. 根据root在中序序列中的index，可计算出左子树遍历序列的长度为index，将前序遍历划分为左右子树序列`[root,l_p,r_p]`
-4. 以`(l_p,l_i)`和`(r_p,r_i)`递归生成左子树及右子树
-```
+// 1. 前序遍历首元素为根结点`[root,***]`
+// 2. 以根结点划分中序遍历`[l_i,root,r_i]`，`l_i`为左子树的中序遍历序列，`r_i`为右子树大中序遍历序列
+// 3. 根据root在中序序列中的index，可计算出左子树遍历序列的长度为index，将前序遍历划分为左右子树序列`[root,l_p,r_p]`
+// 4. 以`(l_p,l_i)`和`(r_p,r_i)`递归生成左子树及右子树
+// ```
 class Solution {
     TreeNode* helper(vector<int>& pre_v,int plo, int phi, vector<int>& in_v, int ilo, int ihi){
         if(plo>phi || ilo>ihi) return nullptr; //区间为空，返回空指针
@@ -23,4 +23,4 @@ public:
         return root;
     }
 };
-```
+// ```

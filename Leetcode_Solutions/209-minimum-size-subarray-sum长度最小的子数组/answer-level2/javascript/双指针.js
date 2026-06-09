@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} s
  * @param {number[]} nums
@@ -26,4 +26,4 @@ var minSubArrayLen = function(s, nums) {
     }
     return count === Number.MAX_SAFE_INTEGER ? 0 : count
 };
-```
+// ```

@@ -1,8 +1,8 @@
-- 用栈来实现： 
-- 从右往左遍历数组
-- 如果栈为空  ：就赋值为0，并把当前元素压栈
-- 如果栈不为空：就依次出栈，找到大于当前元素的值，直到栈为空
-```
+// - 用栈来实现： 
+// - 从右往左遍历数组
+// - 如果栈为空  ：就赋值为0，并把当前元素压栈
+// - 如果栈不为空：就依次出栈，找到大于当前元素的值，直到栈为空
+// ```
 int* nextLargerNodes(struct ListNode* head, int* returnSize){
     if (head == NULL) return NULL;
     int *ret_arr = (int *)calloc(10240, sizeof(int));
@@ -29,4 +29,4 @@ int* nextLargerNodes(struct ListNode* head, int* returnSize){
     }
     return ret_arr;
 }
-```
+// ```

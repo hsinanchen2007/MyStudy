@@ -1,9 +1,9 @@
-### 解题思路
-一开始就想到的是用hashmap，然后就去做了，但是没想到空间复杂度和时间复杂度都很高。之后看了一个题解用switch-case结构做的，复杂度降低了。要好好借鉴一下别人的优秀思路~
+// ### 解题思路
+// 一开始就想到的是用hashmap，然后就去做了，但是没想到空间复杂度和时间复杂度都很高。之后看了一个题解用switch-case结构做的，复杂度降低了。要好好借鉴一下别人的优秀思路~
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int romanToInt(String s) {
             Map<String,Integer> num=new HashMap<>();
@@ -38,4 +38,4 @@ class Solution {
             return result;
     }
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-- set类型用add()方法；
-- set(['ab']) = {'ab'}；
-- set('ab') = {'a', 'b'}；
+# ### 解题思路
+# - set类型用add()方法；
+# - set(['ab']) = {'ab'}；
+# - set('ab') = {'a', 'b'}；
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findLadders(self, beginWord, endWord, wordList):
         res = []
@@ -37,4 +37,4 @@ class Solution:
             backtrack(res, [], routine, endWord)
         
         return res
-```
+# ```

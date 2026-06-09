@@ -1,7 +1,7 @@
-## 思路一：回溯
+// ## 思路一：回溯
 
-### 代码
-```c++
+// ### 代码
+// ```c++
 class Solution {
 public:
     vector<vector<int>> pathSum(TreeNode* root, int sum) {
@@ -30,10 +30,10 @@ public:
         }
     }
 };
-```
+// ```
 
-### 另一种写法
-```c++
+// ### 另一种写法
+// ```c++
 class Solution {
 public:
     vector<vector<int>> pathSum(TreeNode* root, int sum) {
@@ -58,4 +58,4 @@ public:
         path.pop_back();
     }
 };
-```
+// ```

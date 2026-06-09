@@ -1,10 +1,10 @@
-### 解题思路
-投票算法的改进
-c++版本的
+// ### 解题思路
+// 投票算法的改进
+// c++版本的
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> majorityElement(vector<int>& nums) {
@@ -52,4 +52,4 @@ public:
      return target;
     }
 };
-```
+// ```

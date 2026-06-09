@@ -1,9 +1,9 @@
-### 解题思路
-我觉得应该有更好的办法，不需要另外开辟空间，直接在当前链表上操作，但我不会啊！
+// ### 解题思路
+// 我觉得应该有更好的办法，不需要另外开辟空间，直接在当前链表上操作，但我不会啊！
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -46,4 +46,4 @@ class Solution {
         return head.next;
     }
 }
-```
+// ```

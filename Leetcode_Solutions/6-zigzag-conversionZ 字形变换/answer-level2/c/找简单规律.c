@@ -1,4 +1,4 @@
-```
+// ```
 char * convert(char * s, int numRows){
 	int len = strlen(s);
 	int k = numRows;
@@ -40,5 +40,5 @@ char * convert(char * s, int numRows){
     new1[len] = '\0';
 	return new1;
 }
-```
+// ```
 

@@ -1,9 +1,9 @@
-### 解题思路
-java 排序后筛选
+// ### 解题思路
+// java 排序后筛选
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] merge(int[][] intervals) {
         if(intervals==null|| intervals.length<=1)
@@ -28,4 +28,4 @@ class Solution {
         return list.toArray(new int[list.size()][2]);
     }
 }
-```
+// ```

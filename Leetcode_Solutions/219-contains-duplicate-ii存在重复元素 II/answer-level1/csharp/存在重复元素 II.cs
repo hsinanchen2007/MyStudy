@@ -1,5 +1,5 @@
-**思路1：** 利用Dictionary，思路在代码里比较简单。
-```
+// **思路1：** 利用Dictionary，思路在代码里比较简单。
+// ```
 public bool ContainsNearbyDuplicate(int[] nums, int k)
         {
             var dict = new Dictionary<int, int>();
@@ -24,4 +24,4 @@ public bool ContainsNearbyDuplicate(int[] nums, int k)
 
             return false;
         }
-```
+// ```

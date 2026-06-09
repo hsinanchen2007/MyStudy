@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     string compressString(string S) {
@@ -20,4 +20,4 @@ public:
         else return res;
     }
 };
-```
+// ```

@@ -1,10 +1,10 @@
-详细讲解可参考我的博客：
+// 详细讲解可参考我的博客：
 
-https://blog.csdn.net/gjh13/article/details/99565153
+// https://blog.csdn.net/gjh13/article/details/99565153
 
-代码如下：
+// 代码如下：
 
-```
+// ```
 class Solution {
 public:
     string fractionToDecimal(int numerator, int denominator) {
@@ -80,5 +80,5 @@ public:
         return res;
     }
 };
-```
+// ```
 

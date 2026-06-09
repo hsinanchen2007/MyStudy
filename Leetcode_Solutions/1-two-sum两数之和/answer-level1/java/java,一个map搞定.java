@@ -1,8 +1,8 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/75203d51317236a2e3b67eb0dd13bbdfd79642d6e09b2b5e13631c9f0bdecdf7-image.png)
-### 代码
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/75203d51317236a2e3b67eb0dd13bbdfd79642d6e09b2b5e13631c9f0bdecdf7-image.png)
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         //一层for循环 创建hashmap 先假定map中的元素是存在的。将target与a[i]的差值存入map中
@@ -20,4 +20,4 @@ class Solution {
         return res ;
     }
 }
-```
+// ```

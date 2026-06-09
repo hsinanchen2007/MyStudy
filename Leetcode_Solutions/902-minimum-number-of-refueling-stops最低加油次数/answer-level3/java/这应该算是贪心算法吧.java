@@ -1,9 +1,9 @@
-### 解题思路
-遍历所有能给到达的加油站，每次加最多的那个加油站的油，并将其标记为已经加过油（设置其油量为-1）。然后重复上述过程，如果所有能达到的加油站都没油了，则无法到底，否则为最优解。
+// ### 解题思路
+// 遍历所有能给到达的加油站，每次加最多的那个加油站的油，并将其标记为已经加过油（设置其油量为-1）。然后重复上述过程，如果所有能达到的加油站都没油了，则无法到底，否则为最优解。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minRefuelStops(int target, int startFuel, int[][] stations) {
         if(startFuel>=target){
@@ -41,4 +41,4 @@ class Solution {
         return fuel<target?-1:count;
     }
 }
-```
+// ```

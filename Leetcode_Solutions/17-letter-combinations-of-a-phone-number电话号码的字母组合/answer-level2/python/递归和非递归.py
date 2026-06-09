@@ -1,18 +1,18 @@
-## 思路：
+# ## 思路：
 
-### 思路1：递归
+# ### 思路1：递归
 
-递归过程中记录组合。
+# 递归过程中记录组合。
 
-### 思路 2：迭代
+# ### 思路 2：迭代
 
-类似 `BFS`，每次更新一个字母
+# 类似 `BFS`，每次更新一个字母
 
-## 代码:
+# ## 代码:
 
-### 思路 1：
+# ### 思路 1：
 
-```Python []
+# ```Python []
 class Solution:
     def letterCombinations(self, digits: str) -> List[str]:
         lookup = {
@@ -37,8 +37,8 @@ class Solution:
                 helper(i+1,tmp+alp)
         helper(0,"")
         return res
-```
-```Java []
+# ```
+# ```Java []
 class Solution {
     public List<String> letterCombinations(String digits) {
         if (digits == null || digits.length() == 0) {
@@ -71,11 +71,11 @@ class Solution {
         
     }
 }
-```
+# ```
 
-### 思路 2：
+# ### 思路 2：
 
-```Python []
+# ```Python []
 class Solution:
     def letterCombinations(self, digits: str) -> List[str]:
         lookup = {
@@ -98,9 +98,9 @@ class Solution:
                     next_res.append(tmp + alp)
             res = next_res
         return res
-```
+# ```
 
-```C++ []
+# ```C++ []
 vector<string> letterCombinations(string digits) {
     vector<string> res;
     string charmap[10] = {"0", "1", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
@@ -116,5 +116,5 @@ vector<string> letterCombinations(string digits) {
     }
     return res;
 }
-```
+# ```
 

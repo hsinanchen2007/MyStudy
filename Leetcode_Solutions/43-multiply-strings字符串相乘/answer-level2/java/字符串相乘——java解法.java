@@ -1,12 +1,12 @@
-### 解题思路
-这道题主要分两步：
-第一步，解决乘法的问题
-第二步，解决加法的问题
-运算方面主要用的是ASCLL码表
+// ### 解题思路
+// 这道题主要分两步：
+// 第一步，解决乘法的问题
+// 第二步，解决加法的问题
+// 运算方面主要用的是ASCLL码表
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     
     public String multiply(String num1, String num2) {
@@ -67,4 +67,4 @@ class Solution {
     }
 
 }
-```
+// ```

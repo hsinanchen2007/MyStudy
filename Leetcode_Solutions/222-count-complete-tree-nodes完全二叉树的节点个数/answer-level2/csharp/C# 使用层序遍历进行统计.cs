@@ -1,9 +1,9 @@
-### 解题思路
-使用层序遍历进行统计
+// ### 解题思路
+// 使用层序遍历进行统计
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -31,4 +31,4 @@ public class Solution {
         return count;
     }
 }
-```
+// ```

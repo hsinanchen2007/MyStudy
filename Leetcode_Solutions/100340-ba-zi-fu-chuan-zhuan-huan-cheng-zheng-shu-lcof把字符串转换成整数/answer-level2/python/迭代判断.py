@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-有点麻烦，但是结果还行。
+# 有点麻烦，但是结果还行。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def strToInt(self, str: str) -> int:
         str = str.strip(' ')
@@ -25,4 +25,4 @@ class Solution:
         if res >= 2**31:
             return res - 1
         return res
-```
+# ```

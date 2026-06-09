@@ -1,5 +1,5 @@
-思路是从门开始BFS
-```python
+# 思路是从门开始BFS
+# ```python
 class Solution:
     def wallsAndGates(self, rooms: List[List[int]]) -> None:
         """
@@ -28,4 +28,4 @@ class Solution:
                     visited.add((xx, yy))
                     que.append((xx, yy, cnt + 1))
         
-```
+# ```

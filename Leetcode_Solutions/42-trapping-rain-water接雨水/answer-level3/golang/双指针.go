@@ -1,9 +1,9 @@
-### 解题思路
-另一个用栈实现的看了好几遍，还是没理清，感觉双指针理解起来容易很多
+// ### 解题思路
+// 另一个用栈实现的看了好几遍，还是没理清，感觉双指针理解起来容易很多
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func trap(height []int) int {
     var left, right, leftMax, rightMax, water int 
     right = len(height)-1
@@ -26,4 +26,4 @@ func trap(height []int) int {
     }
     return water
 }
-```
+// ```

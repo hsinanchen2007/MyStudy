@@ -1,15 +1,15 @@
-执行用时 :
-40 ms
-, 在所有 Python3 提交中击败了
-59.80%
-的用户
-内存消耗 :
-13.4 MB
-, 在所有 Python3 提交中击败了
-100.00%
-的用户
+# 执行用时 :
+# 40 ms
+# , 在所有 Python3 提交中击败了
+# 59.80%
+# 的用户
+# 内存消耗 :
+# 13.4 MB
+# , 在所有 Python3 提交中击败了
+# 100.00%
+# 的用户
 
-```
+# ```
 class Solution:
     def rotate(self, matrix: List[List[int]]) -> None:
         """
@@ -28,6 +28,6 @@ class Solution:
                 matrix[i][j] += matrix[n - i - 1][j]
                 matrix[n - i - 1][j] = matrix[i][j] - matrix[n - i - 1][j]
                 matrix[i][j] -= matrix[n - i - 1][j]
-```
+# ```
 
-如果可以用numpy，根本没那么多麻烦事hh
+# 如果可以用numpy，根本没那么多麻烦事hh

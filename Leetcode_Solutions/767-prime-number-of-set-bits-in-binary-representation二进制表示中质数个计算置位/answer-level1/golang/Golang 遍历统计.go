@@ -1,9 +1,9 @@
-### 解题思路
-遍历所有数字统计1个数是否为质数
+// ### 解题思路
+// 遍历所有数字统计1个数是否为质数
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func countPrimeSetBits(L int, R int) int {
     count := func(x int) int {
         c := 0
@@ -27,4 +27,4 @@ func countPrimeSetBits(L int, R int) int {
     return res
 }
 
-```
+// ```

@@ -1,5 +1,5 @@
-对比46题，只需添加判断前后是否相等，若nums[i] == nums[i - 1],则此情况前面已经讨论过，因此continue就好；需要事先对nums进行排序！
-```python []
+# 对比46题，只需添加判断前后是否相等，若nums[i] == nums[i - 1],则此情况前面已经讨论过，因此continue就好；需要事先对nums进行排序！
+# ```python []
 class Solution:
     def permuteUnique(self, nums: List[int]) -> List[List[int]]:
         if not nums: return []
@@ -16,4 +16,4 @@ class Solution:
                 backtrack(nums[:i] + nums[i + 1:], tmp + [nums[i]])
         backtrack(nums, [])  
         return res
-```
+# ```

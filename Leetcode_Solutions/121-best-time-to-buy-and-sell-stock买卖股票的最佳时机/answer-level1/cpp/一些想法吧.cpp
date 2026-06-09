@@ -1,5 +1,5 @@
-一开始的思路是错的，只想着把最低的价格挑出来，并没考虑到股票买卖的差值，以为只要最小值后面没值了就返回0，怎么会有这种脑回路呢。。。
-```
+// 一开始的思路是错的，只想着把最低的价格挑出来，并没考虑到股票买卖的差值，以为只要最小值后面没值了就返回0，怎么会有这种脑回路呢。。。
+// ```
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
@@ -25,9 +25,9 @@ public:
         return high-low;
     }
 };
-```
-第二次自己写，哭聊。。。执行时间1秒多。。。
-```
+// ```
+// 第二次自己写，哭聊。。。执行时间1秒多。。。
+// ```
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
@@ -44,9 +44,9 @@ public:
         return cost;
     }
 };
-```
-然后看了下题解。。。emmm。。。其实自己第一次想法改正一下就好了。。。
-```
+// ```
+// 然后看了下题解。。。emmm。。。其实自己第一次想法改正一下就好了。。。
+// ```
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
@@ -64,7 +64,7 @@ public:
         return profit;
     }
 };
-```
-最后，编程题果然像智力题。。。
+// ```
+// 最后，编程题果然像智力题。。。
 
 

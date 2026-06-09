@@ -1,5 +1,5 @@
-在滑动的同时，我们要保证双端队列的第一个数为最大值
-```
+# 在滑动的同时，我们要保证双端队列的第一个数为最大值
+# ```
 class Solution:
     def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:
         from collections import deque
@@ -19,4 +19,4 @@ class Solution:
             if i - k + 1 >= 0:
                 res.append(nums[d[0]])
         return res
-```
+# ```

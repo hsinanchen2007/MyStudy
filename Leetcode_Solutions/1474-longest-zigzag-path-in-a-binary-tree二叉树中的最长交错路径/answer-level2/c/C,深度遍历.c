@@ -1,11 +1,11 @@
-### 解题思路
-1. left：当前root节点的左子树的最大zigzag，即root->left为根的子树的right+1
-2. right：当前root节点的右子树的最大zigzag，即root->right为根的子树的left+1
-3. max：曾出现的最大zigzag：为（root->left的max， root->right的max， right+1, left+1）的最大值
+// ### 解题思路
+// 1. left：当前root节点的左子树的最大zigzag，即root->left为根的子树的right+1
+// 2. right：当前root节点的右子树的最大zigzag，即root->right为根的子树的left+1
+// 3. max：曾出现的最大zigzag：为（root->left的max， root->right的max， right+1, left+1）的最大值
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -53,4 +53,4 @@ int longestZigZag(struct TreeNode* root){
     dfs(root, &left, &right, &max);
     return max;
 }
-```
+// ```

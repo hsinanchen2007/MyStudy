@@ -1,12 +1,12 @@
-### 解题思路
-解法1
-```
+// ### 解题思路
+// 解法1
+// ```
     复杂度分析：
         时间复杂度：O(n)O(n)。递归函数T(n)=2⋅T(n/2)+1。
         空间复杂度：最坏情况下需要空间O(n)，平均情况为O(log n)。
-``` 
+// ``` 
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -29,18 +29,18 @@ public:
         return res;
     }
 };
-```
+// ```
 
-解法2
+// 解法2
 
-```
+// ```
     复杂度分析：
         时间复杂度：O(n)。
         空间复杂：O(n)。
-``` 
+// ``` 
 
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int>res;
@@ -62,9 +62,9 @@ public:
         return res;
     }
 };
-```
-解法3 莫里斯遍历
-```
+// ```
+// 解法3 莫里斯遍历
+// ```
 Step 1: 将当前节点current初始化为根节点
 
 Step 2: While current不为空，
@@ -80,9 +80,9 @@ Step 2: While current不为空，
     a. 在current的左子树中，令current成为最右侧节点的右子节点
 
     b. 进入左子树，亦即，current = current.left
-```
+// ```
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> inorderTraversal(TreeNode* root) {
@@ -107,4 +107,4 @@ public:
        return ans;
     }
 };
-```
+// ```

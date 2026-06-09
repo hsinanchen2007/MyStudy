@@ -1,10 +1,10 @@
-### 解题思路
-直接map对value和key排序，获取前K个即可。
-简单暴力，超过95百分比
+// ### 解题思路
+// 直接map对value和key排序，获取前K个即可。
+// 简单暴力，超过95百分比
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     Map<String, Integer> map = new HashMap<>();
 
@@ -37,4 +37,4 @@ class Solution {
         return results;
     }
 }
-```
+// ```

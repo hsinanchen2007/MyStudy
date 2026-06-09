@@ -1,6 +1,6 @@
-用rust练习语法，已经遇到2-3道链表题了，感觉很不舒服，吐了就舒服了！
+// 用rust练习语法，已经遇到2-3道链表题了，感觉很不舒服，吐了就舒服了！
 
-```
+// ```
 struct Solution{}
 
 // Definition for singly-linked list.
@@ -67,4 +67,4 @@ fn main() {
     println!("{:?}",  Solution::merge_two_lists(l1, l2));
 }
 
-```
+// ```

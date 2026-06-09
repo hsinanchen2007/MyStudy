@@ -1,16 +1,16 @@
-### 解题思路
-将大问题分化为小问题 小问题的结果状态转移累加结果 直到解决大问题
-if(null==nums||nums.length==0) return 0; 
-if(nums.length==1) return nums[0];
-if(nums.length==2) return Math.max(nums[0],nums[1]);
-划分子问题状态：
-dp0=nums[0],dp1=num[1];
-dp0=max(dp1,dp0),dp1=dp0+num[i];
+// ### 解题思路
+// 将大问题分化为小问题 小问题的结果状态转移累加结果 直到解决大问题
+// if(null==nums||nums.length==0) return 0; 
+// if(nums.length==1) return nums[0];
+// if(nums.length==2) return Math.max(nums[0],nums[1]);
+// 划分子问题状态：
+// dp0=nums[0],dp1=num[1];
+// dp0=max(dp1,dp0),dp1=dp0+num[i];
                 
-dp[i]=max(dp[i-2]+num[i],num[i-1])
-### 代码
+// dp[i]=max(dp[i-2]+num[i],num[i-1])
+// ### 代码
 
-```java
+// ```java
 class Solution {
     /**
     ** 将大问题分化为小问题 小问题的结果状态转移累加结果 直到解决大问题
@@ -42,4 +42,4 @@ class Solution {
         return Math.max(dp0,dp1);
     }
 }
-```
+// ```

@@ -1,12 +1,12 @@
-#### 方法一：暴力 + 枚举
+// #### 方法一：暴力 + 枚举
 
-**思路和算法**
+// **思路和算法**
 
-遍历所有可能的获取钥匙的顺序。如果钥匙为 `'abcdef'`，有一种可能的顺序就是  `'bafedc'`，之后计算一下这种取法的代价，即 `'@' -> 'b' -> 'a' -> 'f' -> 'e' -> 'd' -> 'c'` 这条路径的长度。
+// 遍历所有可能的获取钥匙的顺序。如果钥匙为 `'abcdef'`，有一种可能的顺序就是  `'bafedc'`，之后计算一下这种取法的代价，即 `'@' -> 'b' -> 'a' -> 'f' -> 'e' -> 'd' -> 'c'` 这条路径的长度。
 
-每取走一把钥匙都需要标记取过的状态，用标记的状态来判断哪些锁可以通过。
+// 每取走一把钥匙都需要标记取过的状态，用标记的状态来判断哪些锁可以通过。
 
-```java [solution1-Java]
+// ```java [solution1-Java]
 import java.awt.Point;
 
 class Solution {
@@ -117,9 +117,9 @@ class Solution {
         return ans;
     }
 }
-```
+// ```
 
-```python [solution1-Python]
+// ```python [solution1-Python]
 class Solution(object):
     def shortestPathAllKeys(self, grid):
         R, C = len(grid), len(grid[0])
@@ -166,22 +166,22 @@ class Solution(object):
                 ans = bns
 
         return ans if ans < float('inf') else -1
-```
+// ```
 
 
-**复杂度分析**
+// **复杂度分析**
 
-* 时间复杂度： $O(R * C * A * A!)$，其中 $R, C$ 为表格的长宽，（$A$ 为钥匙的数量）。深度优先搜索最多执行 $A * A!$ 次。
+// * 时间复杂度： $O(R * C * A * A!)$，其中 $R, C$ 为表格的长宽，（$A$ 为钥匙的数量）。深度优先搜索最多执行 $A * A!$ 次。
 
-* 空间复杂度： $O(R * C + A!)$，$R * C$ 为深度优先搜索占用的空间，$A！$ 为全排序数组占用的空间。
+// * 空间复杂度： $O(R * C + A!)$，$R * C$ 为深度优先搜索占用的空间，$A！$ 为全排序数组占用的空间。
 
-#### 方法二： 关键点  + Dijkstra
+// #### 方法二： 关键点  + Dijkstra
 
-**思路和算法**
+// **思路和算法**
 
-显然钥匙，锁，起点是图中的关键节点。先用深度优先搜索计算所有关键节点之间的距离，再用Dijkstra 算法找到每一种状态下的最小代价。
+// 显然钥匙，锁，起点是图中的关键节点。先用深度优先搜索计算所有关键节点之间的距离，再用Dijkstra 算法找到每一种状态下的最小代价。
 
-```java [solution2-Java]
+// ```java [solution2-Java]
 import java.awt.Point;
 
 class Solution {
@@ -319,9 +319,9 @@ class Node {
         return 256 * state + place;
     }
 }
-```
+// ```
 
-```python [solution2-Python]
+// ```python [solution2-Python]
 class Solution(object):
     def shortestPathAllKeys(self, grid):
         R, C = len(grid), len(grid[0])
@@ -379,9 +379,9 @@ class Solution(object):
                     heapq.heappush(pq, (d+d2, destination, state2))
 
         return -1
-```
+// ```
 
 
-**复杂度分析**
+// **复杂度分析**
 
-* 时间复杂度： $O(RC(2A + 1) + E\log{N})$，其中 $R, C$ 是表格的长宽， $A$ 为钥匙总数，$RC(2A + 1$ 为深度优先遍历的复杂度。$N = (2A + 1) * 2^A$ 为 Dijkstra 遍历最大节点数，$E = N * (2A + 1)$ 为 Dijkstra 遍历最大边数，$E\log{N}$ 为 Dijkstra 算法复杂度。
+// * 时间复杂度： $O(RC(2A + 1) + E\log{N})$，其中 $R, C$ 是表格的长宽， $A$ 为钥匙总数，$RC(2A + 1$ 为深度优先遍历的复杂度。$N = (2A + 1) * 2^A$ 为 Dijkstra 遍历最大节点数，$E = N * (2A + 1)$ 为 Dijkstra 遍历最大边数，$E\log{N}$ 为 Dijkstra 算法复杂度。

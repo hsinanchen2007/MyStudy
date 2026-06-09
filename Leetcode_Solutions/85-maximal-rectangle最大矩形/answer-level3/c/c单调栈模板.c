@@ -1,7 +1,7 @@
-![捕获.JPG](https://pic.leetcode-cn.com/3e81fe4dbeed00010443937d8a3039f42871a850a977925ea9c4abd8eb394621-%E6%8D%95%E8%8E%B7.JPG)
+// ![捕获.JPG](https://pic.leetcode-cn.com/3e81fe4dbeed00010443937d8a3039f42871a850a977925ea9c4abd8eb394621-%E6%8D%95%E8%8E%B7.JPG)
 
 
-```
+// ```
 vector<int> nextGreaterElement(vector<int>& nums) {
     vector<int> ans(nums.size()); // 存放答案的数组
     stack<int> s;
@@ -14,4 +14,4 @@ vector<int> nextGreaterElement(vector<int>& nums) {
     }
     return ans;
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-先排序再找序列
-![image.png](https://pic.leetcode-cn.com/b4e4e38c428fc7e8ea02e76524df9cc99e0ad9967f15e34bfe34491af89c75c8-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// 先排序再找序列
+// ![image.png](https://pic.leetcode-cn.com/b4e4e38c428fc7e8ea02e76524df9cc99e0ad9967f15e34bfe34491af89c75c8-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int findUnsortedSubarray(int* nums, int numsSize)
 {
 	void QuickSort(int a[],int left,int right);
@@ -50,4 +50,4 @@ int Partition(int a[],int left,int right)
 	a[left] = key;
 	return left;
 }
-```
+// ```

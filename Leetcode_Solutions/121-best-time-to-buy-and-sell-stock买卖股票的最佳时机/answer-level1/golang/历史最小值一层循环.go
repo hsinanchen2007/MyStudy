@@ -1,5 +1,5 @@
-自己用的两层遍历效率比较低，看了一下官方的历史最小值，自己写了一下优化的100%，这种思路值得学习。
-```
+// 自己用的两层遍历效率比较低，看了一下官方的历史最小值，自己写了一下优化的100%，这种思路值得学习。
+// ```
 func maxProfit(prices []int) int {
     if len(prices)<=1{
         return 0
@@ -19,4 +19,4 @@ func maxProfit(prices []int) int {
    }
    return max
 }
-```
+// ```

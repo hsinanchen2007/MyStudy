@@ -1,6 +1,6 @@
-[Leetcode-Java(200+题解，持续更新、欢迎star)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_394_decodeString.java)
+// [Leetcode-Java(200+题解，持续更新、欢迎star)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_394_decodeString.java)
 
-```java
+// ```java
     /**
      * 解题思路：
      * 将decodeStr拆解后会有四种可能：数字、字母、[、]
@@ -46,4 +46,4 @@
 
         return builder.toString();
     }
-```
+// ```

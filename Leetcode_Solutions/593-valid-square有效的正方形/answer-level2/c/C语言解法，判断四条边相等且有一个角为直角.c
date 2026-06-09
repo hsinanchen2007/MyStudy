@@ -1,4 +1,4 @@
-```
+// ```
 //此函数假设p1、p2对角，p3、p4对角
 bool isSquare(int* p1, int* p2, int* p3, int* p4) {	
 	int p1p3[2] = { p3[0] - p1[0], p3[1] - p1[1] };
@@ -25,4 +25,4 @@ bool validSquare(int* p1, int p1Size, int* p2, int p2Size, int* p3, int p3Size, 
 	flag |= isSquare(p1, p4, p3, p2);
 	return flag;
 }
-```
+// ```

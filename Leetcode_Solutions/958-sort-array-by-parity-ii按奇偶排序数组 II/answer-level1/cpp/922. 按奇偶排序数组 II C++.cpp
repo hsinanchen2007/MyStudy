@@ -1,9 +1,9 @@
-### 解题思路
-只需处理好奇数 或 偶数 其中一组就行 另一组也就确定了
+// ### 解题思路
+// 只需处理好奇数 或 偶数 其中一组就行 另一组也就确定了
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> sortArrayByParityII(vector<int>& A) {
@@ -27,4 +27,4 @@ public:
         return A;
     }
 };
-```
+// ```

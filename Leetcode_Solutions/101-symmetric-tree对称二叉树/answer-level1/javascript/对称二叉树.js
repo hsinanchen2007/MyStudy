@@ -1,7 +1,7 @@
 
-递归
+// 递归
 
-```js
+// ```js
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -28,4 +28,4 @@ function help(left, right) {
     
     return left.val === right.val && help(left.left, right.right) && help(left.right, right.left);
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-比较需要注意的是，闭环的操作要放到 k==0 的操作之后，要不然如果一旦出现k==0的情况，整个就是一个闭环状态了。
+# ### 解题思路
+# 比较需要注意的是，闭环的操作要放到 k==0 的操作之后，要不然如果一旦出现k==0的情况，整个就是一个闭环状态了。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -36,4 +36,4 @@ class Solution:
             new_tail.next = None
             return new_head
             
-```
+# ```

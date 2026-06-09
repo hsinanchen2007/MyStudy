@@ -1,4 +1,4 @@
-```
+// ```
  public int countCharacters(String[] words, String chars) {
         int ans = 0;
         for (int i = 0; i < words.length; i++) {
@@ -25,4 +25,4 @@
         }
         return true;
     }
-```
+// ```

@@ -1,6 +1,6 @@
 
 
-```
+// ```
 
 // 自底向上动态规划  dp[s]:表示s金额对应的最小组合数量，dp[s] = min(1<i<n)dp[s-ci] + 1
 func coinChange(coins []int, amount int) int {
@@ -28,4 +28,4 @@ func coinChange(coins []int, amount int) int {
 	}
 	return dp[amount]
 }
-```
+// ```

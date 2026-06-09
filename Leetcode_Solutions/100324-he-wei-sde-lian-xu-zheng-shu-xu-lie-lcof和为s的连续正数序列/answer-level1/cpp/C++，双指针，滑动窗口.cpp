@@ -1,9 +1,9 @@
-### 解题思路
-双指针法+滑动窗口确定z数组范围
+// ### 解题思路
+// 双指针法+滑动窗口确定z数组范围
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> findContinuousSequence(int target) {
@@ -28,4 +28,4 @@ public:
         return ans;
     }
 };
-```
+// ```

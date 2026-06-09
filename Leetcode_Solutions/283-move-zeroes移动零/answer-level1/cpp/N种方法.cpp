@@ -1,6 +1,6 @@
-方法1：暴力双指针法
+// 方法1：暴力双指针法
 
-```
+// ```
 class Solution {
 public:
     void moveZeroes(vector<int>& nums) {
@@ -32,12 +32,12 @@ public:
 
     }
 };
-```
+// ```
 
 
-方法2：利用迭代器
+// 方法2：利用迭代器
 
-```
+// ```
 class Solution {
 public:
     void moveZeroes(vector<int>& nums) {
@@ -61,12 +61,12 @@ public:
      
     }
 };
-```
+// ```
 
 
-方法3：利用队列
+// 方法3：利用队列
 
-```
+// ```
 class Solution {
 public:
     void moveZeroes(vector<int>& nums) {
@@ -89,11 +89,11 @@ public:
         }
     }
 };
-```
+// ```
 
-方法4：简单双指针法
+// 方法4：简单双指针法
 
-```
+// ```
 class Solution {
 public:
     void moveZeroes(vector<int>& nums) {
@@ -115,11 +115,11 @@ public:
         }
     }
 };
-```
+// ```
 
-方法5：简单双指针法plus
+// 方法5：简单双指针法plus
 
-```
+// ```
 class Solution {
 public:
     void moveZeroes(vector<int>& nums) {
@@ -136,4 +136,4 @@ public:
         }
     }
 };
-```
+// ```

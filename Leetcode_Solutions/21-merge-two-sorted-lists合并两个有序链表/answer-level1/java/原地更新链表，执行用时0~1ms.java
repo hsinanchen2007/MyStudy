@@ -1,12 +1,12 @@
-### 解题思路
-![2.png](https://pic.leetcode-cn.com/eb35222bcad855d97af25e54b8f6f8c58c8066520306d89e1b1c1471121c5baa-2.png)
+// ### 解题思路
+// ![2.png](https://pic.leetcode-cn.com/eb35222bcad855d97af25e54b8f6f8c58c8066520306d89e1b1c1471121c5baa-2.png)
 
-思路其实很简单，就是选择一条链表进行原地更新即可，遍历另一个链表，然后根据值的情况做出不同的处理。
-时间复杂度 = O( min(len1, len2) )  空间复杂度 = O(1)
-具体的步骤看代码注释吧
-### 代码
+// 思路其实很简单，就是选择一条链表进行原地更新即可，遍历另一个链表，然后根据值的情况做出不同的处理。
+// 时间复杂度 = O( min(len1, len2) )  空间复杂度 = O(1)
+// 具体的步骤看代码注释吧
+// ### 代码
 
-```java
+// ```java
 public static ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         // 对于任一链表为空的情况，直接判断即可
         if (l1 == null)
@@ -54,4 +54,4 @@ public static ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         }
         return head;
     }
-```
+// ```

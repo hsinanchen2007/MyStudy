@@ -1,9 +1,9 @@
-### 解题思路
-java BFS和DFS实现
+// ### 解题思路
+// java BFS和DFS实现
 
-### 代码BFS
+// ### 代码BFS
 
-```java
+// ```java
 class Water{
     int x;
     int y;
@@ -82,11 +82,11 @@ class Solution {
         return false;
     }
 }
-```
+// ```
 
-### 代码DFS
-注意不能用递归，会出现栈溢出错误
-```java
+// ### 代码DFS
+// 注意不能用递归，会出现栈溢出错误
+// ```java
 class Water{
     int x;
     int y;
@@ -180,4 +180,4 @@ class Solution {
         return;
     }
 }
-```
+// ```

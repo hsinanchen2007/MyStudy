@@ -1,9 +1,9 @@
-### 解题思路
-每次选右上角元素进行比较
+// ### 解题思路
+// 每次选右上角元素进行比较
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
         if(matrix == null || matrix.length==0 || matrix[0].length == 0){
@@ -28,4 +28,4 @@ class Solution {
         }
     }
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
- 1.先将chars以map的形式存储起来，将字母作为键值，个数为value值，方便后续减去
- 2.循环words数组，将每个单词进行循环对比，成功的返回true，将数字累计
+// ### 解题思路
+// 此处撰写解题思路
+//  1.先将chars以map的形式存储起来，将字母作为键值，个数为value值，方便后续减去
+//  2.循环words数组，将每个单词进行循环对比，成功的返回true，将数字累计
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} words
  * @param {string} chars
@@ -35,4 +35,4 @@ function check(k, arr) {
   }
   return true
 }
-```
+// ```

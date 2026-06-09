@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def minCostClimbingStairs(cost: Array[Int]): Int = {
     var a = 0
@@ -11,4 +11,4 @@ object Solution {
     a.min(b)
   }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-从n位都是0的密码开始，取出最后n-1个数字，然后在末尾增加任意其它数字，用HashSet来记录所有遍历过的密码
-```python
+# 从n位都是0的密码开始，取出最后n-1个数字，然后在末尾增加任意其它数字，用HashSet来记录所有遍历过的密码
+# ```python
 class Solution:
     def crackSafe(self, n: int, k: int) -> str:
         total_size = k**n
@@ -26,4 +26,4 @@ class Solution:
                 res.pop()
             node.pop()
         return False
-```
+# ```

@@ -1,11 +1,11 @@
-### 解题思路
-遍历数组，形成字典集合，记录每个字符串中每个字符出现的字数。
-同时使用HashSet记录下最终需要匹配的字符集合。（取第一个字符串的每一个字符）
-挨个字符匹配，返回最小值，最小值就是需要输出的次数。
+// ### 解题思路
+// 遍历数组，形成字典集合，记录每个字符串中每个字符出现的字数。
+// 同时使用HashSet记录下最终需要匹配的字符集合。（取第一个字符串的每一个字符）
+// 挨个字符匹配，返回最小值，最小值就是需要输出的次数。
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public IList<string> CommonChars(string[] A) {
         List<Dictionary<char, int>> temp = new List<Dictionary<char, int>>();
@@ -67,4 +67,4 @@ public class Solution {
     }
 }
 
-```
+// ```

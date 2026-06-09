@@ -1,9 +1,9 @@
-### 解题思路
-按层次遍历二叉树，需要采用一个count 代表的是每一层的size大小；
-遍历每一层都需要存入一个新的list中
-### 代码
+// ### 解题思路
+// 按层次遍历二叉树，需要采用一个count 代表的是每一层的size大小；
+// 遍历每一层都需要存入一个新的list中
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -36,4 +36,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

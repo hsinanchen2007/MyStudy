@@ -1,9 +1,9 @@
-## 原题：无时间要求，可以先用O(n)的方法
-通过中序遍历将问题转换为在递增序列中找与target最接近的k个值
-（类似的有658题）
+// ## 原题：无时间要求，可以先用O(n)的方法
+// 通过中序遍历将问题转换为在递增序列中找与target最接近的k个值
+// （类似的有658题）
 
-js实现如下：时间复杂度O(n)
-```javascript
+// js实现如下：时间复杂度O(n)
+// ```javascript
 var closestKValues = function(root, target, k) {
     const inorder = [];
     function dfs(node) {
@@ -23,12 +23,12 @@ var closestKValues = function(root, target, k) {
     }
     return inorder.slice(l, l + k);
 };
-```
+// ```
 
 
-## follow up：要求时间小于O(n)
-那么考虑在遍历bst的时候直接处理，并且提前退出。因为题目说了该bst是平衡的，所以提前退出一定是小于O(n)的
-```js
+// ## follow up：要求时间小于O(n)
+// 那么考虑在遍历bst的时候直接处理，并且提前退出。因为题目说了该bst是平衡的，所以提前退出一定是小于O(n)的
+// ```js
 var closestKValues = function(root, target, k) {
     const inorder = [];
     function dfs(node) {
@@ -45,4 +45,4 @@ var closestKValues = function(root, target, k) {
     dfs(root);
     return inorder;
 }
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
-**动态规划**
-转移成假设`leetcode`可以分解成`leet`和`code`两个字符
-`leet`是有解可以被分割的；则我们只需要判断后面的`code`在集合中是否包含，如果包含则有解。
+// ### 解题思路
+// **动态规划**
+// 转移成假设`leetcode`可以分解成`leet`和`code`两个字符
+// `leet`是有解可以被分割的；则我们只需要判断后面的`code`在集合中是否包含，如果包含则有解。
 
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func wordBreak(_ s: String, _ wordDict: [String]) -> Bool {
         var dp = Array(repeating: false, count: s.count + 1)
@@ -29,4 +29,4 @@ class Solution {
         return dp.last!
     }
 }
-```
+// ```

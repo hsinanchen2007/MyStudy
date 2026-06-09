@@ -1,9 +1,9 @@
-### 解题思路
-    新开辟一个数组复制一下数组一，然后按照合并的常规思路向数组一中合并即可。
+// ### 解题思路
+//     新开辟一个数组复制一下数组一，然后按照合并的常规思路向数组一中合并即可。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
          int count=0;
@@ -52,4 +52,4 @@ class Solution {
 	        
     }
 }
-```
+// ```

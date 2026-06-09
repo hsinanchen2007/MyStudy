@@ -1,5 +1,5 @@
 
-```python []
+# ```python []
 class Solution:
     def isPalindrome(self, head: ListNode) -> bool:
         # 预处理
@@ -27,4 +27,4 @@ class Solution:
             ps = ps.next
             pf = pf.next
         return True
-```
+# ```

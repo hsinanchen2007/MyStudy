@@ -1,18 +1,18 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/e2df168561f66a1203ee12cda1ae37b60b5738b88cb2fe0c8d7475e03412a25e-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e2df168561f66a1203ee12cda1ae37b60b5738b88cb2fe0c8d7475e03412a25e-image.png)
 
-思路其实比较简单，我们首先考虑实现一个链表的反转，这个反转是的范围是`begin`和`end`之间的节点，然后把反转后的链表连接到`left`和`right`上：
+// 思路其实比较简单，我们首先考虑实现一个链表的反转，这个反转是的范围是`begin`和`end`之间的节点，然后把反转后的链表连接到`left`和`right`上：
 
-`left -> begin -> ... -> end -> right`
-反转成：
-`left -> end -> ... -> begin -> right`
+// `left -> begin -> ... -> end -> right`
+// 反转成：
+// `left -> end -> ... -> begin -> right`
 
-然后我们遍历原链表，用一个计数器`count`来判断是否到达`k`的倍数位置。具体实现可以看注释。
+// 然后我们遍历原链表，用一个计数器`count`来判断是否到达`k`的倍数位置。具体实现可以看注释。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -71,4 +71,4 @@ class Solution {
         return begin;
     }
 }
-```
+// ```

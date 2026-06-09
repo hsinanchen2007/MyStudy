@@ -1,6 +1,6 @@
 
 
-```python
+# ```python
     def delNodes(self, root: TreeNode, to_delete: List[int]) -> List[TreeNode]:
         if not root:
             return []
@@ -33,4 +33,4 @@
             res = [root]
             dfs(root)
         return res
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public bool HasGroupsSizeX(int[] deck) {
         Dictionary<int, int> dic = new Dictionary<int, int>();
@@ -37,4 +37,4 @@ public class Solution {
         return x % y == 0 ? y : get(y, x % y);
     }
 }
-```
+// ```

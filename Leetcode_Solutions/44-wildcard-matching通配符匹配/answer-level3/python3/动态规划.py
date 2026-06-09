@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def isMatch(self, s: str, p: str) -> bool:
         s = [x for x in s]
@@ -21,7 +21,7 @@ class Solution:
         return dp[-1][-1]
 
 
-```
+# ```
 
-![QQ图片20191018203630.png](https://pic.leetcode-cn.com/e1ee2410910481acc9ca2598ec602e326cd0dbb041b16266f31ad2bdfeccefca-QQ%E5%9B%BE%E7%89%8720191018203630.png)
+# ![QQ图片20191018203630.png](https://pic.leetcode-cn.com/e1ee2410910481acc9ca2598ec602e326cd0dbb041b16266f31ad2bdfeccefca-QQ%E5%9B%BE%E7%89%8720191018203630.png)
 

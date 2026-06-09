@@ -1,9 +1,9 @@
-### 解题思路
-这道题是一个经典的数据结构中合并链表算法，比较常规
+// ### 解题思路
+// 这道题是一个经典的数据结构中合并链表算法，比较常规
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -49,4 +49,4 @@ class Solution {
         return res.next;
     }
 }
-```
+// ```

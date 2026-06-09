@@ -1,9 +1,9 @@
-### 解题思路
-纯C 深度优先
+// ### 解题思路
+// 纯C 深度优先
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 static void dfs(char** grid, int gridSize, int* gridColSize, int row, int col)
 {
     if (row < 0 || row >= gridSize || col < 0 || col >= *gridColSize || '0' == grid[row][col])
@@ -40,4 +40,4 @@ int numIslands(char** grid, int gridSize, int* gridColSize){
 
     return res;
 }
-```
+// ```

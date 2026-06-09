@@ -1,4 +1,4 @@
-``` js
+// ``` js
 /**
  * @param {string} source
  * @param {string} target
@@ -33,4 +33,4 @@ var shortestWay = function(source, target) {
 
     return count;
 };
-```
+// ```

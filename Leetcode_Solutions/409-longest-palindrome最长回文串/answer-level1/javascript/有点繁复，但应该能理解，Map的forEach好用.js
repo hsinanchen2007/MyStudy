@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/1eb7fa1855ea9719c6d5c758146ce3582fea2a933f2305a2c210b450c7dd909b-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/1eb7fa1855ea9719c6d5c758146ce3582fea2a933f2305a2c210b450c7dd909b-image.png)
 
-遍历字符串，收集每个字母出现的次数，偶数的话，全部累加，**若有**奇数的话，奇数全部累加后减去“奇数的个数”再加1.
+// 遍历字符串，收集每个字母出现的次数，偶数的话，全部累加，**若有**奇数的话，奇数全部累加后减去“奇数的个数”再加1.
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {number}
@@ -46,4 +46,4 @@ var longestPalindrome = function (s) {
     return ret;
 
 };
-```
+// ```

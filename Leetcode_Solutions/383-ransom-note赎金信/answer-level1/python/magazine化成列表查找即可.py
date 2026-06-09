@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def canConstruct(self, ransomNote, magazine):
         """
@@ -21,4 +21,4 @@ class Solution(object):
                 return False
         if judge == len(ransomNote):
             return True
-```
+# ```

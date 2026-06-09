@@ -1,10 +1,10 @@
-# 思路
-1. 如果只有list只有一个element，就返回此element。
-2. 每次while循环找出相邻两个elements的共同prefix。
-3. 每次for循环执行找出共同prefix的过程。
-3. 如果elements的长度不一，或者干脆某element是""，导致index out of range，就结束算法，返回目前叠加的pre。
+# # 思路
+# 1. 如果只有list只有一个element，就返回此element。
+# 2. 每次while循环找出相邻两个elements的共同prefix。
+# 3. 每次for循环执行找出共同prefix的过程。
+# 3. 如果elements的长度不一，或者干脆某element是""，导致index out of range，就结束算法，返回目前叠加的pre。
 
-# 算法
+# # 算法
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
         if len(strs) == 1:

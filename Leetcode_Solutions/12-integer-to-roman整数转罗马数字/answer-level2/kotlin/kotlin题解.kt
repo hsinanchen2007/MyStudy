@@ -1,9 +1,9 @@
-### 解题思路
-转换成对照表去解决  实际情况下这个方法看上去不那么睿智
+// ### 解题思路
+// 转换成对照表去解决  实际情况下这个方法看上去不那么睿智
 
-### 代码
+// ### 代码
 
-```kotlin
+// ```kotlin
 class Solution {
     fun intToRoman(num: Int): String {
         //输入确保在 1 到 3999 的范围内
@@ -22,4 +22,4 @@ class Solution {
         return end
     }
 }
-```
+// ```

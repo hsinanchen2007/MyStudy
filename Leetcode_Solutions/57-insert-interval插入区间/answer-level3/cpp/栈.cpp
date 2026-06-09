@@ -1,11 +1,11 @@
-### 解题思路
-直接用栈写。先二分查找插入位置，再一个个入栈，如果合并就将原先区间出栈，再将合并区间入栈。
-![image.png](https://pic.leetcode-cn.com/8c110111b16d4f38c644abdafddb1105c322667a9fbab7fdcf7b277e3b3b4cef-image.png)
+// ### 解题思路
+// 直接用栈写。先二分查找插入位置，再一个个入栈，如果合并就将原先区间出栈，再将合并区间入栈。
+// ![image.png](https://pic.leetcode-cn.com/8c110111b16d4f38c644abdafddb1105c322667a9fbab7fdcf7b277e3b3b4cef-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 struct interval
@@ -91,4 +91,4 @@ struct interval
     return st;
     }
 };
-```
+// ```

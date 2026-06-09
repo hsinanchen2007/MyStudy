@@ -1,8 +1,8 @@
-关键是要意识到只要判断两次就够了：`A * mult`和`A*mult+A[:len(B)-1]`，`mult`是使得`len(A) >= len(B)`的最小的整数。因为如果A比B短，B肯定不是它的子串。
+# 关键是要意识到只要判断两次就够了：`A * mult`和`A*mult+A[:len(B)-1]`，`mult`是使得`len(A) >= len(B)`的最小的整数。因为如果A比B短，B肯定不是它的子串。
 
-为什么只看这两个就够了？看下面的图解。
+# 为什么只看这两个就够了？看下面的图解。
 
-```text
+# ```text
 A*mult ---------- 
 B      -------
 1. 滑动B之后，后面超出的部分无法比较
@@ -21,8 +21,8 @@ B           -------
           q'         q
 A' ----------|----------|----------
 B                    -------
-```
-```python
+# ```
+# ```python
 class Solution:
     def repeatedStringMatch(self, A: str, B: str) -> int:
         # 如果A里字母种类少于B，再怎么重复也没法变出来，直接-1
@@ -34,5 +34,5 @@ class Solution:
         if B in A+A[:len(B)-1]:
             return mult+1
         return -1
-```
+# ```
 

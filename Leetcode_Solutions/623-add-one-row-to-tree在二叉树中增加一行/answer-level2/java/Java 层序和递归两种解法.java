@@ -1,14 +1,14 @@
-**我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，求小星星呀(๑•̀ㅂ•́)و✧**
+// **我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，求小星星呀(๑•̀ㅂ•́)و✧**
 
-思路：
+// 思路：
 
-1.层序遍历
+// 1.层序遍历
 
-层序遍历，当d=1时，直接构建新节点，返回新树，如果d>1，则进行层序遍历，当到达d-1层时记录父节点，记录完成后跳出层序遍历，按照题意构建新二叉树即可。
+// 层序遍历，当d=1时，直接构建新节点，返回新树，如果d>1，则进行层序遍历，当到达d-1层时记录父节点，记录完成后跳出层序遍历，按照题意构建新二叉树即可。
 
-注意这里会出现d=树最大深度+1的情况，层序遍历取出父节点再操作可以避免遗漏这种情况。
+// 注意这里会出现d=树最大深度+1的情况，层序遍历取出父节点再操作可以避免遗漏这种情况。
 
-```
+// ```
 //层序遍历
 public TreeNode addOneRow1(TreeNode root, int v, int d) {
     if (root == null) return null;
@@ -62,16 +62,16 @@ public TreeNode addOneRow1(TreeNode root, int v, int d) {
     }
     return root;
 }
-```
+// ```
 
-2.递归：
+// 2.递归：
 
-1.当d==1时直接构建新节点，返回新树。
+// 1.当d==1时直接构建新节点，返回新树。
 
-2.当d > 1时进行dfs，传入当前节点的深度，如果当前节点深度depth == d-1，则该节点为新节点的父节点，进行新子树构建
+// 2.当d > 1时进行dfs，传入当前节点的深度，如果当前节点深度depth == d-1，则该节点为新节点的父节点，进行新子树构建
 
 
-```
+// ```
 public TreeNode addOneRow2(TreeNode root, int v, int d) {
     if (root == null) return null;
     if (d == 1) {
@@ -102,4 +102,4 @@ private TreeNode helper(TreeNode root, int v, int d, int depth) {
     root.right = helper(root.right, v, d, depth + 1);
     return root;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def confusingNumberII(self, N: int) -> int:
         digits = [0,1,6,8,9]
@@ -37,4 +37,4 @@ class Solution:
         
         backtrack(N,0)
         return self.count
-```
+# ```

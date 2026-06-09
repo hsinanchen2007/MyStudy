@@ -1,13 +1,13 @@
-### 解题思路
-![QQ图片20200117102129.png](https://pic.leetcode-cn.com/fd9e9e28a58252d1c2303cf97df8f6610e74ada22d35f72f5fcf21f557bc95d0-QQ%E5%9B%BE%E7%89%8720200117102129.png)
+// ### 解题思路
+// ![QQ图片20200117102129.png](https://pic.leetcode-cn.com/fd9e9e28a58252d1c2303cf97df8f6610e74ada22d35f72f5fcf21f557bc95d0-QQ%E5%9B%BE%E7%89%8720200117102129.png)
 
-+ 先找出第一0元素所在的行记为index
-+ 扫描其他行，若有0，记该元素所在列为tar，将[index,tar]元素记为0,即该列元素要置0
-+ 再扫描一边，置0
+// + 先找出第一0元素所在的行记为index
+// + 扫描其他行，若有0，记该元素所在列为tar，将[index,tar]元素记为0,即该列元素要置0
+// + 再扫描一边，置0
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void setZeroes(vector<vector<int>>& matrix) {
@@ -49,4 +49,4 @@ public:
          matrix[index].assign(column,0);
     }
 };
-```
+// ```

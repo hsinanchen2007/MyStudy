@@ -1,5 +1,5 @@
-不停的过滤掉不包含target的一半，不停更新首尾索引。
-```
+// 不停的过滤掉不包含target的一半，不停更新首尾索引。
+// ```
 impl Solution {
     fn dichoto(nums: &Vec<i32>, target: i32, start: usize, end: usize, from: &mut i32, to: &mut i32)  {
         let len = end - start;
@@ -30,4 +30,4 @@ impl Solution {
         vec![from, to]
     }
 }
-```
+// ```

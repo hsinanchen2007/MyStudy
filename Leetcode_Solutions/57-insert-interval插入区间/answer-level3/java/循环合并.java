@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int[][] insert(int[][] intervals, int[] newInterval) {
         int[] tmpInterval = newInterval.clone();
@@ -36,4 +36,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

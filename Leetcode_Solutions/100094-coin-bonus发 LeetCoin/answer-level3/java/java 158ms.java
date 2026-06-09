@@ -1,11 +1,11 @@
-每次发coins，维护当前点及祖先节点的coins数
-- 第一种类型的，遍历所有祖先，都加operation[2]的coins
-- 第二种类型的，先更新每个孩子节点，每个加operation[2]的coins，并返回总共增加了多少coins，把总的增加的coins更新到祖先节点
-- 查询时直接查询
-所以 每次第一、二种类型的操作，复杂度为OlogN，查询为O1
-关于int溢出问题，偷懒直接存的long，get的时候取模再返回
+// 每次发coins，维护当前点及祖先节点的coins数
+// - 第一种类型的，遍历所有祖先，都加operation[2]的coins
+// - 第二种类型的，先更新每个孩子节点，每个加operation[2]的coins，并返回总共增加了多少coins，把总的增加的coins更新到祖先节点
+// - 查询时直接查询
+// 所以 每次第一、二种类型的操作，复杂度为OlogN，查询为O1
+// 关于int溢出问题，偷懒直接存的long，get的时候取模再返回
 
-```java
+// ```java
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.LinkedList;
@@ -77,4 +77,4 @@ class Solution {
     }
 
 }
-```
+// ```

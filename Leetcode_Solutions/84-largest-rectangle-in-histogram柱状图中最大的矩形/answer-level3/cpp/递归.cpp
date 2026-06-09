@@ -1,9 +1,9 @@
-### 解题思路
-直接递归即可。
+// ### 解题思路
+// 直接递归即可。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int largestRectangleArea(vector<int>& heights) {
@@ -30,4 +30,4 @@ public:
         return max(minHeight * (end - begin + 1), max(dfs(heights, begin, minIndex - 1), dfs(heights, minIndex + 1, end)));
     }
 };
-```
+// ```

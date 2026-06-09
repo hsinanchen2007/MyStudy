@@ -1,4 +1,4 @@
-```
+// ```
 func middleNode(head *ListNode) *ListNode {
 	a, b := head, head
 	for b != nil && b.Next != nil {
@@ -6,4 +6,4 @@ func middleNode(head *ListNode) *ListNode {
 	}
 	return a
 }
-```
+// ```

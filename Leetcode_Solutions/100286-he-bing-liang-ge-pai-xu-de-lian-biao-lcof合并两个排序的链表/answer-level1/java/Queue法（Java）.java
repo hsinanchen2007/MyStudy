@@ -1,9 +1,9 @@
-### 解题思路
-声明：可以一个队列也可以两个队列，两个队列速度更快，内存消耗更高
+// ### 解题思路
+// 声明：可以一个队列也可以两个队列，两个队列速度更快，内存消耗更高
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -49,4 +49,4 @@ class Solution {
         return resNode;
     }
 }
-```
+// ```

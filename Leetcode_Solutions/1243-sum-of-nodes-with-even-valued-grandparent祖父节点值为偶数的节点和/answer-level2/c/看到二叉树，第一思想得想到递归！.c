@@ -1,5 +1,5 @@
-二叉树，想到递归，平铺直叙就行：
-```
+// 二叉树，想到递归，平铺直叙就行：
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -46,4 +46,4 @@ int SubNodeVal( struct TreeNode * root)
 
     return temp;
 }
-```
+// ```

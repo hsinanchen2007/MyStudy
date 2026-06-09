@@ -1,18 +1,18 @@
-## 思路:
+# ## 思路:
 
-思路一:迭代,快慢指针,更容易理解
+# 思路一:迭代,快慢指针,更容易理解
 
-思路二:递归
+# 思路二:递归
 
-自己看代码,很好理解!
+# 自己看代码,很好理解!
 
-相关题目:[82. 删除排序链表中的重复元素 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/)
+# 相关题目:[82. 删除排序链表中的重复元素 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/)
 
-## 代码:
+# ## 代码:
 
-思路一:
+# 思路一:
 
-```python [1]
+# ```python [1]
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -33,11 +33,11 @@ class Solution:
                 slow = slow.next
                 fast = fast.next
         return dummy.next
-```
+# ```
 
 
 
-```java [1]
+# ```java [1]
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -64,13 +64,13 @@ class Solution {
         return dummy.next;     
     }
 }
-```
+# ```
 
 
 
-思路二
+# 思路二
 
-```python [2]
+# ```python [2]
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -87,11 +87,11 @@ class Solution:
         else:
             head.next = self.deleteDuplicates(head.next)
         return head
-```
+# ```
 
 
 
-```java [2]
+# ```java [2]
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -113,5 +113,5 @@ class Solution {
         return head;    
     }
 }
-```
+# ```
 

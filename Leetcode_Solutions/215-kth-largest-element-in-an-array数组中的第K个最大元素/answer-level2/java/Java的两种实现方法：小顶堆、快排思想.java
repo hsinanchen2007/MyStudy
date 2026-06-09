@@ -1,5 +1,5 @@
-**快排思想实现代码：**
-```
+// **快排思想实现代码：**
+// ```
 public int findKthLargest(int[] nums, int k) {
     return nums[findKthLargest2(nums, 0, nums.length - 1, k)];
 }
@@ -31,9 +31,9 @@ public void swap(int[] nums,int i,int j) {
     nums[j] = temp;
 }
 
-```
-**小顶堆代码：**
-```
+// ```
+// **小顶堆代码：**
+// ```
 public static int findKthLargest(int[] nums, int k) {
         PriorityQueue<Integer> queue = new  PriorityQueue<Integer>();  
         for (int i = 0;i < nums.length;i++) {
@@ -45,4 +45,4 @@ public static int findKthLargest(int[] nums, int k) {
         }
         return queue.peek();
     }
-```
+// ```

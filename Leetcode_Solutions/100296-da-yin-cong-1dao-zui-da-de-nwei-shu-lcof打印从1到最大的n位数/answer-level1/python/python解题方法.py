@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def printNumbers(self, n):
         """
@@ -16,4 +16,4 @@ class Solution(object):
         for i in range(1,k):
             NumList.append(i)
         return NumList
-```
+# ```

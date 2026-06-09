@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/a6d35efb7c629000bb9a9390a0b7a8f44e68bebe96bb8457411e005dba5f0cc0-image.png)
+// ![image.png](https://pic.leetcode-cn.com/a6d35efb7c629000bb9a9390a0b7a8f44e68bebe96bb8457411e005dba5f0cc0-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class RecentCounter {
 public:
     RecentCounter() {
@@ -23,4 +23,4 @@ public:
  * RecentCounter* obj = new RecentCounter();
  * int param_1 = obj->ping(t);
  */
-```
+// ```

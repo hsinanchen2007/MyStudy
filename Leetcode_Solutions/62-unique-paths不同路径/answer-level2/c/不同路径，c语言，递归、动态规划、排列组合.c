@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
-方法一：暴力递归 ，最容易想出来的方法了，直接超时
-```
+// ### 代码
+// 方法一：暴力递归 ，最容易想出来的方法了，直接超时
+// ```
 void recursion(int m,int n,int i,int j,int* result){
     if(i<m){
         recursion(m,n,i+1,j,result);
@@ -21,12 +21,12 @@ int uniquePaths(int m, int n){
     recursion(m,n,1,1,&result);
     return result;
 }
-```
+// ```
 
 
-方法二：动态规划，用dp[m][n]来表示m×n网格有多少路径，其中下/右边界上dp[1][n]=dp[m][1]=1,我们得到公式dp[m][n] = dp[m-1][n] + dp[m][n-1];
-      时间复杂度O(m*n),空间复杂度O(m*n),其实空间负责度可以优化为O(min(m,n))
-```c
+// 方法二：动态规划，用dp[m][n]来表示m×n网格有多少路径，其中下/右边界上dp[1][n]=dp[m][1]=1,我们得到公式dp[m][n] = dp[m-1][n] + dp[m][n-1];
+//       时间复杂度O(m*n),空间复杂度O(m*n),其实空间负责度可以优化为O(min(m,n))
+// ```c
 int uniquePaths(int m, int n){
     int dp[m+1][n+1];
     for(int i=1;i<=m;i++){
@@ -42,8 +42,8 @@ int uniquePaths(int m, int n){
     }
     return dp[m][n];
 }
-```
-```
+// ```
+// ```
 动态规划，优化了空间复杂度O(min(m,n))
 int uniquePaths(int m, int n){
     int min = (m<n?m:n);
@@ -59,12 +59,12 @@ int uniquePaths(int m, int n){
     }
     return dp[min-1];
 }
-```
+// ```
 
 
-方法三：本以为动态规划已经挺好的了，结果在评论区看到一个公式就解决了.....人傻了，这确实是个高中都会的排列组合啊....
-     机器人一定会走m+n-2步，即从m+n-2中挑出m-1步向下走，或者选n-1步往右走,即C(m+n-2，min(m-1,n-1)); 
-```
+// 方法三：本以为动态规划已经挺好的了，结果在评论区看到一个公式就解决了.....人傻了，这确实是个高中都会的排列组合啊....
+//      机器人一定会走m+n-2步，即从m+n-2中挑出m-1步向下走，或者选n-1步往右走,即C(m+n-2，min(m-1,n-1)); 
+// ```
 int uniquePaths(int m, int n){
     long result = 1;
     int min = (m<n?m:n);
@@ -78,4 +78,4 @@ int uniquePaths(int m, int n){
     (int)result;
     return result;
 }
-```
+// ```

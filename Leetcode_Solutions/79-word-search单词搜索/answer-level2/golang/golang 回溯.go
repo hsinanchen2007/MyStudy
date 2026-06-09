@@ -1,11 +1,11 @@
-### 解题思路
-遍历board上的每个点，尝试构造word，若遇到字母不符合的情况，立即返回。
-由于在一次尝试中，一个格子只能访问一次，因此需要一个visit二维数组来记录哪些位置在本次递归中已经访问过。
+// ### 解题思路
+// 遍历board上的每个点，尝试构造word，若遇到字母不符合的情况，立即返回。
+// 由于在一次尝试中，一个格子只能访问一次，因此需要一个visit二维数组来记录哪些位置在本次递归中已经访问过。
 
-### 代码
-执行用时 :4 ms, 在所有 Go 提交中击败了96.87%的用户
-内存消耗 :3.7 MB, 在所有 Go 提交中击败了70.86%的用户
-```golang
+// ### 代码
+// 执行用时 :4 ms, 在所有 Go 提交中击败了96.87%的用户
+// 内存消耗 :3.7 MB, 在所有 Go 提交中击败了70.86%的用户
+// ```golang
 func exist(board [][]byte, word string) bool {
     visit := make([][]bool, len(board))
     for i := 0; i < len(board); i++ {
@@ -37,4 +37,4 @@ func search(board [][]byte, word string, i,j int, visit [][]bool) bool {
     return result
 }
 
-```
+// ```

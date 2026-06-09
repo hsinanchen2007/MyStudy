@@ -1,9 +1,9 @@
-### 解题思路
-    本题属于Java语言的语法题。通过这个题应该掌握判断一个串是不是另一个串子串的因子的函数写法。
+// ### 解题思路
+//     本题属于Java语言的语法题。通过这个题应该掌握判断一个串是不是另一个串子串的因子的函数写法。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String gcdOfStrings(String str1, String str2) {
         for(int i=Math.min(str1.length(),str2.length());i>=1;i--)
@@ -26,4 +26,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

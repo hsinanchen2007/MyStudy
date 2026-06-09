@@ -1,8 +1,8 @@
-### 解题思路
-核心要点：建立hash表，遍历一趟即可查出有无结果
-### 代码
+// ### 解题思路
+// 核心要点：建立hash表，遍历一趟即可查出有无结果
+// ### 代码
 
-```cpp
+// ```cpp
 #include<hash_map>
 using namespace __gnu_cxx;
 class Solution {
@@ -22,4 +22,4 @@ public:
         return result;
     }
 };
-```
+// ```

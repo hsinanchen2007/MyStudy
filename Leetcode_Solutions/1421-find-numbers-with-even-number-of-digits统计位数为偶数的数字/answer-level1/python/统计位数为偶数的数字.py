@@ -1,8 +1,8 @@
-### 解题思路
-将每个数字转化而为字符串，然后统计长度为偶数的字符串。
-### 代码
+# ### 解题思路
+# 将每个数字转化而为字符串，然后统计长度为偶数的字符串。
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findNumbers(self, nums: List[int]) -> int:
         count = 0
@@ -12,4 +12,4 @@ class Solution:
                 count +=1
             i +=1
         return count
-```
+# ```

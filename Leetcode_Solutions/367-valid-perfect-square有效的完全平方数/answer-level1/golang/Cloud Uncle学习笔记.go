@@ -1,5 +1,5 @@
-1. 二分法
-```
+// 1. 二分法
+// ```
 func isPerfectSquare(num int) bool {
     if num <= 0 {
         return false
@@ -17,9 +17,9 @@ func isPerfectSquare(num int) bool {
     
     return right * right == num
 }
-```
-2. 牛顿迭代法
-```
+// ```
+// 2. 牛顿迭代法
+// ```
 func isPerfectSquare(num int) bool {
     if num <= 0 {
         return false
@@ -32,4 +32,4 @@ func isPerfectSquare(num int) bool {
     
     return r * r == num
 }
-```
+// ```

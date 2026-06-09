@@ -1,14 +1,14 @@
-### 解题思路
-元素不断的入栈 
-我们按照给定的 出栈序列出栈  （如果能出完）就是一个出栈序列
+// ### 解题思路
+// 元素不断的入栈 
+// 我们按照给定的 出栈序列出栈  （如果能出完）就是一个出栈序列
 
 
-已经出栈的元素 用-1标记 
+// 已经出栈的元素 用-1标记 
 
-【有用点个赞】让我知道
-### 代码
+// 【有用点个赞】让我知道
+// ### 代码
 
-```golang
+// ```golang
 func validateStackSequences(ru []int, chu []int) bool {
 
 	ji := 0
@@ -28,4 +28,4 @@ func validateStackSequences(ru []int, chu []int) bool {
 	return ji == len(ru)
 
 }
-```
+// ```

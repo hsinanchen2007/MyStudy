@@ -1,9 +1,9 @@
-### 解题思路
-填海bfs，把每个1都变成0，变成0的时间就是离0的距离
+// ### 解题思路
+// 填海bfs，把每个1都变成0，变成0的时间就是离0的距离
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func updateMatrix(matrix [][]int) [][]int {
 	if len(matrix) == 0 {
 		return nil
@@ -47,4 +47,4 @@ func updateMatrix(matrix [][]int) [][]int {
 	return res
 }
 
-```
+// ```

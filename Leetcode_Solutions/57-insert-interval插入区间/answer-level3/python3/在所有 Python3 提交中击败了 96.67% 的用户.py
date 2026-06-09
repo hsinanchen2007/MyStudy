@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-先插入进去，再排序
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 先插入进去，再排序
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def insert(self, intervals: List[List[int]], newInterval: List[int]) -> List[List[int]]:
         
@@ -39,4 +39,4 @@ class Solution:
 
         
         return intervals
-```
+# ```

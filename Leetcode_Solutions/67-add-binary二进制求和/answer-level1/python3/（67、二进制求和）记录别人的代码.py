@@ -1,11 +1,11 @@
-# 内置函数
-```
+# # 内置函数
+# ```
 class Solution:
     def addBinary(self, a: str, b: str) -> str:
         return bin(int(a, 2) + int(b, 2))[2:]  # 取第三项到最后一项（二进制前两位为0b）
-```
-# 非内置函数
-```
+# ```
+# # 非内置函数
+# ```
 # 二进制相加：满二进一
 class Solution:
     def addBinary(self, a: str, b: str) -> str:
@@ -20,9 +20,9 @@ class Solution:
             p = s // 2  # 取整
         return '1' + r if p else r  
         # p(true),return '1' + r; p(fasle),return r
-```
-![微信图片_20200410111006.jpg](https://pic.leetcode-cn.com/0e6a1fc3372338a81d13b530e49fe89396d2d570e10e9c14425604455baf0822-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200410111006.jpg)
-作者：QQqun902025048
-链接：https://leetcode-cn.com/problems/add-binary/solution/python-1xing-nei-zhi-han-shu-fei-nei-zhi-jie-fa-by/
-来源：力扣（LeetCode）
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+# ```
+# ![微信图片_20200410111006.jpg](https://pic.leetcode-cn.com/0e6a1fc3372338a81d13b530e49fe89396d2d570e10e9c14425604455baf0822-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200410111006.jpg)
+# 作者：QQqun902025048
+# 链接：https://leetcode-cn.com/problems/add-binary/solution/python-1xing-nei-zhi-han-shu-fei-nei-zhi-jie-fa-by/
+# 来源：力扣（LeetCode）
+# 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。

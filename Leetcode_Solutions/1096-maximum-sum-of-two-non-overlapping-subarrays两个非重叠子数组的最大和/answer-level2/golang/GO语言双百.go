@@ -1,11 +1,11 @@
-### 解题思路
-基于L和M，创建两个slice：lsum和msum，分别保存以某个数字为起点的，长度分别为L和M的元素之和
-然后两层循环，分别求lsum[i]和msum[j]的和，保存最大值即可
+// ### 解题思路
+// 基于L和M，创建两个slice：lsum和msum，分别保存以某个数字为起点的，长度分别为L和M的元素之和
+// 然后两层循环，分别求lsum[i]和msum[j]的和，保存最大值即可
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func max(i, j int) int{
 	if i > j {
 		return i
@@ -41,4 +41,4 @@ func maxSumTwoNoOverlap(A []int, L int, M int) int {
 	}
 	return ret
 }
-```
+// ```

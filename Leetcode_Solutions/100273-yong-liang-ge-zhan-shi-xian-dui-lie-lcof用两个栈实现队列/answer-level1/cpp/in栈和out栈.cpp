@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class CQueue {
 public:
     stack<int> _in,_out;
@@ -43,4 +43,4 @@ public:
         return ret;
     }
 };
-```
+// ```

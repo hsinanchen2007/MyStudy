@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/029989100d61cab19bee85cf233875f9b687716b2b96087ca9d3b6e343227bb8-image.png)
+// ![image.png](https://pic.leetcode-cn.com/029989100d61cab19bee85cf233875f9b687716b2b96087ca9d3b6e343227bb8-image.png)
 
-### 解题思路
-```javascript
+// ### 解题思路
+// ```javascript
 动态规划：尝试分解子问题
 
 - 在研究了好几天，看了大佬们无数的解题思想之后，我终于明白了动态规划的本质，其实理解
@@ -50,11 +50,11 @@
   - 上面方程中的 dp[119]，dp[118]，dp[115] 我们继续用这种思想去分解，
     这就是动态规划了，把这种思想，思考问题的方式理解了，这一类型的题目
     问题都不会太大。
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} coins
  * @param {number} amount
@@ -105,4 +105,4 @@ var coinChange = function(coins, amount) {
   
 //   return least === Infinity ? -1 : least;
 // };
-```
+// ```

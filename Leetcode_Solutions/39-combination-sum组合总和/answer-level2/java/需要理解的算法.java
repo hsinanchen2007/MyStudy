@@ -1,11 +1,11 @@
-### 解题思路
-现将数组从小到大排序，开始从数组最后一位开始递归
-1.将当前数一直加入到tmp和cur中，如果超过了target就跳出循环
-2.将多余的从cur减掉、tmp中删掉。同时向前一个数递归
+// ### 解题思路
+// 现将数组从小到大排序，开始从数组最后一位开始递归
+// 1.将当前数一直加入到tmp和cur中，如果超过了target就跳出循环
+// 2.将多余的从cur减掉、tmp中删掉。同时向前一个数递归
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     List<List<Integer>> res=new ArrayList();
     List<Integer> tmp=new ArrayList();
@@ -32,4 +32,4 @@ class Solution {
 
     }
 }
-```
+// ```

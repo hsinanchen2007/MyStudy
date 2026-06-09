@@ -1,9 +1,9 @@
-### 解题思路
-详见注释
+# ### 解题思路
+# 详见注释
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -56,4 +56,4 @@ class Solution(object):
         x.val, y.val = y.val, x.val
 
 
-```
+# ```

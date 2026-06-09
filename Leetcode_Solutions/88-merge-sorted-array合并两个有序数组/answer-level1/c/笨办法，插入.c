@@ -1,9 +1,9 @@
-### 解题思路
-笨办法，nums2插入到nums1中，同时nums1中被插入后面的数据整体向后移动。
+// ### 解题思路
+// 笨办法，nums2插入到nums1中，同时nums1中被插入后面的数据整体向后移动。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n){
     int k = n,i=0,j=0,l;
     while(k)
@@ -27,4 +27,4 @@ void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n){
     }
 
 }
-```
+// ```

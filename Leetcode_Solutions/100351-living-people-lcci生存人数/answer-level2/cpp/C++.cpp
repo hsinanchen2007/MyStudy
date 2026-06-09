@@ -1,9 +1,9 @@
-### 解题思路
-排序，按时间顺序记录
+// ### 解题思路
+// 排序，按时间顺序记录
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxAliveYear(vector<int>& birth, vector<int>& death) {
@@ -28,4 +28,4 @@ public:
         return ans;
     }
 };
-```
+// ```

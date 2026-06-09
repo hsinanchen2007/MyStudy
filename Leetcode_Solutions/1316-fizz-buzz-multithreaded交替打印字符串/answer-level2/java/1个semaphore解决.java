@@ -1,4 +1,4 @@
-```java []
+// ```java []
 class FizzBuzz {
     private int n;
     Semaphore semaphore = new Semaphore(1);
@@ -66,5 +66,5 @@ class FizzBuzz {
         }
     }
 }
-```
-算双检锁嘛...
+// ```
+// 算双检锁嘛...

@@ -1,6 +1,6 @@
-深度遍历/递归
+# 深度遍历/递归
 
-```
+# ```
 class Solution:
 	def minPathSum(self, grid) -> int:
 		dirction = [[1,0],[0,1]]
@@ -18,9 +18,9 @@ class Solution:
 					dfs(a,b,tempsum1)
 		dfs(0,0,grid[0][0])
 		return self.minsum
-```
-动态规划
-```
+# ```
+# 动态规划
+# ```
 class Solution:
     def minPathSum(self, grid: List[List[int]]) -> int:
         if(not grid):
@@ -36,4 +36,4 @@ class Solution:
                 grid[x][y]+=min(grid[x-1][y],grid[x][y-1])
         return grid[-1][-1]
 
-```
+# ```

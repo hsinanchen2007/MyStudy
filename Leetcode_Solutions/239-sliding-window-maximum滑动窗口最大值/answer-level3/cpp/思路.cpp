@@ -1,10 +1,10 @@
-### 解题思路
-deque的使用
-部分思路有点像最大栈的做法
+// ### 解题思路
+// deque的使用
+// 部分思路有点像最大栈的做法
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> maxSlidingWindow(vector<int>& nums, int k) {
@@ -35,4 +35,4 @@ public:
       return res;
     }
 };
-```
+// ```

@@ -1,6 +1,6 @@
-执行用时:5 ms, 在所有 java 提交中击败了99.50%的用户内存消耗 :36 MB, 在所有 java 提交中击败了100.00%的用户
+// 执行用时:5 ms, 在所有 java 提交中击败了99.50%的用户内存消耗 :36 MB, 在所有 java 提交中击败了100.00%的用户
 
-```
+// ```
 import java.util.concurrent.Semaphore;
 
 class FizzBuzz {
@@ -64,4 +64,4 @@ class FizzBuzz {
         }
     }
 }
-```
+// ```

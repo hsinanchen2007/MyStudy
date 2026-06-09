@@ -1,9 +1,9 @@
-### 解题思路
-很暴力的解法，python写的有点捉急
+// ### 解题思路
+// 很暴力的解法，python写的有点捉急
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int countCharacters(vector<string> &words, string chars)
@@ -42,9 +42,9 @@ public:
         return num;
     }
 };
-```
+// ```
 
-```python
+// ```python
 class Solution:
     def countCharacters(self, words: List[str], chars: str) -> int:
         num = 0
@@ -59,4 +59,4 @@ class Solution:
             if temp == len(w):
                 num += len(w)
         return num
-```
+// ```

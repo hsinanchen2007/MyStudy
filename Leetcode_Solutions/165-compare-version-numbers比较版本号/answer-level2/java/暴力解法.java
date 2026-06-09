@@ -1,8 +1,8 @@
-### 解题思路
-直接按照"."分组，长的再根据是否全为0，是则相等，不是则为1或-1。
-### 代码
+// ### 解题思路
+// 直接按照"."分组，长的再根据是否全为0，是则相等，不是则为1或-1。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int compareVersion(String version1, String version2) {
     	String[] v1 = version1.split("\\.");
@@ -34,4 +34,4 @@ class Solution {
     	return 0;
     }
 }
-```
+// ```

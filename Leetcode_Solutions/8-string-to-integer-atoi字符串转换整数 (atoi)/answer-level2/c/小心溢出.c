@@ -1,9 +1,9 @@
-### 解题思路
-不提了, 错了好几遍, 全是`int` overflow, 但是不想用`long`类型最后使用了负的比正的绝对值大1, 解决了,,, 累死...
+// ### 解题思路
+// 不提了, 错了好几遍, 全是`int` overflow, 但是不想用`long`类型最后使用了负的比正的绝对值大1, 解决了,,, 累死...
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int mypow(int num, int times){
     int res = 1;
     for(int i=0;i<times;i++)
@@ -33,4 +33,4 @@ int myAtoi(char * str){
     }
     return flag==1?res:(~res+1);
 }
-```
+// ```

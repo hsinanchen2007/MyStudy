@@ -1,9 +1,9 @@
-### 解题思路
-将字符串排序后用hash记录
+// ### 解题思路
+// 将字符串排序后用hash记录
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} strs
  * @return {string[][]}
@@ -20,4 +20,4 @@ var groupAnagrams = function(strs) {
     }
     return result;
 };
-```
+// ```

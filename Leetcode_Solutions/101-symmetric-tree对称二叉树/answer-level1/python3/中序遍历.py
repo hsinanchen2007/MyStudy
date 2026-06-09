@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def isSymmetric(self, root: TreeNode) -> bool:
         nodes = []
@@ -16,4 +16,4 @@ class Solution:
                 return False
             p, q = p + 1, q - 1
         return True
-```
+# ```

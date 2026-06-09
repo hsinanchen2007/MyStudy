@@ -1,4 +1,4 @@
-```js
+// ```js
 /**
  * @param {number[][]} queens
  * @param {number[]} king
@@ -26,4 +26,4 @@ var queensAttacktheKing = function(queens, king) {
     }
     return result
 };
-```
+// ```

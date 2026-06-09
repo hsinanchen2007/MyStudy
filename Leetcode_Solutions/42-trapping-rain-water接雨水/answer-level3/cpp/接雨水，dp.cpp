@@ -1,11 +1,11 @@
-### 解题思路
-left是各个点左边的最大值 left[i] = max(left[i - 1],height[i - 1])
-right是各个点右边的最大值 right[i] = max(right[i + 1],height[i + 1])
-因为第一个和最后一个左右没有墙壁，最大高度为0
+// ### 解题思路
+// left是各个点左边的最大值 left[i] = max(left[i - 1],height[i - 1])
+// right是各个点右边的最大值 right[i] = max(right[i + 1],height[i + 1])
+// 因为第一个和最后一个左右没有墙壁，最大高度为0
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int trap(vector<int>& height) {
@@ -28,4 +28,4 @@ public:
         return cnt;
     }
 };
-```
+// ```

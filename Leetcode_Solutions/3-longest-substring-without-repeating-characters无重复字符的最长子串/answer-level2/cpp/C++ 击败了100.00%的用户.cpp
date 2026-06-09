@@ -1,13 +1,13 @@
-### 解题思路
+// ### 解题思路
 
-执行用时 :0 ms, 在所有 C++ 提交中击败了100.00%的用户
-内存消耗 :6.8 MB, 在所有 C++ 提交中击败了100.00%的用户
+// 执行用时 :0 ms, 在所有 C++ 提交中击败了100.00%的用户
+// 内存消耗 :6.8 MB, 在所有 C++ 提交中击败了100.00%的用户
 
-直接使用C风格对const char*的遍历，O(N-1)即可完成。不要使用set，不添加额外的string对象，节省了内存；
+// 直接使用C风格对const char*的遍历，O(N-1)即可完成。不要使用set，不添加额外的string对象，节省了内存；
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
@@ -37,4 +37,4 @@ public:
         return result;  
     }
 };
-```
+// ```

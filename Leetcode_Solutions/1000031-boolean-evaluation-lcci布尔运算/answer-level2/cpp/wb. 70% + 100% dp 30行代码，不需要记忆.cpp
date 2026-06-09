@@ -1,13 +1,13 @@
-### 解题思路
-function<int(int, int)> f[256];
-f['|'] = [](int i, int j) {return i | j;};
-f[s[i]](a, b)
-for (int a : {0, 1}) {
-//
-}
-### 代码
+// ### 解题思路
+// function<int(int, int)> f[256];
+// f['|'] = [](int i, int j) {return i | j;};
+// f[s[i]](a, b)
+// for (int a : {0, 1}) {
+// //
+// }
+// ### 代码
 
-```cpp
+// ```cpp
 
 // 对于字符串s，区间dp[i][j][r] = sum(dp[i][k][r1] * dp[k + 2][j][r2]) r1, r2 取决于运算符s[k + 1]
 class Solution {
@@ -126,4 +126,4 @@ public:
         return ans.size();
     }
 };*/
-```
+// ```

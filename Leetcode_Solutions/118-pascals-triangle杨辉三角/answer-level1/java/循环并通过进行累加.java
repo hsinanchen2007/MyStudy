@@ -1,13 +1,13 @@
-### 解题思路
+// ### 解题思路
 
-通过简单的循环计算每行的元素，推入结果数组即可，其中：
+// 通过简单的循环计算每行的元素，推入结果数组即可，其中：
 
-1. 每行的第一个和最后一个元素是1
-2. 其他元素等于上一行的当前index-1的值加上上一行的当前index的值
+// 1. 每行的第一个和最后一个元素是1
+// 2. 其他元素等于上一行的当前index-1的值加上上一行的当前index的值
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> generate(int numRows) {
         List<List<Integer>> res = new ArrayList<>();
@@ -25,4 +25,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

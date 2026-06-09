@@ -1,5 +1,5 @@
-科目one-字符串专项, 提供C语言解法
-```
+// 科目one-字符串专项, 提供C语言解法
+// ```
 int cmp(const void *a, const void *b) {
     return *(int *)a - *(int *)b;
 }
@@ -38,4 +38,4 @@ void nextPermutation(int* nums, int numsSize){
         qsort(left + 1, nums + numsSize - (left + 1), sizeof(int), cmp);
     }
 }
-```
+// ```

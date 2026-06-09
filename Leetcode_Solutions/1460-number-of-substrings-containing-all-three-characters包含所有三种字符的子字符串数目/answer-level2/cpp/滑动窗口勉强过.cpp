@@ -1,8 +1,8 @@
-### 解题思路
-使用滑动窗口的方法勉强通过！！！
-### 代码
+// ### 解题思路
+// 使用滑动窗口的方法勉强通过！！！
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numberOfSubstrings(string s) {
@@ -42,4 +42,4 @@ public:
         return sum;
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
-方法一：枚举
-```csharp
+// 方法一：枚举
+// ```csharp
 public bool IsNumber(string s) {
     if(string.IsNullOrEmpty(s)) return false;
     string str = s.Trim();
@@ -47,10 +47,10 @@ public bool IsNumber(string s) {
     }
     return hasDigit;
 }
-```
+// ```
 
-方法二：正则表达式（比枚举慢，有待优化）
-```csharp
+// 方法二：正则表达式（比枚举慢，有待优化）
+// ```csharp
 public bool IsNumber(string s) {
     if(string.IsNullOrEmpty(s)) return false;
     string str = s.Trim();
@@ -87,4 +87,4 @@ public bool IsNumber(string s) {
     }
     return true;
 }
-```
+// ```

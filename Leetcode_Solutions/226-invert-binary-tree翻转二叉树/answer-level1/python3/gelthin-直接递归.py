@@ -1,15 +1,15 @@
-### 解题思路
-https://twitter.com/mxcl/status/608682016205344768 有趣！
+# ### 解题思路
+# https://twitter.com/mxcl/status/608682016205344768 有趣！
 
-[评论区有个人很搞笑](https://leetcode-cn.com/problems/invert-binary-tree/comments/108673)
+# [评论区有个人很搞笑](https://leetcode-cn.com/problems/invert-binary-tree/comments/108673)
 
-[评论区前序，中序，后序，层次序](https://leetcode-cn.com/problems/invert-binary-tree/comments/79745)
+# [评论区前序，中序，后序，层次序](https://leetcode-cn.com/problems/invert-binary-tree/comments/79745)
 
-此题和我之前没做出来的那题一样，[101. 对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/)
+# 此题和我之前没做出来的那题一样，[101. 对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -27,4 +27,4 @@ class Solution:
             self.invertTree(root.right)
         root.left, root.right = root.right, root.left
         return root
-```
+# ```

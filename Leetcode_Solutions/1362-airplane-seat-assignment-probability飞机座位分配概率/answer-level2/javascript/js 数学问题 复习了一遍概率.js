@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/a26081750c26466a4bd599f81e3e7c77a3b87d235eeb052f0fdde4c39a5d4d9a-image.png)
+// ![image.png](https://pic.leetcode-cn.com/a26081750c26466a4bd599f81e3e7c77a3b87d235eeb052f0fdde4c39a5d4d9a-image.png)
 
-### 解题思路
-```javascript
+// ### 解题思路
+// ```javascript
   分析：(头和尾属于特殊乘客我们单独分析)
   如果 n = 5，中间的 3 个人至少有 2 个人会坐在自己的座位上
   如果 n = 9，中间的 7 个人至少有 6 个人会坐在自己的座位上
@@ -17,11 +17,11 @@
     
   将以上情况的概率相加即为 n = 3 以上情况的答案：
   1/3 * 1/1 + 1/3 * 1/2 + 1/3 * 0 = 0.5
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {number}
@@ -30,4 +30,4 @@
 var nthPersonGetsNthSeat = function(n) {
   return n === 1 ? 1.00000 : 0.50000;
 };
-```
+// ```

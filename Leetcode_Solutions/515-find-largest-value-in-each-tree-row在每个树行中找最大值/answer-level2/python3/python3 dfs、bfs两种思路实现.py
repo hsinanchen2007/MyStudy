@@ -1,9 +1,9 @@
-### 解题思路
-深度优先遍历，递归时传递层数作为参数，使用map记录每层的最大值
+# ### 解题思路
+# 深度优先遍历，递归时传递层数作为参数，使用map记录每层的最大值
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -31,12 +31,12 @@ class Solution:
         print(largest_map)
         keys_sorted = sorted(largest_map.keys())
         return [largest_map[key] for key in keys_sorted]
-```
+# ```
 
-### 解题思路
-使用广度优先搜索进行层次遍历，用一个变量记录每层的最大值
+# ### 解题思路
+# 使用广度优先搜索进行层次遍历，用一个变量记录每层的最大值
 
-```python3
+# ```python3
 def largestValues(self, root: TreeNode) -> List[int]:
     """
     多方法解题
@@ -69,4 +69,4 @@ def largestValues(self, root: TreeNode) -> List[int]:
         if max_value != float('-inf'):
             res.append(max_value)
     return res
-```
+# ```

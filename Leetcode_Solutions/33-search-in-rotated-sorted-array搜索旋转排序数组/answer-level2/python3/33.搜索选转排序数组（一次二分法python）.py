@@ -1,5 +1,5 @@
-采用一次二分法，要把这个数组看成两部分，左边一部分和右边一部分 模型xxxx00000这种。采用二分法先定位mid在哪个部分，然后哪nums[mid]的值与target的大小对比，然后缩小区间
-```python []
+# 采用一次二分法，要把这个数组看成两部分，左边一部分和右边一部分 模型xxxx00000这种。采用二分法先定位mid在哪个部分，然后哪nums[mid]的值与target的大小对比，然后缩小区间
+# ```python []
 
 class Solution:
     def search(self, nums: List[int], target: int) -> int:

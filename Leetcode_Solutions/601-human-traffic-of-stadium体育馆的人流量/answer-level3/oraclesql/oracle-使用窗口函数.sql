@@ -1,7 +1,7 @@
 
-在本题中，offset 值相同的记录，其日期也相临。
+-- 在本题中，offset 值相同的记录，其日期也相临。
 
-```
+-- ```
 select
 	id, to_char(visit_date, 'yyyy-mm-dd') as visit_date, people
 from
@@ -18,4 +18,4 @@ from
 	)
 where cnt >= 3   -- 连续 3 天（及以上）
 order by id
-```
+-- ```

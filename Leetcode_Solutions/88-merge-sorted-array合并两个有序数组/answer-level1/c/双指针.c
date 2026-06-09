@@ -1,9 +1,9 @@
-### 解题思路
-i在num1上遍历，j在num2上遍历
+// ### 解题思路
+// i在num1上遍历，j在num2上遍历
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n){
     int i,j,k;
     i=j=0;
@@ -21,4 +21,4 @@ void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n){
     for(;i<nums1Size;i++,j++)nums1[i]=nums2[j];
     }
 }
-```
+// ```

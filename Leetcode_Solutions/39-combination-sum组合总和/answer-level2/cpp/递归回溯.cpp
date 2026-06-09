@@ -1,9 +1,9 @@
-### 解题思路
-为了避免重复，选择从大到小进行操作，递归表达式可以认为是包含1个最后的元素，和为target-这个值的解集并上不包含最后一个元素的解集。
+// ### 解题思路
+// 为了避免重复，选择从大到小进行操作，递归表达式可以认为是包含1个最后的元素，和为target-这个值的解集并上不包含最后一个元素的解集。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
@@ -36,4 +36,4 @@ public:
         return result;
     }
 };
-```
+// ```

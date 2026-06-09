@@ -1,8 +1,8 @@
-这道题的问题在如何判断s中的每一个元素去匹配t，如果s中的每一个元素都有t中的顺位的元素与之对应（即按顺序往后匹配），那么s中的每一个元素也就在t中找到了有顺序的匹配。
-比如s = "abc"，t = "ajiodsjidobdjiosdjc";
-按顺序在t中分别匹配到a,b,c
+// 这道题的问题在如何判断s中的每一个元素去匹配t，如果s中的每一个元素都有t中的顺位的元素与之对应（即按顺序往后匹配），那么s中的每一个元素也就在t中找到了有顺序的匹配。
+// 比如s = "abc"，t = "ajiodsjidobdjiosdjc";
+// 按顺序在t中分别匹配到a,b,c
 
-以下是代码
+// 以下是代码
 class Solution {
 public:
     bool isSubsequence(string s, string t) {

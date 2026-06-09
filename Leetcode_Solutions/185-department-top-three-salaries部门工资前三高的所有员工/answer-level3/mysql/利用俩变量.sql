@@ -1,25 +1,25 @@
-### 解题思路
-首先 我想找出每个部门前三高的薪水数值
-我employee 表去重
-并按 部门id 升序 与 薪水 降序 排序
-然后
-		(
-			CASE
-			WHEN @temp = departmentId THEN
-				@a := @a + 1
-			WHEN @temp := departmentId THEN
-				@a := 0
-			ELSE
-				@a := 0
-			end
-		) AS mark
-这样把序号标起
-只需要筛选 mark in (0,1,2)
-就得到每个部门和部门前三高的薪水数了
+-- ### 解题思路
+-- 首先 我想找出每个部门前三高的薪水数值
+-- 我employee 表去重
+-- 并按 部门id 升序 与 薪水 降序 排序
+-- 然后
+-- 		(
+-- 			CASE
+-- 			WHEN @temp = departmentId THEN
+-- 				@a := @a + 1
+-- 			WHEN @temp := departmentId THEN
+-- 				@a := 0
+-- 			ELSE
+-- 				@a := 0
+-- 			end
+-- 		) AS mark
+-- 这样把序号标起
+-- 只需要筛选 mark in (0,1,2)
+-- 就得到每个部门和部门前三高的薪水数了
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 SELECT DISTINCT
 	d.`Name` AS Department,
 	e.`Name` AS Employee,
@@ -57,4 +57,4 @@ INNER JOIN (
 ) AS sar ON sar.Salary = e.Salary
 AND sar.DepartmentId = e.DepartmentId
 AND mark IN (0, 1, 2)
-```
+-- ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def massage(self, nums: List[int]) -> int:
         if not nums:
@@ -14,4 +14,4 @@ class Solution:
                 else:
                     dp[i] = max(dp[i], dp[j - 1] + nums[i], dp[j])
         return dp[-1]
-```
+# ```

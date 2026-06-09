@@ -1,9 +1,9 @@
-### 解题思路
-依次遍历数组元素，用变量分别储存数组最大元素，第二大元素以及最大元素的下标即可。
+# ### 解题思路
+# 依次遍历数组元素，用变量分别储存数组最大元素，第二大元素以及最大元素的下标即可。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def dominantIndex(self, nums: List[int]) -> int:
         if len(nums)<1:
@@ -22,6 +22,6 @@ class Solution:
             return mi
         else:
             return -1
-```
+# ```
 
-![image.png](https://pic.leetcode-cn.com/2cac656c8b3c9f080f725232d3661d41a423a3a4fa5437af1cce475deb11ece9-image.png)
+# ![image.png](https://pic.leetcode-cn.com/2cac656c8b3c9f080f725232d3661d41a423a3a4fa5437af1cce475deb11ece9-image.png)

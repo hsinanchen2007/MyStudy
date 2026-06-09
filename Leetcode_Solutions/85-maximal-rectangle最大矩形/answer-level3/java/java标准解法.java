@@ -1,7 +1,7 @@
-首先遍历matrix，计算每行到当前位置连续1的长度。   
-二次遍历，计算每个有长度的格子的宽度。记录最大面积即可。
+// 首先遍历matrix，计算每行到当前位置连续1的长度。   
+// 二次遍历，计算每个有长度的格子的宽度。记录最大面积即可。
 
-```java []
+// ```java []
 class Solution {
      public int maximalRectangle(char[][] matrix) {
         int res = 0;
@@ -55,4 +55,4 @@ class Solution {
             return res;
     }
 }
-```
+// ```

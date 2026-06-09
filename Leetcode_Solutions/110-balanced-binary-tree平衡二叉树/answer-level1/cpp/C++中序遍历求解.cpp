@@ -1,5 +1,5 @@
-采用二叉树中序遍历，ans作为全局变量，只要有一个结点不满足条件即置为false
-```
+// 采用二叉树中序遍历，ans作为全局变量，只要有一个结点不满足条件即置为false
+// ```
 class Solution {
 public:  bool ans;
     int search(TreeNode *root){
@@ -18,4 +18,4 @@ public:  bool ans;
         return ans;
     }
 };
-```
+// ```

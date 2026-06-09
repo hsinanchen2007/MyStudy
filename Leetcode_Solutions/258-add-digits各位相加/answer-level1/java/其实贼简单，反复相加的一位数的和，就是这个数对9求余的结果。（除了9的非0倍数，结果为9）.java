@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int addDigits(int num) {
         int ans = num % 9;
@@ -6,4 +6,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

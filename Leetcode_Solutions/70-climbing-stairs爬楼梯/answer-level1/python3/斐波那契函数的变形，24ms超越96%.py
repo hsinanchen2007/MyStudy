@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def climbStairs(self, n: int) -> int:
         f1,f2=1,2
@@ -9,4 +9,4 @@ class Solution:
             f1 =f2
             f2 =f3
         return f3 
-```
+# ```

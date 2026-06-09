@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -23,4 +23,4 @@ if(root->left==NULL&&root->right==NULL){
 //sum从根节点开始减去当前节点的值，该树中若存在根节点到叶子节点的路径，则减到叶子节点，sum==叶子节点的值
 return hasPathSum(root->left,sum-root->val)||hasPathSum(root->right,sum-root->val);
 }
-```
+// ```

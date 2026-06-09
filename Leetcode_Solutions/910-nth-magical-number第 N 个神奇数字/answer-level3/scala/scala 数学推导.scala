@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def nthMagicalNumber(N: Int, A: Int, B: Int): Int = {
     val lcm: Long = A * B / gcd(A, B)
@@ -14,4 +14,4 @@ object Solution {
   @scala.annotation.tailrec
   def gcd(a: Int, b: Int): Int = if (b == 0) a else gcd(b, a % b)
 }
-```
+// ```

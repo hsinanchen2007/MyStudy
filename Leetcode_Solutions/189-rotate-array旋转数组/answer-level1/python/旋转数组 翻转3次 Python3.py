@@ -1,10 +1,10 @@
-### 解题思路
-执行用时 :48 ms, 在所有 Python3 提交中击败了74.74%的用户
-内存消耗 :13.9 MB, 在所有 Python3 提交中击败了97.92%的用户
+# ### 解题思路
+# 执行用时 :48 ms, 在所有 Python3 提交中击败了74.74%的用户
+# 内存消耗 :13.9 MB, 在所有 Python3 提交中击败了97.92%的用户
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def rotate(self, nums: List[int], k: int) -> None:
         """
@@ -16,4 +16,4 @@ class Solution:
         nums[:] = nums[::-1]
         nums[:k] = nums[k-1::-1]
         nums[k:] = nums[:k-1:-1]
-```
+# ```

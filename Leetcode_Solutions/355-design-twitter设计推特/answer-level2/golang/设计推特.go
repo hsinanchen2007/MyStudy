@@ -1,4 +1,4 @@
-```golang
+// ```golang
 //	355
 
 type Twitter struct {
@@ -136,4 +136,4 @@ func (pq *TweetMinHeap) Pop() interface{} {
 func (pq *TweetMinHeap) Peek() Tweet {
 	return (*pq)[0]
 }
-```
+// ```

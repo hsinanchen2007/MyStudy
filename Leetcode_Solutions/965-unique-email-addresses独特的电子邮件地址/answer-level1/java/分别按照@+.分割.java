@@ -1,9 +1,9 @@
-![image.png](https://pic.leetcode-cn.com/eccba584ca2cf48273155c579df1fe5f0794b44967d350956f391040c93c2456-image.png)
+// ![image.png](https://pic.leetcode-cn.com/eccba584ca2cf48273155c579df1fe5f0794b44967d350956f391040c93c2456-image.png)
 
-先按照@分割出本地名称和域名；
-再把域名按照“+”分割，取第一个“+”前面的部分；
-去除“.”
-```
+// 先按照@分割出本地名称和域名；
+// 再把域名按照“+”分割，取第一个“+”前面的部分；
+// 去除“.”
+// ```
 class Solution {
         public int numUniqueEmails(String[] emails) {
             if (emails==null)
@@ -24,4 +24,4 @@ class Solution {
             return set.size();
         }
     }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 char *convert(char *str, int numRows) {
     if (strlen(str) == 0) {
         char *result = (char *) malloc(sizeof(char));
@@ -40,4 +40,4 @@ char *convert(char *str, int numRows) {
 
     return result;
 }
-```
+// ```

@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/f1a52c60f9211233dbc7e795bcf824ca7a6e8643b82b090da000da5bd370aa94-image.png)
+// ![image.png](https://pic.leetcode-cn.com/f1a52c60f9211233dbc7e795bcf824ca7a6e8643b82b090da000da5bd370aa94-image.png)
 
 
-```
+// ```
 func thirdMax(nums []int) int {
     if len(nums) <= 0 {
         return 0
@@ -34,4 +34,4 @@ func thirdMax(nums []int) int {
     }
     
 }
-```
+// ```

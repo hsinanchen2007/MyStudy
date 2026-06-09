@@ -1,4 +1,4 @@
-```c
+// ```c
 int arrangeCoins(int n){
     int i = 0;
 
@@ -10,4 +10,4 @@ int arrangeCoins(int n){
     }
     return i;
 }
-```
+// ```

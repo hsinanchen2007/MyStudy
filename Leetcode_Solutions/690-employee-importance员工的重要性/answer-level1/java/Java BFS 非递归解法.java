@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int getImportance(List<Employee> employees, int id) {
         //dump all the employee info into a map which is a helpful look up data structure 
@@ -30,4 +30,4 @@ class Solution {
         return importanceSum;
     }
 }
-```
+// ```

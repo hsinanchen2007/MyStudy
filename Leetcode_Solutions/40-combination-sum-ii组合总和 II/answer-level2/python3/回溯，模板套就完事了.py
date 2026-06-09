@@ -1,9 +1,9 @@
-### 解题思路
-labuladong的模板，套就完事了
+# ### 解题思路
+# labuladong的模板，套就完事了
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def combinationSum2(self, candidates: List[int], target: int) -> List[List[int]]:
         candidates.sort()
@@ -24,4 +24,4 @@ class Solution:
                 track.pop()
         backtrack(0, 0, [])
         return result
-```
+# ```

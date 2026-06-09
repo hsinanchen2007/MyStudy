@@ -1,9 +1,9 @@
-### 解题思路
-添加时都往一个栈添加，然后在出栈到另外一个栈。
+// ### 解题思路
+// 添加时都往一个栈添加，然后在出栈到另外一个栈。
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class CQueue {
     private Queue<int> currentQueue;
     private Queue<int> tempQueue;
@@ -43,4 +43,4 @@ public class CQueue {
  * obj.AppendTail(value);
  * int param_2 = obj.DeleteHead();
  */
-```
+// ```

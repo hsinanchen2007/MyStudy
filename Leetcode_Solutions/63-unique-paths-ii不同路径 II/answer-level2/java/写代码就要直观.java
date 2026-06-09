@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/6b346f63d73931bd4d640156a435dd7b2b1bdcb01c04f4a5f805a0df7d1a0e2c-image.png)
+// ![image.png](https://pic.leetcode-cn.com/6b346f63d73931bd4d640156a435dd7b2b1bdcb01c04f4a5f805a0df7d1a0e2c-image.png)
 
-```
+// ```
         int m = obstacleGrid.length, n = obstacleGrid[0].length;
         if (m == 0 || n == 0)return 0;
         int[][] dp = new int[m][n];
@@ -47,4 +47,4 @@
             }
         }
         return dp[m-1][n-1];
-```
+// ```

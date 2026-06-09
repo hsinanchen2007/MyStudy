@@ -1,6 +1,6 @@
-dfs法：
+# dfs法：
 
-```
+# ```
 class Solution:
     def isBipartite(self, graph: List[List[int]]) -> bool:
         n = len(graph)
@@ -17,11 +17,11 @@ class Solution:
             if i not in d and not f(True, i):
                 return False
         return True
-```
+# ```
 
-bfs法:
+# bfs法:
 
-```
+# ```
 class Solution:
     def isBipartite(self, graph: List[List[int]]) -> bool:
         n = len(graph)
@@ -45,5 +45,5 @@ class Solution:
                         res += 1
                 que = tmp
         return True
-```
+# ```
 

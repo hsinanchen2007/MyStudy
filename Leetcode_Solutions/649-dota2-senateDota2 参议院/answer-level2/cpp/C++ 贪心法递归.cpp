@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class Solution {
 public:
     string dfs(string senate, int D, int R) {
@@ -22,6 +22,6 @@ public:
         return dfs(senate, 0, 0);
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/bbeafee387d13f755b02d4f101c158beda22544e9c9debcabdb0f711956bfb84-image.png)
+// ![image.png](https://pic.leetcode-cn.com/bbeafee387d13f755b02d4f101c158beda22544e9c9debcabdb0f711956bfb84-image.png)

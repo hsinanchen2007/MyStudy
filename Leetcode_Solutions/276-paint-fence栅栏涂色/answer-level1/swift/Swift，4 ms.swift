@@ -1,4 +1,4 @@
-```swift
+// ```swift
 class Solution {
     func numWays(_ n: Int, _ k: Int) -> Int {
         if n == 0 || k == 0 { return 0 }
@@ -14,4 +14,4 @@ class Solution {
         return dp[n - 1]
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/016221d2c91c21bdfbb29e1561274e177b35688d1db9c3683083752d5889bd4f-image.png)
+// ![image.png](https://pic.leetcode-cn.com/016221d2c91c21bdfbb29e1561274e177b35688d1db9c3683083752d5889bd4f-image.png)
 
-```
+// ```
 class Solution {
 public:
     int jump(vector<int>& nums) {
@@ -21,4 +21,4 @@ public:
         return count;
     }
 };
-```
+// ```

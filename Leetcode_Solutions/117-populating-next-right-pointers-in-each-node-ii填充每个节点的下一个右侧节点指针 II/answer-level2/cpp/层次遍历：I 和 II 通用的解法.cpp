@@ -1,5 +1,5 @@
-利用队列`tQueue`对树进行层次遍历，使用vector`tVec`存放每一层的节点，并从后往前把这些节点连起来。
-```
+// 利用队列`tQueue`对树进行层次遍历，使用vector`tVec`存放每一层的节点，并从后往前把这些节点连起来。
+// ```
 class Solution {
 public:
     Node* connect(Node* root) {
@@ -27,4 +27,4 @@ public:
         return root;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void reverse(char*s,int low,int high){
     while(low<high){
         char t=s[low];s[low]=s[high];s[high]=t;
@@ -31,4 +31,4 @@ char * reverseStr(char * s, int k){
     }
     return s;
 }
-```
+// ```

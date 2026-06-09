@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -28,4 +28,4 @@ s->left=buildTree(inorder,k,postorder,k);
 s->right=buildTree(inorder+k+1,inorderSize-k-1,postorder+k,postorderSize-k-1);
 return s;
 }
-```
+// ```

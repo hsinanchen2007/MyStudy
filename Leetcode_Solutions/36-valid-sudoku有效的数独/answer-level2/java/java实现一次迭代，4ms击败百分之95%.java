@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean isValidSudoku(char[][] board) {
         char[] c = new char[9];//存列的值
@@ -30,4 +30,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

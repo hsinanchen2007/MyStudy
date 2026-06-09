@@ -1,5 +1,5 @@
 
-```
+# ```
 代码块
 class Solution:
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
@@ -9,5 +9,5 @@ class Solution:
         left = int((size-1) /2)
         right = left + ((size-1) % 2)
         return (nums[left]+nums[right]) / 2.0
-```
+# ```
     

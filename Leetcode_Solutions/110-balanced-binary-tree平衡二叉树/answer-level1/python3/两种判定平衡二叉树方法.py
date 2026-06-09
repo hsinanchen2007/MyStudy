@@ -1,5 +1,5 @@
-从上到下的代码相对简洁，但是其中叶节点会遍历多次，复杂度为o(n^2)
-```
+# 从上到下的代码相对简洁，但是其中叶节点会遍历多次，复杂度为o(n^2)
+# ```
 class Solution:
     #计算子树的深度
     def TreeNode(self,root):
@@ -16,11 +16,11 @@ class Solution:
             return False
         
         return self.isBalanced(root.left) and self.isBalanced(root.right)
-```
+# ```
 
 
-从下到上的代码中，每个节点都只会被遍历一次。首先从底部遍历每个节点是不是平衡的.复杂度为o(n)
-```
+# 从下到上的代码中，每个节点都只会被遍历一次。首先从底部遍历每个节点是不是平衡的.复杂度为o(n)
+# ```
 class Solution:
     def TreeNode(self,root):
         if not root:return 0
@@ -38,4 +38,4 @@ class Solution:
         
         return False
     
-```
+# ```

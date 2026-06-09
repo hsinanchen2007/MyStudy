@@ -1,8 +1,8 @@
-### 解题思路
-用StringBuilder 应该更快吧。
-### 代码
+// ### 解题思路
+// 用StringBuilder 应该更快吧。
+// ### 代码
 
-```python3
+// ```python3
 class Solution:
     def freqAlphabets(self, s: str) -> str:
             stmp = []
@@ -26,4 +26,4 @@ class Solution:
             return res
 
                 
-```
+// ```

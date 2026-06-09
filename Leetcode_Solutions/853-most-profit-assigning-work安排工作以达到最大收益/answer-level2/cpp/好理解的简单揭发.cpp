@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-自己写排序算法对profit排序会超时，还是调用系统的sort算法好。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 自己写排序算法对profit排序会超时，还是调用系统的sort算法好。
+// ### 代码
 
-```cpp
+// ```cpp
 bool cmp(pair<int,int>a, pair<int,int>b){
     return a.first > b.first;
 }
@@ -38,4 +38,4 @@ public:
         return profit_total;
     }
 };
-```
+// ```

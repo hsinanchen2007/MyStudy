@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-使用两个队列，其中一个存储，另一个作为中转。
+// 使用两个队列，其中一个存储，另一个作为中转。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct {
     int *arr;
     int head;
@@ -114,4 +114,4 @@ void myStackFree(MyStack* obj) {
  
  * myStackFree(obj);
 */
-```
+// ```

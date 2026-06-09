@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/72c2dd033908edb8f751343f1a126d4bdac5131e9bacd06c5d357f53ec20678a-image.png)
-visit用数组怎么做？怎么在函数参数列表定义？是 int visit[][]?? int visit[]?? int visit??
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/72c2dd033908edb8f751343f1a126d4bdac5131e9bacd06c5d357f53ec20678a-image.png)
+// visit用数组怎么做？怎么在函数参数列表定义？是 int visit[][]?? int visit[]?? int visit??
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     const int X[4] = {-1,1,0,0};
@@ -41,4 +41,4 @@ public:
         return (res+1);
     }
 };
-```
+// ```

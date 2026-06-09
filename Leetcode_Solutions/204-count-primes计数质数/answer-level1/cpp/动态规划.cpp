@@ -1,9 +1,9 @@
-### 解题思路
-用动态规划方法
+// ### 解题思路
+// 用动态规划方法
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int countPrimes(int n) {
@@ -28,4 +28,4 @@ public:
         
     }
 };
-```
+// ```

@@ -1,7 +1,7 @@
-#### 解题思路
-&emsp;&emsp;并查集思想。用了3给map来实现数据的连接。具体看注释吧，不过就是效率有点低跑了600ms...
-#### 代码
-```javascript []
+// #### 解题思路
+// &emsp;&emsp;并查集思想。用了3给map来实现数据的连接。具体看注释吧，不过就是效率有点低跑了600ms...
+// #### 代码
+// ```javascript []
 var trulyMostPopular = function(names, synonyms) {
     //map 查找对应的并集标记数字, keySet映射查找同名字集合, numsbers用于累加同名人数
     let map = {}, keySet = {}, numsbers = {}, flag = 0;
@@ -50,4 +50,4 @@ var trulyMostPopular = function(names, synonyms) {
     }
     return ret;
 };
-```
+// ```

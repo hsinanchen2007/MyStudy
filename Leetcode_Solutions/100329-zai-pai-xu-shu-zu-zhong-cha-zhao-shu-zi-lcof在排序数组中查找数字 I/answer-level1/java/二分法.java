@@ -1,5 +1,5 @@
 
-```java
+// ```java
 class Solution {
     public int search(int[] nums, int target) {
         if(nums == null || nums.length < 1) return 0;
@@ -34,4 +34,4 @@ class Solution {
         return i;
     }
 }
-```
+// ```

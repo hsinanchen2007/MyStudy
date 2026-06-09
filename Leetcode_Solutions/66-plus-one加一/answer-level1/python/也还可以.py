@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def plusOne(self, digits: List[int]) -> List[int]:
         nums=0
@@ -13,4 +13,4 @@ class Solution:
             nums+=1
         return [1]+[0]*len(digits)
 
-```
+# ```

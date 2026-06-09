@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def minimumAbsDifference(self, arr: List[int]) -> List[List[int]]:
         #
@@ -12,4 +12,4 @@ class Solution:
             if arr[i]-arr[i-1] == min_abs:
                 ret.append([arr[i-1],arr[i]])
         return ret 
-```
+# ```

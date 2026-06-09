@@ -1,9 +1,9 @@
-### 解题思路
-自己看不出来动态规划，看答案！老弟！
+// ### 解题思路
+// 自己看不出来动态规划，看答案！老弟！
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int maxProfit(int* prices, int pricesSize){
     if ((NULL == prices) || (0 == pricesSize)) {
         printf("return 0");
@@ -21,4 +21,4 @@ int maxProfit(int* prices, int pricesSize){
     }
     return maxProfit;
 }
-```
+// ```

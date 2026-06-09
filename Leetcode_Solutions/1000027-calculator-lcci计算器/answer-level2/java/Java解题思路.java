@@ -1,9 +1,9 @@
-### 解题思路
-用栈解决，遇到加、减入栈，遇乘、除先计算再入栈；入栈完成后计算栈中元素和。
+// ### 解题思路
+// 用栈解决，遇到加、减入栈，遇乘、除先计算再入栈；入栈完成后计算栈中元素和。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int calculate(String s) {
         Stack<Integer> stack = new Stack();
@@ -42,4 +42,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

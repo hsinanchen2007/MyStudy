@@ -1,14 +1,14 @@
-### 解题思路
-先预计算出全部时刻的胜利候选人存起来。
-计算的时候只需要一个比persons长度大1的vector存储每个可能的候选人的选票数量。
-因为每个时刻只会有一个候选人票数发生变化，所以可以记录一个历史最高票，然后每次进行比较，记录胜利者。
-查找的时候，二分查找出<=t时刻的下标，然后直接取结果即可。
-时间复杂度：n+logn。
-空间复杂度：n
+// ### 解题思路
+// 先预计算出全部时刻的胜利候选人存起来。
+// 计算的时候只需要一个比persons长度大1的vector存储每个可能的候选人的选票数量。
+// 因为每个时刻只会有一个候选人票数发生变化，所以可以记录一个历史最高票，然后每次进行比较，记录胜利者。
+// 查找的时候，二分查找出<=t时刻的下标，然后直接取结果即可。
+// 时间复杂度：n+logn。
+// 空间复杂度：n
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class TopVotedCandidate {
 public:
     TopVotedCandidate(vector<int>& persons, vector<int>& times) 
@@ -43,4 +43,4 @@ private:
  * TopVotedCandidate* obj = new TopVotedCandidate(persons, times);
  * int param_1 = obj->q(t);
  */
-```
+// ```

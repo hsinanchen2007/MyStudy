@@ -1,12 +1,12 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/6bfac1268a28fd3390657a1782b17982f64321e01c22226ca2c32b6edf3643fc-image.png)
-1、将两个数组都排序，从小到大；
-2、若是胃口大于尺寸，那么寻找下一个尺寸，直到胃口<=尺寸为止
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/6bfac1268a28fd3390657a1782b17982f64321e01c22226ca2c32b6edf3643fc-image.png)
+// 1、将两个数组都排序，从小到大；
+// 2、若是胃口大于尺寸，那么寻找下一个尺寸，直到胃口<=尺寸为止
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} g
  * @param {number[]} s
@@ -28,4 +28,4 @@ var findContentChildren = function(g, s) {
     }
     return index;
 };
-```
+// ```

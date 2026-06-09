@@ -1,9 +1,9 @@
-### 解题思路
-C
+// ### 解题思路
+// C
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int char_cmp(const void* str1, const void* str2)
 {
     return *(char*)str1 - *(char*)str2;
@@ -38,4 +38,4 @@ char * orderlyQueue(char * S, int K){
         return S;
     }
 }
-```
+// ```

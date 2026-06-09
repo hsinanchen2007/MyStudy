@@ -1,10 +1,10 @@
-### 解题思路
-1.排序
-2.取值
-over
-### 代码
+# ### 解题思路
+# 1.排序
+# 2.取值
+# over
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def findKthLargest(self, nums, k):
         """
@@ -14,4 +14,4 @@ class Solution(object):
         """
         nums.sort()
         return nums[-k]
-```
+# ```

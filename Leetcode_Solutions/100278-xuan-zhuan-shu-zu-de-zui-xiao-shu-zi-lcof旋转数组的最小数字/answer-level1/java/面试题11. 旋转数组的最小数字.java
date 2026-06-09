@@ -1,4 +1,4 @@
-```java []
+// ```java []
 class Solution {
     public int minArray(int[] numbers) {
         // 二分法
@@ -18,8 +18,8 @@ class Solution {
         return numbers[left];
     }
 }
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def minArray(self, numbers: List[int]) -> int:
         # 二分法
@@ -34,4 +34,4 @@ class Solution:
             else:
                 right = mid
         return numbers[left]
-```
+// ```

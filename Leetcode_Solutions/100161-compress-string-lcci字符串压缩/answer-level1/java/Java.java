@@ -1,9 +1,9 @@
-### 解题思路
-暴力求解 和上周的一道题好像 但仔细看 还是有点区别的
+// ### 解题思路
+// 暴力求解 和上周的一道题好像 但仔细看 还是有点区别的
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String compressString(String S) {
         HashMap<String,Integer> mMaps = new HashMap<>();
@@ -33,4 +33,4 @@ class Solution {
         }
     }
 }
-```
+// ```

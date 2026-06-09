@@ -1,6 +1,6 @@
-### 不用DP
+# ### 不用DP
 
-```python
+# ```python
 class Solution(object):
     def largest1BorderedSquare(self, grid):
         """
@@ -47,10 +47,10 @@ class Solution(object):
 
         return max_width ** 2
 
-```
+# ```
 
-### 用DP
-```
+# ### 用DP
+# ```
 class Solution(object):
     def largest1BorderedSquare(self, grid):
         """
@@ -73,4 +73,4 @@ class Solution(object):
                             break
                         d -= 1
         return max_width ** 2 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-用数组表示一个大数，一位位的填充，使用递归思想
+# ### 解题思路
+# 用数组表示一个大数，一位位的填充，使用递归思想
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def __init__(self):
         self.res=[]
@@ -32,4 +32,4 @@ class Solution:
         if number!=0:
             print(number)
 
-```
+# ```

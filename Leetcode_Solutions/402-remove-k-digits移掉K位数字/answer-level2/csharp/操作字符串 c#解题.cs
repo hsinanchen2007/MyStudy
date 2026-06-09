@@ -1,9 +1,9 @@
-### 解题思路
-先从前向后遍历 删除前一个比后一个大的元素  根据剩余可删除个数 删除最后几位
+// ### 解题思路
+// 先从前向后遍历 删除前一个比后一个大的元素  根据剩余可删除个数 删除最后几位
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public string RemoveKdigits(string num, int k) {
      if (num.Length <= k)
@@ -46,4 +46,4 @@ public class Solution {
         return num;
     }
 }
-```
+// ```

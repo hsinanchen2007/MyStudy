@@ -1,5 +1,5 @@
 
-```javascript []
+// ```javascript []
 var numJewelsInStones = function(J, S) {
   var sum = 0;
   var jArr = J.split('');
@@ -10,5 +10,5 @@ var numJewelsInStones = function(J, S) {
   })
   return sum;
 };
-```
+// ```
 

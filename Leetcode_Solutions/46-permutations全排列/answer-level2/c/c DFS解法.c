@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/aa0c0e199873937fe33ef567cd990889eb4ddb501952d946c71e1c4d0fb54ea7-image.png)
+// ![image.png](https://pic.leetcode-cn.com/aa0c0e199873937fe33ef567cd990889eb4ddb501952d946c71e1c4d0fb54ea7-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void removeElement(int *array, int index, int size) {
     if (index >= size || index < 0) {
         printf("index of range \n");
@@ -99,4 +99,4 @@ int** permute(int* nums, int numsSize, int* returnSize, int** returnColumnSizes)
     *returnColumnSizes = rCS;
     return ret;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func getHint(secret string, guess string) string {
 	l1, l2 := len(secret), len(guess)
 	if l1 != l2 {
@@ -35,9 +35,9 @@ func getHint(secret string, guess string) string {
 	return fmt.Sprintf("%dA%dB", k1, k2-k1)
 }
 
-```
+// ```
 
-```golang
+// ```golang
 func getHint(secret string, guess string) string {
 	l1, l2 := len(secret), len(guess)
 	if l1 != l2 {
@@ -66,4 +66,4 @@ func minGetHint(a,b int) int{
 	}
 	return b
 }
-```
+// ```

@@ -1,5 +1,5 @@
-使用python3，基本思想就是如果一个树是对称的，那么必然左子树和右子树是对称的，而要想判断左右子树是否对称，就递归到了原先的问题。
-```
+# 使用python3，基本思想就是如果一个树是对称的，那么必然左子树和右子树是对称的，而要想判断左右子树是否对称，就递归到了原先的问题。
+# ```
 class Solution:
     def isSymmetric(self, root: TreeNode) -> bool:
         def check(rleft: TreeNode, rright: TreeNode):
@@ -17,4 +17,4 @@ class Solution:
             return True
         
         return check(root.left, root.right)
-```
+# ```

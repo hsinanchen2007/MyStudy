@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int[] singleNumbers(int[] nums) {
         int[] ret = new int[2] ;
@@ -22,4 +22,4 @@ class Solution {
         return ret ;
     }
 }
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-分析一下，这个是n*n的矩阵，最后一行变成第一列，倒数第二行变成变成第二列，以此类推，新matrix[i][j] = 老matrix[n-1-i]][j]
-### 代码
+// ### 解题思路
+// 分析一下，这个是n*n的矩阵，最后一行变成第一列，倒数第二行变成变成第二列，以此类推，新matrix[i][j] = 老matrix[n-1-i]][j]
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void rotate(int[][] matrix ) {
         int l = matrix .length-1;
@@ -20,4 +20,4 @@ class Solution {
         }
     }
 }
-```
+// ```

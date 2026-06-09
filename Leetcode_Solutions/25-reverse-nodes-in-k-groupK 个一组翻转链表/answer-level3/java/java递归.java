@@ -1,5 +1,5 @@
-直接上代码
-```
+// 直接上代码
+// ```
 public ListNode reverseKGroup(ListNode node, int k) {
     	// 有效性验证
     	if(node==null||node.next==null||k==1) return node;
@@ -41,4 +41,4 @@ public ListNode reverseKGroup(ListNode node, int k) {
     	// 返回头结点
     	return new_node;
     }
-```
+// ```

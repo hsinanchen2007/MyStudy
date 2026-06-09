@@ -1,9 +1,9 @@
-### 解题思路
-和3sum一样的思路
+# ### 解题思路
+# 和3sum一样的思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def threeSumClosest(self, nums: List[int], target: int) -> int:
         nums = sorted(nums)
@@ -24,4 +24,4 @@ class Solution:
                     return target
         return sum(res)
 
-```
+# ```

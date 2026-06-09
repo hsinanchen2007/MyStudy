@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/c674669c75ba7160d3ae807d12c2796364145491c1cc099305448314f25ada45-image.png)
+# ### 解题思路
+# ![image.png](https://pic.leetcode-cn.com/c674669c75ba7160d3ae807d12c2796364145491c1cc099305448314f25ada45-image.png)
 
-- 转换为图的层次遍历即可
+# - 转换为图的层次遍历即可
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 from collections import defaultdict, deque
 
 
@@ -25,4 +25,4 @@ class Solution:
             d.extend(graph[cur])
 
         return ans
-```
+# ```

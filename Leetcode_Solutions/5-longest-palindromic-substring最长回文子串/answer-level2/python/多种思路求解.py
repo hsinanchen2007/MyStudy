@@ -1,26 +1,26 @@
-## 思路：
+# ## 思路：
 
-三种思路：
+# 三种思路：
 
-**思路 1：**
+# **思路 1：**
 
-把每个字母当成回文串的中心
+# 把每个字母当成回文串的中心
 
-这里要考虑两种情况，回文串的长度为奇数或者偶数情况。
+# 这里要考虑两种情况，回文串的长度为奇数或者偶数情况。
 
-**思路 2：** 把每个字母当成回文串的结束
+# **思路 2：** 把每个字母当成回文串的结束
 
-**思路 3：** 动态规划
+# **思路 3：** 动态规划
 
-`dp[j][i]` 表示字符串从 `j` 到 `i` 是否是为回文串，即当 `s[j] == s[i]` 如果 `dp[j+1][i-1]` 也是回文串，那么字符串从 `j` 到 `i` 也是回文串，即 `dp[j][i]` 为真。
+# `dp[j][i]` 表示字符串从 `j` 到 `i` 是否是为回文串，即当 `s[j] == s[i]` 如果 `dp[j+1][i-1]` 也是回文串，那么字符串从 `j` 到 `i` 也是回文串，即 `dp[j][i]` 为真。
 
------
+# -----
 
-## 代码：
+# ## 代码：
 
-方法一：
+# 方法一：
 
-```Python []
+# ```Python []
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         n = len(s)
@@ -35,11 +35,11 @@ class Solution:
             helper(i,i)
             helper(i,i+1)
         return self.res
-```
+# ```
 
-方法二：
+# 方法二：
 
-```Python []
+# ```Python []
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         if not s:
@@ -60,11 +60,11 @@ class Solution:
                 
         #print(start,max_len)
         return s[start: start+max_len]
-```
+# ```
 
-方法三：
+# 方法三：
 
-```Python []
+# ```Python []
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         if not s :
@@ -82,8 +82,8 @@ class Solution:
                     max_len = i + 1 - j
         return res
 
-```
-```Java []
+# ```
+# ```Java []
 class Solution {
     public String longestPalindrome(String s) {
        int n = s.length();
@@ -101,7 +101,7 @@ class Solution {
         return res;
     }
 }
-```
+# ```
 
 
 

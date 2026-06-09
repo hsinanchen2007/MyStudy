@@ -1,9 +1,9 @@
-### 解题思路
-辅助栈的运用
+# ### 解题思路
+# 辅助栈的运用
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isValid(self, s: str) -> bool:
         dic = {'(':')', '{':'}', '[':']'}
@@ -29,4 +29,4 @@ class Solution:
                 
 
 
-```
+# ```

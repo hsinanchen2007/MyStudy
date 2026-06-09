@@ -1,5 +1,5 @@
-先去重，再累计基数个数，不能大于1
-```
+// 先去重，再累计基数个数，不能大于1
+// ```
 var canPermutePalindrome = function(s) {
 		//console.log(s)
 	    var arr = [];
@@ -30,4 +30,4 @@ var canPermutePalindrome = function(s) {
 	    return true
 
 	};
-```
+// ```

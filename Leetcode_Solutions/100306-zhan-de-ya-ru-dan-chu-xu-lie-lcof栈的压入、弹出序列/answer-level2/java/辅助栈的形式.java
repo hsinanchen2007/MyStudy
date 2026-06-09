@@ -1,9 +1,9 @@
-### 解题思路
-执行用时 : 1 ms , 在所有 Java 提交中击败了 99.50% 的用户 
-内存消耗 : 39.3 MB , 在所有 Java 提交中击败了 100.00% 的用户
-### 代码
+// ### 解题思路
+// 执行用时 : 1 ms , 在所有 Java 提交中击败了 99.50% 的用户 
+// 内存消耗 : 39.3 MB , 在所有 Java 提交中击败了 100.00% 的用户
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean validateStackSequences(int[] pushed, int[] popped) {
         if(pushed.length==0 && popped.length==0){
@@ -47,4 +47,4 @@ class Solution {
     }
 
 }
-```
+// ```

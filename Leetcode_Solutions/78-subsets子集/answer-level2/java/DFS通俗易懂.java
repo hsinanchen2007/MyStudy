@@ -1,14 +1,14 @@
-解题思路：
-对于每一个数，都有选择或者不选择的抉择，然后就会衍生出一颗满二叉树，只要进行一次二叉树的前序遍历即可
-看了几个大家的写法，感觉理解起来有点不是很容易，所以自己写了一个
+// 解题思路：
+// 对于每一个数，都有选择或者不选择的抉择，然后就会衍生出一颗满二叉树，只要进行一次二叉树的前序遍历即可
+// 看了几个大家的写法，感觉理解起来有点不是很容易，所以自己写了一个
  
-![1.png](https://pic.leetcode-cn.com/cd6cd9916941404dddfe82f17ff549a39f9c56ed1547129aadc97ba83a3763a6-1.png)
+// ![1.png](https://pic.leetcode-cn.com/cd6cd9916941404dddfe82f17ff549a39f9c56ed1547129aadc97ba83a3763a6-1.png)
 
 
-1：先排序好数组
-2：开始DFS
+// 1：先排序好数组
+// 2：开始DFS
 
-```
+// ```
 class Solution {
         List<List<Integer>> result = new ArrayList<>();
 
@@ -37,4 +37,4 @@ class Solution {
             sub.remove(sub.size() - 1);
         }
     }
-```
+// ```

@@ -1,8 +1,8 @@
-# 思路：
-#### 记录当前结点是左/右孩子，即记录当前路径的方向
-#### 搜索其孩子时，根据上一条路径方向判断
-#### 如果当前路径方向相反，路径长度+1，如果相同，路径长度置为1
-```
+// # 思路：
+// #### 记录当前结点是左/右孩子，即记录当前路径的方向
+// #### 搜索其孩子时，根据上一条路径方向判断
+// #### 如果当前路径方向相反，路径长度+1，如果相同，路径长度置为1
+// ```
 class Solution {
     int ans=0;
     void dfs(TreeNode* root,int dir,int dis){//(当前结点，左/右孩子，路径长度)
@@ -24,7 +24,7 @@ public:
         return ans;
     }
 };
-```
+// ```
 
-### 3月9日 updata
-![image.png](https://pic.leetcode-cn.com/ad746ce1bd23f8b1106c1a6cd3d8c3588a00208ce0c42bdf7567729ce213be3e-image.png)
+// ### 3月9日 updata
+// ![image.png](https://pic.leetcode-cn.com/ad746ce1bd23f8b1106c1a6cd3d8c3588a00208ce0c42bdf7567729ce213be3e-image.png)

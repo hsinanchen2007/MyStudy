@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-旋转90°就是matrix[row][column]与matrix[column][row]交换后在将每一行翻转, 无法给出证明, 只是找规律发现的
+// 旋转90°就是matrix[row][column]与matrix[column][row]交换后在将每一行翻转, 无法给出证明, 只是找规律发现的
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} matrix
  * @return {void} Do not return anything, modify matrix in-place instead.
@@ -20,4 +20,4 @@ var rotate = function(matrix) {
     // 反转行, 实现90°旋转
     matrix.map(row => row.reverse())
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def lowestCommonAncestor(self, root, p, q):
         """
@@ -14,4 +14,4 @@ class Solution(object):
             return self.lowestCommonAncestor(root.right,p,q)
         else:
             return root
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-- 每次访问某个节点，遍历下去知道找到大于它的节点，根据数量判断是否有重复
+// ### 解题思路
+// - 每次访问某个节点，遍历下去知道找到大于它的节点，根据数量判断是否有重复
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -38,4 +38,4 @@ class Solution {
 		return dummyHead.next;
     }
 }
-```
+// ```

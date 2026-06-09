@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
         '''
@@ -40,4 +40,4 @@ class Solution:
         for x in d:
             if d[x] > len(nums)//2:
                 return x
-```
+# ```

@@ -1,5 +1,5 @@
-## 一次循环，双指针，分别找出左右边界
-```cpp
+// ## 一次循环，双指针，分别找出左右边界
+// ```cpp
 class Solution {
 public:
     int findUnsortedSubarray(vector<int>& nums) {
@@ -16,9 +16,9 @@ public:
         return right-left+1;
     }
 };
-```
-## 两次循环，分别找出左右边界
-```cpp
+// ```
+// ## 两次循环，分别找出左右边界
+// ```cpp
 class Solution {
 public:
     int findUnsortedSubarray(vector<int>& nums) {
@@ -40,4 +40,4 @@ public:
         return right-left+1;
     }
 };
-```
+// ```

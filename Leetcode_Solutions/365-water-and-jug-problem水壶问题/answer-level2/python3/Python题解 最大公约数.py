@@ -1,5 +1,5 @@
 
-```python []
+# ```python []
 class Solution:
     def canMeasureWater(self, x, y, z ):
         global hcf
@@ -12,4 +12,4 @@ class Solution:
         if z % hcf == 0:
             return True
         return False
-```
+# ```

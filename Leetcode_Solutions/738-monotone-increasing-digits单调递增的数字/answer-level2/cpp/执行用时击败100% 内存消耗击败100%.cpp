@@ -1,11 +1,11 @@
-### 解题思路
-1 先用index记录前面可以保留的位数
-2 在把后面的使用9填充即可
+// ### 解题思路
+// 1 先用index记录前面可以保留的位数
+// 2 在把后面的使用9填充即可
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int monotoneIncreasingDigits(int N) {
@@ -33,4 +33,4 @@ public:
     	return atoi(tmp.c_str()); 
     }
 };	
-```
+// ```

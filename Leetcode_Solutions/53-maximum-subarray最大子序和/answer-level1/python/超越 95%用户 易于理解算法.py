@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
         total_max = float('-inf')
@@ -10,4 +10,4 @@ class Solution:
                 total_max = total
 
         return total_max
-```
+# ```

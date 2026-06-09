@@ -1,9 +1,9 @@
-### 解题思路
-先用一个vector存储中序遍历的结果，然后对该vector正向、反向迭代，调整right、left指针。
+// ### 解题思路
+// 先用一个vector存储中序遍历的结果，然后对该vector正向、反向迭代，调整right、left指针。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /*
 // Definition for a Node.
 class Node {
@@ -58,4 +58,4 @@ public:
         return head;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
 
     //返回最大公约数
@@ -35,4 +35,4 @@ class Solution {
         return true;
     }
 
-```
+// ```

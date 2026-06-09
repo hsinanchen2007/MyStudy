@@ -1,17 +1,17 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/7fca7a133837e7704760074dc3e9081ce60ed7f239c0ccf94eaf320100ac8f9d-image.png)
+// ![image.png](https://pic.leetcode-cn.com/7fca7a133837e7704760074dc3e9081ce60ed7f239c0ccf94eaf320100ac8f9d-image.png)
 
 
-首先用正则匹配出所需的字符串
+// 首先用正则匹配出所需的字符串
 
-然后去除首部空格
+// 然后去除首部空格
 
-最后判断是否超出边界，注意要有等于，而且正边界要返回小一个的数字
+// 最后判断是否超出边界，注意要有等于，而且正边界要返回小一个的数字
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} str
  * @return {number}
@@ -29,4 +29,4 @@ var strToInt = function(str) {
         return  res;
     }
 };
-```
+// ```

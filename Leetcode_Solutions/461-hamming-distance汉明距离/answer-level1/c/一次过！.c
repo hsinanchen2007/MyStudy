@@ -1,4 +1,4 @@
-```
+// ```
 int hammingDistance(int x, int y){
     int count = 0;
     while(x || y){
@@ -9,4 +9,4 @@ int hammingDistance(int x, int y){
     }
     return count;
 }
-```
+// ```

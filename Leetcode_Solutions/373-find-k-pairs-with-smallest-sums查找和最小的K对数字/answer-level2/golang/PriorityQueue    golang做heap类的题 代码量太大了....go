@@ -1,14 +1,14 @@
-### 解题思路
+// ### 解题思路
 
-type Item struct {
-    value    []int  // 记录数组对
-    priority int    //  记录数组对之和， 用于堆排序
-    index int 
-}
+// type Item struct {
+//     value    []int  // 记录数组对
+//     priority int    //  记录数组对之和， 用于堆排序
+//     index int 
+// }
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func kSmallestPairs(nums1 []int, nums2 []int, k int) [][]int {
     length1, length2 := len(nums1), len(nums2)
     var count int
@@ -80,4 +80,4 @@ func (pq *PriorityQueue) Pop() interface{} {
     *pq = old[0 : n-1]
     return item
 }
-```
+// ```

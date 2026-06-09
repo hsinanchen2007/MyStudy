@@ -1,5 +1,5 @@
-字符串转小写然后双指针，写了一个函数判断当前字符是否是数字或者字母。具体看注释就可以了。
-```java
+// 字符串转小写然后双指针，写了一个函数判断当前字符是否是数字或者字母。具体看注释就可以了。
+// ```java
 public class Solution {
     public static boolean isPalindrome(String s) {
         if(s == null || s == "" || s.length() == 1) return true;
@@ -34,4 +34,4 @@ public class Solution {
 	return false;
     }
 }
-```
+// ```

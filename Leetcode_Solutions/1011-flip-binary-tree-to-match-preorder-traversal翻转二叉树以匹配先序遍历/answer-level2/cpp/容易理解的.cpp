@@ -1,6 +1,6 @@
- 比较了官方的解法，发现不是很容易理解。我的解法是先构造一个前序字典，然后每次通过左右子树划分 voyage，再分别遍历。
-递归函数返回的是子树是否能翻转得到结果。
-```c++
+//  比较了官方的解法，发现不是很容易理解。我的解法是先构造一个前序字典，然后每次通过左右子树划分 voyage，再分别遍历。
+// 递归函数返回的是子树是否能翻转得到结果。
+// ```c++
 class Solution {
 public:
     bool can(TreeNode* root, int left, int right, vector<int>& voyage, unordered_map<int, int>& pre_order, vector<int>& result) {
@@ -42,4 +42,4 @@ public:
 
     }
 };
-```
+// ```

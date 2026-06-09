@@ -1,9 +1,9 @@
-### 解题思路
-加油..
+// ### 解题思路
+// 加油..
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 
 struct ListNode* middleNode(struct ListNode* head)
@@ -17,4 +17,4 @@ struct ListNode* middleNode(struct ListNode* head)
 	
 	return head;
 }
-```
+// ```

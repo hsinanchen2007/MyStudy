@@ -1,9 +1,9 @@
-### 解题思路
-简单的双指针思路
+# ### 解题思路
+# 简单的双指针思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minSubArrayLen(self, s: int, nums: List[int]) -> int:
         if len(nums) == 0:
@@ -20,4 +20,4 @@ class Solution:
             else:
                 r += 1
         return min_len if min_len != -1 else 0
-```
+# ```

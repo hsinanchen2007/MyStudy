@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 堆
+# ### 堆
 
-```python
+# ```python
 from heapq import *
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:
@@ -18,10 +18,10 @@ class Solution:
 
         #一句写法
         return nlargest(k, nums)[-1]
-```
-### 快速选择
+# ```
+# ### 快速选择
 
-```python
+# ```python
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:
         
@@ -56,4 +56,4 @@ class Solution:
                 return select(pivot_index + 1, right, k_smallest)
 
         return select(0, len(nums) - 1, len(nums) - k)
-```
+# ```

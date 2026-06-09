@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def translateNum(self, num: int) -> int:
         num = str(num)
@@ -14,4 +14,4 @@ class Solution:
             if int(num[i-2]+num[i-1])<26 and num[i-2]!='0':dp[i] = dp[i-1]+dp[i-2]
             else:dp[i]=dp[i-1]
         return dp[len(num)]
-```
+# ```

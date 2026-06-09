@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 bool isPrime(int num)
 {
     if (num < 2) return false;
@@ -23,4 +23,4 @@ public:
         return res;
     }
 };
-```
+// ```

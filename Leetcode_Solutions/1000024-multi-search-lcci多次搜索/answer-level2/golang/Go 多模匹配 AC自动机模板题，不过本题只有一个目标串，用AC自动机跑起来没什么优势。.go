@@ -1,5 +1,5 @@
-使用Trie图来表示自动机
-```
+// 使用Trie图来表示自动机
+// ```
 func multiSearch(big string, smalls []string) [][]int {
     n := len(smalls)
     if n == 0 {
@@ -67,4 +67,4 @@ func multiSearch(big string, smalls []string) [][]int {
     search(big)
     return res
 }
-```
+// ```

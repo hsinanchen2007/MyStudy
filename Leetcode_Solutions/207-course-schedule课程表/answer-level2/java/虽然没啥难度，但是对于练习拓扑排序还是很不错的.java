@@ -1,9 +1,9 @@
-### 解题思路
-虽然没啥难度，但是对于练习拓扑排序还是很不错的
+// ### 解题思路
+// 虽然没啥难度，但是对于练习拓扑排序还是很不错的
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
         int[] nodesIndegree = getNodesIndegree(numCourses, prerequisites);
@@ -39,4 +39,4 @@ class Solution {
         return nodesIndegree;
     }
 }
-```
+// ```

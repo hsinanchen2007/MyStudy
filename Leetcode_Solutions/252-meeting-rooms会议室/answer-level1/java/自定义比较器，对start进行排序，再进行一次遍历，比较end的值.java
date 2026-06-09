@@ -1,8 +1,8 @@
-自定义比较器，对start进行排序，再进行一次遍历，比较end的值
+// 自定义比较器，对start进行排序，再进行一次遍历，比较end的值
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
        public boolean canAttendMeetings(int[][] intervals) {
 
@@ -24,4 +24,4 @@ class Solution {
         }
     }
 }
-```
+// ```

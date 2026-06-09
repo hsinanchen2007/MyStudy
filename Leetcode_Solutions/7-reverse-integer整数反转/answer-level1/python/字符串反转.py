@@ -1,9 +1,9 @@
-### 解题思路
-将整数转换成字符串，然后反转字符串，再处理负号和越界的情况
+# ### 解题思路
+# 将整数转换成字符串，然后反转字符串，再处理负号和越界的情况
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def reverse(self, x):
         """
@@ -23,4 +23,4 @@ class Solution(object):
                 x = 0
 
         return x
-```
+# ```

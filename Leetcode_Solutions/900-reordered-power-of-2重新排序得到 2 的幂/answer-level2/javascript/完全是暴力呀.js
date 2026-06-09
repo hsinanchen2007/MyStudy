@@ -1,6 +1,6 @@
-把已知范围内所有数，排序搜集起来，然后对输入整数排序对比！
+// 把已知范围内所有数，排序搜集起来，然后对输入整数排序对比！
 
-```
+// ```
 /**
  * @param {number} N
  * @return {boolean}
@@ -50,4 +50,4 @@ var reorderedPowerOf2 = function(N) {
     ] || false;
   }
 };
-```
+// ```

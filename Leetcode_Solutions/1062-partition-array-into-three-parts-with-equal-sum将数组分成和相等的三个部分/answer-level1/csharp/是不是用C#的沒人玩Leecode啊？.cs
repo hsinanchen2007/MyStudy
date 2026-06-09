@@ -1,10 +1,10 @@
-### 解题思路
-![擷取.PNG](https://pic.leetcode-cn.com/26ccdf411ffdd45514af6840d6071643a73d4af298188ad315ac1d4b59966bd6-%E6%93%B7%E5%8F%96.PNG)
+// ### 解题思路
+// ![擷取.PNG](https://pic.leetcode-cn.com/26ccdf411ffdd45514af6840d6071643a73d4af298188ad315ac1d4b59966bd6-%E6%93%B7%E5%8F%96.PNG)
 
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public bool CanThreePartsEqualSum(int[] A) {    
             int ACount = 0;
@@ -36,4 +36,4 @@ public class Solution {
             }
     }
 }
-```
+// ```

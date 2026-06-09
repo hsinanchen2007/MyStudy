@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define CHARNUM 26
 
 int firstUniqChar(char * s){
@@ -27,4 +27,4 @@ int firstUniqChar(char * s){
     free(m);
     return -1;
 }
-```
+// ```

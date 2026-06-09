@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/f7cdb42d604aef37b9ab6fc936cef70d73650a4157ade5b76c0e367ec118075e-image.png)
+// ![image.png](https://pic.leetcode-cn.com/f7cdb42d604aef37b9ab6fc936cef70d73650a4157ade5b76c0e367ec118075e-image.png)
 
-```
+// ```
 class Solution {
     public boolean canThreePartsEqualSum(int[] A) {
         int i=0,j=0;
@@ -32,4 +32,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

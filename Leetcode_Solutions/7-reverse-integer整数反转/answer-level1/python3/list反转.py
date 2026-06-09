@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def reverse(self, x: int) -> int:
         if x >= (-2)**31 and x <= (2**31)-1: #判断范围
@@ -31,4 +31,4 @@ class Solution:
                 return 0
         else:
             return 0
-```
+# ```

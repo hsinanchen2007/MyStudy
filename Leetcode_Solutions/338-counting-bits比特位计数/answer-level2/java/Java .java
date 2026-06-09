@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int[] countBits(int num) {
         int[] result=new int[num+1];
@@ -12,4 +12,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

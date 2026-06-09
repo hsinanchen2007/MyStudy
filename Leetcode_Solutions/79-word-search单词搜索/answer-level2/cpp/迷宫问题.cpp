@@ -1,8 +1,8 @@
-### 解题思路
-注意一开始的那个字符也要设置为已访问。
-### 代码
+// ### 解题思路
+// 注意一开始的那个字符也要设置为已访问。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool exist(vector<vector<char>>& board, string word) {
@@ -57,4 +57,4 @@ private:
     int b[4] = {1, -1, 0, 0};
     bool vis[150][150];
 };
-```
+// ```

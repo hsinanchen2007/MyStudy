@@ -1,9 +1,9 @@
-### 解题思路
-递归遍历。
+# ### 解题思路
+# 递归遍历。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def treeToDoublyListCore(self, root: 'Node') -> ('Node', 'Node'):
         """
@@ -41,4 +41,4 @@ class Solution:
         if head and tail:
             head.left, tail.right = tail, head
         return head
-```
+# ```

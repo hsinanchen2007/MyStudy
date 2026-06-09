@@ -1,6 +1,6 @@
-执行用时 :0 ms, 在所有 C 提交中击败了100.00%的用户
-内存消耗 :6.7 MB, 在所有 C 提交中击败了100.00%的用户
-```
+// 执行用时 :0 ms, 在所有 C 提交中击败了100.00%的用户
+// 内存消耗 :6.7 MB, 在所有 C 提交中击败了100.00%的用户
+// ```
 bool isvertical(int x1,int y1,int x2,int y2){
     return ((x1 * x2)+(y1 * y2)==0);
 }
@@ -31,4 +31,4 @@ bool validSquare(int* p1, int p1Size, int* p2, int p2Size, int* p3, int p3Size, 
     return false;
 }
 
-```
+// ```

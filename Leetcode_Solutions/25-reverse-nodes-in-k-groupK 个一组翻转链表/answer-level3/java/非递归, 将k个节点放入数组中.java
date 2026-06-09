@@ -1,13 +1,13 @@
-思路:
-1. 使用数组存储每次要翻转的k个节点
-2. 如果数组的长度等于k, 对数组中的节点进行翻转, 否则按原顺序输出
-3. 数组中节点翻转步骤
- - 首节点链接至结尾的节点
- - 开头的节点链接至结尾节点的下一个节点
- - 数组中的节点从后往前依次链接
- - 重置首节点
+// 思路:
+// 1. 使用数组存储每次要翻转的k个节点
+// 2. 如果数组的长度等于k, 对数组中的节点进行翻转, 否则按原顺序输出
+// 3. 数组中节点翻转步骤
+//  - 首节点链接至结尾的节点
+//  - 开头的节点链接至结尾节点的下一个节点
+//  - 数组中的节点从后往前依次链接
+//  - 重置首节点
 
-```
+// ```
 private static ListNode reverse(ListNode head, int k) {
         ListNode dummy = new ListNode(0);
         dummy.next = head;
@@ -46,4 +46,4 @@ private static ListNode reverse(ListNode head, int k) {
 
         return dummy.next;
     }
-```
+// ```

@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/34d32c1016fd96eff7f789c7a3b7f77ca2a4a6a4243cd3a350d897156fcc4904-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/34d32c1016fd96eff7f789c7a3b7f77ca2a4a6a4243cd3a350d897156fcc4904-image.png)
+// ```
 void dfs(char** grid,int i,int j,int high,int lenth) {
     grid[i][j] = '0';
     int h[] = {1,-1,0};
@@ -34,5 +34,5 @@ int numIslands(char** grid, int gridSize, int* gridColSize){
     }
     return count;
 }
-```
+// ```
 

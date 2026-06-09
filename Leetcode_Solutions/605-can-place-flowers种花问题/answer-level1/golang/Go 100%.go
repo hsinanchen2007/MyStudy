@@ -1,4 +1,4 @@
-```
+// ```
 func canPlaceFlowers(flowerbed []int, n int) bool {
     flowerbed = append([]int{0}, append(flowerbed, 0)...)
     l := len(flowerbed) - 1
@@ -11,4 +11,4 @@ func canPlaceFlowers(flowerbed []int, n int) bool {
     }
     return n == 0
 }
-```
+// ```

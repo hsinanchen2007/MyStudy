@@ -1,9 +1,9 @@
-### 解题思路
-字典树，不知道为啥时间这么长
+// ### 解题思路
+// 字典树，不知道为啥时间这么长
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class WordDictionary {
     TrieNode root = new TrieNode();
     ;
@@ -80,4 +80,4 @@ class WordDictionary {
  * obj.addWord(word);
  * boolean param_2 = obj.search(word);
  */
-```
+// ```

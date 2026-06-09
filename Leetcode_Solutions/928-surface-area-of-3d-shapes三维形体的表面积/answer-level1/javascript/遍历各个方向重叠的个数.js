@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number[][]} grid
  * @return {number}
@@ -27,4 +27,4 @@ var surfaceArea = function(grid) {
     return count * 6 - zlen - xlen - ylen;   // 表面积=总的个数*6 - 各个方向重叠的面
 
 };
-```
+// ```

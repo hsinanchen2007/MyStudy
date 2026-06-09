@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func minMoves(nums []int) int {//n-1个数加1 等同于把1个数减一
 	count:=0
 	sort.Ints(nums)
@@ -24,4 +24,4 @@ func minMoves(nums []int) int {//n-1个数加1 等同于把1个数减一
 	// }暴力解法
 	return count
 }
-```
+// ```

@@ -1,14 +1,14 @@
-> 翻译自英文站 [same-tree solution](https://leetcode.com/problems/same-tree/solution/)
+// > 翻译自英文站 [same-tree solution](https://leetcode.com/problems/same-tree/solution/)
 
-#### 方法 1: 递归
+// #### 方法 1: 递归
 
-**思路**
+// **思路**
 
-最简单的策略是使用递归。检查p和q节点是否不是空，它们的值是否相等。如果所有检查都正常，则递归地为子节点执行相同操作。
+// 最简单的策略是使用递归。检查p和q节点是否不是空，它们的值是否相等。如果所有检查都正常，则递归地为子节点执行相同操作。
 
-**代码**
+// **代码**
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -29,29 +29,29 @@ class Solution {
             isSameTree(p.left, q.left);
   }
 }
-```
+// ```
 
-**复杂度分析**
+// **复杂度分析**
 
-- 时间复杂度：O(N)，其中N是树中的节点数，因为每个节点只访问一次。
-- 空间复杂度：O(log(N))， 在最佳情况下即completely balanced tree空间复杂度是O(log(N))，在最坏情况下 completely unbalanced tree空间复杂度是O(N)，和递归次数保持一致。
+// - 时间复杂度：O(N)，其中N是树中的节点数，因为每个节点只访问一次。
+// - 空间复杂度：O(log(N))， 在最佳情况下即completely balanced tree空间复杂度是O(log(N))，在最坏情况下 completely unbalanced tree空间复杂度是O(N)，和递归次数保持一致。
 
 
 
-#### 方法 2: 迭代
+// #### 方法 2: 迭代
 
-**思路**
+// **思路**
 
-从根开始，在每次迭代时将当前节点弹出deque。然后执行与方法1中相同的检查：
+// 从根开始，在每次迭代时将当前节点弹出deque。然后执行与方法1中相同的检查：
 
-- `p` 和 `q` 不为空
-- `p.val` 和 `q.val` 相等
+// - `p` 和 `q` 不为空
+// - `p.val` 和 `q.val` 相等
 
-如果检查正常，则push子节点。
+// 如果检查正常，则push子节点。
 
-**代码**
+// **代码**
 
-```java
+// ```java
 class Solution {
   public boolean check(TreeNode p, TreeNode q) {
     // p and q are null
@@ -94,11 +94,11 @@ class Solution {
     return true;
   }
 }
-```
+// ```
 
-**复杂度分析**
+// **复杂度分析**
 
-- 时间复杂度 ：O(N) 因为每个节点只访问一次
-- 空间复杂度：O(log(N))， 在最佳情况下即completely balanced tree空间复杂度是O(log(N))，在最坏情况下 completely unbalanced tree空间复杂度是O(N)
+// - 时间复杂度 ：O(N) 因为每个节点只访问一次
+// - 空间复杂度：O(log(N))， 在最佳情况下即completely balanced tree空间复杂度是O(log(N))，在最坏情况下 completely unbalanced tree空间复杂度是O(N)
 
-Analysis written by @[liaison](https://leetcode.com/liaison/) and @[andvary](https://leetcode.com/andvary/)
+// Analysis written by @[liaison](https://leetcode.com/liaison/) and @[andvary](https://leetcode.com/andvary/)

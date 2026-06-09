@@ -1,9 +1,9 @@
-### 解题思路
-这应该是lc题解最多的一道题了，两个双端队列模拟入栈。
+# ### 解题思路
+# 这应该是lc题解最多的一道题了，两个双端队列模拟入栈。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class MyStack(object):
 
     def __init__(self):
@@ -56,4 +56,4 @@ class MyStack(object):
 # param_2 = obj.pop()
 # param_3 = obj.top()
 # param_4 = obj.empty()
-```
+# ```

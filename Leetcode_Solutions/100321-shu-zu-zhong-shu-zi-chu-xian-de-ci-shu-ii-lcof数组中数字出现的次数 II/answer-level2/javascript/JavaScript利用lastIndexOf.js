@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-lastIndexOf
+// lastIndexOf
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -14,4 +14,4 @@ var singleNumber = function(nums) {
         if (nums.indexOf(nums[i]) === nums.lastIndexOf(nums[i])) return nums[i]
     }
 };
-```
+// ```

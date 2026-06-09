@@ -1,9 +1,9 @@
-### 解题思路
-数学分析法，使得分母最小；
+// ### 解题思路
+// 数学分析法，使得分母最小；
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public string OptimalDivision(int[] nums) {
         if (nums.Length <= 2) return string.Join("/", nums);
@@ -13,4 +13,4 @@ public class Solution {
         return builder.ToString();
     }
 }
-```
+// ```

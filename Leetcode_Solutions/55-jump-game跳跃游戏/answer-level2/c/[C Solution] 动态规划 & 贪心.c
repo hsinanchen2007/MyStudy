@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 // 动态规划，自底向上, 672ms
 
 #define MIN(a,b)((a)<(b) ? (a) : (b))
@@ -40,4 +40,4 @@ bool canJump(int* nums, int numsSize){
         }
         return lastPos == 0;
 }
-```
+// ```

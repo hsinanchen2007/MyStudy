@@ -1,9 +1,9 @@
-### 解题思路
-代码比较啰嗦，主要是"" - true，" " - false返回的结果不同
+// ### 解题思路
+// 代码比较啰嗦，主要是"" - true，" " - false返回的结果不同
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAXSIZE 10000
 
 bool isValid(char * s){
@@ -93,4 +93,4 @@ bool isValid(char * s){
 
     return res;
 }
-```
+// ```

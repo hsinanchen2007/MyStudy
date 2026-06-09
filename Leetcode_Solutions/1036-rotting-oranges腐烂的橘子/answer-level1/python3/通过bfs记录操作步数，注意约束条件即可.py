@@ -1,5 +1,5 @@
-每次传染后在原数组中把值改为2，再进行bfs，最后返回记录的总步数
-```
+# 每次传染后在原数组中把值改为2，再进行bfs，最后返回记录的总步数
+# ```
 class Solution:
     def orangesRotting(self, grid: List[List[int]]) -> int:
         #初始化变量
@@ -39,4 +39,4 @@ class Solution:
             if 1 in grid[i]:
                 return -1
         return res
-```
+# ```

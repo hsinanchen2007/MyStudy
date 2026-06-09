@@ -1,4 +1,4 @@
-```
+// ```
 代码块int treeSolution::rob(TreeNode* root)
 {
 	if (root == nullptr)return 0;
@@ -17,4 +17,4 @@ vector<int > robDp(TreeNode* root)
 	temp[1] = max(max(left[0] + right[0], left[1] + right[1]),max(left[0]+right[1],left[1]+right[0]));//不包含根节点的最大值
 	return temp;
 }
-```
+// ```

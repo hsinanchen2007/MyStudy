@@ -1,9 +1,9 @@
-### 解题思路
-类似斐波那契数列
-Fib(n)=Fib(n−1)+Fib(n−2)
-### 代码
+// ### 解题思路
+// 类似斐波那契数列
+// Fib(n)=Fib(n−1)+Fib(n−2)
+// ### 代码
 
-```golang
+// ```golang
 func climbStairs(n int) int {
     if n == 1 {
         return 1
@@ -18,4 +18,4 @@ func climbStairs(n int) int {
 
     return s
 }
-```
+// ```

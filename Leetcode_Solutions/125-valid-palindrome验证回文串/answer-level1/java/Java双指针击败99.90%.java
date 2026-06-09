@@ -1,4 +1,4 @@
-```java
+// ```java
 public boolean isPalindrome(String s) {
     int left = 0;
     int right = s.length() - 1;
@@ -23,4 +23,4 @@ private boolean isEquals(char a, char b) {
     if (b >= 'A' && b <= 'Z') b += 'a' - 'A';
     return a == b;
 }
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-直接用了编辑距离的模板。
-动态规划
-### 代码
-```python
+# ### 解题思路
+# 直接用了编辑距离的模板。
+# 动态规划
+# ### 代码
+# ```python
 class Solution:
     def oneEditAway(self, first: str, second: str) -> bool:
         #最短编辑距离
@@ -17,10 +17,10 @@ class Solution:
                 if first[i-1] == second[j-1]:dp[i][j] = dp[i-1][j-1]
                 else:dp[i][j] = min(dp[i-1][j], dp[i-1][j-1],dp[i][j-1])+1
         return True if dp[-1][-1] <= 1 else False        
-```
-### 字符串切片比对
-### 代码
-```
+# ```
+# ### 字符串切片比对
+# ### 代码
+# ```
 class Solution:
     def oneEditAway(self, first: str, second: str) -> bool:
         if abs(len(first)-len(second)) > 1:return False
@@ -34,4 +34,4 @@ class Solution:
         for i in range(len(first)):
             if first[:i]+first[i+1:]==second:return True
         return False
-```
+# ```

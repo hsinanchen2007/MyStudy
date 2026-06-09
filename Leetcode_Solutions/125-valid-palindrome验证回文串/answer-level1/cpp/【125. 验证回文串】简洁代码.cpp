@@ -1,6 +1,6 @@
-## 思路
-### 代码
-```c++
+// ## 思路
+// ### 代码
+// ```c++
 class Solution {
 public:
     bool isPalindrome(string s) {
@@ -23,9 +23,9 @@ public:
         return true;
     }
 };
-```
-#### 另一种写法
-```c++
+// ```
+// #### 另一种写法
+// ```c++
 class Solution {
 public:
     bool isPalindrome(string s) {
@@ -52,5 +52,5 @@ public:
         return true;
     }
 };
-```
+// ```
 

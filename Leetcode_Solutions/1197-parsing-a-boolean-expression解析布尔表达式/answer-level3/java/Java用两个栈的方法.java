@@ -1,11 +1,11 @@
-用了两个栈，一个操作符栈，一个操作数栈。然后开始循环：
-1.遇到t、f和左括号入操作数栈。
-2.遇到|、&和!入操作符栈
-3.遇到逗号不处理
-4.遇到右括号时，将操作数栈中的元素依次出栈，直到遇到左括号停止，再从操作符栈中出栈一个操作符。计算出栈的操作数根据出栈的操作符的运算结果，并将运算结果入操作数栈。
-最后栈中只剩一个元素，就是结果
+// 用了两个栈，一个操作符栈，一个操作数栈。然后开始循环：
+// 1.遇到t、f和左括号入操作数栈。
+// 2.遇到|、&和!入操作符栈
+// 3.遇到逗号不处理
+// 4.遇到右括号时，将操作数栈中的元素依次出栈，直到遇到左括号停止，再从操作符栈中出栈一个操作符。计算出栈的操作数根据出栈的操作符的运算结果，并将运算结果入操作数栈。
+// 最后栈中只剩一个元素，就是结果
 
-```
+// ```
 public boolean parseBoolExpr(String expression) {
     ArrayDeque<Character> stackOperand = new ArrayDeque<>();
     ArrayDeque<Character> stackOperator = new ArrayDeque<>();
@@ -40,4 +40,4 @@ public boolean parseBoolExpr(String expression) {
     }
     return stackOperand.pop() == 't' ? true : false;
 }
-```
+// ```

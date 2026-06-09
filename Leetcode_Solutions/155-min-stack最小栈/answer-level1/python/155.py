@@ -1,10 +1,10 @@
-### 解题思路
-1、初始化栈
-2、入栈append()，出栈pop()，获取栈顶index=-1，获取最小值可将stack排序后返回第0个元素。
+# ### 解题思路
+# 1、初始化栈
+# 2、入栈append()，出栈pop()，获取栈顶index=-1，获取最小值可将stack排序后返回第0个元素。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class MinStack:
 
     def __init__(self):
@@ -38,4 +38,4 @@ class MinStack:
 # obj.pop()
 # param_3 = obj.top()
 # param_4 = obj.getMin()
-```
+# ```

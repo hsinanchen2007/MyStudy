@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int numTilePossibilities(string tiles) {
@@ -14,6 +14,6 @@ public:
         return vec.size();
     }
 };
-```
+// ```
 
-使用next_permutation()函数
+// 使用next_permutation()函数

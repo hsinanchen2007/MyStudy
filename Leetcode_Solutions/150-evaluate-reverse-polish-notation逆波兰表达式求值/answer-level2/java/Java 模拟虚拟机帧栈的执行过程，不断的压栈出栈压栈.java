@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
         // 模拟 Java 字节码帧栈的执行过程，遇到计算符号时，栈顶两个数出栈进行计算后重新入栈。否则直接压栈。
         // 最终栈中只有一个元素就计算结果。
@@ -29,4 +29,4 @@ class Solution {
             return deque.pop();
         }
 }
-```
+// ```

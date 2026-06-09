@@ -1,10 +1,10 @@
-### 解题思路
-將chars透過charCodeAt轉換成陣列表dictionary ex:a就放在dictionary[0]，接著跑迴圈取出word跟dictionary比對，
-出現小於dictionary中字數的將字串長度相加即可
+// ### 解题思路
+// 將chars透過charCodeAt轉換成陣列表dictionary ex:a就放在dictionary[0]，接著跑迴圈取出word跟dictionary比對，
+// 出現小於dictionary中字數的將字串長度相加即可
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} words
  * @param {string} chars
@@ -40,4 +40,4 @@ var countCharacters = function(words, chars) {
     }
     return res;
 };
-```
+// ```

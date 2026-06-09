@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def removeDuplicates(self, nums):
         """
@@ -19,6 +19,6 @@ class Solution(object):
                 i += 1
         nums.sort()
         return len(nums)-nums.count(bad_val)
-```
+# ```
 
-#每计算一次count就需要遍历一次，所以性能比较差
+# #每计算一次count就需要遍历一次，所以性能比较差

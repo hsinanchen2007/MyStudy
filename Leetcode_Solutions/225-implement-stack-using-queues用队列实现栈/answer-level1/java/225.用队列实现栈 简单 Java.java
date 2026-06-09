@@ -1,10 +1,10 @@
-### 解题思路
-本题较为简单，只是考察了队列和栈这两种基本数据结构的特点，队列（先进先出FIFO），栈（后进先出LIFO）。要用队列实现栈也很简单，用一个队列即可，每一次压栈操作（等同于队列入队，然后将该入队元素前面的元素依次出队再入队，使得压栈的元素放在队列最前头，这样就能符合栈后进先出的特点了）。
-本题在于我学Java没多久，还没知道Java队列的实现，查阅资料后发现，LinkedList实现了Queue接口，然后队列操作有入队offer()/add(),出队poll()/remove(),返回队头元素peek()/element(),返回大小size()和检查是否为空isEmpty()。其中有两种相同功能的操作中，前者在方法失败是会抛出false/null/null而后者会抛出异常。
+// ### 解题思路
+// 本题较为简单，只是考察了队列和栈这两种基本数据结构的特点，队列（先进先出FIFO），栈（后进先出LIFO）。要用队列实现栈也很简单，用一个队列即可，每一次压栈操作（等同于队列入队，然后将该入队元素前面的元素依次出队再入队，使得压栈的元素放在队列最前头，这样就能符合栈后进先出的特点了）。
+// 本题在于我学Java没多久，还没知道Java队列的实现，查阅资料后发现，LinkedList实现了Queue接口，然后队列操作有入队offer()/add(),出队poll()/remove(),返回队头元素peek()/element(),返回大小size()和检查是否为空isEmpty()。其中有两种相同功能的操作中，前者在方法失败是会抛出false/null/null而后者会抛出异常。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 import java.util.LinkedList;
 import java.util.Queue;
 class MyStack {
@@ -46,4 +46,4 @@ class MyStack {
  * int param_3 = obj.top();
  * boolean param_4 = obj.empty();
  */
-```
+// ```

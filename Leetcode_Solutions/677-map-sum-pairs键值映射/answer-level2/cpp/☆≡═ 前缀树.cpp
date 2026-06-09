@@ -1,7 +1,7 @@
-在前缀树中插入键值对。
-调用sum时，如果给定的prefix不在前缀树中，返回0。
-否则找到前缀树中与prefix匹配完毕后的子树，对子树中的单词求和。
-```
+// 在前缀树中插入键值对。
+// 调用sum时，如果给定的prefix不在前缀树中，返回0。
+// 否则找到前缀树中与prefix匹配完毕后的子树，对子树中的单词求和。
+// ```
 struct Trie {
     bool is_end;
     int val;
@@ -54,4 +54,4 @@ private:
  * obj->insert(key,val);
  * int param_2 = obj->sum(prefix);
  */
-```
+// ```

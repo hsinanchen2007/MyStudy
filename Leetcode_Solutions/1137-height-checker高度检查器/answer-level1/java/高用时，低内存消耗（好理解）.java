@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int heightChecker(int[] heights) {
 //         拷贝一份数组
@@ -26,4 +26,4 @@ class Solution {
    return xp;      
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-双指针，一个寻找匹配的下标，另一个寻找不匹配的下标，然后进行移位
+// ### 解题思路
+// 双指针，一个寻找匹配的下标，另一个寻找不匹配的下标，然后进行移位
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int removeElement(int[] nums, int val) {
         if(nums.length<1){
@@ -29,4 +29,4 @@ class Solution {
         return c;
     }
 }
-```
+// ```

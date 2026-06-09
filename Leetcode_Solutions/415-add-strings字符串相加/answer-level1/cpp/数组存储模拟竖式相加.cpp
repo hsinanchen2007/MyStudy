@@ -1,9 +1,9 @@
-### 解题思路
-数组存储模拟竖式相加
+// ### 解题思路
+// 数组存储模拟竖式相加
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string addStrings(string num1, string num2) {
@@ -30,4 +30,4 @@ public:
         return res;
     }
 };
-```
+// ```

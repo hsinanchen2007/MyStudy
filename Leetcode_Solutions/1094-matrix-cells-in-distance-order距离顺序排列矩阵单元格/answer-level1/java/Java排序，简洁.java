@@ -1,9 +1,9 @@
-### 解题思路
-先构建数组，然后进行排序，代码简洁
+// ### 解题思路
+// 先构建数组，然后进行排序，代码简洁
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] allCellsDistOrder(int R, int C, int r0, int c0) {
         int[][] nums = new int[R * C][2];
@@ -20,4 +20,4 @@ class Solution {
         return nums;
     }
 }
-```
+// ```

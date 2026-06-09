@@ -1,9 +1,9 @@
-### 解题思路
-双指针法
+// ### 解题思路
+// 双指针法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {*斜体*
     public int threeSumClosest(int[] nums, int target) {
         if(nums==null || nums.length<3)
@@ -40,5 +40,5 @@ class Solution {*斜体*
 		return min;
     }
 }
-```
-![image.png](https://pic.leetcode-cn.com/24ab8ce32e644262429f45deeda26227686212f1313c79762d743194e233d493-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/24ab8ce32e644262429f45deeda26227686212f1313c79762d743194e233d493-image.png)

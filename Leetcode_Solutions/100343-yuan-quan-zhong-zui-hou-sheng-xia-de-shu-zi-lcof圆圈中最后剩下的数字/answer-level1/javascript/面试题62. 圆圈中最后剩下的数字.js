@@ -1,9 +1,9 @@
-### 解题思路
-还需要多推导几次理解透彻
+// ### 解题思路
+// 还需要多推导几次理解透彻
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @param {number} m
@@ -16,4 +16,4 @@ var lastRemaining = function (n, m) {
     }
     return result
 };
-```
+// ```

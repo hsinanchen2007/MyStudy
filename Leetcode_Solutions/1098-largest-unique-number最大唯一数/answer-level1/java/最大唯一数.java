@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int largestUniqueNumber(int[] A) {
         //以空间换时间法
@@ -18,4 +18,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

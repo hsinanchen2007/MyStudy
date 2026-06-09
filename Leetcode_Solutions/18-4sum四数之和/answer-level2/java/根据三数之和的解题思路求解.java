@@ -1,9 +1,9 @@
-### 解题思路
-按照之前三数之和的解题思路进行，由于是有序的，对加入的结果集进行了去重处理。
+// ### 解题思路
+// 按照之前三数之和的解题思路进行，由于是有序的，对加入的结果集进行了去重处理。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> fourSum(int[] nums, int target) {
         int numsLen = nums.length;
@@ -36,4 +36,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

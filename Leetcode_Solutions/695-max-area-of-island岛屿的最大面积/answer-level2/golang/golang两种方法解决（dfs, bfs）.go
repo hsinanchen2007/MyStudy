@@ -1,10 +1,10 @@
-golang解决　 1.dfs;    2.bfs
+// golang解决　 1.dfs;    2.bfs
 
-github: https://github.com/Crownt/leetcode
+// github: https://github.com/Crownt/leetcode
 
-1.dfs
+// 1.dfs
 
-```go
+// ```go
 var M int  // 行数
 var N int  // 列数
 var dir = [][]int{{1,0}, {-1,0}, {0,1}, {0,-1}}  // 四个方向
@@ -50,10 +50,10 @@ func dfs(grid [][]int, i int, j int) int{
 func inArea(i int, j int) bool {
 	return  i>=0 && i<M && j>=0 && j<N 
 }
-```
-2.bfs
+// ```
+// 2.bfs
 
-```go
+// ```go
 var M_2 int  // 行数
 var N_2 int  // 列数
 var dir_2 = [][]int{{1,0}, {-1,0}, {0,1}, {0,-1}}  // 四个方向
@@ -113,5 +113,5 @@ func bfs(grid [][]int, i int, j int) int {
 func inArea_2(i int, j int) bool {
 	return  i>=0 && i<M_2 && j>=0 && j<N_2 
 }
-```
+// ```
 

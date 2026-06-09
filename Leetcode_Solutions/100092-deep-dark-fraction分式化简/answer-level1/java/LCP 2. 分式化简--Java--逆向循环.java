@@ -1,6 +1,6 @@
-[Leetcode-Java(200+题解，持续更新、欢迎star)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/LCP/_2_fraction.java)
+// [Leetcode-Java(200+题解，持续更新、欢迎star)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/LCP/_2_fraction.java)
 
-```java
+// ```java
     /**
      * 解题思路：
      * 对整个题目比划比划你会发现，整个解题的过程就是个循环求解分式，为了更好的写代码，逆向求解
@@ -39,4 +39,4 @@
         arr[0] = arr[1];
         arr[1] = temp;
     }
-```
+// ```

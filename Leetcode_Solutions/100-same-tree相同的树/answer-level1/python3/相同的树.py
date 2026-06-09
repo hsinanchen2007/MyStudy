@@ -1,6 +1,6 @@
-提供一个非递归的思路，用try except来做。
+# 提供一个非递归的思路，用try except来做。
 
-```
+# ```
 class Solution:
     def isSameTree(self, p: TreeNode, q: TreeNode) -> bool:
         if not p and not q:
@@ -29,4 +29,4 @@ class Solution:
             return False
         # 能保证结构一样，且不是子树
         return not (cur1.left or cur1.right) and not (cur2.left or cur2.right)
-```
+# ```

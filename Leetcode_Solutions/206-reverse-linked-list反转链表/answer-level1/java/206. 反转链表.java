@@ -1,10 +1,10 @@
-### 解题思路
-解法一：
-    用stack来反转
+// ### 解题思路
+// 解法一：
+//     用stack来反转
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -36,4 +36,4 @@ class Solution {
         return node;
     }
 }
-```
+// ```

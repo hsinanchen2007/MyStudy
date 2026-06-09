@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] searchRange(int[] nums,int target){
 		// 数组已经基本有序，可以使用二分搜索，时间复杂度为O(logN)
@@ -35,8 +35,8 @@ class Solution {
 		return res;
 	}
 }
-```
+// ```
 
-### 性能表现
+// ### 性能表现
 
-![1.png](https://pic.leetcode-cn.com/26f65a40e5364cfb017f51e0b838ee7a34c0cd0bd5034a40eb40850813a680f4-1.png)
+// ![1.png](https://pic.leetcode-cn.com/26f65a40e5364cfb017f51e0b838ee7a34c0cd0bd5034a40eb40850813a680f4-1.png)

@@ -1,9 +1,9 @@
-### 解题思路
-DFS递归遍历树,如遇p或者q,返回1,其余返回0.结果(返回值)向上pop up,当第一次遇到2的返回值时,记下节点为结果!Done
+// ### 解题思路
+// DFS递归遍历树,如遇p或者q,返回1,其余返回0.结果(返回值)向上pop up,当第一次遇到2的返回值时,记下节点为结果!Done
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -31,4 +31,4 @@ class Solution {
         return left + right + mid;
     }
 }
-```
+// ```

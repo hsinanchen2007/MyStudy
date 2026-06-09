@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def fizzBuzz(self, n: int) -> List[str]:
         li = list(range(1,n+1))
@@ -13,4 +13,4 @@ class Solution:
                 li[i] = str(i+1)
         return li 
         
-```
+# ```

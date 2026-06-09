@@ -1,9 +1,9 @@
-### 解题思路
-C使用队列解题。
+// ### 解题思路
+// C使用队列解题。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct {
     int* index;
     int front;
@@ -134,4 +134,4 @@ void snakeGameFree(SnakeGame* obj) {
  
  * snakeGameFree(obj);
 */
-```
+// ```

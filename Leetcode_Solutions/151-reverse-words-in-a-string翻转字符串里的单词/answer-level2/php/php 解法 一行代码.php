@@ -1,11 +1,11 @@
-娱乐模式：
-```
+// 娱乐模式：
+// ```
 function reverseWords($s) {
     return implode(" ",array_reverse(array_filter(explode(" ",trim($s)))));
 }
-```
-正常解法：
-```
+// ```
+// 正常解法：
+// ```
 function reverseWords($s) {
     $s = trim($s);
     $s2 = "";
@@ -20,4 +20,4 @@ function reverseWords($s) {
     $s2 .= substr($s,0,$j);
     return $s2;
 }
-```
+// ```

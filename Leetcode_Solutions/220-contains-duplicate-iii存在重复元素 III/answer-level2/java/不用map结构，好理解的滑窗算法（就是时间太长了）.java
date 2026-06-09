@@ -1,5 +1,5 @@
-要点：1.（投机取巧地）设置成double防止溢出；2.动态滑窗
-比不上大神的算法，但是很好理解，不用map结构
+// 要点：1.（投机取巧地）设置成double防止溢出；2.动态滑窗
+// 比不上大神的算法，但是很好理解，不用map结构
 
 class Solution {
     public boolean containsNearbyAlmostDuplicate(int[] nums, int k, int t) {

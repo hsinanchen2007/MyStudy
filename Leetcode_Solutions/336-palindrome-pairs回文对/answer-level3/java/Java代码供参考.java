@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public List<List<Integer>> palindromePairs(String[] words) {
         int n = words.length;
@@ -96,4 +96,4 @@ class TrieNode {
         return wordIndex != -1;
     }
 }
-```
+// ```

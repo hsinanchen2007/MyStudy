@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def findUnsortedSubarray(self, nums):
         """
@@ -13,4 +13,4 @@ class Solution(object):
             elif nums[i]<maxnum:hi=i       
             maxnum=max(maxnum,nums[i])
         return hi-lo
-```
+# ```

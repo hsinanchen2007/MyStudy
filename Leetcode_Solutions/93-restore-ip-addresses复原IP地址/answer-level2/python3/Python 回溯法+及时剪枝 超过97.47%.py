@@ -1,9 +1,9 @@
-### 解题思路
-回溯法+及时剪枝
+# ### 解题思路
+# 回溯法+及时剪枝
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def restoreIpAddresses(self, s: str) -> List[str]:
 
@@ -33,4 +33,4 @@ class Solution:
 
         return  res
             
-```
+# ```

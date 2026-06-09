@@ -1,13 +1,13 @@
-# 0空间分配
-* 思路:
-*   使用L1+L2的节点空间进行值的存储
-*   先使用L1存储，如果L2.len > L1.len, 当前的Node->next = 当前L2.Node ;
-*   如果最高位进位了,导致当前Node->next == NULL,继续使用L2的头节点
-*   潜在风险：造成l2某段内存泄漏 或者 DoubleFree, LeetCode居然可以通过
-*   20ms/8.3MB
+// # 0空间分配
+// * 思路:
+// *   使用L1+L2的节点空间进行值的存储
+// *   先使用L1存储，如果L2.len > L1.len, 当前的Node->next = 当前L2.Node ;
+// *   如果最高位进位了,导致当前Node->next == NULL,继续使用L2的头节点
+// *   潜在风险：造成l2某段内存泄漏 或者 DoubleFree, LeetCode居然可以通过
+// *   20ms/8.3MB
   
-# 具体实现如下
-```
+// # 具体实现如下
+// ```
 struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
     //进位标志、当前和
     int flag = 0,nodeSum = 0;
@@ -38,14 +38,14 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
     }
     return ret;
 }
-```
-# 无内存泄漏版本
-*   思路：
-*   在L1空间消耗完毕时,记录当前L2位置,返回前修改L2指针位置
-*   20ms/8.3MB
+// ```
+// # 无内存泄漏版本
+// *   思路：
+// *   在L1空间消耗完毕时,记录当前L2位置,返回前修改L2指针位置
+// *   20ms/8.3MB
 
-具体实现如下：
-```
+// 具体实现如下：
+// ```
 struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
     int flag = 0, nodeSum = 0, freeflag = 0;
     struct ListNode *ret,*now,*high,*freeBegin,*freeEnd;
@@ -71,4 +71,4 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
     freeEnd->next = NULL;
     return ret;
 }
-```
+// ```

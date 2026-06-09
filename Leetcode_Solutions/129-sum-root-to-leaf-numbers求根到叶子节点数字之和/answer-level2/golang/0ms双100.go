@@ -1,20 +1,20 @@
-### 解题思路
-此处撰写解题思路
-深度优先搜索算法
-刚开始用指针失败了后面发现用值类型就好了
-每次往下遍历一层就需要把前面的*10
-最关键的在于sum sum1是用根节点的值
-if root.Left!=nil{
-		sum=sum*10+root.Val
-		left=sumNumbers1(root.Left,sum,sum)
-	}
-	if root.Right!=nil{
-		sum1=sum1*10+root.Val
-		right=sumNumbers1(root.Right,sum1,sum1)
-	}
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 深度优先搜索算法
+// 刚开始用指针失败了后面发现用值类型就好了
+// 每次往下遍历一层就需要把前面的*10
+// 最关键的在于sum sum1是用根节点的值
+// if root.Left!=nil{
+// 		sum=sum*10+root.Val
+// 		left=sumNumbers1(root.Left,sum,sum)
+// 	}
+// 	if root.Right!=nil{
+// 		sum1=sum1*10+root.Val
+// 		right=sumNumbers1(root.Right,sum1,sum1)
+// 	}
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -45,4 +45,4 @@ func sumNumbers1(root *TreeNode,sum,sum1 int) int {
 	}
 	return left+right
 }
-```
+// ```

@@ -1,6 +1,6 @@
-查表法，时间复杂度$O(8N)$。
+// 查表法，时间复杂度$O(8N)$。
 
-```c++ []
+// ```c++ []
 class Solution {
 public:
     vector<int> countBits(int num) {
@@ -24,4 +24,4 @@ private:
         return bit;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-一般思路
+// ### 解题思路
+// 一般思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int removeDuplicates(int* nums, int numsSize){
     if(numsSize==0)//长度为0的情况
         return 0;
@@ -23,4 +23,4 @@ int removeDuplicates(int* nums, int numsSize){
     return len;
 
 }
-```
+// ```

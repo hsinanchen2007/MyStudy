@@ -1,9 +1,9 @@
-### 解题思路
-    用一个足够长的数组（桶？）判断是否重复，用窗口判断子串长度，时间复杂度为O(n)
+// ### 解题思路
+//     用一个足够长的数组（桶？）判断是否重复，用窗口判断子串长度，时间复杂度为O(n)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int lengthOfLongestSubstring(char * s){
     int arr[128],start=1,maxlen=0,i,end=1;
     char *p=s;
@@ -19,4 +19,4 @@ int lengthOfLongestSubstring(char * s){
     if(end-start>maxlen) maxlen=end-start;
     return maxlen;
 }
-```
+// ```

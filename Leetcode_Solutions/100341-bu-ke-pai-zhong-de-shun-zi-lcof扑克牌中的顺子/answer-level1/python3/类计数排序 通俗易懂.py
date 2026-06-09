@@ -1,9 +1,9 @@
-### 解题思路
-与计数排序相似，但只需统计每个元素的出现情况即可
+# ### 解题思路
+# 与计数排序相似，但只需统计每个元素的出现情况即可
 
-### 代码
+# ### 代码
 
-```
+# ```
 class Solution:
     def isStraight(self, nums: List[int]) -> bool:
         zeroNum = 0  # 0的个数
@@ -23,7 +23,7 @@ class Solution:
         return True if curNum + zeroNum == 5 else False
 
 
-```
-### 复杂度
-时间复杂度O(n)
-空间复杂度O(1)
+# ```
+# ### 复杂度
+# 时间复杂度O(n)
+# 空间复杂度O(1)

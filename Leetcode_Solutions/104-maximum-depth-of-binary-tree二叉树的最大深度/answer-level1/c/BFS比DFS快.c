@@ -1,9 +1,9 @@
-### 解题思路
-直接按照层次遍历，多一层次深度加1
+// ### 解题思路
+// 直接按照层次遍历，多一层次深度加1
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -40,4 +40,4 @@ int maxDepth(struct TreeNode* root){
     
     return size;
 }
-```
+// ```

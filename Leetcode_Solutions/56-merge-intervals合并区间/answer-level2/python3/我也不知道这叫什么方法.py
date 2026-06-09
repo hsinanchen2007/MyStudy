@@ -1,12 +1,12 @@
 
-![截屏2020-02-22下午3.23.18.png](https://pic.leetcode-cn.com/886c638308a21c958a14dafd3e55c6334872cf677fe7b4c736676dab9976f0fc-%E6%88%AA%E5%B1%8F2020-02-22%E4%B8%8B%E5%8D%883.23.18.png)
-### 解题思路
-遍历每个interval
-选下个interval的开头和现有interval结尾比较，如果符合条件就合并
+# ![截屏2020-02-22下午3.23.18.png](https://pic.leetcode-cn.com/886c638308a21c958a14dafd3e55c6334872cf677fe7b4c736676dab9976f0fc-%E6%88%AA%E5%B1%8F2020-02-22%E4%B8%8B%E5%8D%883.23.18.png)
+# ### 解题思路
+# 遍历每个interval
+# 选下个interval的开头和现有interval结尾比较，如果符合条件就合并
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
 
@@ -33,4 +33,4 @@ class Solution:
                 tmp_end = next_right
         res.append([tmp_start,tmp_end])
         return res
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-由题意得：nums里的数字都在0~n-1的范围内，
-所以用一个和nums等长的数组用来计数。
-### 代码
+// ### 解题思路
+// 由题意得：nums里的数字都在0~n-1的范围内，
+// 所以用一个和nums等长的数组用来计数。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findRepeatNumber(vector<int>& nums) {
@@ -17,4 +17,4 @@ public:
         return 0;
     }
 };
-```
+// ```

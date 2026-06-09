@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 #define MAX_INF 100000
 class Solution {
 public:
@@ -18,4 +18,4 @@ public:
         return ans;
     }
 };
-```
+// ```

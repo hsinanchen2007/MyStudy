@@ -1,4 +1,4 @@
-```
+// ```
 #define NAME_LEN_MAX    32
 typedef struct nodesInfo {
     char name[NAME_LEN_MAX];
@@ -146,4 +146,4 @@ double* calcEquation(char *** equations, int equationsSize, int* equationsColSiz
 
     return retValues;
 }
-```
+// ```

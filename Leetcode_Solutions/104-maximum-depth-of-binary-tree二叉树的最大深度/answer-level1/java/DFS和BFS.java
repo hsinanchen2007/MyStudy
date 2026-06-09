@@ -1,15 +1,15 @@
 
-## 思路:
+// ## 思路:
 
-思路一:DFS
+// 思路一:DFS
 
-思路二:BFS
+// 思路二:BFS
 
-## 代码:
+// ## 代码:
 
-思路一:
+// 思路一:
 
-```python [1]
+// ```python [1]
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -21,11 +21,11 @@ class Solution:
     def maxDepth(self, root: TreeNode) -> int:
         if not root:return 0
         return 1 + max(self.maxDepth(root.left), self.maxDepth(root.right))
-```
+// ```
 
 
 
-```java [1]
+// ```java [1]
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -41,11 +41,11 @@ class Solution {
         return 1 + Math.max(maxDepth(root.left), maxDepth(root.right));  
     }
 }
-```
+// ```
 
-思路二:
+// 思路二:
 
-```python [2]
+// ```python [2]
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -71,10 +71,10 @@ class Solution:
                 if tmp.right:
                     queue.appendleft(tmp.right)
         return res
-```
+// ```
 
  
-```java [2]
+// ```java [2]
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -102,5 +102,5 @@ class Solution {
         return res;
     }
 }
-```
+// ```
 

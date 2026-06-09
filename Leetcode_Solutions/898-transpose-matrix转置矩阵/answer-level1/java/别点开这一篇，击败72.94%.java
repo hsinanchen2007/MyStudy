@@ -1,11 +1,11 @@
-### 解题思路
-除了两个for循环遍历每一个元素之外
+// ### 解题思路
+// 除了两个for循环遍历每一个元素之外
 
-被注释掉的部分，大致根据矩阵的长宽分为三种情况，balabala，最终用时与上面那个一样。
+// 被注释掉的部分，大致根据矩阵的长宽分为三种情况，balabala，最终用时与上面那个一样。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution{
     public int[][] transpose(int[][] A){
         int l1 = A.length, l2 = A[0].length;
@@ -60,4 +60,4 @@ class Solution{
 
 //     }
 // }
-```
+// ```

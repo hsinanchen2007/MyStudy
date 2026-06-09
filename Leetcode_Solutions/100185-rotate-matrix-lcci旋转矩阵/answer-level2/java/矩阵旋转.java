@@ -1,9 +1,9 @@
-### 解题思路
-顺时针旋转的时候抓住其中的四个对应点的位置坐标分别为(i,j),(n-1-j,i),(n-1-i,n-1-j),(j,n-1-i)
+// ### 解题思路
+// 顺时针旋转的时候抓住其中的四个对应点的位置坐标分别为(i,j),(n-1-j,i),(n-1-i,n-1-j),(j,n-1-i)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void rotate(int[][] matrix) {
         int n=matrix.length;
@@ -18,4 +18,4 @@ class Solution {
 		}
     }
 }
-```
+// ```

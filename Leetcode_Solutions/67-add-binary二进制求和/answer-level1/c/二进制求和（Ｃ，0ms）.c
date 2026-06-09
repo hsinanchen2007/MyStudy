@@ -1,9 +1,9 @@
-### 解题思路
-模拟二进制加法，判断一下进位情况即可。
+// ### 解题思路
+// 模拟二进制加法，判断一下进位情况即可。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * addBinary(char * a, char * b){
     int alen = strlen(a);
     int blen = strlen(b);
@@ -60,4 +60,4 @@ char * addBinary(char * a, char * b){
     p[k] = '\0';
     return p;
 }
-```
+// ```

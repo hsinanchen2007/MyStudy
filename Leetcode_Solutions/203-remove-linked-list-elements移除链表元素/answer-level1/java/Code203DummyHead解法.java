@@ -1,9 +1,9 @@
-### 解题思路
-使用dummyHead代码更简洁
+// ### 解题思路
+// 使用dummyHead代码更简洁
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -30,4 +30,4 @@ class Solution {
         return dummyHead.next;
     }
 }
-```
+// ```

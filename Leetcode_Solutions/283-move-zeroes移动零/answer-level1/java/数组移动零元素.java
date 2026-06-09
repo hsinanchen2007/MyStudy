@@ -1,9 +1,9 @@
-### 解题思路
-遇到零跳过，最后将0补齐
+// ### 解题思路
+// 遇到零跳过，最后将0补齐
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void moveZeroes(int[] nums) {
         int index = 0;
@@ -20,4 +20,4 @@ class Solution {
 }
 
 
-```
+// ```

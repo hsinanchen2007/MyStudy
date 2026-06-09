@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -95,10 +95,10 @@ int** combinationSum2(int* candidates, int candidatesSize, int target, int* retu
     *returnSize=resultSize;
     return result;
 }
-```
-组合
-1元素可否重复使用,first+1和first.
-2元素本身就有重复的，为了保证结果集不重复，在前边的基础上剪枝。若此元素不是同层孩子第一个且与前一个孩子值相同，则直接舍去，continue.
-排列
-用mark[]记录可用元素情况。只要同类元素一层只取其次就能保证结果不重复。
-直接用swap更简单，不用mark和path.
+// ```
+// 组合
+// 1元素可否重复使用,first+1和first.
+// 2元素本身就有重复的，为了保证结果集不重复，在前边的基础上剪枝。若此元素不是同层孩子第一个且与前一个孩子值相同，则直接舍去，continue.
+// 排列
+// 用mark[]记录可用元素情况。只要同类元素一层只取其次就能保证结果不重复。
+// 直接用swap更简单，不用mark和path.

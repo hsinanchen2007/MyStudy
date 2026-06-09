@@ -1,8 +1,8 @@
-菜鸟垃圾题解。给自己看的。
+// 菜鸟垃圾题解。给自己看的。
 
 
 
-```
+// ```
   public int[] sumZero(int n) {
         int[] num = new int[n];
         
@@ -29,4 +29,4 @@
         
         return num;
     }
-```
+// ```

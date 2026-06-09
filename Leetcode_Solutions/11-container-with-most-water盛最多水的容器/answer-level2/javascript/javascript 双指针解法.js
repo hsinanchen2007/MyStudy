@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/82401539ecbfbafb441d14ffa81226b7f187c1065a29c1642cfcfe8a2d8c0d97-image.png)
-```js
+// ![image.png](https://pic.leetcode-cn.com/82401539ecbfbafb441d14ffa81226b7f187c1065a29c1642cfcfe8a2d8c0d97-image.png)
+// ```js
 var maxArea = function(height) {
     let i = 0, // 左边界
         j = height.length - 1, // 右边界
@@ -22,4 +22,4 @@ var maxArea = function(height) {
     }
     return res;
 };
-```
+// ```

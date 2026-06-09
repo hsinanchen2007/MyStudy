@@ -1,14 +1,14 @@
-### 解题思路
-递归算法要点：
-    1 结束条件
-    2 规律
+# ### 解题思路
+# 递归算法要点：
+#     1 结束条件
+#     2 规律
 
-结束条件是： 既然肯定是有序，只要两者有一个为空，返回另一个即可
+# 结束条件是： 既然肯定是有序，只要两者有一个为空，返回另一个即可
 
-规律是：找到最小的点n1，然后将其余的点的最小的点n2赋值给n1.next，而想要求出n2的next，则需要找到n3，想要求n3的next，则要求出n4....
-### 代码
+# 规律是：找到最小的点n1，然后将其余的点的最小的点n2赋值给n1.next，而想要求出n2的next，则需要找到n3，想要求n3的next，则要求出n4....
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -26,4 +26,4 @@ class Solution:
         next_node = min_node.next
         min_node.next = self.mergeTwoLists(next_node, max_node)
         return min_node
-```
+# ```

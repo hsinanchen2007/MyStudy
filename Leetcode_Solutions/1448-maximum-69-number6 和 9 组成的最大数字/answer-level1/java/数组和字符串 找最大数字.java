@@ -1,9 +1,9 @@
-### 解题思路
-好幼稚....好复杂......
+// ### 解题思路
+// 好幼稚....好复杂......
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maximum69Number (int num) {
         int geshu=String.valueOf(num).length();
@@ -30,4 +30,4 @@ class Solution {
         return out;
     }
 }
-```
+// ```

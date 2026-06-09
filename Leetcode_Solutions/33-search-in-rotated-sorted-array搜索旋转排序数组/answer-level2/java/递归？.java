@@ -1,14 +1,14 @@
 
-对于形如    [3，4，5，1，2] 即`left[0] <= right[0]`
-if `left[0] <= target && target < right[0]` 去左边找；else 去右边；
+// 对于形如    [3，4，5，1，2] 即`left[0] <= right[0]`
+// if `left[0] <= target && target < right[0]` 去左边找；else 去右边；
 
-对于形如    [5，1，2，3，4] 即`left[0] > right[0]`
-if `right[0] < target && target <= right[right.length-1]` 去右边找； else 去左边；
+// 对于形如    [5，1，2，3，4] 即`left[0] > right[0]`
+// if `right[0] < target && target <= right[right.length-1]` 去右边找； else 去左边；
 
-以下代码块，总感觉有点蠢=。=
+// 以下代码块，总感觉有点蠢=。=
 
 
-```
+// ```
 class Solution {
     public int search(int[] nums, int target) {
         if (nums.length == 0) return -1;
@@ -47,4 +47,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

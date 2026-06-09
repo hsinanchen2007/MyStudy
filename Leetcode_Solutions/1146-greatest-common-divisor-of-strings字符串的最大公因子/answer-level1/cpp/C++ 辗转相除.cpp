@@ -1,9 +1,9 @@
-### 解题思路
-辗转相除求最大公因式
+// ### 解题思路
+// 辗转相除求最大公因式
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string gcdOfStrings(string str1, string str2) {
@@ -19,4 +19,4 @@ public:
         return str1;
     }
 };
-```
+// ```

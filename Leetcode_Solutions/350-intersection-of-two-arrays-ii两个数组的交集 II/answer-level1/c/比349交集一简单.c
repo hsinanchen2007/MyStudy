@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/9a27107ee2b78b471ea97a57e912a3fddd72879608a0b35248dd205e1e3922c4-image.png)
+// ![image.png](https://pic.leetcode-cn.com/9a27107ee2b78b471ea97a57e912a3fddd72879608a0b35248dd205e1e3922c4-image.png)
 
-我是快排加二分再加归并方法求交集
+// 我是快排加二分再加归并方法求交集
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -54,4 +54,4 @@ int* intersect(int* nums1, int nums1Size, int* nums2, int nums2Size, int* return
     *returnSize = cnt;
     return arr;
 }
-```
+// ```

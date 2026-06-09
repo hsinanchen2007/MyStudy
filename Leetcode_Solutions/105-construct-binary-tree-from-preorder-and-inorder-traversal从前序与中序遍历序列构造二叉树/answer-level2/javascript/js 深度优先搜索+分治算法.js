@@ -1,4 +1,4 @@
-```js
+// ```js
 interface TreeNode {
   val: any;
   left: TreeNode | null;
@@ -45,4 +45,4 @@ var buildTree = function(
   }
   return recursive(0, 0, inorder.length - 1);
 };
-```
+// ```

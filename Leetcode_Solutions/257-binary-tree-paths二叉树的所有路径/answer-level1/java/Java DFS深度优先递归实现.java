@@ -1,8 +1,8 @@
-核心思想：
-（1）递归遍历；
-（2）使用path变量保存每一步走的路；
+// 核心思想：
+// （1）递归遍历；
+// （2）使用path变量保存每一步走的路；
 
-```
+// ```
 public List<String> binaryTreePaths(TreeNode root) {
         List<String> paths = new ArrayList<>();
         dfs(root, "", paths);
@@ -24,4 +24,4 @@ public List<String> binaryTreePaths(TreeNode root) {
         dfs(node.left, path, paths);
         dfs(node.right, path, paths);
     }
-```
+// ```

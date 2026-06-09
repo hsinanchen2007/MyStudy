@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
        row = len(grid)
         col = len(grid[0])
         rottens = [(i, j) for i in range(row) for j in range(col) if grid[i][j] == 2]
@@ -25,4 +25,4 @@
             time += 1
 
         return time
-```
+# ```

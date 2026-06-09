@@ -1,8 +1,8 @@
-作为一名微电子专业的学生，我用Python编写的二进制加法基本是仿照**硬件加法器**的思路来写的，所以整体的运行速度还是很不错的。
+# 作为一名微电子专业的学生，我用Python编写的二进制加法基本是仿照**硬件加法器**的思路来写的，所以整体的运行速度还是很不错的。
 
-但是牺牲了比较多的存储资源，所以空间复杂度还是比较夸张的。
-基本代码如下：
-```Python
+# 但是牺牲了比较多的存储资源，所以空间复杂度还是比较夸张的。
+# 基本代码如下：
+# ```Python
 def addBinary(self, a: str, b: str) -> str:
     length_a = len(a)
     length_b = len(b)
@@ -46,6 +46,6 @@ def addBinary(self, a: str, b: str) -> str:
                     cin = '1'
     if cin == '1': string_res = '1' + string_res
     return string_res
-```
-**提交结果如下：**
-![image.png](https://pic.leetcode-cn.com/aa08f2f3010002a5d891f56988f45e97e424dba4615715f3315f0cc239fc837f-image.png)
+# ```
+# **提交结果如下：**
+# ![image.png](https://pic.leetcode-cn.com/aa08f2f3010002a5d891f56988f45e97e424dba4615715f3315f0cc239fc837f-image.png)

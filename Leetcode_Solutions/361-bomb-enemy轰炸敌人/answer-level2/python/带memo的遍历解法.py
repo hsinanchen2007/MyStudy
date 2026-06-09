@@ -1,5 +1,5 @@
-思路来源于油管上一个小姐姐的思路https:[LeetCode 361. Bomb Enemy 中文解释 Chinese Version](https://www.youtube.com/watch?v=WWVQq_OrgQs)，对普通的暴力解法进行了小幅升级
-```
+# 思路来源于油管上一个小姐姐的思路https:[LeetCode 361. Bomb Enemy 中文解释 Chinese Version](https://www.youtube.com/watch?v=WWVQq_OrgQs)，对普通的暴力解法进行了小幅升级
+# ```
 class Solution(object):
     def maxKilledEnemies(self, grid):
         if not grid:
@@ -39,4 +39,4 @@ class Solution(object):
                     res = max(res, find(i, j))
                     
         return res
-```
+# ```

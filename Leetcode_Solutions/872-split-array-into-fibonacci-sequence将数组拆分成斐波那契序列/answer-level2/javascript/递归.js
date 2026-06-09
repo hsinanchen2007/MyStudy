@@ -1,14 +1,14 @@
-## 运行情况
-![image.png](https://pic.leetcode-cn.com/479104a93899b64ec99813626444577531a21052492e3112e8457f953c78cb2f-image.png)
+// ## 运行情况
+// ![image.png](https://pic.leetcode-cn.com/479104a93899b64ec99813626444577531a21052492e3112e8457f953c78cb2f-image.png)
 
-## 思路
-参照[累加数](https://leetcode-cn.com/problems/additive-number/solution/di-gui-ji-bai-100-by-lee-lei/)
-需要多加一些判断
-- 每个数要小于2^31-1
-- 多加一个参数path来保存路径
+// ## 思路
+// 参照[累加数](https://leetcode-cn.com/problems/additive-number/solution/di-gui-ji-bai-100-by-lee-lei/)
+// 需要多加一些判断
+// - 每个数要小于2^31-1
+// - 多加一个参数path来保存路径
 
-## 题解
-```
+// ## 题解
+// ```
 var splitIntoFibonacci = function(S) {
     if(S.length<3){
         return false;
@@ -47,4 +47,4 @@ var splitIntoFibonacci = function(S) {
     backtrack("","",S,[]);
     return ans;
 };
-```
+// ```

@@ -1,13 +1,13 @@
-### 解题思路
-定义top3， 一次遍历，修复top3的值。
+// ### 解题思路
+// 定义top3， 一次遍历，修复top3的值。
 
-### 性能
-执行用时 :16 ms, 在所有 PHP 提交中击败了94.29%的用户
-内存消耗 :16.1 MB, 在所有 PHP 提交中击败了83.33%的用户
+// ### 性能
+// 执行用时 :16 ms, 在所有 PHP 提交中击败了94.29%的用户
+// 内存消耗 :16.1 MB, 在所有 PHP 提交中击败了83.33%的用户
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -45,7 +45,7 @@ class Solution {
         return $flag >= 3 ? $top3 : $top1;
     }
 }
-```
+// ```
 
-### 参考
-[Java O(n)算法](https://leetcode-cn.com/problems/third-maximum-number/comments/11539)
+// ### 参考
+// [Java O(n)算法](https://leetcode-cn.com/problems/third-maximum-number/comments/11539)

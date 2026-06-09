@@ -1,6 +1,6 @@
-提供两种算法实现：一种是暴力解法,时间复杂度较高(n^2)
+// 提供两种算法实现：一种是暴力解法,时间复杂度较高(n^2)
 
-```swift []
+// ```swift []
 func lengthOfLongestSubstring(_ s: String) -> Int {
         
         let stringLength = s.count;
@@ -37,10 +37,10 @@ func lengthOfLongestSubstring(_ s: String) -> Int {
         
         return length
     }
-```
+// ```
 
-第二种是滑动窗口解法,时间复杂度(n)
-```swift []
+// 第二种是滑动窗口解法,时间复杂度(n)
+// ```swift []
     
     /// 滑动窗口,时间复杂度(n)
     func lengthOfLongestSubstringBetter(_ s: String) -> Int {
@@ -68,8 +68,8 @@ func lengthOfLongestSubstring(_ s: String) -> Int {
         return length
     }
 }
-```
+// ```
 
-[算法实现原理和画解，请参考该内容](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/solution/hua-jie-suan-fa-3-wu-zhong-fu-zi-fu-de-zui-chang-z)
+// [算法实现原理和画解，请参考该内容](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/solution/hua-jie-suan-fa-3-wu-zhong-fu-zi-fu-de-zui-chang-z)
 
-[想看具体工程和运行的，请至我Git](https://github.com/z251257144/Leetcode_Swift)
+// [想看具体工程和运行的，请至我Git](https://github.com/z251257144/Leetcode_Swift)

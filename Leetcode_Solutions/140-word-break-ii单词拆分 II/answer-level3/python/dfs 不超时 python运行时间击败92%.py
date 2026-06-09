@@ -1,9 +1,9 @@
-这道题用回溯法超时。
+# 这道题用回溯法超时。
 
-不过可以用cache加速。
+# 不过可以用cache加速。
 
-也是dfs，不过是加速后的dfs。
-```
+# 也是dfs，不过是加速后的dfs。
+# ```
 class Solution(object):
     def wordBreak(self, s, wordDict):
         """
@@ -30,4 +30,4 @@ class Solution(object):
             memo[s] = res
             return res
         return helper(s,wordDict,{})
-```
+# ```

@@ -1,22 +1,22 @@
-## 思路:
+# ## 思路:
 
-回溯算法
+# 回溯算法
 
-记录 行, 列, 正对角,负对角,不能有两个以上的棋子.
+# 记录 行, 列, 正对角,负对角,不能有两个以上的棋子.
 
-如何判断是否在对角上呢?
+# 如何判断是否在对角上呢?
 
-正对角就是相加之和一样的
+# 正对角就是相加之和一样的
 
-负对角就是相减只差一样的
+# 负对角就是相减只差一样的
 
-------
+# ------
 
 
 
-## 代码:
+# ## 代码:
 
-```python [1]
+# ```python [1]
 class Solution:
     def totalNQueens(self, n: int) -> int:
         self.res = 0
@@ -29,11 +29,11 @@ class Solution:
             return False
         backtrack(0,set(),set(),set())    
         return self.res
-```
+# ```
 
 
 
-```java [1]
+# ```java [1]
 class Solution {
     int res = 0;
     public int totalNQueens(int n) {
@@ -62,5 +62,5 @@ class Solution {
         return false;
     }
 }
-```
+# ```
 

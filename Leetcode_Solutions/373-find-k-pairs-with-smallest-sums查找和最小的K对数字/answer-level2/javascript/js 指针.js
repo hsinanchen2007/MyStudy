@@ -1,7 +1,7 @@
-定义数组 tails[i] 表示 nums2 中未被添加的与 nums1[i] 相加最小的下标
-由于 nums1 和 nums2 都是升序的
-显然当前最小值在 nums1[0] + nums2[tails[0]], nums1[1] + nums2[tails[1]] ... nums1[n] + nums2[tails[n]] 之中
-```javascript
+// 定义数组 tails[i] 表示 nums2 中未被添加的与 nums1[i] 相加最小的下标
+// 由于 nums1 和 nums2 都是升序的
+// 显然当前最小值在 nums1[0] + nums2[tails[0]], nums1[1] + nums2[tails[1]] ... nums1[n] + nums2[tails[n]] 之中
+// ```javascript
 /**
  * @param {number[]} nums1
  * @param {number[]} nums2
@@ -42,5 +42,5 @@ var kSmallestPairs = function(nums1, nums2, k) {
 
   return result;
 };
-```
-时间复杂度 O(nk), 空间复杂度 O(n), n 为 nums1 长度
+// ```
+// 时间复杂度 O(nk), 空间复杂度 O(n), n 为 nums1 长度

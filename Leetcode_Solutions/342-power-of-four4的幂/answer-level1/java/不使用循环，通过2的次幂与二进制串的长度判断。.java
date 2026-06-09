@@ -1,9 +1,9 @@
-### 解题思路
-发现新大陆，熏弟们进来看看
+// ### 解题思路
+// 发现新大陆，熏弟们进来看看
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isPowerOfFour(int num) {
         if (num < 1) return false;
@@ -14,4 +14,4 @@ class Solution {
         return isPowerOf2 && (blen & 1) == 1;
     }
 }
-```
+// ```

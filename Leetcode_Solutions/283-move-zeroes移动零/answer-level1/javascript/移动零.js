@@ -1,4 +1,4 @@
-```js
+// ```js
 var moveZeroes = function(nums) {
     for(let i = nums.length - 1; i >= 0 ; i--) {
     	if (nums[i] === 0) {
@@ -8,4 +8,4 @@ var moveZeroes = function(nums) {
     }
     return nums
 };
-```
+// ```

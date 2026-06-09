@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def minArea(self, image: List[List[str]], x: int, y: int) -> int:
         l=r=u=d=-1
@@ -10,4 +10,4 @@ class Solution:
                     u=i if u==-1 else min(u,i)
                     d=i if d==-1 else max(d,i)
         return (d-u+1)*(r-l+1)
-```
+# ```

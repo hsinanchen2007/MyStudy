@@ -1,9 +1,9 @@
-### 解题思路
-从小往大合并比较麻烦，由于A已给出合适的空间，因此从大往小进行合并更为方便。
+# ### 解题思路
+# 从小往大合并比较麻烦，由于A已给出合适的空间，因此从大往小进行合并更为方便。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def merge(self, A, m, B, n):
         """
@@ -27,4 +27,4 @@ class Solution(object):
                 A[j]=B[j]
                 j=j-1
         return A
-```
+# ```

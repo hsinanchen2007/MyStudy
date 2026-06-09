@@ -1,9 +1,9 @@
-### 解题思路
-写个题解纪念一下第一道没看答案做出来的困难题，虽然时间和空间复杂度都不算好。
+# ### 解题思路
+# 写个题解纪念一下第一道没看答案做出来的困难题，虽然时间和空间复杂度都不算好。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def trap(self, height: List[int]) -> int:
         if len(height) < 3: #长度超过3才能盛水
@@ -27,4 +27,4 @@ class Solution:
                 dp[s] = dp[s - 1] + add
             s += 1
         return dp[-1]
-```
+# ```

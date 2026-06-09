@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-深度优先遍历获取高度，根据高度判断
+// ### 解题思路
+// 此处撰写解题思路
+// 深度优先遍历获取高度，根据高度判断
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -71,4 +71,4 @@ func helper(root *TreeNode, height int, result *[]int) (isComplete bool) {
 }
 
 
-```
+// ```

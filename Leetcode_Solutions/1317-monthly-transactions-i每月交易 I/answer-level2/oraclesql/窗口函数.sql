@@ -1,4 +1,4 @@
-```
+-- ```
 /* Write your PL/SQL query statement below */
 select distinct month,country,
     count(*) over(partition by month,country) trans_count,
@@ -10,4 +10,4 @@ from (
     from Transactions
     )
 order by month;
-```
+-- ```

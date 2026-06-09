@@ -1,6 +1,6 @@
-统计出现个数为1的数  倒序输出第1个
+// 统计出现个数为1的数  倒序输出第1个
 
-```
+// ```
 class Solution {
     public int largestUniqueNumber(int[] A) {
         int []  hash =  new int[1001] ;
@@ -13,4 +13,4 @@ class Solution {
         return -1 ;
     }
 }
-```
+// ```

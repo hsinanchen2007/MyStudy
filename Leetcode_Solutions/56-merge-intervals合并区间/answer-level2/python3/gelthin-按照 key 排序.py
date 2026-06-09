@@ -1,14 +1,14 @@
-### 解题思路
-参照了官方题解的思路
-使用了 python3 的语法 A.sort(key = lambda x: x[0])
-这个要记牢。
+# ### 解题思路
+# 参照了官方题解的思路
+# 使用了 python3 的语法 A.sort(key = lambda x: x[0])
+# 这个要记牢。
 
-如果不用此，自己也要会写。定义一个额外的比较函数 cmp (compare) 即可
+# 如果不用此，自己也要会写。定义一个额外的比较函数 cmp (compare) 即可
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
         if intervals and len(intervals[0]) == 2:  # [[]] 算非空
@@ -22,4 +22,4 @@ class Solution:
 
         return merged
 
-```
+# ```

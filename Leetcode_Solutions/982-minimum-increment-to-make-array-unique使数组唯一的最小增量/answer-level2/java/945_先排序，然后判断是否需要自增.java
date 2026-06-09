@@ -1,9 +1,9 @@
-### 解题思路
-先进行排序，然后判断相邻右边元素是否小于等于左边，若是则右边为左边加一
+// ### 解题思路
+// 先进行排序，然后判断相邻右边元素是否小于等于左边，若是则右边为左边加一
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minIncrementForUnique(int[] A) {
         if(A.length<=1)
@@ -23,4 +23,4 @@ class Solution {
         
     }
 }
-```
+// ```

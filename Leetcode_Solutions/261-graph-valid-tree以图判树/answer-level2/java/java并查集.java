@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     int[] parent;
     public boolean validTree(int n, int[][] edges) {
@@ -28,4 +28,4 @@ class Solution {
         return parent[x];
     }
 }
-```
+// ```

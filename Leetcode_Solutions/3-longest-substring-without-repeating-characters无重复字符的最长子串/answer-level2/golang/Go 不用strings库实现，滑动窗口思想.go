@@ -1,11 +1,11 @@
-### 解题思路
-1、通过定义两个i，j变量，将j不断的指向下一个元素，并判断原有元素中是否包含j指向的元素，如果不含就将i下移动，同时将j重置为i的下一个下标
-2、每次加入新元素都算一下最大值，最后直接返回该值
+// ### 解题思路
+// 1、通过定义两个i，j变量，将j不断的指向下一个元素，并判断原有元素中是否包含j指向的元素，如果不含就将i下移动，同时将j重置为i的下一个下标
+// 2、每次加入新元素都算一下最大值，最后直接返回该值
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func lengthOfLongestSubstring(s string) int {
     bytes:=[]byte(s)
     if len(bytes)<=1{
@@ -50,4 +50,4 @@ func checkExist(ret []byte,target byte)bool{
     }
     return false
 }
-```
+// ```

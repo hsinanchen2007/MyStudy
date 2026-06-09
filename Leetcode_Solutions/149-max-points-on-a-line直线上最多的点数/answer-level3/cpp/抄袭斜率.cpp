@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
           int gcd(int dy,int dx){
@@ -38,4 +38,4 @@ public:
         return res;
     }
 };
-```
+// ```

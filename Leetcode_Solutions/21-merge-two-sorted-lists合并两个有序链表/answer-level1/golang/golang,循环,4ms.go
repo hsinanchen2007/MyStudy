@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/467369fe7df9e2aaa8cd2e76525757e283dbdb5d872c240d89cbc24a61906438-image.png)
+// ![image.png](https://pic.leetcode-cn.com/467369fe7df9e2aaa8cd2e76525757e283dbdb5d872c240d89cbc24a61906438-image.png)
 
 
 
-```
+// ```
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -53,4 +53,4 @@ func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
 
 	return l3Fast
 }
-```
+// ```

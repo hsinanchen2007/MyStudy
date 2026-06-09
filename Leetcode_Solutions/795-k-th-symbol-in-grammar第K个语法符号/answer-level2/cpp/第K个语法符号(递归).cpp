@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution 
 {
 public:
@@ -17,5 +17,5 @@ public:
         else return re(kthGrammar(N-1,K/2));
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/548bf99ff417a933f11a5cc83705fef7066afa559dd8b2f445f843115e898e57-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/548bf99ff417a933f11a5cc83705fef7066afa559dd8b2f445f843115e898e57-image.png)

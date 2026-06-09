@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     //front > back --> return true
@@ -30,4 +30,4 @@ public:
         return s.substr(max_index, s_len - max_index);
     }
 };
-```
+// ```

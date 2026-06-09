@@ -1,4 +1,4 @@
-```
+// ```
 //没有排序答案也是对的。。。
 /*inline bool cmp(const pair<int,int>&a,const pair<int,int>&b){
     if(a.first!=b.first)return a.first<b.first;
@@ -29,4 +29,4 @@ public:
 
     }
 };
-```
+// ```

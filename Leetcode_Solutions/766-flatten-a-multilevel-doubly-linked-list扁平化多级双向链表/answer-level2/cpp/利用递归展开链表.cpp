@@ -1,4 +1,4 @@
-```
+// ```
     Node* flatten_recurse(Node* head, Node*& tail)
     {
         if (head == nullptr)
@@ -38,4 +38,4 @@
         Node* tail = nullptr;
         return flatten_recurse(head, tail);
     }
-```
+// ```

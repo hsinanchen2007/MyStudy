@@ -1,9 +1,9 @@
-### 解题思路
-两个指针，两个链表节点的总数是一定的，所以只要都走一遍就会出循环无论是找到还是没找到
+// ### 解题思路
+// 两个指针，两个链表节点的总数是一定的，所以只要都走一遍就会出循环无论是找到还是没找到
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -32,4 +32,4 @@ public class Solution {
         return p1;
     }
 }
-```
+// ```

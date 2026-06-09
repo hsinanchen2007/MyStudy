@@ -1,9 +1,9 @@
-### 解题思路
-异或的性质
+// ### 解题思路
+// 异或的性质
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> swapNumbers(vector<int>& numbers) {
@@ -11,4 +11,4 @@ public:
         return numbers;
     }
 };
-```
+// ```

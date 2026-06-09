@@ -1,9 +1,9 @@
-### 解题思路
-双指针，移动时候注意消减左边的数字
+// ### 解题思路
+// 双指针，移动时候注意消减左边的数字
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 int minSubArrayLen(int s, int* nums, int numsSize){
     int i;

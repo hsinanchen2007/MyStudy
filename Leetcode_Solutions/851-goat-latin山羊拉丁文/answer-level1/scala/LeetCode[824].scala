@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
   def makeNewWord(s: String, num: Int) = {
     val ret = if (List('a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U').contains(s(0))) s
@@ -11,4 +11,4 @@ object Solution {
     words.zipWithIndex.map(x => makeNewWord(x._1, x._2)).mkString(" ")
   }
 }
-```
+// ```

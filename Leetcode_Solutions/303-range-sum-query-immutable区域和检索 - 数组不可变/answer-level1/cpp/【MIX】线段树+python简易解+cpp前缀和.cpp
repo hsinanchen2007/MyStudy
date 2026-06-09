@@ -1,9 +1,9 @@
-### 解题思路
-借助线段树实现，也可以调用python中的$sum()$函数
+// ### 解题思路
+// 借助线段树实现，也可以调用python中的$sum()$函数
 
-### 代码
+// ### 代码
 
-```java []
+// ```java []
 class NumArray {
     
     // 线段树操作接口
@@ -105,8 +105,8 @@ class NumArray {
  * NumArray obj = new NumArray(nums);
  * int param_1 = obj.sumRange(i,j);
  */
-```
-```python []
+// ```
+// ```python []
 class NumArray:
     # 注意函数会多次调用
     def __init__(self, nums: List[int]):
@@ -114,8 +114,8 @@ class NumArray:
 
     def sumRange(self, i: int, j: int) -> int:
         return sum(self.nums[i:j+1])
-```
-```c++ []
+// ```
+// ```c++ []
 class NumArray {
 public:
     NumArray(vector<int>& nums) {
@@ -155,4 +155,4 @@ private:
     vector<int> data;
 };
 */
-```
+// ```

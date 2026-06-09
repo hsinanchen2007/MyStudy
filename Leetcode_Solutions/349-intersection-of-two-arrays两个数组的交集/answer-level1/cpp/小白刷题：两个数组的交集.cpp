@@ -1,7 +1,7 @@
-nums1利用set去重，nums2查找交集元素
+// nums1利用set去重，nums2查找交集元素
 
-代码：
-```
+// 代码：
+// ```
 class Solution {
 public:
     vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
@@ -18,4 +18,4 @@ public:
         return ans;
     }
 };
-```
+// ```

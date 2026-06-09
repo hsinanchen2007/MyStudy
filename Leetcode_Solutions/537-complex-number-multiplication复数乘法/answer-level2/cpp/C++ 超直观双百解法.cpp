@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     string complexNumberMultiply(string a, string b) {
@@ -13,5 +13,5 @@ public:
         return res1 + "+" + res2 + "i";
     }
 };
-```
+// ```
 

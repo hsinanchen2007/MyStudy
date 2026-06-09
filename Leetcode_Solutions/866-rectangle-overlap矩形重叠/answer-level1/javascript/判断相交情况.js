@@ -1,9 +1,9 @@
-### 解题思路
-以第一个参数的矩形的左下角建立坐标系，第二个矩形的坐下角可能在四个象限，分别判断每个象限情况相交的情况即可。
+// ### 解题思路
+// 以第一个参数的矩形的左下角建立坐标系，第二个矩形的坐下角可能在四个象限，分别判断每个象限情况相交的情况即可。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} rec1
  * @param {number[]} rec2
@@ -33,4 +33,4 @@ var isRectangleOverlap = function(rec1, rec2) {
             return false
 
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![二进制求和-67.png](https://pic.leetcode-cn.com/aa4876b21ac0bd7648df38c64890238f15dfe1d51c93ec315a1f716d5466ba88-%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%B1%82%E5%92%8C-67.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![二进制求和-67.png](https://pic.leetcode-cn.com/aa4876b21ac0bd7648df38c64890238f15dfe1d51c93ec315a1f716d5466ba88-%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%B1%82%E5%92%8C-67.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
     class Solution {
     public String addBinary(String a, String b) {
         StringBuilder sb = new StringBuilder();     
@@ -34,4 +34,4 @@
 }
 
 
-```
+// ```

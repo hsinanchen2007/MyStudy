@@ -1,9 +1,9 @@
-### 解题思路
-不考虑顺序可以使用双指针填充
+// ### 解题思路
+// 不考虑顺序可以使用双指针填充
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] sortArrayByParity(int[] A) {
         // 既然不考虑顺序双指针填充
@@ -18,4 +18,4 @@ class Solution {
         return rs;
     }
 }
-```
+// ```

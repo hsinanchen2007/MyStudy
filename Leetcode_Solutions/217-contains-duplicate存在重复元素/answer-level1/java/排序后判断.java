@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean containsDuplicate(int[] nums) {
         Arrays.sort(nums);
@@ -12,4 +12,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

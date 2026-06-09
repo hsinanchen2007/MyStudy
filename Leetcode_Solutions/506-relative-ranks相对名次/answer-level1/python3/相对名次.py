@@ -1,6 +1,6 @@
-✔ Your runtime beats 84.5 % of python3 submissions
-  ✔ Your memory usage beats 93.33 % of python3 submissions (14 MB)
-```
+# ✔ Your runtime beats 84.5 % of python3 submissions
+#   ✔ Your memory usage beats 93.33 % of python3 submissions (14 MB)
+# ```
  s,dic,start = sorted(nums,reverse=True),{},1
        for i,val in enumerate(s):
            if start == 1:
@@ -17,4 +17,4 @@
            res.append(dic.get(nums[i]))
        return res
 
-```
+# ```

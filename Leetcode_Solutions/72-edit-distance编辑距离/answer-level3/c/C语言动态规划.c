@@ -1,19 +1,19 @@
-### 解题思路
-动态规划，难点在状态和转移方程
-状态：DP[i][j]表示前word1前i个字符和word2前j个字符转换的最小操作数。
-根据变换规则分解子问题
-删除/增加1个字符：DP[i - 1][j]和DP[i][j - 1]
-替换1个字符：DP[i - 1][j - 1]
-转换方程：
-if(word1[i] == word1[j]){
-    DP[i][j] = MIN((MIN(DP[i - 1][j], DP[i][j - 1]) + 1), DP[i - 1][j - 1])
-} else {
-    DP[i][j] = (MIN(DP[i - 1][j], DP[i][j - 1],  DP[i - 1][j - 1])) + 1
-}
+// ### 解题思路
+// 动态规划，难点在状态和转移方程
+// 状态：DP[i][j]表示前word1前i个字符和word2前j个字符转换的最小操作数。
+// 根据变换规则分解子问题
+// 删除/增加1个字符：DP[i - 1][j]和DP[i][j - 1]
+// 替换1个字符：DP[i - 1][j - 1]
+// 转换方程：
+// if(word1[i] == word1[j]){
+//     DP[i][j] = MIN((MIN(DP[i - 1][j], DP[i][j - 1]) + 1), DP[i - 1][j - 1])
+// } else {
+//     DP[i][j] = (MIN(DP[i - 1][j], DP[i][j - 1],  DP[i - 1][j - 1])) + 1
+// }
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 #define MIN(a, b) ((a > b) ? b : a)
 #define PRINTF //printf
@@ -82,4 +82,4 @@ int minDistance(char * word1, char * word2){
     FreeArray(pDisDp, lenWord1);
     return iRet;
 }
-```
+// ```

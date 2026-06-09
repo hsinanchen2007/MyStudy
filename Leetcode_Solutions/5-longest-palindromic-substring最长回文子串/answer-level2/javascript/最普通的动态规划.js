@@ -1,7 +1,7 @@
-比较菜，好久才学习写出最普通的动态规划版本，明天再优化～～
+// 比较菜，好久才学习写出最普通的动态规划版本，明天再优化～～
 
-# 动态规划
-```
+// # 动态规划
+// ```
 /**
  * @param {string} s
  * @return {string}
@@ -30,11 +30,11 @@ var longestPalindrome = function(s) {
     console.log(dp)
     return res;
 };
-```
+// ```
 
 
-# 中心扩散的版本
-```
+// # 中心扩散的版本
+// ```
 var longestPalindrome = function (s) {
     if(!s && s < 2) return s
     let len = s.length;
@@ -60,4 +60,4 @@ var longestPalindrome = function (s) {
     }
     return s.slice(start,end+1)
 }
-```
+// ```

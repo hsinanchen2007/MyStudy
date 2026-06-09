@@ -1,9 +1,9 @@
-### 解题思路
-注意最长路径可能不经过根节点
+// ### 解题思路
+// 注意最长路径可能不经过根节点
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -36,4 +36,4 @@ class Solution {
         return Math.max(maxLeft, maxRight) + 1;
     }
 }
-```
+// ```

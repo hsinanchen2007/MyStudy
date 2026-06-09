@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def search(self, nums, target: int) -> int:
         if not nums: return -1 #解决问题的关键是找到无序数组的有序部分，从而进行二分查找
@@ -32,4 +32,4 @@ nums1 = [9]
 target = 9
 print(Solution().search(nums,target))
 print(Solution().search(nums1,target))
-```
+# ```

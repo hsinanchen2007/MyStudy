@@ -1,5 +1,5 @@
 
-```
+# ```
 def remove_duplicates(nums)
     return nums.length if nums.length < 2
     (nums.length-1).downto(0) do |index|
@@ -8,4 +8,4 @@ def remove_duplicates(nums)
     end
     nums.length
 end
-```
+# ```

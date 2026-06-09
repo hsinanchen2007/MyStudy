@@ -1,9 +1,9 @@
-### 思路
-深度优先遍历
+# ### 思路
+# 深度优先遍历
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def __init__(self):
         self.res = []
@@ -24,4 +24,4 @@ class Solution:
         self.dfs('', n, n);
         return self.res
 
-```
+# ```

@@ -1,6 +1,6 @@
-![FF234CE2A331404EF5089F5954D94D70.png](https://pic.leetcode-cn.com/02e672c2819c4f4c52465b6f812ccdf32ecfd7611390342379d7d5f7a4746891-FF234CE2A331404EF5089F5954D94D70.png)
-``
-```
+// ![FF234CE2A331404EF5089F5954D94D70.png](https://pic.leetcode-cn.com/02e672c2819c4f4c52465b6f812ccdf32ecfd7611390342379d7d5f7a4746891-FF234CE2A331404EF5089F5954D94D70.png)
+// ``
+// ```
 class Solution {
     class Pair implements Comparable<Pair> {
         int n1;
@@ -64,5 +64,5 @@ class Solution {
         return result;
     }
 }
-```
-```
+// ```
+// ```

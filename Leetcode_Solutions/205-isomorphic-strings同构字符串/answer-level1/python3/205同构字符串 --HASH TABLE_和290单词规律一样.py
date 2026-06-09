@@ -1,9 +1,9 @@
-### 解题思路
-利用HASH TABLE存储{letter,num},编写patternform函数，若字母之前存在于HT中，则返回其键对应的值num，否则（不存在于HT中），先将{letter,num}存到HT中，再返回num.
+# ### 解题思路
+# 利用HASH TABLE存储{letter,num},编写patternform函数，若字母之前存在于HT中，则返回其键对应的值num，否则（不存在于HT中），先将{letter,num}存到HT中，再返回num.
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isIsomorphic(self, s: str, t: str) -> bool:
         def patternform(item):
@@ -21,4 +21,4 @@ class Solution:
         return True if s_pattern==t_pattern else False
 
 
-```
+# ```

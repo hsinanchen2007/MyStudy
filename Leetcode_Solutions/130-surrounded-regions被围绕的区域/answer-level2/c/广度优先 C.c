@@ -1,8 +1,8 @@
-思路：
-1.先遍历四条边，找到所有O,然后存入队列之中。
-2.进行广度优先搜索，将所有与边界的O有相连关系的O都打上“不更改的标签”
-3.对整个图刷新，将所有无“不更改标签”的O都刷成X
-```
+// 思路：
+// 1.先遍历四条边，找到所有O,然后存入队列之中。
+// 2.进行广度优先搜索，将所有与边界的O有相连关系的O都打上“不更改的标签”
+// 3.对整个图刷新，将所有无“不更改标签”的O都刷成X
+// ```
 #define QUEUESIZE 1000
 int dire[4][2] = {{1, 0},{-1, 0}, {0, 1}, {0, -1}};
 void InitQueue(char** board, int row, int col, int *rear, int front, int q[][2]) {
@@ -61,4 +61,4 @@ void solve(char** board, int boardSize, int* boardColSize){
     }
     return ;
 }
-```
+// ```

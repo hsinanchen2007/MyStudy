@@ -1,4 +1,4 @@
-```
+// ```
 int f[1010];
 int find(int x)
 {
@@ -22,4 +22,4 @@ int* findRedundantConnection(int** edges, int edgesSize, int* edgesColSize, int*
     }
     return res;
 }
-```
+// ```

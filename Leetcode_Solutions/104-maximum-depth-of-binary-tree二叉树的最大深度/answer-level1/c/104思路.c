@@ -1,9 +1,9 @@
-### 解题思路
-刚看到题目就觉得使用递归比较方便，实际写起来还有遇到些问题，判断如果left，right节点都为空，这就是叶子节点，返回1，否则就把left，right节点递归当做参数，递归调用，返回left，right中较大的值，再加上当前节点1。
+// ### 解题思路
+// 刚看到题目就觉得使用递归比较方便，实际写起来还有遇到些问题，判断如果left，right节点都为空，这就是叶子节点，返回1，否则就把left，right节点递归当做参数，递归调用，返回left，right中较大的值，再加上当前节点1。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -27,4 +27,4 @@ int maxDepth(struct TreeNode* root){
       return rightcount + 1;
   }
 }
-```
+// ```

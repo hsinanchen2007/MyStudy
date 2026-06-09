@@ -1,12 +1,12 @@
-### 解题思路
-利用归并排序中的归并思想，将两个有序数组归并为一个有序数组
-![微信图片_20200315151701.jpg](https://pic.leetcode-cn.com/0d815bfeeed485ea3f507d86bae4dc3ced4fa336ee6eb72ce1a77114395a4646-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200315151701.jpg)
+// ### 解题思路
+// 利用归并排序中的归并思想，将两个有序数组归并为一个有序数组
+// ![微信图片_20200315151701.jpg](https://pic.leetcode-cn.com/0d815bfeeed485ea3f507d86bae4dc3ced4fa336ee6eb72ce1a77114395a4646-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200315151701.jpg)
 
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int current1 = 0;
@@ -42,4 +42,4 @@ class Solution {
         }
     }
 }
-```
+// ```

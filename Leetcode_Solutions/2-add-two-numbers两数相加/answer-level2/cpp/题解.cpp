@@ -1,9 +1,9 @@
-### 解题思路
-首先解决两边相加的问题，再解决只剩下一边的情况
+// ### 解题思路
+// 首先解决两边相加的问题，再解决只剩下一边的情况
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -92,4 +92,4 @@ public:
         return l3;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```php
+// ```php
 function uniquePathsWithObstacles($obstacleGrid)
 {
     // 列
@@ -41,4 +41,4 @@ function uniquePathsWithObstacles($obstacleGrid)
 
     return $obstacleGrid[$col-1][$row-1];
 }
-```
+// ```

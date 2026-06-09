@@ -1,10 +1,10 @@
-### 解题思路
-之前求直径什么的中等题好像和这个困难没差；
-关键是max(0,dfs(root->left))； 需要和0比较，因为可以不选！！
+// ### 解题思路
+// 之前求直径什么的中等题好像和这个困难没差；
+// 关键是max(0,dfs(root->left))； 需要和0比较，因为可以不选！！
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -29,4 +29,4 @@ public:
         return root->val+max(left,right);
     }
 };
-```
+// ```

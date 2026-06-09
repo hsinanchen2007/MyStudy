@@ -1,6 +1,6 @@
-因为是从小到大排序好的有序数组，
-故考虑用二分法求解
-```
+// 因为是从小到大排序好的有序数组，
+// 故考虑用二分法求解
+// ```
 class Solution {
 public:
     char nextGreatestLetter(vector<char>& letters, char target) {
@@ -21,4 +21,4 @@ public:
 
     }
 };
-```
+// ```

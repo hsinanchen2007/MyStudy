@@ -1,6 +1,6 @@
-和官方的方法二类似，不过这里用矢量完成插入，排序，而priority_queue用的应该是二叉树，所以速度慢一些。
-直接用priority_queue更好，当然快排更快。
-```
+// 和官方的方法二类似，不过这里用矢量完成插入，排序，而priority_queue用的应该是二叉树，所以速度慢一些。
+// 直接用priority_queue更好，当然快排更快。
+// ```
 class Solution {
 public:
     vector<int> getLeastNumbers(vector<int>& arr, int k) {
@@ -26,4 +26,4 @@ public:
         return vec;
     }
 };
-```
+// ```

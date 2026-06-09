@@ -1,18 +1,18 @@
-#### 方法 1：模拟
+# #### 方法 1：模拟
 
-**想法**
+# **想法**
 
-模拟每一天监狱的状态。
+# 模拟每一天监狱的状态。
 
-由于监狱最多只有 256 种可能的状态，所以状态一定会快速的形成一个循环。我们可以当状态循环出现的时候记录下循环的周期 `t` 然后跳过 `t` 的倍数的天数。
+# 由于监狱最多只有 256 种可能的状态，所以状态一定会快速的形成一个循环。我们可以当状态循环出现的时候记录下循环的周期 `t` 然后跳过 `t` 的倍数的天数。
 
-**算法**
+# **算法**
 
-实现一个简单的模拟，每次迭代一天的情况。对于每一天，我们减少剩余的天数 `N`，然后将监狱状态改变成（`state -> nextDay(state)`）。
+# 实现一个简单的模拟，每次迭代一天的情况。对于每一天，我们减少剩余的天数 `N`，然后将监狱状态改变成（`state -> nextDay(state)`）。
 
-如果我们到达一个已经访问的状态，并且知道距当前过去了多久，设为 `t`，那么由于这是一个循环，可以让 `N %= t`。这确保了我们的算法只需要执行 $O(2^{\text{cells.length}})$ 步。
+# 如果我们到达一个已经访问的状态，并且知道距当前过去了多久，设为 `t`，那么由于这是一个循环，可以让 `N %= t`。这确保了我们的算法只需要执行 $O(2^{\text{cells.length}})$ 步。
 
-```Java []
+# ```Java []
 class Solution {
     public int[] prisonAfterNDays(int[] cells, int N) {
         Map<Integer, Integer> seen = new HashMap();
@@ -64,9 +64,9 @@ class Solution {
         return ans;
     }
 }
-```
+# ```
 
-```Python []
+# ```Python []
 class Solution(object):
     def prisonAfterNDays(self, cells, N):
         def nextday(cells):
@@ -85,9 +85,9 @@ class Solution(object):
                 cells = nextday(cells)
 
         return cells
-```
+# ```
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度：$O(2^N)$，其中 $N$ 是监狱房间的个数。
-* 空间复杂度：$O(2^N * N)$。
+# * 时间复杂度：$O(2^N)$，其中 $N$ 是监狱房间的个数。
+# * 空间复杂度：$O(2^N * N)$。

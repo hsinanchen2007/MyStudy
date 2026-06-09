@@ -1,7 +1,7 @@
-* 大体思路如图之前写过的小偷问题
-* 状态转移方程为dp[i] = max(dp.begin(), dp.begin()+i-2) + nums[i];
-* 可以记录lastMax和Max来避免筛选
-```
+// * 大体思路如图之前写过的小偷问题
+// * 状态转移方程为dp[i] = max(dp.begin(), dp.begin()+i-2) + nums[i];
+// * 可以记录lastMax和Max来避免筛选
+// ```
 class Solution {
 public:
     int massage(vector<int>& nums) {
@@ -21,4 +21,4 @@ public:
         return max;
     }
 };
-```
+// ```

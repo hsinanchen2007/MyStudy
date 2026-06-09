@@ -1,9 +1,9 @@
-### 解题思路
-if there is an intersection,then make A and B have the same beginner,recycle the list,find the location where A and B point to the same memory,that's the answer.
+// ### 解题思路
+// if there is an intersection,then make A and B have the same beginner,recycle the list,find the location where A and B point to the same memory,that's the answer.
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -64,4 +64,4 @@ public:
     }
 
 };
-```
+// ```

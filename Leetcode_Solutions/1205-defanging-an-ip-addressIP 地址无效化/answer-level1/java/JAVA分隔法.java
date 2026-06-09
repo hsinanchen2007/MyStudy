@@ -1,6 +1,6 @@
-先利用 . 把字符串分隔为长度为4的数组，主要注意 "." 的转义
-之后字符串拼接出来答案即可
-```
+// 先利用 . 把字符串分隔为长度为4的数组，主要注意 "." 的转义
+// 之后字符串拼接出来答案即可
+// ```
 class Solution {
     public String defangIPaddr(String address) {
         String str = "";
@@ -14,4 +14,4 @@ class Solution {
         return str;
     }
 }
-```
+// ```

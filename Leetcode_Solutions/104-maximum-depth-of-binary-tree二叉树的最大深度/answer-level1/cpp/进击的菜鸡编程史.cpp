@@ -1,5 +1,5 @@
-4个月前的代码，一个字：不忍直视，丧心病狂
-```
+// 4个月前的代码，一个字：不忍直视，丧心病狂
+// ```
 class Solution {
 public:
     int depth;
@@ -29,9 +29,9 @@ public:
         return depth;
     }
 };
-```
-刷了一些教程之后，今天的代码虽然依旧菜得安详：
-```
+// ```
+// 刷了一些教程之后，今天的代码虽然依旧菜得安详：
+// ```
 class Solution {
 public:
     int maxDepth(TreeNode* root) {
@@ -49,10 +49,10 @@ public:
         return depth;
     }
 };
-```
+// ```
 
-Liuyubo大神的代码，两行搞定：
-```
+// Liuyubo大神的代码，两行搞定：
+// ```
 class Solution {
 public:
     int maxDepth(TreeNode* root) {
@@ -63,9 +63,9 @@ public:
         return max(maxDepth(root->left),maxDepth(root->right)) + 1;
     }
 };
-```
+// ```
 
-继续修炼，大家加油：）
+// 继续修炼，大家加油：）
 
 
 

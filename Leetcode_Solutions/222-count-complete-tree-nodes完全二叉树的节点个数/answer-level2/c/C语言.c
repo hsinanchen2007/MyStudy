@@ -1,5 +1,5 @@
-我有点不服，这个东西的时长判断真的有问题。。。一样的代码和运行时间不一样。内存100%
-```
+// 我有点不服，这个东西的时长判断真的有问题。。。一样的代码和运行时间不一样。内存100%
+// ```
 void Search(struct TreeNode* node,int* p){
     if (node ){
         (*p)++;
@@ -14,4 +14,4 @@ int countNodes(struct TreeNode* root){
     Search(root,&count);
     return count;
 }
-```
+// ```

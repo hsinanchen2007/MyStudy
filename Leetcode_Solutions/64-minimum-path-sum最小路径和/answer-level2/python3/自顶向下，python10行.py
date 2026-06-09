@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def minPathSum(self, grid: List[List[int]]) -> int:
         ans = [[-1]*len(grid[0]) for _ in range(len(grid))]
@@ -14,4 +14,4 @@ class Solution:
                 ans[i][j] = grid[i][j] + min(recur(grid,i+1,j),recur(grid,i,j+1))
             return ans[i][j]
         return recur(grid,0,0)
-```
+# ```

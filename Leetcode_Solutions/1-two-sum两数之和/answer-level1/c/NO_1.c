@@ -1,9 +1,9 @@
-### 解题思路
-C语言暴力解题
+// ### 解题思路
+// C语言暴力解题
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -23,4 +23,4 @@ for(i;i<numsSize-1;i++){
 *returnSize=0;
 return a;
 }
-```
+// ```

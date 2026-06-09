@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-go merge排序 
-过程中顺便统计逆序对
-用的带flag版本， noflag的 没有统计逆序对
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// go merge排序 
+// 过程中顺便统计逆序对
+// 用的带flag版本， noflag的 没有统计逆序对
+// ### 代码
 
-```golang
+// ```golang
 const INT_MAX = int(^uint(0)>>1)
 const INT_MIN = ^INT_MAX
 var count = 0;
@@ -98,4 +98,4 @@ func merge_noflag(A []int, p, q, r int){
         }
     }
 }
-```
+// ```

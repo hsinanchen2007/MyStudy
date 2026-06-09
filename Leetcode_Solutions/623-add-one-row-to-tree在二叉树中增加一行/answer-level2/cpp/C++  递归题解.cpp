@@ -1,10 +1,10 @@
-### 解题思路
-d = 1 时特殊处理
-d > 1 时递归处理
+// ### 解题思路
+// d = 1 时特殊处理
+// d > 1 时递归处理
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -40,6 +40,6 @@ public:
         return root;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/18ae7e826d39612efb35482567badadcf894e11e94346ace993775581f753774-image.png)
+// ![image.png](https://pic.leetcode-cn.com/18ae7e826d39612efb35482567badadcf894e11e94346ace993775581f753774-image.png)

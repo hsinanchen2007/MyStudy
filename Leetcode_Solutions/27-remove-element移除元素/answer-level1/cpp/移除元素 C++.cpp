@@ -1,6 +1,6 @@
-##  解法1：
+// ##  解法1：
 
-```C++ []
+// ```C++ []
 class Solution {
 public:
     int removeElement(vector<int>& nums, int val) {
@@ -16,11 +16,11 @@ public:
         return i;
     }
 };
-```
+// ```
 
-##  解法2：
-主要思想：当遇到val==nums[i]时，将当前元素与最后一个元素替换，并释放最后一个元素。
-```C++ []
+// ##  解法2：
+// 主要思想：当遇到val==nums[i]时，将当前元素与最后一个元素替换，并释放最后一个元素。
+// ```C++ []
 class Solution {
 public:
     int removeElement(vector<int>& nums, int val) {
@@ -38,5 +38,5 @@ public:
         return n;
     }
 };
-```
-**觉得本文对你有帮助，点个赞噢谢谢**
+// ```
+// **觉得本文对你有帮助，点个赞噢谢谢**

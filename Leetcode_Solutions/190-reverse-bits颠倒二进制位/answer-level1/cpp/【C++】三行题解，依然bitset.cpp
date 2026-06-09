@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     uint32_t reverseBits(uint32_t n) {
@@ -7,4 +7,4 @@ public:
         return ::std::bitset<32>(str).to_ulong();
     }
 };
-```
+// ```

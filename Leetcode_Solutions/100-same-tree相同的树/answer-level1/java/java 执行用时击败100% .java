@@ -1,10 +1,10 @@
-### 解题思路
-一次成功，自我感觉很满足，哈哈哈哈
-代码很简单，就是递归
+// ### 解题思路
+// 一次成功，自我感觉很满足，哈哈哈哈
+// 代码很简单，就是递归
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -28,4 +28,4 @@ class Solution {
             return false;    
     }
 }
-```
+// ```

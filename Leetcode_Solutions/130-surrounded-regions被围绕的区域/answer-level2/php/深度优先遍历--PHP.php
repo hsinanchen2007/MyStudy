@@ -1,19 +1,19 @@
-### 解题思路
-把边界及和边界联通的O先变为*, 然后遍历二位数组，把剩余的O变成X, 然后把*变回O。
+// ### 解题思路
+// 把边界及和边界联通的O先变为*, 然后遍历二位数组，把剩余的O变成X, 然后把*变回O。
 
-算法：
-- 以一个点为基准，递归处理，当前点上下左右的点，如果符合要求就替换为*
-- 处理上下边界
-- 处理左右边界
-- 遍历替换
+// 算法：
+// - 以一个点为基准，递归处理，当前点上下左右的点，如果符合要求就替换为*
+// - 处理上下边界
+// - 处理左右边界
+// - 遍历替换
 
-### 性能
-执行用时 :36 ms, 在所有 PHP 提交中击败了100.00%的用户
-内存消耗 :21.3 MB, 在所有 PHP 提交中击败了87.50%的用户
+// ### 性能
+// 执行用时 :36 ms, 在所有 PHP 提交中击败了100.00%的用户
+// 内存消耗 :21.3 MB, 在所有 PHP 提交中击败了87.50%的用户
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -61,12 +61,12 @@ class Solution {
         $this->dfs($board, $i, $j + 1, $row, $col);
     }
 }
-```
+// ```
 
-### 算法复杂度
-- 时间复杂度 O(N ^ 2)
-- 空间复杂度 O(N)
+// ### 算法复杂度
+// - 时间复杂度 O(N ^ 2)
+// - 空间复杂度 O(N)
 
-### 参考
-[https://www.jianshu.com/p/51a845dabaea](https://www.jianshu.com/p/51a845dabaea)
-[https://leetcode-cn.com/problems/surrounded-regions/comments/8717](https://leetcode-cn.com/problems/surrounded-regions/comments/8717)
+// ### 参考
+// [https://www.jianshu.com/p/51a845dabaea](https://www.jianshu.com/p/51a845dabaea)
+// [https://leetcode-cn.com/problems/surrounded-regions/comments/8717](https://leetcode-cn.com/problems/surrounded-regions/comments/8717)

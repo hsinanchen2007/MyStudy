@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func smallestRangeI(A []int, K int) int {
 	if len(A)==0{
 		return 0
@@ -23,4 +23,4 @@ func smallestRangeI(A []int, K int) int {
 	}
 	return 0
 }
-```
+// ```

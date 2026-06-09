@@ -1,7 +1,7 @@
-152ms。
-由于推文是用数组实现的，查找效率一般，不过有序的数组可以让代码不用加入时间戳。
+// 152ms。
+// 由于推文是用数组实现的，查找效率一般，不过有序的数组可以让代码不用加入时间戳。
 
-```js
+// ```js
 class Twitter {
   twiteers: [number, number][];
   follows: Map<number, Set<number>>;
@@ -47,10 +47,10 @@ class Twitter {
     }
   }
 }
-```
+// ```
 
-编译后：
-```js
+// 编译后：
+// ```js
 class Twitter {
   twiteers: [number, number][];
 
@@ -97,4 +97,4 @@ class Twitter {
     }
   }
 }
-```
+// ```

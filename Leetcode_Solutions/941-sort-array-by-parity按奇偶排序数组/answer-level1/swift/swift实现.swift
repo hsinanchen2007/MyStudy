@@ -1,5 +1,5 @@
-双指针查找交换
-```
+// 双指针查找交换
+// ```
 class Solution {
     func sortArrayByParity(_ A: [Int]) -> [Int] {
         var result = A
@@ -17,4 +17,4 @@ class Solution {
         return result
     }
 }
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-我说怎么越写越别扭，原来是题目考我高中语文呢
-### 代码
+# ### 解题思路
+# 我说怎么越写越别扭，原来是题目考我高中语文呢
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def removePalindromeSub(self, s: str) -> int:
         if s == "":
@@ -12,4 +12,4 @@ class Solution:
         else:
             return 2
 
-```
+# ```

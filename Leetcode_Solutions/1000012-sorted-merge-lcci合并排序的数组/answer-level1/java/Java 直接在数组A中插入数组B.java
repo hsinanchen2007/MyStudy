@@ -1,4 +1,4 @@
-``` java
+// ``` java
 public class Solution {
     public void merge(int[] A, int m, int[] B, int n) {
         if (n == 0) {
@@ -39,4 +39,4 @@ public class Solution {
     }
 
 }
-```
+// ```

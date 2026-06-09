@@ -1,15 +1,15 @@
-### 解法一：快慢指针+改链表
-执行用时 :88 ms, 在所有 Python3 提交中击败了43.83%的用户
-内存消耗 :23.6 MB, 在所有 Python3 提交中击败了5.12%的用户
+# ### 解法一：快慢指针+改链表
+# 执行用时 :88 ms, 在所有 Python3 提交中击败了43.83%的用户
+# 内存消耗 :23.6 MB, 在所有 Python3 提交中击败了5.12%的用户
 
-思路：
-1. 找到中点
-2. 把中点右半部分的链表翻转（不包括中点）
-3. 得到类似于这样的一个链表1->2->3->2<-1(2指向None)，左右开弓判断链表是否是回文链表
+# 思路：
+# 1. 找到中点
+# 2. 把中点右半部分的链表翻转（不包括中点）
+# 3. 得到类似于这样的一个链表1->2->3->2<-1(2指向None)，左右开弓判断链表是否是回文链表
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -51,14 +51,14 @@ class Solution:
                 return False
         return True
         
-```
+# ```
 
-### 解法二：递归
-个人觉得这种解法有点儿难理解
+# ### 解法二：递归
+# 个人觉得这种解法有点儿难理解
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -80,4 +80,4 @@ class Solution:
             return res
             
         return stack(head)
-```
+# ```

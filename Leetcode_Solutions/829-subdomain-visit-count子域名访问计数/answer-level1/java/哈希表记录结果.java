@@ -1,9 +1,9 @@
-### 解题思路
-用map统计出现评率
+// ### 解题思路
+// 用map统计出现评率
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<String> subdomainVisits(String[] cpdomains) {
         List<String> result = new ArrayList<>();
@@ -31,4 +31,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

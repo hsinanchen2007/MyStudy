@@ -1,12 +1,12 @@
-### 解题思路
-执行用时 :40 ms, 在所有 C++ 提交中击败了96.80% 的用户
-内存消耗 :10 MB, 在所有 C++ 提交中击败了100.00%的用户
-[137题的题解](https://leetcode-cn.com/problems/single-number-ii/solution/zhi-chu-xian-yi-ci-de-shu-zi-ii-by-leetcode/)
-我自己折腾了一个137题的题解也挺快的，137可以80%是哈希表的。
+// ### 解题思路
+// 执行用时 :40 ms, 在所有 C++ 提交中击败了96.80% 的用户
+// 内存消耗 :10 MB, 在所有 C++ 提交中击败了100.00%的用户
+// [137题的题解](https://leetcode-cn.com/problems/single-number-ii/solution/zhi-chu-xian-yi-ci-de-shu-zi-ii-by-leetcode/)
+// 我自己折腾了一个137题的题解也挺快的，137可以80%是哈希表的。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
@@ -18,11 +18,11 @@ public:
         return once;
     }
 };
-```
+// ```
 
-哈希表的快速解法
+// 哈希表的快速解法
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
@@ -34,4 +34,4 @@ public:
         return hmap.begin()->first;
     }
 };
-```
+// ```

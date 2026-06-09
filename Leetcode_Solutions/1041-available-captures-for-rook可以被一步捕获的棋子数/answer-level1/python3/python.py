@@ -1,7 +1,7 @@
 
-简单，四个方向，找到就计数，遇到象就跳过这个方向。
+# 简单，四个方向，找到就计数，遇到象就跳过这个方向。
 
-```
+# ```
 class Solution:
     def numRookCaptures(self, board: List[List[str]]) -> int:
         
@@ -31,4 +31,4 @@ class Solution:
                     break
         
         return self.res
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+-- ### 解题思路
+-- 此处撰写解题思路
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 #select d.Name as Department ,e1.Name as Employee ,e1.Salary from
 #Employee as e1
@@ -19,4 +19,4 @@ on e1.Salary <= e2.Salary and e1.DepartmentId = e2.DepartmentId
 group by e1.id,e1.DepartmentId
 having count(distinct e2.Salary) <=3 )
 
-```
+-- ```

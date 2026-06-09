@@ -1,9 +1,9 @@
-### 解题思路
-强行双层循环来解题了。。。时间复杂度达到了O(k*n)
+// ### 解题思路
+// 强行双层循环来解题了。。。时间复杂度达到了O(k*n)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] getLeastNumbers(int[] arr, int k) {
         if (k == 0 || arr.length == 0) return new int[]{};
@@ -29,4 +29,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

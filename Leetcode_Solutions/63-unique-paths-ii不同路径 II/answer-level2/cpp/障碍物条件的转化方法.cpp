@@ -1,12 +1,12 @@
-### 解题思路
-本题与62题唯一的区别在于障碍物，这里认为只要(i, j)处有障碍物，则dp[i][j] = 0;状态转移方程和62题如出一辙
-代码中1,2,3是写代码过程中犯的低级错误。
-然后本题也可以使用滚动数组的方法降低空间复杂度到O(n)，代码中没有体现。
+// ### 解题思路
+// 本题与62题唯一的区别在于障碍物，这里认为只要(i, j)处有障碍物，则dp[i][j] = 0;状态转移方程和62题如出一辙
+// 代码中1,2,3是写代码过程中犯的低级错误。
+// 然后本题也可以使用滚动数组的方法降低空间复杂度到O(n)，代码中没有体现。
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid) {
@@ -39,5 +39,5 @@ public:
         return dp[m - 1][n - 1];
     }
 };
-```
-![图片.png](https://pic.leetcode-cn.com/41dbeb03ea89b00cd3bf1808d2d35350a86005a5580789ad43891d66150d2531-%E5%9B%BE%E7%89%87.png)
+// ```
+// ![图片.png](https://pic.leetcode-cn.com/41dbeb03ea89b00cd3bf1808d2d35350a86005a5580789ad43891d66150d2531-%E5%9B%BE%E7%89%87.png)

@@ -1,7 +1,7 @@
-二分查找简单变化一下即可。
+// 二分查找简单变化一下即可。
 
 
-```
+// ```
 class Solution {
    public:
     int findString(vector<string>& words, string s) {
@@ -37,4 +37,4 @@ class Solution {
     }
 };
 
-```
+// ```

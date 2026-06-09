@@ -1,7 +1,7 @@
 
-三指针法，中间指针为有效值
+// 三指针法，中间指针为有效值
 
-```swift []
+// ```swift []
 class Solution {
     func deleteDuplicates(_ head: ListNode?) -> ListNode? {
     
@@ -35,5 +35,5 @@ class Solution {
         return newHead
     }
 }
-```
+// ```
 

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     const int WHITE=0;
@@ -36,4 +36,4 @@ public:
      // 可以访问到0节点 这时候0节点还是灰色 说明存在环路。
      //
 };
-```
+// ```

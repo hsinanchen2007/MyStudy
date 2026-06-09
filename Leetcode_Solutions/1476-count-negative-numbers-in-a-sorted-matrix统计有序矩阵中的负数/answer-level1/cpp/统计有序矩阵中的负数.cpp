@@ -1,9 +1,9 @@
-### 解题思路
-关键：根据题目所给条件，找到其特性  ——>  从数组右上角出发
+// ### 解题思路
+// 关键：根据题目所给条件，找到其特性  ——>  从数组右上角出发
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int countNegatives(vector<vector<int>>& grid) {
@@ -18,4 +18,4 @@ public:
         return res;
     }
 };
-```
+// ```

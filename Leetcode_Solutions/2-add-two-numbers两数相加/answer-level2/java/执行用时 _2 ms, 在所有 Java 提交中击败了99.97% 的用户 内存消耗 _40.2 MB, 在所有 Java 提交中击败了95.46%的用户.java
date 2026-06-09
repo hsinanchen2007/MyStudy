@@ -1,9 +1,9 @@
-### 解题思路
-储存一下位数，满10的后留一个数字，这题好坑啊，我错了好几遍。
+// ### 解题思路
+// 储存一下位数，满10的后留一个数字，这题好坑啊，我错了好几遍。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -49,4 +49,4 @@ class Solution {
          return head.next.next;
     }
 }
-```
+// ```

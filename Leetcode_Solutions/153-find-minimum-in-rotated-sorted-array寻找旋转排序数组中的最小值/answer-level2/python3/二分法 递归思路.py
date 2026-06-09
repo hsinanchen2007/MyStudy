@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findMin(self, nums: List[int]) -> int:
         len_nums = len(nums)
@@ -17,4 +17,4 @@ class Solution:
         # 旋转点>=mid，最小值必然落在mid上或者mid右侧
         else:
             return self.findMin(nums[mid:])
-```
+# ```

@@ -1,5 +1,5 @@
-# ***速度较慢,仅供参考***
-```
+// # ***速度较慢,仅供参考***
+// ```
 class Solution {
 public:
     int numDistinct(string s, string t) {
@@ -27,4 +27,4 @@ public:
         return k;
     }
 };
-```
+// ```

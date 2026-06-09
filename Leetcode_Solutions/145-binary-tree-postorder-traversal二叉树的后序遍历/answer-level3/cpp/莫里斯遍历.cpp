@@ -1,11 +1,11 @@
-### 基本思路
-- 前序遍历为**root -> left -> right**，后序遍历为**left -> right -> root**。
-- 可以修改前序遍历成为**root -> right -> left**，那么这个顺序就和后序遍历正好相反。
-- 套用[***前序遍历的莫里斯法***](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/solution/er-cha-shu-de-qian-xu-bian-li-by-leetcode/)，然后反转，即可得到后续遍历。
+// ### 基本思路
+// - 前序遍历为**root -> left -> right**，后序遍历为**left -> right -> root**。
+// - 可以修改前序遍历成为**root -> right -> left**，那么这个顺序就和后序遍历正好相反。
+// - 套用[***前序遍历的莫里斯法***](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/solution/er-cha-shu-de-qian-xu-bian-li-by-leetcode/)，然后反转，即可得到后续遍历。
 
 
-### C++代码
-```
+// ### C++代码
+// ```
 class Solution {
 public:
     vector<int> postorderTraversal(TreeNode* root) {
@@ -37,8 +37,8 @@ public:
         return result;
     }
 };
-```
-### 算法复杂度
-- 时间复杂度：每个前驱恰好访问两次，因此复杂度是 `O(N)`，其中 `N`是顶点的个数，也就是树的大小。
-- 空间复杂度：我们在计算中不需要额外空间，但是输出需要包含 `N` 个元素，因此空间复杂度为 `O（N）`。
+// ```
+// ### 算法复杂度
+// - 时间复杂度：每个前驱恰好访问两次，因此复杂度是 `O(N)`，其中 `N`是顶点的个数，也就是树的大小。
+// - 空间复杂度：我们在计算中不需要额外空间，但是输出需要包含 `N` 个元素，因此空间复杂度为 `O（N）`。
 

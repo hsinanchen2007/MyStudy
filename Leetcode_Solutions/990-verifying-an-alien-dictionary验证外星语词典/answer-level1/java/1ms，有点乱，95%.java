@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/a920f70e31101e6347472f9e973dd1cbacf9e96adc4857610e5e132294dc47c3-image.png)
+// ![image.png](https://pic.leetcode-cn.com/a920f70e31101e6347472f9e973dd1cbacf9e96adc4857610e5e132294dc47c3-image.png)
 
-```
+// ```
 class Solution {
     public boolean isAlienSorted(String[] words, String order) {
             //将外星文转化为字符数组
@@ -69,4 +69,4 @@ class Solution {
         return flag;
     }
 }
-```
+// ```

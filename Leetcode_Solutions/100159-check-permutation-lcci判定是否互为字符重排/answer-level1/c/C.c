@@ -1,4 +1,4 @@
-```
+// ```
 bool CheckPermutation(char* s1, char* s2)
 {
     if (strlen(s1) != strlen(s2)) {
@@ -20,4 +20,4 @@ bool CheckPermutation(char* s1, char* s2)
     }
     return true;
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/a60744a0ae6aacf4a1a43b087c655335403e2b7e90828e62c99561fc081458ec-image.png)
+// ![image.png](https://pic.leetcode-cn.com/a60744a0ae6aacf4a1a43b087c655335403e2b7e90828e62c99561fc081458ec-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MY_MATCH 1
 #define MY_MISMATCH (-1)
 
@@ -120,4 +120,4 @@ char * minWindow(char * s, char * t){
     s[sta.min_start + sta.min_len] = '\0'; 
     return &s[sta.min_start];
 }
-```
+// ```

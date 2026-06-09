@@ -1,9 +1,9 @@
-### 解题思路
-将链表的数值拷贝到列表中，两个指针进行遍历。
+# ### 解题思路
+# 将链表的数值拷贝到列表中，两个指针进行遍历。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -28,4 +28,4 @@ class Solution(object):
             p += 1
             q -= 1
         return True
-```
+# ```

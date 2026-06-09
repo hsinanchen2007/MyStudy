@@ -1,4 +1,4 @@
-```
+// ```
 func replaceSpace(s string) string {
     if s == ""{
         return ""
@@ -13,4 +13,4 @@ func replaceSpace(s string) string {
 	}
     return tmpStr
 }
-```
+// ```

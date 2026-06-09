@@ -1,5 +1,5 @@
 
-```
+// ```
 class Trie {
     private Node root;   // 根节点
 
@@ -65,4 +65,4 @@ class Trie {
     }
 }
 
-```
+// ```

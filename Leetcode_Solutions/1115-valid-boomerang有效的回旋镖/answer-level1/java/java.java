@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public boolean isBoomerang(int[][] points) {
     	//有点相同：
@@ -19,4 +19,4 @@ class Solution {
         
     }
 }
-```
+// ```

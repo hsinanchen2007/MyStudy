@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int nthSuperUglyNumber(int n, int[] primes) {
         int len=primes.length;
@@ -30,5 +30,5 @@ class Solution {
         return uglyNumber[n-1];
     }
 }
-```
+// ```
 

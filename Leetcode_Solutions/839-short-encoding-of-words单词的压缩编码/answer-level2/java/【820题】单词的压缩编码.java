@@ -1,5 +1,5 @@
-**方法一：单词后缀**
-```
+// **方法一：单词后缀**
+// ```
 class Solution {
     /**
      * 思路：
@@ -23,10 +23,10 @@ class Solution {
         return ans;
     }
 }
-```
+// ```
 
-**方法二：构建字典树**
-```
+// **方法二：构建字典树**
+// ```
 class Solution {
     /**
      * 思路：
@@ -81,10 +81,10 @@ class TrieNode {
         return children[c - 'a'];
     }
 }
-```
+// ```
 
-**方法三：字符串包含**
-```
+// **方法三：字符串包含**
+// ```
 class Solution {
     /**
      * 思路：
@@ -105,4 +105,4 @@ class Solution {
         return sb.length();
     }
 }
-```
+// ```

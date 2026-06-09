@@ -1,9 +1,9 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/cac0eb2a10ac49bad20c8cf75c328a0c13ace4b1fc44cd07925c81b1be680a68-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/cac0eb2a10ac49bad20c8cf75c328a0c13ace4b1fc44cd07925c81b1be680a68-image.png)
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} val
@@ -17,4 +17,4 @@ var removeElement = function(nums, val) {
         removeElement(nums,val)
     }
 };
-```
+// ```

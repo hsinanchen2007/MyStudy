@@ -1,9 +1,9 @@
-### 解题思路
-这个题简直简单到没有题解，一个map，num -> sum，数和次数对应就搞定了。
+// ### 解题思路
+// 这个题简直简单到没有题解，一个map，num -> sum，数和次数对应就搞定了。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findRepeatNumber(vector<int>& nums) {
@@ -19,4 +19,4 @@ public:
         return 0;
     }
 };
-```
+// ```

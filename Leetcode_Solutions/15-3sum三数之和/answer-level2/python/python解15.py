@@ -1,14 +1,14 @@
-### 解题思路
-1. 先对数组进行排列
-2. 有三个指针，base，left和right。
-3. base从0开始遍历到倒数第三个
-4. left=base+1，right=最后一个元素
-5. 如果-base > left + right 则left++
-6. 如果-base < left + right 则right--
+# ### 解题思路
+# 1. 先对数组进行排列
+# 2. 有三个指针，base，left和right。
+# 3. base从0开始遍历到倒数第三个
+# 4. left=base+1，right=最后一个元素
+# 5. 如果-base > left + right 则left++
+# 6. 如果-base < left + right 则right--
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def threeSum(self, nums):
         """
@@ -50,4 +50,4 @@ class Solution(object):
         
         
         
-```
+# ```

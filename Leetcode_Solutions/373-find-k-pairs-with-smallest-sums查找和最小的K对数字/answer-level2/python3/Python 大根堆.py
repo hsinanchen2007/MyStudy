@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def kSmallestPairs(self, nums1: List[int], nums2: List[int], k: int) -> List[List[int]]:
         heap = []
@@ -10,4 +10,4 @@ class Solution:
                     if num1 + num2 < -heap[0][0]:
                         heapq.heappushpop(heap, (-(num1 + num2), [num1, num2]))
         return [item[1] for item in heap]
-```
+# ```

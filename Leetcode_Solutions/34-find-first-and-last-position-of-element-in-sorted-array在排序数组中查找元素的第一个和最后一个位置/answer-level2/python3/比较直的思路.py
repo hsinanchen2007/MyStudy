@@ -1,12 +1,12 @@
-### 解题思路
-二分查找，找到就跳出。
-在找到的位置向前向后查找。
-特殊情况特殊处理
-[],[8],[8,8]
+# ### 解题思路
+# 二分查找，找到就跳出。
+# 在找到的位置向前向后查找。
+# 特殊情况特殊处理
+# [],[8],[8,8]
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def searchRange(self, nums: List[int], target: int) -> List[int]:
         n = len(nums)
@@ -35,4 +35,4 @@ class Solution:
             j = j-1
         return [j+1,i-1]
 
-```
+# ```

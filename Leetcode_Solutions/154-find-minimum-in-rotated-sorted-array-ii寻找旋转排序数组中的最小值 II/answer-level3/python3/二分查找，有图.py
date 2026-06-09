@@ -1,11 +1,11 @@
-### 解题思路
-分成三种情况，整体思路是二分查找
+# ### 解题思路
+# 分成三种情况，整体思路是二分查找
 
-![image.png](https://pic.leetcode-cn.com/4dfbfa679c02bbd8a994b9d77cae503af3bc3bd26dc71a362af67f22cf5de340-image.png)
+# ![image.png](https://pic.leetcode-cn.com/4dfbfa679c02bbd8a994b9d77cae503af3bc3bd26dc71a362af67f22cf5de340-image.png)
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def findMin(self, nums: List[int]) -> int:
         if not nums:
@@ -26,4 +26,4 @@ class Solution:
         return nums[l]
 
 
-```
+# ```

@@ -1,12 +1,12 @@
-**我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，求小星星呀(๑•̀ㅂ•́)و✧**
+// **我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，求小星星呀(๑•̀ㅂ•́)و✧**
 
-思路：
+// 思路：
 
-从底向上遍历，每次遍历返回当前子树的元素和和节点个数，使用数组arr储存，arr[0]为元素和，arr[1]为节点个数，然后更新包括当前根节点在内的平均值
+// 从底向上遍历，每次遍历返回当前子树的元素和和节点个数，使用数组arr储存，arr[0]为元素和，arr[1]为节点个数，然后更新包括当前根节点在内的平均值
 
 
 
-```
+// ```
 class Solution {
     double res = 0;
 
@@ -30,4 +30,4 @@ class Solution {
         return arr;
     }
 }
-```
+// ```

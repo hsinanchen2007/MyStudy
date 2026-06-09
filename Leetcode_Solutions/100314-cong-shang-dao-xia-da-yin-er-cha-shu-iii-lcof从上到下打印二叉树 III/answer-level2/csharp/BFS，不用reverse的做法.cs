@@ -1,9 +1,9 @@
-BFS的时候由于前一次是反向遍历，所以所有child nodes也是反向加入list的。
-下一轮遍历时就不需要reverse，只要直接反向遍历就行了。
-但是是先add left还是先add right还是要区分。所以传一个参数leftFirst。
-少了reverse效率肯定是要高很多的。
+// BFS的时候由于前一次是反向遍历，所以所有child nodes也是反向加入list的。
+// 下一轮遍历时就不需要reverse，只要直接反向遍历就行了。
+// 但是是先add left还是先add right还是要区分。所以传一个参数leftFirst。
+// 少了reverse效率肯定是要高很多的。
 
-```
+// ```
 public class Solution {
     List<IList<int>> result = new List<IList<int>>();
     void Helper(List<TreeNode> nodes, bool leftFirst) {
@@ -31,4 +31,4 @@ public class Solution {
         return result;
     }
 }
-```
+// ```

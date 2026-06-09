@@ -1,9 +1,9 @@
-### 解题思路
-用递归的方式遍历整棵树，比较左右子节点的深度，取最大深度返回。
+# ### 解题思路
+# 用递归的方式遍历整棵树，比较左右子节点的深度，取最大深度返回。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -27,4 +27,4 @@ class Solution:
 
             
 
-```
+# ```

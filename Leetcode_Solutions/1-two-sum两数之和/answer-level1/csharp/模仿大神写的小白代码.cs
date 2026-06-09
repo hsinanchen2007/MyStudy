@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int[] TwoSum(int[] nums, int target) {
         for(int i=0;i<nums.Length;i++)//只能是<不能是<=数组长度大于i和j
@@ -20,4 +20,4 @@ public class Solution {
         return null;
     }
 }
-```
+// ```

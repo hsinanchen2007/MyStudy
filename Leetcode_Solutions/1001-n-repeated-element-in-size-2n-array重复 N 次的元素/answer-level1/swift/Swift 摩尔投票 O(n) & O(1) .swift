@@ -1,7 +1,7 @@
 
-对前面的2N-1个数进行摩尔投票的同时检查是否可能是最后一个数。
+// 对前面的2N-1个数进行摩尔投票的同时检查是否可能是最后一个数。
 
-```swift
+// ```swift
 class Solution {
 
     func repeatedNTimes(_ A: [Int]) -> Int {
@@ -25,4 +25,4 @@ class Solution {
         return result
     }
 }
-```
+// ```

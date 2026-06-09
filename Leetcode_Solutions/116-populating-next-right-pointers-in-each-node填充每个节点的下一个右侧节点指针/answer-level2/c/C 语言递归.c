@@ -1,4 +1,4 @@
-```
+// ```
 void Trav(struct Node *root)
 {
     if (root->left == NULL && root->right == NULL) {
@@ -25,4 +25,4 @@ struct Node* connect(struct Node* root) {
 
     return root;
 }
-```
+// ```

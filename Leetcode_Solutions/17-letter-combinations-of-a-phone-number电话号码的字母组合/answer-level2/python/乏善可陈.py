@@ -1,8 +1,8 @@
-乏善可陈。
+# 乏善可陈。
 
-整道题目的代码如下：
+# 整道题目的代码如下：
 
-```python
+# ```python
 class Solution(object):
     def letterCombinations(self, digits):
         """
@@ -29,5 +29,5 @@ class Solution(object):
             res = cate(res, s)
 
         return res
-```
+# ```
 

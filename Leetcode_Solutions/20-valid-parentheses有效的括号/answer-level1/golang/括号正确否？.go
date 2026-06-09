@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func isValid(s string) bool {
     a :=make([]byte,len(s))
     var index int
@@ -38,4 +38,4 @@ func isValid(s string) bool {
     }
     return false
 }
-```
+// ```

@@ -1,14 +1,14 @@
-#### 方法一： 广度优先搜索 【通过】
+// #### 方法一： 广度优先搜索 【通过】
 
-**思路**
+// **思路**
 
-可以把这道题看成一个找出图中最短路径的问题。每个节点都是棋盘的一个状态，如果两个状态之间可以通过一步操作来完成转换，就用一条边将这两个节点相连。用 *广度优先搜索* 来解决最短路径问题。
+// 可以把这道题看成一个找出图中最短路径的问题。每个节点都是棋盘的一个状态，如果两个状态之间可以通过一步操作来完成转换，就用一条边将这两个节点相连。用 *广度优先搜索* 来解决最短路径问题。
 
-**算法**
+// **算法**
 
-在广度优先搜索实现中，需要将节点表示成可以哈希的数据结构，同时还需要找到每个节点的邻居节点。之后套一个下面这样的广度优先搜索模板就可以了。
+// 在广度优先搜索实现中，需要将节点表示成可以哈希的数据结构，同时还需要找到每个节点的邻居节点。之后套一个下面这样的广度优先搜索模板就可以了。
 
-```python [solution1-Python]
+// ```python [solution1-Python]
 queue = collections.deque([(start, 0)])
 seen = {start}
 while queue:
@@ -18,13 +18,13 @@ while queue:
         if nei not in seen:
             seen.add(nei)
             queue.append((nei, depth+1))
-```
+// ```
 
-为了将节点表示成可以哈希的数据结构，在 Python 实现中，将棋盘转化成一维 tuple。在 Java 实现中，可以将棋盘转化成一个整数或者直接用 `Arrays.deepToString`。
+// 为了将节点表示成可以哈希的数据结构，在 Python 实现中，将棋盘转化成一维 tuple。在 Java 实现中，可以将棋盘转化成一个整数或者直接用 `Arrays.deepToString`。
 
-为了枚举节点的邻居，需要记住 `0` 的位置。对于每个节点，最多有 4 个的邻居，将棋盘用一维数组表示，当前节点的邻居距离当前节点 `(1, -1, C, -C)` 距离，其中 `C` 是棋盘的列数。
+// 为了枚举节点的邻居，需要记住 `0` 的位置。对于每个节点，最多有 4 个的邻居，将棋盘用一维数组表示，当前节点的邻居距离当前节点 `(1, -1, C, -C)` 距离，其中 `C` 是棋盘的列数。
 
-```java [solution1-Java]
+// ```java [solution1-Java]
 class Solution {
     public int slidingPuzzle(int[][] board) {
         int R = board.length, C = board[0].length;
@@ -91,9 +91,9 @@ class Node {
         depth = d;
     }
 }
-```
+// ```
 
-```python [solution1-Python]
+// ```python [solution1-Python]
 class Solution(object):
     def slidingPuzzle(self, board):
         R, C = len(board), len(board[0])
@@ -119,32 +119,32 @@ class Solution(object):
                         queue.append((newt, nei, depth+1))
 
         return -1
-```
+// ```
 
 
-**复杂度分析**
+// **复杂度分析**
 
-* 时间复杂度：$O(R * C * (R * C)!)$，其中 $R, C$ 为棋盘的行数和列数。最多有 $O((R * C)!)$ 种可能的棋盘状态。
+// * 时间复杂度：$O(R * C * (R * C)!)$，其中 $R, C$ 为棋盘的行数和列数。最多有 $O((R * C)!)$ 种可能的棋盘状态。
 
-* 空间复杂度：$O(R * C * (R * C)!)$。
+// * 空间复杂度：$O(R * C * (R * C)!)$。
 
-#### 方法二： A* 搜索 【通过】
+// #### 方法二： A* 搜索 【通过】
 
-**思路**
+// **思路**
 
-同方法一的思路一样，还是一个图的搜索问题。用 *A\* 搜索算法* 来搜索最优答案。
+// 同方法一的思路一样，还是一个图的搜索问题。用 *A\* 搜索算法* 来搜索最优答案。
 
-对于每个节点，定义一个预估代价 `node.priority = node.depth + node.heuristic`，其中 `node.depth` 为已经走过的距离，`node.heuristic` 为预估的剩余距离。
+// 对于每个节点，定义一个预估代价 `node.priority = node.depth + node.heuristic`，其中 `node.depth` 为已经走过的距离，`node.heuristic` 为预估的剩余距离。
 
-对于熟悉 *Dijkstra 算法* 的读者来说，可以把 *Dijkstra 算法* 当成一种在 `node.heuristic = 0` 情况下 *A\* 搜索算法* 的特例。在一些特定的图中，*A\* 搜索算法* 是要比深度优先搜索更快的。
+// 对于熟悉 *Dijkstra 算法* 的读者来说，可以把 *Dijkstra 算法* 当成一种在 `node.heuristic = 0` 情况下 *A\* 搜索算法* 的特例。在一些特定的图中，*A\* 搜索算法* 是要比深度优先搜索更快的。
 
-**算法**
+// **算法**
 
-同方法一相同，每个节点代表一种棋盘的状态。保持一个优先队列，根据 `node.depth + node.heuristic` 排序。预估的剩余距离为每个节点到终点的曼哈顿距离。
+// 同方法一相同，每个节点代表一种棋盘的状态。保持一个优先队列，根据 `node.depth + node.heuristic` 排序。预估的剩余距离为每个节点到终点的曼哈顿距离。
 
-对于初始状态的棋盘，有可能解开谜题，也有可能解不开谜题。为了加快算法，定义 `targetWrong`，如果进入这种状态是一定不能到达终点的，也就不用继续搜便下去了。这里其实是可以证明，除了最后两块其他块是一定能放到正确的位置上的。具体证明可以看这个链接 [link](http://kevingong.com/Math/SixteenPuzzle.html).
+// 对于初始状态的棋盘，有可能解开谜题，也有可能解不开谜题。为了加快算法，定义 `targetWrong`，如果进入这种状态是一定不能到达终点的，也就不用继续搜便下去了。这里其实是可以证明，除了最后两块其他块是一定能放到正确的位置上的。具体证明可以看这个链接 [link](http://kevingong.com/Math/SixteenPuzzle.html).
 
-```java [solution2-Java]
+// ```java [solution2-Java]
 class Solution {
     public int slidingPuzzle(int[][] board) {
         int R = board.length, C = board[0].length;
@@ -235,9 +235,9 @@ class Node {
         depth = d;
     }
 }
-```
+// ```
 
-```python [solution2-Python]
+// ```python [solution2-Python]
 class Solution(object):
     def slidingPuzzle(self, board):
         R, C = len(board), len(board[0])
@@ -281,11 +281,11 @@ class Solution(object):
                         heapq.heappush(pq, (ncost, g+1, board2t, nei))
 
         return -1
-```
+// ```
 
 
-**复杂度分析**
+// **复杂度分析**
 
-* 时间复杂度：$O(R * C * (R * C)!)$，其中 $R, C$ 为棋盘的行数和列数。有更准确的复杂度，但比较难以证明所以不做展开。
+// * 时间复杂度：$O(R * C * (R * C)!)$，其中 $R, C$ 为棋盘的行数和列数。有更准确的复杂度，但比较难以证明所以不做展开。
 
-* 空间复杂度：$O(R * C * (R * C)!)$。
+// * 空间复杂度：$O(R * C * (R * C)!)$。

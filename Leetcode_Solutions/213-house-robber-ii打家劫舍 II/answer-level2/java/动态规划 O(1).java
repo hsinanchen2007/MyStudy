@@ -1,9 +1,9 @@
-### 解题思路
-在生成dp数组时，因为状态只与前两项有关，可以复用变量，只保存两项，做到空间复杂度O(1)
+// ### 解题思路
+// 在生成dp数组时，因为状态只与前两项有关，可以复用变量，只保存两项，做到空间复杂度O(1)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int rob(int[] nums) {
         if(nums==null||nums.length==0){
@@ -26,4 +26,4 @@ class Solution {
         return pre1;
     }
 }
-```
+// ```

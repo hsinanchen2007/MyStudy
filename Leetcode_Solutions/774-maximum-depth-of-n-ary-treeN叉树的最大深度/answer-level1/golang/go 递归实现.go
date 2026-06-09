@@ -1,4 +1,4 @@
-```
+// ```
 func maxDepth(root *Node) int {
 	if root == nil {
 		return 0
@@ -10,4 +10,4 @@ func maxDepth(root *Node) int {
 	}
 	return max + 1
 }
-```
+// ```

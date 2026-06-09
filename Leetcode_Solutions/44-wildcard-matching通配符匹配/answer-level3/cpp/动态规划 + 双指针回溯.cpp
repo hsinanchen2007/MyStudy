@@ -1,20 +1,20 @@
-### 解题思路
-动态规划
-1.当s[i - 1] == p[j - 1] || p[j - 1] == '?'时，也就是字符匹配或者p[j-1]为'?'通配，dp[i][j] = dp[i - 1][j - 1]。
+// ### 解题思路
+// 动态规划
+// 1.当s[i - 1] == p[j - 1] || p[j - 1] == '?'时，也就是字符匹配或者p[j-1]为'?'通配，dp[i][j] = dp[i - 1][j - 1]。
 
-2 当p[j-1]为x时，有两种情况，(x->*)
-   2.1第一种是用x做空字符串,相当于这个x没有了,dp[i][j]=dp[i][j-1];前面的若是匹配上了，那就不管我目前这个x的事情了
-   eg: abcd 和 abcdx 在这里前面四个都匹配上了，那我就可以当做空串直接匹配
-   2.2用做很多个，这时候可能遇到的困难是考虑到x可能匹配多个字符串，因此我们只需要判断dp[i-1][j]是否匹配，因为x能匹配一切，因此只x在时前面的匹配上了
-代码如下：
+// 2 当p[j-1]为x时，有两种情况，(x->*)
+//    2.1第一种是用x做空字符串,相当于这个x没有了,dp[i][j]=dp[i][j-1];前面的若是匹配上了，那就不管我目前这个x的事情了
+//    eg: abcd 和 abcdx 在这里前面四个都匹配上了，那我就可以当做空串直接匹配
+//    2.2用做很多个，这时候可能遇到的困难是考虑到x可能匹配多个字符串，因此我们只需要判断dp[i-1][j]是否匹配，因为x能匹配一切，因此只x在时前面的匹配上了
+// 代码如下：
 
-[学习](https://leetcode-cn.com/problems/wildcard-matching/solution/c-dong-tai-gui-hua-yu-shuang-zhi-zhen-tan-xin-by-w/)
+// [学习](https://leetcode-cn.com/problems/wildcard-matching/solution/c-dong-tai-gui-hua-yu-shuang-zhi-zhen-tan-xin-by-w/)
 
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isMatch(string s, string p) {
@@ -43,12 +43,12 @@ public:
     }
 };
 
-```
+// ```
 
-### 双指针
+// ### 双指针
 
-自己这样想过，但是想不出来怎么回溯
-```
+// 自己这样想过，但是想不出来怎么回溯
+// ```
 class Solution {
 public:
     bool isMatch(string s, string p) {
@@ -78,4 +78,4 @@ public:
         return j == n;
     }
 };
-```
+// ```

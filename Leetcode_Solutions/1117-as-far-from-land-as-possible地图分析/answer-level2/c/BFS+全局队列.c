@@ -1,10 +1,10 @@
-### 解题思路
-将已经为1的节点入度，step为1
-再遍历每个队列里的step 不为0的节点，每遍历一个节点，记录下当前最大的step
+// ### 解题思路
+// 将已经为1的节点入度，step为1
+// 再遍历每个队列里的step 不为0的节点，每遍历一个节点，记录下当前最大的step
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 struct dpData {
     int x;
     int y;
@@ -65,4 +65,4 @@ int maxDistance(int** grid, int gridSize, int* gridColSize){
     max = max > 1 ? max - 1 : -1;
     return max;
 }
-```
+// ```

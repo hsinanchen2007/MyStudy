@@ -1,8 +1,8 @@
-### 解题思路
-本质就是求start 到 destination区间first 与 剩下元素和secode的大小 
-### 代码
+// ### 解题思路
+// 本质就是求start 到 destination区间first 与 剩下元素和secode的大小 
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int distanceBetweenBusStops(int[] distance, int start, int destination) {
 
@@ -25,4 +25,4 @@ class Solution {
         return first > second ? second : first;
     }
 }
-```
+// ```

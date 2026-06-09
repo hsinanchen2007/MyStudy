@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int rob(vector<int>& nums) {
@@ -34,4 +34,4 @@ public:
         return max(dp1[nums.size() - 2], dp2[nums.size() - 2]);
     }
 };
-```
+// ```

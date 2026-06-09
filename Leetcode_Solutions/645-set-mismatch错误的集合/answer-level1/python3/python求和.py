@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def findErrorNums(self, nums: List[int]) -> List[int]:
         sum1 = sum(nums)
@@ -8,4 +8,4 @@ class Solution:
         l.append(int(a - sum2 + sum1))
         l.append(a)
         return l
-```
+# ```

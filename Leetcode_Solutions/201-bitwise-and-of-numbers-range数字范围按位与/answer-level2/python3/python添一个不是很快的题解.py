@@ -1,9 +1,9 @@
-### 解题思路
-速度一般，感觉可以优化
+# ### 解题思路
+# 速度一般，感觉可以优化
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def rangeBitwiseAnd(self, m: int, n: int) -> int:
         b = bin(n)[2:]
@@ -22,4 +22,4 @@ class Solution:
                         ans[i] = '0'
         return int(''.join(ans),2)
 
-```
+# ```

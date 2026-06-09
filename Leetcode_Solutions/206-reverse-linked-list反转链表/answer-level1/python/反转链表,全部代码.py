@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 
 class ListNode:
     def __init__(self, x):
@@ -33,4 +33,4 @@ while k:
     print(k.val)
     k = k.next
 
-```
+# ```

@@ -1,5 +1,5 @@
 
-```python []
+# ```python []
 class Solution:
     def intersect(self, nums1: List[int], nums2: List[int]) -> List[int]:
         dic = {}
@@ -20,7 +20,7 @@ class Solution:
                 
                     
         return res
-```
+# ```
 
-其实有点像java的map?
+# 其实有点像java的map?
 

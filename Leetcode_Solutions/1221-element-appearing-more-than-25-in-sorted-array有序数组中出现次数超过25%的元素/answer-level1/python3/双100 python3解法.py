@@ -1,9 +1,9 @@
-### 解题思路
-计算超过25%的数，便是计算数组中重复次数最大的数，因为是一个非递减数组，所以利用值索引的减法就可以计算出重复次数，进而找出最大重复
+# ### 解题思路
+# 计算超过25%的数，便是计算数组中重复次数最大的数，因为是一个非递减数组，所以利用值索引的减法就可以计算出重复次数，进而找出最大重复
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findSpecialInteger(self, arr: List[int]) -> int:
         last = None
@@ -23,4 +23,4 @@ class Solution:
                 result = index[i]
                 Max = index[i + 1]
         return arr[result]
-```
+# ```

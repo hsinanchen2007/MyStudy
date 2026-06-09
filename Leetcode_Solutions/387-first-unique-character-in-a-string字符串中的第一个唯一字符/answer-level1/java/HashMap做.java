@@ -1,5 +1,5 @@
-我觉得我这个逻辑够简单了吧
-```
+// 我觉得我这个逻辑够简单了吧
+// ```
 class Solution {
     public int firstUniqChar(String s) {
         HashMap <Character, Integer> hm = new HashMap ();
@@ -14,4 +14,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

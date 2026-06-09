@@ -1,11 +1,11 @@
-### 解题思路
-1.通过取余得到二进制的最后一位的数字
-2.通过移位得到除2后的新值
-3.循环之
+# ### 解题思路
+# 1.通过取余得到二进制的最后一位的数字
+# 2.通过移位得到除2后的新值
+# 3.循环之
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minFlips(self, a: int, b: int, c: int) -> int:
         res = 0
@@ -26,4 +26,4 @@ class Solution:
                     res += 2
             #print(ra,rb,rc,a, b, c, res)
         return res
-```
+# ```

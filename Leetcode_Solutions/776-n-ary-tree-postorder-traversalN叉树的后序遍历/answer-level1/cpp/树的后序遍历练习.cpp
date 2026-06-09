@@ -1,9 +1,9 @@
-### 解题思路
-1. 与#145题类似
-2. 换上这一句  `for(int i=0;i<p->children.size());++i)   s1.push(p->children[i]);`
+// ### 解题思路
+// 1. 与#145题类似
+// 2. 换上这一句  `for(int i=0;i<p->children.size());++i)   s1.push(p->children[i]);`
 
-### 代码
-```
+// ### 代码
+// ```
 class Solution 
 {
 public:
@@ -36,4 +36,4 @@ public:
         return res;
     }
 };
-```
+// ```

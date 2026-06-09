@@ -1,6 +1,6 @@
-把两个车站的name 用 '-' 连接起来最好做。
+// 把两个车站的name 用 '-' 连接起来最好做。
 
-```java
+// ```java
 class UndergroundSystem {
     
     public UndergroundSystem() {
@@ -87,4 +87,4 @@ class UndergroundSystem {
  * obj.checkOut(id,stationName,t);
  * double param_3 = obj.getAverageTime(startStation,endStation);
  */
-```
+// ```

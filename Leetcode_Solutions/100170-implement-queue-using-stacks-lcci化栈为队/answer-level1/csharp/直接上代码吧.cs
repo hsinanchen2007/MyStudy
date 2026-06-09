@@ -1,9 +1,9 @@
-### 解题思路
-直接上代码吧
+// ### 解题思路
+// 直接上代码吧
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class MyQueue {
 
     public Stack<int> realStack = new Stack<int>();
@@ -56,4 +56,4 @@ public class MyQueue {
  * int param_3 = obj.Peek();
  * bool param_4 = obj.Empty();
  */
-```
+// ```

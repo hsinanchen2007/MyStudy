@@ -1,7 +1,7 @@
-对[全排列](https://leetcode-cn.com/problems/permutations/solution/cduo-fang-fa-shi-xian-quan-pai-lie-by-jdzhangxin/)部分修改。
+// 对[全排列](https://leetcode-cn.com/problems/permutations/solution/cduo-fang-fa-shi-xian-quan-pai-lie-by-jdzhangxin/)部分修改。
 
-* 回溯添加法(排序剪枝)
-    ```
+// * 回溯添加法(排序剪枝)
+//     ```
     vector<vector<int>> permuteUnique(vector<int>& nums) {
         vector<vector<int>> res;
         vector<int> track;
@@ -25,11 +25,11 @@
             visited[i] = false; // 恢复已访问
         }
     }
-    ```
-![](https://pic.leetcode-cn.com/12b285120fc4ea3c4545f8a945fb7c85112551ba4273da9d09d6f176dd598b7d-image.png)
+//     ```
+// ![](https://pic.leetcode-cn.com/12b285120fc4ea3c4545f8a945fb7c85112551ba4273da9d09d6f176dd598b7d-image.png)
 
-* 回溯添加法(set去重)
-    ```
+// * 回溯添加法(set去重)
+//     ```
     vector<vector<int>> permuteUnique(vector<int>& nums) {
         set<vector<int>> res;
         vector<int> track;
@@ -51,11 +51,11 @@
             visited[i] = false; // 恢复已访问
         }
     }
-	```
-![](https://pic.leetcode-cn.com/62a2a28dbc3d7574a5287324c307d1b46cf249098528beba51bd7b25abaf42bf-image.png)
+// 	```
+// ![](https://pic.leetcode-cn.com/62a2a28dbc3d7574a5287324c307d1b46cf249098528beba51bd7b25abaf42bf-image.png)
 
-* 回溯交换法(set去重)
-    ```
+// * 回溯交换法(set去重)
+//     ```
     vector<vector<int>> permuteUnique(vector<int>& nums) {
         set<vector<int>> res;
         permuteUnique(nums,0,res);
@@ -72,11 +72,11 @@
             swap(nums[i],nums[start]); // 恢复位置
         }
     }
-    ```
-![](https://pic.leetcode-cn.com/307227b82cc19d74dbfc7daecaa08b7891f884df2ac882df665300f2a541075a-image.png)
+//     ```
+// ![](https://pic.leetcode-cn.com/307227b82cc19d74dbfc7daecaa08b7891f884df2ac882df665300f2a541075a-image.png)
 
-* 插入法(set去重)
-    ```
+// * 插入法(set去重)
+//     ```
     vector<vector<int>> permuteUnique(vector<int>& nums) {
         set<vector<int>> res = permute(nums);
         return {res.begin(),res.end()};
@@ -99,5 +99,5 @@
         }
         return res;
     }
-    ```
-![](https://pic.leetcode-cn.com/853e942d6e8704332d420c87ccb45965b03072b8cf46fc2bfa69d2281a4c1de9-image.png)
+//     ```
+// ![](https://pic.leetcode-cn.com/853e942d6e8704332d420c87ccb45965b03072b8cf46fc2bfa69d2281a4c1de9-image.png)

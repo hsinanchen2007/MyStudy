@@ -1,9 +1,9 @@
-### 解题思路
-有序数组
+// ### 解题思路
+// 有序数组
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int missingNumber(int[] nums) {
         for(int i=0;i<=nums.length-1;i++)
@@ -11,4 +11,4 @@ class Solution {
         return nums.length;
     }
 }
-```
+// ```

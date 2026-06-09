@@ -1,8 +1,8 @@
-对于每一个数，判断其后续连续数字是否在数组中
+# 对于每一个数，判断其后续连续数字是否在数组中
 
-python中set()查询复杂度为O(1)
+# python中set()查询复杂度为O(1)
 
-```
+# ```
 class Solution(object):
     def longestConsecutive(self, nums):
         """
@@ -18,4 +18,4 @@ class Solution(object):
                     y += 1
                 res = max(res,y-x)
         return res
-```
+# ```

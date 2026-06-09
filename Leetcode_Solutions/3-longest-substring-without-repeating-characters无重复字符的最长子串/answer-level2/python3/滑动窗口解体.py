@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def lengthOfLongestSubstring(self, s):
         start = 0  ##记录不重复字符串开始位置
@@ -24,4 +24,4 @@ class Solution:
                 count[s[i]] = i
             i += 1
         return maxLength
-```
+# ```

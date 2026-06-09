@@ -1,7 +1,7 @@
-很简单的中序遍历题目，因为要转成排序的双向链表，很容易想到中序遍历是有序的数组，
-因此在遍历是改变指针的方向即可。
+// 很简单的中序遍历题目，因为要转成排序的双向链表，很容易想到中序遍历是有序的数组，
+// 因此在遍历是改变指针的方向即可。
 
-```
+// ```
 class Solution {
 public:
     Node* treeToDoublyList(Node* root) {
@@ -38,5 +38,5 @@ public:
        return head; 
     }
 };
-```
-[树算法相关题解](https://github.com/yqtaowhu/DataStructureAndAlgorithm/blob/master/programming/tree/tree.md)
+// ```
+// [树算法相关题解](https://github.com/yqtaowhu/DataStructureAndAlgorithm/blob/master/programming/tree/tree.md)

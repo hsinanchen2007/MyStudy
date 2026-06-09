@@ -1,10 +1,10 @@
-### 解题思路
-1，先求出树的最大深度，根据最大深度初始化结果矩阵
-2，DFS填充矩阵值
+// ### 解题思路
+// 1，先求出树的最大深度，根据最大深度初始化结果矩阵
+// 2，DFS填充矩阵值
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -38,6 +38,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/a1365e8e05b640377b8ae2793e9a2d8bb40e02d50405d7198708fff1f534bb29-image.png)
+// ![image.png](https://pic.leetcode-cn.com/a1365e8e05b640377b8ae2793e9a2d8bb40e02d50405d7198708fff1f534bb29-image.png)

@@ -1,5 +1,5 @@
-Java:
-```
+// Java:
+// ```
 class MyQueue {
     Stack<Integer> p=new Stack<>();
     Stack<Integer> q=new Stack<>();
@@ -38,10 +38,10 @@ class MyQueue {
         return p.empty();
     }
 }
-```
+// ```
 
-C++:
-```
+// C++:
+// ```
 class MyQueue {
 public:
     stack<int> p,q;
@@ -80,4 +80,4 @@ public:
         return p.size()==0;
     }
 };
-```
+// ```

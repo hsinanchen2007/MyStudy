@@ -1,11 +1,11 @@
-### 解题思路
-・listsにある全てのノードをヒープに保存する
-・ヒープを一つずつpopし、新しい連結リストを作成
-・作った連結リストの最初のノードを戻す
+# ### 解题思路
+# ・listsにある全てのノードをヒープに保存する
+# ・ヒープを一つずつpopし、新しい連結リストを作成
+# ・作った連結リストの最初のノードを戻す
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -25,4 +25,4 @@ class Solution:
             cal.next = ListNode(heapq.heappop(heap))
             cal = cal.next
         return res.next
-```
+# ```

@@ -1,6 +1,6 @@
-### 解题思路
+// ### 解题思路
 
-```
+// ```
 int lengthOfLIS(int* nums, int numsSize) {
 	int maxLen = 0;
 	int* dp = (int*)malloc(sizeof(int)*numsSize);
@@ -19,11 +19,11 @@ int lengthOfLIS(int* nums, int numsSize) {
 	}
 	return maxLen;
 }
-```
+// ```
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int lengthOfLIS(int* nums, int numsSize) {
 	int maxLen = 0;
 	int* dp = (int*)malloc(sizeof(int)*numsSize);
@@ -42,4 +42,4 @@ int lengthOfLIS(int* nums, int numsSize) {
 	}
 	return maxLen;
 }
-```
+// ```

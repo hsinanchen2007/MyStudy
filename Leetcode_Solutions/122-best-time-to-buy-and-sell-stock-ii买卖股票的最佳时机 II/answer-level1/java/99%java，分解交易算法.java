@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int maxProfit(int[] prices) {
         int len = prices.length;
@@ -20,5 +20,5 @@ class Solution {
         return profit;
     }
 }
-```
-将‘一买一卖’的一笔交易分解为每天一笔交易，这样的话一个循环即可得到结果
+// ```
+// 将‘一买一卖’的一笔交易分解为每天一笔交易，这样的话一个循环即可得到结果

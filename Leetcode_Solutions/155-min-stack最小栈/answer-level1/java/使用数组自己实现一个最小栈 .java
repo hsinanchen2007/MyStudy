@@ -1,5 +1,5 @@
-**使用数组 维护一个最小栈**
-```
+// **使用数组 维护一个最小栈**
+// ```
 class MinStack {
 
     Integer[] stack;    // 数组栈
@@ -83,4 +83,4 @@ class MinStack {
         return capacity;
     }
 }
-```
+// ```

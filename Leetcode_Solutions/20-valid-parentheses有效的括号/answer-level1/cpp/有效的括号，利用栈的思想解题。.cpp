@@ -1,6 +1,6 @@
-思路 用vector模拟栈空间，使用charKsI指针移动控制栈顶。
+// 思路 用vector模拟栈空间，使用charKsI指针移动控制栈顶。
 
-```
+// ```
 class Solution {
 public:
     bool isValid(string s) {
@@ -30,4 +30,4 @@ public:
         else return false;
     }
 };
-```
+// ```

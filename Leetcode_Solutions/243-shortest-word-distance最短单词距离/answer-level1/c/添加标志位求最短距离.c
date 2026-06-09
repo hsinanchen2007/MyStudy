@@ -1,4 +1,4 @@
-```
+// ```
 int min(int a, int b) {
     return (a < b ? a : b);
 }
@@ -31,4 +31,4 @@ int shortestDistance(char ** words, int wordsSize, char * word1, char * word2){
     free(word2num);
     return min;
 }
-```
+// ```

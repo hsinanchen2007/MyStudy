@@ -1,5 +1,5 @@
-头尾指针收缩判断，tolower()统一字母大小写
-```
+// 头尾指针收缩判断，tolower()统一字母大小写
+// ```
 class Solution {
 public:
     bool isPalindrome(string s) {
@@ -14,4 +14,4 @@ public:
         return true;
     }
 };
-```
+// ```

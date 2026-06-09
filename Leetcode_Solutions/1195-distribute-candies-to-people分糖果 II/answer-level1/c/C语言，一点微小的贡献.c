@@ -1,9 +1,9 @@
-### 解题思路
-这道题考察的重点在模运算，就是用取余法寻找要更新的数组下标。让dex自增，用dex%num_people求下标。
+// ### 解题思路
+// 这道题考察的重点在模运算，就是用取余法寻找要更新的数组下标。让dex自增，用dex%num_people求下标。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -29,9 +29,9 @@ int* distributeCandies(int candies, int num_people, int* returnSize){
     *returnSize=num_people;
     return ans;
 }
-```
-这两天又想到了一个代码更少的写法，思路一样代码少了点
-```c
+// ```
+// 这两天又想到了一个代码更少的写法，思路一样代码少了点
+// ```c
 int* distributeCandies(int candies, int num_people, int* returnSize){
     int *output=(int*)calloc(sizeof(int),num_people);
     *returnSize=num_people;
@@ -44,4 +44,4 @@ int* distributeCandies(int candies, int num_people, int* returnSize){
     output[i]=output[i]+candies;
     return output;
 }
-```
+// ```

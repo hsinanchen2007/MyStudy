@@ -1,6 +1,6 @@
-//西撒，说出你想要的赏赐吧
-//陛下，您看，我今天把西西幼儿园小班的所有小孩子带过来了
-```
+// //西撒，说出你想要的赏赐吧
+// //陛下，您看，我今天把西西幼儿园小班的所有小孩子带过来了
+// ```
 public class Solution {
     public int[] DistributeCandies(int candies, int num_people) {
         int i=0;
@@ -21,4 +21,4 @@ public class Solution {
         }
     }
 }
-```
+// ```

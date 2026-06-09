@@ -1,9 +1,9 @@
-### 解题思路
-考察链表结构的熟悉程度、指针在链表上的移动
+// ### 解题思路
+// 考察链表结构的熟悉程度、指针在链表上的移动
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -59,4 +59,4 @@ func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
 	return head
 }
 
-```
+// ```

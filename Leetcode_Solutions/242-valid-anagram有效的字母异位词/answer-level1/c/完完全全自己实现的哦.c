@@ -1,10 +1,10 @@
-### 解题思路
-嗯嗯，创建两个26个单元空间保存出现的字符，再遍历比较就欧克
-![1.png](https://pic.leetcode-cn.com/2d59bef8678892c6e552fcef7a3973d1ba4671ad0ee6b7778ff8c55a65742090-1.png)
+// ### 解题思路
+// 嗯嗯，创建两个26个单元空间保存出现的字符，再遍历比较就欧克
+// ![1.png](https://pic.leetcode-cn.com/2d59bef8678892c6e552fcef7a3973d1ba4671ad0ee6b7778ff8c55a65742090-1.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isAnagram(char * s, char * t){
     bool flag = true;
     int len_s = 0;
@@ -38,4 +38,4 @@ bool isAnagram(char * s, char * t){
     }
     return flag;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-官方思路的优化。
+# ### 解题思路
+# 官方思路的优化。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numDecodings(self, s: str) -> int:
         if not s or s[0]=="0":
@@ -24,4 +24,4 @@ class Solution:
         return cur
 
 
-```
+# ```

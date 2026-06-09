@@ -1,4 +1,4 @@
-```python
+# ```python
 def merge(nums):
     """
         1. 判断区间是否有交集的方法是: [a, b], [c, d], 只要a <= d and b >= c即可.
@@ -24,4 +24,4 @@ def merge(nums):
 
 print(merge([[1,3],[2,6],[8,10],[15,18]]))
 print(merge([[2,3],[4,5],[6,7],[8,9],[1,10]]))
-```
+# ```

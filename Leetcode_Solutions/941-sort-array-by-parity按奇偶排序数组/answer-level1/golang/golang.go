@@ -1,4 +1,4 @@
-```
+// ```
 func sortArrayByParity(A []int) []int {
     for i := 0; i < len(A)-1; i++ {
 		if A[i]%2 == 0 {
@@ -14,4 +14,4 @@ func sortArrayByParity(A []int) []int {
 
 	return A
 }
-```
+// ```

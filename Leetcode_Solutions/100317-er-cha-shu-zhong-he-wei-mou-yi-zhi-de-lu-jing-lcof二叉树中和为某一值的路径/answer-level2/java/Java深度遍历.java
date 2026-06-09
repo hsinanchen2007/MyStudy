@@ -1,5 +1,5 @@
-深度遍历，每次sum减去节点值，当节点到达底部时检测sum值是否为0，如果为0则加入listList
-```
+// 深度遍历，每次sum减去节点值，当节点到达底部时检测sum值是否为0，如果为0则加入listList
+// ```
 class Solution {
     
     List<List<Integer>> listList = new ArrayList<>();
@@ -34,4 +34,4 @@ class Solution {
         integerList.remove(integerList.size() - 1);
     }
 }
-```
+// ```

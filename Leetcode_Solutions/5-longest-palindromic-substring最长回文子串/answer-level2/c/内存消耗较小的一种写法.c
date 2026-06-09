@@ -1,9 +1,9 @@
-类似动态规划的思想，不过写起来简单一些
-考虑到对应字符串 s ，最长回文子串substr有可能存在于任何一个位置
-记s的长度为size，p(size)为长度为size的字符串s的最长回文子串解，f(size)为长度为size的字符串s，最后一个元素能构成的最长回文子串解
-设m为字符串s的最长回文子串的最后一个字符的位置，那么有p(size) = f(m+1) = max{f(1),f(2).....,f(m+1),...,f(size)};
-也就是说size从1取到stelens(s)，找到其中最大的就可以了
-```
+// 类似动态规划的思想，不过写起来简单一些
+// 考虑到对应字符串 s ，最长回文子串substr有可能存在于任何一个位置
+// 记s的长度为size，p(size)为长度为size的字符串s的最长回文子串解，f(size)为长度为size的字符串s，最后一个元素能构成的最长回文子串解
+// 设m为字符串s的最长回文子串的最后一个字符的位置，那么有p(size) = f(m+1) = max{f(1),f(2).....,f(m+1),...,f(size)};
+// 也就是说size从1取到stelens(s)，找到其中最大的就可以了
+// ```
 int maxLength;
 int maxIndex;
 void longest(char *s, int size) {
@@ -42,6 +42,6 @@ char * longestPalindrome(char * s){
     strncpy(retStr, s + maxIndex, maxLength);
     return retStr;
 }
-```
+// ```
 
  

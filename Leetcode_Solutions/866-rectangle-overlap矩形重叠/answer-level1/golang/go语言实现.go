@@ -1,9 +1,9 @@
-### 解题思路
-1、映射到一位数组上面
+// ### 解题思路
+// 1、映射到一位数组上面
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func isRectangleOverlap(rec1 []int, rec2 []int) bool {
 	var x_overlap bool
 	var y_overlap bool
@@ -21,4 +21,4 @@ func isRectangleOverlap(rec1 []int, rec2 []int) bool {
 	return x_overlap && y_overlap
 
 }
-```
+// ```

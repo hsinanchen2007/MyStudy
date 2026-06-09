@@ -1,4 +1,4 @@
-```
+// ```
 int lastRemaining(int n, int m) {
         /* 
         * n=4, m=5,那么数字是0,1,2,3(编号为0,1,2,3)——注意区分编号与数据，每一轮都会重新编号
@@ -32,4 +32,4 @@ int lastRemaining(int n, int m) {
             return n-1;
         return (m+lastRemaining(n-1, m))%n;
     }
-```
+// ```

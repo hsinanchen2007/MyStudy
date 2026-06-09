@@ -1,7 +1,7 @@
-- 递归思路如下：
-![最小路径和](https://pic.leetcode-cn.com/62cb5eb8f3fb25d8983bf05d4944fc60c4d5ad6d410f3bab782bc44bef717110.png)
-- 递归代码实现
-```
+// - 递归思路如下：
+// ![最小路径和](https://pic.leetcode-cn.com/62cb5eb8f3fb25d8983bf05d4944fc60c4d5ad6d410f3bab782bc44bef717110.png)
+// - 递归代码实现
+// ```
 class Solution {
     public int minPathSum(int[][] grid) {
         int m = grid.length;
@@ -16,9 +16,9 @@ class Solution {
         return grid[r][c] + Math.min(getRes(grid, r + 1, c, m, n),getRes(grid, r, c + 1, m, n));
     }
 }
-```
-- memo优化
-```
+// ```
+// - memo优化
+// ```
 class Solution {
     public int minPathSum(int[][] grid) {
         int m = grid.length;
@@ -46,9 +46,9 @@ class Solution {
         return ans;
     }
 }
-```
-- 动态规划
-```
+// ```
+// - 动态规划
+// ```
 class Solution {
     public int minPathSum(int[][] grid) {
         int m = grid.length;
@@ -70,9 +70,9 @@ class Solution {
         return dp[0][0];
     }
 }
-```
-- dp数组降维
-```
+// ```
+// - dp数组降维
+// ```
 class Solution {
     public int minPathSum(int[][] grid) {
         int m = grid.length;
@@ -94,4 +94,4 @@ class Solution {
         return dp[0];
     }
 }
-```
+// ```

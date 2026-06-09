@@ -1,9 +1,9 @@
-### 解题思路
-负数为不是回文先排除，然后给当前整数进行翻转，如果和原值相同则是回文。
+// ### 解题思路
+// 负数为不是回文先排除，然后给当前整数进行翻转，如果和原值相同则是回文。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isPalindrome(int x) {
         if(x < 0) return false;
@@ -26,4 +26,4 @@ class Solution {
 			return (rs > Integer.MAX_VALUE || rs < Integer.MIN_VALUE) ? 0 : (int) rs;
 		}
 }
-```
+// ```

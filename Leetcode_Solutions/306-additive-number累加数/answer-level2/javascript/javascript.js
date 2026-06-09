@@ -1,7 +1,7 @@
 
-思路：先找到num里面第一组a1 + a2 = a3的值，以及a1、a2、a3的位置下标。即可继续验证a2 + a3 == a4 、 a3 + a4 == a5 ....
+// 思路：先找到num里面第一组a1 + a2 = a3的值，以及a1、a2、a3的位置下标。即可继续验证a2 + a3 == a4 、 a3 + a4 == a5 ....
 
-```
+// ```
 function isAdditiveNumber(num) {
     let headers = findAdditiveHeader(num);
     for(let k in headers ) {
@@ -85,4 +85,4 @@ function isSingleAdditive(num) {
     };
     return {result: false} ;
 };
-```
+// ```

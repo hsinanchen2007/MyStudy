@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] twoSum(int[] nums, int target) {
   for(int i=0;i<nums.length-1;i++){
@@ -15,4 +15,4 @@ class Solution {
   }
 throw new IllegalArgumentException("No two sum solution"); }
 }
-```
+// ```

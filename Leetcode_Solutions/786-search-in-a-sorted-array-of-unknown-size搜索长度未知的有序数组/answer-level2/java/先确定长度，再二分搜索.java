@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int search(ArrayReader reader, int target) {
         int maxIndex = searchMaxIndex(reader);
@@ -30,4 +30,4 @@ class Solution {
         return e;
     }
 }
-```
+// ```

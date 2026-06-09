@@ -1,10 +1,10 @@
-# 思路
-1. DFS遍历所有的路径，遍历过程中将当前节点字符加到字符串的前面，获得从叶结点到根的字符串
-2. 获取的字符串与当前保留的最小字符串（若有）比较，更新最小字符串即可
-3. Tip：使用 (char) ('a' + r.val) 对应 0-25 与 a-z
+// # 思路
+// 1. DFS遍历所有的路径，遍历过程中将当前节点字符加到字符串的前面，获得从叶结点到根的字符串
+// 2. 获取的字符串与当前保留的最小字符串（若有）比较，更新最小字符串即可
+// 3. Tip：使用 (char) ('a' + r.val) 对应 0-25 与 a-z
 
-# 代码
-```
+// # 代码
+// ```
 private String smallestStr = "";
 
 private void dfs(TreeNode r, String s) {
@@ -31,8 +31,8 @@ public String smallestFromLeaf(TreeNode root) {
     dfs(root, "");
     return smallestStr;
 }
-```
+// ```
 
-# 总结
-- 时间复杂度O(n)
-- 空间复杂度O(1)
+// # 总结
+// - 时间复杂度O(n)
+// - 空间复杂度O(1)

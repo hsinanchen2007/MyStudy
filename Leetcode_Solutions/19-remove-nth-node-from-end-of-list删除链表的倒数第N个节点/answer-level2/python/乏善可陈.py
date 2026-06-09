@@ -1,8 +1,8 @@
-使用一个数组记录每个节点的指针，实现快速删除，注意边界条件。
+# 使用一个数组记录每个节点的指针，实现快速删除，注意边界条件。
 
-整道题目的代码如下：
+# 整道题目的代码如下：
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -36,5 +36,5 @@ class Solution(object):
         node_list[num - n - 1].next = temp_node
 
         return res
-```
+# ```
 

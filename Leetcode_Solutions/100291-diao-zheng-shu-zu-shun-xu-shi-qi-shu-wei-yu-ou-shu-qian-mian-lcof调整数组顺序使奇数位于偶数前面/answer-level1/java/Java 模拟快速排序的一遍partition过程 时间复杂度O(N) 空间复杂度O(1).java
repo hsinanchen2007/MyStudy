@@ -1,4 +1,4 @@
-```java
+// ```java
 //模拟一遍partition的过程, pivot是奇数; 时间复杂度O(N), 空间复杂度O(1)
 class Solution {
     public int[] exchange(int[] nums) {
@@ -20,4 +20,4 @@ class Solution {
         arr[j] = tmp;
     }
 }
-```
+// ```

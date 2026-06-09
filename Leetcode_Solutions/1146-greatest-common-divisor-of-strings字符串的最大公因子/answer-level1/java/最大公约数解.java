@@ -1,9 +1,9 @@
-### 解题思路
-通过两个长度相减求两个字符串长度的最大公约数，按照子串判断是否符合
+// ### 解题思路
+// 通过两个长度相减求两个字符串长度的最大公约数，按照子串判断是否符合
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String gcdOfStrings(String str1, String str2) {
         String sub = "";
@@ -48,4 +48,4 @@ class Solution {
         return sub;
     }
 }
-```
+// ```

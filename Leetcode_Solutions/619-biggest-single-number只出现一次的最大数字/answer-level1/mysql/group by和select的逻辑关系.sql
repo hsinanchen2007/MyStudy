@@ -1,4 +1,4 @@
-`# 正确写法
+-- `# 正确写法
 select max(num) as num from
 
 (select 
@@ -10,7 +10,7 @@ having count(num) = 1) a`
 
 
 错误写法：
-`
+-- `
 select 
     max(num)  # 此处会分别打印出groupby后每个分组的最大值
 from  

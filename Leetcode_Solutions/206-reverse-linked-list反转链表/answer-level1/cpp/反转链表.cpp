@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
-就改了一句话差别这么大……就删了p=p->next改了p的初始化
-```cpp
+// ### 代码
+// 就改了一句话差别这么大……就删了p=p->next改了p的初始化
+// ```cpp
 class Solution {//**这个要8ms**
 public:
     ListNode* reverseList(ListNode* head) {

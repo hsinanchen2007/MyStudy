@@ -1,9 +1,9 @@
-### 解题思路
-考虑K和数组中负数的大小
+# ### 解题思路
+# 考虑K和数组中负数的大小
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def largestSumAfterKNegations(self, A, K):
         negative = 0
@@ -27,4 +27,4 @@ class Solution(object):
             for i in range(K,len(A)):
                 sum1 += A[i]
             return sum1
-```
+# ```

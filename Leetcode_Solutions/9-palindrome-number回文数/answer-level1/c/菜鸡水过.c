@@ -1,9 +1,9 @@
-### 解题思路
-一开始是想要放在数组里的，后来想到不如直接就求和好了
+// ### 解题思路
+// 一开始是想要放在数组里的，后来想到不如直接就求和好了
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isPalindrome(int x){
     if(x<0){
         return false;
@@ -19,4 +19,4 @@ bool isPalindrome(int x){
     }
     return false;
 }
-```
+// ```

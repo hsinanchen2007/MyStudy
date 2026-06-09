@@ -1,7 +1,7 @@
-用记录:record [0,1,1,0,...], 1:表示此位置括号有效，扫描一次得到record
-再次扫描record得到最长的连续的1的个数
+# 用记录:record [0,1,1,0,...], 1:表示此位置括号有效，扫描一次得到record
+# 再次扫描record得到最长的连续的1的个数
 
-```python
+# ```python
 class Solution(object):
     def longestValidParentheses(self, s):
         stack = []
@@ -29,4 +29,4 @@ class Solution(object):
 
         return maxL
 
-```
+# ```

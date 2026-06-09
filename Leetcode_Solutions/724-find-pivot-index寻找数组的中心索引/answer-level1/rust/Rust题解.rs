@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn pivot_index(nums: Vec<i32>) -> i32 {
         let total_sum: i32 = nums.iter().sum();
@@ -12,5 +12,5 @@ impl Solution {
         -1
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

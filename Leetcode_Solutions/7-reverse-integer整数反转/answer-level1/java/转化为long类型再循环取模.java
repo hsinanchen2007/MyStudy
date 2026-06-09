@@ -1,9 +1,9 @@
-### 解题思路
-转化为long类型再循环取模，然后对结果判断是否超出整形范围
+// ### 解题思路
+// 转化为long类型再循环取模，然后对结果判断是否超出整形范围
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int reverse(int x) {
         long xl=x;
@@ -18,4 +18,4 @@ class Solution {
         return (int)ans;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int min(int x,int y){
     return x>y? y:x;
 }
@@ -22,4 +22,4 @@ int coinChange(int* coins, int coinsSize, int amount){
     }
     return dp[amount]>amount? -1:dp[amount];
 }
-```
+// ```

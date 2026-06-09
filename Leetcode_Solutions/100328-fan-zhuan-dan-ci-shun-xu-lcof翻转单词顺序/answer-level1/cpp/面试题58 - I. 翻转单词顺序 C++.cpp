@@ -1,12 +1,12 @@
-### 解题思路
-两次反转
+// ### 解题思路
+// 两次反转
 
-删除字符串多余空格参考[原地两次翻转/栈存储_面试题58 - I. 翻转单词顺序](https://leetcode-cn.com/problems/fan-zhuan-dan-ci-shun-xu-lcof/solution/yuan-di-liang-ci-fan-zhuan-zhan-cun-chu-_mian-shi-/)
+// 删除字符串多余空格参考[原地两次翻转/栈存储_面试题58 - I. 翻转单词顺序](https://leetcode-cn.com/problems/fan-zhuan-dan-ci-shun-xu-lcof/solution/yuan-di-liang-ci-fan-zhuan-zhan-cun-chu-_mian-shi-/)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution{
 public:
     string reverseWords(string s) {
@@ -85,4 +85,4 @@ public:
         }
     }
 };
-```
+// ```

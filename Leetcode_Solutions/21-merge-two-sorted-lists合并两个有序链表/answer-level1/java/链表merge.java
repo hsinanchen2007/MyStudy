@@ -1,9 +1,9 @@
-### 解题思路
-类似有序数组的归并，注意链表的coding
+// ### 解题思路
+// 类似有序数组的归并，注意链表的coding
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -39,4 +39,4 @@ class Solution {
         return res.next;
     }
 }
-```
+// ```

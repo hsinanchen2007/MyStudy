@@ -1,4 +1,4 @@
-```
+# ```
 
 class Solution(object):
     def mergeKLists(self, lists):
@@ -36,4 +36,4 @@ class Solution(object):
             if x is not None:
                 return False
         return True
-```
+# ```

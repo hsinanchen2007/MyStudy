@@ -1,4 +1,4 @@
-```
+// ```
 type obj struct {
 	node  *TreeNode
 	left  int
@@ -47,4 +47,4 @@ func longestZigZag(root *TreeNode) int {
 	}
 	return rst
 }
-```
+// ```

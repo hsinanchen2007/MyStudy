@@ -1,4 +1,4 @@
-```
+// ```
 import java.time.LocalDate;
 class Solution {
      public static String dayOfTheWeek(int day, int month, int year) {
@@ -9,4 +9,4 @@ class Solution {
         return strings[index];
     }
 }
-```
+// ```

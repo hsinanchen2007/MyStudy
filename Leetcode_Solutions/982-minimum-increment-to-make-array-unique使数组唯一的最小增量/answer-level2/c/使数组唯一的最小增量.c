@@ -1,9 +1,9 @@
-### 解题思路
-排序后遍历数组，若当前元素小于或等于上一个元素，当前元素加至上一个元素加一，count更新
+// ### 解题思路
+// 排序后遍历数组，若当前元素小于或等于上一个元素，当前元素加至上一个元素加一，count更新
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int CMP_INT(const void *_a,const void *_b) {
 	return *(int*)_a - *(int*)_b;
 }
@@ -20,4 +20,4 @@ int minIncrementForUnique(int* A, int ASize) {
 	return count;
 }
 
-```
+// ```

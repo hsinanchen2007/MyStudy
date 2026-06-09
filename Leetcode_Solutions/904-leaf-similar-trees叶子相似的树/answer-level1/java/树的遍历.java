@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
-找到叶子节点，直接递归，将节点保存为String类型，最后比较值
-递归出口： root==null，直接返回String
-递归操作： 如果左右节点为null，直接添加到String里
-返回操作： 将左右节点的值加起来
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 找到叶子节点，直接递归，将节点保存为String类型，最后比较值
+// 递归出口： root==null，直接返回String
+// 递归操作： 如果左右节点为null，直接添加到String里
+// 返回操作： 将左右节点的值加起来
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -31,4 +31,4 @@ class Solution {
         return find(root.left,s) + find(root.right,s);
     }
 }
-```
+// ```

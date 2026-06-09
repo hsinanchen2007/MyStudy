@@ -1,16 +1,16 @@
-跟课程表一代码一样的，
-https://leetcode-cn.com/problems/course-schedule/solution/c-dfs-by-tan-lang-2/，
-只是返回不同。
+// 跟课程表一代码一样的，
+// https://leetcode-cn.com/problems/course-schedule/solution/c-dfs-by-tan-lang-2/，
+// 只是返回不同。
 
-trueList 的 插入顺序是确保该树叶上满足条件的时候插入。
-如对于树
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;|
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;2
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2
-插入顺序为 2,1,0，就是题目要求的结果
-```
+// trueList 的 插入顺序是确保该树叶上满足条件的时候插入。
+// 如对于树
+// &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0
+// &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;|
+// &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;2
+// &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+// &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2
+// 插入顺序为 2,1,0，就是题目要求的结果
+// ```
         public int[] FindOrder(int numCourses, int[][] prerequisites)
         {
             IEnumerable<int> enumerable = Enumerable.Range(0, numCourses);
@@ -57,4 +57,4 @@ trueList 的 插入顺序是确保该树叶上满足条件的时候插入。
             trueList.Add(id);
             return true;
         }
-```
+// ```

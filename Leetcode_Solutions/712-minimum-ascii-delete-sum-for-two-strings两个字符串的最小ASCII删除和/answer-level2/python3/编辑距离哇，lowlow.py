@@ -1,4 +1,4 @@
-```
+# ```
 # -- coding: utf-8 --
 class Solution:
     def minimumDeleteSum(self, s1: str, s2: str) -> int:
@@ -40,4 +40,4 @@ class Solution:
 
    
         return dp[n1][n2]
-```
+# ```

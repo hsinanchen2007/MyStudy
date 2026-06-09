@@ -1,5 +1,5 @@
-# 实现代码
-```csharp
+// # 实现代码
+// ```csharp
 public IList<int> GrayCode(int n)
 {
     IList<int> list = new List<int> { 0 };
@@ -14,5 +14,5 @@ public IList<int> GrayCode(int n)
     }
     return list;
 }
-```
-通过百度之后明白了它的内容，并了解了递归转换格雷码的方法，详细可点击[格雷码及其转换方式](https://baike.baidu.com/item/%E6%A0%BC%E9%9B%B7%E7%A0%81/6510858?fr=aladdin)查看。
+// ```
+// 通过百度之后明白了它的内容，并了解了递归转换格雷码的方法，详细可点击[格雷码及其转换方式](https://baike.baidu.com/item/%E6%A0%BC%E9%9B%B7%E7%A0%81/6510858?fr=aladdin)查看。

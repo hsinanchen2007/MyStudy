@@ -1,9 +1,9 @@
-### 解题思路
-计算上一节点数值进行迭代循环
+// ### 解题思路
+// 计算上一节点数值进行迭代循环
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> pathInZigZagTree(int label) {
@@ -21,4 +21,4 @@ public:
         return a;
     }
 };
-```
+// ```

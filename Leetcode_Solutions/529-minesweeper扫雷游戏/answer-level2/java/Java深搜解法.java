@@ -1,8 +1,8 @@
-看了大神们的分享，dfs bfs都试了一下，dfs快多了
+// 看了大神们的分享，dfs bfs都试了一下，dfs快多了
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public char[][] updateBoard(char[][] table, int[] click) {
         if (table==null || table.length<=0 ||
@@ -87,4 +87,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

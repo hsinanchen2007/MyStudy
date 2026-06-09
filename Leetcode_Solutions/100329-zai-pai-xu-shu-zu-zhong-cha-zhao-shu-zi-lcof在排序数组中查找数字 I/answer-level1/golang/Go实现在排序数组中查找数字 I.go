@@ -1,6 +1,6 @@
 
 
-```golang
+// ```golang
 func search(nums []int, target int) int {
     if len(nums)==0{
         return 0
@@ -49,4 +49,4 @@ func getRightFirst(nums []int,k,l,r int)int{
     }
     return getRightFirst(nums,k,l,r)
 }
-```
+// ```

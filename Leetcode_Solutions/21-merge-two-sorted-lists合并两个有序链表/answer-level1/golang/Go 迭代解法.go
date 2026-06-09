@@ -1,7 +1,7 @@
-时间复杂度：O(n)
-空间复杂度：O(1)
+// 时间复杂度：O(n)
+// 空间复杂度：O(1)
 
-```
+// ```
 func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
 	prehead := &ListNode{}
 	prev := prehead
@@ -20,4 +20,4 @@ func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
 
 	return prehead.Next
 }
-```
+// ```

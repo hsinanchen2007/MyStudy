@@ -1,6 +1,6 @@
-4ms，3.6MB解决方案，使用矩阵层级遍历，每次向下搜索，-1表示搜索失败的节点
+// 4ms，3.6MB解决方案，使用矩阵层级遍历，每次向下搜索，-1表示搜索失败的节点
 
-```
+// ```
 func metrix(n int) [][]int {
 	var m = make([][]int, 0, n)
 	for i := 0; i < n; i++ {
@@ -112,4 +112,4 @@ func build(ps []*point, n int) []string {
 	}
 	return res
 }
-```
+// ```

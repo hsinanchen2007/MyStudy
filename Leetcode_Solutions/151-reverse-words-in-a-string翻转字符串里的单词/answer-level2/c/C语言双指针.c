@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/bd6763e4a0726f155f5df0849672747baca8601b21bcd0d0b6d286d5cbfd81b6-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/bd6763e4a0726f155f5df0849672747baca8601b21bcd0d0b6d286d5cbfd81b6-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * reverseWords(char * s){
     char* ret = (char*)malloc(sizeof(char) * 100000);
     if(strlen(s) == 0) {
@@ -52,4 +52,4 @@ char * reverseWords(char * s){
     ret[sum - 1] = '\0';
     return ret;
 }
-```
+// ```

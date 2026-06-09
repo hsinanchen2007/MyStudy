@@ -1,9 +1,9 @@
-### 解题思路
-逆向思维，到2X>=Y时输出结果
+// ### 解题思路
+// 逆向思维，到2X>=Y时输出结果
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int brokenCalc(int X, int Y){
     int ret = 0;
     int cnt = 0;
@@ -23,4 +23,4 @@ int brokenCalc(int X, int Y){
     }
     return ret; 
 }
-```
+// ```

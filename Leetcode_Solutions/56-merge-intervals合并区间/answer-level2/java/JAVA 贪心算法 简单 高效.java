@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int[][] merge(int[][] intervals) {
         if (intervals == null || intervals.length == 0
@@ -22,4 +22,4 @@ class Solution {
         return result.toArray(new int[0][]);
     }
 }
-```
+// ```

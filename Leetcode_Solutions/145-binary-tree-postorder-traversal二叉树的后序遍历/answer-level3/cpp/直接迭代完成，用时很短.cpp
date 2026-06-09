@@ -1,4 +1,4 @@
-根据后续遍历，先遍历左子树，再遍历右子树，最后再遍历根节点，然后左子树与右子树继续这样遍历，直到为NULL
+// 根据后续遍历，先遍历左子树，再遍历右子树，最后再遍历根节点，然后左子树与右子树继续这样遍历，直到为NULL
 vector<int> postorderTraversal(TreeNode* root) {
         vector<int> nums;
         behindorder(root,&nums);

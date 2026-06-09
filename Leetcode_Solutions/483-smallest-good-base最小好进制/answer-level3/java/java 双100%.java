@@ -1,5 +1,5 @@
    
-![TIM图片20200109230015.png](https://pic.leetcode-cn.com/d1c9cd7cc7d7056e2c170e664f24cdbcd1e31b485b4df70cb3cd938d92f467e3-TIM%E5%9B%BE%E7%89%8720200109230015.png)
+// ![TIM图片20200109230015.png](https://pic.leetcode-cn.com/d1c9cd7cc7d7056e2c170e664f24cdbcd1e31b485b4df70cb3cd938d92f467e3-TIM%E5%9B%BE%E7%89%8720200109230015.png)
 
 	//N = k^0 + k^1 + k^2 + ... + k^m
 

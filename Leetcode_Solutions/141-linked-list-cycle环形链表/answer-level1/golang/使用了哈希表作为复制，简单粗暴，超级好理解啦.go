@@ -1,10 +1,10 @@
-### 解题思路
-使用了哈希表这种数据结构作为辅助，时间复杂度还是可以哒，就是比较消耗空间
-> [更多](https://github.com/googege/GOFamily)
+// ### 解题思路
+// 使用了哈希表这种数据结构作为辅助，时间复杂度还是可以哒，就是比较消耗空间
+// > [更多](https://github.com/googege/GOFamily)
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -26,4 +26,4 @@ func hasCycle(head *ListNode) bool {
     
     return false
 }
-```
+// ```

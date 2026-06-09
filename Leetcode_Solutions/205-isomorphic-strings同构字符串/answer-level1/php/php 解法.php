@@ -1,5 +1,5 @@
-通过键值对map构建映射关系，若发现一对多的情况则false
-```
+// 通过键值对map构建映射关系，若发现一对多的情况则false
+// ```
 function isIsomorphic($s, $t) {
     if(strlen($s)!=strlen($t)) return false;
     $map_s = [];
@@ -15,4 +15,4 @@ function isIsomorphic($s, $t) {
     }
     return true;
 }
-```
+// ```

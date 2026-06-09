@@ -1,10 +1,10 @@
-### 解题思路
-逐层解析，每一层首先添加最后一位元素，之后计算中间元素
-注意：java数组存放的是地址，在更新每一位数组时，需要新建立一个数组，否则在后续改变过程中，所有数组元素都将修改。
+// ### 解题思路
+// 逐层解析，每一层首先添加最后一位元素，之后计算中间元素
+// 注意：java数组存放的是地址，在更新每一位数组时，需要新建立一个数组，否则在后续改变过程中，所有数组元素都将修改。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> generate(int numRows) {
         ArrayList<List<Integer>> result = new ArrayList<List<Integer>>();
@@ -29,4 +29,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

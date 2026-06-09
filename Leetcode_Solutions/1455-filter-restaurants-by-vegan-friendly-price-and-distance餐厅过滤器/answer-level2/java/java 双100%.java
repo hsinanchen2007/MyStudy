@@ -1,13 +1,13 @@
-### 解题思路
-![capture_20200203205025029.bmp](https://pic.leetcode-cn.com/ba4e2f046d887b01ea0b1f19cbad067c91a1a184b9100ee399abf3a56da0264d-capture_20200203205025029.bmp)
-1. 用条件pass掉不符合的餐厅，然后加入到一个arratlist之中。
-2. 用Collections.sort(list,new Comparator(){...})自定义一个排序方案
-3. 因为不知道int[]的封装，所以用了Object到int[]的强转
-4. 将排好序的餐厅转到ret中
+// ### 解题思路
+// ![capture_20200203205025029.bmp](https://pic.leetcode-cn.com/ba4e2f046d887b01ea0b1f19cbad067c91a1a184b9100ee399abf3a56da0264d-capture_20200203205025029.bmp)
+// 1. 用条件pass掉不符合的餐厅，然后加入到一个arratlist之中。
+// 2. 用Collections.sort(list,new Comparator(){...})自定义一个排序方案
+// 3. 因为不知道int[]的封装，所以用了Object到int[]的强转
+// 4. 将排好序的餐厅转到ret中
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> filterRestaurants(int[][] restaurants, int veganFriendly, int maxPrice, int maxDistance) {
         //restaurants[i] = [idi, ratingi, veganFriendlyi, pricei, distancei]
@@ -37,4 +37,4 @@ class Solution {
         return ret;
     }
 }
-```
+// ```

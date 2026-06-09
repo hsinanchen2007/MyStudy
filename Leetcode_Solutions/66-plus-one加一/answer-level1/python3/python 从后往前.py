@@ -1,5 +1,5 @@
-思路：从后往前判断数字等不等于9，如果等于再往前一位判断。不等于就直接加1退出。
-```
+# 思路：从后往前判断数字等不等于9，如果等于再往前一位判断。不等于就直接加1退出。
+# ```
 class Solution:
     def plusOne(self, digits: List[int]) -> List[int]:
         if not digits:
@@ -14,4 +14,4 @@ class Solution:
         if digits[0] == 0:
             digits.insert(0, 1)
         return digits
-```
+# ```

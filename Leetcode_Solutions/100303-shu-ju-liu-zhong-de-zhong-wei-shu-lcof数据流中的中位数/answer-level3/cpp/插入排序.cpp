@@ -1,7 +1,7 @@
-使用插入排序的方法，每次添加的复杂度为O(N),查找中位数的复杂度为O(1)
-### 代码
+// 使用插入排序的方法，每次添加的复杂度为O(N),查找中位数的复杂度为O(1)
+// ### 代码
 
-```cpp
+// ```cpp
 class MedianFinder {
 public:
     /** initialize your data structure here. */
@@ -41,4 +41,4 @@ public:
  * obj->addNum(num);
  * double param_2 = obj->findMedian();
  */
-```
+// ```

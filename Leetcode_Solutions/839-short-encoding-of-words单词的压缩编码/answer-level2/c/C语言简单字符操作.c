@@ -1,11 +1,11 @@
-### 解题思路
-1.先按单词长度降序排序
-2.输入最长的单词
-3.每再输入一个单词与之前的单词比较是否已经包含
+// ### 解题思路
+// 1.先按单词长度降序排序
+// 2.输入最长的单词
+// 3.每再输入一个单词与之前的单词比较是否已经包含
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int minimumLengthEncoding(char ** words, int wordsSize){
     if (words == NULL) {
         return 0;
@@ -62,4 +62,4 @@ int minimumLengthEncoding(char ** words, int wordsSize){
     free(indexes);
     return length;
 }
-```
+// ```

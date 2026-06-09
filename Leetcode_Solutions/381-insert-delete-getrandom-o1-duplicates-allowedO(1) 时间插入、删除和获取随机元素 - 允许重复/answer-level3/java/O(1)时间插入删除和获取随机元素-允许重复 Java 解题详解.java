@@ -1,13 +1,13 @@
-### 解题思路
-   关键词： 时间复杂度为O(1)  存储长度可变  可重复出现  循环遍历查找是否重复出现
-    思路：  1.存储长度可变 采用ArrayList集合存储
-            2.insert() 添加方法，必添加，因此先添加，长度+1，在循环遍历判断是否存在
-            3.remove() 删除方法，先判断 不存在返回false 存在删除 长度-1 返回true
-            4.getRandom() 随机返回 获取随机数 范围为0-length 直接返回list.get(random)即可
+// ### 解题思路
+//    关键词： 时间复杂度为O(1)  存储长度可变  可重复出现  循环遍历查找是否重复出现
+//     思路：  1.存储长度可变 采用ArrayList集合存储
+//             2.insert() 添加方法，必添加，因此先添加，长度+1，在循环遍历判断是否存在
+//             3.remove() 删除方法，先判断 不存在返回false 存在删除 长度-1 返回true
+//             4.getRandom() 随机返回 获取随机数 范围为0-length 直接返回list.get(random)即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class RandomizedCollection {
     /**
      * 长度可变 O(1) 所以要采取集合
@@ -65,4 +65,4 @@ class RandomizedCollection {
         return integerList.get(i);
     }
 }
-```
+// ```

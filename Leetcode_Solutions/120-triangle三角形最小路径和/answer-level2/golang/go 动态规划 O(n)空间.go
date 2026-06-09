@@ -1,5 +1,5 @@
-原地修改，空间复杂度$O(n)$
-```golang
+// 原地修改，空间复杂度$O(n)$
+// ```golang
 func minimumTotal(triangle [][]int) int {
 	r := len(triangle)
 	if r == 0 {
@@ -34,4 +34,4 @@ func minimumTotal(triangle [][]int) int {
 
 	return min
 }
-```
+// ```

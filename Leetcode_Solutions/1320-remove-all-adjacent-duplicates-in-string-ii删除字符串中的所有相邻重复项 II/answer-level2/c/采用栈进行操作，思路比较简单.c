@@ -1,4 +1,4 @@
-```
+// ```
 char * removeDuplicates(char * s, int k){
     int sLen = strlen(s);
 
@@ -44,4 +44,4 @@ char * removeDuplicates(char * s, int k){
 
     return charBuff;
 }
-```
+// ```

@@ -1,5 +1,5 @@
-利用二分查找两次即可，二分查找十分注重细节，利用标准的二分查找模板
-```python []
+# 利用二分查找两次即可，二分查找十分注重细节，利用标准的二分查找模板
+# ```python []
 ef binarySearch(nums, target):
     """
     :type nums: List[int]
@@ -19,10 +19,10 @@ ef binarySearch(nums, target):
         else:
             right = mid
 
-```
+# ```
 
-进行两次二分查找后
-```python []
+# 进行两次二分查找后
+# ```python []
 class Solution:
     def searchRange(self, nums: List[int], target: int) -> List[int]:
         #最终输出[left , right]
@@ -61,5 +61,5 @@ class Solution:
                     left2 = mid2 + 1
             mid2 = (right2 + left2) // 2
         return [first, second]
-```
-最终击败99%用户
+# ```
+# 最终击败99%用户

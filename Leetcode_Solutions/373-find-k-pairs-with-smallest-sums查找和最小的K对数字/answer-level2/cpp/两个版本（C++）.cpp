@@ -1,10 +1,10 @@
-首发于微信公众号：算法工程师之路
-解题思路：
-版本一：将所有可能的两位数全都列出存入一个vector中，然后进行排序，排序的规则为：两数之和，越小的越靠前！
-版本二：使用PriorityQueue建立大根堆，排序规则与版本一相同，当堆中元素大于k时，判断堆顶元素与待插入元素大小，如果待插入元素小，则将该元素放入堆中，并且移除堆顶元素，这是为了保证堆中元素个数 <= k。这样由于事先判断，因此相比版本一效率会高很多！
+// 首发于微信公众号：算法工程师之路
+// 解题思路：
+// 版本一：将所有可能的两位数全都列出存入一个vector中，然后进行排序，排序的规则为：两数之和，越小的越靠前！
+// 版本二：使用PriorityQueue建立大根堆，排序规则与版本一相同，当堆中元素大于k时，判断堆顶元素与待插入元素大小，如果待插入元素小，则将该元素放入堆中，并且移除堆顶元素，这是为了保证堆中元素个数 <= k。这样由于事先判断，因此相比版本一效率会高很多！
 
- （版本一：Vector+Sort版本）
-```c++
+//  （版本一：Vector+Sort版本）
+// ```c++
 class Solution {
 public:
     vector<vector<int>> kSmallestPairs(vector<int>& nums1, vector<int>& nums2, int k) {
@@ -29,10 +29,10 @@ public:
         return res;   
     }
 };
-```
+// ```
 
-（版本二：PriorityQueue，速度更快，内存占用更少）
-```c++
+// （版本二：PriorityQueue，速度更快，内存占用更少）
+// ```c++
 class Solution {
 public:
     vector<vector<int>> kSmallestPairs(vector<int>& nums1, vector<int>& nums2, int k) {
@@ -60,4 +60,4 @@ public:
         return res;
     }
 };
-```
+// ```

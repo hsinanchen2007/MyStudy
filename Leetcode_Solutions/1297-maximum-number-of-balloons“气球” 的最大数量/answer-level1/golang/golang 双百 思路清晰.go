@@ -1,13 +1,13 @@
-![屏幕快照 2020-04-06 下午7.53.50.png](https://pic.leetcode-cn.com/9aba885a32fda0252b5e09e23b0957fdb0f878b063f632e8256b20e3e7c36774-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-04-06%20%E4%B8%8B%E5%8D%887.53.50.png)
+// ![屏幕快照 2020-04-06 下午7.53.50.png](https://pic.leetcode-cn.com/9aba885a32fda0252b5e09e23b0957fdb0f878b063f632e8256b20e3e7c36774-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-04-06%20%E4%B8%8B%E5%8D%887.53.50.png)
 
-### 解题思路
+// ### 解题思路
 
-将字母遍历存储到数组中统计字母数量，然后按balloon遍历数组，边遍历边递减字母的数量，遍历一次即代表可以拼成一个balloon，记录次数，当某个字母的数量小于0时，返回总数
+// 将字母遍历存储到数组中统计字母数量，然后按balloon遍历数组，边遍历边递减字母的数量，遍历一次即代表可以拼成一个balloon，记录次数，当某个字母的数量小于0时，返回总数
 
 
-### 参考代码
+// ### 参考代码
 
-```
+// ```
 func maxNumberOfBalloons(text string) int {
 	var list [26]int
 	str := "balloon"
@@ -36,8 +36,8 @@ func Min(x int ,y int) int {
 	return x
 }
 
-```
+// ```
 
-**更多题解可以在我的[github](https://github.com/LZH139/leetcode_Go)上看到，每天都在持续更新，觉得还不错的话，记得点个小星星哈，谢谢啦**
+// **更多题解可以在我的[github](https://github.com/LZH139/leetcode_Go)上看到，每天都在持续更新，觉得还不错的话，记得点个小星星哈，谢谢啦**
 
 

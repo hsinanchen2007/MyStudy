@@ -1,4 +1,4 @@
-```
+// ```
 bool isValid(char * s){
     if (s == NULL || strlen(s) == 0)
     {
@@ -59,4 +59,4 @@ bool isValid(char * s){
         return false;
     }
 }
-```
+// ```

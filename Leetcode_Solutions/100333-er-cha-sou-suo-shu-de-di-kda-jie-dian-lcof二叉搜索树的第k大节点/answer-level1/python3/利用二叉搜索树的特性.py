@@ -1,9 +1,9 @@
-### 思路
-右子树-根-左子树 顺序访问二叉树
+# ### 思路
+# 右子树-根-左子树 顺序访问二叉树
 
-### code1
-递归
-```python
+# ### code1
+# 递归
+# ```python
 class Solution:
     def kthLargest(self, root: TreeNode, k: int) -> int:
         def travel(root):
@@ -15,10 +15,10 @@ class Solution:
                 ans2 = travel(root.left) 
                 return ans1 if ans1 else ans2
         return travel(root)
-```
-### code2
-迭代，逆中序
-```python
+# ```
+# ### code2
+# 迭代，逆中序
+# ```python
 class Solution:
     def kthLargest(self, root: TreeNode, k: int) -> int:
         stack, node = [], root
@@ -31,4 +31,4 @@ class Solution:
                 k -= 1
                 if k == 0: return node.val
                 node = node.left
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 struct hash_data{
 	int key;
 	struct hash_data * next;
@@ -91,4 +91,4 @@ bool containsDuplicate(int* nums, int numsSize){
 	hash_free(table);
 	return ret;
 }
-```
+// ```

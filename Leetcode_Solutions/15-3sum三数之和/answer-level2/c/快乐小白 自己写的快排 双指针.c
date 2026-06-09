@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
 
-c语言做的 报个坑 第311个案例溢出 我找了 好久 *returnColumnSizes = (int*)malloc(sizeof(int) * (numsSize)*(numsSize)); 题目自身给的不够大 在大一点    醉了
+// c语言做的 报个坑 第311个案例溢出 我找了 好久 *returnColumnSizes = (int*)malloc(sizeof(int) * (numsSize)*(numsSize)); 题目自身给的不够大 在大一点    醉了
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -87,4 +87,4 @@ int** threeSum(int* nums, int numsSize, int* returnSize, int** returnColumnSizes
     }
     return a;
 }
-```
+// ```

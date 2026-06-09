@@ -1,4 +1,4 @@
-```
+// ```
 int balancedStringSplit(char * s)
 {
     int r = 0, l = 0, sum = 0;
@@ -21,4 +21,4 @@ int balancedStringSplit(char * s)
 
     return sum;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 var currentMaxNode int
 
 func isValidBinarySearchTree(root *TreeNode) bool {
@@ -21,4 +21,4 @@ func isValidBST(root *TreeNode) bool {
 	currentMaxNode = int(^uint(0) >> 1)
 	return isValidBinarySearchTree(root)
 }
-```
+// ```

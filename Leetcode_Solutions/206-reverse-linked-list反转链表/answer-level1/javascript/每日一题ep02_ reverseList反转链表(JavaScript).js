@@ -1,12 +1,12 @@
-### 解题思路
-**递归法**
-利用**递归**将 next 进行反转链表，当前节点=head.next. 
-时间复杂度: O(n). n-1 层递归，每层时间复杂度均为 O(1)
-空间复杂度: O(n). n-1 层递归
+// ### 解题思路
+// **递归法**
+// 利用**递归**将 next 进行反转链表，当前节点=head.next. 
+// 时间复杂度: O(n). n-1 层递归，每层时间复杂度均为 O(1)
+// 空间复杂度: O(n). n-1 层递归
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var reverseList = function(head) {
     if(!head||!head.next){
         return head
@@ -18,5 +18,5 @@ var reverseList = function(head) {
     return rHead
 };
 
-```
-😀
+// ```
+// 😀

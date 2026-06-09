@@ -1,10 +1,10 @@
 
-先对原文进行处理，用标准库函数isalnum筛选出字母与数字，再用isupper筛选出大写的，用tolower转为小写
-然后再一前一后两个索引对元素两两遍历，得出结果
-时间复杂度为O(n)，空间复杂度，由于多了一个str拷贝，应该是O(n)
+// 先对原文进行处理，用标准库函数isalnum筛选出字母与数字，再用isupper筛选出大写的，用tolower转为小写
+// 然后再一前一后两个索引对元素两两遍历，得出结果
+// 时间复杂度为O(n)，空间复杂度，由于多了一个str拷贝，应该是O(n)
 
 
-```
+// ```
 class Solution {
 public:
     bool isPalindrome(string s) {
@@ -26,4 +26,4 @@ private:
         return str;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-思路：
-由于已经知道最大长度为500，用长度为500的vector作为哈希保存。
-key为groupSize，value为对应的分组。
-value的size等于groupSize，move到结果中。
+// 思路：
+// 由于已经知道最大长度为500，用长度为500的vector作为哈希保存。
+// key为groupSize，value为对应的分组。
+// value的size等于groupSize，move到结果中。
 
-```
+// ```
 class Solution {
 public:
     vector<vector<int>> groupThePeople(vector<int>& groupSizes) {
@@ -18,4 +18,4 @@ public:
         return result;
     }
 };
-```
+// ```

@@ -1,8 +1,8 @@
 
-//write:指示每次写入的位置
-//read:每次向右读的位置
-//windowLeft:与read之间形成一个窗口，如果这个窗口中的字母都相同，则read不断向右读
-```
+// //write:指示每次写入的位置
+// //read:每次向右读的位置
+// //windowLeft:与read之间形成一个窗口，如果这个窗口中的字母都相同，则read不断向右读
+// ```
 class Solution {
     public int compress(char[] chars) {
         int write = -1;
@@ -24,4 +24,4 @@ class Solution {
         return write + 1;
     }   
 }
-```
+// ```

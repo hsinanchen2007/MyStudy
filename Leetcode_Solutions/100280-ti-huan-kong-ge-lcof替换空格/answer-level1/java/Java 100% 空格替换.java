@@ -1,9 +1,9 @@
-### 解题思路
-统计空格出现的次数，然后从后一次遍历构建最终结果char数组即可。
+// ### 解题思路
+// 统计空格出现的次数，然后从后一次遍历构建最终结果char数组即可。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String replaceSpace(String s) {
         if (s == null || s.length() == 0) {
@@ -35,4 +35,4 @@ class Solution {
         return String.valueOf(result);
     }
 }
-```
+// ```

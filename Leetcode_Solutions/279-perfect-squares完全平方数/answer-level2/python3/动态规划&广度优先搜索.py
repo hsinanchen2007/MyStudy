@@ -1,14 +1,14 @@
-### 解题思路
-方法一
-动态规划，可当作完全背包问题，dp = [i for i in range(n+1)]
-转移公式为dp[i] = min(dp[i],dp[i-j]+1)
-方法二
-广度优先搜索
-![image.png](https://pic.leetcode-cn.com/911a9624ebc445fe4a1949caddeb75c1486fc96cdbf8a89ec5e6e1da437b78b1-image.png)
+# ### 解题思路
+# 方法一
+# 动态规划，可当作完全背包问题，dp = [i for i in range(n+1)]
+# 转移公式为dp[i] = min(dp[i],dp[i-j]+1)
+# 方法二
+# 广度优先搜索
+# ![image.png](https://pic.leetcode-cn.com/911a9624ebc445fe4a1949caddeb75c1486fc96cdbf8a89ec5e6e1da437b78b1-image.png)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numSquares(self, n: int) -> int:
         #动态规划&完全背包
@@ -51,4 +51,4 @@ class Solution:
                     queue.appendleft(num - no)
                     queue.appendleft(d)
                     visted.add(num-no)
-```
+# ```

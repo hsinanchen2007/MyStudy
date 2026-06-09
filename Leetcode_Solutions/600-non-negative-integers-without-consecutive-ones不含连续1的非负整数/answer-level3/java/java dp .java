@@ -1,4 +1,4 @@
-```java
+// ```java
 public class Solution {
     public int findIntegers(int num) {
         StringBuilder sb = new StringBuilder(Integer.toBinaryString(num)).reverse();
@@ -21,4 +21,4 @@ public class Solution {
         return result;
     }
 }
-```
+// ```

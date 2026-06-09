@@ -1,13 +1,13 @@
-### 解题思路
+// ### 解题思路
 
-遍历数组：
-（1）对第一个元素，本身是0右边是0即可种花
-（2）对于中间元素，本身是0，左右两边都是0，可以种花
-（3）对于最后一个元素，本身是0，左边是0，可以种花
+// 遍历数组：
+// （1）对第一个元素，本身是0右边是0即可种花
+// （2）对于中间元素，本身是0，左右两边都是0，可以种花
+// （3）对于最后一个元素，本身是0，左边是0，可以种花
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func canPlaceFlowers(flowerbed []int, n int) bool {
 	if n > len(flowerbed) {
 		return false
@@ -21,4 +21,4 @@ func canPlaceFlowers(flowerbed []int, n int) bool {
 	}
 	return blank >= n
 }
-```
+// ```

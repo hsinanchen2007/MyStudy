@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int scheduleCourse(int[][] courses) {
         int len = courses.length;
@@ -25,4 +25,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

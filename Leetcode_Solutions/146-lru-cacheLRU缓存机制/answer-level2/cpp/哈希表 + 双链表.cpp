@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-哈希表 + 双链表
+// 哈希表 + 双链表
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class LRUCache {
 private:
     list<pair<int, int>> q;
@@ -49,4 +49,4 @@ public:
  * int param_1 = obj->get(key);
  * obj->put(key,value);
  */
-```
+// ```

@@ -1,9 +1,9 @@
 
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
@@ -35,4 +35,4 @@ public:
 		return head;
 	}
 };
-```
+// ```

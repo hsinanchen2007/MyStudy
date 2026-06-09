@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def invalidTransactions(self, transactions: List[str]) -> List[str]:
         res = []
@@ -21,4 +21,4 @@ class Solution:
                 dict1[tmp[0]][-1][3] = True
                 res.append(transaction)
         return res
-```
+# ```

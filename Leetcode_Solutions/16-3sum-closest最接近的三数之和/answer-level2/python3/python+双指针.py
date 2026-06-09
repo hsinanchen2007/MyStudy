@@ -1,5 +1,5 @@
-固定一个，再使用双指针法
-```
+# 固定一个，再使用双指针法
+# ```
 class Solution:
     def threeSumClosest(self, nums: List[int], target: int) -> int:
         nums = sorted(nums)
@@ -25,4 +25,4 @@ class Solution:
                 elif r == target:
                     return r
         return ans
-```
+# ```

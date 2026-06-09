@@ -1,4 +1,4 @@
-```
+// ```
 const MOD = 1000000007
 
 type BitTree struct {
@@ -78,4 +78,4 @@ func bonus(n int, leadership [][]int, operations [][]int) []int {
 	}
 	return o
 }
-```
+// ```

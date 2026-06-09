@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int[] SortArray(int[] nums) {
         int[] arr  = new int[100001];
@@ -22,4 +22,4 @@ public class Solution {
     }
 }
 
-```
+// ```

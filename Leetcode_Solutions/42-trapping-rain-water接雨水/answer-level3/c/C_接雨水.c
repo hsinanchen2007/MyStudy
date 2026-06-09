@@ -1,9 +1,9 @@
-### 解题思路
-参考官方题解：双指针法
+// ### 解题思路
+// 参考官方题解：双指针法
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int trap(int* height, int heightSize){
     int left=0,right=heightSize-1,maxLeft=-1,maxRight=-1,result=0;
     while(left<right)
@@ -25,4 +25,4 @@ int trap(int* height, int heightSize){
         }
     return result;
 }
-```
+// ```

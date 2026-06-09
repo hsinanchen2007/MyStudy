@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/c24359a51a629c45b4770d43fff7fbcdafde54163c428bd40b2a1c8907d30ad2-image.png)
+# ![image.png](https://pic.leetcode-cn.com/c24359a51a629c45b4770d43fff7fbcdafde54163c428bd40b2a1c8907d30ad2-image.png)
 
-把四种相交情况讨论出来就可以了，时间仅供参考。
+# 把四种相交情况讨论出来就可以了，时间仅供参考。
 
-```python []
+# ```python []
 class Solution:
     def minAvailableDuration(self, slots1: List[List[int]], slots2: List[List[int]], duration: int) -> List[int]:
         slots1.sort()
@@ -22,4 +22,4 @@ class Solution:
             else:
                 j += 1
         return ans[: 2]
-```
+# ```

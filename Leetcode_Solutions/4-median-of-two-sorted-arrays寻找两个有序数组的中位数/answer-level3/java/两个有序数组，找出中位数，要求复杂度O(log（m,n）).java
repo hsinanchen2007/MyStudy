@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-将这个问题看成分割问题,分别找到两个数组的分割点
-aPart是数组1的分割点，bPart是数组2的分割点
-两个切割点左右的四个边界值,必须满足num1[aPart-1]<num2[baprt] && num2[bPart-1]<num1
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 将这个问题看成分割问题,分别找到两个数组的分割点
+// aPart是数组1的分割点，bPart是数组2的分割点
+// 两个切割点左右的四个边界值,必须满足num1[aPart-1]<num2[baprt] && num2[bPart-1]<num1
+// ### 代码
 
-```java
+// ```java
 class Solution {
    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         if (nums1.length == 0 && nums2.length == 0) {
@@ -57,4 +57,4 @@ class Solution {
     }
 
 }
-```
+// ```

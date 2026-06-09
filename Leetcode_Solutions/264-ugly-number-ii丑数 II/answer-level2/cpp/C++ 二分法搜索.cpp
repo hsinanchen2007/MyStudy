@@ -1,5 +1,5 @@
-二分查找算法
-```
+// 二分查找算法
+// ```
 class Solution {
 public:
     using ll = long long;
@@ -45,7 +45,7 @@ public:
         return r;
     }
 };
-```
-不过效率确实没有dp高，不过也是一种解法
-![image.png](https://pic.leetcode-cn.com/b1c017cb551526b19924b9977e25094e7c1b36fa2992fdb8f07c100e4d92c579-image.png)
+// ```
+// 不过效率确实没有dp高，不过也是一种解法
+// ![image.png](https://pic.leetcode-cn.com/b1c017cb551526b19924b9977e25094e7c1b36fa2992fdb8f07c100e4d92c579-image.png)
 

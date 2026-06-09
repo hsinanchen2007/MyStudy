@@ -1,8 +1,8 @@
-### 思路
+// ### 思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> fizzBuzz(int n) {
@@ -23,10 +23,10 @@ public:
         return res;
     }
 };
-```
+// ```
 
-### 另一种写法
-```c++
+// ### 另一种写法
+// ```c++
 class Solution {
 public:
     vector<string> fizzBuzz(int n) {
@@ -45,4 +45,4 @@ public:
         return res;
     }
 };
-```
+// ```

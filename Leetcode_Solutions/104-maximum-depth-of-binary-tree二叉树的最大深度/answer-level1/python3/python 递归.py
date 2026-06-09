@@ -1,9 +1,9 @@
-### 解题思路
-递归的返回max(左子数，右子树)+1的值就可以
+# ### 解题思路
+# 递归的返回max(左子数，右子树)+1的值就可以
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -19,4 +19,4 @@ class Solution:
                 return 0
             return max(helper(root.left),helper(root.right))+1
         return helper(root)
-```
+# ```

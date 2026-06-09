@@ -1,9 +1,9 @@
 
-首要目的是不停的让target落在一个已经排好的小段里，随后进行二分查找
-通过判断midNum和start/end的关系，先找到已经排好序的半段，然后不停的递归。
+// 首要目的是不停的让target落在一个已经排好的小段里，随后进行二分查找
+// 通过判断midNum和start/end的关系，先找到已经排好序的半段，然后不停的递归。
 
 
-```
+// ```
 class Solution {
     public int search(int[] nums, int target) {
         return work(nums, 0, nums.length-1, target);

@@ -1,7 +1,7 @@
-![1.png](https://pic.leetcode-cn.com/bb7087ab2efca6f1afcca54845c7a9913aba96ef4c20e0fc55e352281403479b-1.png)
+// ![1.png](https://pic.leetcode-cn.com/bb7087ab2efca6f1afcca54845c7a9913aba96ef4c20e0fc55e352281403479b-1.png)
 
-### 代码
-```cpp
+// ### 代码
+// ```cpp
 class Solution {
 public:
     vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
@@ -14,4 +14,4 @@ public:
         return res;
     }
 };
-```
+// ```

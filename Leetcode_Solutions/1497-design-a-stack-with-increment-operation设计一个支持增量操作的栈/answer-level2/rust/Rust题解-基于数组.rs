@@ -1,6 +1,6 @@
-这道题相对简单，基于数组来做即可，这里提供一个Rust版本的参考解法。
+// 这道题相对简单，基于数组来做即可，这里提供一个Rust版本的参考解法。
 
-```rust
+// ```rust
 use std::cell::RefCell;
 use std::cmp;
 
@@ -43,4 +43,4 @@ impl CustomStack {
         }
     }
 }
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-首先时算出结果的数组长度，然后已两个长度单位遍历数组，在每次遍历过程中，将num[i+1]个值赋值num[i]次即可,用时1ms，占用内存38.1
-### 代码
+// ### 解题思路
+// 首先时算出结果的数组长度，然后已两个长度单位遍历数组，在每次遍历过程中，将num[i+1]个值赋值num[i]次即可,用时1ms，占用内存38.1
+// ### 代码
 
-```java
+// ```java
 import java.util.*;
 class Solution {
     public int[] decompressRLElist(int[] nums) {
@@ -22,4 +22,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

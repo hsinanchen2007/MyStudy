@@ -1,9 +1,9 @@
-### 解题思路
-快排的思想，分治法
+// ### 解题思路
+// 快排的思想，分治法
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 //分治法
 class Solution {
     vector<vector<int>> points;
@@ -64,4 +64,4 @@ public:
         return result;
     }
 };
-```
+// ```

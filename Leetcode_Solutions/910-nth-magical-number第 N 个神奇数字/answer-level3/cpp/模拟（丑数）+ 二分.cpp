@@ -1,10 +1,10 @@
-### 解题思路
-模拟：O(N) 超时
-二分：1e6
+// ### 解题思路
+// 模拟：O(N) 超时
+// 二分：1e6
 
-### 代码
-#### 法1：模拟
-```
+// ### 代码
+// #### 法1：模拟
+// ```
 const int MOD = 1e9 + 7;
 class Solution {
 public:
@@ -23,9 +23,9 @@ public:
         return min(head[0], head[1]) % MOD;
     }
 };
-```
-#### 法2：二分
-```cpp
+// ```
+// #### 法2：二分
+// ```cpp
 const int MOD = 1e9 + 7;
 class Solution {
 public:
@@ -46,4 +46,4 @@ public:
         return !b ? a: gcd(b, a % b);
     }
 };
-```
+// ```

@@ -1,6 +1,6 @@
-首先来查找起始位置的 target，就是在数组中查找第一个大于等于 target 的位置，当返回的位置越界，或者该位置上的值不等于 target 时，表示数组中没有 target，直接返回 {-1, -1} 即可。
-若查找到了 target 值，则再查找第一个大于 target 的位置，然后把返回的位置减1，就是 target 的最后一个位置，即便是返回的值越界了，减1后也不会越界
-```
+// 首先来查找起始位置的 target，就是在数组中查找第一个大于等于 target 的位置，当返回的位置越界，或者该位置上的值不等于 target 时，表示数组中没有 target，直接返回 {-1, -1} 即可。
+// 若查找到了 target 值，则再查找第一个大于 target 的位置，然后把返回的位置减1，就是 target 的最后一个位置，即便是返回的值越界了，减1后也不会越界
+// ```
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) 
@@ -42,4 +42,4 @@ public:
         return res;
     }
 };
-```
+// ```

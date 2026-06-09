@@ -1,9 +1,9 @@
-### 解题思路
-遍历数组，加上总表面积，减去遮挡的表面积
+// ### 解题思路
+// 遍历数组，加上总表面积，减去遮挡的表面积
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int min(a, b){
     return (a > b ? b : a);
 }
@@ -20,4 +20,4 @@ int surfaceArea(int** grid, int gridSize, int* gridColSize){
         }
     return area;
 }
-```
+// ```

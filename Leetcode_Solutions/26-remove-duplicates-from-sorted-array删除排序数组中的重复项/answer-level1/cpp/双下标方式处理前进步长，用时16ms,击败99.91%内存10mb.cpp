@@ -1,8 +1,8 @@
-### 解题思路
-此处撰写解题思路
-双下标方式处理前进步长，
-### 代码
-```cpp
+// ### 解题思路
+// 此处撰写解题思路
+// 双下标方式处理前进步长，
+// ### 代码
+// ```cpp
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
@@ -21,4 +21,4 @@ public:
         return i+1;
     }
 };
-```
+// ```

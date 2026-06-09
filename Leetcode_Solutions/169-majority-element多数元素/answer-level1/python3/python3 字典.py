@@ -1,5 +1,5 @@
-第一眼的思路就想到了 用字典
-```
+# 第一眼的思路就想到了 用字典
+# ```
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
         n = len(nums)
@@ -14,4 +14,4 @@ class Solution:
         for i in dict:
             if dict[i] > index:
                 return i
-```
+# ```

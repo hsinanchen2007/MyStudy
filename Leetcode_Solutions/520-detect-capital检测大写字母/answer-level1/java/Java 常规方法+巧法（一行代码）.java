@@ -1,22 +1,22 @@
-### 解题思路
+// ### 解题思路
 
-![IMG_0463.PNG](https://pic.leetcode-cn.com/e2c3c17825abf895a6f01c997060425abe43119f9e7197b73b033e2eddcff893-IMG_0463.PNG)
+// ![IMG_0463.PNG](https://pic.leetcode-cn.com/e2c3c17825abf895a6f01c997060425abe43119f9e7197b73b033e2eddcff893-IMG_0463.PNG)
 
 
-### 代码
+// ### 代码
 
-巧法：
+// 巧法：
 
-```java
+// ```java
 class Solution {
  public boolean detectCapitalUse(String word) {
       return  word.equals(word.toLowerCase())||word.equals(word.toUpperCase())
       ||word.equals(Character.toUpperCase(word.charAt(0))+word.substring(1).toLowerCase());
     }
 }
-```
-常规方法：
-```java
+// ```
+// 常规方法：
+// ```java
 class Solution {
     public boolean detectCapitalUse(String word) {
         char a[] = word.toCharArray();
@@ -40,4 +40,4 @@ class Solution {
 		return false;
     }
 }
-```
+// ```

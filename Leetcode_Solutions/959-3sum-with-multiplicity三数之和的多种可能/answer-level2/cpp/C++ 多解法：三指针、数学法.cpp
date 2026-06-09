@@ -1,6 +1,6 @@
-# 解法一：
-三指针法
-```C++ []
+// # 解法一：
+// 三指针法
+// ```C++ []
 class Solution {
 public:
     const long M = 1e9 + 7;
@@ -36,12 +36,12 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/7ec5b4b2dd5db9628770d47cad40421131c4300fdf9b13bf8ccb6a6155628c0e-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/7ec5b4b2dd5db9628770d47cad40421131c4300fdf9b13bf8ccb6a6155628c0e-image.png)
 
-# 解法二：
-数学法：
-```
+// # 解法二：
+// 数学法：
+// ```
 class Solution {
 public:
     const int M = 1e9 + 7;
@@ -92,5 +92,5 @@ public:
         return res;
     }
 };
-```
+// ```
 

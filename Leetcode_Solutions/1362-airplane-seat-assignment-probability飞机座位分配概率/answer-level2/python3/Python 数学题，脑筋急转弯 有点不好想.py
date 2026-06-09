@@ -1,5 +1,5 @@
 
-```
+# ```
 '''
 dp 递推
 
@@ -28,4 +28,4 @@ f(n) = 1/n + (1/n * f(n-2+1))
 class Solution:
     def nthPersonGetsNthSeat(self, n: int) -> float:
         return 1.0 if n == 1 else 0.5
-```
+# ```

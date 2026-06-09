@@ -1,9 +1,9 @@
-### 解题思路
-二分法，low，high
+# ### 解题思路
+# 二分法，low，high
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def mySqrt(self, x: int) -> int:
         if x==0:return 0
@@ -19,4 +19,4 @@ class Solution:
             else:
                 low=medium
         return low
-```
+# ```

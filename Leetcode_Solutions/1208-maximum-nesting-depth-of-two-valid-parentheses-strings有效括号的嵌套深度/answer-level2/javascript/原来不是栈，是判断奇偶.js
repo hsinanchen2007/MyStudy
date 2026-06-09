@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/af5774ede712e8c2e4fb0a81e7bf30c1c3a8189d9981bafe195518f901634241-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/af5774ede712e8c2e4fb0a81e7bf30c1c3a8189d9981bafe195518f901634241-image.png)
 
-读懂了才明白，就是判断奇数偶数。
+// 读懂了才明白，就是判断奇数偶数。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} seq
  * @return {number[]}
@@ -34,4 +34,4 @@ var maxDepthAfterSplit = function(seq) {
     }
     return ret;
 };
-```
+// ```

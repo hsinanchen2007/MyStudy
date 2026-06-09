@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def robot(self, command: str, obstacles: List[List[int]], x: int, y: int) -> bool:        
         def canArrive(command,x,y):
@@ -31,4 +31,4 @@ class Solution:
             if canArrive(command,t[0],t[1]):
                 return False
         return canArrive(command,x,y)
-```
+# ```

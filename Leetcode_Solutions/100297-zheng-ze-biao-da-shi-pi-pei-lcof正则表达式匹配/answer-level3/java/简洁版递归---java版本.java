@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public boolean isMatch(String text, String pattern) {
         if(pattern == null || pattern.length() == 0) return text == null || text.length() == 0;
@@ -7,4 +7,4 @@ class Solution {
         else return first && isMatch(text.substring(1),pattern.substring(1));
     }
 }
-```
+// ```

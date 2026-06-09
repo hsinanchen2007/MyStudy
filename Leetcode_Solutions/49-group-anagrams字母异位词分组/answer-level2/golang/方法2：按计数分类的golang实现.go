@@ -1,9 +1,9 @@
-golang中数组是可比较类型，可直接用作映射的key。
-代码实现：
-1. 计算每个单词的key
-2. 将具有相同的key放入同一个数组中。
+// golang中数组是可比较类型，可直接用作映射的key。
+// 代码实现：
+// 1. 计算每个单词的key
+// 2. 将具有相同的key放入同一个数组中。
 
-```golang
+// ```golang
 func groupAnagrams(strs []string) [][]string {
   m := make(map[[26]int][]string)
   for _, str := range strs {
@@ -29,4 +29,4 @@ func strArray(s string) [26]int {
   }
   return res
 }
-```
+// ```

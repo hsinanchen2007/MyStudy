@@ -1,6 +1,6 @@
-## DFS
-从右到左深入递归，比较层级替换最左值
-```java 
+# ## DFS
+# 从右到左深入递归，比较层级替换最左值
+# ```java 
 class Solution 
 {
     int maxLevel;
@@ -26,10 +26,10 @@ class Solution
         findLeftValue(root.left, level + 1);
     }
 }
-```
-## BFS
-从上至下迭代，每次从右开始入队，最后一个就是最左节点
-```python
+# ```
+# ## BFS
+# 从上至下迭代，每次从右开始入队，最后一个就是最左节点
+# ```python
 class Solution:
     def findBottomLeftValue(self, root: TreeNode) -> int:
         stack = list()
@@ -42,6 +42,6 @@ class Solution:
             if last.left:
                 stack.append(last.left)
         return last.val
-```
+# ```
 
 

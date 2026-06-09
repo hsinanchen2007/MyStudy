@@ -1,8 +1,8 @@
-### 解题思路
-双指针
-### 代码
+// ### 解题思路
+// 双指针
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] exchange(int[] nums) {
         int len = nums.length;
@@ -19,4 +19,4 @@ class Solution {
 		return ans;
     }
 }
-```
+// ```

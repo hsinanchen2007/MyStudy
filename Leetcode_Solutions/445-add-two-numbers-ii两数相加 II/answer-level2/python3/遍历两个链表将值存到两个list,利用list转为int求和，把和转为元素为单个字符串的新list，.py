@@ -1,10 +1,10 @@
-### 解题思路
-遍历两个链表将值存到两个list,利用list转为int求和，把和转为元素为单个字符串的新list，
-遍历新list创建节点，head指针标记头结点用于返回，first用于创建最后一个节点与新增节点之间的指向
+# ### 解题思路
+# 遍历两个链表将值存到两个list,利用list转为int求和，把和转为元素为单个字符串的新list，
+# 遍历新list创建节点，head指针标记头结点用于返回，first用于创建最后一个节点与新增节点之间的指向
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -29,4 +29,4 @@ class Solution:
             first.next=ListNode(int(lis[i]))
             first=first.next
         return head
-```
+# ```

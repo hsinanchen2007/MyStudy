@@ -1,6 +1,6 @@
-max[i]表示以nums[i]为结尾的子数组最大乘积
-min[i]表示以nums[i]为结尾的子数组的最大乘积
-根据nums[i+1]的正负来计算max[i+1]和min[i+1]
+// max[i]表示以nums[i]为结尾的子数组最大乘积
+// min[i]表示以nums[i]为结尾的子数组的最大乘积
+// 根据nums[i+1]的正负来计算max[i+1]和min[i+1]
 public class Solution {
     public int maxProduct(int[] nums) {
         int[] max = new int[nums.length+1];

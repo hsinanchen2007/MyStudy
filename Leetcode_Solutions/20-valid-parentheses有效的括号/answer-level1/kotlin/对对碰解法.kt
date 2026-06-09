@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```kotlin
+// ```kotlin
 class Solution {
     fun isValid(s: String): Boolean {
          var s = s;
@@ -16,6 +16,6 @@ class Solution {
         
     }
 }
-```
+// ```
 
-想象一下搓麻将，只要你有，我就敢挺...
+// 想象一下搓麻将，只要你有，我就敢挺...

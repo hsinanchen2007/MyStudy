@@ -1,9 +1,9 @@
-### 解题思路
-参考官方解法中的辅助双端队列的方法，进行实现的。
+// ### 解题思路
+// 参考官方解法中的辅助双端队列的方法，进行实现的。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MaxQueue {
 private:
     queue<int> que;
@@ -50,4 +50,4 @@ public:
  * obj->push_back(value);
  * int param_3 = obj->pop_front();
  */
-```
+// ```

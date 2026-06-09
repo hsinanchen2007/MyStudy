@@ -1,9 +1,9 @@
-### 解题思路
-各位大佬，请指教，哈哈哈
+# ### 解题思路
+# 各位大佬，请指教，哈哈哈
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestPalindrome(self, s: str) -> int:
         # 计算每个字符的数量
@@ -32,4 +32,4 @@ class Solution:
             sum_all = sum_all + 1
         
         return sum_all
-```
+# ```

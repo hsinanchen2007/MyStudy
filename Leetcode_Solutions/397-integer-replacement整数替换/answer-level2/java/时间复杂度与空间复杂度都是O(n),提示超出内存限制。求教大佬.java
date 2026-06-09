@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int integerReplacement(int n) {
         if(n<=1){
@@ -31,6 +31,6 @@ class Solution {
         return data[n];
     }
 }
-```
-//数据能计算到100000000
-//求教问题出在哪里？
+// ```
+// //数据能计算到100000000
+// //求教问题出在哪里？

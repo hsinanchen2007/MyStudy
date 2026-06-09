@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def isHappy(self, n: int) -> bool:
         dic = collections.defaultdict(int)
@@ -7,4 +7,4 @@ class Solution:
             dic[n]+=1
             if dic[n]>1:return False
         return True
-```
+# ```

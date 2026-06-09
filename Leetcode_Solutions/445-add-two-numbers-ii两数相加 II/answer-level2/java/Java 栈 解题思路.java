@@ -1,7 +1,7 @@
-进阶中说不能翻转给进的链表
+// 进阶中说不能翻转给进的链表
 
-我们可以使用栈来达到链表翻转的效果，代码如下：
-```java
+// 我们可以使用栈来达到链表翻转的效果，代码如下：
+// ```java
     //输入: (7 -> 2 -> 4 -> 3) + (5 -> 6 -> 4)
     //输出: 7 -> 8 -> 0 -> 7
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
@@ -44,4 +44,4 @@
         head.next = null;
         return last;
     }
-```
+// ```

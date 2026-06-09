@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-找到一个岛屿后向四周深度遍历，找到最大岛屿并记录。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 找到一个岛屿后向四周深度遍历，找到最大岛屿并记录。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxAreaOfIsland(vector<vector<int>>& grid) {
@@ -28,4 +28,4 @@ public:
         return count;
     }
 };
-```
+// ```

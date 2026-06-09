@@ -1,8 +1,8 @@
-### 解题思路
-在运行第一编代码的时候没有考虑动态数组是怎么排列的
-### 代码
+// ### 解题思路
+// 在运行第一编代码的时候没有考虑动态数组是怎么排列的
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int HammingDistance(int x, int y) {
         List<int> a = new List<int>(0);
@@ -31,4 +31,4 @@ public class Solution {
             return res;
     }
 }
-```
+// ```

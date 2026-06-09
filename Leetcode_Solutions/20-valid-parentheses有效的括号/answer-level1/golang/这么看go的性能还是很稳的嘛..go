@@ -1,4 +1,4 @@
-26 分钟前	通过	0 ms	2 MB	Golang
+// 26 分钟前	通过	0 ms	2 MB	Golang
 
 `func isValid(src string) bool {
 	s := []byte(src)

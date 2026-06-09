@@ -1,7 +1,7 @@
-`if obstacleGrids[i][j] == 0:
-  obstacleGrids[i][j] = obstacleGrids[i-1][j] + obstacleGrids[i][j]`
+# `if obstacleGrids[i][j] == 0:
+#   obstacleGrids[i][j] = obstacleGrids[i-1][j] + obstacleGrids[i][j]`
 
-```
+# ```
 class Solution(object):
     def uniquePathsWithObstacles(self, obstacleGrid):
         """
@@ -26,4 +26,4 @@ class Solution(object):
                         else:
                             grid[i][j] = grid[i][j - 1] + grid[i - 1][j]
         return grid[-1][-1]
-```
+# ```

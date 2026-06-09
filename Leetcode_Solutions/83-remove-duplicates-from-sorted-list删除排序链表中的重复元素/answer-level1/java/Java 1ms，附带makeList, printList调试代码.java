@@ -1,5 +1,5 @@
-在遍历时嵌套内层循环，找出当前重复数字的最后一位，找到后返回大循环
-```
+// 在遍历时嵌套内层循环，找出当前重复数字的最后一位，找到后返回大循环
+// ```
 public ListNode solution(ListNode head) {
         ListNode origin = head;
         int currentVal = Integer.MIN_VALUE;
@@ -19,11 +19,11 @@ public ListNode solution(ListNode head) {
         }
         return origin;
     }
-```
+// ```
 
-以下为makeList & printList代码，可以方便大家在本地调试
-makeList调用示例makeList("11233");
-```
+// 以下为makeList & printList代码，可以方便大家在本地调试
+// makeList调用示例makeList("11233");
+// ```
     public ListNode makeList(String s) {
         ListNode start = new ListNode(-1);
         ListNode p = start;
@@ -43,4 +43,4 @@ makeList调用示例makeList("11233");
         }
         return result;
     }
-```
+// ```

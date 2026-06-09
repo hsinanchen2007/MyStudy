@@ -1,8 +1,8 @@
-执行用时 :2 ms, 在所有 Java 提交中击败了99.65% 的用户
-内存消耗 :34.4 MB, 在所有 Java 提交中击败了90.91%的用户
+// 执行用时 :2 ms, 在所有 Java 提交中击败了99.65% 的用户
+// 内存消耗 :34.4 MB, 在所有 Java 提交中击败了90.91%的用户
 
-思路就不写了。代码如下   有问题可以给我留言或者评论
-```
+// 思路就不写了。代码如下   有问题可以给我留言或者评论
+// ```
 class Solution {
     public boolean makesquare(int[] nums) {
         int len = nums.length; int total=0;
@@ -59,4 +59,4 @@ class Solution {
         return true;//恭喜坚持到了最后  
     }
 }
-```
+// ```

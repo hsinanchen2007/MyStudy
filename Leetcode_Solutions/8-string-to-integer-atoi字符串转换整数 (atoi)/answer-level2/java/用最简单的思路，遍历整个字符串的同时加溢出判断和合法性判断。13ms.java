@@ -1,4 +1,4 @@
-```
+// ```
 public int myAtoi(String str) {
         long result = 0;
         
@@ -47,4 +47,4 @@ public int myAtoi(String str) {
 		
         return (int)result;
     }
-```
+// ```

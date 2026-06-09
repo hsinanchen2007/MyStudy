@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean canMeasureWater(int x, int y, int z) {
         //queue存储用作判断是否符合条件，set存储用于去重
@@ -62,4 +62,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

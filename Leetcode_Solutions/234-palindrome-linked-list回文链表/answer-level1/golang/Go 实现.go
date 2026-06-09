@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -45,4 +45,4 @@ func isPalindrome(head *ListNode) bool {
     }
     return true
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-和1004题类似，不加判断重复的map会超时。
+// ### 解题思路
+// 和1004题类似，不加判断重复的map会超时。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int max(int a, int b){
     return a > b ? a : b;
 }
@@ -35,4 +35,4 @@ int characterReplacement(char * s, int k){
     }
     return res;
 }
-```
+// ```

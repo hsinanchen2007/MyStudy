@@ -1,4 +1,4 @@
-//为了避免溢出，使用字符串存储数据。
+// //为了避免溢出，使用字符串存储数据。
 int reverse(int x){
     char * s = (char *) malloc(100 * sizeof(char));
     memset(s, 0, 100 * sizeof(char));

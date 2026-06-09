@@ -1,4 +1,4 @@
-```swift
+// ```swift
 class Solution {
     func integerReplacement(_ n: Int) -> Int {
         guard n != 1 else {
@@ -46,4 +46,4 @@ class Solution {
         return  depth
     }
 }
-```
+// ```

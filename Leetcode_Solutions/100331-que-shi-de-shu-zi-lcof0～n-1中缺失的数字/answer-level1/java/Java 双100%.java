@@ -1,9 +1,9 @@
-### 解题思路
-等差数列前n项和，然后递减就好。
+// ### 解题思路
+// 等差数列前n项和，然后递减就好。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int missingNumber(int[] nums) {
         int n = nums.length;
@@ -14,4 +14,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

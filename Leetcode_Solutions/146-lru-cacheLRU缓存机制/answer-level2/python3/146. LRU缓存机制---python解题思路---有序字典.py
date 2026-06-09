@@ -1,10 +1,10 @@
-感觉这题还是蛮有意思的，还是老样子先不考虑进阶，先把问题解决了。（LRU: Least Recently Used ）
+# 感觉这题还是蛮有意思的，还是老样子先不考虑进阶，先把问题解决了。（LRU: Least Recently Used ）
 
-## 方法1：字典
+# ## 方法1：字典
 
-思路很简单，就是把字典用来保存数据，并且加上上次操作的时间用于判断哪个是最旧的
+# 思路很简单，就是把字典用来保存数据，并且加上上次操作的时间用于判断哪个是最旧的
 
-```python
+# ```python
 from datetime import datetime
 
 
@@ -54,11 +54,11 @@ class LRUCache:
                     "value": value
                 }
                 self.used += 1
-```
+# ```
 
-运行结果
+# 运行结果
 
-```
+# ```
 执行用时 :1640 ms, 在所有 Python3 提交中击败了5.01% 的用户
 内存消耗 :22.2 MB, 在所有 Python3 提交中击败了41.46%的用户
 
@@ -67,15 +67,15 @@ class LRUCache:
 
 执行用时 :1020 ms, 在所有 Python3 提交中击败了5.98% 的用户
 内存消耗 :22.2 MB, 在所有 Python3 提交中击败了41.71%的用户
-```
+# ```
 
-就是这个时间是有点久。
+# 就是这个时间是有点久。
 
-思考了一下，感觉列表好像队列queue就可以替代这个问题了，先入先出的原则符合题目要求
+# 思考了一下，感觉列表好像队列queue就可以替代这个问题了，先入先出的原则符合题目要求
 
-## 方法2：队列
+# ## 方法2：队列
 
-```python
+# ```python
 class LRUCache:
 
     def __init__(self, capacity: int):
@@ -107,11 +107,11 @@ class LRUCache:
             if len(self.queue) == self.capacity:
                 self.queue.pop(0)
             self.queue.append((key, value))
-```
+# ```
 
-运行结果
+# 运行结果
 
-```
+# ```
 执行用时 :8080 ms, 在所有 Python3 提交中击败了5.07% 的用户
 内存消耗 :21.8 MB, 在所有 Python3 提交中击败了93.03%的用户
 
@@ -120,15 +120,15 @@ class LRUCache:
 
 执行用时 :8620 ms, 在所有 Python3 提交中击败了5.07% 的用户
 内存消耗 :21.7 MB, 在所有 Python3 提交中击败了97.76%的用户
-```
+# ```
 
-比上面的字典还慢！原因应该是里面一直在循环的判断
+# 比上面的字典还慢！原因应该是里面一直在循环的判断
 
-## 方法3：字典+队列
+# ## 方法3：字典+队列
 
-还是老办法，不过这次不在字典里面加入判断新旧，而是使用一个队列来保存字典key的先后顺序
+# 还是老办法，不过这次不在字典里面加入判断新旧，而是使用一个队列来保存字典key的先后顺序
 
-```python
+# ```python
 class LRUCache:
 
     def __init__(self, capacity: int):
@@ -155,11 +155,11 @@ class LRUCache:
                     del self.dict[oldest_key]
             self.dict[key] = value
             self.key_queue.append(key)
-```
+# ```
 
-运行结果
+# 运行结果
 
-```
+# ```
 执行用时 :1752 ms, 在所有 Python3 提交中击败了5.07% 的用户
 内存消耗 :21.6 MB, 在所有 Python3 提交中击败了99.75%的用户
 
@@ -168,17 +168,17 @@ class LRUCache:
 
 执行用时 :1380 ms, 在所有 Python3 提交中击败了5.07% 的用户
 内存消耗 :21.8 MB, 在所有 Python3 提交中击败了82.84%的用户
-```
+# ```
 
-感觉和方法1的速度差不多呢？额....其实要是有有序的字典就好了...
+# 感觉和方法1的速度差不多呢？额....其实要是有有序的字典就好了...
 
-算了看一下答案
+# 算了看一下答案
 
-## 方法4： [*OrderedDict*](https://docs.python.org/3/library/collections.html#collections.OrderedDict) 
+# ## 方法4： [*OrderedDict*](https://docs.python.org/3/library/collections.html#collections.OrderedDict) 
 
-卧槽，还真有！！！多亏LeetCode我又学习到一个之前不知道的知识了！非常棒
+# 卧槽，还真有！！！多亏LeetCode我又学习到一个之前不知道的知识了！非常棒
 
-```python
+# ```python
 # 这里介绍一下这个宝贝类
 # 导入这个类，话说之前的Counter也是这个包里面的
 >>> from collections import OrderedDict
@@ -222,11 +222,11 @@ OrderedDict([(10, 'good'), (20, 'verygood')])
 (10, 'good')
 >>> a
 OrderedDict([(20, 'verygood')])
-```
+# ```
 
-下面看一下代码和效率，直接使用官方代码
+# 下面看一下代码和效率，直接使用官方代码
 
-```python
+# ```python
 from collections import OrderedDict
 class LRUCache(OrderedDict):
 
@@ -246,11 +246,11 @@ class LRUCache(OrderedDict):
         self[key] = value
         if len(self) > self.capacity:
             self.popitem(last = False)
-```
+# ```
 
-运行结果
+# 运行结果
 
-```
+# ```
 执行用时 :348 ms, 在所有 Python3 提交中击败了23.79% 的用户
 内存消耗 :22 MB, 在所有 Python3 提交中击败了55.97%的用户
 
@@ -259,10 +259,10 @@ class LRUCache(OrderedDict):
 
 执行用时 :272 ms, 在所有 Python3 提交中击败了37.55% 的用户
 内存消耗 :22 MB, 在所有 Python3 提交中击败了47.76%的用户
-```
+# ```
 
-可见明显比我们自己写的运行要快，这波血赚
+# 可见明显比我们自己写的运行要快，这波血赚
 
-欢迎来github上看更多题目的解答[力扣解题思路](https://github.com/WRAllen/LeetCode)
+# 欢迎来github上看更多题目的解答[力扣解题思路](https://github.com/WRAllen/LeetCode)
 
   

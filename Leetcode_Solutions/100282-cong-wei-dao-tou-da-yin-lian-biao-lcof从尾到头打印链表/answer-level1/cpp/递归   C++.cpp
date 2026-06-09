@@ -1,9 +1,9 @@
-### 解题思路
-递归   （关注微信公众号'码农黑板报'获取更多题解）
+// ### 解题思路
+// 递归   （关注微信公众号'码农黑板报'获取更多题解）
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -28,4 +28,4 @@ public:
         res.push_back(node->val);
     }
 };
-```
+// ```

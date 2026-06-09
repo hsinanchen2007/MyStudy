@@ -1,9 +1,9 @@
-### 解题思路
-调用C语言的库函数解题
+// ### 解题思路
+// 调用C语言的库函数解题
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int compare(int *a,int *b) {
     return *a-*b;
 }
@@ -13,4 +13,4 @@ int* sortArray(int* nums, int numsSize, int* returnSize){
     return nums;
 }
 
-```
+// ```

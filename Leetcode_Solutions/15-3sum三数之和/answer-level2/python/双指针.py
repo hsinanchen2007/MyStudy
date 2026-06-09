@@ -1,9 +1,9 @@
-### 解题思路
-最开始也是各种超时，尽可能减少循环
+# ### 解题思路
+# 最开始也是各种超时，尽可能减少循环
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def threeSum(self, nums):
         """
@@ -41,4 +41,4 @@ class Solution(object):
 
         return result
         
-```
+# ```

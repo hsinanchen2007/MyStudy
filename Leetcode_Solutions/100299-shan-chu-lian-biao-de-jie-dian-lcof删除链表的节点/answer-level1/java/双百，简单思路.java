@@ -1,9 +1,9 @@
-### 解题思路
-设置prev.next = head，并令curr=prev，一次性遍历
+// ### 解题思路
+// 设置prev.next = head，并令curr=prev，一次性遍历
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -29,4 +29,4 @@ class Solution {
         return prev.next;
     }
 }
-```
+// ```

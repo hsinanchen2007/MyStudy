@@ -1,14 +1,14 @@
-### 解题思路
-我的思路：我的递归解法和迭代解法
+# ### 解题思路
+# 我的思路：我的递归解法和迭代解法
 	
 
-复杂度分析：                                                             
-	• 时间复杂度：o(n)
-	• 空间复杂度：o(n)
+# 复杂度分析：                                                             
+# 	• 时间复杂度：o(n)
+# 	• 空间复杂度：o(n)
 
-### 代码
+# ### 代码
 
-```
+# ```
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -26,9 +26,9 @@ class Solution:
         self.invertTree(root.left) # 左子树翻转
         self.invertTree(root.right) # 右子树翻转
         return root 
-```
-迭代：
-```
+# ```
+# 迭代：
+# ```
 class Solution:
     def invertTree(self, root: TreeNode) -> TreeNode:
         # 使用迭代, 队列辅助
@@ -41,4 +41,4 @@ class Solution:
                 cur_node.left,cur_node.right = cur_node.right,cur_node.left
                 queue.extend([cur_node.left,cur_node.right])
         return root
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-快慢指针啊。
+// ### 解题思路
+// 快慢指针啊。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 //题里头说有头结点，实际上有个鸡儿？
 struct ListNode* middleNode(struct ListNode* head){
     struct ListNode *p=head,*q=head;
@@ -13,4 +13,4 @@ struct ListNode* middleNode(struct ListNode* head){
     }
     return q;
 }
-```
+// ```

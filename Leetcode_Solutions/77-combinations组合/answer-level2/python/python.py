@@ -1,9 +1,9 @@
-### 解题思路
-执行速度好慢
+# ### 解题思路
+# 执行速度好慢
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def combine(self, n: int, k: int) -> List[List[int]]:
         result = []
@@ -17,4 +17,4 @@ class Solution:
                     backtrade(nums[i+1:],temp+[nums[i]])
         backtrade(nums,[])
         return result
-```
+# ```

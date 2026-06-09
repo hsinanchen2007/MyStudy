@@ -1,9 +1,9 @@
-### 解题思路
-和三数和一样的 套框架就好了
+// ### 解题思路
+// 和三数和一样的 套框架就好了
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> fourSum(vector<int>& nums, int target) {
@@ -38,4 +38,4 @@ public:
       return res;
     }
 };
-```
+// ```

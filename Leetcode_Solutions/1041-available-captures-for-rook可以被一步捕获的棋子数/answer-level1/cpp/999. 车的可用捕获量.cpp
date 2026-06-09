@@ -1,16 +1,16 @@
-### 解题思路
-1.找到R的位置
-2.将R进行上、下、左、右四个方向移动
-3.判断break的条件：
-    - 遇到B -> break;
-    - 超出棋盘界限 -> break;
-    - 遇到p -> num++
+// ### 解题思路
+// 1.找到R的位置
+// 2.将R进行上、下、左、右四个方向移动
+// 3.判断break的条件：
+//     - 遇到B -> break;
+//     - 超出棋盘界限 -> break;
+//     - 遇到p -> num++
 
-tips:
-    计算机中棋盘坐标原点为左上角，而且得出的横向为y轴，纵向为x轴
-### 代码
+// tips:
+//     计算机中棋盘坐标原点为左上角，而且得出的横向为y轴，纵向为x轴
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numRookCaptures(vector<vector<char>>& board) {
@@ -60,4 +60,4 @@ public:
     return 0 ;
     }
 };
-```
+// ```

@@ -1,13 +1,13 @@
-### 解题思路
-重写库函数sorted（）中的比较规则
-sorted(iterable, cmp=None, key=None, reverse=False)
-cmp表示比较函数，内有两个参数，要遵循规则：大于，返回1；小于，返回-1；等于，返回0
-时间复杂度Nlog(n)
-或者自己实现排序（冒泡，插入，选择，归并，快速，，，）
+# ### 解题思路
+# 重写库函数sorted（）中的比较规则
+# sorted(iterable, cmp=None, key=None, reverse=False)
+# cmp表示比较函数，内有两个参数，要遵循规则：大于，返回1；小于，返回-1；等于，返回0
+# 时间复杂度Nlog(n)
+# 或者自己实现排序（冒泡，插入，选择，归并，快速，，，）
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def minNumber(self, nums):
         """
@@ -27,4 +27,4 @@ class Solution(object):
         nums=sorted(nums,cmp=compare)
         return ''.join(nums)
 
-```
+# ```

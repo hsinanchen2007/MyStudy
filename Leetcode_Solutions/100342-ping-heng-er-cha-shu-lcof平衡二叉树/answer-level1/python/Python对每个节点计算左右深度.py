@@ -1,10 +1,10 @@
-### 解题思路
-写了三个子函数。清楚一点。
-分别用来计算节点深度，节点的左子树深度，节点的右子树深度。
+# ### 解题思路
+# 写了三个子函数。清楚一点。
+# 分别用来计算节点深度，节点的左子树深度，节点的右子树深度。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -41,4 +41,4 @@ class Solution:
             else:
                 return False
         return True
-```
+# ```

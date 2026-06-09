@@ -1,6 +1,6 @@
-使用一个空对象保存递归产生的中间值,确保每个中间值只计算一次
+// 使用一个空对象保存递归产生的中间值,确保每个中间值只计算一次
 
-```javascript []
+// ```javascript []
 //使用一个对象来保存计算过的中间值
 var cache = {};
 
@@ -32,4 +32,4 @@ var fib = function(N) {
     // 求出当前N对应的结果
     return prevNode + prevPrevNode;
 };
-```
+// ```

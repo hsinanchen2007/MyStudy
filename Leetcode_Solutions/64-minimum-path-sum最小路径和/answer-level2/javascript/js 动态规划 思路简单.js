@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/b947cbdc7e6875169176365e03e206e2937c82d7b3487c92a43c306f45608354-image.png)
+// ![image.png](https://pic.leetcode-cn.com/b947cbdc7e6875169176365e03e206e2937c82d7b3487c92a43c306f45608354-image.png)
 
-### 解题思路
-```javascript
+// ### 解题思路
+// ```javascript
 - 摘樱桃的同时过来先搞一下这道题
 
 - 这道题可以不断分解子问题，所以回溯我们就跳过了，直接上动态规划
@@ -13,11 +13,11 @@
 - 状态转移方程出来了，就可以写代码了，要注意边界处理
 
 - 因为越界就是没有格子，没有格子我们肯定不会选的，所以直接把它定义为 Infinity 就好了
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} grid
  * @return {number}
@@ -52,4 +52,4 @@ var minPathSum = function(grid) {
 
 
 
-```
+// ```

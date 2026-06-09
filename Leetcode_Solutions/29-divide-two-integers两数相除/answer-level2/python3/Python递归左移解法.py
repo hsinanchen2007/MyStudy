@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def divide(self, dividend: int, divisor: int) -> int:
         # 内嵌递归核心函数，函数另开是为了递归是不必重复执行abs
@@ -28,4 +28,4 @@ class Solution:
         b = abs(divisor)
         
         return max(min(k*divide_inner(a, b), 2**31-1), -(2**31))
-```
+# ```

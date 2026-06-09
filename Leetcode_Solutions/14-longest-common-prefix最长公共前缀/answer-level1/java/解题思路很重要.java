@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String longestCommonPrefix(String[] strs) {
 
@@ -25,5 +25,5 @@ class Solution {
 		return prefix;
     }
 }
-```
-![image.png](https://pic.leetcode-cn.com/bdbcde712fc8b1b0d0cd813fd59a53dfe7ef6911dd211784a3ac24932fabe35e-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/bdbcde712fc8b1b0d0cd813fd59a53dfe7ef6911dd211784a3ac24932fabe35e-image.png)

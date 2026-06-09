@@ -1,10 +1,10 @@
-### 解题思路
-sort就完事了
+// ### 解题思路
+// sort就完事了
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool CheckPermutation(string s1, string s2) {
@@ -13,4 +13,4 @@ public:
 	    return s1 == s2;  
     }
 };
-```
+// ```

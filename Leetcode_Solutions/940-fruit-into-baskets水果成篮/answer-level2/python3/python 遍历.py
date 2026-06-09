@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 
 class Solution:
     def totalFruit(self, tree: List[int]) -> int: 
@@ -30,4 +30,4 @@ class Solution:
 
         result.append(cnt)
         return max(result)
-```
+# ```

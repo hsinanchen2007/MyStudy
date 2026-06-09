@@ -1,4 +1,4 @@
-```c
+// ```c
 struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2){
     struct ListNode* tmp;
     struct ListNode header;
@@ -13,4 +13,4 @@ struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2){
     }
     return header.next;
 }
-```
+// ```

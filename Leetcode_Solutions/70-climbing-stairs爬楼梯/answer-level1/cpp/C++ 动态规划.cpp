@@ -1,9 +1,9 @@
-### 解题思路
-一开始直接递归超时，马上转为DP
+// ### 解题思路
+// 一开始直接递归超时，马上转为DP
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int climbStairs(int n) {
@@ -16,4 +16,4 @@ public:
         return dp[n];
     }
 };
-```
+// ```

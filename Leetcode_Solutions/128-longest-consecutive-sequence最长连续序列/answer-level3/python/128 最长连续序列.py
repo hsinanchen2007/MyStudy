@@ -1,9 +1,9 @@
-### 解题思路
-哈希表查询。
+# ### 解题思路
+# 哈希表查询。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def longestConsecutive(self, nums):
         """
@@ -34,15 +34,15 @@ class Solution(object):
 
         return maxlen
 
-```
+# ```
 
 
-### 解题思路
-滑动窗口
+# ### 解题思路
+# 滑动窗口
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def longestConsecutive(self, nums):
         """
@@ -76,4 +76,4 @@ class Solution(object):
                     maxlen = curlen
 
         return maxlen
-```
+# ```

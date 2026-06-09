@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-看代码吧
+// 看代码吧
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findLength(int[] A, int[] B) {
        int firstLeft = A.length -1;
@@ -52,4 +52,4 @@ class Solution {
        return maxEqualLen;
     }
 }
-```
+// ```

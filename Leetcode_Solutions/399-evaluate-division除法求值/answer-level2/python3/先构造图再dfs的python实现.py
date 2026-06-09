@@ -1,10 +1,10 @@
-先构造图，使用dict实现，其天然的hash可以在in判断时做到O(1)复杂度。
+# 先构造图，使用dict实现，其天然的hash可以在in判断时做到O(1)复杂度。
 
-对每个equation如"a/b=v"构造a到b的带权v的有向边和b到a的带权1/v的有向边，
+# 对每个equation如"a/b=v"构造a到b的带权v的有向边和b到a的带权1/v的有向边，
 
-之后对每个query，只需要进行dfs并将路径上的边权重叠乘就是结果了，如果路径不可达则结果为-1。
+# 之后对每个query，只需要进行dfs并将路径上的边权重叠乘就是结果了，如果路径不可达则结果为-1。
 
-```python
+# ```python
     def calcEquation(self, equations: List[List[str]], values: List[float], queries: List[List[str]]) -> List[float]:
         # 构造图，equations的第一项除以第二项等于value里的对应值，第二项除以第一项等于其倒数
         graph = {}
@@ -40,4 +40,4 @@
             visited = set()
             res.append(dfs(qs, qt))
         return res
-```
+# ```

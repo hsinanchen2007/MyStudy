@@ -1,11 +1,11 @@
-### 解题思路
-见注释，有两个小地方注意：
-1.假如原链表中有重复值，需要注意跳出循环，只删除第一个
-2.如果删除节点是尾节点（item.next），不需要判断，因为item.next.next=null，直接将其覆盖尾节点就行了
+// ### 解题思路
+// 见注释，有两个小地方注意：
+// 1.假如原链表中有重复值，需要注意跳出循环，只删除第一个
+// 2.如果删除节点是尾节点（item.next），不需要判断，因为item.next.next=null，直接将其覆盖尾节点就行了
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -31,4 +31,4 @@ class Solution {
         return item.next;
     }
 }
-```
+// ```

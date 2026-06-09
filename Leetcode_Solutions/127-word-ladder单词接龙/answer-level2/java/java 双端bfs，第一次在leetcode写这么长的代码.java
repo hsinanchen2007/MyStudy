@@ -1,11 +1,11 @@
-### 解题思路
-800ms，并不容易啊小菜鸡写了好久，改了更久，不过这次值看了双端BFS这个思路，并没有看bs大佬们的代码。
-写完之后看，大佬们很多都是用的set存储，而我用的是map，可能这会导致耗时c增加。
-虽然有的地方可以精简，可以复用，但还是在leetcode上写这么长的
+// ### 解题思路
+// 800ms，并不容易啊小菜鸡写了好久，改了更久，不过这次值看了双端BFS这个思路，并没有看bs大佬们的代码。
+// 写完之后看，大佬们很多都是用的set存储，而我用的是map，可能这会导致耗时c增加。
+// 虽然有的地方可以精简，可以复用，但还是在leetcode上写这么长的
 
-### 代码
+// ### 代码
 
-```java []
+// ```java []
 class Solution {
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
         if (beginWord == endWord) return 1;
@@ -100,4 +100,4 @@ class Solution {
     }
 }
 
-```
+// ```

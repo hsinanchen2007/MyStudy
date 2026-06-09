@@ -1,11 +1,11 @@
-### 解题思路
-１．排序，长度递减
-２．判断是否为新词＋１
+# ### 解题思路
+# １．排序，长度递减
+# ２．判断是否为新词＋１
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Trie:
     def __init__(self):
         self.children = {}
@@ -37,4 +37,4 @@ class Solution:
             count += root._insert(word[::-1])
 
         return count
-```
+# ```

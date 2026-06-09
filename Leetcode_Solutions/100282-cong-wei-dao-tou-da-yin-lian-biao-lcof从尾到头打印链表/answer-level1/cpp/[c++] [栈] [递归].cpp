@@ -1,10 +1,10 @@
-### 解题思路
-解法一：栈
-解法二：递归
+// ### 解题思路
+// 解法一：栈
+// 解法二：递归
 
-### 代码
-解法一
-```cpp
+// ### 代码
+// 解法一
+// ```cpp
 class Solution {
 public:
     vector<int> reversePrint(ListNode* head) {
@@ -22,9 +22,9 @@ public:
         return res;
     }
 };
-```
-解法二
-```
+// ```
+// 解法二
+// ```
 class Solution {
 public:
     vector<int> reversePrint(ListNode* head) {
@@ -39,4 +39,4 @@ public:
         res.push_back(node->val);
     }
 };
-```
+// ```

@@ -1,7 +1,7 @@
-判断是否为平方数，只需从设置两个变量left和right
-初始值分别为0和(long)sqrt(c),扫描一遍即可。
+// 判断是否为平方数，只需从设置两个变量left和right
+// 初始值分别为0和(long)sqrt(c),扫描一遍即可。
 
-```
+// ```
 class Solution 
 {
 public:
@@ -22,4 +22,4 @@ public:
         return false;
     }
 };
-```
+// ```

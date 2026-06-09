@@ -1,12 +1,12 @@
-### 解题思路
-1. 首先比较m=nums[i]与下标i是否相等
-2. 若不相等，则判断nums[i]与nums[m]是否相等，相等则可以返回，说明已找到结果；
-3. 若nums[i]与nums[m]不相等，则将其交换，并继续上述判断，直到nums[i]与下标i相等，此时跳出while循环
-时间复杂度O(n)，空间复杂度O(1)
+// ### 解题思路
+// 1. 首先比较m=nums[i]与下标i是否相等
+// 2. 若不相等，则判断nums[i]与nums[m]是否相等，相等则可以返回，说明已找到结果；
+// 3. 若nums[i]与nums[m]不相等，则将其交换，并继续上述判断，直到nums[i]与下标i相等，此时跳出while循环
+// 时间复杂度O(n)，空间复杂度O(1)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findRepeatNumber(int[] nums) {
         if(nums==null || nums.length==0){
@@ -30,4 +30,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

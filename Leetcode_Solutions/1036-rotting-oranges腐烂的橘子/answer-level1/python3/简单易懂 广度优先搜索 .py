@@ -1,8 +1,8 @@
-拿到题目的第一想法是BFS（官方的多源广度优先搜索）。因为平时都在VSCode上刷LeetCode，当我打开Tags验证想法时，发现是hash-table，再加上题目所属类别是easy，我不禁想入沉思，有更讨巧的做法？直到我百思不得其解打开官方题解。。。。所以hash-table是什么鬼？
-![image.png](https://pic.leetcode-cn.com/b9e8648fdad9efcc8b532e402ceccd73b77e7183cd1563a4a7ed30ec87c83a40-image.png)
+# 拿到题目的第一想法是BFS（官方的多源广度优先搜索）。因为平时都在VSCode上刷LeetCode，当我打开Tags验证想法时，发现是hash-table，再加上题目所属类别是easy，我不禁想入沉思，有更讨巧的做法？直到我百思不得其解打开官方题解。。。。所以hash-table是什么鬼？
+# ![image.png](https://pic.leetcode-cn.com/b9e8648fdad9efcc8b532e402ceccd73b77e7183cd1563a4a7ed30ec87c83a40-image.png)
 
 
-```
+# ```
 class Solution:
     def orangesRotting(self, grid: List[List[int]]) -> int:
         m = len(grid)
@@ -45,4 +45,4 @@ class Solution:
             minutes += 1
 
         return -1  if good_oranges > cnt else minutes
-```
+# ```

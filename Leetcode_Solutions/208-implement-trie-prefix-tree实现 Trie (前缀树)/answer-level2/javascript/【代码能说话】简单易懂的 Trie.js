@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 /**
  * Initialize your data structure here.
  */
@@ -72,4 +72,4 @@ Trie.prototype.startsWith = function(prefix) {
   }
   return true
 };
-```
+// ```

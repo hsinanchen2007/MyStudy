@@ -1,8 +1,8 @@
-### 解题思路
-找到R的坐标，在定义上下左右四个能吃到p的变量，脑补是否会被B挡到做出相应的处理
-### 代码
+// ### 解题思路
+// 找到R的坐标，在定义上下左右四个能吃到p的变量，脑补是否会被B挡到做出相应的处理
+// ### 代码
 
-```golang
+// ```golang
 func numRookCaptures(board [][]byte) int {
 	var RLocI, RLocJ, resultJUp, resultJDown, resultILeft, resultIRight int
 	for i := range board {
@@ -53,4 +53,4 @@ func numRookCaptures(board [][]byte) int {
 }
 
 
-```
+// ```

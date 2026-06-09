@@ -1,7 +1,7 @@
-根节点从0开始搜索，后续子节点为n的最小完全平方数与根节点的和。
-![IMG_0784.jpg](https://pic.leetcode-cn.com/131c6fe1ded75be7f3d29cad5c589726cad8c04c0923617cccf6f985cbe23ca1-IMG_0784.jpg)
+// 根节点从0开始搜索，后续子节点为n的最小完全平方数与根节点的和。
+// ![IMG_0784.jpg](https://pic.leetcode-cn.com/131c6fe1ded75be7f3d29cad5c589726cad8c04c0923617cccf6f985cbe23ca1-IMG_0784.jpg)
 
-```
+// ```
 class Solution {
 public:
     int numSquares(int n) {
@@ -27,4 +27,4 @@ public:
         return -1;
     }
 };
-```
+// ```

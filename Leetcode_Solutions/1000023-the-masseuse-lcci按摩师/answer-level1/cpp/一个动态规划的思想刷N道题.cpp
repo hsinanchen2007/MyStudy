@@ -1,5 +1,5 @@
-思想与官方思路相似，空间多余了，只需要保留两个状态量就行
-```
+// 思想与官方思路相似，空间多余了，只需要保留两个状态量就行
+// ```
 class Solution {
 public:
     int massage(vector<int>& nums) {
@@ -21,4 +21,4 @@ public:
         return res;
     }
 };
-```
+// ```

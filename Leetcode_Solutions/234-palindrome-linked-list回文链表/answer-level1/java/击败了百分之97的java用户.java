@@ -1,10 +1,10 @@
-整个过程的思路还是很清晰的。
-1.快慢指针找到链表的中点
-2.翻转链表前半部分
-3.回文校验
-[更多leetcode分类题解点击这里](https://github.com/reedfan/leetcode/blob/master/leetcode.md)
+// 整个过程的思路还是很清晰的。
+// 1.快慢指针找到链表的中点
+// 2.翻转链表前半部分
+// 3.回文校验
+// [更多leetcode分类题解点击这里](https://github.com/reedfan/leetcode/blob/master/leetcode.md)
 
-```
+// ```
 public boolean isPalindrome(ListNode head) {
         if (head == null || head.next == null) {
             return true;
@@ -43,4 +43,4 @@ public boolean isPalindrome(ListNode head) {
         return true;
         
     }
-```
+// ```

@@ -1,5 +1,5 @@
-不看tag真不知道是并查集，使用了一个people数组来统计各个集合个数。
-```cpp
+// 不看tag真不知道是并查集，使用了一个people数组来统计各个集合个数。
+// ```cpp
 class Solution {
 public:
     int longestConsecutive(vector<int>& nums) {
@@ -30,4 +30,4 @@ public:
         return ans;
     }
 };
-```
+// ```

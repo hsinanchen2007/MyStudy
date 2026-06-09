@@ -1,9 +1,9 @@
-### 解题思路
-并行遍历
+# ### 解题思路
+# 并行遍历
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isSubsequence(self, s: str, t: str) -> bool:
         t_ptr=s_ptr=0
@@ -18,4 +18,4 @@ class Solution:
                 t_ptr+=1
             if s_ptr==s_len:return True
         return False
-```
+# ```

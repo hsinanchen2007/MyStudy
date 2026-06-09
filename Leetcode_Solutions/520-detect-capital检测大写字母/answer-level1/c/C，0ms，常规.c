@@ -1,7 +1,7 @@
-如果首字母是小写，出现大写则0；
-如果首字母是大写，从第二个字母开始，全大写或全小写则为1。
+// 如果首字母是小写，出现大写则0；
+// 如果首字母是大写，从第二个字母开始，全大写或全小写则为1。
 
-```
+// ```
 bool detectCapitalUse(char * word){
     int s,b;
     s=*word>'Z'?1:0;
@@ -18,4 +18,4 @@ bool detectCapitalUse(char * word){
     }
     return 1;
 }
-```
+// ```

@@ -1,5 +1,5 @@
-思路：遍历查询出度与入度。满足入度为N-1且出度为0者即为所求。
-```
+// 思路：遍历查询出度与入度。满足入度为N-1且出度为0者即为所求。
+// ```
 class Solution {
     public static int findJudge(int N, int[][] trust) {
         int ans=-1;
@@ -31,4 +31,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

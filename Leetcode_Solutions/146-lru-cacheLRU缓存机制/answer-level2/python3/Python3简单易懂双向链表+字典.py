@@ -1,12 +1,12 @@
-### 解题思路
-get要O(1), put要O(1), 那肯定得有一个字典
-要保持好一个顺序, 用来淘汰尾部的元素. 而且这个淘汰删除操作要O(1), 这说明得有链表.
-为了put操作实现了move_to_head函数. 这个函数本身需要链表的前后结点容易维护, 因此链表得要是双向链表(prev, next).
-综上, 我们需要在LRUCache这个类内部维护两套数据结构, 一个是mapping, 一个是链表llist
+# ### 解题思路
+# get要O(1), put要O(1), 那肯定得有一个字典
+# 要保持好一个顺序, 用来淘汰尾部的元素. 而且这个淘汰删除操作要O(1), 这说明得有链表.
+# 为了put操作实现了move_to_head函数. 这个函数本身需要链表的前后结点容易维护, 因此链表得要是双向链表(prev, next).
+# 综上, 我们需要在LRUCache这个类内部维护两套数据结构, 一个是mapping, 一个是链表llist
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # 本质上就维护一个字典和一个双向链表
 
 class Node:
@@ -90,4 +90,4 @@ class LRUCache:
 # obj = LRUCache(capacity)
 # param_1 = obj.get(key)
 # obj.put(key,value)
-```
+# ```

@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def longestCommonPrefix(strs: Array[String]): String = {
     if (strs.length == 0) return ""
@@ -10,4 +10,4 @@ object Solution {
     strs(0)
   }
 }
-```
+// ```

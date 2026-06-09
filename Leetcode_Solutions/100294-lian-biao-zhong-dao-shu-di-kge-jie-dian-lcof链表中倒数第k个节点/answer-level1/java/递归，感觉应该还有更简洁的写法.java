@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     ListNode res = null;
     int count = 0;
@@ -16,4 +16,4 @@ class Solution {
         if(count==kth)res=head;
     }
 }
-```
+// ```

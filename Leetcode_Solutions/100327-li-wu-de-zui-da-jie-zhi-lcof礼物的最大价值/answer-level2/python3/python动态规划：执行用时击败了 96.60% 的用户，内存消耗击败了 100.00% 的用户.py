@@ -1,8 +1,8 @@
-### 解题思路动态规划
+# ### 解题思路动态规划
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxValue(self, grid: List[List[int]]) -> int:
         if grid==[] or grid==[[]]:
@@ -24,4 +24,4 @@ class Solution:
             for j in range(1,n):
                grid[i][j] = max(grid[i-1][j]+grid[i][j],grid[i][j-1]+grid[i][j]) 
         return grid[m-1][n-1]
-```
+# ```

@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void nextPermutation(int[] nums) {
         // 从后往前找, 直到有最后一个a[i+1] > a[i]的, 此时表明这个字符是大的, 如果逆序后会变大
@@ -32,4 +32,4 @@ class Solution {
         nums[i] = tmp;
     }
 }
-```
+// ```

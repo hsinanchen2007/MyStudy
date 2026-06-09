@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/ec3effaae38e52b4931d8907224e96a75b371105df225ed3f51920ec90e05b17-image.png)
+// ![image.png](https://pic.leetcode-cn.com/ec3effaae38e52b4931d8907224e96a75b371105df225ed3f51920ec90e05b17-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] anagramMappings(int[] A, int[] B) {
         Map<Integer,Integer> map = new HashMap<>();
@@ -17,4 +17,4 @@ class Solution {
         return A;
     }
 }
-```
+// ```

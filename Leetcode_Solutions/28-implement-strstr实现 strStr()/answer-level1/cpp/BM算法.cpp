@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int findChr(string needle , char chr , int j){
@@ -38,4 +38,4 @@ public:
         return -1;
     }
 };
-```
+// ```

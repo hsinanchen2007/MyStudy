@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     static class UnionFind {
         int[] parent;
@@ -54,4 +54,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

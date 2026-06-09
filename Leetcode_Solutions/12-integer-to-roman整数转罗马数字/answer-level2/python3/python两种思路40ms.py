@@ -1,18 +1,18 @@
-### 解题思路
+# ### 解题思路
 
-考虑到只有1,10，100,1000 四类会出现多个的情况
+# 考虑到只有1,10，100,1000 四类会出现多个的情况
 
-只分开考虑这四类，其余的都只会出现一次，只要从大到小遍历即可。
+# 只分开考虑这四类，其余的都只会出现一次，只要从大到小遍历即可。
 
 
-```
+# ```
 执行用时 :40 ms, 在所有 python3 提交中击败了 99.21% 的用户
 内存消耗 : 12.8 MB , 在所有 python3 提交中击败了 99.54% 的用户
-```
+# ```
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def intToRoman(self, num: int) -> str:
         rr=''
@@ -28,12 +28,12 @@ class Solution:
                         num=num-r[1]*k
         return rr
 
-```
------
+# ```
+# -----
 
-## 垃圾解法
+# ## 垃圾解法
 
-```python3
+# ```python3
 class Solution:
     def intToRoman(self, num: int) -> str:
         result=[]
@@ -107,4 +107,4 @@ class Solution:
                 num=0
                 continue
         return ''.join(result)
-```
+# ```

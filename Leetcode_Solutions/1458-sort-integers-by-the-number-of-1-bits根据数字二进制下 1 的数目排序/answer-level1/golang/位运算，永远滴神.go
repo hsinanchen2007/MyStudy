@@ -1,4 +1,4 @@
-````golang
+// ````golang
 package problem1356
 
 import "sort"
@@ -61,4 +61,4 @@ func sortByBits1(arr []int) []int {
 	}
 	return nums
 }
-````
+// ````

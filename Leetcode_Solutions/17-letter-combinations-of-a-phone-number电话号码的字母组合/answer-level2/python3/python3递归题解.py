@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def letterCombinations(self, digits: str) -> List[str]:
         phone = {'2': ['a', 'b', 'c'],
@@ -25,6 +25,6 @@ class Solution:
         if digits:
             return get_combine([''], digits)
         return []
-```
+# ```
 
-递归的时间和回溯差不多。对有些人来说更好理解。
+# 递归的时间和回溯差不多。对有些人来说更好理解。

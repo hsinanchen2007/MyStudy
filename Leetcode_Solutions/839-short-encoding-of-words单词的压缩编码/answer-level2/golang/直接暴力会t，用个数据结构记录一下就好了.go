@@ -1,9 +1,9 @@
-### 解题思路
-直接暴力会t，用个数据结构记录一下就好了
+// ### 解题思路
+// 直接暴力会t，用个数据结构记录一下就好了
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type node struct {
 	value byte
 	sub   []*node
@@ -71,4 +71,4 @@ func minimumLengthEncoding(words []string) int {
 	return res
 }
 
-```
+// ```

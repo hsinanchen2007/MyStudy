@@ -1,6 +1,6 @@
 
-使用if和for来解题！！！！！
-```cpp
+// 使用if和for来解题！！！！！
+// ```cpp
 class Solution {
 public:
     int mySqrt(int x) 
@@ -22,4 +22,4 @@ public:
         return x1; 
     }
 };
-```
+// ```

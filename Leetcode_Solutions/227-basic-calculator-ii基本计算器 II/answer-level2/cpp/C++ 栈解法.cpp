@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int calculate(string s) {
@@ -42,7 +42,7 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/ac45544a3e98687bcf842e99f687b55107f2f992393517082a17591a328fb5e4-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/ac45544a3e98687bcf842e99f687b55107f2f992393517082a17591a328fb5e4-image.png)
 
 

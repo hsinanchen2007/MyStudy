@@ -1,12 +1,12 @@
-### 解题思路
-该代码复制别人的，主要是理解了其中的思想。
-通过二分查找进行操作。
-首先找到最小值的下标`minIndex`，而后计算最小值的面积，而后再以最小值进行左右划分，即`(start, minIndex - 1)`和`(minIndex + 1, end)`继续进行比较。
-至于`sorted = true`是表示该数组时递增数组，直接求最大值即可。
+// ### 解题思路
+// 该代码复制别人的，主要是理解了其中的思想。
+// 通过二分查找进行操作。
+// 首先找到最小值的下标`minIndex`，而后计算最小值的面积，而后再以最小值进行左右划分，即`(start, minIndex - 1)`和`(minIndex + 1, end)`继续进行比较。
+// 至于`sorted = true`是表示该数组时递增数组，直接求最大值即可。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int calculateArea(int[] heights, int start, int end) {
         if (start > end)
@@ -34,4 +34,4 @@ class Solution {
         return calculateArea(heights, 0, heights.length - 1);
     }
 }
-```
+// ```

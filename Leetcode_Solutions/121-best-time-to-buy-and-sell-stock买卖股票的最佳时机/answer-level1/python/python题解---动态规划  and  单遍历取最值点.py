@@ -1,9 +1,9 @@
-### 解题思路
-膜拜动态规划大佬
+# ### 解题思路
+# 膜拜动态规划大佬
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def maxProfit(self, prices):
         """
@@ -30,4 +30,4 @@ class Solution(object):
         return dp_i_0
             
 
-```
+# ```

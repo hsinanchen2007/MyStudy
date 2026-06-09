@@ -1,8 +1,8 @@
-注意输入字符串有大小写字母，还有数字等。
-这里替代元音用的‘-1’。
+// 注意输入字符串有大小写字母，还有数字等。
+// 这里替代元音用的‘-1’。
 
 
-```javascript []
+// ```javascript []
 var reverseVowels = function(s) {
     if(s.length<2) return s;
   
@@ -27,4 +27,4 @@ var reverseVowels = function(s) {
     
     
 };
-```
+// ```

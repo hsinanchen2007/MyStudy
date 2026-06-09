@@ -1,11 +1,11 @@
-### 解题思路
-字符串转列表，调用排序函数排序。
-字符两两判断是否相等，相等则序号跳2，不等则序号跳1。
-字符串的长度不用分奇偶考虑。
+# ### 解题思路
+# 字符串转列表，调用排序函数排序。
+# 字符两两判断是否相等，相等则序号跳2，不等则序号跳1。
+# 字符串的长度不用分奇偶考虑。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def longestPalindrome(self, s):
         """
@@ -27,4 +27,4 @@ class Solution(object):
         if sum>len(s):
             sum=len(s)
         return sum
-```
+# ```

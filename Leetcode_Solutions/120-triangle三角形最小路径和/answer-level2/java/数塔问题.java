@@ -1,11 +1,11 @@
-经典的数塔问题。见：http://acm.hdu.edu.cn/showproblem.php?pid=2084
+// 经典的数塔问题。见：http://acm.hdu.edu.cn/showproblem.php?pid=2084
 
-看到题的时候，就感觉是数塔问题，结果第一次读题看花了，没有注意到“每一步只能移动到下一行中相邻的节点”-----相邻！
-导致一次 WA。。。。
+// 看到题的时候，就感觉是数塔问题，结果第一次读题看花了，没有注意到“每一步只能移动到下一行中相邻的节点”-----相邻！
+// 导致一次 WA。。。。
 
 
 
-```
+// ```
 class Solution {
 
     public int minimumTotal(List<List<Integer>> triangle) {
@@ -22,4 +22,4 @@ class Solution {
         return dp[0];
     }
 }
-```
+// ```

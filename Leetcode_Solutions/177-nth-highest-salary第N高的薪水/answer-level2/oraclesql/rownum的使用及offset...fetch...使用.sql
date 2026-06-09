@@ -1,10 +1,10 @@
-### 解题思路
-1. 倒序排序，查询出前n条数据
-2. 过滤掉前n-1条数据，只取第n条数据
+-- ### 解题思路
+-- 1. 倒序排序，查询出前n条数据
+-- 2. 过滤掉前n-1条数据，只取第n条数据
 
-### 代码
+-- ### 代码
 
-```oraclesql
+-- ```oraclesql
 CREATE FUNCTION getNthHighestSalary(N IN NUMBER) RETURN NUMBER IS
 result NUMBER;
 BEGIN
@@ -16,4 +16,4 @@ BEGIN
     RETURN result;
  
 END;
-```
+-- ```

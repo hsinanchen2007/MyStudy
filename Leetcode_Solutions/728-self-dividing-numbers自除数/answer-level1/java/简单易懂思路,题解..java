@@ -1,4 +1,4 @@
-```java []
+// ```java []
 class Solution {
     public List<Integer> selfDividingNumbers(int left, int right) {
             List<Integer> res = new ArrayList<Integer>();
@@ -23,5 +23,5 @@ class Solution {
         return res;
     }
 }
-```
+// ```
 

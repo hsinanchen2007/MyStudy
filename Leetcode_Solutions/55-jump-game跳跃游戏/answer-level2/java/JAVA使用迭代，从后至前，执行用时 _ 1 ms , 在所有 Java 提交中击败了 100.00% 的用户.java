@@ -1,7 +1,7 @@
-思路：如果我们可以从i点到达j点，那么到达j点这个问题就可以分解为如何到达i点，这样就实现了问题的分解
+// 思路：如果我们可以从i点到达j点，那么到达j点这个问题就可以分解为如何到达i点，这样就实现了问题的分解
 
-代码如下：
-```
+// 代码如下：
+// ```
 public boolean canJump(int[] nums) {
     if (nums.length==1){
         return true;
@@ -24,5 +24,5 @@ public boolean goBack(int[] nums,int length){
     }
     return false;
 }
-```
+// ```
 

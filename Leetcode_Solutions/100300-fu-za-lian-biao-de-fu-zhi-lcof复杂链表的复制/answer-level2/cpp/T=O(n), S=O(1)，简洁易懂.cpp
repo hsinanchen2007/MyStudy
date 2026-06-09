@@ -1,4 +1,4 @@
-```
+// ```
 Node* copyRandomList(Node* head) {
     if (head == nullptr) return nullptr;
     for (Node* it = head; it; it = it->next) {
@@ -20,4 +20,4 @@ Node* copyRandomList(Node* head) {
     }
     return new_head;
 }
-```
+// ```

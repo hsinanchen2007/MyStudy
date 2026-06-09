@@ -1,9 +1,9 @@
-### 解题思路
-每次加入元素的时候，将队列中已有的元素后移，将新加入的元素插入第一个位置，这样就满足后入先出的特点了。
+// ### 解题思路
+// 每次加入元素的时候，将队列中已有的元素后移，将新加入的元素插入第一个位置，这样就满足后入先出的特点了。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MyStack {
     private Queue<Integer> queue;
     /** Initialize your data structure here. */
@@ -45,4 +45,4 @@ class MyStack {
  * int param_3 = obj.top();
  * boolean param_4 = obj.empty();
  */
-```
+// ```

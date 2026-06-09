@@ -1,9 +1,9 @@
-### 解题思路
-思路清晰，叫我第一☝️（dfs专练）
+// ### 解题思路
+// 思路清晰，叫我第一☝️（dfs专练）
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} land
  * @return {number[]}
@@ -39,4 +39,4 @@ function dfs(land, i, j){
         dfs(land, i+1,j+1)
     }
 }
-```
+// ```

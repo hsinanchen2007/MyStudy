@@ -1,8 +1,8 @@
-动态规划，
-到达当前[i][j]方格的路径总和等于[i-1][j]+[i][j-1]的和，如果当前方格是障碍物，则说明不可到达，
-记作[i][j]=0;
-于是代码可得
-```
+// 动态规划，
+// 到达当前[i][j]方格的路径总和等于[i-1][j]+[i][j-1]的和，如果当前方格是障碍物，则说明不可到达，
+// 记作[i][j]=0;
+// 于是代码可得
+// ```
 class Solution {
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {
         int n = obstacleGrid.length;//获取行数

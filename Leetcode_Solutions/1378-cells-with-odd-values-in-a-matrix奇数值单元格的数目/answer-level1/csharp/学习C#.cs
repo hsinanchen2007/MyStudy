@@ -1,12 +1,12 @@
-### 解题思路
-c#的二维数组定义太神奇了`int[,] tmp = new int[n,m];`
-可以直接用foreach遍历每一个数，`foreach(int t in tmp)`
-二维数组的调取也跟平常不一样 `tmp[i[0],j]`
-`int[][] arr = new int[3][];`可以定义不规则数组
-之后要分别再像一维数组定义
-### 代码
+// ### 解题思路
+// c#的二维数组定义太神奇了`int[,] tmp = new int[n,m];`
+// 可以直接用foreach遍历每一个数，`foreach(int t in tmp)`
+// 二维数组的调取也跟平常不一样 `tmp[i[0],j]`
+// `int[][] arr = new int[3][];`可以定义不规则数组
+// 之后要分别再像一维数组定义
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int OddCells(int n, int m, int[][] indices) {
         int[,] tmp = new int[n,m];
@@ -22,4 +22,4 @@ public class Solution {
             return res;
     }
 }
-```
+// ```

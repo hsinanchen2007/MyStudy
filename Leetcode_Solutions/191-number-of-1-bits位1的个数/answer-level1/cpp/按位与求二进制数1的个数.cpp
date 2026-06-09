@@ -1,9 +1,9 @@
-### 解题思路
-按位与操作:1<<i，而不是i<<1
+// ### 解题思路
+// 按位与操作:1<<i，而不是i<<1
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int hammingWeight(uint32_t n) {
@@ -16,4 +16,4 @@ public:
         return num;
     }
 };
-```
+// ```

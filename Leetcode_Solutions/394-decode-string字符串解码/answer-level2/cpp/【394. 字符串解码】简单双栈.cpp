@@ -1,6 +1,6 @@
-## 思路
-### 代码
-```c++
+// ## 思路
+// ### 代码
+// ```c++
 class Solution {
 public:
     string decodeString(string s) {
@@ -32,9 +32,9 @@ public:
         return res;
     }
 };
-```
-#### 另一种写法
-```c++
+// ```
+// #### 另一种写法
+// ```c++
 class Solution {
 public:
     string decodeString(string s) {
@@ -66,5 +66,5 @@ public:
         return res;
     }
 };
-```
+// ```
 

@@ -1,8 +1,8 @@
-### 解题思路
-long long 卡半天
-### 代码
+// ### 解题思路
+// long long 卡半天
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     double myPow(double x, int n) {

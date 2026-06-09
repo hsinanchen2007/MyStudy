@@ -1,5 +1,5 @@
-思路很直观，只需要注意最后一定要递归终于到叶子节点上。
-```
+// 思路很直观，只需要注意最后一定要递归终于到叶子节点上。
+// ```
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -20,4 +20,4 @@ class Solution {
         return hasPathSum(root.left,sum - root.val) || hasPathSum(root.right,sum - root.val);
     }
 }
-```
+// ```

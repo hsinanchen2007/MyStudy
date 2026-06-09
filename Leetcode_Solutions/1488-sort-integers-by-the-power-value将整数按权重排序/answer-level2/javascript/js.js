@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number} lo
  * @param {number} hi
@@ -36,4 +36,4 @@ var getKth = function(lo, hi, k) {
   }
 };
 
-```
+// ```

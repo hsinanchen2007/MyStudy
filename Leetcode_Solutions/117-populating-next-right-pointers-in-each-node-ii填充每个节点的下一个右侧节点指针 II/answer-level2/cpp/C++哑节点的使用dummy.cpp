@@ -1,9 +1,9 @@
-### 解题思路
-使用dummy方便操作
+// ### 解题思路
+// 使用dummy方便操作
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 
 class Solution {
 public:
@@ -31,4 +31,4 @@ public:
         return root;
     }
 };
-```
+// ```

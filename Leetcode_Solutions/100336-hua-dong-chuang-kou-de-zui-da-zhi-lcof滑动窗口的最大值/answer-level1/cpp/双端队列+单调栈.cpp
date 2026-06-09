@@ -1,14 +1,14 @@
-### 双端队列+单调栈
+// ### 双端队列+单调栈
 
-求区间中的最大值，用递减栈
+// 求区间中的最大值，用递减栈
 
-双端队列，维护队头是否已经出区间
+// 双端队列，维护队头是否已经出区间
 
-时间复杂度 O(N)
+// 时间复杂度 O(N)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> maxSlidingWindow(vector<int>& nums, int k) {
@@ -27,6 +27,6 @@ public:
 
     }
 };
-```
+// ```
 
-[从零开始学算法](https://muyids.github.io/simple-algorithm/)
+// [从零开始学算法](https://muyids.github.io/simple-algorithm/)

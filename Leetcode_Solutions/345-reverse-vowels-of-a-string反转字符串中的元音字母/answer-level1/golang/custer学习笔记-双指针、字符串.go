@@ -1,4 +1,4 @@
-```go
+// ```go
 func reverseVowels(s string) string {
   str := []rune(s)
   i, j := 0, len(str)-1
@@ -20,11 +20,11 @@ func isVolume(c rune) bool {
   return c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u' ||
     c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U'
 }
-```
+// ```
 
-学习自[leetcode125](https://leetcode-cn.com/problems/valid-palindrome/solution/custerxue-xi-bi-ji-shuang-zhi-zhen-ying-she-by-cus/)
+// 学习自[leetcode125](https://leetcode-cn.com/problems/valid-palindrome/solution/custerxue-xi-bi-ji-shuang-zhi-zhen-ying-she-by-cus/)
 
-```go
+// ```go
 func reverseVowels(s string) string {
   str := []rune(s)
   i := nextVowelIndex(str, 0)
@@ -59,4 +59,4 @@ func isVolume(c rune) bool {
   return c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u' ||
     c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U'
 }
-```
+// ```

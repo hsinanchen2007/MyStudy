@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 //递归回溯求解，注意减枝
 void generate(int left, int right, int n, char *str, int index, char **result, int *returnSize) {
   if (left == n && right == n) {  //左右括号都用完
@@ -55,4 +55,4 @@ class Solution {
 
 }
 
-```
+// ```

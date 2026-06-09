@@ -1,20 +1,20 @@
-本题解用编译原理中的确定有穷自动机原理, 先定义字符:
+// 本题解用编译原理中的确定有穷自动机原理, 先定义字符:
 
-1. BLANK: 空格, tab等
-2. DIGIT: 数字
-3. OTHER: 其他无关字符
-4. SIGN: 符号字符
+// 1. BLANK: 空格, tab等
+// 2. DIGIT: 数字
+// 3. OTHER: 其他无关字符
+// 4. SIGN: 符号字符
 
-然后画出DFA(草稿纸, 比较粗糙, 看不下就看下面的状态表吧):
+// 然后画出DFA(草稿纸, 比较粗糙, 看不下就看下面的状态表吧):
 
-![101686869.jpg](https://pic.leetcode-cn.com/d2f383e3de314d35b16c8da241cb7b2feb012ffccda95f87d3849e03aec5ad65-101686869.jpg)
+// ![101686869.jpg](https://pic.leetcode-cn.com/d2f383e3de314d35b16c8da241cb7b2feb012ffccda95f87d3849e03aec5ad65-101686869.jpg)
 
-然后是状态表:
+// 然后是状态表:
 
-![833364875.jpg](https://pic.leetcode-cn.com/dd88438b39030f72f9a8920702c2caaabedd8adfc103a44af76554483da32e44-833364875.jpg)
+// ![833364875.jpg](https://pic.leetcode-cn.com/dd88438b39030f72f9a8920702c2caaabedd8adfc103a44af76554483da32e44-833364875.jpg)
 
-然后是代码:
-```GO
+// 然后是代码:
+// ```GO
 // 状态表
 var table = [][]int{
   []int{5, 1, 4, 3},
@@ -68,7 +68,7 @@ LOOP:
   }
   return res * sign                                                                 
 }
-```
+// ```
 
-结果还是比较理想的:
-![深度截图_选择区域_20200221124400.png](https://pic.leetcode-cn.com/a004ed6fe6f15f4f70877cba96bf7daba76c199afefa40bb321c3cb99c5cf6d3-%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE_%E9%80%89%E6%8B%A9%E5%8C%BA%E5%9F%9F_20200221124400.png)
+// 结果还是比较理想的:
+// ![深度截图_选择区域_20200221124400.png](https://pic.leetcode-cn.com/a004ed6fe6f15f4f70877cba96bf7daba76c199afefa40bb321c3cb99c5cf6d3-%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE_%E9%80%89%E6%8B%A9%E5%8C%BA%E5%9F%9F_20200221124400.png)

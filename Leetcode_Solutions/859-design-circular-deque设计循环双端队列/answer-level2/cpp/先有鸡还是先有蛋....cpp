@@ -1,9 +1,9 @@
-### 解题思路
-投机取巧一把...CPP中这不就是deque数据结构么~套了个壳，正解应该是数组还有首尾哨兵来做~这个解法纯粹偷懒;
+// ### 解题思路
+// 投机取巧一把...CPP中这不就是deque数据结构么~套了个壳，正解应该是数组还有首尾哨兵来做~这个解法纯粹偷懒;
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MyCircularDeque {
 public:
     /** Initialize your data structure here. Set the size of the deque to be k. */
@@ -89,4 +89,4 @@ public:
  * bool param_7 = obj->isEmpty();
  * bool param_8 = obj->isFull();
  */
-```
+// ```

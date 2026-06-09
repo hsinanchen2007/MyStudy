@@ -1,13 +1,13 @@
-### 解题思路
+// ### 解题思路
 
-1、s[i] = 0时，若s[i-1]是1或2，则dp[i] = dp[i-2]，否则解码出错
-2、else if s[i-1]是1，dp[i] = dp[i-1] + dp[i-2]
-3、else if s[i-1]是2，且s[i]小于7，dp[i] = dp[i-1] + dp[i-2]
-4、else dp[i] = dp[i-1]
+// 1、s[i] = 0时，若s[i-1]是1或2，则dp[i] = dp[i-2]，否则解码出错
+// 2、else if s[i-1]是1，dp[i] = dp[i-1] + dp[i-2]
+// 3、else if s[i-1]是2，且s[i]小于7，dp[i] = dp[i-1] + dp[i-2]
+// 4、else dp[i] = dp[i-1]
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int numDecodings(char * s)
 {
     int i     = 0;
@@ -64,4 +64,4 @@ int numDecodings(char * s)
 
     return res;
 }
-```
+// ```

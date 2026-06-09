@@ -1,4 +1,4 @@
-```
+// ```
 struct cmp{
         bool operator()(pair<int,string>& p1, pair<int,string>& p2)
         {
@@ -19,4 +19,4 @@ struct cmp{
         }
         return ans;
     }
-```
+// ```

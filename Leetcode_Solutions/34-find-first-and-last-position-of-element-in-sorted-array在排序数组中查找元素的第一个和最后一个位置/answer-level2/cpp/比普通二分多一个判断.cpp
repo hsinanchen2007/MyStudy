@@ -1,18 +1,18 @@
-### 解题思路
-本质上就是多了一个下面的判断，找左端点的时候如下：
-            if(nums[mid] == target){
-                if(mid == l_bound || nums[mid-1] < target){
-                    return mid;
-                }else{
-                    //nums[mid-1] == target
-                    r = mid - 1;
-                }
-            }
-右端点类似，代码见下图
+// ### 解题思路
+// 本质上就是多了一个下面的判断，找左端点的时候如下：
+//             if(nums[mid] == target){
+//                 if(mid == l_bound || nums[mid-1] < target){
+//                     return mid;
+//                 }else{
+//                     //nums[mid-1] == target
+//                     r = mid - 1;
+//                 }
+//             }
+// 右端点类似，代码见下图
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
@@ -72,8 +72,8 @@ public:
         return r;
     }
 };
-```
+// ```
 
-### 结果
-执行用时 : 8 ms , 在所有 C++ 提交中击败了 86.81% 的用户 
-内存消耗 : 8.3 MB , 在所有 C++ 提交中击败了 100.00% 的用户
+// ### 结果
+// 执行用时 : 8 ms , 在所有 C++ 提交中击败了 86.81% 的用户 
+// 内存消耗 : 8.3 MB , 在所有 C++ 提交中击败了 100.00% 的用户

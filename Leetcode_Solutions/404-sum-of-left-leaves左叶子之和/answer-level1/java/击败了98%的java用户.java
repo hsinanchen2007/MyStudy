@@ -1,5 +1,5 @@
-[更多leetcode题解参考此处](https://github.com/reedfan/leetcode/tree/master/src/main/java/leetcode)
-```
+// [更多leetcode题解参考此处](https://github.com/reedfan/leetcode/tree/master/src/main/java/leetcode)
+// ```
 public int sumOfLeftLeaves(TreeNode root) {
         if (root == null) {
             return 0;
@@ -17,4 +17,4 @@ public int sumOfLeftLeaves(TreeNode root) {
     private boolean isLeftLeave(TreeNode treeNode) {
         return treeNode != null && (treeNode.left == null && treeNode.right == null);
     }
-```
+// ```

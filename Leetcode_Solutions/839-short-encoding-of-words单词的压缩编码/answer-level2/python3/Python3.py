@@ -1,9 +1,9 @@
-### 解题思路
-前缀树
+# ### 解题思路
+# 前缀树
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class TrieNode:
     def __init__(self, offset=0):
         self.next = {}
@@ -49,4 +49,4 @@ class Solution:
             
             
             
-```
+# ```

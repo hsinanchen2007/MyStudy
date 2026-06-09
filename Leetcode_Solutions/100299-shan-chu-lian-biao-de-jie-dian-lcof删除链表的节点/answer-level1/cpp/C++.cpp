@@ -1,14 +1,14 @@
-### 解题思路
+// ### 解题思路
 
-1、不设置dummy节点 需要对头结点单独处理
+// 1、不设置dummy节点 需要对头结点单独处理
 
-2、设置dummy节点 所有节点删除统一处理 注意：返回dummy->next
+// 2、设置dummy节点 所有节点删除统一处理 注意：返回dummy->next
 
-删除节点 需要先找到该结点的prev结点
+// 删除节点 需要先找到该结点的prev结点
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -77,4 +77,4 @@ public:
         return dummy->next;
     }
 };
-```
+// ```

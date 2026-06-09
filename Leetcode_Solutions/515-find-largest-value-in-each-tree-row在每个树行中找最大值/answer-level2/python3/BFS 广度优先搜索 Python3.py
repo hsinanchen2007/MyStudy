@@ -1,7 +1,7 @@
-- 使用BFS
-- 建立一个数组来保存结果（树的level对应数组的index）
+# - 使用BFS
+# - 建立一个数组来保存结果（树的level对应数组的index）
 
-```
+# ```
 class Solution:
     def largestValues(self, root: TreeNode) -> List[int]:
         if not root:
@@ -24,5 +24,5 @@ class Solution:
                 q.append((curr.right, level + 1))
             
         return result
-```
+# ```
 

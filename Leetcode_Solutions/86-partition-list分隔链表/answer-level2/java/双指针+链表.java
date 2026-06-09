@@ -1,12 +1,12 @@
-**想法**
-将链表分成2部分，小于x的构建新的链表1，大于x构建新链表2，然后串起来即可
+// **想法**
+// 将链表分成2部分，小于x的构建新的链表1，大于x构建新链表2，然后串起来即可
 
-**算法**
-所见即所得，按照想法实现
+// **算法**
+// 所见即所得，按照想法实现
 
-**代码**
+// **代码**
 
-```
+// ```
 class Solution {
     public ListNode partition(ListNode head, int x) {
         ListNode beforeHead = new ListNode(0);
@@ -31,5 +31,5 @@ class Solution {
         return beforeHead.next;
     }
 }
-```
+// ```
 

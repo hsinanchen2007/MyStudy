@@ -1,11 +1,11 @@
-### 解题思路
-1.先计算连表长度
-2.计算中间元素下标
-3.从前向后找到中间元素，返回后续链表
+// ### 解题思路
+// 1.先计算连表长度
+// 2.计算中间元素下标
+// 3.从前向后找到中间元素，返回后续链表
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -39,4 +39,4 @@ class Solution {
         return null;
     }
 }
-```
+// ```

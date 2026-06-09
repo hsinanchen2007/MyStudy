@@ -1,27 +1,27 @@
-![image.png](https://pic.leetcode-cn.com/8d5ae49ebba163b95037c8896f0c57efd42daaacd1a3959aff399d31642e14ad-image.png)
+// ![image.png](https://pic.leetcode-cn.com/8d5ae49ebba163b95037c8896f0c57efd42daaacd1a3959aff399d31642e14ad-image.png)
 
-### 解题思路
-基于全排列回溯剪枝演化,说一下和全排列的的区别:
-1. 不在判断长度,每次计算结果均记录
-2. 组合无序,所以要对重复组合做剪枝
+// ### 解题思路
+// 基于全排列回溯剪枝演化,说一下和全排列的的区别:
+// 1. 不在判断长度,每次计算结果均记录
+// 2. 组合无序,所以要对重复组合做剪枝
 
-核心:
-1. 对输入数据进行排序
-2. 对相同元素剪枝 
-```
+// 核心:
+// 1. 对输入数据进行排序
+// 2. 对相同元素剪枝 
+// ```
 // 1. `used[i]` 回溯经典选择条件,数字不可重复使用,已使用则跳过.
 // 2.  `(i>0 && nums[i] == nums[i-1] && !used[i-1])` 对重复元素做剪枝,如果相邻元素重复,取右节点排序结果.
  if (used[i] || (i>0 && nums[i] == nums[i-1] && !used[i-1]))
                 continue;
-```
-3. 对相同组合剪枝
-```
+// ```
+// 3. 对相同组合剪枝
+// ```
 //因为已经排序,小于当前位的组合已添加,所以此时当前位左边组合均需剪枝,通过 `start` 控制组合起始位置,防止添加重复的有序组合
 for (int i=start; i < nums.size(); i++) {
-```
-### 代码
+// ```
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> subsetsWithDup(vector<int>& nums) {
@@ -60,4 +60,4 @@ public:
         
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-在原链表上进行删除修改，设置指针指向链表
+// ### 解题思路
+// 在原链表上进行删除修改，设置指针指向链表
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -32,4 +32,4 @@ struct ListNode* deleteDuplicates(struct ListNode* head){
     }
     return h;
 }
-```
+// ```

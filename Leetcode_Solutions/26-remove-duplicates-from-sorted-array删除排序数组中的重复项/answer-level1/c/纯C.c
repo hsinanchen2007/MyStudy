@@ -1,8 +1,8 @@
-### 解题思路
-快慢指针（下标）
-### 代码
+// ### 解题思路
+// 快慢指针（下标）
+// ### 代码
 
-```c
+// ```c
 int removeDuplicates(int* nums, int numsSize){
     if (numsSize <= 1) 
     {
@@ -31,4 +31,4 @@ int removeDuplicates(int* nums, int numsSize){
 
     return size + 1;
 }
-```
+// ```

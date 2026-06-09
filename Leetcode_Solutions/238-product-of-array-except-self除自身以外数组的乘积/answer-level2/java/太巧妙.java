@@ -1,10 +1,10 @@
-### 解题思路
-`       for(int i=Rs.length-2;i>=0;i--){`
-这个循环要注意，是可以`=0`的
+// ### 解题思路
+// `       for(int i=Rs.length-2;i>=0;i--){`
+// 这个循环要注意，是可以`=0`的
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] productExceptSelf(int[] nums) {
         int[] output = new int[nums.length];
@@ -35,4 +35,4 @@ class Solution {
         return output;
     }
 }
-```
+// ```

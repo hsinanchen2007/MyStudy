@@ -1,5 +1,5 @@
-只需要一次for循环遍历
-```
+// 只需要一次for循环遍历
+// ```
 function insert($intervals, $newInterval) {
     if(count($intervals)<1) return [$newInterval];
     if(count($newInterval)<1) return $intervals;
@@ -42,4 +42,4 @@ function insert($intervals, $newInterval) {
     }
     return $intervals;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-打卡
+// ### 解题思路
+// 打卡
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func canThreePartsEqualSum(A []int) bool {
 	sum := 0
 	for i := 0; i < len(A); i++ {
@@ -41,4 +41,4 @@ func canThreePartsEqualSum(A []int) bool {
 
 	return false
 }
-```
+// ```

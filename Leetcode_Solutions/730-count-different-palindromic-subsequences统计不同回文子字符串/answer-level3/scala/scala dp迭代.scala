@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def countPalindromicSubsequences(S: String): Int = {
     val M = 1e9.toInt + 7
@@ -23,5 +23,5 @@ object Solution {
     dp(0)(S.length - 1)
   }
 }
-```
+// ```
 

@@ -1,6 +1,6 @@
-***的思路实现
+# ***的思路实现
 
-```
+# ```
 class MyQueue:
 
     def __init__(self):
@@ -52,4 +52,4 @@ class MyQueue:
         """
         return not (self.stack1 or self.stack2)
         
-```
+# ```

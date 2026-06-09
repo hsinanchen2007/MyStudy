@@ -1,7 +1,7 @@
-### 思路
-- 用内置函数`unordered_set`,若还不存在该值就插入到set内，
-- 若count>0 返回true
-```
+// ### 思路
+// - 用内置函数`unordered_set`,若还不存在该值就插入到set内，
+// - 若count>0 返回true
+// ```
 class Solution {
 public:
     bool containsDuplicate(vector<int>& nums) {
@@ -17,4 +17,4 @@ public:
         return false;
     }
 };
-```
+// ```

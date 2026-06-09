@@ -1,4 +1,4 @@
-```
+// ```
 bool checkAf(char c)
 {
     if (c >= 'a' && c <= 'f') {
@@ -110,4 +110,4 @@ char* validIPAddress(char* IP)
     return "Neither";
 
 }
-```
+// ```

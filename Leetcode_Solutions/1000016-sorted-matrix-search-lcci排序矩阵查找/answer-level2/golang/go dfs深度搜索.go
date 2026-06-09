@@ -1,4 +1,4 @@
-```go
+// ```go
 func searchMatrix(matrix [][]int, target int) bool {
     return dfs(matrix, 0, 0, target)
 }
@@ -27,4 +27,4 @@ func dfs(matrix [][]int, i, j, target int) bool {
 
     return dfs(matrix, i, j+1, target) || dfs(matrix, i+1, j, target)
 }
-```
+// ```

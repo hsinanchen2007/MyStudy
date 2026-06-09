@@ -1,9 +1,9 @@
-### 解题思路
-遍历链表把节点值放到数组中，剩下的就是easy了
+// ### 解题思路
+// 遍历链表把节点值放到数组中，剩下的就是easy了
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -33,4 +33,4 @@ public:
         return ret;
     }
 };
-```
+// ```

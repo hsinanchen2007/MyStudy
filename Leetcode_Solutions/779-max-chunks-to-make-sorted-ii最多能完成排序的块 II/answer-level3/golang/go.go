@@ -1,4 +1,4 @@
-```
+// ```
 func maxChunksToSorted(arr []int) int {
 	st := []int{}
 	for _, a := range arr {
@@ -15,4 +15,4 @@ func maxChunksToSorted(arr []int) int {
 	}
 	return len(st)
 }
-```
+// ```

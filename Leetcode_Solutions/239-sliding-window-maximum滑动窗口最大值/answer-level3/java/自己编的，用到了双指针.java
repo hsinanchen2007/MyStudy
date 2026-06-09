@@ -1,4 +1,4 @@
-**先贴提交结果图：**
+// **先贴提交结果图：**
 ![image.png](https://pic.leetcode-cn.com/f1f8a149f9c0d3b9f5738a30a03f43d6c8b6a1adea9dab30ea4729bd82a146ad-image.png)
 
 	public static int[] maxSlidingWindow(int[] nums, int k) {

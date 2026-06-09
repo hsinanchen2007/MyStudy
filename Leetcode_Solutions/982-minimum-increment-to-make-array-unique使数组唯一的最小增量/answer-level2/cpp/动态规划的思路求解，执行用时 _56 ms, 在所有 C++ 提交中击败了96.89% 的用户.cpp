@@ -1,6 +1,6 @@
 
-思路比较简单，执行速度快
-```
+// 思路比较简单，执行速度快
+// ```
 class Solution {
 public:
     int minIncrementForUnique(vector<int>& A) {
@@ -22,4 +22,4 @@ public:
         return re;
     }
 };
-```
+// ```

@@ -1,21 +1,21 @@
-### 解题思路
-[2, 3, 1, 0, 2, 5, 3]
-nums[0]=2
-nums[0] !=nums[2],交换num[0]和nums[2]
-[1, 3, 2, 0, 2, 5, 3]
-nums[0]=1
-nums[0] !=nums[1],交换nums[0]和nums[1]
-[3, 1, 2, 0, 2, 5, 3]
-nums[0]=3
-nums[0] !=nums[3],交换nums[0]和nums[3]
-[0, 1, 2, 3, 2, 5, 3]
-nums[0]=0   i++
-......
-nums[3]=3   i++
-nums[4]=2   而nums[4]==nums[2],  return 2
-### 代码
+// ### 解题思路
+// [2, 3, 1, 0, 2, 5, 3]
+// nums[0]=2
+// nums[0] !=nums[2],交换num[0]和nums[2]
+// [1, 3, 2, 0, 2, 5, 3]
+// nums[0]=1
+// nums[0] !=nums[1],交换nums[0]和nums[1]
+// [3, 1, 2, 0, 2, 5, 3]
+// nums[0]=3
+// nums[0] !=nums[3],交换nums[0]和nums[3]
+// [0, 1, 2, 3, 2, 5, 3]
+// nums[0]=0   i++
+// ......
+// nums[3]=3   i++
+// nums[4]=2   而nums[4]==nums[2],  return 2
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findRepeatNumber(vector<int>& nums) {
@@ -34,4 +34,4 @@ public:
         return -1;
     }
 };
-```
+// ```

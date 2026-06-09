@@ -1,11 +1,11 @@
-**思路**：如果一条直线可以平分两个正方形，那么这条直线一定过两个正方形的中心。得到目标直线后，与两个正方形求交点即可。
-**特殊情况**：如果中心重合，根据题目要求应选平行于Y轴的直线。
-**编程技巧**：判断两个浮点数是否相等时需考虑精度问题，详见代码中的EPS。
-**用到的C++技巧**：运算符重载，构造函数，vector容器的 begin 与 rbegin。
-![qrcode_for_gh_6e5f8557b1f8_258.jpg](https://pic.leetcode-cn.com/610ed7bea4836735e55a90808f61d301d903a1363b255f461be0c0b268741323-qrcode_for_gh_6e5f8557b1f8_258.jpg)
-**扫描二维码获取更多计算机相关知识~**
-![image.png](https://pic.leetcode-cn.com/dbbe5b70c36bd0cd672630a055016dd32346f55eadb09a50f50d88e376b2176e-image.png)
-```
+// **思路**：如果一条直线可以平分两个正方形，那么这条直线一定过两个正方形的中心。得到目标直线后，与两个正方形求交点即可。
+// **特殊情况**：如果中心重合，根据题目要求应选平行于Y轴的直线。
+// **编程技巧**：判断两个浮点数是否相等时需考虑精度问题，详见代码中的EPS。
+// **用到的C++技巧**：运算符重载，构造函数，vector容器的 begin 与 rbegin。
+// ![qrcode_for_gh_6e5f8557b1f8_258.jpg](https://pic.leetcode-cn.com/610ed7bea4836735e55a90808f61d301d903a1363b255f461be0c0b268741323-qrcode_for_gh_6e5f8557b1f8_258.jpg)
+// **扫描二维码获取更多计算机相关知识~**
+// ![image.png](https://pic.leetcode-cn.com/dbbe5b70c36bd0cd672630a055016dd32346f55eadb09a50f50d88e376b2176e-image.png)
+// ```
 const double EPS = 0.00001;
 class Solution {
     struct Point {
@@ -78,4 +78,4 @@ public:
         return vector<double>{vec.begin()->x, vec.begin()->y, vec.rbegin()->x, vec.rbegin()->y};
     }
 };
-```
+// ```

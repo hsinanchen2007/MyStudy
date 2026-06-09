@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findMinArrowShots(self, points: List[List[int]]) -> int:
         points.sort(key=lambda x: x[1])
@@ -12,4 +12,4 @@ class Solution:
                 start = points[i][1]
         return result
 
-```
+# ```

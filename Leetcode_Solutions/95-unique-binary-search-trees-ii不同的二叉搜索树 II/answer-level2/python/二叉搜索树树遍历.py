@@ -1,13 +1,13 @@
-### 解题思路
-此处撰写解题思路
-注意事项：
-1 二叉搜索树，符合 left<val<right
-2 遍历所有根节点，小值送入左树，大值送入右数
-3 截止条件，n为0时返回[],而非返回[[None]]
+# ### 解题思路
+# 此处撰写解题思路
+# 注意事项：
+# 1 二叉搜索树，符合 left<val<right
+# 2 遍历所有根节点，小值送入左树，大值送入右数
+# 3 截止条件，n为0时返回[],而非返回[[None]]
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -46,4 +46,4 @@ class Solution(object):
 
 
 
-```
+# ```

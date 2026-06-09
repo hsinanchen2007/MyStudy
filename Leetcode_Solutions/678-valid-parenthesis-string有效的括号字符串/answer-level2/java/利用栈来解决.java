@@ -1,15 +1,15 @@
-### 解题思路
-此处撰写解题思路
-用两个栈来存储数据stack、starts。
-当数据为'('时存入stack 为 * 时存入 starts
-当为')' 先去找与它匹配的')' 没有 就去 starts中找* 再没有就false
-当消耗完所有的 * 之后，两个栈中还有数据则表明还有*的存在 
-比较*和stack栈中的顶值，将所有stack栈中值弹出，若stack没有值了 则为true
-否则为false
+// ### 解题思路
+// 此处撰写解题思路
+// 用两个栈来存储数据stack、starts。
+// 当数据为'('时存入stack 为 * 时存入 starts
+// 当为')' 先去找与它匹配的')' 没有 就去 starts中找* 再没有就false
+// 当消耗完所有的 * 之后，两个栈中还有数据则表明还有*的存在 
+// 比较*和stack栈中的顶值，将所有stack栈中值弹出，若stack没有值了 则为true
+// 否则为false
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean checkValidString(String s) {
       Stack<Integer> stack = new Stack<>();
@@ -45,4 +45,4 @@ class Solution {
        return false;
     }
 }
-```
+// ```

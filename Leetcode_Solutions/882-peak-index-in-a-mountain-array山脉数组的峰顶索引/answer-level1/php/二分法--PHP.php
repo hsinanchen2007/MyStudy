@@ -1,15 +1,15 @@
-### 解题思路
-二分法，找到不在增长的元素
+// ### 解题思路
+// 二分法，找到不在增长的元素
 
-注意：遍历结束条件是front < rear 不能相等
+// 注意：遍历结束条件是front < rear 不能相等
 
-### 性能
-执行用时 :24 ms, 在所有 php 提交中击败了88.89%的用户
-内存消耗 :16.3 MB, 在所有 php 提交中击败了25.00%的用户
+// ### 性能
+// 执行用时 :24 ms, 在所有 php 提交中击败了88.89%的用户
+// 内存消耗 :16.3 MB, 在所有 php 提交中击败了25.00%的用户
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -31,7 +31,7 @@ class Solution {
         return $front;
     }
 }
-```
+// ```
 
-参考：
-[https://leetcode-cn.com/problems/peak-index-in-a-mountain-array/solution/shan-mai-shu-zu-de-feng-ding-suo-yin-by-leetcode/](https://leetcode-cn.com/problems/peak-index-in-a-mountain-array/solution/shan-mai-shu-zu-de-feng-ding-suo-yin-by-leetcode/)
+// 参考：
+// [https://leetcode-cn.com/problems/peak-index-in-a-mountain-array/solution/shan-mai-shu-zu-de-feng-ding-suo-yin-by-leetcode/](https://leetcode-cn.com/problems/peak-index-in-a-mountain-array/solution/shan-mai-shu-zu-de-feng-ding-suo-yin-by-leetcode/)

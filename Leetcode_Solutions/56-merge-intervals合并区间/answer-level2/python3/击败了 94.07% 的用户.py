@@ -1,12 +1,12 @@
-### 解题思路
-大致思路就是:
+# ### 解题思路
+# 大致思路就是:
 
-1. 先把List排序
-2. 然后判断当前区间与上一个之间的关系
+# 1. 先把List排序
+# 2. 然后判断当前区间与上一个之间的关系
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def merge(self, intervals):
         if len(intervals) <= 1:
@@ -28,4 +28,4 @@ class Solution:
 
 
         return intervals
-```
+# ```

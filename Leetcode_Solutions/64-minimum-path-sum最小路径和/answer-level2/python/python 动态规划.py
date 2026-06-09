@@ -1,11 +1,11 @@
-1.最小路径与上一步走的路径和有关系，需要找到前一步的最小和，加上当前的数。
-2.dp[i][j]，记录到矩阵的第i,j个元素，已经走的最短路径
-3.dp[i][j] = matrix[i][j] + min(dp[i - 1][j], dp[i][j - 1]) 即：上一个数（左边，右边的数的最小值）加当前矩阵的数
+# 1.最小路径与上一步走的路径和有关系，需要找到前一步的最小和，加上当前的数。
+# 2.dp[i][j]，记录到矩阵的第i,j个元素，已经走的最短路径
+# 3.dp[i][j] = matrix[i][j] + min(dp[i - 1][j], dp[i][j - 1]) 即：上一个数（左边，右边的数的最小值）加当前矩阵的数
 
-```javascript []
+# ```javascript []
 console.log('Hello world!')
-```
-```python []
+# ```
+# ```python []
 def sol(matrix):
     m = len(matrix)
     n = len(matrix[0])
@@ -26,7 +26,7 @@ def sol(matrix):
             if i != 0 and j != 0:
                 dp[i][j] = matrix[i][j] + min(dp[i - 1][j], dp[i][j - 1])
     return dp[-1][-1]
-```
-```ruby []
+# ```
+# ```ruby []
 puts 'Hello world!'
-```
+# ```

@@ -1,4 +1,4 @@
-```php
+// ```php
 class Solution
 {
     // 对于一个测试用例，是唯一值
@@ -34,12 +34,12 @@ class Solution
         return $last;
     }
 }
-```
+// ```
 
 
-## 测试用例
+// ## 测试用例
 
-```php
+// ```php
 class ListNode
 {
     public $val = 0;
@@ -63,4 +63,4 @@ while ($list) {
     echo $list->val . PHP_EOL;
     $list = $list->next;
 }
-```
+// ```

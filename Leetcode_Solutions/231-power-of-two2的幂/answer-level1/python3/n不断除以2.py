@@ -1,9 +1,9 @@
-### 解题思路
-不能被2整除则返回False，否则，判断最后是否为2，不是则除以2
+# ### 解题思路
+# 不能被2整除则返回False，否则，判断最后是否为2，不是则除以2
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isPowerOfTwo(self, n: int) -> bool:
         if(n==1):
@@ -19,4 +19,4 @@ class Solution:
             return False
 
 
-```
+# ```

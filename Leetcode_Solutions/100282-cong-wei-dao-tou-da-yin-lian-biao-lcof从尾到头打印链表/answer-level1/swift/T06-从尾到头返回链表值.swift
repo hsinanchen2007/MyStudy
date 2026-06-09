@@ -1,9 +1,9 @@
-### 解题思路
-将链表遍历加入数组，然后将数组反置输出即可。
+// ### 解题思路
+// 将链表遍历加入数组，然后将数组反置输出即可。
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func reversePrint(_ head: ListNode?) -> [Int] {
         // 初始化数组
@@ -22,4 +22,4 @@ class Solution {
     }
 }
 
-```
+// ```

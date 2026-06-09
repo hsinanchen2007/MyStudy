@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/0262d586b99d206e86033c91534b67cf9f573cc23d0a57c93794a4756fa562b1-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/0262d586b99d206e86033c91534b67cf9f573cc23d0a57c93794a4756fa562b1-image.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isAdditiveNumber(String num) {
         List<List<String>> r = core(num, num.length() - 1, 0);
@@ -70,4 +70,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

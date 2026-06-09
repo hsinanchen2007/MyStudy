@@ -1,7 +1,7 @@
-注意, 本题由于 k 的大小可以非常大, 所以在声明 dp 数组前, 一定要先判断 k 的大小, 如果超过范围, 则要转换为无限次的股票买卖, 否则会导致爆栈.
+// 注意, 本题由于 k 的大小可以非常大, 所以在声明 dp 数组前, 一定要先判断 k 的大小, 如果超过范围, 则要转换为无限次的股票买卖, 否则会导致爆栈.
 
-**C++ 实现:**
-```cpp
+// **C++ 实现:**
+// ```cpp
 class Solution {
 public:
     int maxProfit(int k, vector<int>& prices) {
@@ -32,10 +32,10 @@ public:
         }
     }
 };
-```
+// ```
 
-**Python 实现:**
-```py
+// **Python 实现:**
+// ```py
 class Solution:
     def maxProfit(self, k: int, prices: List[int]) -> int:
         if len(prices) <= 1: return 0
@@ -50,4 +50,4 @@ class Solution:
             for price in prices[1:]:
                 dp = [max(dp[0], dp[1]-price), max(dp[1], dp[0]+price)]
             return dp[1]
-```
+// ```

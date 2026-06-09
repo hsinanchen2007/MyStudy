@@ -1,9 +1,9 @@
-### 解题思路
-思路类似于将字符串中的空格删除，此处只是删除的是除字母和数字之外的其他字符
+// ### 解题思路
+// 思路类似于将字符串中的空格删除，此处只是删除的是除字母和数字之外的其他字符
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isPalindrome(char * s){
     if(strlen(s)==0||strlen(s)==1) return true;
     int i,j;
@@ -21,4 +21,4 @@ bool isPalindrome(char * s){
     }
     return true;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 import (
     "sort"
 )
@@ -49,4 +49,4 @@ type sortInt []int
 func (s sortInt) Len() int {return len(s)}
 func (s sortInt) Swap(i, j int) {s[i], s[j] = s[j], s[i]}
 func (s sortInt) Less(i, j int) bool {return s[i] < s[j]} 
-```
+// ```

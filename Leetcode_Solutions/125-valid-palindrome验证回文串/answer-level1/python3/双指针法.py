@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         i = 0
@@ -13,4 +13,4 @@ class Solution:
             i += 1
             j -= 1
         return True
-```
+# ```

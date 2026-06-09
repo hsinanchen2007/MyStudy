@@ -1,5 +1,5 @@
-**递归的时候带上层次值作为递归参数，直接作为结果数组中的索引。**<br>
-```
+// **递归的时候带上层次值作为递归参数，直接作为结果数组中的索引。**<br>
+// ```
 /**
  * @param {Node} root
  * @return {number[][]}
@@ -22,4 +22,4 @@ function search(nums,node,k){
         search(nums,node.children[i],k + 1);
     }
 }
-```
+// ```

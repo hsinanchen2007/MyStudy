@@ -1,9 +1,9 @@
-### 解题思路
-一开始想半天...黑人问号.gif
+// ### 解题思路
+// 一开始想半天...黑人问号.gif
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func removePalindromeSub(_ s: String) -> Int {
         
@@ -20,4 +20,4 @@ class Solution {
 
     }
 }
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
-动态规划，先设定基础值，根据下述公式计算每一个参数对应的最小路径，最后在最后一层里搜索最小的值即为最终结果:
-c1 = min((dp[i-1][j] + A[i][j]), (dp[i-1][j-1] + A[i][j]));
-c2 = min((dp[i-1][j] + A[i][j]), (dp[i-1][j+1] + A[i][j]));
-dp[i][j] = min(c1, c2);
+// ### 解题思路
+// 动态规划，先设定基础值，根据下述公式计算每一个参数对应的最小路径，最后在最后一层里搜索最小的值即为最终结果:
+// c1 = min((dp[i-1][j] + A[i][j]), (dp[i-1][j-1] + A[i][j]));
+// c2 = min((dp[i-1][j] + A[i][j]), (dp[i-1][j+1] + A[i][j]));
+// dp[i][j] = min(c1, c2);
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define min(x, y) (x < y ? x : y)
 int minFallingPathSum(int** A, int ASize, int* AColSize){
     double dp[ASize][(*AColSize)];
@@ -42,4 +42,4 @@ int minFallingPathSum(int** A, int ASize, int* AColSize){
     return c3;
 
 }
-```
+// ```

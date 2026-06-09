@@ -1,9 +1,9 @@
-### 解题思路
-官方题解的C实现...
+// ### 解题思路
+// 官方题解的C实现...
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -48,4 +48,4 @@ int longestUnivaluePath(struct TreeNode* root) {
     getArrowLength(root, &diagmeter);
     return diagmeter;
 }
-```
+// ```

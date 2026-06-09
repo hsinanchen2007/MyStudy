@@ -1,9 +1,9 @@
-### 解题思路
-使用两个虚假头结点，同分割链表解题思路相同
+// ### 解题思路
+// 使用两个虚假头结点，同分割链表解题思路相同
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -40,4 +40,4 @@ class Solution {
 
     }
 }
-```
+// ```

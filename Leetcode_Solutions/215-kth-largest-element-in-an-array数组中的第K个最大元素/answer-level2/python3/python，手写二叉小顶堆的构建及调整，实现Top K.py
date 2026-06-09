@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:
         def stacksort(nums,k):
@@ -23,4 +23,4 @@ class Solution:
                 stacklist[0]=num
                 stacklist=stacksort(stacklist,k)
         return stacklist[0]
-```
+# ```

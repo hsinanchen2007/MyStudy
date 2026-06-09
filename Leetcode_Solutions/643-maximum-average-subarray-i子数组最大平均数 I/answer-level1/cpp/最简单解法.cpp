@@ -1,7 +1,7 @@
-dp[i]是前i个数字的和，然后从前往后当遇到索引i大于k的时候，计算i-k到i之间的和最大即可。
-由于dp数组保存了前面的和，i-k到i区间的和等于dp[i] - dp[i-k]。
-时间复杂度O(n)
-```
+// dp[i]是前i个数字的和，然后从前往后当遇到索引i大于k的时候，计算i-k到i之间的和最大即可。
+// 由于dp数组保存了前面的和，i-k到i区间的和等于dp[i] - dp[i-k]。
+// 时间复杂度O(n)
+// ```
 class Solution {
 public:
     double findMaxAverage(vector<int>& nums, int k) {
@@ -21,4 +21,4 @@ public:
         return max_sum/k;
     }
 };
-```
+// ```

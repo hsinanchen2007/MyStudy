@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int uniquePaths(int m, int n) {
@@ -20,4 +20,4 @@ public:
         return (int)(ans/temp);
     }
 };
-```
+// ```

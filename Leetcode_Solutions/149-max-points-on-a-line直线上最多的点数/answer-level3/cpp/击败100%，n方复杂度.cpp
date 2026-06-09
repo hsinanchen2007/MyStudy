@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int maxPoints(vector<vector<int>>& p) {
@@ -35,6 +35,6 @@ public:
         return maxCount;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/85b88c651ac5bd3af3b5188db5f6bf53e4cd22b7a3f114a5eb7629fd082ff1f2-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/85b88c651ac5bd3af3b5188db5f6bf53e4cd22b7a3f114a5eb7629fd082ff1f2-image.png)
 

@@ -1,5 +1,5 @@
 
-```python []
+# ```python []
 class Solution:
     def generateParenthesis(self, n):
         if not n:
@@ -17,5 +17,5 @@ class Solution:
             self.dfs(l - 1, r, item + '(')
         if r > 0:
             self.dfs(l, r - 1, item + ')')
-```
+# ```
 

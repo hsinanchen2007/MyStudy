@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-创建map，遍历杂志，把杂志中的字母以及出现了几次都存放在map中，再遍历赎金信，每遇到一个字母，map中相应字母的次数减1，如果某个字母在map中不存在，或存在次数为0了，则返回false，否则遍历完成返回true
+// 创建map，遍历杂志，把杂志中的字母以及出现了几次都存放在map中，再遍历赎金信，每遇到一个字母，map中相应字母的次数减1，如果某个字母在map中不存在，或存在次数为0了，则返回false，否则遍历完成返回true
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func canConstruct(ransomNote string, magazine string) bool {
 	m := make(map[byte]int)
 	for i := 0;i < len(magazine);i++ {
@@ -27,4 +27,4 @@ func canConstruct(ransomNote string, magazine string) bool {
 	}
 	return true
 }
-```
+// ```

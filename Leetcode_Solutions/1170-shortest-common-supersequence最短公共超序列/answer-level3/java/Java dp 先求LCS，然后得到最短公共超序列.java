@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-先用dp求lcs，然后拼接成最短公共超序列
+// 先用dp求lcs，然后拼接成最短公共超序列
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String shortestCommonSupersequence(String str1, String str2) {
         String lcs = lcs(str1, str2);
@@ -42,4 +42,4 @@ class Solution {
         return dp[str1.length()][str2.length()];
     }
 }
-```
+// ```

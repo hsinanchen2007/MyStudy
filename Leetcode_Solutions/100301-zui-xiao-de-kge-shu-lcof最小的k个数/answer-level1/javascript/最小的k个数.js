@@ -1,10 +1,10 @@
-### 解题思路
-首先对数组排序
-其次从排序后的数组中取k个数
-最后将取出的数组返回即可
-### 代码
+// ### 解题思路
+// 首先对数组排序
+// 其次从排序后的数组中取k个数
+// 最后将取出的数组返回即可
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} arr
  * @param {number} k
@@ -18,4 +18,4 @@ var getLeastNumbers = function(arr, k) {
     })
     return arr.splice(0, k)
 };
-```
+// ```

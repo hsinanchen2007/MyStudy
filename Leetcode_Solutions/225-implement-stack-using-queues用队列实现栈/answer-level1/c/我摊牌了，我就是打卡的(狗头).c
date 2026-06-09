@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define SIZE  1000
 typedef struct {
     int ar[SIZE+1];
@@ -45,4 +45,4 @@ bool myStackEmpty(MyStack* obj) {
 void myStackFree(MyStack* obj) {
     free(obj->ar);
 }
-```
+// ```

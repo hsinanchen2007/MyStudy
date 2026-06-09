@@ -1,5 +1,5 @@
-效率不高，仅供参考。
-```
+// 效率不高，仅供参考。
+// ```
 typedef struct node {
     char val;
     struct node *next[26]; /* 26叉树 */
@@ -101,7 +101,7 @@ void wordDictionaryFree(WordDictionary* obj) {
     free(obj);
 }
 
-```
+// ```
 
-![未命名.bmp](https://pic.leetcode-cn.com/f630879bee214f0f95dae36c43f9a993bcaf52c4ace85f49d892bda59f77243f-%E6%9C%AA%E5%91%BD%E5%90%8D.bmp)
+// ![未命名.bmp](https://pic.leetcode-cn.com/f630879bee214f0f95dae36c43f9a993bcaf52c4ace85f49d892bda59f77243f-%E6%9C%AA%E5%91%BD%E5%90%8D.bmp)
 

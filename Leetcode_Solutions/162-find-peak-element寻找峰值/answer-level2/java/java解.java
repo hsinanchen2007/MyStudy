@@ -1,6 +1,6 @@
-执行用时 : 1 ms, 在Find Peak Element的Java提交中击败了95.58% 的用户
-内存消耗 : 35.3 MB, 在Find Peak Element的Java提交中击败了96.54% 的用户
-```
+// 执行用时 : 1 ms, 在Find Peak Element的Java提交中击败了95.58% 的用户
+// 内存消耗 : 35.3 MB, 在Find Peak Element的Java提交中击败了96.54% 的用户
+// ```
 class Solution {
     public int findPeakElement(int[] nums) {
         int i = 0;
@@ -19,4 +19,4 @@ class Solution {
         return m;
     }
 }
-```
+// ```

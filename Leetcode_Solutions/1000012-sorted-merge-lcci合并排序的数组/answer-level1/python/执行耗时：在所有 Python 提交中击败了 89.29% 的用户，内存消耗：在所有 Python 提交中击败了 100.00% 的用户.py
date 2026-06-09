@@ -1,9 +1,9 @@
-### 解题思路
-本题解题方法使用了双子针的形式，倒序插入数组。最后还要考虑A元素全部move完后，剩余B元素的copy动作
+# ### 解题思路
+# 本题解题方法使用了双子针的形式，倒序插入数组。最后还要考虑A元素全部move完后，剩余B元素的copy动作
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def merge(self, A, m, B, n):
         """
@@ -32,4 +32,4 @@ class Solution(object):
         
 
 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-简单的用数组模拟栈，不算难~
+// ### 解题思路
+// 简单的用数组模拟栈，不算难~
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class CustomStack {
     #define ll long long
     #define rg register ll
@@ -36,4 +36,4 @@ public:
  * int param_2 = obj->pop();
  * obj->increment(k,val);
  */
-```
+// ```

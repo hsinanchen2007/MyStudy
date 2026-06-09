@@ -1,5 +1,5 @@
-遍历一次，构造行列表、列列表、块列表，如果有列表不满足数独要求，即返回False.
-```
+# 遍历一次，构造行列表、列列表、块列表，如果有列表不满足数独要求，即返回False.
+# ```
 class Solution:
     def sudokuRule(self,array):
         flagList={'1':0,'2':0,'3':0,'4':0,'5':0,'6':0,'7':0,'8':0,'9':0}
@@ -30,4 +30,4 @@ class Solution:
                     if not self.sudokuRule(noteGrid[gridIndex]):
                         return False
         return True
-```
+# ```

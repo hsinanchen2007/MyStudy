@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} startTime
  * @param {number[]} endTime
@@ -39,4 +39,4 @@ var jobScheduling = function(startTime, endTime, profit) {
     }
     return dp[dp.length-1][1];
 };
-```
+// ```

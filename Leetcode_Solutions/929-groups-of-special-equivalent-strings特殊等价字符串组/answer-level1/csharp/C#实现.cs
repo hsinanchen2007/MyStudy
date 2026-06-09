@@ -1,4 +1,4 @@
-```
+// ```
 public int NumSpecialEquivGroups(string[] A) {
         var dict=new Dictionary<string,int>();
         for(var i=0;i<A.Length;i++){
@@ -20,4 +20,4 @@ public int NumSpecialEquivGroups(string[] A) {
         }
         return dict.Keys.Count;
     }
-```
+// ```

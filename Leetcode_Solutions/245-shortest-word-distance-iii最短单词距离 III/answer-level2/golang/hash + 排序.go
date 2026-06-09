@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 func shortestWordDistance(words []string, word1 string, word2 string) int {
 	if len(words) < 2 {
@@ -47,4 +47,4 @@ func shortestWordDistance(words []string, word1 string, word2 string) int {
 	}
 
 }
-```
+// ```

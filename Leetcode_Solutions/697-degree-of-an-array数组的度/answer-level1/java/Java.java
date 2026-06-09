@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int findShortestSubArray(int[] nums) {
         Map<Integer,Integer> hm=new HashMap<>();
@@ -32,7 +32,7 @@ class Solution {
     }
 }
 
-```
-执行用时 :49 ms, 在所有 Java 提交中击败了32.50% 的用户 
-内存消耗 :46.5 MB, 在所有 Java 提交中击败了5.03%的用户..
-时间是有点长了...希望各位帮助优化一下...
+// ```
+// 执行用时 :49 ms, 在所有 Java 提交中击败了32.50% 的用户 
+// 内存消耗 :46.5 MB, 在所有 Java 提交中击败了5.03%的用户..
+// 时间是有点长了...希望各位帮助优化一下...

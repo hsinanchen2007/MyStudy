@@ -1,6 +1,6 @@
-这个方法用了额外的存储空间, 不满足要求.
-记录一下各种库的用法吧.
-```
+# 这个方法用了额外的存储空间, 不满足要求.
+# 记录一下各种库的用法吧.
+# ```
 class Solution:
     def gameOfLife(self, board: List[List[int]]) -> None:
         """
@@ -22,4 +22,4 @@ class Solution:
                 else:
                     if res[i, j] == 3:
                         board[i][j] = 1
-```
+# ```

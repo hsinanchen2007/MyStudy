@@ -1,9 +1,9 @@
-### 解题思路
-太简单，直接两个排序再比较，但时间复杂度高
+// ### 解题思路
+// 太简单，直接两个排序再比较，但时间复杂度高
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isAnagram(string s, string t) 
@@ -18,4 +18,4 @@ public:
        return s==t;
     }
 };
-```
+// ```

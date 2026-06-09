@@ -1,4 +1,4 @@
-我的写法 供大家参考 找出后面连续两天客流量都超过100的id，然后展示当天及后面两天
+-- 我的写法 供大家参考 找出后面连续两天客流量都超过100的id，然后展示当天及后面两天
 with tmp as 
 (select a.id from stadium a
 join stadium b on a.id=b.id-1

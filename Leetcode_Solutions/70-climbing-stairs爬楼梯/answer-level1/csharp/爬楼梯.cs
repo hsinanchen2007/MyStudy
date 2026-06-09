@@ -1,5 +1,5 @@
-**思路1：** 递归，暴力递归会直接超时，可以将递归过程中算出的值存在Dictionary中。(待进一步优化)
-```
+// **思路1：** 递归，暴力递归会直接超时，可以将递归过程中算出的值存在Dictionary中。(待进一步优化)
+// ```
 public class ClimbStairs_70
     {
         private Dictionary<int, int> dict;
@@ -46,4 +46,4 @@ public class ClimbStairs_70
             return result;
         }
     }
-```
+// ```

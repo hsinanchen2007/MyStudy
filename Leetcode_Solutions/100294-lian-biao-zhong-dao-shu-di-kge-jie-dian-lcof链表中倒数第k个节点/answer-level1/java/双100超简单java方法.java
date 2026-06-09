@@ -1,9 +1,9 @@
-### 解题思路
-思路过于简单一看就懂不多解释了
+// ### 解题思路
+// 思路过于简单一看就懂不多解释了
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -32,4 +32,4 @@ class Solution {
         return pre.next;
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-题解:
+// 题解:
 
-1. 排序;
-2. 查找表;
-3. 双指针;
+// 1. 排序;
+// 2. 查找表;
+// 3. 双指针;
 
-```js
+// ```js
 /**
  * @param {number[]} nums
  * @return {number[][]}
@@ -43,11 +43,11 @@ var threeSum = function (nums) {
 
   return result
 }
-```
+// ```
 
-此时通过测试用例的情况为 312/313, 差一个包含 3000 个 0 数组的测试用例没通过; 根据评论区的提示, 缺少了`对相应下标的值去重`这个步骤(这个是这道题卡主大部分人的原因), 优化如下:
+// 此时通过测试用例的情况为 312/313, 差一个包含 3000 个 0 数组的测试用例没通过; 根据评论区的提示, 缺少了`对相应下标的值去重`这个步骤(这个是这道题卡主大部分人的原因), 优化如下:
 
-```js
+// ```js
 /**
  * @param {number[]} nums
  * @return {number[][]}
@@ -91,6 +91,6 @@ var threeSum = function (nums) {
 
   return result
 }
-```
+// ```
 
-> 为确保内容的实时、准确性, 可以[JavaScript 题解](https://github.com/MuYunyun/blog/blob/master/BasicSkill/LeetCode/README.md)
+// > 为确保内容的实时、准确性, 可以[JavaScript 题解](https://github.com/MuYunyun/blog/blob/master/BasicSkill/LeetCode/README.md)

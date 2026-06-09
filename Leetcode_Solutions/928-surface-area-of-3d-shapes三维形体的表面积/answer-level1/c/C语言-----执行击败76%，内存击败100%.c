@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int Compare(int x,int y){  //返回最小值
     if(x>y)
     return y;
@@ -31,4 +31,4 @@ for(i=0;i<gridSize;i++){
 }
 return sum*6-count*2;
 }
-```
+// ```

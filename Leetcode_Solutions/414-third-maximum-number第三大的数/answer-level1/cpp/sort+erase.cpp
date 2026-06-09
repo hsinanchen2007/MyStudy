@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int thirdMax(vector<int>& nums) {
@@ -10,4 +10,4 @@ public:
         else return nums[2];
     }
 };
-```
+// ```

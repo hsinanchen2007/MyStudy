@@ -1,9 +1,9 @@
-### 解题思路
-本质就是约瑟夫环
+// ### 解题思路
+// 本质就是约瑟夫环
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int lastRemaining(int n, int m) {
         if(n<1||m<1){
@@ -21,4 +21,4 @@ class Solution {
         return list.get(0);
     }
 }
-```
+// ```

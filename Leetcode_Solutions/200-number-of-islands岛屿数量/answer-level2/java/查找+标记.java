@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void search(char[][] grid,int i,int j,int n,int m,int res) {
         //将上、下、左、右为'1'的网格分别同化为自己的标记并继续渗透下去
@@ -43,4 +43,4 @@ class Solution {
         return res-1;
     }
 }
-```
+// ```

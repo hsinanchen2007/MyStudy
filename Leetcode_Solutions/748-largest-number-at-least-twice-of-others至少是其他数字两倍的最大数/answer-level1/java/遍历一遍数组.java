@@ -1,14 +1,14 @@
-很多方法遍历两边数组，第一次找到最大的，第二次在判断有没有dominant。这里提出一种新的思路：只遍历一遍数组，即可以找到dominant元素。
+// 很多方法遍历两边数组，第一次找到最大的，第二次在判断有没有dominant。这里提出一种新的思路：只遍历一遍数组，即可以找到dominant元素。
 
-思路：考虑当前元素和下一个元素之间的关系，又如下几种关系：
- - `nums[i] < nums[i + 1] / 2`
- - `nums[i] > nums[i + 1] / 2 &&  nums[i] <= nums[i + 1]`
- - `nums[i] > nums[i + 1] &&  nums[i] < 2 * nums[i + 1] `
- - `nums[i] >= 2 * nums[i + 1]`
+// 思路：考虑当前元素和下一个元素之间的关系，又如下几种关系：
+//  - `nums[i] < nums[i + 1] / 2`
+//  - `nums[i] > nums[i + 1] / 2 &&  nums[i] <= nums[i + 1]`
+//  - `nums[i] > nums[i + 1] &&  nums[i] < 2 * nums[i + 1] `
+//  - `nums[i] >= 2 * nums[i + 1]`
 
-只有当所有数组的所有元素满足上述条件1或者4的时候（小于1/2或者大于2倍的时候），才存在dominant的元素，所以我们定义flag，来判断整个数组是否存在dominant的元素。
+// 只有当所有数组的所有元素满足上述条件1或者4的时候（小于1/2或者大于2倍的时候），才存在dominant的元素，所以我们定义flag，来判断整个数组是否存在dominant的元素。
 
-```java
+// ```java
 class Solution {
     public int dominantIndex(int[] nums) {
         // corner case
@@ -38,4 +38,4 @@ class Solution {
         return flag ? dominantIndex : -1;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-上代码
+// ### 解题思路
+// 上代码
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int numRookCaptures(char** board, int boardSize, int* boardColSize){
     int rx;
     int ry;
@@ -50,4 +50,4 @@ int numRookCaptures(char** board, int boardSize, int* boardColSize){
     }
     return ret;
 }
-```
+// ```

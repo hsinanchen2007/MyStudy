@@ -1,9 +1,9 @@
-### 解题思路
-pow()
+// ### 解题思路
+// pow()
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] printNumbers(int n) {
         int num = (int)(Math.pow(10, n));
@@ -15,4 +15,4 @@ class Solution {
         return nums;
     }
 }
-```
+// ```

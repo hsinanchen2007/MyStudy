@@ -1,9 +1,9 @@
-### 解题思路
-在nums1有数的部分没结束时，往里插入nums2的元素，计数同时将结尾的0删掉一个，计数是为了以后判段nums1有数的部分是否结束了，结束了以后直接将nums2中的元素值赋值到nums1中，p是记录nums遍历到哪的索引。
+# ### 解题思路
+# 在nums1有数的部分没结束时，往里插入nums2的元素，计数同时将结尾的0删掉一个，计数是为了以后判段nums1有数的部分是否结束了，结束了以后直接将nums2中的元素值赋值到nums1中，p是记录nums遍历到哪的索引。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
         """
@@ -24,4 +24,4 @@ class Solution:
                     break
             p=j
         
-```
+# ```

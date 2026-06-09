@@ -1,9 +1,9 @@
-### 解题思路
-从右上开始比较，比target小则+1，比target大则列-1
+// ### 解题思路
+// 从右上开始比较，比target小则+1，比target大则列-1
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean findNumberIn2DArray(int[][] matrix, int target) {
         if(matrix.length<1||matrix[0].length<1||target<matrix[0][0]||target>matrix[matrix.length-1][matrix[0].length-1])return false;
@@ -16,4 +16,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

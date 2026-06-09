@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int firstMissingPositive(int* nums, int numsSize){
     const int n = numsSize;
     int p[n+2];
@@ -20,4 +20,4 @@ int firstMissingPositive(int* nums, int numsSize){
     }
     return 0;
 }
-```
+// ```

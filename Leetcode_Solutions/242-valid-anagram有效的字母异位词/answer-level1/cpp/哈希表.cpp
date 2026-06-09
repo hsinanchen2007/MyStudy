@@ -1,9 +1,9 @@
-### 解题思路
-哈希表查找，两次遍历
+// ### 解题思路
+// 哈希表查找，两次遍历
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isAnagram(string s, string t) {
@@ -19,4 +19,4 @@ public:
         return true;
     }
 };
-```
+// ```

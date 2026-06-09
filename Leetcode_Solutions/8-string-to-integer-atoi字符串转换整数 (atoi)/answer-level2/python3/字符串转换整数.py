@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def myAtoi(self, str: str) -> int:
         s = str.lstrip()  # 去掉字符串左边的空格，如果有的话
@@ -18,4 +18,4 @@ class Solution:
             return max(-2**31, result)
         else:
             return min(2**31-1, result)
-```
+# ```

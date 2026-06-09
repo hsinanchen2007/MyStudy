@@ -1,5 +1,5 @@
-Python3利用队列,foo向队列put数据,bar从队列取数据,队列的长度设置成1,数据满了put要阻塞,等数据消费了才能再次put,队列为空,要阻塞等待有数据进来.这样就保证了foo调用了之后才能调用bar,调用bar后才能调用foo
-```
+# Python3利用队列,foo向队列put数据,bar从队列取数据,队列的长度设置成1,数据满了put要阻塞,等数据消费了才能再次put,队列为空,要阻塞等待有数据进来.这样就保证了foo调用了之后才能调用bar,调用bar后才能调用foo
+# ```
 
 from queue import Queue
 class FooBar:
@@ -22,4 +22,4 @@ class FooBar:
             self.queue.get()
             # printBar() outputs "bar". Do not change or remove this line.
             printBar()
-```            
+# ```            

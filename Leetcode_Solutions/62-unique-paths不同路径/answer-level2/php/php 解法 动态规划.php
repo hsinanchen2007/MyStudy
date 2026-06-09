@@ -1,4 +1,4 @@
-```
+// ```
 function uniquePaths($m, $n) {
     $dp = [];
     for($i=0;$i<$m;$i++) $dp[0][$i] = 1;
@@ -10,4 +10,4 @@ function uniquePaths($m, $n) {
     }
     return $dp[$n-1][$m-1];
 }
-```
+// ```

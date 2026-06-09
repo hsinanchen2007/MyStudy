@@ -1,5 +1,5 @@
-### 公式
-```
+// ### 公式
+// ```
 f(1) = 0
 若 n > 1, 从 [2,n] 找到 n 的最小约数 k
 f(n) = k + f(n/k)
@@ -9,12 +9,12 @@ f(n) = k + f(n/k)
 在程序里定义这个素数表格，减少计算对合数的判断
 
 关于得到这个素数表格，可以另写一个程序得到这个表格，也可以用模板元编程在编译期就计算出来！
-```
+// ```
 
 
-### ***Talk is cheap. Show me the code.***
+// ### ***Talk is cheap. Show me the code.***
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minSteps(int n) {
@@ -46,6 +46,6 @@ public:
     }
 };
 
-```
-### NPNT 
-![Xnip2020-02-28_00-03-21.jpg](https://pic.leetcode-cn.com/9891b9a33c0f37cd63c31ca7fd3c46d980723707ecae3ea5b55c48abc6d3afbc-Xnip2020-02-28_00-03-21.jpg)
+// ```
+// ### NPNT 
+// ![Xnip2020-02-28_00-03-21.jpg](https://pic.leetcode-cn.com/9891b9a33c0f37cd63c31ca7fd3c46d980723707ecae3ea5b55c48abc6d3afbc-Xnip2020-02-28_00-03-21.jpg)

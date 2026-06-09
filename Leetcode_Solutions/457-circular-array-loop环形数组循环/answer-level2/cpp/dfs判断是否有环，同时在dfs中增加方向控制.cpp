@@ -1,7 +1,7 @@
-深度优先遍历判断是否成环 + 环方向判断
-![捕获.PNG](https://pic.leetcode-cn.com/f660b9f47527bd71f48ac7d5425020db51c0c69230b7e731273640c8b301234d-%E6%8D%95%E8%8E%B7.PNG)
+// 深度优先遍历判断是否成环 + 环方向判断
+// ![捕获.PNG](https://pic.leetcode-cn.com/f660b9f47527bd71f48ac7d5425020db51c0c69230b7e731273640c8b301234d-%E6%8D%95%E8%8E%B7.PNG)
 
-```
+// ```
 #define NOTUSED -1
 #define USING 0
 #define USED 1
@@ -41,4 +41,4 @@ public:
         visited[start] = USED;
     }
 };
-```
+// ```

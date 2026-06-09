@@ -1,9 +1,9 @@
-### 解题思路
-每次提取一对字符和数字出来，当前的输出完了就提取下一对，如果到字符串结尾则返回空格和数量0，用以判断是否hasnext。
+// ### 解题思路
+// 每次提取一对字符和数字出来，当前的输出完了就提取下一对，如果到字符串结尾则返回空格和数量0，用以判断是否hasnext。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class StringIterator {
 private:
     struct CharNum{
@@ -57,4 +57,4 @@ public:
  * char param_1 = obj->next();
  * bool param_2 = obj->hasNext();
  */
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-char c，个数为偶数，则所有c都是最长回文串中内容
-个数为奇数num，则num - 1个c是最长回文串中内容
-这样之后就剩下若干个个数为1的char，则这些char中随意挑一个组成最长回文串
+// ### 解题思路
+// char c，个数为偶数，则所有c都是最长回文串中内容
+// 个数为奇数num，则num - 1个c是最长回文串中内容
+// 这样之后就剩下若干个个数为1的char，则这些char中随意挑一个组成最长回文串
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 int longestPalindrome(char * s){
     int nums[128] = {0};
@@ -31,4 +31,4 @@ int longestPalindrome(char * s){
     }
     return ret;
 }
-```
+// ```

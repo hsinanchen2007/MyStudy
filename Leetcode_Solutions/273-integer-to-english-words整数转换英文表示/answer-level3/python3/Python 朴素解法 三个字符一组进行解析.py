@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/0d5718daee0360187531a02f8f86d89b1c0b3635f8c5cadc35b968c46db9bfeb-image.png)
+# ![image.png](https://pic.leetcode-cn.com/0d5718daee0360187531a02f8f86d89b1c0b3635f8c5cadc35b968c46db9bfeb-image.png)
 
 
-```
+# ```
 class Solution:
 
     def get3BitStr(self, s: str):
@@ -92,4 +92,4 @@ class Solution:
 
         buf = [s for s in buf if s != '']
         return ' '.join(buf)
-```
+# ```

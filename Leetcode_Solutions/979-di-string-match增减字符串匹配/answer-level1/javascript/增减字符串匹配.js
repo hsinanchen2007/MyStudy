@@ -1,4 +1,4 @@
-```js
+// ```js
 var diStringMatch = function(S) {
     let len = S.length;
     let res = [];
@@ -13,4 +13,4 @@ var diStringMatch = function(S) {
     res[len] = big;
     return res;
 };
-```
+// ```

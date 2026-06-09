@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MyCircularDeque {
 public:
     /** Initialize your data structure here. Set the size of the deque to be k. */
@@ -87,4 +87,4 @@ private:
     int flagFront=0, flagRear=0;
     int maxLen = 0;
 };
-```
+// ```

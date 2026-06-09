@@ -1,9 +1,9 @@
-### 解题思路
-定义一个map，使用切片元素作为key，出现次数作为value，遍历切片，当value大于len(nums) / 2 时return即可。
+// ### 解题思路
+// 定义一个map，使用切片元素作为key，出现次数作为value，遍历切片，当value大于len(nums) / 2 时return即可。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func majorityElement(nums []int) int {
 	t := len(nums) / 2
 	
@@ -16,4 +16,4 @@ func majorityElement(nums []int) int {
 	}
 	return -1
 }
-```
+// ```

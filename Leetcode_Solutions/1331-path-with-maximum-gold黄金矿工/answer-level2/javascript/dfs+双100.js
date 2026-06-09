@@ -1,7 +1,7 @@
-- grid[y][x] *= -1 表示该节点已经访问过来
-- 四个方向访问完了以后 再执行一次 grid[y][x] *= -1 用于回溯
-- 选择起点时 如果起点上下两个方向 或者左右两个方向都有矿 则不可能是最佳起点
-```
+// - grid[y][x] *= -1 表示该节点已经访问过来
+// - 四个方向访问完了以后 再执行一次 grid[y][x] *= -1 用于回溯
+// - 选择起点时 如果起点上下两个方向 或者左右两个方向都有矿 则不可能是最佳起点
+// ```
 var getMaximumGold = function (grid) {
   let _y = grid.length - 1;
   let _x = grid[0].length - 1;
@@ -27,4 +27,4 @@ var getMaximumGold = function (grid) {
   }
   return sum;
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-中序遍历，然后把出现的众数存储在list集合中。
+// ### 解题思路
+// 中序遍历，然后把出现的众数存储在list集合中。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -47,4 +47,4 @@ class Solution {
         helper(root.right);
     }
 }
-```
+// ```

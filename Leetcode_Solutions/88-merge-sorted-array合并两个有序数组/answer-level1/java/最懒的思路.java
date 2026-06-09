@@ -1,10 +1,10 @@
-### 解题思路
-最懒的思路，放到一起
-然后再进行排序
+// ### 解题思路
+// 最懒的思路，放到一起
+// 然后再进行排序
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
         for(int i=0;m<nums1.length;m++,i++){
@@ -14,4 +14,4 @@ class Solution {
 
     }
 }
-```
+// ```

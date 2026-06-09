@@ -1,9 +1,9 @@
-### 解题思路
-终于学会马拉车了哈哈
+// ### 解题思路
+// 终于学会马拉车了哈哈
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int countSubstrings(string str) {
@@ -29,4 +29,4 @@ public:
         return j;
     }
 };
-```
+// ```

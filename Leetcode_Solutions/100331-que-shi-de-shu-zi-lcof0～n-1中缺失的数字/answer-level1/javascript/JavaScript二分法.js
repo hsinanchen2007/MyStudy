@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-排好序的确实应该优先考虑二分法
+// 排好序的确实应该优先考虑二分法
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -22,4 +22,4 @@ var missingNumber = function(nums) {
     }
     return left
 };
-```
+// ```

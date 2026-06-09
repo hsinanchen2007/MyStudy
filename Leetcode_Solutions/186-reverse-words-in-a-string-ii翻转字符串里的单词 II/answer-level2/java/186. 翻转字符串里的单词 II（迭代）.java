@@ -1,9 +1,9 @@
-- 题意要求空间复杂度O(1)，因此必须要在原数组上直接修改；
-- 设倒序操作为`T`，`str = a b c`，则有：
-  - `c b a = ( aT bT cT )T`
-- 因此，我们只需要将`a`,`b`,`c`分别倒置，再将整个str倒置，即可得到`c b a`。
+// - 题意要求空间复杂度O(1)，因此必须要在原数组上直接修改；
+// - 设倒序操作为`T`，`str = a b c`，则有：
+//   - `c b a = ( aT bT cT )T`
+// - 因此，我们只需要将`a`,`b`,`c`分别倒置，再将整个str倒置，即可得到`c b a`。
 
-```python []
+// ```python []
 class Solution:
     def reverseWords(self, s: [str]) -> None:
         """
@@ -20,8 +20,8 @@ class Solution:
         for k in range(i, (i + j) // 2):
             g = j - 1 - k + i
             s[k], s[g] = s[g], s[k]
-```
-```java []
+// ```
+// ```java []
 class Solution {
     public void reverseWords(char[] str) {
         int i = 0;
@@ -42,4 +42,4 @@ class Solution {
         }
     }
 }
-```
+// ```

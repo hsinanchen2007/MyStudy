@@ -1,6 +1,6 @@
-**map建树，两次dfs搜索即可**
-比赛的时侯考虑掉了一个情况，本来想最后时刻绝杀的最后wa 8。。。。。。
-```
+// **map建树，两次dfs搜索即可**
+// 比赛的时侯考虑掉了一个情况，本来想最后时刻绝杀的最后wa 8。。。。。。
+// ```
 #define pii pair<int,int>
 #define map unordered_map
 class Solution {
@@ -33,4 +33,4 @@ public:
         return df(0,value);//统计结点
     }
 };
-```
+// ```

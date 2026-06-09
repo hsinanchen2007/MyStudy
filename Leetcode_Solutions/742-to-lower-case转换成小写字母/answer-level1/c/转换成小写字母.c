@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * toLowerCase(char * str){
     for(int i = 0;str[i] != '\0';i++){
         if(str[i] >= 'A' && str[i] <= 'Z')
@@ -11,4 +11,4 @@ char * toLowerCase(char * str){
     }
     return str;
 }
-```
+// ```

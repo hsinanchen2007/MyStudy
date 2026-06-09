@@ -1,9 +1,9 @@
-### 解题思路
-哈希表
+# ### 解题思路
+# 哈希表
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
         hashmap={}
@@ -17,4 +17,4 @@ class Solution:
                 return i
 
         return -1
-```
+# ```

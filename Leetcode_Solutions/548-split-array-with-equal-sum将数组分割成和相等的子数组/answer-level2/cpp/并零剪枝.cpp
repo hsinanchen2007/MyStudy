@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     bool splitArray(vector<int>& nums) {
@@ -43,4 +43,4 @@ auto _ = [](){
     cout.tie(0);
     return 0;
 }();
-```
+// ```

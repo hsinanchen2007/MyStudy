@@ -1,4 +1,4 @@
-```
+// ```
 int* replaceElements(int* arr, int arrSize, int* returnSize){
     if (arrSize == 1){
         arr[0] = -1;
@@ -27,4 +27,4 @@ int* replaceElements(int* arr, int arrSize, int* returnSize){
     *returnSize = arrSize;
     return arr;
 }
-```
+// ```

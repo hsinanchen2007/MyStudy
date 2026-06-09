@@ -1,10 +1,10 @@
-### 解题思路
-重复元素，先用一个map统计每个元素出现次数，并得到非重复数组
-然后顺序遍历每个数组元素，每个元素push 0到n次
+// ### 解题思路
+// 重复元素，先用一个map统计每个元素出现次数，并得到非重复数组
+// 然后顺序遍历每个数组元素，每个元素push 0到n次
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func pass(uniq []int, count []int, idx int, m *map[int]int, res *[][]int) {
     if idx >= len(uniq) {
         var subset []int
@@ -37,4 +37,4 @@ func subsetsWithDup(nums []int) [][]int {
     pass(uniq, count, 0, &m, &res)
     return res   
 }
-```
+// ```

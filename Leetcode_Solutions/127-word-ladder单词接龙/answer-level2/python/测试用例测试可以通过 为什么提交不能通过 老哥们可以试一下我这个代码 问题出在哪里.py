@@ -1,8 +1,8 @@
-"hot"
-"dog"
-["hot","dog","dot"]
+# "hot"
+# "dog"
+# ["hot","dog","dot"]
 
-```
+# ```
 class Solution(object):
     def __init__(self):
         self.map = {}
@@ -41,4 +41,4 @@ class Solution(object):
             return self.step
         return 0
 
-```
+# ```

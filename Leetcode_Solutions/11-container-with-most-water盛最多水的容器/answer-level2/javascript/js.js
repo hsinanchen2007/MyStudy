@@ -1,8 +1,8 @@
-### 解题思路
-定义左右两个指针，从两边向中间靠拢，每次短的指针向中央靠拢一位，并计算最大面积，直到两个指针重合
-### 代码
+// ### 解题思路
+// 定义左右两个指针，从两边向中间靠拢，每次短的指针向中央靠拢一位，并计算最大面积，直到两个指针重合
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} height
  * @return {number}
@@ -25,4 +25,4 @@ var maxArea = function (height) {
   }
   return max_area
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-蓄水池问题中K取1
+// ### 解题思路
+// 蓄水池问题中K取1
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -41,4 +41,4 @@ Solution.prototype.getRandom = function () {
  * var obj = new Solution(head)
  * var param_1 = obj.getRandom()
  */
-```
+// ```

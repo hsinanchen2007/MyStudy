@@ -1,10 +1,10 @@
-### 解题思路
-递归解法不难，类似二叉树遍历，稍作抽象即可。
-关键是怎么实现非递归解法。
+// ### 解题思路
+// 递归解法不难，类似二叉树遍历，稍作抽象即可。
+// 关键是怎么实现非递归解法。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -48,4 +48,4 @@ func mergeTrees(t1 *TreeNode, t2 *TreeNode) *TreeNode {
 
     return resultNode
 }
-```
+// ```

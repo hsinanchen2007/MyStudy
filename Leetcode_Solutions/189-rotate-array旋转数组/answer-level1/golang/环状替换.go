@@ -1,4 +1,4 @@
-```
+// ```
 func rotate(nums []int, k int) {
 	var (
 		i, val, count int
@@ -22,4 +22,4 @@ func rotate(nums []int, k int) {
 		}
 	}
 }
-```
+// ```

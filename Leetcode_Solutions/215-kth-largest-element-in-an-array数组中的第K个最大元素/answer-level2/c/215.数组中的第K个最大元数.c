@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 //剪枝法--借用快速排序的思想
 int Find(int*nums,int s,int t,int k) {        //快速排序--由大到小排序
     int i=s,j=t;
@@ -29,4 +29,4 @@ int findKthLargest(int* nums, int numsSize, int k){
     num=Find(nums,0,numsSize-1,k);
     return num;
 }
-```
+// ```

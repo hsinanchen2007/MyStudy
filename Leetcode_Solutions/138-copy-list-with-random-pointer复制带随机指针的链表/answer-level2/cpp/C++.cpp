@@ -1,7 +1,7 @@
-题解里的大神[用图形说明解法]([https://leetcode-cn.com/problems/copy-list-with-random-pointer/solution/yong-tu-xing-shuo-ming-jie-fa-by-commonheart])已经说的很详细了，不再赘述。
+// 题解里的大神[用图形说明解法]([https://leetcode-cn.com/problems/copy-list-with-random-pointer/solution/yong-tu-xing-shuo-ming-jie-fa-by-commonheart])已经说的很详细了，不再赘述。
 
-note: 初始化函数要尽量赋值，否则可能出错
-```
+// note: 初始化函数要尽量赋值，否则可能出错
+// ```
 class Solution {
 public:
     Node* copyRandomList(Node* head) {
@@ -28,4 +28,4 @@ public:
         return ans;
     }
 };
-```
+// ```

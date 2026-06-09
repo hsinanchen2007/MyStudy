@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def connect(self, root: 'Node') -> 'Node':
         # res = []]
@@ -21,4 +21,4 @@ class Solution:
                     tmp_node = cur_node.right
             cur_level = next_level
         return root
-```
+# ```

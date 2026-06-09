@@ -1,5 +1,5 @@
 
-```golang
+// ```golang
 func nthUglyNumber(n int) int {
     res := []int{}
     res = append(res,1)
@@ -20,4 +20,4 @@ func nthUglyNumber(n int) int {
     }
     return res[index-1]
 }
-```
+// ```

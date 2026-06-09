@@ -1,9 +1,9 @@
-### 解题思路
-利用模运算确定字符所在的行，逐次遍历
+// ### 解题思路
+// 利用模运算确定字符所在的行，逐次遍历
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string convert(string s, int numRows) {
@@ -22,6 +22,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/e33a9d2bd9b9b595b1c036d85290d1c5d908742a5c1a9b9b4547b90c5f056e07-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e33a9d2bd9b9b595b1c036d85290d1c5d908742a5c1a9b9b4547b90c5f056e07-image.png)

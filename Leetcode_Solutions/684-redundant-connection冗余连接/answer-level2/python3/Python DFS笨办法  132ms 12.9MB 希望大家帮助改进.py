@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def findRedundantConnection(self, edges):
         """
@@ -30,4 +30,4 @@ class Solution(object):
             dfs(u,v)
             if len(result) >1: #除了edge本身，还有1个办法从u走到v，则return
                 return [u,v]
-```
+# ```

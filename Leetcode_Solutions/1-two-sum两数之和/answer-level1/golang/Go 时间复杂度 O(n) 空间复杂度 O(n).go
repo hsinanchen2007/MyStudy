@@ -1,4 +1,4 @@
-```go
+// ```go
 func twoSum(nums []int, target int) []int {
 	tmpMap := make(map[int]int)
 
@@ -12,5 +12,5 @@ func twoSum(nums []int, target int) []int {
 
 	return []int{}
 }
-```
+// ```
 

@@ -1,5 +1,5 @@
 
-```
+// ```
 class UnionFind {
 private:
     vector<int> parents;
@@ -63,4 +63,4 @@ public:
         return uf.count();
     }
 };
-```
+// ```

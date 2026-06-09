@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isRectangleOverlap(int[] rec1_, int[] rec2_) {
         float[] rec1 = new float[4];
@@ -16,4 +16,4 @@ class Solution {
                  Math.max (Math.abs (rec2[3] - rec1[1]),Math.abs (rec1[3]-rec2[1])));
     }
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-大佬@tuotuoli的代码；自己的思路也是这样，但错在没钾1440：为啥d[0]要+1440？
+# ### 解题思路
+# 大佬@tuotuoli的代码；自己的思路也是这样，但错在没钾1440：为啥d[0]要+1440？
 
-1440 = 24 * 60
+# 1440 = 24 * 60
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findMinDifference(self, timePoints: List[str]) -> int:
         d = set()
@@ -20,4 +20,4 @@ class Solution:
 
 # 作者：tuotuoli
 
-```
+# ```

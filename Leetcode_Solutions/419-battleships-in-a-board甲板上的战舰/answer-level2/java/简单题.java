@@ -1,9 +1,9 @@
-### 解题思路
-简单题，注意边界条件
+// ### 解题思路
+// 简单题，注意边界条件
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int countBattleships(char[][] board) {
                int count = 0;
@@ -33,4 +33,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

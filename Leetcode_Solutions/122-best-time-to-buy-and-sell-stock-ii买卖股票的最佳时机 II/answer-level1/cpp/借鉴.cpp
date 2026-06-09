@@ -1,4 +1,4 @@
-借鉴大佬的题解，做个标记
+// 借鉴大佬的题解，做个标记
 https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/solution/tan-xin-suan-fa-by-liweiwei1419-2/
 2、解释一下它为什么叫 “贪心算法”
 

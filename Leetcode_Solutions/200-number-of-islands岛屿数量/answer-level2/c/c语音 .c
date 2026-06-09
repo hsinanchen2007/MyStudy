@@ -1,9 +1,9 @@
-### 解题思路
-遇到‘1’，进行计数，同时将该岛屿联通的1清零
+// ### 解题思路
+// 遇到‘1’，进行计数，同时将该岛屿联通的1清零
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void clearIsland(char** grid, int gridSize, int colsize, int i, int j){
     if(i < 0 || i == gridSize || j < 0 || j == colsize || grid[i][j] == '0')
         return;
@@ -27,4 +27,4 @@ int numIslands(char** grid, int gridSize, int* gridColSize){
     }
     return result;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-自己走代码吧，因为我实在看不懂 ，只能拷贝一下了，【手动狗头】
+// ### 解题思路
+// 自己走代码吧，因为我实在看不懂 ，只能拷贝一下了，【手动狗头】
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     
     public int[][] findContinuousSequence(int target) {
@@ -27,4 +27,4 @@ class Solution {
         return result.toArray(new int[0][]);  
     }
 }
-```
+// ```

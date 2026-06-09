@@ -1,9 +1,9 @@
-### 解题思路
-思路很简单，见代码
+// ### 解题思路
+// 思路很简单，见代码
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -37,4 +37,4 @@ public:
         return flag;
     }
 };
-```
+// ```

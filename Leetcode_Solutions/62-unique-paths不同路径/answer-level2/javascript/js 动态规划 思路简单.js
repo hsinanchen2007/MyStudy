@@ -1,18 +1,18 @@
-![image.png](https://pic.leetcode-cn.com/cadf6693dcc6d816cd2a772c11636c3204408b501a7755414d3b48c8cb6eeaad-image.png)
+// ![image.png](https://pic.leetcode-cn.com/cadf6693dcc6d816cd2a772c11636c3204408b501a7755414d3b48c8cb6eeaad-image.png)
 
-### 解题思路
-```javascript
+// ### 解题思路
+// ```javascript
 动态规划：
 分析状态转移方程：
 - 对于每一个格子：
   走到它的路径数 = 到达它上面格子的路径数 + 到达它左面格子的路径数
   dp[i] = dp[i - 1][j] + dp[j - 1][i]
 最后求 dp[m - 1][n - 1]
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} m
  * @param {number} n
@@ -44,4 +44,4 @@ var uniquePaths = function(m, n) {
 
 
 
-```
+// ```

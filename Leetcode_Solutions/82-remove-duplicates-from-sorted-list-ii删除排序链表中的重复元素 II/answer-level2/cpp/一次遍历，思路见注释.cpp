@@ -1,6 +1,6 @@
-方法1：这个方法时间效率还是挺高的，代码如下：
+// 方法1：这个方法时间效率还是挺高的，代码如下：
 
-```
+// ```
 class Solution {
 public:
     ListNode* deleteDuplicates(ListNode* head) {
@@ -37,11 +37,11 @@ public:
         return temp;
     }
 };
-```
+// ```
 
-方法2：学习别人的代码写的，这种方法比方法1慢一些
+// 方法2：学习别人的代码写的，这种方法比方法1慢一些
 
-```
+// ```
 class Solution {
 public:
     ListNode* deleteDuplicates(ListNode* head) {
@@ -73,5 +73,5 @@ public:
         return tmp;
     } 
 };
-```
+// ```
 

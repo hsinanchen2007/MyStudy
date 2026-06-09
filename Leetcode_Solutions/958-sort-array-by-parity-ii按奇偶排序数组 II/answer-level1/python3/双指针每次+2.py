@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def sortArrayByParityII(self, A: List[int]) -> List[int]:
         n = len(A)
@@ -14,4 +14,4 @@ class Solution:
             A[i],A[j] = A[j],A[i]
         return A
         
-```
+# ```

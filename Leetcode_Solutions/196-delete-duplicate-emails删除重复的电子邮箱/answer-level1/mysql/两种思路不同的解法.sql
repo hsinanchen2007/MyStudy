@@ -1,26 +1,26 @@
-#### 删除除最小id的行
-1. 关于复杂度
-   N/A
-2. 我的解题思路
-    2.1 依据email分类整合为组
-    2.2 找出各组中最小id的行
-    2.3 删除组内除2.2行的所有行
-3. 提交记录
-    3.1 力扣中耗时924ms
-    3.2 leetcode中耗时624ms
-4. Q&A
+-- #### 删除除最小id的行
+-- 1. 关于复杂度
+--    N/A
+-- 2. 我的解题思路
+--     2.1 依据email分类整合为组
+--     2.2 找出各组中最小id的行
+--     2.3 删除组内除2.2行的所有行
+-- 3. 提交记录
+--     3.1 力扣中耗时924ms
+--     3.2 leetcode中耗时624ms
+-- 4. Q&A
 
-#### 对比删除较大Id的行
-1. 关于复杂度
-    N/A
-2. 我的解题思路
-    2.1 对比删除较大id的行
-3. 提交记录
-    3.1 力扣中耗时1835ms
-    3.2 leetcode中耗时854ms
-4. Q&A
+-- #### 对比删除较大Id的行
+-- 1. 关于复杂度
+--     N/A
+-- 2. 我的解题思路
+--     2.1 对比删除较大id的行
+-- 3. 提交记录
+--     3.1 力扣中耗时1835ms
+--     3.2 leetcode中耗时854ms
+-- 4. Q&A
 
-```
+-- ```
 /**
  * Problem
  *     196.Delete Duplicate Emails
@@ -66,10 +66,10 @@ public class Solution196 {
     }
 }
 
-```
+-- ```
 
-如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理
-你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路
+-- 如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理
+-- 你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路
 
 
 

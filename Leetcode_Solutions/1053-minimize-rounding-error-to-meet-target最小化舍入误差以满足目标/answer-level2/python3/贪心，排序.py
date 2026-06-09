@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def minimizeError(self, prices: List[str], target: int) -> str:
         prices=[float(i) for i in prices]
@@ -18,4 +18,4 @@ class Solution:
             res+=prices[i]-int(prices[i])
 
         return format(res,".3f")
-```
+# ```

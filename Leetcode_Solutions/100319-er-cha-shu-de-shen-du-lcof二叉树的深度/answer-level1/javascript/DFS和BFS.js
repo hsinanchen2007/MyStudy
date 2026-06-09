@@ -1,5 +1,5 @@
-DFS:
-```javascript
+// DFS:
+// ```javascript
 var maxDepth = function(root) {
   if (!root) return 0;
   return Math.max(
@@ -7,10 +7,10 @@ var maxDepth = function(root) {
     maxDepth(root.right)
   ) + 1;
 };
-```
+// ```
 
-BFS:
-```javascript
+// BFS:
+// ```javascript
 var maxDepth = function(root) {
   if (!root) return 0;
   let queue = [ root ];
@@ -29,4 +29,4 @@ var maxDepth = function(root) {
     }
   }
 };
-```
+// ```

@@ -1,6 +1,6 @@
-没有使用int
-有查找表，分界点，大数加法
-```
+# 没有使用int
+# 有查找表，分界点，大数加法
+# ```
 class Solution:
     def multiply(self, num1: str, num2: str) -> str:
         
@@ -48,4 +48,4 @@ class Solution:
             ans=[str(a) for a in ans[::-1]]
             return ''.join(ans)
 
-```
+# ```

@@ -1,8 +1,8 @@
-统计岛屿的方格数count_island和；
-统计岛屿小方格东南俩面（或西北）相邻的方格数count，即如果一个小方格grid[i][j]是1，如果grid[i][j+1]=1,则count+1，如果grid[i+1][j]=1，count+1
-岛屿的周长为 4*count_island-2*count;
+// 统计岛屿的方格数count_island和；
+// 统计岛屿小方格东南俩面（或西北）相邻的方格数count，即如果一个小方格grid[i][j]是1，如果grid[i][j+1]=1,则count+1，如果grid[i+1][j]=1，count+1
+// 岛屿的周长为 4*count_island-2*count;
 
-```
+// ```
 class Solution {
 public:
     int islandPerimeter(vector<vector<int>>& grid) {
@@ -21,4 +21,4 @@ public:
         return count_island*4-count*2;
     }
 };
-```
+// ```

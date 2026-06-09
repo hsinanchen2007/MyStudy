@@ -1,9 +1,9 @@
-### 解题思路
-直接转置再对称就可以实现旋转90度
+// ### 解题思路
+// 直接转置再对称就可以实现旋转90度
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void rotate(int** matrix, int matrixSize, int* matrixColSize){
 for(int i=0;i<matrixSize;i++)
     for(int j=0;j<i;j++)
@@ -22,4 +22,4 @@ for(int i=0;i<matrixSize;i++)
         matrix[i][matrixSize-j-1]=temp;
         }
 }
-```
+// ```

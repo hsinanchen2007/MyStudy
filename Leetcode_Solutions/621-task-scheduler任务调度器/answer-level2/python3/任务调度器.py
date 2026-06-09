@@ -1,9 +1,9 @@
-### 解题思路
-题解的实质是：计算最短时间的逻辑，整理出公式来，然后用程序获取公式中各个数，得出结果。跟队列数据结果没有必然联系。
+# ### 解题思路
+# 题解的实质是：计算最短时间的逻辑，整理出公式来，然后用程序获取公式中各个数，得出结果。跟队列数据结果没有必然联系。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def leastInterval(self, tasks: List[str], n: int) -> int:
         length = len(tasks)
@@ -45,4 +45,4 @@ class Solution:
 
 
             
-```
+# ```

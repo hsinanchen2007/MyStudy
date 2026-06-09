@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-双指针
+// ### 解题思路
+// 此处撰写解题思路
+// 双指针
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func maxArea(height []int) int {
 
 	j := len(height)
@@ -39,4 +39,4 @@ func maxArea(height []int) int {
 	}
 
 }
-```
+// ```

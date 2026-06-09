@@ -1,7 +1,7 @@
 
-![image.png](https://pic.leetcode-cn.com/397a3c25f95491f4e8967049225a92fec9ae9fd9b2d46ff2b8e54299af41523f-image.png)
+// ![image.png](https://pic.leetcode-cn.com/397a3c25f95491f4e8967049225a92fec9ae9fd9b2d46ff2b8e54299af41523f-image.png)
 
-```
+// ```
 func judgeCircle(moves string) bool {
     dx := []int{0,1,0,-1}
     dy := []int{1,0,-1,0}
@@ -16,4 +16,4 @@ func judgeCircle(moves string) bool {
     }
     return false
 }
-```
+// ```

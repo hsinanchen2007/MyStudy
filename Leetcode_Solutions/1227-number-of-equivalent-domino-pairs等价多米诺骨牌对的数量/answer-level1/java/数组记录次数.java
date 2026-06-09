@@ -1,9 +1,9 @@
-### 解题思路
-数组记录次数
+// ### 解题思路
+// 数组记录次数
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numEquivDominoPairs(int[][] dominoes) {
         int[] counts = new int[100];
@@ -23,4 +23,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

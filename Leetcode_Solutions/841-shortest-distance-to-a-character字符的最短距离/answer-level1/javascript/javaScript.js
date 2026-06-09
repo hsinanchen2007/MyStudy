@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} S
  * @param {character} C
@@ -24,4 +24,4 @@ var shortestToChar = function(S, C) {
     }
     return ret
 };
-```
+// ```

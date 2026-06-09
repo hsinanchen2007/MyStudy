@@ -1,7 +1,7 @@
-递归，将其中一棵树合并到另一棵树即可，不用开辟新的空间，不过这样的坏处是入参就被修改了。如果严格些，要创建新的TreeNode返回。
+// 递归，将其中一棵树合并到另一棵树即可，不用开辟新的空间，不过这样的坏处是入参就被修改了。如果严格些，要创建新的TreeNode返回。
 
 
-```java []
+// ```java []
 class Solution {
     public TreeNode mergeTrees(TreeNode t1, TreeNode t2) {
         if(t1 == null) return t2;
@@ -12,8 +12,8 @@ class Solution {
         return t1;
     }
 }
-```
+// ```
 
-执行用时 :1 ms, 在所有 Java 提交中击败了99.95%的用户
+// 执行用时 :1 ms, 在所有 Java 提交中击败了99.95%的用户
 
-内存消耗 :48.1 MB, 在所有 Java 提交中击败了65.23%的用户
+// 内存消耗 :48.1 MB, 在所有 Java 提交中击败了65.23%的用户

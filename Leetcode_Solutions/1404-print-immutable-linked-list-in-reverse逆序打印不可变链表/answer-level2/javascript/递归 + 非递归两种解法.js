@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * // This is the ImmutableListNode's API interface.
  * // You should not implement it, or speculate about its implementation.
@@ -43,4 +43,4 @@ const printLinkedListInReverse2 = head => { // 非递归算法...
     while (stack.length)
         stack.pop().printValue()
 };
-```
+// ```

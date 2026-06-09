@@ -1,11 +1,11 @@
-### 解题思路
-对每个一维数组进行二分查找
-Time O(nlogn)
-Space O(1)
+// ### 解题思路
+// 对每个一维数组进行二分查找
+// Time O(nlogn)
+// Space O(1)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean findNumberIn2DArray(int[][] matrix, int target) {
         boolean ans = false;
@@ -26,4 +26,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

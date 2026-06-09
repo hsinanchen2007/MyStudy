@@ -1,9 +1,9 @@
-### 解题思路
-找出x^n和y^n的所有小于bound的值,用两个vector<int>保存，然后通过循环遍历组合，如果组合值小于等于bound，添加进去，最后通过set去重
+// ### 解题思路
+// 找出x^n和y^n的所有小于bound的值,用两个vector<int>保存，然后通过循环遍历组合，如果组合值小于等于bound，添加进去，最后通过set去重
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> powerfulIntegers(int x, int y, int bound) {
@@ -39,4 +39,4 @@ public:
         return result;
     }
 };
-```
+// ```

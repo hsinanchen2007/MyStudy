@@ -1,5 +1,5 @@
-### 排序好的数组
-```
+// ### 排序好的数组
+// ```
 class Solution {
     public int removeDuplicates(int[] nums) {
         if (nums == null || nums.length == 0) {
@@ -24,10 +24,10 @@ class Solution {
         return i + 1;
     }
 }
-```
+// ```
 
-### 非排序好的数组可使用Set
-```
+// ### 非排序好的数组可使用Set
+// ```
 public int removeDuplicates(int[] nums) {
         if (nums == null || nums.length == 0) return 0;
         Set<Integer> set = new HashSet<>();
@@ -37,4 +37,4 @@ public int removeDuplicates(int[] nums) {
         }
         return set.size();
     }
-```
+// ```

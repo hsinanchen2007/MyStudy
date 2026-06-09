@@ -1,5 +1,5 @@
 
-```
+// ```
 // 使用单调栈，栈顶存的是温度低的待处理的T元素索引
 func dailyTemperatures(T []int) []int {
 	ss := &stack{}
@@ -48,4 +48,4 @@ func (s *stack) Empty() bool {
 func (s *stack) Top() int {
 	return s.data[len(s.data)-1]
 }
-```
+// ```

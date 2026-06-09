@@ -1,4 +1,4 @@
-```
+# ```
 class TicTacToe:
 
     def __init__(self, n: int):
@@ -29,4 +29,4 @@ class TicTacToe:
         if self.n == max(self.cols[player-1][col], self.rows[player-1][row], max(self.angs[player-1])):
             return player
         return 0
-```
+# ```

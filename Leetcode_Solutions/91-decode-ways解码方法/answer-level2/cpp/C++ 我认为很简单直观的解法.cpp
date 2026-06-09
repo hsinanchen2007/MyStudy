@@ -1,8 +1,8 @@
-# 算法分析
-![image.png](https://pic.leetcode-cn.com/c09dc70d3085792b2b8417843e297f6841fd12f921b0e4fe28a2c4a8dc86dd1e-image.png)
+// # 算法分析
+// ![image.png](https://pic.leetcode-cn.com/c09dc70d3085792b2b8417843e297f6841fd12f921b0e4fe28a2c4a8dc86dd1e-image.png)
 
-# 源码
-```
+// # 源码
+// ```
 int numDecodings(string s) {
     if (s[0] == '0') return 0;
     int pre = 1, curr = 1;//dp[-1] = dp[0] = 1
@@ -17,4 +17,4 @@ int numDecodings(string s) {
     }
     return curr;
 }
-```
+// ```

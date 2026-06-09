@@ -1,9 +1,9 @@
-### 解题思路
-构建一个辅助队列，每次将下一层的元素入队。
+// ### 解题思路
+// 构建一个辅助队列，每次将下一层的元素入队。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -31,8 +31,8 @@ var levelOrder = function(root) {
     }
     return res;
 };
-```
+// ```
 
-### 复杂度
-- 时间复杂度 O(N)
-- 空间复杂度 O(N)
+// ### 复杂度
+// - 时间复杂度 O(N)
+// - 空间复杂度 O(N)

@@ -1,9 +1,9 @@
-### 解题思路
-类似LeetCode括号生成那一题的回溯思路
+// ### 解题思路
+// 类似LeetCode括号生成那一题的回溯思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -36,4 +36,4 @@ char ** letterCombinations(char * digits, int* returnSize){
     Add(temp, ret, returnSize, digits, 0, len);
     return ret;
 }
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func combinationSum2(candidates []int, target int) [][]int {
     // 特殊情况判断
 	if len(candidates) == 0 {
@@ -43,4 +43,4 @@ func helper(arr, last []int, target int, ans *[][]int) {
 		}
 	}
 }
-```
+// ```

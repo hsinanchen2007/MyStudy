@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
 
-**该题就是一个26进制数转10进制**
+// **该题就是一个26进制数转10进制**
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int titleToNumber(string s) {
@@ -16,4 +16,4 @@ public:
         return res;
     }
 };
-```
+// ```

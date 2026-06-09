@@ -1,4 +1,4 @@
-```
+// ```
 var numFactoredBinaryTrees = function(A) {
     A.sort((a,b) => a - b)
     const map = {}
@@ -17,7 +17,7 @@ var numFactoredBinaryTrees = function(A) {
 
     return Object.values(map).reduce((v,c) => c+v) % (10 ** 9 + 7)
 };
-```
+// ```
 
-原理很简单，可以参考另一道题：构建不同的二叉树
-主要是遍历顺序
+// 原理很简单，可以参考另一道题：构建不同的二叉树
+// 主要是遍历顺序

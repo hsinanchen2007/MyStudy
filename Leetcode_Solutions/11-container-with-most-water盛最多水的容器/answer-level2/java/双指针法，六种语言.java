@@ -1,7 +1,7 @@
-### 解题思路
-思路参考了讨论最多的官方题解中的 $O(N)$ 复杂度的双指针方法，个人感觉已经很极限了，没什么优化的地方了。贴不同语言的代码供大家一起学习。
-### 代码
-```C []
+// ### 解题思路
+// 思路参考了讨论最多的官方题解中的 $O(N)$ 复杂度的双指针方法，个人感觉已经很极限了，没什么优化的地方了。贴不同语言的代码供大家一起学习。
+// ### 代码
+// ```C []
 int maxArea(int* height, int heightSize){
     if (height == NULL || heightSize < 2) {
         return 0;
@@ -25,8 +25,8 @@ int maxArea(int* height, int heightSize){
 
     return result;
 }
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def maxArea(self, height: List[int]) -> int:
         ans = float('-inf')
@@ -38,8 +38,8 @@ class Solution:
             else:
                 end -= 1
         return ans
-```
-```java []
+// ```
+// ```java []
 class Solution {
     public int maxArea(int[] height) {
         int i = 0, j = height.length - 1, res = 0;
@@ -51,8 +51,8 @@ class Solution {
         return res;
     }
 }
-```
-```C++ []
+// ```
+// ```C++ []
 class Solution {
 public:
     int maxArea(vector<int>& height) {
@@ -67,8 +67,8 @@ public:
         return res;
     }
 };
-```
-```javascript []
+// ```
+// ```javascript []
 var maxArea = function(height) {
     let i = 0, j = height.length-1;
     let square, max = 0;
@@ -84,8 +84,8 @@ var maxArea = function(height) {
     }
     return max;
 };
-```
-```go []
+// ```
+// ```go []
 func min(a, b int) int {
 	if a <= b {
 		return a
@@ -111,8 +111,8 @@ func maxArea(height []int) int {
 	}
 	return o
 }
-```
+// ```
 
-### 复杂度分析
-- 时间复杂度:$O(N)$。
-- 空间复杂度:$O(1)$。
+// ### 复杂度分析
+// - 时间复杂度:$O(N)$。
+// - 空间复杂度:$O(1)$。

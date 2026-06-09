@@ -1,5 +1,5 @@
-二分题，首先排序，然后比较每一位是否相同，不同就+1
-```
+// 二分题，首先排序，然后比较每一位是否相同，不同就+1
+// ```
 func heightChecker(heights []int) int {
     t := make([]int, len(heights))
     copy(t, heights)
@@ -12,4 +12,4 @@ func heightChecker(heights []int) int {
     }
     return diff
 }
-```
+// ```

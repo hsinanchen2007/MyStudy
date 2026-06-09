@@ -1,9 +1,9 @@
-### 解题思路
-先克隆数组，然后通过排序，用hash表记录次序
+// ### 解题思路
+// 先克隆数组，然后通过排序，用hash表记录次序
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] arrayRankTransform(int[] arr) {
         if (arr.length == 0) return arr;
@@ -23,4 +23,4 @@ class Solution {
         return arr;
     }
 }
-```
+// ```

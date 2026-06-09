@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public boolean isUgly(int num) {
         if(num == 0) return false;
@@ -8,4 +8,4 @@ class Solution {
         return num == 1?true:false;
     }
 }
-```
+// ```

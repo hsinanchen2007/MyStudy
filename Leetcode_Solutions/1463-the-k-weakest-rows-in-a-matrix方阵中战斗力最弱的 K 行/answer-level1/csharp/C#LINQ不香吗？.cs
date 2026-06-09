@@ -1,4 +1,4 @@
-```
+// ```
    public int[] KWeakestRows(int[][] mat, int k)
     {
         var p = from arr in mat
@@ -9,4 +9,4 @@
 
         return p.Take(k).ToArray();
     }
-```
+// ```

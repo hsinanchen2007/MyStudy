@@ -1,9 +1,9 @@
-栈的解法
-此处撰写解题思路
+// 栈的解法
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -46,4 +46,4 @@ public:
         return ans;    
     }
 };
-```
+// ```

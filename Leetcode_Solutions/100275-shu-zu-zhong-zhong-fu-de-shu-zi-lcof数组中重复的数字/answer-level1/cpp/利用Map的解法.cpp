@@ -1,11 +1,11 @@
-### 解题思路
-这个题目比较简单
+// ### 解题思路
+// 这个题目比较简单
 
-遍历数组将值作为key存入map中，在循环过程中判断key是否存在，如果存在，那么此值为重复
+// 遍历数组将值作为key存入map中，在循环过程中判断key是否存在，如果存在，那么此值为重复
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findRepeatNumber(vector<int>& nums) {
@@ -20,4 +20,4 @@ public:
         return 0;
     }
 };
-```
+// ```

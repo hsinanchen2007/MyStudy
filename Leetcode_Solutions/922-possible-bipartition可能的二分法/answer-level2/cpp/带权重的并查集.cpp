@@ -1,18 +1,18 @@
-`parent[x].first` 表示 x 的父亲节点的编号（和普通的并查集一样）；
-`parent[x].second` 表示 x 与父节点的关系:
-- 0 代表 x 与父节点需要在同一组里
-- 1 代表 x 与父节点需要在不同组里
+// `parent[x].first` 表示 x 的父亲节点的编号（和普通的并查集一样）；
+// `parent[x].second` 表示 x 与父节点的关系:
+// - 0 代表 x 与父节点需要在同一组里
+// - 1 代表 x 与父节点需要在不同组里
 
-对于 x -> y -> z （x的父节点是y，y的父节点是z）:
-- parent[x].first = y
-- parent[y].first = z
+// 对于 x -> y -> z （x的父节点是y，y的父节点是z）:
+// - parent[x].first = y
+// - parent[y].first = z
 
-可以得到 x -> z 的关系是：x -> z = x -> y + y -> z，即：
-(parent[x].second + parent[y].second) % 2
+// 可以得到 x -> z 的关系是：x -> z = x -> y + y -> z，即：
+// (parent[x].second + parent[y].second) % 2
 
 
-代码如下：
-```
+// 代码如下：
+// ```
 class Solution {
 private:
     pair<int, int> find_set(pair<int, int>* parent, int x) {
@@ -57,4 +57,4 @@ public:
   }
 };
 
-```
+// ```

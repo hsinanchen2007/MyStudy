@@ -1,5 +1,5 @@
-奇数用一个头结点，偶数用一个头结点。然后将二者相连。
-```
+# 奇数用一个头结点，偶数用一个头结点。然后将二者相连。
+# ```
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -17,4 +17,4 @@ class Solution:
             p,q=p.next,q.next
         p.next=t
         return head
-```
+# ```

@@ -1,5 +1,5 @@
 
-```rust
+// ```rust
 type Link = Option<Box<ListNode>>;
 impl Solution {
     pub fn reverse_list(head: Link) -> Link {
@@ -15,4 +15,4 @@ impl Solution {
         return rev(head, None);
     }
 }
-```
+// ```

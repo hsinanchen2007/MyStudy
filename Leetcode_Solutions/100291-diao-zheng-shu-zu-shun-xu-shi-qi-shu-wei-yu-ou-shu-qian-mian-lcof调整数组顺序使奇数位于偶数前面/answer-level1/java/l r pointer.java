@@ -1,9 +1,9 @@
-### 解题思路
-使用两个指针来解决问题
+// ### 解题思路
+// 使用两个指针来解决问题
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
  public int[] exchange(int[] nums) {
         if (nums == null || nums.length == 0 || nums.length == 1) {
@@ -41,4 +41,4 @@ class Solution {
         return nums;
     }
 }
-```
+// ```

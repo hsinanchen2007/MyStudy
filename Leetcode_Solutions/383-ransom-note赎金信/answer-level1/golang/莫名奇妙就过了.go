@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
-1、将magazine中的字符出现的次数存到map中
-2、遍历ransomNote，然后将字符出现的次数减1
-3、如果出现次数小于0的情况出现，那么就false，否则就true
+// ### 解题思路
+// 此处撰写解题思路
+// 1、将magazine中的字符出现的次数存到map中
+// 2、遍历ransomNote，然后将字符出现的次数减1
+// 3、如果出现次数小于0的情况出现，那么就false，否则就true
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func canConstruct(ransomNote string, magazine string) bool {
 
     if len(magazine) == 0 {
@@ -33,4 +33,4 @@ func canConstruct(ransomNote string, magazine string) bool {
     }
     return true
 }
-```
+// ```

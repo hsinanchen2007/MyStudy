@@ -1,20 +1,20 @@
-### 解题思路
-此题曾被面试拿来考过，来自知乎 [bst转 linked list](https://www.zhihu.com/question/315431369/answer/657307652)
-同 [主站 426 题](https://leetcode-cn.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/)，但主站习题需要购买才能打开。
+# ### 解题思路
+# 此题曾被面试拿来考过，来自知乎 [bst转 linked list](https://www.zhihu.com/question/315431369/answer/657307652)
+# 同 [主站 426 题](https://leetcode-cn.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/)，但主站习题需要购买才能打开。
 
 
-参考了优秀解答 [面试题36. 二叉搜索树与双向链表（中序遍历，清晰图解）](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-yu-shuang-xiang-lian-biao-lcof/solution/mian-shi-ti-36-er-cha-sou-suo-shu-yu-shuang-xian-5/)。
+# 参考了优秀解答 [面试题36. 二叉搜索树与双向链表（中序遍历，清晰图解）](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-yu-shuang-xiang-lian-biao-lcof/solution/mian-shi-ti-36-er-cha-sou-suo-shu-yu-shuang-xian-5/)。
 
-+ 优秀解答中讨论了 self 变量是类变量，可以当做全局变量使用，随时修改。这一用法好像在其他题解中也见到过。待后面总结。进一步的理解作者给出了链接 [大家是如何理解Python中的self？](https://www.zhihu.com/question/39264541)
+# + 优秀解答中讨论了 self 变量是类变量，可以当做全局变量使用，随时修改。这一用法好像在其他题解中也见到过。待后面总结。进一步的理解作者给出了链接 [大家是如何理解Python中的self？](https://www.zhihu.com/question/39264541)
 
-+ 我这里把它改为了 nonlocal 关键字声明的变量。关于 nonlocal 我其他地方也有讨论。例如 [gelthin-复习python global-nonlocal](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/solution/gelthin-fu-xi-python-global-nonlocal-by-gelthin/) 还有其他一些题解中也提到了此。
+# + 我这里把它改为了 nonlocal 关键字声明的变量。关于 nonlocal 我其他地方也有讨论。例如 [gelthin-复习python global-nonlocal](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/solution/gelthin-fu-xi-python-global-nonlocal-by-gelthin/) 还有其他一些题解中也提到了此。
 
-+ 当然这一个变量 pre 也可以当做参数传递，但是内部修改了，则需要进行更新传出来。
+# + 当然这一个变量 pre 也可以当做参数传递，但是内部修改了，则需要进行更新传出来。
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 """
 # Definition for a Node.
 class Node:
@@ -67,4 +67,4 @@ class Solution:
         head = head.right
         head.left, self.pre.right = self.pre, head
         return head
-```
+# ```

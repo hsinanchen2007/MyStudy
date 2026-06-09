@@ -1,11 +1,11 @@
-### 解题思路
-根据当前油量尽可能远的跑，直到跑不到下一个加油站的时候，把路过的加油站的max(stations[i][1])加到当前油量，如此往复继续跑。
+// ### 解题思路
+// 根据当前油量尽可能远的跑，直到跑不到下一个加油站的时候，把路过的加油站的max(stations[i][1])加到当前油量，如此往复继续跑。
 
-js不自带优先队列和堆，那就多排几次序吧...
+// js不自带优先队列和堆，那就多排几次序吧...
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var minRefuelStops = function (target, startFuel, stations) {
     if (startFuel >= target) return 0
     let ans = 0, vis = [], fuel = startFuel
@@ -36,4 +36,4 @@ var minRefuelStops = function (target, startFuel, stations) {
     }
     return ans
 };
-```
+// ```

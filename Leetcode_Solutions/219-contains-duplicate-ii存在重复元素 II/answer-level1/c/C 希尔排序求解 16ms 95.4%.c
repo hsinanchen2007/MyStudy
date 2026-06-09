@@ -1,4 +1,4 @@
-```
+// ```
 void shellsort(int* nums, int* posi, int numsSize)
 {
     int step, i, j;
@@ -33,6 +33,6 @@ bool containsNearbyDuplicate(int* nums, int numsSize, int k)
     }
     return false;
 }
-```
+// ```
 
-建立两个数组，分别存储数字和下标，做法类似题目217
+// 建立两个数组，分别存储数字和下标，做法类似题目217

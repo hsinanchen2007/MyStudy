@@ -1,11 +1,11 @@
-### 解题思路
-**C++**
-执行用时击败100%
-![image.png](https://pic.leetcode-cn.com/0065d2e705a19d0aa20318ba03228ccc5a0289707143c41c5ed1751a6725b795-image.png)
+// ### 解题思路
+// **C++**
+// 执行用时击败100%
+// ![image.png](https://pic.leetcode-cn.com/0065d2e705a19d0aa20318ba03228ccc5a0289707143c41c5ed1751a6725b795-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void sortColors(vector<int>& nums) {
@@ -20,4 +20,4 @@ public:
         }
     }
 };
-```
+// ```

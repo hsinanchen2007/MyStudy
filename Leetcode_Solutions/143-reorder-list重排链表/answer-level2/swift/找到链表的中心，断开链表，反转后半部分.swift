@@ -1,9 +1,9 @@
-### 解题思路
-先利用双指针找到链表的中心，断开链表，反转后半部分，最后再重新拼接
+// ### 解题思路
+// 先利用双指针找到链表的中心，断开链表，反转后半部分，最后再重新拼接
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -67,4 +67,4 @@ func reorderList(_ head: ListNode?) {
     }
 }
 }
-```
+// ```

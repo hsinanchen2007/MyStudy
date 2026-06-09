@@ -1,9 +1,9 @@
-### 解题思路 后面添加值也影响前面栈底最大元素，特殊想象添加一个最大值，则统统出栈
-此处撰写解题思路
+# ### 解题思路 后面添加值也影响前面栈底最大元素，特殊想象添加一个最大值，则统统出栈
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class MaxQueue:
 
     def __init__(self):
@@ -32,4 +32,4 @@ class MaxQueue:
 # param_1 = obj.max_value()
 # obj.push_back(value)
 # param_3 = obj.pop_front()
-```
+# ```

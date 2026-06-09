@@ -1,4 +1,4 @@
-在所有 Java 提交中击败了84.74%的用户
+// 在所有 Java 提交中击败了84.74%的用户
 
 class Solution {
     public static int compress(char[] chars) {

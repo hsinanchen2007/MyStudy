@@ -1,8 +1,8 @@
 
-![无标题.png](https://pic.leetcode-cn.com/a11a32e12c4336daff43f850a09cdb8209de616c2652c36bd34d0387eda99b51-%E6%97%A0%E6%A0%87%E9%A2%98.png)
+// ![无标题.png](https://pic.leetcode-cn.com/a11a32e12c4336daff43f850a09cdb8209de616c2652c36bd34d0387eda99b51-%E6%97%A0%E6%A0%87%E9%A2%98.png)
 
 
-```
+// ```
 typedef struct {
     int data[10000];
     int head;
@@ -101,4 +101,4 @@ void myStackFree(MyStack* obj) {
  
  * myStackFree(obj);
 */
-```
+// ```

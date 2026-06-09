@@ -1,12 +1,12 @@
-### 解题思路
-有个地方不明白：
-现在的seen每一对是{node: new_node},
-而换成{node.val: new_node}（如下面注释所示），
-测试的时候可以通过，但提交的时候会出错
+# ### 解题思路
+# 有个地方不明白：
+# 现在的seen每一对是{node: new_node},
+# 而换成{node.val: new_node}（如下面注释所示），
+# 测试的时候可以通过，但提交的时候会出错
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 """
 # Definition for a Node.
 class Node:
@@ -37,4 +37,4 @@ class Solution:
         return new_node
 
                 
-```
+# ```

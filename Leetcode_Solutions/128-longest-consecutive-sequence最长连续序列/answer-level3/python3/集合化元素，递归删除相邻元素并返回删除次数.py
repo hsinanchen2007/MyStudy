@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/037d0b8435462a08a130864c09bcc2aabe32a2c8a133a1ea8073c63bab4813fc-image.png)
+# ![image.png](https://pic.leetcode-cn.com/037d0b8435462a08a130864c09bcc2aabe32a2c8a133a1ea8073c63bab4813fc-image.png)
 
-通俗易懂
-```
+# 通俗易懂
+# ```
 class Solution:
     def longestConsecutive(self, nums: List[int]) -> int:
         d=set(nums)
@@ -17,4 +17,4 @@ class Solution:
             ans=max(ans,f(i))
         
         return ans
-```
+# ```

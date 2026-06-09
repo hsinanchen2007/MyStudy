@@ -1,10 +1,10 @@
-### 解题思路
-学习[@jyd](/u/jyd/)大佬的python3写法的golang写法
-[大佬解法地址](https://leetcode-cn.com/problems/jian-sheng-zi-lcof/solution/mian-shi-ti-14-i-jian-sheng-zi-tan-xin-si-xiang-by/)
+// ### 解题思路
+// 学习[@jyd](/u/jyd/)大佬的python3写法的golang写法
+// [大佬解法地址](https://leetcode-cn.com/problems/jian-sheng-zi-lcof/solution/mian-shi-ti-14-i-jian-sheng-zi-tan-xin-si-xiang-by/)
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func cuttingRope(n int) int {
     if n <= 3 {
         return n - 1
@@ -39,4 +39,4 @@ func main() {
 	n := 10
 	fmt.Println(cuttingRope2(n))
 }
-```
+// ```

@@ -1,14 +1,14 @@
-### 解题思路
-对版本号处理，用vector保存版本号的每一位数，之后对两个vector进行比较。
-虽然写的比较繁琐，但是速度还挺快= =
-![image.png](https://pic.leetcode-cn.com/d281efba245b0494c47ccc0be08cdca19bb20d863dcb38952dc5e9a9665d67d2-image.png)
+// ### 解题思路
+// 对版本号处理，用vector保存版本号的每一位数，之后对两个vector进行比较。
+// 虽然写的比较繁琐，但是速度还挺快= =
+// ![image.png](https://pic.leetcode-cn.com/d281efba245b0494c47ccc0be08cdca19bb20d863dcb38952dc5e9a9665d67d2-image.png)
 
-另外我还有一种思路，直接把版本的每一位相减，特殊处理前缀0，一会我试试
+// 另外我还有一种思路，直接把版本的每一位相减，特殊处理前缀0，一会我试试
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int compareVersion(string version1, string version2) {
@@ -57,4 +57,4 @@ public:
         }
     }
 };
-```
+// ```

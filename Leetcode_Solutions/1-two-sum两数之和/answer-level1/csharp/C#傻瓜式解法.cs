@@ -1,11 +1,11 @@
-### 解题思路
-执行用时 :
-672 ms, 在所有 csharp 提交中击败了12.53%的用户
-内存消耗 :29.8 MB, 在所有 csharp 提交中击败了6.75%的用户
+// ### 解题思路
+// 执行用时 :
+// 672 ms, 在所有 csharp 提交中击败了12.53%的用户
+// 内存消耗 :29.8 MB, 在所有 csharp 提交中击败了6.75%的用户
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int[] TwoSum(int[] arr, int num) {
         int a = -1, b = -1, d = 0;
@@ -41,4 +41,4 @@ public class Solution {
         return ar;
     }
 }
-```
+// ```

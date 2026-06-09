@@ -1,9 +1,9 @@
-### 解题思路
-先找到行最小的坐标，然后判断他是不是列最小。
+// ### 解题思路
+// 先找到行最小的坐标，然后判断他是不是列最小。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
  public List<Integer> luckyNumbers (int[][] matrix) {
         List<Integer> res = new ArrayList<>();
@@ -30,4 +30,4 @@ class Solution {
     }
 
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-很简单，跑步追赶，需要注意的是跳出循环的情况！
+// ### 解题思路
+// 很简单，跑步追赶，需要注意的是跳出循环的情况！
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * class ListNode {
@@ -42,4 +42,4 @@ public class Solution {
         return ans;
     }
 }
-```
+// ```

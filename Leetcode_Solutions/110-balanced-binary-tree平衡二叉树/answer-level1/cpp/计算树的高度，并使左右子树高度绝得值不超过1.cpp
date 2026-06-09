@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-1、计算左右子树高度，高度差不超过1.
-2、左右子树都是平衡二叉树
-### 代码
+// 1、计算左右子树高度，高度差不超过1.
+// 2、左右子树都是平衡二叉树
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -33,4 +33,4 @@ public:
         return isBalanced(root->left)&&isBalanced(root->right)&&abs(left - right)<=1;
     }
 };
-```
+// ```

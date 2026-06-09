@@ -1,14 +1,14 @@
-欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
-几乎所有题目都会提供多种解法，真诚求star！
+// 欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
+// 几乎所有题目都会提供多种解法，真诚求star！
 
-# 解法一：暴力破解法
+// # 解法一：暴力破解法
 
-时间复杂度是O(n ^ 3)，其中n为nums数组的长度。
-空间复杂度是O(1)。
+// 时间复杂度是O(n ^ 3)，其中n为nums数组的长度。
+// 空间复杂度是O(1)。
 
-在LeetCode中提交会超时。
+// 在LeetCode中提交会超时。
 
-```java
+// ```java
 public class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
         int n = nums.length;
@@ -48,18 +48,18 @@ public class Solution {
         return listList;
     }
 }
-```
+// ```
 
-# 解法二：哈希表
+// # 解法二：哈希表
 
-利用哈希表记录每个数字出现的次数。
+// 利用哈希表记录每个数字出现的次数。
 
-时间复杂度是O(n ^ 2)，其中n为nums数组的长度。
-空间复杂度是O(n)。
+// 时间复杂度是O(n ^ 2)，其中n为nums数组的长度。
+// 空间复杂度是O(n)。
 
-执行用时：268ms，击败10.12%。消耗内存：49.2MB，击败85.36%。
+// 执行用时：268ms，击败10.12%。消耗内存：49.2MB，击败85.36%。
 
-```java
+// ```java
 public class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>> listList = new ArrayList<>();
@@ -102,18 +102,18 @@ public class Solution {
         listList.add(list);
     }
 }
-```
+// ```
 
-# 解法三：双指针
+// # 解法三：双指针
 
-内层循环采用双指针遍历的形式。
+// 内层循环采用双指针遍历的形式。
 
-时间复杂度是O(n ^ 2)，其中n为nums数组的长度。
-空间复杂度是O(1)。
+// 时间复杂度是O(n ^ 2)，其中n为nums数组的长度。
+// 空间复杂度是O(1)。
 
-执行用时：79ms，击败62.77%。消耗内存：55.8MB，击败71.63%。
+// 执行用时：79ms，击败62.77%。消耗内存：55.8MB，击败71.63%。
 
-```java
+// ```java
 public class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>> listList = new ArrayList<>();
@@ -157,4 +157,4 @@ public class Solution {
         return listList;
     }
 }
-```
+// ```

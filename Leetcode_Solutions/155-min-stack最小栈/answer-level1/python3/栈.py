@@ -1,18 +1,18 @@
-## 思路:
+# ## 思路:
 
-思路一:使用两个栈
+# 思路一:使用两个栈
 
-一个栈记录 压入元素
+# 一个栈记录 压入元素
 
-一个栈记录 最小元素
+# 一个栈记录 最小元素
 
-思路二 : 使用一个栈 [^1]
+# 思路二 : 使用一个栈 [^1]
 
-当有更小元素进入栈中, 把先前最小值压入栈中
+# 当有更小元素进入栈中, 把先前最小值压入栈中
 
-## 代码:
+# ## 代码:
 
-```python
+# ```python
 class MinStack:
 
     def __init__(self):
@@ -44,11 +44,11 @@ class MinStack:
 
     def getMin(self) -> int:
         return self.min_num[-1]
-```
+# ```
 
-思路二:
+# 思路二:
 
-```python []
+# ```python []
 class MinStack:
 
     def __init__(self):
@@ -77,11 +77,11 @@ class MinStack:
 
     def getMin(self) -> int:
         return self.cur_min
-```
+# ```
 
 
 
-```java []
+# ```java []
 class MinStack {
     /**
      * initialize your data structure here.
@@ -112,10 +112,10 @@ class MinStack {
         return min;
     }
 }
-```
+# ```
 
 
 
 
 
-[^1]: <https://leetcode.com/problems/min-stack/discuss/49014/Java-accepted-solution-using-one-stack>
+# [^1]: <https://leetcode.com/problems/min-stack/discuss/49014/Java-accepted-solution-using-one-stack>

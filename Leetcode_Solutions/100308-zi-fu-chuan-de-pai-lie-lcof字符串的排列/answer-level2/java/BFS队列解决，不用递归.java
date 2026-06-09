@@ -1,6 +1,6 @@
-基本思想：构建一棵树。例如：a的全排列为一层，ab的全排列为第二层，abc的全排列为第三层。只需取出第三层的元素并用Set去重即可。
-         注意：每一层的全排列就是在上一层字符串的各个位置插入新增加的字符。
-```
+// 基本思想：构建一棵树。例如：a的全排列为一层，ab的全排列为第二层，abc的全排列为第三层。只需取出第三层的元素并用Set去重即可。
+//          注意：每一层的全排列就是在上一层字符串的各个位置插入新增加的字符。
+// ```
 public String[] permutation(String s) {
         if(s.isEmpty()){
             return new String[0];
@@ -25,6 +25,6 @@ public String[] permutation(String s) {
         }
         return set.toArray(new String[0]);
     }
-```
+// ```
 
 

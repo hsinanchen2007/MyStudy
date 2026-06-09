@@ -1,4 +1,4 @@
-二分查找
+// 二分查找
 class Solution {
 public:
     int smallestDivisor(vector<int>& nums, int threshold) {

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-先将数组digits反转（reverse）便于计算，将digits[0]++，然后循环i：0-n-2；如果digits[i]==10,就进位
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 先将数组digits反转（reverse）便于计算，将digits[0]++，然后循环i：0-n-2；如果digits[i]==10,就进位
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> plusOne(vector<int>& digits) {
@@ -26,4 +26,4 @@ public:
         return digits;
     }
 };
-```
+// ```

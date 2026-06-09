@@ -1,6 +1,6 @@
-一开始想到的是把每个字符出现的位置都记录下来，那么假设对于某个字符'a'，如果它的索引为i，则需要在它之后找到第一次出现'b'的位置j、第一次出现'c'的位置k，子串s.substring(i,Math.max(j,k)+1)、s.substring(i,Math.max(j,k)+2)、s.substring(i,Math.max(j,k)+3)……s.substring(i,length)都是符合要求的，一共有(length-Math.max(j,k))个子串。对于字符'b'和'c'也是这样处理。
+// 一开始想到的是把每个字符出现的位置都记录下来，那么假设对于某个字符'a'，如果它的索引为i，则需要在它之后找到第一次出现'b'的位置j、第一次出现'c'的位置k，子串s.substring(i,Math.max(j,k)+1)、s.substring(i,Math.max(j,k)+2)、s.substring(i,Math.max(j,k)+3)……s.substring(i,length)都是符合要求的，一共有(length-Math.max(j,k))个子串。对于字符'b'和'c'也是这样处理。
 
-```
+// ```
 class Solution {
     public int numberOfSubstrings(String s) {
         int result = 0;
@@ -116,11 +116,11 @@ class Solution {
         return indexes.get(hi);
     }
 }
-```
+// ```
 
-但是其实，只要从后向前遍历一遍字符串s记录下当前'a'、'b'、'c'最早出现的索引位置即可。
+// 但是其实，只要从后向前遍历一遍字符串s记录下当前'a'、'b'、'c'最早出现的索引位置即可。
 
-```
+// ```
 class Solution {
     public int numberOfSubstrings(String s) {
         int result = 0;
@@ -173,4 +173,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

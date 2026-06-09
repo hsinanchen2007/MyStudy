@@ -1,8 +1,8 @@
-### 解题思路
-放上第一次写的代码和优化后的代码, 优化后的代码0ms, 5.6MB
+// ### 解题思路
+// 放上第一次写的代码和优化后的代码, 优化后的代码0ms, 5.6MB
 
-### 代码
-```c
+// ### 代码
+// ```c
 // 此代码中的dp[i]其实是不必要的, 因为计算dp[i]时只需要dp[i-1]即可
 int lengthOfLongestSubstring(char * s){
     int size = strlen(s);
@@ -24,9 +24,9 @@ int lengthOfLongestSubstring(char * s){
     return ans;
 }
 
-```
+// ```
 
-```c
+// ```c
 #define max(a, b) ((a) > (b) ? (a) : (b))
 int lengthOfLongestSubstring(char * s){
     int size = strlen(s), pre_idx = -1, ans = 0;
@@ -40,4 +40,4 @@ int lengthOfLongestSubstring(char * s){
     return ans;
 }
 
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-先找到划分左右子树的节点，然后递归。
-注意终止条件是begin>=end!!!
-### 代码
+// ### 解题思路
+// 先找到划分左右子树的节点，然后递归。
+// 注意终止条件是begin>=end!!!
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool verifyPostorder(vector<int>& postorder) {
@@ -23,4 +23,4 @@ public:
        return check(postorder,begin,a)&&check(postorder,a+1,end-1);
     }
 };
-```
+// ```

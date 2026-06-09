@@ -1,4 +1,4 @@
-```js
+// ```js
 var BSTIterator = function(root) {
     this.arr = [];
     function dfs(root){
@@ -15,4 +15,4 @@ BSTIterator.prototype.next = function() {
 BSTIterator.prototype.hasNext = function() {
     return this.arr.length !== 0;
 };
-```
+// ```

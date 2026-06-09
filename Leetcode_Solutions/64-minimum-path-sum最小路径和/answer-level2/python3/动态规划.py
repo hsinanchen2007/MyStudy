@@ -1,4 +1,4 @@
-动态规划：二维状态
+# 动态规划：二维状态
 
     def minPathSum(self, grid: List[List[int]]) -> int:
         grid2=[[0 for _ in range(len(grid[0]))] for _ in range(len(grid))]

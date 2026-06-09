@@ -1,7 +1,7 @@
-矩阵或链式存储图，利用节点的度概念，每层遍历删除度为1的节点，注意删除度为1的节点时，需要判断这个节点所在边的对端节点的度不为1，如果对端为1，这不能删除，这是这两个节点均为有效解，该题解个个数范围，可能是1个，可能是2个。
+// 矩阵或链式存储图，利用节点的度概念，每层遍历删除度为1的节点，注意删除度为1的节点时，需要判断这个节点所在边的对端节点的度不为1，如果对端为1，这不能删除，这是这两个节点均为有效解，该题解个个数范围，可能是1个，可能是2个。
 
 
-```
+// ```
 int* findMinHeightTrees(int n, int** edges, int edgesSize, int* edgesColSize, int* returnSize){
     short *map = malloc(sizeof(short) * n * n);
     int *retEdges = malloc(sizeof(int) * n);
@@ -62,4 +62,4 @@ int* findMinHeightTrees(int n, int** edges, int edgesSize, int* edgesColSize, in
 }
 
 
-```
+// ```

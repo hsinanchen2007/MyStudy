@@ -1,9 +1,9 @@
-### 解题思路
-链表长度递归方法 head ? 1 + length(head.next) : 0
-总长度-倒数节点=需遍历节点数，找到位置后输出
-### 代码
+// ### 解题思路
+// 链表长度递归方法 head ? 1 + length(head.next) : 0
+// 总长度-倒数节点=需遍历节点数，找到位置后输出
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -30,4 +30,4 @@ var getKthFromEnd = function (head, k) {
         return head;
     }
 };
-```
+// ```

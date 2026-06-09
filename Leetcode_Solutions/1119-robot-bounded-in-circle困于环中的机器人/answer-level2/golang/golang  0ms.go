@@ -1,18 +1,18 @@
-每次循环后比较原始位置和当前位置的偏移和方向
-如果位置相同，返回 true
-如果位置不同，方向相同 ，返回 false
+// 每次循环后比较原始位置和当前位置的偏移和方向
+// 如果位置相同，返回 true
+// 如果位置不同，方向相同 ，返回 false
 
-核心代码
-```
+// 核心代码
+// ```
  if now == left && start != [2]int{0, 0} {
     return false
  }
  if start == [2]int{0, 0} {
     return true
  }
-```
-整体代码
-```
+// ```
+// 整体代码
+// ```
 func isRobotBounded(instructions string) bool {
     visited := make(map[[2]int][2]int)
     start := [2]int{0, 0}
@@ -55,4 +55,4 @@ func isRobotBounded(instructions string) bool {
     }
     return true
 }
-```
+// ```

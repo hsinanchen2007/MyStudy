@@ -1,6 +1,6 @@
-快速排序
-### 分割操作，单向调整
-```cpp
+// 快速排序
+// ### 分割操作，单向调整
+// ```cpp
 class Solution {
 public:
 	vector<int> sortArray(vector<int>& nums) {
@@ -38,9 +38,9 @@ public:
 		return i;//返回分割位置
 	}
 };
-```
-### 分割操作，双向调整
-```cpp
+// ```
+// ### 分割操作，双向调整
+// ```cpp
 class Solution {
 public:
 	vector<int> sortArray(vector<int>& nums) {
@@ -71,9 +71,9 @@ public:
 		return j;//为什么返回j而不是i，因为swap是先执行i++的while语句，如果和下面的替换顺序，则返回i
 	}
 };
-```
-### 分割操作，双向调整，加入随机函数
-```cpp
+// ```
+// ### 分割操作，双向调整，加入随机函数
+// ```cpp
 class Solution {
 public:
 	vector<int> sortArray(vector<int>& nums) {
@@ -111,4 +111,4 @@ public:
 		return j;
 	}
 };
-```
+// ```

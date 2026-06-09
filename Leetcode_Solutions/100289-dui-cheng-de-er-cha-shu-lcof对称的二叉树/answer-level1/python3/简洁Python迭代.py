@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isSymmetric(self, root: TreeNode) -> bool:
         def Symmetric(p1, p2):
@@ -11,4 +11,4 @@ class Solution:
         if not root:
             return True
         return Symmetric(root.left, root.right)
-```
+# ```

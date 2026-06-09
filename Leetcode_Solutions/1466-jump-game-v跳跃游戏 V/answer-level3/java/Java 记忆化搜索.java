@@ -1,5 +1,5 @@
 
-```
+// ```
 private Integer[] cache=null;
 
 public int maxJumps(int[] arr, int d) {
@@ -25,4 +25,4 @@ public int jump(int[] arr,int d,int index){
     }
     return cache[index]=res;
 }
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
-找链表中间点：用快慢指针while(fast!=tail&&fast->next!=tail){
-            slow=slow->next;
-            fast=fast->next->next;
-        }
-半闭半开区间，来二分法
-### 代码
+// ### 解题思路
+// 找链表中间点：用快慢指针while(fast!=tail&&fast->next!=tail){
+//             slow=slow->next;
+//             fast=fast->next->next;
+//         }
+// 半闭半开区间，来二分法
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -43,4 +43,4 @@ public:
         return build(head,nullptr);
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-通过二分查找，找到等于该值的第一个值的位置，同时找到等于该值的最后一个节点的位置；
+// ### 解题思路
+// 通过二分查找，找到等于该值的第一个值的位置，同时找到等于该值的最后一个节点的位置；
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int search(int[] nums, int target) {
         if(nums==null||nums.length==0){
@@ -56,4 +56,4 @@ class Solution {
 
 
 }
-```
+// ```

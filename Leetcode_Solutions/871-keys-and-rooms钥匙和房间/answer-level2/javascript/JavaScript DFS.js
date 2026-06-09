@@ -1,9 +1,9 @@
-### 解题思路
-DFS，非常的直接，非常的效率低……
+// ### 解题思路
+// DFS，非常的直接，非常的效率低……
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} rooms
  * @return {boolean}
@@ -32,4 +32,4 @@ var canVisitAllRooms = function(rooms) {
     return roomsChecked === rooms.length;
 
 };
-```
+// ```

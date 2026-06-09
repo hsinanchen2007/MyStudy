@@ -1,9 +1,9 @@
-### 解题思路
-以栈的方法，结合题意进行操作，最后将栈的每一项相加
+// ### 解题思路
+// 以栈的方法，结合题意进行操作，最后将栈的每一项相加
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} ops
  * @return {number}
@@ -33,4 +33,4 @@ var calPoints = function (ops) {
         return initialization + current;
     }, 0);
 };
-```
+// ```

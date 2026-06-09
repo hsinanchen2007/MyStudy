@@ -1,11 +1,11 @@
->欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
->几乎所有题目都会提供多种解法，真诚求star！
+// >欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
+// >几乎所有题目都会提供多种解法，真诚求star！
 
-# 记录每个字符出现的次数，一旦该出现的次数用完，取下一个新字符
+// # 记录每个字符出现的次数，一旦该出现的次数用完，取下一个新字符
 
-执行用时：17ms，击败47.06%。消耗内存：41.5MB，击败5.55%。
+// 执行用时：17ms，击败47.06%。消耗内存：41.5MB，击败5.55%。
 
-```java
+// ```java
 public class StringIterator {
     private String s;
 
@@ -35,4 +35,4 @@ public class StringIterator {
         return index != s.length() || num != 0;
     }
 }
-```
+// ```

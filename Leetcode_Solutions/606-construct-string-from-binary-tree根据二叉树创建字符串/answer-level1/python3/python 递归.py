@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def tree2str(self, t: TreeNode) -> str:
         if t == None:
@@ -11,5 +11,5 @@ class Solution:
             return str(t.val)+'('+self.tree2str(t.left)+')'
         elif t.right:
             return str(t.val)+'()('+self.tree2str(t.right)+')'
-```
+# ```
 

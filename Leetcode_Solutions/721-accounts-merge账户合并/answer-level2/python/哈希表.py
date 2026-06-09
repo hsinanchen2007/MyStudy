@@ -1,15 +1,15 @@
-# 解题思路
-初始化集合account_name以及哈希表account_emails,same_names
-遍历accounts,会遇到下列三种情况:
-1). 如果是一个新账户:
-```python
+# # 解题思路
+# 初始化集合account_name以及哈希表account_emails,same_names
+# 遍历accounts,会遇到下列三种情况:
+# 1). 如果是一个新账户:
+# ```python
 account_name.add(account[0])
 account_emails[account[0]] = set(account[1:])
 same_names[account[0]] = set()
 same_names[account[0]].add(account[0])
-```
-2). 如果存在同名账户, 但是emails并没有重复：
-```python
+# ```
+# 2). 如果存在同名账户, 但是emails并没有重复：
+# ```python
 # 包含同名账户，那么检测一下同名账户中是否有email相同，若相同则合并这些账户
 union_name_set = set()
 # 新账户的命名问题
@@ -25,9 +25,9 @@ for same_name in same_names[account[0]]:
 account_name.add(new_name)
 account_emails[new_name] = set(account[1:])
 same_names[account[0]].add(new_name)
-```       
-3). 若emails重复了,那么将所有包含重复email的账户取出,进行合并:
-```python
+# ```       
+# 3). 若emails重复了,那么将所有包含重复email的账户取出,进行合并:
+# ```python
 union_list = list(union_name_set)
 min_name = union_list[0]
 for index in range(1,len(union_list)):
@@ -39,9 +39,9 @@ for name in union_list:
         account_emails.pop(name)
         account_name.remove(name)
         same_names[account[0]].remove(name)
-```       
-# 代码
-```python
+# ```       
+# # 代码
+# ```python
 class Solution:
     def accountsMerge(self, accounts: list) -> list:
         account_name = set()
@@ -90,4 +90,4 @@ class Solution:
             temp += sorted(list(account_emails[name]))
             result.append(temp)
         return result
-```
+# ```

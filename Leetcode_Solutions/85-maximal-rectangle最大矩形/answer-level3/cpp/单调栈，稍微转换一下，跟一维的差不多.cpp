@@ -1,11 +1,11 @@
-### 解题思路
-对于二维矩阵，可以从第一行遍历到最后一行，对每一行而言，计算每一列以该行该列为起点的连续1的数量作为高度，这个高度很好求，即当前该行该列为1,高度++，为0则直接置0。
+// ### 解题思路
+// 对于二维矩阵，可以从第一行遍历到最后一行，对每一行而言，计算每一列以该行该列为起点的连续1的数量作为高度，这个高度很好求，即当前该行该列为1,高度++，为0则直接置0。
 
-然后对每一行来说，知道了高度，就变成了我们熟悉的单调栈的裸题了，求L，R数组，求法如我上一题的题解，[上题的链接](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/solution/dan-diao-zhan-luo-ti-by-whut_hj/?editing=dan-diao-zhan-luo-ti-by-whut_hj)最后返回最大值就OK了，会做上一题，这题一分钟就能AC。
+// 然后对每一行来说，知道了高度，就变成了我们熟悉的单调栈的裸题了，求L，R数组，求法如我上一题的题解，[上题的链接](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/solution/dan-diao-zhan-luo-ti-by-whut_hj/?editing=dan-diao-zhan-luo-ti-by-whut_hj)最后返回最大值就OK了，会做上一题，这题一分钟就能AC。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maximalRectangle(vector<vector<char>>& matrix) {
@@ -45,4 +45,4 @@ public:
         return ans;
     }
 };
-```
+// ```

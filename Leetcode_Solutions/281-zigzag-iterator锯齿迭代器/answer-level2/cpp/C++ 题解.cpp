@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class ZigzagIterator {
 public:
     vector<int> indices;
@@ -32,6 +32,6 @@ public:
         return false;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/1a12630c7be956f4502b9de0879854a8896a45620251d8ad0794a21866c48ae2-image.png)
+// ![image.png](https://pic.leetcode-cn.com/1a12630c7be956f4502b9de0879854a8896a45620251d8ad0794a21866c48ae2-image.png)

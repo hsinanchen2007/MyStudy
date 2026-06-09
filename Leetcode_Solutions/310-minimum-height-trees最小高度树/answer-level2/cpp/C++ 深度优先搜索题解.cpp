@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class Solution {
 public:
     void dfs1(const vector<vector<int> >& g, int i, int k, vector<int>& dfn) {
@@ -48,6 +48,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/3f1b1d24b387863c99be86ade0b84e16d314fea513d482be52bafc9184e6fcc8-image.png)
+// ![image.png](https://pic.leetcode-cn.com/3f1b1d24b387863c99be86ade0b84e16d314fea513d482be52bafc9184e6fcc8-image.png)

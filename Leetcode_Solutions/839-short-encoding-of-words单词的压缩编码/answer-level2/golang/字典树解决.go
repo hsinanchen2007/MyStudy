@@ -1,10 +1,10 @@
-### 解题思路
-* 使用字典树解决后缀重复（单词要反转）
-* 统计的结果是字典树的叶节点的高度+1 之和
+// ### 解题思路
+// * 使用字典树解决后缀重复（单词要反转）
+// * 统计的结果是字典树的叶节点的高度+1 之和
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func minimumLengthEncoding(words []string) int {
   trie := NewTrie()
   for _,word := range words{
@@ -84,4 +84,4 @@ func (t* Trie) WalkAll() int {
   return  Walk(t.root)
 }
 
-```
+// ```

@@ -1,8 +1,8 @@
 
-![image.png](https://pic.leetcode-cn.com/41e5f1cd1a3669203cb602b6b74095f1386bf1e4cdc0b4f461cc5e8f02db2818-image.png)
+// ![image.png](https://pic.leetcode-cn.com/41e5f1cd1a3669203cb602b6b74095f1386bf1e4cdc0b4f461cc5e8f02db2818-image.png)
 
-分析如下：
-```
+// 分析如下：
+// ```
 /*
 1.判断数组中是否有0元素，如果没有，直接返回false(处理特殊情况)
 2.使用vis表示可以走到的位置，vis[start]=true;
@@ -49,4 +49,4 @@ public:
         return false;
     }
 };
-```
+// ```

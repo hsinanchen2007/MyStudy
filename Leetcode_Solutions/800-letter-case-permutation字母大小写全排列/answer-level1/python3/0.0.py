@@ -1,9 +1,9 @@
-### 解题思路
-也就是一个遍历的思想，遇到字母了就把它反转后加入进去
+# ### 解题思路
+# 也就是一个遍历的思想，遇到字母了就把它反转后加入进去
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def letterCasePermutation(self, S: str) -> List[str]:
 
@@ -20,4 +20,4 @@ class Solution:
                         ans=ans +[x[:idx]+tmp+x[idx+1:]] 
             return ans
         return (get_change_char(S))
-```
+# ```

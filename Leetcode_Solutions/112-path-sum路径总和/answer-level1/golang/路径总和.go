@@ -1,8 +1,8 @@
-使用迭代法，使用golang里自带的链表list。
-创建两个list，分别将节点，(sum-节点的值)放进去。
-使用两个链表时间和空间的效率都低。
-代码如下
-```go []
+// 使用迭代法，使用golang里自带的链表list。
+// 创建两个list，分别将节点，(sum-节点的值)放进去。
+// 使用两个链表时间和空间的效率都低。
+// 代码如下
+// ```go []
 import list2 "container/list"
 func hasPathSum(root *TreeNode, sum int) bool {
 	if root == nil {
@@ -37,5 +37,5 @@ func hasPathSum(root *TreeNode, sum int) bool {
 	return false
 
 }
-```
+// ```
 

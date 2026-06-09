@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def optimalDivision(nums: Array[Int]): String = nums.toList match {
     case h :: Nil => h.toString
@@ -6,4 +6,4 @@ object Solution {
     case h :: t => h + "/(" + t.mkString("/") + ")"
   }
 }
-```
+// ```

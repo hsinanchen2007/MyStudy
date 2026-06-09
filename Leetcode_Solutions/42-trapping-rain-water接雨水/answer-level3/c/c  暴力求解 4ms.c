@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int maxheight(int *height,int low,int high);//返回数组low--high的最大值的下标；
 int trap(int* height, int heightSize){
 	if(heightSize==0||heightSize==1||heightSize==2) return 0;
@@ -36,4 +36,4 @@ int maxheight(int *height,int low,int high){
 	}
 	return max;
 } 
-```
+// ```

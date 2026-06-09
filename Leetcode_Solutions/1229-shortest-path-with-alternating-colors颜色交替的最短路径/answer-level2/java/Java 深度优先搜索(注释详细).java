@@ -1,12 +1,12 @@
-### 解题思路
-按照 [大力王](https://leetcode-cn.com/u/da-li-wang/) 的c++ 思路改为 java 
+// ### 解题思路
+// 按照 [大力王](https://leetcode-cn.com/u/da-li-wang/) 的c++ 思路改为 java 
 
-### 参考
-[大力王 c++ 思路](https://leetcode-cn.com/problems/shortest-path-with-alternating-colors/solution/c-shen-du-you-xian-sou-suo-by-da-li-wang-4/)
+// ### 参考
+// [大力王 c++ 思路](https://leetcode-cn.com/problems/shortest-path-with-alternating-colors/solution/c-shen-du-you-xian-sou-suo-by-da-li-wang-4/)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] shortestAlternatingPaths(int n, int[][] red_edges, int[][] blue_edges) {
 		List<List<Integer>> rg = new ArrayList<>();//这是 红色线的集合
@@ -61,4 +61,4 @@ class Solution {
 		}
 	}
 }
-```
+// ```

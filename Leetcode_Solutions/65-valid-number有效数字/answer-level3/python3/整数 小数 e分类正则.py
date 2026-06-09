@@ -1,6 +1,6 @@
-服了
-.3  1.  40.e3  -.  2e0 等各种样例都有
-```
+# 服了
+# .3  1.  40.e3  -.  2e0 等各种样例都有
+# ```
     def isNumber(self, s: str) -> bool:
         s = s.strip()
         if s=="" or s=="." or s=='e':
@@ -20,4 +20,4 @@
             return True
         else:
             return False
-```
+# ```

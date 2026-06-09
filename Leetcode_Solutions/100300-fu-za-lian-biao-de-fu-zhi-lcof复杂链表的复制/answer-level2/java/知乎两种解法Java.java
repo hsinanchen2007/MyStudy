@@ -1,10 +1,10 @@
-### 解题思路
-两种解法，看不懂来打我
-https://zhuanlan.zhihu.com/p/103095002
+// ### 解题思路
+// 两种解法，看不懂来打我
+// https://zhuanlan.zhihu.com/p/103095002
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /*
 // Definition for a Node.
 class Node {
@@ -39,4 +39,4 @@ class Solution {
         return map.get(head);
     }
 }
-```
+// ```

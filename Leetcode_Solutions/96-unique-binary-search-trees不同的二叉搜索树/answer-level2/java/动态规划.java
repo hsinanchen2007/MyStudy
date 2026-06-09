@@ -1,7 +1,7 @@
-### 解题思路
-### 代码
+// ### 解题思路
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numTrees(int n) {
         //G(n)表示长度为n的序列种数
@@ -18,4 +18,4 @@ class Solution {
         return G[n];
     }
 }
-```
+// ```

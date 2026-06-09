@@ -1,9 +1,9 @@
-### 解题思路
-快慢指针找中间结点，头插法翻转前一半和后一半比较。
+// ### 解题思路
+// 快慢指针找中间结点，头插法翻转前一半和后一半比较。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -49,4 +49,4 @@ var isPalindrome = function(head) {
 
 
 };
-```
+// ```

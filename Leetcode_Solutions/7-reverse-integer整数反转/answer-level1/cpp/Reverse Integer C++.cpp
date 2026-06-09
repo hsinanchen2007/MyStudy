@@ -1,13 +1,13 @@
-### 解题思路
-每次记录当前数字的最后一位，然后删除最后一位。
+// ### 解题思路
+// 每次记录当前数字的最后一位，然后删除最后一位。
 
-每次将反转结果rev*10并加上最后一位pop
+// 每次将反转结果rev*10并加上最后一位pop
 
-参考[官方题解](https://leetcode-cn.com/problems/reverse-integer/solution/zheng-shu-fan-zhuan-by-leetcode/)
+// 参考[官方题解](https://leetcode-cn.com/problems/reverse-integer/solution/zheng-shu-fan-zhuan-by-leetcode/)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int reverse(int x) {
@@ -29,4 +29,4 @@ public:
         return rev;
     }
 };
-```
+// ```

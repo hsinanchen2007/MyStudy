@@ -1,10 +1,10 @@
-### 解题思路
-核心思路是不停地迭代二维数组,直到找出解
-三个函数fill_single,get_two,check代码重复较多,还有优化空间
+# ### 解题思路
+# 核心思路是不停地迭代二维数组,直到找出解
+# 三个函数fill_single,get_two,check代码重复较多,还有优化空间
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from copy import deepcopy
 
 class Solution:
@@ -96,4 +96,4 @@ class Solution:
 
     def run(self):
         self.core()
-```
+# ```

@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/fd6de623a68e0d28237f8fd79a74864bd5c35cb1372f185704979500f718f740-image.png)
+// ![image.png](https://pic.leetcode-cn.com/fd6de623a68e0d28237f8fd79a74864bd5c35cb1372f185704979500f718f740-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
   动态规划：
   
   dp[i]: 代表前 i 个字符串是否可以由 wordDict 中的单词构成，最终求的肯定是
@@ -19,11 +19,11 @@
   - dp[1] === true && s.slice(1, 5) in wordRict
   - dp[2] === true && s.slice(2, 5) in wordRict
   - 。。。
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @param {string[]} wordDict
@@ -75,4 +75,4 @@ var wordBreak = function(s, wordDict) {
   
 //   return ans;
 // };
-```
+// ```

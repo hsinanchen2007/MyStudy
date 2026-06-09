@@ -1,16 +1,16 @@
-### 解题思路
-此处撰写解题思路
-状态转移
-result = d（postion, 剩余交易次数, 手中是否持有股票）
-    d(i, k, 0) = max(d(i-1, k, 0), d(i-1, k, 1)+prices[i])
-    d(i, k, 1) = max(d(i-1, k, 1), d(i-1, k+1, 0) - prices[i])
-最终结果从d(len-1, 2, 0) d(len-1, 1, 0) d(len, 0, 0)中选取
-4 ms, 在所有 cpp 提交中击败了98.76%
-的用户
+// ### 解题思路
+// 此处撰写解题思路
+// 状态转移
+// result = d（postion, 剩余交易次数, 手中是否持有股票）
+//     d(i, k, 0) = max(d(i-1, k, 0), d(i-1, k, 1)+prices[i])
+//     d(i, k, 1) = max(d(i-1, k, 1), d(i-1, k+1, 0) - prices[i])
+// 最终结果从d(len-1, 2, 0) d(len-1, 1, 0) d(len, 0, 0)中选取
+// 4 ms, 在所有 cpp 提交中击败了98.76%
+// 的用户
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
@@ -34,4 +34,4 @@ public:
         return max(0, max(d[len-1][1][0], d[len-1][0][0]));
     }
 };
-```
+// ```

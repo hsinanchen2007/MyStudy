@@ -1,9 +1,9 @@
-### 解题思路
-滑动窗口，重点理解maxcount，看注解
+# ### 解题思路
+# 滑动窗口，重点理解maxcount，看注解
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from collections import defaultdict
 class Solution:
     def characterReplacement(self, s: str, k: int) -> int:
@@ -27,4 +27,4 @@ class Solution:
                 # 这是由于我们只找满足条件的最大值，当大于maxcount的值出现，表示right-left+1的值更大!
             res = max(right - left + 1, res)
         return res
-```
+# ```

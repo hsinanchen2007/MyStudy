@@ -1,9 +1,9 @@
-### 解题思路
-有没有人跟我思路一样：）
+# ### 解题思路
+# 有没有人跟我思路一样：）
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 class ListNode:
     def __init__(self, x):
@@ -31,4 +31,4 @@ class Solution:
         return next
             
 
-```
+# ```

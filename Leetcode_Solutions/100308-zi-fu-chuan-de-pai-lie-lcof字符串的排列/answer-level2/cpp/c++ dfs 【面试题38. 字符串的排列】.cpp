@@ -1,9 +1,9 @@
-### 解题思路
-比正常排列多了一个判断（见注释），跳过重复项
+// ### 解题思路
+// 比正常排列多了一个判断（见注释），跳过重复项
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> result;
@@ -31,4 +31,4 @@ public:
         return false;
     }
 };
-```
+// ```

@@ -1,6 +1,6 @@
-- 基本的回溯算法，没想到什么好的剪枝方法。
-- 由于递归必然会结束，所以不需要结束条件，每次取最大值即可。
-```
+// - 基本的回溯算法，没想到什么好的剪枝方法。
+// - 由于递归必然会结束，所以不需要结束条件，每次取最大值即可。
+// ```
 #define NULL_PTR (0)
 #define TRUE (1)
 #define FALSE (0)
@@ -86,4 +86,4 @@ int getMaximumGold(int** grid, int gridSize, int* gridColSize)
     }    
     return g_val;
 }
-```
+// ```

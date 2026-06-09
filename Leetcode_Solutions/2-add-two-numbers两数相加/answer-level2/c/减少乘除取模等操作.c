@@ -1,9 +1,9 @@
-### 解题思路
-每位数和进位相加，最后如果进位不为0就再补一位。把/和%用x>9?x-10:x;和x>9?1:0;代替效率会提高很多
+// ### 解题思路
+// 每位数和进位相加，最后如果进位不为0就再补一位。把/和%用x>9?x-10:x;和x>9?1:0;代替效率会提高很多
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -63,4 +63,4 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
     free(rear);
     return p;
 }
-```
+// ```

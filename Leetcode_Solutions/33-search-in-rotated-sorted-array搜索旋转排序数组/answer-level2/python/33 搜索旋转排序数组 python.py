@@ -1,13 +1,13 @@
-### 解题思路
-二分查找
-i=0
-j=len(nums)-1
-mid=(i+j)//2
+# ### 解题思路
+# 二分查找
+# i=0
+# j=len(nums)-1
+# mid=(i+j)//2
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def search(self, nums, target):
         """
@@ -36,4 +36,4 @@ class Solution(object):
                 else:
                     j=mid-1
         return -1
-```
+# ```

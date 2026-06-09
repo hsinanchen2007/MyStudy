@@ -1,12 +1,12 @@
-### 解题思路
-Go标准库里没有队列，可以用数组（切片）或链表来实现：
-1. 使用数组切片；push就是append，pop就是调整切片长度，top就是返回最后一个元素
-2. 使用标准库container/list包装
-3. 自定义list，标准库的list是个双链表且将值定为interface{}类型，这里可以简化为单链表并确定数据类型为int
+// ### 解题思路
+// Go标准库里没有队列，可以用数组（切片）或链表来实现：
+// 1. 使用数组切片；push就是append，pop就是调整切片长度，top就是返回最后一个元素
+// 2. 使用标准库container/list包装
+// 3. 自定义list，标准库的list是个双链表且将值定为interface{}类型，这里可以简化为单链表并确定数据类型为int
 
-### 代码
-1.使用切片
-```golang
+// ### 代码
+// 1.使用切片
+// ```golang
 type MyStack struct {
     slice []int
 }
@@ -39,10 +39,10 @@ func (s *MyStack) Top() int {
 func (s *MyStack) Empty() bool {
     return len(s.slice) == 0
 }
-```
-2.使用标准库list
+// ```
+// 2.使用标准库list
 
-```golang
+// ```golang
 type MyStack struct {
     *list.List
 }
@@ -73,9 +73,9 @@ func (s *MyStack) Top() int {
 func (s *MyStack) Empty() bool {
     return s.Len() == 0
 }
-```
-3.自定义list
-```
+// ```
+// 3.自定义list
+// ```
 type Node struct {
     Next *Node
     Val int
@@ -113,4 +113,4 @@ func (s *MyStack) Top() int {
 func (s *MyStack) Empty() bool {
     return s.top == nil
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-建立树模型，进行广度优先搜索，对访问过的节点进行标记
+// ### 解题思路
+// 建立树模型，进行广度优先搜索，对访问过的节点进行标记
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
 
 func numIslands(_ grid: [[Character]]) -> Int {
@@ -63,4 +63,4 @@ func numIslands(_ grid: [[Character]]) -> Int {
 }
 
 }
-```
+// ```

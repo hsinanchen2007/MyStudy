@@ -1,16 +1,16 @@
-### 解题思路
+// ### 解题思路
 
-#### 思路一，创造一个临时的二维数组
-创造一个和输入的数组大小一样的临时二维数组， 来储存更新后的值。待所有的值都更新之后，再将临时数组里面的值一个个赋值到原数组中。
+// #### 思路一，创造一个临时的二维数组
+// 创造一个和输入的数组大小一样的临时二维数组， 来储存更新后的值。待所有的值都更新之后，再将临时数组里面的值一个个赋值到原数组中。
 
-#### 思路二，创造一个Dictionary
-业务逻辑方面和思路一相同，共用同一个业务逻辑函数，但是本思路利用`Dictionary`来临时储存更新后的值，而非一个二维数组。
+// #### 思路二，创造一个Dictionary
+// 业务逻辑方面和思路一相同，共用同一个业务逻辑函数，但是本思路利用`Dictionary`来临时储存更新后的值，而非一个二维数组。
 
-该`Dictionary`的Key是一个用来表示具体的坐标的Tuple，Item1是 row 的 index，Item2是 column 的 index。
+// 该`Dictionary`的Key是一个用来表示具体的坐标的Tuple，Item1是 row 的 index，Item2是 column 的 index。
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public void GameOfLife(int[][] board)
     {
@@ -113,4 +113,4 @@ public class Solution {
         return currentCellStatus;
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-每次在当前获取到的字符串后面添加下个数字对应字母的值
-如此进行循环即可
+# ### 解题思路
+# 每次在当前获取到的字符串后面添加下个数字对应字母的值
+# 如此进行循环即可
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from typing import List
 import copy
 
@@ -50,4 +50,4 @@ class Solution:
                 return False
             i=i+1
         return tmpstr
-```
+# ```

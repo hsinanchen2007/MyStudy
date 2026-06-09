@@ -1,4 +1,4 @@
-```
+// ```
 public class Solution {
     public String dayOfTheWeek(int day, int month, int year) {
         String[] data = {"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"};
@@ -12,6 +12,6 @@ public class Solution {
         return data[(w + 7) % 7];
     }
 }
-```
+// ```
 
-直接套公式最快，不用自己慢慢推，但是公式不好记
+// 直接套公式最快，不用自己慢慢推，但是公式不好记

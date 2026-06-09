@@ -1,9 +1,9 @@
-### 解题思路
-链表增添元素的优势
+// ### 解题思路
+// 链表增添元素的优势
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct LinkList{
     int data;
     int *next;
@@ -40,4 +40,4 @@ void duplicateZeros(int* arr, int arrSize){
         t = t->next;
     }
 }
-```
+// ```

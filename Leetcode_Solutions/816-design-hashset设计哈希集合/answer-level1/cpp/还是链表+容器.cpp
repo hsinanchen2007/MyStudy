@@ -1,7 +1,7 @@
-果不其然，效率排名靠前的依然清一色的数组怪...
+// 果不其然，效率排名靠前的依然清一色的数组怪...
 
 
-```
+// ```
 class MyHashSet {
     
 private:
@@ -91,4 +91,4 @@ public:
  * obj->remove(key);
  * bool param_3 = obj->contains(key);
  */
-```
+// ```

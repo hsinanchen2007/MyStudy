@@ -1,14 +1,14 @@
-### 解题思路
-		(
-((				()
-  (()     ()(     
-	 (())   ()()
-递归：先添加左括号，再添加有括号
-减枝：右括号大于左括号，左括号大于n
-添加路径：左括号等于右括号等于n
-### 代码
+// ### 解题思路
+// 		(
+// ((				()
+//   (()     ()(     
+// 	 (())   ()()
+// 递归：先添加左括号，再添加有括号
+// 减枝：右括号大于左括号，左括号大于n
+// 添加路径：左括号等于右括号等于n
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 void dfs(vector<string>& vec, int n, int left, int right, string path){
@@ -31,4 +31,4 @@ vector<string> generateParenthesis(int n) {
     return vec;
 }
 };
-```
+// ```

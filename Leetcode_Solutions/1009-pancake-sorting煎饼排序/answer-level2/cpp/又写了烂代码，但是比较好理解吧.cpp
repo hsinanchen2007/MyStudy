@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<int> pancakeSort(vector<int>& A) {
@@ -20,5 +20,5 @@ public:
         cout << endl;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/030ad0b31beeada6d843e97c219880b3db0b0a4a123d30abc9f017b6c1188a6f-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/030ad0b31beeada6d843e97c219880b3db0b0a4a123d30abc9f017b6c1188a6f-image.png)

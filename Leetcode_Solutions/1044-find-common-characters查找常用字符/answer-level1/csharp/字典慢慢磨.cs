@@ -1,4 +1,4 @@
-```
+// ```
 public class Solution {
     public IList<string> CommonChars(string[] A) {
         List<Dictionary<char, int>> list = new List<Dictionary<char, int>>();
@@ -44,4 +44,4 @@ public class Solution {
         return res;
     }
 }
-```
+// ```

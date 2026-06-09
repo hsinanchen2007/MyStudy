@@ -1,9 +1,9 @@
-### 解题思路
-快慢指针中，注意边界条件 null != fastNode && null != slowNode&& fastNode.next != null，第三个条件是为了防止链表过短造成空指针异常
+// ### 解题思路
+// 快慢指针中，注意边界条件 null != fastNode && null != slowNode&& fastNode.next != null，第三个条件是为了防止链表过短造成空指针异常
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -24,4 +24,4 @@ class Solution {
         return slowNode;
     }
 }
-```
+// ```

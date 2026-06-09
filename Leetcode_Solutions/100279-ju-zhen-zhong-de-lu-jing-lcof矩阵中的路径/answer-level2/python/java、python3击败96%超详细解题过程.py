@@ -1,11 +1,11 @@
-## 解题分析
-这道题，只能使用暴力DFS+剪枝来做，就是依次的遍历二位矩阵上面的所有节点，如果和给定的单词第一个字母匹配，那么我们就从这个节点开始，依次看他的上下左右的节点是不是和单词的第二个字母匹配，一旦有一个不匹配，后面的就不用比较了，直接查看二位矩阵的下一个节点，如果一直匹配到了单词的最后一个字母都相等的话，那就是已经有匹配的了，就可以终止遍历二位矩阵，直接返回True；如果所有节点都查看完毕，还是没有整体匹配的，就是整个二位矩阵都没有匹配的，返回False；
+# ## 解题分析
+# 这道题，只能使用暴力DFS+剪枝来做，就是依次的遍历二位矩阵上面的所有节点，如果和给定的单词第一个字母匹配，那么我们就从这个节点开始，依次看他的上下左右的节点是不是和单词的第二个字母匹配，一旦有一个不匹配，后面的就不用比较了，直接查看二位矩阵的下一个节点，如果一直匹配到了单词的最后一个字母都相等的话，那就是已经有匹配的了，就可以终止遍历二位矩阵，直接返回True；如果所有节点都查看完毕，还是没有整体匹配的，就是整个二位矩阵都没有匹配的，返回False；
 
-值得一提的是，不允许重复的利用节点，我们可以在判断完当前的节点等于单词上的某个字母之后，把这个节点的值做一个修改，等到下面的节点遍历返回结果的时候再给修改过来；
-## 代码
-- java实现
+# 值得一提的是，不允许重复的利用节点，我们可以在判断完当前的节点等于单词上的某个字母之后，把这个节点的值做一个修改，等到下面的节点遍历返回结果的时候再给修改过来；
+# ## 代码
+# - java实现
 
-	```java
+# 	```java
 	class Solution {
 	    public boolean exist(char[][] board, String word) {
 	        if (Objects.isNull(board) || board.length == 0) {
@@ -44,11 +44,11 @@
 	        return ifExist;
 	    }
 	}
-	```
+# 	```
 
-- python实现
+# - python实现
 
-	```python3
+# 	```python3
 	class Solution:
 	    def exist(self, board: List[List[str]], word: str) -> bool:
 	        if board is None or len(board) == 0:
@@ -70,4 +70,4 @@
 	        if_exist = self.dfs(board, words, i, j - 1, index + 1) or self.dfs(board, words, i, j + 1, index + 1) or self.dfs(board, words, i + 1, j, index + 1) or self.dfs(board, words, i - 1, j, index + 1)
 	        board[i][j] = temp
 	        return if_exist
-	```
+# 	```

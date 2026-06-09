@@ -1,9 +1,9 @@
-### 解题思路
-本质上就是不停构造子串，判断是否回文，一开始想复杂了，不停地拼两个子串，提效关键在于判断回文的算法
+// ### 解题思路
+// 本质上就是不停构造子串，判断是否回文，一开始想复杂了，不停地拼两个子串，提效关键在于判断回文的算法
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var longestPalindrome = function(s) {
     let res = ''
     let max = 0
@@ -40,4 +40,4 @@ function isReverse(str) {
     }
     return !flag
 }
-```
+// ```

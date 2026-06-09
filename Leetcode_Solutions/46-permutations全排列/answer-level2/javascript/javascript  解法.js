@@ -1,4 +1,4 @@
-```
+// ```
 var permute = function(nums) {
     let temp=[],used=[],depth=0,result=[];
     backTrack(nums,used,result,temp,depth)
@@ -19,4 +19,4 @@ function backTrack(nums,used,result,temp,depth){
         }
     }
 }
-```
+// ```

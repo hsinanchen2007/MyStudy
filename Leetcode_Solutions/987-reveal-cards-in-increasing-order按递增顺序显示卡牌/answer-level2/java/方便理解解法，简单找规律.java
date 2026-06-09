@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int[] deckRevealedIncreasing(int[] deck) {
         // a b c d e f
@@ -41,4 +41,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

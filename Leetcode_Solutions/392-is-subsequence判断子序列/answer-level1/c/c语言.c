@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isSubsequence(char * s, char * t){
      int len1=strlen(s);
      if(len1==0) return 1;
@@ -14,4 +14,4 @@ bool isSubsequence(char * s, char * t){
      }
      return 1;
 }
-```
+// ```

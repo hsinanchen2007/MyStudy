@@ -1,4 +1,4 @@
-```
+// ```
 var findNumbers = function(nums) {
     let count = 0;
     for(let i = 0,len = nums.length;i<len;i++){
@@ -6,4 +6,4 @@ var findNumbers = function(nums) {
     }
     return count;
 };
-```
+// ```

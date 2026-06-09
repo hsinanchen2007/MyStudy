@@ -1,6 +1,6 @@
-1. 该题目比较简单，直接看代码。
-2. 如果有n个等价的骨牌，则等价的骨牌对的数目为n*(n-1)/2;
-```
+// 1. 该题目比较简单，直接看代码。
+// 2. 如果有n个等价的骨牌，则等价的骨牌对的数目为n*(n-1)/2;
+// ```
 class Solution {
 public:
     int numEquivDominoPairs(vector<vector<int>>& dominoes) {
@@ -24,4 +24,4 @@ public:
         return res;
     }
 };
-```
+// ```

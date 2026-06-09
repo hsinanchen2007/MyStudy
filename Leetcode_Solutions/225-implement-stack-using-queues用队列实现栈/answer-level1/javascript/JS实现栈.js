@@ -1,9 +1,9 @@
-### 解题思路
-直接利用javascript中数组本身的push、pop等方法来实现，就非常简单了
+// ### 解题思路
+// 直接利用javascript中数组本身的push、pop等方法来实现，就非常简单了
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Initialize your data structure here.
  */
@@ -61,4 +61,4 @@ MyStack.prototype.empty = function() {
  * var param_3 = obj.top()
  * var param_4 = obj.empty()
  */
-```
+// ```

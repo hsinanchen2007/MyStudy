@@ -1,4 +1,4 @@
-```javascript []
+// ```javascript []
 var addTwoNumbers = function(l1, l2) {
     var res = new Array(),n1 = 0,n2 = 0,sum;
     for(var i = 0;i<l1.length;i++){
@@ -14,12 +14,12 @@ var addTwoNumbers = function(l1, l2) {
     }while(sum!=0);
     return res;
 };
-```
-```python []
+// ```
+// ```python []
 print('Hello world!')
-```
-```ruby []
+// ```
+// ```ruby []
 puts 'Hello world!'
-```
+// ```
 
-这个js代码在浏览器上能正确输出，但为什么在leetcode上是输出undefined呀！有大佬能解释下吗？
+// 这个js代码在浏览器上能正确输出，但为什么在leetcode上是输出undefined呀！有大佬能解释下吗？

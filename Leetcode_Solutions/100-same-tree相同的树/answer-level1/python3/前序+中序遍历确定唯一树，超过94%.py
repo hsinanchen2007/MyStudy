@@ -1,4 +1,4 @@
-```
+# ```
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -34,5 +34,5 @@ class Solution:
             if nums3 == nums4:
                 return True
         return False
-```
-中序遍历加上前序遍历或者后序遍历才能唯一确定一颗树
+# ```
+# 中序遍历加上前序遍历或者后序遍历才能唯一确定一颗树

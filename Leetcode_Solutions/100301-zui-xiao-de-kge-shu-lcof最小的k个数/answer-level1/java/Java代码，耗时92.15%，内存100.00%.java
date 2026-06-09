@@ -1,10 +1,10 @@
-### 解题思路
-1.按照字符串思路计算出各个数字出现的次数；
-2.然后取出最值。
+// ### 解题思路
+// 1.按照字符串思路计算出各个数字出现的次数；
+// 2.然后取出最值。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] getLeastNumbers(int[] arr, int k) {
         //1.计算数字出现的次数，并排序
@@ -33,4 +33,4 @@ class Solution {
         return rtnArr;
     }
 }
-```
+// ```

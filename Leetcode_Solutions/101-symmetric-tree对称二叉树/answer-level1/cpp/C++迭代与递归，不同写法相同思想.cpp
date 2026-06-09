@@ -1,6 +1,6 @@
-### 1.递归版本
-    递归版本是比较容易理解的，清楚解决问题的最基本步骤即可。
-```
+// ### 1.递归版本
+//     递归版本是比较容易理解的，清楚解决问题的最基本步骤即可。
+// ```
 bool isSymmetric(TreeNode* root) {
 	if (!root) 
 		return true;
@@ -17,10 +17,10 @@ bool isMirror(TreeNode* n1, TreeNode* n2)
 		return (n1->val == n2->val) && isMirror(n1->left, n2->right) && isMirror(n1->right, n2->left);
 	
 }
-```
-### 2.迭代版本
-    迭代版本可以借助栈来实现，与递归思想基本一致。需要注意的是循环终止条件。
-```
+// ```
+// ### 2.迭代版本
+//     迭代版本可以借助栈来实现，与递归思想基本一致。需要注意的是循环终止条件。
+// ```
 bool isSymmetric(TreeNode* root) {
 	if (!root) return true;
 	std::stack<TreeNode*> s;
@@ -63,5 +63,5 @@ bool isSymmetric(TreeNode* root) {
 	}
 	return true;
 }
-```
+// ```
 

@@ -1,6 +1,6 @@
-BFS的实现, 将目标串一次一次裁剪, 裁剪到空后, 返回裁剪的次数
+// BFS的实现, 将目标串一次一次裁剪, 裁剪到空后, 返回裁剪的次数
 
-```
+// ```
 class Solution {
 public:
     vector<map<char, int>> canStickers;  // 每个词条的字母及对应的个数表
@@ -73,4 +73,4 @@ public:
         return rst;
     }
 };
-```
+// ```

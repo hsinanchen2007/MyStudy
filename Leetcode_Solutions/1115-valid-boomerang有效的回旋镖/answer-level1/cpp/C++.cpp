@@ -1,9 +1,9 @@
-### 解题思路
-计算两点的所在直线的斜率是否相同即可
+// ### 解题思路
+// 计算两点的所在直线的斜率是否相同即可
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isBoomerang(vector<vector<int>>& points) {
@@ -16,4 +16,4 @@ public:
         return (points[0][1] - points[1][1]) * (points[1][0] - points[2][0]) != (points[0][0] - points[1][0]) * (points[1][1] - points[2][1])? true:false;
     }
 };
-```
+// ```

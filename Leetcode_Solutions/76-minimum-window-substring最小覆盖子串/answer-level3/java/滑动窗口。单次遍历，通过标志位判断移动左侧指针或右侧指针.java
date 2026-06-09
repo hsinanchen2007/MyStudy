@@ -1,5 +1,5 @@
-变量ForR为标志位，false时用于右侧指针移动，true时左侧指针移动
-```
+// 变量ForR为标志位，false时用于右侧指针移动，true时左侧指针移动
+// ```
 class Solution {
     public String minWindow(String s, String t) {
     	if(s.isEmpty() || t.isEmpty())
@@ -67,4 +67,4 @@ class Solution {
     	return result;
     }
 }
-```
+// ```

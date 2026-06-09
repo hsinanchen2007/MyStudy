@@ -1,7 +1,7 @@
-通过前缀树，加快单词搜索的速度
-通过记忆化，减少重复路径的搜索
+// 通过前缀树，加快单词搜索的速度
+// 通过记忆化，减少重复路径的搜索
 
-```
+// ```
 class Solution {
 	struct Node {
 		int idx;
@@ -60,4 +60,4 @@ public:
 		return Dfs(root, wordDict, s, 0, hashMap);
 	}
 };
-```
+// ```

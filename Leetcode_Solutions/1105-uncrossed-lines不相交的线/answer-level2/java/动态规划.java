@@ -1,9 +1,9 @@
-### 解题思路
-一开始没有想到是最长公共子序列的问题，为得到不想交直线，这样就跟寻找最长公共子序列的思路一样。
+// ### 解题思路
+// 一开始没有想到是最长公共子序列的问题，为得到不想交直线，这样就跟寻找最长公共子序列的思路一样。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxUncrossedLines(int[] A, int[] B) {
         int n1 = A.length;
@@ -21,4 +21,4 @@ class Solution {
         return dp[n1][n2];
     }
 }
-```
+// ```

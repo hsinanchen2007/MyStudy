@@ -1,9 +1,9 @@
-### 解题思路
-压栈，遇到[解析字符串，在压回去，继续遍历。
+// ### 解题思路
+// 压栈，遇到[解析字符串，在压回去，继续遍历。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int Push(char *stack, char *str, int len, int count)
 {   
     for(int i = 0; i < count; i++) {
@@ -74,4 +74,4 @@ char * decodeString(char * s){
     
     return stack;
 }
-```
+// ```

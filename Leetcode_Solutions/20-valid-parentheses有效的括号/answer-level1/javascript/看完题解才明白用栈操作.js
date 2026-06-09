@@ -1,9 +1,9 @@
-### 解题思路
-实在没思路，看的题解。略略略
+// ### 解题思路
+// 实在没思路，看的题解。略略略
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {boolean}
@@ -40,4 +40,4 @@ var isValid = function(s) {
     }
  
  };
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-可以利用栈。具体思路见注释
-### 代码
+// ### 解题思路
+// 可以利用栈。具体思路见注释
+// ### 代码
 
-```c
+// ```c
 typedef struct
 {
     int data[10000];
@@ -74,4 +74,4 @@ int trap(int* height, int heightSize){
     printf("max is %d,imax is %d,water is %d; ",max,imax,water);
     return water;
 }
-```
+// ```

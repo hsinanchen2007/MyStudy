@@ -1,11 +1,11 @@
-### 解题思路
-1.首先对A数组进行从小到大的排序
-2.便利数组B，只要数组A的元素大于B，就将A元素写入结果中，这样就可以保证A中剩余的元素中，刚好比B这个元素大；
-3.如果剩余的A元素都小于B当前元素，则将数组中最小的元素写入结果中；
-就是田忌赛马。
-### 代码
+// ### 解题思路
+// 1.首先对A数组进行从小到大的排序
+// 2.便利数组B，只要数组A的元素大于B，就将A元素写入结果中，这样就可以保证A中剩余的元素中，刚好比B这个元素大；
+// 3.如果剩余的A元素都小于B当前元素，则将数组中最小的元素写入结果中；
+// 就是田忌赛马。
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -44,4 +44,4 @@ int* advantageCount(int* A, int ASize, int* B, int BSize, int* returnSize){
     *returnSize = idx;
     return result;
 }
-```
+// ```

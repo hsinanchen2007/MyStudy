@@ -1,9 +1,9 @@
-### 解题思路
-利用字典的特性,不知道这样算不算算法,还是说是api, 时间44ms, 83.07%,内存14.3M,59%
+# ### 解题思路
+# 利用字典的特性,不知道这样算不算算法,还是说是api, 时间44ms, 83.07%,内存14.3M,59%
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def frequencySort(self, s: str) -> str:
         if not s:
@@ -26,4 +26,4 @@ class Solution:
                 break
         s += ''.join(list(storage.keys()))
         return s
-```
+# ```

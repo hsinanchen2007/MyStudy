@@ -1,5 +1,5 @@
-先在原数组上操作，逢十进一，再复制到需要返回的数组。注意处理特殊情况。
-```c
+// 先在原数组上操作，逢十进一，再复制到需要返回的数组。注意处理特殊情况。
+// ```c
 int* plusOne(int* digits, int digitsSize, int* returnSize){
     short i=digitsSize-1,from_lower=1;
     while(from_lower&&i>=0){
@@ -14,4 +14,4 @@ int* plusOne(int* digits, int digitsSize, int* returnSize){
     if(from_lower) res[0]=1;
     return res;
 }
-```
+// ```

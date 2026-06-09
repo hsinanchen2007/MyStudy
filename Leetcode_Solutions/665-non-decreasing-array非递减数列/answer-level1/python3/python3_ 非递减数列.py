@@ -1,4 +1,4 @@
-```python
+# ```python
 def checkPossibility(nums):
     def isSort(arr):
         for i in range(len(arr) - 1):
@@ -17,4 +17,4 @@ def checkPossibility(nums):
 
 print(checkPossibility([4,2,3]))
 print(checkPossibility([4,2,1]))
-```
+# ```

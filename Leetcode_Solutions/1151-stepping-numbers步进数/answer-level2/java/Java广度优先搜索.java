@@ -1,8 +1,8 @@
-暴力的思路是遍历，然后判断是否为步进数，会超时。
+// 暴力的思路是遍历，然后判断是否为步进数，会超时。
 
-基本思路：一点一点生成步进数，改变已经生成的步进数的最后一位（+1或者-1），生成新的步进数、
+// 基本思路：一点一点生成步进数，改变已经生成的步进数的最后一位（+1或者-1），生成新的步进数、
 
-```Java
+// ```Java
     private Set<Integer> set = new TreeSet<>();
     
     public List<Integer> countSteppingNumbers(int low, int high) {
@@ -40,5 +40,5 @@
             }
         }
     }
-```
-这是我的[LeetCode分类题解](https://github.com/caipengbo/AlgoEx/tree/master/LeetCode)（每日更新, issue内有总结），和我一起每日刷题吧！
+// ```
+// 这是我的[LeetCode分类题解](https://github.com/caipengbo/AlgoEx/tree/master/LeetCode)（每日更新, issue内有总结），和我一起每日刷题吧！

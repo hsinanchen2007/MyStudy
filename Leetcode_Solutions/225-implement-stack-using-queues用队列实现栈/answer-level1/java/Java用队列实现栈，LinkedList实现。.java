@@ -1,11 +1,11 @@
-### 解题思路
-用Java里的`LinkedList`来实现，成员变量为`LinkedList`对象`ll`和记录栈长度的`length`。
-构造方法就是new一个`LinkedList`对象,初始化长度`length = 0`。
+// ### 解题思路
+// 用Java里的`LinkedList`来实现，成员变量为`LinkedList`对象`ll`和记录栈长度的`length`。
+// 构造方法就是new一个`LinkedList`对象,初始化长度`length = 0`。
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MyStack {
 
     private LinkedList<Integer> ll;
@@ -51,4 +51,4 @@ class MyStack {
  * int param_3 = obj.top();
  * boolean param_4 = obj.empty();
  */
-```
+// ```

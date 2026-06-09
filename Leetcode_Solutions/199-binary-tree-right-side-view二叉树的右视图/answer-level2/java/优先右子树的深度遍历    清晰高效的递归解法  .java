@@ -1,7 +1,7 @@
-# 思路
-   优先右子树的深度优先遍历，deepest表示目前存的最大深度
-# 代码
-```java
+// # 思路
+//    优先右子树的深度优先遍历，deepest表示目前存的最大深度
+// # 代码
+// ```java
     List<Integer> ans = new ArrayList<>();
     int deepest = 0;
 
@@ -19,4 +19,4 @@
         helper(root.right, now + 1);
         helper(root.left, now + 1);
     }
-```
+// ```

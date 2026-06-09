@@ -1,9 +1,9 @@
-### 解题思路
-自定义变量解决
+-- ### 解题思路
+-- 自定义变量解决
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 select username AS USERNAME,activity  as ACTIVITY,startDate AS STARTDATE,endDate AS ENDDATE from
 (
@@ -17,4 +17,4 @@ select u1.* from UserActivity u1 group by username having count(*) = 1
 
 
 
-```
+-- ```

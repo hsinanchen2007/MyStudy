@@ -1,9 +1,9 @@
-### 解题思路
-常规解法
+// ### 解题思路
+// 常规解法
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char* reverseLeftWords(char* s, int n){
     char* num=(char*)malloc(sizeof(char)*(n+1));
     int cnt=0;
@@ -25,4 +25,4 @@ char* reverseLeftWords(char* s, int n){
     }
     return s;
 }
-```
+// ```

@@ -1,7 +1,7 @@
-广度优先搜索题，在搜索的同时加上层次信息，根据层次信息判断当前搜索结点的所属子列表。
+# 广度优先搜索题，在搜索的同时加上层次信息，根据层次信息判断当前搜索结点的所属子列表。
 
 
-```
+# ```
 class Solution:
     def levelOrder(self, root: 'Node') -> List[List[int]]:
         if not root: return []
@@ -17,4 +17,4 @@ class Solution:
                 for i in node.children:
                     queue.append((level+1,i))
         return res
-```
+# ```

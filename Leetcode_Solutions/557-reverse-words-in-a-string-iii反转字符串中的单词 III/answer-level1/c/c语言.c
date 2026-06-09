@@ -1,6 +1,6 @@
-遍历字符串，遇到空格的时候翻转前面的字符串.
-时间复杂度O(n), 空间复杂度O(n)
-```c
+// 遍历字符串，遇到空格的时候翻转前面的字符串.
+// 时间复杂度O(n), 空间复杂度O(n)
+// ```c
 char * reverseWords(char * s){
     int len = strlen(s)+1;
     char *r = malloc(len);
@@ -27,4 +27,4 @@ char * reverseWords(char * s){
     }
     return r;
 }
-```
+// ```

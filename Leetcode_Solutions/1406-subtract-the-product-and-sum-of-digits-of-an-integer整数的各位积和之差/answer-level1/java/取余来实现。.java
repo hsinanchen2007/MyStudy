@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int subtractProductAndSum(int n) {
         //用到了java的函数Integer.parseInt(String.valueOf(s.charAt(i)))，并不通用
@@ -28,4 +28,4 @@ class Solution {
         return product - sum;
     }
 }
-```
+// ```

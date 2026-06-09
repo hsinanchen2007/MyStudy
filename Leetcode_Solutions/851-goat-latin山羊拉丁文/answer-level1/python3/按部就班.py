@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def toGoatLatin(self, S: str) -> str:
         s_list=S.split(' ')
@@ -15,4 +15,4 @@ class Solution:
             rs=rs+' '
         rs=rs.rstrip(' ')
         return rs
-```
+# ```

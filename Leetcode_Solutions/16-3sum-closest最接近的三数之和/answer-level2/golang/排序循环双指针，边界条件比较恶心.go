@@ -1,8 +1,8 @@
-### 解题思路
-排序循环双指针
-### 代码
+// ### 解题思路
+// 排序循环双指针
+// ### 代码
 
-```golang
+// ```golang
 func threeSumClosest(nums []int, target int) int {
     // 排序，双指针
     l := len(nums)
@@ -55,4 +55,4 @@ func threeSumClosest(nums []int, target int) int {
     }
     return res
 }
-```
+// ```

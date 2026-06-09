@@ -1,14 +1,14 @@
-### 解题思路
-从后往前看。
-（1）如果当前为是0，那么结果是0，因为不可能以0开头decode
-（2）else，可以用当前位decode的字母和剩下的字符串组成decode的结果，所以dp[i] = dp[i + 1]
-（3）如果当前位和后一位对应的整数在26以内，那么可以用当前位和后一位decode的字母和剩下的字符串组成decode的结果，所以 dp[i] += dp[i + 2]
+# ### 解题思路
+# 从后往前看。
+# （1）如果当前为是0，那么结果是0，因为不可能以0开头decode
+# （2）else，可以用当前位decode的字母和剩下的字符串组成decode的结果，所以dp[i] = dp[i + 1]
+# （3）如果当前位和后一位对应的整数在26以内，那么可以用当前位和后一位decode的字母和剩下的字符串组成decode的结果，所以 dp[i] += dp[i + 2]
 
-最后返回dp[0]，也就是从第一个字母开始，decode的总数。
+# 最后返回dp[0]，也就是从第一个字母开始，decode的总数。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def numDecodings(self, s):
         """
@@ -27,4 +27,4 @@ class Solution(object):
                     dp[i] += dp[i + 2]
 
         return dp[0]
-```
+# ```

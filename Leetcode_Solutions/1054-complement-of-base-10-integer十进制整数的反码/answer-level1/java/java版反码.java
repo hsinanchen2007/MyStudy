@@ -1,9 +1,9 @@
-### 解题思路
-运用辗转相除法，用栈存储，利用其先进后出特点，将1-余数 存进栈里面
+// ### 解题思路
+// 运用辗转相除法，用栈存储，利用其先进后出特点，将1-余数 存进栈里面
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int bitwiseComplement(int N) {
         Stack<Integer> stack = new Stack<>();
@@ -28,4 +28,4 @@ class Solution {
         }
     }
 }
-```
+// ```

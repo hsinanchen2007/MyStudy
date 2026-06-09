@@ -1,6 +1,6 @@
-- 入栈 O(n)
-- 出栈、栈顶 O(1)
-```java
+// - 入栈 O(n)
+// - 出栈、栈顶 O(1)
+// ```java
 public class MyStack {
     private Queue<Integer> queue;
 
@@ -43,4 +43,4 @@ public class MyStack {
         return queue.isEmpty();
     }
 }
-```
+// ```

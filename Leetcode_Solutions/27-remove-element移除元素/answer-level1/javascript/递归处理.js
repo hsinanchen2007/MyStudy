@@ -1,9 +1,9 @@
-### 解题思路
-递归比对 单指针 
+// ### 解题思路
+// 递归比对 单指针 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} val
@@ -34,4 +34,4 @@ var removeElement = function(nums, val) {
     }
     remove(nums, val)
 };
-```
+// ```

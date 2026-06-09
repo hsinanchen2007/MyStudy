@@ -1,9 +1,9 @@
-### 解题思路
-两两比较查找重叠区间，重叠区间再跟下一个元素比较从而获取到最终的可射箭数目
+// ### 解题思路
+// 两两比较查找重叠区间，重叠区间再跟下一个元素比较从而获取到最终的可射箭数目
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 const findMinArrowShots = points=> {
     points.sort((a,b)=>a[0]-b[0]);
     // console.info(points);
@@ -19,4 +19,4 @@ const findMinArrowShots = points=> {
     // console.info(points);
     return points.length;
 };
-```
+// ```

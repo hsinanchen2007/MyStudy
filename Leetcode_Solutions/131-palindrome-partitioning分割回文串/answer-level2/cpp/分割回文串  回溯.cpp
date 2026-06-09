@@ -1,26 +1,26 @@
-回溯算法一定要先把树画出来
-关键地方
-（1）递归结束点：就是叶子节点的判断；
-（2）for循环：兄弟节点的遍历
-（3）dfs中参数的控制（depth），一层层往下dfs递归
+// 回溯算法一定要先把树画出来
+// 关键地方
+// （1）递归结束点：就是叶子节点的判断；
+// （2）for循环：兄弟节点的遍历
+// （3）dfs中参数的控制（depth），一层层往下dfs递归
 
-回溯模板：
-result = []
-def backtrack(路径, 选择列表):
-     if 满足结束条件:
-        result.push_back(路径)
-        return
+// 回溯模板：
+// result = []
+// def backtrack(路径, 选择列表):
+//      if 满足结束条件:
+//         result.push_back(路径)
+//         return
     
-     for 选择 in 选择列表:
-        做选择    path.push_back(tmp);
-        backtrack(路径, 选择列表) dfs(s, size, i+1, path);
-        撤销选择    path.pop_back(); 
+//      for 选择 in 选择列表:
+//         做选择    path.push_back(tmp);
+//         backtrack(路径, 选择列表) dfs(s, size, i+1, path);
+//         撤销选择    path.pop_back(); 
 		
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 private:
     vector<vector<string>> result;
@@ -67,4 +67,4 @@ public:
         return result;
     }
 };
-```
+// ```

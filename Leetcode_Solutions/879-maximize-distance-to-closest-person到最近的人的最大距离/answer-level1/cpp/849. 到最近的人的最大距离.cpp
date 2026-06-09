@@ -1,6 +1,6 @@
-## 分别计算出前面、中间和后面的空位数
-**条件 “seats 中至少有一个 0，且至少有一个 1” 很重要**
-```cpp
+// ## 分别计算出前面、中间和后面的空位数
+// **条件 “seats 中至少有一个 0，且至少有一个 1” 很重要**
+// ```cpp
 class Solution {
 public:
     int maxDistToClosest(vector<int>& seats) {
@@ -19,4 +19,4 @@ public:
         return max(max(front0, back0), max_cnt);
     }
 };
-```
+// ```

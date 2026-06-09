@@ -1,10 +1,10 @@
-### 解题思路
-在这题collections.deque其实没啥用
-![2.png](https://pic.leetcode-cn.com/3747ee3fd5b3c7bd811a7280e5051c94988e3a2bad71bada21ed45b602bf7cca-2.png)
+# ### 解题思路
+# 在这题collections.deque其实没啥用
+# ![2.png](https://pic.leetcode-cn.com/3747ee3fd5b3c7bd811a7280e5051c94988e3a2bad71bada21ed45b602bf7cca-2.png)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from collections import deque
 class Solution:
     def wallsAndGates(self, rooms: List[List[int]]) -> None:
@@ -41,4 +41,4 @@ class Solution:
                 rooms[a][b+1] =rooms[a][b]+1
             
         return rooms
-```
+# ```

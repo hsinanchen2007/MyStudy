@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 var deleteDuplicates = function(head) {
     let fake = new ListNode();
     fake.next = head; // 插入了一个虚拟的头结点以便操作
@@ -21,4 +21,4 @@ var deleteDuplicates = function(head) {
     if(flag) p.next = b; // 收尾处理一下
     return fake.next;
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char* compressString(char* S){
     int t=0,j=0,i=0;
     int count=1;    //计数
@@ -39,4 +39,4 @@ char* compressString(char* S){
     }
     return S;
 }
-```
+// ```

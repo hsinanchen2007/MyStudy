@@ -1,9 +1,9 @@
-### 解题思路
-采用滑动窗口的思想，设置两个指针left和right，预想存储前缀和在sums，方便后续写代码，但这样内存开销较大，可以优化，随后通过计算left到right之间的和，看是否满足题目要求,大于等于s，若满足要求即可移动left指针，不满足要求移动right指针，记录每次符合要求时的最小值。
+# ### 解题思路
+# 采用滑动窗口的思想，设置两个指针left和right，预想存储前缀和在sums，方便后续写代码，但这样内存开销较大，可以优化，随后通过计算left到right之间的和，看是否满足题目要求,大于等于s，若满足要求即可移动left指针，不满足要求移动right指针，记录每次符合要求时的最小值。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minSubArrayLen(self, s: int, nums: List[int]) -> int:
         sums = []
@@ -29,4 +29,4 @@ class Solution:
         return ans
             
 
-```
+# ```

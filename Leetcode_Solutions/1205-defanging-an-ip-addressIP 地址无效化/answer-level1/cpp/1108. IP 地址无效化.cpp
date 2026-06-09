@@ -1,9 +1,9 @@
-### 解题思路
-遍历+条件判断
+// ### 解题思路
+// 遍历+条件判断
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string defangIPaddr(string address) {
@@ -18,4 +18,4 @@ public:
         return res;
     }
 };
-```
+// ```

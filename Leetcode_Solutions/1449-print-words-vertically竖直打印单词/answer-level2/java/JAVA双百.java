@@ -1,9 +1,9 @@
-### 解题思路
-边界问题处理好即可
+// ### 解题思路
+// 边界问题处理好即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 public List<String> printVertically(String s) {
 		List<String> list = new ArrayList<String>();
@@ -46,4 +46,4 @@ public List<String> printVertically(String s) {
         return list;
     }
 }
-```
+// ```

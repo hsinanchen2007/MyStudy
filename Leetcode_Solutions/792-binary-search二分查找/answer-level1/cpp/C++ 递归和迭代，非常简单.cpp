@@ -1,6 +1,6 @@
-# 方法一：先用递归思路考虑这个问题
+// # 方法一：先用递归思路考虑这个问题
 
-```c++ []
+// ```c++ []
 int recurse(vector<int>& nums, int low, int high, int target) {
     if (low <= high) {
         int mid = (low + high) / 2;
@@ -13,11 +13,11 @@ int recurse(vector<int>& nums, int low, int high, int target) {
 int search(vector<int>& nums, int target) {
     return recurse(nums, 0, nums.size() - 1, target);
 }
-```
+// ```
 
-# 方法二：明白递归算法后，转化为迭代也非常简单
+// # 方法二：明白递归算法后，转化为迭代也非常简单
 
-```c++ []
+// ```c++ []
 int search(vector<int>& nums, int target) {
     int low = 0, high = nums.size() - 1;
     while (low <= high) {
@@ -28,6 +28,6 @@ int search(vector<int>& nums, int target) {
     }
     return -1;
 }
-```
+// ```
 
-每个人思维习惯不一样，有人喜欢递归，有人喜欢迭代，见仁见智吧！
+// 每个人思维习惯不一样，有人喜欢递归，有人喜欢迭代，见仁见智吧！

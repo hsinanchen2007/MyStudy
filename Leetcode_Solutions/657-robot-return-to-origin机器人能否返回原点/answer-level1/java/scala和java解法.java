@@ -1,11 +1,11 @@
-### 解题思路
-1.统计水平方向移动次数(num_horizontal),当移动为R时,num_horizontal++,否则--;
-2.统计垂直方向移动次数(num_vertical),当移动为U时,num_vertical++,否则--;
-3.只有num_horizontal == num_vertical == 0时，返回True，否则False
+// ### 解题思路
+// 1.统计水平方向移动次数(num_horizontal),当移动为R时,num_horizontal++,否则--;
+// 2.统计垂直方向移动次数(num_vertical),当移动为U时,num_vertical++,否则--;
+// 3.只有num_horizontal == num_vertical == 0时，返回True，否则False
 
-### 代码
+// ### 代码
 
-```java []
+// ```java []
 class Solution {
     public boolean judgeCircle(String moves) {
         int num_horizontal = 0; // 水平方向
@@ -22,8 +22,8 @@ class Solution {
             return false;
     }
 }
-```
-```scala []
+// ```
+// ```scala []
   def judgeCircle(moves: String): Boolean = {
     var num_vertical = 0
     var num_horizontal = 0
@@ -36,4 +36,4 @@ class Solution {
     if(scala.math.abs(num_horizontal) + scala.math.abs(num_vertical)== 0) true
     else false
   }
-```
+// ```

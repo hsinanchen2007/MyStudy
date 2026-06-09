@@ -1,6 +1,6 @@
 
-动态规划
-```c
+// 动态规划
+// ```c
 #define MAX(a,b) ((a)>(b)?(a):(b))
 int maxSubArray(int* nums, int numsSize){
     
@@ -12,11 +12,11 @@ int maxSubArray(int* nums, int numsSize){
     }
     return ms;
 }
-```
+// ```
 
 
-贪心算法
-```c
+// 贪心算法
+// ```c
 #define MAX(a,b) ((a)>(b)?(a):(b))
 int maxSubArray(int* nums, int numsSize){
     
@@ -27,5 +27,5 @@ int maxSubArray(int* nums, int numsSize){
     }
     return ms;
 }
-```
+// ```
 

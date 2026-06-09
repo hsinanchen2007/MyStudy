@@ -1,9 +1,9 @@
 
-## 思路一 : 
+# ## 思路一 : 
 
-自顶向下 : 这个直接看代码, 很好理解
+# 自顶向下 : 这个直接看代码, 很好理解
 
-```python
+# ```python
 import functools
 class Solution:
     @functools.lru_cache(None)
@@ -23,34 +23,34 @@ class Solution:
         elif len(p) >= 2 and p[1] == "*" and self.isMatch(s, p[2:]):
             return True
         return False
-```
+# ```
 
 
-## 思路二 : 
+# ## 思路二 : 
 
-自底向上
+# 自底向上
 
-直接上动态方程：
+# 直接上动态方程：
 
-1. `p[j] == s[i]:dp[i][j] = dp[i-1][j-1]`
+# 1. `p[j] == s[i]:dp[i][j] = dp[i-1][j-1]`
 
-2. `p[j] == ".":dp[i][j] = dp[i-1][j-1]`
+# 2. `p[j] == ".":dp[i][j] = dp[i-1][j-1]`
 
-3. `p[j] =="*":`
+# 3. `p[j] =="*":`
 
-   3.1 `p[j-1] != s[i]:dp[i][j] = dp[i][j-2]`
+#    3.1 `p[j-1] != s[i]:dp[i][j] = dp[i][j-2]`
 
-   3.2 `p[i-1] == s[i] or p[j-1] == ".": `
+#    3.2 `p[i-1] == s[i] or p[j-1] == ".": `
 
-     `dp[i][j] = dp[i-1][j] // 多个字符匹配的情况`
+#      `dp[i][j] = dp[i-1][j] // 多个字符匹配的情况`
 
-   `or dp[i][j] = dp[i][j-1] // 单个字符匹配的情况`
+#    `or dp[i][j] = dp[i][j-1] // 单个字符匹配的情况`
 
-   `or dp[i][j] = dp[i][j-2] // 没有匹配的情况`
+#    `or dp[i][j] = dp[i][j-2] // 没有匹配的情况`
 
 
 
-```Python
+# ```Python
 class Solution:
     def isMatch(self, s: str, p: str) -> bool:
         #if not s or not p:
@@ -75,5 +75,5 @@ class Solution:
                         dp[i+1][j+1] = (dp[i][j+1] or dp[i+1][j]   or  dp[i+1][j-1])
         #print(dp)
         return dp[-1][-1]
-```
+# ```
 

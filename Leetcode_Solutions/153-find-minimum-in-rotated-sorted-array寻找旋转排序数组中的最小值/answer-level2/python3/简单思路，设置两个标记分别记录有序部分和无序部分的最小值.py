@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def findMin(self, nums: List[int]) -> int:
         if not nums:
@@ -17,4 +17,4 @@ class Solution:
                     leftMin = nums[start]
                 start = mid + 1
         return min(leftMin, rightMin)
-```
+# ```

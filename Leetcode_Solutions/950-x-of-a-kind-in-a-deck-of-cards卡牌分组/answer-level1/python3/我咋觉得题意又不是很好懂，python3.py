@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def hasGroupsSizeX(self, deck: List[int]) -> bool:
         from collections import Counter
@@ -11,4 +11,4 @@ class Solution:
             if all(not count[j]%i for j in range(len(count))):  #判断是否是公约数
                 return True
         return False
-```
+# ```

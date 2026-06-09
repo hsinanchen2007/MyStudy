@@ -1,9 +1,9 @@
-### 解题思路
-stack 应用，正常在实际代码中stack大小应用用len(s)创建，这里偷懒
+// ### 解题思路
+// stack 应用，正常在实际代码中stack大小应用用len(s)创建，这里偷懒
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isValid(char * s){
     char *parstack = malloc(102400);
     int n=0;
@@ -38,4 +38,4 @@ bool isValid(char * s){
     free(parstack);
     return 0 == n;
 }
-```
+// ```

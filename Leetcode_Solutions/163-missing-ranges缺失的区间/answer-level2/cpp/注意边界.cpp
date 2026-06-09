@@ -1,9 +1,9 @@
-### 解题思路
-把边界强转成长整形，否则会溢出
+// ### 解题思路
+// 把边界强转成长整形，否则会溢出
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> findMissingRanges(vector<int>& nums, int lower, int upper)
@@ -52,4 +52,4 @@ public:
         }
     }
 };
-```
+// ```

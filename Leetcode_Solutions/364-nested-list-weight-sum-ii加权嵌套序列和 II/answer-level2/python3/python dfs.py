@@ -1,5 +1,5 @@
 
-```
+# ```
 class Solution:
     def depthSumInverse(self, nestedList: List[NestedInteger]) -> int:
         
@@ -24,4 +24,4 @@ class Solution:
             total += (num * (maxDepth - depth + 1))
         
         return total
-```
+# ```

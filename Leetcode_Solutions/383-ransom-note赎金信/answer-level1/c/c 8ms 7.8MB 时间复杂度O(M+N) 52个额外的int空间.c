@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *整体思路：只要magzine的不同类型字符的总数大于ransomNote的即可
@@ -69,4 +69,4 @@ bool canConstruct( char * ransomNote , char * magazine ){
     return true;
 
 }
-```
+// ```

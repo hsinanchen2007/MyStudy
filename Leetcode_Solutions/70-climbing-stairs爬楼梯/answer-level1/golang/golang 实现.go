@@ -1,9 +1,9 @@
-### 解题思路
-递归和动态规划不断优化的几个版本
+// ### 解题思路
+// 递归和动态规划不断优化的几个版本
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func climbStairs(n int) int {
     return robot(n)
 }
@@ -103,4 +103,4 @@ func robot(n int)int{
 	}
     return a + b
 }
-```
+// ```

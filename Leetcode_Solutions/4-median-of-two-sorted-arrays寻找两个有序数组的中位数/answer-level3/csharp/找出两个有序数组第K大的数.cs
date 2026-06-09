@@ -1,9 +1,9 @@
-### 解题思路
-出现log的时间复杂度，一般都是二分查找法。看了下官方的解法和力友的解法，感觉还是力友的解法更好理解。
+// ### 解题思路
+// 出现log的时间复杂度，一般都是二分查找法。看了下官方的解法和力友的解法，感觉还是力友的解法更好理解。
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public double FindMedianSortedArrays(int[] nums1, int[] nums2) {
         int m = nums1.Length;
@@ -30,4 +30,4 @@ public class Solution {
         } 
     }
 }
-```
+// ```

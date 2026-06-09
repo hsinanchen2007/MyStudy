@@ -1,5 +1,5 @@
-需要注意的一点是第一行和第一列如果遇到障碍物则其后的所有格子皆不可达，最大路径数值置为0
-```
+// 需要注意的一点是第一行和第一列如果遇到障碍物则其后的所有格子皆不可达，最大路径数值置为0
+// ```
 func uniquePathsWithObstacles(obstacleGrid [][]int) int {
    
  if obstacleGrid[0][0] == 1 {
@@ -43,4 +43,4 @@ func uniquePathsWithObstacles(obstacleGrid [][]int) int {
 	}
 	return mem[len(obstacleGrid)-1][len(obstacleGrid[0])-1]
 }
-```
+// ```

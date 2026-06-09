@@ -1,8 +1,8 @@
-### 解题思路
+# ### 解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def make(self,m):
         res={}
@@ -20,4 +20,4 @@ class Solution:
         else:
             return False
             
-```
+# ```

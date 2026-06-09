@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/37685e635324c2228945232c2caac04afbed962aef0657ffe19cf114d87acde9-image.png)
+// ![image.png](https://pic.leetcode-cn.com/37685e635324c2228945232c2caac04afbed962aef0657ffe19cf114d87acde9-image.png)
 
-```
+// ```
 class Solution {
 public:
     int bulbSwitch(int n) {
@@ -11,4 +11,4 @@ public:
         return i;
     }
 };
-```
+// ```

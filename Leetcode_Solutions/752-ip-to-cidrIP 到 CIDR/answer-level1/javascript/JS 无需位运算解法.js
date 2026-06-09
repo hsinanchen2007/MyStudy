@@ -1,4 +1,4 @@
-```
+// ```
 const getTrailingZeroCount = (ip) => {
     const base2 = ip.split('.').map((i) => parseInt(i).toString(2).padStart(8, '0')).join('')
     let zeroCount = 0
@@ -51,4 +51,4 @@ var ipToCIDR = function(ip, n) {
     }
     return ans
 };
-```
+// ```

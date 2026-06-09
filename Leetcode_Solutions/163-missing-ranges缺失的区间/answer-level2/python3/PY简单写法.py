@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def findMissingRanges(self, nums: List[int], lower: int, upper: int) -> List[str]:
         ans=[]
@@ -10,4 +10,4 @@ class Solution:
             elif d>2:
                 ans.append(str(nums[i]+1)+'->'+str(nums[i+1]-1))
         return ans
-```
+# ```

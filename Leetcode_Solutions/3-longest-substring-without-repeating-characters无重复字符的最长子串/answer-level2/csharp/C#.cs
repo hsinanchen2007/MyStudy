@@ -1,12 +1,12 @@
-### 解题思路
-1. 从第一个字符开始读取，放入临时的容器中，可以是List, HashSet, ...；
-2. 如果遇到重复的字符，记录下此时的长度，并与之前记录的最大长度比较；
-3. 从第二个字符开始读取，重复以上操作；
+// ### 解题思路
+// 1. 从第一个字符开始读取，放入临时的容器中，可以是List, HashSet, ...；
+// 2. 如果遇到重复的字符，记录下此时的长度，并与之前记录的最大长度比较；
+// 3. 从第二个字符开始读取，重复以上操作；
 
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int LengthOfLongestSubstring(string s) {
         int maxlen = 0, tmplen = 0;
@@ -38,4 +38,4 @@ public class Solution {
         return maxlen;
     }
 }
-```
+// ```

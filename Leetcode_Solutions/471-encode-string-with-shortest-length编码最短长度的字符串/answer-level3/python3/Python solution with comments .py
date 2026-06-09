@@ -1,11 +1,11 @@
-### 解题思路
-时间复杂度: o(n3)
-空间复杂度: o(n2)
+# ### 解题思路
+# 时间复杂度: o(n3)
+# 空间复杂度: o(n2)
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def encode(self, s: str) -> str:
         # Dynamic programming 
@@ -44,4 +44,4 @@ class Solution:
 
 
 
-```
+# ```

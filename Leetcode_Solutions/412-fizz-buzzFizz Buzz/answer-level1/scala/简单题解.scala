@@ -1,8 +1,8 @@
 
 
-### 代码
+// ### 代码
 
-```scala
+// ```scala
 object Solution {
     def fizzBuzz(n: Int): List[String] = {
      Range.apply(1,n+1).map{ x =>
@@ -18,4 +18,4 @@ object Solution {
     }.toList
   }
 }
-```
+// ```

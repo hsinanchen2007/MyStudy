@@ -1,12 +1,12 @@
-### 解题思路
-if(accumulate(temp.begin(),temp.end(),0) > target)
-{
-    return ;
-}
-这步减枝是精髓。。
-### 代码
+// ### 解题思路
+// if(accumulate(temp.begin(),temp.end(),0) > target)
+// {
+//     return ;
+// }
+// 这步减枝是精髓。。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
     vector<vector<int> > result;
     vector<int> temp;
@@ -40,4 +40,4 @@ class Solution {
             return result;
         }
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-最开始写成if(@com = Company,@num :=@num+1,1)
-没有更新Num,调了很久
+-- ### 解题思路
+-- 最开始写成if(@com = Company,@num :=@num+1,1)
+-- 没有更新Num,调了很久
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 select ID,t1.company,salary  
 From
@@ -23,4 +23,4 @@ on  t1.company = t2.company
 
 
 
-```
+-- ```

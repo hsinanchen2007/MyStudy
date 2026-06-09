@@ -1,9 +1,9 @@
-### 解题思路
-哈希表
+// ### 解题思路
+// 哈希表
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> masterMind(string solution, string guess) {
@@ -26,4 +26,4 @@ public:
         return res;
     }
 };
-```
+// ```

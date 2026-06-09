@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/926678e087b575cce51e3646aad58bdfa4a39262b11fddef22a22fbd79c502b6-image.png)
+// ![image.png](https://pic.leetcode-cn.com/926678e087b575cce51e3646aad58bdfa4a39262b11fddef22a22fbd79c502b6-image.png)
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -31,4 +31,4 @@ var diameterOfBinaryTree = function(root) {
     check(root);
     return res;
 };
-```
+// ```

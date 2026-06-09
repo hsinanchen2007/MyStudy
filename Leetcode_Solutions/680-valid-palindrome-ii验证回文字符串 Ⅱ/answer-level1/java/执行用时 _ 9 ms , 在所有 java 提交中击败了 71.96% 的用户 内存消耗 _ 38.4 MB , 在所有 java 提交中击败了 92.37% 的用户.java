@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean validPalindrome(String s) {
         for (int i = 0, j = s.length()-1; i <= j; i++,j--) {
@@ -26,4 +26,4 @@ class Solution {
     }
     
 }
-```
+// ```

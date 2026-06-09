@@ -1,9 +1,9 @@
-你永远想不到我输入的字符串有多么猥琐，边界处理非常恶心
-主要是3个边界：
-1. 前导空格的去除
-2. 正负号的判断
-3. 遍历过程中遇到非数字字符
-```
+// 你永远想不到我输入的字符串有多么猥琐，边界处理非常恶心
+// 主要是3个边界：
+// 1. 前导空格的去除
+// 2. 正负号的判断
+// 3. 遍历过程中遇到非数字字符
+// ```
 class Solution {
     public int myAtoi(String str) {
         if(str == null || str.length() == 0) return 0;
@@ -32,5 +32,5 @@ class Solution {
         return isActive ? (int) res : (int) res * -1;
     }
 }
-```
-![atoi字符串转整数.wmv](3e1b8d99-cc30-4acc-98f6-c37754313e68)
+// ```
+// ![atoi字符串转整数.wmv](3e1b8d99-cc30-4acc-98f6-c37754313e68)

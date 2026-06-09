@@ -1,6 +1,6 @@
-将要交换的两个节点视为整体的话，维护一个该节点的前驱和后继。
-0ms
-```
+// 将要交换的两个节点视为整体的话，维护一个该节点的前驱和后继。
+// 0ms
+// ```
 struct ListNode* swapPairs(struct ListNode* head){
     if (!head || !head->next) {
         return head;
@@ -26,9 +26,9 @@ struct ListNode* swapPairs(struct ListNode* head){
     return dummyhead->next;
     
 }
-```
-4ms
-```
+// ```
+// 4ms
+// ```
 
 struct ListNode* swapPairs(struct ListNode* head){
     if (!head || !head->next) {
@@ -55,4 +55,4 @@ struct ListNode* swapPairs(struct ListNode* head){
     return dummyhead->next;
     
 }
-```
+// ```

@@ -1,7 +1,7 @@
-```javascript []
+# ```javascript []
 console.log('Hello world!')
-```
-```python []
+# ```
+# ```python []
 class Solution:
 
     def longestPalindrome(self, s: str) -> str:
@@ -25,7 +25,7 @@ class Solution:
             return s[0]
         else:
             return s[r_left:r_left+long_lenth]
-```
-```ruby []
+# ```
+# ```ruby []
 puts 'Hello world!'
-```
+# ```

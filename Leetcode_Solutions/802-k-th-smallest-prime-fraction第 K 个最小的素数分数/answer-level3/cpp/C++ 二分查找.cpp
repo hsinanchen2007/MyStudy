@@ -1,7 +1,7 @@
-1，浮点数二分查找，先找到满足条件的的浮点值`d`，使得小于`d`的分数个数为`k`个
-2，找到`p`和`q`使得`p/q`小于`d`且与`d`最接近就是答案
+// 1，浮点数二分查找，先找到满足条件的的浮点值`d`，使得小于`d`的分数个数为`k`个
+// 2，找到`p`和`q`使得`p/q`小于`d`且与`d`最接近就是答案
 
-```
+// ```
 class Solution {
 public:
     int count(const vector<int>& nums, double d) {
@@ -46,6 +46,6 @@ public:
         return {p, q};
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/10ccbfbc367704d6a3a574628a788bfa9e279762c9107cb92b76b5c6697324fc-image.png)
+// ![image.png](https://pic.leetcode-cn.com/10ccbfbc367704d6a3a574628a788bfa9e279762c9107cb92b76b5c6697324fc-image.png)

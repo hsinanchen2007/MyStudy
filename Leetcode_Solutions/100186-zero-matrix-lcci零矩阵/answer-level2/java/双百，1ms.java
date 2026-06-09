@@ -1,8 +1,8 @@
-用两个一维数组（初始化元素为1）分别记录要清零的行，然后根据matrix[i][j]*=row[i]*col[j];计算出矩阵的元素值即可
+// 用两个一维数组（初始化元素为1）分别记录要清零的行，然后根据matrix[i][j]*=row[i]*col[j];计算出矩阵的元素值即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void setZeroes(int[][] matrix) {
         int[] row = new int[matrix.length];
@@ -29,4 +29,4 @@ class Solution {
         }
     }
 }
-```
+// ```

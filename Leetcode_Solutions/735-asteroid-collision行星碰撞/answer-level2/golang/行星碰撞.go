@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func asteroidCollision(asteroids []int) []int {
 
 	stack := make([]int, 0, len(asteroids))
@@ -33,4 +33,4 @@ func asteroidCollision(asteroids []int) []int {
 	return stack
 }
 
-```
+// ```

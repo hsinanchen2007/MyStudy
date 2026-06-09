@@ -1,11 +1,11 @@
-### 解题思路
-如果是p或q是叶子节点,就判断是否同时是叶子节点
-然后再判断值是否不同
-然后递归左右子树
+// ### 解题思路
+// 如果是p或q是叶子节点,就判断是否同时是叶子节点
+// 然后再判断值是否不同
+// 然后递归左右子树
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -23,4 +23,4 @@ func isSameTree(p *TreeNode, q *TreeNode) bool {
 	}
 	return isSameTree(p.Left, q.Left) && isSameTree(p.Right, q.Right)
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-替换val，删除next节点
+// ### 解题思路
+// 替换val，删除next节点
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -19,4 +19,4 @@ func deleteNode(node *ListNode) {
     node.Next = node.Next.Next
     return
 }
-```
+// ```

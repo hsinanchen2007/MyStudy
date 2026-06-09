@@ -1,4 +1,4 @@
-```
+// ```
 /*
  * @lc app=leetcode.cn id=994 lang=c
  *
@@ -163,4 +163,4 @@ int orangesRotting(int** grid, int gridSize, int* gridColSize)
     return res;
 }
 
-```
+// ```

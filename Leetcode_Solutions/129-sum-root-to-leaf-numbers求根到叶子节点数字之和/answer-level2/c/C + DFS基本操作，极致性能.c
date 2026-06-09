@@ -1,4 +1,4 @@
-```c
+// ```c
 int helper(struct TreeNode *root, int sum, int *total)
 {
     sum = sum * 10 + root->val;
@@ -17,8 +17,8 @@ int sumNumbers(struct TreeNode* root){
     (void)helper(root, 0, &total);
     return total;
 }
-```
-![image.png](https://pic.leetcode-cn.com/986db055cb1c16eb9c52c528514ae401ecdb21dc4b8374b3f1f3e42688cd4e38-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/986db055cb1c16eb9c52c528514ae401ecdb21dc4b8374b3f1f3e42688cd4e38-image.png)
 
 
 

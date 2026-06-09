@@ -1,5 +1,5 @@
-执行用时：112 ms
-```c#
+// 执行用时：112 ms
+// ```c#
 public class Solution
 {
     public int LengthOfLongestSubstring(string s)
@@ -22,6 +22,6 @@ public class Solution
         return max;
     }
 }
-```
-c# 滑动窗口法，简单清晰。
-charTable 是字符表，用来确定当重复发生的时候left的位置。
+// ```
+// c# 滑动窗口法，简单清晰。
+// charTable 是字符表，用来确定当重复发生的时候left的位置。

@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 #define Middle 1000000007
 class Solution {
 public:
@@ -27,4 +27,4 @@ public:
         return result;
     }
 };
-```
+// ```

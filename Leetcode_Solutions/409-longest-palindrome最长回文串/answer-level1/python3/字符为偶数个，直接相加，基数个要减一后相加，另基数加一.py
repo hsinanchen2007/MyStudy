@@ -1,9 +1,9 @@
-### 解题思路
-字符为偶数个，直接相加，基数个要减一后相加，另基数加一
+# ### 解题思路
+# 字符为偶数个，直接相加，基数个要减一后相加，另基数加一
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestPalindrome(self, s: str) -> int:
         d = {}
@@ -19,4 +19,4 @@ class Solution:
                 flag = 1
                 acc += v - 1
         return acc + flag
-```
+# ```

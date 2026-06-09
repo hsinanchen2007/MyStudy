@@ -1,9 +1,9 @@
-### 解题思路
-归并排序的过程中统计逆序数
+# ### 解题思路
+# 归并排序的过程中统计逆序数
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reversePairs(self, nums: List[int]) -> int:
         def mergeSort(left, right):
@@ -35,4 +35,4 @@ class Solution:
             return count
         res = mergeSort(0, len(nums)-1)
         return res
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-RT
+# ### 解题思路
+# RT
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def findMinDifference(self, timePoints):
         """
@@ -22,4 +22,4 @@ class Solution(object):
             final=min(final,result[i]-result[i-1])
         final=min(final,result[0]+1440-result[-1])
         return final
-```
+# ```

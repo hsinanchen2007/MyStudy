@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/3bd123e7d239768e3e40d38c918c4be95ffc840b6f2301eb8e3ecddc9728e085-image.png)
-将nums2合并到nums1中,使用插入排序解题
-```
+// ![image.png](https://pic.leetcode-cn.com/3bd123e7d239768e3e40d38c918c4be95ffc840b6f2301eb8e3ecddc9728e085-image.png)
+// 将nums2合并到nums1中,使用插入排序解题
+// ```
 class Solution {
 
     /**
@@ -29,4 +29,4 @@ class Solution {
         }
     }
 }
-```
+// ```

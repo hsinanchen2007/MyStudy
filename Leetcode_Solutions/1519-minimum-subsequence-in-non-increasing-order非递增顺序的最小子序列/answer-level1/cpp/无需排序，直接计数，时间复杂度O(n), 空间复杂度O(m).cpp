@@ -1,12 +1,12 @@
-定义数组sort_arr[101], sort_arr[i]代表数字i出现的次数。
+// 定义数组sort_arr[101], sort_arr[i]代表数字i出现的次数。
 
-要满足长度最小与元素之和最大的条件，就需要从大往小选取数字，
+// 要满足长度最小与元素之和最大的条件，就需要从大往小选取数字，
 
-计数完毕之后从后往前找sort_arr即可满足条件，直到满足所选数字之和大于剩余数字之和。
+// 计数完毕之后从后往前找sort_arr即可满足条件，直到满足所选数字之和大于剩余数字之和。
 
-对于相同的数字，因为sort_arr[i]代表相同数字i的数量，所以需要选取sort_arr[i]个i之后再换下一个
+// 对于相同的数字，因为sort_arr[i]代表相同数字i的数量，所以需要选取sort_arr[i]个i之后再换下一个
 
-```
+// ```
 int* minSubsequence(int* nums, int numsSize, int* returnSize){
     int i = 0, sum,sub_sum,count, pos_num, same_num_size;
     int sort_arr[101] = {0};
@@ -38,4 +38,4 @@ int* minSubsequence(int* nums, int numsSize, int* returnSize){
     *returnSize = count;
     return ans;
 }
-```
+// ```

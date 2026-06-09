@@ -1,20 +1,20 @@
-### 解题思路
-#### 快排
-##### 思路
-按照`pivot`的值，把区间`[l, r]`分成两部分，前一部分的值都小于等于`pivot`，后一部分的值都大于`pivot`。
-**一次操作后，`pivot`的位置固定**，然后再递归的去排序被`pivot`分割的这两部分区间。
+// ### 解题思路
+// #### 快排
+// ##### 思路
+// 按照`pivot`的值，把区间`[l, r]`分成两部分，前一部分的值都小于等于`pivot`，后一部分的值都大于`pivot`。
+// **一次操作后，`pivot`的位置固定**，然后再递归的去排序被`pivot`分割的这两部分区间。
 
-区间`[l, r]`, 按照`pivot` 的值分割成两部分。$values_{i-1}=pivot$
- * $[values_{l}, values_{i-1}]$ 都小于等于`pivot`，
- * $[values_{i}, values_{r}]$ 都大于`pivot`。
+// 区间`[l, r]`, 按照`pivot` 的值分割成两部分。$values_{i-1}=pivot$
+//  * $[values_{l}, values_{i-1}]$ 都小于等于`pivot`，
+//  * $[values_{i}, values_{r}]$ 都大于`pivot`。
 
-##### 复杂度分析
-* 时间复杂度： $O(NlogN)$ ~ $O(N^2)$
-* 空间复杂度： $O(logN)$
+// ##### 复杂度分析
+// * 时间复杂度： $O(NlogN)$ ~ $O(N^2)$
+// * 空间复杂度： $O(logN)$
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] sortArray(int[] nums) {
         sort(nums, 0, nums.length-1);
@@ -73,4 +73,4 @@ class Solution {
         return values[l];
     }
 }
-```
+// ```

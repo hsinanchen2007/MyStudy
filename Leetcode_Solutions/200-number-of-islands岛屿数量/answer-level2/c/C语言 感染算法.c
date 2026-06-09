@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-遇岛则进行感染
+// 遇岛则进行感染
 
-![image.png](https://pic.leetcode-cn.com/3f3f18b35c5d68c1f3f011422070630a1cb413d34458f4bd19b99cc29d3fcb39-image.png)
+// ![image.png](https://pic.leetcode-cn.com/3f3f18b35c5d68c1f3f011422070630a1cb413d34458f4bd19b99cc29d3fcb39-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MY_NUM_1 '1'
 #define MY_NUM_0 '0'
 #define MY_NUM_2 '2'
@@ -58,4 +58,4 @@ int numIslands(char** grid, int gridSize, int* gridColSize){
     }
     return cnt;
 }
-```
+// ```

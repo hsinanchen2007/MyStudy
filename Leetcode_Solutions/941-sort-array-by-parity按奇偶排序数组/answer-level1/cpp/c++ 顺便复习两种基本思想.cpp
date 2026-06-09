@@ -1,5 +1,5 @@
-// 暴力原始思想
-```
+// // 暴力原始思想
+// ```
 class Solution {
 public:
     vector<int> sortArrayByParity(vector<int>& A) {
@@ -17,13 +17,13 @@ public:
         return dou;
     }
 };
-```
+// ```
 
 
-// LC.283题思路双指针遍历，j 慢指针， i快指针
-// 一种放在前面 一种放在后面  check(nums[i])满足放在前面的条件  swap(nums[i] , nums[j++])
+// // LC.283题思路双指针遍历，j 慢指针， i快指针
+// // 一种放在前面 一种放在后面  check(nums[i])满足放在前面的条件  swap(nums[i] , nums[j++])
 
-```
+// ```
 class Solution {
 public:
     vector<int> sortArrayByParity(vector<int>& A) {
@@ -35,13 +35,13 @@ public:
         return A;
     }
 };
-```
+// ```
 
 
-// 快排思想
-//分别前后指针 i, j。 如果nums[i]为偶数 i向后++ 直到出现奇数  。 如果nums[j]为偶数 j向前 直到出现偶数 交换nums[i], nums[j]. 同时都要满足的条件就是 i<j
+// // 快排思想
+// //分别前后指针 i, j。 如果nums[i]为偶数 i向后++ 直到出现奇数  。 如果nums[j]为偶数 j向前 直到出现偶数 交换nums[i], nums[j]. 同时都要满足的条件就是 i<j
 
-```
+// ```
 class Solution {
 public:
     vector<int> sortArrayByParity(vector<int>& A) {
@@ -57,4 +57,4 @@ public:
     }
 };
 
-```
+// ```

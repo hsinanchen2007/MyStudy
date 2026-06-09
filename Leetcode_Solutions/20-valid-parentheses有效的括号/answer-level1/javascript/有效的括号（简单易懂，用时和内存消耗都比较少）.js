@@ -1,7 +1,7 @@
-执行用时 :64 ms, 在所有 JavaScript 提交中击败了76.98%的用户
-内存消耗 :33.6 MB, 在所有 JavaScript 提交中击败了97.94%的用户
+// 执行用时 :64 ms, 在所有 JavaScript 提交中击败了76.98%的用户
+// 内存消耗 :33.6 MB, 在所有 JavaScript 提交中击败了97.94%的用户
 
-```javascript
+// ```javascript
 var isValid = function(s) {
   var n = s.length;
   var stack = [];
@@ -39,4 +39,4 @@ var isValid = function(s) {
 
   return stack.length === 0;
 };
-```
+// ```

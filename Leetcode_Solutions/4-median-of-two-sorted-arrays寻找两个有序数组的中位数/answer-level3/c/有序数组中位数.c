@@ -1,9 +1,9 @@
-### 解题思路
-    本题思路其实很简单，合并俩个排序数组即可，可以新建一个数组，将俩个数组中的数依次按大小顺序插入即可。代码如下所示。
+// ### 解题思路
+//     本题思路其实很简单，合并俩个排序数组即可，可以新建一个数组，将俩个数组中的数依次按大小顺序插入即可。代码如下所示。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Size)
 {
     int pos = (nums1Size + nums2Size) / 2;  
@@ -29,4 +29,4 @@ double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Si
     }
     return ans;
 }
-```
+// ```

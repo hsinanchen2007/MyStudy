@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def canCompleteCircuit(self, gas: List[int], cost: List[int]) -> int:
         # 只有汽油数大于消耗的才能成为起点
@@ -16,4 +16,4 @@ class Solution:
                 sp = i + 1
                 net_gas_from_sp = 0
         return sp if net_gas_from_sp + net_gas_to_sp >= 0 else -1
-```
+# ```

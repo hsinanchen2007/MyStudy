@@ -1,22 +1,22 @@
-首先考虑这不是环形数组，那么可以用动态规划很容易的计算出子数组的最大和
-```
+// 首先考虑这不是环形数组，那么可以用动态规划很容易的计算出子数组的最大和
+// ```
 maxNow = Max(A[i], maxNow + A[i]) // 计算直到A[i]的最大值
 max = Max(max, maxNow)
 //  eg: 5 -4 3, i=0, maxNow = 5, max = 5
 // 		i=1, maxNow = 1, max = 5
 // 		i=2, maxNow = 4, max = 5
-```
- 再考虑环形数组 最大值有可能是去掉中间一段负数，那么就可以转换为计算非环形数组的最小值。
-```
+// ```
+//  再考虑环形数组 最大值有可能是去掉中间一段负数，那么就可以转换为计算非环形数组的最小值。
+// ```
 minNow = Min(A[i], minNow + A[i])
 min = Min(min, minNow)
 // 那么可能的最大值就是 total - min
 max1 = total - min
-```
-特殊考虑数组最大值 < 0的情况
+// ```
+// 特殊考虑数组最大值 < 0的情况
 
-- 完整代码
-```
+// - 完整代码
+// ```
 func maxSubarraySumCircular(A []int) int {
 	max, maxNow := -2 << 31, -2 << 31
 	min, minNow := 2 << 31, 2 << 31
@@ -52,4 +52,4 @@ func Min(x, y int) int {
 	}
 	return y
 }
-```
+// ```

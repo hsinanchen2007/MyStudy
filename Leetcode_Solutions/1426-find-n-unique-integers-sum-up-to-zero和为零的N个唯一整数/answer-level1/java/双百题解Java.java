@@ -1,9 +1,9 @@
-### 解题思路
-题目很简单，纸上简单画画可以找出规律
+// ### 解题思路
+// 题目很简单，纸上简单画画可以找出规律
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] sumZero(int n) {
         int size = n / 2;
@@ -20,4 +20,4 @@ class Solution {
         return results;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 //深度遍历
 class Solution {
     public boolean exist(char[][] board, String word) {
@@ -29,4 +29,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

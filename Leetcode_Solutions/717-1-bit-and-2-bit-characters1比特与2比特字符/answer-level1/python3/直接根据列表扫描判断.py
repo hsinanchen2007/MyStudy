@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def isOneBitCharacter(self, bits: List[int]) -> bool:
         l = 0
@@ -17,4 +17,4 @@ class Solution:
                     return True
             return False
 
-```
+# ```

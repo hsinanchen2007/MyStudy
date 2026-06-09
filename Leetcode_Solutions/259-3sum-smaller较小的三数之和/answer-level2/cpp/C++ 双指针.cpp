@@ -1,4 +1,4 @@
-```c++ []
+// ```c++ []
 class Solution {
 public:
     int threeSumSmaller(vector<int>& nums, int target) {
@@ -24,6 +24,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/5d64fcce5d081d643e50be22de333365b126265edf51a0965c56672e52583559-image.png)
+// ![image.png](https://pic.leetcode-cn.com/5d64fcce5d081d643e50be22de333365b126265edf51a0965c56672e52583559-image.png)

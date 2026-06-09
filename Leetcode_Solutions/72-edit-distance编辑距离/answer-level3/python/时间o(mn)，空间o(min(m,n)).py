@@ -1,5 +1,5 @@
-时间o(mn)，空间o(min(m,n))了解下
-```matlab
+# 时间o(mn)，空间o(min(m,n))了解下
+# ```matlab
 class Solution:
     def minDistance(self, word1: str, word2: str) -> int:
         if len(word1) == 0:
@@ -33,4 +33,4 @@ class Solution:
                     else:
                         array[flag][j] = 1
         return array[flag][-1]
-```
+# ```

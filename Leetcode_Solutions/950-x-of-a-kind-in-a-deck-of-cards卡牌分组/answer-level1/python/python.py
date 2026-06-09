@@ -1,9 +1,9 @@
-### 解题思路
-先求出每个牌的个数，然后求出所有牌的个数的最大公约数，大于等于2则true
+# ### 解题思路
+# 先求出每个牌的个数，然后求出所有牌的个数的最大公约数，大于等于2则true
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def hasGroupsSizeX(self, deck):
         """
@@ -54,4 +54,4 @@ class Solution(object):
         return False
 
         
-```
+# ```

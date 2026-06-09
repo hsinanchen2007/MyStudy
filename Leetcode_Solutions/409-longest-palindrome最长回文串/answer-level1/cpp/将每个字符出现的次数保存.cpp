@@ -1,7 +1,7 @@
-### 解题思路
-将每个字符出现的次数保存
-### 代码
-```cpp
+// ### 解题思路
+// 将每个字符出现的次数保存
+// ### 代码
+// ```cpp
 class Solution {
 public:
     int longestPalindrome(string s) {
@@ -21,4 +21,4 @@ public:
         return num;
     }
 };
-```
+// ```

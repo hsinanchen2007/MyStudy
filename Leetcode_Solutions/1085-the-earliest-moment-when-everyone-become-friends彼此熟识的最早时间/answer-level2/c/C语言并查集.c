@@ -1,9 +1,9 @@
-### 解题思路
-1135. 最低成本联通所有城市 和这次一样的解法
+// ### 解题思路
+// 1135. 最低成本联通所有城市 和这次一样的解法
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAXLEN 101
 
 int g_parent[MAXLEN];
@@ -64,4 +64,4 @@ int earliestAcq(int** logs, int logsSize, int* logsColSize, int N)
 
     return -1;
 }
-```
+// ```

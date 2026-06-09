@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def gameOfLife(board: Array[Array[Int]]): Unit = {
     val n = if (board.length > 0) board(0).length else 0
@@ -17,4 +17,4 @@ object Solution {
     board.indices.foreach(i => (0 until n).foreach(j => board(i)(j) %= 2))
   }
 }
-```
+// ```

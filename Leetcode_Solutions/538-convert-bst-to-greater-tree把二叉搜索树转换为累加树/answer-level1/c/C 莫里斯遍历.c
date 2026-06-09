@@ -1,4 +1,4 @@
-```
+// ```
 struct TreeNode* convertBST(struct TreeNode* root){
     int sum = 0;
     struct TreeNode *cur = root, *pre;
@@ -32,4 +32,4 @@ struct TreeNode* convertBST(struct TreeNode* root){
     }
     return root;
 }
-```
+// ```

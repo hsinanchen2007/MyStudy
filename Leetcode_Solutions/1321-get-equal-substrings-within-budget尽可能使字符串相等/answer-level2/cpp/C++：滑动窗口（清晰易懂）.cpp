@@ -1,11 +1,11 @@
-**题解**：滑动窗口
+// **题解**：滑动窗口
 
-**窗口**：t和s的相对应的子字符串做差值之后的cost。若窗口内的cost小于等于maxCost时，我们需要记录最长的子字符串；若cost大于maxCost的话，表示窗口溢出，我们需要缩小窗口了。
+// **窗口**：t和s的相对应的子字符串做差值之后的cost。若窗口内的cost小于等于maxCost时，我们需要记录最长的子字符串；若cost大于maxCost的话，表示窗口溢出，我们需要缩小窗口了。
 
-**相似题目**：[424.替换后的最长重复字符](https://blog.csdn.net/qq_43152052/article/details/102578696)
+// **相似题目**：[424.替换后的最长重复字符](https://blog.csdn.net/qq_43152052/article/details/102578696)
 
-**代码如下**：
-```cpp
+// **代码如下**：
+// ```cpp
 class Solution {
 public:
     int equalSubstring(string s, string t, int maxCost) {
@@ -25,4 +25,4 @@ public:
         return result;
     }
 };
-```
+// ```

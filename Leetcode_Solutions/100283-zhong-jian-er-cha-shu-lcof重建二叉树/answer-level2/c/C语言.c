@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-前序遍历的首元素就是中序遍历的父节点，然后左右划分
+// ### 解题思路
+// 此处撰写解题思路
+// 前序遍历的首元素就是中序遍历的父节点，然后左右划分
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -38,4 +38,4 @@ struct TreeNode* buildTree(int* preorder, int preorderSize, int* inorder, int in
 
     return root;
 }
-```
+// ```

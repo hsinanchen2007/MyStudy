@@ -1,4 +1,4 @@
-```js
+// ```js
 //计算每个节点左右子树的高度，获取最深的节点的父节点
 var lcaDeepestLeaves = function(root) {
     return dfs(root);
@@ -21,4 +21,4 @@ var lcaDeepestLeaves = function(root) {
         return Math.max(l, r)+1;
     }
 };
-```
+// ```

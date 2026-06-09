@@ -1,22 +1,22 @@
 
 
-##### Algorithm (Recursion with controlled side effects)
-1. The $V$ be the set of boxes that are available now from which we can take candies. Then the problem is then reduced to finding $f(V_0)$, where $V_0$ is the initial set.
-2. Note that we have 
-$$
-\begin{aligned}
-f(V) = \begin{cases} 
-\texttt{candies[$x$]} + f(\text{open}(V, x)) & \text{if } V\neq \emptyset \\
-0 & \text{if } V = \emptyset
-\end{cases}
-\end{aligned}
-$$
-3. Now we just need to routinely implement the `open` subroutine in order to get the answer. When we open a box, we collect all its candies and nested boxes and keys and store them in a preallocated cache. Then we iterate throught the currently collected boxes and compare them with currently held keys; if there are any matches, we then update $V$. 
-4. The above subroutine could either return a new $V$ in a persistent manner or a pointer of one static version. We chose the second one for efficiency purposes.
+// ##### Algorithm (Recursion with controlled side effects)
+// 1. The $V$ be the set of boxes that are available now from which we can take candies. Then the problem is then reduced to finding $f(V_0)$, where $V_0$ is the initial set.
+// 2. Note that we have 
+// $$
+// \begin{aligned}
+// f(V) = \begin{cases} 
+// \texttt{candies[$x$]} + f(\text{open}(V, x)) & \text{if } V\neq \emptyset \\
+// 0 & \text{if } V = \emptyset
+// \end{cases}
+// \end{aligned}
+// $$
+// 3. Now we just need to routinely implement the `open` subroutine in order to get the answer. When we open a box, we collect all its candies and nested boxes and keys and store them in a preallocated cache. Then we iterate throught the currently collected boxes and compare them with currently held keys; if there are any matches, we then update $V$. 
+// 4. The above subroutine could either return a new $V$ in a persistent manner or a pointer of one static version. We chose the second one for efficiency purposes.
 
-##### Code 
+// ##### Code 
 
-```c++
+// ```c++
 template <class F>
 struct recursive {
   F f;
@@ -86,4 +86,4 @@ public:
 };
 
 };
-```
+// ```

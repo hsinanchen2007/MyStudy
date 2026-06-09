@@ -1,9 +1,9 @@
-### 解题思路
-没啥好说的
+// ### 解题思路
+// 没啥好说的
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func searchInsert(nums []int, target int) int {
 	for i:=0;i<len(nums);i++{
 		if nums[i]>=target{
@@ -14,4 +14,4 @@ func searchInsert(nums []int, target int) int {
 	return len(nums)
 }
 
-```
+// ```

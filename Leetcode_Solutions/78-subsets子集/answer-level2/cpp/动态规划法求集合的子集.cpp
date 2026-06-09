@@ -1,10 +1,10 @@
-### 解题思路
-1、空集的子集还是空集；
-2、假设已知前K-1个数的所有子集，那么前K个数的所有子集就是，在前K-1个数的所有子集的基础上，每个集合再加上第K个数。
+// ### 解题思路
+// 1、空集的子集还是空集；
+// 2、假设已知前K-1个数的所有子集，那么前K个数的所有子集就是，在前K-1个数的所有子集的基础上，每个集合再加上第K个数。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> subsets(vector<int>& nums) {
@@ -30,5 +30,5 @@ public:
         return result;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/6678221db0528d9c089ffa97da48f49d6290f3a910c26d14fc080df95a5d3d40-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/6678221db0528d9c089ffa97da48f49d6290f3a910c26d14fc080df95a5d3d40-image.png)

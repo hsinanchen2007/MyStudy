@@ -1,9 +1,9 @@
-### 解题思路
-从左到右依次遍历l1和l2，将更小的节点放入新链表中
+// ### 解题思路
+// 从左到右依次遍历l1和l2，将更小的节点放入新链表中
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -48,4 +48,4 @@ func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
 	}
 	return head
 }
-```
+// ```

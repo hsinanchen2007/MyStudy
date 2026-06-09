@@ -1,6 +1,6 @@
-**1.长链表先遍历到和短链表长度相同，然后一起开始遍历，直到找到交点为止。**
+// **1.长链表先遍历到和短链表长度相同，然后一起开始遍历，直到找到交点为止。**
 
-```c
+// ```c
 
 typedef struct ListNode* NodePtr;
 struct ListNode *getIntersectionNode(struct ListNode *headA, struct ListNode *headB) {
@@ -42,9 +42,9 @@ struct ListNode *getIntersectionNode(struct ListNode *headA, struct ListNode *he
     }
     return p;
 }
-```
-**2.先将一个链表中的节点存入set中，然后遍历另一个链表，若能在set中找到相同节点，返回即可。**
-```
+// ```
+// **2.先将一个链表中的节点存入set中，然后遍历另一个链表，若能在set中找到相同节点，返回即可。**
+// ```
 class Solution {
 public:
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
@@ -62,9 +62,9 @@ public:
         return nullptr;
     }
 };
-```
-**3.双指针法**
-```
+// ```
+// **3.双指针法**
+// ```
 typedef struct ListNode* NodePtr;
 struct ListNode *getIntersectionNode(struct ListNode *headA, struct ListNode *headB) {
     NodePtr p = headA;
@@ -75,4 +75,4 @@ struct ListNode *getIntersectionNode(struct ListNode *headA, struct ListNode *he
     }
     return p;
 }
-```
+// ```

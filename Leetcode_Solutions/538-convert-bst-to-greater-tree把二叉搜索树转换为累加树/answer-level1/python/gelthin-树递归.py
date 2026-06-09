@@ -1,15 +1,15 @@
-### 解题思路
-树递归得好好锤炼一下，自己写这个又慢又容易出错。
+# ### 解题思路
+# 树递归得好好锤炼一下，自己写这个又慢又容易出错。
 
-想不清楚每个节点怎么处理的。
+# 想不清楚每个节点怎么处理的。
 
-最好还是在 root 节点就判断是否有左右节点比较好。
-不要不管 root.left root.right 为 None 仍然要判断。
+# 最好还是在 root 节点就判断是否有左右节点比较好。
+# 不要不管 root.left root.right 为 None 仍然要判断。
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -39,9 +39,9 @@ class Solution:
         sum_node(root, 0)
         
         return root
-```
+# ```
 
-``` python3 刚开始写，各种 bug 代码
+# ``` python3 刚开始写，各种 bug 代码
 
 # Definition for a binary tree node.
 # class TreeNode:
@@ -67,4 +67,4 @@ class Solution:
         
         return root
 
-```
+# ```

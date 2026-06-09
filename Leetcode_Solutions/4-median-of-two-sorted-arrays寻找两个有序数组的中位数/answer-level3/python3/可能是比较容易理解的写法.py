@@ -1,5 +1,5 @@
-看别人的实在看不懂，自己也是新手，琢磨了很久明白是把数组分成左右两堆的过程，最后循环退出的条件是这次的分割方式满足条件：左堆的最大值小于右堆的最小值。split_1 表示第一堆有多少个放到左堆。
-```
+# 看别人的实在看不懂，自己也是新手，琢磨了很久明白是把数组分成左右两堆的过程，最后循环退出的条件是这次的分割方式满足条件：左堆的最大值小于右堆的最小值。split_1 表示第一堆有多少个放到左堆。
+# ```
 class Solution(object):
     def findMedianSortedArrays(self, nums1: List[int],
                                nums2: List[int]) -> float:
@@ -56,4 +56,4 @@ class Solution(object):
             else:
                 min_right = min(nums1[split_1], nums2[split_2])
             return min_right
-```
+# ```

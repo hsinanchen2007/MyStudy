@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<vector<int>>out;
@@ -25,4 +25,4 @@ public:
         result(0,candidates,target);
         return out;
     }
-```
+// ```

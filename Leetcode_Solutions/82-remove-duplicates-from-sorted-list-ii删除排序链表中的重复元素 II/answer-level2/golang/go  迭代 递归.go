@@ -1,9 +1,9 @@
-### 解题思路
-迭代 递归 
-俩种解法
-### 代码
+// ### 解题思路
+// 迭代 递归 
+// 俩种解法
+// ### 代码
 
-```golang
+// ```golang
 
 func deleteDuplicates(head *ListNode) *ListNode {
     // 添加前置节点,统一head情况的处理
@@ -28,11 +28,11 @@ func deleteDuplicates(head *ListNode) *ListNode {
     }
     return prev.Next
 }
-```
+// ```
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func deleteDuplicates(head *ListNode) *ListNode {
     if head == nil || head.Next == nil {
         return head
@@ -52,4 +52,4 @@ func deleteDuplicates(head *ListNode) *ListNode {
     return head
 }
 
-```
+// ```

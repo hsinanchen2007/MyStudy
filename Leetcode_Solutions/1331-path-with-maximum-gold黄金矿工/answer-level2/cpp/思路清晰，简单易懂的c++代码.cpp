@@ -1,7 +1,7 @@
-![1584177526(1).png](https://pic.leetcode-cn.com/c163d69c931261a3e433d27c4fe02168d5bce8013b63cd8381bbf28a5eb7fe6d-1584177526\(1\).png)
+// ![1584177526(1).png](https://pic.leetcode-cn.com/c163d69c931261a3e433d27c4fe02168d5bce8013b63cd8381bbf28a5eb7fe6d-1584177526\(1\).png)
 
 
-```
+// ```
 class Solution {
 public:
     int getMaximumGold(vector<vector<int>>& grid) {
@@ -29,5 +29,5 @@ public:
         return k;    
     }
 };
-```
+// ```
 

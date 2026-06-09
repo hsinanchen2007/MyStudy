@@ -1,9 +1,9 @@
-### 解题思路
-二分查找目标值
+// ### 解题思路
+// 二分查找目标值
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int searchInsert(int* nums, int numsSize, int target){
     int low, mid, high;
     low = 0;
@@ -24,4 +24,4 @@ int searchInsert(int* nums, int numsSize, int target){
     return low;
     
 }
-```
+// ```

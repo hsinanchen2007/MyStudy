@@ -1,6 +1,6 @@
-用一个Boolean数组来标志遇到的值，下次再遇到通过cnt数组得知，注意节点的值为[0, 20000]。
-pre节点指向上一个节点，cur负责找到下一个没有重复过的节点，更新pre.next = cur。
-```
+// 用一个Boolean数组来标志遇到的值，下次再遇到通过cnt数组得知，注意节点的值为[0, 20000]。
+// pre节点指向上一个节点，cur负责找到下一个没有重复过的节点，更新pre.next = cur。
+// ```
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -31,4 +31,4 @@ class Solution {
     }
     
 }
-```
+// ```

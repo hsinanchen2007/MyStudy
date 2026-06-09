@@ -1,9 +1,9 @@
-### 解题思路
-没有想到是用双指针法，但是想到了排序，以及可以优化到O(n^2)。
+# ### 解题思路
+# 没有想到是用双指针法，但是想到了排序，以及可以优化到O(n^2)。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def threeSum(self, nums):
 
@@ -35,4 +35,4 @@ class Solution:
                     L = L + 1
         return res
 
-```
+# ```

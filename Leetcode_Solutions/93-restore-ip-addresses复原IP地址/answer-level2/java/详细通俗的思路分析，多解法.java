@@ -1,14 +1,14 @@
-# 题目描述（中等难度）
+// # 题目描述（中等难度）
 
-![image.png](https://pic.leetcode-cn.com/e5aad229c97f6242af5e5f3da5759f5f324525ee71731e2a12727ece5fa7418f-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e5aad229c97f6242af5e5f3da5759f5f324525ee71731e2a12727ece5fa7418f-image.png)
 
-给一个字符串，输出所有的可能的 ip 地址，注意一下，01.1.001.1 类似这种 0 开头的是非法字符串。
+// 给一个字符串，输出所有的可能的 ip 地址，注意一下，01.1.001.1 类似这种 0 开头的是非法字符串。
 
-# 解法一 回溯 递归 DFS
+// # 解法一 回溯 递归 DFS
 
-很类似于刚做过的 [91 题](<https://leetcode.wang/leetcode-91-Decode-Ways.html>)，对字符串进行划分。这个其实也是划分，划分的次数已经确定了，那就是分为 4 部分。那么就直接用回溯的思想，第一部分可能是 1 位数，然后进入递归。第一部分可能是  2 位数，然后进入递归。第一部分可能是 3 位数，然后进入递归。很好理解，直接看代码理解吧。
+// 很类似于刚做过的 [91 题](<https://leetcode.wang/leetcode-91-Decode-Ways.html>)，对字符串进行划分。这个其实也是划分，划分的次数已经确定了，那就是分为 4 部分。那么就直接用回溯的思想，第一部分可能是 1 位数，然后进入递归。第一部分可能是  2 位数，然后进入递归。第一部分可能是 3 位数，然后进入递归。很好理解，直接看代码理解吧。
 
-````java
+// ````java
 public List<String> restoreIpAddresses(String s) {
     List<String> ans = new ArrayList<>(); //保存最终的所有结果
     getAns(s, 0, new StringBuilder(), ans, 0);
@@ -71,13 +71,13 @@ private void getAns(String s, int start, StringBuilder temp, List<String> ans, i
     }
 
 }
-````
+// ````
 
-# 解法二 迭代
+// # 解法二 迭代
 
-参考[这里](<https://leetcode.com/problems/restore-ip-addresses/discuss/30949/My-code-in-Java>)，相当暴力直接。因为我们知道了，需要划分为 4 部分，所以我们直接用利用三个指针将字符串强行分为四部分，遍历所有的划分，然后选取合法的解。
+// 参考[这里](<https://leetcode.com/problems/restore-ip-addresses/discuss/30949/My-code-in-Java>)，相当暴力直接。因为我们知道了，需要划分为 4 部分，所以我们直接用利用三个指针将字符串强行分为四部分，遍历所有的划分，然后选取合法的解。
 
-```java
+// ```java
 public List<String> restoreIpAddresses(String s) {
     List<String> res = new ArrayList<String>();
     int len = s.length();
@@ -102,18 +102,18 @@ public boolean isValid(String s){
         return false;
     return true;
 }
-```
+// ```
 
-时间复杂度：如果不考虑我们调用的内部函数，Integer.parseInt，s.substring，那么就是 O（1）。因为每一层循环最多遍历 4 次。考虑的话每次调用的时间复杂度是 O（n），常数次调用，所以是 O（n）。
+// 时间复杂度：如果不考虑我们调用的内部函数，Integer.parseInt，s.substring，那么就是 O（1）。因为每一层循环最多遍历 4 次。考虑的话每次调用的时间复杂度是 O（n），常数次调用，所以是 O（n）。
 
-空间复杂度：O（1）。
+// 空间复杂度：O（1）。
 
-# 总
+// # 总
 
-回溯或者说深度优先遍历，经常遇到了。但是解法二的暴力方法竟然通过了，有些意外。另外分享下 discuss 里有趣的评论，哈哈哈哈。
+// 回溯或者说深度优先遍历，经常遇到了。但是解法二的暴力方法竟然通过了，有些意外。另外分享下 discuss 里有趣的评论，哈哈哈哈。
 
-![image.png](https://pic.leetcode-cn.com/d08ffbaab447d5a07c2245da67477d5d75451f3e9e0fcd280fd3e0ea853e679f-image.png)
+// ![image.png](https://pic.leetcode-cn.com/d08ffbaab447d5a07c2245da67477d5d75451f3e9e0fcd280fd3e0ea853e679f-image.png)
 
-![image.png](https://pic.leetcode-cn.com/064ff3f0e9e28f4a3137f59196f4ed7be3f6c90e94739e8ff78e89a69c437c4b-image.png)
+// ![image.png](https://pic.leetcode-cn.com/064ff3f0e9e28f4a3137f59196f4ed7be3f6c90e94739e8ff78e89a69c437c4b-image.png)
 
-之前自己在博客总结的，更多题解可以在原地址 [https://leetcode.wang](https://leetcode.wang)。
+// 之前自己在博客总结的，更多题解可以在原地址 [https://leetcode.wang](https://leetcode.wang)。

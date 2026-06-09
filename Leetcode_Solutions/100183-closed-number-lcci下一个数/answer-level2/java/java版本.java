@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int[] findClosedNumbers(int num) {
         int[] res = new int[]{getNext(num), getPrev(num)};
@@ -54,4 +54,4 @@ class Solution {
         return n;
     }
 }
-```
+// ```

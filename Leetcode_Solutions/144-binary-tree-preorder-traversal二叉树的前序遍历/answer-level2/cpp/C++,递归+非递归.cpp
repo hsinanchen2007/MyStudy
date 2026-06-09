@@ -1,5 +1,5 @@
-解法一：递归：
-```
+// 解法一：递归：
+// ```
 class Solution {
 public:
     void dfs(TreeNode* root,vector<int>&ans){
@@ -14,10 +14,10 @@ public:
         return ans;
     }
 };
-```
-解法二：非递归：
+// ```
+// 解法二：非递归：
 
-```
+// ```
 class Solution {
 public:
     vector<int> preorderTraversal(TreeNode* root) {
@@ -39,5 +39,5 @@ public:
         return ans;
     }
 };
-```
+// ```
 

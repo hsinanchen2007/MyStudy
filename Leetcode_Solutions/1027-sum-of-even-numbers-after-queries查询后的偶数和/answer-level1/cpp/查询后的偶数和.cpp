@@ -1,17 +1,17 @@
-### 解题思路
-第一步：计算出数组A中的偶数和sum。
-第二步：遍历数组query，获取第i次查询时A[index]和val的值。
-1. 计算查询后偶数和。
-    - 若A[index]是奇数且val是奇数，则查询后偶数和为sum+A[index]+val
-    - 若A[index]是偶数且val是奇数，则查询后偶数和为sum-A[index]
-    - 若A[index]是偶数且val是偶数，则查询后偶数和为sum+val
-2. 更新A[index]的值。
+// ### 解题思路
+// 第一步：计算出数组A中的偶数和sum。
+// 第二步：遍历数组query，获取第i次查询时A[index]和val的值。
+// 1. 计算查询后偶数和。
+//     - 若A[index]是奇数且val是奇数，则查询后偶数和为sum+A[index]+val
+//     - 若A[index]是偶数且val是奇数，则查询后偶数和为sum-A[index]
+//     - 若A[index]是偶数且val是偶数，则查询后偶数和为sum+val
+// 2. 更新A[index]的值。
 
-**时间复杂度O(n)  空间复杂度O(n)**
+// **时间复杂度O(n)  空间复杂度O(n)**
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> sumEvenAfterQueries(vector<int>& A, vector<vector<int>>& queries) {
@@ -50,4 +50,4 @@ public:
         return ans;
     }
 };
-```
+// ```

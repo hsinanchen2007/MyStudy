@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-创建一个数组做26个字母的记数器，遍历一遍字符串，若s中存在某，则计数器相应的字母数加1，同理t中为减1，最后若计数器各个元素均为0，即返回true，否则false.
+// 创建一个数组做26个字母的记数器，遍历一遍字符串，若s中存在某，则计数器相应的字母数加1，同理t中为减1，最后若计数器各个元素均为0，即返回true，否则false.
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func isAnagram(s string, t string) bool {
 	if len(s) != len(t) {
 		return false
@@ -21,4 +21,4 @@ func isAnagram(s string, t string) bool {
 	}
 	return true
 }
-```
+// ```

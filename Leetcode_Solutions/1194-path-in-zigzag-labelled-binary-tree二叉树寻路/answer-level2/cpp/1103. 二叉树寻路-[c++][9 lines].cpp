@@ -1,6 +1,6 @@
-注意转换 label 即可。
+// 注意转换 label 即可。
 
-```cpp
+// ```cpp
 vector<int> pathInZigZagTree(int label) {
     int level = log(label) / log(2) + 1; // 计算层数
     vector<int> path(level);
@@ -12,4 +12,4 @@ vector<int> pathInZigZagTree(int label) {
     }
     return path;
 }
-```
+// ```

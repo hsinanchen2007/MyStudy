@@ -1,11 +1,11 @@
-### 解题思路
-拆分为两部分，一是顶和底area1，二是侧面area2
-当grid[i][j]不为空时，area1一定为2
-当grid[i][j]不为空时，该位置上的侧面积是grid[i][j]*4，再考虑grid[i][j+1]和grid[i+1][j]上被重叠掉的部分即可
+// ### 解题思路
+// 拆分为两部分，一是顶和底area1，二是侧面area2
+// 当grid[i][j]不为空时，area1一定为2
+// 当grid[i][j]不为空时，该位置上的侧面积是grid[i][j]*4，再考虑grid[i][j+1]和grid[i+1][j]上被重叠掉的部分即可
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} grid
  * @return {number}
@@ -37,4 +37,4 @@ for(let i=0;i<grid.length;i++){
 return area2+area1;
 
 };
-```
+// ```

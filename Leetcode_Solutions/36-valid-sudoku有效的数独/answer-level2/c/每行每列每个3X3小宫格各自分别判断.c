@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool judge(char *nums, int numssize)//判断一个字符数组中是否有重复元素
 {
     if(numssize==0 || numssize==1)
@@ -159,4 +159,4 @@ bool isValidSudoku(char** board, int boardSize, int* boardColSize)
     return true;
 
 }
-```
+// ```

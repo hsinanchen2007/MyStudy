@@ -1,11 +1,11 @@
-### 解题思路
+# ### 解题思路
 
-cnts 是每个数字出现的次数
-每次使用一个数字都尝试使用 1 个、2 个 ... 到用完这个数字。除此之外，不允许有两次连续选择相同数字
+# cnts 是每个数字出现的次数
+# 每次使用一个数字都尝试使用 1 个、2 个 ... 到用完这个数字。除此之外，不允许有两次连续选择相同数字
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def permuteUnique(self, nums: List[int]) -> List[List[int]]:
         import collections
@@ -31,8 +31,8 @@ class Solution:
                     cnts[num] = oc
         dfs(0)
         return ans
-```
+# ```
 
 
-欢迎来我的博客： [https://codeplot.top/](https://codeplot.top/)
-我的博客刷题分类：[https://codeplot.top/categories/%E5%88%B7%E9%A2%98/](https://codeplot.top/categories/%E5%88%B7%E9%A2%98/)
+# 欢迎来我的博客： [https://codeplot.top/](https://codeplot.top/)
+# 我的博客刷题分类：[https://codeplot.top/categories/%E5%88%B7%E9%A2%98/](https://codeplot.top/categories/%E5%88%B7%E9%A2%98/)

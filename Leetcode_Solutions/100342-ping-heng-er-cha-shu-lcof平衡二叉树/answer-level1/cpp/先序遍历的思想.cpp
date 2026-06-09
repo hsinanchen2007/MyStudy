@@ -1,9 +1,9 @@
-### 解题思路
-先序遍历的做法见代码注释，此题还有后序遍历的做法
+// ### 解题思路
+// 先序遍历的做法见代码注释，此题还有后序遍历的做法
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -29,4 +29,4 @@ public:
         return 1 + (leftDepth > rightDepth ? leftDepth : rightDepth);  //左右子树高度为左右子树最高高度+1
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-数据结构用了set和map来存储，其中set里面存储的内容是表示当前结点有哪些字母是单词结尾，map用来存储当前结点包含的字母及其子结点指针
+// ### 解题思路
+// 数据结构用了set和map来存储，其中set里面存储的内容是表示当前结点有哪些字母是单词结尾，map用来存储当前结点包含的字母及其子结点指针
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Trie {
 public:
     /** Initialize your data structure here. */
@@ -76,4 +76,4 @@ private:
  * bool param_2 = obj->search(word);
  * bool param_3 = obj->startsWith(prefix);
  */
-```
+// ```

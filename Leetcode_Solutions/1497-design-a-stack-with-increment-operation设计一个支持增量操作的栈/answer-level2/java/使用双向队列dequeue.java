@@ -1,9 +1,9 @@
-### 解题思路
-利用双向队列来实现栈
+// ### 解题思路
+// 利用双向队列来实现栈
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class CustomStack {
 
     private int maxSize;
@@ -40,4 +40,4 @@ class CustomStack {
  * int param_2 = obj.pop();
  * obj.increment(k,val);
  */
-```
+// ```

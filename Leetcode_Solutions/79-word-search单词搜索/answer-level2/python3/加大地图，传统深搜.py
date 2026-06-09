@@ -1,5 +1,5 @@
-把矩阵扩大，免去边界判断,然后扫描直接深搜，深搜递归一般都要在参数里记录路径
-```
+# 把矩阵扩大，免去边界判断,然后扫描直接深搜，深搜递归一般都要在参数里记录路径
+# ```
 class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:
         m,n=len(board),len(board[0])
@@ -24,4 +24,4 @@ class Solution:
                 if f(i,j,0,[]):
                     return True
         return False
-```
+# ```

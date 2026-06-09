@@ -1,9 +1,9 @@
-### 解题思路
-双端队列：一边插入一边弹出
+// ### 解题思路
+// 双端队列：一边插入一边弹出
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string reverseLeftWords(string s, int n) {
@@ -18,4 +18,4 @@ public:
         return s;
     }
 };
-```
+// ```

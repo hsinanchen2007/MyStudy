@@ -1,8 +1,8 @@
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numOfSubarrays(vector<int>& arr, int k, int threshold) {
@@ -25,4 +25,4 @@ public:
         return ans;
     }
 };
-```
+// ```

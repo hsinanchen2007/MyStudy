@@ -1,4 +1,4 @@
-```
+// ```
 struct ListNode* oddEvenList(struct ListNode* head){
     struct ListNode* odd = head;
     struct ListNode* p = head;
@@ -29,4 +29,4 @@ struct ListNode* oddEvenList(struct ListNode* head){
     }
     return head;  
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```python3
+# ```python3
 class Solution:
     def numRookCaptures(self, board: List[List[str]]) -> int:
         '''
@@ -51,4 +51,4 @@ class Solution:
             step += 1
         
         return res
-```
+# ```

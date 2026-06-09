@@ -1,7 +1,7 @@
 
 
 
-```python3
+# ```python3
 class Solution:
     def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:
         rList = []
@@ -12,4 +12,4 @@ class Solution:
             rList.append(max(tmpList))
         return rList
 
-```
+# ```

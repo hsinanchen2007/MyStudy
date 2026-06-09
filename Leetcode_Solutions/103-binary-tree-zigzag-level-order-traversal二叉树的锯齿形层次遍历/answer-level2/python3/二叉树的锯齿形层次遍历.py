@@ -1,16 +1,16 @@
-### 解题思路
-我的思路：和上一道题相比，整体不变，只是变了添加的顺序。
+# ### 解题思路
+# 我的思路：和上一道题相比，整体不变，只是变了添加的顺序。
 	
 
-复杂度分析：                                                             
-	• 时间复杂度：o(n)
-	• 空间复杂度：o(n)
+# 复杂度分析：                                                             
+# 	• 时间复杂度：o(n)
+# 	• 空间复杂度：o(n)
 
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -42,4 +42,4 @@ class Solution:
             current = next_layer
         return result
 
-```
+# ```

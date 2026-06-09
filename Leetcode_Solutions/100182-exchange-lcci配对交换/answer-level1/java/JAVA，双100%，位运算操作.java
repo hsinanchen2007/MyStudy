@@ -1,9 +1,9 @@
-### 解题思路
-思路是每次取num的最后一位，通过计数器count右移到相应的位置后，与ans进行或操作。
+// ### 解题思路
+// 思路是每次取num的最后一位，通过计数器count右移到相应的位置后，与ans进行或操作。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int exchangeBits(int num) {
         int ans = 0, count = 0;
@@ -20,4 +20,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

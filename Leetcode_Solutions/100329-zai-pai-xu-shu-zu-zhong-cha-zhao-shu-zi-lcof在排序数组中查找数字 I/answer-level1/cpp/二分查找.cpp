@@ -1,9 +1,9 @@
-### 解题思路
-二分查找
+// ### 解题思路
+// 二分查找
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int search(vector<int>& nums, int target) {
@@ -27,4 +27,4 @@ public:
         return 0;
     }
 };
-```
+// ```

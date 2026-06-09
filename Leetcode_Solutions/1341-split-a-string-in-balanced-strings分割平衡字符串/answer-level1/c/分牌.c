@@ -1,4 +1,4 @@
-```
+// ```
 /* 这道题可以形象的想象成分发标有R和L的牌，一旦左右两边牌数相同就计数+1*/
 int balancedStringSplit(char * s){
     int res = 0;
@@ -12,4 +12,4 @@ int balancedStringSplit(char * s){
     }
     return res;
 }
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-hash table存储字典，用单词长度作为key，单词作为value。
-### 代码
+# ### 解题思路
+# hash table存储字典，用单词长度作为key，单词作为value。
+# ### 代码
 
-```python
+# ```python
 class MagicDictionary:
     def __init__(self):
         """
@@ -32,4 +32,4 @@ class MagicDictionary:
                 if cnt == 1: return True
         return False
 
-```
+# ```

@@ -1,17 +1,17 @@
-#### 方法一：替换函数
+# #### 方法一：替换函数
 
-我们可以用字符串自带的替换函数，由于字符串仅包含小写字母，因此只有 26 种不同的重复项。
+# 我们可以用字符串自带的替换函数，由于字符串仅包含小写字母，因此只有 26 种不同的重复项。
 
-1. 将 `aa` 到 `zz` 的 26 种重复项放入集合中；
+# 1. 将 `aa` 到 `zz` 的 26 种重复项放入集合中；
 
-2. 遍历这 26 种重复项，并用字符串的替换函数把重复项替换成空串。
+# 2. 遍历这 26 种重复项，并用字符串的替换函数把重复项替换成空串。
 
-注意，在进行过一次替换之后，可能会出现新的重复项。例如对于字符串 `abbaca`，如果替换了重复项 `bb`，字符串会变为 `aaca`，出现了新的重复项 `aa`。因此，上面的过程需要背重复若干次，直到字符串在一整轮替换过程后保持不变（即长度不变）为止。
+# 注意，在进行过一次替换之后，可能会出现新的重复项。例如对于字符串 `abbaca`，如果替换了重复项 `bb`，字符串会变为 `aaca`，出现了新的重复项 `aa`。因此，上面的过程需要背重复若干次，直到字符串在一整轮替换过程后保持不变（即长度不变）为止。
 
-![fig](https://pic.leetcode-cn.com/Figures/1047/repl.png){:width=600}
-{:align=center}
+# ![fig](https://pic.leetcode-cn.com/Figures/1047/repl.png){:width=600}
+# {:align=center}
 
-```Python [sol1]
+# ```Python [sol1]
 from string import ascii_lowercase
 class Solution:
     def removeDuplicates(self, S: str) -> str:
@@ -25,9 +25,9 @@ class Solution:
                 S = S.replace(d, '')
                 
         return S
-```
+# ```
 
-```Java [sol1]
+# ```Java [sol1]
 class Solution {
     public String removeDuplicates(String S) {
       // generate 26 possible duplicates
@@ -48,26 +48,26 @@ class Solution {
       return S;
     }
 }
-```
+# ```
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度：$O(N^2)$，其中 $N$ 是字符串的长度。代码中的过程为 `while -> for -> replace`，其中 `while` 执行的次数最多为 $N/2$，`for` 固定执行 26 次，`replace` 的平均复杂度为 $O(N)$，因此总的时间复杂度为 $O(N^2)$。
+# * 时间复杂度：$O(N^2)$，其中 $N$ 是字符串的长度。代码中的过程为 `while -> for -> replace`，其中 `while` 执行的次数最多为 $N/2$，`for` 固定执行 26 次，`replace` 的平均复杂度为 $O(N)$，因此总的时间复杂度为 $O(N^2)$。
 
-* 空间复杂度：$O(N)$。由于字符串的替换函数会生成一份原字符串的拷贝，因此空间复杂度为 $O(N)$。
+# * 空间复杂度：$O(N)$。由于字符串的替换函数会生成一份原字符串的拷贝，因此空间复杂度为 $O(N)$。
 
-#### 方法二：栈
+# #### 方法二：栈
 
-我们可以用栈来维护没有重复项的字母序列：
+# 我们可以用栈来维护没有重复项的字母序列：
 
-- 若当前的字母和栈顶的字母相同，则弹出栈顶的字母；
+# - 若当前的字母和栈顶的字母相同，则弹出栈顶的字母；
 
-- 若当前的字母和栈顶的字母不同，则放入当前的字母。
+# - 若当前的字母和栈顶的字母不同，则放入当前的字母。
 
-<![1200](https://pic.leetcode-cn.com/Figures/1047/1047_slide_1.png),![1200](https://pic.leetcode-cn.com/Figures/1047/1047_slide_2.png),![1200](https://pic.leetcode-cn.com/Figures/1047/1047_slide_3.png),![1200](https://pic.leetcode-cn.com/Figures/1047/1047_slide_4.png),![1200](https://pic.leetcode-cn.com/Figures/1047/1047_slide_5.png),![1200](https://pic.leetcode-cn.com/Figures/1047/1047_slide_6.png),![1200](https://pic.leetcode-cn.com/Figures/1047/1047_slide_7.png),![1200](https://pic.leetcode-cn.com/Figures/1047/1047_slide_8.png),![1200](https://pic.leetcode-cn.com/Figures/1047/1047_slide_9.png),![1200](https://pic.leetcode-cn.com/Figures/1047/1047_slide_10.png),![1200](https://pic.leetcode-cn.com/Figures/1047/1047_slide_11.png)>{:width=600}
-{:align=center}
+# <![1200](https://pic.leetcode-cn.com/Figures/1047/1047_slide_1.png),![1200](https://pic.leetcode-cn.com/Figures/1047/1047_slide_2.png),![1200](https://pic.leetcode-cn.com/Figures/1047/1047_slide_3.png),![1200](https://pic.leetcode-cn.com/Figures/1047/1047_slide_4.png),![1200](https://pic.leetcode-cn.com/Figures/1047/1047_slide_5.png),![1200](https://pic.leetcode-cn.com/Figures/1047/1047_slide_6.png),![1200](https://pic.leetcode-cn.com/Figures/1047/1047_slide_7.png),![1200](https://pic.leetcode-cn.com/Figures/1047/1047_slide_8.png),![1200](https://pic.leetcode-cn.com/Figures/1047/1047_slide_9.png),![1200](https://pic.leetcode-cn.com/Figures/1047/1047_slide_10.png),![1200](https://pic.leetcode-cn.com/Figures/1047/1047_slide_11.png)>{:width=600}
+# {:align=center}
 
-```Python [sol2]
+# ```Python [sol2]
 class Solution:
     def removeDuplicates(self, S: str) -> str:
         output = []
@@ -77,9 +77,9 @@ class Solution:
             else: 
                 output.append(ch)
         return ''.join(output)
-```
+# ```
 
-```Java [sol2]
+# ```Java [sol2]
 class Solution {
     public String removeDuplicates(String S) {
         StringBuilder sb = new StringBuilder();
@@ -95,10 +95,10 @@ class Solution {
         return sb.toString();
     }
 }
-```
+# ```
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度：$O(N)$，其中 $N$ 是字符串的长度。
+# * 时间复杂度：$O(N)$，其中 $N$ 是字符串的长度。
 
-* 空间复杂度：$O(N)$。
+# * 空间复杂度：$O(N)$。

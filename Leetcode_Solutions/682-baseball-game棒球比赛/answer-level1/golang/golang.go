@@ -1,4 +1,4 @@
-```
+// ```
 func calPoints(ops []string) int {
     var result []int
 	var sum int
@@ -28,4 +28,4 @@ func calPoints(ops []string) int {
 
 	return sum
 }
-```
+// ```

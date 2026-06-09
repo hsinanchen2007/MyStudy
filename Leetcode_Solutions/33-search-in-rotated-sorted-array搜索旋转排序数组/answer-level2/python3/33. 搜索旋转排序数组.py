@@ -1,9 +1,9 @@
-### 解题思路
-官方代码，其思路就是先利用二分查找寻找旋转位置的下标，然后比较target与nums[0]的大小，知道target会在哪个升序区间，再采用二分查找就行。相比于边二分查找边考虑mid、target以及nums[0的相对位置，官方思路更为清晰。
+# ### 解题思路
+# 官方代码，其思路就是先利用二分查找寻找旋转位置的下标，然后比较target与nums[0]的大小，知道target会在哪个升序区间，再采用二分查找就行。相比于边二分查找边考虑mid、target以及nums[0的相对位置，官方思路更为清晰。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def search(self, nums, target):
         def find_rotate_index(left, right):
@@ -53,4 +53,4 @@ class Solution:
             return search(rotate_index, n - 1)
         # search on the left side
         return search(0, rotate_index)
-```
+# ```

@@ -1,13 +1,13 @@
   
-动态规划的关键就是找通项公式，这个题的通项公式很简单，
+// 动态规划的关键就是找通项公式，这个题的通项公式很简单，
   
-会DP应该都能想到：dp[i] = MAX(dp[i-1], dp[i-2] + nums[i])。
+// 会DP应该都能想到：dp[i] = MAX(dp[i-1], dp[i-2] + nums[i])。
   
-主要障碍在于首尾相连，第1间房子偷不偷如果用变量来记录比较麻烦。
+// 主要障碍在于首尾相连，第1间房子偷不偷如果用变量来记录比较麻烦。
   
-直接分2种情况，同步DP就简单很多。
+// 直接分2种情况，同步DP就简单很多。
   
-```C
+// ```C
 #define MAX(a,b) ((a)>(b)?(a):(b))
 
 int rob(int* nums, int numsSize){
@@ -25,4 +25,4 @@ int rob(int* nums, int numsSize){
     }
     return MAX(a[numsSize-2], b[numsSize-1]);
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```python
+# ```python
 def missingNumber(nums):
     # 对数组进行排序
     nums.sort()
@@ -17,4 +17,4 @@ def missingNumber1(nums):
 print(missingNumber([0]))
 print(missingNumber1([0]))
 print(missingNumber1([3,0,1]))
-```
+# ```

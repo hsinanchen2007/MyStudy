@@ -1,8 +1,8 @@
 
-![image.png](https://pic.leetcode-cn.com/429d4f9387525dab31cc22031921c31819b768f1de7fccb6293042b265107865-image.png)
+# ![image.png](https://pic.leetcode-cn.com/429d4f9387525dab31cc22031921c31819b768f1de7fccb6293042b265107865-image.png)
 
 
-```
+# ```
 
 from typing import List
 class Solution:
@@ -50,4 +50,4 @@ class Solution:
             total_cnt += cnt
 
         return [float(x) for x in [min_val, max_val, mean_val, mid_val, common_val]]
-```
+# ```

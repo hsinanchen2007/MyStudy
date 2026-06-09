@@ -1,9 +1,9 @@
-### 解题思路
-用时 0ms 是什么情况
+// ### 解题思路
+// 用时 0ms 是什么情况
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int myAtoi(char * str){
     int num = 0, max = 0;
     char sign = 1;
@@ -32,4 +32,4 @@ int myAtoi(char * str){
 
     return sign * num;
 }
-```
+// ```

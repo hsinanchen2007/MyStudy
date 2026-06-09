@@ -1,12 +1,12 @@
-### 解题思路
-1.DP的思路不在详细描述，就是取min(dp[i - coin] + 1);，对于用例来说就是取min(dp[i-1]+1,dp[i-2]+1,dp[i-5]+1)
-2.有几个坑要注意：
-1）因为是取最小值，因此最小值的初值需要赋值，由于纸币最小刻度为1，因此dp最大值为amount，因此最小值可以赋值为amount+1，即minvalue = amount+1
-2）dp[0] = 0;由dp[0]推导出后续的dp[coin[i]]
+// ### 解题思路
+// 1.DP的思路不在详细描述，就是取min(dp[i - coin] + 1);，对于用例来说就是取min(dp[i-1]+1,dp[i-2]+1,dp[i-5]+1)
+// 2.有几个坑要注意：
+// 1）因为是取最小值，因此最小值的初值需要赋值，由于纸币最小刻度为1，因此dp最大值为amount，因此最小值可以赋值为amount+1，即minvalue = amount+1
+// 2）dp[0] = 0;由dp[0]推导出后续的dp[coin[i]]
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /*
  * Copyright (c) Huawei Technologies Co., Ltd.2012-2019. All rights reserved.
  * Description:Solution
@@ -38,4 +38,4 @@ public:
         return dp[amount] > amount ? -1 : dp[amount];
     }
 };
-```
+// ```

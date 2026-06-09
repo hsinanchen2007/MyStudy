@@ -1,6 +1,6 @@
-先来代码,遍历算法和具体解题思路分离(访问者模式),改一个枚举值即可实现切换。
+// 先来代码,遍历算法和具体解题思路分离(访问者模式),改一个枚举值即可实现切换。
 
-```
+// ```
 class Solution {
     public List<TreeNode> delNodes(TreeNode root, int[] to_delete) {
         Set<Integer> toDeleteSet = new HashSet<>();
@@ -260,7 +260,7 @@ class BinaryTree {
     }
 }
 
-```
+// ```
 
-这里只有后序和层序遍历可以，其他会在删除时破坏树结构。
-代码见[https://gitee.com/yqrepo/DailyLeetCode]()，欢迎大家来贡献哈:)
+// 这里只有后序和层序遍历可以，其他会在删除时破坏树结构。
+// 代码见[https://gitee.com/yqrepo/DailyLeetCode]()，欢迎大家来贡献哈:)

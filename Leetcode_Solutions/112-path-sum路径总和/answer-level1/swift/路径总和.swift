@@ -1,7 +1,7 @@
 
-递归法：
+// 递归法：
 
-```swift []
+// ```swift []
 class Solution {
     func hasPathSum(_ root: TreeNode?, _ sum: Int) -> Bool {
         guard let root = root else {
@@ -16,4 +16,4 @@ class Solution {
         return hasPathSum(root.left, target) || hasPathSum(root.right, target)
     }
 }
-```
+// ```

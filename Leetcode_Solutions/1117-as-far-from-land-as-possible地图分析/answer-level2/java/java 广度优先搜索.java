@@ -1,9 +1,9 @@
-![奇怪的知识增加了.jpg](https://pic.leetcode-cn.com/ec4b9154fce60e356860c45643ef5dcecea87d8b6aed0d96e5ee56cc48330c5a-%E5%A5%87%E6%80%AA%E7%9A%84%E7%9F%A5%E8%AF%86%E5%A2%9E%E5%8A%A0%E4%BA%86.jpg)
+// ![奇怪的知识增加了.jpg](https://pic.leetcode-cn.com/ec4b9154fce60e356860c45643ef5dcecea87d8b6aed0d96e5ee56cc48330c5a-%E5%A5%87%E6%80%AA%E7%9A%84%E7%9F%A5%E8%AF%86%E5%A2%9E%E5%8A%A0%E4%BA%86.jpg)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxDistance(int[][] grid) {
         // 获取行数和列数
@@ -43,4 +43,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

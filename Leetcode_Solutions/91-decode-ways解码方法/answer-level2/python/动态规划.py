@@ -1,10 +1,10 @@
-# 当前位与前一位形成的两位数
-# 0 - 9:dp[i] = dp[i - 1]
-# 10, 20:dp[i] = dp[i - 2]
-# 11 - 19, 21 - 26:dp[i] = dp[i - 1] + dp[i - 2] 
-# 26+:return 0
+# # 当前位与前一位形成的两位数
+# # 0 - 9:dp[i] = dp[i - 1]
+# # 10, 20:dp[i] = dp[i - 2]
+# # 11 - 19, 21 - 26:dp[i] = dp[i - 1] + dp[i - 2] 
+# # 26+:return 0
 
-```
+# ```
 class Solution(object):
     def numDecodings(self, s):
         """
@@ -31,4 +31,4 @@ class Solution(object):
             if dp[i + 1] == 0:
                 return 0 
         return dp[lens]
-```
+# ```

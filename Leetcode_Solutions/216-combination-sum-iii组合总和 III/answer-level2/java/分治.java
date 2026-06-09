@@ -1,9 +1,9 @@
-### 解题思路
-这题也是常规结题思路，这个模板也可以用于其他几道题，但是忘记了是哪几道。
+// ### 解题思路
+// 这题也是常规结题思路，这个模板也可以用于其他几道题，但是忘记了是哪几道。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     List<List<Integer>> lists = new ArrayList<>();
     public List<List<Integer>> combinationSum3(int k, int n) {
@@ -35,4 +35,4 @@ class Solution {
         }
     }
 }
-```
+// ```

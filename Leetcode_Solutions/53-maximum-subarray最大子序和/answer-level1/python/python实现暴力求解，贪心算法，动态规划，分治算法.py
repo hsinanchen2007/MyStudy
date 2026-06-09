@@ -1,9 +1,9 @@
-###
-1.暴力求解：计算出所有子序列和取最大的，时间复杂度o(n^2),空间复杂度o(1)
-只是讲下思路，这种方法提交会超时
+# ###
+# 1.暴力求解：计算出所有子序列和取最大的，时间复杂度o(n^2),空间复杂度o(1)
+# 只是讲下思路，这种方法提交会超时
 
-### 
-```python3
+# ### 
+# ```python3
 class Solution:
     def maxSubArray(self, nums):
         max_subarray = nums[0]
@@ -15,13 +15,13 @@ class Solution:
                     tmp+=nums[j]
                     max_subarray=max(max_subarray,tmp)
         return max_subarray
-```
-### 解题思路
-2.贪心算法：这个官方题解说的比较明白，我只贴个我的代码
+# ```
+# ### 解题思路
+# 2.贪心算法：这个官方题解说的比较明白，我只贴个我的代码
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxSubArray(self, nums):
         sum=ans=nums[0]
@@ -29,28 +29,28 @@ class Solution:
             sum=sum+n if sum >0 else n
             ans = ans if ans>sum else sum
         return ans 
-```
-### 解题思路
-3.动态规划：其实就是用一个数组dp做记录，dp[i]记录以nums[i]为结尾的最大子序列和。
-实现方式就是dp[i]=max(dp[i-1]+nums[i],nums[i]),即以nums[i]为结尾的最大子序列要么是以它自己单独作为子序列，要么是它加上前面以nums[i-1]为结尾的最大子序列和dp[i-1],通过比较大小确定具体是哪个，本质上和贪心算法是一样的。
-时间复杂度:o(n),空间复杂度:o(n)
+# ```
+# ### 解题思路
+# 3.动态规划：其实就是用一个数组dp做记录，dp[i]记录以nums[i]为结尾的最大子序列和。
+# 实现方式就是dp[i]=max(dp[i-1]+nums[i],nums[i]),即以nums[i]为结尾的最大子序列要么是以它自己单独作为子序列，要么是它加上前面以nums[i-1]为结尾的最大子序列和dp[i-1],通过比较大小确定具体是哪个，本质上和贪心算法是一样的。
+# 时间复杂度:o(n),空间复杂度:o(n)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxSubArray(self, nums):
         dp=[nums[0]]
         for n in nums[1:]:
             dp.append(max(dp[-1]+n,n))
         return max(dp) 
-```
-### 解题思路
-3.1.动态算法调整：仔细思考发现其实根本不需要dp数组，每次都只需要获得前一个元素为结尾的最大子序和，所以调整一下，时间复杂度还为o(n),空间复杂度变为o(1)。这个时候可以看到动态规划方法和贪心算法基本一样，dp=max(dp+n,n)和前面贪心算法的sum=sum+n if sum >0 else 其实是一回事
+# ```
+# ### 解题思路
+# 3.1.动态算法调整：仔细思考发现其实根本不需要dp数组，每次都只需要获得前一个元素为结尾的最大子序和，所以调整一下，时间复杂度还为o(n),空间复杂度变为o(1)。这个时候可以看到动态规划方法和贪心算法基本一样，dp=max(dp+n,n)和前面贪心算法的sum=sum+n if sum >0 else 其实是一回事
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxSubArray(self, nums):
        ans=dp=nums[0]
@@ -58,13 +58,13 @@ class Solution:
             dp=max(dp+n,n)
             ans=ans if ans>dp else dp
         return ans
-```
-### 解题思路
-4.分治算法：解题思路都写在注释
+# ```
+# ### 解题思路
+# 4.分治算法：解题思路都写在注释
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxSubArray(self, nums):
         """
@@ -95,4 +95,4 @@ class Solution:
         #通过实例[-1,0,2]很好理解这一点
         maxCenter=max(0,maxLeftTail)+nums[c]+max(0,maxRightHead)
         return max(maxLeft,maxCenter,maxRight) 
-```
+# ```

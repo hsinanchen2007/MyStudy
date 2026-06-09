@@ -1,9 +1,9 @@
-### 解题思路
-退化的也算是平衡吧
+# ### 解题思路
+# 退化的也算是平衡吧
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -65,4 +65,4 @@ class Solution(object):
 # 0
 预期结果
 [3,1,5,0,2,4]
-```
+# ```

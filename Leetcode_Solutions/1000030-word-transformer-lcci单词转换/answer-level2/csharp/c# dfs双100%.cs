@@ -1,11 +1,11 @@
-### 解题思路
-dfs
-1.用一个二维数组(connects)保存单词的关系
-2.用一个数组(passFlags)保存走过的点，这样可避免dfs超时
+// ### 解题思路
+// dfs
+// 1.用一个二维数组(connects)保存单词的关系
+// 2.用一个数组(passFlags)保存走过的点，这样可避免dfs超时
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public IList<string> FindLadders(string beginWord, string endWord, IList<string> wordList) {
         List<string> newWordList = new List<string>(wordList);
@@ -123,4 +123,4 @@ public class Solution {
         return false;
     }
 }
-```
+// ```

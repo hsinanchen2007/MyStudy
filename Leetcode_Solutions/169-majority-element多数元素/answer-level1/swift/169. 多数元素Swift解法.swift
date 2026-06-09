@@ -1,8 +1,8 @@
-### 解题思路
-- 最中间的一个肯定是结果
-### 代码
+// ### 解题思路
+// - 最中间的一个肯定是结果
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func majorityElement(_ nums: [Int]) -> Int {
         let arr = nums.sorted()
@@ -11,9 +11,9 @@ class Solution {
     }
 }
 
-```
-- 投票法
-```swift
+// ```
+// - 投票法
+// ```swift
 class Solution {
     func majorityElement(_ nums: [Int]) -> Int {
         var res = nums[0]
@@ -31,4 +31,4 @@ class Solution {
         return res
     }
 }
-```
+// ```

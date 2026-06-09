@@ -1,14 +1,14 @@
-### 解题思路
+// ### 解题思路
 
-二叉树的问题就是递归的问题。
+// 二叉树的问题就是递归的问题。
 
-对于以root为根节点的二叉树，和为sum 的路径包括两部分：
-1. 包含节点root, 和为sum 的路径(对应题目中的`pathSumInclude`函数)
-2. 不包含节点root, 和为 sum 的路径(对应题目中的`pathSumNoInclude`函数)
-理解了这层，通过递归求解即可。
-### 代码
+// 对于以root为根节点的二叉树，和为sum 的路径包括两部分：
+// 1. 包含节点root, 和为sum 的路径(对应题目中的`pathSumInclude`函数)
+// 2. 不包含节点root, 和为 sum 的路径(对应题目中的`pathSumNoInclude`函数)
+// 理解了这层，通过递归求解即可。
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -39,4 +39,4 @@ int pathSumNoInclude(struct TreeNode* root, int sum) {
 int pathSum(struct TreeNode* root, int sum){
     return pathSumInclude(root, sum) + pathSumNoInclude(root, sum);
 }
-```
+// ```

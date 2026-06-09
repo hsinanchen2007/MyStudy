@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/09613cb45550a198734ef1c8ebbc8b2546812b25f9bb87010f429d775c717a41-image.png)
+// ![image.png](https://pic.leetcode-cn.com/09613cb45550a198734ef1c8ebbc8b2546812b25f9bb87010f429d775c717a41-image.png)
 
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
 栈 参考 「powcai」的解题思路
 
 自己憋了半天总有 bug，还不如学下大佬的思路
@@ -30,11 +30,11 @@ stack.pop(){ 这是上面刚刚保存的运算结果 }
 
 数字 -> 利用一个临时变量 temp 存储所有连续的数字，直到数字不再连续，
 用前面的总运算结果 sum 和 temp 进行运算即可
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var calculate = function(s) {
   let sum = 0,
       stack = [],
@@ -85,4 +85,4 @@ function isNumber(n) {
   n = Number( n );
   return typeof n === 'number' && !isNaN( n );
 }
-```
+// ```

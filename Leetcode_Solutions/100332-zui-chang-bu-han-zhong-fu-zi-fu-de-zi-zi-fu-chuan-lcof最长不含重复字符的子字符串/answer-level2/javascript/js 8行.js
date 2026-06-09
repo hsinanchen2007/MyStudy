@@ -1,5 +1,5 @@
-8行解决
-```js
+// 8行解决
+// ```js
 var lengthOfLongestSubstring = function(s) {
     let record = '', max = 0, index;
     for(let i = 0; i < s.length; i++) {
@@ -10,4 +10,4 @@ var lengthOfLongestSubstring = function(s) {
     }
     return max;
 };
-```
+// ```

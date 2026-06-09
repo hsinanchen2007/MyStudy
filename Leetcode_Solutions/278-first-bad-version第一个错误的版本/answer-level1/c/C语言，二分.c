@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 // Forward declaration of isBadVersion API.
 bool isBadVersion(int version);
 
@@ -21,4 +21,4 @@ int firstBadVersion(int n) {
     }
     return low;
 }
-```
+// ```

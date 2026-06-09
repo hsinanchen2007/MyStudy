@@ -1,9 +1,9 @@
-### 解题思路
-思路简单明了
+# ### 解题思路
+# 思路简单明了
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def largestSumAfterKNegations(self, A: List[int], K: int) -> int:
         A.sort()
@@ -24,4 +24,4 @@ class Solution:
                 A[i] = -A[i]
         return sum(A)
         
-```
+# ```

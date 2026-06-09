@@ -1,10 +1,10 @@
-### 解题思路
-1. 遍历数组，取累计最大值
-2. 动态规划，f[k] = max(nums[k], f[k-1] + nums[k])
+# ### 解题思路
+# 1. 遍历数组，取累计最大值
+# 2. 动态规划，f[k] = max(nums[k], f[k-1] + nums[k])
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
         # n = len(nums)
@@ -24,4 +24,4 @@ class Solution:
                 nums[i] += nums[i-1]
             max_sum = max(nums[i], max_sum) 
         return max_sum
-```
+# ```

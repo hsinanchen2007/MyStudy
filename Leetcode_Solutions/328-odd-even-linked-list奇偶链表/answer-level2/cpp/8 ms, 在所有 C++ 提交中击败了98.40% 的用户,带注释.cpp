@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 public:
     ListNode* oddEvenList(ListNode* head) {
         if(!head||!head->next)
@@ -24,4 +24,4 @@ public:
         return head;
     }
 
-```
+// ```

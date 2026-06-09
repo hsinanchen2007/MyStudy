@@ -1,4 +1,4 @@
-```
+// ```
 var minSubArrayLen = function(s, nums) {
     let l = 0, r = -1, len = nums.length, res = len + 1, sum = 0
     while(l < len) {
@@ -9,4 +9,4 @@ var minSubArrayLen = function(s, nums) {
     }
     return res === (len + 1) ? 0 : res
 };
-```
+// ```

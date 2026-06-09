@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
-方法一：暴力递归，直接超时。从后往前循环找到能跳到numsSize的位置，在递归判断找到的这些位置能否也能被跳到。
-```
+// ### 代码
+// 方法一：暴力递归，直接超时。从后往前循环找到能跳到numsSize的位置，在递归判断找到的这些位置能否也能被跳到。
+// ```
 bool canJump(int* nums, int numsSize){
     if(numsSize<2){
         return true;
@@ -18,10 +18,10 @@ bool canJump(int* nums, int numsSize){
     }
     return false;
 }
-```
+// ```
 
-方法二：动态规划，
-```c
+// 方法二：动态规划，
+// ```c
 bool canJump(int* nums, int numsSize){
     if(numsSize == 1){
         return true;
@@ -43,9 +43,9 @@ bool canJump(int* nums, int numsSize){
     }
     return (sign[numsSize-1]==1?true:false);
 }
-```
-方法三：通过动态规划我们发现可以直接只记录能跳到的最远的位置
-```
+// ```
+// 方法三：通过动态规划我们发现可以直接只记录能跳到的最远的位置
+// ```
 bool canJump(int* nums, int numsSize){
     int far = 0;  //记录能跳到的最远的位置
     for(int i=0;i<=far;i++){
@@ -57,4 +57,4 @@ bool canJump(int* nums, int numsSize){
     return false;
 }
 
-```
+// ```

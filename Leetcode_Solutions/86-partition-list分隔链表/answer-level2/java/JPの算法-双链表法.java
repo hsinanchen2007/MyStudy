@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public ListNode partition(ListNode head, int x) {
         if(head==null)
@@ -22,4 +22,4 @@ class Solution {
         return lesshead.next;
     }
 }
-```
+// ```

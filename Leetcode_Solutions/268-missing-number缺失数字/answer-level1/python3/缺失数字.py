@@ -1,9 +1,9 @@
-### 解题思路
-把每个值放在对应的下标的位置，除了首位的0以外，哪个位置上是0，哪个数字就缺失
+# ### 解题思路
+# 把每个值放在对应的下标的位置，除了首位的0以外，哪个位置上是0，哪个数字就缺失
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def missingNumber(self, nums: List[int]) -> int:
         if 0 not in nums:
@@ -19,4 +19,4 @@ class Solution:
 
         # return sum([i for i in range(len(nums)+1)])-sum(nums)  大佬的牛解法：利用差值来找缺失的那个数
 
-```
+# ```

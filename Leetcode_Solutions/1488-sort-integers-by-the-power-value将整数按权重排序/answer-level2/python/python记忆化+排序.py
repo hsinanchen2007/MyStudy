@@ -1,4 +1,4 @@
-```
+# ```
 import heapq
 
 class Solution(object):
@@ -28,5 +28,5 @@ class Solution(object):
             return get_weight(val), val
         # return sorted(range(lo, hi+1), key=wrapper_get_weight)[k-1]
         return heapq.nsmallest(k, range(lo, hi+1), key=wrapper_get_weight)[-1]
-```
-利用tuple（其实list和string也是）默认按0 1 2的元素排序。cache记录避免重复计算
+# ```
+# 利用tuple（其实list和string也是）默认按0 1 2的元素排序。cache记录避免重复计算

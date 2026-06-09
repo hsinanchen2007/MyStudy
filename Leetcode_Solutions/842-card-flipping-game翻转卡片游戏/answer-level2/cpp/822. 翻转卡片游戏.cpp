@@ -1,6 +1,6 @@
-法一：有点慢
+// 法一：有点慢
 
-```
+// ```
 class Solution {
 public:
     int flipgame(vector<int>& fronts, vector<int>& backs) {
@@ -30,10 +30,10 @@ public:
         return 0;
     }
 };
-```
+// ```
 
-法二：
-```
+// 法二：
+// ```
 class Solution {
 public:
     int flipgame(vector<int>& fronts, vector<int>& backs) {
@@ -68,5 +68,5 @@ public:
         return res==INT_MAX?0:res;
     }
 };
-```
+// ```
 

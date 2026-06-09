@@ -1,10 +1,10 @@
-解题思路：
-    1. 当遇到前后不等时 count 就是该字符的长度。
-    2. 按照题意 count 超过两位数例如: 12个a会变为['a', '1', '2']; 112个b会变成['b', '1', '1', '2']，所以 String(count).length + 1 为变换之后的长度，原本长度就是 count，差值 dur 为新数组与老数组的长度差。
-    3. 利用 splice 替换原数组
-    4. 如果 chars 长度有变化即 dur 不为 0，指针 i 需要回位。
+// 解题思路：
+//     1. 当遇到前后不等时 count 就是该字符的长度。
+//     2. 按照题意 count 超过两位数例如: 12个a会变为['a', '1', '2']; 112个b会变成['b', '1', '1', '2']，所以 String(count).length + 1 为变换之后的长度，原本长度就是 count，差值 dur 为新数组与老数组的长度差。
+//     3. 利用 splice 替换原数组
+//     4. 如果 chars 长度有变化即 dur 不为 0，指针 i 需要回位。
 
-```js
+// ```js
 /**
  * @param {character[]} chars
  * @return {number}
@@ -29,4 +29,4 @@ var compress = function (chars) {
 
     return chars.length;
 };
-```
+// ```

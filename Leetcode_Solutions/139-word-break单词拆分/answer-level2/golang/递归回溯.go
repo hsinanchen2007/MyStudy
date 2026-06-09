@@ -1,5 +1,5 @@
-一开始没有记录已经计算过的子串结果超时了。。。
-```
+// 一开始没有记录已经计算过的子串结果超时了。。。
+// ```
 func contains(s string, arr []string) bool {
 	for _, v := range arr {
 		if s == v {
@@ -42,4 +42,4 @@ func recursion(s string, start int, wordDict []string, m map[int]bool) bool {
 	return false
 }
 
-```
+// ```

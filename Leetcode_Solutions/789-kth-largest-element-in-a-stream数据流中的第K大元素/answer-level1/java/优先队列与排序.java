@@ -1,7 +1,7 @@
-## 排序：
-1. 对输入的arr进行排序，找出前k个
-2. 每次add进行插入排序
-```
+// ## 排序：
+// 1. 对输入的arr进行排序，找出前k个
+// 2. 每次add进行插入排序
+// ```
 class KthLargest {
     private int[] arr;
     public KthLargest(int k, int[] nums) {
@@ -29,12 +29,12 @@ class KthLargest {
         return arr[0];
     }
 }
-```
-时间复杂度分别为：nlogn、k
-空间复杂度为n或k（依赖于排序算法的空间复杂度）
+// ```
+// 时间复杂度分别为：nlogn、k
+// 空间复杂度为n或k（依赖于排序算法的空间复杂度）
 
-## 优先队列：
-```
+// ## 优先队列：
+// ```
 class KthLargest {
     private PriorityQueue<Integer> pq;
     private int k;
@@ -56,6 +56,6 @@ class KthLargest {
     }
 
 }
-```
-时间复杂度：nlogK、logK
-空间复杂度：k
+// ```
+// 时间复杂度：nlogK、logK
+// 空间复杂度：k

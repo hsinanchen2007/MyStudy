@@ -1,8 +1,8 @@
-### 解题思路
-设置猫狗双队列，出队时做判断即可。
-### 代码
+# ### 解题思路
+# 设置猫狗双队列，出队时做判断即可。
+# ### 代码
 
-```python3
+# ```python3
 class AnimalShelf:
     from collections import deque
     def __init__(self):
@@ -44,4 +44,4 @@ class AnimalShelf:
 # param_2 = obj.dequeueAny()
 # param_3 = obj.dequeueDog()
 # param_4 = obj.dequeueCat()
-```
+# ```

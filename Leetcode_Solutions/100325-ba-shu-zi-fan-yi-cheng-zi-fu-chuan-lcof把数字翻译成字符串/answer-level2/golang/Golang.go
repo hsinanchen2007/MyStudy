@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 import (
 	"strconv"
 )
@@ -24,4 +24,4 @@ func translateNum(num int) int {
 	f(strconv.Itoa(num))
 	return count
 }
-```
+// ```

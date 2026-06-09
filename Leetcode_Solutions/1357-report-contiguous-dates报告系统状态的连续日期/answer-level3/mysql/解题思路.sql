@@ -1,11 +1,11 @@
-### 解题思路
-1.两部分数据并起来
-2.按日期排序后遍历，分配group_id,连续成功或失败group_id一致
-3.按group_id分组，取最大和最小日期即为end_date、start_date
+-- ### 解题思路
+-- 1.两部分数据并起来
+-- 2.按日期排序后遍历，分配group_id,连续成功或失败group_id一致
+-- 3.按group_id分组，取最大和最小日期即为end_date、start_date
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 
 SELECT if(task_result = 0, 'failed', 'succeeded') AS period_state
@@ -28,4 +28,4 @@ FROM (
 ) b
 GROUP BY group_id
 ORDER BY start_date ASC
-```
+-- ```

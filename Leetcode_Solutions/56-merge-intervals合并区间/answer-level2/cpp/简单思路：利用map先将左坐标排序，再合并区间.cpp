@@ -1,13 +1,13 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/e81a448d83de845727323904306e5e7e80d38324b88aa30eca63f7018609b8de-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e81a448d83de845727323904306e5e7e80d38324b88aa30eca63f7018609b8de-image.png)
 
-(1)map保持有序，先将期间入map，如果左坐标一致，先合并入map
-(2)再遍历一遍map，将连续有重叠的区间合并，合并后区间放入返回vector
+// (1)map保持有序，先将期间入map，如果左坐标一致，先合并入map
+// (2)再遍历一遍map，将连续有重叠的区间合并，合并后区间放入返回vector
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 vector<vector<int>> merge(vector<vector<int>> &intervals)
@@ -71,4 +71,4 @@ vector<vector<int>> merge(vector<vector<int>> &intervals)
     return ret;
 }
 };
-```
+// ```

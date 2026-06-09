@@ -1,10 +1,10 @@
-### 解题思路
-按位统计，双100
-![截屏2020-03-28 11.32.52.png](https://pic.leetcode-cn.com/504ad8b36037af776419e2c068c08e0620f291623447fdc65628a9ecd827a692-%E6%88%AA%E5%B1%8F2020-03-28%2011.32.52.png)
+// ### 解题思路
+// 按位统计，双100
+// ![截屏2020-03-28 11.32.52.png](https://pic.leetcode-cn.com/504ad8b36037af776419e2c068c08e0620f291623447fdc65628a9ecd827a692-%E6%88%AA%E5%B1%8F2020-03-28%2011.32.52.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numberOf2sInRange(int n) {
         int result = 0;
@@ -27,4 +27,4 @@ class Solution {
     }
 
 }
-```
+// ```

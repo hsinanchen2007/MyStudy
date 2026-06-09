@@ -1,10 +1,10 @@
-### 解题思路
-1, 找到当前节点位置，最小的`low_price`
-2, 更新最大的 `price_max` 
+# ### 解题思路
+# 1, 找到当前节点位置，最小的`low_price`
+# 2, 更新最大的 `price_max` 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         if not prices:
@@ -18,4 +18,4 @@ class Solution:
             else:
                 rev_max = max(rev_max, p-low_price)
         return rev_max                
-```
+# ```

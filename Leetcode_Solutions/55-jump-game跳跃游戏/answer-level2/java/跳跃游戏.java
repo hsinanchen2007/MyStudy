@@ -1,5 +1,5 @@
-自顶向下：可以减少非必要的判断
-```
+// 自顶向下：可以减少非必要的判断
+// ```
     private int[] dp;
     public boolean canJump(int[] nums) {
         dp = new int[nums.length];
@@ -21,4 +21,4 @@
         dp[index] = -1;
         return false;
     }
-```
+// ```

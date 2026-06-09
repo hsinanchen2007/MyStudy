@@ -1,7 +1,7 @@
-dp[i]表示下标为i之前连续不重复的个数，start为连续不重复子串的起始位置，每次循环判断s[i]是否在（s[start], s[i - 1]）之间；
-1.如果不在（s[start], s[i - 1]）之间，则dp[i] = dp[i - 1] + 1
-2.如果在，则start位置移到s[i]在s[start], s[i - 1]之间出现的位置的下一位，例如abcda，那么当s[i] = ‘a’，start = 0，时
-start将移到start + 1的位置上即start = start + 1。
+// dp[i]表示下标为i之前连续不重复的个数，start为连续不重复子串的起始位置，每次循环判断s[i]是否在（s[start], s[i - 1]）之间；
+// 1.如果不在（s[start], s[i - 1]）之间，则dp[i] = dp[i - 1] + 1
+// 2.如果在，则start位置移到s[i]在s[start], s[i - 1]之间出现的位置的下一位，例如abcda，那么当s[i] = ‘a’，start = 0，时
+// start将移到start + 1的位置上即start = start + 1。
 
 			bool isValid(char ch, char* arr, int arrSize, int* start){
 				int i;

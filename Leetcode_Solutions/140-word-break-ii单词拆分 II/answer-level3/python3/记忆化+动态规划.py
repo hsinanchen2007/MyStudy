@@ -1,5 +1,5 @@
-贡献一下一个弱鸡解法
-```
+# 贡献一下一个弱鸡解法
+# ```
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> List[str]:
         Hash = {}
@@ -34,4 +34,4 @@ class Solution:
             cur_words.append(s[num:index])
             self.backtrack(cur_words, memo, num, s)
             cur_words.pop()
-```
+# ```

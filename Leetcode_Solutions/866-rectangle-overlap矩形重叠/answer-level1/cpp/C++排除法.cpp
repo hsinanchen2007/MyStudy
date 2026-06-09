@@ -1,5 +1,5 @@
-排除掉不重合以及只有一边重合的情况即可
-```
+// 排除掉不重合以及只有一边重合的情况即可
+// ```
 class Solution {
 public:
     bool isRectangleOverlap(vector<int>& rec1, vector<int>& rec2) {
@@ -17,4 +17,4 @@ public:
         }
     }
 };
-```
+// ```

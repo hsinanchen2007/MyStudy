@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     string reverseWords(string s) {
@@ -8,4 +8,4 @@ public:
         return ans.empty() ? "" : string(ans.begin() + 1, ans.end());
     }
 };
-```
+// ```

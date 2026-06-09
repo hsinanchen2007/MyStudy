@@ -1,6 +1,6 @@
 
-每次取出子数组最后一个*splice(xL,1)*，然后将前一个数组的最后一个，插入第一个位置*unshift(grid[y-1][xL])*
-```
+// 每次取出子数组最后一个*splice(xL,1)*，然后将前一个数组的最后一个，插入第一个位置*unshift(grid[y-1][xL])*
+// ```
 /**
  * @param {number[][]} grid
  * @param {number} k
@@ -21,4 +21,4 @@ var shiftGrid = function(grid, k) {
     }
     return grid;
 };
-```
+// ```

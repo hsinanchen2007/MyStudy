@@ -1,9 +1,9 @@
-### 解题思路
-折腾死了
+// ### 解题思路
+// 折腾死了
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} capacity
  */
@@ -146,4 +146,4 @@ class Link {
  * var param_1 = obj.get(key)
  * obj.put(key,value)
  */
-```
+// ```

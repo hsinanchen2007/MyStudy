@@ -1,5 +1,5 @@
-获取左右子树的深度，依次递归比较比较
-```
+// 获取左右子树的深度，依次递归比较比较
+// ```
 
 int getDepth(struct TreeNode *root)
 {
@@ -51,4 +51,4 @@ bool isBalanced(struct TreeNode* root)
 
     return balanced;
 }
-```
+// ```

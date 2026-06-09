@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/49f1a86fd19657fd276995021041c1aa5ee6d602447c98cadd8bd093949426cb-image.png)
+// ![image.png](https://pic.leetcode-cn.com/49f1a86fd19657fd276995021041c1aa5ee6d602447c98cadd8bd093949426cb-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
 初始化 sum 为 -Infinity
 一个一个遍历 nums 数组
 
@@ -11,11 +11,11 @@
     否 -> 丢弃掉自己手中的 sum，直接把 nums[i] 更新过来，变成 sum，
           因为不管当前数 nums[i] 是多少，此时自己手中的 sum 是负数，都会把
           累加后的和变小，所以直接丢弃
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -58,4 +58,4 @@ var maxSubArray = function(nums) {
   
 //   return max;
 // };
-```
+// ```

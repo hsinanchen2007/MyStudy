@@ -1,4 +1,4 @@
-```
+// ```
 int numSubarraysWithSum(int* A, int ASize, int S){
     int left;
     int right;
@@ -24,4 +24,4 @@ int numSubarraysWithSum(int* A, int ASize, int S){
 
     return ans;
 }
-```
+// ```

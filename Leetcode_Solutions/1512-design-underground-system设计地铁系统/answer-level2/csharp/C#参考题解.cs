@@ -1,10 +1,10 @@
-我在比赛的时候写了两个类
-一个Passager类，还有一个PassagerInfo类
-Passager类用于创建乘客对象
-PassagerInfo类里创建了一个Passager List，以及求平均时间的静态方法
-后来执行出错，我用对比文档看了一下，是有几个checkout的小数有一些问题，我现在猜测可能是同步异步导致的数据问题？没有得到求证。
-现在我优化了一下自己的代码，就写一个PassagerInfo类，UndergroundSystem类里创建两个PassagerInfo的List（PassagersIn用于管理在站内的乘客信息，PassagersOut用于管理已出站的乘客信息），具体代码如下
-```
+// 我在比赛的时候写了两个类
+// 一个Passager类，还有一个PassagerInfo类
+// Passager类用于创建乘客对象
+// PassagerInfo类里创建了一个Passager List，以及求平均时间的静态方法
+// 后来执行出错，我用对比文档看了一下，是有几个checkout的小数有一些问题，我现在猜测可能是同步异步导致的数据问题？没有得到求证。
+// 现在我优化了一下自己的代码，就写一个PassagerInfo类，UndergroundSystem类里创建两个PassagerInfo的List（PassagersIn用于管理在站内的乘客信息，PassagersOut用于管理已出站的乘客信息），具体代码如下
+// ```
 public class PassagerInfo
 {
 	public int id;
@@ -71,5 +71,5 @@ public class PassagerInfo
 
 
     }
-```
+// ```
 

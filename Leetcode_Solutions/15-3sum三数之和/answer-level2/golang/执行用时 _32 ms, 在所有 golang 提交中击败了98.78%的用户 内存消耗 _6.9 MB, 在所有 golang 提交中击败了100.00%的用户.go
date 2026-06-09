@@ -1,10 +1,10 @@
-### 解题思路
-golang解答
-执行用时 :32 ms, 在所有 golang 提交中击败了98.78%的用户
-内存消耗 :6.9 MB, 在所有 golang 提交中击败了100.00%的用户
+// ### 解题思路
+// golang解答
+// 执行用时 :32 ms, 在所有 golang 提交中击败了98.78%的用户
+// 内存消耗 :6.9 MB, 在所有 golang 提交中击败了100.00%的用户
 
-### 代码
-```golang
+// ### 代码
+// ```golang
 import "sort"
 
 func threeSum(nums []int) [][]int {
@@ -61,4 +61,4 @@ func next(nums []int, l, r int) (int, int) {
 
 	return l, r
 }
-```
+// ```

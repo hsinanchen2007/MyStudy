@@ -1,9 +1,9 @@
-### 解题思路
-经典解法
+// ### 解题思路
+// 经典解法
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int subtractProductAndSum(int n){
      int a=1,b=0;
 
@@ -15,4 +15,4 @@ int subtractProductAndSum(int n){
     }
     return a-b;
 }
-```
+// ```

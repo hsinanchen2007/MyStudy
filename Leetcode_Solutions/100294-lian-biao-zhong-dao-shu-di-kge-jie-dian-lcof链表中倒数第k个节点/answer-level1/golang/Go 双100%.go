@@ -1,6 +1,6 @@
-使用一个切片存储指针，然后直接返回倒数第K个
+// 使用一个切片存储指针，然后直接返回倒数第K个
 
-```
+// ```
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -23,4 +23,4 @@ func getKthFromEnd(head *ListNode, k int) *ListNode {
 
     return nodes[len(nodes) - k]
 }
-```
+// ```

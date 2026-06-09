@@ -1,13 +1,13 @@
-### 解题思路
-此处撰写解题思路
-数组模拟栈,
-push -- 在栈的顶端添加元素
-pop -- 删除栈顶的元素，既数组最后插入的元素
-top -- 获取最后一个插入栈顶的元素，既数组的最后一个元素,实现后进先出
+// ### 解题思路
+// 此处撰写解题思路
+// 数组模拟栈,
+// push -- 在栈的顶端添加元素
+// pop -- 删除栈顶的元素，既数组最后插入的元素
+// top -- 获取最后一个插入栈顶的元素，既数组的最后一个元素,实现后进先出
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Initialize your data structure here.
  * 
@@ -60,4 +60,4 @@ MyStack.prototype.empty = function() {
  * var param_3 = obj.top()
  * var param_4 = obj.empty()
  */
-```
+// ```

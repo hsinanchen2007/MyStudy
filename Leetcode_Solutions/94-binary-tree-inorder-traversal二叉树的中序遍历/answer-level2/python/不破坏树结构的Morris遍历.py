@@ -1,6 +1,6 @@
 
 
-```
+# ```
 class Solution:
     def inorderTraversal(self, root: TreeNode) -> List[int]:#看到后面一题前序遍历的不破坏结构的莫里斯遍历之后重新回来写的
         pre=None
@@ -22,5 +22,5 @@ class Solution:
                     current=current.right
                     pre.right=None
         return result
-```
+# ```
         

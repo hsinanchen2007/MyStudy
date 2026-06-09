@@ -1,6 +1,6 @@
-维护一个单调递减栈即可
+# 维护一个单调递减栈即可
 
-```python
+# ```python
 class Solution:
     def dailyTemperatures(self, T: List[int]) -> List[int]:
         stack = []
@@ -14,4 +14,4 @@ class Solution:
                 res[j] = i - j
             stack.append([i, curr])
         return res
-```
+# ```

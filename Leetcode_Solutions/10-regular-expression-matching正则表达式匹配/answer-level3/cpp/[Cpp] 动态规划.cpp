@@ -1,9 +1,9 @@
-### 解题思路
-dp[i][j]表示s的前i个字符是否能被p的前j个字符匹配
+// ### 解题思路
+// dp[i][j]表示s的前i个字符是否能被p的前j个字符匹配
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isMatch(string s, string p) {
@@ -40,4 +40,4 @@ public:
         return dp[n1][n2];
     }
 };
-```
+// ```

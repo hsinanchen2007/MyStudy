@@ -1,9 +1,9 @@
-### 解题思路
-1. 递归发糖
+// ### 解题思路
+// 1. 递归发糖
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] distributeCandies(int candies, int num_people) {
         // 入参的边界题目已经给出
@@ -25,4 +25,4 @@ class Solution {
         helper(res, ith + 1, num + 1, left - num);
     }
 }
-```
+// ```

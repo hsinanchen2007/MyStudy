@@ -1,5 +1,5 @@
-先建立一个栈的数据结构，此类问题可以复用,思路同上
-```
+// 先建立一个栈的数据结构，此类问题可以复用,思路同上
+// ```
 class Stack {
   constructor() {
     this.content = []
@@ -72,4 +72,4 @@ var isValid = function (s) {
   }
   return test.isNull() ? true : false
 };
-```
+// ```

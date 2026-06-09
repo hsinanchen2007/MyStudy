@@ -1,7 +1,7 @@
-写一个辅助函数move 
-删头时如果out为空则清空in
+// 写一个辅助函数move 
+// 删头时如果out为空则清空in
 
-```
+// ```
 class CQueue {
 
     public Stack<Integer> in = new Stack();
@@ -36,4 +36,4 @@ class CQueue {
  * obj.appendTail(value);
  * int param_2 = obj.deleteHead();
  */
-```
+// ```

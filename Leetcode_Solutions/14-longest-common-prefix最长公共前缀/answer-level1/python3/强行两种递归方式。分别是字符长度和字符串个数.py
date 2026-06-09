@@ -1,11 +1,11 @@
-### 解题思路
-第1种是按照归并的方式，将问题规模缩小，所有字符串的公共首字符串=（part1的公共首字符串 and part2的公共首字符串）的公共首字符串
-第2种是如果第一个字符都相同，那么首字符+所有字符串的剩下字符的公共首字符串为结果。
+# ### 解题思路
+# 第1种是按照归并的方式，将问题规模缩小，所有字符串的公共首字符串=（part1的公共首字符串 and part2的公共首字符串）的公共首字符串
+# 第2种是如果第一个字符都相同，那么首字符+所有字符串的剩下字符的公共首字符串为结果。
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestCommonPrefix(self, strs):
         if len(strs)==0:
@@ -28,8 +28,8 @@ class Solution:
 
             return self.longestCommonPrefix([self.longestCommonPrefix(strs[:medium]),self.longestCommonPrefix(strs[medium:])])
 
-```
-```python3
+# ```
+# ```python3
 def longestCommonPrefix(self, strs):
     char_set=set()
     for string in strs:
@@ -46,4 +46,4 @@ def longestCommonPrefix(self, strs):
         return common+self.longestCommonPrefix(rest)
     else:
         return ""
-```
+# ```

@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool validPalindrome(string s) {
@@ -30,6 +30,6 @@ public:
         return false;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/3f6b90dd3405279c82c58adab17055351d5874295f5987df6a68a39caff4e891-image.png)
+// ![image.png](https://pic.leetcode-cn.com/3f6b90dd3405279c82c58adab17055351d5874295f5987df6a68a39caff4e891-image.png)

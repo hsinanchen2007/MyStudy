@@ -1,5 +1,5 @@
-建立图结构，朴素的BFS,结果为最后一个人接到通知的时间
-```
+// 建立图结构，朴素的BFS,结果为最后一个人接到通知的时间
+// ```
 typedef pair<int,int> ii;
 class Solution {
 public:
@@ -22,4 +22,4 @@ public:
         return res;
     }
 };
-```
+// ```

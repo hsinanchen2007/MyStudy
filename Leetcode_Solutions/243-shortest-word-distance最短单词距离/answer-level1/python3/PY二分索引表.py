@@ -1,4 +1,4 @@
-```
+# ```
 from bisect import bisect
 
 
@@ -20,4 +20,4 @@ class Solution:
                 if 0<=k<len(i2):
                     ans=min(ans,abs(i-i2[k]))
         return ans
-```
+# ```

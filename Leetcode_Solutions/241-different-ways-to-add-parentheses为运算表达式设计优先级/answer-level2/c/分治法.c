@@ -1,7 +1,7 @@
-1. 根据运算符划分，递归调用
-2. 只有一个数字的时候，返回atoi，否则11只会返回1，因为识别的是字符
-3. 返回值是一个数组，需要根据结果重新分配，使用realloc
-```
+// 1. 根据运算符划分，递归调用
+// 2. 只有一个数字的时候，返回atoi，否则11只会返回1，因为识别的是字符
+// 3. 返回值是一个数组，需要根据结果重新分配，使用realloc
+// ```
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -59,4 +59,4 @@ int* diffWaysToCompute(char * input, int* returnSize){
     }
     return returnArray;
 }
-```
+// ```

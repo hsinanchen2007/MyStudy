@@ -1,9 +1,9 @@
-### 解题思路
-用三个节点标记来进行删除。
+// ### 解题思路
+// 用三个节点标记来进行删除。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -38,4 +38,4 @@ class Solution {
         return pHead;
     }
 }
-```
+// ```

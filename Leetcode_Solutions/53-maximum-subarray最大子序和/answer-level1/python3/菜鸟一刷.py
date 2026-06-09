@@ -1,11 +1,11 @@
-### 解题思路
-动态规划问题，个人将输入分两种情况：
-    1、全部是负数，
-    2、有非负数
+# ### 解题思路
+# 动态规划问题，个人将输入分两种情况：
+#     1、全部是负数，
+#     2、有非负数
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
         Max=max(nums)
@@ -23,4 +23,4 @@ class Solution:
                 Max=dp
         return Max
 
-```
+# ```

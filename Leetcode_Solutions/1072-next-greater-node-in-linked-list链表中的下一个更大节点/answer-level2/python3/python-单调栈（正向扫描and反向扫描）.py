@@ -1,5 +1,5 @@
-正向扫描：
-```
+# 正向扫描：
+# ```
 # class ListNode:
 #     def __init__(self, x):
 #         self.val = x
@@ -21,9 +21,9 @@ class Solution:
                 res[tmp] = nums[i]
             stack.append(i)
         return res
-```
-反向扫描：
-```
+# ```
+# 反向扫描：
+# ```
 class Solution:
     def nextLargerNodes(self, head: ListNode) -> List[int]:
         if head == None:
@@ -41,4 +41,4 @@ class Solution:
                 res[i] = nums[stack[-1]]
             stack.append(i)
         return res
-```
+# ```

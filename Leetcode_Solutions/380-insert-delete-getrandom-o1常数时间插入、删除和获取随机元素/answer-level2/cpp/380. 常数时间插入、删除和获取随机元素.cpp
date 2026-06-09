@@ -1,4 +1,4 @@
-```
+// ```
 class RandomizedSet {
 public:
     unordered_set<int> s;
@@ -42,4 +42,4 @@ public:
         return *it;
     }
 };
-```
+// ```

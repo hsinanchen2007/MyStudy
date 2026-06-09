@@ -1,4 +1,4 @@
-```go
+// ```go
 // 由前序遍历preorder的第一个节点即为根节点
 // 因为树中没有重复元素，所以由中序遍历以根节点左右两边分别是左右子树
 // 结合前序遍历，知道左右子树分别的前序遍历和中序遍历，递归调用即可
@@ -31,4 +31,4 @@ func buildTreeHelper(pre []int, preStart, preEnd, inStart int, inPos map[int]int
     root.Right = buildTreeHelper(pre, preStart+leftLen+1, preEnd, rootIdx+1, inPos)
     return root // 最后返回这棵树即可
 }
-```
+// ```

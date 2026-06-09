@@ -1,8 +1,8 @@
-### 解题思路
-先找到字母，再倒叙赋值
-### 代码
+# ### 解题思路
+# 先找到字母，再倒叙赋值
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def shortestToChar(self, S: str, C: str) -> List[int]:
         index =list(range(len(S)))
@@ -25,4 +25,4 @@ class Solution:
                     start_index = i
             count += 1
         return index
-```
+# ```

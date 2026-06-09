@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-利用求根公式求出可以完整地发多少次糖果，还剩下多少糖果，依次分发即可。
+// 利用求根公式求出可以完整地发多少次糖果，还剩下多少糖果，依次分发即可。
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> distributeCandies(int candies, int num_people) {
@@ -23,4 +23,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
-这是python的方法，但是这好像对理解算法没太大帮助
-```
+# 这是python的方法，但是这好像对理解算法没太大帮助
+# ```
     def removeElement(self, nums, val):
         """
         :type nums: List[int]
@@ -10,7 +10,7 @@
         for i in range(times):
             nums.remove(val)
         return len(nums)
-```
+# ```
 
         
 

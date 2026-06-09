@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
         if not root or root == p or root == q:  # 如果搜到了节点或者root为空，直接返回
@@ -12,11 +12,11 @@ class Solution:
 
         if left and right:  # p、q在两侧
             return root
-```
+# ```
 
-总体思路就是dfs，而且想写短点还可以这样写
+# 总体思路就是dfs，而且想写短点还可以这样写
 
-```python
+# ```python
 class Solution:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
         if not root or root == p or root == q:
@@ -26,4 +26,4 @@ class Solution:
         right = self.lowestCommonAncestor(root.right, p, q)
 
         return root if left and right else left or right
-```
+# ```

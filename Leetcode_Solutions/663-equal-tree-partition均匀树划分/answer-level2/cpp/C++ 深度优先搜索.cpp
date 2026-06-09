@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int sum(TreeNode* root) {
@@ -16,5 +16,5 @@ public:
         return check(root->left, total) || check(root->right, total);
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/dec5cc31c3f99bb4bb0a67e9a4f764fbb1056d723e2ce2378fe960dd5803a00e-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/dec5cc31c3f99bb4bb0a67e9a4f764fbb1056d723e2ce2378fe960dd5803a00e-image.png)

@@ -1,10 +1,10 @@
-### 解题思路
-最长回文子串
+# ### 解题思路
+# 最长回文子串
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minInsertions(self, s: str) -> int:
         if not s:
@@ -23,4 +23,4 @@ class Solution:
                 else:
                     dp[i][j] = max(dp[i + 1][j], dp[i][j - 1])
         return n - dp[0][-1]
-```
+# ```

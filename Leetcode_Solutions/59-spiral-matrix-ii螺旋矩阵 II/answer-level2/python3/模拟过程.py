@@ -1,20 +1,20 @@
-## 思路:
+# ## 思路:
 
-与上一题 [54. 螺旋矩阵](https://leetcode-cn.com/problems/spiral-matrix/)一样,[题解链接](https://leetcode-cn.com/problems/spiral-matrix/solution/mo-ni-guo-cheng-by-powcai-2)
+# 与上一题 [54. 螺旋矩阵](https://leetcode-cn.com/problems/spiral-matrix/)一样,[题解链接](https://leetcode-cn.com/problems/spiral-matrix/solution/mo-ni-guo-cheng-by-powcai-2)
 
-还是模拟过程,控制好边界
+# 还是模拟过程,控制好边界
 
-行的上下边界, 列的左右边界!即可
+# 行的上下边界, 列的左右边界!即可
 
-时间复杂度: $O(n^2)$
-
-
-
-## 代码:
+# 时间复杂度: $O(n^2)$
 
 
 
-```python [1]
+# ## 代码:
+
+
+
+# ```python [1]
 class Solution:
     def generateMatrix(self, n: int) -> List[List[int]]:
         above_row = 0
@@ -46,11 +46,11 @@ class Solution:
                 num += 1
             left_col += 1
         return res
-```
+# ```
 
 
 
-```java [1]
+# ```java [1]
 class Solution {
     public int[][] generateMatrix(int n) {
         int[][] res = new int[n][n];
@@ -88,5 +88,5 @@ class Solution {
         return res;  
     }
 }
-```
+# ```
 

@@ -1,14 +1,14 @@
-**思路：**
+# **思路：**
 
-用队列进行层序遍历（宽度优先搜索）。把每层结点值相加求和，并更新答案。
+# 用队列进行层序遍历（宽度优先搜索）。把每层结点值相加求和，并更新答案。
 
-**图解：**
+# **图解：**
 
-![图解](https://pic.leetcode-cn.com/1ad8c8cf259a8d37fa997fafdb66f758390dffd296d1128cb459fff4b04e783e.gif)
+# ![图解](https://pic.leetcode-cn.com/1ad8c8cf259a8d37fa997fafdb66f758390dffd296d1128cb459fff4b04e783e.gif)
 
 
-**代码：**
-```python
+# **代码：**
+# ```python
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -39,4 +39,4 @@ class Solution:
                 ans = step
             q = t
         return ans
-```
+# ```

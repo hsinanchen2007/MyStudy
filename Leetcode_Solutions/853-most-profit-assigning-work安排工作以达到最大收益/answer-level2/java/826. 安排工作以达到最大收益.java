@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/bfb71404e4b75908c9b5be48ba7c0dfe1abd95a173a314fe0c3c5bad243d1787-image.png)
+// ![image.png](https://pic.leetcode-cn.com/bfb71404e4b75908c9b5be48ba7c0dfe1abd95a173a314fe0c3c5bad243d1787-image.png)
 
-```
+// ```
 class Solution {
     public int maxProfitAssignment(int[] difficulty, int[] profit, int[] worker) {
         int ans, i, j;
@@ -31,4 +31,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
         nums = nums1 + nums2
@@ -14,4 +14,4 @@ class Solution:
             return (nums[half - 1] + nums[half]) / 2
         return nums[half]
 
-```
+# ```

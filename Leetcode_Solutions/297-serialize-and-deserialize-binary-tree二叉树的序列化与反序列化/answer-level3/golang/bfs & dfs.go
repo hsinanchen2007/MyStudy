@@ -1,6 +1,6 @@
-### bfs
+// ### bfs
 
-```golang
+// ```golang
 type Codec struct {
 }
 
@@ -54,12 +54,12 @@ func (this *Codec) deserialize(data string) *TreeNode {
 	}
 	return root
 }
-```
+// ```
 
 
-### dfs 前序遍历
+// ### dfs 前序遍历
 
-```golang
+// ```golang
 
 type Codec struct {
 	res []string
@@ -98,7 +98,7 @@ func (this *Codec) dfsDeserialize() *TreeNode {
 	}
 	return root
 }
-```
+// ```
 
-[Go版本 Github](https://github.com/temporaries/leetcode)
-[对应模板 Github](https://github.com/temporaries/leetcode/blob/master/templates/tree)
+// [Go版本 Github](https://github.com/temporaries/leetcode)
+// [对应模板 Github](https://github.com/temporaries/leetcode/blob/master/templates/tree)

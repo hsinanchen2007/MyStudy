@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool validPalind(string s) {
@@ -33,4 +33,4 @@ public:
         return true;
     }
 };
-```
+// ```

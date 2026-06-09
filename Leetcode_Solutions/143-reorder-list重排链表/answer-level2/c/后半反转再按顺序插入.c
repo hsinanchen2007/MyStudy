@@ -1,8 +1,8 @@
-### 解题思路
-先将后半结点摘下来独立链表，然后再用头插法反转，最后两链表互插搞定
-### 代码
+// ### 解题思路
+// 先将后半结点摘下来独立链表，然后再用头插法反转，最后两链表互插搞定
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -55,4 +55,4 @@ void reorderList(struct ListNode* head){
     }
 
 }
-```
+// ```

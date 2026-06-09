@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def scoreOfParentheses(self, S: str) -> int:
         stack = []
@@ -13,4 +13,4 @@ class Solution:
             else:
                 res += int(i)
         return res
-```
+# ```

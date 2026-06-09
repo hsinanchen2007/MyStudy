@@ -1,5 +1,5 @@
-反向遍历一次存储需要翻转的0，正向遍历一次获得需要翻转的1，各切割点相加取最小值
-```
+// 反向遍历一次存储需要翻转的0，正向遍历一次获得需要翻转的1，各切割点相加取最小值
+// ```
 class Solution {
     public int minFlipsMonoIncr(String S) {
         char[] str = S.toCharArray();
@@ -25,4 +25,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

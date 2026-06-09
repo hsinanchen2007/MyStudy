@@ -1,4 +1,4 @@
-```golang []
+// ```golang []
 func lengthOfLongestSubstring(s string) int {
     flag := [256]int{}
     beg := 0
@@ -19,6 +19,6 @@ func maxnum(a, b int) int {
     }
     return b
 }
-```
+// ```
 
-4ms，怎样再优化？
+// 4ms，怎样再优化？

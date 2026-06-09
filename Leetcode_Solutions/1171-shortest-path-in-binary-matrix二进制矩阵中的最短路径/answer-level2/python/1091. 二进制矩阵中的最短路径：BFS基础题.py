@@ -1,8 +1,8 @@
-就是从原点扩展宽搜，注意首尾不一定为0的判断就行。
+# 就是从原点扩展宽搜，注意首尾不一定为0的判断就行。
 
-测试用例之前似乎是有点问题，现在好像修复了。
+# 测试用例之前似乎是有点问题，现在好像修复了。
 
-```python []
+# ```python []
 class Solution:
     def shortestPathBinaryMatrix(self, grid: List[List[int]]) -> int:
         q, n = [(0, 0, 2)], len(grid)
@@ -18,4 +18,4 @@ class Solution:
                     q += [(x, y, d + 1)]
                     grid[x][y] = 1
         return -1
-```
+# ```

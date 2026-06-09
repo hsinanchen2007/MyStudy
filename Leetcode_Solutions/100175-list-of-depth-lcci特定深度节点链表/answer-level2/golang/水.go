@@ -1,9 +1,9 @@
-### 解题思路
-dfs跑一跑
+// ### 解题思路
+// dfs跑一跑
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func listOfDepth(tree *TreeNode) []*ListNode {
 	res := []*ListNode{}
 	dfs(tree, 0, &res)
@@ -31,4 +31,4 @@ func dfs(node *TreeNode, level int, res *[]*ListNode) {
 	dfs(node.Right, level+1, res)
 }
 
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-栈：先进后出，后进先出，利用java中LinkedList完成一端操作。
+// ### 解题思路
+// 栈：先进后出，后进先出，利用java中LinkedList完成一端操作。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MyStack {
 
     private LinkedList<Integer> queue;
@@ -55,4 +55,4 @@ class MyStack {
  * int param_3 = obj.top();
  * boolean param_4 = obj.empty();
  */
-```
+// ```

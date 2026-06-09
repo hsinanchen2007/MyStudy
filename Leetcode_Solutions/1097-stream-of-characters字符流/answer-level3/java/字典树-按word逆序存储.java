@@ -1,8 +1,8 @@
-执行用时 :119 ms, 在所有 java 提交中击败了100.00%的用户
-内存消耗 :83.5 MB, 在所有 java 提交中击败了100.00%的用户
+// 执行用时 :119 ms, 在所有 java 提交中击败了100.00%的用户
+// 内存消耗 :83.5 MB, 在所有 java 提交中击败了100.00%的用户
 
-注意记录最长word长度，搜索时超过最长就返回。
-```
+// 注意记录最长word长度，搜索时超过最长就返回。
+// ```
 class StreamChecker {
     class TrieNode{
         int widx;
@@ -67,4 +67,4 @@ class StreamChecker {
         return search();
     }
 }
-```
+// ```

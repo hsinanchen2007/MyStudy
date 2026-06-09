@@ -1,5 +1,5 @@
 
-```
+// ```
 /**
  * @param {string[]} strs
  * @return {string}
@@ -25,9 +25,9 @@ var longestCommonPrefix = function(strs) {
     }
     return common;
 };
-```
-### 大神的简洁版代码
-```
+// ```
+// ### 大神的简洁版代码
+// ```
 var longestCommonPrefix = function (strs) {
     let ans = strs.length > 0 ? strs[0] : ""
     for (let i = 1; i < strs.length; i++) {
@@ -41,4 +41,4 @@ var longestCommonPrefix = function (strs) {
     }
     return ans
 };
-```
+// ```

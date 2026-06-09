@@ -1,9 +1,9 @@
-### 解题思路
-递归
+// ### 解题思路
+// 递归
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     List<List<Integer>> res = new ArrayList<>();
     public List<List<Integer>> permute(int[] nums) {
@@ -30,4 +30,4 @@ class Solution {
         }
     }
 }
-```
+// ```

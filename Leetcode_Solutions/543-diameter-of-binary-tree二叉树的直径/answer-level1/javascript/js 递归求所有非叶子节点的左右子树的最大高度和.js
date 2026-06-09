@@ -1,13 +1,13 @@
-![image.png](https://pic.leetcode-cn.com/c46b6d4afd4dc30e8e24fc9163b8502af18756936aa1e9d316b930a1eb30ff53-image.png)
+// ![image.png](https://pic.leetcode-cn.com/c46b6d4afd4dc30e8e24fc9163b8502af18756936aa1e9d316b930a1eb30ff53-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
 计算二叉树某个非叶子节点的左右子树的最大高度和
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -36,4 +36,4 @@ var diameterOfBinaryTree = function(root) {
   
   return height;
 };
-```
+// ```

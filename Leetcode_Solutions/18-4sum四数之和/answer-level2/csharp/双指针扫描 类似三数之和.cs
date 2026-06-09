@@ -1,9 +1,9 @@
-### 解题思路
-刚开始看了一下 跟之前的三数之后差别不大 唯一的就是多了一个指针 
-我就假想成 左右双扫描点的概念 就在三数之后的基础上改动了一下 发现有一些问题
-左进位完成后 让右进位 但是这样会有重复的结果出现 
-### 摸索中的代码
-```
+// ### 解题思路
+// 刚开始看了一下 跟之前的三数之后差别不大 唯一的就是多了一个指针 
+// 我就假想成 左右双扫描点的概念 就在三数之后的基础上改动了一下 发现有一些问题
+// 左进位完成后 让右进位 但是这样会有重复的结果出现 
+// ### 摸索中的代码
+// ```
 public class Solution {
     public IList<IList<int>> FourSum(int[] nums, int target) {
            IList<IList<int>> listAll = new List<IList<int>>();
@@ -54,17 +54,17 @@ public class Solution {
     }
 }
 
-```
-在我懊恼不已的时候 我打开了题解 妈的 发现虽然都是双指针 但是左定点其实是不动的 就是在三数之和的版本上增加了一个点 下图的z点
+// ```
+// 在我懊恼不已的时候 我打开了题解 妈的 发现虽然都是双指针 但是左定点其实是不动的 就是在三数之和的版本上增加了一个点 下图的z点
 
-那么问题来了 5数之和 6数之和 亦或是n数之和呢 
+// 那么问题来了 5数之和 6数之和 亦或是n数之和呢 
 
-难道还是套公式 ？
+// 难道还是套公式 ？
 
-这窝要去思考一下
-### 成功的代码
+// 这窝要去思考一下
+// ### 成功的代码
 
-```csharp
+// ```csharp
 public class Solution {
     public IList<IList<int>> FourSum(int[] nums, int target) {
              IList<IList<int>> listAll = new List<IList<int>>();
@@ -113,4 +113,4 @@ public class Solution {
             return listAll;
     }
 }
-```
+// ```

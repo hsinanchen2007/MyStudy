@@ -1,24 +1,24 @@
 
 
-### 思路
+// ### 思路
 
-使用双指针方式，left、right分别指向生成数字的前后端。
-
-
-输入为3时，递归示意图，
-
-![image.png](https://pic.leetcode-cn.com/831b9f9a00fd36bb770549a34e693639be9021529b7c22855c361aa597d64b2e-image.png)
+// 使用双指针方式，left、right分别指向生成数字的前后端。
 
 
+// 输入为3时，递归示意图，
 
-```运行结果
+// ![image.png](https://pic.leetcode-cn.com/831b9f9a00fd36bb770549a34e693639be9021529b7c22855c361aa597d64b2e-image.png)
+
+
+
+// ```运行结果
 执行用时 : 4 ms , 在所有 golang 提交中击败了 96.59% 的用户 
 
 内存消耗 : 4.3 MB , 在所有 golang 提交中击败了 100.00% 的用户
-```
+// ```
 
 
-```
+// ```
 func generateTrees(n int) []*TreeNode {
 
 	if n == 0 {
@@ -60,4 +60,4 @@ func doGenerateTrees(left, right int) []*TreeNode {
 
 	return trees
 }
-```
+// ```

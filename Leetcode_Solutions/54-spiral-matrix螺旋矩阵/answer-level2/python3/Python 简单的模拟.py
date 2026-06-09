@@ -1,9 +1,9 @@
-### 解题思路
-没啥好说的，就是简单的模拟，四个边界依次往里缩。处理下标很烦，要胆大心细。
+# ### 解题思路
+# 没啥好说的，就是简单的模拟，四个边界依次往里缩。处理下标很烦，要胆大心细。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def spiralOrder(self, matrix):
         m = len(matrix)
@@ -53,4 +53,4 @@ class Solution:
 
             if len(ans) == m * n:
                 return ans
-```
+# ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def getDecimalValue(self, head: ListNode) -> int:
         ans = 0
@@ -7,4 +7,4 @@ class Solution:
             ans = ans | head.val
             head = head.next
         return ans
-```
+# ```

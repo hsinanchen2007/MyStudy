@@ -1,9 +1,9 @@
-### 解题思路
-可以采用不带哨兵和带哨兵的两种解题方式
+// ### 解题思路
+// 可以采用不带哨兵和带哨兵的两种解题方式
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void merge(vector<int>& A, int m, vector<int>& B, int n) {
@@ -38,4 +38,4 @@ public:
         }
     }
 };
-```
+// ```

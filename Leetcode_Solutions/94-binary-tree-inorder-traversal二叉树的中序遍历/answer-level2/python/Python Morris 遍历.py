@@ -1,4 +1,4 @@
-```
+# ```
 注意第一遍查找，是为了构建右指针，所以会有个continue ，从这里区分是不是第一次经历到该节点
 class Solution:
     def inorderTraversal(self, root: TreeNode) -> List[int]:
@@ -20,4 +20,4 @@ class Solution:
                 tmp = tmp.right
         return res
 
-```
+# ```

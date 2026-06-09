@@ -1,5 +1,5 @@
-C++面向对象思路实现isValid(string)判断字符串是否是有效的括号对。
-```
+// C++面向对象思路实现isValid(string)判断字符串是否是有效的括号对。
+// ```
 #include <iostream>
 
 /*
@@ -87,10 +87,10 @@ int main() {
     std::cout << slt.isValid(testStr);
     return 0;
 }
-```
+// ```
 
-附上C语言的实现版本。使用数组和top指向模拟实现出栈和入栈操作，还需要注意退出函数时释放之前分配的内存。
-```
+// 附上C语言的实现版本。使用数组和top指向模拟实现出栈和入栈操作，还需要注意退出函数时释放之前分配的内存。
+// ```
 bool isValid(char* s) {
 	unsigned len = strlen(s), i = 0, top = 0;
 	char* leftCharStk = (char*)malloc(len / 2 * sizeof(char));
@@ -123,10 +123,10 @@ GOTO_EXIT:
 	free(leftCharStk);
 	return top == 0 && i >= len;
 }
-```
+// ```
 
-另外再附上评论区脚本语言简洁的实现方法的C++版本（随手写的，并不简洁了）。但是这种方法时间复杂度达到了O(n^2)，所以并不推荐。
-```
+// 另外再附上评论区脚本语言简洁的实现方法的C++版本（随手写的，并不简洁了）。但是这种方法时间复杂度达到了O(n^2)，所以并不推荐。
+// ```
 class Solution {
 public:
     bool isValid(string s) {
@@ -159,5 +159,5 @@ public:
         return s.length() == 0;
     }
 };
-```
-我果真不适合写题解，写文章啊！
+// ```
+// 我果真不适合写题解，写文章啊！

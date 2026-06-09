@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func permute(nums []int) [][]int {
     if nums == nil || len(nums) == 0{
         return nil
@@ -38,4 +38,4 @@ func backtrack(nums []int, visited []int, result [][]int) [][]int{
         return result
 }
 
-```
+// ```

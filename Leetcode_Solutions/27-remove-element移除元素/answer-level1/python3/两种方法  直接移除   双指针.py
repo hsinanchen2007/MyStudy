@@ -1,4 +1,4 @@
-<!-- 直接移除法，顾名思义，就是遍历列表，遇到目标元素直接remove删除，此时列表长度减1 -->
+# <!-- 直接移除法，顾名思义，就是遍历列表，遇到目标元素直接remove删除，此时列表长度减1 -->
 class Solution:
     def removeElement(self, nums: List[int], val: int) -> int:
         i = 0 

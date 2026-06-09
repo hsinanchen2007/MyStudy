@@ -1,6 +1,6 @@
-双映射的解法，其实还是挺麻烦的。
-这里可以用单映射的方法，最后把映射表排序，然后检查相邻的元素有没有冲突的。
-```
+// 双映射的解法，其实还是挺麻烦的。
+// 这里可以用单映射的方法，最后把映射表排序，然后检查相邻的元素有没有冲突的。
+// ```
 class Solution {
 public:
     vector<string>& findAndReplacePattern(vector<string>& words, string pattern) {
@@ -44,4 +44,4 @@ public:
         return ans;
     }
 };
-```
+// ```

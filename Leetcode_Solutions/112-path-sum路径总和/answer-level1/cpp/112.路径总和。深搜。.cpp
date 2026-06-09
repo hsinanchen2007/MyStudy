@@ -1,12 +1,12 @@
-### 解题思路
-如果root位空，那么一定false;
-否则使用深度优先搜索。
+// ### 解题思路
+// 如果root位空，那么一定false;
+// 否则使用深度优先搜索。
 
-注意：结点的val可能为正数或负数或零。
+// 注意：结点的val可能为正数或负数或零。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -42,4 +42,4 @@ public:
         return false;
     }
 };
-```
+// ```

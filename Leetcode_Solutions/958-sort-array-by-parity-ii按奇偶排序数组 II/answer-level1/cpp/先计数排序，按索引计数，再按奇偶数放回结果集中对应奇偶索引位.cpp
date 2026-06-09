@@ -1,8 +1,8 @@
-### 解题思路
-对于数值大小范围确定的数组，比如本题0~1000，很容易想到计数排序
-### 代码
+// ### 解题思路
+// 对于数值大小范围确定的数组，比如本题0~1000，很容易想到计数排序
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> sortArrayByParityII(vector<int>& A) {
@@ -38,4 +38,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-地址完全相同，数据不一样，接口描述不清
+// ### 解题思路
+// 地址完全相同，数据不一样，接口描述不清
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -31,4 +31,4 @@ public:
         return cur_a;
     }
 };
-```
+// ```

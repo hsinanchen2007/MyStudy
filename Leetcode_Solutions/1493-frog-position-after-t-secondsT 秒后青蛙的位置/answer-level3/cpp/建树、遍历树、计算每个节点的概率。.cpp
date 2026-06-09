@@ -1,12 +1,12 @@
-遍历一遍树，计算出①走到每个结点的概率 ②走到每个结点需要的步数(即深度、或者说层数) ③每个结点的孩子数。
-遍历完后。
-若target对应的层数恰好等于步数t，直接返回target对应的概率即可。
-若target对应的层数大于步数t，且target对应的结点是叶子结点(即孩子数为0)，也直接返回target对应的概率即可。（因为青蛙跳不动时，会在原地跳）。
-否则返回0.0 因为如果不是上面两种情况，青蛙注定跳不到。
-如果target不是叶子结点，只要layer[target]不等于t，青蛙就跳不到。
-如果target是叶子结点，但是layer[target]>t, 青蛙也跳不到。
+// 遍历一遍树，计算出①走到每个结点的概率 ②走到每个结点需要的步数(即深度、或者说层数) ③每个结点的孩子数。
+// 遍历完后。
+// 若target对应的层数恰好等于步数t，直接返回target对应的概率即可。
+// 若target对应的层数大于步数t，且target对应的结点是叶子结点(即孩子数为0)，也直接返回target对应的概率即可。（因为青蛙跳不动时，会在原地跳）。
+// 否则返回0.0 因为如果不是上面两种情况，青蛙注定跳不到。
+// 如果target不是叶子结点，只要layer[target]不等于t，青蛙就跳不到。
+// 如果target是叶子结点，但是layer[target]>t, 青蛙也跳不到。
 
-```cpp
+// ```cpp
 class Solution {
 public:
     double frogPosition(int n, vector<vector<int>>& edges, int t, int target) {
@@ -47,4 +47,4 @@ public:
     vector<bool> looked;
     int *childnum;
 };
-```
+// ```

@@ -1,15 +1,15 @@
-### 解题思路
-比较目标值和数组的头元素和尾元素
-如果target等于头元素：返回0
-如果target等于尾元素：返回len(nums)-1
-如果target大于头元素：正序遍历数组并与target进行比较，结束标志为数组元素出现减小
-如果target小于尾元素：逆序遍历数组并与target进行比较，结束标志为数组元素出现变大
-其他情况之间返回-1
+# ### 解题思路
+# 比较目标值和数组的头元素和尾元素
+# 如果target等于头元素：返回0
+# 如果target等于尾元素：返回len(nums)-1
+# 如果target大于头元素：正序遍历数组并与target进行比较，结束标志为数组元素出现减小
+# 如果target小于尾元素：逆序遍历数组并与target进行比较，结束标志为数组元素出现变大
+# 其他情况之间返回-1
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         if not nums:
@@ -40,4 +40,4 @@ class Solution:
             return -1
         else:
             return -1     
-```
+# ```

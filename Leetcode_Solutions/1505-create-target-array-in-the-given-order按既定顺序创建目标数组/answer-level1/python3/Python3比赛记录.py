@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def createTargetArray(self, nums, index):
         
@@ -12,5 +12,5 @@ class Solution:
         for i in range(n):
             res[index[i]] = nums[i]
         return res
-```
+# ```
 

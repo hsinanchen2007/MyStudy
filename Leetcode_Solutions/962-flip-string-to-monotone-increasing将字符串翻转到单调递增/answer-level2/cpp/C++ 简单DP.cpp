@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int minFlipsMonoIncr(string S) {
@@ -14,4 +14,4 @@ public:
         return min(res_1,res_0);
     }
 };
-```
+// ```

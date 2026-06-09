@@ -1,11 +1,11 @@
-### 解题思路
-1、DFS找到X对应的树节点
-2、再DFS搜索X的left 或 right 子树中的节点数目cnt，如果有一个子树的节点数目 cnt > n/2,就表示win
-3、DFS搜索x节点本身的子节点数目cnt，如果 (n - result) > n/2 就表示win
+// ### 解题思路
+// 1、DFS找到X对应的树节点
+// 2、再DFS搜索X的left 或 right 子树中的节点数目cnt，如果有一个子树的节点数目 cnt > n/2,就表示win
+// 3、DFS搜索x节点本身的子节点数目cnt，如果 (n - result) > n/2 就表示win
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -78,4 +78,4 @@ bool btreeGameWinningMove(struct TreeNode* root, int n, int x){
     }    
     return false;
 }
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
-初始化第一个区域为`[1, nums[0]]`,
-然后每次从区域`[left, right]`内找出可以跳到的最远地点的那一个，最远地点记为maxdis
-再更新区域为`[right + 1, maxdis]`
-重复直到超出最大的距离，得到跳数
+// ### 解题思路
+// 初始化第一个区域为`[1, nums[0]]`,
+// 然后每次从区域`[left, right]`内找出可以跳到的最远地点的那一个，最远地点记为maxdis
+// 再更新区域为`[right + 1, maxdis]`
+// 重复直到超出最大的距离，得到跳数
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int jump(vector<int>& nums) {
@@ -38,4 +38,4 @@ public:
         return jump;
     }
 };
-```
+// ```

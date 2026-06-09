@@ -1,9 +1,9 @@
-### 解题思路
-迭代
+# ### 解题思路
+# 迭代
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 """
 # Definition for a Node.
 class Node:
@@ -23,4 +23,4 @@ class Solution:
             for child in node.children[::-1]:
                 stack.append(child)
         return res
-```
+# ```

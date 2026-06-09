@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *整体思路：
@@ -53,4 +53,4 @@ bool detectCapitalUse( char * word ){
     return true;
     
 }
-```
+// ```

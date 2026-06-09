@@ -1,9 +1,9 @@
-### 解题思路
-一层层遍历，在记录TreeNode的同时，新开一个队列记录减掉的值，判断是叶子节点，且减掉的值最后为零的话即为满足条件的。
+// ### 解题思路
+// 一层层遍历，在记录TreeNode的同时，新开一个队列记录减掉的值，判断是叶子节点，且减掉的值最后为零的话即为满足条件的。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -45,4 +45,4 @@ class Solution {
             return false;
         }
 }
-```
+// ```

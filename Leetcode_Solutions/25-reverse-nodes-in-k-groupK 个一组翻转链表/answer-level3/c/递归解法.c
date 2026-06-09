@@ -1,4 +1,4 @@
-```
+// ```
 struct ListNode* reverseKGroup(struct ListNode* head, int k){
 	int num = 0;
 	struct ListNode* node = head;
@@ -25,4 +25,4 @@ struct ListNode* reverseKGroup(struct ListNode* head, int k){
 	}
 	return L->next;
 }
-```
+// ```

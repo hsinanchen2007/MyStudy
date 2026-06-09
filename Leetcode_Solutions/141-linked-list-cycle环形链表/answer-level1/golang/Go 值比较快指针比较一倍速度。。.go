@@ -1,8 +1,8 @@
-比较奇怪，用 Go 写，如果比较值，速度可以比比较指针快一倍。
+// 比较奇怪，用 Go 写，如果比较值，速度可以比比较指针快一倍。
 
-这段代码要 8ms：
+// 这段代码要 8ms：
 
-```
+// ```
 func hasCycle(head *linkedlist.ListNode) bool {
 	var (
 		fast = head
@@ -19,12 +19,12 @@ func hasCycle(head *linkedlist.ListNode) bool {
 
 	return false
 }
-```
+// ```
 
 
-这段代码只要 4ms：
+// 这段代码只要 4ms：
 
-```
+// ```
 func hasCycle(head *linkedlist.ListNode) bool {
 	var (
 		fast = head
@@ -41,4 +41,4 @@ func hasCycle(head *linkedlist.ListNode) bool {
 
 	return false
 }
-```
+// ```

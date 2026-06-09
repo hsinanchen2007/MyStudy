@@ -1,13 +1,13 @@
-# 思路
-- 定义两个栈：in 栈存数据，out 栈出数据。
-- 入队列：直接入 in 栈。
-- 出队列：
-    - 如果两个栈都为空，返回 -1。
-    - 如果 out 栈为空，将 in 栈依次弹出并入 out 栈。
-    - 如果 out 栈不为空，弹出 out 栈栈顶元素
+// # 思路
+// - 定义两个栈：in 栈存数据，out 栈出数据。
+// - 入队列：直接入 in 栈。
+// - 出队列：
+//     - 如果两个栈都为空，返回 -1。
+//     - 如果 out 栈为空，将 in 栈依次弹出并入 out 栈。
+//     - 如果 out 栈不为空，弹出 out 栈栈顶元素
 
-# 代码
-```
+// # 代码
+// ```
 type CQueue struct {
     in []int    // in 栈：存数据 
     out []int   // out 栈：出数据
@@ -47,4 +47,4 @@ func (this *CQueue) DeleteHead() int {
     this.out = this.out[:lastIndex]
     return popValue
 }
-```
+// ```

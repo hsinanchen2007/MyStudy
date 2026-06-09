@@ -1,6 +1,6 @@
-每日一题：这题利用Go语言的列表结构即可，而且题意默认所有操作都是有效操作，基本上简化了所有难度
+// 每日一题：这题利用Go语言的列表结构即可，而且题意默认所有操作都是有效操作，基本上简化了所有难度
 
-```
+// ```
 type MyStack struct {
     stack []int
 }
@@ -46,4 +46,4 @@ func (this *MyStack) Empty() bool {
  * param_3 := obj.Top();
  * param_4 := obj.Empty();
  */
-```
+// ```

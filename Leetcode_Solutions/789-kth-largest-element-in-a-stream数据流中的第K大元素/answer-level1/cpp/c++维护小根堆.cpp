@@ -1,4 +1,4 @@
-```
+// ```
 class KthLargest {
 public:
     KthLargest(int k, vector<int>& nums) {
@@ -59,4 +59,4 @@ private:
     int k;
     int count;
 };
-```
+// ```

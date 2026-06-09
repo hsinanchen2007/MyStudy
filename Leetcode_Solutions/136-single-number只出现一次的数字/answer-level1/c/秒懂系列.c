@@ -1,6 +1,6 @@
 
 
-```c
+// ```c
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
@@ -14,4 +14,4 @@ public:
 
     }
 };
-```
+// ```

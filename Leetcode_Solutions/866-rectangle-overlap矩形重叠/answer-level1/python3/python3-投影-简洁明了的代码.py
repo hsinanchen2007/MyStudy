@@ -1,9 +1,9 @@
-### 解题思路
-就是深度学习iou中相交面积的求法
+# ### 解题思路
+# 就是深度学习iou中相交面积的求法
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isRectangleOverlap(self, rec1: List[int], rec2: List[int]) -> bool:
         # 二维转换为一维来做
@@ -19,4 +19,4 @@ class Solution:
             return False
 
 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-利用二叉树的最大深度
+// ### 解题思路
+// 利用二叉树的最大深度
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -34,4 +34,4 @@ public:
         return (left >= right)?left+1:right+1;
     }
 };
-```
+// ```

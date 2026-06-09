@@ -1,9 +1,9 @@
-### 解题思路
-我偏偏要改值
+// ### 解题思路
+// 我偏偏要改值
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -31,4 +31,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

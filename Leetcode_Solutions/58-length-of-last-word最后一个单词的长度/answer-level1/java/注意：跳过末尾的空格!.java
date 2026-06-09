@@ -1,12 +1,12 @@
-### 解题思路
-注意：跳过末尾的空格！
-注意：跳过末尾的空格！
-注意：跳过末尾的空格！
-注意：跳过末尾的空格！
+// ### 解题思路
+// 注意：跳过末尾的空格！
+// 注意：跳过末尾的空格！
+// 注意：跳过末尾的空格！
+// 注意：跳过末尾的空格！
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int lengthOfLastWord(String s) {
         int length = s.length();
@@ -27,4 +27,4 @@ class Solution {
         return lengthOfLastWord;
     }
 }
-```
+// ```

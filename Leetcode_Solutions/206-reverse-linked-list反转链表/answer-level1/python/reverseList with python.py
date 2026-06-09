@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-迭代方法，pre, cur.next = cur, pre
+# 迭代方法，pre, cur.next = cur, pre
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -27,4 +27,4 @@ class Solution(object):
             
         return pre
             
-```
+# ```

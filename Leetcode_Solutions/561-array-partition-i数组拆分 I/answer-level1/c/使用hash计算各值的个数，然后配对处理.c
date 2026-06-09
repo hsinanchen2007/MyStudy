@@ -1,4 +1,4 @@
-```
+// ```
 #define N_MAX 10000
 int arrayPairSum(int* nums, int numsSize){
     if(nums == NULL || numsSize == 0) {
@@ -22,4 +22,4 @@ int arrayPairSum(int* nums, int numsSize){
 
     return sumAns;
 }
-```
+// ```

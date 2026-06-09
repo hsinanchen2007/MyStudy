@@ -1,6 +1,6 @@
-这道题，天然看起来使用栈即可，最后打印结果有需要顺序遍历，所以使用双向链表是最好的方式
+// 这道题，天然看起来使用栈即可，最后打印结果有需要顺序遍历，所以使用双向链表是最好的方式
 
-```Java
+// ```Java
 class Solution {
     public String simplifyPath(String path) {
         LinkedList<String> stack = new LinkedList<>();
@@ -31,4 +31,4 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```

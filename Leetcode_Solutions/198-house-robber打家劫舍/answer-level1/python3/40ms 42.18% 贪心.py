@@ -1,9 +1,9 @@
-### 解题思路
-从左向右，第i次的最优选择都是  第i-2或i-3中的最优解 + 第i次的值
+# ### 解题思路
+# 从左向右，第i次的最优选择都是  第i-2或i-3中的最优解 + 第i次的值
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def rob(self, nums: List[int]) -> int:
         l = len(nums)
@@ -19,4 +19,4 @@ class Solution:
         else:
             return s[-2]
 
-```
+# ```

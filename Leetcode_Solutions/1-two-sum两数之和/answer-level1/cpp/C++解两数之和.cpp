@@ -1,8 +1,8 @@
-### 解题思路
-c++暴力法，运用顺序容器和迭代器
-### 代码
+// ### 解题思路
+// c++暴力法，运用顺序容器和迭代器
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
@@ -25,4 +25,4 @@ public:
        return result;
     }
 };
-```
+// ```

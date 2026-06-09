@@ -1,9 +1,9 @@
-### 解题思路
-好像leetcode上面的链表都没有头节点，题目也没有声明，所以要构造虚拟的头节点
+// ### 解题思路
+// 好像leetcode上面的链表都没有头节点，题目也没有声明，所以要构造虚拟的头节点
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 struct ListNode* removeElements(struct ListNode* head, int val){
     if ( !head ) {
         return head;
@@ -24,4 +24,4 @@ struct ListNode* removeElements(struct ListNode* head, int val){
     }
     return h->next;         // 这里return head有问题。。。
 }
-```
+// ```

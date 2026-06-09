@@ -1,15 +1,15 @@
-# C语言：（12 ms , 在所有 c 提交中击败了 97.63% 的用户 内存消耗 : 9 MB , 在所有 c 提交中击败了 82.08% 的用户）
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     struct ListNode *next;
- * };
- */
+// # C语言：（12 ms , 在所有 c 提交中击败了 97.63% 的用户 内存消耗 : 9 MB , 在所有 c 提交中击败了 82.08% 的用户）
+// /**
+//  * Definition for singly-linked list.
+//  * struct ListNode {
+//  *     int val;
+//  *     struct ListNode *next;
+//  * };
+//  */
 
-题目的思路：首先题目中给出了是要建立一个新的链表，然后将两个链表中相加的和放入新链表结点中，其中需注意的是--**进位**
-所以我们可以创建一个新的链表头结点head以及他的尾指针tail进行一个一个插入
-```
+// 题目的思路：首先题目中给出了是要建立一个新的链表，然后将两个链表中相加的和放入新链表结点中，其中需注意的是--**进位**
+// 所以我们可以创建一个新的链表头结点head以及他的尾指针tail进行一个一个插入
+// ```
 typedef struct ListNode* Linklist;
 
 struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) 
@@ -69,4 +69,4 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2)
 return head->next;//返回新链表
 }
 
-```
+// ```

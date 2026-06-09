@@ -1,22 +1,22 @@
-### 解题思路
-## preorder
-## 把二叉树节点分为：普通节点，叶子节点
-## 普通节点：1.有左右节点；2.左右节点其中一个为空
-## 叶子节点：左右节点均为空
+// ### 解题思路
+// ## preorder
+// ## 把二叉树节点分为：普通节点，叶子节点
+// ## 普通节点：1.有左右节点；2.左右节点其中一个为空
+// ## 叶子节点：左右节点均为空
 
-### 1.先序遍历二叉树，判空后执行sum-=root.val
-### 2.如果sum=0，判断该节点类型：普通节点 or 叶子节点
-### 2.1.1:先判断该节点是否是叶子节点——叶子结点.左右=null
-### 2.1.2:是叶子节点，返回true
-### 3：不是叶子节点——无视sum=0条件，继续递归
+// ### 1.先序遍历二叉树，判空后执行sum-=root.val
+// ### 2.如果sum=0，判断该节点类型：普通节点 or 叶子节点
+// ### 2.1.1:先判断该节点是否是叶子节点——叶子结点.左右=null
+// ### 2.1.2:是叶子节点，返回true
+// ### 3：不是叶子节点——无视sum=0条件，继续递归
 
-![image.png](https://pic.leetcode-cn.com/b74689f7dcf8bc167bb3abbf925704291ca522e1a849949ba1eb5e412bddb384-image.png)
+// ![image.png](https://pic.leetcode-cn.com/b74689f7dcf8bc167bb3abbf925704291ca522e1a849949ba1eb5e412bddb384-image.png)
 
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -63,4 +63,4 @@ class Solution {
 
   
 }
-```
+// ```

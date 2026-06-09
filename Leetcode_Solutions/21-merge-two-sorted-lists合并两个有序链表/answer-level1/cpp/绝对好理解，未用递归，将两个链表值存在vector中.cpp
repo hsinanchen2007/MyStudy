@@ -1,10 +1,10 @@
-### 解题思路
-用一个vector将两个链表的值存入，利用sort方法，将vector进行排序，
-之后对这个容器创建链表。
+// ### 解题思路
+// 用一个vector将两个链表的值存入，利用sort方法，将vector进行排序，
+// 之后对这个容器创建链表。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -42,4 +42,4 @@ public:
         return L;
     }
 };
-```
+// ```

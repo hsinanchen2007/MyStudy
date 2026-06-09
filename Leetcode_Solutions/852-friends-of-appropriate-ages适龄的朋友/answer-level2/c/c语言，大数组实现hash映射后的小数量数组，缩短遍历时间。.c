@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/14ce061e2251baa44f0342392484c66b4aaa92be54fe2fc782b63b72a3992e2a-image.png)
-与其说是考察数组，倒不如说是考察hash映射，实现数组大量数据的缩小化，减少遍历次数，从而轻松实现后序的暴力循环。
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/14ce061e2251baa44f0342392484c66b4aaa92be54fe2fc782b63b72a3992e2a-image.png)
+// 与其说是考察数组，倒不如说是考察hash映射，实现数组大量数据的缩小化，减少遍历次数，从而轻松实现后序的暴力循环。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define  NUM 121 //从题中的说明我们得知
 
 int numFriendRequests(int* ages, int agesSize){
@@ -47,4 +47,4 @@ int numFriendRequests(int* ages, int agesSize){
 
     return totalPeople;
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-遍历数组，通过判断前后项是否相同，相同则number+1，不相同则修改原数组并将统计出来的字符的个数（number）加在后面
-![1580996634(1).jpg](https://pic.leetcode-cn.com/8d9952986462cb5b893d9d67da1d395d9b5e2cdf2c414569a3f8a16f4ba2db3f-1580996634\(1\).jpg)
+// ### 解题思路
+// 遍历数组，通过判断前后项是否相同，相同则number+1，不相同则修改原数组并将统计出来的字符的个数（number）加在后面
+// ![1580996634(1).jpg](https://pic.leetcode-cn.com/8d9952986462cb5b893d9d67da1d395d9b5e2cdf2c414569a3f8a16f4ba2db3f-1580996634\(1\).jpg)
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {character[]} chars
  * @return {number}
@@ -37,4 +37,4 @@ var compress = function(chars) {
     }
     return chars.length
 };
-```
+// ```

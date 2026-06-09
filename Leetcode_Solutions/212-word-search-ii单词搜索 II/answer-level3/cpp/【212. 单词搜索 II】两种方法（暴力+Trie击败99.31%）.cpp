@@ -1,8 +1,8 @@
-## 思路一：暴力递归（超时）
-参考：[79. 单词搜索](https://leetcode-cn.com/problems/word-search/solution/79-dan-ci-sou-suo-ji-bai-9403hui-su-by-guohaoding/)
+// ## 思路一：暴力递归（超时）
+// 参考：[79. 单词搜索](https://leetcode-cn.com/problems/word-search/solution/79-dan-ci-sou-suo-ji-bai-9403hui-su-by-guohaoding/)
 
-### 代码
-```c++
+// ### 代码
+// ```c++
 class Solution {
 public:
     vector<string> findWords(vector<vector<char>>& board, vector<string>& words) {
@@ -43,12 +43,12 @@ public:
         return found;
     }
 };
-```
+// ```
 
-## 思路二：Trie树
-参考大佬代码：[212. 单词搜索II](https://leetcode.com/problems/word-search-ii/discuss/262396/C%2B%2B-Trie-solution-99.62-faster.)
-### 代码
-```c++
+// ## 思路二：Trie树
+// 参考大佬代码：[212. 单词搜索II](https://leetcode.com/problems/word-search-ii/discuss/262396/C%2B%2B-Trie-solution-99.62-faster.)
+// ### 代码
+// ```c++
 class Solution {
     struct TrieNode {
         vector<TrieNode*> children;
@@ -112,6 +112,6 @@ public:
         board[i][j] = c;
     }
 };
-```
+// ```
 
 

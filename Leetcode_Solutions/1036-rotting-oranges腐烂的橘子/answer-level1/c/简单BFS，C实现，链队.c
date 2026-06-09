@@ -1,7 +1,7 @@
-使用的链队记录腐烂橘子的坐标、层数
-![image.png](https://pic.leetcode-cn.com/ee0563563cde1e1c54c7edac1558bf14d4ca47d843c0b1db6d3ac5bfb80d9d40-image.png)
+// 使用的链队记录腐烂橘子的坐标、层数
+// ![image.png](https://pic.leetcode-cn.com/ee0563563cde1e1c54c7edac1558bf14d4ca47d843c0b1db6d3ac5bfb80d9d40-image.png)
 
-```
+// ```
 
 
 
@@ -70,4 +70,4 @@ int orangesRotting(int** grid, int gridSize, int* gridColSize){
         return -1;
     return min;
 }
-```
+// ```

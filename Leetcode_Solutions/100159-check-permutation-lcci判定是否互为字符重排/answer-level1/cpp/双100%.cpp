@@ -1,10 +1,10 @@
-### 解题思路
-1.排序
-2.判断长度
-3.比较对应位置是否相等
-### 代码
+// ### 解题思路
+// 1.排序
+// 2.判断长度
+// 3.比较对应位置是否相等
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool CheckPermutation(string s1, string s2) {
@@ -30,4 +30,4 @@ public:
         return true;
     }
 };
-```
+// ```

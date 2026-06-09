@@ -1,9 +1,9 @@
-### 解题思路
-简单递归，直接上代码吧
+# ### 解题思路
+# 简单递归，直接上代码吧
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -33,4 +33,4 @@ class Solution:
         if not root:
             return False
         return isSub(head, root) or self.isSubPath(head, root.left) or self.isSubPath(head, root.right)
-```
+# ```

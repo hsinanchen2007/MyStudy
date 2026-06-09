@@ -1,5 +1,5 @@
 
-```java
+// ```java
 class Solution {
     public String replaceSpace(String s) {
         //input check 
@@ -28,4 +28,4 @@ class Solution {
         return new String(chs);
     }
 }
-```
+// ```

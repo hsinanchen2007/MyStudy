@@ -1,10 +1,10 @@
-### 解题思路
-思路不是很好，但是写的比较简单
-拆分，翻转，合并
+// ### 解题思路
+// 思路不是很好，但是写的比较简单
+// 拆分，翻转，合并
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void reverseWords(vector<char>& s) {
@@ -43,4 +43,4 @@ public:
         return;
     }
 };
-```
+// ```

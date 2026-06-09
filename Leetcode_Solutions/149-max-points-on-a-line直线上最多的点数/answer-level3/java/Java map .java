@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-基本思路是每条斜率对应一条线
+// 基本思路是每条斜率对应一条线
 
-需要注意的是，计算斜率的时候用gcd保存，不能用dy / dx
+// 需要注意的是，计算斜率的时候用gcd保存，不能用dy / dx
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxPoints(int[][] points) {
         if (points == null) return 0;
@@ -47,4 +47,4 @@ class Solution {
         return gcd(y, x % y);
     }
 }
-```
+// ```

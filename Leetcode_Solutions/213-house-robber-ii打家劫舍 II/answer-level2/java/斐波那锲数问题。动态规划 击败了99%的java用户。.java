@@ -1,7 +1,7 @@
-典型的斐波那锲数问题。
-[更多此类问题请参考此处](https://blog.csdn.net/reed1991/article/details/53967107)
-代码
-```
+// 典型的斐波那锲数问题。
+// [更多此类问题请参考此处](https://blog.csdn.net/reed1991/article/details/53967107)
+// 代码
+// ```
 public int rob(int[] nums) {
         if(nums == null || nums.length == 0){
             return 0;
@@ -27,5 +27,5 @@ public int rob(int[] nums) {
         return dp[end-start];
         
     }
-```
-## [更多leetcode分类题解](https://github.com/reedfan/leetcode/tree/master/src/main/java/leetcode)
+// ```
+// ## [更多leetcode分类题解](https://github.com/reedfan/leetcode/tree/master/src/main/java/leetcode)

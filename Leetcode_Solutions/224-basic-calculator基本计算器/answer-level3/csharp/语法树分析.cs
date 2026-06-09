@@ -1,16 +1,16 @@
-### 解题思路
-Exp = Two
-Exp = Num
-Exp = Group
-Group = Left Exp Right
-Two = Exp Op Exp
-Num = digits
+// ### 解题思路
+// Exp = Two
+// Exp = Num
+// Exp = Group
+// Group = Left Exp Right
+// Two = Exp Op Exp
+// Num = digits
 
-LL(1) 文法
+// LL(1) 文法
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 using VT = System.ValueTuple<int, Calc.Syntax>;
 class Calc{
     enum Token {
@@ -241,4 +241,4 @@ public class Solution {
         return c.Calculate(s);
     }
 }
-```
+// ```

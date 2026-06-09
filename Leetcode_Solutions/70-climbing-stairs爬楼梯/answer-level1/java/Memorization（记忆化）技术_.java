@@ -1,9 +1,9 @@
-### 解题思路
-如果字典能查到值，不需要计算就可以直接返回了
+// ### 解题思路
+// 如果字典能查到值，不需要计算就可以直接返回了
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
       HashMap<Integer,Integer> map=new HashMap<>();
     public int climbStairs(int n) {
@@ -19,4 +19,4 @@ return climbStairs(n-1)+climbStairs(n-2);
 
     }
 }
-```
+// ```

@@ -1,18 +1,18 @@
-### 解题思路
-递归思想：总共有N张
-1 退出条件：总数1张
-2 选取两个数运算，运算结果组成1个新的数，总数变成N-1;
-3 递归Step 2
+// ### 解题思路
+// 递归思想：总共有N张
+// 1 退出条件：总数1张
+// 2 选取两个数运算，运算结果组成1个新的数，总数变成N-1;
+// 3 递归Step 2
 
-这里主要有两个点需要提前识别：
-1 整数的/运算是整数除法，浮点运算需要用double类型，运算结果需要考虑double的精度(fabs(ret - 24) < 1e-6)
-2 括号(，)主要是在于提高运算等级，可以通过遍历所有组合来实现
+// 这里主要有两个点需要提前识别：
+// 1 整数的/运算是整数除法，浮点运算需要用double类型，运算结果需要考虑double的精度(fabs(ret - 24) < 1e-6)
+// 2 括号(，)主要是在于提高运算等级，可以通过遍历所有组合来实现
 
-参考：https://leetcode-cn.com/problems/24-game/solution/ying-he-cyu-yan-di-gui-by-zzcc-3/
+// 参考：https://leetcode-cn.com/problems/24-game/solution/ying-he-cyu-yan-di-gui-by-zzcc-3/
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define PRINTF //printf
 #define CALTYPES 4
 #define CALNUMS 4
@@ -117,4 +117,4 @@ bool judgePoint24(int* nums, int numsSize)
     }
     return CalNums(tmpNums, numsSize);
 }
-```
+// ```

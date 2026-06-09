@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-1. 循环遍历，利用数组提供的 ``unshift`` 方法来实现
-2. 递归遍历，走到链表最后一个元素时开始 ``push``
+// 1. 循环遍历，利用数组提供的 ``unshift`` 方法来实现
+// 2. 递归遍历，走到链表最后一个元素时开始 ``push``
 
-### 循环写法
+// ### 循环写法
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -25,11 +25,11 @@ var reversePrint = function(head) {
     }
     return res
 };
-```
+// ```
 
-### 递归写法
+// ### 递归写法
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -53,4 +53,4 @@ var reversePrint = function(head) {
     helper(head)
     return res
 };
-```
+// ```

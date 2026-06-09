@@ -1,9 +1,9 @@
-### 解题思路
-* 需要注意的一点,JS中创建二维数组比较麻烦；
+// ### 解题思路
+// * 需要注意的一点,JS中创建二维数组比较麻烦；
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} M
  * @return {number[][]}
@@ -49,4 +49,4 @@ var imageSmoother = function(M) {
     return ans
     
 };
-```
+// ```

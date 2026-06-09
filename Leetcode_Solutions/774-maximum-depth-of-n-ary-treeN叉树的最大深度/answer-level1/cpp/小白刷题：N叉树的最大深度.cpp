@@ -1,7 +1,7 @@
-BFS，层序遍历，类似二叉树最大深度
+// BFS，层序遍历，类似二叉树最大深度
 
-代码：
-```
+// 代码：
+// ```
 class Solution {
 public:
     int maxDepth(Node* root) {
@@ -25,4 +25,4 @@ public:
         return ans;
     }
 };
-```
+// ```

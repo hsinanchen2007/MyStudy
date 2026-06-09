@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean isValid(String s) {
         HashMap<Character,Character> hashMap = new HashMap<Character,Character>();
@@ -20,4 +20,4 @@ class Solution {
         return stack.size()==0;
     }
 }
-```
+// ```

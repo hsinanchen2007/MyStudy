@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int maximumSwap(int num) {
         // 准备两个数组，chars1 是排序后的数组，chars2 是原来顺序
@@ -27,4 +27,4 @@ class Solution {
         return Integer.parseInt(new String(chars2));
     }
 }
-```
+// ```

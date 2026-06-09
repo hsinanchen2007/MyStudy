@@ -1,16 +1,16 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/9/5
- *
- * 解题思路1: O(n)进行遍历s t 求解
- *
- * 解题思路2: 使用java indexof() 函数,效率貌似很高,函数内部应该做了结构优化,后面有时间研究一下
- *
- */
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/9/5
+//  *
+//  * 解题思路1: O(n)进行遍历s t 求解
+//  *
+//  * 解题思路2: 使用java indexof() 函数,效率貌似很高,函数内部应该做了结构优化,后面有时间研究一下
+//  *
+//  */
 
-```
+// ```
 
 public boolean isSubsequence(String s, String t) {
     char[] s_arr = s.toCharArray();
@@ -45,4 +45,4 @@ public boolean isSubsequence2(String s, String t) {
 }
 
 
-```
+// ```

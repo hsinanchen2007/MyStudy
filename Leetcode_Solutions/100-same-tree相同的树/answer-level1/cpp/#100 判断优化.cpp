@@ -1,6 +1,6 @@
-官方题解递归中的判断语句可以优化，因为当p和q都是空指针的时候它们是相等的：
+// 官方题解递归中的判断语句可以优化，因为当p和q都是空指针的时候它们是相等的：
 
-```
+// ```
 class Solution {
   public:
     bool isSameTree(TreeNode *p, TreeNode *q) {
@@ -13,4 +13,4 @@ class Solution {
         return isSameTree(p->left, q->left) && isSameTree(p->right, q->right);
     }
 };
-```
+// ```

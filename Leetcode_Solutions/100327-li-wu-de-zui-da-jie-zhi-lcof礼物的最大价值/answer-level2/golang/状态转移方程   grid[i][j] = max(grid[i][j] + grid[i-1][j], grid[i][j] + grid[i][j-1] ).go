@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func maxValue(grid [][]int) int {
     row := len(grid)
     column := len(grid[0])
@@ -30,4 +30,4 @@ func Max(grid [][]int,i,j int) int{
     }
     return max
 }
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
-循环列表
-时间复杂度O(n+m)
-空间复杂度O(n)
-因为是Python做类，所以这个多一个变量，就相当于空间多一倍
+# ### 解题思路
+# 循环列表
+# 时间复杂度O(n+m)
+# 空间复杂度O(n)
+# 因为是Python做类，所以这个多一个变量，就相当于空间多一倍
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -29,4 +29,4 @@ class Solution:
             count-=1
         ptr.next=None
         return head
-```
+# ```

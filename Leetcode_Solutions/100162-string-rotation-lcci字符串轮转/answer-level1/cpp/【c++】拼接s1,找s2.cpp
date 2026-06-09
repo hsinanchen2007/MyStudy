@@ -1,6 +1,6 @@
-拼接s1，若能找到s2，则为真
-注意考虑为空的特殊情况
-```
+// 拼接s1，若能找到s2，则为真
+// 注意考虑为空的特殊情况
+// ```
 class Solution {
 public:
     bool isFlipedString(string s1, string s2) {
@@ -21,4 +21,4 @@ public:
         return true;
     }
 };
-```
+// ```

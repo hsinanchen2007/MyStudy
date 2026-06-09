@@ -1,6 +1,6 @@
-`dp[node][i][j]`代表当前节点node的父节点放置摄像头的状态为`i`（`1`为放置摄像头，`0`为不放置），自身放置摄像头的状态为`j`（`1`为放置摄像头，`0`为不放置）的情况下的最优解。
-对于不可能的状态初始化值为`INF`。
-```
+// `dp[node][i][j]`代表当前节点node的父节点放置摄像头的状态为`i`（`1`为放置摄像头，`0`为不放置），自身放置摄像头的状态为`j`（`1`为放置摄像头，`0`为不放置）的情况下的最优解。
+// 对于不可能的状态初始化值为`INF`。
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -54,6 +54,6 @@ public:
         return min(dp[root][0][0], dp[root][0][1]);
     }
 };
-```
-效率不高，算是一种参考解法
-![image.png](https://pic.leetcode-cn.com/4e788ed8ba259929fa325662b45de6aacce7a49fea235e9f9b6e32b622e89197-image.png)
+// ```
+// 效率不高，算是一种参考解法
+// ![image.png](https://pic.leetcode-cn.com/4e788ed8ba259929fa325662b45de6aacce7a49fea235e9f9b6e32b622e89197-image.png)

@@ -1,13 +1,13 @@
-### 解题思路
-#### 思路和数据结构
-由于要求 **O(1)** 的复杂度，那么只有用 **hash** 才能满足条件。
-**双向链表usedSeq** 按照使用频率存储所有缓存元素，**哈希表frequencyMap** 快速查找 **usedSeq** 里的元素。
-* `DoubleLinkedList usedSeq `： 按照使用频率从低到高存储所有元素，当缓存满了以后，删除这个表的表头元素。保证 **put** 操作能在 **O(1)** 的时间内完成。
-* `private Map<Integer, Node> map`： key-value 的缓存，value 存在 Node.value 里。保证 **get** 操作能在 **O(1)** 的时间内完成。
-* `private Map<Integer, Node> frequencyMap`： 按照使用频率存储缓存里的元素，指向最后一个频率为 cnt 的节点。加快 **get** 操作，保证其能在 **O(1)** 的时间内完成。**如果没有这个 hash，那么更新 usedSeq 可能会变成一个 O(N) 的操作**。
+// ### 解题思路
+// #### 思路和数据结构
+// 由于要求 **O(1)** 的复杂度，那么只有用 **hash** 才能满足条件。
+// **双向链表usedSeq** 按照使用频率存储所有缓存元素，**哈希表frequencyMap** 快速查找 **usedSeq** 里的元素。
+// * `DoubleLinkedList usedSeq `： 按照使用频率从低到高存储所有元素，当缓存满了以后，删除这个表的表头元素。保证 **put** 操作能在 **O(1)** 的时间内完成。
+// * `private Map<Integer, Node> map`： key-value 的缓存，value 存在 Node.value 里。保证 **get** 操作能在 **O(1)** 的时间内完成。
+// * `private Map<Integer, Node> frequencyMap`： 按照使用频率存储缓存里的元素，指向最后一个频率为 cnt 的节点。加快 **get** 操作，保证其能在 **O(1)** 的时间内完成。**如果没有这个 hash，那么更新 usedSeq 可能会变成一个 O(N) 的操作**。
 
-#### 以下是对于一系列操作数据结构的变化示例
-```
+// #### 以下是对于一系列操作数据结构的变化示例
+// ```
 LFUCache cache = new LFUCache(3 /* capacity (缓存容量) */);
 
 cache.put(1, 1);
@@ -28,9 +28,9 @@ res.add(cache.get(1)); // -1
 
 res.add(cache.get(3)); // 3
 res.add(cache.get(4)); // 4
-```
+// ```
 
-```
+// ```
 put 1:1
 LFUCache{capacity=3, size=1, frequencyMap=[1:Node{key=1, val=1, cnt=1} ], usedSeq=[1:1:1]}
 
@@ -63,9 +63,9 @@ LFUCache{capacity=3, size=3, frequencyMap=[1:Node{key=4, val=4, cnt=1} 3:Node{ke
 
 get: 4 ->Node{key=4, val=4, cnt=2}
 LFUCache{capacity=3, size=3, frequencyMap=[2:Node{key=4, val=4, cnt=2} 3:Node{key=3, val=3, cnt=3} ], usedSeq=[4:4:2<->2:5:3<->3:3:3]}
-```
-### 代码（使用frequencyMap辅助查找，21ms）
-```java
+// ```
+// ### 代码（使用frequencyMap辅助查找，21ms）
+// ```java
 class LFUCache {
      private int capacity;
     private int size;
@@ -266,10 +266,10 @@ class LFUCache {
         }
     }
 }
-```
+// ```
 
-### 代码（没有使用frequencyHash辅助查找，142ms）
-``` java
+// ### 代码（没有使用frequencyHash辅助查找，142ms）
+// ``` java
 class LFUCache {
     int capacity;
     int size;
@@ -448,4 +448,4 @@ class LFUCache {
     }
 
 }
-```
+// ```

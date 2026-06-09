@@ -1,4 +1,4 @@
-统计一下0，1，2的个数，按照0，1，2的顺序放到数组就行
+// 统计一下0，1，2的个数，按照0，1，2的顺序放到数组就行
 
 public void sortColors(int[] nums) {
         if(nums == null || nums.length == 0 || nums.length == 1){

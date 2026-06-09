@@ -1,5 +1,5 @@
-**C++实现split**
-```cpp
+// **C++实现split**
+// ```cpp
 class Solution {
 public:
     vector<string> split(const string& s, const char* c)
@@ -35,4 +35,4 @@ public:
         return ret;
     }
 };
-```
+// ```

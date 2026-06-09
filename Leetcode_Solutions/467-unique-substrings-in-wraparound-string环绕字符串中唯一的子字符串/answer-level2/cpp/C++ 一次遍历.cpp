@@ -1,10 +1,10 @@
-### 解题思路
-1，记录以每个字符结尾字串的最长长度
-2，然后最终累加即可得结果
+// ### 解题思路
+// 1，记录以每个字符结尾字串的最长长度
+// 2，然后最终累加即可得结果
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isContinous(char prev, char curr) {
@@ -26,6 +26,6 @@ public:
         return accumulate(dp.begin(), dp.end(), 0);
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/b636921838b0e7e4d94fad731b574b8b57d3936554f8c520fbd258041495d3e4-image.png)
+// ![image.png](https://pic.leetcode-cn.com/b636921838b0e7e4d94fad731b574b8b57d3936554f8c520fbd258041495d3e4-image.png)

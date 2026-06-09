@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int surfaceArea(int[][] grid) {
 int sum =0;
@@ -37,4 +37,4 @@ return sum;
 return 6 * n - 2*(n-1);
     }
 }
-```
+// ```

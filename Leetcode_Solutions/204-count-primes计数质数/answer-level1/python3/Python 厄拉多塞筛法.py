@@ -1,4 +1,4 @@
-```python []
+# ```python []
 class Solution:
     def countPrimes(self, n: int) -> int:
         count = 0
@@ -9,4 +9,4 @@ class Solution:
                 for j in range(2 * i, n, i):
                     sign[j] = 0
         return count
-```
+# ```

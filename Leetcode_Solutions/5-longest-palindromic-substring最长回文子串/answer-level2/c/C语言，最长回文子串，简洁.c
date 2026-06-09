@@ -1,11 +1,11 @@
-思路：常规的暴力解法，O(n^2)，16ms
-1. 遍历字符串
-2. 对于每个字母，向两侧扩散，判断是否回文子串
-3. 若为回文子串，保存最长的子串信息
-4. 子串长度为奇数或偶数，需分别判断
+// 思路：常规的暴力解法，O(n^2)，16ms
+// 1. 遍历字符串
+// 2. 对于每个字母，向两侧扩散，判断是否回文子串
+// 3. 若为回文子串，保存最长的子串信息
+// 4. 子串长度为奇数或偶数，需分别判断
 
-代码如下：
-```C
+// 代码如下：
+// ```C
 char * longestPalindrome(char * s){
     int N = strlen(s), start = 0, len = 0;  // N 字符串长度， start 子串起始位置， len 子串长度
     for (int i = 0; i < N; i++) {   // 奇数长度的回文子串
@@ -31,11 +31,11 @@ char * longestPalindrome(char * s){
     s[start + len] = '\0';      // 原地修改返回
     return s + start;
 }
-```
+// ```
 
-用函数取代公共部分，代码变得简洁：
+// 用函数取代公共部分，代码变得简洁：
 
-```C
+// ```C
 void help(char *s, int N, int left, int right, int *start, int *len) {
     while (left >= 0 && right < N && s[left] == s[right])
         left--, right++;
@@ -53,4 +53,4 @@ char * longestPalindrome(char * s){
     s[start + len] = '\0';          // 原地修改返回
     return s + start;
 }
-```
+// ```

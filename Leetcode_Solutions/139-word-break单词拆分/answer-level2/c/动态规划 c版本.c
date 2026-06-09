@@ -1,4 +1,4 @@
-没用hashset这种高级结构，时间复杂度为O(N4)，还好leetcode给面子，测试用例的数据量不大。
+// 没用hashset这种高级结构，时间复杂度为O(N4)，还好leetcode给面子，测试用例的数据量不大。
 
 bool wordContain(char *s, int from, int to, char ** wordDict, int wordDictSize){
     char dst[256] = {0};

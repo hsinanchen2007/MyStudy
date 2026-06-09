@@ -1,9 +1,9 @@
-### 解题思路
-每次比较，把状态记录下来，下次比较的时候就可以和这个状态作对比，就可以判断输出是否该加一了。
+# ### 解题思路
+# 每次比较，把状态记录下来，下次比较的时候就可以和这个状态作对比，就可以判断输出是否该加一了。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxTurbulenceSize(self, A: List[int]) -> int:
             nums = len(A)
@@ -32,4 +32,4 @@ class Solution:
                  final = max(res_n, final)
             return final
 
-```
+# ```

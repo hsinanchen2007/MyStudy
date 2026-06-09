@@ -1,4 +1,4 @@
-```c
+// ```c
 bool isPowerOfFour(int num){
     if(num<=0) return 0;
     while(num-1){
@@ -7,4 +7,4 @@ bool isPowerOfFour(int num){
     }
     return 1;
 }
-```
+// ```

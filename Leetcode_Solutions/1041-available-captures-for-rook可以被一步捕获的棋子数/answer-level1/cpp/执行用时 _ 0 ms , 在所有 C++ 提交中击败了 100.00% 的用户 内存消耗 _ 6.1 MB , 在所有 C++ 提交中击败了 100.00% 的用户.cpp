@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-1、找到R
-2、以R为中心向四个方向走
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 1、找到R
+// 2、以R为中心向四个方向走
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numRookCaptures(vector<vector<char>>& board) {
@@ -71,4 +71,4 @@ public:
         return res;
     }
 };
-```
+// ```

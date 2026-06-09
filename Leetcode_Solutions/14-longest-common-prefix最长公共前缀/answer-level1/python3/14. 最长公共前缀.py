@@ -1,9 +1,9 @@
-### 解题思路
-挑出字符串数组中的最短字符串，以其长度作为循环范围
+# ### 解题思路
+# 挑出字符串数组中的最短字符串，以其长度作为循环范围
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
         length = len(strs)
@@ -24,4 +24,4 @@ class Solution:
                         return common
                 common +=temp
             return common
-```
+# ```

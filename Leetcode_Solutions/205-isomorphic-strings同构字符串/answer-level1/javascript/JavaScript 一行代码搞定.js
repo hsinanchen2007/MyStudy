@@ -1,10 +1,10 @@
-### 解题思路
-两个方法思路是一样的
-indexOf 得到对应字母第一个字母的下标 判断两者是否相等
+// ### 解题思路
+// 两个方法思路是一样的
+// indexOf 得到对应字母第一个字母的下标 判断两者是否相等
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @param {string} t
@@ -24,4 +24,4 @@ var isIsomorphic2 = function(s, t) {
     }
     return true;
 }
-```
+// ```

@@ -1,5 +1,5 @@
-第一眼想到符合先入先出的性质，队列打了一段
-```
+// 第一眼想到符合先入先出的性质，队列打了一段
+// ```
 ListNode* partition(ListNode* head, int x) {
         //创建两个队列
         queue<int> small,big;
@@ -25,4 +25,4 @@ ListNode* partition(ListNode* head, int x) {
         }
         return dummy->next;
     }
-```
+// ```

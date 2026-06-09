@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/82425b2d11c3f63df0ee94a2fba79cbe165601f6f6b8e1dfb6d4d2d0f7ecbe6f-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/82425b2d11c3f63df0ee94a2fba79cbe165601f6f6b8e1dfb6d4d2d0f7ecbe6f-image.png)
 
-根据光线在东西方向和南北方向的行走距离，应该成一个整数比，求得最小满足的公倍数k，然后判断k的奇偶可得在东西哪个点，以及在南北方向走的奇偶可得在南北哪个点。
+// 根据光线在东西方向和南北方向的行走距离，应该成一个整数比，求得最小满足的公倍数k，然后判断k的奇偶可得在东西哪个点，以及在南北方向走的奇偶可得在南北哪个点。
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -37,4 +37,4 @@ class Solution {
         return 2;
     }
 }
-```
+// ```

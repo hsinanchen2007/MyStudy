@@ -1,6 +1,6 @@
-1、求出源点到其它所有点的最小距离，然后对其它点依次判断是否在阈值范围内，统计在阈值范围内的点个数
-2、对n个源点均调用Djikstra算法计算阈值内点的个数
-```
+# 1、求出源点到其它所有点的最小距离，然后对其它点依次判断是否在阈值范围内，统计在阈值范围内的点个数
+# 2、对n个源点均调用Djikstra算法计算阈值内点的个数
+# ```
 class Solution:
     def findTheCity(self, n: int, edges: List[List[int]], distanceThreshold: int) -> int:
         import heapq
@@ -49,4 +49,4 @@ class Solution:
                 ret = i
 
         return ret
-```
+# ```

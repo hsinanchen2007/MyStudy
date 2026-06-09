@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-（1）前序遍历数组并保存元素；
-（2）返回数组中第k个元素即可
+// （1）前序遍历数组并保存元素；
+// （2）返回数组中第k个元素即可
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -55,4 +55,4 @@ int kthSmallest(struct TreeNode* root, int k){
 
     return res;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-直接看代码就行，超级简单
+// ### 解题思路
+// 直接看代码就行，超级简单
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] plusOne(int[] digits) {
         int carry = 0;
@@ -33,4 +33,4 @@ class Solution {
         }
     }
 }
-```
+// ```

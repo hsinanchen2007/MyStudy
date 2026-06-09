@@ -1,4 +1,4 @@
-```
+// ```
 public ListNode detectCycle(ListNode head) {
         //先用快慢指针判断是否是环形
         ListNode slow = head;
@@ -36,4 +36,4 @@ public ListNode detectCycle(ListNode head) {
         }
         return null;
     }
-```
+// ```

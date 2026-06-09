@@ -1,9 +1,9 @@
-### 解题思路
-C# 动态规划
+// ### 解题思路
+// C# 动态规划
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int MinPathSum(int[][] grid) {
         int height = grid.Length;
@@ -34,4 +34,4 @@ public class Solution {
         return dp[0, 0];
     }
 }
-```
+// ```

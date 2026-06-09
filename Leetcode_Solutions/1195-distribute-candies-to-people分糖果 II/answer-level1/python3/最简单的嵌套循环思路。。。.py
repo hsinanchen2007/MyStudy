@@ -1,9 +1,9 @@
-### 解题思路
-while True大法好，没别的。。。
+# ### 解题思路
+# while True大法好，没别的。。。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def distributeCandies(self,candies, num_people):
         """
@@ -34,18 +34,18 @@ class Solution(object):
                 break
             p+=1
         return a
-```
+# ```
 
-执行结果：
-通过
-显示详情
-执行用时 :
-20 ms
-, 在所有 python 提交中击败了
-91.26%
-的用户
-内存消耗 :
-11.6 MB
-, 在所有 python 提交中击败了
-100.00%
-的用户
+# 执行结果：
+# 通过
+# 显示详情
+# 执行用时 :
+# 20 ms
+# , 在所有 python 提交中击败了
+# 91.26%
+# 的用户
+# 内存消耗 :
+# 11.6 MB
+# , 在所有 python 提交中击败了
+# 100.00%
+# 的用户

@@ -1,6 +1,6 @@
-# C
+// # C
 
-```
+// ```
 int removeElement(int* nums, int numsSize, int val){
     int j = 0;
     for(int i = 0; i < numsSize; i++) {
@@ -10,10 +10,10 @@ int removeElement(int* nums, int numsSize, int val){
     }
     return j;
 }
-```
+// ```
 
-# Java 
-```
+// # Java 
+// ```
 class Solution {
     public int removeElement(int[] nums, int val) {
         if(nums == null) return 0;
@@ -26,5 +26,5 @@ class Solution {
         return j;
     }
 }
-```
+// ```
 

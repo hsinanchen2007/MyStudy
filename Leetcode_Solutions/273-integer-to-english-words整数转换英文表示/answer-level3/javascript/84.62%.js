@@ -1,4 +1,4 @@
-```
+// ```
 var numberToWords = function (num) {
     // 2147483648
     if (num == 0) return "Zero"
@@ -21,4 +21,4 @@ var numberToWords = function (num) {
     }
     return res.reverse().join(" ")
 };
-```
+// ```

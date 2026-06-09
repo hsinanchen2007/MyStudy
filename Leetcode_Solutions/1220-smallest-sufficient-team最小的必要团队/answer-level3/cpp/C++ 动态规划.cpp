@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     const int INF = 1e8;
@@ -34,6 +34,6 @@ public:
         return path[S - 1];
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/f3770e518acdb57b3023fe4dbb71237c157c5be18213c570e926afc437d94531-image.png)
+// ![image.png](https://pic.leetcode-cn.com/f3770e518acdb57b3023fe4dbb71237c157c5be18213c570e926afc437d94531-image.png)

@@ -1,11 +1,11 @@
-### 解题思路
-根据题目描述，第n项由第n-1项决定，典型的递归适用情形。用StringBuilder的append()方法往result中存元素。
-时间复杂度：O（n）
-空间复杂度：O（n）
+// ### 解题思路
+// 根据题目描述，第n项由第n-1项决定，典型的递归适用情形。用StringBuilder的append()方法往result中存元素。
+// 时间复杂度：O（n）
+// 空间复杂度：O（n）
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 	
 	public static void main(String args[]) {
@@ -30,4 +30,4 @@ class Solution {
         return res.toString();   
     }
 }
-```
+// ```

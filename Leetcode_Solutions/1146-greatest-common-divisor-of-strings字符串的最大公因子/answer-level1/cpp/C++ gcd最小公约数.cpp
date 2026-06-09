@@ -1,9 +1,9 @@
-### 解题思路
-利用gcd求出最小公倍数，根据总长度与最小公倍数的商 判断截断的字符串是否为最长子串
+// ### 解题思路
+// 利用gcd求出最小公倍数，根据总长度与最小公倍数的商 判断截断的字符串是否为最长子串
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string gcdOfStrings(string str1, string str2) {
@@ -28,4 +28,4 @@ public:
        return tmp==big;
     }
 };
-```
+// ```

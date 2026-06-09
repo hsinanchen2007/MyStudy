@@ -1,9 +1,9 @@
-### 解题思路
-字符串索引 
+# ### 解题思路
+# 字符串索引 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverse(self, x: int) -> int:
         a = str(x)
@@ -15,4 +15,4 @@ class Solution:
             return y
         else:
             return 0
-```
+# ```

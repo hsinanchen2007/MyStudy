@@ -1,9 +1,9 @@
-### 解题思路
-思路来自贪吃蛇大作战
+# ### 解题思路
+# 思路来自贪吃蛇大作战
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -57,4 +57,4 @@ class Solution:
             res.next = self.addTwoNumbers(l1.next, l2.next)
             return res
         
-```
+# ```

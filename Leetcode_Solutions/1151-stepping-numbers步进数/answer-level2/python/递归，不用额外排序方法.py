@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def countSteppingNumbers(self, low, high):
         """
@@ -39,4 +39,4 @@ class Solution(object):
 
         result = range(low, min(high, 9) + 1)
         return bt(range(1, 10), result)
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-试了两种方式，取余更快点～
+# ### 解题思路
+# 试了两种方式，取余更快点～
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def canWinNim(self, n):
         """
@@ -14,4 +14,4 @@ class Solution(object):
         # return n % (m+1) !=0
 
         return n & 3
-```
+# ```

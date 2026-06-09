@@ -1,9 +1,9 @@
-### 解题思路
-先子查询找出每个部门对应的id，name和最高工资。然后inner join员工表,最后条件输出工资等于最大工资的员工
+-- ### 解题思路
+-- 先子查询找出每个部门对应的id，name和最高工资。然后inner join员工表,最后条件输出工资等于最大工资的员工
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 
 
 select t.Name as Department,m.Name as Employee ,maxSalary as Salary
@@ -17,4 +17,4 @@ group by d.Id
 ) t
 on m.DepartmentId = t.DepartmentId 
 where t.maxSalary = m.Salary
-```
+-- ```

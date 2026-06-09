@@ -1,9 +1,9 @@
-### 解题思路
-Split切开后，采用Stoll分析，并逐个比较
+// ### 解题思路
+// Split切开后，采用Stoll分析，并逐个比较
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int compareVersion(string version1, string version2) {
@@ -53,4 +53,4 @@ public:
         return vec;
     }
 };
-```
+// ```

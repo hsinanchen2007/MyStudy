@@ -1,8 +1,8 @@
-### 解题思路
-三指针，各管一个ListNode完成遍历就行啦
-### 代码
+// ### 解题思路
+// 三指针，各管一个ListNode完成遍历就行啦
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -41,4 +41,4 @@ class Solution {
         return temp.next;
     }
 }
-```
+// ```

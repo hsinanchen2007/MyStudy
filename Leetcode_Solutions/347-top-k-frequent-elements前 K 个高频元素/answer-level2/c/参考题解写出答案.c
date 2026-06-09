@@ -1,4 +1,4 @@
-#define HashSize 2000  //值大小是实验出来的
+// #define HashSize 2000  //值大小是实验出来的
 
 typedef struct {
     int count;

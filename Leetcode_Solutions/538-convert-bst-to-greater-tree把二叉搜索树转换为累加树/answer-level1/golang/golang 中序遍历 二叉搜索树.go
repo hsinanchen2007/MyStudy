@@ -1,10 +1,10 @@
-### 解题思路
-* 指针传递 结合 递归
-* 中序遍历二叉搜索树
+// ### 解题思路
+// * 指针传递 结合 递归
+// * 中序遍历二叉搜索树
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -29,4 +29,4 @@ func changeVal(root *TreeNode, sum *int) *TreeNode {
     changeVal(root.Left, sum)
     return root
 }
-```
+// ```

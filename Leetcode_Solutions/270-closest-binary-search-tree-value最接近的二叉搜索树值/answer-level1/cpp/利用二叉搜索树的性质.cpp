@@ -1,5 +1,5 @@
-用left表示较小值，用right表示较大值：
-```cpp
+// 用left表示较小值，用right表示较大值：
+// ```cpp
 class Solution 
 {
 public:
@@ -40,4 +40,4 @@ public:
         }
     }
 };
-```
+// ```

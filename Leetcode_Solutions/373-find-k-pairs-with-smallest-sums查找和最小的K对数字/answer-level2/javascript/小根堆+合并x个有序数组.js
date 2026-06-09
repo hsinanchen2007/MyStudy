@@ -1,9 +1,9 @@
-### 解题思路
-- 此题考察堆的应用：合并x个有序数组
+// ### 解题思路
+// - 此题考察堆的应用：合并x个有序数组
 
-### 代码
-- 在js中创建堆这种数据结构
-```javascript
+// ### 代码
+// - 在js中创建堆这种数据结构
+// ```javascript
 /**
  * @param {number[]} nums1
  * @param {number[]} nums2
@@ -72,10 +72,10 @@ function heapSort(){
 function print(){
     console.info('data==>',this.data);
 }
-```
+// ```
 
-- 将所有情况枚举放入堆中，此时时间复杂度就是``Nlogx``（其中：N是所有可能的对数，x是多少个有序数组）
-```javascript
+// - 将所有情况枚举放入堆中，此时时间复杂度就是``Nlogx``（其中：N是所有可能的对数，x是多少个有序数组）
+// ```javascript
 const kSmallestPairs = (nums1, nums2, k)=>{
     let h=new Heap(),res=[];
     for(let i=0;i<nums1.length;i++){
@@ -88,9 +88,9 @@ const kSmallestPairs = (nums1, nums2, k)=>{
     }
     return res;
 };
-```
-- 优化版：不需要枚举处所有情况加入到堆中：
-```javascript
+// ```
+// - 优化版：不需要枚举处所有情况加入到堆中：
+// ```javascript
 /**
  * 当我们学习了利用堆来合并k个有序数组之后，我们可以不枚举所有的情况而找到想要的k个组合
  * 注意组合为：[
@@ -121,4 +121,4 @@ const kSmallestPairs=(nums1, nums2, k)=>{
 
 };
 
-```
+// ```

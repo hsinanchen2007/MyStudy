@@ -1,9 +1,9 @@
-### 解题思路
-使用偏移记录栈顶
+// ### 解题思路
+// 使用偏移记录栈顶
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type MyStack struct {
     val []int
     pos int
@@ -60,4 +60,4 @@ func (this *MyStack) Empty() bool {
  * param_3 := obj.Top();
  * param_4 := obj.Empty();
  */
-```
+// ```

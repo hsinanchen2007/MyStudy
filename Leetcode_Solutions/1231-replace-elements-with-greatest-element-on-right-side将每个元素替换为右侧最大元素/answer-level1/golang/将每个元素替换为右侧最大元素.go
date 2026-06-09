@@ -1,9 +1,9 @@
-### 解题思路
-依次遍历切片每个元素，并选举出右边最大值替换。
+// ### 解题思路
+// 依次遍历切片每个元素，并选举出右边最大值替换。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func replaceElements(arr []int) []int {
 	for i := 0; i < len(arr); i++ {
 		max := -1
@@ -16,4 +16,4 @@ func replaceElements(arr []int) []int {
 	}
 	return arr
 }
-```
+// ```

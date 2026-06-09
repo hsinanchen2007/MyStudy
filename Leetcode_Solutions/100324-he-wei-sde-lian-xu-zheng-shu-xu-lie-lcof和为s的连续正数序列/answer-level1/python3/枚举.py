@@ -1,9 +1,9 @@
-### 解题思路
-在[2,(2*target)**0.5)]范围内枚举解数组长度即可
+# ### 解题思路
+# 在[2,(2*target)**0.5)]范围内枚举解数组长度即可
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findContinuousSequence(self, target: int) -> List[List[int]]:
         ans = []
@@ -24,4 +24,4 @@ class Solution:
                 ans.append(tmp)
         
         return ans
-```
+# ```

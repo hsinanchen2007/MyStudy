@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-转为 跳跃游戏
+// 转为 跳跃游戏
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func videoStitching(clips [][]int, T int) int {
 	nums := make([]int, T+1)
 	var ID, v int
@@ -62,4 +62,4 @@ func minSteps(nums []int, T int) int {
 	return steps
 }
 
-```
+// ```

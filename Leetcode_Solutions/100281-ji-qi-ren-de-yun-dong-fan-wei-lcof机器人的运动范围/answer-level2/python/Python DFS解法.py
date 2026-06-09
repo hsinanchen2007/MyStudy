@@ -1,10 +1,10 @@
-### 解题思路
-DFS解法，将可访问的点置为1，然后求数组和
-注：这是因为python中函数的可变参数是可以改变的，如果用count不行，因为count是不可变参数
+# ### 解题思路
+# DFS解法，将可访问的点置为1，然后求数组和
+# 注：这是因为python中函数的可变参数是可以改变的，如果用count不行，因为count是不可变参数
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def movingCount(self, m: int, n: int, k: int) -> int:
         visited = [[0] * n for _ in range(m)]
@@ -32,4 +32,4 @@ class Solution:
             a = a // 10
         return val 
 
-```
+# ```

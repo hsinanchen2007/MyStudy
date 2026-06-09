@@ -1,5 +1,5 @@
-解法：数据栈data_stack、辅助栈min_stack，元素入栈时，辅助栈进入最小值（与栈顶元素比较）
-```
+# 解法：数据栈data_stack、辅助栈min_stack，元素入栈时，辅助栈进入最小值（与栈顶元素比较）
+# ```
 class MinStack(object):
     def __init__(self):
         """
@@ -38,4 +38,4 @@ class MinStack(object):
         :rtype: int
         """
         return self.min_stack[-1]
-```
+# ```

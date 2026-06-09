@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def buddyStrings(self, A: str, B: str) -> bool:
         if sorted(A)!=sorted(B):#字母种类和数目不同返回false
@@ -33,4 +33,4 @@ class Solution:
                 
         
 
-```
+# ```

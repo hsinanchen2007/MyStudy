@@ -1,15 +1,15 @@
-### 解题思路
+// ### 解题思路
 
-无重复元素的数组相当于一颗树：数组中各个值下面挂数组中的各个值直到永远（如果不给定深度的话）
-![image.png](https://pic.leetcode-cn.com/3a48ccb35837f5bbf0ba97f0c75a4bf15689da099336c653e858cdb248ce62df-image.png)
+// 无重复元素的数组相当于一颗树：数组中各个值下面挂数组中的各个值直到永远（如果不给定深度的话）
+// ![image.png](https://pic.leetcode-cn.com/3a48ccb35837f5bbf0ba97f0c75a4bf15689da099336c653e858cdb248ce62df-image.png)
 
-那么转换到题目上来，树的深度就是递归结束的条件：
-1，目标值一直减去各枝上的值小于0
-2，目标值一直减去各枝上的值等于0
+// 那么转换到题目上来，树的深度就是递归结束的条件：
+// 1，目标值一直减去各枝上的值小于0
+// 2，目标值一直减去各枝上的值等于0
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
@@ -40,4 +40,4 @@ public:
         }
     }
 };
-```
+// ```

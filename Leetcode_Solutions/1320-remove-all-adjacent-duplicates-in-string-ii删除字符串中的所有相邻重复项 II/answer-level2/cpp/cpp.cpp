@@ -1,5 +1,5 @@
-CPP： 方法一，利用 `str.erase() ，erase` 之后调整 i 和 cnt 的值， for 循环从头遍历s, 但是在 for 循环中，条件语句变为 `!s.empty() && i < s.size()-1 `,否则会报错。
-```cpp
+// CPP： 方法一，利用 `str.erase() ，erase` 之后调整 i 和 cnt 的值， for 循环从头遍历s, 但是在 for 循环中，条件语句变为 `!s.empty() && i < s.size()-1 `,否则会报错。
+// ```cpp
 class Solution {
 public:
     string removeDuplicates(string s, int k) {
@@ -27,10 +27,10 @@ public:
         }
     }
 };
-```
+// ```
 
-方法二：利用递归
-```cpp
+// 方法二：利用递归
+// ```cpp
 class Solution {
 public:
     string removeDuplicates(string s, int k) {
@@ -56,6 +56,6 @@ public:
         }
     }
 };
-```
+// ```
 
 

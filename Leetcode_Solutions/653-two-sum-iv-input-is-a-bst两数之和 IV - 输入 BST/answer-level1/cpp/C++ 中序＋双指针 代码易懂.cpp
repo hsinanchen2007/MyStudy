@@ -1,9 +1,9 @@
-### 解题思路
-中序遍历放入数组，对递增数组进行双指针查找。
+// ### 解题思路
+// 中序遍历放入数组，对递增数组进行双指针查找。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -48,4 +48,4 @@ public:
         dfs(root->right);
     }
 };
-```
+// ```

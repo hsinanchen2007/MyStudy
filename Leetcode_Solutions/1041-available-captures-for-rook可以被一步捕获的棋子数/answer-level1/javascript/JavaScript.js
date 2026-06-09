@@ -1,8 +1,8 @@
-### 解题思路
-分两个坐标轴分别识别最接近车的象棋，最后处理这四个识别结果。
-### 代码
+// ### 解题思路
+// 分两个坐标轴分别识别最接近车的象棋，最后处理这四个识别结果。
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {character[][]} board
  * @return {number}
@@ -54,4 +54,4 @@ var numRookCaptures = function(board) {
     if(nexy === 1) res+=1;
     return res;
 };
-```
+// ```

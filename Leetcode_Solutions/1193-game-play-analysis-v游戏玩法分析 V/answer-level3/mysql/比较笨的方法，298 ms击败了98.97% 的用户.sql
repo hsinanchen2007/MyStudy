@@ -1,9 +1,9 @@
-### 解题思路
-一个表格计算留存率，一个表格统计注册数和注册日期
+-- ### 解题思路
+-- 一个表格计算留存率，一个表格统计注册数和注册日期
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 
 select install_dt, installs,round(ifnull(RETENT/installs,0),2) AS Day1_retention
 FROM
@@ -24,4 +24,4 @@ LEFT JOIN
         group by event_date
     )P2
 ON P1.install_dt = P2.Akey
-```
+-- ```

@@ -1,4 +1,4 @@
-```
+// ```
 int longestPalindrome(string s) {
     int count[128] ={0};
     int num =0;
@@ -12,5 +12,5 @@ int longestPalindrome(string s) {
     }
     return num + flag;
 }
-```
-字母出现偶数次和+奇数次和-出现奇数的次数 +flag。有奇数次flag =1 ,否则为0
+// ```
+// 字母出现偶数次和+奇数次和-出现奇数的次数 +flag。有奇数次flag =1 ,否则为0

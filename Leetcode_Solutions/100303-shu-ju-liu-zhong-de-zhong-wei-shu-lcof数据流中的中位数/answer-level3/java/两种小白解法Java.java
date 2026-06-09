@@ -1,10 +1,10 @@
-### 解题思路
-看完不懂来打我
-https://zhuanlan.zhihu.com/p/102182602
+// ### 解题思路
+// 看完不懂来打我
+// https://zhuanlan.zhihu.com/p/102182602
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MedianFinder {
 
     PriorityQueue<Integer> min=null;
@@ -54,4 +54,4 @@ class MedianFinder {
  * obj.addNum(num);
  * double param_2 = obj.findMedian();
  */
-```
+// ```

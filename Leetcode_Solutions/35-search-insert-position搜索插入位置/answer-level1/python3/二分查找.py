@@ -1,4 +1,4 @@
-- - 有序数组，二分查找比较快。
+# - - 有序数组，二分查找比较快。
       class Solution:
           def searchInsert(self, nums: List[int], target: int) -> int:
               def two_search(left,right,target,nums):

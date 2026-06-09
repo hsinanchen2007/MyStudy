@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def canPlaceFlowers(self, flowerbed: List[int], n: int) -> bool:
         # 初始化种花数为0
@@ -35,4 +35,4 @@ class Solution:
                 count += 1
         return count >= n
 
-```
+# ```

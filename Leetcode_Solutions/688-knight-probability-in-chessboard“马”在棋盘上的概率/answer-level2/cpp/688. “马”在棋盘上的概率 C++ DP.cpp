@@ -1,18 +1,18 @@
 
-动态规划：
-与以下两题有类似之处：
-62. 不同路径：https://leetcode-cn.com/problems/unique-paths/
-799. 香槟塔 https://leetcode-cn.com/problems/champagne-tower/
+// 动态规划：
+// 与以下两题有类似之处：
+// 62. 不同路径：https://leetcode-cn.com/problems/unique-paths/
+// 799. 香槟塔 https://leetcode-cn.com/problems/champagne-tower/
 
-对每一轮：
-dp[i][j]:表示落到该点的概率；
-dp[i][j] = sum(dp[i-move[0]][j-move[1]])  //move 表示8个方向的位移
-1）第n轮的i，j点的概率等于从8个方向上到达该点的概率之和
-2)每经历一轮，该点的概率之和需要除8；
-3）加和时，需注意上一个点的坐标必须在地图内。
+// 对每一轮：
+// dp[i][j]:表示落到该点的概率；
+// dp[i][j] = sum(dp[i-move[0]][j-move[1]])  //move 表示8个方向的位移
+// 1）第n轮的i，j点的概率等于从8个方向上到达该点的概率之和
+// 2)每经历一轮，该点的概率之和需要除8；
+// 3）加和时，需注意上一个点的坐标必须在地图内。
 
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> moves = {
@@ -61,4 +61,4 @@ public:
         return result;
     }
 };
-```
+// ```

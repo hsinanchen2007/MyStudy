@@ -1,9 +1,9 @@
-### 解题思路
-使用一层循环枚举子串起点并用substr函数取子串比较，再加上特判即可。
+// ### 解题思路
+// 使用一层循环枚举子串起点并用substr函数取子串比较，再加上特判即可。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int strStr(string haystack, string needle) {
@@ -21,4 +21,4 @@ public:
         return -1;
     }
 };
-```
+// ```

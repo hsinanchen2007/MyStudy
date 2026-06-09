@@ -1,6 +1,6 @@
-![1.png](https://pic.leetcode-cn.com/e6c6bc2a4331c2275455f4bf2f35a722c52d0e371fd5df17d91ecd2d8c6c90c6-1.png)
+// ![1.png](https://pic.leetcode-cn.com/e6c6bc2a4331c2275455f4bf2f35a722c52d0e371fd5df17d91ecd2d8c6c90c6-1.png)
 
-```
+// ```
 class Solution {
 public:
     string countAndSay(int n) {
@@ -30,4 +30,4 @@ public:
         return ans;
     }
 };
-```
+// ```

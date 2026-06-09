@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-，先将nums2的数组元素放入nums1中，再利用冒泡排序将nums1进行排序
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// ，先将nums2的数组元素放入nums1中，再利用冒泡排序将nums1进行排序
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void merge(vector<int>& nums1, int m, vector<int>& nums2, int n)
@@ -36,4 +36,4 @@ public:
         cout<<a[k];
     }
 };
-```
+// ```

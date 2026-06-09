@@ -1,4 +1,4 @@
-```
+// ```
 var searchMatrix = function(matrix, target) {
     for(let i = 0; i < matrix.length; i++) {
         if(binarySearch(matrix[i], target)) {
@@ -26,4 +26,4 @@ var binarySearch = function (arr, target) {
 
     return false;
 }
-```
+// ```

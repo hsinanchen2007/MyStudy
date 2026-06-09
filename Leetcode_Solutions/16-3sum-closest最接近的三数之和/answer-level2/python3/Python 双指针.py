@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def threeSumClosest(self, nums: List[int], target: int) -> int:
         nums.sort()
@@ -18,4 +18,4 @@ class Solution:
                         res = tempSum
                     r -= 1
         return res
-```
+# ```

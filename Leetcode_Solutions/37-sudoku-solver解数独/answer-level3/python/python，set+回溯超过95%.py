@@ -1,8 +1,8 @@
-![x.png](https://pic.leetcode-cn.com/3039257fd331b2dffdbccf2cf5c89e31207001a6e250054961b47bacc4cc581c-x.png)
+# ![x.png](https://pic.leetcode-cn.com/3039257fd331b2dffdbccf2cf5c89e31207001a6e250054961b47bacc4cc581c-x.png)
 
-回溯的框架大家都知道，数据结构采用set则可以大大加快效率
+# 回溯的框架大家都知道，数据结构采用set则可以大大加快效率
 
-```python
+# ```python
     def solveSudoku(self, board: List[List[str]]) -> None:
         row = [set(range(1, 10)) for _ in range(9)]  # 行剩余可用数字
         col = [set(range(1, 10)) for _ in range(9)]  # 列剩余可用数字
@@ -36,4 +36,4 @@
                 block[b].add(val)
             return False
         backtrack()
-```
+# ```

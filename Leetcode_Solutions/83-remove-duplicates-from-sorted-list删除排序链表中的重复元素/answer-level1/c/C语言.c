@@ -1,4 +1,4 @@
-```C 
+// ```C 
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -29,5 +29,5 @@ struct ListNode* deleteDuplicates(struct ListNode* head){
     }
     return head;
 }
-```
+// ```
 

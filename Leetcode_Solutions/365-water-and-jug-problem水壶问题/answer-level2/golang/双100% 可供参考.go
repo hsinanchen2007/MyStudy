@@ -1,5 +1,5 @@
-难点主要是要寻找最大公因子
-```
+// 难点主要是要寻找最大公因子
+// ```
 func canMeasureWater(x int, y int, z int) bool { //寻找最大公因子 mx+ny=z
 	if z == 0 {
 		return true
@@ -17,4 +17,4 @@ func canMeasureWater(x int, y int, z int) bool { //寻找最大公因子 mx+ny=z
 	}
 	return false
 }
-```
+// ```

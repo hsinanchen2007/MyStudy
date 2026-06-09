@@ -1,4 +1,4 @@
-```
+// ```
 List<List<String>> lists = new ArrayList<>();//返回集合
     List<String> ans = new ArrayList<>();//n皇后的解
     public List<List<String>> solveNQueens(int n) {
@@ -32,4 +32,4 @@ List<List<String>> lists = new ArrayList<>();//返回集合
                 w[n - 1 - i + j] = false;
             }
     }
-```
+// ```

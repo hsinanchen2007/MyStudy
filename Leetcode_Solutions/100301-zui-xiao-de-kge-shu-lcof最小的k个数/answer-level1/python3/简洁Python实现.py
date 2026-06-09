@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def getLeastNumbers(self, arr: List[int], k: int) -> List[int]:
         import heapq
@@ -14,4 +14,4 @@ class Solution:
                 heapq.heappush(hp, -arr[i])
         res = [-x for x in hp]
         return res
-```
+# ```

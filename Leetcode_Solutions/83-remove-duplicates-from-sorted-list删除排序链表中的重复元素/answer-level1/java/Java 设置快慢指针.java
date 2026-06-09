@@ -1,9 +1,9 @@
-### 解题思路
-快指针会跳过连续重复的元素，直到一个不重复的元素，将慢指针的next指向快指针，快指针继续遍历直到链表最后，指向null。
+// ### 解题思路
+// 快指针会跳过连续重复的元素，直到一个不重复的元素，将慢指针的next指向快指针，快指针继续遍历直到链表最后，指向null。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -28,4 +28,4 @@ class Solution {
 		return head;
     }
 }
-```
+// ```

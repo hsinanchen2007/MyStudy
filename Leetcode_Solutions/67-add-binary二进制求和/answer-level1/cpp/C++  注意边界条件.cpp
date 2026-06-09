@@ -1,9 +1,9 @@
-### 解题思路
-用一个新的res数组(长度为max(a.length, b.length)+1)存放各位二进制加和结果。
+// ### 解题思路
+// 用一个新的res数组(长度为max(a.length, b.length)+1)存放各位二进制加和结果。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string addBinary(string a, string b) {
@@ -54,4 +54,4 @@ public:
 
 
 
-```
+// ```

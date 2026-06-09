@@ -1,9 +1,9 @@
-### 解题思路
-方法1：先遍历求出长度，再从前往后遍历找到并删除
-方法2: 双指针，当快的前进n时，慢的开始；当快的到结尾时，慢的正好到可以删除的那个节点前一个
-### 方法1
+// ### 解题思路
+// 方法1：先遍历求出长度，再从前往后遍历找到并删除
+// 方法2: 双指针，当快的前进n时，慢的开始；当快的到结尾时，慢的正好到可以删除的那个节点前一个
+// ### 方法1
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -33,9 +33,9 @@ public:
         return head;
     }
 };
-```
-### 方法2：
-```cpp
+// ```
+// ### 方法2：
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -64,4 +64,4 @@ public:
         return dummy->next;
     }
 };
-```
+// ```

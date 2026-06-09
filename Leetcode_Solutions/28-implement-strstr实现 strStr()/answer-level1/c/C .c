@@ -1,9 +1,9 @@
-### 解题思路
-暴力解法，遍历每一种可能，直到找到第一个满足条件的结果。
+// ### 解题思路
+// 暴力解法，遍历每一种可能，直到找到第一个满足条件的结果。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int strStr(char * haystack, char * needle){
     int h = strlen(haystack);
     int n = strlen(needle);
@@ -22,4 +22,4 @@ int strStr(char * haystack, char * needle){
 }
 
 
-```
+// ```

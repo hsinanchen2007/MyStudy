@@ -1,9 +1,9 @@
-### 解题思路
-总和是否能被三整除
-能否找到和为总和1/3的两个部分且数组元素未全部被遍历
-### 代码
+// ### 解题思路
+// 总和是否能被三整除
+// 能否找到和为总和1/3的两个部分且数组元素未全部被遍历
+// ### 代码
 
-```c
+// ```c
 bool canThreePartsEqualSum(int* A, int ASize){
     int sum=0;
     int i;
@@ -23,4 +23,4 @@ bool canThreePartsEqualSum(int* A, int ASize){
     }
     return false;
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-看了很多人好像写着很复杂，其实一行搞定
-1、双循环遍历所有结果
-2、满足要求则返回x,y的值
+# ### 解题思路
+# 看了很多人好像写着很复杂，其实一行搞定
+# 1、双循环遍历所有结果
+# 2、满足要求则返回x,y的值
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 """
    This is the custom function interface.
    You should not implement it, or speculate about its implementation
@@ -20,4 +20,4 @@ class Solution:
     def findSolution(self, customfunction: 'CustomFunction', z: int) -> List[List[int]]:
 
         return [[x,y] for x in range(1,z+1) for y in range(1,z+1) if customfunction.f(x, y) == z]
-```
+# ```

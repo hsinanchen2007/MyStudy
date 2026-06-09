@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func maxEvents(events [][]int) int {
 
 	eLen := len(events)
@@ -39,4 +39,4 @@ func maxEvents(events [][]int) int {
 	return maxEvent
 
 }
-```
+// ```

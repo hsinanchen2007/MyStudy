@@ -1,9 +1,9 @@
-### 解题思路
-思路是 找出最大值，然后对比最大值和其他值*2的大小
-要注意的是索引的保存
-### 代码
+// ### 解题思路
+// 思路是 找出最大值，然后对比最大值和其他值*2的大小
+// 要注意的是索引的保存
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int dominantIndex(int[] nums) {
         int max = nums[0];
@@ -22,4 +22,4 @@ class Solution {
         return index;
     }
 }
-```
+// ```

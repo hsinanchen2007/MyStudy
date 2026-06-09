@@ -1,6 +1,6 @@
-[Leetcode-Java(更多题解，持续更新)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_98_isValidBST.java)
+// [Leetcode-Java(更多题解，持续更新)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_98_isValidBST.java)
 
-```java
+// ```java
     /**
      * 解题思路：
      * 树的解题思路：递归
@@ -21,4 +21,4 @@
         return valid(root.left, min, root.val) && valid(root.right, root.val, max);
     }
 
-```
+// ```

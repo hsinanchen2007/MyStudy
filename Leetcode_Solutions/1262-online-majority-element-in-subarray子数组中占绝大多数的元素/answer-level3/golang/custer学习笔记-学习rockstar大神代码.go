@@ -1,4 +1,4 @@
-```go
+// ```go
 type MajorityChecker struct {
     arr []int
 }
@@ -35,4 +35,4 @@ func (this *MajorityChecker) Query(left int, right int, threshold int) int {
 	}
 	return -1
 }
-```
+// ```

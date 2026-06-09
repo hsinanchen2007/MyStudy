@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int maxNumberOfBalloons(char * text){
     int nums[128] = {0};
 
@@ -28,4 +28,4 @@ int maxNumberOfBalloons(char * text){
     
     return min;
 }
-```
+// ```

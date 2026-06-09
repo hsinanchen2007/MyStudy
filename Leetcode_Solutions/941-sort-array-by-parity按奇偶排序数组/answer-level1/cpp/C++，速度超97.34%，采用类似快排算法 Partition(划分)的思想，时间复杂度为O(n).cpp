@@ -1,9 +1,9 @@
-### 解题思路
-采用类似快排算法的思想，可以快速求解
+// ### 解题思路
+// 采用类似快排算法的思想，可以快速求解
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> sortArrayByParity(vector<int>& A) {
@@ -28,4 +28,4 @@ public:
        
     //     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-位操作
+// ### 解题思路
+// 位操作
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int numberOfSteps (int num){
     if(num==0){
         return 0;
@@ -14,4 +14,4 @@ int numberOfSteps (int num){
        return  numberOfSteps(num-1)+1;
     }
 }
-```
+// ```

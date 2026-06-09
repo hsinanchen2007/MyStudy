@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def maxA(self, N: int) -> int:
         if N<5:
@@ -11,4 +11,4 @@ class Solution:
         #print(m)
         return m[-1]
             
-```
+# ```

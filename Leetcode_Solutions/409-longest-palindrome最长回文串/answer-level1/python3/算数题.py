@@ -1,4 +1,4 @@
-```
+# ```
 from collections import Counter
 
 
@@ -14,4 +14,4 @@ class Solution:
                 fix = 1
                 res += s_counter[k] - 1
         return res + fix
-```
+# ```

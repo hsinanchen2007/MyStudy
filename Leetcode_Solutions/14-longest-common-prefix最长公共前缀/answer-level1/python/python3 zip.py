@@ -1,9 +1,9 @@
-### 解题思路
-zip函数
+# ### 解题思路
+# zip函数
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
         if len(strs) == 0:
@@ -31,4 +31,4 @@ class Solution:
         if pre == "" or (len(pre) == max_index and is_break == False):
             return pre
         return pre[ : -1]
-```
+# ```

@@ -1,6 +1,6 @@
-### 方法一：暴力
-#### 代码
-```java []
+# ### 方法一：暴力
+# #### 代码
+# ```java []
 public class Solution {
     public int climbStairs(int n) {
         climb_Stairs(0, n);
@@ -15,15 +15,15 @@ public class Solution {
         return climb_Stairs(i + 1, n) + climb_Stairs(i + 2, n);
     }
 }
-```
-#### 复杂度分析
+# ```
+# #### 复杂度分析
 
-- 时间复杂度：$O(2^n)$
-- 空间复杂度：$O(n)$。
+# - 时间复杂度：$O(2^n)$
+# - 空间复杂度：$O(n)$。
 
-### 方法二：记忆化递归
-#### 代码
-```java []
+# ### 方法二：记忆化递归
+# #### 代码
+# ```java []
 public class Solution {
     public int climbStairs(int n) {
         int memo[] = new int[n + 1];
@@ -43,19 +43,19 @@ public class Solution {
         return memo[i];
     }
 }
-```
-#### 复杂度分析
-- 时间复杂度：$O(n)$。
-- 空间复杂度：$O(n)$ 。
-### 方法三：动态规划
-此题是 [面试题10- I. fei斐波那契数列](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/)
- 的变形形式，强烈建议您先看上一题斐波那契数列的解题方法，再看这道题时边游刃有余了。
+# ```
+# #### 复杂度分析
+# - 时间复杂度：$O(n)$。
+# - 空间复杂度：$O(n)$ 。
+# ### 方法三：动态规划
+# 此题是 [面试题10- I. fei斐波那契数列](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/)
+#  的变形形式，强烈建议您先看上一题斐波那契数列的解题方法，再看这道题时边游刃有余了。
 
-本题与上一题的不同点只有一个，即 `f(0) = 1, f(1) = 1`。
+# 本题与上一题的不同点只有一个，即 `f(0) = 1, f(1) = 1`。
 
-#### 代码
+# #### 代码
 
-```python []
+# ```python []
 class Solution:
     def numWays(self, n: int) -> int:
         if n < 2:  return 1
@@ -64,8 +64,8 @@ class Solution:
         for i in range(2,n+1):
             dp[i] = dp[i - 1] + dp[i - 2] 
         return dp[-1] % 1000000007  # 取模
-```
-```java []
+# ```
+# ```java []
 public class Solution {
     public int climbStairs(int n) {
         if (n == 1) {
@@ -80,14 +80,14 @@ public class Solution {
         return dp[n];
     }
 }
-```
+# ```
 
-#### 复杂度分析
-- 时间复杂度：$O(N)$。我们计算了从 0 到 n 的值。
-- 空间复杂度：$O(N)$。使用了数组 `dp`。
+# #### 复杂度分析
+# - 时间复杂度：$O(N)$。我们计算了从 0 到 n 的值。
+# - 空间复杂度：$O(N)$。使用了数组 `dp`。
 
-### 方法四：斐波那契数
-```java []
+# ### 方法四：斐波那契数
+# ```java []
 public class Solution {
     public int climbStairs(int n) {
         if (n == 1) {
@@ -103,14 +103,14 @@ public class Solution {
         return second;
     }
 }
-```
-#### 复杂度分析
-- 时间复杂度：$O(N)$。我们计算了从 0 到 n 的值。
-- 空间复杂度：$O(1)$。
+# ```
+# #### 复杂度分析
+# - 时间复杂度：$O(N)$。我们计算了从 0 到 n 的值。
+# - 空间复杂度：$O(1)$。
 
-### 方法五：Binets 方法
-#### 代码
-```java []
+# ### 方法五：Binets 方法
+# #### 代码
+# ```java []
  public class Solution {
     public int climbStairs(int n) {
         int[][] q = {{1, 1}, {1, 0}};
@@ -138,16 +138,16 @@ public class Solution {
         return c;
     }
 }
-```
+# ```
 
-#### 复杂度分析
+# #### 复杂度分析
 
-- 时间复杂度：$O(log(n))$。遍历 $log(n)$ 位。
-- 空间复杂度：$O(1)$。使用常量级空间。
+# - 时间复杂度：$O(log(n))$。遍历 $log(n)$ 位。
+# - 空间复杂度：$O(1)$。使用常量级空间。
 
-### 方法六：斐波那契公式
-#### 代码
-```java []
+# ### 方法六：斐波那契公式
+# #### 代码
+# ```java []
 public class Solution {
     public int climbStairs(int n) {
         double sqrt5=Math.sqrt(5);
@@ -155,8 +155,8 @@ public class Solution {
         return (int)(fibn/sqrt5);
     }
 }
-```
-#### 复杂度分析
+# ```
+# #### 复杂度分析
 
-- 时间复杂度：$O(log(n))$。使用 `pow()` 方法。
-- 空间复杂度：$O(1)$。使用常数级空间。
+# - 时间复杂度：$O(log(n))$。使用 `pow()` 方法。
+# - 空间复杂度：$O(1)$。使用常数级空间。

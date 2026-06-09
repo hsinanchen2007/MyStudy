@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int hammingDistance(int x, int y) {
         int dis = 0;
@@ -8,4 +8,4 @@ class Solution {
         return dis;
     }
 }
-```
+// ```

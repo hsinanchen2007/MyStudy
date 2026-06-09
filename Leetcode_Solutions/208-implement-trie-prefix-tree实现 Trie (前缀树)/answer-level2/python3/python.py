@@ -1,4 +1,4 @@
-```python []
+# ```python []
 class TrieNode:
     def __init__(self):
         self.isWord = False
@@ -54,4 +54,4 @@ class Trie:
 # obj.insert(word)
 # param_2 = obj.search(word)
 # param_3 = obj.startsWith(prefix)
-```
+# ```

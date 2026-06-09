@@ -1,9 +1,9 @@
-### 解题思路
-把先序遍历的结果存放在数组中，然后把数组中的元素前后两两比较，遇到前后两个元素不相等的值直接返回false结束循环
+// ### 解题思路
+// 把先序遍历的结果存放在数组中，然后把数组中的元素前后两两比较，遇到前后两个元素不相等的值直接返回false结束循环
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -36,4 +36,4 @@ public void helper(TreeNode root){
     helper(root.right);
 }
 }
-```
+// ```

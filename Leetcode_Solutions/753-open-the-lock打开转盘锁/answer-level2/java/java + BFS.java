@@ -1,6 +1,6 @@
-第一次写完BFS 又是有成就感的一天 哈哈
+// 第一次写完BFS 又是有成就感的一天 哈哈
  
-```
+// ```
 class Solution {
     public int openLock(String[] deadends, String target) {
         Set<String> dead = new HashSet<>(Arrays.asList(deadends));
@@ -51,4 +51,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

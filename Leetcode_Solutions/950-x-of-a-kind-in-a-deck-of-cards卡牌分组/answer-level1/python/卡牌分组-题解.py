@@ -1,10 +1,10 @@
-### 解题思路
-参考了力友“[liweiwei1419](https://leetcode-cn.com/problems/x-of-a-kind-in-a-deck-of-cards/solution/qiu-jie-zui-da-gong-yue-shu-java-by-liweiwei1419/)”的思路，
-我也是困在了最大公约数的计算和使用上，学习了，感谢！
+# ### 解题思路
+# 参考了力友“[liweiwei1419](https://leetcode-cn.com/problems/x-of-a-kind-in-a-deck-of-cards/solution/qiu-jie-zui-da-gong-yue-shu-java-by-liweiwei1419/)”的思路，
+# 我也是困在了最大公约数的计算和使用上，学习了，感谢！
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
 
     def gcd(self, a, b):
@@ -38,4 +38,4 @@ class Solution:
                 return False
 
         return True
-```
+# ```

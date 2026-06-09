@@ -1,11 +1,11 @@
-### 解题思路
-相比无重复数字的全排列
+// ### 解题思路
+// 相比无重复数字的全排列
 
-多了Arrays.sort(nums);
-和if (visit[i] || i > 0 && nums[i] == nums[i - 1] && !visit[i - 1]) continue;
-### 代码
+// 多了Arrays.sort(nums);
+// 和if (visit[i] || i > 0 && nums[i] == nums[i - 1] && !visit[i - 1]) continue;
+// ### 代码
 
-```java
+// ```java
 class Solution {
     List<List<Integer>> res = new ArrayList<>();
     int[] nums;
@@ -34,4 +34,4 @@ class Solution {
         }
     }
 }
-```
+// ```

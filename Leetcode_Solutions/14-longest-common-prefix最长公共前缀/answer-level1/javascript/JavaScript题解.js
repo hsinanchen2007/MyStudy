@@ -1,7 +1,7 @@
-解题思路：
-1.利用sort排序，找出字符串最短的一项
-2.for循环该项，截取该项的每一个字符与数组中剩余项对应的位置字符进行比较
-```
+// 解题思路：
+// 1.利用sort排序，找出字符串最短的一项
+// 2.for循环该项，截取该项的每一个字符与数组中剩余项对应的位置字符进行比较
+// ```
 var longestCommonPrefix = function(strs) {
   let commonPrefix = ''
   let isContinue = true;
@@ -37,4 +37,4 @@ var longestCommonPrefix = function(strs) {
   }
   return commonPrefix
 };
-```
+// ```

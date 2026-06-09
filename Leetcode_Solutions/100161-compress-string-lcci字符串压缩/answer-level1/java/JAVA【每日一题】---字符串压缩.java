@@ -1,10 +1,10 @@
-先转换，再比较长度
+// 先转换，再比较长度
 
-使用lastChar记录上一个重复字符，count计数，当遇到不同的字符时拼进StringBuilder中
+// 使用lastChar记录上一个重复字符，count计数，当遇到不同的字符时拼进StringBuilder中
 
-最后记得把最后一个字符和计数加进去
+// 最后记得把最后一个字符和计数加进去
 
-```
+// ```
     public String compressString(String S) {
         if (S == null || S.length() == 0) {
             return S;
@@ -31,4 +31,4 @@
         }
         return sb.toString();
     }
-```
+// ```

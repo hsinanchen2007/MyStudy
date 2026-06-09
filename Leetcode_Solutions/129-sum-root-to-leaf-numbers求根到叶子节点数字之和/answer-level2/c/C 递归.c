@@ -1,7 +1,7 @@
 
-![image.png](https://pic.leetcode-cn.com/b99ab6ba3515dce7bf7f95b51558c6894082a379c3b4fa0db8c736ba00c37ccb-image.png)
+// ![image.png](https://pic.leetcode-cn.com/b99ab6ba3515dce7bf7f95b51558c6894082a379c3b4fa0db8c736ba00c37ccb-image.png)
 
-```
+// ```
 
 int count(struct TreeNode *pNode, int Count)
 {
@@ -30,4 +30,4 @@ int sumNumbers(struct TreeNode* root){
     return count(root, 0);
 }
 
-```
+// ```

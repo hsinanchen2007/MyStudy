@@ -1,7 +1,7 @@
-需要注意两个细节
+// 需要注意两个细节
 
-1. 判断溢出
-    ```C
+// 1. 判断溢出
+//     ```C
     long res = 0;
     while((*str) != '\0' && isdigit(*str)) {
         ...
@@ -10,17 +10,17 @@
         }
         ...
     }
-    ```
+//     ```
 
-2. res 累加
+// 2. res 累加
 
-    使用`res * 10 + str[i] - '0'`的形式会溢出(如果res 定义为int)  
+//     使用`res * 10 + str[i] - '0'`的形式会溢出(如果res 定义为int)  
   
   
 
-### 题解
+// ### 题解
 
-```C
+// ```C
 #define INT_MAX 2147483647
 #define INT_MIN -2147483648
 
@@ -52,4 +52,4 @@ int myAtoi(char * str) {
     }
     return res * sign;
 }
-```
+// ```

@@ -1,5 +1,5 @@
 
-```golang
+// ```golang
 func getKth(lo int, hi int, k int) int {
     data := make([]int, 1001)
     data[1] = 1
@@ -42,4 +42,4 @@ func backtrack(i int, data []int) int {
         return a
     }
 }
-```
+// ```

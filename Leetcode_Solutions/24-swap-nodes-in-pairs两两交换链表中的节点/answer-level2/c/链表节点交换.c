@@ -1,14 +1,14 @@
-### 解题思路
-       -->[r]-->[p]-->[q]-->
-       tmp = q->next;
+// ### 解题思路
+//        -->[r]-->[p]-->[q]-->
+//        tmp = q->next;
 
-        r->next = q;
-        q->next = p;
-        p->next = tmp;
+//         r->next = q;
+//         q->next = p;
+//         p->next = tmp;
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -39,4 +39,4 @@ struct ListNode* swapPairs(struct ListNode* head){
 
     return first->next;
 }
-```
+// ```

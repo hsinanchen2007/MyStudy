@@ -1,8 +1,8 @@
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var Leaderboard = function() {
     this.board = {};
 };
@@ -39,4 +39,4 @@ Leaderboard.prototype.reset = function(playerId) {
  * var param_2 = obj.top(K)
  * obj.reset(playerId)
  */
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-Check strings' length first, if the length does not match, return false directly.
+// ### 解题思路
+// Check strings' length first, if the length does not match, return false directly.
 
-If the strings' length are identical, we then sort both strings first, and then iterate through each character, and return false if any two characters from two sorted character array are different.
+// If the strings' length are identical, we then sort both strings first, and then iterate through each character, and return false if any two characters from two sorted character array are different.
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public bool CheckPermutation(string s1, string s2) {
         // 执行用时: 92 ms, 在所有 C# 提交中击败了 35.71% 的用户
@@ -25,4 +25,4 @@ public class Solution {
         return true;
     }
 }
-```
+// ```

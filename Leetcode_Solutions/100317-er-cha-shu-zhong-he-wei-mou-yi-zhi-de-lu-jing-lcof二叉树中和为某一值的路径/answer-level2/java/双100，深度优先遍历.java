@@ -1,10 +1,10 @@
-### 解题思路
-![屏幕快照 2020-02-27 17.19.38.png](https://pic.leetcode-cn.com/7c24411b82b04276c5b0e636220310517bf65af43ce58c7d2196e1896704e53d-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-02-27%2017.19.38.png)
+// ### 解题思路
+// ![屏幕快照 2020-02-27 17.19.38.png](https://pic.leetcode-cn.com/7c24411b82b04276c5b0e636220310517bf65af43ce58c7d2196e1896704e53d-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-02-27%2017.19.38.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -40,4 +40,4 @@ class Solution {
         }
     }
 }
-```
+// ```

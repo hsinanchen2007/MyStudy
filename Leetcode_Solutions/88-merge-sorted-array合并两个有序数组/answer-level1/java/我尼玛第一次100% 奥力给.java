@@ -1,9 +1,9 @@
-### 解题思路
-疯狂调试 还是本地IDE 
+// ### 解题思路
+// 疯狂调试 还是本地IDE 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
         int dio=0,cou=0;
@@ -27,4 +27,4 @@ class Solution {
 
     }
 }
-```
+// ```

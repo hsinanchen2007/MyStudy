@@ -1,9 +1,9 @@
-### 解题思路
-暴力循环计算
+// ### 解题思路
+// 暴力循环计算
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {number}
@@ -22,4 +22,4 @@ var titleToNumber = function(s) {
     }
     return sum;
 };
-```
+// ```

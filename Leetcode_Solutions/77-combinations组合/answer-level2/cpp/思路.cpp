@@ -1,9 +1,9 @@
-### 解题思路
-比较简单和经典的dfs题型，不需要剪枝
+// ### 解题思路
+// 比较简单和经典的dfs题型，不需要剪枝
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> res;
@@ -29,4 +29,4 @@ public:
       return res;
     }
 };
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
-是测试用例太少的缘故吗？明明是很low的解法，居然这么快，不科学。
+// ### 解题思路
+// 是测试用例太少的缘故吗？明明是很low的解法，居然这么快，不科学。
 
-执行用时 :0 ms, 在所有 Go 提交中击败了100.00% 的用户
-内存消耗 :2.4 MB, 在所有 Go 提交中击败了93.69%的用户
+// 执行用时 :0 ms, 在所有 Go 提交中击败了100.00% 的用户
+// 内存消耗 :2.4 MB, 在所有 Go 提交中击败了93.69%的用户
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func longestCommonPrefix(strs []string) string {
 	if len(strs) == 0 {
 		return ""
@@ -25,4 +25,4 @@ func longestCommonPrefix(strs []string) string {
 	}
 	return res
 }
-```
+// ```

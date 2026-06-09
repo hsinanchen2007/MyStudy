@@ -1,9 +1,9 @@
-### 解题思路
-**1.哈希表 递归 官方题解**
+# ### 解题思路
+# **1.哈希表 递归 官方题解**
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -24,10 +24,10 @@ class Solution(object):
         dfs(root)
         return depth[x] == depth[y] and parent[x] != parent[y]
 
-```
-### 解题思路
-**2.哈希表 迭代**
-```python
+# ```
+# ### 解题思路
+# **2.哈希表 迭代**
+# ```python
 class Solution(object):
     def isCousins(self, root, x, y):
         parent = {}
@@ -47,4 +47,4 @@ class Solution(object):
                 q.append((level+1,root.left,par))
                 q.append((level+1,root.right,par))
         return level_x == level_y and parent_x != parent_y
-```
+# ```

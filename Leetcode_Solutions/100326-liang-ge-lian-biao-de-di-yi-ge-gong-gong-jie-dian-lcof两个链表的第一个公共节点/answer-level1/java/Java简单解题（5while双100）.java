@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-5个while双100
+// 5个while双100
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -47,4 +47,4 @@ public class Solution {
         return nodeA;
     }
 }
-```
+// ```

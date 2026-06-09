@@ -1,9 +1,9 @@
-### 解题思路
-三指针
+// ### 解题思路
+// 三指针
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
@@ -26,4 +26,4 @@ public:
         }
     }
 };
-```
+// ```

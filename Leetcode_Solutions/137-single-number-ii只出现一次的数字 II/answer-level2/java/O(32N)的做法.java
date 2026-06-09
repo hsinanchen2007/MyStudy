@@ -1,9 +1,9 @@
-### 解题思路
-O(32N)的做法
+// ### 解题思路
+// O(32N)的做法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int singleNumber(int[] nums) {
         
@@ -24,4 +24,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

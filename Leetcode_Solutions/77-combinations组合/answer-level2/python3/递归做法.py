@@ -1,8 +1,8 @@
-返回 1 ... n 中所有可能的 k 个数的组合， 等价于：
+# 返回 1 ... n 中所有可能的 k 个数的组合， 等价于：
 
-n + 返回 1 ... n-1 中所有可能的 k-1 个数的组合.
+# n + 返回 1 ... n-1 中所有可能的 k-1 个数的组合.
 
-```
+# ```
 class Solution:
     def combine(self, n: int, k: int) -> List[List[int]]:
         if k > n:
@@ -17,4 +17,4 @@ class Solution:
             for r in res:
                 result.append([i] + r)
         return result
-```
+# ```

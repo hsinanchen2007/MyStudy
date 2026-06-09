@@ -1,9 +1,9 @@
-### 解题思路
-代码中每一步都有注释，一看就懂啦，不懂的评论即可~
+// ### 解题思路
+// 代码中每一步都有注释，一看就懂啦，不懂的评论即可~
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} height
  * @return {number}
@@ -27,4 +27,4 @@ var trap = function(height) {
     }
     return res;
 };
-```
+// ```

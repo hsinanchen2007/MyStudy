@@ -1,8 +1,8 @@
-/**
- * @param {number} x
- * @return {number}
- */
-```
+// /**
+//  * @param {number} x
+//  * @return {number}
+//  */
+// ```
 var mySqrt = function(x) {
     if(x <= 1 ) return x;
     let left = 0;
@@ -21,4 +21,4 @@ var mySqrt = function(x) {
     
     return right
 };
-```
+// ```

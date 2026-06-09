@@ -1,6 +1,6 @@
 
 
-```
+# ```
 class Solution:
     def maxEqualFreq(self, nums: List[int]) -> int:
         obj = collections.Counter(nums)
@@ -32,4 +32,4 @@ class Solution:
             else:
                 t = nums.pop()
         return n
-```
+# ```

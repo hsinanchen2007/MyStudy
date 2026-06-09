@@ -1,5 +1,5 @@
-使用ReentrantLock
-``` java
+// 使用ReentrantLock
+// ``` java
 package cn.liulichao.leetcode.concurrency;
 
 import cn.liulichao.leetcode.concurrency.util.Foo;
@@ -62,8 +62,8 @@ public class PrintInOrder1114 {
         });
     }
 }
-```
-``` java
+// ```
+// ``` java
 package cn.liulichao.leetcode.concurrency.util;
 
 import java.util.concurrent.locks.Condition;
@@ -116,4 +116,4 @@ public class Foo {
         lock.unlock();
     }
 }
-```
+// ```

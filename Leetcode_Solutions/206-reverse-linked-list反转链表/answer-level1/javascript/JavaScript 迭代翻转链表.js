@@ -1,4 +1,4 @@
-```
+// ```
 const reverseList = (head) => {
   // 假设head为null，则直接返回null
   if (head === null) {
@@ -19,4 +19,4 @@ const reverseList = (head) => {
   // currentNode即为新链表中的第一个元素
   return currentNode;
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 public static ListNode DeleteDuplicates(ListNode head)
         {
             if (head == null)
@@ -26,4 +26,4 @@ public static ListNode DeleteDuplicates(ListNode head)
             }
             return head;
         }
-```
+// ```

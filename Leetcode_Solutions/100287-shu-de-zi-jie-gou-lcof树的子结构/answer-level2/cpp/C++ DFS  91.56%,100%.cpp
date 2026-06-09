@@ -1,5 +1,5 @@
-## 本来想用BFS,但看到DFS结果不错而且DFS更简短就不用了
-```
+// ## 本来想用BFS,但看到DFS结果不错而且DFS更简短就不用了
+// ```
 class Solution {
 public:
     bool isSubStructure(TreeNode*& p, TreeNode*& q) {
@@ -16,4 +16,4 @@ public:
         return 0;           // 以上条件均不满足则不匹配
     }
 };
-```
+// ```

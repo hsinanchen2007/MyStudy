@@ -1,9 +1,9 @@
-### 解题思路
-用一个数据记录每次计算结果，用空间换时间
+// ### 解题思路
+// 用一个数据记录每次计算结果，用空间换时间
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int tribonacci(int n) {
         int[] temp;
@@ -22,4 +22,4 @@ class Solution {
         return temp[n];
     }
 }
-```
+// ```

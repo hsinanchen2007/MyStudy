@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 /**
  * @param {string} date
  * @return {number}
@@ -25,4 +25,4 @@ var dayOfYear = function(date) {
     
     return hash[dates[1]] + parseInt(dates[2]) + ((isLeep && parseInt(dates[1]) > 2) ? 1 : 0)
 };
-```
+// ```

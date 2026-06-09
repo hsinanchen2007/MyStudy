@@ -1,6 +1,6 @@
 
 
-```
+// ```
 
 // 本题dfs会导致超时，所以应该用动态规划分解子问题
 func uniquePaths(m int, n int) int {
@@ -34,4 +34,4 @@ func uniquePaths(m int, n int) int {
 	dfs(0, 0)
 	return res
 }
-```
+// ```

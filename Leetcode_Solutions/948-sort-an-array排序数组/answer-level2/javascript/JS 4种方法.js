@@ -1,9 +1,9 @@
-### 解题思路
-冒泡排序 插入排序 选择排序 归并排序
+// ### 解题思路
+// 冒泡排序 插入排序 选择排序 归并排序
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number[]}
@@ -72,4 +72,4 @@ function swap(arr,v1,v2) {
     arr[v1] = arr[v2];
     arr[v2] = temp;
 }
-```
+// ```

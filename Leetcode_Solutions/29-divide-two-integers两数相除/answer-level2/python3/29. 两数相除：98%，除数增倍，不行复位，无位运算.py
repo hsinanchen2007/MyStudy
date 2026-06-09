@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/6b19a6e7a276c141a9edb4fc78d6378bc945e4df12e89a30f8b6033299d12211-image.png)
+# ![image.png](https://pic.leetcode-cn.com/6b19a6e7a276c141a9edb4fc78d6378bc945e4df12e89a30f8b6033299d12211-image.png)
 
-溢出判断恶心
-```
+# 溢出判断恶心
+# ```
 class Solution:
     def divide(self, a: int, b: int) -> int:
         if a==0:return 0
@@ -24,4 +24,4 @@ class Solution:
         if ans>2147483647:
             return 2147483647
         return ans
-```
+# ```

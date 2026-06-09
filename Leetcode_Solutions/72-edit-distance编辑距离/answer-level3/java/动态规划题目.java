@@ -1,9 +1,9 @@
-### 解题思路
-参考powcai哥的思路
+// ### 解题思路
+// 参考powcai哥的思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minDistance(String word1, String word2) {
         //动态规划题目
@@ -42,4 +42,4 @@ class Solution {
         return dp[d1][d2];
     }
 }
-```
+// ```

@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/d946b13253dba1a767de70e8536985a2e12949dd23c7e254b5617a5da7c5aa28-image.png)
+# ![image.png](https://pic.leetcode-cn.com/d946b13253dba1a767de70e8536985a2e12949dd23c7e254b5617a5da7c5aa28-image.png)
 
 
-```
+# ```
 class Solution:
     def angleClock(self, hour: int, minutes: int) -> float:
 
@@ -15,4 +15,4 @@ class Solution:
 
 
 print(Solution().angleClock(1, 57))
-```
+# ```

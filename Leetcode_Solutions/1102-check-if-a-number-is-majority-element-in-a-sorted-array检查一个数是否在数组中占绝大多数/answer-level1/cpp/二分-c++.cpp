@@ -1,9 +1,9 @@
-### 解题思路
-得到左右边界即可做
+// ### 解题思路
+// 得到左右边界即可做
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int left_bound(vector<int>& nums, int target) {
@@ -46,4 +46,4 @@ public:
         return false;
     }
 };
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-根据题目BST的特征，使用二叉树中序递归遍历即可。
-同时需要注意的是，递归累加的数值在每一步都会改变，因此要用传址的方式填入。
-最开始我直接传入 val，解题是错误的。
+// ### 解题思路
+// 根据题目BST的特征，使用二叉树中序递归遍历即可。
+// 同时需要注意的是，递归累加的数值在每一步都会改变，因此要用传址的方式填入。
+// 最开始我直接传入 val，解题是错误的。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -31,4 +31,4 @@ struct TreeNode* bstToGst(struct TreeNode* root)
     int val = 0;
     return InOrderSearch(root, &val);
 }
-```
+// ```

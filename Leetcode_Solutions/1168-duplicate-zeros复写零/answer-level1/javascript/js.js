@@ -1,7 +1,7 @@
-倒着来处理
+// 倒着来处理
 
 
-```
+// ```
 /**
  * @param {number[]} arr
  * @return {void} Do not return anything, modify arr in-place instead.
@@ -17,4 +17,4 @@ var duplicateZeros = function(arr) {
     s--
    }
 };
-```
+// ```

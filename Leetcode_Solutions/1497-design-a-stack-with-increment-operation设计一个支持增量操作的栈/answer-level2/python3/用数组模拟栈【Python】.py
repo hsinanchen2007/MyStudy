@@ -1,14 +1,14 @@
-### 思路
+# ### 思路
 
-**栈**
+# **栈**
 
-```
+# ```
 这里我犯了个错，pop 时记得要把栈顶元素弹出，不能只是返回，一定要弹出。
-```
+# ```
 
-##### Python3代码
+# ##### Python3代码
 
-```python
+# ```python
 class CustomStack:
 
     def __init__(self, maxSize: int):
@@ -40,8 +40,8 @@ class CustomStack:
 # obj.push(x)
 # param_2 = obj.pop()
 # obj.increment(k,val)
-```
+# ```
 
-### 代码地址
+# ### 代码地址
 
-[GitHub链接](https://github.com/Wonz5130/LeetCode-Solutions/blob/master/solutions/1381-Design-a-Stack-With-Increment-Operation/1381.py)
+# [GitHub链接](https://github.com/Wonz5130/LeetCode-Solutions/blob/master/solutions/1381-Design-a-Stack-With-Increment-Operation/1381.py)

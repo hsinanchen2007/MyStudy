@@ -1,9 +1,9 @@
-golang解决
+// golang解决
 
-github: [https://github.com/Crownt/leetcode](https://github.com/Crownt/leetcode)
+// github: [https://github.com/Crownt/leetcode](https://github.com/Crownt/leetcode)
 
 
-```
+// ```
 // 思路类似于　leetcode 0121_Beat_Time_to_Buy_and_Sell_Stock
 // score = A[i]+A[j]+i-j = (A[i]+i)+(A[j]-j), (A[j]-j)的值由j决定
 // 故,对于固定'j',要使score最大，只需(A[i]+i)最大即可
@@ -27,5 +27,5 @@ func maxScoreSightseeingPair(A []int) int {
 
 	return max_score
 }
-```
+// ```
 

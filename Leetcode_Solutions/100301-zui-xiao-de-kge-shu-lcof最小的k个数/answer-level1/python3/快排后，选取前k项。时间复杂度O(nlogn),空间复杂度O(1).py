@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def getLeastNumbers(self, arr: List[int], k: int) -> List[int]:
         length = len(arr)
@@ -33,4 +33,4 @@ class Solution:
         arr[i] = temp
         self.sort(arr, left, i)
         self.sort(arr, i+1, right)
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void moveZeroes(int* nums, int numsSize){
     int i = 0 ;
     int* res = ( int* )(malloc((sizeof(int))*numsSize)) ;
@@ -27,4 +27,4 @@ void moveZeroes(int* nums, int numsSize){
     }
     
 }
-```
+// ```

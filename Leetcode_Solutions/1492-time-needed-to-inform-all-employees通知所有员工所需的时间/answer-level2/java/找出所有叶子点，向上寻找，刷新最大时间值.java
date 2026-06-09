@@ -1,4 +1,4 @@
-```
+// ```
 public int numOfMinutes(int n, int headID, int[] manager, int[] informTime) {
 		List<Integer> numOfLeaf = new ArrayList<Integer>();
 		for (int i = 0; i < informTime.length; i++) {
@@ -18,4 +18,4 @@ public int numOfMinutes(int n, int headID, int[] manager, int[] informTime) {
 		}
 		return result;
     }
-```
+// ```

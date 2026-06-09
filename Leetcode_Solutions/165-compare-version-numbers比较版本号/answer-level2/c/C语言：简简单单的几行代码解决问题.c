@@ -1,8 +1,8 @@
-![QQ截图20190916094432.png](https://pic.leetcode-cn.com/3957e4568b08f2ad1616c8a805486aeb5e60710f327668bc200d4de9fe882169-QQ%E6%88%AA%E5%9B%BE20190916094432.png)
+// ![QQ截图20190916094432.png](https://pic.leetcode-cn.com/3957e4568b08f2ad1616c8a805486aeb5e60710f327668bc200d4de9fe882169-QQ%E6%88%AA%E5%9B%BE20190916094432.png)
 
-**先解析每个版本，然后放到数组中，最后依次比较大小
-注意：1.0   和   1.0.0.0   的大小是一样的**
-```
+// **先解析每个版本，然后放到数组中，最后依次比较大小
+// 注意：1.0   和   1.0.0.0   的大小是一样的**
+// ```
 int compareVersion(char * version1, char * version2){
     if (version1 == NULL || version2 == NULL) return -1;
     int *val1 = (int *)calloc(1024, sizeof(int));
@@ -35,4 +35,4 @@ int compareVersion(char * version1, char * version2){
     }
     return 0;
 }
-```
+// ```

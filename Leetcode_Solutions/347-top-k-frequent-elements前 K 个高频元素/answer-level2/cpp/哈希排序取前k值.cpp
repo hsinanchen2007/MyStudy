@@ -1,6 +1,6 @@
-空间换时间，应该没有nlogn吧。。。
+// 空间换时间，应该没有nlogn吧。。。
 
-```
+// ```
 class Solution {
 public:
     struct compByValue//排序比较函数
@@ -24,4 +24,4 @@ public:
         return res;
     }
 };
-```
+// ```

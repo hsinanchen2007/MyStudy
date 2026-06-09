@@ -1,7 +1,7 @@
-借着这题好好复习一下 各种排序
+// 借着这题好好复习一下 各种排序
 
-1、直接插入排序
-```
+// 1、直接插入排序
+// ```
 int* sortedSquares(int* a, int n, int* returnSize){
 	*returnSize=n;
 	if(n==0) return a;
@@ -17,9 +17,9 @@ int* sortedSquares(int* a, int n, int* returnSize){
 	}
 	return a;
 }
-```
-2、折半插入排序
-```
+// ```
+// 2、折半插入排序
+// ```
 int* sortedSquares(int* a, int n, int* returnSize){
 	*returnSize=n;
 	if(n==0) return a;
@@ -40,9 +40,9 @@ int* sortedSquares(int* a, int n, int* returnSize){
 	}
 	return a;
 }
-```
-3、选择排序
-```
+// ```
+// 3、选择排序
+// ```
 int* sortedSquares(int* a, int n, int* returnSize){
 	*returnSize=n;
 	if(n==0) return a;
@@ -61,9 +61,9 @@ int* sortedSquares(int* a, int n, int* returnSize){
 	}
 	return a;
 }
-```
-4、冒泡排序
-```
+// ```
+// 4、冒泡排序
+// ```
 int* sortedSquares(int* a, int n, int* returnSize){
 	*returnSize=n;
 	if(n==0) return a;
@@ -82,10 +82,10 @@ int* sortedSquares(int* a, int n, int* returnSize){
 	}
 	return a;
 }
-```
+// ```
 
-5、带判断条件的冒泡排序
-```
+// 5、带判断条件的冒泡排序
+// ```
 int* sortedSquares(int* a, int n, int* returnSize){
 	*returnSize=n;
 	if(n==0) return a;
@@ -107,12 +107,12 @@ int* sortedSquares(int* a, int n, int* returnSize){
 	}
 	return a;
 }
-```
+// ```
 
-选择排序 和冒泡排序会时间超限
+// 选择排序 和冒泡排序会时间超限
 
-6、快排
-```
+// 6、快排
+// ```
 int Pattion(int *a,int low,int high){
 	int temp=a[low],pivoty=a[low];
 	while(low<high){
@@ -143,12 +143,12 @@ int* sortedSquares(int* a, int n, int* returnSize){
 	QuickSort(a,0,n-1); 
 	return a;
 }
-```
-这个有点猛哦 一下超过百分之七十多
+// ```
+// 这个有点猛哦 一下超过百分之七十多
 
-7、归并排序
-可能我写的问题 内存超限了
-```
+// 7、归并排序
+// 可能我写的问题 内存超限了
+// ```
 void MergeSort(int *a,int low,int mid,int high){
 	
 	int *b=(int *)malloc(sizeof(int)*(high+1));
@@ -187,10 +187,10 @@ int* sortedSquares(int* a, int n, int* returnSize){
 	Merge(a,0,n-1); 
 	return a;
 }
-```
+// ```
 
-8、双指针
-```
+// 8、双指针
+// ```
 int* sortedSquares(int* a, int n, int* returnSize){
 	*returnSize=n;
 	if(n==0) return a;
@@ -224,4 +224,4 @@ int* sortedSquares(int* a, int n, int* returnSize){
 	}
 	return res;
 }
-```
+// ```

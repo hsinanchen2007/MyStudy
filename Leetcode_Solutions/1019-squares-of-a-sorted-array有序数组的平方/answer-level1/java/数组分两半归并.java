@@ -1,10 +1,10 @@
-### 解题思路
-第一遍，找到正负交界，找的同时把负数反转，方便比较，
-然后从中间开始把数组 分为两个有序的递增数组， 进行归并
+// ### 解题思路
+// 第一遍，找到正负交界，找的同时把负数反转，方便比较，
+// 然后从中间开始把数组 分为两个有序的递增数组， 进行归并
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] sortedSquares(int[] A) {
         int[] result = new int[A.length];
@@ -35,4 +35,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

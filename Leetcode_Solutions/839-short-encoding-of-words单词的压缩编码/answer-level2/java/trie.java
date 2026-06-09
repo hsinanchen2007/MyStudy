@@ -1,9 +1,9 @@
-### 解题思路
-学习官方解答
+// ### 解题思路
+// 学习官方解答
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minimumLengthEncoding(String[] words) {
         TrieNode trie = new TrieNode();
@@ -46,4 +46,4 @@ class TrieNode {
 // 作者：LeetCode-Solution
 // 链接：https://leetcode-cn.com/problems/short-encoding-of-words/solution/dan-ci-de-ya-suo-bian-ma-by-leetcode-solution/
 
-```
+// ```

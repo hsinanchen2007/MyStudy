@@ -1,14 +1,14 @@
-#### 解法一：递归回溯
-+ 思路
-  + 从每一行开始，向上一行递归查询每一列是否符合皇后的摆放位置
-    + 符合定义
-      + 1、上n-1行同一列不能放
-      + 2、上n-1行m-1列不能放
-      + 3、上n-1行m+1列不能放
-    + 2、3为对角线判断
-    + 1为当前列
-    + 每次都查上一行，当前行也自动规避了
-```javascript
+// #### 解法一：递归回溯
+// + 思路
+//   + 从每一行开始，向上一行递归查询每一列是否符合皇后的摆放位置
+//     + 符合定义
+//       + 1、上n-1行同一列不能放
+//       + 2、上n-1行m-1列不能放
+//       + 3、上n-1行m+1列不能放
+//     + 2、3为对角线判断
+//     + 1为当前列
+//     + 每次都查上一行，当前行也自动规避了
+// ```javascript
 /**
  * @param {number} n
  * @return {string[][]}
@@ -75,11 +75,11 @@ var solveNQueens = function(n) {
     Nqueens(0);
     return results;
 };
-```
-+ 优化版+1
-  + format函数去掉，用数组的map函数，和字符串的repeat函数进行优化
-  + 速度有提升
-    ```javascript
+// ```
+// + 优化版+1
+//   + format函数去掉，用数组的map函数，和字符串的repeat函数进行优化
+//   + 速度有提升
+//     ```javascript
     /**
      * @param {number} n
      * @return {string[][]}
@@ -120,11 +120,11 @@ var solveNQueens = function(n) {
         Nqueens(0);
         return results;
     };
-    ```
-#### 解法二：对角线约束
-+ 同一对角线上的两个坐标，它们的横坐标之差等于纵坐标之差
-  + ![截屏2019-11-26下午2.16.10.png](https://pic.leetcode-cn.com/5da22c7121391469b8f77cb1fc4ec4e4b3df0123e665199a9dc6c518d5ed3597-%E6%88%AA%E5%B1%8F2019-11-26%E4%B8%8B%E5%8D%882.16.10.png)
-```javascript
+//     ```
+// #### 解法二：对角线约束
+// + 同一对角线上的两个坐标，它们的横坐标之差等于纵坐标之差
+//   + ![截屏2019-11-26下午2.16.10.png](https://pic.leetcode-cn.com/5da22c7121391469b8f77cb1fc4ec4e4b3df0123e665199a9dc6c518d5ed3597-%E6%88%AA%E5%B1%8F2019-11-26%E4%B8%8B%E5%8D%882.16.10.png)
+// ```javascript
 /**
  * @param {number} n
  * @return {string[][]}
@@ -147,4 +147,4 @@ var solveNQueens = function (n) {
     dfs();
     return result;
 };
-```
+// ```

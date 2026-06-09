@@ -1,4 +1,4 @@
-```
+// ```
 func kthLargest(root *TreeNode, k int) int {
 	count := make([]int, 0)
 	dfskthLargest(root, &count)
@@ -16,10 +16,10 @@ func dfskthLargest(root *TreeNode, count *[]int) {
 		dfskthLargest(root.Left, count)
 	}
 }
-```
+// ```
 
 
-```
+// ```
 //go 迭代
 func kthLargest(root *TreeNode, k int) int {
 	if root == nil {
@@ -45,5 +45,5 @@ func kthLargest(root *TreeNode, k int) int {
 	}
 	return nums[len(nums)-k]
 }
-```
+// ```
 

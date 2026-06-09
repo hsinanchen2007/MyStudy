@@ -1,8 +1,8 @@
-### 解题思路
-暴力解法，逐一比较，逐一合并处理，生成新的字符串数组，然后计算长度。
+// ### 解题思路
+// 暴力解法，逐一比较，逐一合并处理，生成新的字符串数组，然后计算长度。
 
-### 代码
-```c
+// ### 代码
+// ```c
 int minimumLengthEncoding(char ** words, int wordsSize){
     char str[2000][8] = {'\0'};
     bool handled[2000] = {false};  //字串是否被合并处理过
@@ -35,4 +35,4 @@ int minimumLengthEncoding(char ** words, int wordsSize){
     return len;
 }
 
-```
+// ```

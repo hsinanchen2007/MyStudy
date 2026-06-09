@@ -1,9 +1,9 @@
-### 解题思路
-快慢指针解决
+// ### 解题思路
+// 快慢指针解决
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int removeDuplicates(int[] nums) {
         if (nums == null || nums.length == 0) {
@@ -23,4 +23,4 @@ class Solution {
         return slow;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```kotlin
+// ```kotlin
 private fun buildTree0(preorder: IntArray, inorder: IntArray): TreeNode? {
     if (preorder.isEmpty()) {
         return null
@@ -29,4 +29,4 @@ private fun buildTree0(preorder: IntArray, inorder: IntArray): TreeNode? {
     return tree
 }
 
-```
+// ```

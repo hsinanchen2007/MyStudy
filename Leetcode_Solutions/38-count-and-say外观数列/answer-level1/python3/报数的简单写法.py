@@ -1,5 +1,5 @@
-看题看了半天，然后想到了一个很基础的方法
-```
+# 看题看了半天，然后想到了一个很基础的方法
+# ```
 class Solution:
     def countAndSay(self, n: int) -> str:
         s, i = '1', 1
@@ -16,4 +16,4 @@ class Solution:
                     temp = temp + '{}{}'.format(Sum, s[pre])
             s = temp
         return s
-```
+# ```

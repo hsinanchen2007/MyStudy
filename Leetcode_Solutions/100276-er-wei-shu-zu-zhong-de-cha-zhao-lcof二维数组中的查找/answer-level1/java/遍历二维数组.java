@@ -1,9 +1,9 @@
-### 解题思路
-遍历二维数组
+// ### 解题思路
+// 遍历二维数组
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean findNumberIn2DArray(int[][] matrix, int target) {
     	for (int i = 0; i < matrix.length; i++) {
@@ -18,4 +18,4 @@ class Solution {
     	
     }
 }
-```
+// ```

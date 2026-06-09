@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
   def orangesRotting(grid: Array[Array[Int]]): Int = {
     import scala.collection.mutable.Queue
@@ -67,4 +67,4 @@ object Solution {
     orangesRotting(arr)
   }
 }
-```
+// ```

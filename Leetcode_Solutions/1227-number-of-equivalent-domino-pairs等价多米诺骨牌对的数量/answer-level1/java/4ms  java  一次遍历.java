@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int numEquivDominoPairs(int[][] dominoes) {
         int[][] count = new int[10][10];
@@ -19,4 +19,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

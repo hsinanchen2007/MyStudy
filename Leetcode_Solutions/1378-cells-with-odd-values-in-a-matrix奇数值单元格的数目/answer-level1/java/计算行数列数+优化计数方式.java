@@ -1,4 +1,4 @@
-常规想法是计算行列出现次数，但是最终只用考虑这一行出现是奇数还是偶数，所以只用0，1保存可以节省%2的时间
+// 常规想法是计算行列出现次数，但是最终只用考虑这一行出现是奇数还是偶数，所以只用0，1保存可以节省%2的时间
 ![image.png](https://pic.leetcode-cn.com/a1f56d81c38cae391c6be624b25d967c6725b6fa9929a539341072c6bab314ca-image.png)
 class Solution {
         public int oddCells(int n, int m, int[][] indices) {

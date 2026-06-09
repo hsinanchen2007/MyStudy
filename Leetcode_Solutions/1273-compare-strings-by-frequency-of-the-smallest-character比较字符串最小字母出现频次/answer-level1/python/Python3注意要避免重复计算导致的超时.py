@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def f(self, s: str) -> int:
         return s.count(min(s))
@@ -12,4 +12,4 @@ class Solution:
             f_item = self.f(item)
             res.append(len([1 for cnt in words_cnt if f_item < cnt]))
         return res
-```
+# ```

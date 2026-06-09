@@ -1,9 +1,9 @@
-### 解题思路
-递归解法时，head.next.next = head 表示head的下一节点指向head，然后 head.next = None 将head下一节点置为空，防止出现循环 A->B->A 的结构。
+# ### 解题思路
+# 递归解法时，head.next.next = head 表示head的下一节点指向head，然后 head.next = None 将head下一节点置为空，防止出现循环 A->B->A 的结构。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #    def __init__(self, x):
@@ -22,4 +22,4 @@ class Solution(object):
         head.next.next = head
         head.next = None
         return tempnode
-```
+# ```

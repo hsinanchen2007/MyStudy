@@ -1,8 +1,8 @@
-#### 递归
+// #### 递归
 
-按照根-左-右的方式进行遍历
+// 按照根-左-右的方式进行遍历
 
-```
+// ```
 /**
  * 先序遍历：根-左-右
  * @param {TreeNode} root
@@ -19,13 +19,13 @@ var preorderTraversal = function(root) {
   preorder(root, arr)
   return arr
 };
-```
+// ```
 
-#### 迭代-1
+// #### 迭代-1
 
-从根节点开始，每次迭代弹出当前栈顶元素，并将其孩子节点压入栈中，先压右孩子再压左孩子。
+// 从根节点开始，每次迭代弹出当前栈顶元素，并将其孩子节点压入栈中，先压右孩子再压左孩子。
 
-```
+// ```
 /**
  * 先序遍历：迭代方式
  * @param {TreeNode} root
@@ -46,4 +46,4 @@ var preorderTraversal = function(root) {
   }
   return number
 };
-```
+// ```

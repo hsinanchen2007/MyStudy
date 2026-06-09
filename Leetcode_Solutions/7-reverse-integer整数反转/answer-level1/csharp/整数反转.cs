@@ -1,4 +1,4 @@
-```
+// ```
 public class Solution {
     public int Reverse(int x) {
         //思路：利用取模和取整的方法
@@ -14,4 +14,4 @@ public class Solution {
         return newVal;
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-回溯算法，效率有点低，记录一下
-```
+# 回溯算法，效率有点低，记录一下
+# ```
 class Solution:
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
         # 回溯算法，每个节点维护两个数组
@@ -40,4 +40,4 @@ class Solution:
                     backtrack(choseList+[each_num],target-each_num)
         backtrack([],target)
         return res
-```
+# ```

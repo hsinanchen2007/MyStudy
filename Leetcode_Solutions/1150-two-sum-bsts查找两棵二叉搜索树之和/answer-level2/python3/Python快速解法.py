@@ -1,11 +1,11 @@
-### 解题思路
-![1581859590(1).png](https://pic.leetcode-cn.com/85e43c97792862e4e67038dd3a29ada3774a566515bbb570f6caf0929d913fd2-1581859590\(1\).png)
-先用哈希表存储第一棵树的所有值，而后判断target与第二棵树元素之差是否在哈希表内
+# ### 解题思路
+# ![1581859590(1).png](https://pic.leetcode-cn.com/85e43c97792862e4e67038dd3a29ada3774a566515bbb570f6caf0929d913fd2-1581859590\(1\).png)
+# 先用哈希表存储第一棵树的所有值，而后判断target与第二棵树元素之差是否在哈希表内
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -35,4 +35,4 @@ class Solution:
                 return False
 
         return treeJudge2(root2)
-```
+# ```

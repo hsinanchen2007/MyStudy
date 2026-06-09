@@ -1,5 +1,5 @@
-js 非递归
-```
+// js 非递归
+// ```
 var numberOfSteps  = function(num) {
     let i = 0;
     while(num) {
@@ -9,4 +9,4 @@ var numberOfSteps  = function(num) {
     }
     return i;
 };
-```
+// ```

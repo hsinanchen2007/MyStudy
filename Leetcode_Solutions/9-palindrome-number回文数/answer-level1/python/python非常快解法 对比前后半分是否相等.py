@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def isPalindrome(self, x):
 
@@ -12,4 +12,4 @@ class Solution(object):
             x=x//10 #从前往后整数部分
             #print("x:",x)
         return x==y or x==y//10 #x==y是偶数 x==y//10是奇数
-```
+# ```

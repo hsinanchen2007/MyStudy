@@ -1,10 +1,10 @@
-### 思路一：利用vector自定义排序
-1. 使用无序map存储字符和出现次数映射关系
-2. 在vector中存储pair对，利用vector自定义排序
+// ### 思路一：利用vector自定义排序
+// 1. 使用无序map存储字符和出现次数映射关系
+// 2. 在vector中存储pair对，利用vector自定义排序
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string frequencySort(string s) {
@@ -24,12 +24,12 @@ public:
         return ret;
     }
 };
-```
+// ```
 
-### 思路二：优先队列
+// ### 思路二：优先队列
 
-### 代码
-```c++
+// ### 代码
+// ```c++
 class Solution {
 public:
     string frequencySort(string s) {
@@ -50,12 +50,12 @@ public:
         return ret;
     }
 };
-```
+// ```
 
-### 思路三：利用lambda自定义排序
+// ### 思路三：利用lambda自定义排序
 
-### 代码
-```c++
+// ### 代码
+// ```c++
 class Solution {
 public:
     string frequencySort(string s) {
@@ -67,13 +67,13 @@ public:
         return s;
     }
 };
-```
+// ```
 
-### 思路四：数组下标索引
-每个字符出现次数不会超过字符串s长度，将字符添加到字符出现次数对应数组下标处，然后从后向前遍历，如果对应下标不为空，则添加到结果集中。
+// ### 思路四：数组下标索引
+// 每个字符出现次数不会超过字符串s长度，将字符添加到字符出现次数对应数组下标处，然后从后向前遍历，如果对应下标不为空，则添加到结果集中。
 
-### 代码
-```c++
+// ### 代码
+// ```c++
 class Solution {
 public:
     string frequencySort(string s) {
@@ -94,6 +94,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
 

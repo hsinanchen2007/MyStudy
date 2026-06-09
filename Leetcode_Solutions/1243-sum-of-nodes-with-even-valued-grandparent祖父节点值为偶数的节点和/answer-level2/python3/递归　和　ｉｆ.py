@@ -1,9 +1,9 @@
-### 解题思路
-IF无敌
-当大爷为偶数，判断有没有孙子，有就加
-### 代码
+# ### 解题思路
+# IF无敌
+# 当大爷为偶数，判断有没有孙子，有就加
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -34,4 +34,4 @@ class Solution:
             node2x(root.right)
         node2x(root)
         return p
-```
+# ```

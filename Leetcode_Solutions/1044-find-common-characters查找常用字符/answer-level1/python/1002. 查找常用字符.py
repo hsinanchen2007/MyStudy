@@ -1,5 +1,5 @@
 
-```
+# ```
 class Solution(object):
     def commonChars(self, A):
         """
@@ -20,4 +20,4 @@ class Solution(object):
             if flag == True:
                 L.append(letter)     
         return L
-```
+# ```

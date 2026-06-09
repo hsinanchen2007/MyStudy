@@ -1,5 +1,5 @@
-二分法重构二叉搜索树
-```
+// 二分法重构二叉搜索树
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -23,4 +23,4 @@ public:
         return genBST(nums, 0, nums.size()-1);
     }
 };
-```
+// ```

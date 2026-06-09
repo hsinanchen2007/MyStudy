@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number[]} asteroids
  * @return {number[]}
@@ -40,4 +40,4 @@ function boom(asteroids) {
         return res
     }
 }
-```
+// ```

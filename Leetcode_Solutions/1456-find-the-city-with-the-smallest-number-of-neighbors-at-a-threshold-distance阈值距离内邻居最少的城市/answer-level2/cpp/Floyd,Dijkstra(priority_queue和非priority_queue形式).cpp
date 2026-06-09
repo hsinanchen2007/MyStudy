@@ -1,10 +1,10 @@
-### 解题思路
-dijkstra有两种形式，一种采用邻接矩阵的形式，适用于稠密图。
-另一种形式采用邻接表的形式，适用于稀疏图，利用了priority_queue。
+// ### 解题思路
+// dijkstra有两种形式，一种采用邻接矩阵的形式，适用于稠密图。
+// 另一种形式采用邻接表的形式，适用于稀疏图，利用了priority_queue。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     // int findTheCity(int n, vector<vector<int>>& edges, int distanceThreshold) {
@@ -169,4 +169,4 @@ public:
 };
 
 
-```
+// ```

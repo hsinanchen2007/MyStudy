@@ -1,4 +1,4 @@
-```
+// ```
 #include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -98,4 +98,4 @@ char** restoreIpAddresses(char* str, int* returnSize)
     return result;
 }
 
-```
+// ```

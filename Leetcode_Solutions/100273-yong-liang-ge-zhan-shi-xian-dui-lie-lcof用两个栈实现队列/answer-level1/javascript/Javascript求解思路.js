@@ -1,10 +1,10 @@
-### 解题思路
-1.执行appendTail时将元素压入栈1.
-2.执行deleteHead时先检查栈2中是否有元素，否则先将栈1中的元素压入栈2中，再将栈2中的元素取出来。
+// ### 解题思路
+// 1.执行appendTail时将元素压入栈1.
+// 2.执行deleteHead时先检查栈2中是否有元素，否则先将栈1中的元素压入栈2中，再将栈2中的元素取出来。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var CQueue = function () {
         this.inStack = [];
         this.outStack = [];
@@ -40,4 +40,4 @@ var CQueue = function () {
  * obj.appendTail(value)
  * var param_2 = obj.deleteHead()
  */
-```
+// ```

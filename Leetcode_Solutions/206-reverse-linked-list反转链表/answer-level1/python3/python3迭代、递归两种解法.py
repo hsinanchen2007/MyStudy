@@ -1,7 +1,7 @@
 
-**递归解法**
+# **递归解法**
 
-```python
+# ```python
 class Solution:
     def reverseList(self, head: ListNode) -> ListNode:
         # 递归
@@ -12,11 +12,11 @@ class Solution:
         head.next.next = head
         head.next = None
         return ret
-```
+# ```
 
-**迭代解法**
+# **迭代解法**
 
-```python
+# ```python
 class Solution:
     def reverseList(self, head: ListNode) -> ListNode:
         # 迭代
@@ -28,6 +28,6 @@ class Solution:
             pre_node = cur_node
             cur_node = next_node
         return pre_node
-```
+# ```
 
->我这个菜鸡都觉得非常简单，没啥好说的- -
+# >我这个菜鸡都觉得非常简单，没啥好说的- -

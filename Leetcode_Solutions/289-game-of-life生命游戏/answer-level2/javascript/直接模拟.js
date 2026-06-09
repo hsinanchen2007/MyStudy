@@ -1,9 +1,9 @@
-## 简介
-- [题目链接](https://leetcode-cn.com/problems/game-of-life/)
+// ## 简介
+// - [题目链接](https://leetcode-cn.com/problems/game-of-life/)
 
-## 解法一 - 暴力法
+// ## 解法一 - 暴力法
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} board
  * @return {void} Do not return anything, modify board in-place instead.
@@ -44,18 +44,18 @@ var gameOfLife = function(board) {
         }
 
 };
-```
-**复杂度分析**:
-- 时间复杂度：$O(N*M)$，$N$ 是列数，$M$ 是行数
-- 空间复杂度：$O(N*M)$
+// ```
+// **复杂度分析**:
+// - 时间复杂度：$O(N*M)$，$N$ 是列数，$M$ 是行数
+// - 空间复杂度：$O(N*M)$
 
-## 解法二 - 原地修改
-如果 $(i, j)$ 值有变化，则我们将其进行修改成其他值，以区分原来的 $0$ 和 $1$。
-- 由 $1$ 变为 $0$，设为 $-1$
-- 由 $0$ 变为 $1$，设为 $2$
+// ## 解法二 - 原地修改
+// 如果 $(i, j)$ 值有变化，则我们将其进行修改成其他值，以区分原来的 $0$ 和 $1$。
+// - 由 $1$ 变为 $0$，设为 $-1$
+// - 由 $0$ 变为 $1$，设为 $2$
 
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} board
  * @return {void} Do not return anything, modify board in-place instead.
@@ -94,8 +94,8 @@ var gameOfLife = function(board) {
         }
 
 };
-```
+// ```
 
-**复杂度分析**:
-- 时间复杂度：$O(N*M)$，$N$ 是列数，$M$ 是行数
-- 空间复杂度：$O(1)$
+// **复杂度分析**:
+// - 时间复杂度：$O(N*M)$，$N$ 是列数，$M$ 是行数
+// - 空间复杂度：$O(1)$

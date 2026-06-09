@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/42c29a5f81e6c344dba170cb52f5145dd8dbb8558ed94ba2497e87bf6ab0ec1b-image.png)
-四个变量
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/42c29a5f81e6c344dba170cb52f5145dd8dbb8558ed94ba2497e87bf6ab0ec1b-image.png)
+// 四个变量
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool detectCapitalUse(string word) {
@@ -51,4 +51,4 @@ public:
         return false;
     }
 };
-```
+// ```

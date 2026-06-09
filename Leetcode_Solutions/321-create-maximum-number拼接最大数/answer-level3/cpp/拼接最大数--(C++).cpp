@@ -1,11 +1,11 @@
-### 解题思路
-解题: 
-(1) 主要 设 nums1中选s个最大序列数，nums2中就是k-s个。进行遍历比较就行
-(2) 注意s和k-s的限制条件。注意归并比较技巧 lexicographical_compare
-(3) 需要熟写 数组中去k个最大序列数
-### 代码
+// ### 解题思路
+// 解题: 
+// (1) 主要 设 nums1中选s个最大序列数，nums2中就是k-s个。进行遍历比较就行
+// (2) 注意s和k-s的限制条件。注意归并比较技巧 lexicographical_compare
+// (3) 需要熟写 数组中去k个最大序列数
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> maxNumber(vector<int>& nums1, vector<int>& nums2, int k) {
@@ -46,4 +46,4 @@ public:
         return result;
     }
 };
-```
+// ```

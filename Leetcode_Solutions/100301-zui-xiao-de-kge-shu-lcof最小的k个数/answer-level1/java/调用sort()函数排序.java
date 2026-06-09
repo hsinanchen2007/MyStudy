@@ -1,5 +1,5 @@
 
-```
+// ```
 public int[] getLeastNumbers(int[] arr, int k) {
 
     int[] res = new int[k];
@@ -12,5 +12,5 @@ public int[] getLeastNumbers(int[] arr, int k) {
     }
     return res;
 }
-```
+// ```
 

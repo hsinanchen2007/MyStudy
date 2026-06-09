@@ -1,9 +1,9 @@
-### 解题思路
-java两次回溯法，但似乎意义不大
+// ### 解题思路
+// java两次回溯法，但似乎意义不大
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     int ans = 0;
     public int numTeams(int[] rating) {
@@ -40,4 +40,4 @@ class Solution {
         }
     }
 }
-```
+// ```

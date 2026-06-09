@@ -1,13 +1,13 @@
-优化要点
-```yaml
+// 优化要点
+// ```yaml
 1.if(deck.Length <= 1) return false;
 2if (minCount== 1) return false;
-```
+// ```
 
-3.寻找数字最小出现次数minCount
-4.只计算1次minCount的所有公约数，储存为数组minList。遍历其他数字对minList的余数是否为0。
+// 3.寻找数字最小出现次数minCount
+// 4.只计算1次minCount的所有公约数，储存为数组minList。遍历其他数字对minList的余数是否为0。
 
-```
+// ```
         public bool HasGroupsSizeX(int[] deck)
         {
             if(deck.Length <= 1)
@@ -63,4 +63,4 @@
             }
             return true;
         }
-```
+// ```

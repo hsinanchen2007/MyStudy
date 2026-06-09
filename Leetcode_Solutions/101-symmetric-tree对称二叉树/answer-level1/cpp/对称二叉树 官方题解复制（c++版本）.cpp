@@ -1,7 +1,7 @@
 
-递归法：
+// 递归法：
 
-```c++[]
+// ```c++[]
 class Solution {
 public:
     bool ismirror(TreeNode* left,TreeNode* right)
@@ -17,9 +17,9 @@ public:
         return ismirror(root,root);
     }
 };
-```
-迭代法
-```c++ []
+// ```
+// 迭代法
+// ```c++ []
 class Solution {
 public:
     
@@ -49,4 +49,4 @@ static const auto io_speed_up=[]{
     cin.tie();
     return 0;
 }();
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
+# ### 解题思路
 
-方格求最短路，BFS。(好像一般方格里面走的问题都可以转化为有向图然后遍历等等。。)
+# 方格求最短路，BFS。(好像一般方格里面走的问题都可以转化为有向图然后遍历等等。。)
 
-时间复杂度`O(N*N)`
+# 时间复杂度`O(N*N)`
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def snakesAndLadders(self, board) -> int:
 
@@ -53,4 +53,4 @@ class Solution:
             s = t
             t = []
         return -1
-```
+# ```

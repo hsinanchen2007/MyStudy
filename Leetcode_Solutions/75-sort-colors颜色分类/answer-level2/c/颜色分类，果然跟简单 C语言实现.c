@@ -1,7 +1,7 @@
-还排啥序啊～～～
-重写数组就好了。
+// 还排啥序啊～～～
+// 重写数组就好了。
 
-```c
+// ```c
 void sortColors(int* nums, int numsSize){
    int i, j, *p = nums;
     int count[3] = {0,0,0};
@@ -13,4 +13,4 @@ void sortColors(int* nums, int numsSize){
         *p++=j;
     }
 }
-```
+// ```

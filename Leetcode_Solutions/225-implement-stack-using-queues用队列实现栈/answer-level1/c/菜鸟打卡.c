@@ -1,8 +1,8 @@
-使用了循环链表，把队列头部front的next指针指向队尾
-（感觉自己跑题了..）
+// 使用了循环链表，把队列头部front的next指针指向队尾
+// （感觉自己跑题了..）
 
 
-```
+// ```
 struct Node{
     int val;
     struct Node* next;
@@ -83,4 +83,4 @@ void myStackFree(MyStack* obj) {
  
  * myStackFree(obj);
 */
-```
+// ```

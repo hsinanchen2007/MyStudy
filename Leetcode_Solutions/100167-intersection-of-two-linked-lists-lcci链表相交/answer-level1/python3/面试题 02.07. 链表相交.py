@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-双指针
+# 双指针
 
-### 代码
+# ### 代码
 
-```python []
+# ```python []
 class Solution(object):
     def getIntersectionNode(self, headA, headB):
         a, b = headA, headB
@@ -12,4 +12,4 @@ class Solution(object):
             a = a.next if a else headB
             b = b.next if b else headA
         return a
-```
+# ```

@@ -1,6 +1,6 @@
-最大公约数的倍数就可以了
+// 最大公约数的倍数就可以了
 
- ```
+//  ```
 class Solution {
 public:
     bool canMeasureWater(int x, int y, int z) {
@@ -15,4 +15,4 @@ public:
       return  y==0?x:gcd(y,x%y);
     }
 };
-```
+// ```

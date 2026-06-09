@@ -1,5 +1,5 @@
-总结评论区几种常见写法：
-```python []
+# 总结评论区几种常见写法：
+# ```python []
 class Solution:    #转化为字符串，切片
     def reverse(self, x: int) :
         x_str=str(x)
@@ -11,8 +11,8 @@ class Solution:    #转化为字符串，切片
             x=int(x_str)
             x=-x
         return x if -(1<<31)<=x<=(1<<31)-1 else 0
-```
-```python []
+# ```
+# ```python []
 class Solution: #转化为字符串，
     def reverse(self, x: int) :
         if x==0:
@@ -26,8 +26,8 @@ class Solution: #转化为字符串，
         if -2**31<x<2**31-1:
             return x
         return 0
-```
-```python []
+# ```
+# ```python []
 class Solution: #直接int运算
     def reverse(self, x: int) :
         y,xo=abs(x),0
@@ -37,4 +37,4 @@ class Solution: #直接int运算
             if xo>range_max: return 0
             y//=10
         return xo if x>0 else -xo
-```
+# ```

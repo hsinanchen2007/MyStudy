@@ -1,8 +1,8 @@
-### 解题思路
-双指针，从最大的开始，依次放到数组最后面
+# ### 解题思路
+# 双指针，从最大的开始，依次放到数组最后面
 
-### 代码
-```
+# ### 代码
+# ```
 
 class Solution:
     def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
@@ -21,6 +21,6 @@ class Solution:
                 i-=1
             tail-=1
         nums1[:j+1]=nums2[:j+1]
-```
+# ```
 
 

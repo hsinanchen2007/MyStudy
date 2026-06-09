@@ -1,4 +1,4 @@
-```java
+// ```java
     public int numTrees(int n) {
         if(n<0)return 0;
         switch (n){
@@ -24,4 +24,4 @@
 
         return res;
     }
-```
+// ```

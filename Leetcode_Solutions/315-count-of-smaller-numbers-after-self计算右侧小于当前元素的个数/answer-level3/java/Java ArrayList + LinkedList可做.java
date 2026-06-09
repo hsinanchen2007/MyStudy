@@ -1,9 +1,9 @@
-### 解题思路
-注意一个是ArrayList 一个是LinkedList，否则会超时
+// ### 解题思路
+// 注意一个是ArrayList 一个是LinkedList，否则会超时
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> countSmaller(int[] nums) {
         List<Integer> res = new LinkedList<>();
@@ -25,4 +25,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

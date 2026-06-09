@@ -1,12 +1,12 @@
-### 解题思路
-如果简单地使用回溯法求出所有的情况必然会超时，所以不能一个个地拿硬币，同时要注意剪枝；
-用动态规划求解的话就很简单，但前提是想得到，先建立一个dp数组保存之前计算的结果，定义dp[i]为金额为i时兑换零钱的最小数量，由此，对于每一个面额c的零钱有：
-`dp[i] = dp[i-c]+1, if i-c可以兑换成功，即dp[i-c]!=-1`
-基于以上的分析，只需要从头遍历dp数组，同时修改dp[i]为兑换零钱的最小数量，最终dp[amount]就是答案：
+// ### 解题思路
+// 如果简单地使用回溯法求出所有的情况必然会超时，所以不能一个个地拿硬币，同时要注意剪枝；
+// 用动态规划求解的话就很简单，但前提是想得到，先建立一个dp数组保存之前计算的结果，定义dp[i]为金额为i时兑换零钱的最小数量，由此，对于每一个面额c的零钱有：
+// `dp[i] = dp[i-c]+1, if i-c可以兑换成功，即dp[i-c]!=-1`
+// 基于以上的分析，只需要从头遍历dp数组，同时修改dp[i]为兑换零钱的最小数量，最终dp[amount]就是答案：
 
-### 代码
-回溯算法（DFS）：
-```java
+// ### 代码
+// 回溯算法（DFS）：
+// ```java
 class Solution {
     int result = Integer.MAX_VALUE;
     public int coinChange(int[] coins, int amount) {
@@ -27,9 +27,9 @@ class Solution {
         }
     }
 }
-```
-动态规划：
-```java
+// ```
+// 动态规划：
+// ```java
 class Solution {
     public int coinChange(int[] coins, int amount) {
         int[] dp = new int[amount+1];
@@ -45,4 +45,4 @@ class Solution {
         return dp[amount];
     }
 }
-```
+// ```

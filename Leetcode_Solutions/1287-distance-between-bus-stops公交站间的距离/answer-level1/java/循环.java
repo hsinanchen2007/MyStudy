@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int distanceBetweenBusStops(int[] distance, int start, int destination) {
         if(start==destination)return 0;
@@ -17,4 +17,4 @@ class Solution {
         return Math.min(result,result1);
     }
 }
-```
+// ```

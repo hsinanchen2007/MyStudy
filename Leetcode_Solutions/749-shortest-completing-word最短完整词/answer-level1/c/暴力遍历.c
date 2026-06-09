@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int FindAllWord(int *sp, char *words)
 {
 	int i;
@@ -76,4 +76,4 @@ char * shortestCompletingWord(char * licensePlate, char ** words, int wordsSize)
 	}
 	return ret;
 }
-```
+// ```

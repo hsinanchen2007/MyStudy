@@ -1,7 +1,7 @@
 
-C语言实现：
+// C语言实现：
 
-```
+// ```
 struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
     struct ListNode* pre = (struct ListNode*)malloc(sizeof(struct ListNode));
     pre->val = 0;
@@ -42,6 +42,6 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
         
     return pre->next; 
 }
-```
+// ```
 
 

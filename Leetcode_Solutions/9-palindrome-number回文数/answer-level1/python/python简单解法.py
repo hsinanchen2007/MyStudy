@@ -1,4 +1,4 @@
-a=input('请输入数字：')
+# a=input('请输入数字：')
 a=list(a)
 b=reversed(a)
 b=list(b)

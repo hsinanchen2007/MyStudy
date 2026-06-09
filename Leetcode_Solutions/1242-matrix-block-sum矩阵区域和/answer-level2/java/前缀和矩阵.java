@@ -1,14 +1,14 @@
-参考「力扣」第 304 题：[“二维区域和检索 - 矩阵不可变”](https://leetcode-cn.com/problems/range-sum-query-2d-immutable/) 的做法。
+// 参考「力扣」第 304 题：[“二维区域和检索 - 矩阵不可变”](https://leetcode-cn.com/problems/range-sum-query-2d-immutable/) 的做法。
 
-思路：
+// 思路：
 
-+ 先计算前缀和矩阵；
-+ 再计算有效区域的左上角以及右下角的坐标；
-+ 再使用前缀和矩阵以 $O(1)$ 复杂度计算区域之和。
+// + 先计算前缀和矩阵；
+// + 再计算有效区域的左上角以及右下角的坐标；
+// + 再使用前缀和矩阵以 $O(1)$ 复杂度计算区域之和。
 
-**参考代码**：
+// **参考代码**：
 
-```Java []
+// ```Java []
 import java.util.Arrays;
 
 public class Solution {
@@ -55,9 +55,9 @@ public class Solution {
                 + preSum[row1][col1];
     }
 }
-```
+// ```
 
-**复杂度分析**：
+// **复杂度分析**：
 
-+ 时间复杂度：$O(MN)$，这里 $M$ 是矩阵的行数，$N$ 是矩阵的列数；
-+ 空间复杂度：$O(MN)$。
+// + 时间复杂度：$O(MN)$，这里 $M$ 是矩阵的行数，$N$ 是矩阵的列数；
+// + 空间复杂度：$O(MN)$。

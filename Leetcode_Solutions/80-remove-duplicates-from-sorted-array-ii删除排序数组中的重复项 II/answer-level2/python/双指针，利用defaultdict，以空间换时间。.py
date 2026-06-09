@@ -1,9 +1,9 @@
-### 解题思路
-我利用了一个知识点defaultdict（还有counter也很好用），可以很清楚的判断我是否已经有两个相同的元素，我牺牲了空间换取时间。代码可能较为冗余，第一次写题，解大家一起加油啊！
+# ### 解题思路
+# 我利用了一个知识点defaultdict（还有counter也很好用），可以很清楚的判断我是否已经有两个相同的元素，我牺牲了空间换取时间。代码可能较为冗余，第一次写题，解大家一起加油啊！
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def removeDuplicates(self, nums):
         """
@@ -38,4 +38,4 @@ class Solution(object):
                 q += 1
       
         return p+1
-```
+# ```

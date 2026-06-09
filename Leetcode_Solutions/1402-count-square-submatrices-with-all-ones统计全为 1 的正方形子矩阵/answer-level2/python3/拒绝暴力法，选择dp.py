@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def countSquares(self, matrix: List[List[int]]) -> int:
         #用每个正方形右下角的数来判断
@@ -12,5 +12,5 @@ class Solution:
                 if matrix[i][j] > 0:
                     dp[i+1][j+1] = min(dp[i][j], dp[i][j+1], dp[i+1][j]) + 1
         return sum([sum(dp[i]) for i in range(1, m+1)])
-```
+# ```
 

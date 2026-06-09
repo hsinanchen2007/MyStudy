@@ -1,7 +1,7 @@
-![QQ图片20190925155356.png](https://pic.leetcode-cn.com/caf558ec7a608ec821a495067601ac9fda9a14b79069c0f896d08fe65a1d668d-QQ%E5%9B%BE%E7%89%8720190925155356.png)
+// ![QQ图片20190925155356.png](https://pic.leetcode-cn.com/caf558ec7a608ec821a495067601ac9fda9a14b79069c0f896d08fe65a1d668d-QQ%E5%9B%BE%E7%89%8720190925155356.png)
 
 
-```
+// ```
 class Solution {
 public:
 
@@ -33,4 +33,4 @@ public:
         return res;
     }
 };
-```
+// ```

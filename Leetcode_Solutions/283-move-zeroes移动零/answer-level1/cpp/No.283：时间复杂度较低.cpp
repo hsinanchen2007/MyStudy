@@ -1,9 +1,9 @@
-# **C++频道：**
+// # **C++频道：**
 
-![image.png](https://pic.leetcode-cn.com/5dda74a6e1f67407119e06c73d347cdb253c8d23df2ea47e589861c3da9bc549-image.png)
+// ![image.png](https://pic.leetcode-cn.com/5dda74a6e1f67407119e06c73d347cdb253c8d23df2ea47e589861c3da9bc549-image.png)
 
 
-```
+// ```
 class Solution {
 public:
     void moveZeroes(vector<int>& nums) {
@@ -19,4 +19,4 @@ public:
                 nums[j] = 0;
     }
 };
-```
+// ```

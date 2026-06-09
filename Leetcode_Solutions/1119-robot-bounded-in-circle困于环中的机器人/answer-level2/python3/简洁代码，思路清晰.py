@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def isRobotBounded(self, instructions: str) -> bool:
         posO,pos = (0,0),[0,0]
@@ -18,4 +18,4 @@ class Solution:
                 dirc=(dirc+3)%4
         # 方向改变（绕一个时针方向总会绕回来）或者位置未变（确定能回来）
         return dirc!=dircO or pos==list(posO)
-```
+# ```

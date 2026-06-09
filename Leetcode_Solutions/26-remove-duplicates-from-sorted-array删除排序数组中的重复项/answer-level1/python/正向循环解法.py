@@ -1,9 +1,9 @@
-### 解题思路
-rt，因为正向时往后的索引值会变化，所以多加了一个数组的长度判断限制边界
+# ### 解题思路
+# rt，因为正向时往后的索引值会变化，所以多加了一个数组的长度判断限制边界
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
         l = len(nums)
@@ -14,4 +14,4 @@ class Solution:
             if i == l:
                 return l
             
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-做晚饭努力想打个卡，努力读题，放弃了，还是抄作业吧，明天清醒点再看仔细
+# ### 解题思路
+# 做晚饭努力想打个卡，努力读题，放弃了，还是抄作业吧，明天清醒点再看仔细
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxDepthAfterSplit(self, seq: str) -> List[int]:
         ans = []
@@ -19,4 +19,4 @@ class Solution:
 
 # 作者：LeetCode-Solution
 
-```
+# ```

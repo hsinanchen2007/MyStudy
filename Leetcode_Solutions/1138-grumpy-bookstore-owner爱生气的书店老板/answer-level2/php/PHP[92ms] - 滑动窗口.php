@@ -1,14 +1,14 @@
-### 解题思路
+// ### 解题思路
 
-看了下各位大神的解题思路，感觉都很棒，这里提出一个新的解题思路，不是最好的，但也是一种方法。
+// 看了下各位大神的解题思路，感觉都很棒，这里提出一个新的解题思路，不是最好的，但也是一种方法。
 
-先根据滑动窗口思想，找出连续X个能惹生气的最大客户数量的数组下标，然后再替换原有的grumpy数组，改1为0，最后再输出
+// 先根据滑动窗口思想，找出连续X个能惹生气的最大客户数量的数组下标，然后再替换原有的grumpy数组，改1为0，最后再输出
 
-![image.png](https://pic.leetcode-cn.com/6f830bca3e7492bd02bd51427087f864cdcaf494a2590901d9cb490a45e68b0e-image.png)
+// ![image.png](https://pic.leetcode-cn.com/6f830bca3e7492bd02bd51427087f864cdcaf494a2590901d9cb490a45e68b0e-image.png)
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -64,4 +64,4 @@ class Solution {
         return $well_customer_num;
     }
 }
-```
+// ```

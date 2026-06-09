@@ -1,4 +1,4 @@
-```
+// ```
 class RandomizedCollection {
 public:
     unordered_multiset<int> s;
@@ -42,4 +42,4 @@ public:
         return *it;
     }
 };
-```
+// ```

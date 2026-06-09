@@ -1,4 +1,4 @@
-```go
+// ```go
 func merge(nums1 []int, m int, nums2 []int, n int)  {
 	index := len(nums1) - m - n
 
@@ -21,4 +21,4 @@ func merge(nums1 []int, m int, nums2 []int, n int)  {
 }
 
 
-```
+// ```

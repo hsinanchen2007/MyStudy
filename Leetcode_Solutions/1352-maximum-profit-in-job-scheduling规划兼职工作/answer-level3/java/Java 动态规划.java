@@ -1,14 +1,14 @@
-### 解题思路
-序列型dp
-**dp[i]表示到第i个所能赚到的最大金钱**
-**建立一个类保存工作的startTime,endTime,profit**
-根据endTime从小到大排序
-转移:
-**if(job[j].end<=job[i].start)    dp[i]=Math.max(dp[i],dp[j]+job[i].profit);
-没有的话,dp[i]=Math.max(dp[i-1],job[i].profit);  第i个选择第i-1个的状态或选择自己单独一个**
-### 代码
+// ### 解题思路
+// 序列型dp
+// **dp[i]表示到第i个所能赚到的最大金钱**
+// **建立一个类保存工作的startTime,endTime,profit**
+// 根据endTime从小到大排序
+// 转移:
+// **if(job[j].end<=job[i].start)    dp[i]=Math.max(dp[i],dp[j]+job[i].profit);
+// 没有的话,dp[i]=Math.max(dp[i-1],job[i].profit);  第i个选择第i-1个的状态或选择自己单独一个**
+// ### 代码
 
-```java
+// ```java
 class jobs{
     int start,end,profit;
     jobs(int s,int e,int p){
@@ -38,4 +38,4 @@ class Solution {
         return dp[n-1];
     }
 }
-```
+// ```

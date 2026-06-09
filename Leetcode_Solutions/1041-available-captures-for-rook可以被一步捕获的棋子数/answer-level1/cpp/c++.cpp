@@ -1,9 +1,9 @@
-### 解题思路
-从rook起始位置开始，向上、下、左、右四个方向前进。
+// ### 解题思路
+// 从rook起始位置开始，向上、下、左、右四个方向前进。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
   int numRookCaptures(vector<vector<char>>& board) {
@@ -59,4 +59,4 @@ private:
   vector<vector<char>> board_;
   vector<int> start_position_;
 };
-```
+// ```

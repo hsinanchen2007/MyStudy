@@ -1,10 +1,10 @@
-### 解题思路
-用两条链表，一条放值小于 val 的节点，一条放值大于等于 val 的节点
-最后合并两条链表
+// ### 解题思路
+// 用两条链表，一条放值小于 val 的节点，一条放值大于等于 val 的节点
+// 最后合并两条链表
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -35,8 +35,8 @@ var partition = function(head, x) {
     left.next = dumpy2.next;
     return dumpy1.next;
 };
-```
+// ```
 
-### 复杂度
-- 时间复杂度 O(N)
-- 空间复杂度 O(1)
+// ### 复杂度
+// - 时间复杂度 O(N)
+// - 空间复杂度 O(1)

@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) 
@@ -23,4 +23,4 @@ public:
         return res;
     }
 };
-```
+// ```

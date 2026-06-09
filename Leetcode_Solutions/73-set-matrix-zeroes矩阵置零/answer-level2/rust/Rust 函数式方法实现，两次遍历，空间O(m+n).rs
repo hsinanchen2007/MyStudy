@@ -1,4 +1,4 @@
-```rust
+// ```rust
 use std::collections::HashSet;
 impl Solution {
     pub fn set_zeroes(matrix: &mut Vec<Vec<i32>>) {
@@ -33,4 +33,4 @@ impl Solution {
                             matrix[i][j]=0));
     }
 }
-```
+// ```

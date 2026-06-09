@@ -1,6 +1,6 @@
-alpha-beta剪枝 强行过。。
+// alpha-beta剪枝 强行过。。
 
-```
+// ```
 class Solution {
 public:
     int arr[101],sum[110],n;
@@ -30,4 +30,4 @@ public:
         return work(true,0,1,0,-99999999,99999999);
     }
 };
-```
+// ```

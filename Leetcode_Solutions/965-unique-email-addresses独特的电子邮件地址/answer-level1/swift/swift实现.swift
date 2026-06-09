@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     func numUniqueEmails(_ emails: [String]) -> Int {
         var result:Set<String> = Set<String>()
@@ -21,4 +21,4 @@ class Solution {
         return result.count
     }
 }
-```
+// ```

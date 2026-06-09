@@ -1,4 +1,4 @@
-```scala
+// ```scala
 import scala.collection.mutable
 
 object Solution {
@@ -35,4 +35,4 @@ object Solution {
     if (res.x == 0) res.next else res
   }
 }
-```
+// ```

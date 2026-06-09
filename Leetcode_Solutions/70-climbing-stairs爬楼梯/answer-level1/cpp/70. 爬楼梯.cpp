@@ -1,7 +1,7 @@
-斐波那契数列求解题
+// 斐波那契数列求解题
 
-代码：
-```
+// 代码：
+// ```
 class Solution {
 public:
     int climbStairs(int n) {
@@ -16,4 +16,4 @@ public:
         return res;
     }
 };
-```
+// ```

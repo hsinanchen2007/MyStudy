@@ -1,11 +1,11 @@
-### 解题思路
-- 求出第1个点与第2个点之间的斜率
-- 求第3....n个点与第一个点之间的斜率
-- 为了消除分母为零的影响，该为乘积方式，乘积不为0，返回false
+// ### 解题思路
+// - 求出第1个点与第2个点之间的斜率
+// - 求第3....n个点与第一个点之间的斜率
+// - 为了消除分母为零的影响，该为乘积方式，乘积不为0，返回false
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean checkStraightLine(int[][] coordinates) {
          int x1 =coordinates[1][0]-coordinates[0][0];
@@ -20,4 +20,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

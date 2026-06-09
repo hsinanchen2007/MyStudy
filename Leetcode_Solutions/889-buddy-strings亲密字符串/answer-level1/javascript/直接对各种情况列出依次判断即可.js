@@ -1,5 +1,5 @@
-> 68ms,36.1M。
-```javascript []
+// > 68ms,36.1M。
+// ```javascript []
 /**
  * @param {string} A
  * @param {string} B
@@ -22,4 +22,4 @@ var buddyStrings = function(A, B) {
   }
   return true;
 };
-```
+// ```

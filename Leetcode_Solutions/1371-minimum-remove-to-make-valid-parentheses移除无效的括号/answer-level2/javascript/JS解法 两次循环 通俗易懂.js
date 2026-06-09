@@ -1,7 +1,7 @@
 
-![image.png](https://pic.leetcode-cn.com/6810b059f26b7847f100f97a646788603668b2219ea2b9b0886e7df7c18f2339-image.png)
+// ![image.png](https://pic.leetcode-cn.com/6810b059f26b7847f100f97a646788603668b2219ea2b9b0886e7df7c18f2339-image.png)
 
-```
+// ```
 /**
  * @param {string} s
  * @return {string}
@@ -41,4 +41,4 @@ var minRemoveToMakeValid = function(s) {
     }
     return r;
 };
-```
+// ```

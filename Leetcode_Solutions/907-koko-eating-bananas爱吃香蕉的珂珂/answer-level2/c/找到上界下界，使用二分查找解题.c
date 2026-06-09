@@ -1,9 +1,9 @@
-### 解题思路
-根据H和堆数，找到速度的上下界，然后使用二分查找求左边界的模板来解题。
+// ### 解题思路
+// 根据H和堆数，找到速度的上下界，然后使用二分查找求左边界的模板来解题。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int hours(int* piles, int pilesSize, int speed)
 {
     int res = 0;
@@ -49,4 +49,4 @@ int minEatingSpeed(int* piles, int pilesSize, int H){
     }
     return min_speed;
 }
-```
+// ```

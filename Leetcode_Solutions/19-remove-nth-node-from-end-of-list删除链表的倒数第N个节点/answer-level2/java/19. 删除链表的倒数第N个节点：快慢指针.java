@@ -1,15 +1,15 @@
-### 解题思路
-可以用双指针解决：
-    1. 定义一个ListNode：pre，pre.next=head，只是为了记录头节点的位置，因为可能被删除的是头节点
-    2. 定义两个指针start,end，都指向pre;
-    3. 先把start向前移动n个节点
-    4. 然后同时移动start和end，当start.next==null时，结束循环，此时end.next就是我们要删除的节点
-    5. 直接把end.next=end.next.next，删除倒数第N个节点
-    6. 最后返回pre.next
+// ### 解题思路
+// 可以用双指针解决：
+//     1. 定义一个ListNode：pre，pre.next=head，只是为了记录头节点的位置，因为可能被删除的是头节点
+//     2. 定义两个指针start,end，都指向pre;
+//     3. 先把start向前移动n个节点
+//     4. 然后同时移动start和end，当start.next==null时，结束循环，此时end.next就是我们要删除的节点
+//     5. 直接把end.next=end.next.next，删除倒数第N个节点
+//     6. 最后返回pre.next
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -36,4 +36,4 @@ class Solution {
         return pre.next;
     }
 }
-```
+// ```

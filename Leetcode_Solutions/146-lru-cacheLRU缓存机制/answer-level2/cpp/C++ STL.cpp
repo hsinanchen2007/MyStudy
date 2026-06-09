@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class LRUCache {
 public:
     LRUCache(int capacity) {
@@ -40,4 +40,4 @@ private:
  * int param_1 = obj->get(key);
  * obj->put(key,value);
  */
-```
+// ```

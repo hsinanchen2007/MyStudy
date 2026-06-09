@@ -1,9 +1,9 @@
-### 解题思路
-滑动窗口：保证窗口中一直最多只有三个0
+// ### 解题思路
+// 滑动窗口：保证窗口中一直最多只有三个0
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} A
  * @param {number} K
@@ -28,4 +28,4 @@ var longestOnes = function(A, K) {
     }
     return max;
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-见代码
+// ### 解题思路
+// 见代码
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
     /**
      * @param Integer[] $arr
@@ -53,4 +53,4 @@ class Solution {
         return $low;
     }
 }
-```
+// ```

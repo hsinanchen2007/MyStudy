@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def canReach(self, arr: List[int], start: int) -> bool:
         # arr.length <= 5 * 10 ** 4
@@ -18,4 +18,4 @@ class Solution:
             if i + tmp <= len(arr) - 1: dfs(i + tmp)
         dfs(start)
         return res
-```
+# ```

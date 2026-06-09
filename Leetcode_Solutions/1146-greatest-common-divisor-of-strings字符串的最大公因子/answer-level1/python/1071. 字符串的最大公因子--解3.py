@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import math
 class Solution:
     def gcdOfStrings(self, str1: str, str2: str) -> str:
@@ -12,4 +12,4 @@ class Solution:
         if str1+str2 == str2+str1:
             return strc
         return ''
-```
+# ```

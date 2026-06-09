@@ -1,6 +1,6 @@
-![B7A2E8F5-6240-42FB-9298-9F0D1EE32295.jpeg](https://pic.leetcode-cn.com/f04d6c999db87901a7948dce702bd0b677f7c839c7f9da1a8bbfd10a5cdf6d1a-B7A2E8F5-6240-42FB-9298-9F0D1EE32295.jpeg)
+// ![B7A2E8F5-6240-42FB-9298-9F0D1EE32295.jpeg](https://pic.leetcode-cn.com/f04d6c999db87901a7948dce702bd0b677f7c839c7f9da1a8bbfd10a5cdf6d1a-B7A2E8F5-6240-42FB-9298-9F0D1EE32295.jpeg)
 
-```
+// ```
 typedef struct {
     char c;
     struct ListNode *next;
@@ -99,4 +99,4 @@ bool isValid(char * s)
     }
     return true;
 }
-```
+// ```

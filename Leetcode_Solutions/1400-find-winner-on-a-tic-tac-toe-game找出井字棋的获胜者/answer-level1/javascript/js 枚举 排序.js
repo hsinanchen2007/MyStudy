@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number[][]} moves
  * @return {string}
@@ -54,4 +54,4 @@ var movesToString = function(item){
             return dy===0?'7':(dy===1?'8':'9')
         }
 }
-```
+// ```

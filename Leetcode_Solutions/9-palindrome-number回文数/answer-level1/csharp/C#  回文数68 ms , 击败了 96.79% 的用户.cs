@@ -1,9 +1,9 @@
-### 解题思路
-利用计算
+// ### 解题思路
+// 利用计算
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public bool IsPalindrome(int x) {
         if(x < 0 || (x % 10 == 0 && x != 0))
@@ -19,4 +19,4 @@ public class Solution {
         return x == mark || x == mark / 10;
     }
 }
-```
+// ```

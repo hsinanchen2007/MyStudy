@@ -1,16 +1,16 @@
-[401. Binary Watch的题解与此一样](https://leetcode-cn.com/problems/binary-watch/solution/di-gui-hui-su-tong-fa-c-by-jiangtianyu007/)
+// [401. Binary Watch的题解与此一样](https://leetcode-cn.com/problems/binary-watch/solution/di-gui-hui-su-tong-fa-c-by-jiangtianyu007/)
 
-写回溯的时候需要回到这四个问题：
+// 写回溯的时候需要回到这四个问题：
 
-问题1：什么时候回溯：1. 当试探失败的时候，需要回溯到前一步。 2. 当获得解的时候，需要回溯到前一步继续进行可能的试探。
+// 问题1：什么时候回溯：1. 当试探失败的时候，需要回溯到前一步。 2. 当获得解的时候，需要回溯到前一步继续进行可能的试探。
 
-问题2：什么时候试探：不需要回溯的时候。
+// 问题2：什么时候试探：不需要回溯的时候。
 
-问题3：什么时候得到解：试探成功时，并且path中的数量等于n。
+// 问题3：什么时候得到解：试探成功时，并且path中的数量等于n。
 
-问题4：什么时候退出遍历：不断的回溯，直到最初的值被弹出，且还是试探失败。
+// 问题4：什么时候退出遍历：不断的回溯，直到最初的值被弹出，且还是试探失败。
 
-```
+// ```
 #include <vector>
 #include <stack>
 #include <string>
@@ -128,5 +128,5 @@ public:
         solvers.push_back(solver);
     }
 };
-```
+// ```
 

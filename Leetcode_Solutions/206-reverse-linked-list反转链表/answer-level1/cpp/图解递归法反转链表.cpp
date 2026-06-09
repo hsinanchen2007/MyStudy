@@ -1,7 +1,7 @@
-* reverseList函数返回值为反转后的链表头部，即链表的最后一个节点
-* 想象各节点的位置不变，每层的步骤只是反转一次当前节点 'head'和他的下一个节点'head->next'的指针方向而已。
-![IMG_20200401_105705.jpg](https://pic.leetcode-cn.com/1f0f9241a9b4bdddf352c353b3b3865f7f63ff958caa5933f851d663e4d101de-IMG_20200401_105705.jpg)
-```cpp
+// * reverseList函数返回值为反转后的链表头部，即链表的最后一个节点
+// * 想象各节点的位置不变，每层的步骤只是反转一次当前节点 'head'和他的下一个节点'head->next'的指针方向而已。
+// ![IMG_20200401_105705.jpg](https://pic.leetcode-cn.com/1f0f9241a9b4bdddf352c353b3b3865f7f63ff958caa5933f851d663e4d101de-IMG_20200401_105705.jpg)
+// ```cpp
 
 class Solution {
 public:
@@ -20,4 +20,4 @@ public:
         return newHead;
     }
 };
-```
+// ```

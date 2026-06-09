@@ -1,9 +1,9 @@
-### 解题思路
-首先遍历链表，然后将遍历的结果放到vector中，最后将vector反转。
+// ### 解题思路
+// 首先遍历链表，然后将遍历的结果放到vector中，最后将vector反转。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -37,13 +37,13 @@ public:
         return link2Vec;
     }
 };
-```
-### 解题思路
-通过辅助栈
+// ```
+// ### 解题思路
+// 通过辅助栈
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -72,4 +72,4 @@ public:
         return link2Vec;
     }
 };
-```
+// ```

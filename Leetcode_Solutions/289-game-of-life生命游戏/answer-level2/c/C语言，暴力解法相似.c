@@ -1,12 +1,12 @@
-### 解题思路
-思路就是在原数组上操作，状态变化了就使用其他数字标记一下就好了。对于每个下标只循环指定的次数即可，算出循环的最大值和最小值就ok； 
+// ### 解题思路
+// 思路就是在原数组上操作，状态变化了就使用其他数字标记一下就好了。对于每个下标只循环指定的次数即可，算出循环的最大值和最小值就ok； 
 
-![image.png](https://pic.leetcode-cn.com/0c21fd1adf9c483bd6679514a868275dd19cd5b44fade5bbde1b15c1563ffe26-image.png)
+// ![image.png](https://pic.leetcode-cn.com/0c21fd1adf9c483bd6679514a868275dd19cd5b44fade5bbde1b15c1563ffe26-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define DEAD_TO_LIVE 2
 #define LIVE_TO_DEAD 4
 
@@ -93,4 +93,4 @@ void gameOfLife(int** board, int boardSize, int* boardColSize){
     return 0;
 
 }
-```
+// ```

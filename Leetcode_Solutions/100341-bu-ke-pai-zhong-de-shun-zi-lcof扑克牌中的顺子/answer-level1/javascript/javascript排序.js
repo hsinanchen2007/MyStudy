@@ -1,4 +1,4 @@
-```
+// ```
 var isStraight = function(nums) {
     let arr = nums.sort((a, b) => a - b)
     let zeroN = nums.lastIndexOf(0) + 1
@@ -16,4 +16,4 @@ var isStraight = function(nums) {
     }
     return true;
 };
-```
+// ```

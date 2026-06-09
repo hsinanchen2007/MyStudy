@@ -1,9 +1,9 @@
-### 解题思路
-固定滑动窗口
+// ### 解题思路
+// 固定滑动窗口
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int dietPlanPerformance(int* calories, int caloriesSize, int k, int lower, int upper){
     int score = 0;
     int sum = 0;
@@ -27,4 +27,4 @@ int dietPlanPerformance(int* calories, int caloriesSize, int k, int lower, int u
     }
     return score;
 }
-```
+// ```

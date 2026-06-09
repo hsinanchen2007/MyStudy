@@ -1,9 +1,9 @@
-### 解题思路
-> 依次处理 空格， +-符号位， 溢出判定 等
+# ### 解题思路
+# > 依次处理 空格， +-符号位， 溢出判定 等
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 
 class Solution:
     def myAtoi(self, s: str) -> int:
@@ -37,10 +37,10 @@ class Solution:
         return -num if neg else num
 
 
-```
+# ```
 
-### time
-```
+# ### time
+# ```
 执行用时 :52 ms, 在所有 Python3 提交中击败了27.31%的用户
 内存消耗 :13.7 MB, 在所有 Python3 提交中击败了5.02%的用户
-```
+# ```

@@ -1,5 +1,5 @@
-如果想要回文的话，必须只有一个字母的数量为奇数，如果多个字母为奇数就不可能是回文排列，使用哈希表来存储和判断。
-```java
+// 如果想要回文的话，必须只有一个字母的数量为奇数，如果多个字母为奇数就不可能是回文排列，使用哈希表来存储和判断。
+// ```java
 class Solution {
     public boolean canPermutePalindrome(String s) {
          int times=0;
@@ -20,4 +20,4 @@ class Solution {
     }
    
 }
-```
+// ```

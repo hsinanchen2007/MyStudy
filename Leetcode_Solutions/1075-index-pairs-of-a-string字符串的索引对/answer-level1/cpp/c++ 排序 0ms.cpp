@@ -1,10 +1,10 @@
-![image.png](https://pic.leetcode-cn.com/07d6bfb00f6ede93a34341fecf3408caea9af20debfd0a29244b8745a0e930f1-image.png)
+// ![image.png](https://pic.leetcode-cn.com/07d6bfb00f6ede93a34341fecf3408caea9af20debfd0a29244b8745a0e930f1-image.png)
 
-思路：
-1.遍历words，把find到的所有结果放入结果
-2.排序，over
+// 思路：
+// 1.遍历words，把find到的所有结果放入结果
+// 2.排序，over
 
-```
+// ```
 class Solution {
 public:
     vector<vector<int>> indexPairs(string text, vector<string>& words) {
@@ -20,4 +20,4 @@ public:
         return result;
     }
 };
-```
+// ```

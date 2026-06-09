@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -41,6 +41,6 @@ public:
         return res;
     }
 };
-```
-> 执行用时 : 4 ms, 在Minimum Distance Between BST Nodes的C++提交中击败了97.57% 的用户  
- 80 内存消耗 : 11.4 MB, 在Minimum Distance Between BST Nodes的C++提交中击败了50.42% 的用户
+// ```
+// > 执行用时 : 4 ms, 在Minimum Distance Between BST Nodes的C++提交中击败了97.57% 的用户  
+//  80 内存消耗 : 11.4 MB, 在Minimum Distance Between BST Nodes的C++提交中击败了50.42% 的用户

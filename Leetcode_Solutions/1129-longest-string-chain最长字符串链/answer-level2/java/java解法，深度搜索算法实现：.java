@@ -1,10 +1,10 @@
-java解法，深度搜索算法实现：
+// java解法，深度搜索算法实现：
 
-执行用时 :12 ms, 在所有 java 提交中击败了99.50%的用户
-内存消耗 :38.2 MB, 在所有 java 提交中击败了100.00%的用户
+// 执行用时 :12 ms, 在所有 java 提交中击败了99.50%的用户
+// 内存消耗 :38.2 MB, 在所有 java 提交中击败了100.00%的用户
 
 
-```
+// ```
 class Solution {
     private int Max = 1;
     public int longestStrChain(String[] words) {
@@ -70,6 +70,6 @@ class Solution {
         return i == len;
     }
 }
-```
+// ```
 
 

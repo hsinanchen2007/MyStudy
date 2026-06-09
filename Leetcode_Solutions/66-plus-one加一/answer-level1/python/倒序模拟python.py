@@ -1,9 +1,9 @@
-### 思路
-> 更多LeetCode题解以及面试经验 [Mereder](https://mereder.github.io)
+# ### 思路
+# > 更多LeetCode题解以及面试经验 [Mereder](https://mereder.github.io)
 
-模拟实现过程，并且注意特殊情况，既然是从低位开始+1，则遍历数组需要从后向前。
+# 模拟实现过程，并且注意特殊情况，既然是从低位开始+1，则遍历数组需要从后向前。
 
-```python
+# ```python
 class Solution:
     def plusOne(self, digits: List[int]) -> List[int]:
         if not digits:
@@ -29,4 +29,4 @@ class Solution:
             return [1]+digits
         else:
             return digits
-```
+# ```

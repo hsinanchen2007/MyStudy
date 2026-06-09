@@ -1,9 +1,9 @@
-### 解题思路
-Go,Go,Go
+// ### 解题思路
+// Go,Go,Go
 
-### 代码
-### 普通BFS，超时，呜呜
-```golang
+// ### 代码
+// ### 普通BFS，超时，呜呜
+// ```golang
 func ladderLength1(beginWord string, endWord string, wordList []string) int {
     queue := []string{beginWord}
     var step int 
@@ -31,9 +31,9 @@ func ladderLength1(beginWord string, endWord string, wordList []string) int {
     }
     return 0
 }
-```
-### 双端BFS，也不过如此，嘻嘻
-```golang
+// ```
+// ### 双端BFS，也不过如此，嘻嘻
+// ```golang
 func ladderLength(beginWord string, endWord string, wordList []string) int {
     //判断边界
     var flag bool
@@ -92,4 +92,4 @@ func compare(str1,str2 string) bool{
     return count==1
 }
 
-```
+// ```

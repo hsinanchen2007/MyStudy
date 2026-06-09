@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/26d4079f99479af3583c46c3183615a448006f9b66b4c1b6291deb5ae6ddc951-image.png)
+# ![image.png](https://pic.leetcode-cn.com/26d4079f99479af3583c46c3183615a448006f9b66b4c1b6291deb5ae6ddc951-image.png)
 
-```
+# ```
 class Solution(object):
     def isAnagram(self, s, t):
         """
@@ -25,4 +25,4 @@ class Solution(object):
             else:
                 return False
         return sdic == {}
-```
+# ```

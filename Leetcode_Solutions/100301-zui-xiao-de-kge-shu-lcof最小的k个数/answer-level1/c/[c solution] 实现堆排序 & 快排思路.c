@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-1. 快排思路
-2. 最大堆思路
+// 1. 快排思路
+// 2. 最大堆思路
 
 
-#### 快排思路
+// #### 快排思路
 
-```c
+// ```c
 
 
 /**
@@ -71,13 +71,13 @@ int* getLeastNumbers(int* arr, int arrSize, int k, int* returnSize){
 }
 
 
-```
+// ```
 
 
-#### 堆排序
+// #### 堆排序
 
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -123,4 +123,4 @@ int* getLeastNumbers(int* arr, int arrSize, int k, int* returnSize){
     }
     return arr;
 }
-```
+// ```

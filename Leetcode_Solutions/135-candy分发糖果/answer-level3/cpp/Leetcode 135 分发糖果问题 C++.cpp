@@ -1,11 +1,11 @@
-### 解题思路
-我印象里以前见过这个题，稀里糊涂就写出来了。。。。。。。。。。。
-时间复杂度 O(2N) == O(N)
-空间复杂度O(N)
+// ### 解题思路
+// 我印象里以前见过这个题，稀里糊涂就写出来了。。。。。。。。。。。
+// 时间复杂度 O(2N) == O(N)
+// 空间复杂度O(N)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int candy(vector<int>& ratings) {
@@ -40,4 +40,4 @@ public:
         return std::accumulate(result.begin(), result.end(), 0);
     }
 };
-```
+// ```

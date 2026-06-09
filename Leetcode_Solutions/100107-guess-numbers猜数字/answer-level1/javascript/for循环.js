@@ -1,9 +1,9 @@
-### 解题思路
-for循环对比guess和answer数组的第一项，相等就是猜对
+// ### 解题思路
+// for循环对比guess和answer数组的第一项，相等就是猜对
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} guess
  * @param {number[]} answer
@@ -16,4 +16,4 @@ var game = function(guess, answer) {
     }
     return count
 };
-```
+// ```

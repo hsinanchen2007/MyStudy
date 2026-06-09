@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {number}
@@ -21,5 +21,5 @@ var firstUniqChar = function(s) {
     }
     return -1
 };
-```
-欢迎star: ()[https://github.com/OhIAmFine]
+// ```
+// 欢迎star: ()[https://github.com/OhIAmFine]

@@ -1,4 +1,4 @@
-``` javascript
+// ``` javascript
 /*
  * @lc app=leetcode.cn id=633 lang=javascript
  *
@@ -28,4 +28,4 @@ var judgeSquareSum = function(c) {
 //   ✔ Your runtime beats 99.29 % of javascript submissions
 //   ✔ Your memory usage beats 20.69 % of javascript submissions (34.8 MB)
 
-```
+// ```

@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class Solution {
 public:
     void calc_tree_sum(TreeNode * node, int sum, int cur_sum, int & sum_num)
@@ -27,4 +27,4 @@ public:
         return sum_num;
     }
 };
-```
+// ```

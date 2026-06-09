@@ -1,5 +1,5 @@
 
-```
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -30,5 +30,5 @@ void flatten(struct TreeNode* root)
 
     return;
 }
-```
+// ```
 

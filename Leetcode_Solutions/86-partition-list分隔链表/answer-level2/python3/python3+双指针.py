@@ -1,6 +1,6 @@
-使用快慢指针法即可
-![UC截图20191204202236.png](https://pic.leetcode-cn.com/2a376c80e6013547a33db705f90cc406fcda37d1a442cb150228bd6ac6d6f5bb-UC%E6%88%AA%E5%9B%BE20191204202236.png)
-```
+# 使用快慢指针法即可
+# ![UC截图20191204202236.png](https://pic.leetcode-cn.com/2a376c80e6013547a33db705f90cc406fcda37d1a442cb150228bd6ac6d6f5bb-UC%E6%88%AA%E5%9B%BE20191204202236.png)
+# ```
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -31,4 +31,4 @@ class Solution:
                 fast = fast.next
         return dummy.next    
         
-```
+# ```

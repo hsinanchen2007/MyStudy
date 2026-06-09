@@ -1,9 +1,9 @@
-### 解题思路
-O(n^2)思路
+// ### 解题思路
+// O(n^2)思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 const int maxn = 10000+5;
 class Solution {
 private:
@@ -26,4 +26,4 @@ public:
         return sum;
     }
 };
-```
+// ```

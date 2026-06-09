@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-c才是世界上最好的语言！只用c解题
+// c才是世界上最好的语言！只用c解题
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -39,4 +39,4 @@ int* searchRange(int* nums, int numsSize, int target, int* returnSize){
     return ret;
 
 }
-```
+// ```

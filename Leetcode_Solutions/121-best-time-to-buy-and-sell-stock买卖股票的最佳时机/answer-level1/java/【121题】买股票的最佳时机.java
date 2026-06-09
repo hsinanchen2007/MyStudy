@@ -1,5 +1,5 @@
-**方法一：暴力法**
-```
+// **方法一：暴力法**
+// ```
 class Solution {
     /**
     * 思路：
@@ -17,10 +17,10 @@ class Solution {
         return cur;
     }
 }
-```
+// ```
 
-**方法二：一次遍历**
-```
+// **方法二：一次遍历**
+// ```
 class Solution {
     /**
     * 思路：
@@ -41,4 +41,4 @@ class Solution {
         return cur;
     }
 }
-```
+// ```

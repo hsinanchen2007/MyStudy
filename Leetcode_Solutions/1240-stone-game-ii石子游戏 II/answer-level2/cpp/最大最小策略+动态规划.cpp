@@ -1,9 +1,9 @@
-### 解题思路
-思路用注释标出，请看代码。dp_alex[M][start]表示对某个M，alex在piles的vector中从start开始到piles的结束所取得的最大值，dp_lee[M][start]表示对某个M，alex在piles的vector中从start开始到piles的结束所取得的最小值。
+// ### 解题思路
+// 思路用注释标出，请看代码。dp_alex[M][start]表示对某个M，alex在piles的vector中从start开始到piles的结束所取得的最大值，dp_lee[M][start]表示对某个M，alex在piles的vector中从start开始到piles的结束所取得的最小值。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 int catchStones(vector<int>&piles, int start, int**dp_alex, int**dp_lee,bool alexTurn,int M,int*sumOfPre,int numOfpile)
@@ -99,4 +99,4 @@ int catchStones(vector<int>&piles, int start, int**dp_alex, int**dp_lee,bool ale
 	return re;
     }
 };
-```
+// ```

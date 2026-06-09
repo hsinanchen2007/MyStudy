@@ -1,15 +1,15 @@
-### 解题思路
-1.对于本题中的数据，先建立两个HashMap,分别储存id->employee键值对和id->isVisited键值对（用于标记是否访问过）
-2.以参数id为入口，开始BFS
-3.对于每一个搜索到的员工，做以下操作：
-    - 标记为已访问
-    - result加上员工本身的importance
-    - 遍历他的属下，若没访问过，则bfs搜索该员工,result加上返回值
-    - 返回result
-4.调用bfs(id)
-### 代码
+// ### 解题思路
+// 1.对于本题中的数据，先建立两个HashMap,分别储存id->employee键值对和id->isVisited键值对（用于标记是否访问过）
+// 2.以参数id为入口，开始BFS
+// 3.对于每一个搜索到的员工，做以下操作：
+//     - 标记为已访问
+//     - result加上员工本身的importance
+//     - 遍历他的属下，若没访问过，则bfs搜索该员工,result加上返回值
+//     - 返回result
+// 4.调用bfs(id)
+// ### 代码
 
-```java
+// ```java
 /*
 // Employee info
 class Employee {
@@ -48,4 +48,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

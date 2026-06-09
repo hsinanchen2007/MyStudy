@@ -1,12 +1,12 @@
-![l.png](https://pic.leetcode-cn.com/369ec5deccc151aa26b1aef55b1b6140414c2ac2c5fde05ef97d50151abc2fa7-l.png)
+// ![l.png](https://pic.leetcode-cn.com/369ec5deccc151aa26b1aef55b1b6140414c2ac2c5fde05ef97d50151abc2fa7-l.png)
 
 
-### 解题思路
-如果能等分，数组的所有元素和肯定能被3整除。所以在所有元素和能被3整除这个前提下，我们从数组左右两端分别找到使左右两边的子数组都等于等分和的索引位置。此时如果左右索引中间还有剩余元素，说明中间剩余元素的和也是等分和。
+// ### 解题思路
+// 如果能等分，数组的所有元素和肯定能被3整除。所以在所有元素和能被3整除这个前提下，我们从数组左右两端分别找到使左右两边的子数组都等于等分和的索引位置。此时如果左右索引中间还有剩余元素，说明中间剩余元素的和也是等分和。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canThreePartsEqualSum(int[] A) {
         int len=A.length;
@@ -35,4 +35,4 @@ class Solution {
         return left<=right;
     }
 }
-```
+// ```

@@ -1,16 +1,16 @@
-### 解题思路
-1.漏写了判断条件 -> 
-2.题目看错 -> 
-3.初始化错误——list[i][0]从上到下错误 -> 
-4.初始化错误——list[i][0]从下到上错误 -> 
-5.初始化错误——从上到下正确，但list[p.length()][0]忘记判断 -> 
-6.执行错误——当p为空串时不可对p.charAt(p.length()-1)判断 ->
-7.正确 -> 
-8.提交
+// ### 解题思路
+// 1.漏写了判断条件 -> 
+// 2.题目看错 -> 
+// 3.初始化错误——list[i][0]从上到下错误 -> 
+// 4.初始化错误——list[i][0]从下到上错误 -> 
+// 5.初始化错误——从上到下正确，但list[p.length()][0]忘记判断 -> 
+// 6.执行错误——当p为空串时不可对p.charAt(p.length()-1)判断 ->
+// 7.正确 -> 
+// 8.提交
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isMatch(String s, String p) {
         boolean[][] list = new boolean[p.length()+1][s.length()+1];
@@ -65,4 +65,4 @@ class Solution {
         return list[p.length()][s.length()];
     }
 }
-```
+// ```

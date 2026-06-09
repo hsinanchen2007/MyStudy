@@ -1,9 +1,9 @@
-### 解题思路
-使用Stringbuilder处理动态字符串，可以提高速度。
+// ### 解题思路
+// 使用Stringbuilder处理动态字符串，可以提高速度。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String replaceSpace(String s) {
         char[] str = s.toCharArray();
@@ -17,4 +17,4 @@ class Solution {
         return ans.toString();
     }
 }
-```
+// ```

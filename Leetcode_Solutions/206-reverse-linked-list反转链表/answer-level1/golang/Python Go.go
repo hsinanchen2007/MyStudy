@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-存储顺序的三个指针，当前为`cur`，前一个为`pre`，后一个为`tmp`，
-从头遍历链表，每次置`cur.Next = pre`，并将三个指针向后顺移一位
+// 存储顺序的三个指针，当前为`cur`，前一个为`pre`，后一个为`tmp`，
+// 从头遍历链表，每次置`cur.Next = pre`，并将三个指针向后顺移一位
 
-### 代码
-```python3
+// ### 代码
+// ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -21,9 +21,9 @@ class Solution:
             pre = cur
             cur = tmp
         return pre
-```
+// ```
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -42,4 +42,4 @@ func reverseList(head *ListNode) *ListNode {
     }
     return pre
 }
-```
+// ```

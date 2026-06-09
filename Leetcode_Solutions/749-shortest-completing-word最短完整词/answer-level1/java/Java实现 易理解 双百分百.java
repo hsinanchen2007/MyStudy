@@ -1,5 +1,5 @@
-主要思想是把字符映射到一个数组里面
-```
+// 主要思想是把字符映射到一个数组里面
+// ```
 class Solution {
     public String shortestCompletingWord(String licensePlate, String[] words) {
         int[] license = new int[26];
@@ -34,4 +34,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

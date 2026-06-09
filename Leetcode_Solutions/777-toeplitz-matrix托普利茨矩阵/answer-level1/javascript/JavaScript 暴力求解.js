@@ -1,10 +1,10 @@
-### 解题思路
-- 遍历全部元素
-- 判断每个元素与其左上角元素是否相同
+// ### 解题思路
+// - 遍历全部元素
+// - 判断每个元素与其左上角元素是否相同
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} matrix
  * @return {boolean}
@@ -22,4 +22,4 @@ var isToeplitzMatrix = function(matrix) {
     }
     return true
 };
-```
+// ```

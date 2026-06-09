@@ -1,11 +1,11 @@
-### 解题思路
-2种方法
-方法1:
-构建逆邻接表，实现深度优先遍历。
-检测这个有向图中有没有环，只要存在环，课程就不能完成。
-注意：这个深度优先遍历得通过逆邻接表实现，
-当访问一个结点的时候，应该递归访问它的前驱结点，直至前驱结点没有前驱结点为止。
-```
+# ### 解题思路
+# 2种方法
+# 方法1:
+# 构建逆邻接表，实现深度优先遍历。
+# 检测这个有向图中有没有环，只要存在环，课程就不能完成。
+# 注意：这个深度优先遍历得通过逆邻接表实现，
+# 当访问一个结点的时候，应该递归访问它的前驱结点，直至前驱结点没有前驱结点为止。
+# ```
 class Solution(object):
 
     def findOrder(self, numCourses, prerequisites):
@@ -68,122 +68,122 @@ class Solution(object):
         res.append(vertex)
         # 最后不要忘记返回 False 表示无环
         return False
-```
-### 代码
-方法2:
-拓扑排序。构建的邻接表就是我们通常认识的邻接表，每一个结点存放的是后继结点的集合。
-前提条件
-    clen = len(prerequisites)
-#         if clen == 0:
-#             # 没有课程，当然可以完成课程的学习
-#             return [i for i in range(numCourses)]   
+# ```
+# ### 代码
+# 方法2:
+# 拓扑排序。构建的邻接表就是我们通常认识的邻接表，每一个结点存放的是后继结点的集合。
+# 前提条件
+#     clen = len(prerequisites)
+# #         if clen == 0:
+# #             # 没有课程，当然可以完成课程的学习
+# #             return [i for i in range(numCourses)]   
    
- for item in prerequisites:
-#             # first->list(second)
-#             if item[1] in dic:
-#                 dic[item[1]].append(item[0])
-#             else:
-#                 dic[item[1]] = [item[0]]
+#  for item in prerequisites:
+# #             # first->list(second)
+# #             if item[1] in dic:
+# #                 dic[item[1]].append(item[0])
+# #             else:
+# #                 dic[item[1]] = [item[0]]
 
-#             indegree[item[0]] += 1
-```
+# #             indegree[item[0]] += 1
+# ```
         
 最后检查结果集中的顶点个数是否和课程数相同即可。
-```python3
-# class Solution:
-#     def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
+# ```python3
+# # class Solution:
+# #     def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
         
-#         clen = len(prerequisites)
-#         if clen == 0:
-#             # 没有课程，当然可以完成课程的学习
-#             return [i for i in range(numCourses)]        
+# #         clen = len(prerequisites)
+# #         if clen == 0:
+# #             # 没有课程，当然可以完成课程的学习
+# #             return [i for i in range(numCourses)]        
 
-#         indegree = [0]*numCourses
-#         dic = collections.defaultdict(list)
-#         res = []
+# #         indegree = [0]*numCourses
+# #         dic = collections.defaultdict(list)
+# #         res = []
 
-#         for item in prerequisites:
-#             # first->list(second)
-#             if item[1] in dic:
-#                 dic[item[1]].append(item[0])
-#             else:
-#                 dic[item[1]] = [item[0]]
+# #         for item in prerequisites:
+# #             # first->list(second)
+# #             if item[1] in dic:
+# #                 dic[item[1]].append(item[0])
+# #             else:
+# #                 dic[item[1]] = [item[0]]
 
-#             indegree[item[0]] += 1
+# #             indegree[item[0]] += 1
         
-#         queue = []
-#         # visited = [False] * numCourses
-#         total_cls = 0
-#         for i in indegree:
-#             if i == 0:
-#                 queue.append(i)
+# #         queue = []
+# #         # visited = [False] * numCourses
+# #         total_cls = 0
+# #         for i in indegree:
+# #             if i == 0:
+# #                 queue.append(i)
         
-#         while queue:
+# #         while queue:
 
-#             cur = queue.pop(0)
-#             total_cls += 1
-#             res.append(cur)
-#             sub_courses = dic[cur]
+# #             cur = queue.pop(0)
+# #             total_cls += 1
+# #             res.append(cur)
+# #             sub_courses = dic[cur]
 
-#             if not sub_courses:
-#                 continue
+# #             if not sub_courses:
+# #                 continue
 
-#             for i in sub_courses:
-#                 indegree[i] -= 1
-#                 if indegree[i] == 0:
-#                     queue.append(i)
-#                     # visited[i] = True
-#         print(res)
-#         return res if total_cls == numCourses else []
+# #             for i in sub_courses:
+# #                 indegree[i] -= 1
+# #                 if indegree[i] == 0:
+# #                     queue.append(i)
+# #                     # visited[i] = True
+# #         print(res)
+# #         return res if total_cls == numCourses else []
         
                     
                 
 
 
-class Solution:
-    def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
+# class Solution:
+#     def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
         
-        # 课程的长度
-        N = len(prerequisites)
-        if N == 0:
-            # 没有课程，当然可以完成课程的学习
-            return [i for i in range(numCourses)]
-        # 入度数组，一开始全部为 0
-        in_degrees = [0 for _ in range(numCourses)]
-        # 邻接表
-        adj = [set() for _ in range(numCourses)]
-        # 想要学习课程 0 ，你需要先完成课程 1 ，我们用一个匹配来表示他们: [0,1]
-        # 1 -> 0，这里要注意：不要弄反了
-        for second, first in prerequisites:
-            in_degrees[second] += 1
-            adj[first].add(second)
+#         # 课程的长度
+#         N = len(prerequisites)
+#         if N == 0:
+#             # 没有课程，当然可以完成课程的学习
+#             return [i for i in range(numCourses)]
+#         # 入度数组，一开始全部为 0
+#         in_degrees = [0 for _ in range(numCourses)]
+#         # 邻接表
+#         adj = [set() for _ in range(numCourses)]
+#         # 想要学习课程 0 ，你需要先完成课程 1 ，我们用一个匹配来表示他们: [0,1]
+#         # 1 -> 0，这里要注意：不要弄反了
+#         for second, first in prerequisites:
+#             in_degrees[second] += 1
+#             adj[first].add(second)
 
-        # print("in_degrees", in_degrees)
-        # 首先遍历一遍，把所有入度为 0 的结点加入队列
-        res = []
-        queue = []
-        for i in range(numCourses):
-            if in_degrees[i] == 0:
-                queue.append(i)
-        count = 0
-        while queue:
-            cur = queue.pop(0)
-            res.append(cur)
-            count = count + 1 
+#         # print("in_degrees", in_degrees)
+#         # 首先遍历一遍，把所有入度为 0 的结点加入队列
+#         res = []
+#         queue = []
+#         for i in range(numCourses):
+#             if in_degrees[i] == 0:
+#                 queue.append(i)
+#         count = 0
+#         while queue:
+#             cur = queue.pop(0)
+#             res.append(cur)
+#             count = count + 1 
 
-            for suc in adj[cur]:
-                in_degrees[suc] -= 1
-                if in_degrees[suc] == 0:
-                    queue.append(suc)
-        # if len(res) != numCourses:
-        #     return []
-        # return res
-        return res if count == numCourses else []
-
-
+#             for suc in adj[cur]:
+#                 in_degrees[suc] -= 1
+#                 if in_degrees[suc] == 0:
+#                     queue.append(suc)
+#         # if len(res) != numCourses:
+#         #     return []
+#         # return res
+#         return res if count == numCourses else []
 
 
 
 
 
-```
+
+
+# ```

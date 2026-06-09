@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 
     private interface Queue<E> {
@@ -399,4 +399,4 @@ class Solution {
     }
 
 }
-```
+// ```

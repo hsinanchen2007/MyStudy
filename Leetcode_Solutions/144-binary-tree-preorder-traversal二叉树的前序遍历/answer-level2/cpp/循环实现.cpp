@@ -1,11 +1,11 @@
-### 解题思路
-相对于递归效率较高
-![image.png](https://pic.leetcode-cn.com/b981a8a6a831024df28f873aa573ad151370d9ffc329ce9742979c23b1f03e2c-image.png)
+// ### 解题思路
+// 相对于递归效率较高
+// ![image.png](https://pic.leetcode-cn.com/b981a8a6a831024df28f873aa573ad151370d9ffc329ce9742979c23b1f03e2c-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -36,4 +36,4 @@ public:
     }
 
 };
-```
+// ```

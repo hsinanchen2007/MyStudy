@@ -1,5 +1,5 @@
-笨方法，开始没想到异或运算，直接进行字符串比较
-```
+// 笨方法，开始没想到异或运算，直接进行字符串比较
+// ```
 class Solution {
     public int hammingDistance(int x, int y) {
         String s1=Integer.toBinaryString(x);
@@ -27,4 +27,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

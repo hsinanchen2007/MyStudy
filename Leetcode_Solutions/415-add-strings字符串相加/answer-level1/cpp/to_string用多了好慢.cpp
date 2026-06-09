@@ -1,9 +1,9 @@
-### 解题思路
-每计算一位就存到字符串里
+// ### 解题思路
+// 每计算一位就存到字符串里
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string addStrings(string num1, string num2) {
@@ -35,4 +35,4 @@ public:
         return res;
     }
 };
-```
+// ```

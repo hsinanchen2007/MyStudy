@@ -1,8 +1,8 @@
-战胜91.3%
-思路:遍历每个节点开头的线段,用unordered_map记录每种长度的线段数量,每次增加一种长度的数量,若已经有等长线段,就增加2*(n-1)个回旋镖
-应该不是最优解
+// 战胜91.3%
+// 思路:遍历每个节点开头的线段,用unordered_map记录每种长度的线段数量,每次增加一种长度的数量,若已经有等长线段,就增加2*(n-1)个回旋镖
+// 应该不是最优解
 
-```
+// ```
 class Solution {
 public:
     int numberOfBoomerangs(vector<vector<int>>& points) {
@@ -23,4 +23,4 @@ public:
         return num;
     }
 };
-```
+// ```

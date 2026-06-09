@@ -1,9 +1,9 @@
-### 解题思路
-使用String拼接时会超时
+// ### 解题思路
+// 使用String拼接时会超时
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String replaceSpaces(String S, int length) {
         String substring = S.substring(0,length);
@@ -18,4 +18,4 @@ class Solution {
         return String.valueOf(replace);
     }
 }
-```
+// ```

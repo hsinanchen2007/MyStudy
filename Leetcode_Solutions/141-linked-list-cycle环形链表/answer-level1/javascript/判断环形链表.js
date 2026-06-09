@@ -1,5 +1,5 @@
-### 上一篇代码中有错误，抱歉！修改如下：
-```
+// ### 上一篇代码中有错误，抱歉！修改如下：
+// ```
 if (!head || !head.next) return false
   // 快慢指针
   let slow = head
@@ -11,4 +11,4 @@ if (!head || !head.next) return false
     if (quick === slow) return true
   }
   return false
-```
+// ```

@@ -1,7 +1,7 @@
-**中序遍历**，每个节点都跟前一个节点比较，如果前一个节点比当前节点大的话返回False，否则返回True。
+# **中序遍历**，每个节点都跟前一个节点比较，如果前一个节点比当前节点大的话返回False，否则返回True。
 
-代码实现
-```python
+# 代码实现
+# ```python
 class Solution(object):
     def isValidBST(self, root):
         """
@@ -20,4 +20,4 @@ class Solution(object):
             return False
         self.prev = root
         return self.helper(root.right)
-```
+# ```

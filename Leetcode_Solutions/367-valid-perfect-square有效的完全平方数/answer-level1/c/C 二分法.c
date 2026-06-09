@@ -1,9 +1,9 @@
-### 解题思路
-注意边界条件。
+// ### 解题思路
+// 注意边界条件。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isPerfectSquare(int num){
     printf("%d,%d,%d",sizeof(short),sizeof(int),sizeof(long long));
 
@@ -30,4 +30,4 @@ bool isPerfectSquare(int num){
 
     return flag;
 }
-```
+// ```

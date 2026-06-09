@@ -1,11 +1,11 @@
-### 解题思路
-遍历所有bit位0~31，
-遍历当前bit位下，nums中所有数对应bit位中为1的个数ones, bit位为0的个数zeros = nums.size() - ones
-当前bit位能够产生的hammingDistance = zeros * ones
-如此遍历完毕所有的32位即可
-### 代码
+// ### 解题思路
+// 遍历所有bit位0~31，
+// 遍历当前bit位下，nums中所有数对应bit位中为1的个数ones, bit位为0的个数zeros = nums.size() - ones
+// 当前bit位能够产生的hammingDistance = zeros * ones
+// 如此遍历完毕所有的32位即可
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int totalHammingDistance(vector<int>& nums) {
@@ -26,4 +26,4 @@ public:
         return res;
     }
 };
-```
+// ```

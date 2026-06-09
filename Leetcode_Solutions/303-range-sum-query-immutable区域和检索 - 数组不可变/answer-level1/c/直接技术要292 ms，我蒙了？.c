@@ -1,11 +1,11 @@
-### 解题思路
-击败了
-11.01%
-的用户
+// ### 解题思路
+// 击败了
+// 11.01%
+// 的用户
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct {
     int *arr;
 } NumArray;
@@ -34,4 +34,4 @@ void numArrayFree(NumArray* obj) {
  
  * numArrayFree(obj);
 */
-```
+// ```

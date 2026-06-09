@@ -1,4 +1,4 @@
-```
+-- ```
 select 
     if(str=1,'succeeded','failed') as period_state ,
     min(date) as start_date,
@@ -24,4 +24,4 @@ from (
     order by date 
     ) s,(select @diff:=0)  s1
 ) ys group by diff,str
-```
+-- ```

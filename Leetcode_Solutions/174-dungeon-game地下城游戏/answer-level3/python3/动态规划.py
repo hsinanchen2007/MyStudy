@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def calculateMinimumHP(self, dungeon: List[List[int]]) -> int:
         rows = len(dungeon)
@@ -15,9 +15,9 @@ class Solution:
                     c = [1]
                 m[j] = max(1, -1*dungeon[i][j]+min(c))
         return m[0]
-```
-解法二
-```
+# ```
+# 解法二
+# ```
 class Solution:
     def calculateMinimumHP(self, dungeon: List[List[int]]) -> int:
         rows = len(dungeon)
@@ -29,9 +29,9 @@ class Solution:
             for j in range(cols-2, -1, -1):               
                 m[j] = max(1, min(m[j], m[j+1]) - dungeon[i][j])
         return m[0]
-```
-解法三
-```
+# ```
+# 解法三
+# ```
 class Solution:
     def calculateMinimumHP(self, dungeon: List[List[int]]) -> int:
         rows = len(dungeon)
@@ -42,4 +42,4 @@ class Solution:
             for j in range(cols-1, -1, -1):               
                 m[j] = max(1, min(m[j], m[j+1]) - dungeon[i][j])
         return m[0]
-```
+# ```

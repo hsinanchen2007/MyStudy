@@ -1,12 +1,12 @@
-### 解题思路
-0ms 快慢指针
-slow = slow.next;
-fast = fast.next.next;
-两个结点相等表示链表存在环
+// ### 解题思路
+// 0ms 快慢指针
+// slow = slow.next;
+// fast = fast.next.next;
+// 两个结点相等表示链表存在环
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * class ListNode {
@@ -36,4 +36,4 @@ public class Solution {
         return true;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-![image.png](https://pic.leetcode-cn.com/d8f164a5d6e690729422684596e3ef20fad7b8ba321c7d19e96f96ce09315f39-image.png)
-从外圈开始旋转每一圈，需要用到圈的长度的数组临时存储，类似交换：
-临时存上，左给上，下给左，右给下，最后临时给右
-这样一圈一圈向内递进，没有重复操作，就vans了
-代码如下：
-```
+// ![image.png](https://pic.leetcode-cn.com/d8f164a5d6e690729422684596e3ef20fad7b8ba321c7d19e96f96ce09315f39-image.png)
+// 从外圈开始旋转每一圈，需要用到圈的长度的数组临时存储，类似交换：
+// 临时存上，左给上，下给左，右给下，最后临时给右
+// 这样一圈一圈向内递进，没有重复操作，就vans了
+// 代码如下：
+// ```
 class Solution {
     public void rotate(int[][] matrix) {
         int left=0,right=matrix.length-1;
@@ -28,5 +28,5 @@ class Solution {
         }
     }
 }
-```
+// ```
 

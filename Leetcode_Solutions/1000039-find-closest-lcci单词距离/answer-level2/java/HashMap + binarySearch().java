@@ -1,5 +1,5 @@
-# 代码
-```java
+// # 代码
+// ```java
 class Solution {
     public int findClosest(String[] words, String word1, String word2) {
         Map<String, ArrayList<Integer>> map = new HashMap<>();
@@ -20,4 +20,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

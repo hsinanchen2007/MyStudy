@@ -1,9 +1,9 @@
-### 解题思路
-使用快慢指针一定要注意快满指针的初始值问题，避免一步后慢指针就等于快指针
+# ### 解题思路
+# 使用快慢指针一定要注意快满指针的初始值问题，避免一步后慢指针就等于快指针
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -36,4 +36,4 @@ class Solution:
         return False
 '''
  
-```
+# ```

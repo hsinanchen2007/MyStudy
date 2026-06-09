@@ -1,9 +1,9 @@
-### 解题思路
-回溯算法
+// ### 解题思路
+// 回溯算法
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {character[][]} board
  * @param {string} word
@@ -53,4 +53,4 @@
             }
             return isExist
         };
-```
+// ```

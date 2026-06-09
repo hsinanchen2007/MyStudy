@@ -1,8 +1,8 @@
-### 解题思路
-对于所有可能的子字符串进行判断
-### 代码
+// ### 解题思路
+// 对于所有可能的子字符串进行判断
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int countSubstrings(string s) {
@@ -26,4 +26,4 @@ private:
         return true;
     }
 };
-```
+// ```

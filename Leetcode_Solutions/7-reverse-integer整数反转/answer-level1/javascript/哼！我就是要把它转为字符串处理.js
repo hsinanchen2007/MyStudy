@@ -1,7 +1,7 @@
-# 代码
-## 第一版，虽然得出结果，但是不符合题意 “*假设我们的环境只能存储得下 32 位的有符号整数*”
-> 116ms,35.6M
-```javascript []
+// # 代码
+// ## 第一版，虽然得出结果，但是不符合题意 “*假设我们的环境只能存储得下 32 位的有符号整数*”
+// > 116ms,35.6M
+// ```javascript []
 /**
  * @param {number} x
  * @return {number}
@@ -12,11 +12,11 @@ var reverse = function(x) {
   if (againstX > 2147483647) return 0;
   return againstX;
 };
-```
+// ```
 
-## 第二版，这回不会溢出了
-> 92ms,35.8M
-```javascript []
+// ## 第二版，这回不会溢出了
+// > 92ms,35.8M
+// ```javascript []
 /**
  * @param {number} x
  * @return {number}
@@ -34,4 +34,4 @@ var reverse = function(x) {
   }
   return +xStr.split('').reverse().join('');
 };
-```
+// ```

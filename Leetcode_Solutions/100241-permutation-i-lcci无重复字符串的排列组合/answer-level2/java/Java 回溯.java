@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     List<String> list=new ArrayList<>();
     public String[] permutation(String S) {
@@ -26,4 +26,4 @@ class Solution {
         arr[j]=temp;
     }
 }
-```
+// ```

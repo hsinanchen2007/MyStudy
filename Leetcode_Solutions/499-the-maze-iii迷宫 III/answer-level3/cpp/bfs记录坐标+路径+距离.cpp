@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     string findShortestWay(vector<vector<int>>& maze, vector<int>& ball, vector<int>& hole) {
@@ -46,4 +46,4 @@ private:
     map<char, vector<int>> direct = 
         {{'u', {-1, 0}}, {'d', {1, 0}}, {'l', {0, -1}}, {'r', {0, 1}}};
 };
-```
+// ```

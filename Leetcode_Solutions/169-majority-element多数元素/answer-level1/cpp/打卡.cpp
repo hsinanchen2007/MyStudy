@@ -1,9 +1,9 @@
-### 解题思路
-这道题让我想起了下推自动机.......
+// ### 解题思路
+// 这道题让我想起了下推自动机.......
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {
@@ -19,4 +19,4 @@ public:
         return s.top();
     }
 };
-```
+// ```

@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/20ddc97e4471c233a5836896a492a459a4a0a8ae95ac59a3ce7819186c96d164-image.png)
+// ![image.png](https://pic.leetcode-cn.com/20ddc97e4471c233a5836896a492a459a4a0a8ae95ac59a3ce7819186c96d164-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 
 class StockSpanner {
     //辅助数组，存储每次next的答案
@@ -38,4 +38,4 @@ class StockSpanner {
         return h;
     }
 }
-```
+// ```

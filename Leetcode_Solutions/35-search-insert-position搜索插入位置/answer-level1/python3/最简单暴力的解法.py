@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
         for i,e in enumerate(nums):
@@ -7,4 +7,4 @@ class Solution:
             else:
                 pass
         return len(nums)
-```
+# ```

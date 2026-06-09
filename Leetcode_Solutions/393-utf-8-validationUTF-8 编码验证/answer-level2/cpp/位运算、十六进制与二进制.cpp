@@ -1,4 +1,4 @@
-```
+// ```
 	bool validUtf8(vector<int>& data) {
 		int num(0), size(data.size()),i(0);
 		int inspect;
@@ -32,4 +32,4 @@
 		}
 		return true;
 	}
-```
+// ```

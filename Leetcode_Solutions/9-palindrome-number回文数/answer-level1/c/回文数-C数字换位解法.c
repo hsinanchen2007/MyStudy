@@ -1,9 +1,9 @@
-### 解题思路
-C数字换位解法
+// ### 解题思路
+// C数字换位解法
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isPalindrome(int x){
     long y=0;
     long z=(long)x;//保留x的原值

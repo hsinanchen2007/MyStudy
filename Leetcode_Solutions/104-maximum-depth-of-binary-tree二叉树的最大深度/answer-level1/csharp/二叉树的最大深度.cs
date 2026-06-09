@@ -1,5 +1,5 @@
-**思路1：** 逐层将所有节点放入队列中：当前层所有节点出列，然后推入下一层所有不为null的节点，直到队列为空。
-```
+// **思路1：** 逐层将所有节点放入队列中：当前层所有节点出列，然后推入下一层所有不为null的节点，直到队列为空。
+// ```
 public int MaxDepth(TreeNode root)
         {
             int result = 0;
@@ -36,10 +36,10 @@ public int MaxDepth(TreeNode root)
 
             return result;
         }
-```
+// ```
 
-**思路2：** 递归
-```
+// **思路2：** 递归
+// ```
 public int MaxDepth(TreeNode root)
         {
             //递归终止情况：节点为空
@@ -54,4 +54,4 @@ public int MaxDepth(TreeNode root)
                 return Math.Max(leftDepth, rightDepth) + 1;
             }
         }
-```
+// ```

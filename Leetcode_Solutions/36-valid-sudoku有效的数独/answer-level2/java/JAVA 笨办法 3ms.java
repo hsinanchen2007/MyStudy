@@ -1,10 +1,10 @@
-解题思路：横、竖、9格内扫描一遍 😄
+// 解题思路：横、竖、9格内扫描一遍 😄
 
-![image.png](https://pic.leetcode-cn.com/af0cc6d03c72aa14d632d69418b63a7d979a969cffc984c1edaf0925c94bbba9-image.png)
+// ![image.png](https://pic.leetcode-cn.com/af0cc6d03c72aa14d632d69418b63a7d979a969cffc984c1edaf0925c94bbba9-image.png)
 
 
 
-```
+// ```
   public boolean isValidSudoku(char[][] board) {
         for (int i = 0;i < 9;i++) {
             for (int j = 0;j < 9;j++) {
@@ -38,4 +38,4 @@
         }
         return res;
     }
-```
+// ```

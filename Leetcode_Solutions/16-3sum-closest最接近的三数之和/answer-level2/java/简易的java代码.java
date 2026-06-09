@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int threeSumClosest(int[] nums,int target){
 		Arrays.sort(nums);
@@ -34,4 +34,4 @@ class Solution {
 		return sum;
 	}
 }
-```
+// ```

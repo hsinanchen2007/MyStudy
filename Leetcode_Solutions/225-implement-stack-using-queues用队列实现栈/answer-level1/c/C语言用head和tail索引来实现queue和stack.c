@@ -1,9 +1,9 @@
-### 解题思路
-C语言中没有queue这个数据结构，所以使用一个headIdx，一个tailIdx来表示queue，stack和queue的区别就是pop的时候是tail还是head。代码实现细节如下所示。
+// ### 解题思路
+// C语言中没有queue这个数据结构，所以使用一个headIdx，一个tailIdx来表示queue，stack和queue的区别就是pop的时候是tail还是head。代码实现细节如下所示。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX_NUM_SIZE 10000
 #define MAX(a, b) ((a) > (b) ? (a) : (b))
 
@@ -71,6 +71,6 @@ void myStackFree(MyStack* obj) {
     obj = NULL;
 }
 
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/35105b2878a4783c14d9ad3ea6474625af2303572f5817d230b355975a8c9ce3-image.png)
+// ![image.png](https://pic.leetcode-cn.com/35105b2878a4783c14d9ad3ea6474625af2303572f5817d230b355975a8c9ce3-image.png)

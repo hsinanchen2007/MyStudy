@@ -1,10 +1,10 @@
-### 解题思路
-第一次双100%留念
-![lt.png](https://pic.leetcode-cn.com/282df8712804b418be42f16a80a4be6cd6977c50acee17d0863d9c2cb28066f0-lt.png)
+// ### 解题思路
+// 第一次双100%留念
+// ![lt.png](https://pic.leetcode-cn.com/282df8712804b418be42f16a80a4be6cd6977c50acee17d0863d9c2cb28066f0-lt.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> subsets(vector<int>& nums) {
@@ -37,4 +37,4 @@ public:
         return vv;
     }
 };
-```
+// ```

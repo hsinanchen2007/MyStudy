@@ -1,8 +1,8 @@
-### 解题思路
-采用双指针，在不同的条件下，移动不同的指针
-### 代码
+// ### 解题思路
+// 采用双指针，在不同的条件下，移动不同的指针
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findPairs(vector<int>& nums, int k) {
@@ -41,4 +41,4 @@ public:
         return num;
     }
 };
-```
+// ```

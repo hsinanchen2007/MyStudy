@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int rob(int[] nums) {
         if(nums.length==0)
@@ -16,4 +16,4 @@ class Solution {
         return dp[nums.length-1];
     }
 }
-```
+// ```

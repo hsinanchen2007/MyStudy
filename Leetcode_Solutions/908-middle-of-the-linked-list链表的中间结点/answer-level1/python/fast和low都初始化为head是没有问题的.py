@@ -1,11 +1,11 @@
-### 解题思路
-1、fast每次2步，low每次1步；
-2、fast和head都初始化为head是可以的；
-3、while fast and fast.next；
+# ### 解题思路
+# 1、fast每次2步，low每次1步；
+# 2、fast和head都初始化为head是可以的；
+# 3、while fast and fast.next；
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -30,4 +30,4 @@ class Solution(object):
 
         return low
 
-```
+# ```

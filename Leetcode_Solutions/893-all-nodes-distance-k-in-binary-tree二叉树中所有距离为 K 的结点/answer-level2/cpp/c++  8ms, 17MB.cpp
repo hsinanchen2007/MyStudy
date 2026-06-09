@@ -1,5 +1,5 @@
-解法源自：https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/discuss/143775/very-easy-to-understand-c%2B%2B-solution.
-```
+// 解法源自：https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/discuss/143775/very-easy-to-understand-c%2B%2B-solution.
+// ```
 class Solution {
 public:
     unordered_map<TreeNode* ,TreeNode*> parent; // parent[子] = 父
@@ -24,4 +24,4 @@ public:
         if (parent.count(root)) dfs(parent[root], k - 1);
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```java
+// ```java
 public int integerReplacement(int n) {
     return help((long)(n));
 }
@@ -14,4 +14,4 @@ public int help(long n){
             return 2 + help((n + 1)/2);
     }
 }
-```
+// ```

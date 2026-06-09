@@ -1,9 +1,9 @@
-### 解题思路
-写好状态转移方程，搞清初始条件，然后结果就出来了。
+# ### 解题思路
+# 写好状态转移方程，搞清初始条件，然后结果就出来了。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         n = len(prices)
@@ -27,4 +27,4 @@ class Solution:
                 # buy
                 dp[(i,k,1)] = max(dp[(i-1,k-1,0)]-prices[i], dp[(i-1,k,1)])
         return dp[(n-1,1,0)]
-```
+# ```

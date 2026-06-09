@@ -1,9 +1,9 @@
-### 解题思路
-规规矩矩的二分查找
+// ### 解题思路
+// 规规矩矩的二分查找
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int arrangeCoins(int n) {
         int low = 1;
@@ -25,4 +25,4 @@ class Solution {
         return sum > target;
     }
 }
-```
+// ```

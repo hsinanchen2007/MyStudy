@@ -1,6 +1,6 @@
-### 递归+记忆化搜索
+# ### 递归+记忆化搜索
 
-```python
+# ```python
 class Solution:
     def longestCommonSubsequence(self, s1: str, s2: str) -> int:
         '''
@@ -28,11 +28,11 @@ class Solution:
             return res
 
         return parse(s1, s2, p1, p2)
-```
+# ```
 
-### 动态规划
+# ### 动态规划
 
-```python
+# ```python
 class Solution:
     def longestCommonSubsequence(self, s1: str, s2: str) -> int:
         '''
@@ -52,4 +52,4 @@ class Solution:
                     table[i+1][j+1] = max(table[i][j+1], table[i+1][j])
         
         return table[-1][-1]
-```
+# ```

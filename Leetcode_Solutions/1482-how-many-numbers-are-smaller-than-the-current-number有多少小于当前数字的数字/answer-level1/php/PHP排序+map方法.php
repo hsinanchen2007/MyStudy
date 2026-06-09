@@ -1,5 +1,5 @@
-# PHP排序+map方法
-```
+// # PHP排序+map方法
+// ```
 class Solution {
 
     /**
@@ -26,4 +26,4 @@ class Solution {
         return $re;
     }
 }
-```
+// ```

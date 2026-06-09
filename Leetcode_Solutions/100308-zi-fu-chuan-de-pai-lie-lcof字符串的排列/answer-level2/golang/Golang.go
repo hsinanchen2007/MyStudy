@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/e2332378a4a286b5630fdc3bf17a46f7688a6754ca36eba6526ccaa108a18a2f-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/e2332378a4a286b5630fdc3bf17a46f7688a6754ca36eba6526ccaa108a18a2f-image.png)
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func permutation(s string) []string {
 	if len(s) == 0 {
 		return []string{}
@@ -33,4 +33,4 @@ func permutation(s string) []string {
 	}
 	return res
 }
-```
+// ```

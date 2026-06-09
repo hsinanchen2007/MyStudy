@@ -1,9 +1,9 @@
-### 解题思路
-层序遍历返回最后一组元素和
+# ### 解题思路
+# 层序遍历返回最后一组元素和
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -30,4 +30,4 @@ class Solution:
                         queue.append(r.right)
                 res.append(temp)
             return sum(res[-1])
-```
+# ```

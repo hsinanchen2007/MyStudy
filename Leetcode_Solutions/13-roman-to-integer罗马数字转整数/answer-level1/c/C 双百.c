@@ -1,9 +1,9 @@
-### 解题思路
-如下
+// ### 解题思路
+// 如下
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int romanToInt(char * s){
     int ans=0,store=0,i=0;
     char c=s[i];
@@ -22,4 +22,4 @@ int romanToInt(char * s){
     ans+=store;
     return ans;
 }
-```
+// ```

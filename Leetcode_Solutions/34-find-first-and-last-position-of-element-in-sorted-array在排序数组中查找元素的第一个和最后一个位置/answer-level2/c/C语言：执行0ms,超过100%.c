@@ -1,6 +1,6 @@
-方法1：
+// 方法1：
 
-```
+// ```
 //找到左值的下标
 int edgeOfLeft(int *nums, int numsSize, int target){
     int low = 0, high = numsSize, mid;
@@ -64,10 +64,10 @@ int* searchRange(int* nums, int numsSize, int target, int* returnSize){
     }
     return res;
 }
-```
+// ```
 
-或者这样简化代码量(用edgeOfRight函数也可以)
-```
+// 或者这样简化代码量(用edgeOfRight函数也可以)
+// ```
 int edgeOfLeft(int *nums, int numsSize, int target){
     int low = 0, high = numsSize, mid;
 
@@ -105,4 +105,4 @@ int* searchRange(int* nums, int numsSize, int target, int* returnSize){
     }
     return res;
 }
-```
+// ```

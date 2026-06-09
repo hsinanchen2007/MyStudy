@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-就很简单
+// ### 解题思路
+// 此处撰写解题思路
+// 就很简单
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool hasAlternatingBits(int n){
     int wei1,wei2;
     while(n){
@@ -16,4 +16,4 @@ bool hasAlternatingBits(int n){
     }
     return true;
 }
-```
+// ```

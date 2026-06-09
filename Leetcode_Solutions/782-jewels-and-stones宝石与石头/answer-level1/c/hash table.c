@@ -1,4 +1,4 @@
-```
+// ```
 int numJewelsInStones(char * J, char * S){
     int hashTable[128] = {0};
     int lengthofJ = strlen(J);
@@ -12,4 +12,4 @@ int numJewelsInStones(char * J, char * S){
     }
     return res;
 }
-```
+// ```

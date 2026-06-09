@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -28,4 +28,4 @@ class Solution(object):
             ansTraverse(node.right)#递归遍历右子树
         ansTraverse(root)#调用新的函数
         return ans#返回结果数组
-```
+# ```

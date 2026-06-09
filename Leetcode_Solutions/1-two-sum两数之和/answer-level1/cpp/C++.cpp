@@ -1,9 +1,9 @@
-### 解题思路
-使用哈希表记录
+// ### 解题思路
+// 使用哈希表记录
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
@@ -25,4 +25,4 @@ public:
         return ans;
     }
 };
-```
+// ```

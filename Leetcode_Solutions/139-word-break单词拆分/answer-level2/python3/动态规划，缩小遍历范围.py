@@ -1,6 +1,6 @@
-找到wordDict中最长（maxLen）的字符串，每次只遍历当前位置之前maxLen范围内的字符。因为当前位置的状态只与前面maxLen范围内的字符相关，所以状态存储的数组也可以缩小到maxLen，这里不做讨论。
+# 找到wordDict中最长（maxLen）的字符串，每次只遍历当前位置之前maxLen范围内的字符。因为当前位置的状态只与前面maxLen范围内的字符相关，所以状态存储的数组也可以缩小到maxLen，这里不做讨论。
 
-```
+# ```
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> bool:
         n = len(s)
@@ -16,4 +16,4 @@ class Solution:
                     state[i] = True
                     break
         return state[-1]
-```
+# ```

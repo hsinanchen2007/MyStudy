@@ -1,9 +1,9 @@
-### 解题思路
-[~i] 表示倒数第i个元素
+# ### 解题思路
+# [~i] 表示倒数第i个元素
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverseString(self, s: List[str]) -> None:
         """
@@ -19,4 +19,4 @@ class Solution:
         return s
 
 
-```
+# ```

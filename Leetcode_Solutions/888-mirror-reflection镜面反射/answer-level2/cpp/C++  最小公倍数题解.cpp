@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int lcm(int p, int q) {
@@ -12,6 +12,6 @@ public:
         return s[n & 1][m & 1];
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/18a343033bc0b03393313ada5a916e2ba03c7a3eabb5aaefe3a92b055031ce37-image.png)
+// ![image.png](https://pic.leetcode-cn.com/18a343033bc0b03393313ada5a916e2ba03c7a3eabb5aaefe3a92b055031ce37-image.png)

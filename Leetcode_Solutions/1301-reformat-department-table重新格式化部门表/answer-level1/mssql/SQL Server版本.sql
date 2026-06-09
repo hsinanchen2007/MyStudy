@@ -1,4 +1,4 @@
-```
+-- ```
 /* Write your T-SQL query statement below */
 
 select id,
@@ -17,4 +17,4 @@ select id,
 from Department
 group by id
 
-```
+-- ```

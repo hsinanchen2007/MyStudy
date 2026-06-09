@@ -1,9 +1,9 @@
-### 解题思路
-####快排思想
+// ### 解题思路
+// ####快排思想
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     
     public int[] getLeastNumbers(int[] arr, int k) {
@@ -77,4 +77,4 @@ class Solution {
        }       
     }
 }
-```
+// ```

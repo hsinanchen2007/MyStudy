@@ -1,14 +1,14 @@
-说实话，看到这种复杂的题目我的内心是复杂的，甚至有点怀疑自己是否真的适合coding(狗头)
+# 说实话，看到这种复杂的题目我的内心是复杂的，甚至有点怀疑自己是否真的适合coding(狗头)
 
-但是没办法，吃饭的家伙还是要硬着头皮去磨练的
+# 但是没办法，吃饭的家伙还是要硬着头皮去磨练的
 
-说了这么多就是为了让自己看官方解答时的罪恶感降低(滑稽)，然后看完官方解答的那个对角线公式我就.....彻底懵逼了
+# 说了这么多就是为了让自己看官方解答时的罪恶感降低(滑稽)，然后看完官方解答的那个对角线公式我就.....彻底懵逼了
 
-想着还是自己动手来试试吧（参考了`labuladong`大神写的这篇文章[回溯算法详解](https://leetcode-cn.com/problems/n-queens/solution/hui-su-suan-fa-xiang-jie-by-labuladong/) 感觉对我有很大启发）于是动手开始
+# 想着还是自己动手来试试吧（参考了`labuladong`大神写的这篇文章[回溯算法详解](https://leetcode-cn.com/problems/n-queens/solution/hui-su-suan-fa-xiang-jie-by-labuladong/) 感觉对我有很大启发）于是动手开始
 
-先介绍一下参考的模板
+# 先介绍一下参考的模板
 
-```
+# ```
 result = []
 def backtrack(路径, 选择列表):
     if 满足结束条件:
@@ -19,11 +19,11 @@ def backtrack(路径, 选择列表):
         做选择
         backtrack(路径, 选择列表)
         撤销选择
-```
+# ```
 
-下面是相关代码
+# 下面是相关代码
 
-```python
+# ```python
 class Solution:
     def solveNQueens(self, N) -> ListNode:
         # 用于放Queue的棋盘， 用的是二维列表，看题的时候没认真，没看到官方是一维的
@@ -90,11 +90,11 @@ class Solution:
         # 从第0行开始
         input(0)
         return result   
-```
+# ```
 
-运行结果
+# 运行结果
 
-```
+# ```
 执行用时 :116 ms, 在所有 python3 提交中击败了33.46% 的用户
 内存消耗 :13 MB, 在所有 python3 提交中击败了99.23%的用户
 
@@ -103,11 +103,11 @@ class Solution:
 
 执行用时 :116 ms, 在所有 python3 提交中击败了33.46% 的用户
 内存消耗 :13 MB, 在所有 python3 提交中击败了99.23%的用户
-```
+# ```
 
-上面的源代码多做了 把二维列表变成一维列表的操作，下面进行修改
+# 上面的源代码多做了 把二维列表变成一维列表的操作，下面进行修改
 
-```python
+# ```python
 class Solution:
     def solveNQueens(self, N) -> ListNode:
         # 用一维列表替代
@@ -168,11 +168,11 @@ class Solution:
         result = []
         input(0)
         return result   
-```
+# ```
 
-运行结果
+# 运行结果
 
-```
+# ```
 执行用时 :128 ms, 在所有 python3 提交中击败了27.11% 的用户
 内存消耗 :12.9 MB, 在所有 python3 提交中击败了99.23%的用户
 
@@ -181,11 +181,11 @@ class Solution:
 
 执行用时 :128 ms, 在所有 python3 提交中击败了27.11% 的用户
 内存消耗 :12.8 MB, 在所有 python3 提交中击败了99.23%的用户
-```
+# ```
 
-下面是pythonic的写法
+# 下面是pythonic的写法
 
-```python
+# ```python
 class Solution:
     def solveNQueens(self, N) -> ListNode:
         checkerboard = [ "."*N for i in range(N)]
@@ -227,9 +227,9 @@ class Solution:
         result = []
         input(0)
         return result 
-```
+# ```
 
-做完之后再去仔细看了一下点斜方程，突然看懂了，由于官方解答里面有把已经放置好的Queue放入一个列表里面
+# 做完之后再去仔细看了一下点斜方程，突然看懂了，由于官方解答里面有把已经放置好的Queue放入一个列表里面
 
-这样的确可以通过遍历已放入的Queue来判断与当前位置是否在一条斜线上，只要判断两个x差值的绝对值是否等于两个y差值的绝对值，如果相等就说明在一条斜线上，但是我没有去保存这样的列表，所有没有用点斜式
-欢迎来github上看更多题目的解答[力扣解题思路](https://github.com/WRAllen/LeetCode)
+# 这样的确可以通过遍历已放入的Queue来判断与当前位置是否在一条斜线上，只要判断两个x差值的绝对值是否等于两个y差值的绝对值，如果相等就说明在一条斜线上，但是我没有去保存这样的列表，所有没有用点斜式
+# 欢迎来github上看更多题目的解答[力扣解题思路](https://github.com/WRAllen/LeetCode)

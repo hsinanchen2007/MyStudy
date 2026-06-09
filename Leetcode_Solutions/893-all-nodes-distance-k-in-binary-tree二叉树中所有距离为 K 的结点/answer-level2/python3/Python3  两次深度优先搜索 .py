@@ -1,7 +1,7 @@
-两次dfs, 第一次建立父子节点关系的图(用字典维护)，第二次计算长度。超过80%
-如代码逻辑冗余，又可以优化的地方，请各位大大指正，不胜感激！
+# 两次dfs, 第一次建立父子节点关系的图(用字典维护)，第二次计算长度。超过80%
+# 如代码逻辑冗余，又可以优化的地方，请各位大大指正，不胜感激！
 
-```ruby
+# ```ruby
 class Solution:
     
     def __init__(self):
@@ -56,4 +56,4 @@ class Solution:
         if root.right:
             self.calculate_dict(root.right)
             self.node_dict[root.right.val] = root
-```
+# ```

@@ -1,7 +1,7 @@
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def deleteDuplicates(self, head: ListNode) -> ListNode:
         List = head
@@ -11,4 +11,4 @@ class Solution:
             else:
                 head = head.next
         return List
-```
+# ```

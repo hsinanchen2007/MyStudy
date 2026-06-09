@@ -1,13 +1,13 @@
-1、由于n数据太大了，而reservedSeatsSize最大是10000，以reservedSeatsSize进行循环；
-2、一排最多可以做两个四人家庭；2345,6789；
-3、如果本排没有人占用，则直接乘以2；
-4、将reservedSeats排序，
-5、循环遍历，空排直接乘以2；
-6、非空排将位置标识为1，然后计算本排可以做几个家庭；
-7、结束时候计算还有多少空排，直接加上即可。
-![image.png](https://pic.leetcode-cn.com/393cdb96d64da9c7771943b1f5b4cd743af98793213a68ccc1208d27400230d1-image.png)
+// 1、由于n数据太大了，而reservedSeatsSize最大是10000，以reservedSeatsSize进行循环；
+// 2、一排最多可以做两个四人家庭；2345,6789；
+// 3、如果本排没有人占用，则直接乘以2；
+// 4、将reservedSeats排序，
+// 5、循环遍历，空排直接乘以2；
+// 6、非空排将位置标识为1，然后计算本排可以做几个家庭；
+// 7、结束时候计算还有多少空排，直接加上即可。
+// ![image.png](https://pic.leetcode-cn.com/393cdb96d64da9c7771943b1f5b4cd743af98793213a68ccc1208d27400230d1-image.png)
 
-```
+// ```
 #define MAXLEN 11
 int cmp(const void *a, const void *b)
 {
@@ -57,4 +57,4 @@ int maxNumberOfFamilies(int n, int** reservedSeats, int reservedSeatsSize, int* 
     }
     return nums;
 }
-```
+// ```

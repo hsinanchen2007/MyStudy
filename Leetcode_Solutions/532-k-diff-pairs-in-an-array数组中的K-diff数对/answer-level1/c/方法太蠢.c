@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int findPairs(int* nums, int numsSize, int k){
     void quicksort(int* ,int,int);
     quicksort(nums,0,numsSize-1);
@@ -56,4 +56,4 @@ void quicksort(int* arr,int low,int high){
         quicksort(arr,i+1,high);
     }
 }
-```
+// ```

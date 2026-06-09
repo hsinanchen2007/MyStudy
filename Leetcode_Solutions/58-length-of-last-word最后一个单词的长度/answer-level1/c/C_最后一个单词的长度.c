@@ -1,12 +1,12 @@
-### 解题思路
-先计算字符串长度
-再倒着数
+// ### 解题思路
+// 先计算字符串长度
+// 再倒着数
 
-注意：剔除字符串末尾的空格
+// 注意：剔除字符串末尾的空格
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int lengthOfLastWord(char * s){
     char* iter=s;
     int lenght=0;
@@ -26,4 +26,4 @@ int lengthOfLastWord(char * s){
     }
     return sum;
 }
-```
+// ```

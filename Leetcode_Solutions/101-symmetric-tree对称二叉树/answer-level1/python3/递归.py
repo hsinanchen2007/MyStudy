@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def isSymmetric(self, root):
         """
@@ -13,4 +13,4 @@ class Solution(object):
             return False
         else:
             return t1.val == t2.val and self.isMirror(t1.left, t2.right) and self.isMirror(t1.right, t2.left)
-```
+# ```

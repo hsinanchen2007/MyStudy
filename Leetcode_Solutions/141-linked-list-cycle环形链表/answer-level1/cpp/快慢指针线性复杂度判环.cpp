@@ -1,9 +1,9 @@
-### 解题思路
-人类的智慧太伟大了
+// ### 解题思路
+// 人类的智慧太伟大了
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -38,4 +38,4 @@ public:
         return true;
     }
 };
-```
+// ```

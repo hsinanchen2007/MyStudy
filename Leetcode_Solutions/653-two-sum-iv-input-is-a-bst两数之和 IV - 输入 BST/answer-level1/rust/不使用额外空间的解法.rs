@@ -1,8 +1,8 @@
-0ms，不使用额外空间，利用bst的性质。
+// 0ms，不使用额外空间，利用bst的性质。
 
-先序遍历这颗bst，每遇到一个节点v，计算t=k-v。如果t小于等于v，那么就在当前节点的左子树中进行查找，否则从根开始查找t。最坏复杂度是nlogn
+// 先序遍历这颗bst，每遇到一个节点v，计算t=k-v。如果t小于等于v，那么就在当前节点的左子树中进行查找，否则从根开始查找t。最坏复杂度是nlogn
 
-```rust
+// ```rust
 impl Solution {
     pub fn find_target(root: Option<Rc<RefCell<TreeNode>>>, k: i32) -> bool {
         let mut ans =false;
@@ -48,4 +48,4 @@ impl Solution {
         }
     }
 }
-```
+// ```

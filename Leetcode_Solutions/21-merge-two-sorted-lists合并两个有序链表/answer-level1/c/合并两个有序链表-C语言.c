@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/793a5f7a10c122a2b1711b1908e869e1e9a10784ee6a6c52dff73d66d9ef57bd-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/793a5f7a10c122a2b1711b1908e869e1e9a10784ee6a6c52dff73d66d9ef57bd-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -61,4 +61,4 @@ struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2){
     return pstLnPre;
 
 }
-```
+// ```

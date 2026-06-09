@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def gameOfLife(self, board):
         """
@@ -40,4 +40,4 @@ class Solution(object):
                 if copy_board[row][col] == 0 and live_neighbors == 3:
                     board[row][col] = 1
 
-```
+# ```

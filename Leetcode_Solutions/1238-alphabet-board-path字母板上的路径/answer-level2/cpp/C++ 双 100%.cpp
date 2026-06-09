@@ -1,6 +1,6 @@
-![Screenshot from 2019-11-14 22-52-01.png](https://pic.leetcode-cn.com/78e6f8a9077f27131a30c1a5ef19134dcddde55155d04328a26f5518844e51d5-Screenshot%20from%202019-11-14%2022-52-01.png)
+// ![Screenshot from 2019-11-14 22-52-01.png](https://pic.leetcode-cn.com/78e6f8a9077f27131a30c1a5ef19134dcddde55155d04328a26f5518844e51d5-Screenshot%20from%202019-11-14%2022-52-01.png)
 
-```c++
+// ```c++
 class Solution {
 public:
     string alphabetBoardPath(string target) {
@@ -40,4 +40,4 @@ public:
         return result;
     }
 };
-```
+// ```

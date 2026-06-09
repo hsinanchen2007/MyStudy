@@ -1,14 +1,14 @@
-在外层是判断是否满足翻转的条件：
+// 在外层是判断是否满足翻转的条件：
 
-(1)不满足直接返
+// (1)不满足直接返
 
-(2)满足需要进行翻转的区间的首位节点[head, tail],并记录下tail.next进行递归。
+// (2)满足需要进行翻转的区间的首位节点[head, tail],并记录下tail.next进行递归。
 
-(3)将head和tail区间进行翻转，翻转之后head为翻转区间的尾节点、tail为头结点。所以讲head.next指向递归的结果。
+// (3)将head和tail区间进行翻转，翻转之后head为翻转区间的尾节点、tail为头结点。所以讲head.next指向递归的结果。
 
-(4)返回头结点tail
+// (4)返回头结点tail
 
-```
+// ```
 class Solution {
     public ListNode reverseKGroup(ListNode head, int k) {
         ListNode tail = head;
@@ -36,4 +36,4 @@ class Solution {
         return head;
     }
 }
-```
+// ```

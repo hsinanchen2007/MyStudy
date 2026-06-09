@@ -1,15 +1,15 @@
-![image.png](https://pic.leetcode-cn.com/a65152794a78954af4676a32d4340f355c0fa2a89e1c809071687db0e7531fb2-image.png)
+// ![image.png](https://pic.leetcode-cn.com/a65152794a78954af4676a32d4340f355c0fa2a89e1c809071687db0e7531fb2-image.png)
 
-### 解题思路
-先序遍历：根-左-右。一路到左子节点为空，返回向右访问。是为深度优先搜索。
+// ### 解题思路
+// 先序遍历：根-左-右。一路到左子节点为空，返回向右访问。是为深度优先搜索。
 
-递归：
-问题简化：当前节点为*空*，则返回空；非空时，先记录其*节点值*，然后访问*左子树*，再访问*右子树*。
-函数A（currNode）->A(currNode->left)->A(currNode->right)
-然后打磨细节
-### 代码
+// 递归：
+// 问题简化：当前节点为*空*，则返回空；非空时，先记录其*节点值*，然后访问*左子树*，再访问*右子树*。
+// 函数A（currNode）->A(currNode->left)->A(currNode->right)
+// 然后打磨细节
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -49,4 +49,4 @@ int* preorderTraversal(struct TreeNode* root, int* returnSize){
 }
 
 
-```
+// ```

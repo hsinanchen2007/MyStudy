@@ -1,9 +1,9 @@
-### 解题思路
-典型的BSF,当所有房间都打开了就可以提前结束
+// ### 解题思路
+// 典型的BSF,当所有房间都打开了就可以提前结束
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX_LEN 1000
 
 int g_list[MAX_LEN] = {0};
@@ -47,4 +47,4 @@ bool canVisitAllRooms(int** rooms, int roomsSize, int* roomsColSize){
 
     return count == 0;
 }
-```
+// ```

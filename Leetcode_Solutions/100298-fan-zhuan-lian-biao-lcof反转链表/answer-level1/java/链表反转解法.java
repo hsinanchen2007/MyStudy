@@ -1,11 +1,11 @@
-### 解题思路
-**图文搭配讲解链表反转，看不懂你来打我。面试高频题，写不出来就滚蛋**
-[https://zhuanlan.zhihu.com/p/102908327]()
-复制了在浏览器直接访问
+// ### 解题思路
+// **图文搭配讲解链表反转，看不懂你来打我。面试高频题，写不出来就滚蛋**
+// [https://zhuanlan.zhihu.com/p/102908327]()
+// 复制了在浏览器直接访问
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -34,4 +34,4 @@ class Solution {
         return head;
     }
 }
-```
+// ```

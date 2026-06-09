@@ -1,9 +1,9 @@
-### 解题思路
-我们只会考虑最近3000毫秒到现在的ping数
+// ### 解题思路
+// 我们只会考虑最近3000毫秒到现在的ping数
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class RecentCounter {
 
     Queue<Integer> q;
@@ -26,4 +26,4 @@ class RecentCounter {
  * RecentCounter obj = new RecentCounter();
  * int param_1 = obj.ping(t);
  */
- ```
+//  ```

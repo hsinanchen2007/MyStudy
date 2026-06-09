@@ -1,7 +1,7 @@
 
-### 快速排序
+// ### 快速排序
 
-```golang
+// ```golang
 func getLeastNumbers(arr []int, k int) []int {
     // 快速排序
     quickSort(arr)
@@ -29,10 +29,10 @@ func quickSort(arr []int) {
     quickSort(arr[head+1:])
 }
 
-```
+// ```
 
-### 堆排序
-```
+// ### 堆排序
+// ```
 func getLeastNumbers(arr []int, k int) []int {
     
     // 堆排序
@@ -75,4 +75,4 @@ func heapfiy(index, end int,arr []int) []int {
     }
     return arr
 }
-```
+// ```

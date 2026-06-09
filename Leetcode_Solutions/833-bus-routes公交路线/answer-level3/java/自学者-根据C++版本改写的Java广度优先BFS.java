@@ -1,10 +1,10 @@
-### 解题思路
-* BFS，把莫名奇妙的x，i，j变量命名修改为有意义变量便于记忆
-* 根据C++版本改写过来需要理解一段时间
+// ### 解题思路
+// * BFS，把莫名奇妙的x，i，j变量命名修改为有意义变量便于记忆
+// * 根据C++版本改写过来需要理解一段时间
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numBusesToDestination(int[][] routes, int S, int T) {
         assert routes.length >= 0 && routes.length <= 500;
@@ -51,4 +51,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

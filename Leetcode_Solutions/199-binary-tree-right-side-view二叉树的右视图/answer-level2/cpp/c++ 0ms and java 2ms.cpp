@@ -1,5 +1,5 @@
-c++ 0ms and java 2ms点我查看详情
-```
+// c++ 0ms and java 2ms点我查看详情
+// ```
 //c++
 class Solution {
 public:
@@ -32,4 +32,4 @@ class Solution {
         dfs(root.left, i+1);
     }
 }
-```
+// ```

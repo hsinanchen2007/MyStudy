@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 //翻转字符串实现
 func minimumLengthEncoding(words []string) int {
     if words==nil || len(words)==0{
@@ -42,4 +42,4 @@ func reverse(str string)string{
     }
     return string(bytes)
 }
-```
+// ```

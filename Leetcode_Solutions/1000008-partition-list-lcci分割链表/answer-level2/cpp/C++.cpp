@@ -1,9 +1,9 @@
-### 解题思路
-分成小于x和不小于x两部分
+// ### 解题思路
+// 分成小于x和不小于x两部分
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -33,4 +33,4 @@ public:
         return ans;
     }
 };
-```
+// ```

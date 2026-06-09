@@ -1,5 +1,5 @@
-### 每一行都可以用二分查找，可以先排除一些不用查找的行
-```cpp
+// ### 每一行都可以用二分查找，可以先排除一些不用查找的行
+// ```cpp
 class Solution {
 public:
     bool findNumberIn2DArray(vector<vector<int>>& matrix, int target) {
@@ -39,10 +39,10 @@ private:
         return false;
     }
 };
-```
+// ```
 
-### 从右上角元素开始比较，如果与目标值相等则返回，如果小于目标值则向下查找，如果大于目标值则向左查找，思想跟二叉查找树很像！
-```cpp
+// ### 从右上角元素开始比较，如果与目标值相等则返回，如果小于目标值则向下查找，如果大于目标值则向左查找，思想跟二叉查找树很像！
+// ```cpp
 class Solution {
 public:
     bool findNumberIn2DArray(vector<vector<int>>& matrix, int target) {
@@ -61,4 +61,4 @@ public:
         return false;
     }
 };
-```
+// ```

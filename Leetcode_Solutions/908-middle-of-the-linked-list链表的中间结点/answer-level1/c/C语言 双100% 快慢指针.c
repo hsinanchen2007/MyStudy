@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/04b1f377ad3d4c3d65c6f37128a13f61d590d552ea04920024bb54752fd5c4d0-image.png)
+// ![image.png](https://pic.leetcode-cn.com/04b1f377ad3d4c3d65c6f37128a13f61d590d552ea04920024bb54752fd5c4d0-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -30,4 +30,4 @@ struct ListNode* middleNode(struct ListNode* head){
     }
     return fast->next == NULL ? slow : slow->next;
 }
-```
+// ```

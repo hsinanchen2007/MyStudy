@@ -1,9 +1,9 @@
-### 解题思路
-其实就是把A栈的数据倒腾到B栈，倒腾的时候就变成队列了，A栈的老数据就会跑到B栈的栈顶，负负得正一个道理。
+// ### 解题思路
+// 其实就是把A栈的数据倒腾到B栈，倒腾的时候就变成队列了，A栈的老数据就会跑到B栈的栈顶，负负得正一个道理。
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class CQueue {
     private $stack_push;
     private $stack_pop;
@@ -48,4 +48,4 @@ class CQueue {
  * $obj->appendTail($value);
  * $ret_2 = $obj->deleteHead();
  */
-```
+// ```

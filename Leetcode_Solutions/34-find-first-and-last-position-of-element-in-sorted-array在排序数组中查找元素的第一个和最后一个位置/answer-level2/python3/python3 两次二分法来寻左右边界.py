@@ -1,8 +1,8 @@
-第一步：在[0,lenght-1]范围内找左边界left.如果left不存在,那么left=-1
-第二步：(1) 如果left不存在,那么右边界肯定不存在,right=-1;
-        (2) 如果left存在，那么右边界肯定存在，在[left,length-1]范围内寻找右边界right.
-时间复杂度小于等于o(nlogn+nlogn)，空间复杂度为o(1).
-```
+# 第一步：在[0,lenght-1]范围内找左边界left.如果left不存在,那么left=-1
+# 第二步：(1) 如果left不存在,那么右边界肯定不存在,right=-1;
+#         (2) 如果left存在，那么右边界肯定存在，在[left,length-1]范围内寻找右边界right.
+# 时间复杂度小于等于o(nlogn+nlogn)，空间复杂度为o(1).
+# ```
 class Solution:
     def find_left_boundary(self, start, end, nums, target):
         if start > end:
@@ -45,5 +45,5 @@ class Solution:
         right = self.find_right_boundary(left, length - 1, nums, target) if left != -1 else -1
         return [left, right]
 
-```
+# ```
 

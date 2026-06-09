@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+-- ### 解题思路
+-- 此处撰写解题思路
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 SELECT NAME AS
     Customers 
@@ -12,4 +12,4 @@ FROM
     LEFT JOIN orders ON customers.Id = orders.CustomerId 
 WHERE
     orders.CustomerId IS NULL
-```
+-- ```

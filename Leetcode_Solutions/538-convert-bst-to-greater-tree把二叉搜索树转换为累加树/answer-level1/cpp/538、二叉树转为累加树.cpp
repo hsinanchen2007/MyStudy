@@ -1,9 +1,9 @@
-### 解题思路
-右中左采用递归遍历，辅助变量求和
+// ### 解题思路
+// 右中左采用递归遍历，辅助变量求和
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -31,4 +31,4 @@ public:
         return root;
     }
 };
-```
+// ```

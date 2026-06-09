@@ -1,12 +1,12 @@
-这题有意思了，一看到树啥的想到的解题方式都是深度优先(DFS)，这题要我们宽度优先(BFS)。
+# 这题有意思了，一看到树啥的想到的解题方式都是深度优先(DFS)，这题要我们宽度优先(BFS)。
 
-## 方法1：迭代算法-(BFS)
+# ## 方法1：迭代算法-(BFS)
 
-借助一下之前的中序遍历，感觉可以试试用栈来存储root，每次遍历都把stack给pop空， 在pop的时候相关的val，之后再把right，left依次append到另一个栈里面。当stack都pop空之后，把另一个栈直接赋予stack。
+# 借助一下之前的中序遍历，感觉可以试试用栈来存储root，每次遍历都把stack给pop空， 在pop的时候相关的val，之后再把right，left依次append到另一个栈里面。当stack都pop空之后，把另一个栈直接赋予stack。
 
-安装这种思路写了下面的代码（错误）
+# 安装这种思路写了下面的代码（错误）
 
-```python
+# ```python
 class Solution:
     def levelOrder(self, root: TreeNode) -> List[List[int]]:        
         result = []
@@ -24,11 +24,11 @@ class Solution:
             result.append(tem_result)
             stack = next_stack
         return result
-```
+# ```
 
-运行结果
+# 运行结果
 
-```
+# ```
 15 / 34 个通过测试用例
 	状态：解答错误
 	
@@ -36,21 +36,21 @@ class Solution:
 输入： [1,2,3,4,null,null,5]
 输出： [[1],[2,3],[5,4]]
 预期： [[1],[2,3],[4,5]]
-```
+# ```
 
-嗯哼？怎么不行呢？为啥4和5的位置错了？？？这个二叉树长这个样子
+# 嗯哼？怎么不行呢？为啥4和5的位置错了？？？这个二叉树长这个样子
 
-```
+# ```
      1
     / \
    2   3
   /     \
  4       5
-```
+# ```
 
-我们来修改演算一下
+# 我们来修改演算一下
 
-```
+# ```
      1
     / \
    2   3
@@ -72,11 +72,11 @@ class Solution:
  这时把原先的stack倒叙循环(pop)赋予最终result = [[1], [2， 3], [4, 5, 6]], 并且把tem_stack赋予stack
  
  由于stack为[]结束循环
-```
+# ```
 
-按照这种思路有了下面的代码
+# 按照这种思路有了下面的代码
 
-```python
+# ```python
 class Solution:
     def levelOrder(self, root: TreeNode) -> List[List[int]]:        
         result = []
@@ -95,11 +95,11 @@ class Solution:
             result.append(tem_result)
             stack = next_stack
         return result
-```
+# ```
 
-运行结果
+# 运行结果
 
-```
+# ```
 执行用时 :40 ms, 在所有 Python3 提交中击败了57.84% 的用户
 内存消耗 :13.6 MB, 在所有 Python3 提交中击败了16.05%的用户
 
@@ -108,31 +108,31 @@ class Solution:
 
 执行用时 :44 ms, 在所有 Python3 提交中击败了36.46% 的用户
 内存消耗 :13.5 MB, 在所有 Python3 提交中击败了16.30%的用户
-```
+# ```
 
-我现在算进一步加深递归和迭代的区别了，上面这种就是属于迭代，因为A里面不断的调用B(泛指一些操作)
+# 我现在算进一步加深递归和迭代的区别了，上面这种就是属于迭代，因为A里面不断的调用B(泛指一些操作)
 
-下面看一下官方的解题思路
+# 下面看一下官方的解题思路
 
-## 方法2：递归-(DFS)
+# ## 方法2：递归-(DFS)
 
-看到官方递归的解题思路后，我发现我之前也有类似的想法，用一个变量来记录是第几层的情况，但是我除了这个思路对了之外剩下的都偏了（后面我就想，那深度优先遍历的时候我要怎么记录之间的关系啥的，越想越乱，于是放弃）。
+# 看到官方递归的解题思路后，我发现我之前也有类似的想法，用一个变量来记录是第几层的情况，但是我除了这个思路对了之外剩下的都偏了（后面我就想，那深度优先遍历的时候我要怎么记录之间的关系啥的，越想越乱，于是放弃）。
 
-看了一下思路，有一点个人觉得十分重要，那就是`if len(result) == level: result.append([])`
+# 看了一下思路，有一点个人觉得十分重要，那就是`if len(result) == level: result.append([])`
 
-之前我到这里就有两点疑惑：
+# 之前我到这里就有两点疑惑：
 
-> 1.为啥是结果的长度等于新的层级的时候去创建这一层的结果
->
-> 2.假如是只有两层的完全二叉树，那遇到左节点后创建新的一层，那右边呢？
+# > 1.为啥是结果的长度等于新的层级的时候去创建这一层的结果
+# >
+# > 2.假如是只有两层的完全二叉树，那遇到左节点后创建新的一层，那右边呢？
 
-那先说第一点，拿几个例子就知道了，当 level=0的时候len(result)=0，所以要加一个[],。因为当level=1的时候，这时len(result)还是0，当是明显这里需要创建新的一层用于存储数据。所以当遇到新的level的时候要创建对应得层级
+# 那先说第一点，拿几个例子就知道了，当 level=0的时候len(result)=0，所以要加一个[],。因为当level=1的时候，这时len(result)还是0，当是明显这里需要创建新的一层用于存储数据。所以当遇到新的level的时候要创建对应得层级
 
-那再说第一点，这点更简单，left创建新的一层的时候，len(result)就已经是大于>right当前的level了，简单来说就是，因为left的时候append了[]， 所以right的时候就不会append（len(result)>level）
+# 那再说第一点，这点更简单，left创建新的一层的时候，len(result)就已经是大于>right当前的level了，简单来说就是，因为left的时候append了[]， 所以right的时候就不会append（len(result)>level）
 
-于是理解了关键的语句剩下的就不是问题了。
+# 于是理解了关键的语句剩下的就不是问题了。
 
-```python
+# ```python
 class Solution:
     def levelOrder(self, root: TreeNode) -> List[List[int]]:        
         result = []
@@ -146,11 +146,11 @@ class Solution:
         if root.left: self.help(root.left, level + 1, result)
         if root.right: self.help(root.right, level + 1, result)
         return result
-```
+# ```
 
-运行结果
+# 运行结果
 
-```
+# ```
 执行用时 :44 ms, 在所有 Python3 提交中击败了36.54% 的用户
 内存消耗 :14.2 MB, 在所有 Python3 提交中击败了5.57%的用户
 
@@ -159,8 +159,8 @@ class Solution:
 
 执行用时 :36 ms, 在所有 Python3 提交中击败了78.68% 的用户
 内存消耗 :14 MB, 在所有 Python3 提交中击败了9.03%的用户
-```
+# ```
 
-欢迎来github上看更多题目的解答[力扣解题思路](https://github.com/WRAllen/LeetCode)
+# 欢迎来github上看更多题目的解答[力扣解题思路](https://github.com/WRAllen/LeetCode)
 
   

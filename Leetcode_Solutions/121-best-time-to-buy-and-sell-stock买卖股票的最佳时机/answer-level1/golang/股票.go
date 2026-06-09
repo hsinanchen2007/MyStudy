@@ -1,8 +1,8 @@
-### 解题思路
-打卡
-### 代码
+// ### 解题思路
+// 打卡
+// ### 代码
 
-```golang
+// ```golang
 func maxProfit(prices []int) int {
     n:=len(prices)
     if n<=1{
@@ -23,4 +23,4 @@ func maxProfit(prices []int) int {
     }
     return res
 }
-```
+// ```

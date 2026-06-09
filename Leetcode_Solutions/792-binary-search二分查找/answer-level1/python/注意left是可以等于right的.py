@@ -1,10 +1,10 @@
-### 解题思路
-1、注意left是可以等于right的，当最后只有一个元素的时候，可以这样得到；
-2、每次的mid等于(left+right)/2，不是right-left，而是相加
+# ### 解题思路
+# 1、注意left是可以等于right的，当最后只有一个元素的时候，可以这样得到；
+# 2、每次的mid等于(left+right)/2，不是right-left，而是相加
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def search(self, nums, target):
         """
@@ -26,4 +26,4 @@ class Solution(object):
                 right = mid - 1
         return -1
 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-将所有数据绑定成桶，再进行处理
+// ### 解题思路
+// 将所有数据绑定成桶，再进行处理
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numMatchingSubseq(string S, vector<string>& words) {
@@ -42,4 +42,4 @@ public:
         return count;
     }
 };
-```
+// ```

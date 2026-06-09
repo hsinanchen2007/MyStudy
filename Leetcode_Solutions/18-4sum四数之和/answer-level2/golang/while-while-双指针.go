@@ -1,5 +1,5 @@
 
-```golang
+// ```golang
 func fourSum(nums []int, target int) [][]int {
     //排序
     sort.Ints(nums)
@@ -67,4 +67,4 @@ func fourSum(nums []int, target int) [][]int {
     }
     return ans
 }
-```
+// ```

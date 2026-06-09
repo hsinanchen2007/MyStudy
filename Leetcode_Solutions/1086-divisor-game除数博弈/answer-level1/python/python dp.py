@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def divisorGame(self, N: int) -> bool:
         if N == 1:
@@ -36,4 +36,4 @@ class Solution:
             else:
                 dp[nth] = False
         return dp[-1]
-```
+# ```

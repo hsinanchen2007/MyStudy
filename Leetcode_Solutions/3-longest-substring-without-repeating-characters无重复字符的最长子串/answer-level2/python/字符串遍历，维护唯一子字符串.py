@@ -1,9 +1,9 @@
-### 解题思路
-子字符串头尾增减维护
+# ### 解题思路
+# 子字符串头尾增减维护
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def lengthOfLongestSubstring(self, s):
        lstr = ''
@@ -21,4 +21,4 @@ class Solution:
                     max_len = len(lstr)
        return max_len
             
-```
+# ```

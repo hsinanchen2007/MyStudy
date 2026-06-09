@@ -1,9 +1,9 @@
-### 解题思路
-减去相加面
+// ### 解题思路
+// 减去相加面
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int min(int a, int b)
 {
     return a < b ? a : b;
@@ -26,4 +26,4 @@ int surfaceArea(int** grid, int gridSize, int* gridColSize){
     }
     return area;
 }
-```
+// ```

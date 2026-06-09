@@ -1,4 +1,4 @@
-```
+// ```
 private boolean check(char[] array, int i, int j) {
         while(i < j) {
             if (array[i++] != array[j--]) {
@@ -59,4 +59,4 @@ private boolean check(char[] array, int i, int j) {
         }
         return res;
     }
-```
+// ```

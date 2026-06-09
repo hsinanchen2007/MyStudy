@@ -1,9 +1,9 @@
-### 解题思路
-按位拆开到数组再比较
+// ### 解题思路
+// 按位拆开到数组再比较
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isPalindrome(int x){
     if(x < 0)
         return false;
@@ -21,4 +21,4 @@ bool isPalindrome(int x){
     }
     return true;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-使用C++中String字符串函数，str.substr(pos, n)提取从pos位置开始的n个字符，str.earse(pos, n)删除从pos位置开始的n个字符，然后拼接即可。
+// ### 解题思路
+// 使用C++中String字符串函数，str.substr(pos, n)提取从pos位置开始的n个字符，str.earse(pos, n)删除从pos位置开始的n个字符，然后拼接即可。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string reverseLeftWords(string s, int n) {
@@ -13,4 +13,4 @@ public:
         return ans;
     }
 };
-```
+// ```

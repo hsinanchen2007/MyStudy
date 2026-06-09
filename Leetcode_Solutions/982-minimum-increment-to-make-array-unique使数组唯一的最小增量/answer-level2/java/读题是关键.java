@@ -1,9 +1,9 @@
-### 解题思路
-如下
+// ### 解题思路
+// 如下
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minIncrementForUnique(int[] A) {
 		Arrays.sort(A);       //先排序
@@ -20,4 +20,4 @@ class Solution {
 
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```c
+// ```c
 #define SIZE 26
 #define MAX(a, b) ((a) < (b) ? (b) : (a))
 #define MIN(a, b) ((a) > (b) ? (b) : (a))
@@ -51,4 +51,4 @@ int maxLength(char ** arr, int arrSize){
     return Dfs(arr, arrSize, 0);
 }
 
-```
+// ```

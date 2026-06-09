@@ -1,10 +1,10 @@
-### 解题思路
-统计每种元素个数
-计算最大公约数
+# ### 解题思路
+# 统计每种元素个数
+# 计算最大公约数
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def hasGroupsSizeX(self, deck: List[int]) -> bool:
         #判断是否无重复元素
@@ -29,4 +29,4 @@ class Solution:
         if gys == 1:
             return False
         return True
-```
+# ```

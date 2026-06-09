@@ -1,12 +1,12 @@
-#### 方法一：分治
+# #### 方法一：分治
 
-我们将这个问题分解成一系列子问题。例如，对于数字 `1234567890`，我们将它从低位开始每三个分成一组，得到 `1,234,567,890`，它的英文表示为 `1 Billion 234 Million 567 Thousand 890`。这样我们就将原问题分解成若干个三位整数转换为英文表示的问题了。
+# 我们将这个问题分解成一系列子问题。例如，对于数字 `1234567890`，我们将它从低位开始每三个分成一组，得到 `1,234,567,890`，它的英文表示为 `1 Billion 234 Million 567 Thousand 890`。这样我们就将原问题分解成若干个三位整数转换为英文表示的问题了。
 
-接下来，我们可以继续将三位整数分解，例如数字 `234` 可以分别成百位 `2` 和十位个位 `34`，它的英文表示为 `2 Hundred 34`。这样我们继续将原问题分解成一位整数和两位整数的英文表示。其中一位整数的表示是很容易的，而两位整数中除了 `10` 到 `19` 以外，其余整数的的表示可以分解成两个一位整数的表示，这样问题就被圆满地解决了。下面的幻灯片中给出了 `1234567890` 得到英文表示的例子。
+# 接下来，我们可以继续将三位整数分解，例如数字 `234` 可以分别成百位 `2` 和十位个位 `34`，它的英文表示为 `2 Hundred 34`。这样我们继续将原问题分解成一位整数和两位整数的英文表示。其中一位整数的表示是很容易的，而两位整数中除了 `10` 到 `19` 以外，其余整数的的表示可以分解成两个一位整数的表示，这样问题就被圆满地解决了。下面的幻灯片中给出了 `1234567890` 得到英文表示的例子。
 
-<![1200](https://pic.leetcode-cn.com/Figures/273/273_slide_3.png),![1200](https://pic.leetcode-cn.com/Figures/273/273_slide_4.png),![1200](https://pic.leetcode-cn.com/Figures/273/273_slide_5.png),![1200](https://pic.leetcode-cn.com/Figures/273/273_slide_6.png),![1200](https://pic.leetcode-cn.com/Figures/273/273_slide_7.png),![1200](https://pic.leetcode-cn.com/Figures/273/273_slide_8.png),![1200](https://pic.leetcode-cn.com/Figures/273/273_slide_9.png),![1200](https://pic.leetcode-cn.com/Figures/273/273_slide_10.png),![1200](https://pic.leetcode-cn.com/Figures/273/273_slide_11.png),![1200](https://pic.leetcode-cn.com/Figures/273/273_slide_12.png),![1200](https://pic.leetcode-cn.com/Figures/273/273_slide_13.png)>
+# <![1200](https://pic.leetcode-cn.com/Figures/273/273_slide_3.png),![1200](https://pic.leetcode-cn.com/Figures/273/273_slide_4.png),![1200](https://pic.leetcode-cn.com/Figures/273/273_slide_5.png),![1200](https://pic.leetcode-cn.com/Figures/273/273_slide_6.png),![1200](https://pic.leetcode-cn.com/Figures/273/273_slide_7.png),![1200](https://pic.leetcode-cn.com/Figures/273/273_slide_8.png),![1200](https://pic.leetcode-cn.com/Figures/273/273_slide_9.png),![1200](https://pic.leetcode-cn.com/Figures/273/273_slide_10.png),![1200](https://pic.leetcode-cn.com/Figures/273/273_slide_11.png),![1200](https://pic.leetcode-cn.com/Figures/273/273_slide_12.png),![1200](https://pic.leetcode-cn.com/Figures/273/273_slide_13.png)>
 
-```Java []
+# ```Java []
 class Solution {
     public String one(int num) {
         switch(num) {
@@ -113,9 +113,9 @@ class Solution {
         return result;
     }
 }
-```
+# ```
 
-```Python []
+# ```Python []
 class Solution:
     def numberToWords(self, num):
         """
@@ -207,9 +207,9 @@ class Solution:
             result += ' ' if result else ''
             result += three(rest)
         return result
-```
+# ```
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度：$O(N)$。其中 $N$ 是输入整数的长度。由于输出的英文表示长度和输入整数的长度是成正比的，因此时间复杂度为 $O(N)$。
-* 空间复杂度：$O(1)$。
+# * 时间复杂度：$O(N)$。其中 $N$ 是输入整数的长度。由于输出的英文表示长度和输入整数的长度是成正比的，因此时间复杂度为 $O(N)$。
+# * 空间复杂度：$O(1)$。

@@ -1,10 +1,10 @@
-思路：
-1、只关注minSize即可，因为如果长度为maxSize的字串出现了N次那么长度为minSize的字串出现次数也会是N
-而题目要求返回出现次数最大的任意子串。
-2、确定了长度以后就可以维护一个固定大小的滑动窗口去统计满足条件（不同字母的数目小于等于maxLetters）的
-子串的出现次数了，统计次数可以借助map来做。
-3、最后取个次数的最大值即可。
-```
+// 思路：
+// 1、只关注minSize即可，因为如果长度为maxSize的字串出现了N次那么长度为minSize的字串出现次数也会是N
+// 而题目要求返回出现次数最大的任意子串。
+// 2、确定了长度以后就可以维护一个固定大小的滑动窗口去统计满足条件（不同字母的数目小于等于maxLetters）的
+// 子串的出现次数了，统计次数可以借助map来做。
+// 3、最后取个次数的最大值即可。
+// ```
     public int maxFreq(String s, int maxLetters, int minSize, int maxSize) {
         char[] chars = s.toCharArray();
         Map<String, Integer> map = new HashMap<>();
@@ -30,4 +30,4 @@
         }
         return set.size();
     }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func largestSumAfterKNegations(A []int, K int) int {
 	for K>0{
 		sort.Ints(A)
@@ -16,4 +16,4 @@ func largestSumAfterKNegations(A []int, K int) int {
 	}
 	return res
 }
-```
+// ```

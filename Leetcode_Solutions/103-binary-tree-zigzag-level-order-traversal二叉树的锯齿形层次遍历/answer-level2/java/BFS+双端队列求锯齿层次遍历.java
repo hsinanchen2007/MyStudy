@@ -1,19 +1,19 @@
-### 解题思路
-层次遍历->显然是BFS
-**BFS模板**
-1. 申请队列
-2. 队列初始化
-3. 队列不为空{取出元素，一顿操作，满足条件加入队列}
-**锯齿型遍历**
-- 需要layer指示是奇数层还是偶数层
-- 需要用到双端队列deque
-**- *先入队列，再出队列*
-- *奇数层 offerFirst pollFirst 先右子树，再左子树；*
-- *偶数层 offerLast pollLast 先左子树，再右子树；***
+// ### 解题思路
+// 层次遍历->显然是BFS
+// **BFS模板**
+// 1. 申请队列
+// 2. 队列初始化
+// 3. 队列不为空{取出元素，一顿操作，满足条件加入队列}
+// **锯齿型遍历**
+// - 需要layer指示是奇数层还是偶数层
+// - 需要用到双端队列deque
+// **- *先入队列，再出队列*
+// - *奇数层 offerFirst pollFirst 先右子树，再左子树；*
+// - *偶数层 offerLast pollLast 先左子树，再右子树；***
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
         List<List<Integer>> ans = new LinkedList<List<Integer>>();
@@ -60,4 +60,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

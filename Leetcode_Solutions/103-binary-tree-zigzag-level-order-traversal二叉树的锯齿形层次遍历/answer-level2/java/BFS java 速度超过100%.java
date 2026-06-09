@@ -1,11 +1,11 @@
-矩形层次遍历其实只是在遍历的基础上进行了方形的判断。
-当从左向右，只需要将层次遍历从0->n-1即可，当从右向左的时候从n-1 -> 0，然后添加到数组的时候，每次进行insert到索引0️⃣，这样子数组存储的node也是按照从左→右的顺序。
+// 矩形层次遍历其实只是在遍历的基础上进行了方形的判断。
+// 当从左向右，只需要将层次遍历从0->n-1即可，当从右向左的时候从n-1 -> 0，然后添加到数组的时候，每次进行insert到索引0️⃣，这样子数组存储的node也是按照从左→右的顺序。
 
-java 速度超过100%
+// java 速度超过100%
 
-[github leetcode 各种题解 欢迎start 欢迎交流](https://github.com/ifgyong/leetCode/wiki/%5Bleetcode--0103%5D%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E9%94%AF%E9%BD%BF%E5%BD%A2%E5%B1%82%E6%AC%A1%E9%81%8D%E5%8E%86)
+// [github leetcode 各种题解 欢迎start 欢迎交流](https://github.com/ifgyong/leetCode/wiki/%5Bleetcode--0103%5D%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E9%94%AF%E9%BD%BF%E5%BD%A2%E5%B1%82%E6%AC%A1%E9%81%8D%E5%8E%86)
 
-```
+// ```
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -63,4 +63,4 @@ class Solution {
         return ret;
     }
 }
-```
+// ```

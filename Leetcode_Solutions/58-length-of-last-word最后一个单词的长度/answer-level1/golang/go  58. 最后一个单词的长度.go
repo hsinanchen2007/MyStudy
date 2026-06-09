@@ -1,4 +1,4 @@
-```
+// ```
 func lengthOfLastWord(str string) int {
 	len := len(str)
 	if len == 0 {
@@ -18,4 +18,4 @@ func lengthOfLastWord(str string) int {
 
 	return len
 }
-```
+// ```

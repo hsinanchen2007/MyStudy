@@ -1,6 +1,6 @@
-#### 思路（转字符串）
-将`x`转成字符串。
-```
+// #### 思路（转字符串）
+// 将`x`转成字符串。
+// ```
 var isPalindrome = function(x) {
     // 判断特殊情况
     if (x < 0) return false;
@@ -15,11 +15,11 @@ var isPalindrome = function(x) {
     }
     return true;
 };
-```
-#### 进阶
-取出`x`的每位上的数，放到数组中，用思路一的方式判断。
-#### 代码
-```
+// ```
+// #### 进阶
+// 取出`x`的每位上的数，放到数组中，用思路一的方式判断。
+// #### 代码
+// ```
 var isPalindrome = function(x) {
     if (x < 0) return false;
     if (x === 0) return true;
@@ -40,4 +40,4 @@ var isPalindrome = function(x) {
     }
     return true;
 };
-```
+// ```

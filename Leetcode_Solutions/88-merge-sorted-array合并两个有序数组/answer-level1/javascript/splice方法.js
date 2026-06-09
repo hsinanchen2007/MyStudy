@@ -1,9 +1,9 @@
-### 解题思路
-splice可以用来删除，改变，替换原数组，nums1删除m之后的元素，nums2删除n之后的元素，这时nums1与nums2就符合条件了，将nums2元素添加到nums1,对nums1排序
+// ### 解题思路
+// splice可以用来删除，改变，替换原数组，nums1删除m之后的元素，nums2删除n之后的元素，这时nums1与nums2就符合条件了，将nums2元素添加到nums1,对nums1排序
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums1
  * @param {number} m
@@ -30,4 +30,4 @@ var merge = function (nums1, m, nums2, n) {
         }
     })
 };
-```
+// ```

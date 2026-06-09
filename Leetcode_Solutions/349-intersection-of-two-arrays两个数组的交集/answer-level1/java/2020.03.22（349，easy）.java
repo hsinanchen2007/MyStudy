@@ -1,15 +1,15 @@
-### 解题思路
-本题是典型的 使用`Set`查找存放**非重复元素**的容器
+// ### 解题思路
+// 本题是典型的 使用`Set`查找存放**非重复元素**的容器
 
-- 定义一个记录`nums2`中的元素种类的`record`的`Set`
+// - 定义一个记录`nums2`中的元素种类的`record`的`Set`
 
-- 再定义一个确立最终元素的`result`的`Set`，通过比较`nums1`和`nums2`，将**相同种类的元素**放入到`result`中
+// - 再定义一个确立最终元素的`result`的`Set`，通过比较`nums1`和`nums2`，将**相同种类的元素**放入到`result`中
 
-- 最后定义一个**接收结果**的`ans`数组，通过遍历`result`中已经确立的元素种类依次放入`ans`数组即可。
+// - 最后定义一个**接收结果**的`ans`数组，通过遍历`result`中已经确立的元素种类依次放入`ans`数组即可。
 
-### 代码
+// ### 代码
 
-```java []
+// ```java []
 class Solution {
     public int[] intersection(int[] nums1, int[] nums2) {
         
@@ -39,4 +39,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

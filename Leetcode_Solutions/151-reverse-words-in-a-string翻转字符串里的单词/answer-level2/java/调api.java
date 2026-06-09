@@ -1,9 +1,9 @@
-### 解题思路
-先对原字符串拆分，再逆序拼接，去除尾部空格即可。
+// ### 解题思路
+// 先对原字符串拆分，再逆序拼接，去除尾部空格即可。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String reverseWords(String s) {
         StringBuilder ans = new StringBuilder("");
@@ -22,4 +22,4 @@ class Solution {
         }
         return ans.trim();
 */
-```
+// ```

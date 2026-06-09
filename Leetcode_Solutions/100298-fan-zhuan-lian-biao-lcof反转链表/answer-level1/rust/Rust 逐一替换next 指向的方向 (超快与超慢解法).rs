@@ -1,5 +1,5 @@
-0ms
-```rs
+// 0ms
+// ```rs
 impl Solution {
     pub fn reverse_list(head: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
         let mut last = None;
@@ -17,14 +17,14 @@ impl Solution {
         last 
     }
 }
-```
+// ```
 
-对指针的复制(Copy)是很廉价的.
+// 对指针的复制(Copy)是很廉价的.
 
-## 下面是一个错误例子
+// ## 下面是一个错误例子
 
-516ms
-```rs
+// 516ms
+// ```rs
 impl Solution {
     pub fn reverse_list(head: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
         let mut last = None;
@@ -43,4 +43,4 @@ impl Solution {
         last 
     }
 }
-```
+// ```

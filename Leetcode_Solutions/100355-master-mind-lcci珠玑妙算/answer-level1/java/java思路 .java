@@ -1,9 +1,9 @@
-### 解题思路
-c表示猜中的次数，通过直接比较获得。在除开猜中的情形中去计算伪猜中的次数，数组s,t分别表示solution和guess中字母出现的次数，取其中小的值表示伪猜中的次数，伪猜中的次数需要全部相加起来。
+// ### 解题思路
+// c表示猜中的次数，通过直接比较获得。在除开猜中的情形中去计算伪猜中的次数，数组s,t分别表示solution和guess中字母出现的次数，取其中小的值表示伪猜中的次数，伪猜中的次数需要全部相加起来。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] masterMind(String solution, String guess) {
         char [] color = new char[]{'R','Y','G','B'};
@@ -37,4 +37,4 @@ class Solution {
         return num;
     }
 }
-```
+// ```

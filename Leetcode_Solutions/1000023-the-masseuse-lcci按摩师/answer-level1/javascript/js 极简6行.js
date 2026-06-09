@@ -1,5 +1,5 @@
- 极简6行搞定
-```js
+//  极简6行搞定
+// ```js
 /**
  * @param {number[]} nums
  * @return {number}
@@ -12,4 +12,4 @@ var massage = function(nums) {
         [a, b] = [b, Math.max(b, a + nums[i])];
     return b || a;
 };
-```
+// ```

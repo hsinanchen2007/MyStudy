@@ -1,4 +1,4 @@
-````
+// ````
 func arrangeCoins(n int) int {
 	if n == 0 {
 		return 0
@@ -17,4 +17,4 @@ func arrangeCoins(n int) int {
 	}
 	return left - 1
 }
-````
+// ````

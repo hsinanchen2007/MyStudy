@@ -1,10 +1,10 @@
-### 解题思路
-使用两个数组,left_max,right_max用来提前存储好从i点开始的左侧最高与右侧最高，
-这样就可以在循环中直接查询，减少查询次数。
+// ### 解题思路
+// 使用两个数组,left_max,right_max用来提前存储好从i点开始的左侧最高与右侧最高，
+// 这样就可以在循环中直接查询，减少查询次数。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 int trap(vector<int>& height)
@@ -29,4 +29,4 @@ int trap(vector<int>& height)
 }
 };
 
-```
+// ```

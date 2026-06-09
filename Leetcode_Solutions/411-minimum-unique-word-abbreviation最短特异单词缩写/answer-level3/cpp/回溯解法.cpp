@@ -1,9 +1,9 @@
-### 解题思路
-深搜解法
+// ### 解题思路
+// 深搜解法
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string minAbbreviation(string target, vector<string>& dictionary) {
@@ -91,4 +91,4 @@ auto _ = [](){
     cout.tie(0);
     return 0;
 }();
-```
+// ```

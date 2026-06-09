@@ -1,16 +1,16 @@
-用递归
+# 用递归
 
-尝试使用解决递归的三步骤
+# 尝试使用解决递归的三步骤
 
-1.*找到结束条件*
+# 1.*找到结束条件*
 
-2.*找到返回值*
+# 2.*找到返回值*
 
-3.*本次递归做什么*
+# 3.*本次递归做什么*
 
-用下面例子来做解释
+# 用下面例子来做解释
 
-```python
+# ```python
 class Solution:
     def maxDepth(self, root: TreeNode) -> int:
         # 结束条件
@@ -20,11 +20,11 @@ class Solution:
         right_deep = self.maxDepth(root.right)
         # 返回值
         return max(left_deep, right_deep) + 1
-```
+# ```
 
-运行结果
+# 运行结果
 
-```
+# ```
 执行用时 :52 ms, 在所有 python3 提交中击败了77.94% 的用户
 内存消耗 :14.4 MB, 在所有 python3 提交中击败了94.34%的用户
 
@@ -33,18 +33,18 @@ class Solution:
 
 执行用时 :44 ms, 在所有 python3 提交中击败了96.43% 的用户
 内存消耗 :14.4 MB, 在所有 python3 提交中击败了93.82%的用户
-```
+# ```
 
 
 
-递归递归，只要考虑本次做什么，返回什么就好，不要去想下一层要做什么，这样只会越陷越深
+# 递归递归，只要考虑本次做什么，返回什么就好，不要去想下一层要做什么，这样只会越陷越深
 
-更pythonic的代码
+# 更pythonic的代码
 
-```python
+# ```python
 class Solution:
     def maxDepth(self, root: TreeNode) -> int:
         return max(self.maxDepth(root.left), self.maxDepth(root.right)) + 1 if root != None else 0
-```
+# ```
 
-欢迎来github上看更多题目的解答[力扣解题思路](https://github.com/WRAllen/LeetCode)
+# 欢迎来github上看更多题目的解答[力扣解题思路](https://github.com/WRAllen/LeetCode)

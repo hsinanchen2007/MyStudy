@@ -1,6 +1,6 @@
-时间复杂度为 `O(n)`：每个元素被处理2次，添加到索引数组 `indexs`  中和从索引数组中删除。
+# 时间复杂度为 `O(n)`：每个元素被处理2次，添加到索引数组 `indexs`  中和从索引数组中删除。
 
-```python
+# ```python
 class Solution:
     def maxSlidingWindow(self, nums, k: int):
         if nums is None or len(nums) == 0:
@@ -22,4 +22,4 @@ class Solution:
             if i >= k-1:
                 res.append(nums[indexs[0]])
         return res
-```
+# ```

@@ -1,11 +1,11 @@
-### 解题思路
-排序后用双指针。
-其中用tmpP指向比low大1的最低位置
-![image.png](https://pic.leetcode-cn.com/e3430ca5bd492f815d8876604f600a8663779019e6d9a52284f7dcbd70855960-image.png)
+// ### 解题思路
+// 排序后用双指针。
+// 其中用tmpP指向比low大1的最低位置
+// ![image.png](https://pic.leetcode-cn.com/e3430ca5bd492f815d8876604f600a8663779019e6d9a52284f7dcbd70855960-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findLHS(vector<int>& nums) {
@@ -30,4 +30,4 @@ public:
         return tmpP!=0 && res<high-low ? high-low : res;
     }
 };
-```
+// ```

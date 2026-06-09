@@ -1,4 +1,4 @@
-```
+// ```
 class Logger {
     function __construct() {
         $this->map = [];
@@ -9,4 +9,4 @@ class Logger {
         return true;
     }
 }
-```
+// ```

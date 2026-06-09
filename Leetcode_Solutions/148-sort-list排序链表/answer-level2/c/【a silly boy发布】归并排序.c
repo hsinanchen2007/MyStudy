@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -124,4 +124,4 @@ struct ListNode* sortList(struct ListNode* head){
     free(tmp);
     return head;
 }
-```
+// ```

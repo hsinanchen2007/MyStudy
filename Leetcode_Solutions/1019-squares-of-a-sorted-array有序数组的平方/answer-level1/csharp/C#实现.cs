@@ -1,9 +1,9 @@
-### 解题思路
-没啥思路，直接求出平方放组里，然后懒的写排序了  直接用微软自带的排一下
+// ### 解题思路
+// 没啥思路，直接求出平方放组里，然后懒的写排序了  直接用微软自带的排一下
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int[] SortedSquares(int[] A) {
         List<int> b = new List<int>();
@@ -15,4 +15,4 @@ public class Solution {
         return b.ToArray();
     }
 }
-```
+// ```

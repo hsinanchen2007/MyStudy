@@ -1,9 +1,9 @@
-### 解题思路
-新建一链表，遍历那两链表，比较大小，写入新链表
+// ### 解题思路
+// 新建一链表，遍历那两链表，比较大小，写入新链表
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 
 class Solution {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
@@ -29,4 +29,4 @@ class Solution {
 
 
 
-```
+// ```

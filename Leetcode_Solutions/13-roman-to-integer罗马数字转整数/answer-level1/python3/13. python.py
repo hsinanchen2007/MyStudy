@@ -1,9 +1,9 @@
-### 解题思路
-对于前面的数小于后面的数，采用先减后加的方法，同时最后一位数恒为加
+# ### 解题思路
+# 对于前面的数小于后面的数，采用先减后加的方法，同时最后一位数恒为加
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def romanToInt(self, s: str) -> int:
         # 对于前面的数小于后面的数，采用先减后加的方法，同时最后一位数恒为加
@@ -19,4 +19,4 @@ class Solution:
             else:
                 sums += dict_[s[i]]
         return sums
-```
+# ```

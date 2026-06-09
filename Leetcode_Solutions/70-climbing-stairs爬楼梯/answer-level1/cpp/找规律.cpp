@@ -1,9 +1,9 @@
-### 解题思路
-先找规律
+// ### 解题思路
+// 先找规律
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int climbStairs(int n) {
@@ -18,4 +18,4 @@ public:
         return i2;
     }
 };
-```
+// ```

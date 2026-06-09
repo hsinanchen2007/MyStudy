@@ -1,9 +1,9 @@
-### 解题思路
-分别获取两个树的子序列，然后进行进行对比即可。
+// ### 解题思路
+// 分别获取两个树的子序列，然后进行进行对比即可。
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -50,4 +50,4 @@ public class Solution {
             GetLeafs(root.right, list);
         }
 }
-```
+// ```

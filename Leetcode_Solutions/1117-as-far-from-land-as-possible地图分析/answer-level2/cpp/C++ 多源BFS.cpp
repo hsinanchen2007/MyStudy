@@ -1,5 +1,5 @@
-首先是优化版，修改了原始数组，将横坐标和纵坐标简化成一个整数，节省了空间和时间。在访问海洋的同时，记录起始海岛的距离。
-```
+// 首先是优化版，修改了原始数组，将横坐标和纵坐标简化成一个整数，节省了空间和时间。在访问海洋的同时，记录起始海岛的距离。
+// ```
 int maxDistance(vector<vector<int>>& grid) {
         int m=grid.size(),n=grid[0].size();
         if(m==0 || n==0)
@@ -37,10 +37,10 @@ int maxDistance(vector<vector<int>>& grid) {
         }
         return abs(cur.first/n-cur.second/n)+abs(cur.first%n-cur.second%n);
     }
-```
-然后是原始版，未修改数组的，最初版本。
+// ```
+// 然后是原始版，未修改数组的，最初版本。
 
-```
+// ```
 int maxDistance(vector<vector<int>>& grid) {
         int m=grid.size(),n=grid[0].size();
         if(m==0 || n==0)
@@ -84,4 +84,4 @@ int maxDistance(vector<vector<int>>& grid) {
             }
         return dist;
     }
-```
+// ```

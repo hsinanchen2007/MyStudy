@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type MyQueue struct {
 	in  []int
 	out []int
@@ -57,4 +57,4 @@ func (this *MyQueue) Empty() bool {
 	}
 	return true
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此题较简单，主要是不要弄混了进位相加的顺序
+// ### 解题思路
+// 此题较简单，主要是不要弄混了进位相加的顺序
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -65,4 +65,4 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
     }
     return ret->next;
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-左括号入栈， 右括号出栈
-时间复杂度：O（n）
-空间复杂度：O（n）
+# ### 解题思路
+# 左括号入栈， 右括号出栈
+# 时间复杂度：O（n）
+# 空间复杂度：O（n）
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import queue
 class Solution:
     dct = {
@@ -27,4 +27,4 @@ class Solution:
             return True
         return False
 
-```
+# ```

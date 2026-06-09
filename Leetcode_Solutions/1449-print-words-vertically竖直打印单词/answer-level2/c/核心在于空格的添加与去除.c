@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/eb7af40e32c4a8a824c42fd7b4af9c71df1d37b2223710cad069a17700f34a83-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/eb7af40e32c4a8a824c42fd7b4af9c71df1d37b2223710cad069a17700f34a83-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define  NUM 201
 /**
  * Note: The returned array must be malloced, assume caller calls free().
@@ -71,4 +71,4 @@ char ** printVertically(char * s, int* returnSize){
     *returnSize = col ;
     return res;
 }
-```
+// ```

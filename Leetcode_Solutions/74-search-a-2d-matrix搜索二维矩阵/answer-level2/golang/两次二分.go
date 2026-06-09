@@ -1,5 +1,5 @@
-两次二分， 先找每一行最后一位数第一个大于target的数，然后在对应行，再次二分找target
-```
+// 两次二分， 先找每一行最后一位数第一个大于target的数，然后在对应行，再次二分找target
+// ```
 func searchMatrix(matrix [][]int, target int) bool {
     if len(matrix) == 0  || len(matrix[0]) == 0 {
 		return false
@@ -43,4 +43,4 @@ func halfsearch(r []int, target int) bool {
 	}
 	return false
 }
-```
+// ```

@@ -1,8 +1,8 @@
-![1577081370(1).png](https://pic.leetcode-cn.com/6a4fe455ef54a2a9bf573508381f286449dfb447dbfcea6f6b7d19f6cd3cf861-1577081370\(1\).png)
+// ![1577081370(1).png](https://pic.leetcode-cn.com/6a4fe455ef54a2a9bf573508381f286449dfb447dbfcea6f6b7d19f6cd3cf861-1577081370\(1\).png)
 
 
 
-```
+// ```
 public List<List<Integer>> generate(int numRows) {
 		List<List<Integer>> result = new ArrayList<>();
 		if (numRows > 0) {
@@ -23,5 +23,5 @@ public List<List<Integer>> generate(int numRows) {
 		}
 		return result;
 	}
-```
+// ```
 

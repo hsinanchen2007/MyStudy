@@ -1,4 +1,4 @@
-```go
+// ```go
 
 func buildTree(preorder []int, inorder []int) *TreeNode {
 
@@ -29,7 +29,7 @@ func getCurRootIndexInInOrder(preorder []int, inorder []int) int {
 	return -1
 }
 
-```
-另外有一个case 很奇怪，预期结果应该是前序输出的吧
+// ```
+// 另外有一个case 很奇怪，预期结果应该是前序输出的吧
 
-![屏幕快照 2020-01-12 下午11.56.13.png](https://pic.leetcode-cn.com/3faf5346aa78015fe6e98bdaaabf7e6c56c82dc663db2e4549ef65e40dd4deb3-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-01-12%20%E4%B8%8B%E5%8D%8811.56.13.png)
+// ![屏幕快照 2020-01-12 下午11.56.13.png](https://pic.leetcode-cn.com/3faf5346aa78015fe6e98bdaaabf7e6c56c82dc663db2e4549ef65e40dd4deb3-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-01-12%20%E4%B8%8B%E5%8D%8811.56.13.png)

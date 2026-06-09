@@ -1,9 +1,9 @@
-### 解题思路
-依次排查最大的字符区间
+// ### 解题思路
+// 依次排查最大的字符区间
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int lengthOfLongestSubstring(char * s){
     if(strlen(s) < 2 ){
         return strlen(s);
@@ -25,4 +25,4 @@ int lengthOfLongestSubstring(char * s){
     }
     return (max > (i - pre))?max:(i - pre);
 }
-```
+// ```

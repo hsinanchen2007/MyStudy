@@ -1,4 +1,4 @@
-```
+// ```
 struct TreeNode* mergeTrees(struct TreeNode* t1, struct TreeNode* t2){
     if(!t1&&!t2) return 0;
     if(!t1) return t2; //避空
@@ -9,4 +9,4 @@ struct TreeNode* mergeTrees(struct TreeNode* t1, struct TreeNode* t2){
     root->right=mergeTrees(t1->right,t2->right);
     return root;
 }
-```
+// ```

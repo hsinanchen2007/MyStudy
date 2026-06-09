@@ -1,6 +1,6 @@
-利用`np.pad`，方便快捷
+# 利用`np.pad`，方便快捷
 
-```python
+# ```python
 class Solution:
     def gameOfLife(self, board) -> None:
         """
@@ -17,4 +17,4 @@ class Solution:
                     board[i - 1][j - 1] = 0
                 elif ans == 3 and board[i - 1][j - 1] == 0:
                     board[i - 1][j - 1] = 1
-```
+# ```

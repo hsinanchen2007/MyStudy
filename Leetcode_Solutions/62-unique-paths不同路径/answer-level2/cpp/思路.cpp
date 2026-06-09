@@ -1,9 +1,9 @@
-### 解题思路
-注意一下 0 0 是 1就好了，其他问题不大，比较简单的dp
+// ### 解题思路
+// 注意一下 0 0 是 1就好了，其他问题不大，比较简单的dp
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int uniquePaths(int m, int n) {
@@ -24,4 +24,4 @@ public:
       return dp[n - 1][m - 1];
     }
 };
-```
+// ```

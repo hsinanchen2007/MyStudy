@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     string removeOuterParentheses(string S) {
@@ -26,5 +26,5 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/2b010e1049aff11717429ebcb5eff2b8f3de2e6b72a6e4aa35a73d60bdeebb5d-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/2b010e1049aff11717429ebcb5eff2b8f3de2e6b72a6e4aa35a73d60bdeebb5d-image.png)

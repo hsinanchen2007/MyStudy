@@ -1,21 +1,21 @@
-### 解题思路
-參考 https://leetcode-cn.com/u/tom-chan/ 在比賽(第169场周赛)中的解題代碼
-將 每個 數字轉換成十進位相加 如下:
-以 "SEND"+"MORE"="MONEY" 為例:
-  SEND=1000*S+100*E+10*N+D
-  MORE=1000*M+100*O+10*R+E
-  MONEY=10000*M+1000*O+100*N+10*E+Y
-而 SEND+MORE=MONEY 可轉換成 SEND+MORE-MONEY=0
-將每個數字轉換成十進位後, 再整理後可得 1000*S+91*E-90*N+D-9000*M-900*O+10*R+Y=0
-之後再用回溯法求其是否有解
+// ### 解题思路
+// 參考 https://leetcode-cn.com/u/tom-chan/ 在比賽(第169场周赛)中的解題代碼
+// 將 每個 數字轉換成十進位相加 如下:
+// 以 "SEND"+"MORE"="MONEY" 為例:
+//   SEND=1000*S+100*E+10*N+D
+//   MORE=1000*M+100*O+10*R+E
+//   MONEY=10000*M+1000*O+100*N+10*E+Y
+// 而 SEND+MORE=MONEY 可轉換成 SEND+MORE-MONEY=0
+// 將每個數字轉換成十進位後, 再整理後可得 1000*S+91*E-90*N+D-9000*M-900*O+10*R+Y=0
+// 之後再用回溯法求其是否有解
 
-感謝 holiday 提醒，已更新避開開頭字母為 0 的狀況。
+// 感謝 holiday 提醒，已更新避開開頭字母為 0 的狀況。
 
-![a001.PNG](https://pic.leetcode-cn.com/d25f74f578526b76a1376ada22c545fd9fc41a3ee685745140d6a09960fd4759-a001.PNG)
+// ![a001.PNG](https://pic.leetcode-cn.com/d25f74f578526b76a1376ada22c545fd9fc41a3ee685745140d6a09960fd4759-a001.PNG)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     boolean fndAns(Map<Character,Integer> hm, List<Character> chAL, Set<Character> hS, boolean[] vstd, int sum){
         if(chAL.isEmpty()) return sum==0;//若所有字母皆有對應,則比對總和是否為0
@@ -51,4 +51,4 @@ class Solution {
         return fndAns(hm,chAL,hS,new boolean[10],0);
     }
 }
-```
+// ```

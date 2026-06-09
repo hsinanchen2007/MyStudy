@@ -1,10 +1,10 @@
-### 解题思路
-单纯的计数法，求总和的三分之一，然后看子序列有几个满足的，还有要排除0的干扰，不然可能最后count>3
-![图片.png](https://pic.leetcode-cn.com/dbaacc000eb320a1da12ed62d2ea6da43055c81a2b98fa5c888957ecf6116b10-%E5%9B%BE%E7%89%87.png)
+// ### 解题思路
+// 单纯的计数法，求总和的三分之一，然后看子序列有几个满足的，还有要排除0的干扰，不然可能最后count>3
+// ![图片.png](https://pic.leetcode-cn.com/dbaacc000eb320a1da12ed62d2ea6da43055c81a2b98fa5c888957ecf6116b10-%E5%9B%BE%E7%89%87.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canThreePartsEqualSum(int[] A) {
          int a = 0;
@@ -30,4 +30,4 @@ class Solution {
 		 
     }
 }
-```
+// ```

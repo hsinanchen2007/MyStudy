@@ -1,7 +1,7 @@
 
 
 
-```go
+// ```go
 func lengthOfLongestSubstring(s string) int {
     if len(s) == 0 {
         return 0
@@ -40,4 +40,4 @@ func lengthOfLongestSubstring(s string) int {
     return max
 
 }
-```
+// ```

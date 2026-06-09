@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-因为是自顶向下递归，所以只需要判断下边界即可，就是 i == m or j == n 的边界。
+# 因为是自顶向下递归，所以只需要判断下边界即可，就是 i == m or j == n 的边界。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minPathSum(self, grid: List[List[int]]) -> int:
         m, n = len(grid), len(grid[0])
@@ -20,4 +20,4 @@ class Solution:
         recursion(0, 0)
 
         return ans[0][0]
-```
+# ```

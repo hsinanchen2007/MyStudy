@@ -1,9 +1,9 @@
-### 解题思路
-设nums[i]前的最大连续子串积max，最小min；则当前nums[i]的max为max*nums[i]、nums[i]、min*nums[i]中的最大值，min为三者的最小值
+// ### 解题思路
+// 设nums[i]前的最大连续子串积max，最小min；则当前nums[i]的max为max*nums[i]、nums[i]、min*nums[i]中的最大值，min为三者的最小值
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 #define Max(a,b)  a>b?a:b
 #define Min(a,b)  a<b?a:b
@@ -26,4 +26,4 @@ int maxProduct(int* nums, int numsSize){
     return result;
 
 }
-```
+// ```

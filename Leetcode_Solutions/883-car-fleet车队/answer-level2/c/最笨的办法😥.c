@@ -1,4 +1,4 @@
-```c
+// ```c
 int carFleet(int target, int* position, int positionSize, int* speed, int speedSize) {
     if (positionSize == 0) {
         return 0;
@@ -26,4 +26,4 @@ int carFleet(int target, int* position, int positionSize, int* speed, int speedS
     }
     return count;
 }
-```
+// ```

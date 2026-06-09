@@ -1,11 +1,11 @@
-### 解题思路
-按照左端点的值进行排序，分别以left和right记录当前生成区间的左右端点。
-如果新的区间的左端点小于right，则可以进行合并，更新right的值；
-如果新的区间的左端点大于right，则不可以合并，将当前区间写入列表，更新left和right。
+// ### 解题思路
+// 按照左端点的值进行排序，分别以left和right记录当前生成区间的左右端点。
+// 如果新的区间的左端点小于right，则可以进行合并，更新right的值；
+// 如果新的区间的左端点大于right，则不可以合并，将当前区间写入列表，更新left和right。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] merge(int[][] intervals) {
         if(intervals == null || intervals.length < 1) {
@@ -39,4 +39,4 @@ class Solution {
         return arr;
     }
 }
-```
+// ```

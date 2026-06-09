@@ -1,4 +1,4 @@
-```
+// ```
 let getLeastNumbers = function(nums, k) {
   heapSort(nums, k)
   return nums.slice(0,k)
@@ -33,4 +33,4 @@ function heapify(arr, i, len) {
     heapify(arr, largest, len)
   }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-一个循环中，每次操作两个指针（强行算作是一次遍历 以符合题目要求，当感觉效率上并没有提升
+// ### 解题思路
+// 一个循环中，每次操作两个指针（强行算作是一次遍历 以符合题目要求，当感觉效率上并没有提升
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -30,4 +30,4 @@ func removeNthFromEnd(head *ListNode, n int) *ListNode {
     deletingNode.Next = deletingNode.Next.Next
     return fakeHead.Next
 }
-```
+// ```

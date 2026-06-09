@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def canPermutePalindrome(self, s: str) -> bool:
         d=dict(collections.Counter(s))
@@ -9,4 +9,4 @@ class Solution:
                     return False
                 once=True
         return True
-```
+# ```

@@ -1,5 +1,5 @@
-从胃口大的小朋友先开始满足，一样可以获得最优解！
-```c++
+// 从胃口大的小朋友先开始满足，一样可以获得最优解！
+// ```c++
 class Solution {
 public:
     int findContentChildren(vector<int>& g, vector<int>& s) {
@@ -14,4 +14,4 @@ public:
         return count;
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
-栈的标准操作只有出栈和入栈,时间复杂度O(1),实现队列操作只需全部出栈后再入栈即可
-```
+// 栈的标准操作只有出栈和入栈,时间复杂度O(1),实现队列操作只需全部出栈后再入栈即可
+// ```
 class MyQueue {
     private $arr = null;
     private $count = 0;
@@ -59,4 +59,4 @@ class MyQueue {
         return $this->count == 0 ? true : false;
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-1. dfs/回溯 ：求全部组合。例：39. 组合总和。
-2. dp：求有多少种组合、最优组合。
-3. dfs/回溯也可以求有多少种组合或者求最优组合，当求最优组合的时候用贪心+剪枝等优化。
+// ### 解题思路
+// 1. dfs/回溯 ：求全部组合。例：39. 组合总和。
+// 2. dp：求有多少种组合、最优组合。
+// 3. dfs/回溯也可以求有多少种组合或者求最优组合，当求最优组合的时候用贪心+剪枝等优化。
 
-### 代码
-```c
+// ### 代码
+// ```c
 方法一：dfs/回溯+贪心+剪枝
 void recursion(int* coins,int coinsSize,int k,int sum,int amount,int* result){
 //该用下标为k的硬币了，sum是当前已经用了多少硬币，amount是减去已经凑的钱剩下还应该凑多少钱
@@ -40,8 +40,8 @@ int coinChange(int* coins, int coinsSize, int amount){
 
     return (result==amount+1?-1:result);
 }
-```
-```
+// ```
+// ```
 方法二：dp  (慢的一批，其实也可以先对硬币排序，可以优化很多，懒得弄了)
 int coinChange(int* coins, int coinsSize, int amount){
     if(coinsSize < 1){
@@ -59,4 +59,4 @@ int coinChange(int* coins, int coinsSize, int amount){
     }
     return (dp[amount]==amount+1?-1:dp[amount]);
 }
-```
+// ```

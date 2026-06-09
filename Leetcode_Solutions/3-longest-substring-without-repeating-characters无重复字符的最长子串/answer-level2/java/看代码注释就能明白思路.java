@@ -1,8 +1,8 @@
-### 解题思路
-看注释应该就可以理解流程，简单理解就是在遍历过程中把上个无重复子串与下个无重复子串相冲突的部分扔掉，比如 “abcbde”,那么“abc”和“cbde”冲突的“ab”扔掉
-### 代码
+// ### 解题思路
+// 看注释应该就可以理解流程，简单理解就是在遍历过程中把上个无重复子串与下个无重复子串相冲突的部分扔掉，比如 “abcbde”,那么“abc”和“cbde”冲突的“ab”扔掉
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int lengthOfLongestSubstring(String s) {
         char[] strs = s.toCharArray();
@@ -29,4 +29,4 @@ class Solution {
         return maxLength;
     }
 }
-```
+// ```

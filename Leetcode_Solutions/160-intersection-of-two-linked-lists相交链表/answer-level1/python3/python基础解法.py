@@ -1,10 +1,10 @@
-### 解题思路
-1. 双指针，将两个链表连接起来，相等的那个点就是交点
-2. 遍历headA，将所有的点存储起来，当遍历headB的时候元素出现在set中，说明有重合，第一个点就是交点
+# ### 解题思路
+# 1. 双指针，将两个链表连接起来，相等的那个点就是交点
+# 2. 遍历headA，将所有的点存储起来，当遍历headB的时候元素出现在set中，说明有重合，第一个点就是交点
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -31,4 +31,4 @@ class Solution:
                 return q
             q = q.next
         return None
-```
+# ```

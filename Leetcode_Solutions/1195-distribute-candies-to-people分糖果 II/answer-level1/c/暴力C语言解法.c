@@ -1,10 +1,10 @@
-### 解题思路
-c和其他不同的地方，就是题目给的函数参数一定要写！*returnSize=num_people;
-之前没注意一直报错
+// ### 解题思路
+// c和其他不同的地方，就是题目给的函数参数一定要写！*returnSize=num_people;
+// 之前没注意一直报错
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -29,4 +29,4 @@ int* distributeCandies(int candies, int num_people, int* returnSize){
   *returnSize=num_people;
 return ans;
 }
-```
+// ```

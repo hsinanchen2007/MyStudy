@@ -1,6 +1,6 @@
-排序后从大往小DFS，从小往大会被1，1，1，1，......这样的数据卡TLE
-一旦出现超过sum剪枝
-```
+// 排序后从大往小DFS，从小往大会被1，1，1，1，......这样的数据卡TLE
+// 一旦出现超过sum剪枝
+// ```
 class Solution {
 public:
     bool DFS(int i,int cur,int sum,vector<int>&nums){
@@ -26,4 +26,4 @@ public:
         return false;
     }
 };
-```
+// ```

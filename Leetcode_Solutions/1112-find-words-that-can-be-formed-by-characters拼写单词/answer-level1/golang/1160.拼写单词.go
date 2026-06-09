@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-用数组存放chars中每个字母出现的次数，遍历words中的每个单词，如果出现每个单词张字母的数量都小于等于该字母在chars中出现的次数，则把该单词的长度加进结果即可。
+// 用数组存放chars中每个字母出现的次数，遍历words中的每个单词，如果出现每个单词张字母的数量都小于等于该字母在chars中出现的次数，则把该单词的长度加进结果即可。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func countCharacters(words []string, chars string) int {
 	sto := make([]byte,26)
 	tmp := []byte{}
@@ -26,4 +26,4 @@ func countCharacters(words []string, chars string) int {
 	}
 	return ans
 }
-```
+// ```

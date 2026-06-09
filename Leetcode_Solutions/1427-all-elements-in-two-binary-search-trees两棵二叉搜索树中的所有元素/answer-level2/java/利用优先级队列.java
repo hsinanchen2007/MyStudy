@@ -1,6 +1,6 @@
-利用优先级队列，将两棵树中的节点添加到优先级队列中，再挨个取出。
+// 利用优先级队列，将两棵树中的节点添加到优先级队列中，再挨个取出。
 
-```
+// ```
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -31,4 +31,4 @@ class Solution {
         preorder(root.right, queue);
     }
 }
-```
+// ```

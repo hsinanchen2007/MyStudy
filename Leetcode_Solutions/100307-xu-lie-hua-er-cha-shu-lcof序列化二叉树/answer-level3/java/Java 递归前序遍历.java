@@ -1,9 +1,9 @@
-### 解题思路
-前序遍历处理，注意反序列化要有一个字段记录下标位置。
+// ### 解题思路
+// 前序遍历处理，注意反序列化要有一个字段记录下标位置。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -67,7 +67,7 @@ public class Codec {
 // Your Codec object will be instantiated and called as such:
 // Codec codec = new Codec();
 // codec.deserialize(codec.serialize(root));
-```
+// ```
 
-执行用时 :16 ms, 在所有 Java 提交中击败了79.70% 的用户
-内存消耗 :42.2 MB, 在所有 Java 提交中击败了100.00%的用户
+// 执行用时 :16 ms, 在所有 Java 提交中击败了79.70% 的用户
+// 内存消耗 :42.2 MB, 在所有 Java 提交中击败了100.00%的用户

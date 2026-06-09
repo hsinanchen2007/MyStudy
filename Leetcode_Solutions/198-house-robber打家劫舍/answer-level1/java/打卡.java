@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-令 dp[i] 表示 0 ~ i 个元素所得的最大值
-很容易得到状态转移方程  
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 令 dp[i] 表示 0 ~ i 个元素所得的最大值
+// 很容易得到状态转移方程  
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int rob(int[] nums) {
         if(nums.length == 0) {
@@ -25,4 +25,4 @@ class Solution {
         return dp[nums.length - 1];
     }
 }
-```
+// ```

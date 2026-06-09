@@ -1,4 +1,4 @@
-```swift
+// ```swift
 class Solution {
     private let map: [Character:Character] = ["1":"1","0":"0","8":"8","6":"9","9":"6"]
     private let candidate: [Character] = ["0","1","8","6","9"]
@@ -32,4 +32,4 @@ class Solution {
         return ans
     }
 }
-```
+// ```

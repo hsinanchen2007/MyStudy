@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
@@ -23,4 +23,4 @@ public:
         return max(free, cooldown);     // 最后必然不可能hold
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
-之前在哪一题看过正则的写法，尝试写了一下python的。分享下。
-```python
+# 之前在哪一题看过正则的写法，尝试写了一下python的。分享下。
+# ```python
 class Solution:
     def countAndSay(self, n: int) -> str:
         import re
@@ -13,4 +13,4 @@ class Solution:
                 return helper("".join(result), n-1)
         
         return helper("1", n)
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-小白的笨方法
+# ### 解题思路
+# 小白的笨方法
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def removeDuplicates(self, nums):
         """
@@ -21,4 +21,4 @@ class Solution(object):
                 elif nums[n]!=nums[n-1]:
                     n=n-1
         return len(nums)
-```
+# ```

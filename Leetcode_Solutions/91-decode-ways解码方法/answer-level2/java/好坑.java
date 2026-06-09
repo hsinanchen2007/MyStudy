@@ -1,14 +1,14 @@
-### 解题思路
-动态规划
-特殊情况需要处理：
-1. 10,20: dp[i] = dp[i-2]
-2. 30.40.50.60...: 0
-3. 00: 0
-4. 0: 0
+// ### 解题思路
+// 动态规划
+// 特殊情况需要处理：
+// 1. 10,20: dp[i] = dp[i-2]
+// 2. 30.40.50.60...: 0
+// 3. 00: 0
+// 4. 0: 0
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numDecodings(String s) {
         int length = s.length();
@@ -44,4 +44,4 @@ class Solution {
         return dp[length-1];
     }
 }
-```
+// ```

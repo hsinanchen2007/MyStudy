@@ -1,10 +1,10 @@
-### 解题思路
-中序遍历的序列是sorted的。
-利用快慢指针找到中间节点，左右分别构造。
+// ### 解题思路
+// 中序遍历的序列是sorted的。
+// 利用快慢指针找到中间节点，左右分别构造。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -61,4 +61,4 @@ struct TreeNode* sortedListToBST(struct ListNode* head)
     }
     return root;
 }
-```
+// ```

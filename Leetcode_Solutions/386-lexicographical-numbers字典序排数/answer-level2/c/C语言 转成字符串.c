@@ -1,11 +1,11 @@
-### 解题思路
-转成比较字符串就容易了，不过确实慢了不少
+// ### 解题思路
+// 转成比较字符串就容易了，不过确实慢了不少
 
-![image.png](https://pic.leetcode-cn.com/723f693bcf9264be57362a3870949e58f04a5a435f8cada543e3301d4b637377-image.png)
+// ![image.png](https://pic.leetcode-cn.com/723f693bcf9264be57362a3870949e58f04a5a435f8cada543e3301d4b637377-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -40,4 +40,4 @@ int* lexicalOrder(int n, int* returnSize){
     }
     return proc(n, returnSize);
 }
-```
+// ```

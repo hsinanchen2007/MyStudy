@@ -1,16 +1,16 @@
-### 解题思路
-for word in words;
-遍历word大小的循环，每次遍历整个s，维持窗口左索引,窗口最大 size=word.length * words.length
+// ### 解题思路
+// for word in words;
+// 遍历word大小的循环，每次遍历整个s，维持窗口左索引,窗口最大 size=word.length * words.length
 
-处理窗口匹配的三种情况。。
-完全匹配，去除第一个word
-无法匹配，清除，更新窗口左索引到当前窗口右索引
-word次数超出，while循环依次去除窗口左边的word，直到次数等于dict中的次数
+// 处理窗口匹配的三种情况。。
+// 完全匹配，去除第一个word
+// 无法匹配，清除，更新窗口左索引到当前窗口右索引
+// word次数超出，while循环依次去除窗口左边的word，直到次数等于dict中的次数
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> findSubstring(String s, String[] words) {
         //处理边界条件
@@ -87,4 +87,4 @@ class Solution {
 
     }
 }
-```
+// ```

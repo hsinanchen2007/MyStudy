@@ -1,6 +1,6 @@
-思路：先用‘0’补齐长度较短的字符串，再从后往前遍历
+# 思路：先用‘0’补齐长度较短的字符串，再从后往前遍历
 
-```
+# ```
 class Solution:
     def addBinary(self, a: str, b: str) -> str:
         res = ''
@@ -21,4 +21,4 @@ class Solution:
                 if not (jw == a[i] == b[i] == '0'):
                     jw = '1'
         return res if jw == '0' else '1' + res
-```
+# ```

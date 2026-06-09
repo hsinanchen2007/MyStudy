@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-首先将每种卡牌的数量，统计出来，
-然后看每种卡牌的数量，之间是否存在公约数。
+// 首先将每种卡牌的数量，统计出来，
+// 然后看每种卡牌的数量，之间是否存在公约数。
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean hasGroupsSizeX(int[] deck) {
         if(deck.length==0) return false;
@@ -35,4 +35,4 @@ class Solution {
         return a%b==0?b:gcd(b,a%b);
     }
 }
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-想问这个复杂度怎么算鸭
-### 代码
+// ### 解题思路
+// 想问这个复杂度怎么算鸭
+// ### 代码
 
-```java
+// ```java
 class Solution {
 
     int[] numL;
@@ -40,4 +40,4 @@ class Solution {
  * int[] param_1 = obj.reset();
  * int[] param_2 = obj.shuffle();
  */
-```
+// ```

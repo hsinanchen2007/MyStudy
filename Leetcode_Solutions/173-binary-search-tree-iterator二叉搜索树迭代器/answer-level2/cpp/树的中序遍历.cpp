@@ -1,9 +1,9 @@
-### 解题思路
-先把树的结点全部入队列，再从队列头部取出。
+// ### 解题思路
+// 先把树的结点全部入队列，再从队列头部取出。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -50,4 +50,4 @@ public:
  * int param_1 = obj->next();
  * bool param_2 = obj->hasNext();
  */
-```
+// ```

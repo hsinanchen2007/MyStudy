@@ -1,4 +1,4 @@
-```
+// ```
 impl Solution {
     pub fn is_palindrome(s: String) -> bool {
         let mut v = Vec::new();
@@ -22,4 +22,4 @@ impl Solution {
         true
     }
 }
-```
+// ```

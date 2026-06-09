@@ -1,17 +1,17 @@
-### 解题思路
+// ### 解题思路
 
-一次遍历，visit方法返回从该节点以下找到的BST信息，包括根节点、最大值、最小值、尺寸。为了方便返回多个值，也方便代码阅读，封装成了一个Result类。
+// 一次遍历，visit方法返回从该节点以下找到的BST信息，包括根节点、最大值、最小值、尺寸。为了方便返回多个值，也方便代码阅读，封装成了一个Result类。
 
-有几种可能：
-- 左右子树均为BST，且满足 `左子树max < node < 右子树min`，则当前树也是BST
-- 左右子树中都搜索到了BST，则返回size更大的
-- 左右子树之一搜索到了BST，则直接返回
-- 左右子树都没搜索到BST，则返回null
+// 有几种可能：
+// - 左右子树均为BST，且满足 `左子树max < node < 右子树min`，则当前树也是BST
+// - 左右子树中都搜索到了BST，则返回size更大的
+// - 左右子树之一搜索到了BST，则直接返回
+// - 左右子树都没搜索到BST，则返回null
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -64,6 +64,6 @@ class Solution {
         return null;
     }
 }
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/7185bb87e4bbff9f16a6f79b3efa028a4a4c9af7adcbf1316969e1e51881ca1a-image.png)
+// ![image.png](https://pic.leetcode-cn.com/7185bb87e4bbff9f16a6f79b3efa028a4a4c9af7adcbf1316969e1e51881ca1a-image.png)

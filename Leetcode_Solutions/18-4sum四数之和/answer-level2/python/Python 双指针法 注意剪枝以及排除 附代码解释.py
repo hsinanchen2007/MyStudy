@@ -1,14 +1,14 @@
-## 思路：
- - 使用两个循环固定两个数，用双指针找到满足题解的另外两个数。
-## 说明：
- - 使用双指针法，解法和三数之和类似
- - 运用剪枝直接排除重复解
- - 合理移动双指针直接排除非正确解
-## 重点：
-  1. 怎样剪除所有重复枝，建议使用list而非set存储结果，去debug分析有哪些重复枝是没处理好的
-  2. 怎样通过特定条件（一般是边界值）排除非正确解集，减少运算次数
-## 代码：
-```Python
+# ## 思路：
+#  - 使用两个循环固定两个数，用双指针找到满足题解的另外两个数。
+# ## 说明：
+#  - 使用双指针法，解法和三数之和类似
+#  - 运用剪枝直接排除重复解
+#  - 合理移动双指针直接排除非正确解
+# ## 重点：
+#   1. 怎样剪除所有重复枝，建议使用list而非set存储结果，去debug分析有哪些重复枝是没处理好的
+#   2. 怎样通过特定条件（一般是边界值）排除非正确解集，减少运算次数
+# ## 代码：
+# ```Python
 from typing import List
 
 
@@ -73,6 +73,6 @@ class Solution(object):
                         right -= 1
 
         return result
-```
-## 备注：
- - 往后做题发现一个很不错的关于剪枝的配图说明，建议移步参考：[回溯算法 + 剪枝（Python 代码、Java 代码）](https://leetcode-cn.com/problems/combination-sum/solution/hui-su-suan-fa-jian-zhi-python-dai-ma-java-dai-m-2/)（作者：[@liweiwei1419](https://leetcode-cn.com/u/liweiwei1419)）
+# ```
+# ## 备注：
+#  - 往后做题发现一个很不错的关于剪枝的配图说明，建议移步参考：[回溯算法 + 剪枝（Python 代码、Java 代码）](https://leetcode-cn.com/problems/combination-sum/solution/hui-su-suan-fa-jian-zhi-python-dai-ma-java-dai-m-2/)（作者：[@liweiwei1419](https://leetcode-cn.com/u/liweiwei1419)）

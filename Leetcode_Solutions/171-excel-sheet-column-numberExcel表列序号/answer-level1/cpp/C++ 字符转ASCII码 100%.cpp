@@ -1,9 +1,9 @@
-### 解题思路
-上上题的逆版本 先乘后加即可
+// ### 解题思路
+// 上上题的逆版本 先乘后加即可
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /*前题的逆版本*/
 class Solution {
     
@@ -17,5 +17,5 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/5ffcb891708ec802fb877dc2646cb6351bb61f26619b6dec282e09d07982b2dd-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/5ffcb891708ec802fb877dc2646cb6351bb61f26619b6dec282e09d07982b2dd-image.png)

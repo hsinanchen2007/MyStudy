@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def floodFill(self, image, sr, sc, newColor):
         #运动方向
@@ -28,4 +28,4 @@ class Solution(object):
                     stack.append((new_x,new_y))
         return image
 
-```
+# ```

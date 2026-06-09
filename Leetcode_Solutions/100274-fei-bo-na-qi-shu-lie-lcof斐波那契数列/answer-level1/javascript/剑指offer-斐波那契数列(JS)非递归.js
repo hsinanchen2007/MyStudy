@@ -1,4 +1,4 @@
-```js
+// ```js
 var fib = function(n) {
     let arr = [0, 1];
     for(let i = 2; i <= n; i++){
@@ -6,4 +6,4 @@ var fib = function(n) {
     }
     return arr[n] % 1000000007;
 };
-```
+// ```

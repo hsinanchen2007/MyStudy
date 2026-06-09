@@ -1,9 +1,9 @@
-### 解题思路
-要重写列名真的是很*(s)*(t)
+-- ### 解题思路
+-- 要重写列名真的是很*(s)*(t)
 
-### 代码
+-- ### 代码
 
-```mssql
+-- ```mssql
 /* Write your T-SQL query statement below */
 
 SELECT id,[Jan] AS [Jan_Revenue],[Feb] AS [Feb_Revenue],[Mar] AS [Mar_Revenue],
@@ -13,4 +13,4 @@ SELECT id,[Jan] AS [Jan_Revenue],[Feb] AS [Feb_Revenue],[Mar] AS [Mar_Revenue],
 FROM Department PIVOT (SUM(revenue) FOR month 
 IN([Jan],[Feb],[Mar],[Apr],[May],[Jun],[Jul],[Aug],[Sep],[Oct],[Nov],[Dec]))
  AS T
-```
+-- ```

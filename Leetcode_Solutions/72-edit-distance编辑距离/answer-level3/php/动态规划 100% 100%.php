@@ -1,9 +1,9 @@
-### 解题思路
-感谢[@labuladong](/u/labuladong/)的解答，终于更加清晰地理解动态规划的原理了。
+// ### 解题思路
+// 感谢[@labuladong](/u/labuladong/)的解答，终于更加清晰地理解动态规划的原理了。
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -51,4 +51,4 @@ class Solution {
         return $this->memo[$char_pos1][$char_pos2];
     }
 }
-```
+// ```

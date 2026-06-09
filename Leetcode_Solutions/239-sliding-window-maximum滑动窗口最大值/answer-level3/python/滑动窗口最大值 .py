@@ -1,7 +1,7 @@
 
 
 
-```py
+# ```py
 class Solution(object):
     def maxSlidingWindow(self, nums, k):
         """
@@ -45,4 +45,4 @@ class Solution(object):
 
 
 
-```
+# ```

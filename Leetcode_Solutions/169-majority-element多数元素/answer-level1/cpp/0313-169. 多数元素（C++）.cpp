@@ -1,9 +1,9 @@
-### 解题思路
-次数大于N/2的元素，一定在size / 2 的索引出出现
+// ### 解题思路
+// 次数大于N/2的元素，一定在size / 2 的索引出出现
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {
@@ -13,4 +13,4 @@ public:
        
     }
 };
-```
+// ```

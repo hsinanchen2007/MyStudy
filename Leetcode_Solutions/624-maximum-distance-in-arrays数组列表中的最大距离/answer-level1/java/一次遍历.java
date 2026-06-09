@@ -1,8 +1,8 @@
-JAVA:
-执行用时 :5 ms, 在所有 Java 提交中击败了100.00% 的用户
+// JAVA:
+// 执行用时 :5 ms, 在所有 Java 提交中击败了100.00% 的用户
 
-内存消耗 :46 MB, 在所有 Java 提交中击败了100.00%的用户
-```dart
+// 内存消耗 :46 MB, 在所有 Java 提交中击败了100.00%的用户
+// ```dart
 class Solution {
     public int maxDistance(List<List<Integer>> arrays) {
         
@@ -70,4 +70,4 @@ class Solution {
     }
 }
 
-```
+// ```

@@ -1,5 +1,5 @@
-最正常的思路就是先确认哪一个是长数组，哪一个是断数组，确认完之后开始相加
-```
+// 最正常的思路就是先确认哪一个是长数组，哪一个是断数组，确认完之后开始相加
+// ```
  IList<int> result = new List<int>();
 
             char[] one = K.ToString().ToCharArray();
@@ -46,4 +46,4 @@
             {
                 Console.WriteLine(item);
             }
-```
+// ```

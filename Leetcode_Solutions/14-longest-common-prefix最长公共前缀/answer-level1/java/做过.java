@@ -1,9 +1,9 @@
-### 解题思路
-en 没啥好写的，打败这么点人
+// ### 解题思路
+// en 没啥好写的，打败这么点人
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String longestCommonPrefix(String[] strs) {
         if(strs.length==0) return "";
@@ -26,4 +26,4 @@ class Solution {
 
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
 
-```
+// ```
 var lengthOfLIS = function(nums) {
         if(nums.length == 0) return 0;
         if(nums.length == 1) return 1;
@@ -19,4 +19,4 @@ var lengthOfLIS = function(nums) {
         return maxans;
 };
 
-```
+// ```

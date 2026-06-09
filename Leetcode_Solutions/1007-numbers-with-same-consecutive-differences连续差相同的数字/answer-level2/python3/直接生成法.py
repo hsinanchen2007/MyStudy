@@ -1,10 +1,10 @@
 
--   从第一位开始生成
--   每次添加下一位有效位即可
+# -   从第一位开始生成
+# -   每次添加下一位有效位即可
 
 
 
-```python
+# ```python
 class Solution:
     def numsSameConsecDiff(self, N, K):
         """
@@ -31,6 +31,6 @@ class Solution:
                     next_step.add(cur + str(num - K))
             temp_set = next_step
         return list(map(int, temp_set))
-```
+# ```
 
 

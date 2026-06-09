@@ -1,9 +1,9 @@
-### 解题思路
-递归遍历每一个节点的深度，然后比较取较小者。需要注意的是当left或right为空时，直接取另一个。
+// ### 解题思路
+// 递归遍历每一个节点的深度，然后比较取较小者。需要注意的是当left或right为空时，直接取另一个。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -24,4 +24,4 @@ int minDepth(struct TreeNode* root){
 
       return left<right?left:right;
 }
-```
+// ```

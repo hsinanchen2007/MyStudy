@@ -1,9 +1,9 @@
-### 解题思路
-全部拆掉存到字典中，然后按照规则重组。
+# ### 解题思路
+# 全部拆掉存到字典中，然后按照规则重组。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -31,4 +31,4 @@ class Solution:
             else:
                 ph.next = hash_table[i//2]
             ph = ph.next
-```
+# ```

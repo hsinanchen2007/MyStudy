@@ -1,5 +1,5 @@
-总共就256种情况，暴力即可
-```
+// 总共就256种情况，暴力即可
+// ```
 class Solution {
 public:
     string nextClosestTime(string time) {
@@ -49,4 +49,4 @@ public:
         return time2 - time1;
     }
 };
-```
+// ```

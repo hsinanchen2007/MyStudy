@@ -1,10 +1,10 @@
-总体思路：
-1. 使用快慢指针找到链表的中间位置；
-2. 反转后半部分链表；
-3. 逐一对比前后两部分链表；
+// 总体思路：
+// 1. 使用快慢指针找到链表的中间位置；
+// 2. 反转后半部分链表；
+// 3. 逐一对比前后两部分链表；
 
 
-```
+// ```
 public boolean isPalindrome(ListNode head) {
         // 边界条件：空链表或只有一个节点的链表
         if (head == null || head.next == null) {
@@ -48,4 +48,4 @@ public boolean isPalindrome(ListNode head) {
         }
         return true;
     }
-```
+// ```

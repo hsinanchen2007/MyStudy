@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
         d = set()
@@ -8,4 +8,4 @@ class Solution:
                 return True
             else:
                 d.add(key)
-```
+# ```

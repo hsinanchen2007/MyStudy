@@ -1,13 +1,13 @@
-最后一个节点为n;
-假设有kind(n)种类型：
-可以分为：
-1) n为根节点；
-2) n为x节点的右子树；其中x 属于<1, n-1>
+// 最后一个节点为n;
+// 假设有kind(n)种类型：
+// 可以分为：
+// 1) n为根节点；
+// 2) n为x节点的右子树；其中x 属于<1, n-1>
 
-x及其以前的节点造型数为kind(x), <x+1, n-1> 节点造型数为kind<n-1-x>
-kind(n) = sum(kind(x)*kind(n-1-x))  
+// x及其以前的节点造型数为kind(x), <x+1, n-1> 节点造型数为kind<n-1-x>
+// kind(n) = sum(kind(x)*kind(n-1-x))  
 
-```
+// ```
 class Solution {
 public:
     int numTrees(int n) {
@@ -44,5 +44,5 @@ public:
         
     }
 };
-```
+// ```
 

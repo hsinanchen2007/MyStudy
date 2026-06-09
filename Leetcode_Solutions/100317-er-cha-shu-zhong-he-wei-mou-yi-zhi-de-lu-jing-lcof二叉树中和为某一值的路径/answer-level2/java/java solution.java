@@ -1,10 +1,10 @@
-### 解题思路
-> 1. 采用前序遍历，到叶节点停止递归
-> 2. 全局stack保存路径，在递归过程中每个节点返回时从stack中删除
+// ### 解题思路
+// > 1. 采用前序遍历，到叶节点停止递归
+// > 2. 全局stack保存路径，在递归过程中每个节点返回时从stack中删除
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -64,4 +64,4 @@ class Solution {
 		return;
 	}
 }
-```
+// ```

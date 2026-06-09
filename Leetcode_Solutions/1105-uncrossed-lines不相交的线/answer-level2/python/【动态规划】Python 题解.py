@@ -1,11 +1,11 @@
-#### 思路：
-设 `A[0] ~ A[x]` 与 `B[0] ~ B[y]` 的最大连线数为 `f(x, y)`，那么对于任意位置的 `f(i, j)` 而言：
+# #### 思路：
+# 设 `A[0] ~ A[x]` 与 `B[0] ~ B[y]` 的最大连线数为 `f(x, y)`，那么对于任意位置的 `f(i, j)` 而言：
 
-- 如果 `A[i] == B[j]`，即 `A[i]` 和 `B[j]` 可连线，此时 `f(i, j) = f(i - 1, j - 1) + 1`
-- 如果 `A[i] != B[j]`，即 `A[i]` 和 `B[j]` 不可连线，此时最大连线数取决于 `f(i - 1, j)` 和 `f(i, j - 1)` 的较大值
+# - 如果 `A[i] == B[j]`，即 `A[i]` 和 `B[j]` 可连线，此时 `f(i, j) = f(i - 1, j - 1) + 1`
+# - 如果 `A[i] != B[j]`，即 `A[i]` 和 `B[j]` 不可连线，此时最大连线数取决于 `f(i - 1, j)` 和 `f(i, j - 1)` 的较大值
 
-#### 代码：
-```python [-Python]
+# #### 代码：
+# ```python [-Python]
 class Solution(object):
     def maxUncrossedLines(self, A, B):
         """
@@ -26,4 +26,4 @@ class Solution(object):
                     res[i + 1][j + 1] = max(res[i + 1][j], res[i][j + 1])
         
         return res[a_length][b_length]
-```
+# ```

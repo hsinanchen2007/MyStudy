@@ -1,9 +1,9 @@
-首先利用`sort`的排序方法将数组按照编码排序，只需要校验`array[0]`和`array[array.length-1]`的值。  
-然后判断是否存在包含关系即`array[0]`包含于`array[array.length-1]`  
-最后对首尾两个值进行字符串匹配，得到公共前缀
+// 首先利用`sort`的排序方法将数组按照编码排序，只需要校验`array[0]`和`array[array.length-1]`的值。  
+// 然后判断是否存在包含关系即`array[0]`包含于`array[array.length-1]`  
+// 最后对首尾两个值进行字符串匹配，得到公共前缀
   
 
-```JavaScript
+// ```JavaScript
 /**
  * @param {string[]} strs
  * @return {string}
@@ -22,4 +22,4 @@ var longestCommonPrefix = function(strs) {
         }
     }
 };
-```
+// ```

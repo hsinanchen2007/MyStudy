@@ -1,9 +1,9 @@
-### 解题思路
-dp，注意边界处理就好了。
+# ### 解题思路
+# dp，注意边界处理就好了。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def massage(self, nums: List[int]) -> int:
         if not nums:
@@ -16,4 +16,4 @@ class Solution:
                 continue
             dp[i] = max(dp[i-2] + num, dp[i-1])
         return dp[len(nums)-1]
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-简易哈希表arr代表26个字母的频率
+// ### 解题思路
+// 简易哈希表arr代表26个字母的频率
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxNumberOfBalloons(string text)
@@ -20,4 +20,4 @@ public:
         return min;
     }
 };
-```
+// ```

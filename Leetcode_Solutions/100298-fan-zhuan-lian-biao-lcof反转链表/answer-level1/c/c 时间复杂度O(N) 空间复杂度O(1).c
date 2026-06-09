@@ -1,7 +1,7 @@
-![S3AY$`89\]1$)GJY$HYN2${W.png](https://pic.leetcode-cn.com/f564d8af93f212fe80e37e3d5501c4631ca3c84acb6e467c2f4f33dcb04ee04d-S3AY$%6089%5D1$\)GJY$HYN2$%7BW.png)
+// ![S3AY$`89\]1$)GJY$HYN2${W.png](https://pic.leetcode-cn.com/f564d8af93f212fe80e37e3d5501c4631ca3c84acb6e467c2f4f33dcb04ee04d-S3AY$%6089%5D1$\)GJY$HYN2$%7BW.png)
 
 
-```
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -53,4 +53,4 @@ struct ListNode* reverseList(struct ListNode * head){
     return head;
 
 }
-```
+// ```

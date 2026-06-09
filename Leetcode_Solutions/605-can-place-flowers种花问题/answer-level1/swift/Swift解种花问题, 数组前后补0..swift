@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func canPlaceFlowers(_ flowerbed: [Int], _ n: Int) -> Bool {
         guard flowerbed.count > 0 else { return n == 0 }
@@ -31,4 +31,4 @@ class Solution {
         return sum >= n
     }
 }
-```
+// ```

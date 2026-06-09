@@ -1,9 +1,9 @@
-### 解题思路
-数组本身有序很关键
+// ### 解题思路
+// 数组本身有序很关键
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
@@ -25,4 +25,4 @@ public:
         return ans+1;
     }
 };
-```
+// ```

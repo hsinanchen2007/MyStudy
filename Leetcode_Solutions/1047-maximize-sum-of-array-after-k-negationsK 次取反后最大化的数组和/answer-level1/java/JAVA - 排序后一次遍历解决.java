@@ -1,14 +1,14 @@
-### 解题思路
+// ### 解题思路
 
-排序后，遍历数组A，如果遇到A[i] < 0，且此时K大于，那么就将A[i]反转为正数，K减1。
+// 排序后，遍历数组A，如果遇到A[i] < 0，且此时K大于，那么就将A[i]反转为正数，K减1。
 
-如果A[i] > 0,那么就先暂时不用反转。
+// 如果A[i] > 0,那么就先暂时不用反转。
 
-同时在遍历的过程中维护一个最小值。
+// 同时在遍历的过程中维护一个最小值。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int largestSumAfterKNegations(int[] A, int K) {
         Arrays.sort(A);
@@ -24,4 +24,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

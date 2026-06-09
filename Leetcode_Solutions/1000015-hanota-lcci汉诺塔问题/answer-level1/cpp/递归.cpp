@@ -1,8 +1,8 @@
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void hanota(vector<int>& A, vector<int>& B, vector<int>& C) {
@@ -23,4 +23,4 @@ public:
     	h(B,A,C,n-1);
     }
 };
-```
+// ```

@@ -1,16 +1,16 @@
-### 解题思路
+// ### 解题思路
 
-本质是考察前缀和的题目，结合了栈和DFS的概念。
+// 本质是考察前缀和的题目，结合了栈和DFS的概念。
 
-注意dfs天然保证了栈指针的维护。
-
-
-![image.png](https://pic.leetcode-cn.com/e48a172ffa092fb483ab4117d47ac78e72ec58d4af372c948081075e88b40454-image.png)
+// 注意dfs天然保证了栈指针的维护。
 
 
-### 代码
+// ![image.png](https://pic.leetcode-cn.com/e48a172ffa092fb483ab4117d47ac78e72ec58d4af372c948081075e88b40454-image.png)
 
-```c
+
+// ### 代码
+
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -68,4 +68,4 @@ int pathSum(struct TreeNode* root, int sum){
 
     return ret;
 }
-```
+// ```

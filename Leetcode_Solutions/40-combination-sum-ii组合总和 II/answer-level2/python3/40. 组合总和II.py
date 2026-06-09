@@ -1,9 +1,9 @@
-### 解题思路
-与上一题一样的思路，回溯（带剪枝）+去重，这次的回溯的不同在于当前结点下标为i，那么分裂出去的下一层待选结点将从(i,len(candidates)]中去找。时间复杂度为O(n^2)。
+# ### 解题思路
+# 与上一题一样的思路，回溯（带剪枝）+去重，这次的回溯的不同在于当前结点下标为i，那么分裂出去的下一层待选结点将从(i,len(candidates)]中去找。时间复杂度为O(n^2)。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def combinationSum2(self, candidates:list, target: int):
         # 去重
@@ -53,4 +53,4 @@ class Solution:
                     needed[j]=False
         res = [res[i] for i in range(len(res)) if needed[i]]
         return res
-```
+# ```

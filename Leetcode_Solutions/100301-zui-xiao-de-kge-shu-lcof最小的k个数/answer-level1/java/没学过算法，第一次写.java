@@ -1,9 +1,9 @@
-### 解题思路
-先用冒泡排序，在找出前 k 个最小数组。
+// ### 解题思路
+// 先用冒泡排序，在找出前 k 个最小数组。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] getLeastNumbers(int[] arr, int k) {
         int[] arr2 = new int[k];
@@ -22,4 +22,4 @@ class Solution {
         return arr2;
     }
 }
-```
+// ```

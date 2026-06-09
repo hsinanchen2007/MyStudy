@@ -1,9 +1,9 @@
-### 解题思路
+# ### 解题思路
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countPrimeSetBits(self, L: int, R: int) -> int:
         def count_one_in_bits(x):
@@ -25,4 +25,4 @@ class Solution:
             if isPrime(count_one_in_bits(x)):
                 res += 1
         return res
-```
+# ```

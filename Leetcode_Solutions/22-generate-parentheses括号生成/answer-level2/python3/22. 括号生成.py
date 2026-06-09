@@ -1,9 +1,9 @@
-### 解题思路
-排列组合的题目一般可以用回溯法求解，关键在于剪枝。
+# ### 解题思路
+# 排列组合的题目一般可以用回溯法求解，关键在于剪枝。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def generateParenthesis(self, n: int):
         output=[]
@@ -18,4 +18,4 @@ class Solution:
         f('',n*2,n,0,0)
         return output
 
-```
+# ```

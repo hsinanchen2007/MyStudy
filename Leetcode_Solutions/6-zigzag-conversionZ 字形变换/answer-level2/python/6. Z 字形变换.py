@@ -1,9 +1,9 @@
-### 解题思路
-关键在于找到行变换的特点：从0依次递增至numRows-1再递减至0，所以想到用一个flag作为标记
+# ### 解题思路
+# 关键在于找到行变换的特点：从0依次递增至numRows-1再递减至0，所以想到用一个flag作为标记
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def convert(self, s, numRows):
         if numRows == 1:
@@ -18,4 +18,4 @@ class Solution(object):
             i += flag
         return str("".join(ans))
 
-```
+# ```

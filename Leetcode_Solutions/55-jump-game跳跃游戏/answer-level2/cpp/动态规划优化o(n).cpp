@@ -1,4 +1,4 @@
-我们先看朴素动态规划算法：
+// 我们先看朴素动态规划算法：
 int i, j;
 for(f[0] = i = 1;i < nums.size();i++)
     for(int j = 0;j < i;j++)if(i <= nums[j] + j)

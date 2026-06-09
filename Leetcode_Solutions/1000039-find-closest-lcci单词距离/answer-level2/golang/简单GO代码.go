@@ -1,6 +1,6 @@
-思路：记录上次出现的特定单词位置
+// 思路：记录上次出现的特定单词位置
 
-```go
+// ```go
 func findClosest(words []string, word1 string, word2 string) int {
     memo := make(map[string]int)
     
@@ -21,4 +21,4 @@ func findClosest(words []string, word1 string, word2 string) int {
     }
     return results
 }
-```
+// ```

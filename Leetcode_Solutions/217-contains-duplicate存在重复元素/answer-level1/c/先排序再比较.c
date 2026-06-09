@@ -1,4 +1,4 @@
-```
+// ```
 int comp(const void* p, const void* q)
 {
     return (*( int*)p - *(int*)q) ;
@@ -14,4 +14,4 @@ bool containsDuplicate(int* nums, int numsSize){
     }
     return false;
 }
-```
+// ```

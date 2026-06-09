@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         profit = []
@@ -14,5 +14,5 @@ class Solution:
         if right == len(prices)-1:
             profit.append(prices[right] - prices[left])
         return(sum(profit))
-```
-阶梯思路比较简单，只需要考虑所有的上升区间即可。将所有的上升区间最后加在一起，就是最后的最大利润
+# ```
+# 阶梯思路比较简单，只需要考虑所有的上升区间即可。将所有的上升区间最后加在一起，就是最后的最大利润

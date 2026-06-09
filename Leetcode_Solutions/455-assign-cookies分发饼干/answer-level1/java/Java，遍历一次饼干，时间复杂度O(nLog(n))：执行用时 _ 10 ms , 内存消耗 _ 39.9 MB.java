@@ -1,6 +1,6 @@
-想法：让胃口小的孩子吃饱，胃口大的就饿着吧
+// 想法：让胃口小的孩子吃饱，胃口大的就饿着吧
 
-```
+// ```
 class Solution {
     public int findContentChildren(int[] g, int[] s) {
         Arrays.sort(g);
@@ -17,4 +17,4 @@ class Solution {
         return j;
     }
 }
-```
+// ```

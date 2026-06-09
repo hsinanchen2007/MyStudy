@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def tree2str(self, t):
         """
@@ -31,4 +31,4 @@ class Solution(object):
                 for _ in range(n):
                     res += ')'
         return res
-```
+# ```

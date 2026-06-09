@@ -1,5 +1,5 @@
-头疼。
-```
+// 头疼。
+// ```
 class Solution {
     boolean dfs(int[][] grid, int dir, int i, int j, int[][] visited){
         if(i < 0 || i >= grid.length || j < 0 || j >= grid[0].length || visited[i][j] == 1){
@@ -81,4 +81,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int[] searchRange(int[] nums, int target) {
         int a = search(nums,target);
@@ -22,4 +22,4 @@ class Solution {
         return left;
     }
 }
-```
+// ```

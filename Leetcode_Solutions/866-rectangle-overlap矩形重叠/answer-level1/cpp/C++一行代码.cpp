@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-这个是非常典型的检测bounding box重合率计算
-方法直接参考代码，其实不难
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 这个是非常典型的检测bounding box重合率计算
+// 方法直接参考代码，其实不难
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isRectangleOverlap(vector<int>& rec1, vector<int>& rec2) {
@@ -15,4 +15,4 @@ public:
         return false;
     }
 };
-```
+// ```

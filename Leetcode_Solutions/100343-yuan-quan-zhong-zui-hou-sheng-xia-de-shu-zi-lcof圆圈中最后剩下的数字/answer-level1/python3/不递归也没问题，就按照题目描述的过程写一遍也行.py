@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def lastRemaining(self, n: int, m: int) -> int:
         L = [i for i in range(n)]
@@ -8,4 +8,4 @@ class Solution:
             L.pop(index)
             last = index
         return L[0]
-```
+# ```

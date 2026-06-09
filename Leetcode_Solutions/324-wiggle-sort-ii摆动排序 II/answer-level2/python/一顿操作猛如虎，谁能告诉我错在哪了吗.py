@@ -1,10 +1,10 @@
-### 解题思路
-quick sort + 荷兰国旗 + 虚指针，输出还不如直接排序+额外申请空间
-![image.png](https://pic.leetcode-cn.com/344113cf008ce9a6929e3a05889a5f2f6c444e35095cb9ac46b4548e1eda8987-image.png)
+# ### 解题思路
+# quick sort + 荷兰国旗 + 虚指针，输出还不如直接排序+额外申请空间
+# ![image.png](https://pic.leetcode-cn.com/344113cf008ce9a6929e3a05889a5f2f6c444e35095cb9ac46b4548e1eda8987-image.png)
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def wiggleSort(self, nums):
         """
@@ -16,9 +16,9 @@ class Solution(object):
         first = nums[:mid][::-1]
         second = nums[mid:][::-1]
         nums[::2], nums[1::2] = first, second
-```
+# ```
 
-```python
+# ```python
 import random
 
 class Solution(object):
@@ -67,4 +67,4 @@ class Solution(object):
                 stop -= 1
             else:
                 idx += 1
-```
+# ```

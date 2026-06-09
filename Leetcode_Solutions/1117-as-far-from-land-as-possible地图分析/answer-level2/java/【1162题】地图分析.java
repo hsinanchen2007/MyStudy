@@ -1,5 +1,5 @@
-**方法一：广度优先搜索(BFS)**
-```
+// **方法一：广度优先搜索(BFS)**
+// ```
 class Solution {
     /**
     * 思路：
@@ -48,4 +48,4 @@ class Solution {
         return grid[point[0]][point[1]] - 1;
     }
 }
-```
+// ```

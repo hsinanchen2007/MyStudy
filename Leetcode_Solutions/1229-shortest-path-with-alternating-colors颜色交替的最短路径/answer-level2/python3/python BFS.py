@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def shortestAlternatingPaths(self, n: int, red_edges: List[List[int]], blue_edges: List[List[int]]) -> List[int]:
         redAdj = [[] for _ in range(n)]
@@ -30,4 +30,4 @@ class Solution:
                     visited.add((item ,color))
                     queue.append((item, 0, step + 1))
         return res
-```
+# ```

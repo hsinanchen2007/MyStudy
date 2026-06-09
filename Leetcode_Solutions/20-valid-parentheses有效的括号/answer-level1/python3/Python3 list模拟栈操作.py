@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-括号匹配，先进后出。注意特殊情况，如：判栈空等
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 括号匹配，先进后出。注意特殊情况，如：判栈空等
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isValid(self, s: str) -> bool:
         s_l = ['(', '{', '[']
@@ -26,4 +26,4 @@ class Solution:
         if len(stack):
             FLAG = False
         return FLAG
-```
+# ```

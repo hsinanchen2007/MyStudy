@@ -1,14 +1,14 @@
-### 解题思路
-hash 表映射：
-关键点有 4 个：
-1. 每一个单词自身就是自己的相似值，即 words1 = ['i'] 和 words2 = ['i'] 无论pairs 有什么，他们都是相似的。
-2. 相似的单词可以是多个，所以要做数组来存储。
-3. 如果 pairs 是一个空数组（pairs.length === 0），返回 true
-4. 如果两个单词数组长度不相等，返回 false
+// ### 解题思路
+// hash 表映射：
+// 关键点有 4 个：
+// 1. 每一个单词自身就是自己的相似值，即 words1 = ['i'] 和 words2 = ['i'] 无论pairs 有什么，他们都是相似的。
+// 2. 相似的单词可以是多个，所以要做数组来存储。
+// 3. 如果 pairs 是一个空数组（pairs.length === 0），返回 true
+// 4. 如果两个单词数组长度不相等，返回 false
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} words1
  * @param {string[]} words2
@@ -39,4 +39,4 @@ var areSentencesSimilar = function(words1, words2, pairs = []) {
     }
     return true
 };
-```
+// ```

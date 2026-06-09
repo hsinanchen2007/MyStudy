@@ -1,8 +1,8 @@
-- 两次遍历
-    1. 第一次: 通过交换, 将所有数字放在本应该在的位置, 这时只有重复的元素待在了缺失元素的位置上
-    2. 第二次: 遍历找出重复的元素
+// - 两次遍历
+//     1. 第一次: 通过交换, 将所有数字放在本应该在的位置, 这时只有重复的元素待在了缺失元素的位置上
+//     2. 第二次: 遍历找出重复的元素
 
-```javascript 
+// ```javascript 
 /**
  * @param {number[]} nums
  * @return {number[]}
@@ -26,7 +26,7 @@ var findDuplicates = function(nums) {
     
     return res;
 };
-```
+// ```
 
-**Github**: <https://github.com/lucaschang95/>
+// **Github**: <https://github.com/lucaschang95/>
 

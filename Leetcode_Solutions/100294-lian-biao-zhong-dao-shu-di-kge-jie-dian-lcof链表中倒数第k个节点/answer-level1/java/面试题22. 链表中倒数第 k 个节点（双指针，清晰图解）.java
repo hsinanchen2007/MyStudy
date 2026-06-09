@@ -1,32 +1,32 @@
-#### 解题思路：
+// #### 解题思路：
 
-- 第一时间想到的解法：
-    1. 先遍历统计链表长度，记为 $n$ ；
-    2. 设置一个指针走 $(n-k)$ 步，即可找到链表倒数第 $k$ 个节点。
-- 使用双指针则可以不用统计链表长度。
+// - 第一时间想到的解法：
+//     1. 先遍历统计链表长度，记为 $n$ ；
+//     2. 设置一个指针走 $(n-k)$ 步，即可找到链表倒数第 $k$ 个节点。
+// - 使用双指针则可以不用统计链表长度。
 
-![Picture0.png](https://pic.leetcode-cn.com/ab52aeb21d3ea0c2b2aaca94241413db5d060b88e950461953db64e36a89a435-Picture0.png){:width=300}
+// ![Picture0.png](https://pic.leetcode-cn.com/ab52aeb21d3ea0c2b2aaca94241413db5d060b88e950461953db64e36a89a435-Picture0.png){:width=300}
 
-##### 算法流程：
+// ##### 算法流程：
 
-1. **初始化：** 前指针 `former` 、后指针 `latter` ，双指针都指向头节点 `head​` 。
-2. **构建双指针距离：** 前指针 `former` 先向前走 $k$ 步（结束后，双指针 `former` 和 `latter` 间相距 $k$ 步）。
-3. **双指针共同移动：** 循环中，双指针 `former` 和 `latter`  每轮都向前走一步，直至 `former` 走过链表 **尾节点** 时跳出（跳出后， `latter` 与尾节点距离为 $k-1$，即 `latter` 指向倒数第 $k$ 个节点）。
-4. **返回值：** 返回 `latter` 即可。
+// 1. **初始化：** 前指针 `former` 、后指针 `latter` ，双指针都指向头节点 `head​` 。
+// 2. **构建双指针距离：** 前指针 `former` 先向前走 $k$ 步（结束后，双指针 `former` 和 `latter` 间相距 $k$ 步）。
+// 3. **双指针共同移动：** 循环中，双指针 `former` 和 `latter`  每轮都向前走一步，直至 `former` 走过链表 **尾节点** 时跳出（跳出后， `latter` 与尾节点距离为 $k-1$，即 `latter` 指向倒数第 $k$ 个节点）。
+// 4. **返回值：** 返回 `latter` 即可。
 
-<![Picture1.png](https://pic.leetcode-cn.com/f82d0c4ade03ae2107d3cc5b29480e0f0d48d47822dcf5776ea0e8fde41efe03-Picture1.png),![Picture2.png](https://pic.leetcode-cn.com/399741478b69166a5b801ab2b0f72dbebe3fd5d612a0328f2ca4ea5c4043f2a9-Picture2.png),![Picture3.png](https://pic.leetcode-cn.com/71a5d105a41e7220db9948f377e7dae6b046c578a2fc73b14cbca47092d72e32-Picture3.png),![Picture4.png](https://pic.leetcode-cn.com/d14cd267e7a0fe71efbb6106f4ccb1fcc3c68faf30c3ce3ee87b14371781436f-Picture4.png),![Picture5.png](https://pic.leetcode-cn.com/468908ded106c3e71eb868bd864bcf733f9595643e6259ec5db2efd2fed1e58e-Picture5.png),![Picture6.png](https://pic.leetcode-cn.com/951650517cba6954a0480240bcb8c1d9b12c3bba568c07b267fecaaf49946e02-Picture6.png),![Picture7.png](https://pic.leetcode-cn.com/924c58447a25fdfa664dba9649d83e2e0b41a7136238696bfb24a363cbc68bb2-Picture7.png),![Picture8.png](https://pic.leetcode-cn.com/b9ae9b30d44936a55058bda21fe1102a56336ac8947c7620e007b66090ba30f1-Picture8.png)>
+// <![Picture1.png](https://pic.leetcode-cn.com/f82d0c4ade03ae2107d3cc5b29480e0f0d48d47822dcf5776ea0e8fde41efe03-Picture1.png),![Picture2.png](https://pic.leetcode-cn.com/399741478b69166a5b801ab2b0f72dbebe3fd5d612a0328f2ca4ea5c4043f2a9-Picture2.png),![Picture3.png](https://pic.leetcode-cn.com/71a5d105a41e7220db9948f377e7dae6b046c578a2fc73b14cbca47092d72e32-Picture3.png),![Picture4.png](https://pic.leetcode-cn.com/d14cd267e7a0fe71efbb6106f4ccb1fcc3c68faf30c3ce3ee87b14371781436f-Picture4.png),![Picture5.png](https://pic.leetcode-cn.com/468908ded106c3e71eb868bd864bcf733f9595643e6259ec5db2efd2fed1e58e-Picture5.png),![Picture6.png](https://pic.leetcode-cn.com/951650517cba6954a0480240bcb8c1d9b12c3bba568c07b267fecaaf49946e02-Picture6.png),![Picture7.png](https://pic.leetcode-cn.com/924c58447a25fdfa664dba9649d83e2e0b41a7136238696bfb24a363cbc68bb2-Picture7.png),![Picture8.png](https://pic.leetcode-cn.com/b9ae9b30d44936a55058bda21fe1102a56336ac8947c7620e007b66090ba30f1-Picture8.png)>
 
-##### 复杂度分析：
+// ##### 复杂度分析：
 
-- **时间复杂度 $O(N)$ ：** $N$ 为链表长度；总体看， `former` 走了 $N$ 步， `latter` 走了 $(N-k)$ 步。
-- **空间复杂度 $O(1)$ ：** 双指针 `former` , `latter` 使用常数大小的额外空间。
+// - **时间复杂度 $O(N)$ ：** $N$ 为链表长度；总体看， `former` 走了 $N$ 步， `latter` 走了 $(N-k)$ 步。
+// - **空间复杂度 $O(1)$ ：** 双指针 `former` , `latter` 使用常数大小的额外空间。
 
-#### 代码：
+// #### 代码：
 
-> 本题没有 $k$ 大于链表长度的 case ，因此不用考虑越界问题。
-> 考虑越界问题的代码请见第三、四栏。
+// > 本题没有 $k$ 大于链表长度的 case ，因此不用考虑越界问题。
+// > 考虑越界问题的代码请见第三、四栏。
 
-```python []
+// ```python []
 class Solution:
     def getKthFromEnd(self, head: ListNode, k: int) -> ListNode:
         former, latter = head, head
@@ -35,9 +35,9 @@ class Solution:
         while former:
             former, latter = former.next, latter.next
         return latter
-```
+// ```
 
-```java []
+// ```java []
 class Solution {
     public ListNode getKthFromEnd(ListNode head, int k) {
         ListNode former = head, latter = head;
@@ -50,9 +50,9 @@ class Solution {
         return latter;
     }
 }
-```
+// ```
 
-```python []
+// ```python []
 class Solution:
     def getKthFromEnd(self, head: ListNode, k: int) -> ListNode:
         former, latter = head, head
@@ -62,9 +62,9 @@ class Solution:
         while former:
             former, latter = former.next, latter.next
         return latter
-```
+// ```
 
-```java []
+// ```java []
 class Solution {
     public ListNode getKthFromEnd(ListNode head, int k) {
         ListNode former = head, latter = head;
@@ -79,4 +79,4 @@ class Solution {
         return latter;
     }
 }
-```
+// ```

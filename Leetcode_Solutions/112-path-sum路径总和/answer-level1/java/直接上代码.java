@@ -1,4 +1,4 @@
-```
+// ```
 boolean res = false;
     public boolean hasPathSum(TreeNode root, int sum) {
         if(root == null){
@@ -24,4 +24,4 @@ boolean res = false;
 			judge(root.right, sum, nodeSum);
 		}
     }
-```
+// ```

@@ -1,4 +1,4 @@
-```Java []
+// ```Java []
 class Solution {
     public int[] exchange(int[] nums) {
         int[] ans = new int[nums.length];
@@ -13,8 +13,8 @@ class Solution {
         return ans;
     }
 }
-```
-```Python []
+// ```
+// ```Python []
 class Solution:
     def exchange(self, nums: List[int]) -> List[int]:
         ans = [0]*len(nums)
@@ -28,4 +28,4 @@ class Solution:
                 ans[right] = num
                 right -= 1
         return ans
-```
+// ```

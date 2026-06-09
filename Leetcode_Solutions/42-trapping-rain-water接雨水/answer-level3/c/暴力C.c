@@ -1,14 +1,14 @@
-### 解题思路
-小白暴力解法
-![image.png](https://pic.leetcode-cn.com/8226c63aeb5b8a7103c378500c55125a894c9871df58ae6ba04cbb34db96bf94-image.png)
+// ### 解题思路
+// 小白暴力解法
+// ![image.png](https://pic.leetcode-cn.com/8226c63aeb5b8a7103c378500c55125a894c9871df58ae6ba04cbb34db96bf94-image.png)
 
-![1.jpg](https://pic.leetcode-cn.com/d9d1db8bcebed4982b1e95e6d6ea7af22d850a65b19897941a0c4fbed29c0d56-1.jpg)
+// ![1.jpg](https://pic.leetcode-cn.com/d9d1db8bcebed4982b1e95e6d6ea7af22d850a65b19897941a0c4fbed29c0d56-1.jpg)
 
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int trap(int* height, int heightSize)
 {
     if(heightSize == 0 || heightSize == 1)
@@ -67,4 +67,4 @@ int trap(int* height, int heightSize)
     volume -= height[i];
     return volume;
 }
-```
+// ```

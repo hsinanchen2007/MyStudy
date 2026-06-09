@@ -1,13 +1,13 @@
-根据提示两个列表都没有重复的元素。
+// 根据提示两个列表都没有重复的元素。
 
-所以两个列表同一餐厅最多出现两次。
+// 所以两个列表同一餐厅最多出现两次。
 
-所以只要比较出现两次的餐厅的下标和就可以。
+// 所以只要比较出现两次的餐厅的下标和就可以。
 
-如果下标和小就当作返回值，如果下标和相等，就push到返回值里。
+// 如果下标和小就当作返回值，如果下标和相等，就push到返回值里。
 
 
-```js
+// ```js
 /**
  * @param {string[]} list1
  * @param {string[]} list2
@@ -38,6 +38,6 @@ var findRestaurant = function(list1, list2) {
     }
     return res
 };
-```
+// ```
 
-https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/599.md
+// https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/599.md

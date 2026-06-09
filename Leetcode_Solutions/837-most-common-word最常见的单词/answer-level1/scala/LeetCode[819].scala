@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
   def mostCommonWord(paragraph: String, banned: Array[String]): String = {
     val mymap = scala.collection.mutable.Map[String, Int]()
@@ -17,4 +17,4 @@ object Solution {
     tuple._1
   }
 }
-```
+// ```

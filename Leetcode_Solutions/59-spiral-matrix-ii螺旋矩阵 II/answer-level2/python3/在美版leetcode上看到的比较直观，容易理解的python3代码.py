@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def generateMatrix(self, n: int) -> List[List[int]]:
         if not n:
@@ -28,4 +28,4 @@ class Solution:
             left += 1
         return res
 
-```
+# ```

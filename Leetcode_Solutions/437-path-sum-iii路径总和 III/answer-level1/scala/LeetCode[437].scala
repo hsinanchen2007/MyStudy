@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
   def pathSum(root: TreeNode, sum: Int): Int = {
     if (root == null) return 0
@@ -22,4 +22,4 @@ object Solution {
   }
 }
 
-```
+// ```

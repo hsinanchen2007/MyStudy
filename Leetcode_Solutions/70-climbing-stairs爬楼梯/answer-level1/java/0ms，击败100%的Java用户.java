@@ -1,6 +1,6 @@
-递归会超时，用了循环，前3直接返回。
+// 递归会超时，用了循环，前3直接返回。
 
-```
+// ```
 class Solution {
     public int climbStairs(int n) {
         int count = 0;
@@ -17,4 +17,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

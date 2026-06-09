@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findLHS(vector<int>& nums) {
@@ -25,4 +25,4 @@ public:
         return max_len;
     }
 };
-```未来再用哈希试试
+// ```未来再用哈希试试

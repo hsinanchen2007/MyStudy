@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isValid(char * s){
     char st[5000];int top=-1;
 	for(int i=0;s[i]!='\0';i++){
@@ -25,4 +25,4 @@ bool isValid(char * s){
 		return 1;
 	}
 }
-```
+// ```

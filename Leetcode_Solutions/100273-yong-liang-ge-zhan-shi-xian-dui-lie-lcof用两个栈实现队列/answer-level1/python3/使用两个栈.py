@@ -1,8 +1,8 @@
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class CQueue:
 
     def __init__(self):
@@ -20,4 +20,4 @@ class CQueue:
                 self.deletestack.append(self.appendstack.pop())
             return self.deletestack.pop() if self.deletestack else -1
 
-```
+# ```

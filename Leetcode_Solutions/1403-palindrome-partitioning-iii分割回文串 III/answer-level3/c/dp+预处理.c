@@ -1,6 +1,6 @@
-动态规划的思想：dp[k][i]表示前i个字符分割为k段时最少修改字符数, 那么dp[k][i] = MIN{dp[k - 1][t] + cost(s[t + 1~i])};
-其中cost(s[t + 1~i])表示t + 1 : i之间组成回文串需要修改的字符数；
-```
+// 动态规划的思想：dp[k][i]表示前i个字符分割为k段时最少修改字符数, 那么dp[k][i] = MIN{dp[k - 1][t] + cost(s[t + 1~i])};
+// 其中cost(s[t + 1~i])表示t + 1 : i之间组成回文串需要修改的字符数；
+// ```
 // 动态规划
 // dp[k][i]表示前i个字符分为k段的所需修改的最少字符数
 // dp[k][i] = MIN(dp[k - 1][t] + cost(s[t + 1~i]))
@@ -59,4 +59,4 @@ int palindromePartition(char * s, int k){
     }
     return g_dp[k][len - 1];
 }
-```
+// ```

@@ -1,8 +1,8 @@
-执行用时: 64 ms, 在所有 JavaScript 提交中击败了 98.95% 的用户
+// 执行用时: 64 ms, 在所有 JavaScript 提交中击败了 98.95% 的用户
 
-思路是判断如果不是该列数组的首位或者最后一位，则值为`a[i-1][j-1] + a[i-1][j]` ，否则值为`1`
+// 思路是判断如果不是该列数组的首位或者最后一位，则值为`a[i-1][j-1] + a[i-1][j]` ，否则值为`1`
 
-```javascript
+// ```javascript
 var generate = function (numRows) {
     const result = [];
     if (numRows <= 0) {
@@ -22,4 +22,4 @@ var generate = function (numRows) {
     }
     return result;
 };
-```
+// ```

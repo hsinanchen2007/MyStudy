@@ -1,18 +1,18 @@
-### 解题思路
+# ### 解题思路
 
-常规套路就是：
-- 先做参数检查
-- 初始化cnt=1
-- 二维扫描全部cell
-- 如果cell==1，cnt++，然后从这个cell开始DFS
-- DFS里先判断cell坐标是否合法
-- 如果cell==1，将cell内容改为cnt，然后上下左右4个方向再DFS，直到退出
-- 如此这样扫描完全部cell，输出cnt-1即是最终结果
-- 上面做法的好处，是用2,3,...标记了每一个不同的岛屿，虽然本题不需要，但是仍然有价值
+# 常规套路就是：
+# - 先做参数检查
+# - 初始化cnt=1
+# - 二维扫描全部cell
+# - 如果cell==1，cnt++，然后从这个cell开始DFS
+# - DFS里先判断cell坐标是否合法
+# - 如果cell==1，将cell内容改为cnt，然后上下左右4个方向再DFS，直到退出
+# - 如此这样扫描完全部cell，输出cnt-1即是最终结果
+# - 上面做法的好处，是用2,3,...标记了每一个不同的岛屿，虽然本题不需要，但是仍然有价值
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
         # - sanity check
@@ -52,4 +52,4 @@ class Solution:
         
         # - return island count
         return cnt-1
-```
+# ```

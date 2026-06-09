@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-画图/伪代码
-1）迭代，稍显麻烦，跟官方版本一致
-2）查看别人代码，发现python可以用一句话赋值多个变量，神奇！
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 画图/伪代码
+# 1）迭代，稍显麻烦，跟官方版本一致
+# 2）查看别人代码，发现python可以用一句话赋值多个变量，神奇！
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -26,4 +26,4 @@ class Solution(object):
 
         
         
-```
+# ```

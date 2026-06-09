@@ -1,6 +1,6 @@
-那我也来show一波
+// 那我也来show一波
 
-```java
+// ```java
 class Solution {
     public void merge(int[] A, int m, int[] B, int n) {
         int i = A.length-B.length-1;
@@ -17,4 +17,4 @@ class Solution {
         return;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-1.此时主要考虑到有效的循环链表不会出现null节点
-2.只要两个指针最终指向同一个节点 就说明该链表是循环链表
-### 代码
+// ### 解题思路
+// 1.此时主要考虑到有效的循环链表不会出现null节点
+// 2.只要两个指针最终指向同一个节点 就说明该链表是循环链表
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * class ListNode {
@@ -35,4 +35,4 @@ public class Solution {
         return false;
     }
 }
-```
+// ```

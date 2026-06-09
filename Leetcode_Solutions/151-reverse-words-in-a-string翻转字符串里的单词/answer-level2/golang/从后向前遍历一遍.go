@@ -1,5 +1,5 @@
-使用strings.Builder进行字符串的拼接，执行用时从用"+"拼接的8ms，38.08%，提高到了0ms，100%
-```golang
+// 使用strings.Builder进行字符串的拼接，执行用时从用"+"拼接的8ms，38.08%，提高到了0ms，100%
+// ```golang
 func reverseWords(s string) string {
 	s = " " + s //开头可能没有空格，最后一个单词无法处理
 	n := len(s)
@@ -20,9 +20,9 @@ func reverseWords(s string) string {
 
 	return strings.TrimSpace(res.String())
 }
-```
-<br>
-```golang
+// ```
+// <br>
+// ```golang
 //或者这样写
 func reverseWords(s string) string {
 	s = " " + s
@@ -44,7 +44,7 @@ func reverseWords(s string) string {
 	return strings.TrimSpace(res.String())
 }
 
-```
+// ```
 
-![Snipaste_2020-01-22_19-51-46.png](https://pic.leetcode-cn.com/d076fb528b3850dd3ef66281b3eb203024fb2e61cf3b5c26effce68dbf409147-Snipaste_2020-01-22_19-51-46.png)
+// ![Snipaste_2020-01-22_19-51-46.png](https://pic.leetcode-cn.com/d076fb528b3850dd3ef66281b3eb203024fb2e61cf3b5c26effce68dbf409147-Snipaste_2020-01-22_19-51-46.png)
 

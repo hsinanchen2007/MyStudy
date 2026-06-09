@@ -1,16 +1,16 @@
-1. 关于复杂度
-  1.1 时间复杂度为O(n)
-  1.2 空间负责度为O(n)
-2. 我的解题思路
-  2.1 这个算法基于桶排序
-  2.2 统计得到数组中最大最小值
-  2.3 根据数组长度新建桶，每个桶都含有一段范围的数
-  2.4 放入所有元素到桶中
-  2.5 根据非空桶的最大最小值，对比并更新结果
+// 1. 关于复杂度
+//   1.1 时间复杂度为O(n)
+//   1.2 空间负责度为O(n)
+// 2. 我的解题思路
+//   2.1 这个算法基于桶排序
+//   2.2 统计得到数组中最大最小值
+//   2.3 根据数组长度新建桶，每个桶都含有一段范围的数
+//   2.4 放入所有元素到桶中
+//   2.5 根据非空桶的最大最小值，对比并更新结果
 
-<br />
-#### java代码实现
-```
+// <br />
+// #### java代码实现
+// ```
 /**
  * Problem
  *     164.Maximum Gap
@@ -81,11 +81,11 @@ class Solution{
         return (int)((num - min) * length / (max - min));
     }
 }
-```
+// ```
 
-<br/>
-#### php代码实现
-```
+// <br/>
+// #### php代码实现
+// ```
 class Solution{
 
     /**
@@ -165,7 +165,7 @@ class Solution{
         return ($num - $min) * $length / ($max - $min);
     }
 }
-```
+// ```
 
-如果你有更好的想法或者疑问，可以到 [我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution) 提出issue，我会及时处理
-你也可以关注 [我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution) 获得其他题目解题思路
+// 如果你有更好的想法或者疑问，可以到 [我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution) 提出issue，我会及时处理
+// 你也可以关注 [我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution) 获得其他题目解题思路

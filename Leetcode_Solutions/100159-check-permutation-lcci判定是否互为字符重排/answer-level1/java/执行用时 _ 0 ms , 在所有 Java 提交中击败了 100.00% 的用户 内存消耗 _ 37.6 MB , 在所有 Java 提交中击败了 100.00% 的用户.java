@@ -1,9 +1,9 @@
-### 解题思路
-面试能有这种题目才有鬼哩，大家姑且看看吧，面试不会这么简单的
+// ### 解题思路
+// 面试能有这种题目才有鬼哩，大家姑且看看吧，面试不会这么简单的
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean CheckPermutation(String s1, String s2) {
         char[] arr = s1.toCharArray();
@@ -15,4 +15,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

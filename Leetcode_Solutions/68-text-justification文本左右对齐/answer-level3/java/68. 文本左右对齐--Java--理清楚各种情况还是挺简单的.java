@@ -1,6 +1,6 @@
-[Leetcode-Java(200+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_68_fullJustify.java)
+// [Leetcode-Java(200+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_68_fullJustify.java)
 
-```java
+// ```java
     /**
      * 解题思路：
      * 大致想法：先确定一行放几个单词，再跟根据条件对单词进行排序
@@ -100,4 +100,4 @@
 
         return builder.toString();
     }
-```
+// ```

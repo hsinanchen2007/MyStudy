@@ -1,4 +1,4 @@
-```
+// ```
 int left = 0, right = A.length - 1;
         while (left < right) {
             if (A[left] % 2 == 0) {
@@ -14,4 +14,4 @@ int left = 0, right = A.length - 1;
             A[right] = tmp;
         }
         return A;
-```
+// ```

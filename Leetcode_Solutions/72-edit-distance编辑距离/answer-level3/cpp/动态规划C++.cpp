@@ -1,15 +1,15 @@
-### 解题思路
-感谢官方题解带来的思路，对于其中的动态规划公式我一开始不能理解，后来去搜索了编辑距离问题的算法，手动画表求解了一遍，明白了。
+// ### 解题思路
+// 感谢官方题解带来的思路，对于其中的动态规划公式我一开始不能理解，后来去搜索了编辑距离问题的算法，手动画表求解了一遍，明白了。
 
-动态规划公式：
-if i == 0 且 j == 0，edit(i, j) = 0
-if i == 0 且 j > 0，edit(i, j) = j (初始化）
-if i > 0 且j == 0，edit(i, j) = i (初始化）
-if i ≥ 1  且 j ≥ 1 ，edit(i, j) == min{ edit(i-1, j) + 1, edit(i, j-1) + 1, edit(i-1, j-1) + f(i, j) }，当第一个字符串的第i个字符不等于第二个字符串的第j个字符时，f(i, j) = 1；否则，f(i, j) = 0。
+// 动态规划公式：
+// if i == 0 且 j == 0，edit(i, j) = 0
+// if i == 0 且 j > 0，edit(i, j) = j (初始化）
+// if i > 0 且j == 0，edit(i, j) = i (初始化）
+// if i ≥ 1  且 j ≥ 1 ，edit(i, j) == min{ edit(i-1, j) + 1, edit(i, j-1) + 1, edit(i-1, j-1) + f(i, j) }，当第一个字符串的第i个字符不等于第二个字符串的第j个字符时，f(i, j) = 1；否则，f(i, j) = 0。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minDistance(string word1, string word2) {
@@ -31,4 +31,4 @@ public:
         return dp[m][n];
     }
 };
-```
+// ```

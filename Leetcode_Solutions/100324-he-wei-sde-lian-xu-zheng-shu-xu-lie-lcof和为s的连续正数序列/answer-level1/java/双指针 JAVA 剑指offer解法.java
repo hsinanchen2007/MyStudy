@@ -1,5 +1,5 @@
-# 双指针 JAVA版本 剑指offer解法
-```java
+// # 双指针 JAVA版本 剑指offer解法
+// ```java
 class Solution {
     public int[][] findContinuousSequence(int target) {
         List<int[]> res = new ArrayList<>();
@@ -24,10 +24,10 @@ class Solution {
         return res.toArray(new int[0][]); 
     }
 }
-```
-# 以 target = 15 举例
-- 维持：`small` 指向最小的元素, `big` 指向最大的元素
-```
+// ```
+// # 以 target = 15 举例
+// - 维持：`small` 指向最小的元素, `big` 指向最大的元素
+// ```
 {1,2}
 {1,2,3}
 {1,2,3,4}
@@ -42,6 +42,6 @@ class Solution {
 {6,7,8} = 21 > 15
 {7,8} == 15
 {7,8,9} == 24 9 > (15+1)/2 stop.
-```
-# 为什么big最大到 (target+1)/2
-- 以`target = 15`举例, `(15+1)/2 = 8` , ` 7 + 8 = 15` 且 `8 + 9 = 17` , 所以`big`最多取到 `(target+1)/2`
+// ```
+// # 为什么big最大到 (target+1)/2
+// - 以`target = 15`举例, `(15+1)/2 = 8` , ` 7 + 8 = 15` 且 `8 + 9 = 17` , 所以`big`最多取到 `(target+1)/2`

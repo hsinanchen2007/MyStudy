@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-将nums1元素整体后移nums2.length个长度，然后双指针比较移后的nums1和nums2即可
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 将nums1元素整体后移nums2.length个长度，然后双指针比较移后的nums1和nums2即可
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
 		int n1 = n, n2 = 0;
@@ -33,4 +33,4 @@ class Solution {
         
     }
 }
-```
+// ```

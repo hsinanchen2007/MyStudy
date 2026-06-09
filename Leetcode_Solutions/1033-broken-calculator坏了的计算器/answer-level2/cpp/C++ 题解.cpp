@@ -1,10 +1,10 @@
-### 解题思路
-1，将Y迭代分解成半截（至少一半）
-2，然后看将X去靠拢Y的半截数组，看怎么靠拢最快到达Y
+// ### 解题思路
+// 1，将Y迭代分解成半截（至少一半）
+// 2，然后看将X去靠拢Y的半截数组，看怎么靠拢最快到达Y
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> nums;
@@ -32,6 +32,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/d6f8c9029199d9e3c5f38ddda5ef42a806738baf620f82ccd522082610e50704-image.png)
+// ![image.png](https://pic.leetcode-cn.com/d6f8c9029199d9e3c5f38ddda5ef42a806738baf620f82ccd522082610e50704-image.png)

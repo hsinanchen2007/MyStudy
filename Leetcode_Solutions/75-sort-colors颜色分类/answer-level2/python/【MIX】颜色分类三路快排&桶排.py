@@ -1,10 +1,10 @@
-### 解题思路
-桶排序: 时间复杂度$O(N)$, 空间复杂度$K*O(1)$
-三路快排：时间复杂度$O(N)$, 空间复杂度$O(1)$
+# ### 解题思路
+# 桶排序: 时间复杂度$O(N)$, 空间复杂度$K*O(1)$
+# 三路快排：时间复杂度$O(N)$, 空间复杂度$O(1)$
 
-### 代码
+# ### 代码
 
-```java []
+# ```java []
 class Solution {
     public void sortColors(int[] nums) {
         // 使用三路快排求解
@@ -35,8 +35,8 @@ class Solution {
         nums[j] = temp; 
     }
 }
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def sortColors(self, nums: List[int]) -> None:
         """
@@ -61,8 +61,8 @@ class Solution:
                 nums[i], nums[z_index] = nums[z_index], nums[i]
                 i+=1
 
-```
-```c++ []
+# ```
+# ```c++ []
 class Solution {
 public:
     void sortColors(vector<int>& nums) {
@@ -88,8 +88,8 @@ public:
         }
     }
 };
-```
-```c++ []
+# ```
+# ```c++ []
 class Solution {
 public:
     void sortColors(vector<int>& nums) {
@@ -115,9 +115,9 @@ public:
         }
     }
 };
-```
-**桶排序**
-```c++ []
+# ```
+# **桶排序**
+# ```c++ []
 class Solution {
 public:
     void sortColors(vector<int>& nums) {
@@ -139,8 +139,8 @@ public:
         }
     }
 };
-```
-```c++ []
+# ```
+# ```c++ []
 class Solution {
 public:
     void sortColors(vector<int>& nums) {
@@ -178,4 +178,4 @@ public:
         }
     }
 };
-```
+# ```

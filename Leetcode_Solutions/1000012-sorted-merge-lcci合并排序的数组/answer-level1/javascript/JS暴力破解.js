@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number[]} A
  * @param {number} m
@@ -26,4 +26,4 @@ var merge = function(A, m, B, n) {
     console.log(A);
     return A;
 };
-```
+// ```

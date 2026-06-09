@@ -1,10 +1,10 @@
-### 解题思路
-DFS
+# ### 解题思路
+# DFS
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def numIslands(self, grid):
         """
@@ -41,4 +41,4 @@ class Solution(object):
 
         return count
 
-```
+# ```

@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public ListNode removeNthFromEnd(ListNode head, int n) {
         // 先让快指针向后走n步，然后快慢指针一起走
@@ -34,4 +34,4 @@ class Solution {
         return dummy.next;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def validateStackSequences(self, pushed: List[int], popped: List[int]) -> bool:
         # stack
@@ -13,4 +13,4 @@ class Solution:
                 j += 1
             i += 1
         return stack == []
-```
+# ```

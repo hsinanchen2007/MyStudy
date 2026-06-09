@@ -1,5 +1,5 @@
-贪心法，双向遍历，校正分发糖果数，然后求和。
-```
+// 贪心法，双向遍历，校正分发糖果数，然后求和。
+// ```
 class Solution {
 public:
     int candy(vector<int>& ratings) {
@@ -11,4 +11,4 @@ public:
         return accumulate(cd.begin(),cd.end(),0);
     }
 };
-```
+// ```

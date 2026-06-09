@@ -1,9 +1,9 @@
-### 解题思路
-我们只需记住当前最大值出队后，队列里的下一个最大值即可。
+// ### 解题思路
+// 我们只需记住当前最大值出队后，队列里的下一个最大值即可。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MaxQueue {
 public:
     MaxQueue() {
@@ -44,4 +44,4 @@ public:
  * obj->push_back(value);
  * int param_3 = obj->pop_front();
  */
-```
+// ```

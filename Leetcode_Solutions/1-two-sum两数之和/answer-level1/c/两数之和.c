@@ -1,5 +1,5 @@
-单纯使用C语言写只能使用O(n^2)的暴力算法
-```
+// 单纯使用C语言写只能使用O(n^2)的暴力算法
+// ```
 int* twoSum(int* nums, int numsSize, int target, int* returnSize){
     int i,j;
     int *l = (int*)malloc(sizeof(int) * 2);
@@ -16,4 +16,4 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize){
     *returnSize = 0;
     return l;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-定义函数void f(Node* root,vector<int>& v)将n叉树所有节点值val前序遍历塞进容器v内。
+// ### 解题思路
+// 定义函数void f(Node* root,vector<int>& v)将n叉树所有节点值val前序遍历塞进容器v内。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /*
 // Definition for a Node.
 class Node {
@@ -51,4 +51,4 @@ public:
         }
     }
 };
-```
+// ```

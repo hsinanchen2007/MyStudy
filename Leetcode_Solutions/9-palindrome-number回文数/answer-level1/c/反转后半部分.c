@@ -1,9 +1,9 @@
-### 解题思路
-官方解题思路，应该注意的点都写在注释里
+// ### 解题思路
+// 官方解题思路，应该注意的点都写在注释里
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isPalindrome(int x){
         if(x<0)return false;//小于0的数不是回文
         if(x%10==0&&x!=0)return false;//10,100...都不是回文，但0是
@@ -19,4 +19,4 @@ bool isPalindrome(int x){
        
         return false;
 }
-```
+// ```

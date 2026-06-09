@@ -1,5 +1,5 @@
-# 实现
-```go
+// # 实现
+// ```go
 func maxSlidingWindow(nums []int, k int) []int {
     if len(nums) == 0 {
         return nil
@@ -28,15 +28,15 @@ func maxSlidingWindow(nums []int, k int) []int {
     
     return res
 }
-```
+// ```
 
-# 方法一：暴力解法
-每移动一个数字，比较该滑动窗口内k个数求最大值，保存到结果数组中
-- 每次在滑动窗口内求最大值，需要O(k)的时间复杂度
-- 滑动窗口从左向右划过数组，需要O(n)的时间复杂度 
-- 因此总的时间复杂度是O(n*k)，不需要额外的空间，所以空间复杂度是O(1)
+// # 方法一：暴力解法
+// 每移动一个数字，比较该滑动窗口内k个数求最大值，保存到结果数组中
+// - 每次在滑动窗口内求最大值，需要O(k)的时间复杂度
+// - 滑动窗口从左向右划过数组，需要O(n)的时间复杂度 
+// - 因此总的时间复杂度是O(n*k)，不需要额外的空间，所以空间复杂度是O(1)
 
-```go
+// ```go
 // 暴力解法 Time: O(k*n), Space: O(1)
 func maxSlidingWindow(nums []int, k int) []int {
     if nums == nil || len(nums) == 0 {
@@ -55,21 +55,21 @@ func maxSlidingWindow(nums []int, k int) []int {
     }
     return result
 }
-```
+// ```
 
-# 方法二 辅助数组
-- 用长度k给数组分组，最后一组可能不足k个
-- 对每个分组先从左向右求最大值
-- 对每个分组从右向左求最大值
-- 有了这两个辅助数组，可以在O(1)的时间内求长度为k的任意滑动窗口内的最大值
-- 滑动窗口和这两组分组有两种关系
-    - 滑动窗口跨域两个分组
-        - 滑动窗口左右边沿两个下标对应在两个辅助数组中的两个数字，最大值就是对应滑动窗口内的最大值
-    - 滑动窗口覆盖一个窗口
-- 需要遍历两次数组，是辅助数组的填充和结果数组的填充，所以时间复杂度是O(n)
-- 因为需要大小为n的辅助数组，所以空间复杂度也是O(n)
+// # 方法二 辅助数组
+// - 用长度k给数组分组，最后一组可能不足k个
+// - 对每个分组先从左向右求最大值
+// - 对每个分组从右向左求最大值
+// - 有了这两个辅助数组，可以在O(1)的时间内求长度为k的任意滑动窗口内的最大值
+// - 滑动窗口和这两组分组有两种关系
+//     - 滑动窗口跨域两个分组
+//         - 滑动窗口左右边沿两个下标对应在两个辅助数组中的两个数字，最大值就是对应滑动窗口内的最大值
+//     - 滑动窗口覆盖一个窗口
+// - 需要遍历两次数组，是辅助数组的填充和结果数组的填充，所以时间复杂度是O(n)
+// - 因为需要大小为n的辅助数组，所以空间复杂度也是O(n)
 
-```go
+// ```go
 // Time: O(n), Space: O(n)
 func maxSlidingWindow(nums []int, k int) []int {
     if nums == nil || len(nums) == 0 {
@@ -108,12 +108,12 @@ func maximum(a, b int) int {
     }
     return b
 }
-```
+// ```
 
-# 方法三：双端队列
-学习自[LeetCode官方题解](https://leetcode-cn.com/problems/sliding-window-maximum/solution/shi-pin-jie-xi-shuang-duan-dui-lie-hua-dong-chuang/) ，实现自 [halfrost/LeetCode-Go](https://github.com/halfrost/LeetCode-Go/blob/6a215971de8a9b12c0c3ecb460ca33b4ec3a3ded/Algorithms/0239.%20Sliding%20Window%20Maximum/239.%20Sliding%20Window%20Maximum.go)
+// # 方法三：双端队列
+// 学习自[LeetCode官方题解](https://leetcode-cn.com/problems/sliding-window-maximum/solution/shi-pin-jie-xi-shuang-duan-dui-lie-hua-dong-chuang/) ，实现自 [halfrost/LeetCode-Go](https://github.com/halfrost/LeetCode-Go/blob/6a215971de8a9b12c0c3ecb460ca33b4ec3a3ded/Algorithms/0239.%20Sliding%20Window%20Maximum/239.%20Sliding%20Window%20Maximum.go)
 
-```go
+// ```go
 func maxSlidingWindow(nums []int, k int) []int {
     if nums == nil || len(nums) == 0 {
         return nums
@@ -134,4 +134,4 @@ func maxSlidingWindow(nums []int, k int) []int {
     }
     return result
 }
-```
+// ```

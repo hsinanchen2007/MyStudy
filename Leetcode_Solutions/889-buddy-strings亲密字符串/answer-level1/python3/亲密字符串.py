@@ -1,11 +1,11 @@
-### 解题思路
-咋感觉是面向测试用例编程...
+# ### 解题思路
+# 咋感觉是面向测试用例编程...
 
-交换且仅交换一次A中的两个字母；
+# 交换且仅交换一次A中的两个字母；
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def buddyStrings(self, A: str, B: str) -> bool:
         if len(A) == 0 or len(B) == 0:  # 示例5的情况：A或B为空
@@ -28,4 +28,4 @@ class Solution:
         else:
             return True
 
-```
+# ```

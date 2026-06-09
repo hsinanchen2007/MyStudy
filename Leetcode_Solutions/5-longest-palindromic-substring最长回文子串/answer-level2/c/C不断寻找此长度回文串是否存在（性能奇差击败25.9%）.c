@@ -1,10 +1,10 @@
-### 解题思路
-从最长到2，看该长度的回文串是否存在，存在就建新数组赋值输出
-最后只能长度为1的，建一个赋值首字母输出即可
+// ### 解题思路
+// 从最长到2，看该长度的回文串是否存在，存在就建新数组赋值输出
+// 最后只能长度为1的，建一个赋值首字母输出即可
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isRol(char *s,int start,int end);
 char * longestPalindrome(char * s){
     int n = strlen(s);   // s[0]->s[n-1]
@@ -49,4 +49,4 @@ bool isRol(char *s,int start,int end)  //验证s在 start 到 end 之间是否�
     }
     return true;
 }
-```
+// ```

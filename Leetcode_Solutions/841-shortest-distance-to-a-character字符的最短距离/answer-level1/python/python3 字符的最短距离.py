@@ -1,7 +1,7 @@
-遍历一遍字符串，对于每个字符，同时向左向右寻找C，任意一边找到返回即可
+# 遍历一遍字符串，对于每个字符，同时向左向右寻找C，任意一边找到返回即可
 
 
-```
+# ```
 class Solution:
     def shortestToChar(self, S: str, C: str) -> List[int]:
         n = len(S)-1
@@ -19,4 +19,4 @@ class Solution:
                         break
                 x += 1
         return res
-```
+# ```

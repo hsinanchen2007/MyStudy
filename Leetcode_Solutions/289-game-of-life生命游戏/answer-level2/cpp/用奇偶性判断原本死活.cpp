@@ -1,9 +1,9 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/6875deef55a066341e63e5436dc06ffb97a3659a7a4cb922e10497fba94dce72-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/6875deef55a066341e63e5436dc06ffb97a3659a7a4cb922e10497fba94dce72-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void gameOfLife(vector<vector<int>>& board) //用奇偶来区分原本死活
@@ -59,4 +59,4 @@ public:
                     else board[i][j] = 0;
     }
 };
-```
+// ```

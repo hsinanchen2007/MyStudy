@@ -1,9 +1,9 @@
-### 解题思路
-我不管，写了我一个半小时，debug了一个小时的暴力算法，我也要发出来，毕竟这题是困难程度=。=
+// ### 解题思路
+// 我不管，写了我一个半小时，debug了一个小时的暴力算法，我也要发出来，毕竟这题是困难程度=。=
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
@@ -41,4 +41,4 @@ public:
 
     }
 };
-```
+// ```

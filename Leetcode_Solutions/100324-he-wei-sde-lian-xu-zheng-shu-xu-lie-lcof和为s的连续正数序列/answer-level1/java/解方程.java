@@ -1,11 +1,11 @@
-### 解题思路
-就是定义l，r.l为左端，r为右端。(l+r)(r-l+1)=2*target。
-化简后得到r*r+r=2*target-l+l*l。
-然后就是暴力。可能验证即is()那边要验证。下次一定。
-就是那边long写的特别繁琐，如果有简便写法，求教.
-### 代码
+// ### 解题思路
+// 就是定义l，r.l为左端，r为右端。(l+r)(r-l+1)=2*target。
+// 化简后得到r*r+r=2*target-l+l*l。
+// 然后就是暴力。可能验证即is()那边要验证。下次一定。
+// 就是那边long写的特别繁琐，如果有简便写法，求教.
+// ### 代码
 
-```java
+// ```java
 class Solution {
      int is(long n)
 	{
@@ -38,4 +38,4 @@ class Solution {
        return al.toArray(new int[al.size()][]);
    }
 }
-```
+// ```

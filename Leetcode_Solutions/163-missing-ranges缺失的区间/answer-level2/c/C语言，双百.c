@@ -1,11 +1,11 @@
-### 解题思路
-直接看代码
+// ### 解题思路
+// 直接看代码
 
-特殊值和边界值，需要关注
+// 特殊值和边界值，需要关注
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -102,4 +102,4 @@ char ** findMissingRanges(int* nums, int numsSize, int lower, int upper, int* re
     *returnSize = len;
     return res;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-根据题意，只需要找到左子树和右子树中比根节点的值大的值即可，一旦找到就立即返回该值。
+# ### 解题思路
+# 根据题意，只需要找到左子树和右子树中比根节点的值大的值即可，一旦找到就立即返回该值。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -28,4 +28,4 @@ class Solution:
             return l
         return min(r,l)
 
-```
+# ```

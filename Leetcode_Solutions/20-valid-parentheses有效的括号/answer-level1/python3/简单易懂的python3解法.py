@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def isValid(self, s: str) -> bool:
         
@@ -18,6 +18,6 @@ class Solution:
         if len(stack) is not 0:
             return False
         return True
-```
+# ```
 
-时间复杂度：O(n)
+# 时间复杂度：O(n)

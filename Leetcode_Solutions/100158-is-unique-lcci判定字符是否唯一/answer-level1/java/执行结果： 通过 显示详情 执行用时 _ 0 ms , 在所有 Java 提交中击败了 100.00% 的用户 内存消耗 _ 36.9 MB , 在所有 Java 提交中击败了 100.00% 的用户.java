@@ -1,9 +1,9 @@
-### 解题思路
-双指针遍历，一次推进，默认为true，存在相同的元素就将flag置为false。
+// ### 解题思路
+// 双指针遍历，一次推进，默认为true，存在相同的元素就将flag置为false。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isUnique(String astr) {
     boolean flag = true;
@@ -16,4 +16,4 @@ class Solution {
         return flag;
     }
 }
-```
+// ```

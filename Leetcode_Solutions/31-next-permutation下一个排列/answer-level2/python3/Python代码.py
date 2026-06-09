@@ -1,5 +1,5 @@
-思路看官方题解的
-```python3
+# 思路看官方题解的
+# ```python3
 class Solution:
     def nextPermutation(self, nums) -> None:
         """
@@ -18,4 +18,4 @@ class Solution:
                 break
             i-=1
         nums[i:length] = reversed(nums[i:length])
-```
+# ```

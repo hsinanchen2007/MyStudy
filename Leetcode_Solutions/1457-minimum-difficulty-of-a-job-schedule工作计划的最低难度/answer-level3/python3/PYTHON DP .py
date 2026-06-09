@@ -1,7 +1,7 @@
 
-新年好！
-拔了牙还感冒了 一周没刷题 差一点写出来 最后看的国际版大神的解法 想法是一样的
-```
+# 新年好！
+# 拔了牙还感冒了 一周没刷题 差一点写出来 最后看的国际版大神的解法 想法是一样的
+# ```
 from functools import lru_cache
 class Solution:
     def minDifficulty(self, jobDifficulty: List[int], d: int) -> int:     
@@ -18,4 +18,4 @@ class Solution:
                 res = min(res, maxd + dfs(j + 1, d - 1))
             return res
         return dfs(0, d)
-```
+# ```

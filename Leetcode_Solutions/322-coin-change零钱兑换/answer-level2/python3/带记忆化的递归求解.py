@@ -1,9 +1,9 @@
-### 解题思路
-自顶而下，不断递归下去，结束条件是总额为零或者总额为负。
+# ### 解题思路
+# 自顶而下，不断递归下去，结束条件是总额为零或者总额为负。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import functools
 class Solution:
     def coinChange(self, coins: List[int], amount: int) -> int:
@@ -24,4 +24,4 @@ class Solution:
        
     
 
-```
+# ```

@@ -1,8 +1,8 @@
-首先，记录下ret是否为负；
+// 首先，记录下ret是否为负；
 
-当dividend或divisor是INT_MIN的时候，不能divisor = -divisor，因此首先判断divisor是否为INT_MIN，然后把divisor和dividend转换成同号；
-接下来找到最高位a，用dividend减去pow(2, a) * 3，接下来去找b...直到dividend小于divisor；
-函数返回pow(2, a) + pow(2, b) + ...，当然还要注意边界条件；
+// 当dividend或divisor是INT_MIN的时候，不能divisor = -divisor，因此首先判断divisor是否为INT_MIN，然后把divisor和dividend转换成同号；
+// 接下来找到最高位a，用dividend减去pow(2, a) * 3，接下来去找b...直到dividend小于divisor；
+// 函数返回pow(2, a) + pow(2, b) + ...，当然还要注意边界条件；
 
 class Solution {
 public:

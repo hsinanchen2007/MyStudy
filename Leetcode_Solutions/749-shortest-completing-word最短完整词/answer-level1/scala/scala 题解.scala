@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def shortestCompletingWord(licensePlate: String, words: Array[String]): String = {
     val lp = licensePlate.toLowerCase.replaceAll("[0-9 ]*", "")
@@ -16,4 +16,4 @@ object Solution {
     ans
   }
 }
-```
+// ```

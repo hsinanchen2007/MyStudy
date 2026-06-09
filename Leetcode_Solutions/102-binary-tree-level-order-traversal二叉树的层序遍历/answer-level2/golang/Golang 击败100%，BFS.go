@@ -1,8 +1,8 @@
- 1. 自己写一个队列，但是只进队不出队
-２. 然后ＢＦＳ一遍
-３. 最后，塞一遍数据
+//  1. 自己写一个队列，但是只进队不出队
+// ２. 然后ＢＦＳ一遍
+// ３. 最后，塞一遍数据
 
-```
+// ```
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -56,4 +56,4 @@ func levelOrder(root *TreeNode) [][]int {
     res = append(res, loop)
     return res[1:]
 }
-```
+// ```

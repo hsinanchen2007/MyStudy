@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def largestSumOfAverages(self, A: List[int], K: int) -> float:
         n = len(A)
@@ -17,5 +17,5 @@ class Solution:
                     _max = max(_max, dp[i-1, k] + _sum[k, j]/(j-k))
                 dp[i, j] = _max
         return dp[K, n]
-```
+# ```
 

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def letterCasePermutation(self, S: str) -> list:
         ans = []
@@ -14,4 +14,4 @@ class Solution:
         
         backtrack(S, 0)
         return ans
-```
+# ```

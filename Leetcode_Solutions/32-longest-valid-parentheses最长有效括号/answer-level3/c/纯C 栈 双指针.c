@@ -1,9 +1,9 @@
-### 解题思路
-纯C 栈 快慢指针
+// ### 解题思路
+// 纯C 栈 快慢指针
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int longestValidParentheses(char * s){
     int length = strlen(s);
 
@@ -49,4 +49,4 @@ int longestValidParentheses(char * s){
 
     return max;
 }
-```
+// ```

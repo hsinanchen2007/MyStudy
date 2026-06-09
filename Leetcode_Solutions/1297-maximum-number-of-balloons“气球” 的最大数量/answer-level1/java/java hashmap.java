@@ -1,9 +1,9 @@
-### 解题思路
-先判断是否出现这几个单词，防止后面map.get()方法为空的情况，然后分别取ban和lo里的最小值，最后判断一次x和y的关系
+// ### 解题思路
+// 先判断是否出现这几个单词，防止后面map.get()方法为空的情况，然后分别取ban和lo里的最小值，最后判断一次x和y的关系
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxNumberOfBalloons(String text) {
         if(!text.contains("b") || !text.contains("a") || !text.contains("l") || !text.contains("o") || !text.contains("n")){
@@ -22,4 +22,4 @@ class Solution {
         }
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-### 虽然啰嗦了点，可是浅显易懂
-```cpp
+// ### 虽然啰嗦了点，可是浅显易懂
+// ```cpp
 class Solution {
 public:
     string addStrings(string num1, string num2)
@@ -34,5 +34,5 @@ public:
         return result;
     }
 };
-```
-![WX20200309-234122.png](https://pic.leetcode-cn.com/38ecd41cec23f224dee5ae9c5d73ea0240cc9db5cee0219d2c0f48d2a1fe6a90-WX20200309-234122.png)
+// ```
+// ![WX20200309-234122.png](https://pic.leetcode-cn.com/38ecd41cec23f224dee5ae9c5d73ea0240cc9db5cee0219d2c0f48d2a1fe6a90-WX20200309-234122.png)

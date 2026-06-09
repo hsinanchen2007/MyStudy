@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def orangesRotting(self, grid: List[List[int]]) -> int:
         nextRot = []
@@ -39,4 +39,4 @@ class Solution:
                 if grid[i][j] == 1:
                     return -1
         return rotTime
-```
+# ```

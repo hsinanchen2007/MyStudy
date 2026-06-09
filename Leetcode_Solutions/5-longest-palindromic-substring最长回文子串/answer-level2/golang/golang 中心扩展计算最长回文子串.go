@@ -1,4 +1,4 @@
-```
+// ```
 func longestPalindrome(s string) string {
 	str := []byte(s)
 	if len(str) == 0 {
@@ -128,4 +128,4 @@ func getArr(arr []byte) [][]byte {
 	return group
 }
 
-```
+// ```

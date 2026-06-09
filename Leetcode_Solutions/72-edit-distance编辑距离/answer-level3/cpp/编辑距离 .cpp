@@ -1,13 +1,13 @@
 
-解题思路
-后一次的匹配基于前一次匹配成功的基础上，在这个条件上考虑当前匹配可能的3种情况
+// 解题思路
+// 后一次的匹配基于前一次匹配成功的基础上，在这个条件上考虑当前匹配可能的3种情况
 
-![编辑距离.jpg](https://pic.leetcode-cn.com/2af63cd010ba59a27a335cb942ae36ef28e3b0b69f175c51577a326946939f4d-%E7%BC%96%E8%BE%91%E8%B7%9D%E7%A6%BB.jpg)
+// ![编辑距离.jpg](https://pic.leetcode-cn.com/2af63cd010ba59a27a335cb942ae36ef28e3b0b69f175c51577a326946939f4d-%E7%BC%96%E8%BE%91%E8%B7%9D%E7%A6%BB.jpg)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minDistance(string word1, string word2) {
@@ -39,4 +39,4 @@ public:
     }
 
 };
-```
+// ```

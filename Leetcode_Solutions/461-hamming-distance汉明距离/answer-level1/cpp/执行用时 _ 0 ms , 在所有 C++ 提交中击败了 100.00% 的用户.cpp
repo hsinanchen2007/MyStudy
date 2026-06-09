@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-整数%2即可求二进制
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 整数%2即可求二进制
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int hammingDistance(int x, int y) {
@@ -16,4 +16,4 @@ public:
         return output;
     }
 };
-```
+// ```

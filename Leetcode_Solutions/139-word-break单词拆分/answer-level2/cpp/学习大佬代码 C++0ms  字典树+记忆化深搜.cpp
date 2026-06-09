@@ -1,9 +1,9 @@
-![QQ截图20200110143202.jpg](https://pic.leetcode-cn.com/693b846676ae407ca70c80c1f6cc929033da8edce66b9de01a8e74ab4332c3ce-QQ%E6%88%AA%E5%9B%BE20200110143202.jpg)
+// ![QQ截图20200110143202.jpg](https://pic.leetcode-cn.com/693b846676ae407ca70c80c1f6cc929033da8edce66b9de01a8e74ab4332c3ce-QQ%E6%88%AA%E5%9B%BE20200110143202.jpg)
 
 
 
 
-```
+// ```
 class Solution {
 public:
 
@@ -67,5 +67,5 @@ public:
         return false;
     }
 };
-```
+// ```
 

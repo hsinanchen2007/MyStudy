@@ -1,13 +1,13 @@
-### 解题思路
-快速选择算法，一般分为select函数，和一个内部的partition函数
-partition是一个用于找主元位置的函数
-select用二分的思想并进行剪枝，只需要一半的计算量
-在主元的选择上多了一步随机选择
-下标的转换会比较绕
+# ### 解题思路
+# 快速选择算法，一般分为select函数，和一个内部的partition函数
+# partition是一个用于找主元位置的函数
+# select用二分的思想并进行剪枝，只需要一半的计算量
+# 在主元的选择上多了一步随机选择
+# 下标的转换会比较绕
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findKthLargest(self, nums, k):
         def partition(left, right, pivot_index):
@@ -56,4 +56,4 @@ class Solution:
         # 这里函数的区间是双头闭的，第k个最大，在从小到大排列的数组中的就是第len(num)+1-k小
         # index从0开始，所以实际的k_smallest还要减去1
         return select(0, len(nums) - 1, len(nums)- k)
-```
+# ```

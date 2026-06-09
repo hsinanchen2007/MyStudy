@@ -1,13 +1,13 @@
-### 解题思路
-按照字母顺序，依次添加，以'a1b2'为例：
-1.a A
-2.a1 A1
-3.a1b a1B A1b A1B
-4.a1b2 a1B2 A1b2 A1B2
+// ### 解题思路
+// 按照字母顺序，依次添加，以'a1b2'为例：
+// 1.a A
+// 2.a1 A1
+// 3.a1b a1B A1b A1B
+// 4.a1b2 a1B2 A1b2 A1B2
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} S
  * @return {string[]}
@@ -41,4 +41,4 @@ var letterCasePermutation = function (S) {
             }
             return res
         };
-```
+// ```

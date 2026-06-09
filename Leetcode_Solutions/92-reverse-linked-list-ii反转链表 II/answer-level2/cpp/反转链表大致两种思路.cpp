@@ -1,9 +1,9 @@
-反转链表大致两种思路：一是改变指针域，不改变数据域；另一个是改变数据域，不改变指针域。后者需要开辟额外空间-一个栈即可。
+// 反转链表大致两种思路：一是改变指针域，不改变数据域；另一个是改变数据域，不改变指针域。后者需要开辟额外空间-一个栈即可。
 
-只改变指针域，执行情况和代码如下：
-性能：4ms  8.6MB
+// 只改变指针域，执行情况和代码如下：
+// 性能：4ms  8.6MB
 
-```
+// ```
  ListNode* reverseBetween(ListNode* head, int m, int n) {
         if(m==n)
             return head;
@@ -37,11 +37,11 @@
         p_m->next=p;
         return new_head;     
     }
-```
+// ```
 
-只改变数据域，执行情况和代码如下：
-性能：4ms  8.7MB
-```
+// 只改变数据域，执行情况和代码如下：
+// 性能：4ms  8.7MB
+// ```
 ListNode* reverseBetween1(ListNode* head, int m, int n) {
 
 	ListNode* p = head;
@@ -65,5 +65,5 @@ ListNode* reverseBetween1(ListNode* head, int m, int n) {
 	}
 	return head;
 }
-```
+// ```
 

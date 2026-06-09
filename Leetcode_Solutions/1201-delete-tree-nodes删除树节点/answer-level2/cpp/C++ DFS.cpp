@@ -1,14 +1,14 @@
-### 解题思路
-1. 用map记录节点的孩子们；
-2. 深度优先搜索，若存在父节点，则把当前节点的value和个数收归到父节点
-3. 如果当前节点value为0，则把当前子树计数清零。
+// ### 解题思路
+// 1. 用map记录节点的孩子们；
+// 2. 深度优先搜索，若存在父节点，则把当前节点的value和个数收归到父节点
+// 3. 如果当前节点value为0，则把当前子树计数清零。
 
-![image.png](https://pic.leetcode-cn.com/206b3371a366f572d02c9cedf6ccde060d50ad77a2ba774862241d3c16673f5f-image.png)
+// ![image.png](https://pic.leetcode-cn.com/206b3371a366f572d02c9cedf6ccde060d50ad77a2ba774862241d3c16673f5f-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int deleteTreeNodes(int nodes, vector<int>& parent, vector<int>& value) {
@@ -41,4 +41,4 @@ public:
         return cnts[0];
     }
 };
-```
+// ```

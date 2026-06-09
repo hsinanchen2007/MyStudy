@@ -1,11 +1,11 @@
 
-暴力1 
-时间复杂度 n^3 (运行超时)
-第一遍 ：找到左边界
-第二便 ：找到右边界
-第三遍 ：找到左右边界面积最大的情况
+// 暴力1 
+// 时间复杂度 n^3 (运行超时)
+// 第一遍 ：找到左边界
+// 第二便 ：找到右边界
+// 第三遍 ：找到左右边界面积最大的情况
 
-```
+// ```
 func largestRectangleArea(heights []int) int {
     l := len(heights)
     max:= 0 
@@ -25,13 +25,13 @@ func largestRectangleArea(heights []int) int {
     return max
 }
 
-```
+// ```
 
-暴力2 
-第一遍 找到基准柱子
-第二遍 和其他柱子的面积的所有组合，并找到最大max
+// 暴力2 
+// 第一遍 找到基准柱子
+// 第二遍 和其他柱子的面积的所有组合，并找到最大max
 
-```
+// ```
 func largestRectangleArea(heights []int) int {
     maxArea := 0 
     for i:=0; i < len(heights); i++ {
@@ -47,5 +47,5 @@ func largestRectangleArea(heights []int) int {
     }
     return maxArea
 }
-```
+// ```
 

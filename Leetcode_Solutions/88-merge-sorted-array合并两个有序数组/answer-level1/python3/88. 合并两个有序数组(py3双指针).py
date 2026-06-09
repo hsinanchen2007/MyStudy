@@ -1,5 +1,5 @@
-分析:涉及两个有序数组合并,设置i和j双指针,分别从两个数组的尾部向头部移动,并判断A[i]和B[j]的大小关系,从而保证最终数组有序,同时每次index从尾部向头部移动。
-```python []
+# 分析:涉及两个有序数组合并,设置i和j双指针,分别从两个数组的尾部向头部移动,并判断A[i]和B[j]的大小关系,从而保证最终数组有序,同时每次index从尾部向头部移动。
+# ```python []
 class Solution:
     def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
         """

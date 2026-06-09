@@ -1,9 +1,9 @@
-### 解题思路
-纯C 三次反转
+// ### 解题思路
+// 纯C 三次反转
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 static void reverse(int* nums, int numsSize, int start, int end)
 {
     int temp = 0;
@@ -24,4 +24,4 @@ void rotate(int* nums, int numsSize, int k){
     reverse(nums, numsSize, 0, k - 1);
     reverse(nums, numsSize, k, numsSize - 1);
 }
-```
+// ```

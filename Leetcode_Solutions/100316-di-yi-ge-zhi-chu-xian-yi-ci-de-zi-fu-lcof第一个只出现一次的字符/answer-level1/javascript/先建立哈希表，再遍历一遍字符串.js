@@ -1,10 +1,10 @@
-### 解题思路
-先建立哈希表，再遍历一遍字符串
-时间复杂度: O(N)
-空间复杂度度: O(N)，因为建立了哈希表
-### 代码
+// ### 解题思路
+// 先建立哈希表，再遍历一遍字符串
+// 时间复杂度: O(N)
+// 空间复杂度度: O(N)，因为建立了哈希表
+// ### 代码
 
-```javascript
+// ```javascript
 var firstUniqChar = function(s) {
     // 先建立哈希表，再遍历一遍字符串
     let map = new Map();
@@ -23,4 +23,4 @@ var firstUniqChar = function(s) {
     }
     return " ";
 };
-```
+// ```

@@ -1,13 +1,13 @@
-解题思路：
+// 解题思路：
 
-1. 记录开头连续0个数count1;
-2. 记录结尾连续0个数count2;
-3. 计算中间连续0个数的最大值countmax;
-4. count1、count2、(countmax+1)/2 三者中最大值即为结果.
+// 1. 记录开头连续0个数count1;
+// 2. 记录结尾连续0个数count2;
+// 3. 计算中间连续0个数的最大值countmax;
+// 4. count1、count2、(countmax+1)/2 三者中最大值即为结果.
 
-虽然代码中分三段循环，实际合起来只有一次完整循环，时间复杂度为O(n)
+// 虽然代码中分三段循环，实际合起来只有一次完整循环，时间复杂度为O(n)
 
-```java
+// ```java
 class Solution {
     public int maxDistToClosest(int[] seats) {
         int count1 = 0;
@@ -37,4 +37,4 @@ class Solution {
         return Math.max(Math.max(count1, count2), (countmax+1)/2);
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
 
 
-```golang
+// ```golang
 func singleNumbers(nums []int) []int {
     eor := 0
     for i := 0;i<len(nums);i++{
@@ -15,4 +15,4 @@ func singleNumbers(nums []int) []int {
     }
     return []int{onlyOne,eor^onlyOne}
 }
-```
+// ```

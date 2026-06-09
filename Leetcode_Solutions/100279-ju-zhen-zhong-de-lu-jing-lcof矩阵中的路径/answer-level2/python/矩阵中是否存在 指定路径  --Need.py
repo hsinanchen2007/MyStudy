@@ -1,13 +1,13 @@
-### 解题思路
-1. **注意代码细节即可，没有任何技巧可言**
-    - 上下左右，visit 记录位置，回退时，记得复原
-    - **dfs 的开始条件是 board[i][j] == word[0]**
-2. [面试题12. 矩阵中的路径（深度优先搜索 DFS ，清晰图解）](https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof/solution/mian-shi-ti-12-ju-zhen-zhong-de-lu-jing-shen-du-yo/)
-    - 讲解的非常详细
+# ### 解题思路
+# 1. **注意代码细节即可，没有任何技巧可言**
+#     - 上下左右，visit 记录位置，回退时，记得复原
+#     - **dfs 的开始条件是 board[i][j] == word[0]**
+# 2. [面试题12. 矩阵中的路径（深度优先搜索 DFS ，清晰图解）](https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof/solution/mian-shi-ti-12-ju-zhen-zhong-de-lu-jing-shen-du-yo/)
+#     - 讲解的非常详细
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
 
     def exist(self, board: List[List[str]], word: str) -> bool:
@@ -52,4 +52,4 @@ class Solution:
                 
         
         return False
-```
+# ```

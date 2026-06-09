@@ -1,10 +1,10 @@
-### 解题思路
-选择所有的岛屿，判断上下左右是否有海洋相邻。
-如果想要更简洁的代码，可以扩大地图，在四周再围一圈海洋，就可以不必特殊考虑四个地图四个边四个角上的陆地。
+// ### 解题思路
+// 选择所有的岛屿，判断上下左右是否有海洋相邻。
+// 如果想要更简洁的代码，可以扩大地图，在四周再围一圈海洋，就可以不必特殊考虑四个地图四个边四个角上的陆地。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int C(int** Grid, int GridSize, int* GridColSize,int Row,int Col)
 {
     //坐标不在地图边缘
@@ -109,4 +109,4 @@ int islandPerimeter(int** grid, int gridSize, int* gridColSize){
                 result+=C(grid,gridSize,gridColSize,row,col);
     return result;
 }
-```
+// ```

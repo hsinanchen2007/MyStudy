@@ -1,9 +1,9 @@
-### 解题思路
-二叉搜索树的中序遍历是升序排列，直接用较大数减较小数即可
+// ### 解题思路
+// 二叉搜索树的中序遍历是升序排列，直接用较大数减较小数即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -40,4 +40,4 @@ class Solution {
         inOrder(root.right);
     }
 }
-```
+// ```

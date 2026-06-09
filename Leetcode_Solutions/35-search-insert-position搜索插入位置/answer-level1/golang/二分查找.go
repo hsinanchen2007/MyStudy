@@ -1,9 +1,9 @@
-### 解题思路
-通过二分查找
+// ### 解题思路
+// 通过二分查找
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func searchInsert(nums []int, target int) int {
 	var res int
 	begin := 0
@@ -30,4 +30,4 @@ func searchInsert(nums []int, target int) int {
 	return res
 }
 
-```
+// ```

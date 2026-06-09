@@ -1,10 +1,10 @@
-### 解题思路
-单调栈
-for 循环要从后往前扫描
+# ### 解题思路
+# 单调栈
+# for 循环要从后往前扫描
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def dailyTemperatures(self, T: List[int]) -> List[int]:
         ans = [None] * len(T)
@@ -18,4 +18,4 @@ class Solution:
                 ans[i] = 0
             stack.append(i)
         return ans
-```
+# ```

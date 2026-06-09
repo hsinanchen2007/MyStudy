@@ -1,6 +1,6 @@
-- 方法一
-遍历链表，遇到val值大于等于x的节点就将其移至链表尾部。
-```c
+// - 方法一
+// 遍历链表，遇到val值大于等于x的节点就将其移至链表尾部。
+// ```c
 struct ListNode* partition(struct ListNode* head, int x){
     if(head==0) return head;
     struct ListNode header;
@@ -23,10 +23,10 @@ struct ListNode* partition(struct ListNode* head, int x){
     }
     return header.next;
 }
-```
-- 方法二
-将val值小于x的节点从原链表提出，构成一个新链表，再将原链表接到新链表结尾。
-```c
+// ```
+// - 方法二
+// 将val值小于x的节点从原链表提出，构成一个新链表，再将原链表接到新链表结尾。
+// ```c
 struct ListNode* partition(struct ListNode* head, int x){
     if(head==0) return 0;
     struct ListNode header;
@@ -56,4 +56,4 @@ struct ListNode* partition(struct ListNode* head, int x){
     if(header.next!=head) head->next=header.next;
     return res;
 }
-```
+// ```

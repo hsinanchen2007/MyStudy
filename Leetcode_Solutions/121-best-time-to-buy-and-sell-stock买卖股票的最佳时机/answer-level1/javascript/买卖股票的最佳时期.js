@@ -1,6 +1,6 @@
-两种方法
-1、暴力法，两层for循环
-```
+// 两种方法
+// 1、暴力法，两层for循环
+// ```
 var maxProfit = function(prices) {
     var max = 0
     for(var i = 0 ; i< prices.length ;i++){
@@ -14,9 +14,9 @@ var maxProfit = function(prices) {
     }
     return max
 };
-```
-2、简化版
-```
+// ```
+// 2、简化版
+// ```
 var maxProfit = function(prices) {
     var buy = prices[0]
     var profit = 0
@@ -26,4 +26,4 @@ var maxProfit = function(prices) {
     }
     return profit
 };
-```
+// ```

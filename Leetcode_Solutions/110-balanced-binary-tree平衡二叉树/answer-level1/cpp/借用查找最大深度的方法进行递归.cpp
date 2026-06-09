@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-对每个节点,判断其左右两边的最大深度差,递归调用左右子节点
+// 对每个节点,判断其左右两边的最大深度差,递归调用左右子节点
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -31,4 +31,4 @@ public:
                 isBalanced(root->left) && isBalanced(root->right);
     }
 };
-```
+// ```

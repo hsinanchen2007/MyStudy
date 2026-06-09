@@ -1,9 +1,9 @@
-### 解题思路
-如题，不知道有没有办法直接用正则解决。
+# ### 解题思路
+# 如题，不知道有没有办法直接用正则解决。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findSubstring(self, s: str, words: List[str]) -> List[int]:
         if s == "" or len(words) == 0: return []
@@ -23,4 +23,4 @@ class Solution:
 
 
 
-```
+# ```

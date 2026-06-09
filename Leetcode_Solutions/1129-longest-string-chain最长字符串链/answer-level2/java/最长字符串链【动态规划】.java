@@ -1,14 +1,14 @@
-#### 解题思路：
+// #### 解题思路：
 
-定义 $dp[i]$ 表示 到 $words[i]$ 为止最长的词链长度。
+// 定义 $dp[i]$ 表示 到 $words[i]$ 为止最长的词链长度。
 
-这里有一点瑕疵，暂时在每个循环里只能得到以固定字符串为起点的最长词链长度，因此结果需要再次遍历。
+// 这里有一点瑕疵，暂时在每个循环里只能得到以固定字符串为起点的最长词链长度，因此结果需要再次遍历。
 
-具体分析可以在注释查看
+// 具体分析可以在注释查看
 
-#### 解题方案：【动态规划】 ( 119ms)
+// #### 解题方案：【动态规划】 ( 119ms)
 
-```java [-Java]
+// ```java [-Java]
 class Solution {
     public int longestStrChain(String[] words) {
         int len = words.length;
@@ -61,17 +61,17 @@ class Solution {
         return i == lenA;
     }
 }
-```
+// ```
 
-#### 复杂度分析：
+// #### 复杂度分析：
 
-时间：$O(N^2)$
+// 时间：$O(N^2)$
 
-空间：$O(N)$
+// 空间：$O(N)$
 
-#### 解题方案：【动态规划】(40ms) 官方目前最快答案
+// #### 解题方案：【动态规划】(40ms) 官方目前最快答案
 
-```java [-Java]
+// ```java [-Java]
 class Solution {
     public ArrayList<ArrayList<String>> list = new ArrayList<>();
 	public int maxLen = 1;
@@ -133,4 +133,4 @@ class Solution {
 	}
 	
 }
-```
+// ```

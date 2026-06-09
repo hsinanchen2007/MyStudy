@@ -1,4 +1,4 @@
-    int wiggleMaxLength(int* nums, int numsSize){   //差值变符号res+1，O(n),O(1)
+//     int wiggleMaxLength(int* nums, int numsSize){   //差值变符号res+1，O(n),O(1)
     int i,res,flag,tmp;
     if(numsSize<2) return numsSize;
     

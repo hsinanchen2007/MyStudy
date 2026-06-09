@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-比较简单的投票思路
+// 比较简单的投票思路
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func majorityElement(_ nums: [Int]) -> Int {
 
@@ -25,4 +25,4 @@ class Solution {
         return e
     }
 }
-```
+// ```

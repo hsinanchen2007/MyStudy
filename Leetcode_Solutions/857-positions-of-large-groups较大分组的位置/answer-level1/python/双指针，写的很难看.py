@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-start标定重复字母的左索引，end标定重复字母的右索引，一次遍历，时间复杂度是O(n)
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# start标定重复字母的左索引，end标定重复字母的右索引，一次遍历，时间复杂度是O(n)
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def largeGroupPositions(self, S: str) -> List[List[int]]:
         res=[]
@@ -32,4 +32,4 @@ class Solution:
                     end+=1
             
         return res
-```
+# ```

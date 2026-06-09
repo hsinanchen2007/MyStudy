@@ -1,13 +1,13 @@
-一起组队刷题打卡，微博 [@爱编程的周鸟](https://weibo.com/iosxxoo) 求关注求交流。
+# 一起组队刷题打卡，微博 [@爱编程的周鸟](https://weibo.com/iosxxoo) 求关注求交流。
 
-### 解题思路
-1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
+# ### 解题思路
+# 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
 
-用一个bool数组标记走过的路，到底了就按照 右→下→左→上→右 的方式修改运动方向。
+# 用一个bool数组标记走过的路，到底了就按照 右→下→左→上→右 的方式修改运动方向。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def spiralOrder(self, matrix):
         """
@@ -55,4 +55,4 @@ class Solution(object):
                     direction = 0
                     j += 1
         return res
-```
+# ```

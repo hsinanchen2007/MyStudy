@@ -1,14 +1,14 @@
-思路：先用partition算法将下标为0到k-1的nums数组中的中位数找出 此步骤复杂度为o(k);
-以此中位数为基准手写建立大小堆 前大后小 将窗口以大小堆的数据结构存储 再左出右进 滑动窗口
-在此过程维护大小堆 此步骤的算法思想可见官方题解 具体细节可见代码 此步骤复杂度为o(nlogk)
-故最终时间复杂度为o(nlogk);
-空间复杂度为o(n);
+// 思路：先用partition算法将下标为0到k-1的nums数组中的中位数找出 此步骤复杂度为o(k);
+// 以此中位数为基准手写建立大小堆 前大后小 将窗口以大小堆的数据结构存储 再左出右进 滑动窗口
+// 在此过程维护大小堆 此步骤的算法思想可见官方题解 具体细节可见代码 此步骤复杂度为o(nlogk)
+// 故最终时间复杂度为o(nlogk);
+// 空间复杂度为o(n);
 
-![捕获.PNG](https://pic.leetcode-cn.com/fcf3b7938e20444825e3aa289d266c13a6d6d4983bb9ce3e3c48da153e5fdbca-%E6%8D%95%E8%8E%B7.PNG)
+// ![捕获.PNG](https://pic.leetcode-cn.com/fcf3b7938e20444825e3aa289d266c13a6d6d4983bb9ce3e3c48da153e5fdbca-%E6%8D%95%E8%8E%B7.PNG)
 
-完整代码如下：
+// 完整代码如下：
 
- ```
+//  ```
 struct TOP{int loc;int num;};
 void insertmin(struct TOP * mintop,int k1,int num,int loc)
 {if(k1==1) {mintop[1].loc=loc;mintop[1].num=num;return;}
@@ -217,4 +217,4 @@ else middle[++j]=1.0*maxtop[1].num;
 *returnSize=len-k+1;
 return middle;
 }
-```
+// ```

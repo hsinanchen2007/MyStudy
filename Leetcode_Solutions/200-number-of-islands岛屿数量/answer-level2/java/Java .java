@@ -1,5 +1,5 @@
-# 1.深度优先搜索
-```
+// # 1.深度优先搜索
+// ```
 class Solution {
     private char[][] grid;
     private int count = 0;
@@ -33,9 +33,9 @@ class Solution {
 
     }
 }
-```
-# 广度优先搜索
-```
+// ```
+// # 广度优先搜索
+// ```
 class Solution {
     public int numIslands(char[][] grid) {
         int M = grid.length;
@@ -67,6 +67,6 @@ class Solution {
         return count;
     }
 }
-```
+// ```
 
 

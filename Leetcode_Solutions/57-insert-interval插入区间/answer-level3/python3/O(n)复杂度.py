@@ -1,10 +1,10 @@
-### 解题思路
-根据题目描述，给定的区间集合中各个子区间是不相交的，且区间开端已经排好序。
-那么该题的可以想找到newInterval 的插入位置，然后再进行合并区间即可
+# ### 解题思路
+# 根据题目描述，给定的区间集合中各个子区间是不相交的，且区间开端已经排好序。
+# 那么该题的可以想找到newInterval 的插入位置，然后再进行合并区间即可
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def insert(self, intervals: List[List[int]], newInterval: List[int]) -> List[List[int]]:
         
@@ -32,4 +32,4 @@ class Solution:
 
 
             
-```
+# ```

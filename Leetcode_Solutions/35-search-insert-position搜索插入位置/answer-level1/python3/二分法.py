@@ -1,4 +1,4 @@
-```      
+# ```      
 class Solution:
     def searchInsert(self, nums, target) -> int:
         if not nums:
@@ -21,5 +21,5 @@ class Solution:
             return mid
         if right == mid:
            return left
-```
-**菜鸟第一次发，嘿嘿**
+# ```
+# **菜鸟第一次发，嘿嘿**

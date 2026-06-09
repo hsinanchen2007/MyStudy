@@ -1,12 +1,12 @@
 
 
-## 思路：
+# ## 思路：
 
-模拟加法过程，从低位按位相加
+# 模拟加法过程，从低位按位相加
 
-代码有注释，很好理解！
+# 代码有注释，很好理解！
 
-```python
+# ```python
 class Solution:
     def isSolvable(self, words: List[str], result: str) -> bool:
         # 找最长字符串的长度
@@ -71,6 +71,6 @@ class Solution:
             return False
 
         return dfs(0, 0, 0)
-```
+# ```
 
 

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def removeNthFromEnd(self, head: ListNode, n: int) -> ListNode:
         '''先求长度，之后再计数删除'''
@@ -30,4 +30,4 @@ class Solution:
             return None
         else:
             return delete(head)
-```
+# ```

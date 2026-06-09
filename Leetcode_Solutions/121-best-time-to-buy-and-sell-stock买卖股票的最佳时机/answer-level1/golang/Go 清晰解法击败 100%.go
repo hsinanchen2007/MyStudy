@@ -1,6 +1,6 @@
-其实按题意不就是找最小的买入, 最大的卖出？说了这么多, 管什么动态规划不规划？
+// 其实按题意不就是找最小的买入, 最大的卖出？说了这么多, 管什么动态规划不规划？
 
-```go
+// ```go
 func maxProfit(prices []int) int {
 	min := int(^uint(0) >> 1) // 存最小买入
 	max := 0                  // 最大利润
@@ -14,4 +14,4 @@ func maxProfit(prices []int) int {
 	}
 	return max
 }
-```
+// ```

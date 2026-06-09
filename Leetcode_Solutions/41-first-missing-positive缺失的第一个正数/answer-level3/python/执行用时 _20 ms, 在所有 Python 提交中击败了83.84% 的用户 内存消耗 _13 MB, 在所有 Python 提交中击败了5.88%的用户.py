@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def firstMissingPositive(self, nums):
         n = len(nums)
@@ -26,4 +26,4 @@ class Solution:
         if nums[0] > 0:
             return n
         return n+1
-```
+# ```

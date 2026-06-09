@@ -1,4 +1,4 @@
-本方法考虑的方面比较多，不是很推荐，但是作为一个思路，share 一下，速度还是很快的。
+// 本方法考虑的方面比较多，不是很推荐，但是作为一个思路，share 一下，速度还是很快的。
 
 ![image.png](https://pic.leetcode-cn.com/3550a70da6228ba67c5fbd4ff4cd1211010a89ff3efb29d04302cf1c48106150-image.png)
 

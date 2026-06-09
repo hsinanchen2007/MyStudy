@@ -1,7 +1,7 @@
-不知道为什么第一次跑了0ms，一般4ms到12ms不等
-思路是把所有可能的子串都扫一遍，最多扫单词长度个子串，每个子串在扫的时候用ac自动机的想法，能达到o(n)的时间复杂度
+// 不知道为什么第一次跑了0ms，一般4ms到12ms不等
+// 思路是把所有可能的子串都扫一遍，最多扫单词长度个子串，每个子串在扫的时候用ac自动机的想法，能达到o(n)的时间复杂度
 
-```
+// ```
 func findSubstring(s string, words []string) []int {
     w2num := make(map[string]uint8)
     allNum := len(words)
@@ -62,5 +62,5 @@ func isSub(s string, w2num map[string]uint8, length int, allNum int, re *[]int, 
         }
     }
 }
-```
+// ```
 

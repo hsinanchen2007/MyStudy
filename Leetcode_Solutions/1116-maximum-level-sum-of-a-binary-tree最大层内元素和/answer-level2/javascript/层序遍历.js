@@ -1,5 +1,5 @@
-- 通过上一层的节点来left和right来保存下一次的节点
-```
+// - 通过上一层的节点来left和right来保存下一次的节点
+// ```
 var maxLevelSum = function (root) {
   let queue = [root];
   let max = root.val;
@@ -27,4 +27,4 @@ var maxLevelSum = function (root) {
   }
   return res;
 };
-```
+// ```

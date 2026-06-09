@@ -1,11 +1,11 @@
-### 解题思路
+# ### 解题思路
 
-树转序列：层次遍历，去除末尾的null
-序列转树：队列即可
+# 树转序列：层次遍历，去除末尾的null
+# 序列转树：队列即可
 
-### 代码
+# ### 代码
 
-```python []
+# ```python []
 class Codec:
 
     def serialize(self, root):
@@ -30,11 +30,11 @@ class Codec:
                 r.right = TreeNode(int(j))
                 q.append(r.right)
         return ans
-```
+# ```
 
-### 面向测试编程：
+# ### 面向测试编程：
 
-```python []
+# ```python []
 class Codec:
 
     def serialize(self, root):
@@ -42,4 +42,4 @@ class Codec:
 
     def deserialize(self, data):
         return self.root
-```
+# ```

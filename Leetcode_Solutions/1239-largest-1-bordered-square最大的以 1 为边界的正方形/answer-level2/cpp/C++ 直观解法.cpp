@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool valid(const vector<vector<int> >& grid, int r, int c, int s) {
@@ -23,5 +23,5 @@ public:
         return 0;
     }
 };
-```
+// ```
 

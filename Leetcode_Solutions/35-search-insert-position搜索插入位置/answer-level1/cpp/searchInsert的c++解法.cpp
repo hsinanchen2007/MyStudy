@@ -1,9 +1,9 @@
-### 解题思路
-二分法查询, 这么写思路很顺, 只用单独考虑收敛到右边界的情况。
+// ### 解题思路
+// 二分法查询, 这么写思路很顺, 只用单独考虑收敛到右边界的情况。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int searchInsert(vector<int>& nums, int target) {
@@ -31,4 +31,4 @@ public:
         return low;
     }
 };
-```
+// ```

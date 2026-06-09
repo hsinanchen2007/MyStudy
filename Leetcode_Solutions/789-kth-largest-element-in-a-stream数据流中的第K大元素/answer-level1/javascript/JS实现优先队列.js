@@ -1,7 +1,7 @@
-解题思路
-用JS实现一个优先队列（MinHeap）
+// 解题思路
+// 用JS实现一个优先队列（MinHeap）
 
-```javascript
+// ```javascript
 function MinHeap(initData = []) {
   this.heap = initData;
 }
@@ -77,4 +77,4 @@ KthLargest.prototype.add = function(val) {
   } 
   return this.minHeap.getMin();
 };
-```
+// ```

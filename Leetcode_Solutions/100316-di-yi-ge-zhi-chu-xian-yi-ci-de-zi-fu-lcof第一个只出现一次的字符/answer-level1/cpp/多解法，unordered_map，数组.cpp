@@ -1,9 +1,9 @@
-### 解题思路
-两种解法
+// ### 解题思路
+// 两种解法
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     char firstUniqChar(string s) {
@@ -26,9 +26,9 @@ public:
         return ans;
     }
 };
-```
+// ```
 
-```
+// ```
 class Solution {
 public:
     char firstUniqChar(string s) {
@@ -54,6 +54,6 @@ public:
     }
 };
 
-```
+// ```
 
-更多题解[https://blog.csdn.net/qq_21201267/article/details/100577842](https://blog.csdn.net/qq_21201267/article/details/100577842)
+// 更多题解[https://blog.csdn.net/qq_21201267/article/details/100577842](https://blog.csdn.net/qq_21201267/article/details/100577842)

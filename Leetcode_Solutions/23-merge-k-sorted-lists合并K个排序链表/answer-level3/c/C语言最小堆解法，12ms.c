@@ -1,11 +1,11 @@
-### 解题思路
-利用最小堆的数据结构，把每个链表的头放进堆里。
-只需要堆的两个操作，buildHeap和increaseKey，而这两个操作又只需要一个共同的pocolateDown(下滤)操作。
-为了编写方便，增加了一个NULLNODE节点，并在堆的头部安了一个哑节点。
+// ### 解题思路
+// 利用最小堆的数据结构，把每个链表的头放进堆里。
+// 只需要堆的两个操作，buildHeap和increaseKey，而这两个操作又只需要一个共同的pocolateDown(下滤)操作。
+// 为了编写方便，增加了一个NULLNODE节点，并在堆的头部安了一个哑节点。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -60,4 +60,4 @@ Node *mergeKLists(Node **lists, int listsSize)
     }
     return head.next;
 }
-```
+// ```

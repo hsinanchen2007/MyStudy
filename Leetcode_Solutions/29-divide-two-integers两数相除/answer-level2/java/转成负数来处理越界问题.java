@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-看了别人代码相加 被除数远小于除数时增加倍数。最后把所有正数改成，负数的形式处理。这样可以免于正数越界问题，java源码也是使用负数来处理加减问题，可以参考，Interger的String改成int方法
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 看了别人代码相加 被除数远小于除数时增加倍数。最后把所有正数改成，负数的形式处理。这样可以免于正数越界问题，java源码也是使用负数来处理加减问题，可以参考，Interger的String改成int方法
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int divide(int dividend, int divisor) {
         if (dividend == 0) {
@@ -47,4 +47,4 @@ class Solution {
         return negative ? -res : res;
     }
 }
-```
+// ```

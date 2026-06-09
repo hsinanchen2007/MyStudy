@@ -1,9 +1,9 @@
-### 解题思路
-找出字符串数组中最小的那个元素的角标MinFootMark和元素字符串长度MinLength。之后比较都基于这两个数。
+// ### 解题思路
+// 找出字符串数组中最小的那个元素的角标MinFootMark和元素字符串长度MinLength。之后比较都基于这两个数。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string longestCommonPrefix(vector<string>& strs) {
@@ -65,4 +65,4 @@ public:
     return Result;
     }
 };
-```
+// ```

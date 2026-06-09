@@ -1,9 +1,9 @@
-### 解题思路
-根据题意可以看出只需要比较guess数组和answer数据对应的数值是否一样即可
+// ### 解题思路
+// 根据题意可以看出只需要比较guess数组和answer数据对应的数值是否一样即可
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} guess
  * @param {number[]} answer
@@ -18,4 +18,4 @@ var game = function(guess, answer) {
    }  
    return nums
 };
-```
+// ```

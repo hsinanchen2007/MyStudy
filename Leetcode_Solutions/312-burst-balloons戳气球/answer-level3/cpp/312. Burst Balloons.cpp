@@ -1,11 +1,11 @@
 
-### 解题思路
-回溯
-![e2042f39fb03171ea6321420b3f9644.jpg](https://pic.leetcode-cn.com/7fd051374925c3ce1219400add845a75de79080924f6f2dc7804849264efaa85-e2042f39fb03171ea6321420b3f9644.jpg)
+// ### 解题思路
+// 回溯
+// ![e2042f39fb03171ea6321420b3f9644.jpg](https://pic.leetcode-cn.com/7fd051374925c3ce1219400add845a75de79080924f6f2dc7804849264efaa85-e2042f39fb03171ea6321420b3f9644.jpg)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 //backTrack：提取第i个数所获得的coins.
@@ -34,16 +34,16 @@ private:
     }
     int maxCoin;
 };
-```
+// ```
 
 
-### 解题思路
-递归+记忆化
-![捕获.PNG](https://pic.leetcode-cn.com/0089a2f4c3cd12456726516e5a70d36eb00a07cda761411f1cfda108071a4005-%E6%8D%95%E8%8E%B7.PNG)
+// ### 解题思路
+// 递归+记忆化
+// ![捕获.PNG](https://pic.leetcode-cn.com/0089a2f4c3cd12456726516e5a70d36eb00a07cda761411f1cfda108071a4005-%E6%8D%95%E8%8E%B7.PNG)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     //递归+记忆化
@@ -75,15 +75,15 @@ private:
         return memo[l][r];
     }
 };
-```
+// ```
 
 
-### 解题思路
-DP
+// ### 解题思路
+// DP
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     //动态规划
@@ -105,4 +105,4 @@ public:
         return dp[1][nums.size() - 2];
     }
 };
-```
+// ```

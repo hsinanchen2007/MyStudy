@@ -1,10 +1,10 @@
-### 解题思路
-规规矩矩一步一步走，边走边试探，中间到了某一步前进步数为0了则返回False
+# ### 解题思路
+# 规规矩矩一步一步走，边走边试探，中间到了某一步前进步数为0了则返回False
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def canJump(self, nums: List[int]) -> bool:
         size=len(nums)
@@ -19,4 +19,4 @@ class Solution:
             step=max(step-1,nums[i])
 
         return step>0
-```
+# ```

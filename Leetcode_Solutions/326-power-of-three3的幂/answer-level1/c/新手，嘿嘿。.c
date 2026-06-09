@@ -1,12 +1,12 @@
-#include <stdio.h>
-int main(void)
-{int n;
- printf("input n:");scanf("%d",&n);
- if(n==1)
- puts("true");
- else if(n>=3)
+// #include <stdio.h>
+// int main(void)
+// {int n;
+//  printf("input n:");scanf("%d",&n);
+//  if(n==1)
+//  puts("true");
+//  else if(n>=3)
    
-```
+// ```
 if(n%3!=0)
         puts("false");
 
@@ -18,8 +18,8 @@ if(n%3!=0)
             break;
            }
         }
-```
-else
-    puts("false");
-return 0;
-}
+// ```
+// else
+//     puts("false");
+// return 0;
+// }

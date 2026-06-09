@@ -1,9 +1,9 @@
-### 解法一
-三步，第一步快慢指针找到中间节点，把链表分成前后两部分；第二步将后半部分链表反转；第三步，将两部分链表合并
+// ### 解法一
+// 三步，第一步快慢指针找到中间节点，把链表分成前后两部分；第二步将后半部分链表反转；第三步，将两部分链表合并
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -51,13 +51,13 @@ var reorderList = function (head) {
         node2 = next2
     }
 }
-```
+// ```
 
-### 解法二
-借助数组特性
+// ### 解法二
+// 借助数组特性
 
-### 代码
-```javascript
+// ### 代码
+// ```javascript
 var reorderList = function(head) {
     if (!head || !head.next) {
         return
@@ -87,4 +87,4 @@ var reorderList = function(head) {
     }
     head = node
 };
-```
+// ```

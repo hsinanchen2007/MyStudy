@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findDuplicate(self, paths: List[str]) -> List[List[str]]:
         res = collections.defaultdict(list)
@@ -15,4 +15,4 @@ class Solution:
         return [l for _, l in res.items() if len(l) > 1]
             
 
-```
+# ```

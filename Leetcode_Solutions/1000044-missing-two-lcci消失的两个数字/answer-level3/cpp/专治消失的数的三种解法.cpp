@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-1. 求和：
-找到缺失的一个数
-->找到缺失的两个数
-```
+// 1. 求和：
+// 找到缺失的一个数
+// ->找到缺失的两个数
+// ```
 class Solution {
 public:
     vector<int> missingTwo(vector<int>& nums) {
@@ -22,11 +22,11 @@ public:
         return {one, sumTwo - one};
     }
 };
-```
-2. 异或：
-找到缺失的一个数
--> 找到缺失的两个数
-```
+// ```
+// 2. 异或：
+// 找到缺失的一个数
+// -> 找到缺失的两个数
+// ```
 class Solution {
 public:
     vector<int> missingTwo(vector<int>& nums) {
@@ -43,13 +43,13 @@ public:
         return {one, one ^ ans};
     }
 };
-```
+// ```
 
-3. 原地hash
-hash找到原来的位置
-找到缺失的一个数
--> 找到缺失的两个数
-```
+// 3. 原地hash
+// hash找到原来的位置
+// 找到缺失的一个数
+// -> 找到缺失的两个数
+// ```
 class Solution {
 public:
     vector<int> missingTwo(vector<int>& nums) {
@@ -65,4 +65,4 @@ public:
         return ans; 
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-效率一般，还是桶排序快一些
+# ### 解题思路
+# 效率一般，还是桶排序快一些
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def customSortString(self, S: str, T: str) -> str:  
         d = {}
@@ -12,4 +12,4 @@ class Solution:
         for i,char in enumerate(S):
             d[char] = i
         return ''.join(sorted(T,key=lambda x:d[x]))
-```
+# ```

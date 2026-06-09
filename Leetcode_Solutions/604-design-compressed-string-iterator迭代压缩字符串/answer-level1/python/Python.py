@@ -1,4 +1,4 @@
-```
+# ```
 class StringIterator:
 
     def __init__(self, compressedString: str):
@@ -22,4 +22,4 @@ class StringIterator:
 
     def hasNext(self) -> bool:
         return not(self.s[self.idx+1:].isnumeric() and self.used==self.have)
-```
+# ```

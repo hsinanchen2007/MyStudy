@@ -1,6 +1,6 @@
 
-思路就在代码里面
-```
+// 思路就在代码里面
+// ```
 public ListNode rotateRight(ListNode head, int k) {
 		if (head == null)
 			return head;
@@ -33,4 +33,4 @@ public ListNode rotateRight(ListNode head, int k) {
 
 	}
 
-```
+// ```

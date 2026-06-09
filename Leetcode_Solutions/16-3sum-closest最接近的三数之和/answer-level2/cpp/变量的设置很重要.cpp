@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-这题求的结果是最接近target的三数之和，因此ans初值可以为该数组的前三个数，接下来的套路和三数之和差不多，排序+双指针，先判断sum==target,成功直接跳出，否则做绝对值大小的判断，小于则刷新ans值。
+// 这题求的结果是最接近target的三数之和，因此ans初值可以为该数组的前三个数，接下来的套路和三数之和差不多，排序+双指针，先判断sum==target,成功直接跳出，否则做绝对值大小的判断，小于则刷新ans值。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int threeSumClosest(vector<int>& nums, int target) {
@@ -30,4 +30,4 @@ public:
         return ans;
     }
 };
-```
+// ```

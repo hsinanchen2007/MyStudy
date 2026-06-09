@@ -1,9 +1,9 @@
-### 解题思路
-![TIM截图20200223233714.png](https://pic.leetcode-cn.com/effc99f4ab284a325eefd5ce23ba2846ab557ca899e84a563b6e741d8b45de2d-TIM%E6%88%AA%E5%9B%BE20200223233714.png)
-寻找每个结点的父节点，相同的父节点最多出现两次，没有父节点的结点只有一个
-### 代码
+// ### 解题思路
+// ![TIM截图20200223233714.png](https://pic.leetcode-cn.com/effc99f4ab284a325eefd5ce23ba2846ab557ca899e84a563b6e741d8b45de2d-TIM%E6%88%AA%E5%9B%BE20200223233714.png)
+// 寻找每个结点的父节点，相同的父节点最多出现两次，没有父节点的结点只有一个
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool validateBinaryTreeNodes(int n, vector<int>& leftChild, vector<int>& rightChild) {
@@ -86,4 +86,4 @@ public:
             return true;
     }
 };
-```
+// ```

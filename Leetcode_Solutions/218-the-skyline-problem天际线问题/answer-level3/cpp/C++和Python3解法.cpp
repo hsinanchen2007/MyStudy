@@ -1,4 +1,4 @@
-```
+// ```
 /*使用优先队列aliveBuilds<height,rightBound>存储仍可能影响后续天际线处理的building(其右边界大于后续处理buildings的左边界)
   cur_X表示可能的拐点(迭代时初始值为aliveBuilds队首元素的右边界)
   cur_H表示拐点的高度
@@ -38,8 +38,8 @@ public:
         return result;
     }
 }; 
-```
-```
+// ```
+// ```
 from heapq import heappush, heappop
 
 class Solution:
@@ -69,6 +69,6 @@ class Solution:
             if result[-1][1] != -alive[0][0]:
                 result += [[pos, -alive[0][0]]]
         return result[1:]
-```
+// ```
 
 

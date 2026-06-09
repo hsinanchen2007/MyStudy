@@ -1,7 +1,7 @@
-【C++ ： 56 ms - 97.18% ，10.6 MB - 67.89% 】
+// 【C++ ： 56 ms - 97.18% ，10.6 MB - 67.89% 】
 
-I -> min，D -> max，依次寻找未使用的 max 或 min 。
-```
+// I -> min，D -> max，依次寻找未使用的 max 或 min 。
+// ```
 class Solution {
 public:
     vector<int> diStringMatch(string S) {
@@ -16,4 +16,4 @@ public:
         return N;
     }
 };
-```
+// ```

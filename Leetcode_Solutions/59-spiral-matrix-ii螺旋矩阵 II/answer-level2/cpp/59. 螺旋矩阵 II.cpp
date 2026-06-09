@@ -1,5 +1,5 @@
-想了好久没想出来，只好拿大佬的代码做笔记了。。
-```
+// 想了好久没想出来，只好拿大佬的代码做笔记了。。
+// ```
 class Solution {
 public:
     vector<vector<int>> generateMatrix(int n) {
@@ -19,4 +19,4 @@ public:
         return vvi;
     }
 };
-```
+// ```

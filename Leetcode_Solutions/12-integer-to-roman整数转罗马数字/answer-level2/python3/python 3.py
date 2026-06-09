@@ -1,9 +1,9 @@
-### 解题思路
-生成两个列表分别存放大写字符和对应的数值，分索引奇数和偶数两种情况讨论，索引为奇数时，逢九就不同，索引为偶数时逢4就不同。
+# ### 解题思路
+# 生成两个列表分别存放大写字符和对应的数值，分索引奇数和偶数两种情况讨论，索引为奇数时，逢九就不同，索引为偶数时逢4就不同。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def intToRoman(self, num: int) -> str:
         string = ['M', 'D', 'C', 'L', 'X', 'V', 'I']
@@ -25,4 +25,4 @@ class Solution:
                     res += string[i] * n
                     num = num % x           
         return res
-```
+# ```

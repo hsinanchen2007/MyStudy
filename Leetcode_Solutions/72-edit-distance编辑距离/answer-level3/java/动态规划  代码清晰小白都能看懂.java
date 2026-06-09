@@ -1,12 +1,12 @@
-### 解题思路
-1. 特殊情况判定
-2. 初始化DP数组
-3. 填表(a 关注边界 b 当前字符与目标字符相等特殊情况)
+// ### 解题思路
+// 1. 特殊情况判定
+// 2. 初始化DP数组
+// 3. 填表(a 关注边界 b 当前字符与目标字符相等特殊情况)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minDistance(String word1, String word2) {
         if (word1.isEmpty()) {
@@ -35,4 +35,4 @@ class Solution {
         return dp[word1.length()][word2.length()];
     }
 }
-```
+// ```

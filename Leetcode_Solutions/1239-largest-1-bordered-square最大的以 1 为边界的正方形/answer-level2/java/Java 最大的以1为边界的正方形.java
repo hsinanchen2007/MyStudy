@@ -1,12 +1,12 @@
-### 解题思路
-其实就是四方向的Java版
+// ### 解题思路
+// 其实就是四方向的Java版
 
-时间复杂度$O(n^2)$
-空间复杂度$O(n^2)$
+// 时间复杂度$O(n^2)$
+// 空间复杂度$O(n^2)$
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int largest1BorderedSquare(int[][] grid) {
         int ans=0;
@@ -51,4 +51,4 @@ class Solution {
         return ans*ans;
     }
 }
-```
+// ```

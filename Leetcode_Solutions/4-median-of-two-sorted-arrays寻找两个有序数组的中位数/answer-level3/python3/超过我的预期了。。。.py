@@ -1,9 +1,9 @@
-### 解题思路
-我的思路比较简单吧，既然两个数组已经给定了先后顺序，那么我们就可以将这两个数组进行合并，合并成一个有序数组（由小到大），那么中位数就比较好求了。对于这道题而言，可以再优化一下，不一定需要合并完成，只需要合并的大数组的lenth超过nums1和nums2的lenth之和的一半就行。
+# ### 解题思路
+# 我的思路比较简单吧，既然两个数组已经给定了先后顺序，那么我们就可以将这两个数组进行合并，合并成一个有序数组（由小到大），那么中位数就比较好求了。对于这道题而言，可以再优化一下，不一定需要合并完成，只需要合并的大数组的lenth超过nums1和nums2的lenth之和的一半就行。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
         l1 = len(nums1)
@@ -31,4 +31,4 @@ class Solution:
             return nums3[-1]
         else:
             return (nums3[-1]+nums3[-2])/2
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
-参考了题解的java实现，写了c++发现执行效率特别低，而java效果还很好。
-尝试把三目表达式变为if语句，没有影响。不确定是否是to_string耗时间
+// ### 解题思路
+// 参考了题解的java实现，写了c++发现执行效率特别低，而java效果还很好。
+// 尝试把三目表达式变为if语句，没有影响。不确定是否是to_string耗时间
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string addBinary(string a, string b) {
@@ -23,9 +23,9 @@ public:
         return res;
     }
 };
-```
-java实现
-```java
+// ```
+// java实现
+// ```java
 class Solution {
     public String addBinary(String a, String b) {
     	StringBuilder ans = new StringBuilder();
@@ -42,4 +42,4 @@ class Solution {
     }
 }
 
-```
+// ```

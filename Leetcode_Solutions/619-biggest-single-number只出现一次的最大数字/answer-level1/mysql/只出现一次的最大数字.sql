@@ -1,4 +1,4 @@
-```
+-- ```
 select ifnull(
     (select num
     from my_numbers 
@@ -7,4 +7,4 @@ select ifnull(
     order by num desc
     limit 1)
 ,null) as num;
-```
+-- ```

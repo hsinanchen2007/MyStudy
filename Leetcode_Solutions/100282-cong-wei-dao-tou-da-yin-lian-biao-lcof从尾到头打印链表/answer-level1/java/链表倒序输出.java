@@ -1,9 +1,9 @@
-### 解题思路
-利用栈的特点，把链表值顺序存入栈中，再出栈即可
+// ### 解题思路
+// 利用栈的特点，把链表值顺序存入栈中，再出栈即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -27,4 +27,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

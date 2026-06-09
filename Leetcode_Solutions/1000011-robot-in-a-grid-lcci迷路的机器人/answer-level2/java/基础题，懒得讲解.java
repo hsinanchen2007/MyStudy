@@ -1,13 +1,13 @@
-### 解题思路
-![QQ截图20200408223140.png](https://pic.leetcode-cn.com/5afc67b8df6be3bfaf5945b5d5be8aae00977969a65924ce63c488a5ac0020c8-QQ%E6%88%AA%E5%9B%BE20200408223140.png)
+// ### 解题思路
+// ![QQ截图20200408223140.png](https://pic.leetcode-cn.com/5afc67b8df6be3bfaf5945b5d5be8aae00977969a65924ce63c488a5ac0020c8-QQ%E6%88%AA%E5%9B%BE20200408223140.png)
 
-算是入门DP题吧，因为状态转移规则就明摆在题目里，不用自己再猜了。
-我这里又跑了一波递归输出的可行路径，和63题64题完全一个做法
-https://leetcode-cn.com/problems/minimum-path-sum/solution/zhe-shi-wo-zuo-guo-de-zui-jian-dan-de-dong-tai-gui/
+// 算是入门DP题吧，因为状态转移规则就明摆在题目里，不用自己再猜了。
+// 我这里又跑了一波递归输出的可行路径，和63题64题完全一个做法
+// https://leetcode-cn.com/problems/minimum-path-sum/solution/zhe-shi-wo-zuo-guo-de-zui-jian-dan-de-dong-tai-gui/
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     List res=new ArrayList<ArrayList <Integer>>();//因为要递归，用全局变量免得递归函数传参了
     public List<List<Integer>> pathWithObstacles(int[][] obstacleGrid) {
@@ -63,4 +63,4 @@ class Solution {
         res.add(new int[]{i,j});
     }
 }
-```
+// ```

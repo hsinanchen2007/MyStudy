@@ -1,11 +1,11 @@
-### 解题思路
-动态规划
-dp[i]=max(dp[j]+1),其中0<=j<i且nums[j]<nums[i]
-result=max(dp[])
+// ### 解题思路
+// 动态规划
+// dp[i]=max(dp[j]+1),其中0<=j<i且nums[j]<nums[i]
+// result=max(dp[])
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     int result;
     public int lengthOfLIS(int[] nums) {
@@ -30,4 +30,4 @@ return result;
     }
 }
 
-```
+// ```

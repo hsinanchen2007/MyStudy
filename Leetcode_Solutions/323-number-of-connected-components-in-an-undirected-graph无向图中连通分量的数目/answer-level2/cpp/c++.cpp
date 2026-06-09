@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-![截图.PNG](https://pic.leetcode-cn.com/0415793aad36a843c91653a4ef6f6d1675cc70e62c587b38ec1d4d6517fd87fa-%E6%88%AA%E5%9B%BE.PNG)
+// ### 解题思路
+// 此处撰写解题思路
+// ![截图.PNG](https://pic.leetcode-cn.com/0415793aad36a843c91653a4ef6f6d1675cc70e62c587b38ec1d4d6517fd87fa-%E6%88%AA%E5%9B%BE.PNG)
 
-用并查集判断.
-### 代码
+// 用并查集判断.
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
     vector<int> _parent;
     int findparent(int x)
@@ -39,4 +39,4 @@ public:
         return res;
     }
 };
-```
+// ```

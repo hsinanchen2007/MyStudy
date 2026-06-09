@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int nthSuperUglyNumber(int n, int[] primes) {
         int[] dp = new int[n];
@@ -23,4 +23,4 @@ class Solution {
         return dp[n-1];
     }
 }
-```
+// ```

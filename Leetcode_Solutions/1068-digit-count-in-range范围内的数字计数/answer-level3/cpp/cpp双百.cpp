@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-总结规律
+// 总结规律
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int digitsCount(int d, int low, int high) {
@@ -24,4 +24,4 @@ public:
         return ret;
     }
 };
-```
+// ```

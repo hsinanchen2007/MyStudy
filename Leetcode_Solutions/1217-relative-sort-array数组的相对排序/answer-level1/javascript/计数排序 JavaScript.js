@@ -1,4 +1,4 @@
-```
+// ```
 
 var relativeSortArray = function(arr1, arr2) {
     let list = new Array(1001);
@@ -21,4 +21,4 @@ var relativeSortArray = function(arr1, arr2) {
     }
     return res;
 };
-```
+// ```

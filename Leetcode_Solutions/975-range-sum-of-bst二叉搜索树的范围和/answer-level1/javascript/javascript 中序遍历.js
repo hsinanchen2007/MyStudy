@@ -1,9 +1,9 @@
-### 解题思路
-对于二叉搜索树，中序遍历就是从小到大的顺序
+// ### 解题思路
+// 对于二叉搜索树，中序遍历就是从小到大的顺序
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -36,4 +36,4 @@
     }
     return sum
 };
-```
+// ```

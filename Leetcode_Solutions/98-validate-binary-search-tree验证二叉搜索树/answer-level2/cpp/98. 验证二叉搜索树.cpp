@@ -1,7 +1,7 @@
-中序遍历
-中序遍历得到的list中每个元素都应该比下一个元素小。
+// 中序遍历
+// 中序遍历得到的list中每个元素都应该比下一个元素小。
 
-```
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -42,4 +42,4 @@ public:
         return true;
     }
 };
-```
+// ```

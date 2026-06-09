@@ -1,6 +1,6 @@
-从左到右迭代字符串，将每个字符添加到对应的行里。
-设置一个计数器counter和方向量d，counter可以确定是否到最顶部行或者最底部行，d则是控制行的增减。
-```python []
+# 从左到右迭代字符串，将每个字符添加到对应的行里。
+# 设置一个计数器counter和方向量d，counter可以确定是否到最顶部行或者最底部行，d则是控制行的增减。
+# ```python []
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
         if (numRows == 1):
@@ -19,4 +19,4 @@ class Solution:
         result = ''.join(l)
         return result
             
-```
+# ```

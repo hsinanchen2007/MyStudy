@@ -1,5 +1,5 @@
-使用回旋数组实现队列，注意数组长度为3001。
-```c
+// 使用回旋数组实现队列，注意数组长度为3001。
+// ```c
 typedef struct {
     int *queue;
     int head;
@@ -32,4 +32,4 @@ void recentCounterFree(RecentCounter* obj) {
     free(obj->queue);
     free(obj);
 }
-```
+// ```

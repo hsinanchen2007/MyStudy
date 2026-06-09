@@ -1,9 +1,9 @@
-### 解题思路
-我的思路是如果是colsum是1的情况，优先将upper减一，也就是优先将第一行的值设为1，并且用center数组记录该值为多少列，如果遇到colsum为2的情况而且upper=0，则从center的最后一个值取出记录的列数，并交换第一行和第二行该列的值，此时lower需要减2
+// ### 解题思路
+// 我的思路是如果是colsum是1的情况，优先将upper减一，也就是优先将第一行的值设为1，并且用center数组记录该值为多少列，如果遇到colsum为2的情况而且upper=0，则从center的最后一个值取出记录的列数，并交换第一行和第二行该列的值，此时lower需要减2
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func reconstructMatrix(upper int, lower int, colsum []int) [][]int {
 var total int
 	for j := 0; j < len(colsum); j++ {
@@ -67,4 +67,4 @@ var total int
 	}
 	return nums
 }
-```
+// ```

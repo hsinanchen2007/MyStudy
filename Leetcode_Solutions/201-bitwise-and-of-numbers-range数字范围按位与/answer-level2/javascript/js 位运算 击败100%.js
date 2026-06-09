@@ -1,5 +1,5 @@
-击败100%
-```js
+// 击败100%
+// ```js
 /**
  * @param {number} m
  * @param {number} n
@@ -14,4 +14,4 @@ var rangeBitwiseAnd = function(m, n) {
     }
     return res;
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-使用二维数组是第一想法，看到解题里的精选答案，真是佩服。二维数组的解法还是发一下，方法虽然又慢又占空间，也要放出来瞅瞅。
+# ### 解题思路
+# 使用二维数组是第一想法，看到解题里的精选答案，真是佩服。二维数组的解法还是发一下，方法虽然又慢又占空间，也要放出来瞅瞅。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
@@ -37,4 +37,4 @@ class Solution:
                 if arrResult[j][i] != None:
                     string += arrResult[j][i]
         return string
-```
+# ```

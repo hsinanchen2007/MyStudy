@@ -1,6 +1,6 @@
-渣渣写法了
+// 渣渣写法了
 
-```js
+// ```js
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -24,4 +24,4 @@ var searchInsert = function(nums, target) {
     return nums.findIndex(bxt)
 
 };
-```
+// ```

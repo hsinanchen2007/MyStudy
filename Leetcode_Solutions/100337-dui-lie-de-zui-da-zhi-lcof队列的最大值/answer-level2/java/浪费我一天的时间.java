@@ -1,9 +1,9 @@
-**粗体**### 解题思路
-# 双端队列
+// **粗体**### 解题思路
+// # 双端队列
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MaxQueue {
 	private Queue<Integer> queue;
 	private ArrayDeque<Integer> deque;
@@ -40,4 +40,4 @@ class MaxQueue {
  * obj.push_back(value);
  * int param_3 = obj.pop_front();
  */
-```
+// ```

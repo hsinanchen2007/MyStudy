@@ -1,10 +1,10 @@
-### 解题思路
-- 对于这2N个人，按照去A地和去B地的费用之差从小到大排序
-- 选出前N个去A地，后N个去B地
+// ### 解题思路
+// - 对于这2N个人，按照去A地和去B地的费用之差从小到大排序
+// - 选出前N个去A地，后N个去B地
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int twoCitySchedCost(vector<vector<int>>& costs) {
@@ -16,4 +16,4 @@ public:
         return cost;
     }
 };
-```
+// ```

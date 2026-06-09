@@ -1,9 +1,9 @@
-### 解题思路
-中序遍历到的每个节点 都比上一个节点大 就符合要求了，用一个全局变量记录上一个遍历到的节点值，不需要队列或栈
+// ### 解题思路
+// 中序遍历到的每个节点 都比上一个节点大 就符合要求了，用一个全局变量记录上一个遍历到的节点值，不需要队列或栈
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -73,4 +73,4 @@ bool isValidBST(struct TreeNode* root){
 
     return true;
 }
-```
+// ```

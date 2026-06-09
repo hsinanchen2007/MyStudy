@@ -1,10 +1,10 @@
-### 解题思路
-![143.重排链表.png](https://pic.leetcode-cn.com/c399ff830975c0b883be7dd3396d2c34fba49c9d23d1bee6e0bad8f47ef9bac3-143.%E9%87%8D%E6%8E%92%E9%93%BE%E8%A1%A8.png)
-此处撰写解题思路
+// ### 解题思路
+// ![143.重排链表.png](https://pic.leetcode-cn.com/c399ff830975c0b883be7dd3396d2c34fba49c9d23d1bee6e0bad8f47ef9bac3-143.%E9%87%8D%E6%8E%92%E9%93%BE%E8%A1%A8.png)
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -55,4 +55,4 @@ class Solution {
         }
     }
 }
-```
+// ```

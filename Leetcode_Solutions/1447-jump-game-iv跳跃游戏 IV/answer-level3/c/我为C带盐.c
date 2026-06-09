@@ -1,11 +1,11 @@
-### 解题思路
-- 与各位大佬思路类似，先预处理，消除中间重复的数字，然后BFS；
-- 但是怎么找到相同数字的最大边界和最小边界呢？C没有map，只能曲线救国；
-- 先将val与index进行映射，然后按照val进行排序，然后通过二分找上下界，类似于C++的lower_bound()和upper_bound()；
+// ### 解题思路
+// - 与各位大佬思路类似，先预处理，消除中间重复的数字，然后BFS；
+// - 但是怎么找到相同数字的最大边界和最小边界呢？C没有map，只能曲线救国；
+// - 先将val与index进行映射，然后按照val进行排序，然后通过二分找上下界，类似于C++的lower_bound()和upper_bound()；
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <limits.h>
 #include <stdio.h>
 #define MAX_LEN 50001
@@ -187,4 +187,4 @@ int minJumps(int* arr, int arrSize)
 	free(tmpArr);
 	return ans;
 }
-```
+// ```

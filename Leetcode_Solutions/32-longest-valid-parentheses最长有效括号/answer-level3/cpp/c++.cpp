@@ -1,9 +1,9 @@
-### 解题思路
-击败96%
-出发点前缀和为0 ，此类题都可以解决
-### 代码
+// ### 解题思路
+// 击败96%
+// 出发点前缀和为0 ，此类题都可以解决
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int longestValidParentheses(string s) {
@@ -35,4 +35,4 @@ public:
         return maxlen;
     }
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-注释的部分是暴力思路，记录能走到的节点，定义为true，为当前的boolean||起跳点的boolean
-写的部分是抄的答案，记录每次能走到的最大范围，当最大范围小于遍历的index时，则返回false，否则就是true。
+// ### 解题思路
+// 注释的部分是暴力思路，记录能走到的节点，定义为true，为当前的boolean||起跳点的boolean
+// 写的部分是抄的答案，记录每次能走到的最大范围，当最大范围小于遍历的index时，则返回false，否则就是true。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 //     public boolean canJump(int[] nums) {
 
@@ -35,4 +35,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

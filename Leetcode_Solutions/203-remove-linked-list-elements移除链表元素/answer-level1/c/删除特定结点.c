@@ -1,9 +1,9 @@
-### 解题思路
-定义头结点指向第一个元素，再定义两个指针，一个用于判断，一个用于指向前驱
+// ### 解题思路
+// 定义头结点指向第一个元素，再定义两个指针，一个用于判断，一个用于指向前驱
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -34,4 +34,4 @@ struct ListNode* removeElements(struct ListNode* head, int val){
 }
 
 
-```
+// ```

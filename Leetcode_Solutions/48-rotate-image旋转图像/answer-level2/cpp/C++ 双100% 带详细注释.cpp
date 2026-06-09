@@ -1,10 +1,10 @@
-### 解题思路
-C++ 双100%
-![a.PNG](https://pic.leetcode-cn.com/78ec0de120a9b8e0c7bef2afef0d581cbd782ed6c24c02b58d878c0da5f0ac8d-a.PNG)
+// ### 解题思路
+// C++ 双100%
+// ![a.PNG](https://pic.leetcode-cn.com/78ec0de120a9b8e0c7bef2afef0d581cbd782ed6c24c02b58d878c0da5f0ac8d-a.PNG)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * 矩阵旋转示例
  * [1,2,3]
@@ -49,4 +49,4 @@ public:
         }
     }
 };
-```
+// ```

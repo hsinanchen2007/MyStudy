@@ -1,9 +1,9 @@
-### 解题思路
-给定一个当前指针（cur）和cur的next（记为tmp），如果二者的->val相等，则在链表中删除tmp这个结点，然后free内存；如果二者不相等，移动指针到下一个结点。
+// ### 解题思路
+// 给定一个当前指针（cur）和cur的next（记为tmp），如果二者的->val相等，则在链表中删除tmp这个结点，然后free内存；如果二者不相等，移动指针到下一个结点。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -27,4 +27,4 @@ struct ListNode* deleteDuplicates(struct ListNode* head){
     }
     return head;
 }
-```
+// ```

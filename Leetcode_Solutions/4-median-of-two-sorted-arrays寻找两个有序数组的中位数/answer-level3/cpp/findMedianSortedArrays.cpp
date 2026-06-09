@@ -1,8 +1,8 @@
-执行用时 :16 ms, 在所有 C++ 提交中击败了92.24% 的用户
-内存消耗 :7 MB, 在所有 C++ 提交中击败了100.00%的用户
-### 代码
+// 执行用时 :16 ms, 在所有 C++ 提交中击败了92.24% 的用户
+// 内存消耗 :7 MB, 在所有 C++ 提交中击败了100.00%的用户
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
@@ -55,4 +55,4 @@ private:
         return num;
     }
 };
-```
+// ```

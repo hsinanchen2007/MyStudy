@@ -1,11 +1,11 @@
-### 解题思路
-动态规划套路化，本题和minimum-path-sum思路基本一样，从二维数组右下角的节点开始处理
-![image.png](https://pic.leetcode-cn.com/4f70e2849837ed2a77c08bb5584ee8872c8de27bdb9e0495d94f60d9de3cfefa-image.png)
+// ### 解题思路
+// 动态规划套路化，本题和minimum-path-sum思路基本一样，从二维数组右下角的节点开始处理
+// ![image.png](https://pic.leetcode-cn.com/4f70e2849837ed2a77c08bb5584ee8872c8de27bdb9e0495d94f60d9de3cfefa-image.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 public class Solution {
     public int uniquePaths(int m, int n) {
         if(m < 2 || n < 2)
@@ -27,4 +27,4 @@ public class Solution {
         return dp[0][0];
     }
 }
-```
+// ```

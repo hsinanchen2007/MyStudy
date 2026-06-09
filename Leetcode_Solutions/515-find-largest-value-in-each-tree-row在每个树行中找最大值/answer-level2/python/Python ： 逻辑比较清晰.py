@@ -1,6 +1,6 @@
-思路：将每一层的值添加到[], 然后max([val,...]), 得到每一层的最大值，最后分别添加到res中，返回res
+# 思路：将每一层的值添加到[], 然后max([val,...]), 得到每一层的最大值，最后分别添加到res中，返回res
 
-```
+# ```
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -29,7 +29,7 @@ class Solution(object):
                     deque.append(root.right)
             res.append(max(child)) 
         return res
-```
+# ```
 
 
 

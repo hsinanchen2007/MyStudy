@@ -1,8 +1,8 @@
-### 每次选取前n-2个中最大的时间和
+// ### 每次选取前n-2个中最大的时间和
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -21,4 +21,4 @@ var massage = function(nums) {
     }
     return Math.max(times[len-1], times[len-2]);
 };
-```
+// ```

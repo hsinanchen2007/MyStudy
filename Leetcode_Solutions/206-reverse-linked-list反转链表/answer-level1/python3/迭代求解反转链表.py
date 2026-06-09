@@ -1,9 +1,9 @@
-### 解题思路
-迭代嵌套求解
+# ### 解题思路
+# 迭代嵌套求解
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -19,4 +19,4 @@ class Solution:
         reverseRest = self.reverseList(temp)
         temp.next = head
         return reverseRest
-```
+# ```

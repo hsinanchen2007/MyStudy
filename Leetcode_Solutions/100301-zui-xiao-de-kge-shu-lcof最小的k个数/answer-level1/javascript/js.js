@@ -1,8 +1,8 @@
-### 解题思路
-对数组排序，一个while循环逐渐将数组开头K个数填入新数组中
-### 代码
+// ### 解题思路
+// 对数组排序，一个while循环逐渐将数组开头K个数填入新数组中
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} arr
  * @param {number} k
@@ -19,4 +19,4 @@ var getLeastNumbers = function(arr, k) {
     }
     return newArr;
 };
-```
+// ```

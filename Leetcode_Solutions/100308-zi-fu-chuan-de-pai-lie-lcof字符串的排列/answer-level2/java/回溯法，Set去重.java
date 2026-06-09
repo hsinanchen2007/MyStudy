@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public String[] permutation(String s) {
         HashSet<String> set = new HashSet<String>();
@@ -27,5 +27,5 @@ class Solution {
         cs[j] = tmp;
     }
 }
-```
-交换法
+// ```
+// 交换法

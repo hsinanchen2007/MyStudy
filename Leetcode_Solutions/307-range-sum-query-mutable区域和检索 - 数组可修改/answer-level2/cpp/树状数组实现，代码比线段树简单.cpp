@@ -1,9 +1,9 @@
-树状数组实现的重点在于lowbit(int idx)。
-对于节点idx:
-    idx + lowbit(idx) 是它的父节点；
-    idx - lowbit(idx) 是它的相同父节点的前一个节点；
+// 树状数组实现的重点在于lowbit(int idx)。
+// 对于节点idx:
+//     idx + lowbit(idx) 是它的父节点；
+//     idx - lowbit(idx) 是它的相同父节点的前一个节点；
 
-```
+// ```
 class NumArray {
 public:
     NumArray(vector<int>& nums) 
@@ -45,4 +45,4 @@ private:
         return prefix;
     }
 };
-```
+// ```

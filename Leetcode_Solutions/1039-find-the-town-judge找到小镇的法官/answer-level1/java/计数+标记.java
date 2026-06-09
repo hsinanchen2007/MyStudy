@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int findJudge(int n, int[][] trust) {
         boolean[] isJudge = new boolean[n+1];
@@ -17,4 +17,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

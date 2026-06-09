@@ -1,7 +1,7 @@
 
-深度优先解此题，可以在每次访问到一个节点，把该节点所在层次的集合进行更新。和广度优先相比，是纵向和横向的对比。
-解1，用slice传参，返回覆盖
-```go
+// 深度优先解此题，可以在每次访问到一个节点，把该节点所在层次的集合进行更新。和广度优先相比，是纵向和横向的对比。
+// 解1，用slice传参，返回覆盖
+// ```go
 func levelOrder(root *TreeNode) [][]int {
     var res [][]int
     if root == nil{
@@ -23,10 +23,10 @@ func dfs(node *TreeNode,level int, res [][]int) [][]int{
     return res
 
 }
-```
+// ```
 
-解2，用指针方式直接修改用于输出的二维slice (注意指针操作符优先级低于取下标操作符)
-```go
+// 解2，用指针方式直接修改用于输出的二维slice (注意指针操作符优先级低于取下标操作符)
+// ```go
 func levelOrder(root *TreeNode) [][]int {
     var res [][]int
     if root == nil{
@@ -47,5 +47,5 @@ func dfs(node *TreeNode,level int, pointer *[][]int){
     dfs(node.Left,level+1,pointer)
     dfs(node.Right,level+1,pointer)
 }
-```
+// ```
 

@@ -1,6 +1,6 @@
-![批注 2020-03-13 132956.png](https://pic.leetcode-cn.com/5f7c4acb67ab322b582fa2509d4d18f32826bfe707ba6630171d34fcc9b4d7e6-%E6%89%B9%E6%B3%A8%202020-03-13%20132956.png)
+// ![批注 2020-03-13 132956.png](https://pic.leetcode-cn.com/5f7c4acb67ab322b582fa2509d4d18f32826bfe707ba6630171d34fcc9b4d7e6-%E6%89%B9%E6%B3%A8%202020-03-13%20132956.png)
 
-```
+// ```
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -54,4 +54,4 @@ void swap(int *nums, int x,int y)
     nums[x]=nums[y];
     nums[y]=temp;
 }
-```
+// ```

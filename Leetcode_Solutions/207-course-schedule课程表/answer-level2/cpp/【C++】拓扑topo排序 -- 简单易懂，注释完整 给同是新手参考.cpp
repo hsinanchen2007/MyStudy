@@ -1,11 +1,11 @@
-### 可能是注释最完整的解答，根据题意能得知给出的课程顺序是有依赖关系的，因此想到是拓扑排序
-基本上是简单拓扑排序的最简单代码框架了，时空复杂度不怎么好看，优化以后再搞
-参考了@ikaruga 的[解法](https://leetcode-cn.com/problems/course-schedule/solution/207-by-ikaruga/)感谢该作者
-![image.png](https://pic.leetcode-cn.com/dd1a8d4abae44aec17c276fc91d5fd4ef000ee60f965000153c40e473f4d1754-image.png)
+// ### 可能是注释最完整的解答，根据题意能得知给出的课程顺序是有依赖关系的，因此想到是拓扑排序
+// 基本上是简单拓扑排序的最简单代码框架了，时空复杂度不怎么好看，优化以后再搞
+// 参考了@ikaruga 的[解法](https://leetcode-cn.com/problems/course-schedule/solution/207-by-ikaruga/)感谢该作者
+// ![image.png](https://pic.leetcode-cn.com/dd1a8d4abae44aec17c276fc91d5fd4ef000ee60f965000153c40e473f4d1754-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {                
@@ -36,4 +36,4 @@ public:
     }
     
 };
-```
+// ```

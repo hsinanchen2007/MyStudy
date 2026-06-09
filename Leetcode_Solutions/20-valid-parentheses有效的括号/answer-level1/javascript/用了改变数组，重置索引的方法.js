@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {string} s
  * @return {boolean}
@@ -46,4 +46,4 @@ var isValid = function(s) {
     fun(arr)
     return arr.length === 0
 };
-```
+// ```

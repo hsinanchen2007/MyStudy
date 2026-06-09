@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -48,4 +48,4 @@ class Solution(object):
         for i in range(len(nodelis)-1):
             nodelis[i].next = nodelis[i+1]
         return nodelis[0]
-```
+# ```

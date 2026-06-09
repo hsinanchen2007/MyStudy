@@ -1,9 +1,9 @@
-### 解题思路
-先按照len*max（height）计算出整个区域的面积，再减去拦不住会流失的水，再减去柱子占的面积
+# ### 解题思路
+# 先按照len*max（height）计算出整个区域的面积，再减去拦不住会流失的水，再减去柱子占的面积
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def trap(self, height: List[int]) -> int:
         if height == [] :
@@ -32,4 +32,4 @@ class Solution:
             else:
                 break
         return res - sum(height)
-```
+# ```

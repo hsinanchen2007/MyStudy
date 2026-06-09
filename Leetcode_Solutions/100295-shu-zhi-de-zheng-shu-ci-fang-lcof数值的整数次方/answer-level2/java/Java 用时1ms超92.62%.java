@@ -1,10 +1,10 @@
-### 解题思路
-处理正负号后，直接递归把n个x相乘复杂度为O(n)，超时了；
-若n=2k，则结果为(x^k)^2; 若n=2k+1，则结果为x*[(x^k)^2]; 如此可让n的值每次减半，复杂度O(logn)。
+// ### 解题思路
+// 处理正负号后，直接递归把n个x相乘复杂度为O(n)，超时了；
+// 若n=2k，则结果为(x^k)^2; 若n=2k+1，则结果为x*[(x^k)^2]; 如此可让n的值每次减半，复杂度O(logn)。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public double myPow(double x, int n) {
         if(n < 0){
@@ -25,4 +25,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

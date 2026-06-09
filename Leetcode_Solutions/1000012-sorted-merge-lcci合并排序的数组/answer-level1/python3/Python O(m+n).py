@@ -1,9 +1,9 @@
-### 解题思路
-创建一个list来存放新的数列，最后赋值到A上去
+# ### 解题思路
+# 创建一个list来存放新的数列，最后赋值到A上去
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def merge(self, A: List[int], m: int, B: List[int], n: int) -> None:
         """
@@ -26,4 +26,4 @@ class Solution:
                 new_A.append(B[b])
                 b += 1
         A[:] = new_A
-```
+# ```

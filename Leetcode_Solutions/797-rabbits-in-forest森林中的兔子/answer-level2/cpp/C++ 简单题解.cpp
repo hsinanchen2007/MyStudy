@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int numRabbits(vector<int>& answers) {
@@ -13,5 +13,5 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/649fd4a1fac32f80fd90b5de595faf413533390cce9a794a8d21e69f1d4203a2-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/649fd4a1fac32f80fd90b5de595faf413533390cce9a794a8d21e69f1d4203a2-image.png)

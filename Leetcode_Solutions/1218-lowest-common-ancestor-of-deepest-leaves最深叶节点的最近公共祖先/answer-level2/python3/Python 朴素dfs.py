@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/905d953d88be7595e7b5c7aea6785f7d38dad814adc42d440f1748df2a81bbee-image.png)
+# ![image.png](https://pic.leetcode-cn.com/905d953d88be7595e7b5c7aea6785f7d38dad814adc42d440f1748df2a81bbee-image.png)
 
 
-```
+# ```
 '''
 先把最深的叶子和叶子的所有祖先节点求出来，然后所有祖先结合求交集
 找交集中的节点中深度最深的节点
@@ -50,4 +50,4 @@ class Solution:
                 max_dep = node_depth[parent]
                 ans = parent
         return ans
-```
+# ```

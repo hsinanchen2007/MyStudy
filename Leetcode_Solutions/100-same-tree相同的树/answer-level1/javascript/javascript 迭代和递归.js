@@ -1,11 +1,11 @@
-[100.相同的树](https://leetcode-cn.com/problems/same-tree/solution/)   
+// [100.相同的树](https://leetcode-cn.com/problems/same-tree/solution/)   
 
-[力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md)  
+// [力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md)  
 
-## 先序递归
+// ## 先序递归
 
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -23,13 +23,13 @@ var isSameTree = function(p, q) {
     if (p === null || q === null) return false;
     return p.val === q.val && isSameTree(p.left, q.left) && isSameTree(p.right, q.right)
 };
-```
+// ```
 
-## 迭代  
+// ## 迭代  
 
-注意边界条件的判断。 
+// 注意边界条件的判断。 
 
-```javascript
+// ```javascript
 var isSameTree = function(p, q) {
     // 只有初始值同时为空时才能结束判断
     if (p === null && q === null) return true;
@@ -57,4 +57,4 @@ function help(p, q) {
     if (p.val !== q.val) return false;
     return true;
 }
-```
+// ```

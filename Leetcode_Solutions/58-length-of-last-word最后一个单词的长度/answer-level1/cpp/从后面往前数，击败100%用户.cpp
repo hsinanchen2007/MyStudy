@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int lengthOfLastWord(string s) {
@@ -14,5 +14,5 @@ public:
         return len;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/b7bc661e11a6d68758338c83544dc1466835fc0cddbef5dc6786c5d26676fc05-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/b7bc661e11a6d68758338c83544dc1466835fc0cddbef5dc6786c5d26676fc05-image.png)

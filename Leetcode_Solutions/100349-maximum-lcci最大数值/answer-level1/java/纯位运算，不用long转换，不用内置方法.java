@@ -1,9 +1,9 @@
-### 解题思路
-同号相减永不溢出，异号相比无脑选正。
+// ### 解题思路
+// 同号相减永不溢出，异号相比无脑选正。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maximum(int a, int b) {
         // 先考虑没有溢出时的情况，计算 b - a 的最高位，依照题目所给提示 k = 1 时 a > b，即 b - a 为负
@@ -17,4 +17,4 @@ class Solution {
         return a * k + b * (k ^ 1);
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-暴力搜索：
-```
+// 暴力搜索：
+// ```
 class Solution {
 public:
     int searchInsert(vector<int>& nums, int target) {
@@ -11,10 +11,10 @@ public:
         return nums.size();
     }
 };
-```
+// ```
 
-二分法：
-```
+// 二分法：
+// ```
 class Solution {
 public:
     int searchInsert(vector<int>& nums, int target) {
@@ -38,4 +38,4 @@ public:
         return low;
     }
 };
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-贪心算法：本题中为了获得最大值，贪心的把所有节点按照values排序，依次选择加入结果集，当节点满足要求即(相同labels数目<=use_limit)加入贪心结果集，反之跳过，直至循环结束（结果集总个数< num_wanted）。
-保存（labels的数目选择哈希表来保存提高速度）
+// ### 解题思路
+// 此处撰写解题思路
+// 贪心算法：本题中为了获得最大值，贪心的把所有节点按照values排序，依次选择加入结果集，当节点满足要求即(相同labels数目<=use_limit)加入贪心结果集，反之跳过，直至循环结束（结果集总个数< num_wanted）。
+// 保存（labels的数目选择哈希表来保存提高速度）
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int largestValsFromLabels(int[] values, int[] labels, int num_wanted, int use_limit) {
        int[][] in = new int[values.length][2];
@@ -42,4 +42,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

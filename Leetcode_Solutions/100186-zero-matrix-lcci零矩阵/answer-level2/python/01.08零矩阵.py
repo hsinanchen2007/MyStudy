@@ -1,9 +1,9 @@
-### 解题思路
-记录为0的位置，再进行遍历，纵横改为0
+# ### 解题思路
+# 记录为0的位置，再进行遍历，纵横改为0
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def setZeroes(self, matrix: List[List[int]]) -> None:
         """
@@ -19,4 +19,4 @@ class Solution:
             matrix[x] = [0]*mlen
             for i in range(len(matrix)):
                 matrix[i][y] = 0
-```
+# ```

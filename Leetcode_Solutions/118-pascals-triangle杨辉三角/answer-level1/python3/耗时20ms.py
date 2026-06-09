@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def generate(self, numRows: int) -> List[List[int]]:
         #if n == 0: 
@@ -19,4 +19,4 @@ class Solution:
                 list2.append(1)
                 list1.append(list2)
         return(list1)
-```
+# ```

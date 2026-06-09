@@ -1,5 +1,5 @@
-## 迭代法
-```cpp
+// ## 迭代法
+// ```cpp
 class Solution {
 public:
     int count(string &s, int &j){ //j是引用
@@ -27,10 +27,10 @@ public:
         return ans;
     }
 };
-```
-## 用栈辅助
-**存在的问题：用string数组存储迭代的过程数据，用栈存储相同元素，消耗了很多时间和内存**
-```cpp
+// ```
+// ## 用栈辅助
+// **存在的问题：用string数组存储迭代的过程数据，用栈存储相同元素，消耗了很多时间和内存**
+// ```cpp
 class Solution {
 public:
     string countAndSay(int n) {

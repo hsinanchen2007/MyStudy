@@ -1,18 +1,18 @@
-### 解题思路
-时隔多日，完全忘记这么经典的题怎么写的了。复习一下：
-应该结合大佬的题解中的[利用数组(桶)代替hashmap](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/solution/wu-zhong-fu-zi-fu-de-zui-chang-zi-chuan-cshi-xian-/)进行复习。
-end负责进队列，但是**当前**end指向的值是尚未进队列的。*当前的end需要判断的是在对应的hash数组中的值是否大于了start*。
-需要注意的是在while循环中真正持续进行的是**入队**操作，即
-```
+// ### 解题思路
+// 时隔多日，完全忘记这么经典的题怎么写的了。复习一下：
+// 应该结合大佬的题解中的[利用数组(桶)代替hashmap](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/solution/wu-zhong-fu-zi-fu-de-zui-chang-zi-chuan-cshi-xian-/)进行复习。
+// end负责进队列，但是**当前**end指向的值是尚未进队列的。*当前的end需要判断的是在对应的hash数组中的值是否大于了start*。
+// 需要注意的是在while循环中真正持续进行的是**入队**操作，即
+// ```
     hash[s[end]]=end;
     end++;
-```
-这道题之所以那么容易遗忘是因为使用了hash数组使得映射关系非常绕，毕竟智商不够。但这里还是要再次提一下这个hash数组得含义：hash[i]的下标i指的是一个字母（'a','b','c'...）,值对应的是在当前栈中**出现过**的位置。
+// ```
+// 这道题之所以那么容易遗忘是因为使用了hash数组使得映射关系非常绕，毕竟智商不够。但这里还是要再次提一下这个hash数组得含义：hash[i]的下标i指的是一个字母（'a','b','c'...）,值对应的是在当前栈中**出现过**的位置。
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int lengthOfLongestSubstring(char * s){
     if(strlen(s)==0) return 0;
     if(strlen(s)==1) return 1;
@@ -33,4 +33,4 @@ int lengthOfLongestSubstring(char * s){
     }
     return maxLength;
 }
-```
+// ```

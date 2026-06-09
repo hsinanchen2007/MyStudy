@@ -1,6 +1,6 @@
-右子树-自身-左子树，遍历到的节点值为前节点➕自身
+# 右子树-自身-左子树，遍历到的节点值为前节点➕自身
 
-```
+# ```
 
 class Solution:
     def bstToGst(self, root: TreeNode) -> TreeNode:
@@ -16,4 +16,4 @@ class Solution:
         if node.left is not None:
             num = self.order(node.left, num)
         return num
-```
+# ```

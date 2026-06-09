@@ -1,11 +1,11 @@
-### 解题思路
-核心： 把链表next指针 指向上一个节点 所以要有一个前置节点prev
-实现： curr.next.next= prev
-循环： 我需要遍历整个链表，且要先保存当前处理节点的next
-提示： null指针可以考虑作为一个空节点
-### 代码
+// ### 解题思路
+// 核心： 把链表next指针 指向上一个节点 所以要有一个前置节点prev
+// 实现： curr.next.next= prev
+// 循环： 我需要遍历整个链表，且要先保存当前处理节点的next
+// 提示： null指针可以考虑作为一个空节点
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -36,4 +36,4 @@ while(currNode!=null){
         return preNode;
     }
 }
-```
+// ```

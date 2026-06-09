@@ -1,9 +1,9 @@
-### 解题思路
-我是用的指针，写完我都有点看不懂了
+// ### 解题思路
+// 我是用的指针，写完我都有点看不懂了
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -31,4 +31,4 @@ int** generate(int numRows, int* returnSize, int** returnColumnSizes){
     }
     return parr;
 }
-```
+// ```

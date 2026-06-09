@@ -1,9 +1,9 @@
-### 解题思路
-递归方法
+# ### 解题思路
+# 递归方法
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -18,14 +18,14 @@ class Solution:
         head.next.next = head
         head.next = None
         return p
-```
+# ```
 
-### 解题思路
-非递归方法
+# ### 解题思路
+# 非递归方法
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverseList(self, head: ListNode) -> ListNode:
         pre = None
@@ -36,6 +36,6 @@ class Solution:
             pre = current
             current = temp
         return pre
-```
+# ```
 
 

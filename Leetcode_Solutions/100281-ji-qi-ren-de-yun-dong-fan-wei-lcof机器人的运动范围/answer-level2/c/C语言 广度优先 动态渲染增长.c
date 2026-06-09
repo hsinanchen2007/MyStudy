@@ -1,9 +1,9 @@
-### 解题思路
-广度优先，动态增长
+// ### 解题思路
+// 广度优先，动态增长
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int movingCount(int m, int n, int k){
     int res = 1;
 	int** temp = (int**)malloc(sizeof(int*) * m);
@@ -42,4 +42,4 @@ int movingCount(int m, int n, int k){
 	free(temp);
 	return res;
 }
-```
+// ```

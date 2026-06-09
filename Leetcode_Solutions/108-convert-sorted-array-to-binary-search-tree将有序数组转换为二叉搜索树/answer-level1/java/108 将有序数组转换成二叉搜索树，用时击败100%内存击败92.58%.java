@@ -1,12 +1,12 @@
-### 解题思路
-二叉搜索树 实质相当于 二分法
-每次都将nums[0 ... length-1]从中间截断，分成两半。
-取中间的nums[mid]为root.val :mid = (l+r+1)/2 
-root.letf 根据左半边数据按上述思想生成
-root.right 根据右半边数据按上述思想生成
-### 代码
+// ### 解题思路
+// 二叉搜索树 实质相当于 二分法
+// 每次都将nums[0 ... length-1]从中间截断，分成两半。
+// 取中间的nums[mid]为root.val :mid = (l+r+1)/2 
+// root.letf 根据左半边数据按上述思想生成
+// root.right 根据右半边数据按上述思想生成
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -33,4 +33,4 @@ class Solution {
 		return t;
 	}
 }
-```
+// ```

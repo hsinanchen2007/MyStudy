@@ -1,9 +1,9 @@
-### 解题思路
-l冒泡 与 快排
+// ### 解题思路
+// l冒泡 与 快排
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */

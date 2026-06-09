@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 use std::collections::{HashMap};
 impl Solution {
     pub fn calculate_time(keyboard: String, word: String) -> i32 {
@@ -14,4 +14,4 @@ impl Solution {
         .fold(*khash.get(&word .chars() .nth(0) .unwrap()).unwrap(), |a,b| a + b)
     }
 }
-```
+// ```

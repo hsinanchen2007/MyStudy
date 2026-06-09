@@ -1,8 +1,8 @@
-### 解题思路
-主要是从后面往前找插入。不能从前往后找。
-### 代码
+// ### 解题思路
+// 主要是从后面往前找插入。不能从前往后找。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
         int i1 = m-1;
@@ -18,4 +18,4 @@ class Solution {
         }
     }
 }
-```
+// ```

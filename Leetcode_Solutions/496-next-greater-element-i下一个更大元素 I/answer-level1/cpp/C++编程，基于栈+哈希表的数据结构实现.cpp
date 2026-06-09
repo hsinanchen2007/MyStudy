@@ -1,11 +1,11 @@
-### 解题思路
-解题思路和官方题解一样，用C++实现了一遍。
-时间复杂度：O(M+N)，M和N分别是数组nums1和nums2的长度
-空间复杂度：O(N)
+// ### 解题思路
+// 解题思路和官方题解一样，用C++实现了一遍。
+// 时间复杂度：O(M+N)，M和N分别是数组nums1和nums2的长度
+// 空间复杂度：O(N)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> nextGreaterElement(vector<int>& nums1, vector<int>& nums2) {
@@ -30,4 +30,4 @@ public:
         return res;
     }
 };
-```
+// ```

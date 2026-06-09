@@ -1,9 +1,9 @@
-### 解题思路
-lower()
+# ### 解题思路
+# lower()
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def toLowerCase(self, str):
         """
@@ -11,4 +11,4 @@ class Solution(object):
         :rtype: str
         """
         return str.lower()
-```
+# ```

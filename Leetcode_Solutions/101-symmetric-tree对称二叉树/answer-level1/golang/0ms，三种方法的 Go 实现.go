@@ -1,12 +1,12 @@
 
-![image.png](https://pic.leetcode-cn.com/be11aecafb819c0efae3b2070be2093468c0729fd9e7d8fe8be74a010b115620-image.png)
+// ![image.png](https://pic.leetcode-cn.com/be11aecafb819c0efae3b2070be2093468c0729fd9e7d8fe8be74a010b115620-image.png)
 
-整了三种方法花式解决这个问题：迭代（bfs）、递归、chan 通道 & 并发
+// 整了三种方法花式解决这个问题：迭代（bfs）、递归、chan 通道 & 并发
 
-方法一：迭代（bfs）（0ms，3.1MB）
+// 方法一：迭代（bfs）（0ms，3.1MB）
 
-传统方法，用 bfs 生成遍历顺序，开两个队列分别存放这两种顺序，然后取队首元素进行对比，如果始终一致，表示是对称二叉树。
-```
+// 传统方法，用 bfs 生成遍历顺序，开两个队列分别存放这两种顺序，然后取队首元素进行对比，如果始终一致，表示是对称二叉树。
+// ```
 func isSymmetric(root *TreeNode) bool { // 迭代方法，bfs
     lq := []*TreeNode{}       // 从左向右遍历顺序的队列
     rq := []*TreeNode{}       // 从右向左遍历顺序的队列
@@ -30,12 +30,12 @@ func isSymmetric(root *TreeNode) bool { // 迭代方法，bfs
         return false
     }
 }
-```
+// ```
 
-方法二：递归（0ms，3.1MB）
+// 方法二：递归（0ms，3.1MB）
 
-果然递归的代码最简洁 = =
-```
+// 果然递归的代码最简洁 = =
+// ```
 func isSymmetricGo(t1 *TreeNode, t2 *TreeNode) bool {
     if t1==nil && t2==nil {
         return true
@@ -48,14 +48,14 @@ func isSymmetricGo(t1 *TreeNode, t2 *TreeNode) bool {
 func isSymmetric(root *TreeNode) bool {
     return isSymmetricGo(root, root)
 }
-```
+// ```
 
-方法三：chan 通道 & 并发（4ms，3.7MB）
+// 方法三：chan 通道 & 并发（4ms，3.7MB）
 
-思路是开两个协程分别生产两种递归顺序，然后主线程依次接收，并对比每次产生的顺序是否一致，如果始终一致，表示是对称二叉树。
+// 思路是开两个协程分别生产两种递归顺序，然后主线程依次接收，并对比每次产生的顺序是否一致，如果始终一致，表示是对称二叉树。
 
-这个方法思路更加直观，但是速度一般，空间占用高，属于灵机一动的使用 chan 练手作品，大家看看就好。
-```
+// 这个方法思路更加直观，但是速度一般，空间占用高，属于灵机一动的使用 chan 练手作品，大家看看就好。
+// ```
 func getNodeCount(cur *TreeNode) int {
     if cur == nil {
         return 1
@@ -101,4 +101,4 @@ func isSymmetric(root *TreeNode) bool { // 使用通道 chan 构造迭代器，�
     defer close(rchan)
     return true
 }
-```
+// ```

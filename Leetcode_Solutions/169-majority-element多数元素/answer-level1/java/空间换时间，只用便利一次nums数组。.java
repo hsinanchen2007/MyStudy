@@ -1,9 +1,9 @@
-### 解题思路
-思路是创建一个表，记录遍历出来数字，各出现了几次，最后选最多次数输出，空间换时间，只用便利一次nums数组。
+// ### 解题思路
+// 思路是创建一个表，记录遍历出来数字，各出现了几次，最后选最多次数输出，空间换时间，只用便利一次nums数组。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int majorityElement(int[] nums) {
          int value[] = new int[nums.length/2+1];
@@ -36,4 +36,4 @@ class Solution {
 	        return valuemax;
     }
 }
-```
+// ```

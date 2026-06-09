@@ -1,4 +1,4 @@
-```
+-- ```
 select project_id 
 from(
 select project_id, ifnull(count(*),0) as num #如果某个项目没有员工，则返回0
@@ -12,4 +12,4 @@ select project_id, ifnull(count(*),0) as num #如果某个项目没有员工，�
 from project
 group by project_id) as t
 )
-```
+-- ```

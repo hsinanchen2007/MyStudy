@@ -1,12 +1,12 @@
-### 单调栈
+// ### 单调栈
 
-做 n 次 [84. 柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/). 
+// 做 n 次 [84. 柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/). 
 
-以每一行作为底, 统计矩形高度, 代入 84 题的算法计算. 时间复杂度 $o(nm)$
+// 以每一行作为底, 统计矩形高度, 代入 84 题的算法计算. 时间复杂度 $o(nm)$
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private int largestRectangleArea(int[] heights) {
         Stack<Integer> stk = new Stack<>();
@@ -51,4 +51,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

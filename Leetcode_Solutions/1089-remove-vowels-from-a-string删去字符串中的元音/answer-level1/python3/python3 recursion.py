@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def removeVowels(self, S: str) -> str:
         l = ['a', 'e', 'i', 'o', 'u']
@@ -10,5 +10,5 @@ class Solution:
             
         return removechar(S, i)
             
-```
+# ```
 

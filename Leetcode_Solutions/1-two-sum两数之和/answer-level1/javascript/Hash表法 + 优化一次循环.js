@@ -1,5 +1,5 @@
-### 1. 暴力 for 循环
-```js
+// ### 1. 暴力 for 循环
+// ```js
 // 直接暴力将所有数据两两对比，直到发现符合条件的数值对再返回 i,j
 var twoSum = function(nums, target) {
     for(let i = 0; i < nums.length; i++){
@@ -10,10 +10,10 @@ var twoSum = function(nums, target) {
         }
     }
 };
-```
+// ```
 
-### 2. map存储
-```js
+// ### 2. map存储
+// ```js
 // 先将所有值与index都存到map中，计算时再遍历到对应值时，用target减去当前值，
 // 求得期望值，然后拿期望值去map里看是否已经有记录，有则返回 i,j
 // 一共遍历了两次 nums
@@ -29,10 +29,10 @@ var twoSum = function (nums, target) {
         }
     }
 };
-```
+// ```
 
-### 3. 一次循环
-```js
+// ### 3. 一次循环
+// ```js
 //  因为两个值是相对应的关系，
 //  令 nums = [ 1 , 3 , 5 ]  target = 6
 //         6 - nums[0] => nums[2]  则 0 和 2 是我们需要的值对
@@ -52,4 +52,4 @@ var twoSum = function (nums, target) {
         map.set(nums[i], i)
     }
 };
-```
+// ```

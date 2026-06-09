@@ -1,9 +1,9 @@
-### 解题思路
-1、找出矩阵旋转的规律，找出变化的坐标(注意重复)
-2、递归替换数据4次，交换数据，不用多开辟空间
-### 代码
+// ### 解题思路
+// 1、找出矩阵旋转的规律，找出变化的坐标(注意重复)
+// 2、递归替换数据4次，交换数据，不用多开辟空间
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void rotate(vector<vector<int>>& matrix) {
@@ -27,4 +27,4 @@ public:
         exchange(matrix, destinationX, destinationY , tmp , count);
     }
 };
-```
+// ```

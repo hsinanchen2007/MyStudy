@@ -1,9 +1,9 @@
-### 解题思路
-动态规划，每天与之前最低价的差值作为利润，返回最大利润即可。循环需要记录最小值 min (初始值为 prices[0])和最大利润 profit (初始值为 -prices[0])。
+// ### 解题思路
+// 动态规划，每天与之前最低价的差值作为利润，返回最大利润即可。循环需要记录最小值 min (初始值为 prices[0])和最大利润 profit (初始值为 -prices[0])。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} prices
  * @return {number}
@@ -17,4 +17,4 @@ var maxProfit = function (prices) {
     }
     return profit <= 0 ? 0 : profit
 };
-```
+// ```

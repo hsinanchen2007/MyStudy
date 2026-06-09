@@ -1,19 +1,19 @@
-### 解题思路
-1. 采用双向链表，标准库container/list提供了双向链表
-2. 利用map对链表节点进行索引
-3. 记录缓存大小
+// ### 解题思路
+// 1. 采用双向链表，标准库container/list提供了双向链表
+// 2. 利用map对链表节点进行索引
+// 3. 记录缓存大小
 
-#### 添加key, value到缓存中
-1. 检查map中是否存在key，若存在，则从map中取出该key在链表中对应的item，移动该item到链表队首
-2. 若不存在，则将该元素插入链表中，并将对应的链表item写入map中
-3. 检查当前链表长度是否超过缓存大小，若超过，则移出链表中队尾元素item，并从map中删除item对应的key
+// #### 添加key, value到缓存中
+// 1. 检查map中是否存在key，若存在，则从map中取出该key在链表中对应的item，移动该item到链表队首
+// 2. 若不存在，则将该元素插入链表中，并将对应的链表item写入map中
+// 3. 检查当前链表长度是否超过缓存大小，若超过，则移出链表中队尾元素item，并从map中删除item对应的key
 
-#### 从缓存中读取key对应的value
-1. 检查map是否存在该key，如果存在，则将该key对应的链表元素item移到队首，并返回该值
+// #### 从缓存中读取key对应的value
+// 1. 检查map是否存在该key，如果存在，则将该key对应的链表元素item移到队首，并返回该值
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 import "container/list"
 
 type LRUCache struct {
@@ -86,4 +86,4 @@ func (this *LRUCache) removeOldest() {
  * param_1 := obj.Get(key);
  * obj.Put(key,value);
  */
-```
+// ```

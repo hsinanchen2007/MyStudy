@@ -1,8 +1,8 @@
-## 思路：
+# ## 思路：
 
-迭代
+# 迭代
 
-```python
+# ```python
 class Solution:
     def removeElements(self, head: ListNode, val: int) -> ListNode:
         dummy = ListNode(0)
@@ -17,14 +17,14 @@ class Solution:
                 prev = prev.next
                 last = prev.next
         return dummy.next
-```
+# ```
 
-递归
+# 递归
 
-```python
+# ```python
 class Solution:
     def removeElements(self, head: ListNode, val: int) -> ListNode:  
         if not head: return 
         head.next = self.removeElements(head.next, val)
         return head.next if head.val == val else head
-```
+# ```

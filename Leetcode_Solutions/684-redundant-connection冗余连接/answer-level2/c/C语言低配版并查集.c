@@ -1,12 +1,12 @@
-### 解题思路
-用一个flow数组记录 自己所在的集合的序号
-时间不行、空间还行
-![image.png](https://pic.leetcode-cn.com/155b4da6d1cf75c7a42556e32fc8bc2f1fdcb98cc24855913eea41fd329fd8a5-image.png)
+// ### 解题思路
+// 用一个flow数组记录 自己所在的集合的序号
+// 时间不行、空间还行
+// ![image.png](https://pic.leetcode-cn.com/155b4da6d1cf75c7a42556e32fc8bc2f1fdcb98cc24855913eea41fd329fd8a5-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -40,4 +40,4 @@ int* findRedundantConnection(int** edges, int edgesSize, int* edgesColSize, int*
     return result;
  
 }
-```
+// ```

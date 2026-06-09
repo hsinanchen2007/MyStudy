@@ -1,8 +1,8 @@
-### 解题思路
-主要是用了stol函数
-### 代码
+// ### 解题思路
+// 主要是用了stol函数
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int myAtoi(string str) {
@@ -46,4 +46,4 @@ public:
         else return 0;
     }
 };
-```
+// ```

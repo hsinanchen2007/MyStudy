@@ -1,9 +1,9 @@
-### 解题思路
-逆向工作法
+// ### 解题思路
+// 逆向工作法
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func decodeAtIndex(S string, K int) string {
 	size := 0
 	for _, c := range S {
@@ -27,4 +27,4 @@ func decodeAtIndex(S string, K int) string {
 	}
 	return ""
 }
-```
+// ```

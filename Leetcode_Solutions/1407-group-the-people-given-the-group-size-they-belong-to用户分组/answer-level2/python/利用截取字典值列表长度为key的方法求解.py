@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def groupThePeople(self, groupSizes):
         dic = collections.defaultdict(list)
@@ -14,4 +14,4 @@ class Solution(object):
                 res[index] = dic[key][key*j:key*(j+1)]
                 index += 1
         return res
-```
+# ```

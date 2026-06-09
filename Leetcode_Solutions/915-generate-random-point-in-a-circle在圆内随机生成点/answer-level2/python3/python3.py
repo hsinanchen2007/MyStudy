@@ -1,4 +1,4 @@
-```
+# ```
 from typing import List
 
 import numpy.random as npr
@@ -20,4 +20,4 @@ class Solution:
 		x = x * self.radius + self.x_center
 		y = y * self.radius + self.y_center
 		return [x, y]
-```
+# ```

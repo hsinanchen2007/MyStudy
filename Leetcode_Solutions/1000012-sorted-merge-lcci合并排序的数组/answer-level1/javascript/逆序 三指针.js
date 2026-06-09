@@ -1,4 +1,4 @@
-```
+// ```
 var merge = function(A, m, B, n) {
   if (!A || !B || m < 0 || n < 0) {
     return []
@@ -28,4 +28,4 @@ var merge = function(A, m, B, n) {
     }
   }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-看注释就能懂
+# ### 解题思路
+# 看注释就能懂
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def surfaceArea(self, grid: List[List[int]]) -> int:
         result = 0
@@ -25,4 +25,4 @@ class Solution:
                         else:
                             result += grid[i][j]
         return result
-```
+# ```

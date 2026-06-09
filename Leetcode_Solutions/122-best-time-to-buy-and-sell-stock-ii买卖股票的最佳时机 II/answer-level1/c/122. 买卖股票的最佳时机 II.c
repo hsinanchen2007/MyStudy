@@ -1,9 +1,9 @@
-### 解题思路
-暴力求解，只要是第二天比今天的高就卖出一次，抓住每一次的涨。这就是没有费率的好处，哈哈。
+// ### 解题思路
+// 暴力求解，只要是第二天比今天的高就卖出一次，抓住每一次的涨。这就是没有费率的好处，哈哈。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int maxProfit(int* prices, int pricesSize)
 {
     if(pricesSize <= 1)
@@ -18,4 +18,4 @@ int maxProfit(int* prices, int pricesSize)
     }
     return ret;
 }
-```
+// ```

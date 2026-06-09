@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def earliestAcq(self, logs: List[List[int]], N: int) -> int:
         p=[i for i in range(N)]
@@ -16,5 +16,5 @@ class Solution:
             if N==1: return l[0]
 
         return -1
-```
+# ```
 

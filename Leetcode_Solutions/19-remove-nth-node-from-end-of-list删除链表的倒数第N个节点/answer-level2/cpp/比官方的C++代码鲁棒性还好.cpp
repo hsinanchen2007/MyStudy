@@ -1,8 +1,8 @@
-### 解题思路
-因为官方没有考虑到一种情况就是当节点的数量和n一样大时，first为空的时候，如果还将first->next赋值给first这在C++里面会报错，所以我给head增加了一个头节点，因此就算是循环n+1次时first是NULL，而不是NULL的下一个值。
-### 代码
+// ### 解题思路
+// 因为官方没有考虑到一种情况就是当节点的数量和n一样大时，first为空的时候，如果还将first->next赋值给first这在C++里面会报错，所以我给head增加了一个头节点，因此就算是循环n+1次时first是NULL，而不是NULL的下一个值。
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -53,4 +53,4 @@ public:
     }
 };
 
-```
+// ```

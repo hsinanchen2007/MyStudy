@@ -1,15 +1,15 @@
-### 解题思路
-分两种情况：
-1.上下底面
-上下底面比较特殊，只与格子的个数有关
-2.除上下底面外的4个面
-从不同的面去数，相邻的两个立方体有重叠，高加低减。首尾两个面都要加上。
+# ### 解题思路
+# 分两种情况：
+# 1.上下底面
+# 上下底面比较特殊，只与格子的个数有关
+# 2.除上下底面外的4个面
+# 从不同的面去数，相邻的两个立方体有重叠，高加低减。首尾两个面都要加上。
 
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def surfaceArea(self, grid: List[List[int]]) -> int:
         if not grid or not grid[0]:return 0
@@ -33,4 +33,4 @@ class Solution:
             surfacej+=tmpj+grid[n-1][j]
         #print(surfacei,surfacej,surfaceupdown)
         return surfacei+surfacej+surfaceupdown*2
-```
+# ```

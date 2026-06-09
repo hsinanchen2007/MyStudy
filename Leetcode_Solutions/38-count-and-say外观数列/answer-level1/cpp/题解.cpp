@@ -1,13 +1,13 @@
-### 解题思路
-此处撰写解题思路
-string now表示将要输出的字符串，将其初始化为“1”。
-然后进入循环：
-使用string result表示对now的描述结果。
-每次遍历就是简单的数出连续相同的字符个数再写入result中。
+// ### 解题思路
+// 此处撰写解题思路
+// string now表示将要输出的字符串，将其初始化为“1”。
+// 然后进入循环：
+// 使用string result表示对now的描述结果。
+// 每次遍历就是简单的数出连续相同的字符个数再写入result中。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string countAndSay(int n) {
@@ -47,4 +47,4 @@ public:
         return now;
     }
 };
-```
+// ```

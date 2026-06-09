@@ -1,9 +1,9 @@
-### 解题思路
-由于时间复杂度限制，只能采用二分法，两次二分法，分别找到开始位置和结束位置。
+// ### 解题思路
+// 由于时间复杂度限制，只能采用二分法，两次二分法，分别找到开始位置和结束位置。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
@@ -46,4 +46,4 @@ public:
         return res;
     }
 };
-```
+// ```

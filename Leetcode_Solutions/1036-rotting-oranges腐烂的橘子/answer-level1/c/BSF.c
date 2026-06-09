@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-BSF题，考虑到某个橘子周围感染后将会被再次扫描到, 所以将其置为3, 最后在统一变成2即可
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// BSF题，考虑到某个橘子周围感染后将会被再次扫描到, 所以将其置为3, 最后在统一变成2即可
+// ### 代码
 
-```c
+// ```c
 int orangesRotting(int** grid, int gridSize, int* gridColSize){
     int count = 0;
 	while (1){
@@ -41,4 +41,4 @@ int orangesRotting(int** grid, int gridSize, int* gridColSize){
 	return count;
 
 }
-```
+// ```

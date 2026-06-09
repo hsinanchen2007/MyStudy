@@ -1,10 +1,10 @@
-### 解题思路
-1 转成正数
-2 数学运算 转换
-3 反向判断越界
-### 代码
+// ### 解题思路
+// 1 转成正数
+// 2 数学运算 转换
+// 3 反向判断越界
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int reverse(int x) {
        if(x>0&&x<10) return x;
@@ -20,4 +20,4 @@ class Solution {
         return a*(x>0?1:-1);
     }
 }
-```
+// ```

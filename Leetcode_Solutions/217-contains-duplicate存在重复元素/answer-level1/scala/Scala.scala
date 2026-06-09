@@ -1,9 +1,9 @@
-### 解题思路
-先把Array排序就只用比较相邻的元素了
+// ### 解题思路
+// 先把Array排序就只用比较相邻的元素了
 
-### 代码
+// ### 代码
 
-```scala
+// ```scala
 object Solution {
     def containsDuplicate(nums: Array[Int]): Boolean = {
             var i = 0
@@ -18,4 +18,4 @@ object Solution {
     false
     }
 }
-```
+// ```

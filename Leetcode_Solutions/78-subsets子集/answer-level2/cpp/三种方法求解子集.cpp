@@ -1,9 +1,9 @@
-这道题挺新颖的，分别从两种角度考虑求解，如下:
+// 这道题挺新颖的，分别从两种角度考虑求解，如下:
 
-1、考虑层序遍历求解，每次加入一个元素就扩充res的长度，直到所有元素添加完毕。
+// 1、考虑层序遍历求解，每次加入一个元素就扩充res的长度，直到所有元素添加完毕。
 
-![解析.png](https://pic.leetcode-cn.com/03408dfe78564b721a065bf3bb34bc4e933f321a6e5e5883f0a5096a88dadb0b-%E8%A7%A3%E6%9E%90.png)
-```
+// ![解析.png](https://pic.leetcode-cn.com/03408dfe78564b721a065bf3bb34bc4e933f321a6e5e5883f0a5096a88dadb0b-%E8%A7%A3%E6%9E%90.png)
+// ```
 class Solution {
 public:
     vector<vector<int>> subsets(vector<int>& nums) {
@@ -19,10 +19,10 @@ public:
         return res;
     }
 };
-```
+// ```
 
-2、回溯求解。
-```
+// 2、回溯求解。
+// ```
 class Solution {
 public:
     vector<vector<int>> subsets(vector<int>& nums) {
@@ -42,9 +42,9 @@ public:
         }
     }
 };
-```
-3、深度优先遍历求解
-```
+// ```
+// 3、深度优先遍历求解
+// ```
 void helper(vector<vector<int> >& res, vector<int> tmp, vector<int>& nums, int level) {
 	if (level >= nums.size()) {
 		res.push_back(tmp);
@@ -62,4 +62,4 @@ vector<vector<int>> subsets(vector<int>& nums) {
 	helper(res, tmp, nums, 0);
 	return res;
 }
-```
+// ```

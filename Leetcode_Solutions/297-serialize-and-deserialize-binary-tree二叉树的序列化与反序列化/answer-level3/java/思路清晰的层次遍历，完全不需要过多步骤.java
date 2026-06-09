@@ -1,4 +1,4 @@
-```java
+// ```java
 // Encodes a tree to a single string.
 // 这里将原二叉树转化为层次遍历，最后会多出一个“，”但是没什么关系。
     public String serialize(TreeNode root) {
@@ -48,4 +48,4 @@
         }
         return head;
     }
-```
+// ```

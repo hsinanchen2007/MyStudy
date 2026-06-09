@@ -1,9 +1,9 @@
-### 
-类似两个圆求相对位置
+// ### 
+// 类似两个圆求相对位置
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isRectangleOverlap(int* rec1, int rec1Size, int* rec2, int rec2Size){
     double i,j;
     double m,n;
@@ -23,4 +23,4 @@ bool isRectangleOverlap(int* rec1, int rec1Size, int* rec2, int rec2Size){
     }
     return false;
 }
-```
+// ```

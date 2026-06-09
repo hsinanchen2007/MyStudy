@@ -1,5 +1,5 @@
-难的不是题目本身，而是读题😂
-```
+# 难的不是题目本身，而是读题😂
+# ```
 class Solution:
     def diStringMatch(self, S: str) -> List[int]:
         if not S:
@@ -16,4 +16,4 @@ class Solution:
         else:
             ans.append(l.pop())
         return ans
-```
+# ```

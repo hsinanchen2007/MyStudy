@@ -1,9 +1,9 @@
-### 解题思路
-先写出来再说，哈哈哈。
-还没弄清楚collections模块，Counter()方法。
-### 代码
+# ### 解题思路
+# 先写出来再说，哈哈哈。
+# 还没弄清楚collections模块，Counter()方法。
+# ### 代码
 
-```python3
+# ```python3
 import collections
 
 class Solution:
@@ -21,4 +21,4 @@ class Solution:
             number_1.append(s.index(_))
         return min(number_1)
 
-```
+# ```

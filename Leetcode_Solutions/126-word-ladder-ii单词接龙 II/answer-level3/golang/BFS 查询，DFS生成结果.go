@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-相比上一个答案，利用索引存储路径
+// 相比上一个答案，利用索引存储路径
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 //因为 wordlist中各个单词是唯一的，所以使用索引代表 单词
 func findLadders(beginWord string, endWord string, wordList []string) [][]string {
@@ -150,4 +150,4 @@ func queryLadders(rootID int, prePath []string, result *[][]string, parentMap ma
 
 }
 
-```
+// ```

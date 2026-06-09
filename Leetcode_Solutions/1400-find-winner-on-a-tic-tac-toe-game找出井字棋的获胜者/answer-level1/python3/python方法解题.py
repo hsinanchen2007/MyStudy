@@ -1,9 +1,9 @@
-### 解题思路
-采用近乎暴力的解决方法 100% 100%
+# ### 解题思路
+# 采用近乎暴力的解决方法 100% 100%
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def judge_result(self,moves1):
         if len(moves1)<3:
@@ -36,4 +36,4 @@ class Solution:
             return 'Pending'
 s1=Solution()
 print(s1.tictactoe([[0,0],[1,1]]))
-```
+# ```

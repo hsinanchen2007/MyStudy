@@ -1,6 +1,6 @@
-C++实现起来用priority_queue容器，默认从小到大排序，底层实现为最大堆。
+// C++实现起来用priority_queue容器，默认从小到大排序，底层实现为最大堆。
 
-```C++ []
+// ```C++ []
 class Solution {
 public:
     vector<int> getLeastNumbers(vector<int>& arr, int k) {
@@ -18,4 +18,4 @@ public:
 		return res;
     }
 };
-```
+// ```

@@ -1,6 +1,6 @@
-先把第一列通过行变换变为全1，通过将每一列变成1最多即可
+// 先把第一列通过行变换变为全1，通过将每一列变成1最多即可
 
-```
+// ```
 class Solution {
     public int matrixScore(int[][] A) {
         int m = A.length;

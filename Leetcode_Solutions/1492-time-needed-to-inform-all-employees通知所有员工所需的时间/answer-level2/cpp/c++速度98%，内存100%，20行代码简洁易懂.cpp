@@ -1,9 +1,9 @@
-### 解题思路
-遍历informTime数组，自底向上求通信时间。toup数组记录已经求得的从某个点到根节点所需要的时间，避免重复计算。例如toup[i]的值即i节点到headID节点所需要的时间。
+// ### 解题思路
+// 遍历informTime数组，自底向上求通信时间。toup数组记录已经求得的从某个点到根节点所需要的时间，避免重复计算。例如toup[i]的值即i节点到headID节点所需要的时间。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numOfMinutes(int n, int headID, vector<int>& manager, vector<int>& informTime) {
@@ -28,4 +28,4 @@ public:
         return toup[myID];
     }
 };
-```
+// ```

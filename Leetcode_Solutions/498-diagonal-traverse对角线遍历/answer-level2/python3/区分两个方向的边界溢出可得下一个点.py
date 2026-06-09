@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def findDiagonalOrder(self, matrix: List[List[int]]) -> List[int]:
         directions = [[-1,1],[1,-1]]
@@ -63,4 +63,4 @@ class Solution:
                 continue                    
         return result
             
-```
+# ```

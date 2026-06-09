@@ -1,9 +1,9 @@
-### 解题思路
-类似于回文拆分 
+// ### 解题思路
+// 类似于回文拆分 
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func wordBreak(_ s: String, _ wordDict: [String]) -> Bool {
         if s.count == 0 {
@@ -29,4 +29,4 @@ class Solution {
         return dp[s.count]
     }
 }
-```
+// ```

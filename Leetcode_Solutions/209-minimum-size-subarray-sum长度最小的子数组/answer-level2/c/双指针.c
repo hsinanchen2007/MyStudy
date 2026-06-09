@@ -1,5 +1,5 @@
-# 双指针
-```
+// # 双指针
+// ```
 int minSubArrayLen(int s, int* nums, int numsSize){
     if (nums == NULL || numsSize <= 0) {
         return 0;
@@ -16,4 +16,4 @@ int minSubArrayLen(int s, int* nums, int numsSize){
     }
     return min == numsSize + 1 ? 0 : min;
 }
-```
+// ```

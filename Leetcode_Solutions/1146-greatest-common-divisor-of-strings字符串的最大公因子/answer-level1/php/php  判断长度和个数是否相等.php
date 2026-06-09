@@ -1,6 +1,6 @@
-![1071.png](https://pic.leetcode-cn.com/050567cc1fd82df67836eda39d410af61706a05de0af600ea1b2bb3413cbd204-1071.png)
+// ![1071.png](https://pic.leetcode-cn.com/050567cc1fd82df67836eda39d410af61706a05de0af600ea1b2bb3413cbd204-1071.png)
 
-```
+// ```
 class Solution {
 
     function gcdOfStrings($str1, $str2) {
@@ -23,4 +23,4 @@ class Solution {
         return '';
     }
 }
-```
+// ```

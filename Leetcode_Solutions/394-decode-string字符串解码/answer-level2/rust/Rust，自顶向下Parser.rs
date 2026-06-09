@@ -1,27 +1,27 @@
-先写出文法：
+// 先写出文法：
 
-```
+// ```
 S => E
 E => DE | ME | ε 
 R => \d+P
 P => \[M\]
 M => [a-zA-Z]E
-```
+// ```
 
-易得为四种 Token:
+// 易得为四种 Token:
 
-```rust
+// ```rust
 enum Token {
     Term(String),
     Number(u32),
     OpeningParenthesis, 
     ClosingParenthesis,
 }
-```
+// ```
 
-写出词法分析：
+// 写出词法分析：
 
-```rust
+// ```rust
 fn tokenize(input: String) -> Vec<Token> {
     let chars = input.chars().collect::<Vec<char>>();
     let mut i = 0;
@@ -57,11 +57,11 @@ fn tokenize(input: String) -> Vec<Token> {
     }
     tokens
 }
-```
+// ```
 
-写出 ASTNode：
+// 写出 ASTNode：
 
-```rust
+// ```rust
 enum ASTNode {
     Leaf(String),
     Branch(ASTBranch),
@@ -71,11 +71,11 @@ struct ASTBranch {
     times: u32,
     children: Vec<ASTNode>,
 }
-```
+// ```
 
-写出自顶向下 Parser:
+// 写出自顶向下 Parser:
 
-```rust
+// ```rust
  fn parse(tokens: &[Token]) -> ASTNode {
     ASTNode::Branch (
         ASTBranch {
@@ -144,11 +144,11 @@ fn parse_parenthesis_expr(tokens: &[Token], lo: usize, hi: usize) -> (Vec<ASTNod
         panic!("invalid parenthesis");
     }
 }
-```
+// ```
 
-完整代码包括测试如下, 时空均超过 100% rust.
+// 完整代码包括测试如下, 时空均超过 100% rust.
 
-```rust
+// ```rust
 /*
  * @lc app=leetcode.cn id=394 lang=rust
  *
@@ -323,4 +323,4 @@ mod test {
         assert_eq!(Solution::decode_string("".to_string()),"".to_string());
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-双指针，思路简单
-```
+# 双指针，思路简单
+# ```
 class Solution:
     def canThreePartsEqualSum(self, A: List[int]) -> bool:
  
@@ -30,4 +30,4 @@ class Solution:
         
         return False
 
-```
+# ```

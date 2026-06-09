@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool isLongPressedName(string name, string typed) {
@@ -15,4 +15,4 @@ public:
         return i == len1;
     }
 };
-```
+// ```

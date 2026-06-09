@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int searchInsert(int* nums, int numsSize, int target){
     int mid,high,low;
     high=numsSize-1;
@@ -33,4 +33,4 @@ int searchInsert(int* nums, int numsSize, int target){
         return high;
 
 }
-```
+// ```

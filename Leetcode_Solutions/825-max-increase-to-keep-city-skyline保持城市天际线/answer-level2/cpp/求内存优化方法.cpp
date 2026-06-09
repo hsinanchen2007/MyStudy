@@ -1,8 +1,8 @@
-### 解题思路
-一开始找最大值的时候忘了max的写法，自己写了一个双重for循环，用内存换时间。一提交发现内存用得有点多，去找题解交上去内存也没有优化多少，反而时间变慢了。。。。自己想不出什么好的内存优化方法，有无高手指点一下？
-### 代码
+// ### 解题思路
+// 一开始找最大值的时候忘了max的写法，自己写了一个双重for循环，用内存换时间。一提交发现内存用得有点多，去找题解交上去内存也没有优化多少，反而时间变慢了。。。。自己想不出什么好的内存优化方法，有无高手指点一下？
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxIncreaseKeepingSkyline(vector<vector<int>>& grid) {
@@ -39,10 +39,10 @@ public:
 
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/57e625f61429db3a819b58a4d004168250e5e64800ece223d55abf112d961c04-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/57e625f61429db3a819b58a4d004168250e5e64800ece223d55abf112d961c04-image.png)
 
-```c++
+// ```c++
 
 class Solution {
 public:
@@ -73,5 +73,5 @@ public:
 来源：力扣（LeetCode）
 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 
-```
-![image.png](https://pic.leetcode-cn.com/5d5c34ec24fdf5d9e53b286f7eda0404e17e13db8d9db4fdd66a56051b8221c1-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/5d5c34ec24fdf5d9e53b286f7eda0404e17e13db8d9db4fdd66a56051b8221c1-image.png)

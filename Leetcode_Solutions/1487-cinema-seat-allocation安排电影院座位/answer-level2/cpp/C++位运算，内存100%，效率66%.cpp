@@ -1,5 +1,5 @@
-一开始用数组存，被n=10^9用例卡住了，迫不得已看题解用位运算，真好用。
-```
+// 一开始用数组存，被n=10^9用例卡住了，迫不得已看题解用位运算，真好用。
+// ```
 class Solution {
 public:
     int maxNumberOfFamilies(int n, vector<vector<int>>& reservedSeats) {
@@ -28,4 +28,4 @@ public:
         return answer;
     }
 };
-```
+// ```

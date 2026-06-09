@@ -1,14 +1,14 @@
-### 解题思路
-emmm，我寻思常用算法里不就有个count么，好吧娱乐一下。面试的时候应该不让这么写吧，
-正常思路：
-- 排序数组很容易想到二分法；
-- 关键是要找到第一个target和最后一个target；
-- 因此在每次二分时加入比较，如果前一个不是target了返回为首位置，相应的有尾位置；
-- 然后递归；
-- 注意在判断前一个和后一个时不要越界。
-### C++代码
+// ### 解题思路
+// emmm，我寻思常用算法里不就有个count么，好吧娱乐一下。面试的时候应该不让这么写吧，
+// 正常思路：
+// - 排序数组很容易想到二分法；
+// - 关键是要找到第一个target和最后一个target；
+// - 因此在每次二分时加入比较，如果前一个不是target了返回为首位置，相应的有尾位置；
+// - 然后递归；
+// - 注意在判断前一个和后一个时不要越界。
+// ### C++代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int search(vector<int>& nums, int target) {
@@ -18,9 +18,9 @@ public:
         return total;
     }
 };
-```
-### 正常思路C++代码
-```cpp
+// ```
+// ### 正常思路C++代码
+// ```cpp
 class Solution {
 public:
     int search(vector<int>& nums, int target) {
@@ -89,4 +89,4 @@ public:
         return findLast(nums,start,end,target);
     }
 };
-```
+// ```

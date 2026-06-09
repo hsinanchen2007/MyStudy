@@ -1,9 +1,9 @@
-### 解题思路
-遍历，判断每个数的各位数之和是否为偶数。
+// ### 解题思路
+// 遍历，判断每个数的各位数之和是否为偶数。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findNumbers(int[] nums) {
         int count = 0;
@@ -21,4 +21,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

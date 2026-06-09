@@ -1,4 +1,4 @@
-```js
+// ```js
 function canPlaceFlowers (flowerbed, n) {
     if (n < 1) {
         return true
@@ -28,4 +28,4 @@ function canPlaceFlowers (flowerbed, n) {
     }
     return n <= 0
 }
-```
+// ```

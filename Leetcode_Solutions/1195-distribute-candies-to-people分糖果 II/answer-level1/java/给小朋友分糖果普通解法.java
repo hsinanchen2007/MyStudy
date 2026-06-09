@@ -1,9 +1,9 @@
-### 解题思路
-很简单的题目，够分就count++，不够分就直接给剩余的candies，没啥好说的，注释已经写明白了
+// ### 解题思路
+// 很简单的题目，够分就count++，不够分就直接给剩余的candies，没啥好说的，注释已经写明白了
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] distributeCandies(int candies, int num_people) {
         /*初始分发数*/
@@ -24,4 +24,4 @@ class Solution {
         return  a ;
     }
 }
-```
+// ```

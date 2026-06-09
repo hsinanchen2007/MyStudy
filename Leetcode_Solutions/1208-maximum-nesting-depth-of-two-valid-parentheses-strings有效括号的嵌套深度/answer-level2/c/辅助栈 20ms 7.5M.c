@@ -1,4 +1,4 @@
-```
+// ```
 int* maxDepthAfterSplit(char * seq, int* returnSize){
     int len = strlen(seq);
     int top = -1; //辅助栈
@@ -15,4 +15,4 @@ int* maxDepthAfterSplit(char * seq, int* returnSize){
     *returnSize = len;
     return res;
 }
-```
+// ```

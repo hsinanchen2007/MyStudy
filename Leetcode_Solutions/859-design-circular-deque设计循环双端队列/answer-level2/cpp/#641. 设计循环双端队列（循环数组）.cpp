@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class MyCircularDeque {
 public:
 	int *data;
@@ -64,4 +64,4 @@ public:
 		return ((rear + 1) % capacity == front);
 	}
 };
-```
+// ```

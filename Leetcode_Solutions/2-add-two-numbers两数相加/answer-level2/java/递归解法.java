@@ -1,10 +1,10 @@
-### 解题思路
-递归其实就是找到退出条件+预处理+递归+后处理
-此题的退出条件，就是l1，l2的val为空以及进位量(plus)为0时
+// ### 解题思路
+// 递归其实就是找到退出条件+预处理+递归+后处理
+// 此题的退出条件，就是l1，l2的val为空以及进位量(plus)为0时
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -37,4 +37,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

@@ -1,19 +1,19 @@
-### 解题思路
-执行用时 :
-1 ms
-, 在所有 java 提交中击败了
-100.00%
-的用户
-内存消耗 :
-38.4 MB
-, 在所有 java 提交中击败了
-94.90%
+// ### 解题思路
+// 执行用时 :
+// 1 ms
+// , 在所有 java 提交中击败了
+// 100.00%
+// 的用户
+// 内存消耗 :
+// 38.4 MB
+// , 在所有 java 提交中击败了
+// 94.90%
 
-遇到0反向遍历查找能否跳过~
+// 遇到0反向遍历查找能否跳过~
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canJump(int[] nums) {
         if (nums.length<2) return true; 
@@ -41,4 +41,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

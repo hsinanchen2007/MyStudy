@@ -1,6 +1,6 @@
-解法一：
-DFS:
-```
+// 解法一：
+// DFS:
+// ```
 int dx[4]={-1,0,1,0};
 int dy[4]={0,-1,0,1};
 class Solution {
@@ -36,10 +36,10 @@ public:
         }
     }
 };
-```
-解法二：
-Union Find(并查集)：
-```
+// ```
+// 解法二：
+// Union Find(并查集)：
+// ```
 const int maxn=0x7fffff;
 //typedef long long ll;
 int father[maxn];
@@ -98,4 +98,4 @@ public:
         }
     }
 };
-```
+// ```

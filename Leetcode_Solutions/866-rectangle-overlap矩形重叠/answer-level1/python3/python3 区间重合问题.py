@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def isRectangleOverlap(self, rec1: List[int], rec2: List[int]) -> bool:
         # 首先rec的前面的左下角的坐标肯定是小于右上角的坐标的，如果确保是一个有面积的矩形而不是一条边的话。
@@ -24,4 +24,4 @@ class Solution:
 
 
 
-```
+# ```

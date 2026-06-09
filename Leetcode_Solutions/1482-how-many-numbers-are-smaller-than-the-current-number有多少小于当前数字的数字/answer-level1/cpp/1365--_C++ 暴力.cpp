@@ -1,9 +1,9 @@
-### 解题思路
-设置一个数组，二次循环；
-一旦遇到比当前值小的数据，则对c加一，最后加入数组。
+// ### 解题思路
+// 设置一个数组，二次循环；
+// 一旦遇到比当前值小的数据，则对c加一，最后加入数组。
 
-### 代码
-``` cpp
+// ### 代码
+// ``` cpp
 class Solution {
 public:
     vector<int> smallerNumbersThanCurrent(vector<int>& nums) {
@@ -22,4 +22,4 @@ public:
         return count;
     }
 };
-```
+// ```

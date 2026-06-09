@@ -1,15 +1,15 @@
-第四题你们直接暴力搜每个字母表示的数字，不提前剪枝都过了吗。。
+# 第四题你们直接暴力搜每个字母表示的数字，不提前剪枝都过了吗。。
 
-我来个复杂点不超时的剪枝方法。。乌龟 python 可过的
-![image.png](https://pic.leetcode-cn.com/1b7057441396fb37802f753c6760fdc5d27c376f3a60bad5b546c6eb55e216f5-image.png)
+# 我来个复杂点不超时的剪枝方法。。乌龟 python 可过的
+# ![image.png](https://pic.leetcode-cn.com/1b7057441396fb37802f753c6760fdc5d27c376f3a60bad5b546c6eb55e216f5-image.png)
 
-比赛的时候暴力不剪枝不敢交，交的这个剪枝版本的
+# 比赛的时候暴力不剪枝不敢交，交的这个剪枝版本的
 
-首先从个位开始，搜索每个字母代表的数组，确定所有words的个位后，result的个位数字直接能确定。
-然后十位百位递推，中间如果出现result数字不相等的矛盾直接回退，这样剪枝可过，附代码
+# 首先从个位开始，搜索每个字母代表的数组，确定所有words的个位后，result的个位数字直接能确定。
+# 然后十位百位递推，中间如果出现result数字不相等的矛盾直接回退，这样剪枝可过，附代码
 
 
-```python []
+# ```python []
 class Solution(object):
     def isSolvable(self, words, result):
         """
@@ -74,5 +74,5 @@ class Solution(object):
             return False
 
         return work(0, n, m, 0)
-```
+# ```
 

@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public ListNode rotateRight(ListNode head,int k){
 		if(head == null){
@@ -29,8 +29,8 @@ class Solution {
 		return q;
 	}
 }
-```
+// ```
 
-### 性能表现
+// ### 性能表现
 
-![1.png](https://pic.leetcode-cn.com/539d5308c814e5895babecc5489be5b04e8608ea9d93dacec17b90250c9b5c31-1.png)
+// ![1.png](https://pic.leetcode-cn.com/539d5308c814e5895babecc5489be5b04e8608ea9d93dacec17b90250c9b5c31-1.png)

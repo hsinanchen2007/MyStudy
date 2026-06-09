@@ -1,9 +1,9 @@
-### 解题思路
-中序遍历得出数组，重新构造树。
+// ### 解题思路
+// 中序遍历得出数组，重新构造树。
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 use std::rc::Rc;
 use std::cell::RefCell;
 impl Solution {
@@ -28,4 +28,4 @@ impl Solution {
         head
     }
 }
-```
+// ```

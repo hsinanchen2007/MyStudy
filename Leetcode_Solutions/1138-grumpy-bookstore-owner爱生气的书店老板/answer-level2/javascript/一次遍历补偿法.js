@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-大家好，我是 17
+// 大家好，我是 17
 
-每 X 分钟如果老板生气不满意的客人记下来，找出最大值，这就是老板如果不生气的最大收益
+// 每 X 分钟如果老板生气不满意的客人记下来，找出最大值，这就是老板如果不生气的最大收益
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} customers
  * @param {number[]} grumpy
@@ -31,4 +31,4 @@ var maxSatisfied = function (customers, grumpy, X) {
   max = Math.max(cur, max)
   return total + max
 };
-```
+// ```

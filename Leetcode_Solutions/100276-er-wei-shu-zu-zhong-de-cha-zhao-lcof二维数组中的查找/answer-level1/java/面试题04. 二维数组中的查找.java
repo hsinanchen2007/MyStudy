@@ -1,6 +1,6 @@
-#### 右上角法：
+// #### 右上角法：
 
-```java []
+// ```java []
 class Solution {
     public boolean findNumberIn2DArray(int[][] matrix, int target) {
         if(matrix.length == 0){
@@ -24,8 +24,8 @@ class Solution {
         return false;
     }
 }
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def findNumberIn2DArray(self, matrix: List[List[int]], target: int) -> bool:
         if not matrix:
@@ -43,4 +43,4 @@ class Solution:
             else:
                 j = j - 1
         return False
-```
+// ```

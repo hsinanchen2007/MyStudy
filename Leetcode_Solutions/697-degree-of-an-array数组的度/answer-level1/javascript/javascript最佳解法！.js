@@ -1,4 +1,4 @@
-```
+// ```
 const findShortestSubArray = (nums) => {
     const counts = {}
     const firstIndexes = {}
@@ -21,4 +21,4 @@ const findShortestSubArray = (nums) => {
     }
     return res
 };
-```
+// ```

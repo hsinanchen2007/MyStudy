@@ -1,15 +1,15 @@
-### 解题思路
-本题解来自公众号**算法和数据结构的峡谷**
-> [了解更多](https://github.com/googege/GOFamily)
+// ### 解题思路
+// 本题解来自公众号**算法和数据结构的峡谷**
+// > [了解更多](https://github.com/googege/GOFamily)
 
-二分法就是每次都是一分为二，从而是log2n的时间复杂度，这道题为什么是return的l因为在&& matrix[i][j] <= mid 中
-当等于的时候nt不是<k的情况下，r就要减去1，但是l是不需要的，所以这个时候的l就是mid，那么也是我们要找的值，而r是mid-1
-所以不符合条件。这道题中 matrix[i][j] <= mid是关键，一定要有等于。
+// 二分法就是每次都是一分为二，从而是log2n的时间复杂度，这道题为什么是return的l因为在&& matrix[i][j] <= mid 中
+// 当等于的时候nt不是<k的情况下，r就要减去1，但是l是不需要的，所以这个时候的l就是mid，那么也是我们要找的值，而r是mid-1
+// 所以不符合条件。这道题中 matrix[i][j] <= mid是关键，一定要有等于。
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func kthSmallest(matrix [][]int, k int) int {
 	if len(matrix) <=0 {
 		return 0
@@ -39,4 +39,4 @@ func kthSmallest(matrix [][]int, k int) int {
 
 	return l
 }
-```
+// ```

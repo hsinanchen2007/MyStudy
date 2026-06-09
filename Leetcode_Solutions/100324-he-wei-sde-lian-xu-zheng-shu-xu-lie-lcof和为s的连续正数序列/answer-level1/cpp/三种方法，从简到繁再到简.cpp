@@ -1,35 +1,35 @@
 
-### 解析一、左右滑动窗口法
+// ### 解析一、左右滑动窗口法
 
-没有难度
+// 没有难度
 
-### 解析二、数学计算
+// ### 解析二、数学计算
 
-数学方法求解，看了 [@magic_conch](https://leetcode-cn.com/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof/solution/c-0msshu-xue-jie-fa-by-magic_conch/) 的解题，很有收获，就是解析写的不清楚，还有点小错误，现在我把他揉碎了讲一讲。
+// 数学方法求解，看了 [@magic_conch](https://leetcode-cn.com/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof/solution/c-0msshu-xue-jie-fa-by-magic_conch/) 的解题，很有收获，就是解析写的不清楚，还有点小错误，现在我把他揉碎了讲一讲。
 
-$start$ 加到 $end = target$，根据等差数列求和公式 $(首相+尾项)*项数/2$ 那么有 $(start+end)*(end-start+1)/2 = target$
+// $start$ 加到 $end = target$，根据等差数列求和公式 $(首相+尾项)*项数/2$ 那么有 $(start+end)*(end-start+1)/2 = target$
 
-其实就是简单的等差数列求和，也就是将 $start$ 加到 $end$ 再倒着写一遍，倒序相加，两两之和为 $start+end$，一共有 $end-start+1$ 项，相乘即为 $target * 2$。
+// 其实就是简单的等差数列求和，也就是将 $start$ 加到 $end$ 再倒着写一遍，倒序相加，两两之和为 $start+end$，一共有 $end-start+1$ 项，相乘即为 $target * 2$。
 
-为了简单起见，我们将 $*2$ 去掉，直接求符合 $(start+end)*(end-start+1) = target * 2$ 条件的 $start$ 和 $end$。
+// 为了简单起见，我们将 $*2$ 去掉，直接求符合 $(start+end)*(end-start+1) = target * 2$ 条件的 $start$ 和 $end$。
 
-问题就变成了试着找到所有符合条件的 $start$ 和 $end$。
+// 问题就变成了试着找到所有符合条件的 $start$ 和 $end$。
 
-我们将项数 $end-start+1$ 记为 $i$，则两两之和 $(start+end)=target*2/i$，把 $(start+end)$ 记为 $s$，也就是 $s =target*2/i$。发现在项数 $i$ 和 $target$ 确定的情况下 $start$ 和 $end$ 可以通过项数 $i$ 计算出来，计算公式为 $start = (s-i+1)/2$，$end = (s+i-1)/2$。
+// 我们将项数 $end-start+1$ 记为 $i$，则两两之和 $(start+end)=target*2/i$，把 $(start+end)$ 记为 $s$，也就是 $s =target*2/i$。发现在项数 $i$ 和 $target$ 确定的情况下 $start$ 和 $end$ 可以通过项数 $i$ 计算出来，计算公式为 $start = (s-i+1)/2$，$end = (s+i-1)/2$。
 
-计算公式其实就是将两个等式 $start+end = s$（两两和），$end-start+1 = i$（项数），移项，$start$ 和 $end$ 单独放在一边，然后消掉一个参数即可。
+// 计算公式其实就是将两个等式 $start+end = s$（两两和），$end-start+1 = i$（项数），移项，$start$ 和 $end$ 单独放在一边，然后消掉一个参数即可。
 
-所以我们先确定 $i$，再将所有其他值通过 $target$ 和 $i$ 计算出来，找出满足条件的就好。
+// 所以我们先确定 $i$，再将所有其他值通过 $target$ 和 $i$ 计算出来，找出满足条件的就好。
 
-需要满足以下条件：
+// 需要满足以下条件：
 
-1. 两两之和 $s = target*2/i$，为整数，也就是说 $i$ 能被 $target*2$ 整除
-2. 通过 $i$ 计算出的 $start$ 和 $end$ 也都是整数 ，根据上面的计算公式 $start = (s-i+1)/2$，$end = (s+i-1)/2$，等价于 $i$ 和 $s$ 的奇偶性不同。
-3. $start$ 必须是大于 $0$ 的数
+// 1. 两两之和 $s = target*2/i$，为整数，也就是说 $i$ 能被 $target*2$ 整除
+// 2. 通过 $i$ 计算出的 $start$ 和 $end$ 也都是整数 ，根据上面的计算公式 $start = (s-i+1)/2$，$end = (s+i-1)/2$，等价于 $i$ 和 $s$ 的奇偶性不同。
+// 3. $start$ 必须是大于 $0$ 的数
 
-实现过程中，$i$ 从大到小循环，依次判断，找出满足条件的 $i$，然后确定 $start$ 和 $end$，生成答案即可。
+// 实现过程中，$i$ 从大到小循环，依次判断，找出满足条件的 $i$，然后确定 $start$ 和 $end$，生成答案即可。
 
-```c++ [-C++]
+// ```c++ [-C++]
 class Solution {
 public:
 	vector<vector<int>> findContinuousSequence(int target) {
@@ -49,25 +49,25 @@ public:
 		return ans;
 	}
 };
-```
+// ```
 
----
+// ---
 
-### 解析三、取巧方法
+// ### 解析三、取巧方法
 
-这道题其实和 [829. 连续整数求和](https://leetcode-cn.com/problems/consecutive-numbers-sum/) 差不多。只不过最后求的答案格式不太一样。在829的评论区有许多有意思的解法。
+// 这道题其实和 [829. 连续整数求和](https://leetcode-cn.com/problems/consecutive-numbers-sum/) 差不多。只不过最后求的答案格式不太一样。在829的评论区有许多有意思的解法。
 
-现在我们来重新审视一下这道题在求什么。
+// 现在我们来重新审视一下这道题在求什么。
 
-如果两个连续的数之和为 $target$，这两个数相差为 $1$，也就是说将较大的那个数减一，就是两个相等的数之和为 $target - 1$。这个数就是 $(target - 1)/2$，只要保证能整除，就是我们需要的解。
+// 如果两个连续的数之和为 $target$，这两个数相差为 $1$，也就是说将较大的那个数减一，就是两个相等的数之和为 $target - 1$。这个数就是 $(target - 1)/2$，只要保证能整除，就是我们需要的解。
 
-进一步讲，如果三个连续的数和为 $target$，则将中间那个数减一，最后那个数减二，就是三个相等的数之和为 $target - 1 - 2$。这个数就是 $(target - 1 - 2)/3$，只要保证能整除，就是我们需要的解。
+// 进一步讲，如果三个连续的数和为 $target$，则将中间那个数减一，最后那个数减二，就是三个相等的数之和为 $target - 1 - 2$。这个数就是 $(target - 1 - 2)/3$，只要保证能整除，就是我们需要的解。
 
-![1.jpg](https://pic.leetcode-cn.com/d909b24dd2186773083e15a71c8114ee5ca3072623ebd5824f5d6af935990adf-1.jpg){:width=300}
+// ![1.jpg](https://pic.leetcode-cn.com/d909b24dd2186773083e15a71c8114ee5ca3072623ebd5824f5d6af935990adf-1.jpg){:width=300}
 
-所以，不断的将 $target$ 的尖端削去，判断能否整除 **项数** 即可。
+// 所以，不断的将 $target$ 的尖端削去，判断能否整除 **项数** 即可。
 
-```cpp [-C++]
+// ```cpp [-C++]
 class Solution {
 public:
     vector<vector<int>> findContinuousSequence(int target) {
@@ -93,4 +93,4 @@ public:
         return ans;
     }
 };
-```
+// ```

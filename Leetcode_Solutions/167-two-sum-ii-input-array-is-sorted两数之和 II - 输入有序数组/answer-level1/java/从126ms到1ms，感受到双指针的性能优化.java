@@ -1,11 +1,11 @@
-### 解题思路
-1，双重for循环遍历，
-2，双指针
+// ### 解题思路
+// 1，双重for循环遍历，
+// 2，双指针
 
-### 代码
+// ### 代码
 
-解法二：
-```java
+// 解法二：
+// ```java
 class Solution {
    public int[] twoSum(int[] numbers, int target) {
         int[] result = {0,0};
@@ -42,4 +42,4 @@ public int[] twoSum(int[] numbers, int target) {
         }
         return result;
     }
-```
+// ```

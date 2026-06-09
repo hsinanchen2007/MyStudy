@@ -1,5 +1,5 @@
-直接中序遍历，因为从右看，总是将最右边的节点值加入到待返回的vectorvector即可，话不多说，上代码
-```
+// 直接中序遍历，因为从右看，总是将最右边的节点值加入到待返回的vectorvector即可，话不多说，上代码
+// ```
 class Solution {
 public:
     vector<int> rightSideView(TreeNode* root) {
@@ -24,4 +24,4 @@ public:
         return all;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-不用哈希表，用数组
+// ### 解题思路
+// 不用哈希表，用数组
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int countCharacters(String[] words, String chars) {
         int[] tmpList = count(chars);
@@ -30,4 +30,4 @@ class Solution {
         return s.length();
     }
 }
-```
+// ```

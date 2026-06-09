@@ -1,4 +1,4 @@
-```python
+# ```python
 def hasGroupsSizeX(deck):
     # 获取出现次数
     counter = list(sorted(set(collections.Counter(deck).values())))
@@ -13,4 +13,4 @@ def hasGroupsSizeX(deck):
     return False
 
 print(hasGroupsSizeX([1,2,3,4,4,3,2,1]))
-```
+# ```

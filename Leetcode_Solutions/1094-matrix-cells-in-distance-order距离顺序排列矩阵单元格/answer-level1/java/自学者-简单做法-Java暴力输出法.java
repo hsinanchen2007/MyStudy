@@ -1,12 +1,12 @@
-### 解题思路
-1. 定义数据结构Node记录信息，进行节点排序
-2. Collections.sort采用了 Comparator.comparingInt(crd -> crd.dist)，比较难理解，是IntelliJ Idea提示写出来的。
-题目设陷阱：
-1.输出的是坐标值，所以要先保留坐标值，如果通过数组下标进行换算就掉入陷阱。
+// ### 解题思路
+// 1. 定义数据结构Node记录信息，进行节点排序
+// 2. Collections.sort采用了 Comparator.comparingInt(crd -> crd.dist)，比较难理解，是IntelliJ Idea提示写出来的。
+// 题目设陷阱：
+// 1.输出的是坐标值，所以要先保留坐标值，如果通过数组下标进行换算就掉入陷阱。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
    static class Node {
         int r;
@@ -40,4 +40,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

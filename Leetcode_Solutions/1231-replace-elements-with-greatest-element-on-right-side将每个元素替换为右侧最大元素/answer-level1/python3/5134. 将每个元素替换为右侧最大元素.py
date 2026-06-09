@@ -1,9 +1,9 @@
-### 解题思路
-逆序比较会更方便一点
+# ### 解题思路
+# 逆序比较会更方便一点
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def replaceElements(self, arr: List[int]) -> List[int]:
         max1 = arr[-1]
@@ -12,4 +12,4 @@ class Solution:
             max1 = max(max1, arr[i])
             res.append(max1)
         return res[::-1]
-```
+# ```

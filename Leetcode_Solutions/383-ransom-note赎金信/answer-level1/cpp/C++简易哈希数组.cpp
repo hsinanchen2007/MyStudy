@@ -1,9 +1,9 @@
-### 解题思路
-因为只有26个小写字母，所以分配一个int[26]记录字母出现次数
+// ### 解题思路
+// 因为只有26个小写字母，所以分配一个int[26]记录字母出现次数
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool canConstruct(string ransomNote, string magazine)
@@ -20,4 +20,4 @@ public:
         return 1;
     }
 };
-```
+// ```

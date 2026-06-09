@@ -1,5 +1,5 @@
-排序后遍历序列, 固定x, 双指针寻找y和z (y+z = -x)
-```
+// 排序后遍历序列, 固定x, 双指针寻找y和z (y+z = -x)
+// ```
 class Solution {
 public:
     vector<vector<int>> threeSum(vector<int>& nums) {
@@ -26,4 +26,4 @@ public:
         return ret;
     }
 };
-```
+// ```

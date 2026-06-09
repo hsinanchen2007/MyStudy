@@ -1,5 +1,5 @@
 
-```
+// ```
 public int candy(int[] ratings) {
         //基本思路是，如果前边的部分已经确定，那么从元素cur开始之后的糖果分配
         //不受前边部分的影响，可以将分数划分为连续的上升、下降、持平，三种情况
@@ -57,4 +57,4 @@ public int candy(int[] ratings) {
 
         return result;
     }
-```
+// ```

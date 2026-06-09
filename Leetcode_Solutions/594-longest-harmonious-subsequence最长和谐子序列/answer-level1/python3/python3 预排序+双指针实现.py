@@ -1,13 +1,13 @@
-### 解题思路
-首先将原数组排序，得到递增数组；
-然后遍历一遍数组，利用双指针实现类似滑动窗口的功能
+# ### 解题思路
+# 首先将原数组排序，得到递增数组；
+# 然后遍历一遍数组，利用双指针实现类似滑动窗口的功能
 
-时间复杂度：O(nlog(n))
-空间复杂度：O(n)
+# 时间复杂度：O(nlog(n))
+# 空间复杂度：O(n)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findLHS(self, nums: List[int]) -> int:
         nums.sort()
@@ -19,4 +19,4 @@ class Solution:
             if nums[right]-nums[left]==1:
                 res=max(res,right-left+1)
         return res
-```
+# ```

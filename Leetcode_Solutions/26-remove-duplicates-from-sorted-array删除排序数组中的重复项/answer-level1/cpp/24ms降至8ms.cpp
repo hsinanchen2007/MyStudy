@@ -1,10 +1,10 @@
-### 解题思路
-避免对重复数据的多次删除
+// ### 解题思路
+// 避免对重复数据的多次删除
 
-### 代码
+// ### 代码
 
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
@@ -23,4 +23,4 @@ public:
         // 多次判断是否越界
     }
 };
-```
+// ```

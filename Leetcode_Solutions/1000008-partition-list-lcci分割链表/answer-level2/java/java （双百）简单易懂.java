@@ -1,7 +1,7 @@
 
-翻了评论，翻译一下题目，就是把所有小于x的节点挪到值为x的节点左边，大于的在哪都无所谓。
-**思路：遍历一趟链表，分割成两个链表，一个是小于x的，一个是大于等于x的，结束之后拼接起来返回**
-```
+// 翻了评论，翻译一下题目，就是把所有小于x的节点挪到值为x的节点左边，大于的在哪都无所谓。
+// **思路：遍历一趟链表，分割成两个链表，一个是小于x的，一个是大于等于x的，结束之后拼接起来返回**
+// ```
 class Solution {
     public ListNode partition(ListNode head, int x) {
         if(head==null || head.next==null) return head;
@@ -47,4 +47,4 @@ class Solution {
         return minHead;
     }
 }
-```
+// ```

@@ -1,8 +1,8 @@
-# 解法一 顺藤摸瓜
+// # 解法一 顺藤摸瓜
 
-45 题的代码。
+// 45 题的代码。
 
-```java
+// ```java
 public int jump(int[] nums) {
     int end = 0;
     int maxPosition = 0; 
@@ -17,11 +17,11 @@ public int jump(int[] nums) {
     }
     return steps;
 }
-```
+// ```
 
-这里的话，我们完全可以把 step 去掉，并且考虑下当前更新的 i 是不是已经超过了边界。
+// 这里的话，我们完全可以把 step 去掉，并且考虑下当前更新的 i 是不是已经超过了边界。
 
-```java
+// ```java
 public boolean canJump(int[] nums) { 
     int end = 0;
     int maxPosition = 0;  
@@ -40,17 +40,17 @@ public boolean canJump(int[] nums) {
     //最远的距离是否到答末尾
     return maxPosition>=nums.length-1;
 } 	
-```
+// ```
 
-时间复杂度：O（n）。
+// 时间复杂度：O（n）。
 
-空间复杂度：O（1）。
+// 空间复杂度：O（1）。
 
-# 解法二 顺瓜摸藤
+// # 解法二 顺瓜摸藤
 
-每次找最左边的能跳到当前位置的下标，之前的代码如下。
+// 每次找最左边的能跳到当前位置的下标，之前的代码如下。
 
-```java
+// ```java
 public int jump(int[] nums) {
     int position = nums.length - 1; //要找的位置
     int steps = 0;
@@ -66,11 +66,11 @@ public int jump(int[] nums) {
     return steps;
 }
 
-```
+// ```
 
-这里修改的话，只需要判断最后回没回到 0 ，并且如果 while 里的 for 循环没有进入 if ，就意味着一个位置都没找到，就要返回 false。
+// 这里修改的话，只需要判断最后回没回到 0 ，并且如果 while 里的 for 循环没有进入 if ，就意味着一个位置都没找到，就要返回 false。
 
-```java
+// ```java
 public boolean canJump(int[] nums) { 
     int position = nums.length - 1; //要找的位置
     boolean isUpdate = false; 
@@ -90,19 +90,19 @@ public boolean canJump(int[] nums) {
     }
     return true;
 }
-```
+// ```
 
-时间复杂度：O（n²）。
+// 时间复杂度：O（n²）。
 
-空间复杂度：O（1）。
+// 空间复杂度：O（1）。
 
-# 解法三
+// # 解法三
 
-让我们直击问题的本质，与 45 题不同，我们并不需要知道最小的步数，所以我们对跳的过程并不感兴趣。并且如果数组里边没有 0，那么无论怎么跳，一定可以从第 0 个跳到最后一个位置。
+// 让我们直击问题的本质，与 45 题不同，我们并不需要知道最小的步数，所以我们对跳的过程并不感兴趣。并且如果数组里边没有 0，那么无论怎么跳，一定可以从第 0 个跳到最后一个位置。
 
-所以我们只需要看 0 的位置，如果有 0 的话，我们只需要看 0 前边的位置，能不能跳过当前的 0 ，如果 0 前边的位置都不能跳过当前 0，那么直接返回 false。如果能的话，就看后边的 0 的情况。
+// 所以我们只需要看 0 的位置，如果有 0 的话，我们只需要看 0 前边的位置，能不能跳过当前的 0 ，如果 0 前边的位置都不能跳过当前 0，那么直接返回 false。如果能的话，就看后边的 0 的情况。
 
-```java
+// ```java
 public boolean canJump(int[] nums) {
     for (int i = 0; i < nums.length - 1; i++) {
         //找到 0 的位置
@@ -124,13 +124,13 @@ public boolean canJump(int[] nums) {
     }
     return true;
 }
-```
+// ```
 
-但这样时间复杂度没有提高， 在 @Zhengwen 的提醒下，可以用下边的方法。
+// 但这样时间复杂度没有提高， 在 @Zhengwen 的提醒下，可以用下边的方法。
 
-我们判断 0 前边的元素能否跳过 0 ，不需要每次都向前查找，我们只需要用一个变量保存当前能跳的最远的距离，然后判断最远距离和当前 0 的位置就可以了。
+// 我们判断 0 前边的元素能否跳过 0 ，不需要每次都向前查找，我们只需要用一个变量保存当前能跳的最远的距离，然后判断最远距离和当前 0 的位置就可以了。
 
-```java
+// ```java
 public boolean canJump(int[] nums) {
     int max = 0;
     for (int i = 0; i < nums.length - 1; i++) {
@@ -141,15 +141,15 @@ public boolean canJump(int[] nums) {
     }
     return true;
 }
-```
+// ```
 
-时间复杂度：O（n）。
+// 时间复杂度：O（n）。
 
-空间复杂度：O（1）。
+// 空间复杂度：O（1）。
 
-我们甚至不需要考虑 0 的位置，只需要判断最大距离有没有超过当前的 i 。
+// 我们甚至不需要考虑 0 的位置，只需要判断最大距离有没有超过当前的 i 。
 
-```java
+// ```java
 public boolean canJump(int[] nums) {
     int max = 0; 
     for (int i = 0; i < nums.length; i++) {
@@ -160,10 +160,10 @@ public boolean canJump(int[] nums) {
     }
     return true;
 }
-```
+// ```
 
 
 
-# 总
+// # 总
 
-当自己按照 45 题的思路写完的时候，看 Solution 的时候都懵逼了，这道题竟然这么复杂？不过 Solution 把问题抽象成动态规划的思想，以及优化的过程还是非常值得学习的。
+// 当自己按照 45 题的思路写完的时候，看 Solution 的时候都懵逼了，这道题竟然这么复杂？不过 Solution 把问题抽象成动态规划的思想，以及优化的过程还是非常值得学习的。

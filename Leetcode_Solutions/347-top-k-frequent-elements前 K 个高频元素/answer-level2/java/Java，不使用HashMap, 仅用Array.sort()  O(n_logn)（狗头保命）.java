@@ -1,7 +1,7 @@
-执行用时 :20 ms, 在所有 Java 提交中击败了96.14%的用户
-内存消耗 :45.5 MB, 在所有 Java 提交中击败了64.28%的用户
+// 执行用时 :20 ms, 在所有 Java 提交中击败了96.14%的用户
+// 内存消耗 :45.5 MB, 在所有 Java 提交中击败了64.28%的用户
 
-```
+// ```
 1. import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
@@ -49,4 +49,4 @@ class Val_and_Num{
         this.num = num;
     }
 }
-```
+// ```

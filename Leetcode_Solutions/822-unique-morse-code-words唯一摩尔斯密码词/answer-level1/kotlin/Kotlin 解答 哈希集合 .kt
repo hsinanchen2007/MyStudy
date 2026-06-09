@@ -1,6 +1,6 @@
-如下
+// 如下
 
-```java
+// ```java
 class Solution {
     companion object {
         val MORSE_CODE_TABLE = arrayOf(".-", "-...", "-.-.", "-..", ".", "..-.",
@@ -27,4 +27,4 @@ class Solution {
     }
 }
 
-```
+// ```

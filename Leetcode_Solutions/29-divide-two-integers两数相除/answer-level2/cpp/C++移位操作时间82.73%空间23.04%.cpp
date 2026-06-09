@@ -1,6 +1,6 @@
-leetcode给的编译器对负数的左移位会报错，所以用a+a来代替负数左移。
-本题最麻烦的地方在于要随时判断左移会不会溢出。。
-```
+// leetcode给的编译器对负数的左移位会报错，所以用a+a来代替负数左移。
+// 本题最麻烦的地方在于要随时判断左移会不会溢出。。
+// ```
 class Solution {
 public:
     int divide(int dividend, int divisor) {
@@ -34,4 +34,4 @@ public:
 	    return ans;
     }
 };
-```
+// ```

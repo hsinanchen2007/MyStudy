@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-需要注意在python中deepcopy才会改变内存地址
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 需要注意在python中deepcopy才会改变内存地址
+# ### 代码
 
-```python3
+# ```python3
 import copy
 class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:
@@ -27,4 +27,4 @@ class Solution:
         #ans.append([])
         return ans
 
-```
+# ```

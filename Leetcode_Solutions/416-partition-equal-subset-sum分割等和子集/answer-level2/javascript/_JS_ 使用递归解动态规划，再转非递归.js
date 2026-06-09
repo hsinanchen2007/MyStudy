@@ -1,11 +1,11 @@
-### 解题思路
-核心逻辑：
-1. 存在和相等，即部分子数组和为总数的1/2，即sum
-2. 得状态 f(i,sum) = f(i-1,sum)||f(i-1, sum-nums[i]),其中f得解为，前i个元素中，存在和为sum得值，即出口当sum == 0 时，符合要求。
+// ### 解题思路
+// 核心逻辑：
+// 1. 存在和相等，即部分子数组和为总数的1/2，即sum
+// 2. 得状态 f(i,sum) = f(i-1,sum)||f(i-1, sum-nums[i]),其中f得解为，前i个元素中，存在和为sum得值，即出口当sum == 0 时，符合要求。
 
 
-### 递归解题
-```javascript
+// ### 递归解题
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {boolean}
@@ -35,10 +35,10 @@ var canPartition = function(nums) {
     }
     return f(nums.length - 1, sum);
 };
-```
-### 非递归代码
+// ```
+// ### 非递归代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {boolean}
@@ -75,4 +75,4 @@ var canPartition = function(nums) {
     }
     return !!dp[nums.length - 1][sum];
 };
-```
+// ```

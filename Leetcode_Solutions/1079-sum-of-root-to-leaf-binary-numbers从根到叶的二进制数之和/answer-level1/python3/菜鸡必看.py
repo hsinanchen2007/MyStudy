@@ -1,11 +1,11 @@
-### 解题思路
-不懂可以评论 一定回复
-我也不懂位运算什么的 
-就是一个10到2这样的转换吧
+# ### 解题思路
+# 不懂可以评论 一定回复
+# 我也不懂位运算什么的 
+# 就是一个10到2这样的转换吧
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -30,4 +30,4 @@ class Solution:
             sum+=cur
         return sum
         
-```
+# ```

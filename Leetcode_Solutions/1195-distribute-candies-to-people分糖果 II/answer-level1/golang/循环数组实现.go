@@ -1,4 +1,4 @@
-```
+// ```
 //循环数组
 func distributeCandies(candies int, num_people int) []int {
     if candies<=0 || num_people<=0{
@@ -18,4 +18,4 @@ func distributeCandies(candies int, num_people int) []int {
     }
     return res
 }
-```
+// ```

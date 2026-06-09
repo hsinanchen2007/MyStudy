@@ -1,4 +1,4 @@
-```
+// ```
 var getTargetCopy = function(original, cloned, target) {
 	if (original === null) {
 		return null
@@ -8,4 +8,4 @@ var getTargetCopy = function(original, cloned, target) {
   	}
   	return getTargetCopy(original.left, cloned.left, target) || getTargetCopy(original.right, cloned.right, target)
 };
-```
+// ```

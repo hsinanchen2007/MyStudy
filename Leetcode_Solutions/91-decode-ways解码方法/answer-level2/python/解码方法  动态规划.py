@@ -1,13 +1,13 @@
-### 解题思路
-1.若s[0]='0',则return 0
-2.设dp[i]表示从0~i共有dp[i]种解法 dp[i]的确定如下所述:
-*若s[i] = 0,当s[i-1]等于 1 或 2 时，dp[i] = dp[i-2],否则，return 0
-*若s[i]!= 0,当s[i-1] = 1 或 s[i-1] = 2 且 s[i] = 1~6 时，dp[i] = dp[i-1] + dp[i-2],其余情况
-dp[i] = dp[i-1]
+# ### 解题思路
+# 1.若s[0]='0',则return 0
+# 2.设dp[i]表示从0~i共有dp[i]种解法 dp[i]的确定如下所述:
+# *若s[i] = 0,当s[i-1]等于 1 或 2 时，dp[i] = dp[i-2],否则，return 0
+# *若s[i]!= 0,当s[i-1] = 1 或 s[i-1] = 2 且 s[i] = 1~6 时，dp[i] = dp[i-1] + dp[i-2],其余情况
+# dp[i] = dp[i-1]
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def numDecodings(self, s):
         if not s or s[0] == '0':
@@ -44,4 +44,4 @@ class Solution(object):
                         dp[i] = dp[i-1]
             return dp[-1]
             
-```
+# ```

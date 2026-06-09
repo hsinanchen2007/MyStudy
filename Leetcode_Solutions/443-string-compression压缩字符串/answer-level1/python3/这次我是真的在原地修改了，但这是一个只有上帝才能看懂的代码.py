@@ -1,10 +1,10 @@
-### 解题思路
-![QQ截图20200215143740.png](https://pic.leetcode-cn.com/4145e6eb337ee6ac5c1e71e87b0b1f4d5ba923af71e83fc72f2c8f6415ae1b4f-QQ%E6%88%AA%E5%9B%BE20200215143740.png)
+# ### 解题思路
+# ![QQ截图20200215143740.png](https://pic.leetcode-cn.com/4145e6eb337ee6ac5c1e71e87b0b1f4d5ba923af71e83fc72f2c8f6415ae1b4f-QQ%E6%88%AA%E5%9B%BE20200215143740.png)
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def compress(self,chars: List[str]) -> int:
         if len(chars)==1:
@@ -54,4 +54,4 @@ class Solution:
 
 
 
-```
+# ```

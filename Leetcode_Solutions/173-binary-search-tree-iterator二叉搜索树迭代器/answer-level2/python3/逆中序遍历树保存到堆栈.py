@@ -1,9 +1,9 @@
-### 解题思路
-如题
+# ### 解题思路
+# 如题
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -49,4 +49,4 @@ class BSTIterator:
 # obj = BSTIterator(root)
 # param_1 = obj.next()
 # param_2 = obj.hasNext()
-```
+# ```

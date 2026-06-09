@@ -1,10 +1,10 @@
-### 解题思路
-![TIM图片20200408132510.png](https://pic.leetcode-cn.com/8c4578c0240fe1381a56ad045ae444e85e80126d8ca98268711234d496c904ce-TIM%E5%9B%BE%E7%89%8720200408132510.png)
+// ### 解题思路
+// ![TIM图片20200408132510.png](https://pic.leetcode-cn.com/8c4578c0240fe1381a56ad045ae444e85e80126d8ca98268711234d496c904ce-TIM%E5%9B%BE%E7%89%8720200408132510.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int balancedStringSplit(string s) {
@@ -27,4 +27,4 @@ public:
         return num;
     }
 };
-```
+// ```

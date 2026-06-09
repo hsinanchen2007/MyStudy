@@ -1,5 +1,5 @@
 
-```
+# ```
 class Solution:
     def countNegatives(self, grid: List[List[int]]) -> int:
         n = len(grid)
@@ -17,6 +17,6 @@ class Solution:
                 ans += len(i) - left
 
         return ans```
-```
-代码块
-```
+# ```
+# 代码块
+# ```

@@ -1,15 +1,15 @@
-![image.png](https://pic.leetcode-cn.com/ad5cfa410692993ad45e3c7e89785335d2565d01f6bda05a3d88b982eaa696fc-image.png)
+// ![image.png](https://pic.leetcode-cn.com/ad5cfa410692993ad45e3c7e89785335d2565d01f6bda05a3d88b982eaa696fc-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
 迭代法
 思路就是用一个栈，遍历当前节点的孩子的时候，把所有孩子逆序（从后向前）依次入栈，
 这样就可保证，每次从栈顶取出的节点必然是从左到右的顺序，满足先序遍历
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * // Definition for a Node.
  * function Node(val, children) {
@@ -63,4 +63,4 @@ var preorder = function(root) {
   
 //   return ans;
 // };
-```
+// ```

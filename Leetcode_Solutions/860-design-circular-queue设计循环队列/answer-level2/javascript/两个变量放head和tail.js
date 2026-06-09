@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/b498d481dc845e8e21d201f453c7fc1337cf717d27bdde4f0c65452f54c22211-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/b498d481dc845e8e21d201f453c7fc1337cf717d27bdde4f0c65452f54c22211-image.png)
 
-提交三次才AC，不难，但是要细心，首尾相连的情况要多想。
-### 代码
+// 提交三次才AC，不难，但是要细心，首尾相连的情况要多想。
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Initialize your data structure here. Set the size of the queue to be k.
  * @param {number} k
@@ -102,4 +102,4 @@ MyCircularQueue.prototype.isEmpty = function () {
 MyCircularQueue.prototype.isFull = function () {
     return this.cQueue.length === this.capacity;
 };
-```
+// ```

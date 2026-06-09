@@ -1,6 +1,6 @@
-![WX20191116-200520@2x.png](https://pic.leetcode-cn.com/817eec9dd9658cd9fe27c042bbb20efe220e0ea4ed49e615403a27da611032e0-WX20191116-200520@2x.png)
+// ![WX20191116-200520@2x.png](https://pic.leetcode-cn.com/817eec9dd9658cd9fe27c042bbb20efe220e0ea4ed49e615403a27da611032e0-WX20191116-200520@2x.png)
 
-```
+// ```
 public int removeElement(int[] nums,int val){
         /*当数组为null或没元素时直接返回*/
         if(nums==null||nums.length<1){
@@ -22,4 +22,4 @@ public int removeElement(int[] nums,int val){
         }
         return newLength;
     }
-```
+// ```

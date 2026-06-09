@@ -1,5 +1,5 @@
-> 简单递归
-```python
+# > 简单递归
+# ```python
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -25,4 +25,4 @@ class Solution:
             small,large = self.splitBST(root.right,V)
             root.right = small
             return root,large
-```
+# ```

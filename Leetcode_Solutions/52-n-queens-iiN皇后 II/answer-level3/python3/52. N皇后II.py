@@ -1,9 +1,9 @@
-### 解题思路
-修改上题的代码，修改添加方案这个函数即可。
+# ### 解题思路
+# 修改上题的代码，修改添加方案这个函数即可。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def totalNQueens(self, n: int) -> int:
         def could_place(row, col):
@@ -42,4 +42,4 @@ class Solution:
         output = 0
         backtrack()
         return output
-```
+# ```

@@ -1,4 +1,4 @@
-就是最后一个值和第一个值对比
+// 就是最后一个值和第一个值对比
 /**
  * Definition for singly-linked list.
  * public class ListNode {

@@ -1,12 +1,12 @@
-算是暴力破解吧
-思路是先获取所有未填入的坐标信息存为一个数组
-然后将数组拆分为列和宫，后续可直接在这些数组里判断是否输入正确
-然后就是无限递归了。。。
-第一次写题解= =有点凌乱。。。
-求大神指点下优化的方向
-![image.png](https://pic.leetcode-cn.com/93ff8af0e1c1be1de08514a4addff5ca9b98150cd1a3e49ba1bdcf6ec2d98cf0-image.png)
+// 算是暴力破解吧
+// 思路是先获取所有未填入的坐标信息存为一个数组
+// 然后将数组拆分为列和宫，后续可直接在这些数组里判断是否输入正确
+// 然后就是无限递归了。。。
+// 第一次写题解= =有点凌乱。。。
+// 求大神指点下优化的方向
+// ![image.png](https://pic.leetcode-cn.com/93ff8af0e1c1be1de08514a4addff5ca9b98150cd1a3e49ba1bdcf6ec2d98cf0-image.png)
 
-```
+// ```
 /**
  * @param {character[][]} board
  * @return {void} Do not return anything, modify board in-place instead.
@@ -98,4 +98,4 @@ var initArr=function(verifyJson,first=true){
         })
     })
 }
-```
+// ```

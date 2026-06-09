@@ -1,9 +1,9 @@
-![image.png](https://pic.leetcode-cn.com/a87306065a3e2b341e6293d5546e331eab44ea8050818c3628f09f0449e511a9-image.png)
-# 思路
-1.需要用静态数组来记录计数,比map快.
-2.字符串的题目,感觉大部分都要用map.
+// ![image.png](https://pic.leetcode-cn.com/a87306065a3e2b341e6293d5546e331eab44ea8050818c3628f09f0449e511a9-image.png)
+// # 思路
+// 1.需要用静态数组来记录计数,比map快.
+// 2.字符串的题目,感觉大部分都要用map.
 
-```
+// ```
 func longestPalindrome(s string) int {
     alen := len(s)
     if alen <= 1 {
@@ -27,4 +27,4 @@ func longestPalindrome(s string) int {
     }
     return sum
 }
-```
+// ```

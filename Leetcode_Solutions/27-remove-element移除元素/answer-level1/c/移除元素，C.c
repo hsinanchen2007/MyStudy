@@ -1,4 +1,4 @@
-从前往后遍历，发现要找的元素则取最后一个元素进行覆盖
+// 从前往后遍历，发现要找的元素则取最后一个元素进行覆盖
 
 int removeElement(int* nums, int numsSize, int val)
 {

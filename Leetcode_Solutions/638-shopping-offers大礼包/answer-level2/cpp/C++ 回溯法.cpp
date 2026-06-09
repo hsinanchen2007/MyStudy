@@ -1,7 +1,7 @@
-# 思路
-1，先对礼包进行过滤，减少计算量
-2，回溯剪枝即可
-```
+// # 思路
+// 1，先对礼包进行过滤，减少计算量
+// 2，回溯剪枝即可
+// ```
 class Solution {
 public:
     bool valid(const vector<int>& sp, const vector<int>& needs) {
@@ -67,6 +67,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/67ccdfa6cadcfc7ce062fb14653152b22b4ac7db7a2ab2ef6d6b1c986aae7c43-image.png)
+// ![image.png](https://pic.leetcode-cn.com/67ccdfa6cadcfc7ce062fb14653152b22b4ac7db7a2ab2ef6d6b1c986aae7c43-image.png)

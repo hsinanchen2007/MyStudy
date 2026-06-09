@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/41d6c7f23c83e1ea5b42928fff32c6be32174e54ccad8645ecebad2779b4b5d7-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/41d6c7f23c83e1ea5b42928fff32c6be32174e54ccad8645ecebad2779b4b5d7-image.png)
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func canCompleteCircuit(gas []int, cost []int) int {
     
     gasSum := 0
@@ -34,4 +34,4 @@ func canCompleteCircuit(gas []int, cost []int) int {
 
     return start
 }
-```
+// ```

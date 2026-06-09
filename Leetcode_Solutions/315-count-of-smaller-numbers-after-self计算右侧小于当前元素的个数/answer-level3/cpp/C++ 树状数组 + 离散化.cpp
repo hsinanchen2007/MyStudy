@@ -1,24 +1,24 @@
-![image.png](https://pic.leetcode-cn.com/787af025e8ef780b5d2e8312a2798cd70258957cda978345e4806f8283c24c1d-image.png)
+// ![image.png](https://pic.leetcode-cn.com/787af025e8ef780b5d2e8312a2798cd70258957cda978345e4806f8283c24c1d-image.png)
 
-使用计数法，维护一个cnt计数数组，从右往左遍历原数组
-1. 对于nums中的每个元素i，出现一次，则++cnt[i]
-2. 由于要求右边比其小的元素个数，所以即求cnt[i - 1] + cnt[i - 2] + ...
+// 使用计数法，维护一个cnt计数数组，从右往左遍历原数组
+// 1. 对于nums中的每个元素i，出现一次，则++cnt[i]
+// 2. 由于要求右边比其小的元素个数，所以即求cnt[i - 1] + cnt[i - 2] + ...
 
-这两个问题刚好对应 307题 的 update 和 sumRange操作，可以用树状数组解决（代码中不需要存cnt数组）
-[307题链接](https://leetcode-cn.com/problems/range-sum-query-mutable/)
-[我的题解](https://leetcode-cn.com/problems/range-sum-query-mutable/solution/bao-li-qian-zhui-he-shu-zhuang-shu-zu-xian-duan-sh/)
+// 这两个问题刚好对应 307题 的 update 和 sumRange操作，可以用树状数组解决（代码中不需要存cnt数组）
+// [307题链接](https://leetcode-cn.com/problems/range-sum-query-mutable/)
+// [我的题解](https://leetcode-cn.com/problems/range-sum-query-mutable/solution/bao-li-qian-zhui-he-shu-zhuang-shu-zu-xian-duan-sh/)
 
-与307题不同的是，此题需要将nums中的元素作为树状数组的下标，由于我们不知道nums中的元素情况
-比如是否有负数，负数不能作为下标，比如若有一个元素很大很大，则我们的树状数组要开的很大，会造成很多不必要的浪费
+// 与307题不同的是，此题需要将nums中的元素作为树状数组的下标，由于我们不知道nums中的元素情况
+// 比如是否有负数，负数不能作为下标，比如若有一个元素很大很大，则我们的树状数组要开的很大，会造成很多不必要的浪费
 
-所以需要对原数组离散化，将原数组中的元素与1到num.size()一一对应起来，而不改变元素间的大小关系，不会影响最终的结果。
-![image.png](https://pic.leetcode-cn.com/e056cb10e9155bb8ee7c5d8e4eaff895f7a95686844c47fda6ab8123d6fb5afc-image.png)
+// 所以需要对原数组离散化，将原数组中的元素与1到num.size()一一对应起来，而不改变元素间的大小关系，不会影响最终的结果。
+// ![image.png](https://pic.leetcode-cn.com/e056cb10e9155bb8ee7c5d8e4eaff895f7a95686844c47fda6ab8123d6fb5afc-image.png)
 
 
-可以声明一个结构体，对其val进行排序，然后根据排序的结果对原数组进行修改。
+// 可以声明一个结构体，对其val进行排序，然后根据排序的结果对原数组进行修改。
 
-代码：
-```
+// 代码：
+// ```
 struct node
 {
     int pos; // 存放原始序号
@@ -82,4 +82,4 @@ public:
         return sum;
     }
 };
-```
+// ```

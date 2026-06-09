@@ -1,8 +1,8 @@
-*经典动态规划*
-- dp[i][j] 表示s1的前i个字符和s2的前j个字符能够组成s3的前（i + j）个字符
-- 对dp[i][j] 初始化 : dp[0][0] = true, dp[i][0] 以及dp[0][j];
-- dp[i][j] = (dp[i-1][j] && s1.charAt(i - 1) == s3.charAt(i + j - 1)) || (dp[i][j-1] && s2.charAt(j - 1) == s3.charAt(i + j - 1))
-```
+// *经典动态规划*
+// - dp[i][j] 表示s1的前i个字符和s2的前j个字符能够组成s3的前（i + j）个字符
+// - 对dp[i][j] 初始化 : dp[0][0] = true, dp[i][0] 以及dp[0][j];
+// - dp[i][j] = (dp[i-1][j] && s1.charAt(i - 1) == s3.charAt(i + j - 1)) || (dp[i][j-1] && s2.charAt(j - 1) == s3.charAt(i + j - 1))
+// ```
 class Solution {
     public boolean isInterleave(String s1, String s2, String s3) {
         int len1 = s1.length();
@@ -27,11 +27,11 @@ class Solution {
         return dp[len1][len2];
     }
 }
-```
-*回溯*
-- isMatch(s1, s2, s3, l1, l2, l3) 表示s1 的前 l1 个字符，s2的前 l2个字符能否组成 s3的前l3个字符
-- 超时
-```
+// ```
+// *回溯*
+// - isMatch(s1, s2, s3, l1, l2, l3) 表示s1 的前 l1 个字符，s2的前 l2个字符能否组成 s3的前l3个字符
+// - 超时
+// ```
 class Solution {
     public boolean isInterleave(String s1, String s2, String s3) {
         if(s1.length() + s2.length() != s3.length()){
@@ -65,4 +65,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

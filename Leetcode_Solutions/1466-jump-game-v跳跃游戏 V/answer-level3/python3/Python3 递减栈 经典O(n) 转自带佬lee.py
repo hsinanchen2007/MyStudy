@@ -1,13 +1,13 @@
-### 解题思路
- 单调栈 
-转自leetcode的带佬lee 
-经典O(n)
-经典双100% 
-分享用于交流学习
+# ### 解题思路
+#  单调栈 
+# 转自leetcode的带佬lee 
+# 经典O(n)
+# 经典双100% 
+# 分享用于交流学习
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxJumps(self, arr: List[int], d: int) -> int:
 
@@ -28,4 +28,4 @@ class Solution:
                         dp[stack[-1]] = max(dp[stack[-1]], dp[j] + 1)
             stack.append(i)
         return max(dp[:-1])
-```
+# ```

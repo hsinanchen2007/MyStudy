@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/f89f08334654dfa8316ccf4d8c35f88c27e70a804aadb521ef0bd6cdca326cfd-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/f89f08334654dfa8316ccf4d8c35f88c27e70a804aadb521ef0bd6cdca326cfd-image.png)
+// ```
 int* corpFlightBookings(int** bookings, int bookingsSize, int* bookingsColSize, int n, int* returnSize){
     int *ans = (int *)calloc(n, sizeof(int));
     *returnSize = 0;
@@ -22,4 +22,4 @@ int* corpFlightBookings(int** bookings, int bookingsSize, int* bookingsColSize, 
     return ans;
 }
 
-```
+// ```

@@ -1,5 +1,5 @@
-一、数组判断
-```javascript []
+// 一、数组判断
+// ```javascript []
 function solveNQueens(n) {
   var answers = [],
     ld_last = [], //左斜线 \ ， col-row
@@ -46,12 +46,12 @@ function solveNQueens(n) {
   backtrack(0)
   return answers
 }
-```
-二、位运算判断
+// ```
+// 二、位运算判断
 
-使用 n 位的二进制存储，以 `1100` 为例子，表示1、2格子不能放置，3、4格子可放置皇后
+// 使用 n 位的二进制存储，以 `1100` 为例子，表示1、2格子不能放置，3、4格子可放置皇后
 
-```javascript []
+// ```javascript []
 function solveNQueens(n) {
   /* 
     ld 左斜线 \  位数为n的二进制数字，1表示已经被占用（不可放置）
@@ -117,4 +117,4 @@ function solveNQueens(n) {
   backtrack(0, 0, 0)
   return answers
 }
-```
+// ```

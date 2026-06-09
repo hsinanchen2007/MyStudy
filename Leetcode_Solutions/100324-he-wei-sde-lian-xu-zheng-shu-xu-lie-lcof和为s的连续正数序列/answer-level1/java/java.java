@@ -1,9 +1,9 @@
-### 解题思路
-java返回一个二维数组 属实不好写，想到使用hashmap数组长度和第一个数，结果map的key没有排序，于是又加了一个栈，因为n变大，所以a1逐渐变小，但时间耗费好多，希望给位多给点建议
+// ### 解题思路
+// java返回一个二维数组 属实不好写，想到使用hashmap数组长度和第一个数，结果map的key没有排序，于是又加了一个栈，因为n变大，所以a1逐渐变小，但时间耗费好多，希望给位多给点建议
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] findContinuousSequence(int target) {
         int a1 = 1;
@@ -33,4 +33,4 @@ class Solution {
 		return arr;
 	}
 }
-```
+// ```

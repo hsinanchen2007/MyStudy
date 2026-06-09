@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/b7ff8e18a405c21f493feb8b7d2c38dabb3253b64fceadc01ff807c22cf47468-image.png)
-原地相除，看最终结果是否为1
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/b7ff8e18a405c21f493feb8b7d2c38dabb3253b64fceadc01ff807c22cf47468-image.png)
+// 原地相除，看最终结果是否为1
+// ### 代码
 
-```c
+// ```c
 bool isUgly(int num){
     if(num == 0) {
         return false;
@@ -20,4 +20,4 @@ bool isUgly(int num){
     }
     return num == 1 ? true: false;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def findPaths(self, m: int, n: int, N: int, i: int, j: int) -> int:
         MOD = 10 ** 9 + 7
@@ -13,4 +13,4 @@ class Solution:
             return memo[(i, j, k)] 
         dfs(memo, i, j, N)
         return memo[(i, j, N)] % MOD
-```
+# ```

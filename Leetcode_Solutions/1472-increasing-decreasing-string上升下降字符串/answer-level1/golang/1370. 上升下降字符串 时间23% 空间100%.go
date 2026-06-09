@@ -1,9 +1,9 @@
-### 解题思路
-算法：遍历s，map缓存字符和次数，遍历map，不断对keys升序/降序排序，并append进结果，直到达到s的长度。
+// ### 解题思路
+// 算法：遍历s，map缓存字符和次数，遍历map，不断对keys升序/降序排序，并append进结果，直到达到s的长度。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func sortString(s string) string {
 	var res []string
 	occMap := make(map[string]int)
@@ -35,4 +35,4 @@ func sortString(s string) string {
 	}
 	return strings.Join(res, "")
 }
-```
+// ```

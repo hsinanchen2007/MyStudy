@@ -1,9 +1,9 @@
-### 解题思路
-先找到  车的位置，然后再沿着四个方向找 卒或象。（笨方法）
+// ### 解题思路
+// 先找到  车的位置，然后再沿着四个方向找 卒或象。（笨方法）
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numRookCaptures(char[][] board) {
         
@@ -88,4 +88,4 @@ class Solution {
     }
 
 }
-```
+// ```

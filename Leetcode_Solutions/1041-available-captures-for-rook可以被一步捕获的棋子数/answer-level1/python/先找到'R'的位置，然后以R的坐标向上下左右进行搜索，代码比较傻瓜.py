@@ -1,9 +1,9 @@
 
-执行用时 : 44 ms, 在Available Captures for Rook的Python3提交中击败了90.32% 的用户
+# 执行用时 : 44 ms, 在Available Captures for Rook的Python3提交中击败了90.32% 的用户
 
-内存消耗 : 12.8 MB, 在Available Captures for Rook的Python3提交中击败了98.75% 的用户
+# 内存消耗 : 12.8 MB, 在Available Captures for Rook的Python3提交中击败了98.75% 的用户
 
-```python3
+# ```python3
 class Solution:
     def numRookCaptures(self, board: List[List[str]]) -> int:
         x = 0
@@ -43,4 +43,4 @@ class Solution:
             elif board[i][y] == 'B':
                 break
         return count
-```
+# ```

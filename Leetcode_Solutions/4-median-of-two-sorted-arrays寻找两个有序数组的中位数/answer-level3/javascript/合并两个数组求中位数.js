@@ -1,11 +1,11 @@
-### 解题思路
-1.拼接两个数组；
-2.从小到大排序；
-3.求数组中位数。
+// ### 解题思路
+// 1.拼接两个数组；
+// 2.从小到大排序；
+// 3.求数组中位数。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums1
  * @param {number[]} nums2
@@ -20,4 +20,4 @@ var findMedianSortedArrays = function(nums1, nums2) {
 	return (newArr[mid-1]+newArr[mid])/2
 };
 
-```
+// ```

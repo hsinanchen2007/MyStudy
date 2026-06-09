@@ -1,8 +1,8 @@
-![微信截图_20191111161455.png](https://pic.leetcode-cn.com/632786687710eb3e187fbb0f096e771a65abab99afd4b5ba81f134b7122ab78d-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20191111161455.png)
-该答案参考自[jason：C++迭代归并](https://leetcode-cn.com/problems/sort-list/solution/die-dai-gui-bing-fa-by-jason-2/)，改动了一些地方
+// ![微信截图_20191111161455.png](https://pic.leetcode-cn.com/632786687710eb3e187fbb0f096e771a65abab99afd4b5ba81f134b7122ab78d-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20191111161455.png)
+// 该答案参考自[jason：C++迭代归并](https://leetcode-cn.com/problems/sort-list/solution/die-dai-gui-bing-fa-by-jason-2/)，改动了一些地方
 
-一个从链表头部切出n个节点的函数：
-```java
+// 一个从链表头部切出n个节点的函数：
+// ```java
     //将链表从head节点开始的n个节点切断，并返回第n+1个节点
     public ListNode cutFromHead(ListNode head,int n){
         while(head != null && --n > 0){
@@ -13,9 +13,9 @@
         head.next = null;
         return next;
     }
-```
-将两个链表合并：
-```java
+// ```
+// 将两个链表合并：
+// ```java
     //将两个链表合并
     public ListNode mergeLists(ListNode first,ListNode second){
         if(first == null) return second;
@@ -35,9 +35,9 @@
         succ.next = first != null? first : second;
         return dummy.next;
     }
-```
-最后贴出整体代码：
-```java
+// ```
+// 最后贴出整体代码：
+// ```java
 class Solution {
     public ListNode sortList(ListNode head) {
         if(head == null || head.next == null) return head;
@@ -104,7 +104,7 @@ class Solution {
         return dummy.next;
     }
 }
-```
+// ```
 
 
 

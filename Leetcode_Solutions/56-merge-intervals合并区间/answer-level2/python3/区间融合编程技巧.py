@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
         '''
@@ -22,4 +22,4 @@ class Solution:
                 merge[-1][1] = val[1]
             # 如果是包含关系，就什么都不用做。
         return merge
-```
+# ```

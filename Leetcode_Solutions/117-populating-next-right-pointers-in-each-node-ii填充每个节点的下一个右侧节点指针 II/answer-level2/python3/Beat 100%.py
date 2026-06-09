@@ -1,10 +1,10 @@
-用`cur_level`和`next_level`那一套来做层次遍历。
+# 用`cur_level`和`next_level`那一套来做层次遍历。
 
-感觉这个题就是为了层次遍历来设计的呀
+# 感觉这个题就是为了层次遍历来设计的呀
 
 
 
-```
+# ```
 """
 # Definition for a Node.
 class Node(object):
@@ -37,4 +37,4 @@ class Solution(object):
             for i in range(len(cur_level)-1):
                 cur_level[i].next = cur_level[i+1]
         return root
-```
+# ```

@@ -1,4 +1,4 @@
-```
+# ```
 '''
 LeetCode 141. 环形链表
 Given a linked list, determine if it has a cycle in it.
@@ -106,4 +106,4 @@ if __name__ == "__main__":
     print(s.hasCycle(node[0]))
 
 
-```
+# ```

@@ -1,11 +1,11 @@
 
-**# 思路：**
-1. 排序
-2. 找最小的差
-3. 遍历已排序的数组，找符合要求的pairs
+// **# 思路：**
+// 1. 排序
+// 2. 找最小的差
+// 3. 遍历已排序的数组，找符合要求的pairs
 
-# **代码：**
-```
+// # **代码：**
+// ```
 
 int** minimumAbsDifference(int* arr, int arrSize, int* returnSize, int** returnColumnSizes){
    
@@ -39,4 +39,4 @@ int** minimumAbsDifference(int* arr, int arrSize, int* returnSize, int** returnC
 int cmp(const void* num, const void* num2){
     return *(int*)num - *(int*)num2;
 }
-```
+// ```

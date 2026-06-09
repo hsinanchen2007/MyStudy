@@ -1,9 +1,9 @@
-### 解题思路
-和答案思路差不多，只不过考虑的角度是要想让某个位置下降和最小，那么该位置上层的相邻位置应该是最小的那个
+# ### 解题思路
+# 和答案思路差不多，只不过考虑的角度是要想让某个位置下降和最小，那么该位置上层的相邻位置应该是最小的那个
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minFallingPathSum(self, A: List[List[int]]) -> int:
         n = len(A)
@@ -17,4 +17,4 @@ class Solution:
         return min(A[n-1])
         
 
-```
+# ```

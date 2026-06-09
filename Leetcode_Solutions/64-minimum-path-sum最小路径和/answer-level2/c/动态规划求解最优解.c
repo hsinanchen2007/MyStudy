@@ -1,9 +1,9 @@
-### 解题思路
-求解grid[m][n]到grid[0][0]的最短路径，因为只能向右和向下移动，因此简化为grid[m][n] + MIN(dp[m][n - 1], dp[m - 1][n])，其中dp[][]为每个点到dp[0][0]的最短路径，其中第一行和第一列为特殊值，特殊处理，直到dp[0][0] = grid[0][0]
+// ### 解题思路
+// 求解grid[m][n]到grid[0][0]的最短路径，因为只能向右和向下移动，因此简化为grid[m][n] + MIN(dp[m][n - 1], dp[m - 1][n])，其中dp[][]为每个点到dp[0][0]的最短路径，其中第一行和第一列为特殊值，特殊处理，直到dp[0][0] = grid[0][0]
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MIN(a, b) ((a<b) ? a : b)
 
 int minPathSum(int** grid, int gridSize, int* gridColSize){
@@ -40,4 +40,4 @@ int minPathSum(int** grid, int gridSize, int* gridColSize){
     }
     return dp[gridSize - 1][(*gridColSize) - 1];
 }
-```
+// ```

@@ -1,19 +1,19 @@
-1. 关于复杂度
-    1.1 时间复杂度为O(n)
-    1.2 空间负责度为O(n)
-2. 我的解题思路
-    2.1 定义一个list以及栈(list为结果list，stack用于存储计算过程中的结点)
-    2.2 循环直到op为空或者栈为空
-        2.2.1 循环深度遍历op的左孩子并把它加入栈
-        2.2.2 获取栈顶结点
-              2.2.2.1 如果栈顶结点有右孩子，改变op的指向以及将原结点的右孩子设置为空
-              2.2.2.2 如果栈顶结点没有右孩子，将它的值加入到结果list中
-3. 提交记录
-    3.1 力扣中耗时2ms,消耗34.2MB内存
-    3.2 leetcode中耗时1ms,消耗34.7MB内存
-4. Q&A
+// 1. 关于复杂度
+//     1.1 时间复杂度为O(n)
+//     1.2 空间负责度为O(n)
+// 2. 我的解题思路
+//     2.1 定义一个list以及栈(list为结果list，stack用于存储计算过程中的结点)
+//     2.2 循环直到op为空或者栈为空
+//         2.2.1 循环深度遍历op的左孩子并把它加入栈
+//         2.2.2 获取栈顶结点
+//               2.2.2.1 如果栈顶结点有右孩子，改变op的指向以及将原结点的右孩子设置为空
+//               2.2.2.2 如果栈顶结点没有右孩子，将它的值加入到结果list中
+// 3. 提交记录
+//     3.1 力扣中耗时2ms,消耗34.2MB内存
+//     3.2 leetcode中耗时1ms,消耗34.7MB内存
+// 4. Q&A
 
-```
+// ```
 /**
  * Problem
  *      145.Binary Tree Postorder Traversal
@@ -107,6 +107,6 @@
         listByRecursion.add(root.val);
     }
 }
-```
-如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理
-你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路
+// ```
+// 如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理
+// 你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路

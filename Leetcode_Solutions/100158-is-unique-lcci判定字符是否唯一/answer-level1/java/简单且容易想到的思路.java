@@ -1,9 +1,9 @@
-###
-最容易想到的思路，暴力双指针
+// ###
+// 最容易想到的思路，暴力双指针
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isUnique(String astr) {
       if(astr==null){
@@ -24,4 +24,4 @@ class Solution {
     
     }
 }
-```
+// ```

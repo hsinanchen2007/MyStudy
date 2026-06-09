@@ -1,5 +1,5 @@
-直接 dp 会超时，这个解法时间复杂度是 O(nlgn)
-```
+// 直接 dp 会超时，这个解法时间复杂度是 O(nlgn)
+// ```
 class Solution {
 private:
     int lis(const vector<int> &nums){
@@ -31,4 +31,4 @@ public:
         return lis(nums)>=nums.size()-1;
     }
 };
-```
+// ```

@@ -1,7 +1,7 @@
 
-1、获取数据中出现次数最多的值，把该值依次填入奇数位
-2、填满奇数位
-3、填满偶数位
+// 1、获取数据中出现次数最多的值，把该值依次填入奇数位
+// 2、填满奇数位
+// 3、填满偶数位
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */

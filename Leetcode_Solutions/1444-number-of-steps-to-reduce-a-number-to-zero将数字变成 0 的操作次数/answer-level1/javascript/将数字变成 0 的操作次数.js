@@ -1,9 +1,9 @@
-### 解题思路
-循环叠加
+// ### 解题思路
+// 循环叠加
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} num
  * @return {number}
@@ -13,4 +13,4 @@ var numberOfSteps  = function(num) {
     while (num !== 0) num % 2 === 0 ? num /= 2 : num--, i++
     return i
 };
-```
+// ```

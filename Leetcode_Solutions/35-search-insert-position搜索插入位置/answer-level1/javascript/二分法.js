@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
-遍历 O(n),执行用时48ms，内存消耗34.6MB
-```
+// ### 代码
+// 遍历 O(n),执行用时48ms，内存消耗34.6MB
+// ```
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -21,9 +21,9 @@ var searchInsert = function(nums, target) {
     }
     return i
 };
-```
-二分法 第二版 Olog(n) 执行用时76ms，内存消耗34MB
-```
+// ```
+// 二分法 第二版 Olog(n) 执行用时76ms，内存消耗34MB
+// ```
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -45,9 +45,9 @@ var searchInsert = function(nums, target) {
     }
     return r
 };
-```
-第三版，参考他人写法，将思路优化 执行用时 68ms，内存消耗34.1MB
-```javascript
+// ```
+// 第三版，参考他人写法，将思路优化 执行用时 68ms，内存消耗34.1MB
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -67,4 +67,4 @@ var searchInsert = function(nums, target) {
     }
     return r
 };
-```
+// ```

@@ -1,9 +1,9 @@
-这个题很繁琐，做了一个多小时，才ac。
+// 这个题很繁琐，做了一个多小时，才ac。
 
-基本思想两个数组 dpLength[i][j] 保存(i, j)左边的长度，包括该点
-dpWidth[i][j] 保存(i, j)上面的长度，包括该点
+// 基本思想两个数组 dpLength[i][j] 保存(i, j)左边的长度，包括该点
+// dpWidth[i][j] 保存(i, j)上面的长度，包括该点
 
-```go
+// ```go
 func findSquare(matrix [][]int) []int {
 	dpLength := make([][]int, len(matrix))
 	dpWidth := make([][]int, len(matrix))
@@ -89,4 +89,4 @@ func min(a, b int) int {
 	return b
 }
 
-```
+// ```

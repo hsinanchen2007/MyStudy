@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def compressString(self, S):
         """
@@ -34,4 +34,4 @@ class Solution(object):
             return rstr
         else:
             return S
-```
+# ```

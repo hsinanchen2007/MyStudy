@@ -1,7 +1,7 @@
-先反转原字符串, 求出反转后的字符串与原字符串的最长公共子序列. 用字符串长度减去最长公共子序列的长度即是答案.
-循环i从字符串的尾部开始, 代表反转后的字符串.
+// 先反转原字符串, 求出反转后的字符串与原字符串的最长公共子序列. 用字符串长度减去最长公共子序列的长度即是答案.
+// 循环i从字符串的尾部开始, 代表反转后的字符串.
 
-```java
+// ```java
 class Solution {
     public int minInsertions(String s) {
         char[] a = s.toCharArray();
@@ -28,4 +28,4 @@ class Solution {
         return a.length - dp[a.length];
     }
 }
-```
+// ```

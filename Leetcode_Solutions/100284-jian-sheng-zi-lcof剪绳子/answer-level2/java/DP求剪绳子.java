@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     ////动态规划 自低向上的解法
     public int cuttingRope(int n) {
@@ -31,4 +31,4 @@ class Solution {
         return dp[n];
     }
 }
-```
+// ```

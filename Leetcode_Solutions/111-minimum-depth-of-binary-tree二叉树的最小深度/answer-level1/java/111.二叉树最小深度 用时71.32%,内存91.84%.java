@@ -1,9 +1,9 @@
-### 解题思路
-思路与求子树深度类似
-只需要注意一点，左右子树至少有一个为空时，mindepth = mindepth(left)+mindepth(right)+1;
-### 代码
+// ### 解题思路
+// 思路与求子树深度类似
+// 只需要注意一点，左右子树至少有一个为空时，mindepth = mindepth(left)+mindepth(right)+1;
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -23,4 +23,4 @@ class Solution {
         return minDepth(root.left)+minDepth(root.right)+1;
     }
 }
-```
+// ```

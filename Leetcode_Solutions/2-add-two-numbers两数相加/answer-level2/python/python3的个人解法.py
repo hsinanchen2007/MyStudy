@@ -1,9 +1,9 @@
-### 解题思路
-思路就是照着leetcode标准解法
+# ### 解题思路
+# 思路就是照着leetcode标准解法
 
-### 代码
-为了能本地运行。我自己写了一个`linkedlist.py` 这样非常方便测试
-```python3
+# ### 代码
+# 为了能本地运行。我自己写了一个`linkedlist.py` 这样非常方便测试
+# ```python3
 from linkedlist import *
 
 
@@ -41,9 +41,9 @@ if __name__ == '__main__':
         addTwoNumbers(ll1, ll2)
     )
 
-```
-附  `linkedlist.py`
-```python3
+# ```
+# 附  `linkedlist.py`
+# ```python3
 # Definition for singly-linked list.
 
 class ListNode:
@@ -81,4 +81,4 @@ def main():
 
 if __name__ == '__main__':
     main()
-```
+# ```

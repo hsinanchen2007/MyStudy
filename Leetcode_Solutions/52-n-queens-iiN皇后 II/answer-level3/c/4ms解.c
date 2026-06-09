@@ -1,5 +1,5 @@
-递归，数组b控制列，数组a控制斜线方向
-```
+// 递归，数组b控制列，数组a控制斜线方向
+// ```
 int sum=0;
 int a[100],b[100],N;
 void ss(int n) {
@@ -32,4 +32,4 @@ int totalNQueens(int n) {
 	ss(0);
 	return sum;
 }
-```
+// ```

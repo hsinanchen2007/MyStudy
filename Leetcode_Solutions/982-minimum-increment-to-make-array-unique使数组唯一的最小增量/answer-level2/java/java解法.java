@@ -1,6 +1,6 @@
-执行用时 :43 ms, 击败了49.67%的用户.
-内存消耗 :49.2 MB, 击败了91.43%的用户.
-```
+// 执行用时 :43 ms, 击败了49.67%的用户.
+// 内存消耗 :49.2 MB, 击败了91.43%的用户.
+// ```
 class Solution {
     public int minIncrementForUnique(int[] A) {
         Arrays.sort(A);
@@ -14,4 +14,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

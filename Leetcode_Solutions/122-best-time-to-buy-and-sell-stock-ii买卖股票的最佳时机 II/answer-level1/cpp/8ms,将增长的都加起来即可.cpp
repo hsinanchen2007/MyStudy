@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-将f(n+1)-f(n)>0的值都加起来即可
-只要增长的，不要跌的
+// 将f(n+1)-f(n)>0的值都加起来即可
+// 只要增长的，不要跌的
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
@@ -27,4 +27,4 @@ public:
         return sum;
     }
 };
-```
+// ```

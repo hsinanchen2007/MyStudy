@@ -1,10 +1,10 @@
-### 挤牙膏式解题
-使用rank进行排序，定义两个变量r（用于表示rank值）、same（查看本次的score值是否等于上一次的score值），
-当本次比较的score值等于same时，r不变，否则r + 1。
+-- ### 挤牙膏式解题
+-- 使用rank进行排序，定义两个变量r（用于表示rank值）、same（查看本次的score值是否等于上一次的score值），
+-- 当本次比较的score值等于same时，r不变，否则r + 1。
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 -- select s.Score, if(@same = s.score, @r, @r := @r + 1) as Rank, @same := s.score from Scores as s,(select @r := 0, @same := null) as rt order by s.score desc; # v1.不符合答案要求,多出将score赋值给same这一列
 
@@ -18,4 +18,4 @@ select s.Score, cast(
     when @same := s.score then @r := @r + 1 
     end, @r := @r + 1) as unsigned integer) as Rank 
     from Scores as s, (select @r := 0, @same := null) as rt order by s.score desc;
-```
+-- ```

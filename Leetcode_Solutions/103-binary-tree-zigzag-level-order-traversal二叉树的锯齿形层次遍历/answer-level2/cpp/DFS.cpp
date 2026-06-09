@@ -1,10 +1,10 @@
-### 解题思路
-如果为偶数行则顺序加入，如果为奇数行则将数字每次插入到最前面
-因为要对res[level]操作，所以要res.resize(level+1)
+// ### 解题思路
+// 如果为偶数行则顺序加入，如果为奇数行则将数字每次插入到最前面
+// 因为要对res[level]操作，所以要res.resize(level+1)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -40,4 +40,4 @@ public:
 
 
 
-```
+// ```

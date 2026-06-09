@@ -1,4 +1,4 @@
-```
+// ```
 static auto pre =[] { std::ios::sync_with_stdio(false); cin.tie(nullptr); return nullptr;}();
 class Solution {
 public:
@@ -7,4 +7,4 @@ public:
         return distance <= 2*K ? 0 : distance - 2*K;
     }
 };
-```
+// ```

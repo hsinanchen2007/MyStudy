@@ -1,9 +1,9 @@
-### 解题思路
-利用堆栈逆序遍历二叉搜索树，每个节点都等于本身和后续节点之和。
+# ### 解题思路
+# 利用堆栈逆序遍历二叉搜索树，每个节点都等于本身和后续节点之和。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 
 class Solution:
     def bstToGst(self, root: TreeNode) -> TreeNode:
@@ -22,4 +22,4 @@ class Solution:
                     if node.right: stack.append((node.right, False))
 
         return root
-```
+# ```

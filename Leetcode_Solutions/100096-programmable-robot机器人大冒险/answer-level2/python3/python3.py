@@ -1,5 +1,5 @@
-根据[@yanghk](/u/yanghk/)的c++题解改编的python3题解
-```
+# 根据[@yanghk](/u/yanghk/)的c++题解改编的python3题解
+# ```
 class Solution:
     def robot(self, command: str, obstacles: List[List[int]], x: int, y: int) -> bool:
         xy_set = set()
@@ -26,4 +26,4 @@ class Solution:
             if (o[0] - circle * xx) << 30 | (o[1] - circle * yy) in xy_set:
                 return False
         return True
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
-f[i] = cost[i] + min(f[i+1], f[i+2])
-不知道为啥表现这么差
+// ### 解题思路
+// f[i] = cost[i] + min(f[i+1], f[i+2])
+// 不知道为啥表现这么差
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minCostClimbingStairs(vector<int>& cost) {
@@ -16,4 +16,4 @@ public:
         return min(ans[cost.size()-2],ans[cost.size()-1]);
     }
 };
-```
+// ```

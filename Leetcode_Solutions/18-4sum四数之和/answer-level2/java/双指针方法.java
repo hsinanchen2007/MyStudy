@@ -1,13 +1,13 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-两重循环,同时需要去重
+// 两重循环,同时需要去重
 
-双指针, 访问结果后也需要去重
+// 双指针, 访问结果后也需要去重
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> fourSum(int[] nums, int target) {
         List<List<Integer>> result = new ArrayList<>();
@@ -48,4 +48,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

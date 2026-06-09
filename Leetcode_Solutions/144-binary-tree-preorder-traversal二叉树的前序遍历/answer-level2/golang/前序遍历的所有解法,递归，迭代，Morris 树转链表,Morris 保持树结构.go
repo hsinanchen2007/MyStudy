@@ -1,10 +1,10 @@
-# 题解
-此题的解是 `前序遍历` 最基础的模板，可以套在无数的 `前序遍历` 题目中
-既然是最基础的模板，当然是把4种解法全部写完
+// # 题解
+// 此题的解是 `前序遍历` 最基础的模板，可以套在无数的 `前序遍历` 题目中
+// 既然是最基础的模板，当然是把4种解法全部写完
 
-# 递归
+// # 递归
 
-```golang
+// ```golang
 var res []int
 
 func preorderTraversal(root *TreeNode) []int {
@@ -20,13 +20,13 @@ func dfs(root *TreeNode) {
 		dfs(root.Right)
 	}
 }
-```
+// ```
 
 
 
-# 迭代 （stack）
+// # 迭代 （stack）
 
-```golang
+// ```golang
 func preorderTraversal(root *TreeNode) []int {
 	var res []int
 	var stack = []*TreeNode{}
@@ -43,11 +43,11 @@ func preorderTraversal(root *TreeNode) []int {
 	}
 	return res
 }
-```
+// ```
 
-# Morris (树转链表)
+// # Morris (树转链表)
 
-```golang
+// ```golang
 func preorderTraversal(root *TreeNode) []int {
 	var max *TreeNode
 	var res []int
@@ -67,11 +67,11 @@ func preorderTraversal(root *TreeNode) []int {
 	}
 	return res
 }
-```
+// ```
 
-# Morris (保持树结构)
+// # Morris (保持树结构)
 
-```golang
+// ```golang
 
 func preorderTraversal(root *TreeNode) []int {
 	var max *TreeNode
@@ -98,7 +98,7 @@ func preorderTraversal(root *TreeNode) []int {
 	}
 	return res
 }
-```
+// ```
 
-[Go版本 Github](https://github.com/temporaries/leetcode)
-[对应模板 Github](https://github.com/temporaries/leetcode/blob/master/templates/tree)
+// [Go版本 Github](https://github.com/temporaries/leetcode)
+// [对应模板 Github](https://github.com/temporaries/leetcode/blob/master/templates/tree)

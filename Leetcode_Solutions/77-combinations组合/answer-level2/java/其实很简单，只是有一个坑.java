@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-一开始以为和之前写的dfs差不多，但是一直有一个问题，就是List不同顺序但是相同元素的会重复出现在结果集中。要解决这个问题。只要在for循环中加一个限制条件让list为递增的便可。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 一开始以为和之前写的dfs差不多，但是一直有一个问题，就是List不同顺序但是相同元素的会重复出现在结果集中。要解决这个问题。只要在for循环中加一个限制条件让list为递增的便可。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     List<List<Integer>>ret=new ArrayList<>();
     public List<List<Integer>> combine(int n, int k) {
@@ -30,4 +30,4 @@ class Solution {
         }
     }
 }
-```
+// ```

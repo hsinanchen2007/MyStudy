@@ -1,9 +1,9 @@
-### 解题思路
-直接转set
+# ### 解题思路
+# 直接转set
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         numset=set(nums)
@@ -12,4 +12,4 @@ class Solution:
                 j=nums.index(target-nums[i])
                 if i!=j:
                     return [i,j]
-```
+# ```

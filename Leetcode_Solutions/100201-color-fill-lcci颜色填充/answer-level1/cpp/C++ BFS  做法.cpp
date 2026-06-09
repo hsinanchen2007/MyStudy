@@ -1,9 +1,9 @@
-### 解题思路
-由于这道题 题意不清 所以浪费了好久时间  应该再加一个条件 和image[sr][sc]的值相等会改变颜色 否则颜色不变
+// ### 解题思路
+// 由于这道题 题意不清 所以浪费了好久时间  应该再加一个条件 和image[sr][sc]的值相等会改变颜色 否则颜色不变
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int newColor) {
@@ -37,4 +37,4 @@ public:
         return  image;
     }
 };
-```
+// ```

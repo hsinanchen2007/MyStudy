@@ -1,4 +1,4 @@
-```python3
+# ```python3
 class Solution:
     def constructArr(self, a: List[int]) -> List[int]:
         if len(a) < 2:
@@ -22,4 +22,4 @@ class Solution:
             else:
                 res[idx] = prefix[idx - 1] * suffix[idx + 1]
         return res
-```
+# ```

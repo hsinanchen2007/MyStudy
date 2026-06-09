@@ -1,9 +1,9 @@
-### 解题思路
-动态规划  状态转移
+// ### 解题思路
+// 动态规划  状态转移
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isMatch(string s, string p) {
@@ -43,4 +43,4 @@ public:
         return dp[m][n];
     }
 };
-```
+// ```

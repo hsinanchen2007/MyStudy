@@ -1,9 +1,9 @@
-### 解题思路
-思路就是用一个字典/哈希表来进行数字的存储
+// ### 解题思路
+// 思路就是用一个字典/哈希表来进行数字的存储
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func singleNumber(_ nums: [Int]) -> Int {
         // 1. 建立一个[Int:Int]字典，
@@ -25,4 +25,4 @@ class Solution {
 
     }
 }
-```
+// ```

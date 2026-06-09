@@ -1,10 +1,10 @@
-### 解题思路
-dp[i]被定义为，以第i个数字结尾的最长升序子序列的长度
-dp[i] = max(d[j]+1) (j<i && nums[i]>nums[j])
-最后的结果就是max(d[i])
-### 代码
+// ### 解题思路
+// dp[i]被定义为，以第i个数字结尾的最长升序子序列的长度
+// dp[i] = max(d[j]+1) (j<i && nums[i]>nums[j])
+// 最后的结果就是max(d[i])
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     //dp[i]被定义为，以第i个数字结尾的最长升序子序列的长度
@@ -26,4 +26,4 @@ public:
         return ans;
     }
 };
-```
+// ```

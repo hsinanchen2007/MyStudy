@@ -1,10 +1,10 @@
-### 解题思路
-通过两个数组，保存该位置到前一个word1的距离和到后一个word1的距离；
-然后遍历words，如果是word2，则数组下标和两个距离数组做差值，更新最小值。
+// ### 解题思路
+// 通过两个数组，保存该位置到前一个word1的距离和到后一个word1的距离；
+// 然后遍历words，如果是word2，则数组下标和两个距离数组做差值，更新最小值。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findClosest(String[] words, String word1, String word2) {
         int []exist_pre = new int[words.length];
@@ -31,4 +31,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

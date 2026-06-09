@@ -1,9 +1,9 @@
-![截屏2020-02-24下午12.04.35.png](https://pic.leetcode-cn.com/30cf47bef31f89545a159d0e4608d43d602c7ef1b98f9ecfda2e9213745e159a-%E6%88%AA%E5%B1%8F2020-02-24%E4%B8%8B%E5%8D%8812.04.35.png)
+// ![截屏2020-02-24下午12.04.35.png](https://pic.leetcode-cn.com/30cf47bef31f89545a159d0e4608d43d602c7ef1b98f9ecfda2e9213745e159a-%E6%88%AA%E5%B1%8F2020-02-24%E4%B8%8B%E5%8D%8812.04.35.png)
 
 
-两个记忆化搜索（才知道怎么写记忆化的，把dfs中的参数和值放在一起，如果出现过之前的参数就返回保存的值）
+// 两个记忆化搜索（才知道怎么写记忆化的，把dfs中的参数和值放在一起，如果出现过之前的参数就返回保存的值）
 
-```
+// ```
 class Solution {
     
     char[] c = new char[]{'a','e','i','o','u'};
@@ -50,8 +50,8 @@ class Solution {
         return ans;
     }
 }
-```
-```
+// ```
+// ```
 class Solution {
     
     char[] c = new char[]{'a','e','i','o','u'};
@@ -101,11 +101,11 @@ class Solution {
         return ans;
     }
 }
-```
+// ```
 
-DP解法应该很容易看懂吧（ % mod 有点多，影响观看，但是又不知道什么时候取余，索性全都取余）。
+// DP解法应该很容易看懂吧（ % mod 有点多，影响观看，但是又不知道什么时候取余，索性全都取余）。
 
-```
+// ```
 class Solution {
     
     int mod = 1_000_000_007;
@@ -128,6 +128,6 @@ class Solution {
         return ((((a + e) % mod + i) % mod + o) % mod + u) % mod;
     }
 }
-```
+// ```
 
 

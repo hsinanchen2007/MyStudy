@@ -1,6 +1,6 @@
-![443.jpg](https://pic.leetcode-cn.com/6782e1fd25bac953984cdee42780606dec22f5a79b19e63385c83e267b7c8ba3-443.jpg)
-一直操作列表，所以效率不太高
-```
+# ![443.jpg](https://pic.leetcode-cn.com/6782e1fd25bac953984cdee42780606dec22f5a79b19e63385c83e267b7c8ba3-443.jpg)
+# 一直操作列表，所以效率不太高
+# ```
 class Solution:
     def compress(self, chars: List[str]) -> int:
         lastChar=chars[0]
@@ -25,4 +25,4 @@ class Solution:
             chars+=str(count)
 
         return len(chars)
-```
+# ```

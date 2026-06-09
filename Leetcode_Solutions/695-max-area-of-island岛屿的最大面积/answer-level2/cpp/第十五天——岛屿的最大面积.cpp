@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-将遍历过的岛屿置为-1，使用栈保存尚未搜索的岛屿(BFS)。
+// 将遍历过的岛屿置为-1，使用栈保存尚未搜索的岛屿(BFS)。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxAreaOfIsland(vector<vector<int>>& grid) {
@@ -44,7 +44,7 @@ public:
         return MaxArea;
     }
 };
-```
+// ```
 
 
 

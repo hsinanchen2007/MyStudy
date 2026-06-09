@@ -1,6 +1,6 @@
-![1.bmp](https://pic.leetcode-cn.com/53c4e09708423f97a8693f81a12356ba5aabbf363bd146a9ac54ce445995cc3c-1.bmp)
+// ![1.bmp](https://pic.leetcode-cn.com/53c4e09708423f97a8693f81a12356ba5aabbf363bd146a9ac54ce445995cc3c-1.bmp)
 
-```
+// ```
     public ListNode mergeKLists(ListNode[] lists) {
         if(lists == null || lists.length == 0){
             return null;
@@ -31,4 +31,4 @@
         res.next = left==null?right:left;
         return tmp.next;
     }
-```
+// ```

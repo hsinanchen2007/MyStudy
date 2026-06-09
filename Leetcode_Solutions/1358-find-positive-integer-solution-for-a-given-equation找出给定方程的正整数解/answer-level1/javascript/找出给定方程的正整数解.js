@@ -1,11 +1,11 @@
-本题有两种解法。
+// 本题有两种解法。
 
-- 两次循环
-题目读懂之后就很简单了。
-第一个入参是函数，第二个是预期的结果。然后求有多少解。
-简单说就是暴力解二元方程。解的范围确定，而且是整数，同时函数是单调递增的。
-两个for循环解决。
-```
+// - 两次循环
+// 题目读懂之后就很简单了。
+// 第一个入参是函数，第二个是预期的结果。然后求有多少解。
+// 简单说就是暴力解二元方程。解的范围确定，而且是整数，同时函数是单调递增的。
+// 两个for循环解决。
+// ```
 /**
  * // This is the CustomFunction's API interface.
  * // You should not implement it, or speculate about its implementation
@@ -41,14 +41,14 @@ var findSolution = function(customfunction, z) {
     }
     return res;
 };
-```
-时间复杂度：$O(n^2)$
+// ```
+// 时间复杂度：$O(n^2)$
 
-- 双指针
-再仔细想一下好像不需要这么多次的循环。
-根据函数是单调递增的特性，双指针的解法就出来了。
-x从1开始增，y从1000开始减。
-```
+// - 双指针
+// 再仔细想一下好像不需要这么多次的循环。
+// 根据函数是单调递增的特性，双指针的解法就出来了。
+// x从1开始增，y从1000开始减。
+// ```
 /**
  * // This is the CustomFunction's API interface.
  * // You should not implement it, or speculate about its implementation
@@ -86,5 +86,5 @@ var findSolution = function(customfunction, z) {
     }
     return res;
 };
-```
-时间复杂度：$O(n)$
+// ```
+// 时间复杂度：$O(n)$

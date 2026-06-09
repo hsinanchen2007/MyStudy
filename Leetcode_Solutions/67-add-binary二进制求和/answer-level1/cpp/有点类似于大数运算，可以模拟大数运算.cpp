@@ -1,9 +1,9 @@
-### 解题思路
-直接上代码
+// ### 解题思路
+// 直接上代码
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string addBinary(string a, string b) {
@@ -31,4 +31,4 @@ public:
         return a;
     }
 };
-```
+// ```

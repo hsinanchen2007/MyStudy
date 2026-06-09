@@ -1,4 +1,4 @@
-```
+// ```
     vector<int> pancakeSort(vector<int>& A) {
         int max=A.size();
         vector<int> vec;
@@ -16,4 +16,4 @@
         }
         return vec;
     }
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-参考官方题解，主要还是思路和技巧
-### 代码
+// ### 解题思路
+// 参考官方题解，主要还是思路和技巧
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -65,4 +65,4 @@ int** reconstructQueue(int** people, int peopleSize, int* peopleColSize, int* re
 }
 
 
-```
+// ```

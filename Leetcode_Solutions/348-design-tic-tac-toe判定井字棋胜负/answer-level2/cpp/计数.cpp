@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class TicTacToe {
 public:
     TicTacToe(int n) : rows(n, vector<int>(2, n)), cols(n, vector<int>(2, n)), l45(2, n), l135(2, n) {
@@ -27,4 +27,4 @@ auto _ = [](){
     cout.tie(0);
     return 0;
 }();
-```
+// ```

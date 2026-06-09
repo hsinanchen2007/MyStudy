@@ -1,10 +1,10 @@
-### 解题思路
-这是看一个CSDN的博主的方法，感觉讲的通俗易懂，我只是搬运工，大家感兴趣的可以浏览一下。
-https://blog.csdn.net/hk2291976/article/details/51107778?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task
+// ### 解题思路
+// 这是看一个CSDN的博主的方法，感觉讲的通俗易懂，我只是搬运工，大家感兴趣的可以浏览一下。
+// https://blog.csdn.net/hk2291976/article/details/51107778?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
@@ -33,4 +33,4 @@ public:
        
     }
 };
-```
+// ```

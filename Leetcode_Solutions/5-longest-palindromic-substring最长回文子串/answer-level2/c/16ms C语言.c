@@ -1,9 +1,9 @@
-### 解题思路
-码一下哈哈哈，普通解法，下次补上动态规划啥的。
+// ### 解题思路
+// 码一下哈哈哈，普通解法，下次补上动态规划啥的。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * longestPalindrome(char * s){
     if(s=="")   return "";
     int size = strlen(s), max = 0, left = 0, right = 0;
@@ -33,4 +33,4 @@ char * longestPalindrome(char * s){
     res[max] = '\0';
     return res;
 }
-```
+// ```

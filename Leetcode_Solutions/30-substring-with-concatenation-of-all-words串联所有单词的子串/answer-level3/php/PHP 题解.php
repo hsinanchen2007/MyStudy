@@ -1,5 +1,5 @@
 
-第一次500ms 
+// 第一次500ms 
 `function findSubstring($s, $words)
     {
         if (empty( $words )) {
@@ -60,4 +60,4 @@
         return $arr;
     }
 
-`
+// `

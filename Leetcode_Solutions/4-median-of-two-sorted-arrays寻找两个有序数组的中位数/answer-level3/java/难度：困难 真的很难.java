@@ -1,11 +1,11 @@
-### 解题思路
-这道题我也是参考的思路，以后还是要多多练习，提高自己的代码能力。
-![image.png](https://pic.leetcode-cn.com/1b6867e2ce925a830aff1903eb7dc13d523bf9d3d5750f4b5ecacc5143aecefa-image.png)
+// ### 解题思路
+// 这道题我也是参考的思路，以后还是要多多练习，提高自己的代码能力。
+// ![image.png](https://pic.leetcode-cn.com/1b6867e2ce925a830aff1903eb7dc13d523bf9d3d5750f4b5ecacc5143aecefa-image.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
             if((nums1.length==0 && nums2.length==0) || (nums1==null && nums2==null))
@@ -59,4 +59,4 @@ class Solution {
 		
 	}
 }
-```
+// ```

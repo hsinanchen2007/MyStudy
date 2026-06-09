@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+-- ### 解题思路
+-- 此处撰写解题思路
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 select ifnull(round(
         s.rta/f.fdr
@@ -23,4 +23,4 @@ select round(
     0)
 , 2) as accept_rate;
 */
-```
+-- ```

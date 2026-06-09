@@ -1,18 +1,18 @@
-## 思路:
+# ## 思路:
 
-动态规划
+# 动态规划
 
-`dp[i][j]`代表以 `i,j`为正方形右下角的最大边长是多少？
+# `dp[i][j]`代表以 `i,j`为正方形右下角的最大边长是多少？
 
-动态方程：
+# 动态方程：
 
-在 `matrix[i][j] == "1"`，情况下
+# 在 `matrix[i][j] == "1"`，情况下
 
-​	`dp[i][j] = min(dp[i - 1][j], dp[i][j - 1], dp[i - 1][j - 1]) + 1`
+# ​	`dp[i][j] = min(dp[i - 1][j], dp[i][j - 1], dp[i - 1][j - 1]) + 1`
 
-为了求解方便，构造多一个长度的二维数组！
+# 为了求解方便，构造多一个长度的二维数组！
 
-```python
+# ```python
 class Solution:
     def maximalSquare(self, matrix: List[List[str]]) -> int:
         if not matrix: return 0
@@ -26,21 +26,21 @@ class Solution:
                     dp[i][j] = min(dp[i-1][j - 1], dp[i - 1][j], dp[i][j - 1]) + 1
                     res = max(res, dp[i][j] ** 2)
         return res
-```
+# ```
 
-------
+# ------
 
 
 
-下面有几种超时算法(最后一个过不了)， 但是思想可以借鉴！
+# 下面有几种超时算法(最后一个过不了)， 但是思想可以借鉴！
 
-主要思想就是，求出`dp[i][j]`表示前`i`行，前`j`列所有`1`的个数
+# 主要思想就是，求出`dp[i][j]`表示前`i`行，前`j`列所有`1`的个数
 
-那么以`i,j`为右下角形成的矩形就是等于 `dp[i][j] - dp[k][j] - dp[i][j - i + k] + dp[k][j - i + k]`
+# 那么以`i,j`为右下角形成的矩形就是等于 `dp[i][j] - dp[k][j] - dp[i][j - i + k] + dp[k][j - i + k]`
 
-这里的 `k` 表示小于 `i` 的行.
+# 这里的 `k` 表示小于 `i` 的行.
 
-```python
+# ```python
 class Solution:
     def maximalSquare(self, matrix: List[List[str]]) -> int:
         if not matrix: return 0	
@@ -72,5 +72,5 @@ class Solution:
                         return max_edge ** 2
             max_edge -= 1
         return res
-```
+# ```
 

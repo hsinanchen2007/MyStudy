@@ -1,9 +1,9 @@
-### 解题思路
-C++ 用时和内存击败100%
-从一个点到另一个点的指令根据他们的下标之差得到，其他字母到字母z的走法需要特殊处理一下，先往左再往下，防止走出范围
-### 代码
+// ### 解题思路
+// C++ 用时和内存击败100%
+// 从一个点到另一个点的指令根据他们的下标之差得到，其他字母到字母z的走法需要特殊处理一下，先往左再往下，防止走出范围
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void genInstrBetweenTwoChar(char start, char end, map<char, pair<int, int>>& char2pos, string& res) {
@@ -54,4 +54,4 @@ public:
         return res;
     }
 };
-```
+// ```

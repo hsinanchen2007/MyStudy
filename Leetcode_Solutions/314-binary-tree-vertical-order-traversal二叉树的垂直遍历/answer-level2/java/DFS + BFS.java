@@ -1,7 +1,7 @@
-思路比较简单，如下：
-1. DFS获取坐标范围
-2. BFS统计结果
-```
+// 思路比较简单，如下：
+// 1. DFS获取坐标范围
+// 2. BFS统计结果
+// ```
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -56,4 +56,4 @@ class Solution {
         dfs(node.right, col + 1);
     }
 }
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
-前后交换，
-while终止条件：
-奇数：left = right 
-偶数： left<right 
+// ### 解题思路
+// 前后交换，
+// while终止条件：
+// 奇数：left = right 
+// 偶数： left<right 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 

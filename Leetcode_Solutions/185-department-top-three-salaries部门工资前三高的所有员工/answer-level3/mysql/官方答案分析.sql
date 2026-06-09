@@ -1,4 +1,4 @@
-对于官方答案的分析如下：
+-- 对于官方答案的分析如下：
     				FROM
 					Employee e1
 					JOIN Department d ON e1.DepartmentId = d.Id 

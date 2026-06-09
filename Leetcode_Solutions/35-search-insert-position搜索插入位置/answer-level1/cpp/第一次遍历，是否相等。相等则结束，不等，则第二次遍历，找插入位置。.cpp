@@ -1,9 +1,9 @@
-有相等的直接输出位置
-没有 输出比它大的位置 即是它要插入的位置
+// 有相等的直接输出位置
+// 没有 输出比它大的位置 即是它要插入的位置
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int searchInsert(vector<int>& nums, int target) {
@@ -34,4 +34,4 @@ public:
            return weizhi;
     }
 };
-```
+// ```

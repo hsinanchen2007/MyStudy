@@ -1,9 +1,9 @@
-### 解题思路
-与字符串压缩类似
+// ### 解题思路
+// 与字符串压缩类似
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string countAndSay(int n) {
@@ -27,4 +27,4 @@ public:
         return arry[n];
     }
 };
-```
+// ```

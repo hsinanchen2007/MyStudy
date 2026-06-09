@@ -1,6 +1,6 @@
-执行用时 :1 ms, 在所有 java 提交中击败了100.00% 的用户
-内存消耗 :34.3 MB, 在所有 java 提交中击败了89.13%的用户
-```
+// 执行用时 :1 ms, 在所有 java 提交中击败了100.00% 的用户
+// 内存消耗 :34.3 MB, 在所有 java 提交中击败了89.13%的用户
+// ```
 class Solution {
     public int mincostTickets(int[] days, int[] costs) {
         if(days == null || days.length < 1 || costs == null || costs.length < 1)
@@ -22,4 +22,4 @@ class Solution {
         return dp[dp.length-1];
     }
 }
-```
+// ```

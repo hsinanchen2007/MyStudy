@@ -1,5 +1,5 @@
-使用二维数组和等式的传递性保存等式的逻辑，再检查不等式是否合理.
-```
+// 使用二维数组和等式的传递性保存等式的逻辑，再检查不等式是否合理.
+// ```
 #define ALPHANUM 26 // 二维数组的行和列，用于判断2个字母是否相等 a[i][j] = 1标识相等
 bool equationsPossible(char ** equations, int equationsSize)
 {
@@ -70,4 +70,4 @@ bool equationsPossible(char ** equations, int equationsSize)
     }    
     return true;
 }
-```
+// ```

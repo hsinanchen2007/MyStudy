@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int majorityElement(int[] nums) {
         int len=nums.length,res=0;
@@ -18,4 +18,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

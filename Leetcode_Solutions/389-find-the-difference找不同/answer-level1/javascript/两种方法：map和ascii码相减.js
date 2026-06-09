@@ -1,9 +1,9 @@
-### 解题思路
-方法一、map
+// ### 解题思路
+// 方法一、map
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @param {string} t
@@ -36,9 +36,9 @@ var findTheDifference = function(s, t) {
         }
     }
 };
-```
-方法二、ascii码之和相减就是插入的字符
-```
+// ```
+// 方法二、ascii码之和相减就是插入的字符
+// ```
 var findTheDifference = function(s, t) {
     var ascii1=0;
     var ascii2=0;
@@ -50,4 +50,4 @@ var findTheDifference = function(s, t) {
     }
     return String.fromCharCode(ascii2-ascii1);
 };
-```
+// ```

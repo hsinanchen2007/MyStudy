@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/a3adb8a69b26547593256c8d84a1bf9267ba5968a956b0560aa3d03b9f3ba9ec-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/a3adb8a69b26547593256c8d84a1bf9267ba5968a956b0560aa3d03b9f3ba9ec-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char ans[10005];
 char * removeKdigits(char * num, int k){
     int n=strlen(num),i,cur,j=0;
@@ -36,4 +36,4 @@ char * removeKdigits(char * num, int k){
     }
     return ans + i;
 }
-```
+// ```

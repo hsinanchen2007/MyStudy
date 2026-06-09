@@ -1,5 +1,5 @@
-参考之前的三数之和、双循环加双指针
-```javascript
+// 参考之前的三数之和、双循环加双指针
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -35,4 +35,4 @@ var fourSum = function(nums, target) {
     }
     return ans;
 };
-```
+// ```

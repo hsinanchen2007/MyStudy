@@ -1,4 +1,4 @@
-看了许多都是从左到右的后序遍历，这里有一个从右向左的版本
+// 看了许多都是从左到右的后序遍历，这里有一个从右向左的版本
 class Solution {
 public:
     TreeNode *pre=NULL;

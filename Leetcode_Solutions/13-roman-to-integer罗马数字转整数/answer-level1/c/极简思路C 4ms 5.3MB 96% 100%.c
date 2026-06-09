@@ -1,9 +1,9 @@
-### 解题思路
-依次判断即可。
+// ### 解题思路
+// 依次判断即可。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int romanToInt(char * s){
     int count=0;
     while(*s){
@@ -42,4 +42,4 @@ int romanToInt(char * s){
     }
     return count;
 }
-```
+// ```

@@ -1,7 +1,7 @@
 
-### 代码
-+ 递归
-```rust
+// ### 代码
+// + 递归
+// ```rust
 use std::rc::Rc;
 use std::cell::RefCell;
 impl Solution {
@@ -20,9 +20,9 @@ impl Solution {
     }
 }
 
-```
-+ 迭代
-```rust
+// ```
+// + 迭代
+// ```rust
 use std::rc::Rc;
 use std::cell::RefCell;
 impl Solution {
@@ -38,4 +38,4 @@ pub fn search_bst(root: Option<Rc<RefCell<TreeNode>>>, val: i32) -> Option<Rc<Re
         root
     }
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-双指针
-指针p1、p2都初始化为head，指针p1先走k步，然后p1与p2一起走，
-当p1为NULL时，p2即指向倒数第k个节点
+// ### 解题思路
+// 双指针
+// 指针p1、p2都初始化为head，指针p1先走k步，然后p1与p2一起走，
+// 当p1为NULL时，p2即指向倒数第k个节点
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -35,4 +35,4 @@ public:
         return p2->val;
     }
 };
-```
+// ```

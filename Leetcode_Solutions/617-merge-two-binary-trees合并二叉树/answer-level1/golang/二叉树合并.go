@@ -1,12 +1,12 @@
-### 解题思路
-照着官方解法的Java版抄的，关键是用栈来保存遍历进度。
-Go语言没有stack，只能用slice模拟了。
-因为是同时遍历两棵树，所以slice中的元素也必须是TreeNode slice。
-也可以单独针对每棵树的遍历进度构建slice。
+// ### 解题思路
+// 照着官方解法的Java版抄的，关键是用栈来保存遍历进度。
+// Go语言没有stack，只能用slice模拟了。
+// 因为是同时遍历两棵树，所以slice中的元素也必须是TreeNode slice。
+// 也可以单独针对每棵树的遍历进度构建slice。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -54,4 +54,4 @@ func mergeTrees(t1 *TreeNode, t2 *TreeNode) *TreeNode {
 
     return t1;
 }
-```
+// ```

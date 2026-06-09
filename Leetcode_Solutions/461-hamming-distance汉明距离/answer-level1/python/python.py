@@ -1,5 +1,5 @@
 
-```python [class Solution(object):
+# ```python [class Solution(object):
     def hammingDistance(self, x, y):
         """
         :type x: int

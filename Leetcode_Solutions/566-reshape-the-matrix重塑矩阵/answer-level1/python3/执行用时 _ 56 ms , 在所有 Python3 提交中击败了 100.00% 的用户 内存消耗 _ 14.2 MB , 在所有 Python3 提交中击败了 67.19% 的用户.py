@@ -1,9 +1,9 @@
-### 解题思路
-先取所有的数据组成新的列表，然后按照列间隔，分别划分s列表
+# ### 解题思路
+# 先取所有的数据组成新的列表，然后按照列间隔，分别划分s列表
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def matrixReshape(self, nums: List[List[int]], r: int, c: int) -> List[List[int]]:
         li = []
@@ -21,4 +21,4 @@ class Solution:
 
 
         
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-双指针, 进行一次遍历, 设置一个哑节点作为头结点, 方便管理
+// 双指针, 进行一次遍历, 设置一个哑节点作为头结点, 方便管理
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -37,4 +37,4 @@ class Solution {
         return dummy.next;
     }
 }
-```
+// ```

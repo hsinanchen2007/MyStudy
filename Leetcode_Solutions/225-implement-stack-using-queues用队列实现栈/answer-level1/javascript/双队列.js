@@ -1,13 +1,13 @@
-### 解题思路
+// ### 解题思路
 
-利用双队列
+// 利用双队列
 
-queue1 保存除队尾的其他元素
-queue2 保存队尾元素也就是栈顶
+// queue1 保存除队尾的其他元素
+// queue2 保存队尾元素也就是栈顶
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Initialize your data structure here.
  */
@@ -71,4 +71,4 @@ MyStack.prototype.empty = function() {
  * var param_3 = obj.top()
  * var param_4 = obj.empty()
  */
-```
+// ```

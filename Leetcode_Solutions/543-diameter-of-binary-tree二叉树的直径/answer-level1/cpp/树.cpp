@@ -1,9 +1,9 @@
-### 解题思路
-树的问题一般都可以用递归去搜索解决
+// ### 解题思路
+// 树的问题一般都可以用递归去搜索解决
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -24,4 +24,4 @@ public:
         else return max(getdeep(root->left),getdeep(root->right))+1;
     }
 };
-```
+// ```

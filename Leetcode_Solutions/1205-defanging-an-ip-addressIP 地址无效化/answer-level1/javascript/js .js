@@ -1,12 +1,12 @@
-### 解题思路
-replace
+// ### 解题思路
+// replace
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} address
  * @return {string}
  */
 const defangIPaddr = address => address.replace(/\./g, '[.]')
-```
+// ```

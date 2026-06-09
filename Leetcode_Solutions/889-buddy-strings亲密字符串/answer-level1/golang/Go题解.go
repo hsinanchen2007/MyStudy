@@ -1,9 +1,9 @@
-简单来说，亲密字符串成立的条件为：
-当A、B中只有两个位置i,j是不匹配的，并且A[i]=B[j],B[i]=A[j],那么就是亲密字符串
-当A、B完全匹配，那么A中只要有一个字母出现了两次以上，那么A、B也是亲密字符串
-代码实现效率时空间双百
+// 简单来说，亲密字符串成立的条件为：
+// 当A、B中只有两个位置i,j是不匹配的，并且A[i]=B[j],B[i]=A[j],那么就是亲密字符串
+// 当A、B完全匹配，那么A中只要有一个字母出现了两次以上，那么A、B也是亲密字符串
+// 代码实现效率时空间双百
 
-```golang
+// ```golang
 func buddyStrings(A string, B string) bool {
     if len(A)!=len(B){
 		return false
@@ -37,4 +37,4 @@ func buddyStrings(A string, B string) bool {
 	}
 	return false
 }
-```
+// ```

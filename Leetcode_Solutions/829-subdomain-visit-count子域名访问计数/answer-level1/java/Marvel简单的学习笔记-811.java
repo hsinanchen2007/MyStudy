@@ -1,12 +1,12 @@
-### 解题思路
-利用字符串的split()方法，将字符串分割为访问次数和域名，再将域名分割为各级域名，然后对每一级域名进行处理，分别添加进哈希表。
-哈希表使用HashMap，记录各域名到其访问次数的映射。
-最后遍历哈希表输出结果。
-详见代码。
+// ### 解题思路
+// 利用字符串的split()方法，将字符串分割为访问次数和域名，再将域名分割为各级域名，然后对每一级域名进行处理，分别添加进哈希表。
+// 哈希表使用HashMap，记录各域名到其访问次数的映射。
+// 最后遍历哈希表输出结果。
+// 详见代码。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<String> subdomainVisits(String[] cpdomains) {
         Map<String, Integer> map = new HashMap<String, Integer>();
@@ -29,4 +29,4 @@ class Solution {
         return list;
     }
 }
-```
+// ```

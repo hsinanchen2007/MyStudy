@@ -1,9 +1,9 @@
-### 解题思路
-可以认为两边是两块挡板，不断的更换两边的挡板，直到挡板之间完全没有空隙，则停止移动挡板。其实类似于求一个一维数组中最大值的问题。
+# ### 解题思路
+# 可以认为两边是两块挡板，不断的更换两边的挡板，直到挡板之间完全没有空隙，则停止移动挡板。其实类似于求一个一维数组中最大值的问题。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxArea(self, height: List[int]) -> int:
         max = 0
@@ -23,4 +23,4 @@ class Solution:
             if container > max:
                 max = container
         return max
-```
+# ```

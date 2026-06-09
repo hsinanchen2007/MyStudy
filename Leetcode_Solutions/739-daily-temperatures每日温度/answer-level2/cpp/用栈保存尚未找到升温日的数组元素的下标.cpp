@@ -1,9 +1,9 @@
-### 解题思路
-都在注释中
+// ### 解题思路
+// 都在注释中
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> dailyTemperatures(vector<int>& T) {
@@ -31,4 +31,4 @@ public:
         return ret;
     }
 };
-```
+// ```

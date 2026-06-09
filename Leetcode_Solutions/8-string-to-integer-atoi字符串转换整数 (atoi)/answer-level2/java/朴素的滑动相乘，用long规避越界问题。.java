@@ -1,9 +1,9 @@
-### 解题思路
-朴素的思路，直接看代码~
+// ### 解题思路
+// 朴素的思路，直接看代码~
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 
     private boolean isNum(char c) {
@@ -50,4 +50,4 @@ class Solution {
         return (int)(symNum * nums);
     }
 }
-```
+// ```

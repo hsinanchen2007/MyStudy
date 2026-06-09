@@ -1,10 +1,10 @@
-### 解题思路
-1、将节点值按层取出，放入层级链表
-2、层级链表用头插法放入ans中，保障了返回值的顺序
+// ### 解题思路
+// 1、将节点值按层取出，放入层级链表
+// 2、层级链表用头插法放入ans中，保障了返回值的顺序
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -43,4 +43,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

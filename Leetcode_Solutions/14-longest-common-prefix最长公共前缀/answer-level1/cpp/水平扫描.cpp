@@ -1,9 +1,9 @@
-### 解题思路
-不需要找最短字符串
+// ### 解题思路
+// 不需要找最短字符串
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
    string longestCommonPrefix(vector<string>& strs) {
@@ -24,4 +24,4 @@ public:
         return ans;
 	}
 };
-```
+// ```

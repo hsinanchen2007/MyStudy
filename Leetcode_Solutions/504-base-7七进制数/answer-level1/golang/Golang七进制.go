@@ -1,9 +1,9 @@
-### 解题思路
-用uint8的slice存数字，然后把slice反转一下，然后转换成string
+// ### 解题思路
+// 用uint8的slice存数字，然后把slice反转一下，然后转换成string
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func convertToBase7(num int) string {
 	if num < 0 {
 		return "-" + convertToBase7(-num)
@@ -25,4 +25,4 @@ func convertToBase7(num int) string {
 	return string(reverseUint8Slice(ans))
 }
 
-```
+// ```

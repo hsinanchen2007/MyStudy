@@ -1,6 +1,6 @@
-执行用时 : 12 ms , 在所有 C 提交中击败了 82.35% 的用户；内存消耗 : 8.9 MB , 在所有 C 提交中击败了 100.00% 的用户。
+// 执行用时 : 12 ms , 在所有 C 提交中击败了 82.35% 的用户；内存消耗 : 8.9 MB , 在所有 C 提交中击败了 100.00% 的用户。
 
-```
+// ```
 int cmpStr(const void *a, const void *b)
 {
     char *str1 = *(char **)a;
@@ -110,4 +110,4 @@ char ** beforeAndAfterPuzzles(char ** phrases, int phrasesSize, int* returnSize)
 
     return retPhreases;
 }
-```
+// ```

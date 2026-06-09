@@ -1,8 +1,8 @@
-### 解题思路
-考虑到indices是一个多行两列的二维数组，我们只需要将行号和列与indices的值比较即可
-### 代码
+// ### 解题思路
+// 考虑到indices是一个多行两列的二维数组，我们只需要将行号和列与indices的值比较即可
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int oddCells(int n, int m, vector<vector<int>>& indices) {
@@ -37,4 +37,4 @@ public:
         return count;
     }
 };
-```
+// ```

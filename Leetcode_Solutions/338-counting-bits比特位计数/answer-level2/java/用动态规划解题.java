@@ -1,9 +1,9 @@
-### 解题思路
-用动态规划解题
+// ### 解题思路
+// 用动态规划解题
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] countBits(int num) {
         int[] dp = new int[num + 1];
@@ -14,4 +14,4 @@ class Solution {
         return dp;
     }
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/fc14709051b1a790b04dfbd02cb0a8d1e9713ec1c4cf06bd94dd25b885250700-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/fc14709051b1a790b04dfbd02cb0a8d1e9713ec1c4cf06bd94dd25b885250700-image.png)
 
-做题10分钟，读题90分钟。。。最后才反应过来，R是“同一点”出发往四个方向。我原来以为是“一路走，只允许一整个行走转四个方向”。。。。还纳闷这能算“简单”题？！
+// 做题10分钟，读题90分钟。。。最后才反应过来，R是“同一点”出发往四个方向。我原来以为是“一路走，只允许一整个行走转四个方向”。。。。还纳闷这能算“简单”题？！
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {character[][]} board
  * @return {number}
@@ -64,4 +64,4 @@ var numRookCaptures = function(board) {
     }
     return ret;
 };
-```
+// ```

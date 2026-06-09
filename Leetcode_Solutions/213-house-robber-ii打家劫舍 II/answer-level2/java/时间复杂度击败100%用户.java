@@ -1,12 +1,12 @@
-### 解题思路
-把最后一个排除，算出最大和；
-把第一个排除，算出最大和；
-两个结果集取最大；
-![image.png](https://pic.leetcode-cn.com/21d48359d65cf0594ad340f5d2c2e5f58f653297d0720bbd0de6cecef8e31e38-image.png)
+// ### 解题思路
+// 把最后一个排除，算出最大和；
+// 把第一个排除，算出最大和；
+// 两个结果集取最大；
+// ![image.png](https://pic.leetcode-cn.com/21d48359d65cf0594ad340f5d2c2e5f58f653297d0720bbd0de6cecef8e31e38-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int rob(int[] nums) {
         if(nums==null||nums.length==0) return 0;
@@ -27,4 +27,4 @@ class Solution {
         return Math.max(dp[nums.length - 2], ap[nums.length - 2]);
     }
 }
-```
+// ```

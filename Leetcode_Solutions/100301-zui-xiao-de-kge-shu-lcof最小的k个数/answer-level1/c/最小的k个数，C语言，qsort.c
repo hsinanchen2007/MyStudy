@@ -1,9 +1,9 @@
-### 解题思路
-需要注意k为0，或arrSize为0时，不仅要返回NULL，还需要把*returnSize赋为0。
+// ### 解题思路
+// 需要注意k为0，或arrSize为0时，不仅要返回NULL，还需要把*returnSize赋为0。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -23,4 +23,4 @@ int* getLeastNumbers(int* arr, int arrSize, int k, int* returnSize){
     }
     return result;
 }
-```
+// ```

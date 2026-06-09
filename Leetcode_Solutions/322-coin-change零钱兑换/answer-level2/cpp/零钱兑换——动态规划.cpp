@@ -1,6 +1,6 @@
-1. 写出动态规划方程
-dp[i]表示金额为i时，至少所需要的钱币数量，dp[i] = min(dp[i], dp[i-coin]+1) for coin in coins;
-```C++ []
+// 1. 写出动态规划方程
+// dp[i]表示金额为i时，至少所需要的钱币数量，dp[i] = min(dp[i], dp[i-coin]+1) for coin in coins;
+// ```C++ []
 class Solution {
 public:
     int coinChange(vector<int>& coins, int amount) {
@@ -26,5 +26,5 @@ public:
 
     }
 };
-```
+// ```
 

@@ -1,9 +1,9 @@
-### 解题思路
-在进行加法的同时，检查是否下一次会出现一个有后续一个没后续的情况，如果是，则给没后续的那个补0
+# ### 解题思路
+# 在进行加法的同时，检查是否下一次会出现一个有后续一个没后续的情况，如果是，则给没后续的那个补0
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -36,4 +36,4 @@ class Solution:
         if extra_add:
             l3.next = ListNode(1)
         return head.next
-```
+# ```

@@ -1,6 +1,6 @@
-### 解题思路
-递归：插入思路，头结点head、待插入的节点insert、待插入的节点的下一个节点tmpNext = insert->next, insert节点指向head即可。比较简单。
-### 代码
+// ### 解题思路
+// 递归：插入思路，头结点head、待插入的节点insert、待插入的节点的下一个节点tmpNext = insert->next, insert节点指向head即可。比较简单。
+// ### 代码
 
 /**
  * Definition for singly-linked list.

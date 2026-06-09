@@ -1,4 +1,4 @@
-```
+// ```
 int g_cnt = 0;
 void dfs(struct TreeNode* root, int* res) {
     if (root == NULL) {
@@ -27,4 +27,4 @@ int* postorderTraversal(struct TreeNode* root, int* returnSize){
     *returnSize = g_cnt;
     return res;
 }
-```
+// ```

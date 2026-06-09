@@ -1,4 +1,4 @@
-```
+// ```
 func isValid(s string) bool {
     r := strings.NewReplacer("[]", "", "{}", "", "()", "")
 
@@ -10,9 +10,9 @@ func isValid(s string) bool {
     }
     return true
 }
-```
+// ```
 
-```
+// ```
 func isValid(s string) bool {
     pa := map[byte]byte{']': '[', '}': '{', ')': '('}
     matchStack := New()
@@ -83,5 +83,5 @@ func (this *Stack) Push(value interface{}) {
     this.top = n
     this.length++
 }
-```
+// ```
 

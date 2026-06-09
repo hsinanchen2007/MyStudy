@@ -1,9 +1,9 @@
-## 思路
+// ## 思路
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int kthLargest(TreeNode* root, int k) {
@@ -21,4 +21,4 @@ public:
         return -1;
     }
 };
-```
+// ```

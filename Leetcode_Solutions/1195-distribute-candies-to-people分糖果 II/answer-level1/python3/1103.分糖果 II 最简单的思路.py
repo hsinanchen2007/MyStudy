@@ -1,9 +1,9 @@
-### 解题思路
-最简单的思路，顺着题目给的步骤走
+# ### 解题思路
+# 最简单的思路，顺着题目给的步骤走
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def distributeCandies(self, candies: int, num_people: int) -> List[int]:
         ans = [0] * num_people
@@ -19,4 +19,4 @@ class Solution:
             k = (k+1) % num_people
         return ans
 
-```
+# ```

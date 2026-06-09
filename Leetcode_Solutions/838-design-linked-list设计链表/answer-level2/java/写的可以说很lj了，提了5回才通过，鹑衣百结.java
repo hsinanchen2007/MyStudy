@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/6bb2f2929efa0d89fb3e7eba6fbdb36ae5b5508b0c132c09b74c8cce3c5a441e-image.png)
+// ![image.png](https://pic.leetcode-cn.com/6bb2f2929efa0d89fb3e7eba6fbdb36ae5b5508b0c132c09b74c8cce3c5a441e-image.png)
 
-```
+// ```
     int size;
     myNode first;
     class myNode {
@@ -95,4 +95,4 @@
             tmpNode = null;
         }
     }
-```
+// ```

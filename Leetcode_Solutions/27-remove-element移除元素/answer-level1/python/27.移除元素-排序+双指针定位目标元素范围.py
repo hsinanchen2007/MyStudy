@@ -1,9 +1,9 @@
-### 解题思路
-nums为空或长度为1是特例，分别解决即可。对数组nums排序后，若目标元素val在nums中，则val一定处于某个索引范围内。因此采用双指针，一个指针标示val的开始，另一指针标识val的结束;再利用for循环进行逆序删除即可。
+# ### 解题思路
+# nums为空或长度为1是特例，分别解决即可。对数组nums排序后，若目标元素val在nums中，则val一定处于某个索引范围内。因此采用双指针，一个指针标示val的开始，另一指针标识val的结束;再利用for循环进行逆序删除即可。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def removeElement(self, nums, val):
         """
@@ -36,4 +36,4 @@ class Solution(object):
             del nums[i]
         new_length = n - right + left + 1
         return new_length
-```
+# ```

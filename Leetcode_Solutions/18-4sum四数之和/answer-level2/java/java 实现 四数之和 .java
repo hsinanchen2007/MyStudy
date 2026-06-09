@@ -1,7 +1,7 @@
 
-# 借助求三数之和，求解四数之和
+// # 借助求三数之和，求解四数之和
 
-```java []
+// ```java []
 class Solution {
     Set<List<Integer>> res = new HashSet<>();
     int[] nums;
@@ -91,4 +91,4 @@ class Solution {
        }       
    }
 }
-```
+// ```

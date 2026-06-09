@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int numRookCaptures(char[][] board) {
         //1、找到白色的车R
@@ -31,4 +31,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

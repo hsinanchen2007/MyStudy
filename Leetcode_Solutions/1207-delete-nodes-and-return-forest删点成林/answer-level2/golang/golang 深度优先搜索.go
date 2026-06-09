@@ -1,9 +1,9 @@
-### 解题思路
-  采用深度优先搜索，从最底层开始处理，删除不彻底的问题
+// ### 解题思路
+//   采用深度优先搜索，从最底层开始处理，删除不彻底的问题
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func delNodes(root *TreeNode, to_delete []int) []*TreeNode {
 	res := make([]*TreeNode,0,len(to_delete)*2)
 	if root == nil{
@@ -58,4 +58,4 @@ func delNodes(root *TreeNode, to_delete []int) []*TreeNode {
 	}
 	return res
 }
-```
+// ```

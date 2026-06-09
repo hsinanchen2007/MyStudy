@@ -1,9 +1,9 @@
-### 解题思路
-典型的暴力深搜不成加记忆化包过的练手题~
+// ### 解题思路
+// 典型的暴力深搜不成加记忆化包过的练手题~
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int integerBreak(int n) {
@@ -20,4 +20,4 @@ public:
         return ans;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-就是简单的排列组合，这个没啥说的了，怎么会放在hard里面呢
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 就是简单的排列组合，这个没啥说的了，怎么会放在hard里面呢
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countOrders(self, n: int) -> int:
         if n == 1:
@@ -16,4 +16,4 @@ class Solution:
             num_list.append(tmp)
             # print(num_list)
         return num_list[-1]
-```
+# ```

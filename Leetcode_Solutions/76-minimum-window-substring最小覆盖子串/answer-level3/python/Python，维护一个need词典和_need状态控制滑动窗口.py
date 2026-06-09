@@ -1,4 +1,4 @@
-```Python
+# ```Python
 class Solution:
     def minWindow(self, s: str, t: str) -> str:
         need = {}  # 统计t中的字频，用need字典保存
@@ -22,4 +22,4 @@ class Solution:
         if len(res) > len(s):  # 没有找到满足的子串
             return ''
         return res
-```
+# ```

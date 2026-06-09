@@ -1,9 +1,9 @@
-### 解题思路
-这道题需要注意的是最后一个元素加一之后是否需要进位即是否等于10，不需要的话就break返回，需要的话就往前遍历加一
+# ### 解题思路
+# 这道题需要注意的是最后一个元素加一之后是否需要进位即是否等于10，不需要的话就break返回，需要的话就往前遍历加一
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def plusOne(self, digits):
         """
@@ -22,4 +22,4 @@ class Solution(object):
             else:
                 break
         return digits
-```
+# ```

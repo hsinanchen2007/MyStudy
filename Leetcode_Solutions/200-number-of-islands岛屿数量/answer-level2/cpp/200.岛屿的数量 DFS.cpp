@@ -1,21 +1,21 @@
-基本记录就是，看到一个1，就把它上下左右的1，都变成0，接着把它上下左右的1也变成0，直到1的附近的1都变成0.
+// 基本记录就是，看到一个1，就把它上下左右的1，都变成0，接着把它上下左右的1也变成0，直到1的附近的1都变成0.
 
-也就是
+// 也就是
 
-11000
-11000
-00100
-00011
-最终会变成
+// 11000
+// 11000
+// 00100
+// 00011
+// 最终会变成
 
-10000
-00000
-00100
-00010
+// 10000
+// 00000
+// 00100
+// 00010
 
-链接：https://leetcode-cn.com/problems/number-of-islands/solution/cpp-shi-jian-wei-8msde-dfsfang-fa-by-xu-zhou-geng/
+// 链接：https://leetcode-cn.com/problems/number-of-islands/solution/cpp-shi-jian-wei-8msde-dfsfang-fa-by-xu-zhou-geng/
 
-```
+// ```
 class Solution {
 public:
     void backTrace(vector<vector<char>>& grid, int i, int j)
@@ -55,4 +55,4 @@ public:
         return islandNum;
     }
 };
-```
+// ```

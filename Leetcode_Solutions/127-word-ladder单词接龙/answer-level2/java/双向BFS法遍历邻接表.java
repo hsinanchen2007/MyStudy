@@ -1,10 +1,10 @@
-### 解题思路
-1. 构建邻接表来表示单词之间的通路。
-2. 双向bfs法遍历前面构建的邻接矩阵。
+// ### 解题思路
+// 1. 构建邻接表来表示单词之间的通路。
+// 2. 双向bfs法遍历前面构建的邻接矩阵。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 
      public int ladderLength(String beginWord, String endWord, List<String> wordList)
@@ -103,4 +103,4 @@ class Solution {
 
 
 }
-```
+// ```

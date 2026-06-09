@@ -1,5 +1,5 @@
-一 二叉树的层次遍历
-```python3 []
+# 一 二叉树的层次遍历
+# ```python3 []
 class Solution:
     def levelOrder(self, root: TreeNode) -> List[List[int]]:
         res = []
@@ -21,9 +21,9 @@ class Solution:
                 if de:
                     end = de[-1]
         return res
-```
-二 二叉树的层次遍历II
-```
+# ```
+# 二 二叉树的层次遍历II
+# ```
 class Solution:
     def levelOrderBottom(self, root: TreeNode) -> List[List[int]]:
         res = []
@@ -46,9 +46,9 @@ class Solution:
                     end = de[-1]
         res.reverse()
         return res
-```
-三 二叉树的层平均值
-```
+# ```
+# 三 二叉树的层平均值
+# ```
 class Solution:
     def averageOfLevels(self, root: TreeNode) -> List[float]:
         #res = []
@@ -93,9 +93,9 @@ class Solution:
                 if de:
                     end = de[-1]
         return res
-```
-四 二叉树的锯齿形层次遍历
-```
+# ```
+# 四 二叉树的锯齿形层次遍历
+# ```
 class Solution:
     def zigzagLevelOrder(self, root: TreeNode) -> List[List[int]]:        
         # res = []
@@ -119,9 +119,9 @@ class Solution:
         # for lst in res[1::2]:
         #     lst.reverse()
         # return res
-```
-五 在每个树行中找最大值
-```
+# ```
+# 五 在每个树行中找最大值
+# ```
 class Solution:
     def largestValues(self, root: TreeNode) -> List[int]:
         res = []
@@ -143,6 +143,6 @@ class Solution:
                 if de:
                     end = de[-1]
         return res
-```
+# ```
 
 

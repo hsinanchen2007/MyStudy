@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import math
 class Solution:
     def largestTriangleArea(self, points: List[List[int]]) -> float:
@@ -24,4 +24,4 @@ class Solution:
                     z = distence(points[k], points[i])
                     Max = max(Max,area(x,y,z))
         return Max
-```
+# ```

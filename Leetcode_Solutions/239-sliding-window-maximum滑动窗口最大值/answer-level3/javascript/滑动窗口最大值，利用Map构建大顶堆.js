@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/3c86e179f4ed5993c40d77c7ca8f375f6c2d5d91b6a189fdbbb18a2d6de5b4d6-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/3c86e179f4ed5993c40d77c7ca8f375f6c2d5d91b6a189fdbbb18a2d6de5b4d6-image.png)
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} k
@@ -105,4 +105,4 @@ var maxSlidingWindow = function(nums, k) {
     }
     return output;
 };
-```
+// ```

@@ -1,5 +1,5 @@
-若是不在圆内则递归调用一次
-```
+// 若是不在圆内则递归调用一次
+// ```
 type Solution struct {
 	radius   float64
 	x_center float64
@@ -24,4 +24,4 @@ func (this *Solution) RandPoint() []float64 {
 	}
 }
 
-```
+// ```

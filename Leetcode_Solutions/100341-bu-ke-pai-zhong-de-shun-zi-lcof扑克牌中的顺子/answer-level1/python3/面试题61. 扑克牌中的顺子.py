@@ -1,5 +1,5 @@
 
-```python []
+# ```python []
 class Solution:
     def isStraight(self, nums: List[int]) -> bool:
         for i in range(1, 14):
@@ -13,4 +13,4 @@ class Solution:
                         return False
                 break
         return True
-```
+# ```

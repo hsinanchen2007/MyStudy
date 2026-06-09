@@ -1,4 +1,4 @@
-```python []
+# ```python []
 import sys
 from collections import deque
 
@@ -37,4 +37,4 @@ class Node:
     def __init__(self, pri, index):
         self.pri = pri
         self.index = index
-```
+# ```

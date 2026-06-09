@@ -1,9 +1,9 @@
-### 解题思路
-易理解直观的basecase
+// ### 解题思路
+// 易理解直观的basecase
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxProfit(int[] prices) {
         if (prices == null || prices.length <= 1) {
@@ -23,4 +23,4 @@ class Solution {
         return state[days - 1][0];
     }
 }
-```
+// ```

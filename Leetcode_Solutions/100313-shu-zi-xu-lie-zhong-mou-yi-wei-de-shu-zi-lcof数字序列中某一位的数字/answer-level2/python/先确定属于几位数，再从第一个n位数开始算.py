@@ -1,9 +1,9 @@
-### 解题思路
-做题的想法都在注释里了
+# ### 解题思路
+# 做题的想法都在注释里了
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def findNthDigit(self, n):
         """
@@ -43,4 +43,4 @@ class Solution(object):
         return str(target)[pos]
 
 
-```
+# ```

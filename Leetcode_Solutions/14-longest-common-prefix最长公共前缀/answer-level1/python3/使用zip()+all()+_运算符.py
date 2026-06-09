@@ -1,5 +1,5 @@
-思路：依次对每一个字符串的各位字符进行比较
-```
+# 思路：依次对每一个字符串的各位字符进行比较
+# ```
 class Solution:
 	def longestCommonPrefix(self,strs):
 		ans=""
@@ -10,4 +10,4 @@ class Solution:
 			else:
 				break
 		return ans
-```
+# ```

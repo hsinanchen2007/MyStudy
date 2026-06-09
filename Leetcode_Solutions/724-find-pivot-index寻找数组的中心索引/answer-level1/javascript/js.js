@@ -1,9 +1,9 @@
-### 解题思路
-用left_ind标记中心索引位置，每次加1，比较两边总和
+// ### 解题思路
+// 用left_ind标记中心索引位置，每次加1，比较两边总和
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -27,4 +27,4 @@ var pivotIndex = function (nums) {
   }
   return -1
 }
-```
+// ```

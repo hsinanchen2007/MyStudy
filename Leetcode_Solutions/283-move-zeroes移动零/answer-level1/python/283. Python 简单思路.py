@@ -1,9 +1,9 @@
-### 解题思路
-思路很简单：遍历数组，如果遇到0，则和右边第一个非0的元素交换即可。
+# ### 解题思路
+# 思路很简单：遍历数组，如果遇到0，则和右边第一个非0的元素交换即可。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def moveZeroes(self, nums):
         """
@@ -19,4 +19,4 @@ class Solution(object):
                     break
                 nums[i] = nums[j]
                 nums[j] = 0
-```
+# ```

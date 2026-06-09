@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numDecodings(self, s: str) -> int:
         # 字符串开头第1个元素为0的话,个数为0
@@ -32,4 +32,4 @@ class Solution:
                     dp[i] = dp[i-1]
         return dp[n]
 
-```
+# ```

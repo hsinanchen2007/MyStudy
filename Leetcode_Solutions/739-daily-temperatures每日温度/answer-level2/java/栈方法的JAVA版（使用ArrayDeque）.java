@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int[] dailyTemperatures(int[] T) {
         ArrayDeque<Integer> chun = new ArrayDeque(T.length);
@@ -14,5 +14,5 @@ class Solution {
         return result;
     }
 }
-```
-**也是官方题解的正向循环，因为JAVA推荐使用ArrayDeque，所以放弃使用stack。（Aver58的方法的JAVA版，详细思想请看Aver58的题解）**
+// ```
+// **也是官方题解的正向循环，因为JAVA推荐使用ArrayDeque，所以放弃使用stack。（Aver58的方法的JAVA版，详细思想请看Aver58的题解）**

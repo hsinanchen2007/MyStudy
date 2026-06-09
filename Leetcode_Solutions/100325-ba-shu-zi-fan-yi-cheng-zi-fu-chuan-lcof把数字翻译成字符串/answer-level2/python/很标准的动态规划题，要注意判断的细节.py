@@ -1,5 +1,5 @@
-标准动态规划，要看能不呢和前一位凑到小于25，一定要注意小于10不能再算凑一次
-```python
+# 标准动态规划，要看能不呢和前一位凑到小于25，一定要注意小于10不能再算凑一次
+# ```python
 class Solution:
     def translateNum(self, num: int) -> int:
         if num < 10:
@@ -12,4 +12,4 @@ class Solution:
             else:
                 result[i] = result[i-1] 
         return result[-1]
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
-建立栈，将头节点入栈。
-画图！思考四层时的情况。
+// ### 解题思路
+// 建立栈，将头节点入栈。
+// 画图！思考四层时的情况。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -37,4 +37,4 @@ public:
         return root;
     }
 };
-```
+// ```

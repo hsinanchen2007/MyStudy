@@ -1,6 +1,6 @@
-记录自己的臃肿方法
+// 记录自己的臃肿方法
 
-```
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -31,4 +31,4 @@ public:
         return head;
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
-老铁们，1min写完嗷
-```c++
+// 老铁们，1min写完嗷
+// ```c++
 class Solution {
 public:
   string customSortString(string S, string T) {
@@ -13,4 +13,4 @@ public:
     return T;
   }
 };
-```
+// ```

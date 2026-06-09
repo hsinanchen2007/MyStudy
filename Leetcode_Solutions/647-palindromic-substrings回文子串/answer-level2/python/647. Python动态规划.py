@@ -1,12 +1,12 @@
-### 解题思路
-dp[i][j]记录的是s[i:j + 1]是否为回文串，分成以下三种情况讨论：
-（1）i == j。
-（2）j == i + 1。
-（3）other。
+# ### 解题思路
+# dp[i][j]记录的是s[i:j + 1]是否为回文串，分成以下三种情况讨论：
+# （1）i == j。
+# （2）j == i + 1。
+# （3）other。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def countSubstrings(self, s):
         """
@@ -32,4 +32,4 @@ class Solution(object):
                     cnt += 1
                     
         return cnt
-```
+# ```

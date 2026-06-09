@@ -1,18 +1,18 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-执行用时 :96 ms, 在所有 C 提交中击败了31.06%的用户
-内存消耗 :7.8 MB, 在所有 C 提交中击败了100.00%的用户
+// 执行用时 :96 ms, 在所有 C 提交中击败了31.06%的用户
+// 内存消耗 :7.8 MB, 在所有 C 提交中击败了100.00%的用户
 
-方法一和方法二思路整体相似，但是实现略有不同
+// 方法一和方法二思路整体相似，但是实现略有不同
 
-方法一：
-（1）依次求出0到i的数组和；
-（2）移动左指针，直至符合条件
+// 方法一：
+// （1）依次求出0到i的数组和；
+// （2）移动左指针，直至符合条件
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool checkSubarraySum(int* nums, int numsSize, int k){
     int left, right, temp;
     int *sum = NULL;
@@ -44,15 +44,15 @@ bool checkSubarraySum(int* nums, int numsSize, int k){
     return false;
 }
 
-```
+// ```
 
 
-方法二：
+// 方法二：
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool checkSubarraySum(int* nums, int numsSize, int k){
     int *sum = (int *)malloc(sizeof(int) * numsSize);
 
@@ -71,4 +71,4 @@ bool checkSubarraySum(int* nums, int numsSize, int k){
     }
     return false;
 }
-```
+// ```

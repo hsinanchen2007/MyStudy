@@ -1,9 +1,9 @@
-### 解题思路
-主要是对精讲高赞题解的代码注释，用的是广搜。
+# ### 解题思路
+# 主要是对精讲高赞题解的代码注释，用的是广搜。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
         #用拓扑排序，来判断图是否是有环图
@@ -33,4 +33,4 @@ class Solution:
         
         return not numCourses                #判断时候课程都学完
 
-```
+# ```

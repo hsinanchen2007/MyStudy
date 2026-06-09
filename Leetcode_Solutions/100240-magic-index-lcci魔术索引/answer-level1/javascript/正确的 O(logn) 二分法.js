@@ -1,14 +1,14 @@
-### 解题思路
-假如不存在重复元素的话，则二分法很好实现，但此题存在重复元素，所以会比较复杂一点。
+// ### 解题思路
+// 假如不存在重复元素的话，则二分法很好实现，但此题存在重复元素，所以会比较复杂一点。
 
-举例：
-对于 [0, 1, 4, 4, 4] 这个数组，使用二分法拿出位于中间的 idx 为 2 的数字 4，然后我们发现 nums[idx] > idx
-此刻我们除了可以确认 idx2 不是魔术索引外，还可以确定 idx3 也肯定不是魔术索引。因为假如 idx3 是魔术索引的话那 idx3 的值就必须是 3，这将导致 nums[idx3] < nums[idx2]，和题目的“递增数组”矛盾。
-所以，此刻魔术索引只可能出现在 [0, mid - 1] 和 [nums[mid], nums.length - 1] 这两个范围里。
+// 举例：
+// 对于 [0, 1, 4, 4, 4] 这个数组，使用二分法拿出位于中间的 idx 为 2 的数字 4，然后我们发现 nums[idx] > idx
+// 此刻我们除了可以确认 idx2 不是魔术索引外，还可以确定 idx3 也肯定不是魔术索引。因为假如 idx3 是魔术索引的话那 idx3 的值就必须是 3，这将导致 nums[idx3] < nums[idx2]，和题目的“递增数组”矛盾。
+// 所以，此刻魔术索引只可能出现在 [0, mid - 1] 和 [nums[mid], nums.length - 1] 这两个范围里。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var findMagicIndex = function(nums) {
 	// 在 [left, right] 范围内搜索最小的魔术索引值，不存在则返回 -1
 	var helper = function(left, right) {
@@ -48,4 +48,4 @@ var findMagicIndex = function(nums) {
 	};
 	return helper(0, nums.length - 1);
 };
-```
+// ```

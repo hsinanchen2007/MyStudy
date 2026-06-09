@@ -1,16 +1,16 @@
-解题思路：
-因为数组`nums`已经排好序，需要查找两次的目标值，因此可以用二分搜索，达到O(logn)的复杂度
-1. 对于查找`target`出现的开始位置，我们需要判断3个条件
-+ `nums[middle] == target`
-+ `middle == 0` or `nums[middle-1]  < target`
+# 解题思路：
+# 因为数组`nums`已经排好序，需要查找两次的目标值，因此可以用二分搜索，达到O(logn)的复杂度
+# 1. 对于查找`target`出现的开始位置，我们需要判断3个条件
+# + `nums[middle] == target`
+# + `middle == 0` or `nums[middle-1]  < target`
 
-2. 对于查找`target`的结束位置，我们需要判断3个条件
-+ `nums[middle] == target`
-+ `middle == len(nums)-1` or `nums[middle+1]  > target`
+# 2. 对于查找`target`的结束位置，我们需要判断3个条件
+# + `nums[middle] == target`
+# + `middle == len(nums)-1` or `nums[middle+1]  > target`
 
-![1.png](https://pic.leetcode-cn.com/456b48dadd7e25b57a92fbc6c281dbc9e5205c53156660862acaa49f5179c85d-1.png)
+# ![1.png](https://pic.leetcode-cn.com/456b48dadd7e25b57a92fbc6c281dbc9e5205c53156660862acaa49f5179c85d-1.png)
 
-```
+# ```
 from typing import List
 class Solution:
     def searchRange(self, nums: List[int], target: int) -> List[int]:
@@ -57,4 +57,4 @@ class Solution:
         h = upperbound(0, len(nums)-1)  # 获取上边界
         
         return [l, h]
-```
+# ```

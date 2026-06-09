@@ -1,6 +1,6 @@
-1. 遍历数组，元素作为索引对应位置加n
-2. 遍历数组，出现两次，则对应位置大于2n
-``` C++
+// 1. 遍历数组，元素作为索引对应位置加n
+// 2. 遍历数组，出现两次，则对应位置大于2n
+// ``` C++
 class Solution {
 public:
     vector<int> findDuplicates(vector<int>& nums) {
@@ -21,4 +21,4 @@ public:
         return res;
     }
 };
-```
+// ```

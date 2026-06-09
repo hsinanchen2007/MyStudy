@@ -1,13 +1,13 @@
-1. 关于复杂度
-    1.1 时间复杂度为O(n^2)
-    1.2 空间负责度为O(1)
-2. 我的解题思路
-    2.1 用两个临时变量存储stones数组的长度以及计算的结果
-    2.2 循环1到数组末尾，排序数组，计算最后两个元素相减的结果
-    2.3 根据题意操作最后的两个元素
-<br />
-### java实现
-```
+// 1. 关于复杂度
+//     1.1 时间复杂度为O(n^2)
+//     1.2 空间负责度为O(1)
+// 2. 我的解题思路
+//     2.1 用两个临时变量存储stones数组的长度以及计算的结果
+//     2.2 循环1到数组末尾，排序数组，计算最后两个元素相减的结果
+//     2.3 根据题意操作最后的两个元素
+// <br />
+// ### java实现
+// ```
 /**
  * Problem
  *     1046.Last Stone Weight
@@ -52,10 +52,10 @@ class Solution {
         return stones[stones.length-1];
     }
 }
-```
-<br />
-### php实现
-```
+// ```
+// <br />
+// ### php实现
+// ```
 class Solution{
 
     /**
@@ -89,7 +89,7 @@ class Solution{
         return $stones[count($stones) - 1];
     }
 }
-```
+// ```
 
-如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理
-你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路
+// 如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理
+// 你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路

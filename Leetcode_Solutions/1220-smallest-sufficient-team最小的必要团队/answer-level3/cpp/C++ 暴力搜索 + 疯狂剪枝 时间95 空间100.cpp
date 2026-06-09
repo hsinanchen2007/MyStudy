@@ -1,8 +1,8 @@
-两步预处理
-1. 去掉所有不在需求列表里面的员工技能
-2. 去掉所有能被另外一个员工完全替代的员工 包括技能为空的员工
+// 两步预处理
+// 1. 去掉所有不在需求列表里面的员工技能
+// 2. 去掉所有能被另外一个员工完全替代的员工 包括技能为空的员工
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> smallestSufficientTeam(vector<string>& req_skills, vector<vector<string>>& people) {
@@ -67,4 +67,4 @@ public:
         --iter;
     }
 };
-```
+// ```

@@ -1,15 +1,15 @@
-### 解题思路
-$grid[x][y]$
-* 0: 水域
-* 1: 陆地
-* 2: 已经遍历过的陆地
+// ### 解题思路
+// $grid[x][y]$
+// * 0: 水域
+// * 1: 陆地
+// * 2: 已经遍历过的陆地
 
-从图中可以看出来，如果无法访问相邻的节点，那么就遇到了一个边界，这时候周长就需要加1。
-![Screen Shot 2020-03-16 at 21.08.29.png](https://pic.leetcode-cn.com/708b3be4d989e0f3efa304295f58bc35381ca451550524b4a0052d55485bde58-Screen%20Shot%202020-03-16%20at%2021.08.29.png)
+// 从图中可以看出来，如果无法访问相邻的节点，那么就遇到了一个边界，这时候周长就需要加1。
+// ![Screen Shot 2020-03-16 at 21.08.29.png](https://pic.leetcode-cn.com/708b3be4d989e0f3efa304295f58bc35381ca451550524b4a0052d55485bde58-Screen%20Shot%202020-03-16%20at%2021.08.29.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int islandPerimeter(int[][] grid) {
         for (int x = 0; x < grid.length; ++x) {
@@ -46,4 +46,4 @@ class Solution {
         return preimeter;
     }
 }
-```
+// ```

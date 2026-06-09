@@ -1,5 +1,5 @@
-一开始没给c赋初始值，在`s="",t="y"`这个例子上出错了。
-```C++ []
+// 一开始没给c赋初始值，在`s="",t="y"`这个例子上出错了。
+// ```C++ []
 class Solution {
 public:
 	char findTheDifference(string s, string t) {
@@ -13,4 +13,4 @@ public:
 		return c;
 	}
 };
-```
+// ```

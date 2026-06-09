@@ -1,9 +1,9 @@
-### 解题思路
-通过栈匹配相应括号
+// ### 解题思路
+// 通过栈匹配相应括号
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 //链表节点
 typedef struct Node
 {
@@ -105,4 +105,4 @@ char * removeOuterParentheses(char * S){
     free(head);
     return result;
 }
-```
+// ```

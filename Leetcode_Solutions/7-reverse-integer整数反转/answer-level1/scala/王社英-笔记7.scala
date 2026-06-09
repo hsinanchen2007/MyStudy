@@ -1,5 +1,5 @@
-1,直接利用scala提供的工具计算
-```
+// 1,直接利用scala提供的工具计算
+// ```
 
 object Solution {
   def reverse(x: Int): Int = {
@@ -19,4 +19,4 @@ object Solution {
     y
   }
 }
-```
+// ```

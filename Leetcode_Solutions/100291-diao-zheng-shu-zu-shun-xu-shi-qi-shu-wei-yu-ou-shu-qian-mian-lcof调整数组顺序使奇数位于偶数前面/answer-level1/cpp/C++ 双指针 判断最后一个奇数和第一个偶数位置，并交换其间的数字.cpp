@@ -1,7 +1,7 @@
-利用双指针，一个指针找到最后一个奇数的位置lastOd，一个指针找到第一个偶数位置firstEv，并交换firstEv~lastOd下标之间的数字nums[firstEv]~nums[lastOd]
-时间复杂度为O(N),空间复杂度O(N).
+// 利用双指针，一个指针找到最后一个奇数的位置lastOd，一个指针找到第一个偶数位置firstEv，并交换firstEv~lastOd下标之间的数字nums[firstEv]~nums[lastOd]
+// 时间复杂度为O(N),空间复杂度O(N).
 
-```
+// ```
 class Solution {
 public:
     vector<int> exchange(vector<int>& nums) {
@@ -47,4 +47,4 @@ public:
         return res;
     }
 };
-```
+// ```

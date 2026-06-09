@@ -1,10 +1,10 @@
-### 解题思路
-直接套用滑动窗口模板
-需要注意的是左指针的移动条件，当左指针移动的时候 tmp++
+# ### 解题思路
+# 直接套用滑动窗口模板
+# 需要注意的是左指针的移动条件，当左指针移动的时候 tmp++
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from collections import defaultdict
 class Solution:
     def subarraysWithKDistinct(self, A: List[int], K: int) -> int:
@@ -38,4 +38,4 @@ class Solution:
 
 
 
-```
+# ```

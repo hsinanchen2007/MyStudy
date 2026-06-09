@@ -1,9 +1,9 @@
-最初的想法，是全排列，然后随便返回一个排列完的数组。天真了。超时过不去。
+// 最初的想法，是全排列，然后随便返回一个排列完的数组。天真了。超时过不去。
 
-##洗牌
+// ##洗牌
 
-说是mt_rand 比 rand 快4倍。
-```
+// 说是mt_rand 比 rand 快4倍。
+// ```
 class Solution {
     private $nums = [];
     private $originNums = [];
@@ -43,4 +43,4 @@ class Solution {
 
 }
 
-```
+// ```

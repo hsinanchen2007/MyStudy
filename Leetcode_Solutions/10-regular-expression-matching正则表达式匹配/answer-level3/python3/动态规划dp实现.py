@@ -1,4 +1,4 @@
-主要需要处理 * 多做0个，或 * 当做多个的情况
+# 主要需要处理 * 多做0个，或 * 当做多个的情况
 
 class Solution:
     def isMatch(self, s: str, p: str) -> bool:

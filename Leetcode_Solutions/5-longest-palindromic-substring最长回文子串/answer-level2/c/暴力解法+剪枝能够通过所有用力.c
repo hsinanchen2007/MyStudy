@@ -1,4 +1,4 @@
-利用之前已经得到的max，如果回文个数已经少于max个，就走不到max < (j - i + 1)，没必要再进入
+// 利用之前已经得到的max，如果回文个数已经少于max个，就走不到max < (j - i + 1)，没必要再进入
 
 char * longestPalindrome(char * s){
     int length = strlen(s);

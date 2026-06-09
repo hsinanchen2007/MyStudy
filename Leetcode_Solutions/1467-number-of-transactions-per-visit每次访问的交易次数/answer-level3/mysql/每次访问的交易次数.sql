@@ -1,9 +1,9 @@
-### 解题思路
-关键是要找到用户一次访问中的 max(transactions_count) ，然后从 0开始排序 。可以先求出最大访问次数的 user_id 和 transaction_date ，然后从Transactions 表找到相应的记录，此时根据条数可以求得排序。
+-- ### 解题思路
+-- 关键是要找到用户一次访问中的 max(transactions_count) ，然后从 0开始排序 。可以先求出最大访问次数的 user_id 和 transaction_date ，然后从Transactions 表找到相应的记录，此时根据条数可以求得排序。
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 
 select G.transactions_count,ifnull(H.visits_count,0) visits_count 
@@ -54,4 +54,4 @@ group by user_id,transaction_date
 ) H
 on G.transactions_count=H.ct
 
-```
+-- ```

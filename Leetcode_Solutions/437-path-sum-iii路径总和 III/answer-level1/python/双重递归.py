@@ -1,12 +1,12 @@
-### 解题思路
-要点:
-1. 前序遍历二叉树,遍历根节点到其他节点的路径
-2. 由于不要求一定从根节点开始,因此主函数需要递归每一个节点.
-还是挺复杂的,怎么会是easy...
+# ### 解题思路
+# 要点:
+# 1. 前序遍历二叉树,遍历根节点到其他节点的路径
+# 2. 由于不要求一定从根节点开始,因此主函数需要递归每一个节点.
+# 还是挺复杂的,怎么会是easy...
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -39,4 +39,4 @@ class Solution(object):
         self.get_path(root.left, new_target)
         self.get_path(root.right, new_target)
 
-```
+# ```

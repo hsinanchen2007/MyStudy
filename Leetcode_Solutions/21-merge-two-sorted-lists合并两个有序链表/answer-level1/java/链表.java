@@ -1,10 +1,10 @@
-### 解题思路
-用时1ms，击败81.81%
-注意相同值时链表不能断链
+// ### 解题思路
+// 用时1ms，击败81.81%
+// 注意相同值时链表不能断链
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -42,4 +42,4 @@ class Solution {
         return root.next;
     }
 }
-```
+// ```

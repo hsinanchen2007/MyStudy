@@ -1,6 +1,6 @@
-手写了快排算法，做了去重处理，优化了一些操作，代码里做了注释，一看就应该明白
+// 手写了快排算法，做了去重处理，优化了一些操作，代码里做了注释，一看就应该明白
 
-```
+// ```
 func threeSum(nums []int) [][]int {
 	if len(nums) < 3 { return [][]int{} }
 
@@ -56,4 +56,4 @@ func QuickSort(array []int) {
 	QuickSort(array[l + 1:])
 }
 
-```
+// ```

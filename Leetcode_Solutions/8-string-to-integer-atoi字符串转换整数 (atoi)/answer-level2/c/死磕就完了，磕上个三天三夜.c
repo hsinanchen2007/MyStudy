@@ -1,9 +1,9 @@
-### 解题思路
-菜鸟一个，不会高级的，盘就完了，跟他死磕，有多少种输入就设几个判断。
+// ### 解题思路
+// 菜鸟一个，不会高级的，盘就完了，跟他死磕，有多少种输入就设几个判断。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int myAtoi(char * str){
 
     long long returnNum = 0;
@@ -52,4 +52,4 @@ int myAtoi(char * str){
     else if(returnNum < -2147483648) return -2147483648;
     return returnNum;
 }
-```
+// ```

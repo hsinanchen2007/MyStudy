@@ -1,9 +1,9 @@
-### 解题思路
-![TI)ELU\[4EK\]B{V{TVJ0QJ(0.png](https://pic.leetcode-cn.com/166058598e4691576a671f8b9727dffc2a8f208327e06d65256aa03aefb64c52-TI\)ELU%5B4EK%5DB%7BV%7BTVJ0QJ\(0.png)
+// ### 解题思路
+// ![TI)ELU\[4EK\]B{V{TVJ0QJ(0.png](https://pic.leetcode-cn.com/166058598e4691576a671f8b9727dffc2a8f208327e06d65256aa03aefb64c52-TI\)ELU%5B4EK%5DB%7BV%7BTVJ0QJ\(0.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minCostClimbingStairs(vector<int>& cost) {
@@ -19,4 +19,4 @@ public:
         return min(one,two);
     }
 };
-```
+// ```

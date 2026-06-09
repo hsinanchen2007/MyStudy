@@ -1,16 +1,16 @@
-[322.零钱兑换](https://leetcode-cn.com/problems/coin-change/submissions/)   
+// [322.零钱兑换](https://leetcode-cn.com/problems/coin-change/submissions/)   
 
-[力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md) 
+// [力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md) 
 
-解题思路可以参考[大神解析](https://leetcode-cn.com/problems/coin-change/solution/dong-tai-gui-hua-tao-lu-xiang-jie-by-wei-lai-bu-ke/)。
+// 解题思路可以参考[大神解析](https://leetcode-cn.com/problems/coin-change/solution/dong-tai-gui-hua-tao-lu-xiang-jie-by-wei-lai-bu-ke/)。
 
-## 方法一 暴力递归
+// ## 方法一 暴力递归
 
-把问题都递归拆解成一个个小问题，最后求解。   
+// 把问题都递归拆解成一个个小问题，最后求解。   
 
-力扣会超时。
+// 力扣会超时。
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} coins
  * @param {number} amount
@@ -27,13 +27,13 @@ var coinChange = function(coins, amount) {
     }
     return Number.isFinite(min) ? min : -1;
 };
-```
+// ```
 
-## 方法二 带备忘录的递归   
+// ## 方法二 带备忘录的递归   
 
-使用数组arr保存已经计算过的数据。   
+// 使用数组arr保存已经计算过的数据。   
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} coins
  * @param {number} amount
@@ -57,13 +57,13 @@ function help(coins, amount, arr) {
     arr[amount] = Number.isFinite(min) ? min : -1;
     return arr[amount];
 }
-```   
+// ```   
 
-## 方法三 动态规划   
+// ## 方法三 动态规划   
 
-把方法二转化成动态规划。
+// 把方法二转化成动态规划。
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} coins
  * @param {number} amount
@@ -81,4 +81,4 @@ var coinChange = function(coins, amount) {
     }
     return dp[amount] > amount ? -1 : dp[amount]
 };
-```
+// ```

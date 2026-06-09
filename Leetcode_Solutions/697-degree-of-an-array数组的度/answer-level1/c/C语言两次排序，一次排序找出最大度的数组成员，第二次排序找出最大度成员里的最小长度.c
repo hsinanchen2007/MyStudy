@@ -1,4 +1,4 @@
-利用题目里的入参限制
+// 利用题目里的入参限制
 typedef struct arrstr {
     int num;
     int start;

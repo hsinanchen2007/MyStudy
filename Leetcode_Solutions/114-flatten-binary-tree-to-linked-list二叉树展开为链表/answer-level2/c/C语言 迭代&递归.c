@@ -1,9 +1,9 @@
-### 解题思路
-递归迭代都齐了，走起！！！
+// ### 解题思路
+// 递归迭代都齐了，走起！！！
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -57,4 +57,4 @@ void flatten(struct TreeNode* root){
 }
 
 
-```
+// ```

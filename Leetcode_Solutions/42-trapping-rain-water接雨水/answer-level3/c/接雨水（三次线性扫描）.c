@@ -1,4 +1,4 @@
-```
+// ```
 
 int max(int a, int b)
 {
@@ -30,4 +30,4 @@ int trap(int* height, int heightSize){
     free(leftMax), free(rightMax);
     return ans;
 }
-```
+// ```

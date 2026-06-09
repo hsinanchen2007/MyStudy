@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def myAtoi(self, strs: str) -> int:
         strs = strs.strip() #去空格
@@ -30,4 +30,4 @@ class Solution:
         elif sign == -1: 
             return max(sign * int(strs) ,-2**31)
             
-```
+# ```

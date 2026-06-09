@@ -1,4 +1,4 @@
-```javascript []
+// ```javascript []
 var reverse = function(x) {
     let N = Math.abs(x)+'';
     let match = N.match(/0+$/);
@@ -16,4 +16,4 @@ var reverse = function(x) {
       return res < Math.pow(2,31)-1 ? res : 0;
     }
 };
-```
+// ```

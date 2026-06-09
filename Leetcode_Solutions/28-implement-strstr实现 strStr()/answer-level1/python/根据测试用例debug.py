@@ -1,7 +1,7 @@
-### 解题思路
-没话说。交一个错一个，根据用例debug
-### 代码
-```python
+# ### 解题思路
+# 没话说。交一个错一个，根据用例debug
+# ### 代码
+# ```python
 class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
         if not needle:return 0
@@ -15,4 +15,4 @@ class Solution:
                     else:break
                     if ind == len(needle):return i
         return -1
-```
+# ```

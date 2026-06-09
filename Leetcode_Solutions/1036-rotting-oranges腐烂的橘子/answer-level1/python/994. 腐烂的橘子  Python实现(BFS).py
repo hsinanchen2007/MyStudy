@@ -1,9 +1,9 @@
-### 解题思路
-主要运用了Flood Fill算法。初始将所有腐烂的橘子入队列。每一次往外延伸一层, 将临接的新鲜橘子置为腐烂。直到完成(队列为空), 记下用时(层数)。注意如果所有初始单元格为空, 返回0。
+# ### 解题思路
+# 主要运用了Flood Fill算法。初始将所有腐烂的橘子入队列。每一次往外延伸一层, 将临接的新鲜橘子置为腐烂。直到完成(队列为空), 记下用时(层数)。注意如果所有初始单元格为空, 返回0。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def orangesRotting(self, grid):
         """
@@ -40,10 +40,10 @@ class Solution(object):
                 if grid[i][j] == 1:
                     return -1   # 只要有一个新鲜橘子, 就返回-1
         return d  # 返回最终经过的时间            
-```
+# ```
 
 
-```python
+# ```python
 class Solution(object):
     def orangesRotting(self, grid):
         """
@@ -85,4 +85,4 @@ class Solution(object):
                     count0 += 1
         # 返回最终经过的时间(如果初始所有单元格都为0, 返回0)
         return d if count0 != len(grid) * len(grid[0]) else 0  
-```
+# ```

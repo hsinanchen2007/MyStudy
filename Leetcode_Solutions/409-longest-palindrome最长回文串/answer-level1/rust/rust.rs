@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/383774bf5bedbaccb3d2af5e762c55debed6da6a3d82f409063cf13036619806-image.png)
+// ![image.png](https://pic.leetcode-cn.com/383774bf5bedbaccb3d2af5e762c55debed6da6a3d82f409063cf13036619806-image.png)
 
-```Rust
+// ```Rust
 impl Solution {
     pub fn longest_palindrome(s: String) -> i32 {
         let mut bucket = vec![0i32;256];
@@ -15,4 +15,4 @@ impl Solution {
         else { max_len }
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-时间复杂度：O（n）
+# ### 解题思路
+# 时间复杂度：O（n）
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
         if not nums:
@@ -17,4 +17,4 @@ class Solution:
                 del nums[i-del_count]
                 del_count += 1
         return count
-```
+# ```

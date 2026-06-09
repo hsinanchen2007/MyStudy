@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -20,4 +20,4 @@ class Solution:
         if t1.val != t2.val: return False   
         return self.check(t1.left, t2.right) and self.check(t1.right, t2.left)
 
-```
+# ```

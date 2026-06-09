@@ -1,10 +1,10 @@
-### 解题思路
-第一次先循环把字符的出现次数统计出来，
-然后循环遍历字符串数组，判断每个字符串是否满足
+// ### 解题思路
+// 第一次先循环把字符的出现次数统计出来，
+// 然后循环遍历字符串数组，判断每个字符串是否满足
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func countCharacters(_ words: [String], _ chars: String) -> Int {
         var dic:[Character: Int] = [:]
@@ -35,4 +35,4 @@ class Solution {
         return count
     }
 }
-```
+// ```

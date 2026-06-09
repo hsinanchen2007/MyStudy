@@ -1,11 +1,11 @@
-### 解题思路
-先遍历一遍数组，找到初始位置和结束位置，用字典记录每个位置的初始状态，障碍物，起始位置初始为True，其他为False。
-dfs时从起始位置开始遍历，并修改每个遍历点的状态，如果到达结束位置，并且所有状态都为True，则是一条路径。遍历到结束位置后，
-回溯到上一个点，将状态重新修改为False，找新路径继续遍历。
+# ### 解题思路
+# 先遍历一遍数组，找到初始位置和结束位置，用字典记录每个位置的初始状态，障碍物，起始位置初始为True，其他为False。
+# dfs时从起始位置开始遍历，并修改每个遍历点的状态，如果到达结束位置，并且所有状态都为True，则是一条路径。遍历到结束位置后，
+# 回溯到上一个点，将状态重新修改为False，找新路径继续遍历。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def uniquePathsIII(self, grid: List[List[int]]) -> int:
         from collections import defaultdict
@@ -48,4 +48,4 @@ class Solution:
                 visited_dict[(tmp_i, tmp_j)] = True
                 self.backtrack((tmp_i, tmp_j), end, visited_dict, row, col, grid)
                 visited_dict[(tmp_i, tmp_j)] = False
-```
+# ```

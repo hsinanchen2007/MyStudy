@@ -1,9 +1,9 @@
-### 解题思路
-没啥好说的，取模真的神奇
+// ### 解题思路
+// 没啥好说的，取模真的神奇
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int fib(int n) {
         if (n == 0) return 0;
@@ -17,4 +17,4 @@ class Solution {
         return dp[n];
     }
 }
-```
+// ```

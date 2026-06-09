@@ -1,4 +1,4 @@
-```python []
+// ```python []
 if n == 1: return 1
 
 size = n // 2
@@ -17,7 +17,7 @@ while size > 1:
     size = size // 2
     turn += 1
 return first
-```
+// ```
 
 
 

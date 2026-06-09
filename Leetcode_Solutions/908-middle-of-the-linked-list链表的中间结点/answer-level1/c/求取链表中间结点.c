@@ -1,8 +1,8 @@
-### 解题思路
-两次遍历，第一次遍历求出链表长度，第二次遍历求取中间的结点。时间复杂度O(N)
-### 代码
+// ### 解题思路
+// 两次遍历，第一次遍历求出链表长度，第二次遍历求取中间的结点。时间复杂度O(N)
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -27,4 +27,4 @@ struct ListNode* middleNode(struct ListNode* head){
      }
      return head;
 }
-```
+// ```

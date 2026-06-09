@@ -1,6 +1,6 @@
-利用凸包的ToLeft测试，具体[见此](https://newdee.gitbook.io/leetcode/leetcode-index/836.rectangle_overlap)
+// 利用凸包的ToLeft测试，具体[见此](https://newdee.gitbook.io/leetcode/leetcode-index/836.rectangle_overlap)
 
-```
+// ```
 class Solution {
 //To Left Test; line: px, py, qx,qy;point: sx,sy;
   //p.x * q.y - p.y* q.x + q.x * s.y - q.y * s.x + s.x * p.y - s.y * p.x;
@@ -28,8 +28,8 @@ public:
         
     }
 };
-```
+// ```
 
 
-> 执行用时 :4 ms, 在所有 C++ 提交中击败了75.38%的用户                                                                  
-内存消耗 :8.1 MB, 在所有 C++ 提交中击败了92.54%的用户
+// > 执行用时 :4 ms, 在所有 C++ 提交中击败了75.38%的用户                                                                  
+// 内存消耗 :8.1 MB, 在所有 C++ 提交中击败了92.54%的用户

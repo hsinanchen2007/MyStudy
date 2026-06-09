@@ -1,6 +1,6 @@
-在循环的过程中，计算出坐标，四个数字交换。
+// 在循环的过程中，计算出坐标，四个数字交换。
 
-```go
+// ```go
 func rotate(matrix [][]int) {
 	size := len(matrix)
 
@@ -16,4 +16,4 @@ func rotate(matrix [][]int) {
 		}
 	}
 }
-```
+// ```

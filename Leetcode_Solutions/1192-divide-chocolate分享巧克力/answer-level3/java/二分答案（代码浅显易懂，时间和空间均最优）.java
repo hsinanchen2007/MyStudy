@@ -1,5 +1,5 @@
-直接二分答案即可。
-```
+// 直接二分答案即可。
+// ```
 class Solution {
     public int maximizeSweetness(int[] sweetness, int K) {
         int sum=0,ans=0;
@@ -36,4 +36,4 @@ class Solution {
     	return num>=k+1;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -17,4 +17,4 @@ struct ListNode *getIntersectionNode(struct ListNode *headA, struct ListNode *he
 
     return pA;
 }
-```
+// ```

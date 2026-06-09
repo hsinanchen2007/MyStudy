@@ -1,18 +1,18 @@
-### Analysis
+// ### Analysis
 
-题目的关键在于 **删除重复项**，因此重点在于找到所有重复项，包含 **因为删除而产生的重复项**，因此可以使用栈实现。
-每次添加时比较是否与栈顶元素相同
+// 题目的关键在于 **删除重复项**，因此重点在于找到所有重复项，包含 **因为删除而产生的重复项**，因此可以使用栈实现。
+// 每次添加时比较是否与栈顶元素相同
 
-- 若相同则删除栈顶元素且不插入
-- 若不相同则插入新元素
+// - 若相同则删除栈顶元素且不插入
+// - 若不相同则插入新元素
 
-### Solution 【栈】 ( 76ms)
+// ### Solution 【栈】 ( 76ms)
 
-> 执行用时 : 76 ms, 在Remove All Adjacent Duplicates In String的Java提交中击败了60.63% 的用户
->
-> 内存消耗 : 37.5 MB, 在Remove All Adjacent Duplicates In String的Java提交中击败了100.00% 的用户
+// > 执行用时 : 76 ms, 在Remove All Adjacent Duplicates In String的Java提交中击败了60.63% 的用户
+// >
+// > 内存消耗 : 37.5 MB, 在Remove All Adjacent Duplicates In String的Java提交中击败了100.00% 的用户
 
-```Java []
+// ```Java []
 class Solution {
     public String removeDuplicates(String S) {
         /* 只需删除重复项即可，因此可以使用栈实现
@@ -41,9 +41,9 @@ class Solution {
         
     }
 }
-```
+// ```
 
-##### 复杂度分析
+// ##### 复杂度分析
 
-时间复杂度：$O(N)$  
-空间复杂度：$O(N)$
+// 时间复杂度：$O(N)$  
+// 空间复杂度：$O(N)$

@@ -1,6 +1,6 @@
-**回溯算法，时间击败96%**
+// **回溯算法，时间击败96%**
 
-```
+// ```
 class Solution {
     public boolean exist(char[][] board, String word) {
         char[] arr = word.toCharArray();
@@ -53,4 +53,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

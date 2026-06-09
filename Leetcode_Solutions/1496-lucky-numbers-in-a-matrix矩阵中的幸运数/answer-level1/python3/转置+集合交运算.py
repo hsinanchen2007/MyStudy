@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def luckyNumbers (self, matrix):
         lis1 = []
@@ -15,4 +15,4 @@ class Solution(object):
         return list(set(lis1) & set(lis2))
         
         
-```
+# ```

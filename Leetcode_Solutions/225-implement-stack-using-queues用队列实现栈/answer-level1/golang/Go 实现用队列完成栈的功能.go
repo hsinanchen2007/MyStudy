@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-用顺序队列实现栈的基本功能
+// ### 解题思路
+// 此处撰写解题思路
+// 用顺序队列实现栈的基本功能
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type MyStack struct {
     data []int  // 用队列实现栈
 }
@@ -53,4 +53,4 @@ func (this *MyStack) Empty() bool {
  * param_3 := obj.Top();
  * param_4 := obj.Empty();
  */
-```
+// ```

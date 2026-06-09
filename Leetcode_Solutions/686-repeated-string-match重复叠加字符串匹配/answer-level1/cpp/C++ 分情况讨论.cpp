@@ -1,10 +1,10 @@
 
-        1.B包含A：k=B.size()/A.size() 向上取整，结果只可能是<=k+1而不会更大了
-        2.B不包含A，则结果一定不会大于2
-            2.1 A包含B return 1
-            2.2 A不包含B，看2*A是否包含B，包含return 2；不包含return -1；
+//         1.B包含A：k=B.size()/A.size() 向上取整，结果只可能是<=k+1而不会更大了
+//         2.B不包含A，则结果一定不会大于2
+//             2.1 A包含B return 1
+//             2.2 A不包含B，看2*A是否包含B，包含return 2；不包含return -1；
 
-```
+// ```
 class Solution {
 public:
     int repeatedStringMatch(string A, string B) {
@@ -33,4 +33,4 @@ public:
         }
     }
 };
-```
+// ```

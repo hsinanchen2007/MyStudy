@@ -1,5 +1,5 @@
-get all the values and return the reversed array.
-```ruby
+# get all the values and return the reversed array.
+# ```ruby
 def reverse_print(head)
     res = []
     while head != nil
@@ -8,4 +8,4 @@ def reverse_print(head)
     end
     res.reverse
 end
-```
+# ```

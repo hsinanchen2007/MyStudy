@@ -1,20 +1,20 @@
-### 解题思路
+# ### 解题思路
 
-使用
-```
+# 使用
+# ```
 1 1 1
 1 0 1
 1 1 1
-```
-进行卷积，根据结果对原数据进行修改。
+# ```
+# 进行卷积，根据结果对原数据进行修改。
 
-小于2 ---> 死亡（0）
-等于3 ---> 活过来（1）
-大于3 ---> 死亡（0）
+# 小于2 ---> 死亡（0）
+# 等于3 ---> 活过来（1）
+# 大于3 ---> 死亡（0）
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import numpy as np
 from scipy import signal
 class Solution:
@@ -32,4 +32,4 @@ class Solution:
         for i in range(len(board)):
             for j in range(len(board[0])):
                 board[i][j] = arr[i, j]
-```
+# ```

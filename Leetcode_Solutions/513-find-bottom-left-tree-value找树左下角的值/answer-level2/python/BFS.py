@@ -1,9 +1,9 @@
-### 解题思路
-逐层遍历，先右后左，最后剩下底层最左
+# ### 解题思路
+# 逐层遍历，先右后左，最后剩下底层最左
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -20,4 +20,4 @@ class Solution:
             if node.left: next_level.append(node.left)
         return node.val
 
-```
+# ```

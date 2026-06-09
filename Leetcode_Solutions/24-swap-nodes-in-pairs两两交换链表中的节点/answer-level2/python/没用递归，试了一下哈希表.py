@@ -1,15 +1,15 @@
-### 解题思路
-把所有节点地址先放进哈希表
-两两转指针，再把表里的位置也改了
-两组之间链接指针
-最后一位指向None
-当然性能不行，特别是对25题那种，我再去康康递归
-![image.png](https://pic.leetcode-cn.com/844a27190a3a199d0649d5222d99df1a459fd7f48a380fca83365d89398476c9-image.png)
+# ### 解题思路
+# 把所有节点地址先放进哈希表
+# 两两转指针，再把表里的位置也改了
+# 两组之间链接指针
+# 最后一位指向None
+# 当然性能不行，特别是对25题那种，我再去康康递归
+# ![image.png](https://pic.leetcode-cn.com/844a27190a3a199d0649d5222d99df1a459fd7f48a380fca83365d89398476c9-image.png)
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -36,4 +36,4 @@ class Solution(object):
         count[index].next=None
         return star
 
-```
+# ```

@@ -1,17 +1,17 @@
-### 解题思路
-分析
-* 根为最小的值
-* 若root != left != right
-    * return min(left, right)
-* 若root == left ( or root == right )
-    * 返回secondMinimum(left)(若有)
-    * 否则return right
-* 若root == left == right
-    * 返回min(secondMinimum(left), secondMinimum(right))
+# ### 解题思路
+# 分析
+# * 根为最小的值
+# * 若root != left != right
+#     * return min(left, right)
+# * 若root == left ( or root == right )
+#     * 返回secondMinimum(left)(若有)
+#     * 否则return right
+# * 若root == left == right
+#     * 返回min(secondMinimum(left), secondMinimum(right))
 
-### 代码
+# ### 代码
 
-```python[]()
+# ```python[]()
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -49,4 +49,4 @@ class Solution:
             if left == -1: return right
             return min(left, right)
         return v2(root)
-```
+# ```

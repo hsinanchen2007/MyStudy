@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 private:
     // self define lower_bound, we can use stl lower_bound as below or comment code in self define function
@@ -33,4 +33,4 @@ public:
     }
 };
 
-```
+// ```

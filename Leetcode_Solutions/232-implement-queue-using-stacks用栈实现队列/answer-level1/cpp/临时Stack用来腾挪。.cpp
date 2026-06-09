@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/bb43bcea0b66a292ca4bfe136d31f9c111a07bd821b28c1131785faff378b442-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/bb43bcea0b66a292ca4bfe136d31f9c111a07bd821b28c1131785faff378b442-image.png)
 
-此处撰写解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 
 class MyQueue {
 public:
@@ -56,4 +56,4 @@ public:
     }
     stack<int> data;
 };
-```
+// ```

@@ -1,7 +1,7 @@
 
-已经用字典了还是超时！！之后优化为不删除元素版本,通过。
+# 已经用字典了还是超时！！之后优化为不删除元素版本,通过。
 
-```
+# ```
 class Solution:
     def containsNearbyDuplicate(self, nums: List[int], k: int) -> bool:
         if k==35000: return False
@@ -14,11 +14,11 @@ class Solution:
             else:
                 dic[i]=v
         return False
-```
+# ```
 
 
 
-```
+# ```
 class Solution:
     def containsNearbyDuplicate(self, nums: List[int], k: int) -> bool:
         dic={}
@@ -27,4 +27,4 @@ class Solution:
                 return True
             dic[v]=i
         return False
-```
+# ```

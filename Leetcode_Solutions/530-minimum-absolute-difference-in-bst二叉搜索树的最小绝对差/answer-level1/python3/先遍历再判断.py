@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def getMinimumDifference(self, root: TreeNode) -> int:
         def f(node):
@@ -10,4 +10,4 @@ class Solution:
         for i in range(len(vals) - 1):
             ans = min(ans, abs(vals[i] - vals[i + 1]))
         return ans
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-rt
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// rt
+// ### 代码
 
-```c
+// ```c
 //初始化， 棋子为‘X’的老父亲设为-2，棋盘边缘棋子为‘O’且的老父亲设为-1，棋盘内棋子为‘O’的老父亲设为自己，
 void init(char **board, int boardSize, int *boardColSize, int *fa, int len)
 {  
@@ -105,4 +105,4 @@ void solve(char** board, int boardSize, int* boardColSize){
         }
     }
 }
-```
+// ```

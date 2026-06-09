@@ -1,4 +1,4 @@
-```
+// ```
     int rob(vector<int>& nums) {
         int n = nums.size();
         if(!n) return 0;
@@ -14,4 +14,4 @@
         }
         return curmax;
     }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-使用哈希表存储字符出现的次数
+// ### 解题思路
+// 使用哈希表存储字符出现的次数
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     char firstUniqChar(string s) {
@@ -18,4 +18,4 @@ public:
         return ' ';
     }
 };
-```
+// ```

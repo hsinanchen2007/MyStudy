@@ -1,12 +1,12 @@
-## 思想：
-用两个指针形成一个在待匹配字符串上的“窗口”，当出现特定的字符时，左边的指针“滑动”到某一位置，直到完成匹配
-**时间复杂度：O(n)**
->---
->---
-### 例子：
+# ## 思想：
+# 用两个指针形成一个在待匹配字符串上的“窗口”，当出现特定的字符时，左边的指针“滑动”到某一位置，直到完成匹配
+# **时间复杂度：O(n)**
+# >---
+# >---
+# ### 例子：
 
-#### 1.查找无重复字符的最长子串
-```pyhton3:解一 []
+# #### 1.查找无重复字符的最长子串
+# ```pyhton3:解一 []
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         # 初始化子指针和最大长度，不需要额外的匹配子串
@@ -21,8 +21,8 @@ class Solution:
                 max_l = l
         return max_l
 # 用时：72ms 击败率：91%
-```
-```pyhton3：解二 []
+# ```
+# ```pyhton3：解二 []
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         # 初始化子串、指针、最大长度
@@ -39,4 +39,4 @@ class Solution:
                 max_l = l
         return max_l
 # 用时：84ms 击败率：78%
-```
+# ```

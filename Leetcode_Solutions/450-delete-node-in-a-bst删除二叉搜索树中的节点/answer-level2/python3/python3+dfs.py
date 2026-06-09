@@ -1,10 +1,10 @@
-### 解题思路比较清楚的实现，但是应该还可以优化，不懂的同学可以看看《数据结构与算法Python语言实现》这本书的第11章
-![UC截图20200102205226.png](https://pic.leetcode-cn.com/5b67565f40cb0da2a647ce5ced780acd607aa3cc2b3ccffa791fabb31850ff2e-UC%E6%88%AA%E5%9B%BE20200102205226.png)
+# ### 解题思路比较清楚的实现，但是应该还可以优化，不懂的同学可以看看《数据结构与算法Python语言实现》这本书的第11章
+# ![UC截图20200102205226.png](https://pic.leetcode-cn.com/5b67565f40cb0da2a647ce5ced780acd607aa3cc2b3ccffa791fabb31850ff2e-UC%E6%88%AA%E5%9B%BE20200102205226.png)
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -80,4 +80,4 @@ class Solution:
             cur.left = left_node
             cur.right = node.right
         return root
-```
+# ```

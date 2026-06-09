@@ -1,9 +1,9 @@
-### 解题思路
-C++，用unordered_map统计词频, 用partical_sort排出top k，应该能更快些。晚些时候手写一个堆。
+// ### 解题思路
+// C++，用unordered_map统计词频, 用partical_sort排出top k，应该能更快些。晚些时候手写一个堆。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> topKFrequent(vector<string>& words, int k) {
@@ -39,4 +39,4 @@ public:
         return results;
     }
 };
-```
+// ```

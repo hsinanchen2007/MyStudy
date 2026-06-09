@@ -1,5 +1,5 @@
-class Solution {
-```
+// class Solution {
+// ```
 public:
     bool isPalindrome(string s) {
         string t;
@@ -16,5 +16,5 @@ public:
 		}
 		return 1;
     }
-```
-};
+// ```
+// };

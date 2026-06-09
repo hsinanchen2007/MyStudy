@@ -1,5 +1,5 @@
-嗯，，，没啥好说的，就直接疯狂遍历就ok了
-```
+// 嗯，，，没啥好说的，就直接疯狂遍历就ok了
+// ```
 class Solution {
     int theminnotused(bool *used,int len)
     {//寻找最靠前的未使用的元素
@@ -69,4 +69,4 @@ public:
         return re;
     }
 };
-```
+// ```

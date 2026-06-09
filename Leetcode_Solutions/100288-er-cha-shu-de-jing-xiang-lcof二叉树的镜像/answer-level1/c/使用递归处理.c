@@ -1,8 +1,8 @@
-### 解题思路
-对异常输入处理后，然后在原树结构基础上进行左右节点交换，然后分别对子树进行递归处理，双百
-### 代码
+// ### 解题思路
+// 对异常输入处理后，然后在原树结构基础上进行左右节点交换，然后分别对子树进行递归处理，双百
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -30,4 +30,4 @@ struct TreeNode* mirrorTree(struct TreeNode* root){
 
     return root;
 }
-```
+// ```

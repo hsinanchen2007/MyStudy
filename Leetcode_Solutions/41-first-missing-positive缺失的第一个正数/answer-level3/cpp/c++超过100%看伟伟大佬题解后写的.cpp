@@ -1,6 +1,6 @@
-[@liweiwei1419](/u/liweiwei1419/)
-![TIM图片20191209173112.png](https://pic.leetcode-cn.com/fb7ccc68d91609a7fe8868dbefe487d936bafa53a938ff6b1e675171df676522-TIM%E5%9B%BE%E7%89%8720191209173112.png)
-``` []
+// [@liweiwei1419](/u/liweiwei1419/)
+// ![TIM图片20191209173112.png](https://pic.leetcode-cn.com/fb7ccc68d91609a7fe8868dbefe487d936bafa53a938ff6b1e675171df676522-TIM%E5%9B%BE%E7%89%8720191209173112.png)
+// ``` []
 class Solution {
 public:
     int firstMissingPositive(vector<int>& nums) {
@@ -17,4 +17,4 @@ public:
         return n+1;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {string} a
  * @param {string} b
@@ -34,4 +34,4 @@ var addBinary = function(a, b) {
     }
     return res.split('').reverse().join('');
 };
-```
+// ```

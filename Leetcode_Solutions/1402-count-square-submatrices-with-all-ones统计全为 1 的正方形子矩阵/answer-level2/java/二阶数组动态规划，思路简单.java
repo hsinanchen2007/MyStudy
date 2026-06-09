@@ -1,12 +1,12 @@
-动态规划递推公式：
-*dp[i][j] = Math.min(dp[i-1][j-1],Math.min(dp[i-1][j],dp[i][j-1]))+1*
-意思就是以当前点为右下角的正方形的最大边长= 上面的点，左面的点，斜对角的点 的边长的最小值+1
+// 动态规划递推公式：
+// *dp[i][j] = Math.min(dp[i-1][j-1],Math.min(dp[i-1][j],dp[i][j-1]))+1*
+// 意思就是以当前点为右下角的正方形的最大边长= 上面的点，左面的点，斜对角的点 的边长的最小值+1
 
-首先要处理最上面和最左面的边界情况，然后遍历时跳过0点
+// 首先要处理最上面和最左面的边界情况，然后遍历时跳过0点
 
-最后将dp数组求和
+// 最后将dp数组求和
 
-```
+// ```
 public int countSquares(int[][] matrix) {
         int xlen = matrix.length;
         int ylen = matrix[0].length;
@@ -37,4 +37,4 @@ public int countSquares(int[][] matrix) {
         }
         return res;
     }
-```
+// ```

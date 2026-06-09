@@ -1,10 +1,10 @@
-### 解题思路
-思路：双指针，数学证明略
-![image.png](https://pic.leetcode-cn.com/f4c2c02b420b1ac7b3e68bf6f31f531ee6a451effbe5f38296e318e19e8713b5-image.png)
+// ### 解题思路
+// 思路：双指针，数学证明略
+// ![image.png](https://pic.leetcode-cn.com/f4c2c02b420b1ac7b3e68bf6f31f531ee6a451effbe5f38296e318e19e8713b5-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * class ListNode {
@@ -41,4 +41,4 @@ public class Solution {     //如果使用额外空间，可以使用一个哈�
         return slow;
     }
 }
-```
+// ```

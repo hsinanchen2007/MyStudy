@@ -1,7 +1,7 @@
 
-遍历出所有的子序列(～￣(OO)￣)ブ
-估计会被经理撵走
-```
+// 遍历出所有的子序列(～￣(OO)￣)ブ
+// 估计会被经理撵走
+// ```
 class Solution {
     public int maxSubArray(int[] nums) {
     	int tempSum = 0;
@@ -19,4 +19,4 @@ class Solution {
     
     }
 }
-```
+// ```

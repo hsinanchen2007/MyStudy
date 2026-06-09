@@ -1,13 +1,13 @@
-### 解题思路
-    1.重新返回一个指针，不在head上修改。
-    2.判断新链表当前指针p的数据域与原链表head的数据域是否相等
-        if(相等) head变更到下一节点；
-        else 将当前head结点添加入新链表。
-    3.只是一种小白新手解法，没有追求效率
+// ### 解题思路
+//     1.重新返回一个指针，不在head上修改。
+//     2.判断新链表当前指针p的数据域与原链表head的数据域是否相等
+//         if(相等) head变更到下一节点；
+//         else 将当前head结点添加入新链表。
+//     3.只是一种小白新手解法，没有追求效率
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -33,4 +33,4 @@ struct ListNode* p = head,*pr = p;
          p->next = NULL;
     return pr;
 }
-```
+// ```

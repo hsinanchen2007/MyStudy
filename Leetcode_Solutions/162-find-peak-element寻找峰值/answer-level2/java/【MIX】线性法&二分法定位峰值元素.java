@@ -1,11 +1,11 @@
-### 解题思路
-线性法, 时间复杂度$O(N)$
-二分法, 时间复杂度$O(lg N)$
+// ### 解题思路
+// 线性法, 时间复杂度$O(N)$
+// 二分法, 时间复杂度$O(lg N)$
 
-### 代码
+// ### 代码
 
-**线性法**
-```c++ []
+// **线性法**
+// ```c++ []
 class Solution {
 public:
     int findPeakElement(vector<int>& nums) {
@@ -28,9 +28,9 @@ public:
             return N-1;
     }
 };
-```
-**二分法**
-```java []
+// ```
+// **二分法**
+// ```java []
 class Solution {
     public int findPeakElement(int[] nums) {
         int N = nums.length;
@@ -59,8 +59,8 @@ class Solution {
             return end;
     }
 }
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def findPeakElement(self, nums: List[int]) -> int:
         N = len(nums)
@@ -85,8 +85,8 @@ class Solution:
             return 0
         else:
             return end
-```
-```c++ []
+// ```
+// ```c++ []
 class Solution {
 public:
     int findPeakElement(vector<int>& nums) {
@@ -114,4 +114,4 @@ public:
         return N-1;
     }
 };
-```
+// ```

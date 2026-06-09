@@ -1,7 +1,7 @@
 
 
 
-```java []
+// ```java []
 
 public void sortColors(int[] A) {
         int red = 0, blue = A.length - 1;
@@ -23,4 +23,4 @@ public void sortColors(int[] A) {
         return ;
 }
 
-```
+// ```

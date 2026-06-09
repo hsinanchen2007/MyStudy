@@ -1,5 +1,5 @@
-# 方法一：暴力解法
-```go
+// # 方法一：暴力解法
+// ```go
 // Brute Force Time Complexity: O(n^2) Space Complexity: O(1)
 func trap1(height []int) int {
     if len(height) <= 2 {
@@ -32,10 +32,10 @@ func min(a, b int) int {
     }
     return b
 }
-```
+// ```
 
-# 方法二：栈实现
-```go
+// # 方法二：栈实现
+// ```go
 // Using Stack Time Complexity: O(n) Space Complexity: O(n)
 func trap(height []int) int {
     if len(height) <= 2 {
@@ -72,10 +72,10 @@ func min(a, b int) int {
     }
     return b
 }
-```
+// ```
 
-# 方法三: 双指针实现
-```go
+// # 方法三: 双指针实现
+// ```go
 // Two Pointers Time Complexity: O(n) Space Complexity: O(1)
 func trap(height []int) int {
     if len(height) <= 2 {
@@ -119,4 +119,4 @@ func min(a, b int) int {
     }
     return b
 }
-```
+// ```

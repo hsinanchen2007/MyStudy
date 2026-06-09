@@ -1,19 +1,19 @@
-### 解题思路
-非递归的方法：主要考虑什么时候输出；
+// ### 解题思路
+// 非递归的方法：主要考虑什么时候输出；
 
-关键点：
-（1）前序入栈就输出，中序出栈在输出，后续需要访问第二次，出栈在输出。      
-    while(cur != NULL) {
-        stack.push(cur);
-        vec.push_back(cur->val);
-        cur = cur->left;
-    }
-（2）cur = cur->right; 无需判断右子树空与否
+// 关键点：
+// （1）前序入栈就输出，中序出栈在输出，后续需要访问第二次，出栈在输出。      
+//     while(cur != NULL) {
+//         stack.push(cur);
+//         vec.push_back(cur->val);
+//         cur = cur->left;
+//     }
+// （2）cur = cur->right; 无需判断右子树空与否
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -42,4 +42,4 @@ public:
         return vec;
     }
 };
-```
+// ```

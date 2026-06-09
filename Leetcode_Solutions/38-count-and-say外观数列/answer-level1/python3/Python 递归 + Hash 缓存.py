@@ -1,4 +1,4 @@
-```python []
+# ```python []
 class Solution:
     def countAndSay(self, n: int) -> str:
         hash = {1:1,2:11}
@@ -16,5 +16,5 @@ class Solution:
             hash[n] = result
             return result
         return str(say(n))
-```
-思路很简单，速度还行 28ms, 12.8MB, 99.33%, 99.45%，貌似 LeetCode 数据不是太多，所以 Hash 缓存效果不明显？？
+# ```
+# 思路很简单，速度还行 28ms, 12.8MB, 99.33%, 99.45%，貌似 LeetCode 数据不是太多，所以 Hash 缓存效果不明显？？

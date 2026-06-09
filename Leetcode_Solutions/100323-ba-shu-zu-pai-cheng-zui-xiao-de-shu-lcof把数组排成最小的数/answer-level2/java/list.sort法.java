@@ -1,9 +1,9 @@
-### 解题思路
-精髓：list.sort((o1,o2)->(o1+o2).compareTo(o2+o1));
+// ### 解题思路
+// 精髓：list.sort((o1,o2)->(o1+o2).compareTo(o2+o1));
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String minNumber(int[] nums) {
         ArrayList<String> list = new ArrayList<>();
@@ -19,4 +19,4 @@ class Solution {
         return String.valueOf(sb);
     }
 }
-```
+// ```

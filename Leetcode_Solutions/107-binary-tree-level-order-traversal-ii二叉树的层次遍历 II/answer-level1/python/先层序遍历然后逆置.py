@@ -1,9 +1,9 @@
-### 解题思路
-每一层分别层序遍历
+# ### 解题思路
+# 每一层分别层序遍历
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -29,4 +29,4 @@ class Solution:
                     a.append(count.right)
             c.append(b)#每一层的值分别存入c中
         return c[::-1] #逆置
-```
+# ```

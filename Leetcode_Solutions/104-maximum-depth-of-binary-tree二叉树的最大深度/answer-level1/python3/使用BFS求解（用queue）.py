@@ -1,10 +1,10 @@
-### 解题思路
-使用BFS，一层层向前推进的遍历树的节点，每进一层，记录distance（等于父节点distance+1）
-queue最后返回的节点就是离树根最远的节点，它的distance就是树的最大深度
+# ### 解题思路
+# 使用BFS，一层层向前推进的遍历树的节点，每进一层，记录distance（等于父节点distance+1）
+# queue最后返回的节点就是离树根最远的节点，它的distance就是树的最大深度
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -26,4 +26,4 @@ class Solution:
             if cur.right:
                 queue.insert(0,(cur.right,curdis+1))
         return curdis
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-此题，我觉得应该改成找出这两个数，下标效率不高。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 此题，我觉得应该改成找出这两个数，下标效率不高。
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -31,4 +31,4 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize){
     }
     return NULL;
 }
-```
+// ```

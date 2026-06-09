@@ -1,12 +1,12 @@
-执行用时 :1 ms, 在所有 Java 提交中击败了100.00%的用户
-内存消耗 :38 MB, 在所有 Java 提交中击败了45.39%的用户
+// 执行用时 :1 ms, 在所有 Java 提交中击败了100.00%的用户
+// 内存消耗 :38 MB, 在所有 Java 提交中击败了45.39%的用户
 
-### 解题思路
-为避免出错，数组的最后一个元素单独判断
+// ### 解题思路
+// 为避免出错，数组的最后一个元素单独判断
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int compress(char[] chars) {
         int len = chars.length;
@@ -57,4 +57,4 @@ class Solution {
         return answer;
     }
 }
-```
+// ```

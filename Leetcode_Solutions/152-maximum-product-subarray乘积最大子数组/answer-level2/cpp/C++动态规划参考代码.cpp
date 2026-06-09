@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/9129737b8f9adeb813811961e143a89b957a8d6cd55b7a27896d42fbc029942b-image.png)
+// ![image.png](https://pic.leetcode-cn.com/9129737b8f9adeb813811961e143a89b957a8d6cd55b7a27896d42fbc029942b-image.png)
 
-```
+// ```
 class Solution {
 public:
     int maxProduct(vector<int>& nums) {
@@ -20,4 +20,4 @@ public:
         return res;
     }
 };
-```
+// ```

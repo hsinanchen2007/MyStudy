@@ -1,13 +1,13 @@
-**菜鸡思路**
-```
+// **菜鸡思路**
+// ```
 1. nodeQueue存节点
 2. levelQueue存层数
 
 不知道我菜，还是我菜，代码量这么大！
-```
-** 代码**
+// ```
+// ** 代码**
 
-```
+// ```
 func levelOrder(root *TreeNode) [][]int {
 	if root == nil{
 		return [][]int{}
@@ -42,4 +42,4 @@ func levelOrder(root *TreeNode) [][]int {
     result = append(result, tempSlice)
 	return result
 }
-```
+// ```

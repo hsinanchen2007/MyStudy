@@ -1,5 +1,5 @@
 
-```swift
+// ```swift
  class Solution1 {
     func lexicalOrder(_ n: Int) -> [Int] {
         return (1...n).map {"\($0)"}.sorted().map {Int($0)!}
@@ -33,4 +33,4 @@
     }
  }
 
-```
+// ```

@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/c1ec2b77685a36973268252184fcbedff0a69613f0c52ef3d2fa065f306d9eea-image.png)
+// ![image.png](https://pic.leetcode-cn.com/c1ec2b77685a36973268252184fcbedff0a69613f0c52ef3d2fa065f306d9eea-image.png)
 
-```
+// ```
 #define MAX 100000
 typedef struct {
     int num;
@@ -160,4 +160,4 @@ void medianFinderFree(MedianFinder* obj) {
  
  * medianFinderFree(obj);
 */
-```
+// ```

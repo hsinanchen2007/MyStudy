@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 string toGoatLatin(string S) {
     unordered_set<char> vowels({'a', 'e', 'i', 'o', 'u'});
     int anchor = 0, k = 1;
@@ -15,4 +15,4 @@ string toGoatLatin(string S) {
     }
     return S;
 }
-```
+// ```

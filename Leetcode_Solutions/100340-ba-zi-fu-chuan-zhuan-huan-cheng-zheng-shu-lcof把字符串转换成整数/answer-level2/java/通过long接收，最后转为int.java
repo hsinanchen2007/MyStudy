@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int strToInt(String str) {
         //解决空字符串的问题
@@ -40,4 +40,4 @@ class Solution {
         return (int)res;
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-注释即是
+# ### 解题思路
+# 此处撰写解题思路
+# 注释即是
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverse(self, x: int) -> int:
         sn = str(x)
@@ -20,4 +20,4 @@ class Solution:
             return 0
         return num
 
-```
+# ```

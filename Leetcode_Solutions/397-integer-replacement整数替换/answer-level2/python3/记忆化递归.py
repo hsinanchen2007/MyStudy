@@ -1,8 +1,8 @@
-## 思路:
+# ## 思路:
 
-思路一：自顶向下（DP）
+# 思路一：自顶向下（DP）
 
-```python
+# ```python
 from functools import lru_cache
 class Solution:
     @lru_cache
@@ -13,15 +13,15 @@ class Solution:
             return self.integerReplacement(n // 2) + 1
         else:
             return min(self.integerReplacement(n + 1), self.integerReplacement(n - 1)) + 1
-```
+# ```
 
-思路二：找规律
+# 思路二：找规律
 
-偶数当然  `n / 2` 最好
+# 偶数当然  `n / 2` 最好
 
-奇数 当 `n != 3` 并且 `n + 1`能被整除时， `+1`最好
+# 奇数 当 `n != 3` 并且 `n + 1`能被整除时， `+1`最好
 
-```python
+# ```python
 class Solution:
     def integerReplacement(self, n: int) -> int:
         step = 0
@@ -32,5 +32,5 @@ class Solution:
                 n -= 1
             step += 1
         return step
-```
+# ```
 

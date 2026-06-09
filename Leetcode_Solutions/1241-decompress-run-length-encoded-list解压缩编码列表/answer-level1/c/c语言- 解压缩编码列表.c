@@ -1,9 +1,9 @@
-### 解题思路
-，题不难，注意一下数组长度
+// ### 解题思路
+// ，题不难，注意一下数组长度
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -23,4 +23,4 @@ int* decompressRLElist(int* nums, int numsSize, int* returnSize){
         *returnSize=sum;
         return returnA;
 }
-```
+// ```

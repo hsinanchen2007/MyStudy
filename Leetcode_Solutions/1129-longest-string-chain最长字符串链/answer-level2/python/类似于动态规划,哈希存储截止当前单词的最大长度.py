@@ -1,9 +1,9 @@
-### 解题思路
-有点像那个,连续最大递增数组长度
+# ### 解题思路
+# 有点像那个,连续最大递增数组长度
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def longestStrChain(self, words):
         """
@@ -45,4 +45,4 @@ class Solution(object):
         # print resword.items()
         return max(resword.values()) if resword else 1
 
-```
+# ```

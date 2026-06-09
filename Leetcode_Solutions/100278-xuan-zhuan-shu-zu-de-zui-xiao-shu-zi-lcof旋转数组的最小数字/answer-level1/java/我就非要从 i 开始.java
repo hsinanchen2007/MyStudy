@@ -1,5 +1,5 @@
-大家都说从开头比较不行，我就不信。
-```
+// 大家都说从开头比较不行，我就不信。
+// ```
 class Solution {
     public int minArray(int[] numbers) {
         if(numbers == null || numbers.length < 0) {
@@ -40,9 +40,9 @@ class Solution {
         return numbers[i];
     }
 }
-```
-我还要写两种方式，上面是我女票写的，下面是我写的。
-```
+// ```
+// 我还要写两种方式，上面是我女票写的，下面是我写的。
+// ```
 class Solution {
     public int minArray(int[] numbers) {
         if(numbers == null || numbers.length < 0) {
@@ -71,6 +71,6 @@ class Solution {
         return numbers[mid];
     }
 }
-```
+// ```
 
 

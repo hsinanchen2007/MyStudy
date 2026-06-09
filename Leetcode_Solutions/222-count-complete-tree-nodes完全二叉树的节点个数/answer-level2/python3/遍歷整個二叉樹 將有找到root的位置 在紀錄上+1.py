@@ -1,11 +1,11 @@
-### 解题思路
-遍歷整個二叉樹 
-將有找到root的位置 
-在紀錄上+1
+# ### 解题思路
+# 遍歷整個二叉樹 
+# 將有找到root的位置 
+# 在紀錄上+1
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -26,4 +26,4 @@ class Solution:
         search(root)
         return count    
 
-```
+# ```

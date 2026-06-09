@@ -1,9 +1,9 @@
-### 解题思路
-先找第一段2*left == Total ,再找第二段，注意边界
+// ### 解题思路
+// 先找第一段2*left == Total ,再找第二段，注意边界
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool canThreePartsEqualSum(int* A, int ASize){
     int Total = 0;
     int Left = 0;
@@ -29,4 +29,4 @@ bool canThreePartsEqualSum(int* A, int ASize){
     }
     return 0;
 }
-```
+// ```

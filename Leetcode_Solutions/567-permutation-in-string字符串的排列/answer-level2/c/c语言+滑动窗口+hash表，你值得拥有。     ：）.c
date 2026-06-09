@@ -1,11 +1,11 @@
-### 解题思路
-滑动窗口 + hash表
-![截屏2020-02-01上午10.42.45.png](https://pic.leetcode-cn.com/25a86ae8ad32b6c74995f2593f0e9e1c19d305a63171668ef204e1ebc7d00a5f-%E6%88%AA%E5%B1%8F2020-02-01%E4%B8%8A%E5%8D%8810.42.45.png)
+// ### 解题思路
+// 滑动窗口 + hash表
+// ![截屏2020-02-01上午10.42.45.png](https://pic.leetcode-cn.com/25a86ae8ad32b6c74995f2593f0e9e1c19d305a63171668ef204e1ebc7d00a5f-%E6%88%AA%E5%B1%8F2020-02-01%E4%B8%8A%E5%8D%8810.42.45.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define NUM 26
 
 bool matches(int *s1,int *s2)
@@ -58,4 +58,4 @@ bool checkInclusion(char * s1, char * s2){
 }
 
 
-```
+// ```

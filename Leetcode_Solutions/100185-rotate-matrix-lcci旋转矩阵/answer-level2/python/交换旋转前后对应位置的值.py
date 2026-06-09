@@ -1,10 +1,10 @@
-假设该N*N的矩阵宽度为width, 将矩阵分为四个象限, 第一象限中某点位置为(row,col), 那么旋转时四象限中对应的位置分别：
-    matrix[row][col] -> matrix[col][width-row]
-    matrix[col][width-row] -> matrix[width-row][width-col], 
-    matrix[width-row][width-col] -> matrix[width -col][row], 
-    matrix[width-col][row] -> matrix[row][col]
+# 假设该N*N的矩阵宽度为width, 将矩阵分为四个象限, 第一象限中某点位置为(row,col), 那么旋转时四象限中对应的位置分别：
+#     matrix[row][col] -> matrix[col][width-row]
+#     matrix[col][width-row] -> matrix[width-row][width-col], 
+#     matrix[width-row][width-col] -> matrix[width -col][row], 
+#     matrix[width-col][row] -> matrix[row][col]
 
-```python []
+# ```python []
 class Solution:
     def rotate(self, matrix: [[int]]) -> None:
         """
@@ -25,5 +25,5 @@ class Solution:
     def rotate_demo(self, matrix, row, col, width):
         matrix[col][width-row], matrix[width-row][width-col], matrix[width -
                                                                      col][row], matrix[row][col] = matrix[row][col], matrix[col][width-row], matrix[width-row][width-col], matrix[width-col][row]
-```
+# ```
 

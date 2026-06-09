@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
-* 利用slice实现队列的基本操作
-* 使用q1,q2两个队列相互传值的方式实现stack的操作
+// * 利用slice实现队列的基本操作
+// * 使用q1,q2两个队列相互传值的方式实现stack的操作
 
-```go
+// ```go
 type MyStack struct {
 	q1, q2 *MyQueue
 }
@@ -93,5 +93,5 @@ func (this *MyStack) Empty() bool {
 	return this.q1.Size() == 0 && this.q2.Size() == 0
 }
 
-```
+// ```
 

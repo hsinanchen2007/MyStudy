@@ -1,5 +1,5 @@
-1.递归
-```
+// 1.递归
+// ```
 func rob(nums []int) int {
     if len(nums) == 0 {
         return 0
@@ -23,9 +23,9 @@ func max(a, b int) int {
     }
     return b
 }
-```
-2.动态规划
-```
+// ```
+// 2.动态规划
+// ```
 func rob(nums []int) int {
     if len(nums) == 0 {
         return 0
@@ -45,4 +45,4 @@ func max(a, b int) int {
     }
     return b
 }
-```
+// ```

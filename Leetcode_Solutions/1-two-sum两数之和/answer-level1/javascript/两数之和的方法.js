@@ -1,6 +1,6 @@
-看到题目，首先直接放弃了暴力法，因为时间复杂度是O(n^2)。
+// 看到题目，首先直接放弃了暴力法，因为时间复杂度是O(n^2)。
 
-```js
+// ```js
 //solution 1: use arr.findIndex function
 var twoSum = function(nums, target) {
     for (var i = 0; i < nums.length; i++) {
@@ -15,12 +15,12 @@ var twoSum = function(nums, target) {
         }
     }
 };
-```
-但是这样执行时间为5912ms,我的天，这写的简直一坨💩
+// ```
+// 但是这样执行时间为5912ms,我的天，这写的简直一坨💩
 
-看了题解之后想起来ES6的Map，也就是哈希表
+// 看了题解之后想起来ES6的Map，也就是哈希表
 
-```js
+// ```js
 //solution 2: use Map function
 var twoSum = function (nums, target) {
     let map = new Map()
@@ -34,11 +34,11 @@ var twoSum = function (nums, target) {
         }
     }
 }
-```
-这样执行时间就降到了104ms,内存消耗为37.2MB。
-但是上面的代码有些冗余，进一步修改下
+// ```
+// 这样执行时间就降到了104ms,内存消耗为37.2MB。
+// 但是上面的代码有些冗余，进一步修改下
 
-```js
+// ```js
 var twoSum = function (nums, target) {
     let map = new Map()
     for(let i in nums) {
@@ -52,6 +52,6 @@ var twoSum = function (nums, target) {
         }
     }
 }
-```
-这样执行时间为64ms,内存消耗略有降低。
+// ```
+// 这样执行时间为64ms,内存消耗略有降低。
 

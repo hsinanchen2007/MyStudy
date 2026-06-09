@@ -1,8 +1,8 @@
-中序遍历获取二叉搜索树节点值升序序列，再按层次遍历构建二叉搜索树，即为平衡二叉搜索树
+# 中序遍历获取二叉搜索树节点值升序序列，再按层次遍历构建二叉搜索树，即为平衡二叉搜索树
 
-注意：获取的所有节点断掉之前链接——左、右子节点皆指向None
+# 注意：获取的所有节点断掉之前链接——左、右子节点皆指向None
 
-```python3
+# ```python3
 class Solution:
     def balanceBST(self, root: TreeNode) -> TreeNode:
         stack = deque()
@@ -31,6 +31,6 @@ class Solution:
         nodes[mid].left = self.struct_bst(nodes, left, mid - 1)
         nodes[mid].right = self.struct_bst(nodes, mid + 1, right)
         return nodes[mid]
-```
+# ```
 
-AVL树旋转类型调整，我没记住.....，现场手写，我估计来不及，所以你懂的......
+# AVL树旋转类型调整，我没记住.....，现场手写，我估计来不及，所以你懂的......

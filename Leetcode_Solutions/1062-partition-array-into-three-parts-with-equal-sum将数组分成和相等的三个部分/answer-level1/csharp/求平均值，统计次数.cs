@@ -1,4 +1,4 @@
-```
+// ```
 public bool CanThreePartsEqualSum(int[] A) {
         var sum=0;
         foreach(var n in A){
@@ -18,4 +18,4 @@ public bool CanThreePartsEqualSum(int[] A) {
         }
         return count==3;
     }
-```
+// ```

@@ -1,7 +1,7 @@
-# 方法1：递归
-小的移动，最后返回最大的
+// # 方法1：递归
+// 小的移动，最后返回最大的
 
-```java
+// ```java
 class Solution {
    public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
        if (l1==null)return l2;
@@ -15,15 +15,15 @@ class Solution {
        }
    }
 }
-```
-**复杂度分析：**
+// ```
+// **复杂度分析：**
 
 
-# 方法2：迭代
-创建头节点，指向1，2中最小的，移动最小的指针，12在进行比较，按照这个过程进行迭代，直到1 or 2指向null
-最后还剩下一个节点没有指向，最后在进行一次判断l1是null最后的节点就是l2。或者反之
+// # 方法2：迭代
+// 创建头节点，指向1，2中最小的，移动最小的指针，12在进行比较，按照这个过程进行迭代，直到1 or 2指向null
+// 最后还剩下一个节点没有指向，最后在进行一次判断l1是null最后的节点就是l2。或者反之
 
-```java
+// ```java
 class Solution {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         ListNode pre=new ListNode(0);
@@ -42,10 +42,10 @@ class Solution {
         return head.next;
     }
 }
-```
-**复杂度分析：**
-    时间复杂度O（n）
-    空间复杂度O（1）
+// ```
+// **复杂度分析：**
+//     时间复杂度O（n）
+//     空间复杂度O（1）
 
 
 

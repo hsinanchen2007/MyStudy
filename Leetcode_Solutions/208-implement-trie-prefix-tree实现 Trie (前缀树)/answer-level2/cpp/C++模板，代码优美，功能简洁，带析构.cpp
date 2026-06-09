@@ -1,4 +1,4 @@
-```
+// ```
 class TrieNode{
 private:
     TrieNode* next[26]{nullptr};
@@ -77,4 +77,4 @@ public:
         return true;
     }
 };
-```
+// ```

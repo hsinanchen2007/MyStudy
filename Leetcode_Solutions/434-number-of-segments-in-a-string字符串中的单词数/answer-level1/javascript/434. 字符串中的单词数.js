@@ -1,11 +1,11 @@
-### 解题思路
-+ 过滤替换代码中的`:`与继续的空格，
-+ 并去掉头尾的空格，再进行`split`切割，
-+ 返回数组的长度。。
+// ### 解题思路
+// + 过滤替换代码中的`:`与继续的空格，
+// + 并去掉头尾的空格，再进行`split`切割，
+// + 返回数组的长度。。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {number}
@@ -19,4 +19,4 @@ var countSegments = function(s) {
   let res = s.split(/\s+/);
   return res.length;
 };
-```
+// ```

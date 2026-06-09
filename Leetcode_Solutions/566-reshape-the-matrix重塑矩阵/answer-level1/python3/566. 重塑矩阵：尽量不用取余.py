@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/6bd66732babb5cfa5d8ebae752c8ca9b21cc6db378fc30d0239aadb439efa790-image.png)
+# ![image.png](https://pic.leetcode-cn.com/6bd66732babb5cfa5d8ebae752c8ca9b21cc6db378fc30d0239aadb439efa790-image.png)
 
-模拟题，取余效率相对较低，这种题里能不用则不用。
+# 模拟题，取余效率相对较低，这种题里能不用则不用。
 
-```python []
+# ```python []
 class Solution:
     def matrixReshape(self, nums: List[List[int]], r: int, c: int) -> List[List[int]]:
         if len(nums) * len(nums[0]) != r * c:
@@ -17,12 +17,12 @@ class Solution:
                     j = 0
                     i += 1
         return ans
-```
+# ```
 
-或者直接这样写：
+# 或者直接这样写：
 
 
-```python []
+# ```python []
 class Solution:
     def matrixReshape(self, nums: List[List[int]], r: int, c: int) -> List[List[int]]:
         if len(nums) * len(nums[0]) != r * c:
@@ -36,4 +36,4 @@ class Solution:
                 j = 0
                 i += 1
         return ans
-```
+# ```

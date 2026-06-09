@@ -1,5 +1,5 @@
-1. 双栈——借鉴前序遍历思路：按照“根-右-左”的前序遍历方式入栈，出栈的结果即后续遍历结果 
-```
+// 1. 双栈——借鉴前序遍历思路：按照“根-右-左”的前序遍历方式入栈，出栈的结果即后续遍历结果 
+// ```
 public List<Integer> postorderTraversal(TreeNode root) {
         List<Integer> list = new ArrayList();
         //s1：按照“根-右-左”的方式入栈
@@ -26,9 +26,9 @@ public List<Integer> postorderTraversal(TreeNode root) {
         }
         return list;
     }
-```
-2. 双栈——按照“根-右-左”的前序遍历方式入栈s2，出栈的结果即后续遍历结果。
-```
+// ```
+// 2. 双栈——按照“根-右-左”的前序遍历方式入栈s2，出栈的结果即后续遍历结果。
+// ```
 public List<Integer> postorderTraversal(TreeNode root) {
            List<Integer> list = new ArrayList<>();
            if (root==null){
@@ -53,11 +53,11 @@ public List<Integer> postorderTraversal(TreeNode root) {
            }
            return list;
     }
-```
+// ```
 
-3. 单栈：栈存储访问过的节点，使用栈顶节点作为刚刚输出的节点，并初始化为根节点。对所有左子树节点压栈直至访问到最左叶子节点；输出最左叶子节点，弹出其父节点，处理父节点的右孩子，输出父节点，继续弹出节点重复以上操作。ps,判断一个节点是否需要处理的依据为：该节点为null或者该节点已经输出
+// 3. 单栈：栈存储访问过的节点，使用栈顶节点作为刚刚输出的节点，并初始化为根节点。对所有左子树节点压栈直至访问到最左叶子节点；输出最左叶子节点，弹出其父节点，处理父节点的右孩子，输出父节点，继续弹出节点重复以上操作。ps,判断一个节点是否需要处理的依据为：该节点为null或者该节点已经输出
 
-```
+// ```
 public List<Integer> postorderTraversal(TreeNode root) {
            List<Integer> list = new ArrayList<>();
         if (root==null){
@@ -79,4 +79,4 @@ public List<Integer> postorderTraversal(TreeNode root) {
         }
         return list;
     }
-```
+// ```

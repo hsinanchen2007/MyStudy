@@ -1,9 +1,9 @@
-### 解题思路
-这一题也可以像之前有一道题的智能计算一样解决求和问题。设置一个dp数组，然后做减法就好了。
+// ### 解题思路
+// 这一题也可以像之前有一道题的智能计算一样解决求和问题。设置一个dp数组，然后做减法就好了。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class NumArray {
     private int[] nums;
     public NumArray(int[] nums) {
@@ -29,4 +29,4 @@ class NumArray {
  * obj.update(i,val);
  * int param_2 = obj.sumRange(i,j);
  */
-```
+// ```

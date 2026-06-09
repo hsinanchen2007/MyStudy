@@ -1,4 +1,4 @@
-```
+// ```
 func validSubarrays(nums []int) int {
 	o, l := 0, len(nums)
 	t := make([]int, l)
@@ -15,4 +15,4 @@ func validSubarrays(nums []int) int {
 	}
 	return o
 }
-```
+// ```

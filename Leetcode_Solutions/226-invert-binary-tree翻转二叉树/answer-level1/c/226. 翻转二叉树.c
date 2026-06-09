@@ -1,4 +1,4 @@
-```
+// ```
 struct TreeNode* invertTree(struct TreeNode* root){
     if(root==NULL)
         return NULL; 
@@ -10,4 +10,4 @@ struct TreeNode* invertTree(struct TreeNode* root){
     root->right=temp;
     return root;
 }
-```
+// ```

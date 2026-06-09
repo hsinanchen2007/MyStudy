@@ -1,5 +1,5 @@
-对整个三元组构成的树进行遍历，代码如下所示：
-```
+// 对整个三元组构成的树进行遍历，代码如下所示：
+// ```
 #include <string.h>
 #include <stdio.h>
 #include <vector>
@@ -50,4 +50,4 @@ public:
         return x;
     }
 };
-```
+// ```

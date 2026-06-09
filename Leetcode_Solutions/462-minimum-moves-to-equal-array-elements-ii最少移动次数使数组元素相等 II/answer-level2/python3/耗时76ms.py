@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def minMoves2(self, nums: List[int]) -> int:
         sum1 = sum(nums)
@@ -11,4 +11,4 @@ class Solution:
             a1 = abs(middle_count - i)
             num += a1
         return(num)
-```
+# ```

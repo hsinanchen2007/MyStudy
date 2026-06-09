@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def printVertically(self, s: str) -> List[str]:
         list1 = s.split(' ')
@@ -20,4 +20,4 @@ class Solution:
                 result.append(str2)
             i += 1
         return(result)
-```
+# ```

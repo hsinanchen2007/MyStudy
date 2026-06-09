@@ -1,9 +1,9 @@
-# PS:
-归并的题解太多了，提供一些非主流的方法，看看就好。
-主要是利用ArrayList的特性 +  二分查找 共同实现。
+// # PS:
+// 归并的题解太多了，提供一些非主流的方法，看看就好。
+// 主要是利用ArrayList的特性 +  二分查找 共同实现。
 
-# 代码1(remove())
-```java
+// # 代码1(remove())
+// ```java
 class Solution {
     public int reversePairs(int[] nums) {
         int len = nums.length, res = 0;
@@ -22,10 +22,10 @@ class Solution {
         return res;
     }
 }
-```
+// ```
 
-# 代码2(add())
-```java
+// # 代码2(add())
+// ```java
 class Solution {
     public int reversePairs(int[] nums) {
         if (nums.length < 2) return 0;
@@ -48,5 +48,5 @@ class Solution {
         return res;
     }
 }
-```
+// ```
 

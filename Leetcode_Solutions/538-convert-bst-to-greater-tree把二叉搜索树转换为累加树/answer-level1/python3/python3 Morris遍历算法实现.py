@@ -1,11 +1,11 @@
-### 解题思路
-与官方题解3类似。添加getpre(node)辅助函数用于获取node节点的前驱节点，即node节点的右子树中的最小值对应的节点。
+# ### 解题思路
+# 与官方题解3类似。添加getpre(node)辅助函数用于获取node节点的前驱节点，即node节点的右子树中的最小值对应的节点。
 
-时间复杂度：O(n)
-空间复杂度：O(1)
-### 代码
+# 时间复杂度：O(n)
+# 空间复杂度：O(1)
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -39,4 +39,4 @@ class Solution:
         while pre.left and pre.left!=node:
             pre=pre.left
         return pre
-```
+# ```

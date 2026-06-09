@@ -1,10 +1,10 @@
-### 解题思路
-前缀字典，优化不够
-![图片.png](https://pic.leetcode-cn.com/387ce0b250415836ec9493c3398119d91937a10b6d64062450905e04241f32b9-%E5%9B%BE%E7%89%87.png)
+// ### 解题思路
+// 前缀字典，优化不够
+// ![图片.png](https://pic.leetcode-cn.com/387ce0b250415836ec9493c3398119d91937a10b6d64062450905e04241f32b9-%E5%9B%BE%E7%89%87.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<String> findRepeatedDnaSequences(String s) {
         List<String> result = new ArrayList<>();
@@ -48,4 +48,4 @@ class Solution {
         }
     }
 }
-```
+// ```

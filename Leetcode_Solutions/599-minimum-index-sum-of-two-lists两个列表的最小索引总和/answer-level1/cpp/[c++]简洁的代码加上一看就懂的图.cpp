@@ -1,7 +1,7 @@
 
-![image.png](https://pic.leetcode-cn.com/2d82097afd9660b30284cce45fd851b4349e6c132a91a1e5cc3544df5511dd72-image.png)
+// ![image.png](https://pic.leetcode-cn.com/2d82097afd9660b30284cce45fd851b4349e6c132a91a1e5cc3544df5511dd72-image.png)
 
-```
+// ```
 class Solution {
 public:
     vector<string> findRestaurant(vector<string>& list1, vector<string>& list2) {
@@ -26,4 +26,4 @@ public:
         return res;
     }
 };
-```
+// ```

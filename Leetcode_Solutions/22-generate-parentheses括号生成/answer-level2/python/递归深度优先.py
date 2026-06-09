@@ -1,9 +1,9 @@
-### 解题思路
-递归深度优先
+# ### 解题思路
+# 递归深度优先
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def __init__(self):
         self.res = []
@@ -30,4 +30,4 @@ class Solution:
             self.generate(string+')', l_count, r_count+1)
         elif r_count == self.n:
             self.generate(string + '(', l_count+1, r_count)
-```
+# ```

@@ -1,6 +1,6 @@
-## 思路一：暴力
-### 代码
-```c++
+// ## 思路一：暴力
+// ### 代码
+// ```c++
 class Solution {
 public:
     int strStr(string haystack, string needle) {
@@ -25,11 +25,11 @@ public:
         return index;
     }
 };
-```
+// ```
 
-## 思路二：库函数
-### 代码
-```c++
+// ## 思路二：库函数
+// ### 代码
+// ```c++
 class Solution {
 public:
     int strStr(string haystack, string needle) {
@@ -40,5 +40,5 @@ public:
         return index;
     }
 };
-```
+// ```
 

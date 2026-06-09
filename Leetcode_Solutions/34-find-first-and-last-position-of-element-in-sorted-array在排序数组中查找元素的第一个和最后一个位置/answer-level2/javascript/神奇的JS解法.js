@@ -1,4 +1,4 @@
-```js
+// ```js
 // 解法一：使用二分查找
 var searchRange = function(nums, target) {
   const findIndex = (arr, target, position = 'first') => {
@@ -30,10 +30,10 @@ var searchRange = function(nums, target) {
 
   return [findIndex(nums, target, 'first'), findIndex(nums, target, 'last')];
 };
-```
+// ```
 
 
-```js
+// ```js
 // 方法二：呃呃呃，使用js数组的原生方法，比方法一慢4毫秒左右
 var searchRange = function(nums, target) {
   return [
@@ -41,4 +41,4 @@ var searchRange = function(nums, target) {
     nums.lastIndexOf(target)
   ];
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-双指针 需要循环两边。。感觉比较蠢
+// ### 解题思路
+// 双指针 需要循环两边。。感觉比较蠢
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int equalSubstring(string s, string t, int maxCost) {
@@ -30,4 +30,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,18 +1,18 @@
-### 解题思路
-执行用时 :
-64 ms
-, 在所有 JavaScript 提交中击败了
-96.31%
-的用户
-内存消耗 :
-37.2 MB
-, 在所有 JavaScript 提交中击败了
-82.74%
-的用户
+// ### 解题思路
+// 执行用时 :
+// 64 ms
+// , 在所有 JavaScript 提交中击败了
+// 96.31%
+// 的用户
+// 内存消耗 :
+// 37.2 MB
+// , 在所有 JavaScript 提交中击败了
+// 82.74%
+// 的用户
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -50,4 +50,4 @@ var minDepth = function(root, level) {
         return level
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func isSubsequence(s string, t string) bool {
     if s==""{
         return true
@@ -23,8 +23,8 @@ func isSubsequence(s string, t string) bool {
 	}
 	return i==ls
 }
-```
-```golang
+// ```
+// ```golang
 func isSubsequence(s string, t string) bool {
 	ls, lt := len(s), len(t)
 	if ls>lt{
@@ -47,4 +47,4 @@ func isSubsequence(s string, t string) bool {
 	}
 	return false
 }
-```
+// ```

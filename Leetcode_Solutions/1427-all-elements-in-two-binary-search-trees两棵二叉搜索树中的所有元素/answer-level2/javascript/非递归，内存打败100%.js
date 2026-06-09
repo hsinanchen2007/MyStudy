@@ -1,9 +1,9 @@
-### 解题思路
-本想着避免全量排序能快点，没想到，不是很快。代码也比较多，不过内存占用最少，所以贴出来做为一个参考吧。
+// ### 解题思路
+// 本想着避免全量排序能快点，没想到，不是很快。代码也比较多，不过内存占用最少，所以贴出来做为一个参考吧。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -52,4 +52,4 @@ var getAllElements = function (root1, root2) {
     }
     return result
 };
-```
+// ```

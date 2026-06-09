@@ -1,10 +1,10 @@
-我菜，大家看看有什么优化意见
-这时间也太长了吧。
-![屏幕快照 2019-10-29 19.41.43.png](https://pic.leetcode-cn.com/d90145e4689bc527c9728dcdee3731ab530cc6c0bd09d268044acbe06a347e26-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-10-29%2019.41.43.png)
+// 我菜，大家看看有什么优化意见
+// 这时间也太长了吧。
+// ![屏幕快照 2019-10-29 19.41.43.png](https://pic.leetcode-cn.com/d90145e4689bc527c9728dcdee3731ab530cc6c0bd09d268044acbe06a347e26-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-10-29%2019.41.43.png)
 
 
-啊对了，idea 刷 leetcode 插件地址：https://github.com/shuzijun/leetcode-editor   大神做的良心插件，非常好用，爱了爱了
-```
+// 啊对了，idea 刷 leetcode 插件地址：https://github.com/shuzijun/leetcode-editor   大神做的良心插件，非常好用，爱了爱了
+// ```
 class Solution {
     public List<Integer> findSubstring(String s, String[] words) {
         List<Integer> result = new ArrayList<>();
@@ -33,4 +33,4 @@ class Solution {
     }
 }
 
-```
+// ```

@@ -1,13 +1,13 @@
-扫描线法
+// 扫描线法
 
-使用扫描线，从左至右扫过。如果遇到左端点，将高度入堆，如果遇到右端点，则将高度从堆中删除。使用 last 变量记录上一个转折点。
+// 使用扫描线，从左至右扫过。如果遇到左端点，将高度入堆，如果遇到右端点，则将高度从堆中删除。使用 last 变量记录上一个转折点。
 
-可以参考下面的图，扫描线下方的方格就是堆。
+// 可以参考下面的图，扫描线下方的方格就是堆。
 
-![skyline.gif](https://pic.leetcode-cn.com/0bf43198e107719f1dbdbda82a7d213d87019200b4288a11bf49822d7646a4b1-skyline.gif){:width=400}
-{:align=center}
+// ![skyline.gif](https://pic.leetcode-cn.com/0bf43198e107719f1dbdbda82a7d213d87019200b4288a11bf49822d7646a4b1-skyline.gif){:width=400}
+// {:align=center}
 
-```C++ []
+// ```C++ []
 class Solution {
 public:
     vector<vector<int>> getSkyline(vector<vector<int>>& buildings) {
@@ -40,4 +40,4 @@ public:
         return res;
     }
 };
-```
+// ```

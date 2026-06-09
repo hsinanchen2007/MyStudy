@@ -1,17 +1,17 @@
-### 解题思路
+// ### 解题思路
 
-就题目来看，整个两个数之间的连接符号，可以分为四种：
-+，-，*，null
-而这四种，根据优先级，可以分为三层：
-优先级最高的为null，其次为*，最后才是+-。
-Calculator的三个方法，nextConnect，nextTimes，next对应这三种优先级。
-next表示，当前公式的值和下一个数字之间的连接必为+或者-，计算的公式为num1(+ or -)nums[index]
-nextTimes表示，当前公式的值和下一个数字之间的连接必为*，计算的公式为num1+num2*nums[index]
-nextConnect表示，当前公式的值和下一个数字之间的连接必为null，计算的公式为num1+ num2 * num3 nums[index]
+// 就题目来看，整个两个数之间的连接符号，可以分为四种：
+// +，-，*，null
+// 而这四种，根据优先级，可以分为三层：
+// 优先级最高的为null，其次为*，最后才是+-。
+// Calculator的三个方法，nextConnect，nextTimes，next对应这三种优先级。
+// next表示，当前公式的值和下一个数字之间的连接必为+或者-，计算的公式为num1(+ or -)nums[index]
+// nextTimes表示，当前公式的值和下一个数字之间的连接必为*，计算的公式为num1+num2*nums[index]
+// nextConnect表示，当前公式的值和下一个数字之间的连接必为null，计算的公式为num1+ num2 * num3 nums[index]
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 import java.util.LinkedList;
 import java.util.List;
 
@@ -108,4 +108,4 @@ class Calculator {
         return true;
     }
 }
-```
+// ```

@@ -1,8 +1,8 @@
-![1 (2).png](https://pic.leetcode-cn.com/0e2418138cfe3138e46214298ee74cc717744cbca3893ad2c4be3e5c49012c7f-1%20\(2\).png)
+// ![1 (2).png](https://pic.leetcode-cn.com/0e2418138cfe3138e46214298ee74cc717744cbca3893ad2c4be3e5c49012c7f-1%20\(2\).png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool uniqueOccurrences(vector<int>& arr) {
@@ -18,4 +18,4 @@ public:
         return true;
     }
 };
-```
+// ```

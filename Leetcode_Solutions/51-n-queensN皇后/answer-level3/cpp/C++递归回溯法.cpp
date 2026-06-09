@@ -1,5 +1,5 @@
-回溯递归法，核心数据结构是使用一个vector即可记录整个棋盘的皇后位置，依据是第i行有且只会有一个皇后，在j位置，即v[i]=j
-```c
+// 回溯递归法，核心数据结构是使用一个vector即可记录整个棋盘的皇后位置，依据是第i行有且只会有一个皇后，在j位置，即v[i]=j
+// ```c
 class Solution {
 public:
     vector<vector<string>> solveNQueens(int n) {
@@ -61,4 +61,4 @@ public:
         return true;//满足要求
     }
 };
-```
+// ```

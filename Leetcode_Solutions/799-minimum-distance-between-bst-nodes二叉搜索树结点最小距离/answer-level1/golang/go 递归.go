@@ -1,4 +1,4 @@
-```
+// ```
 func minDiffInBST(root *TreeNode) int {
 	var (
 		nums = make([]int, 0)
@@ -20,4 +20,4 @@ func dfsMinDiff(root *TreeNode, nums *[]int) {
 	dfsMinDiff(root.Left, nums)
 	dfsMinDiff(root.Right, nums)
 }
-```
+// ```

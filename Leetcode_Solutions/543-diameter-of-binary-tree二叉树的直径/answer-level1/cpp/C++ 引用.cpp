@@ -1,9 +1,9 @@
-### 解题思路
-最多边的路径其实也就是最多结点数的路径。
+// ### 解题思路
+// 最多边的路径其实也就是最多结点数的路径。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -36,4 +36,4 @@ public:
         return max(left,right) + 1;
     }
 };
-```
+// ```

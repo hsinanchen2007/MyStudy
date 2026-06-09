@@ -1,6 +1,6 @@
-## 一
-> 92ms,34.4M
-```javascript []
+// ## 一
+// > 92ms,34.4M
+// ```javascript []
 /**
  * @param {number} n - a positive integer
  * @return {number}
@@ -8,11 +8,11 @@
 var hammingWeight = function(n) {
   return n.toString(2).replace(/0+/g, '').length;
 };
-```
+// ```
 
-## 二
-> 88ms,34.8M
-```javascript []
+// ## 二
+// > 88ms,34.8M
+// ```javascript []
 /**
  * @param {number} n - a positive integer
  * @return {number}
@@ -25,6 +25,6 @@ var hammingWeight = function(n) {
   }
   return count;
 };
-```
-#### `>>>` 为无符号左边填充0，`>>` 为有符号填充
+// ```
+// #### `>>>` 为无符号左边填充0，`>>` 为有符号填充
 

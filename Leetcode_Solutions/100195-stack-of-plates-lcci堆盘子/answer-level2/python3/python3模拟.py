@@ -1,10 +1,10 @@
-这道题不算很难，最简单思路则是列表嵌套，以内列表作为单独一个栈
+# 这道题不算很难，最简单思路则是列表嵌套，以内列表作为单独一个栈
 
-这题难点在于各种特殊情况，
-比如push时候没有栈，你需要新建，或者栈容量小于0，你不能push而是直接return
-pop的时候，pop完如果栈空了，你需要删除掉，同理popAt
-这么分析下来就单独对每种情况做相应处理
-```
+# 这题难点在于各种特殊情况，
+# 比如push时候没有栈，你需要新建，或者栈容量小于0，你不能push而是直接return
+# pop的时候，pop完如果栈空了，你需要删除掉，同理popAt
+# 这么分析下来就单独对每种情况做相应处理
+# ```
 class StackOfPlates:
 
     def __init__(self, cap: int):
@@ -41,4 +41,4 @@ class StackOfPlates:
             self.fullstack.pop(index)
 
         return popitem
-```
+# ```

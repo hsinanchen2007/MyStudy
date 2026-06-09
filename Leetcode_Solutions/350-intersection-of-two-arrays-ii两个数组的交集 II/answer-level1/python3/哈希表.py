@@ -1,10 +1,10 @@
-### 解题思路
-循环遍历一个记录到哈希表里面，另外一个来查询
-反正也不需要在乎顺序
+# ### 解题思路
+# 循环遍历一个记录到哈希表里面，另外一个来查询
+# 反正也不需要在乎顺序
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def intersect(self, nums1, nums2):
         length1 = len(nums1)
@@ -26,4 +26,4 @@ class Solution:
                 if nums1_dict[nums2[i]] == 0:
                     nums1_dict.pop(nums2[i])
         return res
-```
+# ```

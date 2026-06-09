@@ -1,12 +1,12 @@
-### 解题思路
-方法2中利用“非递增”条件：从右边开始，看每一列有几行是负数的
-图解作者：wan-dou-huang
-![image.png](https://pic.leetcode-cn.com/3f3e04a0ec040b037cf5f63cc7dff161579be305d93d852dee4c26fd4442a842-image.png)
+# ### 解题思路
+# 方法2中利用“非递增”条件：从右边开始，看每一列有几行是负数的
+# 图解作者：wan-dou-huang
+# ![image.png](https://pic.leetcode-cn.com/3f3e04a0ec040b037cf5f63cc7dff161579be305d93d852dee4c26fd4442a842-image.png)
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countNegatives(self, grid: List[List[int]]) -> int:
         # 方法2:利用“非递增”  # 作者：wan-dou-huang
@@ -29,4 +29,4 @@ class Solution:
         #             count += 1
         
         # return count
-```
+# ```

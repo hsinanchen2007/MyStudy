@@ -1,9 +1,9 @@
-### 解题思路
-二分，乱
+// ### 解题思路
+// 二分，乱
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] searchRange(int[] nums, int target) {
         if (null == nums || 0 == nums.length) {
@@ -77,4 +77,4 @@ return new int[]{-1, -1};
         return nums[r] == target ? r : -1;
     }
 }
-```
+// ```

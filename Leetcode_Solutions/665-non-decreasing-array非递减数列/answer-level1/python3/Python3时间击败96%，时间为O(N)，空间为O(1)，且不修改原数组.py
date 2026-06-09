@@ -1,9 +1,9 @@
-### 解题思路
-此代码中修改了一个元素，但是如果临时保存的话，原数组就不会修改
+# ### 解题思路
+# 此代码中修改了一个元素，但是如果临时保存的话，原数组就不会修改
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def checkPossibility(self, nums: List[int]) -> bool:
         if len(nums) <= 1:
@@ -24,4 +24,4 @@ class Solution:
                     nums[index] = nums[index - 1]
 
         return True
-```
+# ```

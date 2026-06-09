@@ -1,8 +1,8 @@
-主要是num的计数，每次重复的字符处理完毕后，将num置为1，重新开始判断字符的重复次数
+// 主要是num的计数，每次重复的字符处理完毕后，将num置为1，重新开始判断字符的重复次数
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {string}
@@ -25,4 +25,4 @@ var countAndSay = function(n) {
     }
     return newStr
 };
-```
+// ```

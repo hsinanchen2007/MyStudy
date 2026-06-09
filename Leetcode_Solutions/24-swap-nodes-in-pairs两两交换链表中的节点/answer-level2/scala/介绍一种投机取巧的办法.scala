@@ -1,5 +1,5 @@
-只交换值即可，主要是交换next指针太麻烦。
-```
+// 只交换值即可，主要是交换next指针太麻烦。
+// ```
 object Solution {
     def swapPairs(head: ListNode): ListNode = {
         var newHead = head
@@ -12,4 +12,4 @@ object Solution {
         head
     }
 }
-```
+// ```

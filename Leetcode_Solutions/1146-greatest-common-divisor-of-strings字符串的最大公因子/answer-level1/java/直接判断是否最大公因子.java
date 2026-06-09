@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String gcdOfStrings(String str1, String str2) {
 String s="";
@@ -32,4 +32,4 @@ if(str2.length() % l ==0 && str1.length() % l ==0)
 return s;
     }
 }
-```
+// ```

@@ -1,20 +1,20 @@
-### 解题思路
-没有用活动窗口，而是采用一次遍历的方法，给各位分享一下。
+// ### 解题思路
+// 没有用活动窗口，而是采用一次遍历的方法，给各位分享一下。
 
-使用dicT<char, List<int>>记录各个字符出现的次数。
+// 使用dicT<char, List<int>>记录各个字符出现的次数。
 
-其中 char: char in t, List<int>{char count, location 1, location 2, ... }
+// 其中 char: char in t, List<int>{char count, location 1, location 2, ... }
 
-示例：
-{'a', {1,5,9}}
-{'b', {2,1,10,17,20}}
-{'c', {1,22}}
+// 示例：
+// {'a', {1,5,9}}
+// {'b', {2,1,10,17,20}}
+// {'c', {1,22}}
 
-假设此时i=22, 即S[22] = 'C'， 那么以22为尾部，最小字符串的头部fullhead = min(9, 17) = 9
+// 假设此时i=22, 即S[22] = 'C'， 那么以22为尾部，最小字符串的头部fullhead = min(9, 17) = 9
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public string MinWindow(string s, string t) {
                     //dicT<char, List<int>>, char: char in t, List<int>{char count, location 1, location 2, ... }
@@ -59,4 +59,4 @@ public class Solution {
                 return "";
     }
 }
-```
+// ```

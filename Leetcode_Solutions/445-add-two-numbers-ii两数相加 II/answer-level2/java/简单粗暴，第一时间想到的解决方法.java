@@ -1,11 +1,11 @@
-### 解题思路
-1.先分别将两个链表翻转
-2.在对应相加，同LeetCode题2
-3.最后将结果在反转
+// ### 解题思路
+// 1.先分别将两个链表翻转
+// 2.在对应相加，同LeetCode题2
+// 3.最后将结果在反转
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -64,4 +64,4 @@ class Solution {
 		return resp;
 	}
 }
-```
+// ```

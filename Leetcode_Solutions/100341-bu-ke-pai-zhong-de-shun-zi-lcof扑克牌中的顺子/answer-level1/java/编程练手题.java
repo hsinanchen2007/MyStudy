@@ -1,9 +1,9 @@
-### 解题思路
-编程练手题目，基本没有太多数据结构与算法的知识点。
+// ### 解题思路
+// 编程练手题目，基本没有太多数据结构与算法的知识点。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isStraight(int[] nums) {
         int max = 0;
@@ -27,4 +27,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

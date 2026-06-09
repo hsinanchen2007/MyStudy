@@ -1,15 +1,15 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  :
- * Date   : 2019/10/9
- *
- * 解题思路: 1.hash存储 暴力遍历的方法 使用String.compareTo()进行比较   2.使用Array.sort()进行预排序(字典序) 然后进行线性扫描
- * 
- * 注意: Array.sort() 的使用
- *
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  :
+//  * Date   : 2019/10/9
+//  *
+//  * 解题思路: 1.hash存储 暴力遍历的方法 使用String.compareTo()进行比较   2.使用Array.sort()进行预排序(字典序) 然后进行线性扫描
+//  * 
+//  * 注意: Array.sort() 的使用
+//  *
+//  */
+// ```
 public String longestWord(String[] words) {
     HashMap<String,Integer> hashMap = new HashMap<>();
     for(int i = 0;i < words.length;i++){
@@ -107,4 +107,4 @@ Arrays.sort(s, new Comparator<String>() {
         return o2.length() - o1.length();
     }
 });
-```
+// ```

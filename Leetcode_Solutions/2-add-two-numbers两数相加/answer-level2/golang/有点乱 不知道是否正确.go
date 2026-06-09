@@ -1,4 +1,4 @@
-```
+// ```
 type LinkNode struct {
 	val int
 	next *LinkNode
@@ -94,4 +94,4 @@ func main() {
 	newNode := addTowLink(link1,link2)
 	Print(newNode)
 }
-```
+// ```

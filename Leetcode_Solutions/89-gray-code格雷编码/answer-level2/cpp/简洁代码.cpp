@@ -1,4 +1,4 @@
-```
+// ```
 vector<int> grayCode(int n) {
     vector<int> ans{0};
     int cnt = 1; //记录数组长度
@@ -11,5 +11,5 @@ vector<int> grayCode(int n) {
     
     return ans;
 }
-```
+// ```
 

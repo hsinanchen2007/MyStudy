@@ -1,8 +1,8 @@
 
-错误信息：
-    AddressSanitizer: stack-overflow on address 0x7ffe5e5ddff8 (pc 0x00000038ed28 bp 0x7ffe5e5de010 sp 0x7ffe5e5de000 T0)
+// 错误信息：
+//     AddressSanitizer: stack-overflow on address 0x7ffe5e5ddff8 (pc 0x00000038ed28 bp 0x7ffe5e5de010 sp 0x7ffe5e5de000 T0)
 
-```
+// ```
 class Solution {
 public:
     //int inf = pow(2,31) - 1;
@@ -38,4 +38,4 @@ public:
         return;
     }
 };
-```
+// ```

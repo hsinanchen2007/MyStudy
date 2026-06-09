@@ -1,6 +1,6 @@
-递归实现：
-如果为0 ， 则返回0
-否则返回递归 结果 + 1. 
+# 递归实现：
+# 如果为0 ， 则返回0
+# 否则返回递归 结果 + 1. 
 
 class Solution:
     def numberOfSteps (self, num: int) -> int:

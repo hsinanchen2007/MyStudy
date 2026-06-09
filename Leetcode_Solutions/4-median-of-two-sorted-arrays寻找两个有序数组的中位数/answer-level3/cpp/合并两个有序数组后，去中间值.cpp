@@ -1,9 +1,9 @@
-### 解题思路
-合并两个有序数组后，去中间值
+// ### 解题思路
+// 合并两个有序数组后，去中间值
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
@@ -40,4 +40,4 @@ public:
         return ((double)vecResult[medimIndex] + (double)vecResult[medimIndex - 1]) / 2.0;
     }
 };
-```
+// ```

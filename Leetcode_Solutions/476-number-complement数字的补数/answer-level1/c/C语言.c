@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int findComplement(int num){
     int bitWidth = 0;
     int numTemp = num;
@@ -26,4 +26,4 @@ int findComplement(int num){
 
     return res;
 }
-```
+// ```

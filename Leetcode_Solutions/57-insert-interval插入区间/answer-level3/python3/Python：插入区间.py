@@ -1,18 +1,18 @@
-### 解题思路
-调的最久的一个，第一个100%，强行优化暴力算法
-信号值+流程树
-不存在特例
-空间复杂度O(n)
-时间复杂度O(n)
-执行用时 :48 ms, 在所有 Python3 提交中击败了88.14%的用户
-内存消耗 :15.2 MB, 在所有 Python3 提交中击败了100.00%的用户
-继续优化思路：
-二分，提高定位速度
+# ### 解题思路
+# 调的最久的一个，第一个100%，强行优化暴力算法
+# 信号值+流程树
+# 不存在特例
+# 空间复杂度O(n)
+# 时间复杂度O(n)
+# 执行用时 :48 ms, 在所有 Python3 提交中击败了88.14%的用户
+# 内存消耗 :15.2 MB, 在所有 Python3 提交中击败了100.00%的用户
+# 继续优化思路：
+# 二分，提高定位速度
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def insert(self, intervals: List[List[int]], newInterval: List[int]) -> List[List[int]]:
         merged=[]
@@ -43,4 +43,4 @@ class Solution:
         if signal==1:merged.append(newInterval)
         if signal==2:merged[-1][1]=max(newInterval[1],intervals[-1][1])
         return merged
-```
+# ```

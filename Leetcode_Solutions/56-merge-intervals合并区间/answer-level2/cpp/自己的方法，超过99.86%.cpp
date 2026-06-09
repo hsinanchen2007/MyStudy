@@ -1,6 +1,6 @@
-`inside`表示当前在多少个区间内。
+// `inside`表示当前在多少个区间内。
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> merge(vector<vector<int>>& intervals) {
@@ -30,4 +30,4 @@ public:
         return result;
     }
 };
-```
+// ```

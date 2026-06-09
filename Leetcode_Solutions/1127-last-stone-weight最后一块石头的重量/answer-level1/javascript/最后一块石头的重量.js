@@ -1,4 +1,4 @@
-```js
+// ```js
 var lastStoneWeight = function(stones) {
     while(stones.length > 1) {
     	stones.sort((a, b) => b - a)
@@ -10,4 +10,4 @@ var lastStoneWeight = function(stones) {
     }
     return stones[0] ? stones[0] : 0
 };
-```
+// ```

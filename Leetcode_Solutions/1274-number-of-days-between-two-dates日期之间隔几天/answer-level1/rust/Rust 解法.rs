@@ -1,4 +1,4 @@
-```
+// ```
 impl Solution {
     pub fn days_between_dates(date1: String, date2: String) -> i32 {
         let year1:i32 = date1[0..4].to_string().parse().expect("");
@@ -52,6 +52,6 @@ impl Solution {
         (days1 -days2).abs() 
     }
 }
-```
-![image.png](https://pic.leetcode-cn.com/dcd15b3a4f7c21b5c8e323d3604027f029e6e8bd5196a81d9e91033397d5d45b-image.png)
-注意闰年的定义
+// ```
+// ![image.png](https://pic.leetcode-cn.com/dcd15b3a4f7c21b5c8e323d3604027f029e6e8bd5196a81d9e91033397d5d45b-image.png)
+// 注意闰年的定义

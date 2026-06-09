@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func hammingDistance(x int, y int) int {
 	m := x ^ y // 异或计算不同的位置
 	count := 0
@@ -15,4 +15,4 @@ func hammingDistance(x int, y int) int {
 	}
 	return count
 }
-```
+// ```

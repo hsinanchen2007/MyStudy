@@ -1,9 +1,9 @@
-![image.png](https://pic.leetcode-cn.com/772a3d0a6316cf593b1765c1d6d7bf18c43efb98b773ee294216afaa90d3777c-image.png)
+// ![image.png](https://pic.leetcode-cn.com/772a3d0a6316cf593b1765c1d6d7bf18c43efb98b773ee294216afaa90d3777c-image.png)
 
-1. 找出最短字符串，并分配一个数组存储返回结果，长度为最小字符串的长度。
-2. 从第一个字符串的第一个字符开始遍历，与剩余字符串的字符对比，如果有不同的，则查找结束，如果相同，则保存入返回结果。
+// 1. 找出最短字符串，并分配一个数组存储返回结果，长度为最小字符串的长度。
+// 2. 从第一个字符串的第一个字符开始遍历，与剩余字符串的字符对比，如果有不同的，则查找结束，如果相同，则保存入返回结果。
 
-```
+// ```
 char * longestCommonPrefix(char ** strs, int strsSize){
 	if (strsSize == 0) return "";
 	if (strsSize == 1) return strs[0];
@@ -36,5 +36,5 @@ char * longestCommonPrefix(char ** strs, int strsSize){
 	}
 	return res;
 }
-```
+// ```
 

@@ -1,9 +1,9 @@
-执行用时 :1 ms, 在所有 Java 提交中击败了100.00%的用户
-内存消耗 :45.1 MB, 在所有 Java 提交中击败了74.27%的用户
+// 执行用时 :1 ms, 在所有 Java 提交中击败了100.00%的用户
+// 内存消耗 :45.1 MB, 在所有 Java 提交中击败了74.27%的用户
 
-不多解释，代码一眼就能看懂。
+// 不多解释，代码一眼就能看懂。
 
-```
+// ```
 class Solution {
     public int[][] floodFill(int[][] image, int sr, int sc, int newColor) {
         int oldColor = image[sr][sc];
@@ -16,4 +16,4 @@ class Solution {
         return image;
     }
 }
-```
+// ```

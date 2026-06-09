@@ -1,9 +1,9 @@
-### 解题思路
-最小堆
+// ### 解题思路
+// 最小堆
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 //	787
 func findCheapestPrice(n int, flights [][]int, src int, dst int, K int) int {
 	graph := make(map[int][][]int)
@@ -82,4 +82,4 @@ func (pq *DistMinHeap) Pop() interface{} {
 func (pq *DistMinHeap) Peek() Dist {
 	return (*pq)[0]
 }
-```
+// ```

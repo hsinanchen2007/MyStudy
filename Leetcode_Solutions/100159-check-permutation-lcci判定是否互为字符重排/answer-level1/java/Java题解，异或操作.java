@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean CheckPermutation(String s1, String s2) {
         // 异或操作：0^0=0， 1^0=1， 0^1=1， 1^1=0
@@ -14,4 +14,4 @@ class Solution {
         return res==0;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     void rotate(vector<int>& nums, int k) {
@@ -14,10 +14,10 @@ public:
         
     }
 };
-```
+// ```
 
-第二个超时了。。。
-```
+// 第二个超时了。。。
+// ```
 class Solution {
 public:
     void rotate(vector<int>& nums, int k) {
@@ -33,12 +33,12 @@ public:
         
     }
 };
-```
+// ```
 
 
 
-抄的
-```
+// 抄的
+// ```
 class Solution {
 public:
     void rotate(vector<int>& nums, int k) {
@@ -60,6 +60,6 @@ public:
 
     }
 };
-```
+// ```
 
 

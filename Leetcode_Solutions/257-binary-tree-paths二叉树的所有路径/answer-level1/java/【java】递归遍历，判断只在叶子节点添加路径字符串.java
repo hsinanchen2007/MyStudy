@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-以StringBuilder存储字符串的值，通过递归遍历将各个节点的值拼接到字符串中。
-在叶子节点处将已经拼装好的路径字符串值添加到 list 中
+// 以StringBuilder存储字符串的值，通过递归遍历将各个节点的值拼接到字符串中。
+// 在叶子节点处将已经拼装好的路径字符串值添加到 list 中
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -52,4 +52,4 @@ class Solution {
         }
     }
 }
-```
+// ```

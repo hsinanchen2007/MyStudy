@@ -1,10 +1,10 @@
-### 解题思路
-1. 递归，每次递归互相交换两个值，返回第second_node，同事second_node.next = first_node
-2. 迭代
+# ### 解题思路
+# 1. 递归，每次递归互相交换两个值，返回第second_node，同事second_node.next = first_node
+# 2. 迭代
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -42,4 +42,4 @@ class Solution:
 
 
 
-```
+# ```

@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def verifyPostorder(self, postorder: List[int]) -> bool:
         from itertools import takewhile
@@ -19,4 +19,4 @@ class Solution:
             right = self.verifyPostorder(right_sub)
         return left and right
 
-```
+# ```

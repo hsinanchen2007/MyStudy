@@ -1,6 +1,6 @@
-实现search方法的时候不要直接按照字典树的正经search写，而是按照异或的性质，1找0，0找1（没有ghs，我不是，我没有）
-powcai大佬的字典树实现-> [字典树](https://leetcode-cn.com/problems/implement-trie-prefix-tree/solution/pythonjian-dan-shi-xian-by-powcai/)
-```python
+# 实现search方法的时候不要直接按照字典树的正经search写，而是按照异或的性质，1找0，0找1（没有ghs，我不是，我没有）
+# powcai大佬的字典树实现-> [字典树](https://leetcode-cn.com/problems/implement-trie-prefix-tree/solution/pythonjian-dan-shi-xian-by-powcai/)
+# ```python
 class Trie:
     def __init__(self):
         self.lookup = {}
@@ -46,4 +46,4 @@ class Solution:
         return max_val
 
 
-```
+# ```

@@ -1,5 +1,5 @@
-这个问题分情况即可，对于第一个是否被偷分两种情况，其余就是简单dp,通常处理环状问题可以在数组后接一个同样的数组或者对环状数组的第一个值分类讨论
-```
+# 这个问题分情况即可，对于第一个是否被偷分两种情况，其余就是简单dp,通常处理环状问题可以在数组后接一个同样的数组或者对环状数组的第一个值分类讨论
+# ```
 class Solution:
     def rob(self, nums: List[int]) -> int:
         if len(nums) == 0:
@@ -25,4 +25,4 @@ class Solution:
         if len(dp_two) == 0:
             dp_two = [0]
         return max(dp_one[-1],dp_two[-1] + nums[0])
-```
+# ```

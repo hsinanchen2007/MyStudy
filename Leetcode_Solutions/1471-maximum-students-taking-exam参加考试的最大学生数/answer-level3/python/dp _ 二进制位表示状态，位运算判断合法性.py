@@ -1,18 +1,18 @@
-### 解题思路
+# ### 解题思路
 
-seat_map 用一个整数表示一行的状态
+# seat_map 用一个整数表示一行的状态
 
-line_state 标识任意一行所有可行的座位安排（其实就是没有相邻的）因为单就一行来看，只要没人相邻就 ok
+# line_state 标识任意一行所有可行的座位安排（其实就是没有相邻的）因为单就一行来看，只要没人相邻就 ok
 
-line_state 中任意一个和 seat_map 的任意一行做按位与，看是否变化，就可以知道这一行是否可以这么座（是否会坐到坏座位）
+# line_state 中任意一个和 seat_map 的任意一行做按位与，看是否变化，就可以知道这一行是否可以这么座（是否会坐到坏座位）
 
-两行之间的是否合法，就是一行右移、左移再和另一行按位与。
+# 两行之间的是否合法，就是一行右移、左移再和另一行按位与。
 
-本思路参考了排行榜上 leoGW 的代码，思路一致，但是重写了。
+# 本思路参考了排行榜上 leoGW 的代码，思路一致，但是重写了。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def maxStudents(self, seats: List[List[str]]) -> int:
         n = len(seats)
@@ -49,8 +49,8 @@ class Solution:
                         if ((j << 1) & k ==0 ) and ((j >> 1) & k == 0): # 两行没有斜对角的人
                             dp[i][j] = max(dp[i-1][k] + jn, dp[i][j])
         return max(dp[n-1])
-```
+# ```
 
 
-欢迎来我的博客： [https://codeplot.top/](https://codeplot.top/)
-我的博客刷题分类：[https://codeplot.top/categories/%E5%88%B7%E9%A2%98/](https://codeplot.top/categories/%E5%88%B7%E9%A2%98/)
+# 欢迎来我的博客： [https://codeplot.top/](https://codeplot.top/)
+# 我的博客刷题分类：[https://codeplot.top/categories/%E5%88%B7%E9%A2%98/](https://codeplot.top/categories/%E5%88%B7%E9%A2%98/)

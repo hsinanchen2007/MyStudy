@@ -1,10 +1,10 @@
-### 解题思路
-4个数问题，转成3个数问题，再转成2个数问题
-![image.png](https://pic.leetcode-cn.com/f0eb81483dc79c2cbc2c3852d323b42ce00703990556d657230a14d966307906-image.png)
+// ### 解题思路
+// 4个数问题，转成3个数问题，再转成2个数问题
+// ![image.png](https://pic.leetcode-cn.com/f0eb81483dc79c2cbc2c3852d323b42ce00703990556d657230a14d966307906-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -189,4 +189,4 @@ int** fourSum(int* nums, int numsSize, int target, int* returnSize, int** return
     *returnColumnSizes = r.returnColumnSizes;
     return r.rlt;
 }
-```
+// ```

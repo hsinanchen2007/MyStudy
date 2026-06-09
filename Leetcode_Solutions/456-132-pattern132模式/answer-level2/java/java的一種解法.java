@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean find132pattern(int[] nums) {
         if (nums == null || nums.length == 0) return false;
@@ -19,4 +19,4 @@ class Solution {
 		return false;
     }
 }
-```
+// ```

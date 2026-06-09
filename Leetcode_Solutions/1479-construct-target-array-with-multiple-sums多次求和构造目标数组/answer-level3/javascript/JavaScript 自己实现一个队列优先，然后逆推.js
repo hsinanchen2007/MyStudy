@@ -1,8 +1,8 @@
-### 解题思路
-逆推，又target开始你推，如果出现负数或者，某些值小于1的情况，返回 false
-### 代码
+// ### 解题思路
+// 逆推，又target开始你推，如果出现负数或者，某些值小于1的情况，返回 false
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} target
  * @return {boolean}
@@ -35,4 +35,4 @@ queue.prototype.add = function(value) {
     }
     this.data.push(value)
 }
-```
+// ```

@@ -1,7 +1,7 @@
-![微信图片_20190926114553.png](https://pic.leetcode-cn.com/bd3bb3643483ea4e879c382d3f8fc725832b90c2816c6a693060687cc6fedc71-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190926114553.png)
+// ![微信图片_20190926114553.png](https://pic.leetcode-cn.com/bd3bb3643483ea4e879c382d3f8fc725832b90c2816c6a693060687cc6fedc71-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190926114553.png)
 
 
-```java []
+// ```java []
 class BSTIterator {
 
     public TreeNode root;
@@ -46,5 +46,5 @@ class BSTIterator {
         return false;
     }
 }
-```
+// ```
 

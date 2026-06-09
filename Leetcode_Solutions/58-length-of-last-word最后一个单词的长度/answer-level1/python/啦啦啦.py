@@ -1,9 +1,9 @@
-### 解题思路
-python就是很好的文字处理软件啊，哈哈哈
+# ### 解题思路
+# python就是很好的文字处理软件啊，哈哈哈
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def lengthOfLastWord(self, s):
         s=s.split(' ')[::-1];
@@ -11,4 +11,4 @@ class Solution(object):
             if a!='':
                 return len(a)
         return 0
-```
+# ```

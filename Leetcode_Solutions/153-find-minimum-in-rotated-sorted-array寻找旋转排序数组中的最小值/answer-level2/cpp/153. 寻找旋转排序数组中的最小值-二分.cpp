@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 int findMin(vector<int>& nums) {
     int lo = 0, hi = nums.size() - 1;
     while (lo < hi) {
@@ -11,4 +11,4 @@ int findMin(vector<int>& nums) {
     }
     return nums[lo];
 }
-```
+// ```

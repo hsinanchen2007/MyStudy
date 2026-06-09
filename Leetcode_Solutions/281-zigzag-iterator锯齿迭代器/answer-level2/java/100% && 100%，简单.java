@@ -1,4 +1,4 @@
-```
+// ```
 public class ZigzagIterator {
 
     int[] ids = new int[2];
@@ -31,4 +31,4 @@ public class ZigzagIterator {
  * ZigzagIterator i = new ZigzagIterator(v1, v2);
  * while (i.hasNext()) v[f()] = i.next();
  */
-```
+// ```

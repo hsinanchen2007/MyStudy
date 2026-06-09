@@ -1,6 +1,6 @@
-/*典型的并查集+路径压缩
-把这道题想象成江湖上的犯罪团伙不断合并优化组织结构的过程*/
-```
+// /*典型的并查集+路径压缩
+// 把这道题想象成江湖上的犯罪团伙不断合并优化组织结构的过程*/
+// ```
 class Solution {
 public:
     int GetRoot(vector<int>& relationMap, int v)
@@ -51,4 +51,4 @@ public:
         return numOfGroup;
     }
 };
-```
+// ```

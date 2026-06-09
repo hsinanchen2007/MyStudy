@@ -1,9 +1,9 @@
-首先想到的是直接利用Counter
-其次想到的是二分法
+# 首先想到的是直接利用Counter
+# 其次想到的是二分法
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         # 直接利用Counter
@@ -36,4 +36,4 @@ class Solution:
         #         r = mid - 1
         # left = r
         # return right - left - 1
-```
+# ```

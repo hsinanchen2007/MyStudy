@@ -1,8 +1,8 @@
-# 解题思路：
-    先把字符串转换成char[]类型
-    可以利用异或操作：1^1=0,0^1=1
-# 实现代码：
-```
+// # 解题思路：
+//     先把字符串转换成char[]类型
+//     可以利用异或操作：1^1=0,0^1=1
+// # 实现代码：
+// ```
 public class Solution {
     public int[] MaxDepthAfterSplit(string seq) {
         var res = new int[seq.Length];
@@ -21,6 +21,6 @@ public class Solution {
         return res;
     }
 }
-```
+// ```
 
     

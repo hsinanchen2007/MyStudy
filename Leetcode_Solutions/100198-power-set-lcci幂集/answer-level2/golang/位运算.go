@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func subsets(nums []int) [][]int {
     num:=1<<len(nums)
     var res [][]int
@@ -18,4 +18,4 @@ func subsets(nums []int) [][]int {
     }
     return res
 }
-```
+// ```

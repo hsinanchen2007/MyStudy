@@ -1,4 +1,4 @@
-```
+// ```
 type points struct {
 	x, y int
 }
@@ -18,4 +18,4 @@ func dfsRob(root *TreeNode) *points {
 	res.y = left.x + right.x + root.Val
 	return res
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-将最多的字符两两一块分配好, 然后将剩下的两种字符往块之间的坑中填放, 每一次填放的字符是可以根据坑的数量以及原有字符的数量计算出来的.
-![IMG_20200405_231901__01.jpg](https://pic.leetcode-cn.com/7ba093bd4eb324d14399dd34173d831280e86a7647e748dfb0a2caa7ec0bff7d-IMG_20200405_231901__01.jpg)
+// ### 解题思路
+// 将最多的字符两两一块分配好, 然后将剩下的两种字符往块之间的坑中填放, 每一次填放的字符是可以根据坑的数量以及原有字符的数量计算出来的.
+// ![IMG_20200405_231901__01.jpg](https://pic.leetcode-cn.com/7ba093bd4eb324d14399dd34173d831280e86a7647e748dfb0a2caa7ec0bff7d-IMG_20200405_231901__01.jpg)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string longestDiverseString(int a, int b, int c) {
@@ -53,6 +53,6 @@ public:
         return ans;     
     }
 };
-```
+// ```
 
-![TIM截图20200405232238.png](https://pic.leetcode-cn.com/a10da4859c90da21350459e78c683ee48e414f458748af1de01c2e5100f351b1-TIM%E6%88%AA%E5%9B%BE20200405232238.png)
+// ![TIM截图20200405232238.png](https://pic.leetcode-cn.com/a10da4859c90da21350459e78c683ee48e414f458748af1de01c2e5100f351b1-TIM%E6%88%AA%E5%9B%BE20200405232238.png)

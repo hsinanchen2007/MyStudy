@@ -1,11 +1,11 @@
-### 解题思路
-仔细检查==与=，调试了好久
-1、DFS找出第一个岛，并置成2；
-2、BFS不断往外搜索，第二个岛的坐标记录在一个数组中，搜索一次将0置成1，刷新数组，再BFS
+// ### 解题思路
+// 仔细检查==与=，调试了好久
+// 1、DFS找出第一个岛，并置成2；
+// 2、BFS不断往外搜索，第二个岛的坐标记录在一个数组中，搜索一次将0置成1，刷新数组，再BFS
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define DIR 4
 
 void dfs(int** A, int ASize, int* AColSize, int m, int n) {
@@ -90,4 +90,4 @@ int shortestBridge(int** A, int ASize, int* AColSize){
 
     return MinStep;
 }
-```
+// ```

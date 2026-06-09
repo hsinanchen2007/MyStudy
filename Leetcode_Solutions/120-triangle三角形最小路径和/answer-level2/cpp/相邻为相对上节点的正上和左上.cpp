@@ -1,11 +1,11 @@
-**特么你家的相邻是正上和左上，右上就不算了吗**
-无fuck说
-自己完成的动态规划题
-![111.jpg](https://pic.leetcode-cn.com/91114eda8712b18a81574d738c324b0f7f472f19d63a642657838bd70754837e-111.jpg)
+// **特么你家的相邻是正上和左上，右上就不算了吗**
+// 无fuck说
+// 自己完成的动态规划题
+// ![111.jpg](https://pic.leetcode-cn.com/91114eda8712b18a81574d738c324b0f7f472f19d63a642657838bd70754837e-111.jpg)
 
 
 
-```
+// ```
 class Solution {
 public:
     int minimumTotal(vector<vector<int>>& triangle) {
@@ -52,4 +52,4 @@ public:
         return result;
     }
 };
-```
+// ```

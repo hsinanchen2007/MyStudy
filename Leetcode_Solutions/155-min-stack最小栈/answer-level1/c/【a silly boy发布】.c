@@ -1,6 +1,6 @@
-![F55DFDBB-1A14-4A3D-B78B-631CD63D3081.jpeg](https://pic.leetcode-cn.com/0a7a2ddd3d4c223c0a1b5058cac3cfa9cb1a0dfb81dfaa144bb5030644dfe953-F55DFDBB-1A14-4A3D-B78B-631CD63D3081.jpeg)
+// ![F55DFDBB-1A14-4A3D-B78B-631CD63D3081.jpeg](https://pic.leetcode-cn.com/0a7a2ddd3d4c223c0a1b5058cac3cfa9cb1a0dfb81dfaa144bb5030644dfe953-F55DFDBB-1A14-4A3D-B78B-631CD63D3081.jpeg)
 
-```
+// ```
 #define MAXSIZE 8000
 
 typedef struct {
@@ -68,4 +68,4 @@ void minStackFree(MinStack* obj)
     obj->valNum = 0;
     free(obj);
 }
-```
+// ```

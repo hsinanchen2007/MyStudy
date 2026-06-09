@@ -1,11 +1,11 @@
-# **解题思路**
-    本题N皇后应该有四个限制
-    1.行不能重复
-    2.列不能重复
-    3.左上不能重复
-    4.右上不能重复
-    对于第一个限制，可用递归来消除，而其他的都会添加一个数组来作为条件cols cross crossRight
-```
+// # **解题思路**
+//     本题N皇后应该有四个限制
+//     1.行不能重复
+//     2.列不能重复
+//     3.左上不能重复
+//     4.右上不能重复
+//     对于第一个限制，可用递归来消除，而其他的都会添加一个数组来作为条件cols cross crossRight
+// ```
 public List<List<String>> solveNQueens(int n) {
         List<List<String>> res = new ArrayList();
         List<String> tmp = new ArrayList();
@@ -57,4 +57,4 @@ public List<List<String>> solveNQueens(int n) {
         str[col] = 'Q';
         return String.valueOf(str);
     }
-```
+// ```

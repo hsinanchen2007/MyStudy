@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -35,4 +35,4 @@ function randomInt(i) {
     return Math.floor(Math.random() * i) + 1
 }
 
-```
+// ```

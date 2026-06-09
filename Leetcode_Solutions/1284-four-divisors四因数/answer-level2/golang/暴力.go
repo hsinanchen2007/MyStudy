@@ -1,9 +1,9 @@
-### 解题思路
-注意四次方特性哈。  
+// ### 解题思路
+// 注意四次方特性哈。  
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func sumFourDivisors(nums []int) int {
     res := 0
     for _, num := range nums {
@@ -32,4 +32,4 @@ func getDivisors(num int) int {
     }
     return ret
 }
-```
+// ```

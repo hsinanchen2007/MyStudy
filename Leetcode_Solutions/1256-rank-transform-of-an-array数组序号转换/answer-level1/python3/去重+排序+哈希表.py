@@ -1,9 +1,9 @@
-### 解题思路
-拷贝+去重+排序+哈希表记录索引位置
+# ### 解题思路
+# 拷贝+去重+排序+哈希表记录索引位置
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def arrayRankTransform(self, arr):
         length = len(arr)
@@ -17,4 +17,4 @@ class Solution:
         for i in range(length):
             res.append(index_dict[arr[i]] + 1)
         return res
-```
+# ```

@@ -1,6 +1,6 @@
-# **思路和105一样**
+# # **思路和105一样**
 
-# **代码：**
+# # **代码：**
 
 class Solution:
     def buildTree(self, inorder: List[int], postorder: List[int]) -> TreeNode:

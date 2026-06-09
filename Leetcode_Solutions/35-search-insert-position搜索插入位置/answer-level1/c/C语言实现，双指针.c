@@ -1,4 +1,4 @@
-为提高效率，双指针，往中间二分法移动直到两个指针靠上或者只差1
+// 为提高效率，双指针，往中间二分法移动直到两个指针靠上或者只差1
 int searchInsert(int* nums, int numsSize, int target){
     if(target < nums[0])
     {

@@ -1,10 +1,10 @@
-#### *如果满足亲密字符串，前提如下*
-- `A == B` : *A 中`至少有2个`重复元素*
-- `A != B` : *AB中`只能有2对`不同索引 (元素互换相等)*
+// #### *如果满足亲密字符串，前提如下*
+// - `A == B` : *A 中`至少有2个`重复元素*
+// - `A != B` : *AB中`只能有2对`不同索引 (元素互换相等)*
 
-——————————————————————————————————————————————————
+// ——————————————————————————————————————————————————
 
-```java
+// ```java
 class Solution {
     public boolean buddyStrings(String A, String B) {
         int len = A.length();
@@ -42,10 +42,10 @@ class Solution {
         return A.charAt(pre) == B.charAt(next) && A.charAt(next) == B.charAt(pre);
     }
 }
-```
-————————————————————
-`// 优化内容如下：`
-```java
+// ```
+// ————————————————————
+// `// 优化内容如下：`
+// ```java
         // A != B
         // 不同元素的索引(pre、next最好是负数)
         int pre = -1, next = -1, count = 0;
@@ -77,5 +77,5 @@ class Solution {
         if (count != 2)
             return false;
         return A.charAt(pre) == B.charAt(next) && A.charAt(next) == B.charAt(pre);
-```
+// ```
 

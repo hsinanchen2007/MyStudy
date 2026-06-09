@@ -1,9 +1,9 @@
-### 解题思路
-题目解释起来太困难，从B站搬运了[视频](https://www.bilibili.com/video/av67491968?from=search&seid=14179055963851621748)
+// ### 解题思路
+// 题目解释起来太困难，从B站搬运了[视频](https://www.bilibili.com/video/av67491968?from=search&seid=14179055963851621748)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<char>> updateBoard(vector<vector<char>>& board, vector<int>& click) {
@@ -36,4 +36,4 @@ public:
         return board;
     }
 };
-```
+// ```

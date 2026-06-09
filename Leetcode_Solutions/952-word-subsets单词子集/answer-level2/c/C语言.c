@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
-一开始暴力循环，依次遍历A和B所有单词，存放满足条件的，结果超时了，复杂度为n*n*n
-```
+// ### 代码
+// 一开始暴力循环，依次遍历A和B所有单词，存放满足条件的，结果超时了，复杂度为n*n*n
+// ```
 char ** wordSubsets(char ** A, int ASize, char ** B, int BSize, int* returnSize){
     char **res = (char **)malloc(sizeof(char *) * ASize);
     *returnSize = 0;
@@ -33,10 +33,10 @@ char ** wordSubsets(char ** A, int ASize, char ** B, int BSize, int* returnSize)
     }
     return res;
 }
-```
+// ```
 
-后来看了题解，发现可以将B中字母合并成单词，不过要注意单个单词中有多个某一相同字母，需要记录该字母出现的最大值，复杂度降为n*n
-```c
+// 后来看了题解，发现可以将B中字母合并成单词，不过要注意单个单词中有多个某一相同字母，需要记录该字母出现的最大值，复杂度降为n*n
+// ```c
 #define MAX(a, b)  (((a) > (b)) ? (a) : (b))
 
 char ** wordSubsets(char ** A, int ASize, char ** B, int BSize, int* returnSize){
@@ -72,4 +72,4 @@ char ** wordSubsets(char ** A, int ASize, char ** B, int BSize, int* returnSize)
     }
     return res;
 }
-```
+// ```

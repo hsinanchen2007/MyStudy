@@ -1,5 +1,5 @@
-都是套路
-```
+// 都是套路
+// ```
 class Solution {
 public:
     int pathSum(TreeNode* root, int sum) {
@@ -39,4 +39,4 @@ public:
         }
     }
 };
-```
+// ```

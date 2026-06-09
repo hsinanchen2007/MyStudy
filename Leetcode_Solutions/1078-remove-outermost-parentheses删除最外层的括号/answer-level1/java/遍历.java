@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-设置一个标志量来决定是否将Parentheses加入字符串
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 设置一个标志量来决定是否将Parentheses加入字符串
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String removeOuterParentheses(String S) {
         StringBuilder A = new StringBuilder();
@@ -23,4 +23,4 @@ class Solution {
         return A.toString();
     }
 }
-```
+// ```

@@ -1,7 +1,7 @@
-- 时间复杂度O(n)
-- PHP空间复杂度O(1),GO空间复杂度O(n)
+// - 时间复杂度O(n)
+// - PHP空间复杂度O(1),GO空间复杂度O(n)
 
-```PHP内置函数解法 []
+// ```PHP内置函数解法 []
 class Solution {
 
     /**
@@ -18,8 +18,8 @@ class Solution {
         return $nums[2];
     }
 }
-```
-```PHP []
+// ```
+// ```PHP []
 class Solution {
 
     /**
@@ -59,8 +59,8 @@ class Solution {
         return $c === null ? $a : $c;
     }
 }
-```
-```GO []
+// ```
+// ```GO []
 func thirdMax(nums []int) int {
     if len(nums) == 1 {return nums[0]}
     if len(nums) == 2 {
@@ -89,6 +89,6 @@ func thirdMax(nums []int) int {
     }
     return arr[len(arr)-3]
 }
-```
+// ```
 
 

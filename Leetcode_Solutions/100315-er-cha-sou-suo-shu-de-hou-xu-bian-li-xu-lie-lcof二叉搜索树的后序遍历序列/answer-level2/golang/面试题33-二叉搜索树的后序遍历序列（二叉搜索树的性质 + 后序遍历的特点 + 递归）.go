@@ -1,11 +1,11 @@
-### 解题思路
-日常学习[@jyd](/u/jyd/)大佬
-[大佬详细讲解传送门](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof/solution/mian-shi-ti-33-er-cha-sou-suo-shu-de-hou-xu-bian-6/)
+// ### 解题思路
+// 日常学习[@jyd](/u/jyd/)大佬
+// [大佬详细讲解传送门](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof/solution/mian-shi-ti-33-er-cha-sou-suo-shu-de-hou-xu-bian-6/)
 
-### 知识点：二叉搜索树的性质 + 后序遍历的特点 + 递归
-### 代码
+// ### 知识点：二叉搜索树的性质 + 后序遍历的特点 + 递归
+// ### 代码
 
-```golang
+// ```golang
 func verifyPostorder(postorder []int) bool {
 	// 递归分治
 	// 后序遍历性质： [ 左子树 | 右子树 | 根节点 ] ，即遍历顺序为 “左、右、根” 。
@@ -37,4 +37,4 @@ func recur33(postorder []int, left, right int) bool {
 
 	return ret && recur33(postorder, left, middle - 1) && recur33(postorder, middle, right - 1)  // 递归判断
 }
-```
+// ```

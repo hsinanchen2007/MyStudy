@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int scheduleCourse(int[][] courses) {
         //根据课程结束时间升序排列
@@ -23,4 +23,4 @@ class Solution {
         return queue.size();
     }
 }
-```
+// ```

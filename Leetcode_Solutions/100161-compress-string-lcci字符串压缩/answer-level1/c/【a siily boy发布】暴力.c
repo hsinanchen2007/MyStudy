@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/cb42c7044ca829db08f1dafbe6b4888aa49c62fc86595d9fdd3c7d3bc17487e6-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/cb42c7044ca829db08f1dafbe6b4888aa49c62fc86595d9fdd3c7d3bc17487e6-image.png)
+// ```
 #define MAXSIZE (50000 * 2)
 
 int SumCnt(int a)
@@ -90,4 +90,4 @@ char* compressString(char* S){
 
     return returnStr;
 }
-```
+// ```

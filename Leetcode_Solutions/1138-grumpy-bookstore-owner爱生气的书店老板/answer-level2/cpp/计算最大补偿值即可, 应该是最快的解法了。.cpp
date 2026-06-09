@@ -1,7 +1,7 @@
-### 1.计算最大的补偿值。
-### 2.采用滑动窗口计算即可。
-### 3.时间复杂度O(N),空间复杂度O(1).
-```
+// ### 1.计算最大的补偿值。
+// ### 2.采用滑动窗口计算即可。
+// ### 3.时间复杂度O(N),空间复杂度O(1).
+// ```
 class Solution {
 public:
     int maxSatisfied(vector<int>& customers, vector<int>& grumpy, int X) {
@@ -22,4 +22,4 @@ public:
         return satisf + max_save;
     }
 };
-```
+// ```

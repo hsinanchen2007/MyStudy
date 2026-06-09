@@ -1,12 +1,12 @@
-![合并排序的数组.png](https://pic.leetcode-cn.com/aa4800e27b6db26ca701d9b5b5e25e20bfab9ee453e515502caa6d9359fa1a57-%E5%90%88%E5%B9%B6%E6%8E%92%E5%BA%8F%E7%9A%84%E6%95%B0%E7%BB%84.png){:width=400}
+// ![合并排序的数组.png](https://pic.leetcode-cn.com/aa4800e27b6db26ca701d9b5b5e25e20bfab9ee453e515502caa6d9359fa1a57-%E5%90%88%E5%B9%B6%E6%8E%92%E5%BA%8F%E7%9A%84%E6%95%B0%E7%BB%84.png){:width=400}
 
-### 解题思路
-需要比较 $m + n$ 个数的大小，所以先保证其中至少 $m$ 或 $n$ 个数比较完毕并放在正确位置，再考虑剩下的数。
-注意 $m$ 和 $n$ 是未遍历的、有效的数字的个数，不是下标，作为下标要 $-1$ 。写的时候偷懒，可能有些地方可读性比较差。
+// ### 解题思路
+// 需要比较 $m + n$ 个数的大小，所以先保证其中至少 $m$ 或 $n$ 个数比较完毕并放在正确位置，再考虑剩下的数。
+// 注意 $m$ 和 $n$ 是未遍历的、有效的数字的个数，不是下标，作为下标要 $-1$ 。写的时候偷懒，可能有些地方可读性比较差。
 
-### 代码
+// ### 代码
 
-```java [-Java]
+// ```java [-Java]
 class Solution {
     public void merge(int[] A, int m, int[] B, int n) {
         // 先确保将其中一个数组中的数字遍历完
@@ -32,4 +32,4 @@ class Solution {
             System.out.print(A[i] + ",");
     }
 }
-```
+// ```

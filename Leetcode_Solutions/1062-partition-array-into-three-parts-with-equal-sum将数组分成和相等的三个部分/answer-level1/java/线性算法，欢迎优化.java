@@ -1,10 +1,10 @@
-### 解题思路
-1 用例不允许长度为0的分组
-2 分组和为0时，可能有多种分割方法
+// ### 解题思路
+// 1 用例不允许长度为0的分组
+// 2 分组和为0时，可能有多种分割方法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canThreePartsEqualSum(int[] A) {
         int total = 0;
@@ -33,4 +33,4 @@ class Solution {
         return count == 3;
     }
 }
-```
+// ```

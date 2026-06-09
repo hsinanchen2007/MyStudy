@@ -1,9 +1,9 @@
-![image.png](https://pic.leetcode-cn.com/f05d891d1e8ab5c3c7d4f491c447e892d6d724b80eac808dcf97907a9e3c6da6-image.png)
+// ![image.png](https://pic.leetcode-cn.com/f05d891d1e8ab5c3c7d4f491c447e892d6d724b80eac808dcf97907a9e3c6da6-image.png)
 
-不得不说，题目很难理解。。
-具体思路看顶楼的把，不多说了。。
+// 不得不说，题目很难理解。。
+// 具体思路看顶楼的把，不多说了。。
 
-```
+// ```
 static auto pre =[] { std::ios::sync_with_stdio(false); cin.tie(nullptr); return nullptr;}();
 class Solution {
 public:
@@ -29,4 +29,4 @@ public:
         return quadTree1;
     }
 };
-```
+// ```

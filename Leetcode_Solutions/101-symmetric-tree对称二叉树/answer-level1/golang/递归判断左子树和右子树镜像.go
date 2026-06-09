@@ -1,9 +1,9 @@
-### 解题思路
-递归判断左子树和右子树镜像，直到都是叶子节点，再判断根的值是否相等
+// ### 解题思路
+// 递归判断左子树和右子树镜像，直到都是叶子节点，再判断根的值是否相等
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -28,4 +28,4 @@ func helper(left, right *TreeNode) bool {
     }
     return false
 }
-```
+// ```

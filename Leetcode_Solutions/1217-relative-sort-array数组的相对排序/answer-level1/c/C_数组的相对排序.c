@@ -1,10 +1,10 @@
-### 解题思路
-题目给出所有的元素都大于等于0小于等于1000，可以建立哈希表。
-先把arr1转换成哈希表，在根据arr2的顺心，先写回arr1一部分数字，剩下的数字按序写回arr1即可
+// ### 解题思路
+// 题目给出所有的元素都大于等于0小于等于1000，可以建立哈希表。
+// 先把arr1转换成哈希表，在根据arr2的顺心，先写回arr1一部分数字，剩下的数字按序写回arr1即可
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -30,4 +30,4 @@ int* relativeSortArray(int* arr1, int arr1Size, int* arr2, int arr2Size, int* re
     *returnSize=arr1Size;
     return arr1;
 }
-```
+// ```

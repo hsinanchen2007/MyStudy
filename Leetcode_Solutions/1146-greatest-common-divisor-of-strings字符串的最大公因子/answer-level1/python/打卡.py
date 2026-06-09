@@ -1,9 +1,9 @@
-### 解题思路
-就是普通的gcd的变形,只不过欧几里得不好使了,得用更相减损术
+# ### 解题思路
+# 就是普通的gcd的变形,只不过欧几里得不好使了,得用更相减损术
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def gcdOfStrings(self, str1, str2):
         """
@@ -24,4 +24,4 @@ class Solution(object):
         else: return gcd(str2,str1,len(str2),len(str1))
 
 
-```
+# ```

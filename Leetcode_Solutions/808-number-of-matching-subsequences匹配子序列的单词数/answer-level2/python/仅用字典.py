@@ -1,9 +1,9 @@
-### 解题思路
-仅用字典 简单理解
-感谢 sqy提供的思路
-### 代码
+# ### 解题思路
+# 仅用字典 简单理解
+# 感谢 sqy提供的思路
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numMatchingSubseq(self, S: str, words: List[str]) -> int:
         wait = collections.defaultdict(list)
@@ -20,4 +20,4 @@ class Solution:
                     else:
                         ans+=1
         return ans
-```
+# ```

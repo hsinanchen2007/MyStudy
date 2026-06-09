@@ -1,4 +1,4 @@
-```
+// ```
 var removeDuplicates = function (nums) {
     var j = 0;
     for (let i = 1; i < nums.length; i++) {
@@ -9,4 +9,4 @@ var removeDuplicates = function (nums) {
     }
     return j + 1;
 };
-```
+// ```

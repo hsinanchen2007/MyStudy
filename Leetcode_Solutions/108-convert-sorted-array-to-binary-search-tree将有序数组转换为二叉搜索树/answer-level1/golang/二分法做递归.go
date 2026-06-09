@@ -1,9 +1,9 @@
-### 解题思路
-注意root的初始化
+// ### 解题思路
+// 注意root的初始化
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -23,4 +23,4 @@ func sortedArrayToBST(nums []int) *TreeNode {
     root.Right = sortedArrayToBST(nums[mid + 1:])
     return root
 }
-```
+// ```

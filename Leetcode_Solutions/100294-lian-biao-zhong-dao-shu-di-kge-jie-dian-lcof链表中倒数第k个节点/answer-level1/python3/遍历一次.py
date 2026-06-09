@@ -1,4 +1,4 @@
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -14,4 +14,4 @@ class Solution:
             slow = slow.next
             fast = fast.next
         return slow 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-考虑每次选择数组[i,j]最中间的元素k=(i+j)/2作为根结点root，左右子数组[i,k-1]和[k+1,j]的根结点分别是原数组根root的左右孩子结点。
+// ### 解题思路
+// 考虑每次选择数组[i,j]最中间的元素k=(i+j)/2作为根结点root，左右子数组[i,k-1]和[k+1,j]的根结点分别是原数组根root的左右孩子结点。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -32,4 +32,4 @@ public:
         return creat(nums,0,nums.size()-1);
     }
 };
-```
+// ```

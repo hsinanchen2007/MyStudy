@@ -1,9 +1,9 @@
-### 解题思路
-排序，调用函数，有点过分
+// ### 解题思路
+// 排序，调用函数，有点过分
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] sortArray(int[] nums) {
         Arrays.sort(nums);

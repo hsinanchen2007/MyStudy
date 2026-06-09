@@ -1,5 +1,5 @@
-使用set特性，判断其大小，要是添加之后大小与oldsize一直则是相交链表，返回当前节点
-```
+// 使用set特性，判断其大小，要是添加之后大小与oldsize一直则是相交链表，返回当前节点
+// ```
     /**
     * Definition for singly-linked list.
     * struct ListNode {
@@ -27,4 +27,4 @@
             return headB;
         }
     };
-```
+// ```

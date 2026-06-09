@@ -1,9 +1,9 @@
-### 解题思路
-小顶堆
+# ### 解题思路
+# 小顶堆
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def smallestK(self, arr: List[int], k: int) -> List[int]:
         size = len(arr)
@@ -38,4 +38,4 @@ class Solution:
             else:
                 break
         arr[i] = tmp
-```
+# ```

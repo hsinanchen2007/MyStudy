@@ -1,7 +1,7 @@
-逐个判断每个数字是否满足仅有 4 个因数, 满足就将因数和加到 result
-因为 1 和自身是 2 个因数, 如果从 2 到 sqrt(n) 只有 2 个因数就是满足条件的, 注意如果 i * i == n 则只新增一个因数, 否则新增 i 和 n / i 两个因数
+// 逐个判断每个数字是否满足仅有 4 个因数, 满足就将因数和加到 result
+// 因为 1 和自身是 2 个因数, 如果从 2 到 sqrt(n) 只有 2 个因数就是满足条件的, 注意如果 i * i == n 则只新增一个因数, 否则新增 i 和 n / i 两个因数
 
-```
+// ```
 /**
  * @param {number[]} nums
  * @return {number}
@@ -27,6 +27,6 @@ var sumFourDivisors = function(nums) {
     }
     return result;
 };
-```
+// ```
 
-我的所有题解 <https://github.com/yinxin630/leetcode>
+// 我的所有题解 <https://github.com/yinxin630/leetcode>

@@ -1,4 +1,4 @@
-```
+// ```
 int min;
     int max;
     public List<String> wordBreak(String s, List<String> wordDict) {
@@ -43,4 +43,4 @@ int min;
         }
         return flag;
     }
-```
+// ```

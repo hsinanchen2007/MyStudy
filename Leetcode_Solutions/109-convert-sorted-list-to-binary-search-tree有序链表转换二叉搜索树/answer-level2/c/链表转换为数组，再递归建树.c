@@ -1,9 +1,9 @@
-### 解题思路
-链表转换为数组，然后再递归建树
+// ### 解题思路
+// 链表转换为数组，然后再递归建树
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -49,4 +49,4 @@ struct TreeNode* sortedListToBST(struct ListNode* head){
     
     return ArrayToBST(Array, 0, i);
 }
-```
+// ```

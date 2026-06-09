@@ -1,4 +1,4 @@
-```
+// ```
 func compress(chars []byte) int {
 
 	cLen := len(chars)
@@ -34,4 +34,4 @@ func compress(chars []byte) int {
 	return len(b)
 }
 
-```
+// ```

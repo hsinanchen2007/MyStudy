@@ -1,4 +1,4 @@
-```
+// ```
 public TreeNode convertBiNode(TreeNode root) {
         TreeNode head = null;
         TreeNode tail = null;
@@ -24,4 +24,4 @@ public TreeNode convertBiNode(TreeNode root) {
         
         return head;
     }
-```
+// ```

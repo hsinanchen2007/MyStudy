@@ -1,4 +1,4 @@
-```递归（stack） []
+// ```递归（stack） []
 class Solution {
     public boolean canMeasureWater(int x, int y, int z) {
         if(x==0 || y==0) return z == 0|| x+y == z;
@@ -21,8 +21,8 @@ class Solution {
         return false;
     }
 }
-```
-```gcd []
+// ```
+// ```gcd []
 class Solution {
     public boolean canMeasureWater(int x, int y, int z) {
         if(x+y <z) return false;
@@ -35,4 +35,4 @@ class Solution {
         return gcd(y, x%y);
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 func maxSubArray(nums []int) int {
 	if 0 == len(nums) {
 		return 0
@@ -17,4 +17,4 @@ func maxSubArray(nums []int) int {
 	}
 	return o
 }
-```
+// ```

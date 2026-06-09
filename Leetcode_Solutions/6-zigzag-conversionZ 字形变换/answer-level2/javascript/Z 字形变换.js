@@ -1,12 +1,12 @@
-### 解题思路
-.当前行 curRow 为 0 或 n-1 时，箭头发生反向转折。
-方法一： 从左到右按箭头方向迭代 s ，将每个字符添加到合适的行。之后从上到下遍历行即可。
+// ### 解题思路
+// .当前行 curRow 为 0 或 n-1 时，箭头发生反向转折。
+// 方法一： 从左到右按箭头方向迭代 s ，将每个字符添加到合适的行。之后从上到下遍历行即可。
 
-我们假定 n=numRows :
+// 我们假定 n=numRows :
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @param {number} numRows
@@ -33,4 +33,4 @@ var convert = function(s, numRows) {
     }
     return ans;
 };
-```
+// ```

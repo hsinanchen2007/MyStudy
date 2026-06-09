@@ -1,9 +1,9 @@
-### 解题思路
-中序遍历后，看是否是递增的
+// ### 解题思路
+// 中序遍历后，看是否是递增的
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -34,4 +34,4 @@ class Solution {
         zxblBst(root.right, list);
     }
 }
-```
+// ```

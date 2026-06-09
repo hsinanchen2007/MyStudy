@@ -1,4 +1,4 @@
-```
+// ```
 func newInteger(n int) int {
 	o, b := 0, 1
 	for n > 0 {
@@ -8,4 +8,4 @@ func newInteger(n int) int {
 	}
 	return o
 }
-```
+// ```

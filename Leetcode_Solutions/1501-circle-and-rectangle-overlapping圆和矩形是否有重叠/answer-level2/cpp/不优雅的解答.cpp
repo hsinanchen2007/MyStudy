@@ -1,5 +1,5 @@
-分类讨论：
-1. 矩形4个顶点在圆内
+// 分类讨论：
+// 1. 矩形4个顶点在圆内
 get_sum_of_square(x_center, y_center, x1, y1) <= r_square
 || get_sum_of_square(x_center, y_center, x1, y2) <= r_square
 || get_sum_of_square(x_center, y_center, x2, y1) <= r_square

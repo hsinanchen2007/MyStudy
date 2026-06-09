@@ -1,9 +1,9 @@
-### 解题思路
-模拟分糖果，将索引对num_people求余数；
+// ### 解题思路
+// 模拟分糖果，将索引对num_people求余数；
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] distributeCandies(int candies, int num_people) {
         int[] result = new int[num_people];
@@ -17,4 +17,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

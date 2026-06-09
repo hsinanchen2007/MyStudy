@@ -1,6 +1,6 @@
-## 方法一：递归
+// ## 方法一：递归
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	TreeNode* RebuildBinaryTree (vector<int>& pre, vector<int>& in) {
@@ -40,10 +40,10 @@ public:
 	}
 };
 
-```
+// ```
 
-## 方法二：DFS
-```cpp
+// ## 方法二：DFS
+// ```cpp
 class Solution {
 public:
     // int idx = 0;
@@ -75,4 +75,4 @@ public:
         return cur;
     }
 };
-```
+// ```

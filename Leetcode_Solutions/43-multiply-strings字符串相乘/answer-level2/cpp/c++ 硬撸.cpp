@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     string multiply(string num1, string num2) {
@@ -33,4 +33,4 @@ public:
         if(carry>0)res[i]='0'+carry;
     }
 };
-```
+// ```

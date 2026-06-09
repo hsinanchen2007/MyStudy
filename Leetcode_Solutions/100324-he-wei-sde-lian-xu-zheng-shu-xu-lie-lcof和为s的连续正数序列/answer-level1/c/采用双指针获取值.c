@@ -1,4 +1,4 @@
-```
+// ```
 int** findContinuousSequence(int target, int* returnSize, int** returnColumnSizes){
     int** res = (int**)malloc(target * sizeof(int*));
     *returnColumnSizes = (int*)malloc(target * sizeof(int));
@@ -27,4 +27,4 @@ int** findContinuousSequence(int target, int* returnSize, int** returnColumnSize
     }
     return res;
 }
-```
+// ```

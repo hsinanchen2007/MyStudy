@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
   def buddyStrings(A: String, B: String): Boolean = {
     if (A.length != B.length) return false
@@ -17,4 +17,4 @@ object Solution {
     if (first._1 == second._2 && first._2 == second._1) return true else return false
   }
 }
-```
+// ```

@@ -1,5 +1,5 @@
 
-```
+// ```
 class Solution {
 public:
     vector<int> partitionLabels(string s) {
@@ -24,4 +24,4 @@ public:
         return ans;
     }
 };
-```
+// ```

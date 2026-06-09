@@ -1,6 +1,6 @@
 
-关于树的题目大部分都要用到递归，这道题也不例外
-```cpp
+// 关于树的题目大部分都要用到递归，这道题也不例外
+// ```cpp
 class Solution {
 public:
     int findTilt(TreeNode* root) {
@@ -20,4 +20,4 @@ public:
         return a + b + abs(left-right);
     }
 };
-```
+// ```

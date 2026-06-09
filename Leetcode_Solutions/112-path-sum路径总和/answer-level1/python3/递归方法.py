@@ -1,10 +1,10 @@
-### 解题思路
-时间复杂度：O（n）
-空间复杂度：O（n）
+# ### 解题思路
+# 时间复杂度：O（n）
+# 空间复杂度：O（n）
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -22,4 +22,4 @@ class Solution:
             return True
         return self.hasPathSum(root.left, sum0-root.val) or \
         self.hasPathSum(root.right, sum0-root.val)
-```
+# ```

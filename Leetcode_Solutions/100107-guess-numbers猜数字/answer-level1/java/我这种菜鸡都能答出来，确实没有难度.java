@@ -1,9 +1,9 @@
-### 解题思路
-我这种菜鸡都能答出来，确实没有难度
+// ### 解题思路
+// 我这种菜鸡都能答出来，确实没有难度
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int game(int[] guess, int[] answer) {
         int t=0;
@@ -15,4 +15,4 @@ class Solution {
         return t;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-![Capture.PNG](https://pic.leetcode-cn.com/917d6b9991371b059f9cd70f768d9509904217f0efe627b432f43dc0ce76359b-Capture.PNG)
+// ### 解题思路
+// ![Capture.PNG](https://pic.leetcode-cn.com/917d6b9991371b059f9cd70f768d9509904217f0efe627b432f43dc0ce76359b-Capture.PNG)
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} A
  * @param {number[]} B
@@ -30,4 +30,4 @@ var findLength = function(A, B) {
     }
     return res;
 };
-```
+// ```

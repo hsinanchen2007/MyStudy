@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/19848b5a783adfa367bed1580b886f0c7ac26a0e4a21130751819005d89af54c-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/19848b5a783adfa367bed1580b886f0c7ac26a0e4a21130751819005d89af54c-image.png)
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -31,4 +31,4 @@ struct ListNode* oddEvenList(struct ListNode* head){
 
     return head;
 }
-```
+// ```

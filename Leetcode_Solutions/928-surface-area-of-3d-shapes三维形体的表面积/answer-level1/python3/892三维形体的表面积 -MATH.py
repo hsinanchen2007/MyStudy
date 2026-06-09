@@ -1,12 +1,12 @@
-### 解题思路
-cur_hi=grid[i][j]
-- 0.遍历所有的位置
-- 1.对于顶面&底面的表面积，若cur_hi>0,则顶面和底面贡献共2个表面积；
-- 2.对于侧面，只有在相邻的位置的高度(nhi)小于cur_hi时，对应的面才会贡献`max(cur_hi-nhi,0)`的表面积。
+# ### 解题思路
+# cur_hi=grid[i][j]
+# - 0.遍历所有的位置
+# - 1.对于顶面&底面的表面积，若cur_hi>0,则顶面和底面贡献共2个表面积；
+# - 2.对于侧面，只有在相邻的位置的高度(nhi)小于cur_hi时，对应的面才会贡献`max(cur_hi-nhi,0)`的表面积。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def surfaceArea(self, grid: List[List[int]]) -> int:
         M=len(grid)#row
@@ -25,4 +25,4 @@ class Solution:
         return res
 
 
-```
+# ```

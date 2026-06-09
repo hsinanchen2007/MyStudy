@@ -1,7 +1,7 @@
-- 双指针比较长度，最后是1的情况要判断
+// - 双指针比较长度，最后是1的情况要判断
 
 
-```
+// ```
 class Solution {
     public int findMaxConsecutiveOnes(int[] nums) {
         int j = 0;
@@ -17,7 +17,7 @@ class Solution {
         return len;
     }
 }
-```
+// ```
 
 
-用时 3ms
+// 用时 3ms

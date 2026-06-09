@@ -1,9 +1,9 @@
-### 解题思路
-计算n以内的平方数有多少个就行了
+# ### 解题思路
+# 计算n以内的平方数有多少个就行了
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def bulbSwitch(self, n: int) -> int:
         #统计每个开关切换了多少次
@@ -17,4 +17,4 @@ class Solution:
             res += 1
             i += 1
         return res
-```
+# ```

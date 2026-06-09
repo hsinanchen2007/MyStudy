@@ -1,9 +1,9 @@
-### 解题思路
-记录每个元素最后出现的位置
+// ### 解题思路
+// 记录每个元素最后出现的位置
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func maximumSwap(num int) int {
     // 转换成数组
     arr := int2Arr(num)
@@ -53,4 +53,4 @@ func int2Arr(num int) []int {
 	}
     return res
 }
-```
+// ```

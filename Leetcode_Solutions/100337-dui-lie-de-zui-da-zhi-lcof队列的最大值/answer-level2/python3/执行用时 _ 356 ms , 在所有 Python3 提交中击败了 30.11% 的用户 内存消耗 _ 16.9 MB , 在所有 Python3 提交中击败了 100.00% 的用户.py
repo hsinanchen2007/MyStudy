@@ -1,9 +1,9 @@
-### 解题思路
-时间复杂度没有满足O(1)
+# ### 解题思路
+# 时间复杂度没有满足O(1)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class MaxQueue:
 
     def __init__(self):
@@ -28,4 +28,4 @@ class MaxQueue:
 # param_1 = obj.max_value()
 # obj.push_back(value)
 # param_3 = obj.pop_front()
-```
+# ```

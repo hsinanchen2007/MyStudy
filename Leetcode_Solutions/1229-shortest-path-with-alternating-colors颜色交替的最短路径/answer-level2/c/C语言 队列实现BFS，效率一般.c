@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-常规BFS
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 常规BFS
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -200,4 +200,4 @@ int* shortestAlternatingPaths(int n, int** red_edges, int red_edgesSize, int* re
 
 
 
-```
+// ```

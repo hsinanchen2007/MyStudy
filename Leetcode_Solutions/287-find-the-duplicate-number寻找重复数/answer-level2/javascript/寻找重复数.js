@@ -1,10 +1,10 @@
-### 解题思路
-- 思路参考寻找有环链表环起始点
-- 数组的值结合index，把链表等效成有环的链表
+// ### 解题思路
+// - 思路参考寻找有环链表环起始点
+// - 数组的值结合index，把链表等效成有环的链表
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -24,4 +24,4 @@ var findDuplicate = function(nums) {
         }
     }
 };
-```
+// ```

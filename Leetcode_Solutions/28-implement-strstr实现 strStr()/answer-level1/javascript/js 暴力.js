@@ -1,4 +1,4 @@
-```
+// ```
 var strStr = function(haystack, needle) {
     if(!needle)
         return 0;
@@ -20,4 +20,4 @@ var strStr = function(haystack, needle) {
     }
     return -1;
 };
-```
+// ```

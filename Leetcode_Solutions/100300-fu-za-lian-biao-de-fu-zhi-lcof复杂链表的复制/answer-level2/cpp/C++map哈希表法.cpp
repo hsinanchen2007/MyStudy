@@ -1,12 +1,12 @@
-### 解题思路
-时间复杂度：o(n);空间复杂度o(n)
-先建立节点（new申请空间），再把next和random连接起来
-1、Node* p=new Node(a->val)
-2、Node* res=maps[head];return res;
+// ### 解题思路
+// 时间复杂度：o(n);空间复杂度o(n)
+// 先建立节点（new申请空间），再把next和random连接起来
+// 1、Node* p=new Node(a->val)
+// 2、Node* res=maps[head];return res;
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /*
 // Definition for a Node.
 class Node {
@@ -46,4 +46,4 @@ public:
         
     }
 };
-```
+// ```

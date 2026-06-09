@@ -1,9 +1,9 @@
-### 解题思路
-A[i] 与 B[i] 是否交换取决与A[i - 1] 和 B[i - 1]是否交换
+// ### 解题思路
+// A[i] 与 B[i] 是否交换取决与A[i - 1] 和 B[i - 1]是否交换
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minSwap(vector<int>& A, vector<int>& B) {
@@ -30,4 +30,4 @@ public:
         return min(n1, s1);
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def minPathSum(self, grid):
         """
@@ -23,4 +23,4 @@ class Solution(object):
             for j in range(1,column):
                 dp[i][j] = grid[i][j] + min(dp[i-1][j],dp[i][j-1])
         return dp[row-1][column-1]
-```
+# ```

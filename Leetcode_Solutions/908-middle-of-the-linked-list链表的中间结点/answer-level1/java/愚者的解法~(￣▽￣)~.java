@@ -1,9 +1,9 @@
-### 解题思路
-先遍历计数t，然后再剥t/2层呗   用时0ms就TM离谱
+// ### 解题思路
+// 先遍历计数t，然后再剥t/2层呗   用时0ms就TM离谱
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -23,4 +23,4 @@ class Solution {
         return head;
     }
 }
-```
+// ```

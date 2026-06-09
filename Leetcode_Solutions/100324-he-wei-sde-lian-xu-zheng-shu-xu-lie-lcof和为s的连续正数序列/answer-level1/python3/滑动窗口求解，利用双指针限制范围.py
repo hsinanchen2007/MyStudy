@@ -1,9 +1,9 @@
-### 解题思路
-滑动窗口求解，利用双指针限制范围，详见代码
+# ### 解题思路
+# 滑动窗口求解，利用双指针限制范围，详见代码
 
-### 代码
+# ### 代码
 
-```
+# ```
 class Solution:
     def findContinuousSequence(self, target: int) -> List[List[int]]:
         res=[]
@@ -22,5 +22,5 @@ class Solution:
                 total-=l
                 l+=1
         return res
-```
+# ```
 

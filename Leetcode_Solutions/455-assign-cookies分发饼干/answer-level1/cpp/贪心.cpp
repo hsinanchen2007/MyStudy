@@ -1,10 +1,10 @@
-### 解题思路
-孩子胃口数 1,2,3
-饼干大小数 1，1    
-如果孩子胃口数小于饼干大小，一个孩子被满足
-### 代码
+// ### 解题思路
+// 孩子胃口数 1,2,3
+// 饼干大小数 1，1    
+// 如果孩子胃口数小于饼干大小，一个孩子被满足
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findContentChildren(vector<int>& g, vector<int>& s) {
@@ -26,4 +26,4 @@ public:
         return g_child;
     }
 };
-```
+// ```

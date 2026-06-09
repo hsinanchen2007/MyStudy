@@ -1,4 +1,4 @@
-```python3
+# ```python3
 class Solution:
     def sortString(self, s: str) -> str:
         a=[0]*26
@@ -15,4 +15,4 @@ class Solution:
                     a[i]-=1
                     lst+=chr(97+i)
         return lst
-```
+# ```

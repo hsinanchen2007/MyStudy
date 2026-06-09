@@ -1,10 +1,10 @@
-### 解题思路
-多次买卖，涉及到最大利益，那就考虑波峰波谷，不能抛弃每次峰谷的收益
-所以只要前一次后边的大，就要买进卖出
+// ### 解题思路
+// 多次买卖，涉及到最大利益，那就考虑波峰波谷，不能抛弃每次峰谷的收益
+// 所以只要前一次后边的大，就要买进卖出
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} prices
  * @return {number}
@@ -20,4 +20,4 @@ var maxProfit = function(prices) {
   }
   return (prices.length > 0) ? (all - prices[0]) :0
 };
-```
+// ```

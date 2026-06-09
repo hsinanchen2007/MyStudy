@@ -1,9 +1,9 @@
-### 解题思路
-十进制转26进制
+// ### 解题思路
+// 十进制转26进制
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * convertToTitle(int n){
     int x, i = 0, j, temp;
     static char str[64];
@@ -24,4 +24,4 @@ char * convertToTitle(int n){
     str[i] = '\0';
     return str;
 }
-```
+// ```

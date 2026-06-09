@@ -1,6 +1,6 @@
-瞎写暴力就能ac，注意有负数
+// 瞎写暴力就能ac，注意有负数
 
-```
+// ```
 class Solution {
 public:
     bool checkIfExist(vector<int>& arr) {
@@ -27,4 +27,4 @@ public:
         return false;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-入栈就是正常入栈，每次deleteHead直接调用removeElementAt(0)
+// ### 解题思路
+// 入栈就是正常入栈，每次deleteHead直接调用removeElementAt(0)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class CQueue {
     Stack<Integer> out;
     
@@ -32,4 +32,4 @@ class CQueue {
  * obj.appendTail(value);
  * int param_2 = obj.deleteHead();
  */
-```
+// ```

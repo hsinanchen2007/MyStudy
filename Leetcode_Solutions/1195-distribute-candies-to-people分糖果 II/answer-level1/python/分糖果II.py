@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def distributeCandies(self, candies: int, num_people: int) -> List[int]:
         res = [0]*num_people
@@ -17,4 +17,4 @@ class Solution:
                 res[i] += candies
                 break
         return res          
-```
+# ```

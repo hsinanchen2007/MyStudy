@@ -1,6 +1,6 @@
-**思路**
-可以选择从右上角开始查找对应的数字，也可以从左下方开始；
-```
+// **思路**
+// 可以选择从右上角开始查找对应的数字，也可以从左下方开始；
+// ```
 class Solution {
     public boolean findNumberIn2DArray(int[][] matrix, int target) {
         if(matrix==null||matrix.length==0){
@@ -20,4 +20,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

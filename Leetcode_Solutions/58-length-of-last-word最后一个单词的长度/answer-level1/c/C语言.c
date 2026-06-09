@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int lengthOfLastWord(char * s){
     int len,i,j,count=0;
     len=strlen(s);
@@ -19,4 +19,4 @@ int lengthOfLastWord(char * s){
     }
     return i-j;
 }
-```
+// ```

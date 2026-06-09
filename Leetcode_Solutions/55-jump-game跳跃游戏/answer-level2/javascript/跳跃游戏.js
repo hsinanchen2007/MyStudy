@@ -1,6 +1,6 @@
-#### 一、回溯算法
-会超时
-```javascript
+// #### 一、回溯算法
+// 会超时
+// ```javascript
 var canJump = function(nums) {
     return canJumpFromPosition(0,nums)
 };
@@ -16,14 +16,14 @@ const canJumpFromPosition = function(position,nums) {
     }
     return false;
 }
-```
-时间复杂度：O(2^n)
-空间复杂度：O(n) 需要栈的额外空间
+// ```
+// 时间复杂度：O(2^n)
+// 空间复杂度：O(n) 需要栈的额外空间
 
-#### 二、动态规划（记忆化递归）
-利用空间换时间
+// #### 二、动态规划（记忆化递归）
+// 利用空间换时间
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {boolean}
@@ -47,12 +47,12 @@ const canJumpFromWhere = function(position,nums,arr){
     arr[position] = false;
     return false;
 }
-```
-时间复杂度：O(n^2)
-空间复杂度：O(2n)，利用栈的空间和数组的额外空间
+// ```
+// 时间复杂度：O(n^2)
+// 空间复杂度：O(2n)，利用栈的空间和数组的额外空间
 
-#### 三、迭代
-```javascript
+// #### 三、迭代
+// ```javascript
 var canJump = function(nums) {
     var arr = new Array(nums.length).fill(false);
     arr[nums.length-1] = true;
@@ -67,13 +67,13 @@ var canJump = function(nums) {
     }
     return arr[0];
 }
-```
-时间复杂度：O(n^2)
-空间复杂度：O(n)，利用数组的空间
+// ```
+// 时间复杂度：O(n^2)
+// 空间复杂度：O(n)，利用数组的空间
 
-#### 四、贪心
-思路: 如果能一直跳到最后、就成功了
-```javascript
+// #### 四、贪心
+// 思路: 如果能一直跳到最后、就成功了
+// ```javascript
 var canJump = function(nums) {
     let k = 0;
     for (let i = 0; i < nums.length; i++){
@@ -82,6 +82,6 @@ var canJump = function(nums) {
     }
    return true;
 };
-```
-时间复杂度：O(n)
-空间复杂度：O(1)
+// ```
+// 时间复杂度：O(n)
+// 空间复杂度：O(1)

@@ -1,4 +1,4 @@
-```
+// ```
 var buildTree = function(preorder, inorder) {
   if(!preorder.length&&!inorder.length) return null;
   let root=new TreeNode(preorder[0]);
@@ -10,4 +10,4 @@ var buildTree = function(preorder, inorder) {
   root.right=buildTree(preorder.slice(i+1),inorder.slice(i+1))
   return root
 };
-```
+// ```

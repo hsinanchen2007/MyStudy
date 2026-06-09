@@ -1,10 +1,10 @@
-![1.png](https://pic.leetcode-cn.com/1b9ab279c3b882cd59490de17cff66457ad03164cc44675bf4261de100fae9ed-1.png)
+// ![1.png](https://pic.leetcode-cn.com/1b9ab279c3b882cd59490de17cff66457ad03164cc44675bf4261de100fae9ed-1.png)
 
-根据liweiwei1419画的树形图，先创建树，然后去重
+// 根据liweiwei1419画的树形图，先创建树，然后去重
 
 
-### 代码
-```java
+// ### 代码
+// ```java
 class Solution {
 
 

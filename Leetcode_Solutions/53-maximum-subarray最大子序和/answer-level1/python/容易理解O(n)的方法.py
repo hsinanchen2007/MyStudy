@@ -1,4 +1,4 @@
-```py
+# ```py
 class Solution(object):
     def maxSubArray(self, nums):
         n = len(nums)
@@ -16,4 +16,4 @@ class Solution(object):
                 maxV = tmp
 
         return maxV
-```
+# ```

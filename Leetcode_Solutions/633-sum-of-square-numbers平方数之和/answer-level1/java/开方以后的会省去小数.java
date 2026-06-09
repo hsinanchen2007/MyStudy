@@ -1,10 +1,10 @@
-### 解题思路
-1.判断其中一个值的取值范围
-2.开方时转为int型会省略小数，不省略时就是答案
+// ### 解题思路
+// 1.判断其中一个值的取值范围
+// 2.开方时转为int型会省略小数，不省略时就是答案
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean judgeSquareSum(int c) {
     	int cc = (int) Math.sqrt(c);
@@ -18,4 +18,4 @@ class Solution {
     	return false;
     }
 }
-```
+// ```

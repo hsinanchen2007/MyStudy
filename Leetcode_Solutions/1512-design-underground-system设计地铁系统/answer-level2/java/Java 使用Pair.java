@@ -1,9 +1,9 @@
-又学到一招，以为C++才有Pair。没想到Java也有Pair结构。
+// 又学到一招，以为C++才有Pair。没想到Java也有Pair结构。
 
-check: 记录相应id的人，进入的地铁站和时间。
-time: 记录相同进出地铁站下，对应的总耗时和总人数。
+// check: 记录相应id的人，进入的地铁站和时间。
+// time: 记录相同进出地铁站下，对应的总耗时和总人数。
 
-```
+// ```
 class UndergroundSystem {
     // id -> <checkin_stationName, checkin_time>
     private Map<Integer, Pair<String, Integer>> check;
@@ -35,4 +35,4 @@ class UndergroundSystem {
         return (double)pair.getKey() / pair.getValue();
     }
 }
-```
+// ```

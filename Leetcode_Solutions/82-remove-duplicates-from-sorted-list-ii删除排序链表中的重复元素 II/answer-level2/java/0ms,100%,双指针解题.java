@@ -1,10 +1,10 @@
-### 解题思路
-![屏幕快照 2020-03-02 18.17.44.png](https://pic.leetcode-cn.com/ecce23e245f30378e976f2ac5573666fd7420e1097753cad1fe22817b326136b-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-03-02%2018.17.44.png)
+// ### 解题思路
+// ![屏幕快照 2020-03-02 18.17.44.png](https://pic.leetcode-cn.com/ecce23e245f30378e976f2ac5573666fd7420e1097753cad1fe22817b326136b-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-03-02%2018.17.44.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -51,4 +51,4 @@ class Solution {
         return dynamicHead.next;
     }
 }
-```
+// ```

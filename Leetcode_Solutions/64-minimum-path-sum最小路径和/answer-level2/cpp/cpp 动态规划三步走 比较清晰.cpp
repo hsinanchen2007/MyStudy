@@ -1,9 +1,9 @@
-//1.状态：网格大小m n  选择：向右或向下
-//2.dp[i][j]=x 表示从起点到grid[i][j]的最小路径和为x
-//  base case: dp[0][j]=grid[0][0]+...+grid[0][j]
-//             dp[i][0]=grid[0][0]+...+grid[i][0]
-//3.转移方程：dp[i][j]=min(dp[i-1][j], dp[i][j-1])+grid[i][j]
-```
+// //1.状态：网格大小m n  选择：向右或向下
+// //2.dp[i][j]=x 表示从起点到grid[i][j]的最小路径和为x
+// //  base case: dp[0][j]=grid[0][0]+...+grid[0][j]
+// //             dp[i][0]=grid[0][0]+...+grid[i][0]
+// //3.转移方程：dp[i][j]=min(dp[i-1][j], dp[i][j-1])+grid[i][j]
+// ```
 class Solution {
 public:
     int minPathSum(vector<vector<int>>& grid) {
@@ -29,4 +29,4 @@ public:
         return dp[m - 1][n - 1];
     }
 };
-```
+// ```

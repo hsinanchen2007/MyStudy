@@ -1,5 +1,5 @@
-# 代码
-```java
+// # 代码
+// ```java
 class Solution {
     private int res, global_k;
 
@@ -17,4 +17,4 @@ class Solution {
             res = node.val;
     }
 }
-```
+// ```

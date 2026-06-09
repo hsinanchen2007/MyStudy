@@ -1,9 +1,9 @@
-### 解题思路
-用一个二维数组辅助
+// ### 解题思路
+// 用一个二维数组辅助
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findString(String[] words, String s) {
         //二维数组，一维存索引，二维存字符串长度
@@ -46,4 +46,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

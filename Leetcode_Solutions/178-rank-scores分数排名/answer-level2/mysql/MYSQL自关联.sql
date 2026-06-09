@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-将去重后的表进行自关联，找出辅表中大于等于主表中当前元素的个数作为排名
-### 代码
+-- ### 解题思路
+-- 此处撰写解题思路
+-- 将去重后的表进行自关联，找出辅表中大于等于主表中当前元素的个数作为排名
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 select 
 c.Score,
@@ -21,4 +21,4 @@ inner join
 	) d on c.Score = d.Score
 order by c.Score desc
 ;
-```
+-- ```

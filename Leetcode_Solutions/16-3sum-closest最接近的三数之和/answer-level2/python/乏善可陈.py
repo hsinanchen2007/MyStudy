@@ -1,8 +1,8 @@
-此题与上题相同，只需要将上题中的0替换为target，并将严格判定相等的条件替换为寻求最小值的条件即可。
+# 此题与上题相同，只需要将上题中的0替换为target，并将严格判定相等的条件替换为寻求最小值的条件即可。
 
-整道题目的代码如下：
+# 整道题目的代码如下：
 
-```python
+# ```python
 class Solution(object):
     def threeSumClosest(self, nums, target):
         """
@@ -30,5 +30,5 @@ class Solution(object):
                     k = k - 1
 
         return res
-```
+# ```
 

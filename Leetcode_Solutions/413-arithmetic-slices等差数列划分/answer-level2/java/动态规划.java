@@ -1,12 +1,12 @@
-### 解题思路
-dp[i] 表示到i位置的一共有多少个等差数列。
-如果num[i-2] num[i-1] num[i] 满足是等差数列，新加了nums[i+1]，满足nums[i-1] nums[i] nums[i+1]也是等差。
-那么num[i-2] num[i-1] num[i] nums[i+1] 都是等差了，dp[i+1] = dp[i]
-但是nums[i-1] nums[i] nums[i+1] 没被计算到，所以正确的递归是dp[i+1] = dp[i] + 1;
+// ### 解题思路
+// dp[i] 表示到i位置的一共有多少个等差数列。
+// 如果num[i-2] num[i-1] num[i] 满足是等差数列，新加了nums[i+1]，满足nums[i-1] nums[i] nums[i+1]也是等差。
+// 那么num[i-2] num[i-1] num[i] nums[i+1] 都是等差了，dp[i+1] = dp[i]
+// 但是nums[i-1] nums[i] nums[i+1] 没被计算到，所以正确的递归是dp[i+1] = dp[i] + 1;
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numberOfArithmeticSlices(int[] A) {
         if(A.length < 3)
@@ -25,4 +25,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

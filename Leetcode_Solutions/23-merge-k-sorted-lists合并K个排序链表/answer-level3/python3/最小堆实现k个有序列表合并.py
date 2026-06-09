@@ -1,15 +1,15 @@
-### 解题思路
-时间负责度：O(n*logk)
-空间复杂度：n+k
-堆内元素是 （node.val, idx）
-idx被弹出后，要补充lists[idx]的下个节点，没有的话要再弹出新的最小值
-最小堆更新方法如下：
-    import heapq
-    heapq.heappop([])
-    heapq.heappush([], iterm)
-### 代码
+# ### 解题思路
+# 时间负责度：O(n*logk)
+# 空间复杂度：n+k
+# 堆内元素是 （node.val, idx）
+# idx被弹出后，要补充lists[idx]的下个节点，没有的话要再弹出新的最小值
+# 最小堆更新方法如下：
+#     import heapq
+#     heapq.heappop([])
+#     heapq.heappush([], iterm)
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -42,5 +42,5 @@ class Solution:
                 heapq.heappush(heap, (lists[idx].val, idx))
         return flag.next
 
-```
-时间负责度：O(n*logk)
+# ```
+# 时间负责度：O(n*logk)

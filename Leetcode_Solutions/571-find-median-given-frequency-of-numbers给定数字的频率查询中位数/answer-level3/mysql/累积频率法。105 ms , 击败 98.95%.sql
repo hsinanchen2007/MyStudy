@@ -1,8 +1,8 @@
-### 解题思路
-偶数取均值，奇数取一个值。
-### 代码
+-- ### 解题思路
+-- 偶数取均值，奇数取一个值。
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 select avg(number) as median
 from 
@@ -21,4 +21,4 @@ from
 where doubles= 0 AND NUM >=(cumFrequency-frequency) and NUM<=cumFrequency 
     or doubles = 1 AND NUM > (cumFrequency-frequency) and NUM<=cumFrequency 
  
-```
+-- ```

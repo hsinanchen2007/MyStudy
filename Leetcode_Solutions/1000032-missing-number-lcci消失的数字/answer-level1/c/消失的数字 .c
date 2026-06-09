@@ -1,10 +1,10 @@
-### 解题思路
-1.hash
-2.数学求和
+// ### 解题思路
+// 1.hash
+// 2.数学求和
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int missingNumber(int* nums, int numsSize){
     int i;
     int *res=(int*)malloc(sizeof(int)*(numsSize+1));
@@ -27,4 +27,4 @@ int missingNumber(int* nums, int numsSize){
     }
     return numsSize*(numsSize+1)/2-res;
 }
-```
+// ```

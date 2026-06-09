@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     static int op (int x, int y) {
@@ -13,6 +13,6 @@ public:
         return S;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/779e504d97cf3c0f7b1e0e4d5f2789b7bf1eafb156a2efb59908d87cf2867451-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/779e504d97cf3c0f7b1e0e4d5f2789b7bf1eafb156a2efb59908d87cf2867451-image.png)
 

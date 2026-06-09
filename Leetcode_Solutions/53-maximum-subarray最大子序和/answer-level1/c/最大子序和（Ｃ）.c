@@ -1,9 +1,9 @@
-### 解题思路
-这算是最简单的动态规划题目了。状态转移方程很好写：dp[i] = max(nums[i], nums[i] + dp[i-1])。
+// ### 解题思路
+// 这算是最简单的动态规划题目了。状态转移方程很好写：dp[i] = max(nums[i], nums[i] + dp[i-1])。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX(x, y) ((x) > (y)) ? (x) : (y)
 
 int maxSubArray(int* nums, int numsSize){
@@ -20,4 +20,4 @@ int maxSubArray(int* nums, int numsSize){
     }
     return max;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class KthLargest:
 
     def __init__(self, k: int, nums: List[int]):
@@ -38,8 +38,8 @@ class KthLargest:
             self.size+=1
             self.swim(self.size-1)
         return self.heap[0]
-```
-时间复杂度：O(n) (初始化堆O(n), 每次更新堆log(n))
-空间复杂度: O(n)
+# ```
+# 时间复杂度：O(n) (初始化堆O(n), 每次更新堆log(n))
+# 空间复杂度: O(n)
 
         

@@ -1,9 +1,9 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/de4367841b9c2a29eb4cc6343b60f98bffe21c24c16473867dd5b1bec2490d77-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/de4367841b9c2a29eb4cc6343b60f98bffe21c24c16473867dd5b1bec2490d77-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define ARRAY_NUM 2
 /**
  * Note: The returned array must be malloced, assume caller calls free().
@@ -54,4 +54,4 @@ int* singleNumber(int* nums, int numsSize, int* returnSize){
 
     return res;
 }
-```
+// ```

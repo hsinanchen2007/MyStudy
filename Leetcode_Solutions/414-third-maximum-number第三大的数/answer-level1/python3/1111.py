@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def thirdMax(self, nums: List[int]) -> int:
         a=list(set(nums))
@@ -12,4 +12,4 @@ class Solution:
             return a[0]
         else:
             return a[2]
-```
+# ```

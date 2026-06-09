@@ -1,6 +1,6 @@
-golang 88ms 解决方案
+// golang 88ms 解决方案
 
-```go
+// ```go
 type WordDictionary struct {
 	end  bool
 	next *[27]*WordDictionary
@@ -64,4 +64,4 @@ func (this *WordDictionary) Search(word string) bool {
  * obj.AddWord(word);
  * param_2 := obj.Search(word);
  */
-```
+// ```

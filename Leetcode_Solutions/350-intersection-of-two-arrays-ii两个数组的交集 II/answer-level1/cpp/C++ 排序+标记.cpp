@@ -1,10 +1,10 @@
-### 解题思路
-1.  先将两个数组排序
-2.  若两个数组的值相同，则用jsign记住数组2的j+1的位置，下次从jsign开始遍历。
+// ### 解题思路
+// 1.  先将两个数组排序
+// 2.  若两个数组的值相同，则用jsign记住数组2的j+1的位置，下次从jsign开始遍历。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> intersect(vector<int>& nums1, vector<int>& nums2) {  
@@ -24,4 +24,4 @@ public:
         return nbers;
     }
 };
-```
+// ```

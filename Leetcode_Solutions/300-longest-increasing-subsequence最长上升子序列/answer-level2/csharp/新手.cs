@@ -1,8 +1,8 @@
-### 解题思路
-新手
-### 代码
+// ### 解题思路
+// 新手
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int LengthOfLIS(int[] nums) {
         if (nums.Length == 0) return 0;
@@ -37,4 +37,4 @@ public class Solution {
     }
 }
 
-```
+// ```

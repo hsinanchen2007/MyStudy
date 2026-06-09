@@ -1,10 +1,10 @@
-### 解题思路
-在leetCode内部应该是预先定义好python中的ListNode类型数据，所以代码可以直接运行。而同样的代码在Pycharm中无法运行，会提示没有val方法。
-解决方案：自己定义ListNode类型，且初始化节点，以下被注释掉的代码是在pycharm中可以运行的完整代码。
+# ### 解题思路
+# 在leetCode内部应该是预先定义好python中的ListNode类型数据，所以代码可以直接运行。而同样的代码在Pycharm中无法运行，会提示没有val方法。
+# 解决方案：自己定义ListNode类型，且初始化节点，以下被注释掉的代码是在pycharm中可以运行的完整代码。
 
-### 代码
+# ### 代码
 
-```python3 
+# ```python3 
 # class ListNode:
 #     def __init__(self, x):
 #         self.val = x
@@ -56,4 +56,4 @@ class Solution:
             l2.next = self.mergeTwoLists(l1, l2.next)
             return l2
 
-```
+# ```

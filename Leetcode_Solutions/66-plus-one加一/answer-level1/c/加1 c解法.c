@@ -1,6 +1,6 @@
-4ms 76.32% 5.7 MB 100%
+// 4ms 76.32% 5.7 MB 100%
 
-```
+// ```
 int* plusOne(int* digits, int digitsSize, int* returnSize){
     int i,carry=1;//carry表示进位,进位位赋初值为1即表示在原数字基础上+1
     int *result=NULL;//要返回的数组
@@ -22,4 +22,4 @@ int* plusOne(int* digits, int digitsSize, int* returnSize){
     for(i=0;i<digitsSize;i++) result[i+carry]=digits[i];//将digits中的各个位复制到result中
     return result;
 }
-```
+// ```

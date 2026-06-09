@@ -1,9 +1,9 @@
-### 解题思路
-set/map去重
+// ### 解题思路
+// set/map去重
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} words
  * @return {number}
@@ -22,4 +22,4 @@ var uniqueMorseRepresentations = function(words) {
     
     return _set.size
 };
-```
+// ```

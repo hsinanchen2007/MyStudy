@@ -1,6 +1,6 @@
- 注意删除头节点的情况
+//  注意删除头节点的情况
 
-```
+// ```
 public ListNode removeNthFromEnd(ListNode head, int n) {
         ListNode nnode = head;
         ListNode pre = head;
@@ -18,4 +18,4 @@ public ListNode removeNthFromEnd(ListNode head, int n) {
         }
         return head;
     }
-```
+// ```

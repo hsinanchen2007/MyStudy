@@ -1,8 +1,8 @@
-### 解题思路
-    哈希表的应用，使用哈希map构造键值对，key的值为单词，value的值为单词出现的频率。
-### 代码
+// ### 解题思路
+//     哈希表的应用，使用哈希map构造键值对，key的值为单词，value的值为单词出现的频率。
+// ### 代码
 
-```java
+// ```java
 class WordsFrequency {
     //Java语言的哈希表法
     private Map<String,Integer> map=new HashMap<>();
@@ -25,4 +25,4 @@ class WordsFrequency {
  * WordsFrequency obj = new WordsFrequency(book);
  * int param_1 = obj.get(word);
  */
-```
+// ```

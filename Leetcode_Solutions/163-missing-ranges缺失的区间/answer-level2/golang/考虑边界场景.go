@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 func findMissingRanges(nums []int, lower int, upper int) []string {
 	n := len(nums)
@@ -53,4 +53,4 @@ func getDiff(a, b int) string {
 
 }
 
-```
+// ```

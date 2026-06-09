@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/16594c65dd890176439f5886adacf99442cc4daed168afa5f2ea3e3da363fe53-image.png)
-从右上角开始搜索，如果
-matrix[x][y] > target y = y - 1
-matrix[x][y] < target x = x + 1
-### 代码
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/16594c65dd890176439f5886adacf99442cc4daed168afa5f2ea3e3da363fe53-image.png)
+// 从右上角开始搜索，如果
+// matrix[x][y] > target y = y - 1
+// matrix[x][y] < target x = x + 1
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void find_target(int x, int y, int target, vector<vector<int>>& matrix, bool &res) {
@@ -35,4 +35,4 @@ public:
         return res;
     }
 };
-```
+// ```

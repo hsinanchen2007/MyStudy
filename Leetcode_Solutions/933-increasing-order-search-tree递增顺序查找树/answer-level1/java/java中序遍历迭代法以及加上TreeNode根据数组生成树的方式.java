@@ -1,4 +1,4 @@
-```java
+// ```java
 public TreeNode increasingBST(TreeNode root) {
         if (root == null) {
             return null;
@@ -25,9 +25,9 @@ public TreeNode increasingBST(TreeNode root) {
         //返回当前树的根
         return subRoot;
     }
-```
-并推荐一下java自己实现的根据Integer数组生成树的方式，方便之后做树题测试使用：
-```java
+// ```
+// 并推荐一下java自己实现的根据Integer数组生成树的方式，方便之后做树题测试使用：
+// ```java
 public static TreeNode generate(Integer[] a) {
     Queue<TreeNode> queue = new ArrayDeque<>();
     TreeNode root = new TreeNode(a[0]);
@@ -45,10 +45,10 @@ public static TreeNode generate(Integer[] a) {
     }
     return root;
 }
-```
-我们只需要将generate方法放到我们的TreeNode中，使用
-```java
+// ```
+// 我们只需要将generate方法放到我们的TreeNode中，使用
+// ```java
 TreeNode treeNode = TreeNode.generate(new Integer[] { 5, null, 6, null, 8, 7, 9 });
-```
-这种方式就可以根据leetCode官方给的数组生成一颗同样的二叉树，方便调试使用
+// ```
+// 这种方式就可以根据leetCode官方给的数组生成一颗同样的二叉树，方便调试使用
 

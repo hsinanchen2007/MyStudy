@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-去偶数去重复判断
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 去偶数去重复判断
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countPrimes(self, n: int) -> int:
         def isprimes(i):
@@ -20,4 +20,4 @@ class Solution:
         return count
 
         
-```
+# ```

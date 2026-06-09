@@ -1,6 +1,6 @@
-本题要明确，输出的最大值为nums.length+1
-所以可以遍历nums，使nums[i]=i
-然后再遍历一次nums,找到nums[i]!=i的地方，输出
+// 本题要明确，输出的最大值为nums.length+1
+// 所以可以遍历nums，使nums[i]=i
+// 然后再遍历一次nums,找到nums[i]!=i的地方，输出
 
 public int firstMissingPositive(int[] nums) {
     if(nums.length<=0)

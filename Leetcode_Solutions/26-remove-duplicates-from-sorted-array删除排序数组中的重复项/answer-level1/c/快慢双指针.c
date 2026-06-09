@@ -1,4 +1,4 @@
-```
+// ```
 
 //双指针，快慢指针。
 int removeDuplicates(int* nums, int numsSize){
@@ -16,4 +16,4 @@ int removeDuplicates(int* nums, int numsSize){
 }
 
 
-```
+// ```

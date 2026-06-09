@@ -1,4 +1,4 @@
-小白，勿喷
+// 小白，勿喷
 uint32_t reverseBits(uint32_t n) {
     uint32_t xxx=0,ccc=0;
     if(n&0x80000000)

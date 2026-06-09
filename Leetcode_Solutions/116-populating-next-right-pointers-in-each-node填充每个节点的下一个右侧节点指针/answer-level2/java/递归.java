@@ -1,4 +1,4 @@
-```
+// ```
     public Node connect(Node root) {
         if (null == root || null == root.left){
             return root;
@@ -9,4 +9,4 @@
         connect(root.right);
         return root;
     }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-我们只用统计偶数字符出现的次数（需要整数除2，计算多次），如果有奇数字符，不管有多少个，只计算一次即可
+// 我们只用统计偶数字符出现的次数（需要整数除2，计算多次），如果有奇数字符，不管有多少个，只计算一次即可
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func longestPalindrome(_ s: String) -> Int {
         var ch = Array(repeating: 0, count: 128)
@@ -29,4 +29,4 @@ class Solution {
         return res
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-**递归**
-```
+// **递归**
+// ```
 bool isUgly(int num){
     if (num < 1) return false;
     return judge(num);
@@ -13,9 +13,9 @@ int judge(int num) {
 
     return ret;
 }
-```
-**非递归**
-```
+// ```
+// **非递归**
+// ```
 bool isUgly(int num) {
     if (num < 1) return false;
     while (num!=1) {
@@ -26,7 +26,7 @@ bool isUgly(int num) {
     }
     return true;
 }
-```
+// ```
 
 
 

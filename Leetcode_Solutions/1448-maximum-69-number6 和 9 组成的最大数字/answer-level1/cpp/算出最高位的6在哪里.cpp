@@ -1,9 +1,9 @@
-### 解题思路
-关键点：算出最高位的6在哪里
+// ### 解题思路
+// 关键点：算出最高位的6在哪里
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maximum69Number (int num) {
@@ -24,4 +24,4 @@ public:
         return result;
     }
 };
-```
+// ```

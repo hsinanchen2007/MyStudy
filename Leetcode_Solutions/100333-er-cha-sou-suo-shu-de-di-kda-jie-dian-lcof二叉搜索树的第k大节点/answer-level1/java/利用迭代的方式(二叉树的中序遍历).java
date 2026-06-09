@@ -1,11 +1,11 @@
-### 解题思路
-利用二叉树的中序遍历
-第k大的结点也就是倒数第k个结点
-利用索引list.size() - k返回即可
+// ### 解题思路
+// 利用二叉树的中序遍历
+// 第k大的结点也就是倒数第k个结点
+// 利用索引list.size() - k返回即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -31,4 +31,4 @@ class Solution {
         return list.get(list.size() - k);
     }
 }
-```
+// ```

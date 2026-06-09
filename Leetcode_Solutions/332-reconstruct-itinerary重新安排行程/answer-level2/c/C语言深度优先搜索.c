@@ -1,9 +1,9 @@
-### 解题思路
-写的一般，一开始少考虑的很多场景，题目理解也不深，出错后缝缝补补才AC，用时和内存都高的不行，仅供参考吧
+// ### 解题思路
+// 写的一般，一开始少考虑的很多场景，题目理解也不深，出错后缝缝补补才AC，用时和内存都高的不行，仅供参考吧
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -113,4 +113,4 @@ char ** findItinerary(char *** tickets, int ticketsSize, int* ticketsColSize, in
 
     return ansArr;
 }
-```
+// ```

@@ -1,7 +1,7 @@
-1. 初始为一个空区间。
-2. 每次输入一个数据 val 时，插入一个 [val, val] 区间。
-3. 合并相邻的区间。
-```
+// 1. 初始为一个空区间。
+// 2. 每次输入一个数据 val 时，插入一个 [val, val] 区间。
+// 3. 合并相邻的区间。
+// ```
 class SummaryRanges {
 public:
     /** Initialize your data structure here. */
@@ -35,4 +35,4 @@ public:
 private:
     vector<vector<int>> intervals;
 };
-```
+// ```

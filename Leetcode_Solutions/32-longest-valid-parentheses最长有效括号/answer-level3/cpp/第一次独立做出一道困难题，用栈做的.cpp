@@ -1,7 +1,7 @@
-第一个 for 循环是给 match 数组做标记，第二个 for 循环 是找出 match 数组中最长的连续 1 的长度，即为答案。
-![截屏2020-03-07下午3.33.41.png](https://pic.leetcode-cn.com/fc20a14e338db32cc418e5f2f0bdae14ad50bce15138ed30fb9c78aec0632332-%E6%88%AA%E5%B1%8F2020-03-07%E4%B8%8B%E5%8D%883.33.41.png)
+// 第一个 for 循环是给 match 数组做标记，第二个 for 循环 是找出 match 数组中最长的连续 1 的长度，即为答案。
+// ![截屏2020-03-07下午3.33.41.png](https://pic.leetcode-cn.com/fc20a14e338db32cc418e5f2f0bdae14ad50bce15138ed30fb9c78aec0632332-%E6%88%AA%E5%B1%8F2020-03-07%E4%B8%8B%E5%8D%883.33.41.png)
 
-``` cpp
+// ``` cpp
 class Solution {
 public:
     int longestValidParentheses(string s) {
@@ -26,4 +26,4 @@ public:
         return ans;
     }
 };
-```
+// ```

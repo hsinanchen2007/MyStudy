@@ -1,9 +1,9 @@
-### 解题思路
-使用defaultdict和deque使代码稍微简洁一些。
+# ### 解题思路
+# 使用defaultdict和deque使代码稍微简洁一些。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -32,4 +32,4 @@ class Solution:
         return [stored[i] for i in reversed(range(len(stored)))]
         
 
-```
+# ```

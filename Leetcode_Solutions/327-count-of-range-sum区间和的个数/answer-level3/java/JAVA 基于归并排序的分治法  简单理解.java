@@ -1,18 +1,18 @@
-此题解法：在归并排序算法中增加一个计数方法。
+// 此题解法：在归并排序算法中增加一个计数方法。
 
-计什么数？
-计算区间和在[lower,upper]之间的区间个数
+// 计什么数？
+// 计算区间和在[lower,upper]之间的区间个数
 
-怎么计数？
-归并排序的特点，数组被分为两半，左右两半分别有序
-对于左边数组的每一个元素在右边数组中找到两个边界:low_bound和up_bound
-low_bound是第一个使得区间和>=lower的位置
-up_bound是第一个使得区间和>uper的位置
+// 怎么计数？
+// 归并排序的特点，数组被分为两半，左右两半分别有序
+// 对于左边数组的每一个元素在右边数组中找到两个边界:low_bound和up_bound
+// low_bound是第一个使得区间和>=lower的位置
+// up_bound是第一个使得区间和>uper的位置
 
-up_bound-low_bound就是区间和在[lower,uper]的区间个数
+// up_bound-low_bound就是区间和在[lower,uper]的区间个数
 
 
-```
+// ```
 class Solution {
     public int countRangeSum(int[] nums, int lower, int upper) {
         int count=0;
@@ -72,4 +72,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

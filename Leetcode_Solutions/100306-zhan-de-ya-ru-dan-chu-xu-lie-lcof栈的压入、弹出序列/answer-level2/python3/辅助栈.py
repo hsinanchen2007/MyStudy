@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def validateStackSequences(self, pushed: List[int], popped: List[int]) -> bool:
         if not pushed and not popped: return True
@@ -18,4 +18,4 @@ class Solution:
                     i += 1
             else: return False
         return True
-```
+# ```

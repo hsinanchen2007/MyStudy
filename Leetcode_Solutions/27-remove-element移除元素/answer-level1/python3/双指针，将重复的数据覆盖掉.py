@@ -1,10 +1,10 @@
-### 解题思路
-时间复杂度：O（n）
-空间复杂度：O（1）
+# ### 解题思路
+# 时间复杂度：O（n）
+# 空间复杂度：O（1）
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def removeElement(self, nums: List[int], val: int) -> int:
         i = 0
@@ -21,4 +21,4 @@ class Solution:
                 i += 1
 
         return i
-```
+# ```

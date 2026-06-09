@@ -1,5 +1,5 @@
-1. 第一种解法：转换成十进制相加再利用队列转换成二进制。（注意对输入是0 0的判断）
-```
+# 1. 第一种解法：转换成十进制相加再利用队列转换成二进制。（注意对输入是0 0的判断）
+# ```
 def addBinary(self, a, b):
         """
         :type a: str
@@ -13,10 +13,10 @@ def addBinary(self, a, b):
             tmp.insert(0, str(sum_ab%2))
             sum_ab //= 2
         return ''.join(tmp)
-```
+# ```
 
-2. 第二种解法：在1的基础上，修改求和函数
-```
+# 2. 第二种解法：在1的基础上，修改求和函数
+# ```
 def addBinary(self, a, b):
         """
         :type a: str
@@ -35,10 +35,10 @@ def addBinary(self, a, b):
             tmp.insert(0, str(sum_ab%2))
             sum_ab //= 2
         return ''.join(tmp)
-```
+# ```
 
-3. 第三种解法：在1的基础上，利用递归修改求和函数
-```
+# 3. 第三种解法：在1的基础上，利用递归修改求和函数
+# ```
  def addBinary(self, a, b):
         """
         :type a: str
@@ -59,10 +59,10 @@ def addBinary(self, a, b):
             tmp.insert(0, str(sum_ab%2))
             sum_ab //= 2
         return ''.join(tmp)
-```
+# ```
 
-4. 第四种解法：a b左侧用0补齐，逐位相加
-```
+# 4. 第四种解法：a b左侧用0补齐，逐位相加
+# ```
 def addBinary(self, a, b):
         """
         :type a: str
@@ -79,14 +79,14 @@ def addBinary(self, a, b):
             indicator = (int(a[-i]) + int(b[-i])+ indicator)//2
         if indicator: tmp.insert(0, str(indicator))
         return ''.join(tmp)
-```
+# ```
 
-5. 第五种解法：位运算（耗时低内存小），首先转化成数字x,y，进行XOR运算得到无进位的相加结果x，再进行&并左移一位得到y，对x y循环采用上述操作直到y=0
-```
+# 5. 第五种解法：位运算（耗时低内存小），首先转化成数字x,y，进行XOR运算得到无进位的相加结果x，再进行&并左移一位得到y，对x y循环采用上述操作直到y=0
+# ```
 x, y = int(a, 2), int(b, 2)#表示以二进制读取进来的
 while y:
     answer = x^y
     carry = (x&y)<<1
     x, y = answer, carry
 return bin(x)[2:]
-```
+# ```

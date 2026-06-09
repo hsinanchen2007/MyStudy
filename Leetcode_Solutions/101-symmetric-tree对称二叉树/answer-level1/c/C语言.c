@@ -1,9 +1,9 @@
-### 解题思路
-  这时用了leetcode上的官方题解做的，就是官方题解所说的模拟镜像的方法。
+// ### 解题思路
+//   这时用了leetcode上的官方题解做的，就是官方题解所说的模拟镜像的方法。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -23,4 +23,4 @@ bool isMirror(struct TreeNode* t1,struct TreeNode* t2){
 bool isSymmetric(struct TreeNode* root){
 	return isMirror(root,root);
 }
-```
+// ```

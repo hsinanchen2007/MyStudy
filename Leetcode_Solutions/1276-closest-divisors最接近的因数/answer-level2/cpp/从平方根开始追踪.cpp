@@ -1,9 +1,9 @@
-### 解题思路
-从平方根开始，挨个减1，只要满足能被整除就跳出。
+// ### 解题思路
+// 从平方根开始，挨个减1，只要满足能被整除就跳出。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> closestDivisors(int num) {
@@ -33,4 +33,4 @@ public:
         return minval1 < minval2 ? min1 : min2;
     }
 };
-```
+// ```

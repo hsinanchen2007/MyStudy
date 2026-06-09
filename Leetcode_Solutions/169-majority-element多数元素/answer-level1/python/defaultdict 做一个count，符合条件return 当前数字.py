@@ -1,6 +1,6 @@
-### 代码
-O(N)
-```python
+# ### 代码
+# O(N)
+# ```python
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
         dic = collections.defaultdict(int)
@@ -8,4 +8,4 @@ class Solution:
             dic[num]+=1
             if dic[num] > len(nums)/2:
                 return num  
-```
+# ```

@@ -1,4 +1,4 @@
-有一场CodeForces div3的D2就是这种思路
+// 有一场CodeForces div3的D2就是这种思路
 class Solution {
 public:
     int dp1[30010], dp2[30010];

@@ -1,6 +1,6 @@
-暴力法的思路是先计算累加和（从nums[0]到nums[i]的和），保存在nums[i]上
-multimap直接保存了这个结果，供后面的元素查询
-```
+// 暴力法的思路是先计算累加和（从nums[0]到nums[i]的和），保存在nums[i]上
+// multimap直接保存了这个结果，供后面的元素查询
+// ```
 class Solution {
 public:
     int subarraySum(vector<int>& nums, int k) {
@@ -28,4 +28,4 @@ public:
         // return res;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def backspaceCompare(self, S: str, T: str) -> bool:
         a=self.function1(S)
@@ -22,4 +22,4 @@ class Solution:
                         s_list.pop(pos)
                         break
         return s_list
-```
+# ```

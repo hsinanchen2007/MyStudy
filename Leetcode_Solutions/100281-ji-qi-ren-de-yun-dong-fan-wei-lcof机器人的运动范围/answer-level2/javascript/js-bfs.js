@@ -1,6 +1,6 @@
 
-每次向右、向下走，走过的加入已访问记录。
-```
+// 每次向右、向下走，走过的加入已访问记录。
+// ```
 /**
  * @param {number} m
  * @param {number} n
@@ -29,4 +29,4 @@ var movingCount = function(m, n, k) {
     helper(m,n,k,arr);
     return res;
 };
-```
+// ```

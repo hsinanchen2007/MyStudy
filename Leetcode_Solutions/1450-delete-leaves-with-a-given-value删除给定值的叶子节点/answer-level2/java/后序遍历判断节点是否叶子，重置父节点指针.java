@@ -1,11 +1,11 @@
-### 解题思路
-父节点是否叶子节点，受到左右子树是否为空的限定，这个就表示我们需要进行后序遍历，左-右-根的顺序，一个节点如果是目标叶子节点，则把这个节点的父节点对应的孩子指针置空即可。
+// ### 解题思路
+// 父节点是否叶子节点，受到左右子树是否为空的限定，这个就表示我们需要进行后序遍历，左-右-根的顺序，一个节点如果是目标叶子节点，则把这个节点的父节点对应的孩子指针置空即可。
 
-若node是parent.left，则parent.left = null，否则parent.right = null。前提条件，一定要是node是parent的孩子
+// 若node是parent.left，则parent.left = null，否则parent.right = null。前提条件，一定要是node是parent的孩子
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -82,4 +82,4 @@ class Solution {
         return node.left == null && node.right == null && node.val == target;
     }
 }
-```
+// ```

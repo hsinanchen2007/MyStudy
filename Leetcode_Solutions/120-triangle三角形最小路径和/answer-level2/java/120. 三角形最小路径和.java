@@ -1,20 +1,20 @@
  
 
-### 解题思路
-三角形自顶向下移动，
+// ### 解题思路
+// 三角形自顶向下移动，
 
-1、第n层的边界元素 （最左边 or 最右边）只需要与上一层的边界元素相加即可。
+// 1、第n层的边界元素 （最左边 or 最右边）只需要与上一层的边界元素相加即可。
 
-2、第n层其他元素的路径分析：
-    在第n层的i个元素可能由有n-1层的第i个或者i-1个元素移动过来
-    为了取最小路径，需取i或者i-1最小值。将i或i-1与第n层的i相加
+// 2、第n层其他元素的路径分析：
+//     在第n层的i个元素可能由有n-1层的第i个或者i-1个元素移动过来
+//     为了取最小路径，需取i或者i-1最小值。将i或i-1与第n层的i相加
 
-3、如此递归
+// 3、如此递归
 
-![image.png](https://pic.leetcode-cn.com/0bf895f0b379aa941c4fd7710b556592282585be32cfd46e28cd65e7f1be8ed7-image.png) 
-### 代码
+// ![image.png](https://pic.leetcode-cn.com/0bf895f0b379aa941c4fd7710b556592282585be32cfd46e28cd65e7f1be8ed7-image.png) 
+// ### 代码
 
-```java
+// ```java
 
 class Solution {
      private static int depth, size;
@@ -53,4 +53,4 @@ class Solution {
         helper(triangle, level +1);
     }
 }
-```
+// ```

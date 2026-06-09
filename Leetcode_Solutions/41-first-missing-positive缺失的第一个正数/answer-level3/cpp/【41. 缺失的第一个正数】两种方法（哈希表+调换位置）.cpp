@@ -1,10 +1,10 @@
-### 思路一：哈希表
-不满足空间复杂度
+// ### 思路一：哈希表
+// 不满足空间复杂度
 
-### 代码
-时间复杂度：O(n)
-空间复杂度：O(n)
-```cpp
+// ### 代码
+// 时间复杂度：O(n)
+// 空间复杂度：O(n)
+// ```cpp
 class Solution {
 public:
     int firstMissingPositive(vector<int>& nums) {
@@ -20,12 +20,12 @@ public:
         return size + 1;
     }
 };
-```
+// ```
 
-### 思路二：调换位置
+// ### 思路二：调换位置
 
-### 代码
-```c++
+// ### 代码
+// ```c++
 class Solution {
 public:
     int firstMissingPositive(vector<int>& nums) {
@@ -41,4 +41,4 @@ public:
         return size + 1;
     }
 };
-```
+// ```

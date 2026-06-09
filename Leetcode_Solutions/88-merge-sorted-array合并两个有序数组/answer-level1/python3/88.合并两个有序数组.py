@@ -1,9 +1,9 @@
-### 解题思路
-反向遍历，从最大的开始比较，从nums1的后面依次填入。
+# ### 解题思路
+# 反向遍历，从最大的开始比较，从nums1的后面依次填入。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
         """
@@ -29,4 +29,4 @@ class Solution:
             nums1[i] = nums2[n]
             i -= 1
             n -= 1
-```
+# ```

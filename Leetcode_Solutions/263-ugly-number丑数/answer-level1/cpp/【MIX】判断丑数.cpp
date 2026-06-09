@@ -1,9 +1,9 @@
-### 解题思路
-不断除以因子
+// ### 解题思路
+// 不断除以因子
 
-### 代码
+// ### 代码
 
-```java []
+// ```java []
 class Solution {
     public boolean isUgly(int num) {
         if(num == 0)
@@ -14,8 +14,8 @@ class Solution {
         return num==1;
     }
 }
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def isUgly(self, num: int) -> bool:
         if num == 0:
@@ -25,8 +25,8 @@ class Solution:
         while num%3 == 0: num //=3
         while num%5 == 0: num //=5
         return num == 1
-```
-```c++ []
+// ```
+// ```c++ []
 class Solution {
 public:
     bool isUgly(int num) {
@@ -42,4 +42,4 @@ public:
         return num == 1;
     }
 };
-```
+// ```

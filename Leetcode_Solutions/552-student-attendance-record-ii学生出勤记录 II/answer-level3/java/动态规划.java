@@ -1,5 +1,5 @@
-java版本        //ps: 注意超出int最大值
-```
+// java版本        //ps: 注意超出int最大值
+// ```
 class Solution {
      int M = (int)1e9 +7;
 
@@ -32,5 +32,5 @@ class Solution {
         return (int)(P + AP + L + LL + AL + ALL + A) % M;
     }
 }
-```
+// ```
 

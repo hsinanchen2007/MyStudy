@@ -1,9 +1,9 @@
-### 解题思路
-fast = 2 * slow
+// ### 解题思路
+// fast = 2 * slow
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool hasCycle(ListNode *head) {
@@ -20,4 +20,4 @@ public:
         return false;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-从哈希表里得来的灵感，按照ASCII建立数组，有字符则字符ASCII对应的数组位置就增加1，有超过1的就失败，遍历所有字符都没有超过1的就成功。
+// ### 解题思路
+// 从哈希表里得来的灵感，按照ASCII建立数组，有字符则字符ASCII对应的数组位置就增加1，有超过1的就失败，遍历所有字符都没有超过1的就成功。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isUnique(char* astr){
     bool isUnique;
     int length = strlen(astr);
@@ -35,4 +35,4 @@ bool isUnique(char* astr){
     // }
     return isUnique;
 }
-```
+// ```

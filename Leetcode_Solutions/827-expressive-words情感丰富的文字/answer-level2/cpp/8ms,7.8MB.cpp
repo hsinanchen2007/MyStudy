@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 template<class T> 
 ostream & operator<<(ostream & os , vector<T> vec){
     cout<<"[";
@@ -63,4 +63,4 @@ public:
         return word_cnt;
     }
 };
-```
+// ```

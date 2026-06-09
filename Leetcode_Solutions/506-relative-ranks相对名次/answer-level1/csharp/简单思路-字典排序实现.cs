@@ -1,4 +1,4 @@
-```
+// ```
 public string[] FindRelativeRanks(int[] nums) {
         var dict=new Dictionary<int,string>();
         var output=new string[nums.Length];
@@ -30,4 +30,4 @@ public string[] FindRelativeRanks(int[] nums) {
         }
         return output;
     }
-```
+// ```

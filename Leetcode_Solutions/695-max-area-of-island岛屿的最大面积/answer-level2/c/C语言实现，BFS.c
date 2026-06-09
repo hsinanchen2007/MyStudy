@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX(a,b) ((a)>(b) ? (a) : (b))
 typedef struct {
     int x;
@@ -49,4 +49,4 @@ int maxAreaOfIsland(int** grid, int gridSize, int* gridColSize){
     }
     return res;
 }
-```
+// ```

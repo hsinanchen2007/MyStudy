@@ -1,9 +1,9 @@
-### 解题思路
-快速排序（附选择排序和折半），快速排序还是没超时，但是用了递归，时间略长
+// ### 解题思路
+// 快速排序（附选择排序和折半），快速排序还是没超时，但是用了递归，时间略长
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -73,4 +73,4 @@ int* sortArray(int* nums, int numsSize, int* returnSize){
 }
 
 
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-将字符串先转换成list，在使用sort()进行排序，如果在s的长度内出现不匹配的情况则返回t[i]
-循环结束如果没有返回值，说明t中的最后一个就是插入的那个
+# ### 解题思路
+# 将字符串先转换成list，在使用sort()进行排序，如果在s的长度内出现不匹配的情况则返回t[i]
+# 循环结束如果没有返回值，说明t中的最后一个就是插入的那个
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def findTheDifference(self, s, t):
         """
@@ -25,4 +25,4 @@ class Solution(object):
 
 
 
-```
+# ```

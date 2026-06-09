@@ -1,4 +1,4 @@
-```
+// ```
 var generateParenthesis = function(n) {
     let combinations = [];
     (function combination(n,res,index) {
@@ -43,4 +43,4 @@ var generateParenthesis = function(n) {
     }
     return res;
 };
-```
+// ```

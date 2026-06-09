@@ -1,4 +1,4 @@
-```scala []
+// ```scala []
 object Solution {
     def numberOfSubarrays(A: Array[Int], k: Int): Int = {
         def f(l:List[Int], acc:List[Int] = Nil, count:Int = 0):List[Int] = l match {
@@ -15,4 +15,4 @@ object Solution {
         g(f(A.toList).toArray, k)(0,0)        
     }
 }
-```
+// ```

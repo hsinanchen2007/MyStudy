@@ -1,6 +1,6 @@
-solve（root） 代表的含义是以 root 为初始节点最大路径和
+// solve（root） 代表的含义是以 root 为初始节点最大路径和
 
-```
+// ```
     private int max = Integer.MIN_VALUE;
     public int maxPathSum(TreeNode root) {
         solve(root);
@@ -16,4 +16,4 @@ solve（root） 代表的含义是以 root 为初始节点最大路径和
         
         return ans;
     }
-```
+// ```

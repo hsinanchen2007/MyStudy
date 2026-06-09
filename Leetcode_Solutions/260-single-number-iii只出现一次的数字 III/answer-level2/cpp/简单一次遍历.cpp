@@ -1,5 +1,5 @@
-仅仅通过一个很简单的做法实现
-```
+// 仅仅通过一个很简单的做法实现
+// ```
 class Solution {
 public:
     vector<int> singleNumber(vector<int>& nums) {
@@ -35,4 +35,4 @@ public:
         return result;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-##思路如下
-放入vector，然后遍历即可，很容易
+// ##思路如下
+// 放入vector，然后遍历即可，很容易
 
-## 代码
+// ## 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -32,4 +32,4 @@ public:
 
     }
 };
-```
+// ```

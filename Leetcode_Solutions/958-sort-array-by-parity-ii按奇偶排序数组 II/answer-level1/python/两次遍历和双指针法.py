@@ -1,9 +1,9 @@
-### 解题思路
-两个方法速度差不多，内存消耗双指针稍微少0.3MB左右，相差不大！
+# ### 解题思路
+# 两个方法速度差不多，内存消耗双指针稍微少0.3MB左右，相差不大！
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def sortArrayByParityII(self, A: List[int]) -> List[int]:
         # Soultion 1: 两次遍历
@@ -28,4 +28,4 @@ class Solution:
                     j += 2
                 A[i], A[j] = A[j], A[i]
         return A
-```
+# ```

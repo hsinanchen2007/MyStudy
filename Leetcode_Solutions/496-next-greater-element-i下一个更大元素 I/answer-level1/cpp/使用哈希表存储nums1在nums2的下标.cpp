@@ -1,9 +1,9 @@
-### 解题思路
-然后遍历比较即可，遇到更大的元素就跳出，如果遍历完了还没找到就放-1
+// ### 解题思路
+// 然后遍历比较即可，遇到更大的元素就跳出，如果遍历完了还没找到就放-1
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> nextGreaterElement(vector<int>& nums1, vector<int>& nums2) {
@@ -30,4 +30,4 @@ public:
         return res;
     }
 };
-```
+// ```

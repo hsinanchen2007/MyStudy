@@ -1,8 +1,8 @@
-把单词对应的摩斯码当做二进制数处理，转化成十进制数比大小，减少比较开销。
+// 把单词对应的摩斯码当做二进制数处理，转化成十进制数比大小，减少比较开销。
 
 
 
-```
+// ```
 int uniqueMorseRepresentations(char ** words, int wordsSize){
     if (wordsSize == 0){
         return 0;
@@ -38,4 +38,4 @@ int uniqueMorseRepresentations(char ** words, int wordsSize){
     }   
     return numGap + 1;
 }
-```
+// ```

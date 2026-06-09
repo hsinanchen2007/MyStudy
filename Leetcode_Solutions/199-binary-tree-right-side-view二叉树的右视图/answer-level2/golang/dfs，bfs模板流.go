@@ -1,7 +1,7 @@
-### dfs
-1. 右节点先遍历
+// ### dfs
+// 1. 右节点先遍历
 
-```golang
+// ```golang
 var res []int
 
 func rightSideView(root *TreeNode) []int {
@@ -22,12 +22,12 @@ func dfs(root *TreeNode, level int) {
 	dfs(root.Right, level+1)
 	dfs(root.Left, level+1)
 }
-```
+// ```
 
-### bfs
-1. 右节点先遍历
+// ### bfs
+// 1. 右节点先遍历
 
-```golang
+// ```golang
 func rightSideView(root *TreeNode) []int {
   
 	var res []int
@@ -56,7 +56,7 @@ func rightSideView(root *TreeNode) []int {
 	}
 	return res
 }
-```
+// ```
 
-[Go版本 Github](https://github.com/temporaries/leetcode)
-[对应模板 Github](https://github.com/temporaries/leetcode/blob/master/templates/tree)
+// [Go版本 Github](https://github.com/temporaries/leetcode)
+// [对应模板 Github](https://github.com/temporaries/leetcode/blob/master/templates/tree)

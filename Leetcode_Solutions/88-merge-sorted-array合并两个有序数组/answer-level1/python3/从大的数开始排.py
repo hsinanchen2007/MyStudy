@@ -1,27 +1,27 @@
 
-## 思路:
+# ## 思路:
 
-一句话解释:用大的值填坑
+# 一句话解释:用大的值填坑
 
-详细解释:
+# 详细解释:
 
-我们比较两个数组的最大值依次填入!
+# 我们比较两个数组的最大值依次填入!
 
-这道题,可以用极端情况考虑,
+# 这道题,可以用极端情况考虑,
 
-例如:
+# 例如:
 
-`nums1 = [4,5,6,0,0,0],nums2 = [1,2,3]`
+# `nums1 = [4,5,6,0,0,0],nums2 = [1,2,3]`
 
-`nums1 = [1,2,3,0,0,0],nums2 = [4,5,6]`
+# `nums1 = [1,2,3,0,0,0],nums2 = [4,5,6]`
 
-就可以很容易理解代码了!
+# 就可以很容易理解代码了!
 
-## 代码:
+# ## 代码:
 
 
 
-```python [1]
+# ```python [1]
 class Solution:
     def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
         """
@@ -42,10 +42,10 @@ class Solution:
             nums1[k] = nums2[j]
             k -= 1
             j -= 1
-```
+# ```
 
 
-```java [1]
+# ```java [1]
 class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
         int i = m - 1;
@@ -55,5 +55,5 @@ class Solution {
         while (j >= 0) nums1[k--] = nums2[j--];   
     }
 }
-```
+# ```
 

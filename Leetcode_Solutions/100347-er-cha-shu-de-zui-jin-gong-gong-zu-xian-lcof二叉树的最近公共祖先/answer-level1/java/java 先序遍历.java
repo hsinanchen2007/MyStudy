@@ -1,9 +1,9 @@
-### 解题思路
-找到两点的路径
+// ### 解题思路
+// 找到两点的路径
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -48,4 +48,4 @@ class Solution {
         
     }
 }
-```
+// ```

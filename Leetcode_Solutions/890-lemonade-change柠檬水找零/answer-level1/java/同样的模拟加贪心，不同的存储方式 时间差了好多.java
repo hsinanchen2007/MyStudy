@@ -1,5 +1,5 @@
-第一种方式，也就是模拟卖柠檬水的方式，利用一个map来存储当前阶段所拥有的5美元和10美元的个数，一旦个数小于零就返回false.
-```
+// 第一种方式，也就是模拟卖柠檬水的方式，利用一个map来存储当前阶段所拥有的5美元和10美元的个数，一旦个数小于零就返回false.
+// ```
  boolean lemonadeChange(int[] bills) {
         Map<Integer, Integer> map = new ConcurrentHashMap<>();
         map.put(5, 0);
@@ -34,9 +34,9 @@
         }
         return true;
     }
-```
-第二种方式当然就是不用map存储，而直接用两个简单的字面量表示5美元和10美元的个数，同理小于零返回false。
-```
+// ```
+// 第二种方式当然就是不用map存储，而直接用两个简单的字面量表示5美元和10美元的个数，同理小于零返回false。
+// ```
 boolean lemonadeChange2(int[] bills) {
         int five = 0;
         int ten = 0;
@@ -68,6 +68,6 @@ boolean lemonadeChange2(int[] bills) {
         }
         return true;
     }
-```
-第一种31ms，第二种2ms,同样的算法，不同的数据存储方式，耗时差很多，不过看了官方解答和自己的写法，感觉好好笑，发出来大家开心开心。
+// ```
+// 第一种31ms，第二种2ms,同样的算法，不同的数据存储方式，耗时差很多，不过看了官方解答和自己的写法，感觉好好笑，发出来大家开心开心。
 

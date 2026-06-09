@@ -1,9 +1,9 @@
-### 解题思路
-对应官方第一种解法
+// ### 解题思路
+// 对应官方第一种解法
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -27,13 +27,13 @@ bool isValidBST(struct TreeNode *root)
 {
     return _valid(root, LONG_MIN, LONG_MAX);
 }
-```
-### 解题思路
-对应官方第三种解法，递归版
+// ```
+// ### 解题思路
+// 对应官方第三种解法，递归版
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -57,4 +57,4 @@ bool isValidBST(struct TreeNode *root)
     long long prev = LONG_MIN;
     return _valid(root, &prev);
 }
-```
+// ```

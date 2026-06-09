@@ -1,8 +1,8 @@
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numWays(int n) {
@@ -15,4 +15,4 @@ public:
         return a;
     }
 };
-```
+// ```

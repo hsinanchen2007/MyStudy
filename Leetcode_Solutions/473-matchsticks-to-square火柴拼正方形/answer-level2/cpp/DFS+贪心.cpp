@@ -1,5 +1,5 @@
-DFS的时候从大到小遍历（贪心），这样不需要回溯
-```
+// DFS的时候从大到小遍历（贪心），这样不需要回溯
+// ```
 class Solution {
 public:
     bool DFS(vector<int>&nums,vector<bool>&vis,int i,int a,int cur){
@@ -28,4 +28,4 @@ public:
         return true;
     }
 };
-```
+// ```

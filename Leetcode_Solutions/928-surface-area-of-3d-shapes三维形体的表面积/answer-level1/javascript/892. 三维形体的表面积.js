@@ -1,9 +1,9 @@
-### 解题思路
-减去右侧与下方贴合的面积*2
+// ### 解题思路
+// 减去右侧与下方贴合的面积*2
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} grid
  * @return {number}
@@ -31,4 +31,4 @@ var surfaceArea = function (grid) {
     }
     return result
 };
-```
+// ```

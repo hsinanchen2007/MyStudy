@@ -1,14 +1,14 @@
-![1.png](https://pic.leetcode-cn.com/a6d1daf4f72bf270b422974e387deb49d5c4a21b2155c9dd815ee9f14e5e5f5b-1.png)
+// ![1.png](https://pic.leetcode-cn.com/a6d1daf4f72bf270b422974e387deb49d5c4a21b2155c9dd815ee9f14e5e5f5b-1.png)
 
 
-解题思路：
-1、判断二叉树的高度；
-2、根据高度申请返回数组的长度；
-3、根据高度申请数组返回的标记；
-4、二叉树遍历，按照根节点->右子树->左子树 顺序；
-5、每一层有识别到需要返回值后直接标记，当所有高度的数组都标记成功后，直接返回；
+// 解题思路：
+// 1、判断二叉树的高度；
+// 2、根据高度申请返回数组的长度；
+// 3、根据高度申请数组返回的标记；
+// 4、二叉树遍历，按照根节点->右子树->左子树 顺序；
+// 5、每一层有识别到需要返回值后直接标记，当所有高度的数组都标记成功后，直接返回；
 
-```
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -70,7 +70,7 @@ int* rightSideView(struct TreeNode* root, int* returnSize){
     return ret;
 
 }
-```
+// ```
 
 
 

@@ -1,5 +1,5 @@
-变量有点多，我自己都不得不写点注释记一下每个变量代表啥……
-```
+// 变量有点多，我自己都不得不写点注释记一下每个变量代表啥……
+// ```
 class Solution {
 public:
     int totalFruit(vector<int>& tree) {
@@ -36,4 +36,4 @@ public:
         return res;
     }
 };
-```
+// ```

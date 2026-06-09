@@ -1,9 +1,9 @@
-### 解题思路
-每次读4个char直到最后，小心处理边界条件即可
+// ### 解题思路
+// 每次读4个char直到最后，小心处理边界条件即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * The read4 API is defined in the parent class Reader4.
  *     int read4(char[] buf);
@@ -51,4 +51,4 @@ public class Solution extends Reader4 {
         
     }
 }
-```
+// ```

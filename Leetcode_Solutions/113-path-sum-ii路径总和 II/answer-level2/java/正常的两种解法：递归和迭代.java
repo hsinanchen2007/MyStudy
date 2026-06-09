@@ -1,5 +1,5 @@
-递归：
-```
+// 递归：
+// ```
 public List<List<Integer>> pathSum(TreeNode root, int sum) {
         //1.
         List<List<Integer>> treeList = new ArrayList<>();
@@ -27,6 +27,6 @@ public List<List<Integer>> pathSum(TreeNode root, int sum) {
         }
         return lists;
     }
-```
+// ```
 
-迭代：就是一层一层迭代，代码写的比较烂，就不贴了
+// 迭代：就是一层一层迭代，代码写的比较烂，就不贴了

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 //a>b 必须大数%小数 辗转相除法求最大公约数
@@ -24,4 +24,4 @@ public:
         return str1.substr(0, _gcd(str1.size(),str2.size()));
     }
 };
-```
+// ```

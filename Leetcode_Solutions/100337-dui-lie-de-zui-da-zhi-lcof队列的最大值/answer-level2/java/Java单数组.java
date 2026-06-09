@@ -1,9 +1,9 @@
-### 解题思路
-用移动坐标的思路代替双数组
+// ### 解题思路
+// 用移动坐标的思路代替双数组
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MaxQueue {
 
     private List<Integer> queue;
@@ -59,4 +59,4 @@ class MaxQueue {
  * obj.push_back(value);
  * int param_3 = obj.pop_front();
  */
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-![微信图片_20200131220433.png](https://pic.leetcode-cn.com/07b1a2a1c6cfbc3704226f60d09014f8a4cb9e7e70a8719e37d9b62571319a5c-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200131220433.png)
+// ### 解题思路
+// ![微信图片_20200131220433.png](https://pic.leetcode-cn.com/07b1a2a1c6cfbc3704226f60d09014f8a4cb9e7e70a8719e37d9b62571319a5c-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200131220433.png)
 
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -38,4 +38,4 @@ class Solution {
         }
     }
 }
-```
+// ```

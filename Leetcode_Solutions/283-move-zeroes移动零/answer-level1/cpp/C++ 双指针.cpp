@@ -1,14 +1,14 @@
-### 解题思路
-双指针法：
-       1 开始两指针都指向开头位置。
-       2 移动指针，指针0找0，指针1找非0，找到后进行下一步,没找到直接break。
-       3 判断两指针位置，如果指针0位置在指针1位置前面，交换两数，指针0移动，指针1移动；否则只有指针1移动。
-       4一旦两指针其中一个移动到尾端，则结束循环。
-        时间复杂度O(n),空间复杂度O(1).
+// ### 解题思路
+// 双指针法：
+//        1 开始两指针都指向开头位置。
+//        2 移动指针，指针0找0，指针1找非0，找到后进行下一步,没找到直接break。
+//        3 判断两指针位置，如果指针0位置在指针1位置前面，交换两数，指针0移动，指针1移动；否则只有指针1移动。
+//        4一旦两指针其中一个移动到尾端，则结束循环。
+//         时间复杂度O(n),空间复杂度O(1).
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void moveZeroes(vector<int>& nums) {
@@ -26,5 +26,5 @@ public:
         }
     }
 };
-```
-![erwerwewwwww.PNG](https://pic.leetcode-cn.com/8dc96421f4d1ce555c6c514ab0c35f97a51aa4fc4a3e6937819d5553e5c35f0d-erwerwewwwww.PNG)
+// ```
+// ![erwerwewwwww.PNG](https://pic.leetcode-cn.com/8dc96421f4d1ce555c6c514ab0c35f97a51aa4fc4a3e6937819d5553e5c35f0d-erwerwewwwww.PNG)

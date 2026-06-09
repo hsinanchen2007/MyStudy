@@ -1,6 +1,6 @@
-在这个题，我们主要碰到的麻烦是如何避免重复计算。很显然一个字符串的子集是从1-length的累计和。
-经过我们的观察发现首字母相同的序列一定是被字典包含或者是包含字典，由此我们得到了下面的代码
-```
+// 在这个题，我们主要碰到的麻烦是如何避免重复计算。很显然一个字符串的子集是从1-length的累计和。
+// 经过我们的观察发现首字母相同的序列一定是被字典包含或者是包含字典，由此我们得到了下面的代码
+// ```
 public int findSubstringInWraproundString(String p) {
         String[] v = new String[26];
         char[] ch = p.toCharArray();
@@ -19,4 +19,4 @@ public int findSubstringInWraproundString(String p) {
         }
         return result;
     }
-```
+// ```

@@ -1,16 +1,16 @@
-## 解题思路：
-1. 遍历paragraph字符串，使用双指针记录两个相邻非字母字符的下标。
-2. 这两个指针之间即为一个单词。
-3. 判断此单词是否在banned数组中。存在则继续遍历，不存在则增加map中以该单词为的key的元素的value。
-4. 增加map中元素的value时，判断是否为最大value，避免了再次遍历求最大值。
+// ## 解题思路：
+// 1. 遍历paragraph字符串，使用双指针记录两个相邻非字母字符的下标。
+// 2. 这两个指针之间即为一个单词。
+// 3. 判断此单词是否在banned数组中。存在则继续遍历，不存在则增加map中以该单词为的key的元素的value。
+// 4. 增加map中元素的value时，判断是否为最大value，避免了再次遍历求最大值。
 
-## 要点：
-- 先将banned数组转为Set类型，便于之后查询单词是否在banned中。
-- Set中要加入空字符串""，以排除连续非字母字符的情况。
-- paragraph字符串末尾需补加一个非字母字符，这样可简化逻辑。
+// ## 要点：
+// - 先将banned数组转为Set类型，便于之后查询单词是否在banned中。
+// - Set中要加入空字符串""，以排除连续非字母字符的情况。
+// - paragraph字符串末尾需补加一个非字母字符，这样可简化逻辑。
 
-## 代码及注释：
-```Java
+// ## 代码及注释：
+// ```Java
 class Solution {
     public String mostCommonWord(String paragraph, String[] banned) {
         //数组转Set
@@ -48,4 +48,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

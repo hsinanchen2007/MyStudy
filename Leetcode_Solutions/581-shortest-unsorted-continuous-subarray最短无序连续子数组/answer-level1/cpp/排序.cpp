@@ -1,9 +1,9 @@
-### 解题思路
-找第一个乱序的数字和最后一个乱序的数字
+// ### 解题思路
+// 找第一个乱序的数字和最后一个乱序的数字
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findUnsortedSubarray(vector<int>& nums) {
@@ -20,4 +20,4 @@ public:
         return end - first + 1;
     }
 };
-```
+// ```

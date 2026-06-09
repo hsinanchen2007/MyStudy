@@ -1,9 +1,9 @@
-### 解题思路
-1.UTHash存储用户，数组存储用户的发文时间，
-2.返回结果是，每个时间段相当于桶，将用户放到不同的桶中即可。
-### 代码
+// ### 解题思路
+// 1.UTHash存储用户，数组存储用户的发文时间，
+// 2.返回结果是，每个时间段相当于桶，将用户放到不同的桶中即可。
+// ### 代码
 
-```c
+// ```c
 
 struct TimeList{
     int time;
@@ -95,4 +95,4 @@ void tweetCountsFree(TweetCounts* obj) {
  
  * tweetCountsFree(obj);
 */
-```
+// ```

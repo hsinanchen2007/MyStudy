@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def minCut(self, s: str) -> int:
         l = len(s)
@@ -12,4 +12,4 @@ class Solution:
                     dp[j + 1] = min(dp[j + 1], dp[i] + 1)
         return dp[-1]
        
-```
+# ```

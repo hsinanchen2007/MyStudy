@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-参考： https://subetter.com/algorithm/rabin-karp-algorithm.html
+// 参考： https://subetter.com/algorithm/rabin-karp-algorithm.html
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 private:
     const int mod = 1e9+7;
@@ -52,4 +52,4 @@ public:
         return (pre[j] - product[j - i + 1] * pre[i - 1] % mod + mod) % mod;
     }
 };
-```
+// ```

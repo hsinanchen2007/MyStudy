@@ -1,4 +1,4 @@
-``` c++
+// ``` c++
 class Solution {
 public:
     void reverseString(vector<char>& s) {
@@ -10,4 +10,4 @@ public:
         }
     }
 };
-```
+// ```

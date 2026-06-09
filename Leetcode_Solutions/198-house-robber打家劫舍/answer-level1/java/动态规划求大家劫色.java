@@ -1,9 +1,9 @@
-### 解题思路
-设盗第x家的最大价值为f(x)，则f(x)=max{nums[x]+f(x-2), f(x-1)}
+// ### 解题思路
+// 设盗第x家的最大价值为f(x)，则f(x)=max{nums[x]+f(x-2), f(x-1)}
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int rob(int[] nums) {
 		int len = nums.length;
@@ -21,4 +21,4 @@ class Solution {
         }
 	}
 }
-```
+// ```

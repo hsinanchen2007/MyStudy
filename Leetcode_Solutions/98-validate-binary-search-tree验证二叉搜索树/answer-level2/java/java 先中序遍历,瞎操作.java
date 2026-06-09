@@ -1,4 +1,4 @@
-```
+// ```
     public boolean isValidBST(TreeNode root) {
         if (root == null) return true;
         ArrayList<Integer> list = new ArrayList<>();
@@ -15,4 +15,4 @@
         res.add(tree.val);
         if (tree.right != null) mid(tree.right, res);
     }
-```
+// ```

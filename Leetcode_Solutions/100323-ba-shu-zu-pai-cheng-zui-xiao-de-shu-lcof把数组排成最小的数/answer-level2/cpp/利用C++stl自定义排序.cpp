@@ -1,6 +1,6 @@
-参考高赞题解，利用C++sort实现自定义排序
+// 参考高赞题解，利用C++sort实现自定义排序
 
-```
+// ```
 class Solution {
 public:
     string minNumber(vector<int>& nums) {
@@ -24,4 +24,4 @@ public:
         return a[0]<b[0];
     }
 };
-```
+// ```

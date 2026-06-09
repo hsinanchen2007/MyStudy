@@ -1,9 +1,9 @@
-### 解题思路
-从前往后比较就可以了。
+// ### 解题思路
+// 从前往后比较就可以了。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var longestCommonPrefix = function (strs) {
     if (!strs.length) return '';
     for (var x = 0; x < strs[0].length; x++) {
@@ -16,4 +16,4 @@ var longestCommonPrefix = function (strs) {
     return strs[0]
 };
 
-```
+// ```

@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/cd800f5eb7bb3e140012f724457bc716a9406b40e03ef0dc858e6748e4a73d1f-image.png)
+// ![image.png](https://pic.leetcode-cn.com/cd800f5eb7bb3e140012f724457bc716a9406b40e03ef0dc858e6748e4a73d1f-image.png)
 
-总之 去重 = sort + 下标移动
+// 总之 去重 = sort + 下标移动
 
-```
+// ```
 class Solution {
 public:
     vector<vector<int>> subsetsWithDup(vector<int>& nums) {
@@ -29,4 +29,4 @@ public:
     }
     
 };
-```
+// ```

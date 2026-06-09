@@ -1,9 +1,9 @@
-### 解题思路
-深度优先搜索，6种操作只能进行一次，若6种都执行完毕后仍不满足，就输出False
+# ### 解题思路
+# 深度优先搜索，6种操作只能进行一次，若6种都执行完毕后仍不满足，就输出False
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def canMeasureWater(self, x: int, y: int, z: int) -> bool:
         remain = [(0,0)]
@@ -29,4 +29,4 @@ class Solution:
             #将Y壶的水导入X壶至倒满
             remain.append((remain_x + min(remain_y, x-remain_x), remain_y- min(remain_y, x-remain_x)))
         return False 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-如果最后返回的是true，我们发现这样的数组中，改变的那个数字，若把它改成它前一个或者后一个就符合提议，于是就想到了这个解法。虽然很垃圾，但也想了好久。。。
+// ### 解题思路
+// 如果最后返回的是true，我们发现这样的数组中，改变的那个数字，若把它改成它前一个或者后一个就符合提议，于是就想到了这个解法。虽然很垃圾，但也想了好久。。。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool checkPossibility(int* nums, int numsSize){
     int i,j;
     int *flag;
@@ -38,4 +38,4 @@ bool checkPossibility(int* nums, int numsSize){
     }
     return false; 
 }
-```
+// ```

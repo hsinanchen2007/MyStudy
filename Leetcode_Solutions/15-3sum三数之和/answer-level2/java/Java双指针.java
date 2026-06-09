@@ -1,13 +1,13 @@
-从左向右遍历列表
-指针L从i+1开始增加，指针R从N - 1开始减少
-sum: 对i,L,R处求和
-- sum < 0 : L++
-- sum > 0 : R--
-- sum = 0 : 
-    1. 添加元素
-    2. 将两个指针移动到下一个不同的值
-    3. 回去sum
-```
+// 从左向右遍历列表
+// 指针L从i+1开始增加，指针R从N - 1开始减少
+// sum: 对i,L,R处求和
+// - sum < 0 : L++
+// - sum > 0 : R--
+// - sum = 0 : 
+//     1. 添加元素
+//     2. 将两个指针移动到下一个不同的值
+//     3. 回去sum
+// ```
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
         int N = nums.length;
@@ -38,4 +38,4 @@ class Solution {
         return list;
     }
 }
-```
+// ```

@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/e151b199321dbe08950052c4893753731582ceb095c834d5852d9b8258d2de09-image.png)
+# ![image.png](https://pic.leetcode-cn.com/e151b199321dbe08950052c4893753731582ceb095c834d5852d9b8258d2de09-image.png)
 
 
-```
+# ```
 
 '''
 分治求解，每次把范围均分成四等分，分别统计4个等分块里面的船的坐标，然后再
@@ -51,4 +51,4 @@ class Solution(object):
         return len(self.getShips(sea, topRight, bottomLeft))
 
 
-```
+# ```

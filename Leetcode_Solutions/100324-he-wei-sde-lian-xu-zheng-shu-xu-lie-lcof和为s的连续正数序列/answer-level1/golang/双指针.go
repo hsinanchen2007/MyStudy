@@ -1,7 +1,7 @@
-双指针start和end，当[start,end]之和sum等于target，即为需要的正数序列，sum减去start，后移；
-小于target时，end后移，sum加上end；大于target时，sum减去start，start后移
+// 双指针start和end，当[start,end]之和sum等于target，即为需要的正数序列，sum减去start，后移；
+// 小于target时，end后移，sum加上end；大于target时，sum减去start，start后移
 
-```
+// ```
 func findContinuousSequence(target int) [][]int {
 	limit := target / 2
 	start := 1
@@ -31,4 +31,4 @@ func gen(start, end int) []int {
 	}
 	return ret
 }
-```
+// ```

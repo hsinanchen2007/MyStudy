@@ -1,9 +1,9 @@
-### 解题思路
-(i+2) < strlen(s)少了判断条件会踩内存，所以一定要加边界校验条件
-如果是双数，则s[i+3]==#,否则s[i]为单数。最后2位如果是数字，一定是a-i中的。
-### 代码
+// ### 解题思路
+// (i+2) < strlen(s)少了判断条件会踩内存，所以一定要加边界校验条件
+// 如果是双数，则s[i+3]==#,否则s[i]为单数。最后2位如果是数字，一定是a-i中的。
+// ### 代码
 
-```c
+// ```c
 char * freqAlphabets(char * s){
     char *sTemp = (char *)calloc(strlen(s), sizeof(char)+1); 
     int i = 0;
@@ -25,4 +25,4 @@ char * freqAlphabets(char * s){
     return sTemp;
 }
 
-```
+// ```

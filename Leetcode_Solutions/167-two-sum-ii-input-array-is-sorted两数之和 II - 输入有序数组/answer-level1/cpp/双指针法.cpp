@@ -1,10 +1,10 @@
-### 解题思路
-左右两个指针分别初始化为数组的第一个下标和数组的最后一个下标
-小于目标值则left++，大于目标值则right--，直到满足两项之和等于目标值则跳出while循环
-将left和right值分别+1后返回
-### 代码
+// ### 解题思路
+// 左右两个指针分别初始化为数组的第一个下标和数组的最后一个下标
+// 小于目标值则left++，大于目标值则right--，直到满足两项之和等于目标值则跳出while循环
+// 将left和right值分别+1后返回
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> twoSum(vector<int>& numbers, int target) {
@@ -25,4 +25,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-递归，每次传入最大值最小值
+// ### 解题思路
+// 递归，每次传入最大值最小值
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -37,4 +37,4 @@ class Solution {
         return isVaildBSTCore(root.left, min, root.val) && isVaildBSTCore(root.right, root.val, max);
     }
 }
-```
+// ```

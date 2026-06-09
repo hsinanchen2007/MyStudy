@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *整体思路：
@@ -65,4 +65,4 @@ int lastStoneWeight( int * stones , int stonesSize ){
     return *( stones + 0 );
 
 }
-```
+// ```

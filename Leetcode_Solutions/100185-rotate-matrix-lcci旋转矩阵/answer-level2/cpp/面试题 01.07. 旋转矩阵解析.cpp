@@ -1,11 +1,11 @@
-### 解题思路
-这道题 就两个步骤：
-1. 对角线反转
-2. 左右翻转
+// ### 解题思路
+// 这道题 就两个步骤：
+// 1. 对角线反转
+// 2. 左右翻转
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void rotate(vector<vector<int>>& matrix) {
@@ -46,4 +46,4 @@ public:
         return ;
     }
 };
-```
+// ```

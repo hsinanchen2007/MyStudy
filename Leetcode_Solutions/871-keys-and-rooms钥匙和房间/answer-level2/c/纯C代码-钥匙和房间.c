@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void visitNextRoom(int **rooms, int roomsSize, int *roomsColSize, int curRoom, bool *flag) {
     int i, nextRoom;
 
@@ -42,4 +42,4 @@ bool canVisitAllRooms(int** rooms, int roomsSize, int* roomsColSize){
 
     return false;
 }
-```
+// ```

@@ -1,19 +1,19 @@
 
--   首先将所有字符进行逆序排序，然后从前面向后找，找到当前字符与逆序不同的数字，表示后面肯定有比当前数字大的
--   然后在后面找出最大的，并且位置最靠后的数字即可
+# -   首先将所有字符进行逆序排序，然后从前面向后找，找到当前字符与逆序不同的数字，表示后面肯定有比当前数字大的
+# -   然后在后面找出最大的，并且位置最靠后的数字即可
 
-```
+# ```
 例如：
 299
 逆序排序为：
 992
 第一个数字就不相同，因此，需要交换的就是这个位置
 然后找到第2个9，交换，得到992
-```
+# ```
 
 
 
-```python
+# ```python
 class Solution:
     def maximumSwap(self, num: int) -> int:
         num_str = list(str(num))
@@ -33,6 +33,6 @@ class Solution:
                     next_pos = i
             num_str[pos], num_str[next_pos] = num_str[next_pos], num_str[pos]
         return int("".join(num_str))
-```
+# ```
 
 

@@ -1,9 +1,9 @@
-### 解题思路
-找到不是递增的索引，就是那个数了
+// ### 解题思路
+// 找到不是递增的索引，就是那个数了
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findMin(int[] nums) {
         if(nums.length==1){
@@ -17,4 +17,4 @@ class Solution {
         return nums[0];
     }
 }
-```
+// ```

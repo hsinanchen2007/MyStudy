@@ -1,9 +1,9 @@
-### 解题思路
-动态规划
+# ### 解题思路
+# 动态规划
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxDistance(self, grid: List[List[int]]) -> int:
         from collections import deque
@@ -32,4 +32,4 @@ class Solution:
         if ans == 0 or ans == float('inf'):
             return -1
         return ans
-```
+# ```

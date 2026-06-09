@@ -1,9 +1,9 @@
-### 解题思路
-统计每个数字出现次数 -> 取最大公约数
+// ### 解题思路
+// 统计每个数字出现次数 -> 取最大公约数
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} deck
  * @return {boolean}
@@ -26,4 +26,4 @@ var hasGroupsSizeX = function(deck) {
 function gcd(num1, num2){
     return num1 === 0 ? num2 : gcd(num2 % num1, num1)
 }
-```
+// ```

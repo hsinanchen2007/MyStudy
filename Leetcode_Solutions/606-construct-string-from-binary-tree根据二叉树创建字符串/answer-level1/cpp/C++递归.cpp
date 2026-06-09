@@ -1,9 +1,9 @@
-### 解题思路
-右子树存在时左子树必须有括号
+// ### 解题思路
+// 右子树存在时左子树必须有括号
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -33,4 +33,4 @@ public:
 };
 
 
-```
+// ```

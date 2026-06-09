@@ -1,14 +1,14 @@
-### 解题思路
-dp[i] = "(" + dp[j] + ")" + dp[i- j - 1] , j = 0, 1, ..., i - 1
+// ### 解题思路
+// dp[i] = "(" + dp[j] + ")" + dp[i- j - 1] , j = 0, 1, ..., i - 1
 
-初始状态：因为我们需要 0 对括号这种状态，因此状态数组 dp 从 0 开始，0 个括号当然就是 [""]。
-输出：dp[n] 。
+// 初始状态：因为我们需要 0 对括号这种状态，因此状态数组 dp 从 0 开始，0 个括号当然就是 [""]。
+// 输出：dp[n] 。
 
-C语言真是不方便啊，要用三维数组，一维表示字符串，一维表示生成的组合数量，一维表示dp的下标。
+// C语言真是不方便啊，要用三维数组，一维表示字符串，一维表示生成的组合数量，一维表示dp的下标。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -65,4 +65,4 @@ char ** generateParenthesis(int n, int* returnSize){
     *returnSize = index;    
     return dp[n];
 }
-```
+// ```

@@ -1,5 +1,5 @@
-**代码很简洁，无需赘述**
-```
+// **代码很简洁，无需赘述**
+// ```
 class Solution {
 private:
     bool exist(vector<vector<char>>& board,int y,int x, string& word,int i){
@@ -24,4 +24,4 @@ public:
         return false;
     }
 };
-```
+// ```

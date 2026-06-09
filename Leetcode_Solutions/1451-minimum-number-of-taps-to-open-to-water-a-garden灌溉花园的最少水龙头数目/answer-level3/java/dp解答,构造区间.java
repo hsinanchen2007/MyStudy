@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minTaps(int n, int[] ranges) {
 		int[][] data = new int[n + 1][2];
@@ -35,4 +35,4 @@ class Solution {
 		return dp[n-1] >= Integer.MAX_VALUE / 2 ? -1 : dp[n-1];
 	}
 }
-```
+// ```

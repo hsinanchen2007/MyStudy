@@ -1,11 +1,11 @@
-![image.png](https://pic.leetcode-cn.com/d4e70bb30ec43340e5fc2fae061f5051c8a26911361ea5578bfe87dd905401d4-image.png)
+# ![image.png](https://pic.leetcode-cn.com/d4e70bb30ec43340e5fc2fae061f5051c8a26911361ea5578bfe87dd905401d4-image.png)
 
-### 解题思路
-思路还是很简单的：依次遍历，依次计数，遇见不同的就进行处理，注意的是，再遍历完成后，把最后的结果也加上去，也就是：compre_strs+=S[-count]+str(count)
+# ### 解题思路
+# 思路还是很简单的：依次遍历，依次计数，遇见不同的就进行处理，注意的是，再遍历完成后，把最后的结果也加上去，也就是：compre_strs+=S[-count]+str(count)
 
-### 代码
+# ### 代码
 
-```
+# ```
 
 class Solution:
     def compressString(self, S: str) -> str:
@@ -26,4 +26,4 @@ class Solution:
         else:
             return compre_strs
         
-```
+# ```

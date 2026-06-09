@@ -1,9 +1,9 @@
-### 解题思路
-使用快排排序，然后遍历一次，根据判断把被前一个区间包含的区间弹出，否则就继续判断下一个
+// ### 解题思路
+// 使用快排排序，然后遍历一次，根据判断把被前一个区间包含的区间弹出，否则就继续判断下一个
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} intervals
  * @return {number[][]}
@@ -26,4 +26,4 @@ var merge = function(intervals) {
     }
     return intervals;
 };
-```
+// ```

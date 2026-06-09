@@ -1,9 +1,9 @@
-### 解题思路
-没啥好说的，根据题意设置好对应关系计算就行
+// ### 解题思路
+// 没啥好说的，根据题意设置好对应关系计算就行
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type UndergroundSystem struct {
     
     idTime map[int]float64
@@ -64,4 +64,4 @@ func (this *UndergroundSystem) GetAverageTime(startStation string, endStation st
  * obj.CheckOut(id,stationName,t);
  * param_3 := obj.GetAverageTime(startStation,endStation);
  */
-```
+// ```

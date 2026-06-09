@@ -1,9 +1,9 @@
-### 解题思路
-跟作者“北斗”一个方法，但他的题解更加优秀
+-- ### 解题思路
+-- 跟作者“北斗”一个方法，但他的题解更加优秀
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 select * from stadium where id in
 (
@@ -29,4 +29,4 @@ select * from stadium where id in
     where rank >2
 )
 
-```
+-- ```

@@ -1,9 +1,9 @@
-### 解题思路
-以两个指针start、end进行迭代，每次选出最外面的一圈数字，分四种情况进行旋转（额外用一个一维数组保存第一边数据，以便最后一边的数据可以更新）。完成后，start+1，end-1,进行次圈数据的旋转。直到start>end,结束迭代，所有数据旋转完毕。
+# ### 解题思路
+# 以两个指针start、end进行迭代，每次选出最外面的一圈数字，分四种情况进行旋转（额外用一个一维数组保存第一边数据，以便最后一边的数据可以更新）。完成后，start+1，end-1,进行次圈数据的旋转。直到start>end,结束迭代，所有数据旋转完毕。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def rotate(self, matrix):
         start=0
@@ -28,4 +28,4 @@ class Solution(object):
             start+=1
             end-=1
         return matrix
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-递归的思想很重要.
+# ### 解题思路
+# 递归的思想很重要.
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -29,4 +29,4 @@ class Solution:
             return False
         return issame(s, t) or self.isSubtree(s.left, t) or self.isSubtree(s.right, t)
         
-```
+# ```

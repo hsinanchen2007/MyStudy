@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-reverse()翻转
+// reverse()翻转
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} A
  * @return {number[][]}
@@ -18,4 +18,4 @@ var flipAndInvertImage = function(A) {
     }
     return A
 };
-```
+// ```

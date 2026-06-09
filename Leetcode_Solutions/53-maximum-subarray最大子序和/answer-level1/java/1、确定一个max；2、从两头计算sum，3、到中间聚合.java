@@ -1,9 +1,9 @@
-思路：
-1、定义一个max记录过程中最大值
-2、定义lSum、rSum从两头向中间推进的记录的两个最终子序和
-3、到中间汇聚，再取最大值：Math.max(max, lSum+rSum);
+// 思路：
+// 1、定义一个max记录过程中最大值
+// 2、定义lSum、rSum从两头向中间推进的记录的两个最终子序和
+// 3、到中间汇聚，再取最大值：Math.max(max, lSum+rSum);
 
-```
+// ```
 public static int maxSubArray2(int[] nums) {
         int max = Math.max(nums[0],nums[nums.length-1]);//过程中最大值
         // 左半部分，最近一次子序和
@@ -25,4 +25,4 @@ public static int maxSubArray2(int[] nums) {
                 lSum+rSum//中间聚合
         );
     }
-```
+// ```

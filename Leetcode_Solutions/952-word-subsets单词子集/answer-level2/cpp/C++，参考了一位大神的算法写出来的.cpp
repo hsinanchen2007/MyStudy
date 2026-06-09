@@ -1,15 +1,15 @@
-### 解题思路
-//先计算B的特征值--b_info[26]
- 特征值：即每个单词在B[i]出现的最大次数
-例如：["ec","oc","coo"]
- c, e, o 的特征值分别为 1, 1, 2
- o 在 "coo"这个单词中出现了两次，c 和 e 在 B 最多出现了 1 次
-在计算 A[i]的特征值 t_info[26]，即A[i]中每个字母出现的次数
-当 0<=j <= 25, 都有 t_info[j] >= b_info[j]时
-则A[i]为通用的
-### 代码
+// ### 解题思路
+// //先计算B的特征值--b_info[26]
+//  特征值：即每个单词在B[i]出现的最大次数
+// 例如：["ec","oc","coo"]
+//  c, e, o 的特征值分别为 1, 1, 2
+//  o 在 "coo"这个单词中出现了两次，c 和 e 在 B 最多出现了 1 次
+// 在计算 A[i]的特征值 t_info[26]，即A[i]中每个字母出现的次数
+// 当 0<=j <= 25, 都有 t_info[j] >= b_info[j]时
+// 则A[i]为通用的
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> wordSubsets(vector<string>& A, vector<string>& B) {
@@ -49,4 +49,4 @@ public:
          return ans;
     }
 };
-```
+// ```

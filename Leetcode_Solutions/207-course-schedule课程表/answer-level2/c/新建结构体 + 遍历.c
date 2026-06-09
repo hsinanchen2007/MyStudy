@@ -1,12 +1,12 @@
 
 
-执行结果：通过
+// 执行结果：通过
 
-执行用时 :56 ms, 在所有 c 提交中击败了60.98%的用户
-内存消耗 :8.1 MB, 在所有 c 提交中击败了100.00%的用户
+// 执行用时 :56 ms, 在所有 c 提交中击败了60.98%的用户
+// 内存消耗 :8.1 MB, 在所有 c 提交中击败了100.00%的用户
 
 
-```
+// ```
 struct node {
     int inNode;
     bool visited;
@@ -47,4 +47,4 @@ bool canFinish(int numCourses, int** prerequisites, int prerequisitesSize, int* 
     }
 }
 
-```
+// ```

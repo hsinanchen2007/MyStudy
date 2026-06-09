@@ -1,11 +1,11 @@
-### 解题思路
-利用求最大深度，来计算局部子树深度差。
+# ### 解题思路
+# 利用求最大深度，来计算局部子树深度差。
 
-# 原作者：jyd
+# # 原作者：jyd
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -33,4 +33,4 @@ class Solution:
         else:
             return -1
 
-```
+# ```

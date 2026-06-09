@@ -1,10 +1,10 @@
-### 解题思路
-the classic format of breadth first search, please take a deep breath, don't worry about this kind of tedious questions ! ! !
-    good night :)
+# ### 解题思路
+# the classic format of breadth first search, please take a deep breath, don't worry about this kind of tedious questions ! ! !
+#     good night :)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -35,4 +35,4 @@ class Solution:
         return res
 
 
-```
+# ```

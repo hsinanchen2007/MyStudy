@@ -1,5 +1,5 @@
 
-```
+// ```
 def groupAnagrams2(strs: Array[String]): List[List[String]] = {
 
     def compareBitMap(a1: Array[Int], a2: Array[Int]): Boolean = {
@@ -62,4 +62,4 @@ def groupAnagrams2(strs: Array[String]): List[List[String]] = {
 
     out
 }
-```
+// ```

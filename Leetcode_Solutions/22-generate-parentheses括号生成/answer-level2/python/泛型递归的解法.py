@@ -1,9 +1,9 @@
-### 解题思路
-泛型递归的解法
+# ### 解题思路
+# 泛型递归的解法
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def __init__(self):
         self.list_str = []
@@ -19,4 +19,4 @@ class Solution(object):
             self.__generate_Parent(left + 1, right, n, s + "(")
         if left > right:
             self.__generate_Parent(left, right + 1, n, s + ")")
-```
+# ```

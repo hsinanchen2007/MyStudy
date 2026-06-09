@@ -1,16 +1,16 @@
-说实话，一看到这题我是懵逼的，脑袋里是空的。
+# 说实话，一看到这题我是懵逼的，脑袋里是空的。
 
-看了一下提示：树 深度优先搜索 数组。其实看不看都没差，反正树不是DFS就是BFS。
+# 看了一下提示：树 深度优先搜索 数组。其实看不看都没差，反正树不是DFS就是BFS。
 
-## 方法1：递归算法-DFS
+# ## 方法1：递归算法-DFS
 
-不禁想起了刚入大学时学习的C, 期末的考题就是根据中序+前序遍历把二叉树给他画出来。诶~大学生活真....算了算了不想了。
+# 不禁想起了刚入大学时学习的C, 期末的考题就是根据中序+前序遍历把二叉树给他画出来。诶~大学生活真....算了算了不想了。
 
-想也知道这两个列表一定是有关系的，可以知道preorder的开头的3一定是根， 而且由于中序遍历时先left再root最后再right，也就是说，preorder这边找到的root可以将inorder分割成两个部分。
+# 想也知道这两个列表一定是有关系的，可以知道preorder的开头的3一定是根， 而且由于中序遍历时先left再root最后再right，也就是说，preorder这边找到的root可以将inorder分割成两个部分。
 
-下面来演算一下
+# 下面来演算一下
 
-```
+# ```
     3
    / \
   9  20
@@ -33,13 +33,13 @@ root = 15
 
 root = 7
 子inorder为空
-```
+# ```
 
-感觉好像可以，但是又感觉好像不知道该怎么做，期间我有进行几次测试，发现都失败了(每次都只通过几个，十几个没有参考价值就不写出来了)，有一点就是一分为二后的inorder一定与preorder里面root之后的某段是有关系的，怎么说呢？就是当前preorder确定的root节点，后面1~n位一定是左子树的值，这些值在inorder一分为二的左半边一定能找到，n~n位一定是右子树的值，inorder的右半边也一定和n~n位里面的值相等
+# 感觉好像可以，但是又感觉好像不知道该怎么做，期间我有进行几次测试，发现都失败了(每次都只通过几个，十几个没有参考价值就不写出来了)，有一点就是一分为二后的inorder一定与preorder里面root之后的某段是有关系的，怎么说呢？就是当前preorder确定的root节点，后面1~n位一定是左子树的值，这些值在inorder一分为二的左半边一定能找到，n~n位一定是右子树的值，inorder的右半边也一定和n~n位里面的值相等
 
-最后有了下面的代码（超时）
+# 最后有了下面的代码（超时）
 
-```python
+# ```python
 class Solution:
     def buildTree(self, preorder: List[int], inorder: List[int]) -> TreeNode:
         if not preorder or not inorder: return None
@@ -58,22 +58,22 @@ class Solution:
             if each in target:
                 tem.append(each)
         return tem
-```
+# ```
 
-运行结果
+# 运行结果
 
-```
+# ```
 202 / 203 个通过测试用例
 	状态：超出时间限制
-```
+# ```
 
-然后没有想到的是竟然是超时的原因（只差一个就通过了啊，好气哦），我还以为会在某个地方出错呢，再看看上面，那findNum函数是非常的毒瘤，于是想办法去除，因为目的只是为了拿到preorder里面元素属于inorder的部分
+# 然后没有想到的是竟然是超时的原因（只差一个就通过了啊，好气哦），我还以为会在某个地方出错呢，再看看上面，那findNum函数是非常的毒瘤，于是想办法去除，因为目的只是为了拿到preorder里面元素属于inorder的部分
 
-机智的我突然想到，我不就是要拿preorder的情况嘛，左子树的root铁定就是preorder[1:]里面的一个，但是右子树就不一定了，至于右子树的root要从哪里开始呢？其实很简单，右子树从left_inorder+1之后开始啊！！！
+# 机智的我突然想到，我不就是要拿preorder的情况嘛，左子树的root铁定就是preorder[1:]里面的一个，但是右子树就不一定了，至于右子树的root要从哪里开始呢？其实很简单，右子树从left_inorder+1之后开始啊！！！
 
-这里稍微解释一下
+# 这里稍微解释一下
 
-```
+# ```
     3
    / \
   9  20
@@ -87,11 +87,11 @@ inorder 一份为二 left:[9] right:[15,20,7]
 preorder 也对应两种
 left  preorder[1:] = [9,20,15,7] 这很好理解，因为preorder是 root-> left -> right的遍历顺序
 right preorder[X:] = 由于left的inorder长度为len([9])=1，也就是说preorder[1+1:]=[20,15,7]才是右子树的可能root
-```
+# ```
 
-于是有了下面的代码
+# 于是有了下面的代码
 
-```python
+# ```python
 class Solution:
     def buildTree(self, preorder: List[int], inorder: List[int]) -> TreeNode:
         if not preorder or not inorder: return None
@@ -101,11 +101,11 @@ class Solution:
         if left_inorder: tree.left = self.buildTree(preorder[1:], left_inorder)
         if right_inorder: tree.right = self.buildTree(preorder[1+len(left_inorder):], right_inorder) 
         return tree
-```
+# ```
 
-运行结果
+# 运行结果
 
-```
+# ```
 执行用时 :260 ms, 在所有 Python3 提交中击败了30.31% 的用户
 内存消耗 :87.2 MB, 在所有 Python3 提交中击败了22.05%的用户
 
@@ -114,15 +114,15 @@ class Solution:
 
 执行用时 :236 ms, 在所有 Python3 提交中击败了37.21% 的用户
 内存消耗 :87.3 MB, 在所有 Python3 提交中击败了19.79%的用户
-```
+# ```
 
-嘿嘿虽然效率低但是总算通过测试了！
+# 嘿嘿虽然效率低但是总算通过测试了！
 
-看了一下其实上面这个是可以优化时间和空间的，因为递归传参的时候创建了新的列表，这不仅耗时又消耗了内存。可以通过简单的传递下标参数来避免这个问题，但是相对的代码可能要多一丢丢。
+# 看了一下其实上面这个是可以优化时间和空间的，因为递归传参的时候创建了新的列表，这不仅耗时又消耗了内存。可以通过简单的传递下标参数来避免这个问题，但是相对的代码可能要多一丢丢。
 
-下面我们来一步步优化这个代码，做事不着急，我们先替换掉preorder的新建列表传参改为下标传参
+# 下面我们来一步步优化这个代码，做事不着急，我们先替换掉preorder的新建列表传参改为下标传参
 
-```python
+# ```python
 class Solution:
     def buildTree(self, preorder, inorder):
         return self.betterBuildTree(preorder, inorder, 0)
@@ -139,11 +139,11 @@ class Solution:
             # 右子树开始root preorder_start+1+len(left_inorder)
             tree.right = self.betterBuildTree(preorder, right_inorder, preorder_start+1+len(left_inorder)) 
         return tree
-```
+# ```
 
-运行结果
+# 运行结果
 
-```
+# ```
 执行用时 :188 ms, 在所有 Python3 提交中击败了71.92% 的用户
 内存消耗 :52.2 MB, 在所有 Python3 提交中击败了71.78%的用户
 
@@ -152,18 +152,18 @@ class Solution:
 
 执行用时 :288 ms, 在所有 Python3 提交中击败了23.75% 的用户
 内存消耗 :52 MB, 在所有 Python3 提交中击败了71.92%的用户
-```
+# ```
 
-效率分析
+# 效率分析
 
-```python
+# ```python
 时间：从平均 256ms  下降到了平均 221ms，快了 13%。
 内存：从平均 87MB   下降到了平均 52MB， 少了 30%。
-```
+# ```
 
-那接下来就是把inorder的新建传参也给他消灭掉，这个比上面那个稍微复杂一点。
+# 那接下来就是把inorder的新建传参也给他消灭掉，这个比上面那个稍微复杂一点。
 
-```python
+# ```python
 class Solution:
     def buildTree(self, preorder, inorder):
         return self.betterBuildTree(preorder, inorder, 0, 0, len(inorder))
@@ -180,11 +180,11 @@ class Solution:
         if right_end - right_start > 0:
             tree.right = self.betterBuildTree(preorder, inorder, preorder_start+1+(left_end-left_start), right_start, right_end) 
         return tree
-```
+# ```
 
-运行结果
+# 运行结果
 
-```
+# ```
 执行用时 :148 ms, 在所有 Python3 提交中击败了81.01% 的用户
 内存消耗 :16.9 MB, 在所有 Python3 提交中击败了90.00%的用户
 
@@ -193,26 +193,26 @@ class Solution:
 
 执行用时 :136 ms, 在所有 Python3 提交中击败了82.36% 的用户
 内存消耗 :16.8 MB, 在所有 Python3 提交中击败了91.92%的用户
-```
+# ```
 
-效率分析
+# 效率分析
 
-```python
+# ```python
 # 对比原算法
 时间：从平均 256ms  下降到了平均 142ms，快了 45%。
 内存：从平均 87MB   下降到了平均 17MB， 少了 80%。
 # 对比上一次的优化
 时间：从平均 221ms  下降到了平均 142ms，快了 36%。
 内存：从平均 52MB   下降到了平均 17MB， 少了 67%。
-```
+# ```
 
-现在看一下官方的思路和代码
+# 现在看一下官方的思路和代码
 
-## 方法2：递归官方版
+# ## 方法2：递归官方版
 
-看了官方的思路，发现是一样的，但是官方处理的时候更加的优雅
+# 看了官方的思路，发现是一样的，但是官方处理的时候更加的优雅
 
-```python
+# ```python
 class Solution:
     def buildTree(self, preorder, inorder):
         def helper(in_left = 0, in_right = len(inorder)):
@@ -229,22 +229,22 @@ class Solution:
         pre_idx = 0
         idx_map = {val:idx for idx, val in enumerate(inorder)} 
         return helper()
-```
+# ```
 
-官方有两点我觉得很棒！
+# 官方有两点我觉得很棒！
 
-1.通过pre_idx的递增解决preorder的遍历问题，
+# 1.通过pre_idx的递增解决preorder的遍历问题，
 
-2.下面这两个结汇解决了上面`preorder_start+1+(left_end-left_start)`的情况,也就是inorder一分为二后preorder节点root的取值问题
+# 2.下面这两个结汇解决了上面`preorder_start+1+(left_end-left_start)`的情况,也就是inorder一分为二后preorder节点root的取值问题
 
-```
+# ```
 index = idx_map[root_val]
 root.right = helper(index + 1, in_right)
-```
+# ```
 
-运行结果
+# 运行结果
 
-```
+# ```
 执行用时 :48 ms, 在所有 Python3 提交中击败了98.99% 的用户
 内存消耗 :17.9 MB, 在所有 Python3 提交中击败了81.09%的用户
 
@@ -253,21 +253,21 @@ root.right = helper(index + 1, in_right)
 
 执行用时 :68 ms, 在所有 Python3 提交中击败了90.79% 的用户
 内存消耗 :17.9 MB, 在所有 Python3 提交中击败了81.09%的用户
-```
+# ```
 
-效率分析
+# 效率分析
 
-```python
+# ```python
 # 对比原算法
 时间：从平均 256ms  下降到了平均 58ms， 快了 77%。
 内存：从平均 87MB   下降到了平均 18MB， 少了 79%。
 # 对比上一次的优化
 时间：从平均 142ms  下降到了平均 58ms， 快了 59%。
 内存：从平均 17MB   上升到了平均 18MB， 多了 6%。
-```
+# ```
 
-为啥内存会多呢？因为官方创建了一个额外的字典`idx_map`用于存储inorder的信息，是我也愿意多牺牲一点内存换取速度上的飞跃。
+# 为啥内存会多呢？因为官方创建了一个额外的字典`idx_map`用于存储inorder的信息，是我也愿意多牺牲一点内存换取速度上的飞跃。
 
-欢迎来github上看更多题目的解答[力扣解题思路](https://github.com/WRAllen/LeetCode)
+# 欢迎来github上看更多题目的解答[力扣解题思路](https://github.com/WRAllen/LeetCode)
 
   

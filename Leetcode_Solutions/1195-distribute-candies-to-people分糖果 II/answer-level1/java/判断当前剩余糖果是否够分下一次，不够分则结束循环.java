@@ -1,9 +1,9 @@
-### 解题思路
-判断当前剩余糖果是否够分下一次，不够分则结束循环
+// ### 解题思路
+// 判断当前剩余糖果是否够分下一次，不够分则结束循环
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] distributeCandies(int candies, int num_people) {
         int[] ans=new int[num_people];
@@ -21,4 +21,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

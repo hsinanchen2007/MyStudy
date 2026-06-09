@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public String minNumber(int[] nums) {
         for(int i = nums.length - 1;i >= 0;i--){
@@ -42,4 +42,4 @@ class Solution {
         nums[j] = temp;
     }
 }
-```
+// ```

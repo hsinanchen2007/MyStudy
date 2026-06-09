@@ -1,9 +1,9 @@
-### 解题思路
-类型转换to_string()
+// ### 解题思路
+// 类型转换to_string()
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findNumbers(vector<int>& nums) {
@@ -20,4 +20,4 @@ public:
         return res;
     }
 };
-```
+// ```

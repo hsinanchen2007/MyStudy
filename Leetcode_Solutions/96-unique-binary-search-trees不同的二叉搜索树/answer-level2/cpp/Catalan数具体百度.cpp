@@ -1,5 +1,5 @@
-catalan数. h(0)=h(1)=1; h(n)=C(2n,n)/(n+1); h(n)=h(n-1)*(4n-2)/(n+1);
-```
+// catalan数. h(0)=h(1)=1; h(n)=C(2n,n)/(n+1); h(n)=h(n-1)*(4n-2)/(n+1);
+// ```
 class Solution {
 public:
     int numTrees(int n) {
@@ -8,4 +8,4 @@ public:
         return h;
     }
 };
-```
+// ```

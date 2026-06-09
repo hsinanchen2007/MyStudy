@@ -1,9 +1,9 @@
-### 解题思路
-使用动态规划来解决此题
+# ### 解题思路
+# 使用动态规划来解决此题
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def massage(self, nums: List[int]) -> int:
         n = len(nums)
@@ -13,4 +13,4 @@ class Solution:
             dp[i][1] = nums[i-1] + dp[i-1][0]
         return max(dp[n][0], dp[n][1])
 
-```
+# ```

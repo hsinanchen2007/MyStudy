@@ -1,4 +1,4 @@
-解题代码和思路如下
+// 解题代码和思路如下
 var lengthOfLastWord = function(s) {
 	s=s.trim()
    var ss = s.split(" ") //通过split方法把字符串转成数组

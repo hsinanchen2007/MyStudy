@@ -1,9 +1,9 @@
-### 解题思路
-存一个最小值和一个最大值用来更新。
+// ### 解题思路
+// 存一个最小值和一个最大值用来更新。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxProduct(vector<int>& nums) {
@@ -18,4 +18,4 @@ public:
         return re;
     }
 };
-```
+// ```

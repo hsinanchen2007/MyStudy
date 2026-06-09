@@ -1,12 +1,12 @@
-### 解题思路
-先判断油量和花费的大小关系
-如果油量大于等于花费，那么说明必定有一个加油站满足条件
-从某个加油站a出发，如果无法到达某个加油站b，那么起点换为加油站b（如果从a出发无法到达b的话，那么a和b之间
-的加油站都无法到达b)
+// ### 解题思路
+// 先判断油量和花费的大小关系
+// 如果油量大于等于花费，那么说明必定有一个加油站满足条件
+// 从某个加油站a出发，如果无法到达某个加油站b，那么起点换为加油站b（如果从a出发无法到达b的话，那么a和b之间
+// 的加油站都无法到达b)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int canCompleteCircuit(int* gas, int gasSize, int* cost, int costSize) {
 	int gassum = 0;
 	int costsum = 0;
@@ -40,4 +40,4 @@ int canCompleteCircuit(int* gas, int gasSize, int* cost, int costSize) {
 	}
 	return start;
 }
-```
+// ```

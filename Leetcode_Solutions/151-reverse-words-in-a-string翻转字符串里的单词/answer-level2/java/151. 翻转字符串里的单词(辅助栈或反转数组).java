@@ -1,14 +1,14 @@
-### 解题思路
-主要思路：1.去除头尾空格2.利用辅助栈先进后出来翻转，同时可以根据栈中元素是否空格来排除字符串中间一个以上的空格
-2.递归：
-2.1递归终止条件：指针走到字符串最后
-2.2递归：如果取出的字符不是空格就加到tmp字符串中，index++
-2.3如果是空格，就将tmp加入栈，index++，同时tmp重置
-3.结束循环的时候还得将最后一个tmp入栈！！！
-4.出栈完成
-### 代码
+// ### 解题思路
+// 主要思路：1.去除头尾空格2.利用辅助栈先进后出来翻转，同时可以根据栈中元素是否空格来排除字符串中间一个以上的空格
+// 2.递归：
+// 2.1递归终止条件：指针走到字符串最后
+// 2.2递归：如果取出的字符不是空格就加到tmp字符串中，index++
+// 2.3如果是空格，就将tmp加入栈，index++，同时tmp重置
+// 3.结束循环的时候还得将最后一个tmp入栈！！！
+// 4.出栈完成
+// ### 代码
 
-```java
+// ```java
 class Solution {
     String res=new String("");
     Stack<String> stack=new Stack<>();
@@ -38,9 +38,9 @@ class Solution {
         return res.trim();
     }
 }
-```
-## 简易写法
-```
+// ```
+// ## 简易写法
+// ```
 class Solution {
     String res=new String("");
     public String reverseWords(String s) {
@@ -52,4 +52,4 @@ class Solution {
         return res.trim();
     }
 }
-```
+// ```

@@ -1,13 +1,13 @@
-### 解题思路
-二叉树的动态规划
-参考打家劫舍3[valleft,numleft,booleft,maxval1,minval1]
-每个节点存储【该节点的value，以这个节点为根节点的树的节点数，是否是BTS树，以这个节点为根节点的树中最大值，以这个节点为根节点的树中最小值】
+# ### 解题思路
+# 二叉树的动态规划
+# 参考打家劫舍3[valleft,numleft,booleft,maxval1,minval1]
+# 每个节点存储【该节点的value，以这个节点为根节点的树的节点数，是否是BTS树，以这个节点为根节点的树中最大值，以这个节点为根节点的树中最小值】
 
-判断：1、左节点<根节点 2、右节点>根节点 3、左右子树都是BT树 4、左子树中最大值<根节点 5、右子树中最小值>根节点
+# 判断：1、左节点<根节点 2、右节点>根节点 3、左右子树都是BT树 4、左子树中最大值<根节点 5、右子树中最小值>根节点
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -41,4 +41,4 @@ and (valleft==-1 or maxval1<root.val) :
                 return [root.val,0,False,-1,10000]
         helper(root)
         return max(res)
-```
+# ```

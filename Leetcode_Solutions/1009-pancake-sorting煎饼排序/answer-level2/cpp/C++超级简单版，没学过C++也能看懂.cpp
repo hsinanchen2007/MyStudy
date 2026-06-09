@@ -1,9 +1,9 @@
-### 解题思路
-看注释即可，简单易懂
+// ### 解题思路
+// 看注释即可，简单易懂
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution
 {
 public:
@@ -49,5 +49,5 @@ private:
         reverse(V.begin(), V.begin() + k);
     }
 };
-```
-给自己的博客打波广告~欢迎赏光[https://mrsuncodes.github.io/](https://mrsuncodes.github.io/)
+// ```
+// 给自己的博客打波广告~欢迎赏光[https://mrsuncodes.github.io/](https://mrsuncodes.github.io/)

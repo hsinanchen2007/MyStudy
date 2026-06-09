@@ -1,20 +1,20 @@
-![jj.png](https://pic.leetcode-cn.com/6af7cb7ae6c71bf7fff3f37811d51f549721546cf921d65fb500329e7bdfddcf-jj.png)
-时间每次提交不一样，不敢自夸，我认为我方法比较好的地方是没有浪费多余的内存
-看了很多C的用例，都是预定义二维数组有一个很大的size（例如2000）往里面填值，这也是刷了几十题，觉得C不太**高级**的地方，
-然后看了一些大佬的写法，发现他们用了 ** realloc()函数**，这下就解决了我的问题，谢谢大佬，让我学到这个函数。
+// ![jj.png](https://pic.leetcode-cn.com/6af7cb7ae6c71bf7fff3f37811d51f549721546cf921d65fb500329e7bdfddcf-jj.png)
+// 时间每次提交不一样，不敢自夸，我认为我方法比较好的地方是没有浪费多余的内存
+// 看了很多C的用例，都是预定义二维数组有一个很大的size（例如2000）往里面填值，这也是刷了几十题，觉得C不太**高级**的地方，
+// 然后看了一些大佬的写法，发现他们用了 ** realloc()函数**，这下就解决了我的问题，谢谢大佬，让我学到这个函数。
 
-我的整体思想是用链队，结点内容是一个新的结构体，与树节点的区别在于加了一个成员：**层**.该节点的里面的树节点的子节点的层成员是该结点层成员+1
-```
+// 我的整体思想是用链队，结点内容是一个新的结构体，与树节点的区别在于加了一个成员：**层**.该节点的里面的树节点的子节点的层成员是该结点层成员+1
+// ```
 struct queueNode{
     struct TreeNode * x;
     int levelNum;
     struct queueNode *next;
 };
-```
-然后就是正常的和通常一样的进队、出队操作。
-函数里设置一个当前层元素总数的变量 **nowLevelSize**记录当前层的元素个数，然后换层的时候写入returnColumnSizes数组.
-也没有多设置变量，就用*returnSize来记录在哪一层，当出队的元素的 **层成员**不是当前层的时候就是要换行啦！
-```
+// ```
+// 然后就是正常的和通常一样的进队、出队操作。
+// 函数里设置一个当前层元素总数的变量 **nowLevelSize**记录当前层的元素个数，然后换层的时候写入returnColumnSizes数组.
+// 也没有多设置变量，就用*returnSize来记录在哪一层，当出队的元素的 **层成员**不是当前层的时候就是要换行啦！
+// ```
 struct queueNode{
     struct TreeNode * x;
     int levelNum;
@@ -82,4 +82,4 @@ int** levelOrder(struct TreeNode* root, int* returnSize, int** returnColumnSizes
     *(*returnColumnSizes+(*returnSize)-1)=nowLevelSize;
     return result;
 }
-```
+// ```

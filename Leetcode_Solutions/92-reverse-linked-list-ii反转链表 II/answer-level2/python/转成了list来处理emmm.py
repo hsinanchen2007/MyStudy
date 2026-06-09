@@ -1,9 +1,9 @@
-### 解题思路
-我这个小菜鸟每次都转成list来处理。。。
+# ### 解题思路
+# 我这个小菜鸟每次都转成list来处理。。。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -27,4 +27,4 @@ class Solution(object):
             head.next = hh
             head = head.next
         return root
-```
+# ```

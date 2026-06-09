@@ -1,9 +1,9 @@
-### 解题思路
-实际上只需要找到车，然后朝他的四个方向遍历即可，碰到一个非空白的格子就停止那个方向的遍历，若碰到的是p则ans++；。
+// ### 解题思路
+// 实际上只需要找到车，然后朝他的四个方向遍历即可，碰到一个非空白的格子就停止那个方向的遍历，若碰到的是p则ans++；。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numRookCaptures(char[][] board) {
  int ans = 0;
@@ -51,4 +51,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

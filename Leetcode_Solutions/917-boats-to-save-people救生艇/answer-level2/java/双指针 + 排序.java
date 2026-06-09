@@ -1,6 +1,6 @@
-基本思路就是排序，判断最重与最轻的重量之和是否小于等于limit，如果是则可以一起过去，否则重的先过去。
+// 基本思路就是排序，判断最重与最轻的重量之和是否小于等于limit，如果是则可以一起过去，否则重的先过去。
 
-```
+// ```
 class Solution {
     public int numRescueBoats(int[] people, int limit) {
         int count = 0;
@@ -14,11 +14,11 @@ class Solution {
         return count;
     }
 }
-```
-时间复杂度为`O(nlongn)`，主要用于排序。空间复杂度为`O（1）`。
+// ```
+// 时间复杂度为`O(nlongn)`，主要用于排序。空间复杂度为`O（1）`。
 
-但因为本题给的`limit`并不大，所以可以优化排序算法。定义数组`arr[limit]`,下标表示个人的体重，arr[i]表示人数。
-```
+// 但因为本题给的`limit`并不大，所以可以优化排序算法。定义数组`arr[limit]`,下标表示个人的体重，arr[i]表示人数。
+// ```
 class Solution {
     public int numRescueBoats(int[] people, int limit) {
         int lenth = people.length, num = 0;
@@ -53,8 +53,8 @@ class Solution {
         return num;
     }
 }
-```
-时间复杂度为`O(n)`,空间复杂度为`O(n)`。
+// ```
+// 时间复杂度为`O(n)`,空间复杂度为`O(n)`。
 
 
 

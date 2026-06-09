@@ -1,9 +1,9 @@
-### 解题思路
-先求全部值的和 `sum`，然后求`start -> destination`的值的总和 `sum1`(保证start小于destination),最后的结果 `min(sum1,sum-sum1)`
+// ### 解题思路
+// 先求全部值的和 `sum`，然后求`start -> destination`的值的总和 `sum1`(保证start小于destination),最后的结果 `min(sum1,sum-sum1)`
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int distanceBetweenBusStops(vector<int>& distance, int start, int destination) {
@@ -18,4 +18,4 @@ public:
         return min(sum1,sum-sum1);
     }
 };
-```
+// ```

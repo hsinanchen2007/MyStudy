@@ -1,5 +1,5 @@
-左子树是翻转后的右子树，右子树是翻转后的左子树。
-```C++ []
+// 左子树是翻转后的右子树，右子树是翻转后的左子树。
+// ```C++ []
 class Solution {
 public:
     TreeNode* invertTree(TreeNode* root) {
@@ -14,4 +14,4 @@ public:
         return root;
     }
 };
-```
+// ```

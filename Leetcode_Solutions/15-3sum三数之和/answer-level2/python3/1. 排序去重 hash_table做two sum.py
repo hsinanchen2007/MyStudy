@@ -1,11 +1,11 @@
-### 解题思路
-先排序，方便处理重复$Nlog(N)$
-threesum 固定1个数后，转换为twosum$O(N^2)$
-twosum 使用hash查找
+# ### 解题思路
+# 先排序，方便处理重复$Nlog(N)$
+# threesum 固定1个数后，转换为twosum$O(N^2)$
+# twosum 使用hash查找
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def threeSum(self, nums):
         nums.sort()
@@ -30,4 +30,4 @@ class Solution:
             hash_table[num] = i
         return ans
 
-```
+# ```

@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
         
@@ -13,4 +13,4 @@ class Solution:
                 res.append(intervals[i])
         
         return res
-```
+# ```

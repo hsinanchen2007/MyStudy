@@ -1,4 +1,4 @@
-```
+// ```
 # 单调队列
 int shortestSubarray(int* A, int ASize, int K){
     int *sum = (int *) malloc(sizeof(int) * (ASize + 10));
@@ -24,4 +24,4 @@ int shortestSubarray(int* A, int ASize, int K){
     free(sum), free(q);
     return K;
 }
-```
+// ```

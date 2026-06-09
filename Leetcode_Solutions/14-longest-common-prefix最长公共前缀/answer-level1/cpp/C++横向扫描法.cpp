@@ -1,9 +1,9 @@
-### 解题思路
-根据官方的第一个题解的思路实现的，先假设strs[0]为公共前缀，之后遍历1-strs.size()的字符串，判断是否含有prefix，如果不含有prefix，则将prefix长度减1，再次判断prefix-1是否为其子串（==0表示含有该字串），直到prefix为空，感觉官方思路很赞，另外可以通过双指针的方式实现
+// ### 解题思路
+// 根据官方的第一个题解的思路实现的，先假设strs[0]为公共前缀，之后遍历1-strs.size()的字符串，判断是否含有prefix，如果不含有prefix，则将prefix长度减1，再次判断prefix-1是否为其子串（==0表示含有该字串），直到prefix为空，感觉官方思路很赞，另外可以通过双指针的方式实现
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
    string longestCommonPrefix(vector<string>& strs) {
@@ -20,4 +20,4 @@ public:
 		return prefix;
 	}
 };
-```
+// ```

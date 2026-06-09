@@ -1,6 +1,6 @@
-思路和62一模一样，只需要增加一个条件判断，注意边上的格子，若其中存在障碍物，该边上的后续格子都无法到达。
+// 思路和62一模一样，只需要增加一个条件判断，注意边上的格子，若其中存在障碍物，该边上的后续格子都无法到达。
 
-```
+// ```
 /**
  * @param {number[][]} obstacleGrid
  * @return {number}
@@ -51,4 +51,4 @@ var uniquePathsWithObstacles = function (obstacleGrid) {
   // console.log(temp);
   return temp[n - 1][m - 1]
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-遍历数组，遇0加1遇1加2，若是以1比特结尾，最后i = len(bits)-1，否则，i = len(bits)
+# ### 解题思路
+# 遍历数组，遇0加1遇1加2，若是以1比特结尾，最后i = len(bits)-1，否则，i = len(bits)
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def isOneBitCharacter(self, bits):
         i = 0
@@ -16,4 +16,4 @@ class Solution(object):
             return False
         if i == len(bits) - 1:
             return True
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func numRookCaptures(board [][]byte) int {
 	rSlice:=make([][]int,0)
     //当有多个 车的时候，遍历出所有的车
@@ -42,4 +42,4 @@ func helpNumRookCaptures(board *[][]byte,point []int) int{
 	}
 	return count
 }
-```
+// ```

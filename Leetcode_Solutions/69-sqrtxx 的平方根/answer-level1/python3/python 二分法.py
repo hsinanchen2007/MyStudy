@@ -1,5 +1,5 @@
-python 二分法
-```
+# python 二分法
+# ```
 class Solution:
     def mySqrt(self, x: int) -> int:
         if x == 0:#取值为0的边界情况
@@ -18,4 +18,4 @@ class Solution:
                 elif mid ** 2 == x:#完全平方的情况
                     return mid
 
-```
+# ```

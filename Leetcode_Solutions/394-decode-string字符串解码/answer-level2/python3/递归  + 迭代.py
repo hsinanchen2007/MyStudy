@@ -1,10 +1,10 @@
-  ## 思路:
+#   ## 思路:
 
-思路一：递归
+# 思路一：递归
 
-我们用栈找到每一个括号`[`对应的 `]`的位置，用递归求出结果。里面有重复计算，不知道大家有木有好办法可以减少。
+# 我们用栈找到每一个括号`[`对应的 `]`的位置，用递归求出结果。里面有重复计算，不知道大家有木有好办法可以减少。
 
-```python
+# ```python
 class Solution:
     def decodeString(self, s: str) -> str:
         # 找到括号的匹配位置
@@ -33,11 +33,11 @@ class Solution:
             
 
         return helper(s, matchBracket(s))
-```
+# ```
 
-还有一种递归，也很好理解。
+# 还有一种递归，也很好理解。
 
-```python
+# ```python
 class Solution:
     def decodeString(self, s: str) -> str:
         pos = 0
@@ -62,15 +62,15 @@ class Solution:
             return word
 
         return helper()
-```
+# ```
 
 
 
-思路二：迭代
+# 思路二：迭代
 
-模拟递归过程
+# 模拟递归过程
 
-```python
+# ```python
 class Solution:
     def decodeString(self, s: str) -> str:
         stack = []
@@ -89,4 +89,4 @@ class Solution:
             else:
                 curStr += a
         return curStr
-```
+# ```

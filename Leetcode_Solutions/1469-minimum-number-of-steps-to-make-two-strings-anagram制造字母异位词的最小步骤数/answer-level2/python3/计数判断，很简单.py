@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def minSteps(self, s: str, t: str) -> int:
         from collections import Counter
@@ -11,4 +11,4 @@ class Solution:
             if i in cnt_t and cnt_s[i] > cnt_t[i]:
                 res += cnt_s[i] - cnt_t[i]
         return res
-```
+# ```

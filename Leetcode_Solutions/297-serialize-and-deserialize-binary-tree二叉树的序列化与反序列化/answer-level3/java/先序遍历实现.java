@@ -1,5 +1,5 @@
-**序列化转换为String保存与反序列化重建回二叉树均借助于二叉树的先序遍历顺序**
-```
+// **序列化转换为String保存与反序列化重建回二叉树均借助于二叉树的先序遍历顺序**
+// ```
 /**
  * Definition for a binary tree node.
  * public class TreeNode {

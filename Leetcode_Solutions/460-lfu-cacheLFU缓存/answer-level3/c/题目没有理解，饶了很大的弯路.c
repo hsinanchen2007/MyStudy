@@ -1,13 +1,13 @@
-### 解题思路
-开始理解最后访问是记录的访问节点，导致计算的不正确
+// ### 解题思路
+// 开始理解最后访问是记录的访问节点，导致计算的不正确
 
-后面使用time标识，每次get的时候time+1即可
+// 后面使用time标识，每次get的时候time+1即可
 
-代码比较简单，主要使用hash标识
+// 代码比较简单，主要使用hash标识
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #if 0
 #define PRINTFZLL printf
 #else
@@ -173,4 +173,4 @@ void lFUCacheFree(LFUCache *obj)
     free(lftCache);
     return;
 }
-```
+// ```

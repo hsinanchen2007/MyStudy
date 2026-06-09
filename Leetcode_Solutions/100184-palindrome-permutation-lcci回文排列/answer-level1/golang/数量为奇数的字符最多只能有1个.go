@@ -1,9 +1,9 @@
-### 解题思路
-数量为奇数的字符最多只能有1个
+// ### 解题思路
+// 数量为奇数的字符最多只能有1个
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func canPermutePalindrome(s string) bool {
     // 数量为奇数的字符最多只能有1个
     hashMap := make(map[rune]uint)
@@ -28,4 +28,4 @@ func canPermutePalindrome(s string) bool {
     }
     return true
 }
-```
+// ```

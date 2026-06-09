@@ -1,8 +1,8 @@
-### 解题思路
-思想是，公共前缀可以表示为前两个的公共前缀，再与第三个比，再与第四个比。。。。。。
-### 代码
+# ### 解题思路
+# 思想是，公共前缀可以表示为前两个的公共前缀，再与第三个比，再与第四个比。。。。。。
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
         if len(strs) == 0:
@@ -13,4 +13,4 @@ class Solution:
                 res = res[:-1] # 这个语法表示丢掉最后一位，我喜欢用pop
         return res
 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-如果字典枚举的多一点,时间效率更高
+# ### 解题思路
+# 如果字典枚举的多一点,时间效率更高
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # The rand7() API is already defined for you.
 # def rand7():
 # @return a random integer in the range 1 to 7
@@ -30,4 +30,4 @@ class Solution(object):
             a,b=rand7(),rand7()
             if (a,b) in dict7:
                 return dict7[(a,b)]
-```
+# ```

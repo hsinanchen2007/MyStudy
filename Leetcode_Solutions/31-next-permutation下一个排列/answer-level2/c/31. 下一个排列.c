@@ -1,12 +1,12 @@
-### 解题思路
-1）从右到左找到第一个降序数值的位置i，并在右边已遍历位置中找到第1个比它大的数值的位置j，交换这两个数；
-对数组从第i + 1个位置开始升序排列即可；
-2）如果整个数组从右到左都是升序的，则没有下一个字典序排列，直接对数组升序排列即可。
-![image.png](https://pic.leetcode-cn.com/914926a6daaf0ccd9a8038890b66c8a05ec2d07ba7b5c9b30243e94f92a5b3ad-image.png)
+// ### 解题思路
+// 1）从右到左找到第一个降序数值的位置i，并在右边已遍历位置中找到第1个比它大的数值的位置j，交换这两个数；
+// 对数组从第i + 1个位置开始升序排列即可；
+// 2）如果整个数组从右到左都是升序的，则没有下一个字典序排列，直接对数组升序排列即可。
+// ![image.png](https://pic.leetcode-cn.com/914926a6daaf0ccd9a8038890b66c8a05ec2d07ba7b5c9b30243e94f92a5b3ad-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 // 升序排列比较函数
 int Check(const void* a, const void* b)
 {
@@ -53,4 +53,4 @@ void nextPermutation(int* nums, int numsSize){
     // 整数组从右到左都是升序排列，则从左到右升序排列下
     qsort(nums, numsSize, sizeof(int), Check);
 }
-```
+// ```

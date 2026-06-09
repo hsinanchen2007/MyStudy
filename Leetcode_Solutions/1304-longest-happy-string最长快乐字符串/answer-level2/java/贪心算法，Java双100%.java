@@ -1,10 +1,10 @@
-### 解题思路
-1 优先使用剩余数最多的字符；
-2 节省较少的字符。
+// ### 解题思路
+// 1 优先使用剩余数最多的字符；
+// 2 节省较少的字符。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String longestDiverseString(int a, int b, int c) {
         // 上次插入的字符索引
@@ -40,4 +40,4 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```

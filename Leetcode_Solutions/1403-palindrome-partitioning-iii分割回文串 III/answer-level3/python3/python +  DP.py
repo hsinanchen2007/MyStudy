@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def palindromePartition(self, s: str, k: int) -> int:
         if k >= len(s): return 0
@@ -17,4 +17,4 @@ class Solution:
                     dp[i][t] = min(dp[j][t - 1] + cost[j + 1][i], dp[i][t])
         
         return dp[-1][-1]
-```
+# ```

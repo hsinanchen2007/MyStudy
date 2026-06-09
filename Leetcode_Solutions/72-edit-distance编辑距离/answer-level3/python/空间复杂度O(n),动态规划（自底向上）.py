@@ -1,5 +1,5 @@
-一、空间复杂度O(mn)
-```python []
+# 一、空间复杂度O(mn)
+# ```python []
 class Solution:
     def minDistance(self, s1,s2):
         m, n = len(s1), len(s2)
@@ -16,10 +16,10 @@ class Solution:
                     dp[i][j] = min(dp[i-1][j]+1,dp[i][j-1]+1,dp[i-1][j-1]+1)
         
         return dp[m][n]
-```
-二、空间复杂度O(n)
-![Screenshot from 2019-09-04 05-43-16.png](https://pic.leetcode-cn.com/8f6828b13efd58f422919b266e8f2871a748ec9815f3c77a1dbdcd8153c5b4a4-Screenshot%20from%202019-09-04%2005-43-16.png)
-```python []
+# ```
+# 二、空间复杂度O(n)
+# ![Screenshot from 2019-09-04 05-43-16.png](https://pic.leetcode-cn.com/8f6828b13efd58f422919b266e8f2871a748ec9815f3c77a1dbdcd8153c5b4a4-Screenshot%20from%202019-09-04%2005-43-16.png)
+# ```python []
 class Solution(object):
     def minDistance(self, s1, s2):
         m, n = len(s1), len(s2)
@@ -37,5 +37,5 @@ class Solution(object):
                     dp[j] = min(up, dp[j - 1], lt) + 1
                 lt = up
         return dp[n]
-```
+# ```
 

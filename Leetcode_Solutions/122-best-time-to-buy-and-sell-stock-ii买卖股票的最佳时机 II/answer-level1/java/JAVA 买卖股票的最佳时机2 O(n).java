@@ -1,6 +1,6 @@
-思路 ：只要遇见后一天的 价格比前一天的价格高  就将差值加入到利润里面
+// 思路 ：只要遇见后一天的 价格比前一天的价格高  就将差值加入到利润里面
 
-```
+// ```
 class Solution {
     public int maxProfit(int[] prices) {
         int n = prices.length;
@@ -16,4 +16,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

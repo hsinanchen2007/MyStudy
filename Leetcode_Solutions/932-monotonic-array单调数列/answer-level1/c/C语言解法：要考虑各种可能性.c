@@ -1,4 +1,4 @@
-```
+// ```
 bool isMonotonic(int* A, int ASize)
 {
     int i,j,n=ASize;
@@ -31,4 +31,4 @@ bool isMonotonic(int* A, int ASize)
         return true;
     }
 }
-```
+// ```

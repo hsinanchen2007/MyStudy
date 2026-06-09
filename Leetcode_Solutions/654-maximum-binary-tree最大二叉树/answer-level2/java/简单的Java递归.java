@@ -1,5 +1,5 @@
-类似于利用[105、中序和前序遍历构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)，按照此方式进行递归。
-```
+// 类似于利用[105、中序和前序遍历构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)，按照此方式进行递归。
+// ```
 class Solution {
     public TreeNode constructMaximumBinaryTree(int[] nums) {
         if(nums == null || nums.length == 0){
@@ -29,4 +29,4 @@ class Solution {
         return index;
     }
 }
-```
+// ```

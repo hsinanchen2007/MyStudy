@@ -1,10 +1,10 @@
-[Leetcode-Java(更多题解，持续更新、欢迎star)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_287_findDuplicate.java)
+// [Leetcode-Java(更多题解，持续更新、欢迎star)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_287_findDuplicate.java)
 
-![20160101111128525.png](https://pic.leetcode-cn.com/5be752c29a193e3c0cf030559612baad93865c03c53ab6f715707369a2759095-20160101111128525.png)
+// ![20160101111128525.png](https://pic.leetcode-cn.com/5be752c29a193e3c0cf030559612baad93865c03c53ab6f715707369a2759095-20160101111128525.png)
 
-> 如上图所示：两个指针同时从直线起点开始（顺时针循环），假设在x处第一次汇合，xo之间距离为x，那么快指针走过的路程为a+c+x,慢指针走过的路程为a+x，所以a+c+x=2(a+x),所以c＝a＋x，也就是SO之间的距离等于xo，所以令快指针从起点开始一次一步，慢指针从x开始，同时前进，则必会在O处相遇！
+// > 如上图所示：两个指针同时从直线起点开始（顺时针循环），假设在x处第一次汇合，xo之间距离为x，那么快指针走过的路程为a+c+x,慢指针走过的路程为a+x，所以a+c+x=2(a+x),所以c＝a＋x，也就是SO之间的距离等于xo，所以令快指针从起点开始一次一步，慢指针从x开始，同时前进，则必会在O处相遇！
 
-```java
+// ```java
     /**
      * 题意解读：
      * 1、数组只读==>不能对数组进行重排序==>排序取连续两个相同的
@@ -41,4 +41,4 @@
 
         return ptr1;
     }
-```
+// ```

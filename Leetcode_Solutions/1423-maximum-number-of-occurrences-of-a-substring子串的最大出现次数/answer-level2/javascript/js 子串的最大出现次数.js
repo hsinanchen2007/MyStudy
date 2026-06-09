@@ -1,5 +1,5 @@
-学习了一下[楼上java大佬](https://leetcode-cn.com/problems/maximum-number-of-occurrences-of-a-substring/solution/java-hashmap-by-npe_tle/)的代码 🙇‍♀️，写了一个js版本的，思路参考楼上 java HashMap
-```
+// 学习了一下[楼上java大佬](https://leetcode-cn.com/problems/maximum-number-of-occurrences-of-a-substring/solution/java-hashmap-by-npe_tle/)的代码 🙇‍♀️，写了一个js版本的，思路参考楼上 java HashMap
+// ```
 /**
  * @param {string} s
  * @param {number} maxLetters
@@ -36,4 +36,4 @@ var maxFreq = function(s, maxLetters, minSize, maxSize) {
     }
     return count
 };
-```
+// ```

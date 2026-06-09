@@ -1,19 +1,19 @@
-# 题目描述（中等难度）
+// # 题目描述（中等难度）
 
-![image.png](https://pic.leetcode-cn.com/9fae9cf2342493be239ae3f652032c1f6f0fb98fbf3900ca04dc71c8cba99aed-image.png)
+// ![image.png](https://pic.leetcode-cn.com/9fae9cf2342493be239ae3f652032c1f6f0fb98fbf3900ca04dc71c8cba99aed-image.png)
 
-输入一个树，判断该树是否是合法二分查找树，[95](<https://leetcode.wang/leetCode-95-Unique-Binary-Search-TreesII.html>)题做过生成二分查找树。二分查找树定义如下：
+// 输入一个树，判断该树是否是合法二分查找树，[95](<https://leetcode.wang/leetCode-95-Unique-Binary-Search-TreesII.html>)题做过生成二分查找树。二分查找树定义如下：
 
-> 1. 若任意节点的左子树不空，则左子树上所有节点的值均小于它的根节点的值；
-> 2. 若任意节点的右子树不空，则右子树上所有节点的值均大于它的根节点的值；
-> 3. 任意节点的左、右子树也分别为二叉查找树；
-> 4. 没有键值相等的节点。
+// > 1. 若任意节点的左子树不空，则左子树上所有节点的值均小于它的根节点的值；
+// > 2. 若任意节点的右子树不空，则右子树上所有节点的值均大于它的根节点的值；
+// > 3. 任意节点的左、右子树也分别为二叉查找树；
+// > 4. 没有键值相等的节点。
 
-# 解法一
+// # 解法一
 
-开始的时候以为可以很简单的用递归写出来。想法是，左子树是合法二分查找树，右子树是合法二分查找树，并且根节点大于左孩子，小于右孩子，那么当前树就是合法二分查找树。代码如下：
+// 开始的时候以为可以很简单的用递归写出来。想法是，左子树是合法二分查找树，右子树是合法二分查找树，并且根节点大于左孩子，小于右孩子，那么当前树就是合法二分查找树。代码如下：
 
-```java
+// ```java
 public boolean isValidBST(TreeNode root) {
     if (root == null) {
         return true;
@@ -33,21 +33,21 @@ public boolean isValidBST(TreeNode root) {
     }
     return rightVaild;
 }
-```
+// ```
 
-当然，这个解法没有通过。对于下面的解，结果利用上边的解法是错误的。
+// 当然，这个解法没有通过。对于下面的解，结果利用上边的解法是错误的。
 
-```java
+// ```java
      10
     /  \
    5   15
       /  \
      6   20
-```
+// ```
 
-虽然满足左子树是合法二分查找树，右子树是合法二分查找树，并且根节点大于左孩子，小于右孩子，但这个树不是合法的二分查找树。因为右子树中的 6 小于当前根节点 10。所以我们不应该判断「根节点大于左孩子，小于右孩子」，而是判断「根节点大于左子树中最大的数，小于右子树中最小的数」。
+// 虽然满足左子树是合法二分查找树，右子树是合法二分查找树，并且根节点大于左孩子，小于右孩子，但这个树不是合法的二分查找树。因为右子树中的 6 小于当前根节点 10。所以我们不应该判断「根节点大于左孩子，小于右孩子」，而是判断「根节点大于左子树中最大的数，小于右子树中最小的数」。
 
-```java
+// ```java
 public boolean isValidBST(TreeNode root) {
     if (root == null || root.left == null && root.right == null) {
         return true;
@@ -101,19 +101,19 @@ private int getMaxOfBST(TreeNode root) {
     }
     return max;
 }
-```
+// ```
 
-# 解法二
+// # 解法二
 
-来利用另一种思路，参考[官方题解](<https://leetcode.com/problems/validate-binary-search-tree/solution/>)。
+// 来利用另一种思路，参考[官方题解](<https://leetcode.com/problems/validate-binary-search-tree/solution/>)。
 
-解法一中，我们是判断根节点是否合法，找到了左子树中最大的数，右子树中最小的数。 由左子树和右子树决定当前根节点是否合法。
+// 解法一中，我们是判断根节点是否合法，找到了左子树中最大的数，右子树中最小的数。 由左子树和右子树决定当前根节点是否合法。
 
-但如果正常的来讲，明明先有的根节点，按理说根节点是任何数都行，而不是由左子树和右子树限定。相反，根节点反而决定了左孩子和右孩子的合法取值范围。
+// 但如果正常的来讲，明明先有的根节点，按理说根节点是任何数都行，而不是由左子树和右子树限定。相反，根节点反而决定了左孩子和右孩子的合法取值范围。
 
-所以，我们可以从根节点进行 DFS，然后计算每个节点应该的取值范围，如果当前节点不符合就返回 false。
+// 所以，我们可以从根节点进行 DFS，然后计算每个节点应该的取值范围，如果当前节点不符合就返回 false。
 
-```java
+// ```java
       10
     /    \
    5     15
@@ -157,15 +157,15 @@ private int getMaxOfBST(TreeNode root) {
 3(-inf,5)  6(5,10)   7（10,15）   
                
             
-```
+// ```
 
-可以观察到，左孩子的范围是 （父结点左边界，父节点的值），右孩子的范围是（父节点的值，父节点的右边界）。
+// 可以观察到，左孩子的范围是 （父结点左边界，父节点的值），右孩子的范围是（父节点的值，父节点的右边界）。
 
-还有个问题，java 里边没有提供负无穷和正无穷，用什么数来表示呢？
+// 还有个问题，java 里边没有提供负无穷和正无穷，用什么数来表示呢？
 
-方案一，假设我们的题目的数值都是 Integer 范围的，那么我们用不在 Integer 范围的数字来表示负无穷和正无穷。用 long 去存储。
+// 方案一，假设我们的题目的数值都是 Integer 范围的，那么我们用不在 Integer 范围的数字来表示负无穷和正无穷。用 long 去存储。
 
-```java
+// ```java
 public boolean isValidBST(TreeNode root) {
     long maxValue = (long)Integer.MAX_VALUE + 1;
     long minValue = (long)Integer.MIN_VALUE - 1;
@@ -184,13 +184,13 @@ private boolean getAns(TreeNode node, long minVal, long maxVal) {
     }
     return getAns(node.left, minVal, node.val) && getAns(node.right, node.val, maxVal);
 }
-```
+// ```
 
 
 
-方案二：传入 Integer 对象，然后 null 表示负无穷和正无穷。然后利用 JAVA 的自动装箱拆箱，数值的比较可以直接用不等号。
+// 方案二：传入 Integer 对象，然后 null 表示负无穷和正无穷。然后利用 JAVA 的自动装箱拆箱，数值的比较可以直接用不等号。
 
-```java
+// ```java
 public boolean isValidBST(TreeNode root) {
     return getAns(root, null, null);
 }
@@ -207,12 +207,12 @@ private boolean getAns(TreeNode node, Integer minValue, Integer maxValue) {
     }
     return getAns(node.left, minValue, node.val) && getAns(node.right, node.val, maxValue);
 }
-```
-# 解法三 DFS BFS
+// ```
+// # 解法三 DFS BFS
 
-解法二其实就是树的 DFS，也就是二叉树的先序遍历，然后在遍历过程中，判断当前的值是是否在区间中。所以我们可以用栈来模拟递归过程。
+// 解法二其实就是树的 DFS，也就是二叉树的先序遍历，然后在遍历过程中，判断当前的值是是否在区间中。所以我们可以用栈来模拟递归过程。
 
-```java
+// ```java
 public boolean isValidBST(TreeNode root) {
     if (root == null || root.left == null && root.right == null) {
         return true;
@@ -261,11 +261,11 @@ public boolean isValidBST(TreeNode root) {
     }
     return true;
 }
-```
+// ```
 
-上边的 DFS 可以看出来一个缺点，就是我们判断完当前元素后并没有出栈，后续还会回来得到右孩子后才会出栈。所以其实我们可以用 BFS，利用一个队列，一层一层的遍历，遍历完一个就删除一个。
+// 上边的 DFS 可以看出来一个缺点，就是我们判断完当前元素后并没有出栈，后续还会回来得到右孩子后才会出栈。所以其实我们可以用 BFS，利用一个队列，一层一层的遍历，遍历完一个就删除一个。
 
-```java
+// ```java
 public boolean isValidBST(TreeNode root) {
     if (root == null || root.left == null && root.right == null) {
         return true;
@@ -305,23 +305,23 @@ public boolean isValidBST(TreeNode root) {
     }
     return true;
 }
-```
+// ```
 
-# 解法四 中序遍历
+// # 解法四 中序遍历
 
-参考[这里](<https://leetcode.com/problems/validate-binary-search-tree/discuss/32112/Learn-one-iterative-inorder-traversal-apply-it-to-multiple-tree-questions-(Java-Solution)>)。
+// 参考[这里](<https://leetcode.com/problems/validate-binary-search-tree/discuss/32112/Learn-one-iterative-inorder-traversal-apply-it-to-multiple-tree-questions-(Java-Solution)>)。
 
-解法三中我们用了先序遍历 和 BFS，现在来考虑中序遍历。中序遍历在 [94](<https://leetcode.wang/leetCode-94-Binary-Tree-Inorder-Traversal.html>) 题中已经考虑过了。那么中序遍历在这里有什么好处呢？
+// 解法三中我们用了先序遍历 和 BFS，现在来考虑中序遍历。中序遍历在 [94](<https://leetcode.wang/leetCode-94-Binary-Tree-Inorder-Traversal.html>) 题中已经考虑过了。那么中序遍历在这里有什么好处呢？
 
-中序遍历顺序会是左孩子，根节点，右孩子。二分查找树的性质，左孩子小于根节点，根节点小于右孩子。
+// 中序遍历顺序会是左孩子，根节点，右孩子。二分查找树的性质，左孩子小于根节点，根节点小于右孩子。
 
-是的，如果我们将中序遍历的结果输出，那么将会到的一个从小到大排列的序列。
+// 是的，如果我们将中序遍历的结果输出，那么将会到的一个从小到大排列的序列。
 
-所以我们只需要进行一次中序遍历，将遍历结果保存，然后判断该数组是否是从小到大排列的即可。
+// 所以我们只需要进行一次中序遍历，将遍历结果保存，然后判断该数组是否是从小到大排列的即可。
 
-更近一步，由于我们只需要临近的两个数的相对关系，所以我们只需要在遍历过程中，把当前遍历的结果和上一个结果比较即可。
+// 更近一步，由于我们只需要临近的两个数的相对关系，所以我们只需要在遍历过程中，把当前遍历的结果和上一个结果比较即可。
 
-```java
+// ```java
 public boolean isValidBST(TreeNode root) {
     if (root == null) return true;
     Stack<TreeNode> stack = new Stack<>();
@@ -338,10 +338,10 @@ public boolean isValidBST(TreeNode root) {
     }
     return true;
 }
-```
+// ```
 
-# 总
+// # 总
 
-这几天都是二叉树的相关题，主要是对前序遍历，中序遍历的理解，以及 DFS，如果再用好递归，利用栈模拟递归，题目就很好解了。
+// 这几天都是二叉树的相关题，主要是对前序遍历，中序遍历的理解，以及 DFS，如果再用好递归，利用栈模拟递归，题目就很好解了。
 
-之前自己在博客总结的，更多题解可以在原地址 [https://leetcode.wang](https://leetcode.wang)。
+// 之前自己在博客总结的，更多题解可以在原地址 [https://leetcode.wang](https://leetcode.wang)。

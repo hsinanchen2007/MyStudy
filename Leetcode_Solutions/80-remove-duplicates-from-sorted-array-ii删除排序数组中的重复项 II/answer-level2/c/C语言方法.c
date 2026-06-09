@@ -1,9 +1,9 @@
-### 解题思路
-通过遍历整个数组，对重复出现的元素进行限制，出现次数不得超过两次，用old_num来保存数组中的不同元素
+// ### 解题思路
+// 通过遍历整个数组，对重复出现的元素进行限制，出现次数不得超过两次，用old_num来保存数组中的不同元素
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int removeDuplicates(int* nums, int numsSize){
     if(numsSize==0) return 0;
     if(numsSize==1) return 1;
@@ -31,4 +31,4 @@ int removeDuplicates(int* nums, int numsSize){
     }
     return k;
 }
-```
+// ```

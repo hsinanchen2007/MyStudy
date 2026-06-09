@@ -1,6 +1,6 @@
-![WX20191202-234531@2x.png](https://pic.leetcode-cn.com/2870b65167e8d0a63c3fd22cd1c6c6c75dec5191ac032c44752f365351e8d9e7-WX20191202-234531@2x.png)
+// ![WX20191202-234531@2x.png](https://pic.leetcode-cn.com/2870b65167e8d0a63c3fd22cd1c6c6c75dec5191ac032c44752f365351e8d9e7-WX20191202-234531@2x.png)
 
-```
+// ```
 public static void rotate(int[][] matrix) {
     /*矩阵宽*/
     int x = matrix.length;
@@ -24,4 +24,4 @@ public static void rotate(int[][] matrix) {
     }
     return copy;
   }
-```
+// ```

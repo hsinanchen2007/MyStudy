@@ -1,11 +1,11 @@
-### 解题思路
-使用map数据结构直接可以对应kv搜索
-再遍历使用includes判断即可
-![image.png](https://pic.leetcode-cn.com/1e06db46957f188736cf7f0a93b866f824638e9f16ad84c4e96342515ec554bc-image.png)
+// ### 解题思路
+// 使用map数据结构直接可以对应kv搜索
+// 再遍历使用includes判断即可
+// ![image.png](https://pic.leetcode-cn.com/1e06db46957f188736cf7f0a93b866f824638e9f16ad84c4e96342515ec554bc-image.png)
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} num
  * @param {string[]} words
@@ -37,4 +37,4 @@ var getValidT9Words = function(num, words) {
     })
     return result
 };
-```
+// ```

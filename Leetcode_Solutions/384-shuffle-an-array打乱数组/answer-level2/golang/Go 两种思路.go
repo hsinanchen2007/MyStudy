@@ -1,9 +1,9 @@
-思路一：直接调用库函数打乱数组顺序。
-```
+// 思路一：直接调用库函数打乱数组顺序。
+// ```
 执行用时 :96 ms, 在所有 Go 提交中击败了82.98%的用户
 内存消耗 :9.4 MB, 在所有 Go 提交中击败了23.08%的用户
-```
-```Go []
+// ```
+// ```Go []
 type Solution struct {
 	nums []int
 }
@@ -26,14 +26,14 @@ func (this *Solution) Shuffle() []int {
 	})
 	return nums
 }
-```
+// ```
 
-思路二：创建新数组，循环从原数组中随机抽取元素填入新数组，并将已抽取的元素从原数组中删除。
-```
+// 思路二：创建新数组，循环从原数组中随机抽取元素填入新数组，并将已抽取的元素从原数组中删除。
+// ```
 执行用时 :84 ms, 在所有 Go 提交中击败了93.62%的用户
 内存消耗 :10.6 MB, 在所有 Go 提交中击败了7.69%的用户
-```
-```Go []
+// ```
+// ```Go []
 /** Returns a random shuffling of the array. */
 func (this *Solution) Shuffle() []int {
 	nums := make([]int, len(this.nums))
@@ -46,5 +46,5 @@ func (this *Solution) Shuffle() []int {
 	}
 	return nums
 }
-```
-[LeetCodeByGo: 更多LeetCode题库Go语言题解](https://github.com/mrandmrsbenben/LeetCodeByGo)
+// ```
+// [LeetCodeByGo: 更多LeetCode题库Go语言题解](https://github.com/mrandmrsbenben/LeetCodeByGo)

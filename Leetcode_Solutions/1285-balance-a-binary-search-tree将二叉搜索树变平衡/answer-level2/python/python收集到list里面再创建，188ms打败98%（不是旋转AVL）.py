@@ -1,4 +1,4 @@
-```
+# ```
 def collect(root, result):
     if root is not None:
         collect(root.left, result)
@@ -27,6 +27,6 @@ class Solution(object):
         result = []
         collect(root, result)
         return bulid(result, 0, len(result))
-```
-AVL手撕好像太累了（- -..）
-ps:左闭右开表示区间，真香。
+# ```
+# AVL手撕好像太累了（- -..）
+# ps:左闭右开表示区间，真香。

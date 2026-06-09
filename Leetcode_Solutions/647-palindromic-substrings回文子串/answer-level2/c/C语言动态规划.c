@@ -1,14 +1,14 @@
-### 解题思路
-动态规划
-状态关系：dp[start][end] : 从起始到结束位置的回文字符个数
-转移方程：dp[start][end] = dp[start + 1][end - 1] // 注意这里需要判断前一个的状态
-初始状态：
-dp[start][end] = 1 start == end // 1个字符
-dp[start][end] = 2 end - start == 2 // 两个字符
+// ### 解题思路
+// 动态规划
+// 状态关系：dp[start][end] : 从起始到结束位置的回文字符个数
+// 转移方程：dp[start][end] = dp[start + 1][end - 1] // 注意这里需要判断前一个的状态
+// 初始状态：
+// dp[start][end] = 1 start == end // 1个字符
+// dp[start][end] = 2 end - start == 2 // 两个字符
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAXLEN 1000
 #define PRINTF // printf
 int countSubstrings(char * s){
@@ -42,4 +42,4 @@ int countSubstrings(char * s){
 END:
     return iRetTot;
 }
-```
+// ```

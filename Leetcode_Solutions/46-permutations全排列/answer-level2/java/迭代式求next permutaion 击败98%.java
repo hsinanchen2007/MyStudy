@@ -1,7 +1,7 @@
-可以参考Leetcode 31 next permutation官方题解。
-使用迭代的的方法求字典顺序的下一个排列。
+// 可以参考Leetcode 31 next permutation官方题解。
+// 使用迭代的的方法求字典顺序的下一个排列。
 
-```
+// ```
 class Solution {
         
     public List<List<Integer>> permute(int[] nums) {
@@ -69,4 +69,4 @@ class Solution {
     
 }
 
-```
+// ```

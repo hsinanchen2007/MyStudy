@@ -1,4 +1,4 @@
-```
+// ```
 func isConvex(points [][]int) bool {
 	n, p := len(points), 0
 	for i := 0; i < n; i++ {
@@ -16,4 +16,4 @@ func isConvex(points [][]int) bool {
 	}
 	return true
 }
-```
+// ```

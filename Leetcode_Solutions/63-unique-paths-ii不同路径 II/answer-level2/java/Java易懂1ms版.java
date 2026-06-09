@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {
         int m = obstacleGrid.length;
@@ -21,4 +21,4 @@ class Solution {
         return res[m-1][n-1];
     }
 }
-```
+// ```

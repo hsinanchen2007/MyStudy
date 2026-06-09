@@ -1,6 +1,6 @@
 
 
-```java
+// ```java
 class Solution {
     public int numSquares(int n) {
         int res[] = new int[n+1];
@@ -17,4 +17,4 @@ class Solution {
         return res[n];
     }
 }
-```
+// ```

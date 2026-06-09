@@ -1,6 +1,6 @@
-具体[见此](https://newdee.gitbook.io/leetcode/leetcode-index/894.all_possible_full_binary_trees)
+// 具体[见此](https://newdee.gitbook.io/leetcode/leetcode-index/894.all_possible_full_binary_trees)
 
-```
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -45,7 +45,7 @@ public:
         return allPath[N/2];
     }
 };
-```
+// ```
 
-> 执行用时 :132 ms, 在所有 C++ 提交中击败了96.42%的用户                                                                                                                                                                                                   
- 内存消耗 :20.8 MB, 在所有 C++ 提交中击败了90.36%的用户
+// > 执行用时 :132 ms, 在所有 C++ 提交中击败了96.42%的用户                                                                                                                                                                                                   
+//  内存消耗 :20.8 MB, 在所有 C++ 提交中击败了90.36%的用户

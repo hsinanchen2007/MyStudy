@@ -1,13 +1,13 @@
-dp[n][2]保存每个位置可以得到的最大和最小的数值
+// dp[n][2]保存每个位置可以得到的最大和最小的数值
 
-每个位置上的最大值
-dp[i+1][0]=max(dp[i][0]*nums[i],dp[i][1]*nums[i],nums[i])
-最小值类似
+// 每个位置上的最大值
+// dp[i+1][0]=max(dp[i][0]*nums[i],dp[i][1]*nums[i],nums[i])
+// 最小值类似
 
-res保存过程中得到的最大的乘积
+// res保存过程中得到的最大的乘积
 
-代码如下：
-```
+// 代码如下：
+// ```
 public:
     int maxProduct(vector<int> &nums) {
         int n = nums.size();
@@ -29,7 +29,7 @@ public:
         }
         return res;
     }
-```
+// ```
 
-执行用时4ms
-![image.png](https://pic.leetcode-cn.com/23841a70ecd5f3ea3e172312d52e7da586dcd5f7ce8770d198b298618073b122-image.png)
+// 执行用时4ms
+// ![image.png](https://pic.leetcode-cn.com/23841a70ecd5f3ea3e172312d52e7da586dcd5f7ce8770d198b298618073b122-image.png)

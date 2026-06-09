@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-1、二分查找的编写
-2、想明白就简单了
-3、主要是查找的选择条件
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 1、二分查找的编写
+// 2、想明白就简单了
+// 3、主要是查找的选择条件
+// ### 代码
 
-```golang
+// ```golang
 /** 
  * Forward declaration of isBadVersion API.
  * @param   version   your guess about first bad version
@@ -40,4 +40,4 @@ func binarySearch(n int) int {
     }
     return 0
 }
-```
+// ```

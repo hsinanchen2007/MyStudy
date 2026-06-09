@@ -1,10 +1,10 @@
-***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，持续更新。***
+// ***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，持续更新。***
 
-思路：
-BST的中序遍历结果为升序，可以在遍历时比较当前元素是否是现有元素的最大值，否则返回false。也可以获取前一个元素，BST的当前元素一定要大于前一个元素。
+// 思路：
+// BST的中序遍历结果为升序，可以在遍历时比较当前元素是否是现有元素的最大值，否则返回false。也可以获取前一个元素，BST的当前元素一定要大于前一个元素。
 
-1.递归：
-```
+// 1.递归：
+// ```
 long max = Long.MIN_VALUE;
 
 public boolean isValidBST1(TreeNode root) {
@@ -19,10 +19,10 @@ public boolean isValidBST1(TreeNode root) {
     boolean flagRight = isValidBST1(root.right);
     return flagLeft && flagRight;
 }
-```
+// ```
 
-2.迭代
-```
+// 2.迭代
+// ```
 public boolean isValidBST2(TreeNode root) {
     if (root == null) return true;
     Stack<TreeNode> stack = new Stack<>();
@@ -42,5 +42,5 @@ public boolean isValidBST2(TreeNode root) {
     }
     return true;
 }
-```
+// ```
 

@@ -1,7 +1,7 @@
-- 动态规划
-- 以0开头相当于 dp[n-]
+// - 动态规划
+// - 以0开头相当于 dp[n-]
 
-``` golang
+// ``` golang
 func countNumbersWithUniqueDigits(n int) int {
     return method_logic(n)
 }
@@ -41,4 +41,4 @@ func math_a(a, b int) int {
     }
     return cnt
 } 
-```
+// ```

@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def compute(self, left, right, computor):
         if computor == '+':
@@ -22,4 +22,4 @@ class Solution:
                         res.append(self.compute(l, r, input[i]))
         if len(res) == 0: return [int(input)]
         return res
-```
+# ```

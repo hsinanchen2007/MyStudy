@@ -1,5 +1,5 @@
-利用双指针，直接在原字符串上进行操作。
-```c
+// 利用双指针，直接在原字符串上进行操作。
+// ```c
 char * removeDuplicates(char * S){
     int i=1,stackIndex=0;
     while(S[i]){
@@ -15,4 +15,4 @@ char * removeDuplicates(char * S){
     S[stackIndex+1]=0;
     return S;
 }
-```
+// ```

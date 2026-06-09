@@ -1,6 +1,6 @@
-找出通项公式，递归就完事了
+// 找出通项公式，递归就完事了
 
-```
+// ```
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -26,4 +26,4 @@ var removeLeafNodes = function(root, target) {
     }
     return fn(root)
 };
-```
+// ```

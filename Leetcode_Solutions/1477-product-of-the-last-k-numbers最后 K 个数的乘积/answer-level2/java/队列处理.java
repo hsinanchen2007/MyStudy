@@ -1,9 +1,9 @@
-### 解题思路
-arrayaylist
+// ### 解题思路
+// arrayaylist
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class ProductOfNumbers {
  
    List List;
@@ -39,4 +39,4 @@ class ProductOfNumbers {
  * obj.add(num);
  * int param_2 = obj.getProduct(k);
  */
-```
+// ```

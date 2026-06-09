@@ -1,4 +1,4 @@
-```C
+// ```C
 double* sampleStats(int* count, int countSize, int* returnSize){
     double minv=INT_MAX,maxv=INT_MIN,sum=0,maxcnt=0,most=0,mid,mid1,mid2;
     int n=countSize,tmp=0,cnt=0;
@@ -22,4 +22,4 @@ double* sampleStats(int* count, int countSize, int* returnSize){
     ans[0]=minv,ans[1]=maxv,ans[2]=sum/cnt,ans[3]=mid,ans[4]=most;
     return ans;
 }
-```
+// ```

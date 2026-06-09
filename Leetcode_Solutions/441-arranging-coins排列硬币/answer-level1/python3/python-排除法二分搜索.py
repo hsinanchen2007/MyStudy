@@ -1,9 +1,9 @@
-### 解题思路
-二分搜索，排除法。
+# ### 解题思路
+# 二分搜索，排除法。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def arrangeCoins(self, n: int) -> int:
         # 查找最大的 k 使得 (k+1)*k/2 <= n
@@ -18,4 +18,4 @@ class Solution:
                 left = mid
         return left
                 
-```
+# ```

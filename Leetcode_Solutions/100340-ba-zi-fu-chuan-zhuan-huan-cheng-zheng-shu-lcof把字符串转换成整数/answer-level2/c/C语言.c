@@ -1,10 +1,10 @@
-### 解题思路
-见招拆招，照要求做判断即可。
-筛选条件加来加去被我搞得挺丑陋的。
+// ### 解题思路
+// 见招拆招，照要求做判断即可。
+// 筛选条件加来加去被我搞得挺丑陋的。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int strToInt(char* str){
     int i = 0, syn = 1, j = 0, flag = 0 ,flag2 = 0;//flag判断字符串中的0是否为无效0；flag2判断数字是否已经开始；
     long long int num = 0;//用long long int储存可能越界的数据
@@ -64,4 +64,4 @@ int strToInt(char* str){
     }
     return num * syn;
 }
-```
+// ```

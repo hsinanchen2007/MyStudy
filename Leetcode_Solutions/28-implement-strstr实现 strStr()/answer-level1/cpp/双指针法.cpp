@@ -1,9 +1,9 @@
-### 解题思路
-用两个指针来指向needle和haystack，如果匹配则两个指针都指向下一个，如果不匹配，则将needle指针变回指向第一个字符，haystack指针指向上一次第一个匹配字符的下一个字符。
+// ### 解题思路
+// 用两个指针来指向needle和haystack，如果匹配则两个指针都指向下一个，如果不匹配，则将needle指针变回指向第一个字符，haystack指针指向上一次第一个匹配字符的下一个字符。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int strStr(string haystack, string needle) {
@@ -32,4 +32,4 @@ public:
         return -1;
     }
 };
-```
+// ```

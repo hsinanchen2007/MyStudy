@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool canConstruct(string ransomNote, string magazine) {
@@ -22,5 +22,5 @@ public:
         return true;
     }
 };
-```
-简单明了
+// ```
+// 简单明了

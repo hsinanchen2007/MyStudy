@@ -1,9 +1,9 @@
-### 解题思路
-关键点：每次计算前先减 1
+// ### 解题思路
+// 关键点：每次计算前先减 1
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {string}
@@ -23,4 +23,4 @@ var convertToTitle = function(n) {
     }
     return result;
 };
-```
+// ```

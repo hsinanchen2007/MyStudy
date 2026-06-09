@@ -1,6 +1,6 @@
 
 
-```java
+// ```java
 class Solution {
     public TreeNode buildTree(int[] preorder, int[] inorder) {
         if(preorder == null || preorder.length==0)
@@ -32,4 +32,4 @@ class Solution {
         return root;
     }
 }
-```
+// ```

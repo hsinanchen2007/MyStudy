@@ -1,5 +1,5 @@
-**双指针法**
-```
+// **双指针法**
+// ```
 void moveZeroes(int* nums, int numsSize){
     if(!nums || numsSize == 0)
         return;
@@ -13,5 +13,5 @@ void moveZeroes(int* nums, int numsSize){
         nums[i] = 0;
     }
 }
-```
-官方给出的优化办法果然省时：`swap(nums[j++], nums[i]);`,这样就不用了再给后面一个一个写0了。
+// ```
+// 官方给出的优化办法果然省时：`swap(nums[j++], nums[i]);`,这样就不用了再给后面一个一个写0了。

@@ -1,5 +1,5 @@
-# 解1
-```
+// # 解1
+// ```
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -53,10 +53,10 @@ int** combinationSum(int* candidates, int candidatesSize, int target, int* retur
     return reval;
 }
 
-```
+// ```
 
-# 解2
-```
+// # 解2
+// ```
 // #include <stdlib.h>
 /**
  * Return an array of arrays of size *returnSize.
@@ -120,5 +120,5 @@ int** combinationSum(int* candidates, int candidatesSize, int target, int* retur
     return reval;
 }
 
-```
+// ```
 

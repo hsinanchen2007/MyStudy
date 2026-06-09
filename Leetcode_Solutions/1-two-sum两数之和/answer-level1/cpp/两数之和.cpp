@@ -1,8 +1,8 @@
-### 解题思路
-因为看了不可重复，所以考虑了一下元素剔除，效率不高。继续学习！！
-### 代码
+// ### 解题思路
+// 因为看了不可重复，所以考虑了一下元素剔除，效率不高。继续学习！！
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
@@ -24,4 +24,4 @@ public:
         return vecRet;
     }
 };
-```
+// ```

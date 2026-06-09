@@ -1,10 +1,10 @@
-### 解题思路
-1、先对list排序
-2、遍历一遍新的list，记录每一个出现的数字的个数，遇到新的数字count=1，count>int(len(nums)/2)时输出
+# ### 解题思路
+# 1、先对list排序
+# 2、遍历一遍新的list，记录每一个出现的数字的个数，遇到新的数字count=1，count>int(len(nums)/2)时输出
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
         sort_nums = sorted(nums)
@@ -16,4 +16,4 @@ class Solution:
             if count > int(len(sort_nums) / 2):
                 return sort_nums[i]
             
-```
+# ```

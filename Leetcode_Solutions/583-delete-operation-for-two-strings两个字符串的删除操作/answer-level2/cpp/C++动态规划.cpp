@@ -1,9 +1,9 @@
-C++的动态规划版本，这里只能删除，所以状态转移方程为：
-fstats[i][j] = min(fstat[i - 1][j], fstatus[i][j - 1]) + 1
-当word1[i - 1] == word2[j - 1]时，状态转移方程为：
-fstatus[i][j] = fstatus[i - 1][j - 1]
-代码如下所示，挺直白的代码。
-```
+// C++的动态规划版本，这里只能删除，所以状态转移方程为：
+// fstats[i][j] = min(fstat[i - 1][j], fstatus[i][j - 1]) + 1
+// 当word1[i - 1] == word2[j - 1]时，状态转移方程为：
+// fstatus[i][j] = fstatus[i - 1][j - 1]
+// 代码如下所示，挺直白的代码。
+// ```
 class Solution {
 public:
     int minDistance(string word1, string word2) {
@@ -31,4 +31,4 @@ public:
         return fstatus.back().back();
     }
 };
-```
+// ```

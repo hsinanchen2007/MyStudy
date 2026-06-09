@@ -1,10 +1,10 @@
-### 解题思路
-对leetcode官方代码 加了自己注释
-便于理解～
+// ### 解题思路
+// 对leetcode官方代码 加了自己注释
+// 便于理解～
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int canCompleteCircuit(int[] gas, int[] cost) {
         //贪心算法
@@ -40,4 +40,4 @@ class Solution {
         return total_tank >= 0 ? starting_station : -1;
     }
 }
-```
+// ```

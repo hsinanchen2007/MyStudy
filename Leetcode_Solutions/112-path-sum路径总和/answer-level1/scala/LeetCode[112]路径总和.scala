@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
     def hasPathSum(root: TreeNode, sum: Int): Boolean = {
       if (root == null) return false
@@ -28,4 +28,4 @@ object Solution {
 }
 //leetcode submit region end(Prohibit modification and deletion)
 
-```
+// ```

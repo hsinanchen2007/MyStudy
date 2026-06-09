@@ -1,9 +1,9 @@
-### 解题思路
-算法问题
+// ### 解题思路
+// 算法问题
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:int arrangeCoins(int n)
 {
@@ -18,4 +18,4 @@ public:int arrangeCoins(int n)
     return i;
 }
 };
-```
+// ```

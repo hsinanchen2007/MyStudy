@@ -1,10 +1,10 @@
-### 解题思路
-因为是有序数组，遍历到中位数，比对两数组中对应位置的大小取值；
-![微信图片_20200324121313.png](https://pic.leetcode-cn.com/e12699574bf95bb4cedbb254cfeb55e5ce4d7fd0bde6553d7633a61650a31209-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200324121313.png)
+// ### 解题思路
+// 因为是有序数组，遍历到中位数，比对两数组中对应位置的大小取值；
+// ![微信图片_20200324121313.png](https://pic.leetcode-cn.com/e12699574bf95bb4cedbb254cfeb55e5ce4d7fd0bde6553d7633a61650a31209-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200324121313.png)
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public double FindMedianSortedArrays(int[] nums1, int[] nums2) {
 
@@ -103,4 +103,4 @@ public class Solution {
             return (result + result2) / Convert.ToDouble(2);
     }
 }
-```
+// ```

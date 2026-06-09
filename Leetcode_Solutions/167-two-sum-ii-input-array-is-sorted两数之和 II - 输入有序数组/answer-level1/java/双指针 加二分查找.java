@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-双指针的 起始位置为 0， length-1
-由于数组是有序的，可以用二分查找 缩小右指针的范围。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 双指针的 起始位置为 0， length-1
+// 由于数组是有序的，可以用二分查找 缩小右指针的范围。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] twoSum(int[] numbers, int target) {
         int len = numbers.length;
@@ -39,4 +39,4 @@ class Solution {
         return left;
     }
 }
-```
+// ```

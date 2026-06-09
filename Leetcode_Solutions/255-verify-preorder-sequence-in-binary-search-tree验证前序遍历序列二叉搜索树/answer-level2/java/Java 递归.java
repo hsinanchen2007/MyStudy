@@ -1,7 +1,7 @@
-思路：
-BST的左子树所有节点都小于根节点，右子树的所有节点都大于根节点，所以遍历数组，找到第一个大于根节点的元素就是右子树的根节点，右子树所有节点都要大于上一个根节点，递归处理。递归时传入上一个根节点和此根节点之后的元素范围。
+// 思路：
+// BST的左子树所有节点都小于根节点，右子树的所有节点都大于根节点，所以遍历数组，找到第一个大于根节点的元素就是右子树的根节点，右子树所有节点都要大于上一个根节点，递归处理。递归时传入上一个根节点和此根节点之后的元素范围。
 
-```
+// ```
  public boolean verifyPreorder(int[] preorder) {
     if (preorder.length == 0) return true;
     return helper(preorder, 1, preorder.length - 1, preorder[0], false);
@@ -23,4 +23,4 @@ private boolean helper(int[] preorder, int start, int end, int root, boolean fin
     }
     return helper(preorder, start+1, rightRootIndex-1, preorder[start], false) && helper(preorder, rightRootIndex+1, end, preorder[rightRootIndex], false);
 }
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
-链表的归并排序效率非常可观，它由顺序表的归并排序的时间复杂度，而且空间复杂度降到了o(1)
-归并排序有两个大的步骤
-1、利用快慢指针分而治之
-2、子链表合并
+// ### 解题思路
+// 链表的归并排序效率非常可观，它由顺序表的归并排序的时间复杂度，而且空间复杂度降到了o(1)
+// 归并排序有两个大的步骤
+// 1、利用快慢指针分而治之
+// 2、子链表合并
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -42,4 +42,4 @@ struct ListNode* sortList(struct ListNode* head){
 	p->next=NULL;
 	return merge_sotrlist(sortList(head),sortList(q));
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class MyStack {
     Queue<Integer> list;
 
@@ -36,4 +36,4 @@ class MyStack {
     }
 }
 
-```
+// ```

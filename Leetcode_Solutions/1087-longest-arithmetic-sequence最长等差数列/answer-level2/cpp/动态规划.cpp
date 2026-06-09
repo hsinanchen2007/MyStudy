@@ -1,5 +1,5 @@
 
-```c++ []
+// ```c++ []
 class Solution {
 public:
     int longestArithSeqLength(vector<int>& A) {
@@ -18,6 +18,6 @@ public:
         return result;
     }
 };
-```
+// ```
 
-这里把每个数都建立一个hash表，每个hash表的存的是第dp[i],表示0-i所有可能的等差数列的长度，其中以公差作为键值   在代码中key就是公差。
+// 这里把每个数都建立一个hash表，每个hash表的存的是第dp[i],表示0-i所有可能的等差数列的长度，其中以公差作为键值   在代码中key就是公差。

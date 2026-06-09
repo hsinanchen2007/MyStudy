@@ -1,5 +1,5 @@
-# 51. N皇后
-```
+// # 51. N皇后
+// ```
 #define MAP_QUEEN 2
 #define MAP_EMPTY 1
 #define MAP_UNDO -1
@@ -83,4 +83,4 @@ public:
 		return rst;
     }
 };
-```
+// ```

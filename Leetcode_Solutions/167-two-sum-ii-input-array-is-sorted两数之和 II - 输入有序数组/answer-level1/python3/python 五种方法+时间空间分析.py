@@ -1,7 +1,7 @@
-class Solution:
-# APP1: brute force, nested loop. TLE
+# class Solution:
+# # APP1: brute force, nested loop. TLE
 
-```
+# ```
     def twoSum(self, numbers: List[int], target: int) -> List[int]:
         if not numbers or len(numbers) < 2:
             return [-1, -1]
@@ -11,12 +11,12 @@ class Solution:
                 if numbers[i] + numbers[j] == target:
                     return [i + 1, j + 1]
         return [-1, -1]
-```
+# ```
     
-# APP2: since it's sorted, loop through then binary search
-# Time: O(nlogn), Space: O(1)
+# # APP2: since it's sorted, loop through then binary search
+# # Time: O(nlogn), Space: O(1)
 
-```
+# ```
     def twoSum(self, numbers: List[int], target: int) -> List[int]:
         if not numbers or len(numbers) < 2:
             return [-1, -1]
@@ -41,12 +41,12 @@ class Solution:
         if nums[end] == need:
             return end
         return -1
-```
+# ```
             
-# APP3: Hashtable two passes
-# Time: O(n), Space: O(n)
+# # APP3: Hashtable two passes
+# # Time: O(n), Space: O(n)
 
-```
+# ```
     def twoSum(self, numbers: List[int], target: int) -> List[int]:
         if not numbers or len(numbers) < 2:
             return [-1, -1]
@@ -58,12 +58,12 @@ class Solution:
             if need in mapping and index != mapping[need]:
                 return [index + 1, mapping[need] + 1]
         return [-1, -1]
-```
+# ```
         
-# APP4: Hashtable one pass
-# Time: O(n), Space: O(n)
+# # APP4: Hashtable one pass
+# # Time: O(n), Space: O(n)
 
-```
+# ```
     def twoSum(self, numbers: List[int], target: int) -> List[int]:
         if not numbers or len(numbers) < 2:
             return [-1, -1]
@@ -73,12 +73,12 @@ class Solution:
                 return [mapping[target - num] + 1, index + 1]
             mapping[num] = index
         return [-1, -1]
-```
+# ```
         
-# APP5: since it's sorted, two pointers
-# Time: O(n), Space: O(1):
+# # APP5: since it's sorted, two pointers
+# # Time: O(n), Space: O(1):
 
-```
+# ```
     def twoSum(self, numbers: List[int], target: int) -> List[int]:
         if not numbers or len(numbers) < 2:
             return [-1, -1]
@@ -92,4 +92,4 @@ class Solution:
             if cur > target:
                 end -= 1
         return [-1, -1]
-```
+# ```

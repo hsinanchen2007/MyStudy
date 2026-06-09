@@ -1,10 +1,10 @@
-### 解题思路
-1. 遍历，可以将特殊情况直接提出来
-2. 二分查找
+# ### 解题思路
+# 1. 遍历，可以将特殊情况直接提出来
+# 2. 二分查找
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
         # if target > nums[-1]:
@@ -34,4 +34,4 @@ class Solution:
                 left -= 1
         return right
 
-```
+# ```

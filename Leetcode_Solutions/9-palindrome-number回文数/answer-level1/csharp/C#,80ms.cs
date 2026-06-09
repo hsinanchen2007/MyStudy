@@ -1,20 +1,20 @@
-### 解题思路
-假设回文数x=abcba
-=>
-    x=abc
-    res=ab
-    res*10=ab0
-    **0 <= x-res*10 < 10 **
+// ### 解题思路
+// 假设回文数x=abcba
+// =>
+//     x=abc
+//     res=ab
+//     res*10=ab0
+//     **0 <= x-res*10 < 10 **
 
-假设回文数x=abccba
-=>
-    x=abc
-    res=abc
-    **x==res**
+// 假设回文数x=abccba
+// =>
+//     x=abc
+//     res=abc
+//     **x==res**
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public bool IsPalindrome(int x) {
         if(x<0 || (x%10==0 & x!=0))     //负数，以0结尾的正数
@@ -33,4 +33,4 @@ public class Solution {
         }
     }
 }
-```
+// ```

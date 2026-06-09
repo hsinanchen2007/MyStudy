@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/e4de3d14a1abea62ee9a67b92dc2ca7e6af7e1bd48fe1b6af61c630945ec8bf3-image.png)
+# ![image.png](https://pic.leetcode-cn.com/e4de3d14a1abea62ee9a67b92dc2ca7e6af7e1bd48fe1b6af61c630945ec8bf3-image.png)
 
 
-```
+# ```
 '''
 保存每种颜色出现的位置列表，然后进行二分搜索
 '''
@@ -45,4 +45,4 @@ class Solution:
                 ret.append(val)
 
         return ret
-```
+# ```

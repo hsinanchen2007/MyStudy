@@ -1,6 +1,6 @@
-使用字典替代类型转换，虽然代码啰嗦了点，但计算速度还可以。
+# 使用字典替代类型转换，虽然代码啰嗦了点，但计算速度还可以。
 
-```
+# ```
 class Solution(object):
     def addBinary(self, a, b):
         """
@@ -40,4 +40,4 @@ class Solution(object):
             i = i - 1
 
         return '1'+ret if up else ret
-```
+# ```

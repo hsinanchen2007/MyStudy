@@ -1,4 +1,4 @@
-```js
+// ```js
 var myPow = function(x, n) {
     // return Math.pow(x, n); 作弊写法
     
@@ -7,4 +7,4 @@ var myPow = function(x, n) {
     if(n % 2) return x * myPow(x, n-1);
     return myPow(x * x, n/2);
 };
-```
+// ```

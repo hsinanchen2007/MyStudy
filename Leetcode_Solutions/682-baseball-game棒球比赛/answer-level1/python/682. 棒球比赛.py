@@ -1,4 +1,4 @@
-```
+# ```
 # -*- coding: utf-8 -*
 
 # 棒球比赛
@@ -23,4 +23,4 @@ class Solution(object):
 
 print Solution().calPoints(["5","-2","4","C","D","9","+","+"])
 
-```
+# ```

@@ -1,5 +1,5 @@
-**用一个数组p保存magazine中每个字符出现的次数，然后遍历ransomNote，若某一个字符在p中为0，返回false,否则将出现次数减1。**
-```c
+// **用一个数组p保存magazine中每个字符出现的次数，然后遍历ransomNote，若某一个字符在p中为0，返回false,否则将出现次数减1。**
+// ```c
 bool canConstruct(char * ransomNote, char * magazine)
 {
     int i, l1 = strlen(ransomNote), l2 = strlen(magazine);
@@ -15,4 +15,4 @@ bool canConstruct(char * ransomNote, char * magazine)
     }
     return 1;
 }
-```
+// ```

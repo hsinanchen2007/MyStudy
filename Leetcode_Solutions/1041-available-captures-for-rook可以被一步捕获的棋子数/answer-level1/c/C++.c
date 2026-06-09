@@ -1,5 +1,5 @@
-注意题目的p是小写...找了半天
-```
+// 注意题目的p是小写...找了半天
+// ```
 class Solution {
 public:
     int numRookCaptures(vector<vector<char>>& board) {
@@ -64,4 +64,4 @@ public:
         return count;
     }
 };
-```
+// ```

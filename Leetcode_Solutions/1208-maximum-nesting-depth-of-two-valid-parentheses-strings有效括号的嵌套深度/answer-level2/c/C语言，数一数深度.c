@@ -1,9 +1,9 @@
-### 解题思路
-我承认，我是看了官方题解后，用c语言实现了一下 ：） 关键是理解题目意思，嗯哼
+// ### 解题思路
+// 我承认，我是看了官方题解后，用c语言实现了一下 ：） 关键是理解题目意思，嗯哼
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -30,4 +30,4 @@ int* maxDepthAfterSplit(char * seq, int* returnSize){
     *returnSize = strlen(seq);
     return ret;
 }
-```
+// ```

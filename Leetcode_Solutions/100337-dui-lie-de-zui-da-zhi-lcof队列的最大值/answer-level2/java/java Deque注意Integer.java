@@ -1,10 +1,10 @@
-### 解题思路
-Integer有缓存池，自动装箱时-128~127使用同一个对象，同时重写了equals方法，比较的是intVal。
-所以下面在压入弹出比较时，避免自动装拆箱
+// ### 解题思路
+// Integer有缓存池，自动装箱时-128~127使用同一个对象，同时重写了equals方法，比较的是intVal。
+// 所以下面在压入弹出比较时，避免自动装拆箱
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MaxQueue {
 
     private Deque<Integer> numQ=new LinkedList();
@@ -46,4 +46,4 @@ class MaxQueue {
  * obj.push_back(value);
  * int param_3 = obj.pop_front();
  */
-```
+// ```

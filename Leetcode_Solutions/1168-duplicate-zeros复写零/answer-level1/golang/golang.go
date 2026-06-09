@@ -1,4 +1,4 @@
-```
+// ```
 func duplicateZeros(arr []int)  {
     for i := 0; i < len(arr); i ++{
         //如果是0且后面有可以复写的地方
@@ -13,4 +13,4 @@ func duplicateZeros(arr []int)  {
         }
     }
 }
-```
+// ```

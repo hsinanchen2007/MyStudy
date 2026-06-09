@@ -1,9 +1,9 @@
-### 解题思路
-我们用dp[i][j]表示直到第i个数，和为j的情况的个数，那么对于第i+1个数，和为j+nums[i]的以及和为j-nums[i]也为dp[i][j]
+// ### 解题思路
+// 我们用dp[i][j]表示直到第i个数，和为j的情况的个数，那么对于第i+1个数，和为j+nums[i]的以及和为j-nums[i]也为dp[i][j]
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findTargetSumWays(vector<int>& nums, int S) {
@@ -19,4 +19,4 @@ public:
         return dp[nums.size()][S];
     }
 };
-```
+// ```

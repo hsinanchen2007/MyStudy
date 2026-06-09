@@ -1,8 +1,8 @@
-模拟方法。
+// 模拟方法。
 
-也可以求最小公倍数，懒得写了……
+// 也可以求最小公倍数，懒得写了……
 
-```
+// ```
 class Solution {
 public:
     int mirrorReflection(int p, int q) {
@@ -47,4 +47,4 @@ public:
         }
     }
 };
-```
+// ```

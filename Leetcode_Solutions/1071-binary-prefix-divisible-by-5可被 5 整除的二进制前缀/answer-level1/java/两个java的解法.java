@@ -1,23 +1,23 @@
-1. 关于复杂度
-    1.1 时间复杂度为O(n)
-    1.2 空间负责度为O(n)
-2. 我的解题思路
-    2.1 这个算法基于一个公式：num=num*2+current element，以下是我的推导过程
-            2.1.1 最开始，num为0
-            2.1.2 第一个元素为0，num等于0；第一个元素为1，num等于1
-            2.1.3 下一个元素有四个情况
-                   2.1.3.1 num为0，当前元素为0，num为0
-                   2.1.3.2 num为0，当前元素为1，num为1
-                   2.1.3.3 num为1，当前元素为0，num为2
-                   2.1.3.4 num为1，当前元素为1，num为3
-            2.1.4 当遍历到第三个元素时，有8种情况，你可以自己推导试试
-    2.2 循环遍历第一个元素到最后一个元素，用2.1得出的公式计算当前的num
-3. 提交记录
-    3.1 力扣中耗时4ms,消耗41MB内存
-    3.2 leetcode中耗时3ms,消耗39.9MB内存
-4. Q&A
+// 1. 关于复杂度
+//     1.1 时间复杂度为O(n)
+//     1.2 空间负责度为O(n)
+// 2. 我的解题思路
+//     2.1 这个算法基于一个公式：num=num*2+current element，以下是我的推导过程
+//             2.1.1 最开始，num为0
+//             2.1.2 第一个元素为0，num等于0；第一个元素为1，num等于1
+//             2.1.3 下一个元素有四个情况
+//                    2.1.3.1 num为0，当前元素为0，num为0
+//                    2.1.3.2 num为0，当前元素为1，num为1
+//                    2.1.3.3 num为1，当前元素为0，num为2
+//                    2.1.3.4 num为1，当前元素为1，num为3
+//             2.1.4 当遍历到第三个元素时，有8种情况，你可以自己推导试试
+//     2.2 循环遍历第一个元素到最后一个元素，用2.1得出的公式计算当前的num
+// 3. 提交记录
+//     3.1 力扣中耗时4ms,消耗41MB内存
+//     3.2 leetcode中耗时3ms,消耗39.9MB内存
+// 4. Q&A
 
-```
+// ```
 /**
  * Problem
  *     1018.Binary Prefix Divisible By 5
@@ -102,6 +102,6 @@ public class Solution1018 {
         return list;
     }
 }
-```
-如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理<br />
-你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路
+// ```
+// 如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理<br />
+// 你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路

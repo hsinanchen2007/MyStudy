@@ -1,9 +1,9 @@
-### 解题思路
-dp[k][i][j], k表示步数，  i,j 表示坐标 
+// ### 解题思路
+// dp[k][i][j], k表示步数，  i,j 表示坐标 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findPaths(m int, n int, N int, i int, j int) int {
     var result int
     
@@ -76,4 +76,4 @@ func ok(m,n, i,j int) bool { // 在方格內
 // }
 
 
-```
+// ```

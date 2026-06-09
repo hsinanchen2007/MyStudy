@@ -1,9 +1,9 @@
-### 解题思路
-倒数第k个节点，就是距离尾巴距离为k的节点，也就是说尾巴比这个节点领先k个位置。
+# ### 解题思路
+# 倒数第k个节点，就是距离尾巴距离为k的节点，也就是说尾巴比这个节点领先k个位置。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -23,4 +23,4 @@ class Solution:
         return slow.val
         
 
-```
+# ```

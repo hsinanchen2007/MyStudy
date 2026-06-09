@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-通过快速排序将给的列表从小到大排好，再从中取出前k个即可
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 通过快速排序将给的列表从小到大排好，再从中取出前k个即可
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def quick_sort(self,data_list):
         if len(data_list) >= 2:
@@ -26,4 +26,4 @@ class Solution:
         else:
             arr_sort = self.quick_sort(arr)
             return arr_sort[:k]
-```
+# ```

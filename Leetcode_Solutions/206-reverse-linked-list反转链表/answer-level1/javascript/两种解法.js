@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 var reverseList = function(head) {
     // 递归解法
     if (head === null || head.next === null) {
@@ -14,8 +14,8 @@ var reverseList = function(head) {
     return node
 
 }
-```
-```javascript
+// ```
+// ```javascript
 var reverseList = function(head) {
     // 迭代解法
     let [pre, cur, nxt] = [null, head, head];
@@ -28,4 +28,4 @@ var reverseList = function(head) {
     return pre;
 
 };
-```
+// ```

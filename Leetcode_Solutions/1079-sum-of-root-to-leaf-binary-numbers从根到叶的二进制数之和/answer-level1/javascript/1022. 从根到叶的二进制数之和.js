@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-- 二进制求和可以表示为: ``next = curr << 1 | root.val``，也可以表示为 ``next = curr * 2 + root.val``
-- 递归到叶子节点即可累加
+// - 二进制求和可以表示为: ``next = curr << 1 | root.val``，也可以表示为 ``next = curr * 2 + root.val``
+// - 递归到叶子节点即可累加
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -34,4 +34,4 @@ var sumRootToLeaf = function(root) {
     helper(root, 0)
     return sum % (Math.pow(10, 9) + 7)
 };
-```
+// ```

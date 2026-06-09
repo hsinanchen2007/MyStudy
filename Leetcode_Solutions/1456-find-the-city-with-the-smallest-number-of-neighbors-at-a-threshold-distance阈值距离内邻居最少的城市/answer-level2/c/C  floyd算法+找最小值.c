@@ -1,4 +1,4 @@
-```
+// ```
 int g_dis[101][101];
 void InitDis(int **edges, int edgesSize)
 {
@@ -48,4 +48,4 @@ int findTheCity(int n, int** edges, int edgesSize, int* edgesColSize, int distan
     free(set);
     return min;
 }
-```
+// ```

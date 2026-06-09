@@ -1,5 +1,5 @@
-解法：
-直接使用遍历list的方法实现：
+# 解法：
+# 直接使用遍历list的方法实现：
 `class Solution(object):
     def intersect(self, nums1, nums2):
         """

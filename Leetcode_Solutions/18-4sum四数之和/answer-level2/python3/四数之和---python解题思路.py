@@ -1,9 +1,9 @@
-首先这种题目暴力破解肯定是不行的，可定会遇到超时
-想到了之前的三数之和问题,在三数之和的问题
-最简单的就是在找三数之和的情况下加上一个遍历，再构造出招三个数的情况
-算法：双指针
+# 首先这种题目暴力破解肯定是不行的，可定会遇到超时
+# 想到了之前的三数之和问题,在三数之和的问题
+# 最简单的就是在找三数之和的情况下加上一个遍历，再构造出招三个数的情况
+# 算法：双指针
 
-```python
+# ```python
 class Solution:
     def fourSum(self, nums: List[int], target: int) -> List[List[int]]:
         result = set()
@@ -25,11 +25,11 @@ class Solution:
                     left += 1
                 if nums[left] + nums[right] > new_target:
                     right -= 1
-```
+# ```
 
-运行结果
+# 运行结果
 
-```
+# ```
 执行用时 :1700 ms, 在所有 python3 提交中击败了17.96% 的用户
 内存消耗 :13.7 MB, 在所有 python3 提交中击败了11.30%的用户
 
@@ -38,8 +38,8 @@ class Solution:
 
 执行用时 :1392 ms, 在所有 python3 提交中击败了28.95% 的用户
 内存消耗 :13.8 MB, 在所有 python3 提交中击败了11.17%的用户
-```
+# ```
 
-感觉速度和之前的3数之和还是差不多的(*^▽^*)
-后面再优化
-欢迎来github上看更多题目的解答[力扣解题思路](https://github.com/WRAllen/LeetCode)
+# 感觉速度和之前的3数之和还是差不多的(*^▽^*)
+# 后面再优化
+# 欢迎来github上看更多题目的解答[力扣解题思路](https://github.com/WRAllen/LeetCode)

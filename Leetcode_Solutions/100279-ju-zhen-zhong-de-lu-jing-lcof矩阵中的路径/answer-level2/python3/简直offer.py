@@ -1,9 +1,9 @@
-### 解题思路
-思路参考JZoffer
+# ### 解题思路
+# 思路参考JZoffer
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:
         rows = len(board)
@@ -36,4 +36,4 @@ class Solution:
                 mark[row][col] = False
         return hasPath
     
-```
+# ```

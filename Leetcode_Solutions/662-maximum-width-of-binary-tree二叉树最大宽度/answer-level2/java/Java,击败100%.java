@@ -1,7 +1,7 @@
-![Screen Shot 2020-01-14 at 7.52.04 PM.png](https://pic.leetcode-cn.com/1317df91be6bb2551345e24ce4df4101baffd53b19c45068916372f083c7203f-Screen%20Shot%202020-01-14%20at%207.52.04%20PM.png)
+// ![Screen Shot 2020-01-14 at 7.52.04 PM.png](https://pic.leetcode-cn.com/1317df91be6bb2551345e24ce4df4101baffd53b19c45068916372f083c7203f-Screen%20Shot%202020-01-14%20at%207.52.04%20PM.png)
 
-自定义了一个数据结构，用来储存层数和对应位置。
-```
+// 自定义了一个数据结构，用来储存层数和对应位置。
+// ```
 public int widthOfBinaryTree(TreeNode root) {
         Queue<data> queue = new LinkedList<>();
         if(root==null){
@@ -44,5 +44,5 @@ public int widthOfBinaryTree(TreeNode root) {
             this.layer = layer;
         }
     }
-```
+// ```
 

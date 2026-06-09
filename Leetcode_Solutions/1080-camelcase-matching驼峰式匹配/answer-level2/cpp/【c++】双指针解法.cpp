@@ -1,7 +1,7 @@
-## 解题思路
-定义双指针分别遍历query和pattern，看是否满足要求
-## 代码
-```
+// ## 解题思路
+// 定义双指针分别遍历query和pattern，看是否满足要求
+// ## 代码
+// ```
 class Solution {
 public:
     vector<bool> camelMatch(vector<string>& queries, string pattern) {
@@ -50,4 +50,4 @@ public:
         return res;
     }
 };
-```
+// ```

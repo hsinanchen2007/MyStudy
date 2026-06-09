@@ -1,6 +1,6 @@
 
-### 代码
-```python
+# ### 代码
+# ```python
 class Solution:
     def maxDistance(self, grid: List[List[int]]) -> int:
         #对 0 做 BFS(仅考虑上下左右)，遇到1即返回
@@ -26,4 +26,4 @@ class Solution:
                         land.append(temp)
             res += len(ocean) < oSize
         return res
-```
+# ```

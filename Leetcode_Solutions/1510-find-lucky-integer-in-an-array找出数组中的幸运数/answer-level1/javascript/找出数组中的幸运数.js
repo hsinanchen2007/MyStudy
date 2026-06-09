@@ -1,11 +1,11 @@
-### 解题思路
-用map统计元素出现次数
-注：用js刷题的人真少
-![image.png](https://pic.leetcode-cn.com/eeb625b98af71604fb57f0118be6842172b03f346fcd22b190c8eebdce25f136-image.png)
+// ### 解题思路
+// 用map统计元素出现次数
+// 注：用js刷题的人真少
+// ![image.png](https://pic.leetcode-cn.com/eeb625b98af71604fb57f0118be6842172b03f346fcd22b190c8eebdce25f136-image.png)
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} arr
  * @return {number}
@@ -21,4 +21,4 @@ var findLucky = function(arr) {
     }
     return result
 };
-```
+// ```

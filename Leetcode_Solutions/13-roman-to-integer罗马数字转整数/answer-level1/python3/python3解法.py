@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-用好字典和循环，累加就完事了。
+# 用好字典和循环，累加就完事了。
 
-### 代码
+# ### 代码
 
-```
+# ```
 class Solution:
     def romanToInt(self, s: str) -> int:
         luoma_map = {'I':1, 'V':5, 'X':10, 'L':50, 'C':100, 'D':500, 'M':1000}
@@ -21,4 +21,4 @@ class Solution:
         
         return num
 
-```
+# ```

@@ -1,9 +1,9 @@
-while循一次，表示时间过了一个单位，time+1，所有现存的烂橘子循环一轮。
-但是在while循环里，每一个烂橘子污染的别的橘子也要入队。因此用for循环，range（len（queue））来限制本次的循环次数————————所有上一轮所存在的烂橘子进行处理，新入队的烂橘子不进行运算，等待下一轮。
+# while循一次，表示时间过了一个单位，time+1，所有现存的烂橘子循环一轮。
+# 但是在while循环里，每一个烂橘子污染的别的橘子也要入队。因此用for循环，range（len（queue））来限制本次的循环次数————————所有上一轮所存在的烂橘子进行处理，新入队的烂橘子不进行运算，等待下一轮。
 
-牛牛牛
+# 牛牛牛
 
-```
+# ```
 class Solution:
     def orangesRotting(self, grid: List[List[int]]) -> int:
         M = len(grid)
@@ -45,4 +45,4 @@ class Solution:
             return -1
         else:
             return round
-```
+# ```

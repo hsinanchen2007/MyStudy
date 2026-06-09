@@ -1,8 +1,8 @@
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def search(self, nums, target):
         """
@@ -14,4 +14,4 @@ class Solution(object):
             return True
         else:
             return False
-```
+# ```

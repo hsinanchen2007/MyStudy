@@ -1,9 +1,9 @@
-### 解题思路
-reverse_m_n函数将last后面的第m到n个节点反转，无返回值，可用作任何情况下的反转链表
+# ### 解题思路
+# reverse_m_n函数将last后面的第m到n个节点反转，无返回值，可用作任何情况下的反转链表
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -66,4 +66,4 @@ class Solution(object):
         
 
 
-```
+# ```

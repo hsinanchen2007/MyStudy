@@ -1,9 +1,9 @@
-### 解题思路
-数组后一个元素和前一个元素的差值diff加上前一个元素在差值diff的最长等差数列长度即为当前元素在diff的最长等差数列长度
+// ### 解题思路
+// 数组后一个元素和前一个元素的差值diff加上前一个元素在差值diff的最长等差数列长度即为当前元素在diff的最长等差数列长度
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int longestArithSeqLength(int* A, int ASize){
     int * dp = NULL;
     int max = 2;
@@ -45,4 +45,4 @@ int longestArithSeqLength(int* A, int ASize){
     
     return max;
 }
-```
+// ```

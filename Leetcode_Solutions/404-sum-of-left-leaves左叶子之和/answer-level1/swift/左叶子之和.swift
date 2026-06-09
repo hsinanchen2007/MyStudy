@@ -1,7 +1,7 @@
 
-递归法
+// 递归法
 
-```swift []
+// ```swift []
 class Solution {
     func sumOfLeftLeaves(_ root: TreeNode?) -> Int {
         guard let root = root else {
@@ -17,4 +17,4 @@ class Solution {
         return sum + sumOfLeftLeaves(root.left) + sumOfLeftLeaves(root.right)
     }
 }
-```
+// ```

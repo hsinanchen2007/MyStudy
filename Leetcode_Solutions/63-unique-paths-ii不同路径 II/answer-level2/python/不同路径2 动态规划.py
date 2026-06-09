@@ -1,9 +1,9 @@
-### 解题思路
+# ### 解题思路
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def uniquePathsWithObstacles(self, obstacleGrid):
         if obstacleGrid[0][0] == 1 or obstacleGrid[-1][-1] == 1:
@@ -35,4 +35,4 @@ class Solution(object):
                     obstacleGrid[i][j] = obstacleGrid[i][j-1] + obstacleGrid[i-1][j]
         return obstacleGrid[-1][-1]
       
-```
+# ```

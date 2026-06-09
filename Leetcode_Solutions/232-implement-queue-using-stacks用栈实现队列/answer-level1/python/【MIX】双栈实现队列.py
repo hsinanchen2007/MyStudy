@@ -1,9 +1,9 @@
-### 解题思路
-使用一个辅助stack, 完成尾部插入的操作
+# ### 解题思路
+# 使用一个辅助stack, 完成尾部插入的操作
 
-### 代码
+# ### 代码
 
-```c++ []
+# ```c++ []
 class MyQueue {
 public:
     /** Initialize your data structure here. */
@@ -49,8 +49,8 @@ private:
  * int param_3 = obj->peek();
  * bool param_4 = obj->empty();
  */
-```
-```java []
-```
-```python []
-```
+# ```
+# ```java []
+# ```
+# ```python []
+# ```

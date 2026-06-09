@@ -1,7 +1,7 @@
-切片slice 操作可以让我们快速的提取子字符串。标准格式为：
-[起始偏移量start：终止偏移量end：步长step]
+# 切片slice 操作可以让我们快速的提取子字符串。标准格式为：
+# [起始偏移量start：终止偏移量end：步长step]
 
-```
+# ```
 class Solution:
     def isPalindrome(self, x: int) -> bool:
         if x<0:
@@ -14,5 +14,5 @@ class Solution:
                 return True
             else:
                 return False
-```
+# ```
 

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def lengthOfLastWord(self, s: str) -> int:
         count = 0
@@ -9,5 +9,5 @@ class Solution:
             else:
                 count+=1
         return count
-```
-要先把最后边的空格去掉
+# ```
+# 要先把最后边的空格去掉

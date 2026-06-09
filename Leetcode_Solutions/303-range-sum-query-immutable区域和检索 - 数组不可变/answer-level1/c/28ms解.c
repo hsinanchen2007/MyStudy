@@ -1,5 +1,5 @@
-在结构体中定义一个足够大的整型数组，数组中第i个元素记录0~i项之和。NumArray* numArrayCreate(int* nums, int numsSize)中，把结构体中的数组针对问题初始化。
-```
+// 在结构体中定义一个足够大的整型数组，数组中第i个元素记录0~i项之和。NumArray* numArrayCreate(int* nums, int numsSize)中，把结构体中的数组针对问题初始化。
+// ```
 typedef struct {
     int a[10000];
 } NumArray;
@@ -21,4 +21,4 @@ int numArraySumRange(NumArray* obj, int i, int j) {
 void numArrayFree(NumArray* obj) {
     
 }
-```
+// ```

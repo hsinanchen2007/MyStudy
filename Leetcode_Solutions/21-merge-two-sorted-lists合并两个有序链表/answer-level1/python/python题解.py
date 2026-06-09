@@ -1,9 +1,9 @@
-### 解题思路
-创建一个新的ListNode节点，依次比较l1和l2的大小进行插入。
+# ### 解题思路
+# 创建一个新的ListNode节点，依次比较l1和l2的大小进行插入。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -60,4 +60,4 @@ class Solution(object):
 
 
 
-```
+# ```

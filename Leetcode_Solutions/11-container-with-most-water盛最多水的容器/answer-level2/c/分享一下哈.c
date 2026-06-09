@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int maxArea(int* height, int heightSize)
 {
 	int start = 0,end = heightSize-1,maxarea=0,tmp,gap;
@@ -16,4 +16,4 @@ int maxArea(int* height, int heightSize)
 	}
 	return maxarea;
 }
-```
+// ```

@@ -1,5 +1,5 @@
-**方法一：按行统计**
-```
+// **方法一：按行统计**
+// ```
 class Solution {
     /**
     * 思路：
@@ -39,10 +39,10 @@ class Solution {
         return ret.toString();
     }
 }
-```
+// ```
 
-**方法二：按Z字形排列每一组统计**
-```
+// **方法二：按Z字形排列每一组统计**
+// ```
 class Solution {
     /**
     * 思路：
@@ -75,4 +75,4 @@ class Solution {
         return ret.toString();
     }
 }
-```
+// ```

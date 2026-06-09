@@ -1,8 +1,8 @@
-找到所有可能的解的过程中，删除重复的。
-后来才发现，map里面有是插入不进去的，基础知识不牢。蠢。
-还有很多待改进的地方啊。
+// 找到所有可能的解的过程中，删除重复的。
+// 后来才发现，map里面有是插入不进去的，基础知识不牢。蠢。
+// 还有很多待改进的地方啊。
 
-```
+// ```
     vector<string> generateParenthesis(int n) {
  	map<string,int> w;
 	vector<string> result;
@@ -35,4 +35,4 @@
 	}	
 	return result;
     }
-```
+// ```

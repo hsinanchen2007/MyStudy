@@ -1,9 +1,9 @@
-### 解题思路
-C语言 DFS
+// ### 解题思路
+// C语言 DFS
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX_TWO(a, b)    (((a) > (b)) ? (a) : (b))
 
 void DFS(int** grid, int row, int col, int u, int v , int* area) {
@@ -41,4 +41,4 @@ int maxAreaOfIsland(int** grid, int gridSize, int* gridColSize){
 
     return maxArea;
 }
-```
+// ```

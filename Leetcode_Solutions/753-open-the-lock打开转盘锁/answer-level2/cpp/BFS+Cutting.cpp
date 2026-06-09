@@ -1,6 +1,6 @@
-Use BFS and cutting algorithm to solve this problem. We can regard it as a searching in a graph. Comparing to DFS algorithm, the BFS can get the closest point nead the top.
+// Use BFS and cutting algorithm to solve this problem. We can regard it as a searching in a graph. Comparing to DFS algorithm, the BFS can get the closest point nead the top.
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int openLock(vector<string>& deadends, string target) {
@@ -61,4 +61,4 @@ public:
         
     }
 };
-```
+// ```

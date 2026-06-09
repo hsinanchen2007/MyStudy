@@ -1,5 +1,5 @@
-因为数的范围是0-n,因此可以用数组本身的元素来hash从而节省空间。
-```
+// 因为数的范围是0-n,因此可以用数组本身的元素来hash从而节省空间。
+// ```
 class Solution {
     public int missingNumber(int[] nums) {
         for(int i = 0; i < nums.length; i++){
@@ -26,4 +26,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

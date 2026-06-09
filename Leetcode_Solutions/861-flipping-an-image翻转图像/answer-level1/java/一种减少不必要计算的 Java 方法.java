@@ -1,5 +1,5 @@
-# 1. Approach 1: Direct 
-```java
+// # 1. Approach 1: Direct 
+// ```java
 // 分析运算规律，减少不必要的计算，从而降低时间复杂度和空间复杂度；
 class Solution {
     public int[][] flipAndInvertImage(int[][] A) {
@@ -29,4 +29,4 @@ class Solution {
         return A;
     }
 }
-```
+// ```

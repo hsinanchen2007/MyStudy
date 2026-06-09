@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-最多一共是10位数，a bcd efg hig,a位十亿位，bcd,efg,hig可以相同的函数求解，只不过在efg和hig之间当efg不都为零时要加一个Thousand,在bcd与efg间同理，加Hundred时要注意三位数是否为0.
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 最多一共是10位数，a bcd efg hig,a位十亿位，bcd,efg,hig可以相同的函数求解，只不过在efg和hig之间当efg不都为零时要加一个Thousand,在bcd与efg间同理，加Hundred时要注意三位数是否为0.
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string ans = "";
@@ -122,4 +122,4 @@ public:
         }
     }
 };
-```
+// ```

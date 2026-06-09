@@ -1,23 +1,23 @@
-### 解题思路
-深度优先搜索, 具体思路见官方说明
-**成绩较差,只是提供一种java解决Pair类问题的思路**
-![image.png](https://pic.leetcode-cn.com/b209bb3d34d717656dfc285998419406e13341bb311d1abcb8f1eda57dfd53f6-image.png)
+// ### 解题思路
+// 深度优先搜索, 具体思路见官方说明
+// **成绩较差,只是提供一种java解决Pair类问题的思路**
+// ![image.png](https://pic.leetcode-cn.com/b209bb3d34d717656dfc285998419406e13341bb311d1abcb8f1eda57dfd53f6-image.png)
 
-由于java中没有Pair类,导致状态判断时会非常麻烦
-*	1. 最简单的处理手段应该是自定义一个Pair类
-*	2. 常用方法为利用Map.Entry接口实现Pair类功能(不知道为什么,我对map.entry很抵触)
+// 由于java中没有Pair类,导致状态判断时会非常麻烦
+// *	1. 最简单的处理手段应该是自定义一个Pair类
+// *	2. 常用方法为利用Map.Entry接口实现Pair类功能(不知道为什么,我对map.entry很抵触)
 
-本例中利用java中的集合类来完成该功能
-针对x桶的存水量stage_x,建立一组set集合,用以存放该stage_x下,所有遍历过的stage_y.
-* 例: 
-遍历过的状态为:
-	*{<1,2>, <1,3>, <1,4>,<2,2>}*
-在本例中被记录为:
-	*{<1,{2,3,4}>,<2,{2}>}*
+// 本例中利用java中的集合类来完成该功能
+// 针对x桶的存水量stage_x,建立一组set集合,用以存放该stage_x下,所有遍历过的stage_y.
+// * 例: 
+// 遍历过的状态为:
+// 	*{<1,2>, <1,3>, <1,4>,<2,2>}*
+// 在本例中被记录为:
+// 	*{<1,{2,3,4}>,<2,{2}>}*
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canMeasureWater(int x, int y, int z) {
         if (z > x + y) return false;
@@ -67,4 +67,4 @@ class Solution {
 		return false;	
     }
 }
-```
+// ```

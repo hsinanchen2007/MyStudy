@@ -1,9 +1,9 @@
-### 思路一：暴力
-利用set去重
+// ### 思路一：暴力
+// 利用set去重
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> fourSum(vector<int>& nums, int target) {        
@@ -28,10 +28,10 @@ public:
         return vector<vector<int>>(st.begin(), st.end());
     }
 };
-```
-### 另一种写法
-手动去重
-```c++
+// ```
+// ### 另一种写法
+// 手动去重
+// ```c++
 class Solution {
 public:
     vector<vector<int>> fourSum(vector<int>& nums, int target) {              
@@ -60,12 +60,12 @@ public:
         return res;
     }
 };
-```
+// ```
 
-### 思路二：双指针
+// ### 思路二：双指针
 
-### 代码
-```c++
+// ### 代码
+// ```c++
 class Solution {
 public:
     vector<vector<int>> fourSum(vector<int>& nums, int target) {              
@@ -97,11 +97,11 @@ public:
         return res;
     }
 };
-```
+// ```
 
-### 优化时间复杂度
-提前判断当前最小和、最大和是否越界。
-```c++
+// ### 优化时间复杂度
+// 提前判断当前最小和、最大和是否越界。
+// ```c++
 class Solution {
 public:
     vector<vector<int>> fourSum(vector<int>& nums, int target) {              
@@ -141,7 +141,7 @@ public:
         return res;
     }
 };
-```
+// ```
 
 
 

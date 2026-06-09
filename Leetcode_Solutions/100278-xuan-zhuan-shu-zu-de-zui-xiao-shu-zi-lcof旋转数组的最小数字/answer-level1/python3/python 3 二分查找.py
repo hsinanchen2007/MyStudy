@@ -1,10 +1,10 @@
-### 解题思路
-二分查找
+# ### 解题思路
+# 二分查找
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minArray(self, numbers: List[int]) -> int:
         if not numbers:return numbers
@@ -18,4 +18,4 @@ class Solution:
             else: # 相等时，无法判断在那一边，缩小范围
                 right=right-1
         return min(numbers[left],numbers[right])
-```
+# ```

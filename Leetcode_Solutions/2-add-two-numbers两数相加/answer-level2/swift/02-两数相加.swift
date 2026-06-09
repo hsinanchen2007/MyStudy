@@ -1,9 +1,9 @@
-### 解题思路
-简单的思路就是保存进位，然后一直将两个链表一直循环完直到进位也为0。
+// ### 解题思路
+// 简单的思路就是保存进位，然后一直将两个链表一直循环完直到进位也为0。
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func addTwoNumbers(_ A: ListNode?, _ B: ListNode?) -> ListNode? {
         if A == nil && B == nil {
@@ -40,4 +40,4 @@ class Solution {
 
     }
 }
-```
+// ```

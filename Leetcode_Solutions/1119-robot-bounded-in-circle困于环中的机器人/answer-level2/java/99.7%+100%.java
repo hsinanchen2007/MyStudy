@@ -1,6 +1,6 @@
-无非运行完一次之后，有以下情况：
-1.位移不为0，方向为北，一直位移离开，false
-2.其它，至多四次后形成环，true
+// 无非运行完一次之后，有以下情况：
+// 1.位移不为0，方向为北，一直位移离开，false
+// 2.其它，至多四次后形成环，true
 
 class Solution {
     public static boolean isRobotBounded(String instructions) {

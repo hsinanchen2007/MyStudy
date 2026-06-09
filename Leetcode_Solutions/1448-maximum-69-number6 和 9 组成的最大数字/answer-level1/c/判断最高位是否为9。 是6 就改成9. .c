@@ -1,4 +1,4 @@
-```
+// ```
 int maximum69Number (int num){
     int arr[5] = {0};
     int count = 0;
@@ -18,4 +18,4 @@ int maximum69Number (int num){
     }
     return sum;
 }
-```
+// ```

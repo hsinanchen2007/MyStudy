@@ -1,13 +1,13 @@
-### 解题思路
+# ### 解题思路
 
-- DP
-- 设置两个状态，hold[i]和unhold[i]，分别表示第i天时持有及未持有股票的最大利润
-- 计算base state，分别写出i=0和i=1的结果
-- 写出递推公式，因为有冷冻期，所以前推用到i-2和i-1的值
+# - DP
+# - 设置两个状态，hold[i]和unhold[i]，分别表示第i天时持有及未持有股票的最大利润
+# - 计算base state，分别写出i=0和i=1的结果
+# - 写出递推公式，因为有冷冻期，所以前推用到i-2和i-1的值
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         # - sanity check
@@ -57,4 +57,4 @@ class Solution:
             unhold[i] = max(unhold[i-1], (hold[i-1] + prices[i]))
 
         return max(hold[n-1], unhold[n-1])
-```
+# ```

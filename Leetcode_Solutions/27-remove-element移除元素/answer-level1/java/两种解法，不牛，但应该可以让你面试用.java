@@ -1,5 +1,5 @@
-解法1：
-遍历整个数组，与val比较，不同的数放入新数组
+// 解法1：
+// 遍历整个数组，与val比较，不同的数放入新数组
 public int remove(int[] nums,int val){
     StringBuffer sb = new StringBuffer();
     for (int i = 0;i < nums.length;i++){

@@ -1,9 +1,9 @@
-### 解题思路
-在heater首尾分别插入-1000000000，INT_MAX就能保证所有的houses都能覆盖，然后判断两个热水器之间的那栋房子能获得热水需要的最小半径即可
+// ### 解题思路
+// 在heater首尾分别插入-1000000000，INT_MAX就能保证所有的houses都能覆盖，然后判断两个热水器之间的那栋房子能获得热水需要的最小半径即可
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findRadius(vector<int>& houses, vector<int>& heaters) {
@@ -24,4 +24,4 @@ public:
 		return r;
     }
 }; 
-```
+// ```

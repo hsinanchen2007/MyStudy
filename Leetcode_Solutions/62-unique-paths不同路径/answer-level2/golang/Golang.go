@@ -1,15 +1,15 @@
-### 解题思路
-动态规划 dp方程：dp[i][j] = dp[i][j-1] + dp[i-1][j]
-初始化：for j := 0; j < n; j++ {
-        dp[0][j] = 1
-    }
-    for i := 0; i < m; i++ {
-        dp[i][0] = 1
-    }
+// ### 解题思路
+// 动态规划 dp方程：dp[i][j] = dp[i][j-1] + dp[i-1][j]
+// 初始化：for j := 0; j < n; j++ {
+//         dp[0][j] = 1
+//     }
+//     for i := 0; i < m; i++ {
+//         dp[i][0] = 1
+//     }
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func uniquePaths(m int, n int) int {
     dp := makeArray(m, n)
     for j := 0; j < n; j++ {
@@ -33,4 +33,4 @@ func makeArray(m, n int) [][]int {
     }
     return dp
 }
-```
+// ```

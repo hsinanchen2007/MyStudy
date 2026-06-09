@@ -1,4 +1,4 @@
-```
+// ```
 func isAnagram(s string, t string) bool {
   	ls:=len(s)
 	lt:=len(t)
@@ -17,4 +17,4 @@ func isAnagram(s string, t string) bool {
 	}
 	return true
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 // 1. 先将字符串处理一下 将开头的 ')' 和结尾的 '(' 删除
 //     例如   'aa)()(ff' 处理成   'aa()ff'
 // 2. 算出这个字符串到底需要删除几个 '(' 和几个 ')' 
@@ -80,4 +80,4 @@ var removeInvalidParentheses = function(s) {
   } 
   return result;
 };
-```
+// ```

@@ -1,6 +1,6 @@
-![算法_20191123.jpg](https://pic.leetcode-cn.com/359af068bea930e0e9265ef79191dc0d20f4949496ff67911672ad927ecf083d-%E7%AE%97%E6%B3%95_20191123.jpg)
+// ![算法_20191123.jpg](https://pic.leetcode-cn.com/359af068bea930e0e9265ef79191dc0d20f4949496ff67911672ad927ecf083d-%E7%AE%97%E6%B3%95_20191123.jpg)
 
-```
+// ```
 class Solution {
     public boolean canPartition(int[] nums) {
 
@@ -43,4 +43,4 @@ class Solution {
         return canPartition(nums, sum - nums[index], index + 1)||canPartition(nums, sum, index + 1) ;
     }
 }
-```
+// ```

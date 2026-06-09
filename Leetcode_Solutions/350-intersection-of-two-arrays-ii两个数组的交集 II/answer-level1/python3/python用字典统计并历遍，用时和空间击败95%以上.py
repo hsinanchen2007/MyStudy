@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def intersect(self, nums1: List[int], nums2: List[int]) -> List[int]:
         if (len(nums1)>len(nums2)):
@@ -20,4 +20,4 @@ class Solution:
                 numsnew.append(nums2[i])
                 numsdic[nums2[i]] -= 1   
         return numsnew
-```
+# ```

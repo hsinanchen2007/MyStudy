@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minCostClimbingStairs(vector<int>& cost) {
@@ -15,6 +15,6 @@ public:
         return min(c1, c2);
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/139c5b0d8e1287dd2accfc38d5696cc72945a7bc0d3d7b1c6005acc6a3d870f0-image.png)
+// ![image.png](https://pic.leetcode-cn.com/139c5b0d8e1287dd2accfc38d5696cc72945a7bc0d3d7b1c6005acc6a3d870f0-image.png)

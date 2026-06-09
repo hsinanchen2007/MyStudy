@@ -1,4 +1,4 @@
-```python3
+# ```python3
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         max_len=0
@@ -11,4 +11,4 @@ class Solution:
             if i-min>max_len:
                 max_len=i-min
         return max_len
-```
+# ```

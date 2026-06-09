@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-1. 邻接矩阵表示有向图，判断是否存在拓扑排序
-2. 异常输入注意特殊处理
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 1. 邻接矩阵表示有向图，判断是否存在拓扑排序
+// 2. 异常输入注意特殊处理
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -97,4 +97,4 @@ int* findOrder(int numCourses, int** prerequisites, int prerequisitesSize, int* 
     *returnSize = count;
     return result;
 }
-```
+// ```

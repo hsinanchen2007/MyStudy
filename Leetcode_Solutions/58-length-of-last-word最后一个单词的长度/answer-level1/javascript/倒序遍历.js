@@ -1,6 +1,6 @@
-没有多余的分支判断，也没有花里胡哨的语法糖
+// 没有多余的分支判断，也没有花里胡哨的语法糖
 
-```javascript
+// ```javascript
 var lengthOfLastWord = function(s) {
   let start = -1, end = -1
   for (let i = s.length - 1; i > -1; i--) {
@@ -9,4 +9,4 @@ var lengthOfLastWord = function(s) {
   }
   return end - start
 };
-```
+// ```

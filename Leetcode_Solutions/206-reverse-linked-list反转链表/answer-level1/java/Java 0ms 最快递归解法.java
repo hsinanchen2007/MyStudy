@@ -1,8 +1,8 @@
-递归主要的思路就是： 对于当前节点的下一个节点做递归， 返回的是 已经反转好的链表的头节点 或 尾节点， 然后将当前节点挂在最后；
+// 递归主要的思路就是： 对于当前节点的下一个节点做递归， 返回的是 已经反转好的链表的头节点 或 尾节点， 然后将当前节点挂在最后；
 
-返回尾节点的解法： 0ms
-![31TBODCNSXU@\[5M1}F{K1)N.png](https://pic.leetcode-cn.com/d50c8c94c98a29b71e57dbf7ead0331e09ca23b4cb948dd7094d55ceb5ff5fb3-31TBODCNSXU@%5B5M1%7DF%7BK1\)N.png)
-```
+// 返回尾节点的解法： 0ms
+// ![31TBODCNSXU@\[5M1}F{K1)N.png](https://pic.leetcode-cn.com/d50c8c94c98a29b71e57dbf7ead0331e09ca23b4cb948dd7094d55ceb5ff5fb3-31TBODCNSXU@%5B5M1%7DF%7BK1\)N.png)
+// ```
 public static ListNode newHead = null;     //将头节点设置为全局变量，这样每次返回尾节点就不用顾及之前的节点了
     public ListNode reverseList(ListNode head) {   // 0ms 100%
         newHead = null;
@@ -22,11 +22,11 @@ public static ListNode newHead = null;     //将头节点设置为全局变量�
         lastNode.next = temp;
         return temp;    //此时已经添加上去，当前节点便是尾节点，返回即可
     }
-```
+// ```
 
 
-返回头节点的解法 ：  70ms  性能较差，不做过多解释
-```
+// 返回头节点的解法 ：  70ms  性能较差，不做过多解释
+// ```
 public ListNode reverseList(ListNode head) {  //70ms
         if (head == null)
             return null;
@@ -41,4 +41,4 @@ public ListNode reverseList(ListNode head) {  //70ms
         head.next = null;
         return newHead;
     }
-```
+// ```

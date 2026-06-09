@@ -1,23 +1,23 @@
-### 解题思路
+// ### 解题思路
 
-修改了题解中双向链表的解法,用TreeMap代替HashMap；
-```java
+// 修改了题解中双向链表的解法,用TreeMap代替HashMap；
+// ```java
     private int capacity;
     private Map<Integer, LFCNode> cache;
     private TreeMap<Integer, DoubleLinkedList> freqMap;
-```
-#### put操作时如果到达了capacity边界
-    - 获取TreeMap的第一个entrySet,即最少使用的频数entrySet.key,最少使用的节点的集合entrySet.value。
-    - 取出entrySet.value中的最近使用的last节点，删除cache.remove(last.key),删除最少最近使用的节点entrySet.value.removeLast()。
-    - 如果entrySet.value.isEmpty,则说明当前最少频数的集合都已经增加了，删除该频数的集合freqMap.remove(entrySet.key)
-    - 最后存放到freqMap中频数为1的DoubleLinkedList中的first节点
-#### get操作时如果存在该节点node
-    - 通过该节点node的频数，取出该频数的集合DoubleLinkedList
-    - 从DoubleLinkedList中删除该节点，如果DoubleLinkedList为空，则删除该频数的集合freqMap.remove(node.freq)
-    - node.freq++后存放到对应频数的集合中的first节点
-### 代码
+// ```
+// #### put操作时如果到达了capacity边界
+//     - 获取TreeMap的第一个entrySet,即最少使用的频数entrySet.key,最少使用的节点的集合entrySet.value。
+//     - 取出entrySet.value中的最近使用的last节点，删除cache.remove(last.key),删除最少最近使用的节点entrySet.value.removeLast()。
+//     - 如果entrySet.value.isEmpty,则说明当前最少频数的集合都已经增加了，删除该频数的集合freqMap.remove(entrySet.key)
+//     - 最后存放到freqMap中频数为1的DoubleLinkedList中的first节点
+// #### get操作时如果存在该节点node
+//     - 通过该节点node的频数，取出该频数的集合DoubleLinkedList
+//     - 从DoubleLinkedList中删除该节点，如果DoubleLinkedList为空，则删除该频数的集合freqMap.remove(node.freq)
+//     - node.freq++后存放到对应频数的集合中的first节点
+// ### 代码
 
-```java
+// ```java
 public class LFUCache {
 
     private int capacity;
@@ -152,4 +152,4 @@ class DoubleLinkedList{
  * int param_1 = obj.get(key);
  * obj.put(key,value);
  */
-```
+// ```

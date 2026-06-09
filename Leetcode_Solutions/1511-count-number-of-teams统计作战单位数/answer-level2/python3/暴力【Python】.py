@@ -1,18 +1,18 @@
-### 思路
+# ### 思路
 
-**暴力**
+# **暴力**
 
-```
+# ```
 三层循环，暴力求解。
 因为数据 n 是 [1, 200]，所以不会 LTE。
-```
+# ```
 
-**时间复杂度:** O(n^3)
-**空间复杂度:** O(1)
+# **时间复杂度:** O(n^3)
+# **空间复杂度:** O(1)
 
-##### Python3代码
+# ##### Python3代码
 
-```python
+# ```python
 from typing import List
 
 class Solution:
@@ -29,8 +29,8 @@ class Solution:
                         if rating[j] > rating[k]:
                             count += 1
         return count
-```
+# ```
 
-### GitHub链接
+# ### GitHub链接
 
-[Python](https://github.com/Wonz5130/LeetCode-Solutions/blob/master/solutions/1395-Count-Number-of-Teams/1395.py)
+# [Python](https://github.com/Wonz5130/LeetCode-Solutions/blob/master/solutions/1395-Count-Number-of-Teams/1395.py)

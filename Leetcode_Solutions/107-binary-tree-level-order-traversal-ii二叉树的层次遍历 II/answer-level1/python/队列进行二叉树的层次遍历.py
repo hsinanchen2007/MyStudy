@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -28,4 +28,4 @@ class Solution(object):
                 queue.insert(0,cur_result_val)              #则入队列插入第一个
             cur = next_node                                 #不存在则将下一层当作cur继续循环
         return queue                                        #最后返回最终结果queue
-```
+# ```

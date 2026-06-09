@@ -1,11 +1,11 @@
-### 解题思路
-第1种for循环写法；
-第2种队列写法，pop()和shift()都可以。
-更推荐第2种
+// ### 解题思路
+// 第1种for循环写法；
+// 第2种队列写法，pop()和shift()都可以。
+// 更推荐第2种
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} astr
  * @return {boolean}
@@ -38,4 +38,4 @@ var isUnique = function(astr) {
     }
     return res;
 };
-```
+// ```

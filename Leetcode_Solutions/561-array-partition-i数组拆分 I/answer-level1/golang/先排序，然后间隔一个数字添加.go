@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func arrayPairSum(nums []int) int {
 	sort.Ints(nums)
 	count:=0
@@ -13,4 +13,4 @@ func arrayPairSum(nums []int) int {
 	}
 	return count
 }
-```
+// ```

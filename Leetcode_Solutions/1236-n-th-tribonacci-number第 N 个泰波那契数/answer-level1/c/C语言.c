@@ -1,9 +1,9 @@
-### 解题思路
-最基础的动态规划
+// ### 解题思路
+// 最基础的动态规划
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int tribonacci(int n){
     int dp[38];
     dp[0] = 0;
@@ -14,4 +14,4 @@ int tribonacci(int n){
     }
     return dp[n];
 }
-```
+// ```

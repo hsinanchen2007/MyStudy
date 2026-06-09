@@ -1,9 +1,9 @@
-### 解题思路
-最长公共前缀，要么为空字符串，要么第一个元素也包含，那么不需要缓存数据，也不需要保存字符串，只需要记录下最长长度；
+// ### 解题思路
+// 最长公共前缀，要么为空字符串，要么第一个元素也包含，那么不需要缓存数据，也不需要保存字符串，只需要记录下最长长度；
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String longestCommonPrefix(String[] strs) {
 if (strs == null || strs.length == 0) {
@@ -22,4 +22,4 @@ if (strs == null || strs.length == 0) {
         return strs[0].substring(0, max);
     }
 }
-```
+// ```

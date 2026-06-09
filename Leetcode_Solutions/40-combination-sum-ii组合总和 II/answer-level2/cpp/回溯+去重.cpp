@@ -1,9 +1,9 @@
-### 解题思路
-数组包含重复数字。90基础上加上target和判断。
+// ### 解题思路
+// 数组包含重复数字。90基础上加上target和判断。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> combinationSum2(vector<int>& candidates, int target) {
@@ -44,4 +44,4 @@ private:
     int m_target;
     vector<int> m_candidates;
 };
-```
+// ```

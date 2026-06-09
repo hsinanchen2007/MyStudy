@@ -1,5 +1,5 @@
-splice插入
-```js
+// splice插入
+// ```js
 /**
  * @param {number[]} stones
  * @return {number}
@@ -18,4 +18,4 @@ var lastStoneWeight = function(stones) {
     }
     return stones.length ? stones[0] : 0;
 };
-```
+// ```

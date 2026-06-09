@@ -1,17 +1,17 @@
 
-1. 方法1：递归
-2. 方法2：
-    1. 将节点左子树全部压栈
-    2. 弹出栈顶所有没有右子树的元素并将其加入遍历结果，直到出现右子树
-    3. 若当前元素有右子树，则将当前元素加入遍历结果
-    4. 指向当前节点右子树
-    5. 若当前节点为空，则结束遍历；若当前节点不为空，则继续循环上述操作
-3. 方法3：
-    1. 将节点左子树全部压栈
-    2. 如果栈不为空则弹出栈顶元素并将其加入遍历结果，指向当前节点右子树
-    3. 若当前节点和栈均为空，则结束遍历；否则继续循环上述操作
+// 1. 方法1：递归
+// 2. 方法2：
+//     1. 将节点左子树全部压栈
+//     2. 弹出栈顶所有没有右子树的元素并将其加入遍历结果，直到出现右子树
+//     3. 若当前元素有右子树，则将当前元素加入遍历结果
+//     4. 指向当前节点右子树
+//     5. 若当前节点为空，则结束遍历；若当前节点不为空，则继续循环上述操作
+// 3. 方法3：
+//     1. 将节点左子树全部压栈
+//     2. 如果栈不为空则弹出栈顶元素并将其加入遍历结果，指向当前节点右子树
+//     3. 若当前节点和栈均为空，则结束遍历；否则继续循环上述操作
 
-```java
+// ```java
 // 方法1
 public class BinaryTreeInorderTraversal {
     public List<Integer> inorderTraversal(TreeNode root) {
@@ -25,9 +25,9 @@ public class BinaryTreeInorderTraversal {
         return result;
     }
 }
-```
+// ```
 
-```java
+// ```java
 // 方法2
 public class BinaryTreeInorderTraversal1 {
     public List<Integer> inorderTraversal(TreeNode root) {
@@ -51,9 +51,9 @@ public class BinaryTreeInorderTraversal1 {
         return result;
     }
 }
-```
+// ```
 
-```java
+// ```java
 // 方法3
 public class BinaryTreeInorderTraversal2 {
     public List<Integer> inorderTraversal(TreeNode root) {
@@ -74,4 +74,4 @@ public class BinaryTreeInorderTraversal2 {
         return result;
     }
 }
-```
+// ```

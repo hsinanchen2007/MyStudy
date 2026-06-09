@@ -1,5 +1,5 @@
-各遍历两颗树，并累加对应节点值，补齐合并后的树结构
-```c# []
+// 各遍历两颗树，并累加对应节点值，补齐合并后的树结构
+// ```c# []
  public TreeNode MergeTrees(TreeNode t1, TreeNode t2) {
         
         if(t1==null&&t2==null){
@@ -26,4 +26,4 @@
         
         MergeTreesTwo(t1.right,t2.right);
     }
-```
+// ```

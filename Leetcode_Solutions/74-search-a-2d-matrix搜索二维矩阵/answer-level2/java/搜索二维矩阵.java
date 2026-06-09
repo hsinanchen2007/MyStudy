@@ -1,5 +1,5 @@
-//二分搜索，先从最左边开始竖向搜索，找到mid，然后在横向搜索
-```
+// //二分搜索，先从最左边开始竖向搜索，找到mid，然后在横向搜索
+// ```
 public boolean searchMatrix(int[][] matrix, int target) {
     	if(matrix.length == 0 || matrix[0].length == 0 || 
     			matrix[0][0] > target || matrix[matrix.length - 1][matrix[0].length - 1] < target)
@@ -33,4 +33,4 @@ public boolean searchMatrix(int[][] matrix, int target) {
         }
         return false;
     }
-```
+// ```

@@ -1,5 +1,5 @@
 
-```
+// ```
 public List<Integer> arraysIntersection(int[] arr1, int[] arr2, int[] arr3) {
        List<Integer> list = new ArrayList<>();
         for (int i : arr1) {
@@ -10,4 +10,4 @@ public List<Integer> arraysIntersection(int[] arr1, int[] arr2, int[] arr3) {
 
         return list;
     }
-```
+// ```

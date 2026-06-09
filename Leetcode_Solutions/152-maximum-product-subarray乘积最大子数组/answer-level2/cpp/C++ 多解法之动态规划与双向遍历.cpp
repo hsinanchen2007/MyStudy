@@ -1,7 +1,7 @@
-# 解法一：
-动态规划
+// # 解法一：
+// 动态规划
 
-```C++ []
+// ```C++ []
 class Solution {
 public:
     int maxProduct(vector<int>& nums) {
@@ -26,14 +26,14 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/75ee950f4cb795651ec73a2c4b052e0f2e26716fc9aceef16e45ffe3af80fb92-image.png)
+// ![image.png](https://pic.leetcode-cn.com/75ee950f4cb795651ec73a2c4b052e0f2e26716fc9aceef16e45ffe3af80fb92-image.png)
 
-# 解法二：
-双向遍历
+// # 解法二：
+// 双向遍历
 
-```C++ []
+// ```C++ []
 class Solution {
 public:
     int maxProduct(vector<int>& nums) {
@@ -53,6 +53,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/48696b95d8757e20b434dd4834600d6cd594ef16e2fdea2a516fd84314d82b52-image.png)
+// ![image.png](https://pic.leetcode-cn.com/48696b95d8757e20b434dd4834600d6cd594ef16e2fdea2a516fd84314d82b52-image.png)

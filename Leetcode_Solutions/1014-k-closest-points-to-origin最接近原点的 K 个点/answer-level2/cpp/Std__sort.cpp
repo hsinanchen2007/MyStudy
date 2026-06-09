@@ -1,9 +1,9 @@
-### 解题思路
-直接采用系统内置的sort来进行排序，自己进行排序的化，如果是遍历的话，会超时。
+// ### 解题思路
+// 直接采用系统内置的sort来进行排序，自己进行排序的化，如果是遍历的话，会超时。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> kClosest(vector<vector<int>> &points, int K) {
@@ -23,4 +23,4 @@ public:
         return vecResult;
     };
 };
-```
+// ```

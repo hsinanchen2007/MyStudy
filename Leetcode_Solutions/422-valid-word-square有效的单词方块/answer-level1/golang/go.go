@@ -1,4 +1,4 @@
-```
+// ```
 func validWordSquare(words []string) bool {
     n:=len(words)
     pl:=n
@@ -19,4 +19,4 @@ func validWordSquare(words []string) bool {
     }
     return true
 }
-```
+// ```

@@ -1,5 +1,5 @@
-大部分人的解法,但indexof的时间复杂度应该是O(n),所以总的时间复杂度应该是O(n2)
-```
+// 大部分人的解法,但indexof的时间复杂度应该是O(n),所以总的时间复杂度应该是O(n2)
+// ```
 var lengthOfLongestSubstring = function(s) {
   let num = 0,
     j = 0,
@@ -15,9 +15,9 @@ var lengthOfLongestSubstring = function(s) {
   }
   return num;
 };
-```
-用map的解法,时间复杂度为O(n),执行时间有时能超过100%
-```
+// ```
+// 用map的解法,时间复杂度为O(n),执行时间有时能超过100%
+// ```
 var lengthOfLongestSubstring = function(s) {
   let num = 0,
     j = 0,
@@ -33,4 +33,4 @@ var lengthOfLongestSubstring = function(s) {
   }
   return num;
 };
-```
+// ```

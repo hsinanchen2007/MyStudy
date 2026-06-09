@@ -1,9 +1,9 @@
-### 解题思路
-主要就是搞了一个超值判断, 如果乘以2就超过mod, 那么就把乘3分解成一次乘2mod和一次加单倍的mod
+// ### 解题思路
+// 主要就是搞了一个超值判断, 如果乘以2就超过mod, 那么就把乘3分解成一次乘2mod和一次加单倍的mod
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int cuttingRope(int n) {
         if(n<4) return n-1;
@@ -30,4 +30,4 @@ class Solution {
         return result%mod;
     }
 }
-```
+// ```

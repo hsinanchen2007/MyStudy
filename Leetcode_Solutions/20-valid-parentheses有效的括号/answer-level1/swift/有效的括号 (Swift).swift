@@ -1,4 +1,4 @@
-``` swift
+// ``` swift
 class Solution {
     func isValid(_ s: String) -> Bool {
         let map: [Character: Character] = [")": "(", "]": "[", "}": "{"]
@@ -13,4 +13,4 @@ class Solution {
         return lefts.isEmpty
     }
 }
-```
+// ```

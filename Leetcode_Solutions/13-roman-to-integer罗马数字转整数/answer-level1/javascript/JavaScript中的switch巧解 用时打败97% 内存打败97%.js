@@ -1,7 +1,7 @@
-![微信图片_20191026124146.png](https://pic.leetcode-cn.com/708fc479182baa5a1958dfb133d5ed0b1d5e90bb8e1f520fc9ca4603ced3e4a1-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20191026124146.png)
+// ![微信图片_20191026124146.png](https://pic.leetcode-cn.com/708fc479182baa5a1958dfb133d5ed0b1d5e90bb8e1f520fc9ca4603ced3e4a1-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20191026124146.png)
 
-采取switch将特殊情况识别出来
-```
+// 采取switch将特殊情况识别出来
+// ```
 var romanToInt = function(s) {
     let obj = {
         I : 1,
@@ -38,4 +38,4 @@ var romanToInt = function(s) {
     }
     return res;
     };
-```
+// ```

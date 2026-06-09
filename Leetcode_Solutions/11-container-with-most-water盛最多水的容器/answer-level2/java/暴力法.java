@@ -1,13 +1,13 @@
-### 解题思路
-1. 暴力枚举所有的情况
+// ### 解题思路
+// 1. 暴力枚举所有的情况
 
-时间复杂度为O(n^2)
+// 时间复杂度为O(n^2)
 
-需要注意的是i，j的取值范围，避免重复枚举
+// 需要注意的是i，j的取值范围，避免重复枚举
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxArea(int[] height) {
         int max = 0;
@@ -20,4 +20,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

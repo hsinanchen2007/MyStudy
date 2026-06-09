@@ -1,9 +1,9 @@
-### 解题思路
-输出数据的方法会溢出，直接用数组解决很完美
+// ### 解题思路
+// 输出数据的方法会溢出，直接用数组解决很完美
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] plusOne(int[] digits) {
         for (int i = digits.length - 1; i >= 0; i--) {
@@ -19,4 +19,4 @@ class Solution {
 		return temp;
     }
 }
-```
+// ```

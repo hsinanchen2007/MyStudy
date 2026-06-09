@@ -1,20 +1,20 @@
-![image.png](https://pic.leetcode-cn.com/0aee9364ccc61c961e6ea4b62e7958ba54f5a7c3cf4c1fd58326013812dbd375-image.png)
+// ![image.png](https://pic.leetcode-cn.com/0aee9364ccc61c961e6ea4b62e7958ba54f5a7c3cf4c1fd58326013812dbd375-image.png)
 
 
-## 思路
-输入：
-  s = "barfoothefoobarman",
-  words = ["foo","bar"]
+// ## 思路
+// 输入：
+//   s = "barfoothefoobarman",
+//   words = ["foo","bar"]
 
-第一步：遍历 words 的每一个元素，以 word 为起点切割 s，得到切割后的片段数组 allValues = ['foothe'、'foobar'、'barfoo'、'barman']。
+// 第一步：遍历 words 的每一个元素，以 word 为起点切割 s，得到切割后的片段数组 allValues = ['foothe'、'foobar'、'barfoo'、'barman']。
 
-第二步：遍历 allValues 的每一个元素，对每个元素进行切割（如：'foobar' 切割成 ['foo', 'bar']），接着对元素数组进行排序（如：['foo', 'bar'] 排序成 ['bar', 'foo']）,然后用 join 方法合成字符串，最后得到 valuesHadSorts = ['foothe'、'barfoo'、'barfoo'、'barman']。
+// 第二步：遍历 allValues 的每一个元素，对每个元素进行切割（如：'foobar' 切割成 ['foo', 'bar']），接着对元素数组进行排序（如：['foo', 'bar'] 排序成 ['bar', 'foo']）,然后用 join 方法合成字符串，最后得到 valuesHadSorts = ['foothe'、'barfoo'、'barfoo'、'barman']。
 
-第三步：对 words 进行排序，然后把排序后的 words 用 join 方法组合成字符串 w。
+// 第三步：对 words 进行排序，然后把排序后的 words 用 join 方法组合成字符串 w。
 
-第四步：遍历 valuesHadSorts 的每一个元素，判断是否等于 w，相等则获取它们的 index。
+// 第四步：遍历 valuesHadSorts 的每一个元素，判断是否等于 w，相等则获取它们的 index。
 
-```
+// ```
 var findSubstring = function(s, words) {
   const findIndexs = (str, p) => {
     var positions = []
@@ -77,4 +77,4 @@ var findSubstring = function(s, words) {
   })
   return arr
 };
-```
+// ```

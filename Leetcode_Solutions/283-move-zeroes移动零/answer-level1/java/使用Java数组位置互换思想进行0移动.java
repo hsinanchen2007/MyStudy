@@ -1,9 +1,9 @@
-### 解题思路
-主要就是用到数组的互换操作，前后位置移动关系
+// ### 解题思路
+// 主要就是用到数组的互换操作，前后位置移动关系
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void moveZeroes(int[] nums) {
         int lastIndex = 0;//定义个临时的变量，用于存储上次为0的索引
@@ -19,4 +19,4 @@ class Solution {
 		 }
     }
 }
-```
+// ```

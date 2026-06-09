@@ -1,5 +1,5 @@
-执行用时 : 48 ms, 在Baseball Game的Python3提交中击败了93.24% 的用户 内存消耗 : 12.9 MB, 在Baseball Game的Python3提交中击败了99.26% 的用户
-```python
+# 执行用时 : 48 ms, 在Baseball Game的Python3提交中击败了93.24% 的用户 内存消耗 : 12.9 MB, 在Baseball Game的Python3提交中击败了99.26% 的用户
+# ```python
 class Solution:
     def calPoints(self, ops: List[str]) -> int:
         j = 0
@@ -18,4 +18,4 @@ class Solution:
             else:
                 s[i] = int(ops[i])
         return sum(s)
-```
+# ```

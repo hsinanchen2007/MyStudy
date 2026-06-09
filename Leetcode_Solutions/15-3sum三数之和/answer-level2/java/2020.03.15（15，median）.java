@@ -1,22 +1,22 @@
-### 解题思路
-首先对数组进行判空，之后对数组进行**排序**，排序后固定一个数 **nums[i]**，再在i后面定义**L，R**两个索引指针
+// ### 解题思路
+// 首先对数组进行判空，之后对数组进行**排序**，排序后固定一个数 **nums[i]**，再在i后面定义**L，R**两个索引指针
 
-将满足和为0的 i+L+R 放入 **sum** 中
+// 将满足和为0的 i+L+R 放入 **sum** 中
 
-如果一开始 nums[i]就大于 0，则sum必然不等于 0，结束循环
+// 如果一开始 nums[i]就大于 0，则sum必然不等于 0，结束循环
 
-如果 nums[i] == nums[i-1]，则说明该数字重复，会导致结果重复，所以应该跳过
+// 如果 nums[i] == nums[i-1]，则说明该数字重复，会导致结果重复，所以应该跳过
 
-当 sum == 0 时，如果 nums[L] == nums[L+1] 则会导致结果重复，应该跳过，L++
+// 当 sum == 0 时，如果 nums[L] == nums[L+1] 则会导致结果重复，应该跳过，L++
 
-当 sum == 0 时，如果 nums[R] == nums[R-1] 则会导致结果重复，应该跳过，R--
+// 当 sum == 0 时，如果 nums[R] == nums[R-1] 则会导致结果重复，应该跳过，R--
 
-时间复杂度：O(n^2)
+// 时间复杂度：O(n^2)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>> ans = new ArrayList<>();
@@ -56,4 +56,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

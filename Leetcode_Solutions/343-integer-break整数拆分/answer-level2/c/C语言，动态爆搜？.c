@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 int integerBreak(int n){
     int dp[n+1];
     dp[0]=0;
@@ -15,6 +15,6 @@ int integerBreak(int n){
     }
     return dp[n];
 }
-```
-就是列举了所有情况。
-这几天回书本了，写得少。
+// ```
+// 就是列举了所有情况。
+// 这几天回书本了，写得少。

@@ -1,4 +1,4 @@
-```
+// ```
 func findCircleNum(M [][]int) int {
     if len(M)<=0{
         return 0
@@ -30,4 +30,4 @@ func findCircleNum(M [][]int) int {
     }
     return res
 }
-```
+// ```

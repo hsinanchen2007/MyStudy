@@ -1,9 +1,9 @@
-### 解题思路
-逐级递归把数组分解，然后再合并
+// ### 解题思路
+// 逐级递归把数组分解，然后再合并
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
 func permute(_ nums: [Int]) -> [[Int]] {
     guard nums.count > 1 else { return [nums] }
@@ -19,4 +19,4 @@ func permute(_ nums: [Int]) -> [[Int]] {
     }
 }
 }
-```
+// ```

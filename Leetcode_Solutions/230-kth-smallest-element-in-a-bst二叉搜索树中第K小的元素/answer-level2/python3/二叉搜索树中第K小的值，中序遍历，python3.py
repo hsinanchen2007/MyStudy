@@ -1,10 +1,10 @@
-### 解题思路
-先对二叉树进行中序遍历，将节点值存入列表midorder
-返回列表midorder中的第k个值
+# ### 解题思路
+# 先对二叉树进行中序遍历，将节点值存入列表midorder
+# 返回列表midorder中的第k个值
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -24,4 +24,4 @@ class Solution:
         mid(root)
         return midorder[k-1]
 
-```
+# ```

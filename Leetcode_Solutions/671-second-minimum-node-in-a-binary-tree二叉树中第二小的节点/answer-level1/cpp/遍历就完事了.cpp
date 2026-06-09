@@ -1,9 +1,9 @@
-### 解题思路
-找出第一第二就行
+// ### 解题思路
+// 找出第一第二就行
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -61,4 +61,4 @@ public:
         return isHaveSecondVal ? secondVal : -1;
     }
 };
-```
+// ```

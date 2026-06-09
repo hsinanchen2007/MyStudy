@@ -1,5 +1,5 @@
-# 首先去张贴一下代码
-```
+// # 首先去张贴一下代码
+// ```
 class Solution {
 public:
     int reverse(int x) {
@@ -11,5 +11,5 @@ public:
         return (res > INT_MAX || res < INT_MIN) ? 0 : res;
     }
 };
-```
-如图所示，这里是使用了long做了强制转化
+// ```
+// 如图所示，这里是使用了long做了强制转化

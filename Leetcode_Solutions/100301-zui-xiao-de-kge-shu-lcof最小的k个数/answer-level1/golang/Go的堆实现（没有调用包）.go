@@ -1,6 +1,6 @@
-Go的最大堆实现
+// Go的最大堆实现
 
-```golang
+// ```golang
 func getLeastNumbers(arr []int, k int) []int {
 	if k!=0&&k!=len(arr){
 		buildMaxHeap(arr[0:k])
@@ -32,4 +32,4 @@ func adjustHeap(arr []int,i int,length int)  {
 		}
 	}
 }
-```
+// ```

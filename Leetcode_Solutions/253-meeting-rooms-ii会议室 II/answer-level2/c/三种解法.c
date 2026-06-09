@@ -1,11 +1,11 @@
-### 解题思路
-1. 直接贪心，比较难想到。总体思路，有新的会议就直接新开一个会议室，在每次开新的会议室之前判断是否有结束的会议，动态的维护会议室个数
-1. 贪心区间调度问题
-2. 差分法
-### 代码
+// ### 解题思路
+// 1. 直接贪心，比较难想到。总体思路，有新的会议就直接新开一个会议室，在每次开新的会议室之前判断是否有结束的会议，动态的维护会议室个数
+// 1. 贪心区间调度问题
+// 2. 差分法
+// ### 代码
 
-【贪心】16 ms
-```
+// 【贪心】16 ms
+// ```
 #define MAX(a, b) ((a) > (b) ? (a) : (b))
 static int Comp(const void *a,const void *b)
 {
@@ -48,10 +48,10 @@ int minMeetingRooms(int** intervals, int intervalsSize, int* intervalsColSize)
 	qsort(end, intervalsSize, sizeof(int), Comp);
 	return GenAns(start, end, intervalsSize);
 }
-```
+// ```
 
-【贪心 - 区间调度】188 ms
-```
+// 【贪心 - 区间调度】188 ms
+// ```
 #define MAX(a, b) ((a) > (b) ? (a) : (b))
 static int Comp(void *a, void *b)
 {
@@ -86,11 +86,11 @@ int minMeetingRooms(int** intervals, int intervalsSize, int* intervalsColSize){
 	}
 	return ans;
 }
-```
+// ```
 
 
-【差分】84 ms
-```c
+// 【差分】84 ms
+// ```c
 #define MAX(a, b) ((a) > (b) ? (a) : (b))
 #define MAX_N 1000050
 
@@ -119,4 +119,4 @@ int minMeetingRooms(int** intervals, int intervalsSize, int* intervalsColSize){
 }
 
 
-```
+// ```

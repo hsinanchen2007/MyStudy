@@ -1,9 +1,9 @@
-### 解题思路
-复制一个A，然后做合并排序
+// ### 解题思路
+// 复制一个A，然后做合并排序
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void merge(vector<int>& A, int m, vector<int>& B, int n) {
@@ -26,4 +26,4 @@ public:
         else for(;i < m;i++) A[i+j] = a[i];
     }
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
- 	// 计算两个字符串的ASCII总和
- 	// 找出最长的公共子序列,计算其 ASCLL 总和，再相减即可
+// ### 解题思路
+//  	// 计算两个字符串的ASCII总和
+//  	// 找出最长的公共子序列,计算其 ASCLL 总和，再相减即可
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int MAX(int a,int b){return a>b?a:b;}
 int minimumDeleteSum(char * s1, char * s2){
 
@@ -37,4 +37,4 @@ int minimumDeleteSum(char * s1, char * s2){
     int res= cnt1+cnt2-dp[len1][len2]*2;
  	return res;
 }
-```
+// ```

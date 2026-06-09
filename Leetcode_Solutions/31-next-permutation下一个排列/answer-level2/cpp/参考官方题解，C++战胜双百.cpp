@@ -1,9 +1,9 @@
-### 解题思路
-参考官方题解，C++战胜双百
+// ### 解题思路
+// 参考官方题解，C++战胜双百
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void nextPermutation(vector<int>& nums) {
@@ -31,4 +31,4 @@ public:
         return;
     }
 };
-```
+// ```

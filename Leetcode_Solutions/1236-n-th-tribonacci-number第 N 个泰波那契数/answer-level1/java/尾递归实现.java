@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int tribonacci(int n) {
         return fobo(n,0,1,1);
@@ -10,4 +10,4 @@ class Solution {
             return fobo(n-1,l2,cur,l1+l2+cur);
     }
 }
-```
+// ```

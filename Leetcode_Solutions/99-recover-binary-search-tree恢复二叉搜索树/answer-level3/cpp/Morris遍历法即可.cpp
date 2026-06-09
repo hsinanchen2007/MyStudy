@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     void recoverTree(TreeNode* root) {
@@ -23,4 +23,4 @@ public:
         if(first&&last)std::swap(first->val,last->val);
     }
 };
-```
+// ```

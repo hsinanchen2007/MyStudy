@@ -1,9 +1,9 @@
-### 解题思路
-使用双指针，类似归并的排序的思路，找到中位数。
+// ### 解题思路
+// 使用双指针，类似归并的排序的思路，找到中位数。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
         public double findMedianSortedArrays(int[] nums1,int[] nums2){
         int len1 = nums1==null || nums1.length<1 ? 0 : nums1.length;
@@ -28,4 +28,4 @@ class Solution {
         return 0;
     }
 }
-```
+// ```

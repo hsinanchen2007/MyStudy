@@ -1,9 +1,9 @@
-### 解题思路
-求岛屿最小个数的代码直接移植过来改一下count的机制就可以，就是两道题列表元素一个是int一个str需要注意判断条件，debug半天= =
+# ### 解题思路
+# 求岛屿最小个数的代码直接移植过来改一下count的机制就可以，就是两道题列表元素一个是int一个str需要注意判断条件，debug半天= =
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def maxAreaOfIsland(self, grid):
         """
@@ -31,4 +31,4 @@ class Solution(object):
                     area = max(area, zero(i,j))
                     #print(grid)
         return area
-```
+# ```

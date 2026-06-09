@@ -1,12 +1,12 @@
-### 解题思路
-二分查找的二阶形式。
+// ### 解题思路
+// 二分查找的二阶形式。
 
-分析题意，该 M*N 的矩阵是递增的。
-我们首先找出 target 可能所在的行，再在该行进行二分查找。
+// 分析题意，该 M*N 的矩阵是递增的。
+// 我们首先找出 target 可能所在的行，再在该行进行二分查找。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} matrix
  * @param {number} target
@@ -49,8 +49,8 @@ const searchColumns = (matrix, rowIndex, target) => {
 var searchMatrix = function(matrix, target) {
     return searchColumns(matrix, searchRows(matrix, target), target);
 };
-```
+// ```
 
-### 复杂度
-- 时间复杂度 O((logM)*(logN))
-- 空间复杂度 O(1)
+// ### 复杂度
+// - 时间复杂度 O((logM)*(logN))
+// - 空间复杂度 O(1)

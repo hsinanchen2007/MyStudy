@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public List<String> binaryTreePaths(TreeNode root) {
         List <String> ans = new ArrayList();
@@ -20,5 +20,5 @@ class Solution {
         sb.delete(lastIndex, sb.length());
     }
 }
-```
-相当于回溯（？）最后删除最后一个元素那里感觉处理得不好
+// ```
+// 相当于回溯（？）最后删除最后一个元素那里感觉处理得不好

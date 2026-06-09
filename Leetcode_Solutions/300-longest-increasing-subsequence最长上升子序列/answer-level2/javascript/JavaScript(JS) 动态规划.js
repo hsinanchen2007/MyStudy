@@ -1,10 +1,10 @@
-### 解题思路
-状态定义 DP[i]：从头至 i 元素，最长子序列的长度。
-状态转移方程 Dp[i] = Max{DP[j]}+1，其中 j:0 至 i-1 且 nums[j]<nums[i] 
+// ### 解题思路
+// 状态定义 DP[i]：从头至 i 元素，最长子序列的长度。
+// 状态转移方程 Dp[i] = Max{DP[j]}+1，其中 j:0 至 i-1 且 nums[j]<nums[i] 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -23,4 +23,4 @@ var lengthOfLIS = function (nums) {
     }
     return Math.max(...state)
 };
-```
+// ```

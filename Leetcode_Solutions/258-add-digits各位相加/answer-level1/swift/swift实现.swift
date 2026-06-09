@@ -1,5 +1,5 @@
-未做思考前的暴力解法
-```
+// 未做思考前的暴力解法
+// ```
 class Solution {
     func addDigits(_ num: Int) -> Int {
         var n = num
@@ -15,15 +15,15 @@ class Solution {
         return n
     }
 }
-```
+// ```
 
-观察规律总结过后的精简版
-```
+// 观察规律总结过后的精简版
+// ```
 class Solution {
     func addDigits(_ num: Int) -> Int {
         if num == 0 { return 0 }
         return num%9==0 ? 9 : num%9
     }
 }
-```
+// ```
 

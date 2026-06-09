@@ -1,4 +1,4 @@
-```
+// ```
 class MinStack {
 
     static int DEFAULT_CAPACITY = 16;
@@ -72,4 +72,4 @@ class MinStack {
 		return this.min;
 	}
 }
-```
+// ```

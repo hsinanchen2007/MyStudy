@@ -1,9 +1,9 @@
-### 解题思路
-![leetcode24swapnodeinparis.JPG](https://pic.leetcode-cn.com/763b502bd7d33405e1f24473b509a4441fa24f5d074f2b0f2649b5842bce6712-leetcode24swapnodeinparis.JPG)
+// ### 解题思路
+// ![leetcode24swapnodeinparis.JPG](https://pic.leetcode-cn.com/763b502bd7d33405e1f24473b509a4441fa24f5d074f2b0f2649b5842bce6712-leetcode24swapnodeinparis.JPG)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -37,4 +37,4 @@ public:
         return retNode;
     }
 };
-```
+// ```

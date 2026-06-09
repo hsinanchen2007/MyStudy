@@ -1,10 +1,10 @@
-### 解题思路
-![1584367332(1).png](https://pic.leetcode-cn.com/3f250ddeaa9c721353097f96cf572328efea3bbe16cc0baf1869f4d3e26de6c5-1584367332\(1\).png)
+// ### 解题思路
+// ![1584367332(1).png](https://pic.leetcode-cn.com/3f250ddeaa9c721353097f96cf572328efea3bbe16cc0baf1869f4d3e26de6c5-1584367332\(1\).png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -33,4 +33,4 @@ struct ListNode* removeNthFromEnd(struct ListNode* head, int n){
     head=head_flag;
     return head;
 }
-```
+// ```

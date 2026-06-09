@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     string longestPalindrome(string s) {
@@ -19,4 +19,4 @@ public:
         return s.substr(g_start, len);
     }
 };
-```
+// ```

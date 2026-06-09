@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/c15ac9e1842e1746f28e1f8e4ae2d6b6d2f1f1607bc4848162083b1dbcbaa126-image.png)
+// ![image.png](https://pic.leetcode-cn.com/c15ac9e1842e1746f28e1f8e4ae2d6b6d2f1f1607bc4848162083b1dbcbaa126-image.png)
 
-```rust
+// ```rust
 impl Solution {
     pub fn add_strings(mut num1: String, mut num2: String) -> String {
         let mut res = String::new();
@@ -15,5 +15,5 @@ impl Solution {
         res.chars().rev().collect::<String>()
     }
 }
-```
+// ```
 

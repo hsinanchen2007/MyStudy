@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} A
  * @return {boolean}
@@ -28,4 +28,4 @@ var canThreePartsEqualSum = function(A) {
     }
     return flag;
 };
-```
+// ```

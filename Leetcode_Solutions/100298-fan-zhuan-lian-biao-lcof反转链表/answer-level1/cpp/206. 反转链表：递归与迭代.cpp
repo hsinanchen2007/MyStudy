@@ -1,10 +1,10 @@
-### 解题思路
-* 迭代：使用了新建链表。空间复杂度O(n);
-* 递归：只是修改了next指针。空间复杂度O(1);
+// ### 解题思路
+// * 迭代：使用了新建链表。空间复杂度O(n);
+// * 递归：只是修改了next指针。空间复杂度O(1);
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -31,10 +31,10 @@ public:
         return h;
     }
 };
-```
-![1.png](https://pic.leetcode-cn.com/e7243870d0cedf960267067a90a26da52b603366d70f084b1dd895108c4ed510-1.png)
+// ```
+// ![1.png](https://pic.leetcode-cn.com/e7243870d0cedf960267067a90a26da52b603366d70f084b1dd895108c4ed510-1.png)
 
-```cpp
+// ```cpp
 // 递归
     ListNode* reverseList(ListNode* head) {
         if(head == NULL)
@@ -52,5 +52,5 @@ public:
         h = node;
         reverseNode(tmp, h);
     }
-```
-![2.png](https://pic.leetcode-cn.com/fa874e3e1130d1456c03567fe502240921805062def13d6c28730a42559a5e75-2.png)
+// ```
+// ![2.png](https://pic.leetcode-cn.com/fa874e3e1130d1456c03567fe502240921805062def13d6c28730a42559a5e75-2.png)

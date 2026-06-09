@@ -1,9 +1,9 @@
-### 解题思路
-桶计数，记录每个字符出现的次数
+// ### 解题思路
+// 桶计数，记录每个字符出现的次数
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func isFlipedString(s1 string, s2 string) bool {
   var m = make([]int, 256)
   for _, c := range s1 {
@@ -19,4 +19,4 @@ func isFlipedString(s1 string, s2 string) bool {
   }
   return true
 }
-```
+// ```

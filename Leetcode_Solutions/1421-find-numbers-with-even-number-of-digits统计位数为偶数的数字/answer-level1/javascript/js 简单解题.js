@@ -1,11 +1,11 @@
-![image.png](https://pic.leetcode-cn.com/8baf672a28b6699dfd1f6905921c0aacb559ab4cae84c0f2001da85e8a0bdd8a-image.png)
+// ![image.png](https://pic.leetcode-cn.com/8baf672a28b6699dfd1f6905921c0aacb559ab4cae84c0f2001da85e8a0bdd8a-image.png)
 
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -22,4 +22,4 @@ var findNumbers = function(nums) {
   
   return count;
 };
-```
+// ```

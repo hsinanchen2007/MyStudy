@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int findSpecialInteger(int[] arr) {
         int cnt = 0;
@@ -23,5 +23,5 @@ class Solution {
         return num;
     }
 }
-```
-时间复杂度 O（N）, 空间复杂度O（1），主要是利用题干的"有序"条件
+// ```
+// 时间复杂度 O（N）, 空间复杂度O（1），主要是利用题干的"有序"条件

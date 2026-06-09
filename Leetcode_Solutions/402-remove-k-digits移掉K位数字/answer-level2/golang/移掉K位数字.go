@@ -1,9 +1,9 @@
-### 解题思路
-单调递增栈
+// ### 解题思路
+// 单调递增栈
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func removeKdigits(num string, k int) string {
 	if k <= 0 {
 		return num
@@ -39,4 +39,4 @@ func removeKdigits(num string, k int) string {
 	return result
 }
 
-```
+// ```

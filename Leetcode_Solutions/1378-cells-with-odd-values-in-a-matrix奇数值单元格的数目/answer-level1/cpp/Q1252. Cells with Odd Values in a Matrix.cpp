@@ -1,6 +1,6 @@
-### 模拟
-直接按照题意模拟即可
-```
+// ### 模拟
+// 直接按照题意模拟即可
+// ```
 class Solution {
 public:
 	int oddCells(int n, int m, vector<vector<int>>& indices) {
@@ -19,5 +19,5 @@ public:
 		return nOddCells;
 	}
 };
-```
-我果真不适合写题解，写文章啊！
+// ```
+// 我果真不适合写题解，写文章啊！

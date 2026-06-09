@@ -1,4 +1,4 @@
-# <!-- 暴力题解,虽然效率不高,但可以看一下我的思路 -->
+// # <!-- 暴力题解,虽然效率不高,但可以看一下我的思路 -->
 class Solution {
     public List<Integer> selfDividingNumbers(int left, int right) {
         List<Integer> list = new ArrayList<>();

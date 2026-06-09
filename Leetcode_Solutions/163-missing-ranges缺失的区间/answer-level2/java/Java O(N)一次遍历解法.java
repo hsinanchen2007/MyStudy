@@ -1,9 +1,9 @@
-### 解题思路
-思路非常简单，就是把lower和upper分别加到数组左右，记得将lower和upper转换为long，防止溢出。
+// ### 解题思路
+// 思路非常简单，就是把lower和upper分别加到数组左右，记得将lower和upper转换为long，防止溢出。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<String> findMissingRanges(int[] nums, int lower, int upper) {
         List<String> res = new ArrayList<>();
@@ -24,4 +24,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

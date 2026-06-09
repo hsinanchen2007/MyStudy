@@ -1,9 +1,9 @@
-### 解题思路
-一开始把很多方法混在一起写，发现变量会变的很乱。最后抽象出 方法 getNextCharFromFile 去解，就不会显得很乱。简单易懂。
+// ### 解题思路
+// 一开始把很多方法混在一起写，发现变量会变的很乱。最后抽象出 方法 getNextCharFromFile 去解，就不会显得很乱。简单易懂。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * The read4 API is defined in the parent class Reader4.
  *     int read4(char[] buf); 
@@ -69,4 +69,4 @@ public class Solution extends Reader4 {
     
     
 }
-```
+// ```

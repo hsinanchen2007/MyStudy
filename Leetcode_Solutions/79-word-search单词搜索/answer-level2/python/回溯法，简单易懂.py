@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:
         result = [False]
@@ -27,4 +27,4 @@ class Solution:
         board[row][col] = char
         return
 
-```
+# ```

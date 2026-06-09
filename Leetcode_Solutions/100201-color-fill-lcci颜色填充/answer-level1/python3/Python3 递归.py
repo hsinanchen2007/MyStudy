@@ -1,9 +1,9 @@
-### 解题思路
-733. 图像渲染
-题目一毛一样
-### 代码
+# ### 解题思路
+# 733. 图像渲染
+# 题目一毛一样
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def floodFill(self, image: List[List[int]], sr: int, sc: int, newColor: int) -> List[List[int]]:
         length=len(image[0])
@@ -23,4 +23,4 @@ class Solution:
                 my_flood(sr,sc+1)
             return image
         return my_flood(sr,sc)
-```
+# ```

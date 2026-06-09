@@ -1,9 +1,9 @@
-***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，持续更新。***
+// ***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，持续更新。***
 
 
-使用map记录每个字符出现的次数，出现次数为key，对应字符为val，因为不同的字符可能出现相同次数，所以使用List来保存val。然后将map根据出现次数从大到小排列元素，然后遍历Map，将出现次数对应的字符加入结果即可。
+// 使用map记录每个字符出现的次数，出现次数为key，对应字符为val，因为不同的字符可能出现相同次数，所以使用List来保存val。然后将map根据出现次数从大到小排列元素，然后遍历Map，将出现次数对应的字符加入结果即可。
 
-```
+// ```
 class Solution {
     public String frequencySort(String s) {
         Map<Integer,List<Character>> map = new HashMap<>();
@@ -45,4 +45,4 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```

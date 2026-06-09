@@ -1,12 +1,12 @@
-### 解题思路
-手写思路，C暴力求解
-![2.jpg](https://pic.leetcode-cn.com/9be1d11e0ddd96fc0849a2904d06041ed5631cf51cfa146e4acf93ea8d43f401-2.jpg)
+// ### 解题思路
+// 手写思路，C暴力求解
+// ![2.jpg](https://pic.leetcode-cn.com/9be1d11e0ddd96fc0849a2904d06041ed5631cf51cfa146e4acf93ea8d43f401-2.jpg)
 
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MIN(a, b, c) (a < (b < c ? b :c) ? a : (b < c ? b :c))
 //定义宏MIN，可以快速地求出三个数当中的最小值
 #include<string.h>
@@ -54,4 +54,4 @@ int minDistance(char *word1, char *word2)
 	
     return ret;
 }
-```
+// ```

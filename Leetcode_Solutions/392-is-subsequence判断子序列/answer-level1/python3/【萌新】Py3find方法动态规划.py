@@ -1,10 +1,10 @@
-### 解题思路
-遍历s，对于每个i，如果在t中就返回索引loc
-用find函数的beg关键字，对字符串进行“切片”
+# ### 解题思路
+# 遍历s，对于每个i，如果在t中就返回索引loc
+# 用find函数的beg关键字，对字符串进行“切片”
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isSubsequence(self, s: str, t: str) -> bool:
         loc=-1
@@ -16,4 +16,4 @@ class Solution:
             elif i not in t:
                 return False
         return True
-```
+# ```

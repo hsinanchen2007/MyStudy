@@ -1,9 +1,9 @@
-### 法一
-先求出leng1 与length2的最大公约数，然后判断即可。
+// ### 法一
+// 先求出leng1 与length2的最大公约数，然后判断即可。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String gcdOfStrings(String str1, String str2) {
         int n = getGCD(str1.length(), str2.length());
@@ -39,15 +39,15 @@ class Solution {
         return a;
     }
 }
-```
+// ```
 
-###法二
-其实也是法一的思路，不过这里有点优化：
-如果它们有公因子 abc，那么 str1 就是m个 abc 的重复，str2 是 n 个 abc 的重复，连起来就是 m+n 个 abc，好像m+n 个 abc 跟 n+m 个 abc 是一样的。所以如果 str1 + str2 === str2 + str1 就意味着有解。
-我们也很容易想到 str1 + str2 !== str2 + str1 也是无解的充要条件。
-当确定有解的情况下，最优解是长度为 gcd(str1.length, str2.length) 的字符串。这个理论最优长度是不是每次都能达到呢？是的。因为如果能循环以它的约数为长度的字符串，自然也能够循环以它为长度的字符串，所以这个理论长度就是我们要找的最优解。
+// ###法二
+// 其实也是法一的思路，不过这里有点优化：
+// 如果它们有公因子 abc，那么 str1 就是m个 abc 的重复，str2 是 n 个 abc 的重复，连起来就是 m+n 个 abc，好像m+n 个 abc 跟 n+m 个 abc 是一样的。所以如果 str1 + str2 === str2 + str1 就意味着有解。
+// 我们也很容易想到 str1 + str2 !== str2 + str1 也是无解的充要条件。
+// 当确定有解的情况下，最优解是长度为 gcd(str1.length, str2.length) 的字符串。这个理论最优长度是不是每次都能达到呢？是的。因为如果能循环以它的约数为长度的字符串，自然也能够循环以它为长度的字符串，所以这个理论长度就是我们要找的最优解。
 
-```java
+// ```java
 class Solution {
     public String gcdOfStrings(String str1, String str2) {
         if (!(str1 + str2).equals(str2 + str1)) {
@@ -73,4 +73,4 @@ class Solution {
         return a;
     }
 }
-```
+// ```

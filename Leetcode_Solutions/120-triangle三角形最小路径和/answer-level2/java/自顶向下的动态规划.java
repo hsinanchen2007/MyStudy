@@ -1,5 +1,5 @@
-自底向上自然比自顶向下更好，其他解题中写得很好，只是写中规中矩的方法
-```
+// 自底向上自然比自顶向下更好，其他解题中写得很好，只是写中规中矩的方法
+// ```
 class Solution {
     public int minimumTotal(List<List<Integer>> triangle) {
         if(triangle.size()==0)
@@ -44,4 +44,4 @@ class Solution {
         return min;
     }
 }
-```
+// ```

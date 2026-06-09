@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int kthLargest(TreeNode root, int k) {
         int[] result = new int[2];
@@ -16,7 +16,7 @@ class Solution {
         }
     }
 }
-```
-用result数组控制递归和存储结果。
+// ```
+// 用result数组控制递归和存储结果。
 
-因为题目限制k为合理值，不考虑k>size的情况。
+// 因为题目限制k为合理值，不考虑k>size的情况。

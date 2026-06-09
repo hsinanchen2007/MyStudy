@@ -1,11 +1,11 @@
-### 解题思路
-利用双栈，对于队列来说，是先进先出，栈是先进后出，那么利用两个栈，就可以模拟完成先进先出。
-![image.png](https://pic.leetcode-cn.com/347ba7ab14967f1206eaf5230c04b359afecdd5808156da58a62e3496ded8ad2-image.png)
+// ### 解题思路
+// 利用双栈，对于队列来说，是先进先出，栈是先进后出，那么利用两个栈，就可以模拟完成先进先出。
+// ![image.png](https://pic.leetcode-cn.com/347ba7ab14967f1206eaf5230c04b359afecdd5808156da58a62e3496ded8ad2-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MyQueue {
 public:
     stack<int> pushstack; 
@@ -69,4 +69,4 @@ public:
  * int param_3 = obj->peek();
  * bool param_4 = obj->empty();
  */
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-始终选择中间节点作为根节点
+// ### 解题思路
+// 始终选择中间节点作为根节点
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -28,4 +28,4 @@ class Solution {
         return null;
     }
 }
-```
+// ```

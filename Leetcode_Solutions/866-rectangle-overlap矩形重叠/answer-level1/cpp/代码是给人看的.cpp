@@ -1,8 +1,8 @@
-### 解题思路
-坐标要标记清楚。
-### 代码
+// ### 解题思路
+// 坐标要标记清楚。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isRectangleOverlap(vector<int>& rec1, vector<int>& rec2) {
@@ -13,4 +13,4 @@ public:
         return x && y;
     }
 };
-```
+// ```

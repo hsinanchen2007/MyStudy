@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/56b7878c3ae87f3199a9c64c1f9f5b0c44adec9bfeae20c211090ef48fcdcab4-image.png)
+// ![image.png](https://pic.leetcode-cn.com/56b7878c3ae87f3199a9c64c1f9f5b0c44adec9bfeae20c211090ef48fcdcab4-image.png)
 
-```
+// ```
 bool checkInclusion(char * s1, char * s2){
     if(s1 == NULL || s2 == NULL) {
         return false;
@@ -37,4 +37,4 @@ bool checkInclusion(char * s1, char * s2){
 
     return cnt == 0;
 }
-```
+// ```

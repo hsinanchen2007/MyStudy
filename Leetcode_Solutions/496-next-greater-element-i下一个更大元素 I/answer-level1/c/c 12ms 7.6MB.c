@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *整体思路：
@@ -55,4 +55,4 @@ int * nextGreaterElement(int * nums1 , int nums1Size , int * nums2 , int nums2Si
     return buffer;
 
 }
-```
+// ```

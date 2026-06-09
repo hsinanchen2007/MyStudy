@@ -1,9 +1,9 @@
-二叉搜索树的特性是左子树的值小于根节点的值，右子树的值大于根节点
+// 二叉搜索树的特性是左子树的值小于根节点的值，右子树的值大于根节点
 
-后续遍历的顺序是左-右-根
+// 后续遍历的顺序是左-右-根
 
-因此，给定一个数组，我们可以比较数值的大小找到它的左子树和右子树，递归地重构数组对应的二叉搜索树
-```go []
+// 因此，给定一个数组，我们可以比较数值的大小找到它的左子树和右子树，递归地重构数组对应的二叉搜索树
+// ```go []
 func verifyPostorder(postorder []int) bool {
 	if len(postorder)<=1{
 		return true
@@ -27,6 +27,6 @@ func verifyPostorder(postorder []int) bool {
 	// 继续判断根的左子树和右子树是否满足二叉搜索树的要求
 	return verifyPostorder(postorder[:flag])&&verifyPostorder(postorder[flag:l-1])
 }
-```
+// ```
 
 

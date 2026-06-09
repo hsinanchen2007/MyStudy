@@ -1,5 +1,5 @@
-简单的数组切割，主要理解题意
-```
+// 简单的数组切割，主要理解题意
+// ```
 func dietPlanPerformance(calories []int, k int, lower int, upper int) int {
     sum, count := 0, 0
     if len(calories) < k {
@@ -23,4 +23,4 @@ func dietPlanPerformance(calories []int, k int, lower int, upper int) int {
     }
     return count
 }
-```
+// ```

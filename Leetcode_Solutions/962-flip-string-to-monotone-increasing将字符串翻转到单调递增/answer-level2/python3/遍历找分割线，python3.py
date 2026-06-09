@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def minFlipsMonoIncr(self, S: str) -> int:
         N=len(S)
@@ -14,4 +14,4 @@ class Solution:
                 n_1+=1
             res=min(res,n_1+(N_0-n_0))  #在i位置后面做分割
         return res
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 func distance(a, b int) int {
 	if a <= b {
 		return b - a
@@ -58,4 +58,4 @@ func (this *WordDistance) Shortest(word1 string, word2 string) int {
 	}
 	return d
 }
-```
+// ```

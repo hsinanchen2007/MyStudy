@@ -1,9 +1,9 @@
-### 解题思路
-BFS DFS
+// ### 解题思路
+// BFS DFS
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -54,4 +54,4 @@ private:
         else return DFS(leftnode->left, rightnode->right) && DFS(leftnode->right, rightnode->left);
     }
 };
-```
+// ```

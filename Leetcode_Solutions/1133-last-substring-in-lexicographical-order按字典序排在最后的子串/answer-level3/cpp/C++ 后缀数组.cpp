@@ -1,14 +1,14 @@
-### 解题思路
-首先本题只需要在所有后缀子串中找到字典序最大的那个。
-后缀数组算法的思想是对于已经比较过的子串，利用之前的比较结果，不再重复比较。
-参考资料：[https://www.***.org/suffix-array-set-2-a-nlognlogn-algorithm/](https://www.***.org/suffix-array-set-2-a-nlognlogn-algorithm/)
+// ### 解题思路
+// 首先本题只需要在所有后缀子串中找到字典序最大的那个。
+// 后缀数组算法的思想是对于已经比较过的子串，利用之前的比较结果，不再重复比较。
+// 参考资料：[https://www.***.org/suffix-array-set-2-a-nlognlogn-algorithm/](https://www.***.org/suffix-array-set-2-a-nlognlogn-algorithm/)
 
-耗时还是不小，后面再找找原因。
-![图片.png](https://pic.leetcode-cn.com/70b3f823a8629efa158246cccb1a91fb8fc45202f2c1f4f0f1712760515aece8-%E5%9B%BE%E7%89%87.png)
+// 耗时还是不小，后面再找找原因。
+// ![图片.png](https://pic.leetcode-cn.com/70b3f823a8629efa158246cccb1a91fb8fc45202f2c1f4f0f1712760515aece8-%E5%9B%BE%E7%89%87.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 struct suffix {
     int index;
     int rank[2];
@@ -63,4 +63,4 @@ public:
         return s.substr(idx);
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
 
-代码即题解，直来直去。
+// 代码即题解，直来直去。
 
     public String addBoldTag(String s, String[] dict) {
         int[] flags = new int[s.length()];

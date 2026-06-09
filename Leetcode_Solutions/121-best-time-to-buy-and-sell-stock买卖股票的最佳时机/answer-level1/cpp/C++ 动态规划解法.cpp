@@ -1,8 +1,8 @@
-### 解题思路
-同《剑指offer》第63题，P304
-### 代码
+// ### 解题思路
+// 同《剑指offer》第63题，P304
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
@@ -15,4 +15,4 @@ public:
         return dp_i_0;
     }
 };
-```
+// ```

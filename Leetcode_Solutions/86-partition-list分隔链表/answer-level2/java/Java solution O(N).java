@@ -1,6 +1,6 @@
 
-找出第一个大于等于x的节点A，遍历A后的节点，如果该节点的值小于x，则将该节点插到节点A的前面。
-```
+// 找出第一个大于等于x的节点A，遍历A后的节点，如果该节点的值小于x，则将该节点插到节点A的前面。
+// ```
 class Solution {
     public ListNode partition(ListNode head, int x) {
         ListNode root=new ListNode(-1);
@@ -25,4 +25,4 @@ class Solution {
         return root.next;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-仔细看看代码,都可以看懂的
+// ### 解题思路
+// 仔细看看代码,都可以看懂的
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
    public List<List<String>> partition(String s) {
 List<List<String>> ans = new LinkedList<>();
@@ -55,4 +55,4 @@ dp[0][0] = true;
 	}
 
 }
-```
+// ```

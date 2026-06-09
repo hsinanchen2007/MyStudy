@@ -1,9 +1,9 @@
-### 解题思路
-直接用del 删除list元素。注意len(list)是变化的。
+# ### 解题思路
+# 直接用del 删除list元素。注意len(list)是变化的。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def removeElement(self, nums, val):
         """
@@ -22,4 +22,4 @@ class Solution(object):
                 i = i+1
         return len(nums)
         
-```
+# ```

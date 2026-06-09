@@ -1,8 +1,8 @@
-### 解题思路
-比较笨的办法，2个循环；只要找到一个重复的就跳出2层循环，配合continue使用。执行时间和内存消耗都是100%
-### 代码
+// ### 解题思路
+// 比较笨的办法，2个循环；只要找到一个重复的就跳出2层循环，配合continue使用。执行时间和内存消耗都是100%
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isUnique(String astr) {
         char[] str = astr.toCharArray();
@@ -18,4 +18,4 @@ class Solution {
         return flag;
     }
 }
-```
+// ```

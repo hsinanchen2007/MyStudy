@@ -1,10 +1,10 @@
-### 解题思路
-1. 后续遍历 
-2. 左右节点为root时 若均符合， 如果该节点与左右节点值也符合， 那么继续向上层返回true, 以及sum
-3. 注意 子节点为nil，以及不符合要求的情况
-### 代码
+// ### 解题思路
+// 1. 后续遍历 
+// 2. 左右节点为root时 若均符合， 如果该节点与左右节点值也符合， 那么继续向上层返回true, 以及sum
+// 3. 注意 子节点为nil，以及不符合要求的情况
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -60,4 +60,4 @@ func max(i, j int)int {
     }
     return j
 }
-```
+// ```

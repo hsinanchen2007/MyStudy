@@ -1,9 +1,9 @@
-### 解题思路
-写的太差， 废了很长时间， 不知谁有更好解法么
-对s中每个字符计数， 来回遍历count数组
-### 代码
+// ### 解题思路
+// 写的太差， 废了很长时间， 不知谁有更好解法么
+// 对s中每个字符计数， 来回遍历count数组
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string sortString(string s) {
@@ -51,4 +51,4 @@ public:
         return result;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-使用转换浮点数的方法进行转换，然后利用js==会自动进行类型转换来进行判断
+// ### 解题思路
+// 使用转换浮点数的方法进行转换，然后利用js==会自动进行类型转换来进行判断
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {boolean}
@@ -23,4 +23,4 @@ var isNumber = function(s) {
       return false
   }
 };
-```
+// ```

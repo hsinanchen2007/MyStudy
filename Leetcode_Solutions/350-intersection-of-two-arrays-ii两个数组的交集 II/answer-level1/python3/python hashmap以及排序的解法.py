@@ -1,6 +1,6 @@
-利用python解答
+# 利用python解答
 
-```
+# ```
 # hashmap
 class Solution:
     def intersect(self, nums1: List[int], nums2: List[int]) -> List[int]:
@@ -38,4 +38,4 @@ class Solution:
                 righti+=1
         return res
 
-```
+# ```

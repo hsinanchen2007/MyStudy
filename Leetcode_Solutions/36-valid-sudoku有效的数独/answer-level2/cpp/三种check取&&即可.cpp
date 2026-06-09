@@ -1,10 +1,10 @@
-### 解题思路
-三种check取&&，这个算easy才对
-columnValid(board) && rowValid(board) && groupValid(board)
+// ### 解题思路
+// 三种check取&&，这个算easy才对
+// columnValid(board) && rowValid(board) && groupValid(board)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isValidSudoku(vector<vector<char>>& board) {
@@ -65,8 +65,8 @@ public:
         return true;
     }
 };
-```
+// ```
 
-### 结果
-执行用时 : 28 ms , 在所有 C++ 提交中击败了 15.93% 的用户 
-内存消耗 : 8.3 MB , 在所有 C++ 提交中击败了 100.00% 的用户
+// ### 结果
+// 执行用时 : 28 ms , 在所有 C++ 提交中击败了 15.93% 的用户 
+// 内存消耗 : 8.3 MB , 在所有 C++ 提交中击败了 100.00% 的用户

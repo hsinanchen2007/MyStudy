@@ -1,7 +1,7 @@
-感觉今天的每日一题挺简单的哈哈。
-执行用时 : 1 ms , 在所有 Java 提交中击败了 99.98% 的用户
-为啥执行用时1ms却只击败了99.98%（笑）
-```
+// 感觉今天的每日一题挺简单的哈哈。
+// 执行用时 : 1 ms , 在所有 Java 提交中击败了 99.98% 的用户
+// 为啥执行用时1ms却只击败了99.98%（笑）
+// ```
 class Solution {
     public int trap(int[] height) {
         if (height.length < 3){
@@ -35,4 +35,4 @@ class Solution {
         return total;
     }
 }
-```
+// ```

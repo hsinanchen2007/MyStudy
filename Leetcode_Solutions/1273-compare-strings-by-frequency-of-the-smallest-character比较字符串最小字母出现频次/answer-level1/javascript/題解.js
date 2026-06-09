@@ -1,10 +1,10 @@
-### 解题思路
-先將words跑迴圈取出charCode最小者並計算次數後存入dictionary，再將queries跑迴圈取出charCode最小者並計算次數，
-並依此跟dictionary中的次數做比較並計算次數，將次數存入res
+// ### 解题思路
+// 先將words跑迴圈取出charCode最小者並計算次數後存入dictionary，再將queries跑迴圈取出charCode最小者並計算次數，
+// 並依此跟dictionary中的次數做比較並計算次數，將次數存入res
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} queries
  * @param {string[]} words
@@ -57,4 +57,4 @@ var numSmallerByFrequency = function(queries, words) {
     }
     return res;
 };
-```
+// ```

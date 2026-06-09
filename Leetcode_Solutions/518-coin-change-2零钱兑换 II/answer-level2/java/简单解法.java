@@ -1,5 +1,5 @@
-递归：
-```
+// 递归：
+// ```
 public int change(int amount, int[] coins) {
     return process(coins, 0, amount);
 }
@@ -18,9 +18,9 @@ public int process(int[] coins, int i, int rest) {
     }
     return bu + xuan;   
 }
-```
-二维数组
-```
+// ```
+// 二维数组
+// ```
 public int change(int amount, int[] coins) { 
     int rows = coins.length + 1;
     int cols = amount + 1;
@@ -44,9 +44,9 @@ public int change(int amount, int[] coins) {
     }
     return dp[0][amount];
 }
-```
-空间复杂度优化：
-```
+// ```
+// 空间复杂度优化：
+// ```
 public int change(int amount, int[] coins) {
         
     int rows = coins.length + 1;
@@ -63,5 +63,5 @@ public int change(int amount, int[] coins) {
     }
     return dp[amount];
 }
-```
+// ```
 

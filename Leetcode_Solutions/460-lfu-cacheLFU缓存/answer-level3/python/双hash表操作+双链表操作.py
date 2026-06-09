@@ -1,12 +1,12 @@
-### 解题思路
+# ### 解题思路
 
-两个map：
-    一个用于搜索：存key、val、cnt
-    一个用于调度：双链表，改变节点优先级
+# 两个map：
+#     一个用于搜索：存key、val、cnt
+#     一个用于调度：双链表，改变节点优先级
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class keyDictNode:
     def __init__(self, key, val):
         self.key = key
@@ -114,4 +114,4 @@ class LFUCache(object):
             # 新节点插入两表
             node = self.keyDict.put(key, value) 
             self.freDict.put(node)            
-```
+# ```

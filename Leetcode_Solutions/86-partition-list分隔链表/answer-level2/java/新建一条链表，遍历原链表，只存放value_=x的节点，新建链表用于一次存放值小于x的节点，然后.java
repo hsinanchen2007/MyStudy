@@ -1,6 +1,6 @@
-总的思路就是创建另一条链表用来存放原链表中的value,该value小于x
-遍历原链表，遇到value<x就将其移出原链表，加入小链表。使用哑点的原因就是不用考虑空链表或者链表数为1的特殊情况
-```
+// 总的思路就是创建另一条链表用来存放原链表中的value,该value小于x
+// 遍历原链表，遇到value<x就将其移出原链表，加入小链表。使用哑点的原因就是不用考虑空链表或者链表数为1的特殊情况
+// ```
     public ListNode partition(ListNode head, int x) {
         ListNode originDummy = new ListNode(-1);
         //拼接
@@ -37,4 +37,4 @@
         //将OriginDummy连接到smallDummy后面
         smallDummy.next = originDummy.next;
         return smallHead.next;
-```
+// ```

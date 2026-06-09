@@ -1,9 +1,9 @@
-### 解题思路
-首先删除末尾的所有空格，再用string类的rfind函数寻找最后一个空格后的单词，如果没有空格则整体为最后一个单词。
+// ### 解题思路
+// 首先删除末尾的所有空格，再用string类的rfind函数寻找最后一个空格后的单词，如果没有空格则整体为最后一个单词。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int lengthOfLastWord(string s) {
@@ -17,4 +17,4 @@ public:
         return s.substr(lastWordPos+1).length();
     }
 };
-```
+// ```

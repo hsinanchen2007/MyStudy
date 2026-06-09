@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/453f6df6755dba8099cda42c6073b695c515fbef4b41515edca78c753ec694b7-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/453f6df6755dba8099cda42c6073b695c515fbef4b41515edca78c753ec694b7-image.png)
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} coins
  * @param {number} amount
@@ -27,4 +27,4 @@
     }
     return check(amount);
   };
-```
+// ```

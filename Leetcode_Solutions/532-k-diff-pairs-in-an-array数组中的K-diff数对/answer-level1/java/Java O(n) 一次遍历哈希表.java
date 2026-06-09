@@ -1,7 +1,7 @@
-主要思路和two-sum神似，注意k=0和k<0（细节决定成败。。）的情况。
-有人预先进行了排序，虽然对于主体判断有一定的简化作用，但是排序依然需要O(nlog(n))，这里的时间复杂度不能漏了，所以不考虑预先排序还是首选。
+// 主要思路和two-sum神似，注意k=0和k<0（细节决定成败。。）的情况。
+// 有人预先进行了排序，虽然对于主体判断有一定的简化作用，但是排序依然需要O(nlog(n))，这里的时间复杂度不能漏了，所以不考虑预先排序还是首选。
 
-```
+// ```
 class Solution {
     public int findPairs(int[] nums, int k) {
         // for cases of negative k
@@ -26,4 +26,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

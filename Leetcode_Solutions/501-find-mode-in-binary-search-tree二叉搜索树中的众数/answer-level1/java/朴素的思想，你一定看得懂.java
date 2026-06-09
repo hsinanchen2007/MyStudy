@@ -1,12 +1,12 @@
-### 解题思路
-1.谈到计数，想到map，利用中序遍历，将所有节点值存入map。
-2.遍历map，拿到最大的value 即保存在max遍历。
-3.再次遍历map，拿到所有value值等于max的key。
-4.返回结果。
+// ### 解题思路
+// 1.谈到计数，想到map，利用中序遍历，将所有节点值存入map。
+// 2.遍历map，拿到最大的value 即保存在max遍历。
+// 3.再次遍历map，拿到所有value值等于max的key。
+// 4.返回结果。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -48,4 +48,4 @@ class Solution {
         mid(root.right);
     }
 }
-```
+// ```

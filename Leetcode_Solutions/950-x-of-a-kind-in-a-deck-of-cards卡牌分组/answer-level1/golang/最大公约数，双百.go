@@ -1,9 +1,9 @@
-### 解题思路
-排序后可以节省hashmap的空间。
+// ### 解题思路
+// 排序后可以节省hashmap的空间。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func hasGroupsSizeX(deck []int) bool {
 
     dl := len(deck)
@@ -66,4 +66,4 @@ func hasGroupsSizeX(deck []int) bool {
 
     return false
 }
-```
+// ```

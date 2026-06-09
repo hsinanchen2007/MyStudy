@@ -1,11 +1,11 @@
-分解 A+B+C+D 为A+B和C+D，对A+B进行hash存储(最大250000个值)，遍历C+D时，从hash中搜索。
+// 分解 A+B+C+D 为A+B和C+D，对A+B进行hash存储(最大250000个值)，遍历C+D时，从hash中搜索。
 
-**执行用时 :52 ms, 在所有 java 提交中击败了99.91%的用户
-内存消耗 :49.2 MB, 在所有 java 提交中击败了99.04%的用户**
+// **执行用时 :52 ms, 在所有 java 提交中击败了99.91%的用户
+// 内存消耗 :49.2 MB, 在所有 java 提交中击败了99.04%的用户**
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private static final int MOD = 500131;
     private static final int ADD = 1<<29;
@@ -76,4 +76,4 @@ class Solution {
         return totalCnt;
     }
 }
-```
+// ```

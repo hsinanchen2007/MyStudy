@@ -1,9 +1,9 @@
-### 解题思路
-链表双指针问题，快指针先走k步，然后双指针一起走
+// ### 解题思路
+// 链表双指针问题，快指针先走k步，然后双指针一起走
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -30,4 +30,4 @@ var kthToLast = function(head, k) {
     }
     return r.val
 };
-```
+// ```

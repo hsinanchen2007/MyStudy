@@ -1,10 +1,10 @@
-### 解题思路
-先将int类型转换为str类型，然后在计算有多少位数字
-需要包含头文件：#include <sstream>
-执行用时长，效率不高。
-### 代码
+// ### 解题思路
+// 先将int类型转换为str类型，然后在计算有多少位数字
+// 需要包含头文件：#include <sstream>
+// 执行用时长，效率不高。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findNumbers(vector<int>& nums) {
@@ -20,4 +20,4 @@ public:
         return ans;
     }
 };
-```
+// ```

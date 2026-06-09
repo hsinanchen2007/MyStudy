@@ -1,5 +1,5 @@
-双指针：
-```python
+# 双指针：
+# ```python
 def twoSum(numbers, target):
     i = 0
     j = len(numbers ) -1
@@ -12,9 +12,9 @@ def twoSum(numbers, target):
             return [ i +1 , j +1]
     return False
 
-```
-哈希表：
-```python
+# ```
+# 哈希表：
+# ```python
   hashmap = {}
     for index, i in enumerate(numbers):
         j = target - i

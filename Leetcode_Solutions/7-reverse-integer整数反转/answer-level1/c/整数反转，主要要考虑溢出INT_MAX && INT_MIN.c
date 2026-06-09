@@ -1,4 +1,4 @@
-```
+// ```
 int reverse(int x)
 {
     int tmpX = x;
@@ -18,5 +18,5 @@ int reverse(int x)
     }   
     return rst;
 }
-```
+// ```
 

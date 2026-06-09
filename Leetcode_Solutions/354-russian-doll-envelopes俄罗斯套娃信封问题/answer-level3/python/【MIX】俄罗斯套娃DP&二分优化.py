@@ -1,10 +1,10 @@
-### 解题思路
-DP求解, 时间复杂度$O(N^2)+O(NlgN)$
+# ### 解题思路
+# DP求解, 时间复杂度$O(N^2)+O(NlgN)$
 
-**$O(N^2)$DP**
-### 代码
+# **$O(N^2)$DP**
+# ### 代码
 
-```java []
+# ```java []
 class Solution {
     public int maxEnvelopes(int[][] envelopes) {
         // O(N^2)
@@ -30,8 +30,8 @@ class Solution {
         return res;
     }
 }
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def maxEnvelopes(self, envelopes: List[List[int]]) -> int:
         # TLE O(N^2)
@@ -49,8 +49,8 @@ class Solution:
                     f[i] = max(f[i], f[j]+1) 
             res = max(res, f[i])
         return res
-```
-```python []
+# ```
+# ```python []
 from bisect import bisect_left
 class Solution:
     def maxEnvelopes(self, envelopes: List[List[int]]) -> int:
@@ -65,8 +65,8 @@ class Solution:
             else:
                 b[ind] = env
         return len(b)
-```
-```c++ []
+# ```
+# ```c++ []
 class Solution {
 public:
     int maxEnvelopes(vector<vector<int>>& envelopes) {
@@ -96,9 +96,9 @@ public:
         return res;
     }
 };
-```
-**二分优化**
-```c++ []
+# ```
+# **二分优化**
+# ```c++ []
 class Solution {
 public:
     int maxEnvelopes(vector<vector<int>>& envelopes) {
@@ -134,8 +134,8 @@ public:
         return res;
     }
 };
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def maxEnvelopes(self, envelopes: List[List[int]]) -> int:
         N = len(envelopes)
@@ -162,4 +162,4 @@ class Solution:
                 b[res] = env[1]
                 res+=1
         return res
-```
+# ```

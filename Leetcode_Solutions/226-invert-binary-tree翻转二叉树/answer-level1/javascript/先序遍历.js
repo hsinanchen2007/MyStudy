@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
- * 深度遍历，先序遍历，对每个节点的left, right进行调换
+//  * 深度遍历，先序遍历，对每个节点的left, right进行调换
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -30,4 +30,4 @@ var invertTree = function(root) {
 
     return root;
 };
-```
+// ```

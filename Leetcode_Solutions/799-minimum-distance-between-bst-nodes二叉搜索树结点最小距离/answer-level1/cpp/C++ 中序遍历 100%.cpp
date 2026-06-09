@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -34,4 +34,4 @@ public:
         post_order(root->right,pre,min,flag);
     }
 };
-```
+// ```

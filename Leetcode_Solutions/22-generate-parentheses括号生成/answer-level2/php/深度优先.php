@@ -1,11 +1,11 @@
-### 解题思路
-根据
-https://leetcode-cn.com/problems/generate-parentheses/solution/hui-su-suan-fa-by-liweiwei1419/
-提供的思路，因为有n对，所以就会有n个'('和n个')'，每次去使用这些括号来递归组成一个有效括号字符串
+// ### 解题思路
+// 根据
+// https://leetcode-cn.com/problems/generate-parentheses/solution/hui-su-suan-fa-by-liweiwei1419/
+// 提供的思路，因为有n对，所以就会有n个'('和n个')'，每次去使用这些括号来递归组成一个有效括号字符串
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -44,4 +44,4 @@ class Solution {
 
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```java []
+// ```java []
 import java.util.concurrent.LinkedBlockingQueue;
 
 class Foo {
@@ -26,4 +26,4 @@ class Foo {
         printThird.run();
     }
 }
-```
+// ```

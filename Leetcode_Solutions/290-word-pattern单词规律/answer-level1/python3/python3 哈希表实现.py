@@ -1,10 +1,10 @@
-### 解题思路
-建立哈希表，储存pattern中每个字母和str中每个单词的一一对应关系
-遍历一次即可
+# ### 解题思路
+# 建立哈希表，储存pattern中每个字母和str中每个单词的一一对应关系
+# 遍历一次即可
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def wordPattern(self, pattern: str, str: str) -> bool:
         strs = str.split(' ')
@@ -18,4 +18,4 @@ class Solution:
                 return False
         return True
 
-```
+# ```

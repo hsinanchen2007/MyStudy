@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func longestPalindrome(s string) int {
     dict := map[byte]bool{}
     res := 0
@@ -20,4 +20,4 @@ func longestPalindrome(s string) int {
     }
     return res
 }
-```
+// ```

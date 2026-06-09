@@ -1,4 +1,4 @@
-```js
+// ```js
 var addToArrayForm = function(A, K) {
     const Aarr = A.reverse();
     const Karr = K.split('').reverse().map((x) => +x)
@@ -15,4 +15,4 @@ var addToArrayForm = function(A, K) {
     }
     return res.reverse()
 };
-```
+// ```

@@ -1,5 +1,5 @@
-方法一：头插法
-```
+// 方法一：头插法
+// ```
 struct ListNode* reverseBetween(struct ListNode* head, int m, int n){
     if (head == NULL) return NULL;
     struct ListNode *curr = head;
@@ -33,10 +33,10 @@ struct ListNode* reverseBetween(struct ListNode* head, int m, int n){
 
     return dummy->next;
 }
-```
+// ```
 
-方法二：改变指针指向后，再进行链表的连接
-```
+// 方法二：改变指针指向后，再进行链表的连接
+// ```
 struct ListNode* reverseBetween(struct ListNode* head, int m, int n){
     if (head == NULL) return NULL;
     struct ListNode *curr = head;
@@ -77,4 +77,4 @@ struct ListNode* reverseBetween(struct ListNode* head, int m, int n){
 
     return head;
 }   
-```
+// ```

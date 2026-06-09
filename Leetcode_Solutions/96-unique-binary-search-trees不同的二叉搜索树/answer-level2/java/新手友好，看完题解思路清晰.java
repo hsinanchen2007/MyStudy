@@ -1,8 +1,8 @@
-### 解题思路
-卡塔兰公式， 看完题解之后思路比较清晰
+// ### 解题思路
+// 卡塔兰公式， 看完题解之后思路比较清晰
 
-### 代码
-```java
+// ### 代码
+// ```java
 class Solution {
     public int numTrees(int n) {
 
@@ -26,4 +26,4 @@ class Solution {
         return rs[n];
     }
 }
-```
+// ```

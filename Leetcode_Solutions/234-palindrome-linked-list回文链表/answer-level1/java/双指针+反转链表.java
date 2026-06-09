@@ -1,6 +1,6 @@
-设置快慢指针，移动速度分别是2和1。当快指针到达链表尾部的时候，慢指针就在正中间（奇数个节点的情况下）或者正中间的左边（偶数个节点的情况下），再将慢指针向后移动一位，反转以慢指针为头的链表，再逐个节点对比是否相等。
+// 设置快慢指针，移动速度分别是2和1。当快指针到达链表尾部的时候，慢指针就在正中间（奇数个节点的情况下）或者正中间的左边（偶数个节点的情况下），再将慢指针向后移动一位，反转以慢指针为头的链表，再逐个节点对比是否相等。
 
-```java
+// ```java
 public boolean isPalindrome (ListNode head) {
     if (head == null || head.next == null) return true;
     ListNode slow = head;
@@ -35,7 +35,7 @@ private ListNode reverse (ListNode head) {
     }
     return newHead;
 }
-```
+// ```
 
 
 

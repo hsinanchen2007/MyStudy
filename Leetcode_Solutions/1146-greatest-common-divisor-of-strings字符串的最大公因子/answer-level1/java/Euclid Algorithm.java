@@ -1,10 +1,10 @@
-### 解题思路
-输入的两个字符串只有当`(str1+str2).equals(str2+str1)`时才能有解。
-找最大公约数可以看成对两个字符串的长度取最大公约数，然后从0截取最大公约数长度的串
-返回即可
-### 代码
+// ### 解题思路
+// 输入的两个字符串只有当`(str1+str2).equals(str2+str1)`时才能有解。
+// 找最大公约数可以看成对两个字符串的长度取最大公约数，然后从0截取最大公约数长度的串
+// 返回即可
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String gcdOfStrings(String str1, String str2) {
         if(!(str1+str2).equals(str2+str1))
@@ -21,4 +21,4 @@ class Solution {
         return q == 0? p:(gcd(q,p%q));
     }
 }
-```
+// ```

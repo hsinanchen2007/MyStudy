@@ -1,11 +1,11 @@
-### 解题思路
-对于LRU机制一般实现方法是用特殊的栈，栈底保存最久没有使用的key，栈顶保存最近使用的key。
-而有序哈希表实际上就是实现了一个查找、栈顶增加、栈底删除以及将某个key直接放到栈顶的这个特殊栈。
-注：Python的collections模块中的OrderedDict类就是一个有序哈希表。
+# ### 解题思路
+# 对于LRU机制一般实现方法是用特殊的栈，栈底保存最久没有使用的key，栈顶保存最近使用的key。
+# 而有序哈希表实际上就是实现了一个查找、栈顶增加、栈底删除以及将某个key直接放到栈顶的这个特殊栈。
+# 注：Python的collections模块中的OrderedDict类就是一个有序哈希表。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Node:
     def __init__(self, key, val):
         self.key = key # 保存key的作用是便于根据节点找到key进而从字典中删除该项
@@ -78,4 +78,4 @@ class LRUCache(object):
 # obj = LRUCache(capacity)
 # param_1 = obj.get(key)
 # obj.put(key,value)
-```
+# ```

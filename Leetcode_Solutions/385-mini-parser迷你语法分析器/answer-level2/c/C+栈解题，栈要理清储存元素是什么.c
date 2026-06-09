@@ -1,9 +1,9 @@
-### 解题思路
-C+栈解题，栈要理清储存元素是什么
+// ### 解题思路
+// C+栈解题，栈要理清储存元素是什么
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * *********************************************************************
  * // This is the interface that allows for creating nested lists.
@@ -145,4 +145,4 @@ struct NestedInteger* deserialize(char * s){
 }
 
 
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 public int[] relativeSortArray(int[] arr1, int[] arr2) {
         int[] count=new int[1001];
         for(int i:arr1){
@@ -19,5 +19,5 @@ public int[] relativeSortArray(int[] arr1, int[] arr2) {
         }
         return arr1;
     }
-```
-计数排序，读下标的顺序按数组2顺序来读
+// ```
+// 计数排序，读下标的顺序按数组2顺序来读

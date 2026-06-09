@@ -1,9 +1,9 @@
-### 解题思路
-中序遍历，再构造链表
+# ### 解题思路
+# 中序遍历，再构造链表
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def treeToDoublyList(self, root: 'Node') -> 'Node':
         if not root:
@@ -27,4 +27,4 @@ class Solution:
         dummy.right.left = s
         s.right = dummy.right
         return dummy.right
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 function longestValidParentheses($s) {
     $maxl = 0;
     $stack = [-1];
@@ -16,4 +16,4 @@ function longestValidParentheses($s) {
     }
     return $maxl;
 }
-```
+// ```

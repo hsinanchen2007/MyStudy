@@ -1,4 +1,4 @@
-```
+// ```
  func lastStoneWeight(stones []int) int {
 	// 每次取最大两个，有不等放到数组中
 	for len(stones) >= 2 {
@@ -25,4 +25,4 @@
 		return 0
 	}
 }
-```
+// ```

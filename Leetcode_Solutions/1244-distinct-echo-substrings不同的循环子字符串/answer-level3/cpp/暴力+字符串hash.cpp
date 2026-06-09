@@ -1,9 +1,9 @@
-### 解题思路
-暴力+字符串hash，c++直接暴力超时了，emmm
+// ### 解题思路
+// 暴力+字符串hash，c++直接暴力超时了，emmm
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int distinctEchoSubstrings(string text) {
@@ -41,4 +41,4 @@ public:
         return cnt;
     }
 };
-```
+// ```

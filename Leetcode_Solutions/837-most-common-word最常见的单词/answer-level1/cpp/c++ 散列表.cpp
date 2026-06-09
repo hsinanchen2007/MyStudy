@@ -1,10 +1,10 @@
-### 解题思路
-先用transform函数将字符串转为小写，再遍历字符串搜索单词，建立map 对应的key-value关系，key是单词，value是单词出现次数。
-再遍历banned数组，对这些ban的单词出现次数设为INT_MIN，再创建一个迭代器遍历map，找到最大value对应的单词即可
+// ### 解题思路
+// 先用transform函数将字符串转为小写，再遍历字符串搜索单词，建立map 对应的key-value关系，key是单词，value是单词出现次数。
+// 再遍历banned数组，对这些ban的单词出现次数设为INT_MIN，再创建一个迭代器遍历map，找到最大value对应的单词即可
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string mostCommonWord(string paragraph, vector<string>& banned) {
@@ -38,4 +38,4 @@ public:
         return ans_key;
     }
 };
-```
+// ```

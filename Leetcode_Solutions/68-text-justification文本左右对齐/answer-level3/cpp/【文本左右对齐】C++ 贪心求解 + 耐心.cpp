@@ -1,6 +1,6 @@
-很容易犯错，需要耐心慢慢匹配查找
+// 很容易犯错，需要耐心慢慢匹配查找
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> fullJustify(vector<string>& words, int maxWidth) {
@@ -50,4 +50,4 @@ public:
         return res;
     }
 };
-```
+// ```

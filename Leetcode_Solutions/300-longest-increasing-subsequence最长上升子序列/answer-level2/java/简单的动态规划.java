@@ -1,10 +1,10 @@
-### 解题思路
-动态规划，dp数组每一个位置记录的是当前位置处以前的最长上升序列<br>
-最后只需要将dp中的最大数返回即可
+// ### 解题思路
+// 动态规划，dp数组每一个位置记录的是当前位置处以前的最长上升序列<br>
+// 最后只需要将dp中的最大数返回即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int lengthOfLIS(int[] nums) {
         if(nums.length == 0) return 0;
@@ -26,4 +26,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-差值排序
-```
+// 差值排序
+// ```
 func twoCitySchedCost(costs [][]int) int {
     sum, lenCosts := 0, len(costs)
     for i := 0; i < lenCosts-1; i++{
@@ -22,6 +22,6 @@ func twoCitySchedCost(costs [][]int) int {
     }
     return sum
 }
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/aec959401e72fee0741119f7e6d133719cff49ef132a4c8a801817e5975986ca-image.png)
+// ![image.png](https://pic.leetcode-cn.com/aec959401e72fee0741119f7e6d133719cff49ef132a4c8a801817e5975986ca-image.png)

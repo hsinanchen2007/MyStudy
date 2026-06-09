@@ -1,6 +1,6 @@
-只需要遍历一遍，遍历的过程中，遇到比前一天低就买入，比前一天高就卖出。
+# 只需要遍历一遍，遍历的过程中，遇到比前一天低就买入，比前一天高就卖出。
 
-```python
+# ```python
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         if len(prices) == 0:
@@ -29,4 +29,4 @@ class Solution:
             total += cur_price - hold_price
         
         return total
-```
+# ```

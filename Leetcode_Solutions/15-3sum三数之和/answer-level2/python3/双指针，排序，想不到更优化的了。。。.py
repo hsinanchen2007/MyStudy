@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/dabf253898c1ce1ecde1e19bc13f0fa750054f245c1edec1db11caabc0c2d419-image.png)
-努力优化了一阵，想不出来了。。。先放在这儿
+# ### 解题思路
+# ![image.png](https://pic.leetcode-cn.com/dabf253898c1ce1ecde1e19bc13f0fa750054f245c1edec1db11caabc0c2d419-image.png)
+# 努力优化了一阵，想不出来了。。。先放在这儿
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def threeSum(self, nums):
         nums.sort()
@@ -29,4 +29,4 @@ class Solution(object):
                 i += 1
             i += 1
         return res
-```
+# ```

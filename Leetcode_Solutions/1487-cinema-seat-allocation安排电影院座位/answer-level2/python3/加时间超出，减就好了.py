@@ -1,8 +1,8 @@
-### 解题思路
-如题目所述，不难，代码如下
-### 代码
+# ### 解题思路
+# 如题目所述，不难，代码如下
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxNumberOfFamilies(self, n: int, reservedSeats: List[List[int]]) -> int:
         # reservedSeats = sorted(reservedSeats, reverse = True)
@@ -54,4 +54,4 @@ class Solution:
             
         return re
                     
-```
+# ```

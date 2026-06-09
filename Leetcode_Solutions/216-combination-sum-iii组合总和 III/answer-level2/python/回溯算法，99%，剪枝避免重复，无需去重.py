@@ -1,5 +1,5 @@
-回溯法，回溯过程中简单处理避免重复
-```python
+# 回溯法，回溯过程中简单处理避免重复
+# ```python
     def combinationSum3(self, k: int, n: int) -> List[List[int]]:
         def comb(k:int, n:int, start:int)->list:  # 从start考虑，可以避免重复
             if k == 1:  # 终止条件
@@ -12,4 +12,4 @@
                     res.append([i]+j)
             return res
         return comb(k,n,0)
-```
+# ```

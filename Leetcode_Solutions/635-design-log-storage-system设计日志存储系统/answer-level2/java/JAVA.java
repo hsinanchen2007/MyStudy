@@ -1,4 +1,4 @@
-```
+// ```
 class LogSystem {
     private Map<Integer, String> logMap = new HashMap<>();
     Map<String, Integer> map = new HashMap<>();
@@ -30,4 +30,4 @@ class LogSystem {
  * obj.put(id,timestamp);
  * List<Integer> param_2 = obj.retrieve(s,e,gra);
  */
-```
+// ```

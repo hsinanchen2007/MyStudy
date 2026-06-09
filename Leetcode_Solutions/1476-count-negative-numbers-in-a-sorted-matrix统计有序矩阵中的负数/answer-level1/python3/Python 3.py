@@ -1,10 +1,10 @@
-### 解题思路
-上面兩個函式用來遍歷列表
-之後簡單的用abs()來對照
+# ### 解题思路
+# 上面兩個函式用來遍歷列表
+# 之後簡單的用abs()來對照
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 def __AT(list1):  # Array traversal
     for each in range(len(list1)):
         if isinstance(list1[each], list):
@@ -27,4 +27,4 @@ class Solution:
             if grid[i] != abs(grid[i]):
                 counter += 1
         return counter
-```
+# ```

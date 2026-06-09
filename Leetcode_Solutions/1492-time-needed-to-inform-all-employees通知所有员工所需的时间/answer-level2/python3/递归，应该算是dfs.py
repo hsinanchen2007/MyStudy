@@ -1,9 +1,9 @@
-### 解题思路
-dfs，简单递归。
+# ### 解题思路
+# dfs，简单递归。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numOfMinutes(self, n: int, headID: int, manager: List[int], informTime: List[int]) -> int:
 
@@ -26,4 +26,4 @@ class Solution:
 
 
         return tmp_recursion(-1, manager_map, informTime)
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-题目意思为将jobDiffculty数组划分为d份，使得d份里最大的值加起来和最小。故设立了二维数组dp(d*lenth),dp[i][j]记录第i天完成第j个工作所需要的最低难度。题目要求每天至少要完成一项工作，所以第i天可以完成的工作下标范围为[i,lenth-d+i].所以更新dp第i行的数据时，遍历dp数组：dp[i-1][i-1]-dp[i-1][lenth-d+i-1],更新dp[i][i]--dp[i][lenth-d+i]的数值，具体公式为:dp[i][n] = min(dp[i-1][t] + max(jobDiffculty[j]), dp[i][n])(i=<n<=lenth-d+i, i-1=<t<n,t<j<=n)，最后返回dp[d-1][lenth-1]的值即可
+// ### 解题思路
+// 题目意思为将jobDiffculty数组划分为d份，使得d份里最大的值加起来和最小。故设立了二维数组dp(d*lenth),dp[i][j]记录第i天完成第j个工作所需要的最低难度。题目要求每天至少要完成一项工作，所以第i天可以完成的工作下标范围为[i,lenth-d+i].所以更新dp第i行的数据时，遍历dp数组：dp[i-1][i-1]-dp[i-1][lenth-d+i-1],更新dp[i][i]--dp[i][lenth-d+i]的数值，具体公式为:dp[i][n] = min(dp[i-1][t] + max(jobDiffculty[j]), dp[i][n])(i=<n<=lenth-d+i, i-1=<t<n,t<j<=n)，最后返回dp[d-1][lenth-1]的值即可
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minDifficulty(vector<int>& jobDifficulty, int d) {
@@ -56,4 +56,4 @@ public:
             return dp[d-1][lenth-1];
     }
 };
-```
+// ```

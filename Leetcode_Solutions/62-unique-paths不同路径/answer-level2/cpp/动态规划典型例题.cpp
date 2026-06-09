@@ -1,9 +1,9 @@
-## 动态规划
-状态转移方程：
-$f[i][j] = f[i-1][j] + f[i][j-1]$
+// ## 动态规划
+// 状态转移方程：
+// $f[i][j] = f[i-1][j] + f[i][j-1]$
 
-## 代码
-```
+// ## 代码
+// ```
 int uniquePaths(int m, int n) {
       int f[m][n];
       for (int i = 0; i < m; ++i) {
@@ -17,4 +17,4 @@ int uniquePaths(int m, int n) {
       return f[m-1][n-1];
 }
 
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-记录一下后面比前面大的下标和个数就能过
+// ### 解题思路
+// 记录一下后面比前面大的下标和个数就能过
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type large struct {
 	max   int
 	flags []int
@@ -40,4 +40,4 @@ func getResult(data []large) int {
 	return res
 }
 
-```
+// ```

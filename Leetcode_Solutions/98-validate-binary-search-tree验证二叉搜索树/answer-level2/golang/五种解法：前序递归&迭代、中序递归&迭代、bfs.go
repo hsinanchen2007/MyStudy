@@ -1,11 +1,11 @@
-**本题最优解为`中序遍历`**
+// **本题最优解为`中序遍历`**
 
-# 解法一 前序递归
+// # 解法一 前序递归
 
-1. 递归方向 `根-左-右`
-2. 上下限 `min` `max` 的计算
+// 1. 递归方向 `根-左-右`
+// 2. 上下限 `min` `max` 的计算
 
-```golang
+// ```golang
 func isValidBST(root *TreeNode) bool {
 	return dfs(root, -1<<63, 1<<63-1)
 }
@@ -15,12 +15,12 @@ func dfs(root *TreeNode, min, max int) bool {
 		dfs(root.Left, min, root.Val) &&
 		dfs(root.Right, root.Val, max)
 }
-```
+// ```
 
-# 解法二 前序迭代（stack）
+// # 解法二 前序迭代（stack）
 
-1. 与 **`解法一 前序递归`** 逻辑一致， 自建 `stack` 控制 `root` `min` `max` 出栈入栈
-```golang
+// 1. 与 **`解法一 前序递归`** 逻辑一致， 自建 `stack` 控制 `root` `min` `max` 出栈入栈
+// ```golang
 func isValidBST(root *TreeNode) bool {
 	if root == nil {
 		return true
@@ -48,17 +48,17 @@ func isValidBST(root *TreeNode) bool {
 	}
 	return true
 }
-```
+// ```
 
 
-# 解法三 中序递归
+// # 解法三 中序递归
 
-1. 递归方向 `左->根->右`
-2. 上一个节点 `last` 赋值时机
-3. `last.Val` 必须小于 `root.Val` （因为`中序遍历`=`升序遍历`）
+// 1. 递归方向 `左->根->右`
+// 2. 上一个节点 `last` 赋值时机
+// 3. `last.Val` 必须小于 `root.Val` （因为`中序遍历`=`升序遍历`）
 
 
-```golang
+// ```golang
 var last *TreeNode
 
 func isValidBST(root *TreeNode) bool {
@@ -76,12 +76,12 @@ func dfs(root *TreeNode) bool {
 	last = root
 	return dfs(root.Right)
 }
-```
+// ```
 
-# 解法四 中序迭代（stack)
-1. 与  **`解法三 中序递归`** 逻辑一致， 自建 `stack` 控制 `root` 出栈入栈
+// # 解法四 中序迭代（stack)
+// 1. 与  **`解法三 中序递归`** 逻辑一致， 自建 `stack` 控制 `root` 出栈入栈
 
-```golang
+// ```golang
 func isValidBST(root *TreeNode) bool {
 	var last = &TreeNode{Val: -1 << 63}
 	var stack []*TreeNode
@@ -103,14 +103,14 @@ func isValidBST(root *TreeNode) bool {
 	}
 	return true
 }
-```
+// ```
 
-# 解法五 bfs（queue）
+// # 解法五 bfs（queue）
 
-1. 上下限 `min` `max` 的计算
-2. 自建 `queue` 控制 `root` `min` `max` 出列入列
+// 1. 上下限 `min` `max` 的计算
+// 2. 自建 `queue` 控制 `root` `min` `max` 出列入列
 
-```golang
+// ```golang
 func isValidBST(root *TreeNode) bool {
 	if root == nil {
 		return true
@@ -140,7 +140,7 @@ func isValidBST(root *TreeNode) bool {
 
 	return true
 }
-```
+// ```
 
 
-[github](https://github.com/temporaries/leetcode)
+// [github](https://github.com/temporaries/leetcode)

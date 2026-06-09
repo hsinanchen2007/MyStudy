@@ -1,5 +1,5 @@
-用一个数组映射一下转换后的数字就好了
-```
+// 用一个数组映射一下转换后的数字就好了
+// ```
 class Solution {
 public:
     bool confusingNumber(int N) {
@@ -14,4 +14,4 @@ public:
         return res != n;
     }
 };
-```
+// ```

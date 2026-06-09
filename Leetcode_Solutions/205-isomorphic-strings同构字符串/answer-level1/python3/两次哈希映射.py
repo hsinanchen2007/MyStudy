@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def isIsomorphic(self, s: str, t: str) -> bool:
         #利用哈希表
@@ -17,4 +17,4 @@ class Solution:
             else:
                 dic2[t[i]]=s[i]
         return True
-```
+# ```

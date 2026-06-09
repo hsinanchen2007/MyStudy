@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     void rotate(vector<vector<int>>& matrix) {
@@ -11,6 +11,6 @@ public:
                 swap(matrix[i][j], matrix[j][i]);
     }
 };
-```
+// ```
 
-也可以先转置，再翻转
+// 也可以先转置，再翻转

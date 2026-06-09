@@ -1,21 +1,21 @@
-### 解题思路
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;划分型 $dp$ 就是要一段段划分的意思。
+// ### 解题思路
+// &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;划分型 $dp$ 就是要一段段划分的意思。
 
-#### 分析
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;从最后一步出发，最后一步肯定有一个字母，这个字母变成了 $0,1，2..,25$，设字符串的长度为 $n$ ，要知道前 $n$ 个字符串翻译方式数，就要知道前 $n-1$ 和前 $n-2$ 翻译方式数，因为最后一个字母可能转换成一位数，也可能转换成两位数，即 $f[i] = f[i-1] + f[i-2]$ ， $i$ 代表字符串长度
+// #### 分析
+// &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;从最后一步出发，最后一步肯定有一个字母，这个字母变成了 $0,1，2..,25$，设字符串的长度为 $n$ ，要知道前 $n$ 个字符串翻译方式数，就要知道前 $n-1$ 和前 $n-2$ 翻译方式数，因为最后一个字母可能转换成一位数，也可能转换成两位数，即 $f[i] = f[i-1] + f[i-2]$ ， $i$ 代表字符串长度
 
-#### 初始条件 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;$f[0] = 1$，我就认为空串也有一种翻译方式了
-#### 边界条件
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;字符串长度为 $1$，那只有一种翻译方式
+// #### 初始条件 
+// &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;$f[0] = 1$，我就认为空串也有一种翻译方式了
+// #### 边界条件
+// &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;字符串长度为 $1$，那只有一种翻译方式
 
-#### 结果
-划分型 $dp$ 一般开 $n+1$，对于空串比较好处理，结果就是 $f[n]$
+// #### 结果
+// 划分型 $dp$ 一般开 $n+1$，对于空串比较好处理，结果就是 $f[n]$
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int translateNum(int num) {
         char[] sc = String.valueOf(num).toCharArray();
@@ -36,4 +36,4 @@ class Solution {
         return f[n];
     }
 }
-```
+// ```

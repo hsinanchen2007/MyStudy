@@ -1,4 +1,4 @@
-```
+// ```
   public function singleNumber($nums)
     {
         // 统计每个值出现的次数
@@ -9,4 +9,4 @@
             }
         };
     }
-```
+// ```

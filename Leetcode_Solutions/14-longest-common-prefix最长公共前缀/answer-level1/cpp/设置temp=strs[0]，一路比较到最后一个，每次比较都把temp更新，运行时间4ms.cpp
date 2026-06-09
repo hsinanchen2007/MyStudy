@@ -1,13 +1,13 @@
-### 解题思路
-["flower","flow","flight"]
-temp="flower"
-temp="flo"
-temp="fl"
-输出"fl"
-第一次写完之后直接提交就AC了
-### 代码
+// ### 解题思路
+// ["flower","flow","flight"]
+// temp="flower"
+// temp="flo"
+// temp="fl"
+// 输出"fl"
+// 第一次写完之后直接提交就AC了
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int place(string s1,string s2) //函数palce输出的值的前面，s1和s2都相等，输出0说明第一个字符就不相等
@@ -41,4 +41,4 @@ public:
         return tmp;
     }
 };
-```
+// ```

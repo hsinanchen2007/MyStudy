@@ -1,7 +1,7 @@
-![微信截图_20190920144959.png](https://pic.leetcode-cn.com/70282272fde2d67908e2c83abe599c78b4b4c137d65717ae98d66ee78a85e3fd-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20190920144959.png)
+// ![微信截图_20190920144959.png](https://pic.leetcode-cn.com/70282272fde2d67908e2c83abe599c78b4b4c137d65717ae98d66ee78a85e3fd-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20190920144959.png)
 
-和[105题解法](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/solution/php-jie-fa-by-andfly-12/)思路一致，区别在优先构建左子树还是右子树
-```
+// 和[105题解法](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/solution/php-jie-fa-by-andfly-12/)思路一致，区别在优先构建左子树还是右子树
+// ```
 class Solution {
 
     /**
@@ -33,4 +33,4 @@ class Solution {
         return $node;
     }
 }
-```
+// ```

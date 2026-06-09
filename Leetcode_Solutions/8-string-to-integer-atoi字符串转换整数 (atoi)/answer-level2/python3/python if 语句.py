@@ -1,9 +1,9 @@
-### 解题思路
-对每一种题设要求理解到位，按要求输出，if语句判断到底！！！
+# ### 解题思路
+# 对每一种题设要求理解到位，按要求输出，if语句判断到底！！！
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def myAtoi(self, str: str) -> int:
 
@@ -43,4 +43,4 @@ class Solution:
             else:
                 return int(res) * flg
         return 0
-```
+# ```

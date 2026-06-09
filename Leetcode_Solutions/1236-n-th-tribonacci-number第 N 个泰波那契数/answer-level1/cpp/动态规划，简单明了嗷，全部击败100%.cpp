@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int tribonacci(int n) {
@@ -12,9 +12,9 @@ public:
         return a[n];
     }
 };
-```
+// ```
 
-```
+// ```
 class Solution {
     public int tribonacci(int n) {
         
@@ -32,5 +32,5 @@ class Solution {
         return dp[n];
     }
 }
-```
+// ```
 

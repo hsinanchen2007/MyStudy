@@ -1,9 +1,9 @@
-### 解题思路
-知道要用递归算法，但是每次都理不清楚递归条件。。。。
+# ### 解题思路
+# 知道要用递归算法，但是每次都理不清楚递归条件。。。。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -40,4 +40,4 @@ class Solution:
         
 
         
-```
+# ```

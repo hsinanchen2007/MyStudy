@@ -1,11 +1,11 @@
-### 解题思路
-1. 模拟法(TLE)
-2. 数学解法
+# ### 解题思路
+# 1. 模拟法(TLE)
+# 2. 数学解法
 
-### 代码
+# ### 代码
 
-**模拟法(TLE)**
-```python []
+# **模拟法(TLE)**
+# ```python []
 class Solution:
     def lastRemaining(self, n: int, m: int) -> int:
         # 模拟法(可过)
@@ -17,8 +17,8 @@ class Solution:
             n-=1
 
         return lst[0]
-```
-```c++ []
+# ```
+# ```c++ []
 class Solution {
 public:
     int lastRemaining(int n, int m) {
@@ -38,8 +38,8 @@ public:
         return vec[0];
     }
 };
-```
-```java []
+# ```
+# ```java []
 class Solution {
     public int lastRemaining(int n, int m) {
         // TLE
@@ -57,10 +57,10 @@ class Solution {
         return lst.get(0);
     }
 }
-```
+# ```
 
-**数学法（递归）**
-```c++ []
+# **数学法（递归）**
+# ```c++ []
 class Solution {
 public:
     int lastRemaining(int n, int m) {
@@ -72,8 +72,8 @@ public:
         return N;
     }
 };
-```
-```java []
+# ```
+# ```java []
 class Solution {
     public int lastRemaining(int n, int m) {
         // 递归法
@@ -87,8 +87,8 @@ class Solution {
         return (m+f(n-1, m))%n;
     }
 }
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def lastRemaining(self, n: int, m: int) -> int:
         # 子问题分解的递归方法
@@ -102,4 +102,4 @@ class Solution:
             return (m+f(n-1, m))%n
         return f(n, m)    
 
-```
+# ```

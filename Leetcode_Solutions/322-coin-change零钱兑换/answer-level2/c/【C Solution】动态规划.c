@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 int coinChange(int* coins, int coinsSize, int amount){
     if(coinsSize <= 0 || amount < 0 ){
@@ -34,4 +34,4 @@ int dpSolution(int* coins, int coinsSize, int amount, int* dp){
     dp[amount-1] = (min_v == INT_MAX ) ? -1 : min_v;
     return dp[amount-1];
 }
-```
+// ```

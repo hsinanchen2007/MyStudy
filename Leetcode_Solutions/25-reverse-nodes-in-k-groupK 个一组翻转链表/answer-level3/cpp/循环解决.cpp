@@ -1,5 +1,5 @@
-首先找到待翻转的区间,然后翻转.
-```
+// 首先找到待翻转的区间,然后翻转.
+// ```
 class Solution {
     ListNode *reverse(ListNode *begin, ListNode *end){
 		ListNode *p, *t;
@@ -23,4 +23,4 @@ public:
 		return H.next;
     }
 };
-```
+// ```

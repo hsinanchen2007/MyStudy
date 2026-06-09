@@ -1,7 +1,7 @@
-置空法，轻松超100%
+# 置空法，轻松超100%
 
-本质还是哈希法，只不过不需要额外空间
-```
+# 本质还是哈希法，只不过不需要额外空间
+# ```
     def hasCycle(self, head):
         if not head:
             return False
@@ -11,4 +11,4 @@
         if not head.next:  # 如果碰到空发现已经结束，则无环
             return False
         return True  # 否则有环
-```
+# ```

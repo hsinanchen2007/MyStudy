@@ -1,5 +1,5 @@
-直接看代码吧，粗俗！
-```
+// 直接看代码吧，粗俗！
+// ```
 class Solution {
     public String smallestSubsequence(String text) {
         if (text == null || text.length() == 1) return text;
@@ -38,4 +38,4 @@ class Solution {
         return result.reverse().toString();
     }
 }
-```
+// ```

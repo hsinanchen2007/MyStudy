@@ -1,9 +1,9 @@
-### 解题思路
-后进先出，只能在栈顶一端执行添加和删除元素的操作
+// ### 解题思路
+// 后进先出，只能在栈顶一端执行添加和删除元素的操作
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Initialize your data structure here.
  */
@@ -56,4 +56,4 @@ MyStack.prototype.empty = function() {
  * var param_3 = obj.top()
  * var param_4 = obj.empty()
  */
-```
+// ```

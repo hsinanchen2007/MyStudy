@@ -1,10 +1,10 @@
-### 解题思路
- 1.关键点就在进值。
- 2.链表完全可以当做数组来看。
- 3.基本原理:只要下标相同的值相加有溢出，就存储在第三个值里，留给下一位相加
-### 代码
+// ### 解题思路
+//  1.关键点就在进值。
+//  2.链表完全可以当做数组来看。
+//  3.基本原理:只要下标相同的值相加有溢出，就存储在第三个值里，留给下一位相加
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -46,4 +46,4 @@ var addTwoNumbers = function(l1, l2) {
     }
     return result.next
 };
-```
+// ```

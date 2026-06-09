@@ -1,5 +1,5 @@
-经过前面的几次做题，只要是对称的输入，都可以用数字栈。
-```
+// 经过前面的几次做题，只要是对称的输入，都可以用数字栈。
+// ```
 public boolean judgeCircle(String moves) {
         int stock = 0;
         int stock1 = 0;
@@ -24,4 +24,4 @@ public boolean judgeCircle(String moves) {
             return false;
         } 
     }
-```
+// ```

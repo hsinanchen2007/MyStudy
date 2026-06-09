@@ -1,13 +1,13 @@
-### 解题思路
-代码主要分为一下几个部分：
-1.处理原数组为空时的情况
-2.将较小的无需调整的数组放入list
-3.开始构建数组，寻找起始值start
-4.寻找end
-5.将剩余的数组放入list
-### 代码
+// ### 解题思路
+// 代码主要分为一下几个部分：
+// 1.处理原数组为空时的情况
+// 2.将较小的无需调整的数组放入list
+// 3.开始构建数组，寻找起始值start
+// 4.寻找end
+// 5.将剩余的数组放入list
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] insert(int[][] intervals, int[] newInterval) {
         // corner case
@@ -53,4 +53,4 @@ class Solution {
         return ans_;
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-执行用时 :1 ms, 在所有 java 提交中击败了100.00%的用户
-内存消耗 :37.1 MB, 在所有 java 提交中击败了97.67%的用户
-```
+// 执行用时 :1 ms, 在所有 java 提交中击败了100.00%的用户
+// 内存消耗 :37.1 MB, 在所有 java 提交中击败了97.67%的用户
+// ```
 //可以根据第一个push进去的数(X)来分
 //因为要pop出第一个数X，之前的数必须全部pop出去
 //popped中X之前的数肯定先于X之后的数push进去
@@ -27,4 +27,4 @@ class Solution {
             && validateStackSequencesHelper(pushed, popped, index + 1, end, k + index - start + 1);
     }
 }
-```
+// ```

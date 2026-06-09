@@ -1,9 +1,9 @@
-![image.png](https://pic.leetcode-cn.com/26818b6a4baedd6e3da5bd1d8b2ce68f582bd7ef33970469049fb1b9e7fd13b9-image.png)
+// ![image.png](https://pic.leetcode-cn.com/26818b6a4baedd6e3da5bd1d8b2ce68f582bd7ef33970469049fb1b9e7fd13b9-image.png)
 
-dp[i]节点保留两个参数
-sum: 表示nums[sIndex]~nums[i]的和
-sIndex: 表示nums[sIndex]~nums[i]的和刚好满足>=s
-```
+// dp[i]节点保留两个参数
+// sum: 表示nums[sIndex]~nums[i]的和
+// sIndex: 表示nums[sIndex]~nums[i]的和刚好满足>=s
+// ```
 
 struct MyNode{
     int sIndex;
@@ -46,7 +46,7 @@ int minSubArrayLen(int s, int* nums, int numsSize)
     
     return ret==INT32_MAX?0:ret;
 }
-```
+// ```
 
 
 

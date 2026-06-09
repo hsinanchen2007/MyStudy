@@ -1,4 +1,4 @@
-```
+// ```
 use std::collections::HashSet;
 impl Solution {
     pub fn num_magic_squares_inside(grid: Vec<Vec<i32>>) -> i32 {
@@ -39,6 +39,6 @@ impl Solution {
         amount
     }
 }
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/8d8758c9fa53c47d7c96b0ad4ab6621c34f1affda17470e720046720665e0550-image.png)
+// ![image.png](https://pic.leetcode-cn.com/8d8758c9fa53c47d7c96b0ad4ab6621c34f1affda17470e720046720665e0550-image.png)

@@ -1,7 +1,7 @@
-这题的代码，是在208前缀树的基础上，先对前缀树做了一些改动，再使用前缀树的方式解决问题。
-相当于leetcode官方题解的go实现版本。
-代码如下：
-```
+// 这题的代码，是在208前缀树的基础上，先对前缀树做了一些改动，再使用前缀树的方式解决问题。
+// 相当于leetcode官方题解的go实现版本。
+// 代码如下：
+// ```
 type Trie struct {
 	ending int
 	next [26]*Trie
@@ -62,4 +62,4 @@ func longestWord(words []string) string {
 	trie.InsertWords(words,1)
 	return trie.dfs(words)
 }
-```
+// ```

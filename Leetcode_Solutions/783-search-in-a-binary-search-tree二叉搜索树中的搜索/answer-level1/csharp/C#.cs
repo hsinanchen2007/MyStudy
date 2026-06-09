@@ -1,8 +1,8 @@
-### 解题思路
-迭代处理起来容易许多，而且注意是二叉搜索树，所以不是完全遍历。
-### 代码
+// ### 解题思路
+// 迭代处理起来容易许多，而且注意是二叉搜索树，所以不是完全遍历。
+// ### 代码
 
-```csharp
+// ```csharp
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -29,4 +29,4 @@ public class Solution {
             return null;
     }
 }
-```
+// ```

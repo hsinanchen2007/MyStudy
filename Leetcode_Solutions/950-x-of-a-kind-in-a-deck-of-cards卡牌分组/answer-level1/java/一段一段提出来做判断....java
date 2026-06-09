@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public static int fun(int[] deck,int a,int b) {
 		for(int i=a+1;i<=b;i++) {
@@ -33,4 +33,4 @@ class Solution {
 		return false;
     }
 }
-```
+// ```

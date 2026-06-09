@@ -1,9 +1,9 @@
-### 解题思路
-固定一个数$nums[$i] ; 剩下的就是twoSum问题
+// ### 解题思路
+// 固定一个数$nums[$i] ; 剩下的就是twoSum问题
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -36,4 +36,4 @@ class Solution {
     return array_values($hash );
     }
 }
-```
+// ```

@@ -1,7 +1,7 @@
-set去重，DFS遍历二叉树，当set大小大于1时，说明非单值，否则为单值
+// set去重，DFS遍历二叉树，当set大小大于1时，说明非单值，否则为单值
 
-代码：
-```
+// 代码：
+// ```
 class Solution {
 public:
     bool isUnivalTree(TreeNode* root) {
@@ -22,4 +22,4 @@ public:
         return true;
     }
 };
-```
+// ```

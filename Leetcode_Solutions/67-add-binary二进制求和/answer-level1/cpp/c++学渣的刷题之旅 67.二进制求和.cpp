@@ -1,9 +1,9 @@
-### 解题思路
-暴力法，普通数学加法思路，按位相加，进位为 t 
+// ### 解题思路
+// 暴力法，普通数学加法思路，按位相加，进位为 t 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string addBinary(string a, string b) {
@@ -39,7 +39,7 @@ public:
         return result;
     }
 };
-```
+// ```
 
-执行结果惊了
-![image.png](https://pic.leetcode-cn.com/32f5d47f10375491f14fb6796d130ca2648572423a4ff0234ec91b18aa5f636c-image.png)
+// 执行结果惊了
+// ![image.png](https://pic.leetcode-cn.com/32f5d47f10375491f14fb6796d130ca2648572423a4ff0234ec91b18aa5f636c-image.png)

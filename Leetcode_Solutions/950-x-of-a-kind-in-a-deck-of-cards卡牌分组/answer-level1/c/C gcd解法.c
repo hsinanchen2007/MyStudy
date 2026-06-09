@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int cmpfunc(const void* a, const void* b){
     return ( *(int*)a - *(int*)b );
 }
@@ -29,4 +29,4 @@ bool hasGroupsSizeX(int* deck, int deckSize){
     }
     return true;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-改了个顺序 不然又他娘的ot了
+# ### 解题思路
+# 改了个顺序 不然又他娘的ot了
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestPalindromeSubseq(self, s: str) -> int:
         n=len(s)
@@ -23,4 +23,4 @@ class Solution:
         return dp[0][n-1]
 
 
-```
+# ```

@@ -1,10 +1,10 @@
-类似于一维(数组)的区域和检索，我们可以在dp矩阵中的每一行记录matrix的每一行对应的累计和。
+# 类似于一维(数组)的区域和检索，我们可以在dp矩阵中的每一行记录matrix的每一行对应的累计和。
 
-主要对dp矩阵预处理时多加一行一列的全0，因为要包含选定的矩阵区域。
+# 主要对dp矩阵预处理时多加一行一列的全0，因为要包含选定的矩阵区域。
 
-语言描述起来比较麻烦，还是直接看代码把。
+# 语言描述起来比较麻烦，还是直接看代码把。
 
-```python []
+# ```python []
 class NumMatrix:
 
     def __init__(self, matrix: List[List[int]]):
@@ -32,4 +32,4 @@ class NumMatrix:
                 res += self.dp[i][col2] - self.dp[i][col1-1]
             
         return res
-```
+# ```

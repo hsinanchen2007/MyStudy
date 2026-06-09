@@ -1,5 +1,5 @@
-执行用时:36 ms, 在所有 Python3 提交中击败了96.87%的用户
-```
+# 执行用时:36 ms, 在所有 Python3 提交中击败了96.87%的用户
+# ```
 class Solution:
     def binary_search(self,num,tar,left,right,if_find_left):
         while left<=right:
@@ -22,4 +22,4 @@ class Solution:
                 r=self.binary_search(numbers,target-numbers[l],left=l,right=r-1,if_find_left=False)
             else:
                 return [l+1,r+1]
-```
+# ```

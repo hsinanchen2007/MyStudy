@@ -1,5 +1,5 @@
- 641. 设计循环双端队列
-```
+#  641. 设计循环双端队列
+# ```
 class MyCircularDeque:
 
     def __init__(self, k: int):
@@ -88,7 +88,7 @@ class MyCircularDeque:
         Checks whether the circular deque is full or not.
         """
         return self._size == self._capacity
-```
+# ```
 
 
 

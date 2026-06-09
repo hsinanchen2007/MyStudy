@@ -1,9 +1,9 @@
-### 解题思路
-求所有数出现次数的最大公约数
+// ### 解题思路
+// 求所有数出现次数的最大公约数
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean hasGroupsSizeX(int[] deck) {
         // 求每个数字出现的次数，根据题目，最大数不超过10000
@@ -31,4 +31,4 @@ class Solution {
         return b == 0? a: gcd(b, a % b);
     }
 }
-```
+// ```

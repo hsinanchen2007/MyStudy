@@ -1,19 +1,19 @@
-### 解题思路
+# ### 解题思路
 
-很容易想到是:
+# 很容易想到是:
 
-f(i,j)=min(f(i-1,j-1),f(i-1,j)+1,f(i,j-1)+1) if word1[i]!=word[j]
-f(i,j)=min(f(i-1,j-1)+1,f(i-1,j)+1,f(i,j-1)+1) if word1[i]==word[j]
+# f(i,j)=min(f(i-1,j-1),f(i-1,j)+1,f(i,j-1)+1) if word1[i]!=word[j]
+# f(i,j)=min(f(i-1,j-1)+1,f(i-1,j)+1,f(i,j-1)+1) if word1[i]==word[j]
 
-直接写递归一定超时。。
+# 直接写递归一定超时。。
 
-考虑自下而上，肯定可以用O(MN)空间搞定
-但每一刻状态只和i-1,j-1有关，可以少一个状态，于是如下。
+# 考虑自下而上，肯定可以用O(MN)空间搞定
+# 但每一刻状态只和i-1,j-1有关，可以少一个状态，于是如下。
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minDistance(self, word1: str, word2: str) -> int:
         length1=len(word1)
@@ -39,4 +39,4 @@ class Solution:
             
               
         return  temp1[-1]
-```
+# ```

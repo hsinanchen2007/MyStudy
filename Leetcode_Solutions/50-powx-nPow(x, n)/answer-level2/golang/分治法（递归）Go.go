@@ -1,4 +1,4 @@
-```go
+// ```go
 /**
 分治法（递归）
 时间复杂度：O(log n)
@@ -17,4 +17,4 @@ func myPow2(x float64, n int) float64 {
 
     return myPow(x*x, n/2)
 }
-```
+// ```

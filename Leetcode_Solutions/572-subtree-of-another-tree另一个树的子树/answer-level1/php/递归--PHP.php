@@ -1,17 +1,17 @@
-### 解题思路
+// ### 解题思路
 
-检查三种情况：
-两树相等是子树
-左树是子树
-右树是子树
+// 检查三种情况：
+// 两树相等是子树
+// 左树是子树
+// 右树是子树
 
-### 性能
-执行用时 :88 ms, 在所有 PHP 提交中击败了37.50%的用户
-内存消耗 :15.7 MB, 在所有 PHP 提交中击败了50.00%的用户
+// ### 性能
+// 执行用时 :88 ms, 在所有 PHP 提交中击败了37.50%的用户
+// 内存消耗 :15.7 MB, 在所有 PHP 提交中击败了50.00%的用户
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 /**
  * Definition for a binary tree node.
  * class TreeNode {
@@ -41,7 +41,7 @@ class Solution {
         return $s && $t && ($s->val == $t->val) && $this->isSametree($s->left, $t->left) && $this->isSametree($s->right, $t->right);
     }
 }
-```
+// ```
 
-### 参考
-[LiuQiang评论区](https://leetcode-cn.com/problems/subtree-of-another-tree/comments/49097)
+// ### 参考
+// [LiuQiang评论区](https://leetcode-cn.com/problems/subtree-of-another-tree/comments/49097)

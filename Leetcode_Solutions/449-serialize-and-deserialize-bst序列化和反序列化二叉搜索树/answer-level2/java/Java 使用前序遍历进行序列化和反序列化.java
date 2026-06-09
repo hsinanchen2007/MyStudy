@@ -1,10 +1,10 @@
-**我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，求小星星呀(๑•̀ㅂ•́)و✧**
+// **我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，求小星星呀(๑•̀ㅂ•́)و✧**
 
-思路：
+// 思路：
 
-普通的二叉树需要两种遍历结果才能固定二叉树，而对于BST，得到BST的前序遍历，根据BST的性质，第一个元素值为根节点，小于根节点的元素为左子树，大于根节点的元素为右子树。
+// 普通的二叉树需要两种遍历结果才能固定二叉树，而对于BST，得到BST的前序遍历，根据BST的性质，第一个元素值为根节点，小于根节点的元素为左子树，大于根节点的元素为右子树。
 
-```
+// ```
 class Codec {
     // Encodes a tree to a single string.
     //BST的前序遍历结果
@@ -47,4 +47,4 @@ class Codec {
         return root;
     }
 }
-```
+// ```

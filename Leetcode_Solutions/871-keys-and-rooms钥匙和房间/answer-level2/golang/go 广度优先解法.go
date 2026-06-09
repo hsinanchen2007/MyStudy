@@ -1,16 +1,16 @@
-### 解题思路
-此处撰写解题思路
-go 广度优先解法
-利用一个chan当队列
-从第0个房间开始  把钥匙放入队列 
-每次取队列长度的钥匙 确认房间是否访问过
-没访问过的把钥匙存入chan
-直到chan为空 退出
-检查 是否有房间没访问到
+// ### 解题思路
+// 此处撰写解题思路
+// go 广度优先解法
+// 利用一个chan当队列
+// 从第0个房间开始  把钥匙放入队列 
+// 每次取队列长度的钥匙 确认房间是否访问过
+// 没访问过的把钥匙存入chan
+// 直到chan为空 退出
+// 检查 是否有房间没访问到
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func canVisitAllRooms(rooms [][]int) bool {
     if len(rooms)  == 0 { 
         return true
@@ -44,4 +44,4 @@ func canVisitAllRooms(rooms [][]int) bool {
     }
     return true
 }
-```
+// ```

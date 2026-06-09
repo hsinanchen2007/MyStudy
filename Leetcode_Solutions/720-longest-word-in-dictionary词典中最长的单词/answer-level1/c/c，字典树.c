@@ -1,10 +1,10 @@
-### 解题思路
-1. 建一个字典树，遍历word加入字典树。但是结果需要在遍历一次words[i], 判断每个words[i]减少一个字母是否在字典树前缀中，因为可能先出现ap,后出现a,建字典树的遍历不知道ap也是符合要求的
-2. 所以先用qsort对words按strlen结果排个序。
+// ### 解题思路
+// 1. 建一个字典树，遍历word加入字典树。但是结果需要在遍历一次words[i], 判断每个words[i]减少一个字母是否在字典树前缀中，因为可能先出现ap,后出现a,建字典树的遍历不知道ap也是符合要求的
+// 2. 所以先用qsort对words按strlen结果排个序。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct dictTree {
     int c;
     int isEnd;
@@ -56,4 +56,4 @@ char * longestWord(char ** words, int wordsSize){
 
     return ans;
 }
-```
+// ```

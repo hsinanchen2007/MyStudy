@@ -1,11 +1,11 @@
-### 解题思路
-虽然不是最好的解，但是这个解
-![image.png](https://pic.leetcode-cn.com/7e5df27620b1c4bf0ea4dd23154e3b192a7a064c7e3afe8065b4064956ac3bb0-image.png)
-感觉还行
+// ### 解题思路
+// 虽然不是最好的解，但是这个解
+// ![image.png](https://pic.leetcode-cn.com/7e5df27620b1c4bf0ea4dd23154e3b192a7a064c7e3afe8065b4064956ac3bb0-image.png)
+// 感觉还行
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void setZeroes(vector<vector<int>>& matrix) {
@@ -36,4 +36,4 @@ public:
         }
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 func canThreePartsEqualSum(A []int) bool {
     var sum int
     for _, a := range A {
@@ -23,4 +23,4 @@ func canThreePartsEqualSum(A []int) bool {
     }
     return false
 }
-```
+// ```

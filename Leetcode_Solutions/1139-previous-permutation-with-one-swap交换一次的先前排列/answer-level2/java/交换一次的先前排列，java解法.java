@@ -1,9 +1,9 @@
-### 解题思路
-我都佩服自己写的if判断了😁
+// ### 解题思路
+// 我都佩服自己写的if判断了😁
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
      public int[] prevPermOpt1(int[] A) {
         if (A.length == 1)
@@ -35,4 +35,4 @@ class Solution {
         return A;
     }
 }
-```
+// ```

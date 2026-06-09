@@ -1,10 +1,10 @@
-[114.二叉树展开为链表](https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/submissions/)  
+// [114.二叉树展开为链表](https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/submissions/)  
 
-[力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md)  
+// [力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md)  
 
-## 方法一 原地
+// ## 方法一 原地
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -35,13 +35,13 @@ var flatten = function(root) {
     }
     return root;
 };
-```
+// ```
 
-## 方法二 先序遍历
+// ## 方法二 先序遍历
 
-此方法不满足题目要求，并非原地。
+// 此方法不满足题目要求，并非原地。
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -69,4 +69,4 @@ var flatten = function(root) {
     }
     return head.right;
 };
-```
+// ```

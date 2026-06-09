@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /** 
  * Forward declaration of isBadVersion API.
  * @param   version   your guess about first bad version
@@ -32,4 +32,4 @@ func firstBadVersion(n int) int {
     }
     return -1
 }
-```
+// ```

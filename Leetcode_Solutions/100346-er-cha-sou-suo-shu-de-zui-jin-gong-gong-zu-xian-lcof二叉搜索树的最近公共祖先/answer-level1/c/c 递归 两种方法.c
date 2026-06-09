@@ -1,6 +1,6 @@
-方法一：利用搜索二叉树的特点
+// 方法一：利用搜索二叉树的特点
 
-```
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -42,19 +42,19 @@ struct TreeNode* lowestCommonAncestor(struct TreeNode* root, struct TreeNode* p,
 
 }
 
-```
+// ```
 
-方法二：一般情况的方法
-    下面讨论的是如果二叉树不是搜素二叉树的情况时，如何处理。
-    测试用例: 
-    [8,4,2,9,12,13,1,3,5,11,7,10,21,15,16,31,17,22]
-    4
-    7
-画出的二叉树图如下（便于读者验证）：
-![)C`5TUVVN0)AL43S}3QAZTN.png](https://pic.leetcode-cn.com/0784d4280e83e782f267203e959d47ff5ea1f9943de344beb6e85cbfcb333ffe-\)C%605TUVVN0\)AL43S%7D3QAZTN.png)
+// 方法二：一般情况的方法
+//     下面讨论的是如果二叉树不是搜素二叉树的情况时，如何处理。
+//     测试用例: 
+//     [8,4,2,9,12,13,1,3,5,11,7,10,21,15,16,31,17,22]
+//     4
+//     7
+// 画出的二叉树图如下（便于读者验证）：
+// ![)C`5TUVVN0)AL43S}3QAZTN.png](https://pic.leetcode-cn.com/0784d4280e83e782f267203e959d47ff5ea1f9943de344beb6e85cbfcb333ffe-\)C%605TUVVN0\)AL43S%7D3QAZTN.png)
 
 
-```
+// ```
 /**
 *
 *以下代码针对一般情况下的二叉树，寻找两个结点最近的父结点，在本题中，同样可以通过。
@@ -118,5 +118,5 @@ struct TreeNode * lowestCommonAncestor( struct TreeNode * root , struct TreeNode
     return visitTree( root , p -> val , q -> val );
 
 }
-```
+// ```
 

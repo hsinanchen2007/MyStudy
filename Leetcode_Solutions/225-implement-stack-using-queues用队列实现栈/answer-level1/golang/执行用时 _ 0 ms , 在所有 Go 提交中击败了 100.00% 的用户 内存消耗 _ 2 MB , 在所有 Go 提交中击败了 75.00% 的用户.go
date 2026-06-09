@@ -1,4 +1,4 @@
-```
+// ```
 type MyStack struct {
 	queue []int
 }
@@ -39,4 +39,4 @@ func (this *MyStack) Empty() bool {
 	}
 	return false
 }
-```
+// ```

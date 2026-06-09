@@ -1,8 +1,8 @@
-两种思路。
+// 两种思路。
 
-1. 一次遍历，使用 O(N) 空间。一上来想到的解决方案，将链表转换成数组，再通过数组长度和 N 找到需要删除的元素的准确位置，再进行删除。
+// 1. 一次遍历，使用 O(N) 空间。一上来想到的解决方案，将链表转换成数组，再通过数组长度和 N 找到需要删除的元素的准确位置，再进行删除。
 
-```go []
+// ```go []
 func removeNthFromEnd(head *ListNode, n int) *ListNode {
 	if n == 0 {
 		return head
@@ -42,12 +42,12 @@ func removeNthFromEnd(head *ListNode, n int) *ListNode {
 
 	return head
 }
-```
+// ```
 
-2. 一次遍历，使用 O(1) 空间。看到解答区大神的解答后用 go 写了一遍，加深印象。
-该方案
+// 2. 一次遍历，使用 O(1) 空间。看到解答区大神的解答后用 go 写了一遍，加深印象。
+// 该方案
 
-```go []
+// ```go []
 // 双指针方案
 func removeNthFromEndWithDoublePtr(head *ListNode, n int) *ListNode {
     // 添加一个虚拟的头结点
@@ -81,6 +81,6 @@ func removeNthFromEndWithDoublePtr(head *ListNode, n int) *ListNode {
 	return dumNode.Next
 }
 
-```
+// ```
 
-> 代码还有优化的空间，希望大家能指出来，更希望这块代码对大家有帮助！
+// > 代码还有优化的空间，希望大家能指出来，更希望这块代码对大家有帮助！

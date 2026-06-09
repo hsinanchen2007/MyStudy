@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-用类似堆排的思路，内存消耗小，但是用时长，毕竟处理long数的时候，才能体现出来。
-当前的时间复杂为O(nlogk)
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 用类似堆排的思路，内存消耗小，但是用时长，毕竟处理long数的时候，才能体现出来。
+# 当前的时间复杂为O(nlogk)
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
 
 	# 父节点index
@@ -63,4 +63,4 @@ class Solution(object):
 					t = self.lef_id(t)
 		return arr[:k]
 
-```
+# ```

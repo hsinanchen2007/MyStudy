@@ -1,9 +1,9 @@
-### 解题思路
-情况考虑周全即可
+// ### 解题思路
+// 情况考虑周全即可
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int myAtoi(char * str){
     long long int count=0;
     int log=0;
@@ -24,4 +24,4 @@ int myAtoi(char * str){
     if(log) count*=-1;
     return count;
 }
-```
+// ```

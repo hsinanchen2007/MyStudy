@@ -1,8 +1,8 @@
-先排序，统计负数，0，正数个数。
-之后嘛，枚举所有的情况即可。
-看程序吧
+// 先排序，统计负数，0，正数个数。
+// 之后嘛，枚举所有的情况即可。
+// 看程序吧
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int largestSumAfterKNegations(vector<int>& A, int K) {
@@ -61,7 +61,7 @@ public:
         }
     }
 };
-```
+// ```
 
 
-![图片.png](https://pic.leetcode-cn.com/45cec803f3c29a47ce9dcd5f4a20d440fe23a2fa73fc57e493e2f00b9cb2a991-%E5%9B%BE%E7%89%87.png)
+// ![图片.png](https://pic.leetcode-cn.com/45cec803f3c29a47ce9dcd5f4a20d440fe23a2fa73fc57e493e2f00b9cb2a991-%E5%9B%BE%E7%89%87.png)

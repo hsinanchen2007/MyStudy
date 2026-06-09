@@ -1,9 +1,9 @@
-### 解题思路
-最小堆
+// ### 解题思路
+// 最小堆
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 type KthLargest struct {
 	k       int
@@ -55,4 +55,4 @@ func (pq *IntMinHeap) Peek() int {
 	return (*pq)[0]
 }
 
-```
+// ```

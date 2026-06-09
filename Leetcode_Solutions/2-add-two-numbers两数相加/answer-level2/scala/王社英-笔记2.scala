@@ -1,5 +1,5 @@
-1,这个就是小学计算一位一位的加,除了加数和被加数,还有进位,思想很简单
-```
+// 1,这个就是小学计算一位一位的加,除了加数和被加数,还有进位,思想很简单
+// ```
 object Solution {
   def addTwoNumbers(l1: ListNode, l2: ListNode): ListNode = {
     var flag = 0
@@ -35,4 +35,4 @@ object Solution {
   }
 }
 
-```
+// ```

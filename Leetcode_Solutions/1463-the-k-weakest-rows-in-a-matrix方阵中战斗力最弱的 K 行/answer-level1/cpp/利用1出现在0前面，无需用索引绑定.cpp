@@ -1,5 +1,5 @@
-这才是这道题最简单的解法吧。题目中说1出现在0前面，行号较小的在前面，就是引导我们遍历每一列，在遍历过程中就可以拼出答案了。
-```cpp
+// 这才是这道题最简单的解法吧。题目中说1出现在0前面，行号较小的在前面，就是引导我们遍历每一列，在遍历过程中就可以拼出答案了。
+// ```cpp
 class Solution {
 public:
     vector<int> kWeakestRows(vector<vector<int>>& mat, int k) {
@@ -22,4 +22,4 @@ public:
         return vector<int>(ans.begin(), ans.begin() + k);
     }
 };
-```
+// ```

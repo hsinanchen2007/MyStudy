@@ -1,9 +1,9 @@
-### 解题思路
-遇到左括号入栈，右括号出栈。使用map存放左右括号映射，便于编程
+// ### 解题思路
+// 遇到左括号入栈，右括号出栈。使用map存放左右括号映射，便于编程
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isValid(String s) {
         char[] chars = s.toCharArray();
@@ -40,4 +40,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

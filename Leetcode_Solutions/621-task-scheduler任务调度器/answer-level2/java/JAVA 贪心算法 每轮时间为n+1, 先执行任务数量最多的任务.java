@@ -1,9 +1,9 @@
-### 解题思路
-JAVA 贪心算法 每轮时间为n+1, 先执行任务数量最多的任务
+// ### 解题思路
+// JAVA 贪心算法 每轮时间为n+1, 先执行任务数量最多的任务
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int leastInterval(char[] tasks, int n) {
         int[] array = new int[26];
@@ -27,4 +27,4 @@ class Solution {
         return time;
     }
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-能否重塑，只有一个判断条件，就是原始矩阵的row*col是否等于新矩阵的r*c。
-不符合就直接输出原始矩阵。如果符合条件，那就直接按行列遍历原始矩阵，然后依次填到新矩阵里即可。
-新矩阵采用自增式遍历，col到头就换行。
+// ### 解题思路
+// 能否重塑，只有一个判断条件，就是原始矩阵的row*col是否等于新矩阵的r*c。
+// 不符合就直接输出原始矩阵。如果符合条件，那就直接按行列遍历原始矩阵，然后依次填到新矩阵里即可。
+// 新矩阵采用自增式遍历，col到头就换行。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] matrixReshape(int[][] nums, int r, int c) {
         if (nums.length * nums[0].length != r * c) return nums;
@@ -26,4 +26,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

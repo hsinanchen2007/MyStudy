@@ -1,9 +1,9 @@
-### 解题思路
-层次遍历，用一个变量更换最左边的值就行了，记住右边先入队列，这样如果左边有值会最后更新
+# ### 解题思路
+# 层次遍历，用一个变量更换最左边的值就行了，记住右边先入队列，这样如果左边有值会最后更新
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -31,4 +31,4 @@ class Solution:
                     queue.appendleft(node.left)
 
         return res
-```
+# ```

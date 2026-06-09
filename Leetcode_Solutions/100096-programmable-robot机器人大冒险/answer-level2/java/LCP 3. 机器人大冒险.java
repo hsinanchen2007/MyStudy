@@ -1,9 +1,9 @@
-### 解题思路
-一开始暴力 超时了，设置了障碍区的区间，在区间内才判断，压线飘过。
+// ### 解题思路
+// 一开始暴力 超时了，设置了障碍区的区间，在区间内才判断，压线飘过。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean robot(String command, int[][] obstacles, int x, int y) {
         int minX = 1000000000;
@@ -55,4 +55,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

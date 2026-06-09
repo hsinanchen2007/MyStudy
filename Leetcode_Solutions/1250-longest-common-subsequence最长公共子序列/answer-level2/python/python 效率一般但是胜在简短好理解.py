@@ -1,9 +1,9 @@
-### 解题思路
-dp
+# ### 解题思路
+# dp
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def longestCommonSubsequence(self, text1, text2):
         """
@@ -27,4 +27,4 @@ class Solution(object):
         return dp[m][n]
         
 
-```
+# ```

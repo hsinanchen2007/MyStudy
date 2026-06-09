@@ -1,6 +1,6 @@
-裸体思路。  直接
+// 裸体思路。  直接
 
-```
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -42,4 +42,4 @@ public:
         return dummyhead->next;
     }
 };
-```
+// ```

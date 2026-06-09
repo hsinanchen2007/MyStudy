@@ -1,9 +1,9 @@
-### 解题思路
-dp数组说明： dp[第i个单词][手指1位置][手指2位置] 0-25记录A-Z，26记录该手指未用过
+// ### 解题思路
+// dp数组说明： dp[第i个单词][手指1位置][手指2位置] 0-25记录A-Z，26记录该手指未用过
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minimumDistance(string word) {
@@ -60,4 +60,4 @@ public:
         return min;
     }
 };
-```
+// ```

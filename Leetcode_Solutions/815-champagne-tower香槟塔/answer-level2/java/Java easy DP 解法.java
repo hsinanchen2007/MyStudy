@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public double champagneTower(int poured, int query_row, int query_glass) {
         double[][] dp = new double[101][101];
@@ -17,4 +17,4 @@ class Solution {
         return dp[query_row][query_glass];
     }
 }
-```
+// ```

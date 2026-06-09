@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int countCharacters(String[] words,String chars){
 		int totalLength = 0;
@@ -32,8 +32,8 @@ class Solution {
 		return true;
 	}
 }
-```
+// ```
 
-### 欢迎与我交流
+// ### 欢迎与我交流
 
-![wechat.png](https://pic.leetcode-cn.com/a353efe5df64a922d8c5ec3d6eb34547042d66dd9d94d8bdddc13c9523961363-wechat.png)
+// ![wechat.png](https://pic.leetcode-cn.com/a353efe5df64a922d8c5ec3d6eb34547042d66dd9d94d8bdddc13c9523961363-wechat.png)

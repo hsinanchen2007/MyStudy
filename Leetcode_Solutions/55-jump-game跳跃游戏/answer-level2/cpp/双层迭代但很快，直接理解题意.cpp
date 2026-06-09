@@ -1,5 +1,5 @@
 
-直接检测所有0前面的数是否有超过间隔的，否则肯定是false
+// 直接检测所有0前面的数是否有超过间隔的，否则肯定是false
 bool canJump(vector<int>& nums) {
         bool res = true;
         for (int i = 0; i < nums.size(); i++){

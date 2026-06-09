@@ -1,9 +1,9 @@
-### 解题思路
-很简单的交换
+// ### 解题思路
+// 很简单的交换
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void reverseString(vector<char>& s) 
@@ -16,4 +16,4 @@ public:
         }
     }
 };
-```
+// ```

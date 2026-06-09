@@ -1,8 +1,8 @@
 
-![image.png](https://pic.leetcode-cn.com/6522e8752140d9fae6a01b947d4b94fa6edaae389d3e739a394a81dcfec845e5-image.png)
+# ![image.png](https://pic.leetcode-cn.com/6522e8752140d9fae6a01b947d4b94fa6edaae389d3e739a394a81dcfec845e5-image.png)
 
 
-```
+# ```
 from typing import List
 from functools import lru_cache
 class Solution:
@@ -64,4 +64,4 @@ class Solution:
                 r = mid - 1
 
         return ans[pos1: pos2+1]
-```
+# ```

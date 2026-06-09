@@ -1,10 +1,10 @@
-### 解题思路
-看到有人说这不是回溯问题，这道题明明白白清清楚楚就是一道回溯问题
-只不过因为传的参数是一个str,每次的str都是新的所以没有显式的去调用选择和撤销选择这两步
+# ### 解题思路
+# 看到有人说这不是回溯问题，这道题明明白白清清楚楚就是一道回溯问题
+# 只不过因为传的参数是一个str,每次的str都是新的所以没有显式的去调用选择和撤销选择这两步
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def letterCombinations(self, digits: str) -> List[str]:
         # 回溯法模板
@@ -52,4 +52,4 @@ class Solution:
         if digits:
             backtrack("", digits)
         return res
-```
+# ```

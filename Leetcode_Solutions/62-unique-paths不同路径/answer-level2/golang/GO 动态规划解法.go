@@ -1,9 +1,9 @@
-![image.png](https://pic.leetcode-cn.com/16a1e482b408b01c07de0913cece833c6ebd241c78524e3f5b224a8931f89e9f-image.png)
+// ![image.png](https://pic.leetcode-cn.com/16a1e482b408b01c07de0913cece833c6ebd241c78524e3f5b224a8931f89e9f-image.png)
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 var dp func(x, y int) int
 
 func uniquePaths(m int, n int) int {
@@ -32,4 +32,4 @@ func uniquePaths(m int, n int) int {
 func K(x, y int) string {
     return fmt.Sprint(x, y)
 }
-```
+// ```

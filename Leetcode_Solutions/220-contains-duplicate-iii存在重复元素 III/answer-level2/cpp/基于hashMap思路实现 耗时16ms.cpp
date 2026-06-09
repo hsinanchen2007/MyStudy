@@ -1,12 +1,12 @@
-###执行结果
-![image.png](https://pic.leetcode-cn.com/a3e2f4070dfed9e4fdb56205b6db79918e6dd0a0a8cf81cdc9cae5204414c6ca-image.png)
+// ###执行结果
+// ![image.png](https://pic.leetcode-cn.com/a3e2f4070dfed9e4fdb56205b6db79918e6dd0a0a8cf81cdc9cae5204414c6ca-image.png)
 
-### 解题思路
-主要思路还是来自hashMap,主要是理解题目废了一些时间,在`t=0`时相当于上一个难度的问题,所以这里区分了一下`t==0和t!=0`的情况
+// ### 解题思路
+// 主要思路还是来自hashMap,主要是理解题目废了一些时间,在`t=0`时相当于上一个难度的问题,所以这里区分了一下`t==0和t!=0`的情况
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 
 struct __TTListNode {
      int64_t val;
@@ -67,4 +67,4 @@ public:
         return false;
     }
 };
-```
+// ```

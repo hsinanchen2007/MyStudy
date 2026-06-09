@@ -1,6 +1,6 @@
-(1)st1 + str2 == str2 + st1
-(2)求两个字符串的最大公约数
-```
+// (1)st1 + str2 == str2 + st1
+// (2)求两个字符串的最大公约数
+// ```
 int Gcd (int a, int b)
 {
     if (a % b == 0) {
@@ -50,5 +50,5 @@ char * gcdOfStrings(char * str1, char * str2){
     }
     return s;
 }
-```
-![image.png](https://pic.leetcode-cn.com/d89e41a4677e75951fe4b6845c289600a8342e4a1dc57bb52102eeb4af8420ba-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/d89e41a4677e75951fe4b6845c289600a8342e4a1dc57bb52102eeb4af8420ba-image.png)

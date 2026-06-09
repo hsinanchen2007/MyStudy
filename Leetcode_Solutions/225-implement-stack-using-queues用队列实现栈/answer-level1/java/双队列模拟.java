@@ -1,9 +1,9 @@
-### 解题思路
-使用两个队列模拟，详情见代码
+// ### 解题思路
+// 使用两个队列模拟，详情见代码
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MyStack {
 
     /** Initialize your data structure here. */
@@ -70,4 +70,4 @@ class MyStack {
  * int param_3 = obj.top();
  * boolean param_4 = obj.empty();
  */
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int findNumberOfLIS(vector<int>& nums) {
@@ -28,6 +28,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/26805351da14c10985debf870448dae2c19b437e1816961ce209641131c62976-image.png)
+// ![image.png](https://pic.leetcode-cn.com/26805351da14c10985debf870448dae2c19b437e1816961ce209641131c62976-image.png)

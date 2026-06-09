@@ -1,11 +1,11 @@
-### 解题思路
-"abc"でSを繰返し分割する。
-最後にSが空文字になったらTRUE
-ならなかったらFALSE
+# ### 解题思路
+# "abc"でSを繰返し分割する。
+# 最後にSが空文字になったらTRUE
+# ならなかったらFALSE
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isValid(self, S: str) -> bool:
         while "abc" in S:
@@ -14,4 +14,4 @@ class Solution:
         if S == "":
             return True
         return False
-```
+# ```

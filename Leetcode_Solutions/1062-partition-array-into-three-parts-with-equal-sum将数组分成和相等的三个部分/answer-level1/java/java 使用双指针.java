@@ -1,14 +1,14 @@
-# 方法1：双指针
+// # 方法1：双指针
 
-![屏幕快照 2020-03-11 00.52.03.png](https://pic.leetcode-cn.com/f2d46e1c27d179ffe18581813aae885d0d98ed79d7277c835a6108542c742c14-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-03-11%2000.52.03.png)
-数组元素的总和 sum 不是3的倍数，直接返回false
-使用双指针left，right, 从数组两头开始一起找，节约时间
-当 left + 1 < right 的约束下，可以找到数组两头的和都是 sum/3,那么中间剩下的元素和就一定也是sum/3
-（left + 1 < right的约束就是要中间有剩下的元素，使用left < right的约束，数组可能可以恰好被划分成两部分，中间没有元素）
+// ![屏幕快照 2020-03-11 00.52.03.png](https://pic.leetcode-cn.com/f2d46e1c27d179ffe18581813aae885d0d98ed79d7277c835a6108542c742c14-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-03-11%2000.52.03.png)
+// 数组元素的总和 sum 不是3的倍数，直接返回false
+// 使用双指针left，right, 从数组两头开始一起找，节约时间
+// 当 left + 1 < right 的约束下，可以找到数组两头的和都是 sum/3,那么中间剩下的元素和就一定也是sum/3
+// （left + 1 < right的约束就是要中间有剩下的元素，使用left < right的约束，数组可能可以恰好被划分成两部分，中间没有元素）
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canThreePartsEqualSum(int[] A) {
         int sum = 0;
@@ -45,10 +45,10 @@ class Solution {
         return false;  
     }
 }
-```
+// ```
 
-# 方法2：直接找
-```
+// # 方法2：直接找
+// ```
 class Solution {
     public boolean canThreePartsEqualSum(int[] A) {
         int sum = 0;
@@ -72,5 +72,5 @@ class Solution {
         return flag >= 3;
     }
 }
-```
+// ```
 

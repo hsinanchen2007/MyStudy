@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
   def sum(root:TreeNode): Int = {
     if(root == null) return 0 
@@ -9,4 +9,4 @@ object Solution {
     findTilt(root.left) + findTilt(root.right) + math.abs(sum(root.left) - sum(root.right))
   } 
 }
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
-DFS
-1、求出 最少删除多少左括号和右括号，才能构成有效括号对，这里用计数器实现；
-2、定义STEP，每次删除一个左括号（如果需要删除的左括号大于0）和一个右括号（如果需要删除的右括号大于0）；
-3、定义OPTION，从输入的字符串s里面，遍历执行上面的STEP，下次遍历从当前遍历的位置开始（因为前面已经完成遍历）。
-void DFS_GetS(char **retc, char *s, int start, int left, int right)
-### 代码
+// ### 解题思路
+// DFS
+// 1、求出 最少删除多少左括号和右括号，才能构成有效括号对，这里用计数器实现；
+// 2、定义STEP，每次删除一个左括号（如果需要删除的左括号大于0）和一个右括号（如果需要删除的右括号大于0）；
+// 3、定义OPTION，从输入的字符串s里面，遍历执行上面的STEP，下次遍历从当前遍历的位置开始（因为前面已经完成遍历）。
+// void DFS_GetS(char **retc, char *s, int start, int left, int right)
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -108,4 +108,4 @@ char ** removeInvalidParentheses(char * s, int* returnSize)
     *returnSize = g_returnSize;
     return retc;
 }
-```
+// ```

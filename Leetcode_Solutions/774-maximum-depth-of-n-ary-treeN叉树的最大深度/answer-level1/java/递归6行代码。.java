@@ -1,9 +1,9 @@
-### 解题思路
-子节点不为空，那么收集深度到一个list，获取list中最大值，返回给上层调用
+// ### 解题思路
+// 子节点不为空，那么收集深度到一个list，获取list中最大值，返回给上层调用
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /*
 // Definition for a Node.
 class Node {
@@ -32,4 +32,4 @@ class Solution {
         return list.isEmpty() ? 1 : Collections.max(list) + 1;
 	}
 }
-```
+// ```

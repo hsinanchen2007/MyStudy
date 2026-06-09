@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 //自顶向下的动态规划，寻找能到达顶端的最左边的点，判断是不是开始处。
 /*bool canJump(int* nums, int numsSize){
     bool result;
@@ -54,4 +54,4 @@ bool canJump(int* nums,int numsSize)
         return false;
     }
 }
-```
+// ```

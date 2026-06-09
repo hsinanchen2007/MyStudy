@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -42,8 +42,8 @@ class Solution {
 		p.next = null;
 	}
 }
-```
+// ```
 
-### 欢迎与我交流
+// ### 欢迎与我交流
 
-![wechat.png](https://pic.leetcode-cn.com/3ff65007142ceefd2d0f6c52a1d30c7e28f07840470585bf3393fe10cd39547a-wechat.png)
+// ![wechat.png](https://pic.leetcode-cn.com/3ff65007142ceefd2d0f6c52a1d30c7e28f07840470585bf3393fe10cd39547a-wechat.png)

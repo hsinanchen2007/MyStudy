@@ -1,4 +1,4 @@
-```
+// ```
 //代码有点low，思路其实很简单
 //左右指针初始为0，右指针先从左边向右找,装满所有t中字母后,左指针向右移动直到装不下t中所有字母,右指针继续向右找(循环往复)
 class Solution {
@@ -36,4 +36,4 @@ public:
         return res==INT_MAX?"":string(s.begin()+site,s.begin()+site+res);
     }
 };
-```
+// ```

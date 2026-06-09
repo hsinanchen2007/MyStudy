@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int eraseOverlapIntervals(vector<vector<int>>& intervals) {
@@ -17,7 +17,7 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/45f99de4b26536e5452fdc71ffeabd582533a5178ffeee4b07a7d5292b86026d-image.png)
+// ![image.png](https://pic.leetcode-cn.com/45f99de4b26536e5452fdc71ffeabd582533a5178ffeee4b07a7d5292b86026d-image.png)
 

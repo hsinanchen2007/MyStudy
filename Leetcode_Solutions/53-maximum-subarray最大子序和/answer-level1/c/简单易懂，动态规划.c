@@ -1,9 +1,9 @@
-### 解题思路
-按照官方思路动态规划写的
+// ### 解题思路
+// 按照官方思路动态规划写的
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int maxSubArray(int* nums, int numsSize) {
 	if (numsSize == 1)
 		return nums[0];
@@ -15,4 +15,4 @@ int maxSubArray(int* nums, int numsSize) {
 	}
 	return max;
 }
-```
+// ```

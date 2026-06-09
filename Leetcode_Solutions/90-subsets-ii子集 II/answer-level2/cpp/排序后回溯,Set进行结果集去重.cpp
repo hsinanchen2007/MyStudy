@@ -1,9 +1,9 @@
-### 解题思路
-排序后回溯,Set进行结果集去重
+// ### 解题思路
+// 排序后回溯,Set进行结果集去重
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> subsetsWithDup(vector<int>& nums) {
@@ -31,4 +31,4 @@ private:
         FindSubset(i + 1, nums, numsSet, subset, sets);
     }
 };
-```
+// ```

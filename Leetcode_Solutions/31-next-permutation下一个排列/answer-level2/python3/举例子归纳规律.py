@@ -1,10 +1,10 @@
-### 解题思路
-先举几个例子，归纳下规律，然后 `O(n)`遍历即可；
-注意等号发生时候的情况；
+# ### 解题思路
+# 先举几个例子，归纳下规律，然后 `O(n)`遍历即可；
+# 注意等号发生时候的情况；
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def nextPermutation(self, nums: List[int]) -> None:
         """
@@ -25,4 +25,4 @@ class Solution:
         nums[st], nums[ed] = nums[ed], nums[st]
         part = nums[st+1:]
         nums[st+1:] = part[::-1]
-```
+# ```

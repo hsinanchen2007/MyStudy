@@ -1,9 +1,9 @@
-### 解题思路
-用 map 来保存位置信息， string 一定要仔细看。。。一开始把判断条件那里的 "," 写成了 " "，一直过不了
+// ### 解题思路
+// 用 map 来保存位置信息， string 一定要仔细看。。。一开始把判断条件那里的 "," 写成了 " "，一直过不了
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func movingCount(m int, n int, k int) int {
     visited := make(map[string]bool)
     return dfs(0,0,m,n,k,visited)
@@ -19,4 +19,4 @@ func dfs(x int, y int, m int, n int, k int,z map[string]bool)int{
         z[fmt.Sprintf("%d,%d",x,y)] = true   //把位置信息加入 Map
         return 1 + dfs(x+1, y, m, n, k, z) + dfs(x, y+1, m, n, k, z)
 }
-```
+// ```

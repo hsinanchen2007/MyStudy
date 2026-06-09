@@ -1,5 +1,5 @@
-性能就不提了，纯粹是简单方便理解，话不多说直接上代码
-```
+// 性能就不提了，纯粹是简单方便理解，话不多说直接上代码
+// ```
 public class Solution {
 	private class IntervalComparator implements Comparator<int[]> {
 		public int compare(int[] v, int[] w) {
@@ -36,4 +36,4 @@ public class Solution {
         return merged.toArray(new int[0][]);		
 	}
 }
-```
+// ```

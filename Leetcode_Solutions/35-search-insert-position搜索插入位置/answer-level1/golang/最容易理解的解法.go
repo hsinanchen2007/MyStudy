@@ -1,4 +1,4 @@
-```
+// ```
 func searchInsert(nums []int, target int) int {
     
     // 遍历所有元素
@@ -12,4 +12,4 @@ func searchInsert(nums []int, target int) int {
     // 如果上述循环没有找到比target大的元素，则target插入在数组最后
     return len(nums)
 }
-```
+// ```

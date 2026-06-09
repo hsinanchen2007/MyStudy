@@ -1,6 +1,6 @@
 
-### 通过字典，减少耗时
-```
+# ### 通过字典，减少耗时
+# ```
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         start = -1
@@ -19,4 +19,4 @@ class Solution:
                 if i - start > max_len:
                     max_len = i - start
         return max_len
-```
+# ```

@@ -1,8 +1,8 @@
-### 解题思路
-参考了一下题解，发现自己对递归十分不熟练
-### 代码
+// ### 解题思路
+// 参考了一下题解，发现自己对递归十分不熟练
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -31,4 +31,4 @@ class Solution {
     if(l2!=null){tem.next=l2;}
    return flag.next;
 }}
-```
+// ```

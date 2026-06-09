@@ -1,8 +1,8 @@
 
-1. 通过预先计算所有元素的和，优化和的计算
-2. 以 j 作为第一层遍历的基准，然后不断遍历两端，再进行判断
+// 1. 通过预先计算所有元素的和，优化和的计算
+// 2. 以 j 作为第一层遍历的基准，然后不断遍历两端，再进行判断
 
-```
+// ```
 var splitArray = function(nums) {
     if (nums.length < 5) {
         return false;
@@ -47,4 +47,4 @@ var splitArray = function(nums) {
 
     return _split2(0, nums.length);
 };
-```
+// ```

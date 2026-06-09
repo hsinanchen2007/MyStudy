@@ -1,9 +1,9 @@
-### 解题思路
-通过位运算和进制转换完成
+// ### 解题思路
+// 通过位运算和进制转换完成
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int hammingDistance(int x, int y) {
         int temp=x^y;
@@ -20,4 +20,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

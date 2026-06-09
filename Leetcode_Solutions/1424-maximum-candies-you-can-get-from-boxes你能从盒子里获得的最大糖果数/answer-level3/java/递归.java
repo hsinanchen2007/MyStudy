@@ -1,10 +1,10 @@
-### 解题思路
-每次递归, 先把能打开的箱子都打开.
-把initialBoxes中已经打开的箱子的糖果拿走.
-把initialBoxes中已打开的箱子包含的其他箱子, 及initialBoxes中未打开的箱子再递归.
-### 代码
+// ### 解题思路
+// 每次递归, 先把能打开的箱子都打开.
+// 把initialBoxes中已经打开的箱子的糖果拿走.
+// 把initialBoxes中已打开的箱子包含的其他箱子, 及initialBoxes中未打开的箱子再递归.
+// ### 代码
 
-```java
+// ```java
 class Solution {
   public int maxCandies(int[] status, int[] candies, int[][] keys, int[][] containedBoxes, int[] initialBoxes) {
     List<Integer> nextBoxes = new ArrayList<>();
@@ -49,4 +49,4 @@ class Solution {
     return count;
   }
 }
-```
+// ```

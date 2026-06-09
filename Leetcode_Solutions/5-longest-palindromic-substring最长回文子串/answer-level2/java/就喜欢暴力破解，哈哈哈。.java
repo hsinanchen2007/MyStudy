@@ -1,4 +1,4 @@
-就喜欢暴力破解，哈哈哈。   
+// 就喜欢暴力破解，哈哈哈。   
 
      private Boolean isRight(String str) {
         for (int i = 0; i < str.length () / 2; i++) {

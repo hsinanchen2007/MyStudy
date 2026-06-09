@@ -1,9 +1,9 @@
-## 解法一：使用数组
-### 解题思路
-该题并没有要求能够 deQueue，所以窗口大小（size）只增不减。利用这点，在计算平均值时只需遍历整个数组，再除以 size 即可。
+// ## 解法一：使用数组
+// ### 解题思路
+// 该题并没有要求能够 deQueue，所以窗口大小（size）只增不减。利用这点，在计算平均值时只需遍历整个数组，再除以 size 即可。
 
-### 代码
-```java
+// ### 代码
+// ```java
 class MovingAverage {
     int[] nums;
     int capacity;
@@ -31,14 +31,14 @@ class MovingAverage {
         return sum / (double) size;
     }
 }
-```
+// ```
 
-## 解法二：使用 Queue
-### 解题思路
-该题并没有限制使用的数据类型，故利用 Queue 的特性即可轻松解决。
+// ## 解法二：使用 Queue
+// ### 解题思路
+// 该题并没有限制使用的数据类型，故利用 Queue 的特性即可轻松解决。
 
-### 代码
-``` Java
+// ### 代码
+// ``` Java
 class MovingAverage {
     int capacity;
     Queue<Integer> q = new LinkedList<>();
@@ -63,4 +63,4 @@ class MovingAverage {
         return sum / (double) q.size();
     }
 }
-```
+// ```

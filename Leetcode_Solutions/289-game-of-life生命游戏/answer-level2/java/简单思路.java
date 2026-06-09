@@ -1,10 +1,10 @@
-### 解题思路
-先保存当前状态，每一次计算旧格子时，就从保存的矩阵中算出周围的存活数。
-![image.png](https://pic.leetcode-cn.com/16c6c68d915052b5a6f2444d048f3ba69e4d66db4ff8352c3872d8e91ee991eb-image.png)
+// ### 解题思路
+// 先保存当前状态，每一次计算旧格子时，就从保存的矩阵中算出周围的存活数。
+// ![image.png](https://pic.leetcode-cn.com/16c6c68d915052b5a6f2444d048f3ba69e4d66db4ff8352c3872d8e91ee991eb-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void gameOfLife(int[][] board) {
         int[][] oldState=new int[board.length][board[0].length];
@@ -38,4 +38,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-统计范围内为0的个数，高于1个时移动左窗口
+// ### 解题思路
+// 统计范围内为0的个数，高于1个时移动左窗口
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int findMaxConsecutiveOnes(int* nums, int numsSize){
     /* 双指针滑动窗口解法 */
     int start = 0;
@@ -41,4 +41,4 @@ int findMaxConsecutiveOnes(int* nums, int numsSize){
     }
     return ret;
 }
-```
+// ```

@@ -1,6 +1,6 @@
-#### 时隔一年，回头写一遍，为了不new节点直接在原链表上改的，结果发现耗时差不多的 🤣
+// #### 时隔一年，回头写一遍，为了不new节点直接在原链表上改的，结果发现耗时差不多的 🤣
 
-```dart
+// ```dart
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -44,4 +44,4 @@ class Solution {
         return dummyNode.next;
     }
 }
-```
+// ```

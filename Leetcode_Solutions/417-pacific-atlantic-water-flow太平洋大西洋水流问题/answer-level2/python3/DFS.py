@@ -1,14 +1,14 @@
 
 
-## 思路:
+# ## 思路:
 
-DFS （当然BFS也行
+# DFS （当然BFS也行
 
-我们分别从太平洋和大西洋边界位置出发遍历，同时被它们两遍历到的，就是答案
+# 我们分别从太平洋和大西洋边界位置出发遍历，同时被它们两遍历到的，就是答案
 
-遍历方法，就是按高度，找下一个大于等于此时遍历的点
+# 遍历方法，就是按高度，找下一个大于等于此时遍历的点
 
-```python
+# ```python
 class Solution:
     def pacificAtlantic(self, matrix: List[List[int]]) -> List[List[int]]:
         if not matrix or not matrix[0]: return []
@@ -41,5 +41,5 @@ class Solution:
             dfs(row - 1, j, 0, res2)
 
         return res1 & res2
-```
+# ```
 

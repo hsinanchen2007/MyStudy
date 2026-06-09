@@ -1,5 +1,5 @@
-用一个指针遍历链表长度得出数组容量
-然后从数组的最后一位开始填充
+// 用一个指针遍历链表长度得出数组容量
+// 然后从数组的最后一位开始填充
 `public int[] reversePrint(ListNode head) {
         ListNode p1 = head;
         int size = 0;

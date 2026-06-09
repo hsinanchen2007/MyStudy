@@ -1,4 +1,4 @@
-```js
+// ```js
 var largestNumber = nums =>
     nums
         .map(String)
@@ -6,4 +6,4 @@ var largestNumber = nums =>
         .join("")
         .replace(/^0+/, "") || "0";
 
-```
+// ```

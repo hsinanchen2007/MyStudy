@@ -1,9 +1,9 @@
-### 解题思路
-找出出现最多的字母，其他字母插空隔离，利用队列模拟转盘。
+// ### 解题思路
+// 找出出现最多的字母，其他字母插空隔离，利用队列模拟转盘。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 protected:
     static bool Cmp(const pair<char, int> left, const pair<char, int> right)
@@ -59,4 +59,4 @@ public:
         return result;
     }
 };
-```
+// ```

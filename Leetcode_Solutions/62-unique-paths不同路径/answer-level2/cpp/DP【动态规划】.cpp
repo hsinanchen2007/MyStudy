@@ -1,12 +1,12 @@
-### 解题思路
-状态转移方程：
-dp[n][m] = dp[n+1][m] + dp[n][m+1]
-初始化变量：
-dp[n][m] = 1;
-开始DP既可。
-### 代码
+// ### 解题思路
+// 状态转移方程：
+// dp[n][m] = dp[n+1][m] + dp[n][m+1]
+// 初始化变量：
+// dp[n][m] = 1;
+// 开始DP既可。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int uniquePaths(int m, int n) {
@@ -31,4 +31,4 @@ public:
         return dp[1][1];
     }
 };
-```
+// ```

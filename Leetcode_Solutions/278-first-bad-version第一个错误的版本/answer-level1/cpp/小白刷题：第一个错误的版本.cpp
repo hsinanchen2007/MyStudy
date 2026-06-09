@@ -1,7 +1,7 @@
-送分题，二分查找，注意边界和int范围问题，中间变量全部用long long
+// 送分题，二分查找，注意边界和int范围问题，中间变量全部用long long
 
-代码：
-```
+// 代码：
+// ```
 class Solution {
 public:
     int firstBadVersion(int n) {
@@ -21,4 +21,4 @@ public:
         }
     }
 };
-```
+// ```

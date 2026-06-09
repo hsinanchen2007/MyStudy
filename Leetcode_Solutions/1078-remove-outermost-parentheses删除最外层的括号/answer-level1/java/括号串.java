@@ -1,8 +1,8 @@
-### 解题思路
-看了大神的结题，找样子自己写了遍，关键是思路，栈的利用
-### 代码
+// ### 解题思路
+// 看了大神的结题，找样子自己写了遍，关键是思路，栈的利用
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String removeOuterParentheses(String S) {
         StringBuilder stringBuilder = new StringBuilder();
@@ -15,4 +15,4 @@ class Solution {
         return stringBuilder.toString();
     }
 }
-```
+// ```

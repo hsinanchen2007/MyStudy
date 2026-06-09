@@ -1,10 +1,10 @@
-### 解题思路
-不要频繁的new string，效率低，StringBuffer(),默认好像像是16大小，底层也是new char数组
+// ### 解题思路
+// 不要频繁的new string，效率低，StringBuffer(),默认好像像是16大小，底层也是new char数组
 
-击败100%用户
-### 代码
+// 击败100%用户
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String replaceSpace(String s) {
 
@@ -31,4 +31,4 @@ class Solution {
         return ans.toString();
     }
 }
-```
+// ```

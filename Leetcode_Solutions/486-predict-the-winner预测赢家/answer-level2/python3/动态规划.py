@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 """
 方法二：动态规划    时间复杂度：O(N^2); 空间复杂度：O(N^2)
 我们同样可以使用动态规划来解决这个问题。用 dp(i, j) 表示当剩下的数为 nums[i .. j] 时，当前操作的选手（注意，不一定是先手）与另一位选手最多的分数差。当前操作的选手可以选择 nums[i] 并留下 nums[i+1 .. j]，或选择 nums[j] 并留下 nums[i .. j-1]，因此状态转移方程为：
@@ -21,4 +21,4 @@ class Solution:
             for col in range(row+1, lens):
                 dp[row][col] = max(nums[row]-dp[row+1][col], nums[col]-dp[row][col-1])
         return dp[0][lens-1] >= 0
-```
+# ```

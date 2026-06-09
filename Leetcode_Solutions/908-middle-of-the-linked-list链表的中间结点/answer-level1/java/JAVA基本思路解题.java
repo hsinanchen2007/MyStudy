@@ -1,18 +1,18 @@
 
-# JAVA基本思路解题
+// # JAVA基本思路解题
 
-我觉得基础不好的童鞋跟我的思路应该是一致的，也比较简单，希望各位能看得懂！~
+// 我觉得基础不好的童鞋跟我的思路应该是一致的，也比较简单，希望各位能看得懂！~
 
-PS：顺便附上本地代码测试用例，付不起会员，只能在idea上写代码了！
+// PS：顺便附上本地代码测试用例，付不起会员，只能在idea上写代码了！
 
-**1.通过method方法找到深度链表深度depth；
+// **1.通过method方法找到深度链表深度depth；
 
-2.depth的一半就是截取链表的长度，因为depth/2会向下取整，所以初始化depth=1；
+// 2.depth的一半就是截取链表的长度，因为depth/2会向下取整，所以初始化depth=1；
 
-3.通过copyListNode截取链表，大功告成；**
+// 3.通过copyListNode截取链表，大功告成；**
 
 
-```
+// ```
 public class Solution {
 
     private static int depth = 1;
@@ -65,4 +65,4 @@ public class Solution {
         ListNode(int x) { val = x; }
     }
 }
-```
+// ```

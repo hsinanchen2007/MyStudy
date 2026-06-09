@@ -1,9 +1,9 @@
-### 解题思路
-看到都是用的二分 , 菜鸡写法竟然过了
+// ### 解题思路
+// 看到都是用的二分 , 菜鸡写法竟然过了
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int searchInsert(int[] nums, int target) {
         int j = 0;
@@ -18,4 +18,4 @@ class Solution {
         return j;
     }
 }
-```
+// ```

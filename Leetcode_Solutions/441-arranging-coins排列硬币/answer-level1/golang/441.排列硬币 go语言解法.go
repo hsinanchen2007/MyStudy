@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-1.暴力法
+// 1.暴力法
 
-```golang
+// ```golang
 func arrangeCoins(n int) int {
 	var res int
 	for i := 1;i <= n;i++ {
@@ -18,12 +18,12 @@ func arrangeCoins(n int) int {
 	}
 	return res
 }
-```
+// ```
 
 
-2.二分法
+// 2.二分法
 
-```golang
+// ```golang
 func arrangeCoins(n int) int {
 	var left,right int = 0,n
 	var mid int
@@ -38,4 +38,4 @@ func arrangeCoins(n int) int {
 	}
 	return left
 }
-```
+// ```

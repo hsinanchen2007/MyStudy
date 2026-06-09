@@ -1,10 +1,10 @@
-### 解题思路
-1)要把stack1中的元素一股脑全部放到stack2。
-2)如果stack2不为空，必须等元素弹出完，才能接着放stack2。
+// ### 解题思路
+// 1)要把stack1中的元素一股脑全部放到stack2。
+// 2)如果stack2不为空，必须等元素弹出完，才能接着放stack2。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class CQueue {
     Stack<Integer> stack1;
     Stack<Integer> stack2;
@@ -35,4 +35,4 @@ class CQueue {
  * obj.appendTail(value);
  * int param_2 = obj.deleteHead();
  */
-```
+// ```

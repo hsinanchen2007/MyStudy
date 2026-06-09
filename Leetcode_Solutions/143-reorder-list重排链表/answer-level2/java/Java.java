@@ -1,11 +1,11 @@
-***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode/blob/master/java/linkedlist/%24143_ReorderList.java)，持续更新。***
+// ***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode/blob/master/java/linkedlist/%24143_ReorderList.java)，持续更新。***
 
-分为三步：
- 1.找到中点
- 2.翻转中点之后的链表
- 3.拼接两个链表
+// 分为三步：
+//  1.找到中点
+//  2.翻转中点之后的链表
+//  3.拼接两个链表
 
-```
+// ```
 public void reorderList(ListNode head) {
     //1.找到中点
     if(head == null) return;
@@ -42,4 +42,4 @@ private ListNode reverse(ListNode head){
     }
     return fakeHead.next;
 }
-```
+// ```

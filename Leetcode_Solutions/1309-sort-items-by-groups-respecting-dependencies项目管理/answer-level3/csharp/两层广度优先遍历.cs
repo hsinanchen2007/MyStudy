@@ -1,11 +1,11 @@
-### 解题思路
-基于组 之间的排序
-和组内的 排序
-记录每个工作的前置完成计数
+// ### 解题思路
+// 基于组 之间的排序
+// 和组内的 排序
+// 记录每个工作的前置完成计数
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 class GroupNum{
     public int groupId = -1;
     public List<int> lst= new List<int>();
@@ -172,4 +172,4 @@ public class Solution {
         return gn.SortItems(n, m, group, beforeItems);
     }
 }
-```
+// ```

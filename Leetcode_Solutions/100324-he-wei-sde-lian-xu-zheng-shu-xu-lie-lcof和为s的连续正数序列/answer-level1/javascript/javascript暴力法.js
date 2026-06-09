@@ -1,4 +1,4 @@
-```
+// ```
 var findContinuousSequence = function(target) {
     if(target < 2) return [];
     const res = [];
@@ -15,4 +15,4 @@ var findContinuousSequence = function(target) {
     if(target % 2) res.push([parseInt(target / 2, 10), parseInt(target / 2, 10) + 1]);
     return res;
 };
-```
+// ```

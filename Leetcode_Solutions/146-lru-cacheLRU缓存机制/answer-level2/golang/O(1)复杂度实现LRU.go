@@ -1,7 +1,7 @@
-### 思路
-使用双向链表+哈希实现
-### 完整代码
-```
+// ### 思路
+// 使用双向链表+哈希实现
+// ### 完整代码
+// ```
 type Node struct {
 	Key      int
 	Val      int
@@ -90,6 +90,6 @@ func (this *LRUCache) Put(key int, value int)  {
 	}
 	return
 }
-```
-### 执行结果
-![image.png](https://pic.leetcode-cn.com/82b347cd2fd550dadd50feb4349ab6de299a9df8bb39b15e10564cf3a3eec67b-image.png)
+// ```
+// ### 执行结果
+// ![image.png](https://pic.leetcode-cn.com/82b347cd2fd550dadd50feb4349ab6de299a9df8bb39b15e10564cf3a3eec67b-image.png)

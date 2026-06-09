@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * // Definition for a Node.
  * function Node(val, next, random) {
@@ -26,4 +26,4 @@ var copyRandomList = function(head) {
   if (head.random) copy.random = copyRandomList(head.random);
   return copy;
 };
-```
+// ```

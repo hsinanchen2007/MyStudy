@@ -1,9 +1,9 @@
-### 解题思路
-本题使用List集合非常好做，因为关系到定位的问题，可类似于数组的方式求解，使用List集合存储结点，之后返回为个数除以2再加1减去1，因为List集合是从零开始遍历。
+// ### 解题思路
+// 本题使用List集合非常好做，因为关系到定位的问题，可类似于数组的方式求解，使用List集合存储结点，之后返回为个数除以2再加1减去1，因为List集合是从零开始遍历。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -26,4 +26,4 @@ class Solution {
         return list.get(count-1);
     }
 }
-```
+// ```

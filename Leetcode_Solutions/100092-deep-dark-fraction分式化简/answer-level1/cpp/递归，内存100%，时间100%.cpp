@@ -1,8 +1,8 @@
-### 解题思路
-直接看代码
-### 代码
+// ### 解题思路
+// 直接看代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> fraction(vector<int>& cont) {
@@ -22,4 +22,4 @@ public:
         return flag;
     }
 };
-```
+// ```

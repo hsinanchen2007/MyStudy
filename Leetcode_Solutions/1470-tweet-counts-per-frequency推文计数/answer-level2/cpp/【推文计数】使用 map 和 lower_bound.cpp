@@ -1,11 +1,11 @@
-#### 解题思路：
+// #### 解题思路：
 
-1. 使用 `map<int, int>` 来保存某时间点的推文数量
-2.  `map` 保证在乱序插入元素时，容器内保存的元素有序排列
-3. 在查找数量时又可以使用 `lower_bound` 二分查找来迅速找到所求元素的区间
+// 1. 使用 `map<int, int>` 来保存某时间点的推文数量
+// 2.  `map` 保证在乱序插入元素时，容器内保存的元素有序排列
+// 3. 在查找数量时又可以使用 `lower_bound` 二分查找来迅速找到所求元素的区间
 
 
-```C++ []
+// ```C++ []
 class TweetCounts {
 public:
     TweetCounts() {}
@@ -42,12 +42,12 @@ public:
 private:
     unordered_map<string, map<int, int>> record;
 };
-```
+// ```
 
 
-#### 致谢
+// #### 致谢
 
-感谢您的观看，希望对您有帮助，欢迎热烈的交流！  
+// 感谢您的观看，希望对您有帮助，欢迎热烈的交流！  
 
-[我的leetcode](https://github.com/AhJo53589/leetcode-cn)
+// [我的leetcode](https://github.com/AhJo53589/leetcode-cn)
 

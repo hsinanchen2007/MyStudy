@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def leadsToDestination(self, n: int, edges: List[List[int]], source: int, destination: int) -> bool:
         adj = collections.defaultdict(list)
@@ -22,4 +22,4 @@ class Solution:
             visited.remove(node)
         dfs(source, visited)
         return flag
-```
+# ```

@@ -1,13 +1,13 @@
-### 解题思路
-python解答：
-要点1：借助list创建队列；
-要点2：list.append()实现队尾插入；
-要点3：list.pop(0)实现队头弹出；
-要点4：遍历方法求得队列最大值。
+# ### 解题思路
+# python解答：
+# 要点1：借助list创建队列；
+# 要点2：list.append()实现队尾插入；
+# 要点3：list.pop(0)实现队头弹出；
+# 要点4：遍历方法求得队列最大值。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class MaxQueue(object):
 
     def __init__(self):
@@ -52,4 +52,4 @@ class MaxQueue(object):
 # param_1 = obj.max_value()
 # obj.push_back(value)
 # param_3 = obj.pop_front()
-```
+# ```

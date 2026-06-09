@@ -1,9 +1,9 @@
-### 解题思路
-使用map存排序后的第几大，从1开始存。
+// ### 解题思路
+// 使用map存排序后的第几大，从1开始存。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] arrayRankTransform(int[] arr) {
         int[] a = new int[arr.length];
@@ -24,4 +24,4 @@ class Solution {
         return re;
     }
 }
-```
+// ```

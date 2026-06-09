@@ -1,8 +1,8 @@
-### 解题思路
-逐位计算
-### 代码
+// ### 解题思路
+// 逐位计算
+// ### 代码
 
-```c
+// ```c
 
 
 int subtractProductAndSum(int n){
@@ -19,4 +19,4 @@ int subtractProductAndSum(int n){
 }
 
 
-```
+// ```

@@ -1,11 +1,11 @@
-# Flood fill算法（染色）
-Flood fill是从一个区域中找出相连通的点与其他相连通的区域区分开的经典算法，因其思路类似洪水从一个区域扩散到所有能到达的区域而得名。在扫雷中，Flood fill算法被用于计算应清除的区域。
+// # Flood fill算法（染色）
+// Flood fill是从一个区域中找出相连通的点与其他相连通的区域区分开的经典算法，因其思路类似洪水从一个区域扩散到所有能到达的区域而得名。在扫雷中，Flood fill算法被用于计算应清除的区域。
 
-Flood fill算法接收三个参数：起始点，目标颜色和替换颜色。寻找与起始节点相连通的目标颜色节点，将其颜色改变为替换颜色。
+// Flood fill算法接收三个参数：起始点，目标颜色和替换颜色。寻找与起始节点相连通的目标颜色节点，将其颜色改变为替换颜色。
 
-## DFS遍历
+// ## DFS遍历
 
-```
+// ```
 class Solution {
     public int numIslands(char[][] grid) {
         if (grid == null || grid.length == 0) return 0;
@@ -29,13 +29,13 @@ class Solution {
         if (j + 1 < grid[0].length && grid[i][j + 1] == '1') dfs(grid, i, j + 1);
     }
 }
-```
-时间复杂度：for循环一次遍历，染色过程最差情况下所有节点均为1，全部遍历，共O(M*N)。
-空间复杂度：最差情况下所有节点均连通，一条dfs路径遍历所有节点，递归调用深度M*N。
+// ```
+// 时间复杂度：for循环一次遍历，染色过程最差情况下所有节点均为1，全部遍历，共O(M*N)。
+// 空间复杂度：最差情况下所有节点均连通，一条dfs路径遍历所有节点，递归调用深度M*N。
 
-## BFS遍历
+// ## BFS遍历
 
-```
+// ```
 class Solution {
     public int numIslands(char[][] grid) {
         if (grid == null || grid.length == 0) return 0;
@@ -76,6 +76,6 @@ class Solution {
         return result;
     }
 }
-```
-时间复杂度：同上O(M*N)。
-空间复杂度：O(min(M,N))。最差情况下队列最大长度可能达到min(M,N)或者min(M,N)+1，取决于上下左右相邻节点的遍历方向。
+// ```
+// 时间复杂度：同上O(M*N)。
+// 空间复杂度：O(min(M,N))。最差情况下队列最大长度可能达到min(M,N)或者min(M,N)+1，取决于上下左右相邻节点的遍历方向。

@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def movingCount(self, m: int, n: int, k: int) -> int:
         self.visited = [[False for _ in range(n)] for _ in range(m)]
@@ -19,4 +19,4 @@ class Solution:
     def getSum(self, i, j):
         return sum(map(int, str(i)+str(j)))
 
-```
+# ```

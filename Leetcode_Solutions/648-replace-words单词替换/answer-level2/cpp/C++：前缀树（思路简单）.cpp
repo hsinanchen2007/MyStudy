@@ -1,7 +1,7 @@
-[本人博客](https://blog.csdn.net/qq_43152052/article/details/100593307)
-题解：使用字符串流来分割句子，然后将句子中的单词与字符串数组里面的前缀单词进行比较。
-这里与其使用前缀树，不如直接比较单词的第一个字符和前缀树组的某个元素的第一个字符效率来的快。
-```cpp
+// [本人博客](https://blog.csdn.net/qq_43152052/article/details/100593307)
+// 题解：使用字符串流来分割句子，然后将句子中的单词与字符串数组里面的前缀单词进行比较。
+// 这里与其使用前缀树，不如直接比较单词的第一个字符和前缀树组的某个元素的第一个字符效率来的快。
+// ```cpp
 class Solution {
 public:
     string replaceWords(vector<string>& dict, string sentence) {
@@ -22,4 +22,4 @@ public:
         return result;
     }
 };
-```
+// ```

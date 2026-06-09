@@ -1,4 +1,4 @@
-```
+// ```
 func minArray(numbers []int) int {
 	low := 0
 	high := len(numbers) - 1
@@ -14,4 +14,4 @@ func minArray(numbers []int) int {
 	}
 	return numbers[low]
 }
-```
+// ```

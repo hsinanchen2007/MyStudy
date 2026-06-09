@@ -1,4 +1,4 @@
-```
+// ```
 #define max(a,b) (((a) > (b)) ? (a) : (b))
 #define min(a,b) (((a) < (b)) ? (a) : (b))
 
@@ -36,4 +36,4 @@ public:
 		return (max(LMax1, LMax2) + min(RMin1, RMin2)) / 2.0;
 	}
 };
-```
+// ```

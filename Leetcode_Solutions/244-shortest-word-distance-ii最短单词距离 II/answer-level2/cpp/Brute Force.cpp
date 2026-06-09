@@ -1,4 +1,4 @@
-```
+// ```
 class WordDistance {
 private:
     unordered_map<string, vector<int> > mp;
@@ -21,4 +21,4 @@ public:
  * WordDistance* obj = new WordDistance(words);
  * int param_1 = obj->shortest(word1,word2);
  */
-```
+// ```

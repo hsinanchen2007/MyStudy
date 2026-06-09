@@ -1,12 +1,12 @@
-## go语言版本的题解
+// ## go语言版本的题解
 
-这题的解法就是 
-```bash
+// 这题的解法就是 
+// ```bash
 偶数 要 奇数变成偶数也要，然后将一个单一的数字放在中间即可，而且只能放一个。
-```
-代码
+// ```
+// 代码
 
-```go
+// ```go
 func longestPalindrome(s string) int {
 	t := 0
 	j := 0
@@ -27,4 +27,4 @@ func longestPalindrome(s string) int {
 	}
 	return t
 }
-````
+// ````

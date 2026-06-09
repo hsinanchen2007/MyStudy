@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/da62f1403105196a17a06e18f8e3834c2678ee4db815cffeecce59f19f5ca5fa-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/da62f1403105196a17a06e18f8e3834c2678ee4db815cffeecce59f19f5ca5fa-image.png)
+// ```
 #define COLNUM 2
 
 int Cmp(const void *a, const void *b)
@@ -122,4 +122,4 @@ int* findMinHeightTrees(int n, int** edges, int edgesSize, int* edgesColSize, in
 
     return returnVal;
 }
-```
+// ```

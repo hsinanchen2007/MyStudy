@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
- - 利用js 对象的引用
- - 确保进位
- - 确保最后一个节点的node.next为null
-### 代码
+//  - 利用js 对象的引用
+//  - 确保进位
+//  - 确保最后一个节点的node.next为null
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -41,4 +41,4 @@ var addTwoNumbers = function(l1, l2) {
     } 
     return res;
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```c
+// ```c
 int maximum69Number (int num){
     int tmp1 = 1;
     int tmp2 = num;
@@ -18,4 +18,4 @@ int maximum69Number (int num){
     }
     return num;
 }
-```
+// ```

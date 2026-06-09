@@ -1,6 +1,6 @@
-上下底面积非常容易计算, 主要是如何计算侧面积.
-我们可以假设一个人从一行头部沿该行行走, 中间上下的累计高度为该行的左右面积, 依次累加各行;列亦如此.
-```c
+// 上下底面积非常容易计算, 主要是如何计算侧面积.
+// 我们可以假设一个人从一行头部沿该行行走, 中间上下的累计高度为该行的左右面积, 依次累加各行;列亦如此.
+// ```c
 int jump(int a, int b) {
     return a >= b ? a - b : b - a;
 }
@@ -22,4 +22,4 @@ int surfaceArea(int** grid, int gridSize, int* gridColSize){
     }
     return lrArea + feArea + udArea;
 }
-```
+// ```

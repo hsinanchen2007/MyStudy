@@ -1,5 +1,5 @@
-判断下标即可
-```
+# 判断下标即可
+# ```
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
         if numRows <= 1:
@@ -20,4 +20,4 @@ class Solution:
                         result += s[l * j + l - i]
                     j += 1
         return result
-```
+# ```

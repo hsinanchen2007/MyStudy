@@ -1,16 +1,16 @@
-1. ### 说明
-    首先这是一个复杂一点的背包问题，m个0，n个1 可以看作是背包，而字符串数组strs是物品列表
+// 1. ### 说明
+//     首先这是一个复杂一点的背包问题，m个0，n个1 可以看作是背包，而字符串数组strs是物品列表
 
-    则对于每一个物品(str)，都有放进背包(背包的容量要变成```m-numsOfStr0,n-numsOfStr1```)和不放进背包两种选择,其中```numsOfStr0```表示str中0的个数，```numsOfStr1```表示str中1的个数
+//     则对于每一个物品(str)，都有放进背包(背包的容量要变成```m-numsOfStr0,n-numsOfStr1```)和不放进背包两种选择,其中```numsOfStr0```表示str中0的个数，```numsOfStr1```表示str中1的个数
 
-    则有
-    - 状态: ```f(i,j,k)代表用j个0，k个1组装strs[0...i]的最大个数```
-    - 动态转移方程: ```f(i,j,k) = max(f(i-1,j,k),f(i-1,j-numsOfStr0,k-numsOfStr1)) ```
+//     则有
+//     - 状态: ```f(i,j,k)代表用j个0，k个1组装strs[0...i]的最大个数```
+//     - 动态转移方程: ```f(i,j,k) = max(f(i-1,j,k),f(i-1,j-numsOfStr0,k-numsOfStr1)) ```
 
-2. ### 先用递归还原动态转移方程
+// 2. ### 先用递归还原动态转移方程
 
-    - #### 代码
-    ```
+//     - #### 代码
+//     ```
     class Solution {
     public int findMaxForm(String[] strs, int m, int n) {
         if(strs.length == 0 || (m==0 && n==0)){
@@ -41,20 +41,20 @@
             return tryFindMaxForm(strs,i-1,m,n);
         }
     }
-    ```
-    - #### 执行结果，执行时长超时
-        ![image.png](https://pic.leetcode-cn.com/8d22c817544343c6cb21d1f1cbc0f21654f3fa18ba3e23f19316c856105ac0b9-image.png)
+//     ```
+//     - #### 执行结果，执行时长超时
+//         ![image.png](https://pic.leetcode-cn.com/8d22c817544343c6cb21d1f1cbc0f21654f3fa18ba3e23f19316c856105ac0b9-image.png)
 
-3. ### 自顶向下-记忆化搜索
-    在递归过程中会遇到重叠子问题 如 
-    ```
+// 3. ### 自顶向下-记忆化搜索
+//     在递归过程中会遇到重叠子问题 如 
+//     ```
     f(8,5,4) = max(f(7,5,4),f(7,3,2)) str = 1100
     f(8,5,2) = max(f(7,5,2),f(7,3,2)) str = 11
     f(7,3,2) 会被重复计算
-    ```
-    所以可添加记忆化搜索
-    - #### 代码
-    ```
+//     ```
+//     所以可添加记忆化搜索
+//     - #### 代码
+//     ```
     class Solution {
     
     private int[][][] memo;
@@ -99,18 +99,18 @@
     }
        
     }
-    ```
-    - #### 结果
+//     ```
+//     - #### 结果
         
-    ![image.png](https://pic.leetcode-cn.com/c1de259e9d2c067facb054590bf0f3618a98bd0a4fe931cf8f64e8048f5407cd-image.png)
-    虽然执行成功，但是时间很长和空间占用很打，分析其原因有二
-    1. 递归方法栈过长导致执行时长增加
-    2. 三维数组在索引上的耗时和空间上的占用
+//     ![image.png](https://pic.leetcode-cn.com/c1de259e9d2c067facb054590bf0f3618a98bd0a4fe931cf8f64e8048f5407cd-image.png)
+//     虽然执行成功，但是时间很长和空间占用很打，分析其原因有二
+//     1. 递归方法栈过长导致执行时长增加
+//     2. 三维数组在索引上的耗时和空间上的占用
     
-4. ### 非递归的动态规划
-    为了解决3中的问题1，可以使用自底向上的动态规划，用循环替代递归
-    - #### 代码
-    ```
+// 4. ### 非递归的动态规划
+//     为了解决3中的问题1，可以使用自底向上的动态规划，用循环替代递归
+//     - #### 代码
+//     ```
     class Solution {
     
     public int findMaxForm(String[] strs, int m, int n) {
@@ -148,16 +148,16 @@
         return dp[strs.length-1][m][n];
     }
     }
-    ```
-    - #### 结果
+//     ```
+//     - #### 结果
         
-![image.png](https://pic.leetcode-cn.com/0e1afeb0a9b6f0bd4d8f66b4f211c4911b623a1ad6c3c26292707f202b35040f-image.png)
-    执行时长有所下降，但是仍然很高，而且空间占用依旧很大，说明3中的问题2是一个比较严重的问题，我们还没有解决
+// ![image.png](https://pic.leetcode-cn.com/0e1afeb0a9b6f0bd4d8f66b4f211c4911b623a1ad6c3c26292707f202b35040f-image.png)
+//     执行时长有所下降，但是仍然很高，而且空间占用依旧很大，说明3中的问题2是一个比较严重的问题，我们还没有解决
 
-5. ### 动态规划的空间优化
-    观察动态转移方程，我们发现dp[i][][] 只和dp[i-1][][] 有关，所以可以去掉第一维，只用一个二维数组保存上一次计算的结果
-    - #### 代码
-    ```
+// 5. ### 动态规划的空间优化
+//     观察动态转移方程，我们发现dp[i][][] 只和dp[i-1][][] 有关，所以可以去掉第一维，只用一个二维数组保存上一次计算的结果
+//     - #### 代码
+//     ```
     class Solution {
     
     public int findMaxForm(String[] strs, int m, int n) {
@@ -187,12 +187,12 @@
         return dp[m][n];
     }
     }
-    ```
-    - #### 结果 
+//     ```
+//     - #### 结果 
         
-![image.png](https://pic.leetcode-cn.com/7dac14bd23ec011b7b6f069b53c3d4502b619444a373f483fcbdfa704bdbdfd3-image.png)
+// ![image.png](https://pic.leetcode-cn.com/7dac14bd23ec011b7b6f069b53c3d4502b619444a373f483fcbdfa704bdbdfd3-image.png)
 
-    经过最后一步优化，时间和空间性能都大幅提升
+//     经过最后一步优化，时间和空间性能都大幅提升
     
 
 

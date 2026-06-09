@@ -1,9 +1,9 @@
-### 解题思路
-数组存数，之后从数组两端一起遍历对比
+// ### 解题思路
+// 数组存数，之后从数组两端一起遍历对比
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isPalindrome(int x) {
@@ -18,4 +18,4 @@ public:
         return true;
     }
 };
-```
+// ```

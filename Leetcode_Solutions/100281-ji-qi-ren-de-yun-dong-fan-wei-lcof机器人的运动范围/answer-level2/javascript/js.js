@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} m
  * @param {number} n
@@ -54,4 +54,4 @@ const get_single_sum = (x) => {
 const get_sum = (x, y) => {
     return get_single_sum(x) + get_single_sum(y);
 }
-```
+// ```

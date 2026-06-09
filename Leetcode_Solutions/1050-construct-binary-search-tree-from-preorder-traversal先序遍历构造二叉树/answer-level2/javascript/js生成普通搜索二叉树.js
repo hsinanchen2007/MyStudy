@@ -1,9 +1,9 @@
-### 解题思路
-通过递归的思想，生成二叉树
+// ### 解题思路
+// 通过递归的思想，生成二叉树
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -64,4 +64,4 @@ var bstFromPreorder = function(preorder) {
     }
     
 };
-```
+// ```

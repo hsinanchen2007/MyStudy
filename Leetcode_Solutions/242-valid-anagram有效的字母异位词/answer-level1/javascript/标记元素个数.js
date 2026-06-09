@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {string} s
  * @param {string} t
@@ -31,4 +31,4 @@ var isAnagram = function(s, t) {
 
   return true;
 };
-```
+// ```

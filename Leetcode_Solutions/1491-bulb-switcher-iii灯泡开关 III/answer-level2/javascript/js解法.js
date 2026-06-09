@@ -1,4 +1,4 @@
-```
+// ```
 维护最大最小值，每次开灯check一下
 var numTimesAllBlue = function(light) {
     if(!light.length) return 0;
@@ -21,9 +21,9 @@ var numTimesAllBlue = function(light) {
     }
     return c;
 };
-```
+// ```
 
-前端算法库：https://github.com/cunzaizhuyi/js-leetcode  
-这里记录了我刷过的近500道LeetCode的题解，
-希望对前端同行找工作面试、修炼算法内功有帮助。
-前端算法交流群：621067993
+// 前端算法库：https://github.com/cunzaizhuyi/js-leetcode  
+// 这里记录了我刷过的近500道LeetCode的题解，
+// 希望对前端同行找工作面试、修炼算法内功有帮助。
+// 前端算法交流群：621067993

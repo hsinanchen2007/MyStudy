@@ -1,10 +1,10 @@
-### 解题思路
-额，好像treemap搞定比较简单，天然排好序，只要第一个出现次数等于数组长度就是解
-没有发现就是-1
+// ### 解题思路
+// 额，好像treemap搞定比较简单，天然排好序，只要第一个出现次数等于数组长度就是解
+// 没有发现就是-1
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 import java.util.Map.Entry;
 class Solution {
     public int smallestCommonElement(int[][] mat) {
@@ -28,4 +28,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

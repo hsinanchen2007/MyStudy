@@ -1,5 +1,5 @@
-虽然效率很低，但真的很好理解
-```
+// 虽然效率很低，但真的很好理解
+// ```
 class Solution {
     public int[] maxSlidingWindow(int[] nums, int k) {
       if(nums==null || nums.length<1) return new int[]{};
@@ -17,4 +17,4 @@ class Solution {
       return res;
     }
 }
-```
+// ```

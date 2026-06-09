@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         p ={}
@@ -15,4 +15,4 @@ class Solution:
             p[s[i]] = i+1
             res = max(res,i-j+1)
         return res
-```
+# ```

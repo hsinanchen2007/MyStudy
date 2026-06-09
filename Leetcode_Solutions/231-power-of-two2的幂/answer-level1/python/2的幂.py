@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def isPowerOfTwo(self, n):
         """
@@ -16,4 +16,4 @@ class Solution(object):
                 else:
                     n = n // 2
             return True  
-```
+# ```

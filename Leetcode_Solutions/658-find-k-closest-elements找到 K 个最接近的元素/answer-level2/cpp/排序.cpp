@@ -1,9 +1,9 @@
-### 解题思路
-定义结构体num,成员包括数值本身以及与x的差值dif.对该结构体排序并取前k项装入vector中，再对vector排序。
+// ### 解题思路
+// 定义结构体num,成员包括数值本身以及与x的差值dif.对该结构体排序并取前k项装入vector中，再对vector排序。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 struct num
@@ -46,4 +46,4 @@ struct num
     return res;
     }
 };
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-有点暴力，167ms~
-排序，三重循环，二分查找，Set去重。
-时间复杂度 N*N*N*logN
+// ### 解题思路
+// 有点暴力，167ms~
+// 排序，三重循环，二分查找，Set去重。
+// 时间复杂度 N*N*N*logN
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private boolean minFind(int[] nums, int left, int right, int target) {
         while (left <= right) {
@@ -46,4 +46,4 @@ class Solution {
         return new ArrayList<>(result);
     }
 }
-```
+// ```

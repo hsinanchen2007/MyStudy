@@ -1,8 +1,8 @@
-### 解题思路
-快慢双指针定位节点
-### 代码
+// ### 解题思路
+// 快慢双指针定位节点
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     ListNode* removeNthFromEnd(ListNode* head, int n) {
@@ -32,4 +32,4 @@ public:
 
 
 
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minimumSemesters(int N, int[][] relations) {
         if (N <= 0) return -1;
@@ -58,7 +58,7 @@ class Node {
         this.next = next;
     }
 }
-```
-执行用时：5ms，在所有java提交中击败了100.00%的用户。
+// ```
+// 执行用时：5ms，在所有java提交中击败了100.00%的用户。
 
-内存消耗：41.9MB，在所有java提交中击败了100.00%的用户。
+// 内存消耗：41.9MB，在所有java提交中击败了100.00%的用户。

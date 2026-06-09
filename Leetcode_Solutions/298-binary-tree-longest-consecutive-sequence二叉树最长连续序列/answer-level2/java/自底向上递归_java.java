@@ -1,9 +1,9 @@
-### 解题思路
-dfs + 自底向上思路，刷新最大路径
+// ### 解题思路
+// dfs + 自底向上思路，刷新最大路径
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private int max = 0;
     public int longestConsecutive(TreeNode root) {
@@ -33,4 +33,4 @@ class Solution {
         return rel;
     }
 }
-```
+// ```

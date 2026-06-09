@@ -1,9 +1,9 @@
-### 解题思路
-1. 通过引入辅助字典，转化为“打家劫舍”问题
-2. 解题思路偷懒不写了
+# ### 解题思路
+# 1. 通过引入辅助字典，转化为“打家劫舍”问题
+# 2. 解题思路偷懒不写了
 
-### 代码
-```python
+# ### 代码
+# ```python
 # 第一版代码
 class Solution(object):
     def deleteAndEarn(self, nums):
@@ -46,4 +46,4 @@ class Solution(object):
                 cur = max(cur, pre + counts[i] * i)
             pre = tmp
         return cur
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-  因为是简单题就直接用sort了。当然了，想锻炼能力肯定是要多想想的，多思考几种解决方案更好！
+// ### 解题思路
+//   因为是简单题就直接用sort了。当然了，想锻炼能力肯定是要多想想的，多思考几种解决方案更好！
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> getLeastNumbers(vector<int>& arr, int k) {
@@ -15,4 +15,4 @@ public:
         return r;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 char *longestPalindrome(char *str) {
     char *result = (char *) malloc(sizeof(char) * 1002);
     if (strlen(str) == 0) {
@@ -74,4 +74,4 @@ char *longestPalindrome(char *str) {
 
     return result;
 }
-```
+// ```

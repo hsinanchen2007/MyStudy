@@ -1,9 +1,9 @@
-### 解题思路
-这是我对一位大佬写的题解的理解，望各位指教！！！谢谢
+// ### 解题思路
+// 这是我对一位大佬写的题解的理解，望各位指教！！！谢谢
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool buddyStrings(string A, string B) {
@@ -28,4 +28,4 @@ public:
         return false;
     }
 };
-```
+// ```

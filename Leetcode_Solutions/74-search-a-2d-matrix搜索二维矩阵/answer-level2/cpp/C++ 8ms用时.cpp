@@ -1,9 +1,9 @@
-### 解题思路
-行遍历，然后找头尾，再找每一行间的数字
+// ### 解题思路
+// 行遍历，然后找头尾，再找每一行间的数字
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
@@ -46,4 +46,4 @@ public:
         return res;
     }
 };
-```![image.png](https://pic.leetcode-cn.com/33eb196a2f44ce050241f6b4f80c049b49012a4ca41feab6f7fee5cfcce72936-image.png)
+// ```![image.png](https://pic.leetcode-cn.com/33eb196a2f44ce050241f6b4f80c049b49012a4ca41feab6f7fee5cfcce72936-image.png)

@@ -1,5 +1,5 @@
-利用map
-```
+// 利用map
+// ```
 var isValidSudoku = function (board) {
   let col = new Map() // 列数据
   let box = new Map() // 小方格数据
@@ -20,6 +20,6 @@ var isValidSudoku = function (board) {
   return true
 };
 
-```
+// ```
 
 

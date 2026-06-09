@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     //应该还是会有更好的解法的。
     public int dominantIndex(int[] nums) {
@@ -16,4 +16,4 @@ class Solution {
         return -1 ;
     }
 }
-```
+// ```

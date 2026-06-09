@@ -1,10 +1,10 @@
-### 解题思路
-思路很简单，回溯+暴力查找每一个结果是否出现，使用map防止超时（测试发现count函数会超时）
-![QQ图片20191205153647.png](https://pic.leetcode-cn.com/664e32a5fa47abc3d272e2573fb264dc708ff1d481ba147869daf99dd82f36b8-QQ%E5%9B%BE%E7%89%8720191205153647.png)
-注释都有写，直接上代码，有没有大神可以给我一些优化时间复杂度的建议呢。
-### 代码
+// ### 解题思路
+// 思路很简单，回溯+暴力查找每一个结果是否出现，使用map防止超时（测试发现count函数会超时）
+// ![QQ图片20191205153647.png](https://pic.leetcode-cn.com/664e32a5fa47abc3d272e2573fb264dc708ff1d481ba147869daf99dd82f36b8-QQ%E5%9B%BE%E7%89%8720191205153647.png)
+// 注释都有写，直接上代码，有没有大神可以给我一些优化时间复杂度的建议呢。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	void backTrace(string s, map<string, int>& temp, string ss, vector<int>& vis, int len, int& ans)
@@ -45,4 +45,4 @@ public:
 		return ans;
 	}
 };
-```
+// ```

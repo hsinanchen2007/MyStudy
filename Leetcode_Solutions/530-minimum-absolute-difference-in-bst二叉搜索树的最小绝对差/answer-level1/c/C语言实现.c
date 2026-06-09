@@ -1,5 +1,5 @@
-C语言实现
-```C []
+// C语言实现
+// ```C []
 void getMinDiff(struct TreeNode* root, int* prev, int *min_diff){
     if (NULL == root) return;
     getMinDiff(root->left, prev, min_diff);
@@ -16,4 +16,4 @@ int getMinimumDifference(struct TreeNode* root){
     getMinDiff(root, &prev, &min_diff);
     return min_diff;
 }
-```
+// ```

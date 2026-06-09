@@ -1,8 +1,8 @@
-1. 用pair来保存新节点与原节点映射关系
-2. 用map来保存已经copy过的新节点，一方面避免bfs时无限循环，另一方面避免新图有重复节点
-3. 之后按original的bfs，在遍历孩子节点的时候进行节点复制和边复制。
+// 1. 用pair来保存新节点与原节点映射关系
+// 2. 用map来保存已经copy过的新节点，一方面避免bfs时无限循环，另一方面避免新图有重复节点
+// 3. 之后按original的bfs，在遍历孩子节点的时候进行节点复制和边复制。
 
-```
+// ```
 class Solution {
 public:
     Node* cloneGraph(Node* node) {
@@ -38,4 +38,4 @@ public:
         return head; 
     }
 };
-```
+// ```

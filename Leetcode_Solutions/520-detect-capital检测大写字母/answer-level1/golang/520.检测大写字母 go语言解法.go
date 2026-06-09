@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-循环判断即可。
+// 循环判断即可。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func detectCapitalUse(word string) bool {
 	if len(word) == 1 {
 		return true
@@ -30,4 +30,4 @@ func detectCapitalUse(word string) bool {
 	}
 	return true
 }
-```
+// ```

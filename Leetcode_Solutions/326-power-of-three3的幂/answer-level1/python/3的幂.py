@@ -1,9 +1,9 @@
-### 解题思路
-注意1是3的零次幂，不用特殊处理
+# ### 解题思路
+# 注意1是3的零次幂，不用特殊处理
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isPowerOfThree(self, n: int) -> bool:
         if n == 0:
@@ -19,4 +19,4 @@ class Solution:
             if rest == n:
                 return False
 
-```
+# ```

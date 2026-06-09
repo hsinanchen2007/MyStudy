@@ -1,9 +1,9 @@
-### 解题思路
-循环计数法
+# ### 解题思路
+# 循环计数法
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def oneEditAway(self, first: str, second: str) -> bool:
         if first == second:
@@ -45,4 +45,4 @@ class Solution:
                 return False
         else:
             return False
-```
+# ```

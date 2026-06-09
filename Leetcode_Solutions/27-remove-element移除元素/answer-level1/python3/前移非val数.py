@@ -1,9 +1,9 @@
-### 解题思路
-对于非val数，前移当年下标之前找到过的非val个数
+# ### 解题思路
+# 对于非val数，前移当年下标之前找到过的非val个数
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def removeElement(self, nums, val):
         """
@@ -20,4 +20,4 @@ class Solution(object):
             else:
                 nums[i-cnt_val] = nums[i]
         return length-cnt_val
-```
+# ```

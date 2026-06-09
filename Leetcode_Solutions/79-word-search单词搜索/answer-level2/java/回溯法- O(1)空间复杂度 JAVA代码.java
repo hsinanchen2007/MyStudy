@@ -1,4 +1,4 @@
-置二维数组当前元素为非字母类型的任意字符，表示当前查找过程中已经走过，不再重走。回溯时置回原字符。
+// 置二维数组当前元素为非字母类型的任意字符，表示当前查找过程中已经走过，不再重走。回溯时置回原字符。
 
     public boolean exist(char[][] board, String word) {
         if(board.length == 0) return false;

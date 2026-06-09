@@ -1,35 +1,35 @@
-介绍三种比较容易理解方法
-分别是基础的暴力法，利用动态规划思想，但结合了暴力的方法，还有就是利用上一题84题的解法
-[个人github，求星星](https://github.com/Zhenghao-Liu/LeetCode_problem-and-solution)
+// 介绍三种比较容易理解方法
+// 分别是基础的暴力法，利用动态规划思想，但结合了暴力的方法，还有就是利用上一题84题的解法
+// [个人github，求星星](https://github.com/Zhenghao-Liu/LeetCode_problem-and-solution)
 
-## 方法一：暴力法
-执行用时48ms 内存消耗10.5MB
-1. 遍历matrix的所有节点，把matrix.at(i).at(j)想象成一个矩形的右下角那个点，  
-2. 对matrix.at(i).at(j)所在节点向左遍历，找到连续都为1的长度minimum_long，求面积1*minimum_long
-3. 然后i-1,重复第二点向左遍历，用两行较短的一边为minimum_long，面积2*minimum_long
-4. 一直更新面积area，直到往上不是‘1’的时候就结束这个节点
-5. 对下一个节点重复
+// ## 方法一：暴力法
+// 执行用时48ms 内存消耗10.5MB
+// 1. 遍历matrix的所有节点，把matrix.at(i).at(j)想象成一个矩形的右下角那个点，  
+// 2. 对matrix.at(i).at(j)所在节点向左遍历，找到连续都为1的长度minimum_long，求面积1*minimum_long
+// 3. 然后i-1,重复第二点向左遍历，用两行较短的一边为minimum_long，面积2*minimum_long
+// 4. 一直更新面积area，直到往上不是‘1’的时候就结束这个节点
+// 5. 对下一个节点重复
 
-## 方法二：伪动态规划
-执行用时48ms 内存消耗10.9MB
-1. 创一个vector<vector<int>> dp(row,vector<int>(column,0))
-2. 首先搞定第一行和第一列
-3. 对于剩下的来说开始遍历
-4. 如果matrix.at(i).at(j)=='0' 那么dp.at(i).at(j)=max(dp.at(i-1).at(j),dp.at(i).at(j-1))
-5. 如果matrix.at(i).at(j)=='1' 那么dp.at(i).at(j)=max(dp.at(i-1).at(j),dp.at(i).at(j-1),按照方法1的暴力法找包括当前节点的最大面积)
+// ## 方法二：伪动态规划
+// 执行用时48ms 内存消耗10.9MB
+// 1. 创一个vector<vector<int>> dp(row,vector<int>(column,0))
+// 2. 首先搞定第一行和第一列
+// 3. 对于剩下的来说开始遍历
+// 4. 如果matrix.at(i).at(j)=='0' 那么dp.at(i).at(j)=max(dp.at(i-1).at(j),dp.at(i).at(j-1))
+// 5. 如果matrix.at(i).at(j)=='1' 那么dp.at(i).at(j)=max(dp.at(i-1).at(j),dp.at(i).at(j-1),按照方法1的暴力法找包括当前节点的最大面积)
 
-## 方法三：栈
-执行用时36ms 内存消耗11.3MB
-1. 首先要把上一题84题的动态栈给看会了（能做出来上一题的其他方法也行，但没那么快）
-2. 我们把matrix一行一行来看，创vector<int> heights(column,0)
-3. 如果matrix.at(i).at(j)=‘0’那么height.at(j)=0
-4. 如果matrix.at(i).at(j)=‘0’那么height.at(j)=height.at(j)+1
-5. 可以这样理解，如果当前行的对应j这个点即matrix.at(i).at(j)为0，那么它就连接不上上面一行，那么在这一行求最大矩形就暂时不会有这一列的意义了
-6. 如果如果当前行的对应j这个点即matrix.at(i).at(j)为1，那么表明他能连接上一行对应的这一列
-7. 明白好之后，对每一行都调用84题的函数去求当前行最大面积
-8. 到下一行重复即可
+// ## 方法三：栈
+// 执行用时36ms 内存消耗11.3MB
+// 1. 首先要把上一题84题的动态栈给看会了（能做出来上一题的其他方法也行，但没那么快）
+// 2. 我们把matrix一行一行来看，创vector<int> heights(column,0)
+// 3. 如果matrix.at(i).at(j)=‘0’那么height.at(j)=0
+// 4. 如果matrix.at(i).at(j)=‘0’那么height.at(j)=height.at(j)+1
+// 5. 可以这样理解，如果当前行的对应j这个点即matrix.at(i).at(j)为0，那么它就连接不上上面一行，那么在这一行求最大矩形就暂时不会有这一列的意义了
+// 6. 如果如果当前行的对应j这个点即matrix.at(i).at(j)为1，那么表明他能连接上一行对应的这一列
+// 7. 明白好之后，对每一行都调用84题的函数去求当前行最大面积
+// 8. 到下一行重复即可
 
-```
+// ```
 方法1
 class Solution {
 public:
@@ -64,9 +64,9 @@ int maximalRectangle(vector<vector<char>>& matrix)
     return answer;
 }
 };
-```
+// ```
 
-```
+// ```
 方法2
 class Solution {
 public:
@@ -141,9 +141,9 @@ int maximalRectangle(vector<vector<char>>& matrix)
 	return dp.at(row-1).at(column-1);
 }
 };
-```
+// ```
 
-```
+// ```
 方法3
 class Solution {
 public:
@@ -201,7 +201,7 @@ int largestRectangleArea(vector<int>& heights)
     return answer;
 }
 };
-```
+// ```
 
 
 

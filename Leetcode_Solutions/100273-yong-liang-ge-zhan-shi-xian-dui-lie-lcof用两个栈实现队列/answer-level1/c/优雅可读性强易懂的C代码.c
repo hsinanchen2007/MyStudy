@@ -1,7 +1,7 @@
-思路：我们定义2个栈空间，rear和front分别作为其中的栈顶指针。我们限定rear栈空间只能进行push也就是入队，而front栈只能进行pop也就是出队以此来用两个栈来模仿队列。
-下面的代码关键地方都给予了注释。
+// 思路：我们定义2个栈空间，rear和front分别作为其中的栈顶指针。我们限定rear栈空间只能进行push也就是入队，而front栈只能进行pop也就是出队以此来用两个栈来模仿队列。
+// 下面的代码关键地方都给予了注释。
 
-```
+// ```
 #define MAXSIZE 300
 #define REAR 1
 #define FRONT 0
@@ -53,4 +53,4 @@ void cQueueFree(CQueue* obj) {
 	free(obj);
 }
 
-```
+// ```

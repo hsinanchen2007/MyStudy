@@ -1,16 +1,16 @@
-### 思考
- 回溯算法全排列，依旧可以探索出结果，唯一困难就是去重，但是如果用Set保存，再转换，去重也应该问题不大，最关键是回溯用的是递归算法，效率会比双指针低很多。
-### 解题思路
-* 对数组进行排序，为剔除重复计算做准备。
-* 遍历排序后数组：
-  * 若 nums[i]>0：因为已经排序好，num[left] = num[i+1]，所以num[left]也大于零，因为right永远大于left所以num[right]一定也大于零，所以后面不可能有三个数加和等于0，直接返回结果。
-  * 对于重复元素：跳过，避免出现重复解
-  * 令左指针 left=i+1，右指针 right = n-1，当 left < right 时，执行循环：
-     当 nums[i]+nums[L]+nums[R]==0，执行循环，判断左界和右界是否和下一位置重复，去除重复解。并同时将 L,R 移到下一位置，寻找新的,若和大于0，说明 nums[right] 太大，right左移;若和小于0，说明 nums[left]太小，left右移
+// ### 思考
+//  回溯算法全排列，依旧可以探索出结果，唯一困难就是去重，但是如果用Set保存，再转换，去重也应该问题不大，最关键是回溯用的是递归算法，效率会比双指针低很多。
+// ### 解题思路
+// * 对数组进行排序，为剔除重复计算做准备。
+// * 遍历排序后数组：
+//   * 若 nums[i]>0：因为已经排序好，num[left] = num[i+1]，所以num[left]也大于零，因为right永远大于left所以num[right]一定也大于零，所以后面不可能有三个数加和等于0，直接返回结果。
+//   * 对于重复元素：跳过，避免出现重复解
+//   * 令左指针 left=i+1，右指针 right = n-1，当 left < right 时，执行循环：
+//      当 nums[i]+nums[L]+nums[R]==0，执行循环，判断左界和右界是否和下一位置重复，去除重复解。并同时将 L,R 移到下一位置，寻找新的,若和大于0，说明 nums[right] 太大，right左移;若和小于0，说明 nums[left]太小，left右移
 
-### 代码
+// ### 代码
 
-```java []
+// ```java []
 // 笨小孩的仿造品
 class Solution {
     private List<List<Integer>> result;    
@@ -67,8 +67,8 @@ class Solution {
         return result;
     }
 }
-```
-```python []
+// ```
+// ```python []
 // 吴彦祖的python代码
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
@@ -100,4 +100,4 @@ class Solution:
                 else:
                     L=L+1
         return res
-```
+// ```

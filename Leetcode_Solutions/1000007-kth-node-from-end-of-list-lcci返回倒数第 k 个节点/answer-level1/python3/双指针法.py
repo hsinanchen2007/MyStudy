@@ -1,9 +1,9 @@
-### 解题思路
-仿照其他题主JS思路，双指针法
+# ### 解题思路
+# 仿照其他题主JS思路，双指针法
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -21,4 +21,4 @@ class Solution:
             fast = fast.next
             slow = slow.next
         return slow.val
-```
+# ```

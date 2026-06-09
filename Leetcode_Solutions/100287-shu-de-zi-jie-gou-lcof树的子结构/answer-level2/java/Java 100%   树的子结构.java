@@ -1,11 +1,11 @@
-### 解题思路
-递归！！！
-如果当前节点没有找到，则继续下一个节点作为根节点的树进行判断。
-先序遍历 + 判断（judge方法）
+// ### 解题思路
+// 递归！！！
+// 如果当前节点没有找到，则继续下一个节点作为根节点的树进行判断。
+// 先序遍历 + 判断（judge方法）
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -41,4 +41,4 @@ class Solution {
         return judge(A.left, B.left) && judge(A.right, B.right);
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
- ```
+#  ```
 class Solution:
     def addStrings(self, num1: str, num2: str) -> str:
         '''
@@ -30,4 +30,4 @@ class Solution:
             res += str(add)
         res = res[::-1]
         return res        
-```
+# ```

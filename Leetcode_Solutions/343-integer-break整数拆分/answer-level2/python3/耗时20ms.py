@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def integerBreak(self, n: int) -> int:
         if n == 2:
@@ -21,4 +21,4 @@ class Solution:
             elif num2 == 2:
                 jishu = 3 ** num1 * 2
             return(max(jishu,oushu))
-```
+# ```

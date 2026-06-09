@@ -1,14 +1,14 @@
-### 解题思路
-典型的BFS问题，注意点为：
-（1）使用邻接矩阵加速查找，邻接矩阵更为编程友好
-（2）路标记录到达该节点时间，加入访问队列的条件是：a.初次访问该节点；b.再次访问该节点时耗时更短
+// ### 解题思路
+// 典型的BFS问题，注意点为：
+// （1）使用邻接矩阵加速查找，邻接矩阵更为编程友好
+// （2）路标记录到达该节点时间，加入访问队列的条件是：a.初次访问该节点；b.再次访问该节点时耗时更短
 
-![image.png](https://pic.leetcode-cn.com/d60877440a87bfb53a17f0f4d410cde119289e393c241ae49784c0b1908391c6-image.png)
+// ![image.png](https://pic.leetcode-cn.com/d60877440a87bfb53a17f0f4d410cde119289e393c241ae49784c0b1908391c6-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 #include <stdlib.h>
 #include <stdio.h>
@@ -127,4 +127,4 @@ int networkDelayTime(int** times, int timesSize, int* timesColSize, int N, int K
 
     return max;
 }
-```
+// ```

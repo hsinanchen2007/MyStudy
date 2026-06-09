@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路：将后边的k个数字放到 t 中，然后再将 nums中k个数字前边的数字后移，然后再将t中的数放到nums中
-![image.png](https://pic.leetcode-cn.com/427671be5bf39e64aa8abfdf5b097ed6821df1399b742d0f4155d74a46cc9ec6-image.png)
+// ### 解题思路
+// 此处撰写解题思路：将后边的k个数字放到 t 中，然后再将 nums中k个数字前边的数字后移，然后再将t中的数放到nums中
+// ![image.png](https://pic.leetcode-cn.com/427671be5bf39e64aa8abfdf5b097ed6821df1399b742d0f4155d74a46cc9ec6-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void rotate(vector<int>& nums, int k) {
@@ -26,4 +26,4 @@ public:
         }      
     }
 };
-```
+// ```

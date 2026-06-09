@@ -1,6 +1,6 @@
 
-1,第一个算法,肯定是最基础,也是最容易实现的算法,暴力穷举
-```
+// 1,第一个算法,肯定是最基础,也是最容易实现的算法,暴力穷举
+// ```
 object Solution {
   def twoSum(nums: Array[Int], target: Int): Array[Int] = {
     val index = new Array[Int](2)
@@ -13,10 +13,10 @@ object Solution {
     return index
   }
 }
-```
+// ```
 
-2,第二个算法,开始高级一点了,利用hash实现
-```
+// 2,第二个算法,开始高级一点了,利用hash实现
+// ```
 
 object Solution {
   def twoSum(nums: Array[Int], target: Int): Array[Int] = {
@@ -36,13 +36,13 @@ object Solution {
   }
 }
 
-```
-两个数的和等于target,那么这两个数,要么相等,要么不相等
-1. 如果不相等,直接可以通过差的hash值找到
-2. 否则相等的话,必然等于target/2,直接遍历数组,找到下标即可
+// ```
+// 两个数的和等于target,那么这两个数,要么相等,要么不相等
+// 1. 如果不相等,直接可以通过差的hash值找到
+// 2. 否则相等的话,必然等于target/2,直接遍历数组,找到下标即可
 
-3,优化一下,解法2,不用直接把所有都存到map,但看结果,对计算效率没啥提升
-```
+// 3,优化一下,解法2,不用直接把所有都存到map,但看结果,对计算效率没啥提升
+// ```
 object Solution {
   def twoSum(nums: Array[Int], target: Int): Array[Int] = {
     val index = new Array[Int](2)
@@ -65,5 +65,5 @@ object Solution {
     return index
   }
 }
-```
+// ```
 

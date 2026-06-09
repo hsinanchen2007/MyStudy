@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int numFriendRequests(int[] ages) {
         int[] bucket=new int[121];
@@ -23,4 +23,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

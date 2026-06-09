@@ -1,9 +1,9 @@
-### 解题思路
-快速排序，边排序边比较
+# ### 解题思路
+# 快速排序，边排序边比较
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:
         return self.quick_sort(nums,k)
@@ -41,4 +41,4 @@ class Solution:
                     break
                 right -= 1
         return left
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-注意递归的返回true的条件，一定要考虑是叶子结点的情况
-return 的结果是左子树和右子树递归结果的或，因为只要存在就是true
-### 代码
+// ### 解题思路
+// 注意递归的返回true的条件，一定要考虑是叶子结点的情况
+// return 的结果是左子树和右子树递归结果的或，因为只要存在就是true
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -27,4 +27,4 @@ public:
                 hasPathSum(root->right, sum-root->val);
     }
 };
-```
+// ```

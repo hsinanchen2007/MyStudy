@@ -1,9 +1,9 @@
-### 解题思路
-if(prices[i] > prices[i-1]) profit += (prices[i]-prices[i-1]);
+// ### 解题思路
+// if(prices[i] > prices[i-1]) profit += (prices[i]-prices[i-1]);
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
@@ -15,4 +15,4 @@ public:
         return profit;
     }
 };
-```
+// ```

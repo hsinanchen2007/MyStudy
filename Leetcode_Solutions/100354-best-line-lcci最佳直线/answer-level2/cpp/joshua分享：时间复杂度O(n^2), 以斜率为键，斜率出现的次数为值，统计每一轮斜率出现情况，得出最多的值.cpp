@@ -1,9 +1,9 @@
-### 解题思路
-joshua分享：以斜率为键，斜率出现的次数为值，统计每一轮斜率出现情况，得出最多的值
+// ### 解题思路
+// joshua分享：以斜率为键，斜率出现的次数为值，统计每一轮斜率出现情况，得出最多的值
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> bestLine(vector<vector<int>>& points) {
@@ -47,4 +47,4 @@ public:
         return ans;
     }
 };
-```
+// ```

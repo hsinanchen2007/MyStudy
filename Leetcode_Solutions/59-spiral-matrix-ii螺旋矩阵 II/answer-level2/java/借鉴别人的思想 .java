@@ -1,5 +1,5 @@
-按外圈到内圈进行赋值
-```
+// 按外圈到内圈进行赋值
+// ```
 public int[][] generateMatrix(int n) {
 
 		int result[][]=new int[n][n];
@@ -20,4 +20,4 @@ public int[][] generateMatrix(int n) {
 		return result;
 	
 	}
-```
+// ```

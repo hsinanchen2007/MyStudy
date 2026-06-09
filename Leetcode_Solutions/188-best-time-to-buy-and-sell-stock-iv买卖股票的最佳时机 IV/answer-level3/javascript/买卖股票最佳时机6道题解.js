@@ -1,22 +1,22 @@
-解题思想也是看了[一个方法团灭 6 道股票问题](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/solution/yi-ge-fang-fa-tuan-mie-6-dao-gu-piao-wen-ti-by-l-2/)后得到的；js相对来说代码更简洁
+// 解题思想也是看了[一个方法团灭 6 道股票问题](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/solution/yi-ge-fang-fa-tuan-mie-6-dao-gu-piao-wen-ti-by-l-2/)后得到的；js相对来说代码更简洁
 
-核心代码
-```
+// 核心代码
+// ```
     for (let i = 1; i < n; i++){
         //卖出时利润：求最大值（上次交易卖出时利润，本次交易卖出时利润）
         profit_out = Math.max(profit_out, profit_in + prices[i]);
         //买入时利润：求最大值（上次买入时利润，本次买入时利润）
         profit_in = Math.max(profit_in,  - prices[i]);
     }
-```
+// ```
 
-解释下：
-1. `n` 即为 n天的股票价格中的n；
-2. `Math.max(profit_out, profit_in + prices[i])`本句中 `profit_out`:上一次卖出时的利润； `profit_in + prices[i]`：本次卖出时的利润，上次买入时的利润+当天的股票价格即为本次卖出时的利润
-3. `Math.max(profit_in,  - prices[i])`中 `profit_in`: 上次买入时的利润；`-prices[i]`: 本次买入时利润，和初始值一样，该示例是一次交易，如果是多次交易的话，应该是：`profit_out - prices[i]`即本次买入时的利润=上次卖出时的利润-当前价格；
+// 解释下：
+// 1. `n` 即为 n天的股票价格中的n；
+// 2. `Math.max(profit_out, profit_in + prices[i])`本句中 `profit_out`:上一次卖出时的利润； `profit_in + prices[i]`：本次卖出时的利润，上次买入时的利润+当天的股票价格即为本次卖出时的利润
+// 3. `Math.max(profit_in,  - prices[i])`中 `profit_in`: 上次买入时的利润；`-prices[i]`: 本次买入时利润，和初始值一样，该示例是一次交易，如果是多次交易的话，应该是：`profit_out - prices[i]`即本次买入时的利润=上次卖出时的利润-当前价格；
 
-[买卖股票的最佳时机 I](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/submissions/)
-```
+// [买卖股票的最佳时机 I](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/submissions/)
+// ```
 var maxProfit = function(prices) {
     let n = prices.length;
     let profit_out = 0;
@@ -28,10 +28,10 @@ var maxProfit = function(prices) {
     }
     return profit_out;
 };
-```
-[ 买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)
+// ```
+// [ 买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)
 
-```
+// ```
 var maxProfit = function(prices) {
     let profit_out = 0, profit_in = 0 -prices[0];
     let n = prices.length;
@@ -41,9 +41,9 @@ var maxProfit = function(prices) {
     }
     return profit_out;
 };
-```
-[买卖股票的最佳时机 III](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/)
-```
+// ```
+// [买卖股票的最佳时机 III](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/)
+// ```
 var maxProfit = function(prices) {
     //第一次 买入， 卖出的利润
     let profit_1_in = -prices[0], profit_1_out = 0;
@@ -60,9 +60,9 @@ var maxProfit = function(prices) {
     }
     return profit_2_out;
 };
-```
-[最佳买卖股票时机含冷冻期](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)
-```
+// ```
+// [最佳买卖股票时机含冷冻期](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)
+// ```
 var maxProfit = function(prices) {
     let n = prices.length;
     let profit_in = 0 - prices[0];
@@ -79,10 +79,10 @@ var maxProfit = function(prices) {
     }
     return profit_out;
 };
-```
-[买卖股票的最佳时机 IV](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv/)
-本题代码可以说是比较简洁易读了，第一个for循环，初始化k次交易买入和卖出时的利润，我把每次交易买入，卖出时的利润放在一个对象中，这样就把三维变成一维了；让我有这种思路是来自于k=2的那道题；也可以阅读[一个方法团灭 6 道股票问题](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/solution/yi-ge-fang-fa-tuan-mie-6-dao-gu-piao-wen-ti-by-l-2/)中k=2那道题的解释；
-```
+// ```
+// [买卖股票的最佳时机 IV](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv/)
+// 本题代码可以说是比较简洁易读了，第一个for循环，初始化k次交易买入和卖出时的利润，我把每次交易买入，卖出时的利润放在一个对象中，这样就把三维变成一维了；让我有这种思路是来自于k=2的那道题；也可以阅读[一个方法团灭 6 道股票问题](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/solution/yi-ge-fang-fa-tuan-mie-6-dao-gu-piao-wen-ti-by-l-2/)中k=2那道题的解释；
+// ```
 var maxProfit = function(k, prices) {
     let n = prices.length;
     if (k > n / 2) {
@@ -107,9 +107,9 @@ var maxProfit = function(k, prices) {
     }
     return profit[k].profit_out;
 };
-```
-[买卖股票的最佳时机含手续费](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)
-```
+// ```
+// [买卖股票的最佳时机含手续费](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)
+// ```
 var maxProfit = function(prices, fee) {
     //初始利润
     var profit_in = 0 - prices[0];
@@ -122,7 +122,7 @@ var maxProfit = function(prices, fee) {
     }
     return profit_out;
 };
-```
+// ```
 
 
 

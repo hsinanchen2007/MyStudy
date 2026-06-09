@@ -1,9 +1,9 @@
-### 解题思路
-Generate Parentheses
+// ### 解题思路
+// Generate Parentheses
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void generate(vector<string>& ans, string& cur, int open, int close, int n) {
@@ -32,4 +32,4 @@ public:
         return res;
     }
 };
-```
+// ```

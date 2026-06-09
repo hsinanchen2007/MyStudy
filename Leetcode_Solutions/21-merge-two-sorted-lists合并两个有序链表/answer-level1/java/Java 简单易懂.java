@@ -1,7 +1,7 @@
 
-执行用时：0 ms
-内存消耗：39 MB
-``` java
+// 执行用时：0 ms
+// 内存消耗：39 MB
+// ``` java
 class Solution {
   /**  
    * 比较2个节点，放入新链表中
@@ -33,5 +33,5 @@ class Solution {
         return dummy.next;
     }
 }
-```
+// ```
 

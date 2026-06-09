@@ -1,7 +1,7 @@
-![Screenshot from 2019-09-14 23-38-52.png](https://pic.leetcode-cn.com/5e041650e17dcd27ae5f6758c49b1f1aefa6015e90001802f972ac8f39eb1924-Screenshot%20from%202019-09-14%2023-38-52.png)
+// ![Screenshot from 2019-09-14 23-38-52.png](https://pic.leetcode-cn.com/5e041650e17dcd27ae5f6758c49b1f1aefa6015e90001802f972ac8f39eb1924-Screenshot%20from%202019-09-14%2023-38-52.png)
 
 
-```
+// ```
 class Solution {
 public:
 
@@ -45,4 +45,4 @@ public:
         return result;
     }
 };
-```
+// ```

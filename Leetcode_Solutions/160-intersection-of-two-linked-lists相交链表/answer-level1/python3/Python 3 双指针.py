@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-计算两个路劲的长度，然后计算差值，谁长谁先走delta步，然后再一起走，如果相等则为交叉点，都走完了，还没有交叉，那么直接返回None吧，下面的写法，最后走完且不相交时，headA和headB都是None.
+# 计算两个路劲的长度，然后计算差值，谁长谁先走delta步，然后再一起走，如果相等则为交叉点，都走完了，还没有交叉，那么直接返回None吧，下面的写法，最后走完且不相交时，headA和headB都是None.
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -49,6 +49,6 @@ class Solution:
         
         
         
-```
+# ```
 
-END.
+# END.

@@ -1,12 +1,12 @@
-### 解题思路
-回文字符串可以理解为对称的字符串，即除中间字母外，其余字母出现次数必为偶数；
-1、遍历输入字符串，找出每个字母出现的次数
-2、计算偶数字符串个数，若有奇数则记录flag，最终长度+1(可放在中间))
-![image.png](https://pic.leetcode-cn.com/afac09f5c4c182095037814df0b51aca0697acf4e5abd6d3fbb3e726a39ad51e-image.png)
+// ### 解题思路
+// 回文字符串可以理解为对称的字符串，即除中间字母外，其余字母出现次数必为偶数；
+// 1、遍历输入字符串，找出每个字母出现的次数
+// 2、计算偶数字符串个数，若有奇数则记录flag，最终长度+1(可放在中间))
+// ![image.png](https://pic.leetcode-cn.com/afac09f5c4c182095037814df0b51aca0697acf4e5abd6d3fbb3e726a39ad51e-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int longestPalindrome(char * s){
     int len = 0;
     int flag = 0;
@@ -30,4 +30,4 @@ int longestPalindrome(char * s){
     len = flag ? len + 1 : len;
     return len;
 }
-```
+// ```

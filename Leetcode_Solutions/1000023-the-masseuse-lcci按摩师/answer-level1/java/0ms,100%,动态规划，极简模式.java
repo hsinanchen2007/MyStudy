@@ -1,10 +1,10 @@
-### 解题思路
-![屏幕快照 2020-03-24 16.35.35.png](https://pic.leetcode-cn.com/2587ffb8b9370a4900840c917227085cacd622a0a5ca8108750fcd296d180990-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-03-24%2016.35.35.png)
+// ### 解题思路
+// ![屏幕快照 2020-03-24 16.35.35.png](https://pic.leetcode-cn.com/2587ffb8b9370a4900840c917227085cacd622a0a5ca8108750fcd296d180990-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-03-24%2016.35.35.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int massage(int[] nums) {
         // 特判
@@ -24,4 +24,4 @@ class Solution {
     }
 
 }
-```
+// ```

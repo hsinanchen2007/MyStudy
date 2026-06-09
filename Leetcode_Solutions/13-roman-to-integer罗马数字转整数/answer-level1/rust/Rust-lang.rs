@@ -1,13 +1,13 @@
-### 运行结果
+// ### 运行结果
 
-![image.png](https://pic.leetcode-cn.com/bad3950fa42d48977d316acd51cd242e0dcc6a66bd9584343882713c4edaa9e2-image.png)
+// ![image.png](https://pic.leetcode-cn.com/bad3950fa42d48977d316acd51cd242e0dcc6a66bd9584343882713c4edaa9e2-image.png)
 
-### 解题思路
-HashMap
+// ### 解题思路
+// HashMap
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 use std::collections::HashMap;
 
 impl Solution {
@@ -35,4 +35,4 @@ impl Solution {
         (ans)
     }
 }
-```
+// ```

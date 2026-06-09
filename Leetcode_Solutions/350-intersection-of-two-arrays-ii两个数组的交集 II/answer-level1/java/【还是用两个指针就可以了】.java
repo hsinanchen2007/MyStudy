@@ -1,9 +1,9 @@
-### 解题思路
-和Intersection of Two Arrays I 一样用了排序然后用两个指针一起从零开始，遇到一样的就加入output的list，然后两个一起加一；遇到不一样的，小的那个加一。比上一题更加简单的是都不用在output list 里查重了。挺快的，不过这么做好像空间复杂度挺高的（可能因为有一个动态list和一个最后返回的数组？），内存消耗很高。
+// ### 解题思路
+// 和Intersection of Two Arrays I 一样用了排序然后用两个指针一起从零开始，遇到一样的就加入output的list，然后两个一起加一；遇到不一样的，小的那个加一。比上一题更加简单的是都不用在output list 里查重了。挺快的，不过这么做好像空间复杂度挺高的（可能因为有一个动态list和一个最后返回的数组？），内存消耗很高。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] intersect(int[] nums1, int[] nums2) {
         ArrayList<Integer> list = new ArrayList<Integer>();
@@ -28,4 +28,4 @@ class Solution {
         return output;
     }
 }
-```
+// ```

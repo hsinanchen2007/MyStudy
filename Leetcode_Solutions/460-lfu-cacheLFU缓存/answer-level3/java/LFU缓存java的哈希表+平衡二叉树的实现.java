@@ -1,9 +1,9 @@
-## 说明
-官方的题解只给了c++的哈希表+平衡二叉树的实现，我照着c++的实现方法写了一个java版本的，萌新第一次尝试写题解(T T)有错误的地方，还请大佬指出(Orz)
+// ## 说明
+// 官方的题解只给了c++的哈希表+平衡二叉树的实现，我照着c++的实现方法写了一个java版本的，萌新第一次尝试写题解(T T)有错误的地方，还请大佬指出(Orz)
 
-## 主要思路
-首先建立一个节点类Node, 定义如下
-```
+// ## 主要思路
+// 首先建立一个节点类Node, 定义如下
+// ```
 class Node implements Comparable<Node>{
 	int key;
 	int value;
@@ -30,13 +30,13 @@ class Node implements Comparable<Node>{
 	
 
 }
-```
-利用`key, value`来记录添加的key和value，用`cnt`记录操作的次数,用`time`记录添加的时间
+// ```
+// 利用`key, value`来记录添加的key和value，用`cnt`记录操作的次数,用`time`记录添加的时间
 
-根据官方的题解，用HashMap来记录缓存，用`key`作为HashMap的key。用TreeSet来记录添加缓存的先后和频率,根据cnt和time来进行排序，所以要复写compareTo。
+// 根据官方的题解，用HashMap来记录缓存，用`key`作为HashMap的key。用TreeSet来记录添加缓存的先后和频率,根据cnt和time来进行排序，所以要复写compareTo。
 
-- `get(key)`这个比较直观，如果HashMap中有相应的key直接返回，并且要更新TreeSet中相应Node的cnt和time，否则返回-1
-```
+// - `get(key)`这个比较直观，如果HashMap中有相应的key直接返回，并且要更新TreeSet中相应Node的cnt和time，否则返回-1
+// ```
 	public int get(int key) {
 		if(capacity == 0) {
 			return -1;
@@ -55,9 +55,9 @@ class Node implements Comparable<Node>{
 		
 		return node.value;
 	}
-```
-- `put(key, value)`的思路就是先查看HashMap是否已经存在当前的`key`如果存在key的话，相当与更新与`key`相关的节点即可。如果是新的节点的话，则需要先查看是否容量已经满了，如果满的话，则需要根据`TreeSet`中的最左边的节点来确定删除HashMap中那个节点。然后在HashMap和TreeSet中更新数据。
-```
+// ```
+// - `put(key, value)`的思路就是先查看HashMap是否已经存在当前的`key`如果存在key的话，相当与更新与`key`相关的节点即可。如果是新的节点的话，则需要先查看是否容量已经满了，如果满的话，则需要根据`TreeSet`中的最左边的节点来确定删除HashMap中那个节点。然后在HashMap和TreeSet中更新数据。
+// ```
 public void put(int key, int value) {
 		if(capacity == 0) return;
 		Node node = map.get(key);
@@ -82,10 +82,10 @@ public void put(int key, int value) {
 			ts.add(node);
 			map.put(key, node);
 		}
-```
+// ```
 
-## java全部代码
-```
+// ## java全部代码
+// ```
 class Node implements Comparable<Node>{
 	int key;
 	int value;
@@ -170,11 +170,11 @@ class LFUCache {
 		
 	}
 }
-```
+// ```
 
 
-## 复杂度
-- 时间复杂度：`get`和`put`的时间复杂度都是*O*(logn)，是由于平衡二叉树引起的
-- 空间复杂度：*O*(capacity)
+// ## 复杂度
+// - 时间复杂度：`get`和`put`的时间复杂度都是*O*(logn)，是由于平衡二叉树引起的
+// - 空间复杂度：*O*(capacity)
 
 

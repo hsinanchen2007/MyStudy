@@ -1,9 +1,9 @@
-### 解题思路
-a和b依次向后移动，中间变量t辅助
+// ### 解题思路
+// a和b依次向后移动，中间变量t辅助
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int fib(int n)
@@ -21,4 +21,4 @@ public:
         return b;
     }
 };
-```
+// ```

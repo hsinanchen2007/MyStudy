@@ -1,4 +1,4 @@
-```
+// ```
 func numOfMinutes(n int, headID int, manager []int, informTime []int) int {
     managerMap := make(map[int][]int)
 
@@ -38,4 +38,4 @@ func numOfMinutes(n int, headID int, manager []int, informTime []int) int {
 
     return max
 }
-```
+// ```

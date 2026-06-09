@@ -1,4 +1,4 @@
-```
+// ```
 var addTwoNumbers = function(l1, l2) {
     let nodelist = new ListNode(null) //{val:null,next:null}
     let result = nodelist
@@ -19,4 +19,4 @@ var addTwoNumbers = function(l1, l2) {
     }
     return nodelist.next
 };
-```
+// ```

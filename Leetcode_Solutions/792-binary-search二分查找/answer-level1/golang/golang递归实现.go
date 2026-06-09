@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func bsearch(start int, end int, nums[]int, target int) int{
     if start > end {
         return -1
@@ -21,4 +21,4 @@ func search(nums []int, target int) int {
     return bsearch(0, len(nums)-1, nums, target)
 
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool find(int left,int right,int num,vector<int>&nums){
@@ -27,5 +27,5 @@ public:
         return {};
     }
 };
-```
+// ```
 

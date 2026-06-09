@@ -1,16 +1,16 @@
-### 解题思路
-state : f[i][j] a字符串的前i个字符最少要几次变成b的前j个字符；
-function : Min(f[i - 1][j] + 1, f[i][j - 1] + 1, f[i - 1][j - 1])     a[i] == b[j]
-           Min(f[i - 1][j] + 1, f[i][j - 1] + 1, f[i - 1][j - 1] + 1) a[i] != b[j]
-初始化：
-    f[i][0] = i : 把 a[i] 对应 b是（空串），所以每个位置都要补一个 a[i];
-    f[0][j] = j : 把 b[j] 对应 a是（空串），所以每个位置都要补一个 b[j];
-answer:
-    f[a.length][b.length]
+// ### 解题思路
+// state : f[i][j] a字符串的前i个字符最少要几次变成b的前j个字符；
+// function : Min(f[i - 1][j] + 1, f[i][j - 1] + 1, f[i - 1][j - 1])     a[i] == b[j]
+//            Min(f[i - 1][j] + 1, f[i][j - 1] + 1, f[i - 1][j - 1] + 1) a[i] != b[j]
+// 初始化：
+//     f[i][0] = i : 把 a[i] 对应 b是（空串），所以每个位置都要补一个 a[i];
+//     f[0][j] = j : 把 b[j] 对应 a是（空串），所以每个位置都要补一个 b[j];
+// answer:
+//     f[a.length][b.length]
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 #include <cmath>
 class Solution {
 public:
@@ -39,4 +39,4 @@ public:
         return vec[word1.size()][word2.size()];
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
+# ### 解题思路
 
-记录各行、列出现的次数，偶数次相当于没操作，奇数次相当于操作了一次，最后再去掉各行列相交元素
-### 代码
+# 记录各行、列出现的次数，偶数次相当于没操作，奇数次相当于操作了一次，最后再去掉各行列相交元素
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def oddCells(self, n, m, indices):
         """
@@ -22,4 +22,4 @@ class Solution(object):
 
         return len(h)*m+len(l)*n-len(h)*len(l)*2
 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-逐层递归，达到最深处的第一个值返回即可
+// ### 解题思路
+// 逐层递归，达到最深处的第一个值返回即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -33,4 +33,4 @@ class Solution {
         helper(node.right,depth+1,node.val);
     }
 }
-```
+// ```

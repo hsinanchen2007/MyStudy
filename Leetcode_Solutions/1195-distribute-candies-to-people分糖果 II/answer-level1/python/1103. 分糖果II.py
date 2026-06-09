@@ -1,12 +1,12 @@
-### 解题思路
-暴力法解，依次给每个位置+1，但注意要判断给的糖果是否已经超过了剩余的糖果数，要赋值剩余糖果的时候也应当注意是否还大于0。
-看了题解，感觉代码写得十分简洁。要注意的有：
-1、可以用result = [0]*num_people而不是一一赋值
-2、直接取剩余糖果和当前应当分的最小值
-3、用i%num_people，而不是用for循环
-### 代码
+# ### 解题思路
+# 暴力法解，依次给每个位置+1，但注意要判断给的糖果是否已经超过了剩余的糖果数，要赋值剩余糖果的时候也应当注意是否还大于0。
+# 看了题解，感觉代码写得十分简洁。要注意的有：
+# 1、可以用result = [0]*num_people而不是一一赋值
+# 2、直接取剩余糖果和当前应当分的最小值
+# 3、用i%num_people，而不是用for循环
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def distributeCandies(self, candies, num_people):
         """
@@ -29,4 +29,4 @@ class Solution(object):
                 candie_num = candie_num + 1
         return result
 
-```
+# ```

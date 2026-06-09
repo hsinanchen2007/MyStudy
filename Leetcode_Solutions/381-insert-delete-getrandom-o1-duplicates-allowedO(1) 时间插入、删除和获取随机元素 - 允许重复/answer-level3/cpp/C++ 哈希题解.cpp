@@ -1,9 +1,9 @@
-# 思路：
-1，利用哈希结构`unordered_map<int, unordered_set<int> > value_indices`存储值对应的下标集合
-2，利用`vector<int> nums`存储所有的数字
-3，删除的时候利用尾部向前替换待删除的数字，然后进行尾部删除，使得删除操作可以做到O(1)
+// # 思路：
+// 1，利用哈希结构`unordered_map<int, unordered_set<int> > value_indices`存储值对应的下标集合
+// 2，利用`vector<int> nums`存储所有的数字
+// 3，删除的时候利用尾部向前替换待删除的数字，然后进行尾部删除，使得删除操作可以做到O(1)
 
-```C++ []
+// ```C++ []
 class RandomizedCollection {
 public:
     unordered_map<int, unordered_set<int> > value_indices;
@@ -49,6 +49,6 @@ public:
         return nums[r];
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/cbda850a09b0a2a6851a627293d3c12760757a8f10382dfa3183881700dd7bbb-image.png)
+// ![image.png](https://pic.leetcode-cn.com/cbda850a09b0a2a6851a627293d3c12760757a8f10382dfa3183881700dd7bbb-image.png)

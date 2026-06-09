@@ -1,16 +1,16 @@
-主要思想：
+# 主要思想：
 
-初始化 `maxLen` 为 $0$。遍历每个点，如果该点为 $1$，那么开始战斗。检验以 `maxLen` 为边长的正方形是否边全为 $1$。如果考验通过，`maxLen` 就可以加 $1$，继续检验。如果以这个点为起始点来构成的正方形实在不能再大了，那么把我们的目光移向下一个点。
+# 初始化 `maxLen` 为 $0$。遍历每个点，如果该点为 $1$，那么开始战斗。检验以 `maxLen` 为边长的正方形是否边全为 $1$。如果考验通过，`maxLen` 就可以加 $1$，继续检验。如果以这个点为起始点来构成的正方形实在不能再大了，那么把我们的目光移向下一个点。
 
-至于怎么通过考验，在这里设置了两道关卡，如下图展示。
+# 至于怎么通过考验，在这里设置了两道关卡，如下图展示。
 
-<![0729_2(1).jpg](https://pic.leetcode-cn.com/51106951342ed4d470c61d5136d2d946a79138c507e296cb90e20e2d45698544-0729_2\(1\).jpg),![0729_1(1).jpg](https://pic.leetcode-cn.com/14e7a7d78f66dc9203992d6f9a74707b41e0f5390cd8223e2d0ede82e4d77dda-0729_1\(1\).jpg)>
+# <![0729_2(1).jpg](https://pic.leetcode-cn.com/51106951342ed4d470c61d5136d2d946a79138c507e296cb90e20e2d45698544-0729_2\(1\).jpg),![0729_1(1).jpg](https://pic.leetcode-cn.com/14e7a7d78f66dc9203992d6f9a74707b41e0f5390cd8223e2d0ede82e4d77dda-0729_1\(1\).jpg)>
 
-最后返回 `maxLen` 乘 `maxLen` 即可。
+# 最后返回 `maxLen` 乘 `maxLen` 即可。
 
-算法的优点是：每个点都从 `maxLen` 的边长开始尝试，及时 break。可以节省时间。
+# 算法的优点是：每个点都从 `maxLen` 的边长开始尝试，及时 break。可以节省时间。
 
-```python [-Python]
+# ```python [-Python]
 class Solution:
     def largest1BorderedSquare(self, grid) -> int:
 
@@ -60,4 +60,4 @@ class Solution:
                         currLen += 1
                         maxLen = currLen
         return maxLen * maxLen
-```
+# ```

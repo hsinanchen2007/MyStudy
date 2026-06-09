@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -27,4 +27,4 @@ class Solution(object):
         if root.left == None and root.right == None:
             return root.val == sum
         return self.inorder(root.left, sum - root.val) or self.inorder(root.right, sum - root.val)
-```
+# ```

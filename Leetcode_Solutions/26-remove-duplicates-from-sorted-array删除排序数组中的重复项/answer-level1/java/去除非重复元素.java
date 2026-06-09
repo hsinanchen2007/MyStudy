@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-1. 标记重复元素；
-2. 向前移动非重复元素；
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 1. 标记重复元素；
+// 2. 向前移动非重复元素；
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int removeDuplicates(int[] nums) {
         if(nums == null) {
@@ -35,4 +35,4 @@ class Solution {
         return countNum;
     }
 }
-```
+// ```

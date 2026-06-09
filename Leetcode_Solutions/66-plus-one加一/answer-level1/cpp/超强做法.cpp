@@ -1,9 +1,9 @@
-### 解题思路
-啊我真的好自恋
+// ### 解题思路
+// 啊我真的好自恋
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
     vector<int> rctn(vector<int>& digits, int loc);
 public:
@@ -27,4 +27,4 @@ vector<int> Solution::rctn(vector<int>& digits, int loc)
     }
     return digits;
 }
-```
+// ```

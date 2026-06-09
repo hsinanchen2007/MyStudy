@@ -1,8 +1,8 @@
-# 思路
-- DFS遍历树，对于每个节点，维护一个列表，列表值为从根节点到该节点的路径上，从根开始，逐个减去一个节点，所得到的路径上节点值的和。
+// # 思路
+// - DFS遍历树，对于每个节点，维护一个列表，列表值为从根节点到该节点的路径上，从根开始，逐个减去一个节点，所得到的路径上节点值的和。
 
-# 代码
-```
+// # 代码
+// ```
 private int dfs(TreeNode r, int sum, List<Integer> sumList) {
     int cur_count = 0;
     if (r != null) {
@@ -29,8 +29,8 @@ public int pathSum(TreeNode root, int sum) {
     List<Integer> pathSumList = new ArrayList<Integer>();
     return dfs(root, sum, pathSumList);
 }
-```
+// ```
 
-# 总结
-- 时间复杂度O(n^2) (最坏) O(nlogn)(最好)
-- 空间复杂度O(n^2) (最坏) O(nlogn)(最好)
+// # 总结
+// - 时间复杂度O(n^2) (最坏) O(nlogn)(最好)
+// - 空间复杂度O(n^2) (最坏) O(nlogn)(最好)

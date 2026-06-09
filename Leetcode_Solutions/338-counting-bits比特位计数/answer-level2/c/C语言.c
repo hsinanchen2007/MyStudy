@@ -1,9 +1,9 @@
-### 解题思路
-动态规划，C代码
+// ### 解题思路
+// 动态规划，C代码
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -19,4 +19,4 @@ int* countBits(int num, int* returnSize){
     }
     return arrayRet;
 }
-```
+// ```

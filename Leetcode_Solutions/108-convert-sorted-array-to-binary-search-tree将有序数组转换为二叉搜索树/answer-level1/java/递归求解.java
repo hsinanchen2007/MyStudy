@@ -1,9 +1,9 @@
-### 解题思路
-insert 负责插入start和end的中间点
-递归insert就好了
-### 代码
+// ### 解题思路
+// insert 负责插入start和end的中间点
+// 递归insert就好了
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -34,4 +34,4 @@ class Solution {
         return t;
     }
 }
-```
+// ```

@@ -1,11 +1,11 @@
 
 
-![image.png](https://pic.leetcode-cn.com/158062e4f984c4a92cb2435702b9636658c8f7fdc7e5fa171df952620f76705b-image.png)
+// ![image.png](https://pic.leetcode-cn.com/158062e4f984c4a92cb2435702b9636658c8f7fdc7e5fa171df952620f76705b-image.png)
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var MovingAverage = function (size) {
     this.list = []
     this.size = size
@@ -25,4 +25,4 @@ MovingAverage.prototype.next = function (val) {
     }
     return this.sum / this.list.length
 };
-```
+// ```

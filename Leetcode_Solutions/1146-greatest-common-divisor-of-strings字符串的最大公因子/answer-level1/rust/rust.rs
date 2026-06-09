@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 impl Solution {
     pub fn gcd(a: usize,b: usize) -> usize {
         if a % b==0 {
@@ -34,4 +34,4 @@ impl Solution {
  //if (str1 + str2 != str2 + str1) return "";
    //     return str1.substr(0, __gcd((int)str1.length(), (int)str2.length()));
 
-```
+// ```

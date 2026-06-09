@@ -1,12 +1,12 @@
-### 解题思路
-方法一：暴力法
-方法二：哈希表法
-方法三：双指针法
-方法四：同时遍历法
-方法五：栈弹出法
-### 代码
+// ### 解题思路
+// 方法一：暴力法
+// 方法二：哈希表法
+// 方法三：双指针法
+// 方法四：同时遍历法
+// 方法五：栈弹出法
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -65,4 +65,4 @@ ListNode *forword_long_list(int long_len,int short_len,ListNode *head)
     return head;
 }
 };
-```
+// ```

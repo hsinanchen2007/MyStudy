@@ -1,9 +1,9 @@
-### 解题思路
-其通过队列的广度搜索找到陆地最大联通的区域，每一个连通区域就是一个独立的岛
+// ### 解题思路
+// 其通过队列的广度搜索找到陆地最大联通的区域，每一个连通区域就是一个独立的岛
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
     public:
     int numIslands(vector<vector<char>>& grid) {
@@ -60,4 +60,4 @@ class Solution {
         return num_islands;
     }
 };
-```
+// ```

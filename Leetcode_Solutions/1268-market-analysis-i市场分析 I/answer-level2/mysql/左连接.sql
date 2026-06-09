@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+-- ### 解题思路
+-- 此处撰写解题思路
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 
 select u.user_id as buyer_id  ,u.join_date as join_date  ,ifnull(t.num,0) as orders_in_2019 
@@ -16,4 +16,4 @@ group by buyer_id ) t
 on u.user_id = t.buyer_id
 
 
-```
+-- ```

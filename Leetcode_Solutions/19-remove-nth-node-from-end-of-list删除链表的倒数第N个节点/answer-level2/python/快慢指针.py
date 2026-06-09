@@ -1,15 +1,15 @@
-## 思路：
+# ## 思路：
 
-使用快慢指针，快指针先移 `n` 个节点。
+# 使用快慢指针，快指针先移 `n` 个节点。
 
-接下来，快慢指针一起移动，两指针之间一直保持 `n` 个节点，当快指针到链表底了，操作慢指针，删除要删除的元素！
+# 接下来，快慢指针一起移动，两指针之间一直保持 `n` 个节点，当快指针到链表底了，操作慢指针，删除要删除的元素！
 
-时间复杂度：$O(n)$
+# 时间复杂度：$O(n)$
 
 
-## 代码：
+# ## 代码：
 
-```Python []
+# ```Python []
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -31,9 +31,9 @@ class Solution:
             slow = slow.next
         slow.next = slow.next.next
         return dummy.next
-```
+# ```
 
-```Java []
+# ```Java []
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -60,5 +60,5 @@ class Solution {
         
     }
 }
-```
+# ```
 

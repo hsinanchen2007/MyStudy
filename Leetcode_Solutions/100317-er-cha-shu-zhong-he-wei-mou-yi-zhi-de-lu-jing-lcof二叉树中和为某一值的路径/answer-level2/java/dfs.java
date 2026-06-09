@@ -1,9 +1,9 @@
-### 解题思路
-这题要求从根节点到叶子节点就降低了很大难度。用dfs思想，到叶子结点之后开始判断是否相等。
+// ### 解题思路
+// 这题要求从根节点到叶子节点就降低了很大难度。用dfs思想，到叶子结点之后开始判断是否相等。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -44,4 +44,4 @@ class Solution {
         return this.lists;
     }
 }
-```
+// ```

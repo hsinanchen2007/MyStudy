@@ -1,10 +1,10 @@
-### 解题思路
-使用双端队列保存一个单调递减的数组，则队列头永远是最大值
-窗口移动时，往单调队列尾部加入数字，同时判断移除窗口值是不是最大值
+// ### 解题思路
+// 使用双端队列保存一个单调递减的数组，则队列头永远是最大值
+// 窗口移动时，往单调队列尾部加入数字，同时判断移除窗口值是不是最大值
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] maxSlidingWindow(int[] nums, int k) {
         // k=0的情况
@@ -38,4 +38,4 @@ class Solution {
         return res.stream().mapToInt(Integer::intValue).toArray();
     }
 }
-```
+// ```

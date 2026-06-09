@@ -1,11 +1,11 @@
-### 解题思路
-这题是n皇后问题的最简单形式了吧。
-本题我也做了一些注释。
-还有问题的话可以看我上一题的[题解](https://leetcode-cn.com/problems/n-queens/solution/zi-ji-shu-wen-ti-by-liujin-4/)，注释更加详细！
-有收获的话请点赞！
-### 代码
+// ### 解题思路
+// 这题是n皇后问题的最简单形式了吧。
+// 本题我也做了一些注释。
+// 还有问题的话可以看我上一题的[题解](https://leetcode-cn.com/problems/n-queens/solution/zi-ji-shu-wen-ti-by-liujin-4/)，注释更加详细！
+// 有收获的话请点赞！
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 private:
     int count; // 计数值，找到解就++，最后返回即可
@@ -42,4 +42,4 @@ public:
         return true;
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
-bfs:
-```
+# bfs:
+# ```
 from collections import deque
 class Solution:
     def zigzagLevelOrder(self, root: TreeNode) -> List[List[int]]:
@@ -19,9 +19,9 @@ class Solution:
             res.append(l)
             depth += 1
         return res
-```
-dfs:
-```
+# ```
+# dfs:
+# ```
 from collections import deque
 class Solution:
     def zigzagLevelOrder(self, root: TreeNode) -> List[List[int]]:
@@ -39,5 +39,5 @@ class Solution:
                 helper(root.right,level+1)
         helper(root,0)
         return res
-```
+# ```
 

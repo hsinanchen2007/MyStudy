@@ -1,6 +1,6 @@
 
-数组法
-```python []
+# 数组法
+# ```python []
 class Solution:
     def rotateRight(self, head: ListNode, k: int) -> ListNode:
         if not head or not head.next or not k:
@@ -15,10 +15,10 @@ class Solution:
             tmp.next = ListNode(val)
             tmp = tmp.next
         return ans.next
-```
+# ```
 
-双指针法
-```python []
+# 双指针法
+# ```python []
 class Solution:
     def rotateRight(self, head: ListNode, k: int) -> ListNode:
         if not head or not head.next:
@@ -38,6 +38,6 @@ class Solution:
             head = head.next
         head.next, ans.next, ans = tmp, None, ans.next
         return ans
-```
+# ```
 
-![image.png](https://pic.leetcode-cn.com/d944bbe3eaaa9f0b38d32146658423e4cda72c71b2292a51ec657107ccaecc97-image.png)
+# ![image.png](https://pic.leetcode-cn.com/d944bbe3eaaa9f0b38d32146658423e4cda72c71b2292a51ec657107ccaecc97-image.png)

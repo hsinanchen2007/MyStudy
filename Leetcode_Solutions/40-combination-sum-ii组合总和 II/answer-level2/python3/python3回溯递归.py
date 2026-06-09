@@ -1,10 +1,10 @@
-### 解题思路
-主要是去重这部分
-首先是进行排序，后面的如果和之前的相同的话，就pass掉
-然后是递归只接后面的candidates
-### 代码
+# ### 解题思路
+# 主要是去重这部分
+# 首先是进行排序，后面的如果和之前的相同的话，就pass掉
+# 然后是递归只接后面的candidates
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def combinationSum2(self, candidates: [int], target: int) -> [[int]]:
         if candidates == [] or target is None:
@@ -30,4 +30,4 @@ class Solution:
                         now_sum -= candidates_in[i]
         helper([], 0, candidates)
         return res
-```
+# ```

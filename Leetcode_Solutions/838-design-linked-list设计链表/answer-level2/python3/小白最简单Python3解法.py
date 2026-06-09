@@ -1,17 +1,17 @@
-### 解题思路
+# ### 解题思路
 
-小白最简单Python3解法：
+# 小白最简单Python3解法：
 
-除了本身的链表MyLinkedList类，另外定义一个结点类Node。每个节点包括结点本身的value以及指向后面一个结点的指针next。最好定义一个size变量，用来记录链表长度，便于后续判断。
+# 除了本身的链表MyLinkedList类，另外定义一个结点类Node。每个节点包括结点本身的value以及指向后面一个结点的指针next。最好定义一个size变量，用来记录链表长度，便于后续判断。
 
-容易犯的错误:
-1. 注意空链表的初始化。我这里没有使用dummy node，直接将头结点初始化为None，而不是一个空结点。
-2. 注意后续遍历的循环次数。查找是循环到index位置，增加删除是循环到index前结点
+# 容易犯的错误:
+# 1. 注意空链表的初始化。我这里没有使用dummy node，直接将头结点初始化为None，而不是一个空结点。
+# 2. 注意后续遍历的循环次数。查找是循环到index位置，增加删除是循环到index前结点
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Node(object):
 """
 定义一个节点类Node
@@ -128,4 +128,4 @@ class MyLinkedList:
 # obj.addAtTail(val)
 # obj.addAtIndex(index,val)
 # obj.deleteAtIndex(index)
-```
+# ```

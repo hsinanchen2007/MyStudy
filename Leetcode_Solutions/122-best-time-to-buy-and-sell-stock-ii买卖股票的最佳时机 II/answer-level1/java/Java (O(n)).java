@@ -1,9 +1,9 @@
-### 解题思路
-对于任意一个较低的价格，我们可以一直等到它价值递增结束的时候再卖。
+// ### 解题思路
+// 对于任意一个较低的价格，我们可以一直等到它价值递增结束的时候再卖。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxProfit(int[] prices) {
         int maxProfit = 0;
@@ -15,4 +15,4 @@ class Solution {
         return maxProfit;
     }
 }
-```
+// ```

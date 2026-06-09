@@ -1,5 +1,5 @@
 
-```C++ []
+// ```C++ []
 class Solution {
 public:
     int characterReplacement(string s, int k) {
@@ -17,6 +17,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/c36f4a51cf1d9d799bda2f1af2bc9c690c8c40a273ea5e70161dcb90c927b403-image.png)
+// ![image.png](https://pic.leetcode-cn.com/c36f4a51cf1d9d799bda2f1af2bc9c690c8c40a273ea5e70161dcb90c927b403-image.png)

@@ -1,10 +1,10 @@
-### 解题思路
-![图片.png](https://pic.leetcode-cn.com/26919ac756550f4dd6828caeee96923bbbe12b0eb0882aa4f7cfed5742ac811e-%E5%9B%BE%E7%89%87.png)
+// ### 解题思路
+// ![图片.png](https://pic.leetcode-cn.com/26919ac756550f4dd6828caeee96923bbbe12b0eb0882aa4f7cfed5742ac811e-%E5%9B%BE%E7%89%87.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -24,4 +24,4 @@ int maxDepth(struct TreeNode* root){
     int right=maxDepth(root->right);
     return MAX;
 }
-```
+// ```

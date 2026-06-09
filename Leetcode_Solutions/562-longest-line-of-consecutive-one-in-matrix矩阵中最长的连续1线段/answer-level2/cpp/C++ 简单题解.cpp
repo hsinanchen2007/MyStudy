@@ -1,6 +1,6 @@
-对矩形的边上的点按照可行的方向进行逐一遍历找最大连续1线段即可
-代码如下：
-```C++ []
+// 对矩形的边上的点按照可行的方向进行逐一遍历找最大连续1线段即可
+// 代码如下：
+// ```C++ []
 class Solution {
 public:
     int helper(const vector<vector<int> >& M, int i, int j, int dx, int dy, int R, int C) {
@@ -45,6 +45,6 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/8d45741f1bf783b8648a8886e8c76e92914c86af9cd93b6296301564ea5107d9-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/8d45741f1bf783b8648a8886e8c76e92914c86af9cd93b6296301564ea5107d9-image.png)
 

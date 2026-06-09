@@ -1,9 +1,9 @@
-### 解题思路
-A^A^B^C^C=B
+// ### 解题思路
+// A^A^B^C^C=B
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int singleNumber(int[] nums) {
           int x = 0;
@@ -13,4 +13,4 @@ class Solution {
         return x;
     }
 }
-```
+// ```

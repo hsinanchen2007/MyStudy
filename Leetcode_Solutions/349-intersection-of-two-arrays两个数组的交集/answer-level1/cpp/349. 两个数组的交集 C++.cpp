@@ -1,10 +1,10 @@
-### 解题思路
-1.将nums1所有出现过的数组都压入set集合中。
-2.遍历nums2所有的元素，查找是否在set集合中，若存在则将集合中的元素压入res容器中，并删除set集合的对应元素。
+// ### 解题思路
+// 1.将nums1所有出现过的数组都压入set集合中。
+// 2.遍历nums2所有的元素，查找是否在set集合中，若存在则将集合中的元素压入res容器中，并删除set集合的对应元素。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
@@ -19,4 +19,4 @@ public:
         return res;
     }
 };
-```
+// ```

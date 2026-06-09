@@ -1,4 +1,4 @@
-```
+// ```
 func pivotIndex(nums []int) int {
 	if len(nums) == 1 {
 		return 0
@@ -28,4 +28,4 @@ func pivotIndex(nums []int) int {
 
 	return -1
 }
-```
+// ```

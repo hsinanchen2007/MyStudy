@@ -1,9 +1,9 @@
-### 解题思路
-填坑之路
+// ### 解题思路
+// 填坑之路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int myAtoi(char * str){
     long  a=0;
     int k=1,j=0;
@@ -37,4 +37,4 @@ int myAtoi(char * str){
     }
     return a*k;
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-通过正则匹配，将数字，x（包含正负号）分开
-![1576662392(1).png](https://pic.leetcode-cn.com/cd240fd66269be8ab20d6453af57bc694727e0203fee85fcb3bc5c16e5a7d5c9-1576662392\(1\).png)
+// ### 解题思路
+// 通过正则匹配，将数字，x（包含正负号）分开
+// ![1576662392(1).png](https://pic.leetcode-cn.com/cd240fd66269be8ab20d6453af57bc694727e0203fee85fcb3bc5c16e5a7d5c9-1576662392\(1\).png)
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func solveEquation(equation string) string {
 	exprs:=strings.Split(equation,"=")
 	xl,nl:=getValue(exprs[0])
@@ -43,4 +43,4 @@ func getValue(expr string) (int,int) {
 	}
 	return xVal,nVal
 }
-```
+// ```

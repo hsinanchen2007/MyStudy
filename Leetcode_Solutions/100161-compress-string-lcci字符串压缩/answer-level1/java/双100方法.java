@@ -1,9 +1,9 @@
-### 解题思路
-直接看代码注释即可， 双100.00%方法
+// ### 解题思路
+// 直接看代码注释即可， 双100.00%方法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String compressString(String S) {
         //如果传来字符串为空或者长度小于3则直接返回字符串
@@ -29,4 +29,4 @@ class Solution {
         return S.length() > builder.length() ? builder.toString() : S;
     }
 }
-```
+// ```

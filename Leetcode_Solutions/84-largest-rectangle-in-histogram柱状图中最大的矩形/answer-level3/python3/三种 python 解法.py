@@ -1,6 +1,6 @@
-### 第一种解法来自于 
-https://leetcode-cn.com/problems/largest-rectangle-in-histogram/solution/zhao-liang-bian-di-yi-ge-xiao-yu-ta-de-zhi-by-powc/ 的思路，也是比较浅显易懂的思路，遍历给定的 arr，对于每个 idx，分别找到 左边第一个 高度低于 arr[idx] 的 下标 ，以及 右边第一个 高度低于 arr[idx] 的 下标，当前 idx 对应的最大 area 就求出来了，在分别向左向右求的时候，维护两个 list 用来加快查找
-```
+# ### 第一种解法来自于 
+# https://leetcode-cn.com/problems/largest-rectangle-in-histogram/solution/zhao-liang-bian-di-yi-ge-xiao-yu-ta-de-zhi-by-powc/ 的思路，也是比较浅显易懂的思路，遍历给定的 arr，对于每个 idx，分别找到 左边第一个 高度低于 arr[idx] 的 下标 ，以及 右边第一个 高度低于 arr[idx] 的 下标，当前 idx 对应的最大 area 就求出来了，在分别向左向右求的时候，维护两个 list 用来加快查找
+# ```
 def largestRectangleArea(self, heights: List[int]) -> int:
     if not heights:
         return 0
@@ -26,12 +26,12 @@ def largestRectangleArea(self, heights: List[int]) -> int:
 
     return maxArea
 
-```
+# ```
 
-### 第二种解法
-维护一个单调栈，栈中存储 (最左可以延伸到的下标，当前下标)
+# ### 第二种解法
+# 维护一个单调栈，栈中存储 (最左可以延伸到的下标，当前下标)
 
-```
+# ```
 def largestRectangleArea(self, heights: List[int]) -> int:
     if not heights:
         return 0
@@ -56,10 +56,10 @@ def largestRectangleArea(self, heights: List[int]) -> int:
         peekPair = stack.pop()            
         maxArea = max(maxArea, (size - peekPair[0]) * heights[peekPair[1]])                     
     return maxArea
-```
+# ```
 
-### 第三种解法就是网上最多的方法啦
-```
+# ### 第三种解法就是网上最多的方法啦
+# ```
 def largestRectangleArea(self, heights: List[int]) -> int:    
     if not heights:
         return 0
@@ -83,4 +83,4 @@ def largestRectangleArea(self, heights: List[int]) -> int:
         leftIdx = stack[-1]
         maxArea = max(maxArea, (size - leftIdx -1) * heights[peekIdx])                     
     return maxArea
-```
+# ```

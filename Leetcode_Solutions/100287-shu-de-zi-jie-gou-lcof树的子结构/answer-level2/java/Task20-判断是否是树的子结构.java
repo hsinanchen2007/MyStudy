@@ -1,9 +1,9 @@
-### 解题思路
-两个递归：首先用isSubStructure来判断所有子结构。用dfs来判断是否两个节点是否所有结构相等。
+// ### 解题思路
+// 两个递归：首先用isSubStructure来判断所有子结构。用dfs来判断是否两个节点是否所有结构相等。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -27,4 +27,4 @@ class Solution {
         return dfs(A.left, B.left) && dfs(A.right, B.right);
     }
 }
-```
+// ```

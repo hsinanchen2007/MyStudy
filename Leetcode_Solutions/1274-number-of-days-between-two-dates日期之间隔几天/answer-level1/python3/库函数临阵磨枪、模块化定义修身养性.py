@@ -1,7 +1,7 @@
-### 方法一：调用库
-其实这道题是一道很好的题目，可以通过编写模块化代码锻炼自己的能力。但是既然出在周赛了，还是以第一题的形式出现，所以还是用库先过了再说吧~
-### 代码
-```python []
+# ### 方法一：调用库
+# 其实这道题是一道很好的题目，可以通过编写模块化代码锻炼自己的能力。但是既然出在周赛了，还是以第一题的形式出现，所以还是用库先过了再说吧~
+# ### 代码
+# ```python []
 from datetime import datetime 
 class Solution:
     def daysBetweenDates(self, date1: str, date2: str) -> int:
@@ -9,14 +9,14 @@ class Solution:
         date2 = datetime.strptime(date2,'%Y-%m-%d')
         res = abs((date1 - date2).days)
         return res
-```
-### 方法二：模块化定义函数，结构清晰
-#### 算法
-1. 首先让第一个日期在第二个日期前面；
-2. 从第一个日期一天天递增，直到两个日期相同；
-3. 注意考虑闰年和不同月份对天数的影响。
-### 代码
-```python []
+# ```
+# ### 方法二：模块化定义函数，结构清晰
+# #### 算法
+# 1. 首先让第一个日期在第二个日期前面；
+# 2. 从第一个日期一天天递增，直到两个日期相同；
+# 3. 注意考虑闰年和不同月份对天数的影响。
+# ### 代码
+# ```python []
 class Solution:
     def daysBetweenDates(self, date1: str, date2: str) -> int:
         # 日期格式化
@@ -90,6 +90,6 @@ class Solution:
                 return day1 < day2
         return False
 
-```
+# ```
 
 

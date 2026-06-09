@@ -1,4 +1,4 @@
-代码如下
+// 代码如下
 int* deckRevealedIncreasing(int* deck, int deckSize, int* returnSize){
     *returnSize=deckSize;
     if(deckSize == 1)

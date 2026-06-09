@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```
+// ```
 //DFS:
 vector<bool> vis;
 void dfs(vector<vector<int>> &M, int i) {
@@ -30,10 +30,10 @@ int findCircleNum(vector<vector<int>>& M) {
     }
     return res;
 }
-```
+// ```
 
 
-```cpp
+// ```cpp
 //并查集
 class Solution {
 public:
@@ -78,5 +78,5 @@ public:
         return res;
     }
 };
-```
+// ```
 

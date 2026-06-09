@@ -1,16 +1,16 @@
-### 解题思路
-递归遍历，但是要注意边界
+// ### 解题思路
+// 递归遍历，但是要注意边界
 
-O(m*n) ~ 2ms
+// O(m*n) ~ 2ms
 
-O((m+n-1) * (m+n-1)) ~ 250ms
+// O((m+n-1) * (m+n-1)) ~ 250ms
 
-![image.png](https://pic.leetcode-cn.com/0f6321e72917f1d1b0245be35d28e3a32268804df37fb9af1fd744d1e25262b8-image.png)
+// ![image.png](https://pic.leetcode-cn.com/0f6321e72917f1d1b0245be35d28e3a32268804df37fb9af1fd744d1e25262b8-image.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
      public int[] findDiagonalOrder(int[][] matrix) {
 
@@ -51,4 +51,4 @@ class Solution {
 	}
 
 }
-```
+// ```

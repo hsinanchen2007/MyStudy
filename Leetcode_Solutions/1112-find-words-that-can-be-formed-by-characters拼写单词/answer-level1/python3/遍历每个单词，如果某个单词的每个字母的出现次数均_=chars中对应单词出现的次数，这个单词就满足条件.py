@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def countCharacters(self, words: List[str], chars: str) -> int:
         sum=0
@@ -10,4 +10,4 @@ class Solution:
             if point==0:
                 sum+=len(x)
         return sum
-```
+# ```

@@ -1,6 +1,6 @@
-发现其中的规律，求余数来判断究竟应该在哪里。
-仔细细心，耐心推导
-```
+# 发现其中的规律，求余数来判断究竟应该在哪里。
+# 仔细细心，耐心推导
+# ```
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
         if numRows==1:
@@ -27,4 +27,4 @@ class Solution:
         #     print(i,j)
         #     res+=j
         return "".join(res)
-```
+# ```

@@ -1,17 +1,17 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/e05bf39b3760a6704f27a870f2532481f2ccf260926919fae8dced1cbfdc0b1d-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e05bf39b3760a6704f27a870f2532481f2ccf260926919fae8dced1cbfdc0b1d-image.png)
 
-由于题目中说不能超车, 则距离终点越近的车肯定越先到达
+// 由于题目中说不能超车, 则距离终点越近的车肯定越先到达
 
-思路如下:
+// 思路如下:
 
-1. 排序 我这里使用的是归并排序
-2. 遍历, 检查下一辆车是否可能和前一辆车一个车队
+// 1. 排序 我这里使用的是归并排序
+// 2. 遍历, 检查下一辆车是否可能和前一辆车一个车队
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
    public int carFleet(int target, int[] position, int[] speed) {
         if (position.length <= 1) {
@@ -72,4 +72,4 @@ class Solution {
         }
     }
 }
-```
+// ```

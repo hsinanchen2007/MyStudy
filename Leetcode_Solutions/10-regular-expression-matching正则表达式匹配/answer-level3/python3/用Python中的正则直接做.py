@@ -1,5 +1,5 @@
-用的re模块,好像有点赖皮..
-```
+# 用的re模块,好像有点赖皮..
+# ```
 class Solution:
     def isMatch(self, s: str, p: str) -> bool:
         import re
@@ -7,4 +7,4 @@ class Solution:
             return True
         else:
             return False
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-倒着来，思路见代码，很简单
+# ### 解题思路
+# 倒着来，思路见代码，很简单
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minimumTotal(self, triangle: List[List[int]]) -> int:
         seq = triangle[-1]
@@ -11,4 +11,4 @@ class Solution:
             for i in range(len(li)):
                 seq[i] = min(seq[i] + li[i], seq[i + 1] + li[i])
         return seq[0]
-```
+# ```

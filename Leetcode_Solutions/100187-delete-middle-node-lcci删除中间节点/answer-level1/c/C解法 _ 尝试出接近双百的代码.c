@@ -1,10 +1,10 @@
-### 解题思路
-按照初始代码执行用时只超过了20%多的用户
-稍微改一下，牺牲一点内存，直接接近双百
+// ### 解题思路
+// 按照初始代码执行用时只超过了20%多的用户
+// 稍微改一下，牺牲一点内存，直接接近双百
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -23,4 +23,4 @@ void deleteNode(struct ListNode* node) {
         node->next=q;
         free(p);
 }
-```
+// ```

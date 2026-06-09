@@ -1,4 +1,4 @@
-```
+// ```
     private String[] dict;
 
     public String countAndSay(int n) {
@@ -34,4 +34,4 @@
 
         return dict[n - 1];
     }
-```
+// ```

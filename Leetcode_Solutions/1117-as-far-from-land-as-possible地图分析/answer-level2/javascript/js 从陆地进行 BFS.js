@@ -1,18 +1,18 @@
-![image.png](https://pic.leetcode-cn.com/9cbec14dd5facd50f1e7aece070d8a39c5afb351d8a6d0a7647429f75b9eff72-image.png)
+// ![image.png](https://pic.leetcode-cn.com/9cbec14dd5facd50f1e7aece070d8a39c5afb351d8a6d0a7647429f75b9eff72-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
   分析题意：求哪一块海洋，到离他最近的陆地距离最远，返回这个最远值，没有返回 0
   思路：
   1. 先遍历一次矩阵，找出所有的陆地，放到队列中
   2. 如果队列长度等于网格的个数或者为0，说明全是陆地或者全是海洋 直接返回 -1
   3. 遍历陆地队列，对每一块陆地使用 BFS，终止条件：网格重复访问或者越界，
      遍历队列的层数就是我们要求的答案
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} grid
  * @return {number}
@@ -68,4 +68,4 @@ var maxDistance = function(grid) {
   
   return ans;
 };
-```
+// ```

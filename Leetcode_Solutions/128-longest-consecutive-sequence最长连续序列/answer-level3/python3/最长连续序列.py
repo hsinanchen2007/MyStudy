@@ -1,9 +1,9 @@
-### 解题思路
-虽然着急抄了作业，但是为啥这是困难题？
+# ### 解题思路
+# 虽然着急抄了作业，但是为啥这是困难题？
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     # 作者：LeetCode
     def longestConsecutive(self, nums: List[int]) -> int:
@@ -27,4 +27,4 @@ class Solution:
 
 
 
-```
+# ```

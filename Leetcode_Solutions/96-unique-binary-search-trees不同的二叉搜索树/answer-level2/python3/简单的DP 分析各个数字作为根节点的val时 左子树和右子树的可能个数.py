@@ -1,5 +1,5 @@
-思路：见标题 本人菜鸡 主要的语句都添加了注释(语死早 所以主要是举例子 希望能方便大家理解) 还请大家多多指教
-```
+# 思路：见标题 本人菜鸡 主要的语句都添加了注释(语死早 所以主要是举例子 希望能方便大家理解) 还请大家多多指教
+# ```
 class Solution:
 	def numTrees(self,n):
 		if n<=1:
@@ -15,4 +15,4 @@ class Solution:
 				tmp+=situ[a]**2
 			situ.append(tmp)
 		return situ[-1]
-```
+# ```

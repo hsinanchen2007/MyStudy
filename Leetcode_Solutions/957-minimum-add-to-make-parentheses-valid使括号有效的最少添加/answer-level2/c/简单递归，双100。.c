@@ -1,5 +1,5 @@
-l和r分别记录未匹配的左右括号个数，时间复杂度O(n)。
-```
+// l和r分别记录未匹配的左右括号个数，时间复杂度O(n)。
+// ```
 int getBranket(char* S,int l,int r){
     if(*S=='\0') return l+r;
     if(*S=='(') return getBranket(S+1,l+1,r);
@@ -9,4 +9,4 @@ int getBranket(char* S,int l,int r){
 int minAddToMakeValid(char * S){
     return getBranket(S,0,0);
 }
-```
+// ```

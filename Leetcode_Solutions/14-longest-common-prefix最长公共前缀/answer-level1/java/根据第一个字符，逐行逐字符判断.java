@@ -1,13 +1,13 @@
-### 解题思路
+// ### 解题思路
 
-根据第一个字符，逐行逐字符判断。
+// 根据第一个字符，逐行逐字符判断。
 
-- 若当前索引（index）已经等于了最小字符串的长度，则退出比较，公共前缀就是 firstStr(0, index)；
-- 若当前索引下的字符串的前缀和第一个字符不匹配，则退出比较，公共前缀也是 firstStr(0, index);
+// - 若当前索引（index）已经等于了最小字符串的长度，则退出比较，公共前缀就是 firstStr(0, index)；
+// - 若当前索引下的字符串的前缀和第一个字符不匹配，则退出比较，公共前缀也是 firstStr(0, index);
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String longestCommonPrefix(String[] strs) {
          if (strs == null || strs.length == 0) {
@@ -36,4 +36,4 @@ class Solution {
         return firstStr.substring(0, i);
     }
 }
-```
+// ```

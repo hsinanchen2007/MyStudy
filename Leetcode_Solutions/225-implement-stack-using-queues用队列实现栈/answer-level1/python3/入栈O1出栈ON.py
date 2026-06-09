@@ -1,12 +1,12 @@
-### 解题思路
-1、用两个队列，一个是final，一个是tmp用于倒腾；
-2、对于入栈，直接final.append，更更新top
-3、对于出栈，因为我们不能直接弹出队列尾部元素，那么只能先把final全放到tmp，留下最后一个元素作为栈顶弹出；
-4、然后需要交换final和tmp，不用全部复制元素，只需要交换final和tmp的指针即可；
+# ### 解题思路
+# 1、用两个队列，一个是final，一个是tmp用于倒腾；
+# 2、对于入栈，直接final.append，更更新top
+# 3、对于出栈，因为我们不能直接弹出队列尾部元素，那么只能先把final全放到tmp，留下最后一个元素作为栈顶弹出；
+# 4、然后需要交换final和tmp，不用全部复制元素，只需要交换final和tmp的指针即可；
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class MyStack:
 
     def __init__(self):
@@ -62,4 +62,4 @@ class MyStack:
         return len(self.final) == 0
 
         
-```
+# ```

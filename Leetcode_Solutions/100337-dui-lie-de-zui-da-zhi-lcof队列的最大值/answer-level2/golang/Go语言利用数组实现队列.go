@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/c8c604c65c943df133b11bf05dda71c0814d7bc939183cceb64accb89e2fca18-image.png)
+// ![image.png](https://pic.leetcode-cn.com/c8c604c65c943df133b11bf05dda71c0814d7bc939183cceb64accb89e2fca18-image.png)
 
-```
+// ```
 type MaxQueue struct {
     nums []int
 }
@@ -42,4 +42,4 @@ func (this *MaxQueue) Pop_front() int {
     this.nums = this.nums[1:]
     return res
 }
-```
+// ```

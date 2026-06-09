@@ -1,9 +1,9 @@
-### 解题思路
-自己写个半死，一看答案，卧槽。直接调用api。
+// ### 解题思路
+// 自己写个半死，一看答案，卧槽。直接调用api。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maximumProduct(int[] nums) {
         java.util.Arrays.sort(nums);
@@ -11,4 +11,4 @@ class Solution {
 				nums[nums.length - 1] * nums[nums.length - 2] * nums[nums.length - 3]);
     }
 }
-```
+// ```

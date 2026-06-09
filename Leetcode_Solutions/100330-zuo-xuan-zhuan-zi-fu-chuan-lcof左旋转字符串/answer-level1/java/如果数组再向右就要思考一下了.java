@@ -1,10 +1,10 @@
-### 解题思路
-    将要移动部分和不移动部分交换subString就行了；
-    要是数组的话，要稍微繁琐一点；
+// ### 解题思路
+//     将要移动部分和不移动部分交换subString就行了；
+//     要是数组的话，要稍微繁琐一点；
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String reverseLeftWords(String s, int n) {
         int size = s.length();
@@ -14,4 +14,4 @@ class Solution {
         return rightPart + leftPart;
     }
 }
-```
+// ```

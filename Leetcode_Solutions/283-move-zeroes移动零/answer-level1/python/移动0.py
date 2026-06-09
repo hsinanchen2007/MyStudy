@@ -1,9 +1,9 @@
-### 解题思路
-将为零的元素移动到list末尾即可
+# ### 解题思路
+# 将为零的元素移动到list末尾即可
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def moveZeroes(self, nums):
         """
@@ -14,4 +14,4 @@ class Solution(object):
             if i==0:
                 nums.append(0)
                 nums.remove(i)
-```
+# ```

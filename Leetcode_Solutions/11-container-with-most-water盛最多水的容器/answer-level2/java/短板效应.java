@@ -1,9 +1,9 @@
-### 解题思路
-利用双指针遍历法
+// ### 解题思路
+// 利用双指针遍历法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxArea(int[] array) {
          int low=0;//首指针
@@ -24,4 +24,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
-典型的hash应用，使用uthash的查找，增加，排序，遍历接口。
+// ### 解题思路
+// 典型的hash应用，使用uthash的查找，增加，排序，遍历接口。
 
-![image.png](https://pic.leetcode-cn.com/f5ade90ee6cb82695c3c17543fb302c53a3618d60ee1bfa77f6588c206cfca34-image.png)
+// ![image.png](https://pic.leetcode-cn.com/f5ade90ee6cb82695c3c17543fb302c53a3618d60ee1bfa77f6588c206cfca34-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /*
  * @lc app=leetcode.cn id=692 lang=c
  *
@@ -103,4 +103,4 @@ char ** topKFrequent(char ** words, int wordsSize, int k, int* returnSize){
 // @lc code=end
 
 
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 public double angleClock(int hour, int minutes) {
         double slow = 0.5d;
         double fast = 6d;
@@ -13,4 +13,4 @@ public double angleClock(int hour, int minutes) {
         
         return d;
     }
-```
+// ```

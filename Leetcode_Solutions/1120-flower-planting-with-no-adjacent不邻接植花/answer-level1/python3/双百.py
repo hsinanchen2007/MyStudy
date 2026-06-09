@@ -1,10 +1,10 @@
-### 解题思路
-折腾我整整一晚上，不是不会，是想省时间和空间。我又想到一种集合方法，应该会更快，我再试试。
+# ### 解题思路
+# 折腾我整整一晚上，不是不会，是想省时间和空间。我又想到一种集合方法，应该会更快，我再试试。
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def gardenNoAdj(self, N: int, paths):
         color=[1]*N
@@ -21,9 +21,9 @@ class Solution:
                     flower.remove(color[node])
             color[i]=flower[0]
         return color
-```
-试出来了。。  方法二：只开辟必要的空间，而不是每行开辟一个数组。
-```
+# ```
+# 试出来了。。  方法二：只开辟必要的空间，而不是每行开辟一个数组。
+# ```
 class Solution:
     def gardenNoAdj(self, N: int, paths):
         from collections import defaultdict
@@ -42,4 +42,4 @@ class Solution:
                     flower.remove(color[node])
             color[i]=flower[0]
         return color
-```
+# ```

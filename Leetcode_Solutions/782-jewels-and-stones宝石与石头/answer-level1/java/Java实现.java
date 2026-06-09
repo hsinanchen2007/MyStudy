@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int numJewelsInStones(String J, String S) {
         char[] cs = S.toCharArray();
@@ -17,4 +17,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

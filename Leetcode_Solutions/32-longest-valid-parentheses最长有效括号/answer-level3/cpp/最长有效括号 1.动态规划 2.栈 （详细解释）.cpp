@@ -1,10 +1,10 @@
 
 
-动态规划思路：创建动态规划数组dp[n],dp[i]为以index=i为结尾的最大有效括号范围，所以凡是s[i]=='('，肯定不能作为结尾,dp[i]=0,如果s[i]==')',有可能作为结尾,接下来分为两种情况，情况一:s[i-1]=='(',则dp[i]=dp[i-2]+2,情况二:如果s[i-1]==')',则举例子  -()()),我们假设-是一个括号，是左括号还是右括号未知,dp[i-1]==dp[4]==4,dp[5]其实是取决于dp[0]也就是 - 究竟是左括号还是右括号,假设dp[0] 也就是- 是左括号，那么dp[0]和dp[5]配对。
+// 动态规划思路：创建动态规划数组dp[n],dp[i]为以index=i为结尾的最大有效括号范围，所以凡是s[i]=='('，肯定不能作为结尾,dp[i]=0,如果s[i]==')',有可能作为结尾,接下来分为两种情况，情况一:s[i-1]=='(',则dp[i]=dp[i-2]+2,情况二:如果s[i-1]==')',则举例子  -()()),我们假设-是一个括号，是左括号还是右括号未知,dp[i-1]==dp[4]==4,dp[5]其实是取决于dp[0]也就是 - 究竟是左括号还是右括号,假设dp[0] 也就是- 是左括号，那么dp[0]和dp[5]配对。
 
-FROM XUEBI-IFCEN If this solution can help you, please click 'smile'
+// FROM XUEBI-IFCEN If this solution can help you, please click 'smile'
 
-```
+// ```
 class Solution {
 public:
     int longestValidParentheses(string s) {
@@ -50,13 +50,13 @@ public:
         return max_len;
     }
 };
-```
+// ```
 
-栈方法思路：建立两个栈，这两个栈同步，一个用来装')',另一个用来装相应的index。注意第一个栈里面只有'(',不存在')',我们将符合有效括号的括号的index记录在一个int result[n]数组中，就是相当于将result[i]=1来代表该处的括号有效，当然，result[0]=0就是无效，最后我们就可以通过result[n]来判断有效括号的最大长度。
+// 栈方法思路：建立两个栈，这两个栈同步，一个用来装')',另一个用来装相应的index。注意第一个栈里面只有'(',不存在')',我们将符合有效括号的括号的index记录在一个int result[n]数组中，就是相当于将result[i]=1来代表该处的括号有效，当然，result[0]=0就是无效，最后我们就可以通过result[n]来判断有效括号的最大长度。
 
-FROM XUEBI-IFCEN If this solution can help you, please click 'smile'
+// FROM XUEBI-IFCEN If this solution can help you, please click 'smile'
 
-```
+// ```
 class Solution {
 public:
     int longestValidParentheses(string s) {
@@ -104,6 +104,6 @@ public:
         return max_len;
     }
 };
-```
+// ```
 
 

@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int[] decompressRLElist(int[] nums) {
         //奇数
@@ -28,4 +28,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

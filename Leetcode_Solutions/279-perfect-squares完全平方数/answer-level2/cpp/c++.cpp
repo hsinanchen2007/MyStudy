@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 //f(n) = min(f(n-1),f(n-4),f(n-9),...)+1
@@ -26,4 +26,4 @@ public:
 };
 
 
-```
+// ```

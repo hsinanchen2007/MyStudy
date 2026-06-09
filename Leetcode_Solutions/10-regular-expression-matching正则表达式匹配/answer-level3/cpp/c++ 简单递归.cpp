@@ -1,5 +1,5 @@
 
-```
+// ```
 class Solution {
 public:
     vector<vector<int>> memory;
@@ -35,5 +35,5 @@ public:
         return func(s, 0, p, 0) > 0;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/7c38755be38eaeb4459050f847e982fc9bb4bd5ce1b18e32498578a0ea8884ff-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/7c38755be38eaeb4459050f847e982fc9bb4bd5ce1b18e32498578a0ea8884ff-image.png)

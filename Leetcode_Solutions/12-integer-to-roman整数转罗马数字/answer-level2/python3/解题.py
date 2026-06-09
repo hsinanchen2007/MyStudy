@@ -1,10 +1,10 @@
-### 解题思路
-执行用时 : 60 ms, 在所有 Python3 提交中击败了48.81%的用户
-内存消耗 : 13.6 MB, 在所有 Python3 提交中击败了7.92%的用户
+# ### 解题思路
+# 执行用时 : 60 ms, 在所有 Python3 提交中击败了48.81%的用户
+# 内存消耗 : 13.6 MB, 在所有 Python3 提交中击败了7.92%的用户
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def intToRoman(self, num: int) -> str:
         arr = [1,4,5,9,10,40,50,90,100,400,500,900,1000]
@@ -20,4 +20,4 @@ class Solution:
                 lenarr-=1
             
         return s
-```
+# ```

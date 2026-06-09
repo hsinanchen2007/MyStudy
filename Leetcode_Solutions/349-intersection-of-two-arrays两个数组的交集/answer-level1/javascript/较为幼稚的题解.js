@@ -1,6 +1,6 @@
 
 
-```javascript
+// ```javascript
 /**
  * 幼稚一回
  * 两个数组分别去重后拼接排序
@@ -32,4 +32,4 @@ const intersection1 = (nums1, nums2) =>{
     }
     return res;
 };
-```
+// ```

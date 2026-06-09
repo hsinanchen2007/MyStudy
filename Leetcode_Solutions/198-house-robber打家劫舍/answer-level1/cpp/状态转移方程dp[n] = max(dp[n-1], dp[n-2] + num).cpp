@@ -1,9 +1,9 @@
-### 解题思路
-dp[n] = max(dp[n-1], dp[n-2] + num)，要么n-1家钱多，要么n-2家和这一家相加起来钱多。
+// ### 解题思路
+// dp[n] = max(dp[n-1], dp[n-2] + num)，要么n-1家钱多，要么n-2家和这一家相加起来钱多。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int rob(vector<int>& nums) {
@@ -19,4 +19,4 @@ public:
         return dp[nums.size()];
     }
 };
-```
+// ```

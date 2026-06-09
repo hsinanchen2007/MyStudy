@@ -1,9 +1,9 @@
-### 解题思路
-递归，把所有的路都加起来，求和
+// ### 解题思路
+// 递归，把所有的路都加起来，求和
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -37,4 +37,4 @@ class Solution {
         return total;
     }
 }
-```
+// ```

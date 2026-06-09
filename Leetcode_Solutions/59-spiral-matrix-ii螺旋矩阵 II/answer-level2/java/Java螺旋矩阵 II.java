@@ -1,6 +1,6 @@
- startPos:左上角的点；startNum:左上角的数值，n:左上角开始，螺旋一周，且边长为n;
+//  startPos:左上角的点；startNum:左上角的数值，n:左上角开始，螺旋一周，且边长为n;
 
-```
+// ```
 class Solution {
     public int[][] generateMatrix(int n) {
         int[][] ans = new int[n][n];
@@ -29,4 +29,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

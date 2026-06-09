@@ -1,8 +1,8 @@
-先对长度为5的数组排序，定义一个布尔值hasGap表示该数组相邻位置的数字间是否有空缺需要0来填补。接着遍历该数组，确定0的个数和有空缺需要填补的0的个数。
+// 先对长度为5的数组排序，定义一个布尔值hasGap表示该数组相邻位置的数字间是否有空缺需要0来填补。接着遍历该数组，确定0的个数和有空缺需要填补的0的个数。
 
-代码如下：
+// 代码如下：
 
-```java
+// ```java
 class Solution {
     public boolean isStraight(int[] nums) {
         Arrays.sort(nums);
@@ -34,4 +34,4 @@ class Solution {
         else return false;
     }
 }
-```
+// ```

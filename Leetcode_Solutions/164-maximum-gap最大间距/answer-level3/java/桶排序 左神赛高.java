@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     /**
      * 桶排序
@@ -48,4 +48,4 @@ class Solution {
         return (int) ((num - min) * len / (max - min));
     }
 }
-```
+// ```

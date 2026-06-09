@@ -1,6 +1,6 @@
-## 思路一：遍历
-### 代码
-```c++
+// ## 思路一：遍历
+// ### 代码
+// ```c++
 class Solution {
 public:
     string reverseStr(string s, int k) {
@@ -22,9 +22,9 @@ public:
         }
     }
 };
-```
-### 简化代码
-```c++
+// ```
+// ### 简化代码
+// ```c++
 class Solution {
 public:
     string reverseStr(string s, int k) {
@@ -35,5 +35,5 @@ public:
         return s;
     }
 };
-```
+// ```
 

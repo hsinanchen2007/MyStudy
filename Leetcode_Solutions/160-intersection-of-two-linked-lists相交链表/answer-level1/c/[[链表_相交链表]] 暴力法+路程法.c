@@ -1,7 +1,7 @@
 
 
-暴力法，为a中的每个元素都遍历一次b
-```c
+// 暴力法，为a中的每个元素都遍历一次b
+// ```c
 struct ListNode *getIntersectionNode(struct ListNode *headA, struct ListNode *headB){
 	struct ListNode *l1=headA;
 	struct ListNode *l2=headB;
@@ -14,10 +14,10 @@ struct ListNode *getIntersectionNode(struct ListNode *headA, struct ListNode *he
 	}
     return NULL;
 }
-```
+// ```
 
-官方解答中的路程法，两个指针走到各自链表末尾时滑到另一链表头。假设两链表有重合部分，设在交点前，A链表有a个元素，B链表有b个元素，则a+重合路径+b=b+重合路径+a，最后两指针相遇在相交的第一个节点处。而如果两个链表的最后一个结点不相等，那么两链表不可能相交。
-```c
+// 官方解答中的路程法，两个指针走到各自链表末尾时滑到另一链表头。假设两链表有重合部分，设在交点前，A链表有a个元素，B链表有b个元素，则a+重合路径+b=b+重合路径+a，最后两指针相遇在相交的第一个节点处。而如果两个链表的最后一个结点不相等，那么两链表不可能相交。
+// ```c
 struct ListNode *getIntersectionNode(struct ListNode *headA, struct ListNode *headB){
 	struct ListNode *l1=headA,*l2=headB;
 	struct ListNode *lastA=NULL;
@@ -34,4 +34,4 @@ struct ListNode *getIntersectionNode(struct ListNode *headA, struct ListNode *he
 	}
     return l1;
 }
-```
+// ```

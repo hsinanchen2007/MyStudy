@@ -1,10 +1,10 @@
 
-### 解题思路
-暴力法：遍历所有链表，并且结点的值放到一个 int 列表中；之后，对此列表排序，并根据排序后的列表创建新的链表
+// ### 解题思路
+// 暴力法：遍历所有链表，并且结点的值放到一个 int 列表中；之后，对此列表排序，并根据排序后的列表创建新的链表
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -46,13 +46,13 @@ public class Solution {
         return head;
     }
 }
-```
+// ```
 
 
-### 解题思路
-分治法：以两个链表合并为思路，定义一个空链表，将它与第一个链表合并，并将结果与第二个继续合并，以此类推。
+// ### 解题思路
+// 分治法：以两个链表合并为思路，定义一个空链表，将它与第一个链表合并，并将结果与第二个继续合并，以此类推。
 
-```csharp
+// ```csharp
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -102,4 +102,4 @@ public class Solution {
         return dummy.next;
     }
 }
-```
+// ```

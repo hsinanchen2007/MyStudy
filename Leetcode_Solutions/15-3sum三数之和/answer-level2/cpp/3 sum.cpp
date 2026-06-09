@@ -1,11 +1,11 @@
-### 解题思路
-1、外层循环嵌固定一个数值然后，套一个2sum的部分。
-2、用map的hash完成2sum部分会超时，因为find的过程是O(logn)。
-3、现在采用的是先排序再维护左右双下标向中间推进找答案。
+// ### 解题思路
+// 1、外层循环嵌固定一个数值然后，套一个2sum的部分。
+// 2、用map的hash完成2sum部分会超时，因为find的过程是O(logn)。
+// 3、现在采用的是先排序再维护左右双下标向中间推进找答案。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> threeSum(vector<int>& nums) {
@@ -29,4 +29,4 @@ public:
         return rst;
     }
 };
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
-并查集模板题。将二维坐标映射到一维坐标就可以用并查集了。映射关系（x，y）->x*w+y
-其中x为横坐标，y为纵坐标。
-![image.png](https://pic.leetcode-cn.com/375bff8c53b4d87d4842a7f56e98a0f7b32fc9c904f3122e592be584e6c3013e-image.png)
+// ### 解题思路
+// 并查集模板题。将二维坐标映射到一维坐标就可以用并查集了。映射关系（x，y）->x*w+y
+// 其中x为横坐标，y为纵坐标。
+// ![image.png](https://pic.leetcode-cn.com/375bff8c53b4d87d4842a7f56e98a0f7b32fc9c904f3122e592be584e6c3013e-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 int f[250005];
@@ -59,4 +59,4 @@ int isolate = 250004;
     return cnt;
     }
 };
-```
+// ```

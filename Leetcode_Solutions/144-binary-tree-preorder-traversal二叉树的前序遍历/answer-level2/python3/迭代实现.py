@@ -1,4 +1,4 @@
-```python
+# ```python
 from typing import List
 
 # Definition for a binary tree node.
@@ -19,4 +19,4 @@ class Solution:
             if cur.left: stack .append(cur.left)
             res.append(cur.val)
         return res
-```
+# ```

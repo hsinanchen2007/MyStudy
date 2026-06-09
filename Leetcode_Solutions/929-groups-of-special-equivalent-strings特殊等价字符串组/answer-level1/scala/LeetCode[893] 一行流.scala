@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
   def numSpecialEquivGroups(A: Array[String]): Int = {
     A.map(x => x.zipWithIndex.map(y => (y._2 % 2, y._1))
@@ -6,10 +6,10 @@ object Solution {
 .map(x => x.mkString).toSet.size
   }
 }
-```
+// ```
 
 
-```
+// ```
 object Solution {
   def numSpecialEquivGroups(A: Array[String]): Int = {
     A.map(str => {
@@ -18,4 +18,4 @@ object Solution {
     }).distinct.size
   }
 }
-```
+// ```

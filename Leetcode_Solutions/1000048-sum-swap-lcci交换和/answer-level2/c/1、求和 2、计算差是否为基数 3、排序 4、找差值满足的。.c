@@ -1,6 +1,6 @@
-# 1、求和 2、计算差是否为基数 3、排序 4、找差值满足的。
+// # 1、求和 2、计算差是否为基数 3、排序 4、找差值满足的。
 
-```
+// ```
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -113,4 +113,4 @@ int* findSwapValues(int* array1, int array1Size, int* array2, int array2Size, in
     return NULL;
 }
 */
-```
+// ```

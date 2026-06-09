@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def findComplement(self, num):
         """
@@ -6,4 +6,4 @@ class Solution(object):
         :rtype: int
         """
         return int(bin(num).replace('0b', '').replace("0", "2").replace("1", "0").replace("2", "1"), 2)
-```
+# ```

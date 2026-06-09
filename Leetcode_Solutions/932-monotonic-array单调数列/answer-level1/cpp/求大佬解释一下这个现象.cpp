@@ -1,5 +1,5 @@
-### 返回值的类型会影响程序的效率吗？int类型的反而更快？
-```
+// ### 返回值的类型会影响程序的效率吗？int类型的反而更快？
+// ```
 class Solution {
 public:
     bool isMonotonic(vector<int>& A) {
@@ -17,10 +17,10 @@ public:
         return !(flag1 && flag2);
     }
 };
-```
-![1.png](https://pic.leetcode-cn.com/b8b1bb873462b0d65fca938eec9aaed5cc02fffc4213567cb8bad38de895d839-1.png)
+// ```
+// ![1.png](https://pic.leetcode-cn.com/b8b1bb873462b0d65fca938eec9aaed5cc02fffc4213567cb8bad38de895d839-1.png)
 
-```
+// ```
 class Solution {
 public:
     bool isMonotonic(vector<int>& A) {
@@ -38,6 +38,6 @@ public:
         return !(flag1 && flag2);
     }
 };
-```
-![2.png](https://pic.leetcode-cn.com/c39b601d17ea58b4a8b0b039132f843921610c464548ccb23ee13cef0d166b46-2.png)
+// ```
+// ![2.png](https://pic.leetcode-cn.com/c39b601d17ea58b4a8b0b039132f843921610c464548ccb23ee13cef0d166b46-2.png)
 

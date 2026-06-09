@@ -1,4 +1,4 @@
-```
+// ```
 struct ListNode *detectCycle(struct ListNode *head) {
 
     struct ListNode *fast = head;
@@ -21,4 +21,4 @@ struct ListNode *detectCycle(struct ListNode *head) {
     return fast;
 }
 
-```
+// ```

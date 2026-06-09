@@ -1,8 +1,8 @@
-### 解题思路
-暴力模拟
-### 代码
+// ### 解题思路
+// 暴力模拟
+// ### 代码
 
-```golang
+// ```golang
 func distributeCandies(candies int, num_people int) []int {
     ans := make([]int,num_people)
     i := 0 
@@ -20,4 +20,4 @@ func Min(a,b int) int {
     }
     return b
 }
-```
+// ```

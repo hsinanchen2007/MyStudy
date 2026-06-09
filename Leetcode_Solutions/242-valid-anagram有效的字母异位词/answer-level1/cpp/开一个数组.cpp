@@ -1,10 +1,10 @@
-### 解题思路
-新开一个数组，遍历第一个string，对应位置+1；遍历第二个string，对应位置-1；
-最后，若数组元素全是0，返回true,否则返回false;
+// ### 解题思路
+// 新开一个数组，遍历第一个string，对应位置+1；遍历第二个string，对应位置-1；
+// 最后，若数组元素全是0，返回true,否则返回false;
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isAnagram(string s, string t) {
@@ -33,4 +33,4 @@ public:
         
     }
 };
-```
+// ```

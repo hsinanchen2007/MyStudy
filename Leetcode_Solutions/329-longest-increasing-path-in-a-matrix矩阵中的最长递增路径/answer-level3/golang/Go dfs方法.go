@@ -1,5 +1,5 @@
-dfs + dp
-```
+// dfs + dp
+// ```
 var cache [][]int = [][]int{}
 func longestIncreasingPath(matrix [][]int) int {
     if 0 == len(matrix) {
@@ -48,11 +48,11 @@ func max(i, j int) int {
     }
     return j
 }
-```
+// ```
 
-全局变量，需要在内部初始化，否则造成 测试通过，提交不通过问题
+// 全局变量，需要在内部初始化，否则造成 测试通过，提交不通过问题
 
-```
+// ```
 var cache map[[2]int]int = make(map[[2]int]int)
 func longestIncreasingPath(matrix [][]int) int {
     if 0 == len(matrix) {
@@ -99,4 +99,4 @@ func max(i, j int) int {
     return j
 }
 
-```
+// ```

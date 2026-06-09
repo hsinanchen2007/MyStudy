@@ -1,4 +1,4 @@
-```
+// ```
 type node struct {
     pos int
     state int
@@ -35,4 +35,4 @@ func shortestPathLength(graph [][]int) int {
     }
     return -1
 }
-```
+// ```

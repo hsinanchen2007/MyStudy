@@ -1,16 +1,16 @@
-### 解题思路
-我的思路：不说啦
+# ### 解题思路
+# 我的思路：不说啦
 	
 
-复杂度分析：                                                             
-	• 时间复杂度：o(n)
-	• 空间复杂度：o(n)
+# 复杂度分析：                                                             
+# 	• 时间复杂度：o(n)
+# 	• 空间复杂度：o(n)
 
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findTheDifference(self, s: str, t: str) -> str:
         dicts = {}
@@ -27,4 +27,4 @@ class Solution:
                 if dicts[x] == 0:
                     del dicts[x]
         
-```
+# ```

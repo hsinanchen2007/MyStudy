@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-注意在List里放入StringBuilder作为动态二维数组使用。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 注意在List里放入StringBuilder作为动态二维数组使用。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String convert(String s, int numRows) {
         ArrayList<StringBuilder> row=new ArrayList<>();
@@ -25,4 +25,4 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```

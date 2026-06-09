@@ -1,16 +1,16 @@
-## 解法一
+// ## 解法一
 
-从根节点到叶子节点路径中，所有节点的值累加和等于**给定值sum**，即返回true。
+// 从根节点到叶子节点路径中，所有节点的值累加和等于**给定值sum**，即返回true。
 
-很显然，递归问题。
+// 很显然，递归问题。
 
-```cpp
+// ```cpp
 递归结束条件：
 1. 根节点 root==nullptr
 2. 当前节点为叶子节点，如果这一路径求和等于sum，即返回true
-```
+// ```
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool hasPathSum(TreeNode* root, int sum) {
@@ -34,13 +34,13 @@ private:
 private:
     bool isEqual = false;
 };
-```
+// ```
 
-## 解法二
+// ## 解法二
 
-这是对第一种方法的优化版，但是解题的思路是一样的。
+// 这是对第一种方法的优化版，但是解题的思路是一样的。
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool hasPathSum(TreeNode* root, int sum) {
@@ -51,4 +51,4 @@ public:
         return hasPathSum(root->left, sum) || hasPathSum(root->right, sum);
     }
 };
-```
+// ```

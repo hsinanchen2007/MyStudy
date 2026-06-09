@@ -1,5 +1,5 @@
-### 代码
-```c#
+// ### 代码
+// ```c#
 public class Solution {
     public string LongestCommonPrefix(string[] strs) {
        if(strs.Length==0) return "";
@@ -23,4 +23,4 @@ public class Solution {
         return sb.ToString();
     }
 }
-```
+// ```

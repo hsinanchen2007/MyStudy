@@ -1,9 +1,9 @@
-### 解题思路
-每隔k隔翻转
+# ### 解题思路
+# 每隔k隔翻转
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverseStr(self, s: str, k: int) -> str:
         count = len(s)//(2*k)
@@ -18,4 +18,4 @@ class Solution:
             i += 2
         return ''.join(ans)
             
-```
+# ```

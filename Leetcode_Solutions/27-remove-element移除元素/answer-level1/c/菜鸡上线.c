@@ -1,9 +1,9 @@
-### 解题思路
-有点费时(遇到相等的后面覆盖前面的)
+// ### 解题思路
+// 有点费时(遇到相等的后面覆盖前面的)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int removeElement(int* nums, int numsSize, int val)
 {
 	int i;
@@ -32,4 +32,4 @@ int removeElement(int* nums, int numsSize, int val)
     return numsSize-m;
 }
 
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-logn的基本都是二分法
-注意相等的时候，前半部分有，后半部分也可能有，都要递归
-### 代码
+# ### 解题思路
+# logn的基本都是二分法
+# 注意相等的时候，前半部分有，后半部分也可能有，都要递归
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def searchRange(self, nums, target):
         if nums == [] or target is None:
@@ -36,4 +36,4 @@ class Solution:
             return [-1,-1]
         else:
             return [self.index_low, self.index_high]
-```
+# ```

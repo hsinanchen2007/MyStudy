@@ -1,5 +1,5 @@
-bellman——ford算法，按照顶点-边 2层循环，中间松弛操作即可，代码如下：
-```c []
+// bellman——ford算法，按照顶点-边 2层循环，中间松弛操作即可，代码如下：
+// ```c []
 int networkDelayTime(int** times, int timesSize, int* timesColSize, int N, int K){
     int d[101];
     for (int i=1;i<=N;i++){
@@ -29,5 +29,5 @@ int networkDelayTime(int** times, int timesSize, int* timesColSize, int N, int K
     }
     return tmp;
 }
-```
+// ```
 

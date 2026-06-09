@@ -1,5 +1,5 @@
-自底向上，每次返回数字总和和当前位置的节点总数。
-```
+# 自底向上，每次返回数字总和和当前位置的节点总数。
+# ```
 class Solution(object):
     def maximumAverageSubtree(self, root):
         
@@ -16,4 +16,4 @@ class Solution(object):
         res = []
         ave(root)
         return max(res)
-```
+# ```

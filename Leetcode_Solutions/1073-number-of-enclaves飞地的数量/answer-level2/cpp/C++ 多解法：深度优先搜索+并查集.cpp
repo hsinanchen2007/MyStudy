@@ -1,6 +1,6 @@
-# 解法一：
-**深度优先搜索DFS**
-```
+// # 解法一：
+// **深度优先搜索DFS**
+// ```
 class Solution {
 public:
     int dirs[4][2] = {{-1, 0}, {1, 0}, {0, 1}, {0, -1}};
@@ -39,13 +39,13 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/b7e8faae0639334ef3ca490bdc26184c8f9c0d1507714563fde9419fdcd74ac1-image.png)
+// ![image.png](https://pic.leetcode-cn.com/b7e8faae0639334ef3ca490bdc26184c8f9c0d1507714563fde9419fdcd74ac1-image.png)
 
-# 解法二：
-**并查集**
-```
+// # 解法二：
+// **并查集**
+// ```
 class Solution {
 public:
     int dirs[2][2] = {{1, 0}, {0, 1}};
@@ -95,5 +95,5 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/3ed9ed4e78471f7624a05ce2651cfc2f87b64a50e5885b42a66b958cc6967c03-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/3ed9ed4e78471f7624a05ce2651cfc2f87b64a50e5885b42a66b958cc6967c03-image.png)

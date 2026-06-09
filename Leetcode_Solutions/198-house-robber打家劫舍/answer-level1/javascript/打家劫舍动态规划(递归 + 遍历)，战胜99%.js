@@ -1,10 +1,10 @@
-### 解题思路
-见注释
-![image.png](https://pic.leetcode-cn.com/f358ce2c0587b6de5f8efb5ea6c3fbc0201b2fd15504001e72ecc160043fa391-image.png)
-### 代码
+// ### 解题思路
+// 见注释
+// ![image.png](https://pic.leetcode-cn.com/f358ce2c0587b6de5f8efb5ea6c3fbc0201b2fd15504001e72ecc160043fa391-image.png)
+// ### 代码
 
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -46,4 +46,4 @@ var rob = function(nums) {
     }
     return res[length - 1];
 }
-```
+// ```

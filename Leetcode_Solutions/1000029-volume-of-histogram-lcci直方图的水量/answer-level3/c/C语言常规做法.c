@@ -1,5 +1,5 @@
-该题做得有些吃力，一直觉得代码不好看，内存消耗也较大。未来重新设计算法。（原理图待更）
-```c
+// 该题做得有些吃力，一直觉得代码不好看，内存消耗也较大。未来重新设计算法。（原理图待更）
+// ```c
 typedef struct linkedListNode{
     int height;
     int first;
@@ -46,4 +46,4 @@ int trap(int* height, int heightSize){
     }
     return sum;
 }
-```
+// ```

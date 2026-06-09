@@ -1,9 +1,9 @@
-### 解题思路
-列举所有可能的结果，再做比较
+// ### 解题思路
+// 列举所有可能的结果，再做比较
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxProfit(int[] prices) {
         int max = 0;
@@ -17,4 +17,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

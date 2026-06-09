@@ -1,10 +1,10 @@
-每次检查链表是否存在前两个元素，存在就交换
+# 每次检查链表是否存在前两个元素，存在就交换
 
-执行用时 :44 ms, 在所有 Python3 提交中击败了91.16%的用户
-内存消耗 :13.9 MB, 在所有 Python3 提交中击败了5.93%的用户
+# 执行用时 :44 ms, 在所有 Python3 提交中击败了91.16%的用户
+# 内存消耗 :13.9 MB, 在所有 Python3 提交中击败了5.93%的用户
 
 
-```python [class Solution:
+# ```python [class Solution:
     def swapPairs(self, head: ListNode) -> ListNode:
         dummyhead=ListNode(0)
         dummyhead.next=head
@@ -21,4 +21,4 @@
         gen(p)
         return dummyhead.next]
 
-```
+# ```

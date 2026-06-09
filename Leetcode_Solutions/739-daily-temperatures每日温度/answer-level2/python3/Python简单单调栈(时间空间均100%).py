@@ -1,5 +1,5 @@
-单调栈的思路是没错，但是呢，可以考虑在栈中添加索引信息，使得思路更加清晰！
-```python
+# 单调栈的思路是没错，但是呢，可以考虑在栈中添加索引信息，使得思路更加清晰！
+# ```python
 class Solution:
     def dailyTemperatures(self, T: List[int]) -> List[int]:
         n = len(T)
@@ -13,4 +13,4 @@ class Solution:
             stack.append((T[i], i))
         return res
 
-```
+# ```

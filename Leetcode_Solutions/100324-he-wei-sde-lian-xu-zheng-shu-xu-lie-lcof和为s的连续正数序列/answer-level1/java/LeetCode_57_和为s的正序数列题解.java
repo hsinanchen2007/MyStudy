@@ -1,13 +1,13 @@
-### 解题思路
+// ### 解题思路
 
-- 暴力枚举
-- 等差数列配合双指针判断答案区间
+// - 暴力枚举
+// - 等差数列配合双指针判断答案区间
 
-### 代码
+// ### 代码
 
-#### 等差数列判定区间（官方答案）
+// #### 等差数列判定区间（官方答案）
 
-```c++
+// ```c++
 class Solution {
 public:
     vector<vector<int>> findContinuousSequence(int target) {
@@ -27,11 +27,11 @@ public:
         return vec;
     }
 };
-```
+// ```
 
-#### 暴力枚举
+// #### 暴力枚举
 
-```java
+// ```java
 class Solution {
     public int[][] findContinuousSequence(int target) {
         List<int[]> arr = new ArrayList<>();
@@ -62,4 +62,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

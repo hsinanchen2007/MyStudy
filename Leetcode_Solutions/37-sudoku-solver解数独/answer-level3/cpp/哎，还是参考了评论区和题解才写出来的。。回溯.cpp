@@ -1,14 +1,14 @@
-### 解题思路
-此处撰写解题思路
-核心代码：
+// ### 解题思路
+// 此处撰写解题思路
+// 核心代码：
 
- if(recall(board,row,col+1))
-                return true;
-            else
-                board[row][col] = '.';
-### 代码
+//  if(recall(board,row,col+1))
+//                 return true;
+//             else
+//                 board[row][col] = '.';
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void solveSudoku(vector<vector<char>>& board) {
@@ -68,4 +68,4 @@ bool isvaild(vector<vector<char>>& board,int row,int col,char temp)
         }
     return true;
 }
-```
+// ```

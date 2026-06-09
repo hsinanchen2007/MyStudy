@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int max3(int x, int y, int z) {
@@ -19,5 +19,5 @@ public:
         return dp[M][N];
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/651dc74f03bddb1820bb038e610b37e0cfc45d1f7d28961caefa20ef06c55786-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/651dc74f03bddb1820bb038e610b37e0cfc45d1f7d28961caefa20ef06c55786-image.png)

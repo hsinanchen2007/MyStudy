@@ -1,9 +1,9 @@
-### 解题思路
-先把整数n转成字符串类型的，然后遍历这个字符串。注意积应该初始化为1而不是0。
+// ### 解题思路
+// 先把整数n转成字符串类型的，然后遍历这个字符串。注意积应该初始化为1而不是0。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int subtractProductAndSum(int n) {
         String num = n + "";
@@ -17,4 +17,4 @@ class Solution {
         return (plus-sum);
     }
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-需要注意的是特殊情况：k=0 or len(arr)==0 or len(arr)==1
-按照快速排序，找出分割点位置，左边都比分割点小，右边都比分割点大，将分割点和k比较，选择递归执行的部分，省去另一部分的执行时间
-终止条件：分割点base == k-1，返回前k个元素arr[:k]
+# ### 解题思路
+# 需要注意的是特殊情况：k=0 or len(arr)==0 or len(arr)==1
+# 按照快速排序，找出分割点位置，左边都比分割点小，右边都比分割点大，将分割点和k比较，选择递归执行的部分，省去另一部分的执行时间
+# 终止条件：分割点base == k-1，返回前k个元素arr[:k]
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def getLeastNumbers(self, arr: List[int], k: int) -> List[int]:
         if not len(arr) or not k:
@@ -38,4 +38,4 @@ class Solution:
         return func(arr, 0, len(arr)-1, k)
             
 
-```
+# ```

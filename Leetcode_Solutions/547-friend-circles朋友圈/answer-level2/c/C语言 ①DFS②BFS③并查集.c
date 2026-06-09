@@ -1,6 +1,6 @@
-    按照题解翻译成C而已
-1 - DFS
-```
+//     按照题解翻译成C而已
+// 1 - DFS
+// ```
 void Dfs(char** grid, int rows, int cols,int x, int y)
 {
     grid[x][y] = '0'; // 将遍历过的相连位置标记为0
@@ -35,9 +35,9 @@ int numIslands(char** grid, int gridSize, int* gridColSize)
     }
     return islandnums;
 }
-```
-2 - BFS
-```
+// ```
+// 2 - BFS
+// ```
 typedef struct _Node{
     int x;
     int y;
@@ -95,9 +95,9 @@ int numIslands(char** grid, int gridSize, int* gridColSize)
 
     return islandnums;
 }
-```
-3 - 并查集
-```
+// ```
+// 3 - 并查集
+// ```
 int FindRoot(int x, int *parent) 
 {
     if (parent[x] != x) {
@@ -176,4 +176,4 @@ int numIslands(char** grid, int gridSize, int* gridColSize)
 
     return count;
 }
-```
+// ```

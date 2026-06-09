@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def massage(self, nums: List[int]) -> int:
         if len(nums) == 0:
@@ -19,4 +19,4 @@ class Solution:
         b = self.massage(nums[:l-1]) + self.massage(nums[l:])
         return max(a, b)
 
-```
+# ```

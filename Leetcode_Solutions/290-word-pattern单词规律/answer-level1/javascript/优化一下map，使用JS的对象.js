@@ -1,9 +1,9 @@
-### 解题思路
-利用对象{}存储正向反向的对应关系，存在正向关系并且当前word不满足 或者 不存在正向关系但存在反向关系时return false
+// ### 解题思路
+// 利用对象{}存储正向反向的对应关系，存在正向关系并且当前word不满足 或者 不存在正向关系但存在反向关系时return false
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} pattern
  * @param {string} str
@@ -26,4 +26,4 @@ var wordPattern = function(pattern, str) {
     }
     return true
 };
-```
+// ```

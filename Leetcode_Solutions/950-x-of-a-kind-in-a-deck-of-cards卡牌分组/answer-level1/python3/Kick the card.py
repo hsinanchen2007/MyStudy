@@ -1,11 +1,11 @@
-### 解题思路
-punch in the card. 
+# ### 解题思路
+# punch in the card. 
 
-Again, I will give you the source. 
+# Again, I will give you the source. 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 def gcd(a,b):
         if b==0:
             return a
@@ -28,4 +28,4 @@ class Solution:
             if m < 2:
                 return False
         return True
-```
+# ```

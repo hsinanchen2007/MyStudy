@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *整体思路：
@@ -68,4 +68,4 @@ int numberOfBoomerangs( int ** points , int pointsSize , int * pointsColSize ){
     return count;
 
 }
-```
+// ```

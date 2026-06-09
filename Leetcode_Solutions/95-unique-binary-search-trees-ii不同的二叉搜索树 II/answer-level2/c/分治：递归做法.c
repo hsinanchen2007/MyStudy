@@ -1,4 +1,4 @@
-C语言的解法太少了，而且不是很容易看懂，内存可能还能再优化下，欢迎指正
+// C语言的解法太少了，而且不是很容易看懂，内存可能还能再优化下，欢迎指正
 
 struct TreeNode** makeRoots(int start, int end, int* returnSize){
     if (start > end) {

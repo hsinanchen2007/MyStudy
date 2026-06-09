@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-算出每个坐标对应最高左右壁，减去自高即可。
+# 算出每个坐标对应最高左右壁，减去自高即可。
 
-### 代码
+# ### 代码
 
-```python []
+# ```python []
 class Solution:
     def trap(self, height: List[int]) -> int:
         if not height:
@@ -17,4 +17,4 @@ class Solution:
         for i in reversed(range(n - 1)):
             right[i] = max(height[i], right[i + 1])
         return sum(min(l, r) - h for l, r, h in zip(left, right, height))
-```
+# ```

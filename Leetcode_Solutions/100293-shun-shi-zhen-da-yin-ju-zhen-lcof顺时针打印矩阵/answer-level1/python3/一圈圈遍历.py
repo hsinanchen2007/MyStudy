@@ -1,9 +1,9 @@
-### 解题思路
-注意每次的遍历减2，然后写好第一遍历
+# ### 解题思路
+# 注意每次的遍历减2，然后写好第一遍历
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
         if matrix == []:
@@ -37,4 +37,4 @@ class Solution:
             ##每次遍历都让圈层减2
             k += 2
         return res
-```
+# ```

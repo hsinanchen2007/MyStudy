@@ -1,5 +1,5 @@
-设置边界left, right, top, bottom, 每次转一圈，每圈从left-top->right-top, right-top->right-bottom, right-bottom->left-bottom, left-bottom->left-top。
-```
+// 设置边界left, right, top, bottom, 每次转一圈，每圈从left-top->right-top, right-top->right-bottom, right-bottom->left-bottom, left-bottom->left-top。
+// ```
 class Solution {
 public:
     vector<int> spiralOrder(vector<vector<int> > &matrix) {
@@ -15,6 +15,6 @@ public:
         return v;
     }
 };
-```
+// ```
 
-![2019-06-20 11-17-21屏幕截图.png](https://pic.leetcode-cn.com/8a70acbcaf2be9e79e2b9987558aeef749aeb21349b03c324b6b0c0b99510096-2019-06-20%2011-17-21%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)
+// ![2019-06-20 11-17-21屏幕截图.png](https://pic.leetcode-cn.com/8a70acbcaf2be9e79e2b9987558aeef749aeb21349b03c324b6b0c0b99510096-2019-06-20%2011-17-21%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)

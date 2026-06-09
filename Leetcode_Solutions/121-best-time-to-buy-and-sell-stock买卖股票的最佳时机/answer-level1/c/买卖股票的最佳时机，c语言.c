@@ -1,9 +1,9 @@
-### 解题思路
-O(n)     每天的价格都与之前最小的买价做差，与之前的利润比较，并更新最小买价
+// ### 解题思路
+// O(n)     每天的价格都与之前最小的买价做差，与之前的利润比较，并更新最小买价
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int maxProfit(int* prices, int pricesSize){
     if(pricesSize<2){
         return 0;
@@ -19,4 +19,4 @@ int maxProfit(int* prices, int pricesSize){
     }
     return result;
 }
-```
+// ```

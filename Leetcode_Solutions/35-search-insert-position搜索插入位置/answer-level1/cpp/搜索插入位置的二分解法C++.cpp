@@ -1,10 +1,10 @@
-### 解题思路
-简单的二分法。
-![image.png](https://pic.leetcode-cn.com/16ba608ca991436647e66096558d352393ff95127171d86534219aa6999b6770-image.png)
+// ### 解题思路
+// 简单的二分法。
+// ![image.png](https://pic.leetcode-cn.com/16ba608ca991436647e66096558d352393ff95127171d86534219aa6999b6770-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int searchInsert(vector<int>& nums, int target) {
@@ -29,4 +29,4 @@ public:
         else return high+1;
     }
 };
-```
+// ```

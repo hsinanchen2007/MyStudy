@@ -1,5 +1,5 @@
-golang 回溯算法
-```
+// golang 回溯算法
+// ```
 // 这种情况不可能发生，因为祖玛发现有3+个连着的会直接消除
 func findMinStep(board string, hand string) int {
 	board = removeDup(board)
@@ -64,4 +64,4 @@ func removeDup(board string) string {
 	return board
 }
 
-```
+// ```

@@ -1,7 +1,7 @@
-分成了两个链表，然后相连。代码比较多。。
-### 代码
+// 分成了两个链表，然后相连。代码比较多。。
+// ### 代码
 
-```c
+// ```c
 struct ListNode* reverseBetween(struct ListNode* head, int m, int n){
     struct ListNode*pre,* p,*q,* lastp;
     struct ListNode* inversehead=(struct ListNode*)malloc(sizeof(struct ListNode));
@@ -34,4 +34,4 @@ struct ListNode* reverseBetween(struct ListNode* head, int m, int n){
     lastp->next=p;
     return dummyhead->next;
 }
-```
+// ```

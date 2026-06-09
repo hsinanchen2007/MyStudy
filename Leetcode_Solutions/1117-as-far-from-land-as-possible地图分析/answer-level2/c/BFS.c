@@ -1,10 +1,10 @@
-### 解题思路
-遍历每个海洋，找到与其曼哈顿距离最近的陆地，如果该距离超过当前的最近距离，更新到最大距离
-如何遍历：从距离为1开始BFS，针对 【delatx + deltay = 当前距离】 的所有x和y的组合进行遍历，直到找到最近的陆地，或者遍历完整个地图,
+// ### 解题思路
+// 遍历每个海洋，找到与其曼哈顿距离最近的陆地，如果该距离超过当前的最近距离，更新到最大距离
+// 如何遍历：从距离为1开始BFS，针对 【delatx + deltay = 当前距离】 的所有x和y的组合进行遍历，直到找到最近的陆地，或者遍历完整个地图,
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int maxDistance(int **grid, int gridSize, int *gridColSize)
 {
     int i, j, m, x, y, find;
@@ -71,4 +71,4 @@ int maxDistance(int **grid, int gridSize, int *gridColSize)
     }
     return max;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution118 {
     public List<List<Integer>> generate(int numRows) {
         int m,n;  //每个待确定区域上第一个指针，第二个指针
@@ -26,4 +26,4 @@ class Solution118 {
         return res;
     }
 }
-```
+// ```

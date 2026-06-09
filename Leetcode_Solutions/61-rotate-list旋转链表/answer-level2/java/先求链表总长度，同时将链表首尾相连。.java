@@ -1,6 +1,6 @@
-- 先遍历求得链表总长度count，同时将链表首尾相连；
-- 再找到原链表的倒数第k+1个节点，该节点的next就是新链表的头结点。
-```java
+// - 先遍历求得链表总长度count，同时将链表首尾相连；
+// - 再找到原链表的倒数第k+1个节点，该节点的next就是新链表的头结点。
+// ```java
 public ListNode rotateRight(ListNode head, int k) {
 	if (head == null || head.next == null || k == 0) return head;
     
@@ -24,4 +24,4 @@ public ListNode rotateRight(ListNode head, int k) {
     tmp.next = null;
     return newHead; 
 }
-```
+// ```

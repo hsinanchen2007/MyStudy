@@ -1,4 +1,4 @@
-```js
+// ```js
 var romanToInt = function(s) {
   var CONSTANT_OBJECT = {
     'I': 1,
@@ -23,6 +23,6 @@ var romanToInt = function(s) {
   }
   return number;
 };
-```
+// ```
 
-核心在于用正则表达式匹配罗马数字，返回特定的字符串数组！
+// 核心在于用正则表达式匹配罗马数字，返回特定的字符串数组！

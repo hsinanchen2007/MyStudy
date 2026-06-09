@@ -1,7 +1,7 @@
-各位大佬们好，我本来想要用DFS解决这道题，但是发现这边好像都是用BFS的题解，打扰了。 
-思路大致为，先根据beginword对全空间的单词进行处于，对于第一个beginword，我首先找出所有与它差一的单词列列表onediflist，其他的单词作为下一轮的全空间列表restlist。 单词处理结束之后，根据得到的onediflist，依次将里面的单词作为beginword进行递归查找，。。。。 对于最后遍历过得onediflist，将路径最小的值最为当前beginowrd到endword之间的路径长度。 以下是代码。
+// 各位大佬们好，我本来想要用DFS解决这道题，但是发现这边好像都是用BFS的题解，打扰了。 
+// 思路大致为，先根据beginword对全空间的单词进行处于，对于第一个beginword，我首先找出所有与它差一的单词列列表onediflist，其他的单词作为下一轮的全空间列表restlist。 单词处理结束之后，根据得到的onediflist，依次将里面的单词作为beginword进行递归查找，。。。。 对于最后遍历过得onediflist，将路径最小的值最为当前beginowrd到endword之间的路径长度。 以下是代码。
 
-  ```
+//   ```
  String endword;
    int min=Integer.MAX_VALUE;
    Map<String,Integer>lenToendword=new HashMap<String, Integer>();// 存储单词与endword之间的距离
@@ -65,4 +65,4 @@
 		 
 		 return ans;
 	 }
-```
+// ```

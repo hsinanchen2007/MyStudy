@@ -1,9 +1,9 @@
-### 解题思路
-答案只可能是最大三个数的乘积或最大数和最小两个数的乘积（此时两个最小数均为负数）。
+// ### 解题思路
+// 答案只可能是最大三个数的乘积或最大数和最小两个数的乘积（此时两个最小数均为负数）。
 
-### 线性扫描，O(n)时间复杂度，O(1)空间复杂度
+// ### 线性扫描，O(n)时间复杂度，O(1)空间复杂度
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maximumProduct(vector<int>& nums) {
@@ -35,9 +35,9 @@ public:
                     f_max * f_min * s_min);
     }
 };
-```
-### 排序，O(nlogn)时间复杂度，O(1)空间复杂度
-```
+// ```
+// ### 排序，O(nlogn)时间复杂度，O(1)空间复杂度
+// ```
 class Solution {
 public:
     int maximumProduct(vector<int>& nums) {
@@ -46,5 +46,5 @@ public:
             return max(nums[0] * nums[1] * nums[s - 1],
                        nums[s - 1] * nums[s - 2] * nums[s - 3]);
     }
-```
-![2020-02-13_18-07.png](https://pic.leetcode-cn.com/2c67f6504197798a8ad08b1b3baa5e916bec55e7d49535cedef0c72f514d0717-2020-02-13_18-07.png)
+// ```
+// ![2020-02-13_18-07.png](https://pic.leetcode-cn.com/2c67f6504197798a8ad08b1b3baa5e916bec55e7d49535cedef0c72f514d0717-2020-02-13_18-07.png)

@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-只会这个，加油！
+# 只会这个，加油！
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def uncommonFromSentences(self, A: str, B: str) -> List[str]:
         S1 = A.split()
@@ -18,4 +18,4 @@ class Solution:
                 list1.append(j)
         return (list1)
 
-```
+# ```

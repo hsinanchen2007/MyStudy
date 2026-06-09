@@ -1,4 +1,4 @@
-```
+// ```
 const addTwoNumbers = function(l1, l2) {
     const resultNode = new ListNode(0)
     let carry = 0
@@ -25,4 +25,4 @@ const addTwoNumbers = function(l1, l2) {
     }
     return resultNode
 };
-```
+// ```

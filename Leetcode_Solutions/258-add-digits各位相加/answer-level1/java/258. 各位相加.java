@@ -1,15 +1,15 @@
 
 
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/9/2
- *
- * 解题思路1：暴力解决
- * 解决思路2：n = abc = a*100 + b*10 + c*1   a + b + c = n - (99*a + 9*b)  = n % 9 (n%9!=0)
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/9/2
+//  *
+//  * 解题思路1：暴力解决
+//  * 解决思路2：n = abc = a*100 + b*10 + c*1   a + b + c = n - (99*a + 9*b)  = n % 9 (n%9!=0)
+//  */
+// ```
 public int addDigits(int num) {
 
         while(num >= 10){
@@ -37,4 +37,4 @@ public int addDigits2(int num){
     return num;
 
 }
-```
+// ```

@@ -1,6 +1,6 @@
-二分思想递归，复杂度是对数级的。
+// 二分思想递归，复杂度是对数级的。
 
-```
+// ```
 class Solution {
 public:
     double myPow(double x, int n) {
@@ -12,4 +12,4 @@ public:
         return rest * half * half;
     }
 };
-```
+// ```

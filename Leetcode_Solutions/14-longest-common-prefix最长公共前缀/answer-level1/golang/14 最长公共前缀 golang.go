@@ -1,10 +1,10 @@
-思路分析：
+// 思路分析：
 
-最长公共前缀一定存在最短的那个字符串中，因此先求出最短的字符串的长度minLen，然后依次比较每个字符串中的第i个字符(0 <= i < minLen)，如果相同则追加到结果中，否则退出，返回之前的结果。
+// 最长公共前缀一定存在最短的那个字符串中，因此先求出最短的字符串的长度minLen，然后依次比较每个字符串中的第i个字符(0 <= i < minLen)，如果相同则追加到结果中，否则退出，返回之前的结果。
 
-算法实现：
+// 算法实现：
 
-```go
+// ```go
 func longestCommonPrefix(strs []string) string {
     if len(strs) == 0 {return ""}
     if len(strs) == 1 {return strs[0]}
@@ -33,5 +33,5 @@ func longestCommonPrefix(strs []string) string {
     }
     return res
 }
-```
+// ```
 

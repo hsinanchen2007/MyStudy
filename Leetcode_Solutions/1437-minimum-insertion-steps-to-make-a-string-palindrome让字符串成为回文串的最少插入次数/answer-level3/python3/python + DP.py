@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def minInsertions(self, s: str) -> int:
         if s == '': return 0
@@ -12,4 +12,4 @@ class Solution:
                     dp[i][j] = min(dp[i + 1][j], dp[i][j - 1]) + 1
         
         return dp[0][-1]
-```
+# ```

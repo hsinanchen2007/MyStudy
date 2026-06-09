@@ -1,4 +1,4 @@
-```
+// ```
 func max(a int, b int) int {
 	if a > b {
 		return a
@@ -45,7 +45,7 @@ func massage(nums []int) int {
 
 	return tmp
 }
-```
-动态规划
-采用dpy记录当前节点预约最优解时的缓存
-采用dpn记录当前节点不预约最优解时的缓存
+// ```
+// 动态规划
+// 采用dpy记录当前节点预约最优解时的缓存
+// 采用dpn记录当前节点不预约最优解时的缓存

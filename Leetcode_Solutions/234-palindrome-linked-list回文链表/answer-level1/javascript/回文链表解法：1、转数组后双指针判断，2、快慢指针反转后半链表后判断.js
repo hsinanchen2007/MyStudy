@@ -1,12 +1,12 @@
-### 解题思路
-解法：
+// ### 解题思路
+// 解法：
 
-- 方法一：将值复制到数组中后用双指针法
-- 方法二：快慢指针法，快指针走两步，慢指针走一步，找到链表的中点。然后，翻转后半部分。最后从头、中点开始判断是否相同
+// - 方法一：将值复制到数组中后用双指针法
+// - 方法二：快慢指针法，快指针走两步，慢指针走一步，找到链表的中点。然后，翻转后半部分。最后从头、中点开始判断是否相同
 
-### 代码
+// ### 代码
 
-```js
+// ```js
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -38,11 +38,11 @@ var isPalindrome = function(head) {
   }
   return true;
 };
-```
+// ```
 
-**解法二：快慢指针法**
+// **解法二：快慢指针法**
 
-```js
+// ```js
 /**
  * 方法二：快慢指针法
  * 时间复杂度O(n)，空间复杂度O(1)
@@ -78,12 +78,12 @@ var isPalindrome = function(head) {
 
   return true;
 };
-```
+// ```
 
 
-## More
+// ## More
 
 
-关于链表数据结构笔记：[https://github.com/giscafer/leetcode-js/tree/master/src/data-structures/linked-list](https://github.com/giscafer/leetcode-js/tree/master/src/data-structures/linked-list)
+// 关于链表数据结构笔记：[https://github.com/giscafer/leetcode-js/tree/master/src/data-structures/linked-list](https://github.com/giscafer/leetcode-js/tree/master/src/data-structures/linked-list)
 
-![fe-insights.jpg](https://pic.leetcode-cn.com/936dcb02e5f5636a779abf809514677985a18b20667952e608527e2026f1c3a2-fe-insights.jpg)
+// ![fe-insights.jpg](https://pic.leetcode-cn.com/936dcb02e5f5636a779abf809514677985a18b20667952e608527e2026f1c3a2-fe-insights.jpg)

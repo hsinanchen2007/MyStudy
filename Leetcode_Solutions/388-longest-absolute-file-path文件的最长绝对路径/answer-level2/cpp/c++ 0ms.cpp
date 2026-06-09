@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     int lengthLongestPath(string input) {
@@ -45,4 +45,4 @@ public:
         return maxlen;
     }
 };
-```
+// ```

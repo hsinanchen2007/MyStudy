@@ -1,9 +1,9 @@
-### 解题思路
-![加1-66.png](https://pic.leetcode-cn.com/77b42307752dfddef8bcbb1d82bbf3034cb140a58410bf436d314e794ee58a36-%E5%8A%A01-66.png)
+// ### 解题思路
+// ![加1-66.png](https://pic.leetcode-cn.com/77b42307752dfddef8bcbb1d82bbf3034cb140a58410bf436d314e794ee58a36-%E5%8A%A01-66.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] plusOne(int[] digits) {
         for(int i = digits.length-1; i >= 0; i--){ //从后向前循环
@@ -18,4 +18,4 @@ class Solution {
         return digits;
     }
 }
-```
+// ```

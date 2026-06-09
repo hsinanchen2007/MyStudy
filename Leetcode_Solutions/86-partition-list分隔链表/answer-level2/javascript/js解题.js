@@ -1,13 +1,13 @@
-### 解题思路
+// ### 解题思路
 
-分隔链表 ，定义俩个链表 smaller(小于特定值) greater(大于特定值)
-遍历一次将初始链表中所有值加入所定义的俩个链表中(遍历 所以相对位置不会改变)
-最后将俩个链表连起来.
-有个小技巧就是在初始定义smaller和greater链表时定义了它们的引用dummy...，并且头结点值为-1,
-在连接链表的时候就用它们的引用来连接。
-### 代码
+// 分隔链表 ，定义俩个链表 smaller(小于特定值) greater(大于特定值)
+// 遍历一次将初始链表中所有值加入所定义的俩个链表中(遍历 所以相对位置不会改变)
+// 最后将俩个链表连起来.
+// 有个小技巧就是在初始定义smaller和greater链表时定义了它们的引用dummy...，并且头结点值为-1,
+// 在连接链表的时候就用它们的引用来连接。
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -41,4 +41,4 @@ var partition = function(head, x) {
   return dummySmaller.next;  //返回分隔后的头节点
 }
 
-```
+// ```

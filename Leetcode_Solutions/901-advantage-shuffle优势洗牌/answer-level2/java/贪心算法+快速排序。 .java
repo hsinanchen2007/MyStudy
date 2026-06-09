@@ -1,10 +1,10 @@
 
-1. 我们可以首先对两个数组进行排序。对B数组进行排序的同时，我们需要记录下原始的索引。
-2. 当对排序后对数组进行比较时，我们可以取出原始的索引进行填充。
-3.  比较时，使用贪心算法。 
-由于题目中求的A[i]>B[i]。 那么排序完毕后,A[maxIndex] > B[maxIndex]。如果不满足，此时开启贪心策略，需要将A[minIndex] 放在结果集中，这样就保证A[maxIndex]还能对后续对B[maxIndex]保持统治地位。典型对田忌赛马。
+// 1. 我们可以首先对两个数组进行排序。对B数组进行排序的同时，我们需要记录下原始的索引。
+// 2. 当对排序后对数组进行比较时，我们可以取出原始的索引进行填充。
+// 3.  比较时，使用贪心算法。 
+// 由于题目中求的A[i]>B[i]。 那么排序完毕后,A[maxIndex] > B[maxIndex]。如果不满足，此时开启贪心策略，需要将A[minIndex] 放在结果集中，这样就保证A[maxIndex]还能对后续对B[maxIndex]保持统治地位。典型对田忌赛马。
 
-```java
+// ```java
 
 public int[] advantageCount(int[] A, int[] B) {
     if (A == null || B == null) return A;
@@ -73,4 +73,4 @@ public int[] advantageCount(int[] A, int[] B) {
     arr[l] = arr[r];
     arr[r] = temp;
   }
-```
+// ```

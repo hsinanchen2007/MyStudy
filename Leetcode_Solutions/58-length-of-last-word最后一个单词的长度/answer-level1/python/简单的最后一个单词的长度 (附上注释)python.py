@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def lengthOfLastWord(self, s):
         """
@@ -23,4 +23,4 @@ class Solution(object):
         # 遍历结束也没有return
         # 说明在找到字母之后再也没找到空格 即只有一个单词 j为其长度
         return j
-```
+# ```

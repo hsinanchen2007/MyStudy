@@ -1,9 +1,9 @@
-### 解题思路
-基础树操作
+// ### 解题思路
+// 基础树操作
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 
 struct TreeNode* deleteNode(struct TreeNode* root, int key){
@@ -41,4 +41,4 @@ struct TreeNode* deleteNode(struct TreeNode* root, int key){
 	
 	return root;
 }
-```
+// ```

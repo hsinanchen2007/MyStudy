@@ -1,9 +1,9 @@
-### 解题思路
-声明一个height的形参，用来记录该节点的高度，再和res.size()比，如果res.size()<height说明res没有该高度的值，此时res需要直接加进去，如果res.size()>height，说明该位置的值已经有了，此时需要res[height-1]和该节点的值比大小。（res[height-1]指在以遍历的高度为height的结点上的最大值）
+// ### 解题思路
+// 声明一个height的形参，用来记录该节点的高度，再和res.size()比，如果res.size()<height说明res没有该高度的值，此时res需要直接加进去，如果res.size()>height，说明该位置的值已经有了，此时需要res[height-1]和该节点的值比大小。（res[height-1]指在以遍历的高度为height的结点上的最大值）
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -29,4 +29,4 @@ public:
         helper(root->right,height+1);
     }
 };
-```
+// ```

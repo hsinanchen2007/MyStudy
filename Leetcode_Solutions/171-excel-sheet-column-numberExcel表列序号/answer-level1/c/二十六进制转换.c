@@ -1,9 +1,9 @@
-### 解题思路
-简单的26进制转10进制
+// ### 解题思路
+// 简单的26进制转10进制
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int titleToNumber(char * s){
     int sum=0;
     while(*s!='\0'){
@@ -13,4 +13,4 @@ int titleToNumber(char * s){
     return sum;
 
 }
-```
+// ```

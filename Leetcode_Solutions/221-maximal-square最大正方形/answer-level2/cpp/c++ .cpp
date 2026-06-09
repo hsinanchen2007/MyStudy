@@ -1,9 +1,9 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/3df39222ac3977e7ed04a1cd5b50f2adc584fd2eea8a9e356138707a2b8258cc-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/3df39222ac3977e7ed04a1cd5b50f2adc584fd2eea8a9e356138707a2b8258cc-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maximalSquare(vector<vector<char>>& matrix) {
@@ -30,4 +30,4 @@ public:
         return max_num*max_num;
     }
 };
-```
+// ```

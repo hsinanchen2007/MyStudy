@@ -1,4 +1,4 @@
-```c++ []
+// ```c++ []
 class Solution {
 public:
     int calPoints(vector<string>& ops) {
@@ -27,4 +27,4 @@ public:
         return ans;
     }
 };
-```
+// ```

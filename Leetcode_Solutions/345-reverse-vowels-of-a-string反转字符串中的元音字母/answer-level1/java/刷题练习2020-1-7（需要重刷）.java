@@ -1,10 +1,10 @@
-### 解题思路
-双指针
+// ### 解题思路
+// 双指针
 
-处理字符串的经典题，建议此题换着不同写法多练习几次，字符串我处理不好
-### 代码
+// 处理字符串的经典题，建议此题换着不同写法多练习几次，字符串我处理不好
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private final static HashSet<Character> vowels=new HashSet<>(Arrays.asList('a','e','i','o','u','A','E','I','O','U'));//如何创建HashSet并添加元素，这种写法需要适应
 
@@ -29,4 +29,4 @@ class Solution {
         return new String(result);//这里假如分成两行怎么写？思考一下
     }
 }
-```
+// ```

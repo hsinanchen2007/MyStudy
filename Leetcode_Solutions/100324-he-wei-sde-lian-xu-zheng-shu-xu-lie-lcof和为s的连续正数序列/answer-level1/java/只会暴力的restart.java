@@ -1,8 +1,8 @@
-### 解题思路
-利用连续自增的特性，进行遍历
-### 代码
+// ### 解题思路
+// 利用连续自增的特性，进行遍历
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] findContinuousSequence(int target) {
         List<int[]> ans = new ArrayList<>();
@@ -26,4 +26,4 @@ class Solution {
         return ans.toArray(new int[0][]);
     }
 }
-```
+// ```

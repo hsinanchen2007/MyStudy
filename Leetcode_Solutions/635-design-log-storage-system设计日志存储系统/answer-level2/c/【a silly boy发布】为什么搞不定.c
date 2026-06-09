@@ -1,6 +1,6 @@
-![5B2486FC-8FE3-4B1B-9A4E-0222AD9E98B2.jpeg](https://pic.leetcode-cn.com/d68e473a31ddd9c636b664f13d0dd875db9a7f6d0e72e01759d8be7efb7f7152-5B2486FC-8FE3-4B1B-9A4E-0222AD9E98B2.jpeg)
+// ![5B2486FC-8FE3-4B1B-9A4E-0222AD9E98B2.jpeg](https://pic.leetcode-cn.com/d68e473a31ddd9c636b664f13d0dd875db9a7f6d0e72e01759d8be7efb7f7152-5B2486FC-8FE3-4B1B-9A4E-0222AD9E98B2.jpeg)
 
-```
+// ```
 #define MAXSIZE 300
 
 typedef struct {
@@ -120,4 +120,4 @@ void logSystemFree(LogSystem* obj) {
  
  * logSystemFree(obj);
 */
-```
+// ```

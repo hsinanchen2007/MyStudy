@@ -1,9 +1,9 @@
-### 解题思路
-注意使用哈希表查找`product[i]`在`products`里的下标
+// ### 解题思路
+// 注意使用哈希表查找`product[i]`在`products`里的下标
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Cashier {
 	int num;
 	int disc;
@@ -38,4 +38,4 @@ public:
     	return money;
     }
 };
-```
+// ```

@@ -1,6 +1,6 @@
-用for移动右边界来写比较简单  
+# 用for移动右边界来写比较简单  
 
-```python3
+# ```python3
     def findAnagrams(self, s: str, p: str) -> List[int]:
         left, right = 0, 0                                  #滑动窗口左边界
         window = {}                                         #滑动窗口
@@ -20,4 +20,4 @@
             if window == need:                              #一样就把左窗口坐标加入结果
                 re.append(left)
         return re
-```
+# ```

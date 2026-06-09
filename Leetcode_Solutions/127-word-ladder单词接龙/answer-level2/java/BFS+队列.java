@@ -1,17 +1,17 @@
-执行结果：
-通过
-显示详情
-执行用时 :
-595 ms
-, 在所有 Java 提交中击败了
-21.87%
-的用户
-内存消耗 :
-42.8 MB
-, 在所有 Java 提交中击败了
-55.93%
-的用户
-```
+// 执行结果：
+// 通过
+// 显示详情
+// 执行用时 :
+// 595 ms
+// , 在所有 Java 提交中击败了
+// 21.87%
+// 的用户
+// 内存消耗 :
+// 42.8 MB
+// , 在所有 Java 提交中击败了
+// 55.93%
+// 的用户
+// ```
 class Solution {
     
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
@@ -57,4 +57,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

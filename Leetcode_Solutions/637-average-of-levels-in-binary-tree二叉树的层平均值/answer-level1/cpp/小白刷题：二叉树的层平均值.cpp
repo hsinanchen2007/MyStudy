@@ -1,7 +1,7 @@
-BFS，层序遍历，每一层计算一次平均值，并插入答案vector
+// BFS，层序遍历，每一层计算一次平均值，并插入答案vector
 
-代码：
-```
+// 代码：
+// ```
 class Solution {
 public:
     vector<double> averageOfLevels(TreeNode* root) {
@@ -30,4 +30,4 @@ public:
         return ans;
     }
 };
-```
+// ```

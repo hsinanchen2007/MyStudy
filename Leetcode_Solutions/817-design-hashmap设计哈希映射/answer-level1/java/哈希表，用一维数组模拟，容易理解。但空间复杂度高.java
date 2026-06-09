@@ -1,9 +1,9 @@
-![1.png](https://pic.leetcode-cn.com/f997ca0e60ff1031207fe4994808260c18d395102ef7e510286311eb3759f3cb-1.png)
+// ![1.png](https://pic.leetcode-cn.com/f997ca0e60ff1031207fe4994808260c18d395102ef7e510286311eb3759f3cb-1.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 //
 class MyHashMap {
     int[] hash;
@@ -39,4 +39,4 @@ class MyHashMap {
  * int param_2 = obj.get(key);
  * obj.remove(key);
  */
-```
+// ```

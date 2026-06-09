@@ -1,9 +1,9 @@
-### 解题思路
-参考官方题解的C++ Rabin-Karp解法
+// ### 解题思路
+// 参考官方题解的C++ Rabin-Karp解法
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     using ll = long long;
@@ -51,6 +51,6 @@ public:
         return lo;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/e60fe441596b051f048380aef98e3c5931eff6bc84647323ebd1768d6882ee57-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e60fe441596b051f048380aef98e3c5931eff6bc84647323ebd1768d6882ee57-image.png)

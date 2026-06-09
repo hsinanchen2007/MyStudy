@@ -1,9 +1,9 @@
-### 解题思路
-排队吃似乎比较方便。。。
+// ### 解题思路
+// 排队吃似乎比较方便。。。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class DiningPhilosophers {
 
     public DiningPhilosophers() {
@@ -27,4 +27,4 @@ class DiningPhilosophers {
         Thread.yield();
     }
 }
-```
+// ```

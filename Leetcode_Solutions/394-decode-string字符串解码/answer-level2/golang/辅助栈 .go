@@ -1,7 +1,7 @@
-根据精选题解改的 go语言版
-整个思路参考精选题解 
+// 根据精选题解改的 go语言版
+// 整个思路参考精选题解 
 
-```
+// ```
 func decodeString(s string) string {
     type pair struct {
         mul int         //当前[]中字符串的倍数
@@ -28,4 +28,4 @@ func decodeString(s string) string {
     }
     return res
 }
-```
+// ```

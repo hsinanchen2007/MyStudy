@@ -1,5 +1,5 @@
-详细注释都在代码中
-```
+// 详细注释都在代码中
+// ```
 class Solution {
 public:
     vector<int> digits(int n) {
@@ -34,7 +34,7 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/300b34c4a4b78140a329723d75d8be1290b2d0200c1bf02d92343e3e84659c5b-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/300b34c4a4b78140a329723d75d8be1290b2d0200c1bf02d92343e3e84659c5b-image.png)
 
 

@@ -1,8 +1,8 @@
-### 解题思路
-此处撰写解题思路 
+// ### 解题思路
+// 此处撰写解题思路 
 
-### 代码
-```java
+// ### 代码
+// ```java
 class Solution {
 	public List<Integer> diffWaysToCompute(String input) {
 		char[] inputCharList = input.toCharArray();
@@ -49,4 +49,4 @@ class Solution {
 		return result;
 	}
 }
-```
+// ```

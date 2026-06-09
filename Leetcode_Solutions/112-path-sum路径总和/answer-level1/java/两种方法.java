@@ -1,5 +1,5 @@
-简单的方法：
-```java
+// 简单的方法：
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -23,10 +23,10 @@ class Solution {
     }
 
 }
-```
+// ```
 
-麻烦的方法：
-```java
+// 麻烦的方法：
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -71,4 +71,4 @@ class Solution {
         }
     }
 }
-```
+// ```

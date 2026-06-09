@@ -1,9 +1,9 @@
-### 解题思路
-主要是二叉搜索树的插入，与遍历
+// ### 解题思路
+// 主要是二叉搜索树的插入，与遍历
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -90,4 +90,4 @@ func BST_insert(node *TreeNode, insert_node *TreeNode) {
  * data := obj.serialize(root);
  * ans := obj.deserialize(data);
  */
-```
+// ```

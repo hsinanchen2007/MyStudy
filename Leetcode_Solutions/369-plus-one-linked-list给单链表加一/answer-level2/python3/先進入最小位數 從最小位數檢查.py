@@ -1,12 +1,12 @@
-### 解题思路
-先進入最小位數 從最小位數檢查
-當+1沒有超過10就不進一步處理
-當+1 等於 10 則 將高一位數也 +1
-當有發生時 回傳有進位的 Flag
+# ### 解题思路
+# 先進入最小位數 從最小位數檢查
+# 當+1沒有超過10就不進一步處理
+# 當+1 等於 10 則 將高一位數也 +1
+# 當有發生時 回傳有進位的 Flag
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -39,4 +39,4 @@ class Solution:
         else:
             return head             
 
-```
+# ```

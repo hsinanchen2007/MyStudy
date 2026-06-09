@@ -1,8 +1,8 @@
-边界情况有点多，递推的公式跟爬楼梯差不多，
+// 边界情况有点多，递推的公式跟爬楼梯差不多，
 
-主要要注意大于26和0的情况
+// 主要要注意大于26和0的情况
 
-```
+// ```
 /**
  * @param {string} s
  * @return {number}
@@ -26,4 +26,4 @@ var numDecodings = function (s) {
     return dp[s.length];
 };
 
-```
+// ```

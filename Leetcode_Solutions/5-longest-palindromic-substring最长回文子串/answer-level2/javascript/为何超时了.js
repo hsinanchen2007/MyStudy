@@ -1,4 +1,4 @@
-```js
+// ```js
 var longestPalindrome = function (s = '') {
   const { length } = s;
 
@@ -13,5 +13,5 @@ var longestPalindrome = function (s = '') {
 
   return s[0] || '';
 };
-```
-这个复杂度应该是O(n^2)吧, 为何超时了
+// ```
+// 这个复杂度应该是O(n^2)吧, 为何超时了

@@ -1,4 +1,4 @@
-```
+// ```
 var maxRepOpt1 = function (text) {
   // 每个字母可能返回的最大结果 因为每个结果不能超过字母出现的次数 统计的是滑块的长度
   // 例如 aaabaaa 会统计a的最大长度为7 如果得到a的出现次数只有6次 最后会返回结果6
@@ -53,4 +53,4 @@ var maxRepOpt1 = function (text) {
   })
   return result;
 };
-```
+// ```

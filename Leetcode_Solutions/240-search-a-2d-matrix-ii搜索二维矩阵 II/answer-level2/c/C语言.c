@@ -1,5 +1,5 @@
-没看到有人用c写，就附一个出来。
-```
+// 没看到有人用c写，就附一个出来。
+// ```
 bool searchMatrix(int** matrix, int matrixRowSize, int matrixColSize, int target) {
     int i= 0 ,j = 0;
     if (matrixRowSize == 0 ||matrixColSize == 0){
@@ -20,4 +20,4 @@ bool searchMatrix(int** matrix, int matrixRowSize, int matrixColSize, int target
     }
     return false;
 }
-```
+// ```

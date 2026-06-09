@@ -1,9 +1,9 @@
-### 解题思路
-代码思路:将两个数组合并到all数组中,参加合并的两个数组是有序的,所以在合并数组时用到归并排序的后半部分“治(conquer)”算法。
+// ### 解题思路
+// 代码思路:将两个数组合并到all数组中,参加合并的两个数组是有序的,所以在合并数组时用到归并排序的后半部分“治(conquer)”算法。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public double findMedianSortedArrays(int[] oneArray, int[] twoArray) {
         int i=0, j=0, count = 0;
@@ -34,4 +34,4 @@ class Solution {
         return model == 0 ? ((double)all[middle-1] + (double)all[middle])/2 : (double)all[middle];
     }
 }
-```
+// ```

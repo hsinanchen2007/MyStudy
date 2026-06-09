@@ -1,9 +1,9 @@
-### 解题思路
-非常典型的动态规划，递推式`dp[i] = dp[i - 1][j] + dp[i][j - 1]`。
+# ### 解题思路
+# 非常典型的动态规划，递推式`dp[i] = dp[i - 1][j] + dp[i][j - 1]`。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def uniquePaths(self, m, n):
         """
@@ -21,4 +21,4 @@ class Solution(object):
                 dp[i][j] = dp[i][j - 1] + dp[i - 1][j]
         return dp[-1][-1]
 
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<int> decompressRLElist(vector<int>& nums) {
@@ -14,5 +14,5 @@ public:
         return res;
     }
 };
-```
-![1.png](https://pic.leetcode-cn.com/24ca5d9bfcb10139ace11d4fb05209609dee3950a9de5eb9665fc379827823e1-1.png)
+// ```
+// ![1.png](https://pic.leetcode-cn.com/24ca5d9bfcb10139ace11d4fb05209609dee3950a9de5eb9665fc379827823e1-1.png)

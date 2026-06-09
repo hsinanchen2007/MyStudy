@@ -1,9 +1,9 @@
-![image.png](https://pic.leetcode-cn.com/5abaf29d93d9e0be172ee886cebcbe64cde5ffa04b380dd62d4abdf819b66a0d-image.png)
+// ![image.png](https://pic.leetcode-cn.com/5abaf29d93d9e0be172ee886cebcbe64cde5ffa04b380dd62d4abdf819b66a0d-image.png)
 
-遍历每个罗马字符，并判断和前一个罗马字符能否组成特殊组合，如果能组成特殊组合，那么计算累加值
+// 遍历每个罗马字符，并判断和前一个罗马字符能否组成特殊组合，如果能组成特殊组合，那么计算累加值
 
-代码：
-```
+// 代码：
+// ```
 func getCurNum(pre byte, cur byte, x int) (t int) {
     if (cur=='V' && pre=='I') || (cur=='X' && pre=='I') {   // 如果能组成特殊组合，那么计算当前应该累加的值
         t=x-1*2
@@ -33,4 +33,4 @@ func romanToInt(s string) int {
     }
     return n;
 }
-```
+// ```

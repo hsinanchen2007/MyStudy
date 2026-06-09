@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def numPrimeArrangements(self, n):
         """
@@ -21,4 +21,4 @@ class Solution(object):
         for i in range(1,n-zhi+1):
             res *= i
         return res%(10**9+7)
-```
+# ```

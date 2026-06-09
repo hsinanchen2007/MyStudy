@@ -1,6 +1,6 @@
-# 滑动窗口
+// # 滑动窗口
 
-```c++ []
+// ```c++ []
 class Solution {
 public:
     int minSubArrayLen(int s, vector<int>& nums) {
@@ -20,12 +20,12 @@ public:
         return res == n+1 ? 0 : res;
     }
 };
-```
+// ```
 
 
-# 前缀和 + 二分
+// # 前缀和 + 二分
 
-```c++ []
+// ```c++ []
 class Solution {
 private:
     int binaryFind(const vector<int>& sums, int end, int x) {
@@ -55,4 +55,4 @@ public:
         return res == INT_MAX ? 0 : res;
     }
 };
-```
+// ```

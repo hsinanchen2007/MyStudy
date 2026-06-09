@@ -1,10 +1,10 @@
-### 解题思路
-先遍历，找到车的位置后break；
-分别向四个方向探索：1.找到象，break；2.找到车，加加，break；3.啥也没找，继续找；
+// ### 解题思路
+// 先遍历，找到车的位置后break；
+// 分别向四个方向探索：1.找到象，break；2.找到车，加加，break；3.啥也没找，继续找；
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int numRookCaptures(char** board, int boardSize, int* boardColSize){
     int i=0,j=0,ii,flag,sum;
     sum=0;flag=0;
@@ -51,4 +51,4 @@ int numRookCaptures(char** board, int boardSize, int* boardColSize){
     }
     return sum;
 }
-```
+// ```

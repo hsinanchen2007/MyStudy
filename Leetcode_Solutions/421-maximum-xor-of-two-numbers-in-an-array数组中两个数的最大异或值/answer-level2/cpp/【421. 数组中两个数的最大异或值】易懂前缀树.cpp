@@ -1,8 +1,8 @@
-## 思路一：Trie树
-1. 构建前缀树
-2. 对每个数在前缀树中查找异或最大值
-### 代码
-```c++
+// ## 思路一：Trie树
+// 1. 构建前缀树
+// 2. 对每个数在前缀树中查找异或最大值
+// ### 代码
+// ```c++
 struct TrieNode {
     TrieNode *children[2];
     TrieNode() {
@@ -50,4 +50,4 @@ public:
 private:
     TrieNode *root;
 };
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-`nums[j-1] = nums[j];`
-只需要向前移动即可，不需要交换。
+// ### 解题思路
+// `nums[j-1] = nums[j];`
+// 只需要向前移动即可，不需要交换。
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 public class Solution {
     public int removeElement(int[] nums, int val) {
         int len = nums.length;
@@ -31,4 +31,4 @@ public class Solution {
 
 }
 
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def printNumbers(self, n: int) -> List[int]:
         # 1:直接导入pow
@@ -30,4 +30,4 @@ class Solution:
         for i in range(1, int(N)):
             ans.append(i)
         return ans    
-```
+# ```

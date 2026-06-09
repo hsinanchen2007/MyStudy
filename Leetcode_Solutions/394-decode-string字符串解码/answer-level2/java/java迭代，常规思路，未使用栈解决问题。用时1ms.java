@@ -1,14 +1,14 @@
-### 解题思路
-①   找到第一对匹配的括号开始和结束的索引位置
-②   从"["括号的开始位置向前扫描，找到数字出现的起始坐标
-③   把出现在数字之前的字符复制到StringBuilder中
-④   复制括号中的字符到StringBuilder中
-⑤   复制"]"括号后的字符到StringBuilder中
-⑥   s赋值为StringBuilder中的字符串，并将StringBuilder清空，重复上述过程，指导s字符串中找不到括号为止；
+// ### 解题思路
+// ①   找到第一对匹配的括号开始和结束的索引位置
+// ②   从"["括号的开始位置向前扫描，找到数字出现的起始坐标
+// ③   把出现在数字之前的字符复制到StringBuilder中
+// ④   复制括号中的字符到StringBuilder中
+// ⑤   复制"]"括号后的字符到StringBuilder中
+// ⑥   s赋值为StringBuilder中的字符串，并将StringBuilder清空，重复上述过程，指导s字符串中找不到括号为止；
 
-### 代码
+// ### 代码
 
-```java
+// ```java
     public String decodeString(String s) {
         StringBuilder sb = new StringBuilder();
         while (s.indexOf("[") != -1) {  //当字符串中未不再有括号时，说明已经编码完成，退出循环
@@ -41,4 +41,4 @@
         }
         return s;
     }
-```
+// ```

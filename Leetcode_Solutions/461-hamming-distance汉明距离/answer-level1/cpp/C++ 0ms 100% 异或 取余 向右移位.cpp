@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int hammingDistance(int x, int y) {
@@ -12,4 +12,4 @@ public:
         return res;
     }
 };
-```
+// ```

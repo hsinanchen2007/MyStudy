@@ -1,21 +1,21 @@
-### 解题思路
+// ### 解题思路
 
-大家好，我是 17
+// 大家好，我是 17
 
-二分法重要是要熟练，虽然原理简单，但是写起每次写对不容易，边界问题不好处理。
-所以需要记一套模板，代码中用的就是我用的模板，二分中我只做搜索，不处理任何别的逻辑。
+// 二分法重要是要熟练，虽然原理简单，但是写起每次写对不容易，边界问题不好处理。
+// 所以需要记一套模板，代码中用的就是我用的模板，二分中我只做搜索，不处理任何别的逻辑。
 
-```javascript
+// ```javascript
 if (this.data[mid][0] >= end) {
       high = mid
 }
-```
+// ```
 
-因为是左半右开（左值大于等于，右值小于），上面的限定 一定会把low限定到 插入位置。
+// 因为是左半右开（左值大于等于，右值小于），上面的限定 一定会把low限定到 插入位置。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var MyCalendar = function () {
   this.data = []
 };
@@ -52,4 +52,4 @@ MyCalendar.prototype.book = function (start, end) {
  * var obj = new MyCalendar()
  * var param_1 = obj.book(start,end)
  */
-```
+// ```

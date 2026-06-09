@@ -1,6 +1,6 @@
-![E74F575D-4ABE-493E-A4F1-138C78B80DBF.jpeg](https://pic.leetcode-cn.com/1aeb2022cc098aeb1495fd2245175f9f3bee31fe64c6098be00d84e49845840e-E74F575D-4ABE-493E-A4F1-138C78B80DBF.jpeg)
+// ![E74F575D-4ABE-493E-A4F1-138C78B80DBF.jpeg](https://pic.leetcode-cn.com/1aeb2022cc098aeb1495fd2245175f9f3bee31fe64c6098be00d84e49845840e-E74F575D-4ABE-493E-A4F1-138C78B80DBF.jpeg)
 
-```
+// ```
 #define STRCOUNT 256
 
 struct HashEntry {
@@ -106,4 +106,4 @@ int* findSubstring(char * s, char ** words, int wordsSize, int* returnSize){
     FreeHash();
     return returnArray;
 }
-```
+// ```

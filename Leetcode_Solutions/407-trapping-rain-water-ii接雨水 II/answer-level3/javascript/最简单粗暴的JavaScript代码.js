@@ -1,7 +1,7 @@
-![a.png](https://pic.leetcode-cn.com/2e2258b1fde841906b00aafe38a752d405fdd311f29100eb73b7dc5f7773134c-a.png)
+// ![a.png](https://pic.leetcode-cn.com/2e2258b1fde841906b00aafe38a752d405fdd311f29100eb73b7dc5f7773134c-a.png)
 
-就是将内层数组元素的高度提高到初始数组的最高高度，然后遍历内层的数组元素的上下左右的元素的高度，算出当前元素的最高高度，用while循环遍历，当一个循环内的所有元素的高度都不会变化，则认为已经结束，计算增加的高度及储水量。
-```
+// 就是将内层数组元素的高度提高到初始数组的最高高度，然后遍历内层的数组元素的上下左右的元素的高度，算出当前元素的最高高度，用while循环遍历，当一个循环内的所有元素的高度都不会变化，则认为已经结束，计算增加的高度及储水量。
+// ```
 /**
  * @param {number[][]} heightMap
  * @return {number}
@@ -98,5 +98,5 @@ var trapRainWater = function(heightMap) {
     }
     return num;
 };
-```
+// ```
 

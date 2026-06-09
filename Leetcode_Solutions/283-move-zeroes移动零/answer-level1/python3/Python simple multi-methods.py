@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def moveZeroes(self, nums: List[int]) -> None:
         """
@@ -55,4 +55,4 @@ class Solution:
             nums[i] = n
         for i in range(i+1,len(nums)):
             nums[i] = 0
-```
+# ```

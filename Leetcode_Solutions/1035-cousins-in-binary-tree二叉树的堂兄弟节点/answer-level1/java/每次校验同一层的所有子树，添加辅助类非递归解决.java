@@ -1,10 +1,10 @@
-### 解题思路
-添加辅助类Tree，存储一个子树，并且使用Queue<Tree>,一直迭代遍历当前层的所有子树进行解决。
-内存消耗很大，属实笨比解法。。。
+// ### 解题思路
+// 添加辅助类Tree，存储一个子树，并且使用Queue<Tree>,一直迭代遍历当前层的所有子树进行解决。
+// 内存消耗很大，属实笨比解法。。。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -71,4 +71,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

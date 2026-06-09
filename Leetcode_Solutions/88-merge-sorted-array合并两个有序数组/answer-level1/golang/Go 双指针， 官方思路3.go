@@ -1,9 +1,9 @@
-### 解题思路
-Go 双指针， 官方思路3
-O(m+n) O(1)
-### 代码
+// ### 解题思路
+// Go 双指针， 官方思路3
+// O(m+n) O(1)
+// ### 代码
 
-```golang
+// ```golang
 func merge(nums1 []int, m int, nums2 []int, n int)  {
     p1, p2, p := m-1, n-1, m+n-1
     for p1 >=0 || p2 >= 0 {
@@ -26,4 +26,4 @@ func merge(nums1 []int, m int, nums2 []int, n int)  {
         }
     }
 }
-```
+// ```

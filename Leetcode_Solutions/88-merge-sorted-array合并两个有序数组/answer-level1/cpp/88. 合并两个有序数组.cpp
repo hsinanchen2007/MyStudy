@@ -1,5 +1,5 @@
-## 把两数组末端的元素放到nums1的后面 100%
-```
+// ## 把两数组末端的元素放到nums1的后面 100%
+// ```
 class Solution {
 public:
     void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
@@ -14,9 +14,9 @@ public:
         while(j>=0) nums1[no--] = nums2[j--];
     }
 };
-```
-## 利用辅助vector
-```
+// ```
+// ## 利用辅助vector
+// ```
 class Solution {
 public:
     void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
@@ -45,9 +45,9 @@ public:
         }
     }
 };
-```
-## 直接放到一块排序
-```
+// ```
+// ## 直接放到一块排序
+// ```
 class Solution {
 public:
     void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
@@ -57,4 +57,4 @@ public:
         sort(nums1.begin(), nums1.end());
     }
 };
-```
+// ```

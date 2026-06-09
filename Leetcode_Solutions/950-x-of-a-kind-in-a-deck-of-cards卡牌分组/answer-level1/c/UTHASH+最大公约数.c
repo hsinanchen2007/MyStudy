@@ -1,11 +1,11 @@
-### 解题思路
-只是想用用UTHASH，然后求出最大公约数，判断公约数的值是否大于1即可。
-哈希在C里面一直都是困难的存在，UTHASH还是不错的。方便，多练习。
+// ### 解题思路
+// 只是想用用UTHASH，然后求出最大公约数，判断公约数的值是否大于1即可。
+// 哈希在C里面一直都是困难的存在，UTHASH还是不错的。方便，多练习。
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int gcd(int a, int b) {
     return b ? gcd(b, a%b) : a;
 }
@@ -56,4 +56,4 @@ bool hasGroupsSizeX(int* deck, int deckSize){
 
     return (ret > 1)?true:false;
 }
-```
+// ```

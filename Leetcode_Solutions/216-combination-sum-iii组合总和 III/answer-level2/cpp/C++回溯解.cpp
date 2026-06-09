@@ -1,9 +1,9 @@
-### 解题思路
-选或不选，这是个问题
+// ### 解题思路
+// 选或不选，这是个问题
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	int target;
@@ -31,4 +31,4 @@ public:
         return result;
     }
 }; 
-```
+// ```

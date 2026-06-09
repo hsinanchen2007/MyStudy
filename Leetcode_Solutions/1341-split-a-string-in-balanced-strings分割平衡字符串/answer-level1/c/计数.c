@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int balancedStringSplit(char * s){
     int sum = 0,cnt = 0;
     for(int i = 0;i < strlen(s);i++){
@@ -15,4 +15,4 @@ int balancedStringSplit(char * s){
 }
 
 
-```
+// ```

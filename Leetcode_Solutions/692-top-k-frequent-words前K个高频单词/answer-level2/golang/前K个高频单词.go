@@ -1,9 +1,9 @@
-### 解题思路
-最小堆
+// ### 解题思路
+// 最小堆
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 //	692
 func topKFrequent(words []string, k int) []string {
@@ -65,4 +65,4 @@ func (pq *WordCntMinHeap) Peek() WordCnt {
 	return (*pq)[0]
 }
 
-```
+// ```

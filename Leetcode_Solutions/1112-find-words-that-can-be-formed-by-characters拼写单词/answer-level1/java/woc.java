@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int countCharacters(String[] words, String chars) {
         int num = words.length;
@@ -29,4 +29,4 @@ class Solution {
         return count;
         }
 }
-```![QQ图片20200317215831.png](https://pic.leetcode-cn.com/981e8b5f45fbc57482031a844ad35973edb74b754dda3a4a47bde673243df457-QQ%E5%9B%BE%E7%89%8720200317215831.png)
+// ```![QQ图片20200317215831.png](https://pic.leetcode-cn.com/981e8b5f45fbc57482031a844ad35973edb74b754dda3a4a47bde673243df457-QQ%E5%9B%BE%E7%89%8720200317215831.png)

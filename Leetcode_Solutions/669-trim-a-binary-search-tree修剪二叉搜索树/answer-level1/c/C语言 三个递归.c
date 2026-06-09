@@ -1,10 +1,10 @@
-### 解题思路
-先找根，再裁剪左树，最后裁剪右树
-![image.png](https://pic.leetcode-cn.com/f87abb6b7c3ee8164c0960f71a202639d5be9b20ba1791461cf1c34f37a4258e-image.png)
+// ### 解题思路
+// 先找根，再裁剪左树，最后裁剪右树
+// ![image.png](https://pic.leetcode-cn.com/f87abb6b7c3ee8164c0960f71a202639d5be9b20ba1791461cf1c34f37a4258e-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -60,4 +60,4 @@ struct TreeNode* trimBST(struct TreeNode* root, int L, int R){
     trimRight(newRoot, R);
     return newRoot;
 }
-```
+// ```

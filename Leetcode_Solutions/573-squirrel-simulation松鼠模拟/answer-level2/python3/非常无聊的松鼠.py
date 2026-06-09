@@ -1,7 +1,7 @@
-松鼠任选一个坚果作为第一个取的坚果，则
-总移动距离=松鼠到该坚果的距离+树到该坚果的距离+其他坚果到树的距离*2
-感觉还能优化吧。。。。
-```python
+# 松鼠任选一个坚果作为第一个取的坚果，则
+# 总移动距离=松鼠到该坚果的距离+树到该坚果的距离+其他坚果到树的距离*2
+# 感觉还能优化吧。。。。
+# ```python
 from math import fabs
 class Solution:
     def minDistance(self, height: int, width: int, tree: List[int], squirrel: List[int], nuts: List[List[int]]) -> int:
@@ -14,4 +14,4 @@ class Solution:
             res = squ_nut_res[i] + nut_tree_res[i] + 2*sum(tmp)
             min_res = min(res, min_res)
         return int(min_res)
-```
+# ```

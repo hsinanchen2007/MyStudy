@@ -1,10 +1,10 @@
-### 解题思路
-用collections.Counter(A)记录各元素个数。
-然后遍历列表，当i/2不在count时在进行操作。即从最底层开始，找2*i
+# ### 解题思路
+# 用collections.Counter(A)记录各元素个数。
+# 然后遍历列表，当i/2不在count时在进行操作。即从最底层开始，找2*i
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def canReorderDoubled(self, A: List[int]) -> bool:
         count=collections.Counter(A)
@@ -24,4 +24,4 @@ class Solution:
                         i*=2
                 if i in count:return False
         return True
-```
+# ```

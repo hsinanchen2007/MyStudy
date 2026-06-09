@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def lengthOfLastWord(self, s: str) -> int:
         if not s or not s.strip(): return 0
@@ -12,4 +12,4 @@ class Solution:
             flag = 1
         return count
 
-```
+# ```

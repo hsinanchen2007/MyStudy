@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool canPlaceFlowers(int *flowerbed, int flowerbedSize, int n)
 {
 	int loop;
@@ -44,4 +44,4 @@ bool canPlaceFlowers(int *flowerbed, int flowerbedSize, int n)
 
 	return false;
 }
-```
+// ```

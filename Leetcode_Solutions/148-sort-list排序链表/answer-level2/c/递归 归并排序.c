@@ -1,6 +1,6 @@
-执行用时 : 12 ms, 在所有 c 提交中击败了100.00%的用户
-内存消耗 : 9.9 MB, 在所有 c 提交中击败了96.67%的用户
-```
+// 执行用时 : 12 ms, 在所有 c 提交中击败了100.00%的用户
+// 内存消耗 : 9.9 MB, 在所有 c 提交中击败了96.67%的用户
+// ```
 struct ListNode* sortListCore(struct ListNode*, int);
 
 struct ListNode* sortList(struct ListNode* head){
@@ -73,7 +73,7 @@ struct ListNode* sortListCore(struct ListNode* head, int size)
 	return returnList;
     
 }
-```
-一开始没有用NULL把链表断开，导致最后的while循环无法终止。
+// ```
+// 一开始没有用NULL把链表断开，导致最后的while循环无法终止。
 
-不过我不是很清楚，在递归调用中，没有分配内存，空间复杂度是怎么算的。栈的空间算不算进去。
+// 不过我不是很清楚，在递归调用中，没有分配内存，空间复杂度是怎么算的。栈的空间算不算进去。

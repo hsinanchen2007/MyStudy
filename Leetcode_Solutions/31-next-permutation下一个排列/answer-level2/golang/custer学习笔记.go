@@ -1,4 +1,4 @@
-```go
+// ```go
 func nextPermutation(nums []int) {
     if nums == nil || len(nums) < 2 {
         return // 数组为空或数组元素少于2个直接返回无需处理
@@ -19,4 +19,4 @@ func nextPermutation(nums []int) {
         nums[i], nums[j] = nums[j], nums[i]
     }
 }
-```
+// ```

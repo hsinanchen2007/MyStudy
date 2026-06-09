@@ -1,9 +1,9 @@
-#### 解题思路
-&emsp;&emsp;题目给出的是数据是一个人的出身年和死亡年，然后让我们根据这2组数据判断那个年份的存活人数最多。如果直接从这两个数据入手确实比较麻烦。
-&emsp;&emsp;我们不妨换个角度思考，如果给出的是当前年份的累计总出生人数和累计总死亡人数，那么我们只需要简单做差即可得到总存活人数。
-&emsp;&emsp;通过统计我们可以得出对应年份的出生人数和死亡人数，然后将其累加便可以得到对应年份的累计总出生人数和累计总死亡人数。
-#### 代码
-```c++ []
+// #### 解题思路
+// &emsp;&emsp;题目给出的是数据是一个人的出身年和死亡年，然后让我们根据这2组数据判断那个年份的存活人数最多。如果直接从这两个数据入手确实比较麻烦。
+// &emsp;&emsp;我们不妨换个角度思考，如果给出的是当前年份的累计总出生人数和累计总死亡人数，那么我们只需要简单做差即可得到总存活人数。
+// &emsp;&emsp;通过统计我们可以得出对应年份的出生人数和死亡人数，然后将其累加便可以得到对应年份的累计总出生人数和累计总死亡人数。
+// #### 代码
+// ```c++ []
 class Solution {
 public:
     int maxAliveYear(vector<int>& birth, vector<int>& death) {
@@ -34,8 +34,8 @@ public:
         return ret + 1900;
     }
 };
-```
-```java []
+// ```
+// ```java []
 class Solution {
     public int maxAliveYear(int[] birth, int[] death) {
         int [] add = new int[101];
@@ -62,8 +62,8 @@ class Solution {
         return ret + 1900;
     }
 }
-```
-```javascript []
+// ```
+// ```javascript []
 var maxAliveYear = function(birth, death) {
     let add = new Array(101).fill(0),
         diff = new Array(101).fill(0),
@@ -92,4 +92,4 @@ var maxAliveYear = function(birth, death) {
     }
     return ret + 1900;
 };
-```
+// ```

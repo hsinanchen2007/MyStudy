@@ -1,4 +1,4 @@
-```go
+// ```go
 func hasValidPath(grid [][]int) bool {
     m, n := len(grid)*3, len(grid[0])*3
     newGrid := make([][]bool, m)
@@ -45,4 +45,4 @@ func dfs(i, j, m, n int, grid [][]bool) bool {
     return dfs(i-1, j, m, n, grid) || dfs(i, j-1, m, n, grid) ||
         dfs(i+1, j, m, n, grid) || dfs(i, j+1, m, n, grid)
 }
-```
+// ```

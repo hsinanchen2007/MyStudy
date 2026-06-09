@@ -1,5 +1,5 @@
 
-```javascript
+// ```javascript
 var findDuplicate = function(paths) {
     const contentMap = {}
     const reg = /^([0-9a-zA-Z]+\.txt)\((\w+)\)$/
@@ -18,6 +18,6 @@ var findDuplicate = function(paths) {
     }
     return result
 };
-```
-执行用时 :152 ms , 在所有 JavaScript 提交中击败了 94.74% 的用户
-内存消耗 :58.2 MB, 在所有 JavaScript 提交中击败了 88.89% 的用户
+// ```
+// 执行用时 :152 ms , 在所有 JavaScript 提交中击败了 94.74% 的用户
+// 内存消耗 :58.2 MB, 在所有 JavaScript 提交中击败了 88.89% 的用户

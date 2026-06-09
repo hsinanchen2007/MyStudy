@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int add_string(char* res,int count,char tar,int i) // 生成字符函数，返回下标
 {
     res[i] = count + 48; // 写入重复次数
@@ -43,4 +43,4 @@ char * countAndSay(int n){
     }
     return res;
 }
-```
+// ```

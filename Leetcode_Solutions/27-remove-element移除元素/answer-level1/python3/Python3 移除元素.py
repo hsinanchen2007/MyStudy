@@ -1,5 +1,5 @@
-时间复杂度O(n), 空间复杂度O(1)
-```
+# 时间复杂度O(n), 空间复杂度O(1)
+# ```
 class Solution:
     def removeElement(self, nums: List[int], val: int) -> int:
         i = 0
@@ -11,4 +11,4 @@ class Solution:
                 continue
             i += 1
         return len(nums)
-```
+# ```

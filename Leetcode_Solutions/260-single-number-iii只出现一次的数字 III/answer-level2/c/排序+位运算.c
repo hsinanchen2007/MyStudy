@@ -1,9 +1,9 @@
-### 解题思路
-先qsort排序，再异或运算，将不为0的取出即可。
+// ### 解题思路
+// 先qsort排序，再异或运算，将不为0的取出即可。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -33,4 +33,4 @@ int* singleNumber(int* nums, int numsSize, int* returnSize){
     }
     return res;
 }
-```
+// ```

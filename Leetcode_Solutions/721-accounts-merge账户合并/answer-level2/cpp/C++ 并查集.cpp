@@ -1,8 +1,8 @@
-### 解题思路
-笨办法。
-### 代码
+// ### 解题思路
+// 笨办法。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int find(int x,vector<int> &parent){
@@ -45,4 +45,4 @@ public:
         return ans;
     }
 };
-```
+// ```

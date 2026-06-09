@@ -1,4 +1,4 @@
-```
+// ```
 struct TreeNode* buildTree(int* inorder, int inorderSize, int* postorder, int postorderSize){
     if (inorderSize == 0)   // 长度为空
            return NULL;
@@ -23,4 +23,4 @@ struct TreeNode* buildTree(int* inorder, int inorderSize, int* postorder, int po
     root->right = buildTree(inorder + inorderSize - i, i, postorder + postorderSize - i - 1, i);
     return root;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-一种笨拙的方法，使用Stack存储还未计算过tilt的节点，用递归方法来计算节点的tilt以及左右子树的和。
+// ### 解题思路
+// 一种笨拙的方法，使用Stack存储还未计算过tilt的节点，用递归方法来计算节点的tilt以及左右子树的和。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -57,4 +57,4 @@ class Solution {
         return root.val + treeSum( root.left ) + treeSum( root.right );
     }
 }
-```
+// ```

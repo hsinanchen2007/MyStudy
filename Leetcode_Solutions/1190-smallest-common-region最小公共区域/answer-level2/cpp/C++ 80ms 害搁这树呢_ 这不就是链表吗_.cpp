@@ -1,5 +1,5 @@
-Intersection of 2 linked lists
-```
+// Intersection of 2 linked lists
+// ```
 class Solution {
 public:
     string findSmallestRegion(vector<vector<string>>& regions, string &r1, string &r2) {
@@ -22,4 +22,4 @@ public:
         return p;
     }
 };
-```
+// ```

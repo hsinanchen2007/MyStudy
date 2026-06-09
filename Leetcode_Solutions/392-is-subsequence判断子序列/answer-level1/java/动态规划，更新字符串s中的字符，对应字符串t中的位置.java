@@ -1,9 +1,9 @@
-### 解题思路
-用动态规划的思想，此时需要保存的值是字符串s中的第i个字符，对应于字符串t中对应的第j个字符，保存为position，之后更新position即可。
+// ### 解题思路
+// 用动态规划的思想，此时需要保存的值是字符串s中的第i个字符，对应于字符串t中对应的第j个字符，保存为position，之后更新position即可。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isSubsequence(String s, String t) {
         boolean flag;
@@ -24,4 +24,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

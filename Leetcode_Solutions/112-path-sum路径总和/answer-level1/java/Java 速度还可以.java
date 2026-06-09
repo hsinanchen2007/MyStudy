@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -30,4 +30,4 @@ class Solution {
         return hasPathSumR(root.left,sum-root.val)||hasPathSumR(root.right,sum-root.val);
     }
 }
-```
+// ```

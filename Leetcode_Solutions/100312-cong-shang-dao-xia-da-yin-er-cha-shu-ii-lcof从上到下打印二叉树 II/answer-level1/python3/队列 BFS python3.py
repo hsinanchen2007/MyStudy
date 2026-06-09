@@ -1,6 +1,6 @@
-### 方法一
+# ### 方法一
 
-```python
+# ```python
 from collections import deque
 class Solution:
     # 方法一，增加一个变量，len_level记录一层节点的数量，一层一层打
@@ -22,10 +22,10 @@ class Solution:
                 if node.right:
                     queue.append(node.right)
         return levels
-```
-### 方法二
+# ```
+# ### 方法二
 
-```python
+# ```python
     # 方法二（jian指offer）增加2个变量，toBePrinted要打的节点数和nextLevel下一层的节点数
     def levelOrder(self, root: TreeNode) -> List[List[int]]:
         if not root:
@@ -53,9 +53,9 @@ class Solution:
                 nextLevel += 1 ## 孩子非空，nextLevel 加1    
 
         return res
-```
-### 方法三：递归
-```python
+# ```
+# ### 方法三：递归
+# ```python
     # 方法三，递归
     def levelOrder(self, root: TreeNode) -> List[List[int]]:
         if not root:
@@ -73,4 +73,4 @@ class Solution:
             dfs(node.right, level+1)
         dfs(root, 0)
         return res
-```
+# ```

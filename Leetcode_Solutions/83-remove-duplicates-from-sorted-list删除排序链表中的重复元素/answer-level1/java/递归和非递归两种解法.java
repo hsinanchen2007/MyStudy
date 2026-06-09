@@ -1,4 +1,4 @@
-```java
+// ```java
 public ListNode deleteDuplicates1(ListNode head) {
         if (head == null || head.next == null) {
             return head;
@@ -31,5 +31,5 @@ public ListNode deleteDuplicates1(ListNode head) {
         return head;
 
     }
-```
-# [更多leetcode题解写在本人博客](http://51leetcode.top/tags?tag=leetcode)
+// ```
+// # [更多leetcode题解写在本人博客](http://51leetcode.top/tags?tag=leetcode)

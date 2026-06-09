@@ -1,11 +1,11 @@
-### 解题思路
-想到了快排法，但是也没想用sort函数。
-哈希法可以用set  count函数就是查找是否存在了，因为set中，count函数只能返回1 或0.
-答案应该是用异或 。
+// ### 解题思路
+// 想到了快排法，但是也没想用sort函数。
+// 哈希法可以用set  count函数就是查找是否存在了，因为set中，count函数只能返回1 或0.
+// 答案应该是用异或 。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
@@ -55,4 +55,4 @@ public:
 
     }
 };
-```
+// ```

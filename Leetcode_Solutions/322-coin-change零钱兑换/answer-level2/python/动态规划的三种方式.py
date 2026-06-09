@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-关键的动态转义方程为 dp[i] = min(min(dp[i], 1+dp[i-coin])), 其中coin属于coins
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 关键的动态转义方程为 dp[i] = min(min(dp[i], 1+dp[i-coin])), 其中coin属于coins
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def coinChange(self, coins, amount):
         """
@@ -63,4 +63,4 @@ class Solution(object):
                 memo[a] = min(memo[a], 1 + memo[a - coin])
 
         return memo[amount] if memo[amount] != float('inf') else -1
-```
+# ```

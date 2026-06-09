@@ -1,9 +1,9 @@
-### 解题思路
-和斐波纳挈数列求解一模一样。。。。
+// ### 解题思路
+// 和斐波纳挈数列求解一模一样。。。。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numWays(int n) {
         if(n == 0) {
@@ -21,4 +21,4 @@ class Solution {
         return drop[n];
     }
 }
-```
+// ```

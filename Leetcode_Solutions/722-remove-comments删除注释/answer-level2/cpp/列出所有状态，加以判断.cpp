@@ -1,10 +1,10 @@
 
-![image.png](https://pic.leetcode-cn.com/fb4fb70ea5151300f280ce8d7bde8faf46d0408b65040ef4dbcecef4edc71696-image.png)
+// ![image.png](https://pic.leetcode-cn.com/fb4fb70ea5151300f280ce8d7bde8faf46d0408b65040ef4dbcecef4edc71696-image.png)
 
-### 解题思路
-#### 注释大概分如下几类：
+// ### 解题思路
+// #### 注释大概分如下几类：
 
-```cpp
+// ```cpp
 // 注释一
 
 /* 注释二 */
@@ -19,11 +19,11 @@ a = b + c; /* .....
 .......注释五.。.....
 ....*/ if (b == c)
 
-```
+// ```
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> removeComments(vector<string>& source) {
@@ -75,4 +75,4 @@ private:
         return ret;
     }
 };
-```
+// ```

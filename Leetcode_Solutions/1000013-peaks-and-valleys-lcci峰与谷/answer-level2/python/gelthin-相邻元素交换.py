@@ -1,25 +1,25 @@
-### 解题思路
-参看校友大佬的解法 [O(n)时间复杂度](https://leetcode-cn.com/problems/peaks-and-valleys-lcci/solution/onshi-jian-fu-za-du-by-jerry_nju/)
+# ### 解题思路
+# 参看校友大佬的解法 [O(n)时间复杂度](https://leetcode-cn.com/problems/peaks-and-valleys-lcci/solution/onshi-jian-fu-za-du-by-jerry_nju/)
 
-这题真的很奇妙， 解答中可以强制奇数位为峰或者谷，两种都可以实现。都不知道测试样例是如何判定的。
-另外对于相同的元素，既可以算是峰，也可以算是谷，无需处理。
+# 这题真的很奇妙， 解答中可以强制奇数位为峰或者谷，两种都可以实现。都不知道测试样例是如何判定的。
+# 另外对于相同的元素，既可以算是峰，也可以算是谷，无需处理。
 
-现假设 a > b ? c ? d ? ...
+# 现假设 a > b ? c ? d ? ...
 
-经过第一次交换后，得到 b<a ? c ? d? ...
-+ 若 a>c， 则有 b< a > c ? d ? ...， 无需处理 a 和 c
-+ 若 a<c, 推出 b<a<c?d?..., 则交换 a,c 得到 b<c>a?d?...
+# 经过第一次交换后，得到 b<a ? c ? d? ...
+# + 若 a>c， 则有 b< a > c ? d ? ...， 无需处理 a 和 c
+# + 若 a<c, 推出 b<a<c?d?..., 则交换 a,c 得到 b<c>a?d?...
 
-到这里，前两位已经处理好，接下来处理 > c?d?... or  > a?d?... 
+# 到这里，前两位已经处理好，接下来处理 > c?d?... or  > a?d?... 
 
-+ 若 c<d  或者 a < d, 则在往后一位，无需处理
-+ 若 c>d 或者 a>d, 则需要交换 c d 或者 a d
+# + 若 c<d  或者 a < d, 则在往后一位，无需处理
+# + 若 c>d 或者 a>d, 则需要交换 c d 或者 a d
 
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def wiggleSort(self, nums: List[int]) -> None:
         """
@@ -37,4 +37,4 @@ class Solution:
                 nums[i-1], nums[i] = nums[i], nums[i-1] # 交换两者的值
         
 
-```
+# ```

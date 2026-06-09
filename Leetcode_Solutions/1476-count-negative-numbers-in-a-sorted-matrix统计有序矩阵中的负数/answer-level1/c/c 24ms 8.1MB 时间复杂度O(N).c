@@ -1,9 +1,9 @@
 
-注意观察例1
-![1583326485(1).jpg](https://pic.leetcode-cn.com/ec71a42985d5a16f53d6e8fc93ec6149c14b8702e7cc2d2acacc2739ff640d98-1583326485\(1\).jpg)
+// 注意观察例1
+// ![1583326485(1).jpg](https://pic.leetcode-cn.com/ec71a42985d5a16f53d6e8fc93ec6149c14b8702e7cc2d2acacc2739ff640d98-1583326485\(1\).jpg)
 
 
-```
+// ```
 /**
 *
 *整体思路：（每一行满足递减，每一列也满足递减）
@@ -55,4 +55,4 @@ int countNegatives( int ** grid , int gridSize , int * gridColSize){
     return count;
 
 }
-```
+// ```

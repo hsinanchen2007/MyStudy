@@ -1,6 +1,6 @@
-#### 双指针模型
+// #### 双指针模型
 
-```java
+// ```java
 class Solution {
     // 双指针
     public int findRadius(int[] houses, int[] heaters) {
@@ -31,10 +31,10 @@ class Solution {
         return res;
     }
 }
-```
+// ```
 
-#### 二分查找
-```java
+// #### 二分查找
+// ```java
 class Solution {
     // 二分查找
     public int findRadius(int[] houses, int[] heaters) {
@@ -79,4 +79,4 @@ class Solution {
         return -(low + 1);
     }
 }
-```
+// ```

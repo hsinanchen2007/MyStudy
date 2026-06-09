@@ -1,11 +1,11 @@
-### 解题思路
-输入的数位数会很大很大很大，所以不能把数组里的数提取出来加一再放回去。
+// ### 解题思路
+// 输入的数位数会很大很大很大，所以不能把数组里的数提取出来加一再放回去。
 
-通过一个链表栈可以完成操作
+// 通过一个链表栈可以完成操作
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -107,4 +107,4 @@ int* plusOne(int* digits, int digitsSize, int* returnSize){
 
     return result;
 }
-```
+// ```

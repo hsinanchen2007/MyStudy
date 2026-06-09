@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-按层次遍历，只不过输出的不是 数组 而是层级
+// 按层次遍历，只不过输出的不是 数组 而是层级
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -36,4 +36,4 @@ var maxDepth = function(root) {
 
     return level
 };
-```
+// ```

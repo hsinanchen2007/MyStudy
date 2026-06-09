@@ -1,8 +1,8 @@
-# 思路
-本题属于完全背包问题(每个物品的数量不受限制)，直接应用完全背包问题的基本解决思路就可以
+// # 思路
+// 本题属于完全背包问题(每个物品的数量不受限制)，直接应用完全背包问题的基本解决思路就可以
 
-# 代码
-```java
+// # 代码
+// ```java
 class Solution {
     public int minStickers(String[] stickers, String target) {
         int n = stickers.length, m = target.length();
@@ -29,4 +29,4 @@ class Solution {
         return dp[(1 << m) - 1];
     }
 }
-```
+// ```

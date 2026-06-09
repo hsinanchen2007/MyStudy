@@ -1,15 +1,15 @@
-### 解题思路
-此处撰写解题思路
-//到这算出来的left和right的平方是最接近x的
-所以用left或者是right都可以
-if left * left > x {
-		return left -1
-	} else {
-		return left
-	}
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// //到这算出来的left和right的平方是最接近x的
+// 所以用left或者是right都可以
+// if left * left > x {
+// 		return left -1
+// 	} else {
+// 		return left
+// 	}
+// ### 代码
 
-```golang
+// ```golang
 func mySqrt(x int) int {
       left,right := 0,x
 	if x <= 1 {
@@ -35,4 +35,4 @@ func mySqrt(x int) int {
 		return left
 	}
 }
-```
+// ```

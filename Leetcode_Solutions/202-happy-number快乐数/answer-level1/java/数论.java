@@ -1,9 +1,9 @@
-### 解题思路
-思路很清晰，往set里面添加元素，如果出现之前出现过的，那么肯定是死循环。不然就继续计算添加知道满足条件。
+// ### 解题思路
+// 思路很清晰，往set里面添加元素，如果出现之前出现过的，那么肯定是死循环。不然就继续计算添加知道满足条件。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isHappy(int n) {
         Set<Integer> set = new HashSet<>();
@@ -25,4 +25,4 @@ class Solution {
         }
     }
 }
-```
+// ```

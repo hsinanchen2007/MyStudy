@@ -1,4 +1,4 @@
-```
+// ```
 public static int SearchInsert(int[] nums, int target)
         {
             int length = nums.Length;
@@ -37,4 +37,4 @@ public static int SearchInsert(int[] nums, int target)
                 return searchNum(begin, (end + begin) / 2, nums, target);
             }
         }
-```
+// ```

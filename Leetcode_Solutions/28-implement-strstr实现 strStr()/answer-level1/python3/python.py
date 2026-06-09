@@ -1,5 +1,5 @@
-BM方法和什么KMP算法大家加油实现
-```py
+# BM方法和什么KMP算法大家加油实现
+# ```py
 # 方法一：内置函数法
 class Solution1:
     def strStr(self, haystack, needle):
@@ -68,4 +68,4 @@ class Solution4:
                     h_hash = h_hash - ord(haystack[i]) + ord(haystack[i + n])
 
             return -1
-```
+# ```

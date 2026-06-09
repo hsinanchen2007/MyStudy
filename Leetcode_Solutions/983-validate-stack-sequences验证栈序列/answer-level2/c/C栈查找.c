@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/1abaed1af28edb31c6b3f1172a2262d65a02fdf665743dc045edbcb42a79e076-image.png)
-思路：尝试pushed入栈， 遇到pushed[i] == popped[i]时跳过(因为popped[i]肯定没有入栈)；
-如果pushed[i] != popped[j]时，要检查popped[j]是否在栈顶上，如果在就出栈并且j++，继续检查popped[j]是否在栈顶上，一直到栈为空或者popped[j]不在栈顶上为止。再检查popped[j]是否在栈上，如果还在则说明序列不符合要求返回，否则把pushed[i]入栈后继续往后找新的元素。
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/1abaed1af28edb31c6b3f1172a2262d65a02fdf665743dc045edbcb42a79e076-image.png)
+// 思路：尝试pushed入栈， 遇到pushed[i] == popped[i]时跳过(因为popped[i]肯定没有入栈)；
+// 如果pushed[i] != popped[j]时，要检查popped[j]是否在栈顶上，如果在就出栈并且j++，继续检查popped[j]是否在栈顶上，一直到栈为空或者popped[j]不在栈顶上为止。再检查popped[j]是否在栈上，如果还在则说明序列不符合要求返回，否则把pushed[i]入栈后继续往后找新的元素。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool validateStackSequences(int* pushed, int pushedSize, int* popped, int poppedSize){
     //栈后进先出, 对于popped里的i位置的元素a[i]而言，在pushed里a[i]前面的元素的出栈顺利是固定的，但出栈的时机不定. 对i-1，pushed里a[i] ~ a[i - 1]的元素出栈顺序是固定的
 
@@ -64,4 +64,4 @@ bool validateStackSequences(int* pushed, int pushedSize, int* popped, int popped
 
     return retBool;
 }
-```
+// ```

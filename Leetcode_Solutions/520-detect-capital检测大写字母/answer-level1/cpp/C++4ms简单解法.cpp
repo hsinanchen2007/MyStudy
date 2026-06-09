@@ -1,4 +1,4 @@
-```c++ []
+// ```c++ []
 class Solution {
 public:
     bool detectCapitalUse(string word) {
@@ -9,4 +9,4 @@ public:
         else return 0;
     }
 };
-```
+// ```

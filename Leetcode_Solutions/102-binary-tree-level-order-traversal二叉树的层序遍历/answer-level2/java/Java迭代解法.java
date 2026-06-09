@@ -1,12 +1,12 @@
-这道题我觉得迭代的思路比较好理解。
+// 这道题我觉得迭代的思路比较好理解。
 
-从根节点开始，用`队列`存储每一层的节点，将这些节点的值存到结果中
+// 从根节点开始，用`队列`存储每一层的节点，将这些节点的值存到结果中
 
-同时取这些节点的左右儿子放到一个新的`队列`中，
+// 同时取这些节点的左右儿子放到一个新的`队列`中，
 
-然后用新队列更新原队列，再次遍历，不断循环得到结果。
+// 然后用新队列更新原队列，再次遍历，不断循环得到结果。
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> levelOrder(TreeNode root) {
         List<List<Integer>> res = new ArrayList<>();
@@ -40,11 +40,11 @@ class Solution {
         return res;
     }
 }
-```
+// ```
 
-当然还可以优化一下，如果每次记录好当前层的节点数，那么就可以控制遍历的次数，不需要用一个额外的`Queue`取存下一行的节点了。
+// 当然还可以优化一下，如果每次记录好当前层的节点数，那么就可以控制遍历的次数，不需要用一个额外的`Queue`取存下一行的节点了。
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> levelOrder(TreeNode root) {
         List<List<Integer>> res = new ArrayList<>();
@@ -69,4 +69,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

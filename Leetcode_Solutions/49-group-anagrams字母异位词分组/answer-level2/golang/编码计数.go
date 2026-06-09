@@ -1,9 +1,9 @@
-### 解题思路
-参考官方题解，关键是编码函数的书写。
+// ### 解题思路
+// 参考官方题解，关键是编码函数的书写。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func groupAnagrams(strs []string) [][]string {
     resultMap := map[string][]string{}
     for _, str := range strs {
@@ -34,4 +34,4 @@ func encode(input string) string {
     // 输出编码结果
     return buf.String()
 }
-```
+// ```

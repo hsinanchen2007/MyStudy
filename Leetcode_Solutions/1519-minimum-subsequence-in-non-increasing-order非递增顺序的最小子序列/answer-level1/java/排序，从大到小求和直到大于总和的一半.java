@@ -1,8 +1,8 @@
-- 排序
-- 求总和
-- 从后往前取大的值，直到和大于总和的一半
+// - 排序
+// - 求总和
+// - 从后往前取大的值，直到和大于总和的一半
 
-```
+// ```
 class Solution {
     public List<Integer> minSubsequence(int[] nums) {
         Arrays.sort(nums);
@@ -22,4 +22,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/657ca97ff856b0e018fa1c42f6ff3cc80ab63f1df8c257ec903ba052ab333123-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/657ca97ff856b0e018fa1c42f6ff3cc80ab63f1df8c257ec903ba052ab333123-image.png)
 
-最开始尝试将每个节点作为根节点，然后求出最短的那些。并用记忆法减少重复计算，但是事件复杂度过高。
-然后使用拖布排序，但是空间复杂度过高
-之后将邻接表从数组换成List<HashSet<Integer>>，总算做出来了。
-### 代码
+// 最开始尝试将每个节点作为根节点，然后求出最短的那些。并用记忆法减少重复计算，但是事件复杂度过高。
+// 然后使用拖布排序，但是空间复杂度过高
+// 之后将邻接表从数组换成List<HashSet<Integer>>，总算做出来了。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> findMinHeightTrees(int n, int[][] edges) {
         if(edges.length == 0) {
@@ -69,4 +69,4 @@ class Solution {
         System.out.printf("\r\n");
     }
 }
-```
+// ```

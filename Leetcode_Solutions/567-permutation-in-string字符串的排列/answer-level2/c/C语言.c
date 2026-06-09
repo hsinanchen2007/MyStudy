@@ -1,4 +1,4 @@
-```
+// ```
 bool checkInclusion(char * s1, char * s2){
     int len1=strlen(s1);
     int len2=strlen(s2);
@@ -30,4 +30,4 @@ bool checkInclusion(char * s1, char * s2){
     }
     return false;
 }
-```
+// ```

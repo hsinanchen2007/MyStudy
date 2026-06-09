@@ -1,9 +1,9 @@
-### 解题思路
-注意初始化1和防止重复计算两点即可
+# ### 解题思路
+# 注意初始化1和防止重复计算两点即可
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def movingCount(self, m, n, k):
         direction = [(0, 1), (1, 0)]
@@ -21,8 +21,8 @@ class Solution(object):
                             tmp.append([x, y])
             pos = tmp
         return ans
-```
+# ```
 
-运行结果：
-执行用时 :24 ms, 在所有 Python 提交中击败了99.35%的用户
-内存消耗 :13 MB, 在所有 Python 提交中击败了100.00%的用户
+# 运行结果：
+# 执行用时 :24 ms, 在所有 Python 提交中击败了99.35%的用户
+# 内存消耗 :13 MB, 在所有 Python 提交中击败了100.00%的用户

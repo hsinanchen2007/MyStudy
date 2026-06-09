@@ -1,6 +1,6 @@
-![屏幕快照 2019-10-05 上午11.19.22.png](https://pic.leetcode-cn.com/dc0cfca8d5cc4f38db4e6328e7dd802a5d090decc062fcb30e1efdecfb518fe6-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-10-05%20%E4%B8%8A%E5%8D%8811.19.22.png)
+// ![屏幕快照 2019-10-05 上午11.19.22.png](https://pic.leetcode-cn.com/dc0cfca8d5cc4f38db4e6328e7dd802a5d090decc062fcb30e1efdecfb518fe6-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-10-05%20%E4%B8%8A%E5%8D%8811.19.22.png)
 
-``` C++
+// ``` C++
 class Solution {
 public:
     vector<vector<int>> colorBorder(vector<vector<int>>& grid, int r0, int c0, int color) {
@@ -30,4 +30,4 @@ public:
         return res;
     }
 };
-```
+// ```

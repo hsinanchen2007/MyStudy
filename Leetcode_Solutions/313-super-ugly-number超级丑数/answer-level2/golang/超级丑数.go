@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func nthSuperUglyNumber(n int, primes []int) int {
 	uglyNums := make([]int, n)
 	uglyNums[0] = 1
@@ -32,4 +32,4 @@ func min(x, y int) int {
 	}
 	return x
 }
-```
+// ```

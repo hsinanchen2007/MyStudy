@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -60,4 +60,4 @@ int minDepth( struct TreeNode * root ){
     return min_depth < inf ? min_depth : 0;
 
 }
-```
+// ```

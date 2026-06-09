@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def nextGreaterElement(self, nums1, nums2):
         """
@@ -22,4 +22,4 @@ class Solution(object):
 
         return result
                   
-```
+# ```

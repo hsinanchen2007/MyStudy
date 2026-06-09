@@ -1,18 +1,18 @@
-### 转成字符串的做法:
+// ### 转成字符串的做法:
 
-将第一位 6 替换为 9:
+// 将第一位 6 替换为 9:
 
-```python
+// ```python
 class Solution:
     def maximum69Number (self, num: int) -> int:
         return int(str(num).replace('6', '9', 1))
-```
+// ```
 
-### 不转为字符串的做法
+// ### 不转为字符串的做法
 
-python:
+// python:
 
-```python
+// ```python
 class Solution:
     def maximum69Number (self, num: int) -> int:
         res = num
@@ -27,11 +27,11 @@ class Solution:
             n //= 10
 
         return res
-```
+// ```
 
-c++:
+// c++:
 
-```
+// ```
 class Solution {
 public:
     int maximum69Number (int num) {
@@ -46,4 +46,4 @@ public:
         return res;
     }
 };
-```
+// ```

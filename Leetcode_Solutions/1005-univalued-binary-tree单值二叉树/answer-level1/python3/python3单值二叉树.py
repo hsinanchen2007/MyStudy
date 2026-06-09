@@ -1,9 +1,9 @@
-### 解题思路
-递归判断子树的根节点是否与当前根节点值一致，若一致，则继续往下判断，否则输出FALSE。
+# ### 解题思路
+# 递归判断子树的根节点是否与当前根节点值一致，若一致，则继续往下判断，否则输出FALSE。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -30,6 +30,6 @@ class Solution:
                 return False
         else:
             return True
-```
+# ```
 
-![image.png](https://pic.leetcode-cn.com/f2df4f883097b7a3210a1ddf8a1a47f79bdcc7d5c7553ded38940a4c9d2861a5-image.png)
+# ![image.png](https://pic.leetcode-cn.com/f2df4f883097b7a3210a1ddf8a1a47f79bdcc7d5c7553ded38940a4c9d2861a5-image.png)

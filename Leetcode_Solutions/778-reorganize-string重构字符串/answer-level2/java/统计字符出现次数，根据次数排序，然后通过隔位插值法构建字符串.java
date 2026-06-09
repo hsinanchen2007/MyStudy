@@ -1,5 +1,5 @@
 
-```
+// ```
 class Solution {
     public String reorganizeString(String S) {
         //只包含小写字符
@@ -54,4 +54,4 @@ class Solution {
         return new String(temp);
     }
 }
-```
+// ```

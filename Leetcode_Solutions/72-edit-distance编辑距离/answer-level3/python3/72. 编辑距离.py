@@ -1,9 +1,9 @@
-### 解题思路
-动态规划：状态遍历dp[i][j]表示从word1[:i]到word2[:j]所需的最短操作数，状态转移方程则是当word1[i-1]与word[j-1]相同时，dp[i][j]=dp[i-1][j-1];否则，取dp[i-1][j]、dp[i-1][j-1]或dp[i][j-1]状态中操作数最少的那个+1。
+# ### 解题思路
+# 动态规划：状态遍历dp[i][j]表示从word1[:i]到word2[:j]所需的最短操作数，状态转移方程则是当word1[i-1]与word[j-1]相同时，dp[i][j]=dp[i-1][j-1];否则，取dp[i-1][j]、dp[i-1][j-1]或dp[i][j-1]状态中操作数最少的那个+1。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minDistance(self, word1: str, word2: str) -> int:
         len1 = len(word1)
@@ -25,4 +25,4 @@ class Solution:
                 else:
                     dp[i][j]=min(dp[i-1][j-1],dp[i-1][j],dp[i][j-1])+1
         return dp[len1][len2]
-```
+# ```

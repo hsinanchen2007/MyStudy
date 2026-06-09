@@ -1,9 +1,9 @@
-![LeetCode1001.jpg](https://pic.leetcode-cn.com/72951758502f718ff5fc472497d8cf6d2525ef7c6b998ac9dd47be55e8e60fbb-LeetCode1001.jpg)
+// ![LeetCode1001.jpg](https://pic.leetcode-cn.com/72951758502f718ff5fc472497d8cf6d2525ef7c6b998ac9dd47be55e8e60fbb-LeetCode1001.jpg)
 
-# 思路
-每一盏灯会影响到四个方向（横、竖、两条对角线），横、竖比较简单，就是row相等或col相等。两条对角线的规律是处在同一左对角线上是row+col相等，处在同一右对角线上的是row-col相等。因此，这里就可以定义4个map，key分别是row，col，row+col, row-col, value为某网格被照亮的次数（即可能被灯1照亮，可能被灯2照亮，只要照亮次数>=1，那么当前网格就是亮的）。后面询问完，有灭灯的操作，就把相应的次数减一即可。至于灭灯操作其实也比较简单，即遍历一遍3*3网格，看对应网格是否有灯，有灯就灭掉。具体代码如下：
+// # 思路
+// 每一盏灯会影响到四个方向（横、竖、两条对角线），横、竖比较简单，就是row相等或col相等。两条对角线的规律是处在同一左对角线上是row+col相等，处在同一右对角线上的是row-col相等。因此，这里就可以定义4个map，key分别是row，col，row+col, row-col, value为某网格被照亮的次数（即可能被灯1照亮，可能被灯2照亮，只要照亮次数>=1，那么当前网格就是亮的）。后面询问完，有灭灯的操作，就把相应的次数减一即可。至于灭灯操作其实也比较简单，即遍历一遍3*3网格，看对应网格是否有灯，有灯就灭掉。具体代码如下：
 
-```java
+// ```java
     private static final long MAX_NUM = 1000000000L;
 
     private Map<Integer, Integer> rowMap = new HashMap<>();
@@ -91,8 +91,8 @@
         return ansArr;
     }
 
-```
-# 复杂度分析
-假设灯的个数为N，询问次数为M，那么
-时间复杂度为O(N+M)
-空间复杂度为O(N+M)
+// ```
+// # 复杂度分析
+// 假设灯的个数为N，询问次数为M，那么
+// 时间复杂度为O(N+M)
+// 空间复杂度为O(N+M)

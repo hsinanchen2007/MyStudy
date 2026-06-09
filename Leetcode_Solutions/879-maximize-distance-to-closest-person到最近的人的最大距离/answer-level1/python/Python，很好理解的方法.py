@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def maxDistToClosest(self, seats):
         length = len(seats)
@@ -14,4 +14,4 @@ class Solution(object):
             if (turn[i+1] - turn[i])/2 > ans:
                 ans = (turn[i+1] - turn[i]) / 2
         return ans
-```
+# ```

@@ -1,4 +1,4 @@
-```MySQL
+-- ```MySQL
 SELECT 
     id,
     MAX(CASE
@@ -51,4 +51,4 @@ SELECT
         END) AS "Dec_Revenue"
 FROM Department
 GROUP BY id;
-```
+-- ```

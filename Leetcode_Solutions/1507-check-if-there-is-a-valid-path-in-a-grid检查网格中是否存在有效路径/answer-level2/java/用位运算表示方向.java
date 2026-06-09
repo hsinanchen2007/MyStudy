@@ -1,9 +1,9 @@
-### 解题思路
-用位运算表示方向，参考C++的那位用1，2，3，4表示方向的做法。详见注释
+// ### 解题思路
+// 用位运算表示方向，参考C++的那位用1，2，3，4表示方向的做法。详见注释
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean hasValidPath(int[][] grid) {
         byte[] valid = new byte[7];
@@ -55,4 +55,4 @@ class Solution {
     }
 
 };
-```
+// ```

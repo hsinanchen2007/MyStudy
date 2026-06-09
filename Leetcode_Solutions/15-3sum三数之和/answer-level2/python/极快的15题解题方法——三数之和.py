@@ -1,6 +1,6 @@
 
-直接上代码，详见博客——https://blog.csdn.net/TeFuirnever/article/details/89231965
-```py
+# 直接上代码，详见博客——https://blog.csdn.net/TeFuirnever/article/details/89231965
+# ```py
 class Solution:
     def threeSum(self, nums):
         """
@@ -28,4 +28,4 @@ class Solution:
                         result.append([i, j, dif])
         return result
 
-```
+# ```

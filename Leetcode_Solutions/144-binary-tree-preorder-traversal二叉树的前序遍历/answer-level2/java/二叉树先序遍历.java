@@ -1,6 +1,6 @@
-## 方法1 递归
+// ## 方法1 递归
 
-```java
+// ```java
 class Solution {
     public List<Integer> preorderTraversal(TreeNode root) {
         List<Integer> list = new ArrayList<>();
@@ -16,18 +16,18 @@ class Solution {
         }
     }
 }
-```
+// ```
 
-## 方法2 非递归
+// ## 方法2 非递归
 
-非递归的方法用stack 的方式来解。
+// 非递归的方法用stack 的方式来解。
 
-循环结束条件是stack 不为空，或者树不为空。
+// 循环结束条件是stack 不为空，或者树不为空。
 
-- stack不为空，代表遍历过根节点
-- root不为空，代表可以继续遍历左子树.
+// - stack不为空，代表遍历过根节点
+// - root不为空，代表可以继续遍历左子树.
 
-```java
+// ```java
 class Solution {
     public List<Integer> preorderTraversal(TreeNode root) {
         List<Integer> list = new ArrayList<>();        
@@ -51,6 +51,6 @@ class Solution {
         return list;
     }
 }
-```
+// ```
 
-知乎：[Leetcode名企之路](https://www.zhihu.com/people/ludaifei/activities)
+// 知乎：[Leetcode名企之路](https://www.zhihu.com/people/ludaifei/activities)

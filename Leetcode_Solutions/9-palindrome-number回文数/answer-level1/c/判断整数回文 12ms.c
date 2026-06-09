@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-1.x<0 false 
-2.求x回文m 
-3.判断x==m
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 1.x<0 false 
+// 2.求x回文m 
+// 3.判断x==m
+// ### 代码
 
-```c
+// ```c
 bool isPalindrome(int x){
     if(x<0) return false;
     long m=0;
@@ -16,4 +16,4 @@ bool isPalindrome(int x){
     }
     return m==x;
 }
-```
+// ```

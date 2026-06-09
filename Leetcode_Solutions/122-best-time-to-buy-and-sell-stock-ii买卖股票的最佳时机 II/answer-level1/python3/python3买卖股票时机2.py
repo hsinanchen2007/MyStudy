@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         if len(prices)<2:
@@ -14,4 +14,4 @@ class Solution:
                 prof+=max(0,prices[i]-lowp)
             highp=p
         return prof
-```
+# ```

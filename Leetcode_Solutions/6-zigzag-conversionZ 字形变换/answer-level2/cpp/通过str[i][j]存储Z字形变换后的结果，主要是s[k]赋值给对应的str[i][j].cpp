@@ -1,9 +1,9 @@
-### 解题思路
-通过str[i][j]存储Z字形变换后的结果，主要是s[k]赋值给对应的str[i][j]
+// ### 解题思路
+// 通过str[i][j]存储Z字形变换后的结果，主要是s[k]赋值给对应的str[i][j]
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string convert(string s, int numRows) {
@@ -55,4 +55,4 @@ public:
         return res;
     }
 };
-```
+// ```

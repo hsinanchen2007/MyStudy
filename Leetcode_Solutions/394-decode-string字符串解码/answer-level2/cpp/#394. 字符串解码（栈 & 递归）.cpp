@@ -1,9 +1,9 @@
-开始的时候知道这道题可以用栈去实现，但是一下子写不出来，反而是很容易写出了递归的解法，稍加分析就能写出栈解法了。***用栈去实现实质上是自己用栈去模拟递归的过程***。
+// 开始的时候知道这道题可以用栈去实现，但是一下子写不出来，反而是很容易写出了递归的解法，稍加分析就能写出栈解法了。***用栈去实现实质上是自己用栈去模拟递归的过程***。
 
-***Talk is cheap. Show me the code.***
+// ***Talk is cheap. Show me the code.***
 
-栈解法：
-```
+// 栈解法：
+// ```
 string decodeString(string s) {
     stack<int> numStack;
     stack<string> resStack;
@@ -30,10 +30,10 @@ string decodeString(string s) {
     }
     return res;
 }
-```
+// ```
 
-递归解法（递归过程会重复扫描字符串，不推荐这种写法）：
-```
+// 递归解法（递归过程会重复扫描字符串，不推荐这种写法）：
+// ```
 string decodeString(string s) {
     int num = 0;
     string res;
@@ -61,7 +61,7 @@ string decodeString(string s) {
     }
     return res;
 }
-```
+// ```
 
 
 

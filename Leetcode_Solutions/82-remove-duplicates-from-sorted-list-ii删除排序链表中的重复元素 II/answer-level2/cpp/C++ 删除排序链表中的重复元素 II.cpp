@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-**建立哨兵节点**
+// **建立哨兵节点**
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     ListNode* deleteDuplicates(ListNode* head) {
@@ -28,4 +28,4 @@ public:
         return dummy.next;
     }
 };
-```
+// ```

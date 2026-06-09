@@ -1,5 +1,5 @@
-方法一
-```
+// 方法一
+// ```
 class Solution {
 public:
     ListNode* rotateRight(ListNode* head, int k) {
@@ -19,9 +19,9 @@ public:
         return res;
     }
 };
-```
-方法二
-```
+// ```
+// 方法二
+// ```
 class Solution {
 public:
     ListNode* rotateRight(ListNode* head, int k) {
@@ -42,4 +42,4 @@ public:
         return res;
     }
 };
-```
+// ```

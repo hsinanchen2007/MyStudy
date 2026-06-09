@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 template<class T>
 ostream & operator<<(ostream & os , vector<vector<T>> vec){
     for( auto line : vec){
@@ -35,4 +35,4 @@ public:
         return mat[l1][l2];
     }
 };
-```
+// ```

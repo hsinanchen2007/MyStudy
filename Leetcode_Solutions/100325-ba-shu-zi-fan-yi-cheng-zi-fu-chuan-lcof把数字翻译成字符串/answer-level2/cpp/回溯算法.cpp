@@ -1,11 +1,11 @@
-### 解题思路
-老习惯了，遇到排列组合的题总是想着先用回溯，没想到通过了，还是双100%。。。
-![image.png](https://pic.leetcode-cn.com/6ca6e86ed8327872cf0e91c8dadcf5b59dfd4019b09fd7dc809a59e800b065c6-image.png)
+// ### 解题思路
+// 老习惯了，遇到排列组合的题总是想着先用回溯，没想到通过了，还是双100%。。。
+// ![image.png](https://pic.leetcode-cn.com/6ca6e86ed8327872cf0e91c8dadcf5b59dfd4019b09fd7dc809a59e800b065c6-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	vector<vector<int>>vv;
@@ -40,4 +40,4 @@ public:
 		return vv.size();
 	}
 };
-```
+// ```

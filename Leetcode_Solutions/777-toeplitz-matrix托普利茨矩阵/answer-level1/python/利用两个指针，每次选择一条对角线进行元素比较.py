@@ -1,8 +1,8 @@
-初始化两个点A和B，位于矩阵的右上角。
-每次循环A先向左走，走到最左侧后向下走；B先向下走，走到最下面后向左走；
-因此每次循环中，A和B都是矩阵对角线的头尾两个点。
-依次比较对角线上的元素，若不相等，直接返回False。若想等则继续循环比较。
-```
+# 初始化两个点A和B，位于矩阵的右上角。
+# 每次循环A先向左走，走到最左侧后向下走；B先向下走，走到最下面后向左走；
+# 因此每次循环中，A和B都是矩阵对角线的头尾两个点。
+# 依次比较对角线上的元素，若不相等，直接返回False。若想等则继续循环比较。
+# ```
 class Solution(object):
     def isToeplitzMatrix(self, matrix):
         """
@@ -36,4 +36,4 @@ class Solution(object):
                 if matrix[curRow][curCol] != matrix[curRow - 1][curCol - 1]:
                     return False
         return True
-```
+# ```

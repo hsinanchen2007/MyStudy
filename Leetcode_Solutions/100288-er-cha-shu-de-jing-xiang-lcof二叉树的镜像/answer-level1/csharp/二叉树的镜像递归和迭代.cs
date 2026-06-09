@@ -1,7 +1,7 @@
-#### 思路1： 递归
-即输入一个二叉树，他的镜像为自己的左右子树互换，同时左右子树也是镜像二叉树。递归终止条件就是root == null
-##### 先分享一个自己三下五除二写的错误递归
-```
+// #### 思路1： 递归
+// 即输入一个二叉树，他的镜像为自己的左右子树互换，同时左右子树也是镜像二叉树。递归终止条件就是root == null
+// ##### 先分享一个自己三下五除二写的错误递归
+// ```
 public TreeNode MirrorTree(TreeNode root) {
         if(root == null)
         {
@@ -13,10 +13,10 @@ public TreeNode MirrorTree(TreeNode root) {
 
         return root;
     }
-```
+// ```
 
-##### 正确的递归写法
-```
+// ##### 正确的递归写法
+// ```
 public TreeNode MirrorTree(TreeNode root) {
         if(root == null)
         {
@@ -29,10 +29,10 @@ public TreeNode MirrorTree(TreeNode root) {
 
         return root;
     }
-```
-#### 思路2 迭代
-利用队列辅助进行迭代，先把节点的左右子树互换，然后将非空的左右子树推入队列中，循环至队列为空。
-```
+// ```
+// #### 思路2 迭代
+// 利用队列辅助进行迭代，先把节点的左右子树互换，然后将非空的左右子树推入队列中，循环至队列为空。
+// ```
 public TreeNode MirrorTree(TreeNode root) {
         if(root == null)
         {
@@ -60,4 +60,4 @@ public TreeNode MirrorTree(TreeNode root) {
 
         return root;
     }
-```
+// ```

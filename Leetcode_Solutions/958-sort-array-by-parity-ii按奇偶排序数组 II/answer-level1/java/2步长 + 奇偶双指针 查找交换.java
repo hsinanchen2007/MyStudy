@@ -1,8 +1,8 @@
-### 解题思路
-2步长 + 奇偶双指针 查找交换
-### 代码
+// ### 解题思路
+// 2步长 + 奇偶双指针 查找交换
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] sortArrayByParityII(int[] A) {
         //初始化奇数序列指针
@@ -30,4 +30,4 @@ class Solution {
     }
 }
 
-```
+// ```

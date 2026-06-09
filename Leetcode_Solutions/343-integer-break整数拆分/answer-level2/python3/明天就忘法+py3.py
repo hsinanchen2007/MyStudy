@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def integerBreak(self, n: int) -> int:
         # 所有数都可以用 2和3组成
@@ -18,4 +18,4 @@ class Solution:
         # b==2时
         return 3**a*2
       
-```
+# ```

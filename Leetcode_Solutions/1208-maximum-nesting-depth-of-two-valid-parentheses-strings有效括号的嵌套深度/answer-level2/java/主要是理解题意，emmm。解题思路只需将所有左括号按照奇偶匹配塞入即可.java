@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 public class Solution {
     public int[] maxDepthAfterSplit(String seq) {
         int[] ans = new int [seq.length()];
@@ -14,4 +14,4 @@ public class Solution {
         return ans;
     }
 }
-```
+// ```

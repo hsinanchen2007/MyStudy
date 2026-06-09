@@ -1,11 +1,11 @@
-### 解题思路
-1. 拥有相同斜率，即在一条直线上。
-2. 任意三点`(x1,y1),(x2,y2),(x3,y3)`如果满足`(x2-x1)/(y2-y1) = (x3-x2)/(y3-y2)`则这三点在一条直线上。
-3. 由于被除数不能为零，即转化成判断`(x2-x1)*(y3-y2) == (x3-x2)*(y2-y1)`。
+# ### 解题思路
+# 1. 拥有相同斜率，即在一条直线上。
+# 2. 任意三点`(x1,y1),(x2,y2),(x3,y3)`如果满足`(x2-x1)/(y2-y1) = (x3-x2)/(y3-y2)`则这三点在一条直线上。
+# 3. 由于被除数不能为零，即转化成判断`(x2-x1)*(y3-y2) == (x3-x2)*(y2-y1)`。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def checkStraightLine(self, coordinates: List[List[int]]) -> bool:
         def calculate_k_b(coordinates1, coordinates2):
@@ -31,4 +31,4 @@ class Solution:
         
         return True
         
-```
+# ```

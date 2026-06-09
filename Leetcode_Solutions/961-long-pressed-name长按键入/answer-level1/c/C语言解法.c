@@ -1,11 +1,11 @@
-保留上一次遍历的字符(last_ch)，等到type不等于name的时候判断type是不是等于last_ch
+// 保留上一次遍历的字符(last_ch)，等到type不等于name的时候判断type是不是等于last_ch
 
-执行用时 : 4 ms, 在Long Pressed Name的C提交中击败了98.80% 的用户
+// 执行用时 : 4 ms, 在Long Pressed Name的C提交中击败了98.80% 的用户
 
-内存消耗 : 6.7 MB, 在Long Pressed Name的C提交中击败了93.33% 的用户
+// 内存消耗 : 6.7 MB, 在Long Pressed Name的C提交中击败了93.33% 的用户
 
 
-```c
+// ```c
 bool isLongPressedName(char * name, char * typed){
     char last_ch;
     while(*name)
@@ -35,4 +35,4 @@ bool isLongPressedName(char * name, char * typed){
     
     return true;
 }
-```
+// ```

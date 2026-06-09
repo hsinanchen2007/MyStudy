@@ -1,9 +1,9 @@
-### 解题思路
-求出可能的最大长度，在该长度下如果存在则输出，不存在即跳过
+// ### 解题思路
+// 求出可能的最大长度，在该长度下如果存在则输出，不存在即跳过
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <math.h>
 /**
  * Return an array of arrays of size *returnSize.
@@ -43,4 +43,4 @@ int** findContinuousSequence(int target, int* returnSize, int** returnColumnSize
     }
     return resultHead;
 }
-```
+// ```

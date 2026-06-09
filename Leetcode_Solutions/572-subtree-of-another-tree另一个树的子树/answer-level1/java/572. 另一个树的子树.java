@@ -1,13 +1,13 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/9/24
- *
- * 解题思路: 二叉树的遍历和比骄傲
- *
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/9/24
+//  *
+//  * 解题思路: 二叉树的遍历和比骄傲
+//  *
+//  */
+// ```
      //遍历s 每到一个节点就比较 s t
     public boolean isSubtree(TreeNode s, TreeNode t) {
 
@@ -51,4 +51,4 @@
         //不相同
         return false;
     }
-```
+// ```

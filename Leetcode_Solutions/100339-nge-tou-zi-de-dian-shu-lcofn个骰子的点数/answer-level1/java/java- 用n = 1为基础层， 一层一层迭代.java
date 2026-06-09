@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public double[] twoSum(int n) {
         double[][] result = new double[n + 1][6 * n + 1];
@@ -15,4 +15,4 @@ class Solution {
         return Arrays.copyOfRange(result[n], n, n * 6 + 1);
     }
 }
-```
+// ```

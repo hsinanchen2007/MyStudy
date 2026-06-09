@@ -1,4 +1,4 @@
-```
+// ```
 var hasGroupsSizeX = function(deck) {
     if(deck.length<2){
         return false;
@@ -16,4 +16,4 @@ var hasGroupsSizeX = function(deck) {
     return arr.every(item =>(res = gcd(res,item))>1)
 };
 var gcd= (a,b)=>(b===0?a:gcd(b,a%b));
-```
+// ```

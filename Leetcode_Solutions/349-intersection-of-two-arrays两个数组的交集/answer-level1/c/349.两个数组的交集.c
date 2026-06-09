@@ -1,9 +1,9 @@
-### 解题思路
-两个for循环用来查找两个数组相同的值，当找到相同的值时，通过将该值和nums3数组中的值比较来判断是否重复，若重复则通过break跳出该循环，忽略这次，当nums3没有和该值相同的数时，插入该值
+// ### 解题思路
+// 两个for循环用来查找两个数组相同的值，当找到相同的值时，通过将该值和nums3数组中的值比较来判断是否重复，若重复则通过break跳出该循环，忽略这次，当nums3没有和该值相同的数时，插入该值
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -36,4 +36,4 @@ int* intersection(int* nums1, int nums1Size, int* nums2, int nums2Size, int* ret
   return nums3;
 
 }
-```
+// ```

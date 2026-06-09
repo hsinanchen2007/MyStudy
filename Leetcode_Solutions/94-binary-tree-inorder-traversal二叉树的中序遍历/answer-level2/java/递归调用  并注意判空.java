@@ -1,10 +1,10 @@
-### 解题思路
-按照树的中序遍历顺序,左根右进行递归调用，把遍历的结果加到最终结果。
-但要注意java的List.addAll方法的缺陷,当加进去空列表的时候会报错。
+// ### 解题思路
+// 按照树的中序遍历顺序,左根右进行递归调用，把遍历的结果加到最终结果。
+// 但要注意java的List.addAll方法的缺陷,当加进去空列表的时候会报错。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -40,4 +40,4 @@ class Solution {
         return list;
     }
 }
-```
+// ```

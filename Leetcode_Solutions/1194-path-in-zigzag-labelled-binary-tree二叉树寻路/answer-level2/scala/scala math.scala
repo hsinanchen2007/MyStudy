@@ -1,4 +1,4 @@
-```ruby
+// ```ruby
 object Solution {
  def pathInZigZagTree(label: Int): List[Int] = {
     def pow2(x:Int):Int = Math.pow(2,x).toInt
@@ -23,4 +23,4 @@ object Solution {
     f(label,Nil)
   }
 }
-```
+// ```

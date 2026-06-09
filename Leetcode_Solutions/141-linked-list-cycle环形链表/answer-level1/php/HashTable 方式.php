@@ -1,9 +1,9 @@
-### 解题思路
-hash 方法，存储节点引用，如果遍历到最后一个节点，还没有发现有节点出现在hash表中，那么就说明这个链表没有环，否则，有环
+// ### 解题思路
+// hash 方法，存储节点引用，如果遍历到最后一个节点，还没有发现有节点出现在hash表中，那么就说明这个链表没有环，否则，有环
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 /**
  * Definition for a singly-linked list.
  * class ListNode {
@@ -29,4 +29,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

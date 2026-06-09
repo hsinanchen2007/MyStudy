@@ -1,11 +1,11 @@
-### 解题思路
-简单的前序遍历即可
-![image.png](https://pic.leetcode-cn.com/43d15bb2ab1ce9275e9c778c569a522ba0f0b5f7b570e9596dc9d10bd066aa7f-image.png)
+// ### 解题思路
+// 简单的前序遍历即可
+// ![image.png](https://pic.leetcode-cn.com/43d15bb2ab1ce9275e9c778c569a522ba0f0b5f7b570e9596dc9d10bd066aa7f-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -30,4 +30,4 @@ public:
         return root;
     }
 };
-```
+// ```

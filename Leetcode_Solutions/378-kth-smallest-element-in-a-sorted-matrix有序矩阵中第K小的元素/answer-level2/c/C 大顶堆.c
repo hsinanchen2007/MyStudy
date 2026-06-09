@@ -1,12 +1,12 @@
-![0775d84f7b8f4dca82b3e16494c40da79d3c421f4d7fd6394420fba4c79d218b-image.png](https://pic.leetcode-cn.com/4cf5178b19b5e8d28e7205b8ffaed8367b25cacc7bded6cfca28e7a7f394566b-0775d84f7b8f4dca82b3e16494c40da79d3c421f4d7fd6394420fba4c79d218b-image.png)
+// ![0775d84f7b8f4dca82b3e16494c40da79d3c421f4d7fd6394420fba4c79d218b-image.png](https://pic.leetcode-cn.com/4cf5178b19b5e8d28e7205b8ffaed8367b25cacc7bded6cfca28e7a7f394566b-0775d84f7b8f4dca82b3e16494c40da79d3c421f4d7fd6394420fba4c79d218b-image.png)
 
-### 解题思路
-[215. 数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)
-代码照搬过来了，小顶堆->大顶堆
-但是耗时还是挺多的
-### 代码
+// ### 解题思路
+// [215. 数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)
+// 代码照搬过来了，小顶堆->大顶堆
+// 但是耗时还是挺多的
+// ### 代码
 
-```c
+// ```c
 //升序排序后的第k个元素
 void heapSwap(int *a,int*b){
     int tmp = *a;
@@ -62,4 +62,4 @@ int kthSmallest(int** matrix, int matrixSize, int* matrixColSize, int k){
     return heap[1];
 }
 
-```
+// ```

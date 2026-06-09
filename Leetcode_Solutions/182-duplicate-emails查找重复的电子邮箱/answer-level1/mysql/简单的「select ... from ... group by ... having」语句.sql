@@ -1,4 +1,4 @@
-```mysql
+-- ```mysql
 SELECT
 	Email 
 FROM
@@ -7,4 +7,4 @@ GROUP BY
 	Email 
 HAVING
 	count( Email )> 1;
-```
+-- ```

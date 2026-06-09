@@ -1,11 +1,11 @@
-### 解题思路
-比较笨的方法，先申请两组内存，一组等于输入数组的长度，一组等于数组长度+1.
+// ### 解题思路
+// 比较笨的方法，先申请两组内存，一组等于输入数组的长度，一组等于数组长度+1.
 
-如果最后需要进位，则用+1长度的数组，如果不用进位，就用digitsSize长度的内存。
+// 如果最后需要进位，则用+1长度的数组，如果不用进位，就用digitsSize长度的内存。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -42,4 +42,4 @@ int* plusOne(int* digits, int digitsSize, int* returnSize){
 	}
 }
 
-```
+// ```

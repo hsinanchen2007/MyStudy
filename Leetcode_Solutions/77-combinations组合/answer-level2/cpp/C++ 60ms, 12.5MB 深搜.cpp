@@ -1,11 +1,11 @@
-### 解题思路
-深度优先搜索
+// ### 解题思路
+// 深度优先搜索
 
-![image.png](https://pic.leetcode-cn.com/c327e60dd9cf950d16d2da7645394051c2cd066b7c3ca798cb70742013bb2920-image.png)
+// ![image.png](https://pic.leetcode-cn.com/c327e60dd9cf950d16d2da7645394051c2cd066b7c3ca798cb70742013bb2920-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> tmp;
@@ -29,4 +29,4 @@ public:
         return ans;
     }
 };
-```
+// ```

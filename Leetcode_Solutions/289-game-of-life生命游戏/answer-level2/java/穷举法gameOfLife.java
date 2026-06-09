@@ -1,9 +1,9 @@
-### 解题思路
-用穷举法来考虑每一个细胞与周围细胞情况。可能这是最简单的思路了，其他的实在没有想出来。
+// ### 解题思路
+// 用穷举法来考虑每一个细胞与周围细胞情况。可能这是最简单的思路了，其他的实在没有想出来。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
   static int board1[][];
   public static void gameOfLife(int[][] board) {
@@ -92,4 +92,4 @@ class Solution {
 			return 0;
 		}
 }
-```
+// ```

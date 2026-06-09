@@ -1,9 +1,9 @@
-### 解题思路
-Assume the tree has no duplicate value...
+// ### 解题思路
+// Assume the tree has no duplicate value...
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -35,4 +35,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

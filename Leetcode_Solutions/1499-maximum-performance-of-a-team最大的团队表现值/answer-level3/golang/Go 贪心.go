@@ -1,4 +1,4 @@
-```
+// ```
 import (
     "container/heap"
     "sort"
@@ -62,4 +62,4 @@ func (h *minHeap) Pop() interface{} {
     *h = old[0 : n-1]
     return x
 }
-```
+// ```

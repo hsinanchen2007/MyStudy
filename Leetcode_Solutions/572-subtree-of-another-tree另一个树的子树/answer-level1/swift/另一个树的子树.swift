@@ -1,9 +1,9 @@
 
-先序遍历数的每一个节点，去比对每个节点的子树是否和t相同
+// 先序遍历数的每一个节点，去比对每个节点的子树是否和t相同
 
 
 
-```swift []
+// ```swift []
 class Solution {
     func isSubtree(_ s: TreeNode?, _ t: TreeNode?) -> Bool {
         
@@ -40,4 +40,4 @@ class Solution {
         return s?.val == t?.val && compare(s?.left, t?.left) && compare(s?.right, t?.right)
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int[] decompressRLElist(int[] nums) {
         List<Integer> ans = new ArrayList<>();
@@ -11,4 +11,4 @@ class Solution {
         return ans.stream().mapToInt(Integer::intValue).toArray();
     }
 }
-```
+// ```

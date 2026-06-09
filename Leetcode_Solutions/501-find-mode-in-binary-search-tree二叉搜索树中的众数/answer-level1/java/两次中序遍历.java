@@ -1,9 +1,9 @@
-### 解题思路
-中序遍历两次，第一次遍历查找众数出现的最大次数max，第二次遍历时将出现次数为max的数进行记录。
+// ### 解题思路
+// 中序遍历两次，第一次遍历查找众数出现的最大次数max，第二次遍历时将出现次数为max的数进行记录。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -50,4 +50,4 @@ class Solution {
         return r;
     }
 }
-```
+// ```

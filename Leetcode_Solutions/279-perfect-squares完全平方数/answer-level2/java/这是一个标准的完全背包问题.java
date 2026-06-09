@@ -1,14 +1,14 @@
-这是一个完全背包问题，可以把第i个完全平方数看成重量为i*i,价值为1的物品，背包容量为n, 求总价值和最小。
+// 这是一个完全背包问题，可以把第i个完全平方数看成重量为i*i,价值为1的物品，背包容量为n, 求总价值和最小。
 
-背包代码：
-```
+// 背包代码：
+// ```
 for (int i = 1; i <= n; i++)
     for (int j = w[i]; j <= V; j++)
         f[j] = min(f[j], f[j - w[i]] + v[i]);
-```
+// ```
 
 
-```
+// ```
 class Solution {
     public int numSquares(int n) {
         int[] dp = new int[n + 1];
@@ -25,4 +25,4 @@ class Solution {
         return dp[n];
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-这里建议跟着代码的思路走几个案例就能明白了
-1.这里主要是三个指针，一个temp,一个pre,一个head，head指向当前节点，pre指向前一个，temp永远的跟在pre后面，这样就能确保当pre.val=head.val时，直接删除pre和head
-2.比大小我是用一个变量VAL和当前节点比大小（第一次认为规定不相等因为第一次比的是我创造的头节点和原链表的第一个节点比），不相等的话，就记录当前节点的值。
+// 这里建议跟着代码的思路走几个案例就能明白了
+// 1.这里主要是三个指针，一个temp,一个pre,一个head，head指向当前节点，pre指向前一个，temp永远的跟在pre后面，这样就能确保当pre.val=head.val时，直接删除pre和head
+// 2.比大小我是用一个变量VAL和当前节点比大小（第一次认为规定不相等因为第一次比的是我创造的头节点和原链表的第一个节点比），不相等的话，就记录当前节点的值。
 public ListNode deleteDuplication(ListNode head) {
         //如果为空链表或者只有一个节点直接返回原头节点
         if (head == null || head.next == null) {

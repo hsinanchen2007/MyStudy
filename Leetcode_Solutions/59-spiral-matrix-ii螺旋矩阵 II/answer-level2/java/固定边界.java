@@ -1,8 +1,8 @@
 
-## 分析
-旋转类题目的关键就是在于确定好定点。本题可以选择左上角(startX,startY)和右下角(endX,endY)两个定点。每轮以后startX++，startY++，endX--,endy--.
-## 代码
-```java
+// ## 分析
+// 旋转类题目的关键就是在于确定好定点。本题可以选择左上角(startX,startY)和右下角(endX,endY)两个定点。每轮以后startX++，startY++，endX--,endy--.
+// ## 代码
+// ```java
 public int[][] generateMatrix(int n) {
         int[][] matrix = new int[n][n];
         if(n == 0){
@@ -39,4 +39,4 @@ public int[][] generateMatrix(int n) {
         return matrix;
 
     }
-```
+// ```

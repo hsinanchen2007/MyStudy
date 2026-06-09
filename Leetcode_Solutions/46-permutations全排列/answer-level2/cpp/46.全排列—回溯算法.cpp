@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<vector<int>> permute(vector<int>& nums) {
@@ -23,9 +23,9 @@ public:
         }
     }
 };
-```
-一个布尔数组visited，初始化的时候都为false表示这些数还没有被选择，当我们选定一个数的时候，就将这个数组的相应位置设置为true。
-```
+// ```
+// 一个布尔数组visited，初始化的时候都为false表示这些数还没有被选择，当我们选定一个数的时候，就将这个数组的相应位置设置为true。
+// ```
 class Solution {
 public:
     vector<vector<int>> permute(vector<int>& nums) {
@@ -50,6 +50,6 @@ public:
         }
     }
 };
-```
+// ```
 
 

@@ -1,9 +1,9 @@
-### 思路
-问题转为整数转为二进制，对每位进行取反。
+// ### 思路
+// 问题转为整数转为二进制，对每位进行取反。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findComplement(int num) {
@@ -16,4 +16,4 @@ public:
         return res;
     }
 };
-```
+// ```

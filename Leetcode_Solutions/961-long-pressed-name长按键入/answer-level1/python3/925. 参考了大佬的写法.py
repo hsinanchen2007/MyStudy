@@ -1,9 +1,9 @@
-### 解题思路
+# ### 解题思路
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isLongPressedName(self, name: str, typed: str) -> bool:
         typed_index, name_index = 0, 0
@@ -17,4 +17,4 @@ class Solution:
         
         return False
 
-```
+# ```

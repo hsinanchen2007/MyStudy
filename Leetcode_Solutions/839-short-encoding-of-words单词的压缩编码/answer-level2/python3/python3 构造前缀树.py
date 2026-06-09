@@ -1,9 +1,9 @@
-### 解题思路
-先把每个单词都翻转，然后构建前缀树。最后，遍历整棵树，统计单词，最终结果上每个单词+1.
+# ### 解题思路
+# 先把每个单词都翻转，然后构建前缀树。最后，遍历整棵树，统计单词，最终结果上每个单词+1.
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minimumLengthEncoding(self, words: List[str]) -> int:
         for i in range(len(words)):
@@ -33,4 +33,4 @@ class Solution:
             count += (len(c)+1)
         
         return count
-```
+# ```

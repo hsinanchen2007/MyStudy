@@ -1,12 +1,12 @@
-贡献一个动态规划的思路。
+// 贡献一个动态规划的思路。
 
-建立dp数组，dp[i]代表截至第i位字符串能够组成的地址集合。对于第i位上的地址集合，可以遍历前三位j，状态转移方程为：
-```
+// 建立dp数组，dp[i]代表截至第i位字符串能够组成的地址集合。对于第i位上的地址集合，可以遍历前三位j，状态转移方程为：
+// ```
 dp[i] += dp[j] + num(j,i);
-```
-其中，+=表示添加，dp[j]表示集合中不大于4位的ip地址，num(j,i)表示字符串[j+1,i]范围构成的0-255的数字。
+// ```
+// 其中，+=表示添加，dp[j]表示集合中不大于4位的ip地址，num(j,i)表示字符串[j+1,i]范围构成的0-255的数字。
 
-```java
+// ```java
 public List<String> restoreIpAddresses(String s) {
     if(s.length() > 12 || s.length() < 4){
         return new ArrayList<>();
@@ -40,10 +40,10 @@ public List<String> restoreIpAddresses(String s) {
     }
     return result;
 }
-```
+// ```
 
-欢迎与我交流~
+// 欢迎与我交流~
 
-[LeetCode 从零单刷个人笔记整理（持续更新）](https://blog.csdn.net/qq_20304723/article/details/89401203)
+// [LeetCode 从零单刷个人笔记整理（持续更新）](https://blog.csdn.net/qq_20304723/article/details/89401203)
 
-github：[https://github.com/ChopinXBP/LeetCode-Babel](https://github.com/ChopinXBP/LeetCode-Babel)
+// github：[https://github.com/ChopinXBP/LeetCode-Babel](https://github.com/ChopinXBP/LeetCode-Babel)

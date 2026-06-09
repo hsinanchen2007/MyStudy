@@ -1,4 +1,4 @@
-```
+// ```
 
     public int[][] merge(int[][] intervals) {
 
@@ -68,4 +68,4 @@
         sortIntervals(intervals, left, l);
         sortIntervals(intervals, l+1, right);
     }
-```
+// ```

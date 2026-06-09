@@ -1,9 +1,9 @@
-### 解题思路
-构建辅助栈，以贪心的方式模拟压入和弹出的情况
+# ### 解题思路
+# 构建辅助栈，以贪心的方式模拟压入和弹出的情况
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def validateStackSequences(self, pushed: List[int], popped: List[int]) -> bool:
         """
@@ -49,4 +49,4 @@ class Solution:
         # 所有元素通过检测
         return popped_index == len(popped)
 
-```
+# ```

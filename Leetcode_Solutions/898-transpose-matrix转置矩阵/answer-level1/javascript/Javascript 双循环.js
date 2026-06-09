@@ -1,9 +1,9 @@
-### 解题思路
-row设置为数组宽度，col设置为数组第一项的宽度，双循环遍历
+// ### 解题思路
+// row设置为数组宽度，col设置为数组第一项的宽度，双循环遍历
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} A
  * @return {number[][]}
@@ -28,4 +28,4 @@ var transpose = function(A) {
     //     return A.map(row => row[idx])
     // })
 };
-```
+// ```

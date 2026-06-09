@@ -1,11 +1,11 @@
-### 解题思路
+# ### 解题思路
 
-kick the card. 
-Again, I will give you code. 
+# kick the card. 
+# Again, I will give you code. 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from typing import *
 
 class Solution:
@@ -25,4 +25,4 @@ class Solution:
                 out+=tmp-height[i]
         return out
 
-```
+# ```

@@ -1,4 +1,4 @@
-```python []
+# ```python []
 class Solution:
     def firstBadVersion(self, n):
         """
@@ -13,4 +13,4 @@ class Solution:
             else:
                 left = middle + 1
         return left
-```
+# ```

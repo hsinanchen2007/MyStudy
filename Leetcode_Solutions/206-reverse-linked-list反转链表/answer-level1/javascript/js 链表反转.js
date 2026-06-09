@@ -1,10 +1,10 @@
-### 解题思路
-通过迭代反转前一个与后一个结点来达到反转的目的。
-注意处理边界值和头尾结点。
+// ### 解题思路
+// 通过迭代反转前一个与后一个结点来达到反转的目的。
+// 注意处理边界值和头尾结点。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -35,4 +35,4 @@ var reverseList = function(head) {
 
     return head;
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-遇到负数则该行和该列之后的列都不用考虑
+# ### 解题思路
+# 遇到负数则该行和该列之后的列都不用考虑
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def countNegatives(self, grid):
         R = len(grid)
@@ -24,4 +24,4 @@ class Solution(object):
                 i += 1
                 j = 0
         return R * Col - count 
-```
+# ```

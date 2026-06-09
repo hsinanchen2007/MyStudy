@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-将该题目分解成左子树和右子树的形式
+// 将该题目分解成左子树和右子树的形式
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -47,4 +47,4 @@ struct TreeNode* sortedArrayToBST(int* nums, int numsSize){
     return root;
 }
 
-```
+// ```

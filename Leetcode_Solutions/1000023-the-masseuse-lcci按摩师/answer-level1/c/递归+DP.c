@@ -1,11 +1,11 @@
-### 解题思路
-f(n) = MAX(nums[0] + f(n + 2), nums[1] + f(n + 3))
+// ### 解题思路
+// f(n) = MAX(nums[0] + f(n + 2), nums[1] + f(n + 3))
 
-直接递归会超时，所以加上一个dp[]做一个cache即可
+// 直接递归会超时，所以加上一个dp[]做一个cache即可
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int massage(int* nums, int numsSize){
     int *dp = (int *)malloc(numsSize * sizeof(int));
     memset(dp, -1, numsSize * sizeof(int));
@@ -31,4 +31,4 @@ int dfs(int* nums, int numsSize, int *dp, int seq){
 /*
 
 */
-```
+// ```

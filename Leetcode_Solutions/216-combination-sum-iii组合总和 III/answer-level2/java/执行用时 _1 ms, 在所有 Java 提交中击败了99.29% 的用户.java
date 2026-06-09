@@ -1,15 +1,15 @@
-![回溯216.PNG](https://pic.leetcode-cn.com/e0986114eec69a1e2dec86adfdb816d04598abf871ff23a997f31c4a6e333a4b-%E5%9B%9E%E6%BA%AF216.PNG)
+// ![回溯216.PNG](https://pic.leetcode-cn.com/e0986114eec69a1e2dec86adfdb816d04598abf871ff23a997f31c4a6e333a4b-%E5%9B%9E%E6%BA%AF216.PNG)
 
-### 解题思路
-回溯的细节需要注意一下:
-    1.backtrack(start+1,...)是因为结果集元素互不相同，下一层的搜索起点start+1即可
-    2.剪枝的部分,比如说n=7,k=2的时候不需要[1,2,4]这样的由3个数组成的结果,每层递归我们可以让k-1,当k<0的时候就提前退出
-    3.n<start,start是这一层递归的搜索起点,表示这一层的搜索区间为[start,9]或者[start,n]，n 表示减剩下的值(n<9才行)
-    如果剩余值n都比搜索起点start还小,那就没有更小的值可减了，提前结束
+// ### 解题思路
+// 回溯的细节需要注意一下:
+//     1.backtrack(start+1,...)是因为结果集元素互不相同，下一层的搜索起点start+1即可
+//     2.剪枝的部分,比如说n=7,k=2的时候不需要[1,2,4]这样的由3个数组成的结果,每层递归我们可以让k-1,当k<0的时候就提前退出
+//     3.n<start,start是这一层递归的搜索起点,表示这一层的搜索区间为[start,9]或者[start,n]，n 表示减剩下的值(n<9才行)
+//     如果剩余值n都比搜索起点start还小,那就没有更小的值可减了，提前结束
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> combinationSum3(int k, int n) {
         //组合中只允许含有1~9的数字,这题和40题的不同,这里是不会有重复数字的,40题是一个有重复数字的数组,所以要避免重复数字   
@@ -51,4 +51,4 @@ class Solution {
         }
     }
 }
-```
+// ```

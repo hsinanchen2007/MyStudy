@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def surfaceArea(self, grid: List[List[int]]) -> int:
         # 计算相邻共同贴在一起的表面积
@@ -25,4 +25,4 @@ class Solution:
 
 # 作者：Lizzabrook1970
 
-```
+# ```

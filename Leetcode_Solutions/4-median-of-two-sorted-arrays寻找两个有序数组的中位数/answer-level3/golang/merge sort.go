@@ -1,4 +1,4 @@
-```
+// ```
 func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
     if len(nums1) == 0 && len(nums2) == 0 {return 0}
     res := MergeSort(nums1, nums2)
@@ -26,4 +26,4 @@ func MergeSort (num1, num2 []int) (res []int) {
     res = append(res, num2[r:]...)
     return
 }
-```
+// ```

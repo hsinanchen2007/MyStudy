@@ -1,9 +1,9 @@
-### 解题思路
-从后向前遍历+结果前插
+# ### 解题思路
+# 从后向前遍历+结果前插
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def licenseKeyFormatting(self, S: str, K: int) -> str:
         res=''
@@ -21,4 +21,4 @@ class Solution:
         return res
 
 
-```
+# ```

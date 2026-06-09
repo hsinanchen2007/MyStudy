@@ -1,14 +1,14 @@
-### 解题思路
+// ### 解题思路
 
-队列的先进先出原则、堆栈的后进先出原则了解后，可以选择使用两个队列来进行模拟
+// 队列的先进先出原则、堆栈的后进先出原则了解后，可以选择使用两个队列来进行模拟
 
-看意愿是想让push麻烦一点还是pop麻烦一点，题目要求有top的实现，故将push麻烦一点比较合适。
+// 看意愿是想让push麻烦一点还是pop麻烦一点，题目要求有top的实现，故将push麻烦一点比较合适。
 
-下面的代码是把pop变麻烦的实现（写完了才意识到上面的问题）：
+// 下面的代码是把pop变麻烦的实现（写完了才意识到上面的问题）：
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Initialize your data structure here.
  */
@@ -75,8 +75,8 @@ MyStack.prototype.empty = function() {
  * var param_3 = obj.top()
  * var param_4 = obj.empty()
  */
-```
+// ```
 
-### 其他
+// ### 其他
 
-我的 GitHub [@ceynri](https://github.com/ceynri) 欢迎访问~
+// 我的 GitHub [@ceynri](https://github.com/ceynri) 欢迎访问~

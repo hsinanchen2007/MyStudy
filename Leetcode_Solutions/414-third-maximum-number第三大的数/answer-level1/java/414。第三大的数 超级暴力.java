@@ -1,6 +1,6 @@
-我的思路很简单，将第一大第二大第三大的数分别抽出来
-这复杂度，，应该也算是O(n)吧
-```
+// 我的思路很简单，将第一大第二大第三大的数分别抽出来
+// 这复杂度，，应该也算是O(n)吧
+// ```
 class Solution {
     public int thirdMax(int[] nums) {
         if(nums.length == 1) return nums[0];
@@ -20,4 +20,4 @@ class Solution {
         return (max3 == Long.MIN_VALUE || max2 == Long.MIN_VALUE) ? (int)max1 : (int)max3;
     }
 }
-```
+// ```

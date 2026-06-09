@@ -1,4 +1,4 @@
-```go []
+// ```go []
 type Node struct {
 	isWord bool
 	next   map[string]*Node
@@ -57,4 +57,4 @@ func (this *WordDictionary) match(n *Node, word string, index int) bool {
  * obj.AddWord(word);
  * param_2 := obj.Search(word);
  */
-```
+// ```

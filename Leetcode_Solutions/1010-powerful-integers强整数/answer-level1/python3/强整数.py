@@ -1,17 +1,17 @@
-### 解题思路
-我的思路：
-直接暴力循环了，因为每个值最多出现一次，所以用字典存储比较方便。
+# ### 解题思路
+# 我的思路：
+# 直接暴力循环了，因为每个值最多出现一次，所以用字典存储比较方便。
 	
 
-复杂度分析：                                                             
-	• 时间复杂度：o(n)
-	• 空间复杂度：o(n)
+# 复杂度分析：                                                             
+# 	• 时间复杂度：o(n)
+# 	• 空间复杂度：o(n)
 
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def powerfulIntegers(self, x: int, y: int, bound: int) -> List[int]:
         max_i = 100
@@ -31,4 +31,4 @@ class Solution:
             result.append(key)
         return result
 
-```
+# ```

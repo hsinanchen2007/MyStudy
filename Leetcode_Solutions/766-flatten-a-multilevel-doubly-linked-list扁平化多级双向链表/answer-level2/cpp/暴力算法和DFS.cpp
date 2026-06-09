@@ -1,7 +1,7 @@
-# 方法1：
-依次遍历节点，若某节点p有子链表，则找到该子链表的最后一个节点c，将节点c与节点p的后继结点相连。
-这种方法容易理解，但是时间复杂度较高。。。
-```
+// # 方法1：
+// 依次遍历节点，若某节点p有子链表，则找到该子链表的最后一个节点c，将节点c与节点p的后继结点相连。
+// 这种方法容易理解，但是时间复杂度较高。。。
+// ```
 Node* flatten(Node* head) {
         Node *p = head;
         while (p!=NULL)
@@ -25,11 +25,11 @@ Node* flatten(Node* head) {
         }
         return head;
     }
-```
+// ```
 
-# 方法2：
-类似于深度优先遍历，借助栈完成。
-```
+// # 方法2：
+// 类似于深度优先遍历，借助栈完成。
+// ```
 Node* flatten(Node* head) {
         stack<Node*> s;
         Node *pre=NULL;
@@ -57,4 +57,4 @@ Node* flatten(Node* head) {
         }
         return head;
     }
-```
+// ```

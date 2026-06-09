@@ -1,11 +1,11 @@
-### 解题思路
-先用快慢指针找到中间的链表节点slow，再对slow后面的链表原地反转，依次比较反转后的链表和初始链表在slow之前的链表的值。
-![image.png](https://pic.leetcode-cn.com/a633120097b35935d986e950ef7d3fce78d4ce7400c6a29f0b378fc1ea4e0878-image.png)
+// ### 解题思路
+// 先用快慢指针找到中间的链表节点slow，再对slow后面的链表原地反转，依次比较反转后的链表和初始链表在slow之前的链表的值。
+// ![image.png](https://pic.leetcode-cn.com/a633120097b35935d986e950ef7d3fce78d4ce7400c6a29f0b378fc1ea4e0878-image.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -49,4 +49,4 @@ class Solution {
         return flag;
     }
 }
-```
+// ```

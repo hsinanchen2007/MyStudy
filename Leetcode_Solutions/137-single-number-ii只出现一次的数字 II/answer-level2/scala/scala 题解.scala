@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def singleNumber(nums: Array[Int]): Int = {
     var sum = 0
@@ -12,4 +12,4 @@ object Solution {
     res
   }
 }
-```
+// ```

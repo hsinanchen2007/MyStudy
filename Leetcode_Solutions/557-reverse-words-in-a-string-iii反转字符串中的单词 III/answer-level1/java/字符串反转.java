@@ -1,9 +1,9 @@
-### 解题思路
-先将长字符串根据空格分割，再反转每一个单词，使用 Stringbuilder 提高效率，比较 general 的做法
+// ### 解题思路
+// 先将长字符串根据空格分割，再反转每一个单词，使用 Stringbuilder 提高效率，比较 general 的做法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String reverseWords(String s) {
         if (s == null || s.length() == 0) return s;
@@ -22,4 +22,4 @@ class Solution {
         return ans.toString().trim();
     }
 }
-```
+// ```

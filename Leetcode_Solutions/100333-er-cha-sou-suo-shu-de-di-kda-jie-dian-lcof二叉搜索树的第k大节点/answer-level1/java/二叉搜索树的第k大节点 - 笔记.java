@@ -1,9 +1,9 @@
-### 解题思路
-由于二叉搜索树可使用中序遍历，拿到对应的倒数第K大。可使用counter计算
+// ### 解题思路
+// 由于二叉搜索树可使用中序遍历，拿到对应的倒数第K大。可使用counter计算
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -45,4 +45,4 @@ class Solution {
         }
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-思路见代码，想理解就看注释里的代码，想精简就看没注释的；
+# ### 解题思路
+# 思路见代码，想理解就看注释里的代码，想精简就看没注释的；
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -25,4 +25,4 @@ class Solution:
         #     cur = next # cur指针向后移动，指向下一个节点
         return pre
             
-```
+# ```

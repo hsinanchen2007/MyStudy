@@ -1,5 +1,5 @@
-二分查找相信大家都很熟悉流程 就是细节 一定要扣准
-```
+// 二分查找相信大家都很熟悉流程 就是细节 一定要扣准
+// ```
 public int search(int[] nums, int target) {
         int left = 0;
         int right = nums.length-1;
@@ -34,4 +34,4 @@ public int search(int[] nums, int target) {
         }
         return count;
 }
-```
+// ```

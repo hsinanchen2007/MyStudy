@@ -1,6 +1,6 @@
-思路不难，需要处理字符串的各种情况，细节见代码：
+// 思路不难，需要处理字符串的各种情况，细节见代码：
 
-```
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -100,4 +100,4 @@ public:
 // Your Codec object will be instantiated and called as such:
 // Codec codec;
 // codec.deserialize(codec.serialize(root));
-```
+// ```

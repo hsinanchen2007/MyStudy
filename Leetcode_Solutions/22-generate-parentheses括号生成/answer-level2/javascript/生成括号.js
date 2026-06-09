@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 // 8/8 cases passed (48 ms)
 // Your runtime beats 99.7 % of javascript submissions
 // Your memory usage beats 60.9 % of javascript submissions (35.2 MB)
@@ -16,4 +16,4 @@ var generateParenthesis = function(n) {
     _generate(0,0,n,'')
     return result
 };
-```
+// ```

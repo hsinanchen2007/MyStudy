@@ -1,9 +1,9 @@
-### 解题思路
-标准BFS 先将所有零点位置坐标入队并表示对于深度同步标记已访问，遍历所有所有队列里面未被访问1的节点并将节点更改为源节点深度+1. 
+// ### 解题思路
+// 标准BFS 先将所有零点位置坐标入队并表示对于深度同步标记已访问，遍历所有所有队列里面未被访问1的节点并将节点更改为源节点深度+1. 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -86,4 +86,4 @@ int** updateMatrix(int** matrix, int matrixSize, int* matrixColSize, int* return
     return matrix;
 
 }
-```
+// ```

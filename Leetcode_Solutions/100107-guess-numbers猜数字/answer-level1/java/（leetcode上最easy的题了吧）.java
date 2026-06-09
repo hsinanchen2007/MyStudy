@@ -1,4 +1,4 @@
-```java []
+// ```java []
 class Solution {
     public int game(int[] guess, int[] answer) {
         int ans = 0;
@@ -6,8 +6,8 @@ class Solution {
         return ans;
     }
 }
-```
-```go []
+// ```
+// ```go []
 func game(guess []int, answer []int) int {
     ans := 0
 
@@ -19,5 +19,5 @@ func game(guess []int, answer []int) int {
 
     return ans
 }
-```
+// ```
 

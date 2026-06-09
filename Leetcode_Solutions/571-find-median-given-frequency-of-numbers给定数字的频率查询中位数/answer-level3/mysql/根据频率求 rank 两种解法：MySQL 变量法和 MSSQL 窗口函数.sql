@@ -1,5 +1,5 @@
-## MySQL 变量法
-```mysql
+-- ## MySQL 变量法
+-- ```mysql
 select
     avg(Number) median
 from (
@@ -16,9 +16,9 @@ from (
 where 
     t1.pre_sum <= (@sum / 2) and 
     t1.curr_sum >= (@sum / 2)
-```
-## MSSQL 窗口函数
-```mysql
+-- ```
+-- ## MSSQL 窗口函数
+-- ```mysql
 select 
     avg(cast(number as float)) median
 from 
@@ -38,5 +38,5 @@ from
 where 
     t1.prev_sum <= (cast(t2.total_sum as float) / 2) and 
     t1.curr_sum >= (cast(t2.total_sum as float) / 2)
-```
+-- ```
 

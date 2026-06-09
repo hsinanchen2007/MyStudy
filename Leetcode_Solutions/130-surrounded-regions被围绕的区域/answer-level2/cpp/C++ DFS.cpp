@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
-深度优先搜索 DFS套路
-### 代码
+// 深度优先搜索 DFS套路
+// ### 代码
 
-```cpp
+// ```cpp
 /*
 首先，检查矩阵的四个边界。如果有一个元素是
 'O'，改变它和它所有垂直方向相邻的'O'设置为'1'
@@ -54,5 +54,5 @@ private:
     }
 };
 
-```
-![image.png](https://pic.leetcode-cn.com/304b339960ea3dc27ebdeb40f2b2c4e924a94bd9dca492a1feae6ae27d3b2d51-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/304b339960ea3dc27ebdeb40f2b2c4e924a94bd9dca492a1feae6ae27d3b2d51-image.png)

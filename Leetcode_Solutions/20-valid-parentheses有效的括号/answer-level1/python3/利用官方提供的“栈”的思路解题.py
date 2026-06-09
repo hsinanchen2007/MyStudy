@@ -1,8 +1,8 @@
-### 解题思路
-用了无数个判断语句，这样写速度很慢，但是比较好理解吧
-### 代码
+# ### 解题思路
+# 用了无数个判断语句，这样写速度很慢，但是比较好理解吧
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isValid(self, s: str) -> bool:
         test_var = []
@@ -22,4 +22,4 @@ class Solution:
             else:
                 pass
         return True if len(test_var) == 0 else False
-```
+# ```

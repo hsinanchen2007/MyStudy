@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def compareVersion(version1: String, version2: String): Int = {
     List(version1, version2).map(_.split('.').map(_.toInt)) match {
@@ -9,4 +9,4 @@ object Solution {
     }
   }
 }
-```
+// ```

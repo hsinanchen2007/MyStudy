@@ -1,9 +1,9 @@
-### 解题思路
-排序
+# ### 解题思路
+# 排序
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minIncrementForUnique(self, A: List[int]) -> int:
         # 1. 集合 超时
@@ -26,4 +26,4 @@ class Solution:
                 res += (A[i-1] - A[i] + 1)
                 A[i] = A[i-1] + 1
         return res
-```
+# ```

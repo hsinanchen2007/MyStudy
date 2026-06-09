@@ -1,9 +1,9 @@
-### 解题思路
-转置矩阵的核心就是交换元素：B[j][i] = A[i][j];
+// ### 解题思路
+// 转置矩阵的核心就是交换元素：B[j][i] = A[i][j];
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] transpose(int[][] A) {
         int rowLen = A.length;
@@ -17,4 +17,4 @@ class Solution {
         return B;
     }
 }
-```
+// ```

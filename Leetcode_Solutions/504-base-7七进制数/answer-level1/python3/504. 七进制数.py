@@ -1,8 +1,8 @@
-### 解题思路
+# ### 解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def convertToBase7(self, num: int) -> str:
         res = ''
@@ -15,4 +15,4 @@ class Solution:
             res = '-' + res
         return res if s != 0 else '0'
 
-```
+# ```

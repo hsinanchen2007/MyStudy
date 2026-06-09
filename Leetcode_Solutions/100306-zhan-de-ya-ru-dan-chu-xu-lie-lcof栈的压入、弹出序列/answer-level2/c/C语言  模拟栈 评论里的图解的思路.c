@@ -1,9 +1,9 @@
-### 解题思路
-自己模拟压栈，且边压栈边和出栈的比较
+// ### 解题思路
+// 自己模拟压栈，且边压栈边和出栈的比较
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 bool validateStackSequences(int* pushed, int pushedSize, int* popped, int poppedSize){
     if(pushedSize!=poppedSize) return false;
@@ -22,4 +22,4 @@ bool validateStackSequences(int* pushed, int pushedSize, int* popped, int popped
     }
     return k==0 ? true:false;  //模拟栈中的数被匹配完，即正确
 }
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int white=0,red=1,bule=2;
@@ -41,4 +41,4 @@ public:
         }
     }
 };
-```
+// ```

@@ -1,6 +1,6 @@
-以下是Mancher算法的参考链接：
-[https://segmentfault.com/a/1190000008484167](Mancher算法的参考链接)
-```java
+// 以下是Mancher算法的参考链接：
+// [https://segmentfault.com/a/1190000008484167](Mancher算法的参考链接)
+// ```java
 class Solution {
     public String longestPalindrome(String s) {
         char[] str = new char[2 * s.length() + 3];
@@ -37,9 +37,9 @@ class Solution {
         return sb.toString();
     }
 }
-```
-自己写的垃圾代码：
-```java
+// ```
+// 自己写的垃圾代码：
+// ```java
 class Solution {
     public String longestPalindrome(String s) {
         char[] str = new char[2 * s.length() + 3];
@@ -72,7 +72,7 @@ class Solution {
         return sb.toString();
     }
 }
-```
-两篇的主要不同是在id的求法上
-第二种写法内嵌一个while循环，增加id直到id+p[id] 能包括i为止；
-第一种少了内循环，速度提升了许多
+// ```
+// 两篇的主要不同是在id的求法上
+// 第二种写法内嵌一个while循环，增加id直到id+p[id] 能包括i为止；
+// 第一种少了内循环，速度提升了许多

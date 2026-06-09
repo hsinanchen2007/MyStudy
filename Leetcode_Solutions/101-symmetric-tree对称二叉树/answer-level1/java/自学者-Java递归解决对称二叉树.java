@@ -1,10 +1,10 @@
-### 解题思路
-1. 递归返回布尔值。
-2. 左右对称双参数递归。
+// ### 解题思路
+// 1. 递归返回布尔值。
+// 2. 左右对称双参数递归。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -28,4 +28,4 @@ class Solution {
        return t1.val == t2.val && (isMirror(t1.left,t2.right) && isMirror(t1.right,t2.left));
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-简单方法用到极限就是快
+// ### 解题思路
+// 简单方法用到极限就是快
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class XY{
 	int x;
 	int y;
@@ -90,4 +90,4 @@ class Solution {
 		return x>=0&&y>=0&&x<grid.length&&y<grid[0].length;
 	}
 }
-```
+// ```

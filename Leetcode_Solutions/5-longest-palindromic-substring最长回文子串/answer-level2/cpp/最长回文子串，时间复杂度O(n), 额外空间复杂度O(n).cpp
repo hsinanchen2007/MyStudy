@@ -1,9 +1,9 @@
-### 解题思路
-# 优化的**Manacher算法**
+// ### 解题思路
+// # 优化的**Manacher算法**
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string longestPalindrome(string s)
@@ -39,4 +39,4 @@ public:
         return s.substr(start, max_length);
     }
 };
-```
+// ```

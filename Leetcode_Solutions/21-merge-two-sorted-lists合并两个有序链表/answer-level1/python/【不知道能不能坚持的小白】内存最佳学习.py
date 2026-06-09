@@ -1,11 +1,11 @@
-### 解题思路
-学习结果里面的内存最佳方法。
+# ### 解题思路
+# 学习结果里面的内存最佳方法。
 
-**本题关键思路**：思路与之前写的暴力解决也是完全一样，也是构建一个新的链表。实现上有区别，没有构建一个ListNode(x)来打头，而且麻烦一点以先判断l1和L2哪个小，以小的数值构建开头的ListNode。https://leetcode-cn.com/problems/merge-two-sorted-lists/solution/bu-zhi-dao-neng-bu-neng-jian-chi-de-xiao-bai-bao-2/
+# **本题关键思路**：思路与之前写的暴力解决也是完全一样，也是构建一个新的链表。实现上有区别，没有构建一个ListNode(x)来打头，而且麻烦一点以先判断l1和L2哪个小，以小的数值构建开头的ListNode。https://leetcode-cn.com/problems/merge-two-sorted-lists/solution/bu-zhi-dao-neng-bu-neng-jian-chi-de-xiao-bai-bao-2/
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -40,4 +40,4 @@ class Solution:
         else:
             prev.next = l2
         return new_head
-```
+# ```

@@ -1,14 +1,14 @@
-![l.png](https://pic.leetcode-cn.com/6719cd03358551f6d1ea19a599aac3e467f1bcb709feda96fb1b48f5e695c11a-l.png)
+// ![l.png](https://pic.leetcode-cn.com/6719cd03358551f6d1ea19a599aac3e467f1bcb709feda96fb1b48f5e695c11a-l.png)
 
 
-### 解题思路
-用栈做辅助，将左括号入栈，遇到右括号时栈顶必须是对应的左括号才有效。
+// ### 解题思路
+// 用栈做辅助，将左括号入栈，遇到右括号时栈顶必须是对应的左括号才有效。
 
-但是搞不通，测试用例中的空字符串竟然是有效括号。。。
+// 但是搞不通，测试用例中的空字符串竟然是有效括号。。。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isValid(String s) {
         if(s==null||s.length()<1){
@@ -44,4 +44,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

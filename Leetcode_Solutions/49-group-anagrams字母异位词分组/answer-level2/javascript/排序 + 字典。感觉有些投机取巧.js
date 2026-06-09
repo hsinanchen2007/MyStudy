@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 /**
  * @param {string[]} strs
  * @return {string[][]}
@@ -16,4 +16,4 @@ var groupAnagrams = function(strs) {
     
   return result;
 };
-```
+// ```

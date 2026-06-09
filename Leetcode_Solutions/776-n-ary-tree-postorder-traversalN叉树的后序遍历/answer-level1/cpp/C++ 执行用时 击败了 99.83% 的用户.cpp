@@ -1,9 +1,9 @@
-### 解题思路
-![1.png](https://pic.leetcode-cn.com/31ed066811203ccd379059b9e22b6c2e4bb9f2d64f9fc1100867dac958cd0530-1.png)
+// ### 解题思路
+// ![1.png](https://pic.leetcode-cn.com/31ed066811203ccd379059b9e22b6c2e4bb9f2d64f9fc1100867dac958cd0530-1.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /*
 // Definition for a Node.
 class Node {
@@ -40,4 +40,4 @@ public:
         return;
     }
 };
-```
+// ```

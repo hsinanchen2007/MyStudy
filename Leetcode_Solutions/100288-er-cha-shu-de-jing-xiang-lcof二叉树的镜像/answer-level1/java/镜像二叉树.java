@@ -1,9 +1,9 @@
-### 解题思路  借助一个中间变量，来颠倒左右子树
+// ### 解题思路  借助一个中间变量，来颠倒左右子树
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -22,4 +22,4 @@ class Solution {
         return root;
     }
 }
-```
+// ```

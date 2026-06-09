@@ -1,9 +1,9 @@
-### 解题思路
-层序遍历过程中，用index来维护节点索引，一个节点索引是index,那他的左孩子索引是index * 2,右孩子索引是index * 2 +1
+// ### 解题思路
+// 层序遍历过程中，用index来维护节点索引，一个节点索引是index,那他的左孩子索引是index * 2,右孩子索引是index * 2 +1
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -35,4 +35,4 @@ var isCompleteTree = function(root) {
     }
     return true
 };
-```
+// ```

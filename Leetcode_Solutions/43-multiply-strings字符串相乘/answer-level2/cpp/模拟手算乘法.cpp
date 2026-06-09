@@ -1,11 +1,11 @@
-### 解题思路
-第 i 位数 和 第 j 位数相乘， 其值分布在 i + j, 和 i + j + 1 范围上
-不要形成思维惯性， 这里就算 `res[i+j] += sum / 10` 超过10 也没关系， 因为 vector<int> 存的是
-数字，可以包括多位数
+// ### 解题思路
+// 第 i 位数 和 第 j 位数相乘， 其值分布在 i + j, 和 i + j + 1 范围上
+// 不要形成思维惯性， 这里就算 `res[i+j] += sum / 10` 超过10 也没关系， 因为 vector<int> 存的是
+// 数字，可以包括多位数
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string multiply(string num1, string num2) {
@@ -29,4 +29,4 @@ public:
         return str;
     }
 };
-```
+// ```

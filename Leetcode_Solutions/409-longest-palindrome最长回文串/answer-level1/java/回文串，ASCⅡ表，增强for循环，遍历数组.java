@@ -1,10 +1,10 @@
-### 解题思路
-1.把所有出现过两次以上的字母次数取整累加ans
-2.只要最后的ans和比总的字符串小，就可以直接拿一个字母放到中间
+// ### 解题思路
+// 1.把所有出现过两次以上的字母次数取整累加ans
+// 2.只要最后的ans和比总的字符串小，就可以直接拿一个字母放到中间
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int longestPalindrome(String s) {
         int[] count = new int[58];
@@ -24,4 +24,4 @@ class Solution {
         }
 
     }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-遍历时候维护层级，不同层级输出数据顺序不同
+// ### 解题思路
+// 遍历时候维护层级，不同层级输出数据顺序不同
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -44,4 +44,4 @@ var zigzagLevelOrder = function(root) {
     }
     return res
 };
-```
+// ```

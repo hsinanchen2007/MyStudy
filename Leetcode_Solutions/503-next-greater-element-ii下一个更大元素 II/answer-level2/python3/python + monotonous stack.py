@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def nextGreaterElements(self, nums: List[int]) -> List[int]:
         if nums == []: return []
@@ -15,4 +15,4 @@ class Solution:
             loopCur -= 1
         return res
 
-```
+# ```

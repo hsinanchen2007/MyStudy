@@ -1,10 +1,10 @@
-### 解题思路
-- dp[nums...] == 1
-- dp[i] = dp[i] + dp[i - nums...]
+// ### 解题思路
+// - dp[nums...] == 1
+// - dp[i] = dp[i] + dp[i - nums...]
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func combinationSum4(nums []int, target int) int {
     return method_dp(nums, target)
 }
@@ -34,4 +34,4 @@ func method_dp(nums []int, target int) int {
     }
     return dp[target]
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 249：
 struct map{
     int *sub;
@@ -76,4 +76,4 @@ char *** groupStrings(char ** strings, int stringsSize, int* returnSize, int** r
     free(wordmap);
     return res;
 }
-```
+// ```

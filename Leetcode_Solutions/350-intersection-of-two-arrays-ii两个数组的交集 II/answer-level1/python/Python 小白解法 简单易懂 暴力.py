@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def intersect(self, nums1: List[int], nums2: List[int]) -> List[int]:
         result = []
@@ -10,4 +10,4 @@ class Solution:
                     nums2 = nums2[:j]+nums2[j+1:]
                     break
         return result
-```
+# ```

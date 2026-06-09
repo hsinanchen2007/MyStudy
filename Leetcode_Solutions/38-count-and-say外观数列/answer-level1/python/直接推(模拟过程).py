@@ -1,10 +1,10 @@
-## 思路:
+# ## 思路:
 
-一句话解释: 不断由前一个数推下一个数. 
+# 一句话解释: 不断由前一个数推下一个数. 
 
-## 代码:
+# ## 代码:
 
-```python [1]
+# ```python [1]
 class Solution:
     def countAndSay(self, n: int) -> str:
         def next_num(tmp):
@@ -23,11 +23,11 @@ class Solution:
         for i in range(1, n):
             res = next_num(res)
         return res
-```
+# ```
 
 
 
-```java [1]
+# ```java [1]
 public class CountandSay {
     public String countAndSay(int n) {
         String res = "1";
@@ -57,5 +57,5 @@ public class CountandSay {
         return ans;
     }
 }
-```
+# ```
 

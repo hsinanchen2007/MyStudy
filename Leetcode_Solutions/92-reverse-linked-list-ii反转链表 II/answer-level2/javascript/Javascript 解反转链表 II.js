@@ -1,15 +1,15 @@
-### 双指针一次遍历反转指定段的链表
-这道题是反转链表的进阶题，其实可以简单的将其转换为 反转链表I 来进行求解，思路如下：
-1、首先设置一个哑结点，其next指针指向链表的头部。哑结点的作用是即使m = 1时，也不用特殊考虑头结点，这样可以规避代码的分支；
-2、从哑结点开始遍历链表，当当前遍历的节点所在的位置与 m 相等时，停止，此时指针应指向需要反转的第一个节点的前一个节点，如下图所示：
-**start**
-![start.png](https://pic.leetcode-cn.com/f2535552ea39a13a67b179bcde340a751429265d300bdd87ab53fecdc2ac8886-start.png)
-**end**
-![image.png](https://pic.leetcode-cn.com/92dfe398016db3931d0034cbe7db689696803ed1f407592b96c0d954050c4732-image.png)
-3、接下来就是常规的双指针反转链表了，终止条件是反转的次数 大于等于 n - m + 1；
+// ### 双指针一次遍历反转指定段的链表
+// 这道题是反转链表的进阶题，其实可以简单的将其转换为 反转链表I 来进行求解，思路如下：
+// 1、首先设置一个哑结点，其next指针指向链表的头部。哑结点的作用是即使m = 1时，也不用特殊考虑头结点，这样可以规避代码的分支；
+// 2、从哑结点开始遍历链表，当当前遍历的节点所在的位置与 m 相等时，停止，此时指针应指向需要反转的第一个节点的前一个节点，如下图所示：
+// **start**
+// ![start.png](https://pic.leetcode-cn.com/f2535552ea39a13a67b179bcde340a751429265d300bdd87ab53fecdc2ac8886-start.png)
+// **end**
+// ![image.png](https://pic.leetcode-cn.com/92dfe398016db3931d0034cbe7db689696803ed1f407592b96c0d954050c4732-image.png)
+// 3、接下来就是常规的双指针反转链表了，终止条件是反转的次数 大于等于 n - m + 1；
 
-代码如下：
-```
+// 代码如下：
+// ```
 var reverseBetween = function(head, m, n) {
     // 如果m === n 则直接返回
     if (m === n) return head;
@@ -41,5 +41,5 @@ var reverseBetween = function(head, m, n) {
     pre.next = p;
     return newHead.next;
 };
-```
-如有疑问，欢迎指正，谢谢
+// ```
+// 如有疑问，欢迎指正，谢谢

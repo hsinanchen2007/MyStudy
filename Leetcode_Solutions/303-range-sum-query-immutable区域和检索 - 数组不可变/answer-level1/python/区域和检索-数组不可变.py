@@ -1,9 +1,9 @@
-### 解题思路
-两种思路，暴力法直接求i到j的和，或者前缀和法利用前j+1的和-前i的和，NumArray函数是为了将输入矩阵进行存储方便调用，sumRange函数可直接调用。注意前缀和法为了使用前j+1的和-前i的和，应输入第一项为0，这样前i项才不包括nums[i]，否则第一项时需要单独写。
+# ### 解题思路
+# 两种思路，暴力法直接求i到j的和，或者前缀和法利用前j+1的和-前i的和，NumArray函数是为了将输入矩阵进行存储方便调用，sumRange函数可直接调用。注意前缀和法为了使用前j+1的和-前i的和，应输入第一项为0，这样前i项才不包括nums[i]，否则第一项时需要单独写。
 
-### 代码
+# ### 代码
 
-```cpp []
+# ```cpp []
 class NumArray {
 public:
     vector<int> num;              //暴力法 直接求i到j的和
@@ -45,8 +45,8 @@ public:
  * NumArray* obj = new NumArray(nums);
  * int param_1 = obj->sumRange(i,j);
  */
-```
-```python []
+# ```
+# ```python []
 class NumArray: 
     def __init__(self, nums: List[int]):
         self.num=[0]
@@ -63,5 +63,5 @@ class NumArray:
 # Your NumArray object will be instantiated and called as such:
 # obj = NumArray(nums)
 # param_1 = obj.sumRange(i,j)
-```
+# ```
 

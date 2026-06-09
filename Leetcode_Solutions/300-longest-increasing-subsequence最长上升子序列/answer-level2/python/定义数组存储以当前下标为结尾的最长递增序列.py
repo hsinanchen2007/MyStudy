@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def lengthOfLIS(self, nums: List[int]) -> int:
         if nums == []:
@@ -13,4 +13,4 @@ class Solution:
             lqNums = [maxLength[j] for j in range(i) if nums[j]<nums[i]]
             maxLength[i] = max(lqNums)+1 if lqNums != [] else 1
         return max(maxLength)
-```
+# ```

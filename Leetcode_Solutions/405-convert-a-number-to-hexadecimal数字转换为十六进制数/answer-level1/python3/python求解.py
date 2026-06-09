@@ -1,14 +1,14 @@
-思路一：库函数（作弊过）
+# 思路一：库函数（作弊过）
 
-```python
+# ```python
 class Solution:
     def toHex(self, num: int) -> str:
        return hex(num&0xFFFFFFFF)[2:]
-```
+# ```
 
-思路二：位运算
+# 思路二：位运算
 
-```python
+# ```python
 class Solution:
     def toHex(self, num: int) -> str:
         num &= 0xFFFFFFFF
@@ -19,7 +19,7 @@ class Solution:
             res += s[num & mask]
             num >>= 4
         return res[::-1] if res else "0"
-```
+# ```
 
 
 

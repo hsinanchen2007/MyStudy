@@ -1,4 +1,4 @@
-```
+// ```
 #define MAX_LEN 1024
 
 void reverseString(char* s, int sSize){
@@ -32,4 +32,4 @@ int reverse(int x) {
     return (int)ret;
 }
 
-```
+// ```

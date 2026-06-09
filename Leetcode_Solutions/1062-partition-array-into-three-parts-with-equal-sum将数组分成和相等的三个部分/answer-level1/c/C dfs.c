@@ -1,4 +1,4 @@
-```
+// ```
 bool dfs(int *A, int ASize, int target, int depth, int start)
 {
   if(depth == 3) return 1;
@@ -30,4 +30,4 @@ bool canThreePartsEqualSum(int* A, int ASize){
 
   return dfs(A, ASize, tarSum, 0, 0);
 }
-```
+// ```

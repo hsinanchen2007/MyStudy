@@ -1,6 +1,6 @@
-用栈理解起来好理解，题解不唯一，只需要输出一个，被示例二困了好一会
+// 用栈理解起来好理解，题解不唯一，只需要输出一个，被示例二困了好一会
 
-```
+// ```
 func maxDepthAfterSplit(seq string) []int {
 	stack := make([]int, 0, len(seq))
 	var deep = -1
@@ -16,4 +16,4 @@ func maxDepthAfterSplit(seq string) []int {
 	}
 	return stack
 }
-```
+// ```

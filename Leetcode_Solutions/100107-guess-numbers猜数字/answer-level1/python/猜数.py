@@ -1,9 +1,9 @@
-### 解题思路
-暴力求解，循环遍历判断，并用累加器记录猜对次数并返回终值
+# ### 解题思路
+# 暴力求解，循环遍历判断，并用累加器记录猜对次数并返回终值
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def game(self, guess, answer):
         """
@@ -17,4 +17,4 @@ class Solution(object):
               count+=1
         return count
         
-```
+# ```

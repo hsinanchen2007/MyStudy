@@ -1,9 +1,9 @@
-### 解题思路
-双指针，判断绝对值大小
+// ### 解题思路
+// 双指针，判断绝对值大小
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] sortedSquares(int[] A) {
         int head = 0, last = A.length - 1, index = A.length - 1;
@@ -17,4 +17,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

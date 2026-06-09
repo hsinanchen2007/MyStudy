@@ -1,4 +1,4 @@
-```js
+// ```js
 var mergeTwoLists = function(l1, l2) {
   const dummy = new ListNode();
 
@@ -20,9 +20,9 @@ var mergeTwoLists = function(l1, l2) {
 
   return dummy.next;
 };
-```
+// ```
 
-```js
+// ```js
 var mergeTwoLists = function(l1, l2) {
   const dummy = new ListNode();
 
@@ -42,4 +42,4 @@ var mergeTwoLists = function(l1, l2) {
 
   return dummy.next;
 };
-```
+// ```

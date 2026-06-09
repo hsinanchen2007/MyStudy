@@ -1,11 +1,11 @@
-### 解题思路
-83.45%  100.00%
-逆向双指针，只需要new一个长度变量
-判断稍微多了点
+# ### 解题思路
+# 83.45%  100.00%
+# 逆向双指针，只需要new一个长度变量
+# 判断稍微多了点
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def merge(self, A: List[int], m: int, B: List[int], n: int) -> None:
         """
@@ -29,4 +29,4 @@ class Solution:
                 n=n-1
             
 
-```
+# ```

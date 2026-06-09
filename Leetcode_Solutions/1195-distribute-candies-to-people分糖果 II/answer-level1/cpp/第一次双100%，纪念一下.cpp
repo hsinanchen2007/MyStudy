@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<int> distributeCandies(int candies, int num_people) {
@@ -29,5 +29,5 @@ public:
         return res;
     }
 };
-```
-![微信截图_20191206203012.png](https://pic.leetcode-cn.com/699eba0537b4f14cfc695f498a70556eb6c142b1854ccb5ed7fe851ec8a766e1-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20191206203012.png)
+// ```
+// ![微信截图_20191206203012.png](https://pic.leetcode-cn.com/699eba0537b4f14cfc695f498a70556eb6c142b1854ccb5ed7fe851ec8a766e1-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20191206203012.png)

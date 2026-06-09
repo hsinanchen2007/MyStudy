@@ -1,9 +1,9 @@
-### 解题思路
-一次遍历，快慢指针实现
+// ### 解题思路
+// 一次遍历，快慢指针实现
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int removeElement(int[] nums, int val) {
         int start = 0;
@@ -18,4 +18,4 @@ class Solution {
         return start;
     }
 }
-```
+// ```

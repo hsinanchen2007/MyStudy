@@ -1,6 +1,6 @@
-效率比贪心低，但更通用。
+// 效率比贪心低，但更通用。
 
-```javascript []
+// ```javascript []
     var queue = [];
     var pushQueue = function(value, count){
         queue.push({
@@ -20,5 +20,5 @@
         }
     }
     return -1;
-```
+// ```
 

@@ -1,8 +1,8 @@
-我写了个$O(N^2)$的动态规划。`ToT`
+// 我写了个$O(N^2)$的动态规划。`ToT`
 
-$profits[i] = prices[i] - minPrice(i, j) + profits[j]$ , `j`为上次卖出时间，`i`为这次卖出时间
+// $profits[i] = prices[i] - minPrice(i, j) + profits[j]$ , `j`为上次卖出时间，`i`为这次卖出时间
 
-```java
+// ```java
 class Solution {
     public int maxProfit(int[] prices) {
         if (prices.length == 0) return 0;

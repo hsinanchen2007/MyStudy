@@ -1,12 +1,12 @@
-### 解题思路
-双队列存储，将data1出队推入data2做临时存储，获取到pop或top的数据后再将data2的数据推回data1中,
-如果data2不回推到data1，在入队及出队时需要进行判断
+// ### 解题思路
+// 双队列存储，将data1出队推入data2做临时存储，获取到pop或top的数据后再将data2的数据推回data1中,
+// 如果data2不回推到data1，在入队及出队时需要进行判断
 
-拓展：可以用循环队列，shift之后直接push也可以
+// 拓展：可以用循环队列，shift之后直接push也可以
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class MyStack {
 
     public $data1;
@@ -90,4 +90,4 @@ class MyStack {
 
 
 
-```
+// ```

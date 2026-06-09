@@ -1,6 +1,6 @@
-用了内置list.sort()函数来排序，应该算是一个作弊方法吧..
+# 用了内置list.sort()函数来排序，应该算是一个作弊方法吧..
 
-```python []
+# ```python []
 class Solution:
     def sortString(self, s: str) -> str:
         if not s: return ''
@@ -20,4 +20,4 @@ class Solution:
                 res.append(i)
                 s.remove(i)
         return ''.join(res)
-```
+# ```

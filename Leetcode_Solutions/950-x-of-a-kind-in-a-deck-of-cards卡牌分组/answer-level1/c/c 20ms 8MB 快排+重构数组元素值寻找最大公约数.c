@@ -1,4 +1,4 @@
-```
+// ```
 /**
 * 31 ... 5 4 3 2 1: 5-31位用来存放元素的个数 ， 1-4位用来存放当前元素
 *整体思路：
@@ -88,4 +88,4 @@ bool hasGroupsSizeX( int * deck , int deckSize ){
     return false;
 
 }
-```
+// ```

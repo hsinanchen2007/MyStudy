@@ -1,5 +1,5 @@
-请大佬们指教
-```
+# 请大佬们指教
+# ```
 代码块
 class Solution:
     def validateStackSequences(self, pushed, popped) -> bool:
@@ -17,4 +17,4 @@ class Solution:
             if i > len(pushed) and stack[-1] != popped[j]:
                 return False
             i += 1
-```
+# ```

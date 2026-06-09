@@ -1,9 +1,9 @@
-### 解题思路
-滑动窗口求和
+# ### 解题思路
+# 滑动窗口求和
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findContinuousSequence(self, target: int) -> List[List[int]]:
         ans = []
@@ -21,4 +21,4 @@ class Solution:
             else:
                 j += 1
         return ans
-```
+# ```

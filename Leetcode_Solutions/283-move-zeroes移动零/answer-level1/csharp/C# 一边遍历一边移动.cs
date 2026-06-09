@@ -1,5 +1,5 @@
-一边遍历一边移动，记录下0的个数为zeroCount，最后把数组后zeroCount个元素置为0。
-```
+// 一边遍历一边移动，记录下0的个数为zeroCount，最后把数组后zeroCount个元素置为0。
+// ```
 public class Solution {
     public void MoveZeroes(int[] nums) {
         int zeroCount = 0;
@@ -17,4 +17,4 @@ public class Solution {
         }
     }
 }
-```
+// ```

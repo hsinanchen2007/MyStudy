@@ -1,9 +1,9 @@
-### 解题思路
-I did not figure out the solution to be honest, I just borrowed the 3rd solution from the official solution, and change the syntax from Java to C#.
+// ### 解题思路
+// I did not figure out the solution to be honest, I just borrowed the 3rd solution from the official solution, and change the syntax from Java to C#.
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int CoinChange(int[] coins, int amount) 
     {
@@ -27,4 +27,4 @@ public class Solution {
         return dp[amount] > amount ? -1 : dp[amount];
     }
 }
-```
+// ```

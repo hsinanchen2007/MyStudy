@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     private int count;
     public int search(int[] nums, int target) {
@@ -22,4 +22,4 @@ class Solution {
 
     }   
 }
-```
+// ```

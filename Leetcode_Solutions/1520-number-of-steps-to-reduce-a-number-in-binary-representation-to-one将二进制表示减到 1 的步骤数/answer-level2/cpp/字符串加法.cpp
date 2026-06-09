@@ -1,6 +1,6 @@
-- 字符串加法，除以2直接 pop_back()
+// - 字符串加法，除以2直接 pop_back()
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numSteps(string s) {
@@ -37,5 +37,5 @@ public:
     		s.insert(0,"1");
     }
 };
-```
-0 ms	6.5 MB
+// ```
+// 0 ms	6.5 MB

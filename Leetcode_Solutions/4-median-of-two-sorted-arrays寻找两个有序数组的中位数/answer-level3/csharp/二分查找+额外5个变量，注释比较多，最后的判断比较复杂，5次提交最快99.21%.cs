@@ -1,5 +1,5 @@
-直接上代码
-```
+// 直接上代码
+// ```
 public class Solution {
     public double FindMedianSortedArrays(int[] nums1, int[] nums2) {
         // 先判断有空串的情况
@@ -277,6 +277,6 @@ public class Solution {
         }
     }
 }
-```
+// ```
 
-最后这部分判断可以通过再定以一组变量使得代码量减少一半
+// 最后这部分判断可以通过再定以一组变量使得代码量减少一半

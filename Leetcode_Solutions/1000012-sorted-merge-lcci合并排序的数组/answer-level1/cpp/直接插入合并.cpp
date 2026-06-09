@@ -1,5 +1,5 @@
-直接找位置插入就好了
-```
+// 直接找位置插入就好了
+// ```
 class Solution {
 public:
     void merge(vector<int>& A, int m, vector<int>& B, int n) {
@@ -23,4 +23,4 @@ public:
         return;
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
-**方法一：记忆化搜索：从上往下**
-```
+// **方法一：记忆化搜索：从上往下**
+// ```
 public class Solution {
   /**
   * 思路：
@@ -35,10 +35,10 @@ public class Solution {
     return count[rem - 1];
   }
 }
-```
+// ```
 
-**方法二：记忆化搜索：从下往上**
-```
+// **方法二：记忆化搜索：从下往上**
+// ```
 public class Solution {
   /**
   * 思路：
@@ -61,10 +61,10 @@ public class Solution {
     return dp[amount] > amount ? -1 : dp[amount];
   }
 }
-```
+// ```
 
-**方法三：深度优先搜索(DFS)+剪枝**
-```
+// **方法三：深度优先搜索(DFS)+剪枝**
+// ```
 class Solution {
     /**
     * 思路：
@@ -94,4 +94,4 @@ class Solution {
         }
     }
 }
-```
+// ```

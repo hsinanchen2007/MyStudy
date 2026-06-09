@@ -1,6 +1,6 @@
-[Leetcode-Java(200+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_100_isSameTree.java)
+// [Leetcode-Java(200+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_100_isSameTree.java)
 
-```java
+// ```java
     /**
      * 解题思路：
      * 典型的树的深度遍历（DFS）
@@ -17,4 +17,4 @@
         if (p == null || q == null) return false;
         return isSameTree(p.left,q.left) && isSameTree(p.right,q.right) && p.val == q.val;
     }
-```
+// ```

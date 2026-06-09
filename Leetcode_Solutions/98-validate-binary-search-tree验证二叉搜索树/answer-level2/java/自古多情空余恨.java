@@ -1,9 +1,9 @@
-### 解题思路
-树遍历 若节点 超出（树上届 树下届）则return false
+// ### 解题思路
+// 树遍历 若节点 超出（树上届 树下届）则return false
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -31,4 +31,4 @@ class Solution {
         return  isValidBST(root.left,low ,root.val) && isValidBST(root.right,root.val,upper) ;
     }
 }
-```
+// ```

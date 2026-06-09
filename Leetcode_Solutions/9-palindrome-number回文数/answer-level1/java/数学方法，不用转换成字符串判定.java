@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-见代码注释
+// 见代码注释
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isPalindrome(int x) {
         if(x < 0) return false; //负数肯定不是回文串
@@ -24,4 +24,4 @@ class Solution {
         return tem == origin;
     }
 }
-```
+// ```

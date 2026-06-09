@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def divide(self, dividend: int, divisor: int) -> int:
         # 如果被除数是0，返回0
@@ -35,4 +35,4 @@ def ok(a: int, b: int):
         b += b
         count += 1
     return count, b
-```
+# ```

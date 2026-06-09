@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-第一次除汉诺塔以外写递归，感觉官方总结的很好，复习了语法和递归
+# 第一次除汉诺塔以外写递归，感觉官方总结的很好，复习了语法和递归
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -21,4 +21,4 @@ class Solution:
             return False
         return (t1.val==t2.val) and (self.isMirror(t1.left,t2.right)) and (self.isMirror(t1.right,t2.left))
 
-```
+# ```

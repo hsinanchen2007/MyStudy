@@ -1,15 +1,15 @@
-### 解题思路
-从陆地着手开始扩散，原地记录海洋到陆地的距离。为了区分是否已经遍历过，我们把距离用负数标记，把陆地用1标记，已经标记过的陆地用2标记。
-一开始还觉得想法挺巧妙的，后来意识到其实只要记录BFS的轮次即可，不过写都写了。
+// ### 解题思路
+// 从陆地着手开始扩散，原地记录海洋到陆地的距离。为了区分是否已经遍历过，我们把距离用负数标记，把陆地用1标记，已经标记过的陆地用2标记。
+// 一开始还觉得想法挺巧妙的，后来意识到其实只要记录BFS的轮次即可，不过写都写了。
 
-[自己动手实现分布式缓存](https://github.com/wfnuser/burrow)
-[我的题解](https://www.github.com/wfnuser/leetcode)
-[我的github](https://www.github.com/wfnuser)
-欢迎大家在github follow我 对分布式缓存感兴趣的可以看第一个项目，希望之后可以发布更多的玩具项目
+// [自己动手实现分布式缓存](https://github.com/wfnuser/burrow)
+// [我的题解](https://www.github.com/wfnuser/leetcode)
+// [我的github](https://www.github.com/wfnuser)
+// 欢迎大家在github follow我 对分布式缓存感兴趣的可以看第一个项目，希望之后可以发布更多的玩具项目
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxDistance(vector<vector<int>>& grid) {
@@ -75,4 +75,4 @@ public:
         return ans;
     }
 };
-```
+// ```

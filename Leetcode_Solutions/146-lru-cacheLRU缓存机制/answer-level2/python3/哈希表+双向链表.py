@@ -1,4 +1,4 @@
-```
+# ```
 # Definition for singly-linked list.
 class DbListNode(object):
     def __init__(self, x, y):
@@ -106,4 +106,4 @@ if __name__ == '__main__':
     print(cache)
     cache.get(4)  # 返回  4
     print(cache)
-```
+# ```

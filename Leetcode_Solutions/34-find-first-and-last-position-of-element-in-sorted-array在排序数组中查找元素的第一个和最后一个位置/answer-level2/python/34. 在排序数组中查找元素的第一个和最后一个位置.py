@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def searchRange(self, nums: List[int], target: int) -> List[int]:
         if not nums or len(nums) == 0:
@@ -32,4 +32,4 @@ class Solution:
             right = end
         
         return [left, right]
-```
+# ```

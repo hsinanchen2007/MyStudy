@@ -1,4 +1,4 @@
-```
+// ```
 impl Solution {
     pub fn majority_element(nums: Vec<i32>) -> i32 {
         let (mut cnt, len, mut res) = (0, nums.len(), nums[0]);
@@ -12,5 +12,5 @@ impl Solution {
         res
     }
 }
-```
-![image.png](https://pic.leetcode-cn.com/6396e625709aec0c8fd98d328d2f664ba6ceac03f385a9f2a7e294f0b820ac04-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/6396e625709aec0c8fd98d328d2f664ba6ceac03f385a9f2a7e294f0b820ac04-image.png)

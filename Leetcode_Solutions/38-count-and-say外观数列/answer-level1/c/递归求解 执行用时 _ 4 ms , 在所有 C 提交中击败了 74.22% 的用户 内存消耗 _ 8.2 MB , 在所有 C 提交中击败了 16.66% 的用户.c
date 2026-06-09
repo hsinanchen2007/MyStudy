@@ -1,4 +1,4 @@
-```
+// ```
 #define Len 4500
 char * countAndSay(int n){
     char *pre, *num;
@@ -37,4 +37,4 @@ char * countAndSay(int n){
     }
 }
 
-```
+// ```

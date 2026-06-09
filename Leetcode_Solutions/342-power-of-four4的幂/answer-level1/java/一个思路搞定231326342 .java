@@ -1,4 +1,4 @@
-不懂位运算？ 那就是二分猜猜猜。。。 你只用改一下pow里面的数值即可。。。
+// 不懂位运算？ 那就是二分猜猜猜。。。 你只用改一下pow里面的数值即可。。。
 
 
     public boolean isPowerOfFour(int num) {

@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-levelOrderToArrayString 这个函数将树序列化成字符串。
+// levelOrderToArrayString 这个函数将树序列化成字符串。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 levelOrderToArray = function (root) {
     if (!root)
         return [];
@@ -66,11 +66,11 @@ var findDuplicateSubtrees = function (root) {
     helper(root);
     return ans;
 };
-```
+// ```
 
-### typescript 解法
+// ### typescript 解法
 
-```typescript
+// ```typescript
 export const levelOrderToArray = function<T>(
   root: IBinaryTreeNode<T> | null
 ): (T | null)[] {
@@ -125,4 +125,4 @@ const findDuplicateSubtrees = function(
   helper(root)
   return ans
 }
-```
+// ```

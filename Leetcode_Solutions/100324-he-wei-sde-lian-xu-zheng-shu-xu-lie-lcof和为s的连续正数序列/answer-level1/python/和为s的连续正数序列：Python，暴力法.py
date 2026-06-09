@@ -1,10 +1,10 @@
-### 解题思路
-当存在以i为起点的解时，则不存在以i+1为起点解，可直接以i+2为起点开始搜索，略减少搜索次数。
-因为[i+1, n] < [i, n] = target < [i+1, n+1]，所以以i+1为起点不存在解。
+# ### 解题思路
+# 当存在以i为起点的解时，则不存在以i+1为起点解，可直接以i+2为起点开始搜索，略减少搜索次数。
+# 因为[i+1, n] < [i, n] = target < [i+1, n+1]，所以以i+1为起点不存在解。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def findContinuousSequence(self, target):
         """
@@ -29,4 +29,4 @@ class Solution(object):
             else:
                 i += 1
         return rlist
-```
+# ```

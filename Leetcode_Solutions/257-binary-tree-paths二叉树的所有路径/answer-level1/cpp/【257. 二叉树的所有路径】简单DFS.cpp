@@ -1,9 +1,9 @@
-### 思路
+// ### 思路
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> binaryTreePaths(TreeNode* root) {
@@ -23,4 +23,4 @@ public:
         if (root->right) dfs(root->right, res, cur + "->");
     }
 };
-```
+// ```

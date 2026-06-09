@@ -1,9 +1,9 @@
-### 解题思路
-和官方的思路一样，只不过简化了map的使用，减少了put，get的次数，代码简洁。
+// ### 解题思路
+// 和官方的思路一样，只不过简化了map的使用，减少了put，get的次数，代码简洁。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isValidSudoku(char[][] board) {
         HashMap<Integer, Integer>[] rows = new HashMap[9];
@@ -38,4 +38,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

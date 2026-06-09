@@ -1,9 +1,9 @@
-### 解题思路
-链表反转 + 两数相加1的思路
+// ### 解题思路
+// 链表反转 + 两数相加1的思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -63,4 +63,4 @@ class Solution {
         return pre;
     }   
 }
-```
+// ```

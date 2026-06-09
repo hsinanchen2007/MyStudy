@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def copyRandomList(self, head: 'Node') -> 'Node':
         dic = {}
@@ -25,4 +25,4 @@ class Solution:
             if root.next : root.next = root.next.next
             root = root.next 
         return res  
-```
+# ```

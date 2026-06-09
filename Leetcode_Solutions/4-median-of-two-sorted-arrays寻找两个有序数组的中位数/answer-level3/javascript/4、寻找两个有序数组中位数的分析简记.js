@@ -1,5 +1,5 @@
-#### 解法：
-```javascript
+// #### 解法：
+// ```javascript
 var A = [4,9,19,13];
 var B = [7,19,3,10];
 var n = 4; var m = 4;
@@ -7,29 +7,29 @@ m = >  可分成几份 => m+1   0,1,2,3,4...i-1,---i---,i+1,i+2...m-1,m
 n = >  可分成几份 => n+1   0,1,2,3,4...j-1,---j---,j+1,j+2...n-1,n
 & A,B 数组有序
 & 0<=i<=m
-```
-+ left_part: A[0,i-1]+B[0,j-1]
-+ right_part:	A[i+1,m]+B[j+1,n]
+// ```
+// + left_part: A[0,i-1]+B[0,j-1]
+// + right_part:	A[i+1,m]+B[j+1,n]
 
-+ <1>:m+n 为偶数时   
-    + left_part.length == right_part.length
-    + => i+j = m-i + n-j => j = (m+n) / 2 -i 
-	+ Max(left_part) <= Min(right_part)
-+ 中位数 == ( Max(left_part) + Min(right_part) ) / 2
-+ <2>:m+n 为奇数时  
-    + left_part.length - right_part.length = 1 
-    + => 
-    + i+j = m-i + n-j+1 => j = (m+n+1) / 2 - i
-	+ Max(left_part) <= Min(right_part)
-+ 中位数 == Max(A[i-1],B[j-1]) (比右半部分多出的那个数)
+// + <1>:m+n 为偶数时   
+//     + left_part.length == right_part.length
+//     + => i+j = m-i + n-j => j = (m+n) / 2 -i 
+// 	+ Max(left_part) <= Min(right_part)
+// + 中位数 == ( Max(left_part) + Min(right_part) ) / 2
+// + <2>:m+n 为奇数时  
+//     + left_part.length - right_part.length = 1 
+//     + => 
+//     + i+j = m-i + n-j+1 => j = (m+n+1) / 2 - i
+// 	+ Max(left_part) <= Min(right_part)
+// + 中位数 == Max(A[i-1],B[j-1]) (比右半部分多出的那个数)
 
 
-+ <1> j = (m+n)/2 - i <2> j =(m+n+1) / 2 -i  
-+ 奇数/2 是向下去整的【10/2 = 5 == parseInt(11/2)】 
-+ 所以 j = (m+n+1) / 2 - i  [ 同样兼容偶数 => ((m+n)/2) == parseInt((m+n+1)/2)]
+// + <1> j = (m+n)/2 - i <2> j =(m+n+1) / 2 -i  
+// + 奇数/2 是向下去整的【10/2 = 5 == parseInt(11/2)】 
+// + 所以 j = (m+n+1) / 2 - i  [ 同样兼容偶数 => ((m+n)/2) == parseInt((m+n+1)/2)]
 
-+ 推导 =>  因为: 0 <= i <= m &&  j = (m_n+1) / 2 - i (m+n为奇偶数) && j>0
-```javascript
+// + 推导 =>  因为: 0 <= i <= m &&  j = (m_n+1) / 2 - i (m+n为奇偶数) && j>0
+// ```javascript
     j>0  
     => 
         j= (m+n+1)/2 - i>0
@@ -41,12 +41,12 @@ n = >  可分成几份 => n+1   0,1,2,3,4...j-1,---j---,j+1,j+2...n-1,n
     因为: n>=m && i<=m   =>  j<n
         <=  
         j = (m+n+1) / 2 - i  <= (2n + 1) /2 <= n+1/2 <= n
-```
-+ 为了保证 Max(left_part) <= Min(right_part) 
-     + A,B数组有序 => A[i-1]<=A[i] 
-     + B[j-1]<=B[j]
-+   B[j-1] <= A[i] && A[i-1] <= B[j]
-```javascript
+// ```
+// + 为了保证 Max(left_part) <= Min(right_part) 
+//      + A,B数组有序 => A[i-1]<=A[i] 
+//      + B[j-1]<=B[j]
+// +   B[j-1] <= A[i] && A[i-1] <= B[j]
+// ```javascript
 function findMedianSortedArrays(A,B){
 	var m = A.length,n=B.length;
 	m==0 && n==0 return
@@ -73,9 +73,9 @@ function findMedianSortedArrays(A,B){
             return 中位数==(maxLeft+minRight)/2
     }
 }
-```
-### 解法
-```javascript
+// ```
+// ### 解法
+// ```javascript
 /**
  * @param {number[]} nums1
  * @param {number[]} nums2
@@ -133,4 +133,4 @@ var findMedianSortedArrays = function(nums1, nums2) {
         }
     }
 };
-```
+// ```

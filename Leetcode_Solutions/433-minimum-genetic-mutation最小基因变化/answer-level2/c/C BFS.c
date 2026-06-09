@@ -1,10 +1,10 @@
-### 解题思路
-1. BFS解决 和单词接龙 题目一模一样
-2. 释放资源时，标记Flag；最后判断flag返回结果。
+// ### 解题思路
+// 1. BFS解决 和单词接龙 题目一模一样
+// 2. 释放资源时，标记Flag；最后判断flag返回结果。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct {
     char *str;
     int level;
@@ -97,4 +97,4 @@ int minMutation(char * start, char * end, char ** bank, int bankSize)
         return -1;
     }
 }
-```
+// ```

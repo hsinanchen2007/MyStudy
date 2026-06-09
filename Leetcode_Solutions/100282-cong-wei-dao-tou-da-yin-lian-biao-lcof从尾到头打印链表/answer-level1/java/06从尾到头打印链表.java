@@ -1,9 +1,9 @@
-### 解题思路
-方法一：反转链表，再将值依次放入数组中
+// ### 解题思路
+// 方法一：反转链表，再将值依次放入数组中
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -33,9 +33,9 @@ class Solution {
         return res;
     }
 }
-```
-方法二：利用栈，将链表值依次push()进栈，再依次pop()取出来放进数组中
-```java
+// ```
+// 方法二：利用栈，将链表值依次push()进栈，再依次pop()取出来放进数组中
+// ```java
 class Solution {
     public int[] reversePrint(ListNode head) {
         Stack<Integer> stack = new Stack<>();
@@ -51,10 +51,10 @@ class Solution {
         return ret;
     }
 }
-```
+// ```
 
-方法三：利用递归方法进行调用，在回溯过程中依次将元素放入数组中
-```java
+// 方法三：利用递归方法进行调用，在回溯过程中依次将元素放入数组中
+// ```java
 
 class Solution {
     public int[] reversePrint(ListNode head) {
@@ -72,4 +72,4 @@ class Solution {
         list.add(head.val);
     }
 }
-```
+// ```

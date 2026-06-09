@@ -1,4 +1,4 @@
-```js
+// ```js
 /**
  * @param {string} S
  * @return {string}
@@ -20,4 +20,4 @@ var compressString = function(S) {
     }
     return ans.length < S.length ? ans : S
 };
-```
+// ```

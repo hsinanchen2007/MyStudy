@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public static int maxProfit(int[] prices) {
         if(prices.length == 0 || prices.length == 1)
@@ -55,4 +55,4 @@ class Solution {
             return resultRight;
     }
 }
-```
+// ```

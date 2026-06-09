@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def missingNumber(self, nums: [int]) -> int:
         # 这个要求线性的时间复杂度和常数的额外空间，也就是说我弄个字典来查是不行的
@@ -15,4 +15,4 @@ class Solution:
         ShouldSum = n *(1 + n) / 2
         NumsSum = sum(nums)
         return int(ShouldSum - NumsSum)
-```
+# ```

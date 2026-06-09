@@ -1,9 +1,9 @@
-### 解题思路
-方法比较简单,执行耗时有点多
+# ### 解题思路
+# 方法比较简单,执行耗时有点多
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def isLongPressedName(self, name, typed):
         """
@@ -30,4 +30,4 @@ class Solution(object):
             return True
         else:
             return False
-```
+# ```

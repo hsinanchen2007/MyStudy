@@ -1,11 +1,11 @@
-### 解题思路
-使用一个map，从末尾往前遍历字符串每个字符，遇到#将#前的两个数字作为一体
-![leetcode1309.png](https://pic.leetcode-cn.com/9f393e3c3eed5bc16e03bc02493558e38d97f83b422322639beab9069cf5d71e-leetcode1309.png)
+// ### 解题思路
+// 使用一个map，从末尾往前遍历字符串每个字符，遇到#将#前的两个数字作为一体
+// ![leetcode1309.png](https://pic.leetcode-cn.com/9f393e3c3eed5bc16e03bc02493558e38d97f83b422322639beab9069cf5d71e-leetcode1309.png)
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {string}
@@ -27,4 +27,4 @@ var freqAlphabets = function(s) {
   }
   return stack.join('')
 };
-```
+// ```

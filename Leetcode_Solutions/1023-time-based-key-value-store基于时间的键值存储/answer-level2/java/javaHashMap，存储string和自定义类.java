@@ -1,5 +1,5 @@
-把值和时间戳用一个对象data来存储。利用hashmap存储key为字符串key，值为data数组。
-```
+// 把值和时间戳用一个对象data来存储。利用hashmap存储key为字符串key，值为data数组。
+// ```
 class Data{
         public String value;
         public int timestamp;
@@ -27,11 +27,11 @@ class Data{
 
     }
 
-```
+// ```
 
 
-至于查找有两种方案，一种暴力查找，因为要找时间戳小于等于给定值的value，因此考虑从后往前查找
-```
+// 至于查找有两种方案，一种暴力查找，因为要找时间戳小于等于给定值的value，因此考虑从后往前查找
+// ```
 public String get(String key, int timestamp) {
         List<Data> tmp = data.get(key);
         int n = tmp.size();
@@ -43,11 +43,11 @@ public String get(String key, int timestamp) {
         }
         return "";
     }
-```
+// ```
 
 
-另一种利用二分法查找值最后一个小于等于给定值的数据
-```
+// 另一种利用二分法查找值最后一个小于等于给定值的数据
+// ```
 public String get(String key, int timestamp) {
         List<Data> tmp = data.get(key);
         int n = tmp.size();
@@ -67,10 +67,10 @@ public String get(String key, int timestamp) {
         }
         return result;
     }
-```
+// ```
 
 
-然而出现了一个很奇怪的问题——
-暴力查找耗时188 ms，击败99%
-二分查找耗时226 ms，击败61%
-先不管我的二分查找是不是写的有问题……我能用暴力查找直接击败99%这点就很奇怪了，猜想是不是测试数据存在一定的偏向性
+// 然而出现了一个很奇怪的问题——
+// 暴力查找耗时188 ms，击败99%
+// 二分查找耗时226 ms，击败61%
+// 先不管我的二分查找是不是写的有问题……我能用暴力查找直接击败99%这点就很奇怪了，猜想是不是测试数据存在一定的偏向性

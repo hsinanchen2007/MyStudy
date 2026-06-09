@@ -1,11 +1,11 @@
-### 解题思路
-数据处理 + 深搜
+// ### 解题思路
+// 数据处理 + 深搜
 
-![image.png](https://pic.leetcode-cn.com/70fbd84a7fdcc69d2b8f6bfe2c9f3264d4e16f2c1efce4a7b70da05cd831f79f-image.png)
+// ![image.png](https://pic.leetcode-cn.com/70fbd84a7fdcc69d2b8f6bfe2c9f3264d4e16f2c1efce4a7b70da05cd831f79f-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> cnt, tmp;
@@ -53,4 +53,4 @@ public:
         return ans;
     }
 };
-```
+// ```

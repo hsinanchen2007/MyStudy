@@ -1,16 +1,16 @@
-### 思路
+# ### 思路
 
-##### 解法一
+# ##### 解法一
 
-**BFS**
+# **BFS**
 
-```
+# ```
 每次水壶都有三个操作：加满水、清空水、相互倒。
-```
+# ```
 
-##### Python3代码
+# ##### Python3代码
 
-```python
+# ```python
 class Solution:
     def canMeasureWater(self, x: int, y: int, z: int) -> bool:
         # solution one: BFS
@@ -35,20 +35,20 @@ class Solution:
                     queue.appendleft(item)  # 从队列左边加入元素
                     visited.add(item)
         return False
-```
+# ```
 
-##### 解法二
+# ##### 解法二
 
-**裴蜀定理**
+# **裴蜀定理**
 
-```
+# ```
 能否找到整数 a，b 使得方程 ax + by = z 有解。
 有整数解时，当且仅当 z 是 a 和 b 的最大公约数 d 的倍数。
-```
+# ```
 
-##### Python3代码
+# ##### Python3代码
 
-```python
+# ```python
 class Solution:
     def canMeasureWater(self, x: int, y: int, z: int) -> bool:
         # solution two: 裴蜀定理
@@ -58,12 +58,12 @@ class Solution:
         if x == z or y == z or x + y == z:
             return True
         return z % math.gcd(x, y) == 0
-```
+# ```
 
-### GitHub链接
+# ### GitHub链接
 
-[Python](https://github.com/Wonz5130/LeetCode-Solutions/blob/master/solutions/0365-Water-and-Jug-Problem/0365.py)
+# [Python](https://github.com/Wonz5130/LeetCode-Solutions/blob/master/solutions/0365-Water-and-Jug-Problem/0365.py)
 
-### 参考
+# ### 参考
 
-[暴力 + 数学](https://leetcode-cn.com/problems/water-and-jug-problem/solution/bao-li-shu-xue-by-powcai/)
+# [暴力 + 数学](https://leetcode-cn.com/problems/water-and-jug-problem/solution/bao-li-shu-xue-by-powcai/)

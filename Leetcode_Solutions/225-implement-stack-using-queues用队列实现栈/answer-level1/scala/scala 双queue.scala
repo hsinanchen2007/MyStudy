@@ -1,4 +1,4 @@
-```
+// ```
 import scala.collection.mutable
 import scala.util.control.Breaks._
 
@@ -62,4 +62,4 @@ class MyStack() {
   * var param_3 = obj.top()
   * var param_4 = obj.empty()
   */
-```
+// ```

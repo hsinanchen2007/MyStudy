@@ -1,10 +1,10 @@
-### 解题思路
-先看300题, dp[i]定义为以i结尾的字符最长上升子序列长度
-此时再定义count[i], 代表通往i的最长上升子序列个数
+# ### 解题思路
+# 先看300题, dp[i]定义为以i结尾的字符最长上升子序列长度
+# 此时再定义count[i], 代表通往i的最长上升子序列个数
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findNumberOfLIS(self, nums: List[int]) -> int:
         if not nums:
@@ -24,4 +24,4 @@ class Solution:
         for i in range(l):
             if dp[i]==tmp: res+=count[i]
         return res
-```
+# ```

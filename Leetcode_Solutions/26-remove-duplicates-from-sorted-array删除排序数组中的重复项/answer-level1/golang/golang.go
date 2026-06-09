@@ -1,4 +1,4 @@
-```
+// ```
 func removeDuplicates(nums []int) int {
     if len(nums) == 0 {
 		return 0
@@ -18,4 +18,4 @@ func removeDuplicates(nums []int) int {
     
 	return result
 }
-```
+// ```

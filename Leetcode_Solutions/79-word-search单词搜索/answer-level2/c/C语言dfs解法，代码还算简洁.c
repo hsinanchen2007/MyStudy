@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool _exist(char **board, int row, int col, char *word, int y, int x)
 {
     if (*word == '\0')
@@ -24,4 +24,4 @@ bool exist(char **board, int boardSize, int *boardColSize, char *word)
                 return true;
     return false;
 }
-```
+// ```

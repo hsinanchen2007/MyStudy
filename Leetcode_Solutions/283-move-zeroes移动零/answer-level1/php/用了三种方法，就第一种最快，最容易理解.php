@@ -1,4 +1,4 @@
-```
+// ```
 // 第一种方式
 function moveZeroes(&$nums)
 {
@@ -62,4 +62,4 @@ function moveZeroes2(&$nums)
     }
     return $nums;
 }
-```
+// ```

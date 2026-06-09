@@ -1,5 +1,5 @@
-没注意谜面长度只有7，当时没做出来
-```python
+# 没注意谜面长度只有7，当时没做出来
+# ```python
 class Solution:
     def findNumOfValidWords(self, words: List[str], puzzles: List[str]) -> List[int]:
         w = [frozenset(i) for i in words if len(set(i)) <= 7]
@@ -16,4 +16,4 @@ class Solution:
                     ct += d.get(frozenset(c+pr), 0)
             res.append(ct)
         return res
-```
+# ```

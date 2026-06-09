@@ -1,9 +1,9 @@
-### 解题思路
-rust大法好，动态规划状态记录很重要
+// ### 解题思路
+// rust大法好，动态规划状态记录很重要
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 use std::cmp::{min, max};
 impl Solution {
     pub fn max_profit(prices: Vec<i32>) -> i32 {
@@ -19,4 +19,4 @@ impl Solution {
         max
     }
 }
-```
+// ```

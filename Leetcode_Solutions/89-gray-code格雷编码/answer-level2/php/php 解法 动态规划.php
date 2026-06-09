@@ -1,4 +1,4 @@
-```
+// ```
 function grayCode($n) {
     if($n == 0) return [0];
     $dp[1] = [0,1];
@@ -12,4 +12,4 @@ function grayCode($n) {
     }
     return $dp[$n];
 }
-```
+// ```

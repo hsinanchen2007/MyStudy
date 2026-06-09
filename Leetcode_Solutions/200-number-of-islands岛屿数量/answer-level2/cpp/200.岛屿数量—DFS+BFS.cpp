@@ -1,5 +1,5 @@
-DFS
-```
+// DFS
+// ```
 class Solution {
 public:
     int numIslands(vector<vector<char>>& grid) {
@@ -23,9 +23,9 @@ public:
         if (j < grid[0].size()-1 && grid[i][j+1] == '1') dfs(grid, i, j + 1); //以某点为中心向右扫描
     }
 };
-```
-BFS
-```
+// ```
+// BFS
+// ```
 class Solution {
 public:
     int numIslands(vector<vector<char>>& grid) {
@@ -65,4 +65,4 @@ public:
         return res;
     }
 };
-```
+// ```

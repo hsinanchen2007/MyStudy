@@ -1,10 +1,10 @@
-# 解法一
-## 思路
-在两有序数组合并的过程中，就可以直接算出答案。因为我们只需要中位数，所以并不用保存下合并后的数组。
-时间复杂度O((m+n)/2) 空间复杂度O(1)
-## code
+# # 解法一
+# ## 思路
+# 在两有序数组合并的过程中，就可以直接算出答案。因为我们只需要中位数，所以并不用保存下合并后的数组。
+# 时间复杂度O((m+n)/2) 空间复杂度O(1)
+# ## code
 
-```
+# ```
 class Solution:
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
         m,n = len(nums1),len(nums2)
@@ -37,13 +37,13 @@ class Solution:
                 ret += tmp
                 break
         return ret/2
-```
+# ```
 
-# 解法二
-## 思路
-找中位数，实际上是找m+n个有序数中，找第k=(m+n)/2小的数，采用二分法，每次排除k/2个元素，所以时间复杂度O(log(k))即O(log(m+n)),空间复杂度O(1)
-## code
-```
+# # 解法二
+# ## 思路
+# 找中位数，实际上是找m+n个有序数中，找第k=(m+n)/2小的数，采用二分法，每次排除k/2个元素，所以时间复杂度O(log(k))即O(log(m+n)),空间复杂度O(1)
+# ## code
+# ```
 class Solution:
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
         m,n = len(nums1),len(nums2)
@@ -69,4 +69,4 @@ class Solution:
             return self.findMinK(data1,start1,end1,data2,start2+i2+1,end2,k-i2-1)
         else:
             return self.findMinK(data1,start1+i1+1,end1,data2,start2,end2,k-i1-1)
-```
+# ```

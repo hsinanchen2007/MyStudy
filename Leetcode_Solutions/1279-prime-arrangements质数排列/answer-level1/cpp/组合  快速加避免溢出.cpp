@@ -1,9 +1,9 @@
-### 解题思路
-组合  快速加避免溢出
+// ### 解题思路
+// 组合  快速加避免溢出
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 const int MOD = 1e9+7;
 class Solution {
 private:
@@ -52,4 +52,4 @@ public:
         return solve;
     }
 };
-```
+// ```

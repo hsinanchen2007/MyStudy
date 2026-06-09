@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     int[][][] dirs;
     public boolean hasValidPath(int[][] grid) {
@@ -36,4 +36,4 @@ class Solution {
         return visit[(n - 1) * m + m - 1];
     }
 }
-```
+// ```

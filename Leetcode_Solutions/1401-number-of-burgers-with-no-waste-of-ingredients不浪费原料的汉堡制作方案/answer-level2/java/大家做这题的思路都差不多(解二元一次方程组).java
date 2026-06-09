@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public List<Integer> numOfBurgers(int tomatoSlices, int cheeseSlices) {
        List<Integer>  list = new ArrayList<Integer>();  
@@ -20,4 +20,4 @@ class Solution {
 		 return list;
     }
 }
-```
+// ```

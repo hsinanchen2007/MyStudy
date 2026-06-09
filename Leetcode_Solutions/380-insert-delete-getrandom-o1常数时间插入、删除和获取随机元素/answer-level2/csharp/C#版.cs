@@ -1,4 +1,4 @@
-```csharp
+// ```csharp
 public class RandomizedSet
     {
         private Dictionary<int, int> _dictionary;
@@ -60,4 +60,4 @@ public class RandomizedSet
             return _list[_random.Next(_list.Count)];
         }
     }
-```
+// ```

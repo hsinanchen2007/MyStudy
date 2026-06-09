@@ -1,5 +1,5 @@
-方法1：直接求出所有的前十位数的个数。
-```
+# 方法1：直接求出所有的前十位数的个数。
+# ```
 class Solution:
     def countNumbersWithUniqueDigits(self, n: int) -> int:
         dp = [1, 10]
@@ -12,9 +12,9 @@ class Solution:
         if n <= 10:
             return dp[n]
         return dp[-1]
-```
-dp空间复杂度优化：
-```
+# ```
+# dp空间复杂度优化：
+# ```
 class Solution:
     def countNumbersWithUniqueDigits(self, n: int) -> int:
         if n == 0:
@@ -26,9 +26,9 @@ class Solution:
             dp += tmp
             i += 1
         return dp
-```
-dp的go版本：
-```
+# ```
+# dp的go版本：
+# ```
 func countNumbersWithUniqueDigits(n int) int {
     if n == 0 {
         return 1
@@ -40,17 +40,17 @@ func countNumbersWithUniqueDigits(n int) int {
     }
     return dp
 }
-```
+# ```
 
 
 
-方法2：把前十位数的个数求出来放进数组，直接调用。
-```
+# 方法2：把前十位数的个数求出来放进数组，直接调用。
+# ```
 class Solution:
     def countNumbersWithUniqueDigits(self, n: int) -> int:
         dp = [1, 10, 91, 739, 5275, 32491, 168571, 712891, 2345851, 5611771, 8877691]
         if n <= 10:
             return dp[n]
         return dp[-1]
-```
+# ```
 

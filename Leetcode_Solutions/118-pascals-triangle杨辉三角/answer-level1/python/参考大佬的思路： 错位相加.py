@@ -1,9 +1,9 @@
-### 解题思路
-参考大佬的思路： 错位相加
+# ### 解题思路
+# 参考大佬的思路： 错位相加
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def generate(self, numRows: int) -> List[List[int]]:
         if numRows == 0: return []
@@ -14,4 +14,4 @@ class Solution:
         
         return res
 
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int numberOfSubarrays(int[] nums, int k) {
         if (nums == null || nums.length < 1) {
@@ -18,4 +18,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

@@ -1,16 +1,16 @@
-## 思路:
+# ## 思路:
 
-思路一：三指针
+# 思路一：三指针
 
-思路二：双指针
+# 思路二：双指针
 
-两种方法思路一样的，一个指针判断数组到什么位置，另外两个（或者一个）判断个数！
+# 两种方法思路一样的，一个指针判断数组到什么位置，另外两个（或者一个）判断个数！
 
-## 代码:
+# ## 代码:
 
-思路一：三指针
+# 思路一：三指针
 
-```python
+# ```python
 class Solution:
     def compress(self, chars: List[str]) -> int:
         i = 0
@@ -30,11 +30,11 @@ class Solution:
             k += 1
             j = k
         return i 
-```
+# ```
 
-思路二：双指针
+# 思路二：双指针
 
-```python
+# ```python
 class Solution:
     def compress(self, chars: List[str]) -> int:
         i = 0
@@ -53,7 +53,7 @@ class Solution:
                     i += 1
             j += 1
         return i 
-```
+# ```
 
 
 

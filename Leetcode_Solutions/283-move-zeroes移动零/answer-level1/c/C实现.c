@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void moveZeroes(int* nums, int numsSize){
     //遇到0 则交换
     //有多个零
@@ -30,4 +30,4 @@ void moveZeroes(int* nums, int numsSize){
     }
 
 }
-```
+// ```

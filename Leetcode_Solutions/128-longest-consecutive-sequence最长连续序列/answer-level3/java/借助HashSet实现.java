@@ -1,12 +1,12 @@
-### 解题思路
-1. 借助哈希Set实现
-2. 选用HashSet的原因是去重，因为只要有一个值相等就可以了
-3. 找到一个数，用这个数作为HashSet的Key，然后找这个数-1作为Key，直到找不到为止
-4. 需要明确的是可能会存在负数，所以需要把Key化为Integer来处理
+// ### 解题思路
+// 1. 借助哈希Set实现
+// 2. 选用HashSet的原因是去重，因为只要有一个值相等就可以了
+// 3. 找到一个数，用这个数作为HashSet的Key，然后找这个数-1作为Key，直到找不到为止
+// 4. 需要明确的是可能会存在负数，所以需要把Key化为Integer来处理
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int longestConsecutive(int[] nums) {
         // 数组如果为0，则直接返回0
@@ -38,4 +38,4 @@ class Solution {
         return maxLongSize;
     }
 }
-```
+// ```

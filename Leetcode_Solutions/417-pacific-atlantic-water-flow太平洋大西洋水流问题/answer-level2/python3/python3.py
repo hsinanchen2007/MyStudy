@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def pacificAtlantic(self, matrix: List[List[int]]) -> List[List[int]]:
         if matrix == []: return []
@@ -27,6 +27,6 @@ class Solution:
                 if record[r][c] == 3:
                     res.append([r, c])
         return res
-```
-可以理解为水往高处流以后，海水倒灌，太平洋和大西洋的水都能倒灌进的陆地有哪些。
-遍历四条与大洋交接的边，dfs即可
+# ```
+# 可以理解为水往高处流以后，海水倒灌，太平洋和大西洋的水都能倒灌进的陆地有哪些。
+# 遍历四条与大洋交接的边，dfs即可

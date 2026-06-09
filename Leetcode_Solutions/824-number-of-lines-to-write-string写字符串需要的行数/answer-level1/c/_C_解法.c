@@ -1,13 +1,13 @@
 
-代码思路：
-1. 遍历string，利用给定数组逐一进行统计。
-2. 根据相关的要求，进行增加行数。
-3. 创建返回数组。
+// 代码思路：
+// 1. 遍历string，利用给定数组逐一进行统计。
+// 2. 根据相关的要求，进行增加行数。
+// 3. 创建返回数组。
 
 
 
-# 代码：
-```
+// # 代码：
+// ```
 int* numberOfLines(int* widths, int widthsSize, char * S, int* returnSize){
     int i, 
         j,  
@@ -38,5 +38,5 @@ int* numberOfLines(int* widths, int widthsSize, char * S, int* returnSize){
     return returnarra;
 }
 
-```
+// ```
 

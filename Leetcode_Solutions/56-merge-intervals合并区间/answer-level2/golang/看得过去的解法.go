@@ -1,6 +1,6 @@
-这道题一个坑就是对输入没有说明，所以需要自己对输入进行处理和规整。
+// 这道题一个坑就是对输入没有说明，所以需要自己对输入进行处理和规整。
 
-```
+// ```
 import "sort"
 
 func merge(intervals [][]int) (rst [][]int) {
@@ -29,4 +29,4 @@ func merge(intervals [][]int) (rst [][]int) {
 	return
 }
 
-```
+// ```

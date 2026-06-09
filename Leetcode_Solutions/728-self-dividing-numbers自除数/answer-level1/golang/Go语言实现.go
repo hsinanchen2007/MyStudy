@@ -1,4 +1,4 @@
-```
+// ```
 func selfDividingNumbers(left int, right int) []int {
     var res []int
     for i:=left; i<=right;i++{
@@ -19,4 +19,4 @@ func selfDividingNumbers(left int, right int) []int {
     return res
     
 }
-```
+// ```

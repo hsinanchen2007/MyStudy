@@ -1,9 +1,9 @@
-### 解题思路
-使用哈希表，将数组arr中的元素的顺序编号和数组元素进行对应即可
+// ### 解题思路
+// 使用哈希表，将数组arr中的元素的顺序编号和数组元素进行对应即可
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> arrayRankTransform(vector<int>& arr) {
@@ -26,4 +26,4 @@ public:
         return res;
     }
 };
-```
+// ```

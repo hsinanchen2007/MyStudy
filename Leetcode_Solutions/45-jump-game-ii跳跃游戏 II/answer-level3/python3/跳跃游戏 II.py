@@ -1,9 +1,9 @@
-* 最初用的方法：
-    * 如果这次能跳到最后一步，跳！
-    * 如果不能，就跳到能让它下次跳的最远的距离
-* 但是时间复杂度不稳定
+# * 最初用的方法：
+#     * 如果这次能跳到最后一步，跳！
+#     * 如果不能，就跳到能让它下次跳的最远的距离
+# * 但是时间复杂度不稳定
 
-```python []
+# ```python []
 class Solution:
     def jump(self, nums: List[int]) -> int:
         if len(nums)<2:
@@ -23,10 +23,10 @@ class Solution:
                     next_i = i+j
             i = next_i
             res += 1
-```
+# ```
 
-* 这个方法一次for循环即可。
-```python []
+# * 这个方法一次for循环即可。
+# ```python []
 class Solution:
     def jump(self, nums: List[int]) -> int:
         if len(nums)<2:
@@ -41,4 +41,4 @@ class Solution:
                 end = maxpos
                 res += 1
         return res
-```
+# ```

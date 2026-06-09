@@ -1,6 +1,6 @@
 
 
-```javascript []
+// ```javascript []
 var compress = function(chars) {
   var count = 1//字母计数
   for (let i = 0; i < chars.length; i++) {
@@ -17,4 +17,4 @@ var compress = function(chars) {
   }
   return chars.length
 }
-```
+// ```

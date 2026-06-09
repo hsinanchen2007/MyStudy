@@ -1,9 +1,9 @@
-### 解题思路
-缓存前序可达的最大index，详细思路https://blog.csdn.net/qq_23134039/article/details/103472586
+// ### 解题思路
+// 缓存前序可达的最大index，详细思路https://blog.csdn.net/qq_23134039/article/details/103472586
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canJump(int[] nums) {
        if(nums==null||nums.length==0) {
@@ -23,4 +23,4 @@ class Solution {
 		return true;    //能完成遍历即可
     }
 }
-```
+// ```

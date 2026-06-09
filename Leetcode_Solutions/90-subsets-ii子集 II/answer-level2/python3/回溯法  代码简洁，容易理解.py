@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def subsetsWithDup(self, nums: List[int]) -> List[List[int]]:
         # 预先排序
@@ -15,4 +15,4 @@ class Solution:
                         backtrack(path+[part_nums[i]], part_nums[:i]+part_nums[i+1:])
         backtrack([], nums)
         return ans
-```
+# ```

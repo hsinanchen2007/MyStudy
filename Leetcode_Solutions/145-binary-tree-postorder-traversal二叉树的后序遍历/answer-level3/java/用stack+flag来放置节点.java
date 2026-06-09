@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-前序遍历、中序遍历，都可以直接推到最左节点即可。
-后序遍历，因为节点无法判断其右节点有无子孙，所以需要递归或者放入stack以便后用。
-这是比较大的不同，造成一个节点被访问两次：一次是因为他有子孙节点，还有一次是被真正访问。
+// 前序遍历、中序遍历，都可以直接推到最左节点即可。
+// 后序遍历，因为节点无法判断其右节点有无子孙，所以需要递归或者放入stack以便后用。
+// 这是比较大的不同，造成一个节点被访问两次：一次是因为他有子孙节点，还有一次是被真正访问。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -61,4 +61,4 @@ class TreeNodeWrap{
     public boolean queued;
     public TreeNodeWrap(TreeNode node){this.node = node;this.queued=false;}
 }
-```
+// ```

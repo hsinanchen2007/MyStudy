@@ -1,11 +1,11 @@
-### 解题思路
-蹭个活动
-两个队列可以实现栈，
-两个栈可以实现队列
+// ### 解题思路
+// 蹭个活动
+// 两个队列可以实现栈，
+// 两个栈可以实现队列
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Initialize your data structure here.
  */
@@ -69,4 +69,4 @@ MyStack.prototype.empty = function() {
  * var param_3 = obj.top()
  * var param_4 = obj.empty()
  */
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-用哈希表存计算出来的中间结果，以便后面调用，减少多余的运算
+# ### 解题思路
+# 用哈希表存计算出来的中间结果，以便后面调用，减少多余的运算
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def fib(self, n: int) -> int:
         self.hashmap = {}
@@ -20,4 +20,4 @@ class Solution:
                 self.hashmap[n]=result
                 return result
         return helper(n)%self.mod
-```
+# ```

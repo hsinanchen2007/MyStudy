@@ -1,9 +1,9 @@
-### 解题思路
-Sliding window, 一次历遍。
+# ### 解题思路
+# Sliding window, 一次历遍。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def numOfSubarrays(self, arr: List[int], k: int, threshold: int) -> int:
         n = len(arr)
@@ -14,4 +14,4 @@ class Solution:
             k_sum = k_sum - arr[i-k] + arr[i]
             res += 1 if k_sum >=k*threshold else 0
         return res
-```
+# ```

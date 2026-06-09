@@ -1,4 +1,4 @@
-```
+# ```
 代码块
 class Solution(object):
     def longestCommonSubsequence(self, text1, text2):
@@ -20,4 +20,4 @@ class Solution(object):
                     dp[i][j] = max(dp[i-1][j],dp[i][j-1])
         return dp[m][n]
 
-```
+# ```

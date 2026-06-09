@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-通过深度搜索遍历每层的节点数据，但需要知道节点所在的层 n,通过 n，可取出应存在的 list 并赋值。
+// 通过深度搜索遍历每层的节点数据，但需要知道节点所在的层 n,通过 n，可取出应存在的 list 并赋值。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -58,4 +58,4 @@ class Solution {
         return levelList;
     }
 }
-```
+// ```

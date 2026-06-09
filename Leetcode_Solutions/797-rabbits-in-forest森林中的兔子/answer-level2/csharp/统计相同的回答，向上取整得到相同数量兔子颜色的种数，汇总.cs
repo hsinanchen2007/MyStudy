@@ -1,4 +1,4 @@
-```C# []
+// ```C# []
         public int NumRabbits(int[] answers)
         {
             /*
@@ -30,5 +30,5 @@
 
             return forReturn;
         }
-```
+// ```
 

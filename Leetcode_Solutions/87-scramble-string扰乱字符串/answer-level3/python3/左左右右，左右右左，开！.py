@@ -1,9 +1,9 @@
-### 解题思路 加@functools.lru_cache(None)何用？不加也很快
-此处撰写解题思路
+# ### 解题思路 加@functools.lru_cache(None)何用？不加也很快
+# 此处撰写解题思路
 
-### [代码](https://leetcode-cn.com/problems/scramble-string/solution/di-gui-by-powcai/)
+# ### [代码](https://leetcode-cn.com/problems/scramble-string/solution/di-gui-by-powcai/)
 
-```python
+# ```python
 import functools
 class Solution:
     
@@ -19,4 +19,4 @@ class Solution:
                 return True
         return False
 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-套union find的模板。
+// ### 解题思路
+// 套union find的模板。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
   public int earliestAcq(int[][] logs, int N) {
     Arrays.sort(logs, (a, b) -> {
@@ -53,4 +53,4 @@ class Friends {
     return A;
   }
 }
-```
+// ```

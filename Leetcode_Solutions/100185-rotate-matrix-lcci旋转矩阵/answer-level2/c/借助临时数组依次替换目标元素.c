@@ -1,14 +1,14 @@
-![解题.PNG](https://pic.leetcode-cn.com/dfa02bb49b3d3e7c9aa1f0df48cb5bf73aba1ef645d05651394c39f386008a4b-%E8%A7%A3%E9%A2%98.PNG)
+// ![解题.PNG](https://pic.leetcode-cn.com/dfa02bb49b3d3e7c9aa1f0df48cb5bf73aba1ef645d05651394c39f386008a4b-%E8%A7%A3%E9%A2%98.PNG)
 
 
-### 解题思路
-- 每圈的元素移动可以看成*matrixColSize - 1个元素替换右列matrixSize - 1个元素，重复4次，即可完成一圈旋转。
-- 起始坐标递增，进入下一圈，直到替换完成。
-- 使用两个临时数组，用来交替存放要被替换掉的元素，按题目要求，不是最佳解，但是也没想到更好的办法。
+// ### 解题思路
+// - 每圈的元素移动可以看成*matrixColSize - 1个元素替换右列matrixSize - 1个元素，重复4次，即可完成一圈旋转。
+// - 起始坐标递增，进入下一圈，直到替换完成。
+// - 使用两个临时数组，用来交替存放要被替换掉的元素，按题目要求，不是最佳解，但是也没想到更好的办法。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void rotate(int** matrix, int matrixSize, int* matrixColSize){
     int i;
     int j;     // 临时数组游标
@@ -43,4 +43,4 @@ void rotate(int** matrix, int matrixSize, int* matrixColSize){
     free(tmp1);
     free(tmp2);
 }
-```
+// ```

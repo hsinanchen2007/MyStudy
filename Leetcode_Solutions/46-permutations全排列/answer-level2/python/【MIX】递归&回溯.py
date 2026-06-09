@@ -1,9 +1,9 @@
-### 解题思路
-使用辅助数组+递归回溯搜索
+# ### 解题思路
+# 使用辅助数组+递归回溯搜索
 
-### 代码
+# ### 代码
 
-```java []
+# ```java []
 class Solution {
     public List<List<Integer>> permute(int[] nums) {
         // 递归&回溯
@@ -44,14 +44,14 @@ class Solution {
     // 状态数组
     private boolean []used;
 }
-```
-```python []
+# ```
+# ```python []
 class Solution:
     # 使用库函数
     def permute(self, nums: List[int]) -> List[List[int]]:
         return [*itertools.permutations(nums)]
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
         # 递归+回溯
@@ -78,8 +78,8 @@ class Solution:
                 # 回溯
                 p.pop()
                 self.used[i] = False
-```
-```c++ []
+# ```
+# ```c++ []
 class Solution {
 public:
     vector<vector<int>> permute(vector<int>& nums) {
@@ -114,9 +114,9 @@ private:
     vector<vector<int>> res;
     vector<bool> used;
 };
-```
-**2020/4/9**
-```c++ []
+# ```
+# **2020/4/9**
+# ```c++ []
 class Solution {
 public:
     vector<vector<int>> permute(vector<int>& nums) {
@@ -148,4 +148,4 @@ private:
     vector<bool> used;
     vector<vector<int>> res;
 };
-```
+# ```

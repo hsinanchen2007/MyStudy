@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![捕获.PNG](https://pic.leetcode-cn.com/51c78dbad4ab1d2f46978d79aa2a316858d5639393d896c39f4c678de3fc7d0b-%E6%8D%95%E8%8E%B7.PNG)
+// ### 解题思路
+// 此处撰写解题思路
+// ![捕获.PNG](https://pic.leetcode-cn.com/51c78dbad4ab1d2f46978d79aa2a316858d5639393d896c39f4c678de3fc7d0b-%E6%8D%95%E8%8E%B7.PNG)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void sortColors(int[] nums) {
     	int redindex=0;
@@ -31,4 +31,4 @@ class Solution {
        
     }
 }
-```
+// ```

@@ -1,8 +1,8 @@
-把一个数对看成（start，end）
-step1：用把二维数组做按end大小做升序排列；
-step2：遍历每一个元素，每当前一个数对的end与小于下一个数对的start时，length++（length初值为1，题目最少给出一个数对）；
+// 把一个数对看成（start，end）
+// step1：用把二维数组做按end大小做升序排列；
+// step2：遍历每一个元素，每当前一个数对的end与小于下一个数对的start时，length++（length初值为1，题目最少给出一个数对）；
 
-```
+// ```
 int cmp (const void* a, const void* b)
 {
     const int *pa = *(const int **)a;
@@ -26,4 +26,4 @@ int findLongestChain(int** pairs, int pairsSize, int* pairsColSize){
     *pairsColSize = 2;
     return length;
 }
-```
+// ```

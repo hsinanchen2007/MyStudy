@@ -1,9 +1,9 @@
-### 解题思路
-一道数学思维的数组题，多看题解理解就好了
+// ### 解题思路
+// 一道数学思维的数组题，多看题解理解就好了
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minIncrementForUnique(int[] A) {
         int[] count = new int[80000];
@@ -25,4 +25,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

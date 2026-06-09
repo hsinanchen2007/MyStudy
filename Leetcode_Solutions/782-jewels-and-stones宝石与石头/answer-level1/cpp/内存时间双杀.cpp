@@ -1,9 +1,9 @@
-### 解题思路
-使用 char 节省内存
+// ### 解题思路
+// 使用 char 节省内存
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numJewelsInStones(string J, string S) {
@@ -21,4 +21,4 @@ public:
         return ans;
     }
 };
-```
+// ```

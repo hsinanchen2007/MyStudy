@@ -1,5 +1,5 @@
-动态规划，需要针对0做特殊处理
-```
+// 动态规划，需要针对0做特殊处理
+// ```
 int numDecodings(char * s){
     if (s == NULL) {
         return 1;
@@ -28,4 +28,4 @@ int numDecodings(char * s){
     
     return dp[len];
 }
-```
+// ```

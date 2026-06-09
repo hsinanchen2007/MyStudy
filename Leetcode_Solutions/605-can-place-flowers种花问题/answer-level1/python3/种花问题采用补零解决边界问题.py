@@ -1,10 +1,10 @@
-### 解题思路
-（1）参考大佬的首尾补零可以有效解决边界问题
-（2）再对每个单位两侧判断是否存在间隔即可
+# ### 解题思路
+# （1）参考大佬的首尾补零可以有效解决边界问题
+# （2）再对每个单位两侧判断是否存在间隔即可
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def canPlaceFlowers(self, flowerbed, n):
         """
@@ -26,4 +26,4 @@ class Solution(object):
                 
         return cnt>=n
 
-```
+# ```

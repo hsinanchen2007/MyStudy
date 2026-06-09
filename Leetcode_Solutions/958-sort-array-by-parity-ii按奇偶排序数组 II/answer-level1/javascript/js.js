@@ -1,9 +1,9 @@
-### 解题思路
-定义两个数组存偶数和奇数，循环总长度分别赋值
+// ### 解题思路
+// 定义两个数组存偶数和奇数，循环总长度分别赋值
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} A
  * @return {number[]}
@@ -28,4 +28,4 @@ var sortArrayByParityII = function (A) {
   }
   return result
 }
-```
+// ```

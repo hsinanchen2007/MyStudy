@@ -1,9 +1,9 @@
-### 解题思路
-初始化一个dummy，防止只有一个节点然后要返回倒数第一个节点的时候出错
+// ### 解题思路
+// 初始化一个dummy，防止只有一个节点然后要返回倒数第一个节点的时候出错
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -34,4 +34,4 @@ class Solution {
         return slow;
     }
 }
-```
+// ```

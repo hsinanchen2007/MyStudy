@@ -1,4 +1,4 @@
-```
+// ```
 public class RandomizedCollection
 {
     private int _count;
@@ -133,4 +133,4 @@ public class RandomizedCollection
         public CollectionItemEntry Next;
     }
 }
-```
+// ```

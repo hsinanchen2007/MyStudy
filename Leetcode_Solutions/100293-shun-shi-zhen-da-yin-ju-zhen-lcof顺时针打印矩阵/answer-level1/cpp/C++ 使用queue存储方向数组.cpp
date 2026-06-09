@@ -1,6 +1,6 @@
-# 解题思路
-使用队列保存方向数组，若当前方向未遍历，遍历当前方向；若已遍历，将当前方向置于队尾，通过vector<vector<bool>>保存遍历信息。
-```
+// # 解题思路
+// 使用队列保存方向数组，若当前方向未遍历，遍历当前方向；若已遍历，将当前方向置于队尾，通过vector<vector<bool>>保存遍历信息。
+// ```
     vector<int> spiralOrder(vector<vector<int>>& matrix) {
         int row=matrix.size();
         if(!row) return {};
@@ -39,4 +39,4 @@
         }
         return ans;
     }
-```
+// ```

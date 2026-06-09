@@ -1,9 +1,9 @@
-### 解题思路
-利用递归方法实现对两个二叉树进行遍历，节点累加。
+// ### 解题思路
+// 利用递归方法实现对两个二叉树进行遍历，节点累加。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -26,4 +26,4 @@ func mergeTrees(t1 *TreeNode, t2 *TreeNode) *TreeNode {
 	return t1
 
 }
-```
+// ```

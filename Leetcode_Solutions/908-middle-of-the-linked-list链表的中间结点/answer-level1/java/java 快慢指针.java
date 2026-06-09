@@ -1,9 +1,9 @@
-使用双指针
-slow指针走一步，fast指针走两步，注意链表中节点是奇数的情况
+// 使用双指针
+// slow指针走一步，fast指针走两步，注意链表中节点是奇数的情况
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public ListNode middleNode(ListNode head) {
         // 虚拟头结点
@@ -29,4 +29,4 @@ class Solution {
 
     }
 }
-```
+// ```

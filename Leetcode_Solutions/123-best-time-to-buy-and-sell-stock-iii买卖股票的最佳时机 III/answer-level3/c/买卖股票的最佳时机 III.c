@@ -1,9 +1,9 @@
-### 解题思路
-动态规划
+// ### 解题思路
+// 动态规划
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX(a,b) (a>b?a:b)
 int maxProfit(int* prices, int pricesSize) {
     if(pricesSize<=1) return 0;
@@ -17,4 +17,4 @@ int maxProfit(int* prices, int pricesSize) {
 		}
 		return dp_i20;
 }
-```
+// ```

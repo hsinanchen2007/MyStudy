@@ -1,10 +1,10 @@
-### 解题思路
-通过数组来存储数字出现过的次数
-通过累加来获得结果
+// ### 解题思路
+// 通过数组来存储数字出现过的次数
+// 通过累加来获得结果
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number[]}
@@ -26,4 +26,4 @@ var smallerNumbersThanCurrent = function(nums) {
   }
   return nums;
 };
-```
+// ```

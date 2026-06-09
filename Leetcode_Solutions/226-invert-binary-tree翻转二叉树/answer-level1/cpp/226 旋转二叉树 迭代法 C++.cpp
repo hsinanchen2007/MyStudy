@@ -1,8 +1,8 @@
-### 解题思路
-迭代法，将每个阶段入队列，对队列每个元素左右节点互换
-### 代码
+// ### 解题思路
+// 迭代法，将每个阶段入队列，对队列每个元素左右节点互换
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -23,4 +23,4 @@ public:
         return root;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool backspaceCompare(char * S, char * T){
 	int l1 = strlen(S), l2 = strlen(T), x = 0, y = 0, back = 0;
 	char *a = (char*)calloc(200, sizeof(char)), *b = (char*)calloc(200, sizeof(char));
@@ -28,4 +28,4 @@ bool backspaceCompare(char * S, char * T){
 		}
 	return strcmp(a, b) == 0;
 }
-```
+// ```

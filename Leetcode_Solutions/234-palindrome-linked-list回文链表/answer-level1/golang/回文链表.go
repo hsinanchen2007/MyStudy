@@ -1,9 +1,9 @@
-### 解题思路
-翻转后半部分子链表,再与前半部分子链表比对.
+// ### 解题思路
+// 翻转后半部分子链表,再与前半部分子链表比对.
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -51,4 +51,4 @@ func reverse(head *ListNode) *ListNode {
 	return prev
 }
 
-```
+// ```

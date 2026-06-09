@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-双指针法，从末位开始依次相加，temp存储相加后的和，carry为进位，把temp%10依次加到结果的头部，最后再判断一下carry，如果是1，说明最后一次运算有进位，也要算上。
+// 双指针法，从末位开始依次相加，temp存储相加后的和，carry为进位，把temp%10依次加到结果的头部，最后再判断一下carry，如果是1，说明最后一次运算有进位，也要算上。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func addStrings(num1 string, num2 string) string {
 	i,j,carry,temp := len(num1)-1,len(num2)-1,0,0
 	res := ""
@@ -31,4 +31,4 @@ func addStrings(num1 string, num2 string) string {
 	}
 	return res
 }
-```
+// ```

@@ -1,14 +1,14 @@
-### 解题思路
-我是一位新手, 各位大佬跳过就好
-我是先把两个字符串倒序 
-例如 : 1010 -> 0101; 11001 -> 10011
-然后就大概是这个样子, 一个从左开始算的二进制加法(①表示进位)
-![ee2825e2ece6f7e49fa02b54beb5974.png](https://pic.leetcode-cn.com/ffee3b53787e5e2074d6b1c61ae92f3beed9aa3b625be90697ac77b402399f21-ee2825e2ece6f7e49fa02b54beb5974.png)
+// ### 解题思路
+// 我是一位新手, 各位大佬跳过就好
+// 我是先把两个字符串倒序 
+// 例如 : 1010 -> 0101; 11001 -> 10011
+// 然后就大概是这个样子, 一个从左开始算的二进制加法(①表示进位)
+// ![ee2825e2ece6f7e49fa02b54beb5974.png](https://pic.leetcode-cn.com/ffee3b53787e5e2074d6b1c61ae92f3beed9aa3b625be90697ac77b402399f21-ee2825e2ece6f7e49fa02b54beb5974.png)
 
-然后再将这个110001字符串倒序成 100011 就成了
-### 代码
+// 然后再将这个110001字符串倒序成 100011 就成了
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String addBinary(String a, String b) {
         // 返回结果
@@ -48,4 +48,4 @@ class Solution {
         return result.reverse().toString();
     }
 }
-```
+// ```

@@ -1,15 +1,15 @@
-[297.二叉树的序列化与反序列化](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/submissions/)   
+// [297.二叉树的序列化与反序列化](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/submissions/)   
 
-[力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md)    
+// [力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md)    
 
-题目的要求就是能够把一个二叉树转成字符串（格式自定），然后在把这个字符串反序列化成一个二叉树，只要能够完成这个序列化和反序列化的过程即可。   
+// 题目的要求就是能够把一个二叉树转成字符串（格式自定），然后在把这个字符串反序列化成一个二叉树，只要能够完成这个序列化和反序列化的过程即可。   
 
 
-## 方法一 层序遍历非递归   
+// ## 方法一 层序遍历非递归   
 
-### 数组形式
+// ### 数组形式
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -80,14 +80,14 @@ var deserialize = function(data) {
  * Your functions will be called as such:
  * deserialize(serialize(root));
  */
-```
+// ```
 
----
+// ---
 
 
-### 字符串形式
+// ### 字符串形式
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -157,11 +157,11 @@ var deserialize = function(data) {
  * Your functions will be called as such:
  * deserialize(serialize(root));
  */
-```
+// ```
 
-## 方法二 DFS 递归 
+// ## 方法二 DFS 递归 
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -220,4 +220,4 @@ var deserialize = function(data) {
  * Your functions will be called as such:
  * deserialize(serialize(root));
  */
-```
+// ```

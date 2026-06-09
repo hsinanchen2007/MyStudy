@@ -1,9 +1,9 @@
-### 解题思路
-如代码所示
+# ### 解题思路
+# 如代码所示
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def minSteps(self, s, t):
         """
@@ -21,4 +21,4 @@ class Solution(object):
             for key,num in ss.items():
                 result=result+num-min(num,tt[key])
             return result
-```
+# ```

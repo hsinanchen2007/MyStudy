@@ -1,11 +1,11 @@
-### 解题思路
-so easy
+// ### 解题思路
+// so easy
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func swapNumbers(numbers []int) []int {
     numbers[0], numbers[1] = numbers[1], numbers[0]
     return numbers
 }
-```
+// ```

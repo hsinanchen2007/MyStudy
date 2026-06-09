@@ -1,8 +1,8 @@
-### 解题思
-题目没有看懂。。。。。
-### 代码
+// ### 解题思
+// 题目没有看懂。。。。。
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */

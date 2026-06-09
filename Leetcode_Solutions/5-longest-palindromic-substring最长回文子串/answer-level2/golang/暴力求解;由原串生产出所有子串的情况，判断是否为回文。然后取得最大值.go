@@ -1,4 +1,4 @@
-```golang []
+// ```golang []
 // 暴力求解;由原串生产出所有子串的情况，判断是否为回文。然后得到最大值
 func longestPalindrome(s string) string {
     max := []byte{}
@@ -28,4 +28,4 @@ func isPalindrome(s []byte) bool{
     }
     return true
 }
-```
+// ```

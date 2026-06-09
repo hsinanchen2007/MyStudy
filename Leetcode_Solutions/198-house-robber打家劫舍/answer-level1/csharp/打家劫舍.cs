@@ -1,8 +1,8 @@
-# 动态规划
+// # 动态规划
 
-代码如下：
+// 代码如下：
 
-```C#
+// ```C#
 public class Solution {
     public int Rob(int[] nums) {
         var len = nums.Length;
@@ -21,4 +21,4 @@ public class Solution {
         return list[len - 1];
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-直接计算给定的整数的各位积与各位和，然后计算差。
-```
+// 直接计算给定的整数的各位积与各位和，然后计算差。
+// ```
 class Solution {
     public int subtractProductAndSum(int n) {
         if (n < 10)
@@ -16,4 +16,4 @@ class Solution {
         return difference;
     }
 }
-```
+// ```

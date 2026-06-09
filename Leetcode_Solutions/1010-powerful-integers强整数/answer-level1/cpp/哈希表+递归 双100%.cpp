@@ -1,9 +1,9 @@
-![1586156428(1).jpg](https://pic.leetcode-cn.com/e700d79b2c3f7161b1ae71253c627a28ffbd53d044542f165521702a9fc696af-1586156428\(1\).jpg)
+// ![1586156428(1).jpg](https://pic.leetcode-cn.com/e700d79b2c3f7161b1ae71253c627a28ffbd53d044542f165521702a9fc696af-1586156428\(1\).jpg)
 
 
-如可以优化的地方，欢迎提出宝贝意见。
+// 如可以优化的地方，欢迎提出宝贝意见。
 
-```
+// ```
 class Solution {
 public:
     vector<int> powerfulIntegers(int x, int y, int bound) {
@@ -24,4 +24,4 @@ public:
 
     }
 };
-```
+// ```

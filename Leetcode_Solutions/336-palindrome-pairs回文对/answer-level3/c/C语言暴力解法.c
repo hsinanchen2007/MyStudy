@@ -1,7 +1,7 @@
-# 本题目的接口说明
-`*returnColumnSizes`是要专门申请一个数组长度是回文对的总数，即`*returnSize`，数组的值都为2
+// # 本题目的接口说明
+// `*returnColumnSizes`是要专门申请一个数组长度是回文对的总数，即`*returnSize`，数组的值都为2
 
-```
+// ```
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -140,4 +140,4 @@ int** palindromePairs(char ** words, int wordsSize, int* returnSize, int** retur
 
     return result;
 }
-```
+// ```

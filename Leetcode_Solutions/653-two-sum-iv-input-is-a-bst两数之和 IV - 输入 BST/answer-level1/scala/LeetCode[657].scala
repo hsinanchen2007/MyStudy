@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
   def judgeCircle(moves: String): Boolean = {
     val tuple: (Int, Int) = moves.foldLeft((0, 0))((z, x) => {
@@ -13,4 +13,4 @@ object Solution {
   }
 }
 
-```
+// ```

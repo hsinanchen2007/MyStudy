@@ -1,11 +1,11 @@
-### 解题思路
-**方法一**：位运算，初始化cur = head,num = 0;每遍历一个结点执行num += cur,然后将num向左移动一位
-时间复杂度：O(n)
-空间复杂度：O(1)
+// ### 解题思路
+// **方法一**：位运算，初始化cur = head,num = 0;每遍历一个结点执行num += cur,然后将num向左移动一位
+// 时间复杂度：O(n)
+// 空间复杂度：O(1)
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -28,15 +28,15 @@ var getDecimalValue = function(head) {
     }
     return num;
 };
-```
+// ```
 
-**方法二**：遍历两遍，第一遍计算链表长度
-时间复杂度：O(n)
-空间复杂度：O(1)
+// **方法二**：遍历两遍，第一遍计算链表长度
+// 时间复杂度：O(n)
+// 空间复杂度：O(1)
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var getDecimalValue = function(head) {
     let dummyNode = new ListNode(0);
     let cur1 = dummyNode,cur2 = dummyNode;
@@ -56,7 +56,7 @@ var getDecimalValue = function(head) {
     return num;
 };
 
-```
+// ```
 
 
-**方法三**：反转链表，遍历一遍链表（代码略）
+// **方法三**：反转链表，遍历一遍链表（代码略）

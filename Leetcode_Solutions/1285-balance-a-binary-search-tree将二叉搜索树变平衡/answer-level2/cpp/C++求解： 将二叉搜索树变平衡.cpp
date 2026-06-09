@@ -1,10 +1,10 @@
-### 解题思路
-1、先利于非递归中序遍历将二叉搜索树按值的大小顺序保存
-2、递归构建二叉平衡树
+// ### 解题思路
+// 1、先利于非递归中序遍历将二叉搜索树按值的大小顺序保存
+// 2、递归构建二叉平衡树
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -47,4 +47,4 @@ public:
         return balanceBSTCore(tmp,0,size);
     }
 };
-```
+// ```

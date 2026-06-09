@@ -1,9 +1,9 @@
-每一次变化，只需考虑变化元素的奇偶性，未变化元素不用管
+// 每一次变化，只需考虑变化元素的奇偶性，未变化元素不用管
 
-话说两次提交时间还不一样，差了150ms……怎么和网速还有关系的？……
+// 话说两次提交时间还不一样，差了150ms……怎么和网速还有关系的？……
 
-代码：
-```
+// 代码：
+// ```
 class Solution {
 public:
 	vector<int> sumEvenAfterQueries(vector<int>& A, vector<vector<int>>& queries) {
@@ -28,4 +28,4 @@ public:
 		return ans;
 	}
 };
-```
+// ```

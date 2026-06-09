@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-积累每天比上一天赚的钱就是了
+// ### 解题思路
+// 此处撰写解题思路
+// 积累每天比上一天赚的钱就是了
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int maxProfit(int* prices, int pricesSize){
     if(pricesSize < 2)
     {
@@ -24,4 +24,4 @@ int maxProfit(int* prices, int pricesSize){
 
     return max_results;
 }
-```
+// ```

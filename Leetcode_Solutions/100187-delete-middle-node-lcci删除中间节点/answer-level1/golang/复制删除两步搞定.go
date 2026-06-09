@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-书上解法：直接将后继节点的数据复制到当前节点，然后删除这个后继节点。  
+// 书上解法：直接将后继节点的数据复制到当前节点，然后删除这个后继节点。  
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -17,4 +17,4 @@ func deleteNode(node *ListNode) {
     node.Val = next.Val
     node.Next = next.Next
 }
-```
+// ```

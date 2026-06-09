@@ -1,4 +1,4 @@
-```
+// ```
 import (
 	"container/list"
 	"sort"
@@ -39,4 +39,4 @@ func eventualSafeNodes(graph [][]int) (rst []int) {
 	sort.Ints(rst)
 	return
 }
-```
+// ```

@@ -1,6 +1,6 @@
-## 使用链表实现队列，通过所实现的队列实现栈
+// ## 使用链表实现队列，通过所实现的队列实现栈
 
-```
+// ```
 type MyStack struct {
     Input *Queue//管入栈
     Output *Queue//管出栈
@@ -87,4 +87,4 @@ func (q *Queue)IsEmpty()bool{
         return false
     }
 }
-```
+// ```

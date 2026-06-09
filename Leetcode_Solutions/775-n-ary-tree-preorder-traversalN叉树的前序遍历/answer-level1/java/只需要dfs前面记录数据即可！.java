@@ -1,10 +1,10 @@
-### 解题思路
-![屏幕快照 2020-02-05 15.42.15.png](https://pic.leetcode-cn.com/9ecc0421f4f0a686506a183afa3a0dd66c31af54957826b9885412cd6012f66b-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-02-05%2015.42.15.png)
+// ### 解题思路
+// ![屏幕快照 2020-02-05 15.42.15.png](https://pic.leetcode-cn.com/9ecc0421f4f0a686506a183afa3a0dd66c31af54957826b9885412cd6012f66b-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-02-05%2015.42.15.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /*
 // Definition for a Node.
 class Node {
@@ -43,4 +43,4 @@ class Solution {
         }
     }
 }
-```
+// ```

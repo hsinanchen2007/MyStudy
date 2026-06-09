@@ -1,10 +1,10 @@
-### 解题思路
-1.遍历出所有节点到队列
-2.倒序遍历队列
-3.currNode.next = nextNode
-### 代码
+# ### 解题思路
+# 1.遍历出所有节点到队列
+# 2.倒序遍历队列
+# 3.currNode.next = nextNode
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -23,4 +23,4 @@ class Solution:
             res[i].next = res[i-1]
         return res[len(res)-1]
 
-```
+# ```

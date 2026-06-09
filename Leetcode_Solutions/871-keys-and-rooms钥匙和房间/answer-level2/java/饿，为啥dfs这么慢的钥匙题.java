@@ -1,9 +1,9 @@
-### 解题思路
-dfs解决即可，为啥这么慢
+// ### 解题思路
+// dfs解决即可，为啥这么慢
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canVisitAllRooms(List<List<Integer>> rooms) {
         Map<Integer,List<Integer>> map=new HashMap<>();
@@ -32,4 +32,4 @@ class Solution {
         }
     }
 }
-```
+// ```

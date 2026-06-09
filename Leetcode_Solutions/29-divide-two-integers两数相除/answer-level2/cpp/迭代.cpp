@@ -1,9 +1,9 @@
-### 解题思路
-c++真恶心，不用long判断条件一堆，只有tmp参数上用long节省时间
+// ### 解题思路
+// c++真恶心，不用long判断条件一堆，只有tmp参数上用long节省时间
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int divide(int dividend, int divisor) {
@@ -67,4 +67,4 @@ public:
             return -(Cout+addCout);
     }    
 };
-```
+// ```

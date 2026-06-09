@@ -1,9 +1,9 @@
-### 解题思路
-转成后缀表达式，用栈解
+// ### 解题思路
+// 转成后缀表达式，用栈解
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func calculate(s string) int {
 	prn := getPrn(s)
 	v1, v2, val := 0, 0, 0
@@ -79,4 +79,4 @@ func getPrn(s string) (prn []string) {
 	}
 	return prn
 }
-```
+// ```

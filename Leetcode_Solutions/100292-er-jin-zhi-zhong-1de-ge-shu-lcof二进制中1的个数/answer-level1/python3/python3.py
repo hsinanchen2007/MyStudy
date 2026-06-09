@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def hammingWeight(self, n: int) -> int:
         res = 0
@@ -12,4 +12,4 @@ class Solution:
             if tmp[i]=='1':
                 res+=1
         return res
-```
+# ```

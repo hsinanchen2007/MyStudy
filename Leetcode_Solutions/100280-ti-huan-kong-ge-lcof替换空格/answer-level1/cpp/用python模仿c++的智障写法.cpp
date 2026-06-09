@@ -1,6 +1,6 @@
-注释应该能看懂
+// 注释应该能看懂
 
-```python3
+// ```python3
 class Solution:
     def replaceSpace(self, s: str) -> str:
         # 统计有多少字符和空格
@@ -37,4 +37,4 @@ class Solution:
         for elem in s_list:
             res += elem
         return res
-```
+// ```

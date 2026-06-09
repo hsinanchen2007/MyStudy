@@ -1,6 +1,6 @@
-层序遍历A树的每个节点，判断是否和B树根节点相同。
-相同的时候就DFS，按照先序遍历的顺序递归判断。
-```
+// 层序遍历A树的每个节点，判断是否和B树根节点相同。
+// 相同的时候就DFS，按照先序遍历的顺序递归判断。
+// ```
 class Solution {
 public:
     bool judge(TreeNode *p,TreeNode *b){
@@ -35,4 +35,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
-公式已经给了，照着套
-```
+// 公式已经给了，照着套
+// ```
 /**
  * @param {number} n
  * @return {number}
@@ -15,4 +15,4 @@ var tribonacci = function(n) {
   }
   return arr[n];
 };
-```
+// ```

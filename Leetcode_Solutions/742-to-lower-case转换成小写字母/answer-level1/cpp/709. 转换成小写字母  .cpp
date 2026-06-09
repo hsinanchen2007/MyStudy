@@ -1,9 +1,9 @@
-### 解题思路
-小写字母=大写字母+32
+// ### 解题思路
+// 小写字母=大写字母+32
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string toLowerCase(string str) {
@@ -16,4 +16,4 @@ public:
         return str;
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
-首先想到的是二分法：
-```
+// 首先想到的是二分法：
+// ```
 function isPerfectSquare($num) {
 	$left = 0;
 	$right = $num;
@@ -15,10 +15,10 @@ function isPerfectSquare($num) {
 	}
 	return $left*$left==$num;
 }
-```
-等差数列:
-1+3+5+7+...(2N−1) = N^2
-```
+// ```
+// 等差数列:
+// 1+3+5+7+...(2N−1) = N^2
+// ```
 function isPerfectSquare($num) {
 	$sum = 0;
 	$i = 1;
@@ -28,4 +28,4 @@ function isPerfectSquare($num) {
 	}
 	return $sum==$num;
 }
-```
+// ```

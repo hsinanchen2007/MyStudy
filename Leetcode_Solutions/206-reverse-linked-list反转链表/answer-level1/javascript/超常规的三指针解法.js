@@ -1,9 +1,9 @@
-### 解题思路
-这个应该是最常规的解法了，用三个指针p1 p2 p3，p3在最前面走，然后不断地让p2指向p1
+// ### 解题思路
+// 这个应该是最常规的解法了，用三个指针p1 p2 p3，p3在最前面走，然后不断地让p2指向p1
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -37,4 +37,4 @@ var reverseList = function (head) {
   p2.next = p1;
   return p2;
 };
-```
+// ```

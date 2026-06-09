@@ -1,45 +1,45 @@
-/**
-     * 回溯法
-     *
-     * record[i]含义 : 再第i行，第record[i] = j类的位置放了一个皇后
-     *
-     * 当到达了最后一行的时候，总数+1。
-     */
-    public int totalNQueens(int n) {
-        int[] record = new int[n];
+// /**
+//      * 回溯法
+//      *
+//      * record[i]含义 : 再第i行，第record[i] = j类的位置放了一个皇后
+//      *
+//      * 当到达了最后一行的时候，总数+1。
+//      */
+//     public int totalNQueens(int n) {
+//         int[] record = new int[n];
 
-        return process(n, 0, record);
-    }
+//         return process(n, 0, record);
+//     }
 
-    private int process(int n, int i, int[] record) {
-        if (i == n) {
-            return 1;
-        }
+//     private int process(int n, int i, int[] record) {
+//         if (i == n) {
+//             return 1;
+//         }
 
-        int res= 0;
-        for (int j = 0;j < n;j++) {
-            if (isValid(record, i, j)) {
-                record[i] = j;
-                res += process(n, i+1, record);
-            }
-        }
+//         int res= 0;
+//         for (int j = 0;j < n;j++) {
+//             if (isValid(record, i, j)) {
+//                 record[i] = j;
+//                 res += process(n, i+1, record);
+//             }
+//         }
 
-        return res;
-    }
+//         return res;
+//     }
 
-    private boolean isValid(int[] record, int i, int j) {
-        for (int k = 0; k < i; k++) {
-            if (record[k] == j || Math.abs(i-k) == Math.abs(record[k] - j)) {
-                return false;
-            }
-        }
+//     private boolean isValid(int[] record, int i, int j) {
+//         for (int k = 0; k < i; k++) {
+//             if (record[k] == j || Math.abs(i-k) == Math.abs(record[k] - j)) {
+//                 return false;
+//             }
+//         }
 
-        return true;
-    }
+//         return true;
+//     }
 
 
 
-```
+// ```
 /**
      * 位运算
      *
@@ -79,4 +79,4 @@
 
         return res;
     }
-```
+// ```

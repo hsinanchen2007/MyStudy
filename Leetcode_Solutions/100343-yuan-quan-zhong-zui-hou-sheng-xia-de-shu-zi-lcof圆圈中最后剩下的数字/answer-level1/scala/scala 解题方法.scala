@@ -1,9 +1,9 @@
-### 解题思路
-通过ArrayBuffer存储数值，通过while实现数组的循环遍历，直到还剩下一个元素
-通过计算角标，删除指定的元素
-### 代码
+// ### 解题思路
+// 通过ArrayBuffer存储数值，通过while实现数组的循环遍历，直到还剩下一个元素
+// 通过计算角标，删除指定的元素
+// ### 代码
 
-```scala
+// ```scala
 import scala.collection.mutable.ArrayBuffer
 
 object Solution {
@@ -25,4 +25,4 @@ object Solution {
     arr.head
   }
 }
-```
+// ```

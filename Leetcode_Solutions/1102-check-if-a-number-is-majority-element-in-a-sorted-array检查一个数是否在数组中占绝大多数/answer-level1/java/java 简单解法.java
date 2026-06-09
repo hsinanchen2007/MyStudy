@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public boolean isMajorityElement(int[] nums, int target) {
         /*
@@ -26,4 +26,4 @@ class Solution {
         return cnt > len/2;
     }
 }
-```
+// ```

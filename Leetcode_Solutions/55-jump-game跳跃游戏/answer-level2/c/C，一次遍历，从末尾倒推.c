@@ -1,11 +1,11 @@
-![1.png](https://pic.leetcode-cn.com/edc7fd87026107213ee26f29a198307d87fa4aba20db23a7e8a34d0e6903e857-1.png)
+// ![1.png](https://pic.leetcode-cn.com/edc7fd87026107213ee26f29a198307d87fa4aba20db23a7e8a34d0e6903e857-1.png)
 
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool canJump(int* nums, int numsSize){
     if(numsSize<2)
         return 1;
@@ -27,4 +27,4 @@ bool canJump(int* nums, int numsSize){
 	}
 	return flag;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def nthSuperUglyNumber(n: Int, primes: Array[Int]): Int = {
     val dp = Array.fill(n)(1)
@@ -11,4 +11,4 @@ object Solution {
     dp.last
   }
 }
-```
+// ```

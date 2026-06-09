@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn odd_cells(n: i32, m: i32, indices: Vec<Vec<i32>>) -> i32 {
         let mut matrix = vec![vec![false; m as usize]; n as usize];
@@ -18,5 +18,5 @@ impl Solution {
         matrix.iter().map(|r| r.iter().filter(|&&c| c).count() as i32).sum()
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

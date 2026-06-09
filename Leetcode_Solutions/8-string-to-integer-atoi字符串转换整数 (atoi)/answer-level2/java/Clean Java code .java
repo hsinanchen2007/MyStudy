@@ -1,5 +1,5 @@
-参照[Clean c++ code](https://leetcode-cn.com/problems/string-to-integer-atoi/solution/clean-c-code-by-frank588/)加入自己的理解写了一个Java版，不得不说，原作者思路真的很巧妙！
-```java
+// 参照[Clean c++ code](https://leetcode-cn.com/problems/string-to-integer-atoi/solution/clean-c-code-by-frank588/)加入自己的理解写了一个Java版，不得不说，原作者思路真的很巧妙！
+// ```java
 class Solution {
     public int myAtoi(String str) {
         if (str == null) {
@@ -36,4 +36,4 @@ class Solution {
         return flag ? res : -res;
     }
 }
-```
+// ```

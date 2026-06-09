@@ -1,9 +1,9 @@
-### 解题思路
-前序遍历和中序遍历构造二叉树，递归构造
+# ### 解题思路
+# 前序遍历和中序遍历构造二叉树，递归构造
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -22,4 +22,4 @@ class Solution:
             root.right = pioderbt(preorder[i+1:],inorder[i+1:])
             return root
         return pioderbt(preorder,inorder)
-```
+# ```

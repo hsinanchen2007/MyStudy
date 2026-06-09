@@ -1,4 +1,4 @@
-```
+// ```
 func containsNearbyAlmostDuplicate(nums []int, k int, t int) bool {
     // 考虑k >= len(nums) 的情况存在，因为题目中并未说明k t 和切片元素数量的大小关系
     for i := 0; i < len(nums); i++ {
@@ -23,4 +23,4 @@ func abs(data int) int {
     return data
 }
 
-```
+// ```

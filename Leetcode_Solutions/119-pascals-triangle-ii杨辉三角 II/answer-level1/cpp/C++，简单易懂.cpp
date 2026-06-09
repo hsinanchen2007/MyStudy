@@ -1,7 +1,7 @@
-0ms
-![image.png](https://pic.leetcode-cn.com/1b3b92ee0094344bdd377b36df01331edb14c9f3c0e66d2ebc51d3c8a7795f79-image.png)
+// 0ms
+// ![image.png](https://pic.leetcode-cn.com/1b3b92ee0094344bdd377b36df01331edb14c9f3c0e66d2ebc51d3c8a7795f79-image.png)
 
-```
+// ```
 class Solution {
 public:
     vector<int> getRow(int numRows) {
@@ -21,5 +21,5 @@ public:
         return res;
     }
 };
-```
+// ```
 

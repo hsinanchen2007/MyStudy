@@ -1,4 +1,4 @@
- 这个还是比较简单的东西，只要了解相同的树的定义即可，代码如下
+//  这个还是比较简单的东西，只要了解相同的树的定义即可，代码如下
 
 bool isSameTree(struct TreeNode* p, struct TreeNode* q){
     

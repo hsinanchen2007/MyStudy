@@ -1,9 +1,9 @@
-### 解题思路
-我只能想到这个了
+# ### 解题思路
+# 我只能想到这个了
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def missingNumber(self, arr: List[int]) -> int:
         x=0
@@ -11,4 +11,4 @@ class Solution:
             x=x+arr[i]
         return int(((arr[0]+arr[len(arr)-1])*(len(arr)+1))/2-x)
 
-```
+# ```

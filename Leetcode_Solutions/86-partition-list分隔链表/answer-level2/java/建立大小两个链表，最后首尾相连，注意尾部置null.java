@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public ListNode partition(ListNode head, int x) {
         ListNode less_header = new ListNode(-1);
@@ -21,4 +21,4 @@ class Solution {
         return less_header.next;
     }
 }
-```
+// ```

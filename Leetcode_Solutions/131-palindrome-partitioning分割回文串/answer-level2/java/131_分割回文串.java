@@ -1,9 +1,9 @@
-[131_分割回文串 题解](https://github.com/luo-rong/LeetCode/tree/master/src/_131_PalindromePartitioning) / [GitHub 持续更新](https://github.com/luo-rong/LeetCode)
+// [131_分割回文串 题解](https://github.com/luo-rong/LeetCode/tree/master/src/_131_PalindromePartitioning) / [GitHub 持续更新](https://github.com/luo-rong/LeetCode)
 
-非递归写法，DP的思想。
-子串`s.substring(0, i)`的分割结果为`palindromeList[i] = sum (palindromeList[j-1] + s.substring(j, i + 1)); `（0<=j<=i且`s.substring(j, i + 1)`为回文字串）
+// 非递归写法，DP的思想。
+// 子串`s.substring(0, i)`的分割结果为`palindromeList[i] = sum (palindromeList[j-1] + s.substring(j, i + 1)); `（0<=j<=i且`s.substring(j, i + 1)`为回文字串）
 
-```java
+// ```java
 import java.util.ArrayList;
 import java.util.List;
 
@@ -49,4 +49,4 @@ public class PalindromePartitioning {
         return palindromeList.get(length - 1);
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-从左往右一轮遍历，如果当前位小于前位，则停止遍历；再往前遍历，直至前两位不等，则将这两位中的后一位减1，然后将后续位均变为9即可。
-```
+# 从左往右一轮遍历，如果当前位小于前位，则停止遍历；再往前遍历，直至前两位不等，则将这两位中的后一位减1，然后将后续位均变为9即可。
+# ```
 class Solution:
     def monotoneIncreasingDigits(self, N: int) -> int:
         s = str(N)
@@ -15,4 +15,4 @@ class Solution:
                     res[j] = 9
                 break
         return int(''.join([str(num) for num in res]))
-```
+# ```

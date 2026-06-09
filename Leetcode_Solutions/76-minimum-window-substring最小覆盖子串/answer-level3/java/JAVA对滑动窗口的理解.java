@@ -1,7 +1,7 @@
-一开始想到了双指针方法，但是没想到怎么简单的比较s子串和t是否包含。
-看了评论，使用map来记录s子串中匹配对应t字符的次数，学到了。
+// 一开始想到了双指针方法，但是没想到怎么简单的比较s子串和t是否包含。
+// 看了评论，使用map来记录s子串中匹配对应t字符的次数，学到了。
 
-```
+// ```
 public String minWindow(String s, String t) {
         Map<Character, Integer> map = new HashMap<>();
         for (char c : s.toCharArray()) map.put(c, 0); //初始化s的字符，全部为key-0
@@ -43,5 +43,5 @@ public String minWindow(String s, String t) {
         }
         return result;
     }
-```
-看完如果学到了，兄弟萌把学到了打出来
+// ```
+// 看完如果学到了，兄弟萌把学到了打出来

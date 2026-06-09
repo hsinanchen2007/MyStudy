@@ -1,21 +1,21 @@
-![image.png](https://pic.leetcode-cn.com/442ab76759d4070b6f15514e6d48945b7490e4613f10e6e71e27d467f846c781-image.png)
+// ![image.png](https://pic.leetcode-cn.com/442ab76759d4070b6f15514e6d48945b7490e4613f10e6e71e27d467f846c781-image.png)
 
 
 
 
-### 解题思路
-注释写得比较清楚，拆分了每一个小步骤。
+// ### 解题思路
+// 注释写得比较清楚，拆分了每一个小步骤。
 
-分析：
-1. 这里涉及到多个括号的嵌套，使用递归是最直接的想法。
-2. 把基本框架定下来，问题的关键在于处理括号的情况，如何把次数累积传递，就增加了一个times来传参
-3. 注意idx的调整。在求取name、times等的过程中直接对idx操作即可，没必要再重新处理，且要保持代码一致性，都在小功能函数内部做好对应过程
+// 分析：
+// 1. 这里涉及到多个括号的嵌套，使用递归是最直接的想法。
+// 2. 把基本框架定下来，问题的关键在于处理括号的情况，如何把次数累积传递，就增加了一个times来传参
+// 3. 注意idx的调整。在求取name、times等的过程中直接对idx操作即可，没必要再重新处理，且要保持代码一致性，都在小功能函数内部做好对应过程
 
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 private:
 void add_atom(map<string,int> & atoms, const string & formula, int times)
@@ -112,7 +112,7 @@ public:
         return output(atoms);
     }
 };
-```
+// ```
 
 
 

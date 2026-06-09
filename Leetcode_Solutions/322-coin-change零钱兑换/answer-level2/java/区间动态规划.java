@@ -1,9 +1,9 @@
-### 解题思路
-关键还是状态转移方程
+// ### 解题思路
+// 关键还是状态转移方程
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int coinChange(int[] coins, int amount) {
         int[] dp = new int[amount + 1];
@@ -19,4 +19,4 @@ class Solution {
         return dp[amount];
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-[@yuancg](/u/yuancg/)按这位大佬写的 可以学一手边界处理
-我就是在62基础上单纯加了两句话
-```
+# [@yuancg](/u/yuancg/)按这位大佬写的 可以学一手边界处理
+# 我就是在62基础上单纯加了两句话
+# ```
 class Solution:
     def uniquePathsWithObstacles(self, obstacleGrid: List[List[int]]) -> int:
         m=len(obstacleGrid)
@@ -14,4 +14,4 @@ class Solution:
                     continue
                 dp[i][j] = dp[i-1][j] + dp[i][j-1]
         return dp[m][n]
-```
+# ```

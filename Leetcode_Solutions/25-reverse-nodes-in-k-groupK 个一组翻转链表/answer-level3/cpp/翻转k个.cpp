@@ -1,4 +1,4 @@
-```class Solution {
+// ```class Solution {
 public:
   ListNode* flatK(ListNode* h, int k, ListNode** n) {
  	int tk = k;
@@ -31,4 +31,4 @@ public:
 	 return h->next;     
  }
 };
-```
+// ```

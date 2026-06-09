@@ -1,9 +1,9 @@
-### 解题思路
-同15. 三数之和 16. 最接近的三数之和
+// ### 解题思路
+// 同15. 三数之和 16. 最接近的三数之和
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int threeSumSmaller(int[] nums, int target) {
         if (nums == null || nums.length < 3) {
@@ -28,4 +28,4 @@ class Solution {
         return cnt;
     }
 }
-```
+// ```

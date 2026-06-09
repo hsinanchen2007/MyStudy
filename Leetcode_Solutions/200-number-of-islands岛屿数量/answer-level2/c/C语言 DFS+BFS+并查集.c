@@ -1,9 +1,9 @@
-只学过C，所以只能用C写了。
-我真的太难了……
+// 只学过C，所以只能用C写了。
+// 我真的太难了……
 
 
-DFS
-```
+// DFS
+// ```
 typedef struct {
     int i, j;
 } Vertex;
@@ -89,10 +89,10 @@ int numIslands(char** grid, int gridSize, int* gridColSize) {
     free(visited);
     return count;
 }
-```
+// ```
 
-BFS
-```
+// BFS
+// ```
 typedef struct {
     int i, j;
 } Vertex;
@@ -155,10 +155,10 @@ int numIslands(char** grid, int gridSize, int* gridColSize) {
     free(visited);
     return count;
 }
-```
+// ```
 
-并查集
-```
+// 并查集
+// ```
 typedef struct {
     int data;
     int father;
@@ -224,6 +224,6 @@ int numIslands(char** grid, int gridSize, int* gridColSize) {
     free(t);
     return count;
 }
-```
+// ```
 
 

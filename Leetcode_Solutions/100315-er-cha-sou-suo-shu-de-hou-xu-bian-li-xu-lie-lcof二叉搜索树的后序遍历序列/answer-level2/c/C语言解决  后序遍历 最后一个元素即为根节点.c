@@ -1,11 +1,11 @@
-### 解题思路
-1. 递归判断，最后一个元素即为根，若左子树中出现大于根的元素返回false；若右子树中出现小于根的元素返回false；
-2. 先找到左右子树分界index，然后递归判断左右子树；
-3. 注意返回条件。
+// ### 解题思路
+// 1. 递归判断，最后一个元素即为根，若左子树中出现大于根的元素返回false；若右子树中出现小于根的元素返回false；
+// 2. 先找到左右子树分界index，然后递归判断左右子树；
+// 3. 注意返回条件。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 bool IsPostorder(int* postorder, int start, int end) 
 {
@@ -58,4 +58,4 @@ bool verifyPostorder(int* postorder, int postorderSize)
 
     return IsPostorder(postorder, 0, postorderSize - 1);
 }
-```
+// ```

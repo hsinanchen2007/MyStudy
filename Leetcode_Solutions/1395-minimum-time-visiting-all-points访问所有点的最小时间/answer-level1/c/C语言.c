@@ -1,4 +1,4 @@
-```
+// ```
 int calMinDistence(int *x, int xsize, int *y, int ysize) {
     if (xsize != ysize) {
         return -1;
@@ -59,5 +59,5 @@ int minTimeToVisitAllPoints(int** points, int pointsSize, int* pointsColSize){
     }
     return ret;
 }
-```
-写完看题解才知道原来有切比雪夫距离这种神奇的东西，原谅我数学渣渣
+// ```
+// 写完看题解才知道原来有切比雪夫距离这种神奇的东西，原谅我数学渣渣

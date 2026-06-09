@@ -1,36 +1,36 @@
-# HashMap+List 常规想法
+// # HashMap+List 常规想法
 
-## 分析 
+// ## 分析 
 
-### 数据结构选择
-- 想要实现`O(1)`的`random()` 需使用list 集合或数组
-- 想要实现`O(1)`的`insert()` 数组做不到
-- 想要通过`O(1)`的`remove()` 需使用HashMap存储索引
-- 故采用 HashMap+List
+// ### 数据结构选择
+// - 想要实现`O(1)`的`random()` 需使用list 集合或数组
+// - 想要实现`O(1)`的`insert()` 数组做不到
+// - 想要通过`O(1)`的`remove()` 需使用HashMap存储索引
+// - 故采用 HashMap+List
 
-### 难点
-1. HashMap不能存储重复元素
-解决: map 设计为`<String,Integer>` 
-```java
+// ### 难点
+// 1. HashMap不能存储重复元素
+// 解决: map 设计为`<String,Integer>` 
+// ```java
 //val值第一个元素
 map.put(val+"",count);//count为list中val值个个数
 //val值剩下元素
 map.put(val+"_"+num,index)//num为当前是第几个val元素,index是当前val元素索引
-```
-2. List移除元素后索引值改变
-```java
+// ```
+// 2. List移除元素后索引值改变
+// ```java
 //在要移除元素前插入Integer.MAX_VALUE,random取得时候取到非Integer.MAX_VALUE再返回
 list.add(lastIndex, Integer.MAX_VALUE);
 //移除要移除的元素
 list.remove(lastIndex + 1);
 
 //这个方法缺点明显 有待改进
-```
+// ```
 
 
-## java代码
+// ## java代码
 
-```java
+// ```java
 class RandomizedCollection {
     
 	Map<String, Integer> map;
@@ -106,4 +106,4 @@ class RandomizedCollection {
  * obj.getRandom();
  */
 
-```
+// ```

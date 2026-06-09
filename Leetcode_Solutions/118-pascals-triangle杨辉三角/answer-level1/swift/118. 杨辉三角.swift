@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     func generate(_ numRows: Int) -> [[Int]] {
         var res = [[Int]]()
@@ -33,4 +33,4 @@ class Solution {
         return res
     }
 }
-```
+// ```

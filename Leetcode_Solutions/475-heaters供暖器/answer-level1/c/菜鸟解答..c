@@ -1,4 +1,4 @@
-```
+// ```
 
 int cmp(const void *a,const void *b){
     return *(int*)a-*(int*)b;
@@ -24,4 +24,4 @@ int findRadius(int* houses, int housesSize, int* heaters, int heatersSize){
     return nums[housesSize-1];
 }            
 
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-1.左右计数器方法
-2.动态规划方法
+// ### 解题思路
+// 1.左右计数器方法
+// 2.动态规划方法
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {number}
@@ -73,4 +73,4 @@ var longestValidParentheses2 = function(s) {
     countArr.sort((a,b)=>a-b)
     return countArr[arrLen-1]
 };
-```
+// ```

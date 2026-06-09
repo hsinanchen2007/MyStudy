@@ -1,5 +1,5 @@
-# DP实现
-```
+// # DP实现
+// ```
 //使用DP实现
 func findNumberOfLIS(nums []int) int {
     if len(nums)==0 || nums==nil{
@@ -47,6 +47,6 @@ func findNumberOfLIS(nums []int) int {
     }
     return res
 }
-```
-## 本题与300题类似，核心问题是在300题的上面添加找到最长子序列的组合方式
-## 所以加入一个count数组实现对以nums[i]结尾的最长子序列的组合方式的统计
+// ```
+// ## 本题与300题类似，核心问题是在300题的上面添加找到最长子序列的组合方式
+// ## 所以加入一个count数组实现对以nums[i]结尾的最长子序列的组合方式的统计

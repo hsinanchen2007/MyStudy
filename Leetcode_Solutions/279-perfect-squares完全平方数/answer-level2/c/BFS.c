@@ -1,4 +1,4 @@
-```
+// ```
 #define MAX_NS 500000
 typedef struct ns {
 	int left;
@@ -87,5 +87,5 @@ int numSquares(int n){
 	}
     return 0;
 }
-```
+// ```
 

@@ -1,16 +1,16 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/eba2c5289386a8974de50013c8e5f476971cacba7b60e8172bb5ffb91a1d5799-image.png)
-该题关键是如何构建哈希计算公式，要保证不同顺序的单词得到的结果相同，字母有差异时，得到的结果不同。
-考虑用unsigned long long数据类型，一共占64位，而字母都是小写的，所以把字母尽量平均到不同位上，互相之间还得有差别。
-考虑把字符左移 （ch - 'a')*2位，来平均分配到不同位上；
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/eba2c5289386a8974de50013c8e5f476971cacba7b60e8172bb5ffb91a1d5799-image.png)
+// 该题关键是如何构建哈希计算公式，要保证不同顺序的单词得到的结果相同，字母有差异时，得到的结果不同。
+// 考虑用unsigned long long数据类型，一共占64位，而字母都是小写的，所以把字母尽量平均到不同位上，互相之间还得有差别。
+// 考虑把字符左移 （ch - 'a')*2位，来平均分配到不同位上；
 
-公式如下：
-return (unsigned long long )(ch - 'a' + 1)<<((ch - 'a') * 2);
-不过有点碰运气的成分。
-### 代码
+// 公式如下：
+// return (unsigned long long )(ch - 'a' + 1)<<((ch - 'a') * 2);
+// 不过有点碰运气的成分。
+// ### 代码
 
-```c
+// ```c
 #define DEBUG 0
 unsigned long long GetLetterValue(char ch)
 {
@@ -135,4 +135,4 @@ char *** groupAnagrams(char ** strs, int strsSize, int* returnSize, int** return
 */
 
 
-```
+// ```

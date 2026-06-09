@@ -1,6 +1,6 @@
-### 递归
+// ### 递归
 
-```cpp
+// ```cpp
 class Solution {
 public:
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
@@ -13,10 +13,10 @@ public:
         }
     }
 };
-```
+// ```
 
-### 迭代
-```cpp
+// ### 迭代
+// ```cpp
 class Solution {
 public:
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
@@ -32,4 +32,4 @@ public:
         return root;
     }
 };
-```
+// ```

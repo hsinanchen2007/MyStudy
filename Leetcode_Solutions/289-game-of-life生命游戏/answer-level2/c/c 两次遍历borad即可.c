@@ -1,11 +1,11 @@
-![1.png](https://pic.leetcode-cn.com/4a35c89b9ccaa3baa9f6980fb8f1d0c6736184ddfdfce7422af41c6ae1e44363-1.png)
+// ![1.png](https://pic.leetcode-cn.com/4a35c89b9ccaa3baa9f6980fb8f1d0c6736184ddfdfce7422af41c6ae1e44363-1.png)
 
 
 
 
-borad数据说明：十位用于存放更新后的状态(0或1)，个位用于存放原始状态(0或1)
+// borad数据说明：十位用于存放更新后的状态(0或1)，个位用于存放原始状态(0或1)
 
-```
+// ```
 /**
 *注1:
 *   if( row > 0 && *( *( board + row - 1 ) + col ) % 10 == 1 ){
@@ -142,4 +142,4 @@ void gameOfLife( int ** board , int boardSize , int * boardColSize ){
     }
 
 }
-```
+// ```

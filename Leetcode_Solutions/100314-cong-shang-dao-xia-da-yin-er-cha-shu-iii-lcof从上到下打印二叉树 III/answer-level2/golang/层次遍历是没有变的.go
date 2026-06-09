@@ -1,9 +1,9 @@
-### 解题思路
-一开始 思路错了 其实就是层次遍历 队列的入队方式不变 而输出变了而已
+// ### 解题思路
+// 一开始 思路错了 其实就是层次遍历 队列的入队方式不变 而输出变了而已
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -57,4 +57,4 @@ func levelOrder(root *TreeNode) [][]int {
     // 1 
     //2 3
 }
-```
+// ```

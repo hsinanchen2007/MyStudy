@@ -1,10 +1,10 @@
-重点在于构建private void  listNode(List<TreeNode> nodes, List<List<Integer>> result)这样一个辅助函数。
-辅助函数的入参第一个表示每一层的节点,第二个表示最终的结果。
-每次把当前层的节点值加到最终结果后,获取节点的下一层节点，递归调用，直到下一层节点为空。
+// 重点在于构建private void  listNode(List<TreeNode> nodes, List<List<Integer>> result)这样一个辅助函数。
+// 辅助函数的入参第一个表示每一层的节点,第二个表示最终的结果。
+// 每次把当前层的节点值加到最终结果后,获取节点的下一层节点，递归调用，直到下一层节点为空。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -44,4 +44,4 @@ class Solution {
             return result;
     }
 }
-```
+// ```

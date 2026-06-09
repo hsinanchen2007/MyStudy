@@ -1,4 +1,4 @@
-```
+// ```
 func majorityElement(nums []int) []int {
 	out := []int{}
 	a, b, c1, c2, l := 0, 0, 0, 0, len(nums)
@@ -31,4 +31,4 @@ func majorityElement(nums []int) []int {
 	}
 	return out
 }
-```
+// ```

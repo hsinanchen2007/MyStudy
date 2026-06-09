@@ -1,6 +1,6 @@
-思路：先找出字符串末尾有多少个空格，然后再遍历
+// 思路：先找出字符串末尾有多少个空格，然后再遍历
 
-```java
+// ```java
 class Solution {
     public int lengthOfLastWord(String s) {
         int l = s.length();
@@ -28,4 +28,4 @@ class Solution {
     }
     
 }
-```
+// ```

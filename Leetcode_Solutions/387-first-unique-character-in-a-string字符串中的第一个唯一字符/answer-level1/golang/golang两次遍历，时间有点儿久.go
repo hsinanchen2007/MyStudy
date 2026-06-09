@@ -1,4 +1,4 @@
-```golang
+// ```golang
 func firstUniqChar(s string) int {
     if len(s) <= 0 {
         return -1
@@ -15,4 +15,4 @@ func firstUniqChar(s string) int {
 	return -1
 }
 
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-主要是理解题意，理解后选择先确定R位置然后四个方向找黑子的思路
+// ### 解题思路
+// 主要是理解题意，理解后选择先确定R位置然后四个方向找黑子的思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int numRookCaptures(char** board, int boardSize, int* boardColSize){
     int Rx, Ry, cnt = 0;
     //确定R位置
@@ -53,4 +53,4 @@ int numRookCaptures(char** board, int boardSize, int* boardColSize){
     }
     return cnt;
 }
-```
+// ```

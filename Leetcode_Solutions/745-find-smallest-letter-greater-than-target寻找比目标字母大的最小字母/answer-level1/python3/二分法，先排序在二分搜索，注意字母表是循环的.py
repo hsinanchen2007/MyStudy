@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```
+# ```
 class Solution:
     def nextGreatestLetter(self, letters: List[str], target: str) -> str:
         letter = sorted(letters)
@@ -17,4 +17,4 @@ class Solution:
             return letter[0]
         else:   
             return letter[left]            
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-参考前人的线段树思路，来一个C语言版本的，明天再做一个优化版本
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 参考前人的线段树思路，来一个C语言版本的，明天再做一个优化版本
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -95,4 +95,4 @@ int* countSmaller(int* nums, int numsSize, int* returnSize){
     return sortNums;
 
 }
-```
+// ```

@@ -1,15 +1,15 @@
-### 解题思路
-就是两种大情况，每种大情况又分两种小情况
-1、顺时针走
-  1.1起始位置在终点后start>destination
-  1.2起始位置在终点前start<destination
-2、逆时针走(逆时针走时，要用逆向思维就化为顺时针走了，即将终点起点反过来计算，即可)
-  1.1起始位置在终点后start>destination
-  1.2起始位置在终点前start<destination
+// ### 解题思路
+// 就是两种大情况，每种大情况又分两种小情况
+// 1、顺时针走
+//   1.1起始位置在终点后start>destination
+//   1.2起始位置在终点前start<destination
+// 2、逆时针走(逆时针走时，要用逆向思维就化为顺时针走了，即将终点起点反过来计算，即可)
+//   1.1起始位置在终点后start>destination
+//   1.2起始位置在终点前start<destination
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int distanceBetweenBusStops(int[] distance, int start, int destination) {
         int circlrDis=0;//顺时针走
@@ -47,4 +47,4 @@ class Solution {
         return (reCircleDis>circlrDis)?circlrDis:reCircleDis;
     }
 }
-```
+// ```

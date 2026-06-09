@@ -1,7 +1,7 @@
-# 方法一：合并后排序
-- 先合并再排序 Time Complexity: O(nlogn) Space Complexity: O(1)
+// # 方法一：合并后排序
+// - 先合并再排序 Time Complexity: O(nlogn) Space Complexity: O(1)
 
-```go
+// ```go
 // 版本一：
 func merge(nums1 []int, m int, nums2 []int, n int) {
   nums := append(nums1[:m], nums2...)
@@ -26,11 +26,11 @@ func merge(nums1 []int, m int, nums2 []int, n int) {
   nums1 = append(nums1[:m], nums2...)
   sort.Ints(nums1)
 }
-```
+// ```
 
-# Standard Merge process in merge sort
+// # Standard Merge process in merge sort
 
-```go
+// ```go
 // Standard Merge process in merge sort
 // Time Complexity: O(n) Space Complexity: O(1)
 func merge(nums1 []int, m int, nums2 []int, n int) {
@@ -57,4 +57,4 @@ func merge(nums1 []int, m int, nums2 []int, n int) {
     }
   }
 }
-```
+// ```

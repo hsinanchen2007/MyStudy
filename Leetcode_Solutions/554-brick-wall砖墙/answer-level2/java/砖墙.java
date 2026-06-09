@@ -1,8 +1,8 @@
-把每层从左往右累计求和，求出每层砖所有情况的总和，重复值出现最多的就是通过缝隙最多的，拿层数减去就是最少通过砖块数
+// 把每层从左往右累计求和，求出每层砖所有情况的总和，重复值出现最多的就是通过缝隙最多的，拿层数减去就是最少通过砖块数
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int leastBricks(List<List<Integer>> wall) {
 		int[] all=new int[60000];
@@ -20,4 +20,4 @@ class Solution {
 		return wall.size() - max;
     }
 }
-```
+// ```

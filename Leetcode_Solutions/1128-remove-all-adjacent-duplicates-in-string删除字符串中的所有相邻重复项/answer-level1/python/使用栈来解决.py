@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def removeDuplicates(self, S: str) -> str:
         stack = []
@@ -11,4 +11,4 @@ class Solution:
             else:
                 stack.append(i)
         return ''.join(stack)
-```
+# ```

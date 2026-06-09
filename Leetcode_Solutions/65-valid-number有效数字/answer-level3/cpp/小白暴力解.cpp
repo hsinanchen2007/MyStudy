@@ -1,8 +1,8 @@
-暴力。。。!_!
-不能跟大佬比。
-![image.png](https://pic.leetcode-cn.com/34157d99517b87e49d58c62414c39c1979a99114423ae383a572c52b4c56506d-image.png)
-测试时间不稳定 0-8ms 都有
-```c++ []
+// 暴力。。。!_!
+// 不能跟大佬比。
+// ![image.png](https://pic.leetcode-cn.com/34157d99517b87e49d58c62414c39c1979a99114423ae383a572c52b4c56506d-image.png)
+// 测试时间不稳定 0-8ms 都有
+// ```c++ []
 class Solution {
 public:
     bool isNumber(string s) {
@@ -89,4 +89,4 @@ public:
         return true;
     }
 };
-```
+// ```

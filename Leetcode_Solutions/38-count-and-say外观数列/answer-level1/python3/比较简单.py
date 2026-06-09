@@ -1,9 +1,9 @@
-### 解题思路
-比较暴力
+# ### 解题思路
+# 比较暴力
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countAndSay(self, n: int) -> str:
         o = '1'
@@ -24,4 +24,4 @@ class Solution:
             o = r
 
         return o
-```
+# ```

@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/e5923c6f0a29f37cc2310da147477b37e865751a9d68ee727e50ad4362cf94ea-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e5923c6f0a29f37cc2310da147477b37e865751a9d68ee727e50ad4362cf94ea-image.png)
 
-使用原链返回，使用了O(1)额外空间，当计算到两链长度不一致时补0节点，其实也可以同时修改两条链，以较长的链为返回链。
-```
+// 使用原链返回，使用了O(1)额外空间，当计算到两链长度不一致时补0节点，其实也可以同时修改两条链，以较长的链为返回链。
+// ```
 class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode head = l1;
@@ -27,4 +27,4 @@ class Solution {
         return head;
     }
 }
-```
+// ```

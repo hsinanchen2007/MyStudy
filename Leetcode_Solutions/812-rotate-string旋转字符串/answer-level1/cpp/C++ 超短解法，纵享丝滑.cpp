@@ -1,6 +1,6 @@
-将A重复两遍就会包含所有B的形式，然后判断即可。
+// 将A重复两遍就会包含所有B的形式，然后判断即可。
 
-```
+// ```
 class Solution {
 public:
     bool rotateString(string A, string B) {
@@ -12,4 +12,4 @@ public:
 	    else return true;
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
-我所知道的目前是这种解法，如果是有更高效率的解法，麻烦告知，十分感谢！
-```
+-- 我所知道的目前是这种解法，如果是有更高效率的解法，麻烦告知，十分感谢！
+-- ```
 select id as "id",
 max(case when month='Jan' then revenue else null end) as "Jan_Revenue",
 max(case when month='Feb' then revenue else null end) as "Feb_Revenue",
@@ -15,4 +15,4 @@ max(case when month='Nov' then revenue else null end) as "Nov_Revenue",
 max(case when month='Dec' then revenue else null end) as "Dec_Revenue"
 from Department 
 group by id
-```
+-- ```

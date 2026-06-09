@@ -1,9 +1,9 @@
-### 解题思路
-看成纵向的每一列旋转~就完事了
+// ### 解题思路
+// 看成纵向的每一列旋转~就完事了
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} matrix
  * @return {void} Do not return anything, modify matrix in-place instead.
@@ -20,4 +20,4 @@ var rotate = function(matrix) {
     matrix.splice(0,N)
     return matrix
 };
-```
+// ```

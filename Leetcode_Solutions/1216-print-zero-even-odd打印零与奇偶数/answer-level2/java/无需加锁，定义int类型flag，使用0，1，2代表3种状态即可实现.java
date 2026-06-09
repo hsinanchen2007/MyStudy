@@ -1,9 +1,9 @@
-### 解题思路
-无需加锁，定义int类型flag，使用0，1，2代表3种状态即可实现
+// ### 解题思路
+// 无需加锁，定义int类型flag，使用0，1，2代表3种状态即可实现
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 public class ZeroEvenOdd {
     //定义flag，为0代表执行zero，为1代表执行odd（奇数），为2代表执行even（偶数）
      private volatile int flag = 0;
@@ -53,4 +53,4 @@ public class ZeroEvenOdd {
 
     }
 }
-```
+// ```

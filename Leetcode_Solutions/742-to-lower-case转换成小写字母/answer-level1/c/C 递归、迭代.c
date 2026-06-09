@@ -1,5 +1,5 @@
-递归
-```
+// 递归
+// ```
 char * toLowerCase(char * str){
 	
 	if((*str) == '\0')
@@ -16,9 +16,9 @@ char * toLowerCase(char * str){
 	
 	return str;
 }
-```
-迭代
-```
+// ```
+// 迭代
+// ```
 char * toLowerCase(char * str){
 	
     char* ptr = str; 
@@ -33,4 +33,4 @@ char * toLowerCase(char * str){
 	}
 	return str;
 }
-```
+// ```

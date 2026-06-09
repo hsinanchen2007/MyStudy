@@ -1,5 +1,5 @@
-先将链表反转，再逐个打印各个节点。该算法时间复杂度为O(N)。
-```c
+// 先将链表反转，再逐个打印各个节点。该算法时间复杂度为O(N)。
+// ```c
 int* reversePrint(struct ListNode* head, int* returnSize){
     if(head==0){
         *returnSize=0;
@@ -22,4 +22,4 @@ int* reversePrint(struct ListNode* head, int* returnSize){
     }
     return res;
 }
-```
+// ```

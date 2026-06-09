@@ -1,4 +1,4 @@
-```
+// ```
 // 分n + m 为偶数和奇数两种情况进行考虑
 // 对nums1进行遍历，j = k - i 保证了len(nums1[:i] + nums2[:j]) = len(nums1[i:] + nums2[j:])
 // 此时，只要找到max(nums1[:i] + nums2[:j]) <= min(nums1[i:] + nums2[j:])的情况即为中位数
@@ -95,4 +95,4 @@ func mid(nums []int) float64 {
 
 
 
-```
+// ```

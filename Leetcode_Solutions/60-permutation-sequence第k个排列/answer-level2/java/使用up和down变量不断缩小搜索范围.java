@@ -1,7 +1,7 @@
-执行用时 :1 ms, 在所有 Java 提交中击败了100.00%的用户
-内存消耗 :34.3 MB, 在所有 Java 提交中击败了88.49%的用户
+// 执行用时 :1 ms, 在所有 Java 提交中击败了100.00%的用户
+// 内存消耗 :34.3 MB, 在所有 Java 提交中击败了88.49%的用户
 
-```
+// ```
 public String getPermutation(int n, int k) {
 
         boolean[] flag=new boolean[n];
@@ -34,4 +34,4 @@ public String getPermutation(int n, int k) {
             r*=i;
         return r;
     }
-```
+// ```

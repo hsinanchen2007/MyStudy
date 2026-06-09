@@ -1,10 +1,10 @@
-### 解题思路
-递归解法，每次都先判断是否有K长度，没有直接返回，有的话翻转K个，后面的递归调用。
-可以优化为每次只进行一次循环
+// ### 解题思路
+// 递归解法，每次都先判断是否有K长度，没有直接返回，有的话翻转K个，后面的递归调用。
+// 可以优化为每次只进行一次循环
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /*
  * @lc app=leetcode.cn id=25 lang=javascript
  *
@@ -54,4 +54,4 @@ var reverseKGroup = function(head, k) {
 // @lc code=end
 
 
-```
+// ```

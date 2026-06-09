@@ -1,9 +1,9 @@
-### 解题思路
-按照旋转数组的逻辑，将所有节点都取出保存在list，然后定义一个数组，保存旋转过后相应节点的位置，最后按照数组顺序输出。
+// ### 解题思路
+// 按照旋转数组的逻辑，将所有节点都取出保存在list，然后定义一个数组，保存旋转过后相应节点的位置，最后按照数组顺序输出。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -38,4 +38,4 @@ class Solution {
         return ans.next;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int numRookCaptures(char[][] board) {
         int[] dx = {-1, 1, 0, 0};
@@ -27,4 +27,4 @@ class Solution {
         return 0;
     }
 }
-```
+// ```

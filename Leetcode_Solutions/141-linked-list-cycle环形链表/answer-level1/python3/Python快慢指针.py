@@ -1,9 +1,9 @@
-### 解题思路
-快慢指针如果能相遇，说明存在环。
+# ### 解题思路
+# 快慢指针如果能相遇，说明存在环。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -23,4 +23,4 @@ class Solution(object):
             node2 = node2.next.next
             
         return True
-```
+# ```

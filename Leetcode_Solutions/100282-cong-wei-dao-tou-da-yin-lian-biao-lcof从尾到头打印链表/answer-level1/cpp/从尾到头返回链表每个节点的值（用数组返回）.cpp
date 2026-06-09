@@ -1,16 +1,16 @@
-### 解题思路
-两种解法：
-1.普通思想
-先计算出链表节点长度；  O(n)
-再倒序赋值给数组；  O(n)
+// ### 解题思路
+// 两种解法：
+// 1.普通思想
+// 先计算出链表节点长度；  O(n)
+// 再倒序赋值给数组；  O(n)
 
-2.递归思想
-b = reversePrint(head->next);
-b.push_back(head->val);
+// 2.递归思想
+// b = reversePrint(head->next);
+// b.push_back(head->val);
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -51,4 +51,4 @@ public:
 
     }
 };
-```
+// ```

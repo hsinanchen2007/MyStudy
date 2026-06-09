@@ -1,11 +1,11 @@
-# [岛屿](https://leetcode-cn.com/problems/max-area-of-island/)
-## dfs
-小优化：不需要用额外的bool数组记录是否访问过，直接将访问过的陆地变为水就可以了。
+// # [岛屿](https://leetcode-cn.com/problems/max-area-of-island/)
+// ## dfs
+// 小优化：不需要用额外的bool数组记录是否访问过，直接将访问过的陆地变为水就可以了。
 
-注意area的计算，每次dfs到下一个点，都要更新area的值并返回给上一个点，这样就能保证dfs入口处返回的area是总的大小
+// 注意area的计算，每次dfs到下一个点，都要更新area的值并返回给上一个点，这样就能保证dfs入口处返回的area是总的大小
 
-## code
-```cpp
+// ## code
+// ```cpp
 #include <vector>
 #include <algorithm>
 #include <iostream>
@@ -47,11 +47,11 @@ public:
         return maxArea;
     }
 };
-```
+// ```
 
-## [变式：求岛屿数量](https://leetcode-cn.com/problems/number-of-islands/)
-比上一题简单一点，只需要记录dfs了多少次即可，不需要求面积。
-```cpp
+// ## [变式：求岛屿数量](https://leetcode-cn.com/problems/number-of-islands/)
+// 比上一题简单一点，只需要记录dfs了多少次即可，不需要求面积。
+// ```cpp
 int maxAreaOfIsland(vector<vector<int>> &grid)
 {
     for (int i = 0; i < grid.size(); i++)
@@ -66,4 +66,4 @@ int maxAreaOfIsland(vector<vector<int>> &grid)
     }
     return maxArea;
 }
-```
+// ```

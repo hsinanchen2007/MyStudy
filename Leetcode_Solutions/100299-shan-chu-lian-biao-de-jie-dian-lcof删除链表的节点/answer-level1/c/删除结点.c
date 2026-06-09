@@ -1,9 +1,9 @@
-### 解题思路
-题目不难，定义一个指向被删结点前驱的指针即可
+// ### 解题思路
+// 题目不难，定义一个指向被删结点前驱的指针即可
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -29,4 +29,4 @@ struct ListNode* deleteNode(struct ListNode* head, int val){
 }
 
 
-```
+// ```

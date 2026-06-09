@@ -1,9 +1,9 @@
-### 解题思路
-广度优先搜索
+# ### 解题思路
+# 广度优先搜索
 
-### 代码
+# ### 代码
 
-```
+# ```
 class Solution:
     def frogPosition(self, n: int, edges: List[List[int]], t: int, target: int) -> float:
         graph = [[0]*(n+1) for _ in range(n+1)]
@@ -36,6 +36,6 @@ class Solution:
                         visited[i] = True
                         queue.append((i,probs*probability,steps+1))
         return 0 
-```
+# ```
 
-![image.png](https://pic.leetcode-cn.com/97f3c0b6e784daef8be3effecdb7dbeda1cb0c059c218770bebc51851d9ae514-image.png)
+# ![image.png](https://pic.leetcode-cn.com/97f3c0b6e784daef8be3effecdb7dbeda1cb0c059c218770bebc51851d9ae514-image.png)

@@ -1,7 +1,7 @@
 
-![截图.PNG](https://pic.leetcode-cn.com/cf2862f8ce0c8154e3add75f706d503e49e88ccfac60421cec73f4f0666229a1-%E6%88%AA%E5%9B%BE.PNG)
+// ![截图.PNG](https://pic.leetcode-cn.com/cf2862f8ce0c8154e3add75f706d503e49e88ccfac60421cec73f4f0666229a1-%E6%88%AA%E5%9B%BE.PNG)
 
-```
+// ```
 import java.util.*;
 
 class Twitter {
@@ -90,4 +90,4 @@ class Twitter {
  * obj.unfollow(followerId,followeeId);
  */
 
-```
+// ```

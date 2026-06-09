@@ -1,6 +1,6 @@
-使用两个list列表，分别存储key和value，key和value在两张表中的的位置相同，
-list的长度和数据模拟hash表中的桶，
-```
+// 使用两个list列表，分别存储key和value，key和value在两张表中的的位置相同，
+// list的长度和数据模拟hash表中的桶，
+// ```
 class MyHashMap {
 	/** Initialize your data structure here. */
 	List<List<Integer>> keys;
@@ -53,6 +53,6 @@ class MyHashMap {
         return keys.get(key%length).contains(key);
     }
 }
-```
-其中桶的个数可以自定义，不同数值的执行时间也不同，
-经测试```length = 500``` 时，执行时间最短，在40ms以内
+// ```
+// 其中桶的个数可以自定义，不同数值的执行时间也不同，
+// 经测试```length = 500``` 时，执行时间最短，在40ms以内

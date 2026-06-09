@@ -1,12 +1,12 @@
-### 解题思路
-回溯法，匹配到单词的第一个字符就启动回溯函数。每次先把访问过的字符设置为空，再匹配下一个字符。如果所有字符都被匹配到则返回true，否则把访问过的字符恢复原值。
+// ### 解题思路
+// 回溯法，匹配到单词的第一个字符就启动回溯函数。每次先把访问过的字符设置为空，再匹配下一个字符。如果所有字符都被匹配到则返回true，否则把访问过的字符恢复原值。
 
-![1.png](https://pic.leetcode-cn.com/5a94ded7d83e7a017a701ced1c7a7f8eb7fa363727dc44f559b211aa18bec46c-1.png)
+// ![1.png](https://pic.leetcode-cn.com/5a94ded7d83e7a017a701ced1c7a7f8eb7fa363727dc44f559b211aa18bec46c-1.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool exist(vector<vector<char>>& board, string word) {
@@ -66,4 +66,4 @@ private:
         return false;
     }
 };
-```
+// ```

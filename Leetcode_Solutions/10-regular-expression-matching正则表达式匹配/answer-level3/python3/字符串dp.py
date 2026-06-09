@@ -1,10 +1,10 @@
-### 解题思路
-复杂dp, 对状态的转移要分情况讨论
-一般两个字符串的dp设计的dp[i][j]都代表前i个str1和前j个str2的关系
+# ### 解题思路
+# 复杂dp, 对状态的转移要分情况讨论
+# 一般两个字符串的dp设计的dp[i][j]都代表前i个str1和前j个str2的关系
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isMatch(self, s: str, p: str) -> bool:
         # if not s or not p:
@@ -26,4 +26,4 @@ class Solution:
                     else:
                         dp[i][j] = dp[i-1][j] or dp[i-2][j] or dp[i][j-1] # 分别代表匹配一个char, 匹配0个char, 匹配多个char
         return dp[-1][-1]
-```
+# ```

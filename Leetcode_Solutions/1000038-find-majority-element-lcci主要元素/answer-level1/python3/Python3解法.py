@@ -1,9 +1,9 @@
-### 解题思路
-先数出所有元素个数,然后找出出现次数最多的那个key.
+# ### 解题思路
+# 先数出所有元素个数,然后找出出现次数最多的那个key.
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def majorityElement(self, nums):
         from collections import Counter
@@ -14,4 +14,4 @@ class Solution:
         for i in dct:
             if dct[i] == val:
                 return i
-```
+# ```

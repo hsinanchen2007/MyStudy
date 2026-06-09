@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class Solution {
 public:
   int longestConsecutive(vector<int>& nums) {
@@ -27,4 +27,4 @@ public:
     return ret;
   }
 };
-```
+// ```

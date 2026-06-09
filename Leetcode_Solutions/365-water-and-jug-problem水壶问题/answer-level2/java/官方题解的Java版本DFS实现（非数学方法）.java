@@ -1,5 +1,5 @@
-官方题解`Python`版本写得很好了，这里用`Java`实现，也是用了一个`Stack`记录所有的可能情况，同时用`HashSet`记录已经处理过的状态。需要注意的是，这里`HashSet`不能直接存储一个`int[]`，可以用`Map.Entry`代替，原因看个简单的例子就懂。
-```
+// 官方题解`Python`版本写得很好了，这里用`Java`实现，也是用了一个`Stack`记录所有的可能情况，同时用`HashSet`记录已经处理过的状态。需要注意的是，这里`HashSet`不能直接存储一个`int[]`，可以用`Map.Entry`代替，原因看个简单的例子就懂。
+// ```
 // int[]
 HashSet<int[]> set = new HashSet<>();
 int[] arr = new int[]{1,2};
@@ -13,9 +13,9 @@ Map.Entry<Integer, Integer> entry = new AbstractMap.SimpleEntry<Integer, Integer
 seenSet.add(entry);
 System.out.println(seenSet.contains(entry));  // true
 System.out.println(seenSet.contains(new AbstractMap.SimpleEntry<Integer, Integer>(2,3)));  // true
-```
-其他基本和官方题解一样，记得要`import java.util.*`具体代码如下。
-```
+// ```
+// 其他基本和官方题解一样，记得要`import java.util.*`具体代码如下。
+// ```
 import java.util.*;
 class Solution {
     public boolean canMeasureWater(int x, int y, int z) {
@@ -42,4 +42,4 @@ class Solution {
         return false;  // 没有达到z，桟已空，返回false不可能
     }
 }
-```
+// ```

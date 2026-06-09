@@ -1,4 +1,4 @@
-````
+// ````
 func lengthOfLastWord(s string) int {
 	trimS := strings.Trim(s, " ")
 
@@ -11,4 +11,4 @@ func lengthOfLastWord(s string) int {
 	}
 	return result
 }
-````
+// ````

@@ -1,4 +1,4 @@
-```python
+# ```python
 def largeGroupPositions(S):
     # i, j为相同字母的开始索引, 结束索引的下一个
     r, i, j = [], 0, 0
@@ -20,4 +20,4 @@ print(largeGroupPositions("abbxxxxzzy"))
 print(largeGroupPositions("abc"))
 print(largeGroupPositions("abcdddeeeeaabbbcd"))
 print(largeGroupPositions("abccc"))
-```
+# ```

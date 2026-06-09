@@ -1,9 +1,9 @@
-### 解题思路
-做一下树的层次遍历就好了，应该算简单题吧。
+// ### 解题思路
+// 做一下树的层次遍历就好了，应该算简单题吧。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -33,4 +33,4 @@ public:
         return res;
     }
 };
-```
+// ```

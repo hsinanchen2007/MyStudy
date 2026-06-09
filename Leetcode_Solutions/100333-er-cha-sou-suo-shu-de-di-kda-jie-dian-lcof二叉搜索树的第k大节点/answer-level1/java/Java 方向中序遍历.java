@@ -1,9 +1,9 @@
-实际上，这道题使用迭代和递归的思想都是一致的。
-迭代本质上是利用一个栈去遍历整棵树，而递归的流程跟栈很相似。
+// 实际上，这道题使用迭代和递归的思想都是一致的。
+// 迭代本质上是利用一个栈去遍历整棵树，而递归的流程跟栈很相似。
 
-解法一：递归
+// 解法一：递归
     
-```
+// ```
 class Solution {
         int k;
         int res;
@@ -27,10 +27,10 @@ class Solution {
             kthLargest(root.left);
         }
     }
-```
+// ```
 
-解法二：非递归（迭代） 栈实现
-```
+// 解法二：非递归（迭代） 栈实现
+// ```
 Class Solution{
     public int kthLargest(TreeNode root, int k) {
         int count = 0;
@@ -49,4 +49,4 @@ Class Solution{
         return -1;
         }
 }
-```
+// ```

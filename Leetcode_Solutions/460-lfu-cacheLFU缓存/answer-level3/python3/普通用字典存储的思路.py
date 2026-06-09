@@ -1,9 +1,9 @@
-### 解题思路
-如代码
+# ### 解题思路
+# 如代码
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class LFUCache:
 
     def __init__(self, capacity: int):
@@ -59,4 +59,4 @@ class LFUCache:
 # obj = LFUCache(capacity)
 # param_1 = obj.get(key)
 # obj.put(key,value)
-```
+# ```

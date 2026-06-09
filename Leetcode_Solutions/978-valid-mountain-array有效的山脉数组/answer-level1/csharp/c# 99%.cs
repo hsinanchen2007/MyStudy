@@ -1,6 +1,6 @@
-看下面
-妙在统计Lenght 与 计数器i 的数量，如果== 。说明走到了尽头，避免了03212这种反复出现的山脉。
-```
+// 看下面
+// 妙在统计Lenght 与 计数器i 的数量，如果== 。说明走到了尽头，避免了03212这种反复出现的山脉。
+// ```
 public bool ValidMountainArray(int[] A)
         {
             int N = A.Length;
@@ -17,4 +17,4 @@ public bool ValidMountainArray(int[] A)
                 return false;
 
         }
-```
+// ```

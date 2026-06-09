@@ -1,9 +1,9 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/207c1539782aeb20faa8ff87e137c1cdf6d8519de096e37fc97c2b7b5fed2cac-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/207c1539782aeb20faa8ff87e137c1cdf6d8519de096e37fc97c2b7b5fed2cac-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int findPoisonedDuration(int* timeSeries, int timeSeriesSize, int duration){
     if(NULL== timeSeries || 0 == timeSeriesSize)
     {
@@ -27,4 +27,4 @@ int findPoisonedDuration(int* timeSeries, int timeSeriesSize, int duration){
 
     return  totalTime + duration;
 }
-```
+// ```

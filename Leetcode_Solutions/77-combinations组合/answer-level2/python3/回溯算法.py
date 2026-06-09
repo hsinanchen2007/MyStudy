@@ -1,20 +1,20 @@
-## 思路:
+# ## 思路:
 
-思路一: 库函数
+# 思路一: 库函数
 
-```python
+# ```python
 class Solution:
     def combine(self, n: int, k: int) -> List[List[int]]:
         return list(itertools.combinations(range(1, n+1), k))
-```
+# ```
 
-思路二: 回溯算法
+# 思路二: 回溯算法
 
-## 代码:
+# ## 代码:
 
-思路二
+# 思路二
 
-```python [1]
+# ```python [1]
 class Solution:
     def combine(self, n: int, k: int) -> List[List[int]]:
         res = []
@@ -26,11 +26,11 @@ class Solution:
                 backtrack(j+1, k-1, tmp + [j])
         backtrack(1, k, [])
         return res
-```
+# ```
 
 
 
-```java [1]
+# ```java [1]
 class Solution {
     public List<List<Integer>> combine(int n, int k) {
         List<List<Integer>> res = new ArrayList<>();
@@ -50,35 +50,35 @@ class Solution {
         }
     }
 }
-```
+# ```
 
-------
+# ------
 
-类似题目还有:
+# 类似题目还有:
 
-[39.组合总和](https://leetcode-cn.com/problems/combination-sum/)
+# [39.组合总和](https://leetcode-cn.com/problems/combination-sum/)
 
-[40. 组合总和 II](https://leetcode-cn.com/problems/combination-sum-ii/)
+# [40. 组合总和 II](https://leetcode-cn.com/problems/combination-sum-ii/)
 
-[46. 全排列](https://leetcode-cn.com/problems/permutations/)
+# [46. 全排列](https://leetcode-cn.com/problems/permutations/)
 
-[47. 全排列 II](https://leetcode-cn.com/problems/permutations-ii/)
+# [47. 全排列 II](https://leetcode-cn.com/problems/permutations-ii/)
 
-[78. 子集](https://leetcode-cn.com/problems/subsets/)
+# [78. 子集](https://leetcode-cn.com/problems/subsets/)
 
-[90. 子集 II](https://leetcode-cn.com/problems/subsets-ii/)
+# [90. 子集 II](https://leetcode-cn.com/problems/subsets-ii/)
 
-这类题目都是同一类型的,用回溯算法!
+# 这类题目都是同一类型的,用回溯算法!
 
-其实回溯算法关键在于:不合适就退回上一步
+# 其实回溯算法关键在于:不合适就退回上一步
 
-然后通过约束条件, 减少时间复杂度.
+# 然后通过约束条件, 减少时间复杂度.
 
-大家可以从下面的解法找出一点感觉!
+# 大家可以从下面的解法找出一点感觉!
 
-[78. 子集](https://leetcode-cn.com/problems/subsets/)
+# [78. 子集](https://leetcode-cn.com/problems/subsets/)
 
-```python
+# ```python
 class Solution:
 	def subsets(self, nums):		
               if not nums:
@@ -93,11 +93,11 @@ class Solution:
 
 		helper(0, [])
 		return res
-```
+# ```
 
-[90. 子集 II](https://leetcode-cn.com/problems/subsets-ii/)
+# [90. 子集 II](https://leetcode-cn.com/problems/subsets-ii/)
 
-```python
+# ```python
 class Solution(object):
     def subsetsWithDup(self, nums):
         """
@@ -125,11 +125,11 @@ class Solution(object):
 
         helper2(0, n, [])
         return res
-```
+# ```
 
-[46. 全排列](https://leetcode-cn.com/problems/permutations/)
+# [46. 全排列](https://leetcode-cn.com/problems/permutations/)
 
-```python
+# ```python
 class Solution(object):
     def permute(self, nums):
         """
@@ -157,11 +157,11 @@ class Solution(object):
                 helper2(nums[:i]+nums[i+1:],temp_list+[nums[i]],length+1)
         helper1([],0)
         return res
-```
+# ```
 
-[47. 全排列 II](https://leetcode-cn.com/problems/permutations-ii/)
+# [47. 全排列 II](https://leetcode-cn.com/problems/permutations-ii/)
 
-```python 
+# ```python 
 class Solution:
     def permuteUnique(self, nums: List[int]) -> List[List[int]]:
         nums.sort()
@@ -179,11 +179,11 @@ class Solution:
                 visited.remove(i)
         backtrack(nums, [])
         return res
-```
+# ```
 
-[39.组合总和](https://leetcode-cn.com/problems/combination-sum/)
+# [39.组合总和](https://leetcode-cn.com/problems/combination-sum/)
 
-```python
+# ```python
 class Solution(object):
     def combinationSum(self, candidates, target):
         """
@@ -209,11 +209,11 @@ class Solution(object):
                 helper(candidates[i:], target - candidates[i], temp_list + [candidates[i]])
         helper(candidates,target,[])
         return res
-```
+# ```
 
-[40. 组合总和 II](https://leetcode-cn.com/problems/combination-sum-ii/)
+# [40. 组合总和 II](https://leetcode-cn.com/problems/combination-sum-ii/)
 
-```python
+# ```python
 class Solution:
     def combinationSum2(self, candidates: List[int], target: int) -> List[List[int]]:
         if not candidates:
@@ -232,7 +232,7 @@ class Solution:
                 backtrack(j + 1, tmp_sum + candidates[j], tmp_list + [candidates[j]])
         backtrack(0, 0, [])    
         return res
-```
+# ```
 
 
 

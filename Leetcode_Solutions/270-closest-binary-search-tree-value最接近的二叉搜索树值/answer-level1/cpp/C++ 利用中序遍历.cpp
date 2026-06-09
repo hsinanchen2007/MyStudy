@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 int closestValue(TreeNode* root, double target) {
   stack<TreeNode*> s;
   TreeNode* pre = NULL;
@@ -20,4 +20,4 @@ int closestValue(TreeNode* root, double target) {
   if (!pre) return root->val;
   return (pre->val + root->val < 2 * target) ? root->val : pre->val;
 }
-```
+// ```

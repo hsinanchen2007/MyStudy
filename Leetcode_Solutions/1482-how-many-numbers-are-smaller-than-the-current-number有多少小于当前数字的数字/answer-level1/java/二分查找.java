@@ -1,11 +1,11 @@
-### 解题思路
-首先将数组进行排序，然后对排序的数组进行二分查找，得到每个元素的位置，该位置即为小于该元素的元素个数。
+// ### 解题思路
+// 首先将数组进行排序，然后对排序的数组进行二分查找，得到每个元素的位置，该位置即为小于该元素的元素个数。
 
-**注意处理重复元素的情况。**
+// **注意处理重复元素的情况。**
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] smallerNumbersThanCurrent(int[] nums) {
         int[] ans = new int[nums.length];
@@ -32,4 +32,4 @@ class Solution {
         return l;
     }
 }
-```
+// ```

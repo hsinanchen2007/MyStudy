@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/2fbca9f2a1004a4eb03e3bb5b78590295f6e0535cbacb217c6cf9b6e81e021ca-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/2fbca9f2a1004a4eb03e3bb5b78590295f6e0535cbacb217c6cf9b6e81e021ca-image.png)
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} haystack
  * @param {string} needle
@@ -27,4 +27,4 @@ var strStr = function(haystack, needle) {
 // var strStr = function(haystack, needle) {
 //     return haystack.indexOf(needle)
 // };
-```
+// ```

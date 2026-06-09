@@ -1,9 +1,9 @@
-### 解题思路
-堆结构，其实可以使用stl的优先级队列，这里使用了邓公版的向量实现小顶堆
+// ### 解题思路
+// 堆结构，其实可以使用stl的优先级队列，这里使用了邓公版的向量实现小顶堆
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 	class KthLargest {
 	public:
 		KthLargest(int k, vector<int>& nums) {
@@ -120,4 +120,4 @@
  * KthLargest* obj = new KthLargest(k, nums);
  * int param_1 = obj->add(val);
  */
-```
+// ```

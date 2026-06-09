@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool isUnivalTree(TreeNode* root) {
@@ -13,4 +13,4 @@ public:
         return left&&right;
     }
 };
-```
+// ```

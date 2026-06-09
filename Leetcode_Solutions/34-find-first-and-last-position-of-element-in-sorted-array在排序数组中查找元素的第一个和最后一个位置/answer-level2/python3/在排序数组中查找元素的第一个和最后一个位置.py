@@ -1,9 +1,9 @@
-### 解题思路
-二分查找的思想，这位大佬[@labuladong](/u/labuladong/)已经讲得很细致了，个人觉得比官方题解好太多，我按照大佬的思想，用Python实现了，运行时间37ms，超过97%的用户，供参考。
+# ### 解题思路
+# 二分查找的思想，这位大佬[@labuladong](/u/labuladong/)已经讲得很细致了，个人觉得比官方题解好太多，我按照大佬的思想，用Python实现了，运行时间37ms，超过97%的用户，供参考。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def searchRange(self, nums: List[int], target: int) -> List[int]:
         l = self.leftboundSearch(nums, target)
@@ -45,4 +45,4 @@ class Solution:
         return right
 
 
-```
+# ```

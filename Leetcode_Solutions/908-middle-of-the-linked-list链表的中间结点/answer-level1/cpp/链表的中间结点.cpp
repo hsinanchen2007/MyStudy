@@ -1,9 +1,9 @@
-### 解题思路
-head指向的是第一个结点，别弄错了
+// ### 解题思路
+// head指向的是第一个结点，别弄错了
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -30,4 +30,4 @@ public:
         return node;
     }
 };
-```
+// ```

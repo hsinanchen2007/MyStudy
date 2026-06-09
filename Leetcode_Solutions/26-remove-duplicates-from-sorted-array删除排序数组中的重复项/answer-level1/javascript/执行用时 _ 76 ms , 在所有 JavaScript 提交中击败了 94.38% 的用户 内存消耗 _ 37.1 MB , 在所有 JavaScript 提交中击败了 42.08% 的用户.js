@@ -1,8 +1,8 @@
-### 解题思路
-利用双指针
-### 代码
+// ### 解题思路
+// 利用双指针
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -18,4 +18,4 @@ var removeDuplicates = function(nums) {
     }
     return i+1;
 };
-```
+// ```

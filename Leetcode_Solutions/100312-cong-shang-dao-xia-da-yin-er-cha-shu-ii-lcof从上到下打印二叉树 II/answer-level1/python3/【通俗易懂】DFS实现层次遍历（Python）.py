@@ -1,12 +1,12 @@
 
-## 思路
-简单起见，我直接用dfs实现了层次遍历。
+# ## 思路
+# 简单起见，我直接用dfs实现了层次遍历。
 
-> 题目只可能包含两层嵌套，因此无须递归flatten
+# > 题目只可能包含两层嵌套，因此无须递归flatten
 
-## 代码
+# ## 代码
 
-```python
+# ```python
 class Solution:
     def levelOrder(self, root: TreeNode) -> List[int]:
         if not root: return []
@@ -22,8 +22,8 @@ class Solution:
         dfs(root, 0)
      
         return res
-```
+# ```
 
-欢迎关注我的公众号《脑洞前端》获取更多更新鲜的LeetCode题解
+# 欢迎关注我的公众号《脑洞前端》获取更多更新鲜的LeetCode题解
 
-![](https://pic.leetcode-cn.com/89ef69abbf02a2957838499a96ce3fbb26830aae52e3ab90392e328c2670cddc-file_1581478989502)
+# ![](https://pic.leetcode-cn.com/89ef69abbf02a2957838499a96ce3fbb26830aae52e3ab90392e328c2670cddc-file_1581478989502)

@@ -1,18 +1,18 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/ad63423fdb59ad252e905fd9253b0b3003ee84e6435fc3eb21702bb1c99df6ac-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/ad63423fdb59ad252e905fd9253b0b3003ee84e6435fc3eb21702bb1c99df6ac-image.png)
 
 
-从1971年1月1日（星期5）算起，
-先算year年1月1日 是星期几
-再算year年month月1日 是星期几
-最后算year年month月day日 是星期几
-其中需要构建 
-星期数组 与 每月天数 数组 （都舍弃了第一个位置用来保证下标对应 星期数 与 月数）
+// 从1971年1月1日（星期5）算起，
+// 先算year年1月1日 是星期几
+// 再算year年month月1日 是星期几
+// 最后算year年month月day日 是星期几
+// 其中需要构建 
+// 星期数组 与 每月天数 数组 （都舍弃了第一个位置用来保证下标对应 星期数 与 月数）
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String dayOfTheWeek(int day, int month, int year) {
         String[] weekDays = { "", "Monday", "Tuesday", 
@@ -60,4 +60,4 @@ class Solution {
         return day > 7 ? day % 7 : day;
     }
 }
-```
+// ```

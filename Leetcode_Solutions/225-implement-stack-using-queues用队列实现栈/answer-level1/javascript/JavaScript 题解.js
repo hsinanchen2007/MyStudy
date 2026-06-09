@@ -1,7 +1,7 @@
-### 解题思路
-在每次 push 的时候，重新调整整个 queue 的顺序
+// ### 解题思路
+// 在每次 push 的时候，重新调整整个 queue 的顺序
 
-```
+// ```
 /**
  * Initialize your data structure here.
  */
@@ -45,5 +45,5 @@ MyStack.prototype.top = function() {
 MyStack.prototype.empty = function() {
   return this.queue.length === 0
 }
-```
+// ```
 

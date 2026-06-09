@@ -1,9 +1,9 @@
-### 解题思路
-时间复杂度$O(N^2)$, 时间复杂度$O(N^2)$
+# ### 解题思路
+# 时间复杂度$O(N^2)$, 时间复杂度$O(N^2)$
 
-### 代码
+# ### 代码
 
-```java []
+# ```java []
 class Solution {
     public int longestPalindromeSubseq(String s) {
         // 定义f[i][j] 表示S[i..j]中最长回文子序列
@@ -38,8 +38,8 @@ class Solution {
         return f[0][N-1];
     }
 }
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def longestPalindromeSubseq(self, s: str) -> int:
         N = len(s)
@@ -69,8 +69,8 @@ class Solution:
 
 
         return f[0][N-1]
-```
-```c++ []
+# ```
+# ```c++ []
 class Solution {
 public:
     int longestPalindromeSubseq(string s) {
@@ -110,4 +110,4 @@ public:
         return f[0][N-1];
     }
 };
-```
+# ```

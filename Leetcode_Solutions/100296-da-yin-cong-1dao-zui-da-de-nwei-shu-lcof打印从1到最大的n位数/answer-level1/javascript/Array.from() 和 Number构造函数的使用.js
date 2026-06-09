@@ -1,10 +1,10 @@
-### 用js自带的方法实现
-Array.from()方法从一个类似数组或可迭代对象创建一个新的，浅拷贝的数组实例。
-[具体见mdn文档](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/from)
+// ### 用js自带的方法实现
+// Array.from()方法从一个类似数组或可迭代对象创建一个新的，浅拷贝的数组实例。
+// [具体见mdn文档](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/from)
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {number[]}
@@ -21,13 +21,13 @@ var printNumbers = function(n) {
     // 因为打印是从 1 开始，所以索引要加1
     return Array.from(Array(Number(numstr)), (v, i) => i+1);
 };
-```
-在题解中看到了大神使用Math的函数求出最大值
-```
+// ```
+// 在题解中看到了大神使用Math的函数求出最大值
+// ```
     let max = 0
 	for(let i=0;i<n;i++){
         // Math.pow(x, y)  是求出 x的y次方
 		max = max + 9*Math.pow(10,i)
 	}
-```
-[js创建0-100数组的方法](https://www.cnblogs.com/zhishaofei/p/10146870.html)
+// ```
+// [js创建0-100数组的方法](https://www.cnblogs.com/zhishaofei/p/10146870.html)

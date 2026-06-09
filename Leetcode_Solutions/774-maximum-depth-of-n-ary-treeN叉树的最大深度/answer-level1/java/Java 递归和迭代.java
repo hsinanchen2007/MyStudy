@@ -1,12 +1,12 @@
-***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode/blob/master/java/tree/%24559_MaximumDepthofNaryTree.java)，持续更新。***
+// ***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode/blob/master/java/tree/%24559_MaximumDepthofNaryTree.java)，持续更新。***
 
- 两种方法：
+//  两种方法：
 
-1.递归：
- * 递归终止条件：root==null时，返回0
- * 每层递归需要做的事情：分别求出当前节点子节点的最大深度，然后求出其最大值，最大值+1即为最大深度
+// 1.递归：
+//  * 递归终止条件：root==null时，返回0
+//  * 每层递归需要做的事情：分别求出当前节点子节点的最大深度，然后求出其最大值，最大值+1即为最大深度
 
-```
+// ```
 //递归：
 public int maxDepth1(Node root) {
     if (root == null) return 0;
@@ -19,11 +19,11 @@ public int maxDepth1(Node root) {
     return max+1;
 }
 
-```
+// ```
 
 
-2.迭代：层序遍历，遍历时记录层数即可
-```
+// 2.迭代：层序遍历，遍历时记录层数即可
+// ```
 //迭代：层序遍历
 public int maxDepth2(Node root) {
     if(root == null) return 0;
@@ -44,6 +44,6 @@ public int maxDepth2(Node root) {
     }
     return maxDepth;
 }
-```
+// ```
 
 

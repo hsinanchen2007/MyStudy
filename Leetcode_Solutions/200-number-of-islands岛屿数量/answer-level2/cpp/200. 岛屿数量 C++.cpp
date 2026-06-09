@@ -1,9 +1,9 @@
-### 解题思路
-使用递归 将上下左右为'1'的设置为'2'
+// ### 解题思路
+// 使用递归 将上下左右为'1'的设置为'2'
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void infect(vector<vector<char>>& grid, int row, int col)
@@ -50,4 +50,4 @@ public:
         return count;
     }
 };
-```
+// ```

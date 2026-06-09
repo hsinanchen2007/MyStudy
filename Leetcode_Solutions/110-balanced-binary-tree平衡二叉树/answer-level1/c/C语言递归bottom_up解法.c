@@ -1,9 +1,9 @@
-### 解题思路
-递归bottom_up求解树问题
+// ### 解题思路
+// 递归bottom_up求解树问题
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -35,4 +35,4 @@ bool isBalanced(struct TreeNode* root){
     findheight(root);
     return isbanlance;
 }
-```
+// ```

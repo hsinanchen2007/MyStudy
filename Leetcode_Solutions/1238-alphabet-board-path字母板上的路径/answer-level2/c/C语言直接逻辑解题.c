@@ -1,7 +1,7 @@
-执行用时 :0 ms, 在所有 C 提交中击败了100.00% 的用户
-内存消耗 :6.9 MB, 在所有 C 提交中击败了38.39%的用户
+// 执行用时 :0 ms, 在所有 C 提交中击败了100.00% 的用户
+// 内存消耗 :6.9 MB, 在所有 C 提交中击败了38.39%的用户
 
-```
+// ```
 char * alphabetBoardPath(char * target){
     int i,j,k,t_i,t_j,res_i;
     i=j=k=t_i=t_j=res_i = 0;
@@ -74,4 +74,4 @@ char * alphabetBoardPath(char * target){
     return res;
 
 }
-```
+// ```

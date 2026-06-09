@@ -1,13 +1,13 @@
 
-![屏幕快照 2020-01-16 下午4.46.53.png](https://pic.leetcode-cn.com/c15f77187ddbcbb747cfa0a3bf2e96fe46138ba83f34e7c943ffd705a14a1865-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-01-16%20%E4%B8%8B%E5%8D%884.46.53.png)
+// ![屏幕快照 2020-01-16 下午4.46.53.png](https://pic.leetcode-cn.com/c15f77187ddbcbb747cfa0a3bf2e96fe46138ba83f34e7c943ffd705a14a1865-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-01-16%20%E4%B8%8B%E5%8D%884.46.53.png)
 
 
-### 解题思路
-先求出链表的长度，然后除以 k，得到数组每个元素存放链表的个数。再求出链表长度模k得到余数，即前面数组元素应该多存入的。每次数组元素多存入后，ret需要减一
+// ### 解题思路
+// 先求出链表的长度，然后除以 k，得到数组每个元素存放链表的个数。再求出链表长度模k得到余数，即前面数组元素应该多存入的。每次数组元素多存入后，ret需要减一
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -91,4 +91,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

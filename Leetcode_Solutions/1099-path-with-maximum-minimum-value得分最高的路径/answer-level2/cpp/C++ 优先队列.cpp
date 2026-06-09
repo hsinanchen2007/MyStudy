@@ -1,6 +1,6 @@
-思路是：
-从原点触发，一路上去找所能找到的最大值去往前走，直到最后找到重点
-```
+// 思路是：
+// 从原点触发，一路上去找所能找到的最大值去往前走，直到最后找到重点
+// ```
 class Solution {
 public:
     struct Point {
@@ -36,5 +36,5 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/ac2bad0a596b2ae5b56646a179a6a84f7db61901e9177f0b8a16728d28f550f5-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/ac2bad0a596b2ae5b56646a179a6a84f7db61901e9177f0b8a16728d28f550f5-image.png)

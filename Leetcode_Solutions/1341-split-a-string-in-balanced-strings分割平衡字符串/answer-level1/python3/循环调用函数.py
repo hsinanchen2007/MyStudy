@@ -1,5 +1,5 @@
-代码块
-```
+# 代码块
+# ```
 class Solution(object):
     def balancedStringSplit(self, s):
         """
@@ -17,4 +17,4 @@ class Solution(object):
                 s=s[i+1:]
                 break
         return s,num
-```
+# ```

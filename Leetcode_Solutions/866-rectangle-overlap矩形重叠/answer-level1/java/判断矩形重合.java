@@ -1,12 +1,12 @@
-### 解题思路
-想知道两矩形是否重叠，那排除掉不重叠的情况即可。
-1. 当图2整体在图1右边时候 或者 图1整体在图2右边时候 return false。
-2. 当图2整体在图1下方时候 或者 图1整体在图2下方的时候 return false。
-3. 其余的都是重叠场景 return true。
+// ### 解题思路
+// 想知道两矩形是否重叠，那排除掉不重叠的情况即可。
+// 1. 当图2整体在图1右边时候 或者 图1整体在图2右边时候 return false。
+// 2. 当图2整体在图1下方时候 或者 图1整体在图2下方的时候 return false。
+// 3. 其余的都是重叠场景 return true。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isRectangleOverlap(int[] rec1, int[] rec2) {
         int x11 = rec1[0];
@@ -29,4 +29,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

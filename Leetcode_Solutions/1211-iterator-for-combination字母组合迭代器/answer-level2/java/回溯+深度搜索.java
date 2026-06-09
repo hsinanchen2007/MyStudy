@@ -1,9 +1,9 @@
-### 解题思路
-把字符串 按照给定长度排列问题，使用回溯+深度搜索算法完成。
+// ### 解题思路
+// 把字符串 按照给定长度排列问题，使用回溯+深度搜索算法完成。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class CombinationIterator {
 
     List<List<Character>> result = new ArrayList<>();
@@ -56,4 +56,4 @@ class CombinationIterator {
  * String param_1 = obj.next();
  * boolean param_2 = obj.hasNext();
  */
-```
+// ```

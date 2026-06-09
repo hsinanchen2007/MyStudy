@@ -1,9 +1,9 @@
-### 解题思路
-用冒泡排序的思想，循环相加，直到找出结果。
+// ### 解题思路
+// 用冒泡排序的思想，循环相加，直到找出结果。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         int[] result = new int[2];
@@ -18,4 +18,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

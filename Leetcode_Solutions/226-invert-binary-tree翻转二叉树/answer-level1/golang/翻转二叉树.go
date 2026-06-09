@@ -1,9 +1,9 @@
-### 解题思路
-递归依次交换左子树与右子树的位置
+// ### 解题思路
+// 递归依次交换左子树与右子树的位置
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -27,4 +27,4 @@ func invertTree(root *TreeNode) *TreeNode {
 
     return root
 }
-```
+// ```

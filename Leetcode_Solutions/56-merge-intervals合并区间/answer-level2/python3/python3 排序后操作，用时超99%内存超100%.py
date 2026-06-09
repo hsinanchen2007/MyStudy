@@ -1,11 +1,11 @@
-![image.png](https://pic.leetcode-cn.com/aa6823bdd3da431c6f8fbeea98172cc0bff28982452b0f32b3b49d071a0b139e-image.png)
+# ![image.png](https://pic.leetcode-cn.com/aa6823bdd3da431c6f8fbeea98172cc0bff28982452b0f32b3b49d071a0b139e-image.png)
 
-### 解题思路
-排序后依次添加合并区间子元素
+# ### 解题思路
+# 排序后依次添加合并区间子元素
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
         res = []
@@ -20,4 +20,4 @@ class Solution:
                 subint = intervals[i]
         res.append(subint)
         return res
-```
+# ```

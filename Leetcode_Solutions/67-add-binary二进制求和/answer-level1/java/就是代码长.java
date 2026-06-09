@@ -1,4 +1,4 @@
-```
+// ```
  public String addBinary(String a, String b) {
         if (a==null && b==null)
             return null;
@@ -63,4 +63,4 @@
         return res.toString();
 
     }
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-1.看代码注释
-### 代码
+// ### 解题思路
+// 1.看代码注释
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} pushed
  * @param {number[]} popped
@@ -27,4 +27,4 @@ var validateStackSequences = function(pushed, popped) {
     //如果stack为空，说明符合题目
     return !stack.length
 };
-```
+// ```

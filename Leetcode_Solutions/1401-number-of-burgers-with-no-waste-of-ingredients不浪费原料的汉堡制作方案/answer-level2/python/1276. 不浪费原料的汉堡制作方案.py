@@ -1,9 +1,9 @@
-### 解题思路
-首先以奶酪的数决定巨无霸的个数，那么小汉堡 = [所需番茄数-现有番茄数]/2,对此值进行判断即可
+# ### 解题思路
+# 首先以奶酪的数决定巨无霸的个数，那么小汉堡 = [所需番茄数-现有番茄数]/2,对此值进行判断即可
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def numOfBurgers(self, tomatoSlices, cheeseSlices):
         #假设全部做成巨无霸
@@ -13,4 +13,4 @@ class Solution(object):
             return []
         else:
             return [cheeseSlices - int(sub/2),int(sub/2)]
-```
+# ```

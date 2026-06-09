@@ -1,9 +1,9 @@
-### 解题思路
-取巧，先加进去再排序
+# ### 解题思路
+# 取巧，先加进去再排序
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def merge(self, A, m, B, n):
         """
@@ -20,4 +20,4 @@ class Solution(object):
         A.sort()
             
 
-```
+# ```

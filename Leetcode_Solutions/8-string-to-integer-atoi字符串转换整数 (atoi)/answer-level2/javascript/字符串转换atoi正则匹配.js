@@ -1,6 +1,6 @@
-正则匹配
+// 正则匹配
 
-```
+// ```
 /**
  * @param {string} str
  * @return {number}
@@ -17,4 +17,4 @@ var myAtoi = function (str) {
     num =  num > max ? max: num < min ? min: num;
     return num;
 };
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-从底向上好困难...
-注意坑: 不能用set,必须用字典, 记录每次的出现情况
+# ### 解题思路
+# 从底向上好困难...
+# 注意坑: 不能用set,必须用字典, 记录每次的出现情况
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -64,4 +64,4 @@ class Solution:
 
 
             
-```
+# ```

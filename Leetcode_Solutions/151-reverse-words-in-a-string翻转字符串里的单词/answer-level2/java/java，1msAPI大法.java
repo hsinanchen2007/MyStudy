@@ -1,12 +1,12 @@
-### 解题思路
-1.split截串
-2.新建一个nstr数组保存非空串
-3.Arrays.copyof截取非null部分
-4.用Stringbuilder对nstr数组进行拼串
-5.优化思路：应该可以在str数组上原地进行变换以节省额外给nstr数组开辟的空间
-### 代码
+// ### 解题思路
+// 1.split截串
+// 2.新建一个nstr数组保存非空串
+// 3.Arrays.copyof截取非null部分
+// 4.用Stringbuilder对nstr数组进行拼串
+// 5.优化思路：应该可以在str数组上原地进行变换以节省额外给nstr数组开辟的空间
+// ### 代码
 
-```java
+// ```java
 public class Solution {
     public String reverseWords(String s) {
         String[] strs = s.split(" ");
@@ -32,4 +32,4 @@ public class Solution {
         return stringBuilder.toString().trim();
     }
 }
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-正则表达式
-### 代码
+# ### 解题思路
+# 正则表达式
+# ### 代码
 
-```python3
+# ```python3
 import re
 class Solution:
     def isNumber(self, s: str) -> bool:
@@ -14,4 +14,4 @@ class Solution:
             return True
         else:
             return False
-```
+# ```

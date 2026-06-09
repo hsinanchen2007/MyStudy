@@ -1,11 +1,11 @@
-先算出两个链表的长度，如果一样长，就可以同时遍历，然后逐一比较。如果一长一短，就先遍历长的，直到两个链表剩下的一样长，然后同时遍历，逐一比较。
+// 先算出两个链表的长度，如果一样长，就可以同时遍历，然后逐一比较。如果一长一短，就先遍历长的，直到两个链表剩下的一样长，然后同时遍历，逐一比较。
 
-![image.png](https://pic.leetcode-cn.com/84b75db99db370fabe27ca963f280a042eb2ddd2784a9bdf0561af78b12726f4-image.png)
+// ![image.png](https://pic.leetcode-cn.com/84b75db99db370fabe27ca963f280a042eb2ddd2784a9bdf0561af78b12726f4-image.png)
 
 
-代码如下：
+// 代码如下：
 
-```
+// ```
 public class Solution {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         ListNode h1 = headA;
@@ -56,4 +56,4 @@ public class Solution {
         }
     }
 }
-```
+// ```

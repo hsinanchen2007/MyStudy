@@ -1,10 +1,10 @@
-### 解题思路
-辅助栈 
-注意区分链表个数为奇数还是偶数
+// ### 解题思路
+// 辅助栈 
+// 注意区分链表个数为奇数还是偶数
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -70,4 +70,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

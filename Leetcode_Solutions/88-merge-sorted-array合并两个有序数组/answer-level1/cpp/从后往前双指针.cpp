@@ -1,7 +1,7 @@
 
-注意考虑nums2最后如果剩下的话，要合并到nums1中
+// 注意考虑nums2最后如果剩下的话，要合并到nums1中
 
-```
+// ```
 class Solution {
 public:
     void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
@@ -27,4 +27,4 @@ public:
         return;
     }
 };
-```
+// ```

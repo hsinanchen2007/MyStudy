@@ -1,7 +1,7 @@
-- dp[i][j] = [max, result] arr[i]到arr[j]的最大值为max arr[i]到arr[j]构成的树的最大结果为result
-- 递推公式dp[i][j][1]代表节点从i到j所能构成的非叶节点的最小和
-- dp[i][j][1] = Math.min(dp[i][j][1],dp[i][k][1] + dp[k+1][j][1] + dp[i][k][0] * dp[k+1][j][0]);
-```
+// - dp[i][j] = [max, result] arr[i]到arr[j]的最大值为max arr[i]到arr[j]构成的树的最大结果为result
+// - 递推公式dp[i][j][1]代表节点从i到j所能构成的非叶节点的最小和
+// - dp[i][j][1] = Math.min(dp[i][j][1],dp[i][k][1] + dp[k+1][j][1] + dp[i][k][0] * dp[k+1][j][0]);
+// ```
 var mctFromLeafValues = function (arr) {
   let len = arr.length;
   let dp = Array.from({ length: len }, () => Array.from({ length: len }, () => [0, 2147483648]));
@@ -20,4 +20,4 @@ var mctFromLeafValues = function (arr) {
   dfs(0, len - 1)
   return dp[0][len - 1][1]
 };
-```
+// ```

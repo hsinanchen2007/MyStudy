@@ -1,4 +1,4 @@
-```
+// ```
 struct Pos {
     int x;
     int y;
@@ -80,4 +80,4 @@ bool isRobotBounded(char *instructions)
     pos.face = NORTH;
     return process(instructions, len, times, &pos);
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -66,4 +66,4 @@ func mergeKLists(lists []*ListNode) *ListNode {
 
 	return head
 }
-```
+// ```

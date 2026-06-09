@@ -1,10 +1,10 @@
-### 解题思路
-![屏幕快照 2020-04-08 11.03.22.png](https://pic.leetcode-cn.com/9af29186751f21df0ddd7e300da326f9301ce8dac34ab112e8e6f15b13dc108a-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-04-08%2011.03.22.png)
-此处撰写解题思路
+// ### 解题思路
+// ![屏幕快照 2020-04-08 11.03.22.png](https://pic.leetcode-cn.com/9af29186751f21df0ddd7e300da326f9301ce8dac34ab112e8e6f15b13dc108a-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-04-08%2011.03.22.png)
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isStraight(vector<int>& nums) {
@@ -55,4 +55,4 @@ public:
         }
     }
 };
-```
+// ```

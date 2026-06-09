@@ -1,5 +1,5 @@
-直接模拟分糖果的过程
-```
+// 直接模拟分糖果的过程
+// ```
 /**
  * @param {number} candies
  * @param {number} num_people
@@ -18,4 +18,4 @@ var distributeCandies = function(candies, num_people) {
     }
     return ans;
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-- 这里采用的是一个指针表明当前考察的位置
-- 如果找到重复的就需要移动数组，所以时间复杂度有些高
+// ### 解题思路
+// - 这里采用的是一个指针表明当前考察的位置
+// - 如果找到重复的就需要移动数组，所以时间复杂度有些高
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int removeDuplicates(int* nums, int numsSize){
     int i , j , location ;
     int temp ;
@@ -39,4 +39,4 @@ int removeDuplicates(int* nums, int numsSize){
 
     return numsSize;
 }
-```
+// ```

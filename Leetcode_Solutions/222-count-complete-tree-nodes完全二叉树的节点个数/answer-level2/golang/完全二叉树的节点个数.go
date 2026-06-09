@@ -1,9 +1,9 @@
-### 解题思路
-递归计数即可
+// ### 解题思路
+// 递归计数即可
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -23,4 +23,4 @@ func countNodes(root *TreeNode) int {
     count += countNodes(root.Right) // 右子树
     return count
 }
-```
+// ```

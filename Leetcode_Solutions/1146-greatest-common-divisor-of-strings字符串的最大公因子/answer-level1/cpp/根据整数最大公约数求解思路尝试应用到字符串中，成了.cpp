@@ -1,9 +1,9 @@
-### 解题思路
-https://www.runoob.com/cplusplus/cpp-examples-hcf-gcd.html
-借鉴整数的最大公约数求解思想
-### 代码
+// ### 解题思路
+// https://www.runoob.com/cplusplus/cpp-examples-hcf-gcd.html
+// 借鉴整数的最大公约数求解思想
+// ### 代码
 
-```cpp
+// ```cpp
 #include<string>
 class Solution {
 public:
@@ -34,4 +34,4 @@ public:
         return "";
     }
 };
-```
+// ```

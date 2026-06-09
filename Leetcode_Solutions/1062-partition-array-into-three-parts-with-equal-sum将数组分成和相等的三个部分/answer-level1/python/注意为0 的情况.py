@@ -1,8 +1,8 @@
-### 解题思路
-注意分区中和为0 的情况，这种情况出现的次数 >=3 即可
-### 代码
+# ### 解题思路
+# 注意分区中和为0 的情况，这种情况出现的次数 >=3 即可
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def canThreePartsEqualSum(self, A: List[int]) -> bool:
         if not A or (sum(A) != 0 and sum(A) % 3 != 0):
@@ -18,4 +18,4 @@ class Solution:
             i += 1
         return times == 3 or partition == 0 and times >= 3
 
-```
+# ```

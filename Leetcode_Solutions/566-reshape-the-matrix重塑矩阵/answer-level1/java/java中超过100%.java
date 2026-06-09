@@ -1,10 +1,10 @@
-### 解题思路
-前置校验 + 遍历方式
-能用变量直接操作就不要用取余
+// ### 解题思路
+// 前置校验 + 遍历方式
+// 能用变量直接操作就不要用取余
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] matrixReshape(int[][] nums, int r, int c) {
         if (nums.length * nums[0].length != r * c) return nums;
@@ -24,4 +24,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

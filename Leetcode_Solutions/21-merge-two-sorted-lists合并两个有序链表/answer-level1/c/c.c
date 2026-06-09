@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
-1、注意头尾节点初始化；
-2、每申请一个新节点时，需内存申请，并且下个节点置为NULL；
-3、尾节点新增模式；
+// ### 解题思路
+// 此处撰写解题思路
+// 1、注意头尾节点初始化；
+// 2、每申请一个新节点时，需内存申请，并且下个节点置为NULL；
+// 3、尾节点新增模式；
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -89,4 +89,4 @@ struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2){
 
     return head;
 }
-```
+// ```

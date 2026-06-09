@@ -1,9 +1,9 @@
-### 解题思路
-使用了左右哨兵，然后位置互换。
+// ### 解题思路
+// 使用了左右哨兵，然后位置互换。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 
 /**
@@ -37,4 +37,4 @@ int** flipAndInvertImage(int** A, int ASize, int* AColSize, int* returnSize, int
 }
 
 
-```
+// ```

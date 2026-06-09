@@ -1,5 +1,5 @@
-离散化+线段树模板题
-```
+// 离散化+线段树模板题
+// ```
 class Solution {
 	unordered_map<int, int> mp;
 	unordered_map<int, int> remp;
@@ -94,4 +94,4 @@ public:
 		return ans;
 	}
 };
-```
+// ```

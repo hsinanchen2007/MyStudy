@@ -1,11 +1,11 @@
-### 解题思路
-从右往左找需要交换的位数，然后再排序，加上没比较的，注意判断有没有超范围
-![UC截图20200108154439.png](https://pic.leetcode-cn.com/b4ef94269607101fa903abc43834dc32499a388da3059128492dce387e938938-UC%E6%88%AA%E5%9B%BE20200108154439.png)
+# ### 解题思路
+# 从右往左找需要交换的位数，然后再排序，加上没比较的，注意判断有没有超范围
+# ![UC截图20200108154439.png](https://pic.leetcode-cn.com/b4ef94269607101fa903abc43834dc32499a388da3059128492dce387e938938-UC%E6%88%AA%E5%9B%BE20200108154439.png)
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def nextGreaterElement(self, n: int) -> int:
         if n >= pow(2,31):
@@ -28,4 +28,4 @@ class Solution:
                 return int(''.join(string)) if int(''.join(string)) < pow(2,31) else -1
 
         return -1
-```
+# ```

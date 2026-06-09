@@ -1,14 +1,14 @@
-### 解题思路
-直接递归会超时，所以需要优化一下。
-动态规划
-递推式已经给出，用dp数组存一下计算过的泰波那契数。
+// ### 解题思路
+// 直接递归会超时，所以需要优化一下。
+// 动态规划
+// 递推式已经给出，用dp数组存一下计算过的泰波那契数。
 
-![1.png](https://pic.leetcode-cn.com/7a867318665f1f35f36a7e945d680cb8167dbfa8b682b983b74be482b061abe2-1.png)
+// ![1.png](https://pic.leetcode-cn.com/7a867318665f1f35f36a7e945d680cb8167dbfa8b682b983b74be482b061abe2-1.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int tribonacci(int n) {
@@ -21,4 +21,4 @@ public:
         return dp[n];
     }
 };
-```
+// ```

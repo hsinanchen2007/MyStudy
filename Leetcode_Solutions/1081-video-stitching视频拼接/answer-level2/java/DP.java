@@ -1,6 +1,6 @@
-corner case 蛮多的
+// corner case 蛮多的
 
-```
+// ```
 class Solution {
     public int videoStitching(int[][] clips, int T) {
         // corner case
@@ -35,4 +35,4 @@ class Solution {
         return arr1[1] - arr2[1];
     }
 }
-```
+// ```

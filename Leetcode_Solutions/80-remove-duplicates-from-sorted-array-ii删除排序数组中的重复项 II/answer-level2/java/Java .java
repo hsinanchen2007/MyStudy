@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/25f0db21625d05ba3d78dd33d2bcb587aecfa8cf3fabeac7f7dc8a4fb230de2a-image.png)
+// ![image.png](https://pic.leetcode-cn.com/25f0db21625d05ba3d78dd33d2bcb587aecfa8cf3fabeac7f7dc8a4fb230de2a-image.png)
 
-```
+// ```
 class Solution {
     public int removeDuplicates(int[] nums) {
         if(nums.length==0) return 0;
@@ -22,7 +22,7 @@ class Solution {
     	return index;
     }
 }
-```
+// ```
 
 
 

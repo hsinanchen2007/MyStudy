@@ -1,6 +1,6 @@
-二分法模板代码。使用**左 mid**。如果猜测的数字在 mid 右侧，则 lo = mid + 1，否则 hi = mid;
+// 二分法模板代码。使用**左 mid**。如果猜测的数字在 mid 右侧，则 lo = mid + 1，否则 hi = mid;
 
-```cpp
+// ```cpp
 int guessNumber(int n) {
     int lo = 1, hi = n;
     while (lo < hi) {
@@ -13,4 +13,4 @@ int guessNumber(int n) {
     }
     return lo;
 }
-```
+// ```

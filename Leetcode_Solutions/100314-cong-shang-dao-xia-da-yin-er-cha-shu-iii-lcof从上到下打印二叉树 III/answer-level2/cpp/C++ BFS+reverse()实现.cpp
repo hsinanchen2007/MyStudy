@@ -1,11 +1,11 @@
-### 解题思路
-BFS遍历
-对于偶数层，进行reverse
-对于奇数层，不进行
-[reverse用法参考文章](https://blog.csdn.net/PiscesDAI/article/details/84528955)
-### 代码
+// ### 解题思路
+// BFS遍历
+// 对于偶数层，进行reverse
+// 对于奇数层，不进行
+// [reverse用法参考文章](https://blog.csdn.net/PiscesDAI/article/details/84528955)
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	vector<vector<int>> levelOrder(TreeNode* root) {
@@ -39,4 +39,4 @@ public:
 		return res;
 	}
 };
-```
+// ```

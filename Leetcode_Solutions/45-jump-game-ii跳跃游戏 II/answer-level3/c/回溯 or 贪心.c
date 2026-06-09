@@ -1,6 +1,6 @@
-尝试两个做法：
+// 尝试两个做法：
 
-1、DFS or 回溯：以当前格子为起跳index，每次跳 1~nums[index]步，直到达到终点，保存下跳的最少的次数。但该方法超时。
+// 1、DFS or 回溯：以当前格子为起跳index，每次跳 1~nums[index]步，直到达到终点，保存下跳的最少的次数。但该方法超时。
 
 void dfs(int* nums, int numsSize, int index, int count, int* minCount)
 {

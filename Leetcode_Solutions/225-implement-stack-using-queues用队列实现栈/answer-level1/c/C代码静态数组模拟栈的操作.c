@@ -1,9 +1,9 @@
-### 解题思路
-使用一个静态数组stack来作为栈的容器，MyStack结构体中top和bottom成员分别表示栈顶和栈底的位置
+// ### 解题思路
+// 使用一个静态数组stack来作为栈的容器，MyStack结构体中top和bottom成员分别表示栈顶和栈底的位置
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

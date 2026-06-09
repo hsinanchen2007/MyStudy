@@ -1,14 +1,14 @@
-### 解题思路
-此处撰写解题思路
-按照官方给的第一种解法
-假设s1,和s2的最长公共前缀为LCP(s1,s2),
-那么n个子字符串的公共前缀为
-LCP(s1....sn) = LCP(LCP(LCP(LCP(s1,s2),s3)......sn-1),sn)
+// ### 解题思路
+// 此处撰写解题思路
+// 按照官方给的第一种解法
+// 假设s1,和s2的最长公共前缀为LCP(s1,s2),
+// 那么n个子字符串的公共前缀为
+// LCP(s1....sn) = LCP(LCP(LCP(LCP(s1,s2),s3)......sn-1),sn)
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func longestCommonPrefix(strs []string) string {
 	var n = len(strs)
 	if n <= 0 {
@@ -36,4 +36,4 @@ func longestCommonPrefix(strs []string) string {
 	}
 	return pre
 }
-```
+// ```

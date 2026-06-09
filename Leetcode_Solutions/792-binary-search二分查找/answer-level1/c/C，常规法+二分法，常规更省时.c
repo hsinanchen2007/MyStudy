@@ -1,8 +1,8 @@
-### 解题思路
-常规法36ms，二分法80ms
+// ### 解题思路
+// 常规法36ms，二分法80ms
 
-### 代码
-```
+// ### 代码
+// ```
 int search(int* nums, int numsSize, int target){
     int l=0,r=numsSize-1,m;
     while(l<=r){
@@ -16,9 +16,9 @@ int search(int* nums, int numsSize, int target){
     }
     return target==nums[m]?m:-1;
 }
-```
+// ```
 
-```c
+// ```c
 int search(int* nums, int numsSize, int target){
     int i=0;
     for(;i<numsSize;i++)
@@ -26,4 +26,4 @@ int search(int* nums, int numsSize, int target){
             break;
     return i==numsSize?-1:i;
 }
-```
+// ```

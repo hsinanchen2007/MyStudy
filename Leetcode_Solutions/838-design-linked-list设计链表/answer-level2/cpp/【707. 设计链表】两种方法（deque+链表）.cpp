@@ -1,6 +1,6 @@
-## 思路一：利用deque
-### 代码
-```c++
+// ## 思路一：利用deque
+// ### 代码
+// ```c++
 class MyLinkedList {
     deque<int> data;
 public:
@@ -38,11 +38,11 @@ public:
         }
     }
 };
-```
+// ```
 
-## 思路二：利用链表（击败99.9%）
-### 代码
-```c++
+// ## 思路二：利用链表（击败99.9%）
+// ### 代码
+// ```c++
 class MyLinkedList {
     struct ListNode {
         int val;
@@ -117,6 +117,6 @@ public:
         }
     }
 };
-```
+// ```
 
 

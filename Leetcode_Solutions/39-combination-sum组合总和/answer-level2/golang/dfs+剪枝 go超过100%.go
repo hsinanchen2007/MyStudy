@@ -1,9 +1,9 @@
-### 解题思路
-采用dfs+剪枝的方式，如candidates = [2,3,6,7], target = 7,如果选入2，则求剩下7-2=5是否有值。当剩余值target-candidates[i]==0,加入结果集；当target-candidates[i]<0,退出循环（剪枝）。在进行for循环时，引入begin是为了避免重复结果集。
+// ### 解题思路
+// 采用dfs+剪枝的方式，如candidates = [2,3,6,7], target = 7,如果选入2，则求剩下7-2=5是否有值。当剩余值target-candidates[i]==0,加入结果集；当target-candidates[i]<0,退出循环（剪枝）。在进行for循环时，引入begin是为了避免重复结果集。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 var res39 [][]int
 
 func combinationSum(candidates []int, target int) [][]int {
@@ -36,4 +36,4 @@ func dfs39(candidates []int, target int, begin int, selected []int) {
 	}
 }
 
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-关键还是要想清楚为啥可以这样写。
+# ### 解题思路
+# 关键还是要想清楚为啥可以这样写。
 
-左叶子节点最好在上一个节点就处理掉，否则到了下一个节点就无法判断是不是叶子节点了啊。
+# 左叶子节点最好在上一个节点就处理掉，否则到了下一个节点就无法判断是不是叶子节点了啊。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -28,4 +28,4 @@ class Solution:
         
         # 对 root != None 但 root.left root.right 都是空，也返回 0
         return result
-```
+# ```

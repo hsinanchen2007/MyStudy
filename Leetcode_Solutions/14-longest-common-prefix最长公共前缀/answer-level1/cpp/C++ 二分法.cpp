@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool isCommonPrefix(vector<string>& strs, int mid) {
@@ -30,4 +30,4 @@ public:
         return strs[0].substr(0, right);
     }
 };
-```
+// ```

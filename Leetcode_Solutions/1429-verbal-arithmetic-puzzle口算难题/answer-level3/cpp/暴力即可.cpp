@@ -1,13 +1,13 @@
-### 解题思路
-此处撰写解题思路
-这个题，直接暴力即可，但是一定要注意，能用hash就不要用map，能用数组就不要用vector，性能差距还是很大的
+// ### 解题思路
+// 此处撰写解题思路
+// 这个题，直接暴力即可，但是一定要注意，能用hash就不要用map，能用数组就不要用vector，性能差距还是很大的
 
-![image.png](https://pic.leetcode-cn.com/3490e47635405dc5de0e700fd576852bae92a52d15fff40ff44b9ecd1f6e10b1-image.png)
+// ![image.png](https://pic.leetcode-cn.com/3490e47635405dc5de0e700fd576852bae92a52d15fff40ff44b9ecd1f6e10b1-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 # define DUMP(args...)
 // 最多10种字符，每个字符最多10种选择{0-9}，那么直接dfs暴力搜索即可
 class Solution {
@@ -97,4 +97,4 @@ public:
         return flag;
     }
 };
-```
+// ```

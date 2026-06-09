@@ -1,9 +1,9 @@
-### 解题思路
-指针移动，时间复杂度o(n)，空间复杂度o(1)
+// ### 解题思路
+// 指针移动，时间复杂度o(n)，空间复杂度o(1)
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {number}
@@ -24,4 +24,4 @@ var climbStairs = function(n) {
     return c
 
 };
-```
+// ```

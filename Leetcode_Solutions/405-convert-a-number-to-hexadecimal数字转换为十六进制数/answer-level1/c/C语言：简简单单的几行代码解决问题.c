@@ -1,7 +1,7 @@
-如果为负数，只要用 (unsigned int)num 就可以变为补码
+// 如果为负数，只要用 (unsigned int)num 就可以变为补码
 
 
-```
+// ```
 char * toHex(int num){
     char *ret_str = (char*)malloc(33);
     if (num == 0) {
@@ -31,4 +31,4 @@ int positive(char *str, unsigned int num)
 
     return 0;
 }
-```
+// ```

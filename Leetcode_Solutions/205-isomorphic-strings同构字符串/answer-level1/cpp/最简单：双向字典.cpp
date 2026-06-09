@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     // 按字符串顺序，建立一对一映射关系：map<s, t> 和 map<t, s>
@@ -22,4 +22,4 @@ public:
         return true;
     }
 };
-```
+// ```

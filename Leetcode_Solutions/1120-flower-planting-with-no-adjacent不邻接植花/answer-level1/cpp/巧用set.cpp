@@ -1,9 +1,9 @@
-### 解题思路
-因为set有自动排序功能，所以我们可以通过遍历此点连接的边将已用的花删去，最后取set中首元素即可得到这点应该放的花朵。
+// ### 解题思路
+// 因为set有自动排序功能，所以我们可以通过遍历此点连接的边将已用的花删去，最后取set中首元素即可得到这点应该放的花朵。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> gardenNoAdj(int N, vector<vector<int>>& paths) {
@@ -38,4 +38,4 @@ public:
         return ans;
     }
 };
-```
+// ```

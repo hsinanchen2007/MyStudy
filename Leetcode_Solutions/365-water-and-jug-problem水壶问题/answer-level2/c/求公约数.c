@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-利用从1到xy的最小值之间最大的做除余0即为最大公约数，在看是否其倍数为z即可
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 利用从1到xy的最小值之间最大的做除余0即为最大公约数，在看是否其倍数为z即可
+// ### 代码
 
-```c
+// ```c
 bool canMeasureWater(int x, int y, int z){
     if(x+y<z) return false;
     if(z==0) return true; 
@@ -24,4 +24,4 @@ bool canMeasureWater(int x, int y, int z){
     return false;
 
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-先从小到大排序，一直计算当前最小的数组前两个就行了，每次X+Y再插入到有序的数组中
+// ### 解题思路
+// 先从小到大排序，一直计算当前最小的数组前两个就行了，每次X+Y再插入到有序的数组中
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int Comp(const void *a, const void *b)
 {
     return *(int *)a - *(int *)b;
@@ -35,4 +35,4 @@ int connectSticks(int* sticks, int sticksSize)
     
     return res;
 }
-```
+// ```

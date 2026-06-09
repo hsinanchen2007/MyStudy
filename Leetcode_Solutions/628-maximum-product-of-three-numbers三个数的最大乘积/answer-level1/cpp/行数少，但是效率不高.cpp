@@ -1,8 +1,8 @@
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maximumProduct(vector<int>& nums) {
@@ -10,4 +10,4 @@ public:
         return max(nums[nums.size()-1]*nums[nums.size()-2]*nums[nums.size()-3],nums[nums.size()-1]*nums[0]*nums[1]);
     }
 };
-```
+// ```

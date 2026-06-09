@@ -1,6 +1,6 @@
-执行用时 :140 ms, 在所有 JavaScript 提交中击败了99.60%的用户
-内存消耗 :38.8 MB, 在所有 JavaScript 提交中击败了32.57%的用户
-```
+// 执行用时 :140 ms, 在所有 JavaScript 提交中击败了99.60%的用户
+// 内存消耗 :38.8 MB, 在所有 JavaScript 提交中击败了32.57%的用户
+// ```
 var addTwoNumbers = function(l1, l2) {
     let result = new ListNode();
     let node = result;
@@ -18,5 +18,5 @@ var addTwoNumbers = function(l1, l2) {
     }
     return result.next;
 };
-```
+// ```
 

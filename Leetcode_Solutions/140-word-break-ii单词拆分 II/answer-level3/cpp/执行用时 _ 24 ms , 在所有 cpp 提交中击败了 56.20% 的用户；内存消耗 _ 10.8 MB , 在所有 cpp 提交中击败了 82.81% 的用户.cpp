@@ -1,9 +1,9 @@
-### 解题思路
-速度一般，跟着别人的思路写出来的，代码里有注释
+// ### 解题思路
+// 速度一般，跟着别人的思路写出来的，代码里有注释
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> wordBreak(string s, vector<string>& wordDict) {
@@ -71,4 +71,4 @@ public:
         return res[length];
     }
 };
-```
+// ```

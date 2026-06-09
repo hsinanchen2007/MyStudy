@@ -1,4 +1,4 @@
-```
+// ```
 bool subFucAllTrue(int roomsSize, int *flag) {
     int i;
     for (i = 0; i < roomsSize; i++) {
@@ -58,4 +58,4 @@ bool canVisitAllRooms(int** rooms, int roomsSize, int* roomsColSize){
 
     return returnValue;
 }
-```
+// ```

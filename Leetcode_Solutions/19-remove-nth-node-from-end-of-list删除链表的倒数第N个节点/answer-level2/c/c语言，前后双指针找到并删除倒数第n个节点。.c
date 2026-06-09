@@ -1,9 +1,9 @@
-### 解题思路
-保持前后两指针的n-1间距到链表结尾，找到并删除指针节点
+// ### 解题思路
+// 保持前后两指针的n-1间距到链表结尾，找到并删除指针节点
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -36,4 +36,4 @@ struct ListNode* removeNthFromEnd(struct ListNode* head, int n)
 
     return head;
 }
-```
+// ```

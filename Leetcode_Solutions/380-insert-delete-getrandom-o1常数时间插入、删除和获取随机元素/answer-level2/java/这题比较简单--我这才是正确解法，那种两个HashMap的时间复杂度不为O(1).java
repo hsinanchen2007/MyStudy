@@ -1,4 +1,4 @@
-```
+// ```
 HashMap<Integer,Integer> map=new HashMap<>();
     LinkedList<Integer> list=new LinkedList<>();
  int size;
@@ -47,4 +47,4 @@ size++;
 
 
     }
-```
+// ```

@@ -1,4 +1,4 @@
-```python
+# ```python
 class Word:
     def __init__(self, freq, word):
         self.freq = freq
@@ -28,4 +28,4 @@ class Solution:
             res.append((heapq.heappop(heap)).word)
         return res[::-1]
 
-```
+# ```

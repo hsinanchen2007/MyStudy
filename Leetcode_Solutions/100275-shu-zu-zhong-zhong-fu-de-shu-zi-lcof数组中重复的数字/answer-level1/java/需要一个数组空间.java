@@ -1,9 +1,9 @@
-### 解题思路
-用数组记录每个数字出现次数，发现某个数字出现两次就返回。
+// ### 解题思路
+// 用数组记录每个数字出现次数，发现某个数字出现两次就返回。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findRepeatNumber(int[] nums) {
         int n = nums.length;
@@ -17,4 +17,4 @@ class Solution {
 
     }
 }
-```
+// ```

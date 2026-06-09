@@ -1,4 +1,4 @@
-```
+// ```
 public class Solution {
     public int MaxDepth(TreeNode root) {
         //bfs
@@ -32,8 +32,8 @@ public class Solution {
         return depth;
     }
 }
-```
-```
+// ```
+// ```
 public int MaxDepth(TreeNode root) {
         //dfs
         //using two stacks.
@@ -70,4 +70,4 @@ public int MaxDepth(TreeNode root) {
 
         return depth;
     }
-```
+// ```

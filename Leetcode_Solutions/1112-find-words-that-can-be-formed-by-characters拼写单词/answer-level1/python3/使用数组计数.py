@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def countCharacters(self, words: List[str], chars: str) -> int:
         m, res = [0] * 26, 0
@@ -14,4 +14,4 @@ class Solution:
             else:
                 res += len(word)
         return res
-```
+# ```

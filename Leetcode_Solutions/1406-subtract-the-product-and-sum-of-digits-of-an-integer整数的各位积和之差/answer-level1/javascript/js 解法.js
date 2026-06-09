@@ -1,8 +1,8 @@
-内存消耗 : 34.1 MB, 在所有 javascript 提交中击败了 100.00% 的用户
+// 内存消耗 : 34.1 MB, 在所有 javascript 提交中击败了 100.00% 的用户
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {number}
@@ -19,4 +19,4 @@ var subtractProductAndSum = function(n) {
     }
     return product - sum;
 };
-```
+// ```

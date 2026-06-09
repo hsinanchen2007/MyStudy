@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def letterCasePermutation(self, S: str) -> List[str]:
         if not S:
@@ -20,4 +20,4 @@ class Solution:
                 helper(i,S)
         helper(0,S)
         return ans
-```
+# ```

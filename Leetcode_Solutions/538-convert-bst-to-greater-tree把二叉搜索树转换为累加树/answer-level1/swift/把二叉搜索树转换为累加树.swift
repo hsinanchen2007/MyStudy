@@ -1,8 +1,8 @@
 
-递归法：
-中序遍历树是有序的，按照右中左遍历树是自减的，然后访问过的节点进行累加，可得出结果
+// 递归法：
+// 中序遍历树是有序的，按照右中左遍历树是自减的，然后访问过的节点进行累加，可得出结果
 
-```swift []
+// ```swift []
 
 class Solution {
     func convertBST(_ root: TreeNode?) -> TreeNode? {
@@ -29,10 +29,10 @@ class Solution {
     }
 }
 
-```
+// ```
 
-迭代法：
-```swift []
+// 迭代法：
+// ```swift []
 func convertBST(_ root: TreeNode?) -> TreeNode? {
         guard let root = root else {
             return nil
@@ -60,4 +60,4 @@ func convertBST(_ root: TreeNode?) -> TreeNode? {
         
         return root
     }
-```
+// ```

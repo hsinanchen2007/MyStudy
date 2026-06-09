@@ -1,11 +1,11 @@
-先将所有的数取60的余数
-接着用Counter统计每个出现的余数
-遍历所有小于30的数x
-找60-x出现的次数取一个乘积就是有多少种组合
+# 先将所有的数取60的余数
+# 接着用Counter统计每个出现的余数
+# 遍历所有小于30的数x
+# 找60-x出现的次数取一个乘积就是有多少种组合
 
-注意两个special case
-一个是0 一个是30 这两个取组合数即可
-```
+# 注意两个special case
+# 一个是0 一个是30 这两个取组合数即可
+# ```
 from collections import Counter
 from scipy.special import comb
 class Solution:
@@ -25,4 +25,4 @@ class Solution:
         #special case
         sum = int(sum + comb(c1[0],2))
         return sum
-```
+# ```

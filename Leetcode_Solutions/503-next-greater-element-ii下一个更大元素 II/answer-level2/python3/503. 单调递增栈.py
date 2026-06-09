@@ -1,14 +1,14 @@
-### 解题思路
-不太熟悉单调递增栈，感觉写起来还是挺难的。
+# ### 解题思路
+# 不太熟悉单调递增栈，感觉写起来还是挺难的。
 
-### 注意事项
-1. 压入栈的是index而不是数值。
-2. 判断符合条件时，记得要出栈操作的，每次都忘记。
-3. 循环数组的操作可以用i = 2*len(nums) % len(nums)来实现。
+# ### 注意事项
+# 1. 压入栈的是index而不是数值。
+# 2. 判断符合条件时，记得要出栈操作的，每次都忘记。
+# 3. 循环数组的操作可以用i = 2*len(nums) % len(nums)来实现。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def nextGreaterElements(self, nums: List[int]) -> List[int]:
 
@@ -23,4 +23,4 @@ class Solution:
         
         return res
         
-```
+# ```

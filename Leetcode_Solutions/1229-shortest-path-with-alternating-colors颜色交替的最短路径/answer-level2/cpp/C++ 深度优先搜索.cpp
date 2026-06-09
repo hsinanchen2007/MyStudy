@@ -1,5 +1,5 @@
-颜色交替深度优先搜索，不断更新最短距离
-```
+// 颜色交替深度优先搜索，不断更新最短距离
+// ```
 class Solution {
 public:
     const int INF = 1e8;
@@ -29,6 +29,6 @@ public:
         return out;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/e0250e54976780382c6fcc070142d22d27a45cbb9a9c129e1d0032bc5f503082-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e0250e54976780382c6fcc070142d22d27a45cbb9a9c129e1d0032bc5f503082-image.png)

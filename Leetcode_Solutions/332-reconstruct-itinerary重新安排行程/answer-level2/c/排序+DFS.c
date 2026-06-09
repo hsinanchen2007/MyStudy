@@ -1,9 +1,9 @@
-### 解题思路
-1、qsort排序
-2、DFS逐一比较，进出DFS关键标志置位，返回
+// ### 解题思路
+// 1、qsort排序
+// 2、DFS逐一比较，进出DFS关键标志置位，返回
 
-### 代码
-```c
+// ### 代码
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -62,4 +62,4 @@ char ** findItinerary(char *** tickets, int ticketsSize, int* ticketsColSize, in
 
     return res;
 }
-```
+// ```

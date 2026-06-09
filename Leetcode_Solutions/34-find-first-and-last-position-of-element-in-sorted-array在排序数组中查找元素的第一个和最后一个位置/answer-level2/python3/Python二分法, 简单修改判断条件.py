@@ -1,5 +1,5 @@
-1. 标准二分法
-```
+# 1. 标准二分法
+# ```
 def binary_search(self, nums: List[int], target: int) -> int:
         left, right = 0, len(nums) - 1
         while left <= right:
@@ -12,10 +12,10 @@ def binary_search(self, nums: List[int], target: int) -> int:
             else:
                 left = mid + 1
         return -1
-```
+# ```
 
-2. 改造后的二分法，获取到target后需要判断是否第一个target或最后一个target
-```
+# 2. 改造后的二分法，获取到target后需要判断是否第一个target或最后一个target
+# ```
 class Solution:
     def searchRange(self, nums: List[int], target: int) -> List[int]:
         left = self.left_search(nums, target)
@@ -56,6 +56,6 @@ class Solution:
             else:
                 left = mid + 1
         return -1
-```
+# ```
 
 

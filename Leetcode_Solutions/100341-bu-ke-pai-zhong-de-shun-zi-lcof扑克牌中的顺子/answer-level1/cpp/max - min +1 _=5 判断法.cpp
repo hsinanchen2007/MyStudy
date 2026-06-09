@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isStraight(vector<int>& nums) {
@@ -30,4 +30,4 @@ public:
 
  //(max-min+1) > 5 则无法构成 （对于无重复数字而言）
  //若数字重复则直接返回false
-```
+// ```

@@ -1,6 +1,6 @@
-DFS 一下记录所有子树和到 Hash 里，然后处理一下 Hash 找计数 Top 1 所有的元素即可。
+# DFS 一下记录所有子树和到 Hash 里，然后处理一下 Hash 找计数 Top 1 所有的元素即可。
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -28,4 +28,4 @@ class Solution:
         #print(self.h)
         hh = sorted(self.h.items(), key=lambda i: i[1], reverse=True)
         return [hh[i][0] for i in range(len(hh)) if hh[i][1] == hh[0][1]]
-```
+# ```

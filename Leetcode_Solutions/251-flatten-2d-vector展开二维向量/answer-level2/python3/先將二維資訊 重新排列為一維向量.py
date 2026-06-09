@@ -1,10 +1,10 @@
-### 解题思路
-先將二維資訊 重新排列為一維向量 過程中記錄元素總數
-再一一取出的動作中 隨時記錄已經取出多少元素 
+# ### 解题思路
+# 先將二維資訊 重新排列為一維向量 過程中記錄元素總數
+# 再一一取出的動作中 隨時記錄已經取出多少元素 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Vector2D:
 
     def __init__(self, v: List[List[int]]):
@@ -29,4 +29,4 @@ class Vector2D:
 # obj = Vector2D(v)
 # param_1 = obj.next()
 # param_2 = obj.hasNext()
-```
+# ```

@@ -1,13 +1,13 @@
-![image.png](https://pic.leetcode-cn.com/714a46d6f488d04acfbe17562d7d567d2ba306a82e9fcb03926c6949eacbc603-image.png)
+// ![image.png](https://pic.leetcode-cn.com/714a46d6f488d04acfbe17562d7d567d2ba306a82e9fcb03926c6949eacbc603-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
   倒序排序，把统计到的第一个幸运数返回，如果没有幸运数，返回-1
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} arr
  * @return {number}
@@ -44,4 +44,4 @@ var findLucky = function(arr) {
     
   return target;
 };
-```
+// ```

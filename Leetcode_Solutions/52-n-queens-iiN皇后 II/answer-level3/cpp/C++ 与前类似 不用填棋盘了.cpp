@@ -1,4 +1,4 @@
-```
+// ```
     int n,ans;//n皇后 
     void dfs(int u, auto &col,auto &gd, auto &rgd){
         if(u==n){//搜索完毕
@@ -19,4 +19,4 @@
         dfs(0,col,gd,rgd);//从第0行开始搜索
         return ans;
     }
-```
+// ```

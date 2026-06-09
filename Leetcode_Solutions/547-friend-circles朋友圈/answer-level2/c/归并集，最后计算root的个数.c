@@ -1,10 +1,10 @@
-### 解题思路
-1、归并集
-2、最后遍历index计算root的个数
+// ### 解题思路
+// 1、归并集
+// 2、最后遍历index计算root的个数
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int findRoot(int *index, int i)
 {
     while (index[i] != i) {
@@ -52,4 +52,4 @@ int findCircleNum(int** M, int MSize, int* MColSize)
     return count;   
 }
 
-```
+// ```

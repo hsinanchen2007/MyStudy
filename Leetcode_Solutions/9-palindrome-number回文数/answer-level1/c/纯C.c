@@ -1,5 +1,5 @@
-纯C
-```
+// 纯C
+// ```
 #define isNotPalindrome 0
 
 bool isPalindrome(int x){
@@ -19,4 +19,4 @@ bool isPalindrome(int x){
 
     return !(uReverse ^ x);
 }
-```
+// ```

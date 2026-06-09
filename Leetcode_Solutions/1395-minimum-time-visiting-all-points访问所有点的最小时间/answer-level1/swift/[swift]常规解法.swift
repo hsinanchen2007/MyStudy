@@ -1,4 +1,4 @@
-```swift
+// ```swift
   class Solution {
       func minTimeToVisitAllPoints(_ points: [[Int]]) -> Int {
          guard points.count > 1 else {
@@ -11,4 +11,4 @@
           return ans
       }
   }
-```
+// ```

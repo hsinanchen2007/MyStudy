@@ -1,4 +1,4 @@
-```class Solution(object):
+# ```class Solution(object):
     def medofArray(self,array):
         return (array[len(array)/2] + array[(len(array)-1)/2])/2.0
     def findMedianSortedArrays(self, nums1, nums2):
@@ -43,7 +43,7 @@
             else:
                 break
         return (max(L1,L2)+min(R1,R2))/2.0
-```         
+# ```         
             
                 
         

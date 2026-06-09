@@ -1,10 +1,10 @@
-### 解题思路
-本题采用preorder的方式，记录访问到的x，y的信息：包括他们的深度和他们的parent。
-最后再比较一下。
+// ### 解题思路
+// 本题采用preorder的方式，记录访问到的x，y的信息：包括他们的深度和他们的parent。
+// 最后再比较一下。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -39,4 +39,4 @@ class Solution {
         preorder(root.right, x, y, root, d+1);
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-从前往后遍历，复杂度O(n)
+// ### 解题思路
+// 从前往后遍历，复杂度O(n)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -37,4 +37,4 @@ class Solution {
         }
     }
 }
-```
+// ```

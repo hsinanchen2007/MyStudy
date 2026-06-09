@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/8ad9fc478a28e22f33d2ee40b41c9498d15e77d1e38a642444e97cda4c1607d8-image.png)
+// ![image.png](https://pic.leetcode-cn.com/8ad9fc478a28e22f33d2ee40b41c9498d15e77d1e38a642444e97cda4c1607d8-image.png)
 
-```
+// ```
 class Solution {
     public boolean CheckPermutation(String s1, String s2) {
         if (s1.length() != s2.length()) {
@@ -30,5 +30,5 @@ class Solution {
         System.out.println(flag);
     }
 }
-```
+// ```
 

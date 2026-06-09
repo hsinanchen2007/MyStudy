@@ -1,5 +1,5 @@
-换了个好几个数字，想起这个搞事的数字. 心情大好 (. y .)
-```
+// 换了个好几个数字，想起这个搞事的数字. 心情大好 (. y .)
+// ```
 impl Solution {
     // https://www.strchr.com/hash_functions
      fn hash_word(s: &[u8]) -> usize {
@@ -34,4 +34,4 @@ impl Solution {
         ret
     }
 }
-```
+// ```

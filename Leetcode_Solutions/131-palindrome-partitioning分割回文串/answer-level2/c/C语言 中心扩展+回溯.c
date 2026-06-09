@@ -1,14 +1,14 @@
-### 解题思路
-dp[left][right] == 1：表示从下标left~right的子串为回文子串
-buf[i] == x：表示回文子串的的下标位置。一组子串的起点下标：buf[i-1]+1 终点下标：buf[i]
-start：遍历原字符串s时的当前位置。
-1.先用中心扩展的思想遍历原字符串s，将所有回文子串存储到dp[][]中
-2.用start=0开始搜索原字符串s。不断递归调用search()函数
-3.当start==strlen(s)时，说明已经找到一组子串，则将这组子串存到res中去
+// ### 解题思路
+// dp[left][right] == 1：表示从下标left~right的子串为回文子串
+// buf[i] == x：表示回文子串的的下标位置。一组子串的起点下标：buf[i-1]+1 终点下标：buf[i]
+// start：遍历原字符串s时的当前位置。
+// 1.先用中心扩展的思想遍历原字符串s，将所有回文子串存储到dp[][]中
+// 2.用start=0开始搜索原字符串s。不断递归调用search()函数
+// 3.当start==strlen(s)时，说明已经找到一组子串，则将这组子串存到res中去
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 #define MAX_SIZE 1024
 //从中心扩展，将所有回文子串的位置存储到dp中
@@ -69,4 +69,4 @@ char *** partition(char * s, int* returnSize, int** returnColumnSizes){
     search(0, 1, buf, dp, res, s, returnSize, returnColumnSizes);
     return res;
 }
-```
+// ```

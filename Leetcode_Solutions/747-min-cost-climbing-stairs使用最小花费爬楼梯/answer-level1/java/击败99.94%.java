@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/abbb79bc0d067e2a534b2cacd7eabd48948975076e8f7b7006ca5029a10c97b4-image.png)
-要想跳到第n个台阶上，首先你的位置要处于cost[n-1]或者cost[n-2];
-本题的特点是从第0，1层开始往上跳，所以4个数以下时可以直接求出。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/abbb79bc0d067e2a534b2cacd7eabd48948975076e8f7b7006ca5029a10c97b4-image.png)
+// 要想跳到第n个台阶上，首先你的位置要处于cost[n-1]或者cost[n-2];
+// 本题的特点是从第0，1层开始往上跳，所以4个数以下时可以直接求出。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minCostClimbingStairs(int[] cost) {
         int n = cost.length;
@@ -25,4 +25,4 @@ class Solution {
         return DP[n];
     }
 }
-```
+// ```

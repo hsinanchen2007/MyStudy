@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-排序, 循环 前后两数相减 得出 最小值, 再次循环 匹配最小值,得出数组
+// 排序, 循环 前后两数相减 得出 最小值, 再次循环 匹配最小值,得出数组
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} arr
  * @return {number[][]}
@@ -24,4 +24,4 @@ var minimumAbsDifference = function(arr) {
   
   return list
 };
-```
+// ```

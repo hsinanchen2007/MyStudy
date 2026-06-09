@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
      public boolean CheckPermutation(String s1, String s2) {
        if(s1.length() != s2.length()) return false;
@@ -19,4 +19,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

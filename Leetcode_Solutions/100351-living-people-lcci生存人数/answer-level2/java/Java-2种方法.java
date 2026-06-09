@@ -1,5 +1,5 @@
-# 代码
-```java [-统计每年的人数变化(2 ms)]
+// # 代码
+// ```java [-统计每年的人数变化(2 ms)]
 class Solution {
     public int maxAliveYear(int[] birth, int[] death) {
         int[] changes = new int[102];
@@ -18,8 +18,8 @@ class Solution {
         return res;
     }
 }
-```
-```java [-最小堆(96 ms)]
+// ```
+// ```java [-最小堆(96 ms)]
 class Solution {
     public int maxAliveYear(int[] birth, int[] death) {
         int len = birth.length;
@@ -41,6 +41,6 @@ class Solution {
         return res;
     }
 }
-```
-# 相关题目
-[1094. 拼车](https://leetcode-cn.com/problems/car-pooling/)
+// ```
+// # 相关题目
+// [1094. 拼车](https://leetcode-cn.com/problems/car-pooling/)

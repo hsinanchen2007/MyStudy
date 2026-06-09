@@ -1,11 +1,11 @@
-读取第一个字符串中的第1个字符，与剩余的字符串比较第1个字符；
+# 读取第一个字符串中的第1个字符，与剩余的字符串比较第1个字符；
 
-。。。
+# 。。。
 
-读取第一个字符串中的第i个字符，与剩余的字符串比较第i个字符；
+# 读取第一个字符串中的第i个字符，与剩余的字符串比较第i个字符；
 
 
-```PYTHON
+# ```PYTHON
 def longestCommonPrefix(strs):
     """
     :type strs: List[str]
@@ -20,6 +20,6 @@ def longestCommonPrefix(strs):
                 return allstr
         allstr += strs[0][i]
     return allstr
-```
+# ```
 
-欢迎关注我的博客 www.sbaban.com
+# 欢迎关注我的博客 www.sbaban.com

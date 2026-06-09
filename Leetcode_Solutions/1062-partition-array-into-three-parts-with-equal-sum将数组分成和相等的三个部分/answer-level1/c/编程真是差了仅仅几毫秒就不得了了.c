@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/201017459e3adfef6eaa9291bf0d7f206dd0b1217887bfc54ac3dbe658fada01-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/201017459e3adfef6eaa9291bf0d7f206dd0b1217887bfc54ac3dbe658fada01-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool canThreePartsEqualSum(int* A, int ASize){
     int sum = 0 , i , num =0;
     for(i = 0; i < ASize; i++ )  sum += A[i];
@@ -30,4 +30,4 @@ bool canThreePartsEqualSum(int* A, int ASize){
     }
     return num == 3;
 }
-```
+// ```

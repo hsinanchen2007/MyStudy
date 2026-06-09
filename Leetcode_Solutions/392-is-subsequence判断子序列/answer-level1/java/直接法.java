@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isSubsequence(String s, String t) {
         int index =0;       //t的索引，每次比较后加1
@@ -29,4 +29,4 @@ class Solution {
         }else return false;
     }
 }
-```
+// ```

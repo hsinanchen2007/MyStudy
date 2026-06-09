@@ -1,9 +1,9 @@
-### 解题思路
-考虑用hash统计字符串个数，先判断存在，在统计个数，注意点就是加上最后一个字符
+// ### 解题思路
+// 考虑用hash统计字符串个数，先判断存在，在统计个数，注意点就是加上最后一个字符
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} S
  * @return {string}
@@ -31,4 +31,4 @@ var compressString = function(S) {
 
     return res.length >= S.length ? S : res
 };
-```
+// ```

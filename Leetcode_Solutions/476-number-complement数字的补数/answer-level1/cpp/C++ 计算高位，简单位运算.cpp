@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     const int N = sizeof(int) * 8;
@@ -21,6 +21,6 @@ public:
         return high_mask ^ num;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/f649c77623abdb4e4d708a74f2a735a1c60638f323fa97583089cbb4be62b196-image.png)
+// ![image.png](https://pic.leetcode-cn.com/f649c77623abdb4e4d708a74f2a735a1c60638f323fa97583089cbb4be62b196-image.png)

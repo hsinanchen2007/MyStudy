@@ -1,21 +1,21 @@
-### 解题思路  
-![SharedScreenshot.jpg](https://pic.leetcode-cn.com/d38bc1c056c4c1b01f8e57c1059b54d0e0a860cc860c31810350d90fa8bd682e-SharedScreenshot.jpg)
-思路非常清楚，就是手跟不上脑袋，写出来总不对。。。
+// ### 解题思路  
+// ![SharedScreenshot.jpg](https://pic.leetcode-cn.com/d38bc1c056c4c1b01f8e57c1059b54d0e0a860cc860c31810350d90fa8bd682e-SharedScreenshot.jpg)
+// 思路非常清楚，就是手跟不上脑袋，写出来总不对。。。
 
-flag数组用于标记格子是否被机器人抵达了。
-sum_i为横坐标的数位和，一般上下相邻的两个格子，下面的sum_i比上面多1，但是如果遇到下面的横坐标是整10的时候，sum_i需要重新计算。
-sum_j为纵坐标的数位和，计算同上。
+// flag数组用于标记格子是否被机器人抵达了。
+// sum_i为横坐标的数位和，一般上下相邻的两个格子，下面的sum_i比上面多1，但是如果遇到下面的横坐标是整10的时候，sum_i需要重新计算。
+// sum_j为纵坐标的数位和，计算同上。
 
-两重for循环，遍历整个地图的格子，对于任意的一个格子，它会被机器人抵达的条件是：
-1. 左边的格子或上面的格子被抵达了  
-2. 横坐标和纵坐标的数位和小于k  
+// 两重for循环，遍历整个地图的格子，对于任意的一个格子，它会被机器人抵达的条件是：
+// 1. 左边的格子或上面的格子被抵达了  
+// 2. 横坐标和纵坐标的数位和小于k  
 
-结束的条件是某一行（比如第i行）的所有格子，机器人都不能抵达。
+// 结束的条件是某一行（比如第i行）的所有格子，机器人都不能抵达。
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int movingCount(int m, int n, int k){
     int i, j, sum_i=0, sum_j=0, res=0, res_old=0;
     int flag[m][n];
@@ -50,4 +50,4 @@ int movingCount(int m, int n, int k){
     }
     return res;
 }
-```
+// ```

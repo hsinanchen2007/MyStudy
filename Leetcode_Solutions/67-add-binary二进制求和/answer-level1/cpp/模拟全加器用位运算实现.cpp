@@ -1,13 +1,13 @@
-### 解题思路
-利用数电全加器的思想
-全加器输入输出特性为
-![image.png](https://pic.leetcode-cn.com/aae44e82176b0d018f317210f277c05aa216252f68cac04f9271f5ee11c069e2-image.png)
-先添加先导0保证两字符串等长
-然后按位相加
+// ### 解题思路
+// 利用数电全加器的思想
+// 全加器输入输出特性为
+// ![image.png](https://pic.leetcode-cn.com/aae44e82176b0d018f317210f277c05aa216252f68cac04f9271f5ee11c069e2-image.png)
+// 先添加先导0保证两字符串等长
+// 然后按位相加
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string addBinary(string a, string b) {
@@ -33,4 +33,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 var lengthOfLongestSubstring = function(s) {
   let arr=s.split('');
   let len=0;
@@ -12,4 +12,4 @@ var lengthOfLongestSubstring = function(s) {
   }
   return len
 };
-```
+// ```

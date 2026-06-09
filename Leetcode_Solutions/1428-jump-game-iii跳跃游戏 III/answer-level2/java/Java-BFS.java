@@ -1,5 +1,5 @@
-# 代码
-```java
+// # 代码
+// ```java
 class Solution {
     public boolean canReach(int[] arr, int start) {
         int len = arr.length, size = 1;
@@ -30,4 +30,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

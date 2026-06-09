@@ -1,12 +1,12 @@
-### 解题思路
-tmp 存放不完全的括号序列，当前字符串的左括号数量，右括号数量
-ans 存放合法的括号序列
+// ### 解题思路
+// tmp 存放不完全的括号序列，当前字符串的左括号数量，右括号数量
+// ans 存放合法的括号序列
 
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> generateParenthesis(int n) {
@@ -48,4 +48,4 @@ public:
 
     }
 };
-```
+// ```

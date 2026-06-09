@@ -1,11 +1,11 @@
-### 解题思路
-本题快慢指针不需要针对链表长度是偶数还是奇数进行特别处理。
+// ### 解题思路
+// 本题快慢指针不需要针对链表长度是偶数还是奇数进行特别处理。
 
-![image.png](https://pic.leetcode-cn.com/43494c599f9c2b5ed06457a8e048ac51ad421dbbe778736867440bbeaa24888d-image.png)
+// ![image.png](https://pic.leetcode-cn.com/43494c599f9c2b5ed06457a8e048ac51ad421dbbe778736867440bbeaa24888d-image.png)
 
-### 代码
+// ### 代码
 
-```
+// ```
 class Solution {
 public:
 	void reorderList(ListNode* head) {
@@ -38,4 +38,4 @@ public:
 		return new_head;
 	}
 };
-```
+// ```

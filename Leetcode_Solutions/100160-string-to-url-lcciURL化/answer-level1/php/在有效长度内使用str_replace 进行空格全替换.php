@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -16,4 +16,4 @@ class Solution {
         return str_replace(' ','%20',substr($S,0,$length));
     }
 }
-```
+// ```

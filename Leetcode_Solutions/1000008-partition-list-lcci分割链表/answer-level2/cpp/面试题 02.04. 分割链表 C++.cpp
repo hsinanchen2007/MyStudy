@@ -1,10 +1,10 @@
-### 解题思路
-1、将链表节点放入数组，使用快排的partition方法，最后再建立新的链接顺序
+// ### 解题思路
+// 1、将链表节点放入数组，使用快排的partition方法，最后再建立新的链接顺序
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 
 //左边小于pivot 右边大于等于pivot
 void partition(vector<ListNode*>& v, int x)

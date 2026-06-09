@@ -1,10 +1,10 @@
-### 解题思路
-1. 第i个节点是否能够到达，取决于从0到i-1个节点是否有一个能跳到i节点
-2. 所以，dp[i] = {dp[0] || .... || dp[i-1]}
+// ### 解题思路
+// 1. 第i个节点是否能够到达，取决于从0到i-1个节点是否有一个能跳到i节点
+// 2. 所以，dp[i] = {dp[0] || .... || dp[i-1]}
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func canJump(nums []int) bool {
     if len(nums) <= 1 {
         return true
@@ -25,4 +25,4 @@ func canJump(nums []int) bool {
 
     return dp[len(nums)-1]
 }
-```
+// ```

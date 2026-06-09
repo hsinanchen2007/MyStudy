@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def minDiffInBST(root: TreeNode): Int = {
     var v = Set[Int]()
@@ -16,4 +16,4 @@ object Solution {
     (values zip values.tail).map(x => x._2 - x._1).min
   }
 }
-```
+// ```

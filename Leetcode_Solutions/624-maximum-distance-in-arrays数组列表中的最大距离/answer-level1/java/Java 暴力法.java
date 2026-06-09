@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int maxDistance(List<List<Integer>> arrays) {
         //获取每个数组的最大、最小值，再比较获取最大距离
@@ -15,4 +15,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

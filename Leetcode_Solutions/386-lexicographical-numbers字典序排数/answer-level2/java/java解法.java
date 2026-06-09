@@ -1,7 +1,7 @@
-执行用时 : 6 ms, 击败了91.32% 的用户。
-内存消耗 : 47.2 MB, 击败了50.82% 的用户。
+// 执行用时 : 6 ms, 击败了91.32% 的用户。
+// 内存消耗 : 47.2 MB, 击败了50.82% 的用户。
 
-```
+// ```
 class Solution {
     public List<Integer> lexicalOrder(int n) {
         List<Integer> list = new ArrayList<>();
@@ -28,4 +28,4 @@ class Solution {
         }
     }
 }
-```
+// ```

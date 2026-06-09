@@ -1,13 +1,13 @@
-## 标记法
-### 解题思路
-* 直接套中序遍历的模板，设置一个全局的flag = false。（表示是否开启查找下一个元素的开关）
-* 若找到元素p，使得flag = true，即打开查找下一个元素的开关。
-* 把找到的元素返回
+// ## 标记法
+// ### 解题思路
+// * 直接套中序遍历的模板，设置一个全局的flag = false。（表示是否开启查找下一个元素的开关）
+// * 若找到元素p，使得flag = true，即打开查找下一个元素的开关。
+// * 把找到的元素返回
 
 
-### 递归代码
+// ### 递归代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool flag = false;
@@ -32,11 +32,11 @@ public:
         return ret;
     }
 };
-```
+// ```
 
-### 迭代代码
+// ### 迭代代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     TreeNode* inorderSuccessor(TreeNode* root, TreeNode* p) {
@@ -59,17 +59,17 @@ public:
         return nullptr;
     }
 };
-```
+// ```
 
-## 维护前一个元素
-### 解题思路
-* 在中序遍历的时候维护一个一个prev指针，指向的是当前元素的上一个元素
-* 若上一个元素为p的时候，说明当前元素就是p的后继
-* 直接返回当前元素即可
+// ## 维护前一个元素
+// ### 解题思路
+// * 在中序遍历的时候维护一个一个prev指针，指向的是当前元素的上一个元素
+// * 若上一个元素为p的时候，说明当前元素就是p的后继
+// * 直接返回当前元素即可
 
-### 递归代码
+// ### 递归代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     TreeNode *ret = nullptr;
@@ -91,11 +91,11 @@ public:
         return ret;
     }
 };
-```
+// ```
 
-### 迭代代码
+// ### 迭代代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     TreeNode* inorderSuccessor(TreeNode* root, TreeNode* p) {
@@ -118,4 +118,4 @@ public:
         return nullptr;
     }
 };
-```
+// ```

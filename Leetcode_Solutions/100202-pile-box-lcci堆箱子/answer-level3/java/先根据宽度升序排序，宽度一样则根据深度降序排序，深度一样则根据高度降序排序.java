@@ -1,9 +1,9 @@
-# 思路
-排好序之后就转化为最长上升子序列问题。只不过该上升子序列的“上升”条件是需要**2个属性**(**深度、高度**)来判定。
-理解不了的话推荐先做简单点的[面试题 17.08. 马戏团人塔](https://leetcode-cn.com/problems/circus-tower-lcci/solution/xian-gen-ju-shen-gao-pai-xu-ruo-shen-gao-yi-yang-z/)
+// # 思路
+// 排好序之后就转化为最长上升子序列问题。只不过该上升子序列的“上升”条件是需要**2个属性**(**深度、高度**)来判定。
+// 理解不了的话推荐先做简单点的[面试题 17.08. 马戏团人塔](https://leetcode-cn.com/problems/circus-tower-lcci/solution/xian-gen-ju-shen-gao-pai-xu-ruo-shen-gao-yi-yang-z/)
 
-# 代码
-```java [-排序+动态规划]
+// # 代码
+// ```java [-排序+动态规划]
 class Solution {
     public int pileBox(int[][] box) {
         int len = box.length;
@@ -23,4 +23,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

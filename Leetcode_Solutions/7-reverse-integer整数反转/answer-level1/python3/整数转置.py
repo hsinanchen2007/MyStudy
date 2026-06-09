@@ -1,9 +1,9 @@
-### 解题思路
-首先判断的符号然后利用字符串进行倒置
+# ### 解题思路
+# 首先判断的符号然后利用字符串进行倒置
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def reverse(self, x):
         """
@@ -21,4 +21,4 @@ class Solution(object):
             return 0
 
 
-```
+# ```

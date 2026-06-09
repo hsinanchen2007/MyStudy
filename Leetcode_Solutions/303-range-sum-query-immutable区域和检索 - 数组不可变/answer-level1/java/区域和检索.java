@@ -1,9 +1,9 @@
-### 解题思路
-1.看清题目要求，多次调用sumRange()方法，为了减少空间限制，只需计算一次求和，然后记录下来即可。
+// ### 解题思路
+// 1.看清题目要求，多次调用sumRange()方法，为了减少空间限制，只需计算一次求和，然后记录下来即可。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class NumArray {
     private int[] sums;
     public NumArray(int[] nums) {
@@ -29,4 +29,4 @@ class NumArray {
  * NumArray obj = new NumArray(nums);
  * int param_1 = obj.sumRange(i,j);
  */
-```
+// ```

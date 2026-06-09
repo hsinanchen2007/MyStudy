@@ -1,5 +1,5 @@
-两个栈：一个栈存放节点，另一个栈存放到节点的路径向量
-```cpp
+// 两个栈：一个栈存放节点，另一个栈存放到节点的路径向量
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -52,4 +52,4 @@ public:
         return res;
     }
 };
-```
+// ```

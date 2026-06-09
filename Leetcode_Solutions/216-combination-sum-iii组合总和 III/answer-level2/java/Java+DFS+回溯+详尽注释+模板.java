@@ -1,8 +1,8 @@
-39,40,216是一系列的题，做完之后可以总结模板。
+// 39,40,216是一系列的题，做完之后可以总结模板。
 
-![image.png](https://pic.leetcode-cn.com/3a3d944b404e5bdc7199da154c109664f7f07801ff4df3f87f2e4b66168c3a45-image.png)
+// ![image.png](https://pic.leetcode-cn.com/3a3d944b404e5bdc7199da154c109664f7f07801ff4df3f87f2e4b66168c3a45-image.png)
 
-```
+// ```
 import java.util.ArrayList;
 import java.util.List;
 
@@ -40,7 +40,7 @@ class Solution {
         }
     }
 }
-```
+// ```
 
 
 

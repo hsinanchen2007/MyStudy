@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-本着方便理解的角度整的，首先需要根据start排序，第二步直接合并就行
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 本着方便理解的角度整的，首先需要根据start排序，第二步直接合并就行
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] merge(int[][] intervals) {
         if(intervals.length==0){
@@ -32,4 +32,4 @@ class Solution {
         return res.toArray(new int[0][]);
     }
 }
-```
+// ```

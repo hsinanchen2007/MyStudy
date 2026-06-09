@@ -1,9 +1,9 @@
-### 解题思路
-先找到R，然后对R的四个方向进行判断，遇到.就接着走下去，遇到p直接返回1，遇到B直接退出当前的递归，即结束当前方向。
+// ### 解题思路
+// 先找到R，然后对R的四个方向进行判断，遇到.就接着走下去，遇到p直接返回1，遇到B直接退出当前的递归，即结束当前方向。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int find_p(char** board, int boardSize, int boardColSize, int i, int j, char pointer) {
     if (i < 0 || i >= boardSize || j < 0 ||j >= boardColSize) {
         return 0;
@@ -70,4 +70,4 @@ int numRookCaptures(char** board, int boardSize, int* boardColSize){
 
     return count;
 }
-```
+// ```

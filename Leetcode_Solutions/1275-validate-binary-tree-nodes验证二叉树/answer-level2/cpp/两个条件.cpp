@@ -1,8 +1,8 @@
-### 解题思路
-每个点入度最多为1，边数为n-1
-### 代码
+// ### 解题思路
+// 每个点入度最多为1，边数为n-1
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool validateBinaryTreeNodes(int n, vector<int>& leftChild, vector<int>& rightChild) {
@@ -26,4 +26,4 @@ public:
         return save==n-1;
     }
 };
-```
+// ```

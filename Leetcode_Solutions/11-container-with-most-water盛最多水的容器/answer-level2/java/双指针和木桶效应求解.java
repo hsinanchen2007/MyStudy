@@ -1,11 +1,11 @@
-### 解题思路
-木桶效应，让最短的木板尽可能的变长
+// ### 解题思路
+// 木桶效应，让最短的木板尽可能的变长
 
-执行用时 :4 ms, 在所有 Java 提交中击败了74.82%的用户
+// 执行用时 :4 ms, 在所有 Java 提交中击败了74.82%的用户
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
  public static int maxArea(int[] height) {
         int i = 0, j = height.length - 1;
@@ -23,4 +23,4 @@ class Solution {
         return maxArea;
     }
 }
-```
+// ```

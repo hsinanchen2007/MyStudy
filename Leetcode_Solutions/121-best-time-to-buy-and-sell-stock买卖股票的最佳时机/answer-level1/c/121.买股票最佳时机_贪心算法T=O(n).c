@@ -1,9 +1,9 @@
-### 解题思路
-贪心算法，不断更新最小值（小芝麻），期待后面有更大值（大西瓜），捡到一个西瓜判断一下，更新最大收益。
+// ### 解题思路
+// 贪心算法，不断更新最小值（小芝麻），期待后面有更大值（大西瓜），捡到一个西瓜判断一下，更新最大收益。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int maxProfit(int* prices, int pricesSize){
     if(pricesSize <= 0)
         return 0;
@@ -21,4 +21,4 @@ int maxProfit(int* prices, int pricesSize){
     }
     return profit;
 }
-```
+// ```

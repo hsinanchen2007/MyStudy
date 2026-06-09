@@ -1,5 +1,5 @@
-二分递归方法 复杂度保持在O(lgn)
-```
+// 二分递归方法 复杂度保持在O(lgn)
+// ```
 class Solution {
 public:
     int f(int l, int r, vector<int>& nums)
@@ -32,4 +32,4 @@ public:
         return r;
     }
 };
-```
+// ```

@@ -1,7 +1,7 @@
-### 解题思路
-直接暴力模拟题意即可。
-### 代码
-```
+// ### 解题思路
+// 直接暴力模拟题意即可。
+// ### 代码
+// ```
 class Solution {
 public:
     vector<int> decompressRLElist(vector<int>& nums) {
@@ -20,5 +20,5 @@ public:
         
     }
 };
-```
+// ```
 

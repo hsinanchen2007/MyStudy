@@ -1,5 +1,5 @@
-初始解法
-```
+// 初始解法
+// ```
 class Solution {
 
     /**
@@ -19,9 +19,9 @@ class Solution {
         if($root->right!==null) $this->helper($root->right,$level+1,$maxlevel);
     }
 }
-```
-简化只需一行代码：
-```
+// ```
+// 简化只需一行代码：
+// ```
 class Solution {
 
     /**
@@ -32,4 +32,4 @@ class Solution {
         return $root===null?0:max($this->maxDepth($root->left),$this->maxDepth($root->right))+1;
     }
 }
-```
+// ```

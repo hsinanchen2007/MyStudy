@@ -1,9 +1,9 @@
-### 解题思路
-双指针
+// ### 解题思路
+// 双指针
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isVowels(char ch){
@@ -38,4 +38,4 @@ public:
         return s;
     }
 };
-```
+// ```

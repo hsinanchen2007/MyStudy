@@ -1,17 +1,17 @@
-1. 关于复杂度
-  1.1 时间复杂度为 O(n^2)
-  1.2 空间负责度为 O(1)
-2. 我的解题思路
-  2.1 循环遍历矩阵的每一行
-       2.1.1 定义两个从左到右和从右到左的指针
-       2.1.2 使用 2.1.1 的指针遍历列，交换并反转元素
-       2.1.3 如果当前的左指针等于右指针，表示当前列具有奇数个元素，反转当前指针
-3. 提交记录
-  3.1 力扣中耗时1ms,消耗40.2MB内存
-  3.2 leetcode中耗时0ms,消耗36.8MB内存
-4. Q&A
+// 1. 关于复杂度
+//   1.1 时间复杂度为 O(n^2)
+//   1.2 空间负责度为 O(1)
+// 2. 我的解题思路
+//   2.1 循环遍历矩阵的每一行
+//        2.1.1 定义两个从左到右和从右到左的指针
+//        2.1.2 使用 2.1.1 的指针遍历列，交换并反转元素
+//        2.1.3 如果当前的左指针等于右指针，表示当前列具有奇数个元素，反转当前指针
+// 3. 提交记录
+//   3.1 力扣中耗时1ms,消耗40.2MB内存
+//   3.2 leetcode中耗时0ms,消耗36.8MB内存
+// 4. Q&A
 
-```
+// ```
 /**
  * Problem
  *     832.Flipping an Image
@@ -77,6 +77,6 @@ class Solution{
     }
 }
 
-```
-如果你有更好的想法或者疑问，可以到 [我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution) 提出issue，我会及时处理
-你也可以关注 [我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution) 获得其他题目解题思路
+// ```
+// 如果你有更好的想法或者疑问，可以到 [我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution) 提出issue，我会及时处理
+// 你也可以关注 [我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution) 获得其他题目解题思路

@@ -1,8 +1,8 @@
 
- 1.将beginWord创建为根节点
- 2.遍历wordList，添加子节点，直到找到endWord节点，并返回
- 3. 由于为双向树，根据endWord节点，反推到beginWord， 即可得到逆序的转换序列
- 4. 再逆序，得到转换序列
+//  1.将beginWord创建为根节点
+//  2.遍历wordList，添加子节点，直到找到endWord节点，并返回
+//  3. 由于为双向树，根据endWord节点，反推到beginWord， 即可得到逆序的转换序列
+//  4. 再逆序，得到转换序列
 
 import java.util.ArrayList;
 import java.util.Collections;

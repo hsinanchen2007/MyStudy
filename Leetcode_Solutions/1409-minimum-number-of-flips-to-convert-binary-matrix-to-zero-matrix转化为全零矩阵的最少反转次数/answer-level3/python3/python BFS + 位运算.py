@@ -1,7 +1,7 @@
-用bfs来进行遍历， 因为一个位置不能修改两次以上(因为修改两次相当于没修改， 修改两次以上相当于修改一次)， 所以当修改完当前位置后，就继续沿着改变后的矩阵继续进行遍历
+# 用bfs来进行遍历， 因为一个位置不能修改两次以上(因为修改两次相当于没修改， 修改两次以上相当于修改一次)， 所以当修改完当前位置后，就继续沿着改变后的矩阵继续进行遍历
 
 
-```python
+# ```python
 from copy import deepcopy
 class Solution:
     def minFlips(self, mat: List[List[int]]) -> int:
@@ -42,12 +42,12 @@ class Solution:
             res += 1
         return -1
         
-```
+# ```
 
 
-使用一维矩阵
+# 使用一维矩阵
 
-```python
+# ```python
 from copy import deepcopy
 class Solution:
     def minFlips(self, mat: List[List[int]]) -> int:
@@ -85,4 +85,4 @@ class Solution:
                     queue.append(tempMat_copy)
             res += 1
         return -1
-```
+# ```

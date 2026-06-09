@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * 关键思路
  * 广度优先 - 从上到下，从左到右
@@ -39,4 +39,4 @@ var levelOrder = function(root) {
   get()
   return result
 };
-```
+// ```

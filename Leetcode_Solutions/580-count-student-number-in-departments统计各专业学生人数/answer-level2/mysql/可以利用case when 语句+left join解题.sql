@@ -1,4 +1,4 @@
-**1.首先统计student表中存在部门的学生人数进行统计，代码如下：**
+-- **1.首先统计student表中存在部门的学生人数进行统计，代码如下：**
 select s.dept_id, count(s.dept_id) as student_number
 from student s 
 group by s.dept_id

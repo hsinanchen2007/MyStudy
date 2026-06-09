@@ -1,9 +1,9 @@
-### 解题思路
-简单深搜
+# ### 解题思路
+# 简单深搜
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
         def dsf(cur, l_left, r_left):
@@ -19,4 +19,4 @@ class Solution:
         dsf('',n,n)
         return res
 
-```
+# ```

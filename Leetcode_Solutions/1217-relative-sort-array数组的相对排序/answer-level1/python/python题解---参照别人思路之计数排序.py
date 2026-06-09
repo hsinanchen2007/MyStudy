@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def relativeSortArray(self, arr1, arr2):
         """
@@ -20,4 +20,4 @@ class Solution(object):
                 result.append(k)
                 ans[k] -= 1
         return result
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-参考高赞的题解思路，先反转所有的单词，再反转整个数组
+// ### 解题思路
+// 参考高赞的题解思路，先反转所有的单词，再反转整个数组
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public void ReverseWords(char[] s) {
        int i = 0; int j =0;
@@ -31,4 +31,4 @@ public class Solution {
         }
     }
 }
-```
+// ```

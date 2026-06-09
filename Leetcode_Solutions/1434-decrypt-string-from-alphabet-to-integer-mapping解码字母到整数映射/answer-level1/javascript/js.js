@@ -1,11 +1,11 @@
-### 
-100%
-100%
- s[i+2]==="#"
+// ### 
+// 100%
+// 100%
+//  s[i+2]==="#"
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {string}
@@ -25,4 +25,4 @@ var freqAlphabets = function(s) {
     }
     return str
 };
-```
+// ```

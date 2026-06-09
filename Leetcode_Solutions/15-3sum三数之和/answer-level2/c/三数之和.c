@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int cmp_int(const void* _a, const void* _b)
 {
 	return *(int*)_a - *(int*)_b;
@@ -46,4 +46,4 @@ int** threeSum(int* nums, int numsSize, int* returnSize, int** returnColumnSizes
 	}
 	return ret;
 }
-```
+// ```

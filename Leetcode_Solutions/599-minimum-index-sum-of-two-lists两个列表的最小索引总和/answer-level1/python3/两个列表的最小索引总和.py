@@ -1,14 +1,14 @@
-### 解题思路-哈希表
-1. 将`list1`转换成字典结构`list1_dict`：key：字符串；val：下标；
-2. 遍历`list2`，其中存在于字典中的字符串存入另一个字典结构`res`中，其值为两个列表中的下标和；
-3. 遍历`res`中的元素，将下标和最小的元素（`key`）存入返回结果中；
+# ### 解题思路-哈希表
+# 1. 将`list1`转换成字典结构`list1_dict`：key：字符串；val：下标；
+# 2. 遍历`list2`，其中存在于字典中的字符串存入另一个字典结构`res`中，其值为两个列表中的下标和；
+# 3. 遍历`res`中的元素，将下标和最小的元素（`key`）存入返回结果中；
 
-时间复杂度：`O(m+n)`；
-空间复杂度：`O(n)`；
+# 时间复杂度：`O(m+n)`；
+# 空间复杂度：`O(n)`；
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findRestaurant(self, list1: List[str], list2: List[str]) -> List[str]:
         if len(list1)*len(list2) == 0:
@@ -33,4 +33,4 @@ class Solution:
             elif res[key] == sum_index:
                 ans.append(key)
         return ans
-```
+# ```

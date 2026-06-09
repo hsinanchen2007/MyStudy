@@ -1,8 +1,8 @@
-将复合符号看作一个符号，按照每个符号代表的数字大小从大到小取模，得到整个罗马数字序列。
+# 将复合符号看作一个符号，按照每个符号代表的数字大小从大到小取模，得到整个罗马数字序列。
 
-整道题目的代码如下：
+# 整道题目的代码如下：
 
-```python
+# ```python
 class Solution(object):
     def intToRoman(self, num):
         """
@@ -51,5 +51,5 @@ class Solution(object):
             l*'L'+xl*'XL'+x*'X'+ix*'IX'+v*'V'+iv*'IV'+i*'I'
 
         return res
-```
+# ```
 

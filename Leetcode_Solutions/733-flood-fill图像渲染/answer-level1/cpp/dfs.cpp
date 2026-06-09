@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int dirs[4][2] = {{0,1},{0,-1},{1,0},{-1,0}};
@@ -16,4 +16,4 @@ public:
             backtrack(image,i+dirs[k][0],j+dirs[k][1],row,colum,color,newColor);
     }
 };
-```
+// ```

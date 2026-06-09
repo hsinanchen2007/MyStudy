@@ -1,8 +1,8 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-一开始的错误代码
-```
+# 一开始的错误代码
+# ```
     def lengthOfLongestSubstring(self, s: str) -> int:
         i = j = 0
         l, res, char, tmp = len(s), 0, set(), 0
@@ -18,11 +18,11 @@
             res = max(res, tmp)            
             j += 1
         return res
-```
+# ```
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         i = j = 0
@@ -36,4 +36,4 @@ class Solution:
             res = max(res, tmp)            
             j += 1
         return res
-```
+# ```

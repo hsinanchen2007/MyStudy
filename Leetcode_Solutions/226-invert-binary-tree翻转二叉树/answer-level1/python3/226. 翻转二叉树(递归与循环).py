@@ -1,10 +1,10 @@
-### 解题思路
-递归思想;循环思想.
-见代码注释
+# ### 解题思路
+# 递归思想;循环思想.
+# 见代码注释
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -52,4 +52,4 @@ class Solution:
             if node.right:
                 stack.append(node.right)
         return root
-```
+# ```

@@ -1,6 +1,6 @@
-思路：
-按照插入排序的方式，插入的时候，遇到两个相等就直接返回
-```
+// 思路：
+// 按照插入排序的方式，插入的时候，遇到两个相等就直接返回
+// ```
 class Solution {
     public int findRepeatNumber(int[] nums) {
         if (nums == null || nums.length == 0) {
@@ -30,4 +30,4 @@ class Solution {
         return nums[0];
     }
 }
-```
+// ```

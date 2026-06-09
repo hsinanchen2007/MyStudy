@@ -1,9 +1,9 @@
-### 解题思路
-遍历数组，求两个坐标轴的绝对值大的那个，然后相加求和。
+// ### 解题思路
+// 遍历数组，求两个坐标轴的绝对值大的那个，然后相加求和。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minTimeToVisitAllPoints(int[][] points) {
         // 距离总计
@@ -23,4 +23,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

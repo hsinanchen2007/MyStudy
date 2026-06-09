@@ -1,9 +1,9 @@
-### 解题思路
-按左界排序，连不上就append，连得上就更新。官方提供的代码是伪代码吗..？语法都报错
+// ### 解题思路
+// 按左界排序，连不上就append，连得上就更新。官方提供的代码是伪代码吗..？语法都报错
 
-### 代码
+// ### 代码
 
-```python
+// ```python
 class Solution(object):
     def merge(self, intervals):
         """
@@ -18,4 +18,4 @@ class Solution(object):
             else:
                 ans[-1][1] = max(ans[-1][1], interval[1])
         return ans
-```
+// ```

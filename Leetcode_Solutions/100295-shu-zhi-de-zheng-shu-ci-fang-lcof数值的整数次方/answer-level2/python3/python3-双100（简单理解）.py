@@ -1,4 +1,4 @@
-```
+# ```
 def pow(self, x, n):
     if n == 1 or n == -1:
         return x
@@ -19,4 +19,4 @@ def myPow(self, x, n):
     if n < 0:
         a = 1 / a
     return a
-```
+# ```

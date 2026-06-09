@@ -1,10 +1,10 @@
-### 解题思路
-双指针
-less初始为头
-more初始为尾
-### 代码
+// ### 解题思路
+// 双指针
+// less初始为头
+// more初始为尾
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         if (target <= 0) return new int[0];
@@ -25,4 +25,4 @@ class Solution {
         return new int[0];
     }
 }
-```
+// ```

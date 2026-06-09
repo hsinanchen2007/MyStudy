@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-执行用时 :1 ms, 在所有 Java 提交中击败了78.48% 的用户
+// 执行用时 :1 ms, 在所有 Java 提交中击败了78.48% 的用户
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int strStr(String haystack, String needle) {
         
@@ -27,4 +27,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

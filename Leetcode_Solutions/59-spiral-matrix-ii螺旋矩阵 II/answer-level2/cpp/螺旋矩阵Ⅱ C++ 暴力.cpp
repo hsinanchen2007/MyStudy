@@ -1,11 +1,11 @@
-### 解题思路
-思路比较简单，由于都是方阵，比螺旋矩阵Ⅰ少了个判断
-再有就是多用`++`，速度比较快
-![image.png](https://pic.leetcode-cn.com/776e97558cedb1a9ce2237c21a06d7d1cb155ad454188bc2ea3f68004089f88d-image.png)
+// ### 解题思路
+// 思路比较简单，由于都是方阵，比螺旋矩阵Ⅰ少了个判断
+// 再有就是多用`++`，速度比较快
+// ![image.png](https://pic.leetcode-cn.com/776e97558cedb1a9ce2237c21a06d7d1cb155ad454188bc2ea3f68004089f88d-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> generateMatrix(int n) {
@@ -49,4 +49,4 @@ public:
         return matrix;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def validSquare(self, p1, p2, p3, p4):
         """
@@ -33,5 +33,5 @@ class Solution(object):
             return False
 
         return True
-```
+# ```
 

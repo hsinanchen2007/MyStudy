@@ -1,9 +1,9 @@
-## 思路
-从低位到高位相加，大数相加。
-**注意：整数加到string中需要加'0'转为字符**
+// ## 思路
+// 从低位到高位相加，大数相加。
+// **注意：整数加到string中需要加'0'转为字符**
 
-### 代码
-```c++
+// ### 代码
+// ```c++
 class Solution {
 public:
     string addStrings(string num1, string num2) {
@@ -34,10 +34,10 @@ public:
         return res;
     }
 };
-```
+// ```
 
-### 简化代码
-```c++
+// ### 简化代码
+// ```c++
 class Solution {
 public:
     string addStrings(string num1, string num2) {
@@ -53,5 +53,5 @@ public:
         return c > 0 ? '1' + res : res;
     }
 };
-```
+// ```
 

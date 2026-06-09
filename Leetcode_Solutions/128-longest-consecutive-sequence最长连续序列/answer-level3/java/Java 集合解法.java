@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
   public int longestConsecutive(int[] nums) {
     if (nums == null || nums.length == 0) return 0;
@@ -33,4 +33,4 @@ class Solution {
     return longest;
   }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-自留供以后查看
+// ### 解题思路
+// 自留供以后查看
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isMatch(string s, string p) {
@@ -31,4 +31,4 @@ public:
         return j==n;
     }
 };
-```
+// ```

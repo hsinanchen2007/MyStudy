@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func subsets(nums []int) [][]int {
 	item := make([]int, 0)
 	result := make([][]int, 0)
@@ -30,4 +30,4 @@ func generate(i int, nums, item []int, result *[][]int) {
 	generate(i+1, nums, item, result)
 }
 
-```
+// ```

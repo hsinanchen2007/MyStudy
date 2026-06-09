@@ -1,9 +1,9 @@
-### 解题思路
-暴力，记一下区间内最大值
+// ### 解题思路
+// 暴力，记一下区间内最大值
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func find132pattern(nums []int) bool {
 	for i := range nums {
 		prev := nums[i]
@@ -24,4 +24,4 @@ func max(a, b int) int {
 	return b
 }
 
-```
+// ```

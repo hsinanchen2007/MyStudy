@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     void quickSort(vector<int>& q, int l , int r){
@@ -18,5 +18,5 @@ public:
         return nums;
     }
 };
-```
+// ```
 

@@ -1,12 +1,12 @@
-### 解题思路
-对链表的操作不熟悉，方法比较笨。
-用栈存储ListNode，使用count计数，count值为2时，将栈内节点弹出，
-完成一次交换。
-节点个数为奇数时不影响。
+// ### 解题思路
+// 对链表的操作不熟悉，方法比较笨。
+// 用栈存储ListNode，使用count计数，count值为2时，将栈内节点弹出，
+// 完成一次交换。
+// 节点个数为奇数时不影响。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -40,4 +40,4 @@ class Solution {
         return node.next ;
     }
 }
-```
+// ```

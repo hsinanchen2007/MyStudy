@@ -1,13 +1,13 @@
-### 解题思路
-此处撰写解题思路
-考虑到数组nums要按index插入到数组target
-个人认为用字符串会比较方便
-首先按题目要求构建字符串str
-之后吧字符串转化成目标数组target
+// ### 解题思路
+// 此处撰写解题思路
+// 考虑到数组nums要按index插入到数组target
+// 个人认为用字符串会比较方便
+// 首先按题目要求构建字符串str
+// 之后吧字符串转化成目标数组target
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] createTargetArray(int[] nums, int[] index) {
         int len = nums.length;
@@ -39,4 +39,4 @@ class Solution {
        return target;
     }
 }
-```
+// ```

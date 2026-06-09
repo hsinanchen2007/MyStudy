@@ -1,4 +1,4 @@
-```
+// ```
 public int movingCount(int m, int n, int k)
     {
         boolean[][] visited=new boolean[m][n];
@@ -28,4 +28,4 @@ public int movingCount(int m, int n, int k)
         if(sum>threshold) return false;
         return true;
     }
-```
+// ```

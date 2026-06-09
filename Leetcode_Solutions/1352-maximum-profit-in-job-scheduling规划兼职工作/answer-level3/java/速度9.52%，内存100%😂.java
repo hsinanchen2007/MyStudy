@@ -1,6 +1,6 @@
 
-感觉快排可能还能优化
-```
+// 感觉快排可能还能优化
+// ```
 class Solution {
     private void swap(int[] arr, int i, int j) {
         arr[i] = arr[i] ^ arr[j];
@@ -105,4 +105,4 @@ class Solution {
     }
 
 }
-```
+// ```

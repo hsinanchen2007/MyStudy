@@ -1,8 +1,8 @@
-稍微修改一下层次遍历，每次先将右子树入队，后将左子树入队，就能得到反向层次遍历的结果。
-对相应深度的结果reverse一下即可。
-![NB8}(C41G@F@91Q1A)_1ZXG.jpg](https://pic.leetcode-cn.com/a315ac7831274c27120ca85a19d646287066929a2938ecf8eb40100200980118-NB8%7D\(C41G@F@91Q1A\)_1ZXG.jpg)
+// 稍微修改一下层次遍历，每次先将右子树入队，后将左子树入队，就能得到反向层次遍历的结果。
+// 对相应深度的结果reverse一下即可。
+// ![NB8}(C41G@F@91Q1A)_1ZXG.jpg](https://pic.leetcode-cn.com/a315ac7831274c27120ca85a19d646287066929a2938ecf8eb40100200980118-NB8%7D\(C41G@F@91Q1A\)_1ZXG.jpg)
 
-```
+// ```
 vector<vector<int>> res;
 	queue<pair<TreeNode*,int>> myQueue;
 	myQueue.push({root,1});
@@ -34,6 +34,6 @@ vector<vector<int>> res;
 		if (i % 2 == 0)  //按题目要求隔层对结果反序
 			reverse(res.at(i).begin(), res.at(i).end());
 	return res;
-```
+// ```
 
 

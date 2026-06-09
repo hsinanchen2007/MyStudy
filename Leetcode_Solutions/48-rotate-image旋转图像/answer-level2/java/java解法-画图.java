@@ -1,15 +1,15 @@
-# 画图解法
+// # 画图解法
 
-![矩阵旋转.jpg](https://pic.leetcode-cn.com/318a7ff8b43991d539de6786dafa5b044f0a2f90f8ab9afce11fffae0056874b-%E7%9F%A9%E9%98%B5%E6%97%8B%E8%BD%AC.jpg)
-解法如上图所示，只需要循环红色三角形里面的数字即可，每次交换四个数字的值，他们依次是  
-```
+// ![矩阵旋转.jpg](https://pic.leetcode-cn.com/318a7ff8b43991d539de6786dafa5b044f0a2f90f8ab9afce11fffae0056874b-%E7%9F%A9%E9%98%B5%E6%97%8B%E8%BD%AC.jpg)
+// 解法如上图所示，只需要循环红色三角形里面的数字即可，每次交换四个数字的值，他们依次是  
+// ```
 matrix[i][j]
 matrix[j][n-1-i]
 matrix[n-1-i][n-1-j]
 matrix[n-1-j][i]
-```
-我的代码如下：
-```java
+// ```
+// 我的代码如下：
+// ```java
 class Solution {
     public void rotate(int[][] matrix) {
         if(matrix!=null&&matrix.length>1)//如果方阵matrix不为空和边长大于1
@@ -36,4 +36,4 @@ class Solution {
         matrix[n-1-j][i]=c;//交换值
     }
 }
-```
+// ```

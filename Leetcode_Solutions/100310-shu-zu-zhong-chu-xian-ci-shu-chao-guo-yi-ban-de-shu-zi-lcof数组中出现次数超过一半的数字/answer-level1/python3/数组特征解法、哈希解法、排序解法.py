@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
         if not nums:
@@ -15,8 +15,8 @@ class Solution:
         return repeat_num
         
         
-```
-```
+# ```
+# ```
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
         dic = collections.Counter(nums)
@@ -24,10 +24,10 @@ class Solution:
             if times > len(nums)/2 :
                 return val
         
-```
-```
+# ```
+# ```
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
         nums.sort()
         return nums[int(len(nums)/2)]
-```
+# ```

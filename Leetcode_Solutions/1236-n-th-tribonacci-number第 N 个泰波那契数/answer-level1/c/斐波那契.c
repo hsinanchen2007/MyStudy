@@ -1,9 +1,9 @@
-### 解题思路
-一个for循环 即可
+// ### 解题思路
+// 一个for循环 即可
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int tribonacci(int n) {
     int a = 0 , b = 1 , c = 1 ;
     int x = 1, i ;
@@ -18,4 +18,4 @@ int tribonacci(int n) {
     }
     return x ;
 }
-```
+// ```

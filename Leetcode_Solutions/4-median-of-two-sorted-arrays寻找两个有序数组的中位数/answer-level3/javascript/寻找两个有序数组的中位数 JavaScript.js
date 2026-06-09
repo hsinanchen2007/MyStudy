@@ -1,6 +1,6 @@
 
 
-```javascript []
+// ```javascript []
 var findMedianSortedArrays = function (nums1, nums2) {
     //获取第一个数组的长度
     var l1 = nums1.length;
@@ -67,5 +67,5 @@ var findMedianSortedArrays = function (nums1, nums2) {
 
 
 };
-```
+// ```
 

@@ -1,9 +1,9 @@
 
-一位一位的处理，判断边界，快乐。。晚上研究研究自动机
+// 一位一位的处理，判断边界，快乐。。晚上研究研究自动机
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int myAtoi(String str) {
         str = str.trim();
@@ -61,4 +61,4 @@ class Solution {
 		return sum;
     }
 }
-```
+// ```

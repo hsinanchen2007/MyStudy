@@ -1,10 +1,10 @@
-### 解题思路
-将数组元素放入优先队列中，每一次比较优先队列中的最小值
-将最小值替换
-后输出最终的答案
-### 代码
+// ### 解题思路
+// 将数组元素放入优先队列中，每一次比较优先队列中的最小值
+// 将最小值替换
+// 后输出最终的答案
+// ### 代码
 
-```java
+// ```java
 class Solution {
 
     private class Freq implements Comparable<Freq>{
@@ -51,4 +51,4 @@ class Solution {
          return res;
     }
 }
-```
+// ```

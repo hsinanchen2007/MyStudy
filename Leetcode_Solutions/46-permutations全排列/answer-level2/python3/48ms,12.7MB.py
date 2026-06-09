@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
         nums = sorted(nums)
@@ -32,4 +32,4 @@ class Solution:
             finally_result.append([nums[j] for j in i])
     
         return finally_result
-```
+# ```

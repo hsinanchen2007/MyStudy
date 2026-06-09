@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def searchMatrix(self, l, t):
         if len(l)==0 or len(l[0])==0:return False
@@ -28,4 +28,4 @@ class Solution(object):
                 j=m-1
             else:return m
         return i
-```
+# ```

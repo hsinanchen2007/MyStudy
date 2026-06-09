@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-虽然执行效率不太高 不过易懂  哈哈哈哈~
+// 虽然执行效率不太高 不过易懂  哈哈哈哈~
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 	public int reverse(int x) {
 		String s = "" + x;
@@ -21,4 +21,4 @@ class Solution {
 		
 	}
 }
-```
+// ```

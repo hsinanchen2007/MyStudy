@@ -1,14 +1,14 @@
-### 解题思路
-两个游标 分别从s，p开头到结尾
+// ### 解题思路
+// 两个游标 分别从s，p开头到结尾
 
-dp[i][j] = dp[i+1][j+1] if p.(pi) == DOT ||  s.(si) == p.(pi)
-dp[i][j] = dp[i][pi+2]||dp[i+1][pi+2]||dp[i+1][pi] 当遇上.* a*等，字母匹配
+// dp[i][j] = dp[i+1][j+1] if p.(pi) == DOT ||  s.(si) == p.(pi)
+// dp[i][j] = dp[i][pi+2]||dp[i+1][pi+2]||dp[i+1][pi] 当遇上.* a*等，字母匹配
 
-递归+数组记忆
+// 递归+数组记忆
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public static final char DOT='.';
     public static final char STAR='*';
@@ -51,4 +51,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * freqAlphabets(char * s){
     char* p;
     char* q;
@@ -51,4 +51,4 @@ char * freqAlphabets(char * s){
     }
     return s;
 }
-```
+// ```

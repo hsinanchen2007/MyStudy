@@ -1,8 +1,8 @@
-// 利用快排排序     
-// 利用字符串比较两个元素的大小      
-// 特殊处理：当最大的为0时，直接返回0      
+// // 利用快排排序     
+// // 利用字符串比较两个元素的大小      
+// // 特殊处理：当最大的为0时，直接返回0      
 
-```
+// ```
 class Solution {
     public String largestNumber(int[] nums) {
         StringBuilder builder = new StringBuilder();
@@ -67,4 +67,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

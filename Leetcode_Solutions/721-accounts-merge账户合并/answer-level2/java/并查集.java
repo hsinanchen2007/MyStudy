@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     private int find(int p,int[]parent) {
 		if(p!=parent[p]) {
@@ -58,4 +58,4 @@ class Solution {
 		return res;
     }
 }
-```
+// ```

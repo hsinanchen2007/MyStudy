@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
         if len(nums)==0:
@@ -21,4 +21,4 @@ class Solution:
                     tmp = nums[left_index]
                     cur_index += 1
             return left_index+1
-```
+# ```

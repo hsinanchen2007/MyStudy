@@ -1,9 +1,9 @@
-### 解题思路
-二分法查找目标值target，若命中则返回其位置；若循环结束则表示未命中，lo指针则表示target应该插入的位置。详情如代码。
+// ### 解题思路
+// 二分法查找目标值target，若命中则返回其位置；若循环结束则表示未命中，lo指针则表示target应该插入的位置。详情如代码。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int searchInsert(vector<int>& nums, int target) {
@@ -22,4 +22,4 @@ public:
         return lo;      //lo为target未命中时应该插入的位置
     }
 };
-```
+// ```

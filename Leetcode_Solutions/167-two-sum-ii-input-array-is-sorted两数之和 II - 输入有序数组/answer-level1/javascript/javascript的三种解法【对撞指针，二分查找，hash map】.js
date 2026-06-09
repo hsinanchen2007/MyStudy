@@ -1,5 +1,5 @@
-解法一：二分查找
-```
+// 解法一：二分查找
+// ```
 var twoSum=function(numbers,target){
     for(let i=0;i<numbers.length;i++){
         let other=target-numbers[i]
@@ -25,10 +25,10 @@ const binarySearch = function(numbers, target) {
     }
     return -1
 };
-```
+// ```
 
-解法二：对撞指针【目测最佳】
-```
+// 解法二：对撞指针【目测最佳】
+// ```
 var twoSum = function(numbers, target) {
     let len=numbers.length
     if(len<2) return []
@@ -48,17 +48,17 @@ var twoSum = function(numbers, target) {
     }
     return []
 };
-```
-解法三：哈希表
-var twoSum=function(numbers,target){
-    let hashmap=new Map()
-    for(let item in numbers){
-        hashmap.set(numbers[item],item)
-    }
-    for(let i=0;i<numbers.length;i++){
-        if(hashmap.has(target-numbers[i])){
-            return [i+1,parseInt(hashmap.get(target-numbers[i]))+1]
-        }
-    }
-    return []
-};
+// ```
+// 解法三：哈希表
+// var twoSum=function(numbers,target){
+//     let hashmap=new Map()
+//     for(let item in numbers){
+//         hashmap.set(numbers[item],item)
+//     }
+//     for(let i=0;i<numbers.length;i++){
+//         if(hashmap.has(target-numbers[i])){
+//             return [i+1,parseInt(hashmap.get(target-numbers[i]))+1]
+//         }
+//     }
+//     return []
+// };

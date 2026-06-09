@@ -1,7 +1,7 @@
-## 思路一：DFS
-### 代码
-时间复杂度：O(2^n)
-```c++
+// ## 思路一：DFS
+// ### 代码
+// 时间复杂度：O(2^n)
+// ```c++
 class Solution {
 public:
     int findTargetSumWays(vector<int>& nums, int S) {
@@ -21,10 +21,10 @@ public:
         dfs(nums, S, i + 1, sum - nums[i], res);        
     }
 };
-```
-#### 另一种写法
-有点类似树形dp，分别向左右两种情况要满足条件的数目。
-```c++
+// ```
+// #### 另一种写法
+// 有点类似树形dp，分别向左右两种情况要满足条件的数目。
+// ```c++
 class Solution {
 public:
     int findTargetSumWays(vector<int>& nums, int S) {        
@@ -38,13 +38,13 @@ public:
         return dfs(nums, S, i + 1, sum + nums[i]) + dfs(nums, S, i + 1, sum - nums[i]);        
     }
 };
-```
+// ```
 
-## 思路二：记忆化搜索
-memo[i][s]：表示到第i个数和为s的情况总数。
-**注意：在目标和S上加或减可能超出整数范围，使用long int**
-### 代码
-```c++
+// ## 思路二：记忆化搜索
+// memo[i][s]：表示到第i个数和为s的情况总数。
+// **注意：在目标和S上加或减可能超出整数范围，使用long int**
+// ### 代码
+// ```c++
 class Solution {
 public:
     int findTargetSumWays(vector<int>& nums, int S) {       
@@ -58,7 +58,7 @@ public:
         return memo[i][S] = (dfs(nums, S - nums[i], i + 1, memo) + dfs(nums, S + nums[i], i + 1, memo));        
     }
 };
-```
+// ```
 
 
 

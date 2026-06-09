@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def findShortestSubArray(nums: Array[Int]): Int = {
     var res = nums.length
@@ -8,4 +8,4 @@ object Solution {
     res
   }
 }
-```
+// ```

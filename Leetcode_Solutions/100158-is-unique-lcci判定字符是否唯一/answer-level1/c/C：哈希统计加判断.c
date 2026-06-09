@@ -1,6 +1,6 @@
-思路：
-因为全小写字母，直接统计出现频率，然后判断是否重复
-```
+// 思路：
+// 因为全小写字母，直接统计出现频率，然后判断是否重复
+// ```
 bool isUnique(char* astr){
     int hash[26] = {0};
     int len = strlen(astr);
@@ -12,4 +12,4 @@ bool isUnique(char* astr){
     }
     return true;
 }
-```
+// ```

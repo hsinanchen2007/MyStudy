@@ -1,7 +1,7 @@
-![15841581866671_.pic.jpg](https://pic.leetcode-cn.com/6fb58d27e3d8308be3628982781b2e2c4f49932f2d8a368325fc6733003162d2-15841581866671_.pic.jpg)
+// ![15841581866671_.pic.jpg](https://pic.leetcode-cn.com/6fb58d27e3d8308be3628982781b2e2c4f49932f2d8a368325fc6733003162d2-15841581866671_.pic.jpg)
 
 
-```golang
+// ```golang
 func multiply(num1 string, num2 string) string {
 	if num1 == "0" || num2 == "0" {
 		return "0"
@@ -29,6 +29,6 @@ func multiply(num1 string, num2 string) string {
 	}
 	return string(carry[j:])
 }
-```
+// ```
 
-[github](https://github.com/temporaries/leetcode)
+// [github](https://github.com/temporaries/leetcode)

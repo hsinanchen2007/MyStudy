@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-遍历两次链表，调用<cmath>文件的pow函数
-a+=(h->val?pow(2,i):0);
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 遍历两次链表，调用<cmath>文件的pow函数
+// a+=(h->val?pow(2,i):0);
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -45,4 +45,4 @@ public:
 #endif
     }
 };
-```
+// ```

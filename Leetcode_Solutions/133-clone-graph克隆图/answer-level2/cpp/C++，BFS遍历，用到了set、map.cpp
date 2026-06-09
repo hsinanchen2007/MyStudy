@@ -1,15 +1,15 @@
-![image.png](https://pic.leetcode-cn.com/57699aa831f3d71e1ee86cfd04edb6bdb5b02309db81614d342d1a4b5c876ff5-image.png)
+// ![image.png](https://pic.leetcode-cn.com/57699aa831f3d71e1ee86cfd04edb6bdb5b02309db81614d342d1a4b5c876ff5-image.png)
 
 
-### 解题思路
-BFS遍历原先的图，队列q保存遍历的结点顺序
-用字典mp保存是否建立对应结点是否创建新内存
-用集合visit保存是否进过队列，防止重复遍历
+// ### 解题思路
+// BFS遍历原先的图，队列q保存遍历的结点顺序
+// 用字典mp保存是否建立对应结点是否创建新内存
+// 用集合visit保存是否进过队列，防止重复遍历
 
-这是我用C++写的第一个 中等难度的题目，纪念一下，看了其他CPP，觉得自己写的太稚嫩了
-### 代码
+// 这是我用C++写的第一个 中等难度的题目，纪念一下，看了其他CPP，觉得自己写的太稚嫩了
+// ### 代码
 
-```cpp
+// ```cpp
 /*
 // Definition for a Node.
 class Node {
@@ -97,4 +97,4 @@ public:
 
     }
 };
-```
+// ```

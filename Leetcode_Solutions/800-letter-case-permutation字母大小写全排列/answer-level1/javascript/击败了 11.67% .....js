@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 var letterCasePermutation = function(S) {
     let result = ['']
     for(const char of S){
@@ -18,4 +18,4 @@ var letterCasePermutation = function(S) {
 
     return result;
 };
-```
+// ```

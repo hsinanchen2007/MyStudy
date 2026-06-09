@@ -1,10 +1,10 @@
-### 解题思路
-核心思想：哈希表获得字母出现次数
-注意事项：数组长度，了解 ASCII 码表中，大小写字母的位置
+// ### 解题思路
+// 核心思想：哈希表获得字母出现次数
+// 注意事项：数组长度，了解 ASCII 码表中，大小写字母的位置
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func longestPalindrome(s string) int {
     var counts ['z'-'A'+1]int
 
@@ -30,4 +30,4 @@ func longestPalindrome(s string) int {
     }
     return res
 }
-```
+// ```

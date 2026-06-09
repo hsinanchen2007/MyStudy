@@ -1,5 +1,5 @@
-先上代码：
-```java
+// 先上代码：
+// ```java
 public boolean isOneBitCharacter(int[] bits) {
         if(bits.length>1000||bits.length==0) return false;
         Stack<Integer> stack = new Stack<>();
@@ -24,4 +24,4 @@ public boolean isOneBitCharacter(int[] bits) {
         return sym;
     }
 
-```
+// ```

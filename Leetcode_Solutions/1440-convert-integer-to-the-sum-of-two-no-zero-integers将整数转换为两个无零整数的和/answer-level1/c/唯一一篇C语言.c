@@ -1,10 +1,10 @@
-### 解题思路
-算法很渣，略过。
-returnSize需要指定，返回的指针是不知道具体多少位的，故*returnSize=2;
+// ### 解题思路
+// 算法很渣，略过。
+// returnSize需要指定，返回的指针是不知道具体多少位的，故*returnSize=2;
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -33,4 +33,4 @@ int* getNoZeroIntegers(int n, int* returnSize){
     a[0]=a[1]=-1;
     return a;
 }
-```
+// ```

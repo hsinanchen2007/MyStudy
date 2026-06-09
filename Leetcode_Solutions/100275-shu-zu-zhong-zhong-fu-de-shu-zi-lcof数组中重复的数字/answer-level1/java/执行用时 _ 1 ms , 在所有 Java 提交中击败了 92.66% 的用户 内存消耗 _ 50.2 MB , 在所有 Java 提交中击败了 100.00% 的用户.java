@@ -1,4 +1,4 @@
-```
+// ```
 public static int findRepeatNumber(int[] nums) {
 	int length = nums.length;
 	for (int i = 0; i < length; i++) {
@@ -17,4 +17,4 @@ public static int findRepeatNumber(int[] nums) {
 
 	return -1;
 }
-```
+// ```

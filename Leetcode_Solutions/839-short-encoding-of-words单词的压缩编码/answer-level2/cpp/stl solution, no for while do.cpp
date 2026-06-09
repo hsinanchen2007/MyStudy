@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class Solution {
  public:
   int minimumLengthEncoding(vector<string>& words) {
@@ -14,5 +14,5 @@ class Solution {
     return ans;
   }
 };
-```
-如果支持c++2a，可以用字符串startwith
+// ```
+// 如果支持c++2a，可以用字符串startwith

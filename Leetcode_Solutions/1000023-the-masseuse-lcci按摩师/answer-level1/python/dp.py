@@ -1,8 +1,8 @@
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def massage(self, nums: List[int]) -> int:
 
@@ -12,4 +12,4 @@ class Solution:
             last,now=now,max(last+num,now)
         return now
 
-```
+# ```

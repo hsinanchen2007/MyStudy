@@ -1,9 +1,9 @@
-### 解题思路
-通过volatile的可见性，将其作为标志位。
-通过自旋等待执行下一步。就是有点耗资源。
-### 代码
+// ### 解题思路
+// 通过volatile的可见性，将其作为标志位。
+// 通过自旋等待执行下一步。就是有点耗资源。
+// ### 代码
 
-```java
+// ```java
 class Foo {
     private volatile boolean firstFinished = false;
     private volatile boolean secondFinished = false;
@@ -33,4 +33,4 @@ class Foo {
         printThird.run();
     }
 }
-```
+// ```

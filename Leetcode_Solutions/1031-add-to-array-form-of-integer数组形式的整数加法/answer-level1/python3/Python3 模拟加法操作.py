@@ -1,9 +1,9 @@
-### 解题思路
-模拟两数相加，应该是很简单的思路
+# ### 解题思路
+# 模拟两数相加，应该是很简单的思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def addToArrayForm(self, A: List[int], K: int) -> List[int]:
         count = 0
@@ -19,4 +19,4 @@ class Solution:
                 K = K // 10
         return A
 
-```
+# ```

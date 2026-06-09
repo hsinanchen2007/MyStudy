@@ -1,6 +1,6 @@
-初始化vector 通过数学公式初始前几次完整分配数目
-最后分配剩余糖果
-```
+// 初始化vector 通过数学公式初始前几次完整分配数目
+// 最后分配剩余糖果
+// ```
 class Solution {
 public:
     vector<int> distributeCandies(int candies, int num_people) {
@@ -27,4 +27,4 @@ public:
         return ans;
     }
 };
-```
+// ```

@@ -1,15 +1,15 @@
-### 解题思路
+// ### 解题思路
 
-最大子序，还是连续的，那问题简单了。
+// 最大子序，还是连续的，那问题简单了。
 
-符合最优子结构性质：
+// 符合最优子结构性质：
 
-dp[i] = max(dp[i-1] + nums[i], nums[i]);
+// dp[i] = max(dp[i-1] + nums[i], nums[i]);
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
@@ -26,4 +26,4 @@ public:
         return *max_element(dp.begin(), dp.end());
     }
 };
-```
+// ```

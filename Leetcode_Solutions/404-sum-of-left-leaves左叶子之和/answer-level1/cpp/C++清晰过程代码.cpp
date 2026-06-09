@@ -1,6 +1,6 @@
-主要思路是，判断当前节点的左子树是否为左叶节点
-详细过程见代码注释
-```cpp
+// 主要思路是，判断当前节点的左子树是否为左叶节点
+// 详细过程见代码注释
+// ```cpp
 class Solution
 {
 public:
@@ -31,4 +31,4 @@ public:
 		return (root != nullptr && root->left == nullptr && root->right == nullptr) ? true : false;
 	}
 };
-```
+// ```

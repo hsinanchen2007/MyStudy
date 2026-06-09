@@ -1,8 +1,8 @@
-### 解题思路
+# ### 解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def oddCells(self, n: int, m: int, indices: List[List[int]]) -> int:
         num = 0
@@ -17,4 +17,4 @@ class Solution:
 
         
                 
-```
+# ```

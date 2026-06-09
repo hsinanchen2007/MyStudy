@@ -1,9 +1,9 @@
-### 解题思路
-因为要进行翻转，所以我们先写一个翻转的函数。然后遍历k个节点，分别标记了首尾（这里分别是head和current）。如果节点不足k则直接返回head。如果节点数不小于k，先用temp记录current.next便于对剩余链表进行递归。将current.next指向null使链表分为两半。对前一半进行翻转，翻转后原先的head成为了尾节点，head.next指向递归返回的结果使链表重新连接起来。
+// ### 解题思路
+// 因为要进行翻转，所以我们先写一个翻转的函数。然后遍历k个节点，分别标记了首尾（这里分别是head和current）。如果节点不足k则直接返回head。如果节点数不小于k，先用temp记录current.next便于对剩余链表进行递归。将current.next指向null使链表分为两半。对前一半进行翻转，翻转后原先的head成为了尾节点，head.next指向递归返回的结果使链表重新连接起来。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -46,4 +46,4 @@ class Solution {
         return pre;
     }
 }
-```
+// ```

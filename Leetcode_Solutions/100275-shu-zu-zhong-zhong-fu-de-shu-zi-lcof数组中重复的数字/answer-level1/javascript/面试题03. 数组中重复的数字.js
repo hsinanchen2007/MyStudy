@@ -1,9 +1,9 @@
-### 解题思路
-又get到一个find方法（单次查找，找到一次就结束），美滋滋
+// ### 解题思路
+// 又get到一个find方法（单次查找，找到一次就结束），美滋滋
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -17,4 +17,4 @@ return nums.find(function(ele,index){
 };
 
 
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-很常规的思路，首先将腐烂的橘子坐标保存，随后计数正常橘子，最后进行BFS搜索检测，如果一次更新没有任何变化，则表明橘子无法全部腐烂。
+# ### 解题思路
+# 很常规的思路，首先将腐烂的橘子坐标保存，随后计数正常橘子，最后进行BFS搜索检测，如果一次更新没有任何变化，则表明橘子无法全部腐烂。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def orangesRotting(self, grid: List[List[int]]) -> int:
         vol, count, time = [], 0, 0
@@ -31,4 +31,4 @@ class Solution:
             for i in tempGrid:
                 vol.append(i)
         return time
-```
+# ```

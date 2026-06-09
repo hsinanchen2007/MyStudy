@@ -1,10 +1,10 @@
-### 解题思路
-1、中序遍历，front保存上一个节点的指针。
-2、当前的root节点值和上一节点值比较，如果非法，则置false。
+// ### 解题思路
+// 1、中序遍历，front保存上一个节点的指针。
+// 2、当前的root节点值和上一节点值比较，如果非法，则置false。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -40,4 +40,4 @@ public:
 	}
 };
 
-```
+// ```

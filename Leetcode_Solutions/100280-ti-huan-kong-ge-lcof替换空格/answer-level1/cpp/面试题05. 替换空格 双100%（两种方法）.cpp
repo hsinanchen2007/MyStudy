@@ -1,5 +1,5 @@
-方法一
-```
+// 方法一
+// ```
 class Solution {
 public:
     string replaceSpace(string s) {
@@ -11,9 +11,9 @@ public:
         return res;
     }
 };
-```
-方法二
-```
+// ```
+// 方法二
+// ```
 class Solution {
 public:
     string replaceSpace(string s) {
@@ -22,5 +22,5 @@ public:
     return s; 
     }
 };
-```
+// ```
 

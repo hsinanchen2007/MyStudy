@@ -1,9 +1,9 @@
-### 解题思路
-l1和l2两个指针在两个链表间交替往前走，smaller和larger两个指针保存当前最小最大。head保存结果链表的头指针。
+// ### 解题思路
+// l1和l2两个指针在两个链表间交替往前走，smaller和larger两个指针保存当前最小最大。head保存结果链表的头指针。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -32,4 +32,4 @@ public:
         return head;
     }
 };
-```
+// ```

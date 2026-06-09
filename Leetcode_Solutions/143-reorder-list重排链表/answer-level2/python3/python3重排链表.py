@@ -1,9 +1,9 @@
-### 解题思路
-使用两个指针，一个快指针，每次走两步，一个慢指针，每次走一步。当快指针走到尾部时，慢指针在链表中间，此时将链表后半部分反转。最后将头尾依次链接即可。
+# ### 解题思路
+# 使用两个指针，一个快指针，每次走两步，一个慢指针，每次走一步。当快指针走到尾部时，慢指针在链表中间，此时将链表后半部分反转。最后将头尾依次链接即可。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -37,6 +37,6 @@ class Solution:
             slowptr.next=p
             ptr=p
             slowptr=q
-```
+# ```
 
-![image.png](https://pic.leetcode-cn.com/b7e0faffea601c22d0e290533c07d8644f31e2737cf1fbb3f5f3b57cbec4ecc9-image.png)
+# ![image.png](https://pic.leetcode-cn.com/b7e0faffea601c22d0e290533c07d8644f31e2737cf1fbb3f5f3b57cbec4ecc9-image.png)

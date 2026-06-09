@@ -1,9 +1,9 @@
-### 解题思路
-虽然使用了约数的方法逐个计算各位的积和，但时间还是有点久。以后再改进
+// ### 解题思路
+// 虽然使用了约数的方法逐个计算各位的积和，但时间还是有点久。以后再改进
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {number}
@@ -20,4 +20,4 @@ var subtractProductAndSum = function(n) {
     }
     return product-sum
 };
-```
+// ```

@@ -1,6 +1,6 @@
-# 思路：
-先将两个list的字符串和对应下标保存至两个map中，再在map中寻找相同的字符串，计算索引和，结果要始终保存索引和最小的字符串，一旦出现了索引和更小的字符串，先将结果清空，再存进去；若出现索引和等于当前最小索引和，则直接存入结果。
-```
+// # 思路：
+// 先将两个list的字符串和对应下标保存至两个map中，再在map中寻找相同的字符串，计算索引和，结果要始终保存索引和最小的字符串，一旦出现了索引和更小的字符串，先将结果清空，再存进去；若出现索引和等于当前最小索引和，则直接存入结果。
+// ```
 vector<string> findRestaurant(vector<string>& list1, vector<string>& list2) {
         unordered_map<string, int> m1;
         unordered_map<string, int> m2;
@@ -30,4 +30,4 @@ vector<string> findRestaurant(vector<string>& list1, vector<string>& list2) {
         }
         return res;
     }
-```
+// ```

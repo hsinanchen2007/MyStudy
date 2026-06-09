@@ -1,5 +1,5 @@
-自上而下，不断更新节点出现的最大值和最小值。所得到的最大值和最小值的差值就是答案。
-```cpp []
+# 自上而下，不断更新节点出现的最大值和最小值。所得到的最大值和最小值的差值就是答案。
+# ```cpp []
 class Solution {
 public:
     int ans = 0;
@@ -18,8 +18,8 @@ public:
         }
     }
 };
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def maxAncestorDiff(self, root: TreeNode) -> int:
         self.ans = 0;
@@ -32,4 +32,4 @@ class Solution:
                 f(mx, mn, node.right)
         f(float("-inf"), float("inf"), root)
         return self.ans
-```
+# ```

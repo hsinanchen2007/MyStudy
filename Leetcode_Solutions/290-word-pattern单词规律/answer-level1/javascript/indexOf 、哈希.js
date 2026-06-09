@@ -1,9 +1,9 @@
-### 解题思路
-方法一、indexOf函数
+// ### 解题思路
+// 方法一、indexOf函数
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} pattern
  * @param {string} str
@@ -19,9 +19,9 @@ var wordPattern = function(pattern, str) {
     }
     return true;
 };
-```
-方法二、哈希map
-```
+// ```
+// 方法二、哈希map
+// ```
 /**
  * @param {string} pattern
  * @param {string} str
@@ -52,4 +52,4 @@ var wordPattern = function(pattern, str) {
     }
     return true;
 };
-```
+// ```

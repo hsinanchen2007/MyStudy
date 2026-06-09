@@ -1,9 +1,9 @@
-### 解题思路
-如标题
+# ### 解题思路
+# 如标题
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findRepeatNumber(self, nums: List[int]) -> int:
         ln = len(nums)
@@ -16,4 +16,4 @@ class Solution:
             else:
                 return nums[i]
         return None
-```
+# ```

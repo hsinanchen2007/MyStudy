@@ -1,9 +1,9 @@
-### 解题思路
-使用队列维护ping的时间, 清楚过期时间
+// ### 解题思路
+// 使用队列维护ping的时间, 清楚过期时间
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type RecentCounter struct {
 	time []int
 }
@@ -22,4 +22,4 @@ func (rc *RecentCounter) Ping(t int) int {
 	rc.time = append(rc.time, t)
 	return len(rc.time)
 }
-```
+// ```

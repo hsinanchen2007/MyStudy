@@ -1,4 +1,4 @@
-```
+// ```
 ListNode* partition(ListNode* head, int x) {
     auto h1 = new ListNode(-1),h2 = new ListNode(-1),r1 = h1,r2 = h2,p = head,q= head;
     //将原链分解为h1和h2 (带头结点) 然后用尾插法插入即可,注意要断链插 q保存断链后的新起点
@@ -11,4 +11,4 @@ ListNode* partition(ListNode* head, int x) {
     r1->next = h2->next;//连接小和大
     return h1->next;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-根据LeetCode2的思路来写这道题。
+// ### 解题思路
+// 根据LeetCode2的思路来写这道题。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -46,4 +46,4 @@ class Solution {
         return dummy.next;
     }
 }
-```
+// ```

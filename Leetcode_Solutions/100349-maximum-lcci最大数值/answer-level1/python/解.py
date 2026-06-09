@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def maximum(self, a: int, b: int) -> int:
         sign_a = (a & 0xffffffff) >> 31
@@ -13,4 +13,4 @@ class Solution:
         flag = temp_a * sign_a + temp_diff * sign_diff
 
         return b * flag + a * (flag ^ 1)
-```
+# ```

@@ -1,6 +1,6 @@
 
-![1.png](https://pic.leetcode-cn.com/8142fe24e9fcc8c55baf69928424ddf8dec21ec57433d1874961952f64753d5e-1.png)
-```
+// ![1.png](https://pic.leetcode-cn.com/8142fe24e9fcc8c55baf69928424ddf8dec21ec57433d1874961952f64753d5e-1.png)
+// ```
 int judge(int* nums, int numsSize){
     int position, max=0, i;
     for(i=0; i<numsSize; i++){
@@ -19,6 +19,6 @@ int dominantIndex(int* nums, int numsSize){
     return judge(nums, numsSize) ? (judge(nums, numsSize)-1):-1;
 }
 
-```
+// ```
 
 

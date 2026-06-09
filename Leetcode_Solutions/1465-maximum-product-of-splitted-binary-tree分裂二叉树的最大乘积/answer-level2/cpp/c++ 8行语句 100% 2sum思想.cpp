@@ -1,8 +1,8 @@
-之前复杂化了 存一个 prev 变量表示从上面传下来的和, 会爆栈
+// 之前复杂化了 存一个 prev 变量表示从上面传下来的和, 会爆栈
 
-改成总和-当前和就行了
+// 改成总和-当前和就行了
 
-```
+// ```
 class Solution {
 public:
     int maxProduct(TreeNode* rt) {
@@ -18,5 +18,5 @@ public:
         return sum[rt] = rt->val + helper(rt->left, sum) + helper(rt->right, sum);
     }
 };
-```
-unordered_map可以进一步优化 换成 unordered_set, vector 等等
+// ```
+// unordered_map可以进一步优化 换成 unordered_set, vector 等等

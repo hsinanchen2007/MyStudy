@@ -1,12 +1,12 @@
-### 解题思路
-1.a+b=b+a
-2.长度相等时，有交点，到交点时结束，没有交点到null时结束
-3.长度不相等时，a+b=b+a，有交点，到交点结束，没有交点，到null处结束
+// ### 解题思路
+// 1.a+b=b+a
+// 2.长度相等时，有交点，到交点时结束，没有交点到null时结束
+// 3.长度不相等时，a+b=b+a，有交点，到交点结束，没有交点，到null处结束
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -30,4 +30,4 @@ public class Solution {
         return hA;
     }
 }
-```
+// ```

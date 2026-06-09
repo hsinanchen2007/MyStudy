@@ -1,6 +1,6 @@
-## bfs 实现（java）
+// ## bfs 实现（java）
 
-使用一个队列进行层次遍历即可。
+// 使用一个队列进行层次遍历即可。
 
 import java.util.LinkedList;
 import java.util.Queue;

@@ -1,4 +1,4 @@
-```
+// ```
 func sequenceReconstruction(org []int, seqs [][]int) bool {
 	if 0 == len(seqs) {
 		return false
@@ -28,4 +28,4 @@ func sequenceReconstruction(org []int, seqs [][]int) bool {
 	}
 	return c == 0 && e
 }
-```
+// ```

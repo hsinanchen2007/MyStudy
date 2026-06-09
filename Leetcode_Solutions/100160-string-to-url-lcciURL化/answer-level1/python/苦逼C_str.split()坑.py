@@ -1,8 +1,8 @@
-### 解题思路
-最大3 * length + 1，申请就行，常规操作。
+# ### 解题思路
+# 最大3 * length + 1，申请就行，常规操作。
 
-### 代码一、申请额外内存
-```c
+# ### 代码一、申请额外内存
+# ```c
 char* replaceSpaces(char* S, int length){
     char *ans = (char *)malloc(sizeof(char) * (3 * length + 1));
     int i, j;
@@ -16,9 +16,9 @@ char* replaceSpaces(char* S, int length){
     ans[j] = '\0';
     return ans;
 }
-```
-### 代码二、原地修改
-```c
+# ```
+# ### 代码二、原地修改
+# ```c
 char* replaceSpaces(char* S, int length){
     int i, spaceNums = 0;
     // 1.数空格
@@ -38,20 +38,20 @@ char* replaceSpaces(char* S, int length){
     }
     return S;
 }
-```
+# ```
 
 
-python中的str.split()默认不加参数，连续切割产生的空串是会被消掉的，只有自己加入参数`" "`才有空串。
+# python中的str.split()默认不加参数，连续切割产生的空串是会被消掉的，只有自己加入参数`" "`才有空串。
 
-```python []
+# ```python []
 class Solution:
     def replaceSpaces(self, S: str, length: int) -> str:
         return '%20'.join(S[:length].split(' '))  # 巨坑，不能直接split()
-```
+# ```
 
-还有replace大法，同样切片产生新的字符串。
-```python3 []
+# 还有replace大法，同样切片产生新的字符串。
+# ```python3 []
 class Solution:
     def replaceSpaces(self, S: str, length: int) -> str:
         return S[:length].replace(' ', '%20')
-```
+# ```

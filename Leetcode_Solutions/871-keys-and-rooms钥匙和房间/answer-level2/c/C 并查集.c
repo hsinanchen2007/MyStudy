@@ -1,4 +1,4 @@
-```
+// ```
 int Find(int root, int *pos)
 {
     int son = root;
@@ -48,4 +48,4 @@ bool canVisitAllRooms(int** rooms, int roomsSize, int* roomsColSize){
     free(pos);
     return true;
 }
-```
+// ```

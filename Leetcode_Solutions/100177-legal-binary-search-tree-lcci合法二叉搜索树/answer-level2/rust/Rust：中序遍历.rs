@@ -1,6 +1,6 @@
-中序遍历判断其是否严格递增即可。
+// 中序遍历判断其是否严格递增即可。
 
-```
+// ```
 // Definition for a binary tree node.
 // #[derive(Debug, PartialEq, Eq)]
 // pub struct TreeNode {
@@ -58,4 +58,4 @@ impl Solution {
         return true;
     }
 }
-```
+// ```

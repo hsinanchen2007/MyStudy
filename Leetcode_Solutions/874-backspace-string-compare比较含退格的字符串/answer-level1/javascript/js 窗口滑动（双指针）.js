@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 /**
  * @param {string} S
  * @param {string} T
@@ -56,4 +56,4 @@ var backspaceCompare = function(S, T) {
 
   return true;
 };
-```
+// ```

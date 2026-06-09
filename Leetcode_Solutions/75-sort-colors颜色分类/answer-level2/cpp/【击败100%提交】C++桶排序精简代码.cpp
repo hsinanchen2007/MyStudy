@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/6a089e98f0a4c9df66e425ad3317ecc5c9281247b45823fa013ec0cd724b7c02-image.png)
+// ![image.png](https://pic.leetcode-cn.com/6a089e98f0a4c9df66e425ad3317ecc5c9281247b45823fa013ec0cd724b7c02-image.png)
 
 
-```
+// ```
 class Solution {
 public:
     void sortColors(vector<int>& nums) {
@@ -17,4 +17,4 @@ public:
         }
     }
 };
-```
+// ```

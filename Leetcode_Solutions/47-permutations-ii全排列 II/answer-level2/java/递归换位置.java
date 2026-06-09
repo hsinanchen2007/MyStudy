@@ -1,7 +1,7 @@
 
-[全排列1](https://leetcode-cn.com/problems/permutations/solution/huan-wei-zhi-by-mrliu0635/)
-仅仅改动一丢丢，只需要增加一个标志位，用于**检查替换是否有意义**，**去掉无意义的替换**。
-```
+// [全排列1](https://leetcode-cn.com/problems/permutations/solution/huan-wei-zhi-by-mrliu0635/)
+// 仅仅改动一丢丢，只需要增加一个标志位，用于**检查替换是否有意义**，**去掉无意义的替换**。
+// ```
 class Solution {
     public List<List<Integer>> permuteUnique(int[] nums) {
         Arrays.sort(nums);
@@ -30,4 +30,4 @@ class Solution {
         }
     }
 }
-```
+// ```

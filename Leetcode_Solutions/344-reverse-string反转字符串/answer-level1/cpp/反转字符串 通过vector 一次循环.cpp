@@ -1,9 +1,9 @@
-### 解题思路
-一次循环，对称交换值
+// ### 解题思路
+// 一次循环，对称交换值
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void reverseString(vector<char>& s) 
@@ -21,4 +21,4 @@ public:
             }
     }
 };
-```
+// ```

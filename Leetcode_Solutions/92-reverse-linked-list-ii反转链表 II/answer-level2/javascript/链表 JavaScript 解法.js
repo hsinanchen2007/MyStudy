@@ -1,18 +1,18 @@
-### Analyze
+// ### Analyze
 
-```js
+// ```js
 1 -> 2 -> 3 -> 4 -> 5
     (4 -> 3 -> 2)
-```
+// ```
 
-该题是[206.Reverse_Linked_ List](https://github.com/MuYunyun/blog/blob/master/BasicSkill/LeetCode/206.Reverse_Linked_List/README.md) 的扩展, [m, n] 区间内指针翻转的思路同 206 题, 剩下的就是将 m 的 next 指向 n 指针的 next, 同时将排在 m 前面一位的指针的 next 指向 n。
+// 该题是[206.Reverse_Linked_ List](https://github.com/MuYunyun/blog/blob/master/BasicSkill/LeetCode/206.Reverse_Linked_List/README.md) 的扩展, [m, n] 区间内指针翻转的思路同 206 题, 剩下的就是将 m 的 next 指向 n 指针的 next, 同时将排在 m 前面一位的指针的 next 指向 n。
 
-会存在以下卡题的点:
+// 会存在以下卡题的点:
 
-* 最终返回的值怎么定;
-* 如何借助中间变量;
+// * 最终返回的值怎么定;
+// * 如何借助中间变量;
 
-```js
+// ```js
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -51,10 +51,10 @@ var reverseBetween = function(head, m, n) {
   listNode.next = prev
   return originList.next
 }
-```
+// ```
 
-### Sister Title
+// ### Sister Title
 
-206
+// 206
 
-> 为确保内容的实时、准确性, 可以查看[JavaScript 题解](https://github.com/MuYunyun/blog/blob/master/BasicSkill/LeetCode/README.md)
+// > 为确保内容的实时、准确性, 可以查看[JavaScript 题解](https://github.com/MuYunyun/blog/blob/master/BasicSkill/LeetCode/README.md)

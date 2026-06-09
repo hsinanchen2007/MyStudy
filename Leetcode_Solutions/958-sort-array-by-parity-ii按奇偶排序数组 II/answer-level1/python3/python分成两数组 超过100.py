@@ -1,7 +1,7 @@
-思路很简单
-先把原先数组分成两个子数组
-然后每次分别从子数组取一个出来   放入新数组里 时间超过100 空间超过99
-```
+# 思路很简单
+# 先把原先数组分成两个子数组
+# 然后每次分别从子数组取一个出来   放入新数组里 时间超过100 空间超过99
+# ```
 class Solution:
     def sortArrayByParityII(self, A: List[int]) -> List[int]:
         #divide into two array
@@ -21,4 +21,4 @@ class Solution:
             output.append(odd_list[i])
         return output
 
-```
+# ```

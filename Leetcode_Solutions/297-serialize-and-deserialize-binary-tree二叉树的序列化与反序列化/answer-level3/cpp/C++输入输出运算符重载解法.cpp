@@ -1,8 +1,8 @@
 
-使用C++的输入输出运算符前序遍历序列化和反序列化实现。
+// 使用C++的输入输出运算符前序遍历序列化和反序列化实现。
 
 
-```
+// ```
 ostream& operator<<(ostream& os,const TreeNode* root){
      if(NULL==root) return os << "# ";
      return os << root->val << ' ' << root->left << root->right;
@@ -34,4 +34,4 @@ public:
         return root;
     }
 };
-```
+// ```

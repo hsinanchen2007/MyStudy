@@ -1,10 +1,10 @@
-### 解题思路
-1.建立Hash表，Hash函数为num%10099(必须余一个素数)，用链地址法处理冲突
-2.每个nums中的元素，先在Hash表中查找他的target-nums[i]在不在表中，若在直接返回，否则，就插入到表中
+// ### 解题思路
+// 1.建立Hash表，Hash函数为num%10099(必须余一个素数)，用链地址法处理冲突
+// 2.每个nums中的元素，先在Hash表中查找他的target-nums[i]在不在表中，若在直接返回，否则，就插入到表中
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -54,4 +54,4 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize){
 
 
 
-```
+// ```

@@ -1,24 +1,24 @@
-##  前置知识
+// ##  前置知识
 
-### 相似题目
+// ### 相似题目
 
-在解这个题目之前，请你先做一下 [315-计算右侧小于当前元素的个数](https://leetcode-cn.com/problems/count-of-smaller-numbers-after-self/)
+// 在解这个题目之前，请你先做一下 [315-计算右侧小于当前元素的个数](https://leetcode-cn.com/problems/count-of-smaller-numbers-after-self/)
 
-315 的题解在[这里(点我)](https://leetcode-cn.com/problems/count-of-smaller-numbers-after-self/solution/315-ji-suan-you-ce-xiao-yu-dang-qian-yuan-su-de-ge/)
+// 315 的题解在[这里(点我)](https://leetcode-cn.com/problems/count-of-smaller-numbers-after-self/solution/315-ji-suan-you-ce-xiao-yu-dang-qian-yuan-su-de-ge/)
 
-### 求逆序对个数
+// ### 求逆序对个数
 
-对于数组 a，如果 $i < j$ 且 $a[i] > a[j]$，则 $a[i]$ 与 $a[j]$ 构成逆序对。
+// 对于数组 a，如果 $i < j$ 且 $a[i] > a[j]$，则 $a[i]$ 与 $a[j]$ 构成逆序对。
 
-求解逆序对的个数经典套路就是使用归并排序，思路是这样的：
+// 求解逆序对的个数经典套路就是使用归并排序，思路是这样的：
 
-对于数组 `a[lo..hi)`，如果 `a[lo..mid)` 与 `a[mid..hi)` 都已经归并有序，则：
+// 对于数组 `a[lo..hi)`，如果 `a[lo..mid)` 与 `a[mid..hi)` 都已经归并有序，则：
 
-- 对于左半区间中 `a[lo..mid)` 中的每个元素 `a[left]`，计算 `a[mid..hi)` 中有多少个元素小于它。
+// - 对于左半区间中 `a[lo..mid)` 中的每个元素 `a[left]`，计算 `a[mid..hi)` 中有多少个元素小于它。
 
-这一段模板代码可以写成这样：
+// 这一段模板代码可以写成这样：
 
-```cpp [-c++]
+// ```cpp [-c++]
 // O(n)，其中 n = hi - lo
 int right = mid;
 for (int left = lo; left < mid; ++left) {
@@ -28,24 +28,24 @@ for (int left = lo; left < mid; ++left) {
     // 比  a[left] 小的元素有 right-mid 个。
     count += right - mid;
 }
-```
+// ```
 
-因为左半区间和右半区间都已经归并，因此 `left` 越往右越大，所以 `right` 也不用每次都从 `mid` 开始重新查找。
-
-
-## 题解
-
-在我们这个题目，分成两步：
-
-- 求前缀和得到数组 $sums$
-- 计算前缀各数组中，当 $i < j$ 时，$sums[j] - sums[i]$ 的差在 $[lower, upper]$ 之间。
-
-求逆序对个数是这个题目的一个特例，也就是让你计算 $sums[j] - sums[i] < 0$ 的个数。下面是解答。
-
-**注意：这个题目求前缀和会溢出，因此使用 64位长整型 long（leetcode 使用的编译器中，long 是 8 字节）**
+// 因为左半区间和右半区间都已经归并，因此 `left` 越往右越大，所以 `right` 也不用每次都从 `mid` 开始重新查找。
 
 
-```cpp [-c++]
+// ## 题解
+
+// 在我们这个题目，分成两步：
+
+// - 求前缀和得到数组 $sums$
+// - 计算前缀各数组中，当 $i < j$ 时，$sums[j] - sums[i]$ 的差在 $[lower, upper]$ 之间。
+
+// 求逆序对个数是这个题目的一个特例，也就是让你计算 $sums[j] - sums[i] < 0$ 的个数。下面是解答。
+
+// **注意：这个题目求前缀和会溢出，因此使用 64位长整型 long（leetcode 使用的编译器中，long 是 8 字节）**
+
+
+// ```cpp [-c++]
 class Solution {
 public:
     int countRangeSum(vector<int>& nums, int lower, int upper) {
@@ -76,4 +76,4 @@ public:
         return count;
     }
 };
-```
+// ```

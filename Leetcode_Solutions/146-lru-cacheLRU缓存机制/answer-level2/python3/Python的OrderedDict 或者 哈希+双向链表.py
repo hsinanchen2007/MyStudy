@@ -1,10 +1,10 @@
-**思路一:**
+# **思路一:**
 
-使用python里的有序字典[`OrderedDict`](https://docs.python.org/3.7/library/collections.html#collections.OrderedDict)
+# 使用python里的有序字典[`OrderedDict`](https://docs.python.org/3.7/library/collections.html#collections.OrderedDict)
 
-注释写在代码里, 这个一定要理解, 因为思路二也是这样想的,只不过换了数据结构!
+# 注释写在代码里, 这个一定要理解, 因为思路二也是这样想的,只不过换了数据结构!
 
-```python []
+# ```python []
 from collections import OrderedDict
 class LRUCache:
 
@@ -29,13 +29,13 @@ class LRUCache:
         if len(self.lrucache) > self.maxsize:
             # 弹出字典的头部(因为存储空间不够了)
             self.lrucache.popitem(last = False)
-```
+# ```
 
-**思路二: 哈希 + 双向链表**
+# **思路二: 哈希 + 双向链表**
 
-也很好理解!
+# 也很好理解!
 
-```python []
+# ```python []
 # 创建双向链表
 class Node:
     def __init__(self, key, val):
@@ -86,11 +86,11 @@ class LRUCache:
         self.tail.prev = node
         pre_tail.next = node
         node.prev = pre_tail
-```
+# ```
 
 
 
-```java []
+# ```java []
 class LRUCache {
 
     Node head = new Node(0, 0), tail = new Node(0, 0);
@@ -157,7 +157,7 @@ class LRUCache {
         }
     }
 }
-```
+# ```
 
 
 

@@ -1,9 +1,9 @@
-### 解题思路
-直接看代码
+// ### 解题思路
+// 直接看代码
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct deque {
 	int front;
 	int rear;
@@ -166,4 +166,4 @@ void maxQueueFree(MaxQueue* obj) {
  
  * maxQueueFree(obj);
 */
-```
+// ```

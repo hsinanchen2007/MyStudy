@@ -1,10 +1,10 @@
-### 解题思路
-遍历一遍，合并两个队列
-![image.png](https://pic.leetcode-cn.com/05ea6079cd0cb123c3c4c9f5d33472fc8d5de3cf3946ccc0cc40ad527d343c21-image.png)
+// ### 解题思路
+// 遍历一遍，合并两个队列
+// ![image.png](https://pic.leetcode-cn.com/05ea6079cd0cb123c3c4c9f5d33472fc8d5de3cf3946ccc0cc40ad527d343c21-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -116,4 +116,4 @@ int* getAllElements(struct TreeNode* root1, struct TreeNode* root2, int* returnS
 	*returnSize = q3.cnt;
 	return q3.buf;
 }
-```
+// ```

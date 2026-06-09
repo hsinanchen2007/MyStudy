@@ -1,4 +1,4 @@
-```
+# ```
     def merge(self, nums1: list, m: int, nums2: list, n: int) -> None:
 
         if nums2 is None or nums1 is None: return 
@@ -27,7 +27,7 @@
             nums1[ai:] = left_array[li:]
         if ri < len(nums2):
             nums1[ai:] = nums2[ri:]
-```
-#### 复杂度分析
-时间复杂度: O(m+ n)
-空间复杂度:  O(m), 因为需要备份nums1的前m个元素,所以空间复杂度为  O(m)
+# ```
+# #### 复杂度分析
+# 时间复杂度: O(m+ n)
+# 空间复杂度:  O(m), 因为需要备份nums1的前m个元素,所以空间复杂度为  O(m)

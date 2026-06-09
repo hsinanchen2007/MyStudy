@@ -1,8 +1,8 @@
-### 解题思路
-就是递归实现dfs就行
-### 代码
+# ### 解题思路
+# 就是递归实现dfs就行
+# ### 代码
 
-```python3
+# ```python3
 """
 # Employee info
 class Employee:
@@ -28,8 +28,8 @@ class Solution:
             return imp
         return dfs(id)
             
-```
-```python3
+# ```
+# ```python3
 看了其他人的利用队列实现bfs：
 class Solution:
     def getImportance(self, employees: List['Employee'], id: int) -> int:
@@ -42,8 +42,8 @@ class Solution:
             for i in e.subordinates:
                 queue.append(i)
         return res
-```
-```python3
+# ```
+# ```python3
 DFS：
 class Solution:
     def getImportance(self, employees: List['Employee'], id: int) -> int:
@@ -56,4 +56,4 @@ class Solution:
         for i in e.subordinates:
             res+=self.dfs(hashmap,i)
         return 
-```
+# ```

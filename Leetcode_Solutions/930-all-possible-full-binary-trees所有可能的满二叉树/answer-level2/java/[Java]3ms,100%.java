@@ -1,6 +1,6 @@
-思路同官方题解思路类似，只不过写法是Java的而已。
+// 思路同官方题解思路类似，只不过写法是Java的而已。
 
-```
+// ```
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -36,4 +36,4 @@ class Solution {
         return list;
     }
 }
-```
+// ```

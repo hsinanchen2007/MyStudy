@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def singleNumber(self, nums: List[int]) -> int:
         count_dict=dict()
@@ -16,4 +16,4 @@ class Solution:
             if count_dict[x]==1:
                 return x 
 
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
-从右上角往左下角找，反之亦然。
-我在面试头条的时候遇到过原题。
+// ### 解题思路
+// 从右上角往左下角找，反之亦然。
+// 我在面试头条的时候遇到过原题。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
         if(matrix == null || matrix.length == 0 || matrix[0] == null || matrix[0].length == 0) {
@@ -27,4 +27,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

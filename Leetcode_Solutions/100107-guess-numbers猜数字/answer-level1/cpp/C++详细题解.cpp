@@ -1,5 +1,5 @@
-## 逐轮对比即可，记录猜对的次数
-```cpp
+// ## 逐轮对比即可，记录猜对的次数
+// ```cpp
 class Solution {
 public:
     int game(vector<int>& guess, vector<int>& answer) {
@@ -10,4 +10,4 @@ public:
         return ans;
     }
 };
-```
+// ```

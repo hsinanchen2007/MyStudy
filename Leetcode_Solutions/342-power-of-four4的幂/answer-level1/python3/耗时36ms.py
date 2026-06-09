@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def isPowerOfFour(self, num: int) -> bool:
         if num <= 0:
@@ -11,4 +11,4 @@ class Solution:
             return(True)
         else:
             return(False)
-```
+# ```

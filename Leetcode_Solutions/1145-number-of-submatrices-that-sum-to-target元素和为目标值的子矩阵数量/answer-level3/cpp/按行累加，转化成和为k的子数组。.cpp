@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
-leetcode560基础上，矩阵按行就和得到vector
-### 代码
+// leetcode560基础上，矩阵按行就和得到vector
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 private:
     int numSubarraySumTarget(vector<int> array, int target)
@@ -51,4 +51,4 @@ public:
         return res;
     }
 };
-```
+// ```

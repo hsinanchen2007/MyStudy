@@ -1,5 +1,5 @@
-过滤，利用sort排
-```
+// 过滤，利用sort排
+// ```
 class Solution {
 public:
     vector<int> filterRestaurants(vector<vector<int>>& restaurants, int veganFriendly, int maxPrice, int maxDistance) {
@@ -21,4 +21,4 @@ public:
         return ans;
     }
 };
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-L -- > 使用输出列表保存
-R -- > 使用变量保存
-L*R 即为输出的列表
+// ### 解题思路
+// L -- > 使用输出列表保存
+// R -- > 使用变量保存
+// L*R 即为输出的列表
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] productExceptSelf(int[] nums) {
         //使用左右两个数组
@@ -39,4 +39,4 @@ class Solution {
         return output;
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-双指针+循环判断。
-注意数组越界，会报线程错误 thread
+// ### 解题思路
+// 双指针+循环判断。
+// 注意数组越界，会报线程错误 thread
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string reverseVowels(string s) {
@@ -31,4 +31,4 @@ public:
         else return false;
     }
 };
-```
+// ```

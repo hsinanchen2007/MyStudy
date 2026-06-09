@@ -1,9 +1,9 @@
-### 解题思路
-把对应的元素 ,放在对应的下标上
+// ### 解题思路
+// 把对应的元素 ,放在对应的下标上
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -25,4 +25,4 @@ var findRepeatNumber = function(nums) {
     }
     return res;
 };
-```
+// ```

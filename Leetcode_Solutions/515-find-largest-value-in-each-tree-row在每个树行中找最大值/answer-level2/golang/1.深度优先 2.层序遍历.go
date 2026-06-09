@@ -1,6 +1,6 @@
-# 一.深度优先
-**思路**：每个节点遍历的时候用一个参数给定层数
-```python []
+// # 一.深度优先
+// **思路**：每个节点遍历的时候用一个参数给定层数
+// ```python []
 class Solution:
 	def largestValues(self,root):
 		ans=[]
@@ -10,8 +10,8 @@ class Solution:
 					ans[depth]=max(ans[depth],root.val)
 				[dfs(i,depth+1) for i in (root.left,root.right)] #前序遍历
 		return dfs(root,0) is None and ans #完全可以写成两行dfs(root,0) return ans <- 这边是懒得分行了
-```
-```golang []
+// ```
+// ```golang []
 func largestValues(root *TreeNode) (ans []int) {
 	max:=func (i,j int) int {
 		if i<j {
@@ -34,11 +34,11 @@ func largestValues(root *TreeNode) (ans []int) {
 	dfs(root,0)
 	return
 }
-```
+// ```
 
-# 二.层序遍历
-**思路**：每层的节点值一个个比对过去就是了
-```python []
+// # 二.层序遍历
+// **思路**：每层的节点值一个个比对过去就是了
+// ```python []
 from itertools import chain
 class Solution:
 	def largestValues(self,root):
@@ -47,8 +47,8 @@ class Solution:
 			ans.append(max(i.val for i in queue)) #当前层的最大值
 			queue=list(chain.from_iterable((j for j in (i.left,i.right) if j) for i in queue)) #更新->下一层的节点
 		return ans
-```
-```golang []
+// ```
+// ```golang []
 func largestValues(root *TreeNode) (ans []int) {
 	if root!=nil {
 		queue:=[]*TreeNode{root}
@@ -71,4 +71,4 @@ func largestValues(root *TreeNode) (ans []int) {
 	}
 	return
 }
-```
+// ```

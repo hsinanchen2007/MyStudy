@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def validateBinaryTreeNodes(self, n: int, leftChild: List[int], rightChild: List[int]) -> bool:
         # a node only has one parent
@@ -20,4 +20,4 @@ class Solution:
                 if not hasRoot: hasRoot = True
                 else: return False # has two root
         return hasRoot
-```
+# ```

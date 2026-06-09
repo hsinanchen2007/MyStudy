@@ -1,4 +1,4 @@
-```
+// ```
 1、始终选择最小的两个数字；
 2、每次选出来的数字计算下费用；
 3、计算弹出来的两个数字之和以后插回到队列；
@@ -101,4 +101,4 @@ int connectSticks(int* sticks, int sticksSize){
     free(g_heap);
     return total;
 }
-```
+// ```

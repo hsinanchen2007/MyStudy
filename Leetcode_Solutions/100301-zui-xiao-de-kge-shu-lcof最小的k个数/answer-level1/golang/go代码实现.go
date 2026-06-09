@@ -1,10 +1,10 @@
-### 解题思路
-1、 最大堆 求最小值
-2、 最小堆 求最大值
+// ### 解题思路
+// 1、 最大堆 求最小值
+// 2、 最小堆 求最大值
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 package main
 
 import (
@@ -62,4 +62,4 @@ func getLeastNumbers(arr []int, k int) []int {
 	return res
 }
 
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool dfs(vector<vector<int> >& graph, vector<int>& status, int i) {
@@ -24,5 +24,5 @@ public:
         return true;
     }
 };
-```
+// ```
 

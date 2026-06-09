@@ -1,13 +1,13 @@
-### 解题思路
+// ### 解题思路
 
-我的办法比较笨：
-1、先按照引用数从多到少排序；
-2、然后便利引用数数组，当出现引用数<=下标时，说明hindex出现了。
-3、到底是引用数作为hindex，还是下标作为hindex，需要比较一下大小。
+// 我的办法比较笨：
+// 1、先按照引用数从多到少排序；
+// 2、然后便利引用数数组，当出现引用数<=下标时，说明hindex出现了。
+// 3、到底是引用数作为hindex，还是下标作为hindex，需要比较一下大小。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int compar(const void *p1, const void *p2){
 	return *(int*)p2 - *(int*)p1;
 }
@@ -28,4 +28,4 @@ int hIndex(int* citations, int citationsSize){
 	}
 	return citationsSize;
 }
-```
+// ```

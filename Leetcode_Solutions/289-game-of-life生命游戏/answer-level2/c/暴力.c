@@ -1,9 +1,9 @@
-### 解题思路
-快乐小白的暴力遍历 遍历每个节点的8个方向  
+// ### 解题思路
+// 快乐小白的暴力遍历 遍历每个节点的8个方向  
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void gameOfLife(int** board, int boardSize, int* boardColSize){
     if(boardColSize[0]==0)
     return ;
@@ -53,4 +53,4 @@ void gameOfLife(int** board, int boardSize, int* boardColSize){
         }
     }
 }
-```
+// ```

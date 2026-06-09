@@ -1,6 +1,6 @@
 
 
-```
+// ```
 func gameOfLife(board [][]int) {
 	temp := make([][]int, len(board))
 	for i := 0; i < len(board); i++ {
@@ -34,4 +34,4 @@ func gameOfLife(board [][]int) {
 	}
 	copy(board, temp)
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-话不多说看代码吧
+// ### 解题思路
+// 话不多说看代码吧
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int dfs(int *grid[], int i, int j, int *visited[], int row, int col){
     visited[i][j] = 1;
     int count = 1;
@@ -46,4 +46,4 @@ int maxAreaOfIsland(int** grid, int gridSize, int* gridColSize){
 
     return max;
 }
-```
+// ```

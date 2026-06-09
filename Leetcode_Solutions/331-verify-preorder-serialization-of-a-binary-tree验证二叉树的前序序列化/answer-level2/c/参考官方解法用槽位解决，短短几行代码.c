@@ -1,4 +1,4 @@
-```
+// ```
 bool isValidSerialization(char * preorder){
     int len=strlen(preorder),i=0,slot=1;
     if(len==1&&preorder[i]=='#') return true;
@@ -13,4 +13,4 @@ bool isValidSerialization(char * preorder){
     if(slot==0) return true;
     else return false;
 }
-```
+// ```

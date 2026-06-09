@@ -1,4 +1,4 @@
-```
+// ```
 public  String gcdOfStrings(String str1, String str2) {
         int max = gcd(str1.length(), str2.length());
         int times1 = str1.length() / max, times2 = str2.length() / max;
@@ -27,4 +27,4 @@ public  String gcdOfStrings(String str1, String str2) {
         }
         return value;
     }
-```
+// ```

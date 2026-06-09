@@ -1,9 +1,9 @@
-### 解题思路
-先单点比较，然后再累加比较。
+// ### 解题思路
+// 先单点比较，然后再累加比较。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int maxSubArray(int* nums, int numsSize) {
 	int maxNum = nums[0];
 	int temp = 0;
@@ -30,4 +30,4 @@ int maxSubArray(int* nums, int numsSize) {
 	}
 	return maxNum;
 }
-```
+// ```

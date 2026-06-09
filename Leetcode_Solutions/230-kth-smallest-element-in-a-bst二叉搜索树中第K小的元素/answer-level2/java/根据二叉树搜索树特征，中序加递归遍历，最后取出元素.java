@@ -1,6 +1,6 @@
 
-- 根据二叉树搜索树特征，中序加递归遍历，最后取出元素
-```
+// - 根据二叉树搜索树特征，中序加递归遍历，最后取出元素
+// ```
 class Solution {
     public int kthSmallest(TreeNode root, int k) {
         List<Integer> list = new ArrayList<>();
@@ -19,4 +19,4 @@ class Solution {
     }
 }
 
-```
+// ```

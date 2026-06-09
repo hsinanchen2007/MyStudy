@@ -1,4 +1,4 @@
-```java
+// ```java
 public int[] constructArray(int n, int k) {
         int[] arr = new int[n];
         int s = 1, e = n, i = 0;
@@ -8,4 +8,4 @@ public int[] constructArray(int n, int k) {
         }
         return arr;
 }
-```
+// ```

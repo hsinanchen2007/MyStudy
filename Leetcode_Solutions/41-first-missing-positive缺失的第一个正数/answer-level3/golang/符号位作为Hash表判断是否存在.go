@@ -1,11 +1,11 @@
-### 解题思路
-官方题解go版本
-1.以符号的正负 当作hash表判断值是否存在
-2.答案必定 小于或等于len(nums)+1 且 大于0
+// ### 解题思路
+// 官方题解go版本
+// 1.以符号的正负 当作hash表判断值是否存在
+// 2.答案必定 小于或等于len(nums)+1 且 大于0
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func firstMissingPositive(nums []int) int {
 	l := len(nums)
 	contains := 0
@@ -49,6 +49,6 @@ func firstMissingPositive(nums []int) int {
 	}
 	return l + 1 //都存在，后序l+1为答案
 }
-```
+// ```
 
-[github](https://github.com/temporaries/leetcode)
+// [github](https://github.com/temporaries/leetcode)

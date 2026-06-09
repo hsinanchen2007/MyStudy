@@ -1,9 +1,9 @@
-### 解题思路
-strtok+strcat，元音判断用个小技巧，减少圈复杂度
+// ### 解题思路
+// strtok+strcat，元音判断用个小技巧，减少圈复杂度
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 #define GetIndex(s) (((s) >= 'a') ? ((s) - 'a') : ((s) - 'A'))
 
@@ -50,4 +50,4 @@ char * toGoatLatin(char * S) {
 
 	return result;
 }
-```
+// ```

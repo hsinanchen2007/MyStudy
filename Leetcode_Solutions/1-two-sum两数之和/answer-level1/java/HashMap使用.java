@@ -1,9 +1,9 @@
-### 解题思路
-使用容器HashMap，把数组中数字的值当作KEY，数组下标当作Value，如果找到了下标相同的两个数就放弃，继续查找
+// ### 解题思路
+// 使用容器HashMap，把数组中数字的值当作KEY，数组下标当作Value，如果找到了下标相同的两个数就放弃，继续查找
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         HashMap<Integer,Integer> arr=new HashMap<Integer,Integer>();
@@ -23,4 +23,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

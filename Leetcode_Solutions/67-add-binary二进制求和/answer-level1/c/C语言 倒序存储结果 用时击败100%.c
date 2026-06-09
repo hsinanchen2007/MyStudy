@@ -1,12 +1,12 @@
-### 解题思路
-采用倒序存储结果，不需要再分析是否有进位
+// ### 解题思路
+// 采用倒序存储结果，不需要再分析是否有进位
 
-![image.png](https://pic.leetcode-cn.com/25c12ba816ee664f11f815f0197e351a0294032dc7056ddd3a2778a55d7aae69-image.png)
+// ![image.png](https://pic.leetcode-cn.com/25c12ba816ee664f11f815f0197e351a0294032dc7056ddd3a2778a55d7aae69-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * addBinary(char * a, char * b){
 	int i;
 	char tmp;
@@ -39,4 +39,4 @@ char * addBinary(char * a, char * b){
 	}
 	return rlt;
 }
-```
+// ```

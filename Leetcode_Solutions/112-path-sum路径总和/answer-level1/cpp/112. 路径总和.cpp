@@ -1,10 +1,10 @@
-### 解题思路
-dfs
-到了叶节点就比较一下
+// ### 解题思路
+// dfs
+// 到了叶节点就比较一下
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -33,4 +33,4 @@ public:
         return false;
     }
 };
-```
+// ```

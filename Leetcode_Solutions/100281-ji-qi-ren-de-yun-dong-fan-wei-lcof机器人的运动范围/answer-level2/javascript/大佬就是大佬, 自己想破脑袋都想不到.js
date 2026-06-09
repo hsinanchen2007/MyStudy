@@ -1,20 +1,20 @@
-### 解题思路
+// ### 解题思路
 
 
-```js
+// ```js
 // 如 let m = 20, n = 15, k = 9, 满足不大于k时的图, 红色区域不满足, 来张图可能会更好理解
-```
-![image.png](https://pic.leetcode-cn.com/37e7da57849bdcd02e126ca54ca8a37f3b5a6d734a380b3facaf6ebe7085ba20-image.png)
-```js
+// ```
+// ![image.png](https://pic.leetcode-cn.com/37e7da57849bdcd02e126ca54ca8a37f3b5a6d734a380b3facaf6ebe7085ba20-image.png)
+// ```js
 // 再加上能走通的条件, 就是写个函数执行 每一块都 上下左右 走一下, 判断走过的就不走了 碰到边界也不走
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/4f6e5c56326434f0986225f86079fbbb619a473d6cfa917f145e0d4c4ae3b7a7-image.png)
+// ![image.png](https://pic.leetcode-cn.com/4f6e5c56326434f0986225f86079fbbb619a473d6cfa917f145e0d4c4ae3b7a7-image.png)
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} m
  * @param {number} n
@@ -42,4 +42,4 @@ var movingCount = function(m, n, k) {
   runing(0,0)
   return total
 };
-```
+// ```

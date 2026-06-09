@@ -1,9 +1,9 @@
-### 解题思路
-![图片.png](https://pic.leetcode-cn.com/b5935a5ace37d457a1293c574f325f3f19de7ea578d37b92cb86267002e9000d-%E5%9B%BE%E7%89%87.png)
+// ### 解题思路
+// ![图片.png](https://pic.leetcode-cn.com/b5935a5ace37d457a1293c574f325f3f19de7ea578d37b92cb86267002e9000d-%E5%9B%BE%E7%89%87.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int eraseOverlapIntervals(int[][] intervals) {
         if (intervals == null || intervals.length == 0) return 0;
@@ -30,4 +30,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

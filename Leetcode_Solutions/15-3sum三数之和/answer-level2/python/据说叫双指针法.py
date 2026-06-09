@@ -1,9 +1,9 @@
-### 解题思路
-将一个固定，剩下两个作为指针，然后循环判断
+# ### 解题思路
+# 将一个固定，剩下两个作为指针，然后循环判断
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         l = len(nums)
@@ -34,4 +34,4 @@ class Solution:
                     right-=1
         return res
 
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int searchInsert(Integer[] nums, int target) {
         int n = nums.length;
@@ -13,4 +13,4 @@ class Solution {
         return high+1;
     }
 }
-```
+// ```

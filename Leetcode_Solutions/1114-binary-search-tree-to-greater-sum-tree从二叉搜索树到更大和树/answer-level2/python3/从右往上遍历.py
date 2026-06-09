@@ -1,4 +1,4 @@
-```
+# ```
 ans = 0
 class Solution:
     def bstToGst(self, root: TreeNode) -> TreeNode:
@@ -14,4 +14,4 @@ class Solution:
                 check(t.left)
         check(root)
         return root
-```
+# ```

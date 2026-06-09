@@ -1,7 +1,7 @@
 
-![屏幕快照 2019-08-08 21.47.17.png](https://pic.leetcode-cn.com/1cd5d182a0dc56daed843a4bfb6562314194ca3f73f8c022d963701ef0e1fcc2-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-08-08%2021.47.17.png)
+// ![屏幕快照 2019-08-08 21.47.17.png](https://pic.leetcode-cn.com/1cd5d182a0dc56daed843a4bfb6562314194ca3f73f8c022d963701ef0e1fcc2-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-08-08%2021.47.17.png)
 
-简单的空间换时间，多用了个slice记录议员有效状态
+// 简单的空间换时间，多用了个slice记录议员有效状态
 
 func predictPartyVictory(senate string) string {
     rc,dc := 0,0//双方阵营活着的议员

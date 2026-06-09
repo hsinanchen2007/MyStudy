@@ -1,5 +1,5 @@
-所有思想在代码注释中呈现，欢迎交流
-```
+// 所有思想在代码注释中呈现，欢迎交流
+// ```
 func findKthLargest(nums []int, k int) int {
     // 堆排序
     // 构建长度为k的小顶堆，遍历元素，如果元素大于最小值，则替换堆顶值，并调整堆，最后输出堆顶即是第k大值
@@ -76,4 +76,4 @@ func adjustHeap(nums *[]int, i, length int) {
 //     (*nums)[left] = tmp
 //     return left
 // }
-```
+// ```

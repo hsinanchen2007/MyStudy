@@ -1,9 +1,9 @@
-### 解题思路
-从后往前加。
+// ### 解题思路
+// 从后往前加。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int titleToNumber(char * s){
     int len=strlen(s);
     int cnt=0;
@@ -15,4 +15,4 @@ int titleToNumber(char * s){
     }
     return cnt;
 }
-```
+// ```

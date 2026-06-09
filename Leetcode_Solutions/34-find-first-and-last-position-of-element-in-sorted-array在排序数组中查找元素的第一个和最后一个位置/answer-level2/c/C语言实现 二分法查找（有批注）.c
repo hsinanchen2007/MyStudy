@@ -1,4 +1,4 @@
-![微信图片_20200215112335.jpg](https://pic.leetcode-cn.com/be6b5b1d659aa0fd6d690d4111a6efa33831bec079c0d5b621da43b1b05e8c74-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200215112335.jpg)
+// ![微信图片_20200215112335.jpg](https://pic.leetcode-cn.com/be6b5b1d659aa0fd6d690d4111a6efa33831bec079c0d5b621da43b1b05e8c74-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200215112335.jpg)
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */

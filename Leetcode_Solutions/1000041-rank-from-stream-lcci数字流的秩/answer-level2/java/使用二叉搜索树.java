@@ -1,9 +1,9 @@
-### 解题思路
-每个节点有四个属性,val是存进来的x的值,count是小于等于val的节点数,还有其左孩子和右孩子,小于节点val放左边并count+1,大于的放右边且count不变,等于直接该节点count加1就行,查找时,若节点val小于要查找的值,则将该节点的count计入总数,大于则不管.
+// ### 解题思路
+// 每个节点有四个属性,val是存进来的x的值,count是小于等于val的节点数,还有其左孩子和右孩子,小于节点val放左边并count+1,大于的放右边且count不变,等于直接该节点count加1就行,查找时,若节点val小于要查找的值,则将该节点的count计入总数,大于则不管.
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class StreamRank {
     class Node{
         int val;
@@ -77,4 +77,4 @@ class StreamRank {
  * obj.track(x);
  * int param_2 = obj.getRankOfNumber(x);
  */
-```
+// ```

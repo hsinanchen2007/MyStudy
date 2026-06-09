@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findErrorNums(self, nums: List[int]) -> List[int]:
         """
@@ -27,4 +27,4 @@ class Solution:
         diff = sum(range(1, len(nums) + 1)) - sum(nums)
         
         return [lack - diff, lack]
-```
+# ```

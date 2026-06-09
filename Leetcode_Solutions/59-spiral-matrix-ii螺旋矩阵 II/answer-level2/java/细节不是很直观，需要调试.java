@@ -1,9 +1,9 @@
-### 解题思路
-不是很直观，需要调试
+// ### 解题思路
+// 不是很直观，需要调试
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] generateMatrix(int n) {
          int[][] res = new int[n][n];
@@ -30,4 +30,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

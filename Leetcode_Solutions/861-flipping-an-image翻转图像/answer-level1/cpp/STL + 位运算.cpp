@@ -1,9 +1,9 @@
-### 解题思路
-暴力STL +位运算
+// ### 解题思路
+// 暴力STL +位运算
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> flipAndInvertImage(vector<vector<int>>& A) {
@@ -18,4 +18,4 @@ public:
         return A;
     }
 };
-```
+// ```

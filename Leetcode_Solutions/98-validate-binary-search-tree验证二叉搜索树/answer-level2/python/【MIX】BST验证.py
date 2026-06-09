@@ -1,9 +1,9 @@
-### 解题思路
-中序遍历为不下降序列
+# ### 解题思路
+# 中序遍历为不下降序列
 
-### 代码
+# ### 代码
 
-```java []
+# ```java []
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -41,8 +41,8 @@ class Solution {
 
     private List<Integer> inRes;
 }
-```
-```python []
+# ```
+# ```python []
 class Solution:
     lastVal = float('-inf')
     def isValidBST(self, root: TreeNode) -> bool:
@@ -55,8 +55,8 @@ class Solution:
                 return self.isValidBST(root.right)
                 
         return False
-```
-```c++ []
+# ```
+# ```c++ []
 class Solution {
 public:
     bool isValidBST(TreeNode* root) {
@@ -88,4 +88,4 @@ private:
 private:
     vector<int> inRes;
 };
-```
+# ```

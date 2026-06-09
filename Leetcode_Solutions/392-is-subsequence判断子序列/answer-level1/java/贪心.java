@@ -1,9 +1,9 @@
-### 解题思路
-感觉没有用到贪心和动态规划的技巧。。。
+// ### 解题思路
+// 感觉没有用到贪心和动态规划的技巧。。。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isSubsequence(String s, String t) {
         int lens = s.length();
@@ -24,4 +24,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

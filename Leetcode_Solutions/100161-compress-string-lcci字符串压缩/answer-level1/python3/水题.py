@@ -1,4 +1,4 @@
-```
+# ```
 python3
 class Solution:
     def compressString(self, S: str) -> str:
@@ -21,5 +21,5 @@ class Solution:
         if len(ret) >= len(S):
             return S
         return ret
-```
+# ```
 

@@ -1,9 +1,9 @@
-### 解题思路
-0ms，思路清晰，直接打表。 代码15行左右
+// ### 解题思路
+// 0ms，思路清晰，直接打表。 代码15行左右
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     String[] keyboards = {"QWERTYUIOPqwertyuiop", "ASDFGHJKLasdfghjkl", "ZXCVBNMzxcvbnm"};
     
@@ -29,4 +29,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/95947e0f21390883c8d5fabfae2c800849d7fe5bbf577c41f7f799bc1d869e7c-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/95947e0f21390883c8d5fabfae2c800849d7fe5bbf577c41f7f799bc1d869e7c-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	int compareVersion(string s1, string s2) {
@@ -22,4 +22,4 @@ public:
 		return 0;
 	}
 };
-```
+// ```

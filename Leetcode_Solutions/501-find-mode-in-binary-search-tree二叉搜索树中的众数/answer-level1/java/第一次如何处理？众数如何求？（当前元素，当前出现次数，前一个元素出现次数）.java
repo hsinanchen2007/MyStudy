@@ -1,9 +1,9 @@
-### 解题思路
-参考：https://leetcode-cn.com/problems/find-mode-in-binary-search-tree/solution/marveljian-dan-de-xue-xi-bi-ji-501-by-tyanyonecanc/
+// ### 解题思路
+// 参考：https://leetcode-cn.com/problems/find-mode-in-binary-search-tree/solution/marveljian-dan-de-xue-xi-bi-ji-501-by-tyanyonecanc/
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private List<Integer> modes;
     private int cur;
@@ -39,4 +39,4 @@ class Solution {
 }
 
 
-```
+// ```

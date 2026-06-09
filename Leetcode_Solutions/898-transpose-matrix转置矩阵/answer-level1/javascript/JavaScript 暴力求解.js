@@ -1,10 +1,10 @@
-### 解题思路
-- 通过 Array.from() 深拷贝一个数组
-- 通过两遍 forEach 循环赋值 
+// ### 解题思路
+// - 通过 Array.from() 深拷贝一个数组
+// - 通过两遍 forEach 循环赋值 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} A
  * @return {number[][]}
@@ -19,4 +19,4 @@ var transpose = function(A) {
     return B
 };
 
-```
+// ```

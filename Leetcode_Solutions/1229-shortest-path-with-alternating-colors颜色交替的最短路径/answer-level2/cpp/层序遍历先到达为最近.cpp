@@ -1,10 +1,10 @@
-### 解题思路
-- BFS 队列遍历，用visit记录从该节点以某种颜色出发是否被访问
-- 每个节点用`pair<int,int>`记录节点和最近边访问的颜色
+// ### 解题思路
+// - BFS 队列遍历，用visit记录从该节点以某种颜色出发是否被访问
+// - 每个节点用`pair<int,int>`记录节点和最近边访问的颜色
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> shortestAlternatingPaths(int n, vector<vector<int>>& red_edges, vector<vector<int>>& blue_edges) {
@@ -57,4 +57,4 @@ private:
 	enum color { RED=0,BLUE=1 };
     //const int inf = INT_MAX;
 };
-```
+// ```

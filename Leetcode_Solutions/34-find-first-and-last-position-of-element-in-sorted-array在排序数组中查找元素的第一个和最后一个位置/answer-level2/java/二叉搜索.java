@@ -1,12 +1,12 @@
-### 解题思路
-要注意的
-1. 当搜索到target时，判断左边是否为仍旧为该元素，如果是，继续搜索，直至找到最左边的target
-2. 判断右边的时候也是同样的思路，直至找到最右边的target
-3. 注意越界风险
+// ### 解题思路
+// 要注意的
+// 1. 当搜索到target时，判断左边是否为仍旧为该元素，如果是，继续搜索，直至找到最左边的target
+// 2. 判断右边的时候也是同样的思路，直至找到最右边的target
+// 3. 注意越界风险
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] searchRange(int[] nums, int target) {
         int[] res = new int[2];
@@ -35,4 +35,4 @@ class Solution {
         }
     }
 }
-```
+// ```

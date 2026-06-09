@@ -1,5 +1,5 @@
 
-```go []
+// ```go []
 func removeElement(nums []int, val int) int {
 	for i := 0; i < len(nums); {
 		if nums[i]==val {
@@ -10,4 +10,4 @@ func removeElement(nums []int, val int) int {
 	}
 	return len(nums)
 }
-```
+// ```

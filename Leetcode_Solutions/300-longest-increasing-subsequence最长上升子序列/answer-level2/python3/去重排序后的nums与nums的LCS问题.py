@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def lengthOfLIS(self, nums: List[int]) -> int:
         if not nums:
@@ -25,4 +25,4 @@ class Solution:
         #print(dp)
         return dp[-1][-1]
          
-```
+# ```

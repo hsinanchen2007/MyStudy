@@ -1,9 +1,9 @@
-### 解题思路
-回溯法
+// ### 解题思路
+// 回溯法
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number[][]}
@@ -23,4 +23,4 @@ var subsets = function(nums) {
     backtrack(0, [])
     return output
 };
-```
+// ```

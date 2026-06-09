@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def smallestDivisor(self, nums: List[int], threshold: int) -> int:
         maxNum = max(nums)
@@ -19,4 +19,4 @@ class Solution:
             else:
                 left = mid + 1
         return ans
-```
+# ```

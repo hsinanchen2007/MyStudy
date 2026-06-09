@@ -1,9 +1,9 @@
-### 解题思路
-理论上深度是正数, 使用-1做标志数, 遇见-1直接结束
+// ### 解题思路
+// 理论上深度是正数, 使用-1做标志数, 遇见-1直接结束
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isBalanced(TreeNode root) {
         return depth(root)!=-1;
@@ -23,4 +23,4 @@ class Solution {
         else return -1;
     }
 }
-```
+// ```

@@ -1,7 +1,7 @@
-### 思路
-    直接套母函数模板即可，目标值是 nums 求和的一半，如果和是奇数可以直接返回 false
-### 代码
-```
+// ### 思路
+//     直接套母函数模板即可，目标值是 nums 求和的一半，如果和是奇数可以直接返回 false
+// ### 代码
+// ```
 class Solution {
 public:
     bool canPartition(vector<int>& nums) {
@@ -29,4 +29,4 @@ public:
         return res;
     }
 };
-```
+// ```

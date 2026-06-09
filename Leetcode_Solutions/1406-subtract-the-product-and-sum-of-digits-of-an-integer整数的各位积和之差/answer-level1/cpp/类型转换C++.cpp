@@ -1,10 +1,10 @@
-### 解题思路
-双百C++,将int转string，再将string中单个字符（char）转string，再将string转const char*，最后转成int
-![image.png](https://pic.leetcode-cn.com/38cfb67439d839e3b369e80b62bd624a1f9d3e5222d2b7fb49c4557fa8a93531-image.png)
+// ### 解题思路
+// 双百C++,将int转string，再将string中单个字符（char）转string，再将string转const char*，最后转成int
+// ![image.png](https://pic.leetcode-cn.com/38cfb67439d839e3b369e80b62bd624a1f9d3e5222d2b7fb49c4557fa8a93531-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	int subtractProductAndSum(int n) {
@@ -25,4 +25,4 @@ public:
 	return (multi - plus);
 	}
 };
-```
+// ```

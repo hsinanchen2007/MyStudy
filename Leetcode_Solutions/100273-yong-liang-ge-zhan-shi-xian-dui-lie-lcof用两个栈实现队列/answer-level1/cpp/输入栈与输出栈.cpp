@@ -1,9 +1,9 @@
-### 解题思路
-栈p为输入栈，栈q为输出栈，输出时，若栈q不为空，则返回q.top()，否则若栈p不为空，将栈p元素反转存入栈q，返回q.top()，若都为空，返回-1
+// ### 解题思路
+// 栈p为输入栈，栈q为输出栈，输出时，若栈q不为空，则返回q.top()，否则若栈p不为空，将栈p元素反转存入栈q，返回q.top()，若都为空，返回-1
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class CQueue {
 public:
     stack<int> p,q;
@@ -38,4 +38,4 @@ public:
  * obj->appendTail(value);
  * int param_2 = obj->deleteHead();
  */
-```
+// ```

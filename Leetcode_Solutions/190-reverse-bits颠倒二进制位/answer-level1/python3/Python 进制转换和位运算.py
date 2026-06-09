@@ -1,6 +1,6 @@
-相比于用库函数，自己实现的这个位运算并不表现得更快。
+# 相比于用库函数，自己实现的这个位运算并不表现得更快。
 
-``` python
+# ``` python
 class Solution:
     # bad
     def reverseBits(self, n: int) -> int:
@@ -13,4 +13,4 @@ class Solution:
             r |= n&1
             n >>= 1
         return r
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-排序+双指针
+// ### 解题思路
+// 排序+双指针
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 private:
 	void searchAndPush(vector<vector<int>>&ans, vector<int>& nums, int left, int right, int target) {
@@ -37,4 +37,4 @@ public:
 		return ans;
 	}
 };
-```
+// ```

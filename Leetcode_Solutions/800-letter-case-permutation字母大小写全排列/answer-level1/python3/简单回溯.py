@@ -1,5 +1,5 @@
 
-```python3
+# ```python3
 class Solution:
     def letterCasePermutation(self, S: str) -> List[str]:
         res = []
@@ -22,4 +22,4 @@ class Solution:
         helper(0,'')
         return list(set(res))
                 
-```
+# ```

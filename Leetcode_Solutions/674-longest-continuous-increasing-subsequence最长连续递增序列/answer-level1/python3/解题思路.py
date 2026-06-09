@@ -1,10 +1,10 @@
-### 解题思路
-nums长度为1或0时max[res]会出错，因为此时res=[]
-count从1计数，注意最后一个数判断完之后要把count添加到res,因为循环结束了
+# ### 解题思路
+# nums长度为1或0时max[res]会出错，因为此时res=[]
+# count从1计数，注意最后一个数判断完之后要把count添加到res,因为循环结束了
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findLengthOfLCIS(self, nums: List[int]) -> int:
         res=[]
@@ -23,4 +23,4 @@ class Solution:
                 count=1
         return max(res)
 
-```
+# ```

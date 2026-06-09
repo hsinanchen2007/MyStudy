@@ -1,16 +1,16 @@
-## 简介
-- [题目链接](https://leetcode-cn.com/problems/partition-array-into-three-parts-with-equal-sum/)
+// ## 简介
+// - [题目链接](https://leetcode-cn.com/problems/partition-array-into-three-parts-with-equal-sum/)
 
-该如何分析该题：
-1. 数组 A 里面的元素都是整数，因此任意部分的和也是整数。如果我们希望能够将数组分为三个和相等的部分，则数组 A 的和能够被三整除。
-2. 所以我们先遍历整个数组，$s = sum(A)$。
-3. 第二次遍历，看看是否能够凑出三个 $s/3$。
+// 该如何分析该题：
+// 1. 数组 A 里面的元素都是整数，因此任意部分的和也是整数。如果我们希望能够将数组分为三个和相等的部分，则数组 A 的和能够被三整除。
+// 2. 所以我们先遍历整个数组，$s = sum(A)$。
+// 3. 第二次遍历，看看是否能够凑出三个 $s/3$。
 
-**该题考查什么呢？**
-1. 仔细看的话，算是前缀和的思想
+// **该题考查什么呢？**
+// 1. 仔细看的话，算是前缀和的思想
 
-### 解法一 - 前缀和思路
-```javascript
+// ### 解法一 - 前缀和思路
+// ```javascript
 /**
  * @param {number[]} A
  * @return {boolean}
@@ -38,8 +38,8 @@ var canThreePartsEqualSum = function(A) {
     return false;
 };
 
-```
+// ```
 
-**复杂度分析**:
-- 时间复杂度： $O(N)$
-- 空间复杂度： $O(1)$
+// **复杂度分析**:
+// - 时间复杂度： $O(N)$
+// - 空间复杂度： $O(1)$

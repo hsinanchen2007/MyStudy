@@ -1,9 +1,9 @@
-### 解题思路
-f[i][j]表示以(i, j)为**右下角**的最大全1正方形的边长
+// ### 解题思路
+// f[i][j]表示以(i, j)为**右下角**的最大全1正方形的边长
 
-### 代码
+// ### 代码
 
-```java []
+// ```java []
 class Solution {
     public int maximalSquare(char[][] matrix) {
         // f[i][j]以(i, j)为右下角的最大全1正方形的边长
@@ -34,8 +34,8 @@ class Solution {
         return maxL*maxL;
     }
 }
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def maximalSquare(self, matrix: List[List[str]]) -> int:
         if matrix == None or len(matrix)==0 or len(matrix[0])==0:
@@ -57,8 +57,8 @@ class Solution:
                 maxL = max(maxL, f[i][j])
 
         return maxL**2
-```
-```c++ []
+// ```
+// ```c++ []
 class Solution {
 public:
     int maximalSquare(vector<vector<char>>& matrix) {
@@ -86,4 +86,4 @@ public:
         return maxL*maxL;
     }
 };
-```
+// ```

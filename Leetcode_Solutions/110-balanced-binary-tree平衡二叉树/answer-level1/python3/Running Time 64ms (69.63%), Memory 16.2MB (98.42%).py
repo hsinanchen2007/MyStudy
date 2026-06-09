@@ -1,4 +1,4 @@
-```python3
+# ```python3
 class Solution:
     def calLevel(self, node):
         return 0 if not node else max(self.calLevel(node.left), self.calLevel(node.right)) + 1
@@ -13,4 +13,4 @@ class Solution:
         else:
             return self.isBalanced(root.left) and self.isBalanced(root.right)
         
-```
+# ```

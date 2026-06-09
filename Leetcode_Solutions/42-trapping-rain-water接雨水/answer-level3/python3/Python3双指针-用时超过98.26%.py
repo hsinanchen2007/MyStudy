@@ -1,11 +1,11 @@
-### 解题思路
-+ 数组内的高度值形成了一个个小坑，能接的雨水量的和就是这些小坑里的水的和。因此只要找到每一个小坑的左右边缘值就行了。
-设置左右两组指针，每组各自又有高低两个指针，分别是`left_lo`,`left_hi`,`right_lo`,`right_hi`.
+# ### 解题思路
+# + 数组内的高度值形成了一个个小坑，能接的雨水量的和就是这些小坑里的水的和。因此只要找到每一个小坑的左右边缘值就行了。
+# 设置左右两组指针，每组各自又有高低两个指针，分别是`left_lo`,`left_hi`,`right_lo`,`right_hi`.
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def trap(self, height: List[int]) -> int:
         N = len(height)
@@ -53,4 +53,4 @@ class Solution:
                 res += left_tmp
                 left_tmp = 0
         return res
-```
+# ```

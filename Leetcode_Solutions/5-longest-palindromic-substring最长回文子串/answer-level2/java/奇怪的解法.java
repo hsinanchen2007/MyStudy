@@ -1,17 +1,17 @@
-### 解题思路
-假设输入是 abcba
-从左到右依次递增长度寻找最长回文子串
-字符串：{需要计算的子串}->{最长回文子串}
-a：{a}->{a}
-ab:{a的结果,b,ab}->{a}(a和b的长度一样，记录a就行了)
-abc:{ab的结果,abc,bc}->{a}
-abcb:{abc的结果,bcb,cb,b}->{bcb}
-abcba:{abcb的结果,abcba,bcba,cba,ba,a}->{abcba}
+// ### 解题思路
+// 假设输入是 abcba
+// 从左到右依次递增长度寻找最长回文子串
+// 字符串：{需要计算的子串}->{最长回文子串}
+// a：{a}->{a}
+// ab:{a的结果,b,ab}->{a}(a和b的长度一样，记录a就行了)
+// abc:{ab的结果,abc,bc}->{a}
+// abcb:{abc的结果,bcb,cb,b}->{bcb}
+// abcba:{abcb的结果,abcba,bcba,cba,ba,a}->{abcba}
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String longestPalindrome(String s) {
         if(s.length()==0){
@@ -63,4 +63,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

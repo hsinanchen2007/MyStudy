@@ -1,9 +1,9 @@
-![image.png](https://pic.leetcode-cn.com/c1b9f68f47f1225e273d4955f3658dfa684fd004cbba2501beedd66427be1ea7-image.png)
+// ![image.png](https://pic.leetcode-cn.com/c1b9f68f47f1225e273d4955f3658dfa684fd004cbba2501beedd66427be1ea7-image.png)
 
 
-### 暴力深搜
+// ### 暴力深搜
 
-```python []
+// ```python []
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
         if not len(grid) or not len(grid[0]):
@@ -15,31 +15,31 @@ class Solution:
             i + 1 < m and grid[i + 1][j] == '1' and f(i + 1, j),
             i > 0 and grid[i - 1][j] == '1' and f(i - 1, j))
         return sum(grid[i][j] == '1' and not f(i, j) for i, j in itertools.product(range(m), range(n)))
-```
+// ```
 
-### 把换行去掉
+// ### 把换行去掉
 
-```python []
+// ```python []
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
         if not (m := len(grid)) or not (n := len(grid[0])):
             return 0
         f = lambda i, j: grid[i].__setitem__(j, None) or j + 1 < n and grid[i][j + 1] == '1' and f(i, j + 1) or j > 0 and grid[i][j - 1] == '1' and f(i, j - 1) or i + 1 < m and grid[i + 1][j] == '1' and f(i + 1, j) or i > 0 and grid[i - 1][j] == '1' and f(i - 1, j)
         return sum(grid[i][j] == '1' and not f(i, j) for i in range(m) for j in range(n))
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
         if not (m := len(grid)) or not (n := len(grid[0])):
             return 0
         f = lambda i, j: grid[i][j] == '1' and (grid[i].__setitem__(j, None) or j + 1 < n and f(i, j + 1) or j > 0 and f(i, j - 1) or i + 1 < m and f(i + 1, j) or i > 0 and f(i - 1, j))
         return sum(grid[i][j] == '1' and not f(i, j) for i in range(m) for j in range(n))
-```
+// ```
 
 
-### 带哨兵的深搜，用空间来换取判断次数，不过并有真的快起来。。
+// ### 带哨兵的深搜，用空间来换取判断次数，不过并有真的快起来。。
 
-```python []
+// ```python []
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
         if not len(grid) or not len(grid[0]):
@@ -59,15 +59,15 @@ class Solution:
                 f(i, j)
                 ans += 1
         return ans
-```
+// ```
 
-### rust 解法
+// ### rust 解法
 
-![image.png](https://pic.leetcode-cn.com/97bfd03bf958980cd41c3241b290640177b179f7a717c54121f6ac2cc5d0a3e4-image.png)
+// ![image.png](https://pic.leetcode-cn.com/97bfd03bf958980cd41c3241b290640177b179f7a717c54121f6ac2cc5d0a3e4-image.png)
 
-递归
+// 递归
 
-```rust []
+// ```rust []
 impl Solution {
     pub fn num_islands(mut grid: Vec<Vec<char>>) -> i32 {
         if grid.len() == 0 || grid[0].len() == 0 {
@@ -102,11 +102,11 @@ fn f(i: usize, j: usize, grid: &mut Vec<Vec<char>>) {
         }
     }
 }
-```
+// ```
 
-栈
+// 栈
 
-```rust []
+// ```rust []
 impl Solution {
     pub fn num_islands(mut grid: Vec<Vec<char>>) -> i32 {
         if grid.len() == 0 || grid[0].len() == 0 {
@@ -142,4 +142,4 @@ impl Solution {
         ans
     }
 }
-```
+// ```

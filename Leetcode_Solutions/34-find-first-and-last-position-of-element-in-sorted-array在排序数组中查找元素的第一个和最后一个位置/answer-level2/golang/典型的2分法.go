@@ -1,10 +1,10 @@
-### 解题思路
-典型的2分法
+// ### 解题思路
+// 典型的2分法
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 func searchRange(nums []int, target int) []int {
 //首位两个变量
@@ -29,4 +29,4 @@ func searchRange(nums []int, target int) []int {
 	}
 	return ret
 }
-```
+// ```

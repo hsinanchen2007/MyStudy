@@ -1,4 +1,4 @@
-```
+# ```
 from collections import defaultdict
         # 统计字母的词频
         dic = defaultdict(int)
@@ -15,4 +15,4 @@ from collections import defaultdict
         for i in range(10):
             res += letter[i]*count[i]
         return res
-```
+# ```

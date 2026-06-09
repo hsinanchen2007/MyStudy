@@ -1,5 +1,5 @@
 
-```cpp
+// ```cpp
 /*
  * @lc app=leetcode.cn id=475 lang=cpp
  *
@@ -48,4 +48,4 @@ public:
 };
 // @lc code=end
 
-```
+// ```

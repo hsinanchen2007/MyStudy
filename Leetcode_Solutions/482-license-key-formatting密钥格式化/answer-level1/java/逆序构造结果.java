@@ -1,19 +1,19 @@
-1. 关于复杂度
-    1.1 时间复杂度为O(n)
-    1.2 空间负责度为O(n)
-2. 我的解题思路
-    2.1 从尾到头遍历字符串，有4种情况
-        2.1.1 当前元素为-，跳过
-        2.1.2 当前元素为数字，直接append
-        2.1.3 当前元素为字母，append它的大写字母
-        2.1.4 当前分段已满，重置计数器以及append一个-
-    2.2 反转整个StringBuilder以及当首字母为-时去掉
-3. 提交记录
-    3.1 力扣中耗时26ms,消耗42.2MB内存
-    3.2 leetcode中耗时12ms,消耗36.9MB内存
-4. Q&A
+// 1. 关于复杂度
+//     1.1 时间复杂度为O(n)
+//     1.2 空间负责度为O(n)
+// 2. 我的解题思路
+//     2.1 从尾到头遍历字符串，有4种情况
+//         2.1.1 当前元素为-，跳过
+//         2.1.2 当前元素为数字，直接append
+//         2.1.3 当前元素为字母，append它的大写字母
+//         2.1.4 当前分段已满，重置计数器以及append一个-
+//     2.2 反转整个StringBuilder以及当首字母为-时去掉
+// 3. 提交记录
+//     3.1 力扣中耗时26ms,消耗42.2MB内存
+//     3.2 leetcode中耗时12ms,消耗36.9MB内存
+// 4. Q&A
 
-```
+// ```
 /**
  * Problem
  *     482.License Key Formatting
@@ -80,6 +80,6 @@ class Solution{
     }
 }
 
-```
-如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理
-你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路
+// ```
+// 如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理
+// 你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路

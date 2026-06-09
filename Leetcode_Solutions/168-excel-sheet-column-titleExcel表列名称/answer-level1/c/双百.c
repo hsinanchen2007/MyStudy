@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * convertToTitle(int n){
     char *arr=(char*)malloc(10*sizeof(char));
     int i,j=8;
@@ -19,4 +19,4 @@ char * convertToTitle(int n){
     }
     return arr+j+1;
 }
-```
+// ```

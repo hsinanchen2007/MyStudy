@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
  class Solution {
     func replaceElements(_ arr: [Int]) -> [Int] {
         var ans = Array<Int>(repeating: 0, count: arr.count)
@@ -13,4 +13,4 @@
         return ans
     }
  }
-```
+// ```

@@ -1,4 +1,4 @@
-```python
+# ```python
 class Node:
     
     def __init__(self, val, nex):
@@ -52,5 +52,5 @@ class MyHashSet:
 # obj.add(key)
 # obj.remove(key)
 # param_3 = obj.contains(key)
-```
-- 在存储数据的过程中，如果发生冲突，可以利用链表在已有数据的后面插入新数据 来解决冲突。这种方法被称为“链地址法”
+# ```
+# - 在存储数据的过程中，如果发生冲突，可以利用链表在已有数据的后面插入新数据 来解决冲突。这种方法被称为“链地址法”

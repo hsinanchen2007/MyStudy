@@ -1,8 +1,8 @@
-![H)\[9{B7Y27IFR8~54LC0NEB.png](https://pic.leetcode-cn.com/a35bf1ffb49a65bccc2375d7cda080f955b34d828b0e7a4f776169adc8abef71-H\)%5B9%7BB7Y27IFR8~54LC0NEB.png)
+// ![H)\[9{B7Y27IFR8~54LC0NEB.png](https://pic.leetcode-cn.com/a35bf1ffb49a65bccc2375d7cda080f955b34d828b0e7a4f776169adc8abef71-H\)%5B9%7BB7Y27IFR8~54LC0NEB.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	int numTrees(int n) {
@@ -24,4 +24,4 @@ public:
 		return d[n];
 	}
 };
-```
+// ```

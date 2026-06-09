@@ -1,9 +1,9 @@
-### 解题思路
-一个对比，set.has 跟 array.indexOf 对比 时间差很多。。。
+// ### 解题思路
+// 一个对比，set.has 跟 array.indexOf 对比 时间差很多。。。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -24,4 +24,4 @@ var longestConsecutive = function(nums) {
     }
     return ans
 };
-```
+// ```

@@ -1,7 +1,7 @@
-最正确,直观,简单,高效的解法!!
+// 最正确,直观,简单,高效的解法!!
 
 
-```reasonml
+// ```reasonml
  //记录递归中最大的值,如果均为负数,则默认返回1
     int res = 0;
     public int maxSumBST(TreeNode root) {
@@ -60,4 +60,4 @@
         }
         return new int[]{isBST, min, max, sum};
     }
-```
+// ```

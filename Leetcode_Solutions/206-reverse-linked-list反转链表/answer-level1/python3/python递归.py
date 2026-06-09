@@ -1,9 +1,9 @@
-### 解题思路
-python递归 tail永远指向队尾 不要让链表断掉
+# ### 解题思路
+# python递归 tail永远指向队尾 不要让链表断掉
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -18,4 +18,4 @@ class Solution:
         head.next.next=head
         head.next=None
         return tail
-```
+# ```

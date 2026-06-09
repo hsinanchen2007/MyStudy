@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/42e73a2eec855816e2e837a93bbd8f6d384fa823e6547a29d558da77eb64bf1b-image.png)
+// ![image.png](https://pic.leetcode-cn.com/42e73a2eec855816e2e837a93bbd8f6d384fa823e6547a29d558da77eb64bf1b-image.png)
 
-```
+// ```
 bottom 的长度范围在 [2, 8]。
 allowed 的长度范围在[0, 200]。
 方块的标记字母范围为{'A', 'B', 'C', 'D', 'E', 'F', 'G'}。
@@ -44,10 +44,10 @@ allowed 的长度范围在[0, 200]。
                     已经不能再取出两个字符了, 说明进入了下一层, len为2, 字符串为 GE
                         GE能转换成'A'
                             字符串长度变成了1, 说明可以到塔尖, 返回true
-```
+// ```
 
 
-```c
+// ```c
 #define SIZE 65
 uint32_t g_state[SIZE][SIZE];
 
@@ -111,4 +111,4 @@ bool pyramidTransition(char * bottom, char ** allowed, int allowedSize){
     return Dfs(bottom, 0, len);
 }
 
-```
+// ```

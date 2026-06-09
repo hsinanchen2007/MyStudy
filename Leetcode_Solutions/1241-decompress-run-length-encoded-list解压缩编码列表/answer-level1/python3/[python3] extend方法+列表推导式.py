@@ -1,19 +1,19 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-执行用时 :
-52 ms
-, 在所有 Python3 提交中击败了
-75.54%
-的用户
-内存消耗 :
-13.5 MB
-, 在所有 Python3 提交中击败了
-100.00%
-的用户
-### 代码
+# 执行用时 :
+# 52 ms
+# , 在所有 Python3 提交中击败了
+# 75.54%
+# 的用户
+# 内存消耗 :
+# 13.5 MB
+# , 在所有 Python3 提交中击败了
+# 100.00%
+# 的用户
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def decompressRLElist(self, nums: List[int]) -> List[int]:
         ans = []
@@ -23,4 +23,4 @@ class Solution:
             ans.extend([nums[i+1] for x in range(nums[i])])
         return ans
 
-```
+# ```

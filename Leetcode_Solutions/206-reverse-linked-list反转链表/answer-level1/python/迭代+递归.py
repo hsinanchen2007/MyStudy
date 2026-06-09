@@ -1,4 +1,4 @@
-```
+# ```
         #1迭代
         if not head:
             return head
@@ -18,4 +18,4 @@
         head.next.next = head
         head.next = None
         return newhead
-```
+# ```

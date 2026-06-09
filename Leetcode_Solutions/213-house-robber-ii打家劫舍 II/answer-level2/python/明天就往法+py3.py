@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def rob(self, nums: List[int]) -> int:
         n=len(nums)
@@ -22,4 +22,4 @@ class Solution:
         # 两种情况：0-n-2  和 1-n-1
         return max(helper(nums[:n-1]),helper(nums[1:n]))
     
-```
+# ```

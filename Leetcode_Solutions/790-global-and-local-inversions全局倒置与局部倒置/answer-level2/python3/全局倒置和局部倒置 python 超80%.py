@@ -1,5 +1,5 @@
-> 思路：对每一个位置i判断，如果$A[i]>max\{A[j],j=0,1,...,i-2\}$，则返回False。所以只需要维护一个Max变量即可。
-```python
+# > 思路：对每一个位置i判断，如果$A[i]>max\{A[j],j=0,1,...,i-2\}$，则返回False。所以只需要维护一个Max变量即可。
+# ```python
 class Solution:
     def isIdealPermutation(self, A: List[int]) -> bool:
         
@@ -12,4 +12,4 @@ class Solution:
             if A[i] < Max:
                 return False
         return True
-```
+# ```

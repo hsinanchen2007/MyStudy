@@ -1,6 +1,6 @@
 
 
-```
+// ```
 func verticalTraversal(root *TreeNode) [][]int {
 	result := [][]int{}
 	posMap := getNodePosition(root)
@@ -49,4 +49,4 @@ func getNodePosition(root *TreeNode) map[int][]int {
 	}
 	return positionMap
 }
-```
+// ```

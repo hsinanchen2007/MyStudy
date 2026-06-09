@@ -1,5 +1,5 @@
-首先使用切片自定义一个栈：
-```go
+// 首先使用切片自定义一个栈：
+// ```go
 type Stack struct {
 	data []int
 	top  int
@@ -31,11 +31,11 @@ func (s *Stack) Peek() int {
 func (s *Stack) Size() int {
 	return len(s.data)
 }
-```
+// ```
 
-然后使用两个栈(in、out)来实现队列，其中 in 用于入队操作，out 用于出队操作：
+// 然后使用两个栈(in、out)来实现队列，其中 in 用于入队操作，out 用于出队操作：
 
-```go
+// ```go
 type MyQueue struct {
 	in, out stack.Stack
 }
@@ -75,4 +75,4 @@ func (this *MyQueue) Peek() int {
 func (this *MyQueue) Empty() bool {
 	return this.out.Size() == 0 && this.in.Size() == 0
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public boolean checkPossibility(int[] nums) {
        //换一个思路，不拷贝数组然后排序了,具体分为更改第i个值，还是第i+1个值
@@ -32,4 +32,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

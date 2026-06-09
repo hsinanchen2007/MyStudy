@@ -1,6 +1,6 @@
 
-![image.png](https://pic.leetcode-cn.com/1ad7417a04c2da936f13ee12d52685b17a954c46aa0956f669d3290fd6a9fcbe-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/1ad7417a04c2da936f13ee12d52685b17a954c46aa0956f669d3290fd6a9fcbe-image.png)
+// ```
     static char[] p;
     static int[] dp;
     static int len;
@@ -27,4 +27,4 @@
         }
         return dp[len-1];
     }
-```
+// ```

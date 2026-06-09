@@ -1,6 +1,6 @@
 
 
-```js
+// ```js
 var singleNumber = function(nums) {
    nums.sort((a, b) => a - b);
    for(var pre, len = nums.length, i = 0; i < len; i++){
@@ -9,4 +9,4 @@ var singleNumber = function(nums) {
        else pre = nums[i];
    }
 };
-```
+// ```

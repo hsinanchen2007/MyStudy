@@ -1,12 +1,12 @@
-### 解题思路
-1、按位判断
-判断每一位是否为
-2、N&N-1 
-一个数n与一个比它小1的数(n-1)与(&)运算，会消除n中最低位的1
+// ### 解题思路
+// 1、按位判断
+// 判断每一位是否为
+// 2、N&N-1 
+// 一个数n与一个比它小1的数(n-1)与(&)运算，会消除n中最低位的1
 
-### 代码
-#### 按位判断
-```cpp
+// ### 代码
+// #### 按位判断
+// ```cpp
 class Solution {
 public:
 	int hammingWeight(uint32_t n) {
@@ -19,10 +19,10 @@ public:
 		return count;
 	}
 };
-```
+// ```
 
-#### N&N-1
-```cpp
+// #### N&N-1
+// ```cpp
 class Solution {
 public:
 	int hammingWeight(uint32_t n) {
@@ -35,4 +35,4 @@ public:
 		return count;
 	}
 };
-```
+// ```

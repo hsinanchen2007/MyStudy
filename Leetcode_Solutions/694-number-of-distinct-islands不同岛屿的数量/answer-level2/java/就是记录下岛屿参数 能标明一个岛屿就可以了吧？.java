@@ -1,9 +1,9 @@
-### 解题思路
-为了简单 直接记录了岛屿递归时的尝试路径
+// ### 解题思路
+// 为了简单 直接记录了岛屿递归时的尝试路径
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 	public int numDistinctIslands(int[][] grid) {
         if(grid==null){
@@ -59,4 +59,4 @@ class Solution {
     }
 }
 
-```
+// ```

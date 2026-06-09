@@ -1,4 +1,4 @@
-```
+// ```
 type Node struct {
 	i, j    int
 	step    int
@@ -77,4 +77,4 @@ func bfs(success int, g [][]byte, l *list.List, visited [][][]bool) int {
 	}
 	return -1
 }
-```
+// ```

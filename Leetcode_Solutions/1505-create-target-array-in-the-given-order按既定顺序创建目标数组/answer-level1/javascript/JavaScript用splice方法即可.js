@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number[]} nums
  * @param {number[]} index
@@ -12,5 +12,5 @@ var createTargetArray = function(nums, index) {
     }
  return target;
 };
-```
+// ```
 

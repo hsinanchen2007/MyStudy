@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int maximum69Number (int num) {
@@ -8,4 +8,4 @@ public:
         return num+m*3;
     }
 };
-```
+// ```

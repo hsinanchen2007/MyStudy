@@ -1,4 +1,4 @@
-```
+// ```
 
 func palindromePairs(words []string) [][]int {
 	var ret [][]int
@@ -68,4 +68,4 @@ func isReverse(a string, b string) bool {
 	return true
 }
 
-```
+// ```

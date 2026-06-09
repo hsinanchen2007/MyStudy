@@ -1,9 +1,9 @@
-### 解题思路
-执行用时 :60 ms 在所有 C++ 提交中击败了43.56%的用户
-内存消耗 :7.4 MB, 在所有 C++ 提交中击败了100.00%的用户
-### 代码
+// ### 解题思路
+// 执行用时 :60 ms 在所有 C++ 提交中击败了43.56%的用户
+// 内存消耗 :7.4 MB, 在所有 C++ 提交中击败了100.00%的用户
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> fourSum(vector<int>& nums, int target) {
@@ -38,4 +38,4 @@ public:
         return rt;
     }
 };
-```
+// ```

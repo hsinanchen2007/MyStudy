@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func numRookCaptures(board [][]byte) int {
   var x,y,sum int
   for i:=0;i<8;i++ {
@@ -61,4 +61,4 @@ for i:=y+1;i<8;i++ {
 return sum
 
 }
-```
+// ```

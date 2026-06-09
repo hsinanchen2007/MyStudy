@@ -1,10 +1,10 @@
-**1.注重代码的规范性、完整性、鲁棒性。
-2.采用双栈实现队列，先将数字放入stackPush，然后pop到stackPop栈中，然后pop就是出队列的实现形式;
-3.注意两个思想:(1):stackPush中的数据必须一次性全部压入stackPop中;(2):如果stackPop栈不为空，绝不能将stackPush栈中的元素压入stackPop栈，例：stackPop有元素1,2,3，此时stackPush压入了4,5元素，只能Pop完1,2,3，才能Push 5,4元素;
-4.完结。**
+// **1.注重代码的规范性、完整性、鲁棒性。
+// 2.采用双栈实现队列，先将数字放入stackPush，然后pop到stackPop栈中，然后pop就是出队列的实现形式;
+// 3.注意两个思想:(1):stackPush中的数据必须一次性全部压入stackPop中;(2):如果stackPop栈不为空，绝不能将stackPush栈中的元素压入stackPop栈，例：stackPop有元素1,2,3，此时stackPush压入了4,5元素，只能Pop完1,2,3，才能Push 5,4元素;
+// 4.完结。**
 
 
-    // 两个栈实现队列
+//     // 两个栈实现队列
     class MyQueue {
         Stack<Integer> stackPush;
         Stack<Integer> stackPop;

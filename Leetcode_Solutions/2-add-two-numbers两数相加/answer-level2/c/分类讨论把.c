@@ -1,10 +1,10 @@
-### 解题思路
-//前几次提交总是漏考虑情况，当链表长度不同时情况还要分类讨论
-用carry_bit来表示进位;
-对于返回链表，用带头结点的链表来输出，不然返回值中cur->next=NULL的值也会被输出，例如[7,0,8]变成了[7,0,8,-∞];
-### 代码
+// ### 解题思路
+// //前几次提交总是漏考虑情况，当链表长度不同时情况还要分类讨论
+// 用carry_bit来表示进位;
+// 对于返回链表，用带头结点的链表来输出，不然返回值中cur->next=NULL的值也会被输出，例如[7,0,8]变成了[7,0,8,-∞];
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -56,4 +56,4 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
     cur->next = NULL;
     return ret->next;
 }
-```
+// ```

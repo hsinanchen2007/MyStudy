@@ -1,4 +1,4 @@
-```
+// ```
 var isPalindrome = function (x) {
   //先判断特殊情况
   //x = 0 为回文数
@@ -24,4 +24,4 @@ var isPalindrome = function (x) {
     return false
   }
 };
-```
+// ```

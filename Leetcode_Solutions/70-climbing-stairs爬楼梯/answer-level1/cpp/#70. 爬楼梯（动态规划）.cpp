@@ -1,12 +1,12 @@
-### 状态转移方程
-```cpp
+// ### 状态转移方程
+// ```cpp
 f(1) = 1
 f(2) = 2
 f(n) = f(n-1) + f(n-2)
-```
+// ```
 
-### 代码
-```cpp []
+// ### 代码
+// ```cpp []
 class Solution {
 public:
     int climbStairs(int n) {
@@ -20,4 +20,4 @@ public:
         return cur+pre;
     }
 };
-```
+// ```

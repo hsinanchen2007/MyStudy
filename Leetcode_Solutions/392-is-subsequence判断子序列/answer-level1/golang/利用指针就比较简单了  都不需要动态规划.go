@@ -1,9 +1,9 @@
-### 解题思路
-利用双指针会比较简单  动态规划会过于复杂
+// ### 解题思路
+// 利用双指针会比较简单  动态规划会过于复杂
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func isSubsequence(s string, t string) bool {
 	ls,lt := len(s),len(t)
     if ls == 0{
@@ -24,4 +24,4 @@ func isSubsequence(s string, t string) bool {
 	}
 	return false
 }
-```
+// ```

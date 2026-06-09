@@ -1,9 +1,9 @@
-### 解题思路
-遇到'#'就pop，最后比较两个栈是否相等。
+# ### 解题思路
+# 遇到'#'就pop，最后比较两个栈是否相等。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def backspaceCompare(self, S: str, T: str) -> bool:
         s_stack = []
@@ -27,4 +27,4 @@ class Solution:
                 t_stack.append(item)
         
         return s_stack == t_stack
-```
+# ```

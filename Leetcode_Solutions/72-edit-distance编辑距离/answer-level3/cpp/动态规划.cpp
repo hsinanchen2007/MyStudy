@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-动态规划
+// 动态规划
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     static int minDistance(string word1, string word2) {
@@ -36,4 +36,4 @@ public:
         return dp[word1.length()][word2.length()];
     }
 };
-```
+// ```

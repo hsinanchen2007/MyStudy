@@ -1,9 +1,9 @@
-### 解题思路
-拿输入的数字当循环的判断，然后分解数字并计算即可.
+// ### 解题思路
+// 拿输入的数字当循环的判断，然后分解数字并计算即可.
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int subtractProductAndSum(int n) {
         int result=0;
@@ -20,4 +20,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/3b586d8646bcd3fb8622ebd99e1f161f1c86510f655a73241e5d97aaf270e7b3-image.png)
+# ![image.png](https://pic.leetcode-cn.com/3b586d8646bcd3fb8622ebd99e1f161f1c86510f655a73241e5d97aaf270e7b3-image.png)
 
 
-```
+# ```
 '''
 贪心策略
 数值一样的位置不用变动，直接先排除掉
@@ -29,4 +29,4 @@ class Solution:
             ans += 2
 
         return ans
-```
+# ```

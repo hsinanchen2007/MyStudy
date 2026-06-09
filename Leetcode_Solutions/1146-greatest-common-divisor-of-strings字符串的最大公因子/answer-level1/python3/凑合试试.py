@@ -1,4 +1,4 @@
-```
+# ```
 class Solution {
     public int gcd(int a, int b) {
         while(b != 0) {
@@ -13,9 +13,9 @@ class Solution {
         return str2.substring(0, gcd(str1.length(), str2.length()));//字符串长度用.length()计算，数组是用.length
     }//子串使用substring(m, n)截取
 }
-```
+# ```
 
-```
+# ```
 class Solution:
     def gcdOfStrings(self, str1: str, str2: str) -> str:
         if str1 + str2 != str2 + str1:
@@ -26,4 +26,4 @@ class Solution:
             return a
         lens = gcb(len(str1), len(str2))
         return str2[:lens]
-```
+# ```

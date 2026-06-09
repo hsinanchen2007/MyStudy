@@ -1,8 +1,8 @@
-### 解题思路
-每一个元素都异或，初始用0
-### 代码
+// ### 解题思路
+// 每一个元素都异或，初始用0
+// ### 代码
 
-```golang
+// ```golang
 func singleNumber(nums []int) int {
     l := len(nums)
     if l == 0 {
@@ -17,4 +17,4 @@ func singleNumber(nums []int) int {
     }
     return res
 }
-```
+// ```

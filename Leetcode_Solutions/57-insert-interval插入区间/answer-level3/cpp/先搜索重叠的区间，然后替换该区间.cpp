@@ -1,5 +1,5 @@
-虽然不是很快，但是自我感觉比较优雅……
-```
+// 虽然不是很快，但是自我感觉比较优雅……
+// ```
 class Solution {
 public:
 	int findFirst(vector<vector<int>>& intervals, int l, int r, int first)
@@ -93,4 +93,4 @@ public:
 		}
 	}
 };
-```
+// ```

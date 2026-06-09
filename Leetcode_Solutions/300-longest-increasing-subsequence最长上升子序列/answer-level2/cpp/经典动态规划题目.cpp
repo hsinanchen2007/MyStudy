@@ -1,9 +1,9 @@
-### 解题思路
-写出dp[i]的状态更新方程
+// ### 解题思路
+// 写出dp[i]的状态更新方程
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int lengthOfLIS(vector<int>& nums) {
@@ -22,4 +22,4 @@ public:
         return re; 
     }
 };
-```
+// ```

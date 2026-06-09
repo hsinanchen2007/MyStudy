@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def permuteUnique(self, nums: List[int]) -> List[List[int]]:
         if not nums:
@@ -13,4 +13,4 @@ class Solution:
             for j in self.permuteUnique(nums[:i]+nums[i+1:]):
                 res.append([nums[i]]+j)
         return res
-```
+# ```

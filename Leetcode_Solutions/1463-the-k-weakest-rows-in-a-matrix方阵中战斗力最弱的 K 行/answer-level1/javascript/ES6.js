@@ -1,4 +1,4 @@
-```js
+// ```js
   let res = new Map();
   mat.forEach((item, index) => {
     let j = 0;
@@ -20,4 +20,4 @@
 
   let resa = arr.slice(0, k).map(item => item[0]);
   return resa;
-```
+// ```

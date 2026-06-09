@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def translateNum(self, num: int) -> int:
         pre = 1
@@ -12,4 +12,4 @@ class Solution:
                 cur += pre_pre
             pre, pre_pre = cur, pre 
         return pre 
-```
+# ```

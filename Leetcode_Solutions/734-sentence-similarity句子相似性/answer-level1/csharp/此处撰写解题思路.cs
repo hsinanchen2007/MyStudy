@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public bool AreSentencesSimilar(string[] words1, string[] words2, IList<IList<string>> pairs) {
             if (words1.Length != words2.Length)
@@ -27,4 +27,4 @@ public class Solution {
             return true;
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-### 递归
-```c++
+// ### 递归
+// ```c++
 bool isValidBST(TreeNode *root, int64_t low, int64_t high) {
     if (!root) {
         return true;
@@ -22,10 +22,10 @@ bool isValidBST_v1(TreeNode* root) {
     int64_t min_value = (int64_t)INT_MIN - 1;
     return isValidBST(root, min_value, max_value);
 }
-```
+// ```
 
-### 迭代
-```c++
+// ### 迭代
+// ```c++
 bool isValidBST(TreeNode* root) {
     std::stack<TreeNode*> s;
     int64_t last = (int64_t)INT_MIN - 1;
@@ -46,4 +46,4 @@ bool isValidBST(TreeNode* root) {
     }
     return true;
 }
-```
+// ```

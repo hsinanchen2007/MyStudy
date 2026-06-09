@@ -1,12 +1,12 @@
-### 解题思路
-思路很简单：
-1. t1,t2 都存在，两个值相加给t1
-2. t1不存在，返回t2
-3. t2不存在，返回t1
+# ### 解题思路
+# 思路很简单：
+# 1. t1,t2 都存在，两个值相加给t1
+# 2. t1不存在，返回t2
+# 3. t2不存在，返回t1
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -26,4 +26,4 @@ class Solution:
         t1.right = self.mergeTrees(t1.right, t2.right)
 
         return t1
-```
+# ```

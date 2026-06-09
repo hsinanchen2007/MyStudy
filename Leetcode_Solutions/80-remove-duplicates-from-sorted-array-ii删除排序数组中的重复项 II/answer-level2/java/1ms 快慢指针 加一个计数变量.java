@@ -1,9 +1,9 @@
-### 解题思路
-当数字重复时看计数变量是否为1
-不为1时跳过
-### 代码
+// ### 解题思路
+// 当数字重复时看计数变量是否为1
+// 不为1时跳过
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int removeDuplicates(int[] nums) {
         int slow=0;
@@ -24,4 +24,4 @@ class Solution {
 		return slow+1;
     }
 }
-```
+// ```

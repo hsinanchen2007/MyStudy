@@ -1,8 +1,8 @@
-min数组存放每行最小值;
-man数组存放每列最大值;
-循环比较得到每一行的最小值和每一列的最大值。
-然后比较第i行最小值和第j列最大值是否为同一个数，即min[i] == max[j]
-```
+// min数组存放每行最小值;
+// man数组存放每列最大值;
+// 循环比较得到每一行的最小值和每一列的最大值。
+// 然后比较第i行最小值和第j列最大值是否为同一个数，即min[i] == max[j]
+// ```
 class Solution {
     public List<Integer> luckyNumbers (int[][] matrix) {
         int m = matrix.length;
@@ -29,4 +29,4 @@ class Solution {
         return list;
     }
 }
-```
+// ```

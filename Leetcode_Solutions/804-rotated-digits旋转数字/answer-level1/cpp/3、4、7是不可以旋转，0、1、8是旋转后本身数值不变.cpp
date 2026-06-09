@@ -1,9 +1,9 @@
-### 解题思路
-遍历查找符合要求的数字就可以了。
+// ### 解题思路
+// 遍历查找符合要求的数字就可以了。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int rotatedDigits(int N) {
@@ -41,4 +41,4 @@ public:
         return count;
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
-占用空间有点大。。。
-```
+// 占用空间有点大。。。
+// ```
 #include<iostream>
 #include<list>
 
@@ -79,4 +79,4 @@ int main()
 	system("pause");
 	return 0;
 }
-```
+// ```

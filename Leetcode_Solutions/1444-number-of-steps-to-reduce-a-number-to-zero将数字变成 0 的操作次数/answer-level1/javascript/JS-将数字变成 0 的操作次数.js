@@ -1,9 +1,9 @@
-### 解题思路
-递归
+// ### 解题思路
+// 递归
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} num
  * @return {number}
@@ -26,4 +26,4 @@ var numberOfSteps = function (num) {
     recursionFn(num);
     return count;
 };
-```
+// ```

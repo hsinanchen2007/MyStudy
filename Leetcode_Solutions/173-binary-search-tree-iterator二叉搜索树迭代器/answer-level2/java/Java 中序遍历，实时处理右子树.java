@@ -1,6 +1,6 @@
-中序遍历的迭代方法的拆分写法。
+// 中序遍历的迭代方法的拆分写法。
 
-```java
+// ```java
     // 中序遍历-分摊为每个子树的遍历
     class BSTIterator {
         private final Deque<TreeNode> queue = new LinkedList<>();
@@ -26,4 +26,4 @@
             return !queue.isEmpty();
         }
     }
-```
+// ```

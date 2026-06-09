@@ -1,4 +1,4 @@
-```
+# ```
 from collections import Counter, defaultdict
 class Solution:
     def groupAnagrams(self, strs: [str]) -> [[str]]:
@@ -8,4 +8,4 @@ class Solution:
             d[key].append(s)
         
         return list(d.values())
-```
+# ```

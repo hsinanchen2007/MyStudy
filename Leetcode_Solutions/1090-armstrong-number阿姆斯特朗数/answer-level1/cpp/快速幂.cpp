@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-快速幂
+// 快速幂
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 
 typedef long long ll;
 ll qu(ll x,ll a){
@@ -25,4 +25,4 @@ public:
         return res==n;
     }
 };
-```
+// ```

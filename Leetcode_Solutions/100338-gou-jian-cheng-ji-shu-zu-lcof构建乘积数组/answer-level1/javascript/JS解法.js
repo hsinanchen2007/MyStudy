@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 
 var constructArr = function(a) {
     let res = [];
@@ -17,4 +17,4 @@ var constructArr = function(a) {
     }
     return res
 };
-```
+// ```

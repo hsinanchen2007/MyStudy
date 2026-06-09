@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-if(i>0&&candidates[i-1]==candidates[i]&&!visit[i-1]) continue;
-这一行避免了有相同的元素，造成结果集重复的问题；
-如果之前访问过，便不再访问
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// if(i>0&&candidates[i-1]==candidates[i]&&!visit[i-1]) continue;
+// 这一行避免了有相同的元素，造成结果集重复的问题；
+// 如果之前访问过，便不再访问
+// ### 代码
 
-```java
+// ```java
 class Solution {
     List<List<Integer>>ret=new ArrayList<>();
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {
@@ -35,4 +35,4 @@ class Solution {
 
     }
 }
-```
+// ```

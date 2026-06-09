@@ -1,7 +1,7 @@
-### 解题思路
-直到我提交了几次之后，发现，emmm是 字母 O 不是 数字 0
-### 代码
-```python
+# ### 解题思路
+# 直到我提交了几次之后，发现，emmm是 字母 O 不是 数字 0
+# ### 代码
+# ```python
 class Solution:
     def solve(self, board: List[List[str]]) -> None:
         """
@@ -30,4 +30,4 @@ class Solution:
             for y in range(col):
                 if board[x][y] == '*':board[x][y] = 'O'
                 else:board[x][y] = 'X'
-```
+# ```

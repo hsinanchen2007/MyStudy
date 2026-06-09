@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func hIndex(citations []int) int {
     sort.Ints(citations)
     length := len(citations)
@@ -15,4 +15,4 @@ func hIndex(citations []int) int {
     }
     return 0
 }
-```
+// ```

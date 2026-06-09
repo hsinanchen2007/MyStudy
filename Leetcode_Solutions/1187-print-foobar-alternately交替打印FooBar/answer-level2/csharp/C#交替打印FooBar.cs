@@ -1,9 +1,9 @@
-### 解题思路
-线程间通信
+// ### 解题思路
+// 线程间通信
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 using System.Threading;
 public class FooBar
     {
@@ -38,4 +38,4 @@ public class FooBar
             }
         }
     }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-使用Python自带的Counter进行计数。
+# ### 解题思路
+# 使用Python自带的Counter进行计数。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from collections import Counter
 
 def gcd(x, y):
@@ -17,4 +17,4 @@ class Solution:
             g = gcd(g, cnt[num])
         return g >= 2
         
-```
+# ```

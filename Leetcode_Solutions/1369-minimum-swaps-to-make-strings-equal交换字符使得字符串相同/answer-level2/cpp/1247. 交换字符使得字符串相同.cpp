@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![1247.jpg](https://pic.leetcode-cn.com/8a4f897d2ae91a1ae6c0f63a8d1be042c718456a43b6152afa4b579fb9a83022-1247.jpg)
+// ### 解题思路
+// 此处撰写解题思路
+// ![1247.jpg](https://pic.leetcode-cn.com/8a4f897d2ae91a1ae6c0f63a8d1be042c718456a43b6152afa4b579fb9a83022-1247.jpg)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 //x->y ++
 //y->x ++
 //两者数量相比较
@@ -38,4 +38,4 @@ public:
 
 
 
-```
+// ```

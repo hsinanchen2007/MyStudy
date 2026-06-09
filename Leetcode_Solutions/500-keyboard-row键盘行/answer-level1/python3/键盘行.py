@@ -1,9 +1,9 @@
-### 代码
-很简单
+# ### 代码
+# 很简单
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findWords(self, words: List[str]) -> List[str]:
         T = []
@@ -21,4 +21,4 @@ class Solution:
                T.append(words[i])
         return T
 
-```
+# ```

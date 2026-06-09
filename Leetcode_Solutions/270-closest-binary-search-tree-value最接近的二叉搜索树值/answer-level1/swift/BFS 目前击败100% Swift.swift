@@ -1,5 +1,5 @@
-直接BFS，一个队列遍历，一个队列用来存储target与每个节点的差值的绝对值，遍历完树之后再遍历差值的队列，找到最小的
-```
+// 直接BFS，一个队列遍历，一个队列用来存储target与每个节点的差值的绝对值，遍历完树之后再遍历差值的队列，找到最小的
+// ```
 class Solution {
     func closestValue(_ root: TreeNode?, _ target: Double) -> Int {
         guard let r = root else {
@@ -33,4 +33,4 @@ class Solution {
         return res.0
     }
 }
-```
+// ```

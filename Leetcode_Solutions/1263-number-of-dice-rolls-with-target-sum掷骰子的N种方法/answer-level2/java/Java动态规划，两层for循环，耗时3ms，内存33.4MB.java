@@ -1,7 +1,7 @@
-F(d, f, target) = sum(F(d - 1, f, target - k)), 1 <= k <= f  
-F(d, f, target) 只和 F(d - 1, f, target - k)相关，所以可以用两个数组来保存这两组状态值  
-F(d, f, target)的计算过程实际上是在F(d - 1, f, target - k)数组上做一个大小为f的窗口平移，计算窗口内的和  
-```
+// F(d, f, target) = sum(F(d - 1, f, target - k)), 1 <= k <= f  
+// F(d, f, target) 只和 F(d - 1, f, target - k)相关，所以可以用两个数组来保存这两组状态值  
+// F(d, f, target)的计算过程实际上是在F(d - 1, f, target - k)数组上做一个大小为f的窗口平移，计算窗口内的和  
+// ```
 class Solution {
 
     public int numRollsToTarget(int d, int f, int target) {
@@ -46,5 +46,5 @@ class Solution {
     }
 
 }
-```
+// ```
 

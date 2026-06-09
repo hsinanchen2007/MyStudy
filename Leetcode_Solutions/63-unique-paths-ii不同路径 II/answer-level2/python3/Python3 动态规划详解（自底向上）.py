@@ -1,11 +1,11 @@
-### 方法一：动态规划
-使用数组r保存起点到任意点的路径数 <br/>
-因为机器人只能往下或者往右移动，所以可以得到动态方程如下：<br/>
- **r [ i ][ j ] = r [ i - 1 ][ j ] + r [ i ][ j - 1 ] （i>1,j>1） <br/>
- 当 i = 0 时， r [ i ][ j ] = r [ i ][ j - 1 ]  <br/>
- 当 j = 0 时， r [ i ][ j ] = r [ i - 1 ][ j ]  <br/>**
+# ### 方法一：动态规划
+# 使用数组r保存起点到任意点的路径数 <br/>
+# 因为机器人只能往下或者往右移动，所以可以得到动态方程如下：<br/>
+#  **r [ i ][ j ] = r [ i - 1 ][ j ] + r [ i ][ j - 1 ] （i>1,j>1） <br/>
+#  当 i = 0 时， r [ i ][ j ] = r [ i ][ j - 1 ]  <br/>
+#  当 j = 0 时， r [ i ][ j ] = r [ i - 1 ][ j ]  <br/>**
 
-```python []
+# ```python []
 class Solution:
     def uniquePathsWithObstacles(self, obstacleGrid: List[List[int]]) -> int:
         """
@@ -40,4 +40,4 @@ class Solution:
                         r[i][j] = r[i - 1][j] + r[i][j - 1]
 
         return r[n - 1][m - 1]
-```
+# ```

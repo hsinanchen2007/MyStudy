@@ -1,4 +1,4 @@
-#利用临时变量来处理
+-- #利用临时变量来处理
 SELECT
 	t.score,
 	CAST(t.Rank AS SIGNED) 'Rank'

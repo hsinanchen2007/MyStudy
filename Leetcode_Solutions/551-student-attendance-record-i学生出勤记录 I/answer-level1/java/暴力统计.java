@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
-暴力统计每个字母个数
-### 代码
+// 暴力统计每个字母个数
+// ### 代码
 
-```java
+// ```java
 class Solution {
     /*
     'A' : Absent，缺勤
@@ -26,4 +26,4 @@ class Solution {
         return true ;
     }
 }
-```
+// ```

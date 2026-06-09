@@ -1,5 +1,5 @@
 
-```java []
+// ```java []
 class Solution {
     public int search(int[] nums, int target) {
         int left = 0;
@@ -17,7 +17,7 @@ class Solution {
         return -1;
     }
 } 
-```
+// ```
 
-- 时间复杂度 O(logN)
-- 空间复杂度 O(1)
+// - 时间复杂度 O(logN)
+// - 空间复杂度 O(1)

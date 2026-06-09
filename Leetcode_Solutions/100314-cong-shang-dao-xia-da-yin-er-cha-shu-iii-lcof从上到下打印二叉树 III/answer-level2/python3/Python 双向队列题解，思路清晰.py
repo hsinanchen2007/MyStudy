@@ -1,5 +1,5 @@
-使用level来辨别是那层，然后奇数层从左边pop（），从右边push（）。偶数层从右边pop（），从左边push（）。
-```
+# 使用level来辨别是那层，然后奇数层从左边pop（），从右边push（）。偶数层从右边pop（），从左边push（）。
+# ```
 class Solution:
     def levelOrder(self, root: TreeNode) -> List[List[int]]:
         if not root:
@@ -26,4 +26,4 @@ class Solution:
                     length -= 1
             level += 1
         return res
-```
+# ```

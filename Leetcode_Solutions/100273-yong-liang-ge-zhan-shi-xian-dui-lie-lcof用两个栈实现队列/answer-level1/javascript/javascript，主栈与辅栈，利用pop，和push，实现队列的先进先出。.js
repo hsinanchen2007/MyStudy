@@ -1,8 +1,8 @@
-主栈：记录数据，与pop操作
+// 主栈：记录数据，与pop操作
 
-辅栈： push数据时，移动主栈中数据到辅栈，push后，再移回主栈
+// 辅栈： push数据时，移动主栈中数据到辅栈，push后，再移回主栈
 
-```
+// ```
 var CQueue = function() {
     this.stack = []
     this.helpStack = []
@@ -39,4 +39,4 @@ CQueue.prototype.deleteHead = function() {
  * obj.appendTail(value)
  * var param_2 = obj.deleteHead()
  */
-```
+// ```

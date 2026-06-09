@@ -1,10 +1,10 @@
-### 解题思路
-1、首先计算二进制链表的长度n（结点的总个数）
-2、运用Math.pow(double a,double b)方法，算2^n-1相加即转成整数
-时间复杂度O(n)
-### 代码
+// ### 解题思路
+// 1、首先计算二进制链表的长度n（结点的总个数）
+// 2、运用Math.pow(double a,double b)方法，算2^n-1相加即转成整数
+// 时间复杂度O(n)
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -32,4 +32,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

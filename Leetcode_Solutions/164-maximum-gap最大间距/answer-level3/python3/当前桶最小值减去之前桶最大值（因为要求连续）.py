@@ -1,9 +1,9 @@
-### 解题思路 
-此处撰写解题思路
+# ### 解题思路 
+# 此处撰写解题思路
 
-### [代码](https://leetcode-cn.com/problems/maximum-gap/solution/tong-pai-xu-by-powcai/)
+# ### [代码](https://leetcode-cn.com/problems/maximum-gap/solution/tong-pai-xu-by-powcai/)
 
-```python
+# ```python
 class Solution:
     def maximumGap(self, nums: List[int]) -> int:
         n = len(nums)
@@ -32,4 +32,4 @@ class Solution:
             preMin = y
         res = max(res, max_num - preMin)
         return res
-```
+# ```

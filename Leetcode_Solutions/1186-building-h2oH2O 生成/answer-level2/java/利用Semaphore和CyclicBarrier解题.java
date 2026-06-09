@@ -1,6 +1,6 @@
-这个代码应该没毛病啊，11条测试用例 有一条没通过，哪位老铁帮忙看看？
+// 这个代码应该没毛病啊，11条测试用例 有一条没通过，哪位老铁帮忙看看？
 
-```cs
+// ```cs
 import java.util.concurrent.*;
 import java.util.concurrent.locks.*;
 
@@ -46,4 +46,4 @@ class H2O {
                 
     }
 }
-```
+// ```

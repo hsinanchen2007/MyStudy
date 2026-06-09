@@ -1,4 +1,4 @@
-```
+// ```
 public ListNode partition(ListNode head, int x) {
         if (head == null) {
             return null;
@@ -18,4 +18,4 @@ public ListNode partition(ListNode head, int x) {
         }
         return head;
     }
-```
+// ```

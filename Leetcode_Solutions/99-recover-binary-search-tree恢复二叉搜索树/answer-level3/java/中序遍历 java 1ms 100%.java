@@ -1,6 +1,6 @@
 
-注意static提交时要去掉
-```
+// 注意static提交时要去掉
+// ```
 public static TreeNode lastNode = null;
 
 	/**
@@ -74,4 +74,4 @@ public static TreeNode lastNode = null;
 				return true;
 		return false;
 	}
-```
+// ```

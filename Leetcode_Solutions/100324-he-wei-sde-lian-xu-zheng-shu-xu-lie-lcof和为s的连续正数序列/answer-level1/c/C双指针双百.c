@@ -1,10 +1,10 @@
-### 解题思路
-![Snipaste_2020-03-06_15-37-18.png](https://pic.leetcode-cn.com/26083818d89d327bb3f8854d82b97a652c6dd09a5e026b7da52141427dd76c4d-Snipaste_2020-03-06_15-37-18.png)
+// ### 解题思路
+// ![Snipaste_2020-03-06_15-37-18.png](https://pic.leetcode-cn.com/26083818d89d327bb3f8854d82b97a652c6dd09a5e026b7da52141427dd76c4d-Snipaste_2020-03-06_15-37-18.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -70,4 +70,4 @@ int** findContinuousSequence(int target, int* returnSize, int** returnColumnSize
     return res;
 
 }
-```
+// ```

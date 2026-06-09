@@ -1,9 +1,9 @@
-### Analyze
+// ### Analyze
 
-head0: 当前已排序列表的最后一个;
-pre: 用于遍历当前已排序列表;
+// head0: 当前已排序列表的最后一个;
+// pre: 用于遍历当前已排序列表;
 
-```js
+// ```js
        head0
 dummy -> 4 -> 2 -> 1 -> 3
             .
@@ -22,9 +22,9 @@ dummy -> 1 -> 2 -> 4 -> 3
             .
                       head0
 dummy -> 1 -> 2 -> 3 -> 4
-```
+// ```
 
-```js
+// ```js
         head0
 dummy -> -1 -> 5 -> 3 -> 4 -> 0
               .
@@ -47,9 +47,9 @@ dummy -> -1 -> 3 -> 4 -> 5 -> 0
               .
                             head0
 dummy -> -1 -> 0 -> 3 -> 4 -> 5
-```
+// ```
 
-```js
+// ```js
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -83,8 +83,8 @@ var insertionSortList = function(head) {
 
   return dummy.next
 }
-```
+// ```
 
-![](https://pic.leetcode-cn.com/e064f9f386b9fa525c940042f77bb66f2e5dbe650532cfbb487cd6d0559323cf.jpg)
+// ![](https://pic.leetcode-cn.com/e064f9f386b9fa525c940042f77bb66f2e5dbe650532cfbb487cd6d0559323cf.jpg)
 
-> 为确保内容的实时、准确性, 可以查看[JavaScript 题解](https://github.com/MuYunyun/blog/blob/master/LeetCode/README.md)
+// > 为确保内容的实时、准确性, 可以查看[JavaScript 题解](https://github.com/MuYunyun/blog/blob/master/LeetCode/README.md)

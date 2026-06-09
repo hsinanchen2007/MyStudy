@@ -1,10 +1,10 @@
-### 解题思路
-①创建一个HashMap,暂时存放每个字符出现的次数
-②奇偶检验：字符出现次数如是偶数及余数为1时为回文
+// ### 解题思路
+// ①创建一个HashMap,暂时存放每个字符出现的次数
+// ②奇偶检验：字符出现次数如是偶数及余数为1时为回文
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canPermutePalindrome(String s) {
        if(s==null||s==""){
@@ -38,4 +38,4 @@ class Solution {
         }
     }
 }
-```
+// ```

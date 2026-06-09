@@ -1,5 +1,5 @@
 
-```
+# ```
 import random
 class Solution:
 
@@ -41,4 +41,4 @@ class Solution:
 # obj = Solution(n_rows, n_cols)
 # param_1 = obj.flip()
 # obj.reset()
-```
+# ```

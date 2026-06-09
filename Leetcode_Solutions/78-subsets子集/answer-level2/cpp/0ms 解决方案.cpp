@@ -1,6 +1,6 @@
-![捕获.PNG](https://pic.leetcode-cn.com/5140f6b2a0426c072bfc48f4f9037fecd93a8f1f926ee4b289d446d39af11077-%E6%8D%95%E8%8E%B7.PNG)
+// ![捕获.PNG](https://pic.leetcode-cn.com/5140f6b2a0426c072bfc48f4f9037fecd93a8f1f926ee4b289d446d39af11077-%E6%8D%95%E8%8E%B7.PNG)
 
-```
+// ```
 class Solution {
 public:
     vector<vector<int>> subsets(vector<int>& nums) {
@@ -21,4 +21,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,14 +1,14 @@
-欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
-几乎所有题目都会提供多种解法，真诚求star！
+// 欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
+// 几乎所有题目都会提供多种解法，真诚求star！
 
-# 解法一：暴力破解法
+// # 解法一：暴力破解法
 
-时间复杂度是O(n ^ 3)，其中n为nums数组的长度。
-空间复杂度是O(1)。
+// 时间复杂度是O(n ^ 3)，其中n为nums数组的长度。
+// 空间复杂度是O(1)。
 
-执行用时：188ms，击败5.23%。消耗内存：36.9MB，击败83.68%。
+// 执行用时：188ms，击败5.23%。消耗内存：36.9MB，击败83.68%。
 
-```java
+// ```java
 public class Solution {
     public int threeSumClosest(int[] nums, int target) {
         int n = nums.length, diff = Integer.MAX_VALUE, result = 0;
@@ -25,18 +25,18 @@ public class Solution {
         return result;
     }
 }
-```
+// ```
 
-# 解法二：双指针
+// # 解法二：双指针
 
-内层循环采用双指针遍历的形式。
+// 内层循环采用双指针遍历的形式。
 
-时间复杂度是O(n ^ 2)，其中n为nums数组的长度。
-空间复杂度是O(1)。
+// 时间复杂度是O(n ^ 2)，其中n为nums数组的长度。
+// 空间复杂度是O(1)。
 
-执行用时：17ms，击败48.29%。消耗内存：36.5MB，击败84.07%。
+// 执行用时：17ms，击败48.29%。消耗内存：36.5MB，击败84.07%。
 
-```java
+// ```java
 public class Solution {
     public int threeSumClosest(int[] nums, int target) {
         int n = nums.length, diff = Integer.MAX_VALUE, result = 0;
@@ -64,4 +64,4 @@ public class Solution {
         return result;
     }
 }
-```
+// ```

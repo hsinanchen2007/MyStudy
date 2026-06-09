@@ -1,10 +1,10 @@
-### 解题思路
-![Screen Shot 2020-03-09 at 15.53.46.png](https://pic.leetcode-cn.com/5e5140d4e41c2eca888febc1ffa6ca149d9e047aa3bc31902d67e9b01923ef0e-Screen%20Shot%202020-03-09%20at%2015.53.46.png)
-此处撰写解题思路
+// ### 解题思路
+// ![Screen Shot 2020-03-09 at 15.53.46.png](https://pic.leetcode-cn.com/5e5140d4e41c2eca888febc1ffa6ca149d9e047aa3bc31902d67e9b01923ef0e-Screen%20Shot%202020-03-09%20at%2015.53.46.png)
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -58,5 +58,5 @@ public:
 
     }
 };
-```
-### 注意 memory leak 动态内存分配的释放
+// ```
+// ### 注意 memory leak 动态内存分配的释放

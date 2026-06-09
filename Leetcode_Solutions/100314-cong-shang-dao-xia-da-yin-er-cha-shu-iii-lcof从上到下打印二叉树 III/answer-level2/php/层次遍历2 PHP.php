@@ -1,9 +1,9 @@
-### 解题思路
-层次遍历变种，根据层级处理插入头部还是尾部（或者可以翻转数组）
+// ### 解题思路
+// 层次遍历变种，根据层级处理插入头部还是尾部（或者可以翻转数组）
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 /**
  * Definition for a binary tree node.
  * class TreeNode {
@@ -39,4 +39,4 @@ class Solution {
         $this->helper($root->right,$level+1,$res);
     }
 }
-```
+// ```

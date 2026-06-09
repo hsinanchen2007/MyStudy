@@ -1,9 +1,9 @@
-### 解题思路
-先判断0和1，不属于完美数，然后递归，从1到根号num
+// ### 解题思路
+// 先判断0和1，不属于完美数，然后递归，从1到根号num
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean checkPerfectNumber(int num) {
         if(num < 2){
@@ -21,4 +21,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

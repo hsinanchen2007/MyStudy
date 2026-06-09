@@ -1,8 +1,8 @@
-执行用时 :3 ms, 在所有Java提交中击败了97.69%的用户
+// 执行用时 :3 ms, 在所有Java提交中击败了97.69%的用户
 
-内存消耗 :43.2 MB, 在所有Java提交中击败了78.77%的用户
+// 内存消耗 :43.2 MB, 在所有Java提交中击败了78.77%的用户
 
-```java
+// ```java
 public int[] sortArrayByParity(int[] A) {
         int a[] = new int[A.length];
         int j = 0, k = A.length - 1;
@@ -15,4 +15,4 @@ public int[] sortArrayByParity(int[] A) {
         }
         return a;
     }
-```
+// ```

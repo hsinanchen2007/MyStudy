@@ -1,9 +1,9 @@
-### 解题思路
-代码思路比较简单，如果是上一个课程表已经实现了，那么只要加一个vector进行保存就可以了
+// ### 解题思路
+// 代码思路比较简单，如果是上一个课程表已经实现了，那么只要加一个vector进行保存就可以了
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
@@ -42,4 +42,4 @@ public:
         
     }
 };
-```
+// ```

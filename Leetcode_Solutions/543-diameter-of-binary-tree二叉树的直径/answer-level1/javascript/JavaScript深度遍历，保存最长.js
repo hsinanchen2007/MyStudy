@@ -1,5 +1,5 @@
-### 代码
-```javascript
+// ### 代码
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -25,4 +25,4 @@ var dfs = function(root){
     return Math.max(l, r) + 1;
 }
 
-```
+// ```

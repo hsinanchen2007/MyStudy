@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-主要就是构造triangle[i][j] = min(triangle[i - 1][j], triangle[i - 1][j - 1]) + triangle[i][j]的状态转移方程
-再加上其他的边界条件
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 主要就是构造triangle[i][j] = min(triangle[i - 1][j], triangle[i - 1][j - 1]) + triangle[i][j]的状态转移方程
+# 再加上其他的边界条件
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minimumTotal(self, triangle):
         high = len(triangle)
@@ -32,4 +32,4 @@ class Solution:
                 # print("triangle[i][j]:" + str(triangle[i][j]))
                 # print("res:" + str(res))
         return res
-```
+# ```

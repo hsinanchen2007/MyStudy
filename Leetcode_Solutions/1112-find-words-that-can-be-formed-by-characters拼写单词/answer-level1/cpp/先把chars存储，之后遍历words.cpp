@@ -1,6 +1,6 @@
-利用字符串和哈希表的基本操作。
-周一至周五的题目似乎都简单一些。
-```
+// 利用字符串和哈希表的基本操作。
+// 周一至周五的题目似乎都简单一些。
+// ```
 class Solution {
 public:
     int countCharacters(vector<string>& words, string chars) {
@@ -27,4 +27,4 @@ public:
         return sum;
     }
 };
-```
+// ```

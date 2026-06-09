@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public String longestDiverseString(int a, int b, int c) {
         int[] nums = new int[]{a,b,c};
@@ -35,4 +35,4 @@ class Solution {
         
     }
 }
-```
+// ```

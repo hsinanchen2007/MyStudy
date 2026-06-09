@@ -1,9 +1,9 @@
-### 解题思路
-通过排序完成后，不断跳过重复元素进行求最小差 找到最接近的值
+// ### 解题思路
+// 通过排序完成后，不断跳过重复元素进行求最小差 找到最接近的值
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int threeSumClosest(int[] nums, int target) {
         // 先排序
@@ -50,4 +50,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

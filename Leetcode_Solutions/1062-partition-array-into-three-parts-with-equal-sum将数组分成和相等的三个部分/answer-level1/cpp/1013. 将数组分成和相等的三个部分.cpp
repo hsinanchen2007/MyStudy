@@ -1,10 +1,10 @@
-### 解题思路
-* 抓住必要条件：所有元素的总和是3的倍数
-* 找到第一部分和sumi = sum / 3；再找到第二部分和sumj = sum / 3。找不到其中之一都返回false。
+// ### 解题思路
+// * 抓住必要条件：所有元素的总和是3的倍数
+// * 找到第一部分和sumi = sum / 3；再找到第二部分和sumj = sum / 3。找不到其中之一都返回false。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool canThreePartsEqualSum(vector<int>& A) {
@@ -33,6 +33,6 @@ public:
         return true;
     }
 };
-```
-* 存疑：可能是使用了for(int a: A)结构，耗时比价高。
-![2.png](https://pic.leetcode-cn.com/986d93bbe65c21b4ca7e9ea050288b3ef08a02cda89cb3ca8cd669c25d2516e6-2.png)
+// ```
+// * 存疑：可能是使用了for(int a: A)结构，耗时比价高。
+// ![2.png](https://pic.leetcode-cn.com/986d93bbe65c21b4ca7e9ea050288b3ef08a02cda89cb3ca8cd669c25d2516e6-2.png)

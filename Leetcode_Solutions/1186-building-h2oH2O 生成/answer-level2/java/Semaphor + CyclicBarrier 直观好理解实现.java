@@ -1,7 +1,7 @@
-定义H两个信号量，O一个信号量。每个线程每次取一个信号量。
-定义一个初始化为3的CyclicBarrier。并且，barrier后加一个runnable的实现，释放H和O的信号量。
+// 定义H两个信号量，O一个信号量。每个线程每次取一个信号量。
+// 定义一个初始化为3的CyclicBarrier。并且，barrier后加一个runnable的实现，释放H和O的信号量。
 
-```
+// ```
 class H2O {
 
     private CyclicBarrier barrier = new CyclicBarrier(3, new Runnable() {
@@ -42,4 +42,4 @@ class H2O {
         }
     }
 }
-```
+// ```

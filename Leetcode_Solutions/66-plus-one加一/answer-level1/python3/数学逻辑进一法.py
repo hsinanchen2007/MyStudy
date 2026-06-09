@@ -1,13 +1,13 @@
-### 解题思路
-根据数学逻辑，在末尾加1，遇到10则进1。
-下边两个写法思路相同。
+# ### 解题思路
+# 根据数学逻辑，在末尾加1，遇到10则进1。
+# 下边两个写法思路相同。
 
-### 代码
+# ### 代码
 
 
-#### 写法一，end记录当前位，从后向前遍历检查每一位
+# #### 写法一，end记录当前位，从后向前遍历检查每一位
 
-```python []
+# ```python []
 class Solution:
     def plusOne(self, digits: List[int]) -> List[int]:
         end = len(digits) - 1
@@ -21,11 +21,11 @@ class Solution:
                 end -= 1
                 digits[end] += 1
         return digits
-```
+# ```
 
-#### 写法二，for循环遍历
+# #### 写法二，for循环遍历
 
-```python []
+# ```python []
 class Solution:
     def plusOne(self, digits: List[int]) -> List[int]:
         # 先在末位+1
@@ -39,4 +39,4 @@ class Solution:
                 else:
                     digits[i - 1] += 1
         return digits
-```
+# ```

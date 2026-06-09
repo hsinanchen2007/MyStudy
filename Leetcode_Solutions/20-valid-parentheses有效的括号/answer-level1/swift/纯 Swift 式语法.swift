@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-这里使用双枚举，解决实际问题中存在不断新增各种括号问题。
+// 这里使用双枚举，解决实际问题中存在不断新增各种括号问题。
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func isValid(_ s: String) -> Bool {
         enum Bracket {
@@ -65,4 +65,4 @@ class Solution {
         return unpaired.isEmpty
     }
 }
-```
+// ```

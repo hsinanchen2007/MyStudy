@@ -1,6 +1,6 @@
-### 解题思路
-详见代码注释
-```
+// ### 解题思路
+// 详见代码注释
+// ```
 执行用时 :
 8 ms
 , 在所有 golang 提交中击败了
@@ -11,11 +11,11 @@
 , 在所有 golang 提交中击败了
 100.00%
 的用户
-```
+// ```
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func fourSum(nums []int, target int) [][]int {
     // 对数组进行排序
     Sort(nums)
@@ -102,4 +102,4 @@ func cut(arr []int, start int, end int) int {
     arr[p], arr[end] = arr[end], arr[p]
     return p
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-参考了热评Java中的快慢指针并用go改写
+// ### 解题思路
+// 参考了热评Java中的快慢指针并用go改写
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func isHappy(n int) bool {
 	fast := n
 	slow := n
@@ -31,4 +31,4 @@ func sum(m int) int {
 	}
 	return result
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-没有看清题目，还以为不用#号结束的。放入队列从大到小，最大的不用比较，之后就endwith判定就好。时间复杂度O(n2) 空间复杂读O(n)
+// ### 解题思路
+// 没有看清题目，还以为不用#号结束的。放入队列从大到小，最大的不用比较，之后就endwith判定就好。时间复杂度O(n2) 空间复杂读O(n)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.PriorityQueue;
@@ -40,4 +40,4 @@ public class Solution {
     }
 }
 
-```
+// ```

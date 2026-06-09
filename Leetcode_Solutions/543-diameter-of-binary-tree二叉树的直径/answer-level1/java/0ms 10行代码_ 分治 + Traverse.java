@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-downPath 返回每个点往下走的path 最大长度.
-二叉树直径即某个node + 左子树向下最大长度 +  右子树向下最大长度,更新即可。
+// downPath 返回每个点往下走的path 最大长度.
+// 二叉树直径即某个node + 左子树向下最大长度 +  右子树向下最大长度,更新即可。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -34,4 +34,4 @@ class Solution {
         return Math.max(left, right) + 1;
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-是我想太多了 
-这个解法效率极其低 本题不像个算法题
+// ### 解题思路
+// 是我想太多了 
+// 这个解法效率极其低 本题不像个算法题
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 
 class Solution {
     public int[] distributeCandies(int candies, int num_people) {
@@ -34,4 +34,4 @@ class Solution {
         return nums;
     }
 }
-```
+// ```

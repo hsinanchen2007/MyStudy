@@ -1,10 +1,10 @@
-dp[i]表示能组成i的硬币的最少个数。
+// dp[i]表示能组成i的硬币的最少个数。
 
-转移方程为:
-**dp[i]=min(dp[i],dp[i-coins[j]]+1);其中j<coins.size() and coins[j]<=i;**
+// 转移方程为:
+// **dp[i]=min(dp[i],dp[i-coins[j]]+1);其中j<coins.size() and coins[j]<=i;**
 
-这里排序和不排序都行，排序了遍历到不满足条件就结束，不排序就需要遍历coins数组里面的每个是否小于i
-```
+// 这里排序和不排序都行，排序了遍历到不满足条件就结束，不排序就需要遍历coins数组里面的每个是否小于i
+// ```
 int coinChange(vector<int>& coins, int amount) {
         if(coins.size()==0 && amount==0)
             return 0;
@@ -24,4 +24,4 @@ int coinChange(vector<int>& coins, int amount) {
             return -1;
         return dp[amount];
     }
-```
+// ```

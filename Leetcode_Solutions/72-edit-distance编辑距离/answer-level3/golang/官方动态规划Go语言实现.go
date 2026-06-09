@@ -1,9 +1,9 @@
-### 解题思路
-官方解golang实现
+// ### 解题思路
+// 官方解golang实现
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func minDistance(word1 string, word2 string) int {
     n,m := len(word1),len(word2)
     //任意一个为空
@@ -43,4 +43,4 @@ func min(a, b, c int) int {
 	}
 	return a
 }
-```
+// ```

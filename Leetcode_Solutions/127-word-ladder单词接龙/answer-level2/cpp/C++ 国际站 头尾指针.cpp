@@ -1,9 +1,9 @@
-### 解题思路
-https://leetcode.com/problems/word-ladder/discuss/40707/C%2B%2B-BFS
+// ### 解题思路
+// https://leetcode.com/problems/word-ladder/discuss/40707/C%2B%2B-BFS
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int ladderLength(string beginWord, string endWord, vector<string>& wordList) {
@@ -46,4 +46,4 @@ public:
         return 0;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 var game = function(guess, answer) {
     var times = 0;
     for(let i in guess){
@@ -8,4 +8,4 @@ var game = function(guess, answer) {
     }
     return times;
 };
-```
+// ```

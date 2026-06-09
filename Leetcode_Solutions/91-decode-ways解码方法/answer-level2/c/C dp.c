@@ -1,5 +1,5 @@
-对于0，要单独处理。
-```
+// 对于0，要单独处理。
+// ```
 int numDecodings(char * s){
 	
 	if(s[0] == '0')
@@ -46,4 +46,4 @@ int numDecodings(char * s){
 	
 	return ret;
 } 
-```
+// ```

@@ -1,10 +1,10 @@
-![QQ截图20191027130438.png](https://pic.leetcode-cn.com/9228620ec9aee978c105229482af334cf2633c0f5ea28256b32e192a3c4fb8f6-QQ%E6%88%AA%E5%9B%BE20191027130438.png)
-思路过程：
-1.获取wordDict的长度序列，就是其中包含几种不同类型的长度，方便后面按照字典中出现的长度进行截取dfs,加快搜索过程；
-2.进行dfs的搜索，中间使用一个dp数组来进行记忆化进行剪枝 dp[start][len]表示从s的start位置开始截取长度为len是否能够得到最后正确的解
-如果不能返回-1，则进行剪枝；否则继续进行dfs寻找全部的最优解
-详情见代码注释：
-```
+// ![QQ截图20191027130438.png](https://pic.leetcode-cn.com/9228620ec9aee978c105229482af334cf2633c0f5ea28256b32e192a3c4fb8f6-QQ%E6%88%AA%E5%9B%BE20191027130438.png)
+// 思路过程：
+// 1.获取wordDict的长度序列，就是其中包含几种不同类型的长度，方便后面按照字典中出现的长度进行截取dfs,加快搜索过程；
+// 2.进行dfs的搜索，中间使用一个dp数组来进行记忆化进行剪枝 dp[start][len]表示从s的start位置开始截取长度为len是否能够得到最后正确的解
+// 如果不能返回-1，则进行剪枝；否则继续进行dfs寻找全部的最优解
+// 详情见代码注释：
+// ```
 class Solution {
   List<String> ans;
     Set<Integer> lenset;//长度种类
@@ -62,6 +62,6 @@ class Solution {
         return  ans;
     }
 }
-```
+// ```
 
 

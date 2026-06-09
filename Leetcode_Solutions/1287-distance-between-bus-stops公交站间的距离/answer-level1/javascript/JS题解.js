@@ -1,5 +1,5 @@
-![RSV{YQ44U6Z{ERVY~~U{_EE.png](https://pic.leetcode-cn.com/e80937ebe7725b2a054ffe99522dc22545949e8ea33a147d9092049831a565c2-RSV%7BYQ44U6Z%7BERVY~~U%7B_EE.png)
-```
+// ![RSV{YQ44U6Z{ERVY~~U{_EE.png](https://pic.leetcode-cn.com/e80937ebe7725b2a054ffe99522dc22545949e8ea33a147d9092049831a565c2-RSV%7BYQ44U6Z%7BERVY~~U%7B_EE.png)
+// ```
  var distanceBetweenBusStops = function(distance, start, destination) {
             if(start>destination){
                 [start,destination] = [destination,start];
@@ -9,4 +9,4 @@
             let disTwo = distance.reduce((a,b)=>a+b)-disOne;//总距离减去disOne等于向反方向行驶的距离
             return Math.min(disOne,disTwo);//取两距离最小
     };  
-```
+// ```

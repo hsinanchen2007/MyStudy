@@ -1,5 +1,5 @@
 
-``` swift
+// ``` swift
 class Solution {
     func reversePrint(_ head: ListNode?) -> [Int] {
         guard let head = head else {
@@ -10,5 +10,5 @@ class Solution {
         return result
     }
 }
-```
+// ```
 

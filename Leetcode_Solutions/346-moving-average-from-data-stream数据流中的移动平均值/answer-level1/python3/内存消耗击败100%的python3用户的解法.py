@@ -1,4 +1,4 @@
-```
+# ```
 class MovingAverage:
  
     def __init__(self, size: int):
@@ -20,8 +20,8 @@ class MovingAverage:
             self.queue[:-1] = self.queue[1:]
             self.queue[-1] = val
             return sum(self.queue)/self.length
-```
+# ```
 
-执行用时 :144 ms, 在所有 Python3 提交中击败了53.85%的用户
+# 执行用时 :144 ms, 在所有 Python3 提交中击败了53.85%的用户
 
-内存消耗 :16.7 MB, 在所有 Python3 提交中击败了100.00%的用户
+# 内存消耗 :16.7 MB, 在所有 Python3 提交中击败了100.00%的用户

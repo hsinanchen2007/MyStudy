@@ -1,10 +1,10 @@
-### 解题思路
-1.暴力破解
-2.左下角遍历
-3.二分
-### 代码
+// ### 解题思路
+// 1.暴力破解
+// 2.左下角遍历
+// 3.二分
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} matrix
  * @param {number} target
@@ -87,4 +87,4 @@ var searchMatrix = function(matrix, target) {
   }
   return false;
 };
-```
+// ```

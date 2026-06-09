@@ -1,9 +1,9 @@
-### 解题思路
-回溯。另有一种KMP，比较复杂
+// ### 解题思路
+// 回溯。另有一种KMP，比较复杂
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int strStr(char * haystack, char * needle){
     int i,j;
     if(*needle=='\0')return 0;
@@ -15,4 +15,4 @@ int strStr(char * haystack, char * needle){
     }
     return -1;
 }
-```
+// ```

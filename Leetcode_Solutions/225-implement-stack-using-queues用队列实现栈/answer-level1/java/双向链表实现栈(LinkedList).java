@@ -1,4 +1,4 @@
-```java
+// ```java
 class MyStack {
     /*双向链表实现栈*/
     private LinkedList<Integer> list;
@@ -46,4 +46,4 @@ class MyStack {
     }
 }
 
-```
+// ```

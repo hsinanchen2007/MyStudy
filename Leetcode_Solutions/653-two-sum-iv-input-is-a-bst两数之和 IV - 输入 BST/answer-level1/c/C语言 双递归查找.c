@@ -1,14 +1,14 @@
-### 解题思路
-使用双递归
-第一个递归遍历整个树，根据当前节点的val得到需要查找的另外一个数（k-val）
-第二个递归遍历整个数，查找k-val是否在树上
+// ### 解题思路
+// 使用双递归
+// 第一个递归遍历整个树，根据当前节点的val得到需要查找的另外一个数（k-val）
+// 第二个递归遍历整个数，查找k-val是否在树上
 
-![image.png](https://pic.leetcode-cn.com/4a8af4e94675671e265d6c62327e9d253b88dc9fb98cf65614f3380ebee27f74-image.png)
+// ![image.png](https://pic.leetcode-cn.com/4a8af4e94675671e265d6c62327e9d253b88dc9fb98cf65614f3380ebee27f74-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -55,4 +55,4 @@ bool findTarget(struct TreeNode* root, int k){
 	trans(root, k, root, &rlt);
 	return rlt;
 }
-```
+// ```

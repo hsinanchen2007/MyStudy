@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/f1f4d7de177f89ba79a066c68e8f5a05da662c878bf50faf0f344c392259d33a-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/f1f4d7de177f89ba79a066c68e8f5a05da662c878bf50faf0f344c392259d33a-image.png)
+// ```
 class Solution {
 public:
     ListNode* partition(ListNode* head, int x) {
@@ -32,4 +32,4 @@ public:
         return before->next;
     }
 };
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
-复杂度O(n)
-利用一个数组存放重复的数字
-![image.png](https://pic.leetcode-cn.com/dabb556e3c63e057458499ba19db373760acb13edd9c842f9504f7f950deef83-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// 复杂度O(n)
+// 利用一个数组存放重复的数字
+// ![image.png](https://pic.leetcode-cn.com/dabb556e3c63e057458499ba19db373760acb13edd9c842f9504f7f950deef83-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String compressString(String S) {
         if (S == null || S.equals("")){
@@ -39,4 +39,4 @@ class Solution {
         return res.length() < S.length() ? res : S ;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-假如链表是一个循环链，则每旋转1次，相当于让链头后退1步、等价于让链头前进length-1步（length为链表长度）。（k<=n时）旋转k次，链头前进length-k步。当k>n时，每旋转n次会回到原链头，所以等价于旋转k%n次。
+// ### 解题思路
+// 假如链表是一个循环链，则每旋转1次，相当于让链头后退1步、等价于让链头前进length-1步（length为链表长度）。（k<=n时）旋转k次，链头前进length-k步。当k>n时，每旋转n次会回到原链头，所以等价于旋转k%n次。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -37,4 +37,4 @@ class Solution {
         return newHead;
     }
 }
-```
+// ```

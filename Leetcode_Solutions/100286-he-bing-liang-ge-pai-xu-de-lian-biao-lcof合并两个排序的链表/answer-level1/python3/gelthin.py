@@ -1,10 +1,10 @@
-### 解题思路
-与主站 [21. 合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/)
-查看其对应的题解 [gelthin-设置伪头结点+if A 比 if A!=None 快](https://leetcode-cn.com/problems/merge-two-sorted-lists/solution/gelthin-she-zhi-wei-tou-jie-dian-by-gelthin/)
+# ### 解题思路
+# 与主站 [21. 合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/)
+# 查看其对应的题解 [gelthin-设置伪头结点+if A 比 if A!=None 快](https://leetcode-cn.com/problems/merge-two-sorted-lists/solution/gelthin-she-zhi-wei-tou-jie-dian-by-gelthin/)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -35,4 +35,4 @@ class Solution:
 
         return prehead.next
 
-```
+# ```

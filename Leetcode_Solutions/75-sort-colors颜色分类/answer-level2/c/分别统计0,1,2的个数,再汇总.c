@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/298c004e152d4ed64f97f6e1f402b4f0a729d2926fcf9b60fa8c0bb4bd25dba4-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/298c004e152d4ed64f97f6e1f402b4f0a729d2926fcf9b60fa8c0bb4bd25dba4-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void sortColors(int* nums, int numsSize){
     int i,j,tmp;
     int tmp0 = 0;
@@ -30,4 +30,4 @@ void sortColors(int* nums, int numsSize){
     nums[tmp0+tmp1+j] = 2;
 
 }
-```
+// ```

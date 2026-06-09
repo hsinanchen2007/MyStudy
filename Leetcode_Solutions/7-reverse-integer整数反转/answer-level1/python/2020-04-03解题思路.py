@@ -1,9 +1,9 @@
-### 解题思路
-主要是想办法将整数转换成可以迭代的数据格式
+# ### 解题思路
+# 主要是想办法将整数转换成可以迭代的数据格式
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverse(self, a: int) -> int:
         sum = 0
@@ -27,4 +27,4 @@ class Solution:
         else:
             return sum
 
-```
+# ```

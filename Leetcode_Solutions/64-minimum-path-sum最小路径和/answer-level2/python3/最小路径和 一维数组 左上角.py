@@ -1,6 +1,6 @@
-特殊处理好第一行和第一列即可。其余当前位置就要么从左边来，要么从上边来，取较小的即可。
+# 特殊处理好第一行和第一列即可。其余当前位置就要么从左边来，要么从上边来，取较小的即可。
 
-```
+# ```
 class Solution:
     def minPathSum(self, grid: List[List[int]]) -> int:
         dp = [0] * len(grid[0])
@@ -11,4 +11,4 @@ class Solution:
                 if j == 0:  dp[j] += grid[i][j]
                 else:   dp[j] = min(dp[j], dp[j - 1]) + grid[i][j]
         return dp[-1]
-```
+# ```

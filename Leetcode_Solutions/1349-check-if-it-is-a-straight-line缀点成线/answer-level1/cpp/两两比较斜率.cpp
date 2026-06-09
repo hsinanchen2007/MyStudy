@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/8c2e3a10bdc7be4e958091ad6353a24932bd493d984163459a6434a4ae0e9569-image.png)
+// ![image.png](https://pic.leetcode-cn.com/8c2e3a10bdc7be4e958091ad6353a24932bd493d984163459a6434a4ae0e9569-image.png)
 
-```
+// ```
 class Solution {
 public:
     bool checkStraightLine(vector<vector<int> >& coordinates) {
@@ -21,4 +21,4 @@ public:
 		return flag;
     }
 };
-```
+// ```

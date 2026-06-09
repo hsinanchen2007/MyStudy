@@ -1,4 +1,4 @@
-```go
+// ```go
 
 func uniquePathsWithObstacles(obstacleGrid [][]int) int {
 	if len(obstacleGrid) == 0 || len(obstacleGrid[0]) == 0 {
@@ -48,4 +48,4 @@ func uniquePathsWithObstacles(obstacleGrid [][]int) int {
 	return res[m-1][n-1]
 }
 
-```
+// ```

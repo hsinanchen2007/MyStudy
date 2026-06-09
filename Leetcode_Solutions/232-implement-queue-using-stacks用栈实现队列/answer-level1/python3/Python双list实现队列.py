@@ -1,11 +1,11 @@
-### 解题思路
-代码参考了题解中的@joejoejoewu的解法，思路很简单，就是重复用append和pop的操作。
-1、队列的基础概念：
-![队列.png](https://pic.leetcode-cn.com/d8b4cbbbf4bd9059a169e3163d4764fd26d162651e67804b50d1cd34010b3016-%E9%98%9F%E5%88%97.png)
+# ### 解题思路
+# 代码参考了题解中的@joejoejoewu的解法，思路很简单，就是重复用append和pop的操作。
+# 1、队列的基础概念：
+# ![队列.png](https://pic.leetcode-cn.com/d8b4cbbbf4bd9059a169e3163d4764fd26d162651e67804b50d1cd34010b3016-%E9%98%9F%E5%88%97.png)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class MyQueue:
 
     def __init__(self):
@@ -66,4 +66,4 @@ class MyQueue:
 # param_2 = obj.pop()
 # param_3 = obj.peek()
 # param_4 = obj.empty()
-```
+# ```

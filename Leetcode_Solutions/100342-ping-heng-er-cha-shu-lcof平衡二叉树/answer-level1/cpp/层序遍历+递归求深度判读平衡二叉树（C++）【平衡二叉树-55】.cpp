@@ -1,17 +1,17 @@
-### 解题思路
-利用**非递归的层序遍历+递归方法求树的深度**实现。
-- 层序遍历各个节点
-- 然后把每个节点的左右子树带入求深度的函数
-- 若两者之差大于1，就返回false；否则，true
+// ### 解题思路
+// 利用**非递归的层序遍历+递归方法求树的深度**实现。
+// - 层序遍历各个节点
+// - 然后把每个节点的左右子树带入求深度的函数
+// - 若两者之差大于1，就返回false；否则，true
 
-这种方法比前序遍历+递归求深度稍微快一些，不知道为什么//
+// 这种方法比前序遍历+递归求深度稍微快一些，不知道为什么//
 
-![image.png](https://pic.leetcode-cn.com/cb1ceb544049d9bb7725c613f73ac06e86e45a9a3951de9c879291291dbc04a5-image.png)
+// ![image.png](https://pic.leetcode-cn.com/cb1ceb544049d9bb7725c613f73ac06e86e45a9a3951de9c879291291dbc04a5-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -53,4 +53,4 @@ public:
         return 1+(left>right?left:right);
     }
 };
-```
+// ```

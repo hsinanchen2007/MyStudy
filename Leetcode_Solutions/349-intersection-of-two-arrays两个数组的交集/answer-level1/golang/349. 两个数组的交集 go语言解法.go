@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-将nums1和nums2两个数组中共有的无重复的放在第三个数组中就行了
+// 将nums1和nums2两个数组中共有的无重复的放在第三个数组中就行了
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func intersection(nums1 []int, nums2 []int) []int {
 	result := []int{}
 	
@@ -23,4 +23,4 @@ func contains(a []int,b int) bool {
 	}
 	return false
 }
-```
+// ```

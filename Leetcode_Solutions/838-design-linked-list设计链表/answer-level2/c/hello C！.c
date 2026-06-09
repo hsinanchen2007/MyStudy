@@ -1,9 +1,9 @@
-### 解题思路
-注意一下，这个index是从0开始的，小心一点为好
+// ### 解题思路
+// 注意一下，这个index是从0开始的，小心一点为好
 
-参考清华大学出版社《数据结构C语言版》，里面的线性表知识足够完成这道题啦~
-附上main测试代码
-```
+// 参考清华大学出版社《数据结构C语言版》，里面的线性表知识足够完成这道题啦~
+// 附上main测试代码
+// ```
     MyLinkedList *L;
     int n;
     L = myLinkedListCreate();
@@ -20,11 +20,11 @@
 
     myLinkedListFree(L);
     return 0;
-```
+// ```
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct MyLinkedList{
     int val;
     struct  MyLinkedList *next;
@@ -126,4 +126,4 @@ void disply(MyLinkedList* obj) {
     }
     printf("\n");
 }
-```
+// ```

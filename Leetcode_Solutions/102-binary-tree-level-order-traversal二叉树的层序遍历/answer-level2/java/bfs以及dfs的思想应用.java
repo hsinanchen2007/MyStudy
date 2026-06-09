@@ -1,12 +1,12 @@
-### 解题思路
-**广度优先**：
-    通过队列来存储所有的节点，然后通过while循环进行层序遍历，每一个while循环都会让属于同一层的节点出队，然后再把下一层的节点压入队列中（通过一个变量来积累每一层的节点数）。
-**深度优先**：
-    简单粗暴，通过递归，遍历每一个节点，根据每个节点所处的层数，来取出该层的list集合，将值放入集合中，等递归完成，直接返回结果即可。
+// ### 解题思路
+// **广度优先**：
+//     通过队列来存储所有的节点，然后通过while循环进行层序遍历，每一个while循环都会让属于同一层的节点出队，然后再把下一层的节点压入队列中（通过一个变量来积累每一层的节点数）。
+// **深度优先**：
+//     简单粗暴，通过递归，遍历每一个节点，根据每个节点所处的层数，来取出该层的list集合，将值放入集合中，等递归完成，直接返回结果即可。
 
-### 代码
-解法一，广度优先：
-```java
+// ### 代码
+// 解法一，广度优先：
+// ```java
 class Solution {
     public List<List<Integer>> levelOrder(TreeNode root) {
         List<List<Integer>> result = new LinkedList<>(  );
@@ -39,9 +39,9 @@ class Solution {
         return result;
     }
 }
-```
-解法二，深度优先：
-```java
+// ```
+// 解法二，深度优先：
+// ```java
 class Solution {
     public List<List<Integer>> levelOrder( TreeNode root) {
             List<List<Integer>> result = new LinkedList<>(  );
@@ -64,4 +64,4 @@ class Solution {
             dfs(root.right,floor,result);
     }
 }
-```
+// ```

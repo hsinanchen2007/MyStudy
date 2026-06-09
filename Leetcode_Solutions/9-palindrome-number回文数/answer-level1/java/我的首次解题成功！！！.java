@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isPalindrome(int x) {
         long rs = 0;
@@ -19,4 +19,4 @@ class Solution {
 		}
     }
 }
-```
+// ```

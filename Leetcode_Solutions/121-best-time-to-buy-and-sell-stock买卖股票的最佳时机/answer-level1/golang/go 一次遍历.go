@@ -1,4 +1,4 @@
-```
+// ```
 func maxProfit(prices []int) int {
 	var (
 		ans      int = 0
@@ -10,4 +10,4 @@ func maxProfit(prices []int) int {
 	}
 	return ans
 }
-```
+// ```

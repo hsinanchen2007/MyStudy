@@ -1,8 +1,8 @@
-### 解题思路
-直接遍历 然后交换位置 记录下交换次数
-### 代码
+// ### 解题思路
+// 直接遍历 然后交换位置 记录下交换次数
+// ### 代码
 
-```java
+// ```java
 class Solution {
    public static int minSwapsCouples(int[] row) {
 		int num=0;   //交换次数
@@ -25,4 +25,4 @@ class Solution {
 		return num;
 	}
 }
-```
+// ```

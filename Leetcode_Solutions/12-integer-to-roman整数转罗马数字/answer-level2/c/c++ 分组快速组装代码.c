@@ -1,15 +1,15 @@
-![image.png](https://pic.leetcode-cn.com/a3af88e8badba0d334ed9f2bc77b9dd342aee07d50a2fd88d80ba6dc997532e0-image.png)
-对以 10 内数用如下表示：
-a ：1
-b ：5
-c ：10
-则每个数可分4组：
-123 ：a
-45 ：ab
-678 ：ba
-9 ：ac
-可以对数字快速组装：
-```
+// ![image.png](https://pic.leetcode-cn.com/a3af88e8badba0d334ed9f2bc77b9dd342aee07d50a2fd88d80ba6dc997532e0-image.png)
+// 对以 10 内数用如下表示：
+// a ：1
+// b ：5
+// c ：10
+// 则每个数可分4组：
+// 123 ：a
+// 45 ：ab
+// 678 ：ba
+// 9 ：ac
+// 可以对数字快速组装：
+// ```
 class Solution {
 public:
     string toRoman(int num, char one, char half, char whole) {
@@ -68,4 +68,4 @@ public:
         return res;
     }
 };
-```
+// ```

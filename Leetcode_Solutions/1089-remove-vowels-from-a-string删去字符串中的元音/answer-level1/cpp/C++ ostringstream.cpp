@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     string removeVowels(string S) {
@@ -19,4 +19,4 @@ public:
         return os.str();
     }
 };
-```
+// ```

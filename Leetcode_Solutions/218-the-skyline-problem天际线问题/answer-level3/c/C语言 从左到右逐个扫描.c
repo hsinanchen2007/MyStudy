@@ -1,11 +1,11 @@
-### 解题思路
-每个建筑分为左open边和右close边，从左到右逐个处理所有的边即可
-算是一种解法吧
-![image.png](https://pic.leetcode-cn.com/a8c6bf7a93070e1816c82e2f88b9a4a0409a82f2fb6fc7e4a2692031119e7843-image.png)
+// ### 解题思路
+// 每个建筑分为左open边和右close边，从左到右逐个处理所有的边即可
+// 算是一种解法吧
+// ![image.png](https://pic.leetcode-cn.com/a8c6bf7a93070e1816c82e2f88b9a4a0409a82f2fb6fc7e4a2692031119e7843-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -246,4 +246,4 @@ int** getSkyline(int** buildings, int buildingsSize, int* buildingsColSize, int*
     *returnColumnSizes = r.returnColumnSizes;
     return r.rlt;
 }
-```
+// ```

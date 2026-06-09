@@ -1,4 +1,4 @@
-```
+// ```
 import java.util.Arrays;
 
 class Solution {
@@ -13,4 +13,4 @@ class Solution {
         return sum % 2 == 0 ? 1 : 0;
     }
 }
-```
+// ```

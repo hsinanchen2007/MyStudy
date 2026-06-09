@@ -1,5 +1,5 @@
-空间还可以优化
-```
+// 空间还可以优化
+// ```
 int tribonacci(int n){
     if(n==0){
         return 0;
@@ -19,4 +19,4 @@ int tribonacci(int n){
     }
     return arr[n];
 }
-```
+// ```

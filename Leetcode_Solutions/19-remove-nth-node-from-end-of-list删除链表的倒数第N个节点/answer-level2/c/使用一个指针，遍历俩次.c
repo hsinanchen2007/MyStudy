@@ -1,10 +1,10 @@
-### 解题思路
-1. 第一趟遍历计算出链表长度
-2. 第二趟遍历删除第L-n+1个结点
+// ### 解题思路
+// 1. 第一趟遍历计算出链表长度
+// 2. 第二趟遍历删除第L-n+1个结点
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -33,4 +33,4 @@ struct ListNode* removeNthFromEnd(struct ListNode* head, int n){
     p->next = p->next->next;
     return head;
 }
-```
+// ```

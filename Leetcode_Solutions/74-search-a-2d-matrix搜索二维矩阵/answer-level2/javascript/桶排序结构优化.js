@@ -1,10 +1,10 @@
-### 解题思路
-性能提升到前百分之九十
-![image.png](https://pic.leetcode-cn.com/04dbf46288d93aa663ab5a10db34d3984b7e528d2bb0a1b69e5e35fdbe7931ba-image.png)
+// ### 解题思路
+// 性能提升到前百分之九十
+// ![image.png](https://pic.leetcode-cn.com/04dbf46288d93aa663ab5a10db34d3984b7e528d2bb0a1b69e5e35fdbe7931ba-image.png)
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} matrix
  * @param {number} target
@@ -25,4 +25,4 @@ var searchMatrix = function(matrix, target) {
     }	
     return false;	
 };
-```
+// ```

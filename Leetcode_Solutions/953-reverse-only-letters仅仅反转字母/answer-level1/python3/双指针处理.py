@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def reverseOnlyLetters(self, S: str) -> str:
         s1 = [i for i in S]
@@ -16,4 +16,4 @@ class Solution:
         s1 = ''.join(s1)
         return s1
         
-```
+# ```

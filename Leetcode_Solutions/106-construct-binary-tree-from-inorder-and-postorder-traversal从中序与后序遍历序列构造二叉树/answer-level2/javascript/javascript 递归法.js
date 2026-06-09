@@ -1,8 +1,8 @@
-### 解题思路
-递归
-### 代码
+// ### 解题思路
+// 递归
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -25,4 +25,4 @@ var buildTree = function(inorder, postorder) {
     root.right = buildTree(inorder.slice(i + 1), postorder.slice(i, postorder.length - 1))
     return root
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func surfaceArea(grid [][]int) int {
     area := 0
     N := len(grid)
@@ -44,4 +44,4 @@ func surfaceArea(grid [][]int) int {
     }
     return area
 }
-```
+// ```

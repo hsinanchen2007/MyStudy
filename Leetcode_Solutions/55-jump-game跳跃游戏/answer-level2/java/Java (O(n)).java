@@ -1,10 +1,10 @@
-### 解题思路
-我们从数组的最后往前判断。例如，最后的index为i1，我们就要在之前发现是否有i2连接i1，然后是否有i3连接i2，一直到index 0连接ix。
-如果index 0无法连接之前已经连接好的通道，那么该数组便无法完成跳跃。
+// ### 解题思路
+// 我们从数组的最后往前判断。例如，最后的index为i1，我们就要在之前发现是否有i2连接i1，然后是否有i3连接i2，一直到index 0连接ix。
+// 如果index 0无法连接之前已经连接好的通道，那么该数组便无法完成跳跃。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canJump(int[] nums) {
         // can achieve to last index?
@@ -35,4 +35,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

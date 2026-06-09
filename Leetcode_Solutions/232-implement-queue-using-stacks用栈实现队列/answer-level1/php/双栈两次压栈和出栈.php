@@ -1,9 +1,9 @@
-### 解题思路
-使用两个栈s1和s2, 两次压栈和两次出栈，效率问题严重。
+// ### 解题思路
+// 使用两个栈s1和s2, 两次压栈和两次出栈，效率问题严重。
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class MyQueue {
     /**
      * Initialize your data structure here.
@@ -61,7 +61,7 @@ class MyQueue {
  * $ret_3 = $obj->peek();
  * $ret_4 = $obj->empty();
  */
-```
+// ```
 
-### 参考
-https://leetcode-cn.com/problems/implement-queue-using-stacks/solution/yong-zhan-shi-xian-dui-lie-by-leetcode/
+// ### 参考
+// https://leetcode-cn.com/problems/implement-queue-using-stacks/solution/yong-zhan-shi-xian-dui-lie-by-leetcode/

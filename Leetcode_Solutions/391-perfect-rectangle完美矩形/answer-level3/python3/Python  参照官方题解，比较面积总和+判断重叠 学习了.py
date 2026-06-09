@@ -1,10 +1,10 @@
-![image.png](https://pic.leetcode-cn.com/5d36adc6dd193b0c870fdf6d9a6462527f4531cdae24f99cbd600850cebe1df2-image.png)
+# ![image.png](https://pic.leetcode-cn.com/5d36adc6dd193b0c870fdf6d9a6462527f4531cdae24f99cbd600850cebe1df2-image.png)
 
 
-一开始想到了要用面积总和来判断，但是没想到怎么判断重叠，看了下别的题解，用顶点出现次数的奇偶性可以判断重叠，比较Tricky,学习了
+# 一开始想到了要用面积总和来判断，但是没想到怎么判断重叠，看了下别的题解，用顶点出现次数的奇偶性可以判断重叠，比较Tricky,学习了
 
 
-```
+# ```
 '''
 更新矩形的四个边界，边界形成的矩形面积和所有矩形面积和相等，是完美平铺的
 必要条件，同时还需要保证没有重叠，判断有没有重叠的方法比较巧妙，不断将新增矩形的
@@ -43,4 +43,4 @@ class Solution:
 
         # 检查面积总和相等
         return area_cnt == abs(bound[0]-bound[1]) * abs(bound[2]-bound[3])
-```
+# ```

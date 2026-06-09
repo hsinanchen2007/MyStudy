@@ -1,5 +1,5 @@
-递归大法好
-```java
+// 递归大法好
+// ```java
 public class Solution {
     public boolean leafSimilar(TreeNode root1, TreeNode root2) {
         if (root1 == null && root2 == null) {
@@ -28,9 +28,9 @@ public class Solution {
         preOrder(node.right, list);
     }
 }
-```
-迭代也不能落下
-```java
+// ```
+// 迭代也不能落下
+// ```java
 public class Solution {
     public boolean leafSimilar(TreeNode root1, TreeNode root2) {
         if (root1 == null && root2 == null) {
@@ -77,4 +77,4 @@ public class Solution {
         return res1.equals(res2);
     }
 }
-```
+// ```

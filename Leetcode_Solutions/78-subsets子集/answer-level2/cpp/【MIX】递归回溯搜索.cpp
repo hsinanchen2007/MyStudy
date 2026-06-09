@@ -1,9 +1,9 @@
-### 解题思路
-递归&回溯
+// ### 解题思路
+// 递归&回溯
 
-### 代码
+// ### 代码
 
-```java []
+// ```java []
 class Solution {
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();
@@ -29,8 +29,8 @@ class Solution {
         }
     }
 }
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def __init__(self):
         self.res = []
@@ -49,8 +49,8 @@ class Solution:
             subset.append(nums[i])
             self.subSetHelper(nums, i+1, subset)
             subset.pop(-1)
-```
-```c++ []
+// ```
+// ```c++ []
 class Solution {
 public:
     vector<vector<int>> subsets(vector<int>& nums) {
@@ -76,4 +76,4 @@ private:
     vector<vector<int>> res;
 
 };
-```
+// ```

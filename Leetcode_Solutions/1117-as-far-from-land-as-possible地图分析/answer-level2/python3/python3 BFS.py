@@ -1,8 +1,8 @@
-### 解题思路
-将所有陆地放入一个队列中，对队列中的每一个点向外搜索，如果遇到海洋就把海洋格子标记为来过，并将海洋格子加入队列，下次对队列中的点进行搜索直到队列为空
-### 代码
+# ### 解题思路
+# 将所有陆地放入一个队列中，对队列中的每一个点向外搜索，如果遇到海洋就把海洋格子标记为来过，并将海洋格子加入队列，下次对队列中的点进行搜索直到队列为空
+# ### 代码
 
-```python3
+# ```python3
 from collections import deque
 class Solution:
     def maxDistance(self, grid: List[List[int]]) -> int:
@@ -27,4 +27,4 @@ class Solution:
         return step -1 
 
         
-```
+# ```

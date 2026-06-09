@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findNumberIn2DArray(self, matrix: List[List[int]], target: int) -> bool:
         if matrix is None:
@@ -23,4 +23,4 @@ class Solution:
                     return True
         return False
 
-```![image.png](https://pic.leetcode-cn.com/a8093176e1f5616a8c03c5e1147a250a8a214ab0ae42286280478b2fc6840a4c-image.png)
+# ```![image.png](https://pic.leetcode-cn.com/a8093176e1f5616a8c03c5e1147a250a8a214ab0ae42286280478b2fc6840a4c-image.png)

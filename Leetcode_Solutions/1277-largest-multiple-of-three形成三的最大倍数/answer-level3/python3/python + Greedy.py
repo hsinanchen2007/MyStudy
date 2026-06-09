@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def largestMultipleOfThree(self, digits: List[int]) -> str:
         # rerange to divide 3
@@ -51,4 +51,4 @@ class Solution:
         res.sort(reverse = True)
         res = ''.join(map(str, res)).lstrip('0')
         return '0' if res == '' else res
-```
+# ```

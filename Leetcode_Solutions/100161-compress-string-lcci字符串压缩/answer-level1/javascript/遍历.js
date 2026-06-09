@@ -1,6 +1,6 @@
-跟[443.压缩字符串](https://leetcode-cn.com/problems/string-compression/)题很像
+// 跟[443.压缩字符串](https://leetcode-cn.com/problems/string-compression/)题很像
 
-```javascript []
+// ```javascript []
 var compressString = function(S) {
   let count = 1 //统计字母数量
   let res = '' //结果
@@ -14,5 +14,5 @@ var compressString = function(S) {
   }
   return res.length < S.length ? res : S
 }
-```
+// ```
 

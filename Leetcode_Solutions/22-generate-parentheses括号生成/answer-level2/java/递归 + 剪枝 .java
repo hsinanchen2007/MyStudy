@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     private List<String> res;
     public List<String> generateParenthesis(int n) {
@@ -22,4 +22,4 @@ class Solution {
         }
     }
 }
-```
+// ```

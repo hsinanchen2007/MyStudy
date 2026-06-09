@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func uniquePaths(m int, n int) int {
     if m == 1 && n == 1 {
         return 1
@@ -24,4 +24,4 @@ func uniquePaths(m int, n int) int {
     }
     return res[m - 1][n - 1]
 }
-```
+// ```

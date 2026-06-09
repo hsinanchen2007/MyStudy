@@ -1,10 +1,10 @@
-### 解题思路
-1, 对子数组的首元素进行排序，然后通过比较尾元素大小填入新数组即可。
-2，C语言qsort函数还是很强大的，通过编写cmp函数，基本可以满足对各种数据类型的排序。
+// ### 解题思路
+// 1, 对子数组的首元素进行排序，然后通过比较尾元素大小填入新数组即可。
+// 2，C语言qsort函数还是很强大的，通过编写cmp函数，基本可以满足对各种数据类型的排序。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -61,4 +61,4 @@ int** merge(int** intervals, int intervalsSize, int* intervalsColSize, int* retu
     *returnColumnSizes = columnSizes;
     return ans;
 }
-```
+// ```

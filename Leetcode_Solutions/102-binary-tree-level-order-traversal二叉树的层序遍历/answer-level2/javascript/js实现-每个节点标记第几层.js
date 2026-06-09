@@ -1,9 +1,9 @@
-### 解题思路
-根元素，标记index是0,根元素的left和right节点的index是1，依次类推
+// ### 解题思路
+// 根元素，标记index是0,根元素的left和right节点的index是1，依次类推
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
   var levelOrder = function (node) {
     const res = [];
     if (node) {
@@ -19,4 +19,4 @@
     }
     return res;
   }
-```
+// ```

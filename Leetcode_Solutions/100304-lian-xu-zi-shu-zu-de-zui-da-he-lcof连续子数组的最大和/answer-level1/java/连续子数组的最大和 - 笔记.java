@@ -1,9 +1,9 @@
-### 解题思路
-当sum小于零的时候就将sum置为0.相当于前面的位置都不合法，全部清空掉，从新的位置开始算
+// ### 解题思路
+// 当sum小于零的时候就将sum置为0.相当于前面的位置都不合法，全部清空掉，从新的位置开始算
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxSubArray(int[] nums) {
         int sum = 0;
@@ -22,4 +22,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-主要利用java中有序TreeMap特性实现，从小到大（higherEntry）和从大到小（lowerEntry）交替筛选，被筛选一次则将value减1，直至value为0时移除该键值对，重复过程直至TreeMap的元素个数为0，返回结果。
+// ### 解题思路
+// 主要利用java中有序TreeMap特性实现，从小到大（higherEntry）和从大到小（lowerEntry）交替筛选，被筛选一次则将value减1，直至value为0时移除该键值对，重复过程直至TreeMap的元素个数为0，返回结果。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String sortString(String s) {
         //将字符串按照各字符大小装入TreeMap中，key为字符，value为出现次数
@@ -43,4 +43,4 @@ class Solution {
         return result.toString();
     }
 }
-```
+// ```

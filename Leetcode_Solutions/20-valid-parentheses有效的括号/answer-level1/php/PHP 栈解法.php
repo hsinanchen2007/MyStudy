@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -54,10 +54,10 @@ class Solution {
         return $stack->count() == 0;
     }
 }
-```
+// ```
 
-优化解法
-```php
+// 优化解法
+// ```php
 function isValid($s)
 {
     $len = strlen($s);
@@ -85,4 +85,4 @@ function isValid($s)
 
     return $stack->count() == 0;
 }
-```
+// ```

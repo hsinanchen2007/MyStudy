@@ -1,15 +1,15 @@
-### 解题思路
-贪心思路：分为几种情况
-#### 1.列表长度<3
-*1) 列表中有1：则`return True if n==0 else False`
-*2) 列表中没1：则`return True`
-#### 2.列表长度>3
-*1) 位于两端：则比较0，1或-1，-2元素是否为0
-*2）位于中间：则比较i-1,i,i+1元素是否为0
+# ### 解题思路
+# 贪心思路：分为几种情况
+# #### 1.列表长度<3
+# *1) 列表中有1：则`return True if n==0 else False`
+# *2) 列表中没1：则`return True`
+# #### 2.列表长度>3
+# *1) 位于两端：则比较0，1或-1，-2元素是否为0
+# *2）位于中间：则比较i-1,i,i+1元素是否为0
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def canPlaceFlowers(self, flowerbed: List[int], n: int) -> bool:
         if len(flowerbed)<2:#特殊情况
@@ -29,4 +29,4 @@ class Solution:
         return True if n<=count else False
         
             
-```
+# ```

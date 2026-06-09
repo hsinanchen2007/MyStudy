@@ -1,7 +1,7 @@
-```javascript []
+# ```javascript []
 console.log('Hello world!')
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
 
@@ -21,7 +21,7 @@ class Solution:
                 dp[n] = 1 + s[n+1:n+1+dp[n+1]].index(s[n])
     
         return max(dp)
-```
-```ruby []
+# ```
+# ```ruby []
 puts 'Hello world!'
-```
+# ```

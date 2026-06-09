@@ -1,9 +1,9 @@
-### 解题思路
-换幂函数换e为底的指数函数
+// ### 解题思路
+// 换幂函数换e为底的指数函数
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int mySqrt(int x){
     double l = exp(0.5 * log(x));
     long long r = (int)l + 1;
@@ -29,4 +29,4 @@ int mySqrt(int x){
     return r;
 }
 */
-```
+// ```

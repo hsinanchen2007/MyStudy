@@ -1,9 +1,9 @@
-### 解题思路-快慢指针
-注意：对于循环链表，设置两个指针`slow, fast`，其中`slow`每次走一步，`fast`每次走两步；最终两者会相遇；
+# ### 解题思路-快慢指针
+# 注意：对于循环链表，设置两个指针`slow, fast`，其中`slow`每次走一步，`fast`每次走两步；最终两者会相遇；
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -32,4 +32,4 @@ class Solution:
             return True
         
 
-```
+# ```

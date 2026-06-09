@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func pivotIndex(nums []int) int {
 	sum:=0
 	for i:=0;i< len(nums);i++{
@@ -21,4 +21,4 @@ func pivotIndex(nums []int) int {
 	}
 	return -1
 }
-```
+// ```

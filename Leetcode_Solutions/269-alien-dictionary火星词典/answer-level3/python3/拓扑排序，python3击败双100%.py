@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/9060c297686e33642ba51ca43d069918719992fd62bfad030fb3707af47adcc5-image.png)
+# ![image.png](https://pic.leetcode-cn.com/9060c297686e33642ba51ca43d069918719992fd62bfad030fb3707af47adcc5-image.png)
 
-```
+# ```
 class Solution:
     def alienOrder(self, words: List[str]) -> str:
       dic = self.build_dict(words)
@@ -49,4 +49,4 @@ class Solution:
           if i< len(words[index]) and i < len(words[index+1]):
             graph[dic[words[index][i]]].append(dic[words[index+1][i]])
       return graph
-```
+# ```

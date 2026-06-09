@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-直接上代码
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 直接上代码
+// ### 代码
 
-```c
+// ```c
 void reverse(char *a)
 {
     int j=strlen(a)-1, i=0, temp;
@@ -32,4 +32,4 @@ char * addBinary(char * a, char * b){
     reverse(ans);
     return ans;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-快排后遍历数组，将偶数位的数据相加即为返回值
+// ### 解题思路
+// 快排后遍历数组，将偶数位的数据相加即为返回值
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 void swap(int* arr, int low, int high)
 {
@@ -46,4 +46,4 @@ int arrayPairSum(int* nums, int numsSize){
     }
     return count;
 }
-```
+// ```

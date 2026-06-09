@@ -1,5 +1,5 @@
-直接DP会超时，没办法先减掉一部分。
-```swift
+// 直接DP会超时，没办法先减掉一部分。
+// ```swift
 class Solution {
     func minInsertions(_ s: String) -> Int {
         var chars = [Character](s)
@@ -40,4 +40,4 @@ class Solution {
     }
  }
 
-```
+// ```

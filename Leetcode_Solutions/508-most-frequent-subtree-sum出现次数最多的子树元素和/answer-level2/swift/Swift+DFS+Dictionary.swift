@@ -1,6 +1,6 @@
-思路很简单，在做DFS的时候，将每个子树的元素和都用一个字典保存起来，key是元素和，value是出现次数。作为DFS之后，将字典里面value最大的值输出就行
+// 思路很简单，在做DFS的时候，将每个子树的元素和都用一个字典保存起来，key是元素和，value是出现次数。作为DFS之后，将字典里面value最大的值输出就行
 
-```
+// ```
 class Solution {
     var sumDict = [Int: Int]()
     func findFrequentTreeSum(_ root: TreeNode?) -> [Int] {
@@ -32,4 +32,4 @@ class Solution {
         return sum
     }
 }
-```
+// ```

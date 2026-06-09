@@ -1,6 +1,6 @@
-![9834F200-4D7D-4560-9E57-42F58B9C497E.jpeg](https://pic.leetcode-cn.com/b90eefb91f61a0ee326ceca6f0c0d85a4abc835378cdb70ff5f8af092114ca94-9834F200-4D7D-4560-9E57-42F58B9C497E.jpeg)
+// ![9834F200-4D7D-4560-9E57-42F58B9C497E.jpeg](https://pic.leetcode-cn.com/b90eefb91f61a0ee326ceca6f0c0d85a4abc835378cdb70ff5f8af092114ca94-9834F200-4D7D-4560-9E57-42F58B9C497E.jpeg)
 
-```
+// ```
 #define SUBSTRSIZE 11
 
 struct HashEntry {
@@ -60,4 +60,4 @@ char ** findRepeatedDnaSequences(char * s, int* returnSize)
 
     return returnStr;
 }
-```
+// ```

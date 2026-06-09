@@ -1,12 +1,12 @@
-![1.png](https://pic.leetcode-cn.com/ad5495478675e8e876dfda0fc0099efe9ed1d2fd88aa3cca82742f8a82352519-1.png)
+// ![1.png](https://pic.leetcode-cn.com/ad5495478675e8e876dfda0fc0099efe9ed1d2fd88aa3cca82742f8a82352519-1.png)
 
-### 解题思路
-设置a,b,c,d作为四个顶点，和四个方向，初始向右，a初始为1；
-每到达一个顶点，相应的向内收缩一点，并且改变一次方向。
+// ### 解题思路
+// 设置a,b,c,d作为四个顶点，和四个方向，初始向右，a初始为1；
+// 每到达一个顶点，相应的向内收缩一点，并且改变一次方向。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -68,4 +68,4 @@ int** generateMatrix(int n, int* returnSize, int** returnColumnSizes){
 	*returnSize = n;
 	return res;
 }
-```
+// ```

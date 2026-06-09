@@ -1,10 +1,10 @@
-### 解题思路
-1."所有组合" => 递归
-2.先选出一个数+后面两位的全排列
+# ### 解题思路
+# 1."所有组合" => 递归
+# 2.先选出一个数+后面两位的全排列
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
 
     def permute(self, nums: List[int]) -> List[List[int]]:
@@ -21,4 +21,4 @@ class Solution:
 
         
 
-```
+# ```

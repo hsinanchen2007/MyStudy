@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def minimumLengthEncoding(self, words: List[str]) -> int:
         # 定义字典树
@@ -27,4 +27,4 @@ class Solution:
                 # 创建了单词
                 result += len(word) + 1
         return result
-```
+# ```

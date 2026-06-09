@@ -1,5 +1,5 @@
-递归解法 先给长度短的补上0
-```
+// 递归解法 先给长度短的补上0
+// ```
     int carry = 0;
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {   //递归做法 给长度少的补0
         if (l1==null)
@@ -56,9 +56,9 @@
         l1.val = val;
         return l1;
     }
-```
-利用栈迭代做法 当栈无数据时用0代替
-```
+// ```
+// 利用栈迭代做法 当栈无数据时用0代替
+// ```
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         if (l1==null)
             return l2;
@@ -95,5 +95,5 @@
         }
         return out;
     }
-```
+// ```
 

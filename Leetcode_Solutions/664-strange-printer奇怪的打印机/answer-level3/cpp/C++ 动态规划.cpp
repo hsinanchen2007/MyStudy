@@ -1,7 +1,7 @@
-# 解法一：
-直接动态规划
+// # 解法一：
+// 直接动态规划
 
-```C++ []
+// ```C++ []
 class Solution {
 public:
     int strangePrinter(string s) {
@@ -23,12 +23,12 @@ public:
         return dp[0][N - 1];
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/a7e9a5db0af5180f67e31de90998276ad6e707d2fbb65f751a1ee4fdf6e8bd84-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/a7e9a5db0af5180f67e31de90998276ad6e707d2fbb65f751a1ee4fdf6e8bd84-image.png)
 
-# 解法二：
-记忆化深度优先搜索
-```C++ []
+// # 解法二：
+// 记忆化深度优先搜索
+// ```C++ []
 class Solution {
 public:
     vector<vector<int> > dp;
@@ -57,6 +57,6 @@ public:
         return dfs(s, 0, N - 1);
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/3194bf33ac713db57777f01e84d14fe341bb899345c8b1270adeb4bf1b18618a-image.png)
+// ![image.png](https://pic.leetcode-cn.com/3194bf33ac713db57777f01e84d14fe341bb899345c8b1270adeb4bf1b18618a-image.png)

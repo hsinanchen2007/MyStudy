@@ -1,20 +1,20 @@
-解决这个问题，可以用面向对象的设计，主要逻辑在User类；
+// 解决这个问题，可以用面向对象的设计，主要逻辑在User类；
 
-比较难实现的是getNewsFeed， 可用优先队列（小顶堆）来实现 [design1](https://github.com/zrcoder/leetcodeGo/tree/master/solutions/design-twitter/design1)
-注意优化，从后向前遍历用户的tweet列表，如果优先队列里已经有10个元素，当前tweet的时间不晚于堆顶tweet的时间，可以不再遍历该用户的tweet列表<br>
+// 比较难实现的是getNewsFeed， 可用优先队列（小顶堆）来实现 [design1](https://github.com/zrcoder/leetcodeGo/tree/master/solutions/design-twitter/design1)
+// 注意优化，从后向前遍历用户的tweet列表，如果优先队列里已经有10个元素，当前tweet的时间不晚于堆顶tweet的时间，可以不再遍历该用户的tweet列表<br>
 
-也可以直接对所有tweet数组排序，注意到所有数组本来是已经排序的, 只是遍历下从后向前取前10个[design2](https://github.com/zrcoder/leetcodeGo/tree/master/solutions/design-twitter/design2)；<br>
+// 也可以直接对所有tweet数组排序，注意到所有数组本来是已经排序的, 只是遍历下从后向前取前10个[design2](https://github.com/zrcoder/leetcodeGo/tree/master/solutions/design-twitter/design2)；<br>
 
-getNewsFeed复杂度分析：
-假设n为用户及其关注用户所有tweet的个数， m为用户关注的用户加自己总共的用户数
-利用小顶堆的实现： 时间复杂度O(nlogn), 最坏情况下所有tweet都要插入堆里一次； 空间复杂度O(1)， 堆里最多有10个元素
-直接遍历数组实现： 时间复杂度O(10*m), 空间复杂度O(m)，有一个中间数组；
+// getNewsFeed复杂度分析：
+// 假设n为用户及其关注用户所有tweet的个数， m为用户关注的用户加自己总共的用户数
+// 利用小顶堆的实现： 时间复杂度O(nlogn), 最坏情况下所有tweet都要插入堆里一次； 空间复杂度O(1)， 堆里最多有10个元素
+// 直接遍历数组实现： 时间复杂度O(10*m), 空间复杂度O(m)，有一个中间数组；
 
-另外，注意一些常见的异常处理，如一个user follow自己
+// 另外，注意一些常见的异常处理，如一个user follow自己
 
 
-可以看到直接遍历数组实现优于小顶堆的实现，同时也优于一些其他实现，如合并k个已排序链表的实现；代码可读性也不错
-```
+// 可以看到直接遍历数组实现优于小顶堆的实现，同时也优于一些其他实现，如合并k个已排序链表的实现；代码可读性也不错
+// ```
 // tweetinfo.go
 type TweetInfo struct {
 	Id   int
@@ -139,4 +139,4 @@ func (t *Twitter) getOrAddUser(userId int) *User {
 	}
 	return user
 }
-```
+// ```

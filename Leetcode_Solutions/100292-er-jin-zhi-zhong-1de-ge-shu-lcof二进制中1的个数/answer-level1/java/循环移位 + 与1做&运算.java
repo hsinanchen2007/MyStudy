@@ -1,9 +1,9 @@
-### 解题思路
-int类型二进制为32bit，依次右移 0 ～ 31位即可
+// ### 解题思路
+// int类型二进制为32bit，依次右移 0 ～ 31位即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 public class Solution {
     // you need to treat n as an unsigned value
     public int hammingWeight(int n) {
@@ -17,4 +17,4 @@ public class Solution {
         return bitCount;
     }
 }
-```
+// ```

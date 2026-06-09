@@ -1,4 +1,4 @@
-设m,n,最小公倍数为k，信号量初始化为k
+// 设m,n,最小公倍数为k，信号量初始化为k
 H acquire release(k/m)
 O acquire release(k/n)
     

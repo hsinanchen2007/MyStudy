@@ -1,9 +1,9 @@
-### 解题思路
-暴力判断两个点的相对位置
+// ### 解题思路
+// 暴力判断两个点的相对位置
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isRectangleOverlap(int[] rec1, int[] rec2) {
         if (rec2[0] >= rec1[2] || rec2[1] >= rec1[3]) {
@@ -18,4 +18,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

@@ -1,16 +1,16 @@
 
-![image.png](https://pic.leetcode-cn.com/089d8fac8368c549261cbaa8750f9f87da79f5c889bcdf0fcf46f10a95f031cb-image.png)
+// ![image.png](https://pic.leetcode-cn.com/089d8fac8368c549261cbaa8750f9f87da79f5c889bcdf0fcf46f10a95f031cb-image.png)
 
-新建一个树节点地址的队列，实现基本的入队操作；
-无需出队，而是新增一个队列遍历 myQueueTraver 操作；
-算法的基本步骤如下：
-1. 根节点入队，初始化相关变量；
-2. 按树的深度迭代
-   2.1 按当前层的节点个数迭代
-    每遍历一个当前层的节点（移动下标cur即可），就加入该节点的左右子节点到队列
-   2.2 此层新增的节点数为下一层需迭代的次数
+// 新建一个树节点地址的队列，实现基本的入队操作；
+// 无需出队，而是新增一个队列遍历 myQueueTraver 操作；
+// 算法的基本步骤如下：
+// 1. 根节点入队，初始化相关变量；
+// 2. 按树的深度迭代
+//    2.1 按当前层的节点个数迭代
+//     每遍历一个当前层的节点（移动下标cur即可），就加入该节点的左右子节点到队列
+//    2.2 此层新增的节点数为下一层需迭代的次数
 
-```
+// ```
 typedef struct {
     struct TreeNode** data;
     int size;
@@ -154,7 +154,7 @@ int** levelOrder(struct TreeNode* root, int* returnSize, int** returnColumnSizes
     myQueueFree(obj);
     return returnNumsArray;
 }
-```
+// ```
 
 
 

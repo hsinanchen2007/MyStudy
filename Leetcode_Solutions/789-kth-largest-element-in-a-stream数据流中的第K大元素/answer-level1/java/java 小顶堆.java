@@ -1,9 +1,9 @@
-### 解题思路
-用小顶堆，保持pq中始终只有最大的k个值，取堆顶即可
+// ### 解题思路
+// 用小顶堆，保持pq中始终只有最大的k个值，取堆顶即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class KthLargest {
 
     PriorityQueue<Integer> pq = new PriorityQueue<>();
@@ -33,4 +33,4 @@ class KthLargest {
 
 
 
-```
+// ```

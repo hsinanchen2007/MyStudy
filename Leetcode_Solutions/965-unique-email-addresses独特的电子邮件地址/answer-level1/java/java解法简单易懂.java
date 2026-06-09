@@ -1,7 +1,7 @@
-1.为了去重使用hashset
-2.replaceAll去掉将'.'替换为空字符
-3.substring截取+号前面的字符串
-```
+// 1.为了去重使用hashset
+// 2.replaceAll去掉将'.'替换为空字符
+// 3.substring截取+号前面的字符串
+// ```
 class Solution {
     public int numUniqueEmails(String[] emails) {
         Set set = new HashSet();
@@ -16,4 +16,4 @@ class Solution {
         return set.size();
     }
 }
-```
+// ```

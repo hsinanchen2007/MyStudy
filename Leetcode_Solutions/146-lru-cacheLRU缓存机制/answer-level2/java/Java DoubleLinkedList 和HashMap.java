@@ -1,9 +1,9 @@
-### 解题思路
-思路是维持一个双向链表和一个hashmap，hashmap用于快速查找元素，双向链表用于维持顺序。
+// ### 解题思路
+// 思路是维持一个双向链表和一个hashmap，hashmap用于快速查找元素，双向链表用于维持顺序。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class LRUCache {
     int size;
     int capacity;
@@ -84,4 +84,4 @@ class LinkedNode {
     LinkedNode pre;
     LinkedNode next;
 }
-```
+// ```

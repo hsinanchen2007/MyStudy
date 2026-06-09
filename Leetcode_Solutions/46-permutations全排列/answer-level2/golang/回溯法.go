@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/a437b21dccbee40b7bb3df7c1a80c63de3a24e37e93617715347009e4508ffef-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/a437b21dccbee40b7bb3df7c1a80c63de3a24e37e93617715347009e4508ffef-image.png)
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 //这里声明一个全局变量用来存储所有的排列
 var result [][]int 
 
@@ -68,4 +68,4 @@ func arrange(nums []int, arr []int) {
 		arr = arr[:len(arr)-1]
 	}
 }
-```
+// ```

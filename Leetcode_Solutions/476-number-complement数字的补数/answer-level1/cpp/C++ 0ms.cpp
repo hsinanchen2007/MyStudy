@@ -1,9 +1,9 @@
-### 解题思路
-一位位对比并加上去
+// ### 解题思路
+// 一位位对比并加上去
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findComplement(int num)
@@ -19,4 +19,4 @@ public:
         return res;
     }
 };
-```
+// ```

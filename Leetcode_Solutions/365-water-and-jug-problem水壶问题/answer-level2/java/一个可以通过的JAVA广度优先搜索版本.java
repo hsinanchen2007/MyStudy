@@ -1,8 +1,8 @@
-![题解.JPG](https://pic.leetcode-cn.com/070d25d330a0402ddb86375694ca18a7412b0d6d1de0cb0e87033686c383d36d-%E9%A2%98%E8%A7%A3.JPG)
+// ![题解.JPG](https://pic.leetcode-cn.com/070d25d330a0402ddb86375694ca18a7412b0d6d1de0cb0e87033686c383d36d-%E9%A2%98%E8%A7%A3.JPG)
 
-比较容易理解，没有什么高深的，就是六种状态，广度优先遍历搜索，虽然不快，但是符合人的逻辑思维
+// 比较容易理解，没有什么高深的，就是六种状态，广度优先遍历搜索，虽然不快，但是符合人的逻辑思维
 
-```
+// ```
 public boolean canMeasureWater(int x, int y, int z) {
         if (x + y < z) {
             return false;
@@ -66,6 +66,6 @@ public boolean canMeasureWater(int x, int y, int z) {
         }
         return false;
     }
-```
+// ```
 
 

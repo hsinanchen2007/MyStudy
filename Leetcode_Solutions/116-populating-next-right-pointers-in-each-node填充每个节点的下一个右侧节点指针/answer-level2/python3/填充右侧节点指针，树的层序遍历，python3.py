@@ -1,9 +1,9 @@
-### 解题思路
-先层序遍历树，过程中记录下各节点的层次，然后遍历树的每一层，将next指针指向当前层中的下一个节点
+# ### 解题思路
+# 先层序遍历树，过程中记录下各节点的层次，然后遍历树的每一层，将next指针指向当前层中的下一个节点
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 """
 # Definition for a Node.
 class Node:
@@ -33,4 +33,4 @@ class Solution:
         queue[-1][0].next = None
         return queue[0][0]
 
-```
+# ```

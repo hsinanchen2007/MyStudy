@@ -1,5 +1,5 @@
-思路很简单，直接上代码
-```
+// 思路很简单，直接上代码
+// ```
     public void reorderList(ListNode head) {
         if(head==null){
             return;
@@ -33,4 +33,4 @@
 
         }
     }
-```
+// ```

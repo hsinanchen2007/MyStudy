@@ -1,6 +1,6 @@
-# 方法一
-灯的编号是由1到n排列的，当编号为i的灯变蓝时，那么1到i的灯必为蓝，此时组成一个等差数列，故我们用变量sum记录已打开的灯的编号的总和，当sum满足等差数列和时，那么此时所有打开的灯都为蓝。
-```
+# # 方法一
+# 灯的编号是由1到n排列的，当编号为i的灯变蓝时，那么1到i的灯必为蓝，此时组成一个等差数列，故我们用变量sum记录已打开的灯的编号的总和，当sum满足等差数列和时，那么此时所有打开的灯都为蓝。
+# ```
 class Solution(object):
     def numTimesAllBlue(self, light):
         """
@@ -14,10 +14,10 @@ class Solution(object):
             if sum == (i + 1) * (i + 2) // 2:
                 res += 1
         return res
-```
-# 方法二
-变量m记录已打开灯的最大编号，当m等于当前已打开灯的个数时，则编号1到m的灯都为蓝。
-```
+# ```
+# # 方法二
+# 变量m记录已打开灯的最大编号，当m等于当前已打开灯的个数时，则编号1到m的灯都为蓝。
+# ```
 class Solution(object):
     def numTimesAllBlue(self, light):
         """
@@ -30,4 +30,4 @@ class Solution(object):
             if m == i+1:
                 ans += 1
         return ans
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-保存走过的路，不走回头路即可
+// ### 解题思路
+// 保存走过的路，不走回头路即可
 
-### 代码
-DFS:
-```javascript
+// ### 代码
+// DFS:
+// ```javascript
 var movingCount = function(m, n, k) {
     if(!k) return 1;
     let sum = 0
@@ -26,10 +26,10 @@ var movingCount = function(m, n, k) {
     dfs(0,0)
     return sum
 };
-```
+// ```
 
-BFS:
-```javascript
+// BFS:
+// ```javascript
 var movingCount = function(m, n, k) {
     if(!k) return 1;
     let sum = 0
@@ -53,4 +53,4 @@ var movingCount = function(m, n, k) {
     }
     return sum
 };
-```
+// ```

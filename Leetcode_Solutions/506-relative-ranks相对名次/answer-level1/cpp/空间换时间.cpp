@@ -1,5 +1,5 @@
-将数组排序，用map来记录当前数字对应的名次
-```
+// 将数组排序，用map来记录当前数字对应的名次
+// ```
 class Solution {
 public:
     vector<string> findRelativeRanks(vector<int>& nums) {
@@ -20,4 +20,4 @@ public:
         return res;
     }
 };
-```
+// ```

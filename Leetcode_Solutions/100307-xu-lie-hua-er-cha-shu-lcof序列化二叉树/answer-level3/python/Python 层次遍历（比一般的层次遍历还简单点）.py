@@ -1,6 +1,6 @@
-之前写的一个层次遍历还需要有内循环或者打tag来分割，这道题直接输出就行了，难点感觉在于怎么还原，我用了个队列模拟，然后index标记当前的位置
+# 之前写的一个层次遍历还需要有内循环或者打tag来分割，这道题直接输出就行了，难点感觉在于怎么还原，我用了个队列模拟，然后index标记当前的位置
 
-```python
+# ```python
 class Codec:
 
     def serialize(self, root):
@@ -60,4 +60,4 @@ class Codec:
             index += 2
 
         return root
-```
+# ```

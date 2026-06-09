@@ -1,5 +1,5 @@
-[算法详解](https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof/solution/mian-shi-ti-12-ju-zhen-zhong-de-lu-jing-shen-du-yo/)
-```c
+// [算法详解](https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof/solution/mian-shi-ti-12-ju-zhen-zhong-de-lu-jing-shen-du-yo/)
+// ```c
 bool dfs(char** board, int boardSize, int* boardColSize, char* word, int index, int row, int col) {
     if (row < 0 || row == boardSize || col < 0 || col == *boardColSize || word[index] != board[row][col]) {
         return false;
@@ -28,4 +28,4 @@ bool exist(char** board, int boardSize, int* boardColSize, char* word){
     }
     return false;
 }
-```
+// ```

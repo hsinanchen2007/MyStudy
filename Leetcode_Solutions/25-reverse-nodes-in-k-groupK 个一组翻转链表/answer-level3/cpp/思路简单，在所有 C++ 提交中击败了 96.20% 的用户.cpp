@@ -1,12 +1,12 @@
-### 解题思路
-要点：dummyHead大法、断链、挂链、函数返回链表头和尾双参数。
-![image.png](https://pic.leetcode-cn.com/1bd08556d78596939198b16a7fedbef6ab1322ea5ee3dbe0af9d13377a5c46df-image.png)
+// ### 解题思路
+// 要点：dummyHead大法、断链、挂链、函数返回链表头和尾双参数。
+// ![image.png](https://pic.leetcode-cn.com/1bd08556d78596939198b16a7fedbef6ab1322ea5ee3dbe0af9d13377a5c46df-image.png)
 
-代码注释的很详细，简单易懂，如下。
+// 代码注释的很详细，简单易懂，如下。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -91,4 +91,4 @@ public:
         return headTail;
     }
 };
-```
+// ```

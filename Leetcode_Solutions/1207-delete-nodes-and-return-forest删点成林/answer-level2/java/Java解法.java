@@ -1,8 +1,8 @@
-一开始想用先序遍历的，所以方法名取了个fstScan
-但这里用后序遍历删节点更方便，所以后来就改成后序遍历了
-不过方法名还是没改……
-14ms,100%（估计用Java写的还没几个）
-```
+// 一开始想用先序遍历的，所以方法名取了个fstScan
+// 但这里用后序遍历删节点更方便，所以后来就改成后序遍历了
+// 不过方法名还是没改……
+// 14ms,100%（估计用Java写的还没几个）
+// ```
 class Solution {
     private List<TreeNode> res = new ArrayList<>();
     private Set<Integer> toDelete = new HashSet<>();
@@ -48,4 +48,4 @@ class Solution {
         }
     }
 }
-```
+// ```

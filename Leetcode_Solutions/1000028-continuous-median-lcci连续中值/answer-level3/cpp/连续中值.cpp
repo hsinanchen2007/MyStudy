@@ -1,9 +1,9 @@
-### 解题思路
-利用最大最小堆分半维护整个数字list，去中位数就跟取最大最小堆的堆顶有关了，注意要保证最大堆顶值小于最小堆顶值且两个堆size差距不超过1.
+// ### 解题思路
+// 利用最大最小堆分半维护整个数字list，去中位数就跟取最大最小堆的堆顶有关了，注意要保证最大堆顶值小于最小堆顶值且两个堆size差距不超过1.
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MedianFinder {
 private:
     priority_queue<int, vector<int>, less<int>> max_heap;//优先降序队列，即最大堆
@@ -47,4 +47,4 @@ public:
  * obj->addNum(num);
  * double param_2 = obj->findMedian();
  */
-```
+// ```

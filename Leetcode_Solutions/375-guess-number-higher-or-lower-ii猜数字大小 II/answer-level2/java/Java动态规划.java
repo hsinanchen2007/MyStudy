@@ -1,5 +1,5 @@
-使用动态规划解题，用二维数组存储所需要的最少的现金数
-```
+// 使用动态规划解题，用二维数组存储所需要的最少的现金数
+// ```
 class Solution {
     public int getMoneyAmount(int n) {
         // 横坐标代表范围的起始值， 纵坐标代表范围的最大值
@@ -20,4 +20,4 @@ class Solution {
         return record[1][n];
     }
 }
-```
+// ```

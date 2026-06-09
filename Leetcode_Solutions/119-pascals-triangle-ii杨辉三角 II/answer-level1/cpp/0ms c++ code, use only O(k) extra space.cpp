@@ -1,5 +1,5 @@
-### My code are here:
-```
+// ### My code are here:
+// ```
 //Currently the code is easy to understand. But Pascal`s Triangle is symmetrical, we can optimize the code.
 class Solution {
 public:
@@ -15,6 +15,6 @@ public:
         return kth_row;
     }
 };
-```
----
-ps. 我想锻炼下英语表达能力 :)
+// ```
+// ---
+// ps. 我想锻炼下英语表达能力 :)

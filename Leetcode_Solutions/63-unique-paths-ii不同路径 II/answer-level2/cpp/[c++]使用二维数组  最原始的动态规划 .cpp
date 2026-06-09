@@ -1,10 +1,10 @@
-### 解题思路
-在每个坐标下计算左边一格和上面一格的走法，遇到障碍时走法为0
-不过我不太明白为啥走法能超过int最大值  最后返回还在int之内
+// ### 解题思路
+// 在每个坐标下计算左边一格和上面一格的走法，遇到障碍时走法为0
+// 不过我不太明白为啥走法能超过int最大值  最后返回还在int之内
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid) {
@@ -25,4 +25,4 @@ public:
         return dp[n-1][m-1];
     }
 };
-```
+// ```

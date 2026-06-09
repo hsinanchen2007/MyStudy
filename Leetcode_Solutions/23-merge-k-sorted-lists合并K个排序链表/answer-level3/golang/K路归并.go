@@ -1,9 +1,9 @@
-这是一个典型的K路归并问题，一般两种解法：
-1. 分治，递归分解成多个二路归并
-2. 最小堆
+// 这是一个典型的K路归并问题，一般两种解法：
+// 1. 分治，递归分解成多个二路归并
+// 2. 最小堆
 
-鉴于笔者使用的是Go，因此笔者使用了第一种方法，不用造轮子
-```go
+// 鉴于笔者使用的是Go，因此笔者使用了第一种方法，不用造轮子
+// ```go
 func mergeKLists(lists []*ListNode) *ListNode {
     listsLen := len(lists)
     if listsLen == 0 {
@@ -62,4 +62,4 @@ func mergeTwoLists(l1, l2 *ListNode) *ListNode {
 
     return head
 }
-```
+// ```

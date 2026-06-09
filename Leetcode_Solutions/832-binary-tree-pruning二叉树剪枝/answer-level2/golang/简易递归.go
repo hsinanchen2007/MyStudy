@@ -1,11 +1,11 @@
-## 递归处理
+// ## 递归处理
 
-如果当前节点值为 0，且左右子树都被剪枝删除或为 nil 则减掉当前节点，即返回 nil
-不满足上述条件的情况下直接返回即可
+// 如果当前节点值为 0，且左右子树都被剪枝删除或为 nil 则减掉当前节点，即返回 nil
+// 不满足上述条件的情况下直接返回即可
 
-代码如下，0ms，2.3MB
+// 代码如下，0ms，2.3MB
 
-```go
+// ```go
 func pruneTree(root *TreeNode) *TreeNode {
     // 如果传入了空的树
 	if root == nil {
@@ -24,4 +24,4 @@ func pruneTree(root *TreeNode) *TreeNode {
 	}
 	return root
 }
-```
+// ```

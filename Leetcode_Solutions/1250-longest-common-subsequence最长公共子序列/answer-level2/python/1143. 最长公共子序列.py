@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def longestCommonSubsequence(self, text1, text2):
         """
@@ -43,4 +43,4 @@ class Solution(object):
                 last = temp
                 res = max(res, dp[j+1])
         return res
-```
+# ```

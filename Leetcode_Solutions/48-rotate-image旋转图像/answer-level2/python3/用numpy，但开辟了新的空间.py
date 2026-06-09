@@ -1,8 +1,8 @@
-### 解题思路
-转置+水平翻转
-### 代码
+# ### 解题思路
+# 转置+水平翻转
+# ### 代码
 
-```python3
+# ```python3
 import numpy
 
 
@@ -15,4 +15,4 @@ class Solution:
         temp = temp.T
         temp = numpy.fliplr(temp)
         matrix[:] = temp.tolist()
-```
+# ```

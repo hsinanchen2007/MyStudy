@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<int> selfDividingNumbers(int left, int right) {
@@ -31,11 +31,11 @@ public:
         return result;
     }
 };
-```
+// ```
 
-修改了一下 更加简单了一些
-将每个i拆分开不需要计算i的位数
-```
+// 修改了一下 更加简单了一些
+// 将每个i拆分开不需要计算i的位数
+// ```
 class Solution {
 public:
     vector<int> selfDividingNumbers(int left, int right) {
@@ -57,4 +57,4 @@ public:
         return result;
     }
 };
-```
+// ```

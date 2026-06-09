@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/34c4318335874eaec030cc1560846110084a3052670b10cff7dbb85d5b39ad48-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/34c4318335874eaec030cc1560846110084a3052670b10cff7dbb85d5b39ad48-image.png)
 
-肯定不是O(1),我再研究研究。。。
+// 肯定不是O(1),我再研究研究。。。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -19,4 +19,4 @@ var removeDuplicates = function(nums) {
     }
     return len;
 };
-```
+// ```

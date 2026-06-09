@@ -1,4 +1,4 @@
-# JAVA：
+// # JAVA：
 public int pivotIndex(int[] nums) {
 		if(nums.length<=1)return -1;
 		int ans = 0;

@@ -1,5 +1,5 @@
-代码基于python实现,击败91%
-```code
+# 代码基于python实现,击败91%
+# ```code
 """
 解题思路：
  这道题和102的层次遍历很像，我们利用队列解决层次遍历，然后设置一个标志位
@@ -33,9 +33,9 @@ class Solution(object):
             res.append(temp)
             flag *= -1
         return res
-```
+# ```
 
-```vim
+# ```vim
 更多leetcode解法更新在我的github和掘金上
 如果我的代码对你有帮助，可不可以给我一个star
-```
+# ```

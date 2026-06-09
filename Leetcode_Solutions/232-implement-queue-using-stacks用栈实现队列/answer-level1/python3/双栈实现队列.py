@@ -1,9 +1,9 @@
-### 解题思路
-用一个缓存栈去保存原数据域中的数据，对原数据域中的数据进行反转存储，以实现队列FIFO特性
+# ### 解题思路
+# 用一个缓存栈去保存原数据域中的数据，对原数据域中的数据进行反转存储，以实现队列FIFO特性
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class MyQueue:
     def __init__(self):
         """
@@ -42,4 +42,4 @@ class MyQueue:
         Returns whether the queue is empty.
         """
         return not self.data
-```
+# ```

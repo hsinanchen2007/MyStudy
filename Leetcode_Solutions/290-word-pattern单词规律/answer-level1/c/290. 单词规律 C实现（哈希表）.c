@@ -1,9 +1,9 @@
-### 解题思路
-    内置库uthash.h提供的哈希表，双100%，C实现就是代码量太大了，简单题没必要。
+// ### 解题思路
+//     内置库uthash.h提供的哈希表，双100%，C实现就是代码量太大了，简单题没必要。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct {
     int key;
     char* val;
@@ -98,4 +98,4 @@ bool wordPattern(char * pattern, char * str){
     DeleteHash(&hashTable);
     return true;
 }
-```
+// ```

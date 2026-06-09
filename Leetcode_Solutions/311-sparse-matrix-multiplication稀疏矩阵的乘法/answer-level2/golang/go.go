@@ -1,4 +1,4 @@
-```
+// ```
 func multiply(A [][]int, B [][]int) [][]int {
 	ha, wa, wb := len(A), len(A[0]), len(B[0])
 	out := make([][]int, ha)
@@ -22,4 +22,4 @@ func multiply(A [][]int, B [][]int) [][]int {
 	}
 	return out
 }
-```
+// ```

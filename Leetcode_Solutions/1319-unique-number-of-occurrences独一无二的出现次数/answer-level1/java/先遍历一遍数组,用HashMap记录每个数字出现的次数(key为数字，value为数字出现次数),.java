@@ -1,12 +1,12 @@
-### 解题思路
-//先遍历一遍数组,用哈希表记录每个数组出现的次数,
-//再遍历哈希表的value(每遍历到某个value,记录该value为myValue,再将该value置换为-1),
-//接着查看哈希表中的value是否包含myValue;
-//若包含myValue,则返回false;否则返回true.
+// ### 解题思路
+// //先遍历一遍数组,用哈希表记录每个数组出现的次数,
+// //再遍历哈希表的value(每遍历到某个value,记录该value为myValue,再将该value置换为-1),
+// //接着查看哈希表中的value是否包含myValue;
+// //若包含myValue,则返回false;否则返回true.
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean uniqueOccurrences(int[] arr) {
         Map<Integer,Integer> myHashMap = new HashMap<>();
@@ -30,4 +30,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

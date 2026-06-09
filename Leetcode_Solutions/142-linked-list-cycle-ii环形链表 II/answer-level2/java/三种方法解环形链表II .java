@@ -1,8 +1,8 @@
-### 142. 环形链表 II Medium
+// ### 142. 环形链表 II Medium
 
-### 方法1：Hash
-> Hash存一下ListNode
-```
+// ### 方法1：Hash
+// > Hash存一下ListNode
+// ```
 public ListNode detectCycle(ListNode head) {
     Set<ListNode> set = new HashSet<>();
     ListNode node = head;
@@ -13,15 +13,15 @@ public ListNode detectCycle(ListNode head) {
     }
     return null;
 }
-```
+// ```
 
 
 
 
-### 方法2：快慢指针（Floyd 算法）
->第一步：找到快慢指针相遇的节点，如果找不到，证明没有环，返回null
->第二步：head节出发与slow节点出发，相遇的节点为环的入口节点
-```
+// ### 方法2：快慢指针（Floyd 算法）
+// >第一步：找到快慢指针相遇的节点，如果找不到，证明没有环，返回null
+// >第二步：head节出发与slow节点出发，相遇的节点为环的入口节点
+// ```
  public ListNode detectCycle(ListNode head) {
          if (head == null||head.next==null) return null;
         ListNode slow = head;
@@ -38,12 +38,12 @@ public ListNode detectCycle(ListNode head) {
         }
         return head;
     }
-```
+// ```
 
 
 
-### 方法3：快慢指针（普通法）
-```
+// ### 方法3：快慢指针（普通法）
+// ```
 public ListNode detectCycle2nd(ListNode head) {
     if (head == null || head.next == null) return null;
     //step1：快慢指针找到相遇的节点，没有找到相遇的节点，证明不成环，返回null
@@ -79,6 +79,6 @@ public ListNode detectCycle2nd(ListNode head) {
     }
     return slow;
 }
-```
+// ```
 
 

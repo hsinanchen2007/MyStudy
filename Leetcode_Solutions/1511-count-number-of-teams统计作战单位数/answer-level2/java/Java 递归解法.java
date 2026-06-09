@@ -1,10 +1,10 @@
 
-> 53 / 53 个通过测试用例
-> 状态：通过
-> 执行用时：42 ms
-> 内存消耗：37.1 MB
+// > 53 / 53 个通过测试用例
+// > 状态：通过
+// > 执行用时：42 ms
+// > 内存消耗：37.1 MB
 
-```java
+// ```java
 class Solution {
     public int numTeams(int[] rating) {
         int count = 0;
@@ -38,4 +38,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

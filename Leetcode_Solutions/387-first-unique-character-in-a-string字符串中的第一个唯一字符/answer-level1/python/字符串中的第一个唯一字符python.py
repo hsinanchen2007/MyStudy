@@ -1,9 +1,9 @@
-### 解题思路
-用哈希表
+# ### 解题思路
+# 用哈希表
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def firstUniqChar(self, s: str) -> int:
         map = collections.Counter(s)
@@ -14,4 +14,4 @@ class Solution:
             if map[char] == 1:
                 return index
         
-```
+# ```

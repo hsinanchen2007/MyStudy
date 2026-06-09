@@ -1,6 +1,6 @@
-搜索树中序遍历是一个排序数组，之后取范围内的数字相加即可。
+# 搜索树中序遍历是一个排序数组，之后取范围内的数字相加即可。
 
-```
+# ```
 class Solution:
     def rangeSumBST(self, root: TreeNode, L: int, R: int) -> int:
         def dfs(root):
@@ -17,4 +17,4 @@ class Solution:
             if L<=i<=R:
                 total+=i
         return total
-```
+# ```

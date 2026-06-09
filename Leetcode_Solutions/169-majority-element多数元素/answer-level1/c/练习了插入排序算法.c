@@ -1,10 +1,10 @@
-### 解题思路
-1 将数组排序
-2 重复的数据超过n/2，因此返回数组的中间值即可
+// ### 解题思路
+// 1 将数组排序
+// 2 重复的数据超过n/2，因此返回数组的中间值即可
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void insertsort(int *a, int n)
 {
     int tmp = a[0];
@@ -56,4 +56,4 @@ int majorityElement(int* nums, int numsSize)
     }
     return val;
 }
-```
+// ```

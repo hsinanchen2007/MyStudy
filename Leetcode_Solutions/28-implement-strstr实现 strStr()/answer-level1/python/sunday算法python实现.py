@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def strStr(self, haystack, needle):
         """
@@ -42,4 +42,4 @@ class Solution(object):
 
         return -1 if idx+len(needle) >= len(haystack) else idx
 
-```
+# ```

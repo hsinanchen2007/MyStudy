@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn find_judge(n: i32, trust: Vec<Vec<i32>>) -> i32 {
         let mut people = vec![0; n as usize];
@@ -17,5 +17,5 @@ impl Solution {
         -1
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

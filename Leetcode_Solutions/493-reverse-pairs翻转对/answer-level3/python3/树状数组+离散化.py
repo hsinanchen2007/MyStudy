@@ -1,8 +1,8 @@
-这题和求逆序数很像，自然而然就想到了线段树。但是线段树一直 TLE，我测试了没过的几组，都会超过 1000ms。。。
+# 这题和求逆序数很像，自然而然就想到了线段树。但是线段树一直 TLE，我测试了没过的几组，都会超过 1000ms。。。
 
-所以是 LC 的数据在卡线段树的常数，换成树状数组直接过了。
+# 所以是 LC 的数据在卡线段树的常数，换成树状数组直接过了。
 
-```python
+# ```python
 class Solution:
     def __init__(self):
         self.bit = []
@@ -35,12 +35,12 @@ class Solution:
                 ret += self.query(i=ind) - self.query(i=disc[n * 2])
             self.update(disc[n])
         return ret    
-```
+# ```
 
 
-也附上被卡的线段树代码：
+# 也附上被卡的线段树代码：
 
-```python
+# ```python
 #
 # @lc app=leetcode.cn id=493 lang=python3
 #
@@ -98,4 +98,4 @@ class Solution:
         return ret    
 
 
-```
+# ```

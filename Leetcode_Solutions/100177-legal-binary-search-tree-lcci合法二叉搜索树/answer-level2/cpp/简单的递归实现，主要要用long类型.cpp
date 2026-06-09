@@ -1,9 +1,9 @@
-### 解题思路
-递归实现
+// ### 解题思路
+// 递归实现
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -28,4 +28,4 @@ public:
         return isValid(root->left,min,root->val)&&isValid(root->right,root->val,max);
     }
 };
-```
+// ```

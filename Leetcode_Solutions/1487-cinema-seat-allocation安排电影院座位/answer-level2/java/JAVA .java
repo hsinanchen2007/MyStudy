@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/87c2abd8825a395b4952b9075589faa8f5f3b33fe49b4c771ae832ca7d4fd6bd-image.png)
+// ![image.png](https://pic.leetcode-cn.com/87c2abd8825a395b4952b9075589faa8f5f3b33fe49b4c771ae832ca7d4fd6bd-image.png)
 
 
-位运算  。。  
-```
+// 位运算  。。  
+// ```
      int sum = 0;
 
     public int maxNumberOfFamilies(int n, int[][] reservedSeats) {
@@ -53,4 +53,4 @@
         }
         return;
     }
-```
+// ```

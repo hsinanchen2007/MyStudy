@@ -1,6 +1,6 @@
 
 
-```python []
+# ```python []
 class Solution:# 转化为字符串
     def reverse(self, x: int) -> int:
         x_str= str(x)
@@ -12,9 +12,9 @@ class Solution:# 转化为字符串
             x_out=-int(x_str)
         return x_out if-(1<<31) <= x_out <= (1<<31)-1 else 0
 
-```
+# ```
 
-```python []
+# ```python []
 class Solution:# 直接运算 耗时36ms
     def reverse(self, x: int) -> int:
         y=abs(x)
@@ -25,4 +25,4 @@ class Solution:# 直接运算 耗时36ms
         x_out=x_out if x>=0 else -x_out
         return x_out if -1<<31 <=x_out<=(1<<31)-1 else 0
 
-```
+# ```

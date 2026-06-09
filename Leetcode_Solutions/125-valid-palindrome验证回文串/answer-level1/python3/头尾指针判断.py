@@ -1,9 +1,9 @@
-### 解题思路
-python有现成函数判断 JavaScript需要正则替换掉 或者自己写判断
+# ### 解题思路
+# python有现成函数判断 JavaScript需要正则替换掉 或者自己写判断
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         left = 0
@@ -21,13 +21,13 @@ class Solution:
             left += 1
             right -= 1
         return True
-```
+# ```
 
 
-javascript 
+# javascript 
 
 
-```javascript
+# ```javascript
 /**
  * @param {string} s
  * @return {boolean}
@@ -65,4 +65,4 @@ var isPalindrome = function(s) {
   }
   return true;
 };
-```
+# ```

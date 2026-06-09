@@ -1,8 +1,8 @@
-### 解题思路
-条件语句的运用而已，负数肯定不是回文数，10以内的正整数肯定是回文数.......
-### 代码
+# ### 解题思路
+# 条件语句的运用而已，负数肯定不是回文数，10以内的正整数肯定是回文数.......
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isPalindrome(self, x: int) -> bool:
         if x<0:
@@ -16,4 +16,4 @@ class Solution:
                 return True
             else:
                 return False
-```
+# ```

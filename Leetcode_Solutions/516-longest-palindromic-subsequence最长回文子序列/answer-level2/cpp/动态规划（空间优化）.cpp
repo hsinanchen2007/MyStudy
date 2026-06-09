@@ -1,12 +1,12 @@
-这个问题可以转化为原字符串s和其逆序r的最长公共子序列问题。
+// 这个问题可以转化为原字符串s和其逆序r的最长公共子序列问题。
 
-若用f[i][j]表示字符串s前i个字符构成的字符串，与r前j个字符构成的字符串的最长公共子序列。
-那么状态传递函数可以表示为：
-f[i][j] = f[i-1][j-1] + 1, 如果 s[i] == r[j]
-f[i][j] = max(f[i-1][j], f[i][j-1]), 如果 s[i] != r[j]
+// 若用f[i][j]表示字符串s前i个字符构成的字符串，与r前j个字符构成的字符串的最长公共子序列。
+// 那么状态传递函数可以表示为：
+// f[i][j] = f[i-1][j-1] + 1, 如果 s[i] == r[j]
+// f[i][j] = max(f[i-1][j], f[i][j-1]), 如果 s[i] != r[j]
 
-代码如下：
-int longestPalindromeSubseq(string s) {：
+// 代码如下：
+// int longestPalindromeSubseq(string s) {：
     int len = (int)s.length();
     string r(s);
     reverse(s.begin(), s.end());

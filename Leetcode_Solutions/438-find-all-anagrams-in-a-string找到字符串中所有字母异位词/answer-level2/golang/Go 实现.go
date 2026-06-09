@@ -1,6 +1,6 @@
-用字符串每个字符的累乘结果唯一标识这个字符串（反正也不要求顺序）
+// 用字符串每个字符的累乘结果唯一标识这个字符串（反正也不要求顺序）
 
-```
+// ```
 func getSum(s string) int {   // 判断两个字符串是否为字母异位词
     sum := 1
     for i:=0; i<len(s); i++ {
@@ -24,4 +24,4 @@ func findAnagrams(s string, p string) []int {
     }
     return ans
 }
-```
+// ```

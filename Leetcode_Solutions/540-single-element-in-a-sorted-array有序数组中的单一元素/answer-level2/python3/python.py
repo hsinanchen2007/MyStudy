@@ -1,9 +1,9 @@
-### 解题思路
-先将nums存入字典，然后利用字典进行求解。（执行用时还是很菜）
+# ### 解题思路
+# 先将nums存入字典，然后利用字典进行求解。（执行用时还是很菜）
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def singleNonDuplicate(self, nums: List[int]) -> int:
         if len(nums) == 1:
@@ -20,4 +20,4 @@ class Solution:
             else:
                 return i
        
-```
+# ```

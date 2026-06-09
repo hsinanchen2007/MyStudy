@@ -1,6 +1,6 @@
-解题思路：首先通过二分法找到该target的位置，如果没有找到则返回-1，如果找到则再次通过二分法找target的边界值，
-总共两次，一次找左边的边界值，一次找右边的边界值
-```
+// 解题思路：首先通过二分法找到该target的位置，如果没有找到则返回-1，如果找到则再次通过二分法找target的边界值，
+// 总共两次，一次找左边的边界值，一次找右边的边界值
+// ```
 class Solution {
     public int searchRange(int[] nums, int target,int type) {
         int start = 0,end = nums.length - 1;
@@ -36,4 +36,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

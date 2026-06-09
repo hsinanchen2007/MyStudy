@@ -1,12 +1,12 @@
-### 解题思路
-思路基本写在代码里了，附上提交测评结果，哈哈~~
+// ### 解题思路
+// 思路基本写在代码里了，附上提交测评结果，哈哈~~
 
-![微信截图_20200318114738.png](https://pic.leetcode-cn.com/1c1fc4274019a7a5ac657554156f3bd64fa3be30c7fb6ab055cbb71a1deef3bd-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200318114738.png)
+// ![微信截图_20200318114738.png](https://pic.leetcode-cn.com/1c1fc4274019a7a5ac657554156f3bd64fa3be30c7fb6ab055cbb71a1deef3bd-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200318114738.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> generateMatrix(int n) {
@@ -32,4 +32,4 @@ public:
         return res;
     }
 };
-```
+// ```

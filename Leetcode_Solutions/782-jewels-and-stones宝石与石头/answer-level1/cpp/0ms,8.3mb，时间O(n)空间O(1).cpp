@@ -1,4 +1,4 @@
-`
+// `
 class Solution {
 public:
     int numJewelsInStones(string J, string S) {
@@ -11,5 +11,5 @@ public:
         return res;
     }
 };
-`
+// `
 另外++res改成res++时间会多很多？？？

@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/8d1ebc589cb53fa31e5dc6ee3fb7f5bc106facc1147477e07a1c4d73e89fd240-image.png)
-```
+# ![image.png](https://pic.leetcode-cn.com/8d1ebc589cb53fa31e5dc6ee3fb7f5bc106facc1147477e07a1c4d73e89fd240-image.png)
+# ```
 class AnimalShelf(object):
 
     def __init__(self):
@@ -55,4 +55,4 @@ class AnimalShelf(object):
         return [-1,-1]
 
 
-```
+# ```

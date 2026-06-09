@@ -1,10 +1,10 @@
-## 思路
+// ## 思路
 
 
-### 代码
-时间复杂度：O(n)
-空间复杂度：O(n)
-```cpp
+// ### 代码
+// 时间复杂度：O(n)
+// 空间复杂度：O(n)
+// ```cpp
 class Solution {
 public:
     char firstUniqChar(string s) {
@@ -18,4 +18,4 @@ public:
         return ' ';
     }
 };
-```
+// ```

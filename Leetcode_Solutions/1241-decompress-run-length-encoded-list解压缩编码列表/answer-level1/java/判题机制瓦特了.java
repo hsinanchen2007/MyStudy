@@ -1,7 +1,7 @@
-看到别人Java 2ms，我这代码50ms却也提示超过100%，一言难尽。
-看到这题目的描述，emmm，又想起来赛场上被题目描述虐的场景，算法题的描述绝对是我做过最难的阅读理解，这特么更是一言难尽。
+// 看到别人Java 2ms，我这代码50ms却也提示超过100%，一言难尽。
+// 看到这题目的描述，emmm，又想起来赛场上被题目描述虐的场景，算法题的描述绝对是我做过最难的阅读理解，这特么更是一言难尽。
 
-``` java
+// ``` java
 class Solution {
     public int[] decompressRLElist(int[] nums) {
 
@@ -13,4 +13,4 @@ class Solution {
         return list.stream().mapToInt(Integer::valueOf).toArray();
     }
 }
-```
+// ```

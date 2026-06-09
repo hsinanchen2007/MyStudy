@@ -1,5 +1,5 @@
-Python3 解法
-```
+# Python3 解法
+# ```
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         n = len(nums)
@@ -32,4 +32,4 @@ class Solution:
                     r -= 1
                     
         return res            
-````
+# ````

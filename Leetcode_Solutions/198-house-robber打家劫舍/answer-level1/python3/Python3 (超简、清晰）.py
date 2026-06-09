@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def rob(self, nums: List[int]) -> int:
         n = len(nums)
@@ -14,9 +14,9 @@ class Solution:
         return max(dp[n][0], dp[n][1]) # dp数组最后一个房子抢或不抢的最大值
         # 时间复杂度：O(n)
         # 空间复杂度：O(n)
-```
-优化空间：
-```python []
+# ```
+# 优化空间：
+# ```python []
 class Solution:
     def rob(self, nums: List[int]) -> int:
         yes, no = 0, 0
@@ -25,4 +25,4 @@ class Solution:
         return max(yes, no)
         # 时间复杂度：O(n)
         # 空间复杂度：O(1)
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-仍然使用快慢指针的思路，唯一需要注意的是最后元素的处理
+// ### 解题思路
+// 仍然使用快慢指针的思路，唯一需要注意的是最后元素的处理
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -29,4 +29,4 @@ class Solution {
         return head;
     }
 }
-```
+// ```

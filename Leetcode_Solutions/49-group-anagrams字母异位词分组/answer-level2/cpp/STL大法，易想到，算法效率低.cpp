@@ -1,11 +1,11 @@
-### 解题思路
-map<char,int> 一个map用来存一个字符串出现的各个字母次数
-map<map<char,int>,vector<string> > 一个map用来存字母出现次数相同的字符串们
-就很好写了，当然内存和时间都不理想
+// ### 解题思路
+// map<char,int> 一个map用来存一个字符串出现的各个字母次数
+// map<map<char,int>,vector<string> > 一个map用来存字母出现次数相同的字符串们
+// 就很好写了，当然内存和时间都不理想
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:    
     map<map<char,int>,vector<string> >mp;
@@ -23,4 +23,4 @@ public:
         return ans;
     }
 };
-```
+// ```

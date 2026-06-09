@@ -1,4 +1,4 @@
-```js
+// ```js
 var numEquivDominoPairs = function(dominoes) {
     let count = 0
     let map = new Map()
@@ -18,4 +18,4 @@ var numEquivDominoPairs = function(dominoes) {
     }
     return count
 };
-```
+// ```

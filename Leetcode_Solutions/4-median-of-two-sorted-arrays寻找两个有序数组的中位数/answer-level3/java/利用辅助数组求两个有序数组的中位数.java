@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
-1、创建辅助数组help，长度等于(num1长度+nums2长度)/2+1,
-2、从nums1和nums2向help数组赋值，谁小谁赋值
-如果两个数组长度和为奇数，则数组最后一位是中位数，
-如果两个数组长度和为偶数，则数组后两位的平均数是中位数，
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 1、创建辅助数组help，长度等于(num1长度+nums2长度)/2+1,
+// 2、从nums1和nums2向help数组赋值，谁小谁赋值
+// 如果两个数组长度和为奇数，则数组最后一位是中位数，
+// 如果两个数组长度和为偶数，则数组后两位的平均数是中位数，
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         double res = 0.0;
@@ -37,4 +37,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

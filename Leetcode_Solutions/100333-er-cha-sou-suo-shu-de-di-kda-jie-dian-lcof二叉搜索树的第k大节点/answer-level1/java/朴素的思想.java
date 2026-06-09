@@ -1,9 +1,9 @@
-### 解题思路
-中序遍历即是有序的，旋转一下即可得到第K大的。
+// ### 解题思路
+// 中序遍历即是有序的，旋转一下即可得到第K大的。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -38,4 +38,4 @@ class Solution {
         }
     }
 }
-```
+// ```

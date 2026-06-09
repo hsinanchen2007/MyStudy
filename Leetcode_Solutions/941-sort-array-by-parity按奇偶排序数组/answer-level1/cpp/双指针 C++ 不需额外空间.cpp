@@ -1,9 +1,9 @@
-维护两个指针 $left$ 和 $right$。
-使得 $left$ 永远指向从数组头部往后的第一个奇数。
-而 $right$ 永远指向从数组尾部往前的第一个偶数。
-* 注意三个边界判断，$left < A.size()$，$right >= 0$ 和  $left < right$。
+// 维护两个指针 $left$ 和 $right$。
+// 使得 $left$ 永远指向从数组头部往后的第一个奇数。
+// 而 $right$ 永远指向从数组尾部往前的第一个偶数。
+// * 注意三个边界判断，$left < A.size()$，$right >= 0$ 和  $left < right$。
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> sortArrayByParity(vector<int>& A) {
@@ -17,4 +17,4 @@ public:
         return A;
     }
 };
-```
+// ```

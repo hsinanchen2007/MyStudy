@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def orangesRotting(self, grid):
         """
@@ -50,4 +50,4 @@ class Solution(object):
         else:
             return round
 
-```
+# ```

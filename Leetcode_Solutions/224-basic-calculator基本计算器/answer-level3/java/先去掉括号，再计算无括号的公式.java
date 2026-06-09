@@ -1,10 +1,10 @@
-### 解题思路
-利用refresh去掉括号，利用doCalculate计算无括号的公式。
-整个计算先去掉最里层的括号，然后依次去掉外层括号，笨办法。
+// ### 解题思路
+// 利用refresh去掉括号，利用doCalculate计算无括号的公式。
+// 整个计算先去掉最里层的括号，然后依次去掉外层括号，笨办法。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
      private static final char LEFT_BRACKET = '(';
     private static final char RIGHT_BRACKET = ')';
@@ -48,4 +48,4 @@ class Solution {
     }
 
 }
-```
+// ```

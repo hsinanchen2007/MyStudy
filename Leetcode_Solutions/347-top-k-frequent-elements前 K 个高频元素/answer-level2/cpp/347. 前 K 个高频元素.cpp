@@ -1,6 +1,6 @@
 
 
-```cpp
+// ```cpp
 class Solution {
 public:
     //return true表示不交换，前面的大于后的时候不交换，降序排列
@@ -26,4 +26,4 @@ public:
         return res;
     }
 };
-```
+// ```

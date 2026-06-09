@@ -1,8 +1,8 @@
-# 解法一 dp
-- 只是由 [95. 不同的二叉搜索树 II](https://leetcode-cn.com/problems/unique-binary-search-trees-ii/) 的 `3个for+1个递归` 的问题 转换成 `2个for + 乘法`的问题
-- 递归结果被存于G内，`递归`被消灭
-- `2个for` 合并成 `乘法`,`1个for`被消灭
-```golang
+// # 解法一 dp
+// - 只是由 [95. 不同的二叉搜索树 II](https://leetcode-cn.com/problems/unique-binary-search-trees-ii/) 的 `3个for+1个递归` 的问题 转换成 `2个for + 乘法`的问题
+// - 递归结果被存于G内，`递归`被消灭
+// - `2个for` 合并成 `乘法`,`1个for`被消灭
+// ```golang
 func numTrees(n int) int {
 	G := make([]int, n+1)
 	G[0], G[1] = 1, 1
@@ -14,11 +14,11 @@ func numTrees(n int) int {
 	}
 	return G[n]
 }
-```
+// ```
 
-# 解法二 卡特兰数公式
-- 其实这个公式也只是更进一步，把`2个for + 乘法`的问题继续转换成 `1个for+乘法` 的问题 
-```golang
+// # 解法二 卡特兰数公式
+// - 其实这个公式也只是更进一步，把`2个for + 乘法`的问题继续转换成 `1个for+乘法` 的问题 
+// ```golang
 func numTrees(n int) int {
 	C := 1
 	for i := 0; i < n; i++ {
@@ -26,8 +26,8 @@ func numTrees(n int) int {
 	}
 	return C
 }
-```
+// ```
 
 
-# 会不会还有`只有一个乘法的问题`？？？？
-[github](https://github.com/temporaries/leetcode)
+// # 会不会还有`只有一个乘法的问题`？？？？
+// [github](https://github.com/temporaries/leetcode)

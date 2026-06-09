@@ -1,8 +1,8 @@
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 #include <stack>
 
 //双栈法
@@ -68,10 +68,10 @@ public:
  * int param_3 = obj->peek();
  * bool param_4 = obj->empty();
  */
-```
+// ```
 
-第二种方法，官方题解里用到了摊还分析
-```cpp
+// 第二种方法，官方题解里用到了摊还分析
+// ```cpp
 #include <stack>
 
 //双栈法
@@ -138,4 +138,4 @@ public:
  * int param_3 = obj->peek();
  * bool param_4 = obj->empty();
  */
-```
+// ```

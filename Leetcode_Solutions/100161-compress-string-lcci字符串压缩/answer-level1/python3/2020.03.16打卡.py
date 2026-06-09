@@ -1,9 +1,9 @@
-### 解题思路
-遍历字符串。
+# ### 解题思路
+# 遍历字符串。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def compressString(self, S: str) -> str:
         if not S: return ''
@@ -23,4 +23,4 @@ class Solution:
 
             
 
-```
+# ```

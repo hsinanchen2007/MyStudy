@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-开始学动态规划的第一题 用的等价的自定向下记忆法 其他更牛逼的解法在探索中
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 开始学动态规划的第一题 用的等价的自定向下记忆法 其他更牛逼的解法在探索中
+// ### 代码
 
-```c
+// ```c
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -51,4 +51,4 @@ bool canJump(int* nums, int numsSize)
     return cal_canJump(nums, numsSize, 0);
 }
 
-```
+// ```

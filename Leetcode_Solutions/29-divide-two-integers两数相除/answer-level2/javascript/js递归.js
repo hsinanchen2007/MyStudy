@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/2f4c7f80f7ee5b22ca7e0536a9a41e3ff74df902657cae8d10b0ab9a24c6a119-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/2f4c7f80f7ee5b22ca7e0536a9a41e3ff74df902657cae8d10b0ab9a24c6a119-image.png)
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} dividend
  * @param {number} divisor
@@ -55,4 +55,4 @@ var divide = function(dividend, divisor) {
     }
     return Number(flag + res);
 };
-```
+// ```

@@ -1,5 +1,5 @@
-找第一个小于前面的数
-```
+// 找第一个小于前面的数
+// ```
 class Solution {
     public int minArray(int[] numbers) {
         for(int i=0;i<numbers.length-1;i++){
@@ -10,4 +10,4 @@ class Solution {
     }
 }
 
-```
+// ```

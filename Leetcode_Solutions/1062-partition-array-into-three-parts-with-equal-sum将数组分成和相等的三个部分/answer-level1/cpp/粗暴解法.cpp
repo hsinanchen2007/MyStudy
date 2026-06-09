@@ -1,9 +1,9 @@
-### 解题思路
-分别计算左边，右边以及中间的值是否等于sum/3，若相等且中间长度>=1，则返回true。
+// ### 解题思路
+// 分别计算左边，右边以及中间的值是否等于sum/3，若相等且中间长度>=1，则返回true。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool canThreePartsEqualSum(vector<int>& A) {
@@ -36,4 +36,4 @@ public:
         return false;
     }
 };
-```
+// ```

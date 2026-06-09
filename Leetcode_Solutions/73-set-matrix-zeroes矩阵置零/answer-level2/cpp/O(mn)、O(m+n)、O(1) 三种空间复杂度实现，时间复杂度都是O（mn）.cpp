@@ -1,5 +1,5 @@
-1. O（mn）
-```
+// 1. O（mn）
+// ```
 struct location{//保存值为0的元素的坐标值
     int x;
     int y;
@@ -23,10 +23,10 @@ void setZeroes(vector<vector<int>>& matrix) {
         }
     }
 }
-```
+// ```
 
-2. O（m+n）
-```
+// 2. O（m+n）
+// ```
 void setZeroes(vector<vector<int>>& matrix) {
     unordered_set<int> row;//保存应该置零的行坐标
     unordered_set<int> column;//保存应该置零的列坐标
@@ -49,11 +49,11 @@ void setZeroes(vector<vector<int>>& matrix) {
         }
     }
 }
-```
+// ```
 
-3. O（1）
+// 3. O（1）
 
-```
+// ```
 void setZeroes(vector<vector<int>>& matrix) {
     bool row = false;//第一行是否需要置零
     bool column = false;//第一列是否需要置零
@@ -96,5 +96,5 @@ void setZeroes(vector<vector<int>>& matrix) {
         }
     }
 }
-```
+// ```
 

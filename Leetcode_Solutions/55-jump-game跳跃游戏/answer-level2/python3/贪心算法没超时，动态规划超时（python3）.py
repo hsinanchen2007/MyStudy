@@ -1,6 +1,6 @@
-**贪心算法代码，时间内复杂度O(n)，空间复杂度O(1)**
-思路：始终找当前位置最大的跳跃数
-```
+# **贪心算法代码，时间内复杂度O(n)，空间复杂度O(1)**
+# 思路：始终找当前位置最大的跳跃数
+# ```
 class Solution:
     def canJump(self, nums: List[int]) -> bool:
         if len(nums)==1:
@@ -19,10 +19,10 @@ class Solution:
         if count>=len(nums):
             return True
         return False
-```
-**动态规划代码，时间复杂度O(n^2)，空间复杂度O(n)**
-思路：定义二维数组，所有位置是否被访问，都被访问则返回True
-```
+# ```
+# **动态规划代码，时间复杂度O(n^2)，空间复杂度O(n)**
+# 思路：定义二维数组，所有位置是否被访问，都被访问则返回True
+# ```
 class Solution:
     def canJump(self, nums: List[int]) -> bool:
         n = len(nums)
@@ -39,4 +39,4 @@ class Solution:
             if two_dim_list[0][i]!=1:
                 return False
         return True
-```
+# ```

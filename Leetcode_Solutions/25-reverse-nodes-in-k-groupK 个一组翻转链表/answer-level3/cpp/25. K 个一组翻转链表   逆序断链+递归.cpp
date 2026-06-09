@@ -1,11 +1,11 @@
-### 解题思路
-1-2-3-4-5-6
-==3-2-1-反转（4-5-6）
-head->next=reverseKGroup(cur,k);
+// ### 解题思路
+// 1-2-3-4-5-6
+// ==3-2-1-反转（4-5-6）
+// head->next=reverseKGroup(cur,k);
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -37,4 +37,4 @@ public:
             return pre;
     }
 };
-```
+// ```

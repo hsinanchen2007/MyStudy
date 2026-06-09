@@ -1,11 +1,11 @@
-### 解题思路
-![TIM截图20200319152238.png](https://pic.leetcode-cn.com/c09167ddec31be0490303bc176024eca552d55d36c2a496dc190f48c7a0195c4-TIM%E6%88%AA%E5%9B%BE20200319152238.png)
-1.首先判断n是否是质数，若是质数则只能一次一次复制直到n，总共按键n次。
-2.若不是质数，找n的最大因子len。
-3.达到n的按键次数等于达到len的按键，再多按 n/len次，即复制一次，粘贴n/len-1次。
-### 代码
+// ### 解题思路
+// ![TIM截图20200319152238.png](https://pic.leetcode-cn.com/c09167ddec31be0490303bc176024eca552d55d36c2a496dc190f48c7a0195c4-TIM%E6%88%AA%E5%9B%BE20200319152238.png)
+// 1.首先判断n是否是质数，若是质数则只能一次一次复制直到n，总共按键n次。
+// 2.若不是质数，找n的最大因子len。
+// 3.达到n的按键次数等于达到len的按键，再多按 n/len次，即复制一次，粘贴n/len-1次。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minSteps(int n) {
@@ -38,4 +38,4 @@ public:
     }
 
 };
-```
+// ```

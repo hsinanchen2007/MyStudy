@@ -1,5 +1,5 @@
-一个数组记录认识别人的人数，一个数组记录认识自己的人数
-```
+// 一个数组记录认识别人的人数，一个数组记录认识自己的人数
+// ```
 public int findCelebrity(int n) {
     int[] knowOther = new int[n];
     int[] otherKnow = new int[n];
@@ -18,4 +18,4 @@ public int findCelebrity(int n) {
     }
     return -1;
 }
-```
+// ```

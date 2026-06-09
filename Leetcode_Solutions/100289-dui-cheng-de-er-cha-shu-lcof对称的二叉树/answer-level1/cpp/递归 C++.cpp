@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     bool helper(TreeNode* left,TreeNode* right){
         if(!left && !right) return true; // 左右子树都不存在
@@ -11,4 +11,4 @@ public:
         return helper(root->left,root->right);
     }
 };
-```
+// ```

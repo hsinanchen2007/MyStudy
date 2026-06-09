@@ -1,6 +1,6 @@
-三个点在一条直线上，必须满足：三个点两两之间的斜率相等
-如果不相等就不在一条直线上。
-```python []
+# 三个点在一条直线上，必须满足：三个点两两之间的斜率相等
+# 如果不相等就不在一条直线上。
+# ```python []
 class Solution(object):
     def isBoomerang(self, points):
         c=[]
@@ -17,4 +17,4 @@ class Solution(object):
             print('是回旋镖：')
             flag=True
         return flag
-```
+# ```

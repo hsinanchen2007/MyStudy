@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-只要知道栈的结构即可轻松使用线性数组来模拟
+// 只要知道栈的结构即可轻松使用线性数组来模拟
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class MyStack {
     
     public var list: Array<Int> = [];
@@ -34,4 +34,4 @@ class MyStack {
         return list.isEmpty
     }
 }
-```
+// ```

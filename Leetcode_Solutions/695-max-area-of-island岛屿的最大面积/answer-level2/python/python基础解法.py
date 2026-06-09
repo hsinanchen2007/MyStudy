@@ -1,11 +1,11 @@
-### 解题思路
-1. 深度优先搜索，使用递归实现dfs
-2. 用栈实现深度优先搜索
-3. 也可以使用队列实现bfs
+# ### 解题思路
+# 1. 深度优先搜索，使用递归实现dfs
+# 2. 用栈实现深度优先搜索
+# 3. 也可以使用队列实现bfs
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     # def dfs(self, grid, cur_i, cur_j):
     #     if cur_i < 0 or cur_j < 0 or cur_i == len(grid) or cur_j == len(grid[0]) or grid[cur_i][cur_j] != 1:
@@ -40,4 +40,4 @@ class Solution:
                         stack.append((next_i, next_j))
                 ans = max(ans, cur)
         return ans
-```
+# ```

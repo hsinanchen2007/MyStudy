@@ -1,8 +1,8 @@
-### 解题思路
-就是BFS搜索。挺简单。遗憾的是，C没有hashmap。map我用一维数组来表示。
-### 代码
+// ### 解题思路
+// 就是BFS搜索。挺简单。遗憾的是，C没有hashmap。map我用一维数组来表示。
+// ### 代码
 
-```c
+// ```c
 typedef struct node_t {
     int val;
     int step;
@@ -42,4 +42,4 @@ int coinChange(int* coins, int coinsSize, int amount){
     }
     return -1;
 }
-```
+// ```

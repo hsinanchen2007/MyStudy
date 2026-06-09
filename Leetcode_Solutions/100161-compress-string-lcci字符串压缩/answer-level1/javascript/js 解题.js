@@ -1,13 +1,13 @@
-![image.png](https://pic.leetcode-cn.com/489e4a3b14da723050dd4d18a8088bcbf7dbdbe01c9b9b0fabc2cf5f557c4c26-image.png)
+// ![image.png](https://pic.leetcode-cn.com/489e4a3b14da723050dd4d18a8088bcbf7dbdbe01c9b9b0fabc2cf5f557c4c26-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
 按题目要求统计即可
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} S
  * @return {string}
@@ -31,4 +31,4 @@ var compressString = function(S) {
   
   return newStr.length < S.length ? newStr : S;
 };
-```
+// ```

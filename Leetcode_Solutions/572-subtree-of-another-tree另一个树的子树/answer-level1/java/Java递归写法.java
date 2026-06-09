@@ -1,9 +1,9 @@
-![image.png](https://pic.leetcode-cn.com/ff18358fad395a75d9107b883a7507c7f9c1ef86d2807a6c158c65de395bbbfd-image.png)
+// ![image.png](https://pic.leetcode-cn.com/ff18358fad395a75d9107b883a7507c7f9c1ef86d2807a6c158c65de395bbbfd-image.png)
 
 
 
 
-```
+// ```
 class Solution {
     public boolean isSubtree(TreeNode s, TreeNode t) {
         if(s==null)
@@ -20,4 +20,4 @@ class Solution {
         return s.val==t.val&&isEqual(s.left,t.left)&&isEqual(s.right,t.right);
     }
 }
-```
+// ```

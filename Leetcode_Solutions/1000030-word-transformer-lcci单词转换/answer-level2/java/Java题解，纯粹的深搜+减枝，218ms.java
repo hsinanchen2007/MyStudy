@@ -1,8 +1,8 @@
-1. 已经找到的单词后面不需要再经过了，故需要个hashSet.remove(nextWord)。
-2. 仔细审题发现只要给出一个答案即可，故加了个剪枝条件(result == null)。
+// 1. 已经找到的单词后面不需要再经过了，故需要个hashSet.remove(nextWord)。
+// 2. 仔细审题发现只要给出一个答案即可，故加了个剪枝条件(result == null)。
 
 
-```
+// ```
 class Solution {
     private Set<String> hashSet = new HashSet<>();
 
@@ -49,4 +49,4 @@ class Solution {
         }
     }
 }
-```
+// ```

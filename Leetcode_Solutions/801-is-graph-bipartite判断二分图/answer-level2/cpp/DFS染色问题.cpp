@@ -1,9 +1,9 @@
-### 解题思路
-dfs染色问题
+// ### 解题思路
+// dfs染色问题
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void DFS(vector<vector<int>>& graph, int i, vector<int>& color, int current_color, bool &res){
@@ -27,4 +27,4 @@ public:
         return res;
     }
 };
-```
+// ```

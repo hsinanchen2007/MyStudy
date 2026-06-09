@@ -1,8 +1,8 @@
-要求：
-1. 输入字符串的数学表达式；
-2. 可以计算包括 + - * / 四种运算；
-3. 输入的字符串可能包含空格；
-```
+// 要求：
+// 1. 输入字符串的数学表达式；
+// 2. 可以计算包括 + - * / 四种运算；
+// 3. 输入的字符串可能包含空格；
+// ```
 class Solution {
 public:
     int calculate(std::string s) {
@@ -89,4 +89,4 @@ void compute(std::stack<int> &number_stack, std::stack<char> &operation_stack){
 }
 
 };
-```
+// ```

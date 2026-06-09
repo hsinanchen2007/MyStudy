@@ -1,9 +1,9 @@
-### 解题思路
-很基本的二分查找题型。要注意减少函数guess()的调用，否则耗时会增加。即不要在每个if-else判断中调用一次guess()，而是在每次循环都用一个变量cmp记录下函数调用的结果，否则一次循环函数调用次数为2次。
+// ### 解题思路
+// 很基本的二分查找题型。要注意减少函数guess()的调用，否则耗时会增加。即不要在每个if-else判断中调用一次guess()，而是在每次循环都用一个变量cmp记录下函数调用的结果，否则一次循环函数调用次数为2次。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /* The guess API is defined in the parent class GuessGame.
    @param num, your guess
    @return -1 if my number is lower, 1 if my number is higher, otherwise return 0
@@ -23,4 +23,4 @@ public class Solution extends GuessGame {
         return -1;
     }
 }
-```
+// ```

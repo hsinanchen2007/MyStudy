@@ -1,5 +1,5 @@
 
-```c++ []
+# ```c++ []
 class Codec {
 public:
     TreeNode* encode(Node* root) {
@@ -27,8 +27,8 @@ public:
         return res;
     }
 };
-```
-```python []
+# ```
+# ```python []
 class Codec:
 
     def encode(self, root):
@@ -61,5 +61,5 @@ class Codec:
             cur = cur.right
         return res
 
-```
+# ```
 

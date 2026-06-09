@@ -1,8 +1,8 @@
-### 解题思路
-代码很简单 一看就会
-### 代码
+// ### 解题思路
+// 代码很简单 一看就会
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	int minPathSum(vector<vector<int>>& grid)
@@ -30,4 +30,4 @@ public:
 		return grid[rows - 1][cols - 1];
 	}
 };
-```
+// ```

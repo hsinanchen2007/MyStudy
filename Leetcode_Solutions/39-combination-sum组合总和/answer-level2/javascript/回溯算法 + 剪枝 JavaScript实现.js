@@ -1,4 +1,4 @@
-```
+// ```
 var combinationSum = function (candidates, target) {
     var resultList = [];
     var combin = function (value, path) {
@@ -19,4 +19,4 @@ var combinationSum = function (candidates, target) {
     combin(target, []);
     return resultList;
 };
-```
+// ```

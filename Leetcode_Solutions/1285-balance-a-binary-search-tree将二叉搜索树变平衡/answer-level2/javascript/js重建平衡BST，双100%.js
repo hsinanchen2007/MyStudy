@@ -1,4 +1,4 @@
-```
+// ```
 var balanceBST = function(root) {
     // 获取节点值。bst中序遍历返回升序数组。
     let arr = [];
@@ -36,9 +36,9 @@ var balanceBST = function(root) {
     buildTree(h, arr, mid);
     return h;
 };
-```
+// ```
 
-前端算法库：https://github.com/cunzaizhuyi/js-leetcode  
-这里记录了我刷过的近500道LeetCode的题解，
-希望对前端同行找工作面试、修炼算法内功有帮助。
-前端算法交流群：621067993
+// 前端算法库：https://github.com/cunzaizhuyi/js-leetcode  
+// 这里记录了我刷过的近500道LeetCode的题解，
+// 希望对前端同行找工作面试、修炼算法内功有帮助。
+// 前端算法交流群：621067993

@@ -1,6 +1,6 @@
-> 记录起始的节点和结束的节点，最后重新链接节点，缺点是定义的值比较多
+// > 记录起始的节点和结束的节点，最后重新链接节点，缺点是定义的值比较多
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -32,4 +32,4 @@ class Solution {
     return p2.next;
   }
 }
-```
+// ```

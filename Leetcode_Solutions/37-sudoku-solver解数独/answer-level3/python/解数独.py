@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def solveSudoku(self, board: List[List[str]]) -> None:
         """
@@ -85,4 +85,4 @@ class Solution:
                     if (back(board,n + 1,0)):
                         return True
         back(board,0,0)
-```
+# ```

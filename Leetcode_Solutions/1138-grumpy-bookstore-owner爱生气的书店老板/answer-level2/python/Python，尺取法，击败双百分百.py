@@ -1,5 +1,5 @@
-首先非生气时的客户数量可以直接单独统计，把题目转换为：生气状态下，尺取范围内的最大客户数量。
-```
+# 首先非生气时的客户数量可以直接单独统计，把题目转换为：生气状态下，尺取范围内的最大客户数量。
+# ```
 # 优化的尺取法
 class Solution(object):
     def maxSatisfied(self, customers, grumpy, X):
@@ -41,4 +41,4 @@ class Solution(object):
         # 返回非生气下的客户数及抑制生气时的最大客户是，即最多的客户感到满足的数量
         return ans + max_v
         
-```
+# ```

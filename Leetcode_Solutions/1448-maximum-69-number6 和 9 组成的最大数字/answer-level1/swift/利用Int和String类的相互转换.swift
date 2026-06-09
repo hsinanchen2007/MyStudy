@@ -1,11 +1,11 @@
-### 解题思路
-执行用时 :
-0 ms, 在所有 Swift 提交中击败了100.00%的用户
-内存消耗 :20.8 MB, 在所有 Swift 提交中击败了100.00%的用户
+// ### 解题思路
+// 执行用时 :
+// 0 ms, 在所有 Swift 提交中击败了100.00%的用户
+// 内存消耗 :20.8 MB, 在所有 Swift 提交中击败了100.00%的用户
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func maximum69Number (_ num: Int) -> Int {
         
@@ -28,4 +28,4 @@ class Solution {
         return Int.init(string) ?? 0
     }
 }
-```
+// ```

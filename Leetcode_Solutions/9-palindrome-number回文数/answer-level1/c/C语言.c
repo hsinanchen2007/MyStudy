@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路 怎么简单的题都不会 很菜！
+// ### 解题思路
+// 此处撰写解题思路 怎么简单的题都不会 很菜！
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isPalindrome(int x){
     // if ( x < 0) return false;
     // //if ( x >= 0 && x < 10 ) return true;
@@ -32,4 +32,4 @@ bool isPalindrome(int x){
 
 
 }
-```
+// ```

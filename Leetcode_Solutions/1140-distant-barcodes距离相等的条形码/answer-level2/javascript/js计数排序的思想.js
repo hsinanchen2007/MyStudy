@@ -1,11 +1,11 @@
-![image.png](https://pic.leetcode-cn.com/4c4151b32cbcec49a39164f6053bbbb6efda4dab2367770f3798d1fb14993dc7-image.png)
+// ![image.png](https://pic.leetcode-cn.com/4c4151b32cbcec49a39164f6053bbbb6efda4dab2367770f3798d1fb14993dc7-image.png)
 
-### 解题思路
-见代码注释
+// ### 解题思路
+// 见代码注释
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} barcodes
  * @return {number[]}
@@ -62,4 +62,4 @@ var rearrangeBarcodes = function(barcodes) {
   
   return barcodes;
 };
-```
+// ```

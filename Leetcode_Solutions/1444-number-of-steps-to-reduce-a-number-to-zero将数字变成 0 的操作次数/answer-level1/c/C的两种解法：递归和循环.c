@@ -1,9 +1,9 @@
-### 解题思路
-show  code
+// ### 解题思路
+// show  code
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /*
     while循环解法
 */
@@ -25,4 +25,4 @@ int numberOfSteps(int num){
     if(num%2) return numberOfSteps(num-1)+1;
     else return numberOfSteps(num>>1)+1;
 }
-```
+// ```

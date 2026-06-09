@@ -1,12 +1,12 @@
-### 解题思路
-两种解决方案中，分别使用到了Semaphore及AtomicInteger来完成线程间互斥。
-1. 使用AtomicInteger时，使用了while及LockSupport来完成线程等待。
-2. Semaphore解决方案
-参考链接：https://leetcode-cn.com/problems/fizz-buzz-multithreaded/solution/liang-chong-javajie-jue-fang-an-shi-yong-semaphore/
+// ### 解题思路
+// 两种解决方案中，分别使用到了Semaphore及AtomicInteger来完成线程间互斥。
+// 1. 使用AtomicInteger时，使用了while及LockSupport来完成线程等待。
+// 2. Semaphore解决方案
+// 参考链接：https://leetcode-cn.com/problems/fizz-buzz-multithreaded/solution/liang-chong-javajie-jue-fang-an-shi-yong-semaphore/
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 第一种实现：
 class FizzBuzz {
     // Initialize the permit, limit to one.
@@ -206,4 +206,4 @@ class FizzBuzz {
         }
     }
 }
-```
+// ```

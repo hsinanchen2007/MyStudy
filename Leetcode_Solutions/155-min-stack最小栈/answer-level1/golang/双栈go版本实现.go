@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-用两个slice，一个保存数据，一个保存每次插入的最小值
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 用两个slice，一个保存数据，一个保存每次插入的最小值
+// ### 代码
 
-```golang
+// ```golang
 type MinStack struct {
     data []int
     mindata []int
@@ -68,4 +68,4 @@ func (this *MinStack) GetMin() int {
  * param_3 := obj.Top();
  * param_4 := obj.GetMin();
  */
-```
+// ```

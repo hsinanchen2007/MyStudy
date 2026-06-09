@@ -1,9 +1,9 @@
-### 解题思路
-先测出树的层数，然后每层从左到右依次next。left为二进制的0，right为二进制的1。
+// ### 解题思路
+// 先测出树的层数，然后每层从左到右依次next。left为二进制的0，right为二进制的1。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /*
 // Definition for a Node.
 class Node {
@@ -56,4 +56,4 @@ public:
         return ans;
     }  
 };
-```
+// ```

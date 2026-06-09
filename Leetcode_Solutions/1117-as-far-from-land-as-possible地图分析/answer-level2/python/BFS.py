@@ -1,8 +1,8 @@
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxDistance(self, grid: List[List[int]]) -> int:
 
@@ -39,4 +39,4 @@ class Solution:
                     q.append((i, j)) # 入列
         return ans
 
-```
+# ```

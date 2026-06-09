@@ -1,5 +1,5 @@
 
-```csharp
+// ```csharp
 public class Solution {
     public int LongestPalindrome(string s) {
         int[] count = new int[128];
@@ -17,4 +17,4 @@ public class Solution {
         return s.Length > length ? length + 1 : length;
     }
 }
-```
+// ```

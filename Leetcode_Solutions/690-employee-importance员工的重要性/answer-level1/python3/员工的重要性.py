@@ -1,16 +1,16 @@
-### 解题思路
-我的思路：用字典存储员工数据，键为id，值为员工类；遍历id，相加。
+# ### 解题思路
+# 我的思路：用字典存储员工数据，键为id，值为员工类；遍历id，相加。
 	
 
-复杂度分析：                                                             
-	• 时间复杂度：o(n)
-	• 空间复杂度：o(n)
+# 复杂度分析：                                                             
+# 	• 时间复杂度：o(n)
+# 	• 空间复杂度：o(n)
 
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 """
 # Employee info
 class Employee:
@@ -38,4 +38,4 @@ class Solution:
                 lists += dicts[lists[i]].subordinates
                 i += 1
         return sums
-```
+# ```

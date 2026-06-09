@@ -1,4 +1,4 @@
-```
+// ```
 func reorderList(head *ListNode)  {
     if head == nil || head.Next == nil{
         return 
@@ -38,4 +38,4 @@ func Reverse(head *ListNode)*ListNode{
     }
     return pre
 }
-```
+// ```

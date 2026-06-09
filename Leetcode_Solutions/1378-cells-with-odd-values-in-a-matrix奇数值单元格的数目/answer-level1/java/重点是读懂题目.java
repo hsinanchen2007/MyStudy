@@ -1,9 +1,9 @@
-### 解题思路
-重点是读懂题目
+// ### 解题思路
+// 重点是读懂题目
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public  int oddCells(int n, int m, int[][] indices) {
     	int[][] matrix =new int[n][m];
@@ -27,4 +27,4 @@ class Solution {
 		return count;
     }
 }
-```
+// ```

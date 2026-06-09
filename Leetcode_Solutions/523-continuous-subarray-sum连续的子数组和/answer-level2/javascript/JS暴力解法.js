@@ -1,9 +1,9 @@
-### 解题思路
-没啥可说的
+// ### 解题思路
+// 没啥可说的
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} k
@@ -24,4 +24,4 @@ var checkSubarraySum = function(nums, k) {
     }
     return false
 };
-```
+// ```

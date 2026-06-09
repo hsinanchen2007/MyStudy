@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         if not strs:
@@ -10,4 +10,4 @@ class Solution:
            else:
                d[''.join(sorted(list(i)))] = [i]
         return [i for i in d.values()]
-```
+# ```

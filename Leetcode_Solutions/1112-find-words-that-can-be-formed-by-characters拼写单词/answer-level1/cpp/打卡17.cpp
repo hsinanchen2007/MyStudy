@@ -1,9 +1,9 @@
-### 解题思路
-  用一个数组来保存chars的各字符个数，然后就只要遍历words中的每个字符串中的各个字符个数是否都能小于或等于chars中相同的各个字符个数。符合条件的就加上这个字符串的长度即可。
+// ### 解题思路
+//   用一个数组来保存chars的各字符个数，然后就只要遍历words中的每个字符串中的各个字符个数是否都能小于或等于chars中相同的各个字符个数。符合条件的就加上这个字符串的长度即可。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int countCharacters(vector<string>& words, string chars) {
@@ -24,4 +24,4 @@ public:
         return s;
     }
 };
-```
+// ```

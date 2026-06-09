@@ -1,10 +1,10 @@
-### 解题思路
-![QQ截图20200326182112.png](https://pic.leetcode-cn.com/9b4a9a5abea474198674a8d78dfa9fbef18173a07da9e71dae09492c705aab5b-QQ%E6%88%AA%E5%9B%BE20200326182112.png)
+// ### 解题思路
+// ![QQ截图20200326182112.png](https://pic.leetcode-cn.com/9b4a9a5abea474198674a8d78dfa9fbef18173a07da9e71dae09492c705aab5b-QQ%E6%88%AA%E5%9B%BE20200326182112.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int trailingZeroes(int n) {
@@ -20,4 +20,4 @@ public:
         // 于是n!中5的个数 = (x + x!中5出现的个数)
     }
 };
-```
+// ```

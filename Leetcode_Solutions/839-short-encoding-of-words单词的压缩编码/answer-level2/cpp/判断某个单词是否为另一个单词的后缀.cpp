@@ -1,8 +1,8 @@
-如果某单词是后缀，那么该单词就不用存储
+// 如果某单词是后缀，那么该单词就不用存储
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minimumLengthEncoding(vector<string>& words) {
@@ -24,4 +24,4 @@ return res;
 
     }
 };
-```
+// ```

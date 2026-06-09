@@ -1,5 +1,5 @@
-递归解：
-```
+// 递归解：
+// ```
 class Solution {//递归解
     int minH = Integer.MAX_VALUE;
     public int minDepth(TreeNode root) {
@@ -20,9 +20,9 @@ class Solution {//递归解
         }
     }
 }
-```
-递推解：
-```
+// ```
+// 递推解：
+// ```
 public int minDepth(TreeNode root) {//递推解
         int res = 1;
         if(root == null) return 0;
@@ -45,5 +45,5 @@ public int minDepth(TreeNode root) {//递推解
         }
         return res;//最后的结果是一棵满二叉树
     }
-```
+// ```
 

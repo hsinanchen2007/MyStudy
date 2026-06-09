@@ -1,8 +1,8 @@
-### 解题思路
-![1306.png](https://pic.leetcode-cn.com/c6231edf3c4909eefbfbcbeee2628908ef0ca87352ede75d0695290dacc29616-1306.png)
-### 代码
+// ### 解题思路
+// ![1306.png](https://pic.leetcode-cn.com/c6231edf3c4909eefbfbcbeee2628908ef0ca87352ede75d0695290dacc29616-1306.png)
+// ### 代码
 
-```java
+// ```java
 class Solution {
     HashSet<Integer> set = new HashSet<>() ;
     public boolean canReach(int[] arr, int start) {
@@ -17,4 +17,4 @@ class Solution {
     	return canReach(arr,start+arr[start]) || canReach(arr,start-arr[start]) ;
     }
 }
-```
+// ```

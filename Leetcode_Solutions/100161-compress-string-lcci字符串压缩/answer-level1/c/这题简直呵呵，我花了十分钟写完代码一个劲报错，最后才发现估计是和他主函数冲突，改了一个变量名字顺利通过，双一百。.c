@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/008a6bb78939528afcfb95a4d0f64553c5572571bf4eb4704c6ef6a29109d5df-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/008a6bb78939528afcfb95a4d0f64553c5572571bf4eb4704c6ef6a29109d5df-image.png)
 
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include<stdio.h>
 #include<math.h>
 char* compressString(char* S){
@@ -53,4 +53,4 @@ if(k-2<len)
 return str;
 else return S;
 }
-```
+// ```

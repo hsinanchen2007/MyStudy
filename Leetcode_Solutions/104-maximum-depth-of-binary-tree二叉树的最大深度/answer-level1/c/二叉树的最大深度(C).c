@@ -1,9 +1,9 @@
-### 解题思路
-层次遍历，常规题。还是用STL吧，自己写队列太浪费时间了。
+// ### 解题思路
+// 层次遍历，常规题。还是用STL吧，自己写队列太浪费时间了。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 typedef struct TreeNode* NodePtr;
 typedef struct tagNode{
@@ -73,4 +73,4 @@ int maxDepth(struct TreeNode* root){
     }
     return depth;
 }
-```
+// ```

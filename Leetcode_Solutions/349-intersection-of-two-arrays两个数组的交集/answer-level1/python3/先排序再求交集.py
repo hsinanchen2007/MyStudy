@@ -1,10 +1,10 @@
-### 解题思路
-时间复杂度：O（nlogn）
-空间复杂度：O（n）
+# ### 解题思路
+# 时间复杂度：O（nlogn）
+# 空间复杂度：O（n）
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def intersection(self, nums1: List[int], nums2: List[int]) -> List[int]:
         nums1 = sorted(nums1)
@@ -21,4 +21,4 @@ class Solution:
                     out.append(i)
         return out
 
-```
+# ```

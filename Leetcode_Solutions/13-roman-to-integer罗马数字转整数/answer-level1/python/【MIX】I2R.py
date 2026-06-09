@@ -1,9 +1,9 @@
-### 解题思路
-建立映射表转换
+# ### 解题思路
+# 建立映射表转换
 
-### 代码
+# ### 代码
 
-```java []
+# ```java []
 class Solution {
     public int romanToInt(String s) {
         int res = 0;
@@ -29,8 +29,8 @@ class Solution {
         }
     }
 }
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def romanToInt(self, s: str) -> int:
         # 建立映射表
@@ -61,8 +61,8 @@ class Solution:
                 i+=1
 
         return res
-```
-```c++ []
+# ```
+# ```c++ []
 class Solution {
 public:
     int romanToInt(string s) {
@@ -102,4 +102,4 @@ public:
         return res;
     }
 };
-```
+# ```

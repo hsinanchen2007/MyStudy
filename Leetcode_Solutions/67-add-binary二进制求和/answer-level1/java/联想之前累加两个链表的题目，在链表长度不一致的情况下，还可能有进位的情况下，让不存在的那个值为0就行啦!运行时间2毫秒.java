@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public String addBinary(String a, String b) {
         if(a==null || b==null) return null;
@@ -31,4 +31,4 @@ class Solution {
 
     }
 }
-```
+// ```

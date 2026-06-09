@@ -1,10 +1,10 @@
-### 解题思路
-不管是列表还是快慢双指针，效率和内存都是一样的
-大家都写双指针，我也实现一下列表法
+// ### 解题思路
+// 不管是列表还是快慢双指针，效率和内存都是一样的
+// 大家都写双指针，我也实现一下列表法
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -36,4 +36,4 @@ public class Solution {
         }
     
 }
-```
+// ```

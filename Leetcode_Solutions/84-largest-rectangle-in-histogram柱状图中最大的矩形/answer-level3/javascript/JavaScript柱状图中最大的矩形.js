@@ -1,9 +1,9 @@
-#### 思路一：O(n^2)
-1. 遍历`heights`；
-2. 取出每一个高度的左右边界；
-3. 计算面积，取最大值。
-#### 代码
-```
+// #### 思路一：O(n^2)
+// 1. 遍历`heights`；
+// 2. 取出每一个高度的左右边界；
+// 3. 计算面积，取最大值。
+// #### 代码
+// ```
 var largestRectangleArea = function(heights) {
     // 判断特殊情况
     if (heights.length === 0) return 0;
@@ -22,17 +22,17 @@ var largestRectangleArea = function(heights) {
     }
     return area;
 };
-```
-#### 思路二（栈）：O(n)
-1. 遍历`heights`；
-2. 将当前高度`current`和栈顶高度`top`比较；
-3. 如果`top` < `current`，说明`top`的右边界还没找到，把`current`入栈；
-4. 如果`top` >= `current`，说明`top`的右边界找到了，因为整个栈是按从小到大入栈，当前高度的左边界就是它的上一个位置；
-5. 计算`top`的面积，然后把`top`出栈，继续第二步开始判断；
-6. 遍历完`heights`，如果栈为空了，说明所有情况都计算完了；
-7. 如果不为空，类似：`stack = [1,2,3,4,5]`这种情况，从后往前计算每一个高度的面积，右边界为`stack.length - 1`，左边界是它上一个位置。
-#### 代码
-```
+// ```
+// #### 思路二（栈）：O(n)
+// 1. 遍历`heights`；
+// 2. 将当前高度`current`和栈顶高度`top`比较；
+// 3. 如果`top` < `current`，说明`top`的右边界还没找到，把`current`入栈；
+// 4. 如果`top` >= `current`，说明`top`的右边界找到了，因为整个栈是按从小到大入栈，当前高度的左边界就是它的上一个位置；
+// 5. 计算`top`的面积，然后把`top`出栈，继续第二步开始判断；
+// 6. 遍历完`heights`，如果栈为空了，说明所有情况都计算完了；
+// 7. 如果不为空，类似：`stack = [1,2,3,4,5]`这种情况，从后往前计算每一个高度的面积，右边界为`stack.length - 1`，左边界是它上一个位置。
+// #### 代码
+// ```
 var largestRectangleArea = function(heights) {
     // 判断特殊情况
     if (heights.length === 0) return 0;
@@ -69,4 +69,4 @@ var largestRectangleArea = function(heights) {
         return stack[stack.length - top];
     }
 };
-```
+// ```

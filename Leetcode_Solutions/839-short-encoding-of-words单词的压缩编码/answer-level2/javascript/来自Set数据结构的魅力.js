@@ -1,11 +1,11 @@
-![image.png](https://pic.leetcode-cn.com/d9b726a5d3f6479642f56bb8c5240f1ddc525e350e3dd4f188fea69e988404be-image.png)
+// ![image.png](https://pic.leetcode-cn.com/d9b726a5d3f6479642f56bb8c5240f1ddc525e350e3dd4f188fea69e988404be-image.png)
 
-### 解题思路
-每个单词, 删除在Set中其不包含自身的从尾部开始的子串
+// ### 解题思路
+// 每个单词, 删除在Set中其不包含自身的从尾部开始的子串
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} words
  * @return {number}
@@ -26,4 +26,4 @@ var minimumLengthEncoding = function(words) {
   })
   return res
 };
-```
+// ```

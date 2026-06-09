@@ -1,9 +1,9 @@
-### 解题思路
-本来以为是dp问题，但是看了官方题解才发现是栈。其实特征也挺明显，这种求第一次的问题确实比较适合栈，以后做数组题可以多一个思考方向。
+# ### 解题思路
+# 本来以为是dp问题，但是看了官方题解才发现是栈。其实特征也挺明显，这种求第一次的问题确实比较适合栈，以后做数组题可以多一个思考方向。
 
-### 代码
+# ### 代码
 
-```python3 []
+# ```python3 []
 class Solution:
     def dailyTemperatures(self, T: List[int]) -> List[int]:
         stack=[]
@@ -15,4 +15,4 @@ class Solution:
             stack.append(i)
         return res
 
-```
+# ```

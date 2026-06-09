@@ -1,4 +1,4 @@
-```
+// ```
     /**
      *  非递归版本
      */
@@ -41,9 +41,9 @@
         }
         return true;
     }
-```
+// ```
 
-```
+// ```
     /**
      *  递归版本
      */
@@ -52,5 +52,5 @@
         if(p==null || q==null) return false;
         return isSameTree(p.left,q.left) && isSameTree(p.right,q.right) && q.val==p.val;
     }
-```
+// ```
 

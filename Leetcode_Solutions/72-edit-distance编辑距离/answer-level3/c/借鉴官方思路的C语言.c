@@ -1,4 +1,4 @@
-```
+// ```
 int minDistance(char * word1, char * word2){
     int i=strlen(word1);
     int j=strlen(word2);
@@ -29,4 +29,4 @@ int minDistance(char * word1, char * word2){
     }
     return DJ[i][j];
 }
-```
+// ```

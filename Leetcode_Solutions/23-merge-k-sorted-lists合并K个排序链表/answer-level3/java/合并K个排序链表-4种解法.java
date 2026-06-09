@@ -1,14 +1,14 @@
-欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
-几乎所有题目都会提供多种解法，真诚求star！
+// 欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
+// 几乎所有题目都会提供多种解法，真诚求star！
 
-# 解法一：暴力破解法
+// # 解法一：暴力破解法
 
-时间复杂度是O(n * m)，其中n为lists数组的长度，m为lists数组中链表总节点个数。
-空间复杂度是O(1)。
+// 时间复杂度是O(n * m)，其中n为lists数组的长度，m为lists数组中链表总节点个数。
+// 空间复杂度是O(1)。
 
-执行用时：398ms，击败12.72%。消耗内存：52MB，击败22.17%。
+// 执行用时：398ms，击败12.72%。消耗内存：52MB，击败22.17%。
 
-```java
+// ```java
 public class Solution {
     public ListNode mergeKLists(ListNode[] lists) {
         int n;
@@ -45,16 +45,16 @@ public class Solution {
         return dummyHead.next;
     }
 }
-```
+// ```
 
-# 解法二：优先队列
+// # 解法二：优先队列
 
-时间复杂度是O(mlogm)，其中m为lists数组中链表总节点个数。
-空间复杂度是O(m)。
+// 时间复杂度是O(mlogm)，其中m为lists数组中链表总节点个数。
+// 空间复杂度是O(m)。
 
-执行用时：14ms，击败56.53%。消耗内存：43.9MB，击败57.53%。
+// 执行用时：14ms，击败56.53%。消耗内存：43.9MB，击败57.53%。
 
-```java
+// ```java
 public class Solution {
     public ListNode mergeKLists(ListNode[] lists) {
         int n;
@@ -77,16 +77,16 @@ public class Solution {
         return dummyHead.next;
     }
 }
-```
+// ```
 
-# 解法三：优先队列，限制优先队列大小为n
+// # 解法三：优先队列，限制优先队列大小为n
 
-时间复杂度是O(mlogn)，其中m为lists数组中链表总节点个数，n为lists数组的长度。
-空间复杂度是O(n)。
+// 时间复杂度是O(mlogn)，其中m为lists数组中链表总节点个数，n为lists数组的长度。
+// 空间复杂度是O(n)。
 
-执行用时：85ms，击败35.29%。消耗内存：40.9MB，击败81.11%。
+// 执行用时：85ms，击败35.29%。消耗内存：40.9MB，击败81.11%。
 
-```java
+// ```java
 public class Solution {
     public ListNode mergeKLists(ListNode[] lists) {
         int n;
@@ -111,16 +111,16 @@ public class Solution {
         return dummyHead.next;
     }
 }
-```
+// ```
 
-# 解法四：两两合并链表
+// # 解法四：两两合并链表
 
-时间复杂度是O(n * m)，其中n为lists数组的长度，m为lists数组中链表总节点个数。
-空间复杂度是O(1)。
+// 时间复杂度是O(n * m)，其中n为lists数组的长度，m为lists数组中链表总节点个数。
+// 空间复杂度是O(1)。
 
-执行用时：374ms，击败14.23%。消耗内存：53.7MB，击败20.79%。
+// 执行用时：374ms，击败14.23%。消耗内存：53.7MB，击败20.79%。
 
-```java
+// ```java
 public class Solution {
     public ListNode mergeKLists(ListNode[] lists) {
         int n;
@@ -155,4 +155,4 @@ public class Solution {
         return dummyHead.next;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def firstUniqChar(self, s):
         """
@@ -11,5 +11,5 @@ class Solution(object):
                 return s.index(i)
                 break
         return -1
-```
+# ```
 

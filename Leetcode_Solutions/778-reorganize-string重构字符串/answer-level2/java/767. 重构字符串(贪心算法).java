@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/9da9bca3ef6602c70baad09f56952dc3f518d2b18a44ded4f8439ce84a0fa5ef-image.png)
+// ![image.png](https://pic.leetcode-cn.com/9da9bca3ef6602c70baad09f56952dc3f518d2b18a44ded4f8439ce84a0fa5ef-image.png)
 
-```
+// ```
 class Solution {
     public String reorganizeString(String S) {
         PriorityQueue<int[]> pq;
@@ -32,4 +32,4 @@ class Solution {
         return "";
     }
 }
-```
+// ```

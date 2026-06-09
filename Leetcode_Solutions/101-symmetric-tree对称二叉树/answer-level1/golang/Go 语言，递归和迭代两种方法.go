@@ -1,6 +1,6 @@
-## 递归
+// ## 递归
 
-```go
+// ```go
 func isSymmetric(root *TreeNode) bool {
     if root == nil {
         return true
@@ -18,10 +18,10 @@ func TestLR(l, r *TreeNode) bool {
         return TestLR(l.Left, r.Right) && TestLR(l.Right, r.Left)
     }
 }
-```
-## 迭代
+// ```
+// ## 迭代
 
-```go
+// ```go
 func isSymmetric(root *TreeNode) bool {
     if root == nil {
         return true
@@ -47,4 +47,4 @@ func isSymmetric(root *TreeNode) bool {
     }
     return true
 }
-```
+// ```

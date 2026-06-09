@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-分离正数和负数，在进行分类
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 分离正数和负数，在进行分类
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maximumProduct(int[] nums) {
         if(nums == null || nums.length <= 2)
@@ -43,4 +43,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

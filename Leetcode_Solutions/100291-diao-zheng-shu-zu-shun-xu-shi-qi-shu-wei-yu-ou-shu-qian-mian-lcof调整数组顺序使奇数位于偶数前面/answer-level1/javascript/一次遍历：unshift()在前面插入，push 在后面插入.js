@@ -1,9 +1,9 @@
-### 解题思路
-一次遍历：unshift()在前面插入，push 在后面插入
+// ### 解题思路
+// 一次遍历：unshift()在前面插入，push 在后面插入
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number[]}
@@ -19,4 +19,4 @@ var exchange = function(nums) {
     }
     return res;
 };
-```
+// ```

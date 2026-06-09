@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-买完会员就快了？？？？？？？
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 买完会员就快了？？？？？？？
+// ### 代码
 
-```golang
+// ```golang
 func fizzBuzz(n int) []string {
 
     var str []string
@@ -20,4 +20,4 @@ func fizzBuzz(n int) []string {
     }
     return str
 }
-```
+// ```

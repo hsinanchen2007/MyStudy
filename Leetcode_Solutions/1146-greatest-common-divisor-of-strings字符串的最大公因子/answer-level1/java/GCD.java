@@ -1,6 +1,6 @@
-如果存在最大子串则str1+str2 = str2+str1
-然后再求出两者长度的最大公约数
-```
+// 如果存在最大子串则str1+str2 = str2+str1
+// 然后再求出两者长度的最大公约数
+// ```
     public String gcdOfStrings(String str1, String str2) {
         if (!(str1+str2).equals(str2+str1)) return "";
         int sub = gcd(str1.length(),str2.length());
@@ -18,4 +18,4 @@
         return l1;
     }
 
-```
+// ```

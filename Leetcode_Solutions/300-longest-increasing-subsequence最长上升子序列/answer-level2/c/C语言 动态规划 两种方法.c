@@ -1,6 +1,6 @@
-**方法一**
-**动态规划+线性查找**
-```
+// **方法一**
+// **动态规划+线性查找**
+// ```
 int Max(int a, int b){
     return a<b?b:a;
 }
@@ -21,15 +21,15 @@ int lengthOfLIS(int* nums, int numsSize){
     }
     return maxsubsequence;
 }
-```
-**复杂度分析**
-- 时间复杂度：O(n^2)，程序包含双层循环
-- 空间复杂度：O(n)，用了大小为 n 的矩阵 dp
+// ```
+// **复杂度分析**
+// - 时间复杂度：O(n^2)，程序包含双层循环
+// - 空间复杂度：O(n)，用了大小为 n 的矩阵 dp
 
 
-**方法二**
-**动态规划+二分查找**
-```
+// **方法二**
+// **动态规划+二分查找**
+// ```
 int lengthOfLIS(int* nums, int numsSize){
     if(numsSize < 2) return numsSize;
     int tail[numsSize];
@@ -48,9 +48,9 @@ int lengthOfLIS(int* nums, int numsSize){
     }
     return len;
 }
-```
-**复杂度分析**
-- 时间复杂度：O(nlogn)外层循环遍历数组，内层循环二分查找
-- 空间复杂度：O(n)，用了大小为 n 的矩阵tail
+// ```
+// **复杂度分析**
+// - 时间复杂度：O(nlogn)外层循环遍历数组，内层循环二分查找
+// - 空间复杂度：O(n)，用了大小为 n 的矩阵tail
 
-![image.png](https://pic.leetcode-cn.com/810ac9d75ecc7a23465d4c6307d1dd96c59bc90f9e265e8006d4c6d936cec829-image.png)
+// ![image.png](https://pic.leetcode-cn.com/810ac9d75ecc7a23465d4c6307d1dd96c59bc90f9e265e8006d4c6d936cec829-image.png)

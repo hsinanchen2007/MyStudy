@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int majorityElement(int* nums, int numsSize){
     int temp=1,i=1,k=nums[0];
     while(i<numsSize){
@@ -20,4 +20,4 @@ int majorityElement(int* nums, int numsSize){
     }
     return k;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-完整阶梯型其实就是一个等边三角形，完整的row行需要的硬币个数为1+2+3+...+row=(1+row)*row/2
+// ### 解题思路
+// 完整阶梯型其实就是一个等边三角形，完整的row行需要的硬币个数为1+2+3+...+row=(1+row)*row/2
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int arrangeCoins(int n) 
@@ -33,4 +33,4 @@ public:
         return right;
     }
 };
-```
+// ```

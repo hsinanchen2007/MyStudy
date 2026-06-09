@@ -1,11 +1,11 @@
-### 解题思路
-起点分别是第一行的所有元素和第一列的所有元素,
-遍历以他们为起点时是否每一个斜下方元素都与之相等，如果不相等就返回false，
+// ### 解题思路
+// 起点分别是第一行的所有元素和第一列的所有元素,
+// 遍历以他们为起点时是否每一个斜下方元素都与之相等，如果不相等就返回false，
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} matrix
  * @return {boolean}
@@ -35,4 +35,4 @@ var isToeplitzMatrix = function(matrix) {
     }
     return true;
 };
-```
+// ```

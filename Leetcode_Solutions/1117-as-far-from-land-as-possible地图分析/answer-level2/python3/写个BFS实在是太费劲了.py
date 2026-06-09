@@ -1,9 +1,9 @@
-### 解题思路
-从0开始需要走很多重复的路，参考官方1解复杂度O(n^4)，卡到实例34了，先把当前能出发的位置写到queue里，然后这几个向外突围，走完queue后，才算是step+1，然后从新加如的queue中又开始突围
+# ### 解题思路
+# 从0开始需要走很多重复的路，参考官方1解复杂度O(n^4)，卡到实例34了，先把当前能出发的位置写到queue里，然后这几个向外突围，走完queue后，才算是step+1，然后从新加如的queue中又开始突围
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxDistance(self, grid: List[List[int]]) -> int:
         # 从陆地开始BFS  
@@ -26,4 +26,4 @@ class Solution:
         return step if step else -1
 
 
-```
+# ```

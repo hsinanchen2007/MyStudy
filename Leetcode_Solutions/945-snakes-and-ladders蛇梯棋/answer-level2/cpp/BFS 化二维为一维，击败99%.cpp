@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int snakesAndLadders(vector<vector<int>>& board) {
@@ -72,4 +72,4 @@ public:
      return -1;
     }
 };
-```
+// ```

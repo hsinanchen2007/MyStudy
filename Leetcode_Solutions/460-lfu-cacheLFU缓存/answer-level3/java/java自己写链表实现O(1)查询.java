@@ -1,5 +1,5 @@
 
-```
+// ```
 
 class LFUCache {
     int capacity;
@@ -170,4 +170,4 @@ class doubleList{
  * int param_1 = obj.get(key);
  * obj.put(key,value);
  */
-```
+// ```

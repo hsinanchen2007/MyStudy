@@ -1,9 +1,9 @@
-### 解题思路
-回溯算法：如何保证**candidates 中的每个数字在每个组合中只能使用一次**，则设置一个变量begin, 其余的套框架.
+# ### 解题思路
+# 回溯算法：如何保证**candidates 中的每个数字在每个组合中只能使用一次**，则设置一个变量begin, 其余的套框架.
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def combinationSum2(self, candidates: List[int], target: int) -> List[List[int]]:
         result = []
@@ -27,4 +27,4 @@ class Solution:
 
         backtrack([], 0, 0, candidates, target)
         return result
-```
+# ```

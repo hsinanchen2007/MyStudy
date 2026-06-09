@@ -1,9 +1,9 @@
-### 解题思路
-就是三个指针一顿乱指，再加上边界条件处理，有一种边界条件是通过递归处理的。
+// ### 解题思路
+// 就是三个指针一顿乱指，再加上边界条件处理，有一种边界条件是通过递归处理的。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public ListNode deleteDuplicates(ListNode head) {
         if (head == null) {
@@ -42,4 +42,4 @@ class Solution {
         return head;
     }
 }
-```
+// ```

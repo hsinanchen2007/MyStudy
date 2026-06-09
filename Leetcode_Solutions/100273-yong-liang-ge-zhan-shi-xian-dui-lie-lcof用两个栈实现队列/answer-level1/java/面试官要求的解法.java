@@ -1,11 +1,11 @@
-### 解题思路
-没必要一直stack1  stack2一直倒腾；
-只有当stack2为空时，再遍历stack1，向stack2中加入所有元素；新增元素，不管什么情况，只往stack1中添加；
-这样效率最高。
+// ### 解题思路
+// 没必要一直stack1  stack2一直倒腾；
+// 只有当stack2为空时，再遍历stack1，向stack2中加入所有元素；新增元素，不管什么情况，只往stack1中添加；
+// 这样效率最高。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class CQueue {
     Stack<Integer> stack1;
     Stack<Integer> stack2;
@@ -41,4 +41,4 @@ class CQueue {
  * obj.appendTail(value);
  * int param_2 = obj.deleteHead();
  */
-```
+// ```

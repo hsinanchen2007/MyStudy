@@ -1,10 +1,10 @@
-### 解题思路
-punch in the card. 
-Again I will give you code. 
+# ### 解题思路
+# punch in the card. 
+# Again I will give you code. 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def lengthOfLIS(self, nums):
         if len(nums)==0:
@@ -17,4 +17,4 @@ class Solution:
                     m=max(m,log[j])
             log[i]=m+1
         return max(log)
-```
+# ```

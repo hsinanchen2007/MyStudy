@@ -1,10 +1,10 @@
-思路：
-将初始状态“0000”放入数组，遍历数组中的每个状态，将每一位数字向前或向后变换一次，得到的结果如存在于deadends中则不处理，否则就放入数组中准备下一轮遍历，遍历过的状态放入deadends中以防止重复遍历，直至找到target为止。
-```
+// 思路：
+// 将初始状态“0000”放入数组，遍历数组中的每个状态，将每一位数字向前或向后变换一次，得到的结果如存在于deadends中则不处理，否则就放入数组中准备下一轮遍历，遍历过的状态放入deadends中以防止重复遍历，直至找到target为止。
+// ```
 执行用时 :116 ms, 在所有 Go 提交中击败了60.00%的用户
 内存消耗 :7.3 MB, 在所有 Go 提交中击败了42.86%的用户
-```
-```Go []
+// ```
+// ```Go []
 func openLock(deadends []string, target string) int {
 	turns := 0
 	deadendsMap := make(map[string]int)
@@ -61,5 +61,5 @@ func turnOnce(state string, bit int) (string, string) {
 		return state[0:bit] + s1 + state[bit+1:], state[0:bit] + s2 + state[bit+1:]
 	}
 }
-```
-[LeetCodeByGo: 更多LeetCode题库Go语言题解](https://github.com/mrandmrsbenben/LeetCodeByGo)
+// ```
+// [LeetCodeByGo: 更多LeetCode题库Go语言题解](https://github.com/mrandmrsbenben/LeetCodeByGo)

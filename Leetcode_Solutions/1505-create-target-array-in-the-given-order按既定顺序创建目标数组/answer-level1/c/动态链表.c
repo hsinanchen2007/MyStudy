@@ -1,5 +1,5 @@
-一般c语言没有很好的库函数，遇到插入删除这种事想想链表
-```
+// 一般c语言没有很好的库函数，遇到插入删除这种事想想链表
+// ```
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -51,5 +51,5 @@ for(i=0;i<indexSize;i++)
 *returnSize=indexSize;
 return tar;
 }
-```
+// ```
 

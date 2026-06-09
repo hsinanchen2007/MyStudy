@@ -1,9 +1,9 @@
-### 暴力解
-暴力求解，简单直接。先确定数组中最长字符串长度作为集合size，然后循环拼接，去掉末尾空格，并放入集合中。
+// ### 暴力解
+// 暴力求解，简单直接。先确定数组中最长字符串长度作为集合size，然后循环拼接，去掉末尾空格，并放入集合中。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<String> printVertically(String s) {
     	List<String> list = new ArrayList<>();
@@ -33,4 +33,4 @@ class Solution {
     	return list;
     }
 }
-```
+// ```

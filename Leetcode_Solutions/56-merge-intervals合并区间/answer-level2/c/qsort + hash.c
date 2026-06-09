@@ -1,6 +1,6 @@
-![截图.PNG](https://pic.leetcode-cn.com/30abdba22f291c2c2e42d05041aa416c695d60e8f3db310ba9e1abdc36f52897-%E6%88%AA%E5%9B%BE.PNG)
+// ![截图.PNG](https://pic.leetcode-cn.com/30abdba22f291c2c2e42d05041aa416c695d60e8f3db310ba9e1abdc36f52897-%E6%88%AA%E5%9B%BE.PNG)
 
-```
+// ```
 #define MAX_NUM 1000
 static int g_hash[MAX_NUM][2] = {0};
 static int g_hashCnt = 0;
@@ -75,4 +75,4 @@ int** merge(int** intervals, int intervalsSize, int* intervalsColSize, int* retu
     *returnColumnSizes = intervalsColSize;
     return intervals;
 }
-```
+// ```

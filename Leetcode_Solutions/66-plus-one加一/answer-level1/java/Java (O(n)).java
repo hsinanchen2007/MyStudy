@@ -1,9 +1,9 @@
-### 解题思路
-设定一个carry记录是否应该额外+1。
+// ### 解题思路
+// 设定一个carry记录是否应该额外+1。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] plusOne(int[] digits) {
         int carry = 1;
@@ -36,4 +36,4 @@ class Solution {
         }
     }
 }
-```
+// ```

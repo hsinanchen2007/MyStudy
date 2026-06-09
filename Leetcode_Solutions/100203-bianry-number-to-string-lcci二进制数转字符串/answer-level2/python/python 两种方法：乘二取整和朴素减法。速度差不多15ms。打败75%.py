@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def printBin(self, num):
         if not (0 <= num <= 1):
@@ -35,7 +35,7 @@ class Solution(object):
                 return 'ERROR'
 
         return ''.join(rev)
-```
-printBin用乘二取整。
-printBin2是能减2^(-n)就填1，否则填0。
-两个都是>32位就返回ERROR
+# ```
+# printBin用乘二取整。
+# printBin2是能减2^(-n)就填1，否则填0。
+# 两个都是>32位就返回ERROR

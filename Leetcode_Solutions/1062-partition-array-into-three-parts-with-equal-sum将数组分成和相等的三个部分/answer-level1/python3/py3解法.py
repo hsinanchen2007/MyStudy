@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def canThreePartsEqualSum(self, A: List[int]) -> bool:
         total = sum(A)/3
@@ -12,4 +12,4 @@ class Solution:
                 count += 1
                 s = 0
         return False
-```
+# ```

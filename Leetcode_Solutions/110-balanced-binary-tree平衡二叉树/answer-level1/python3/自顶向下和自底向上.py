@@ -1,10 +1,10 @@
-## 思路:
+# ## 思路:
 
-这道题是[求树的高度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/solution/dfshe-bfs-by-powcai)的延伸版, 我们只要求左右子树相差的高度是否超过 1，就可以了!
+# 这道题是[求树的高度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/solution/dfshe-bfs-by-powcai)的延伸版, 我们只要求左右子树相差的高度是否超过 1，就可以了!
 
-首先，要**自顶向下方法**，如下代码:
+# 首先，要**自顶向下方法**，如下代码:
 
-```python [-Python]
+# ```python [-Python]
 class Solution:
     def isBalanced(self, root: TreeNode) -> bool:
         if not root:
@@ -15,17 +15,17 @@ class Solution:
         if not node:
             return 0
         return 1+max(self.height(node.right),self.height(node.left))
-```
+# ```
 
-上面的方法要不断递归左右子树, 有重复部分,所以时间复杂度为$O(n^2)$
+# 上面的方法要不断递归左右子树, 有重复部分,所以时间复杂度为$O(n^2)$
 
-下面用**自底向上**，直接看代码就能理解了!
+# 下面用**自底向上**，直接看代码就能理解了!
 
-时间复杂度为$O(n)$
+# 时间复杂度为$O(n)$
 
-## 代码:
+# ## 代码:
 
-```python [1]
+# ```python [1]
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -47,11 +47,11 @@ class Solution:
             return max(left, right)
         helper(root)
         return self.res
-```
+# ```
 
 
 
-```java [1]
+# ```java [1]
 public class BalancedBinaryTree {
     boolean res = true;
 
@@ -70,5 +70,5 @@ public class BalancedBinaryTree {
         return Math.max(left, right);
     }
 }
-```
+# ```
 

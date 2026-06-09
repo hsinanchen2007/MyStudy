@@ -1,5 +1,5 @@
-效率不高，主要练习Go语言的list使用
-```
+// 效率不高，主要练习Go语言的list使用
+// ```
 func maxAreaOfIsland(grid [][]int) int {
     var m int = len(grid);
     if m==0 {
@@ -41,4 +41,4 @@ func maxAreaOfIsland(grid [][]int) int {
 func isArea(x int,y int,m int,n int) bool{
     return x>=0 && y>=0 && x<m && y<n;
 }
-```
+// ```

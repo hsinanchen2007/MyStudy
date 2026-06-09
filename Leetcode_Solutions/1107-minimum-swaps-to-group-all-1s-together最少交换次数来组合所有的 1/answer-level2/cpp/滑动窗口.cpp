@@ -1,7 +1,7 @@
-1. 滑动窗口；
-2. 滑动窗口的大小为所有1的个数windows，在滑动窗口内含有最多的1的个数one；
-3. 结果answer = windows - max(one);
-```
+// 1. 滑动窗口；
+// 2. 滑动窗口的大小为所有1的个数windows，在滑动窗口内含有最多的1的个数one；
+// 3. 结果answer = windows - max(one);
+// ```
 class Solution {
 public:
     int minSwaps(vector<int>& data) {
@@ -33,4 +33,4 @@ public:
         return ans;
     }
 };
-```
+// ```

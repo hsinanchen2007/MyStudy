@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-1）有向图环路判断，需节点遍历依次构成环 2）某链路一旦访问，立即标记
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 1）有向图环路判断，需节点遍历依次构成环 2）某链路一旦访问，立即标记
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
         int len = prerequisites.length;
@@ -55,4 +55,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

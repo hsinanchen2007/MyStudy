@@ -1,5 +1,5 @@
-# 使用虚拟头节点实现
-```go
+// # 使用虚拟头节点实现
+// ```go
 func removeElements(head *ListNode, val int) *ListNode {
     dummy := new(ListNode) // 新建一个虚拟头节点
     dummy.Next = head      // 虚拟头节点指向head
@@ -13,10 +13,10 @@ func removeElements(head *ListNode, val int) *ListNode {
     }
     return dummy.Next
 }
-```
+// ```
 
-# 不使用虚拟头节点实现
-```go
+// # 不使用虚拟头节点实现
+// ```go
 func removeElements(head *ListNode, val int) *ListNode {
     for head != nil && head.Val == val {
         head = head.Next
@@ -34,10 +34,10 @@ func removeElements(head *ListNode, val int) *ListNode {
     }
     return head
 }
-```
+// ```
 
-# 使用递归实现
-```go
+// # 使用递归实现
+// ```go
 func removeElements(head *ListNode, val int) *ListNode {
     if head == nil {
         return nil
@@ -50,4 +50,4 @@ func removeElements(head *ListNode, val int) *ListNode {
     }
 }
 
-```
+// ```

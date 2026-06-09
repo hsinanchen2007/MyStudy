@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func maxCount(m int, n int, ops [][]int) int {
 	x:=m
 	y:=n
@@ -18,4 +18,4 @@ func maxCount(m int, n int, ops [][]int) int {
 	
 	return x*y
 }
-```
+// ```

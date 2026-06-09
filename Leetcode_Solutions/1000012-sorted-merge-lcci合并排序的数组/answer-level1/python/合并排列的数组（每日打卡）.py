@@ -1,9 +1,9 @@
-### 解题思路
-已知A有足够的空间以及A,B的长度，那么从A,B的末位元素从后往前开始比较并插入到对应位置。
+# ### 解题思路
+# 已知A有足够的空间以及A,B的长度，那么从A,B的末位元素从后往前开始比较并插入到对应位置。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def merge(self, A: List[int], m: int, B: List[int], n: int) -> None:
         """
@@ -26,4 +26,4 @@ class Solution:
             
             
 
-```
+# ```

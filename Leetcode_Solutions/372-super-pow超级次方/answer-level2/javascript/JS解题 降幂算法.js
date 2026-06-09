@@ -1,4 +1,4 @@
-```
+// ```
 var superPow = function(a, b) {
 
     var jiangmi = function(base, power){
@@ -24,4 +24,4 @@ var superPow = function(a, b) {
     
     return result % 1337;
 };
-```
+// ```

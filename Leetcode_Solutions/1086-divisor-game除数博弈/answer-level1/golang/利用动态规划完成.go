@@ -1,9 +1,9 @@
-### 解题思路
-用动态规划会快一些，还可以用递归
+// ### 解题思路
+// 用动态规划会快一些，还可以用递归
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func divisorGame(N int) bool  {
 	if N == 0{
 		return true
@@ -21,4 +21,4 @@ func divisorGame(N int) bool  {
 	}
 	return dp[N]
 }
-```
+// ```

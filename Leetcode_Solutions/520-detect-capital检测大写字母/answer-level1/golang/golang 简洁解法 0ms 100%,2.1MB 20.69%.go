@@ -1,4 +1,4 @@
-```
+// ```
 // size == 0 全是小写
 // size == len(chs) 全是大写
 // size == 1 && fistUppercase 只有一个大写，且是第一个字母
@@ -14,4 +14,4 @@ func detectCapitalUse(word string) bool {
     }
     return size == 0 || size == len(chs) || (size == 1 && fistUppercase)
 }
-```
+// ```

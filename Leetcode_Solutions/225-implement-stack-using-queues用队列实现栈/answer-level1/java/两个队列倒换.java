@@ -1,10 +1,10 @@
-### 解题思路
-使用队列实现栈，思路简单
-q1是操作队列，q2是暂存队列，每次pop或者top时，将q1除最后一个元素外暂存进q2，然后出栈或者展示，再将q2中的元素移动回q1
+// ### 解题思路
+// 使用队列实现栈，思路简单
+// q1是操作队列，q2是暂存队列，每次pop或者top时，将q1除最后一个元素外暂存进q2，然后出栈或者展示，再将q2中的元素移动回q1
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 // package com.leetcode.practices.implementStackUsingQueues;
 
 import java.util.LinkedList;
@@ -74,4 +74,4 @@ class MyStack {
         return q1.isEmpty();
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-双指针归并两个有序数组成为最终有序，取中位数即可
+// ### 解题思路
+// 双指针归并两个有序数组成为最终有序，取中位数即可
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
 	var midIndex int
 	pos1, pos2 := 0, 0
@@ -31,4 +31,4 @@ func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
 		return float64(mergeSortedList[midIndex])
 	}
 }
-```
+// ```

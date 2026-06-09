@@ -1,9 +1,9 @@
-***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，持续更新。***
+// ***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，持续更新。***
 
-使用Map储存"文件内容"->"对应的文件路径"，有相同文件内容的路径存入List，最后遍历Map vaule，判断List.size()>1，如果>1则表示有重复文件。
+// 使用Map储存"文件内容"->"对应的文件路径"，有相同文件内容的路径存入List，最后遍历Map vaule，判断List.size()>1，如果>1则表示有重复文件。
 
 
-```
+// ```
 public List<List<String>> findDuplicate(String[] paths) {
     List<List<String>> res = new ArrayList<>();
     if(paths.length == 0) return res;
@@ -36,4 +36,4 @@ public List<List<String>> findDuplicate(String[] paths) {
     }
     return res;
 }
-```
+// ```

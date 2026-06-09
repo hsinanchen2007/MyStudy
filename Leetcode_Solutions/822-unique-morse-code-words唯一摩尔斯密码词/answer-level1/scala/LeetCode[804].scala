@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
   val mymap = Map[Char, String](
     97.toChar -> ".-"
@@ -34,4 +34,4 @@ object Solution {
     }).distinct.length
   }
 }
-```
+// ```

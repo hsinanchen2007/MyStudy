@@ -1,15 +1,15 @@
 
-回溯算法的三要素
-1. 路径：已经做出的选择
-2. 选择列表：当前可以做出的选择
-3. 结束条件：到达决策树底层，无法再做出选择
+// 回溯算法的三要素
+// 1. 路径：已经做出的选择
+// 2. 选择列表：当前可以做出的选择
+// 3. 结束条件：到达决策树底层，无法再做出选择
 
 
-N皇后剪枝条件：当前board[row][col]列上是否已经有皇后；board[row][col]左上对线是否已经有皇后；board[row][col]右上对线是否有皇后。
+// N皇后剪枝条件：当前board[row][col]列上是否已经有皇后；board[row][col]左上对线是否已经有皇后；board[row][col]右上对线是否有皇后。
 
 
 
-```
+// ```
  public List<List<String>> solveNQueens(int n) {
 
         List<List<String>> res = new ArrayList<>();//结果
@@ -115,4 +115,4 @@ N皇后剪枝条件：当前board[row][col]列上是否已经有皇后；board[r
         }
         return list;
     }
-```
+// ```

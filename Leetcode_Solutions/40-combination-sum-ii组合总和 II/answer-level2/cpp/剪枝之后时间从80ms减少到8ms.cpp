@@ -1,26 +1,26 @@
-### 解题思路
-完全复制上题的代码，在dfs函数中增加一段
-if(remain==0)
-    {
-        for(int i=0;i<answer.size();i++)
-        {
-            if(answer[i]==v) return;
-        }
-        answer.push_back(v);
-    }
-防止重复的产生
-for(int i=last;i<candidates.size();i++)
-        {
-            if(remain-candidates[i]<0) return;//剪枝代码
-            last=i+1;//last=i,变为last=i+1，每个元素用一次
-            v.push_back(candidates[i]);
-            dfs(remain-candidates[i]); 
-            v.pop_back();
-            last=last0;
-        }
-### 代码
+// ### 解题思路
+// 完全复制上题的代码，在dfs函数中增加一段
+// if(remain==0)
+//     {
+//         for(int i=0;i<answer.size();i++)
+//         {
+//             if(answer[i]==v) return;
+//         }
+//         answer.push_back(v);
+//     }
+// 防止重复的产生
+// for(int i=last;i<candidates.size();i++)
+//         {
+//             if(remain-candidates[i]<0) return;//剪枝代码
+//             last=i+1;//last=i,变为last=i+1，每个元素用一次
+//             v.push_back(candidates[i]);
+//             dfs(remain-candidates[i]); 
+//             v.pop_back();
+//             last=last0;
+//         }
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 vector<vector<int>> answer;
@@ -60,4 +60,4 @@ vector<vector<int>> combinationSum2(vector<int>& _candidates, int target) {
 }
         
 };
-```
+// ```

@@ -1,6 +1,6 @@
-先统计哪些行、列需要置零，统计完后就置零。
+// 先统计哪些行、列需要置零，统计完后就置零。
 
-```
+// ```
 class Solution {
 public:
     void setZeroes(vector<vector<int>>& matrix) {
@@ -35,4 +35,4 @@ public:
         }
     }
 };
-```
+// ```

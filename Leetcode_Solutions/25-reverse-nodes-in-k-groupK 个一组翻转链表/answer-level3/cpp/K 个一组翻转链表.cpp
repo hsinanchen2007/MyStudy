@@ -1,13 +1,13 @@
-![图片.png](https://pic.leetcode-cn.com/e202b34fece406f0fa818eb06b7986174bcb6d058e1ff68157f2d37fc6655556-%E5%9B%BE%E7%89%87.png)
+// ![图片.png](https://pic.leetcode-cn.com/e202b34fece406f0fa818eb06b7986174bcb6d058e1ff68157f2d37fc6655556-%E5%9B%BE%E7%89%87.png)
 
-分两种情况：
-1. 一种是pre为head:
-此时来一个节点就插入到pre前面
+// 分两种情况：
+// 1. 一种是pre为head:
+// 此时来一个节点就插入到pre前面
 
-2. 第二种pre为上一组的最后一个节点
-此时来一个节点就插入到pre的后面
+// 2. 第二种pre为上一组的最后一个节点
+// 此时来一个节点就插入到pre的后面
 
-```
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -81,4 +81,4 @@ public:
         return head;
     }
 };
-```
+// ```

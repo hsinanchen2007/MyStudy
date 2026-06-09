@@ -1,9 +1,9 @@
-### 解题思路
-层次遍历后取最后一层。
+// ### 解题思路
+// 层次遍历后取最后一层。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 #define MAX_NUMS 10000001
 typedef struct NODE_
@@ -103,4 +103,4 @@ for(int i = 0; i < cnt; i++)
 QueueClear(&myQueue);
 return sum;
 }
-```
+// ```

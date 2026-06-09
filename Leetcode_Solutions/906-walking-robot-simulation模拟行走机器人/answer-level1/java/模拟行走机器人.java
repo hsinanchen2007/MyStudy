@@ -1,5 +1,5 @@
-flag 1 2 3 4 北 东 南 西 command为正数时，遍历一步步走通过set判断是否阻挡，如果一次走command步，判断是否阻挡，会很困难。
-```java []
+// flag 1 2 3 4 北 东 南 西 command为正数时，遍历一步步走通过set判断是否阻挡，如果一次走command步，判断是否阻挡，会很困难。
+// ```java []
 class Solution {
     public int robotSim(int[] commands, int[][] obstacles) {
         Set<String> set = new HashSet<>();
@@ -65,4 +65,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

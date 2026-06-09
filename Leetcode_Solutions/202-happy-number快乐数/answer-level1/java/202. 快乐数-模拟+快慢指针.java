@@ -1,17 +1,17 @@
 
 
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/8/28
- *
- * 解题思路1: 模拟求解 使用hashmap来确定出口,将history 都存在map中
- *
- * 解题思路2: 模拟求解 使用快慢指针来确定出口 当出现循环 快指针一定会追上慢指针 当不出现循环 快指针会在平方等于1的位置自循环(停止)1*1=1
- */
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/8/28
+//  *
+//  * 解题思路1: 模拟求解 使用hashmap来确定出口,将history 都存在map中
+//  *
+//  * 解题思路2: 模拟求解 使用快慢指针来确定出口 当出现循环 快指针一定会追上慢指针 当不出现循环 快指针会在平方等于1的位置自循环(停止)1*1=1
+//  */
 
-```
+// ```
     public boolean isHappy(int n) {
 
         HashMap<Integer , Integer> hashMap = new HashMap<Integer, Integer>();
@@ -73,4 +73,4 @@
         return slow == 1;
 
     }
-```
+// ```

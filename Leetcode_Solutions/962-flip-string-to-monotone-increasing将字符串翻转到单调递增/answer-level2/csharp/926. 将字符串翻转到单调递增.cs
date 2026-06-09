@@ -1,9 +1,9 @@
-### 解题思路
-C# 前缀和
+// ### 解题思路
+// C# 前缀和
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int MinFlipsMonoIncr(string S) {
         // 统计当前及之前所有数字中 '0' 的个数
@@ -26,4 +26,4 @@ public class Solution {
         return min;
     }
 }
-```
+// ```

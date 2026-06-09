@@ -1,13 +1,13 @@
-### 解题思路
-1）设置行标记位，表示(0,0), (0, 10), (0, 20), ... 是否可达
-2）行遍历，分别从行标记位统计之后可达的位置数
-3）如果行标记位为false，则停止当前行的遍历
+// ### 解题思路
+// 1）设置行标记位，表示(0,0), (0, 10), (0, 20), ... 是否可达
+// 2）行遍历，分别从行标记位统计之后可达的位置数
+// 3）如果行标记位为false，则停止当前行的遍历
 
-![image.png](https://pic.leetcode-cn.com/eb4821ae1f99919d49beefe9e411f24f3e79c3890af1916e868cc555f1ef8f99-image.png)
+// ![image.png](https://pic.leetcode-cn.com/eb4821ae1f99919d49beefe9e411f24f3e79c3890af1916e868cc555f1ef8f99-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 # define PR pair<int, int>
 
 class Solution {
@@ -74,4 +74,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def checkSubarraySum(self, nums: List[int], k: int) -> bool:
         if len(nums)<=1:
@@ -27,8 +27,8 @@ class Solution:
         return False
 
 
-```
+# ```
 
 
-区间差检验方式
-python solution
+# 区间差检验方式
+# python solution

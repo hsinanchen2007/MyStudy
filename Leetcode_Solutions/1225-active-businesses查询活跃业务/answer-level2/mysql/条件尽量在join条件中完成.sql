@@ -1,9 +1,9 @@
-### 解题思路
-条件尽量在join条件中完成
+-- ### 解题思路
+-- 条件尽量在join条件中完成
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 
 #事件类型在所有业务中的平均发生次数
@@ -17,4 +17,4 @@ group by event_type) avg_o on e.event_type=avg_o.event_type and e.occurences>avg
 group by business_id
 having count(*)>1;
 
-```
+-- ```

@@ -1,5 +1,5 @@
-Dijksta
-```c++
+// Dijksta
+// ```c++
 class Solution {
 public:
     int networkDelayTime(vector<vector<int>>& times, int N, int K) {
@@ -29,9 +29,9 @@ public:
         return res;
     }
 };
-```
-使用堆优化
-```c++
+// ```
+// 使用堆优化
+// ```c++
 class Solution {
 public:
     int networkDelayTime(vector<vector<int>>& times, int N, int K) {
@@ -71,4 +71,4 @@ public:
         return res;
     }
 };
-```
+// ```

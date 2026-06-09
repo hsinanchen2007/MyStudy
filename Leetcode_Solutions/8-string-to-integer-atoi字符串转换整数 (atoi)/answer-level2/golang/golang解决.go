@@ -1,7 +1,7 @@
-golang 解法
-github: https://github.com/Crownt/leetcode
+// golang 解法
+// github: https://github.com/Crownt/leetcode
 
-```
+// ```
 // 时间复杂度：O(m),为有效数字的长度  空间复杂度：O(n)，数组strArr所占 
 
 func myAtoi(str string) int {
@@ -59,4 +59,4 @@ func myAtoi(str string) int {
 
 	return res
 }
-```
+// ```

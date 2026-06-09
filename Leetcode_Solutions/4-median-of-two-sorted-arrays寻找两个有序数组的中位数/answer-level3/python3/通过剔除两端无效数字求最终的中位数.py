@@ -1,6 +1,6 @@
 
-原本第一想法是把第二个列表按顺序插进第一个列表中，然后取中位数，如下。
-```
+# 原本第一想法是把第二个列表按顺序插进第一个列表中，然后取中位数，如下。
+# ```
 class Solution(object):
     def findMedianSortedArrays(self, nums1, nums2):
         """
@@ -25,14 +25,14 @@ class Solution(object):
             return nums1[int((1+len(nums1))/2-1)]
         else:
             return (nums1[int(len(nums1)/2)]+nums1[int(len(nums1)/2-1)])/2
-```
+# ```
 
-虽然也能通过测试，但需要遍历两个列表，不满足复杂度的要求。
-看了社区里的多个解法后，有了以下思路。
-每次分别找两个列表中的中位数，删除小的中位数之前的元素与大的中位数之后的元素，但要保证两个列表中删除的元素相同，此时合并后的列表中位数不会发生变化。
-接下去就考虑极限情况即可。代码如下：
+# 虽然也能通过测试，但需要遍历两个列表，不满足复杂度的要求。
+# 看了社区里的多个解法后，有了以下思路。
+# 每次分别找两个列表中的中位数，删除小的中位数之前的元素与大的中位数之后的元素，但要保证两个列表中删除的元素相同，此时合并后的列表中位数不会发生变化。
+# 接下去就考虑极限情况即可。代码如下：
 
-```
+# ```
 class Solution(object):
     def findMedianSortedArrays(self, nums1, nums2):
         """
@@ -101,4 +101,4 @@ class Solution(object):
 
     def get_res(self,list01):#定义一个求中位数的函数
         return (list01[self.get_mid(list01)[0]] + list01[self.get_mid(list01)[1]]) / 2
-```
+# ```

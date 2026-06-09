@@ -1,9 +1,9 @@
-### 解题思路
-二叉搜索树的中序遍历即为从小到大排序。可利用这个性质
+// ### 解题思路
+// 二叉搜索树的中序遍历即为从小到大排序。可利用这个性质
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -43,4 +43,4 @@ struct TreeNode* inorderSuccessor(struct TreeNode* root, struct TreeNode* p) {
         return S[i+1];
     }
 }
-```
+// ```

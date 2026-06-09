@@ -1,7 +1,7 @@
-代码中 dummy 是伪节点，dummy_ptr 是伪节点指针的指针，last_inserted 是上次插入位置，head 是最终结果链表的头部。请注意两个二阶指针的使用。
+// 代码中 dummy 是伪节点，dummy_ptr 是伪节点指针的指针，last_inserted 是上次插入位置，head 是最终结果链表的头部。请注意两个二阶指针的使用。
 
 
-```
+// ```
 class Solution {
 public:
     struct ListState {
@@ -46,4 +46,4 @@ public:
         return state.head;
     }
 };
-```
+// ```

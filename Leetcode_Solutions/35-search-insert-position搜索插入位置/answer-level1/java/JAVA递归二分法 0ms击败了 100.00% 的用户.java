@@ -1,9 +1,9 @@
-### 解题思路
-通过递归二分法直至数组长度小于一，比较即可得出结果
+// ### 解题思路
+// 通过递归二分法直至数组长度小于一，比较即可得出结果
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int searchInsert(int[] nums, int target) {
         return halfCheck(0,nums.length-1,nums,target);
@@ -21,4 +21,4 @@ class Solution {
         return end;
     }
 }
-```
+// ```

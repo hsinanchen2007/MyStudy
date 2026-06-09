@@ -1,10 +1,10 @@
-### 解题思路
-1、先二分查找出target在nums中的位置
-2、再从这个位置分别向前和向后找出不等于target的位置
+// ### 解题思路
+// 1、先二分查找出target在nums中的位置
+// 2、再从这个位置分别向前和向后找出不等于target的位置
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 
     private int findIndex(int[] nums, int target){
@@ -58,4 +58,4 @@ class Solution {
         return new int[]{j+1,i-1};
     }
 }
-```
+// ```

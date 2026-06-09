@@ -1,8 +1,8 @@
-如果匹配的话，假设word =  "abcd",分别对应在原数组中出现的索引为index1、index2、index3、index4,必须满足index1 < index2 < index3 < index4。问题转化为对于word中每个出现的字符，判断是否存在合适的索引满足上述要求。
+// 如果匹配的话，假设word =  "abcd",分别对应在原数组中出现的索引为index1、index2、index3、index4,必须满足index1 < index2 < index3 < index4。问题转化为对于word中每个出现的字符，判断是否存在合适的索引满足上述要求。
 
-首先保存每个S中每个字符出现的位置，需要注意这个位置是有序的（小-->大），所以查找合适的索引的时候可以用二分法。
+// 首先保存每个S中每个字符出现的位置，需要注意这个位置是有序的（小-->大），所以查找合适的索引的时候可以用二分法。
 
-```swift
+// ```swift
 class Solution {
     var charToIndices = Array<Array<Int>>(repeating: Array<Int>(), count: 26)
     let charToIndex: [Character:Int] = ["s": 18, "a": 0, "z": 25, "w": 22, "q": 16, "i": 8, "k": 10, "n": 13, "r": 17, "x": 23, "m": 12, "g": 6, "t": 19, "b": 1, "p": 15, "u": 20, "d": 3, "o": 14, "j": 9, "l": 11, "h": 7, "y": 24, "f": 5, "v": 21, "c": 2, "e": 4]
@@ -50,8 +50,8 @@ class Solution {
         return false
     }
 }
-```
-```cpp
+// ```
+// ```cpp
 class Solution {
 private :
     vector<vector<int >> charToIndices = vector<vector<int >>(26, vector<int>());
@@ -107,4 +107,4 @@ private:
         return false;
     }
 };
-```
+// ```

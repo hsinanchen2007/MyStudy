@@ -1,6 +1,6 @@
-**思路**
-先以对角为对称轴进行反转，再以y轴进行反转。
-```
+// **思路**
+// 先以对角为对称轴进行反转，再以y轴进行反转。
+// ```
 void swap(int *a, int *b) {
     int tmp = *a;
     *a = *b;
@@ -23,4 +23,4 @@ void rotate(int** matrix, int matrixSize, int* matrixColSize){
 }
 
 
-```
+// ```

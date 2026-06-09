@@ -1,5 +1,5 @@
-思路的核心还是不论有多少最小值都压入栈里，这样pop其中一个最小值，目前的最小值也不变
-```python
+# 思路的核心还是不论有多少最小值都压入栈里，这样pop其中一个最小值，目前的最小值也不变
+# ```python
 class MinStack:
 
     def __init__(self):
@@ -26,4 +26,4 @@ class MinStack:
 
     def min(self) -> int:
         return self.minimal[-1]
-```
+# ```

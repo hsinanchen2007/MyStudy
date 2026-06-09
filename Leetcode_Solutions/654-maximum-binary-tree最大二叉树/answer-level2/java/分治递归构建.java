@@ -1,16 +1,16 @@
-1. 关于复杂度
-<br />&nbsp;1.1 时间复杂度为O(n^2)
-<br />&nbsp;1.2 空间负责度为O(1)
-2. 我的解题思路
-<br />&nbsp;2.1 这个解法一定程度上借鉴了分治思想
-<br />&nbsp;2.2 找到当前区间的最大元素以及对应的索引，以最大值为值构建当前结点
-<br />&nbsp;2.3 利用最大元素的左右区间分别递归构建左右子树
-3. 提交记录
-<br />&nbsp;3.1 力扣中耗时6ms,消耗49.1MB内存
-<br />&nbsp;3.2 leetcode中耗时2ms,消耗38.1MB内存
-4. Q&A
+// 1. 关于复杂度
+// <br />&nbsp;1.1 时间复杂度为O(n^2)
+// <br />&nbsp;1.2 空间负责度为O(1)
+// 2. 我的解题思路
+// <br />&nbsp;2.1 这个解法一定程度上借鉴了分治思想
+// <br />&nbsp;2.2 找到当前区间的最大元素以及对应的索引，以最大值为值构建当前结点
+// <br />&nbsp;2.3 利用最大元素的左右区间分别递归构建左右子树
+// 3. 提交记录
+// <br />&nbsp;3.1 力扣中耗时6ms,消耗49.1MB内存
+// <br />&nbsp;3.2 leetcode中耗时2ms,消耗38.1MB内存
+// 4. Q&A
 
-```
+// ```
 /**
  * Problem
  *     654.Maximum Binary Tree
@@ -63,6 +63,6 @@
         return node;
     }
 }
-```
-如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理<br />
-你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路
+// ```
+// 如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理<br />
+// 你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路

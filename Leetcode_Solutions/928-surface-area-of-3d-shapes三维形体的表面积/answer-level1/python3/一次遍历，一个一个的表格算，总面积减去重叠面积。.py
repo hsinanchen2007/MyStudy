@@ -1,9 +1,9 @@
-### 解题思路
-思路，总面积减去重叠面积，每个格子检查左边和上面有没有正方体。
+# ### 解题思路
+# 思路，总面积减去重叠面积，每个格子检查左边和上面有没有正方体。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def surfaceArea(self, grid: List[List[int]]) -> int:
         ans=0
@@ -18,4 +18,4 @@ class Solution:
                     ans-=min(grid[i][j-1],grid[i][j])*2
         return ans 
 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int countCharacters(char ** words, int wordsSize, char * chars){
     int i, j, num, f, *hashc = (int*)calloc(26, sizeof(int)), *hashw = (int*)calloc(26, sizeof(int)), *flag = (int*)calloc(26, sizeof(int));
     for(i = 0;i < strlen(chars);hashc[chars[i] - 'a'] ++, i ++);
@@ -31,4 +31,4 @@ int countCharacters(char ** words, int wordsSize, char * chars){
     }
     return num;
 }
-```
+// ```

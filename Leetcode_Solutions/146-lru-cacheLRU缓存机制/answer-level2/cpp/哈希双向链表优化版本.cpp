@@ -1,9 +1,9 @@
-### 解题思路
-参考了高票回答，优化了部分步骤，如采用splice
+// ### 解题思路
+// 参考了高票回答，优化了部分步骤，如采用splice
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class LRUCache {
 public:
     //删除、查找、插入的复杂度都O（1）
@@ -48,4 +48,4 @@ public:
  * int param_1 = obj->get(key);
  * obj->put(key,value);
  */
-```
+// ```

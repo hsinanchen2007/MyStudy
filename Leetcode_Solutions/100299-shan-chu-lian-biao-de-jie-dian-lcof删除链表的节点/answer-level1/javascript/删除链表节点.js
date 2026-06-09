@@ -1,10 +1,10 @@
-### 解题思路
-- 找到需要删除节点的上一个节点
-- 如果找到将上一个节点的next指向下一个节点，来删除当前节点
+// ### 解题思路
+// - 找到需要删除节点的上一个节点
+// - 如果找到将上一个节点的next指向下一个节点，来删除当前节点
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -34,4 +34,4 @@ var deleteNode = function(head, val) {
     }
     return r.next;
 };
-```
+// ```

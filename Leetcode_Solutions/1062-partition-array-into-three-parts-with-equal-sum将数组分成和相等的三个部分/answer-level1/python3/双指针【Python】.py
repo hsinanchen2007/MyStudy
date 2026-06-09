@@ -1,19 +1,19 @@
-### 思路
+# ### 思路
 
-**双指针**
+# **双指针**
 
-```
+# ```
 先整体求和，不能被 3 整除直接返回 False。
 再用双指针，分别计算两边的和是否满足等于 sum/3。
 注意：题目的意思就是相邻元素相加，而不是任意相加。
-```
+# ```
 
-**时间复杂度:** O(n)
-**空间复杂度:** O(1)
+# **时间复杂度:** O(n)
+# **空间复杂度:** O(1)
 
-##### Python3代码
+# ##### Python3代码
 
-```python
+# ```python
 class Solution:
     def canThreePartsEqualSum(self, A: List[int]) -> bool:
         sum = 0
@@ -38,8 +38,8 @@ class Solution:
                 right -= 1
                 rightSum += A[right]
         return False
-```
+# ```
 
-### 代码地址
+# ### 代码地址
 
-[GitHub链接](https://github.com/Wonz5130/LeetCode-Solutions/blob/master/solutions/1013-Partition-Array-Into-Three-Parts-With-Equal-Sum/1013.py)
+# [GitHub链接](https://github.com/Wonz5130/LeetCode-Solutions/blob/master/solutions/1013-Partition-Array-Into-Three-Parts-With-Equal-Sum/1013.py)

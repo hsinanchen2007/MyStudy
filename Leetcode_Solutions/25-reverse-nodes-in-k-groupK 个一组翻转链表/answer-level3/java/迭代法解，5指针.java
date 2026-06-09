@@ -1,10 +1,10 @@
-### 解题思路
-应该是迭代法，用了五六个指针，没有用其他存储结构，原地反转，空间复杂度O(1),时间复杂度O(n)
-感觉好罪恶啊，调试的时候用了IDE的debug模式写的，哭唧唧
+// ### 解题思路
+// 应该是迭代法，用了五六个指针，没有用其他存储结构，原地反转，空间复杂度O(1),时间复杂度O(n)
+// 感觉好罪恶啊，调试的时候用了IDE的debug模式写的，哭唧唧
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -74,4 +74,4 @@ class Solution {
         return head == null && n == 0 ;
     }
 }
-```
+// ```

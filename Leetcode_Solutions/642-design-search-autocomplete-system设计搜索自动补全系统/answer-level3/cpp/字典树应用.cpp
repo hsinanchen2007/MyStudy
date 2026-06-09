@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-获取所有以 prefix 开头的句子，需要在 startsWith 的 终结节点做一次 DFS。
+// 获取所有以 prefix 开头的句子，需要在 startsWith 的 终结节点做一次 DFS。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class TrieNode {
 private:
     TrieNode *children[27];
@@ -147,4 +147,4 @@ public:
  * AutocompleteSystem* obj = new AutocompleteSystem(sentences, times);
  * vector<string> param_1 = obj->input(c);
  */
-```
+// ```

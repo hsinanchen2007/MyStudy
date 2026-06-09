@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int nthSuperUglyNumber(int n, int[] primes) {
         int[] pointers = new int[primes.length];
@@ -19,4 +19,4 @@ class Solution {
         return (int)nums[n - 1];
     }
 }
-```
+// ```

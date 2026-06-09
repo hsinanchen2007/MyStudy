@@ -1,9 +1,9 @@
-### 解题思路
-首先链表长度要相同，才能保证两个指针遍历时同步进行。
+// ### 解题思路
+// 首先链表长度要相同，才能保证两个指针遍历时同步进行。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -50,4 +50,4 @@ struct ListNode *getIntersectionNode(struct ListNode *headA, struct ListNode *he
     }//比较和指针的值
 return 0;
 }
-```
+// ```

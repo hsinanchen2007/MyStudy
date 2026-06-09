@@ -1,4 +1,4 @@
-```js
+// ```js
 var buddyStrings = function(A, B) {
     let aLen = A.length;
     let bLen = B.length;
@@ -26,4 +26,4 @@ var buddyStrings = function(A, B) {
     [arr[start],arr[end]] = [arr[end],arr[start]]
     return arr.join('') === B
 };
-```
+// ```

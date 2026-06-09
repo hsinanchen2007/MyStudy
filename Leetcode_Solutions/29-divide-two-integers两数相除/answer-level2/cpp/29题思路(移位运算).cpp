@@ -1,10 +1,10 @@
-### 解题思路
-m = (a0 * 2^0 + a1 * 2^1 + a2 * 2^2+...+ ak * 2^k) * n, ai = 0或1
-若m > n,则计算m最多容纳2^k个n,然后m - 2^k * n,结果res + 2^k
-对m余下部分进行一样的计算
-### 代码
+// ### 解题思路
+// m = (a0 * 2^0 + a1 * 2^1 + a2 * 2^2+...+ ak * 2^k) * n, ai = 0或1
+// 若m > n,则计算m最多容纳2^k个n,然后m - 2^k * n,结果res + 2^k
+// 对m余下部分进行一样的计算
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int divide(int dividend, int divisor) {
@@ -23,4 +23,4 @@ public:
         return res*sign;
     }
 };
-```
+// ```

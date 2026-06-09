@@ -1,9 +1,9 @@
-### 解题思路
-先统计字符个数，再找公约数
+# ### 解题思路
+# 先统计字符个数，再找公约数
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def hasGroupsSizeX(self, deck: List[int]) -> bool:
         s = [deck.count(i) for i in set(deck)]
@@ -14,4 +14,4 @@ class Solution:
                 return True
         return False
 
-```
+# ```

@@ -1,16 +1,16 @@
-### 解题思路
-暴力+剪枝，开5个[N+2][N+2]大的数组。
-一个用来初始化数组。
-另外四个用来统计该点上下左右1的大小
-        		left[i][j]=board[i][j]==1?(1+left[i][j-1]):0;		// 左
-        		right[i][N-j+1]=board[i][N-j+1]==1?(1+right[i][N-j+2]):0;// 右
-        		top[j][i]=board[j][i]==1?(1+top[j-1][i]):0;		// 上
-        		bottom[N-j+1][i]=board[N-j+1][i]==1?(1+bottom[N-j+2][i]):0;	// 右
-具体见代码
-思路并不难
-### 代码
+// ### 解题思路
+// 暴力+剪枝，开5个[N+2][N+2]大的数组。
+// 一个用来初始化数组。
+// 另外四个用来统计该点上下左右1的大小
+//         		left[i][j]=board[i][j]==1?(1+left[i][j-1]):0;		// 左
+//         		right[i][N-j+1]=board[i][N-j+1]==1?(1+right[i][N-j+2]):0;// 右
+//         		top[j][i]=board[j][i]==1?(1+top[j-1][i]):0;		// 上
+//         		bottom[N-j+1][i]=board[N-j+1][i]==1?(1+bottom[N-j+2][i]):0;	// 右
+// 具体见代码
+// 思路并不难
+// ### 代码
 
-```java
+// ```java
 class Solution {
     // 764. 最大加号标志
     public int orderOfLargestPlusSign(int N, int[][] mines) {
@@ -52,4 +52,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

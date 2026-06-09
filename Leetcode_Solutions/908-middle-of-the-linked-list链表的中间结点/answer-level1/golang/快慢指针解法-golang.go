@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-快慢指针，然后遍历，直到`fast.Next == nil` 或者 `fast.Next.Next == nil` 不满足。
-则退出循环，然后判断`fast.Next` 是否为空，若为空，则表明有奇数节点，此时直接返回`slow`指针指向的
-节点即可，否则返回`slow.Next`.
+// 快慢指针，然后遍历，直到`fast.Next == nil` 或者 `fast.Next.Next == nil` 不满足。
+// 则退出循环，然后判断`fast.Next` 是否为空，若为空，则表明有奇数节点，此时直接返回`slow`指针指向的
+// 节点即可，否则返回`slow.Next`.
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -32,4 +32,4 @@ func middleNode(head *ListNode) *ListNode {
 		return slow
 	}
 }
-```
+// ```

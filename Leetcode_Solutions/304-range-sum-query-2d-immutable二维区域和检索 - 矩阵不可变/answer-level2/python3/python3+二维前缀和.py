@@ -1,9 +1,9 @@
-### 解题思路
-前缀和。可以把前缀和数组换成字典，应该会更快一点
+# ### 解题思路
+# 前缀和。可以把前缀和数组换成字典，应该会更快一点
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class NumMatrix:
 
     def __init__(self, matrix: List[List[int]]):
@@ -26,4 +26,4 @@ class NumMatrix:
 # Your NumMatrix object will be instantiated and called as such:
 # obj = NumMatrix(matrix)
 # param_1 = obj.sumRegion(row1,col1,row2,col2)
-```
+# ```

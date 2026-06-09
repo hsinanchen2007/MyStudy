@@ -1,6 +1,6 @@
-[更多leetcode题解参考此处](https://github.com/reedfan/leetcode/tree/master/src/main/java/leetcode)
+// [更多leetcode题解参考此处](https://github.com/reedfan/leetcode/tree/master/src/main/java/leetcode)
 
-```
+// ```
 //记录某个位置是否已经搜索过
     boolean[][] visted;
     int x, y;
@@ -51,4 +51,4 @@
     private boolean legal(int row, int col) {
         return row >= 0 && row < x && col >= 0 && col < y;
     }
-```
+// ```

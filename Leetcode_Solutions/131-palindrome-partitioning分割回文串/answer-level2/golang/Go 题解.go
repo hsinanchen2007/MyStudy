@@ -1,10 +1,10 @@
-思路：从头至尾逐位分割字符串，分割后前半部分为回文串时递归调用函数，找出后半部分所有的回文串组合。
+// 思路：从头至尾逐位分割字符串，分割后前半部分为回文串时递归调用函数，找出后半部分所有的回文串组合。
 
-```
+// ```
 执行用时 :40 ms, 在所有 Go 提交中击败了49.28%的用户
 内存消耗 :7.3 MB, 在所有 Go 提交中击败了71.93%的用户
-```
-```Go []
+// ```
+// ```Go []
 func partition(s string) [][]string {
 	if len(s) == 1 {
 		return [][]string{{s}}
@@ -34,5 +34,5 @@ func isPalindrome(s string) bool {
 	}
 	return true
 }
-```
-[LeetCodeByGo: 更多LeetCode题库Go语言题解](https://github.com/mrandmrsbenben/LeetCodeByGo)
+// ```
+// [LeetCodeByGo: 更多LeetCode题库Go语言题解](https://github.com/mrandmrsbenben/LeetCodeByGo)

@@ -1,14 +1,14 @@
-### 解题思路
-动态规划
+// ### 解题思路
+// 动态规划
 
-算法
-- 状态dp[i]
-- 状态转移方程
-dp[i] = dp[i] + dp[i - coins[i]]
+// 算法
+// - 状态dp[i]
+// - 状态转移方程
+// dp[i] = dp[i] + dp[i - coins[i]]
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -30,15 +30,15 @@ class Solution {
         return (int)$dp[$amount];
     }
 }
-```
+// ```
 
-### 性能
-执行用时 :164 ms, 在所有 PHP 提交中击败了33.33%的用户
-内存消耗 :15.3 MB, 在所有 PHP 提交中击败了100.00%的用户
+// ### 性能
+// 执行用时 :164 ms, 在所有 PHP 提交中击败了33.33%的用户
+// 内存消耗 :15.3 MB, 在所有 PHP 提交中击败了100.00%的用户
 
-### 算法复杂度
-- 时间复杂度 O(M * N)
-- 空间复杂度 O(N)
+// ### 算法复杂度
+// - 时间复杂度 O(M * N)
+// - 空间复杂度 O(N)
 
-### 参考
-[https://leetcode-cn.com/problems/coin-change-2/comments/37934](https://leetcode-cn.com/problems/coin-change-2/comments/37934)
+// ### 参考
+// [https://leetcode-cn.com/problems/coin-change-2/comments/37934](https://leetcode-cn.com/problems/coin-change-2/comments/37934)

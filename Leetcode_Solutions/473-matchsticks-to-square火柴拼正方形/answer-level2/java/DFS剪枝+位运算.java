@@ -1,5 +1,5 @@
-1.DFS剪枝优化
-```
+// 1.DFS剪枝优化
+// ```
 class Solution {
     public boolean makesquare(int[] nums) {
         if (nums.length < 4) { // 优化
@@ -43,9 +43,9 @@ class Solution {
         return false;
     }
 }
-```
-2.位运算
-```
+// ```
+// 2.位运算
+// ```
 class Solution {
     public boolean makesquare(int[] nums) {
         if (nums.length < 4) { // 优化
@@ -94,5 +94,5 @@ class Solution {
         return false;
     }
 }
-```
+// ```
 

@@ -1,9 +1,9 @@
-障碍点看起来很麻烦，其实如果深刻理解dp数组的含义，就很简单
+// 障碍点看起来很麻烦，其实如果深刻理解dp数组的含义，就很简单
 
-- dp[][]二维数组的含义是站在该点上，到end的距离为表示的值，故我们在初始化和开始动归时，进行是否为障碍点的判断，若是，将这一点的值人工置零即可
+// - dp[][]二维数组的含义是站在该点上，到end的距离为表示的值，故我们在初始化和开始动归时，进行是否为障碍点的判断，若是，将这一点的值人工置零即可
 
 
-```
+// ```
 class Solution {
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {
         int m = obstacleGrid.length;
@@ -51,4 +51,4 @@ class Solution {
         return dp[m-1][n-1]; 
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-先序遍历，一旦是leafnode,就记录在Arraylist里。最后比较两个Arraylist是否一样即可。
+// ### 解题思路
+// 先序遍历，一旦是leafnode,就记录在Arraylist里。最后比较两个Arraylist是否一样即可。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -30,4 +30,4 @@ class Solution {
         add(node.right,list);
     }
 }
-```
+// ```

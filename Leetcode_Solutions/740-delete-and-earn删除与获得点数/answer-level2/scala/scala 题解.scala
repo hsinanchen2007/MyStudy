@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def deleteAndEarn(nums: Array[Int]): Int = {
     val res = Array.ofDim[Int](10001)
@@ -7,4 +7,4 @@ object Solution {
     res(10000)
   }
 }
-```
+// ```

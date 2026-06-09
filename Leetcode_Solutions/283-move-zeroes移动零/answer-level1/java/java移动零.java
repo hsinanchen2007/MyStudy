@@ -1,4 +1,4 @@
-```
+// ```
 public void moveZeroes(int[] nums) {
         int zeroCount=0;
         for(int i=0;i<nums.length;i++){
@@ -11,4 +11,4 @@ public void moveZeroes(int[] nums) {
             }
         }
     }
-```
+// ```

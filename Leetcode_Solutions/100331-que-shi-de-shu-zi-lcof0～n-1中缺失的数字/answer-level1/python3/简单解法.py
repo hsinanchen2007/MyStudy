@@ -1,9 +1,9 @@
-### 解题思路
-判断0~n，下标不相等则返回。
+# ### 解题思路
+# 判断0~n，下标不相等则返回。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def missingNumber(self, nums):
         """
@@ -15,4 +15,4 @@ class Solution(object):
                 return i
         return i + 1
         
-```
+# ```

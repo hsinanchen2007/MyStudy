@@ -1,5 +1,5 @@
-不用记忆字典，在Python中会超时的，所以我们用self.back去记忆之前处理过的节点
-```
+# 不用记忆字典，在Python中会超时的，所以我们用self.back去记忆之前处理过的节点
+# ```
 class Solution:
     def __init__(self):
         self.back = {}

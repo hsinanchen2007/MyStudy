@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-先求平方，再进行排序
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 先求平方，再进行排序
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] sortedSquares(int[] A) {
         if(A==null)return null;
@@ -22,4 +22,4 @@ class Solution {
         return A;
     }
 }
-```
+// ```

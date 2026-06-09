@@ -1,11 +1,11 @@
-### 解题思路
-1. 首先使用dfs，求得从root ==> target的路径上经过的所有节点结合path
-2. 从path中的每一个节点出发，寻找以该结点为根，向下搜索距离为深度为K的子节点
-需要注意的是，必须避免重复搜索path中的节点
+// ### 解题思路
+// 1. 首先使用dfs，求得从root ==> target的路径上经过的所有节点结合path
+// 2. 从path中的每一个节点出发，寻找以该结点为根，向下搜索距离为深度为K的子节点
+// 需要注意的是，必须避免重复搜索path中的节点
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -74,4 +74,4 @@ public:
         getNode(root->right, depth, k, res);
     }
 };
-```
+// ```

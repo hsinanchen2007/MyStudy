@@ -1,10 +1,10 @@
-### 解题思路
-本来逻辑比较简单，直接左边+1 或者右边-1 接着做判断。但是遇到用例aguokepatgbnvfqmgmlcupuufxoohdfpgjdmysgvhmvffcnqxjjxqncffvmhvgsymdjgpfdhooxfuupuculmgmqfvnbgtapekouga
-即左边+1 或者右边-1都能满足回文，但是需要进一步去判断，导致整个代码逻辑混乱，感觉是针对个别用例修改代码，为了ac而ac
+// ### 解题思路
+// 本来逻辑比较简单，直接左边+1 或者右边-1 接着做判断。但是遇到用例aguokepatgbnvfqmgmlcupuufxoohdfpgjdmysgvhmvffcnqxjjxqncffvmhvgsymdjgpfdhooxfuupuculmgmqfvnbgtapekouga
+// 即左边+1 或者右边-1都能满足回文，但是需要进一步去判断，导致整个代码逻辑混乱，感觉是针对个别用例修改代码，为了ac而ac
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool validPalindrome(char * s){
     if (strlen(s) == 0) {
         return true;
@@ -38,4 +38,4 @@ bool validPalindrome(char * s){
     }
     return true;
 }
-```
+// ```

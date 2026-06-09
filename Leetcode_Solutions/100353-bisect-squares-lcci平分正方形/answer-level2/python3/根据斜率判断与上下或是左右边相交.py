@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def cutSquares(self, square1: List[int], square2: List[int]) -> List[float]:
         get_x = lambda y: (y - b) / k
@@ -23,4 +23,4 @@ class Solution:
         points = sorted(points)
         return [*points[0], *points[-1]]
             
-```
+# ```

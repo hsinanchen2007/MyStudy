@@ -1,4 +1,4 @@
-```
+// ```
  public String simplifyPath(String path) {
         Stack<String> pathStack = new Stack<>();
 
@@ -13,4 +13,4 @@
                 );
         return "/" + pathStack.stream().collect(Collectors.joining("/"));
     }
-```
+// ```

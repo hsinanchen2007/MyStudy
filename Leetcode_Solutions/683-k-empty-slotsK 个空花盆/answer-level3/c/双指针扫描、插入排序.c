@@ -1,10 +1,10 @@
-### 解题思路
-1、每天左右扫描找到符合条件的（176 ms）
-2、模拟插入排序（988 ms），数据的挪动效率低，慎用
+// ### 解题思路
+// 1、每天左右扫描找到符合条件的（176 ms）
+// 2、模拟插入排序（988 ms），数据的挪动效率低，慎用
 
-### 代码
-【双指针扫描】
-```
+// ### 代码
+// 【双指针扫描】
+// ```
 #include <stdio.h>
 #define MAX_LEN 20001
 static bool *flag;
@@ -61,10 +61,10 @@ int kEmptySlots(int* bulbs, int bulbsSize, int K)
 	free(flag);
 	return ans;
 }
-```
+// ```
 
-【插入排序】
-```c
+// 【插入排序】
+// ```c
 #define MAX_LEN 20001
 
 static int *g_arr;
@@ -123,4 +123,4 @@ int kEmptySlots(int* bulbs, int bulbsSize, int k)
     return -1;
 }
 
-```
+// ```

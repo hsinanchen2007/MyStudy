@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def largestValsFromLabels(self, values: List[int], labels: List[int], num_wanted: int, use_limit: int) -> int:
         if not values or not labels or not num_wanted or not use_limit:
@@ -19,4 +19,4 @@ class Solution:
         
         # 最终将取出的value从大到小排序，并取前num_wanted即可
         return sum(sorted(tmp_list, reverse=True)[:num_wanted])
-```
+# ```

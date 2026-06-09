@@ -1,4 +1,4 @@
-```
+// ```
 function generatePossibleNextMoves($s) {
     if(strlen($s) <= 0) return [];
     $ans = [];
@@ -12,4 +12,4 @@ function generatePossibleNextMoves($s) {
     }
     return $ans;
 }
-```
+// ```

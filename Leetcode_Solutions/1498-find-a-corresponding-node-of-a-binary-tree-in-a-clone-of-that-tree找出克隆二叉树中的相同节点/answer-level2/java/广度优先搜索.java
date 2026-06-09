@@ -1,10 +1,10 @@
-### 解题思路
-由于两个二叉树 `original` 和 `cloned` 的结构一样，对于 `original` 中的每个节点，都有一个在 `cloned` 中的对应节点，因此对两个二叉树做同步的广度优先搜索。当 `original` 中遇到一个节点与 `target` 相同时，`original` 中的对应节点即为要返回的节点。
-由于此处判断的是节点引用本身，而不是节点值，因此该方法也适用于二叉树中有重复值的情况。
+// ### 解题思路
+// 由于两个二叉树 `original` 和 `cloned` 的结构一样，对于 `original` 中的每个节点，都有一个在 `cloned` 中的对应节点，因此对两个二叉树做同步的广度优先搜索。当 `original` 中遇到一个节点与 `target` 相同时，`original` 中的对应节点即为要返回的节点。
+// 由于此处判断的是节点引用本身，而不是节点值，因此该方法也适用于二叉树中有重复值的情况。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -43,4 +43,4 @@ class Solution {
         return copy;
     }
 }
-```
+// ```

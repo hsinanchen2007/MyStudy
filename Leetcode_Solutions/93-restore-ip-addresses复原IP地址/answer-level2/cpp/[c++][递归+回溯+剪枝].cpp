@@ -1,10 +1,10 @@
-### 
-![image.png](https://pic.leetcode-cn.com/903e160fdbbf89bddc03f818a83addd829d8fe3564d56bdd2e2691d4e99b3d60-image.png)
+// ### 
+// ![image.png](https://pic.leetcode-cn.com/903e160fdbbf89bddc03f818a83addd829d8fe3564d56bdd2e2691d4e99b3d60-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	vector<string> restoreIpAddresses(string s) {
@@ -30,4 +30,4 @@ public:
 private:
 	vector<string> res;
 };
-```
+// ```

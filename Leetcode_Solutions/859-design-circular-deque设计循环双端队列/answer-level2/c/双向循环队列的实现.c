@@ -1,9 +1,9 @@
-### 解题思路
-　与单向循环队列类似，预留一个空间来区分空队列和满队列。
--1操作可以通过加模平移避免负数无法求余。
-### 代码
+// ### 解题思路
+// 　与单向循环队列类似，预留一个空间来区分空队列和满队列。
+// -1操作可以通过加模平移避免负数无法求余。
+// ### 代码
 
-```c
+// ```c
 typedef struct {
     int *data;
     int head;
@@ -127,4 +127,4 @@ void myCircularDequeFree(MyCircularDeque* obj) {
  
  * myCircularDequeFree(obj);
 */
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-使用递归
+// ### 解题思路
+// 使用递归
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {character[][]} board
  * @param {string} word
@@ -64,4 +64,4 @@ var exist = function(board, word) {
 
     return false;
 };
-```
+// ```

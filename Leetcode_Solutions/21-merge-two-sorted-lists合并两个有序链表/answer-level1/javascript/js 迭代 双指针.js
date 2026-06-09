@@ -1,9 +1,9 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/28c8aba94557a459eaa17a87e0480501b1899c916a2772feee0d5f09a6b5a07d-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/28c8aba94557a459eaa17a87e0480501b1899c916a2772feee0d5f09a6b5a07d-image.png)
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -43,4 +43,4 @@ var mergeTwoLists = function(l1, l2) {
     return res;
     
 };
-```
+// ```

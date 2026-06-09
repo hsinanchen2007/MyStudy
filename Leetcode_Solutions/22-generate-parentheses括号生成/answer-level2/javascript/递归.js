@@ -1,9 +1,9 @@
-思路：要保证生成括号的合法性
-- 单边括号数量不能超过n
-- 每次生成，右括号数量不能超过左括号。
+// 思路：要保证生成括号的合法性
+// - 单边括号数量不能超过n
+// - 每次生成，右括号数量不能超过左括号。
 
 
-```javascript []
+// ```javascript []
 /*
  * @lc app=leetcode.cn id=22 lang=javascript
  *
@@ -37,4 +37,4 @@ var generateParenthesis = function (n) {
 
 
 
-```
+// ```

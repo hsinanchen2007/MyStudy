@@ -1,9 +1,9 @@
-### 解题思路
-纯打卡,四个方向扫一遍
+// ### 解题思路
+// 纯打卡,四个方向扫一遍
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numRookCaptures(vector<vector<char>>& board) {
@@ -60,4 +60,4 @@ public:
         return result;
     }
 };
-```
+// ```

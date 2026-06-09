@@ -1,27 +1,27 @@
-### 解题思路
-由于糖果分配符合$a_{i} = 1,2,3,..., a_{i-1}, a_{i}, a_{i+1}$的规律，
-可以计算出分配糖果的和为 $a_{1} + a_{2} + ...+ a_{n} = 1+2+3+..+n = \frac{(n+1)n}{2} = candies$
-$$=>\frac{n^2 + n}{2} = candies \\=> n^2 + n - 2*candies = 0$$
-解一元二次方程的**正根**，可以计算出 
-$$n(总分配次数) = -1 + \sqrt{\frac{1-4*(-2*candies))}{2}} $$
+// ### 解题思路
+// 由于糖果分配符合$a_{i} = 1,2,3,..., a_{i-1}, a_{i}, a_{i+1}$的规律，
+// 可以计算出分配糖果的和为 $a_{1} + a_{2} + ...+ a_{n} = 1+2+3+..+n = \frac{(n+1)n}{2} = candies$
+// $$=>\frac{n^2 + n}{2} = candies \\=> n^2 + n - 2*candies = 0$$
+// 解一元二次方程的**正根**，可以计算出 
+// $$n(总分配次数) = -1 + \sqrt{\frac{1-4*(-2*candies))}{2}} $$
 
-所以可以计算出一共分配了 `r` 到 `r+1`（边界情况） 轮
-$$r = \frac{n}{num_{people}}$$
+// 所以可以计算出一共分配了 `r` 到 `r+1`（边界情况） 轮
+// $$r = \frac{n}{num_{people}}$$
 
-**算法流程**
-1. 先计算前 `r` 轮的分配
-    $ans[0] = 1 + (1+num_{people}) + (1 + 2*num_{people}) + ... + (1 + (r-1)*num_{people});$
-    $=>ans[0] = 1 * r + num_{people} * \frac{r*(r-1)}{2};$
-    $=>ans[i] = (i+1) * r + num_{people} * \frac{r * (r-1)}{2};$
-2. 再遍历模拟单独处理 `r+1` 轮的分配
+// **算法流程**
+// 1. 先计算前 `r` 轮的分配
+//     $ans[0] = 1 + (1+num_{people}) + (1 + 2*num_{people}) + ... + (1 + (r-1)*num_{people});$
+//     $=>ans[0] = 1 * r + num_{people} * \frac{r*(r-1)}{2};$
+//     $=>ans[i] = (i+1) * r + num_{people} * \frac{r * (r-1)}{2};$
+// 2. 再遍历模拟单独处理 `r+1` 轮的分配
 
-**复杂度分析**
-* 时间复杂度 $O(N_{people})$
-* 空间复杂度 $O(N_{people})$
+// **复杂度分析**
+// * 时间复杂度 $O(N_{people})$
+// * 空间复杂度 $O(N_{people})$
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] distributeCandies(int candies, int num_people) {
         int[] ans = new int[num_people];
@@ -58,4 +58,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

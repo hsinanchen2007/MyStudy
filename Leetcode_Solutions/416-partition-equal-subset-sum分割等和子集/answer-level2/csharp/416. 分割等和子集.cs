@@ -1,9 +1,9 @@
-### 解题思路
-C# 动态规划 优化DP数组维度
+// ### 解题思路
+// C# 动态规划 优化DP数组维度
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public bool CanPartition(int[] nums) {
         int sum = nums.Sum();
@@ -31,4 +31,4 @@ public class Solution {
         return false;
     }
 }
-```
+// ```

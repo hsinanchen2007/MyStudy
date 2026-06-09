@@ -1,9 +1,9 @@
 
-# **双指针法**
+// # **双指针法**
 
-首先，判断特殊的情况，如果链表中没有元素或只有一个元素，则返回头结点。
-对一般情况，考虑用两个指针，指针pre用来寻找插入的位置，使用curr指针遍历单链表。若没有重复，则curr和pre一起前移。否则使用新指针p来查找相同元素的个数。最后将pre连接到p上，如果最后p为空（即到末尾元素都要删除），则pre->next=null。
-```
+// 首先，判断特殊的情况，如果链表中没有元素或只有一个元素，则返回头结点。
+// 对一般情况，考虑用两个指针，指针pre用来寻找插入的位置，使用curr指针遍历单链表。若没有重复，则curr和pre一起前移。否则使用新指针p来查找相同元素的个数。最后将pre连接到p上，如果最后p为空（即到末尾元素都要删除），则pre->next=null。
+// ```
 struct ListNode* deleteDuplicates(struct ListNode* head){
     //1.首先解决特殊情况
     if(head==NULL||head->next==NULL)
@@ -44,4 +44,4 @@ struct ListNode* deleteDuplicates(struct ListNode* head){
     return head->next;
 
 }
-```
+// ```

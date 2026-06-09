@@ -1,10 +1,10 @@
-### 解题思路
-1. 快速排序
-2. 归并排序
+# ### 解题思路
+# 1. 快速排序
+# 2. 归并排序
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def sortArray(self, nums: List[int]) -> List[int]:
     #     self.quick_sort(nums, 0, len(nums)-1)
@@ -55,4 +55,4 @@ class Solution:
         return result
 
 
-```
+# ```

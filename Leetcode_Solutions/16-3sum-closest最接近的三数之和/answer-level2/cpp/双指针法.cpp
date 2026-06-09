@@ -1,9 +1,9 @@
-### 解题思路
-先进行排序，再使用双指针法
+// ### 解题思路
+// 先进行排序，再使用双指针法
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int threeSumClosest(vector<int>& nums, int target) {
@@ -27,4 +27,4 @@ public:
         return ans;
     }
 };
-```
+// ```

@@ -1,13 +1,13 @@
-![WechatIMG17046.jpeg](https://pic.leetcode-cn.com/ac6d3435325a8abb3a231e6b1cf5daed4a78c053032bec64f45bca9657bf1c20-WechatIMG17046.jpeg)
+// ![WechatIMG17046.jpeg](https://pic.leetcode-cn.com/ac6d3435325a8abb3a231e6b1cf5daed4a78c053032bec64f45bca9657bf1c20-WechatIMG17046.jpeg)
 
 
 
-此题解决起来比较简单,主要应关注如何减少计算量
-* 一开始就进行从大到小排序,减少最后数组翻转操作
-* 反向pop出结果项,减少循环次数.
+// 此题解决起来比较简单,主要应关注如何减少计算量
+// * 一开始就进行从大到小排序,减少最后数组翻转操作
+// * 反向pop出结果项,减少循环次数.
 
 
-```
+// ```
 var minimumAbsDifference = function(arr) {
     var sortArr = arr.sort(function(a,b){
         return  b - a; //从大到小排列
@@ -35,4 +35,4 @@ var minimumAbsDifference = function(arr) {
     }
     return popRes;        
 };
-```
+// ```

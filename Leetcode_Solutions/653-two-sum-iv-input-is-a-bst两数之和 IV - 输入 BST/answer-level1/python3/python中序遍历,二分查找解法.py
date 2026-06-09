@@ -1,5 +1,5 @@
-python 中序遍历
-```
+# python 中序遍历
+# ```
 class Solution:
     def findTarget(self, root: TreeNode, target: int) -> bool:
         # write your code here
@@ -36,4 +36,4 @@ class Solution:
             else:
                 return True
         return False
-```
+# ```

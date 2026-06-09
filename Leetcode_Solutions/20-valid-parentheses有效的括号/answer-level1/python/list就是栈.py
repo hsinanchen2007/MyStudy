@@ -1,8 +1,8 @@
-### 解题思路
-rt
-### 代码
+# ### 解题思路
+# rt
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isValid(self, s: str) -> bool:
         temp = []
@@ -26,4 +26,4 @@ class Solution:
             return False
         else:
             return True
-```
+# ```

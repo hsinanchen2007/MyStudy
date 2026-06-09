@@ -1,4 +1,4 @@
-```go
+// ```go
 func customSortString(S string, T string) string {
     position := make(map[string]int)
     n := len(S)
@@ -15,4 +15,4 @@ func customSortString(S string, T string) string {
 
     return strings.Join(arr, "")
 }
-```
+// ```

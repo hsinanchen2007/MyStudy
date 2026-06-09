@@ -1,9 +1,9 @@
-### 解题思路
-菜的不要不要的解法
+// ### 解题思路
+// 菜的不要不要的解法
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     uint32_t reverseBits(uint32_t n) {
@@ -15,4 +15,4 @@ public:
         return res;
     }
 };
-```
+// ```

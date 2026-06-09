@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-如果下一步是false，这一步就是true
+// 如果下一步是false，这一步就是true
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     unordered_map<string,bool> um;
@@ -20,4 +20,4 @@ public:
         return um[s]=ret;
     }
 };
-```
+// ```

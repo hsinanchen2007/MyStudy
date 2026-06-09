@@ -1,11 +1,11 @@
-### 解题思路
-先 转为大写 再 倒序排列 去-
-在循环中将K位字符的倒序 依次写入数组
-最后将数组再倒序排列 加-
+// ### 解题思路
+// 先 转为大写 再 倒序排列 去-
+// 在循环中将K位字符的倒序 依次写入数组
+// 最后将数组再倒序排列 加-
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} S
  * @param {number} K
@@ -22,4 +22,4 @@ var licenseKeyFormatting = function(S, K) {
     }
     return arr.reverse().join('-');
 };
-```
+// ```

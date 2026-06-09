@@ -1,18 +1,18 @@
-### 解题思路
-尝试完全用 STL 里的 lower_bound 和 upper_bound 代替手写二分
-    * lower_bound 对应的是 找一个最靠右的 check(x) == true
-``` cpp
+// ### 解题思路
+// 尝试完全用 STL 里的 lower_bound 和 upper_bound 代替手写二分
+//     * lower_bound 对应的是 找一个最靠右的 check(x) == true
+// ``` cpp
 if (check(x)) l = m;
 else r = m - 1;        
-```
-    * upper_bound 对应的是找一个最靠左的 check(x) == true
-``` cpp
+// ```
+//     * upper_bound 对应的是找一个最靠左的 check(x) == true
+// ``` cpp
 if (check(x)) r = m;
 else l = m + 1;
-```
-### 代码
+// ```
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int search(vector<int>& nums, int target) {
@@ -25,4 +25,4 @@ public:
         return it - nums.begin();
     }
 };
-```
+// ```

@@ -1,15 +1,15 @@
-### 解题思路
-此处撰写解题思路
-将字符串的下标与z型变换后的每一行的元素位置联系起来
-如：变换后的情况：
-i从0-numrows-1
-第一行元素的下标为:i, i + 2 * numRows - 2，i + （2 * numRows - 2）*2，...如果有
-第二行元素的下标为：(多一个斜元素)
-i, 2 * numRows - 2 - i（斜元素），i + 2 * numRows - 2，...如果有
-....下面几行类似
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 将字符串的下标与z型变换后的每一行的元素位置联系起来
+// 如：变换后的情况：
+// i从0-numrows-1
+// 第一行元素的下标为:i, i + 2 * numRows - 2，i + （2 * numRows - 2）*2，...如果有
+// 第二行元素的下标为：(多一个斜元素)
+// i, 2 * numRows - 2 - i（斜元素），i + 2 * numRows - 2，...如果有
+// ....下面几行类似
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public static String convert(String s, int numRows) {
         if(numRows==1||s.length()<numRows){
@@ -42,4 +42,4 @@ class Solution {
 
 }
 
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-与**46**题解类似，差别在于多了去重这一步骤，在结果中去重
+# ### 解题思路
+# 与**46**题解类似，差别在于多了去重这一步骤，在结果中去重
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def permuteUnique(self, nums):
         self.ans = []
@@ -27,4 +27,4 @@ class Solution(object):
             temp.pop()
             #取消标记
             self.visit[i] = 0
-```
+# ```

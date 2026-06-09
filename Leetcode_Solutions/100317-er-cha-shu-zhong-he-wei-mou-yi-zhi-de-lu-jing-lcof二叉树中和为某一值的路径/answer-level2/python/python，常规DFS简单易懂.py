@@ -1,11 +1,11 @@
-### 解题思路
-探测二叉树的每个节点，沿途记录路径列表和累和，并判断：
-- 节点是叶节点且累加和刚好满足要求，则沿途列表加入到结果列表
-- 否则，继续对可能的左右子节点递归探测
+# ### 解题思路
+# 探测二叉树的每个节点，沿途记录路径列表和累和，并判断：
+# - 节点是叶节点且累加和刚好满足要求，则沿途列表加入到结果列表
+# - 否则，继续对可能的左右子节点递归探测
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -26,5 +26,5 @@ class Solution:
         if root:
             path(root, sum_, [])
         return res
-```
-欢迎关注个人公众号：[小数志](https://pic.leetcode-cn.com/962ebbb357f15acd99bfcc5dc74188fc9f2a3492e73bca90b673428d5c1c7559-image.png)
+# ```
+# 欢迎关注个人公众号：[小数志](https://pic.leetcode-cn.com/962ebbb357f15acd99bfcc5dc74188fc9f2a3492e73bca90b673428d5c1c7559-image.png)

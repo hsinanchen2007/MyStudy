@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-读题一小时，解题五分钟
+# ### 解题思路
+# 此处撰写解题思路
+# 读题一小时，解题五分钟
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def surfaceArea(self, grid: List[List[int]]) -> int:
         rows = len(grid)
@@ -28,4 +28,4 @@ class Solution:
 
 
 
-```
+# ```

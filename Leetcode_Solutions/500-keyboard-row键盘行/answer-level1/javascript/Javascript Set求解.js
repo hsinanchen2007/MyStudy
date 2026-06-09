@@ -1,9 +1,9 @@
-### 解题思路
-因为是求在“在不在”的问题，所以使用Set
+// ### 解题思路
+// 因为是求在“在不在”的问题，所以使用Set
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} words
  * @return {string[]}
@@ -42,4 +42,4 @@ var findWords = function(words) {
     }
     return res
 };
-```
+// ```

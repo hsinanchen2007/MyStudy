@@ -1,4 +1,4 @@
-```sql []
+-- ```sql []
 select  id,  month, sala salary
 from
     (select  month,   
@@ -18,4 +18,4 @@ where (id, month) not in       #不包括当前月
             ) 
 order by id asc, month desc
 ;
-```
+-- ```

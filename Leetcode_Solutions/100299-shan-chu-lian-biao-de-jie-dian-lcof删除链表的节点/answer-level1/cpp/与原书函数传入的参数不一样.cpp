@@ -1,9 +1,9 @@
-### 解题思路
-这里传入的是删除节点的val值，须先找到该节点。原书传入的是节点类型，省去了查找节点的过程，更加简单的o(1)，与主站https://leetcode-cn.com/problems/delete-node-in-a-linked-list/类似
+// ### 解题思路
+// 这里传入的是删除节点的val值，须先找到该节点。原书传入的是节点类型，省去了查找节点的过程，更加简单的o(1)，与主站https://leetcode-cn.com/problems/delete-node-in-a-linked-list/类似
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -37,4 +37,4 @@ public:
         return head;   
     }
 };
-```
+// ```

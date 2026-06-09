@@ -1,9 +1,9 @@
-### 解题思路
-这道题需要考虑四种情况：A和B长度不等、A和B完全一致，需要进一步判断里面有两个相同元素、A和B只有一个位置的元素不同、A和B有两个位置的元素不同，需要进一步判断是否交换后一致
+# ### 解题思路
+# 这道题需要考虑四种情况：A和B长度不等、A和B完全一致，需要进一步判断里面有两个相同元素、A和B只有一个位置的元素不同、A和B有两个位置的元素不同，需要进一步判断是否交换后一致
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def buddyStrings(self, A: str, B: str) -> bool:
         temp1, temp2, temp3 = '', '', ''
@@ -31,4 +31,4 @@ class Solution:
             return False
         return True
 
-```
+# ```

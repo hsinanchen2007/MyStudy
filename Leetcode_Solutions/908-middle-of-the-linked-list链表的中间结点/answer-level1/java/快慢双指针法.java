@@ -1,9 +1,9 @@
-### 解题思路
-快慢双指针，慢走一步，快走两步，快的到达终点时，慢的正好在中间
+// ### 解题思路
+// 快慢双指针，慢走一步，快走两步，快的到达终点时，慢的正好在中间
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -23,4 +23,4 @@ class Solution {
         return slow;
     }
 }
-```
+// ```

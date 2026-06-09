@@ -1,9 +1,9 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/d115a4e7989ecc07a7434650e0c3362b44537cdfb1a960d1ceef67a9a148516e-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/d115a4e7989ecc07a7434650e0c3362b44537cdfb1a960d1ceef67a9a148516e-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     double angleClock(int hour, int minutes) {
@@ -15,4 +15,4 @@ public:
         return a;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-只需考虑之前最近的通配符需要回溯的情况。
+// ### 解题思路
+// 只需考虑之前最近的通配符需要回溯的情况。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isMatch(string s, string p) {
@@ -41,4 +41,4 @@ public:
          return j==n;
     }
 };
-```
+// ```

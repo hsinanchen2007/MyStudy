@@ -1,12 +1,12 @@
-### 解题思路
-考虑当前数字只能跟下一行的最多相隔一列相加，那么
-左边界的转移方程为：A[i][j] + min(dp[i+1][j],dp[i+1][j+1])
-右边界的转移方程为：A[i][j] + min(dp[i+1][j-1],dp[i+1][j])
-剩下数字（中间）的转移方程为：A[i][j] + min(dp[i+1][j-1],min(dp[i+1][j],dp[i+1][j+1]))
+# ### 解题思路
+# 考虑当前数字只能跟下一行的最多相隔一列相加，那么
+# 左边界的转移方程为：A[i][j] + min(dp[i+1][j],dp[i+1][j+1])
+# 右边界的转移方程为：A[i][j] + min(dp[i+1][j-1],dp[i+1][j])
+# 剩下数字（中间）的转移方程为：A[i][j] + min(dp[i+1][j-1],min(dp[i+1][j],dp[i+1][j+1]))
 
-### 代码
-go
-```golang
+# ### 代码
+# go
+# ```golang
 func minFallingPathSum(A [][]int) int {
 	n := len(A)
 	if n==0{
@@ -38,11 +38,11 @@ func min(a,b int)int{
 	}
 	return a
 }
-```
+# ```
 
-python
+# python
 
-```python
+# ```python
 class Solution(object):
     def minFallingPathSum(self, A):
         """
@@ -66,10 +66,10 @@ class Solution(object):
                 else:
                     dp[i][j] = A[i][j] + min(dp[i+1][j-1],dp[i+1][j],dp[i+1][j+1])
         return min(dp[0])
-```
+# ```
 
-java
-```java
+# java
+# ```java
 	public int minFallingPathSum(int[][] A) {
 		int n = A.length;
 		if (n==0){
@@ -93,4 +93,4 @@ java
 		Arrays.sort(dp[0]);
 		return dp[0][0];
     }
-```
+# ```

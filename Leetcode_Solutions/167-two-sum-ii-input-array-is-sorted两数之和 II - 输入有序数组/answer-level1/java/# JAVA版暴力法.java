@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int[] twoSum(int[] numbers, int target) {
         for(int index1=0;index1<numbers.length;index1++){
@@ -11,5 +11,5 @@ class Solution {
          throw new IllegalArgumentException("No two sum solution");
 }
 
-```    }
+// ```    }
 

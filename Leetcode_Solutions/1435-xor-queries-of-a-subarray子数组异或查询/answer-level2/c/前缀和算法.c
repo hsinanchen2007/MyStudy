@@ -1,13 +1,13 @@
-### 解题思路
-1.计算前i个的前缀和数组
-2.begin---end的结果为 （举例子找规律）
-(1) begin >0 且begin != end 为pri[end]^pri[begin - 1]; 
-(2) begin =0 且begin != end 为pri[end]; 
-(3) begin =end arr[end]; 
+// ### 解题思路
+// 1.计算前i个的前缀和数组
+// 2.begin---end的结果为 （举例子找规律）
+// (1) begin >0 且begin != end 为pri[end]^pri[begin - 1]; 
+// (2) begin =0 且begin != end 为pri[end]; 
+// (3) begin =end arr[end]; 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -41,4 +41,4 @@ int* xorQueries(int* arr, int arrSize, int** queries, int queriesSize, int* quer
     *returnSize = queriesSize;
     return ans;
 }
-```
+// ```

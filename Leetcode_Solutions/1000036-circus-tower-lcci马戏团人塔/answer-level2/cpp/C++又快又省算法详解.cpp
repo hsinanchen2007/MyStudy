@@ -1,11 +1,11 @@
-### 解题思路
-![TIM截图20200314163258.png](https://pic.leetcode-cn.com/44abd8a1e5bfac95693961228ded3d967391260b290df9bdd8bc0119c0f128e2-TIM%E6%88%AA%E5%9B%BE20200314163258.png)
-为每个演员建立一个pair<height, weight>，按照height从小到大的顺序排列，如果遇到多个height相同的演员则按照weight从大到小顺序排列（后续找weight增序列的时候防止选到height相同的演员）。
-排列完成后，序列中演员的height都是从小到大，现在只需找出在此序列中weight也从小到大的最长子序列即可满足要求。
-找最长递增子序列算法见注释，部分代码借鉴了其他答主的解答。
-### 代码
+// ### 解题思路
+// ![TIM截图20200314163258.png](https://pic.leetcode-cn.com/44abd8a1e5bfac95693961228ded3d967391260b290df9bdd8bc0119c0f128e2-TIM%E6%88%AA%E5%9B%BE20200314163258.png)
+// 为每个演员建立一个pair<height, weight>，按照height从小到大的顺序排列，如果遇到多个height相同的演员则按照weight从大到小顺序排列（后续找weight增序列的时候防止选到height相同的演员）。
+// 排列完成后，序列中演员的height都是从小到大，现在只需找出在此序列中weight也从小到大的最长子序列即可满足要求。
+// 找最长递增子序列算法见注释，部分代码借鉴了其他答主的解答。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     struct cmp{
@@ -48,4 +48,4 @@ public:
         return up.size();
     }
 };
-```
+// ```

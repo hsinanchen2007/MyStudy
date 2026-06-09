@@ -1,6 +1,6 @@
-*法一：双指针*
+// *法一：双指针*
 
-```js
+// ```js
 var largeGroupPositions = function(S) {
     let left = 0;
     let right = 1;
@@ -21,11 +21,11 @@ var largeGroupPositions = function(S) {
     }
     return arr
 };
-```
+// ```
 
-*法二：正则*
+// *法二：正则*
 
-```js
+// ```js
 var largeGroupPositions = function(S) {
     const pat = /(\w)\1{2,}/g
     let arr = [];
@@ -35,5 +35,5 @@ var largeGroupPositions = function(S) {
     }
     return arr
 };
-```
+// ```
 

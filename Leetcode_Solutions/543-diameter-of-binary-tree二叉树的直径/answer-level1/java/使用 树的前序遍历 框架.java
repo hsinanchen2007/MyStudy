@@ -1,4 +1,4 @@
-```Java
+// ```Java
 /**
  * 二叉树的直径
  */
@@ -28,4 +28,4 @@ public int depth(TreeNode root) {
 public int max(int a, int b, int c) {
     return Math.max(Math.max(a, b), c);
 }
-```
+// ```

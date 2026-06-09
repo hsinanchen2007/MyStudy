@@ -1,9 +1,9 @@
-### 解题思路
-> 出现奇数次的多个字符保留一个奇数，其他按-1后的偶数累加即可; 出现偶数次的字符直接累加
+# ### 解题思路
+# > 出现奇数次的多个字符保留一个奇数，其他按-1后的偶数累加即可; 出现偶数次的字符直接累加
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from collections import Counter
 
 class Solution:
@@ -20,4 +20,4 @@ class Solution:
         if has_odd:
             ans += 1
         return ans
-```
+# ```

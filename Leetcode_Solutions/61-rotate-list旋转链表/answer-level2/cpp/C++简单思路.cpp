@@ -1,9 +1,9 @@
-### 解题思路
-双指针，当K大于链表长度时，只需翻转K%Length
+// ### 解题思路
+// 双指针，当K大于链表长度时，只需翻转K%Length
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -49,4 +49,4 @@ public:
     return  newHead;
     }
 };
-```
+// ```

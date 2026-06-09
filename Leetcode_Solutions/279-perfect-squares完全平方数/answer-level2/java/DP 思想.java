@@ -1,8 +1,8 @@
 
-![20160604170107528.png](https://pic.leetcode-cn.com/91648d449127dee74de5225b27d7b7d559001a17b708f3b6c3e5a92aabc6453f-20160604170107528.png)
-如图所示，红色部分表示平方数，所有的完美平方数都可以看做一个普通数加上一个完美平方数
+// ![20160604170107528.png](https://pic.leetcode-cn.com/91648d449127dee74de5225b27d7b7d559001a17b708f3b6c3e5a92aabc6453f-20160604170107528.png)
+// 如图所示，红色部分表示平方数，所有的完美平方数都可以看做一个普通数加上一个完美平方数
 
-```java
+// ```java
 class Solution {
     public int numSquares(int n) {
         int[] dp = new int[n + 1];
@@ -17,4 +17,4 @@ class Solution {
         return dp[n];
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-- 同样哈希处理，S1加，S2减
-```
+// - 同样哈希处理，S1加，S2减
+// ```
 #define MAX_SIZE (128)
 int g_visit[MAX_SIZE];
 
@@ -25,4 +25,4 @@ bool CheckPermutation(char* s1, char* s2)
     }
     return true;
 }
-```
+// ```

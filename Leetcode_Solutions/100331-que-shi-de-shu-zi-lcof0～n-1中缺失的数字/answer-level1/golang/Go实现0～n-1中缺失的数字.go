@@ -1,6 +1,6 @@
 
 
-```golang
+// ```golang
 func missingNumber(nums []int) int {
     l,r := 0,len(nums)-1
     for l<=r{
@@ -19,4 +19,4 @@ func missingNumber(nums []int) int {
     }
     return -1
 }
-```
+// ```

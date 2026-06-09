@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean isUnique(String astr) {
         HashSet<Character> set = new HashSet<>();
@@ -9,4 +9,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

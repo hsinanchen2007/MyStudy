@@ -1,11 +1,11 @@
-### 解题思路
-支持+、-、*、/、(、)；
-使用Stack实现算术优先级；
-使用递归实现小括号；
+// ### 解题思路
+// 支持+、-、*、/、(、)；
+// 使用Stack实现算术优先级；
+// 使用递归实现小括号；
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int Calculate(string s)
     {
@@ -99,4 +99,4 @@ public class Solution {
         numberBuilder.Clear();
     }
 }
-```
+// ```

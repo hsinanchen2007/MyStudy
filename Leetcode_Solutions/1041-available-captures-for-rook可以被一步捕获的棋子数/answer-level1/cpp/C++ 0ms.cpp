@@ -1,9 +1,9 @@
-### 解题思路
-先找到R，然后再向四个方向找p
+// ### 解题思路
+// 先找到R，然后再向四个方向找p
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	int onedirection(vector<vector<char>>& board, int i, int j, char dir) {//从(i，j）向dir这个方向出发，寻找p
@@ -60,4 +60,4 @@ public:
 
 };
 
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-利用两个栈s1,s2，其中s1存放排序数据，
-当执行push()时，若s1.top()<val,将所有小于val的元素放入s2,再将val压入s1中，最后将s2中的元素放入s1中，实现s1的排序push
+// ### 解题思路
+// 利用两个栈s1,s2，其中s1存放排序数据，
+// 当执行push()时，若s1.top()<val,将所有小于val的元素放入s2,再将val压入s1中，最后将s2中的元素放入s1中，实现s1的排序push
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class SortedStack {
 public:
     stack<int>s1;
@@ -51,4 +51,4 @@ public:
  * int param_3 = obj->peek();
  * bool param_4 = obj->isEmpty();
  */
-```
+// ```

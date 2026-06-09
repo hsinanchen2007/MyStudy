@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     int sum = 0;
     private void getSum(TreeNode root, boolean isLeft){
@@ -16,4 +16,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

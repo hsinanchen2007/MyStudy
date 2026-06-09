@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/ede149b6d260ece2dd7673cb72894b3907cb5b468e1abdf3abda44f1d8d07efe-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/ede149b6d260ece2dd7673cb72894b3907cb5b468e1abdf3abda44f1d8d07efe-image.png)
+// ```
 class Solution {
      public void gameOfLife(int[][] board) {
         //0死，1活，2由死到活，3由活到死。
@@ -38,4 +38,4 @@ class Solution {
         }
      }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-#### 思路 ####
-- 若把节点的列号设为 $col$，则左子节点的列号为 $col - 1$，右子节点的列号为 $col + 1$
-- 建立哈希映射，将列号相同的元素依次加入同一个数组
-- 为了保证数组中的顺序是从上到下的，直接采用层序遍历
-#### 代码 ####
-```cpp []
+// #### 思路 ####
+// - 若把节点的列号设为 $col$，则左子节点的列号为 $col - 1$，右子节点的列号为 $col + 1$
+// - 建立哈希映射，将列号相同的元素依次加入同一个数组
+// - 为了保证数组中的顺序是从上到下的，直接采用层序遍历
+// #### 代码 ####
+// ```cpp []
 class Solution {
 public:
     vector<vector<int>> verticalOrder(TreeNode* root) {
@@ -29,8 +29,8 @@ public:
         return res;
     }
 };
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def verticalOrder(self, root: TreeNode) -> List[List[int]]:
         if not root: return []
@@ -47,6 +47,6 @@ class Solution:
                 if node.left: queue.append((node.left, col - 1))
                 if node.right: queue.append((node.right, col + 1))
         return tuple(hashMap[i] for i in range(lo, hi + 1))
-```
+// ```
 
 

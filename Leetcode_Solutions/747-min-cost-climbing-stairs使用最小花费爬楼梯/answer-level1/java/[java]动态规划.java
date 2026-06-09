@@ -1,9 +1,9 @@
-### 解题思路
-参考自 <https://leetcode-cn.com/problems/min-cost-climbing-stairs/solution/shi-yong-zui-xiao-hua-fei-pa-lou-ti-by-leetcode/>
+// ### 解题思路
+// 参考自 <https://leetcode-cn.com/problems/min-cost-climbing-stairs/solution/shi-yong-zui-xiao-hua-fei-pa-lou-ti-by-leetcode/>
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minCostClimbingStairs(int[] cost) {
         int f1 =0;
@@ -16,4 +16,4 @@ class Solution {
         return Math.min(f1,f2);
     }
 }
-```
+// ```

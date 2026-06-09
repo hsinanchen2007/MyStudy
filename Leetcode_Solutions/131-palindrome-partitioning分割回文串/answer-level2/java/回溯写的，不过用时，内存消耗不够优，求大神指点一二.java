@@ -1,9 +1,9 @@
-### 解题思路
-回溯 求指点，比如回溯和复制对象的地方，能不能有更巧妙的做法
+// ### 解题思路
+// 回溯 求指点，比如回溯和复制对象的地方，能不能有更巧妙的做法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     List ress = new ArrayList<List<String>>();
     public List<List<String>> partition(String s) {
@@ -42,4 +42,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

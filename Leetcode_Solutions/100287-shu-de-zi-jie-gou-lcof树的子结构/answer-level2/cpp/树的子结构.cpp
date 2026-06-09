@@ -1,9 +1,9 @@
-### 解题思路
-isSubStructure函数的功能是先遍历A树的每一个节点都作为根节点和B树比较
-创建辅助函数hasSubStructure来判断两棵树是否相等
-### 代码
+// ### 解题思路
+// isSubStructure函数的功能是先遍历A树的每一个节点都作为根节点和B树比较
+// 创建辅助函数hasSubStructure来判断两棵树是否相等
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -37,4 +37,4 @@ public:
             return false;
         }
 };
-```
+// ```

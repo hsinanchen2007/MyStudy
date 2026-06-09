@@ -1,9 +1,9 @@
-### 解题思路
-这份代码是我解决排序链表时写的。这里正好合适。
+// ### 解题思路
+// 这份代码是我解决排序链表时写的。这里正好合适。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -44,4 +44,4 @@ class Solution {
         return newHead.next;
     }
 }
-```
+// ```

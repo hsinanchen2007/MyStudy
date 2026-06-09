@@ -1,12 +1,12 @@
-[原题解写于github](https://github.com/feikerwu/algorithm-camp/issues/1)
+// [原题解写于github](https://github.com/feikerwu/algorithm-camp/issues/1)
 
-**解法**
+// **解法**
 
-模拟算盘加法，逐位相加即可
+// 模拟算盘加法，逐位相加即可
 
-**代码**
+// **代码**
 
-```
+// ```
 /**
  * @param {string} a
  * @param {string} b
@@ -40,5 +40,5 @@ var addBinary = function(a, b) {
 
   return res;
 };
-```
+// ```
 

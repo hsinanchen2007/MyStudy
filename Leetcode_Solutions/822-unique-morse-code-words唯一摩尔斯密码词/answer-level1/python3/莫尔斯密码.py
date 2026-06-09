@@ -1,18 +1,18 @@
-### 解题思路
-字典对应
-执行用时 :
-36 ms
-, 在所有 python3 提交中击败了
-98.59%
-的用户
-内存消耗 :
-12.8 MB
-, 在所有 python3 提交中击败了
-99.50%
-的用户
-### 代码
+# ### 解题思路
+# 字典对应
+# 执行用时 :
+# 36 ms
+# , 在所有 python3 提交中击败了
+# 98.59%
+# 的用户
+# 内存消耗 :
+# 12.8 MB
+# , 在所有 python3 提交中击败了
+# 99.50%
+# 的用户
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def uniqueMorseRepresentations(self, words: List[str]) -> int:
         T = []
@@ -30,4 +30,4 @@ class Solution:
                 T.append(str2)
         return len(T)
 
-```
+# ```

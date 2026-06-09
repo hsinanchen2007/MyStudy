@@ -1,9 +1,9 @@
-### 解题思路
-分别判断两种回文类型
+# ### 解题思路
+# 分别判断两种回文类型
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         l, res = [], []
@@ -29,4 +29,4 @@ class Solution:
                 else:
                     break
         return res if res else ""        
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 bool isOneEditDistance(char * s, char * t)
 {
     int len1, len2, i, j, num;
@@ -49,4 +49,4 @@ bool isOneEditDistance(char * s, char * t)
         }
     }
 }
-```
+// ```

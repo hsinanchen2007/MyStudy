@@ -1,4 +1,4 @@
-```
+// ```
 func min(a, b int) int {
 	if a <= b {
 		return a
@@ -32,4 +32,4 @@ var solution = func(read4 func([]byte) int) func([]byte, int) int {
 	}
 }
 
-```
+// ```

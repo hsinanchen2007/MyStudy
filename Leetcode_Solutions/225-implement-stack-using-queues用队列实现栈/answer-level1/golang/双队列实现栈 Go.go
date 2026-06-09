@@ -1,4 +1,4 @@
-```go
+// ```go
 /**
 用 队列 实现 栈
 */
@@ -82,4 +82,4 @@ func (q *Queue) IsEmpty() bool {
     return q.Len() == 0
 }
 
-```
+// ```

@@ -1,11 +1,11 @@
-## 基本思想
-### 如何表征一笔画到终点？
-开始先遍历数组找出可走点的个数path_num，实际遍历过程每到一个新的点将该点置为障碍，同时可走点的个数path_num自减，如果下一步就到终点且path_num===0，则显然是一个解。
-### 如何回溯
-在函数get_paths中每走一步以新的起点递归get_paths,并在其后回退一次。
-### 棋盘技巧 
-为实现算法的统一性，在初始化阶段把棋盘外围加一圈障碍
-```javascript []
+// ## 基本思想
+// ### 如何表征一笔画到终点？
+// 开始先遍历数组找出可走点的个数path_num，实际遍历过程每到一个新的点将该点置为障碍，同时可走点的个数path_num自减，如果下一步就到终点且path_num===0，则显然是一个解。
+// ### 如何回溯
+// 在函数get_paths中每走一步以新的起点递归get_paths,并在其后回退一次。
+// ### 棋盘技巧 
+// 为实现算法的统一性，在初始化阶段把棋盘外围加一圈障碍
+// ```javascript []
 var init_grid = function (grid) {
 	this.grid = new Array(grid.length + 2)
 	for (let i = 0; i < this.grid.length; i++)
@@ -18,9 +18,9 @@ var init_grid = function (grid) {
 			this.grid[i + 1][j + 1] = grid[i][j]
 		}
 }
-```
-## 源代码
-```javascript []
+// ```
+// ## 源代码
+// ```javascript []
 /**null
  * @param {number[][]} grid
  * @return {number}
@@ -90,4 +90,4 @@ var init_grid = function (grid) {
 			this.grid[i + 1][j + 1] = grid[i][j]
 		}
 }
-```
+// ```

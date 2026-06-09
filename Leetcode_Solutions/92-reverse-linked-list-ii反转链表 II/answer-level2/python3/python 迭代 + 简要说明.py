@@ -1,4 +1,4 @@
-```python
+# ```python
 # 无注释
 class Solution:
     def reverseBetween(self, head: ListNode, m: int, n: int) -> ListNode:
@@ -16,21 +16,21 @@ class Solution:
             result = tmp
         last.next = cur  
         return result
-```
-以下带有简要说明
+# ```
+# 以下带有简要说明
 
-可以把整个链表分为3大段
+# 可以把整个链表分为3大段
 
-[1,m] 区间：其中最特殊的是 m==1的情况，若m!=1,这段不需要处理
+# [1,m] 区间：其中最特殊的是 m==1的情况，若m!=1,这段不需要处理
 
-[m,n] 区间：无特别需要注意的，正常反转就行 
+# [m,n] 区间：无特别需要注意的，正常反转就行 
 
-[n,链表长度] 区间：无特别需要注意的
+# [n,链表长度] 区间：无特别需要注意的
 
-要区分节点在哪一区间，在遍历时需要count记录
-注意 个区间的衔接
+# 要区分节点在哪一区间，在遍历时需要count记录
+# 注意 个区间的衔接
 
-```python
+# ```python
 
 #@author:leacoder
 #@des:  迭代 + 哨兵 反转链表 II
@@ -76,4 +76,4 @@ class Solution:
         last.next = cur # last.next 指向剩余的节点 cur为[n,链表长度]区间起始节点 
             
         return result
-```
+# ```

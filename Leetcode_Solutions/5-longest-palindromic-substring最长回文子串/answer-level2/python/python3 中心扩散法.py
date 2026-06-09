@@ -1,8 +1,8 @@
-### 解题思路
+# ### 解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         def check(subS):
@@ -49,4 +49,4 @@ class Solution:
                 maxS = mid
         return maxS
       
-```
+# ```

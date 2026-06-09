@@ -1,5 +1,5 @@
-![hahaha.png](https://pic.leetcode-cn.com/a7b59ce7ae092352e71dcaeb5214437e9b49198f2545e9bd5309ae62ce71a317-hahaha.png)
-```
+// ![hahaha.png](https://pic.leetcode-cn.com/a7b59ce7ae092352e71dcaeb5214437e9b49198f2545e9bd5309ae62ce71a317-hahaha.png)
+// ```
 class Solution {
 public:
 	bool isScramble(string s1, string s2) {
@@ -30,4 +30,4 @@ public:
 		return false;
 	}
 };
-```
+// ```

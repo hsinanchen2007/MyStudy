@@ -1,9 +1,9 @@
-### 解题思路
-回溯算法
+// ### 解题思路
+// 回溯算法
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @param {number} k
@@ -34,4 +34,4 @@ var combine = function(n, k) {
     }
     return res
 };
-```
+// ```

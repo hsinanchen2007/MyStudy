@@ -1,5 +1,5 @@
-直接大小比较合并成一个数组赋给Ａ
-```cpp
+// 直接大小比较合并成一个数组赋给Ａ
+// ```cpp
 void merge(int* A, int ASize, int m, int* B, int BSize, int n){
     int sum = m + n;
     int i = 0, j = 0;
@@ -17,4 +17,4 @@ void merge(int* A, int ASize, int m, int* B, int BSize, int n){
         A[i] = temp[j];
     }
 }
-```
+// ```

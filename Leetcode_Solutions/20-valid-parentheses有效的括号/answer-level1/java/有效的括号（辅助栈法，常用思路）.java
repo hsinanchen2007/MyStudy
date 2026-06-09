@@ -1,9 +1,9 @@
-### 解题思路
-利用栈的后进先出的特性，实现局部有效括号匹配
+// ### 解题思路
+// 利用栈的后进先出的特性，实现局部有效括号匹配
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 import java.util.Stack;
 class Solution {
     public boolean isValid(String s) {    
@@ -36,4 +36,4 @@ class Solution {
     return stack.isEmpty();
     }
 }
-```
+// ```

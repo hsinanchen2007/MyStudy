@@ -1,4 +1,4 @@
-``` javascript
+// ``` javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -39,4 +39,4 @@ var removeElements2 = function(head, val) {
   head.next = removeElements(head.next, val)
   return head.val === val ? head.next : head
 };
-```
+// ```

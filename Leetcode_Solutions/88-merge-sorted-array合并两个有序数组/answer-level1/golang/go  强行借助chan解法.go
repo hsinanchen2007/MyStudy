@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-go  强行借助chan解法
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// go  强行借助chan解法
+// ### 代码
 
-```golang
+// ```golang
 func merge(nums1 []int, m int, nums2 []int, n int)  {
     ch := make(chan int, m+n)
     i, j := 0, 0
@@ -29,4 +29,4 @@ func merge(nums1 []int, m int, nums2 []int, n int)  {
         nums1[i] =<- ch
     }
 }
-```
+// ```

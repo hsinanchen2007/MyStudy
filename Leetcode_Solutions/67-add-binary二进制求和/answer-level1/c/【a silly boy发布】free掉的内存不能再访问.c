@@ -1,6 +1,6 @@
-![F431E761-3590-47C4-8F19-4B71C691756D.jpeg](https://pic.leetcode-cn.com/d1790cb0f234fcdceb735ed8c58678560d983981bee6532c496a31e03a81aa89-F431E761-3590-47C4-8F19-4B71C691756D.jpeg)
+// ![F431E761-3590-47C4-8F19-4B71C691756D.jpeg](https://pic.leetcode-cn.com/d1790cb0f234fcdceb735ed8c58678560d983981bee6532c496a31e03a81aa89-F431E761-3590-47C4-8F19-4B71C691756D.jpeg)
 
-```
+// ```
 
 void SubFunc(char *a, char *b, char *returnStr1, char *returnStr2, int *flag)
 {
@@ -86,4 +86,4 @@ char * addBinary(char * a, char * b)
     
     return NULL;
 }
-```
+// ```

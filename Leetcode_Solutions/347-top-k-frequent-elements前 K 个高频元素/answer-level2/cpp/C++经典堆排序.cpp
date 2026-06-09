@@ -1,10 +1,10 @@
-### 解题思路
-参考男票
-[@zhe-da-zhu-bo-li-gong](/u/zhe-da-zhu-bo-li-gong/)通过最小堆排序，实现了前K个高频元素问题
+// ### 解题思路
+// 参考男票
+// [@zhe-da-zhu-bo-li-gong](/u/zhe-da-zhu-bo-li-gong/)通过最小堆排序，实现了前K个高频元素问题
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	class cmp {
@@ -47,4 +47,4 @@ public:
 		return tempRes;
 	}
 };
-```
+// ```

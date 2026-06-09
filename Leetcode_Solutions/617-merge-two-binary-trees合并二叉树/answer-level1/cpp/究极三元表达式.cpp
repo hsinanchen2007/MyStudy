@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     TreeNode* mergeTrees(TreeNode* t1, TreeNode* t2) {
@@ -14,5 +14,5 @@ public:
         return ret;
     }
 };
-```
-还是官方题解写的简单点
+// ```
+// 还是官方题解写的简单点

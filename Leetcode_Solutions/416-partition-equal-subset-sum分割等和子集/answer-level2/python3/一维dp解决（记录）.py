@@ -1,4 +1,4 @@
-```
+# ```
 import copy
 class Solution:
     def canPartition(self, nums: List[int]) -> bool:
@@ -18,4 +18,4 @@ class Solution:
             if dp[-1] == True:
                 return True
         return dp[-1]
-```
+# ```

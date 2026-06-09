@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
   def maxProfit(prices: Array[Int]): Int= {
     var total_sum = 0
@@ -16,4 +16,4 @@ object Solution {
     return total_sum + profit
   }
 }
-```
+// ```

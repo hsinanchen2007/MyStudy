@@ -1,8 +1,8 @@
-## 这道题使用动态规划比较简单。首先要找到它的状态转移方程：
-# **dp[i] = max(dp[i-2]+a[i],dp[i-1])**
-# 之后dp数组的最后一个元素就是其最大值
-# 时间复杂度是O(n),空间复杂度也是O(n)
-```
+# ## 这道题使用动态规划比较简单。首先要找到它的状态转移方程：
+# # **dp[i] = max(dp[i-2]+a[i],dp[i-1])**
+# # 之后dp数组的最后一个元素就是其最大值
+# # 时间复杂度是O(n),空间复杂度也是O(n)
+# ```
 class Solution:
     def rob(self, nums: List[int]) -> int:
         if len(nums)==0:
@@ -24,4 +24,4 @@ class Solution:
                     dp.append(dp[i-1])
                 
         return dp[len(nums)-1]
-```
+# ```

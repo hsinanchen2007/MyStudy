@@ -1,4 +1,4 @@
-```
+// ```
 import "math"
 
 func copyGrid(grid [][]int) [][]int {
@@ -51,4 +51,4 @@ func shortestDistance(grid [][]int) int {
 	}
 	return out
 }
-```
+// ```

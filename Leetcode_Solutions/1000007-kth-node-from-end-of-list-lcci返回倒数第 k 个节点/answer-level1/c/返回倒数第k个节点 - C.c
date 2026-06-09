@@ -1,10 +1,10 @@
-### 解题思路
-先计算有多少个节点
-根据for循环进行比对。
+// ### 解题思路
+// 先计算有多少个节点
+// 根据for循环进行比对。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -36,4 +36,4 @@ int kthToLast(struct ListNode* head, int k){
     printf("1 newhead->val=%d\n", newhead->val);
     return newhead->val;
 }
-```
+// ```

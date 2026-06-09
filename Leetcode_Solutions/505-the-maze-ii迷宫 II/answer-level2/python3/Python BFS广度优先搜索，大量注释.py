@@ -1,8 +1,8 @@
-# 1. 思路：
-用distance保存起点到每个点的距离，在计算过程中，如果计算出的距离比distance中保存的要小，更新distance中的距离，并将该点重新加入队列
+# # 1. 思路：
+# 用distance保存起点到每个点的距离，在计算过程中，如果计算出的距离比distance中保存的要小，更新distance中的距离，并将该点重新加入队列
 
-# 2. 代码：
-```
+# # 2. 代码：
+# ```
 def shortestDistance(self, maze: List[List[int]], start: List[int], destination: List[int]) -> int:
 
     directions = [(0,1),(1,0),(-1,0),(0,-1)]    # 定义上下左右四个方向
@@ -36,7 +36,7 @@ def shortestDistance(self, maze: List[List[int]], start: List[int], destination:
                 queue.append((x,y))             # 并将其坐标添加到队列中
                                                 # 如果遍历所有可能性都无法达到目的地
     return distance[destination[0]][destination[1]] if distance[destination[0]][destination[1]] != float('inf') else -1
-```
+# ```
 
 
-![111.png](https://pic.leetcode-cn.com/747bbfe2fb9177caeff394924bbb254a2b17f904e3b58ab1bcc0fe2eccecd418-111.png)
+# ![111.png](https://pic.leetcode-cn.com/747bbfe2fb9177caeff394924bbb254a2b17f904e3b58ab1bcc0fe2eccecd418-111.png)

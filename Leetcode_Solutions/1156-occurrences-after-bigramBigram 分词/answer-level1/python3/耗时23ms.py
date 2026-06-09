@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def findOcurrences(self, text: str, first: str, second: str) -> List[str]:
         list1 = []
@@ -21,4 +21,4 @@ class Solution:
                     except IndexError:
                         return(list1)
         return(list1)
-```
+# ```

@@ -1,11 +1,11 @@
-一起组队刷题打卡，微博 [@爱编程的周鸟](https://weibo.com/iosxxoo) 求关注求交流。
+# 一起组队刷题打卡，微博 [@爱编程的周鸟](https://weibo.com/iosxxoo) 求关注求交流。
 
-### 解题思路
-这题应该是删除节点的操作是O(1)吧，如果是删除节点值感觉做不了O(1).
+# ### 解题思路
+# 这题应该是删除节点的操作是O(1)吧，如果是删除节点值感觉做不了O(1).
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -28,4 +28,4 @@ class Solution(object):
                 head.next = head.next.next
             head = head.next
         return p.next
-```
+# ```

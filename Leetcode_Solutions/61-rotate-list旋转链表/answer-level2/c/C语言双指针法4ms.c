@@ -1,9 +1,9 @@
-### 解题思路
-直接用双指针找到相应的节点，一次旋转完成
+// ### 解题思路
+// 直接用双指针找到相应的节点，一次旋转完成
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -36,4 +36,4 @@ struct ListNode *rotateRight(struct ListNode *head, int k)
     left->next = NULL;
     return head;
 }
-```
+// ```

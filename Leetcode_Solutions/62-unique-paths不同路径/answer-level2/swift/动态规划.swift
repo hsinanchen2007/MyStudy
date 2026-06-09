@@ -1,6 +1,6 @@
-每一个方格可以由上一个向右或者上一个向下到达
-dp[i][j] = dp[i][j-1] + dp[i-1][j]
-```
+// 每一个方格可以由上一个向右或者上一个向下到达
+// dp[i][j] = dp[i][j-1] + dp[i-1][j]
+// ```
 class Solution {
     func uniquePaths(_ m: Int, _ n: Int) -> Int {
         if m == 0 || n == 0 {
@@ -26,4 +26,4 @@ class Solution {
         return dp[m - 1][n - 1]
     }
 }
-```
+// ```

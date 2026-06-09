@@ -1,7 +1,7 @@
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var containsDuplicate = function(nums) {
     return nums.length !== [...new Set(nums)].length
 };
-```
+// ```

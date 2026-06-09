@@ -1,9 +1,9 @@
-### 解题思路
-比较简单
+# ### 解题思路
+# 比较简单
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def shortestToChar(self, S, C):
         """
@@ -22,4 +22,4 @@ class Solution(object):
             if cc==C:
                 result=change_temp(i,result)
         return result
-```
+# ```

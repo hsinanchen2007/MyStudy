@@ -1,5 +1,5 @@
-从中间向两边添加字符，则省去倒序一步
-```
+# 从中间向两边添加字符，则省去倒序一步
+# ```
 class Solution:
     def generatePalindromes(self, s: str) -> List[str]:
         def helper(my_dict, pre):
@@ -36,4 +36,4 @@ class Solution:
 
         
 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-简单的c语言实现，容易出现问题的地方应该是题目所给链表是从首元结点开始的而不是头节点，所以l1l2是两个指向节点的指针而不是头指针。
+// ### 解题思路
+// 简单的c语言实现，容易出现问题的地方应该是题目所给链表是从首元结点开始的而不是头节点，所以l1l2是两个指向节点的指针而不是头指针。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -34,4 +34,4 @@ struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2){
     p3->next = l1? l1 : l2;
     return l3->next;
 }
-```
+// ```

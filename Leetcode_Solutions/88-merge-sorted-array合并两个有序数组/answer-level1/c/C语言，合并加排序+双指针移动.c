@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 static int m_cmp(const void *x, const void *y)
 {
     return (*(int *)x - *(int *)y);
@@ -13,14 +13,14 @@ void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n){
     memcpy(nums1 + m, nums2, sizeof(int) * n);
     qsort((void *)nums1, m + n, sizeof(int), m_cmp);
 }
-```
+// ```
 
-方法二：双指针移动
+// 方法二：双指针移动
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n){
     int idx1 = m - 1;
     int idx2 = n - 1;
@@ -44,4 +44,4 @@ void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n){
         idx2--;
     }
 }
-```
+// ```

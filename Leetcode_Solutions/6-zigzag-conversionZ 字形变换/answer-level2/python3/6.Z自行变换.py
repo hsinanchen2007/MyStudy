@@ -1,7 +1,7 @@
 
-暴力法————通过计算z型二维数组，得到最终结果。
+# 暴力法————通过计算z型二维数组，得到最终结果。
 
-```python []
+# ```python []
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
         result = []
@@ -41,6 +41,6 @@ class Solution:
             result = ''.join(result)
             return result
 
-```
+# ```
 
 

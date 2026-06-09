@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var isPalindrome = function(head) {
     const arr = []
     while (head) {
@@ -9,6 +9,6 @@ var isPalindrome = function(head) {
     }
     return arr.join('') === arr.reverse().join('')
 };
-```
-时间复杂度：O(n)
-空间复杂度：O(n)
+// ```
+// 时间复杂度：O(n)
+// 空间复杂度：O(n)

@@ -1,9 +1,9 @@
-### 解题思路
-从 Y 推到 X
+// ### 解题思路
+// 从 Y 推到 X
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int abs(int a){return a>0?a:a*(-1);}
 int brokenCalc(int X, int Y){
     int ans=0;
@@ -21,4 +21,4 @@ int brokenCalc(int X, int Y){
 
     return ans;
 }
-```
+// ```

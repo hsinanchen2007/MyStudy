@@ -1,8 +1,8 @@
-基本思路是DFS，用zero_cnt记录走过多少个0，用visited二维数据记录每个位置是否已经被访问过。
-从起始结点(start[0], start[1])开始深度优先搜索，某个点(x, y)访问过后，将其设为已经访问(visited[x][y] = True)，且zero_cnt += 1；深度搜索结束之后，把该位置设为未访问visited[x][y] = False，同时zero_cnt -= 1。
-如果访问到值为2的位置且zero_cnt数量达到要求，则在返回结果上+1。
+# 基本思路是DFS，用zero_cnt记录走过多少个0，用visited二维数据记录每个位置是否已经被访问过。
+# 从起始结点(start[0], start[1])开始深度优先搜索，某个点(x, y)访问过后，将其设为已经访问(visited[x][y] = True)，且zero_cnt += 1；深度搜索结束之后，把该位置设为未访问visited[x][y] = False，同时zero_cnt -= 1。
+# 如果访问到值为2的位置且zero_cnt数量达到要求，则在返回结果上+1。
 
-```python3
+# ```python3
 class Solution:
     def uniquePathsIII(self, grid: List[List[int]]) -> int:
         start, zero = None, 0
@@ -42,4 +42,4 @@ class Solution:
             yield i + 1, j
         if j + 1 < n:
             yield i, j + 1
-```
+# ```

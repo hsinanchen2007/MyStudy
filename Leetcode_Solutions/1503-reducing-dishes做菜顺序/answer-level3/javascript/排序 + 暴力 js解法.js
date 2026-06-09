@@ -1,4 +1,4 @@
-```js
+// ```js
 /**
  * @param {number[]} satisfaction
  * @return {number}
@@ -18,4 +18,4 @@ var maxSatisfaction = function (satisfaction) {
 }
 
 console.log(maxSatisfaction([-1, -8, 0, 5, -9]))
-```
+// ```

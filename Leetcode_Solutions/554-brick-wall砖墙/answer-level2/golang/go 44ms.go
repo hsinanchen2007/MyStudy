@@ -1,4 +1,4 @@
-```
+// ```
 func leastBricks(wall [][]int) int {
 	widthMap := make(map[int]int)
 	maxWidth := 0
@@ -19,4 +19,4 @@ func leastBricks(wall [][]int) int {
 	result := len(wall) - maxWidth
 	return result
 }
-```
+// ```

@@ -1,5 +1,5 @@
 
-js来了js来了js来了，用魔方翻转的思想做的
+// js来了js来了js来了，用魔方翻转的思想做的
 function printMatrix(matrix)
 {
     var m=matrix;

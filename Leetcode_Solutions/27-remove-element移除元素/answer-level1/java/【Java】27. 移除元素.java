@@ -1,10 +1,10 @@
-**第一道没有看答案，完完整整自己写出来的题，来自菜鸡的满足和开心。**
-### 解题思路
+// **第一道没有看答案，完完整整自己写出来的题，来自菜鸡的满足和开心。**
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int removeElement(int[] nums, int val) {
         if (nums == null){
@@ -20,4 +20,4 @@ class Solution {
         return j;       
     }
 }
-```
+// ```

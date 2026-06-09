@@ -1,9 +1,9 @@
-哈哈, 这样都过了......
+// 哈哈, 这样都过了......
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 
 int countCharacters(char ** words, int wordsSize, char * chars)
@@ -37,4 +37,4 @@ int countCharacters(char ** words, int wordsSize, char * chars)
 	
 	return count;
 }
-```
+// ```

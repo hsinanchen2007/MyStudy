@@ -1,6 +1,6 @@
-![AG0)JK\]N`Y1()R62DF2AF8Y.png](https://pic.leetcode-cn.com/814d74410930284d55efe57b88551d6c8b08ab854b8d92718b73c1d43bf64a70-AG0\)JK%5DN%60Y1\(\)R62DF2AF8Y.png)
-- 用两个栈分别对两棵树进行中序遍历，左边的树从小到大遍历，右边的树从大到小遍历。
-```C++ []
+// ![AG0)JK\]N`Y1()R62DF2AF8Y.png](https://pic.leetcode-cn.com/814d74410930284d55efe57b88551d6c8b08ab854b8d92718b73c1d43bf64a70-AG0\)JK%5DN%60Y1\(\)R62DF2AF8Y.png)
+// - 用两个栈分别对两棵树进行中序遍历，左边的树从小到大遍历，右边的树从大到小遍历。
+// ```C++ []
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -58,4 +58,4 @@ public:
         }
     }
 };
-```
+// ```

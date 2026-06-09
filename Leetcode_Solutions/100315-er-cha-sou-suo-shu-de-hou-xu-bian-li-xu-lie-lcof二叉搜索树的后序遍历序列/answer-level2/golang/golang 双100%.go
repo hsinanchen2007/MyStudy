@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func verifyPostorder(postorder []int) bool {
     n := len(postorder)
     if n<2 {
@@ -21,4 +21,4 @@ func verifyPostorder(postorder []int) bool {
     } 
     return verifyPostorder(postorder[:cur]) && verifyPostorder(postorder[cur:n-1])
 }
-```
+// ```

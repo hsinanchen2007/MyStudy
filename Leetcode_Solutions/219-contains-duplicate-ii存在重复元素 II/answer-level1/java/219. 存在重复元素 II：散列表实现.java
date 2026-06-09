@@ -1,9 +1,9 @@
-### 解题思路
-散列表：在常量时间内完成 搜索，删除，插入 操作
+// ### 解题思路
+// 散列表：在常量时间内完成 搜索，删除，插入 操作
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean containsNearbyDuplicate(int[] nums, int k) {
         Set<Integer> set=new HashSet<>();
@@ -19,4 +19,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

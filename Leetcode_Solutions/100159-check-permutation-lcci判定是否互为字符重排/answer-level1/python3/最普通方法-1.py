@@ -1,12 +1,12 @@
-### 解题思路
-1 确定区间都是闭区间
-2 去重
-我这个是本方法，继续挖掘好的方法
+# ### 解题思路
+# 1 确定区间都是闭区间
+# 2 去重
+# 我这个是本方法，继续挖掘好的方法
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def CheckPermutation(self, s1, s2):
         """
@@ -30,4 +30,4 @@ class Solution(object):
                 return False
         else:
             return False
-```
+# ```

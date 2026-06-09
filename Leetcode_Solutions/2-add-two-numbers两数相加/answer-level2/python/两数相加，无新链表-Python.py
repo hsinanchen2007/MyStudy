@@ -1,14 +1,14 @@
-**两数相加-Python**
+# **两数相加-Python**
 
-`思路`
+# `思路`
 
- - 个位相加，遇10进1
- - 同步修改两个链表相同位置的值
- - 将最长的列表返回
+#  - 个位相加，遇10进1
+#  - 同步修改两个链表相同位置的值
+#  - 将最长的列表返回
 
-主要特点：不需要新建链表
+# 主要特点：不需要新建链表
 
-```python
+# ```python
 class Solution(object):
     def addTwoNumbers(self, l1, l2):
         """
@@ -40,4 +40,4 @@ class Solution(object):
         if divisor == 1:
            self.pre.next = ListNode(divisor)
         return self.head
-```
+# ```

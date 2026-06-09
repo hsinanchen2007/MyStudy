@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/65cec30762a7695f9cd7333ac414ae089dff0487c8d2b136f37b8b3db5aa6335-image.png)
+// ![image.png](https://pic.leetcode-cn.com/65cec30762a7695f9cd7333ac414ae089dff0487c8d2b136f37b8b3db5aa6335-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
   「任意」两个相同任务间的间隔都必须是 n
   先找到出现最多次数 m 的任务 X，向 (m - 1) 个 X 中间的 n 个等待状态的
   单位时间插入不是X 的任务，再加上最后一个 X 后面的任务数量，最后一个 X 
@@ -10,11 +10,11 @@
   
   特殊情况下：如果我们求出的结果小于了任务的总数，那么肯定是错的，此时返回
   tasks 的长度即可。
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {character[]} tasks
  * @param {number} n
@@ -60,4 +60,4 @@ var leastInterval = function(tasks, n) {
 
 
 
-```
+// ```

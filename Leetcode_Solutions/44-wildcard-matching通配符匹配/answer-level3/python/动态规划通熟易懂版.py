@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isMatch(self, s: str, p: str) -> bool:
         # p分为空不为空讨论3种情况
@@ -42,4 +42,4 @@ class Solution:
                     dp[i][j] = dp[i - 1][j - 1]
         return dp[m][n]
 
-```
+# ```

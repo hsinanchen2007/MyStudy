@@ -1,5 +1,5 @@
-使用树状数组，通过将原rating中的数据离散化，然后分别从左至右和从右至左两趟遍历实现对左右大于小于元素的计算。
-```
+// 使用树状数组，通过将原rating中的数据离散化，然后分别从左至右和从右至左两趟遍历实现对左右大于小于元素的计算。
+// ```
 class Solution {
 public:
     map<int,int> mp;
@@ -53,5 +53,5 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/5cfadb921f1c7848a91b1ee2cc32c68637d8aa525c18f0dae725bb20118fbc2b-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/5cfadb921f1c7848a91b1ee2cc32c68637d8aa525c18f0dae725bb20118fbc2b-image.png)

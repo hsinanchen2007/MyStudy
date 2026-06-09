@@ -1,6 +1,6 @@
 
 
-```java
+// ```java
 
 class Solution {
     public int arrayNesting(int[] nums) {
@@ -18,4 +18,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

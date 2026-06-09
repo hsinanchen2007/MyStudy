@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} seats
  * @return {number}
@@ -27,4 +27,4 @@ var maxDistToClosest = function(seats) {
   let max3 = ind1_arr[0] // 放在最开始时的间隔
   return Math.max(max1,max2,max3) // 比较找到最大间隔
 };
-```
+// ```

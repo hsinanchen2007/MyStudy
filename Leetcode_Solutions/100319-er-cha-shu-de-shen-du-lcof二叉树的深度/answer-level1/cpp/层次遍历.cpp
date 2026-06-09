@@ -1,9 +1,9 @@
-### 解题思路
-层次遍历；也可以dfs求最大深度
+// ### 解题思路
+// 层次遍历；也可以dfs求最大深度
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -37,4 +37,4 @@ public:
         return res;
     }
 };
-```
+// ```

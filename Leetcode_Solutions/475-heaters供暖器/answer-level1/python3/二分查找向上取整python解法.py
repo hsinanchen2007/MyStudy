@@ -1,5 +1,5 @@
-看了一些大佬的解法，改向下取整为向上取整做了一下，不知道有什么继续优化的方法吗
-```
+# 看了一些大佬的解法，改向下取整为向上取整做了一下，不知道有什么继续优化的方法吗
+# ```
 class Solution(object):
     def findRadius(self, houses, heaters):
         """
@@ -29,4 +29,4 @@ class Solution(object):
             elif i<heaters[right]:
                 dis.append(heaters[right]-i)
         return max(dis)
-```
+# ```

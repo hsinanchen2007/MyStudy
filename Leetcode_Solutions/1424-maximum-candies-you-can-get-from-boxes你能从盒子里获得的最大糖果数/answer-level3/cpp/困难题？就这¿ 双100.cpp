@@ -1,7 +1,7 @@
-建议降级成中等难度
-模拟正常人类的行为就好了嗷
+// 建议降级成中等难度
+// 模拟正常人类的行为就好了嗷
 
-```
+// ```
  class Solution {
  public:
 	 int maxCandies(vector<int>& status, vector<int>& candies, vector<vector<int>>& keys, vector<vector<int>>& containedBoxes, vector<int>& initialBoxes) {
@@ -37,5 +37,5 @@
 		 return res;
 	 }
  };
-```
+// ```
 

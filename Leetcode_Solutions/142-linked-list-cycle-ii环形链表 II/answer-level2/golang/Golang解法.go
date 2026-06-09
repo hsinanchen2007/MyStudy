@@ -1,4 +1,4 @@
-1. 方法1， 通过hash遍历查找环的入口
+// 1. 方法1， 通过hash遍历查找环的入口
 func detectCycle(head *ListNode) *ListNode {
     if head == nil || head.Next == nil{
         return nil

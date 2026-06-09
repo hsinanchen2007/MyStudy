@@ -1,9 +1,9 @@
-### 解题思路
-先从头部开始建立一个单调栈，再从尾部开始排查。
+// ### 解题思路
+// 先从头部开始建立一个单调栈，再从尾部开始排查。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxWidthRamp(vector<int>& A) {
@@ -29,4 +29,4 @@ public:
         return res;
     }
 };
-```
+// ```

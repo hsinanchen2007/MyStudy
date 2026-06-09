@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-涉及要点简单概括下：1、计算边界：9+9+1 = 19, 0+0+1=1，需要一个carry进位标志，取值0或1
-                  2、循环结束标志：$l1,$l2的当前节点值以及carry标志位。(PS:do while 和while区别)
-                  3、PHP结构体_zval_struct的以及PHP相关赋值以及引用
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 涉及要点简单概括下：1、计算边界：9+9+1 = 19, 0+0+1=1，需要一个carry进位标志，取值0或1
+//                   2、循环结束标志：$l1,$l2的当前节点值以及carry标志位。(PS:do while 和while区别)
+//                   3、PHP结构体_zval_struct的以及PHP相关赋值以及引用
+// ### 代码
 
-```php
+// ```php
 /**
  * Definition for a singly-linked list.
  * class ListNode {
@@ -48,4 +48,4 @@ class Solution {
         return $resLN;
     }
 }
-```
+// ```

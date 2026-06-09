@@ -1,8 +1,8 @@
 
-执行用时 :64 ms, 在所有 javascript 提交中击败了87.94%的用户
-内存消耗 :35.1 MB, 在所有 javascript 提交中击败了100.00%的用户.
+// 执行用时 :64 ms, 在所有 javascript 提交中击败了87.94%的用户
+// 内存消耗 :35.1 MB, 在所有 javascript 提交中击败了100.00%的用户.
 
-```javascript []
+// ```javascript []
 /**
  * @param {number[][]} points
  * @return {number}
@@ -19,5 +19,5 @@ var minTimeToVisitAllPoints = function(points) {
     }
     return time;
 };
-```
+// ```
 

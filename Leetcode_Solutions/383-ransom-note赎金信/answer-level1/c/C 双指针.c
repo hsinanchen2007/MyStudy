@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int cmp(const void* a,const void* b){
     return *(char*)a - *(char*)b;
 }
@@ -29,4 +29,4 @@ bool canConstruct(char * ransomNote, char * magazine){
     }
     return false;
 }
-```
+// ```

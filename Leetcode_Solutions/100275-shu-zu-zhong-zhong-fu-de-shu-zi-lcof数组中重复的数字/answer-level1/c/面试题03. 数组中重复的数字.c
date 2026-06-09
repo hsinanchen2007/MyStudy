@@ -1,8 +1,8 @@
-### 解题思路
-遍历数组，依次记录每个数字出现的次数，直到某数字出现次数大于等于2时，返回该值。该算法只是用于所有数字都在 0～n-1 的范围内
-### 代码
+// ### 解题思路
+// 遍历数组，依次记录每个数字出现的次数，直到某数字出现次数大于等于2时，返回该值。该算法只是用于所有数字都在 0～n-1 的范围内
+// ### 代码
 
-```c
+// ```c
 int findRepeatNumber(int* nums, int numsSize){
     int i;
     int iTmp;
@@ -19,4 +19,4 @@ int findRepeatNumber(int* nums, int numsSize){
     }
     return 0;
 }
-```
+// ```

@@ -1,6 +1,6 @@
-正向反向各一次遍历即可。
+// 正向反向各一次遍历即可。
 
-```
+// ```
 class Solution {
 public:
     bool checkValidString(string s) {
@@ -24,4 +24,4 @@ public:
         return true;
     }
 };
-```
+// ```

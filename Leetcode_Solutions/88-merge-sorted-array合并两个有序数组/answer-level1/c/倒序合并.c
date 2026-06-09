@@ -1,6 +1,6 @@
-执行用时：4ms
-内存消耗：5.7MB
-```
+// 执行用时：4ms
+// 内存消耗：5.7MB
+// ```
 void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n){
     int r = m+n-1;
     int i=m-1, j=n-1;
@@ -10,4 +10,4 @@ void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n){
     }
     while(j>=0) nums1[r--]=nums2[j--];
 }
-```
+// ```

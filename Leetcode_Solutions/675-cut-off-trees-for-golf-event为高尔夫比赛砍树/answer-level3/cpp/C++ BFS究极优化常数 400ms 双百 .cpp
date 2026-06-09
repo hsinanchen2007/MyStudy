@@ -1,11 +1,11 @@
-常数优化是真的玄学 同样算法 TLE和双百的差别
-优化点1 用自己的struct代替vector<int>作为queue内单元 效率提升100% queue里套vector<int>效率不是一般的低
-优化点2 将2维数组展开到1维 效率提升60%
-优化点3 memset代替重拷贝或重分配标记矩阵 效率提升40%
-优化点4 标记提前到入队列时 效率提升无穷大 (原来习惯是遍历到在=true)
-优化点5 剪枝 提前结束遍历
+// 常数优化是真的玄学 同样算法 TLE和双百的差别
+// 优化点1 用自己的struct代替vector<int>作为queue内单元 效率提升100% queue里套vector<int>效率不是一般的低
+// 优化点2 将2维数组展开到1维 效率提升60%
+// 优化点3 memset代替重拷贝或重分配标记矩阵 效率提升40%
+// 优化点4 标记提前到入队列时 效率提升无穷大 (原来习惯是遍历到在=true)
+// 优化点5 剪枝 提前结束遍历
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	int cutOffTree(vector<vector<int>>& forest) {
@@ -69,5 +69,5 @@ public:
 		return result;
 	}
 };
-```
+// ```
 

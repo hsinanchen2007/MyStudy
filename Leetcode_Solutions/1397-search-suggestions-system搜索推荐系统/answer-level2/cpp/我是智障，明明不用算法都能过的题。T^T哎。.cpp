@@ -1,8 +1,8 @@
-# 核心思想
-首先将products按照字典序排序，sort一行搞定。。。
-然后针对每一个word，如"m", "mo", "mou", "mous", "mouse"，遍历products，找到前3个满足条件的结果即可。。。
+// # 核心思想
+// 首先将products按照字典序排序，sort一行搞定。。。
+// 然后针对每一个word，如"m", "mo", "mou", "mous", "mouse"，遍历products，找到前3个满足条件的结果即可。。。
 
-```
+// ```
 class Solution {
 public:
     vector<vector<string>> suggestedProducts(vector<string>& products, string searchWord) {
@@ -34,4 +34,4 @@ public:
         return result;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-代码如下。
+// ### 解题思路
+// 代码如下。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     static void swap(int &a, int &b) {
@@ -62,4 +62,4 @@ public:
         return nums;
     }
 };
-```
+// ```

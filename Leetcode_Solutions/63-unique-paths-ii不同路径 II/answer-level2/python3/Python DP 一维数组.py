@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def uniquePathsWithObstacles(self, obstacleGrid: List[List[int]]) -> int:
         row, col = len(obstacleGrid), len(obstacleGrid[0])
@@ -18,4 +18,4 @@ class Solution:
                     else:
                         dp[j] = 0
         return dp[-1]
-```
+# ```

@@ -1,5 +1,5 @@
-**方法一：回溯**
-```
+// **方法一：回溯**
+// ```
 class Solution {
     /**
     * 思路：
@@ -26,10 +26,10 @@ class Solution {
         }
     }
 }
-```
+// ```
 
-**方法二：动态规划-从前往后**
-```
+// **方法二：动态规划-从前往后**
+// ```
 // 定义枚举对象，记录true、false和null的情况。
 enum Result {
     TRUE, FALSE
@@ -69,10 +69,10 @@ class Solution {
         return ans;
     }
 }
-```
+// ```
 
-**方法三：动态规划-从后往前**
-```
+// **方法三：动态规划-从后往前**
+// ```
 class Solution {
     public boolean isMatch(String text, String pattern) {
         boolean[][] dp = new boolean[text.length() + 1][pattern.length() + 1];
@@ -93,4 +93,4 @@ class Solution {
         return dp[0][0];
     }
 }
-```
+// ```

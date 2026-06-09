@@ -1,9 +1,9 @@
-### 解题思路
-如果三个数是等差数列,就判断他的后面三个数是不是也是等差数列,如果是的话,就说明这四个一起也是一个等差数列
+// ### 解题思路
+// 如果三个数是等差数列,就判断他的后面三个数是不是也是等差数列,如果是的话,就说明这四个一起也是一个等差数列
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numberOfArithmeticSlices(int[] A) {
         if (A.length < 3) {
@@ -27,4 +27,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

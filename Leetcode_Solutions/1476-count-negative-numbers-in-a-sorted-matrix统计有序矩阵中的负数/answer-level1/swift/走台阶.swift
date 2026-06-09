@@ -1,8 +1,8 @@
-### 解题思路
-也可以用二分法
-### 代码
+// ### 解题思路
+// 也可以用二分法
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func countNegatives(_ grid: [[Int]]) -> Int {
         
@@ -30,4 +30,4 @@ class Solution {
     }
     
 }
-```
+// ```

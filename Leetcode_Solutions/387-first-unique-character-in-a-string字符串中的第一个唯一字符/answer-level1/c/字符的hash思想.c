@@ -1,4 +1,4 @@
-```
+// ```
 #define charnumber 26
 int firstUniqChar(char * s)
 {
@@ -16,4 +16,4 @@ int firstUniqChar(char * s)
     }
     return -1;
 }
-```
+// ```

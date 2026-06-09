@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 struct HashEntry {
     char *key;
     int val;
@@ -114,4 +114,4 @@ int *findSubstring(char *s, char **words, int wordsSize, int *returnSize)
     FreeHash();
     return returnArray;
 }
-```
+// ```

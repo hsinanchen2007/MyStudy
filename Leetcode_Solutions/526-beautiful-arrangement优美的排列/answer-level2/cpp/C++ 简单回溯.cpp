@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class Solution {
 public:
     void backtrace(vector<int>& nums, int i, int N, int& res) {
@@ -19,6 +19,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/89e3a12ab984f301ec4b0051f37721b19ab94d16ed97ce43125fdbd532eebcea-image.png)
+// ![image.png](https://pic.leetcode-cn.com/89e3a12ab984f301ec4b0051f37721b19ab94d16ed97ce43125fdbd532eebcea-image.png)

@@ -1,9 +1,9 @@
-### 解题思路
-区域检测
+// ### 解题思路
+// 区域检测
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func isRectangleOverlap(rec1 []int, rec2 []int) bool {
     
 
@@ -13,4 +13,4 @@ func isRectangleOverlap(rec1 []int, rec2 []int) bool {
 
     return false
 }
-```
+// ```

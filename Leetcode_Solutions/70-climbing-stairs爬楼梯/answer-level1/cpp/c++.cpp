@@ -1,9 +1,9 @@
-### 解题思路
-Fibonacci数列
+// ### 解题思路
+// Fibonacci数列
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int climbStairs(int n) 
@@ -30,4 +30,4 @@ public:
         return sum;
     }
 };
-```
+// ```

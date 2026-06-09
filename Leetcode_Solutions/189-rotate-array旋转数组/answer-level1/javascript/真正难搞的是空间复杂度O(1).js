@@ -1,5 +1,5 @@
-用额外数组很简单,不用就得考虑很多
-```
+// 用额外数组很简单,不用就得考虑很多
+// ```
 var rotate = function(nums, k) {
     k%=nums.length;
     let pre=nums[0];
@@ -17,4 +17,4 @@ var rotate = function(nums, k) {
         }
     }
 };
-```
+// ```

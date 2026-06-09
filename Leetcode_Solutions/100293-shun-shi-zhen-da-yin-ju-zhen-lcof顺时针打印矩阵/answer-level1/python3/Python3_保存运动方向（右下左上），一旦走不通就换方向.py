@@ -1,10 +1,10 @@
-### 解题思路
-从最开始，遍历的顺序是右下左上。如果当前方向走得通就一直走，不通就换方向。
-走过的要记录。
+# ### 解题思路
+# 从最开始，遍历的顺序是右下左上。如果当前方向走得通就一直走，不通就换方向。
+# 走过的要记录。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
         if not matrix:
@@ -31,4 +31,4 @@ class Solution:
                 i = i + dir[0]
                 j = j + dir[1]
         return res
-```
+# ```

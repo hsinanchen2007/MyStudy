@@ -1,15 +1,15 @@
-### 解题思路
-已知两个数组是有序的
-两个数组从第一个数开始比较
-小的index++再比
-若比到了中间的一个或两个数
-把它保存进链表里，好计算平均值
-若index++到了边界，将边界值改为另一数组的最大值
+// ### 解题思路
+// 已知两个数组是有序的
+// 两个数组从第一个数开始比较
+// 小的index++再比
+// 若比到了中间的一个或两个数
+// 把它保存进链表里，好计算平均值
+// 若index++到了边界，将边界值改为另一数组的最大值
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public static double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int n1 = nums1.length;
@@ -73,4 +73,4 @@ class Solution {
         }
     }
 }
-```
+// ```

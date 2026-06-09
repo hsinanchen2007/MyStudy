@@ -1,9 +1,9 @@
-### 解题思路
+# ### 解题思路
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def partition(self, s: str) -> List[List[str]]:
         self.res = []
@@ -34,4 +34,4 @@ class Solution:
         else:
             return False
 
-```
+# ```

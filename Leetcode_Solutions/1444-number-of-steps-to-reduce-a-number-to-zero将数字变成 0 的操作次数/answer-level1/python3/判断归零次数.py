@@ -1,9 +1,9 @@
-### 解题思路
-o判断奇偶类型，分情况处理
+# ### 解题思路
+# o判断奇偶类型，分情况处理
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution():
     def numberOfSteps (self, num):
         times = 0 
@@ -15,4 +15,4 @@ class Solution():
             times += 1
         return times
 
-```
+# ```

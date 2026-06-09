@@ -1,12 +1,12 @@
-### 思路一
+// ### 思路一
 
-快慢双指针，这种思路在移除元素较多时更适合使用
+// 快慢双指针，这种思路在移除元素较多时更适合使用
 
-### 代码：
+// ### 代码：
 
-时间复杂度O(n)，空间复杂度O(1)
+// 时间复杂度O(n)，空间复杂度O(1)
 
-```java
+// ```java
 class Solution {
     public int removeElement(int[] nums, int val) {
         if (nums == null || nums.length == 0) {
@@ -21,10 +21,10 @@ class Solution {
         return count;
     }
 }
-```
+// ```
 
-### Result：
+// ### Result：
 
-Runtime：0ms
+// Runtime：0ms
 
-Your runtime beats 100% of java submissions.
+// Your runtime beats 100% of java submissions.

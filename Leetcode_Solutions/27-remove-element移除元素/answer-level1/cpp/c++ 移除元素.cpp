@@ -1,9 +1,9 @@
-### 解题思路
-对迭代器进行操作，若等于val删除，否则加一进行下一个判断
+// ### 解题思路
+// 对迭代器进行操作，若等于val删除，否则加一进行下一个判断
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int removeElement(vector<int>& nums, int val) {
@@ -19,4 +19,4 @@ public:
         return nums.size();
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-主要思路就是在Loop经过Data时，在每一步要求明确自己所在的state，是either 1）准备进入下一个新的字符 或者 2）已经在1个字符里，正在验证编码真伪
+# ### 解题思路
+# 主要思路就是在Loop经过Data时，在每一步要求明确自己所在的state，是either 1）准备进入下一个新的字符 或者 2）已经在1个字符里，正在验证编码真伪
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def validUtf8(self, data):
         """
@@ -56,4 +56,4 @@ class Solution(object):
         
     
                   
-```
+# ```

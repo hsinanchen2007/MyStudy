@@ -1,11 +1,11 @@
-### 解题思路
-没用递归，为啥这么慢。
-![image.png](https://pic.leetcode-cn.com/a17ee7adb62e72b7700c42efff768fae0ac288669d3eee0470287647f4bcde92-image.png)
+// ### 解题思路
+// 没用递归，为啥这么慢。
+// ![image.png](https://pic.leetcode-cn.com/a17ee7adb62e72b7700c42efff768fae0ac288669d3eee0470287647f4bcde92-image.png)
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -45,4 +45,4 @@ var mergeTwoLists = function(l1, l2) {
 
     return ret.next;
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-一开始我还以为需要考虑，很多特殊case；实际提交代码后，并没有；题目的特殊case，换成减法就好理解了，其他情况都是加法。
+// ### 解题思路
+// 一开始我还以为需要考虑，很多特殊case；实际提交代码后，并没有；题目的特殊case，换成减法就好理解了，其他情况都是加法。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func romanToInt(s string) int {
     var charToIntMap = make(map[byte]int, 8)
 	charToIntMap['I'] = 1
@@ -43,4 +43,4 @@ func romanToInt(s string) int {
 	}
 	return sum
 }
-```
+// ```

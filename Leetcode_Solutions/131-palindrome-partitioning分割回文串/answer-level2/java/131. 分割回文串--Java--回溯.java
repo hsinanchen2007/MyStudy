@@ -1,9 +1,9 @@
-### 解题思路
-[Leetcode-Java(250+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_131_partition.java)
+// ### 解题思路
+// [Leetcode-Java(250+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_131_partition.java)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     /**
      * 解题思路：DFS遍历+回溯
@@ -53,4 +53,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

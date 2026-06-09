@@ -1,6 +1,6 @@
-对y值进行排序，然后按照不同y值看是否满足镜像要求。
-时间复杂度由排序算法决定o(nlgn),空间复杂度由排序算法和相同y值的最大点数决定，最好情况o(1),最差情况o(n)
-```
+# 对y值进行排序，然后按照不同y值看是否满足镜像要求。
+# 时间复杂度由排序算法决定o(nlgn),空间复杂度由排序算法和相同y值的最大点数决定，最好情况o(1),最差情况o(n)
+# ```
 class Solution:
     def isReflected(self, points: List[List[int]]) -> bool:
         if len(points) == 0:
@@ -25,4 +25,4 @@ class Solution:
                     pre = points[i+1][1]
                 l = i + 1
         return True
-```
+# ```

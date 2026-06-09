@@ -1,9 +1,9 @@
-### 解题思路
-这题我用的递归，上一个我用的是非递归，一样的解决思路。
+// ### 解题思路
+// 这题我用的递归，上一个我用的是非递归，一样的解决思路。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -26,4 +26,4 @@ public:
         return isSameTree(p->right,q->right)&&isSameTree(p->left,q->left);
     }
 };
-```
+// ```

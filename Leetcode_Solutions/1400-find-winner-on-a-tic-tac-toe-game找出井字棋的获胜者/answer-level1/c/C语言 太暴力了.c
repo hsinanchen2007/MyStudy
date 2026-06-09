@@ -1,9 +1,9 @@
-### 解题思路
-性能一般，就是暴力...
+// ### 解题思路
+// 性能一般，就是暴力...
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAP_SIZE 3
 #define A_SETP	1
 #define B_STEP	(-1)
@@ -79,4 +79,4 @@ char * tictactoe(int** moves, int movesSize, int* movesColSize){
 	}
 	return movesSize < (MAP_SIZE * MAP_SIZE) ? "Pending" : "Draw";
 }
-```
+// ```

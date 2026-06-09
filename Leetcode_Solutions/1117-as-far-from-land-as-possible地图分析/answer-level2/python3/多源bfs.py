@@ -1,9 +1,9 @@
-### 解题思路
-每个陆地离自己的距离为0，所以虽然陆地不是连续的，但它们都位于0的层次
+# ### 解题思路
+# 每个陆地离自己的距离为0，所以虽然陆地不是连续的，但它们都位于0的层次
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from collections import deque
 class Solution:
     def maxDistance(self, grid: List[List[int]]) -> int:
@@ -36,4 +36,4 @@ class Solution:
         if temp==0:
             temp=-1
         return temp
-```
+# ```

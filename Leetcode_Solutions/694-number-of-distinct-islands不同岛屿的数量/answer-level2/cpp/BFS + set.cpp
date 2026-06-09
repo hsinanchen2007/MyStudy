@@ -1,8 +1,8 @@
-1. 先将矩阵中的每个连通分量求出来。
-2. 然后进行整型，主要是将连通分量全部往左上角进行位移。
-3. 通过set来统计岛屿的数量。
+// 1. 先将矩阵中的每个连通分量求出来。
+// 2. 然后进行整型，主要是将连通分量全部往左上角进行位移。
+// 3. 通过set来统计岛屿的数量。
 
-```
+// ```
 class Solution {
 public:
     int numDistinctIslands(vector<vector<int>>& grid) {
@@ -64,4 +64,4 @@ public:
         return count.size();
     }
 };
-```
+// ```

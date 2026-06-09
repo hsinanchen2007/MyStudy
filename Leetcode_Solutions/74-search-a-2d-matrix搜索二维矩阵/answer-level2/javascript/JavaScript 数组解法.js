@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} matrix
  * @param {number} target
@@ -30,4 +30,4 @@ var searchMatrix = function(matrix, target) {
     }
     return false
 };
-```
+// ```

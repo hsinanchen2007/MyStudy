@@ -1,9 +1,9 @@
-### 解题思路
-为题本源找到,找其每个组合的最小值之和,实则就是对其就行分组取奇数为数相加得到结果
+# ### 解题思路
+# 为题本源找到,找其每个组合的最小值之和,实则就是对其就行分组取奇数为数相加得到结果
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def arrayPairSum(self, nums: List[int]) -> int:
         res = 0
@@ -13,4 +13,4 @@ class Solution:
         return res
 
 
-```
+# ```

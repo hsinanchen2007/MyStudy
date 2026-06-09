@@ -1,10 +1,10 @@
-### 解题思路
-第一种：通过双指针slow,fast定位二分点，然后递归
-第二种：参考LeetCode官方的解释，通过移入数组，然后采用mid=(left+right)/2的方式进行运算，用空间换取时间，挺不错的。
+// ### 解题思路
+// 第一种：通过双指针slow,fast定位二分点，然后递归
+// 第二种：参考LeetCode官方的解释，通过移入数组，然后采用mid=(left+right)/2的方式进行运算，用空间换取时间，挺不错的。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -50,4 +50,4 @@ public:
         }
     }
 };
-```
+// ```

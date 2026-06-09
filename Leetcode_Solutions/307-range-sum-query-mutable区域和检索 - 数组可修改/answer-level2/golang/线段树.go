@@ -1,5 +1,5 @@
-初学线段树
-```
+// 初学线段树
+// ```
 type NumArray struct {
 	arr  []int
 	tree []int
@@ -70,4 +70,4 @@ func query(arr []int, tree []int, node, start, end, L, R int) int {
 	sum2 := query(arr, tree, rightNode, mid+1, end, L, R)
 	return sum1+sum2
 }
-```
+// ```

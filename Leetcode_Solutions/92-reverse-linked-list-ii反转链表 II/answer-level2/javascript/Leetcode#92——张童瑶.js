@@ -1,16 +1,16 @@
-### 解题思路
-寻找关键的节点：
-1.逆置段头节点的前驱
-2.逆置前头节点(逆置后尾节点)
-3.逆置前尾节点(逆置后头节点)
-4.逆置段尾节点的后继
-![image.png](https://pic.leetcode-cn.com/955617b95cb79ecb566c4f8780f455c8d60f4caae2b51e083475d3f57f36a340-image.png)
-![image.png](https://pic.leetcode-cn.com/c9154a574b0e6980cb6e2288973e632a738b3af7f3c5406768c4c1b0952a8633-image.png)
+// ### 解题思路
+// 寻找关键的节点：
+// 1.逆置段头节点的前驱
+// 2.逆置前头节点(逆置后尾节点)
+// 3.逆置前尾节点(逆置后头节点)
+// 4.逆置段尾节点的后继
+// ![image.png](https://pic.leetcode-cn.com/955617b95cb79ecb566c4f8780f455c8d60f4caae2b51e083475d3f57f36a340-image.png)
+// ![image.png](https://pic.leetcode-cn.com/c9154a574b0e6980cb6e2288973e632a738b3af7f3c5406768c4c1b0952a8633-image.png)
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -61,4 +61,4 @@ var reverseBetween = function(head, m, n) {
     }
     return result;
 };
-```
+// ```

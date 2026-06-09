@@ -1,5 +1,5 @@
-![微信图片_20191119174334.png](https://pic.leetcode-cn.com/e6fd7c4134a40f863c26eb209a1cee310514326ab5fcbc7814c62a20ff381958-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20191119174334.png)
-```
+// ![微信图片_20191119174334.png](https://pic.leetcode-cn.com/e6fd7c4134a40f863c26eb209a1cee310514326ab5fcbc7814c62a20ff381958-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20191119174334.png)
+// ```
 class Solution {
 
     private List<String> list = new ArrayList<>();
@@ -29,6 +29,6 @@ class Solution {
         list.add(sb.toString());
     }
 }
-```
+// ```
 
 

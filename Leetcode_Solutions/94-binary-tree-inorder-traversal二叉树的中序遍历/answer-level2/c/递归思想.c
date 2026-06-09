@@ -1,11 +1,11 @@
-### 解题思路
-![Screenshot from 2019-12-04 21-13-22.png](https://pic.leetcode-cn.com/26475f1b1a5cf94c6d2b12bdb5b612e74dd5761174bd4d3f904c6cbe1cee6e35-Screenshot%20from%202019-12-04%2021-13-22.png)
+// ### 解题思路
+// ![Screenshot from 2019-12-04 21-13-22.png](https://pic.leetcode-cn.com/26475f1b1a5cf94c6d2b12bdb5b612e74dd5761174bd4d3f904c6cbe1cee6e35-Screenshot%20from%202019-12-04%2021-13-22.png)
  
-运用递归思想，根据图片理解每一步
+// 运用递归思想，根据图片理解每一步
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -53,4 +53,4 @@ int* inorderTraversal(struct TreeNode* root, int* returnSize){
 
 
 }
-```
+// ```

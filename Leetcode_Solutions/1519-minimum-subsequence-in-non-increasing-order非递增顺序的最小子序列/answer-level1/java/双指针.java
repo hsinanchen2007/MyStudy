@@ -1,7 +1,7 @@
-### 解题思路
-定义逆序和sum，顺序和curSum，比较大小就ok了
+// ### 解题思路
+// 定义逆序和sum，顺序和curSum，比较大小就ok了
 
-```java
+// ```java
 class Solution {
  	public List<Integer> minSubsequence(int[] nums) {
         	Arrays.sort(nums);
@@ -22,4 +22,4 @@ class Solution {
 		return arr;
 	}
 }
-```
+// ```

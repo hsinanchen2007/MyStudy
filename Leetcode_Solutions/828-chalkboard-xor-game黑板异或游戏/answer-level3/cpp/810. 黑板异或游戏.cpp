@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool xorGame(vector<int>& nums) {
@@ -8,4 +8,4 @@ public:
         return (tmp==0);
     }
 };
-```
+// ```

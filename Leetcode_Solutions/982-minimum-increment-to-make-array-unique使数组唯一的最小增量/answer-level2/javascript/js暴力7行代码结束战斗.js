@@ -1,5 +1,5 @@
-没什么好说的
-```js
+// 没什么好说的
+// ```js
 var minIncrementForUnique = function(A) {
     A.sort((a, b) => a - b);
     let move = 0;
@@ -8,4 +8,4 @@ var minIncrementForUnique = function(A) {
     }
     return move;
 };
-```
+// ```

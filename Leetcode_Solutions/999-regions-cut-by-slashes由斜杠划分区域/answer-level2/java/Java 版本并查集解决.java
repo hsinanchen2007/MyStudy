@@ -1,6 +1,6 @@
-java 基于并查集来解决;
-思路 copy 自  [c++, 并查集](https://leetcode-cn.com/problems/regions-cut-by-slashes/solution/cbing-cha-ji-by-liyupi/)
-```
+// java 基于并查集来解决;
+// 思路 copy 自  [c++, 并查集](https://leetcode-cn.com/problems/regions-cut-by-slashes/solution/cbing-cha-ji-by-liyupi/)
+// ```
 class Solution {
     public int regionsBySlashes(String[] grid) {
         if (grid == null || grid.length == 0 || grid[0] == null) {
@@ -86,4 +86,4 @@ class MyUF {
         return ids[a] != a ? ids[a] = find(ids[a]) : a;
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-### 解题思路
-``` 
+// ### 解题思路
+// ``` 
  #define TOTAL 10000
  #define M 20
  #define N 4
@@ -49,4 +49,4 @@ char ** letterCombinations(char * digits, int* returnSize){
     return ret;
     
 }
-```
+// ```

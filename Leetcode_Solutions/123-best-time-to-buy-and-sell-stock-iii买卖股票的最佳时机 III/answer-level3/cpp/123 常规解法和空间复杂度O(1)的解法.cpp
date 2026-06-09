@@ -1,5 +1,5 @@
-方法一
-```
+// 方法一
+// ```
 //常规解法
 class Solution {
 public:
@@ -21,9 +21,9 @@ public:
         return profit[size-1][2][0];
     }
 };
-```
-方法二
-```
+// ```
+// 方法二
+// ```
 //空间复杂度O(1)
 class Solution {
 public:
@@ -44,5 +44,5 @@ public:
         return p_i_2_0;
     }
 };
-```
+// ```
 

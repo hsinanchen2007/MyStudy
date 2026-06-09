@@ -1,9 +1,9 @@
-### 解题思路
-方法一：递归法
+// ### 解题思路
+// 方法一：递归法
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> subsets(vector<int>& nums) {
@@ -29,4 +29,4 @@ private:
     sub(i+1,nums,result,item);
     }
 };
-```
+// ```

@@ -1,6 +1,6 @@
-1.排除5
-2.注意超出int范围
-```
+// 1.排除5
+// 2.注意超出int范围
+// ```
 public int knightDialer(int N) {
         if(N == 1)
            return 10;  
@@ -29,4 +29,4 @@ public int knightDialer(int N) {
         }
         return (int)((a1+a2+a3+a4+a6+a7+a8+a9+a0) % mod);
     }
-```
+// ```

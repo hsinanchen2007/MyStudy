@@ -1,4 +1,4 @@
-```
+// ```
 
 func countPrimeSetBits(L int, R int) int {
 	res := 0
@@ -28,4 +28,4 @@ func isPrime(value int) bool {
 	return true
 }
 
-```
+// ```

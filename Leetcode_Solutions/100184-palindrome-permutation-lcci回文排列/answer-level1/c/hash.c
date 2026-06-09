@@ -1,4 +1,4 @@
-```
+// ```
 bool canPermutePalindrome(char * s){
     int arr[58] = {0};
 
@@ -23,4 +23,4 @@ bool canPermutePalindrome(char * s){
     }
     return true;
 }
-```
+// ```

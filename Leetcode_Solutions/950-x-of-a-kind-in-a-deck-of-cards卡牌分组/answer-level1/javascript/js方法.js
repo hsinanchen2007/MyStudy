@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number[]} deck
  * @return {boolean}
@@ -38,5 +38,5 @@ var hasGroupsSizeX = function (deck) {
     }
     return minv >= 2;
 };
-```
-减少了一些求最大公约数的次数，不知道还有没有更好的方法
+// ```
+// 减少了一些求最大公约数的次数，不知道还有没有更好的方法

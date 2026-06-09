@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int lastStoneWeight(int[] stones) {
         // 一个石头 直接返回
@@ -26,4 +26,4 @@ class Solution {
         
     }
 }
-```
+// ```

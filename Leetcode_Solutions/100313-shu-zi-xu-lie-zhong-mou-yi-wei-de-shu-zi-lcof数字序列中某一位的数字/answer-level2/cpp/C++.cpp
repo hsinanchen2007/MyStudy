@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findNthDigit(int n) {
@@ -16,4 +16,4 @@ public:
         return to_string(num)[index]-'0';
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-words中每一元素与Counter取交集
+# ### 解题思路
+# words中每一元素与Counter取交集
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 from collections import Counter
 class Solution(object):
     def countCharacters(self, words, chars):
@@ -13,4 +13,4 @@ class Solution(object):
             if ans == (ans & Counter(chars)):
                 len_w += len(w)
         return len_w
-```
+# ```

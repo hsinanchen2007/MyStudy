@@ -1,9 +1,9 @@
-### 解题思路
-写了三个小时、提交10次，也没写明白，自己写的hash不能用，暴力算超时。不纠结这题了，没什么意思
+// ### 解题思路
+// 写了三个小时、提交10次，也没写明白，自己写的hash不能用，暴力算超时。不纠结这题了，没什么意思
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /*typedef struct Hash{
     float* data;
     int size;
@@ -79,4 +79,4 @@ bool containsNearbyDuplicate(int* nums, int numsSize, int k){
 链接：https://leetcode-cn.com/problems/contains-duplicate-ii/solution/chun-cjie-jue-ying-gai-shi-mu-qian-ti-jie-li-mian-/
 来源：力扣（LeetCode）
 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。*/
-```
+// ```

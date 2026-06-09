@@ -1,4 +1,4 @@
-```Java
+// ```Java
 class Solution {
     public ListNode removeZeroSumSublists(ListNode head) {
         ListNode dummy = new ListNode(0);
@@ -24,5 +24,5 @@ class Solution {
         return dummy.next;
     }
 }
-```
-![image.png](https://pic.leetcode-cn.com/14b65bb30c8a6dc8ac20ddb63b3b59bbb63c942cf57201cb439137dc91ffd697-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/14b65bb30c8a6dc8ac20ddb63b3b59bbb63c942cf57201cb439137dc91ffd697-image.png)

@@ -1,6 +1,6 @@
-方法一：228ms
-思路：中序遍历中数组存的是节点，之后依次对节点的左右子节点进行修改
-```javascript
+// 方法一：228ms
+// 思路：中序遍历中数组存的是节点，之后依次对节点的左右子节点进行修改
+// ```javascript
 var increasingBST = function(root) {
     let res = [];
     inOrderNode(root);
@@ -22,10 +22,10 @@ var increasingBST = function(root) {
         inOrderNode(root.right);
     }
 };
-```
-方法二：332ms 来自[官方题解](https://leetcode-cn.com/problems/increasing-order-search-tree/solution/di-zeng-shun-xu-cha-zhao-shu-by-leetcode/)方法一
-思路：中序遍历的数组存的是值，之后在数组基础上构造新的树
-```javascript
+// ```
+// 方法二：332ms 来自[官方题解](https://leetcode-cn.com/problems/increasing-order-search-tree/solution/di-zeng-shun-xu-cha-zhao-shu-by-leetcode/)方法一
+// 思路：中序遍历的数组存的是值，之后在数组基础上构造新的树
+// ```javascript
 var increasingBST = function(root) {
     let res = [];
     inOrderNode(root);
@@ -45,10 +45,10 @@ var increasingBST = function(root) {
         inOrderNode(root.right);
     }
 }
-```
-方法三：348ms 来自[官方题解](https://leetcode-cn.com/problems/increasing-order-search-tree/solution/di-zeng-shun-xu-cha-zhao-shu-by-leetcode/)方法二
-思路：在中序遍历的同时也在构造新树
-```javascript
+// ```
+// 方法三：348ms 来自[官方题解](https://leetcode-cn.com/problems/increasing-order-search-tree/solution/di-zeng-shun-xu-cha-zhao-shu-by-leetcode/)方法二
+// 思路：在中序遍历的同时也在构造新树
+// ```javascript
 var increasingBST = function(root) {
     let res = new TreeNode();
     let cur = res;
@@ -68,12 +68,12 @@ var increasingBST = function(root) {
         inOrderNode(node.right);
     }
 };
-```
+// ```
 
-不知道其他大佬有没有更快的解决方法，这三个方法用js运行太慢了
+// 不知道其他大佬有没有更快的解决方法，这三个方法用js运行太慢了
 
-加一个非递归的方法，但是还没解决报错的原因..
-```javascript
+// 加一个非递归的方法，但是还没解决报错的原因..
+// ```javascript
 var increasingBST = function(root) {
     let s = [];
     let res = new TreeNode();
@@ -94,4 +94,4 @@ var increasingBST = function(root) {
     }
     return res.right;
 }
-```
+// ```

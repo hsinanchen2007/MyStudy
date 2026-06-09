@@ -1,4 +1,4 @@
-C语言解法，有优化的嘛：
+// C语言解法，有优化的嘛：
 bool isValidBST(struct TreeNode* root)
 {
     struct TreeNode *max = NULL, *min = NULL;

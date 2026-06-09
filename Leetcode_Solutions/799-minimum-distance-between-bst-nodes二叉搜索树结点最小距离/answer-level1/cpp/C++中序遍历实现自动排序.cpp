@@ -1,9 +1,9 @@
-### 解题思路
-在中序遍历的时候把结点的值放进数组里面,数组里面的值就是有序的.
+// ### 解题思路
+// 在中序遍历的时候把结点的值放进数组里面,数组里面的值就是有序的.
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -34,4 +34,4 @@ public:
         inOrder(node->right);
     }
 };
-```
+// ```

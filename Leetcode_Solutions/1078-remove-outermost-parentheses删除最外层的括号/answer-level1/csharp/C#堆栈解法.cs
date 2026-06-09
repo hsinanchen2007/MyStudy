@@ -1,4 +1,4 @@
-```C# []
+// ```C# []
 public string RemoveOuterParentheses(string S) {
             var stack = new Stack<int>();
             var sb = new StringBuilder();
@@ -22,6 +22,6 @@ public string RemoveOuterParentheses(string S) {
 
             return sb.ToString();
     }
-```
+// ```
 
 

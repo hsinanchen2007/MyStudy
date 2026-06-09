@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def hasPath(self, maze: List[List[int]], start: List[int], destination: List[int]) -> bool:
         
@@ -22,4 +22,4 @@ class Solution:
                 if (tmp_i,tmp_j) not in visited:
                     stack.append((tmp_i,tmp_j))
         return False
-```
+# ```

@@ -1,10 +1,10 @@
-![图片.png](https://pic.leetcode-cn.com/3b2faa80d037841c8b0fff815ca2f25d2ce0235998f9df5e7dce220ec189ab87-%E5%9B%BE%E7%89%87.png)
+// ![图片.png](https://pic.leetcode-cn.com/3b2faa80d037841c8b0fff815ca2f25d2ce0235998f9df5e7dce220ec189ab87-%E5%9B%BE%E7%89%87.png)
 
 
-1. 质数个数： [*204. 计数质数*](https://leetcode-cn.com/problems/count-primes/)
-2. 优化解法： [*204. 题解 - Java简洁版*](https://leetcode-cn.com/problems/count-primes/solution/javajian-ji-ban-e-la-duo-sai-shai-fa-guan-fang-yon/)
+// 1. 质数个数： [*204. 计数质数*](https://leetcode-cn.com/problems/count-primes/)
+// 2. 优化解法： [*204. 题解 - Java简洁版*](https://leetcode-cn.com/problems/count-primes/solution/javajian-ji-ban-e-la-duo-sai-shai-fa-guan-fang-yon/)
 
-```java
+// ```java
 class Solution {
     public int numPrimeArrangements(int n) {
         if (n < 3)
@@ -41,4 +41,4 @@ class Solution {
         return (int) res;
     } 
 }
-```
+// ```

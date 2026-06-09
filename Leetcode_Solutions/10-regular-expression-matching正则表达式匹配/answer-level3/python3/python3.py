@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def isMatch(self, s: str, p: str) -> bool:
         if len(p) != len(s) and '*' not in p and '.' not in p:
@@ -25,4 +25,4 @@ class Solution:
                         #上一个字符与当前字符不相等，可以将*匹配零个字符，相当于去掉了*以及p[j-1]
                         dp[i + 1][j + 1] = dp[i + 1][j - 1]
         return dp[len(s)][len(p)] == 1
-```
+# ```

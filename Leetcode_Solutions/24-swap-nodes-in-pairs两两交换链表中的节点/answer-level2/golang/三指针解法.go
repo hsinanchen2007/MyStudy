@@ -1,10 +1,10 @@
-### 解题思路
-使用三个指针，就可以解决这个问题
-> [更多](https://github.com/googege/GOFamily)
+// ### 解题思路
+// 使用三个指针，就可以解决这个问题
+// > [更多](https://github.com/googege/GOFamily)
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -24,4 +24,4 @@ func swapPairs(head *ListNode) *ListNode {
     }
     return t.Next
 }
-```
+// ```

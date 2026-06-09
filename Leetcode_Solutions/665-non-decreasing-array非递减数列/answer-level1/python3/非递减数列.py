@@ -1,9 +1,9 @@
-### 解题思路
-思路待整理
+# ### 解题思路
+# 思路待整理
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def checkPossibility(self, nums: List[int]) -> bool:
         if len(nums) <= 1:
@@ -23,4 +23,4 @@ class Solution:
         return True if descCount <= 1 else False
 
 
-```
+# ```

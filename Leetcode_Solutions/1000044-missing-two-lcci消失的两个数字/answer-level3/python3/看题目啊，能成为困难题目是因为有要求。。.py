@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def missingTwo(self, nums: List[int]) -> List[int]:
         total_real = sum(nums)
@@ -15,5 +15,5 @@ class Solution:
         a = int((ab_sum - (ab_sum ** 2 - 4 * ab_square_sum) ** 0.5) // 2)
         b = int((ab_sum + (ab_sum ** 2 - 4 * ab_square_sum) ** 0.5) // 2)
         return [a, b]
-```
-数学解法
+# ```
+# 数学解法

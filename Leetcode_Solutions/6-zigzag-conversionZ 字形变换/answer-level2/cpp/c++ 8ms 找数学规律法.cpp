@@ -1,9 +1,9 @@
-### 解题思路
-把索引号写下来，找一找数字规律，很容易的
+// ### 解题思路
+// 把索引号写下来，找一找数字规律，很容易的
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	string convert(string s, int numRows) {
@@ -36,4 +36,4 @@ public:
 		return s1;
 	}
 };
-```
+// ```

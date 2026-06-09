@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int mul(n)
 {
     int sum = 0;
@@ -26,4 +26,4 @@ bool isHappy(int n){
     } while(slow != fast);
     return slow == 1;
 }
-```
+// ```

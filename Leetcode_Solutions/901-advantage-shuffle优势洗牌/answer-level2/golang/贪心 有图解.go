@@ -1,12 +1,12 @@
-### 解题思路
-![666.png](https://pic.leetcode-cn.com/2b6c44164d596b5b61685f1f02fc0ce98851d8dcfa8e0b6f99d33bbd40dfc540-666.png)
+// ### 解题思路
+// ![666.png](https://pic.leetcode-cn.com/2b6c44164d596b5b61685f1f02fc0ce98851d8dcfa8e0b6f99d33bbd40dfc540-666.png)
 
-有用的话点个赞 让我知道
+// 有用的话点个赞 让我知道
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func advantageCount(a []int, b []int) (ans []int) {
 	yuanlai := arr1_copy(b)
 	sort.Ints(a)
@@ -41,4 +41,4 @@ func arr1_copy(b []int) []int {
 	}
 	return a
 }
-```
+// ```

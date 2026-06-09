@@ -1,6 +1,6 @@
-数据太弱了, 解法不值得参考
+// 数据太弱了, 解法不值得参考
 
-```
+// ```
 /**
  * @param {string} s
  * @return {string}
@@ -16,6 +16,6 @@ var longestPrefix = function(s) {
     }
     return '';
 };
-```
+// ```
 
-我的所有题解 <https://github.com/yinxin630/leetcode>
+// 我的所有题解 <https://github.com/yinxin630/leetcode>

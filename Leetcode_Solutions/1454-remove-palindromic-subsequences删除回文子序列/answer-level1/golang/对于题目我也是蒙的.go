@@ -1,4 +1,4 @@
-```
+// ```
 func removePalindromeSub(s string) int {
 	var (
 		i      int
@@ -30,4 +30,4 @@ func removePalindromeSub(s string) int {
 	}
 
 }
-```
+// ```

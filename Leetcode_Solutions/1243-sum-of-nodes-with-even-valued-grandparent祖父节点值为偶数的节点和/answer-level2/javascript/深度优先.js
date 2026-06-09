@@ -1,9 +1,9 @@
-### 解题思路
-深度优先
+// ### 解题思路
+// 深度优先
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -31,4 +31,4 @@ var sumEvenGrandparent = function(root) {
     helper(root,[])
     return sum
 };
-```
+// ```

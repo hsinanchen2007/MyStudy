@@ -1,8 +1,8 @@
-### 解题思路
-Using complex numbers for directions
-### 代码
+# ### 解题思路
+# Using complex numbers for directions
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def isRobotBounded(self, instructions):
         """
@@ -18,4 +18,4 @@ class Solution(object):
             elif i == 'R':
                 direction *= -1j
         return position == 0 or direction != 1
-```
+# ```

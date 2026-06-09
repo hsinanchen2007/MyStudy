@@ -1,4 +1,4 @@
-```js
+// ```js
 var isPowerOfThree = function(n) {
     while(n >= 3) {
         n /= 3
@@ -9,4 +9,4 @@ var isPowerOfThree = function(n) {
         return false
     }  
 };
-```
+// ```

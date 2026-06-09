@@ -1,13 +1,13 @@
-### 解题思路
-二分模板
-但是效率好像不是很高 
-![HA~{V5M9QJE\]Q~{QLE)28NC.png](https://pic.leetcode-cn.com/da6b7c3654bfa2b1a41d72e3aead5b960809bb6ce247604c6d53dd3b307f7cc6-HA~%7BV5M9QJE%5DQ~%7BQLE\)28NC.png)
+// ### 解题思路
+// 二分模板
+// 但是效率好像不是很高 
+// ![HA~{V5M9QJE\]Q~{QLE)28NC.png](https://pic.leetcode-cn.com/da6b7c3654bfa2b1a41d72e3aead5b960809bb6ce247604c6d53dd3b307f7cc6-HA~%7BV5M9QJE%5DQ~%7BQLE\)28NC.png)
 
 
-希望有大神帮忙优化一下 或者 给出更好的答案
-### 代码
+// 希望有大神帮忙优化一下 或者 给出更好的答案
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int shipWithinDays(int[] weights, int D) {
        int sum = 0;
@@ -40,4 +40,4 @@ class Solution {
         return left;
     }
 }
-```
+// ```

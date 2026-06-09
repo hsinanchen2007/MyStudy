@@ -1,8 +1,8 @@
-### 解题思路
-尾递归，位运算。
+// ### 解题思路
+// 尾递归，位运算。
 
-思路：
-```java
+// 思路：
+// ```java
 偶数为循环次数的运算过程
 8 * 9 
 4 * 18
@@ -16,12 +16,12 @@
 9 + 18 + (1 * 36)   // 3/2 时丢失一个 18 
 9 + 18 + 36 
 63
-```
-![image.png](https://pic.leetcode-cn.com/81d9c09d742bc615d2a4aa8e343f13c227e55241eaf2873f6c12bf35512372ae-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/81d9c09d742bc615d2a4aa8e343f13c227e55241eaf2873f6c12bf35512372ae-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 
     public int multiply(int A, int B) {
@@ -35,4 +35,4 @@ class Solution {
         return multiply2Help(A / 2, B << 1, missPart);
     }
 }
-```
+// ```

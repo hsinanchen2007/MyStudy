@@ -1,9 +1,9 @@
-### 解题思路
-开放定址法的线性探测
+// ### 解题思路
+// 开放定址法的线性探测
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define HASHSIZE 10001
 
 typedef struct {
@@ -68,4 +68,4 @@ void myHashSetFree(MyHashSet* obj) {
  
  * myHashSetFree(obj);
 */
-```
+// ```

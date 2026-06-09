@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/3bfc5323f5809278ea1c7b18da1d2ce5e262c1aa5f8dd90cd652e1b8ac9f5904-image.png)
+# ![image.png](https://pic.leetcode-cn.com/3bfc5323f5809278ea1c7b18da1d2ce5e262c1aa5f8dd90cd652e1b8ac9f5904-image.png)
 
 
-```
+# ```
 class Solution:
 
     # 最大公约数
@@ -42,4 +42,4 @@ class Solution:
                 l = mid + 1
             else:
                 r = mid - 1
-```
+# ```

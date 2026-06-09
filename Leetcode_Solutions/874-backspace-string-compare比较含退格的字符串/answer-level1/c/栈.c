@@ -1,9 +1,9 @@
-### 解题思路
-字母进栈， #出栈，
+// ### 解题思路
+// 字母进栈， #出栈，
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct {
     int top;
     char* Stack;
@@ -74,4 +74,4 @@ bool backspaceCompare(char * S, char * T){
     }
     return true;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 int massage(int* nums, int numsSize){
     if(numsSize == 0) {
         return 0;
@@ -22,4 +22,4 @@ int massage(int* nums, int numsSize){
     }
     return max;
 }
-```
+// ```

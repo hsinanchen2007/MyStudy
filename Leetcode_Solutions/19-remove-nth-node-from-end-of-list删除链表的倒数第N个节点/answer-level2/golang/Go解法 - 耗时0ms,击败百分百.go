@@ -1,7 +1,7 @@
-一遍遍历的思路是用一个链表队列来实现，但插入队列的方法感觉可优化
-但已经想了两三个小时了，头大，放弃了
+// 一遍遍历的思路是用一个链表队列来实现，但插入队列的方法感觉可优化
+// 但已经想了两三个小时了，头大，放弃了
 
-```
+// ```
 type Queue struct {
  	Element *ListNode
  	Next *Queue
@@ -59,4 +59,4 @@ func popQueue(queue *Queue) Queue {
     queue = queue.Next
     return *queue
 }
-```
+// ```

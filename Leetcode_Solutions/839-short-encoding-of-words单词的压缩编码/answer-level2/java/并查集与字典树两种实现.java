@@ -1,5 +1,5 @@
-**并查集:**  851 ms	41.1 MB	Java
-```java
+// **并查集:**  851 ms	41.1 MB	Java
+// ```java
 import java.util.Arrays;
 import java.util.HashSet;
 
@@ -58,10 +58,10 @@ class Solution {
     }
 
 }
-```
+// ```
 
-**字典树的代码：**  14 ms	45 MB	Java
-```java
+// **字典树的代码：**  14 ms	45 MB	Java
+// ```java
 import java.util.Arrays;
 
 class Trie {
@@ -108,4 +108,4 @@ class Solution {
         System.out.println(c);
     }
 }
-```
+// ```

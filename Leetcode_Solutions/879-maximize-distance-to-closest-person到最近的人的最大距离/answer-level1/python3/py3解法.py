@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def maxDistToClosest(self, seats: List[int]) -> int:
         left = 0
@@ -25,4 +25,4 @@ class Solution:
         if num_of_0 > m:
             m = num_of_0
         return max((m+1)//2, left, right)
-```
+# ```

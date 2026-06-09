@@ -1,7 +1,7 @@
-总思路：找到每个单词的头和尾，反转
-（我会说其实看到题目第一反应是s.split(' ')？？？人生苦短，请用python）
-# Solution1 临时变量反转法
-```C++
+// 总思路：找到每个单词的头和尾，反转
+// （我会说其实看到题目第一反应是s.split(' ')？？？人生苦短，请用python）
+// # Solution1 临时变量反转法
+// ```C++
 class Solution {
 public:
     string reverseWords(string s) {
@@ -18,10 +18,10 @@ public:
         return answer;
     }
 };
-```
-# Solution2 swap法
-引入哨兵，使得字符串末端与正常情况一致，减少判断次数；
-```
+// ```
+// # Solution2 swap法
+// 引入哨兵，使得字符串末端与正常情况一致，减少判断次数；
+// ```
 class Solution {
 public:
     void exchange(string &s,int &left, int right){
@@ -42,10 +42,10 @@ public:
         return s;
     }
 };
-```
-# Solution3 迭代器法
-采用迭代器可以用reverse方法，交换[begin,end-1]区间内元素
-```C++
+// ```
+// # Solution3 迭代器法
+// 采用迭代器可以用reverse方法，交换[begin,end-1]区间内元素
+// ```C++
 class Solution {
 public:
     string reverseWords(string s) {
@@ -66,4 +66,4 @@ public:
         return s;
     }
 };
-```
+// ```

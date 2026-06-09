@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/8f00ab6763f1fb711237e248df3e6cd9667a5ee04620194b270f3853f2a32003-image.png)
+// ![image.png](https://pic.leetcode-cn.com/8f00ab6763f1fb711237e248df3e6cd9667a5ee04620194b270f3853f2a32003-image.png)
 
-暴力枚举
+// 暴力枚举
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> luckyNumbers (vector<vector<int>>& matrix) {
@@ -30,4 +30,4 @@ public:
         return res;
     }
 };
-```
+// ```

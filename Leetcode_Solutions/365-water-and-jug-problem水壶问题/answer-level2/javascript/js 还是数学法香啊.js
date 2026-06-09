@@ -1,13 +1,13 @@
-![image.png](https://pic.leetcode-cn.com/2f7f7e1165494abf5726f3590437fa3680a10654c1f453d5b5c9f752af9ab8c7-image.png)
+// ![image.png](https://pic.leetcode-cn.com/2f7f7e1165494abf5726f3590437fa3680a10654c1f453d5b5c9f752af9ab8c7-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
 参考官方思路
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} x
  * @param {number} y
@@ -77,4 +77,4 @@ var canMeasureWater = function(x, y, z) {
   
 //   return ans;
 // };
-```
+// ```

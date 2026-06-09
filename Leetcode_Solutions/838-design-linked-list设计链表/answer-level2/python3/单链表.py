@@ -1,16 +1,16 @@
-### 解题思路
-单向 操作方便
-size 方便检查索引
-tail 方便尾部操作
+# ### 解题思路
+# 单向 操作方便
+# size 方便检查索引
+# tail 方便尾部操作
 
-self.head = LinkedNode(val,self.head) 一行赋值与连接
-index == size 是可插入位置
+# self.head = LinkedNode(val,self.head) 一行赋值与连接
+# index == size 是可插入位置
 
-prev 方便插入和删除操作
-注意head和tail在第一次，和删除操作时候的改变
-### 代码
+# prev 方便插入和删除操作
+# 注意head和tail在第一次，和删除操作时候的改变
+# ### 代码
 
-```python3
+# ```python3
 class LinkedNode:
     def __init__(self,val, next_node=None): # single listnode, default next == None
         self.val = val
@@ -108,4 +108,4 @@ class MyLinkedList:
 # obj.addAtTail(val)
 # obj.addAtIndex(index,val)
 # obj.deleteAtIndex(index)
-```
+# ```

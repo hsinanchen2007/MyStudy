@@ -1,5 +1,5 @@
-C语言实现，先过滤大写字母前面有小写字母的情况，再判断全是大写，或者全小写及首字母大写。
-```
+// C语言实现，先过滤大写字母前面有小写字母的情况，再判断全是大写，或者全小写及首字母大写。
+// ```
 bool detectCapitalUse(char * word){
     int len = strlen(word);
     int i, capital = 0;
@@ -8,4 +8,4 @@ bool detectCapitalUse(char * word){
     }
     return capital == len || capital < 2;
 }
-```
+// ```

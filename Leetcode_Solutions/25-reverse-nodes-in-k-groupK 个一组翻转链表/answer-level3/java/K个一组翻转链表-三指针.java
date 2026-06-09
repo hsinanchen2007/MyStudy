@@ -1,14 +1,14 @@
-欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
-几乎所有题目都会提供多种解法，真诚求star！
+// 欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
+// 几乎所有题目都会提供多种解法，真诚求star！
 
-# 三指针
+// # 三指针
 
-时间复杂度是O(n)，其中n为链表中的节点个数。
-空间复杂度是O(1)。
+// 时间复杂度是O(n)，其中n为链表中的节点个数。
+// 空间复杂度是O(1)。
 
-执行用时：2ms，击败59.69%。消耗内存：38.6MB，击败76.24%。
+// 执行用时：2ms，击败59.69%。消耗内存：38.6MB，击败76.24%。
 
-```java
+// ```java
 public class Solution {
     public ListNode reverseKGroup(ListNode head, int k) {
         ListNode dummyHead = new ListNode(-1);
@@ -60,4 +60,4 @@ public class Solution {
         return dummyHead.next;
     }
 }
-```
+// ```

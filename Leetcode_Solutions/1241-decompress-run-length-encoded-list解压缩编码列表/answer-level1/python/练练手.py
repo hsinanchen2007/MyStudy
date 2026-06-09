@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
-以两个数作为一个组合，用i记录组合数，然后一一对应
+# ### 解题思路
+# 此处撰写解题思路
+# 以两个数作为一个组合，用i记录组合数，然后一一对应
 
-执行用时 :20 ms, 在所有 Python 提交中击败了99.38%的用户
-内存消耗 :12.1 MB, 在所有 Python 提交中击败了100.00%的用户
-### 代码
+# 执行用时 :20 ms, 在所有 Python 提交中击败了99.38%的用户
+# 内存消耗 :12.1 MB, 在所有 Python 提交中击败了100.00%的用户
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def decompressRLElist(self, nums):
         """
@@ -21,4 +21,4 @@ class Solution(object):
                 ans.append(nums[2*j-1])
             k=0
         return ans
-```
+# ```

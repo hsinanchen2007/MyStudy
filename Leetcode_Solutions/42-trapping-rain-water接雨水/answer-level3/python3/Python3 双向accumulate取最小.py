@@ -1,6 +1,6 @@
-解法已经有很多人解释清楚了，这里给一个通俗的写法。
+# 解法已经有很多人解释清楚了，这里给一个通俗的写法。
 
-```Python3
+# ```Python3
 from itertools import accumulate
 
 class Solution:
@@ -12,4 +12,4 @@ class Solution:
             res += min(x, y) - z
         return res
 
-```
+# ```

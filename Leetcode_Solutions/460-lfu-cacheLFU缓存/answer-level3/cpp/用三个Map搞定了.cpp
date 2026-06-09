@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-这里时间的那个map，不能用time(), 这里只能精确到秒，这里需要c++11特性：std::chrono
-显然这里有点偷懒的。
-### 代码
+// 这里时间的那个map，不能用time(), 这里只能精确到秒，这里需要c++11特性：std::chrono
+// 显然这里有点偷懒的。
+// ### 代码
 
-```cpp
+// ```cpp
 class LFUCache {
 public:
     LFUCache(int capacity) {
@@ -70,4 +70,4 @@ private:
  * int param_1 = obj->get(key);
  * obj->put(key,value);
  */
-```
+// ```

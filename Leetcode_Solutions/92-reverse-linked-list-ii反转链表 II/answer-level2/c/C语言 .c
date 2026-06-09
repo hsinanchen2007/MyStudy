@@ -1,15 +1,15 @@
-![image.png](https://pic.leetcode-cn.com/630188718dab8dae1457d1972a3dddf18c45d40ee8e927aa2488a09d45c6fe04-image.png)
+// ![image.png](https://pic.leetcode-cn.com/630188718dab8dae1457d1972a3dddf18c45d40ee8e927aa2488a09d45c6fe04-image.png)
 
-解题思路：
+// 解题思路：
 
-1 增加头节点，方便对第一个节点操作
+// 1 增加头节点，方便对第一个节点操作
 
-2 找到第m个节点和其前节点 ，第n个节点
+// 2 找到第m个节点和其前节点 ，第n个节点
 
-3 截取下来m到n这段链表
+// 3 截取下来m到n这段链表
 
-4 把截取下的链表中的节点逐个插入原链表
-```
+// 4 把截取下的链表中的节点逐个插入原链表
+// ```
 struct ListNode* reverseBetween(struct ListNode* head, int m, int n){
     if(m == n)return head;
     struct ListNode *p = head, *q = p, *s, *pre;
@@ -41,4 +41,4 @@ struct ListNode* reverseBetween(struct ListNode* head, int m, int n){
 
     return prehead -> next;
 }
-```
+// ```

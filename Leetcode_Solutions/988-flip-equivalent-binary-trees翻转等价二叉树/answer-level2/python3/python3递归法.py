@@ -1,9 +1,9 @@
-### 解题思路
-其实就是递归，每一步只解决当前这一个节点及其左右儿子所组成的小树是否满足反转
+# ### 解题思路
+# 其实就是递归，每一步只解决当前这一个节点及其左右儿子所组成的小树是否满足反转
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -36,4 +36,4 @@ class Solution:
         if(root1.left and root2.left and root1.right and root2.right):#都有
             return self.flipEquiv(root1.left,root2.left) and self.flipEquiv(root1.right,root2.right) or self.flipEquiv(root1.left,root2.right) and self.flipEquiv(root1.right,root2.left)
 
-```
+# ```

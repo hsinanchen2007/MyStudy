@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/bd298f3a207622dad1bbfec783486c0e19551d74c762f3a9fa55c0d755de3590-image.png)
-有点蠢。。但比较直接。。
-从最大的数减起，能减掉就减掉，然后找表中对应字符串拼接上去
-这不知道拷贝了多少次字符串，希望能研究出来更简单的办法
-### 代码
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/bd298f3a207622dad1bbfec783486c0e19551d74c762f3a9fa55c0d755de3590-image.png)
+// 有点蠢。。但比较直接。。
+// 从最大的数减起，能减掉就减掉，然后找表中对应字符串拼接上去
+// 这不知道拷贝了多少次字符串，希望能研究出来更简单的办法
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution
 {
 public:
@@ -30,4 +30,4 @@ public:
         return ret;
     }
 };
-```
+// ```

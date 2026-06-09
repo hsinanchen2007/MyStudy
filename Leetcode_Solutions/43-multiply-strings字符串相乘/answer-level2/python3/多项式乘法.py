@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def multiply(self, num1: str, num2: str) -> str:
         len1 = len(num1)
@@ -14,8 +14,8 @@ class Solution:
             len1 -= 1
         
         return str(result)
-```
-思路比较简单，效率也不怎么高哈哈哈哈
-总之就是多项式乘法。
-552 * 325
-(500+50+2)*(300+20+5)
+# ```
+# 思路比较简单，效率也不怎么高哈哈哈哈
+# 总之就是多项式乘法。
+# 552 * 325
+# (500+50+2)*(300+20+5)

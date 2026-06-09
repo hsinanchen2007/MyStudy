@@ -1,8 +1,8 @@
-### 解题思路
-如果两个矩形不相交，那么有且仅有以下四种情况：A在B左边，B在A左边，A在B上边，B在A上边。
-### 代码
+// ### 解题思路
+// 如果两个矩形不相交，那么有且仅有以下四种情况：A在B左边，B在A左边，A在B上边，B在A上边。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isRectangleOverlap(int[] rec1, int[] rec2) {
         int zuo1=rec1[0];
@@ -18,4 +18,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def __init__(self):
         self.seque = []
@@ -18,4 +18,4 @@ class Solution(object):
 
         order(root)
         return self.seque
-```
+# ```

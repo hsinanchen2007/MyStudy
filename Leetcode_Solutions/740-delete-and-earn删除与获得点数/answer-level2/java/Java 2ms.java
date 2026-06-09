@@ -1,9 +1,9 @@
-### 解题思路
-动态规划
+// ### 解题思路
+// 动态规划
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 public int deleteAndEarn(int[] nums) {
     int[] cnt = new int[10001];
     int max = 0;
@@ -23,4 +23,4 @@ public int deleteAndEarn(int[] nums) {
     }
     return Math.max(ydp[max], ndp[max]);
 }
-```
+// ```

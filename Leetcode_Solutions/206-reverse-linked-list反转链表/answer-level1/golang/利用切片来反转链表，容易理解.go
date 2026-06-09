@@ -1,4 +1,4 @@
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -30,4 +30,4 @@ func reverseList(head *ListNode) *ListNode {
     // 去掉头结点
     return newHead.Next
 }
-```
+// ```

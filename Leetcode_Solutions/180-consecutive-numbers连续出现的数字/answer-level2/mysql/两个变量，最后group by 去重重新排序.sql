@@ -1,9 +1,9 @@
 
-console.log('Hello world!')
-```
-```python []
-print('Hello world!')
-```
-```ruby []
-puts 'Hello world!'
-```
+-- console.log('Hello world!')
+-- ```
+-- ```python []
+-- print('Hello world!')
+-- ```
+-- ```ruby []
+-- puts 'Hello world!'
+-- ```

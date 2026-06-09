@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int findLengthOfLCIS(int[] nums) {
         if(nums.length == 0 || nums == null) return 0;
@@ -16,4 +16,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

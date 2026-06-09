@@ -1,5 +1,5 @@
-字符串`右对齐`进行相加
-```java
+// 字符串`右对齐`进行相加
+// ```java
 class Solution {
 
     public String addBinary(String a, String b) {
@@ -43,4 +43,4 @@ class Solution {
     }
 
 }
-```
+// ```

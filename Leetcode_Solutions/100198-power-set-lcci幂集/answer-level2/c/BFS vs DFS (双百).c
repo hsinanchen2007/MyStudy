@@ -1,14 +1,14 @@
-### 解题思路
-BFS
-1.思路本质上是广度优先搜索法
-2.要知道一个数组的子集 有 2^(数组个数)个 包含空集的话，例如[1,2,3]->有2^3=8个子集
-3.例如[1,2,3]  开始先创建个仅包含空集的二维数组[[],]我们每次往里面添加一个数，大致思路如下（本质上就是二叉树(left是加上这个数，right是不加这个数)）
-[[]] --> [[],[1]] --> [[],[1],[2],[1,2]] --> [[],[1],[2],[1,2],[3],[1,3],[2,3],[1,2,3]]
-DFS
-同样是二叉树思想，用递归的方式完成
-### 代码
-BFS
-```c
+// ### 解题思路
+// BFS
+// 1.思路本质上是广度优先搜索法
+// 2.要知道一个数组的子集 有 2^(数组个数)个 包含空集的话，例如[1,2,3]->有2^3=8个子集
+// 3.例如[1,2,3]  开始先创建个仅包含空集的二维数组[[],]我们每次往里面添加一个数，大致思路如下（本质上就是二叉树(left是加上这个数，right是不加这个数)）
+// [[]] --> [[],[1]] --> [[],[1],[2],[1,2]] --> [[],[1],[2],[1,2],[3],[1,3],[2,3],[1,2,3]]
+// DFS
+// 同样是二叉树思想，用递归的方式完成
+// ### 代码
+// BFS
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -33,9 +33,9 @@ int** subsets(int* nums, int numsSize, int* returnSize, int** returnColumnSizes)
     *returnColumnSizes = p;
     return ans;
 }
-```
-DFS
-```c
+// ```
+// DFS
+// ```c
 int** subsets(int* nums, int numsSize, int* returnSize, int** returnColumnSizes){
     int **ans,top=-1,*p;
     ans = (int**)malloc(sizeof(int*)*(1<<numsSize));
@@ -59,4 +59,4 @@ int** subsets(int* nums, int numsSize, int* returnSize, int** returnColumnSizes)
     *returnColumnSizes = p;
     return ans;
 }
-```
+// ```

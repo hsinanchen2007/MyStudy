@@ -1,9 +1,9 @@
-执行用时 :16 ms, 在所有 java 提交中击败了93.35%的用户
-内存消耗 :51.6 MB, 在所有 java 提交中击败了100.00%的用户
+// 执行用时 :16 ms, 在所有 java 提交中击败了93.35%的用户
+// 内存消耗 :51.6 MB, 在所有 java 提交中击败了100.00%的用户
 
-把所有的product加入字典树中，节点存放前三个product. 每次加入判断并从新排序。
+// 把所有的product加入字典树中，节点存放前三个product. 每次加入判断并从新排序。
 
-```
+// ```
 class Solution {
     class TrieNode{
         int size;
@@ -81,4 +81,4 @@ class Solution {
         return listlist;
     }
 }
-```
+// ```

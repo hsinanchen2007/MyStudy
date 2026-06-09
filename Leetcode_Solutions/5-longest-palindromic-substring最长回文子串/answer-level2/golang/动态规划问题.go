@@ -1,22 +1,22 @@
-### 解题思路
-* 动态规划解题，创建二维切片isPal,isPal[i][j]表示s[i:j+1]是回文串，此时最小子结构为
-$$
-isPal[i][j] = true if isPal[i+1][j-1] and s[i]==s[j]
-$$
-* 二维切片要事先创建，因为遍历是从二维切片的对角线往右上走的。
-```go
+// ### 解题思路
+// * 动态规划解题，创建二维切片isPal,isPal[i][j]表示s[i:j+1]是回文串，此时最小子结构为
+// $$
+// isPal[i][j] = true if isPal[i+1][j-1] and s[i]==s[j]
+// $$
+// * 二维切片要事先创建，因为遍历是从二维切片的对角线往右上走的。
+// ```go
 // i表示子串的间隔，j表示第几次遍历
 for i:=0;i<len;i++{
   for j:=0;i+j<len;j++{
     isPal[j][j+i]
   }
 }
-```
+// ```
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func longestPalindrome(s string) string {
   sLen := len(s)
   var isPal [][]bool
@@ -46,4 +46,4 @@ func longestPalindrome(s string) string {
   }
   return maxStr
 }
-```
+// ```

@@ -1,7 +1,7 @@
-## 第一版，利用减法循环暴力解，毫无意外的超时。
-## 第二版，对除数倍增后再利用减法处理
-> 84ms,34.7MB。
-```javascript []
+// ## 第一版，利用减法循环暴力解，毫无意外的超时。
+// ## 第二版，对除数倍增后再利用减法处理
+// > 84ms,34.7MB。
+// ```javascript []
 /**
  * @param {number} dividend
  * @param {number} divisor
@@ -36,20 +36,20 @@ function divideDichotomy(absDividend, originAbsDivisor, res) {
     count += count;
   }
 }
-```
+// ```
 
-### 思路
-+ 利用异或运算先得到最终结果的符号，然后将被除数和除数全部转为非负数进行计算
-+ divideDichotomy方法：
-  1. 将除数 `absDivisor` 一直倍增直到除数下一次倍增将会大于被除数 `absDividend`
-  2. 倍增同时计算最终的除数 `absDivisor` 与初始除数 `originAbsDivisor` 之间的倍数关系 `count` 即这一部分的最终结果
-  3. 递归计算下一部分被除数 `absDividend - absDivisor` 与初始除数 `originAbsDivisor` 的整除结果
-  4. 重复上述步骤直到剩余部分小于初始除数，每个部分的结果加起来就是最终的结果
-示例：divide(11,3)
-![image.png](https://pic.leetcode-cn.com/ecf5260c6014021c1b5a1f49498e090a23b94bbccccd3de69911b45ecd50f428-image.png)
-+ 处理溢出值
+// ### 思路
+// + 利用异或运算先得到最终结果的符号，然后将被除数和除数全部转为非负数进行计算
+// + divideDichotomy方法：
+//   1. 将除数 `absDivisor` 一直倍增直到除数下一次倍增将会大于被除数 `absDividend`
+//   2. 倍增同时计算最终的除数 `absDivisor` 与初始除数 `originAbsDivisor` 之间的倍数关系 `count` 即这一部分的最终结果
+//   3. 递归计算下一部分被除数 `absDividend - absDivisor` 与初始除数 `originAbsDivisor` 的整除结果
+//   4. 重复上述步骤直到剩余部分小于初始除数，每个部分的结果加起来就是最终的结果
+// 示例：divide(11,3)
+// ![image.png](https://pic.leetcode-cn.com/ecf5260c6014021c1b5a1f49498e090a23b94bbccccd3de69911b45ecd50f428-image.png)
+// + 处理溢出值
 
 
-### 如果觉得我的思路和代码还不错或者有看不懂的地方希望大家给我一点反馈哦。（感觉思路写的有点啰嗦了）`(..›ᴗ‹..)`
+// ### 如果觉得我的思路和代码还不错或者有看不懂的地方希望大家给我一点反馈哦。（感觉思路写的有点啰嗦了）`(..›ᴗ‹..)`
 
-#### 应该还有优化的空间，计算倍增的时候存在重复计算
+// #### 应该还有优化的空间，计算倍增的时候存在重复计算

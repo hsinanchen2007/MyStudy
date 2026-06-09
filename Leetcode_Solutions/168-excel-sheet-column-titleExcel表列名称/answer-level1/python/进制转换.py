@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def convertToTitle(self, n):
         """
@@ -15,4 +15,4 @@ class Solution(object):
             res=chr(ord('A')+(n-1)%26)+res
             n=(n-1)/26
         return res
-```
+# ```

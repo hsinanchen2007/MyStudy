@@ -1,11 +1,11 @@
-### 解题思路
-1. 遍历digits的每一位，保存在str[idx]。
-2. 递归idx+1。
-3. idx为strlen(digits)时保存结果。
+// ### 解题思路
+// 1. 遍历digits的每一位，保存在str[idx]。
+// 2. 递归idx+1。
+// 3. idx为strlen(digits)时保存结果。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -66,4 +66,4 @@ char ** letterCombinations(char * digits, int* returnSize){
     *returnSize = curIdx;
     return result;
 }
-```
+// ```

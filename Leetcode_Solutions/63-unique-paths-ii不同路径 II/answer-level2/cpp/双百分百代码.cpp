@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/0c47275b5406b2040ae8fbdae8471f04acf602a508ab7c56370f2a8df2ef83e9-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/0c47275b5406b2040ae8fbdae8471f04acf602a508ab7c56370f2a8df2ef83e9-image.png)
+// ```
 class Solution {
 public:
     int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid) {
@@ -39,5 +39,5 @@ public:
         return v[v.size()-1][v[0].size()-1];
     }
 };
-```
+// ```
 

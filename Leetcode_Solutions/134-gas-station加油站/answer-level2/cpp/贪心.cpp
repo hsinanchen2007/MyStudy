@@ -1,9 +1,9 @@
-### 解题思路
-截取前面所有不满足条件的加油站（residue<0）,第一个满足条件的加油站。
+// ### 解题思路
+// 截取前面所有不满足条件的加油站（residue<0）,第一个满足条件的加油站。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int canCompleteCircuit(vector<int>& gas, vector<int>& cost) {
@@ -29,4 +29,4 @@ public:
         return res;
     }
 };
-```
+// ```

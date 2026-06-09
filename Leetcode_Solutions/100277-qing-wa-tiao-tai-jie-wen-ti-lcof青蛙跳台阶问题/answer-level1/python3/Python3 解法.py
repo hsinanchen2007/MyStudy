@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numWays(self, n: int) -> int:
         a = 1
@@ -8,4 +8,4 @@ class Solution:
         for i in range(n):
             a, b = b, a+b
         return a % 1000000007
-```
+# ```

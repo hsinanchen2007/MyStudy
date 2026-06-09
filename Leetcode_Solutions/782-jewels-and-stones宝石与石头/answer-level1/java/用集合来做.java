@@ -1,5 +1,5 @@
 
-```
+// ```
 class Solution {
     public int numJewelsInStones(String J, String S) {
         int num=0;
@@ -15,4 +15,4 @@ class Solution {
         return num;
     }
 }
-```
+// ```

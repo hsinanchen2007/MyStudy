@@ -1,9 +1,9 @@
-### 解题思路一
-直接模拟整个过程，运行大概1s多一些，ArrayList可以通过，LinkedList不可以
+// ### 解题思路一
+// 直接模拟整个过程，运行大概1s多一些，ArrayList可以通过，LinkedList不可以
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int lastRemaining(int n, int m) {
         List<Integer> list = new ArrayList<>();
@@ -20,15 +20,15 @@ class Solution {
     }
 
 }
-```
+// ```
 
 
-### 解题思路二
-其实根据上述的代码也能看出，递推式就是f(n) = (f(n-1) + m) % n
+// ### 解题思路二
+// 其实根据上述的代码也能看出，递推式就是f(n) = (f(n-1) + m) % n
 
-### 代码
+// ### 代码
 
-```
+// ```
     public int lastRemaining(int n, int m) {
         int ans = 0;
         for(int i = 2; i <= n; i++) {
@@ -36,4 +36,4 @@ class Solution {
         }
         return ans;
     }
-```
+// ```

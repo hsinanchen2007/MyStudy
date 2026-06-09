@@ -1,10 +1,10 @@
-### 解题思路
-一定会在循环内返回的（<=）
-需要注意细节几点，见代码
+# ### 解题思路
+# 一定会在循环内返回的（<=）
+# 需要注意细节几点，见代码
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
         m,n, A,B = len(nums1),len(nums2),nums1,nums2
@@ -34,4 +34,4 @@ class Solution:
 
 
 
-```
+# ```

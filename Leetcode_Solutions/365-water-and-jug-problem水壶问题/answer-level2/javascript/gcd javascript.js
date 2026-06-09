@@ -1,9 +1,9 @@
-### 解题思路
-gcd
+// ### 解题思路
+// gcd
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} x
  * @param {number} y
@@ -21,4 +21,4 @@ var canMeasureWater = function(x, y, z) {
     return z % gcd(y, x) == 0
 };
 
-```
+// ```

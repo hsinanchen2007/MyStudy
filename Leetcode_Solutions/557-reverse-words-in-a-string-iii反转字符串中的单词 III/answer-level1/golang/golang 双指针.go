@@ -1,4 +1,4 @@
-```golang
+// ```golang
 func reverseWords(s string) string {
     
     bt := []byte(s)
@@ -33,4 +33,4 @@ func reverseWords(s string) string {
     
     return string(bt)
 }
-```
+// ```

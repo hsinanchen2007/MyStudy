@@ -1,9 +1,9 @@
-### 解题思路
-看代码
+// ### 解题思路
+// 看代码
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -32,4 +32,4 @@ var reverseList = function(head) {
     //每层递归返回当前的节点，也就是最后一个节点。（因为head.next.next改变了，所以下一层current变4，head变3）
     return current;
 };
-```
+// ```

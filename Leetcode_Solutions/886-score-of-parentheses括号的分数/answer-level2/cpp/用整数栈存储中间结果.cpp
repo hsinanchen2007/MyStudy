@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int scoreOfParentheses(string S) {
@@ -31,4 +31,4 @@ public:
         return res;
     }
 };
-```
+// ```

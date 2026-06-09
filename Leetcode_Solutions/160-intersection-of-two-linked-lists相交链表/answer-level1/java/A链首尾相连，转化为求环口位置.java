@@ -1,6 +1,6 @@
-求A、B链表的交点，将A链首尾相连，若A、B有交点，即相当于B链有环，此题转化为求B链环口位置。
-求环口位置，p1指向B链头，在B链上走快慢指针，快慢指针在环上的相遇点p2，p1、p2到环口等距，p1,p2一起向后移动，p1和p2的相遇点即为环口--链表相交点
-```
+// 求A、B链表的交点，将A链首尾相连，若A、B有交点，即相当于B链有环，此题转化为求B链环口位置。
+// 求环口位置，p1指向B链头，在B链上走快慢指针，快慢指针在环上的相遇点p2，p1、p2到环口等距，p1,p2一起向后移动，p1和p2的相遇点即为环口--链表相交点
+// ```
 public class Solution {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         if(null == headA || null == headB){
@@ -35,4 +35,4 @@ public class Solution {
         return null;
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
 
-![image.png](https://pic.leetcode-cn.com/aa1919368a2c9848f72552aa6b32c5cc3dfe2a7ebaf97df4234fbef5db2af0e4-image.png)
+// ![image.png](https://pic.leetcode-cn.com/aa1919368a2c9848f72552aa6b32c5cc3dfe2a7ebaf97df4234fbef5db2af0e4-image.png)
 
-bfs 层次遍历二叉树，在遍历到下一层的时候，将当前层次所有的节点数组插入到结果数组头部，最后输出结果数组。
+// bfs 层次遍历二叉树，在遍历到下一层的时候，将当前层次所有的节点数组插入到结果数组头部，最后输出结果数组。
 
-代码
-```
+// 代码
+// ```
 type Node struct {
     level   int
     node    *TreeNode
@@ -39,4 +39,4 @@ func levelOrderBottom(root *TreeNode) [][]int { // bfs + 头插法
     result = append(t, result...)
     return result
 }
-```
+// ```

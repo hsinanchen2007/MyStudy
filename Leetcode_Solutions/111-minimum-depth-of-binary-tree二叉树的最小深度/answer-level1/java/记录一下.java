@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -30,7 +30,7 @@ class Solution {
 
     }
 }
-```
-# 遇到叶子结点返回1
-# 递归给出左，右子树的最小深度
-# 注意root=null的情况
+// ```
+// # 遇到叶子结点返回1
+// # 递归给出左，右子树的最小深度
+// # 注意root=null的情况

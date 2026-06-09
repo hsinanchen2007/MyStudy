@@ -1,8 +1,8 @@
-自己写的比较麻烦，参考别人的方法写了一个
+// 自己写的比较麻烦，参考别人的方法写了一个
 
-执行用时 :104 ms, 在所有 csharp 提交中击败了90.15%的用户
-内存消耗 :24 MB, 在所有 csharp 提交中击败了9.80%的用户
-```
+// 执行用时 :104 ms, 在所有 csharp 提交中击败了90.15%的用户
+// 内存消耗 :24 MB, 在所有 csharp 提交中击败了9.80%的用户
+// ```
 public class Solution {
     public string AddBinary(string a, string b) {
         StringBuilder str = new StringBuilder();//记录相加后的字符串
@@ -25,4 +25,4 @@ public class Solution {
         
     }
 }
-```
+// ```

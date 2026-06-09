@@ -1,7 +1,7 @@
-遍历数组，遇到零删除，统计删除了多少零，之后在末尾补上
+// 遍历数组，遇到零删除，统计删除了多少零，之后在末尾补上
 
-代码：
-```
+// 代码：
+// ```
 class Solution {
 public:
     void moveZeroes(vector<int>& nums) {
@@ -19,4 +19,4 @@ public:
             nums.push_back(0);
     }
 };
-```
+// ```

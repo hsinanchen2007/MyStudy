@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/0ba5de47b36beb0275cc4b29d8300c8de6cf68356228b19f64c6236054945e21-image.png)
+// ![image.png](https://pic.leetcode-cn.com/0ba5de47b36beb0275cc4b29d8300c8de6cf68356228b19f64c6236054945e21-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 
 class Codec {
 public:
@@ -78,4 +78,4 @@ public:
 // Your Codec object will be instantiated and called as such:
 // Codec codec;
 // codec.deserialize(codec.serialize(root));
-```
+// ```

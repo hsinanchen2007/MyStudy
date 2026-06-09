@@ -1,9 +1,9 @@
-### 解题思路
-按照层序遍历的思路写就行了，每次添加一个队尾的值
+# ### 解题思路
+# 按照层序遍历的思路写就行了，每次添加一个队尾的值
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -37,4 +37,4 @@ class Solution:
           
         return res
         
-```
+# ```

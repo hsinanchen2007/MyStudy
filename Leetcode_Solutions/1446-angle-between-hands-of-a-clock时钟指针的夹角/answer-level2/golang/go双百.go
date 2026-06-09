@@ -1,9 +1,9 @@
-### 解题思路
-此题不配medium
+// ### 解题思路
+// 此题不配medium
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 import "fmt"
 func angleClock(hour int, minutes int) float64 {
     hAngle := (float64(hour) + float64(minutes) / 60) / 12 * 360
@@ -29,4 +29,4 @@ func angleClock(hour int, minutes int) float64 {
     }
     return res
 }
-```
+// ```

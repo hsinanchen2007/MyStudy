@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     // 针对方式一的小优化
     public List<List<Integer>> groupThePeople(int[] groupSizes) {
@@ -56,4 +56,4 @@ class Solution {
         return result;
     }*/
 }
-```
+// ```

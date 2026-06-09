@@ -1,6 +1,6 @@
 
 
-```php []
+// ```php []
   /**
      * @param Integer[] $nums
      * @return Integer[][]
@@ -31,5 +31,5 @@
              $visitied[$j]=0;
         }
     }
-```
-Github:[https://github.com/wuqinqiang/leetcode-php](https://github.com/wuqinqiang/leetcode-php)
+// ```
+// Github:[https://github.com/wuqinqiang/leetcode-php](https://github.com/wuqinqiang/leetcode-php)

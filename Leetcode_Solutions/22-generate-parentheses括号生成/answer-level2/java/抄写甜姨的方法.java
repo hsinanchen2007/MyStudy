@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
  
-我感觉甜姨方法最难想的还是  
-        if (right > left) {//右边还有括号  
-基于DFS深度优先搜索
+// 我感觉甜姨方法最难想的还是  
+//         if (right > left) {//右边还有括号  
+// 基于DFS深度优先搜索
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<String> generateParenthesis(int n) {
         List<String> result = new ArrayList<String>();
@@ -45,4 +45,4 @@ class Solution {
 
 
 }
-```
+// ```

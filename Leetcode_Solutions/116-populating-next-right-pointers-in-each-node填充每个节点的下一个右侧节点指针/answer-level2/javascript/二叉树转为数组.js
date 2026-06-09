@@ -1,4 +1,4 @@
-```js
+// ```js
 var connect = function(root) {
     var res = [];
     dfs(root, 0);
@@ -19,4 +19,4 @@ var connect = function(root) {
         dfs(root.right, n+1);
     }
 };
-```
+// ```

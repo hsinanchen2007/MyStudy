@@ -1,5 +1,5 @@
-坐标直接计算
-```
+// 坐标直接计算
+// ```
 func rotate(matrix [][]int)  {
     length := len(matrix) - 1
 	if length == -1 {
@@ -14,6 +14,6 @@ func rotate(matrix [][]int)  {
 		}
 	}
 }
-```
+// ```
 
 

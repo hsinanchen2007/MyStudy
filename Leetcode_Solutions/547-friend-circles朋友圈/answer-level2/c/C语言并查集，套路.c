@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/defb86e95174f368fef389fe01b34de19bce26fcf20928b801dd88776aefa825-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/defb86e95174f368fef389fe01b34de19bce26fcf20928b801dd88776aefa825-image.png)
+// ```
 int UnionFindSetsFind(int *pre, int x) {
     int r = x;
     while (pre[r] != r) {
@@ -44,4 +44,4 @@ int findCircleNum(int** M, int MSize, int* MColSize){
     }
     return rst;
 }
-```
+// ```

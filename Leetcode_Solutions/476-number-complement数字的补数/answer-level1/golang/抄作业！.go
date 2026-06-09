@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findComplement(num int) int {
 	x:= 1
 	for x<=num{
@@ -14,4 +14,4 @@ func findComplement(num int) int {
 	
 	return x-1-num
 }
-```
+// ```

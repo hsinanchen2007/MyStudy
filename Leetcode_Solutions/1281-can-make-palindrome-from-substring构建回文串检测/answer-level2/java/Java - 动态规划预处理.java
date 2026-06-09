@@ -1,5 +1,5 @@
-预处理主串即可解决超时问题
-```java
+// 预处理主串即可解决超时问题
+// ```java
     public List<Boolean> canMakePaliQueries2(String s, int[][] queries) {
         int n = s.length();
         int[][] count = new int[n][26];
@@ -36,6 +36,6 @@
         }
         return res;
     }
-```
+// ```
 
-话说，这就能超过100%的Java代码提交嘛。感觉代码还有优化空间。
+// 话说，这就能超过100%的Java代码提交嘛。感觉代码还有优化空间。

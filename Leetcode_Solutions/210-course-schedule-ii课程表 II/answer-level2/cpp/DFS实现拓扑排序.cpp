@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-和 [课程表 I](https://leetcode-cn.com/problems/course-schedule/) 雷同，只是要记录拓扑排序的结果，同时检测是否有环。
+// 和 [课程表 I](https://leetcode-cn.com/problems/course-schedule/) 雷同，只是要记录拓扑排序的结果，同时检测是否有环。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 private:
     vector<int> visited;
@@ -49,4 +49,4 @@ public:
         return true;
     }
 };
-```
+// ```

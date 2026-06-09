@@ -1,9 +1,9 @@
-### 解题思路
-由于需要先满足first，然后在满足second，有明显先后顺序，要么用队列，要么用状态数记录进度
-这里需要考虑到third == first的特殊情况
-### 代码
+// ### 解题思路
+// 由于需要先满足first，然后在满足second，有明显先后顺序，要么用队列，要么用状态数记录进度
+// 这里需要考虑到third == first的特殊情况
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> findOcurrences(string text, string first, string second) {
@@ -42,4 +42,4 @@ public:
         return res;
     }
 };
-```
+// ```

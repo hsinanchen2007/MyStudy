@@ -1,14 +1,14 @@
-### 解题思路
+// ### 解题思路
 
-    其实就是求deck数组中各个数字出现次数的最大公约数，如果最大公约数不是1，那就返回true，否则就是false。
+//     其实就是求deck数组中各个数字出现次数的最大公约数，如果最大公约数不是1，那就返回true，否则就是false。
     
-    再次吐槽leetcode的题目描述，根本就是再考阅读理解。
+//     再次吐槽leetcode的题目描述，根本就是再考阅读理解。
 
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool hasGroupsSizeX(int* deck, int deckSize)
 {
     int nums[10000+1]={0},Xmax=100000,dmax=0,dmin=100000;
@@ -54,4 +54,4 @@ bool hasGroupsSizeX(int* deck, int deckSize)
 
     return false;
 }
-```
+// ```

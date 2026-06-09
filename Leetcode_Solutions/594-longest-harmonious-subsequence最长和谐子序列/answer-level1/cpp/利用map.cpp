@@ -1,9 +1,9 @@
-### 解题思路
-利用map存储每个数字出现的次数，进而判断
+// ### 解题思路
+// 利用map存储每个数字出现的次数，进而判断
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findLHS(vector<int>& nums) {
@@ -22,4 +22,4 @@ public:
 
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-DP 也能解，时间复杂度为 O(n * k) ,在遇到 10w 量级时会超时。
+// ### 解题思路
+// DP 也能解，时间复杂度为 O(n * k) ,在遇到 10w 量级时会超时。
 
-### 贪心解法
+// ### 贪心解法
 
-```java
+// ```java
 class Solution {
     
     public int maxPerformance(int n, int[] speed, int[] efficiency, int k) {
@@ -29,11 +29,11 @@ class Solution {
         return (int) (ans % MOD);
     }
 }
-```
+// ```
 
-### DP 解法
+// ### DP 解法
 
-```java
+// ```java
 public int maxPerformance(int n, int[] speed, int[] efficiency, int k) {
     // f[i][j] 以第 j 个工程师结尾的里找 i 个速度总和的最大值
     // f[i][j]  = max{ f[i-1][s]} + sp[j]  s>=0 & s <j
@@ -62,4 +62,4 @@ public int maxPerformance(int n, int[] speed, int[] efficiency, int k) {
     
     return (int) (ans % MOD);
 }
-```
+// ```

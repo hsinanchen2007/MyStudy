@@ -1,9 +1,9 @@
-### 解题思路
-此题采用暴力搜索，找到符合条件的所有组合。重点考察点是位操作，hour和minute都是检索二进制1的个数然后求和。注意二维指针申请时要分段malloc
+// ### 解题思路
+// 此题采用暴力搜索，找到符合条件的所有组合。重点考察点是位操作，hour和minute都是检索二进制1的个数然后求和。注意二维指针申请时要分段malloc
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int getBitNum(int d) {
     int i = 0;
 
@@ -55,4 +55,4 @@ char ** readBinaryWatch(int num, int* returnSize) {
 
     return s;
 }
-```
+// ```

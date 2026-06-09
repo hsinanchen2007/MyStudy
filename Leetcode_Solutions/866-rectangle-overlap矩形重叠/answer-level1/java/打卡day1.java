@@ -1,9 +1,9 @@
-### 解题思路
-有四种情况不重叠，返回取反。
+// ### 解题思路
+// 有四种情况不重叠，返回取反。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isRectangleOverlap(int[] rec1, int[] rec2) {
         return !(rec2[1]>=rec1[3]||
@@ -12,4 +12,4 @@ class Solution {
                  rec2[0]>=rec1[2]);
     }
 }
-```
+// ```

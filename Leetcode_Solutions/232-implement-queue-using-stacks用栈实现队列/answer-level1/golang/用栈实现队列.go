@@ -1,9 +1,9 @@
-### 解题思路
-一个栈用于push,另一个栈用于Pop和Peek
+// ### 解题思路
+// 一个栈用于push,另一个栈用于Pop和Peek
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 type MyQueue struct {
 	stack1 []int
@@ -75,4 +75,4 @@ func (queue *MyQueue) Empty() bool {
 
 
 
-```
+// ```

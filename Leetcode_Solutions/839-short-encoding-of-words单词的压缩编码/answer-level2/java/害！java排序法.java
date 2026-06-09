@@ -1,9 +1,9 @@
-### 解题思路
-先用快速排序排序一下，大的单词在前头,然后contain就好
-注意me 和 mean！
-### 代码
+// ### 解题思路
+// 先用快速排序排序一下，大的单词在前头,然后contain就好
+// 注意me 和 mean！
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minimumLengthEncoding(String[] words) {
         StringBuilder res=new StringBuilder("");
@@ -40,4 +40,4 @@ class Solution {
         }
     }
 }
-```
+// ```

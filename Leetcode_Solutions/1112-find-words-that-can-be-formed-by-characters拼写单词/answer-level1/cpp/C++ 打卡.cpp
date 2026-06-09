@@ -1,8 +1,8 @@
-### 解题思路
-map比不上array，惊了
-### 代码
+// ### 解题思路
+// map比不上array，惊了
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int countCharacters(vector<string>& words, string chars) {
@@ -20,4 +20,4 @@ public:
         return answer;
     }
 };
-```
+// ```

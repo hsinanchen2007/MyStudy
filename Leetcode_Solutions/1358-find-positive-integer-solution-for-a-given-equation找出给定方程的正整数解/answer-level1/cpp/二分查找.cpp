@@ -1,8 +1,8 @@
-### 解题思路
-由题意知道答案的范围为【1,1000】且是严格单调的，比如说找出x=1时对应的y值为nowy，那么当x大于1时，对应的y值小于nowy；当x对应的y值小于等于0时，结束循环。
-### 代码
+// ### 解题思路
+// 由题意知道答案的范围为【1,1000】且是严格单调的，比如说找出x=1时对应的y值为nowy，那么当x大于1时，对应的y值小于nowy；当x对应的y值小于等于0时，结束循环。
+// ### 代码
 
-```cpp
+// ```cpp
 /*
  * // This is the custom function interface.
  * // You should not implement it, or speculate about its implementation
@@ -46,4 +46,4 @@ public:
         return ans;
     }
 };
-```
+// ```

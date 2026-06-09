@@ -1,13 +1,13 @@
- ### 区间合并
+//  ### 区间合并
 
-给定 n 个区间 [li,ri] ，要求合并所有有交集的区间
+// 给定 n 个区间 [li,ri] ，要求合并所有有交集的区间
 
-思路：
+// 思路：
 
-1. 按照区间左端点排序
-2. 扫描区间，将有交集区间合并
+// 1. 按照区间左端点排序
+// 2. 扫描区间，将有交集区间合并
 
-```
+// ```
     public int[][] merge(int[][] intervals) {
         if(intervals == null || intervals.length < 2)
 			return intervals;
@@ -31,7 +31,7 @@
 	res.toArray(arr);
 	return arr;
     }
-```
+// ```
 
  
 

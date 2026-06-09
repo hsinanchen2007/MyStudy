@@ -1,9 +1,9 @@
-### 解题思路
-先判断圆心是否在矩形内。如果圆心在矩形外，当圆与矩形相切的情况，圆心会形成一道轨迹，越过该轨迹则重叠。
+// ### 解题思路
+// 先判断圆心是否在矩形内。如果圆心在矩形外，当圆与矩形相切的情况，圆心会形成一道轨迹，越过该轨迹则重叠。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool checkOverlap(int radius, int x_center, int y_center, int x1, int y1, int x2, int y2) {
@@ -28,4 +28,4 @@ public:
 	
 	}
 };
-```
+// ```

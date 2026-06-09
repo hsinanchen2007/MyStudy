@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int jump(int[] nums) {
         if (nums.length == 1) {
@@ -28,4 +28,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

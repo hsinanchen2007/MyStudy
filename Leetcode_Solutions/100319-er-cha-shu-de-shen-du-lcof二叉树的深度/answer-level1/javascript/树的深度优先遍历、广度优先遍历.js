@@ -1,6 +1,6 @@
-先序遍历就是深度优先遍历，层序遍历就是广度优先遍历
-参考大神：[题解](https://leetcode-cn.com/problems/er-cha-shu-de-shen-du-lcof/solution/mian-shi-ti-55-i-er-cha-shu-de-shen-du-xian-xu-bia/)
-```
+// 先序遍历就是深度优先遍历，层序遍历就是广度优先遍历
+// 参考大神：[题解](https://leetcode-cn.com/problems/er-cha-shu-de-shen-du-lcof/solution/mian-shi-ti-55-i-er-cha-shu-de-shen-du-xian-xu-bia/)
+// ```
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -22,4 +22,4 @@ var maxDepth = function(root) {
     }
     return depthorder(root);
 };
-```
+// ```

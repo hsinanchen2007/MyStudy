@@ -1,4 +1,4 @@
-```
+// ```
 int maxDepth(struct TreeNode* root){
     if (root == NULL) {
         return 0;
@@ -8,4 +8,4 @@ int maxDepth(struct TreeNode* root){
     return leftDepth < rightDepth ? rightDepth + 1 : leftDepth + 1;    
 }
 
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-89.17%
+// ### 解题思路
+// 89.17%
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int countCharacters(String[] words, String chars) {
         int [] [] arr = new int[123][2]; //使用一个二维数组记录chars中每一个字母出现的次数，97-122对应a-z。这里避免后面不断减97，牺牲空间换取时间，前97个数组单元无用。
@@ -27,4 +27,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

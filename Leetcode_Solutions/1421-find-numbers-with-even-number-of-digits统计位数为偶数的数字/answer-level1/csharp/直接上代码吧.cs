@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int FindNumbers(int[] nums) {
         int r=0;
@@ -14,4 +14,4 @@ public class Solution {
         return r;
     }
 }
-```
+// ```

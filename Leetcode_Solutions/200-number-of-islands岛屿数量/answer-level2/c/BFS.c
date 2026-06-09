@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 // BFS
 #define MAX_LEN 100000
 #define DIR 4
@@ -83,117 +83,117 @@ int numIslands(char** grid, int gridSize, int* gridColSize) {
     return rst;
 
 }
-```
-//并查集
-#define DIR 2
-int dir[DIR+1] = {-1,0, -1};
-typedef struct {
-    int x;
-    int y;
-}Point;
-typedef struct {
-    Point point;
-    int rank;
-}Node;
+// ```
+// //并查集
+// #define DIR 2
+// int dir[DIR+1] = {-1,0, -1};
+// typedef struct {
+//     int x;
+//     int y;
+// }Point;
+// typedef struct {
+//     Point point;
+//     int rank;
+// }Node;
 
-Node **g_set;
-void FatherPrint(int row,int col) {
-    int i,j;
-    printf("\r\n set \r\n");
-    for(i = 0; i < row; i++) {
-        printf("\r\n");
-        for(j = 0; j< col; j++) {
-            printf("%d,%d,%d  ",g_set[i][j].point.x, g_set[i][j].point.y,g_set[i][j].rank);
-        }
-    }
-    printf(" \r\n");
-}
+// Node **g_set;
+// void FatherPrint(int row,int col) {
+//     int i,j;
+//     printf("\r\n set \r\n");
+//     for(i = 0; i < row; i++) {
+//         printf("\r\n");
+//         for(j = 0; j< col; j++) {
+//             printf("%d,%d,%d  ",g_set[i][j].point.x, g_set[i][j].point.y,g_set[i][j].rank);
+//         }
+//     }
+//     printf(" \r\n");
+// }
 
-void  InitalSet(char** grid, int gridSize, int* gridColSize){
-    int i,j;
-    g_set = calloc(gridSize, sizeof(Node*));
-    for(i = 0; i < gridSize; i++) {
-        g_set[i] = calloc(gridColSize[0],sizeof(Node));
-        for(j = 0; j< gridColSize[0]; j++) {
-            if (grid[i][j] == '1') {
-                g_set[i][j].point.x = i;
-                g_set[i][j].point.y = j;
-                g_set[i][j].rank = 0;
-            }
-        }
-    }
-}
+// void  InitalSet(char** grid, int gridSize, int* gridColSize){
+//     int i,j;
+//     g_set = calloc(gridSize, sizeof(Node*));
+//     for(i = 0; i < gridSize; i++) {
+//         g_set[i] = calloc(gridColSize[0],sizeof(Node));
+//         for(j = 0; j< gridColSize[0]; j++) {
+//             if (grid[i][j] == '1') {
+//                 g_set[i][j].point.x = i;
+//                 g_set[i][j].point.y = j;
+//                 g_set[i][j].rank = 0;
+//             }
+//         }
+//     }
+// }
 
-Point FindFather(Point point) {
-    Point a = point;
-    while(g_set[a.x][a.y].point.x != a.x || g_set[a.x][a.y].point.y != a.y) {
-        g_set[a.x][a.y].point = 
-            g_set[g_set[a.x][a.y].point.x][g_set[a.x][a.y].point.y].point;
-        a = g_set[a.x][a.y].point;
+// Point FindFather(Point point) {
+//     Point a = point;
+//     while(g_set[a.x][a.y].point.x != a.x || g_set[a.x][a.y].point.y != a.y) {
+//         g_set[a.x][a.y].point = 
+//             g_set[g_set[a.x][a.y].point.x][g_set[a.x][a.y].point.y].point;
+//         a = g_set[a.x][a.y].point;
 
-    }
-    return a;
-}
-void Uninon(Point pointold,Point pointnew) {
-    Point afather = FindFather(pointold);
-    Point bfather = FindFather(pointnew);
+//     }
+//     return a;
+// }
+// void Uninon(Point pointold,Point pointnew) {
+//     Point afather = FindFather(pointold);
+//     Point bfather = FindFather(pointnew);
 
-    if(afather.x == bfather.x && afather.y == bfather.y) {
-        return;
-    }
+//     if(afather.x == bfather.x && afather.y == bfather.y) {
+//         return;
+//     }
 
-    if(g_set[afather.x][afather.y].rank > g_set[bfather.x][bfather.y].rank) {
-        g_set[bfather.x][bfather.y].point = afather;
-    } else if (g_set[afather.x][afather.y].rank < g_set[bfather.x][bfather.y].rank) {
-        g_set[afather.x][afather.y].point = bfather;
-    }else {
-        g_set[afather.x][afather.y].point = bfather;
-        g_set[bfather.x][bfather.y].rank++;
-    }
+//     if(g_set[afather.x][afather.y].rank > g_set[bfather.x][bfather.y].rank) {
+//         g_set[bfather.x][bfather.y].point = afather;
+//     } else if (g_set[afather.x][afather.y].rank < g_set[bfather.x][bfather.y].rank) {
+//         g_set[afather.x][afather.y].point = bfather;
+//     }else {
+//         g_set[afather.x][afather.y].point = bfather;
+//         g_set[bfather.x][bfather.y].rank++;
+//     }
     
 
-}
-void PointPro(int i,int j, char** grid, int gridSize, int* gridColSize) {
-    int loop;
-    Point  pointold, pointnew; 
-    for (loop = 0;loop < DIR; loop++) {
-        pointold.x = i;
-        pointold.y = j;
-        pointnew.x = i + dir[loop];
-        pointnew.y = j + dir[loop +1];
-        if(pointnew.x >= 0 && pointnew.y >= 0) {
-            if(grid[pointnew.x][pointnew.y] == '1') {
-                //printf("hou qian %d %d,%d %d\r\n",pointold.x, pointold.y ,pointnew.x, pointnew.y); 
-                Uninon(pointold,pointnew);
-                //FatherPrint(gridSize,gridColSize[0]);    
-            }
-        }
-    }
-}
+// }
+// void PointPro(int i,int j, char** grid, int gridSize, int* gridColSize) {
+//     int loop;
+//     Point  pointold, pointnew; 
+//     for (loop = 0;loop < DIR; loop++) {
+//         pointold.x = i;
+//         pointold.y = j;
+//         pointnew.x = i + dir[loop];
+//         pointnew.y = j + dir[loop +1];
+//         if(pointnew.x >= 0 && pointnew.y >= 0) {
+//             if(grid[pointnew.x][pointnew.y] == '1') {
+//                 //printf("hou qian %d %d,%d %d\r\n",pointold.x, pointold.y ,pointnew.x, pointnew.y); 
+//                 Uninon(pointold,pointnew);
+//                 //FatherPrint(gridSize,gridColSize[0]);    
+//             }
+//         }
+//     }
+// }
 
-int numIslands(char** grid, int gridSize, int* gridColSize) {
-    int rst = 0;
-    int i, j, loop;
+// int numIslands(char** grid, int gridSize, int* gridColSize) {
+//     int rst = 0;
+//     int i, j, loop;
 
-    //1 初始化
-    InitalSet(grid, gridSize, gridColSize);    
+//     //1 初始化
+//     InitalSet(grid, gridSize, gridColSize);    
     
-    //2.合并
-    for(i = 0; i < gridSize; i++) {
-        for(j = 0; j< gridColSize[0]; j++) {
-                if (grid[i][j] == '1') {
-                    PointPro(i, j, grid, gridSize, gridColSize);
-                }
-            }
-    }
-    //3 统计
-    for(i = 0; i < gridSize; i++) {
-        for(j = 0; j< gridColSize[0]; j++) {
-            if(grid[i][j] != '0' && g_set[i][j].point.x == i && g_set[i][j].point.y == j) {
-                rst++;
-            }
-        }
-    }
+//     //2.合并
+//     for(i = 0; i < gridSize; i++) {
+//         for(j = 0; j< gridColSize[0]; j++) {
+//                 if (grid[i][j] == '1') {
+//                     PointPro(i, j, grid, gridSize, gridColSize);
+//                 }
+//             }
+//     }
+//     //3 统计
+//     for(i = 0; i < gridSize; i++) {
+//         for(j = 0; j< gridColSize[0]; j++) {
+//             if(grid[i][j] != '0' && g_set[i][j].point.x == i && g_set[i][j].point.y == j) {
+//                 rst++;
+//             }
+//         }
+//     }
 
-    return rst;
-}
+//     return rst;
+// }

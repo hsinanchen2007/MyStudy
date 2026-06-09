@@ -1,9 +1,9 @@
-### 解题思路
-定义变量regular保存 规律，循环判断当规律改变时返回false
+// ### 解题思路
+// 定义变量regular保存 规律，循环判断当规律改变时返回false
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} A
  * @return {boolean}
@@ -31,4 +31,4 @@ var isMonotonic = function(A) {
   }
   return true
 };
-```
+// ```

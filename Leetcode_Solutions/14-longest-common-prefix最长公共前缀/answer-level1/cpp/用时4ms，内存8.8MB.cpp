@@ -1,8 +1,8 @@
-# 熟练用一些c++的函数做起来会很简单
-比较适合小白理解，代码有注释，很容易看懂的。
+// # 熟练用一些c++的函数做起来会很简单
+// 比较适合小白理解，代码有注释，很容易看懂的。
 
-# c++代码如下：
-```
+// # c++代码如下：
+// ```
 class Solution {
 public:
     string longestCommonPrefix(vector<string>& strs) {
@@ -35,4 +35,4 @@ public:
         return ans;
     }
 };
-```
+// ```

@@ -1,7 +1,7 @@
-使用一个stack
-对于*和/, 直接计算并把结果压回stack
-对于+和-, 统一在最后计算
-```python
+# 使用一个stack
+# 对于*和/, 直接计算并把结果压回stack
+# 对于+和-, 统一在最后计算
+# ```python
 class Solution:
     def calculate(self, s: str) -> int:
         stack = []
@@ -33,4 +33,4 @@ class Solution:
                             else:
                                 res -= stack[i]
                     return res
-```
+# ```

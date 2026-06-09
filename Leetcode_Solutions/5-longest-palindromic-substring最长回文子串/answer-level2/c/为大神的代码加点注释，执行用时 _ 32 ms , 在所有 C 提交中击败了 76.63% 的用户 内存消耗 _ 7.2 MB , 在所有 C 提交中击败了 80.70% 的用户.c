@@ -1,4 +1,4 @@
-```
+// ```
 
 
 char * longestPalindrome(char * s){
@@ -51,5 +51,5 @@ char * longestPalindrome(char * s){
 }
 
 
-```
+// ```
 

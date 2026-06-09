@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-由前序遍历可知preorder数组中第一个数一定是root并弹出，根据root值在inorder所在位置可将inorder划分为左子树、右子树两部分。
-按照相同的思路左右子树的根结点继续在preorder里面查找（队列先进先出）
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 由前序遍历可知preorder数组中第一个数一定是root并弹出，根据root值在inorder所在位置可将inorder划分为左子树、右子树两部分。
+// 按照相同的思路左右子树的根结点继续在preorder里面查找（队列先进先出）
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -29,4 +29,4 @@ var buildTree = function(preorder, inorder) {
     }
     
 };
-```
+// ```

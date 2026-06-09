@@ -1,6 +1,6 @@
 
 
-```golang
+// ```golang
 func verifyPostorder(postorder []int) bool {
     if len(postorder) <2 {
         return true
@@ -21,4 +21,4 @@ func verifyPostorder(postorder []int) bool {
     right := verifyPostorder(postorder[i:len(postorder)-1])
    return left && right
 }
-```
+// ```

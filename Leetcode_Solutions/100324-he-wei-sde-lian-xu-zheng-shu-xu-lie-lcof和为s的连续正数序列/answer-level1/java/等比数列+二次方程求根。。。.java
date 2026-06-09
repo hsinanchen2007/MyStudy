@@ -1,10 +1,10 @@
-执行用时 :14 ms, 在所有 Java 提交中击败了15.32%的用户
-内存消耗 :37.4 MB, 在所有 Java 提交中击败了100.00%的用户
-### 解题思路
-先枚举起始位置的数字，利用二次方程求根式求末尾那个数字。用long是怕数字大了溢出。
-### 代码
+// 执行用时 :14 ms, 在所有 Java 提交中击败了15.32%的用户
+// 内存消耗 :37.4 MB, 在所有 Java 提交中击败了100.00%的用户
+// ### 解题思路
+// 先枚举起始位置的数字，利用二次方程求根式求末尾那个数字。用long是怕数字大了溢出。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] findContinuousSequence(int target) {
 		List<int[]> list = new ArrayList<>();
@@ -34,4 +34,4 @@ class Solution {
 //		return list.toArray(new int[0][]);
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def deleteDuplicates(self, head: ListNode) -> ListNode:
         dummyHead = ListNode(0)
@@ -30,4 +30,4 @@ class Solution:
                 cur = cur.next
         
         return dummyHead.next
-```
+# ```

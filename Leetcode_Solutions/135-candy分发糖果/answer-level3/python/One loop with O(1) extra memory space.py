@@ -1,10 +1,10 @@
-See comments.
+# See comments.
 
-The key here is:
-1. add back/remove extra right line of the hill
-2. add an duplicated last element to unify the process.
+# The key here is:
+# 1. add back/remove extra right line of the hill
+# 2. add an duplicated last element to unify the process.
 
-```python
+# ```python
 class Solution(object):
     def candy(self, ratings):
         """
@@ -64,4 +64,4 @@ class Solution(object):
             #print(str(i) + ':' + str([prev_pos, curr_val]))
         # remove the ending extra one
         return total - 1
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-另开数组合并，空间复杂度O(n+m),时间复杂度O(n+m)
+// ### 解题思路
+// 另开数组合并，空间复杂度O(n+m),时间复杂度O(n+m)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n)
 {
     int total=m+n;
@@ -32,4 +32,4 @@ void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n)
     
     
 }
-```
+// ```

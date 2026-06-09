@@ -1,6 +1,6 @@
-详细的看博客——https://blog.csdn.net/TeFuirnever/article/details/89110423
+# 详细的看博客——https://blog.csdn.net/TeFuirnever/article/details/89110423
 
-```py
+# ```py
 class Solution(object):
     def twoSum(self, nums, target):
         """
@@ -18,4 +18,4 @@ class Solution(object):
                 keys[v] = i
         return None
 
-```
+# ```

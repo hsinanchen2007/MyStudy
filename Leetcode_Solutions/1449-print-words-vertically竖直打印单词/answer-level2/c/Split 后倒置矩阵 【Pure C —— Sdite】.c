@@ -1,4 +1,4 @@
-```c
+// ```c
 #define MAX_SIZE 205
 char g_ch[MAX_SIZE][MAX_SIZE];
 
@@ -57,4 +57,4 @@ char** printVertically(char* s, int* returnSize){
 }
 
 
-```
+// ```

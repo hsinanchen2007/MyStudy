@@ -1,6 +1,6 @@
-跟leetcode第5题特别类似, 区别就是统计个次数
+# 跟leetcode第5题特别类似, 区别就是统计个次数
 
-```
+# ```
 class Solution:
     def countSubstrings(self, s: str) -> int:
         """
@@ -31,4 +31,4 @@ class Solution:
                     dp[start][end] = False
         
         return count
-```
+# ```

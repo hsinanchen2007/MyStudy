@@ -1,14 +1,14 @@
-### 解题思路
-HashMap + 双向链表
-Map中存<key, Node>,注意，这里的value存的是链表的节点对象，为什么要这样存，主要有两个原因：
-* get方法的时候，先通过map获取值，但是还需要将链表对应节点移到末尾，这里存node就可以很方便找到对应链表的节点
-* 容量不足移除链表头结点的时候，还需要去map中移除对应键值对，node节点包含key，去map移除就很方便
+// ### 解题思路
+// HashMap + 双向链表
+// Map中存<key, Node>,注意，这里的value存的是链表的节点对象，为什么要这样存，主要有两个原因：
+// * get方法的时候，先通过map获取值，但是还需要将链表对应节点移到末尾，这里存node就可以很方便找到对应链表的节点
+// * 容量不足移除链表头结点的时候，还需要去map中移除对应键值对，node节点包含key，去map移除就很方便
 
-也就是说<key, node>这里的node是map和链表之间的纽带，方便从map去查询链表，同时也方便链表去map查询对应元素
+// 也就是说<key, node>这里的node是map和链表之间的纽带，方便从map去查询链表，同时也方便链表去map查询对应元素
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 public class LRUCache {
     private Map<Integer, Node> nodeMap;
     private NodeLinkedList nodeList;
@@ -117,4 +117,4 @@ public class LRUCache {
     }
 }
 
-```
+// ```

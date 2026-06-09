@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/10be6c086412bcba9208dbe187e0affd03949a97097345c8098cc059cab1b427-image.png)
+# ![image.png](https://pic.leetcode-cn.com/10be6c086412bcba9208dbe187e0affd03949a97097345c8098cc059cab1b427-image.png)
 
 
-```
+# ```
 '''
 先排序，然后双指针右移
 '''
@@ -25,4 +25,4 @@ class Solution:
             else:
                 j += 1
         return []
-```
+# ```

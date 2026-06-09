@@ -1,9 +1,9 @@
-### 解题思路
-1设置一个步数的，比较所有列的步数是否相等
+// ### 解题思路
+// 1设置一个步数的，比较所有列的步数是否相等
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func longestCommonPrefix(strs []string) string {
 	l := len(strs)
 	if l == 0 {return ""}
@@ -24,4 +24,4 @@ func longestCommonPrefix(strs []string) string {
 	}
 	return ""
 }
-```
+// ```

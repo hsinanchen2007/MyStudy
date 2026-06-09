@@ -1,18 +1,18 @@
-### Analyze
+// ### Analyze
 
-```js
+// ```js
 prev  cur  next
   1 -> 2 -> 6 -> 3 -> 4 -> 5 -> 6
-```
+// ```
 
-思路:
+// 思路:
 
-* 借助指针 prev, cur, next
-  * 若 cur.val 与传入 val 相等, 则让 prev.next 指向 next
+// * 借助指针 prev, cur, next
+//   * 若 cur.val 与传入 val 相等, 则让 prev.next 指向 next
 
-> 如果只用 cur、next 两个指针, 若 next.val 与 传入 val 相等, 则让 cur = next.next 后的 cur.val 与传入的 val 仍然相等, 此时就无法改变移除当前的 cur 了, 因此需要引入第三个指针 prev。
+// > 如果只用 cur、next 两个指针, 若 next.val 与 传入 val 相等, 则让 cur = next.next 后的 cur.val 与传入的 val 仍然相等, 此时就无法改变移除当前的 cur 了, 因此需要引入第三个指针 prev。
 
-```js
+// ```js
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -43,10 +43,10 @@ var removeElements = function(head, val) {
 
   return dummyHead.next
 }
-```
+// ```
 
-### Similar Title
+// ### Similar Title
 
-82, 21
+// 82, 21
 
-> 为确保内容的实时、准确性, 可以查看[JavaScript 题解](https://github.com/MuYunyun/blog/blob/master/BasicSkill/LeetCode/README.md)
+// > 为确保内容的实时、准确性, 可以查看[JavaScript 题解](https://github.com/MuYunyun/blog/blob/master/BasicSkill/LeetCode/README.md)

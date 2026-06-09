@@ -1,9 +1,9 @@
-其实是这位[cieusy](https://leetcode-cn.com/problems/cinema-seat-allocation/solution/cha-zhao-by-cieusy/)大佬做出来的。看到最多上手就是dp，我真魔怔了。额外写个题解是想借此记录下来，不枉我死磕这么久。
-首先，可以确定，没有预约的排会有2个家庭。
-然后，对于有预约的排，判断可以安排几个家庭。 可能会有两种情况：
-1，满足（2，3， 4，5）以及 （6. 7， 8， 9） 可以安排2个家庭
-2，只满足 （2，3， 4，）|（6. 7， 8， 9） | （4， 5， 6， 7），安排一个家庭
-```
+// 其实是这位[cieusy](https://leetcode-cn.com/problems/cinema-seat-allocation/solution/cha-zhao-by-cieusy/)大佬做出来的。看到最多上手就是dp，我真魔怔了。额外写个题解是想借此记录下来，不枉我死磕这么久。
+// 首先，可以确定，没有预约的排会有2个家庭。
+// 然后，对于有预约的排，判断可以安排几个家庭。 可能会有两种情况：
+// 1，满足（2，3， 4，5）以及 （6. 7， 8， 9） 可以安排2个家庭
+// 2，只满足 （2，3， 4，）|（6. 7， 8， 9） | （4， 5， 6， 7），安排一个家庭
+// ```
   public int maxNumberOfFamilies(int count, int[][] reservedSeats) {
         int m = count;
         int n = 10;
@@ -31,5 +31,5 @@
         }
         return cnt + 2 * (m - map.size());
     }
-```
-再次感谢那位老哥，不然今天都不想睡了，至于位运算等我清醒再说吧。
+// ```
+// 再次感谢那位老哥，不然今天都不想睡了，至于位运算等我清醒再说吧。

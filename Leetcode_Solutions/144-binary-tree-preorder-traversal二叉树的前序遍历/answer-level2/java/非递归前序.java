@@ -1,9 +1,9 @@
-### 解题思路 前序排列是利用一个额外的栈结构来存储所有的右结点，
+// ### 解题思路 前序排列是利用一个额外的栈结构来存储所有的右结点，
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -29,4 +29,4 @@ class Solution {
         return list;
     }
 }
-```
+// ```

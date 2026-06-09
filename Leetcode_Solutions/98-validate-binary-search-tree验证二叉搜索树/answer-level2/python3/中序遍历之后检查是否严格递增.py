@@ -1,8 +1,8 @@
-### 解题思路
-通过mirrors算法得到中序遍历列表，然后判断是否严格递增
-### 代码
+# ### 解题思路
+# 通过mirrors算法得到中序遍历列表，然后判断是否严格递增
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -41,4 +41,4 @@ class Solution:
         while p.right and p.right!=root:
             p = p.right
         return p
-```
+# ```

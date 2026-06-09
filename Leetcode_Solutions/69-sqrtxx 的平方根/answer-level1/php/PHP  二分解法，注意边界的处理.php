@@ -1,6 +1,6 @@
-PHP  二分解法，注意边界的处理
+// PHP  二分解法，注意边界的处理
 
-```php
+// ```php
 class Solution
 {
 
@@ -30,4 +30,4 @@ class Solution
         return $l;
     }
 }
-```
+// ```

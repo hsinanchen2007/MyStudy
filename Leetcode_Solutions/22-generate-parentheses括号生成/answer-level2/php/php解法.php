@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 
     private $data = [];
@@ -36,6 +36,6 @@ class Solution {
 
     }
 }
-```
+// ```
 
-解法可以参考：https://leetcode-cn.com/problems/generate-parentheses/solution/hui-su-suan-fa-by-liweiwei1419/
+// 解法可以参考：https://leetcode-cn.com/problems/generate-parentheses/solution/hui-su-suan-fa-by-liweiwei1419/

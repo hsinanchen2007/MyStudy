@@ -1,9 +1,9 @@
-### 解题思路
-每个数只被其最小质因子筛去
+// ### 解题思路
+// 每个数只被其最小质因子筛去
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int countPrimes(int n) {
@@ -29,4 +29,4 @@ public:
         return count;
     }
 };
-```
+// ```

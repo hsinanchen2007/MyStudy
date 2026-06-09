@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-通过二分法，确定左右边界，即最左边与 target 相同的元素的位置和最右边与 target 相同元素的位置。
+// 通过二分法，确定左右边界，即最左边与 target 相同的元素的位置和最右边与 target 相同元素的位置。
 
-参考二分法模板：https://www.liwei.party/2019/06/19/leetcode-solution-new/search-insert-position/
+// 参考二分法模板：https://www.liwei.party/2019/06/19/leetcode-solution-new/search-insert-position/
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] searchRange(int[] nums, int target) {
         // 非递归写法：left, right 指针，采用 2 分思想，获取最左和最右边界
@@ -46,4 +46,4 @@ class Solution {
     return res;
     }
 }
-```
+// ```

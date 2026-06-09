@@ -1,18 +1,18 @@
-### 解题思路
-官方题解还提供了其他的思路，例如 动态规划。
+# ### 解题思路
+# 官方题解还提供了其他的思路，例如 动态规划。
 
 
 
-这一题同 [994. 腐烂的橘子](https://leetcode-cn.com/problems/rotting-oranges/solution/gelthin-dai-xiu-gai-by-gelthin/) 和 [面试题32 - II. 从上到下打印二叉树 II](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof/)
-1. 若不用 for _ in range(len(queue)), 也可以用 new_queue 来新暂存要加入的点，最后用 queue = new_queue, 来保证层次遍历
-2. BFS 根本就不需要写辅助函数。在进队列前就可以判断是否要处理。
+# 这一题同 [994. 腐烂的橘子](https://leetcode-cn.com/problems/rotting-oranges/solution/gelthin-dai-xiu-gai-by-gelthin/) 和 [面试题32 - II. 从上到下打印二叉树 II](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof/)
+# 1. 若不用 for _ in range(len(queue)), 也可以用 new_queue 来新暂存要加入的点，最后用 queue = new_queue, 来保证层次遍历
+# 2. BFS 根本就不需要写辅助函数。在进队列前就可以判断是否要处理。
 
 
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxDistance(self, grid: List[List[int]]) -> int:
         ## 有点像 腐烂的橘子，宽度优先遍历，or DP
@@ -47,4 +47,4 @@ class Solution:
         #     for j in range(n):
         #         res = max(res, result[i][j])
         # return res
-```
+# ```

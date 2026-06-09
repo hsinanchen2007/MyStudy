@@ -1,5 +1,5 @@
-根据回文的定义从中间向两边去寻找，不满足回文条件时推出循环，此时得到的长度就是当前以i为中心的回文的长度。
-```c
+// 根据回文的定义从中间向两边去寻找，不满足回文条件时推出循环，此时得到的长度就是当前以i为中心的回文的长度。
+// ```c
 /*
  * @Description: In User Settings Edit
  * @Author: your name
@@ -58,4 +58,4 @@ char *longestPalindrome(char *s)
     return temp;
 }
 
-```
+// ```

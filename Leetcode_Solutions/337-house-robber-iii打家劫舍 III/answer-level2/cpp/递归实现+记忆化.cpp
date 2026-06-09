@@ -1,8 +1,8 @@
-isSelected表示当前节点（root）是否选用，递归结束的条件是root为nullptr。
-memIsSelected和memIsNotSelected两个map用于储存每一个访问过的节点的计算结果。
-之所以采用两个map来储存结果，是因为需要分储存的节点被选中以及不被选中两种情况。
+// isSelected表示当前节点（root）是否选用，递归结束的条件是root为nullptr。
+// memIsSelected和memIsNotSelected两个map用于储存每一个访问过的节点的计算结果。
+// 之所以采用两个map来储存结果，是因为需要分储存的节点被选中以及不被选中两种情况。
 
-```
+// ```
 class Solution {
 public:
     int robCore(TreeNode* root, int isSelected, unordered_map<TreeNode*, int>& memIsSelected, unordered_map<TreeNode*, int>& memIsNotSelected)
@@ -47,6 +47,6 @@ public:
         return max(robCore(root, 0, memIsSelected, memIsNotSelected), robCore(root, 1, memIsSelected, memIsNotSelected));
     }
 };
-```
+// ```
 
 

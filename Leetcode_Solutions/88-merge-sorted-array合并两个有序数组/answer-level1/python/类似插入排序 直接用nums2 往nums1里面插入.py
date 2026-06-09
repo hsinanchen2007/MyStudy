@@ -1,9 +1,9 @@
-### 解题思路
+# ### 解题思路
 
-类似插入排序 直接用nums2 往nums1里面插入
-### 代码
+# 类似插入排序 直接用nums2 往nums1里面插入
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def merge(self, nums1, m, nums2, n):
         """
@@ -26,4 +26,4 @@ class Solution(object):
                     break
 
     
-```
+# ```

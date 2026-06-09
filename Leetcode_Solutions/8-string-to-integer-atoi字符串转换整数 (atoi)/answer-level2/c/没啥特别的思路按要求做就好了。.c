@@ -1,9 +1,9 @@
-### 解题思路
-没啥特别的思路。
+// ### 解题思路
+// 没啥特别的思路。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 int find1stNonSpace(char *str, int begin) {
     for (int i = begin; i < strlen(str); i++) {
@@ -65,4 +65,4 @@ int myAtoi(char * str){
     int num = convertNum(str, begin, end, sign);
     return num;
 }
-```
+// ```

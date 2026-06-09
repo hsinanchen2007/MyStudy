@@ -1,5 +1,5 @@
-模拟栈
-```cpp
+// 模拟栈
+// ```cpp
 class Solution {
 public:
     bool validateStackSequences(vector<int>& pushed, vector<int>& popped) {
@@ -17,4 +17,4 @@ public:
     }
 };
 
-```
+// ```

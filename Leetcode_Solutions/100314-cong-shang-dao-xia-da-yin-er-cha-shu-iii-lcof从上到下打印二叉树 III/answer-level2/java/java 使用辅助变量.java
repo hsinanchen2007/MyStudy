@@ -1,10 +1,10 @@
-### 解题思路
-设置辅助变量theLayerNumber，表示当前的层数
-在添加时进行判断，如果是偶数则先反转链表再添加。
+// ### 解题思路
+// 设置辅助变量theLayerNumber，表示当前的层数
+// 在添加时进行判断，如果是偶数则先反转链表再添加。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -40,4 +40,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

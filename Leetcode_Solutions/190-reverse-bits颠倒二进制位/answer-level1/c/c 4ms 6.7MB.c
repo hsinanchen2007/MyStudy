@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *整体思路：
@@ -21,4 +21,4 @@ uint32_t reverseBits( uint32_t n ) {
     return tmp;
 
 }
-```
+// ```

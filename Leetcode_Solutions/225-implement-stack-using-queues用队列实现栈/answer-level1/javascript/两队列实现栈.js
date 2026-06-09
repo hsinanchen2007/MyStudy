@@ -1,11 +1,11 @@
-### 解题思路
-假设有qu1和qu2两个队列，只需要保证qu1里面始终只有一个元素即可，往qu1里面push的时候，就将qu1多余的元素就往qu2中放；pop的话，就将qu1中唯一元素取出来，然后，将qu2中元素在qu1中全部走一遍，除最后一个元素，其他元素全部回到qu2中。
+// ### 解题思路
+// 假设有qu1和qu2两个队列，只需要保证qu1里面始终只有一个元素即可，往qu1里面push的时候，就将qu1多余的元素就往qu2中放；pop的话，就将qu1中唯一元素取出来，然后，将qu2中元素在qu1中全部走一遍，除最后一个元素，其他元素全部回到qu2中。
 
-![image.png](https://pic.leetcode-cn.com/1d93354623026adf57e5eacf9e2a89128efede7a5a728acfffb176b308398cd2-image.png)
+// ![image.png](https://pic.leetcode-cn.com/1d93354623026adf57e5eacf9e2a89128efede7a5a728acfffb176b308398cd2-image.png)
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Initialize your data structure here.
  */
@@ -74,4 +74,4 @@ MyStack.prototype.empty = function() {
  * var param_3 = obj.top()
  * var param_4 = obj.empty()
  */
-```
+// ```

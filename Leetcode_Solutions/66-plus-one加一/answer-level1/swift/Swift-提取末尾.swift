@@ -1,5 +1,5 @@
-第一次写题解，请各位多指点、包涵。
-```swift
+// 第一次写题解，请各位多指点、包涵。
+// ```swift
 func plusOne(_ digits: [Int]) -> [Int] {
     /*
      提取末尾加一，如果有进位，前一位加一。
@@ -23,4 +23,4 @@ func plusOne(_ digits: [Int]) -> [Int] {
     } while abortValue % 10 == 0 && newDigits.count > 0
     return newDigits + stack
 }
-```
+// ```

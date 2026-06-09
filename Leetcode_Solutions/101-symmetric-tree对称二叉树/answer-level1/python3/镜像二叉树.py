@@ -1,9 +1,9 @@
-### 解题思路
-由于是镜像二叉树，所以左子树从左往右遍历，右子树从右往左遍历，比较对应的值。
+# ### 解题思路
+# 由于是镜像二叉树，所以左子树从左往右遍历，右子树从右往左遍历，比较对应的值。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -34,4 +34,4 @@ class Solution:
         flag = True
         equal(root.left, root.right)
         return flag
-```
+# ```

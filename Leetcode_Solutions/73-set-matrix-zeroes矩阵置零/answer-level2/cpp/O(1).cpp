@@ -1,5 +1,5 @@
-选择第一个为0的行和列作为存储0的行row和列col,然后置0,但排除选择的行列row, col.最后把选中的row,col置0.
-```
+// 选择第一个为0的行和列作为存储0的行row和列col,然后置0,但排除选择的行列row, col.最后把选中的row,col置0.
+// ```
 // Time 68ms, 89%, Space 11.3MB, 93%
 class Solution {
 public:
@@ -21,4 +21,4 @@ public:
         for(int j=0; j<n; matrix[row][j++]=0);
     }
 };
-```
+// ```

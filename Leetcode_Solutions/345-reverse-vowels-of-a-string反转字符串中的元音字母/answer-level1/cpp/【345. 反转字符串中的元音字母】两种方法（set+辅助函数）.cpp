@@ -1,7 +1,7 @@
-### 思路一：set
+// ### 思路一：set
 
-### 代码
-```c++
+// ### 代码
+// ```c++
 class Solution {
 public:
     string reverseVowels(string s) {
@@ -22,13 +22,13 @@ public:
         return s;
     }
 };
-```
+// ```
 
-### 思路一：辅助函数
+// ### 思路一：辅助函数
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string reverseVowels(string s) {
@@ -51,4 +51,4 @@ public:
         return c == 'a' || c == 'A' || c == 'e' || c == 'E' || c == 'i' || c == 'I' || c == 'o' || c == 'O' || c == 'u' || c == 'U';
     }
 };
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-从头开始遍历，如果是0，则挪到头部，如果是2则挪到尾部，1跳过。一共操作n次
-### 代码
+# ### 解题思路
+# 从头开始遍历，如果是0，则挪到头部，如果是2则挪到尾部，1跳过。一共操作n次
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def sortColors(self, nums: List[int]) -> None:
         """
@@ -29,4 +29,4 @@ class Solution:
         return nums
 
 
-```
+# ```

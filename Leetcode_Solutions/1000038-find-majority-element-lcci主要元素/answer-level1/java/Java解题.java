@@ -1,10 +1,10 @@
-### 解题思路
-![u.PNG](https://pic.leetcode-cn.com/d35c468ae7de15bd882da8506784f86240e6166b1f8f340493581cda1cfdb1d8-u.PNG)
-看代码注释
+// ### 解题思路
+// ![u.PNG](https://pic.leetcode-cn.com/d35c468ae7de15bd882da8506784f86240e6166b1f8f340493581cda1cfdb1d8-u.PNG)
+// 看代码注释
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int majorityElement(int[] nums) {
          int result=-1; //结果先定为-1，下面的代码满足题目条件才会有改变
@@ -31,4 +31,4 @@ class Solution {
 return result;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 双指针：
-设立快慢两个指针，快指针以步长为２遍历，慢指针以步长为１遍历，若无环，则快指针首先到表尾。若快追上慢，表明有环。
+// ### 双指针：
+// 设立快慢两个指针，快指针以步长为２遍历，慢指针以步长为１遍历，若无环，则快指针首先到表尾。若快追上慢，表明有环。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool hasCycle(struct ListNode *head) 
 {
     if(!head || !head->next)
@@ -20,9 +20,9 @@ bool hasCycle(struct ListNode *head)
     }
     return true;
 }
-```
-### 哈希
-```
+// ```
+// ### 哈希
+// ```
 class Solution {
 public:
     bool hasCycle(ListNode *head) {
@@ -39,4 +39,4 @@ public:
         return false;
     }
 };
-```
+// ```

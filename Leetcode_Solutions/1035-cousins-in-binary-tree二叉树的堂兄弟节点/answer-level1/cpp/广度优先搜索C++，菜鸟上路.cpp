@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-一个静态整形变量judge_，一个非静态整形变量judge，出现x或者y时，judge与judge_都加1.当judge中为2时，
-表明是同一个父节点的孩子，当judge不为2,judge_为2时，表明是同一层不同父亲的孩子，即堂兄弟。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 一个静态整形变量judge_，一个非静态整形变量judge，出现x或者y时，judge与judge_都加1.当judge中为2时，
+// 表明是同一个父节点的孩子，当judge不为2,judge_为2时，表明是同一层不同父亲的孩子，即堂兄弟。
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -63,4 +63,4 @@ public:
         return false;
     }
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-辗转相除 + 子串判断
+// 辗转相除 + 子串判断
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} str1
  * @param {string} str2
@@ -26,4 +26,4 @@ var gcdOfStrings = function(str1, str2) {
     }
     return str1.substr(0, m)
 };
-```
+// ```

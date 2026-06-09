@@ -1,8 +1,8 @@
-### 解题思路
-&emsp;&emsp;题解思路写在注释里了
-### 代码
+// ### 解题思路
+// &emsp;&emsp;题解思路写在注释里了
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} num
  * @return {number}
@@ -25,4 +25,4 @@ var translateNum = function(num) {
     }
     return a;
 };
-```
+// ```

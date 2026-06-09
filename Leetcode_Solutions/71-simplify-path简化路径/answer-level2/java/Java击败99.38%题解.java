@@ -1,6 +1,6 @@
-- ![clipboard.png](https://pic.leetcode-cn.com/de3ec62b42edb3c2272b3c029f5530634cb7efc52742252573f75a5d869bd776-clipboard.png)
+// - ![clipboard.png](https://pic.leetcode-cn.com/de3ec62b42edb3c2272b3c029f5530634cb7efc52742252573f75a5d869bd776-clipboard.png)
 
-```
+// ```
 class Solution {
     public String simplifyPath(String path) {
         if (path == null || path.length() == 0) {
@@ -50,4 +50,4 @@ class Solution {
         }
     }
 }
-```
+// ```

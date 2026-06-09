@@ -1,13 +1,13 @@
-### 解题思路
-1.若p和q位于同一条路径，即p==root或q==root，那么公共祖先就是最上面那个，也就是root
-2.若不是，又可以分三种情况
-1)p,q位于root的左边，那么结果就是递归调用root->left,p,q的结果
-2)p,q为于root的右边，参考1
-3)p,q分列两边，那么结果就是root
+// ### 解题思路
+// 1.若p和q位于同一条路径，即p==root或q==root，那么公共祖先就是最上面那个，也就是root
+// 2.若不是，又可以分三种情况
+// 1)p,q位于root的左边，那么结果就是递归调用root->left,p,q的结果
+// 2)p,q为于root的右边，参考1
+// 3)p,q分列两边，那么结果就是root
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -28,4 +28,4 @@ public:
         return left ? left : right;
     }
 };
-```
+// ```

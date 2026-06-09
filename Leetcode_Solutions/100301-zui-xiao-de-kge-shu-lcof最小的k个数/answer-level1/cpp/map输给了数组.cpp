@@ -1,9 +1,9 @@
-### 解题思路
-用map存相应数字的个数，然后查找（因为无序所以效率更低吧）
+// ### 解题思路
+// 用map存相应数字的个数，然后查找（因为无序所以效率更低吧）
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> getLeastNumbers(vector<int>& arr, int k){
@@ -29,4 +29,4 @@ public:
         return target;
     }
 };
-```
+// ```

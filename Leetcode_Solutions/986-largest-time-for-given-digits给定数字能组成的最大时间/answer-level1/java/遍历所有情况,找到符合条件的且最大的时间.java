@@ -1,9 +1,9 @@
-1. **直接暴力解决了,因为一共就只有24种情况.**
-2. **四个数字组成hour和minute两个数,hour要小于24,minute要小于60,**
-3. **把符合条件的里面最大的那个找出来就好.**
-4. **最后输出的时候注意,hour和minute如果是个位数的话,要加一个0,**
-5. **同时用flag来判断是否找到了符合条件的时间,没找到就返回空字符串**
-```java
+// 1. **直接暴力解决了,因为一共就只有24种情况.**
+// 2. **四个数字组成hour和minute两个数,hour要小于24,minute要小于60,**
+// 3. **把符合条件的里面最大的那个找出来就好.**
+// 4. **最后输出的时候注意,hour和minute如果是个位数的话,要加一个0,**
+// 5. **同时用flag来判断是否找到了符合条件的时间,没找到就返回空字符串**
+// ```java
 public String largestTimeFromDigits(int[] A) {
         boolean flag = false;
         int maxHour = 0;
@@ -40,4 +40,4 @@ public String largestTimeFromDigits(int[] A) {
         }
         return "";
     }
-```
+// ```

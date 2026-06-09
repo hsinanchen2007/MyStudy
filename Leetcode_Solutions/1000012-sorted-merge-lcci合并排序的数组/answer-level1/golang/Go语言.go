@@ -1,9 +1,9 @@
-### 解题思路
-双指针就好了
+// ### 解题思路
+// 双指针就好了
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func merge(A []int, m int, B []int, n int)  {
    C :=make([]int,m+n)
 	i:=0
@@ -35,4 +35,4 @@ func merge(A []int, m int, B []int, n int)  {
 	}
 	copy(A,C)
 }
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
-执行用时 :228 ms
-, 在所有 C 提交中击败了5.83%的用户
-内存消耗 :8.7 MB
-, 在所有 C 提交中击败了13.76%的用户
+// ### 解题思路
+// 执行用时 :228 ms
+// , 在所有 C 提交中击败了5.83%的用户
+// 内存消耗 :8.7 MB
+// , 在所有 C 提交中击败了13.76%的用户
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int cmp(const void *a, const void *b) {
     int *m = (int *)a;
     int *n = (int *)b;
@@ -48,4 +48,4 @@ int minEatingSpeed(int* piles, int pilesSize, int H){
     }*/
     return left;
 }
-```
+// ```

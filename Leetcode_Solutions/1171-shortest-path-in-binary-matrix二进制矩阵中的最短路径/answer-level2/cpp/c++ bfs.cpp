@@ -1,10 +1,10 @@
-### 解题思路
-bfs解，用dfs太麻烦
+// ### 解题思路
+// bfs解，用dfs太麻烦
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     struct Node {
@@ -53,4 +53,4 @@ public:
 
 
 };
-```
+// ```

@@ -1,5 +1,5 @@
-简单粗暴的想法：A*B分解为A个B累加，首先想到自下而上常规递归，但是会出现栈溢出问题。
-```
+// 简单粗暴的想法：A*B分解为A个B累加，首先想到自下而上常规递归，但是会出现栈溢出问题。
+// ```
 class Solution {
 public:
     int multiply(int A, int B) {
@@ -10,9 +10,9 @@ public:
        
     }
 };
-```
-换一种打开方式，用由上到下的尾递归，同样栈溢出：
-```
+// ```
+// 换一种打开方式，用由上到下的尾递归，同样栈溢出：
+// ```
 class Solution {
 public:
     int multiply(int A, int B) {
@@ -26,9 +26,9 @@ public:
         return multiply2(A - 1, B , res);
     }
 };
-```
-改进版尾递归，增加判断，用较大的数做累加，减少计算次数，测试通过，```但是如果两个数都很大，难道不应该也会溢出……QAQ？```
-```
+// ```
+// 改进版尾递归，增加判断，用较大的数做累加，减少计算次数，测试通过，```但是如果两个数都很大，难道不应该也会溢出……QAQ？```
+// ```
 class Solution {
 public:
     int multiply(int A, int B) {
@@ -43,9 +43,9 @@ public:
         return multiply2(A - 1, B , res);//递归函数（修改参数，中间值）
     }
 };
-```
+// ```
 
-![捕获.PNG](https://pic.leetcode-cn.com/579dca769605d19b746614a075ea3b23f227405ceaa559609d00aacb83ed4ca7-%E6%8D%95%E8%8E%B7.PNG)
+// ![捕获.PNG](https://pic.leetcode-cn.com/579dca769605d19b746614a075ea3b23f227405ceaa559609d00aacb83ed4ca7-%E6%8D%95%E8%8E%B7.PNG)
 
 
 

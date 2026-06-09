@@ -1,8 +1,8 @@
-### 解题思路
+# ### 解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def addDigits(self, num: int) -> int:
         while num >= 10:
@@ -17,4 +17,4 @@ class Solution:
         
 
 
-```
+# ```

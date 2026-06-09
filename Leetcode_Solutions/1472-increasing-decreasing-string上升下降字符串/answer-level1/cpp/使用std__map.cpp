@@ -1,7 +1,7 @@
-使用了std::map<char, int>，既是O(1)访问，还可以记录个数，也是排序好的
-Complexity: O(n), Space: O(n)
-while loop 里面第一个for使用了iterator遍历，第二个for使用了reverse_iterator反向遍历
-``` C++
+// 使用了std::map<char, int>，既是O(1)访问，还可以记录个数，也是排序好的
+// Complexity: O(n), Space: O(n)
+// while loop 里面第一个for使用了iterator遍历，第二个for使用了reverse_iterator反向遍历
+// ``` C++
 class Solution {
 public:
     string sortString(string s) {
@@ -31,4 +31,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
-## 先把非零元素移到前面，再把后面元素置零
-```cpp
+// ## 先把非零元素移到前面，再把后面元素置零
+// ```cpp
 class Solution {
 public:
     void moveZeroes(vector<int>& nums) {
@@ -12,4 +12,4 @@ public:
         while(no<len) nums[no++] = 0; //把后面元素置零
     }
 };
-```
+// ```

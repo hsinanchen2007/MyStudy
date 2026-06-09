@@ -1,11 +1,11 @@
-大体分两步：
-1. 裁剪窗口，使窗口大小最大为k
-2. 只要新增数据（在队尾）比前面数据大，前面数据都扔掉。如果新增数据比队尾数据小，就添加到队尾。
-根据如下代码可在excel里推演以上思路，如图
-![微信图片_20191107222449.png](https://pic.leetcode-cn.com/c6d25424b5ad5b9783f70ed8fead3627246fb01aca2d72c92bd2b68cfbfce9b3-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20191107222449.png)
+// 大体分两步：
+// 1. 裁剪窗口，使窗口大小最大为k
+// 2. 只要新增数据（在队尾）比前面数据大，前面数据都扔掉。如果新增数据比队尾数据小，就添加到队尾。
+// 根据如下代码可在excel里推演以上思路，如图
+// ![微信图片_20191107222449.png](https://pic.leetcode-cn.com/c6d25424b5ad5b9783f70ed8fead3627246fb01aca2d72c92bd2b68cfbfce9b3-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20191107222449.png)
 
 
-```
+// ```
 public int[] maxSlidingWindow(int[] a, int k) {
 		if (a == null || k <= 0) {
 			return new int[0];
@@ -36,4 +36,4 @@ public int[] maxSlidingWindow(int[] a, int k) {
 		}
 		return r;
 	}
-```
+// ```

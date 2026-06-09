@@ -1,5 +1,5 @@
-用数组，其实和双指针一个概念
-```
+// 用数组，其实和双指针一个概念
+// ```
 class Solution {
 public:
     vector<int> twoSum(vector<int>& numbers, int target) {
@@ -26,4 +26,4 @@ public:
         return re;
     }
 };
-```
+// ```

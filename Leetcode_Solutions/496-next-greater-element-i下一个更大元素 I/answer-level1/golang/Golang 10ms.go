@@ -1,5 +1,5 @@
-瞎写的
-```
+// 瞎写的
+// ```
 func nextGreaterElement(nums1 []int, nums2 []int) []int {
 	Map := make(map[int]int)
 	for i, v := range nums2 {
@@ -17,4 +17,4 @@ func nextGreaterElement(nums1 []int, nums2 []int) []int {
 	}
 	return nums1
 }
-```
+// ```

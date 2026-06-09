@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def generatePalindromes(self, s: str):
         from collections import Counter
@@ -29,4 +29,4 @@ class Solution:
         for i in itertools.permutations(tmp_list,tmp_list.__len__()):
             rs.add(''.join(i)+str_1+''.join(i[::-1]))
         return list(rs)
-```
+# ```

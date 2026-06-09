@@ -1,10 +1,10 @@
-### 解题思路
-- 记忆化搜索
-- 如果当前的反转使得对方无法获得胜利，那么当前获得胜利
+# ### 解题思路
+# - 记忆化搜索
+# - 如果当前的反转使得对方无法获得胜利，那么当前获得胜利
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 from functools import lru_cache
 
 
@@ -17,4 +17,4 @@ class Solution:
                 if not self.canWin(s[:i] + "--" + s[i + 2:]):
                     return True
         return False
-```
+# ```

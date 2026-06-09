@@ -1,9 +1,9 @@
-### 解题思路
-思路就在代码里了
+// ### 解题思路
+// 思路就在代码里了
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
    public int[] maxNumber(int[] nums1, int[] nums2, int k) {
 		ArrayList<int[]> list = new ArrayList<>();
@@ -83,4 +83,4 @@ class Solution {
 		return stack;
 	}
 }
-```
+// ```

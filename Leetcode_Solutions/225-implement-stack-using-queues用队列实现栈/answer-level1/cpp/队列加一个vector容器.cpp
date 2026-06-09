@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MyStack {
 private:
 	deque<int>qe;
@@ -55,5 +55,5 @@ public:
  * int param_3 = obj->top();
  * bool param_4 = obj->empty();
  */
-```
-stack从底往上添加元素，相当于deque把每个元素插到队列前面
+// ```
+// stack从底往上添加元素，相当于deque把每个元素插到队列前面

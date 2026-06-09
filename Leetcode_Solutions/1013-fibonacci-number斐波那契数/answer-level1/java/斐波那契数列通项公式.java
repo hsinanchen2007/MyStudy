@@ -1,4 +1,4 @@
-//斐波那契数列通项公式
+// //斐波那契数列通项公式
 class Solution {
     public int fib(int n) {
         if (n == 0) return 0;

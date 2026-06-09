@@ -1,9 +1,9 @@
-### 解题思路
-不同长度的不重复全排列
+// ### 解题思路
+// 不同长度的不重复全排列
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private int n = 0; // 字符串的长度
     private int m = 0; // 字符串中m个不同的字符
@@ -44,4 +44,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

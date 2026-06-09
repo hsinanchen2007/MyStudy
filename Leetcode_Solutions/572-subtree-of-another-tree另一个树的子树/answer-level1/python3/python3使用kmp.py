@@ -1,9 +1,9 @@
-### 解题思路
-两棵树前序遍历保存下来，kmp比较
+# ### 解题思路
+# 两棵树前序遍历保存下来，kmp比较
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -57,4 +57,4 @@ class Solution:
             else:
                 j = nxt[j]
         return nxt
-```
+# ```

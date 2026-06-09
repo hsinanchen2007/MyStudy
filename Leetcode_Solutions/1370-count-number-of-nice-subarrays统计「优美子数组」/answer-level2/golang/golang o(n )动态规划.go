@@ -1,6 +1,6 @@
 
-每次遇到奇数。记录他前面的偶数个数（从上一个奇数开始的偶数）
-```
+// 每次遇到奇数。记录他前面的偶数个数（从上一个奇数开始的偶数）
+// ```
 func numberOfSubarrays(nums []int, k int) int {
 	dp := make([]int, 0)
 	cnt, ret := 0, 0
@@ -17,4 +17,4 @@ func numberOfSubarrays(nums []int, k int) int {
 	return ret
 }
 
-```
+// ```

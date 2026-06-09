@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
     def maxArea(height: Array[Int]): Int = {
         var left = 0
@@ -16,4 +16,4 @@ object Solution {
         res
     }
 }
-```
+// ```

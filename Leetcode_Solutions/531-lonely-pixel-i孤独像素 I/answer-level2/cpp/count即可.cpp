@@ -1,5 +1,5 @@
-统计行与列中存在‘B’的个数。
-```
+// 统计行与列中存在‘B’的个数。
+// ```
 class Solution {
 public:
     int findLonelyPixel(vector<vector<char>>& picture) {
@@ -31,4 +31,4 @@ public:
         return ans;
     }
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-这个就好比是最佳卖出股票时机一样。当L 和 R 相等的时候就相当于卖点。
-本质就是贪心，一条道走到黑 就是 L和R相等
+// ### 解题思路
+// 这个就好比是最佳卖出股票时机一样。当L 和 R 相等的时候就相当于卖点。
+// 本质就是贪心，一条道走到黑 就是 L和R相等
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int BalancedStringSplit(string s) {
         var maxCount = 0;
@@ -30,4 +30,4 @@ public class Solution {
             return maxCount;
     }
 }
-```
+// ```

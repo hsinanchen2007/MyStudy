@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/a59e60ca0508ca76444f23083442dd8e1e7490b7fe742812f529ad41c71cc3e9-image.png)
+// ![image.png](https://pic.leetcode-cn.com/a59e60ca0508ca76444f23083442dd8e1e7490b7fe742812f529ad41c71cc3e9-image.png)
 
-```
+// ```
     public int maxDistToClosest(int[] seats) {
         int max = 0;
         int cnt = 0;
@@ -40,5 +40,5 @@
         }
         return max;
     }
-```
+// ```
 

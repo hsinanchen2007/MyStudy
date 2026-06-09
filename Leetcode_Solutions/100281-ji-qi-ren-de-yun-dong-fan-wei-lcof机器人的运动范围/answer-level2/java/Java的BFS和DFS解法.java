@@ -1,5 +1,5 @@
-方法一：BFS
-```java
+// 方法一：BFS
+// ```java
 class Solution {
     int[][] dir = {{0,1},{0,-1},{1,0},{-1,0}};
     public int movingCount(int m, int n, int k) {
@@ -36,9 +36,9 @@ class Solution {
         return result;
     }
 }
-```
-方法二：DFS
-```java
+// ```
+// 方法二：DFS
+// ```java
 class Solution {
     boolean[][] record;
     public int movingCount(int m, int n, int k) {
@@ -65,4 +65,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
 
 
-```
+// ```
 class Solution {
 public:
     bool isValid(string s) 
@@ -24,4 +24,4 @@ public:
       return push.empty();//栈空了代表已经匹配完成
     }
 };
-```
+// ```

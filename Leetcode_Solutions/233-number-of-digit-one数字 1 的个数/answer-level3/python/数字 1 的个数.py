@@ -1,6 +1,6 @@
-我们可以将一个数字拆分为最高位和其右边 ，比如 3452，拆成 3 和 452， 最高位 high = 3, last = 452, 数的范围是几千的数字，那么 power = 1000  先看最高位贡献了多少个 1，如果最高位大于1、 那么最高位贡献1000个1，1000~1999  那么剩余位贡献多少个1呢，只要看0-999的个、十、百位贡献了多少个1， 那么 1000~1999，2000~2999， 的个、十、百位贡献的1的个数都是一样的 即high * countDigitOne(power-1)个1  最后还剩下3000-3452这last+1个数字的个、十、百位贡献的1的数量，即countDigitOne(last)
+# 我们可以将一个数字拆分为最高位和其右边 ，比如 3452，拆成 3 和 452， 最高位 high = 3, last = 452, 数的范围是几千的数字，那么 power = 1000  先看最高位贡献了多少个 1，如果最高位大于1、 那么最高位贡献1000个1，1000~1999  那么剩余位贡献多少个1呢，只要看0-999的个、十、百位贡献了多少个1， 那么 1000~1999，2000~2999， 的个、十、百位贡献的1的个数都是一样的 即high * countDigitOne(power-1)个1  最后还剩下3000-3452这last+1个数字的个、十、百位贡献的1的数量，即countDigitOne(last)
 
-```python
+# ```python
 class Solution(object):
     def countDigitOne(self, n):
         """
@@ -15,4 +15,4 @@ class Solution(object):
             return self.countDigitOne(last) + self.countDigitOne(power-1) + last+1
         else:
             return power+high*self.countDigitOne(power-1) + self.countDigitOne(last);
-```
+# ```

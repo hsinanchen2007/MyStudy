@@ -1,7 +1,7 @@
-为防止对已上色的点再次上色，需要记录图片上点的旧颜色；   
-对于新颜色与旧颜色一致的情况(毫无意义。。。)，直接返回image就行；   
-**方法一**：使用队列：
-```
+// 为防止对已上色的点再次上色，需要记录图片上点的旧颜色；   
+// 对于新颜色与旧颜色一致的情况(毫无意义。。。)，直接返回image就行；   
+// **方法一**：使用队列：
+// ```
 class Solution {
     public int[][] floodFill(int[][] image, int sr, int sc, int newColor) {
         if(newColor==image[sr][sc]) return image;
@@ -24,9 +24,9 @@ class Solution {
         return image;
     }
 }
-```
-**方法二**：DFS:
-```
+// ```
+// **方法二**：DFS:
+// ```
 class Solution {
     public int[][] floodFill(int[][] image, int sr, int sc, int newColor) {
         if(image[sr][sc]==newColor) return image;
@@ -44,4 +44,4 @@ class Solution {
         coloring(image,x,y-1,oldColor,newColor);
     }
 }
-```
+// ```

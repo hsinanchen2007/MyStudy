@@ -1,6 +1,6 @@
-最长公共字串，就相当于木桶效应一样，最短的决定结果
+// 最长公共字串，就相当于木桶效应一样，最短的决定结果
 
-```
+// ```
 char * longestCommonPrefix(char ** strs, int strsSize){
     if (strsSize == 0) {
         char *ret = (char *)malloc(1);
@@ -18,4 +18,4 @@ char * longestCommonPrefix(char ** strs, int strsSize){
     strs[0][i-1] = '\0';
     return strs[0];
 }
-```
+// ```

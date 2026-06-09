@@ -1,8 +1,8 @@
-### 解题思路
-方法一：sort排序，再取出前k个；
-### 代码
+// ### 解题思路
+// 方法一：sort排序，再取出前k个；
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> getLeastNumbers(vector<int>& arr, int k) {
@@ -26,11 +26,11 @@ public:
 
     }
 };
-```
-方法二，利用堆，先将arr的k个数存入堆，然后将第k+1个及之后的数注意入堆比较，若比堆中的top(最大元素)小（C++大根堆，弹出最大值，维护的是小的top k），弹出最大值，将这个数入堆，最后就剩下了k个最小的数。
-### 代码
+// ```
+// 方法二，利用堆，先将arr的k个数存入堆，然后将第k+1个及之后的数注意入堆比较，若比堆中的top(最大元素)小（C++大根堆，弹出最大值，维护的是小的top k），弹出最大值，将这个数入堆，最后就剩下了k个最小的数。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> getLeastNumbers(vector<int>& arr, int k) {
@@ -54,4 +54,4 @@ public:
 
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -39,4 +39,4 @@ public:
         return present;
     }
 };
-```如果结点数为空或者结点数为1，直接返回， 先翻转前两个结点，后面的结点采用三个指针pre, p, follow
+// ```如果结点数为空或者结点数为1，直接返回， 先翻转前两个结点，后面的结点采用三个指针pre, p, follow

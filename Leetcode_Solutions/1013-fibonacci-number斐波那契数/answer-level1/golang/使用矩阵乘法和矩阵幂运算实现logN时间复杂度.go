@@ -1,13 +1,13 @@
-目标就是a，b变为b，a+b。
-![fx.png](https://pic.leetcode-cn.com/33061c2b2c76de00b589dfb249636ebd09da4b37c24ac901aa01b5a7ab8e1246-fx.png)
+// 目标就是a，b变为b，a+b。
+// ![fx.png](https://pic.leetcode-cn.com/33061c2b2c76de00b589dfb249636ebd09da4b37c24ac901aa01b5a7ab8e1246-fx.png)
 
-最终的结果用矩阵来表示就是:
-![屏幕快照 2019-07-24 上午10.40.52.png](https://pic.leetcode-cn.com/bcee4dc5118b7428fde42e8c854d485a0e999ee07cd2794770a2f9f6caecf2b5-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-07-24%20%E4%B8%8A%E5%8D%8810.40.52.png)
+// 最终的结果用矩阵来表示就是:
+// ![屏幕快照 2019-07-24 上午10.40.52.png](https://pic.leetcode-cn.com/bcee4dc5118b7428fde42e8c854d485a0e999ee07cd2794770a2f9f6caecf2b5-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-07-24%20%E4%B8%8A%E5%8D%8810.40.52.png)
 
-时间复杂度：O(lgN)
+// 时间复杂度：O(lgN)
 
 
-```
+// ```
 func fib(N int) int {
 	if N == 0 || N == 1 {
 		return N
@@ -43,4 +43,4 @@ func matrix22_mul(x, y [][2]int) [][2]int {
 	temp[1][1] = x[1][0] * y[1][0] + x[1][1] * y[1][1]
 	return temp
 }
-```
+// ```

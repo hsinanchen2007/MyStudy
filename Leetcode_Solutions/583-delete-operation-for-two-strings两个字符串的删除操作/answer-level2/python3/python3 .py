@@ -1,10 +1,10 @@
-### 解题思路
-最长公共子序列
-最后的结果是m+n -2 *maxlen
+# ### 解题思路
+# 最长公共子序列
+# 最后的结果是m+n -2 *maxlen
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minDistance(self, word1: str, word2: str) -> int:
         m=len(word1)
@@ -22,4 +22,4 @@ class Solution:
 
 
 
-```
+# ```

@@ -1,14 +1,14 @@
-执行用时 : 4 ms, 在所有 Java 提交中击败了16.70%的用户
-内存消耗 : 39.5 MB, 在所有 Java 提交中击败了100.00%的用户
+// 执行用时 : 4 ms, 在所有 Java 提交中击败了16.70%的用户
+// 内存消耗 : 39.5 MB, 在所有 Java 提交中击败了100.00%的用户
 
 
-java实现链表反转
+// java实现链表反转
 
-【tmp(null)】->【b(head)】->【a(head.next)】
-while每次循环更新后，a指向的节点与后面的链表断开，跳出循环时连上
+// 【tmp(null)】->【b(head)】->【a(head.next)】
+// while每次循环更新后，a指向的节点与后面的链表断开，跳出循环时连上
 
 
-```
+// ```
 class Solution {
     List<Integer> l = new ArrayList<Integer>();
     public int[] reversePrint(ListNode head) {
@@ -40,4 +40,4 @@ class Solution {
     }
 
 }
-```
+// ```

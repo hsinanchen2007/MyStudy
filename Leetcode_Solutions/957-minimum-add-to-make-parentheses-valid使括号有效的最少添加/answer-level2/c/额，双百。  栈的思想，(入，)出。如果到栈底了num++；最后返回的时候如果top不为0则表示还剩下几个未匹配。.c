@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 int minAddToMakeValid(char * S){
     int iLen = strlen(S);
@@ -26,4 +26,4 @@ int minAddToMakeValid(char * S){
     
     return iAddNum;
 }
-```
+// ```

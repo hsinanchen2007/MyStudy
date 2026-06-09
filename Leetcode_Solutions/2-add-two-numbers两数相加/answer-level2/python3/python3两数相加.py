@@ -1,7 +1,7 @@
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -30,6 +30,6 @@ class Solution:
             f=ListNode(car)
             ptr.next=f
         return ans
-```
+# ```
 
-![image.png](https://pic.leetcode-cn.com/2bee5eb522e1873d4ee859785206e128ac83278092f48af72d6f0121e9a71268-image.png)
+# ![image.png](https://pic.leetcode-cn.com/2bee5eb522e1873d4ee859785206e128ac83278092f48af72d6f0121e9a71268-image.png)

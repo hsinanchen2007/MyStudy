@@ -1,9 +1,9 @@
-### 解题思路
-Flood FILL做法，遇到一个1，用DFS轮番上下左右四个方向夷为平地。然后Count++，简单粗暴。
+// ### 解题思路
+// Flood FILL做法，遇到一个1，用DFS轮番上下左右四个方向夷为平地。然后Count++，简单粗暴。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numIslands(char[][] grid) {
         if (grid == null || grid.length == 0) {
@@ -36,4 +36,4 @@ class Solution {
         dfs(grid, i, j + 1);
     }
 }
-```
+// ```

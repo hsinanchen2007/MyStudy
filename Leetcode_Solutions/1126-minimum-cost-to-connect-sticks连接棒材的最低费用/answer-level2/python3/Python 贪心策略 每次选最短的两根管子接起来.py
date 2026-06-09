@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/b520f6733493ad0717fa0972bdc8157df6168ae21a64fff1f216bffda622c4d1-image.png)
+# ![image.png](https://pic.leetcode-cn.com/b520f6733493ad0717fa0972bdc8157df6168ae21a64fff1f216bffda622c4d1-image.png)
 
 
-```
+# ```
 '''
 贪心策略 每次选最小的两根管子接起来
 '''
@@ -22,4 +22,4 @@ class Solution:
             cost += l1 + l2
             min_heap.put(l1 + l2)
         return cost
-```
+# ```

@@ -1,5 +1,5 @@
-遍历大法
-```
+// 遍历大法
+// ```
 class Solution {
     func generate(_ numRows: Int) -> [[Int]] {
         var result = [[Int]]()
@@ -25,4 +25,4 @@ class Solution {
         return result
     }
 }
-```
+// ```

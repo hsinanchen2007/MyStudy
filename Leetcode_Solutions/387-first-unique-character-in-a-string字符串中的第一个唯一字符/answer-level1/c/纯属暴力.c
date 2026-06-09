@@ -1,9 +1,9 @@
-### 解题思路
-简单直接
+// ### 解题思路
+// 简单直接
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int firstUniqChar(char * s)
 {
     if (s == NULL || strlen(s) == 0) {
@@ -28,4 +28,4 @@ int firstUniqChar(char * s)
     }
     return -1;
 }
-```
+// ```

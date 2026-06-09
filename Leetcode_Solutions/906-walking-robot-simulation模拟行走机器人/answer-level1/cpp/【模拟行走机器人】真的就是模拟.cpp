@@ -1,10 +1,10 @@
-### 思路
-1. 将障碍加入 `set` 
-2. 定义方向数组 `vector<vector<int>> dd`
-3. 根据命令模拟
+// ### 思路
+// 1. 将障碍加入 `set` 
+// 2. 定义方向数组 `vector<vector<int>> dd`
+// 3. 根据命令模拟
 
-### 答题
-```C++ []
+// ### 答题
+// ```C++ []
     int robotSim(vector<int>& commands, vector<vector<int>>& obstacles)
     {
         int ans = 0;
@@ -33,11 +33,11 @@
 
         return ans;
     }
-```
+// ```
   
-使用 `unordered_map` 提升性能
+// 使用 `unordered_map` 提升性能
 
-```C++ []
+// ```C++ []
     int robotSim(vector<int>& commands, vector<vector<int>>& obstacles)
     {
         int ans = 0;
@@ -66,15 +66,15 @@
 
         return ans;
     }
-```
+// ```
 
 
 
-### 致谢
+// ### 致谢
 
-感谢您的观看，希望对您有帮助，欢迎热烈的交流！  
+// 感谢您的观看，希望对您有帮助，欢迎热烈的交流！  
 
-**如果感觉还不错就点个赞吧~**
+// **如果感觉还不错就点个赞吧~**
 
-这是 [我的leetcode](https://github.com/AhJo53589/leetcode-cn) ，帮助我收集整理题目，可以方便的 `visual studio` 调试，欢迎关注，star
+// 这是 [我的leetcode](https://github.com/AhJo53589/leetcode-cn) ，帮助我收集整理题目，可以方便的 `visual studio` 调试，欢迎关注，star
 

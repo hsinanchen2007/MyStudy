@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn solve_n_queens(n: i32) -> Vec<Vec<String>> {
         fn backtrace(board: &mut Vec<Vec<char>>, ans: &mut Vec<Vec<String>>, current_row: usize) {
@@ -53,4 +53,4 @@ impl Solution {
         ans
     }
 }
-```
+// ```

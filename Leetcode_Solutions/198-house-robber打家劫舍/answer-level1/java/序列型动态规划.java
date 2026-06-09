@@ -1,9 +1,9 @@
-### 解题思路
-序列型动态规划
+// ### 解题思路
+// 序列型动态规划
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int rob(int[] nums) {
         if (nums == null || nums.length == 0) {
@@ -26,10 +26,10 @@ class Solution {
         return dp[len - 1];
     }
 }
-```
+// ```
 
-使用滚动数组空间优化：
-```java
+// 使用滚动数组空间优化：
+// ```java
 class Solution {
     public int rob(int[] nums) {
         if (nums == null || nums.length == 0) {
@@ -52,4 +52,4 @@ class Solution {
         return dp[(len - 1) % 2];
     }
 }
-```
+// ```

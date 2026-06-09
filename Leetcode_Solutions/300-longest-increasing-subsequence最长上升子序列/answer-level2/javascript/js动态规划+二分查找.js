@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number[]} nums
  * @return {number}
@@ -34,4 +34,4 @@ function binarySearch(arr, from ,to, target){
     }
     return arr[l] === target ? l : -l
 }
-```
+// ```

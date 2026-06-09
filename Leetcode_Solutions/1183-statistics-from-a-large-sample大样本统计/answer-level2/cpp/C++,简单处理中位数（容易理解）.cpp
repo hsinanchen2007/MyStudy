@@ -1,4 +1,4 @@
-```
+// ```
 typedef long long ll;
 typedef double db;
 class Solution {
@@ -40,4 +40,4 @@ public:
         return ans;
     }
 };
-```
+// ```

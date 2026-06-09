@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def fib(self, N: int) -> int:
         '''
@@ -17,4 +17,4 @@ class Solution:
             dp[i] = dp[i-1]+dp[i-2]
             i+=1
         return dp[N]
-```
+# ```

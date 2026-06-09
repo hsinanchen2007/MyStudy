@@ -1,11 +1,11 @@
-### 解题思路
-憨批解法....
-使用数组中两个给定word首次出现的索引初始化position，再遍历数组，遇到新的word就更新position求差，取最小值差值返回
-感觉一点都不优雅（爆哭
+// ### 解题思路
+// 憨批解法....
+// 使用数组中两个给定word首次出现的索引初始化position，再遍历数组，遇到新的word就更新position求差，取最小值差值返回
+// 感觉一点都不优雅（爆哭
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func findClosest(_ words: [String], _ word1: String, _ word2: String) -> Int {
 
@@ -48,4 +48,4 @@ class Solution {
         return closest
     }
 }
-```
+// ```

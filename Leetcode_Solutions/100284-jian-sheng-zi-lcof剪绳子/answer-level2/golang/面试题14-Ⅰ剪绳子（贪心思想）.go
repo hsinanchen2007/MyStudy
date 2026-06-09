@@ -1,6 +1,6 @@
-学习[@jyd](/u/jyd/)大佬的python3解法的Golang解法
+// 学习[@jyd](/u/jyd/)大佬的python3解法的Golang解法
 
-```
+// ```
 package main
 
 import (
@@ -26,5 +26,5 @@ func main() {
 	n := 10
 	fmt.Println(cuttingRope(n))
 }
-```
+// ```
 

@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/5fc19ae036e25e99585e5f90a674596d8a15b32b20cc9e299827ca6c34a638f0-image.png)
+// ![image.png](https://pic.leetcode-cn.com/5fc19ae036e25e99585e5f90a674596d8a15b32b20cc9e299827ca6c34a638f0-image.png)
 
-```
+// ```
 static auto pre =[] { std::ios::sync_with_stdio(false); cin.tie(nullptr); return nullptr;}();
 class Solution {
 public:
@@ -20,5 +20,5 @@ public:
         return result;
     }
 };
-```
+// ```
 

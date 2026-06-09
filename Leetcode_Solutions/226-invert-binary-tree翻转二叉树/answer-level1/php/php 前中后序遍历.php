@@ -1,4 +1,4 @@
-```
+// ```
 // 替换函数
 function swap(&$i,&$j){
     $tmp = $i;
@@ -29,4 +29,4 @@ function invertTree($root) {
     $this->invertTree($root->left); // $root->left和$root->right已经替换
     return $root;
 }
-```
+// ```

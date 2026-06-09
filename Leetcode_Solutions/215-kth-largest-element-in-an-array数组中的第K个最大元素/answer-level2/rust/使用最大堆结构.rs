@@ -1,8 +1,8 @@
-首先实现一个最大堆结构,然后使用这个最大堆结构找到第k大元素,用 rust 实现最后0ms
+// 首先实现一个最大堆结构,然后使用这个最大堆结构找到第k大元素,用 rust 实现最后0ms
 
 
 
-```rust
+// ```rust
 pub struct MaxHeap<T: std::cmp::Ord> {
 	heap: Vec<T>,
 	size: usize,
@@ -95,4 +95,4 @@ impl Solution {
         *heap.pop_max().unwrap()
     }
 }
-```
+// ```

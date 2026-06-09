@@ -1,9 +1,9 @@
-### 解题思路
-其实就是两种思路:要不使用unordered_map先进行统计次数，然后使用sort排序，得出答案；要不就是使用堆（priprity_queue）来进行排序，得出答案。前者时间复杂度为+O(nlogn),后者为O(nlogk)，后者较优。
-此处撰写解题思路
+// ### 解题思路
+// 其实就是两种思路:要不使用unordered_map先进行统计次数，然后使用sort排序，得出答案；要不就是使用堆（priprity_queue）来进行排序，得出答案。前者时间复杂度为+O(nlogn),后者为O(nlogk)，后者较优。
+// 此处撰写解题思路
 
-### 代码
-```cpp
+// ### 代码
+// ```cpp
 class Solution{
 	public:
 	//方法一
@@ -42,11 +42,11 @@ class Solution{
 
 		return ans;
 	}
-```
+// ```
 
-----
+// ----
 
-```cpp
+// ```cpp
 class Solution {
 public:
 //方法二
@@ -98,4 +98,4 @@ public:
 
     }
 };
-```
+// ```

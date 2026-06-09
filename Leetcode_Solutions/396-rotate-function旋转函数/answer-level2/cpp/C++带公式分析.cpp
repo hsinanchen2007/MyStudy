@@ -1,9 +1,9 @@
-依题意可得
-$f[i] - f[i-1] = \sum^{i != n - i}_{i=0}{A[i]} - (n - 1) \times A[n-i]$
-化简得递推公式
-$f[i] = f[i-1] - n \times A[n-i] + \sum^{n}_{i=0}{A[i]}$
-很明显，先求数组A的和，然后根据公式计算就可以了
-```
+// 依题意可得
+// $f[i] - f[i-1] = \sum^{i != n - i}_{i=0}{A[i]} - (n - 1) \times A[n-i]$
+// 化简得递推公式
+// $f[i] = f[i-1] - n \times A[n-i] + \sum^{n}_{i=0}{A[i]}$
+// 很明显，先求数组A的和，然后根据公式计算就可以了
+// ```
 class Solution {
 public:
     int maxRotateFunction(vector<int> &A) {
@@ -22,4 +22,4 @@ public:
         return res;
     }
 };
-```
+// ```

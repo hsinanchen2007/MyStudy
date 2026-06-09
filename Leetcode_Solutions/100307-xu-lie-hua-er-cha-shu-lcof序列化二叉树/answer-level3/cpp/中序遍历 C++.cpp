@@ -1,4 +1,4 @@
-```
+// ```
 class Codec {
 public:
     // Encodes a tree to a single string.
@@ -46,4 +46,4 @@ public:
         return t[0]; //返回根
     }
 };
-```
+// ```

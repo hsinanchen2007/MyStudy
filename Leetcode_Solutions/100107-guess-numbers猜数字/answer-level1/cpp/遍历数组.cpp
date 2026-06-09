@@ -1,9 +1,9 @@
-### 解题思路
-同时遍历两个数组，依次比较对应元素是否相等，若相等，则猜对次数+1
+// ### 解题思路
+// 同时遍历两个数组，依次比较对应元素是否相等，若相等，则猜对次数+1
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int game(vector<int>& guess, vector<int>& answer) {
@@ -14,4 +14,4 @@ public:
         return rightNum;
     }
 };
-```
+// ```

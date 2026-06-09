@@ -1,4 +1,4 @@
-``` C++
+// ``` C++
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -21,4 +21,4 @@ public:
         return isLeft&&isRight;
     }
 };
-```
+// ```

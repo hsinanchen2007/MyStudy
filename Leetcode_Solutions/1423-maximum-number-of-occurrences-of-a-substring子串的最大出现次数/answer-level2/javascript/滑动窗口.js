@@ -1,10 +1,10 @@
-- maxSize肯定没用 如果最佳结果字符串的长度是minSize+1 那么字符串的长度是minSize也一定是最佳结果
-- 所以字符串长度一定取minSize
-- 通过map以字符串为key 出现次数为value 更新每个字符串出现的次数 得到最终结果 
-- 然后滑动窗口数组 temp 来计算当前长度为minSize的每个字母的个数count
-- 每次向前滑动一格  减去第一个字母 如果当前字母的个数是1  则--count
-- 在最后面添加一个字母  如果当前字母的个数是0  则++count
-```
+// - maxSize肯定没用 如果最佳结果字符串的长度是minSize+1 那么字符串的长度是minSize也一定是最佳结果
+// - 所以字符串长度一定取minSize
+// - 通过map以字符串为key 出现次数为value 更新每个字符串出现的次数 得到最终结果 
+// - 然后滑动窗口数组 temp 来计算当前长度为minSize的每个字母的个数count
+// - 每次向前滑动一格  减去第一个字母 如果当前字母的个数是1  则--count
+// - 在最后面添加一个字母  如果当前字母的个数是0  则++count
+// ```
 var maxFreq = function (s, maxLetters, minSize, maxSize) {
   let max = 0;
   let map = new Map();
@@ -30,4 +30,4 @@ var maxFreq = function (s, maxLetters, minSize, maxSize) {
   }
   return max;
 };
-```
+// ```

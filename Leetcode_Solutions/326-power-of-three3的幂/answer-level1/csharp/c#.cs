@@ -1,4 +1,4 @@
-```
+// ```
 public class Solution {
     public bool IsPowerOfThree(int n) {
         if(n==1||n==3)
@@ -23,4 +23,4 @@ public class Solution {
             }
     }
 }
-```
+// ```

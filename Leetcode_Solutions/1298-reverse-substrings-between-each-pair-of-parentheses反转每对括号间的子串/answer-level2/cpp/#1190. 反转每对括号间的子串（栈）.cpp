@@ -1,5 +1,5 @@
-***Talk is cheap. Show me the code.***
-```
+// ***Talk is cheap. Show me the code.***
+// ```
 string reverseParentheses(string s) {
     string res;
     stack<string> stk;
@@ -17,6 +17,6 @@ string reverseParentheses(string s) {
     }
     return res;
 }
-```
-![1113.png](https://pic.leetcode-cn.com/bb4b5807ffaf9b30f7453a5b69e7d6ab5038610ee8f5672f1ac6dba8853a71dd-1113.png)
+// ```
+// ![1113.png](https://pic.leetcode-cn.com/bb4b5807ffaf9b30f7453a5b69e7d6ab5038610ee8f5672f1ac6dba8853a71dd-1113.png)
 

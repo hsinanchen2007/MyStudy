@@ -1,9 +1,9 @@
-### 解题思路
-找出最大值, 做一次循环移动将最大值移到数组末尾, 然后按照常规方法解决.
+// ### 解题思路
+// 找出最大值, 做一次循环移动将最大值移到数组末尾, 然后按照常规方法解决.
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func nextGreaterElements(nums []int) []int {
 	if len(nums) <= 0 {
 		return nil
@@ -51,4 +51,4 @@ func nextGreaterElements(nums []int) []int {
 
 }
 
-```
+// ```

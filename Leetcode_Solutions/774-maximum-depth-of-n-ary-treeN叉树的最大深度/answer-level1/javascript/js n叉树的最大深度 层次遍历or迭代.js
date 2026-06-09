@@ -1,8 +1,8 @@
-1. 层次遍历求深度
-![image.png](https://pic.leetcode-cn.com/58f6e3b3a941ff477829f8a56fca0f99fe80be5e6398f7685c9f7d6c6b4277ea-image.png)
+// 1. 层次遍历求深度
+// ![image.png](https://pic.leetcode-cn.com/58f6e3b3a941ff477829f8a56fca0f99fe80be5e6398f7685c9f7d6c6b4277ea-image.png)
 
 
-```
+// ```
 /**
  * // Definition for a Node.
  * function Node(val,children) {
@@ -34,13 +34,13 @@ var maxDepth = function(root) {
     }
     return count
 };
-```
+// ```
 
-2. 迭代
-![image.png](https://pic.leetcode-cn.com/0b993de62a3654bf8cbafd496ceb7e2575a0c261fc985113c4532b09d7a3db12-image.png)
+// 2. 迭代
+// ![image.png](https://pic.leetcode-cn.com/0b993de62a3654bf8cbafd496ceb7e2575a0c261fc985113c4532b09d7a3db12-image.png)
 
 
-```
+// ```
 /**
  * // Definition for a Node.
  * function Node(val,children) {
@@ -66,4 +66,4 @@ var maxDepth = function(root) {
     }
     return arr.sort((i, j) => i - j).slice(-1) * 1 + 1
 };
-```
+// ```

@@ -1,40 +1,40 @@
-## 46. 把数字翻译成字符串
+// ## 46. 把数字翻译成字符串
 
-### Information
+// ### Information
 
-* TIME: 2020/02/20
-* LINK: [Click Here](https://leetcode-cn.com/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/)
-* TAG: `DP`
+// * TIME: 2020/02/20
+// * LINK: [Click Here](https://leetcode-cn.com/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/)
+// * TAG: `DP`
 
-### Description
+// ### Description
 
-> 给定一个数字，我们按照如下规则把它翻译为字符串：0 翻译成 “a” ，1 翻译成 “b”，……，11 翻译成 “l”，……，25 翻译成 “z”。一个数字可能有多个翻译。请编程实现一个函数，用来计算一个数字有多少种不同的翻译方法。
+// > 给定一个数字，我们按照如下规则把它翻译为字符串：0 翻译成 “a” ，1 翻译成 “b”，……，11 翻译成 “l”，……，25 翻译成 “z”。一个数字可能有多个翻译。请编程实现一个函数，用来计算一个数字有多少种不同的翻译方法。
 
-### Example
+// ### Example
 
-```text
+// ```text
 输入: 12258
 输出: 5
 解释: 12258有5种不同的翻译，分别是"bccfi", "bwfi", "bczi", "mcfi"和"mzi"
-```
+// ```
 
-### My Answer
+// ### My Answer
 
-> 斐波那契数列变形
->
-> 只存在两种情况，按一个字符翻译和按两个字符翻译，可得状态转移方程
->
-> * `dp[i] = dp[i - 2] + dp[i - 1]`
-> * 长度为`i`的数字翻译结果，看成两种情况，1是第`i`个位单独翻译，此时翻译的方法取决于`dp[i - 1]`
-> * 2是第`i`位和`i - 1`联合翻译，需要判定`(i - 1)(i)`组成的两位数是否**小于等于25**
->   * 如果是，此时的翻译方法取决于`dp[i - 2]`
-> * 综上取和
->
-> **特判**
->
-> 如果`i-1`位是`0`，那第`i`位必须单独翻译，此时结果直接取绝`i - 1`
+// > 斐波那契数列变形
+// >
+// > 只存在两种情况，按一个字符翻译和按两个字符翻译，可得状态转移方程
+// >
+// > * `dp[i] = dp[i - 2] + dp[i - 1]`
+// > * 长度为`i`的数字翻译结果，看成两种情况，1是第`i`个位单独翻译，此时翻译的方法取决于`dp[i - 1]`
+// > * 2是第`i`位和`i - 1`联合翻译，需要判定`(i - 1)(i)`组成的两位数是否**小于等于25**
+// >   * 如果是，此时的翻译方法取决于`dp[i - 2]`
+// > * 综上取和
+// >
+// > **特判**
+// >
+// > 如果`i-1`位是`0`，那第`i`位必须单独翻译，此时结果直接取绝`i - 1`
 
-```java
+// ```java
 class Solution {
     public int translateNum(int num) {
         String strNumber = String.valueOf(num);
@@ -55,13 +55,13 @@ class Solution {
         return dp[strNumber.length()];
     }
 }
-```
+// ```
 
-### Best Answer
+// ### Best Answer
 
-> 空间优化
+// > 空间优化
 
-```java
+// ```java
 class Solution {
     public int translateNum(int num) {
         String strNumber = String.valueOf(num);
@@ -84,23 +84,23 @@ class Solution {
         return ans;
     }
 }
-```
+// ```
 
-### Extend & Reference
+// ### Extend & Reference
 
-> 来源：力扣（LeetCode）
-> 链接：https://leetcode-cn.com
-> 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+// > 来源：力扣（LeetCode）
+// > 链接：https://leetcode-cn.com
+// > 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
-### More
+// ### More
 
-> **更多题解，请访问我的GitHub仓库：[LeetCode 刷题日记](https://github.com/ZhuoZhuoCrayon/my-Nodes/blob/master/Daily/README_2020.md)**
->
-> [无效的图片地址](https://raw.githubusercontent.com/ZhuoZhuoCrayon/my-Nodes/master/Daily/img/mynode.png)
->
-> [**更多笔记**](https://github.com/ZhuoZhuoCrayon/my-Nodes)：**`Vue` `Java SSM 框架` `阿里云服务器` `JavaScript/HTML/CSS`   `数据库` ...**
->
-> **我的GitHub主页 -> [ZhuoZhuoCrayon](https://github.com/ZhuoZhuoCrayon)**
->
-> 共勉~
+// > **更多题解，请访问我的GitHub仓库：[LeetCode 刷题日记](https://github.com/ZhuoZhuoCrayon/my-Nodes/blob/master/Daily/README_2020.md)**
+// >
+// > [无效的图片地址](https://raw.githubusercontent.com/ZhuoZhuoCrayon/my-Nodes/master/Daily/img/mynode.png)
+// >
+// > [**更多笔记**](https://github.com/ZhuoZhuoCrayon/my-Nodes)：**`Vue` `Java SSM 框架` `阿里云服务器` `JavaScript/HTML/CSS`   `数据库` ...**
+// >
+// > **我的GitHub主页 -> [ZhuoZhuoCrayon](https://github.com/ZhuoZhuoCrayon)**
+// >
+// > 共勉~
 

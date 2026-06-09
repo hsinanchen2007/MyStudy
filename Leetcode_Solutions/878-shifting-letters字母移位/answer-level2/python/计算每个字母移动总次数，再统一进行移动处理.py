@@ -1,6 +1,6 @@
-越靠前的字母需要移动次数越多，可以算出每个字母需要移动的总次数，然后再对字母进行统一移动处理。时间复杂度为 $O(n)$。
+# 越靠前的字母需要移动次数越多，可以算出每个字母需要移动的总次数，然后再对字母进行统一移动处理。时间复杂度为 $O(n)$。
 
-```python
+# ```python
 class Solution:
     def shiftingLetters(self, S: str, shifts: List[int]) -> str:
         length = len(shifts)
@@ -23,4 +23,4 @@ class Solution:
             s_list[i] = chr(ord_res)
         
         return "".join(s_list)
-```
+# ```

@@ -1,4 +1,4 @@
-/*数组边界维持比较复杂
+// /*数组边界维持比较复杂
 */
 #define MAXSIZE 3
 struct Node {

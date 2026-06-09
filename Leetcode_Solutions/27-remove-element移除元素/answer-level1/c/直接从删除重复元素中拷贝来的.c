@@ -1,10 +1,10 @@
-### 解题思路
-这个题和之前删除重复元素是一摸一样的思路甚至还更加简单。
-就是循环找出相等的元素然后删掉，结束。
+// ### 解题思路
+// 这个题和之前删除重复元素是一摸一样的思路甚至还更加简单。
+// 就是循环找出相等的元素然后删掉，结束。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int removeElement(int* nums, int numsSize, int val){
     int i,j;
     for(i=0;i<numsSize;++i){
@@ -20,8 +20,8 @@ int removeElement(int* nums, int numsSize, int val){
     }
     return numsSize;
 }
-```
+// ```
 
-###总结
-1、注意numsSize和i的变化要放在循环外面。不能放在循环里面。不然每次j变化的时候j都减受不了。
-2、向着肝帝Knight看齐。
+// ###总结
+// 1、注意numsSize和i的变化要放在循环外面。不能放在循环里面。不然每次j变化的时候j都减受不了。
+// 2、向着肝帝Knight看齐。

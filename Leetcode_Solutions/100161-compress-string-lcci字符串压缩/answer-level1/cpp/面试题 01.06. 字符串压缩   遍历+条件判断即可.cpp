@@ -1,10 +1,10 @@
-### 解题思路
-to_string(count)  数字转字符串
-if(res.size()>=S.size()) return S; 注意有等号
+// ### 解题思路
+// to_string(count)  数字转字符串
+// if(res.size()>=S.size()) return S; 注意有等号
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string compressString(string S) {
@@ -24,4 +24,4 @@ public:
         else return res;
     }
 };
-```
+// ```

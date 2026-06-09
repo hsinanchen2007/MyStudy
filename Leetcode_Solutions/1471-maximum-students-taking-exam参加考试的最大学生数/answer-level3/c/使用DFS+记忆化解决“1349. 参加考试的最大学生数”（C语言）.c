@@ -1,23 +1,23 @@
-### 解题思路
-经典DFS题型，类似八皇后问题，重点在于使用bit映射的memo进行加速，这里给出C语言的解法。
+// ### 解题思路
+// 经典DFS题型，类似八皇后问题，重点在于使用bit映射的memo进行加速，这里给出C语言的解法。
 
-1.建立memo[i][j][p]用于记录在位置[i,j],前一级相关位置pattern为p的记忆表
-![image.png](https://pic.leetcode-cn.com/889a5fa6eb4de78fe99a8d926f3a5eabff0e2ce7a015d72f6f68b2f7ece0af49-image.png)
+// 1.建立memo[i][j][p]用于记录在位置[i,j],前一级相关位置pattern为p的记忆表
+// ![image.png](https://pic.leetcode-cn.com/889a5fa6eb4de78fe99a8d926f3a5eabff0e2ce7a015d72f6f68b2f7ece0af49-image.png)
 
-2.建立flag用于记录访问情况，坏位置设置为2，占用为1，空为0
+// 2.建立flag用于记录访问情况，坏位置设置为2，占用为1，空为0
 
-3.建立helper返回当前flag情况下，访问位置x，y，后面能够坐的最多的学生
+// 3.建立helper返回当前flag情况下，访问位置x，y，后面能够坐的最多的学生
 
-4.建立辅助函数check用于检查当前位置是否合理，建立辅助函数用于获得当前pattern
+// 4.建立辅助函数check用于检查当前位置是否合理，建立辅助函数用于获得当前pattern
 
-5.开始dfs遍历，注意要遍历当前位置坐人和不坐人两种情况
+// 5.开始dfs遍历，注意要遍历当前位置坐人和不坐人两种情况
 
-![image.png](https://pic.leetcode-cn.com/2eb3f6a7aa7d98c9f9addeea804d1b9607943c02e4395d958a53a419f1f3c025-image.png)
+// ![image.png](https://pic.leetcode-cn.com/2eb3f6a7aa7d98c9f9addeea804d1b9607943c02e4395d958a53a419f1f3c025-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <stdlib.h>
 #include <stdio.h>
 #include <stdbool.h>
@@ -147,4 +147,4 @@ int maxStudents(char** seats, int seatsSize, int* seatsColSize){
 
     return ret;
 }
-```
+// ```

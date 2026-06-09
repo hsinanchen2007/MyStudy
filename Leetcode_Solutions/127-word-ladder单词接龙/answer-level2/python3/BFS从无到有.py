@@ -1,8 +1,8 @@
-## 思路:
+# ## 思路:
 
-一看这一题就是`BFS`,
+# 一看这一题就是`BFS`,
 
-```python
+# ```python
 class Solution:
     def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int:
         from collections import deque
@@ -43,11 +43,11 @@ class Solution:
                     queue.appendleft(t)
             res += 1
         return 0
-```
+# ```
 
-但是, 上面才过了`29/40`测试用例,可能是由于每次都要和`wordList`比较是否是差一个单词, 换个其他方法.
+# 但是, 上面才过了`29/40`测试用例,可能是由于每次都要和`wordList`比较是否是差一个单词, 换个其他方法.
 
-```python
+# ```python
 class Solution:
     def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int:
         from collections import deque
@@ -79,11 +79,11 @@ class Solution:
                             queue.appendleft(w)
             res += 1
         return 0
-```
+# ```
 
-上面过了`30/40`(只多过一个),哈哈,还是不行!再优化, 换一个`BFS`框架,
+# 上面过了`30/40`(只多过一个),哈哈,还是不行!再优化, 换一个`BFS`框架,
 
-```python
+# ```python
 class Solution:
     def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int:
         from collections import deque
@@ -112,13 +112,13 @@ class Solution:
             res += 1
             cur = next_time
         return 0
-```
+# ```
 
-终于经过各种操作, 终于可以过了, 但是速度还是太慢
+# 终于经过各种操作, 终于可以过了, 但是速度还是太慢
 
-网上看到一个技巧, 就是`beginWord`和`endWord`一起走, 什么意思呢?就是说`beginWord`找`endWord`,`endWord`找`beginWord`,直接看代码也很好理解的!
+# 网上看到一个技巧, 就是`beginWord`和`endWord`一起走, 什么意思呢?就是说`beginWord`找`endWord`,`endWord`找`beginWord`,直接看代码也很好理解的!
 
-```python [1]
+# ```python [1]
 class Solution:
     def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int:
         if endWord not in wordList:
@@ -143,11 +143,11 @@ class Solution:
                     s.add(w)
             s1 = s
         return 0
-```
+# ```
 
 
 
-```java [1]
+# ```java [1]
 class Solution {
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
         Set<String> wordSet = new HashSet<>(wordList.size());
@@ -185,4 +185,4 @@ class Solution {
         return 0;        
     }
 }
-```
+# ```

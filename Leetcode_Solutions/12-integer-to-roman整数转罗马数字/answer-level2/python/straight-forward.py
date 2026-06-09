@@ -1,9 +1,9 @@
-### 解题思路
-A quit straight-forward solution.
+# ### 解题思路
+# A quit straight-forward solution.
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def intToRoman(self, num: int) -> str:
         d1 = ['', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX']
@@ -20,4 +20,4 @@ class Solution:
             i += 1
 
         return r
-```
+# ```

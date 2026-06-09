@@ -1,16 +1,16 @@
-### 算法分析
-1. 使用单链表节点，使用length记录链表长度,使用head哨兵节点作为头节点的前置节点
-2. 添加节点的时候++length，移除节点的时候--length
-### 复杂度分析
-+ 时间复杂度
-1. get(index)：O(index)
-2. addAtHead(val)：O(1)
-3. addAtTail(val)：O(n)
-4. addAtIndex(index, val)：O(index)
-5. deleteAtIndex(index)：O(index)
-+ 空间复杂度：都是O(1)
-### 源码
-```C++ []
+// ### 算法分析
+// 1. 使用单链表节点，使用length记录链表长度,使用head哨兵节点作为头节点的前置节点
+// 2. 添加节点的时候++length，移除节点的时候--length
+// ### 复杂度分析
+// + 时间复杂度
+// 1. get(index)：O(index)
+// 2. addAtHead(val)：O(1)
+// 3. addAtTail(val)：O(n)
+// 4. addAtIndex(index, val)：O(index)
+// 5. deleteAtIndex(index)：O(index)
+// + 空间复杂度：都是O(1)
+// ### 源码
+// ```C++ []
 struct SinglyNode
 {
     int val;

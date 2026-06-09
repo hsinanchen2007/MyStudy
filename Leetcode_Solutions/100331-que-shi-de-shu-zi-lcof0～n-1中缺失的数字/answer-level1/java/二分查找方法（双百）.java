@@ -1,9 +1,9 @@
-### 解题思路
-解题思路见注释
+// ### 解题思路
+// 解题思路见注释
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int missingNumber(int[] nums) {
         // 暴力解法遍历整个数组
@@ -30,4 +30,4 @@ class Solution {
         return nums.length;
     }
 }
-```
+// ```

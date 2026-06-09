@@ -1,14 +1,14 @@
-### 解题思路
-此处撰写解题思路
-dp[i][j] 表示以第i行，j列的点为正方形右下角的点的正方形的变长；
-dp1[i][j] 表示该点左边1的个数；
-dp2[i][j] 表示该点上边1的个数；
+// ### 解题思路
+// 此处撰写解题思路
+// dp[i][j] 表示以第i行，j列的点为正方形右下角的点的正方形的变长；
+// dp1[i][j] 表示该点左边1的个数；
+// dp2[i][j] 表示该点上边1的个数；
 
-1 matrix[i][j] == '0': dp[i+1][j+1] = 0;
-2 matrix[i][j] == '1': dp[i+1][j+1] = min3(1+dp[i][j], dp1[i+1][j+1], dp2[i+1][j+1]);
-### 代码
+// 1 matrix[i][j] == '0': dp[i+1][j+1] = 0;
+// 2 matrix[i][j] == '1': dp[i+1][j+1] = min3(1+dp[i][j], dp1[i+1][j+1], dp2[i+1][j+1]);
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maximalSquare(vector<vector<char>>& matrix) {
@@ -49,4 +49,4 @@ public:
         return (tmp < c)? tmp: c;
     }
 };
-```
+// ```

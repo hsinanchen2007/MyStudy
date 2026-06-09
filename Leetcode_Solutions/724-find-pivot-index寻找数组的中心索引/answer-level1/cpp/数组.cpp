@@ -1,9 +1,9 @@
-### 解题思路
-sum * 2 + nums[i] == sumALL
+// ### 解题思路
+// sum * 2 + nums[i] == sumALL
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int pivotIndex(vector<int>& nums) {
@@ -26,4 +26,4 @@ public:
 
     }
 };
-```
+// ```

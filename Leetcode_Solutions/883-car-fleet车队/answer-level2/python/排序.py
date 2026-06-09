@@ -1,5 +1,5 @@
-后车到达时间>前车到达时间则形成新的车队，为方便处理，将
-```
+# 后车到达时间>前车到达时间则形成新的车队，为方便处理，将
+# ```
 def carFleet(self, target, position, speed):
     """
     :type target: int
@@ -24,4 +24,4 @@ def carFleet(self, target, position, speed):
             front_arrive_time = behind_arrive_time
 
     return count
-```
+# ```

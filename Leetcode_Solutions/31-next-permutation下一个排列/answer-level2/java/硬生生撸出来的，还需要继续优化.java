@@ -1,9 +1,9 @@
-### 解题思路
-才击败8.29%
+// ### 解题思路
+// 才击败8.29%
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void nextPermutation(int[] nums) {
         Integer a = null;//i
@@ -51,4 +51,4 @@ class Solution {
 		}
     }
 }
-```
+// ```

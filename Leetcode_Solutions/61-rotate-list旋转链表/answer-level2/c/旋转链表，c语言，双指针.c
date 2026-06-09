@@ -1,9 +1,9 @@
-### 解题思路
-先看看链表长度count和k谁大，如果是k大那就只用翻转k%count次。然后双指针，让p先走k次，然后q从头在和p一块往后遍历，两者相差k，当p是链表最后一个非空节点时，q是新链表的表尾，q->next是新链表的表头
+// ### 解题思路
+// 先看看链表长度count和k谁大，如果是k大那就只用翻转k%count次。然后双指针，让p先走k次，然后q从头在和p一块往后遍历，两者相差k，当p是链表最后一个非空节点时，q是新链表的表尾，q->next是新链表的表头
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -43,4 +43,4 @@ struct ListNode* rotateRight(struct ListNode* head, int k){
     q->next = NULL;
     return p;
 }
-```
+// ```

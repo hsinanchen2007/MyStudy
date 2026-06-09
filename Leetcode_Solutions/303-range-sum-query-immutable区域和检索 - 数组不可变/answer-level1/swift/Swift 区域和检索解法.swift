@@ -1,5 +1,5 @@
-### 解法一：暴力解法
-```
+// ### 解法一：暴力解法
+// ```
 private var nums: [Int] = []
 init(_ nums: [Int]) {
     self.nums = nums
@@ -12,11 +12,11 @@ func sumRange(_ i: Int, _ j: Int) -> Int {
     }
     return sum
  }
-```
+// ```
 
-### 解法二：动态规划
+// ### 解法二：动态规划
 
-```swift
+// ```swift
 class NumArray {
 
 
@@ -48,4 +48,4 @@ class NumArray {
  * let obj = NumArray(nums)
  * let ret_1: Int = obj.sumRange(i, j)
  */
-```
+// ```

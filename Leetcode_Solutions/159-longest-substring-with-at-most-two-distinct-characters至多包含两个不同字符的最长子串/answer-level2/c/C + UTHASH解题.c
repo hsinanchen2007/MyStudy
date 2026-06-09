@@ -1,9 +1,9 @@
-### 解题思路
-使用UTHASH+滑动窗口
+// ### 解题思路
+// 使用UTHASH+滑动窗口
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 struct my_struct {
     char ch;
     int count;
@@ -64,4 +64,4 @@ int lengthOfLongestSubstringTwoDistinct(char * s){
     }
     return maxlen;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 func countLetters(S string) int {
 	var (
 		result int
@@ -15,4 +15,4 @@ func countLetters(S string) int {
 	result += (1+p)*p/2
 	return  result
 }
-```
+// ```

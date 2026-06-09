@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int find(vector<int> & f,int x){
@@ -53,4 +53,4 @@ public:
         return -1;
     }
 };
-```
+// ```

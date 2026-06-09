@@ -1,9 +1,9 @@
-### 解题思路
-统计每个单独数字的数量，然后求最大公约数，如果能被len(deck)整除就可以分组
+// ### 解题思路
+// 统计每个单独数字的数量，然后求最大公约数，如果能被len(deck)整除就可以分组
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func hasGroupsSizeX(deck []int) bool {
  if len(deck)==1 {
      return false 
@@ -29,4 +29,4 @@ func gcd(a,b int) int {
 	}
 	return gcd(b, a % b)
 }
-```
+// ```

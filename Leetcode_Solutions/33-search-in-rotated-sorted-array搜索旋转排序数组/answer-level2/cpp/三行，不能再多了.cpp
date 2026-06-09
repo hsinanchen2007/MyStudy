@@ -1,5 +1,5 @@
-有现成的轮子，干嘛不用呢
-```
+// 有现成的轮子，干嘛不用呢
+// ```
 class Solution {
 public:
     int search(vector<int>& nums, int target) {
@@ -8,4 +8,4 @@ public:
         return -1;
     }
 };
-```
+// ```

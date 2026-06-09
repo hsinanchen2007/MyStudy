@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int getKth(int lo, int hi, int k) {
@@ -34,4 +34,4 @@ public:
         return arr[k-1].first;
     }
 };
-```
+// ```

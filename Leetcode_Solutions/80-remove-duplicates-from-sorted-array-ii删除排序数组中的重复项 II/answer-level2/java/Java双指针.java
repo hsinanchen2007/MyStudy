@@ -1,11 +1,11 @@
-### 解题思路
-[26. 删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/solution/javashuang-zhi-zhen-by-reversal/)
+// ### 解题思路
+// [26. 删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/solution/javashuang-zhi-zhen-by-reversal/)
 
-原理与26题一样，增加了使用count来实现每个元素最多出现两次的逻辑。
+// 原理与26题一样，增加了使用count来实现每个元素最多出现两次的逻辑。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int removeDuplicates(int[] nums) {
         if (nums == null || nums.length == 0)
@@ -42,4 +42,4 @@ class Solution {
     }
 }
 
-```
+// ```

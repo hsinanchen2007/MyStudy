@@ -1,4 +1,4 @@
-```
+// ```
 //转为ax=sum；统计a的值以及sum的值
 var solveEquation = function(equation) {
     var x=0,
@@ -48,4 +48,4 @@ var solveEquation = function(equation) {
     }
     return `x=${sum/x}`;
 };
-```
+// ```

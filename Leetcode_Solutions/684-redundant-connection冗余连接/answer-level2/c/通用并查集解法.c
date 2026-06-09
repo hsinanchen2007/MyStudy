@@ -1,9 +1,9 @@
-### 解题思路
-union的时候直接做路径压缩
+// ### 解题思路
+// union的时候直接做路径压缩
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -50,4 +50,4 @@ int *findRedundantConnection(int **edges, int edgesSize, int *edgesColSize, int 
     *returnSize = edgesColSize[0];
     return buf;
 }
-```
+// ```

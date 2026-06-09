@@ -1,9 +1,9 @@
-### 解题思路
-算法参考：[评论区](https://leetcode-cn.com/problems/non-decreasing-array/comments/11955)
+// ### 解题思路
+// 算法参考：[评论区](https://leetcode-cn.com/problems/non-decreasing-array/comments/11955)
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -32,7 +32,7 @@ class Solution {
         return true;
     }
 }
-```
+// ```
 
-### 参考
-[https://leetcode-cn.com/problems/non-decreasing-array/comments/11955](https://leetcode-cn.com/problems/non-decreasing-array/comments/11955)
+// ### 参考
+// [https://leetcode-cn.com/problems/non-decreasing-array/comments/11955](https://leetcode-cn.com/problems/non-decreasing-array/comments/11955)

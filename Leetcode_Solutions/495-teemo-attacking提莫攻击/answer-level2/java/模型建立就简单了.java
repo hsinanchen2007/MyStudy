@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int findPoisonedDuration(int[] timeSeries, int duration) {
         
@@ -22,4 +22,4 @@ class Solution {
         return time+duration;
     }
 }
-```
+// ```

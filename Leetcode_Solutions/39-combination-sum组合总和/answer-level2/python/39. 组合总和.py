@@ -1,10 +1,10 @@
-### 解题思路
-**方法一、动态规划**
-dp[i]中存储的是当目标和为I时的所有情况
-dp[i] = x for x in dp[i-c] + [c] for c in candidates
+# ### 解题思路
+# **方法一、动态规划**
+# dp[i]中存储的是当目标和为I时的所有情况
+# dp[i] = x for x in dp[i-c] + [c] for c in candidates
 
-### 代码
-```python
+# ### 代码
+# ```python
 class Solution(object):
     def combinationSum(self, candidates, target):
         dp = [[] for _ in range(target+1)]
@@ -26,13 +26,13 @@ class Solution(object):
         for i in range(len(ans)):
             ans[i] = list(ans[i])
         return ans
-```
-### 解题思路
-**方法二、回溯算法**
-target[x] = c + all(target[x-c])
+# ```
+# ### 解题思路
+# **方法二、回溯算法**
+# target[x] = c + all(target[x-c])
 
-### 代码
-```python
+# ### 代码
+# ```python
 class Solution:
     def combinationSum(self, candidates,target):
         self.ans = []
@@ -51,5 +51,5 @@ class Solution:
             temp.append(candidates[i])
             self.sumtotal(candidates,res,temp,i)
             temp.pop()
-```
+# ```
 

@@ -1,13 +1,13 @@
-### 解题思路
-    遍历每个元素, 得到每个元素所需的diff, 看这个diff是否存在于这个nums列表中(除自身外)
-    下面用三种方法，一层层优化这题的解法。。。
+# ### 解题思路
+#     遍历每个元素, 得到每个元素所需的diff, 看这个diff是否存在于这个nums列表中(除自身外)
+#     下面用三种方法，一层层优化这题的解法。。。
 
-### 代码
+# ### 代码
 
 
-# 方法一: 暴力遍历
-# 复杂度: O(n^2)
-```python3
+# # 方法一: 暴力遍历
+# # 复杂度: O(n^2)
+# ```python3
 def twoSum(nums, target):
     length = len(nums)
     # i/j 都是位置索引
@@ -18,13 +18,13 @@ def twoSum(nums, target):
             if nums[j] == diff:
                 return [i, j]
             j += 1
-```
-# 执行用时 :6548 ms, 在所有 Python3 提交中击败了5.01%的用户
-# 内存消耗 :14.1 MB, 在所有 Python3 提交中击败了78.11%的用户
+# ```
+# # 执行用时 :6548 ms, 在所有 Python3 提交中击败了5.01%的用户
+# # 内存消耗 :14.1 MB, 在所有 Python3 提交中击败了78.11%的用户
 
-# 方法二: 先排序 + 首尾递进查找
-# 复杂度: O(n*logn+n)
-```python3
+# # 方法二: 先排序 + 首尾递进查找
+# # 复杂度: O(n*logn+n)
+# ```python3
 def twoSum(nums, target):
     sorted_id_lst = sorted(range(len(nums)), key=lambda x: nums[x]) # 记录排序后的位置索引(不会真的对原nums排序)
     left_point = 0 # 记录左边的索引位置
@@ -37,14 +37,14 @@ def twoSum(nums, target):
             left_point += 1
         elif sum > target:
             right_point -= 1
-```
-# 执行用时 :88 ms, 在所有 Python3 提交中击败了49.90%的用户
-# 内存消耗 :14.1 MB, 在所有 Python3 提交中击败了79.03%的用户
+# ```
+# # 执行用时 :88 ms, 在所有 Python3 提交中击败了49.90%的用户
+# # 内存消耗 :14.1 MB, 在所有 Python3 提交中击败了79.03%的用户
 
 
-# 方法三: 哈希表
-# 复杂度: O(n)
-```python3
+# # 方法三: 哈希表
+# # 复杂度: O(n)
+# ```python3
 def twoSum(nums, target):
     hashmap = {}
     for i, value in enumerate(nums):
@@ -52,6 +52,6 @@ def twoSum(nums, target):
         if diff in hashmap:
             return [hashmap.get(diff), i] # i应该放在后面的位置
         hashmap[value] = i # 如果hashmap中没有diff值, 则把value作为键/位置索引作为值赋给hashmap(注意位置别颠倒)
-```
-# 执行用时 :48 ms, 在所有 Python3 提交中击败了95.98%的用户
-# 内存消耗 :14.1 MB, 在所有 Python3 提交中击败了78.64%的用户
+# ```
+# # 执行用时 :48 ms, 在所有 Python3 提交中击败了95.98%的用户
+# # 内存消耗 :14.1 MB, 在所有 Python3 提交中击败了78.64%的用户

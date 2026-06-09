@@ -1,6 +1,6 @@
-我自己想了一个比较嗨的想法，采用哈希桶的实现。
+// 我自己想了一个比较嗨的想法，采用哈希桶的实现。
 
-```
+// ```
 if (s==null||s.length()<=1)return s;
         int mod=numRows>2?numRows*2-2:numRows;  //规律，如果小于2的情况，则不需要考虑中间位置的字符//如果是需要考虑，这可以找出规律
         StringBuilder[] builders=new StringBuilder[numRows];
@@ -17,4 +17,4 @@ if (s==null||s.length()<=1)return s;
                if(builder[i]!=null)
                     res.append(builders[i]);
         return res.toString();
-```
+// ```

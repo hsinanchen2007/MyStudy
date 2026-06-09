@@ -1,14 +1,14 @@
-### 解题思路
+// ### 解题思路
 
-大家好，我是 17
+// 大家好，我是 17
 
-这道题的关键在于转换思路。 `（A[i] + A[j] + i - j）`看成 `（A[i] + i, A[j] - j）`
+// 这道题的关键在于转换思路。 `（A[i] + A[j] + i - j）`看成 `（A[i] + i, A[j] - j）`
 
-暴力法也是可以通过的，但时间复杂度是 O(n2) 
+// 暴力法也是可以通过的，但时间复杂度是 O(n2) 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} A
  * @return {number}
@@ -23,4 +23,4 @@ var maxScoreSightseeingPair = function (A) {
   }
   return max
 };
-```
+// ```

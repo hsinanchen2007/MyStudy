@@ -1,13 +1,13 @@
-### 解题思路
-这道题可谓是今年刷题卡我最久的一道题，思路很简单，dfs+hash.
-但是这道题目卡了我很久，我一直不明白我，我看有人pass的代码和我思路几乎一模一样
-除了我使用二维数组作为hash table，题解使用原本数组作为hash table
-后来一步步排查终于发现，在于下面代码的注释部分，题解使用了if中多个||，而我把各种情况都调用函数，然后||起来
-相对于我的方法，题解的方法就是剪枝，因为只要一个条件满足，就可以返回了！
-题解链接https://leetcode-cn.com/problems/word-search/solution/hui-su-suan-fa-dai-ma-jian-ji-yi-dong-by-geekwade/
+// ### 解题思路
+// 这道题可谓是今年刷题卡我最久的一道题，思路很简单，dfs+hash.
+// 但是这道题目卡了我很久，我一直不明白我，我看有人pass的代码和我思路几乎一模一样
+// 除了我使用二维数组作为hash table，题解使用原本数组作为hash table
+// 后来一步步排查终于发现，在于下面代码的注释部分，题解使用了if中多个||，而我把各种情况都调用函数，然后||起来
+// 相对于我的方法，题解的方法就是剪枝，因为只要一个条件满足，就可以返回了！
+// 题解链接https://leetcode-cn.com/problems/word-search/solution/hui-su-suan-fa-dai-ma-jian-ji-yi-dong-by-geekwade/
 
-### 超时代码
-```cpp
+// ### 超时代码
+// ```cpp
 class Solution {
 public:
     bool exist(vector<vector<char>>& board, string word) {
@@ -45,11 +45,11 @@ public:
         }
     }
 };
-```
+// ```
 
-### PASS代码
+// ### PASS代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool exist(vector<vector<char>>& board, string word) {
@@ -91,8 +91,8 @@ private:
     }
 };
 
-```
+// ```
 
-### 结果
-执行用时 : 24 ms , 在所有 C++ 提交中击败了 85.78% 的用户 
-内存消耗 : 7.9 MB , 在所有 C++ 提交中击败了 100.00% 的用户
+// ### 结果
+// 执行用时 : 24 ms , 在所有 C++ 提交中击败了 85.78% 的用户 
+// 内存消耗 : 7.9 MB , 在所有 C++ 提交中击败了 100.00% 的用户

@@ -1,5 +1,5 @@
-迭代器
-```python []
+# 迭代器
+# ```python []
 from itertools import cycle, count
 class Solution:
     def distributeCandies(self, c: int, n: int) -> List[int]:
@@ -10,4 +10,4 @@ class Solution:
                 return a
             a[i] += j
             c -= j
-```
+# ```

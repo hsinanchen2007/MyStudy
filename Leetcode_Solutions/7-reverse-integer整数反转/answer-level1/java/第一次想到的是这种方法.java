@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int reverse(int x) {
         boolean flag = true;
@@ -22,4 +22,4 @@ class Solution {
         return (int)Long.parseLong(b)==Long.parseLong(b)?(int)Long.parseLong(b):0;
     }
 }
-```
+// ```

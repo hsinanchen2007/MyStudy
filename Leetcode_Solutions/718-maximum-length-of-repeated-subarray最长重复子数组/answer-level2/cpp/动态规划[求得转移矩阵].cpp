@@ -1,11 +1,11 @@
-### 解题思路
-1、定义dp[i][j] 为A index = i  B index = j 结尾的对应最大公共长度。
-2、求取其中的最大值；
-3、返回
+// ### 解题思路
+// 1、定义dp[i][j] 为A index = i  B index = j 结尾的对应最大公共长度。
+// 2、求取其中的最大值；
+// 3、返回
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findLength(vector<int>& A, vector<int>& B) {
@@ -25,4 +25,4 @@ public:
         return maxCount;
     }
 };
-```
+// ```

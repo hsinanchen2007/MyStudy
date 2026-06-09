@@ -1,9 +1,9 @@
-### 解题思路
-遍历二叉树
+// ### 解题思路
+// 遍历二叉树
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -30,4 +30,4 @@ func treeNodeVal(root *TreeNode, nodeVal int, sum *int) {
 	treeNodeVal(root.Left, nodeVal, sum)
 	treeNodeVal(root.Right, nodeVal, sum)
 }
-```
+// ```

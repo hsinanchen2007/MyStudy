@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def cuttingRope(self, n):
         """
@@ -27,4 +27,4 @@ class Solution(object):
                     result = temp
                 max_value[i] = result
         return max_value[n] % 1000000007
-```
+# ```

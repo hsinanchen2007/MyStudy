@@ -1,10 +1,10 @@
-### 解题思路
-其实就是遍历问题，在遍历的时候我们可以知道，每一个数 matrix[i][j] 是由它的 matrix[i-1][j] 、 matrix[i][j-1] 和 matrix[i-1]][j-1] 决定的，其实挺好想的，顺便在遍历的时候计数，应该还有更好的办法。
-![image.png](https://pic.leetcode-cn.com/aa777fca4914cac183be25f44acc1067ac2460a3195ad332c00d8c2bbf91fc9c-image.png)
+// ### 解题思路
+// 其实就是遍历问题，在遍历的时候我们可以知道，每一个数 matrix[i][j] 是由它的 matrix[i-1][j] 、 matrix[i][j-1] 和 matrix[i-1]][j-1] 决定的，其实挺好想的，顺便在遍历的时候计数，应该还有更好的办法。
+// ![image.png](https://pic.leetcode-cn.com/aa777fca4914cac183be25f44acc1067ac2460a3195ad332c00d8c2bbf91fc9c-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int countSquares(int[][] matrix) {
         int m = matrix.length ;
@@ -36,4 +36,4 @@ class Solution {
     }
     
 }
-```
+// ```

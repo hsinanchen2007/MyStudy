@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def invertTree(self, root: TreeNode) -> TreeNode:
         if root == None:
@@ -19,9 +19,9 @@ class Solution:
                 if node.right:
                     stack.append(node.right)
         return root
-```
-不多说了，一看就懂，用栈模拟递归。
-![image.png](https://pic.leetcode-cn.com/89bf1f30982481a2bdf9ca9b07cdc6fdabab188078905c9c5152e83b846a7c24-image.png)
+# ```
+# 不多说了，一看就懂，用栈模拟递归。
+# ![image.png](https://pic.leetcode-cn.com/89bf1f30982481a2bdf9ca9b07cdc6fdabab188078905c9c5152e83b846a7c24-image.png)
 
 
 

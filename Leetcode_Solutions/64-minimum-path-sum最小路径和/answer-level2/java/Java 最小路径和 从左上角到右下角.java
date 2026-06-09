@@ -1,11 +1,11 @@
-### 解题思路
-直接根据上和左节点的最小路径和，加上当前节点的值即可：
-dp[i][j] = Math.min(dp[i - 1][j], dp[i][j - 1]) + grid[i][j];
-注意：需要初始化第一行和第一列的结果
+// ### 解题思路
+// 直接根据上和左节点的最小路径和，加上当前节点的值即可：
+// dp[i][j] = Math.min(dp[i - 1][j], dp[i][j - 1]) + grid[i][j];
+// 注意：需要初始化第一行和第一列的结果
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minPathSum(int[][] grid) {
         if (grid == null || grid.length == 0) {
@@ -35,4 +35,4 @@ class Solution {
         return dp[rows - 1][cols - 1];
     }
 }
-```
+// ```

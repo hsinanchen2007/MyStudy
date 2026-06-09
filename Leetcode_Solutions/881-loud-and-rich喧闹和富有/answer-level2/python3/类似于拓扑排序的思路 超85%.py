@@ -1,4 +1,4 @@
-```python
+# ```python
 from collections import defaultdict,deque
 class Solution:
     def loudAndRich(self, richer: List[List[int]], quiet: List[int]) -> List[int]:
@@ -36,4 +36,4 @@ class Solution:
                 #print(answer)
         #print(answer)
         return [answer[i] for i in range(n)]
-```
+# ```

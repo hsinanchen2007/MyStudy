@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public double[] twoSum(int n) {
         double[][] arr=new double[n+1][6*n+1];
@@ -27,4 +27,4 @@ class Solution {
         return f;
     }
 }
-```
+// ```

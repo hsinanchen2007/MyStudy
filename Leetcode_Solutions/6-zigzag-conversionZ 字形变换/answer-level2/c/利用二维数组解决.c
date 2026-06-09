@@ -1,40 +1,40 @@
-### 解题思路
-找到一个解题思路近似的，但由于我水平不够，写出来的代码本地运行没问题，在平台上运行显示超时，在此附上我的代码，日后再来修改。
-char *convert(char * s, int numRows){
-	int i,j=0,len=strlen(s),c=0;
-	char *ret;
-    char m[numRows][10];
-	ret=malloc(sizeof(char)*len);
-    while(c<len){
-        if(i==0){
-            for(i=0;i<numRows&&c<len;i++){
-                  m[i][j]=s[c];
-                  c++;
-           }
-           j++;
-        }
-        if(i==numRows){
-            for(i=numRows-2;i>0&&c<len;i--){
-                m[i][j]=s[c];
-                c++;
-            }
-            j++;
-        }
-    }
-    int a=0;
-    for(j=0;j<numRows;j++)
-    	for(i=0;i<10;i++){
-    		if(m[j][i]>=65&&m[j][i]<=90&&a<len){
-    			ret[a]=m[j][i];
-    			a++;
-			}	
-    	}
-    	ret[len]='\0';
-		return ret;
-}
-### 代码
+// ### 解题思路
+// 找到一个解题思路近似的，但由于我水平不够，写出来的代码本地运行没问题，在平台上运行显示超时，在此附上我的代码，日后再来修改。
+// char *convert(char * s, int numRows){
+// 	int i,j=0,len=strlen(s),c=0;
+// 	char *ret;
+//     char m[numRows][10];
+// 	ret=malloc(sizeof(char)*len);
+//     while(c<len){
+//         if(i==0){
+//             for(i=0;i<numRows&&c<len;i++){
+//                   m[i][j]=s[c];
+//                   c++;
+//            }
+//            j++;
+//         }
+//         if(i==numRows){
+//             for(i=numRows-2;i>0&&c<len;i--){
+//                 m[i][j]=s[c];
+//                 c++;
+//             }
+//             j++;
+//         }
+//     }
+//     int a=0;
+//     for(j=0;j<numRows;j++)
+//     	for(i=0;i<10;i++){
+//     		if(m[j][i]>=65&&m[j][i]<=90&&a<len){
+//     			ret[a]=m[j][i];
+//     			a++;
+// 			}	
+//     	}
+//     	ret[len]='\0';
+// 		return ret;
+// }
+// ### 代码
 
-```c
+// ```c
 char *convert(char *s, int numRows)
 {
     int len = strlen(s);
@@ -85,4 +85,4 @@ char *convert(char *s, int numRows)
 // 链接：https://leetcode-cn.com/problems/zigzag-conversion/solution/cyu-yan-li-yong-er-wei-shu-zu-lai-zhuan-bian-fang-/
 // 来源：力扣（LeetCode）
 // 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
-```
+// ```

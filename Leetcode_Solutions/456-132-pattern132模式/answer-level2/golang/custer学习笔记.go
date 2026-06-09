@@ -1,8 +1,8 @@
-自己构造栈来实现：
+// 自己构造栈来实现：
 
-参考学习
+// 参考学习
 
-```go
+// ```go
 // 栈的结构体
 type ArrayStack struct {
 	items []int // 栈的元素-数据
@@ -84,4 +84,4 @@ func find132pattern(nums []int) bool {
 	}
 	return false
 }
-```
+// ```

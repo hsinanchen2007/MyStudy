@@ -1,9 +1,9 @@
-### 解题思路
-php内置方程
+// ### 解题思路
+// php内置方程
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -15,4 +15,4 @@ class Solution {
         return count($nums) != count($uni);
     }
 }
-```
+// ```

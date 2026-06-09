@@ -1,18 +1,18 @@
-![image.png](https://pic.leetcode-cn.com/a289c9435403494923f2ede4b10f73f199ad7c09e4c75bc5c78d2b0dce481c52-image.png)
+// ![image.png](https://pic.leetcode-cn.com/a289c9435403494923f2ede4b10f73f199ad7c09e4c75bc5c78d2b0dce481c52-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
 二分查找，再次优化时间 => O(logN)
 思路：
 1.先用二分法找到等于x或者最接近x的数
 2.那么答案一定在 arr[n - k - 1] - arr[n + k + 1] 之间。
   对这个区间从两侧向中间删除 m 个数，使留下的元素个数为 k 即可
   要注意 arr[n - k - 1] - arr[n + k + 1] 的越界问题
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} arr
  * @param {number} k
@@ -73,4 +73,4 @@ var findClosestElements = function(arr, k, x) {
   
 //   return arr.slice(left, right + 1);
 // }
-```
+// ```

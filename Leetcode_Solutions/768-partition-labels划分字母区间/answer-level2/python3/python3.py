@@ -1,5 +1,5 @@
 
-```
+# ```
 class Solution:
     result = []
     def partitionLabels(self, S: str) -> List[int]:
@@ -22,4 +22,4 @@ class Solution:
                 find_list(self, s[out_id+1:])
         find_list(self, S)
         return self.result
-```
+# ```

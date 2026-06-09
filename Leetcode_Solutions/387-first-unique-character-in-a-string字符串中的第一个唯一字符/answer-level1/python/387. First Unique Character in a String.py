@@ -1,5 +1,5 @@
-1. Create HashTable
-```
+# 1. Create HashTable
+# ```
 class Solution(object):
     def firstUniqChar(self, s):
         """
@@ -19,4 +19,4 @@ class Solution(object):
             if _hashTable.get(_d) == 1:
                 return i
         return -1
-```
+# ```

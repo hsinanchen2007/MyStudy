@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public boolean isPerfectSquare(int num) {
         //解法一：暴力循环
@@ -34,4 +34,4 @@ class Solution {
         return i * i == num;
     }
 }
-```
+// ```

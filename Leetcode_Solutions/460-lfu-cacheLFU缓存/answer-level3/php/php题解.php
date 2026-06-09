@@ -1,10 +1,10 @@
 
-![image.png](https://pic.leetcode-cn.com/6076c1a5f3d6c153980134ffb9a4d40c7ed4304fafa517e9b07eea483ff52ce3-image.png)
+// ![image.png](https://pic.leetcode-cn.com/6076c1a5f3d6c153980134ffb9a4d40c7ed4304fafa517e9b07eea483ff52ce3-image.png)
 
-代码比较烂
+// 代码比较烂
 
 
-```
+// ```
 
 class LFUCache {
     //记录一共插入了多少个key
@@ -90,4 +90,4 @@ class LFUCache {
 
 }
 
-```
+// ```

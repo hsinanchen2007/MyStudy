@@ -1,15 +1,15 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/244bee3f08f299ed0a63e2c72111b891b20e35defe9c804af479d64dab4e131a-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/244bee3f08f299ed0a63e2c72111b891b20e35defe9c804af479d64dab4e131a-image.png)
 
-判断是否平衡二叉树转化为
-1.空树
-2.左右子树深度差<=1
-3.所有子树的左右子树深度差<=1
+// 判断是否平衡二叉树转化为
+// 1.空树
+// 2.左右子树深度差<=1
+// 3.所有子树的左右子树深度差<=1
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -50,4 +50,4 @@ class Solution {
         return Math.max(leftDeep, rightDeep) + 1;
     }
 }
-```
+// ```

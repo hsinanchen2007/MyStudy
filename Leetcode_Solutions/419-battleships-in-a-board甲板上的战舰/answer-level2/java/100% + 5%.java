@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int countBattleships(char[][] b) {
         int rs = 0;
@@ -38,4 +38,4 @@ class Solution {
         return rs;
     }
 }
-```
+// ```

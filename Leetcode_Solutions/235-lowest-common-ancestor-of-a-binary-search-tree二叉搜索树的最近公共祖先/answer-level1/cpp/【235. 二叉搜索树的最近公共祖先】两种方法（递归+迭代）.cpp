@@ -1,8 +1,8 @@
-## 思路一：递归
-### 代码
-时间复杂度：O(n)
-空间复杂度：O(n)
-```c++
+// ## 思路一：递归
+// ### 代码
+// 时间复杂度：O(n)
+// 空间复杂度：O(n)
+// ```c++
 class Solution {
 public:
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
@@ -18,14 +18,14 @@ public:
         return root;
     }
 };
-```
+// ```
 
-## 思路二：迭代
-将思路一递归转为迭代，降低空间复杂度。
-### 代码
-时间复杂度：O(n)
-空间复杂度：O(1)
-```c++
+// ## 思路二：迭代
+// 将思路一递归转为迭代，降低空间复杂度。
+// ### 代码
+// 时间复杂度：O(n)
+// 空间复杂度：O(1)
+// ```c++
 class Solution {
 public:
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
@@ -41,5 +41,5 @@ public:
         return root;
     }
 };
-```
+// ```
 

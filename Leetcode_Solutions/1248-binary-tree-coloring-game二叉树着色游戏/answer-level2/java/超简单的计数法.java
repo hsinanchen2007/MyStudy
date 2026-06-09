@@ -1,5 +1,5 @@
-后来居上：只要y能占据节点数量大于n/2的子树，或者x自己犯错误占据了节点数量小于n/2的子树，那么y就能获得胜利。
-```java
+// 后来居上：只要y能占据节点数量大于n/2的子树，或者x自己犯错误占据了节点数量小于n/2的子树，那么y就能获得胜利。
+// ```java
 class Solution {
     public boolean btreeGameWinningMove(TreeNode root, int n, int x) {
         TreeNode xNode = search(root, x);
@@ -31,4 +31,4 @@ class Solution {
         return search(root.right, x);
     }
 }
-```
+// ```

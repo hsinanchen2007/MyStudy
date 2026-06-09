@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public List<String> computeSimilarities(int[][] docs) {
         int len = docs.length;
@@ -28,4 +28,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

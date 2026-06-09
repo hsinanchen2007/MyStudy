@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def minSteps(n: Int): Int = {
     var t = n
@@ -12,4 +12,4 @@ object Solution {
     res
   }
 }
-```
+// ```

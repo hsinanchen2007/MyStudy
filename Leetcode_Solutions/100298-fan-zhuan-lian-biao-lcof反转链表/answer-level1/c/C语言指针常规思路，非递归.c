@@ -1,4 +1,4 @@
-```
+// ```
 struct ListNode* reverseList(struct ListNode* head){
     //将尾结点指向的NULL放在最左边，R指针放在L右边一个节点，用tmp记录R右边的一个节点
     //以便R和L指针右移。完成后L成为链表的头指针，返回L。
@@ -14,4 +14,4 @@ struct ListNode* reverseList(struct ListNode* head){
     
     return L;
 }
-```
+// ```

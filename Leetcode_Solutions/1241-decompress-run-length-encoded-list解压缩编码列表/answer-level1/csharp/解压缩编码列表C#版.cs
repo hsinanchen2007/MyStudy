@@ -1,11 +1,11 @@
-### 解题思路
-一开始读题是懵逼状态，后来看了大家的题解，才知道是要干啥
-1.循环数组
-2.循环奇数位次数
-3.返回偶数位的值
-### 代码
+// ### 解题思路
+// 一开始读题是懵逼状态，后来看了大家的题解，才知道是要干啥
+// 1.循环数组
+// 2.循环奇数位次数
+// 3.返回偶数位的值
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int[] DecompressRLElist(int[] nums) {
         List<int> deComint=new List<int>();
@@ -20,4 +20,4 @@ public class Solution {
     }
 }
 
-```
+// ```

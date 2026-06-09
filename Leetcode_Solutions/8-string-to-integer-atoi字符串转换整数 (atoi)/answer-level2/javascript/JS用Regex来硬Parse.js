@@ -1,9 +1,9 @@
-### 解题思路
-大概是最烂的解法吧。写了一个Regex然后强行匹配字符串，执行用时似乎还不错，就是内存有点惨
+// ### 解题思路
+// 大概是最烂的解法吧。写了一个Regex然后强行匹配字符串，执行用时似乎还不错，就是内存有点惨
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} str
  * @return {number}
@@ -25,4 +25,4 @@ var myAtoi = function(str) {
     return 0;
 
 };
-```
+// ```

@@ -1,5 +1,5 @@
-方法1：常规搜索算法
-```python []
+# 方法1：常规搜索算法
+# ```python []
 class Solution:
     def partition(self, s):
         result = []  # 最终结果
@@ -17,10 +17,10 @@ class Solution:
                     dfs(rest[e:], path + [rest[:e]])
         dfs(s, path)
         return result
-```
+# ```
 
-方法2：回溯法，在方法1的基础上稍作修改,
-```python []
+# 方法2：回溯法，在方法1的基础上稍作修改,
+# ```python []
 from copy import deepcopy
 class Solution:
     # 回溯法
@@ -37,10 +37,10 @@ class Solution:
                     path.pop()
         dfs(s)
         return res
-```
+# ```
 
-方法3：在方法2的基础上添加`动态规划`来提高速度
-```python []
+# 方法3：在方法2的基础上添加`动态规划`来提高速度
+# ```python []
 from copy import deepcopy
 class Solution:
     def partition(self, s):
@@ -61,4 +61,4 @@ class Solution:
 
         dfs(0, [])
         return res
-```
+# ```

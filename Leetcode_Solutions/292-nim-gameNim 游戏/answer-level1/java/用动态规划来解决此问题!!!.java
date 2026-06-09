@@ -1,8 +1,8 @@
-### 解题思路
-使用动态规划来解，超出内存限制...
-### 代码
+// ### 解题思路
+// 使用动态规划来解，超出内存限制...
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canWinNim(int n) {
         return (n % 4 != 0);
@@ -26,4 +26,4 @@ class Solution {
 //         }
 // }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-单独写了一个getMedian的函数，已经知道有多少项的情况下，可以做的很高效。
-```
+// 单独写了一个getMedian的函数，已经知道有多少项的情况下，可以做的很高效。
+// ```
 private double getMedian(int[] count, int cnt) {
         int c = 0;
         boolean even = (cnt % 2 == 0);
@@ -67,4 +67,4 @@ private double getMedian(int[] count, int cnt) {
         
         return res;
     }
-```
+// ```

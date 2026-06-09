@@ -1,14 +1,14 @@
-1. 解法 1
+// 1. 解法 1
 
-使用二项定理[二项式系数 - 维基百科，自由的百科全书](https://zh.wikipedia.org/wiki/%E4%BA%8C%E9%A0%85%E5%BC%8F%E4%BF%82%E6%95%B8)
-- 阶乘公式
-![](https://pic.leetcode-cn.com/8c2d41dd6f25b1210812152338dbeb82f7bd569f61415fa9b805d2d2c181f208-file_1565055811040)
-- 递归公式
-![](https://pic.leetcode-cn.com/c28cf0f606013884c0b6ca47c53a6cf87d822965dca8e14afb0a0032b1c11c14-file_1565055811046)
-- 乘数公式
-![](https://pic.leetcode-cn.com/21b0beafe966eeff25436844838bf3c907f33480f3c845c6040a8271e923bacc-file_1565055811048)
+// 使用二项定理[二项式系数 - 维基百科，自由的百科全书](https://zh.wikipedia.org/wiki/%E4%BA%8C%E9%A0%85%E5%BC%8F%E4%BF%82%E6%95%B8)
+// - 阶乘公式
+// ![](https://pic.leetcode-cn.com/8c2d41dd6f25b1210812152338dbeb82f7bd569f61415fa9b805d2d2c181f208-file_1565055811040)
+// - 递归公式
+// ![](https://pic.leetcode-cn.com/c28cf0f606013884c0b6ca47c53a6cf87d822965dca8e14afb0a0032b1c11c14-file_1565055811046)
+// - 乘数公式
+// ![](https://pic.leetcode-cn.com/21b0beafe966eeff25436844838bf3c907f33480f3c845c6040a8271e923bacc-file_1565055811048)
 
-```cpp
+// ```cpp
 class Solution {
 public:
     // int combination(int m, int n)
@@ -45,13 +45,13 @@ public:
         return ret;
     }
 };
-```
+// ```
 
-2. 解法 2
+// 2. 解法 2
 
-使用模拟构造（动态规划）
+// 使用模拟构造（动态规划）
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> generate(int numRows)
@@ -73,4 +73,4 @@ public:
         return ret;
     }
 };
-```
+// ```

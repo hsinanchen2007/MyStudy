@@ -1,9 +1,9 @@
-### 解题思路
-因为求最大的因子 那么首先就应该想到gcd算法，然后之间截取字符串就ok了
+// ### 解题思路
+// 因为求最大的因子 那么首先就应该想到gcd算法，然后之间截取字符串就ok了
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String gcdOfStrings(String str1, String str2) {
         if(!(str1 + str2).equals(str2 + str1)){
@@ -18,4 +18,4 @@ class Solution {
         return (a % b == 0) ? b : gcd(b, a % b);
     }
 }
-```
+// ```

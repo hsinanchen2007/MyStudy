@@ -1,6 +1,6 @@
 
 
-```java
+// ```java
 class Solution {
     public String compressString(String s) {
         int l = s.length();
@@ -26,4 +26,4 @@ class Solution {
         return sb.length() < l ? sb.toString() : s;
     }
 }
-```
+// ```

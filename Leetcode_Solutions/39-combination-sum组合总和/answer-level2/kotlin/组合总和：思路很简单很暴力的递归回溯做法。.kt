@@ -1,6 +1,6 @@
-### 解题思路
-思路很简单很暴力的递归回溯做法，本人语言表达能力不好，直接上例子步骤：
-```
+// ### 解题思路
+// 思路很简单很暴力的递归回溯做法，本人语言表达能力不好，直接上例子步骤：
+// ```
 输入：candidates = [2, 3, 6, 7], target = 7
 
 list = [] 保存一种组合
@@ -20,13 +20,13 @@ index 遍历candidates时开始的下标
 递归层2) index=1 -> 取candidates[2,'3',6,7] -> list=[3,3] -> sum=6 -> sum<target ->递归
 后续省略
 
-```
-如果每次递归都是从头遍历`candidates`的话，那么得到的结果就会有重复，所以利用`index`避免每次都从头开始遍历，以达到去重的目的。
-这种解法效率不怎样，但至少一遍过了。本人表达能力不好，已经尽力描述了。。。
+// ```
+// 如果每次递归都是从头遍历`candidates`的话，那么得到的结果就会有重复，所以利用`index`避免每次都从头开始遍历，以达到去重的目的。
+// 这种解法效率不怎样，但至少一遍过了。本人表达能力不好，已经尽力描述了。。。
 
-### 代码
+// ### 代码
 
-```kotlin
+// ```kotlin
 class Solution {
     val ans = ArrayList<ArrayList<Int>>()
     fun combinationSum(candidates: IntArray, target: Int): List<List<Int>> {
@@ -53,4 +53,4 @@ class Solution {
         }
     }
 }
-```
+// ```

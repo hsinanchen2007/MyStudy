@@ -1,8 +1,8 @@
-***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，持续更新。***
+// ***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，持续更新。***
 
-题目的不要求是子数组，所以直接使用Map来记录元素出现的次数，然后遍历Map求出差值为1的元素最大值即可。
+// 题目的不要求是子数组，所以直接使用Map来记录元素出现的次数，然后遍历Map求出差值为1的元素最大值即可。
 
-```
+// ```
 public int findLHS(int[] nums) {
     Map<Integer, Integer> map = new HashMap<>();
     for (int num : nums) {
@@ -17,4 +17,4 @@ public int findLHS(int[] nums) {
     }
     return res;
 }
-```
+// ```

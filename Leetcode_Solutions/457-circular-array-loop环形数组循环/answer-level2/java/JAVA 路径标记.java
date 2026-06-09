@@ -1,9 +1,9 @@
-### 解题思路
-因为题目限定nums[i]小于1000，因此选一个大于1000的数作为路径数的标记
+// ### 解题思路
+// 因为题目限定nums[i]小于1000，因此选一个大于1000的数作为路径数的标记
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean circularArrayLoop(int[] nums) {
         if(nums.length <2)return false;
@@ -29,4 +29,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

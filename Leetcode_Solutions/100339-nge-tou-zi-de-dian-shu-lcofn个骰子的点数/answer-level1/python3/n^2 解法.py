@@ -1,8 +1,8 @@
-Solution:
+# Solution:
 
-计算一个二维dp列表，这个二维dp列表的第一维度代表用了几个骰子，第二维度代表了数值达到几。
+# 计算一个二维dp列表，这个二维dp列表的第一维度代表用了几个骰子，第二维度代表了数值达到几。
 
-```
+# ```
 from collections import Counter
 import math
 class Solution:
@@ -26,4 +26,4 @@ class Solution:
         re = [dpdict[i,j] for j in range(i+1,6*(i+1)+1)]
         return re
 
-```
+# ```

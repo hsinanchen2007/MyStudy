@@ -1,6 +1,6 @@
-借助哈希表来存放树的和~ 和递归一样需要后序遍历
-时间复杂度为o(n) 空间复杂度也要o(n)
-```
+// 借助哈希表来存放树的和~ 和递归一样需要后序遍历
+// 时间复杂度为o(n) 空间复杂度也要o(n)
+// ```
 代码块
     int findTilt(TreeNode* root) {
         unordered_map<TreeNode*,int> mymap;
@@ -25,7 +25,7 @@
         }
         return totalsum;
     }
-```
+// ```
 
 
 

@@ -1,9 +1,9 @@
-# 解题思路
-1.初始化并查集;
-2.遍历并查集中的key,当key在集合中找到了key+1的key，那么将当前元素并入并查集中;
-3.返回最大集合长度。
-# 代码
-```python3
+# # 解题思路
+# 1.初始化并查集;
+# 2.遍历并查集中的key,当key在集合中找到了key+1的key，那么将当前元素并入并查集中;
+# 3.返回最大集合长度。
+# # 代码
+# ```python3
 from collections import defaultdict
 class Solution:
     def longestConsecutive(self, nums: list) -> int:
@@ -37,4 +37,4 @@ class Solution:
             if num + 1 in node.keys():
                 union(num, num + 1)
         return max(node_size.values())
-```
+# ```

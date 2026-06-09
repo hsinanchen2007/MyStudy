@@ -1,9 +1,9 @@
-### 解题思路
-最容易想到的思路：l2插入到l1中去，//三种情况1.头插2.中间插3.尾插//第一步找到插入位置（即为第一个比插入数大的数），第二步插入操作！
+// ### 解题思路
+// 最容易想到的思路：l2插入到l1中去，//三种情况1.头插2.中间插3.尾插//第一步找到插入位置（即为第一个比插入数大的数），第二步插入操作！
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -73,4 +73,4 @@ struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2)
 	}
 return head;
 }
-```
+// ```

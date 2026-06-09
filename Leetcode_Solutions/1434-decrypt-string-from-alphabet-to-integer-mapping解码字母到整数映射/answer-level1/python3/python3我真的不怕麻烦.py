@@ -1,5 +1,5 @@
-先建字典，然后反向遍历
-```
+# 先建字典，然后反向遍历
+# ```
 class Solution:
     def freqAlphabets(self, s: str) -> str:
         res = ''
@@ -17,4 +17,4 @@ class Solution:
         for i in tmp:
             res += d[i]
         return res
-```
+# ```

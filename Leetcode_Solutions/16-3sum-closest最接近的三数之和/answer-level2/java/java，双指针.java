@@ -1,5 +1,5 @@
-这道题目和三数之和几乎是一样的思想，没有什么差别。完全是换汤不换药。唯一的差别就是，使用一个min变量，记录全局中最接近target的三个数的和。然后返回min，当然，如果正好有三个数之和就是target，那么min此时就是target
-```
+// 这道题目和三数之和几乎是一样的思想，没有什么差别。完全是换汤不换药。唯一的差别就是，使用一个min变量，记录全局中最接近target的三个数的和。然后返回min，当然，如果正好有三个数之和就是target，那么min此时就是target
+// ```
     public int threeSumClosest(int[] nums, int target) {
         Arrays.sort(nums);
         int min=Integer.MAX_VALUE;
@@ -35,4 +35,4 @@
         }
         return res;
     }
-```
+// ```

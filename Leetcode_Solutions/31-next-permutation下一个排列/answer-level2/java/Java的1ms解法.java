@@ -1,10 +1,10 @@
 
-执行用时 :1 ms, 在所有 java 提交中击败了100.00%的用户
-内存消耗 :36.3 MB, 在所有 java 提交中击败了91.50%的用户
+// 执行用时 :1 ms, 在所有 java 提交中击败了100.00%的用户
+// 内存消耗 :36.3 MB, 在所有 java 提交中击败了91.50%的用户
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void nextPermutation(int[] nums) {
         boolean sign = false;
@@ -27,4 +27,4 @@ class Solution {
         if(!sign){Arrays.sort(nums);}
     }
 }
-```
+// ```

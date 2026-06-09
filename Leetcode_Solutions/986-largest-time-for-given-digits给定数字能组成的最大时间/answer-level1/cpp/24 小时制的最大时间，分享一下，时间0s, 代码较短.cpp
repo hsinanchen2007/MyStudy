@@ -1,5 +1,5 @@
-降序排序，由大到小的全排列（贪心），符合条件，就是答案了
-```
+// 降序排序，由大到小的全排列（贪心），符合条件，就是答案了
+// ```
 class Solution {
 public:
     string largestTimeFromDigits(vector<int>& A) {
@@ -16,4 +16,4 @@ public:
         return "";
     }
 };
-```
+// ```

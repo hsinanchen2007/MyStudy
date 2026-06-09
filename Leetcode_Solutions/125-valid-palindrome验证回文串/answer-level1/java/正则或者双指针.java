@@ -1,22 +1,22 @@
-## 思路:
+// ## 思路:
 
-思路一: 用正则提取字母和数字字符, 在取反比较
+// 思路一: 用正则提取字母和数字字符, 在取反比较
 
-思路二: 双指针
+// 思路二: 双指针
 
-## 代码:
+// ## 代码:
 
-思路一:
+// 思路一:
 
-```python [1]
+// ```python [1]
 def isPalindrome(self, s: str) -> bool:
         tmp = re.sub(r"[^A-Za-z0-9]","", s).lower()
         return tmp == tmp[::-1]
-```
+// ```
 
 
 
-```java [1]
+// ```java [1]
 class Solution {
     public boolean isPalindrome(String s) {
         String tmp = s.replaceAll("[^A-Za-z0-9]", "").toLowerCase();
@@ -24,11 +24,11 @@ class Solution {
         return tmp.equals(rev_tmp);
     }
 }
-```
+// ```
 
-思路二:
+// 思路二:
 
-```python [2]
+// ```python [2]
 def isPalindrome(self, s: str) -> bool:
         n = len(s)
         left = 0
@@ -43,9 +43,9 @@ def isPalindrome(self, s: str) -> bool:
             left += 1
             right -= 1
         return True
-```
+// ```
 
-```java [2]
+// ```java [2]
 class Solution {
     public boolean isPalindrome(String s) {
         char[] c = s.toCharArray();
@@ -61,5 +61,5 @@ class Solution {
         return true;
     }
 }
-```
+// ```
 

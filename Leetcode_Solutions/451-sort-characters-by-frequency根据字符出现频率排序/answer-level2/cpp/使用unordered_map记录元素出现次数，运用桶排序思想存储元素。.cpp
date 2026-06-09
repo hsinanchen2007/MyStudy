@@ -1,9 +1,9 @@
-### 解题思路
-使用unordered_map记录元素出现次数，运用桶排序思想存储元素。
+// ### 解题思路
+// 使用unordered_map记录元素出现次数，运用桶排序思想存储元素。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string frequencySort(string s) {
@@ -22,4 +22,4 @@ public:
         return res;
     }
 };
-```
+// ```

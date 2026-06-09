@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/456b0037258ba7726451e0dba67b8201223d4a5813cbfa5f37b6a229ebbd3df7-image.png)
+// ![image.png](https://pic.leetcode-cn.com/456b0037258ba7726451e0dba67b8201223d4a5813cbfa5f37b6a229ebbd3df7-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MY_SIZE 9
 #define MY_NUM_3 3
 #define MY_INVALID (-1)
@@ -88,4 +88,4 @@ bool isValidSudoku(char** board, int boardSize, int* boardColSize){
         isColValid(board, boardSize, boardColSize) &&
         isSqureValid(board, boardSize, boardColSize);
 }
-```
+// ```

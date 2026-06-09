@@ -1,9 +1,9 @@
-### 解题思路
-使用map存储距离信息
+// ### 解题思路
+// 使用map存储距离信息
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} points
  * @return {number}
@@ -49,4 +49,4 @@ function getDistance (p1, p2) {
 function getArrangementNum (n) {
     return n * (n - 1)
 }
-```
+// ```

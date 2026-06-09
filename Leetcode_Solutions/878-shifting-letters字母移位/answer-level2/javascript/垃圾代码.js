@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {string} S
  * @param {number[]} shifts
@@ -15,4 +15,4 @@ var shiftingLetters = function(S, shifts) {
     }
     return arr.join('')
 };
-```
+// ```

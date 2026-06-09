@@ -1,5 +1,5 @@
-按照老师的思路做的，有些吃内存
-```
+// 按照老师的思路做的，有些吃内存
+// ```
 /**
  * @param {string} str
  * @return {string[]}
@@ -38,4 +38,4 @@ var letterCombinations = function(str) {
   }
   return comb(code)
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -28,4 +28,4 @@ struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2){
     tail->next = (l1 == NULL)?l2:l1;
     return head->next;  
 }
-```
+// ```

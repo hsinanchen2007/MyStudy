@@ -1,7 +1,7 @@
-除去BFS和DFS还可以使用双向BFS，分别从start和end扩散，每次扩散长度小的，如果相遇了则找到变化次数。和普通BFS类似：）
+# 除去BFS和DFS还可以使用双向BFS，分别从start和end扩散，每次扩散长度小的，如果相遇了则找到变化次数。和普通BFS类似：）
 
-#### 代码
-```python3
+# #### 代码
+# ```python3
 class Solution:
     def minMutation(self, start: str, end: str, bank: List[str]) -> int:
         bank = set(bank)
@@ -33,4 +33,4 @@ class Solution:
                 front_queue, end_queue = end_queue, front_queue
         
         return -1
-```
+# ```

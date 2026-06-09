@@ -1,12 +1,12 @@
-### 解题思路
-1.提取strs[0]为第一项
-2.双层循环依次比较，即每次比较strs的item中的第 strs[0]的第[i]位是否相同
+// ### 解题思路
+// 1.提取strs[0]为第一项
+// 2.双层循环依次比较，即每次比较strs的item中的第 strs[0]的第[i]位是否相同
 
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} strs
  * @return {string}
@@ -46,4 +46,4 @@ var longestCommonPrefix = function (strs) {
     }
     return theSame
 };
-```
+// ```

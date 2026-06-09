@@ -1,4 +1,4 @@
-```
+// ```
 var maxDepthAfterSplit = function(seq) {
     let deps = [0,0];
     let maxDep = 0;
@@ -18,4 +18,4 @@ var maxDepthAfterSplit = function(seq) {
     }
     return rtn;
 };
-```
+// ```

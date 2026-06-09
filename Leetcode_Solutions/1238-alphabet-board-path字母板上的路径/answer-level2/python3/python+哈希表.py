@@ -1,9 +1,9 @@
-### 解题思路
-分情况讨论
+# ### 解题思路
+# 分情况讨论
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def alphabetBoardPath(self, target: str) -> str:
         d = {}
@@ -34,4 +34,4 @@ class Solution:
             ans += '!'
             start = cur
         return ans
-```
+# ```

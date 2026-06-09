@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-左移就是乘以2
-数字为32位
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 左移就是乘以2
+# 数字为32位
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverseBits(self, n: int) -> int:
         a=0
@@ -15,4 +15,4 @@ class Solution:
             n=n//2
         return a
 
-```
+# ```

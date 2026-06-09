@@ -1,9 +1,9 @@
-### 解题思路
-python3回溯解法
+# ### 解题思路
+# python3回溯解法
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:
         if not board:
@@ -35,4 +35,4 @@ class Solution:
 
         return False
 
-```
+# ```

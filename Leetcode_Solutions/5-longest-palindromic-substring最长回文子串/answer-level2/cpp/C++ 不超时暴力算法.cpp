@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     string longestPalindrome(const string& s) {
@@ -27,4 +27,4 @@ private:
         return true;
     }
 };
-```
+// ```

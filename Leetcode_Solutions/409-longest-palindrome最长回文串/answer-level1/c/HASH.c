@@ -1,9 +1,9 @@
-### 解题思路
-hash表！
+// ### 解题思路
+// hash表！
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int longestPalindrome(char * s){
     int stringBig[26] = {0};
     int stringSmall[26] = {0};
@@ -33,4 +33,4 @@ int longestPalindrome(char * s){
 
     return result + flag;
 }
-```
+// ```

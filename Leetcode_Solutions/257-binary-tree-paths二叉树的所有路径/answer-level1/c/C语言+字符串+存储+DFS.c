@@ -1,14 +1,14 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-字符串的运用：
-（1）sprintf将整数转为字符串；
-（2）strlen求字符串的长度；
-（3）strcat将dest复制到src的后边
+// 字符串的运用：
+// （1）sprintf将整数转为字符串；
+// （2）strlen求字符串的长度；
+// （3）strcat将dest复制到src的后边
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -78,4 +78,4 @@ char ** binaryTreePaths(struct TreeNode* root, int* returnSize){
     return arr;
 }
 
-```
+// ```

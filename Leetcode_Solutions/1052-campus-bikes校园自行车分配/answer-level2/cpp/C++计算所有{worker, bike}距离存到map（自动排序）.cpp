@@ -1,9 +1,9 @@
 
-使用一个有序的map结构：key为worker到bike的距离；value为{工人序号,自行车序号}的vector，
-遍历计算所有工人到所有自行车的距离，若有相同距离自然按照序号从小到大放到vector里，
-最后遍历这个有序的map，得到答案。
-其中使用了2个bool数组标记已使用过的工人和自行车。
-```
+// 使用一个有序的map结构：key为worker到bike的距离；value为{工人序号,自行车序号}的vector，
+// 遍历计算所有工人到所有自行车的距离，若有相同距离自然按照序号从小到大放到vector里，
+// 最后遍历这个有序的map，得到答案。
+// 其中使用了2个bool数组标记已使用过的工人和自行车。
+// ```
     vector<int> assignBikes(vector<vector<int>>& workers, vector<vector<int>>& bikes) {
         vector<int> ans(workers.size());
         map<int, vector<pair<int, int>>> distMap;
@@ -31,5 +31,5 @@
 
         return ans;
     }
-```
-![image.png](https://pic.leetcode-cn.com/5b59f36ad3d5b23d2f9cea1a535722889d10a115ba24b7bf0f70841b5c3370ec-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/5b59f36ad3d5b23d2f9cea1a535722889d10a115ba24b7bf0f70841b5c3370ec-image.png)

@@ -1,9 +1,9 @@
 
-![image.png](https://pic.leetcode-cn.com/e2de4849454f0a355b93e7eeca256c1b43b88598db3432311720b20638ec72a5-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e2de4849454f0a355b93e7eeca256c1b43b88598db3432311720b20638ec72a5-image.png)
 
-大数相加，每次处理一位
+// 大数相加，每次处理一位
 
-```
+// ```
 func addStrings(num1 string, num2 string) string {  // 大数加法
     ans := ""
     add := 0    // 进位
@@ -31,4 +31,4 @@ func addStrings(num1 string, num2 string) string {  // 大数加法
     }
     return ans
 }
-```
+// ```

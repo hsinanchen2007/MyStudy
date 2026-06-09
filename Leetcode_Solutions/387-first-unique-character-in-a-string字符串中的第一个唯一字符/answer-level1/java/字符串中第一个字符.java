@@ -1,6 +1,6 @@
-**方法一：**
-    通过map集合获取所有元素的重复次数，返回次数只有1的元素在字符串的最小下标。
-```java []
+// **方法一：**
+//     通过map集合获取所有元素的重复次数，返回次数只有1的元素在字符串的最小下标。
+// ```java []
 public int firstUniqChar(String s) {
          HashMap<Character, Integer> map = new HashMap<Character, Integer>();
          for (int i = 0; i < s.length(); i++) {
@@ -19,15 +19,15 @@ public int firstUniqChar(String s) {
          }
          return index;
      }
-```
+// ```
 
-**方法二：**
-      字符串封装的两个方法indexOf(c)是首次字符出现的下标。
-      lastIndexOf(c)是最后一次字符出现的下标。
-      两者相等说明字符唯一。
-      字符有可能都不重复。需要考虑这个情况。
+// **方法二：**
+//       字符串封装的两个方法indexOf(c)是首次字符出现的下标。
+//       lastIndexOf(c)是最后一次字符出现的下标。
+//       两者相等说明字符唯一。
+//       字符有可能都不重复。需要考虑这个情况。
       
-```java []
+// ```java []
  public int firstUniqChar(String s) {
         for (int i = 0; i < s.length(); i++) {
              char c = s.charAt(i);
@@ -35,7 +35,7 @@ public int firstUniqChar(String s) {
          }
          return -1;
     }
-```
-***比较二者时间复杂度：方法一 O(n^2) 方法二 O(n)
-比较二者空间复杂度：方法一 O(n)   方法二 O(1)***
+// ```
+// ***比较二者时间复杂度：方法一 O(n^2) 方法二 O(n)
+// 比较二者空间复杂度：方法一 O(n)   方法二 O(1)***
 

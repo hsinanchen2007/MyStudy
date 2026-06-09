@@ -1,9 +1,9 @@
-### 解题思路
-暴力
+# ### 解题思路
+# 暴力
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class MaxQueue:
     import queue
     def __init__(self):
@@ -17,4 +17,4 @@ class MaxQueue:
 
     def pop_front(self) -> int:
         return self.dq.popleft() if self.dq else -1
-```
+# ```

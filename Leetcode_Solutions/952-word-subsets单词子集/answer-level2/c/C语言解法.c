@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
- 思路： [update by 2020-3-29]
-    1、刚开始用A中的每一个子串suba，与B中的每个子串进行遍历比较，比较算法用hash计数统计。如果suba都包含了B的子串字母，则suba就是通用的。 但是这种算法第45个用例会超时，时间复杂度为0(A*B*sublen).
-    2、优化：先根据B的长度，定义一个数组merge[bsize][26], 先将B中每个字符串中字符出现的个数先统计保存在merge中。然后按照列，将每列中最大的字符个数cnt挑出来。将最大的个数放进一维数组hash[i] = cnt；然后用hash跟A中的字符串进行比较；时间复杂度y约为O(B*26) + O(A);
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+//  思路： [update by 2020-3-29]
+//     1、刚开始用A中的每一个子串suba，与B中的每个子串进行遍历比较，比较算法用hash计数统计。如果suba都包含了B的子串字母，则suba就是通用的。 但是这种算法第45个用例会超时，时间复杂度为0(A*B*sublen).
+//     2、优化：先根据B的长度，定义一个数组merge[bsize][26], 先将B中每个字符串中字符出现的个数先统计保存在merge中。然后按照列，将每列中最大的字符个数cnt挑出来。将最大的个数放进一维数组hash[i] = cnt；然后用hash跟A中的字符串进行比较；时间复杂度y约为O(B*26) + O(A);
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -134,4 +134,4 @@ char **wordSubsets(char **A, int ASize, char **B, int BSize, int* returnSize)
 
 
 
-```
+// ```

@@ -1,6 +1,6 @@
-# Recursive Approach
+// # Recursive Approach
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -25,10 +25,10 @@ public:
 private:
     vector<int> ans;
 };
-```
+// ```
 
-# Iterative Approach
-```cpp
+// # Iterative Approach
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -69,4 +69,4 @@ public:
       return ans;
     }
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-头插法
-![image.png](https://pic.leetcode-cn.com/e79ede42ff5e27c31f4a9296093705c3a74e9f28f00ba113bfe473ce056afab1-image.png)
+// ### 解题思路
+// 头插法
+// ![image.png](https://pic.leetcode-cn.com/e79ede42ff5e27c31f4a9296093705c3a74e9f28f00ba113bfe473ce056afab1-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -36,4 +36,4 @@ struct ListNode* reverseBetween(struct ListNode* head, int m, int n)
     }
     return reverHead.next;
 }
-```
+// ```

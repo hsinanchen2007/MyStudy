@@ -1,7 +1,7 @@
-# 暴力 dfs
-1. 计算时，如 [1.two-sum](https://leetcode-cn.com/problems/two-sum/) 的暴力法
+// # 暴力 dfs
+// 1. 计算时，如 [1.two-sum](https://leetcode-cn.com/problems/two-sum/) 的暴力法
 
-```golang
+// ```golang
 var res int
 var s int
 
@@ -32,12 +32,12 @@ func dfs(root *TreeNode, cur int) {
 		dfs(root.Right, cur)
 	}
 }
-```
+// ```
 
-# `前缀和（哈希表）` dfs
-1. 计算时，如 [1.two-sum](https://leetcode-cn.com/problems/two-sum/) 的哈希表
+// # `前缀和（哈希表）` dfs
+// 1. 计算时，如 [1.two-sum](https://leetcode-cn.com/problems/two-sum/) 的哈希表
 
-```golang
+// ```golang
 var s int
 var prefixSum map[int]int
 
@@ -59,8 +59,8 @@ func dfs(root *TreeNode, cur int) int {
 	prefixSum[cur]-- //取消前缀
 	return res
 }
-```
+// ```
 
-#
-[`Go版本 Github`](https://github.com/temporaries/leetcode)
+// #
+// [`Go版本 Github`](https://github.com/temporaries/leetcode)
 

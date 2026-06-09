@@ -1,15 +1,15 @@
-### 解题思路
-我的思路：
-和二叉树的后续遍历解法相同, 给出递归和迭代写法.
+# ### 解题思路
+# 我的思路：
+# 和二叉树的后续遍历解法相同, 给出递归和迭代写法.
 	
 
-复杂度分析：                                                             
-	• 时间复杂度：o(n)
-	• 空间复杂度：o(n)
+# 复杂度分析：                                                             
+# 	• 时间复杂度：o(n)
+# 	• 空间复杂度：o(n)
 
-### 代码
-递归
-```
+# ### 代码
+# 递归
+# ```
 class Solution:
     def postorder(self, root: 'Node') -> List[int]:
         result = []
@@ -24,10 +24,10 @@ class Solution:
 
         postHelper(root)
         return result
-```
+# ```
 
-迭代
-```
+# 迭代
+# ```
 class Solution:
     def postorder(self, root: 'Node') -> List[int]:
         if not root:
@@ -46,4 +46,4 @@ class Solution:
             
 
 
-```
+# ```

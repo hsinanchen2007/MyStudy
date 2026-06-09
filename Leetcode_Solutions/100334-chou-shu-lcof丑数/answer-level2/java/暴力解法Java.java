@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int nthUglyNumber(int n) {
         List<Integer> list=new ArrayList<>();
@@ -29,4 +29,4 @@ class Solution {
         return list.get(n-1);
     }
 }
-```
+// ```

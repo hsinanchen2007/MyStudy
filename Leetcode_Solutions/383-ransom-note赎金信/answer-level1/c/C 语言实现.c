@@ -1,5 +1,5 @@
-C 语言实现
-```C []
+// C 语言实现
+// ```C []
 bool canConstruct(char * ransomNote, char * magazine){
     int table[26] = {0};
     while (*ransomNote) table[*ransomNote++ - 'a']++;
@@ -7,4 +7,4 @@ bool canConstruct(char * ransomNote, char * magazine){
     for (int i = 0; i < 26; ++i) if (table[i] > 0) return false;
     return true;
 }
-```
+// ```

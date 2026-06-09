@@ -1,6 +1,6 @@
-注意下头结点的删除就好
+// 注意下头结点的删除就好
 
-```java
+// ```java
   public void deleteNode(ListNode node, int n) {
     if (node==null){
       return;
@@ -22,5 +22,5 @@
       node = node.next;
     }
   }
-```
+// ```
 

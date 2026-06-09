@@ -1,5 +1,5 @@
 
-```cpp
+// ```cpp
 class Solution {
 public:
     //二分法，不断将指数减半
@@ -23,4 +23,4 @@ public:
         return basicPow(x, N);
     }
 };
-```
+// ```

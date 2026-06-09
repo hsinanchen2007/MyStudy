@@ -1,7 +1,7 @@
-C++实现，刚开始以为题出的有问题，反复试了下值 发现是中序遍历后的第k个元素的值。1.可以直接中序遍历得到vector[k-1] 或count也可以
+// C++实现，刚开始以为题出的有问题，反复试了下值 发现是中序遍历后的第k个元素的值。1.可以直接中序遍历得到vector[k-1] 或count也可以
 
 
-```
+// ```
 // 第一种： 中序遍历
     int kthSmallest1(TreeNode* root, int k) {
         if (!root) return -1;
@@ -23,10 +23,10 @@ C++实现，刚开始以为题出的有问题，反复试了下值 发现是中�
        
         return vet[k-1];
     }
-```
+// ```
 
 
-```
+// ```
  // 第二种： 和第一种一样 就是不用vector 直接count标记
       int kthSmallest2(TreeNode* root, int k) {
         if (!root) return -1;
@@ -51,10 +51,10 @@ C++实现，刚开始以为题出的有问题，反复试了下值 发现是中�
 
             return -1;
       }
-```
+// ```
 
 
-```
+// ```
  // 第三种：递归 中序遍历
       int kthSmallest(TreeNode* root, int k) {
             if (!root) return -1;
@@ -77,6 +77,6 @@ C++实现，刚开始以为题出的有问题，反复试了下值 发现是中�
 
           bfs(node->right,k,res,cnt);
       }
-```
+// ```
 
 

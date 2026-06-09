@@ -1,13 +1,13 @@
-### 解题思路
-字符串、动态规划。
-状态转移方程：dp[i][j] = (s[i] == s[j]) and dp[i + 1][j - 1]，dp[i][j] 表示子串 s[i, j] 是否为回文子串。
-可以构建一个关系矩阵，横坐标为i，纵坐标为j。
+# ### 解题思路
+# 字符串、动态规划。
+# 状态转移方程：dp[i][j] = (s[i] == s[j]) and dp[i + 1][j - 1]，dp[i][j] 表示子串 s[i, j] 是否为回文子串。
+# 可以构建一个关系矩阵，横坐标为i，纵坐标为j。
  
-![image.png](https://pic.leetcode-cn.com/08e675930d8a7bba45488daef5cba09de49be94bafbdbcd9f0507329d694dcd2-image.png)
+# ![image.png](https://pic.leetcode-cn.com/08e675930d8a7bba45488daef5cba09de49be94bafbdbcd9f0507329d694dcd2-image.png)
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def longestPalindrome(self, s):
 
@@ -45,4 +45,4 @@ class Solution:
 
 
 
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-特别简单的回溯，就是从b开始了，就不考虑b以前的元素进行组合。
+# ### 解题思路
+# 此处撰写解题思路
+# 特别简单的回溯，就是从b开始了，就不考虑b以前的元素进行组合。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class CombinationIterator:
 
     def __init__(self, characters: str, combinationLength: int):
@@ -49,4 +49,4 @@ class CombinationIterator:
 # obj = CombinationIterator(characters, combinationLength)
 # param_1 = obj.next()
 # param_2 = obj.hasNext()
-```
+# ```

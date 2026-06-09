@@ -1,6 +1,6 @@
-## 思路：Trie树
-### 代码
-```c++
+// ## 思路：Trie树
+// ### 代码
+// ```c++
 struct TrieNode {
     TrieNode *children[26];
     bool flag;
@@ -49,5 +49,5 @@ public:
 private:
     TrieNode *root;
 };
-```
+// ```
 

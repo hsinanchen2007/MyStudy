@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
-![企业微信截图_15821855478763.png](https://pic.leetcode-cn.com/e0d47af7cd564e04bca8d764f7e40da80b9088ca7b6deeffa0c58c0cfab630b4-%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_15821855478763.png)
+// ### 代码
+// ![企业微信截图_15821855478763.png](https://pic.leetcode-cn.com/e0d47af7cd564e04bca8d764f7e40da80b9088ca7b6deeffa0c58c0cfab630b4-%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_15821855478763.png)
 
 
-```c
+// ```c
 int min(int a, int b) {
 	return a<b ? a : b;
 }
@@ -41,4 +41,4 @@ int minPathSum(int** grid, int gridSize, int* gridColSize){
 
 	return dp[col-1][row-1];
 }
-```
+// ```

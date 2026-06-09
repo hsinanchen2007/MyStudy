@@ -1,6 +1,6 @@
-执行用时 :3 ms, 在所有 java 提交中击败了99.00% 的用户
-内存消耗 :37.4 MB, 在所有 java 提交中击败了89.90%的用户
-```
+// 执行用时 :3 ms, 在所有 java 提交中击败了99.00% 的用户
+// 内存消耗 :37.4 MB, 在所有 java 提交中击败了89.90%的用户
+// ```
 class Solution {
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {
         List<List<Integer>> AL = new ArrayList();
@@ -41,4 +41,4 @@ class Solution {
         }
     }
 }
-```
+// ```

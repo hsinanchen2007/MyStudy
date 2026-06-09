@@ -1,5 +1,5 @@
-# 按照左括号的奇偶分组
-```
+// # 按照左括号的奇偶分组
+// ```
 int* maxDepthAfterSplit(char * seq, int* returnSize){
     int len = strlen(seq);
     *returnSize = len;
@@ -17,4 +17,4 @@ int* maxDepthAfterSplit(char * seq, int* returnSize){
     }
     return answer;
 }
-```
+// ```

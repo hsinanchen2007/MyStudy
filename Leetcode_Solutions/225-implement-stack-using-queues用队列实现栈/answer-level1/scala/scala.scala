@@ -1,4 +1,4 @@
-```scala
+// ```scala
 import scala.collection.mutable
 
 class MyStack() {
@@ -51,4 +51,4 @@ class MyStack() {
  * var param_3 = obj.top()
  * var param_4 = obj.empty()
  */
-```
+// ```

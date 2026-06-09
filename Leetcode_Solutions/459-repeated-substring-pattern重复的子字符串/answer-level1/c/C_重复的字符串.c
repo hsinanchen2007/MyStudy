@@ -1,10 +1,10 @@
-### 解题思路
-从 1~n/2 依次作为子串长度，为了保证循环，必然有母串长度length%约子串长度i==0
-设定子串长度i之后，依次对比母串中的字符s[j]和s[j%i]]
+// ### 解题思路
+// 从 1~n/2 依次作为子串长度，为了保证循环，必然有母串长度length%约子串长度i==0
+// 设定子串长度i之后，依次对比母串中的字符s[j]和s[j%i]]
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool repeatedSubstringPattern(char * s){
     int length=0;
     for(int i=0;s[i]!='\0';++i)++length;
@@ -23,4 +23,4 @@ bool repeatedSubstringPattern(char * s){
         }
     return false;
 }
-```
+// ```

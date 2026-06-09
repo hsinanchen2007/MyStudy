@@ -1,9 +1,9 @@
-### 解题思路
-将 num 转换为 int 的数组 arr，如 2374 转换为 []int{2,3,7,4};从最高位开始循环，设当前最高位为 i，从 arr[i+1:] 中找到最末尾的最大的数字的下标 j,如果 arr[i] < arr[j],则交换；否则 i++,继续。
+// ### 解题思路
+// 将 num 转换为 int 的数组 arr，如 2374 转换为 []int{2,3,7,4};从最高位开始循环，设当前最高位为 i，从 arr[i+1:] 中找到最末尾的最大的数字的下标 j,如果 arr[i] < arr[j],则交换；否则 i++,继续。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func maximumSwap(num int) int {
     arr := int2arr(num)
     n := len(arr)
@@ -46,4 +46,4 @@ func int2arr(num int)[]int{
 }
 
 
-```
+// ```

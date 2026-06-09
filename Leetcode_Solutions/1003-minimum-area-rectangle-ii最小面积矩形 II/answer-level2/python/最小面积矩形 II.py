@@ -1,16 +1,16 @@
-#### 方法一：枚举三角形
+# #### 方法一：枚举三角形
 
-**思路**
+# **思路**
 
-对于每一个三角形，我们尝试寻找第四个点并判定它们是否能形成一个矩形。
+# 对于每一个三角形，我们尝试寻找第四个点并判定它们是否能形成一个矩形。
 
-**算法**
+# **算法**
 
-假设前三个点分别是 `p1, p2, p3`，并且  `p2` 与 `p3` 在最终的矩形中处于对角位置。那么第四个点一定是 `p4 = p2 + p3 - p1`（向量计算），因为 `p1, p2, p4, p3` 一定形成一个平行四边形，满足 `p1 + (p2 - p1) + (p3 - p1) = p4`。
+# 假设前三个点分别是 `p1, p2, p3`，并且  `p2` 与 `p3` 在最终的矩形中处于对角位置。那么第四个点一定是 `p4 = p2 + p3 - p1`（向量计算），因为 `p1, p2, p4, p3` 一定形成一个平行四边形，满足 `p1 + (p2 - p1) + (p3 - p1) = p4`。
 
-如果计算得到的第四个点存在于给定的点集中（我们可以使用一个 `HashSet` 来判定是否存在），那么接下来我们应该判定平行四边形的某一个角的度数是否为 90 度。最简单的判定方法就是计算向量 `(p2 - p1)` 与 `(p3 - p1)` 的点积。（另一种方法是我们把它们都规范化成长度为 1 的向量，然后检查其中一个是否与另一个旋转 90 度相等）
+# 如果计算得到的第四个点存在于给定的点集中（我们可以使用一个 `HashSet` 来判定是否存在），那么接下来我们应该判定平行四边形的某一个角的度数是否为 90 度。最简单的判定方法就是计算向量 `(p2 - p1)` 与 `(p3 - p1)` 的点积。（另一种方法是我们把它们都规范化成长度为 1 的向量，然后检查其中一个是否与另一个旋转 90 度相等）
 
-```java [hEzYRLSC-Java]
+# ```java [hEzYRLSC-Java]
 import java.awt.Point;
 
 class Solution {
@@ -49,8 +49,8 @@ class Solution {
         return ans < Double.MAX_VALUE ? ans : 0;
     }
 }
-```
-```python [hEzYRLSC-Python]
+# ```
+# ```python [hEzYRLSC-Python]
 class Solution(object):
     def minAreaFreeRect(self, points):
         EPS = 1e-7
@@ -68,35 +68,35 @@ class Solution(object):
                         ans = area
 
         return ans if ans < float('inf') else 0
-```
+# ```
 
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度：$O(N^3)$，其中 $N$ 是点集 `points` 的大小。
+# * 时间复杂度：$O(N^3)$，其中 $N$ 是点集 `points` 的大小。
 
-* 空间复杂度：$O(N)$。
-
-
+# * 空间复杂度：$O(N)$。
 
 
 
----
-#### 方法二：枚举中心
 
-**思路**
 
-我们可以考虑一个矩形 `ABCD` 的对角线 `AC` 与 `BD`。它们共享同一个中点 `O`，并且中点到顶点的长度均相同 `dist(O, A) == dist(O, B) == dist(O, C) == dist(O, D)`。 注意到形成一个矩形的充分必要条件是两条对角线的中点相同且端点到中点距离也相同。
+# ---
+# #### 方法二：枚举中心
 
-由此得到启发，让我们可以将点对 `PQ` 按照它们的中点 `C` 与距中点距离 `r = dist(P, C)` 分类。我们的策略就是暴力枚举属于相同分类的点对。
+# **思路**
 
-**算法**
+# 我们可以考虑一个矩形 `ABCD` 的对角线 `AC` 与 `BD`。它们共享同一个中点 `O`，并且中点到顶点的长度均相同 `dist(O, A) == dist(O, B) == dist(O, C) == dist(O, D)`。 注意到形成一个矩形的充分必要条件是两条对角线的中点相同且端点到中点距离也相同。
 
-对于每一个点对，按照它们的 `中点` 与 `中点距` 进行分类。我们只需要记录其中一个点 `P` 就可以了，因为另一个点可以计算得出 `P' = 2 * center - P`（向量计算）。
+# 由此得到启发，让我们可以将点对 `PQ` 按照它们的中点 `C` 与距中点距离 `r = dist(P, C)` 分类。我们的策略就是暴力枚举属于相同分类的点对。
 
-对于每对 `中点` 与 `中点距`，我们检查每一个可行的矩形（假设两个点对分别为 `P, P', Q, Q'`）。这个矩形的面积 `dist(P, Q) * dist(P, Q')` 可作为一个候选答案。
+# **算法**
 
-```java [DYbWiAKp-Java]
+# 对于每一个点对，按照它们的 `中点` 与 `中点距` 进行分类。我们只需要记录其中一个点 `P` 就可以了，因为另一个点可以计算得出 `P' = 2 * center - P`（向量计算）。
+
+# 对于每对 `中点` 与 `中点距`，我们检查每一个可行的矩形（假设两个点对分别为 `P, P', Q, Q'`）。这个矩形的面积 `dist(P, Q) * dist(P, Q')` 可作为一个候选答案。
+
+# ```java [DYbWiAKp-Java]
 import java.awt.Point;
 
 class Solution {
@@ -142,8 +142,8 @@ class Solution {
         return ans < Double.MAX_VALUE ? ans : 0;
     }
 }
-```
-```python [DYbWiAKp-Python]
+# ```
+# ```python [DYbWiAKp-Python]
 class Solution(object):
     def minAreaFreeRect(self, points):
         points = [complex(*z) for z in points]
@@ -159,14 +159,14 @@ class Solution(object):
                 ans = min(ans, abs(P - Q) * abs(P - (2*center - Q)))
 
         return ans if ans < float("inf") else 0
-```
+# ```
 
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度：$O(N^2 \log N)$，其中 $N$ 是点集 `points` 的大小。可以证明，被分到同一类的点对数量的上界为 $\log N$ - [点击链接查看更多](https://en.wikipedia.org/wiki/Sum_of_squares_function#Particular_cases)。
+# * 时间复杂度：$O(N^2 \log N)$，其中 $N$ 是点集 `points` 的大小。可以证明，被分到同一类的点对数量的上界为 $\log N$ - [点击链接查看更多](https://en.wikipedia.org/wiki/Sum_of_squares_function#Particular_cases)。
 
-* 空间复杂度：$O(N^2)$。
+# * 空间复杂度：$O(N^2)$。
 
 
 
